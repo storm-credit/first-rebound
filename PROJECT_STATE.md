@@ -11,6 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3D Villanova NCAA eligibility and rotation verification`
 - 최근 설계 변경: `Villanova 2017-18 NCAA championship route`
+- 최근 병합: `PR #18 / e40ef331`
 
 ## 완료
 
