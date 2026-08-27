@@ -1,9 +1,12 @@
 # R02-3A Basketball Entry Motivation Review
 
 - 대상: 문제아 주인공의 농구부 진입·잔류·정착 동기
-- 판정: `PASS`
+- 판정: `HISTORICAL_PASS / ENTRY_STAGE_SUPERSEDED_BY_R02_3B`
 - 원고 게이트: `CLOSED`
 - R16 독립 검수 대체: `false`
+- 현행 검토: `reviews/R02_3B_TRUANCY_GAMING_ENTRY_REVIEW.md`
+
+> 이 문서는 v0.6 선택 이력이다. '학교생활 사고 뒤 관리형 기회'는 현행 정본이 아니며, v0.7의 지각·결석→체육관 회피→조건부 체험이 우선한다.
 
 ## 선택된 3단 인과
 
