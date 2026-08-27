@@ -39,3 +39,11 @@
 | 주인공·라이벌 천재성, BQ, 성장 규칙과 영구 한계 | `canon/TALENT_BQ_MODEL.md` | 다른 설정집은 링크만 유지 |
 | 천재성 4안 비교와 기각 사유 | `design/TALENT_BQ_OPTIONS.md` | CLOSED 결정 기록 |
 | R02-1 맹점·약한 해석 검토 | `reviews/R02_1_TALENT_BLINDSPOT_REVIEW.md` | R16 독립 검수 대체 아님 |
+
+## R02-2 추가 권위
+
+| 사실 종류 | 단일 권위 문서 | 비고 |
+|---|---|---|
+| 연표 4안과 추천 | `design/CAREER_TIMELINE_OPTIONS.md` | 사용자 선택 전 비정본 |
+| 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
+| 연표 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | O-09 자동 결정 금지 |

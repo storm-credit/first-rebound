@@ -78,3 +78,10 @@
 - 공식 규칙·당시 공식 기록·코치/선수 1차 발언을 우선
 - 유행 이름만 수집하지 않고 출전시간·역할·계약·매치업 변화로 번역
 - 한국 고교·프렙·AAU의 시대별 전술은 근거 확보 전 정본 확정 금지
+
+## R13 연표·자격 연구
+
+- 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
+- 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
+- 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 선택 대기
+- 다음 조사: 선택 프렙과 2017-18 NCAA 역사 규정으로 범위를 좁힌 뒤 수행
