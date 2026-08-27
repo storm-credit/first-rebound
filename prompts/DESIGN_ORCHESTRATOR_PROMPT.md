@@ -34,8 +34,9 @@
 8. `canon/PROJECT_FREEZE.md`
 9. `canon/WORLD_MODEL.md`
 10. `design/ERA_SELECTION.md`
-11. `research/RESEARCH_PROGRAM.md`
-12. `simulation/CAUSALITY_MODEL.md`
+11. `design/NARRATIVE_DEVICE_BUDGET.md`
+12. `research/RESEARCH_PROGRAM.md`
+13. `simulation/CAUSALITY_MODEL.md`
 
 그 뒤 중앙 두 저장소의 최신 `CLAUDE.md`, `CORE.md`, writing skill, sports module을 읽어라. 대화 기억보다 GitHub main을 우선한다.
 
@@ -69,6 +70,10 @@
 - 실제 팀·선수·경기를 주인공이 건드리면 원역사를 강제로 보존하지 말고 인과를 다시 계산하라.
 - 실존 선수를 주인공 칭찬용 카메오로 남발하지 마라.
 - 설계 변경은 별도 브랜치→검증→PR→병합→State 갱신 순서로 처리하라.
+- Act에는 주 작법 1~2개, Sub-Act에는 주 장치 1개와 필요 시 보조 1개만 배정하라.
+- 전역 PRIMARY 장치는 2개를 넘기지 말고 MacGuffin·Red Herring은 기본 비활성으로 두라.
+- 복선은 `Plant→Reminder/Variation→Payoff`를 기록하고, 회수가 현재 선택·관계·비용·보상 중 하나를 바꾸게 하라.
+- Hoffman Unity로 중심 질문과 무관한 좋은 아이디어·실존 스타 출연·설정을 삭제하거나 백스테이지로 내려라.
 
 ## 실행 순서
 
@@ -78,16 +83,18 @@
 4. R03 한국/프렙/NCAA/NBA 세계 고증
 5. R04 인물·관계·신체·기술 정본
 6. R05 결말과 주제 역산
-7. R06 역사 기준선과 나비효과 원장
-8. R07 합법적 참고작 딥리드와 House Style
-9. R08 Master Architecture
-10. R09 Act Map
-11. R10 Sub-Act Map
-12. R11 전체 회차 기능표
-13. R12 Context Pack
-14. R13 Unity/Traction Review
-15. R14 Independent Review
-16. R15 사용자 승인 후에만 Design Gate OPEN
+7. R06 House Style Lock
+8. R07 Narrative Device Budget·복선/회수 원장
+9. R08 합법적 참고작 딥리드와 Reference Craft
+10. R09 역사 기준선과 나비효과 원장
+11. R10 Master Architecture
+12. R11 Act Map
+13. R12 Sub-Act Map
+14. R13 Hoffman Unity Review
+15. R14 전체 회차 기능표
+16. R15 Context Pack
+17. R16 Independent/Traction Review
+18. R17 사용자 승인 후에만 Design Gate OPEN
 
 순서를 건너뛰지 마라. 앞 단계의 변경이 뒤 단계를 무효화하면 영향을 받은 산출물을 `STALE`로 표시하라.
 
