@@ -31,3 +31,11 @@
 | 전술·규칙 근거 | `research/TACTICAL_RESEARCH_LEDGER.md` | 공식 출처·적용일·확신도 |
 | 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | 정확한 팀·학교는 시뮬레이션 전 HOLD |
 | 국가대표·병역 선택 | `design/NATIONAL_TEAM_MILITARY_OPTIONS.md` | 법·대회 사실과 서사 선택 분리 |
+
+## v0.4 추가 권위
+
+| 사실 종류 | 단일 권위 문서 | 비고 |
+|---|---|---|
+| 주인공·라이벌 천재성, BQ, 성장 규칙과 영구 한계 | `canon/TALENT_BQ_MODEL.md` | 다른 설정집은 링크만 유지 |
+| 천재성 4안 비교와 기각 사유 | `design/TALENT_BQ_OPTIONS.md` | CLOSED 결정 기록 |
+| R02-1 맹점·약한 해석 검토 | `reviews/R02_1_TALENT_BLINDSPOT_REVIEW.md` | R16 독립 검수 대체 아님 |
