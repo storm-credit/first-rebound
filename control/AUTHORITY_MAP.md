@@ -49,3 +49,5 @@
 | 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
 | 연표 선택 전 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | 역사 기록 |
 | 동갑·동교·문제아·개발 경로 맹점 검토 | `reviews/R02_3_SAME_AGE_RIVAL_BLINDSPOT_REVIEW.md` | R16 독립 검수 대체 아님 |
+| 농구 입문·잔류·정착 동기 | `canon/STORY_BIBLE.md` | 정확한 학교 권한·사고 유형은 HOLD |
+| 농구 입문 동기 맹점 검토 | `reviews/R02_3A_BASKETBALL_ENTRY_REVIEW.md` | R16 독립 검수 대체 아님 |
