@@ -42,3 +42,11 @@
 - 코치, 단장, 에이전트, NCAA 관계자의 권한을 뒤섞지 않는다.
 - 실존 인물은 공개 기록 밖의 사적 악역으로 만들지 않는다.
 - 동일한 역할을 하는 인물이 둘이면 합치거나 차이를 명시한다.
+
+## 천재성·BQ 권위
+
+천재성 유형, BQ 단계, 성장 증명 규칙, 영구 한계는 이 문서에 중복하지 않는다.
+
+- 권위: `canon/TALENT_BQ_MODEL.md`
+- 선택 비교: `design/TALENT_BQ_OPTIONS.md`
+- 맹점 검토: `reviews/R02_1_TALENT_BLINDSPOT_REVIEW.md`
