@@ -19,5 +19,8 @@
 | D-015 | UNDER_REVIEW | 시작 연도와 드래프트 연도를 하나의 시대 패키지로 선택 | 2004·2008·2009·2012안 비교 |
 | D-016 | PROVISIONAL_RECOMMENDATION | 2009 NBA 드래프트 진입안 | 코비 후기 전성기, 아이버슨 말기, 르브론 전환기, 커리·하든 동기, 2011 레너드 등장 |
 | D-017 | LOCKED | 시대 확정 전 제목에 연도를 넣지 않는다 | 재설계와 제목 노후화 방지 |
+| D-018 | LOCKED | 서사 장치는 전역 PRIMARY 2개, Sub-Act 주 1개+선택 보조 1개로 제한 | 중앙 Narrative Devices/Unity 규칙 적용 |
+| D-019 | LOCKED | MacGuffin과 Red Herring은 기본 비활성 | 현실 스포츠 성장축에 불필요한 미스터리 과밀 방지 |
+| D-020 | LOCKED | Hoffman식 Unity를 Act/Sub-Act 뒤 필수 삭제 게이트로 사용 | 좋은데 불필요한 설정·인물·실존 스타 출연 제거 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
