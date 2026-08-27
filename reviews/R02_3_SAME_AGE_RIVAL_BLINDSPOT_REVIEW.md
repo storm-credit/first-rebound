@@ -1,9 +1,11 @@
-# R02-3 Same-Age Rival & Problem-Kid Blindspot Review
+# R02-3 Same-Age Rival & Problem-Kid Blindspot Review — Historical
 
 - 검토 대상: O-09 A-REFINED, 같은 학년·같은 학교, 문제아 주인공, G리그·코비 개발 경로
-- 판정: `PASS_WITH_RESEARCH_HOLDS`
+- 판정: `HISTORICAL / CAREER_PATH_SUPERSEDED_BY_R02_3C`
 - 원고 게이트: `CLOSED`
 - R16 독립 검수 대체: `false`
+
+> 동갑·동교 관계 검토는 유효하지만 주인공 NCAA와 라이벌 계획적 프렙 경로는 폐기됐다. 현행 검토는 `reviews/R02_3C_DIRECT_G_LEAGUE_INJURY_NCAA_REVIEW.md`다.
 
 | 맹점 | 위험 | 통제 |
 |---|---|---|
