@@ -17,22 +17,24 @@ last_reviewed: 2026-08-27
 
 | 게이트 | 요구 산출물 | 현재 |
 |---|---|---|
-| G01 핵심 정본 | 제목·장르·질문·성장축·결말 기능 | PASS |
+| G00 시대/제목 | 시작·프렙·NCAA·드래프트 시대 패키지와 정식 제목 | HOLD |
+| G01 핵심 정본 | 장르·질문·성장축·결말 기능 | PARTIAL_PASS |
 | G02 인물 정본 | 주인공·주요 인물·관계·욕망·결핍·권한 | NOT_STARTED |
 | G03 신체/기술 모델 | 키 성장·포지션·훈련·부상 한계 | NOT_STARTED |
-| G04 한국 농구 세계 | 1998~2001 학교·대회·스카우팅·문화 | NOT_STARTED |
-| G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | NOT_STARTED |
-| G06 NCAA 세계 | 2001~2004 당시 자격·규정·일정·리크루팅 | NOT_STARTED |
-| G07 NBA 세계 | 2004 드래프트·CBA·로스터·계약·미디어 | NOT_STARTED |
-| G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | NOT_STARTED |
+| G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | BLOCKED_BY_G00 |
+| G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | BLOCKED_BY_G00 |
+| G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | BLOCKED_BY_G00 |
+| G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | BLOCKED_BY_G00 |
+| G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | BLOCKED_BY_G00 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NOT_STARTED |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
-| G11 하우스 스타일 | 합법적 참고작 딥리드와 단일 문체 규약 | NOT_STARTED |
-| G12 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | NOT_STARTED |
-| G13 Context Pack | 생성 규칙·샘플·무결성 검사 | PARTIAL |
-| G14 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
-| G15 독립 검수 | 맹점·모순·정의 누락 검토 | NOT_STARTED |
-| G16 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
+| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
+| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | BLOCKED_BY_G00 |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | PARTIAL |
+| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
+| G16 독립 검수 | 맹점·모순·정의 누락 검토 | NOT_STARTED |
+| G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
 
 ## 개방 절차
 
