@@ -3,11 +3,12 @@
 - 기준일: 2026-08-27
 - 작품: 《처음 배운 것은 리바운드였다》
 - 저장소: `storm-credit/first-rebound`
-- 현재 단계: `FOUNDATION_SETUP`
+- 현재 단계: `FOUNDATION_READY_FOR_RESEARCH`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.1`
-- 현재 작업 브랜치: `design/foundation-v0.1`
+- 기준 브랜치: `main`
+- 기반 작업: `design/foundation-v0.1`
 
 ## 완료
 
@@ -18,6 +19,9 @@
 - [x] 원고 잠금 규칙 수립
 - [x] 문서 권위와 설계 워크플로 수립
 - [x] 역사 인과·나비효과 모델의 기본 규칙 수립
+- [x] Act의 임시 커리어 뼈대 작성
+- [x] Context Pack 생성 계약 작성
+- [x] 독립 검수 계약 작성
 
 ## 진행 전
 
