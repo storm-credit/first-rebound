@@ -130,13 +130,13 @@ HOLD/BLOCKER:
 
 ## 지금 수행할 첫 작업
 
-R02-1 천재성/BQ 모델은 완료됐다. 반복하거나 능력을 추가하지 말고 R02-2 연표 역산을 수행하라.
+R02-2 연표 4안과 공식 기준선은 준비됐다. O-09 사용자 선택을 받기 전 세부 연표를 잠그지 마라.
 
-1. `canon/TALENT_BQ_MODEL.md`와 `reviews/R02_1_TALENT_BLINDSPOT_REVIEW.md`를 읽는다.
-2. 2018 드래프트 자격에서 주인공의 출생월·고교 입문·프렙·NCAA 체류를 역산한다.
-3. 2020 1순위 라이벌의 재분류·프렙·2019-20 NCAA 경로를 같은 표에 놓는다.
-4. 각 단계에 확보되는 훈련 기간과 BQ 발현 범위를 매핑한다.
-5. 연표가 성장 모델을 감당하지 못하면 능력을 추가하지 말고 발현 시점·역할 범위를 줄인다.
-6. O-06 국가대표·병역 후보를 출생월·NBA 일정과 대조한다.
-7. 공식 규정이 없는 값은 HOLD로 남긴다.
-8. 원고·Act·Sub-Act는 작성하지 않는다.
+읽을 파일:
+
+1. `design/CAREER_TIMELINE_OPTIONS.md`
+2. `research/TIMELINE_ELIGIBILITY_LEDGER.md`
+3. `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md`
+4. `canon/TALENT_BQ_MODEL.md`
+
+사용자에게 A/B/C/D를 한눈에 보여 주고 B를 추천하라. 선택 뒤에만 생년월일·학년·프렙·NCAA·2018 AG 접점을 일 단위로 계산한다. 원고·Act·Sub-Act는 작성하지 않는다.
