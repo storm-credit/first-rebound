@@ -7,7 +7,7 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.5 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.6 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3 exact eligibility and same-school timeline verification`
 - 최근 병합: `PR #10 / c4f6fd13`
@@ -29,6 +29,8 @@
 - [x] O-09 A-REFINED: 동갑·동교 핵심 라이벌 선택
 - [x] 무목적·학업기피·충동적 허세형 문제아 주인공 기반 LOCK
 - [x] G리그·가상 스킬 트레이너·2019 코비 접점의 기능 경계 설정
+- [x] 학교 관리→라이벌 완패→첫 팀 기여의 농구 입문 3단 동기 LOCK
+- [x] R02-3A 입문 동기 맹점 검토 `PASS`
 
 ## 현재 결정 대기
 
@@ -45,6 +47,7 @@
 3. 라이벌의 2020 1순위는 실제 Minnesota를 자동 보존할 수 없다.
 4. 팬데믹은 라이벌 NCAA 포스트시즌과 드래프트 평가를 바꾸지만 작품 전체 주제가 되어서는 안 된다.
 5. 주인공을 슈팅·핸들·패스·수비가 모두 최상급인 무결점 윙으로 만들면 중심 질문이 붕괴한다.
+6. 운동부가 학교 징계를 지워 주는 특혜처럼 보이지 않도록 감독·담임·생활지도부 권한을 R03에서 검증해야 한다.
 
 ## 다음 게이트
 
