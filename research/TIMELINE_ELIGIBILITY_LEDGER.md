@@ -1,7 +1,7 @@
-# Timeline & Eligibility Evidence Ledger v0.2
+# Timeline & Eligibility Evidence Ledger v0.3
 
 - 기준일: 2026-08-27
-- 범위: R02-3 출생·학년·프렙·프리드래프트 G리그·NCAA·NBA 드래프트 연표
+- 범위: R02-3 출생·학년·프렙·Villanova NCAA·NBA 드래프트 연표
 - 상태: `PARTIAL_VERIFIED`
 
 | ID | 기준 | 확인 내용 | 설계 적용 | 출처 | 상태 |
@@ -21,13 +21,19 @@
 | E-012 | 드래프트 전 G리그 경로 | 고교·대학·해외 출신이 NBA Draft 선언 전 G리그에 들어오면 웨이버 풀에 합류하고 NBA Draft 자격은 유지하되 NBA 콜업은 불가 | 주인공은 NBA 배정·투웨이가 아닌 리그 계약 선수로 시즌을 보냄 | [NBA G League FAQ](https://gleague.nba.com/faq) | `VERIFIED_CURRENT / 2017-18 PROCEDURE_HOLD` |
 | E-013 | 고교 직행 선례 | 공식 G리그 드래프트 역사에 Latavious Williams가 고교에서 대학 대신 프로를 택해 G리그 뒤 NBA Draft된 선례로 기록 | 대학 없는 G리그→NBA Draft 경로의 제도적 가능성 확인 | [NBA G League Draft History](https://gleague.nba.com/nba-draft-history) | `VERIFIED_PRECEDENT` |
 
+| E-014 | 2017-18 Villanova 로스터 | Brunson, Bridges, DiVincenzo, Spellman, Paschall 등 실제 핵심 로스터 확인 | 주인공은 기존 공로를 대체하지 않는 후순위 포워드 역할에서 시작 | [Villanova Athletics](https://villanova.com/sports/mens-basketball/roster/2017-18) | `VERIFIED_BASELINE` |
+| E-015 | 2018 NCAA 우승 | Villanova는 36승 4패, 결승에서 Michigan을 79-62로 꺾고 우승 | 주인공의 대학 시즌 결말 기준선으로 유지하되 접촉 파급 재계산 | [Villanova 결승 기록](https://villanova.com/sports/mens-basketball/stats/2017-18/michigan-ncaa-championship-/boxscore/2696), [NCAA 우승 기록](https://www.ncaa.com/history/basketball-men/d1) | `VERIFIED_BASELINE` |
+| E-016 | 2018 Villanova 드래프트 | Bridges, DiVincenzo, Spellman, Brunson 네 명이 2018 NBA Draft에서 지명 | 주인공이 더해질 경우 실제 기록이 바뀌므로 가상 역사 파급으로 관리 | [Villanova Athletics](https://villanova.com/news/2018/6/21/Four_Wildcats_Selected_in_the_NBA_Draft_Most_in_Program_History) | `VERIFIED_BASELINE` |
+| E-017 | 2018 NCAA 대진 | Villanova는 West Virginia, Texas Tech, Kansas, Michigan을 차례로 상대 | 주인공의 대표 기여 경기는 이 중 하나만 R09에서 선택 | [Villanova 일정](https://villanova.com/sports/mens-basketball/schedule/2017-18), [NCAA 공식 브래킷](https://www.ncaa.com/brackets/basketball-men/d1/2018) | `VERIFIED_BASELINE` |
+
 ## RESEARCH_HOLD
 
 - 선택 프렙의 실제 입학·재분류·졸업·postgraduate 규정
+- 주인공의 2017-18 Villanova 초기 자격·핵심과목·아마추어리즘·장학금 역사 원문
 - 라이벌의 2018-20 NCAA 국제학생 핵심과목·아마추어리즘·레드셔츠 역사 원문
 - 주인공의 한국 고교→미국 프렙 학점 이전과 2017 졸업 인정 방식
+- Villanova 실제 포워드 로테이션에 주인공을 추가했을 때의 출전시간·기록·승패 파급
 - 두 선수의 대표팀 선발 당시 학적·계약·보험 상태
-- 2017-18 G리그 표준 계약·선수 풀·드래프트·웨이버 중 실제 진입 절차
 - NBA 드래프트의 정확한 생일·선언·졸업일 계산
 - 라이벌 장기 부상의 정확한 의학적 복귀 기간과 2018-19 학적
 - 2019년 주인공이 코비 훈련에 접근하는 구체적 초청·스폰서·트레이너 경로

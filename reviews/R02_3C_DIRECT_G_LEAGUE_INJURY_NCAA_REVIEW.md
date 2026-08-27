@@ -1,5 +1,7 @@
 # R02-3C Direct G League & Injury-NCAA Blindspot Review
 
+> 상태: `HISTORICAL / SUPERSEDED_BY_R02-3D`. 주인공의 프리드래프트 G리그 경로는 v0.9에서 폐기됐다.
+
 - 대상: 동갑·동교 라이벌의 분기 — 주인공 프리드래프트 G리그 / 라이벌 부상 후 NCAA
 - 판정: `PASS_WITH_MECHANISM_HOLDS`
 - 원고 게이트: `CLOSED`
