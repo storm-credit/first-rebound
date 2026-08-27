@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.4 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R02-2 career timeline options / O-09 decision`
-- 최근 병합: `PR #6 / 3fb751e2`
+- 최근 병합: `PR #8 / 17461ac2`
 
 ## 완료
 
