@@ -22,3 +22,12 @@
 ## Obsidian 사용
 
 저장소 루트를 vault로 연다. 문서는 상대 경로 또는 위키링크로 연결하되, 링크 수를 늘리기 위해 같은 사실을 중복 작성하지 않는다. 개인 UI 상태인 `.obsidian/workspace*.json`은 버전 관리하지 않는다.
+
+## v0.3 추가 권위
+
+| 사실 종류 | 단일 권위 문서 | 비고 |
+|---|---|---|
+| 시대별 전술 성장·카운터 | `design/TACTICAL_EVOLUTION_MAP.md` | Sub-Act당 핵심 전술 문제 1개 |
+| 전술·규칙 근거 | `research/TACTICAL_RESEARCH_LEDGER.md` | 공식 출처·적용일·확신도 |
+| 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | 정확한 팀·학교는 시뮬레이션 전 HOLD |
+| 국가대표·병역 선택 | `design/NATIONAL_TEAM_MILITARY_OPTIONS.md` | 법·대회 사실과 서사 선택 분리 |
