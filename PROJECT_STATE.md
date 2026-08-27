@@ -9,7 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.3 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `design/lock-2018-national-team-v0.3`
+- 현재 작업: `R02 timeline + tactical foundation`
+- 최근 병합: `PR #4 / fca7c572`
 
 ## 완료
 
