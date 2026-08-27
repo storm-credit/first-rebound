@@ -4,12 +4,12 @@
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
-- 현재 단계: `ERA_SELECTION_GATE`
+- 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.2 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.3 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `design/modern-era-shortlist-v0.3`
+- 현재 작업: `design/lock-2018-national-team-v0.3`
 
 ## 이번 단계에서 완료
 
@@ -54,3 +54,15 @@
 ## 다음 게이트
 
 `design/ERA_SELECTION.md`의 현대 4안을 사용자와 검토해 E0 하나를 `LOCKED`로 바꾼다. 그 전에는 연도별 상세 고증·Act 상세화·원고를 시작하지 않는다.
+
+## R02 현재 판정
+
+- [x] 2018 NBA Draft E0 LOCK
+- [x] 코비 사망·팬데믹 외부 고정축 분류
+- [x] 핵심 라이벌의 별도 NBA 성공과 2020 1순위 고수준 경로 LOCK
+- [x] 전술 진화 지도와 전술 연구 원장 생성
+- [ ] 출생월·학년·재분류·프렙·NCAA 체류 연표 확정
+- [ ] 2018 아시안게임과 병역 경로 확정
+- [ ] 라이벌 정확한 프렙·대학·2020 1순위 팀 시뮬레이션
+
+원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
