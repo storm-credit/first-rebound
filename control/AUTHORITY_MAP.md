@@ -44,6 +44,8 @@
 
 | 사실 종류 | 단일 권위 문서 | 비고 |
 |---|---|---|
-| 연표 4안과 추천 | `design/CAREER_TIMELINE_OPTIONS.md` | 사용자 선택 전 비정본 |
+| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | 정확한 날짜·학교·팀은 RESEARCH_HOLD |
+| 연표 4안과 선택 이력 | `design/CAREER_TIMELINE_OPTIONS.md` | O-09 CLOSED |
 | 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
-| 연표 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | O-09 자동 결정 금지 |
+| 연표 선택 전 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | 역사 기록 |
+| 동갑·동교·문제아·개발 경로 맹점 검토 | `reviews/R02_3_SAME_AGE_RIVAL_BLINDSPOT_REVIEW.md` | R16 독립 검수 대체 아님 |

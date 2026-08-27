@@ -57,6 +57,9 @@
 - 천재성/BQ 상세 권위: `canon/TALENT_BQ_MODEL.md`
 - 결말 기능은 파이널 7차전 수비→리바운드→전진→동료 결승 득점 패스
 - 2026년 이후는 SIMULATED FUTURE로 분리
+- O-09 A-REFINED LOCKED: 주인공·라이벌은 같은 1999년생, 같은 학년, 같은 고교 농구부에서 출발
+- 주인공은 꿈·학업 동기가 없는 충동적 허세형 문제아
+- 고수준 연표 권위: `canon/CAREER_TIMELINE.md`
 - 원고 게이트: CLOSED
 
 1998·2004·2009를 살아 있는 추천 정본처럼 사용하지 마라.
@@ -130,13 +133,12 @@ HOLD/BLOCKER:
 
 ## 지금 수행할 첫 작업
 
-R02-2 연표 4안과 공식 기준선은 준비됐다. O-09 사용자 선택을 받기 전 세부 연표를 잠그지 마라.
+R02-3에서 A-REFINED의 위험한 연결부만 검증하라. O-09를 다시 4안으로 열지 마라.
 
-읽을 파일:
-
-1. `design/CAREER_TIMELINE_OPTIONS.md`
-2. `research/TIMELINE_ELIGIBILITY_LEDGER.md`
-3. `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md`
-4. `canon/TALENT_BQ_MODEL.md`
-
-사용자에게 A/B/C/D를 한눈에 보여 주고 B를 추천하라. 선택 뒤에만 생년월일·학년·프렙·NCAA·2018 AG 접점을 일 단위로 계산한다. 원고·Act·Sub-Act는 작성하지 않는다.
+1. `canon/CAREER_TIMELINE.md`와 `reviews/R02_3_SAME_AGE_RIVAL_BLINDSPOT_REVIEW.md`를 읽는다.
+2. 1999년생 주인공의 정확한 생일·2017 미국 졸업·2017-18 NCAA 역사 자격·2018 Draft 연령을 일 단위로 검증한다.
+3. 공부를 싫어하는 문제아가 NCAA 자격을 얻기 위해 치르는 튜터·핵심과목·학업보호관찰 비용을 세계 규칙으로 설계한다.
+4. 같은 학교에서 함께 뛰는 2015 시즌과 주인공의 2016 미국 이동을 실제 한국 학년·대회 일정에 맞춘다.
+5. 2018 Summer League·아시안게임·NBA 캠프·G리그 배정 일정을 한 표에서 충돌 검사한다.
+6. 2019 코비 접점은 실제 접근 경로가 확보되지 않으면 `ACCESS_HOLD`를 유지한다.
+7. 원고·Act·Sub-Act는 작성하지 않는다.
