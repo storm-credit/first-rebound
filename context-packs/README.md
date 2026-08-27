@@ -18,6 +18,14 @@ timeline_window:
 pov_character:
 entry_state:
 episode_function:
+act_question:
+subact_question:
+primary_narrative_device:
+secondary_device_optional:
+active_setup:
+payoff_or_defer:
+reader_expected_question:
+do_not_explain_device: true
 allowed_facts:
 required_historical_events:
 relationship_state:
@@ -33,6 +41,8 @@ integrity_status:
 ## 무결성 규칙
 
 - 모든 사실에 원본 문서 링크와 버전이 있어야 함
+- 현재 회차에서 활성화되지 않는 장치와 복선은 Pack에 넣지 않음
+- Sub-Act 주 장치 1개와 선택 보조 1개 예산을 초과하지 않음
 - Context Pack과 정본이 충돌하면 정본이 승리
 - 사건 날짜와 선수 신체 상태가 연표와 일치
 - 인물은 실제 권한 밖의 정보를 알거나 명령하지 않음
