@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.8 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3C direct G League entry and rival injury-NCAA verification`
-- 최근 병합: `PR #15 / 5053b724`
+- 최근 병합: `PR #16 / 1ea9baff`
 
 ## 완료
 
