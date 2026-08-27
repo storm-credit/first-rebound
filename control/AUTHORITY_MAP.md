@@ -10,6 +10,7 @@
 | 사실 근거·출처·접근 상태 | `research/RESEARCH_PROGRAM.md` 및 연구 원장 | 주장마다 날짜와 출처 |
 | 원역사와 나비효과 | `simulation/CAUSALITY_MODEL.md` 및 사건 원장 | 접촉 후 재계산 |
 | 결말과 주제 | `design/ENDING_THEME.md` | 구조의 역산 기준 |
+| 서사 장치·복선·회수 예산 | `design/NARRATIVE_DEVICE_BUDGET.md` | 장치 선택과 과잉 방지의 단일 권위 |
 | 전체 구조 | `design/MASTER_ARCHITECTURE.md` | Act/Sub-Act 문서의 상위 규칙 |
 | Act 기능 | `design/ACT_MAP.md` | DRAFT 상태 |
 | Sub-Act 기능 | `design/SUB_ACT_MAP.md` | 미완료 |
