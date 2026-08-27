@@ -29,3 +29,12 @@ A안을 택하면 군 문제 해결만을 위한 이벤트로 끝내지 않는�
 - 대표팀 예비·최종 명단, 경기 일정, 실제 토너먼트
 - NBA 계약·구단 허가·보험·부상 위험
 - 출생월과 국외여행허가 적용 시점
+
+## 1차 공식 근거
+
+- [국가법령정보센터 — 병역법 시행령 예술체육요원 편입 기준](https://www.law.go.kr/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=112573)
+- [국가법령정보센터 — 2018년 당시 시행령](https://www.law.go.kr/lsInfoP.do?lsiSeq=205857)
+- [병무청 — 예술체육요원 복무 안내](https://www.mma.go.kr/contents.do?mc=mma0000758)
+- [병무청 — 국외여행허가](https://www.mma.go.kr/contents.do?mc=usr0000186)
+- [FIBA — 국가대표 선수 보험](https://about.fiba.basketball/en/news/new-worldwide-fiba-insurance-extends-and-enhances-cover-for-national-team-players)
+- [2018 Asian Games 남자농구 동메달 결과](https://en.antaranews.com/news/118104/asian-games-basketball-s-korea-wins-bronze-medal-after-defeating-chinese-taipei)
