@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.5 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3 exact eligibility and same-school timeline verification`
-- 최근 병합: `PR #8 / 17461ac2`
+- 최근 병합: `PR #10 / c4f6fd13`
 
 ## 완료
 
