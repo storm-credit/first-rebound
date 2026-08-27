@@ -28,12 +28,13 @@ last_reviewed: 2026-08-27
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | BLOCKED_BY_G00 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NOT_STARTED |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
-| G11 하우스 스타일 | 합법적 참고작 딥리드와 단일 문체 규약 | NOT_STARTED |
-| G12 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | BLOCKED_BY_G00 |
-| G13 Context Pack | 생성 규칙·샘플·무결성 검사 | PARTIAL |
-| G14 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
-| G15 독립 검수 | 맹점·모순·정의 누락 검토 | NOT_STARTED |
-| G16 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
+| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
+| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | BLOCKED_BY_G00 |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | PARTIAL |
+| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
+| G16 독립 검수 | 맹점·모순·정의 누락 검토 | NOT_STARTED |
+| G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
 
 ## 개방 절차
 
