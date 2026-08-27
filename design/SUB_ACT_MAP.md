@@ -14,7 +14,7 @@ goal:
 pressure:
 primary_device:
 secondary_device_optional:
-baseball_or_basketball_question:
+basketball_question:
 institutional_constraint:
 relationship_in_play:
 irreversible_choice:
@@ -25,8 +25,6 @@ research_dependencies:
 continuity_checks:
 status:
 ```
-
-`baseball_or_basketball_question` 필드명은 이 프로젝트에서 반드시 `basketball_question`으로 사용한다.
 
 ## 설계 규칙
 
