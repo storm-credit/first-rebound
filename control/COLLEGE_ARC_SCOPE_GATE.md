@@ -1,6 +1,6 @@
 # College Arc Scope Gate v1.0
 
-- 상태: `MINIMUM_COMPLETION_SELECTED`
+- 상태: `COLLEGE_ARC_SCOPE_COMPLETE`
 - 범위: 미국 프렙 이후 2017-18 Villanova 대학 구간의 설계 깊이 통제
 - 원고 게이트: `CLOSED`
 
@@ -34,7 +34,17 @@
    - 누가 언제 발견하고, 어떤 영상·캠프·추천으로 Villanova가 평가하며, 장학금 선수로 들어가는지만 한 줄 인과로 잠근다.
    - 모든 오퍼 대학·랭킹·방문 일정을 만들지 않는다.
 
-이 세 항목이 `PASS`면 `COLLEGE_ARC_SCOPE_COMPLETE`로 닫고 다음 대분기로 이동한다.
+세 항목은 `research/COLLEGE_EXIT_PACKET.md`에서 `PASS_WITH_INDIVIDUAL_CERTIFICATION_HOLD`를 받았다. 개별 과목 환산·정확한 시험점수·장학금 counter 감사는 사용 시점 정확성 HOLD로 이관하고, 대학 구간은 `COLLEGE_ARC_SCOPE_COMPLETE`로 닫는다.
+
+## 종료 패킷 결과
+
+| 항목 | 확정 결과 |
+|---|---|
+| 프렙 연결 | 가상 뉴잉글랜드 소규모 보딩 프렙, 2016년 3월 편입, 2017년 5~6월 7학기 조기졸업 |
+| 자격 범주 | 16개 핵심과목·10/7·2.300+·SAT/ACT·졸업·인증 구조, SAT 1280~1320 안전선 |
+| 영입·장학금 | 프렙 감독 추천→허용된 기간의 실전 평가→2017년 봄 늦은 체육장학금 |
+
+대학 관련 새 정보는 아래 중단 규칙의 재개 조건을 충족하지 않으면 추가하지 않는다.
 
 ## 이미 충분히 설계된 것
 

@@ -1,9 +1,11 @@
 # Villanova 2017-18 Eligibility & Rotation Model v1.0
 
-- 상태: `PARTIAL_VERIFIED / COURSE_EQUIVALENCY_HOLD`
+- 상태: `FOUNDATION_PASS / COLLEGE_ARC_SCOPE_COMPLETE`
 - 범위: 주인공의 2017 NCAA Division I 신입 출전 자격과 Villanova 실제 로테이션 삽입 비용
 - 원고 게이트: `CLOSED`
-- 정본 적용: 자격의 필수 구조와 역할 범위만 잠금. 학교명·과목별 환산·개별 경기 수치는 `HOLD`
+- 정본 적용: 자격의 필수 구조와 역할 범위, 프렙 유형·범주별 자격·영입 경로를 잠금. 교명·과목별 환산·개별 경기 수치는 `HOLD`
+
+> 프렙 연결·범주별 자격·Villanova 영입의 종료 패킷은 `research/COLLEGE_EXIT_PACKET.md`가 권위다.
 
 ## 결론
 
@@ -119,9 +121,9 @@ Villanova는 이 경기에서 3점슛 24개 중 4개만 성공했지만 51-33 �
 
 ## 남은 HOLD
 
-- 선택 프렙 실명·NCAA approved course list·입학과 졸업 규정
-- 한국 중3·고1 과목별 NCAA core-course 환산
-- 2017 SAT/ACT 실제 점수와 Villanova 자체 입학 기준
-- athletics scholarship 슬롯과 National Letter of Intent·늦은 리크루팅 경로
+- 가상 프렙 정식 교명·NCAA approved course list·개별 졸업 감사
+- 한국 중3·고1 개별 과목의 NCAA core-course 환산
+- SAT 1280~1320 범위 안의 정확한 점수와 Villanova 내부 입학 판단
+- athletics scholarship counter 최종 감사와 정확한 National Letter of Intent 일자
 - Texas Tech전 정확한 개인 기록과 기존 선수 분 재분배
 - 2018 Draft 순번·팀·워크아웃 일정

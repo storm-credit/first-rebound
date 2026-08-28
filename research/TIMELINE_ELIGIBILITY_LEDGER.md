@@ -29,6 +29,10 @@
 | E-019 | 국제·미국 혼합 학적 | 국제학생의 학교는 공식 학업 기록과 보조 서류를 제출해야 하며, 현재 안내는 9학년 이후 미국 과목 이수 시 10/7을 적용 | 한국·프렙 기록을 모두 제출하고 10/7 예외를 사용하지 않는 보수적 경로 | [NCAA 국제학생](https://www.ncaa.org/eligibility-center/initial-eligibility-requirements/international-student-athletes/), [NCAA D-I](https://www.ncaa.org/eligibility-center/initial-eligibility-requirements/division-i/) | `VERIFIED_CURRENT / 2017 CASE_HOLD` |
 | E-020 | Villanova 실제 분 예산 | 40경기 총 8,075분. Bridges 1,285, Paschall 1,133, Spellman 1,125, Cosby-Roundtree 453, Samuels 153분 | 주인공 분은 기존 선수 분에서 재배분하며 8.5~10.5분 안전선 사용 | [Villanova 누적 통계](https://villanova.com/sports/mens-basketball/stats/2017-18) | `VERIFIED_BASELINE / SIMULATION_PENDING` |
 | E-021 | Texas Tech전 | Villanova 71-59 승리, 3점 4/24, 리바운드 51-33. Paschall 14, Cosby-Roundtree 7리바운드 | 주인공 대표 기능을 박스아웃·스위치·팀 리바운드로 선택하고 실제 중심 공로 유지 | [Villanova 공식 박스스코어](https://villanova.com/sports/mens-basketball/stats/2017-18/texas-tech/boxscore/2694) | `VERIFIED_BASELINE / PLAYER_LINE_HOLD` |
+| E-022 | 한국 학년 달력 | 한국 학교는 3월에 1학기, 8월 말에 2학기를 시작 | 2016년 2월 고1 이수 뒤 3월 미국 편입 연표의 기준 | [대한민국 교육부](https://english.moe.go.kr/sub/infoRenewal.do?m=0301&page=0301&s=english) | `VERIFIED_BASELINE` |
+| E-023 | Villanova 2017 입학생 시험 분포 | SAT 제출자 중간 50% EBRW 630~710·Math 640~740, ACT 30~33 | SAT 1280~1320을 입학 안전선으로 선택 | [Villanova Common Data Set 2017-18](https://www1.villanova.edu/content/dam/villanova/enroll/registrar/CDS_2017-2018_v5.pdf) | `VERIFIED_BASELINE` |
+| E-024 | 2017 봄 늦은 Villanova 영입 | Collin Gillespie 공식 약력은 2017년 4월 NLI 체결을 기록 | 주인공의 늦은 봄 장학금 영입 가능 기준선. 동일 날짜 복제 금지 | [Villanova 공식 약력](https://villanova.com/sports/mens-basketball/roster/collin-gillespie/12213) | `VERIFIED_BASELINE / FICTIONAL_ROUTE` |
+| E-025 | 뉴잉글랜드 보딩 프렙 유형 | St. Thomas More는 인증된 college-preparatory boarding school이며 국제학생·학업지원·농구 기능을 둠 | 실존 학교가 아닌 가상 합성 프렙의 기능 근거 | [St. Thomas More](https://stmct.org/), [국제학생 안내](https://stmct.org/international-students/) | `VERIFIED_CURRENT_MODEL / 2016_DETAIL_HOLD` |
 
 ## RESEARCH_HOLD
 
