@@ -32,7 +32,7 @@
 | R3 | NCAA | 국제학생 자격, 학업, 접촉, 장학, NIL/이적 규정 | 당시 NCAA 규정 | BLOCKED |
 | R4 | NBA 드래프트 | 자격, 선언, 워크아웃, 계약, 로스터 | 당시 NBA/CBA/기록 | BLOCKED |
 | R5 | 시대 전술 | 수비 규칙, 포지션 평가, 스페이싱, 분석 | 규칙·영상·코치 자료 | BLOCKED |
-| R6 | 신체 성장 | 청소년 성장·체중·부상·훈련 한계 | 의학/스포츠과학 | NOT_STARTED |
+| R6 | 신체 성장 | 청소년 성장·체중·부상·훈련 한계 | 의학/스포츠과학 | PARTIAL — 라이벌 ACL 기준선 |
 | R7 | 문화 | 한국계/국제선수의 학교·라커룸·미디어 경험 | 당시 인터뷰/회고 | BLOCKED |
 | R8 | 경제/미디어 | 에이전트, 신발, 방송, SNS, NIL | CBA·당시 보도 | BLOCKED |
 | R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | BLOCKED |
@@ -83,5 +83,5 @@
 
 - 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
 - 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
-- 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 선택 대기
-- 다음 조사: 선택 프렙과 2017-18 NCAA 역사 규정으로 범위를 좁힌 뒤 수행
+- 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 CLOSED
+- 다음 조사: 라이벌 NCAA 대학 4안과 2018-19 장학금·레드셔츠 역사 규정으로 범위를 좁힌 뒤 수행

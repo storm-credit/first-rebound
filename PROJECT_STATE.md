@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.12 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.13 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3H college exit packet complete; rival injury route next`
-- 최근 설계 변경: `fictional New England prep + 7-semester graduation + Villanova scholarship route`
+- 현재 작업: `R02-3I rival ACL/redshirt route complete; rival NCAA school selection next`
+- 최근 설계 변경: `2017 right ACL tear + 2018-19 NCAA zero-game redshirt + 2019-20 comeback`
 - 최근 병합: `PR #26 / 39e95af`
 
 ## 완료
@@ -44,6 +44,9 @@
 - [x] NCAA 범주별 16개·10/7 충족 구조와 SAT 1280~1320 안전선
 - [x] 프렙 감독 추천→실전 평가→2017년 봄 Villanova 체육장학금 한 경로
 - [x] `COLLEGE_ARC_SCOPE_COMPLETE` — 대학 세부 설계 종료
+- [x] 라이벌 2017년 오른쪽 ACL 완전파열·10월 재건술 기준선 LOCK
+- [x] 라이벌 2018-19 NCAA 공식전 0경기 전통 레드셔츠 LOCK
+- [x] 라이벌 2019-20 복귀 첫해 편차와 감속·템포·두 발 정지·풀업·선제 패스 확장 LOCK
 
 ## 현재 결정 대기
 
@@ -53,8 +56,8 @@
 - [ ] NBA 신인기 자기관리 재발의 기간과 비용
 - [ ] 가상 프렙 정식 교명·개별 과목·졸업 감사 — 사용 시점 HOLD
 - [ ] 한국·프렙 개별 과목의 NCAA 환산과 정확한 장학금 counter — R09 HOLD
-- [ ] 라이벌의 정확한 부상 부위·발생월·재활기간
-- [ ] 라이벌의 2018-19 NCAA 레드셔츠와 입학 전 재활 중 선택
+- [ ] 라이벌의 정확한 부상 경기·수술일·graft·동반 손상·의료 clearance — 사용 시점 HOLD
+- [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
 - [ ] 라이벌의 NCAA 대학명
 - [ ] O-06 국가대표·병역
 - [ ] 2018-20 인과 계산 뒤 2020 1순위 보유 팀
@@ -71,13 +74,13 @@
 6. 한국 출결 붕괴와 미국 프렙 과정만으로 NCAA 초기 자격이 자동 회복되지 않는다. full qualifier·입학·영입 범주 구조는 통과했지만 개별 과목 환산과 장학금 counter 감사는 남아 있다.
 7. 실존 선수와의 관계는 공개적 농구 범위로 제한한다. 모든 유망주를 절친으로 만들거나 허구 사생활·명언을 부여하지 않는다.
 8. 대학 우승을 주인공 개인 완성으로 오인하지 않는다. 팀 우승 뒤에도 NBA 역할 경쟁과 기술 결핍이 남아야 한다.
-9. 라이벌의 부상이 단순한 2년 지연 버튼이면 안 된다. 재활과 복귀 뒤 플레이 변화가 필요하다.
+9. 라이벌의 ACL이 단순한 2년 지연 버튼이면 안 된다. 0경기 레드셔츠·복귀 첫해 편차·감속/템포 중심의 플레이 변화라는 비용을 유지한다.
 10. 2019-20 NCAA 포스트시즌 취소는 라이벌 경로의 외부 고정축이다.
 11. 2018 아시안게임은 Draft·Summer League·NBA 캠프 일정과 함께 계산해야 한다.
 12. 대학의 흥미로운 실존 자료를 계속 추가하면 NBA 장기 성장물이 대학물로 이동한다. 종료 패킷이 통과했으므로 재개 조건 없이는 대학 정보를 추가하지 않는다.
 
 ## 다음 게이트
 
-대학 종료 패킷은 `PASS_WITH_INDIVIDUAL_CERTIFICATION_HOLD`를 받아 `COLLEGE_ARC_SCOPE_COMPLETE`로 닫았다. 다음은 라이벌의 부상 부위·발생 시기·재활 기간과 2018-19 학적을 4안 비교해 최소 경로로 잠근다. 이후 2018 Draft·첫 NBA 팀·국가대표 병역 일정으로 이동한다.
+대학 종료 패킷은 `COLLEGE_ARC_SCOPE_COMPLETE`로 닫았고, 라이벌 부상·학적은 `PASS_WITH_SCHOOL_AND_MEDICAL_DETAIL_HOLDS`로 잠갔다. 다음은 라이벌 NCAA 대학을 4안 비교해 하나만 선택한다. 이후 2018 Draft·첫 NBA 팀·국가대표 병역 일정으로 이동한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
