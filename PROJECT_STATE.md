@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R11 national-team/military schedule`
 - 최근 설계 변경: `protagonist PUMA / rival adidas + commercial/mentor relationship budget`
-- 최근 병합: `PR #32 / 5a9a80e`
+- 최근 병합: `PR #34 / 8de4586`
 
 ## 완료
 
