@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.15 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3K Atlanta 30th landing complete; R11 national-team/military route next`
+- 현재 작업: `R02-3L shoe sponsor/mentor ecosystem; R11 national-team/military route follows`
 - 최근 설계 변경: `protagonist Atlanta #30 rookie-scale + short Erie assignment + rookie self-management relapse`
-- 최근 병합: `PR #30 / dc15b84`
+- 최근 병합: `PR #32 / 5a9a80e`
 
 ## 완료
 
@@ -98,6 +98,6 @@
 
 ## 다음 게이트
 
-대학 양쪽과 주인공의 첫 NBA 착지는 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`로 닫았다. 다음은 R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
+대학 양쪽과 주인공의 첫 NBA 착지는 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`로 닫았다. 사용자 요청에 따라 신발 스폰서·광고 압력·유명인 멘토 예산을 먼저 설계한 뒤, R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
