@@ -89,9 +89,15 @@
 | D-081 | LOCKED | Villanova 영입은 프렙 감독 추천→실전 평가→학업 재확인→2017년 봄 늦은 체육장학금 한 경로 | 입학처·compliance·Eligibility Center 권한 분리, 정확한 counter·서명일 HOLD |
 | D-082 | LOCKED | 대학 구간은 COLLEGE_ARC_SCOPE_COMPLETE로 종료 | 개별 과목·40경기·캠퍼스 세부는 사용 시점까지 재개 금지. 다음은 라이벌 부상·재활 경로 |
 | D-083 | LOCKED | 라이벌은 2017년 9월 후보창의 한국 고교 공식 경기에서 비접촉 방향전환 중 오른쪽 ACL 완전파열, 10월 재건술 | 고의 파울·충돌·통증 은폐 복귀 금지. 정확한 경기·수술일·graft·동반 손상 HOLD |
-| D-084 | LOCKED | 라이벌은 2018년 가을 NCAA 대학에 체육장학금 선수로 입학하고 2018-19 공식전 0경기 전통 레드셔츠 | hardship waiver와 구분. 대학명·NLI·counter·개별 NCAA 인증 HOLD |
+| D-084 | LOCKED | 라이벌은 2018년 가을 NCAA 대학에 체육장학금 선수로 입학하고 2018-19 공식전 0경기 전통 레드셔츠 | hardship waiver와 구분. 대학명은 D-088에서 Gonzaga로 해소, NLI·counter·개별 NCAA 인증 HOLD |
 | D-085 | LOCKED | 2019-20 복귀 첫해에는 폭발력·효율·부하 편차를 남기고 감속·두 발 정지·템포·풀업·선제 패스로 1차 창조 방식을 확장 | 부상 강화 이벤트와 주인공형 연결자 수렴 금지 |
 | D-086 | LOCKED | 2020 전체 1순위 수준은 부상 전 명성이 아니라 복귀 시즌 실전·의료 재검사·워크아웃·인터뷰로 다시 획득 | 2020 NCAA 포스트시즌 취소는 외부 고정축 |
-| D-087 | UNDER_REVIEW | 라이벌 NCAA 대학은 부상 전 오퍼 유지·재활 지원·2019-20 창조 권한·실존 로스터 충돌을 비교한 4안에서 선택 | 대학 선택 뒤 정확 기록과 2020 Draft 파급은 R09 HOLD |
+| D-087 | SUPERSEDED | 라이벌 NCAA 대학은 부상 전 오퍼 유지·재활 지원·2019-20 창조 권한·실존 로스터 충돌을 비교한 4안에서 선택 | D-088이 Gonzaga로 확정 |
+| D-088 | LOCKED | 라이벌 NCAA 대학은 Duke·Gonzaga·Kentucky·Oregon 4안 중 Gonzaga | 국제학생·레드셔츠 적응과 외곽 창조 역할이 가장 낮은 실존 공로 충돌로 성립 |
+| D-089 | LOCKED | 2019-20 라이벌은 Gonzaga 선발 SG/SF·주된 외곽 1차 창조자로 복귀 | 시즌 초 25~29분·후반 29~32분 안전선, 정확 분·선발·점유율은 R09 HOLD |
+| D-090 | LOCKED | 깊은 대학 관계는 Joel Ayayi·Corey Kispert·Filip Petrusev 세 명 | Hachimura·Clarke 등은 공개 팀 환경 기준선, 추가 절친·비밀 멘토 금지 |
+| D-091 | LOCKED | 대표 경기는 2019-11-28 Oregon전과 2020-03-10 Saint Mary's WCC 결승 | 실제 점수·개인 기록은 라이벌 투입 뒤 R09 재계산 |
+| D-092 | LOCKED | 라이벌은 2019-20 WCC 정규·토너먼트 우승을 얻지만 NCAA 전국우승은 얻지 못함 | 실제 31-2 자동 보존 금지, 2020 포스트시즌 취소 유지 |
+| D-093 | LOCKED | 라이벌 대학 범위는 RIVAL_COLLEGE_SCOPE_COMPLETE | R09·Act Map·회차 직전 사실 검수 외 대학 세부 추가 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

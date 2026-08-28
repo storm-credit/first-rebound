@@ -84,4 +84,4 @@
 - 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
 - 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
 - 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 CLOSED
-- 다음 조사: 라이벌 NCAA 대학 4안과 2018-19 장학금·레드셔츠 역사 규정으로 범위를 좁힌 뒤 수행
+- 다음 조사: Gonzaga 2018-19 장학금 counter·개별 NCAA 인증과 2019-20 기록 파급은 R09 사용 시점에 수행. 현행 다음 게이트는 2018 Draft 첫 NBA 팀이다.

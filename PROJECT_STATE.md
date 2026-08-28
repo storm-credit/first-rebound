@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.13 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.14 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3I rival ACL/redshirt route complete; rival NCAA school selection next`
-- 최근 설계 변경: `2017 right ACL tear + 2018-19 NCAA zero-game redshirt + 2019-20 comeback`
+- 현재 작업: `R02-3J Gonzaga selection complete; 2018 Draft landing and national-team route next`
+- 최근 설계 변경: `rival Gonzaga redshirt/comeback + WCC title + 3 relationships/2 games scope cap`
 - 최근 병합: `PR #28 / a229f8a`
 
 ## 완료
@@ -47,6 +47,10 @@
 - [x] 라이벌 2017년 오른쪽 ACL 완전파열·10월 재건술 기준선 LOCK
 - [x] 라이벌 2018-19 NCAA 공식전 0경기 전통 레드셔츠 LOCK
 - [x] 라이벌 2019-20 복귀 첫해 편차와 감속·템포·두 발 정지·풀업·선제 패스 확장 LOCK
+- [x] 라이벌 NCAA 대학 Gonzaga LOCK
+- [x] 깊은 관계 Ayayi·Kispert·Petrusev 3명과 Oregon·Saint Mary's 대표 경기 2개 LOCK
+- [x] 2019-20 WCC 정규·토너먼트 우승 기능과 NCAA 전국우승 없음 LOCK
+- [x] `RIVAL_COLLEGE_SCOPE_COMPLETE` — 라이벌 대학 세부 설계 종료
 
 ## 현재 결정 대기
 
@@ -58,7 +62,8 @@
 - [ ] 한국·프렙 개별 과목의 NCAA 환산과 정확한 장학금 counter — R09 HOLD
 - [ ] 라이벌의 정확한 부상 경기·수술일·graft·동반 손상·의료 clearance — 사용 시점 HOLD
 - [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
-- [ ] 라이벌의 NCAA 대학명
+- [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
+- [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
 - [ ] O-06 국가대표·병역
 - [ ] 2018-20 인과 계산 뒤 2020 1순위 보유 팀
 - [ ] 주인공 첫 NBA 팀과 정확한 Draft 순번
@@ -78,9 +83,11 @@
 10. 2019-20 NCAA 포스트시즌 취소는 라이벌 경로의 외부 고정축이다.
 11. 2018 아시안게임은 Draft·Summer League·NBA 캠프 일정과 함께 계산해야 한다.
 12. 대학의 흥미로운 실존 자료를 계속 추가하면 NBA 장기 성장물이 대학물로 이동한다. 종료 패킷이 통과했으므로 재개 조건 없이는 대학 정보를 추가하지 않는다.
+13. Gonzaga 국제선수 로스터를 자동 적응·자동 친분의 근거로 쓰지 않는다. 깊은 관계는 세 명, 대표 경기는 두 개를 넘지 않는다.
+14. 라이벌 기록을 실제 Gonzaga 총분·득점 위에 더하지 않는다. WCC 우승 기능 외 승패·점유율은 R09에서 재계산한다.
 
 ## 다음 게이트
 
-대학 종료 패킷은 `COLLEGE_ARC_SCOPE_COMPLETE`로 닫았고, 라이벌 부상·학적은 `PASS_WITH_SCHOOL_AND_MEDICAL_DETAIL_HOLDS`로 잠갔다. 다음은 라이벌 NCAA 대학을 4안 비교해 하나만 선택한다. 이후 2018 Draft·첫 NBA 팀·국가대표 병역 일정으로 이동한다.
+주인공 대학은 `COLLEGE_ARC_SCOPE_COMPLETE`, 라이벌 대학은 Gonzaga 선택 뒤 `RIVAL_COLLEGE_SCOPE_COMPLETE`로 닫았다. 다음은 2018 Draft에서 주인공의 첫 NBA 팀·정확한 순번을 4안 비교하고, 이어 국가대표·병역 일정을 계산한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

@@ -1,4 +1,4 @@
-# Timeline & Eligibility Evidence Ledger v0.5
+# Timeline & Eligibility Evidence Ledger v0.6
 
 - 기준일: 2026-08-27
 - 범위: R02-3 출생·학년·프렙·Villanova NCAA·NBA 드래프트 연표
@@ -37,6 +37,11 @@
 | E-027 | 젊은 선수 조기 복귀 | 무릎 부담이 큰 종목에 9개월 전 복귀한 젊은 선수는 두 번째 ACL 손상 위험이 높았고, 복귀 지연은 9개월까지 위험 감소와 연관 | 6개월 완전 복귀 금지, 2019 여름까지 기능·접촉 검증 누적 | [JOSPT 2020](https://pubmed.ncbi.nlm.nih.gov/32005095/), [BJSM 2016](https://pubmed.ncbi.nlm.nih.gov/27162233/) | `VERIFIED_STUDY_BASELINE / NOT_INDIVIDUAL_PROGNOSIS` |
 | E-028 | NCAA 2018-19 hardship와 경기 자격 | 당시 문서는 five-year rule과 hardship waiver를 별도 예외 절차로 다룸 | 라이벌은 일부 출전 뒤 waiver가 아니라 첫해 공식전 0회 전통 레드셔츠로 설계 | [NCAA 2018-19 Q&A](https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2018-19D1Gov_CouncilGovLegPropQandA.pdf) | `PARTIAL_HISTORICAL — exact manual text HOLD` |
 | E-029 | NBA ACL 복귀 비용 | NBA 선수 연구에서 높은 복귀율과 평균 약 11.6개월 복귀가 관찰됐지만 첫 복귀 시즌 효율 저하가 보고됨 | 라이벌의 복귀 가능성은 유지하되 첫 시즌 편차·부하 비용을 삭제하지 않음 | [2017 systematic review](https://pubmed.ncbi.nlm.nih.gov/28449611/), [NBA return-time study](https://pubmed.ncbi.nlm.nih.gov/24427434/) | `VERIFIED_STUDY_BASELINE / FICTIONAL_PLAYER_HOLD` |
+| E-030 | NCAA 대학 후보 로스터 | Duke·Gonzaga·Kentucky·Oregon의 2018-19·2019-20 공식 로스터 확인 | 복귀 역할·실존 공로 충돌·관계 예산을 비교해 Gonzaga 선택 | [Duke](https://goduke.com/sports/mens-basketball/roster/2019-20), [Gonzaga](https://gozags.com/sports/mens-basketball/roster/2019-20), [Kentucky](https://ukathletics.com/sports/mbball/roster/season/2019-20/), [Oregon](https://goducks.com/sports/mens-basketball/roster/2019-20) | `VERIFIED_BASELINE` |
+| E-031 | Gonzaga 2019-20 기준선 | 실제 31승 2패, 전국 득점·득실차·승률 1위 | WCC 우승 기능은 유지하되 라이벌 투입 뒤 정확 승패·기록은 R09 재계산 | [Gonzaga Athletics](https://gozags.com/news/2020/4/9/mens-basketball-zags-named-ncaa-statistical-champion-in-three-categories) | `VERIFIED_BASELINE / SIMULATION_PENDING` |
+| E-032 | Gonzaga WCC 우승 | 2019-20 정규시즌 31-2·15-1, WCC 결승 Saint Mary's전 84-66 승 | 라이벌의 팀 보상은 WCC 정규·토너먼트 우승, 전국우승은 금지 | [Gonzaga WCC 기록](https://gozags.com/sports/2018/6/12/trads-wcc-titles-html), [Saint Mary's 상대 기록](https://gozags.com/sports/mens-basketball/opponent-history/saint-marys-college-of-california/43) | `VERIFIED_BASELINE / SCORE_SIMULATION_PENDING` |
+| E-033 | Gonzaga–Oregon | 2019-11-28 Battle 4 Atlantis에서 Gonzaga가 연장 73-72 승 | 복귀 뒤 상위권 상대 감속·클로징 판단의 대표 매치업 | [Gonzaga 상대 기록](https://gozags.com/sports/mens-basketball/opponent-history/university-of-oregon/107) | `VERIFIED_BASELINE / PLAYER_LINE_HOLD` |
+| E-034 | 2018-19 남자농구 장학금 한도 | 당시 D-I Manual Bylaw 15.5.5.1은 남자농구 counter 총원을 13명으로 제한 | 라이벌 장학금은 실제 counter 밖에 추가하지 않고 기존 구성 한 자리를 재배분 | [2018-19 NCAA Division I Manual](https://iuhoosiers.com/documents/download/2018/9/28/2018_19_NCAA_D1_Manual.pdf) | `VERIFIED_HISTORICAL / EXACT_GONZAGA_COUNTER_HOLD` |
 
 ## RESEARCH_HOLD
 
@@ -49,5 +54,6 @@
 - Texas Tech전 200분과 개인 기록 재분배
 - 두 선수의 대표팀 선발 당시 학적·계약·보험 상태
 - NBA 드래프트의 정확한 생일·선언·졸업일 계산
-- 라이벌 ACL의 정확한 graft·동반 손상·기능검사·의료 clearance와 2018-19 장학금·대학 의료 권한
+- 라이벌 ACL의 정확한 graft·동반 손상·기능검사·의료 clearance와 Gonzaga 2018-19 NLI·장학금 counter·대학 의료 권한
+- 라이벌 투입 뒤 Gonzaga 2019-20 총분·점유율·승패·개인 기록 재계산
 - 2019년 주인공이 코비 훈련에 접근하는 구체적 초청·스폰서·트레이너 경로
