@@ -100,3 +100,14 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 정본: `canon/CAREER_TIMELINE.md`
 
 정확한 생일·졸업·NCAA 자격과 라이벌의 Gonzaga 장학금·의료·기록 세부는 선택 문제가 아니라 연구·시뮬레이션 HOLD다.
+
+## O-10 신발 스폰서·멘토 생태계 — CLOSED FOUNDATION
+
+- 주인공은 Nike·adidas·PUMA·Jordan Brand 4안을 비교해 **PUMA**를 선택했다.
+- 라이벌은 Nike·adidas·Jordan Brand·PUMA 4안을 비교해 **adidas**를 선택했다.
+- 두 사람 모두 신인 즉시 시그니처 슈즈는 없고, 정확한 계약 조건은 R08 HOLD다.
+- 주인공의 직접 실존 스타 훈련 접점은 2019 Kobe 한 축으로 제한한다.
+- Michael Jordan·Shaq·Jay-Z는 자동 멘토·친구가 아니다. 공개 행사·방송 기능도 Act가 요구할 때만 사용한다.
+- 주인공과 라이벌은 별도 가상 에이전트를 두고, 라이벌의 NBA 베테랑 멘토는 2020 Draft 팀 선택 뒤 결정한다.
+
+정본: `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md`

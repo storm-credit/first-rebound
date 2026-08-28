@@ -34,7 +34,7 @@
 | R5 | 시대 전술 | 수비 규칙, 포지션 평가, 스페이싱, 분석 | 규칙·영상·코치 자료 | BLOCKED |
 | R6 | 신체 성장 | 청소년 성장·체중·부상·훈련 한계 | 의학/스포츠과학 | PARTIAL — 라이벌 ACL 기준선 |
 | R7 | 문화 | 한국계/국제선수의 학교·라커룸·미디어 경험 | 당시 인터뷰/회고 | BLOCKED |
-| R8 | 경제/미디어 | 에이전트, 신발, 방송, SNS, NIL | CBA·당시 보도 | BLOCKED |
+| R8 | 경제/미디어 | 에이전트, 신발, 방송, SNS, NIL | CBA·당시 보도 | FOUNDATION_PARTIAL — PUMA/adidas·관계 예산 LOCK, 계약 수치 HOLD |
 | R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | BLOCKED |
 | R10 | 가상 미래 | 2026년 이후 팀·선수·계약을 어떻게 생성하고 검증할까? | 시뮬레이션 규칙 | BLOCKED |
 
@@ -84,4 +84,12 @@
 - 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
 - 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
 - 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 CLOSED
-- 다음 조사: Gonzaga 2018-19 장학금 counter와 Atlanta 2018-19 총분·Spellman 드래프트 파급은 R09 사용 시점에 수행. 주인공 첫 NBA 팀은 Atlanta 30순위로 닫았고, 현행 다음 게이트는 R11 국가대표·병역 일정이다.
+- 다음 조사: Gonzaga 2018-19 장학금 counter와 Atlanta 2018-19 총분·Spellman 드래프트 파급은 R09 사용 시점에 수행. 주인공 첫 NBA 팀과 상업 관계 기반은 닫았고, 현행 다음 게이트는 R11 국가대표·병역 일정이다.
+
+## R14 광고·신발·실존 유명인 연구
+
+- 단일 권위: `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md`
+- 현재 상태: `FOUNDATION_SELECTED / PASS_WITH_CONTRACT_AND_TEAM_HOLDS`
+- 확인: 2018 PUMA 농구 재진입·신인군·한국 성장, 2020 팬데믹 신발 계약 지연, 2021 NIL 정책 시작, Jordan의 Charlotte 구단주 기간, Shaq의 2023 Reebok 직책
+- LOCK: 주인공 PUMA, 라이벌 adidas, 신인 즉시 시그니처 금지, Kobe 제한 접점, 역할별 인선 권한
+- HOLD: 계약액·기간·행사일·가상 에이전트 이름·2020 Draft 팀 내부 멘토

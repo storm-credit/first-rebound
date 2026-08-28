@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.15 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.16 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3L shoe sponsor/mentor ecosystem; R11 national-team/military route follows`
-- 최근 설계 변경: `protagonist Atlanta #30 rookie-scale + short Erie assignment + rookie self-management relapse`
+- 현재 작업: `R11 national-team/military schedule`
+- 최근 설계 변경: `protagonist PUMA / rival adidas + commercial/mentor relationship budget`
 - 최근 병합: `PR #32 / 5a9a80e`
 
 ## 완료
@@ -57,6 +57,11 @@
 - [x] Trae Young·Kevin Huerter·John Collins 깊은 관계 3명 LOCK
 - [x] 밤샘 게임→아침 영상·컨디셔닝 지각→NBA 로테이션 기회 상실 재발 LOCK
 - [x] `NBA_LANDING_SCOPE_COMPLETE` — 첫 NBA 착지 세부 설계 종료
+- [x] 주인공 2018 PUMA·라이벌 2020 adidas 신발 브랜드 기능 LOCK
+- [x] NCAA 구간 개인 광고 금지·신인 즉시 시그니처 슈즈 금지 LOCK
+- [x] Kobe 제한 접점과 Jordan·Shaq·Jay-Z 자동 멘토화 금지 LOCK
+- [x] 별도 가상 에이전트·브랜드 매니저와 코치/의료/훈련 권한 분리 LOCK
+- [x] `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` — 광고·멘토 기반 설계 종료
 
 ## 현재 결정 대기
 
@@ -72,6 +77,10 @@
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
 - [ ] Atlanta 2018-19 총분·승패·개인 기록과 Spellman 후속 지명 — R09 HOLD
 - [ ] Summer League·대표팀 캠프·아시안게임 일정 — R11 HOLD
+- [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R11 HOLD
+- [ ] 두 가상 에이전트·브랜드 매니저의 이름·소속·수수료
+- [ ] 2019 Kobe 훈련의 초청자·장소·날짜
+- [ ] 라이벌 NBA 팀 내부의 베테랑 멘토 — 2020 Draft 팀 선택 뒤 HOLD
 - [ ] O-06 국가대표·병역
 - [ ] 2018-20 인과 계산 뒤 2020 1순위 보유 팀
 - [ ] 정식 제목
@@ -95,9 +104,14 @@
 15. 주인공 기록을 실제 Atlanta 총분 위에 더하거나 Spellman을 삭제하지 않는다. 30순위 이후 드래프트 보드와 루키 총분은 R09에서 재계산한다.
 16. G League를 지각의 벌이나 투웨이 신분으로 오인하지 않는다. 직접 비용은 NBA 기회 상실이고 Erie는 NBA 계약 assignment다.
 17. Young·Huerter·Collins의 실제 공로를 주인공 우정·성장 장치로 축소하지 않는다.
+18. PUMA의 실제 2018 신인군에 주인공이 있었다고 서술하지 않는다. 브랜드 전략만 실제이고 주인공 계약은 가상 인과다.
+19. 2020 1순위라는 이유로 라이벌에게 팬데믹 비용 없는 거액 계약·데뷔 전 시그니처를 자동 지급하지 않는다.
+20. Jordan Brand와 Nike를 독립 기업처럼 혼용하거나, 신발 계약을 Michael Jordan 개인 멘토 관계로 바꾸지 않는다.
+21. Shaq의 2023 Reebok 직책을 2018·2020 신발 협상에 소급하지 않는다.
+22. 유명인 접점이 팀 동료·코치·가상 트레이너의 반복 성장 기능을 빼앗지 않게 한다.
 
 ## 다음 게이트
 
-대학 양쪽과 주인공의 첫 NBA 착지는 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`로 닫았다. 사용자 요청에 따라 신발 스폰서·광고 압력·유명인 멘토 예산을 먼저 설계한 뒤, R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계 기반은 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`·`COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE`로 닫았다. 다음은 R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

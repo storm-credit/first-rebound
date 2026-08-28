@@ -1,4 +1,4 @@
-# Project Freeze v0.15
+# Project Freeze v0.16
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -274,3 +274,25 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Atlanta 2018-19 총분·승패·개인 기록 재계산
 - 자기관리 지각·NBA 기회 상실·Erie 배정의 정확한 날짜
 - 2019-20 College Park 추가 배정 필요 여부
+
+## v0.16 LOCKED ADDITIONS — 광고·신발·멘토 생태계
+
+- 주인공은 2018 Draft 뒤 **PUMA**와 footwear/apparel 계약을 맺는다. PUMA의 2018 농구 재진입·신인 영입·한국 시장 성장 전략에서 도출한 가상 계약이며, 실제 영입 사실처럼 쓰지 않는다.
+- 라이벌은 2020 Draft·의료 검토 뒤 **adidas**와 계약한다. 팬데믹 때문에 계약 시점·행사·금액이 자동 보장되지 않으며 정확한 서명일은 2020 Draft 팀 선택 뒤 확정한다.
+- 둘 다 대학 재학 중 개인 유료 광고를 하지 않는다. 2021 NIL 정책을 2017-20에 소급하지 않는다.
+- 주인공의 rookie-scale 기간과 라이벌의 데뷔 전에는 소매 시그니처 슈즈를 주지 않는다. player-exclusive 색상과 한국 캠페인도 성과·계약 검증 전 `HOLD`다.
+- 주인공의 실존 스타 직접 훈련 접점은 2019 Kobe Bryant 1회 중심으로 제한한다. Michael Jordan·Shaquille O'Neal·Jay-Z는 개인 멘토가 아니다.
+- Jordan은 2018-20 Charlotte 구단주·브랜드 아이콘, Shaq는 당시 공개 방송 평가자다. Shaq의 Reebok Basketball 사장 역할은 2023년 이후이므로 초기 계약에 소급하지 않는다.
+- 코치·의료진·가상 트레이너·가상 에이전트·가상 브랜드 매니저의 권한을 분리한다. 주인공과 라이벌은 서로 다른 에이전트를 둔다.
+- `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md`는 `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE`다. R08·R09·R11·Act Map의 재개 사유 없이는 광고·유명인 세부를 더하지 않는다.
+- 상세 권위는 `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md`다.
+
+## v0.16 RESEARCH_HOLD
+
+- 두 신발 계약의 정확한 보장액·기간·인센티브·종료 조항
+- 주인공 PUMA 계약일·한국 캠페인·player-exclusive 제품화
+- 라이벌 adidas 계약일·팬데믹 촬영·2020 Draft 팀 충돌
+- 두 가상 에이전트와 브랜드 매니저의 이름·소속·수수료
+- 2019 Kobe 훈련의 실제 초청자·장소·날짜
+- 라이벌 NBA 팀 내부의 베테랑 멘토 후보
+- Jordan·Shaq 공개 접점의 Act 필요 여부
