@@ -23,7 +23,7 @@ last_reviewed: 2026-08-28
 | G03 신체/기술 모델 | 키 성장·포지션·훈련·부상 한계 | FOUNDATION_PASS — 천재성/BQ와 라이벌 ACL·단계별 복귀 안전선 잠금. 주인공 연도별 신체·개별 의료 수치 HOLD |
 | G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | BLOCKED_BY_G00 |
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION_PASS — 가상 뉴잉글랜드 보딩 프렙·2016년 3월 편입·2017년 5~6월 조기졸업 구조 LOCK. 교명·개별 학점 감사 HOLD |
-| G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE — 주인공 full qualifier·Villanova 역할과 라이벌 2018-19 공식전 0경기 레드셔츠 LOCK. 라이벌 대학명·양쪽 개별 인증·정확 기록 HOLD |
+| G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | BLOCKED_BY_G00 |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | BLOCKED_BY_G00 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NOT_STARTED |

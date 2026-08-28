@@ -29,7 +29,7 @@
 |---|---|---|
 | 시대별 전술 성장·카운터 | `design/TACTICAL_EVOLUTION_MAP.md` | Sub-Act당 핵심 전술 문제 1개 |
 | 전술·규칙 근거 | `research/TACTICAL_RESEARCH_LEDGER.md` | 공식 출처·적용일·확신도 |
-| 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | 정확한 팀·학교는 시뮬레이션 전 HOLD |
+| 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | Gonzaga LOCK, 정확한 NBA 팀은 시뮬레이션 전 HOLD |
 | 국가대표·병역 선택 | `design/NATIONAL_TEAM_MILITARY_OPTIONS.md` | 법·대회 사실과 서사 선택 분리 |
 
 ## v0.4 추가 권위
@@ -44,7 +44,7 @@
 
 | 사실 종류 | 단일 권위 문서 | 비고 |
 |---|---|---|
-| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | 정확한 날짜·학교·팀은 RESEARCH_HOLD |
+| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | Villanova·Gonzaga LOCK, 정확한 날짜·NBA 팀은 RESEARCH_HOLD |
 | 연표 4안과 선택 이력 | `design/CAREER_TIMELINE_OPTIONS.md` | O-09 CLOSED |
 | 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
 | 연표 선택 전 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | 역사 기록 |
@@ -55,5 +55,8 @@
 | 무목표·게임·출석 기반 입문 맹점 검토 | `reviews/R02_3B_TRUANCY_GAMING_ENTRY_REVIEW.md` | 현행 검토 권위. R16 독립 검수 대체 아님 |
 | 프렙 유형·NCAA 범주·Villanova 영입 종료 패킷 | `research/COLLEGE_EXIT_PACKET.md` | 대학 범위 완료 권위. 개별 인증은 HOLD |
 | 대학 종료 패킷 맹점 검토 | `reviews/R02_3H_COLLEGE_EXIT_PACKET_REVIEW.md` | R16 독립 검수 대체 아님 |
-| 라이벌 ACL·재활·0경기 NCAA 레드셔츠 경로 | `research/RIVAL_INJURY_REDSHIRT_MODEL.md` | 대학명·개별 의료 수치는 HOLD |
+| 라이벌 ACL·재활·0경기 NCAA 레드셔츠 경로 | `research/RIVAL_INJURY_REDSHIRT_MODEL.md` | Gonzaga LOCK, counter·개별 의료 수치는 HOLD |
 | 라이벌 부상·레드셔츠 맹점 검토 | `reviews/R02_3I_RIVAL_INJURY_REDSHIRT_REVIEW.md` | R16 독립 검수 대체 아님 |
+| 라이벌 NCAA 대학 4안·Gonzaga 역할·관계·경기 예산 | `research/RIVAL_NCAA_SCHOOL_SELECTION.md` | 장학금 counter·정확 기록은 R09 HOLD |
+| 라이벌 대학 범위 중단 | `control/RIVAL_COLLEGE_SCOPE_GATE.md` | `RIVAL_COLLEGE_SCOPE_COMPLETE` |
+| 라이벌 Gonzaga 선택 맹점 검토 | `reviews/R02_3J_RIVAL_GONZAGA_REVIEW.md` | R16 독립 검수 대체 아님 |
