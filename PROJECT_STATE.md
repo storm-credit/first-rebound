@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3G college scope capped; three-item exit packet next`
 - 최근 설계 변경: `college arc minimum-completion stop rule`
-- 최근 병합: `PR #22 / 926f9ec`
+- 최근 병합: `PR #24 / f1df23c`
 
 ## 완료
 
