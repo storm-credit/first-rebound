@@ -1,6 +1,6 @@
-# Timeline & Eligibility Evidence Ledger v0.6
+# Timeline & Eligibility Evidence Ledger v0.7
 
-- 기준일: 2026-08-27
+- 기준일: 2026-08-28
 - 범위: R02-3 출생·학년·프렙·Villanova NCAA·NBA 드래프트 연표
 - 상태: `PARTIAL_VERIFIED`
 
@@ -42,6 +42,11 @@
 | E-032 | Gonzaga WCC 우승 | 2019-20 정규시즌 31-2·15-1, WCC 결승 Saint Mary's전 84-66 승 | 라이벌의 팀 보상은 WCC 정규·토너먼트 우승, 전국우승은 금지 | [Gonzaga WCC 기록](https://gozags.com/sports/2018/6/12/trads-wcc-titles-html), [Saint Mary's 상대 기록](https://gozags.com/sports/mens-basketball/opponent-history/saint-marys-college-of-california/43) | `VERIFIED_BASELINE / SCORE_SIMULATION_PENDING` |
 | E-033 | Gonzaga–Oregon | 2019-11-28 Battle 4 Atlantis에서 Gonzaga가 연장 73-72 승 | 복귀 뒤 상위권 상대 감속·클로징 판단의 대표 매치업 | [Gonzaga 상대 기록](https://gozags.com/sports/mens-basketball/opponent-history/university-of-oregon/107) | `VERIFIED_BASELINE / PLAYER_LINE_HOLD` |
 | E-034 | 2018-19 남자농구 장학금 한도 | 당시 D-I Manual Bylaw 15.5.5.1은 남자농구 counter 총원을 13명으로 제한 | 라이벌 장학금은 실제 counter 밖에 추가하지 않고 기존 구성 한 자리를 재배분 | [2018-19 NCAA Division I Manual](https://iuhoosiers.com/documents/download/2018/9/28/2018_19_NCAA_D1_Manual.pdf) | `VERIFIED_HISTORICAL / EXACT_GONZAGA_COUNTER_HOLD` |
+| E-035 | 2018 Draft 후반 1라운드 픽 | Indiana 23·Boston 27·Golden State 28·Atlanta 30, 실제 선수는 Holiday·Williams·Evans·Spellman | 네 팀 착지 비교와 Atlanta 30순위 선택 | [NBA Draft order](https://www.nba.com/news/2018-draft-order), [Pacers](https://www.nba.com/pacers/news/2018-draft-night-recap), [Celtics](https://www.nba.com/celtics/news/twhs-20180621-draft), [Warriors](https://www.nba.com/warriors/news/20180621/warriors-select-jacob-evans), [Hawks](https://www.nba.com/hawks/news/hawks-acquire-trae-young-select-kevin-huerter-omari-spellman-2018-nba-draft) | `VERIFIED_BASELINE / ALTERNATE_DRAFT_BOARD_HOLD` |
+| E-036 | Atlanta 30순위 포워드 NBA 기회 | 실제 Spellman은 루키 시즌 46경기·11선발·평균 17.5분 | 주인공의 NBA 38~50경기·10~16분은 가능 범위 후보일 뿐 기록 복사가 아님 | [Atlanta Hawks](https://www.nba.com/hawks/hawks-acquire-damian-jones-from-golden-state-warriors) | `VERIFIED_BASELINE / PLAYER_LINE_SIMULATION_PENDING` |
+| E-037 | Atlanta G League 제휴 이동 | 2018-19 Erie는 Atlanta 제휴팀, 2019-20 College Park가 Atlanta 소유 신생 제휴팀으로 첫 시즌 | 시즌별 assignment 팀명을 구분 | [2018-19 G League](https://greensboro.gleague.nba.com/news/2018-19-schedule-unveiled-and-new-6-game-plan), [2019-20 G League](https://pr.nba.com/nba-g-league-embarks-on-19th-season-with-record-28-teams/) | `VERIFIED_HISTORICAL` |
+| E-038 | NBA 계약 선수의 G League assignment | assignment 중에도 NBA 계약과 원팀의 회수 권리가 유지 | 투웨이·call-up·G League 표준계약과 구분 | [NBA G League FAQ](https://gleague.nba.com/faq) | `VERIFIED_RULE_CLASS / EXACT_ASSIGNMENT_DATES_HOLD` |
+| E-039 | 2018 Atlanta Summer League | 실제 명단에 Young·Huerter·Spellman 1라운더와 Collins 포함 | 주인공이 Spellman의 명단 자리를 대체하되 대표팀 일정과 재계산 | [Atlanta Hawks](https://www.nba.com/hawks/hawks-announce-2018-summer-league-roster) | `VERIFIED_BASELINE / SCHEDULE_COLLISION_HOLD` |
 
 ## RESEARCH_HOLD
 
@@ -57,3 +62,5 @@
 - 라이벌 ACL의 정확한 graft·동반 손상·기능검사·의료 clearance와 Gonzaga 2018-19 NLI·장학금 counter·대학 의료 권한
 - 라이벌 투입 뒤 Gonzaga 2019-20 총분·점유율·승패·개인 기록 재계산
 - 2019년 주인공이 코비 훈련에 접근하는 구체적 초청·스폰서·트레이너 경로
+- Atlanta 2018-19 총분·승패·Spellman 후속 지명·Erie 배정 날짜
+- 2018 Summer League·대표팀 캠프·아시안게임 일정 결합

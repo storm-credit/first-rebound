@@ -52,3 +52,13 @@
 - 깊은 실존 관계 3명·대표 경기 2개·재활 비용 1축 상한을 넘지 않는다.
 - WCC 우승 기능과 2020 NCAA 토너먼트 취소는 잠그되 실제 31승 2패·개인 기록은 R09에서 재계산한다.
 - 대학 범위 재개 조건은 `control/RIVAL_COLLEGE_SCOPE_GATE.md`가 통제한다.
+
+## v0.15 Atlanta·NBA assignment 작동 규칙
+
+- 주인공은 2018 Draft 30순위 Atlanta 1라운더다. rookie-scale NBA 계약, 투웨이 계약, G League 표준계약을 혼용하지 않는다.
+- NBA 계약 선수의 G League assignment는 계약 해지·call-up이 아니다. Atlanta가 권리를 유지하고 회수할 수 있다.
+- 2018-19 제휴팀은 Erie BayHawks, 2019-20부터는 College Park Skyhawks다. 두 팀명을 같은 시즌에 혼용하지 않는다.
+- 실제 30순위 Spellman의 존재와 후속 경로를 삭제하지 않으며 R09가 드래프트 보드를 재계산한다.
+- 주인공의 분과 기록은 실제 Atlanta 선수 총분 위에 더하지 않는다. Young·Huerter·Collins의 핵심 공로도 자동 축소하지 않는다.
+- G League는 지각의 직접 징계가 아니다. 직접 비용은 NBA 기회 상실이고, assignment는 그 뒤 경기 반복을 확보하는 별도 권한 결정이다.
+- 첫 NBA 착지 범위 재개 조건은 `control/NBA_LANDING_SCOPE_GATE.md`가 통제한다.

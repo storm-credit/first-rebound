@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.14 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.15 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3J Gonzaga selection complete; 2018 Draft landing and national-team route next`
-- 최근 설계 변경: `rival Gonzaga redshirt/comeback + WCC title + 3 relationships/2 games scope cap`
+- 현재 작업: `R02-3K Atlanta 30th landing complete; R11 national-team/military route next`
+- 최근 설계 변경: `protagonist Atlanta #30 rookie-scale + short Erie assignment + rookie self-management relapse`
 - 최근 병합: `PR #30 / dc15b84`
 
 ## 완료
@@ -51,22 +51,29 @@
 - [x] 깊은 관계 Ayayi·Kispert·Petrusev 3명과 Oregon·Saint Mary's 대표 경기 2개 LOCK
 - [x] 2019-20 WCC 정규·토너먼트 우승 기능과 NCAA 전국우승 없음 LOCK
 - [x] `RIVAL_COLLEGE_SCOPE_COMPLETE` — 라이벌 대학 세부 설계 종료
+- [x] 주인공 2018 NBA Draft 전체 30순위 Atlanta LOCK
+- [x] 1라운드 NBA rookie-scale 계약·투웨이 폐기 LOCK
+- [x] Atlanta NBA 본무대·Erie 4~10경기 짧은 assignment 안전선 LOCK
+- [x] Trae Young·Kevin Huerter·John Collins 깊은 관계 3명 LOCK
+- [x] 밤샘 게임→아침 영상·컨디셔닝 지각→NBA 로테이션 기회 상실 재발 LOCK
+- [x] `NBA_LANDING_SCOPE_COMPLETE` — 첫 NBA 착지 세부 설계 종료
 
 ## 현재 결정 대기
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
 - [ ] Villanova에서 역할 이탈로 신뢰를 잃는 정확한 경기
-- [ ] NBA 신인기 자기관리 재발의 기간과 비용
+- [ ] NBA 신인기 자기관리 재발의 정확한 날짜·상실 경기·Erie 배정 기간
 - [ ] 가상 프렙 정식 교명·개별 과목·졸업 감사 — 사용 시점 HOLD
 - [ ] 한국·프렙 개별 과목의 NCAA 환산과 정확한 장학금 counter — R09 HOLD
 - [ ] 라이벌의 정확한 부상 경기·수술일·graft·동반 손상·의료 clearance — 사용 시점 HOLD
 - [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
+- [ ] Atlanta 2018-19 총분·승패·개인 기록과 Spellman 후속 지명 — R09 HOLD
+- [ ] Summer League·대표팀 캠프·아시안게임 일정 — R11 HOLD
 - [ ] O-06 국가대표·병역
 - [ ] 2018-20 인과 계산 뒤 2020 1순위 보유 팀
-- [ ] 주인공 첫 NBA 팀과 정확한 Draft 순번
 - [ ] 정식 제목
 
 ## 현재 위험
@@ -85,9 +92,12 @@
 12. 대학의 흥미로운 실존 자료를 계속 추가하면 NBA 장기 성장물이 대학물로 이동한다. 종료 패킷이 통과했으므로 재개 조건 없이는 대학 정보를 추가하지 않는다.
 13. Gonzaga 국제선수 로스터를 자동 적응·자동 친분의 근거로 쓰지 않는다. 깊은 관계는 세 명, 대표 경기는 두 개를 넘지 않는다.
 14. 라이벌 기록을 실제 Gonzaga 총분·득점 위에 더하지 않는다. WCC 우승 기능 외 승패·점유율은 R09에서 재계산한다.
+15. 주인공 기록을 실제 Atlanta 총분 위에 더하거나 Spellman을 삭제하지 않는다. 30순위 이후 드래프트 보드와 루키 총분은 R09에서 재계산한다.
+16. G League를 지각의 벌이나 투웨이 신분으로 오인하지 않는다. 직접 비용은 NBA 기회 상실이고 Erie는 NBA 계약 assignment다.
+17. Young·Huerter·Collins의 실제 공로를 주인공 우정·성장 장치로 축소하지 않는다.
 
 ## 다음 게이트
 
-주인공 대학은 `COLLEGE_ARC_SCOPE_COMPLETE`, 라이벌 대학은 Gonzaga 선택 뒤 `RIVAL_COLLEGE_SCOPE_COMPLETE`로 닫았다. 다음은 2018 Draft에서 주인공의 첫 NBA 팀·정확한 순번을 4안 비교하고, 이어 국가대표·병역 일정을 계산한다.
+대학 양쪽과 주인공의 첫 NBA 착지는 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`로 닫았다. 다음은 R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

@@ -45,7 +45,7 @@
 | D-039 | LOCKED | O-09 A-REFINED: 주인공과 라이벌은 둘 다 1999년생 같은 학년이며 2015년 같은 고교·농구부에서 출발 | 정확한 생일은 자격 검증 전 HOLD |
 | D-040 | SUPERSEDED | 주인공은 무목적·학업기피·충동적 허세형 문제아, 라이벌은 조기완성형 엘리트 | 성격 골격은 유지하되 D-047이 무기력·게임·출석 인과를 정밀화 |
 | D-041 | SUPERSEDED | 주인공이 먼저 미국·2018 NBA에 가고 라이벌은 한국 고교 완주 후 프렙·Duke급·2020 1순위로 진입 | D-052가 NCAA/프렙 경로를 대체 |
-| D-042 | FOUNDATION_LOCK | 2018 NBA 개발은 1라운드 후반 표준 계약+G리그 배정을 기본 방향으로 둔다 | 정확한 픽·팀은 O-05/R09 HOLD, 투웨이 기본값 금지 |
+| D-042 | FOUNDATION_LOCK | 2018 NBA 개발은 1라운드 후반 표준 계약+G리그 배정을 기본 방향으로 둔다 | 픽·팀은 D-094에서 Atlanta 30순위로 해소, 투웨이 기본값 금지 |
 | D-043 | FOUNDATION_LOCK | 반복 지도자는 가상 스킬 트레이너, 코비 접점은 2019년 짧은 훈련 1회 중심 | 접근 경로·날짜 검증 전 HOLD, 비밀 제자·예언·유언 금지 |
 | D-044 | SUPERSEDED | 농구 입문은 학교 관리형 기회→동갑 라이벌에게 완패→첫 리바운드로 팀 기여의 3단 인과 | D-050이 폭력·사고 없이 출석 붕괴와 체육관 회피로 진입 단계를 대체 |
 | D-045 | SUPERSEDED | 농구부가 징계를 삭제하지 않으며 출석·학업보충·훈련 준수가 입부 유지 조건 | D-051이 징계 교환이 아닌 조건부 체험과 학교 권한 분리로 정밀화 |
@@ -99,5 +99,12 @@
 | D-091 | LOCKED | 대표 경기는 2019-11-28 Oregon전과 2020-03-10 Saint Mary's WCC 결승 | 실제 점수·개인 기록은 라이벌 투입 뒤 R09 재계산 |
 | D-092 | LOCKED | 라이벌은 2019-20 WCC 정규·토너먼트 우승을 얻지만 NCAA 전국우승은 얻지 못함 | 실제 31-2 자동 보존 금지, 2020 포스트시즌 취소 유지 |
 | D-093 | LOCKED | 라이벌 대학 범위는 RIVAL_COLLEGE_SCOPE_COMPLETE | R09·Act Map·회차 직전 사실 검수 외 대학 세부 추가 금지 |
+| D-094 | LOCKED | 주인공의 첫 NBA 팀은 2018 Draft 전체 30순위 Atlanta Hawks | Indiana 23·Boston 27·Golden State 28·Atlanta 30 비교에서 실전·젊은 코어·개발 균형 선택 |
+| D-095 | LOCKED | 계약은 1라운드 NBA rookie-scale이며 투웨이·G League 계약이 아님 | G League에서는 NBA 계약을 유지한 assignment 선수 |
+| D-096 | LOCKED | 루키 안전선은 Atlanta 약 38~50경기·10~16분, Erie 약 4~10경기·24~30분 | 실제 총분과 충돌하면 R09에서 축소, Spellman 실제 기록 자동 복사 금지 |
+| D-097 | LOCKED | 깊은 Atlanta 관계는 Trae Young·Kevin Huerter·John Collins 세 명 | Vince Carter는 공개 베테랑 기준선, 추가 절친·비밀 스승 금지 |
+| D-098 | LOCKED | NBA 자기관리 재발은 밤샘 게임 뒤 아침 영상·컨디셔닝 지각으로 예정된 로테이션 기회를 잃는 것 | Erie 배정은 징계가 아니라 별도 개발 결정, 게임 삭제 금지 |
+| D-099 | LOCKED | 실제 30순위 Omari Spellman은 삭제하지 않고 변경 지명 팀·순번을 R09 HOLD | 주인공·Spellman을 같은 30순위 또는 공짜 로스터 자리로 중복 금지 |
+| D-100 | LOCKED | 첫 NBA 착지 범위는 NBA_LANDING_SCOPE_COMPLETE | R09·R11·Act Map·회차 직전 검수 외 루키 세부 추가 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
