@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3H college exit packet complete; rival injury route next`
 - 최근 설계 변경: `fictional New England prep + 7-semester graduation + Villanova scholarship route`
-- 최근 병합: `PR #24 / f1df23c`
+- 최근 병합: `PR #26 / 39e95af`
 
 ## 완료
 
