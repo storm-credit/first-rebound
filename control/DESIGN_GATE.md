@@ -23,7 +23,7 @@ last_reviewed: 2026-08-28
 | G03 신체/기술 모델 | 키 성장·포지션·훈련·부상 한계 | FOUNDATION_PASS — 천재성/BQ 잠금, 연도별 신체·부상 HOLD |
 | G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | BLOCKED_BY_G00 |
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION — 2017 졸업 필요, 정확한 학교·학점 HOLD |
-| G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS — full qualifier 구조, 8.5~10.5분 역할, Texas Tech 기능 LOCK. 과목별 환산·입학·장학금·정확 기록 HOLD |
+| G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS — full qualifier·역할·Texas Tech 기능 LOCK, 대학 범위 B 최소 완결안. 프렙 유형·자격 범주·리크루팅/장학금 3항목 뒤 범위 종료 |
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | BLOCKED_BY_G00 |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | BLOCKED_BY_G00 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NOT_STARTED |
