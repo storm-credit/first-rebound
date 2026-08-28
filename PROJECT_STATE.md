@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3E responsibility arc locked; R02-3D NCAA eligibility and rotation verification next`
 - 최근 설계 변경: `quiet low-energy problem kid + five-stage responsibility arc`
-- 최근 병합: `PR #18 / e40ef331`
+- 최근 병합: `PR #20 / 8095636`
 
 ## 완료
 
