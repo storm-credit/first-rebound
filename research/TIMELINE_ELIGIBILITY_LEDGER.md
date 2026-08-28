@@ -47,6 +47,10 @@
 | E-037 | Atlanta G League 제휴 이동 | 2018-19 Erie는 Atlanta 제휴팀, 2019-20 College Park가 Atlanta 소유 신생 제휴팀으로 첫 시즌 | 시즌별 assignment 팀명을 구분 | [2018-19 G League](https://greensboro.gleague.nba.com/news/2018-19-schedule-unveiled-and-new-6-game-plan), [2019-20 G League](https://pr.nba.com/nba-g-league-embarks-on-19th-season-with-record-28-teams/) | `VERIFIED_HISTORICAL` |
 | E-038 | NBA 계약 선수의 G League assignment | assignment 중에도 NBA 계약과 원팀의 회수 권리가 유지 | 투웨이·call-up·G League 표준계약과 구분 | [NBA G League FAQ](https://gleague.nba.com/faq) | `VERIFIED_RULE_CLASS / EXACT_ASSIGNMENT_DATES_HOLD` |
 | E-039 | 2018 Atlanta Summer League | 실제 명단에 Young·Huerter·Spellman 1라운더와 Collins 포함 | 주인공이 Spellman의 명단 자리를 대체하되 대표팀 일정과 재계산 | [Atlanta Hawks](https://www.nba.com/hawks/hawks-announce-2018-summer-league-roster) | `VERIFIED_BASELINE / SCHEDULE_COLLISION_HOLD` |
+| E-040 | NCAA NIL 시대 경계 | NCAA interim NIL policy는 2021-06-30 채택 | 2017-20 개인 신발·광고 계약을 대학 구간에 소급하지 않음 | [NCAA](https://www.ncaa.org/about/resources/media-center/news/ncaa-adopts-interim-name-image-and-likeness-policy) | `VERIFIED_POLICY_DATE` |
+| E-041 | 2018 PUMA 농구 재진입 | 20년 만의 농구 복귀, Ayton·Bagley·Knox·Porter·Smith 영입, APAC 성장에서 한국 명시 | 주인공 PUMA 계약의 브랜드 전략 기준. 개별 계약은 가상 인과 | [PUMA](https://about.puma.com/en/newsroom/news/puma-delivers-strong-growth-sales-and-profitability-2018) | `VERIFIED_STRATEGY / FICTIONAL_SIGNING` |
+| E-042 | 2020 신발 계약 지연 | 팬데믹 시장에서 실제 1순위 Edwards도 시즌 시작 때 무계약, LaMelo는 PUMA 사전 계약 | 라이벌의 1순위 지위가 계약 시기·금액을 자동 보장하지 않음 | [Andscape](https://andscape.com/features/the-changing-landscape-of-nba-shoe-deals/), [ESPN](https://www.espn.ph/nba/story/_/id/30114551/potential-nba-top-draft-pick-lamelo-ball-signs-puma) | `VERIFIED_MEDIA_BASELINE / FICTIONAL_DEAL_HOLD` |
+| E-043 | Jordan·Shaq 시대 역할 | Jordan은 2018-20 Charlotte 구단주였고, Shaq의 Reebok Basketball 사장 취임은 2023 | 두 사람을 2018/2020 신인의 자유로운 개인 멘토·계약 책임자로 사용하지 않음 | [NBA](https://www.nba.com/news/nba-board-of-governors-approves-michael-jordans-sale-of-the-charlotte-hornets), [Reebok](https://www.reebok.com/blogs/blog/shaq-q-and-a-12) | `VERIFIED_ROLE_BASELINE` |
 
 ## RESEARCH_HOLD
 
@@ -64,3 +68,5 @@
 - 2019년 주인공이 코비 훈련에 접근하는 구체적 초청·스폰서·트레이너 경로
 - Atlanta 2018-19 총분·승패·Spellman 후속 지명·Erie 배정 날짜
 - 2018 Summer League·대표팀 캠프·아시안게임 일정 결합
+- PUMA·adidas 계약의 정확한 협상일·금액·기간·제품·촬영 일정
+- 2019 Kobe 훈련 초청 경로와 Jordan·Shaq 공개 접점의 실제 필요성
