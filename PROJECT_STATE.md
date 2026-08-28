@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3F Villanova full-qualifier and rotation envelope locked; course equivalency/admission/scholarship next`
 - 최근 설계 변경: `full qualifier + 8.5~10.5 mpg specialist + Texas Tech contribution function`
-- 최근 병합: `PR #21 / 233d209`
+- 최근 병합: `PR #22 / 926f9ec`
 
 ## 완료
 
