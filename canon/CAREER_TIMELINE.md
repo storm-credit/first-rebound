@@ -1,6 +1,6 @@
-# Career Timeline Canon v0.8
+# Career Timeline Canon v0.9
 
-- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE`
+- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
 
@@ -100,6 +100,15 @@
 - 2019년 첫 NBA 시즌 뒤 코비 브라이언트와 짧은 소규모 훈련 접점을 두는 방향을 유지한다.
 - 비밀 제자, 절친, 미래 예언, 유언·마지막 메시지, 장기 멘토 관계는 금지한다.
 
+## 프로 전환 광고·신발·유명인 안전선
+
+- 2017-18 주인공과 2018-20 라이벌은 NCAA 개인 유료 광고를 하지 않는다. 두 사람의 개인 신발 계약은 대학 자격 종료 뒤에만 시작한다.
+- 2018 Draft 뒤 주인공은 PUMA footwear/apparel 신인 계약을 맺는다. 정확한 협상일·계약액·한국 캠페인은 Summer League·대표팀 일정과 함께 HOLD다.
+- 2020 Draft·의료 검토 뒤 라이벌은 adidas와 계약한다. 팬데믹 때문에 계약 시점과 촬영 형태를 별도 계산한다.
+- 둘 다 신인 즉시 시그니처 슈즈는 없다. 주인공의 player-exclusive와 라이벌의 장기 signature path는 경기·판매 근거 뒤 별도 결정한다.
+- Kobe는 주인공의 2019 제한 훈련 접점, Jordan은 계획된 사적 관계 없음, Shaq는 공개 방송 평가자 후보다.
+- 주인공과 라이벌은 서로 다른 가상 에이전트를 둔다. 라이벌의 NBA 내부 베테랑 관계는 2020 Draft 팀 확정 뒤 HOLD다.
+
 ## RESEARCH_HOLD
 
 - 두 사람의 정확한 생년월일
@@ -113,3 +122,6 @@
 - 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프 충돌
 - Atlanta/Erie 루키 총분·승패·배정 날짜와 자기관리 재발의 정확한 사건
 - 2019 코비 훈련의 실제 접근 경로와 날짜
+- PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정
+- 두 가상 에이전트·브랜드 매니저의 이름·소속·수수료
+- Jordan·Shaq 공개 접점이 실제 구조에 필요한지 여부
