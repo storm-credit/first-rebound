@@ -1,4 +1,4 @@
-# Project Freeze v0.10
+# Project Freeze v0.11
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -167,3 +167,22 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 상시 허세형·분위기 메이커 성격은 사용하지 않는다. 허세는 무시당했을 때 자존심을 감추려고 튀어나오는 짧은 방어 반응으로만 제한한다.
 - BQ 성장과 책임 성장은 분리한다. 전술을 읽는 능력이 높다고 약속을 지키는 사람이 되는 것은 아니다.
 - 상세 권위는 `canon/CHARACTER_RESPONSIBILITY_ARC.md`다.
+
+## v0.11 LOCKED ADDITIONS — Villanova 자격·역할 안전선
+
+- 주인공은 2017-18 Villanova에서 공식 경기에 출전할 수 있는 NCAA Division I `full qualifier`여야 한다. 첫해 경기 출전이 불가능한 academic redshirt는 현행 경로의 대안이 아니다.
+- 한국 학교 문제는 지각·결석·낮은 성적이지만 학년 전체 낙제나 핵심과목 전부 실패로 만들지 않는다. 한국 중3·고1과 미국 프렙 기록을 합쳐 핵심과목 자격을 증명한다.
+- 2017 역사 기준의 16개 핵심과목, 10/7 진행, 최소 2.300 핵심 GPA, SAT/ACT sliding scale, 졸업 증빙, Eligibility Center 학업·athletics 인증을 모두 통과해야 한다.
+- 주인공의 Villanova 역할은 32~36경기, 선발 0회, 평균 8.5~10.5분의 후순위 수비·리바운드 전문 역할을 기준으로 한다.
+- 실제 선수의 분을 공짜로 만들지 않는다. Samuels·Cosby-Roundtree의 일부 개발 분, 후순위 분, Bridges·Paschall·Spellman 등 핵심진의 경기당 합계 약 2~3분을 재배분한다.
+- 대표 기여 경기는 2018 NCAA East Regional Final Texas Tech전으로 선택한다. 기능은 박스아웃·스위치 수비·팀 리바운드이며, 실제 Paschall 14리바운드와 Cosby-Roundtree 7리바운드의 중심 공로를 유지한다.
+- 정확한 개인 기록·교체 시점·2018 Draft 순번은 R09 인과 시뮬레이션 전까지 HOLD다.
+- 상세 권위는 `research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md`다.
+
+## v0.11 RESEARCH_HOLD
+
+- 선택 프렙과 NCAA approved course list
+- 한국 중3·고1 과목별 핵심과목 환산
+- 실제 SAT/ACT 점수와 Villanova 자체 입학 심사
+- Villanova 장학금 슬롯과 늦은 리크루팅 경로
+- Texas Tech전 정확한 분·기록 재분배

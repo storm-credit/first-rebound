@@ -7,11 +7,11 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.10 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.11 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R02-3E responsibility arc locked; R02-3D NCAA eligibility and rotation verification next`
-- 최근 설계 변경: `quiet low-energy problem kid + five-stage responsibility arc`
-- 최근 병합: `PR #20 / 8095636`
+- 현재 작업: `R02-3F Villanova full-qualifier and rotation envelope locked; course equivalency/admission/scholarship next`
+- 최근 설계 변경: `full qualifier + 8.5~10.5 mpg specialist + Texas Tech contribution function`
+- 최근 병합: `PR #21 / 233d209`
 
 ## 완료
 
@@ -33,6 +33,10 @@
 - [x] 게임·조용한 성격 유지와 BQ/책임 성장 분리
 - [x] 코비 사망·팬데믹 외부 고정축 분류
 - [x] Sub-Act당 핵심 전술 문제 1개 제한
+- [x] 2017-18 NCAA 출전은 academic redshirt가 아닌 full qualifier로 제한
+- [x] 한국 출결 붕괴 유지와 학년 전체 낙제 금지 안전선
+- [x] Villanova 32~36경기·선발 0회·8.5~10.5분 역할 범위
+- [x] Texas Tech전 박스아웃·스위치·팀 리바운드 대표 기능
 
 ## 현재 결정 대기
 
@@ -40,8 +44,9 @@
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
 - [ ] Villanova에서 역할 이탈로 신뢰를 잃는 정확한 경기
 - [ ] NBA 신인기 자기관리 재발의 기간과 비용
-- [ ] Villanova 입학·장학금·NCAA 초기 자격과 아마추어리즘
-- [ ] 실제 포워드 로테이션에 추가될 주인공의 출전시간·기록·대표 기여 경기
+- [ ] 한국 중3·고1과 미국 프렙의 과목별 NCAA core-course 환산
+- [ ] Villanova 자체 입학·장학금·NCAA 개별 인증과 아마추어리즘
+- [ ] 실제 포워드 로테이션에 추가될 주인공의 정확한 기록·Texas Tech전 분배
 - [ ] 라이벌의 정확한 부상 부위·발생월·재활기간
 - [ ] 라이벌의 2018-19 NCAA 레드셔츠와 입학 전 재활 중 선택
 - [ ] 라이벌의 NCAA 대학명
@@ -55,9 +60,9 @@
 1. 농구를 시작하자마자 결석·게임·생활이 완치되면 스포츠 만능치료물이 된다. 단계별 재발과 비용을 유지한다.
 2. 성숙을 외향화로 표현해 주인공을 말 많은 분위기 메이커로 바꾸면 고유 성격이 사라진다. 조용함·게임·혼자 쉬는 성향은 유지하고 신뢰성만 변화시킨다.
 3. BQ와 책임 성장을 하나로 묶으면 천재성이 인격을 자동 교정한다. 두 축을 별도 증거로 검증한다.
-4. Villanova의 2017-18 포워드진은 Bridges·Paschall·Spellman 등으로 이미 두껍다. 주인공의 출전시간을 공짜로 만들 수 없다.
-5. 주인공을 넣으면 기존 선수의 분·기록·드래프트 평가가 변한다. 실제 우승 결과를 유지하더라도 접촉 사건의 파급을 R09에서 재계산해야 한다.
-6. 한국 출결 붕괴와 미국 프렙 1년만으로 NCAA 초기 자격이 자동 회복되지 않는다. 핵심과목·성적표·졸업·아마추어리즘을 검증해야 한다.
+4. Villanova의 2017-18 포워드진은 Bridges·Paschall·Spellman 등으로 이미 두껍다. 8.5~10.5분도 기존 선수의 8,075분에서 실제로 차감해야 한다.
+5. 주인공을 넣으면 기존 선수의 기록·드래프트 평가가 변한다. 실제 우승 결과를 유지하더라도 접촉 사건의 파급을 R09에서 재계산해야 한다.
+6. 한국 출결 붕괴와 미국 프렙 과정만으로 NCAA 초기 자격이 자동 회복되지 않는다. full qualifier 구조는 확인했지만 과목별 환산·입학·장학금은 남아 있다.
 7. 실존 선수와의 관계는 공개적 농구 범위로 제한한다. 모든 유망주를 절친으로 만들거나 허구 사생활·명언을 부여하지 않는다.
 8. 대학 우승을 주인공 개인 완성으로 오인하지 않는다. 팀 우승 뒤에도 NBA 역할 경쟁과 기술 결핍이 남아야 한다.
 9. 라이벌의 부상이 단순한 2년 지연 버튼이면 안 된다. 재활과 복귀 뒤 플레이 변화가 필요하다.
@@ -66,6 +71,6 @@
 
 ## 다음 게이트
 
-책임 성장축의 사건 기능은 잠갔다. 다음으로 R02-3D에서 2017 Villanova 입학과 NCAA 초기 자격을 역사 규정으로 검증하고, 실제 로스터의 분배를 기준으로 주인공의 최소 역할을 계산한다. 그 뒤 대표 기여 경기 하나만 선택하고 2018 Draft 순번·첫 NBA 팀·O-06 국가대표 병역 일정으로 넘어간다.
+NCAA full qualifier 구조와 Villanova 역할 범위, Texas Tech전 대표 기능을 잠갔다. 다음으로 선택 프렙 4안과 한국 중3·고1 과목 원장을 만들어 2017 과목별 환산·입학·장학금 슬롯을 검증한다. 그 뒤 Texas Tech전 200분 재분배와 2018 Draft 순번·첫 NBA 팀·O-06 국가대표 병역 일정으로 넘어간다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

@@ -1,5 +1,7 @@
 # R02-3D Villanova NCAA Route Blindspot Review
 
+> 후속 검증: 자격 구조·역할 범위·대표 경기 선택은 `reviews/R02_3F_VILLANOVA_ELIGIBILITY_ROTATION_REVIEW.md`가 갱신한다. 이 문서는 경로 선택 당시의 역사 검토다.
+
 - 대상: 주인공 2017-18 Villanova NCAA 우승 → 2018 NBA Draft 경로
 - 판정: `PASS_WITH_ELIGIBILITY_AND_ROTATION_HOLDS`
 - 원고 게이트: `CLOSED`
@@ -45,7 +47,7 @@
 
 - 주인공의 정확한 시즌 평균은 HOLD다.
 - 시즌 초부터 주전·에이스·클로저로 쓰지 않는다.
-- 대표 기여는 West Virginia·Texas Tech·Kansas 중 한 경기에서 수비·리바운드 기능 하나로 선택한다.
+- 당시 대표 기여 후보는 West Virginia·Texas Tech·Kansas였다. 후속 R02-3F에서 Texas Tech전 박스아웃·스위치·팀 리바운드 기능을 선택했다.
 - 결승의 실제 중심과 MOP를 바꾸지 않는다.
 - 우승 뒤 Draft 상승은 경기 하나가 아니라 시즌 후반 역할 검증·신체 성장·워크아웃을 합쳐 설명한다.
 

@@ -1,4 +1,4 @@
-# Timeline & Eligibility Evidence Ledger v0.3
+# Timeline & Eligibility Evidence Ledger v0.4
 
 - 기준일: 2026-08-27
 - 범위: R02-3 출생·학년·프렙·Villanova NCAA·NBA 드래프트 연표
@@ -24,15 +24,21 @@
 | E-014 | 2017-18 Villanova 로스터 | Brunson, Bridges, DiVincenzo, Spellman, Paschall 등 실제 핵심 로스터 확인 | 주인공은 기존 공로를 대체하지 않는 후순위 포워드 역할에서 시작 | [Villanova Athletics](https://villanova.com/sports/mens-basketball/roster/2017-18) | `VERIFIED_BASELINE` |
 | E-015 | 2018 NCAA 우승 | Villanova는 36승 4패, 결승에서 Michigan을 79-62로 꺾고 우승 | 주인공의 대학 시즌 결말 기준선으로 유지하되 접촉 파급 재계산 | [Villanova 결승 기록](https://villanova.com/sports/mens-basketball/stats/2017-18/michigan-ncaa-championship-/boxscore/2696), [NCAA 우승 기록](https://www.ncaa.com/history/basketball-men/d1) | `VERIFIED_BASELINE` |
 | E-016 | 2018 Villanova 드래프트 | Bridges, DiVincenzo, Spellman, Brunson 네 명이 2018 NBA Draft에서 지명 | 주인공이 더해질 경우 실제 기록이 바뀌므로 가상 역사 파급으로 관리 | [Villanova Athletics](https://villanova.com/news/2018/6/21/Four_Wildcats_Selected_in_the_NBA_Draft_Most_in_Program_History) | `VERIFIED_BASELINE` |
-| E-017 | 2018 NCAA 대진 | Villanova는 West Virginia, Texas Tech, Kansas, Michigan을 차례로 상대 | 주인공의 대표 기여 경기는 이 중 하나만 R09에서 선택 | [Villanova 일정](https://villanova.com/sports/mens-basketball/schedule/2017-18), [NCAA 공식 브래킷](https://www.ncaa.com/brackets/basketball-men/d1/2018) | `VERIFIED_BASELINE` |
+| E-017 | 2018 NCAA 대진 | Villanova는 West Virginia, Texas Tech, Kansas, Michigan을 차례로 상대 | 대표 기여 경기는 Texas Tech로 선택하고 정확 수치는 R09에서 계산 | [Villanova 일정](https://villanova.com/sports/mens-basketball/schedule/2017-18), [NCAA 공식 브래킷](https://www.ncaa.com/brackets/basketball-men/d1/2018) | `VERIFIED_BASELINE` |
+| E-018 | 2016 이후 D-I full qualifier | 16개 핵심과목, 10/7 진행, 최소 2.300 핵심 GPA, 당시 SAT/ACT sliding scale, 고교 졸업이 첫해 경기 출전 조건 | 주인공은 academic redshirt가 아니라 full qualifier로만 2017-18 출전 | [NCAA 2016 시행 자료](https://fs.ncaa.org/Docs/public/bench-downloads/BenchFlyerDownload.pdf), [역사 quick sheet](https://ramblinwreck.com/wp-content/uploads/2018/06/ie-quick-sheet.pdf) | `VERIFIED_HISTORICAL_BASELINE` |
+| E-019 | 국제·미국 혼합 학적 | 국제학생의 학교는 공식 학업 기록과 보조 서류를 제출해야 하며, 현재 안내는 9학년 이후 미국 과목 이수 시 10/7을 적용 | 한국·프렙 기록을 모두 제출하고 10/7 예외를 사용하지 않는 보수적 경로 | [NCAA 국제학생](https://www.ncaa.org/eligibility-center/initial-eligibility-requirements/international-student-athletes/), [NCAA D-I](https://www.ncaa.org/eligibility-center/initial-eligibility-requirements/division-i/) | `VERIFIED_CURRENT / 2017 CASE_HOLD` |
+| E-020 | Villanova 실제 분 예산 | 40경기 총 8,075분. Bridges 1,285, Paschall 1,133, Spellman 1,125, Cosby-Roundtree 453, Samuels 153분 | 주인공 분은 기존 선수 분에서 재배분하며 8.5~10.5분 안전선 사용 | [Villanova 누적 통계](https://villanova.com/sports/mens-basketball/stats/2017-18) | `VERIFIED_BASELINE / SIMULATION_PENDING` |
+| E-021 | Texas Tech전 | Villanova 71-59 승리, 3점 4/24, 리바운드 51-33. Paschall 14, Cosby-Roundtree 7리바운드 | 주인공 대표 기능을 박스아웃·스위치·팀 리바운드로 선택하고 실제 중심 공로 유지 | [Villanova 공식 박스스코어](https://villanova.com/sports/mens-basketball/stats/2017-18/texas-tech/boxscore/2694) | `VERIFIED_BASELINE / PLAYER_LINE_HOLD` |
 
 ## RESEARCH_HOLD
 
 - 선택 프렙의 실제 입학·재분류·졸업·postgraduate 규정
-- 주인공의 2017-18 Villanova 초기 자격·핵심과목·아마추어리즘·장학금 역사 원문
+- 주인공의 한국·프렙 과목별 핵심과목 환산과 2017 개별 인증
+- 주인공의 SAT/ACT 실제 점수·Villanova 자체 입학·아마추어리즘·장학금
 - 라이벌의 2018-20 NCAA 국제학생 핵심과목·아마추어리즘·레드셔츠 역사 원문
 - 주인공의 한국 고교→미국 프렙 학점 이전과 2017 졸업 인정 방식
-- Villanova 실제 포워드 로테이션에 주인공을 추가했을 때의 출전시간·기록·승패 파급
+- Villanova 실제 포워드 로테이션에 주인공을 추가했을 때의 정확한 기록·승패 파급
+- Texas Tech전 200분과 개인 기록 재분배
 - 두 선수의 대표팀 선발 당시 학적·계약·보험 상태
 - NBA 드래프트의 정확한 생일·선언·졸업일 계산
 - 라이벌 장기 부상의 정확한 의학적 복귀 기간과 2018-19 학적
