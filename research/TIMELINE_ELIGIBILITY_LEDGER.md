@@ -1,4 +1,4 @@
-# Timeline & Eligibility Evidence Ledger v0.4
+# Timeline & Eligibility Evidence Ledger v0.5
 
 - 기준일: 2026-08-27
 - 범위: R02-3 출생·학년·프렙·Villanova NCAA·NBA 드래프트 연표
@@ -33,17 +33,21 @@
 | E-023 | Villanova 2017 입학생 시험 분포 | SAT 제출자 중간 50% EBRW 630~710·Math 640~740, ACT 30~33 | SAT 1280~1320을 입학 안전선으로 선택 | [Villanova Common Data Set 2017-18](https://www1.villanova.edu/content/dam/villanova/enroll/registrar/CDS_2017-2018_v5.pdf) | `VERIFIED_BASELINE` |
 | E-024 | 2017 봄 늦은 Villanova 영입 | Collin Gillespie 공식 약력은 2017년 4월 NLI 체결을 기록 | 주인공의 늦은 봄 장학금 영입 가능 기준선. 동일 날짜 복제 금지 | [Villanova 공식 약력](https://villanova.com/sports/mens-basketball/roster/collin-gillespie/12213) | `VERIFIED_BASELINE / FICTIONAL_ROUTE` |
 | E-025 | 뉴잉글랜드 보딩 프렙 유형 | St. Thomas More는 인증된 college-preparatory boarding school이며 국제학생·학업지원·농구 기능을 둠 | 실존 학교가 아닌 가상 합성 프렙의 기능 근거 | [St. Thomas More](https://stmct.org/), [국제학생 안내](https://stmct.org/international-students/) | `VERIFIED_CURRENT_MODEL / 2016_DETAIL_HOLD` |
+| E-026 | ACL 손상·복귀 범위 | 농구의 피벗·컷·착지에서 ACL이 손상될 수 있고, 재건술 뒤 full sports participation은 흔히 6~12개월 범위 | 2017년 9월 비접촉 손상·10월 수술 뒤 2018-19 공식전 0경기 안전선 | [AAOS 손상 기전](https://orthoinfo.aaos.org/en/diseases--conditions/anterior-cruciate-ligament-acl-injuries/), [AAOS 수술·복귀](https://orthoinfo.aaos.org/en/treatment/acl-injury-does-it-require-surgery) | `VERIFIED_BASELINE / INDIVIDUAL_CLEARANCE_HOLD` |
+| E-027 | 젊은 선수 조기 복귀 | 무릎 부담이 큰 종목에 9개월 전 복귀한 젊은 선수는 두 번째 ACL 손상 위험이 높았고, 복귀 지연은 9개월까지 위험 감소와 연관 | 6개월 완전 복귀 금지, 2019 여름까지 기능·접촉 검증 누적 | [JOSPT 2020](https://pubmed.ncbi.nlm.nih.gov/32005095/), [BJSM 2016](https://pubmed.ncbi.nlm.nih.gov/27162233/) | `VERIFIED_STUDY_BASELINE / NOT_INDIVIDUAL_PROGNOSIS` |
+| E-028 | NCAA 2018-19 hardship와 경기 자격 | 당시 문서는 five-year rule과 hardship waiver를 별도 예외 절차로 다룸 | 라이벌은 일부 출전 뒤 waiver가 아니라 첫해 공식전 0회 전통 레드셔츠로 설계 | [NCAA 2018-19 Q&A](https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2018-19D1Gov_CouncilGovLegPropQandA.pdf) | `PARTIAL_HISTORICAL — exact manual text HOLD` |
+| E-029 | NBA ACL 복귀 비용 | NBA 선수 연구에서 높은 복귀율과 평균 약 11.6개월 복귀가 관찰됐지만 첫 복귀 시즌 효율 저하가 보고됨 | 라이벌의 복귀 가능성은 유지하되 첫 시즌 편차·부하 비용을 삭제하지 않음 | [2017 systematic review](https://pubmed.ncbi.nlm.nih.gov/28449611/), [NBA return-time study](https://pubmed.ncbi.nlm.nih.gov/24427434/) | `VERIFIED_STUDY_BASELINE / FICTIONAL_PLAYER_HOLD` |
 
 ## RESEARCH_HOLD
 
 - 선택 프렙의 실제 입학·재분류·졸업·postgraduate 규정
 - 주인공의 한국·프렙 과목별 핵심과목 환산과 2017 개별 인증
 - 주인공의 SAT/ACT 실제 점수·Villanova 자체 입학·아마추어리즘·장학금
-- 라이벌의 2018-20 NCAA 국제학생 핵심과목·아마추어리즘·레드셔츠 역사 원문
+- 라이벌의 2018-20 NCAA 국제학생 핵심과목·아마추어리즘·0경기 레드셔츠 역사 원문
 - 주인공의 한국 고교→미국 프렙 학점 이전과 2017 졸업 인정 방식
 - Villanova 실제 포워드 로테이션에 주인공을 추가했을 때의 정확한 기록·승패 파급
 - Texas Tech전 200분과 개인 기록 재분배
 - 두 선수의 대표팀 선발 당시 학적·계약·보험 상태
 - NBA 드래프트의 정확한 생일·선언·졸업일 계산
-- 라이벌 장기 부상의 정확한 의학적 복귀 기간과 2018-19 학적
+- 라이벌 ACL의 정확한 graft·동반 손상·기능검사·의료 clearance와 2018-19 장학금·대학 의료 권한
 - 2019년 주인공이 코비 훈련에 접근하는 구체적 초청·스폰서·트레이너 경로

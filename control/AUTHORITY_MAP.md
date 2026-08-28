@@ -55,3 +55,5 @@
 | 무목표·게임·출석 기반 입문 맹점 검토 | `reviews/R02_3B_TRUANCY_GAMING_ENTRY_REVIEW.md` | 현행 검토 권위. R16 독립 검수 대체 아님 |
 | 프렙 유형·NCAA 범주·Villanova 영입 종료 패킷 | `research/COLLEGE_EXIT_PACKET.md` | 대학 범위 완료 권위. 개별 인증은 HOLD |
 | 대학 종료 패킷 맹점 검토 | `reviews/R02_3H_COLLEGE_EXIT_PACKET_REVIEW.md` | R16 독립 검수 대체 아님 |
+| 라이벌 ACL·재활·0경기 NCAA 레드셔츠 경로 | `research/RIVAL_INJURY_REDSHIRT_MODEL.md` | 대학명·개별 의료 수치는 HOLD |
+| 라이벌 부상·레드셔츠 맹점 검토 | `reviews/R02_3I_RIVAL_INJURY_REDSHIRT_REVIEW.md` | R16 독립 검수 대체 아님 |
