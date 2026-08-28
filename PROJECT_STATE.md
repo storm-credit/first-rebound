@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3I rival ACL/redshirt route complete; rival NCAA school selection next`
 - 최근 설계 변경: `2017 right ACL tear + 2018-19 NCAA zero-game redshirt + 2019-20 comeback`
-- 최근 병합: `PR #26 / 39e95af`
+- 최근 병합: `PR #28 / a229f8a`
 
 ## 완료
 
