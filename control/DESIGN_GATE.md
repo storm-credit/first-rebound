@@ -4,7 +4,7 @@
 status: CLOSED
 manuscript_allowed: false
 authority: this_file
-last_reviewed: 2026-08-27
+last_reviewed: 2026-08-28
 ```
 
 ## 절대 규칙
