@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R02-3J Gonzaga selection complete; 2018 Draft landing and national-team route next`
 - 최근 설계 변경: `rival Gonzaga redshirt/comeback + WCC title + 3 relationships/2 games scope cap`
-- 최근 병합: `PR #28 / a229f8a`
+- 최근 병합: `PR #30 / dc15b84`
 
 ## 완료
 
