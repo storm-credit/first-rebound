@@ -1,6 +1,6 @@
-# Career Timeline Canon v0.7
+# Career Timeline Canon v0.8
 
-- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE`
+- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
 
@@ -14,7 +14,7 @@
 
 ## LOCKED 경로 분리
 
-- 주인공은 한국 고1을 마친 뒤 2016년 3월 가상 뉴잉글랜드 보딩 프렙으로 이동한다. 한국 네 학기와 미국 세 학기를 합친 7학기 과정으로 2017년 5~6월 조기졸업하고, 2017-18 Villanova에서 NCAA 한 시즌을 보낸 뒤 2018 NBA Draft에 진입한다.
+- 주인공은 한국 고1을 마친 뒤 2016년 3월 가상 뉴잉글랜드 보딩 프렙으로 이동한다. 한국 네 학기와 미국 세 학기를 합친 7학기 과정으로 2017년 5~6월 조기졸업하고, 2017-18 Villanova에서 NCAA 한 시즌을 보낸 뒤 2018 NBA Draft 전체 30순위로 Atlanta에 진입한다.
 - 라이벌은 한국 고교에 남아 2017년 9월 후보창에 오른쪽 무릎 ACL 완전파열을 입고 10월 재건술을 받는다. 2018년 가을 Gonzaga에 입학해 공식 경기 0회 레드셔츠로 재활한 뒤 2019-20 복귀를 증명하고 2020 NBA Draft에 진입한다.
 - 주인공의 대학 시즌은 보호받는 천재의 쇼케이스가 아니라 학업·생활·로테이션 경쟁을 처음 견디며 또래 집단과 소속을 얻는 단계다.
 - 라이벌의 부상은 주인공을 먼저 보내기 위한 시간 정지 장치가 아니라, 재활과 복귀를 통해 완성형 천재의 약점을 드러내는 비용이어야 한다.
@@ -28,8 +28,8 @@
 | 2017.05~06 | 7학기 조기졸업·Villanova 늦은 체육장학금 영입 | 한국 고교 최종 과정·부상 전 Gonzaga 영입 평가 | 졸업창·영입 기능 LOCK / 정확 오퍼일 HOLD |
 | 2017.09~10 | Villanova 입학 준비 | 비접촉 오른쪽 ACL 완전파열→재건술 | 부위·월 LOCK / 경기·수술 세부 HOLD |
 | 2017-18 | Villanova 신입생, 후순위 로테이션에서 NCAA 우승 | 한국 고교 졸업·수술 뒤 기초 재활·미국 대학 진학 인증 | 대학 범위 COMPLETE / 라이벌 인증 HOLD |
-| 2018 | 2018 NBA Draft 1라운드 후반 방향 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학 | 정확한 픽·NLI·counter HOLD |
-| 2018-19 | NBA 신인, 필요시 NBA 소속 G리그 배정 | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 학교·학적 LOCK / 의료·counter HOLD |
+| 2018 | 2018 NBA Draft 30순위 Atlanta, 1라운드 rookie-scale 계약 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학 | 팀·픽·계약 유형 LOCK / 세부액·NLI·counter HOLD |
+| 2018-19 | Atlanta 루키, NBA 본무대·Erie 짧은 assignment | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 착지 구조 LOCK / 총분·승패·의료·counter HOLD |
 | 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
 | 2020 | NBA 성장기 | 합의·실제 1순위 수준으로 Draft | 보유 팀 R09 HOLD |
 
@@ -86,8 +86,12 @@
 
 - 주인공은 2018년 달력연도에 만 19세가 되는 1999년생으로 둔다.
 - 미국 프렙 졸업창은 2017년 5~6월로 잠그며, 정확한 졸업일·한 시즌 경과 요건·조기진입 선언일은 당시 CBA·NCAA 원문으로 재검증한다.
-- 1라운드 후반 표준 신인 계약을 기본 방향으로 두며 투웨이 계약은 기본값이 아니다.
-- 정확한 생일·졸업일·입학 등록일·장학금 서명일·드래프트 순번은 HOLD다.
+- Atlanta가 전체 30순위에서 지명하고 1라운드 NBA rookie-scale 계약을 체결한다. 투웨이 계약은 아니다.
+- 실제 30순위 Omari Spellman의 변경된 지명 팀·순번은 R09까지 HOLD다.
+- 루키 NBA 역할은 약 38~50경기·10~16분, Erie는 약 4~10경기·24~30분 안전선이다. 정확 기록은 실제 총분 재배분 전까지 HOLD다.
+- 깊은 NBA 관계는 Trae Young·Kevin Huerter·John Collins 세 명으로 제한한다.
+- NBA 재발은 밤샘 게임 뒤 아침 영상·컨디셔닝 지각→예정된 로테이션 기회 상실이다. Erie 배정은 별도의 개발 결정이다.
+- 정확한 생일·졸업일·입학 등록일·장학금 서명일·계약 액수·Summer League/대표팀 일정은 HOLD다.
 
 ## 오프시즌·코비 접점
 
@@ -103,8 +107,9 @@
 - 2017-18 Villanova 개별 과목 자격 환산·정확한 입학 판단·장학금 counter·아마추어리즘
 - 실제 포워드 로테이션에 주인공이 들어갈 때의 정확한 기록·승패 파급
 - Texas Tech전 정확한 개인 분·기록
-- 주인공의 2018 Draft 선언·정확한 순번
+- 주인공의 2018 Draft 선언·Atlanta 워크아웃·계약 세부와 Spellman 후속 지명
 - 라이벌의 정확한 부상 경기·수술일·graft·의료 clearance
 - 라이벌의 NCAA 개별 학업 인증·Gonzaga NLI·장학금 counter·2019-20 기록
-- 2018 Summer League·아시안게임·NBA 캠프 충돌
+- 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프 충돌
+- Atlanta/Erie 루키 총분·승패·배정 날짜와 자기관리 재발의 정확한 사건
 - 2019 코비 훈련의 실제 접근 경로와 날짜

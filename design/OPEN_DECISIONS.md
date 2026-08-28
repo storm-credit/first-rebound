@@ -57,7 +57,13 @@ O-01은 E0과 선택 시대 한국 학교 체육 고증 뒤 결정한다.
 | C | 강팀의 낮은 순번/트레이드 픽 | 높은 기준과 즉시 경쟁 | 출전 부족 |
 | D | 프런트 전환기의 팀 | 로스터·계약 갈등 | 역사 파급 복잡 |
 
-O-05는 E0 확정과 해당 드래프트 수요·사건 시뮬레이션 전에는 선택하지 않는다.
+O-05는 CLOSED다. 실제 후반 1라운드의 Indiana 23·Boston 27·Golden State 28·Atlanta 30을 비교해 **Atlanta 30순위**를 선택했다.
+
+- 계약: 1라운드 NBA rookie-scale, 투웨이 아님
+- 2018-19: Atlanta NBA 본무대, Erie 짧은 assignment
+- 깊은 관계: Trae Young·Kevin Huerter·John Collins
+- 실제 30순위 Spellman의 후속 지명과 정확한 총분·승패는 R09 HOLD
+- 상세 권위: `research/PROTAGONIST_2018_DRAFT_LANDING.md`
 
 ## O-06 국가대표·병역 경로
 
