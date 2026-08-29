@@ -136,5 +136,12 @@
 | D-128 | PROVISIONAL | Thomas Welsh는 미지명 뒤 Denver 투웨이 역할 후보 | 실제 역할을 보존하되 Spalding 지명 뒤 계약·슬롯 검산 전 자동 확정 금지 |
 | D-129 | LOCKED | Spellman의 Spurs 출전 시작 상한은 Atlanta 805분 복사가 아니라 실제 Metu 29경기·145분 슬롯 | 플레이오프 팀의 핵심 로테이션을 공짜로 침범하지 않음 |
 | D-130 | SECOND_TEAM_IMPACT_HOLD | Spurs 2018-19 분·승패 파급 전 2019 standings·lottery FINAL 금지 | 드래프트 팀만 정하고 리그 전체 승패를 실제대로 복사하는 오류 방지 |
+| D-131 | LOCKED | Spellman의 Spurs BASE는 Metu의 실제 29경기·145.4분·0선발 | Atlanta 805분 복사와 플레이오프 팀 핵심 로테이션 침범 금지 |
+| D-132 | LOCKED | Spellman의 사전 허용 범위는 NBA 24~31경기·120~180분·평균 4~6분, Austin 20~28경기 | 정확 기록을 미리 쓰지 않되 2라운드 신인 개발 슬롯 안에서 통제 |
+| D-133 | LOCKED | 145.4분 초과 34.6분에는 날짜별 실제 donor와 가용성 증거를 요구 | 공짜 분 생성과 핵심 선수 분 무근거 차감 금지 |
+| D-134 | LOCKED | Metu는 다년 NBA 계약+Austin assignment였으므로 Spellman도 같은 계약 계층 | 투웨이·G League 계약으로 잘못 낮추는 시대·계약 오류 방지 |
+| D-135 | LOCKED | 2019-03-06·04-02 Atlanta 직접 대결의 Spurs 쪽 대체 슬롯은 0분 | Spellman 이동만으로 두 경기 결과를 자동 변경하지 않음 |
+| D-136 | SECOND_TEAM_BASELINE_PASS | Spurs 역할 기준선은 닫고 48-34는 BASELINE_ONLY 유지 | competitive stint·Atlanta player-game 전에는 대체 승패 확정 금지 |
+| D-137 | LOCKED | 큰 드래프트 파급은 계약층→실제 분 침범→경기층 순으로 조건부 확장 | 모든 변경 팀의 82경기를 같은 깊이로 과설계하지 않음 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

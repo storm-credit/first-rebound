@@ -376,3 +376,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Dallas의 Metu와 Denver의 Spalding 계약·NBA/G League 분 파급
 - Denver가 Welsh에게 미지명 투웨이 슬롯을 다시 줄 수 있는지 여부
 - 두 번째 팀 파급 뒤 Atlanta·상대팀 승패·2019 standings·lottery
+
+## v0.21 LOCKED ADDITIONS — Spurs 두 번째 팀 역할 기준선
+
+- San Antonio 49번 Omari Spellman은 실제 Metu의 저레버리지 신인 개발 슬롯을 대체한다.
+- 실제 Metu 기준선은 NBA 29경기·0선발·145.4분·평균 5.0분, Austin 26경기·710.4분·평균 27.3분이다.
+- Spellman BASE는 29경기·145.4분·0선발이다. 사전 허용 범위는 NBA 24~31경기·120~180분·평균 4~6분, Austin 20~28경기다.
+- Metu는 투웨이가 아니라 다년 NBA 계약을 유지한 assignment 선수였다. Spellman도 같은 계약 계층으로 둔다.
+- 145.4분을 넘는 HIGH의 추가 34.6분에는 경기 날짜·실제 공여자·가용성 증거가 필요하다. 없으면 BASE로 되돌린다.
+- 2019년 3월 6일·4월 2일 Atlanta 직접 대결에서 Metu는 모두 0분이었다. Spurs 쪽 대체 접촉은 `NO_DIRECT_MINUTES`다.
+- San Antonio의 실제 48승 34패는 비교 기준선이지 대체 세계 확정 결과가 아니다. 경쟁 구간 출전이 생길 때만 해당 경기 승패 검토를 연다.
+- 큰 드래프트는 모든 팀을 같은 깊이로 확장하지 않는다. 계약층→실제 분 침범→경기층 순으로 조건부 확장한다.
+- 상세 권위는 `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.21 RESEARCH_HOLD
+
+- Spellman의 정확한 Spurs/Austin assignment 날짜와 NBA player-game 분
+- 145.4분 초과 시 추가 34.6분의 날짜별 심부 로테이션 donor
+- Atlanta 주인공의 두 Spurs전 출전 여부·분·경기 영향
+- Dallas Metu·Denver Spalding/Welsh의 계약·로스터·분 파급
+- Atlanta player-game·상대팀 승패·2019 standings·lottery

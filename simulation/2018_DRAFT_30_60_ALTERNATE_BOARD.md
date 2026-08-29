@@ -1,6 +1,6 @@
 # 2018 Draft Picks 30-60 Alternate Board v1.0
 
-- 상태: `PASS_WITH_SECOND_TEAM_IMPACT_HOLD`
+- 상태: `SECOND_TEAM_BASELINE_PASS / GAME_OUTCOMES_HOLD`
 - 범위: 주인공의 Atlanta 30순위 지명 이후 30~60순위
 - 원고 게이트: `CLOSED`
 - 계산 권위: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`의 `2018 Draft Board`
@@ -53,13 +53,14 @@ Welsh는 실제로 Denver와 투웨이 계약을 맺었다. 대체 세계에서�
 
 Spellman이 들어가는 자리는 실제 Metu의 신인 슬롯이다. Metu의 2018-19 San Antonio NBA 역할은 29경기·145분, 평균 5.0분으로 대부분 가비지타임이었다. 따라서 Spellman에게 Atlanta의 실제 805분을 그대로 복사하지 않는다.
 
-현 단계의 사전 안전선은 다음과 같다.
+검증을 거쳐 사전 안전선을 다음과 같이 좁혔다.
 
 - San Antonio의 실제 48승 34패는 불변 결과가 아니라 기준선이다.
-- Spellman의 NBA 분은 우선 Metu의 145분 개발 슬롯에서 시작한다.
-- Austin Spurs 배정과 계약 차이 때문에 추가 분이 생기면 같은 날짜의 실제 가용 선수 분에서 차감한다.
-- Atlanta와 San Antonio의 두 직접 대결은 양쪽 로스터 파급이 함께 닿는 경기로 승격한다.
-- Spurs의 날짜별 가용성·Spellman 분·결과 영향이 닫히기 전 2019 standings와 lottery는 `FINAL` 금지다.
+- Spellman의 BASE는 Metu의 29경기·145.4분·0선발이다. 허용 범위는 24~31경기·120~180분이다.
+- 145.4분을 넘는 추가 34.6분에는 같은 날짜의 실제 공여자가 반드시 필요하다.
+- Metu는 다년 NBA 계약을 유지한 채 Austin에 반복 배정됐으므로 Spellman도 투웨이가 아니라 NBA 계약+assignment 계층으로 둔다.
+- Atlanta와 San Antonio의 두 직접 대결에서 Metu는 모두 0분이었다. Spurs 쪽 접촉은 `NO_DIRECT_MINUTES`다.
+- 주인공의 Atlanta 쪽 출전과 경쟁 구간 영향이 닫히기 전 2019 standings와 lottery는 `FINAL` 금지다.
 
 ## 계산량 통제 판정
 
@@ -74,11 +75,10 @@ Dallas의 56번과 Denver의 58번은 우선 계약·로스터 분 원장만 연
 
 ## 다음 게이트
 
-1. San Antonio의 2018-19 날짜별 Metu NBA/G League 이동과 145분을 원장화한다.
-2. Spellman의 계약·Austin assignment·출장 안전선을 사전등록한다.
-3. Atlanta–San Antonio 두 경기와 Spurs 전체 로스터 파급을 판정한다.
-4. Dallas의 Metu, Denver의 Spalding·Welsh가 실제 정규시즌 분을 바꾸는지 계약층에서 검사한다.
-5. 그 뒤에만 Atlanta·상대팀 승패와 2019 순위·로터리를 계산한다.
+1. Dallas의 Metu, Denver의 Spalding·Welsh가 실제 정규시즌 분을 바꾸는지 계약층에서 검사한다.
+2. Atlanta 주인공의 날짜별 가용성·donor vector를 만든다.
+3. Spellman이 BASE 145.4분을 넘을 경우에만 날짜별 Spurs 공여자와 경쟁 구간을 연다.
+4. 그 뒤에만 Atlanta·상대팀 승패와 2019 순위·로터리를 계산한다.
 
 ## 출처
 

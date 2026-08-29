@@ -119,7 +119,7 @@
 - 경기별 player-game 분·가용성·피로와 대체 승패는 아직 `HOLD`다.
 - 2018 Draft 30~60 전수 스캔 결과는 27개 유지, 4개 변경이다. Spellman은 San Antonio 49번, 밀려난 Metu는 Dallas 56번, Spalding은 Denver 58번으로 이동한다.
 - Thomas Welsh는 미지명 뒤 실제와 같은 Denver 투웨이 역할 후보지만 계약·슬롯 검산 전 `PROVISIONAL_ROLE_PRESERVED`다.
-- Spellman의 새 팀은 해결됐으나 Spurs 2018-19 분·승패 파급이 닫히기 전 2019 standings·lottery는 `FINAL` 금지다.
+- Spellman의 Spurs 역할 기준선은 Metu의 29경기·145.4분·0선발과 Austin 26경기로 닫는다. 145.4분 초과 또는 경쟁 구간 출전이 생기면 해당 경기 결과를 다시 열며, Atlanta player-game과 리그 승패가 닫히기 전 2019 standings·lottery는 `FINAL` 금지다.
 - 상세 원장과 감사 게이트는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md` 및 `.xlsx`가 권위다.
 - 후반 보드의 선택 근거는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`가 권위다.
 

@@ -12,7 +12,7 @@
 | 코비를 만나기 위해 Lakers를 고르는가 | 코비 접점과 첫 NBA 팀을 분리하고 로스터·성장 기능으로 Atlanta 선택 | PASS |
 | G League 때문에 성장 보상이 느린가 | NBA 38~50경기 후보, Erie 4~10경기 후보로 NBA가 본무대 | PASS_WITH_SIMULATION_HOLD |
 | 30순위인데 투웨이 계약으로 처리하는가 | NBA rookie-scale 계약과 assignment를 명시적으로 분리 | PASS |
-| Spellman이 사라지는가 | 존재는 유지하고 지명 팀·순번을 R09 드래프트 보드 HOLD | PASS_WITH_DRAFT_BOARD_HOLD |
+| Spellman이 사라지는가 | San Antonio 49번·BASE 29경기 145.4분으로 후속 경로 보존 | PASS |
 | 실제 Spellman 기록을 복사하는가 | 46경기·17.5분은 기회 기준선만 사용, 주인공 기록은 재계산 | PASS |
 | Young·Huerter·Collins가 주인공 보조원이 되는가 | 각자의 실제 공격 기능과 공로를 보존하고 주인공은 수비·연결로 차별 | PASS |
 | 유명 신인 전부와 즉시 절친인가 | 깊은 관계 3명 상한과 각 관계의 다른 비용 설정 | PASS |

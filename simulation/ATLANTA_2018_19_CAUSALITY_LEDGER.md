@@ -1,6 +1,6 @@
 # Atlanta 2018-19 Causality Ledger v0.2
 
-- 상태: `BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD`
+- 상태: `SECOND_TEAM_BASELINE_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`
 - 정본성: `PROVISIONAL`
 - 원고 게이트: `CLOSED`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -84,15 +84,24 @@ logit(pCF) = logit(pB) + Δμ / k
 Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 수 없다.
 
 1. 2018 Draft 30~60의 27개 유지·4개 변경 보드를 보존한다.
-2. Spellman의 Spurs 계약·로스터 자리와 Metu의 실제 145분을 날짜별로 연결한다.
-3. Spurs에서 Spellman이 만든 분·승패 파급을 계산한다.
+2. Spellman의 Spurs 계약·로스터 자리와 Metu의 실제 145.4분 기준선은 연결 완료했다.
+3. 145.4분 초과 또는 경쟁 구간 출전이 생길 때만 Spurs 경기별 파급을 연다.
 4. 모든 바뀐 경기에서 승자·패자의 승패를 함께 갱신한다.
 5. 비플레이오프 14팀, 동률, 조합 배분, 별도 동률 추첨을 재계산한다.
 6. 로터리 입력이 바뀌면 잠긴 seed로 재추첨한다.
 7. Dallas pick의 top-5 보호·양도 여부를 판정한다.
 8. 그 뒤에만 Atlanta의 지명·거래 보드를 다시 연다.
 
-따라서 현재 판정은 `BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD`다. Spurs 2018-19 파급 전에는 Atlanta-local `PROVISIONAL_PASS`도 선언하지 않는다.
+따라서 현재 판정은 `SECOND_TEAM_BASELINE_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`다. Spurs의 역할 기준선은 닫혔지만 Atlanta player-game·승패·상대팀 기록 전에는 시즌 결과를 선언하지 않는다.
+
+## Spurs 두 번째 팀 기준선
+
+- 실제 Metu: NBA 29경기·145.4분, Austin 26경기·710.4분
+- Spellman BASE: 29경기·145.4분·0선발
+- 허용 범위: 24~31경기·120~180분
+- 145.4분 초과: 날짜별 donor와 경쟁 구간 검토 필수
+- Atlanta 직접 대결 2경기: Metu 0분, Spurs 쪽 `NO_DIRECT_MINUTES`
+- 상세 권위: `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md`
 
 ## 출처
 

@@ -45,7 +45,7 @@ Brooklyn 29순위는 Long Island 개발 환경은 강하지만 Musa·Kurucs와 �
 ## 3. 드래프트·계약·실제 픽 파급
 
 - 2018년 6월 21일 Atlanta가 30순위에서 주인공을 지명한다.
-- 실제 30순위 Omari Spellman은 같은 Villanova 동료이므로 존재를 삭제하지 않는다. 다만 지명 팀·순번은 R09 드래프트 보드 재계산까지 `HOLD`다.
+- 실제 30순위 Omari Spellman은 같은 Villanova 동료이므로 존재를 삭제하지 않는다. R09 대안 보드에서 San Antonio 49번으로 이동했고 신인 BASE는 29경기·145.4분·0선발이다.
 - Atlanta가 30순위 권리와 별개인 추가 픽·로스터 자리를 마법처럼 만들지 않는다.
 - 계약은 2017 CBA의 1라운드 rookie-scale 구조를 따른다. 정확한 서명일·허용 scale 비율·급여·옵션 행사는 CBA 계산표 감사 전까지 `HOLD`다.
 - 투웨이 계약·G League call-up·프리드래프트 G League 경로로 되돌리지 않는다.

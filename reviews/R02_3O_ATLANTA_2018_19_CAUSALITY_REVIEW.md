@@ -1,6 +1,6 @@
 # R02-3O Atlanta 2018-19 Causality Ledger Review
 
-- 판정: `BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD`
+- 판정: `SECOND_TEAM_BASELINE_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`
 - 대상: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
 
@@ -8,7 +8,7 @@
 
 | 게이트 | 판정 | 근거 |
 |---|---|---|
-| G0 Spellman 새 팀 파급 | PARTIAL | Spurs 49번은 확정, 2018-19 분·승패 파급 미실행 |
+| G0 Spellman 새 팀 기준선 | PASS | Spurs 49번, BASE 29경기·145.4분, Atlanta전 0분 |
 | G1 82경기 기준선 | PASS | 82경기·29-53·9,294득점·연장분 재현 |
 | G2 사전등록 | HOLD | 시즌 범위만 잠겼고 날짜별 출전·assignment 미확정 |
 | G3 분 보존 | HOLD | 시즌 상한은 통과했으나 player-game donor vector 미작성 |
@@ -43,8 +43,8 @@
 
 ## 다음 실행
 
-1. San Antonio의 실제 Metu 145분과 G League 이동을 날짜별로 수집한다.
-2. Spellman의 Spurs 계약·assignment·출전 안전선을 결과 보기 전에 잠근다.
-3. Atlanta 경기별 availability와 주인공 donor vector를 만든다.
-4. Atlanta와 Spurs의 영향 prior를 만들고 직접 대결 두 경기를 포함해 시간순으로 실행한다.
+1. Dallas·Denver 계약층 연쇄가 실제 시즌 분을 침범하는지 검사한다.
+2. Atlanta 경기별 availability와 주인공 donor vector를 만든다.
+3. Spellman이 145.4분을 넘을 때만 Spurs 날짜별 donor와 경쟁 구간을 연다.
+4. Atlanta 영향 prior를 만들고 직접 대결 두 경기를 포함해 시간순으로 실행한다.
 5. 그 뒤에만 승패·상대팀 기록·2019 lottery를 실행한다.

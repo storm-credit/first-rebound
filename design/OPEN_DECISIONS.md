@@ -62,7 +62,7 @@ O-05는 CLOSED다. 실제 후반 1라운드의 Indiana 23·Boston 27·Golden Sta
 - 계약: 1라운드 NBA rookie-scale, 투웨이 아님
 - 2018-19: Atlanta NBA 본무대, Erie 짧은 assignment
 - 깊은 관계: Trae Young·Kevin Huerter·John Collins
-- 실제 30순위 Spellman의 후속 지명과 정확한 총분·승패는 R09 HOLD
+- 실제 30순위 Spellman은 San Antonio 49번으로 재배치됐고 BASE 29경기·145.4분은 잠겼다. 정확한 player-game·승패는 R09 HOLD
 - 상세 권위: `research/PROTAGONIST_2018_DRAFT_LANDING.md`
 
 ## O-06 국가대표·병역 경로

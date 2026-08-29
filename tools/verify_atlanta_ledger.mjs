@@ -10,9 +10,10 @@ const checks = [
   ["Game Ledger", "A5:Y87"],
   ["Season Minutes", "A5:L31"],
   ["2018 Draft Board", "A4:K37"],
+  ["Spurs Impact", "A4:L34"],
   ["Draft Bridge", "A4:J14"],
   ["Gate Audit", "A4:F16"],
-  ["Sources", "A4:D25"],
+  ["Sources", "A4:D31"],
 ];
 
 let errors = 0;
@@ -45,6 +46,9 @@ console.log("MINUTES_AUDIT", JSON.stringify(minutes.getRange("E29:K29").values))
 
 const draftBoard = wb.worksheets.getItem("2018 Draft Board");
 console.log("DRAFT_BOARD_AUDIT", JSON.stringify(draftBoard.getRange("A4:H4").values));
+
+const spurs = wb.worksheets.getItem("Spurs Impact");
+console.log("SPURS_IMPACT_AUDIT", JSON.stringify(spurs.getRange("J16:L21").values));
 
 if (errors > 0) {
   await fs.rm(`${inputPath}.inspect.ndjson`, { force: true });
