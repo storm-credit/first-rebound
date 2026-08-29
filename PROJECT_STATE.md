@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.22 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R09 Atlanta 2018-19 game-to-draft causality execution`
+- 현재 작업: `R09 Atlanta 2018-19 player-game donor vector execution`
 - 최근 설계 변경: `Dallas Metu·Denver Spalding contract layers closed; Welsh Denver two-way duplicate rejected and free-agent destination held`
-- 최근 병합: `PR #36 / b467fb5`
+- 최근 병합: `PR #38 / 53442f8`
 
 ## 완료
 
