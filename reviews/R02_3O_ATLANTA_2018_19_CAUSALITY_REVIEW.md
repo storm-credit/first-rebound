@@ -11,7 +11,7 @@
 | G0 Spellman 새 팀 기준선 | PASS | Spurs 49번, BASE 29경기·145.4분, Atlanta전 0분 |
 | G1 82경기 기준선 | PASS | 82경기·29-53·9,294득점·연장분 재현 |
 | G2 사전등록 | HOLD | 시즌 범위만 잠겼고 날짜별 출전·assignment 미확정 |
-| G3 분 보존 | HOLD | 시즌 상한은 통과했으나 player-game donor vector 미작성 |
+| G3 분 보존 | PASS_WITH_BRIDGE | v0.23에서 621.9분+183.1분 날짜별 보존; 실명 수취자 HOLD |
 | G4 접촉 범위 | PASS | 82경기 전부 최소 ROSTER |
 | G5 승패 모델 | HOLD | 방법은 선택했으나 pB·영향 prior·game hash 실행 전 |
 | G6 시간순 파급 | HOLD | 피로·부상·거래·휴식 순차 실행 전 |

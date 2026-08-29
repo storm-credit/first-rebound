@@ -18,7 +18,7 @@
 | Welsh 역할 중복 | BLOCKED_AND_CORRECTED | Denver의 같은 투웨이 슬롯을 중복 지급할 수 없음 |
 | Welsh 후속 경로 | HOLD | 미지명 자유계약 시장까지 확정, 팀 지정 금지 |
 | Atlanta 직접 대결 | PASS | Dallas·Denver 네 경기의 실제 대체 슬롯 0분 |
-| 승패·순위 | HOLD | Atlanta 주인공 player-game 미실행 |
+| 승패·순위 | HOLD | Atlanta 분은 잠겼으나 개인 성과·경기 영향 미실행 |
 | 원고 안전 | PASS | 대체 기록·장면·대사 미작성 |
 
 ## 레드팀 맹점
@@ -44,4 +44,4 @@
 
 `CASCADE_CONTRACT_PASS / GAME_OUTCOMES_HOLD`
 
-기존 Welsh 역할 보존 후보는 슬롯 중복 때문에 폐기했고, 미지명 자유계약 시장 `HOLD`로 교정했다. 나머지 연쇄는 실제 밀려난 선수의 팀별 계약·개발 슬롯 안에서 닫힌다. 다음 실행은 Atlanta player-game donor vector다.
+기존 Welsh 역할 보존 후보는 슬롯 중복 때문에 폐기했고, 미지명 자유계약 시장 `HOLD`로 교정했다. 나머지 연쇄는 실제 밀려난 선수의 팀별 계약·개발 슬롯 안에서 닫힌다. Atlanta donor vector는 v0.23에서 닫혔고 다음 실행은 183.1분 실명 수취자 배분이다.
