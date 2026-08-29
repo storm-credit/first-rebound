@@ -31,7 +31,7 @@
 | 2018 | NBA Draft 30순위 Atlanta, 두 Summer League와 루키 개발 일정 유지, 아시안게임 불참 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학·ACL 재활, 아시안게임 불참 | NBA 경로·AG 불참 LOCK / 세부액·NLI·counter HOLD |
 | 2018-19 | Atlanta 루키, NBA 본무대·Erie 짧은 assignment | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 착지 구조 LOCK / 총분·승패·의료·counter HOLD |
 | 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
-| 2020 | NBA 성장기 | 합의·실제 1순위 수준으로 Draft | 보유 팀 R09 HOLD |
+| 2020 | NBA 성장기 | 합의 1순위급 후보로 Draft | 실제 지명 팀·순번·보드 R09 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
 
 ## Villanova 2017-18 관계 기능

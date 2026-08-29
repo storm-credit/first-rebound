@@ -84,7 +84,7 @@ O-06의 기반 경로는 CLOSED다. 2018에는 두 선수 모두 불참하고 �
 
 NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Gonzaga**를 선택했다. 깊은 관계 3명·대표 경기 2개·WCC 우승 기능까지 잠갔으며 대학 범위는 `RIVAL_COLLEGE_SCOPE_COMPLETE`다.
 
-다음 선택은 2018-20 인과 계산 뒤 2020년 1순위 보유 팀과 라이벌의 NBA 착지점이다. 실제 Minnesota를 강제 보존하지 않는다.
+다음 선택은 2018-20 승수·로터리·픽 소유권 계산 뒤 라이벌의 2020 실제 지명 팀·순번이다. 실제 Minnesota와 실제 1순위를 모두 강제하지 않는다.
 
 ## O-08 천재성·BQ 유형 — CLOSED
 

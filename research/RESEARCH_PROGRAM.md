@@ -35,7 +35,7 @@
 | R6 | 신체 성장 | 청소년 성장·체중·부상·훈련 한계 | 의학/스포츠과학 | PARTIAL — 라이벌 ACL 기준선 |
 | R7 | 문화 | 한국계/국제선수의 학교·라커룸·미디어 경험 | 당시 인터뷰/회고 | BLOCKED |
 | R8 | 경제/미디어 | 에이전트, 신발, 방송, SNS, NIL | CBA·당시 보도 | FOUNDATION_PARTIAL — PUMA/adidas·관계 예산 LOCK, 계약 수치 HOLD |
-| R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | NEXT — 2018-20 팀/드래프트와 2023 AG 전 경기 인과 계산 |
+| R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | PROTOCOL_LOCKED / EXECUTION_NEXT — 경기→승수→순위→로터리→보호픽→드래프트 연속 계산 |
 | R10 | 가상 미래 | 2026년 이후 팀·선수·계약을 어떻게 생성하고 검증할까? | 시뮬레이션 규칙 | BLOCKED |
 
 ## 현대 후보의 1차 증거 상태
@@ -87,7 +87,7 @@
 - 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
 - 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
 - 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 CLOSED
-- 다음 조사: R11 기반을 닫았으므로 R09에서 Gonzaga 2018-20 총분·승패, Atlanta 2018-20 총분·승패·Spellman 드래프트 파급, 2020 1순위 팀, 2023 아시안게임 전 경기를 연속 계산한다.
+- 다음 조사: R11 기반을 닫았으므로 R09에서 Gonzaga 2018-20 총분·승패, Atlanta 2018-20 총분·승패·Spellman 드래프트 파급, 2020 로터리와 라이벌 실제 지명 팀·순번, 2023 아시안게임 전 경기를 연속 계산한다.
 
 ## R14 광고·신발·실존 유명인 연구
 
