@@ -24,7 +24,7 @@ authority: research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md
 
 1. R08이 실제 2018·2020 계약 구조와 금액 범위를 감사할 때.
 2. R09가 라이벌의 2020 Draft 팀과 실제 로스터를 선택할 때.
-3. R11이 2018 Summer League·대표팀·광고 촬영 일정을 함께 계산할 때.
+3. 2018 Summer League와 PUMA 광고 촬영의 정확한 날짜가 Act에 필요할 때. R11의 대표팀 충돌은 불참으로 해소됐다.
 4. Act Map이 특정 광고·방송·실존 인물 접점을 필수 사건으로 요구할 때.
 5. 사용자가 브랜드 또는 유명인 관계 변경을 명시적으로 승인할 때.
 

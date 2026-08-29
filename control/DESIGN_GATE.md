@@ -4,7 +4,7 @@
 status: CLOSED
 manuscript_allowed: false
 authority: this_file
-last_reviewed: 2026-08-28
+last_reviewed: 2026-08-29
 ```
 
 ## 절대 규칙
@@ -25,8 +25,8 @@ last_reviewed: 2026-08-28
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION_PASS — 가상 뉴잉글랜드 보딩 프렙·2016년 3월 편입·2017년 5~6월 조기졸업 구조 LOCK. 교명·개별 학점 감사 HOLD |
 | G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Atlanta 30순위·rookie-scale·Erie assignment와 주인공 PUMA·라이벌 adidas·유명인 관계 예산 LOCK. 정확 NBA/신발 계약액·총분·승패·2020 팀 HOLD |
-| G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | BLOCKED_BY_G00 |
-| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NOT_STARTED |
+| G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
+| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | NEXT — 2018 Atlanta·2019-20 Gonzaga·2020 Draft·2023 AG 연속 계산 |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |

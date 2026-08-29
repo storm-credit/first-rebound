@@ -35,7 +35,7 @@
 | R6 | 신체 성장 | 청소년 성장·체중·부상·훈련 한계 | 의학/스포츠과학 | PARTIAL — 라이벌 ACL 기준선 |
 | R7 | 문화 | 한국계/국제선수의 학교·라커룸·미디어 경험 | 당시 인터뷰/회고 | BLOCKED |
 | R8 | 경제/미디어 | 에이전트, 신발, 방송, SNS, NIL | CBA·당시 보도 | FOUNDATION_PARTIAL — PUMA/adidas·관계 예산 LOCK, 계약 수치 HOLD |
-| R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | BLOCKED |
+| R9 | 실존 접촉 | 실제 선수·팀·경기의 공개 사실 | 공식 기록/P2 | NEXT — 2018-20 팀/드래프트와 2023 AG 전 경기 인과 계산 |
 | R10 | 가상 미래 | 2026년 이후 팀·선수·계약을 어떻게 생성하고 검증할까? | 시뮬레이션 규칙 | BLOCKED |
 
 ## 현대 후보의 1차 증거 상태
@@ -66,10 +66,13 @@
 
 ## R11 국가대표·병역 연구
 
-- 병역법상 예술체육요원 편입 요건과 2018년 당시 조문
-- 2018 아시안게임 실제 결과·명단·일정·선수 사용량
-- NBA/NCAA와 대표팀 보험·소집·해외여행허가 충돌
-- World Cup·Asia Cup 참가를 병역 혜택으로 오인하지 않기
+- 상태: `FOUNDATION_COMPLETE / PASS_WITH_2023_RESULT_AND_TEAM_PERMISSION_HOLDS`
+- 2018 주인공·라이벌 불참, 실제 동메달 비접촉 기준선 LOCK
+- 2018 Draft·Utah/Las Vegas Summer League·대표팀 소집·Jones Cup·아시안게임·Atlanta 캠프 일 단위 결합 완료
+- 2018 단체종목 실제 출전 요건과 예술체육요원 의무 확인
+- 1999년생의 2024 국외여행허가 시한과 2023 아시안게임·NBA 캠프 충돌 확인
+- 2023 공동 도전 LOCK, 금메달·최종 12인·전 경기·구단 허가 R09 HOLD
+- 단일 권위: `research/NATIONAL_TEAM_MILITARY_SCHEDULE.md`
 
 ## R12 전술·규칙 변화 연구
 
@@ -84,7 +87,7 @@
 - 근거 원장: `research/TIMELINE_ELIGIBILITY_LEDGER.md`
 - 비교 설계: `design/CAREER_TIMELINE_OPTIONS.md`
 - 현재 상태: 공식 기준선 PARTIAL_VERIFIED / O-09 CLOSED
-- 다음 조사: Gonzaga 2018-19 장학금 counter와 Atlanta 2018-19 총분·Spellman 드래프트 파급은 R09 사용 시점에 수행. 주인공 첫 NBA 팀과 상업 관계 기반은 닫았고, 현행 다음 게이트는 R11 국가대표·병역 일정이다.
+- 다음 조사: R11 기반을 닫았으므로 R09에서 Gonzaga 2018-20 총분·승패, Atlanta 2018-20 총분·승패·Spellman 드래프트 파급, 2020 1순위 팀, 2023 아시안게임 전 경기를 연속 계산한다.
 
 ## R14 광고·신발·실존 유명인 연구
 
