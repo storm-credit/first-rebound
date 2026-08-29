@@ -115,6 +115,40 @@ const roster = [
   ["Jordan Sibert","SG",1,0,4,"RESERVE"],
 ];
 
+const draftBoard = [
+  [30,"Atlanta Hawks","Omari Spellman","Own pick","Atlanta Hawks","Fictional protagonist","CHANGED","Protagonist","The new player occupies Atlanta's actual #30 slot.","Atlanta roster/minutes rerun","S12/S13"],
+  [31,"Phoenix Suns","Elie Okobo","Own pick","Phoenix Suns","Elie Okobo","UNCHANGED","None","Guard-development choice remains rational.","Actual path preserved","S13"],
+  [32,"Memphis Grizzlies","Jevon Carter","Own pick","Memphis Grizzlies","Jevon Carter","UNCHANGED","None","Point-of-attack guard need remains distinct.","Actual path preserved","S13"],
+  [33,"Dallas Mavericks","Jalen Brunson","Own pick","Dallas Mavericks","Jalen Brunson","UNCHANGED","None","Lead-guard depth remains the stronger fit.","Actual path preserved","S13"],
+  [34,"Charlotte Hornets","Devonte' Graham","Rights from ATL for 2019 + 2023 seconds","Charlotte Hornets","Devonte' Graham","UNCHANGED","None","Charlotte paid two future seconds for a directed guard choice.","ATL asset trade preserved","S13"],
+  [35,"Orlando Magic","Melvin Frazier","Own pick","Orlando Magic","Melvin Frazier","UNCHANGED","None","Wing-development lane remains distinct.","Actual path preserved","S13"],
+  [36,"New York Knicks","Mitchell Robinson","Own pick","New York Knicks","Mitchell Robinson","UNCHANGED","None","Robinson's upside remains the board priority.","Actual path preserved","S13"],
+  [37,"Portland Trail Blazers","Gary Trent Jr.","Rights from SAC","Portland Trail Blazers","Gary Trent Jr.","UNCHANGED","None","Perimeter shooting/development need remains.","Actual path preserved","S13"],
+  [38,"Detroit Pistons","Khyri Thomas","Rights from PHI","Detroit Pistons","Khyri Thomas","UNCHANGED","None","Perimeter defense need remains distinct.","Actual path preserved","S13"],
+  [39,"Los Angeles Lakers","Isaac Bonga","Rights from PHI","Los Angeles Lakers","Isaac Bonga","UNCHANGED","None","Lakers already used #25 on stretch big Moritz Wagner.","Actual path preserved","S13"],
+  [40,"Brooklyn Nets","Rodions Kurucs","Own pick","Brooklyn Nets","Rodions Kurucs","UNCHANGED","None","Long-running Kurucs scouting interest remains decisive.","Actual path preserved","S17"],
+  [41,"Denver Nuggets","Jarred Vanderbilt","Rights from ORL","Denver Nuggets","Jarred Vanderbilt","UNCHANGED","None","Vanderbilt upside remains the preferred development bet.","Actual path preserved","S13"],
+  [42,"Detroit Pistons","Bruce Brown","Own pick","Detroit Pistons","Bruce Brown","UNCHANGED","None","Guard/wing role remains distinct.","Actual path preserved","S13"],
+  [43,"Orlando Magic","Justin Jackson","Rights from DEN","Orlando Magic","Justin Jackson","UNCHANGED","None","Wing-development lane remains distinct.","Actual path preserved","S13"],
+  [44,"Washington Wizards","Issuf Sanon","Own pick; overseas stash","Washington Wizards","Issuf Sanon","UNCHANGED","None","Roster/cap plan explicitly favored an overseas stash.","Actual path preserved","S16"],
+  [45,"Oklahoma City Thunder","Hamidou Diallo","Rights via BKN/CHA","Oklahoma City Thunder","Hamidou Diallo","UNCHANGED","None","Athletic guard target remains distinct.","Actual path preserved","S13"],
+  [46,"Houston Rockets","De'Anthony Melton","Own pick","Houston Rockets","De'Anthony Melton","UNCHANGED","None","Guard asset profile remains distinct.","Actual path preserved","S13"],
+  [47,"Los Angeles Lakers","Svi Mykhailiuk","Own pick","Los Angeles Lakers","Svi Mykhailiuk","UNCHANGED","None","Shooting role remains distinct.","Actual path preserved","S13"],
+  [48,"Minnesota Timberwolves","Keita Bates-Diop","Own pick","Minnesota Timberwolves","Keita Bates-Diop","UNCHANGED","None","Wing-forward choice does not require a cascade.","Actual path preserved","S13"],
+  [49,"San Antonio Spurs","Chimezie Metu","Own pick","San Antonio Spurs","Omari Spellman","CHANGED","Spellman","Spellman worked out for San Antonio and fit its spacing/IQ profile.","Spurs 2018-19 impact HOLD","S14/S15"],
+  [50,"Indiana Pacers","Alize Johnson","Own pick","Indiana Pacers","Alize Johnson","UNCHANGED","None","Actual forward choice remains available.","Actual path preserved","S13"],
+  [51,"New Orleans Pelicans","Tony Carr","Own pick","New Orleans Pelicans","Tony Carr","UNCHANGED","None","Guard-development choice remains distinct.","Actual path preserved","S13"],
+  [52,"Houston Rockets","Vincent Edwards","Rights from UTA","Houston Rockets","Vincent Edwards","UNCHANGED","None","Wing-development choice remains distinct.","Actual path preserved","S13"],
+  [53,"Oklahoma City Thunder","Devon Hall","Own pick","Oklahoma City Thunder","Devon Hall","UNCHANGED","None","Perimeter/stash route remains distinct.","Actual path preserved","S13"],
+  [54,"Philadelphia 76ers","Shake Milton","Rights from DAL","Philadelphia 76ers","Shake Milton","UNCHANGED","None","Guard target and trade structure remain intact.","Actual path preserved","S13"],
+  [55,"Charlotte Hornets","Arnoldas Kulboka","Own pick; overseas stash","Charlotte Hornets","Arnoldas Kulboka","UNCHANGED","None","Overseas-stash route remains distinct.","Actual path preserved","S13"],
+  [56,"Dallas Mavericks","Ray Spalding","Rights from PHI","Dallas Mavericks","Chimezie Metu","CASCADE","Metu","Metu is the displaced #49 athletic big and remains above this slot.","Dallas role/minutes HOLD","S13/S15"],
+  [57,"Oklahoma City Thunder","Kevin Hervey","Own pick","Oklahoma City Thunder","Kevin Hervey","UNCHANGED","None","Actual forward choice remains available.","Actual path preserved","S13"],
+  [58,"Denver Nuggets","Thomas Welsh","Own pick","Denver Nuggets","Ray Spalding","CASCADE","Spalding","Spalding was graded in the drafted second-round big tier.","Denver role/two-way HOLD","S18"],
+  [59,"Phoenix Suns","George King","Own pick","Phoenix Suns","George King","UNCHANGED","None","Actual wing choice remains available.","Actual path preserved","S13"],
+  [60,"Dallas Mavericks","Kostas Antetokounmpo","Rights from PHI","Dallas Mavericks","Kostas Antetokounmpo","UNCHANGED","None","Second acquired pick and upside bet remain intact.","Actual path preserved","S13"],
+];
+
 const sources = [
   ["S01","NBA Stats — Atlanta schedule","82-game official schedule baseline","https://www.nba.com/stats/team/1610612737/schedule?Season=2018-19"],
   ["S02","ESPN — Atlanta schedule","Scores/order cross-check; timezone dates not authoritative","https://www.espn.com/nba/team/schedule?name=ATL&season=2019&seasontype=2"],
@@ -128,12 +162,22 @@ const sources = [
   ["S10","Hawks — Oct. 24 Dallas game","Atlanta 111-104 Dallas official game page","https://www.nba.com/hawks/game/0021800052-mavericks-vs-hawks-atlanta-ga-10-24-2018"],
   ["S11","Mavericks — Dec. 12 Atlanta game","Dallas 114-107 Atlanta official recap","https://www.nba.com/mavs/mavs-get-a-spark-from-carlisle-and-rallied-for-a-114-107-victory-over-the-hawks"],
   ["S12","NBA — 2018 Atlanta draft","Actual 30th pick was Spellman","https://www.nba.com/hawks/news/hawks-acquire-trae-young-select-kevin-huerter-omari-spellman-2018-nba-draft"],
+  ["S13","NBA — 2018 Draft Trade Tracker","Actual picks, rights trades, and destination teams","https://www.nba.com/2018-draft-trade-tracker"],
+  ["S14","San Antonio Express-News — Spurs workout target","Spellman worked out for Spurs; second workout interest","https://www.expressnews.com/spurs-nation/article/Spurs-target-Villanova-s-Spellman-others-for-12994749.php"],
+  ["S15","Sports Illustrated — final 2018 mock","Spellman #44 range; Spurs fit; Metu second-round range","https://www.si.com/nba/2018/06/21/nba-mock-draft-2018-trade-rumors-final-picks-deandre-ayton-trae-young"],
+  ["S16","Wizards — Issuf Sanon plan","Washington explicitly preferred an overseas stash","https://www.nba.com/wizards/wizards-plan-second-round-pick-issuf-sanon"],
+  ["S17","Nets — Rodions Kurucs scouting history","Brooklyn's long-running Kurucs evaluation","https://www.nba.com/nets/news/feature/2018/12/28/brooklyn-nets-rookie-rodions-kurucs-had-a-breakout-month-in-december"],
+  ["S18","NBA — 2018 big-board tiers","Spalding in drafted second-round tier; Welsh in the mix","https://www.nba.com/da-big-board-bigs-2018-draft"],
+  ["S19","Nuggets — Thomas Welsh two-way","Actual Welsh two-way destination used as role-preservation baseline","https://www.nba.com/nuggets/news/thomas-welsh-signs-two-way-contract-071918"],
+  ["S20","Basketball-Reference — Chimezie Metu","2018-19 San Antonio: 29 games, 5.0 MPG (145 minutes)","https://www.basketball-reference.com/players/m/metuch01.html"],
+  ["S21","Pounding the Rock — Metu season review","Most rookie NBA minutes came in garbage time; Austin was primary development venue","https://www.poundingtherock.com/2019/5/4/18523491/2018-2019-spurs-player-reviews-chimezie-metu"],
 ];
 
 const wb = Workbook.create();
 const readme = wb.worksheets.add("README");
 const ledger = wb.worksheets.add("Game Ledger");
 const minutes = wb.worksheets.add("Season Minutes");
+const draftBoardSheet = wb.worksheets.add("2018 Draft Board");
 const draft = wb.worksheets.add("Draft Bridge");
 const gates = wb.worksheets.add("Gate Audit");
 const sourceSheet = wb.worksheets.add("Sources");
@@ -179,8 +223,8 @@ function body(range) {
 
 // README
 readme.showGridLines = false;
-title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / BASELINE v0.1");
-readme.getRange("A4:H4").values = [["Status","BASELINE_PASS / COUNTERFACTUAL_HOLD","Canon","PROVISIONAL","Manuscript","BLOCKED","Built","2026-08-29"]];
+title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / DRAFT BOARD v0.2");
+readme.getRange("A4:H4").values = [["Status","BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD","Canon","PROVISIONAL","Manuscript","BLOCKED","Built","2026-08-29"]];
 section(readme.getRange("A4:H4"));
 readme.getRange("A6:H6").values = [["Verified baseline","Value","Expected","Check","Simulation guardrail","Low","High","Check"]];
 header(readme.getRange("A6:H6"));
@@ -202,7 +246,7 @@ readme.getRange("A15:H19").values = [
   ["1","All 82 games and the actual 29-53 record are immutable baseline data.",null,null,null,null,null,null],
   ["2","Every game has at least ROSTER contact because the #30 replacement removes Spellman from Atlanta, even when the protagonist is inactive.",null,null,null,null,null,null],
   ["3","Allocate protagonist minutes inside Spellman's 805-minute cap first. Do not auto-allocate before date-specific availability is verified.",null,null,null,null,null,null],
-  ["4","The 2019 standings/lottery cannot be FINAL until Spellman's new team and that team's season impact are resolved after rerunning 2018 picks 30-60.",null,null,null,null,null,null],
+  ["4","Spellman's destination is resolved at San Antonio #49. The 2019 standings/lottery cannot be FINAL until the Spurs' 2018-19 impact is closed.",null,null,null,null,null,null],
   ["5","No counterfactual scores or results have been generated. Manual flips and close-game cherry-picking are prohibited.",null,null,null,null,null,null],
 ];
 for (let r = 15; r <= 19; r++) readme.getRange(`B${r}:H${r}`).merge();
@@ -215,7 +259,7 @@ readme.getRange("A21").format.wrapText = true;
 readme.getRange("A21").format.rowHeight = 34;
 readme.getRange("A1:H21").format.font = { name: "Aptos" };
 readme.getRange("A:H").format.columnWidth = 18;
-readme.getRange("B:B").format.columnWidth = 36;
+readme.getRange("B:B").format.columnWidth = 44;
 readme.getRange("E:E").format.columnWidth = 24;
 readme.freezePanes.freezeRows(4);
 
@@ -296,6 +340,39 @@ minutes.getRange("L:L").format.columnWidth = 14;
 minutes.freezePanes.freezeRows(5);
 minutes.tables.add("A5:L27", true, "SeasonMinutesTable");
 
+// 2018 Draft Board
+draftBoardSheet.showGridLines = false;
+title(draftBoardSheet, "A1:K2", "2018 PICKS 30-60 — COMPRESSED COUNTERFACTUAL BOARD");
+draftBoardSheet.getRange("A4:H4").values = [["Scanned picks",null,"Changed/cascade",null,"Unchanged",null,"Next blocker","Spurs 2018-19 impact"]];
+section(draftBoardSheet.getRange("A4:H4"));
+draftBoardSheet.getRange("B4").formulas = [["=COUNTA(A7:A37)"]];
+draftBoardSheet.getRange("D4").formulas = [["=COUNTIF(G7:G37,\"CHANGED\")+COUNTIF(G7:G37,\"CASCADE\")"]];
+draftBoardSheet.getRange("F4").formulas = [["=COUNTIF(G7:G37,\"UNCHANGED\")"]];
+const draftBoardHeaders = ["Pick","Actual destination","Actual player","Actual trade/path","CF destination","CF player","Status","Incoming displaced","Decision reason","Downstream","Source ID"];
+draftBoardSheet.getRange("A6:K6").values = [draftBoardHeaders];
+header(draftBoardSheet.getRange("A6:K6"));
+draftBoardSheet.getRange("A7:K37").values = draftBoard;
+body(draftBoardSheet.getRange("A7:K37"));
+draftBoardSheet.getRange("A7:K37").format.wrapText = true;
+draftBoardSheet.getRange("G7:G37").format.fill = lightGray;
+for (let r = 7; r <= 37; r++) {
+  const status = draftBoard[r - 7][6];
+  if (status === "CHANGED" || status === "CASCADE") draftBoardSheet.getRange(`A${r}:K${r}`).format.fill = paleYellow;
+}
+draftBoardSheet.getRange("A:A").format.columnWidth = 16;
+draftBoardSheet.getRange("B:B").format.columnWidth = 24;
+draftBoardSheet.getRange("C:C").format.columnWidth = 22;
+draftBoardSheet.getRange("D:D").format.columnWidth = 34;
+draftBoardSheet.getRange("E:E").format.columnWidth = 24;
+draftBoardSheet.getRange("F:F").format.columnWidth = 22;
+draftBoardSheet.getRange("G:H").format.columnWidth = 17;
+draftBoardSheet.getRange("I:I").format.columnWidth = 48;
+draftBoardSheet.getRange("J:J").format.columnWidth = 28;
+draftBoardSheet.getRange("K:K").format.columnWidth = 14;
+draftBoardSheet.freezePanes.freezeRows(6);
+draftBoardSheet.freezePanes.freezeColumns(2);
+draftBoardSheet.tables.add("A6:K37", true, "DraftBoardTable");
+
 // Draft Bridge
 draft.showGridLines = false;
 title(draft, "A1:J2", "2019 DRAFT BRIDGE — ACTUAL BASELINE, NOT A LOCKED OUTCOME");
@@ -322,7 +399,7 @@ draft.getRange("A12").format.font = { bold: true, color: navy };
 draft.getRange("A12").format.wrapText = true;
 draft.getRange("A12").format.rowHeight = 36;
 draft.getRange("A14:J14").merge();
-draft.getRange("A14").values = [["FINAL BLOCKER: rerun the 2018 #30-60 board, resolve Spellman's new team, and close that team's 2018-19 impact."]];
+draft.getRange("A14").values = [["FINAL BLOCKER: Spellman is resolved to San Antonio #49; close the Spurs' 2018-19 rotation and game impact before standings/lottery."]];
 draft.getRange("A14").format.fill = paleRed;
 draft.getRange("A14").format.font = { bold: true, color: "#B42318" };
 draft.getRange("A14").format.wrapText = true;
@@ -336,7 +413,7 @@ title(gates, "A1:F2", "R09 AUDIT GATES");
 gates.getRange("A4:F4").values = [["Gate","Requirement","Current evidence","Status","Blocks","Next action"]];
 header(gates.getRange("A4:F4"));
 const gateRows = [
-  ["G0","Spellman destination + second-team impact","Unresolved after 2018 #30","HOLD","FINAL standings/lottery","Run 2018 picks 30-60"],
+  ["G0","Spellman destination + second-team impact","Spellman → Spurs #49; Spurs impact not executed","PARTIAL","FINAL standings/lottery","Model Spurs 2018-19"],
   ["G1","82 unique + 29-53 + score/OT checksum","82 rows; 29-53; 9,294 pts; 19,855 game-min","PASS","None","Preserve immutable baseline"],
   ["G2","Rotation/assignment/impact priors before results","Only season range locked","HOLD","CF execution","Build date-specific availability"],
   ["G3","Every game minute-conserved; no NBA/Erie collision","Season cap proven; player-game not built","HOLD","CF execution","Create player-game donor vectors"],
@@ -350,7 +427,7 @@ const gateRows = [
 gates.getRange("A5:F14").values = gateRows;
 body(gates.getRange("A5:F14"));
 gates.getRange("D5:D14").format.fill = paleYellow;
-gates.getRange("A16:F16").values = [["OVERALL","BASELINE_PASS / COUNTERFACTUAL_HOLD",null,null,null,"Atlanta-local PROVISIONAL_PASS not yet claimed"]];
+gates.getRange("A16:F16").values = [["OVERALL","BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD",null,null,null,"Draft path closed; Spurs season bridge remains"]];
 section(gates.getRange("A16:F16"));
 gates.getRange("A:F").format.columnWidth = 20;
 gates.getRange("B:B").format.columnWidth = 34;
@@ -380,7 +457,7 @@ await blob.save(outputPath);
 
 await fs.rm(previewDir, { recursive: true, force: true });
 await fs.mkdir(previewDir, { recursive: true });
-for (const sheetName of ["README","Game Ledger","Season Minutes","Draft Bridge","Gate Audit","Sources"]) {
+for (const sheetName of ["README","Game Ledger","Season Minutes","2018 Draft Board","Draft Bridge","Gate Audit","Sources"]) {
   const image = await wb.render({ sheetName, autoCrop: "all", scale: 1, format: "png" });
   const bytes = new Uint8Array(await image.arrayBuffer());
   await fs.writeFile(path.join(previewDir, `${sheetName.replaceAll(" ", "_")}.png`), bytes);

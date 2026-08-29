@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.19 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.20 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R09 Atlanta 2018-19 game-to-draft causality execution`
-- 최근 설계 변경: `Atlanta 82-game baseline passes; counterfactual outcomes remain held until player-game and Spellman second-team impact`
+- 최근 설계 변경: `2018 picks 30-60 close at 27 unchanged / 4 changed; Spellman → Spurs #49; Spurs season impact remains held`
 - 최근 병합: `PR #34 / 8de4586`
 
 ## 완료
@@ -75,6 +75,9 @@
 - [x] 주인공 신인 분의 Spellman 805분 1차 상한과 Young·Huerter·Collins 보호 LOCK
 - [x] 주인공 DNP/Erie도 Spellman 부재 때문에 최소 ROSTER 접촉이라는 82경기 분류 LOCK
 - [x] Atlanta 단독 원장으로 2019 standings·lottery FINAL 금지 게이트 LOCK
+- [x] 2018 Draft 30~60 전수 원장과 27개 실제 유지·4개 변경 압축 보드 LOCK
+- [x] Spellman→San Antonio 49번·Metu→Dallas 56번·Spalding→Denver 58번 LOCK
+- [x] Welsh 미지명 뒤 Denver 투웨이 역할 후보와 Spurs 2018-19 파급 HOLD 게이트 LOCK
 
 ## 현재 결정 대기
 
@@ -89,7 +92,8 @@
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
 - [ ] Atlanta 경기별 player-game 분·주인공 donor vector·대체 승패 — R09 HOLD
-- [ ] 2018 Draft 30~60과 Spellman 후속 팀·그 팀의 2018-19 파급 — R09 HOLD
+- [ ] Spellman의 Spurs 계약·Metu 145분 대체·San Antonio 2018-19 승수 파급 — R09 HOLD
+- [ ] Metu의 Dallas·Spalding/Welsh의 Denver 계약과 분 파급 — R09 HOLD
 - [ ] 2023 두 선수의 NBA 소속팀·구단 허가·보험·캠프 결장 일정 — R09 HOLD
 - [ ] 2023 대표팀 최종 12인·전 경기·대진·메달 결과·예술체육요원 편입 — R09 HOLD
 - [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R09 HOLD
@@ -129,9 +133,11 @@
 26. 실제 스타의 행선지를 지키려고 바뀐 승수·로터리·보호픽을 무시하지 않는다. 입력이 달라지면 큰 드래프트 변화도 받아들인다.
 27. 반대로 주인공과 시간상 무관한 선행 픽을 소급 변경하지 않는다. 2018 인과 시작점은 30순위다.
 28. 로터리는 원하는 팀이 나올 때까지 다시 돌리지 않는다. 공개 seed·알고리즘·실행 로그를 결과 전에 고정한다.
+29. Spellman에게 Atlanta의 실제 805분을 Spurs에서 복사하지 않는다. San Antonio의 실제 Metu 145분과 날짜별 가용성에서 다시 배분한다.
+30. 30~60순위 보드가 4개만 바뀌었다는 결과를 편의상 보존하지 않는다. Dallas·Denver 계약 검산에서 추가 파급이 발견되면 같은 프로토콜로 다시 연다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 2018-19 실제 82경기 기준선도 검산했다. 다음은 R09 실행 2단계로 2018 Draft 30~60에서 Spellman의 새 팀을 먼저 확정하고, Atlanta의 경기별 player-game 분·가용성·주인공 donor vector를 만든다. 두 팀 파급이 닫힌 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선과 2018 Draft 30~60 압축 보드도 검산했다. 다음은 R09 실행 3단계로 실제 Metu의 San Antonio 145분·G League 이동을 날짜별로 원장화하고 Spellman의 Spurs 대체 분과 Atlanta–Spurs 직접 대결 두 경기를 사전등록한다. 동시에 Atlanta의 player-game 분·주인공 donor vector를 만든다. 두 팀 파급이 닫힌 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

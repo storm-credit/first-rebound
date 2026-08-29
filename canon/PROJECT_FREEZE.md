@@ -356,3 +356,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2018 Draft 30~60 대안 보드와 Spellman 새 팀·계약·2018-19 파급
 - 상대팀 승패·타이브레이커·2019 비플레이오프 14팀과 lottery
 - Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
+
+## v0.20 LOCKED ADDITIONS — 2018 Draft 30~60 압축 대안 보드
+
+- 주인공이 Atlanta 30번에서 Omari Spellman을 대체한 뒤에도 31~60번을 기계적으로 한 칸씩 이동시키지 않는다.
+- 30~60순위 31개 픽 중 27개는 실제 선택·거래를 유지하고 30·49·56·58번만 바꾼다.
+- Omari Spellman은 San Antonio 49번으로 이동한다. 당시 Spurs 워크아웃과 슈팅·패싱·역할 이해도 평가를 선택 근거로 쓴다.
+- 49번에서 밀린 Chimezie Metu는 Dallas 56번, 56번에서 밀린 Ray Spalding은 Denver 58번으로 이동한다.
+- Thomas Welsh는 삭제하지 않는다. 미지명 뒤 실제와 같은 Denver 투웨이 역할 후보로 남기되 계약·슬롯 검산 전 `PROVISIONAL_ROLE_PRESERVED`다.
+- Atlanta 34번과 Charlotte의 Devonte' Graham 권리 거래는 유지한다. Atlanta가 30번으로 개발형 포워드 슬롯을 이미 채웠고 Charlotte가 미래 2라운드 두 장을 지급한 거래 입력이 변하지 않았다.
+- Spellman에게 Atlanta의 실제 805분을 San Antonio에서 복사하지 않는다. 대체 슬롯의 출발 기준은 실제 Metu의 2018-19 NBA 29경기·145분이다.
+- 2018 후반 드래프트 보드는 닫혔지만 San Antonio의 날짜별 분·승패 파급 전에는 2019 standings·lottery를 `FINAL`로 만들지 않는다.
+- 상세 권위는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.20 RESEARCH_HOLD
+
+- San Antonio의 2018-19 Metu NBA/G League 날짜별 이동과 Spellman 대체 분
+- Spellman의 Spurs 계약·Austin assignment·가용성·직접 대결 두 경기 파급
+- Dallas의 Metu와 Denver의 Spalding 계약·NBA/G League 분 파급
+- Denver가 Welsh에게 미지명 투웨이 슬롯을 다시 줄 수 있는지 여부
+- 두 번째 팀 파급 뒤 Atlanta·상대팀 승패·2019 standings·lottery

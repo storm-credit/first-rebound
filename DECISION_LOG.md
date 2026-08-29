@@ -130,5 +130,11 @@
 | D-122 | LOCKED | 2018 Draft 30~60에서 Spellman 새 팀과 그 팀 시즌 파급이 닫히기 전 2019 standings·lottery FINAL 금지 | Atlanta 단독 계산이 리그 전체 승패 보존을 깨는 오류 방지 |
 | D-123 | BASELINE_PASS | Atlanta 82경기 원장은 검산 통과, player-game·대체 승패·2019 lottery는 COUNTERFACTUAL_HOLD | 수동 flip과 접전 골라잡기 없이 사전등록 후 실행 |
 | D-124 | LOCKED | 2018 Draft 30~60은 전수 스캔하되 실제 선택 유지 픽은 짧게 통과하고 CHANGED/CASCADE만 심층 조사 | 대형 드래프트 계산의 합리성과 작업량을 동시에 통제 |
+| D-125 | LOCKED | 2018 Draft 30~60은 27개 실제 유지·4개 변경으로 닫는다 | 자동 한 칸 이동 없이 변화 지점만 심층 추적 |
+| D-126 | LOCKED | Omari Spellman은 San Antonio 49번으로 이동 | Spurs 워크아웃과 동시대 슈팅·패싱·역할 적합성 평가가 존재 |
+| D-127 | LOCKED | 49번에서 밀린 Chimezie Metu는 Dallas 56번, Ray Spalding은 Denver 58번으로 이동 | 실제 54·56·60 거래 구조를 유지하며 같은 2라운드 빅 포지션군 안에서 연쇄를 닫음 |
+| D-128 | PROVISIONAL | Thomas Welsh는 미지명 뒤 Denver 투웨이 역할 후보 | 실제 역할을 보존하되 Spalding 지명 뒤 계약·슬롯 검산 전 자동 확정 금지 |
+| D-129 | LOCKED | Spellman의 Spurs 출전 시작 상한은 Atlanta 805분 복사가 아니라 실제 Metu 29경기·145분 슬롯 | 플레이오프 팀의 핵심 로테이션을 공짜로 침범하지 않음 |
+| D-130 | SECOND_TEAM_IMPACT_HOLD | Spurs 2018-19 분·승패 파급 전 2019 standings·lottery FINAL 금지 | 드래프트 팀만 정하고 리그 전체 승패를 실제대로 복사하는 오류 방지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

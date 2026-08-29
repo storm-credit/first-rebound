@@ -111,14 +111,17 @@
 - 변경 선수의 계약·로스터 후속 경로
 - 다음 시즌으로 넘어가는 승수·픽·계약 나비효과 링크
 
-## R09 실행 상태 — Atlanta 2018-19 baseline v0.1
+## R09 실행 상태 — Atlanta baseline + 2018 picks 30-60 v0.2
 
 - 82경기·실제 29승 53패·9,294득점·연장 포함 19,855 선수분 기준선은 `PASS`다.
 - 주인공의 1차 출전시간 상한은 실제 30순위 Omari Spellman의 805분이다.
 - 주인공이 결장해도 Spellman 부재가 남으므로 82경기 모두 최소 `ROSTER` 접촉이다.
 - 경기별 player-game 분·가용성·피로와 대체 승패는 아직 `HOLD`다.
-- 2018 Draft 30~60에서 Spellman의 새 팀과 그 팀의 승패 파급이 닫히기 전 2019 standings·lottery는 `FINAL` 금지다.
+- 2018 Draft 30~60 전수 스캔 결과는 27개 유지, 4개 변경이다. Spellman은 San Antonio 49번, 밀려난 Metu는 Dallas 56번, Spalding은 Denver 58번으로 이동한다.
+- Thomas Welsh는 미지명 뒤 실제와 같은 Denver 투웨이 역할 후보지만 계약·슬롯 검산 전 `PROVISIONAL_ROLE_PRESERVED`다.
+- Spellman의 새 팀은 해결됐으나 Spurs 2018-19 분·승패 파급이 닫히기 전 2019 standings·lottery는 `FINAL` 금지다.
 - 상세 원장과 감사 게이트는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md` 및 `.xlsx`가 권위다.
+- 후반 보드의 선택 근거는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`가 권위다.
 
 ## 공식 기준선
 

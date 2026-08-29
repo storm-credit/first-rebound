@@ -1,6 +1,6 @@
-# Atlanta 2018-19 Causality Ledger v0.1
+# Atlanta 2018-19 Causality Ledger v0.2
 
-- 상태: `BASELINE_PASS / COUNTERFACTUAL_HOLD`
+- 상태: `BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD`
 - 정본성: `PROVISIONAL`
 - 원고 게이트: `CLOSED`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -83,16 +83,16 @@ logit(pCF) = logit(pB) + Δμ / k
 
 Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 수 없다.
 
-1. 2018 Draft 30~60순위를 다시 판정한다.
-2. Spellman의 새 팀·계약·로스터 자리를 확정한다.
-3. 그 팀에서 Spellman이 만든 분·승패 파급을 계산한다.
+1. 2018 Draft 30~60의 27개 유지·4개 변경 보드를 보존한다.
+2. Spellman의 Spurs 계약·로스터 자리와 Metu의 실제 145분을 날짜별로 연결한다.
+3. Spurs에서 Spellman이 만든 분·승패 파급을 계산한다.
 4. 모든 바뀐 경기에서 승자·패자의 승패를 함께 갱신한다.
 5. 비플레이오프 14팀, 동률, 조합 배분, 별도 동률 추첨을 재계산한다.
 6. 로터리 입력이 바뀌면 잠긴 seed로 재추첨한다.
 7. Dallas pick의 top-5 보호·양도 여부를 판정한다.
 8. 그 뒤에만 Atlanta의 지명·거래 보드를 다시 연다.
 
-따라서 현재 판정은 `BASELINE_PASS / COUNTERFACTUAL_HOLD`다. Atlanta-local `PROVISIONAL_PASS`도 아직 선언하지 않는다.
+따라서 현재 판정은 `BASELINE_PASS / SECOND_TEAM_IMPACT_HOLD`다. Spurs 2018-19 파급 전에는 Atlanta-local `PROVISIONAL_PASS`도 선언하지 않는다.
 
 ## 출처
 
@@ -105,4 +105,3 @@ Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 �
 - [NBA — actual 2019 lottery result](https://www.nba.com/news/pelicans-win-nba-draft-lottery)
 - [Atlanta Hawks — 2018-10-24 Dallas game](https://www.nba.com/hawks/game/0021800052-mavericks-vs-hawks-atlanta-ga-10-24-2018)
 - [Dallas Mavericks — 2018-12-12 Atlanta game](https://www.nba.com/mavs/mavs-get-a-spark-from-carlisle-and-rallied-for-a-114-107-victory-over-the-hawks)
-
