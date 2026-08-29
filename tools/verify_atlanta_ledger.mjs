@@ -9,13 +9,14 @@ const checks = [
   ["README", "A4:H12"],
   ["Game Ledger", "A5:Y87"],
   ["ATL Assignment", "A4:H24"],
+  ["ATL Receivers", "A4:R49"],
   ["Season Minutes", "A5:L33"],
   ["2018 Draft Board", "A4:K37"],
   ["Spurs Impact", "A4:L34"],
   ["Cascade Impact", "A4:M27"],
   ["Draft Bridge", "A4:J14"],
   ["Gate Audit", "A4:F16"],
-  ["Sources", "A4:D47"],
+  ["Sources", "A4:D50"],
 ];
 
 let errors = 0;
@@ -56,6 +57,37 @@ for (const row of donorAudit) {
   }
 }
 
+const receivers = wb.worksheets.getItem("ATL Receivers");
+const receiverSummary = receivers.getRange("B4:P4").values[0];
+console.log("ATL_RECEIVER_AUDIT", JSON.stringify(receiverSummary));
+if (receiverSummary[14] !== "PASS") {
+  errors++;
+  console.log(`RECEIVER_SUMMARY_FAIL ${JSON.stringify(receiverSummary)}`);
+}
+const receiverRows = receivers.getRange("K7:P37").values;
+for (let i = 0; i < receiverRows.length; i++) {
+  const [capacity, allocated, adjusted, dateAllocated, gamePool, balance] = receiverRows[i].map(Number);
+  if (allocated - capacity > 0.001 || Math.abs(gamePool - dateAllocated) > 0.001 || Math.abs(balance) > 0.001 || adjusted < 0) {
+    errors++;
+    console.log(`RECEIVER_ROW_FAIL row ${i + 7}: ${JSON.stringify(receiverRows[i])}`);
+  }
+}
+const receiverTotals = receivers.getRange("A43:I47").values;
+const expectedReceiverMinutes = new Map([
+  ["Justin Anderson",105.6],
+  ["Alex Poythress",48.6],
+  ["Daniel Hamilton",11.4],
+  ["Miles Plumlee",17.5],
+  ["B.J. Johnson",0],
+]);
+for (const row of receiverTotals) {
+  const expected = expectedReceiverMinutes.get(row[0]);
+  if (expected === undefined || Math.abs(Number(row[5]) - expected) > 0.001) {
+    errors++;
+    console.log(`RECEIVER_TOTAL_FAIL ${JSON.stringify(row)}`);
+  }
+}
+
 const gameMinuteChecks = ledger.getRange("U6:U87").values;
 for (let i = 0; i < gameMinuteChecks.length; i++) {
   if (Math.abs(Number(gameMinuteChecks[i][0])) > 0.001) {
@@ -72,6 +104,12 @@ console.log("SPURS_IMPACT_AUDIT", JSON.stringify(spurs.getRange("J16:L21").value
 
 const cascade = wb.worksheets.getItem("Cascade Impact");
 console.log("CASCADE_IMPACT_AUDIT", JSON.stringify(cascade.getRange("J22:L27").values));
+
+const seasonTotals = minutes.getRange("E31:K31").values[0];
+if (Math.abs(Number(seasonTotals[3]) - 805) > 0.001 || Math.abs(Number(seasonTotals[4]) - 805) > 0.001 || Math.abs(Number(seasonTotals[5]) - 19853) > 0.001 || Math.abs(Number(seasonTotals[6])) > 0.001) {
+  errors++;
+  console.log(`SEASON_REALLOCATION_FAIL ${JSON.stringify(seasonTotals)}`);
+}
 
 if (errors > 0) {
   await fs.rm(`${inputPath}.inspect.ndjson`, { force: true });

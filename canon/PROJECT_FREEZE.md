@@ -439,3 +439,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
 - 대체 승패·상대팀 승패·전체 standings·2019 lottery
 - Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
+
+## v0.24 LOCKED ADDITIONS — Atlanta 실명 reserve receiver allocation
+
+- v0.23의 `ATL_REMAINDER_POOL` 183.1분을 29개 동일 날짜·31개 배정 행으로 전부 해소한다.
+- 수취 분은 Justin Anderson 105.6분, Alex Poythress 48.6분, Miles Plumlee 17.5분, Daniel Hamilton 11.4분이다.
+- B.J. Johnson은 감사 후보로 포함하지만 0분이다. 잔여분과 겹치는 유일한 2019년 3월 1일에 Anderson이 같은 박스스코어에 등재돼 있다.
+- 수취자는 같은 날짜 ESPN Atlanta 박스스코어의 `PLAY/DNP-CD` 등재가 있어야 한다. 미등재 선수는 건너뛴다.
+- Anderson이 재활로 빠진 첫 16경기에는 Poythress→Hamilton→Plumlee→B.J. Johnson 순, 2018년 11월 19일 복귀 뒤에는 Anderson을 첫 순위로 둔다.
+- 조정 경기분은 각 선수의 실제 2018-19 단일 경기 최고분을 넘지 않는다. 상한은 Anderson 31·Poythress 26·Hamilton 23·Plumlee 19·B.J. Johnson 19분이다.
+- `DNP-CD` 수취 날짜는 대체 세계의 추가 출전으로 계산하지만 실제 득점·효율은 복사하지 않는다.
+- Spellman -805.0분 + 주인공 621.9분 + 네 수취자 183.1분 = 0.0분이며 공개 정수 선수분 합계 19,853분도 보존한다.
+- 현재 판정은 `ATL_RECEIVER_ALLOCATION_PASS / PRODUCTION_OUTCOME_HOLD`다. 상세 권위는 `simulation/ATLANTA_2018_19_RESERVE_RECEIVER_ALLOCATION.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.24 RESEARCH_HOLD
+
+- 주인공과 네 수취자의 경기별 득점·리바운드·슈팅·온오프
+- 추가 출전이 다음 경기 피로·부상·가용성에 미치는 영향
+- 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
+- 대체 승패·상대팀 승패·전체 standings·2019 lottery
+- Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래

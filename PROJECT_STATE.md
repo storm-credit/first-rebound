@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.23 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.24 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R09 Atlanta 183.1-minute named reserve receiver allocation`
-- 최근 설계 변경: `Atlanta rookie 43G/621.9 MIN donor vector, Nov. 19 missed opportunity, and Dec. 7-22 Erie window locked`
+- 현재 작업: `R09 Atlanta player production and game-impact prior preregistration`
+- 최근 설계 변경: `Atlanta 183.1-minute reserve pool assigned to four named same-date receivers with zero balance`
 - 최근 병합: `PR #40 / d66313d`
 
 ## 완료
@@ -88,6 +88,7 @@
 - [x] 2018-11-19 자기관리 실패·예정 14.1분 상실 LOCK
 - [x] 2018-12-07~22 Erie 6경기 개발 assignment·NBA 동시 출전 0 LOCK
 - [x] Atlanta 805.0분 = 주인공 621.9 + remainder 183.1 날짜별 보존 PASS
+- [x] Atlanta remainder 183.1분 = Anderson 105.6 + Poythress 48.6 + Plumlee 17.5 + Hamilton 11.4 실명 배정 PASS
 
 ## 현재 결정 대기
 
@@ -102,7 +103,8 @@
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
 - [x] Atlanta 경기별 주인공 분·Spellman donor vector — R09 PASS
-- [ ] Atlanta 183.1분 실명 수취자·개인 박스스코어·대체 승패 — R09 HOLD
+- [x] Atlanta 183.1분 실명 수취자·날짜별 분 — R09 PASS
+- [ ] 주인공·수취자 개인 박스스코어·피로·대체 승패 — R09 HOLD
 - [x] Spellman의 Spurs 계약 계층·Metu 145.4분 대체 기준선 — R09 PASS
 - [ ] Spellman의 145.4분 초과 donor·경쟁 구간과 San Antonio 승수 파급 — R09 HOLD
 - [x] Metu의 Dallas·Spalding의 Denver 계약 계층과 기준 분 — R09 PASS
@@ -153,11 +155,12 @@
 31. 30~60순위 보드가 4개만 바뀌었다는 결과를 편의상 보존하지 않는다. Dallas·Denver 계약 검산에서 추가 파급이 발견되면 같은 프로토콜로 다시 연다.
 32. Welsh를 Spalding과 함께 Denver 투웨이에 중복 등록하지 않는다. 2018-19 Denver의 두 자리는 Spalding 대체 슬롯과 Akoon-Purcell 보호 슬롯으로 모두 찬다.
 33. Metu에게 Spurs의 실제 145.4분을 Dallas에서 복사하지 않는다. Dallas BASE는 실제 Spalding의 1경기·1분이며, 초과분은 player-game donor가 있어야 한다.
-34. `ATL_REMAINDER_POOL`은 가상 선수가 아니다. 183.1분의 실명 수취자를 날짜별 가용성으로 닫기 전 개인 기록이나 경기 영향을 만들지 않는다.
+34. `ATL_REMAINDER_POOL`은 가상 선수가 아니다. v0.24에서 183.1분을 동일 날짜 실명 수취자에게 전부 배정했지만 생산성 prior 전 개인 기록이나 경기 영향을 만들지 않는다.
 35. 2018년 11월 19일의 직접 비용과 12월 Erie 개발 배정을 하나의 징계로 합치지 않는다.
+36. `DNP-CD` 등재를 실제 생산성으로 복사하지 않는다. v0.24는 같은 날짜 가용성과 분만 잠갔으며 추가 출전의 생산성·피로는 다음 게이트에서 별도 계산한다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·후반 드래프트·두 번째 팀 계약층·주인공 날짜별 donor vector도 검산했다. 다음은 `ATL_REMAINDER_POOL` 183.1분을 동일 날짜 실제 가용 포워드에게 배분하는 단계다. 개인 player-game 분이 닫힌 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·후반 드래프트·두 번째 팀 계약층·주인공 donor vector·실명 reserve receiver 183.1분도 검산했다. 다음은 주인공과 네 수취자의 생산성·피로·경기 영향 prior를 결과 전에 고정하는 단계다. 그 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

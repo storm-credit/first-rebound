@@ -154,5 +154,8 @@
 | D-146 | LOCKED | 주인공 NBA 신인 기준선은 43경기·621.9분·14.46 MPG·0선발 | Spellman의 46경기·11선발·부상·개인 기록 자동 복사 금지 |
 | D-147 | LOCKED | Erie assignment는 2018-12-07~22 실제 일정 6경기이며 동일 날짜 NBA 분은 0 | 지각 징계와 개발 결정을 분리하고 이중 출전 금지 |
 | D-148 | PASS_WITH_NAMED_RECEIVER_HOLD | Atlanta donor 805.0분은 주인공 621.9분+ATL_REMAINDER_POOL 183.1분으로 날짜별 보존 | 회계 브리지는 가상 선수가 아니며 실명 수취자 전 개인 기록·승패 HOLD |
+| D-149 | LOCKED | 183.1분 수취자는 같은 날짜 Atlanta 박스스코어 `PLAY/DNP-CD` 등재와 실제 시즌 단일 경기 최고분 상한으로 결정 | 결과를 보고 선수를 고르거나 실제 관측 역할보다 큰 경기분을 부여하지 않음 |
+| D-150 | LOCKED | 수취 분은 Anderson 105.6·Poythress 48.6·Plumlee 17.5·Hamilton 11.4이며 B.J. Johnson은 감사 후보 0분 | 29개 날짜·31개 배정 행·미배정 0·날짜별 잔액 0.0 |
+| D-151 | RECEIVER_ALLOCATION_PASS | Atlanta 805.0분은 주인공 621.9분+실명 수취자 183.1분으로 닫고 생산성·피로·승패는 HOLD | 분 보존 완료를 개인 기록이나 경기 결과 확정으로 확대하지 않음 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

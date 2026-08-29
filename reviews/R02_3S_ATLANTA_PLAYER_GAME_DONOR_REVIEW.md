@@ -1,7 +1,7 @@
 # R02-3S Atlanta Player-Game Donor Review
 
 - 대상: Atlanta 2018-19 주인공 날짜별 출전·Spellman donor·Erie assignment
-- 판정: `PASS_WITH_NAMED_RECEIVER_HOLD`
+- 판정: `PASS_WITH_NAMED_RECEIVER_HOLD` — v0.24 `R02-3T`에서 해당 HOLD 해소
 - 원고 게이트: `CLOSED`
 
 | 맹점 | 통제 | 판정 |
@@ -32,4 +32,4 @@
 
 ## 중단선
 
-이 단계에서 G2 사전등록은 `PASS`, G3 분 보존은 `PASS_WITH_BRIDGE`다. `ATL_REMAINDER_POOL`의 동일 날짜 실명 수취자를 검증하기 전에는 개인 박스스코어·경기 영향·승패를 열지 않는다.
+이 단계에서 G2 사전등록은 `PASS`, G3 분 보존은 `PASS_WITH_BRIDGE`였다. v0.24 `R02-3T`가 동일 날짜 실명 수취자를 검증해 G3를 `PASS`로 올렸다. 개인 생산성·경기 영향·승패는 계속 열지 않는다.
