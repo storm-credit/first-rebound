@@ -43,8 +43,8 @@
 
 ## 다음 실행
 
-1. Dallas·Denver 계약층 연쇄가 실제 시즌 분을 침범하는지 검사한다.
-2. Atlanta 경기별 availability와 주인공 donor vector를 만든다.
+1. Atlanta 경기별 availability와 주인공 donor vector를 만든다.
+2. Dallas 1분·Denver 36분·Spurs 145.4분을 넘는 경우만 해당 팀 player-game을 연다.
 3. Spellman이 145.4분을 넘을 때만 Spurs 날짜별 donor와 경쟁 구간을 연다.
 4. Atlanta 영향 prior를 만들고 직접 대결 두 경기를 포함해 시간순으로 실행한다.
 5. 그 뒤에만 승패·상대팀 기록·2019 lottery를 실행한다.

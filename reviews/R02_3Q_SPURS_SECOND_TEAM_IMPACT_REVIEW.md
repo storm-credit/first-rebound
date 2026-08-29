@@ -35,7 +35,7 @@
 1. Spellman의 실제 대체 assignment 날짜는 아직 확정하지 않았다.
 2. HIGH 시나리오 34.6분의 날짜별 공여자는 아직 없다.
 3. Atlanta 주인공의 두 Spurs전 출전 여부와 분은 아직 없다.
-4. Dallas·Denver의 계약층 연쇄는 아직 `HOLD`다.
+4. Dallas·Denver 계약층은 `R02-3R`에서 통과했지만 각 BASE 초과와 Welsh 새 팀은 조건부 `HOLD`다.
 5. 따라서 Spurs 48-34, Atlanta 29-53, 2019 standings·lottery는 모두 대체 세계 확정치가 아니다.
 
 ## 최종 판정

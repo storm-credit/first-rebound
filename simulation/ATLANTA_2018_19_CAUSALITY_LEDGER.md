@@ -1,6 +1,6 @@
-# Atlanta 2018-19 Causality Ledger v0.2
+# Atlanta 2018-19 Causality Ledger v0.3
 
-- 상태: `SECOND_TEAM_BASELINE_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`
+- 상태: `CASCADE_CONTRACT_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`
 - 정본성: `PROVISIONAL`
 - 원고 게이트: `CLOSED`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -84,8 +84,8 @@ logit(pCF) = logit(pB) + Δμ / k
 Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 수 없다.
 
 1. 2018 Draft 30~60의 27개 유지·4개 변경 보드를 보존한다.
-2. Spellman의 Spurs 계약·로스터 자리와 Metu의 실제 145.4분 기준선은 연결 완료했다.
-3. 145.4분 초과 또는 경쟁 구간 출전이 생길 때만 Spurs 경기별 파급을 연다.
+2. Spellman의 Spurs, Metu의 Dallas, Spalding의 Denver 계약·로스터 기준선은 연결 완료했다.
+3. Spurs 145.4분·Dallas 1분·Denver 36분을 넘거나 경쟁 구간 출전이 생길 때만 해당 팀 경기별 파급을 연다.
 4. 모든 바뀐 경기에서 승자·패자의 승패를 함께 갱신한다.
 5. 비플레이오프 14팀, 동률, 조합 배분, 별도 동률 추첨을 재계산한다.
 6. 로터리 입력이 바뀌면 잠긴 seed로 재추첨한다.
@@ -102,6 +102,16 @@ Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 �
 - 145.4분 초과: 날짜별 donor와 경쟁 구간 검토 필수
 - Atlanta 직접 대결 2경기: Metu 0분, Spurs 쪽 `NO_DIRECT_MINUTES`
 - 상세 권위: `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md`
+
+## Dallas·Denver 연쇄 계약 기준선
+
+- Dallas Metu BASE: 표준 NBA 계약·Texas assignment, NBA 1경기·1분, Texas 29경기
+- Denver Spalding BASE: Welsh 투웨이 슬롯, NBA 11경기·36분, G League 20경기
+- Denver의 다른 투웨이 자리: DeVaughn Akoon-Purcell 유지
+- Welsh: Denver 투웨이 중복 금지, 미지명 자유계약 시장 `HOLD`
+- Atlanta 직접 대결 네 경기: 실제 Spalding/Welsh 0분, 상대 팀 쪽 `NO_DIRECT_MINUTES`
+- Dallas 1월 31일 방출 선택: `HOLD`
+- 상세 권위: `simulation/DALLAS_DENVER_2018_19_CASCADE_IMPACT.md`
 
 ## 출처
 

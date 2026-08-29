@@ -133,7 +133,7 @@
 | D-125 | LOCKED | 2018 Draft 30~60은 27개 실제 유지·4개 변경으로 닫는다 | 자동 한 칸 이동 없이 변화 지점만 심층 추적 |
 | D-126 | LOCKED | Omari Spellman은 San Antonio 49번으로 이동 | Spurs 워크아웃과 동시대 슈팅·패싱·역할 적합성 평가가 존재 |
 | D-127 | LOCKED | 49번에서 밀린 Chimezie Metu는 Dallas 56번, Ray Spalding은 Denver 58번으로 이동 | 실제 54·56·60 거래 구조를 유지하며 같은 2라운드 빅 포지션군 안에서 연쇄를 닫음 |
-| D-128 | PROVISIONAL | Thomas Welsh는 미지명 뒤 Denver 투웨이 역할 후보 | 실제 역할을 보존하되 Spalding 지명 뒤 계약·슬롯 검산 전 자동 확정 금지 |
+| D-128 | SUPERSEDED | Thomas Welsh는 미지명 뒤 Denver 투웨이 역할 후보 | D-141의 투웨이 슬롯 검산으로 폐기; 기존 결정 이력은 보존 |
 | D-129 | LOCKED | Spellman의 Spurs 출전 시작 상한은 Atlanta 805분 복사가 아니라 실제 Metu 29경기·145분 슬롯 | 플레이오프 팀의 핵심 로테이션을 공짜로 침범하지 않음 |
 | D-130 | SECOND_TEAM_IMPACT_HOLD | Spurs 2018-19 분·승패 파급 전 2019 standings·lottery FINAL 금지 | 드래프트 팀만 정하고 리그 전체 승패를 실제대로 복사하는 오류 방지 |
 | D-131 | LOCKED | Spellman의 Spurs BASE는 Metu의 실제 29경기·145.4분·0선발 | Atlanta 805분 복사와 플레이오프 팀 핵심 로테이션 침범 금지 |
@@ -143,5 +143,11 @@
 | D-135 | LOCKED | 2019-03-06·04-02 Atlanta 직접 대결의 Spurs 쪽 대체 슬롯은 0분 | Spellman 이동만으로 두 경기 결과를 자동 변경하지 않음 |
 | D-136 | SECOND_TEAM_BASELINE_PASS | Spurs 역할 기준선은 닫고 48-34는 BASELINE_ONLY 유지 | competitive stint·Atlanta player-game 전에는 대체 승패 확정 금지 |
 | D-137 | LOCKED | 큰 드래프트 파급은 계약층→실제 분 침범→경기층 순으로 조건부 확장 | 모든 변경 팀의 82경기를 같은 깊이로 과설계하지 않음 |
+| D-138 | LOCKED | Dallas 56번 Metu는 실제 Spalding의 정규 NBA 계약+Texas Legends 배정 계층을 대체하고 BASE는 NBA 1경기·1분, G League 29경기 | Spurs에서의 Metu 145.4분을 Dallas에 복사하지 않음 |
+| D-139 | TRANSACTION_HOLD | Dallas가 2019-01-31 Metu를 실제 Spalding처럼 방출할지는 미확정 | 실제 거래를 보존하되 평가가 다른 선수를 자동으로 같은 날 방출하지 않음 |
+| D-140 | LOCKED | Denver 58번 Spalding은 Welsh의 투웨이 슬롯을 대체하고 BASE는 NBA 11경기·36분, G League 20경기 | Akoon-Purcell의 두 번째 투웨이 자리는 보호 |
+| D-141 | LOCKED | Welsh의 Denver 투웨이 중복을 거부하고 미지명 자유계약 시장 HOLD로 전환 | 2018-19 두 자리 제한 아래 Spalding·Akoon-Purcell로 슬롯이 모두 참 |
+| D-142 | LOCKED | Atlanta의 Dallas·Denver 직접 대결 4경기에서 실제 대체 선수 슬롯은 모두 0분 | 변경 지명만으로 상대 팀 쪽 경기 결과를 자동 변경하지 않음 |
+| D-143 | CASCADE_CONTRACT_PASS | Dallas·Denver 계약층 연쇄는 닫고, BASE 초과 player-game·거래·승패는 HOLD | 계약층→분 침범→경기층의 조건부 확장 규칙 적용 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

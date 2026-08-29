@@ -363,7 +363,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 30~60순위 31개 픽 중 27개는 실제 선택·거래를 유지하고 30·49·56·58번만 바꾼다.
 - Omari Spellman은 San Antonio 49번으로 이동한다. 당시 Spurs 워크아웃과 슈팅·패싱·역할 이해도 평가를 선택 근거로 쓴다.
 - 49번에서 밀린 Chimezie Metu는 Dallas 56번, 56번에서 밀린 Ray Spalding은 Denver 58번으로 이동한다.
-- Thomas Welsh는 삭제하지 않는다. 미지명 뒤 실제와 같은 Denver 투웨이 역할 후보로 남기되 계약·슬롯 검산 전 `PROVISIONAL_ROLE_PRESERVED`다.
+- Thomas Welsh는 삭제하지 않는다. 이 단계에서는 미지명 뒤 Denver 투웨이 역할 후보였으나, v0.22 계약·슬롯 검산에서 중복 불가로 폐기된다.
 - Atlanta 34번과 Charlotte의 Devonte' Graham 권리 거래는 유지한다. Atlanta가 30번으로 개발형 포워드 슬롯을 이미 채웠고 Charlotte가 미래 2라운드 두 장을 지급한 거래 입력이 변하지 않았다.
 - Spellman에게 Atlanta의 실제 805분을 San Antonio에서 복사하지 않는다. 대체 슬롯의 출발 기준은 실제 Metu의 2018-19 NBA 29경기·145분이다.
 - 2018 후반 드래프트 보드는 닫혔지만 San Antonio의 날짜별 분·승패 파급 전에는 2019 standings·lottery를 `FINAL`로 만들지 않는다.
@@ -374,7 +374,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - San Antonio의 2018-19 Metu NBA/G League 날짜별 이동과 Spellman 대체 분
 - Spellman의 Spurs 계약·Austin assignment·가용성·직접 대결 두 경기 파급
 - Dallas의 Metu와 Denver의 Spalding 계약·NBA/G League 분 파급
-- Denver가 Welsh에게 미지명 투웨이 슬롯을 다시 줄 수 있는지 여부
+- Denver가 Welsh에게 미지명 투웨이 슬롯을 다시 줄 수 있는지 여부 — v0.22에서 중복 불가로 해소
 - 두 번째 팀 파급 뒤 Atlanta·상대팀 승패·2019 standings·lottery
 
 ## v0.21 LOCKED ADDITIONS — Spurs 두 번째 팀 역할 기준선
@@ -395,4 +395,24 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 145.4분 초과 시 추가 34.6분의 날짜별 심부 로테이션 donor
 - Atlanta 주인공의 두 Spurs전 출전 여부·분·경기 영향
 - Dallas Metu·Denver Spalding/Welsh의 계약·로스터·분 파급
+- Atlanta player-game·상대팀 승패·2019 standings·lottery
+
+## v0.22 LOCKED ADDITIONS — Dallas·Denver 연쇄 계약층
+
+- Dallas 56번 Chimezie Metu는 실제 Ray Spalding의 정규 NBA 계약+Texas Legends 배정 계층을 대체한다.
+- Dallas BASE는 실제 Spalding의 NBA 1경기·1분과 Texas Legends 29경기다. Spurs에서의 Metu 145.4분을 Dallas에 복사하지 않는다.
+- 실제 Dallas가 2019년 1월 31일 Spalding을 방출한 사실은 기준선이지만, 대체 세계에서 Metu를 같은 날 방출하는지는 `TRANSACTION_HOLD`다.
+- Denver 58번 Ray Spalding은 실제 Thomas Welsh의 투웨이 슬롯을 대체한다. BASE는 NBA 11경기·36분과 G League 20경기다.
+- Denver의 다른 투웨이 자리인 DeVaughn Akoon-Purcell은 보호한다. 따라서 Welsh를 Denver에 다시 투웨이로 등록하는 중복안은 폐기한다.
+- Welsh는 삭제하지 않고 미지명 자유계약 시장으로 돌리되, 새 팀·리그·계약은 증거 전까지 `UNDRAFTED_FREE_AGENT_MARKET_HOLD`다.
+- 2018년 10월 24일·12월 12일 Dallas전과 11월 15일·12월 8일 Denver전에서 실제 대체 선수의 출전은 모두 0분이다. 상대 팀 쪽 접촉은 `NO_DIRECT_MINUTES`다.
+- Metu가 Dallas 1분, Spalding이 Denver 36분을 넘을 때만 해당 날짜의 실제 donor·가용성·경쟁 구간 검토를 연다.
+- 현재 판정은 `CASCADE_CONTRACT_PASS / GAME_OUTCOMES_HOLD`다. 상세 권위는 `simulation/DALLAS_DENVER_2018_19_CASCADE_IMPACT.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.22 RESEARCH_HOLD
+
+- Dallas가 2019년 1월 31일 Metu를 방출할지, 다른 선수를 정리할지 여부
+- Metu 1분·Spalding 36분 초과 시 날짜별 player-game donor와 경쟁 구간
+- Welsh의 미지명 뒤 새 계약 팀·리그·시점
+- Atlanta 주인공의 Dallas·Denver 직접 대결 4경기 출전 여부·분·경기 영향
 - Atlanta player-game·상대팀 승패·2019 standings·lottery
