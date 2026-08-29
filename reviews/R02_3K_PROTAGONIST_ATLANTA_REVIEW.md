@@ -10,7 +10,7 @@
 | 맹점 | 통제 | 결과 |
 |---|---|---|
 | 코비를 만나기 위해 Lakers를 고르는가 | 코비 접점과 첫 NBA 팀을 분리하고 로스터·성장 기능으로 Atlanta 선택 | PASS |
-| G League 때문에 성장 보상이 느린가 | NBA 38~50경기 후보, Erie 4~10경기 후보로 NBA가 본무대 | PASS_WITH_SIMULATION_HOLD |
+| G League 때문에 성장 보상이 느린가 | NBA 43경기·621.9분, Erie 6경기로 NBA가 본무대 | PASS |
 | 30순위인데 투웨이 계약으로 처리하는가 | NBA rookie-scale 계약과 assignment를 명시적으로 분리 | PASS |
 | Spellman이 사라지는가 | San Antonio 49번·BASE 29경기 145.4분으로 후속 경로 보존 | PASS |
 | 실제 Spellman 기록을 복사하는가 | 46경기·17.5분은 기회 기준선만 사용, 주인공 기록은 재계산 | PASS |

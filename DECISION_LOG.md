@@ -149,5 +149,10 @@
 | D-141 | LOCKED | Welsh의 Denver 투웨이 중복을 거부하고 미지명 자유계약 시장 HOLD로 전환 | 2018-19 두 자리 제한 아래 Spalding·Akoon-Purcell로 슬롯이 모두 참 |
 | D-142 | LOCKED | Atlanta의 Dallas·Denver 직접 대결 4경기에서 실제 대체 선수 슬롯은 모두 0분 | 변경 지명만으로 상대 팀 쪽 경기 결과를 자동 변경하지 않음 |
 | D-143 | CASCADE_CONTRACT_PASS | Dallas·Denver 계약층 연쇄는 닫고, BASE 초과 player-game·거래·승패는 HOLD | 계약층→분 침범→경기층의 조건부 확장 규칙 적용 |
+| D-144 | LOCKED | Atlanta 주인공 출전은 Spellman donor 7.0분 이상·경기당 16.0분 상한으로 결과 전에 사전등록 | 실제 승패·점수차를 보고 출전일이나 분을 고르는 오류 방지 |
+| D-145 | LOCKED | 2018-11-19 Clippers전 예정 14.1분을 자기관리 실패의 직접 비용으로 상실 | 다구간 원정 뒤 첫 홈 일정이라는 결과 비의존 날짜 기준 |
+| D-146 | LOCKED | 주인공 NBA 신인 기준선은 43경기·621.9분·14.46 MPG·0선발 | Spellman의 46경기·11선발·부상·개인 기록 자동 복사 금지 |
+| D-147 | LOCKED | Erie assignment는 2018-12-07~22 실제 일정 6경기이며 동일 날짜 NBA 분은 0 | 지각 징계와 개발 결정을 분리하고 이중 출전 금지 |
+| D-148 | PASS_WITH_NAMED_RECEIVER_HOLD | Atlanta donor 805.0분은 주인공 621.9분+ATL_REMAINDER_POOL 183.1분으로 날짜별 보존 | 회계 브리지는 가상 선수가 아니며 실명 수취자 전 개인 기록·승패 HOLD |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

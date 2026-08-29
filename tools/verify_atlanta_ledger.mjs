@@ -8,13 +8,14 @@ const wb = await SpreadsheetFile.importXlsx(blob);
 const checks = [
   ["README", "A4:H12"],
   ["Game Ledger", "A5:Y87"],
-  ["Season Minutes", "A5:L31"],
+  ["ATL Assignment", "A4:H24"],
+  ["Season Minutes", "A5:L33"],
   ["2018 Draft Board", "A4:K37"],
   ["Spurs Impact", "A4:L34"],
   ["Cascade Impact", "A4:M27"],
   ["Draft Bridge", "A4:J14"],
   ["Gate Audit", "A4:F16"],
-  ["Sources", "A4:D43"],
+  ["Sources", "A4:D47"],
 ];
 
 let errors = 0;
@@ -43,7 +44,25 @@ console.log("FINAL_RECORD", JSON.stringify(ledger.getRange("K87:L87").values));
 console.log("TOTAL_GAME_MINUTES", JSON.stringify(readme.getRange("B11:D11").values));
 
 const minutes = wb.worksheets.getItem("Season Minutes");
-console.log("MINUTES_AUDIT", JSON.stringify(minutes.getRange("E29:K29").values));
+console.log("MINUTES_AUDIT", JSON.stringify(minutes.getRange("E31:K31").values));
+
+const assignment = wb.worksheets.getItem("ATL Assignment");
+const donorAudit = assignment.getRange("B5:D11").values;
+console.log("ATL_DONOR_AUDIT", JSON.stringify(donorAudit));
+for (const row of donorAudit) {
+  if (row[2] !== "PASS") {
+    errors++;
+    console.log(`DONOR_AUDIT_FAIL ${JSON.stringify(row)}`);
+  }
+}
+
+const gameMinuteChecks = ledger.getRange("U6:U87").values;
+for (let i = 0; i < gameMinuteChecks.length; i++) {
+  if (Math.abs(Number(gameMinuteChecks[i][0])) > 0.001) {
+    errors++;
+    console.log(`GAME_MINUTE_BALANCE_FAIL row ${i + 6}: ${gameMinuteChecks[i][0]}`);
+  }
+}
 
 const draftBoard = wb.worksheets.getItem("2018 Draft Board");
 console.log("DRAFT_BOARD_AUDIT", JSON.stringify(draftBoard.getRange("A4:H4").values));

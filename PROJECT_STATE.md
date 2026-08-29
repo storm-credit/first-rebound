@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.22 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.23 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R09 Atlanta 2018-19 player-game donor vector execution`
-- 최근 설계 변경: `Dallas Metu·Denver Spalding contract layers closed; Welsh Denver two-way duplicate rejected and free-agent destination held`
+- 현재 작업: `R09 Atlanta 183.1-minute named reserve receiver allocation`
+- 최근 설계 변경: `Atlanta rookie 43G/621.9 MIN donor vector, Nov. 19 missed opportunity, and Dec. 7-22 Erie window locked`
 - 최근 병합: `PR #38 / 53442f8`
 
 ## 완료
@@ -83,20 +83,26 @@
 - [x] Metu Dallas BASE 정규계약·Texas 배정·NBA 1경기 1분·G리그 29경기 LOCK
 - [x] Spalding Denver BASE Welsh 투웨이·NBA 11경기 36분·G리그 20경기 LOCK
 - [x] Dallas·Denver와 Atlanta의 직접 대결 4경기 대체 슬롯 0분 LOCK
+- [x] Spellman 실제 46경기·805.0분 날짜별 donor vector LOCK
+- [x] 주인공 43경기·621.9분·14.46 MPG·0선발 기준선 LOCK
+- [x] 2018-11-19 자기관리 실패·예정 14.1분 상실 LOCK
+- [x] 2018-12-07~22 Erie 6경기 개발 assignment·NBA 동시 출전 0 LOCK
+- [x] Atlanta 805.0분 = 주인공 621.9 + remainder 183.1 날짜별 보존 PASS
 
 ## 현재 결정 대기
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
 - [ ] Villanova에서 역할 이탈로 신뢰를 잃는 정확한 경기
-- [ ] NBA 신인기 자기관리 재발의 정확한 날짜·상실 경기·Erie 배정 기간
+- [x] NBA 신인기 자기관리 재발의 정확한 날짜·상실 경기·Erie 배정 기간
 - [ ] 가상 프렙 정식 교명·개별 과목·졸업 감사 — 사용 시점 HOLD
 - [ ] 한국·프렙 개별 과목의 NCAA 환산과 정확한 장학금 counter — R09 HOLD
 - [ ] 라이벌의 정확한 부상 경기·수술일·graft·동반 손상·의료 clearance — 사용 시점 HOLD
 - [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
-- [ ] Atlanta 경기별 player-game 분·주인공 donor vector·대체 승패 — R09 HOLD
+- [x] Atlanta 경기별 주인공 분·Spellman donor vector — R09 PASS
+- [ ] Atlanta 183.1분 실명 수취자·개인 박스스코어·대체 승패 — R09 HOLD
 - [x] Spellman의 Spurs 계약 계층·Metu 145.4분 대체 기준선 — R09 PASS
 - [ ] Spellman의 145.4분 초과 donor·경쟁 구간과 San Antonio 승수 파급 — R09 HOLD
 - [x] Metu의 Dallas·Spalding의 Denver 계약 계층과 기준 분 — R09 PASS
@@ -143,13 +149,15 @@
 27. 반대로 주인공과 시간상 무관한 선행 픽을 소급 변경하지 않는다. 2018 인과 시작점은 30순위다.
 28. 로터리는 원하는 팀이 나올 때까지 다시 돌리지 않는다. 공개 seed·알고리즘·실행 로그를 결과 전에 고정한다.
 29. Spellman에게 Atlanta의 실제 805분을 Spurs에서 복사하지 않는다. BASE는 Metu 145.4분이며 초과 34.6분에는 날짜별 donor가 필요하다.
-30. 실제 Metu가 Atlanta와의 두 경기에서 모두 0분이었으므로 Spurs 쪽 직접 영향은 만들지 않는다. 주인공의 Atlanta 쪽 영향은 별도 HOLD다.
+30. 실제 Metu가 Atlanta와의 두 경기에서 모두 0분이었으므로 Spurs 쪽 직접 영향은 만들지 않는다. 주인공의 Atlanta 쪽 분은 잠겼지만 개인 성과·승패 영향은 HOLD다.
 31. 30~60순위 보드가 4개만 바뀌었다는 결과를 편의상 보존하지 않는다. Dallas·Denver 계약 검산에서 추가 파급이 발견되면 같은 프로토콜로 다시 연다.
 32. Welsh를 Spalding과 함께 Denver 투웨이에 중복 등록하지 않는다. 2018-19 Denver의 두 자리는 Spalding 대체 슬롯과 Akoon-Purcell 보호 슬롯으로 모두 찬다.
 33. Metu에게 Spurs의 실제 145.4분을 Dallas에서 복사하지 않는다. Dallas BASE는 실제 Spalding의 1경기·1분이며, 초과분은 player-game donor가 있어야 한다.
+34. `ATL_REMAINDER_POOL`은 가상 선수가 아니다. 183.1분의 실명 수취자를 날짜별 가용성으로 닫기 전 개인 기록이나 경기 영향을 만들지 않는다.
+35. 2018년 11월 19일의 직접 비용과 12월 Erie 개발 배정을 하나의 징계로 합치지 않는다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·2018 Draft 30~60 압축 보드·Spurs 역할 기준선·Dallas/Denver 계약층 연쇄도 검산했다. 다음은 Atlanta player-game 분과 주인공 donor vector를 만드는 단계다. Spellman·Metu·Spalding이 각 팀 BASE를 넘을 때만 해당 날짜별 donor·경쟁 구간을 연다. 그 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·후반 드래프트·두 번째 팀 계약층·주인공 날짜별 donor vector도 검산했다. 다음은 `ATL_REMAINDER_POOL` 183.1분을 동일 날짜 실제 가용 포워드에게 배분하는 단계다. 개인 player-game 분이 닫힌 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

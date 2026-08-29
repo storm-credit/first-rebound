@@ -90,6 +90,64 @@ const games = [
   [82,"2019-04-10","H","Indiana Pacers","L",134,135,0],
 ];
 
+// HoopsStats' published game log reports tenths of a minute and sums to the
+// 805-minute public season total. The vector is a donor ledger, not a copy of
+// Spellman's starts, injury, or production for the fictional protagonist.
+const spellmanGameMinutes = new Map([
+  ["2018-10-17",8.3],["2018-10-21",23.8],["2018-10-24",15.7],["2018-10-27",14.7],
+  ["2018-10-29",23.3],["2018-10-30",20.4],["2018-11-01",20.5],["2018-11-03",20.2],
+  ["2018-11-06",16.8],["2018-11-07",28.5],["2018-11-09",26.7],["2018-11-11",27.9],
+  ["2018-11-13",14.2],["2018-11-15",26.7],["2018-11-17",12.4],["2018-11-19",14.1],
+  ["2018-11-23",7.8],["2018-11-25",13.5],["2018-11-27",20.3],["2018-11-28",21.6],
+  ["2018-11-30",15.2],["2018-12-03",7.7],["2018-12-26",7.4],["2019-01-06",2.7],
+  ["2019-01-11",2.9],["2019-01-13",29.9],["2019-01-15",21.9],["2019-01-19",15.4],
+  ["2019-01-21",16.7],["2019-01-23",19.6],["2019-01-26",15.1],["2019-01-28",10.5],
+  ["2019-01-30",24.1],["2019-02-01",18.7],["2019-02-02",7.1],["2019-02-04",29.9],
+  ["2019-02-07",15.3],["2019-02-09",11.9],["2019-02-10",26.3],["2019-02-12",13.7],
+  ["2019-02-14",17.1],["2019-02-22",18.7],["2019-02-23",21.5],["2019-02-25",20.0],
+  ["2019-02-27",19.4],["2019-03-01",18.9],
+]);
+
+const missedRotationDate = "2018-11-19";
+const erieAssignmentStart = "2018-12-07";
+const erieAssignmentEnd = "2018-12-22";
+const erieGames = [
+  [1,"2018-12-08","A","South Bay Lakers","24-30","S43"],
+  [2,"2018-12-10","A","Stockton Kings","24-30","S43"],
+  [3,"2018-12-13","A","Agua Caliente Clippers","24-30","S43"],
+  [4,"2018-12-15","A","Santa Cruz Warriors","24-30","S43"],
+  [5,"2018-12-19","H","Texas Legends","24-30","S43"],
+  [6,"2018-12-21","A","Northern Arizona Suns","24-30","S43"],
+];
+
+function atlCounterfactualRow(game) {
+  const date = game[1];
+  const donor = spellmanGameMinutes.get(date) ?? 0;
+  const eligible = donor >= 7;
+  const planned = eligible ? Math.min(16, donor) : 0;
+  const storySelected = date === missedRotationDate;
+  const protagonistMinutes = storySelected ? 0 : planned;
+  const reserveReceiver = Number((donor - protagonistMinutes).toFixed(1));
+  const onAssignment = date >= erieAssignmentStart && date <= erieAssignmentEnd;
+  const status = storySelected
+    ? "MISSED_ROTATION"
+    : protagonistMinutes > 0
+      ? "ACTIVE"
+      : onAssignment
+        ? "ERIE_ASSIGNMENT"
+        : donor > 0
+          ? "LT_7_MIN_GATE"
+          : "DNP";
+  return {
+    contact: protagonistMinutes > 0 ? "DIRECT" : "ROSTER",
+    storySelected,
+    status,
+    protagonistMinutes,
+    donor,
+    reserveReceiver,
+  };
+}
+
 const roster = [
   ["Trae Young","G",81,81,2503,"PROTECTED_CORE"],
   ["Kevin Huerter","G",75,59,2048,"PROTECTED_CORE"],
@@ -232,11 +290,16 @@ const sources = [
   ["S37","Basketball-Reference — 2018-11-15 box score","Welsh did not play against Atlanta","https://www.basketball-reference.com/boxscores/201811150DEN.html"],
   ["S38","NBA Hawks — 2018-12-08 Denver at Atlanta","Atlanta 106-98 official game baseline","https://www.nba.com/hawks/game/0021800380"],
   ["S39","Basketball-Reference — 2018-12-08 box score","Welsh did not play against Atlanta","https://www.basketball-reference.com/boxscores/201812080ATL.html"],
+  ["S40","HoopsStats — Omari Spellman 2018-19 game log","Exact 46 appearance dates and published tenths-of-a-minute donor vector; sums to 805.0","https://www.hoopsstats.com/basketball/fantasy/nba/atlanta-hawks/players/omari-spellman/gamelog/19/1/16"],
+  ["S41","RealGM — Omari Spellman profile","46 games, 11 starts, 804.6 exact season minutes cross-check","https://basketball.realgm.com/player/Omari-Spellman/Summary/74078"],
+  ["S42","Peachtree Hoops — Spellman assigned to Erie","Actual Dec. 30 assignment followed hip-injury absence and conditioning need; context only, not copied","https://www.peachtreehoops.com/2018/12/30/18161520/omari-spellman-alex-poythress-atlanta-hawks-g-league-erie-bayhawks-assignment-transfer-roster"],
+  ["S43","Basketball-Reference — Erie 2018-19 schedule","Six real Erie games in the Dec. 7-22 development window","https://www.basketball-reference.com/gleague/schedules/HAW/2019.html"],
 ];
 
 const wb = Workbook.create();
 const readme = wb.worksheets.add("README");
 const ledger = wb.worksheets.add("Game Ledger");
+const assignment = wb.worksheets.add("ATL Assignment");
 const minutes = wb.worksheets.add("Season Minutes");
 const draftBoardSheet = wb.worksheets.add("2018 Draft Board");
 const spurs = wb.worksheets.add("Spurs Impact");
@@ -286,8 +349,8 @@ function body(range) {
 
 // README
 readme.showGridLines = false;
-title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / DRAFT BOARD v0.4");
-readme.getRange("A4:H4").values = [["Status","CASCADE_CONTRACT_PASS / OUTCOME_HOLD","Canon","v0.22 PARTIAL","Manuscript","BLOCKED","Built","2026-08-29"]];
+title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / DRAFT BOARD v0.5");
+readme.getRange("A4:H4").values = [["Status","ATL_DONOR_VECTOR_PASS / OUTCOME_HOLD","Canon","v0.23 PARTIAL","Manuscript","BLOCKED","Built","2026-08-29"]];
 section(readme.getRange("A4:H4"));
 readme.getRange("A6:H6").values = [["Verified baseline","Value","Expected","Check","Simulation guardrail","Low","High","Check"]];
 header(readme.getRange("A6:H6"));
@@ -295,10 +358,12 @@ readme.getRange("A7:A12").values = [["Regular-season games"],["Actual wins"],["A
 readme.getRange("B7:B12").formulas = [["=COUNTA('Game Ledger'!$A$6:$A$87)"],["=COUNTIF('Game Ledger'!$E$6:$E$87,\"W\")"],["=COUNTIF('Game Ledger'!$E$6:$E$87,\"L\")"],["=SUM('Game Ledger'!$F$6:$F$87)"],["=SUM('Game Ledger'!$J$6:$J$87)"],["=SUM('Season Minutes'!$E$6:$E$27)"]];
 readme.getRange("C7:C12").values = [[82],[29],[53],[9294],[19855],[19853]];
 readme.getRange("D7:D12").formulas = [["=IF(B7=C7,\"PASS\",\"FAIL\")"],["=IF(B8=C8,\"PASS\",\"FAIL\")"],["=IF(B9=C9,\"PASS\",\"FAIL\")"],["=IF(B10=C10,\"PASS\",\"FAIL\")"],["=IF(B11=C11,\"PASS\",\"FAIL\")"],["=IF(ABS(B12-C12)<=2,\"PASS (rounding)\",\"FAIL\")"]];
-readme.getRange("E7:E12").values = [["NBA games"],["NBA MPG"],["NBA total minutes"],["Spellman slot cap"],["Erie games"],["Protected core"]];
-readme.getRange("F7:F12").values = [[42],[14,],[588],[0],[4],["Young/Huerter/Collins"]];
-readme.getRange("G7:G12").values = [[46],[16],[736],[805],[10],["Same"]];
-readme.getRange("H7:H12").formulas = [["=IF(AND(F7>=38,G7<=50),\"PASS\",\"FAIL\")"],["=IF(AND(F8>=10,G8<=16),\"PASS\",\"FAIL\")"],["=IF(G9<=G10,\"PASS\",\"FAIL\")"],["=IF(G10=805,\"CAP\",\"CHECK\")"],["=IF(AND(F11>=4,G11<=10),\"PASS\",\"FAIL\")"],["=\"LOCK\""]];
+readme.getRange("E7:E12").values = [["NBA games"],["NBA MPG"],["NBA total minutes"],["Spellman donor balance"],["Erie games"],["Protected core"]];
+readme.getRange("F7:F12").formulas = [["=COUNTIF('Game Ledger'!$O$6:$O$87,\"DIRECT\")"],["=SUM('Game Ledger'!$R$6:$R$87)/F7"],["=SUM('Game Ledger'!$R$6:$R$87)"],["=SUM('Game Ledger'!$S$6:$S$87)"],["=COUNTA('ATL Assignment'!$A$17:$A$22)"],["=\"Young/Huerter/Collins\""]];
+readme.getRange("G7:G12").values = [[43],[14.46],[621.9],[805],[6],["Same"]];
+readme.getRange("H7:H12").formulas = [["=IF(F7=G7,\"PASS\",\"FAIL\")"],["=IF(ABS(F8-G8)<0.01,\"PASS\",\"FAIL\")"],["=IF(ABS(F9-G9)<0.01,\"PASS\",\"FAIL\")"],["=IF(ABS(F10-G10)<0.01,\"PASS\",\"FAIL\")"],["=IF(F11=G11,\"PASS\",\"FAIL\")"],["=IF(G12=\"Same\",\"LOCK\",\"FAIL\")"]];
+readme.getRange("F8:G8").setNumberFormat("0.00");
+readme.getRange("F9:G10").setNumberFormat("0.0");
 body(readme.getRange("A7:H12"));
 readme.getRange("D7:D12").format.fill = paleGreen;
 readme.getRange("H7:H12").format.fill = paleGreen;
@@ -308,14 +373,14 @@ section(readme.getRange("A14:H14"));
 readme.getRange("A15:H19").values = [
   ["1","All 82 games and the actual 29-53 record are immutable baseline data.",null,null,null,null,null,null],
   ["2","Every game has at least ROSTER contact because the #30 replacement removes Spellman from Atlanta, even when the protagonist is inactive.",null,null,null,null,null,null],
-  ["3","Allocate protagonist minutes inside Spellman's 805-minute cap first. Do not auto-allocate before date-specific availability is verified.",null,null,null,null,null,null],
+  ["3","Date-level rule is locked before outcomes: donor ≥7.0 minutes, cap at 16.0, except the Nov. 19 missed-rotation story cost.",null,null,null,null,null,null],
   ["4","The San Antonio, Dallas, and Denver replacement contract layers are closed. Each CF rookie starts inside the displaced player's team-specific role, not his old-team minutes.",null,null,null,null,null,null],
-  ["5","Welsh cannot duplicate Denver's occupied two-way slot. His undrafted free-agent destination remains HOLD; no counterfactual scores or results have been generated.",null,null,null,null,null,null],
+  ["5","The 183.1-minute ATL remainder pool is an accounting bridge, not a fictional player. Named recipients and all counterfactual scores/results remain HOLD.",null,null,null,null,null,null],
 ];
 for (let r = 15; r <= 19; r++) readme.getRange(`B${r}:H${r}`).merge();
 body(readme.getRange("A15:H19"));
 readme.getRange("A21:H21").merge();
-readme.getRange("A21").values = [["NEXT: game-level availability → donor vector → preregistered pB/impact → fixed-hash outcome → opponent W/L → standings → lottery"]];
+readme.getRange("A21").values = [["NEXT: name the 183.1-minute reserve receivers → preregister pB/impact → fixed-hash outcome → opponent W/L → standings → lottery"]];
 readme.getRange("A21").format.fill = paleYellow;
 readme.getRange("A21").format.font = { color: navy, bold: true };
 readme.getRange("A21").format.wrapText = true;
@@ -333,10 +398,13 @@ ledger.getRange("A3:Y3").merge();
 ledger.getRange("A3").values = [["Blue = official baseline · Yellow = future inputs · Gray = formula/control fields · All counterfactual outcomes remain HOLD"]];
 ledger.getRange("A3").format.fill = lightGray;
 ledger.getRange("A3").format.font = { color: gray, italic: true };
-const gameHeaders = ["Game","Date","Site","Opponent","Actual","ATL Pts","Opp Pts","Margin","OT periods","Team min","Cum W","Cum L","Rest days","B2B","Contact","Story selected","Protagonist status","Protagonist min","Spellman donor","Other donor","Minute check","Outcome status","CF result","Downstream","Source ID"];
+const gameHeaders = ["Game","Date","Site","Opponent","Actual","ATL Pts","Opp Pts","Margin","OT periods","Team min","Cum W","Cum L","Rest days","B2B","Contact","Story selected","Protagonist status","Protagonist min","Spellman donor","Reserve receiver","Minute check","Outcome status","CF result","Downstream","Source ID"];
 ledger.getRange("A5:Y5").values = [gameHeaders];
 header(ledger.getRange("A5:Y5"));
-const gameRows = games.map((g) => [g[0],new Date(`${g[1]}T12:00:00Z`),g[2],g[3],g[4],g[5],g[6],null,g[7],null,null,null,null,null,"ROSTER",false,"HOLD",0,0,0,null,"HOLD","HOLD","PENDING","S01/S02/S03"]);
+const gameRows = games.map((g) => {
+  const cf = atlCounterfactualRow(g);
+  return [g[0],new Date(`${g[1]}T12:00:00Z`),g[2],g[3],g[4],g[5],g[6],null,g[7],null,null,null,null,null,cf.contact,cf.storySelected,cf.status,cf.protagonistMinutes,cf.donor,cf.reserveReceiver,null,"HOLD","HOLD","PENDING","S01/S02/S03/S40"];
+});
 ledger.getRange(`A6:Y${5+gameRows.length}`).values = gameRows;
 ledger.getRange("H6:H87").formulasR1C1 = Array.from({length:82},()=>["=RC[-2]-RC[-1]"]);
 ledger.getRange("J6:J87").formulasR1C1 = Array.from({length:82},()=>["=240+25*RC[-1]"]);
@@ -344,9 +412,10 @@ ledger.getRange("K6:K87").formulas = games.map((_,i)=>[i===0?'=IF(E6="W",1,0)':`
 ledger.getRange("L6:L87").formulas = games.map((_,i)=>[i===0?'=IF(E6="L",1,0)':`=L${5+i}+IF(E${6+i}="L",1,0)`]);
 ledger.getRange("M6:M87").formulas = games.map((_,i)=>[i===0?'=""':`=B${6+i}-B${5+i}-1`]);
 ledger.getRange("N6:N87").formulas = games.map((_,i)=>[i===0?'=FALSE':`=M${6+i}=0`]);
-ledger.getRange("U6:U87").formulasR1C1 = Array.from({length:82},()=>["=RC[-3]-RC[-2]-RC[-1]"]);
+ledger.getRange("U6:U87").formulasR1C1 = Array.from({length:82},()=>["=RC[-2]-RC[-3]-RC[-1]"]);
 ledger.getRange("B6:B87").setNumberFormat("yyyy-mm-dd");
 ledger.getRange("M6:M87").setNumberFormat("0");
+ledger.getRange("R6:U87").setNumberFormat("0.0");
 ledger.getRange("A6:Y87").format.borders = { preset: "all", style: "thin", color: "#E4E7EC" };
 ledger.getRange("A6:O87").format.fill = "#FFFFFF";
 ledger.getRange("P6:T87").format.fill = paleYellow;
@@ -355,7 +424,7 @@ ledger.getRange("A5:Y87").format.font = { name: "Aptos", size: 9 };
 ledger.getRange("D:D").format.columnWidth = 22;
 ledger.getRange("B:B").format.columnWidth = 12;
 ledger.getRange("O:O").format.columnWidth = 12;
-ledger.getRange("Q:Q").format.columnWidth = 18;
+ledger.getRange("Q:Q").format.columnWidth = 25;
 ledger.getRange("V:Y").format.columnWidth = 16;
 ledger.getRange("A:A").format.columnWidth = 7;
 ledger.getRange("C:C").format.columnWidth = 7;
@@ -365,6 +434,71 @@ ledger.freezePanes.freezeRows(5);
 ledger.freezePanes.freezeColumns(4);
 ledger.tables.add("A5:Y87", true, "GameLedgerTable");
 
+// Atlanta availability and Erie assignment preregistration
+assignment.showGridLines = false;
+title(assignment, "A1:H2", "ATLANTA ROOKIE — AVAILABILITY & ASSIGNMENT PREREGISTRATION");
+assignment.getRange("A4:H4").values = [["Metric","Value","Expected","Check","Rule","Value","Status","Source"]];
+header(assignment.getRange("A4:H4"));
+assignment.getRange("A5:A11").values = [["NBA GP"],["NBA minutes"],["NBA MPG"],["Spellman donor"],["ATL remainder pool"],["Minute balance"],["DIRECT / ROSTER"]];
+assignment.getRange("B5:B11").formulas = [
+  ["=COUNTIF('Game Ledger'!$O$6:$O$87,\"DIRECT\")"],
+  ["=SUM('Game Ledger'!$R$6:$R$87)"],
+  ["=B6/B5"],
+  ["=SUM('Game Ledger'!$S$6:$S$87)"],
+  ["=SUM('Game Ledger'!$T$6:$T$87)"],
+  ["=ROUND(SUM('Game Ledger'!$U$6:$U$87),1)"],
+  ["=COUNTIF('Game Ledger'!$O$6:$O$87,\"DIRECT\")&\" / \"&COUNTIF('Game Ledger'!$O$6:$O$87,\"ROSTER\")"],
+];
+assignment.getRange("C5:C11").values = [[43],[621.9],[14.46],[805],[183.1],[0],["43 / 39"]];
+assignment.getRange("D5:D11").formulas = [
+  ["=IF(B5=C5,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B6-C6)<0.01,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B7-C7)<0.01,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B8-C8)<0.01,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B9-C9)<0.01,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B10-C10)<0.01,\"PASS\",\"FAIL\")"],
+  ["=IF(B11=C11,\"PASS\",\"FAIL\")"],
+];
+assignment.getRange("E5:H11").values = [
+  ["Eligibility","Spellman donor ≥ 7.0", "LOCK","S40"],
+  ["Game cap","MIN(16.0, donor)","LOCK","S40"],
+  ["Story cost","2018-11-19; planned 14.1 → 0","LOCK","S01/S40"],
+  ["Selection basis","First home game after multi-city road stretch","OUTCOME_BLIND","S01"],
+  ["Assignment","2018-12-07 through 2018-12-22","LOCK","S43"],
+  ["Assignment purpose","Six-game development block; not discipline","LOCK","S42/S43"],
+  ["Injury firewall","Do not copy Spellman's hip/ankle injuries","LOCK","S05/S42"],
+];
+body(assignment.getRange("A5:H11"));
+assignment.getRange("D5:D11").format.fill = paleGreen;
+assignment.getRange("G5:G11").format.fill = paleGreen;
+assignment.getRange("A13:H13").merge();
+assignment.getRange("A13").values = [["Erie schedule inside the locked development window — exact fictional box-score minutes remain 24-30 MPG HOLD"]];
+section(assignment.getRange("A13:H13"));
+assignment.getRange("A16:H16").values = [["Erie game","Date","Site","Opponent","Minute band","NBA same date","NBA minutes","Source"]];
+header(assignment.getRange("A16:H16"));
+const erieRows = erieGames.map((g) => {
+  const nba = games.find((game) => game[1] === g[1]);
+  return [g[0],new Date(`${g[1]}T12:00:00Z`),g[2],g[3],g[4],nba ? `${nba[2]} ${nba[3]}` : "NONE",0,g[5]];
+});
+assignment.getRange("A17:H22").values = erieRows;
+assignment.getRange("B17:B22").setNumberFormat("yyyy-mm-dd");
+assignment.getRange("B6:C10").setNumberFormat("0.00");
+body(assignment.getRange("A17:H22"));
+assignment.getRange("A24:H24").merge();
+assignment.getRange("A24").values = [["NO COLLISION: all six Erie dates carry 0 NBA minutes. Assignment follows the missed opportunity but is independently justified by development workload."]];
+assignment.getRange("A24").format.fill = paleGreen;
+assignment.getRange("A24").format.font = { color: navy, bold: true };
+assignment.getRange("A24").format.wrapText = true;
+assignment.getRange("A24").format.rowHeight = 34;
+assignment.getRange("A1:H24").format.font = { name: "Aptos" };
+assignment.getRange("A:H").format.columnWidth = 18;
+assignment.getRange("D:D").format.columnWidth = 31;
+assignment.getRange("E:E").format.columnWidth = 34;
+assignment.getRange("F:F").format.columnWidth = 32;
+assignment.getRange("H:H").format.columnWidth = 14;
+assignment.getRange("A4:H24").format.wrapText = true;
+assignment.freezePanes.freezeRows(4);
+
 // Season Minutes
 minutes.showGridLines = false;
 title(minutes, "A1:L2", "ATLANTA 2018-19 — ROSTER MINUTES & REALLOCATION FIREWALL");
@@ -372,41 +506,47 @@ minutes.getRange("A3:L3").merge();
 minutes.getRange("A3").values = [["Published integer player minutes sum two minutes below game capacity because of source rounding. Allow the two-minute audit delta; never spend it as new minutes."]];
 minutes.getRange("A3").format.fill = paleYellow;
 minutes.getRange("A3").format.wrapText = true;
-const minuteHeaders = ["Player","Pos","GP","GS","Minutes","MPG","Pool","Max removable","Allocated to protagonist","Post-CF minutes","Delta check","Source ID"];
+const minuteHeaders = ["Player / bridge","Pos","Actual GP","Actual GS","Actual min","Actual MPG","Pool","Removed actual","Added CF","Post-CF min","Balance","Source ID"];
 minutes.getRange("A5:L5").values = [minuteHeaders];
 header(minutes.getRange("A5:L5"));
-const rosterRows = roster.map((p)=>[...p.slice(0,5),null,p[5],p[0]==="Omari Spellman"?805:(p[5]==="FALLBACK_FORWARD"?p[4]:0),0,null,null,"S04"]);
+const rosterRows = roster.map((p)=>[...p.slice(0,5),null,p[5],p[0]==="Omari Spellman"?805:0,0,null,null,p[0]==="Omari Spellman"?"S04/S40":"S04"]);
+rosterRows.push(["Fictional protagonist","F",0,0,0,null,"CF_INCOMING",0,null,null,null,"S40"]);
+rosterRows.push(["ATL_REMAINDER_POOL","—",0,0,0,null,"ACCOUNTING_BRIDGE",0,null,null,null,"S40"]);
 minutes.getRange(`A6:L${5+rosterRows.length}`).values = rosterRows;
-minutes.getRange("F6:F27").formulasR1C1 = Array.from({length:22},()=>["=IF(RC[-3]=0,0,RC[-1]/RC[-3])"]);
-minutes.getRange("J6:J27").formulasR1C1 = Array.from({length:22},()=>["=RC[-5]-RC[-1]"]);
-minutes.getRange("K6:K27").formulasR1C1 = Array.from({length:22},()=>["=RC[-1]+RC[-2]-RC[-6]"]);
-minutes.getRange("F6:F27").setNumberFormat("0.0");
-minutes.getRange("A6:L27").format.borders = { preset: "all", style: "thin", color: "#E4E7EC" };
-minutes.getRange("H6:I27").format.fill = paleYellow;
-minutes.getRange("J6:K27").format.fill = lightGray;
-minutes.getRange("A29:L29").values = [["TOTAL",null,null,null,null,null,null,null,null,null,null,null]];
-minutes.getRange("E29").formulas = [["=SUM(E6:E27)"]];
-minutes.getRange("H29").formulas = [["=SUM(H6:H27)"]];
-minutes.getRange("I29").formulas = [["=SUM(I6:I27)"]];
-minutes.getRange("J29").formulas = [["=SUM(J6:J27)"]];
-minutes.getRange("K29").formulas = [["=SUM(K6:K27)"]];
-section(minutes.getRange("A29:L29"));
-minutes.getRange("A31:L31").values = [["Primary rule","Protagonist total ≤ 805",null,"Fallback rule","Use Anderson/Poythress/B.J. Johnson only with date-specific availability proof",null,null,"Protected","Young/Huerter/Collins",null,null,null]];
-minutes.getRange("B31:C31").merge();
-minutes.getRange("E31:G31").merge();
+minutes.getRange("F6:F29").formulasR1C1 = Array.from({length:24},()=>["=IF(RC[-3]=0,0,RC[-1]/RC[-3])"]);
+minutes.getRange("I28").formulas = [["=SUM('Game Ledger'!$R$6:$R$87)"]];
+minutes.getRange("I29").formulas = [["=SUM('Game Ledger'!$T$6:$T$87)"]];
+minutes.getRange("J6:J29").formulasR1C1 = Array.from({length:24},()=>["=RC[-5]-RC[-2]+RC[-1]"]);
+minutes.getRange("K6:K29").formulasR1C1 = Array.from({length:24},()=>["=RC[-1]-(RC[-6]-RC[-3]+RC[-2])"]);
+minutes.getRange("F6:F29").setNumberFormat("0.0");
+minutes.getRange("H6:K29").setNumberFormat("0.0");
+minutes.getRange("A6:L29").format.borders = { preset: "all", style: "thin", color: "#E4E7EC" };
+minutes.getRange("H6:I29").format.fill = paleYellow;
+minutes.getRange("J6:K29").format.fill = lightGray;
+minutes.getRange("A31:L31").values = [["TOTAL",null,null,null,null,null,null,null,null,null,null,null]];
+minutes.getRange("E31").formulas = [["=SUM(E6:E29)"]];
+minutes.getRange("H31").formulas = [["=SUM(H6:H29)"]];
+minutes.getRange("I31").formulas = [["=SUM(I6:I29)"]];
+minutes.getRange("J31").formulas = [["=SUM(J6:J29)"]];
+minutes.getRange("K31").formulas = [["=SUM(K6:K29)"]];
 section(minutes.getRange("A31:L31"));
-minutes.getRange("A31:L31").format.wrapText = true;
+minutes.getRange("A33:L33").values = [["Primary rule","Donor ≥7.0; cap 16.0",null,"Exact NBA line","43 GP / 621.9 MIN / 14.46 MPG",null,null,"Bridge","183.1 min ATL remainder pool",null,null,null]];
+minutes.getRange("B33:C33").merge();
+minutes.getRange("E33:G33").merge();
+minutes.getRange("I33:K33").merge();
+section(minutes.getRange("A33:L33"));
+minutes.getRange("A33:L33").format.wrapText = true;
 minutes.getRange("A:L").format.columnWidth = 14;
 minutes.getRange("A:A").format.columnWidth = 22;
 minutes.getRange("G:G").format.columnWidth = 24;
 minutes.getRange("L:L").format.columnWidth = 14;
 minutes.freezePanes.freezeRows(5);
-minutes.tables.add("A5:L27", true, "SeasonMinutesTable");
+minutes.tables.add("A5:L29", true, "SeasonMinutesTable");
 
 // 2018 Draft Board
 draftBoardSheet.showGridLines = false;
 title(draftBoardSheet, "A1:K2", "2018 PICKS 30-60 — COMPRESSED COUNTERFACTUAL BOARD");
-draftBoardSheet.getRange("A4:H4").values = [["Scanned picks",null,"Changed/cascade",null,"Unchanged",null,"Next blocker","Atlanta donor vector"]];
+draftBoardSheet.getRange("A4:H4").values = [["Scanned picks",null,"Changed/cascade",null,"Unchanged",null,"Next blocker","ATL remainder recipients"]];
 section(draftBoardSheet.getRange("A4:H4"));
 draftBoardSheet.getRange("B4").formulas = [["=COUNTA(A7:A37)"]];
 draftBoardSheet.getRange("D4").formulas = [["=COUNTIF(G7:G37,\"CHANGED\")+COUNTIF(G7:G37,\"CASCADE\")"]];
@@ -571,7 +711,7 @@ draft.getRange("A12").format.font = { bold: true, color: navy };
 draft.getRange("A12").format.wrapText = true;
 draft.getRange("A12").format.rowHeight = 36;
 draft.getRange("A14:J14").merge();
-draft.getRange("A14").values = [["FINAL BLOCKER: Spurs, Dallas, and Denver contract layers are closed. Execute Atlanta player-game impacts and review only minutes beyond each displaced-player base before standings/lottery."]];
+draft.getRange("A14").values = [["FINAL BLOCKER: Atlanta's 82-game donor vector is balanced. Name the 183.1-minute reserve receivers, then execute preregistered impacts before standings/lottery."]];
 draft.getRange("A14").format.fill = paleRed;
 draft.getRange("A14").format.font = { bold: true, color: "#B42318" };
 draft.getRange("A14").format.wrapText = true;
@@ -587,19 +727,19 @@ header(gates.getRange("A4:F4"));
 const gateRows = [
   ["G0","Changed-pick contract and direct-game baselines","Spurs 145.4 min; Dallas 1 min; Denver 36 min; ATL series all 0","PASS","None","Preserve team-specific caps and triggers"],
   ["G1","82 unique + 29-53 + score/OT checksum","82 rows; 29-53; 9,294 pts; 19,855 game-min","PASS","None","Preserve immutable baseline"],
-  ["G2","Rotation/assignment/impact priors before results","Only season range locked","HOLD","CF execution","Build date-specific availability"],
-  ["G3","Every game minute-conserved; no NBA/Erie collision","Season cap proven; player-game not built","HOLD","CF execution","Create player-game donor vectors"],
-  ["G4","All 82 games contact classified","82/82 ROSTER","PASS","None","Upgrade DIRECT/CASCADE as needed"],
+  ["G2","Rotation/assignment/impact priors before results","≥7 donor gate; 16 cap; Nov. 19 cost; Dec. 7-22 Erie","PASS","None","Preserve before outcome model"],
+  ["G3","Every game minute-conserved; no NBA/Erie collision","621.9 protagonist + 183.1 remainder = 805.0; Erie dates NBA 0","PASS_WITH_BRIDGE","Named box scores","Resolve ATL remainder recipients"],
+  ["G4","All 82 games contact classified","43 DIRECT / 39 ROSTER","PASS","None","Upgrade CASCADE only with evidence"],
   ["G5","Pregame-only pB; fixed latent u; no manual flip","Method selected; inputs absent","HOLD","CF result","Calibrate and preregister"],
   ["G6","Chronological injury/fatigue/trade updates","Not executed","HOLD","CF result","Process in date order"],
   ["G7","No exact score invention; sensitivity isolated","No CF scores/results created","PASS","None","Keep results HOLD until model"],
   ["G8","Opponent W/L + league standings/tiebreaker","Not executed","HOLD","2019 lottery","Build league bridge"],
-  ["G9","Raw baseline immutable; run/model/seed logged","Workbook baseline created","PARTIAL","Reproduction","Add run manifest after preregistration"],
+  ["G9","Raw baseline immutable; run/model/seed logged","Baseline + date-level allocation rule recorded","PARTIAL","Reproduction","Add outcome-model run manifest"],
 ];
 gates.getRange("A5:F14").values = gateRows;
 body(gates.getRange("A5:F14"));
 gates.getRange("D5:D14").format.fill = paleYellow;
-gates.getRange("A16:F16").values = [["OVERALL","CASCADE_CONTRACT_PASS / OUTCOME_HOLD",null,null,null,"Atlanta player-game and above-baseline competitive stints remain"]];
+gates.getRange("A16:F16").values = [["OVERALL","ATL_DONOR_VECTOR_PASS / OUTCOME_HOLD",null,null,null,"Name 183.1-minute ATL remainder recipients before player box-score execution"]];
 section(gates.getRange("A16:F16"));
 gates.getRange("A:F").format.columnWidth = 20;
 gates.getRange("B:B").format.columnWidth = 34;
@@ -629,7 +769,7 @@ await blob.save(outputPath);
 
 await fs.rm(previewDir, { recursive: true, force: true });
 await fs.mkdir(previewDir, { recursive: true });
-for (const sheetName of ["README","Game Ledger","Season Minutes","2018 Draft Board","Spurs Impact","Cascade Impact","Draft Bridge","Gate Audit","Sources"]) {
+for (const sheetName of ["README","Game Ledger","ATL Assignment","Season Minutes","2018 Draft Board","Spurs Impact","Cascade Impact","Draft Bridge","Gate Audit","Sources"]) {
   const image = await wb.render({ sheetName, autoCrop: "all", scale: 1, format: "png" });
   const bytes = new Uint8Array(await image.arrayBuffer());
   await fs.writeFile(path.join(previewDir, `${sheetName.replaceAll(" ", "_")}.png`), bytes);

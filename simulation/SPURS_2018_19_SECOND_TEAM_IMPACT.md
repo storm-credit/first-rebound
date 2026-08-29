@@ -46,7 +46,7 @@ Metu는 투웨이 선수가 아니었다. 2018년 9월 4일 Spurs와 다년 NBA 
 | 2019-03-06 | Atlanta | Spurs 111-104 | DNP-CD, 0분 | `NO_DIRECT_MINUTES` |
 | 2019-04-02 | San Antonio | Spurs 117-111 | 0분 | `NO_DIRECT_MINUTES` |
 
-두 경기 모두 Spurs의 실제 49번 슬롯이 코트에 들어오지 않았다. 따라서 Spellman 이동만으로 이 두 결과를 뒤집지 않는다. 주인공이 Atlanta 쪽에서 출전해 만드는 영향은 별도 player-game 원장에서 계산해야 하므로 결과 자체는 아직 `HOLD`다.
+두 경기 모두 Spurs의 실제 49번 슬롯이 코트에 들어오지 않았다. 따라서 Spellman 이동만으로 이 두 결과를 뒤집지 않는다. 주인공의 Atlanta 쪽 분은 v0.23 donor vector에 포함됐지만 개인 성과·경기 영향은 아직 `HOLD`다.
 
 ## 드래프트·승수 방화벽
 

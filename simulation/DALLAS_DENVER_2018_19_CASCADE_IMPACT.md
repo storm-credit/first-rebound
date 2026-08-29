@@ -69,7 +69,7 @@ PROVISIONAL_ROLE_PRESERVED
 | Denver | 2018-11-15 | Denver 138-93 Atlanta | Welsh 0분 | `NO_DIRECT_MINUTES` |
 | Denver | 2018-12-08 | Denver 98-106 Atlanta | Welsh 0분 | `NO_DIRECT_MINUTES` |
 
-네 경기 모두 Dallas·Denver 쪽 실제 대체 슬롯이 0분이었다. 따라서 Metu·Spalding 이동만으로 결과를 바꾸지 않는다. 주인공의 Atlanta 쪽 분과 영향은 별도 player-game 원장에서 계산하므로 경기 결과 자체는 계속 `HOLD`다.
+네 경기 모두 Dallas·Denver 쪽 실제 대체 슬롯이 0분이었다. 따라서 Metu·Spalding 이동만으로 결과를 바꾸지 않는다. 주인공의 Atlanta 쪽 분은 v0.23 donor vector에 포함됐지만 개인 성과·경기 영향은 아직 `HOLD`다.
 
 ## 방화벽
 

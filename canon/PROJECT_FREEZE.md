@@ -416,3 +416,26 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Welsh의 미지명 뒤 새 계약 팀·리그·시점
 - Atlanta 주인공의 Dallas·Denver 직접 대결 4경기 출전 여부·분·경기 영향
 - Atlanta player-game·상대팀 승패·2019 standings·lottery
+
+## v0.23 LOCKED ADDITIONS — Atlanta 날짜별 donor vector
+
+- 실제 Omari Spellman의 2018-19 Atlanta 46경기 날짜와 공개 경기별 분 합계 805.0분을 1차 donor vector로 잠근다.
+- 주인공의 결과 비의존 출전 규칙은 `Spellman donor ≥7.0분`, 경기당 `MIN(16.0, donor)`다.
+- 이 규칙의 44경기·636.0분에서 2018년 11월 19일 예정 14.1분을 자기관리 실패의 직접 비용으로 뺀다.
+- 주인공 NBA 신인 기준선은 **43경기·621.9분·14.46 MPG·0선발**이다.
+- 2018년 11월 19일은 다구간 원정 뒤 첫 홈 경기의 아침 영상·컨디셔닝 일정에 늦어 로테이션 기회를 잃는 날짜다. 실제 승패·점수차는 선택 근거가 아니다.
+- Erie 개발 assignment는 **2018년 12월 7일부터 22일까지**이며 실제 Erie 일정 6경기를 사용한다. 같은 날짜 Atlanta NBA 분은 모두 0이다.
+- Erie의 6경기·24~30 MPG 범위는 잠그되 정확한 G League 개인 박스스코어는 `HOLD`다.
+- 이 배정은 11월 19일 지각의 직접 징계가 아니라 별도의 개발 권한 결정이다. Spellman의 실제 오른쪽 엉덩이·발목 부상은 주인공에게 복사하지 않는다.
+- Atlanta의 805.0분은 주인공 621.9분과 `ATL_REMAINDER_POOL` 183.1분으로 날짜별 보존한다.
+- `ATL_REMAINDER_POOL`은 가상 선수가 아닌 감사용 회계 브리지다. 동일 날짜 실제 가용 수취자를 확정하기 전 개인 박스스코어·경기 영향·승패를 만들지 않는다.
+- 접촉 분류는 `DIRECT 43 / ROSTER 39 / IDENTICAL 0`이다.
+- 현재 판정은 `ATL_DONOR_VECTOR_PASS / OUTCOME_HOLD`다. 상세 권위는 `simulation/ATLANTA_2018_19_PLAYER_GAME_DONOR_VECTOR.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.23 RESEARCH_HOLD
+
+- `ATL_REMAINDER_POOL` 183.1분의 동일 날짜 실명 수취자
+- 주인공과 수취자의 경기별 득점·리바운드·슈팅·온오프
+- 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
+- 대체 승패·상대팀 승패·전체 standings·2019 lottery
+- Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
