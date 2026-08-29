@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R09 Atlanta player production and game-impact prior preregistration`
 - 최근 설계 변경: `Atlanta 183.1-minute reserve pool assigned to four named same-date receivers with zero balance`
-- 최근 병합: `PR #40 / d66313d`
+- 최근 병합: `PR #42 / 2488205`
 
 ## 완료
 
