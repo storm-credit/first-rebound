@@ -116,7 +116,7 @@
 - 82경기·실제 29승 53패·9,294득점·연장 포함 19,855 선수분 기준선은 `PASS`다.
 - 주인공의 1차 출전시간 상한은 실제 30순위 Omari Spellman의 805분이다.
 - 주인공이 결장해도 Spellman 부재가 남으므로 82경기 모두 최소 `ROSTER` 접촉이다.
-- Atlanta 주인공의 경기별 분·가용성은 v0.23에서 잠겼다. 183.1분 실명 수취자·개인 성과·피로·대체 승패는 `HOLD`다.
+- Atlanta 주인공의 경기별 분·가용성은 v0.23에서, 183.1분 실명 수취자는 v0.24에서 잠겼다. 개인 성과·피로·대체 승패는 `HOLD`다.
 - 2018 Draft 30~60 전수 스캔 결과는 27개 유지, 4개 변경이다. Spellman은 San Antonio 49번, 밀려난 Metu는 Dallas 56번, Spalding은 Denver 58번으로 이동한다.
 - Thomas Welsh의 미지명 뒤 Denver 투웨이 역할 보존안은 슬롯 중복으로 폐기한다. Spalding과 Akoon-Purcell이 두 자리를 차지하므로 Welsh는 `UNDRAFTED_FREE_AGENT_MARKET_HOLD`다.
 - Dallas의 Metu는 실제 Spalding 표준 계약·Texas 슬롯, Denver의 Spalding은 실제 Welsh 투웨이·G League 슬롯을 BASE로 사용한다.

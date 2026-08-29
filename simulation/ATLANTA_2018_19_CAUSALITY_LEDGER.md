@@ -1,6 +1,6 @@
-# Atlanta 2018-19 Causality Ledger v0.4
+# Atlanta 2018-19 Causality Ledger v0.5
 
-- 상태: `ATL_DONOR_VECTOR_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`
+- 상태: `ATL_RECEIVER_ALLOCATION_PASS / COUNTERFACTUAL_PRODUCTION_OUTCOMES_HOLD`
 - 정본성: `PROVISIONAL`
 - 원고 게이트: `CLOSED`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -33,7 +33,9 @@ Atlanta의 실제 2018-19 정규시즌 82경기를 시간순으로 원장화했�
 
 경기별 가용성은 `Spellman donor ≥7.0분 → MIN(16.0, donor)` 규칙으로 잠갔다. 2018년 11월 19일은 밤샘 게임 뒤 아침 일정 지각으로 예정된 14.1분을 잃는다. 결과를 보지 않고 적용한 뒤 43경기·621.9분이 된다.
 
-1차 donor는 Spellman 한 명이다. 805.0분은 주인공 621.9분과 `ATL_REMAINDER_POOL` 183.1분으로 날짜별 완전 분할한다. 회계 브리지는 가상 선수가 아니며, Justin Anderson·Alex Poythress·B.J. Johnson 등 실명 수취자는 같은 날짜 가용성 증거가 있을 때만 배정한다. Trae Young·Kevin Huerter·John Collins의 핵심 육성 분은 보호한다.
+1차 donor는 Spellman 한 명이다. 805.0분은 주인공 621.9분과 동일 날짜 실명 수취자 183.1분으로 완전 분할한다. 수취자는 Justin Anderson 105.6분, Alex Poythress 48.6분, Miles Plumlee 17.5분, Daniel Hamilton 11.4분이다. `ATL_REMAINDER_POOL`의 미해결 잔액은 0.0분이며, Trae Young·Kevin Huerter·John Collins의 핵심 육성 분은 보호한다.
+
+수취자는 실제 같은 날짜 ESPN Atlanta 박스스코어에 `PLAY/DNP-CD`로 등재된 경우만 허용한다. Anderson 복귀 전후의 우선순위와 각 선수의 실제 시즌 단일 경기 최고분 상한을 결과 전에 고정했다. 상세 권위는 `simulation/ATLANTA_2018_19_RESERVE_RECEIVER_ALLOCATION.md`다.
 
 Spellman의 실제 11선발, 3월 1일 발목 부상, 시즌 종료 결장은 주인공에게 자동 복사하지 않는다.
 
@@ -92,14 +94,14 @@ Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 �
 7. Dallas pick의 top-5 보호·양도 여부를 판정한다.
 8. 그 뒤에만 Atlanta의 지명·거래 보드를 다시 연다.
 
-따라서 현재 판정은 `ATL_DONOR_VECTOR_PASS / COUNTERFACTUAL_OUTCOMES_HOLD`다. Atlanta 날짜별 주인공 분은 닫혔지만 183.1분의 실명 수취자·개인 성과·승패·상대팀 기록 전에는 시즌 결과를 선언하지 않는다.
+따라서 현재 판정은 `ATL_RECEIVER_ALLOCATION_PASS / COUNTERFACTUAL_PRODUCTION_OUTCOMES_HOLD`다. Atlanta 날짜별 주인공 분과 183.1분의 실명 수취자는 닫혔지만 개인 성과·피로·승패·상대팀 기록 전에는 시즌 결과를 선언하지 않는다.
 
 ## Atlanta player-game 실행 기준선
 
 - 주인공: 43경기·621.9분·14.46 MPG·0선발
 - 자기관리 비용: 2018-11-19 Clippers전 예정 14.1분 → 0분
 - Erie: 2018-12-07~22, 실제 일정 6경기, NBA 동일 날짜 출전 0
-- Atlanta remainder: 183.1분, 실명 수취자 `HOLD`
+- Atlanta named receivers: 183.1분, 29개 날짜·4명·미배정 0
 - 상세 권위: `simulation/ATLANTA_2018_19_PLAYER_GAME_DONOR_VECTOR.md`
 
 ## Spurs 두 번째 팀 기준선
@@ -135,3 +137,5 @@ Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 �
 - [HoopsStats — Omari Spellman 2018-19 game log](https://www.hoopsstats.com/basketball/fantasy/nba/atlanta-hawks/players/omari-spellman/gamelog/19/1/16)
 - [RealGM — Omari Spellman profile](https://basketball.realgm.com/player/Omari-Spellman/Summary/74078)
 - [Basketball-Reference — Erie 2018-19 schedule](https://www.basketball-reference.com/gleague/schedules/HAW/2019.html)
+- [ESPN — Atlanta 2018-19 schedule and box scores](https://www.espn.com/nba/team/schedule/_/name/atl/season/2019)
+- [Atlanta Hawks — Justin Anderson 2018-19 review](https://www.nba.com/hawks/features/five-things-know-about-justin-andersons-2018-19-season)

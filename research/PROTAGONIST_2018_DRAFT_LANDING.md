@@ -66,7 +66,7 @@ Brooklyn 29순위는 Long Island 개발 환경은 강하지만 Musa·Kurucs와 �
 | Erie G League | 2018-12-07~22, 6경기·평균 24~30분 안전선 | 코너 슛 준비·클로즈아웃 공격·세컨드 액션의 많은 반복 | 시즌 대부분 체류, 투웨이 선수 취급 |
 | 2019-20 College Park | 필요할 때만 짧은 배정 후보 | Atlanta와 가까운 개발 연속성 | 2년차도 자동 장기 G League 체류 |
 
-NBA 경기·선발·분은 v0.23 donor vector로 잠겼다. 득점·리바운드·슈팅·팀 승패와 Erie 정확 개인 박스스코어는 `HOLD`다.
+NBA 경기·선발·주인공 분은 v0.23 donor vector로, reserve receiver 183.1분은 v0.24로 잠겼다. 득점·리바운드·슈팅·팀 승패와 Erie 정확 개인 박스스코어는 `HOLD`다.
 
 ## 6. G League가 느려지지 않는 통제
 

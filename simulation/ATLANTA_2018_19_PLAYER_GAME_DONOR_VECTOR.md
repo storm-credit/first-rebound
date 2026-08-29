@@ -1,6 +1,6 @@
-# Atlanta 2018-19 Player-Game Donor Vector v0.1
+# Atlanta 2018-19 Player-Game Donor Vector v0.2
 
-- 상태: `ATL_DONOR_VECTOR_PASS / OUTCOME_HOLD`
+- 상태: `ATL_RECEIVER_ALLOCATION_PASS / PRODUCTION_OUTCOME_HOLD`
 - 정본성: `PROVISIONAL_LOCK`
 - 원고 게이트: `CLOSED`
 - 계산 권위: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -23,10 +23,10 @@
 |---|---:|---|
 | 실제 Spellman donor | 805.0 | Atlanta에서 사라진 1차 슬롯 |
 | 주인공 | 621.9 | 날짜별 `DIRECT` 출전 |
-| `ATL_REMAINDER_POOL` | 183.1 | 아직 이름을 붙이지 않은 동일 날짜 Atlanta 수취 분 |
+| 실명 reserve receivers | 183.1 | Anderson 105.6·Poythress 48.6·Plumlee 17.5·Hamilton 11.4 |
 | 차이 | 0.0 | 82경기 전부 분 보존 |
 
-`ATL_REMAINDER_POOL`은 가상 선수가 아니라 감사용 회계 브리지다. Justin Anderson·Alex Poythress·B.J. Johnson 등 실제 수취자를 날짜별로 확정하기 전까지 개인 박스스코어를 만들지 않는다. Young·Huerter·Collins의 실제 육성 분은 보호한다.
+`ATL_REMAINDER_POOL`은 v0.23의 감사용 회계 브리지였으며 v0.24에서 미해결 잔액 0.0분으로 닫혔다. 수취자는 동일 날짜 박스스코어 등재와 실제 단일 경기 최고분 상한을 적용한다. Young·Huerter·Collins의 실제 육성 분은 보호한다. 상세 배정은 `simulation/ATLANTA_2018_19_RESERVE_RECEIVER_ALLOCATION.md`가 권위다.
 
 접촉 분류는 `DIRECT 43 / ROSTER 39`다. `ROSTER` 경기에도 Spellman 부재와 잔여분 재배분이 있으므로 `IDENTICAL`은 없다.
 
@@ -64,12 +64,11 @@
 ## 아직 열지 않는 것
 
 - 주인공의 경기별 득점·리바운드·슈팅·온오프
-- `ATL_REMAINDER_POOL` 183.1분의 실명 수취자
 - 경기 전 승률과 영향 prior
 - 대체 승패·상대팀 기록·전체 순위
 - 2019 로터리·Dallas 보호픽·대안 드래프트
 
-다음 단계는 183.1분을 동일 날짜 실제 가용 포워드에게 배분하는 것이다. 그 검산이 끝난 뒤에만 사전등록된 경기 영향 모델을 실행한다.
+다음 단계는 주인공과 네 수취자의 생산성·피로·경기 영향 prior를 결과 전에 사전등록하는 것이다. 그 검산이 끝난 뒤에만 고정 hash 경기 영향 모델을 실행한다.
 
 ## 출처
 
@@ -78,3 +77,4 @@
 - [Peachtree Hoops — Spellman Erie assignment context](https://www.peachtreehoops.com/2018/12/30/18161520/omari-spellman-alex-poythress-atlanta-hawks-g-league-erie-bayhawks-assignment-transfer-roster)
 - [Basketball-Reference — Erie 2018-19 schedule](https://www.basketball-reference.com/gleague/schedules/HAW/2019.html)
 - [Atlanta Hawks — Spellman ankle injury update](https://www.nba.com/hawks/news/omari-spellman-injury-update)
+- [ESPN — Atlanta 2018-19 schedule and box scores](https://www.espn.com/nba/team/schedule/_/name/atl/season/2019)

@@ -10,8 +10,8 @@
 |---|---|---|
 | G0 Spellman 새 팀 기준선 | PASS | Spurs 49번, BASE 29경기·145.4분, Atlanta전 0분 |
 | G1 82경기 기준선 | PASS | 82경기·29-53·9,294득점·연장분 재현 |
-| G2 사전등록 | HOLD | 시즌 범위만 잠겼고 날짜별 출전·assignment 미확정 |
-| G3 분 보존 | PASS_WITH_BRIDGE | v0.23에서 621.9분+183.1분 날짜별 보존; 실명 수취자 HOLD |
+| G2 사전등록 | PASS | v0.23 날짜별 주인공 분·assignment, v0.24 실명 수취자 분 잠금 |
+| G3 분 보존 | PASS | 621.9분+실명 수취자 183.1분=805.0분; 미배정 0 |
 | G4 접촉 범위 | PASS | 82경기 전부 최소 ROSTER |
 | G5 승패 모델 | HOLD | 방법은 선택했으나 pB·영향 prior·game hash 실행 전 |
 | G6 시간순 파급 | HOLD | 피로·부상·거래·휴식 순차 실행 전 |
@@ -43,8 +43,8 @@
 
 ## 다음 실행
 
-1. Atlanta 경기별 availability와 주인공 donor vector를 만든다.
+1. Atlanta 경기별 availability·주인공 donor vector·실명 수취자 vector는 v0.24까지 완료했다.
 2. Dallas 1분·Denver 36분·Spurs 145.4분을 넘는 경우만 해당 팀 player-game을 연다.
 3. Spellman이 145.4분을 넘을 때만 Spurs 날짜별 donor와 경쟁 구간을 연다.
-4. Atlanta 영향 prior를 만들고 직접 대결 두 경기를 포함해 시간순으로 실행한다.
+4. Atlanta 생산성·피로·영향 prior를 사전등록하고 직접 대결 두 경기를 포함해 시간순으로 실행한다.
 5. 그 뒤에만 승패·상대팀 기록·2019 lottery를 실행한다.
