@@ -7,10 +7,10 @@
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.18 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.19 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `R09 Atlanta 2018-19 game-to-draft causality execution`
-- 최근 설계 변경: `changed wins must propagate through standings/lottery/protected picks/draft board`
+- 최근 설계 변경: `Atlanta 82-game baseline passes; counterfactual outcomes remain held until player-game and Spellman second-team impact`
 - 최근 병합: `PR #34 / 8de4586`
 
 ## 완료
@@ -71,6 +71,10 @@
 - [x] 로터리 입력 변경 시 공개 고정 seed 재추첨·결과 후 재선택 금지 LOCK
 - [x] 2018 Draft 1~29 선행 사건 유지·30~60 재판정 경계 LOCK
 - [x] 라이벌의 2020 `1순위급 평가`와 실제 지명 순번 분리 LOCK
+- [x] Atlanta 2018-19 실제 82경기·29승 53패·9,294득점·연장 포함 19,855분 기준선 PASS
+- [x] 주인공 신인 분의 Spellman 805분 1차 상한과 Young·Huerter·Collins 보호 LOCK
+- [x] 주인공 DNP/Erie도 Spellman 부재 때문에 최소 ROSTER 접촉이라는 82경기 분류 LOCK
+- [x] Atlanta 단독 원장으로 2019 standings·lottery FINAL 금지 게이트 LOCK
 
 ## 현재 결정 대기
 
@@ -84,7 +88,8 @@
 - [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
-- [ ] Atlanta 2018-19 총분·승패·개인 기록과 Spellman 후속 지명 — R09 HOLD
+- [ ] Atlanta 경기별 player-game 분·주인공 donor vector·대체 승패 — R09 HOLD
+- [ ] 2018 Draft 30~60과 Spellman 후속 팀·그 팀의 2018-19 파급 — R09 HOLD
 - [ ] 2023 두 선수의 NBA 소속팀·구단 허가·보험·캠프 결장 일정 — R09 HOLD
 - [ ] 2023 대표팀 최종 12인·전 경기·대진·메달 결과·예술체육요원 편입 — R09 HOLD
 - [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R09 HOLD
@@ -127,6 +132,6 @@
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았다. 다음은 R09 실행 1단계로 Atlanta 2018-19의 실제 82경기·선수 총분을 원장화하고 접촉 경기 승패를 재계산한다. 그 승수에서 2019 순위·로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 2018-19 실제 82경기 기준선도 검산했다. 다음은 R09 실행 2단계로 2018 Draft 30~60에서 Spellman의 새 팀을 먼저 확정하고, Atlanta의 경기별 player-game 분·가용성·주인공 donor vector를 만든다. 두 팀 파급이 닫힌 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

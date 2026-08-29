@@ -335,3 +335,24 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2019 로터리 시드·확률·Dallas 보호픽·대안 보드
 - 2019-20 NBA 승수·2020 로터리·라이벌 실제 지명 팀과 순번
 - 로터리 공식 조합 배분을 구현한 재현 가능한 R09 실행 코드와 로그
+
+## v0.19 LOCKED ADDITIONS — Atlanta 2018-19 인과 기준선
+
+- Atlanta의 실제 2018-19 정규시즌 82경기·29승 53패·9,294득점을 R09 불변 기준선으로 잠근다. 이는 대체 세계 결과가 아니라 비교 출발점이다.
+- 실제 연장 횟수로 계산한 경기 총 선수분은 19,855분이다. 공개 로스터 정수 분 합계 19,853분과의 2분 차이는 반올림 감사차이며 새 분으로 사용하지 않는다.
+- 주인공의 NBA 신인 안전선은 42~46경기·14~16분·588~736분으로 좁힌다. 정확 기록은 아니다.
+- 1차 출전시간 donor는 실제 30순위 Omari Spellman의 805분이다. Young·Huerter·Collins의 핵심 육성 분은 우선 보호한다.
+- 주인공이 DNP 또는 Erie여도 Spellman 부재가 남으므로 해당 Atlanta 경기를 자동 비접촉으로 두지 않는다. 82경기 모두 최소 `ROSTER` 접촉이다.
+- 대체 승패·점수는 아직 만들지 않는다. 실제 결과를 보고 접전만 뒤집거나 영향 계수를 맞추는 행위를 금지한다.
+- Atlanta 단독 승수로 2019 로터리를 확정하지 않는다. 2018 Draft 30~60에서 Spellman의 새 팀과 그 팀 승패 파급까지 닫혀야 `FINAL`이 가능하다.
+- 2018 Draft 30~60은 모든 픽을 원장상 확인하되 실제 선택 유지 픽은 짧게 통과하고 `CHANGED/CASCADE`만 심층 비교한다. 대형 드래프트를 같은 깊이로 과설계하지 않는다.
+- 현재 판정은 `BASELINE_PASS / COUNTERFACTUAL_HOLD`다. 상세 권위는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md`와 `.xlsx`다.
+
+## v0.19 RESEARCH_HOLD
+
+- Atlanta 경기별 선수 가용성·실제 player-game 분·주인공 donor vector
+- 주인공 자기관리 실패·잃는 로테이션 경기·Erie assignment 날짜
+- 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
+- 2018 Draft 30~60 대안 보드와 Spellman 새 팀·계약·2018-19 파급
+- 상대팀 승패·타이브레이커·2019 비플레이오프 14팀과 lottery
+- Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
