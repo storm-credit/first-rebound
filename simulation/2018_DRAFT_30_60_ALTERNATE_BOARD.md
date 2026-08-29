@@ -1,6 +1,6 @@
 # 2018 Draft Picks 30-60 Alternate Board v1.0
 
-- 상태: `SECOND_TEAM_BASELINE_PASS / GAME_OUTCOMES_HOLD`
+- 상태: `CASCADE_CONTRACT_PASS / GAME_OUTCOMES_HOLD`
 - 범위: 주인공의 Atlanta 30순위 지명 이후 30~60순위
 - 원고 게이트: `CLOSED`
 - 계산 권위: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`의 `2018 Draft Board`
@@ -13,8 +13,8 @@
 |---:|---|---|---|---|
 | 30 | Atlanta — Omari Spellman | Atlanta — 주인공 | CHANGED | Atlanta 로스터·분·82경기 |
 | 49 | San Antonio — Chimezie Metu | San Antonio — Omari Spellman | CHANGED | Spurs 2018-19 분·경기 |
-| 56 | Dallas — Ray Spalding | Dallas — Chimezie Metu | CASCADE | Dallas 계약·분 |
-| 58 | Denver — Thomas Welsh | Denver — Ray Spalding | CASCADE | Denver 계약·투웨이 슬롯 |
+| 56 | Dallas — Ray Spalding | Dallas — Chimezie Metu | CASCADE | Dallas 표준 계약·Texas 슬롯 PASS |
+| 58 | Denver — Thomas Welsh | Denver — Ray Spalding | CASCADE | Denver Welsh 투웨이 슬롯 PASS |
 
 나머지 27개 픽은 `UNCHANGED`다. 한 명이 밀렸다는 이유로 31번부터 전원을 한 칸씩 미루지 않는다.
 
@@ -45,9 +45,20 @@ Metu는 실제 49번 선수다. Spellman에게 자리를 내줘도 운동능력�
 
 Spalding은 동시대 NBA 빅맨 보드에서 지명 가능한 2라운드 그룹에 있었고 Thomas Welsh는 그 아래 `in the mix` 그룹이었다. Denver의 개발형 빅 슬롯은 유지하되 58번에서 Spalding이 Welsh를 앞선다.
 
-### Thomas Welsh — 미지명 후 역할 보존 후보
+### Thomas Welsh — 미지명 자유계약 시장 HOLD
 
-Welsh는 실제로 Denver와 투웨이 계약을 맺었다. 대체 세계에서도 미지명 자유계약으로 Denver 투웨이 후보가 되는 것이 가장 작은 변화다. 다만 Denver가 Spalding을 지명한 뒤 같은 투웨이 슬롯과 계약 구조가 그대로 성립하는지는 아직 검산하지 않았으므로 `PROVISIONAL_ROLE_PRESERVED`다.
+실제 Denver의 2018-19 투웨이 두 자리는 Welsh와 DeVaughn Akoon-Purcell이 차지했다. 대체 세계에서는 Spalding이 Welsh의 자리를 대체하고 Akoon-Purcell이 나머지 자리를 유지한다. 따라서 Welsh에게 같은 Denver 투웨이 슬롯을 다시 주는 `PROVISIONAL_ROLE_PRESERVED`는 폐기한다.
+
+Welsh는 삭제하지 않고 `UNDRAFTED_FREE_AGENT_MARKET_HOLD`로 이동한다. 당시 관심 근거 없이 새 NBA 팀·캠프·G League 권리를 만들지 않는다.
+
+## Dallas·Denver 계약층 판정
+
+- Dallas Metu BASE: 실제 Spalding의 표준 NBA 계약, NBA 1경기·1분, Texas 29경기
+- Denver Spalding BASE: 실제 Welsh의 투웨이 계약, NBA 11경기·36분, G League 20경기
+- Dallas 1분·Denver 36분 초과 시 날짜별 donor와 경쟁 구간 재검토
+- Dallas 2019년 1월 31일 방출 선택은 `HOLD`
+- Atlanta 직접 대결 네 경기에서 실제 Spalding/Welsh 분은 모두 0
+- 상세 권위: `simulation/DALLAS_DENVER_2018_19_CASCADE_IMPACT.md`
 
 ## 승수 파급 안전선
 
@@ -69,15 +80,16 @@ Spellman이 들어가는 자리는 실제 Metu의 신인 슬롯이다. Metu의 2
 - 직접 변경: 2픽
 - 연쇄 변경: 2픽
 - 심층 추적 팀: Atlanta·San Antonio·Dallas·Denver
-- 승수 재계산이 즉시 필요한 두 번째 팀: San Antonio
+- 계약층 통과 팀: San Antonio·Dallas·Denver
+- 승수 재계산이 즉시 필요한 두 번째 팀: 0
 
-Dallas의 56번과 Denver의 58번은 우선 계약·로스터 분 원장만 연다. 정규시즌 핵심 로테이션을 실제로 침범했다는 증거가 나오기 전에는 전 경기 승수 모델로 확장하지 않는다.
+Dallas의 56번과 Denver의 58번은 계약·로스터 원장을 통과했다. 팀별 BASE를 넘기 전에는 전 경기 승수 모델로 확장하지 않는다.
 
 ## 다음 게이트
 
-1. Dallas의 Metu, Denver의 Spalding·Welsh가 실제 정규시즌 분을 바꾸는지 계약층에서 검사한다.
-2. Atlanta 주인공의 날짜별 가용성·donor vector를 만든다.
-3. Spellman이 BASE 145.4분을 넘을 경우에만 날짜별 Spurs 공여자와 경쟁 구간을 연다.
+1. Atlanta 주인공의 날짜별 가용성·donor vector를 만든다.
+2. Spellman이 BASE 145.4분을 넘거나 Metu·Spalding이 각 팀 BASE를 넘을 때만 날짜별 공여자와 경쟁 구간을 연다.
+3. Welsh가 새 NBA 계약을 얻으면 해당 팀 파급을 새로 연다.
 4. 그 뒤에만 Atlanta·상대팀 승패와 2019 순위·로터리를 계산한다.
 
 ## 출처
@@ -91,5 +103,10 @@ Dallas의 56번과 Denver의 58번은 우선 계약·로스터 분 원장만 연
 - [Brooklyn Nets — Rodions Kurucs scouting history](https://www.nba.com/nets/news/feature/2018/12/28/brooklyn-nets-rookie-rodions-kurucs-had-a-breakout-month-in-december)
 - [NBA — 2018 big-man board](https://www.nba.com/da-big-board-bigs-2018-draft)
 - [Denver Nuggets — Thomas Welsh two-way contract](https://www.nba.com/nuggets/news/thomas-welsh-signs-two-way-contract-071918)
+- [Dallas Mavericks — Ray Spalding signing](https://www.nba.com/mavs/mavericks-sign-forward-ray-spalding)
+- [Dallas Mavericks — Porziņģis trade and Spalding waiver](https://www.nba.com/mavs/mavericks-acquire-all-star-kristaps-porzingis-tim-hardaway-jr-courtney-lee-and-trey-burke-in-trade-with-knicks)
+- [NBA G League — Ray Spalding](https://gleague.nba.com/player/1629034/ray-spalding)
+- [Denver Nuggets — Welsh and Akoon-Purcell two-way preview](https://www.nba.com/nuggets/news/1819-player-previews-akoon-purcell-welsh-091918)
+- [NBA G League — 2018 two-way roster rule](https://windycity.gleague.nba.com/news/bulls-sign-brandon-sampson-to-two-way-contract)
 - [Basketball-Reference — Chimezie Metu](https://www.basketball-reference.com/players/m/metuch01.html)
 - [Pounding the Rock — Chimezie Metu rookie-season review](https://www.poundingtherock.com/2019/5/4/18523491/2018-2019-spurs-player-reviews-chimezie-metu)
