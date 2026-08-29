@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R09 Atlanta 183.1-minute named reserve receiver allocation`
 - 최근 설계 변경: `Atlanta rookie 43G/621.9 MIN donor vector, Nov. 19 missed opportunity, and Dec. 7-22 Erie window locked`
-- 최근 병합: `PR #38 / 53442f8`
+- 최근 병합: `PR #40 / d66313d`
 
 ## 완료
 
