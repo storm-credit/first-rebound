@@ -60,7 +60,8 @@
 | 라이벌 NCAA 대학 4안·Gonzaga 역할·관계·경기 예산 | `research/RIVAL_NCAA_SCHOOL_SELECTION.md` | 장학금 counter·정확 기록은 R09 HOLD |
 | 라이벌 대학 범위 중단 | `control/RIVAL_COLLEGE_SCOPE_GATE.md` | `RIVAL_COLLEGE_SCOPE_COMPLETE` |
 | 라이벌 Gonzaga 선택 맹점 검토 | `reviews/R02_3J_RIVAL_GONZAGA_REVIEW.md` | R16 독립 검수 대체 아님 |
-| 주인공 2018 Draft 4안·Atlanta 30순위·루키 역할 | `research/PROTAGONIST_2018_DRAFT_LANDING.md` | 계약 세부·총분·승패·Spellman 파급은 R09 HOLD |
+| 주인공 2018 Draft 4안·Atlanta 30순위·루키 역할 | `research/PROTAGONIST_2018_DRAFT_LANDING.md` | Spellman→Spurs 49번·BASE 145.4분 PASS, Atlanta 총분·승패는 R09 HOLD |
+| Spellman Spurs 두 번째 팀 역할 기준선 | `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md` | NBA/Austin 계층·안전선 PASS, competitive stint·승패 HOLD |
 | 첫 NBA 착지 범위 중단 | `control/NBA_LANDING_SCOPE_GATE.md` | `NBA_LANDING_SCOPE_COMPLETE` |
 | Atlanta 착지 맹점 검토 | `reviews/R02_3K_PROTAGONIST_ATLANTA_REVIEW.md` | R16 독립 검수 대체 아님 |
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |

@@ -1,4 +1,4 @@
-# Project Freeze v0.16
+# Project Freeze v0.18
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -69,8 +69,8 @@ NBA 파이널 7차전 마지막 국면에서 주인공은 수비에 성공하고
 ## v0.3 UNDER REVIEW
 
 - 정확한 출생월·학년·재분류·NCAA 체류 기간
-- 라이벌의 당시 프렙 학교·대학명 검토는 v0.13에서 프렙 폐기, v0.14에서 Gonzaga 선택으로 대체. 현행 HOLD는 2020년 1순위 보유 팀
-- 2018 아시안게임 결과 변경 여부와 병역 경로
+- 라이벌의 당시 프렙 학교·대학명 검토는 v0.13에서 프렙 폐기, v0.14에서 Gonzaga 선택으로 대체. 현행 HOLD는 2020년 실제 지명 팀·순번
+- 2018 아시안게임은 v0.17에서 양 선수 불참·실제 동메달 유지로 해소. 2023 공동 도전 결과는 R09 HOLD
 - 첫 NBA 팀은 v0.15에서 Atlanta로 해소. 파이널 시즌은 계속 `HOLD`
 
 ## v0.4 LOCKED ADDITIONS
@@ -100,7 +100,7 @@ NBA 파이널 7차전 마지막 국면에서 주인공은 수비에 성공하고
 - 1999년생 주인공의 정확한 생일과 2018 Draft 연령 계산
 - 2017 미국 고교 졸업·한국 학점 이전·2017-18 NCAA 역사 자격
 - 같은 고교와 미국 프렙의 실명·입학·비자·학사 조건
-- 2018 Summer League·아시안게임·NBA 캠프 일정 충돌
+- 2018 Summer League·대표팀 일정 충돌은 v0.17에서 주인공 불참으로 해소. 2023 NBA 캠프 충돌은 R09 HOLD
 - 2019 코비 훈련의 실제 접근 경로와 날짜
 
 상세 연표 권위는 `canon/CAREER_TIMELINE.md`다.
@@ -228,7 +228,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 부상 전 오퍼와 장학금을 유지할 NCAA 대학명 — v0.14에서 Gonzaga로 해소
 - 2018-19 scholarship counter·NLI·대학 의료 권한
 - 2019-20 정확한 기록·출전시간·부하 관리
-- 2020 Draft 의료검사와 1순위 팀 파급
+- 2020 Draft 의료검사와 실제 지명 팀·순번 파급
 
 ## v0.14 LOCKED ADDITIONS — 라이벌 Gonzaga 경로
 
@@ -250,7 +250,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 라이벌의 개별 NCAA full-qualifier·입학 인증
 - 대학 의료진 권한·기능검사·full-contact clearance 수치
 - 2019-20 실제 총분·선발·점유율·개인 기록·승패 재계산
-- 2020 Draft 의료검사와 1순위 팀 파급
+- 2020 Draft 의료검사와 실제 지명 팀·순번 파급
 
 ## v0.15 LOCKED ADDITIONS — 주인공 Atlanta 30순위 착지
 
@@ -270,7 +270,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 주인공의 정확한 Draft 선언·생일·2017 졸업 1년 경과 계산
 - Atlanta 개별 워크아웃·계약 서명일·rookie-scale 액수
 - Spellman을 포함한 2018 Draft 후반 보드 재배치
-- Summer League·대표팀 캠프·2018 아시안게임 일정 결합
+- 2023 두 선수의 NBA 소속팀·대표팀 허가·보험·캠프 일정 결합
 - Atlanta 2018-19 총분·승패·개인 기록 재계산
 - 자기관리 지각·NBA 기회 상실·Erie 배정의 정확한 날짜
 - 2019-20 College Park 추가 배정 필요 여부
@@ -296,3 +296,103 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2019 Kobe 훈련의 실제 초청자·장소·날짜
 - 라이벌 NBA 팀 내부의 베테랑 멘토 후보
 - Jordan·Shaq 공개 접점의 Act 필요 여부
+
+## v0.17 LOCKED ADDITIONS — 국가대표·병역 일정
+
+- 2018 아시안게임에는 주인공과 라이벌 모두 참가하지 않는다. 주인공은 Atlanta의 Utah·Las Vegas Summer League와 루키 개발 일정에 남고, 라이벌은 ACL 재활을 계속한다.
+- 주인공이 접촉하지 않은 2018 한국 남자농구의 실제 동메달은 비접촉 기준선으로 유지한다.
+- 두 사람이 다시 같은 유니폼을 입는 국가대표 경로는 2023 Hangzhou 아시안게임 공동 도전으로 잠근다.
+- 2023 공동 도전은 결과 보장이 아니다. 실제 한국 7위에 두 선수를 더해 금메달을 자동 확정하지 않고, 최종 12인·실제 출전·모든 경기·대진 변화를 R09에서 다시 계산한다.
+- 아시안게임은 NBA-FIBA 합의의 자동 출전 보장 대회로 취급하지 않는다. NBA 소속팀 허가·보험·의료자료·캠프 결장을 독립 비용으로 둔다.
+- 두 선수는 1999년생이므로 2024년 계속 국외 체류를 위한 허가 시한이 2023 선택을 압박한다.
+- 아시안게임 금메달은 예술체육요원 편입 성적 요건이지 완전 면제가 아니다. 실제 출전·편입 절차와 이후 복무·군사교육·특기활용 봉사 의무를 삭제하지 않는다.
+- `control/NATIONAL_TEAM_MILITARY_SCOPE_GATE.md`는 `NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`다.
+
+## v0.17 RESEARCH_HOLD
+
+- 2023 두 선수의 NBA 소속팀·계약·부상 상태와 구단별 허가
+- 대표팀 최종 12인에서 빠지는 선수와 포지션·분 재배분
+- 조별리그부터 순위결정전까지 전 경기·대진·메달 결과
+- 예술체육요원 편입 성립과 당시 정확한 군사교육·봉사 행정 일정
+
+## v0.18 LOCKED ADDITIONS — 승수·드래프트 인과 프로토콜
+
+- 실제 드래프트 결과는 보존 목표가 아니다. 입력이 같을 때만 유지하고, 경기 승패·시즌 순위·로터리 시드·보호픽·픽 소유권이 바뀌면 결과도 다시 계산한다.
+- 접촉 경기의 승패를 먼저 확정하고 시즌 승수·순위·타이브레이커를 계산한 뒤에만 드래프트 순서를 만든다.
+- 로터리 참가팀·시드·확률이 실제와 같으면 실제 추첨 결과를 외부 확률 사건으로 유지한다. 하나라도 바뀌면 공개 고정 seed와 해당 연도 규정으로 재추첨한다.
+- 고정 seed 규칙은 `SHA-256("first-rebound|nba-lottery|{draft_year}|v1")`이며 결과를 본 뒤 다시 뽑지 않는다.
+- 보호픽·양도·스왑 조건은 실제 최종 결과를 복사하지 않고 재계산된 순번에 적용한다.
+- 드래프트 보드가 바뀌면 각 팀은 남은 선수·당시 필요·프런트·의료·계약을 기준으로 다시 선택한다. 전 선수를 기계적으로 한 칸씩 미루지 않는다.
+- 2018은 주인공보다 앞서 지명된 1~29순위와 Doncic–Young 거래를 유지하고 30~60순위를 재판정한다.
+- 2019 Atlanta의 실제 8·10순위는 보장값이 아니다. Atlanta·Dallas 승수와 보호픽 조건이 바뀌면 로터리와 양도 결과도 바뀐다.
+- 라이벌은 2020 `1순위급 후보`이지 실제 1순위 고정값이 아니다. 팀 필요·ACL 의료자료·팬데믹 스카우팅을 거쳐 실제 순번을 결정하며, 1순위가 되면 Edwards 이하 보드도 다시 계산한다.
+- 상세 권위는 `simulation/DRAFT_CAUSALITY_PROTOCOL.md`다.
+
+## v0.18 RESEARCH_HOLD
+
+- 2018 Draft 30~60 팀별 대안 보드와 Omari Spellman 후속 경로
+- 2018-19 Atlanta 82경기 접촉 분류·총분·승수·최종 순위
+- 2019 로터리 시드·확률·Dallas 보호픽·대안 보드
+- 2019-20 NBA 승수·2020 로터리·라이벌 실제 지명 팀과 순번
+- 로터리 공식 조합 배분을 구현한 재현 가능한 R09 실행 코드와 로그
+
+## v0.19 LOCKED ADDITIONS — Atlanta 2018-19 인과 기준선
+
+- Atlanta의 실제 2018-19 정규시즌 82경기·29승 53패·9,294득점을 R09 불변 기준선으로 잠근다. 이는 대체 세계 결과가 아니라 비교 출발점이다.
+- 실제 연장 횟수로 계산한 경기 총 선수분은 19,855분이다. 공개 로스터 정수 분 합계 19,853분과의 2분 차이는 반올림 감사차이며 새 분으로 사용하지 않는다.
+- 주인공의 NBA 신인 안전선은 42~46경기·14~16분·588~736분으로 좁힌다. 정확 기록은 아니다.
+- 1차 출전시간 donor는 실제 30순위 Omari Spellman의 805분이다. Young·Huerter·Collins의 핵심 육성 분은 우선 보호한다.
+- 주인공이 DNP 또는 Erie여도 Spellman 부재가 남으므로 해당 Atlanta 경기를 자동 비접촉으로 두지 않는다. 82경기 모두 최소 `ROSTER` 접촉이다.
+- 대체 승패·점수는 아직 만들지 않는다. 실제 결과를 보고 접전만 뒤집거나 영향 계수를 맞추는 행위를 금지한다.
+- Atlanta 단독 승수로 2019 로터리를 확정하지 않는다. 2018 Draft 30~60에서 Spellman의 새 팀과 그 팀 승패 파급까지 닫혀야 `FINAL`이 가능하다.
+- 2018 Draft 30~60은 모든 픽을 원장상 확인하되 실제 선택 유지 픽은 짧게 통과하고 `CHANGED/CASCADE`만 심층 비교한다. 대형 드래프트를 같은 깊이로 과설계하지 않는다.
+- 현재 판정은 `BASELINE_PASS / COUNTERFACTUAL_HOLD`다. 상세 권위는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md`와 `.xlsx`다.
+
+## v0.19 RESEARCH_HOLD
+
+- Atlanta 경기별 선수 가용성·실제 player-game 분·주인공 donor vector
+- 주인공 자기관리 실패·잃는 로테이션 경기·Erie assignment 날짜
+- 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
+- 2018 Draft 30~60 대안 보드와 Spellman 새 팀·계약·2018-19 파급
+- 상대팀 승패·타이브레이커·2019 비플레이오프 14팀과 lottery
+- Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
+
+## v0.20 LOCKED ADDITIONS — 2018 Draft 30~60 압축 대안 보드
+
+- 주인공이 Atlanta 30번에서 Omari Spellman을 대체한 뒤에도 31~60번을 기계적으로 한 칸씩 이동시키지 않는다.
+- 30~60순위 31개 픽 중 27개는 실제 선택·거래를 유지하고 30·49·56·58번만 바꾼다.
+- Omari Spellman은 San Antonio 49번으로 이동한다. 당시 Spurs 워크아웃과 슈팅·패싱·역할 이해도 평가를 선택 근거로 쓴다.
+- 49번에서 밀린 Chimezie Metu는 Dallas 56번, 56번에서 밀린 Ray Spalding은 Denver 58번으로 이동한다.
+- Thomas Welsh는 삭제하지 않는다. 미지명 뒤 실제와 같은 Denver 투웨이 역할 후보로 남기되 계약·슬롯 검산 전 `PROVISIONAL_ROLE_PRESERVED`다.
+- Atlanta 34번과 Charlotte의 Devonte' Graham 권리 거래는 유지한다. Atlanta가 30번으로 개발형 포워드 슬롯을 이미 채웠고 Charlotte가 미래 2라운드 두 장을 지급한 거래 입력이 변하지 않았다.
+- Spellman에게 Atlanta의 실제 805분을 San Antonio에서 복사하지 않는다. 대체 슬롯의 출발 기준은 실제 Metu의 2018-19 NBA 29경기·145분이다.
+- 2018 후반 드래프트 보드는 닫혔지만 San Antonio의 날짜별 분·승패 파급 전에는 2019 standings·lottery를 `FINAL`로 만들지 않는다.
+- 상세 권위는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.20 RESEARCH_HOLD
+
+- San Antonio의 2018-19 Metu NBA/G League 날짜별 이동과 Spellman 대체 분
+- Spellman의 Spurs 계약·Austin assignment·가용성·직접 대결 두 경기 파급
+- Dallas의 Metu와 Denver의 Spalding 계약·NBA/G League 분 파급
+- Denver가 Welsh에게 미지명 투웨이 슬롯을 다시 줄 수 있는지 여부
+- 두 번째 팀 파급 뒤 Atlanta·상대팀 승패·2019 standings·lottery
+
+## v0.21 LOCKED ADDITIONS — Spurs 두 번째 팀 역할 기준선
+
+- San Antonio 49번 Omari Spellman은 실제 Metu의 저레버리지 신인 개발 슬롯을 대체한다.
+- 실제 Metu 기준선은 NBA 29경기·0선발·145.4분·평균 5.0분, Austin 26경기·710.4분·평균 27.3분이다.
+- Spellman BASE는 29경기·145.4분·0선발이다. 사전 허용 범위는 NBA 24~31경기·120~180분·평균 4~6분, Austin 20~28경기다.
+- Metu는 투웨이가 아니라 다년 NBA 계약을 유지한 assignment 선수였다. Spellman도 같은 계약 계층으로 둔다.
+- 145.4분을 넘는 HIGH의 추가 34.6분에는 경기 날짜·실제 공여자·가용성 증거가 필요하다. 없으면 BASE로 되돌린다.
+- 2019년 3월 6일·4월 2일 Atlanta 직접 대결에서 Metu는 모두 0분이었다. Spurs 쪽 대체 접촉은 `NO_DIRECT_MINUTES`다.
+- San Antonio의 실제 48승 34패는 비교 기준선이지 대체 세계 확정 결과가 아니다. 경쟁 구간 출전이 생길 때만 해당 경기 승패 검토를 연다.
+- 큰 드래프트는 모든 팀을 같은 깊이로 확장하지 않는다. 계약층→실제 분 침범→경기층 순으로 조건부 확장한다.
+- 상세 권위는 `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md`와 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`다.
+
+## v0.21 RESEARCH_HOLD
+
+- Spellman의 정확한 Spurs/Austin assignment 날짜와 NBA player-game 분
+- 145.4분 초과 시 추가 34.6분의 날짜별 심부 로테이션 donor
+- Atlanta 주인공의 두 Spurs전 출전 여부·분·경기 영향
+- Dallas Metu·Denver Spalding/Welsh의 계약·로스터·분 파급
+- Atlanta player-game·상대팀 승패·2019 standings·lottery

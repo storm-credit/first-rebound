@@ -1,16 +1,16 @@
 # Project State
 
-- 기준일: 2026-08-28
+- 기준일: 2026-08-29
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.16 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.21 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R11 national-team/military schedule`
-- 최근 설계 변경: `protagonist PUMA / rival adidas + commercial/mentor relationship budget`
+- 현재 작업: `R09 Atlanta 2018-19 game-to-draft causality execution`
+- 최근 설계 변경: `Spellman Spurs baseline role closed at 29 G / 145.4 MIN / 0 GS; competitive game outcomes remain held`
 - 최근 병합: `PR #34 / 8de4586`
 
 ## 완료
@@ -62,6 +62,24 @@
 - [x] Kobe 제한 접점과 Jordan·Shaq·Jay-Z 자동 멘토화 금지 LOCK
 - [x] 별도 가상 에이전트·브랜드 매니저와 코치/의료/훈련 권한 분리 LOCK
 - [x] `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` — 광고·멘토 기반 설계 종료
+- [x] 2018 Draft·Utah/Las Vegas Summer League·대표팀 소집·Jones Cup·아시안게임·Atlanta 캠프 일 단위 충돌 검증
+- [x] 주인공·라이벌 2018 아시안게임 불참과 실제 한국 동메달 비접촉 기준선 LOCK
+- [x] 두 선수의 2023 아시안게임 공동 도전 경로 LOCK
+- [x] 2018 단체종목 실제 출전 요건·예술체육요원 이후 의무·1999년생 국외여행허가 압력 확인
+- [x] `NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE` — 국가대표·병역 기반 설계 종료
+- [x] 경기→승수→순위→로터리→보호픽→드래프트 연속 인과 프로토콜 LOCK
+- [x] 로터리 입력 변경 시 공개 고정 seed 재추첨·결과 후 재선택 금지 LOCK
+- [x] 2018 Draft 1~29 선행 사건 유지·30~60 재판정 경계 LOCK
+- [x] 라이벌의 2020 `1순위급 평가`와 실제 지명 순번 분리 LOCK
+- [x] Atlanta 2018-19 실제 82경기·29승 53패·9,294득점·연장 포함 19,855분 기준선 PASS
+- [x] 주인공 신인 분의 Spellman 805분 1차 상한과 Young·Huerter·Collins 보호 LOCK
+- [x] 주인공 DNP/Erie도 Spellman 부재 때문에 최소 ROSTER 접촉이라는 82경기 분류 LOCK
+- [x] Atlanta 단독 원장으로 2019 standings·lottery FINAL 금지 게이트 LOCK
+- [x] 2018 Draft 30~60 전수 원장과 27개 실제 유지·4개 변경 압축 보드 LOCK
+- [x] Spellman→San Antonio 49번·Metu→Dallas 56번·Spalding→Denver 58번 LOCK
+- [x] Welsh 미지명 뒤 Denver 투웨이 역할 후보 LOCK
+- [x] Spellman Spurs BASE 29경기·145.4분·0선발과 Austin assignment 계약 계층 LOCK
+- [x] Atlanta–Spurs 직접 대결 2경기 Metu 0분·Spurs 쪽 NO_DIRECT_MINUTES LOCK
 
 ## 현재 결정 대기
 
@@ -75,14 +93,17 @@
 - [ ] 라이벌의 2018-19 NLI·장학금 counter·대학 의료 권한
 - [ ] Gonzaga 2018-19 실제 scholarship counter와 한 자리 재배분 — R09 HOLD
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
-- [ ] Atlanta 2018-19 총분·승패·개인 기록과 Spellman 후속 지명 — R09 HOLD
-- [ ] Summer League·대표팀 캠프·아시안게임 일정 — R11 HOLD
-- [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R11 HOLD
+- [ ] Atlanta 경기별 player-game 분·주인공 donor vector·대체 승패 — R09 HOLD
+- [x] Spellman의 Spurs 계약 계층·Metu 145.4분 대체 기준선 — R09 PASS
+- [ ] Spellman의 145.4분 초과 donor·경쟁 구간과 San Antonio 승수 파급 — R09 HOLD
+- [ ] Metu의 Dallas·Spalding/Welsh의 Denver 계약과 분 파급 — R09 HOLD
+- [ ] 2023 두 선수의 NBA 소속팀·구단 허가·보험·캠프 결장 일정 — R09 HOLD
+- [ ] 2023 대표팀 최종 12인·전 경기·대진·메달 결과·예술체육요원 편입 — R09 HOLD
+- [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R09 HOLD
 - [ ] 두 가상 에이전트·브랜드 매니저의 이름·소속·수수료
 - [ ] 2019 Kobe 훈련의 초청자·장소·날짜
 - [ ] 라이벌 NBA 팀 내부의 베테랑 멘토 — 2020 Draft 팀 선택 뒤 HOLD
-- [ ] O-06 국가대표·병역
-- [ ] 2018-20 인과 계산 뒤 2020 1순위 보유 팀
+- [ ] 2018-20 인과 계산 뒤 2020 로터리·라이벌 실제 지명 팀과 순번
 - [ ] 정식 제목
 
 ## 현재 위험
@@ -97,7 +118,7 @@
 8. 대학 우승을 주인공 개인 완성으로 오인하지 않는다. 팀 우승 뒤에도 NBA 역할 경쟁과 기술 결핍이 남아야 한다.
 9. 라이벌의 ACL이 단순한 2년 지연 버튼이면 안 된다. 0경기 레드셔츠·복귀 첫해 편차·감속/템포 중심의 플레이 변화라는 비용을 유지한다.
 10. 2019-20 NCAA 포스트시즌 취소는 라이벌 경로의 외부 고정축이다.
-11. 2018 아시안게임은 Draft·Summer League·NBA 캠프 일정과 함께 계산해야 한다.
+11. 2018 아시안게임은 양 선수 불참으로 실제 동메달을 유지한다. 이를 다시 금메달 해결책으로 되돌리려면 R11 전체 검증을 재개해야 한다.
 12. 대학의 흥미로운 실존 자료를 계속 추가하면 NBA 장기 성장물이 대학물로 이동한다. 종료 패킷이 통과했으므로 재개 조건 없이는 대학 정보를 추가하지 않는다.
 13. Gonzaga 국제선수 로스터를 자동 적응·자동 친분의 근거로 쓰지 않는다. 깊은 관계는 세 명, 대표 경기는 두 개를 넘지 않는다.
 14. 라이벌 기록을 실제 Gonzaga 총분·득점 위에 더하지 않는다. WCC 우승 기능 외 승패·점유율은 R09에서 재계산한다.
@@ -109,9 +130,18 @@
 20. Jordan Brand와 Nike를 독립 기업처럼 혼용하거나, 신발 계약을 Michael Jordan 개인 멘토 관계로 바꾸지 않는다.
 21. Shaq의 2023 Reebok 직책을 2018·2020 신발 협상에 소급하지 않는다.
 22. 유명인 접점이 팀 동료·코치·가상 트레이너의 반복 성장 기능을 빼앗지 않게 한다.
+23. 2023 공동 도전을 곧바로 금메달·병역 해결로 쓰지 않는다. 최종 12인·실제 출전·전 경기·대진·구단 허가를 R09에서 계산한다.
+24. 아시안게임 차출을 NBA 의무 차출로 오인하지 않는다. 소속팀 허가·보험·의료·캠프 결장 비용을 분리한다.
+25. 예술체육요원을 완전 면제로 표현하거나 편입 뒤 복무·군사교육·봉사 의무를 삭제하지 않는다.
+26. 실제 스타의 행선지를 지키려고 바뀐 승수·로터리·보호픽을 무시하지 않는다. 입력이 달라지면 큰 드래프트 변화도 받아들인다.
+27. 반대로 주인공과 시간상 무관한 선행 픽을 소급 변경하지 않는다. 2018 인과 시작점은 30순위다.
+28. 로터리는 원하는 팀이 나올 때까지 다시 돌리지 않는다. 공개 seed·알고리즘·실행 로그를 결과 전에 고정한다.
+29. Spellman에게 Atlanta의 실제 805분을 Spurs에서 복사하지 않는다. BASE는 Metu 145.4분이며 초과 34.6분에는 날짜별 donor가 필요하다.
+30. 실제 Metu가 Atlanta와의 두 경기에서 모두 0분이었으므로 Spurs 쪽 직접 영향은 만들지 않는다. 주인공의 Atlanta 쪽 영향은 별도 HOLD다.
+30. 30~60순위 보드가 4개만 바뀌었다는 결과를 편의상 보존하지 않는다. Dallas·Denver 계약 검산에서 추가 파급이 발견되면 같은 프로토콜로 다시 연다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계 기반은 각각 `COLLEGE_ARC_SCOPE_COMPLETE`·`RIVAL_COLLEGE_SCOPE_COMPLETE`·`NBA_LANDING_SCOPE_COMPLETE`·`COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE`로 닫았다. 다음은 R11에서 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프와 예술체육요원 규정을 일 단위로 계산한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·2018 Draft 30~60 압축 보드·Spurs 두 번째 팀 역할 기준선도 검산했다. 다음은 Dallas·Denver 계약층 연쇄를 닫고 Atlanta player-game 분·주인공 donor vector를 만드는 단계다. Spellman이 BASE 145.4분을 넘을 때만 Spurs 날짜별 donor·경쟁 구간을 연다. 그 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

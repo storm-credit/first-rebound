@@ -1,6 +1,6 @@
-# Career Timeline Canon v0.9
+# Career Timeline Canon v1.0
 
-- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE`
+- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
 
@@ -10,7 +10,7 @@
 - 둘은 2015년 같은 가상 한국 고교에 입학해 같은 농구부에서 출발한다.
 - 주인공은 농구를 늦게 시작한 무목적 원석이고, 라이벌은 입학 전부터 기술과 BQ가 높은 엘리트다.
 - 같은 팀에서 주인공은 리바운드·수비·전환, 라이벌은 득점·볼 운반·1차 이점 생성으로 기능이 갈린다.
-- 국내에서는 동료이자 내부 경쟁자, NBA에서는 상대 팀 라이벌, 국가대표에서는 다시 동료가 될 수 있다.
+- 국내에서는 동료이자 내부 경쟁자, NBA에서는 상대 팀 라이벌이며 2023 국가대표 공동 도전에서 다시 동료가 된다.
 
 ## LOCKED 경로 분리
 
@@ -28,10 +28,11 @@
 | 2017.05~06 | 7학기 조기졸업·Villanova 늦은 체육장학금 영입 | 한국 고교 최종 과정·부상 전 Gonzaga 영입 평가 | 졸업창·영입 기능 LOCK / 정확 오퍼일 HOLD |
 | 2017.09~10 | Villanova 입학 준비 | 비접촉 오른쪽 ACL 완전파열→재건술 | 부위·월 LOCK / 경기·수술 세부 HOLD |
 | 2017-18 | Villanova 신입생, 후순위 로테이션에서 NCAA 우승 | 한국 고교 졸업·수술 뒤 기초 재활·미국 대학 진학 인증 | 대학 범위 COMPLETE / 라이벌 인증 HOLD |
-| 2018 | 2018 NBA Draft 30순위 Atlanta, 1라운드 rookie-scale 계약 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학 | 팀·픽·계약 유형 LOCK / 세부액·NLI·counter HOLD |
+| 2018 | NBA Draft 30순위 Atlanta, 두 Summer League와 루키 개발 일정 유지, 아시안게임 불참 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학·ACL 재활, 아시안게임 불참 | NBA 경로·AG 불참 LOCK / 세부액·NLI·counter HOLD |
 | 2018-19 | Atlanta 루키, NBA 본무대·Erie 짧은 assignment | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 착지 구조 LOCK / 총분·승패·의료·counter HOLD |
 | 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
-| 2020 | NBA 성장기 | 합의·실제 1순위 수준으로 Draft | 보유 팀 R09 HOLD |
+| 2020 | NBA 성장기 | 합의 1순위급 후보로 Draft | 실제 지명 팀·순번·보드 R09 HOLD |
+| 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
 
 ## Villanova 2017-18 관계 기능
 
@@ -87,11 +88,21 @@
 - 주인공은 2018년 달력연도에 만 19세가 되는 1999년생으로 둔다.
 - 미국 프렙 졸업창은 2017년 5~6월로 잠그며, 정확한 졸업일·한 시즌 경과 요건·조기진입 선언일은 당시 CBA·NCAA 원문으로 재검증한다.
 - Atlanta가 전체 30순위에서 지명하고 1라운드 NBA rookie-scale 계약을 체결한다. 투웨이 계약은 아니다.
-- 실제 30순위 Omari Spellman의 변경된 지명 팀·순번은 R09까지 HOLD다.
+- 실제 30순위 Omari Spellman은 San Antonio 49순위로 이동한다. 신인 역할 기준은 Metu의 29경기·145.4분·0선발이며 정확한 경기별 분은 R09 HOLD다.
 - 루키 NBA 역할은 약 38~50경기·10~16분, Erie는 약 4~10경기·24~30분 안전선이다. 정확 기록은 실제 총분 재배분 전까지 HOLD다.
 - 깊은 NBA 관계는 Trae Young·Kevin Huerter·John Collins 세 명으로 제한한다.
 - NBA 재발은 밤샘 게임 뒤 아침 영상·컨디셔닝 지각→예정된 로테이션 기회 상실이다. Erie 배정은 별도의 개발 결정이다.
-- 정확한 생일·졸업일·입학 등록일·장학금 서명일·계약 액수·Summer League/대표팀 일정은 HOLD다.
+- 정확한 생일·졸업일·입학 등록일·장학금 서명일·계약 액수는 HOLD다. 2018 Summer League·대표팀 충돌은 검증을 마쳤으며 주인공의 아시안게임 불참으로 해소한다.
+
+## 국가대표·병역 안전선
+
+- 2018 주인공은 Atlanta의 Utah·Las Vegas Summer League와 루키 개발 일정에 남는다. 라이벌은 ACL 재활 중이다. 두 선수 모두 Jakarta 아시안게임에 참가하지 않으며 한국의 실제 동메달을 유지한다.
+- 두 사람은 2023 Hangzhou 아시안게임 공동 도전을 선택한다. 같은 유니폼은 2018이 아니라 이 시점에 회수한다.
+- 2023 실제 한국 성적 7위는 기준선일 뿐, 두 선수 투입 뒤 결과는 자동으로 금메달이 되지 않는다. 최종 12인·실제 출전·모든 경기와 대진을 R09에서 재계산한다.
+- 아시안게임 참가에는 NBA 소속팀 허가·보험·의료자료가 필요하며 결선은 NBA 캠프 개막과 겹친다.
+- 두 선수는 1999년생이므로 2024년 계속 국외 체류를 위한 허가 시한이 2023 결정에 압력을 준다.
+- 금메달을 얻더라도 `완전 면제`가 아니라 예술체육요원 편입 가능성이 생기며, 복무·군사교육·특기활용 봉사 의무를 삭제하지 않는다.
+- 상세 권위는 `research/NATIONAL_TEAM_MILITARY_SCHEDULE.md`와 `control/NATIONAL_TEAM_MILITARY_SCOPE_GATE.md`다.
 
 ## 오프시즌·코비 접점
 
@@ -116,10 +127,11 @@
 - 2017-18 Villanova 개별 과목 자격 환산·정확한 입학 판단·장학금 counter·아마추어리즘
 - 실제 포워드 로테이션에 주인공이 들어갈 때의 정확한 기록·승패 파급
 - Texas Tech전 정확한 개인 분·기록
-- 주인공의 2018 Draft 선언·Atlanta 워크아웃·계약 세부와 Spellman 후속 지명
+- 주인공의 2018 Draft 선언·Atlanta 워크아웃·계약 세부와 Spellman의 Spurs 경기별 분
 - 라이벌의 정확한 부상 경기·수술일·graft·의료 clearance
 - 라이벌의 NCAA 개별 학업 인증·Gonzaga NLI·장학금 counter·2019-20 기록
-- 2018 Summer League·대표팀 캠프·아시안게임·NBA 캠프 충돌
+- 2023 두 선수의 NBA 소속팀·구단 허가·보험·캠프 결장 일정
+- 2023 대표팀 최종 12인·경기별 기록·대진·메달 결과와 예술체육요원 편입 성립
 - Atlanta/Erie 루키 총분·승패·배정 날짜와 자기관리 재발의 정확한 사건
 - 2019 코비 훈련의 실제 접근 경로와 날짜
 - PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정
