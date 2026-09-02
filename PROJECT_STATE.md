@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-11 NBA long-range career and 2020 rival team author selection; R09 outcome inputs remain blocked`
-- 최근 설계 변경: `Atlanta exit 4 options and 2020 rival landing 4 options recorded without canon promotion`
-- 최근 정본 병합: `PR #46 / 90d31f7`
+- 현재 작업: `O-11C 2023 trade destination author selection; R09 outcome inputs remain blocked`
+- 최근 설계 변경: `Indiana/Sacramento/Memphis/Dallas 2023 destination comparison recorded without canon promotion`
+- 최근 정본 병합: `PR #47 / 7e38474`
 
 ## 완료
 
@@ -95,12 +95,14 @@
 - [x] R02-3U 독립 검토 — `BLOCKER / PRIOR_METHOD_HOLD`
 - [x] 전사 15~25%·NBA 75~85% 분량 방화벽과 G13 비율 검산 규칙 명시
 - [x] O-11 Atlanta 이후 4안·2020 라이벌 팀 4안 작성 — `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
+- [x] O-11C 2023 이적 목적지 4안 작성 — Indiana `CALCULATION_PENDING_LEAN / NOT_CANON`
 
 ## 현재 결정 대기
 
 - [ ] O-11A Atlanta 이후 장기 경로 — A 원클럽 / B 2022 계약 분기 이탈 / C 2023 가치 트레이드 / D 2024 리셋 이탈. C는 계산 전 잠정 선호
 - [ ] O-11B 라이벌 2020 NBA 착지 — Chicago 조건부 로스터 적합안 / Charlotte 경쟁 강화안 / 재검토
-- [ ] O-11A에서 C 선택 시 2023 이적 팀 후보 4개·계약·자산·결말 동료 3-Act 원장
+- [ ] O-11C 2023 이적 목적지 — Indiana 총괄 추천 / Sacramento 관계 회수형 대안 / Memphis·Dallas 고위험안
+- [ ] 목적지 선택 뒤 2022 계약·거래 자산 3안·player-minute donor·결말 동료 3-Act 원장·독립 검토
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
@@ -177,6 +179,9 @@
 40. 피로 임계 초과를 임의 부상으로 바꾸지 않는다. 피로 계수·G League 가중·임계값 자체가 교정되기 전 outcome runner는 실행 금지다.
 41. method artifact를 prior PASS나 승패·standings·lottery PASS로 확대하지 않는다. 수치 교정·pB·workload가 없으면 outcome runner는 실행 금지다.
 42. 실제 Atlanta 원점수차로 만든 k=7.25는 사용하지 않는다. 경기 전 기대 대비 독립 표본 교정 전 `LOGIT_SCALE_HOLD`다.
+43. 2023 이적 팀을 실제 이후 성과를 알고 골라 우승 지름길로 만들지 않는다. 목적지는 2023 시점 감독·로스터·자산·역할로만 평가하고 후속 거래와 성과는 접촉 뒤 다시 계산한다.
+44. 주인공 거래 뒤 Brown/Toppin/Siakam, Holmes/#24/Barnes, Smart, Grant/PJ/Gafford 연쇄를 모두 보존하지 않는다. 소진된 캡·픽·분과 바뀐 영입 동기를 원장에 반영한다.
+45. Haliburton·Huerter 등 목적지의 유명 선수를 즉시 결말 동료로 정하지 않는다. 세 Act의 상호 비용과 비가역적 관계 변화 전에는 후보로만 둔다.
 
 ## 다음 게이트
 
