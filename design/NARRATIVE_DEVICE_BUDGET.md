@@ -1,6 +1,6 @@
 # Narrative Device Budget
 
-- 상태: `FRAMEWORK_LOCKED / ASSIGNMENTS_BLOCKED_BY_E0`
+- 상태: `FRAMEWORK_LOCKED / ASSIGNMENTS_BLOCKED_BY_NBA_LONG_RANGE_SELECTION`
 - 중앙 기준: `novel-writing-skills/skills/writing/NARRATIVE_DEVICES.md`
 - 과잉 검수: `novel-writing-skills/skills/writing/UNITY_REVIEW.md`
 
