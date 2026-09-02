@@ -17,11 +17,12 @@ last_reviewed: 2026-09-02
 
 | 게이트 | 요구 산출물 | 현재 |
 |---|---|---|
-| G00 시대/제목 | 시작·프렙·NCAA·드래프트 시대 패키지와 정식 제목 | PARTIAL — 2018 E0·2017-18 Villanova 선택, 제목 HOLD |
+| G00E 시대 패키지 | 시작·프렙·NCAA·드래프트 시대 | PASS — 2018 E0·2017-18 Villanova LOCK |
+| G00T 정식 제목 | 정식 제목과 표기 규칙 | HOLD |
 | G01 핵심 정본 | 장르·질문·성장축·결말 기능 | PARTIAL_PASS |
 | G02 인물 정본 | 주인공·주요 인물·관계·욕망·결핍·권한 | FOUNDATION_PASS — 무목표·게임·출석, 동갑 라이벌, 입문 3단 동기, 책임 성장 5단계 잠금. 조연·학교 권한·세부 사건 HOLD |
 | G03 신체/기술 모델 | 키 성장·포지션·훈련·부상 한계 | FOUNDATION_PASS — 천재성/BQ와 라이벌 ACL·단계별 복귀 안전선 잠금. 주인공 연도별 신체·개별 의료 수치 HOLD |
-| G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | BLOCKED_BY_G00 |
+| G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | FOUNDATION_PARTIAL — 2015 입문·같은 고교·미국행 인과 LOCK, 교명·개별 대회/권한 HOLD |
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION_PASS — 가상 뉴잉글랜드 보딩 프렙·2016년 3월 편입·2017년 5~6월 조기졸업 구조 LOCK. 교명·개별 학점 감사 HOLD |
 | G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Atlanta 30순위·rookie-scale·Erie assignment와 주인공 PUMA·라이벌 adidas·유명인 관계 예산 LOCK. 루키 NBA 621.9분은 R09 LOCK, 정확 NBA/신발 계약액·개인 기록·승패·2020 팀 HOLD |
@@ -30,10 +31,10 @@ last_reviewed: 2026-09-02
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | BLOCKED_BY_G00 |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | NBA_LONG_RANGE_AUTHOR_SELECTION_HOLD — 15~25% 전사 / 75~85% NBA 배분 규칙 명시, 장기 팀·라이벌 팀·결말 동료 미선택 |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | PARTIAL |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
-| G16 독립 검수 | 맹점·모순·정의 누락 검토 | NOT_STARTED |
+| G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
 
 ## 개방 절차

@@ -113,3 +113,27 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 - 주인공과 라이벌은 별도 가상 에이전트를 두고, 라이벌의 NBA 베테랑 멘토는 2020 Draft 팀 선택 뒤 결정한다.
 
 정본: `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md`
+
+## O-11 NBA 장기 커리어·2020 라이벌 착지 — AUTHOR_SELECTION_HOLD
+
+`design/NBA_LONG_RANGE_CAREER_OPTIONS.md`가 두 선택을 분리해 비교한다.
+
+### O-11A 주인공의 Atlanta 이후 경로
+
+| 안 | 핵심 | 판정 |
+|---|---|---|
+| A | Atlanta 원클럽 수비축 | 대조안 / 노출 최장 / 인과 미채점 |
+| B | 2022 계약 분기 이탈 | 이른 분리안 / 인과 미채점 |
+| C | 2022 계약 성립 뒤 2023 여름 가치 트레이드 | **계산 전 잠정 선호 / 미승인** |
+| D | 2024 리셋까지 잔류 뒤 트레이드 | 흥미 우선 / 로터리 오염 높음 |
+
+### O-11B 라이벌의 2020 NBA 착지
+
+| 안 | 실제 기준 순번 | 판정 |
+|---|---:|---|
+| Minnesota | 1 | REJECT_LEAN / 상위 보드 훼손 최대 |
+| Golden State | 2 | 전술 적합 높음 / 서사 적합 낮음 |
+| Charlotte | 3 | 경쟁축 최상 / LaMelo 경로 훼손 높음 |
+| Chicago | 4 | **조건부 로스터 적합 선호 / 미승인** |
+
+두 선택 모두 R09의 2018-20 승패·로터리·픽 소유권 검증 전에는 팀·순번·계약·결말 동료를 LOCK하지 않는다. 사용자가 O-11A와 O-11B를 승인한 뒤에만 `canon/CAREER_TIMELINE.md`와 PROJECT_FREEZE 승격을 검토한다.

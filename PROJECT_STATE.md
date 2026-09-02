@@ -4,14 +4,14 @@
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
-- 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
+- 현재 단계: `NBA_LONG_RANGE_ARCHITECTURE_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R09 Atlanta production/fatigue/logit calibration before outcome inputs`
-- 최근 설계 변경: `Independent review preserved the 805-minute firewall but blocked uncalibrated production/fatigue/logit parameters`
-- 최근 정본 병합: `PR #44 / 956e2cd`
+- 현재 작업: `O-11 NBA long-range career and 2020 rival team author selection; R09 outcome inputs remain blocked`
+- 최근 설계 변경: `Atlanta exit 4 options and 2020 rival landing 4 options recorded without canon promotion`
+- 최근 정본 병합: `PR #46 / 90d31f7`
 
 ## 완료
 
@@ -93,8 +93,14 @@
 - [x] 같은 805분 차감·이중계산 금지·interaction 0 방화벽 PASS
 - [x] conditional latent seed/hash·event ID·53-bit 변환·SENSITIVE/HOLD 규칙 명시
 - [x] R02-3U 독립 검토 — `BLOCKER / PRIOR_METHOD_HOLD`
+- [x] 전사 15~25%·NBA 75~85% 분량 방화벽과 G13 비율 검산 규칙 명시
+- [x] O-11 Atlanta 이후 4안·2020 라이벌 팀 4안 작성 — `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
 
 ## 현재 결정 대기
+
+- [ ] O-11A Atlanta 이후 장기 경로 — A 원클럽 / B 2022 계약 분기 이탈 / C 2023 가치 트레이드 / D 2024 리셋 이탈. C는 계산 전 잠정 선호
+- [ ] O-11B 라이벌 2020 NBA 착지 — Chicago 조건부 로스터 적합안 / Charlotte 경쟁 강화안 / 재검토
+- [ ] O-11A에서 C 선택 시 2023 이적 팀 후보 4개·계약·자산·결말 동료 3-Act 원장
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
