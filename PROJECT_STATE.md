@@ -11,7 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `R09 Atlanta production/fatigue/logit calibration before outcome inputs`
 - 최근 설계 변경: `Independent review preserved the 805-minute firewall but blocked uncalibrated production/fatigue/logit parameters`
-- 최근 정본 병합: `PR #42 / 2488205`
+- 최근 정본 병합: `PR #44 / 956e2cd`
 - 최근 상태 병합: `PR #43 / 8e73a5b`
 
 ## 완료
