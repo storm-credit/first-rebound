@@ -1,17 +1,18 @@
 # Project State
 
-- 기준일: 2026-08-29
+- 기준일: 2026-09-02
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
 - 현재 단계: `R02_TIMELINE_TACTICAL_FOUNDATION_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.24 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `R09 Atlanta player production and game-impact prior preregistration`
-- 최근 설계 변경: `Atlanta 183.1-minute reserve pool assigned to four named same-date receivers with zero balance`
-- 최근 병합: `PR #42 / 2488205`
+- 현재 작업: `R09 Atlanta production/fatigue/logit calibration before outcome inputs`
+- 최근 설계 변경: `Independent review preserved the 805-minute firewall but blocked uncalibrated production/fatigue/logit parameters`
+- 최근 정본 병합: `PR #42 / 2488205`
+- 최근 상태 병합: `PR #43 / 8e73a5b`
 
 ## 완료
 
@@ -89,6 +90,10 @@
 - [x] 2018-12-07~22 Erie 6경기 개발 assignment·NBA 동시 출전 0 LOCK
 - [x] Atlanta 805.0분 = 주인공 621.9 + remainder 183.1 날짜별 보존 PASS
 - [x] Atlanta remainder 183.1분 = Anderson 105.6 + Poythress 48.6 + Plumlee 17.5 + Hamilton 11.4 실명 배정 PASS
+- [x] 주인공+Spellman+실명 수취자 per-36·BPM 관측표와 수축 후보 원장화
+- [x] 같은 805분 차감·이중계산 금지·interaction 0 방화벽 PASS
+- [x] conditional latent seed/hash·event ID·53-bit 변환·SENSITIVE/HOLD 규칙 명시
+- [x] R02-3U 독립 검토 — `BLOCKER / PRIOR_METHOD_HOLD`
 
 ## 현재 결정 대기
 
@@ -104,7 +109,10 @@
 - [ ] Gonzaga 2019-20 총분·점유율·승패·개인 기록 — R09 HOLD
 - [x] Atlanta 경기별 주인공 분·Spellman donor vector — R09 PASS
 - [x] Atlanta 183.1분 실명 수취자·날짜별 분 — R09 PASS
-- [ ] 주인공·수취자 개인 박스스코어·피로·대체 승패 — R09 HOLD
+- [ ] 주인공·수취자 생산성 수축·피로·경기 영향 prior 교정 — R09 BLOCKER
+- [ ] logit scale `k` 독립 표본 교정 — R09 BLOCKER
+- [ ] Atlanta 82경기 pB·전체 workload·conditional latent·대체 승패 — R09 HOLD
+- [ ] 정확한 개인 시즌 박스스코어·온오프·대체 점수 — R09 HOLD
 - [x] Spellman의 Spurs 계약 계층·Metu 145.4분 대체 기준선 — R09 PASS
 - [ ] Spellman의 145.4분 초과 donor·경쟁 구간과 San Antonio 승수 파급 — R09 HOLD
 - [x] Metu의 Dallas·Spalding의 Denver 계약 계층과 기준 분 — R09 PASS
@@ -157,10 +165,16 @@
 33. Metu에게 Spurs의 실제 145.4분을 Dallas에서 복사하지 않는다. Dallas BASE는 실제 Spalding의 1경기·1분이며, 초과분은 player-game donor가 있어야 한다.
 34. `ATL_REMAINDER_POOL`은 가상 선수가 아니다. v0.24에서 183.1분을 동일 날짜 실명 수취자에게 전부 배정했지만 생산성 prior 전 개인 기록이나 경기 영향을 만들지 않는다.
 35. 2018년 11월 19일의 직접 비용과 12월 Erie 개발 배정을 하나의 징계로 합치지 않는다.
-36. `DNP-CD` 등재를 실제 생산성으로 복사하지 않는다. v0.24는 같은 날짜 가용성과 분만 잠갔으며 추가 출전의 생산성·피로는 다음 게이트에서 별도 계산한다.
+36. `DNP-CD` 등재를 실제 생산성으로 복사하지 않는다. v0.24는 같은 날짜 가용성과 분만 잠갔고, v0.25에서는 실제 당일 성적과 미교정 수축·피로 후보를 모두 outcome 입력에서 차단한다.
+37. 실제 시즌 per-36·BPM을 추가분에 그대로 복사하지 않는다. 관측표는 교정 자료일 뿐이며 box·impact prior가 별도 승인되기 전 개인 기록과 승패를 만들지 않는다.
+38. 주인공의 수비·리바운드 설정을 근거로 Spellman보다 높은 평균 영향을 주지 않는다. LOW는 대체측 LOW-donor HIGH, HIGH는 대체측 HIGH-donor LOW로 같은 805분 차이만 사용한다.
+39. 검증되지 않은 Young 케미·라인업 보너스를 넣지 않는다. interaction은 0이며 박스 생산성과 영향 prior는 이중 합산하지 않는다.
+40. 피로 임계 초과를 임의 부상으로 바꾸지 않는다. 피로 계수·G League 가중·임계값 자체가 교정되기 전 outcome runner는 실행 금지다.
+41. method artifact를 prior PASS나 승패·standings·lottery PASS로 확대하지 않는다. 수치 교정·pB·workload가 없으면 outcome runner는 실행 금지다.
+42. 실제 Atlanta 원점수차로 만든 k=7.25는 사용하지 않는다. 경기 전 기대 대비 독립 표본 교정 전 `LOGIT_SCALE_HOLD`다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고, Atlanta 82경기 기준선·후반 드래프트·두 번째 팀 계약층·주인공 donor vector·실명 reserve receiver 183.1분도 검산했다. 다음은 주인공과 네 수취자의 생산성·피로·경기 영향 prior를 결과 전에 고정하는 단계다. 그 뒤에만 대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 분 재배분도 검산했다. 다음은 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인하는 단계다. 그 뒤 82경기별 양방향 no-vig closing moneyline `pB`와 player-game workload를 수집·감사하며, 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

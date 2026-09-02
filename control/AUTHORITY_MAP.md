@@ -64,6 +64,8 @@
 | Spellman Spurs 두 번째 팀 역할 기준선 | `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md` | NBA/Austin 계층·안전선 PASS, competitive stint·승패 HOLD |
 | 첫 NBA 착지 범위 중단 | `control/NBA_LANDING_SCOPE_GATE.md` | `NBA_LANDING_SCOPE_COMPLETE` |
 | Atlanta 착지 맹점 검토 | `reviews/R02_3K_PROTAGONIST_ATLANTA_REVIEW.md` | R16 독립 검수 대체 아님 |
+| Atlanta 주인공·실명 수취자 생산성·피로·경기 영향 방법 | `simulation/ATLANTA_2018_19_PLAYER_PRODUCTION_PRIORS.md` 및 `.xlsx`의 `ATL Priors` | method firewall PASS, 수치 교정·pB·workload·승패 HOLD |
+| Atlanta production prior 맹점 검토 | `reviews/R02_3U_ATLANTA_PRODUCTION_PRIOR_REVIEW.md` | R16 독립 검수 대체 아님 |
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |
 | 상업·유명인 관계 범위 중단 | `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md` | `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` |
 | 스폰서·멘토 맹점 검토 | `reviews/R02_3L_SPONSOR_MENTOR_REVIEW.md` | R16 독립 검수 대체 아님 |

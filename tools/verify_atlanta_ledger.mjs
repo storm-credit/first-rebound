@@ -1,5 +1,6 @@
 import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 import fs from "node:fs/promises";
+import { createHash } from "node:crypto";
 
 const inputPath = process.argv[2] ?? "simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx";
 const blob = await FileBlob.load(inputPath);
@@ -7,16 +8,17 @@ const wb = await SpreadsheetFile.importXlsx(blob);
 
 const checks = [
   ["README", "A4:H12"],
-  ["Game Ledger", "A5:Y87"],
+  ["Game Ledger", "A5:Z87"],
   ["ATL Assignment", "A4:H24"],
   ["ATL Receivers", "A4:R49"],
+  ["ATL Priors", "A4:V44"],
   ["Season Minutes", "A5:L33"],
   ["2018 Draft Board", "A4:K37"],
   ["Spurs Impact", "A4:L34"],
   ["Cascade Impact", "A4:M27"],
   ["Draft Bridge", "A4:J14"],
   ["Gate Audit", "A4:F16"],
-  ["Sources", "A4:D50"],
+  ["Sources", "A4:D57"],
 ];
 
 let errors = 0;
@@ -85,6 +87,93 @@ for (const row of receiverTotals) {
   if (expected === undefined || Math.abs(Number(row[5]) - expected) > 0.001) {
     errors++;
     console.log(`RECEIVER_TOTAL_FAIL ${JSON.stringify(row)}`);
+  }
+}
+
+const priors = wb.worksheets.getItem("ATL Priors");
+const priorAudit = priors.getRange("A37:D44").values;
+console.log("ATL_PRIOR_AUDIT", JSON.stringify(priorAudit));
+for (const row of priorAudit) {
+  if (row[3] !== "PASS") {
+    errors++;
+    console.log(`PRIOR_AUDIT_FAIL ${JSON.stringify(row)}`);
+  }
+}
+const priorRows = priors.getRange("A19:J24").values;
+for (const row of priorRows) {
+  const observedMinutes = Number(row[2]);
+  const observedBpm = row[3] === "" || row[3] === null ? null : Number(row[3]);
+  const mean = Number(row[4]);
+  const weight = Number(row[5]);
+  const low = Number(row[8]);
+  const base = Number(row[6]);
+  const band = Number(row[7]);
+  const high = Number(row[9]);
+  if (!(low <= base && base <= high && low >= -6 && high <= 2)) {
+    errors++;
+    console.log(`PRIOR_RANGE_FAIL ${JSON.stringify(row)}`);
+  }
+  const expectedWeight = observedBpm === null ? 0 : observedMinutes / (observedMinutes + 750);
+  const expectedBase = observedBpm === null ? mean : expectedWeight * observedBpm + (1 - expectedWeight) * mean;
+  const expectedBand = observedBpm === null ? 1.5 : 0.75 + 500 / (observedMinutes + 500);
+  const expectedLow = Math.max(-6, expectedBase - expectedBand);
+  const expectedHigh = Math.min(2, expectedBase + expectedBand);
+  if ([weight - expectedWeight, base - expectedBase, band - expectedBand, low - expectedLow, high - expectedHigh].some((delta) => Math.abs(delta) > 0.00001)) {
+    errors++;
+    console.log(`PRIOR_FORMULA_RECALC_FAIL ${JSON.stringify(row)}`);
+  }
+}
+const priorAssumptions = priors.getRange("B7:B13").values.flat().map(Number);
+const outcomeAssumptions = priors.getRange("E7:F13").values;
+const expectedPriorAssumptions = [-2.75,750,0.75,500,-6,2,1.5];
+for (let i = 0; i < expectedPriorAssumptions.length; i++) {
+  if (Math.abs(priorAssumptions[i] - expectedPriorAssumptions[i]) > 0.00001) {
+    errors++;
+    console.log(`PRIOR_ASSUMPTION_FAIL row ${i + 7}: ${priorAssumptions[i]}`);
+  }
+}
+if (outcomeAssumptions[0][0] !== "HOLD" ||
+    Number(outcomeAssumptions[1][0]) !== 0 ||
+    Math.abs(Number(outcomeAssumptions[2][0]) - 0.85) > 0.00001 ||
+    Math.abs(Number(outcomeAssumptions[3][0]) + 0.5) > 0.00001 ||
+    Math.abs(Number(outcomeAssumptions[4][0]) - 0.0125) > 0.00001 ||
+    Number(outcomeAssumptions[5][0]) !== 45 ||
+    Math.abs(Number(outcomeAssumptions[5][1]) - 0.005) > 0.00001 ||
+    Number(outcomeAssumptions[6][0]) !== 120 ||
+    Math.abs(Number(outcomeAssumptions[6][1]) - 0.0025) > 0.00001) {
+  errors++;
+  console.log(`OUTCOME_ASSUMPTION_FAIL ${JSON.stringify(outcomeAssumptions)}`);
+}
+const seed = priors.getRange("E14:E15").values.flat();
+const computedSeedSha = createHash("sha256").update(String(seed[0]), "utf8").digest("hex");
+if (seed[0] !== "FIRST_REBOUND|R09|ATL_2018_19|PRIOR_v1" || seed[1] !== computedSeedSha || seed[1] !== "228aac4642a599e4545ed878efda7952bf04bf1b0ad73b20b217d44f5aa19cab") {
+  errors++;
+  console.log(`PRIOR_SEED_FAIL ${JSON.stringify(seed)}`);
+}
+const hashSpec = String(priors.getRange("E16").values[0][0]);
+if (!hashSpec.includes("ATL_2018_19_G001..G082") || !hashSpec.includes("BE64") || !hashSpec.includes(">>11") || !hashSpec.includes("2^53")) {
+  errors++;
+  console.log(`HASH_SPEC_FAIL ${hashSpec}`);
+}
+const eventIds = Array.from({ length: 82 }, (_, index) => `ATL_2018_19_G${String(index + 1).padStart(3, "0")}`);
+const latentHashes = eventIds.map((eventId) => createHash("sha256").update(`${seed[0]}|${eventId}`, "utf8").digest("hex"));
+const ledgerEventIds = ledger.getRange("Z6:Z87").values.flat();
+if (new Set(eventIds).size !== 82 || new Set(latentHashes).size !== 82 || JSON.stringify(ledgerEventIds) !== JSON.stringify(eventIds)) {
+  errors++;
+  console.log("EVENT_ID_HASH_UNIQUENESS_FAIL");
+}
+const firewallText = String(priors.getRange("F37").values[0][0]);
+if (!firewallText.includes("LOW = new LOW - donor HIGH") || !firewallText.includes("HIGH = new HIGH - donor LOW") || !firewallText.includes("fixed-100-possession")) {
+  errors++;
+  console.log(`REPLACEMENT_UNCERTAINTY_SPEC_FAIL ${firewallText}`);
+}
+
+const outcomeColumns = ledger.getRange("V6:X87").values;
+for (let i = 0; i < outcomeColumns.length; i++) {
+  const [status, result, downstream] = outcomeColumns[i];
+  if (status !== "HOLD" || result !== "HOLD" || downstream !== "OUTCOME_INPUTS_PENDING") {
+    errors++;
+    console.log(`OUTCOME_FIREWALL_FAIL row ${i + 6}: ${JSON.stringify(outcomeColumns[i])}`);
   }
 }
 
