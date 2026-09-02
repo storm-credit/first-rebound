@@ -4,7 +4,7 @@
 status: CLOSED
 manuscript_allowed: false
 authority: this_file
-last_reviewed: 2026-08-29
+last_reviewed: 2026-09-02
 ```
 
 ## 절대 규칙
@@ -24,9 +24,9 @@ last_reviewed: 2026-08-29
 | G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | BLOCKED_BY_G00 |
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION_PASS — 가상 뉴잉글랜드 보딩 프렙·2016년 3월 편입·2017년 5~6월 조기졸업 구조 LOCK. 교명·개별 학점 감사 HOLD |
 | G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
-| G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Atlanta 30순위·rookie-scale·Erie assignment와 주인공 PUMA·라이벌 adidas·유명인 관계 예산 LOCK. 정확 NBA/신발 계약액·총분·승패·2020 팀 HOLD |
+| G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Atlanta 30순위·rookie-scale·Erie assignment와 주인공 PUMA·라이벌 adidas·유명인 관계 예산 LOCK. 루키 NBA 621.9분은 R09 LOCK, 정확 NBA/신발 계약액·개인 기록·승패·2020 팀 HOLD |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
-| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / EXECUTION_NEXT — 승수·로터리·보호픽·드래프트 프로토콜 LOCK, 2018 Atlanta부터 실행 |
+| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / ATL_MINUTES_PASS / PRIOR_METHOD_HOLD — 같은 805분 차이·이중계산 금지·interaction 0 LOCK. 생산성 수축·피로·logit scale 교정과 pB·workload·승패 실행 HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |

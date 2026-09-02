@@ -1,4 +1,4 @@
-# Project Freeze v0.18
+# Project Freeze v0.25
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -459,3 +459,27 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 경기 전 승률 pB·rotation/availability/fatigue 영향 prior·고정 game hash 실행
 - 대체 승패·상대팀 승패·전체 standings·2019 lottery
 - Dallas pick top-5 보호·양도와 Atlanta 대안 지명·거래
+
+## v0.25 PARTIAL ADDITIONS — Atlanta 생산성·피로·경기 영향 방법
+
+- Atlanta에서 제거된 Spellman 805.0분과 주인공 621.9분+실명 수취자 183.1분의 같은 분만 비교한다. 새 선수의 절대 기여를 실제 기준선 위에 더하지 않는다.
+- 실제 선수의 2018-19 per-36·BPM을 추가분에 직접 복사하지 않는다. 공통 평균 `-2.75`, pseudo-minutes 750, band와 주인공 `LOW -4.25 / BASE -2.75 / HIGH -1.25`는 외부 교정 전 후보값이며 정본 prior가 아니다.
+- 주인공 박스 생산성 36분당 10.0점·7.5리바운드·1.8어시스트·1.3스틸·0.9블록·TS .500도 비교·교정 후보이지 최종 시즌 기록이나 실행 입력이 아니다.
+- 피로는 이전 부하만 시간순으로 계산하고 새 부상을 자동 생성하지 않는다. M24/M72/M7 계수·G League 0.85·임계값은 외부 교정 전 `HOLD`다.
+- 검증되지 않은 라인업·우정·Young과의 케미 상호작용은 0이다. 박스 생산성과 영향 prior를 이중 합산하지 않는다.
+- LOW 교체효과는 대체측 LOW-donor HIGH, HIGH는 대체측 HIGH-donor LOW로 계산해 comparator 불확실성을 상쇄하지 않는다.
+- 승률 변환 `k`는 Atlanta 원점수차 표준편차로 정하지 않는다. 독립 표본 교정 전 `LOGIT_SCALE_HOLD`이며 경기 전 양방향 no-vig closing moneyline이 없는 경기도 실행하지 않는다.
+- latent seed는 `FIRST_REBOUND|R09|ATL_2018_19|PRIOR_v1`, SHA-256은 `228aac4642a599e4545ed878efda7952bf04bf1b0ad73b20b217d44f5aa19cab`다.
+- event ID는 `ATL_2018_19_G001..G082`이고, `h=(BE64(SHA256(seed|event_id)) >> 11) / 2^53`으로 고정한다.
+- LOW·BASE·HIGH가 같은 latent를 공유한다. 결과가 하나라도 갈리면 `SENSITIVE/HOLD`이며 정확한 대체 점수는 만들지 않는다.
+- 상세 권위는 `simulation/ATLANTA_2018_19_PLAYER_PRODUCTION_PRIORS.md`와 계산 원장의 `ATL Priors` 시트다.
+
+## v0.25 RESEARCH_HOLD
+
+- Atlanta 82경기별 경기 전 양방향 closing moneyline·no-vig `pB`
+- 생산성 수축 평균·pseudo-minutes·band와 피로 계수·가중·임계값의 외부 교정 또는 fallback 승인
+- 경기 전 기대 대비 독립 표본을 이용한 logit scale `k` 교정
+- 주인공·Spellman·네 수취자의 전체 player-game workload와 시간순 피로 상태
+- conditional latent 실행·대체 승패·상대팀 기록
+- 정확한 개인 시즌 박스스코어·온오프·대체 점수
+- 비플레이오프 14팀 순위·2019 로터리·Dallas 보호픽·드래프트 보드

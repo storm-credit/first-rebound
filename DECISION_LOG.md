@@ -157,5 +157,11 @@
 | D-149 | LOCKED | 183.1분 수취자는 같은 날짜 Atlanta 박스스코어 `PLAY/DNP-CD` 등재와 실제 시즌 단일 경기 최고분 상한으로 결정 | 결과를 보고 선수를 고르거나 실제 관측 역할보다 큰 경기분을 부여하지 않음 |
 | D-150 | LOCKED | 수취 분은 Anderson 105.6·Poythress 48.6·Plumlee 17.5·Hamilton 11.4이며 B.J. Johnson은 감사 후보 0분 | 29개 날짜·31개 배정 행·미배정 0·날짜별 잔액 0.0 |
 | D-151 | RECEIVER_ALLOCATION_PASS | Atlanta 805.0분은 주인공 621.9분+실명 수취자 183.1분으로 닫고 생산성·피로·승패는 HOLD | 분 보존 완료를 개인 기록이나 경기 결과 확정으로 확대하지 않음 |
+| D-152 | PROVISIONAL | 실제 2018-19 시즌율에 명시적 수축 규칙을 적용하는 안을 교정 후보로 보존 | 평균·pseudo-minutes·band가 경험적으로 교정되지 않아 `empirical Bayes PASS` 명칭 철회 |
+| D-153 | PARAMETER_HOLD | 주인공 LOW -4.25 / BASE -2.75 / HIGH -1.25와 박스 중심값은 비교·교정 후보 | 수비형 설정만으로 Spellman보다 높은 평균을 주지 않지만 outcome 입력으로는 사용 금지 |
+| D-154 | LOCKED | 경기 영향은 같은 날짜 주인공+수취자와 제거된 Spellman의 같은 805분 차이만 계산 | 수취자의 기존 분·Young/Huerter/Collins 분·박스 생산성을 중복 합산하지 않음 |
+| D-155 | METHOD_PARTIAL | 피로는 forward-only 차이이며 새 부상 자동 생성 금지 | M24/M72/M7 계수·G League 0.85·임계값은 외부 교정 전 HOLD |
+| D-156 | METHOD_FIREWALL_PASS | interaction 0·고정 seed/hash·conditional latent·SENSITIVE/HOLD 규칙을 결과 전 잠금 | event ID `ATL_2018_19_G001..G082`, big-endian 53-bit 변환 명시 |
+| D-157 | REVIEW_BLOCKER | k=7.25 폐기, LOW/HIGH는 대체측과 donor 불확실성을 반대 방향으로 결합 | 수축·피로·logit scale 교정과 pB·workload 전 outcome runner 실행 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

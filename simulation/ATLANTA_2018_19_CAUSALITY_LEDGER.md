@@ -1,6 +1,6 @@
-# Atlanta 2018-19 Causality Ledger v0.5
+# Atlanta 2018-19 Causality Ledger v0.7
 
-- 상태: `ATL_RECEIVER_ALLOCATION_PASS / COUNTERFACTUAL_PRODUCTION_OUTCOMES_HOLD`
+- 상태: `PRIOR_METHOD_HOLD / COUNTERFACTUAL_OUTCOMES_HOLD`
 - 정본성: `PROVISIONAL`
 - 원고 게이트: `CLOSED`
 - 계산 파일: `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.xlsx`
@@ -70,6 +70,14 @@ logit(pCF) = logit(pB) + Δμ / k
 - 시나리오별 결과가 갈리면 `SENSITIVE/HOLD`로 둔다.
 - possession/PBP 모델 없이 정확한 대체 점수는 쓰지 않는다.
 
+v0.25에서 선수 생산성·피로·경기 영향 방법을 결과 전에 검토했다. 독립 검토 결과 수치 교정은 HOLD이며, 단일 권위는 `simulation/ATLANTA_2018_19_PLAYER_PRODUCTION_PRIORS.md`와 계산 파일의 `ATL Priors` 시트다.
+
+- 같은 날짜 주인공+수취자 805분에서 제거된 Spellman 805분의 영향만 차감한다.
+- 실제 per-36·BPM 원값을 추가분에 직접 복사하지 않는다. 공통 평균·수축 강도·band·피로 계수는 외부 교정 전 HOLD다.
+- interaction 0과 같은 805분 차이는 고정한다. logit scale `k`는 독립 표본 교정 전 HOLD다.
+- 경기 전 양방향 no-vig moneyline과 전체 workload가 없는 경기는 승패를 생성하지 않는다.
+- LOW·BASE·HIGH가 갈리면 `SENSITIVE/HOLD`다.
+
 ## 2019 Draft 연결부
 
 실제 기준선은 Atlanta 29승 53패, 자체픽 사전 역순위 5번 확률군, 실제 로터리 8번이다. Dallas는 33승 49패, 사전 9번 슬롯, 실제 10번이었고 2019 top-5 보호를 벗어나 Atlanta로 양도됐다.
@@ -94,7 +102,7 @@ Atlanta 단독 계산만으로 2019 standings와 lottery를 `FINAL`로 만들 �
 7. Dallas pick의 top-5 보호·양도 여부를 판정한다.
 8. 그 뒤에만 Atlanta의 지명·거래 보드를 다시 연다.
 
-따라서 현재 판정은 `ATL_RECEIVER_ALLOCATION_PASS / COUNTERFACTUAL_PRODUCTION_OUTCOMES_HOLD`다. Atlanta 날짜별 주인공 분과 183.1분의 실명 수취자는 닫혔지만 개인 성과·피로·승패·상대팀 기록 전에는 시즌 결과를 선언하지 않는다.
+따라서 현재 판정은 `PRIOR_METHOD_HOLD / COUNTERFACTUAL_OUTCOMES_HOLD`다. Atlanta 날짜별 분은 닫혔지만 생산성 수축·피로·logit scale 교정과 82경기 pB·시간순 workload·승패·상대팀 기록 전에는 시즌 결과를 선언하지 않는다.
 
 ## Atlanta player-game 실행 기준선
 

@@ -295,6 +295,26 @@ const atlReceiverSummaries = [
   ["B.J. Johnson","SF",6,43,19,0,"S04/S44"],
 ];
 
+// Record season-level production and impact calibration candidates before any
+// counterfactual game outcome is calculated. Per-36 box rates are observed
+// values only. Numeric shrinkage/fatigue/logit parameters remain HOLD until
+// external calibration and independent review.
+const atlPriorPlayers = [
+  ["Fictional protagonist","Rookie SF/PF",0,null,10.0,7.5,1.8,1.3,0.9,1.6,3.6,0.500,2.5,0.280,"2018 rookie forward cohort + role adjustment","S48/S49"],
+  ["Omari Spellman","Removed donor",805,-1.2,12.2,8.7,2.1,1.2,1.1,1.4,3.0,0.516,5.7,0.344,"Actual Atlanta donor comparator","S47/S48/S49"],
+  ["Justin Anderson","Named receiver",463,-2.7,13.8,6.5,1.8,1.7,1.0,1.8,3.7,0.516,6.0,0.312,"Strong defensive wing; small sample shrunk","S47/S48/S49/S50"],
+  ["Alex Poythress","Named receiver",305,-3.5,12.6,9.0,2.0,0.5,1.2,1.5,5.5,0.571,2.7,0.391,"Energy/rebounding forward; small sample shrunk","S47/S48/S49/S51"],
+  ["Miles Plumlee","Named receiver",173,1.6,16.6,8.1,3.5,1.2,0.8,2.1,2.9,0.654,0.0,null,"Center finishing sample; strongly shrunk","S47/S48/S49/S52"],
+  ["Daniel Hamilton","Named receiver",204,-4.1,10.1,8.3,3.9,1.1,0.2,2.8,3.4,0.455,4.1,0.348,"Large guard/wing connector; small sample shrunk","S47/S48/S49/S53"],
+];
+
+const atlPriorMethods = [
+  ["A","Raw 2018-19 rates/BPM","Simple and reproducible","Overfits 173-463 minute samples","REJECTED"],
+  ["B","Pre-2018 evidence only","Lowest outcome leakage","Sparse roles create arbitrary ordering","REJECTED"],
+  ["C","Common neutral impact for all","Minimal author bias","Erases observed role evidence","FALLBACK"],
+  ["D","Season rates + preregistered shrinkage candidate","Balances role evidence and small-sample control","Mean/pseudo-minutes/band not externally calibrated","PROVISIONAL / HOLD"],
+];
+
 const sources = [
   ["S01","NBA Stats — Atlanta schedule","82-game official schedule baseline","https://www.nba.com/stats/team/1610612737/schedule?Season=2018-19"],
   ["S02","ESPN — Atlanta schedule","Scores/order cross-check; timezone dates not authoritative","https://www.espn.com/nba/team/schedule?name=ATL&season=2019&seasontype=2"],
@@ -342,6 +362,13 @@ const sources = [
   ["S44","ESPN — Atlanta 2018-19 schedule and box scores","Same-date box-score listing, DNP-CD status, actual minutes, event IDs, and observed single-game maxima","https://www.espn.com/nba/team/schedule/_/name/atl/season/2019"],
   ["S45","Atlanta Hawks — Justin Anderson 2018-19 review","Anderson missed the first 16 games while rehabbing and returned for the Nov. 19 game","https://www.nba.com/hawks/features/five-things-know-about-justin-andersons-2018-19-season"],
   ["S46","Atlanta Hawks — Alex Poythress 2018-19 review","Poythress held a two-way development role with Atlanta and Erie","https://www.nba.com/hawks/five-things-know-about-alex-poythress-2018-19-season"],
+  ["S47","Basketball-Reference — Atlanta 2018-19 roster","Roster totals and minutes cross-check","https://www.basketball-reference.com/teams/ATL/2019.html"],
+  ["S48","Basketball-Reference — 2018-19 per 36","Season-level per-36 production inputs","https://www.basketball-reference.com/leagues/NBA_2019_per_minute.html"],
+  ["S49","Basketball-Reference — 2018-19 advanced","Observed BPM/TS inputs before shrinkage","https://www.basketball-reference.com/leagues/NBA_2019_advanced.html"],
+  ["S50","Atlanta Hawks — Justin Anderson review","48 games and first-16-games rehabilitation context","https://www.nba.com/hawks/features/five-things-know-about-justin-andersons-2018-19-season"],
+  ["S51","Atlanta Hawks — Alex Poythress review","Atlanta/Erie development role context","https://www.nba.com/hawks/five-things-know-about-alex-poythress-2018-19-season"],
+  ["S52","Atlanta Hawks — Miles Plumlee review","18 games and 173-minute small-sample context","https://www.nba.com/hawks/features/five-things-know-about-miles-plumlees-2018-19-season"],
+  ["S53","Atlanta Hawks — Daniel Hamilton waived","Feb. 7 waiver and roster-availability boundary","https://www.nba.com/hawks/atlanta-hawks-request-waivers-daniel-hamilton"],
 ];
 
 const wb = Workbook.create();
@@ -349,6 +376,7 @@ const readme = wb.worksheets.add("README");
 const ledger = wb.worksheets.add("Game Ledger");
 const assignment = wb.worksheets.add("ATL Assignment");
 const receivers = wb.worksheets.add("ATL Receivers");
+const priors = wb.worksheets.add("ATL Priors");
 const minutes = wb.worksheets.add("Season Minutes");
 const draftBoardSheet = wb.worksheets.add("2018 Draft Board");
 const spurs = wb.worksheets.add("Spurs Impact");
@@ -398,8 +426,8 @@ function body(range) {
 
 // README
 readme.showGridLines = false;
-title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / DRAFT BOARD v0.6");
-readme.getRange("A4:H4").values = [["Status","ATL_RECEIVER_PASS / OUTCOME_HOLD","Canon","v0.24 PARTIAL","Manuscript","BLOCKED","Built","2026-08-29"]];
+title(readme, "A1:H2", "ATLANTA 2018-19 — CAUSALITY LEDGER / DRAFT BOARD v0.7");
+readme.getRange("A4:H4").values = [["Status","PRIOR_METHOD_HOLD / OUTCOME_INPUTS_HOLD","Canon","v0.25 PARTIAL","Manuscript","BLOCKED","Built","2026-09-02"]];
 section(readme.getRange("A4:H4"));
 readme.getRange("A6:H6").values = [["Verified baseline","Value","Expected","Check","Simulation guardrail","Low","High","Check"]];
 header(readme.getRange("A6:H6"));
@@ -428,13 +456,17 @@ readme.getRange("A15:H19").values = [
 ];
 for (let r = 15; r <= 19; r++) readme.getRange(`B${r}:H${r}`).merge();
 body(readme.getRange("A15:H19"));
-readme.getRange("A21:H21").merge();
-readme.getRange("A21").values = [["NEXT: preregister player production / pB / impact priors → fixed-hash outcome → opponent W/L → standings → lottery"]];
-readme.getRange("A21").format.fill = paleYellow;
-readme.getRange("A21").format.font = { color: navy, bold: true };
-readme.getRange("A21").format.wrapText = true;
-readme.getRange("A21").format.rowHeight = 34;
-readme.getRange("A1:H21").format.font = { name: "Aptos" };
+readme.getRange("A20:H20").merge();
+readme.getRange("A20").values = [["6 · Same-805-minute firewall, interaction=0, opposite LOW/HIGH comparator, and exact seed encoding are specified. Numeric production/fatigue/logit calibration remains HOLD."]];
+readme.getRange("A20").format.fill = paleBlue;
+readme.getRange("A20").format.wrapText = true;
+readme.getRange("A22:H22").merge();
+readme.getRange("A22").values = [["NEXT: calibrate shrinkage + fatigue + logit scale → audit pB/workload → fixed-hash outcome → opponent W/L → standings → lottery"]];
+readme.getRange("A22").format.fill = paleYellow;
+readme.getRange("A22").format.font = { color: navy, bold: true };
+readme.getRange("A22").format.wrapText = true;
+readme.getRange("A22").format.rowHeight = 34;
+readme.getRange("A1:H22").format.font = { name: "Aptos" };
 readme.getRange("A:H").format.columnWidth = 18;
 readme.getRange("B:B").format.columnWidth = 44;
 readme.getRange("E:E").format.columnWidth = 24;
@@ -442,19 +474,19 @@ readme.freezePanes.freezeRows(4);
 
 // Game Ledger
 ledger.showGridLines = false;
-title(ledger, "A1:Y2", "82-GAME IMMUTABLE BASELINE + COUNTERFACTUAL CONTROL FIELDS");
-ledger.getRange("A3:Y3").merge();
+title(ledger, "A1:Z2", "82-GAME IMMUTABLE BASELINE + COUNTERFACTUAL CONTROL FIELDS");
+ledger.getRange("A3:Z3").merge();
 ledger.getRange("A3").values = [["Blue = official baseline · Yellow = future inputs · Gray = formula/control fields · All counterfactual outcomes remain HOLD"]];
 ledger.getRange("A3").format.fill = lightGray;
 ledger.getRange("A3").format.font = { color: gray, italic: true };
-const gameHeaders = ["Game","Date","Site","Opponent","Actual","ATL Pts","Opp Pts","Margin","OT periods","Team min","Cum W","Cum L","Rest days","B2B","Contact","Story selected","Protagonist status","Protagonist min","Spellman donor","Named receiver pool","Minute check","Outcome status","CF result","Downstream","Source ID"];
-ledger.getRange("A5:Y5").values = [gameHeaders];
-header(ledger.getRange("A5:Y5"));
+const gameHeaders = ["Game","Date","Site","Opponent","Actual","ATL Pts","Opp Pts","Margin","OT periods","Team min","Cum W","Cum L","Rest days","B2B","Contact","Story selected","Protagonist status","Protagonist min","Spellman donor","Named receiver pool","Minute check","Outcome status","CF result","Downstream","Source ID","Event ID"];
+ledger.getRange("A5:Z5").values = [gameHeaders];
+header(ledger.getRange("A5:Z5"));
 const gameRows = games.map((g) => {
   const cf = atlCounterfactualRow(g);
-  return [g[0],new Date(`${g[1]}T12:00:00Z`),g[2],g[3],g[4],g[5],g[6],null,g[7],null,null,null,null,null,cf.contact,cf.storySelected,cf.status,cf.protagonistMinutes,cf.donor,cf.reserveReceiver,null,"HOLD","HOLD","PRODUCTION_PRIOR_PENDING","S01/S02/S03/S40/S44"];
+  return [g[0],new Date(`${g[1]}T12:00:00Z`),g[2],g[3],g[4],g[5],g[6],null,g[7],null,null,null,null,null,cf.contact,cf.storySelected,cf.status,cf.protagonistMinutes,cf.donor,cf.reserveReceiver,null,"HOLD","HOLD","OUTCOME_INPUTS_PENDING","S01/S02/S03/S40/S44",`ATL_2018_19_G${String(g[0]).padStart(3,"0")}`];
 });
-ledger.getRange(`A6:Y${5+gameRows.length}`).values = gameRows;
+ledger.getRange(`A6:Z${5+gameRows.length}`).values = gameRows;
 ledger.getRange("H6:H87").formulasR1C1 = Array.from({length:82},()=>["=RC[-2]-RC[-1]"]);
 ledger.getRange("J6:J87").formulasR1C1 = Array.from({length:82},()=>["=240+25*RC[-1]"]);
 ledger.getRange("K6:K87").formulas = games.map((_,i)=>[i===0?'=IF(E6="W",1,0)':`=K${5+i}+IF(E${6+i}="W",1,0)`]);
@@ -465,11 +497,11 @@ ledger.getRange("U6:U87").formulasR1C1 = Array.from({length:82},()=>["=RC[-2]-RC
 ledger.getRange("B6:B87").setNumberFormat("yyyy-mm-dd");
 ledger.getRange("M6:M87").setNumberFormat("0");
 ledger.getRange("R6:U87").setNumberFormat("0.0");
-ledger.getRange("A6:Y87").format.borders = { preset: "all", style: "thin", color: "#E4E7EC" };
+ledger.getRange("A6:Z87").format.borders = { preset: "all", style: "thin", color: "#E4E7EC" };
 ledger.getRange("A6:O87").format.fill = "#FFFFFF";
 ledger.getRange("P6:T87").format.fill = paleYellow;
-ledger.getRange("U6:Y87").format.fill = lightGray;
-ledger.getRange("A5:Y87").format.font = { name: "Aptos", size: 9 };
+ledger.getRange("U6:Z87").format.fill = lightGray;
+ledger.getRange("A5:Z87").format.font = { name: "Aptos", size: 9 };
 ledger.getRange("D:D").format.columnWidth = 22;
 ledger.getRange("B:B").format.columnWidth = 12;
 ledger.getRange("O:O").format.columnWidth = 12;
@@ -477,13 +509,14 @@ ledger.getRange("Q:Q").format.columnWidth = 25;
 ledger.getRange("V:W").format.columnWidth = 16;
 ledger.getRange("X:X").format.columnWidth = 27;
 ledger.getRange("Y:Y").format.columnWidth = 24;
+ledger.getRange("Z:Z").format.columnWidth = 22;
 ledger.getRange("A:A").format.columnWidth = 7;
 ledger.getRange("C:C").format.columnWidth = 7;
 ledger.getRange("E:N").format.columnWidth = 10;
 ledger.getRange("P:U").format.columnWidth = 13;
 ledger.freezePanes.freezeRows(5);
 ledger.freezePanes.freezeColumns(4);
-ledger.tables.add("A5:Y87", true, "GameLedgerTable");
+ledger.tables.add("A5:Z87", true, "GameLedgerTable");
 
 // Atlanta availability and Erie assignment preregistration
 assignment.showGridLines = false;
@@ -620,6 +653,124 @@ receivers.freezePanes.freezeColumns(4);
 receivers.tables.add("A6:R37", true, "AtlReceiverAllocationTable");
 receivers.tables.add("A42:J47", true, "AtlReceiverSummaryTable");
 
+// ATL production / impact prior preregistration
+priors.showGridLines = false;
+title(priors, "A1:V2", "ATLANTA 2018-19 — PLAYER PRODUCTION / IMPACT METHOD & CALIBRATION HOLD");
+priors.getRange("A4:V4").values = [["Status","PRIOR_METHOD_HOLD",null,"Canon","v0.25 PARTIAL",null,"Outcome","INPUTS_HOLD",null,"Data cutoff","2026-09-02",null,"Authority","ATLANTA_2018_19_PLAYER_PRODUCTION_PRIORS.md",null,null,null,null,null,null,null,null]];
+priors.getRange("B4:C4").merge();
+priors.getRange("E4:F4").merge();
+priors.getRange("H4:I4").merge();
+priors.getRange("K4:L4").merge();
+priors.getRange("N4:V4").merge();
+section(priors.getRange("A4:V4"));
+
+priors.getRange("A6:B6").values = [["Impact shrinkage candidate (CALIBRATION HOLD)","Value"]];
+header(priors.getRange("A6:B6"));
+priors.getRange("A7:A13").values = [["Common impact mean"],["Shrink pseudo-minutes"],["Band base"],["Band numerator"],["Impact floor"],["Impact ceiling"],["Protagonist band"]];
+priors.getRange("B7:B13").values = [[-2.75],[750],[0.75],[500],[-6],[2],[1.5]];
+body(priors.getRange("A7:B13"));
+priors.getRange("B7:B13").format.fill = paleYellow;
+priors.getRange("B7:B13").setNumberFormat("0.000");
+
+priors.getRange("D6:F6").values = [["Outcome / fatigue candidate","Value","Secondary"]];
+header(priors.getRange("D6:F6"));
+priors.getRange("D7:D13").values = [["Logit k"],["Interaction"],["G League load weight"],["Fatigue floor"],["M24 coefficient"],["M72 threshold / coefficient"],["M7 threshold / coefficient"]];
+priors.getRange("E7:E13").values = [["HOLD"],[0],[0.85],[-0.5],[0.0125],[45],[120]];
+priors.getRange("F7:F13").values = [[null],[null],[null],[null],[null],[0.005],[0.0025]];
+body(priors.getRange("D7:F13"));
+priors.getRange("E7:F13").format.fill = paleYellow;
+priors.getRange("E7:F13").setNumberFormat("0.0000");
+priors.getRange("D14").values = [["Seed"]];
+priors.getRange("E14:V14").merge();
+priors.getRange("E14").values = [["FIRST_REBOUND|R09|ATL_2018_19|PRIOR_v1"]];
+priors.getRange("D15").values = [["SHA-256"]];
+priors.getRange("E15:V15").merge();
+priors.getRange("E15").values = [["228aac4642a599e4545ed878efda7952bf04bf1b0ad73b20b217d44f5aa19cab"]];
+priors.getRange("D16").values = [["Hash / execution"]];
+priors.getRange("E16:V16").merge();
+priors.getRange("E16").values = [["event_id=ATL_2018_19_G001..G082; h=(BE64(SHA256(seed|event_id))>>11)/2^53; HOLD — calibration, pB, and workload absent"]];
+section(priors.getRange("D14:V16"));
+
+const priorHeaders = ["Player","Role","Observed MIN","Observed BPM","Candidate mean","Weight","Candidate BASE","Band","Candidate LOW","Candidate HIGH","Observed PTS/36","Observed TRB/36","Observed AST/36","Observed STL/36","Observed BLK/36","Observed TOV/36","Observed PF/36","Observed TS%","Observed 3PA/36","Observed 3P%","Interpretation","Source ID"];
+priors.getRange("A18:V18").values = [priorHeaders];
+header(priors.getRange("A18:V18"));
+priors.getRange("A19:V24").values = atlPriorPlayers.map((p)=>[
+  p[0],p[1],p[2],p[3],null,null,null,null,null,null,
+  ...p.slice(4,14),p[14],p[15],
+]);
+for (let row = 19; row <= 24; row++) {
+  priors.getRange(`E${row}`).formulas = [["=$B$7"]];
+  priors.getRange(`F${row}`).formulas = [[`=IF(D${row}="",0,C${row}/(C${row}+$B$8))`]];
+  priors.getRange(`G${row}`).formulas = [[`=IF(D${row}="",E${row},F${row}*D${row}+(1-F${row})*E${row})`]];
+  priors.getRange(`H${row}`).formulas = [[`=IF(D${row}="",$B$13,$B$9+$B$10/(C${row}+$B$10))`]];
+  priors.getRange(`I${row}`).formulas = [[`=MAX($B$11,G${row}-H${row})`]];
+  priors.getRange(`J${row}`).formulas = [[`=MIN($B$12,G${row}+H${row})`]];
+}
+body(priors.getRange("A19:V24"));
+priors.getRange("E19:J24").format.fill = lightGray;
+priors.getRange("C19:Q24").setNumberFormat("0.000");
+priors.getRange("R19:R24").setNumberFormat("0.0%");
+priors.getRange("S19:S24").setNumberFormat("0.0");
+priors.getRange("T19:T24").setNumberFormat("0.0%");
+
+priors.getRange("A27:E27").merge();
+priors.getRange("A27").values = [["METHOD SELECTION — numeric option remains provisional until external calibration"]];
+section(priors.getRange("A27:E27"));
+priors.getRange("A29:E29").values = [["Option","Method","Benefit","Fatal risk","Decision"]];
+header(priors.getRange("A29:E29"));
+priors.getRange("A30:E33").values = atlPriorMethods;
+body(priors.getRange("A30:E33"));
+priors.getRange("E30:E33").format.fill = paleYellow;
+
+priors.getRange("A36:D36").values = [["Audit","Value","Expected","Check"]];
+header(priors.getRange("A36:D36"));
+priors.getRange("A37:A44").values = [["Candidate ordering"],["Candidate bounds"],["Protagonist minutes"],["Named receiver minutes"],["Same donor pool"],["Interaction"],["Calibration status"],["Outcome inputs"]];
+priors.getRange("B37:B44").formulas = [
+  ["=IF(AND(I19<=G19,G19<=J19,I20<=G20,G20<=J20,I21<=G21,G21<=J21,I22<=G22,G22<=J22,I23<=G23,G23<=J23,I24<=G24,G24<=J24),\"ORDERED\",\"FAIL\")"],
+  ["=IF(AND(MIN(I19:I24)>=$B$11,MAX(J19:J24)<=$B$12),\"IN RANGE\",\"FAIL\")"],
+  ["=SUM('Game Ledger'!$R$6:$R$87)"],
+  ["=SUM('ATL Receivers'!$L$7:$L$37)"],
+  ["=B39+B40"],
+  ["=$E$8"],
+  ["=\"HOLD\""],
+  ["=\"HOLD\""],
+];
+priors.getRange("C37:C44").values = [["ORDERED"],["IN RANGE"],[621.9],[183.1],[805],[0],["HOLD"],["HOLD"]];
+priors.getRange("D37:D44").formulas = [
+  ["=IF(B37=C37,\"PASS\",\"FAIL\")"],
+  ["=IF(B38=C38,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B39-C39)<0.001,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B40-C40)<0.001,\"PASS\",\"FAIL\")"],
+  ["=IF(ABS(B41-C41)<0.001,\"PASS\",\"FAIL\")"],
+  ["=IF(B42=C42,\"PASS\",\"FAIL\")"],
+  ["=IF(B43=C43,\"PASS\",\"FAIL\")"],
+  ["=IF(B44=C44,\"PASS\",\"FAIL\")"],
+];
+body(priors.getRange("A37:D44"));
+priors.getRange("D37:D44").format.fill = paleGreen;
+priors.getRange("B39:C42").setNumberFormat("0.000");
+priors.getRange("F36:V36").merge();
+priors.getRange("F36").values = [["CALIBRATION HOLD: F(M) candidate = -min(0.50, 0.0125×M24 + 0.005×max(0,M72-45) + 0.0025×max(0,M7-120)); G League candidate weight 0.85; automatic new injury forbidden."]];
+priors.getRange("F36").format.fill = paleYellow;
+priors.getRange("F36").format.wrapText = true;
+priors.getRange("F37:V40").merge();
+priors.getRange("F37").values = [["OUTCOME FIREWALL: fixed-100-possession rotation delta uses the same 805 minutes. LOW = new LOW - donor HIGH; HIGH = new HIGH - donor LOW. Box values are not added. Exact scores are forbidden; numeric calibration and outcomes remain HOLD."]];
+priors.getRange("F37").format.fill = paleRed;
+priors.getRange("F37").format.wrapText = true;
+
+priors.getRange("A:V").format.columnWidth = 13;
+priors.getRange("A:A").format.columnWidth = 24;
+priors.getRange("B:B").format.columnWidth = 24;
+priors.getRange("D:D").format.columnWidth = 24;
+priors.getRange("U:U").format.columnWidth = 46;
+priors.getRange("V:V").format.columnWidth = 18;
+priors.getRange("A4:V44").format.wrapText = true;
+priors.getRange("A4:V44").format.font = { name: "Aptos", size: 9 };
+priors.freezePanes.freezeRows(18);
+priors.freezePanes.freezeColumns(2);
+priors.tables.add("A18:V24", true, "AtlPriorPlayerTable");
+priors.tables.add("A29:E33", true, "AtlPriorMethodTable");
+
 // Season Minutes
 minutes.showGridLines = false;
 title(minutes, "A1:L2", "ATLANTA 2018-19 — ROSTER MINUTES & REALLOCATION FIREWALL");
@@ -676,7 +827,7 @@ minutes.tables.add("A5:L29", true, "SeasonMinutesTable");
 // 2018 Draft Board
 draftBoardSheet.showGridLines = false;
 title(draftBoardSheet, "A1:K2", "2018 PICKS 30-60 — COMPRESSED COUNTERFACTUAL BOARD");
-draftBoardSheet.getRange("A4:H4").values = [["Scanned picks",null,"Changed/cascade",null,"Unchanged",null,"Next blocker","ATL production / outcome prior"]];
+draftBoardSheet.getRange("A4:H4").values = [["Scanned picks",null,"Changed/cascade",null,"Unchanged",null,"Next blocker","ATL prior calibration + pB/workload"]];
 section(draftBoardSheet.getRange("A4:H4"));
 draftBoardSheet.getRange("B4").formulas = [["=COUNTA(A7:A37)"]];
 draftBoardSheet.getRange("D4").formulas = [["=COUNTIF(G7:G37,\"CHANGED\")+COUNTIF(G7:G37,\"CASCADE\")"]];
@@ -841,7 +992,7 @@ draft.getRange("A12").format.font = { bold: true, color: navy };
 draft.getRange("A12").format.wrapText = true;
 draft.getRange("A12").format.rowHeight = 36;
 draft.getRange("A14:J14").merge();
-draft.getRange("A14").values = [["FINAL BLOCKER: Atlanta's 82-game donor vector and 183.1 named receiver allocation are balanced. Preregister production and impact priors before standings/lottery."]];
+draft.getRange("A14").values = [["FINAL BLOCKER: Atlanta minutes and production/impact priors are balanced. Collect audited pregame pB and chronological player workload before standings/lottery."]];
 draft.getRange("A14").format.fill = paleRed;
 draft.getRange("A14").format.font = { bold: true, color: "#B42318" };
 draft.getRange("A14").format.wrapText = true;
@@ -857,19 +1008,19 @@ header(gates.getRange("A4:F4"));
 const gateRows = [
   ["G0","Changed-pick contract and direct-game baselines","Spurs 145.4 min; Dallas 1 min; Denver 36 min; ATL series all 0","PASS","None","Preserve team-specific caps and triggers"],
   ["G1","82 unique + 29-53 + score/OT checksum","82 rows; 29-53; 9,294 pts; 19,855 game-min","PASS","None","Preserve immutable baseline"],
-  ["G2","Rotation/assignment/impact priors before results","≥7 donor gate; 16 cap; Nov. 19 cost; Dec. 7-22 Erie","PASS","None","Preserve before outcome model"],
+  ["G2","Rotation/assignment/production method before results","Date vector plus observed rates and shrinkage candidates","PARTIAL","CF result","Calibrate parameters before outcome model"],
   ["G3","Every game minute-conserved; no NBA/Erie collision","621.9 protagonist + 183.1 named receivers = 805.0; 29 dates; zero balance","PASS","None","Preserve named receiver vector"],
   ["G4","All 82 games contact classified","43 DIRECT / 39 ROSTER","PASS","None","Upgrade CASCADE only with evidence"],
-  ["G5","Pregame-only pB; fixed latent u; no manual flip","Method selected; inputs absent","HOLD","CF result","Calibrate and preregister"],
-  ["G6","Chronological injury/fatigue/trade updates","Not executed","HOLD","CF result","Process in date order"],
+  ["G5","Pregame-only pB; fixed latent u; no manual flip","event ID/hash encoding specified; k and pB absent","PARTIAL","CF result","Calibrate k; define no-vig source/timestamp"],
+  ["G6","Chronological injury/fatigue/trade updates","Forward-only/no-auto-injury firewall; coefficients/workload absent","PARTIAL","CF result","Calibrate function; build workload in date order"],
   ["G7","No exact score invention; sensitivity isolated","No CF scores/results created","PASS","None","Keep results HOLD until model"],
   ["G8","Opponent W/L + league standings/tiebreaker","Not executed","HOLD","2019 lottery","Build league bridge"],
-  ["G9","Raw baseline immutable; run/model/seed logged","Baseline + protagonist + named receiver date vectors recorded","PARTIAL","Reproduction","Add production/outcome run manifest"],
+  ["G9","Raw baseline immutable; run/model/seed logged","Baseline + date vectors + prior manifest recorded","PARTIAL","Reproduction","Add pB/workload hashes and outcome run manifest"],
 ];
 gates.getRange("A5:F14").values = gateRows;
 body(gates.getRange("A5:F14"));
 gates.getRange("D5:D14").format.fill = paleYellow;
-gates.getRange("A16:F16").values = [["OVERALL","ATL_RECEIVER_ALLOCATION_PASS / OUTCOME_HOLD",null,null,null,"Preregister player production and game-impact priors before outcome execution"]];
+gates.getRange("A16:F16").values = [["OVERALL","PRIOR_METHOD_HOLD / OUTCOME_INPUTS_HOLD",null,null,null,"Calibrate shrinkage, fatigue, and logit scale before pB/workload outcome execution"]];
 section(gates.getRange("A16:F16"));
 gates.getRange("A:F").format.columnWidth = 20;
 gates.getRange("B:B").format.columnWidth = 34;
@@ -899,7 +1050,7 @@ await blob.save(outputPath);
 
 await fs.rm(previewDir, { recursive: true, force: true });
 await fs.mkdir(previewDir, { recursive: true });
-for (const sheetName of ["README","Game Ledger","ATL Assignment","ATL Receivers","Season Minutes","2018 Draft Board","Spurs Impact","Cascade Impact","Draft Bridge","Gate Audit","Sources"]) {
+for (const sheetName of ["README","Game Ledger","ATL Assignment","ATL Receivers","ATL Priors","Season Minutes","2018 Draft Board","Spurs Impact","Cascade Impact","Draft Bridge","Gate Audit","Sources"]) {
   const image = await wb.render({ sheetName, autoCrop: "all", scale: 1, format: "png" });
   const bytes = new Uint8Array(await image.arrayBuffer());
   await fs.writeFile(path.join(previewDir, `${sheetName.replaceAll(" ", "_")}.png`), bytes);
