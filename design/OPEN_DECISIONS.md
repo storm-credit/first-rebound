@@ -137,3 +137,16 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 | Chicago | 4 | **조건부 로스터 적합 선호 / 미승인** |
 
 두 선택 모두 R09의 2018-20 승패·로터리·픽 소유권 검증 전에는 팀·순번·계약·결말 동료를 LOCK하지 않는다. 사용자가 O-11A와 O-11B를 승인한 뒤에만 `canon/CAREER_TIMELINE.md`와 PROJECT_FREEZE 승격을 검토한다.
+
+### O-11C C안의 2023 이적 목적지 — AUTHOR_SELECTION_HOLD
+
+`research/PROTAGONIST_2023_TRADE_DESTINATION_OPTIONS.md`가 2023 당시 감독·전술·로스터·거래 자산·장기 나비효과를 비교한다. 사용자의 “이어서 진행”은 조사 계속 허가이며 C안이나 목적지 승인으로 확대하지 않는다.
+
+| 안 | 핵심 | 판정 |
+|---|---|---|
+| Indiana | Haliburton 옆 수비·리바운드·전환 연결, Chicago안 생존 시 같은 디비전 | **총괄 추천 / `CALCULATION_PENDING_LEAN`** |
+| Sacramento | Huerter 관계 회수, 경쟁팀의 역할 압력 | 관계 회수형 2순위 / 포워드 과밀 |
+| Memphis | Brooks 이탈 역할과 강팀 압박 | 전술 적합 높음 / Smart·코어 연쇄 고위험 |
+| Dallas | Luka·Kyrie 뒤 필요한 대형 수비 윙 | 역할 적합 높음 / 실제 역사 훼손 과대 |
+
+정확한 주인공 2022 계약·거래 대가·player-minute donor·2023 대표팀 비용 전에는 어느 목적지도 LOCK하지 않는다. 총괄 자체 검토는 통과했지만 독립 맹점 검토는 목적지 선택 뒤 별도로 남는다.
