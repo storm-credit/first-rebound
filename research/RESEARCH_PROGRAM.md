@@ -106,3 +106,11 @@
 - 확인된 2018 Atlanta 개발 환경: Lloyd Pierce와 Chris Jent를 포함한 코칭스태프, Therian Williams의 video/player development 경력, 당시 신인·John Collins 개발 조직
 - 다음 조사: 2018~23 Atlanta 코치별 공개 전문성·담당 선수·실제 훈련 언급, 합법적 비시즌 캠프·픽업런 접근 경로, 실존 선수별 공개 어투 자료
 - HOLD: 가상 반복 트레이너의 정확한 신원·경력·사적 훈련 내용, 전성기 기록·수상, 정확한 트래시 토크 문장
+
+### R15.1 Atlanta 2018-23 개발 경로 감사
+
+- 문서: `research/ATLANTA_2018_23_DEVELOPMENT_PATH.md`
+- 판정: `EVIDENCE_AUDIT_PASS / SEASON_FUNCTIONS_CANDIDATE`
+- 확인: Pierce→McMillan→Snyder 권한 변화, 2019-20 College Park 개장, 2020-21 College Park 불참, 2019 윙 추가, 2020 베테랑·빅 보강, 2022 Huerter 이탈·Murray 합류
+- 설계 상한: Atlanta에서는 주전급 투웨이 연결자까지, S급 포제션 엔진 완성은 두 번째 팀 이후
+- HOLD: 2019~23 player-minute·사용률·대표 경기·플레이오프 결과·2022 계약·2023 트레이드 대가

@@ -144,4 +144,17 @@ Indiana가 선택될 경우 Haliburton·Mathurin·Nembhard 관계는 별도 3-Ac
 - [Atlanta Hawks — Therian Williams의 video operations/player development 경력](https://www.nba.com/hawks/news/hawks-announce-basketball-operations-additions-promotions)
 - [Atlanta Hawks — Chris Jent와 DeAndre' Bembry의 체육관 작업 공개 사례](https://www.nba.com/hawks/deandre-bembry-extra-credit-and-court)
 
-다음 감사에서는 2018~23 실제 Atlanta 코칭스태프별 공개 전문성, 주인공이 참가할 수 있는 비시즌 훈련·픽업런, 정확한 접근 경로를 확인한다. 가상 트레이너는 실제 조직이 담당할 기능을 침범하지 않으며, 정확한 신원과 남는 기능은 감사 뒤에만 결정한다.
+Atlanta 2018~23의 코칭 시대·G League 가용성·주요 로스터 충돌은 1차 감사했다. 이후에는 실제 인물별 공개 전문성·주인공이 참가할 수 있는 비시즌 훈련·픽업런·정확한 접근 경로를 추가 확인한다. 가상 트레이너는 실제 조직이 담당할 기능을 침범하지 않으며, 정확한 신원과 남는 기능은 후속 감사 뒤에만 결정한다.
+
+## 11. Atlanta 2018-23 감사 반영
+
+상세 권위는 `research/ATLANTA_2018_23_DEVELOPMENT_PATH.md`로 이동한다.
+
+- Pierce 시기에는 수비 규칙·젊은 선수 개발과 출전 신뢰를 사용한다.
+- McMillan 시기에는 역할 압축·플레이오프 실행·닫는 라인업 경쟁을 사용한다.
+- Snyder는 2023년 2월 이후의 짧은 적합성 진단만 담당하며 과거 성장을 소급해 만들지 않는다.
+- 2020-21 College Park는 시즌에 참가하지 않았으므로 G League 성장 장면을 만들지 않는다.
+- 2021-22부터 반복 기술은 가상 트레이너와 NBA 팀 훈련이 중심이며, G League는 기본 경로가 아니다.
+- Chris Jent의 공개 개발 사례는 조직적 가능성의 근거이지 주인공 전담 개인교사 확정이 아니다.
+
+감사는 `EVIDENCE_AUDIT_PASS`지만 실제 인물별 정확한 지도 기술·사적 대화·말투는 계속 HOLD다.

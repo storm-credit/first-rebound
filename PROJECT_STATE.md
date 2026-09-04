@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-12 protagonist S-tier growth and relationship/voice author review; R09 inputs remain blocked`
-- 최근 설계 변경: `S-tier possession engine, scouting W-curve, real-first relationship and voice models recorded without canon promotion`
+- 현재 작업: `O-12C Atlanta 2019-23 role-minute pre-calculation; R09 inputs remain blocked`
+- 최근 설계 변경: `Atlanta five-season development path audited; S-tier completion deferred to the second-team arc`
 - 최근 정본 병합: `PR #47 / 7e38474`
-- 최근 설계 병합: `PR #48 / 7579a02`
+- 최근 설계 병합: `PR #49 / 32c77b5`
 
 ## 완료
 
@@ -98,6 +98,7 @@
 - [x] O-11 Atlanta 이후 4안·2020 라이벌 팀 4안 작성 — `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
 - [x] O-11C 2023 이적 목적지 4안 작성 — Indiana `CALCULATION_PENDING_LEAN / NOT_CANON`
 - [x] O-12 주인공 S급 성장·W자 평가·관계/말투 후보 작성 — `PASS_FOR_AUTHOR_REVIEW / NOT_CANON`
+- [x] O-12B Atlanta 2018~23 감독·G League·로스터 성장 경로 감사 — `EVIDENCE_AUDIT_PASS / NOT_CANON`
 
 ## 현재 결정 대기
 
@@ -106,7 +107,8 @@
 - [ ] O-11C 2023 이적 목적지 — Indiana 총괄 추천 / Sacramento 관계 회수형 대안 / Memphis·Dallas 고위험안
 - [ ] 목적지 선택 뒤 2022 계약·거래 자산 3안·player-minute donor·결말 동료 3-Act 원장·독립 검토
 - [ ] O-12 S+ 리바운드·포제션 전환 중심 투웨이 스타 상한의 작가 승인·독립 개연성 검토
-- [ ] 2018~23 Atlanta 실존 코치별 개발 기능·비시즌 훈련 접근 경로·말투 공개자료 감사와 가상 반복 트레이너의 잔여 기능 확정
+- [ ] Atlanta 실존 코치별 정확한 개인 지도 근거·비시즌 훈련 접근 경로·말투 공개자료와 가상 반복 트레이너의 잔여 기능 확정
+- [ ] 2019~23 Atlanta 시즌별 player-minute·사용률·대표 경기·플레이오프 생존 분기 계산
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
@@ -191,9 +193,14 @@
 48. 시즌마다 새 기술을 곧바로 플레이오프 자동화하지 않는다. 습득→사용→자동화와 상대의 다음 카운터를 기록한다.
 49. ‘동양인 실패’ 프레임은 외부 편견이지 서술자의 사실이 아니다. 정식 스카우팅의 기술 근거와 자극적 여론을 구분한다.
 50. 실존 선수를 기술 지급 NPC나 사적 악역으로 만들지 않는다. 실제 팀 관계·공개 활동을 우선하고 확인되지 않은 민감 갈등은 가상 인물로 분리한다.
+51. Atlanta 5시즌 안에 S급을 완성하지 않는다. 첫 팀 종료 상한은 실제 자산 가치가 있는 주전급 투웨이 연결자다.
+52. 2020-21 College Park는 시즌 불참이므로 3년차 G League 성장 장면을 만들지 않는다.
+53. Pierce·McMillan·Snyder의 권한과 시기를 합치지 않는다. Snyder는 2023년 2월 이후의 짧은 진단만 담당한다.
+54. 2021 ECF와 2022·2023 플레이오프를 자동 보존하거나 주인공 공로로 선점하지 않는다.
+55. 리바운드 전환만으로 S급 공격을 선언하지 않는다. 두 번째 팀 플레이오프에서 스크린·숏롤·미스매치·엘보 카운터가 유지돼야 한다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성은 작가 방향 후보로 기록했으며 정본 승격 전 독립 개연성 검토가 남아 있다. 수치 게이트의 다음 단계는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인하는 것이다. 그 뒤 82경기별 양방향 no-vig closing moneyline `pB`와 player-game workload를 수집·감사하며, 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성에 이어 O-12B에서 Atlanta 5시즌의 코칭·G League·로스터 경로를 감사했다. 다음 서사 계산은 2019~23 player-minute·사용률·대표 경기·플레이오프 생존 분기이며, 수치 게이트는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인해야 한다. 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

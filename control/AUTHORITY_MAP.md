@@ -73,6 +73,8 @@
 | NBA 장기 커리어·2020 라이벌 후보 맹점 검토 | `reviews/R02_3V_NBA_LONG_RANGE_OPTIONS_REVIEW.md` | AUTHOR_SELECTION 가능 판정, R16 독립 검수 대체 아님 |
 | 2023 이적 목적지 총괄 자체 검토 | `reviews/R01_2023_TRADE_DESTINATION_ORCHESTRATOR_REVIEW.md` | NOT_INDEPENDENT, 목적지 선택 뒤 독립 검수 필요 |
 | 주인공 스타 성장·관계 음성 총괄 자체 검토 | `reviews/R01_PROTAGONIST_STAR_GROWTH_ORCHESTRATOR_REVIEW.md` | NOT_INDEPENDENT, 정본 승격 전 독립 검수 필요 |
+| Atlanta 2018~23 실제 개발 환경·시즌별 성장 기능 | `research/ATLANTA_2018_23_DEVELOPMENT_PATH.md` | 코칭·G League 증거 감사 PASS, 기록·경기·결과 HOLD |
+| Atlanta 5시즌 성장 배정 총괄 맹점 검토 | `reviews/R01_ATLANTA_2018_23_GROWTH_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, R16 대체 아님 |
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |
 | 상업·유명인 관계 범위 중단 | `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md` | `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` |
 | 스폰서·멘토 맹점 검토 | `reviews/R02_3L_SPONSOR_MENTOR_REVIEW.md` | R16 독립 검수 대체 아님 |
