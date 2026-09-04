@@ -168,5 +168,10 @@
 | D-160 | DESIGN_DIRECTION | 시즌별 성장은 스카우팅 약점→실패→관계 기반 교정→카운터의 W자형 평가 곡선 | 한 시즌 핵심 기술 1개, 큰 등급 상승은 습득·사용·자동화 2~3시즌 뒤 후보 |
 | D-161 | DESIGN_DIRECTION | 기술·관계 고증은 실존 팀 코치·동료·공개 훈련을 우선하고, 기존 가상 반복 트레이너는 팀 밖 사적 반복 기능에 제한 | 정확한 실제 코치 기능·비시즌 접근 경로와 가상 트레이너 신원·세부 기능 HOLD |
 | D-162 | VOICE_DIRECTION | 주인공은 조용함을 유지하며 트래시 토크를 침묵·행동 중심, 건조한 응수, 제한적 선제 도발 순으로 사용 | 대사 예산 후보이며 실제 인물의 사적 모욕·차별 발언 창작 금지 |
+| D-163 | EVIDENCE_AUDIT_PASS | Atlanta 2018~23은 Pierce 개발·McMillan 실행·Snyder 짧은 진단의 세 감독 시대로 구분 | 실제 개인 지도 장면·대사는 HOLD |
+| D-164 | EVIDENCE_LOCK | College Park는 2020-21 G League 시즌에 참가하지 않아 주인공 3년차 assignment 성장 경로가 없음 | 2019-20 추가 assignment도 기본값은 사용하지 않으며 날짜·목적 HOLD |
+| D-165 | DESIGN_DIRECTION | Atlanta 5시즌의 성장 상한은 S급 완성이 아니라 타 팀이 자산을 지불할 주전급 투웨이 연결자 | S급 포제션 엔진 완성은 두 번째 팀의 권한·실패 뒤 후보 |
+| D-166 | CAUSAL_FIREWALL | 실제 2021 ECF·2022 Miami·2023 Boston 분기는 조건부 역사이며 주인공 대표 경기·공로를 선확정하지 않음 | 2019~23 player-minute·승패 재계산 전 HOLD |
+| D-167 | DESIGN_LEAN | 2023 가치 트레이드 C안은 S급 과속과 Atlanta 로스터 충돌을 함께 줄이는 계산 전 선호 유지 | 계약·목적지·대가 NOT_CANON |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
