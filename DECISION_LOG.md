@@ -173,5 +173,10 @@
 | D-165 | DESIGN_DIRECTION | Atlanta 5시즌의 성장 상한은 S급 완성이 아니라 타 팀이 자산을 지불할 주전급 투웨이 연결자 | S급 포제션 엔진 완성은 두 번째 팀의 권한·실패 뒤 후보 |
 | D-166 | CAUSAL_FIREWALL | 실제 2021 ECF·2022 Miami·2023 Boston 분기는 조건부 역사이며 주인공 대표 경기·공로를 선확정하지 않음 | 2019~23 player-minute·승패 재계산 전 HOLD |
 | D-167 | DESIGN_LEAN | 2023 가치 트레이드 C안은 S급 과속과 Atlanta 로스터 충돌을 함께 줄이는 계산 전 선호 유지 | 계약·목적지·대가 NOT_CANON |
+| D-168 | TRANSACTION_BLOCKER | 현행 정본에서 Spellman은 San Antonio 선수이므로 2019 Atlanta→Golden State의 Spellman-for-Jones 거래는 같은 자산으로 성립하지 않음 | Jones 886.9분·27선발과 2026 2라운드 픽 자동 보존 금지 |
+| D-169 | PRECALC_RANGE | Atlanta 주인공 후보 총분은 2019-20 900~1,100, 2020-21 1,200~1,450, 2021-22 1,250~1,500, 2022-23 1,750~2,050분 | 경기·선발·정확 사용률·기록 NOT_CANON |
+| D-170 | ROLE_FIREWALL | Young·Huerter·Collins·Hunter·Reddish·Capela·Bogdanović·Gallinari·Okongwu·Murray·Jalen Johnson의 중심 기능을 먼저 보호 | 저·중역할 후보군 합계를 공짜 예산으로 사용 금지 |
+| D-171 | CONTRACT_HOLD | 2022-23 Atlanta 5년차에는 2021 rookie extension 또는 2022 RFA 재계약이 필요 | 총괄은 2022 RFA 경로를 잠정 선호하지만 기간·금액·제한 NOT_CANON |
+| D-172 | CASCADE_HOLD | 2022-23 분 상승은 Huerter 분 자동 상속이 아니라 2022 No.16 지명·2023 Bey 거래 변화가 전제 | Griffin·Bey 삭제 금지, 새 팀·거래 연쇄 필요 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
