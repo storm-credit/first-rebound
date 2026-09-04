@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-12C Atlanta 2019-23 role-minute pre-calculation; R09 inputs remain blocked`
-- 최근 설계 변경: `Atlanta five-season development path audited; S-tier completion deferred to the second-team arc`
+- 현재 작업: `O-12D 2019 center transaction + 2022 contract/draft/trade prerequisites; exact player-game vectors blocked`
+- 최근 설계 변경: `Atlanta 2019-23 role-minute ranges precalculated; Spellman→Jones and 2022 roster cascades isolated`
 - 최근 정본 병합: `PR #47 / 7e38474`
-- 최근 설계 병합: `PR #49 / 32c77b5`
+- 최근 설계 병합: `PR #50 / ceb6695`
 
 ## 완료
 
@@ -99,6 +99,7 @@
 - [x] O-11C 2023 이적 목적지 4안 작성 — Indiana `CALCULATION_PENDING_LEAN / NOT_CANON`
 - [x] O-12 주인공 S급 성장·W자 평가·관계/말투 후보 작성 — `PASS_FOR_AUTHOR_REVIEW / NOT_CANON`
 - [x] O-12B Atlanta 2018~23 감독·G League·로스터 성장 경로 감사 — `EVIDENCE_AUDIT_PASS / NOT_CANON`
+- [x] O-12C Atlanta 2019~23 역할·총분 범위와 donor 우선순위 사전 계산 — `PRECALC_PASS_WITH_TRANSACTION_BLOCKERS / NOT_CANON`
 
 ## 현재 결정 대기
 
@@ -109,6 +110,9 @@
 - [ ] O-12 S+ 리바운드·포제션 전환 중심 투웨이 스타 상한의 작가 승인·독립 개연성 검토
 - [ ] Atlanta 실존 코치별 정확한 개인 지도 근거·비시즌 훈련 접근 경로·말투 공개자료와 가상 반복 트레이너의 잔여 기능 확정
 - [ ] 2019~23 Atlanta 시즌별 player-minute·사용률·대표 경기·플레이오프 생존 분기 계산
+- [ ] 2019 Spellman→Jones 실제 거래 붕괴 뒤 Atlanta 대체 센터·Golden State 2026 픽 연쇄
+- [ ] 2021 rookie extension 대 2022 restricted free agency와 5년차 계약
+- [ ] 2022 No.16 지명 변경 여부·AJ Griffin 새 팀·2023 Saddiq Bey 거래 생존 여부
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
@@ -198,9 +202,16 @@
 53. Pierce·McMillan·Snyder의 권한과 시기를 합치지 않는다. Snyder는 2023년 2월 이후의 짧은 진단만 담당한다.
 54. 2021 ECF와 2022·2023 플레이오프를 자동 보존하거나 주인공 공로로 선점하지 않는다.
 55. 리바운드 전환만으로 S급 공격을 선언하지 않는다. 두 번째 팀 플레이오프에서 스크린·숏롤·미스매치·엘보 카운터가 유지돼야 한다.
+56. 현행 정본에서 Spellman은 San Antonio 선수이므로 Atlanta가 그를 Golden State에 보내 Jones와 2026 2라운드 픽을 받는 실제 거래를 복사하지 않는다.
+57. Jones의 실제 886.9분·27선발을 203cm 포워드인 주인공에게 센터 분으로 넘기지 않는다. 2019 대체 센터가 먼저다.
+58. 시즌별 저·중역할 선수 총분 합계를 사용 가능한 공짜 예산으로 보지 않는다. 각 선수의 계약·리더십·슈팅·선발 대체 기능을 남긴다.
+59. Hunter·Reddish의 실제 부상이나 2021-22 코로나 대체분을 주인공의 무결석 보너스로 쓰지 않는다. 주인공의 의학적 가용성도 같은 규칙으로 계산한다.
+60. Huerter 이탈 2,188.5분을 주인공에게 복사하면서 Murray·AJ Griffin·Saddiq Bey를 모두 실제대로 유지하지 않는다.
+61. AJ Griffin 지명이나 Bey 거래가 바뀌면 두 선수를 삭제하지 않고 새 지명 팀·거래 연쇄를 연다.
+62. 4년 rookie-scale 종료 뒤 extension 또는 RFA 재계약 없이 2022-23 5년차에 출전시키지 않는다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성에 이어 O-12B에서 Atlanta 5시즌의 코칭·G League·로스터 경로를 감사했다. 다음 서사 계산은 2019~23 player-minute·사용률·대표 경기·플레이오프 생존 분기이며, 수치 게이트는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인해야 한다. 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성과 O-12B의 Atlanta 개발 환경 감사 뒤, O-12C에서 2019~23 역할·총분 범위를 사전 계산했다. 다음 선행 게이트는 2019 대체 센터, 2022 계약, 2022 No.16 지명과 2023 Bey 거래다. 이를 닫은 뒤에만 시즌별 player-game donor·사용률·대표 경기·플레이오프 생존을 계산한다. 수치 게이트는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인해야 한다. 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

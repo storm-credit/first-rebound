@@ -114,3 +114,12 @@
 - 확인: Pierce→McMillan→Snyder 권한 변화, 2019-20 College Park 개장, 2020-21 College Park 불참, 2019 윙 추가, 2020 베테랑·빅 보강, 2022 Huerter 이탈·Murray 합류
 - 설계 상한: Atlanta에서는 주전급 투웨이 연결자까지, S급 포제션 엔진 완성은 두 번째 팀 이후
 - HOLD: 2019~23 player-minute·사용률·대표 경기·플레이오프 결과·2022 계약·2023 트레이드 대가
+
+### R15.2 Atlanta 2019-23 역할·분 사전 계산
+
+- 문서: `simulation/ATLANTA_2019_23_ROLE_MINUTE_PRECALC.md`
+- 판정: `PRECALC_PASS_WITH_TRANSACTION_BLOCKERS / NOT_CANON`
+- 확인: NBA 공식 2019-20~2022-23 정규시즌·플레이오프 선수 총분, 저·중역할 donor 모집단, 핵심 기능 보호선
+- 새 blocker: 실제 2019 Spellman→Jones 거래는 현행 정본에서 불성립. Jones 886.9분·27선발과 2026 2라운드 픽 자동 보존 금지
+- 후보 범위: 2019-20 900~1,100분, 2020-21 1,200~1,450분, 2021-22 1,250~1,500분, 2022-23 1,750~2,050분
+- 다음 조사: 2019 대체 센터 시장·캡, 2022 extension/RFA, 2022 No.16 대체 보드, 2023 Bey 거래 생존, player-game donor
