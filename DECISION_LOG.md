@@ -163,5 +163,10 @@
 | D-155 | METHOD_PARTIAL | 피로는 forward-only 차이이며 새 부상 자동 생성 금지 | M24/M72/M7 계수·G League 0.85·임계값은 외부 교정 전 HOLD |
 | D-156 | METHOD_FIREWALL_PASS | interaction 0·고정 seed/hash·conditional latent·SENSITIVE/HOLD 규칙을 결과 전 잠금 | event ID `ATL_2018_19_G001..G082`, big-endian 53-bit 변환 명시 |
 | D-157 | REVIEW_BLOCKER | k=7.25 폐기, LOW/HIGH는 대체측과 donor 불확실성을 반대 방향으로 결합 | 수축·피로·logit scale 교정과 pB·workload 전 outcome runner 실행 금지 |
+| D-158 | AUTHOR_DIRECTION | 주인공은 늦게 농구를 시작했지만 선천적 운동·신체·손·공간인지·학습 재능을 가진 후발 천재 | 일반 IQ·손 감각이 BQ·슛을 자동 완성하지 않으며 반복 부채를 실제 실패로 지불 |
+| D-159 | AUTHOR_DIRECTION | 최종형은 리그 S급 투웨이 스타이며 리바운드·포제션 전환을 S+ 고유축으로 삼음 | 모든 기술 S 금지, 비헬리오센트릭·타이트 핸들·고난도 풀업 3 한계 유지, 기록·수상 HOLD |
+| D-160 | DESIGN_DIRECTION | 시즌별 성장은 스카우팅 약점→실패→관계 기반 교정→카운터의 W자형 평가 곡선 | 한 시즌 핵심 기술 1개, 큰 등급 상승은 습득·사용·자동화 2~3시즌 뒤 후보 |
+| D-161 | DESIGN_DIRECTION | 기술·관계 고증은 실존 팀 코치·동료·공개 훈련을 우선하고, 기존 가상 반복 트레이너는 팀 밖 사적 반복 기능에 제한 | 정확한 실제 코치 기능·비시즌 접근 경로와 가상 트레이너 신원·세부 기능 HOLD |
+| D-162 | VOICE_DIRECTION | 주인공은 조용함을 유지하며 트래시 토크를 침묵·행동 중심, 건조한 응수, 제한적 선제 도발 순으로 사용 | 대사 예산 후보이며 실제 인물의 사적 모욕·차별 발언 창작 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

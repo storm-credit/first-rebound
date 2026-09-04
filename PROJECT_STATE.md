@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-02
+- 기준일: 2026-09-04
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,9 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-11C 2023 trade destination author selection; R09 outcome inputs remain blocked`
-- 최근 설계 변경: `Indiana/Sacramento/Memphis/Dallas 2023 destination comparison recorded without canon promotion`
+- 현재 작업: `O-12 protagonist S-tier growth and relationship/voice author review; R09 inputs remain blocked`
+- 최근 설계 변경: `S-tier possession engine, scouting W-curve, real-first relationship and voice models recorded without canon promotion`
 - 최근 정본 병합: `PR #47 / 7e38474`
+- 최근 설계 병합: `PR #48 / 7579a02`
 
 ## 완료
 
@@ -96,6 +97,7 @@
 - [x] 전사 15~25%·NBA 75~85% 분량 방화벽과 G13 비율 검산 규칙 명시
 - [x] O-11 Atlanta 이후 4안·2020 라이벌 팀 4안 작성 — `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
 - [x] O-11C 2023 이적 목적지 4안 작성 — Indiana `CALCULATION_PENDING_LEAN / NOT_CANON`
+- [x] O-12 주인공 S급 성장·W자 평가·관계/말투 후보 작성 — `PASS_FOR_AUTHOR_REVIEW / NOT_CANON`
 
 ## 현재 결정 대기
 
@@ -103,6 +105,8 @@
 - [ ] O-11B 라이벌 2020 NBA 착지 — Chicago 조건부 로스터 적합안 / Charlotte 경쟁 강화안 / 재검토
 - [ ] O-11C 2023 이적 목적지 — Indiana 총괄 추천 / Sacramento 관계 회수형 대안 / Memphis·Dallas 고위험안
 - [ ] 목적지 선택 뒤 2022 계약·거래 자산 3안·player-minute donor·결말 동료 3-Act 원장·독립 검토
+- [ ] O-12 S+ 리바운드·포제션 전환 중심 투웨이 스타 상한의 작가 승인·독립 개연성 검토
+- [ ] 2018~23 Atlanta 실존 코치별 개발 기능·비시즌 훈련 접근 경로·말투 공개자료 감사와 가상 반복 트레이너의 잔여 기능 확정
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
@@ -182,9 +186,14 @@
 43. 2023 이적 팀을 실제 이후 성과를 알고 골라 우승 지름길로 만들지 않는다. 목적지는 2023 시점 감독·로스터·자산·역할로만 평가하고 후속 거래와 성과는 접촉 뒤 다시 계산한다.
 44. 주인공 거래 뒤 Brown/Toppin/Siakam, Holmes/#24/Barnes, Smart, Grant/PJ/Gafford 연쇄를 모두 보존하지 않는다. 소진된 캡·픽·분과 바뀐 영입 동기를 원장에 반영한다.
 45. Haliburton·Huerter 등 목적지의 유명 선수를 즉시 결말 동료로 정하지 않는다. 세 Act의 상호 비용과 비가역적 관계 변화 전에는 후보로만 둔다.
+46. 주인공을 S급으로 만들기 위해 슈팅·핸들·패스·수비를 모두 S로 올리지 않는다. 리바운드·포제션 전환이 고유 S+이며 타이트 핸들·고난도 풀업 3 한계는 남긴다.
+47. 일반 지능·손 감각을 BQ·엘리트 슈팅의 자동 완성으로 쓰지 않는다. 농구 사례·압박 반복·코칭·실패 비용을 통과해야 한다.
+48. 시즌마다 새 기술을 곧바로 플레이오프 자동화하지 않는다. 습득→사용→자동화와 상대의 다음 카운터를 기록한다.
+49. ‘동양인 실패’ 프레임은 외부 편견이지 서술자의 사실이 아니다. 정식 스카우팅의 기술 근거와 자극적 여론을 구분한다.
+50. 실존 선수를 기술 지급 NPC나 사적 악역으로 만들지 않는다. 실제 팀 관계·공개 활동을 우선하고 확인되지 않은 민감 갈등은 가상 인물로 분리한다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 분 재배분도 검산했다. 다음은 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인하는 단계다. 그 뒤 82경기별 양방향 no-vig closing moneyline `pB`와 player-game workload를 수집·감사하며, 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성은 작가 방향 후보로 기록했으며 정본 승격 전 독립 개연성 검토가 남아 있다. 수치 게이트의 다음 단계는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인하는 것이다. 그 뒤 82경기별 양방향 no-vig closing moneyline `pB`와 player-game workload를 수집·감사하며, 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

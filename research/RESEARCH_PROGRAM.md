@@ -96,3 +96,13 @@
 - 확인: 2018 PUMA 농구 재진입·신인군·한국 성장, 2020 팬데믹 신발 계약 지연, 2021 NIL 정책 시작, Jordan의 Charlotte 구단주 기간, Shaq의 2023 Reebok 직책
 - LOCK: 주인공 PUMA, 라이벌 adidas, 신인 즉시 시그니처 금지, Kobe 제한 접점, 역할별 인선 권한
 - HOLD: 계약액·기간·행사일·가상 에이전트 이름·2020 Draft 팀 내부 멘토
+
+## R15 주인공 스타 성장·관계·음성 연구
+
+- 성장 설계: `design/PROTAGONIST_STAR_GROWTH_MODEL.md`
+- 관계·음성 설계: `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`
+- 현재 상태: `AUTHOR_DIRECTION_RECORDED / CANON_PROMOTION_HOLD`
+- 확인된 외부 가능성 기준선: Embiid의 15세 입문, Siakam의 늦은 입문·27순위 뒤 올NBA 성장, Butler의 30순위 뒤 올스타·올NBA 성장
+- 확인된 2018 Atlanta 개발 환경: Lloyd Pierce와 Chris Jent를 포함한 코칭스태프, Therian Williams의 video/player development 경력, 당시 신인·John Collins 개발 조직
+- 다음 조사: 2018~23 Atlanta 코치별 공개 전문성·담당 선수·실제 훈련 언급, 합법적 비시즌 캠프·픽업런 접근 경로, 실존 선수별 공개 어투 자료
+- HOLD: 가상 반복 트레이너의 정확한 신원·경력·사적 훈련 내용, 전성기 기록·수상, 정확한 트래시 토크 문장
