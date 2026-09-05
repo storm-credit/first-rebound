@@ -207,3 +207,15 @@ Koufos는 실제 NBA 거래망을 가장 적게 훼손하지만 실제 CSKA 2년
 2021-22 후보 총분 1,250~1,500은 2,000분 문턱 아래다. 정확한 선발도 41 미만이어야 일반 30순위 qualifying offer 구조가 유지된다. 1년 QO 수락은 2023 거래에 선수 동의를 요구하므로 현행 C안과 함께 기본값으로 두지 않는다.
 
 정확한 센터 계약·15인 자리·player-game 분, 주인공 계약 기간·금액·옵션, 2022 No.16/AJ Griffin과 2023 Bey 거래는 `HOLD`다.
+
+## O-12E cap–draft–trade 연쇄 — REVISED_CALCULATION_HOLD
+
+`simulation/ATLANTA_2019_22_CAP_DRAFT_TRADE_CASCADE.md`에서 O-12D 추천을 실제 다팀 역사에 대조했다.
+
+- Koufos는 Jones의 표준계약 한 자리를 대체할 수 있으나 2019 room MLE/room 사용 순서와 보장액은 HOLD.
+- Murray·Huerter 거래는 기능과 재정상 보존 우선.
+- Huerter 이탈 뒤 spot-up shooting 수요가 있어 AJ Griffin 16순위 지명을 유지하는 편이 최소 훼손.
+- Bey 영입을 제거하면 Golden State–Detroit–Portland 4팀 거래도 깨지므로 거래 보존을 저훼손 기본값으로 둠. Atlanta의 영입 동기는 별도 검증.
+- 그 대가로 주인공 2022-23 후보 창을 64~72경기·24~26분·**1,550~1,800분**으로 수정.
+
+이는 정확 기록이나 정본이 아니다. 2023 가치 트레이드 대가도 낮아진 역할에 맞춰 다시 계산한다.
