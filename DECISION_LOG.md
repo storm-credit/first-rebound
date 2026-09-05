@@ -184,5 +184,11 @@
 | D-176 | QO_FIREWALL | 10~30순위 4년차의 41선발 또는 2,000분 기준을 넘으면 9순위 수준 QO가 적용 | 주인공 2021-22 후보는 1,250~1,500분·41선발 미만, 정확 선발 NOT_CANON |
 | D-177 | CONTRACT_LEAN | 2022 QO 제시 뒤 Atlanta와 직접 다년 RFA 재계약을 5년차 계산 후보 1순위로 둠 | 3~4년·시장 비교 창만 허용, 정확 금액·옵션·보장 NOT_CANON |
 | D-178 | TRADE_FIREWALL | 1년 QO 수락은 2023 가치 트레이드에 선수 동의가 필요하므로 기본 경로에서 제외 | 외부 offer sheet도 상대 팀 cap/roster 원장 없이는 사용 금지 |
+| D-179 | ROSTER_PASS | 2019 Koufos 후보는 미성립 Jones 거래의 표준계약 한 자리를 1:1로 대체 가능 | 1년 완전보장·room MLE/room 사용 순서와 exact 분은 HOLD |
+| D-180 | ASSET_LOCK | Spellman–Jones 거래가 없으므로 Atlanta는 Golden State의 2026 2라운드 픽을 받지 않음 | 이후 실제 사용 시점 확인 전 MISSING_ASSET_LEDGER 유지 |
+| D-181 | TRANSACTION_LEAN | 2022 Murray·Huerter 거래와 16순위 AJ Griffin 지명을 저훼손 기준선으로 보존 | 정확 tax·분·결과 HOLD, Griffin의 미래 경력 소급 금지 |
+| D-182 | MULTITEAM_FIREWALL | Bey를 제거하면 Golden State–Detroit–Portland를 포함한 4팀 거래 전체를 재계산해야 함 | Bey 628.6분과 Atlanta 2라운드 픽 5장을 선택적으로 분리 금지 |
+| D-183 | RANGE_SUPERSEDES_PART | D-169의 2022-23 1,750~2,050분 후보를 1,550~1,800분으로 하향 | 2019-20~2021-22 범위는 유지, 정확 경기·선발·사용률 NOT_CANON |
+| D-184 | ROLE_LEAN | Atlanta 5년차는 24~26분의 고급 6맨·매치업 선발·일부 클로징 카드 | S급 완성은 두 번째 팀, 2023 거래 대가는 하향 재계산 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
