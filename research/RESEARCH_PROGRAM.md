@@ -123,3 +123,13 @@
 - 새 blocker: 실제 2019 Spellman→Jones 거래는 현행 정본에서 불성립. Jones 886.9분·27선발과 2026 2라운드 픽 자동 보존 금지
 - 후보 범위: 2019-20 900~1,100분, 2020-21 1,200~1,450분, 2021-22 1,250~1,500분, 2022-23 1,750~2,050분
 - 다음 조사: 2019 대체 센터 시장·캡, 2022 extension/RFA, 2022 No.16 대체 보드, 2023 Bey 거래 생존, player-game donor
+
+### R15.3 2019 대체 센터·2022 계약 선택지
+
+- 문서: `research/ATLANTA_2019_CENTER_2022_CONTRACT_OPTIONS.md`
+- 판정: `PASS_FOR_AUTHOR_SELECTION / TRANSACTION_CALCULATION_HOLD / NOT_CANON`
+- 2019 검증: Koufos·Monroe·Vonleh·Noah의 실제 2018-19 NBA 표본과 2019 계약 이동
+- 2019 총괄 추천: Kosta Koufos `CALCULATION_LEAN`; 실제 CSKA 2년 계약을 이길 보장·역할 필요
+- 2022 검증: 3·4년차 팀 옵션, rookie extension, RFA/QO, 41선발·2,000분 starter criteria, 1년 계약 거래 동의
+- 2022 총괄 추천: QO 제시 뒤 Atlanta와 직접 다년 RFA 재계약 `CALCULATION_LEAN`
+- 다음 조사: 2019 Atlanta cap·15인 자리와 Jones 분산, 2022 계약액별 cap/세금, No.16/AJ Griffin/Bey 거래 연쇄
