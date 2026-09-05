@@ -77,6 +77,8 @@
 | Atlanta 5시즌 성장 배정 총괄 맹점 검토 | `reviews/R01_ATLANTA_2018_23_GROWTH_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, R16 대체 아님 |
 | Atlanta 2019~23 역할·총분 범위와 donor 선행조건 | `simulation/ATLANTA_2019_23_ROLE_MINUTE_PRECALC.md` | NOT_CANON, 거래·계약 blocker 뒤 player-game 계산 |
 | Atlanta 2019~23 분 사전 계산 총괄 맹점 검토 | `reviews/R01_ATLANTA_2019_23_MINUTE_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, R16 대체 아님 |
+| 2019 Atlanta 대체 센터·2022 5년차 계약 비교 | `research/ATLANTA_2019_CENTER_2022_CONTRACT_OPTIONS.md` | Koufos+직접 다년 RFA 총괄 추천, 계약·분·거래 NOT_CANON |
+| 대체 센터·계약 총괄 맹점 검토 | `reviews/R01_ATLANTA_CENTER_CONTRACT_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, cap/roster·R16 검토 전 정본 승격 금지 |
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |
 | 상업·유명인 관계 범위 중단 | `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md` | `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` |
 | 스폰서·멘토 맹점 검토 | `reviews/R02_3L_SPONSOR_MENTOR_REVIEW.md` | R16 독립 검수 대체 아님 |
