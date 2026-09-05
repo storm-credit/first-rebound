@@ -178,5 +178,11 @@
 | D-170 | ROLE_FIREWALL | Young·Huerter·Collins·Hunter·Reddish·Capela·Bogdanović·Gallinari·Okongwu·Murray·Jalen Johnson의 중심 기능을 먼저 보호 | 저·중역할 후보군 합계를 공짜 예산으로 사용 금지 |
 | D-171 | CONTRACT_HOLD | 2022-23 Atlanta 5년차에는 2021 rookie extension 또는 2022 RFA 재계약이 필요 | 총괄은 2022 RFA 경로를 잠정 선호하지만 기간·금액·제한 NOT_CANON |
 | D-172 | CASCADE_HOLD | 2022-23 분 상승은 Huerter 분 자동 상속이 아니라 2022 No.16 지명·2023 Bey 거래 변화가 전제 | Griffin·Bey 삭제 금지, 새 팀·거래 연쇄 필요 |
+| D-173 | EVIDENCE_PASS | 2019 대체 센터 시장은 Koufos·Monroe·Vonleh·Noah 4안을 비교 | 직전 시즌 표본은 workload 관측치일 뿐 Atlanta 분 자동 이전 금지 |
+| D-174 | DESIGN_LEAN | 실제 NBA 거래망 훼손이 가장 작은 Kosta Koufos를 2019 대체 센터 계산 후보 1순위로 둠 | CSKA 2년 계약을 이길 보장·역할과 Atlanta cap/15인 자리 검산 전 NOT_CANON |
+| D-175 | CONTRACT_RULE_PASS | 2018 1라운더의 2022 RFA에는 3·4년차 팀 옵션과 QO가 필요 | 옵션 행사일·정확한 rookie-scale 금액은 계약 원장 전 HOLD |
+| D-176 | QO_FIREWALL | 10~30순위 4년차의 41선발 또는 2,000분 기준을 넘으면 9순위 수준 QO가 적용 | 주인공 2021-22 후보는 1,250~1,500분·41선발 미만, 정확 선발 NOT_CANON |
+| D-177 | CONTRACT_LEAN | 2022 QO 제시 뒤 Atlanta와 직접 다년 RFA 재계약을 5년차 계산 후보 1순위로 둠 | 3~4년·시장 비교 창만 허용, 정확 금액·옵션·보장 NOT_CANON |
+| D-178 | TRADE_FIREWALL | 1년 QO 수락은 2023 가치 트레이드에 선수 동의가 필요하므로 기본 경로에서 제외 | 외부 offer sheet도 상대 팀 cap/roster 원장 없이는 사용 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
