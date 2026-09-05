@@ -192,3 +192,18 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 2019년 실제 Jones 거래는 Atlanta가 Spellman을 보낸 거래이므로 현행 정본에서는 그대로 성립하지 않는다. Jones의 886.9분·27선발과 2026 2라운드 픽은 자동 보존하지 않는다.
 
 2022-23 상승은 Huerter 이탈분 복사가 아니라 AJ Griffin 지명과 Saddiq Bey 거래 동기가 달라지는 조건부 구조다. Griffin·Bey는 삭제하지 않으며 선택이 달라지면 새 팀·거래 원장을 연다. 정확한 경기·선발·사용률·개인 기록·플레이오프 결과는 계속 `HOLD`다.
+
+## O-12D 2019 대체 센터·2022 계약 — AUTHOR_SELECTION_HOLD
+
+`research/ATLANTA_2019_CENTER_2022_CONTRACT_OPTIONS.md`에서 실제 2019 시장과 2017 CBA의 rookie-scale/RFA 규칙을 비교했다.
+
+| 선택 | 총괄 추천 | 대안 | 상태 |
+|---|---|---|---|
+| 2019 대체 센터 | Kosta Koufos | Greg Monroe·Joakim Noah / Noah Vonleh 고위험 | `CALCULATION_LEAN / NOT_CANON` |
+| 2022 5년차 계약 | QO 제시 뒤 Atlanta와 직접 다년 재계약 | 2021 연장 / 외부 offer sheet / 1년 QO 수락 | `CALCULATION_LEAN / NOT_CANON` |
+
+Koufos는 실제 NBA 거래망을 가장 적게 훼손하지만 실제 CSKA 2년 계약을 이길 보장과 역할이 필요하다. 그의 직전 502분을 Jones의 886.9분으로 복사하지 않는다.
+
+2021-22 후보 총분 1,250~1,500은 2,000분 문턱 아래다. 정확한 선발도 41 미만이어야 일반 30순위 qualifying offer 구조가 유지된다. 1년 QO 수락은 2023 거래에 선수 동의를 요구하므로 현행 C안과 함께 기본값으로 두지 않는다.
+
+정확한 센터 계약·15인 자리·player-game 분, 주인공 계약 기간·금액·옵션, 2022 No.16/AJ Griffin과 2023 Bey 거래는 `HOLD`다.
