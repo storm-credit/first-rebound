@@ -19,6 +19,7 @@
 | O-11A C안의 2023 이적 목적지 4안 | `research/PROTAGONIST_2023_TRADE_DESTINATION_OPTIONS.md` | Indiana 계산 전 잠정 선호, 팀·계약·대가 NOT_CANON |
 | 주인공 S급 성장 상한·스카우팅 W곡선 후보 | `design/PROTAGONIST_STAR_GROWTH_MODEL.md` | AUTHOR_DIRECTION, 정본 승격 전 R09·독립 검토 필요 |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
+| 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |
 | 회차별 작업 입력 | `context-packs/` | 파생물, 정본 변경 불가 |
 | 독립 검수 | `reviews/INDEPENDENT_REVIEW.md` | 설계자와 분리된 관점 |
@@ -81,6 +82,7 @@
 | 대체 센터·계약 총괄 맹점 검토 | `reviews/R01_ATLANTA_CENTER_CONTRACT_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, cap/roster·R16 검토 전 정본 승격 금지 |
 | 2019 Koufos cap·2022 Griffin/Bey 거래 연쇄와 수정 분 | `simulation/ATLANTA_2019_22_CAP_DRAFT_TRADE_CASCADE.md` | 2022-23 1,550~1,800분 최신 후보, NOT_CANON |
 | cap·draft·trade 연쇄 총괄 맹점 검토 | `reviews/R01_ATLANTA_CAP_CASCADE_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, exact cap/player-game·R16 대체 아님 |
+| 라이벌 NBA 정체성·관계·콘퍼런스 총괄 맹점 검토 | `reviews/R01_RIVAL_NBA_IDENTITY_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, 작가 구조 선택·R09·R16 전 정본 승격 금지 |
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |
 | 상업·유명인 관계 범위 중단 | `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md` | `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` |
 | 스폰서·멘토 맹점 검토 | `reviews/R02_3L_SPONSOR_MENTOR_REVIEW.md` | R16 독립 검수 대체 아님 |
