@@ -133,3 +133,12 @@
 - 2022 검증: 3·4년차 팀 옵션, rookie extension, RFA/QO, 41선발·2,000분 starter criteria, 1년 계약 거래 동의
 - 2022 총괄 추천: QO 제시 뒤 Atlanta와 직접 다년 RFA 재계약 `CALCULATION_LEAN`
 - 다음 조사: 2019 Atlanta cap·15인 자리와 Jones 분산, 2022 계약액별 cap/세금, No.16/AJ Griffin/Bey 거래 연쇄
+
+### R15.4 2019·2022 cap–draft–trade 연쇄
+
+- 문서: `simulation/ATLANTA_2019_22_CAP_DRAFT_TRADE_CASCADE.md`
+- 판정: `CONDITIONAL_PASS / 2022_MINUTE_RANGE_REVISED / NOT_CANON`
+- 2019: Jones 표준계약 자리의 Koufos 1:1 roster 대체 PASS, room MLE/남은 room과 보장액 HOLD
+- 2022: Murray·Huerter 거래, AJ Griffin 16순위, Bey 4팀 거래를 저훼손 기준선으로 보존
+- 수정: 2022-23 주인공 1,750~2,050분 후보를 1,550~1,800분으로 하향
+- 다음 조사: 2019 transaction order, 2022 LOW/BASE/HIGH cap sheet, revised player-game donor, Bey 영입 동기
