@@ -142,3 +142,15 @@
 - 2022: Murray·Huerter 거래, AJ Griffin 16순위, Bey 4팀 거래를 저훼손 기준선으로 보존
 - 수정: 2022-23 주인공 1,750~2,050분 후보를 1,550~1,800분으로 하향
 - 다음 조사: 2019 transaction order, 2022 LOW/BASE/HIGH cap sheet, revised player-game donor, Bey 영입 동기
+
+### R15.5 라이벌 NBA 정체성·관계·콘퍼런스 구조
+
+- 설계: `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md`
+- 자체 검토: `reviews/R01_RIVAL_NBA_IDENTITY_BLINDSPOT_REVIEW.md`
+- 판정: `PASS_FOR_AUTHOR_DIRECTION_WITH_CONFERENCE_CONFLICT / NOT_CANON`
+- 총괄 추천: 대형 감속·템포 공격 지휘자, 강한 에고·공개적 야망·통제된 도발·통제욕
+- 관계 기준: 시즌 기능 라이벌·실존 시대 경쟁자·두 한국인 생애 라이벌의 세 층, 국가대표와 중립 센터의 제한적 기술 교환
+- 신체 기준: 인종적 생물학 한계는 서술 사실로 사용하지 않고 외부 편견과 개인의 생체·부상·훈련 한계를 분리
+- 새 충돌: Chicago 라이벌+Indiana 주인공은 모두 동부. 동서부 분리 선택 시 2023 서부 목적지 후보군 재평가
+- HOLD: 정확 신체·2020 팀/순번·2023 목적지·공동 센터/트레이너·수상/우승/역대 평가
+- 다음 조사: 작가 구조 선택 뒤 Chicago의 2020-21 사용률/분·ACL 의료 적합과 2023 서부 목적지 4안의 당시 자산·로스터 비교
