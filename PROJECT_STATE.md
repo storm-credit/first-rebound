@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.25 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-12E 2019 Koufos cap/roster test + 2022 contract cap ledger + No.16/Griffin/Bey cascade`
-- 최근 설계 변경: `2019 replacement-center market and 2022 contract structures compared; Koufos + direct multiyear RFA re-sign are NOT_CANON leans`
+- 현재 작업: `O-12F 2019 room-MLE transaction order + 2022 LOW/BASE/HIGH cap sheet + revised player-game donor`
+- 최근 설계 변경: `Griffin and Bey multi-team history preserved as low-damage baseline; 2022-23 protagonist range revised to 1,550-1,800 minutes, NOT_CANON`
 - 최근 정본 병합: `PR #47 / 7e38474`
-- 최근 설계 병합: `PR #51 / 31ba7ec`
+- 최근 설계 병합: `PR #52 / 89663b0`
 
 ## 완료
 
@@ -102,6 +102,8 @@
 - [x] O-12C Atlanta 2019~23 역할·총분 범위와 donor 우선순위 사전 계산 — `PRECALC_PASS_WITH_TRANSACTION_BLOCKERS / NOT_CANON`
 - [x] O-12D1 2019 대체 센터 4안 검증 — Koufos `CALCULATION_LEAN / NOT_CANON`
 - [x] O-12D2 2021 연장 대 2022 RFA 4구조 검증 — 직접 다년 RFA 재계약 `CALCULATION_LEAN / NOT_CANON`
+- [x] O-12E 2019 Koufos roster 대체와 2022 Murray/Huerter/Griffin/Bey 연쇄 1차 감사 — `CONDITIONAL_PASS / NOT_CANON`
+- [x] Griffin·Bey 실제 다팀 연쇄를 보존하기 위해 2022-23 후보 총분을 1,550~1,800으로 하향 — `REVISED_CANDIDATE / NOT_CANON`
 
 ## 현재 결정 대기
 
@@ -115,6 +117,8 @@
 - [ ] 2019 대체 센터 작가 선택 — Koufos 총괄 추천 / Monroe·Noah 대안 / Vonleh 고위험안
 - [ ] 2019 Koufos 후보 계약의 Atlanta cap·15인 자리와 Jones 886.9분 player-game 분산
 - [ ] 2022 계약 구조 작가 선택 — 직접 다년 RFA 재계약 총괄 추천 / 정확한 기간·금액 HOLD
+- [ ] 2022-23 수정 범위 1,550~1,800분 player-game donor와 Griffin·Bey 잔존 기능
+- [ ] Bey 4팀 거래 당일 대체 세계 Atlanta의 영입 동기 생존 여부
 - [ ] 2022 No.16 지명 변경 여부·AJ Griffin 새 팀·2023 Saddiq Bey 거래 생존 여부
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
@@ -216,9 +220,13 @@
 64. 2021-22에 41선발 또는 2,000분을 넘겨 놓고 30순위 일반 QO를 적용하지 않는다.
 65. 1년 QO를 수락시킨 뒤 선수 동의 없이 2023 가치 트레이드를 실행하지 않는다.
 66. 주인공의 2022 계약을 싸게 만든 뒤 Huerter·AJ Griffin·Bey의 분과 거래를 공짜로 제거하지 않는다.
+67. Griffin을 미래 실제 경력을 알고 2022년 16순위에서 회피하지 않는다. 당시 공개 scouting과 roster need만 쓴다.
+68. Bey 영입을 지우면서 Golden State–Detroit–Portland 4팀 거래와 Atlanta 2라운드 픽 5장의 목적지를 실제대로 유지하지 않는다.
+69. 역사 보존을 이유로 Bey 거래 동기를 자동 승인하지 않는다. 대체 세계의 2023년 2월 윙·슈팅 수요를 다시 검증한다.
+70. Atlanta 5년차 분을 낮추고도 2023 거래 대가를 기존 선발급 가정으로 유지하지 않는다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성과 O-12B의 Atlanta 개발 환경 감사, O-12C의 2019~23 역할·총분 사전 계산에 이어 O-12D에서 2019 대체 센터와 2022 계약을 비교했다. Koufos와 2022 직접 다년 RFA 재계약은 계산 전 총괄 추천일 뿐 정본이 아니다. 다음 게이트는 두 추천안의 cap/roster 검산, 2022 No.16 지명과 2023 Bey 거래 원장이다. 이를 닫은 뒤에만 시즌별 player-game donor·사용률·대표 경기·플레이오프 생존을 계산한다. 수치 게이트는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인해야 한다. 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
+대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. O-12의 S급 성장 상한·관계·음성, O-12B의 개발 환경, O-12C의 역할·총분, O-12D의 센터·계약 비교에 이어 O-12E에서 cap–draft–trade 연쇄를 1차 반증했다. Koufos와 2022 직접 다년 RFA 재계약은 계속 총괄 추천일 뿐 정본이 아니다. Griffin과 Bey 4팀 거래를 지우는 비용이 커서 이를 저훼손 기준선으로 보존하고 주인공 2022-23 후보 분을 1,550~1,800으로 낮췄다. 다음 게이트는 2019 room MLE 사용 순서, 2022 계약 3개 cap sheet, 수정 분의 player-game donor와 Bey 영입 동기다. 이를 닫은 뒤에만 사용률·대표 경기·플레이오프 생존을 계산한다. 수치 게이트는 외부/선행 코호트로 생산성 수축·피로 함수·logit scale을 교정하거나 보수적 fallback을 승인해야 한다. 모든 입력이 닫힌 뒤에만 conditional latent→대체 승패→전체 순위→2019 로터리·보호픽·드래프트 보드를 연속 산출한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
