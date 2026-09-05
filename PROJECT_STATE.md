@@ -12,7 +12,7 @@
 - 현재 작업: `O-13 라이벌 NBA 공격·성격·관계와 동서부 배치 구조 선택`
 - 최근 설계 변경: `Rival large tempo-manipulating creator recommended; Chicago+Indiana same-conference conflict reopens 2023 destination branch, NOT_CANON`
 - 최근 정본 병합: `PR #47 / 7e38474`
-- 최근 설계 병합: `PR #53 / 55d508b`
+- 최근 설계 병합: `PR #54 / 212ff5d`
 
 ## 완료
 
