@@ -13,9 +13,9 @@ if (primary.length !== 4) throw new Error(`expected 4 primary picks, got ${prima
 
 const expected = [
   ['1', 'Minnesota Timberwolves', 'Fictional Rival', 'AUTHOR_LOCKED'],
-  ['2', 'Golden State Warriors', 'James Wiseman', 'RETENTION_STRONG_LEAN'],
-  ['3', 'Charlotte Hornets', 'Anthony Edwards', 'PRIMARY_LEAN'],
-  ['4', 'Chicago Bulls', 'LaMelo Ball', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['2', 'Golden State Warriors', 'James Wiseman', 'AUTHOR_LOCKED'],
+  ['3', 'Charlotte Hornets', 'Anthony Edwards', 'AUTHOR_LOCKED'],
+  ['4', 'Chicago Bulls', 'LaMelo Ball', 'AUTHOR_LOCKED'],
 ];
 
 for (let index = 0; index < expected.length; index += 1) {
@@ -27,13 +27,14 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'MINNESOTA_1_LOCKED / PICKS_2_TO_4_AUTHOR_GATE',
+  'TOP4_AUTHOR_APPROVED / LOCKED',
   'Wiseman 2 → Edwards 3 → LaMelo 4',
-  '2~4순위는 이번 Minnesota 승인에 포함되지 않으므로 아직 정본이 아니다',
+  '정확 top four는 `가상 라이벌 → Wiseman → Edwards → LaMelo`',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('CHARLOTTE_INTERNAL_BOARD_BLOCKER')) throw new Error('missing Charlotte blocker');
+if (!review.includes('AUTHOR_RESOLVED')) throw new Error('missing author resolution');
+if (!review.includes('공개 내부 head-to-head')) throw new Error('missing Charlotte evidence limit');
 
 console.log('PASS 2020 Draft top-four sequential board');
-console.log('Minnesota #1 locked / picks #2-4 remain author-gated');
+console.log('2020 top four author-locked');

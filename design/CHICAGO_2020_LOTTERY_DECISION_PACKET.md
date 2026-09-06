@@ -31,3 +31,4 @@
 - exact 21~22승은 계속 `HOLD`한다.
 - seed 7·1순위 확률 7.5%·실제 전체 4순위 추첨 사건은 `LOCKED`다.
 - 정확 지명자는 `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md`와 라이벌의 상류 드래프트 보드가 닫힐 때까지 `HOLD`다.
+- 후속 O-15E2 작가 선택으로 상류 보드가 닫혔고, Chicago의 정확 지명자는 LaMelo Ball `AUTHOR_APPROVED / LOCKED`로 해소됐다.

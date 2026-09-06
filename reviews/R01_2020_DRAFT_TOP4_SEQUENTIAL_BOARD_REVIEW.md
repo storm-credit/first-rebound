@@ -1,6 +1,6 @@
 # R01 2020 Draft Top Four Sequential Board Blindspot Review
 
-- 상태: `SEQUENCE_PASS / CHARLOTTE_INTERNAL_BOARD_BLOCKER / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED / NOT_INDEPENDENT`
 - 검토 범위: Minnesota 라이벌 1순위 승인 뒤 Golden State 2·Charlotte 3·Chicago 4
 
 ## 발견한 맹점
@@ -25,7 +25,7 @@ Edwards와 Ball의 신인상·올스타·이후 팀 성과, Wiseman의 이후 �
 
 Minnesota 1순위 승인은 라이벌의 공격형·성격·정확 기록이나 2~4순위 승인까지 포함하지 않는다. 승인 범위를 명시적으로 분리한다.
 
-## 결론
+## 결정 전 결론
 
 - Minnesota 라이벌 1순위: `AUTHOR_LOCKED`
 - Golden State Wiseman 2순위: `RETENTION_STRONG_LEAN`
@@ -34,3 +34,11 @@ Minnesota 1순위 승인은 라이벌의 공격형·성격·정확 기록이나 
 - 반대 분기: `Charlotte Ball 3 → Chicago Edwards 4`
 
 순차 계산은 통과하지만 2~4순위 exact 결과는 작가 승인 전 `HOLD`다.
+
+## 작가 결정 반영
+
+O-15E2에서 작가는 주 분기를 선택했다. 정확한 상위 4순위는 **Minnesota 가상 라이벌 → Golden State James Wiseman → Charlotte Anthony Edwards → Chicago LaMelo Ball**이며 모두 `AUTHOR_APPROVED / LOCKED`다.
+
+- Charlotte 내부 head-to-head 자료가 새로 발견된 것은 아니다. 불확실성은 작가 선택으로 해소했으며, 기존 blocker는 결정 전 근거의 한계로 보존한다.
+- 반대 분기 `Charlotte Ball 3 → Chicago Edwards 4`는 `REJECTED_HISTORICAL_CONTINGENCY`다.
+- 이 결정은 Patrick Williams의 삭제를 뜻하지 않는다. Patrick은 Cleveland 5순위부터 별도 재착지 보드를 통과해야 한다.

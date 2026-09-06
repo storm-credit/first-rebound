@@ -61,12 +61,12 @@ v0.15~v0.26의 Atlanta 30순위 착지와 관련 계산은 새 활성 세계선�
 |---|---|---|
 | 2018-19 | Hoiberg→Boylen, Holiday 거래, Otto Porter 영입 | 주인공 분·성장과 감독 교체·거래 동기가 함께 생존하는가 |
 | 2019 Draft | 실제 7순위 Coby White | 바뀐 승수·로터리에서 픽과 선수가 유지되는가 |
-| 2020 Draft | 실제 4순위 Patrick Williams | 성장한 SF/PF 주인공과 중복되어 다른 선택이 필요한가 |
+| 2020 Draft | 전체 4순위 LaMelo Ball `AUTHOR_LOCKED` | Coby·LaVine·LaMelo의 가드 권한과 주인공의 전환 연결을 어떻게 공존시키는가 |
 | 2021.03 | Vučević 거래, Hutchison 포함 거래 | Hutchison 부재와 주인공 성장 뒤 거래 구성·픽 비용이 성립하는가 |
 | 2021 여름 | DeRozan·Lonzo·Caruso | DeRozan의 미드포스트·클러치 중복, Lonzo·Caruso의 보완성을 분리하는가 |
 | 2021~22 | Markkanen 이탈·LaVine 재계약 | 실존 선수에게 공정한 역할·계약·이별 사유를 주는가 |
 
-현 구조의 최대 blocker는 **2020 Patrick Williams 지명**과 **2021 DeRozan 영입**이다. 두 사건을 실제대로 복사하면 주인공의 포지션과 공격 권한이 과밀해진다.
+현 구조의 최대 blocker는 **2020 LaMelo 합류 뒤 가드 권한 재배분**과 **2021 DeRozan 영입**이다. Patrick Williams는 Chicago가 아닌 새 팀으로 재착지하며, 그 순번에서 밀려난 실존 선수까지 이어서 계산한다.
 
 ## 6. 라이벌과 콘퍼런스
 
@@ -83,7 +83,7 @@ v0.15~v0.26의 Atlanta 30순위 착지와 관련 계산은 새 활성 세계선�
 2. Chicago 2018-19 82경기·player-minute·루키 역할 원장
 3. Hoiberg/Boylen 아래의 전술·기회 상실·Windy City 배정
 4. 2019 승수·로터리·Coby White 경로
-5. 2020 Patrick Williams 대체 보드
+5. 2020 Patrick Williams 재착지와 밀려난 선수 보드
 6. 2021 Vučević·DeRozan·Lonzo·Caruso·Markkanen 연쇄
 7. LaVine 공동 에이스→주인공 최우선 코어 승계
 8. 라이벌 서부 착지 4안 비교

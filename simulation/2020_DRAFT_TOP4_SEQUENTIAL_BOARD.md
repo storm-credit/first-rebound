@@ -1,6 +1,6 @@
 # 2020 Draft Top Four Sequential Board
 
-- 상태: `MINNESOTA_1_LOCKED / PICKS_2_TO_4_AUTHOR_GATE`
+- 상태: `TOP4_AUTHOR_APPROVED / LOCKED`
 - 기준 시점: 2020-11-18 드래프트 직전
 - 고정 입력: Minnesota 전체 1순위로 가상 라이벌 지명
 - 원고 게이트: `CLOSED`
@@ -21,9 +21,9 @@
 
 ### 판정
 
-`James Wiseman RETENTION_STRONG_LEAN`.
+`James Wiseman AUTHOR_APPROVED / LOCKED`.
 
-Edwards가 새로 남았다는 사실만으로 Golden State가 자동으로 그를 선택하지 않는다. 공개된 구단 보드 진술은 Wiseman 쪽이 더 강하다. 다만 변화된 1순위 직후 들어올 거래 제안까지 관측할 수 없으므로 이번 단계에서 exact pick을 자동 LOCK하지 않는다.
+Edwards가 새로 남았다는 사실만으로 Golden State가 자동으로 그를 선택하지 않는다. 공개된 구단 보드 진술은 Wiseman 쪽이 더 강하며 작가가 주 분기를 승인했으므로 exact pick을 LOCK한다.
 
 ## 3. Charlotte 3순위
 
@@ -36,9 +36,9 @@ Edwards가 새로 남았다는 사실만으로 Golden State가 자동으로 그�
 
 ### 판정
 
-`Anthony Edwards PRIMARY_LEAN / INTERNAL_BOARD_HOLD`.
+`Anthony Edwards AUTHOR_APPROVED / LOCKED`.
 
-당시 종합 평가와 즉시 득점·윙 운동능력을 우선하면 Edwards가 먼저다. 반대로 Charlotte가 Ball의 사이즈 있는 1차 창조와 프랜차이즈 가드 상한을 독자적으로 더 높게 봤다면 실제 선택을 유지할 수 있다. 따라서 두 분기를 모두 남긴다.
+당시 종합 평가와 즉시 득점·윙 운동능력을 우선하면 Edwards가 먼저다. 작가는 이 주 분기를 승인했다. Charlotte가 Ball을 유지하는 반대 분기는 선택 전 검토 이력으로 보존하되 활성 정본에서 제외한다.
 
 ## 4. Chicago 4순위
 
@@ -46,24 +46,24 @@ Edwards가 새로 남았다는 사실만으로 Golden State가 자동으로 그�
 
 Chicago에는 LaMelo Ball이 남는다. 당시 보도는 Ball이 top four 팀들과만 만났고 4순위까지 떨어지면 Chicago가 반길 것으로 봤다. Coby White·LaVine과 초기 볼 소유·수비 비용은 크지만, 4순위에서 top-three급 1차 창조 상한은 조건부 5인 보드보다 우선한다.
 
-판정: `LaMelo Ball PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`.
+판정: `LaMelo Ball AUTHOR_APPROVED / LOCKED`.
 
 ### 반대 분기: Charlotte가 Ball 유지
 
 Chicago에는 Anthony Edwards가 남는다. LaVine과 득점 역할이 겹치지만 Edwards의 당시 전체 1순위급 가치와 윙 운동능력은 Patrick Williams·Haliburton·Avdija보다 앞선다.
 
-판정: `Anthony Edwards CONTINGENCY_LEAN / AUTHOR_APPROVAL_REQUIRED`.
+판정: `Anthony Edwards REJECTED_HISTORICAL_CONTINGENCY`.
 
 ## 5. 순차 보드
 
 | 순번 | 팀 | 주 분기 | 판정 | 반대 분기 |
 |---:|---|---|---|---|
 | 1 | Minnesota | 가상 라이벌 | `AUTHOR_LOCKED` | 없음 |
-| 2 | Golden State | James Wiseman | `RETENTION_STRONG_LEAN` | Edwards 선택/거래 `LOW HOLD` |
-| 3 | Charlotte | Anthony Edwards | `PRIMARY_LEAN` | LaMelo Ball 유지 |
-| 4 | Chicago | LaMelo Ball | `PRIMARY_LEAN / AUTHOR_GATE` | Anthony Edwards |
+| 2 | Golden State | James Wiseman | `AUTHOR_LOCKED` | Edwards 선택/거래는 폐기 검토안 |
+| 3 | Charlotte | Anthony Edwards | `AUTHOR_LOCKED` | LaMelo Ball 유지는 폐기 검토안 |
+| 4 | Chicago | LaMelo Ball | `AUTHOR_LOCKED` | Anthony Edwards는 폐기 검토안 |
 
-총괄 추천은 **Wiseman 2 → Edwards 3 → LaMelo 4**다. 2~4순위는 이번 Minnesota 승인에 포함되지 않으므로 아직 정본이 아니다.
+작가 선택으로 **Wiseman 2 → Edwards 3 → LaMelo 4**를 정본화한다. 정확 top four는 `가상 라이벌 → Wiseman → Edwards → LaMelo`다.
 
 ## 6. 하류 비용
 

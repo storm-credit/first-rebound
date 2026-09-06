@@ -291,15 +291,23 @@
 - 직접 지명: Minnesota 1·Golden State 2
 - 거래 contingency: San Antonio 11→2는 동시대 buzz 있으나 salary/대가 HOLD, Oklahoma City 25→2는 자산상 구조 후보지만 직접 보드 증거 없음
 - 판정: 작가 A 선택, Minnesota 전체 1순위 `AUTHOR_APPROVED / LOCKED`; Golden State 전술 적합·서사 비용 동시 높음
-- 다음 조사: Golden State 2·Charlotte 3·Chicago 4 exact 선택 승인
+- 후속 해소: O-15E2에서 Golden State Wiseman 2·Charlotte Edwards 3·Chicago LaMelo 4 승인
 
 ### R15.17 2020 Draft 1~4순위 순차 팀보드
 
 - 팀보드: `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md`
 - 원장: `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md`
-- LOCK: Minnesota 1순위 가상 라이벌
-- 주 분기: Golden State Wiseman 2 `RETENTION_STRONG_LEAN` → Charlotte Edwards 3 `PRIMARY_LEAN` → Chicago LaMelo 4 `PRIMARY_LEAN / AUTHOR_GATE`
-- 반대 분기: Charlotte Ball 3 유지 → Chicago Edwards 4
-- blocker: Charlotte가 Edwards와 Ball을 동시에 비교한 공개 내부 보드 부재
-- 다음 조사: 작가가 주 분기 또는 반대 분기를 선택한 뒤 Chicago 2020-21 가드 사용률·분 원장과 Patrick Williams 재착지
+- LOCK: Minnesota 가상 라이벌 1 → Golden State Wiseman 2 → Charlotte Edwards 3 → Chicago LaMelo 4 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Charlotte Ball 3 유지 → Chicago Edwards 4 `REJECTED_HISTORICAL_CONTINGENCY`
+- 자료 한계: Charlotte가 Edwards와 Ball을 동시에 비교한 공개 내부 보드는 없으며, 작가 선택이 이 불확실성을 해소함
+- 다음 조사: Patrick Williams 재착지와 밀려난 선수 연쇄
+
+### R15.18 Patrick Williams 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md`
+- 주 분기: Cleveland Okoro 5 유지 → Atlanta Okongwu 6 유지 → Detroit Patrick 7 `PRIMARY_LEAN / AUTHOR_GATE`
+- 반대 분기: Atlanta Patrick 6 → Detroit Hayes 7
+- 다음 조사: 작가 선택 뒤 A는 Hayes 8순위 이하, B는 Okongwu 7순위 이하 보드

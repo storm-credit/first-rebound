@@ -1,7 +1,7 @@
 # R01 Chicago 2020 Pick 4 Board Blindspot Review
 
 - 검토 성격: 총괄 자기검토, 독립 검수 대체 아님
-- 판정: `CONDITIONAL_BOARD_PASS / UPSTREAM_BLOCKER_FOUND / EXACT_PICK_BLOCKED`
+- 판정: `CONDITIONAL_BOARD_PRESERVED / UPSTREAM_BLOCKER_RESOLVED / EXACT_PICK_LAMELO_LOCKED`
 
 ## 확인한 맹점
 
@@ -43,3 +43,9 @@ Williams 유지가 하류 연쇄를 가장 적게 바꾸지만 그것만으로 �
 4. 선택 후보의 다음 실제 지명 지점까지 하류 보드
 
 이 네 항목 전에는 Chicago의 정확 2020 지명을 LOCK할 수 없다.
+
+## 후속 결정
+
+O-15E2에서 상류 1~4순위를 **가상 라이벌 → Wiseman → Edwards → LaMelo**로 작가 승인했다. 따라서 위 네 blocker 중 1~3은 해소됐고 Chicago의 LaMelo 4순위는 `AUTHOR_APPROVED / LOCKED`다. 기존 5인 보드는 실제 top 3 유지라는 반사실 조건의 검토 이력으로만 보존한다.
+
+남은 blocker는 Patrick Williams의 5순위 이하 재착지와 그 순번에서 밀려나는 실존 선수 연쇄다.
