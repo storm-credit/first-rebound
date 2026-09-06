@@ -1,4 +1,4 @@
-# Project Freeze v0.26
+# Project Freeze v0.27
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -25,7 +25,7 @@
 - 최종 신장: 약 203cm
 - 초기 인식: 운동능력은 압도적이나 기술·전술·팀 이해가 부족한 빅맨형 원석
 - 최종 선수상: 리바운드·전환을 고유 뿌리로 삼아 림 압박·엘보 공격·패스·클러치 선택까지 확장한 공격 1옵션급 투웨이 SF/PF
-- 진로 구조: 주인공은 한국 고교 → 미국 프렙 고교 → 2017-18 Villanova NCAA → 2018 NBA Draft 30순위 Atlanta → NBA. 라이벌은 같은 한국 고교 → 장기 부상·재활 → 2018-20 Gonzaga NCAA → 2020 NBA Draft → NBA
+- 진로 구조: 주인공은 한국 고교 → 미국 프렙 고교 → 2017-18 Villanova NCAA → 2018 NBA Draft → Chicago Bulls 원클럽 프랜차이즈 경로. 라이벌은 같은 한국 고교 → 장기 부상·재활 → 2018-20 Gonzaga NCAA → 2020 NBA Draft → 서부 팀 경로
 - 언어/문화: 영어와 생활문화 경험은 있으나 미국 엘리트 농구의 계급·코칭·라커룸·스카우팅 문법은 새로 배움
 
 ### 중심 질문과 변화
@@ -504,3 +504,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Trae Young과의 공격 권한, Murray·Hunter·Huerter·Collins·Griffin·Bey 거래 연쇄
 - 전성기 정확 시즌·개인 기록·효율·수상·우승·부상
 - 2028 본편 종결과 720~840화 연재 배분
+
+## v0.27 LOCKED DIRECTION — Chicago 원클럽·동서부 라이벌
+
+- 주인공의 장기 NBA 팀은 **Chicago Bulls**다. 팀을 옮겨야만 S급이 되는 구조를 사용하지 않고, Chicago에서 원클럽 프랜차이즈 스타로 성장한다.
+- `단독 프랜차이즈`는 신인 때부터 기존 간판을 삭제한다는 뜻이 아니다. Zach LaVine의 기존 공격 간판 기능을 보존하고, 주인공은 조력자→공동 에이스→최우선 코어 순으로 상승한다.
+- 주인공은 동부, 핵심 라이벌은 서부에 둔다. 정확한 서부 팀과 지명 순번은 후속 4안 비교 전까지 `HOLD`다.
+- Chicago의 실제 2018년 22순위는 최우선 착지 후보지만 **정확 순번은 아직 LOCK하지 않는다.** Villanova 저사용 선수가 22순위에 오르는 팀 보드·워크아웃 근거와 22~60 드래프트 재판정이 먼저다.
+- v0.15~v0.26의 Atlanta 30순위·Erie 6경기·43경기 621.9분·Trae/Huerter/Collins 관계·Spellman 연쇄는 활성 정본에서 해제한다. 삭제하지 않고 폐기 분기와 검증 방법의 기록으로 보존한다.
+- 1라운드 rookie-scale, 투웨이 계약 금지, NBA 본무대, 짧은 G League assignment 가능, 자기관리 재발, 실존 선수 분·공로 보존 원칙은 유지한다.
+- 정확한 Chicago 루키 분·선발·G League 일정·깊은 관계 3명·승수·로터리·계약·우승은 `HOLD`다.
+
+## v0.27 RESEARCH_HOLD
+
+- 2018 Chicago 22순위 팀 보드·워크아웃·신체 측정과 정확 지명 순번
+- Chandler Hutchison의 변경 팀·순번과 2018 Draft 22~60 재판정
+- Chicago 2018-19 82경기 player-minute donor·자기관리 비용·Windy City 배정
+- 2019 Coby White와 2020 Patrick Williams 드래프트 경로
+- 2021 Vučević·DeRozan·Lonzo·Caruso·Markkanen 거래·계약 연쇄
+- LaVine의 잔류/이별과 공동 에이스에서 프랜차이즈 승계까지의 공정한 역할
+- 라이벌의 2020 서부 팀·순번·베테랑 관계
