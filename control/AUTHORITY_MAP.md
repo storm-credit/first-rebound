@@ -15,9 +15,10 @@
 | Act 기능 | `design/ACT_MAP.md` | DRAFT 상태 |
 | Sub-Act 기능 | `design/SUB_ACT_MAP.md` | 미완료 |
 | 미결정 4안 | `design/OPEN_DECISIONS.md` | 결정 후 정본에 승격 |
-| NBA 2년차~은퇴 및 2020 라이벌 팀 비교안 | `design/NBA_LONG_RANGE_CAREER_OPTIONS.md` | AUTHOR_SELECTION_HOLD, 정본 아님 |
-| O-11A C안의 2023 이적 목적지 4안 | `research/PROTAGONIST_2023_TRADE_DESTINATION_OPTIONS.md` | Indiana 계산 전 잠정 선호, 팀·계약·대가 NOT_CANON |
-| 주인공 S급 성장 상한·스카우팅 W곡선 후보 | `design/PROTAGONIST_STAR_GROWTH_MODEL.md` | AUTHOR_DIRECTION, 정본 승격 전 R09·독립 검토 필요 |
+| NBA 2년차~은퇴 및 2020 라이벌 팀 비교안 | `design/NBA_LONG_RANGE_CAREER_OPTIONS.md` | v0.26에서 기존 C 선호 재개방, 정본 아님 |
+| O-11A C안의 2023 이적 목적지 4안 | `research/PROTAGONIST_2023_TRADE_DESTINATION_OPTIONS.md` | 이적 갈래 생존 시 재평가, 팀·계약·대가 NOT_CANON |
+| 주인공 S급 성장 상한·스카우팅 W곡선 후보 | `design/PROTAGONIST_STAR_GROWTH_MODEL.md` | v0.26 핵심 방향 승격, 정확 기록·팀·수상 HOLD |
+| 주인공 연차별 공격 상승·투웨이 지배자 상한·연재 압축 | `design/PROTAGONIST_ASCENSION_DOMINANCE_MODEL.md` | v0.26 핵심 방향 LOCK, 정확 시즌·팀·기록·회차 HOLD |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
 | 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |
@@ -74,6 +75,7 @@
 | NBA 장기 커리어·2020 라이벌 후보 맹점 검토 | `reviews/R02_3V_NBA_LONG_RANGE_OPTIONS_REVIEW.md` | AUTHOR_SELECTION 가능 판정, R16 독립 검수 대체 아님 |
 | 2023 이적 목적지 총괄 자체 검토 | `reviews/R01_2023_TRADE_DESTINATION_ORCHESTRATOR_REVIEW.md` | NOT_INDEPENDENT, 목적지 선택 뒤 독립 검수 필요 |
 | 주인공 스타 성장·관계 음성 총괄 자체 검토 | `reviews/R01_PROTAGONIST_STAR_GROWTH_ORCHESTRATOR_REVIEW.md` | NOT_INDEPENDENT, 정본 승격 전 독립 검수 필요 |
+| 주인공 연차별 상승·지배자 상한 총괄 자체 검토 | `reviews/R01_PROTAGONIST_ASCENSION_DOMINANCE_BLINDSPOT_REVIEW.md` | PASS_WITH_RECALC_BLOCKERS, R16 독립 검수 대체 아님 |
 | Atlanta 2018~23 실제 개발 환경·시즌별 성장 기능 | `research/ATLANTA_2018_23_DEVELOPMENT_PATH.md` | 코칭·G League 증거 감사 PASS, 기록·경기·결과 HOLD |
 | Atlanta 5시즌 성장 배정 총괄 맹점 검토 | `reviews/R01_ATLANTA_2018_23_GROWTH_BLINDSPOT_REVIEW.md` | NOT_INDEPENDENT, R16 대체 아님 |
 | Atlanta 2019~23 역할·총분 범위와 donor 선행조건 | `simulation/ATLANTA_2019_23_ROLE_MINUTE_PRECALC.md` | NOT_CANON, 거래·계약 blocker 뒤 player-game 계산 |

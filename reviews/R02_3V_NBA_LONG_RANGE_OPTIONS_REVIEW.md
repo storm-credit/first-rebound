@@ -28,7 +28,7 @@
 - 정확한 장기 팀·계약액·라이벌 순번·우승 연도·은퇴 연도·결말 동료는 잠기지 않았다.
 - C안과 Chicago안은 작가가 비교할 수 있는 잠정 선호일 뿐 정본이 아니다.
 - E0/제목 게이트 분리, G04·G13 상태 수정, G16 최종 전체 검수 정의는 기존 정본과 충돌하지 않는다.
-- `PROJECT_FREEZE v0.25 PARTIAL`, `manuscript_allowed: false`, 원고 게이트 `CLOSED`를 유지한다.
+- 이 검토 당시 `PROJECT_FREEZE v0.25 PARTIAL`을 유지했다. 현행 v0.26에서도 `manuscript_allowed: false`, 원고 게이트 `CLOSED`를 유지한다.
 
 ## 선택 뒤 재개 조건
 

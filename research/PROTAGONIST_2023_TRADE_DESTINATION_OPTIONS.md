@@ -252,4 +252,4 @@ Huerter와의 장기 회수, 경쟁팀의 플레이오프 압박은 매력적이
 - **추천:** Indiana 방향 승인 뒤 계약·트레이드 패키지 3안 계산
 - **대안:** Sacramento 방향 승인 뒤 Huerter 관계 회수와 포워드 분 경쟁 계산
 - **유보:** Memphis는 프랜차이즈 안정성, Dallas는 나비효과 규모 때문에 1차 선택에서 제외
-- 선택 전까지 `PROJECT_FREEZE v0.25 PARTIAL`, 원고 게이트 `CLOSED`, `manuscript_allowed: false`를 유지한다.
+- 이 문서 작성 당시 기준은 `PROJECT_FREEZE v0.25 PARTIAL`이었다. 현행 v0.26은 이적 기본값을 재개방했으며, 원고 게이트 `CLOSED`, `manuscript_allowed: false`는 유지한다.
