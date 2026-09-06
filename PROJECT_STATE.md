@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E3-AUTHOR Patrick Williams 6/7순위 재착지 선택`
-- 최근 설계 변경: `상위 4순위 LOCK; Patrick Detroit #7 PRIMARY_LEAN / AUTHOR_GATE`
-- 최근 정본 병합: `PR #94 / 986c5b11`
-- 최근 설계 병합: `PR #94 / 986c5b11`
+- 현재 작업: `O-15E4-AUTHOR Killian Hayes 13순위 재착지 선택`
+- 최근 설계 변경: `Patrick Detroit #7 LOCK; 실제 8~12 유지→Hayes New Orleans #13 PRIMARY_LEAN`
+- 최근 정본 병합: `PR #96 / b2b400d6`
+- 최근 설계 병합: `PR #96 / b2b400d6`
 
 ## 완료
 
@@ -172,6 +172,8 @@
 - [x] O-15E1 상위 순차 보드 — `Wiseman 2 → Edwards 3 → LaMelo 4 PRIMARY_LEAN`; Charlotte 내부 비교 blocker로 exact 2~4순위 HOLD
 - [x] O-15E2 작가 선택 — `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 AUTHOR_APPROVED / LOCKED`
 - [x] Patrick Williams 5~7순위 재착지 보드 — `Okoro 5 → Okongwu 6 → Patrick 7 PRIMARY_LEAN / AUTHOR_GATE`
+- [x] O-15E3 작가 선택 — `Okoro 5 → Okongwu 6 → Patrick Williams 7 AUTHOR_APPROVED / LOCKED`
+- [x] Killian Hayes 8~13순위 재착지 보드 — 실제 8~12 유지 주안·Hayes 13 `PRIMARY_LEAN / AUTHOR_GATE`
 
 ## 현재 결정 대기
 
@@ -192,7 +194,8 @@
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [x] O-15E-AUTHOR A Minnesota 1 선택
 - [x] O-15E2-AUTHOR 주 분기 `Wiseman 2→Edwards 3→LaMelo 4` 선택
-- [ ] O-15E3-AUTHOR A `Okoro 5→Okongwu 6→Patrick 7` 또는 B `Okoro 5→Patrick 6→Hayes 7` 선택
+- [x] O-15E3-AUTHOR A `Okoro 5→Okongwu 6→Patrick 7` 선택
+- [ ] O-15E4-AUTHOR A 실제 8~12 유지→`Hayes 13` 또는 B 실제 8~13 유지→`Hayes 14+` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -363,9 +366,11 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 115. Charlotte가 실제로 Ball을 지명했다는 사실을 Edwards보다 Ball을 높게 둔 내부 비교 증거로 과장하지 않는다. 상위 4순위 작가 선택 뒤에도 내부 자료가 새로 확인된 것으로 쓰지 않는다.
 116. Chicago가 LaMelo를 지명했다고 Patrick Williams를 삭제하지 않는다. 5순위부터 재착지시키고 그 순번의 실존 선수를 다시 계산한다.
 117. Detroit의 Patrick 7순위 promise 보도를 구단 공식 확인으로 과장하거나, Patrick을 놓은 뒤 Killian Hayes를 보드에서 삭제하지 않는다.
+118. New York의 포인트가드 필요만으로 강한 Toppin 선호를 지우거나, 반대로 실제 8~12순위를 팀별 검토 없이 한 묶음으로 자동 보존하지 않는다.
+119. New Orleans의 실제 Kira Lewis 지명이 Hayes보다 높은 내부 보드였다고 추정하거나, Hayes 13 선택 뒤 Lewis를 삭제하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 역할·2019 lottery/Coby White·2019-20 2년차와 2020 Draft 상위 4순위까지 통과시켰다. 정확 상위 보드는 `Minnesota 가상 라이벌→Golden State Wiseman→Charlotte Edwards→Chicago LaMelo`다. 다음 게이트는 A `Cleveland Okoro 5→Atlanta Okongwu 6→Detroit Patrick 7`과 B `Cleveland Okoro 5→Atlanta Patrick 6→Detroit Hayes 7` 중 선택이다. 총괄은 동시대 Detroit 연결이 더 구체적인 A를 추천한다. 선택 뒤 밀려난 실존 선수 보드를 먼저 닫고 Chicago 2020-21 원장으로 이동한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~7순위를 `Minnesota 가상 라이벌→Golden State Wiseman→Charlotte Edwards→Chicago LaMelo→Cleveland Okoro→Atlanta Okongwu→Detroit Patrick Williams`로 통과시켰다. 다음 게이트는 A `Toppin 8→Avdija 9→Jalen Smith 10→Vassell 11→Haliburton 12→New Orleans Hayes 13`과 B 실제 8~13순위 유지 뒤 Hayes 14순위 이하 재개 중 선택이다. 총괄은 당시 평가와 New Orleans의 실제 포인트가드 지명 의사를 함께 보존하는 A를 추천한다. 선택 뒤 밀려난 Kira 또는 Hayes를 Boston 14순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
