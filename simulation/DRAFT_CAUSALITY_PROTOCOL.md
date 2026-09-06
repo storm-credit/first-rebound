@@ -63,7 +63,7 @@
 
 드래프트 전체를 같은 깊이로 조사하지 않는다. **원장은 전수, 심층 검토는 변화 지점** 원칙을 쓴다.
 
-1. 2018은 주인공 지명 뒤인 30~60순위만 전수 스캔한다. 1~29순위는 시간상 선행사건이라 다시 열지 않는다.
+1. v0.27 Chicago 세계선은 주인공의 22순위 후보부터 22~60을 전수 스캔한다. 1~21순위만 시간상 선행사건으로 유지한다. 과거 Atlanta 세계선의 경계는 30~60이었다.
 2. 각 픽의 1차 스캔은 실제 선택, 새로 남은 Spellman/연쇄 이탈자, 당시 보드의 비교 후보 한 명으로 제한한다.
 3. 실제 선택 선수가 여전히 남아 있고, 새 후보가 당시 필요·보드에서 명백히 앞서지 않으면 `UNCHANGED`로 짧게 통과한다.
 4. 새 후보가 실제 선택을 밀어낼 가능성이 있거나 실제 선택 선수가 이미 사라졌을 때만 `CHANGED/CASCADE` 심층 비교를 연다.
@@ -76,9 +76,10 @@
 
 ### 2018 Draft
 
-- Atlanta의 30순위 이전에 완료된 1~29순위와 Doncic–Young 거래는 주인공 지명보다 시간상 앞서므로 유지한다.
-- 30순위에서 주인공이 Omari Spellman을 대체한다.
-- 30~60순위는 Spellman을 포함해 순차 재판정한다. `Spellman만 임의로 미지명 처리`하거나 `31번부터 전원 한 칸 이동`하지 않는다.
+- Chicago 22순위 후보 이전에 완료된 1~21순위와 Doncic–Young 거래는 주인공 지명보다 시간상 앞서므로 유지한다.
+- 22순위에서 주인공이 Chandler Hutchison을 대체하는 후보를 계산한다.
+- 22~60순위는 Hutchison과 연쇄 이탈자를 포함해 순차 재판정한다. `Hutchison만 임의로 미지명 처리`하거나 `23번부터 전원 한 칸 이동`하지 않는다.
+- 과거 Atlanta 30순위 세계선의 Spellman→Metu→Spalding→Welsh 연쇄는 활성 결과가 아니다. Chicago 보드에서 Atlanta 30 Spellman이 복원되는지 다시 판정한다.
 
 ### 2019 Draft
 
@@ -111,7 +112,7 @@
 - 변경 선수의 계약·로스터 후속 경로
 - 다음 시즌으로 넘어가는 승수·픽·계약 나비효과 링크
 
-## R09 실행 상태 — Atlanta baseline + 2018 picks 30-60 v0.2
+## R09 실행 상태 — Atlanta baseline + 2018 picks 30-60 v0.2 / v0.27 ARCHIVED
 
 - 82경기·실제 29승 53패·9,294득점·연장 포함 19,855 선수분 기준선은 `PASS`다.
 - 주인공의 1차 출전시간 상한은 실제 30순위 Omari Spellman의 805분이다.
@@ -124,6 +125,16 @@
 - Spellman의 Spurs 역할 기준선은 Metu의 29경기·145.4분·0선발과 Austin 26경기로 닫는다. 145.4분 초과 또는 경쟁 구간 출전이 생기면 해당 경기 결과를 다시 열며, Atlanta 개인 성과와 리그 승패가 닫히기 전 2019 standings·lottery는 `FINAL` 금지다.
 - 상세 원장과 감사 게이트는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md` 및 `.xlsx`가 권위다.
 - 후반 보드의 선택 근거는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`가 권위다.
+
+## v0.27 Chicago 22~60 실행 상태
+
+- Chicago 팀과 원클럽 프랜차이즈 방향은 LOCK, 정확 22순위는 `CONDITIONAL_PASS/HOLD`다.
+- 1~21 선행 픽은 유지하고 22~60을 전수 스캔한다.
+- Hutchison의 23 Indiana·24 Portland·28 Golden State·29 Brooklyn·35 Orlando 착지를 비교했다.
+- Golden State 28은 당시 즉시 수비·다목적 윙 필요로 팀보드 1순위 LEAN, Portland 24는 대안이다. 둘 다 연쇄가 닫히지 않아 LOCK은 HOLD다.
+- Portland 24는 Simons의 Phoenix 31·Orlando 35·Portland 37 재선택, Golden State 28은 Evans의 Detroit 38·42와 2020 Russell–Wiggins 거래 재계산이 필요하다.
+- 실제 주요 선수의 후속 성공을 보존하려고 경로를 선택하지 않는다. 실존 선수 보호는 원래 팀 고정이 아니라 밀린 선수의 보드·계약·분·거래 비용 추적이다.
+- 상세 권위는 `simulation/2018_DRAFT_22_60_REOPEN.md`다.
 
 ## 공식 기준선
 

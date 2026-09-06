@@ -21,6 +21,9 @@
 | 주인공 연차별 공격 상승·투웨이 지배자 상한·연재 압축 | `design/PROTAGONIST_ASCENSION_DOMINANCE_MODEL.md` | v0.26 핵심 방향 LOCK, 정확 시즌·팀·기록·회차 HOLD |
 | 과거 Atlanta 원클럽 공동 코어·이적 재비교 | `design/ATLANTA_FRANCHISE_PATH_RECALC.md` | v0.27 폐기 대안 분기, 활성 Chicago 세계선에 적용 금지 |
 | Chicago 원클럽 프랜차이즈 선택·22순위 후보·동서부 라이벌·나비효과 | `design/CHICAGO_FRANCHISE_REOPEN.md` | v0.27 방향 LOCK, 정확 픽·루키 분·거래·서부 팀 HOLD |
+| Chicago 22순위의 신체·영상·Combine·워크아웃 개연성 | `research/CHICAGO_2018_PICK22_PLAUSIBILITY.md` | CONDITIONAL_PASS, 측정 범위·정확 픽 NOT_CANON |
+| 2018 Draft 22~60 재개방과 Hutchison 착지 | `simulation/2018_DRAFT_22_60_REOPEN.md` | Golden State 28 팀보드 1순위 LEAN, Portland 24 대안, 후속 연쇄 LOCK 차단 |
+| Chicago 22순위·Hutchison 후속 보드 독립 검토 | `reviews/R02_3W_CHICAGO_PICK22_CASCADE_REVIEW.md` | PASS_FOR_CONTINUATION / CASCADE_BLOCKED_FOR_LOCK |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
 | 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |

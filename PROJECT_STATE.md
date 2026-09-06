@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.27 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15 Chicago 원클럽 프랜차이즈 착지 재개방과 2018 Draft 22~60 인과 재계산`
+- 현재 작업: `O-15A3 Hutchison 24 Portland·28 Golden State 인과 분기 재판정`
 - 최근 설계 변경: `Chicago one-club franchise direction + protagonist East/rival West LOCKED; exact pick/team ledger HOLD`
 - 최근 정본 병합: `PR #60 / 2dff7e2`
 - 최근 설계 병합: `PR #60 / 2dff7e2`
@@ -54,8 +54,8 @@
 - [x] `RIVAL_COLLEGE_SCOPE_COMPLETE` — 라이벌 대학 세부 설계 종료
 - [x] 주인공 2018 NBA Draft 전체 30순위 Atlanta LOCK — v0.27에서 활성 정본 해제, 역사 기록으로 보존
 - [x] 1라운드 NBA rookie-scale 계약·투웨이 폐기 LOCK
-- [x] Atlanta NBA 본무대·Erie 4~10경기 짧은 assignment 안전선 LOCK
-- [x] Trae Young·Kevin Huerter·John Collins 깊은 관계 3명 LOCK
+- [x] Atlanta NBA 본무대·Erie 4~10경기 짧은 assignment 안전선 — `HISTORICAL_ATLANTA_BRANCH`
+- [x] Trae Young·Kevin Huerter·John Collins 깊은 관계 3명 — `HISTORICAL_ATLANTA_BRANCH`
 - [x] 밤샘 게임→아침 영상·컨디셔닝 지각→NBA 로테이션 기회 상실 재발 LOCK
 - [x] `NBA_LANDING_SCOPE_COMPLETE` — v0.27 Chicago 선택으로 `REOPENED`
 - [x] 주인공 2018 PUMA·라이벌 2020 adidas 신발 브랜드 기능 LOCK
@@ -72,9 +72,9 @@
 - [x] 로터리 입력 변경 시 공개 고정 seed 재추첨·결과 후 재선택 금지 LOCK
 - [x] 2018 Draft 1~29 선행 사건 유지·30~60 재판정 경계 LOCK
 - [x] 라이벌의 2020 `1순위급 평가`와 실제 지명 순번 분리 LOCK
-- [x] Atlanta 2018-19 실제 82경기·29승 53패·9,294득점·연장 포함 19,855분 기준선 PASS
+- [x] Atlanta 2018-19 실제 82경기·29승 53패·9,294득점·연장 포함 19,855분 기준선 — `HISTORICAL_ATLANTA_BRANCH_EVIDENCE`
 - [x] 주인공 신인 분의 Spellman 805분 1차 상한과 Young·Huerter·Collins 보호 LOCK
-- [x] 주인공 DNP/Erie도 Spellman 부재 때문에 최소 ROSTER 접촉이라는 82경기 분류 LOCK
+- [x] 주인공 DNP/Erie도 Spellman 부재 때문에 최소 ROSTER 접촉이라는 82경기 분류 — `HISTORICAL_ATLANTA_BRANCH`
 - [x] Atlanta 단독 원장으로 2019 standings·lottery FINAL 금지 게이트 LOCK
 - [x] 2018 Draft 30~60 전수 원장과 27개 실제 유지·4개 변경 압축 보드 LOCK
 - [x] Spellman→San Antonio 49번·Metu→Dallas 56번·Spalding→Denver 58번 LOCK
@@ -87,7 +87,7 @@
 - [x] Spellman 실제 46경기·805.0분 날짜별 donor vector LOCK
 - [x] 주인공 43경기·621.9분·14.46 MPG·0선발 기준선 LOCK
 - [x] 2018-11-19 자기관리 실패·예정 14.1분 상실 LOCK
-- [x] 2018-12-07~22 Erie 6경기 개발 assignment·NBA 동시 출전 0 LOCK
+- [x] 2018-12-07~22 Erie 6경기 개발 assignment·NBA 동시 출전 0 — `HISTORICAL_ATLANTA_BRANCH`
 - [x] Atlanta 805.0분 = 주인공 621.9 + remainder 183.1 날짜별 보존 PASS
 - [x] Atlanta remainder 183.1분 = Anderson 105.6 + Poythress 48.6 + Plumlee 17.5 + Hamilton 11.4 실명 배정 PASS
 - [x] 주인공+Spellman+실명 수취자 per-36·BPM 관측표와 수축 후보 원장화
@@ -114,10 +114,16 @@
 - [x] O-15 주인공 Chicago 원클럽 프랜차이즈와 라이벌 서부 분리 작가 선택 — `DIRECTION_LOCKED`
 - [x] Chicago 실제 22순위 Hutchison 슬롯·Hoiberg→Boylen·윈디시티·초기 윙 경쟁 1차 실증 감사
 - [x] Atlanta 30순위·Erie·Spellman 연쇄를 삭제하지 않고 비활성 대안 분기로 전환
+- [x] O-15A Chicago 22순위 개연성 — 측정·영상·Combine·워크아웃 조건부 PASS, 정확 픽 HOLD
+- [x] O-15A2 최소훼손 최적화의 역사 보존 편향 발견 — 강제 보드 PASS 철회
+- [x] 2018 Draft 인과 경계를 1~21 유지·22~60 재판정으로 확장
+- [x] Hutchison 재착지 5개 지점 비교 — Golden State 28 팀보드 1순위 LEAN, Portland 24 대안, 모두 LOCK 전 연쇄 계산 필요
+- [x] O-15A 독립 맹점 검토 — 역사 보존 편향 교정, Evans 38/42·41↔43 거래·2020/2021 거래 blocker 등록
 
 ## 현재 결정 대기
 
-- [ ] O-15A Chicago 정확 지명 순번 — 22순위 최우선 후보 / 워크아웃·팀 보드·22~60 재판정 전 HOLD
+- [ ] O-15A Chicago 정확 지명 순번 — 22순위 `CONDITIONAL_PASS`, 측정 범위·워크아웃 인과 작가 승인 전 HOLD
+- [ ] O-15A3 Golden State 28의 Evans 35/38/42·41↔43·2020 거래 연쇄와 Portland 24의 Simons 31/35/37 연쇄 비교
 - [ ] O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산
 - [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
@@ -143,7 +149,7 @@
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
 - [ ] Villanova에서 역할 이탈로 신뢰를 잃는 정확한 경기
-- [x] NBA 신인기 자기관리 재발의 정확한 날짜·상실 경기·Erie 배정 기간
+- [x] NBA 신인기 자기관리 재발의 정확한 Atlanta 날짜·상실 경기·Erie 배정 기간 — `HISTORICAL_ATLANTA_BRANCH`; 밤샘→지각→NBA 기회 상실 기능만 활성 유지
 - [ ] 가상 프렙 정식 교명·개별 과목·졸업 감사 — 사용 시점 HOLD
 - [ ] 한국·프렙 개별 과목의 NCAA 환산과 정확한 장학금 counter — R09 HOLD
 - [ ] 라이벌의 정확한 부상 경기·수술일·graft·동반 손상·의료 clearance — 사용 시점 HOLD
@@ -190,7 +196,7 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 13. Gonzaga 국제선수 로스터를 자동 적응·자동 친분의 근거로 쓰지 않는다. 깊은 관계는 세 명, 대표 경기는 두 개를 넘지 않는다.
 14. 라이벌 기록을 실제 Gonzaga 총분·득점 위에 더하지 않는다. WCC 우승 기능 외 승패·점유율은 R09에서 재계산한다.
 15. 주인공 기록을 실제 Atlanta 총분 위에 더하거나 Spellman을 삭제하지 않는다. 30순위 이후 드래프트 보드와 루키 총분은 R09에서 재계산한다.
-16. G League를 지각의 벌이나 투웨이 신분으로 오인하지 않는다. 직접 비용은 NBA 기회 상실이고 Erie는 NBA 계약 assignment다.
+16. G League를 지각의 벌이나 투웨이 신분으로 오인하지 않는다. 직접 비용은 NBA 기회 상실이다. Erie는 폐기 Atlanta 분기의 NBA 계약 assignment이며 Chicago에서는 Windy City 경로를 새로 계산한다.
 17. Young·Huerter·Collins의 실제 공로를 주인공 우정·성장 장치로 축소하지 않는다.
 18. PUMA의 실제 2018 신인군에 주인공이 있었다고 서술하지 않는다. 브랜드 전략만 실제이고 주인공 계약은 가상 인과다.
 19. 2020 1순위라는 이유로 라이벌에게 팬데믹 비용 없는 거액 계약·데뷔 전 시그니처를 자동 지급하지 않는다.
@@ -201,7 +207,7 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 24. 아시안게임 차출을 NBA 의무 차출로 오인하지 않는다. 소속팀 허가·보험·의료·캠프 결장 비용을 분리한다.
 25. 예술체육요원을 완전 면제로 표현하거나 편입 뒤 복무·군사교육·봉사 의무를 삭제하지 않는다.
 26. 실제 스타의 행선지를 지키려고 바뀐 승수·로터리·보호픽을 무시하지 않는다. 입력이 달라지면 큰 드래프트 변화도 받아들인다.
-27. 반대로 주인공과 시간상 무관한 선행 픽을 소급 변경하지 않는다. 2018 인과 시작점은 30순위다.
+27. 반대로 주인공과 시간상 무관한 선행 픽을 소급 변경하지 않는다. 2018 인과 시작점은 Chicago 22순위 후보이며 1~21만 선행 사건으로 유지한다. 30순위 경계는 `HISTORICAL_ATLANTA_BRANCH`다.
 28. 로터리는 원하는 팀이 나올 때까지 다시 돌리지 않는다. 공개 seed·알고리즘·실행 로그를 결과 전에 고정한다.
 29. Spellman에게 Atlanta의 실제 805분을 Spurs에서 복사하지 않는다. BASE는 Metu 145.4분이며 초과 34.6분에는 날짜별 donor가 필요하다.
 30. 실제 Metu가 Atlanta와의 두 경기에서 모두 0분이었으므로 Spurs 쪽 직접 영향은 만들지 않는다. 주인공의 Atlanta 쪽 분은 잠겼지만 개인 성과·승패 영향은 HOLD다.
@@ -209,7 +215,7 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 32. Welsh를 Spalding과 함께 Denver 투웨이에 중복 등록하지 않는다. 2018-19 Denver의 두 자리는 Spalding 대체 슬롯과 Akoon-Purcell 보호 슬롯으로 모두 찬다.
 33. Metu에게 Spurs의 실제 145.4분을 Dallas에서 복사하지 않는다. Dallas BASE는 실제 Spalding의 1경기·1분이며, 초과분은 player-game donor가 있어야 한다.
 34. `ATL_REMAINDER_POOL`은 가상 선수가 아니다. v0.24에서 183.1분을 동일 날짜 실명 수취자에게 전부 배정했지만 생산성 prior 전 개인 기록이나 경기 영향을 만들지 않는다.
-35. 2018년 11월 19일의 직접 비용과 12월 Erie 개발 배정을 하나의 징계로 합치지 않는다.
+35. Atlanta 폐기 분기의 2018년 11월 19일 직접 비용과 12월 Erie 개발 배정을 하나의 징계로 합치지 않는다. Chicago에서도 자기관리 실패와 Windy City 개발 결정은 별도 인과로 새로 계산한다.
 36. `DNP-CD` 등재를 실제 생산성으로 복사하지 않는다. v0.24는 같은 날짜 가용성과 분만 잠갔고, v0.25에서는 실제 당일 성적과 미교정 수축·피로 후보를 모두 outcome 입력에서 차단한다.
 37. 실제 시즌 per-36·BPM을 추가분에 그대로 복사하지 않는다. 관측표는 교정 자료일 뿐이며 box·impact prior가 별도 승인되기 전 개인 기록과 승패를 만들지 않는다.
 38. 주인공의 수비·리바운드 설정을 근거로 Spellman보다 높은 평균 영향을 주지 않는다. LOW는 대체측 LOW-donor HIGH, HIGH는 대체측 HIGH-donor LOW로 같은 805분 차이만 사용한다.
@@ -230,7 +236,7 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 53. Pierce·McMillan·Snyder의 권한과 시기를 합치지 않는다. Snyder는 2023년 2월 이후의 짧은 진단만 담당한다.
 54. 2021 ECF와 2022·2023 플레이오프를 자동 보존하거나 주인공 공로로 선점하지 않는다.
 55. 리바운드 전환만으로 S급 공격을 선언하지 않는다. Atlanta 잔류·이적 여부와 무관하게 플레이오프에서 스크린·숏롤·미스매치·엘보 카운터가 유지돼야 한다.
-56. 현행 정본에서 Spellman은 San Antonio 선수이므로 Atlanta가 그를 Golden State에 보내 Jones와 2026 2라운드 픽을 받는 실제 거래를 복사하지 않는다.
+56. `HISTORICAL_ATLANTA_BRANCH`: Spellman=San Antonio와 거래 불성립은 폐기 분기 결과다. Chicago 세계선에서는 Atlanta 30 Spellman과 2019 Spellman–Jones 거래를 입력 변화에 따라 재검증하며 자동 복사·자동 폐기하지 않는다.
 57. Jones의 실제 886.9분·27선발을 203cm 포워드인 주인공에게 센터 분으로 넘기지 않는다. 2019 대체 센터가 먼저다.
 58. 시즌별 저·중역할 선수 총분 합계를 사용 가능한 공짜 예산으로 보지 않는다. 각 선수의 계약·리더십·슈팅·선발 대체 기능을 남긴다.
 59. Hunter·Reddish의 실제 부상이나 2021-22 코로나 대체분을 주인공의 무결석 보너스로 쓰지 않는다. 주인공의 의학적 가용성도 같은 규칙으로 계산한다.
@@ -272,6 +278,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 ## 다음 게이트
 
-v0.27은 주인공의 Chicago 원클럽 프랜차이즈와 주인공 동부·라이벌 서부 방향을 잠갔다. 기존 Atlanta 30순위·Erie·Spellman·공동 코어 원장은 삭제하지 않고 비활성 대안 분기로 보존한다. 첫 NBA 착지 게이트는 다시 열렸으며, 다음 작업은 Chicago 22순위의 워크아웃 근거와 2018 Draft 22~60 재판정이다. 이어 Chicago 2018-19 player-game, 2019/20 로터리, 2021 거래·계약, 라이벌 서부 4안을 순서대로 계산한다. 정확 22순위·루키 기록·관계 3명·우승·수상은 HOLD다.
+v0.27은 주인공의 Chicago 원클럽 프랜차이즈와 주인공 동부·라이벌 서부 방향을 잠갔다. Chicago 22순위는 조건부 PASS지만 Hutchison 후속 보드는 열려 있다. 실제 역사 최소훼손을 목표로 만든 28 Golden State→43 Orlando 강제 폐쇄안은 철회했다. Portland 24는 Simons 연쇄, Golden State 28은 Evans·2020 거래 연쇄를 당시 팀 보드 기준으로 비교한다. 그 뒤 Chicago 2018-19 player-game, 2019/20 로터리, 2021 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
