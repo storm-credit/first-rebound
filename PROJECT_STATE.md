@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15C Chicago 2018-19 생산성 prior·승수 영향·2019 standings/lottery·Coby White 보드`
-- 최근 설계 변경: `Chicago rookie 73경기·11선발·1,274:02 역할선 PROVISIONAL_LOCK; receiver allocation PASS`
+- 현재 작업: `O-15C2 Chicago 2018-19 closing probability·logit scale·경기별 승패 실행`
+- 최근 설계 변경: `Chicago rookie 생산성 prior 범위·실존 선수 이전량 PASS; 22~24승 방향 범위와 Coby 보드는 exact outcome 전 HOLD`
 - 최근 정본 병합: `PR #68 / 12db9c7`
-- 최근 설계 병합: `PR #68 / 12db9c7`
+- 최근 설계 병합: `PR #70 / 34c96c8`
 
 ## 완료
 
@@ -144,6 +144,9 @@
 - [x] O-15B 독립 맹점 검토 — G League 징계 오독·NBA/G 일정 중복·말기 실존 선수 삭제 방지
 - [x] O-15B2 후반 33경기 476분 같은 날짜 donor와 누락 4경기 96:35 실존 receiver 배정 PASS
 - [x] 전체 보존: Hutchison 894:37 + 실존 선수 순차감 379:25 = 주인공 1,274:02
+- [x] O-15C1 Chicago 루키 생산성 prior LOW/BASE/HIGH와 476분 차감·96:35 반환 생산성 사건량 — `PRIOR_RANGE_PASS / TRANSFER_LEDGER_PASS`
+- [x] O-15C1 방향성 감사 — 0~+2승·22~24승 범위에서 4번째 lottery seed·12.5% 유지 `ROBUST_LEAN`; exact 승패·7순위는 HOLD
+- [x] O-15C1 Coby White 7순위 유지 시 `RETENTION_STRONG_LEAN / EVENT_HOLD`; Patrick Williams `REOPEN_REQUIRED`
 
 ## 현재 결정 대기
 
@@ -151,7 +154,8 @@
 - [x] O-15A4 Lakers 39 거래 구조·Bonga 44·Sanon 45~60 후속 보드 검증 — 내부 선호는 증거 부족 HOLD
 - [x] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산 — `STRUCTURE_SCREEN_PASS / EVENT_HOLD`
 - [x] O-15B2 Chicago 2018-19 같은 날짜 receiver ledger·73경기/11선발/정확 총분 판정
-- [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
+- [ ] O-15C2 77개 영향 경기 pB·logit scale·conditional latent 실행과 exact 2019 승수
+- [ ] O-15C3 2019 standings/lottery 결과 확정 뒤 Coby White 보드; 2020 Patrick Williams는 2019-20 뒤 재판정
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
 
