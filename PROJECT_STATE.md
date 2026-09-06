@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E-RIVAL-2020-WEST 상위 1~3순위·서부 착지 4안 재계산`
-- 최근 설계 변경: `lottery A AUTHOR_LOCK; Chicago pick4 LOCK; 조건부 5인 보드 PASS; rival upstream blocker 발견`
+- 현재 작업: `O-15E-AUTHOR 라이벌 2020 서부 착지 A~D 선택`
+- 최근 설계 변경: `서부 4안 PASS; Minnesota #1 총괄 추천; exact 팀·순번 HOLD`
 - 최근 정본 병합: `PR #88 / f1752ebb`
-- 최근 설계 병합: `PR #88 / f1752ebb`
+- 최근 설계 병합: `PR #90 / 3fcc29e6`
 
 ## 완료
 
@@ -167,6 +167,8 @@
 - [x] O-15C7 작가 선택 A — exact 21~22승 HOLD·2020 lottery seed 7·7.5%·전체 4순위 `AUTHOR_APPROVED / LOCKED`
 - [x] 실제 top 3 유지 조건의 Chicago 4순위 5인 보드 — `Haliburton > Avdija > Williams > Vassell > Okoro / CONDITIONAL_PASS`
 - [x] 2020 1순위급 라이벌이 Edwards·Wiseman·Ball 가용성을 바꾸는 상류 블로커 등록 — Chicago 정확 지명 `HOLD`
+- [x] O-15E 라이벌 서부 4안 — Minnesota 1·Golden State 2 직접 지명 / San Antonio·Oklahoma City 상향 거래 contingency
+- [x] O-15E 총괄 추천 Minnesota 1순위 — `PRIMARY_LEAN / NOT_CANON`
 
 ## 현재 결정 대기
 
@@ -185,7 +187,7 @@
 - [x] O-15C6C-AUTHOR A exact 21~22 HOLD+seed7/pick4 유지 선택
 - [ ] O-15C7 Chicago 정확 4순위 지명 — 라이벌 2020 서부 팀·순번과 실제 top 3 재배열 전 `UPSTREAM_BLOCKED`
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
-- [ ] O-15E 라이벌 2020 서부 착지 4안 — O-15D보다 선행, 정확 팀·순번 HOLD
+- [ ] O-15E-AUTHOR A Minnesota 1 / B Golden State 2 / C San Antonio 상향 / D Oklahoma City 상향 중 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -356,6 +358,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차 player-game·박스 prior·BPM/NET/RAPTOR outcome 교차검증까지 통과시켰다. 작가 선택 A로 exact 21~22승은 HOLD하면서 2020 lottery seed 7·7.5%·전체 4순위를 잠갔다. 실제 top 3 유지 조건의 Chicago 보드는 Haliburton > Avdija > Williams > Vassell > Okoro지만, 2020 1순위급 라이벌이 상위 보드를 바꾸므로 정확 지명은 HOLD다. 다음 게이트는 O-15E 라이벌 서부 착지·1~3순위 재계산이다. 원고 게이트는 계속 CLOSED다.
+v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차 player-game·박스 prior·BPM/NET/RAPTOR outcome 교차검증까지 통과시켰다. 작가 선택 A로 exact 21~22승은 HOLD하면서 2020 lottery seed 7·7.5%·전체 4순위를 잠갔다. O-15E 서부 4안은 Minnesota 1·Golden State 2 직접 지명과 San Antonio·Oklahoma City 상향 거래로 압축했고 Minnesota 1순위를 총괄 추천한다. 작가가 A~D를 선택하면 Golden State 2→Charlotte 3→Chicago 4를 팀별로 재실행한다. 원고 게이트는 계속 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
