@@ -1,6 +1,6 @@
 # Chicago 2019 Coby White Draft Board v0.1
 
-- 상태: `PASS_FOR_AUTHOR_SELECTION / EXACT_PICK_HOLD`
+- 상태: `AUTHOR_APPROVED / LOTTERY_7_AND_COBY_LOCKED`
 - 기준일: 2026-09-06
 - 선행 원장: `simulation/CHICAGO_2018_19_OUTCOME_ROBUSTNESS.md`
 - 역사 변경 경계: 2019 Draft 1~6순위 유지
@@ -13,7 +13,7 @@ Chicago의 2018-19 counterfactual record 범위는 22~24승이며 전 범위에�
 7순위 팀보드의 총괄 추천은 **Coby White 유지**다.
 
 - 판정: `COBY_WHITE_PRIMARY / TEAM_BOARD_PASS`
-- 정확 7순위·지명: `AUTHOR_SELECTION_REQUIRED / HOLD`
+- 정확 7순위·지명: `LOCKED`
 - 이유: 2019 Chicago의 가장 큰 미충족 역할은 장기 포인트가드였고, 주인공은 아직 저사용률 SF/PF라 직접 중복이 없다.
 - 후대 성과: 선택 근거에서 제외한다.
 
@@ -96,34 +96,34 @@ Chicago의 2018-19 counterfactual record 범위는 22~24승이며 전 범위에�
 
 38순위 Daniel Gafford는 Coby 선택과 함께 유지 가능한 실제 역사다. 만약 7순위에서 Hayes를 택하면 Gafford 38순위는 자동 유지하지 않고 다시 열어야 한다.
 
-## 6. 작가 선택지
+## 6. 작가 선택 결과
 
-### A. 실제 7순위·Coby White 유지 — 총괄 추천
+### A. 실제 7순위·Coby White 유지 — 선택·LOCK
 
 - 최소 접촉 원칙과 team need가 동시에 맞는다.
 - 주인공과 포지션·성장 자원이 직접 겹치지 않는다.
 - 2019-20에 LaVine–Coby–주인공의 서로 다른 성장 속도를 설계할 수 있다.
 - 선택 시 다음 단계: 2019-20 전체 roster·player-minute donor 원장.
 
-### B. 7순위는 유지하되 지명 재개방
+### B. 7순위는 유지하되 지명 재개방 — 기각
 
 - Reddish·Hachimura·Hayes·Washington을 다시 심층 비교한다.
 - 현재는 Coby를 밀어낼 직접 인과가 없다.
 - 선택 시 2019-20 roster와 2020 보드의 나비효과가 크게 늘어난다.
 
-### C. lottery 추첨부터 재실행
+### C. lottery 추첨부터 재실행 — 기각
 
 - Chicago seed와 조합 배정이 실제와 같으므로 실행 조건이 없다.
 - 원하는 순번을 얻기 위한 재추첨이 되어 프로토콜과 충돌한다.
 - `REJECT`.
 
-## 총괄 추천 판정
+## 최종 판정
 
-`A — 실제 7순위와 Coby White 유지`
+`A — 실제 7순위와 Coby White 유지 / AUTHOR APPROVED / LOCKED`
 
 이는 실제 역사를 편의상 복사하는 선택이 아니라, 주인공의 직접 영향이 lottery seed와 Chicago의 포인트가드 필요를 바꾸지 않았다는 인과 결과다.
 
-승인되더라도 다음 항목은 자동 확정되지 않는다.
+이 선택으로도 다음 항목은 자동 확정되지 않는다.
 
 - Chicago exact 2018-19 record 22·23·24 중 하나
 - Coby의 정확 2019-20 분·선발·박스
