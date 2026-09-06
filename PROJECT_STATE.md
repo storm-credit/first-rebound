@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E2-AUTHOR 2020 Draft 2~4순위 순차 보드 선택`
-- 최근 설계 변경: `라이벌 Minnesota #1 LOCK; Wiseman 2→Edwards 3→LaMelo 4 PRIMARY_LEAN`
-- 최근 정본 병합: `PR #92 / 79f613b5`
-- 최근 설계 병합: `PR #92 / 79f613b5`
+- 현재 작업: `O-15E3-AUTHOR Patrick Williams 6/7순위 재착지 선택`
+- 최근 설계 변경: `상위 4순위 LOCK; Patrick Detroit #7 PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #94 / 986c5b11`
+- 최근 설계 병합: `PR #94 / 986c5b11`
 
 ## 완료
 
@@ -170,6 +170,8 @@
 - [x] O-15E 라이벌 서부 4안 — Minnesota 1·Golden State 2 직접 지명 / San Antonio·Oklahoma City 상향 거래 contingency
 - [x] O-15E 작가 선택 A — 라이벌 Minnesota 전체 1순위 `AUTHOR_APPROVED / LOCKED`
 - [x] O-15E1 상위 순차 보드 — `Wiseman 2 → Edwards 3 → LaMelo 4 PRIMARY_LEAN`; Charlotte 내부 비교 blocker로 exact 2~4순위 HOLD
+- [x] O-15E2 작가 선택 — `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 AUTHOR_APPROVED / LOCKED`
+- [x] Patrick Williams 5~7순위 재착지 보드 — `Okoro 5 → Okongwu 6 → Patrick 7 PRIMARY_LEAN / AUTHOR_GATE`
 
 ## 현재 결정 대기
 
@@ -186,10 +188,11 @@
 - [x] O-15C6B score-margin impact·65경기 outcome·2020 standings/lottery — `MODEL_REPRODUCED / EXACT_HOLD`
 - [x] O-15C6C 외부 RAPTOR impact 교차검증·regularizer sensitivity·lottery decision packet
 - [x] O-15C6C-AUTHOR A exact 21~22 HOLD+seed7/pick4 유지 선택
-- [ ] O-15C7 Chicago 정확 4순위 지명 — 주 분기 LaMelo, 반대 분기 Edwards `AUTHOR_SELECTION_REQUIRED`
+- [x] O-15C7 Chicago 정확 4순위 지명 — LaMelo Ball `AUTHOR_APPROVED / LOCKED`
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [x] O-15E-AUTHOR A Minnesota 1 선택
-- [ ] O-15E2-AUTHOR 주 분기 `Wiseman 2→Edwards 3→LaMelo 4` 또는 반대 분기 `Wiseman 2→Ball 3→Edwards 4` 선택
+- [x] O-15E2-AUTHOR 주 분기 `Wiseman 2→Edwards 3→LaMelo 4` 선택
+- [ ] O-15E3-AUTHOR A `Okoro 5→Okongwu 6→Patrick 7` 또는 B `Okoro 5→Patrick 6→Hayes 7` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -235,7 +238,7 @@
 - [ ] PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정 — R08/R09 HOLD
 - [ ] 두 가상 에이전트·브랜드 매니저의 이름·소속·수수료
 - [ ] 2019 Kobe 훈련의 초청자·장소·날짜
-- [ ] 라이벌 NBA 팀 내부의 베테랑 멘토 — 2020 Draft 팀 선택 뒤 HOLD
+- [ ] 라이벌 NBA 팀 내부의 베테랑 멘토 — Minnesota roster 내부 후보 비교 HOLD
 - [x] 2018-20 인과 계산 뒤 2020 로터리·라이벌 실제 지명 팀과 순번 — Minnesota 전체 1순위 LOCK
 - [ ] 정식 제목
 
@@ -357,10 +360,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 112. 두 무피로 BASE가 22승에 수렴했다는 이유로 exact 22승을 잠그거나 실제 4순위·Patrick Williams를 연쇄 고정하지 않는다.
 113. RAPTOR regularizer stress의 19승 꼬리와 BASE 21~22승을 동일 가중하거나 전체 19~24승을 평균내 정본 승수로 쓰지 않는다.
 114. 2020 1순위급 라이벌을 실제 top 3 뒤에 억지로 배치하거나 Edwards·Wiseman·Ball을 자동 보존한 채 Chicago 4순위 5인 보드를 확정하지 않는다.
-115. Charlotte가 실제로 Ball을 지명했다는 사실을 Edwards보다 Ball을 높게 둔 내부 비교 증거로 과장하지 않는다. 둘을 동시에 본 공개 보드가 없으므로 3·4순위 분기는 작가 게이트다.
+115. Charlotte가 실제로 Ball을 지명했다는 사실을 Edwards보다 Ball을 높게 둔 내부 비교 증거로 과장하지 않는다. 상위 4순위 작가 선택 뒤에도 내부 자료가 새로 확인된 것으로 쓰지 않는다.
+116. Chicago가 LaMelo를 지명했다고 Patrick Williams를 삭제하지 않는다. 5순위부터 재착지시키고 그 순번의 실존 선수를 다시 계산한다.
+117. Detroit의 Patrick 7순위 promise 보도를 구단 공식 확인으로 과장하거나, Patrick을 놓은 뒤 Killian Hayes를 보드에서 삭제하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차까지 통과시켰다. 작가 선택으로 라이벌의 Minnesota 전체 1순위를 잠갔다. 다음 게이트는 주 분기 `Golden State Wiseman 2→Charlotte Edwards 3→Chicago LaMelo 4`와 반대 분기 `Wiseman 2→Ball 3→Edwards 4` 중 선택이다. 2~4순위 exact 결과와 라이벌 공격형·성격은 계속 HOLD하며 원고 게이트도 CLOSED다.
+v0.30은 Chicago 루키 역할·2019 lottery/Coby White·2019-20 2년차와 2020 Draft 상위 4순위까지 통과시켰다. 정확 상위 보드는 `Minnesota 가상 라이벌→Golden State Wiseman→Charlotte Edwards→Chicago LaMelo`다. 다음 게이트는 A `Cleveland Okoro 5→Atlanta Okongwu 6→Detroit Patrick 7`과 B `Cleveland Okoro 5→Atlanta Patrick 6→Detroit Hayes 7` 중 선택이다. 총괄은 동시대 Detroit 연결이 더 구체적인 A를 추천한다. 선택 뒤 밀려난 실존 선수 보드를 먼저 닫고 Chicago 2020-21 원장으로 이동한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
