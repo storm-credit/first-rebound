@@ -267,5 +267,11 @@
 | D-259 | LOTTERY_EVENT_LOCK | Chicago의 4번째 lottery seed·12.5%가 전 강건성 범위에서 유지되므로 실제 2019 추첨 결과인 전체 7순위를 보존 | 원하는 순번을 위한 재추첨 금지, 정확 2018-19 승수와 독립 |
 | D-260 | AUTHOR_LOCK | 2019 Chicago 7순위에서 Coby White를 실제와 같이 지명 | 2019 당시 포인트가드 필요와 저사용률 SF/PF 주인공의 낮은 역할 중복에 근거, 후대 성과 역선택 금지 |
 | D-261 | ROLE_AND_FUTURE_FIREWALL | 2019-20 Coby·LaVine·주인공의 분·사용률은 player-game donor 원장에서 재계산하고 2020 Patrick Williams 보드는 재개방 | Coby의 실제 분 자동 복사·주인공의 조기 포인트포워드화·Patrick 자동 유지 금지 |
+| D-262 | EVIDENCE_BASELINE_PASS | 2019-20 Chicago는 실제 65경기·17명 출전·15,675:11·325선발을 player-minute 기준선으로 사용 | 취소된 17경기 복원 금지, 2020 재개 시즌 비참가 유지 |
+| D-263 | DIRECT_SLOT_LOCK | 활성 Chicago 세계선에 없는 Hutchison의 실제 28경기·10선발·526:48을 2년차 주인공의 1차 직접 슬롯으로 둠 | Hutchison의 출전일·부상·생산성은 주인공에게 복사하지 않음 |
+| D-264 | SECOND_YEAR_PRECALC_RANGE | 주인공 2년차를 60~65경기·14~22선발·1,320~1,470분, BASE 63경기·18선발·1,395분으로 계산 시작 | player-game 보존 전 CANDIDATE, 개인 박스·승수 HOLD |
+| D-265 | SECOND_YEAR_ROLE_FIREWALL | 핵심 신기술은 약한 손 운반·클로즈아웃 돌파, 보조는 감속 뒤 짧은 패스 | Coby의 가드 역할·LaVine 1차 득점·2020-21 grab-and-go/숏롤 선취 금지 |
+| D-266 | MINUTE_BUDGET_PASS | BASE 1,395분은 Hutchison 526:48+Valentine/Harrison/Arcidiacono/Mokoka/Strus/Young 868:12로만 조달 | 보호 10인의 0분 차감, 같은 날짜·선발 보존 전 exact 역할 LOCK 금지 |
+| D-267 | NEXT_BLOCKER | O-15C5에서 65경기 같은 날짜 donor와 18선발 자리를 검산 | 생산성 prior·승패·2020 lottery·Patrick Williams 보드 선행 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
