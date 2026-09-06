@@ -587,3 +587,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 73경기·11선발·1,274:02의 개인 박스스코어와 생산성 prior
 - 변경된 로테이션의 2018-19 승수·Hoiberg 해임·Holiday/Porter 거래 영향
 - 2019 standings·lottery·Coby White 보드와 2020 Patrick Williams 보드
+
+## v0.30 O-15C3 ADDITIONS — 2019 lottery·Coby White
+
+- Chicago의 2018-19 대체 성적은 margin residual 강건성 범위 **22~24승**에서 정확값을 `HOLD`한다.
+- 이 전 범위에서 Chicago는 리그 4번째 lottery seed와 1순위 확률 12.5%를 유지한다.
+- seed와 조합 배정이 바뀌지 않았으므로 실제 2019 lottery 추첨 결과인 **전체 7순위**를 보존한다. 재추첨하지 않는다.
+- Chicago는 7순위에서 **Coby White를 지명**한다. 2019 당시 장기 포인트가드 필요와 저사용률 SF/PF 주인공의 역할 분리가 근거이며 후대 성과는 선택 근거가 아니다.
+- Coby·LaVine·주인공의 2019-20 정확 분·선발·사용률·박스는 새 player-game donor 원장 전 `HOLD`다.
+- 2020 lottery 결과와 Patrick Williams 지명은 2019-20 결과 뒤 재판정하며 자동 보존하지 않는다.

@@ -36,3 +36,9 @@ Reddish·Hachimura·Hayes를 선택하면 2019 Chicago의 가장 큰 필요를 �
 - 정확 지명: `AUTHOR_SELECTION_REQUIRED`
 - 2019-20 역할·분: `HOLD`
 - 2020 Patrick Williams: `REOPEN_REQUIRED / HOLD`
+
+## 작가 판정 반영
+
+- 선택: `A — 실제 7순위·Coby White 유지`
+- 결과: `AUTHOR_APPROVED / LOCKED`
+- 승인 범위 밖: 정확한 2018-19 승수, Coby의 2019-20 분·선발·박스, 2020 lottery·Patrick Williams

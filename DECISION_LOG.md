@@ -263,5 +263,9 @@
 | D-255 | PLAYER_MINUTE_CONSERVATION_PASS | 누락 4경기 96:35는 당일 실존 수취자에게 반환하고, Hutchison 894:37+실존 선수 순차감 379:25=주인공 1,274:02로 보존 | 수취자의 추가 생산·피로·승패 영향은 다음 원장 HOLD |
 | D-256 | SUPERSEDES_D248 / ROOKIE_ROLE_PROVISIONAL_LOCK | Chicago 루키 73경기·11선발·1,274:02·17.45분 역할선을 잠정 정본화 | 개인 득점·리바운드·효율·대표 경기·승수는 O-15C 전 LOCK 금지 |
 | D-257 | NEXT_PHASE | O-15B2를 닫고 O-15C Chicago 생산성 prior·승수·2019 standings/lottery·Coby White 보드로 이동 | 정확 Chicago 22와 팀보드 연쇄 HOLD 유지 |
+| D-258 | OUTCOME_MODEL_REOPEN | 점수차를 무시한 Bernoulli runner의 exact 승수 권한을 회수하고 margin residual의 22~24승 범위만 유지 | 정확 2018-19 승수는 HOLD, 전 범위 lottery 4번째 seed는 유지 |
+| D-259 | LOTTERY_EVENT_LOCK | Chicago의 4번째 lottery seed·12.5%가 전 강건성 범위에서 유지되므로 실제 2019 추첨 결과인 전체 7순위를 보존 | 원하는 순번을 위한 재추첨 금지, 정확 2018-19 승수와 독립 |
+| D-260 | AUTHOR_LOCK | 2019 Chicago 7순위에서 Coby White를 실제와 같이 지명 | 2019 당시 포인트가드 필요와 저사용률 SF/PF 주인공의 낮은 역할 중복에 근거, 후대 성과 역선택 금지 |
+| D-261 | ROLE_AND_FUTURE_FIREWALL | 2019-20 Coby·LaVine·주인공의 분·사용률은 player-game donor 원장에서 재계산하고 2020 Patrick Williams 보드는 재개방 | Coby의 실제 분 자동 복사·주인공의 조기 포인트포워드화·Patrick 자동 유지 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

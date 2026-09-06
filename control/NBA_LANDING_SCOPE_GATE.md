@@ -48,7 +48,8 @@ manuscript_allowed: false
 - Washington Trent: `DEADLINE_KEEP_PRIMARY / RFA_PATH_PASS / EXACT_CONTRACT_HOLD`
 - Portland Powell: `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
 - 연도별 순서: 실제 사건 전수 대조, 변화 지점 심층 계산, 시즌 시간순 최종 확정
-- 다음 실행: O-15C Chicago 2018-19 생산성 prior·승수·2019 로터리/Coby White 보드
+- O-15C3: 실제 2019 lottery 7순위·Coby White 지명 `AUTHOR_APPROVED / LOCKED`
+- 다음 실행: O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선
 
 ## 닫기 조건
 
