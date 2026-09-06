@@ -1,6 +1,6 @@
 # 2020 Draft Patrick Williams Relanding Board
 
-- 상태: `PICKS_5_TO_7_SEQUENTIAL_PASS / PATRICK_7_PRIMARY_LEAN / AUTHOR_GATE`
+- 상태: `AUTHOR_APPROVED / PATRICK_7_LOCKED`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4`
 - 원고 게이트: `CLOSED`
 
@@ -16,7 +16,7 @@ Chicago가 LaMelo Ball을 4순위로 지명하면 Patrick Williams의 실제 4�
 - 지명 직후 Koby Altman은 Okoro가 fit과 보드상 최고 재능을 함께 충족했다고 밝혔다.
 - Patrick도 대형 수비 포워드지만 Cleveland가 실제로 확인한 Okoro의 POA 수비와 팀 적합 근거를 뒤집을 직접 증거는 없다.
 
-판정: `Isaac Okoro RETENTION_STRONG_LEAN`.
+판정: `Isaac Okoro AUTHOR_APPROVED / LOCKED`.
 
 ## 3. Atlanta 6순위
 
@@ -24,7 +24,7 @@ Chicago가 LaMelo Ball을 4순위로 지명하면 Patrick Williams의 실제 4�
 - Atlanta는 이미 De'Andre Hunter·Cam Reddish라는 젊은 윙을 보유했고, Okongwu는 Capela 뒤 장기 수비 센터 기능을 제공했다.
 - 동시대 mock 두 곳은 Patrick을 Atlanta 6순위에 배치했으므로 자동 유지는 금지한다.
 
-판정: `Onyeka Okongwu RETENTION_LEAN`; Patrick 선택은 `CONTINGENCY_HOLD`.
+판정: `Onyeka Okongwu AUTHOR_APPROVED / LOCKED`. Patrick 선택은 폐기된 비교 분기다.
 
 ## 4. Detroit 7순위
 
@@ -32,23 +32,23 @@ Chicago가 LaMelo Ball을 4순위로 지명하면 Patrick Williams의 실제 4�
 - 드래프트 직전 NBA.com consensus에서 Patrick은 Detroit 7순위의 최빈 예상이었다.
 - 일부 scout·executive가 Detroit의 7순위 promise를 믿는다는 동시대 보도가 있었다. 이는 확정된 구단 발표는 아니지만 Patrick의 새 착지에 가장 구체적인 팀 연결이다.
 
-판정: **Patrick Williams 7순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`**.
+판정: **Patrick Williams 7순위 `AUTHOR_APPROVED / LOCKED`**.
 
-이 안이 승인되면 Hayes는 삭제하지 않고 New York 8순위부터 다시 보드에 넣는다.
+이 승인으로 Hayes는 삭제하지 않고 New York 8순위부터 다시 보드에 넣는다.
 
 ## 5. 분기 비교
 
 | 안 | Cleveland 5 | Atlanta 6 | Detroit 7 | 새 이동 선수 | 판정 |
 |---|---|---|---|---|---|
-| **A** | Okoro | Okongwu | **Patrick Williams** | Killian Hayes | **총괄 추천** |
-| B | Okoro | **Patrick Williams** | Killian Hayes | Onyeka Okongwu | 가능하지만 Atlanta 직접 선호 증거 약함 |
+| **A** | Okoro | Okongwu | **Patrick Williams** | Killian Hayes | **작가 승인 / 정본** |
+| B | Okoro | **Patrick Williams** | Killian Hayes | Onyeka Okongwu | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — Patrick Williams Detroit 7순위**를 추천한다. 이는 아직 정본이 아니다.
+O-15E3 작가 선택으로 **A — Patrick Williams Detroit 7순위**를 정본화한다. Detroit promise 보도는 여전히 구단 공식 확인이 아니며, 작가 결정의 근거 중 하나로만 취급한다.
 
 ## 6. 다음 경계
 
-1. 작가가 A/B를 선택한다.
-2. A라면 Hayes 8순위 이하, B라면 Okongwu 7순위 이하를 순차 재판정한다.
+1. Patrick에게 밀린 Hayes를 New York 8순위부터 순차 재판정한다.
+2. Hayes의 새 팀에서 밀려난 선수를 같은 방식으로 이어서 계산한다.
 3. 2020 Draft 변경 선수가 안정된 뒤 Chicago 2020-21 opening roster·player-game 원장을 만든다.
 4. 그 결과 뒤에만 Vučević 거래 동기와 실제 발생 여부를 판정한다.
 

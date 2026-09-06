@@ -314,5 +314,11 @@
 | D-306 | OKONGWU_6_RETENTION_LEAN | Atlanta는 Onyeka Okongwu를 6순위에 유지하는 주안 | Patrick 6순위 동시대 mock 때문에 대안 분기 보존 |
 | D-307 | PATRICK_DETROIT_7_PRIMARY_LEAN | Detroit가 Patrick Williams를 7순위에 지명하는 안을 총괄 추천 | promise 보도를 구단 공식 확인으로 과장하지 않고 작가 승인 전 HOLD |
 | D-308 | DISPLACED_PLAYER_FIREWALL | A안은 Hayes를 8순위부터, B안은 Okongwu를 7순위부터 재계산 | 밀려난 실존 선수 삭제·하류 실제 지명 자동 복사 금지 |
+| D-309 | AUTHOR_LOCK / PATRICK_DETROIT_7 | 2020 Draft 5~7순위를 Cleveland Okoro→Atlanta Okongwu→Detroit Patrick Williams로 확정 | Detroit promise 정황을 구단 공식 확인으로 쓰지 않음 |
+| D-310 | ATLANTA_PATRICK_6_REJECTED | Atlanta Patrick 6분기를 비교 이력으로만 보존 | Okongwu를 삭제하거나 Detroit 이후 실제 보드를 자동 복사하지 않음 |
+| D-311 | HAYES_RELANDING_REQUIRED | Patrick에게 밀린 Killian Hayes를 New York 8순위부터 재배열 | 실제 8순위 Toppin을 자동으로 한 칸 밀지 않음 |
+| D-312 | PICKS_8_TO_12_RETENTION_LEAN | Toppin·Avdija·Jalen Smith·Vassell·Haliburton 실제 지명을 팀별 근거로 유지 주안 처리 | 한 번의 최소 역사 변경 결정으로 묶어 자동 LOCK하지 않음 |
+| D-313 | HAYES_NEW_ORLEANS_13_PRIMARY_LEAN | New Orleans가 Killian Hayes를 13순위로 지명하는 안을 총괄 추천 | 실제 Kira 지명만으로 내부 head-to-head를 추정하지 않고 작가 승인 전 HOLD |
+| D-314 | NEXT_DISPLACED_PLAYER_FIREWALL | Hayes 13 선택 시 Kira를, Lewis 13 유지 시 Hayes를 Boston 14순위부터 재계산 | 이동 선수 삭제·후대 성과 역선택 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -287,3 +287,5 @@ O-15C6C까지 세 impact 계열의 BASE는 2019-20 Chicago 21~22승과 2020 lott
 O-15C7에서 작가 선택 A를 반영했다. Chicago는 2020 전체 4순위를 보유하지만 정확 지명은 아직 `HOLD`다. 실제 top 3 유지 조건의 5인 보드는 Haliburton > Avdija > Williams > Vassell > Okoro다. 그러나 2020 1순위급 라이벌이 상위 1~3순위를 바꿀 수 있으므로, 다음 선택 게이트는 Patrick 유지 여부가 아니라 라이벌의 서부 팀·정확 순번과 밀려난 실제 top 3의 재배열이다.
 
 O-15E2에서 작가는 주 분기를 선택했다. 상위 4순위는 **가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 `AUTHOR_APPROVED / LOCKED`**다. Charlotte의 Edwards/Ball 내부 head-to-head가 공개되지 않았다는 자료 한계는 남지만, 반대 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 닫는다. 다음 작가 게이트는 Patrick Williams의 `Detroit 7순위 주안`과 `Atlanta 6순위 대안`이며 라이벌의 공격형·성격·신인 기록은 별도 HOLD다.
+
+O-15E3에서 작가는 **A Okoro 5 → Okongwu 6 → Patrick Williams 7**을 선택했다. 정확 1~7순위는 `AUTHOR_APPROVED / LOCKED`다. Hayes는 8~12순위 실제 지명 유지 주안을 거쳐 New Orleans 13순위가 새 작가 게이트다. 총괄은 Hayes 13을 추천하고 Kira Lewis 13 유지를 반대 분기로 보존한다.

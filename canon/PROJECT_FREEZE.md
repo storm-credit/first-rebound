@@ -669,3 +669,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Patrick Williams는 삭제하지 않는다. Cleveland 5순위 Okoro 유지 `STRONG_LEAN`, Atlanta 6순위 Okongwu 유지 `LEAN`, Detroit 7순위 Patrick을 `PRIMARY_LEAN / AUTHOR_GATE`로 둔다.
 - Patrick이 Detroit 7순위로 가면 Killian Hayes를 8순위부터, Atlanta 6순위로 가면 Onyeka Okongwu를 7순위부터 다시 계산한다. 재착지 선택과 밀려난 선수 연쇄가 닫히기 전 2020-21 roster·승패를 확정하지 않는다.
 - 상세 권위는 `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md`다.
+
+## v0.30 O-15E3 PARTIAL ADDITIONS — Patrick Williams Detroit 7순위
+
+- 작가 선택 A를 반영해 **Cleveland Isaac Okoro 5 → Atlanta Onyeka Okongwu 6 → Detroit Patrick Williams 7**을 `AUTHOR_APPROVED / LOCKED`로 둔다.
+- Atlanta가 Patrick을 6순위로 지명하는 분기는 `REJECTED_HISTORICAL_CONTINGENCY`다. Detroit promise 보도는 공식 구단 확인이 아니라 작가 선택을 보조한 동시대 정황으로만 취급한다.
+- Patrick에게 밀린 실제 7순위 Killian Hayes는 삭제하지 않는다. New York 8순위부터 새 팀보드에 넣는다.
+- 8~12순위 실제 지명인 Obi Toppin·Deni Avdija·Jalen Smith·Devin Vassell·Tyrese Haliburton 유지는 팀별 근거를 통과한 주안이다. 정확 LOCK은 다음 작가 결정에 포함한다.
+- 첫 활성 분기는 New Orleans 13순위다. Hayes 13순위를 `PRIMARY_LEAN / AUTHOR_GATE`, Kira Lewis Jr. 유지를 대안으로 둔다.
+- A Hayes 13이면 Kira를, B Lewis 13이면 Hayes를 Boston 14순위부터 다시 계산한다. 이 연쇄가 닫히기 전 Chicago 2020-21 roster·승패를 확정하지 않는다.
+- 상세 권위는 `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_KILLIAN_HAYES_RELANDING_REVIEW.md`다.
