@@ -9,6 +9,19 @@
 
 드래프트의 실제 결과는 보존 목표가 아니다. **입력이 같으면 실제 결과를 유지하고, 입력이 바뀌면 규정과 팀 판단에 따라 결과도 바꾼다.** 유명 선수의 실제 행선지도 예외가 아니다.
 
+## 설계 입력 순서
+
+드래프트 팀을 먼저 정한 뒤 선수 능력을 맞추지 않는다. 다음 순서를 고정한다.
+
+1. **가상 선수 프로필:** 역할, 강점, 약점, 의료, 당시 평가 범위를 먼저 작성한다. 정확 팀·순번은 비운다.
+2. **실제 드래프트 기준선:** 실제 순서, 픽 소유권, 팀별 보드·필요·워크아웃·거래 의사를 복원한다.
+3. **순번별 삽입:** 가상 선수가 처음으로 실제 후보를 이길 수 있는 픽부터 한 칸씩 재판정한다.
+4. **서사 비교:** 둘 이상의 인과적으로 가능한 결과만 남았을 때 성장·관계·흥미·장기 구조를 비교한다. 개연성 탈락안을 서사성으로 부활시키지 않는다.
+5. **나비효과 폐쇄:** 밀린 선수의 다음 보드·계약·분·거래를 핵심 세계선에 다시 영향이 닿지 않는 지점까지 추적한다.
+6. **정본 승격:** 선수 프로필, 팀 보드, 후속 연쇄, 독립 반증 검토가 모두 통과한 뒤에만 정확 팀·순번을 LOCK한다.
+
+따라서 `주인공·라이벌 드래프트`와 `실제 NBA 드래프트` 중 하나를 통째로 먼저 끝내는 방식이 아니다. **가상 선수 프로필을 먼저 잠그고 실제 보드에 삽입하는 혼합 순서**가 현행 방식이다.
+
 ## 계산 사슬
 
 ```text
@@ -63,7 +76,7 @@
 
 드래프트 전체를 같은 깊이로 조사하지 않는다. **원장은 전수, 심층 검토는 변화 지점** 원칙을 쓴다.
 
-1. v0.27 Chicago 세계선은 주인공의 22순위 후보부터 22~60을 전수 스캔한다. 1~21순위만 시간상 선행사건으로 유지한다. 과거 Atlanta 세계선의 경계는 30~60이었다.
+1. v0.28 Chicago 세계선은 주인공의 22순위 후보부터 22~60을 전수 스캔한다. 1~21순위만 시간상 선행사건으로 유지한다. 과거 Atlanta 세계선의 경계는 30~60이었다.
 2. 각 픽의 1차 스캔은 실제 선택, 새로 남은 Spellman/연쇄 이탈자, 당시 보드의 비교 후보 한 명으로 제한한다.
 3. 실제 선택 선수가 여전히 남아 있고, 새 후보가 당시 필요·보드에서 명백히 앞서지 않으면 `UNCHANGED`로 짧게 통과한다.
 4. 새 후보가 실제 선택을 밀어낼 가능성이 있거나 실제 선택 선수가 이미 사라졌을 때만 `CHANGED/CASCADE` 심층 비교를 연다.
@@ -126,15 +139,17 @@
 - 상세 원장과 감사 게이트는 `simulation/ATLANTA_2018_19_CAUSALITY_LEDGER.md` 및 `.xlsx`가 권위다.
 - 후반 보드의 선택 근거는 `simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md`가 권위다.
 
-## v0.27 Chicago 22~60 실행 상태
+## v0.28 Chicago 22~60 실행 상태
 
 - Chicago 팀과 원클럽 프랜차이즈 방향은 LOCK, 정확 22순위는 `CONDITIONAL_PASS/HOLD`다.
 - 1~21 선행 픽은 유지하고 22~60을 전수 스캔한다.
 - Hutchison의 23 Indiana·24 Portland·28 Golden State·29 Brooklyn·35 Orlando 착지를 비교했다.
-- Golden State 28은 당시 즉시 수비·다목적 윙 필요로 팀보드 1순위 LEAN, Portland 24는 대안이다. 둘 다 연쇄가 닫히지 않아 LOCK은 HOLD다.
-- Portland 24는 Simons의 Phoenix 31·Orlando 35·Portland 37 재선택, Golden State 28은 Evans의 Detroit 38·42와 2020 Russell–Wiggins 거래 재계산이 필요하다.
+- Golden State 28 Hutchison은 당시 즉시 수비·다목적 윙 필요로 `TEAM_BOARD_PASS / DRAFT_NIGHT_PRIMARY_CANDIDATE`, Portland 24는 `SIMONS_KEEP_LEAN / HUTCHISON_CONTINGENCY_ONLY`다.
+- Golden State 28 분기에서 Evans는 Portland 37이 `PRIMARY_LEAN`, Trent는 Lakers 39가 `PRIMARY_LEAN`이다. Detroit 42와 Lakers 47은 대안·하한선이며 모두 NOT_CANON이다.
+- 2차 후보는 Bonga 44 Washington→Sanon 미지명/Olimpija다. San Antonio 49 LOW·Charlotte 55 대안, Tony Carr 51 유지 STRONG으로 45~60을 통과해 드래프트 보드 연쇄 경계는 PASS다. 정확 결과는 Lakers·Washington 내부 선호 확인 전 LOCK하지 않는다.
+- 2019 Spellman–Jones는 복원 PASS다. 2019 AD 거래는 Trent가 같은 3년 최소급 구조를 받으면 cap mechanics 복원 PASS지만 Trent의 Washington·2021 파급을 다시 계산한다. 2020 Russell–Wiggins는 계약 구조 PASS·정확 Hutchison 자산 HOLD, 2021 Powell–Trent는 원형 불성립이다.
 - 실제 주요 선수의 후속 성공을 보존하려고 경로를 선택하지 않는다. 실존 선수 보호는 원래 팀 고정이 아니라 밀린 선수의 보드·계약·분·거래 비용 추적이다.
-- 상세 권위는 `simulation/2018_DRAFT_22_60_REOPEN.md`다.
+- 전체 보드는 `simulation/2018_DRAFT_22_60_REOPEN.md`, Evans·Trent 연쇄는 `simulation/2018_DRAFT_28_43_EVANS_CASCADE.md`와 `simulation/2018_DRAFT_37_60_TRENT_CASCADE.md`가 권위다.
 
 ## 공식 기준선
 

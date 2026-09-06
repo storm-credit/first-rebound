@@ -7,10 +7,10 @@
 - 현재 단계: `NBA_LONG_RANGE_ARCHITECTURE_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.27 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.28 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15A3 Hutchison 24 Portland·28 Golden State 인과 분기 재판정`
-- 최근 설계 변경: `Chicago #22 CONDITIONAL_PASS; Golden State #28 team-board primary LEAN; downstream cascade HOLD`
+- 현재 작업: `O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland Powell 대안 재계산`
+- 최근 설계 변경: `2018 draft-board cascade boundary PASS; exact picks HOLD; 2019 AD cap restore PASS; 2021 transactions OPEN`
 - 최근 정본 병합: `PR #62 / c67053a`
 - 최근 설계 병합: `PR #62 / c67053a`
 
@@ -117,13 +117,26 @@
 - [x] O-15A Chicago 22순위 개연성 — 측정·영상·Combine·워크아웃 조건부 PASS, 정확 픽 HOLD
 - [x] O-15A2 최소훼손 최적화의 역사 보존 편향 발견 — 강제 보드 PASS 철회
 - [x] 2018 Draft 인과 경계를 1~21 유지·22~60 재판정으로 확장
-- [x] Hutchison 재착지 5개 지점 비교 — Golden State 28 팀보드 1순위 LEAN, Portland 24 대안, 모두 LOCK 전 연쇄 계산 필요
+- [x] Hutchison 재착지 5개 지점 비교 — Golden State 28 팀보드 PASS, Portland 24 contingency, 모두 정확 착지 LOCK 전 연쇄 계산 필요
 - [x] O-15A 독립 맹점 검토 — 역사 보존 편향 교정, Evans 38/42·41↔43 거래·2020/2021 거래 blocker 등록
+- [x] O-15A3 Portland 24 대 Golden State 28 팀보드 재판정 — Portland `SIMONS_KEEP_LEAN`, Golden State `HUTCHISON_TEAM_BOARD_PASS / NOT_LOCKED`
+- [x] Evans 후속 보드 교정 — Portland 37 `PRIMARY_LEAN`, Detroit 42 대안, Orlando 43 후순위
+- [x] Trent 37~60 재판정 — Lakers 39 `PRIMARY_LEAN`, Detroit 42 대안, Lakers 47 하한선
+- [x] Lakers–Philadelphia 39순위는 드래프트 전날 픽 자체 거래 합의 — `TRADE_STRUCTURE_PASS`, Bonga 법적 특정 blocker 해소
+- [x] Bonga 44 Washington `PRIMARY_LEAN`; Washington의 익명 선호 발언은 강화 근거이나 Bonga 직접 지명 아님
+- [x] Sanon 51 New Orleans 자동 치환 철회 — Tony Carr 유지 LEAN, Sanon 52~60/미지명 유럽 연쇄 재개방
+- [x] Sanon 45~60 전수 재판정 — 미지명/Olimpija `PRIMARY_LEAN`, San Antonio 49 LOW, Charlotte 55 대안
+- [x] 2018 Draft 보드 연쇄 경계 PASS — 거래 연쇄와 정확 픽 LOCK은 계속 HOLD
+- [x] 2019 AD 거래 cap mechanics — Trent와 Bonga의 2019-20 급여 $1,416,852 동일, `CAP_RESTORE_PASS`; Trent의 Washington·2021 파급 HOLD
+- [x] 2019 Spellman–Jones 복원 PASS, 2020 Russell–Wiggins 계약 구조 PASS·정확 Hutchison 자산 HOLD
+- [x] 2021 Powell–Trent 원거래 불성립과 2019 AD 거래의 Bonga 부재 blocker 등록
+- [x] O-15A3 독립 맹점 검토 — Portland 37·Lakers 39 누락 교정, `DRAFT_BOARD_PASS / TRANSACTION_CASCADE_OPEN / EXACT_PICK_HOLD`
 
 ## 현재 결정 대기
 
 - [ ] O-15A Chicago 정확 지명 순번 — 22순위 `CONDITIONAL_PASS`, 측정 범위·워크아웃 인과 작가 승인 전 HOLD
-- [ ] O-15A3 Golden State 28의 Evans 35/38/42·41↔43·2020 거래 연쇄와 Portland 24의 Simons 31/35/37 연쇄 비교
+- [x] O-15A4 Lakers 39 거래 구조·Bonga 44·Sanon 45~60 후속 보드 검증 — 내부 선호는 증거 부족 HOLD
+- [ ] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산
 - [ ] O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산
 - [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
@@ -278,6 +291,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 ## 다음 게이트
 
-v0.27은 주인공의 Chicago 원클럽 프랜차이즈와 주인공 동부·라이벌 서부 방향을 잠갔다. Chicago 22순위는 조건부 PASS지만 Hutchison 후속 보드는 열려 있다. 실제 역사 최소훼손을 목표로 만든 28 Golden State→43 Orlando 강제 폐쇄안은 철회했다. Portland 24는 Simons 연쇄, Golden State 28은 Evans·2020 거래 연쇄를 당시 팀 보드 기준으로 비교한다. 그 뒤 Chicago 2018-19 player-game, 2019/20 로터리, 2021 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 HOLD다.
+v0.28은 Golden State 28 Hutchison의 팀보드 개연성을 PASS로 올렸지만 정확 착지는 잠그지 않았다. 현행 주 계산선은 Portland 37 Evans→Lakers 39 Trent→Washington 44 Bonga→Sanon 미지명/Olimpija이며, 2018 Draft 보드 연쇄 경계는 통과했다. 2019 AD 거래는 Trent의 동일 급여로 cap mechanics가 복원되지만 Trent가 Washington으로 이동한다. 다음은 Trent의 2021 RFA·Chicago 거래와 Portland의 Powell 대안을 닫은 뒤 Chicago 2018-19 player-game, 2019/20 로터리, 2021 Chicago 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
