@@ -302,5 +302,10 @@
 | D-294 | MINNESOTA_PRIMARY_LEAN | Minnesota 1순위를 총괄 추천 | 거래 없이 1순위급 평가·서부 중앙성·기존 Towns/Russell 갈등을 결합, 작가 승인 전 미확정 |
 | D-295 | TOP4_SEQUENTIAL_BOARD_REQUIRED | Minnesota안 선택 시 Golden State 2→Charlotte 3→Chicago 4를 팀별로 재실행 | Edwards 자동 한 칸 이동·Wiseman/Ball 자동 유지 금지 |
 | D-296 | RIVAL_TEAM_AUTHOR_GATE | A~D 팀 선택을 작가 승인 게이트로 두고 공격형 추천은 fit 계산의 조건부 입력으로만 사용 | 정확 공격형·신체·성격·팀·순번·거래·신인 기록은 HOLD |
+| D-297 | AUTHOR_LOCK / RIVAL_MINNESOTA_1 | 라이벌은 2020 Draft에서 Minnesota의 전체 1순위 직접 지명 | 거래 없음, 공격형·성격·신인 기록·사용률·멘토는 별도 HOLD |
+| D-298 | WISEMAN_2_RETENTION_STRONG_LEAN | Golden State 2순위는 구단 보드 1위 발언과 실제 센터 계획에 따라 Wiseman 유지가 주안 | Edwards 자동 이동 금지, 변경 세계 거래 제안은 HOLD |
+| D-299 | CHARLOTTE_EDWARDS_3_PRIMARY_LEAN | Wiseman 2 유지 시 Charlotte는 당시 종합 1위 Edwards를 3순위 주안으로 둠 | Edwards와 Ball의 공개 내부 head-to-head 부재로 exact pick AUTHOR_GATE |
+| D-300 | CHICAGO_LAMELO_4_PRIMARY_LEAN | Charlotte가 Edwards를 택하면 Chicago 4순위는 남은 top-three creator LaMelo가 주안 | Coby·LaVine 권한 비용은 후속 원장에서 지불, 작가 승인 전 HOLD |
+| D-301 | TOP4_CONTINGENCY | Charlotte가 Ball을 유지하면 Chicago는 Edwards를 4순위 주안으로 둠 | 후대 성과 역선택 금지, 2~4순위 한 묶음 자동 LOCK 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -1,6 +1,6 @@
 # Rival 2020 Western Team Decision Packet
 
-- 상태: `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
+- 상태: `AUTHOR_SELECTED_A / MINNESOTA_1_LOCKED`
 - 기준 시점: 2020-11-18 드래프트 직전
 - 전제: 라이벌은 `1순위급 평가`, 주인공은 Chicago, 동서부 분리 방향 LOCK
 - 원고 게이트: `CLOSED`
@@ -36,7 +36,7 @@
 
 | 안 | 진입 | 농구 적합 | 장기 경쟁 구조 | 역사 비용 | 판정 |
 |---|---|---|---|---|---|
-| **A Minnesota** | 실제 1순위 직접 지명 | Towns의 spacing·finish와 결합, Russell과 1차 창조 권한 분배 필요 | 라이벌이 처음부터 프랜차이즈의 중심축으로 성장; Chicago와 동서부 분리 선명 | Edwards와 2~4순위 전체 보드 재개방 | **총괄 추천 / 미승인** |
+| **A Minnesota** | 실제 1순위 직접 지명 | Towns의 spacing·finish와 결합, Russell과 1차 창조 권한 분배 필요 | 라이벌이 처음부터 프랜차이즈의 중심축으로 성장; Chicago와 동서부 분리 선명 | Edwards와 2~4순위 전체 보드 재개방 | **작가 선택 / LOCKED** |
 | **B Golden State** | 실제 2순위 직접 지명 | Curry·Green의 motion·short-roll 문법에서 판단 성장, Klay 공백 즉시 분 존재 | 최고 수준 학습 환경이나 Curry 왕조의 비중이 라이벌 서사를 압도 | Wiseman·Oubre·Wiggins·이후 2021 pick/우승 연쇄 대규모 | `TACTICAL_FIT_HIGH / STORY_COST_HIGH` |
 | **C San Antonio** | 11번에서 2번 상향 거래 | DeRozan·Murray·White와 온볼 중복, Popovich 체계에서 책임 성장 가능 | 조용한 조직에서 독립 프랜차이즈 계보를 만들 여지 | 동시대 거래 아이디어는 있으나 salary·대가 미해결; 2번·11번 동시 재개방 | `REPORTED_CONCEPT / MECHANICS_HOLD` |
 | **D Oklahoma City** | 25번에서 2번 상향 거래 | Shai와 큰 볼핸들러 2인 구조, 재건 분은 충분 | 젊은 팀의 공동 창업자지만 라이벌 단독 중심성이 약해질 수 있음 | 최상위권까지 이동 비용 극대, 직접 팀보드 증거 없음, 미래 픽 연쇄 광범위 | `STRUCTURAL_ONLY / DOWNGRADE` |
@@ -61,7 +61,7 @@
 
 | 순번 | 팀 | 새 질문 | 현재 상태 |
 |---:|---|---|---|
-| 1 | Minnesota | 라이벌 지명 | `AUTHOR_SELECTION_REQUIRED` |
+| 1 | Minnesota | 라이벌 지명 | `AUTHOR_SELECTED / LOCKED` |
 | 2 | Golden State | 실제 선호 Wiseman 유지 vs 새로 남은 Edwards·Ball | `TEAM_BOARD_HOLD` |
 | 3 | Charlotte | 2번 결과 뒤 Ball·Edwards·Wiseman | `TEAM_BOARD_HOLD` |
 | 4 | Chicago | 남은 실제 top-tier 후보 vs 조건부 5인 보드 | `UPSTREAM_BLOCKED` |
@@ -77,8 +77,15 @@
 | C | San Antonio 상향 | 정확 거래 구조·Minnesota 1·Golden State/Spurs 자산·Chicago 4 |
 | D | Oklahoma City 상향 | 정확 거래 구조·Shai 역할·미래 픽 보호·Chicago 4 |
 
-총괄은 **A**를 추천한다. 이 문서 병합은 조사 패킷만 고정하며 정확 팀·순번을 정본화하지 않는다.
+작가는 **A**를 선택했다. 라이벌의 2020 Minnesota 전체 1순위 지명은 정본이며 B~D는 비교 이력으로만 남긴다.
 팀 선택이 곧 `대형 감속·템포 공격 지휘자`나 성격안의 자동 승인을 뜻하지 않는다. 그 역할은 이번 fit 비교의 조건부 입력이며 별도 정본 승격이 필요하다.
+
+## 9. 선택 뒤 경계
+
+- LOCK: 라이벌은 2020 Draft에서 Minnesota가 전체 1순위로 지명한다.
+- HOLD: 라이벌의 정확 신체·신인 기록·사용률·성격·공격형·베테랑 멘토.
+- REOPEN: Anthony Edwards의 행선지, Golden State 2·Charlotte 3·Chicago 4 팀보드.
+- 다음 권위: `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md`.
 
 ## 8. 출처
 

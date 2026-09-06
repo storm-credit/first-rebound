@@ -31,7 +31,7 @@ last_reviewed: 2026-09-02
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | NBA_LONG_RANGE_RECALCULATION — 15~25% 전사 / 75~85% NBA, Chicago 원클럽·동서부 라이벌 방향 LOCK. 정확 서부 팀·시즌·결말 동료 HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | NBA_LONG_RANGE_RECALCULATION — 15~25% 전사 / 75~85% NBA, Chicago 원클럽·라이벌 Minnesota #1 LOCK. 정확 시즌·결말 동료 HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | PARTIAL |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
