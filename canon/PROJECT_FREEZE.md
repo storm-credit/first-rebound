@@ -596,3 +596,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Chicago는 7순위에서 **Coby White를 지명**한다. 2019 당시 장기 포인트가드 필요와 저사용률 SF/PF 주인공의 역할 분리가 근거이며 후대 성과는 선택 근거가 아니다.
 - Coby·LaVine·주인공의 2019-20 정확 분·선발·사용률·박스는 새 player-game donor 원장 전 `HOLD`다.
 - 2020 lottery 결과와 Patrick Williams 지명은 2019-20 결과 뒤 재판정하며 자동 보존하지 않는다.
+
+## v0.30 O-15C4 PARTIAL ADDITIONS — Chicago 2년차 분 예산
+
+- 2019-20 실제 기준선은 65경기·22승 43패·17명 출전·총 15,675분 11초·325선발이다. 취소된 17경기를 복원하지 않는다.
+- 활성 Chicago 세계선에 없는 Hutchison의 실제 28경기·10선발·526:48은 주인공의 1차 직접 슬롯이다. Hutchison의 부상과 경기별 출전은 상속하지 않는다.
+- 주인공 2년차 범위는 60~65경기·14~22선발·1,320~1,470분이며, BASE 계산안은 **63경기·18선발·1,395분**이다.
+- BASE는 Hutchison 526:48과 Valentine·Harrison·Arcidiacono·Mokoka·Strus·Young의 868:12에서만 조달한다. LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio는 0분 차감으로 보호한다.
+- 2년차 핵심 업그레이드는 약한 손 운반·클로즈아웃 돌파이며, grab-and-go·숏롤 첫 패스의 완성은 2020-21보다 앞당기지 않는다.
+- BASE 63경기·18선발·1,395분은 같은 날짜 player-game·선발 자리 보존 전 `PRECALC_CANDIDATE`다. 개인 박스·승수·2020 lottery·Patrick Williams는 계속 `HOLD`다.

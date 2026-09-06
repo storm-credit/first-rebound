@@ -49,7 +49,8 @@ manuscript_allowed: false
 - Portland Powell: `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
 - 연도별 순서: 실제 사건 전수 대조, 변화 지점 심층 계산, 시즌 시간순 최종 확정
 - O-15C3: 실제 2019 lottery 7순위·Coby White 지명 `AUTHOR_APPROVED / LOCKED`
-- 다음 실행: O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선
+- O-15C4: 실제 65경기·15,675:11·325선발 기준선과 2년차 BASE 1,395분 `PRECALC_RANGE_PASS`
+- 다음 실행: O-15C5 65경기 same-date donor·18선발 원장
 
 ## 닫기 조건
 
