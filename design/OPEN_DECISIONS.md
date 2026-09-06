@@ -84,7 +84,7 @@ O-06의 기반 경로는 CLOSED다. 2018에는 두 선수 모두 불참하고 �
 
 NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Gonzaga**를 선택했다. 깊은 관계 3명·대표 경기 2개·WCC 우승 기능까지 잠갔으며 대학 범위는 `RIVAL_COLLEGE_SCOPE_COMPLETE`다.
 
-다음 선택은 2018-20 승수·로터리·픽 소유권 계산 뒤 라이벌의 2020 실제 지명 팀·순번이다. 실제 Minnesota와 실제 1순위를 모두 강제하지 않는다.
+이 단계의 과거 선택 목표는 2018-20 승수·로터리·픽 소유권 계산 뒤 라이벌의 2020 실제 지명 팀·순번을 정하는 것이었다. O-15E1에서 Minnesota 전체 1순위를 작가가 선택했으며 실제 역사라서 자동 유지한 결과가 아니다.
 
 ## O-08 천재성·BQ 유형 — CLOSED
 
@@ -269,7 +269,7 @@ Koufos는 실제 NBA 거래망을 가장 적게 훼손하지만 실제 CSKA 2년
 | 라이벌 서부 + 주인공 Indiana 동부 | 2020 상위 보드 훼손 고비용 |
 | Chicago + Indiana 모두 동부 | 반복전 강점 / 파이널 불가 대조안 |
 
-v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위 표는 과거 비교 이력으로 보존한다. 라이벌의 정확 팀·순번·수상·공동 트레이너는 R09와 독립 검토 전까지 `NOT_CANON/HOLD`다.
+v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위 표는 과거 비교 이력으로 보존한다. 이후 O-15E1에서 라이벌의 Minnesota 전체 1순위를 LOCK했으며, 수상·공동 트레이너·정확 신인 기록은 계속 `NOT_CANON/HOLD`다.
 
 ## O-15 Chicago 원클럽 프랜차이즈 — RECALCULATION_GATE
 
@@ -286,4 +286,4 @@ O-15C6C까지 세 impact 계열의 BASE는 2019-20 Chicago 21~22승과 2020 lott
 
 O-15C7에서 작가 선택 A를 반영했다. Chicago는 2020 전체 4순위를 보유하지만 정확 지명은 아직 `HOLD`다. 실제 top 3 유지 조건의 5인 보드는 Haliburton > Avdija > Williams > Vassell > Okoro다. 그러나 2020 1순위급 라이벌이 상위 1~3순위를 바꿀 수 있으므로, 다음 선택 게이트는 Patrick 유지 여부가 아니라 라이벌의 서부 팀·정확 순번과 밀려난 실제 top 3의 재배열이다.
 
-O-15E 서부 4안은 Minnesota 1·Golden State 2의 직접 지명과 San Antonio·Oklahoma City의 2순위 상향 거래 contingency로 압축했다. 총괄 추천은 **A Minnesota 1순위**다. 거래 없이 라이벌의 1순위급 평가와 서부 프랜차이즈 중앙성을 함께 살리지만, Edwards와 2~4순위 보드·Minnesota 2020-21 분/사용률·2021 Golden State 보호픽을 모두 재계산해야 한다. 작가 승인 전 `NOT_CANON`이다.
+O-15E에서 작가는 **A Minnesota 전체 1순위**를 선택했다. 라이벌의 팀·순번은 `AUTHOR_APPROVED / LOCKED`이며 다른 세 안은 비교 이력이다. 주 분기 `Wiseman 2 → Edwards 3 → LaMelo 4`를 총괄 추천하지만, Charlotte의 Edwards/Ball 내부 head-to-head가 공개되지 않아 반대 분기 `Ball 3 → Edwards 4`도 유지한다. 2~4순위 exact 선택은 새 작가 게이트이며 라이벌의 공격형·성격·신인 기록은 별도 HOLD다.

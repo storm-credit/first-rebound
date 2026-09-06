@@ -21,13 +21,13 @@ for (let index = 0; index < expected.length; index += 1) {
 
 const packet = fs.readFileSync(packetPath, 'utf8');
 for (const marker of [
-  'PASS_FOR_AUTHOR_SELECTION / NOT_CANON',
-  '총괄 추천 / 미승인',
+  'AUTHOR_SELECTED_A / MINNESOTA_1_LOCKED',
+  '작가 선택 / LOCKED',
   '한 명씩 자동으로 아래 순번으로 미는 방식은 금지',
-  '정확 팀·순번을 정본화하지 않는다',
+  'Minnesota가 전체 1순위로 지명',
 ]) {
   if (!packet.includes(marker)) throw new Error(`missing firewall: ${marker}`);
 }
 
 console.log('PASS rival 2020 western team decision packet');
-console.log('2 direct-pick options / 2 high-cost contingencies / exact team HOLD');
+console.log('Minnesota #1 author lock / 3 historical contingencies preserved');

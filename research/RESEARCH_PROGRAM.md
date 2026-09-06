@@ -290,5 +290,16 @@
 - 총괄 검토: `reviews/R01_RIVAL_2020_WEST_TEAM_BLINDSPOT_REVIEW.md`
 - 직접 지명: Minnesota 1·Golden State 2
 - 거래 contingency: San Antonio 11→2는 동시대 buzz 있으나 salary/대가 HOLD, Oklahoma City 25→2는 자산상 구조 후보지만 직접 보드 증거 없음
-- 판정: Minnesota 1 `PRIMARY_LEAN / NOT_CANON`; Golden State 전술 적합·서사 비용 동시 높음
-- 다음 조사: 작가 A~D 선택 뒤 선택 팀의 정확 팀보드·밀려난 actual top 3·Chicago 4순위를 순차 재계산
+- 판정: 작가 A 선택, Minnesota 전체 1순위 `AUTHOR_APPROVED / LOCKED`; Golden State 전술 적합·서사 비용 동시 높음
+- 다음 조사: Golden State 2·Charlotte 3·Chicago 4 exact 선택 승인
+
+### R15.17 2020 Draft 1~4순위 순차 팀보드
+
+- 팀보드: `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md`
+- 원장: `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md`
+- LOCK: Minnesota 1순위 가상 라이벌
+- 주 분기: Golden State Wiseman 2 `RETENTION_STRONG_LEAN` → Charlotte Edwards 3 `PRIMARY_LEAN` → Chicago LaMelo 4 `PRIMARY_LEAN / AUTHOR_GATE`
+- 반대 분기: Charlotte Ball 3 유지 → Chicago Edwards 4
+- blocker: Charlotte가 Edwards와 Ball을 동시에 비교한 공개 내부 보드 부재
+- 다음 조사: 작가가 주 분기 또는 반대 분기를 선택한 뒤 Chicago 2020-21 가드 사용률·분 원장과 Patrick Williams 재착지

@@ -45,8 +45,10 @@
 | Chicago 2020 lottery 작가 선택 패킷 | `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md` | A AUTHOR_SELECTED / exact 21~22 HOLD·seed7/pick4 LOCK |
 | Chicago 2020 전체 4순위 조건부 5인 팀보드 | `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md` 및 CSV | CONDITIONAL_BOARD_PASS / RIVAL_UPSTREAM_BLOCKER / EXACT_PICK_HOLD |
 | Chicago 2020 전체 4순위 총괄 맹점 검토 | `reviews/R01_CHICAGO_2020_PICK4_BOARD_BLINDSPOT_REVIEW.md` | TOP3_AUTO_RETENTION 오류 차단 / NOT_INDEPENDENT |
-| 라이벌 2020 서부 팀 4안 | `design/RIVAL_2020_WEST_TEAM_DECISION_PACKET.md` 및 CSV | Minnesota #1 PRIMARY_LEAN / AUTHOR_SELECTION_REQUIRED / NOT_CANON |
+| 라이벌 2020 서부 팀 4안 | `design/RIVAL_2020_WEST_TEAM_DECISION_PACKET.md` 및 CSV | A AUTHOR_SELECTED / Minnesota #1 LOCKED |
 | 라이벌 2020 서부 팀 총괄 맹점 검토 | `reviews/R01_RIVAL_2020_WEST_TEAM_BLINDSPOT_REVIEW.md` | 직접 지명 2안·고비용 거래 2안 분리 / NOT_INDEPENDENT |
+| 2020 Draft 1~4순위 순차 팀보드 | `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md` 및 CSV | Minnesota #1 LOCKED / Wiseman→Edwards→LaMelo PRIMARY_LEAN / picks 2~4 AUTHOR_GATE |
+| 2020 Draft 1~4순위 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md` | Charlotte 내부 비교 blocker / NOT_INDEPENDENT |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
@@ -65,7 +67,7 @@
 |---|---|---|
 | 시대별 전술 성장·카운터 | `design/TACTICAL_EVOLUTION_MAP.md` | Sub-Act당 핵심 전술 문제 1개 |
 | 전술·규칙 근거 | `research/TACTICAL_RESEARCH_LEDGER.md` | 공식 출처·적용일·확신도 |
-| 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | Gonzaga LOCK, 정확한 NBA 팀은 시뮬레이션 전 HOLD |
+| 라이벌 경로와 기능 분리 | `design/RIVAL_ARCHITECTURE.md` | Gonzaga·Minnesota 전체 1순위 LOCK, 정확 기록 HOLD |
 | 국가대표·병역 선택 | `design/NATIONAL_TEAM_MILITARY_OPTIONS.md` | 법·대회 사실과 서사 선택 분리 |
 
 ## v0.4 추가 권위
@@ -80,7 +82,7 @@
 
 | 사실 종류 | 단일 권위 문서 | 비고 |
 |---|---|---|
-| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | Villanova·Gonzaga·주인공 Chicago 방향 LOCK, 정확 순번·날짜·라이벌 서부 팀은 RESEARCH_HOLD |
+| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | Villanova·Gonzaga·Chicago·라이벌 Minnesota #1 LOCK, 미승인 세부 HOLD |
 | 연표 4안과 선택 이력 | `design/CAREER_TIMELINE_OPTIONS.md` | O-09 CLOSED |
 | 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
 | 연표 선택 전 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | 역사 기록 |

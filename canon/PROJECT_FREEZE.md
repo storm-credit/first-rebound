@@ -651,3 +651,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 가상 라이벌은 같은 2020 Draft의 1순위급 후보다. 라이벌의 서부 팀·순번이 1~3순위 보드와 4순위 가용선수를 바꿀 수 있으므로 Chicago 정확 지명은 `UPSTREAM_RIVAL_BLOCKER / HOLD`다.
 - Patrick은 실제 Chicago 프런트의 운동능력·다포지션 수비·상한 선호 때문에 후보로 생존한다. 그러나 2년차 주인공과 SF/PF 수비·성장시간이 가장 크게 겹쳐 조건부 3순위로 하향한다.
 - 다음 인과 단계는 O-15D 거래가 아니라 O-15E 라이벌의 2020 서부 착지·상위 1~3순위 팀보드다. 이 상류 보드가 닫힌 뒤 Chicago 4순위와 2020-21 roster를 재실행한다.
+
+## v0.30 O-15E1 PARTIAL ADDITIONS — 라이벌 Minnesota 1순위
+
+- 작가 선택 A를 반영해 라이벌은 **2020 Draft 전체 1순위로 Minnesota Timberwolves에 지명**된다. 거래 없는 직접 지명이며 팀·순번은 `AUTHOR_APPROVED / LOCKED`다.
+- 이 선택은 라이벌의 정확 신체·공격형·성격·신인 기록·사용률·베테랑 멘토를 자동 승인하지 않는다. 해당 항목은 계속 `HOLD`다.
+- Anthony Edwards는 삭제하거나 Golden State 2순위로 자동 이동시키지 않는다. Golden State 2→Charlotte 3→Chicago 4를 각 팀의 당시 보드로 다시 판정한다.
+- 주 분기는 **Wiseman 2 `RETENTION_STRONG_LEAN` → Edwards 3 `PRIMARY_LEAN` → LaMelo 4 `PRIMARY_LEAN / AUTHOR_GATE`**다.
+- Charlotte가 Edwards와 Ball을 동시에 비교한 공개 내부 보드는 확인되지 않았다. 반대 분기 `Charlotte Ball 3 → Chicago Edwards 4`를 유지하며 2~4순위 exact 선택은 아직 정본이 아니다.
+- 상세 권위는 `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md`다.
