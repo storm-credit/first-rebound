@@ -307,5 +307,12 @@
 | D-299 | CHARLOTTE_EDWARDS_3_PRIMARY_LEAN | Wiseman 2 유지 시 Charlotte는 당시 종합 1위 Edwards를 3순위 주안으로 둠 | Edwards와 Ball의 공개 내부 head-to-head 부재로 exact pick AUTHOR_GATE |
 | D-300 | CHICAGO_LAMELO_4_PRIMARY_LEAN | Charlotte가 Edwards를 택하면 Chicago 4순위는 남은 top-three creator LaMelo가 주안 | Coby·LaVine 권한 비용은 후속 원장에서 지불, 작가 승인 전 HOLD |
 | D-301 | TOP4_CONTINGENCY | Charlotte가 Ball을 유지하면 Chicago는 Edwards를 4순위 주안으로 둠 | 후대 성과 역선택 금지, 2~4순위 한 묶음 자동 LOCK 금지 |
+| D-302 | AUTHOR_LOCK / TOP4_SEQUENCE_A | 2020 Draft 2~4순위를 Golden State Wiseman→Charlotte Edwards→Chicago LaMelo로 확정 | Charlotte 내부 head-to-head 자료가 새로 생긴 것으로 오인 금지 |
+| D-303 | CHICAGO_LAMELO_4_LOCK | Chicago는 전체 4순위로 LaMelo Ball을 지명 | Coby·LaVine과의 분·볼 소유·수비 비용 삭제 금지 |
+| D-304 | PATRICK_RELANDING_REQUIRED | Patrick Williams를 Cleveland 5순위부터 재배열 | Chicago가 LaMelo를 택했다고 Patrick을 리그에서 삭제하지 않음 |
+| D-305 | OKORO_5_RETENTION_STRONG_LEAN | Cleveland는 Isaac Okoro를 5순위에 유지하는 주안 | 실제 지명만으로 자동 LOCK하지 않음 |
+| D-306 | OKONGWU_6_RETENTION_LEAN | Atlanta는 Onyeka Okongwu를 6순위에 유지하는 주안 | Patrick 6순위 동시대 mock 때문에 대안 분기 보존 |
+| D-307 | PATRICK_DETROIT_7_PRIMARY_LEAN | Detroit가 Patrick Williams를 7순위에 지명하는 안을 총괄 추천 | promise 보도를 구단 공식 확인으로 과장하지 않고 작가 승인 전 HOLD |
+| D-308 | DISPLACED_PLAYER_FIREWALL | A안은 Hayes를 8순위부터, B안은 Okongwu를 7순위부터 재계산 | 밀려난 실존 선수 삭제·하류 실제 지명 자동 복사 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -660,3 +660,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 주 분기는 **Wiseman 2 `RETENTION_STRONG_LEAN` → Edwards 3 `PRIMARY_LEAN` → LaMelo 4 `PRIMARY_LEAN / AUTHOR_GATE`**다.
 - Charlotte가 Edwards와 Ball을 동시에 비교한 공개 내부 보드는 확인되지 않았다. 반대 분기 `Charlotte Ball 3 → Chicago Edwards 4`를 유지하며 2~4순위 exact 선택은 아직 정본이 아니다.
 - 상세 권위는 `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md`다.
+
+## v0.30 O-15E2 PARTIAL ADDITIONS — 2020 Draft 상위 4순위
+
+- 작가 선택을 반영해 정확한 상위 4순위는 **Minnesota 가상 라이벌 → Golden State James Wiseman → Charlotte Anthony Edwards → Chicago LaMelo Ball**이다. 네 지명은 `AUTHOR_APPROVED / LOCKED`다.
+- Charlotte가 LaMelo를 유지하고 Chicago가 Edwards를 받는 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 비교 이력에만 남긴다.
+- Chicago의 LaMelo 4순위는 Coby White·LaVine의 분·볼 소유·수비 비용을 없애지 않는다. 이 비용은 2020-21 player-game 원장에서 지불한다.
+- Patrick Williams는 삭제하지 않는다. Cleveland 5순위 Okoro 유지 `STRONG_LEAN`, Atlanta 6순위 Okongwu 유지 `LEAN`, Detroit 7순위 Patrick을 `PRIMARY_LEAN / AUTHOR_GATE`로 둔다.
+- Patrick이 Detroit 7순위로 가면 Killian Hayes를 8순위부터, Atlanta 6순위로 가면 Onyeka Okongwu를 7순위부터 다시 계산한다. 재착지 선택과 밀려난 선수 연쇄가 닫히기 전 2020-21 roster·승패를 확정하지 않는다.
+- 상세 권위는 `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md`다.

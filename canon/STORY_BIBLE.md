@@ -149,6 +149,13 @@
 - 라이벌의 NBA 베테랑 멘토는 2020 Draft 팀을 선택한 뒤 팀 내부 후보로만 검토한다.
 - 상세 권위: `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md`
 
+## 2020 Draft 상위 보드 — LOCKED
+
+- Minnesota는 가상 라이벌을 전체 1순위로 직접 지명한다.
+- Golden State는 James Wiseman을 2순위, Charlotte는 Anthony Edwards를 3순위, Chicago는 LaMelo Ball을 4순위로 지명한다.
+- LaMelo의 후대 성과를 선지급하지 않는다. Coby White·LaVine과의 분·볼 소유·수비 비용은 2020-21 원장에서 다시 계산한다.
+- Patrick Williams는 사라지지 않는다. 정확 재착지는 Detroit 7순위 주안과 Atlanta 6순위 대안을 비교하는 작가 게이트다.
+
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 
 - 2018에는 주인공과 라이벌 모두 아시안게임에 참가하지 않는다. 주인공은 Chicago 루키 개발 일정에 남고, 라이벌은 ACL 재활 중이다. 한국의 실제 동메달 결과를 유지한다.

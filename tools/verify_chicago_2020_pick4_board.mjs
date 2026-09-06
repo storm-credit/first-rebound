@@ -16,14 +16,14 @@ if (new Set(rows.map((row) => row.board_order)).size !== 5) throw new Error('dup
 
 const doc = fs.readFileSync(docPath, 'utf8');
 for (const marker of [
-  'UPSTREAM_RIVAL_BLOCKER',
-  'EXACT_PICK_HOLD',
+  'SUPERSEDED_CONDITIONAL_BOARD / EXACT_PICK_LAMELO_LOCKED',
   '실제 상위 3명이 그대로 지명된 경우',
   '후대 NBA 성과가 아니라',
   '전체 4순위: `AUTHOR_APPROVED / LOCKED`',
+  'LaMelo Ball',
 ]) {
   if (!doc.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
 
-console.log('PASS Chicago 2020 pick 4 conditional board');
-console.log('5 candidates / upstream rival blocker / exact pick HOLD');
+console.log('PASS Chicago 2020 pick 4 board history');
+console.log('5-candidate counterfactual preserved / exact pick LaMelo locked');

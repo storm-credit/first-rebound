@@ -1,6 +1,6 @@
 # Chicago 2020 Pick 4 Conditional Team Board
 
-- 상태: `CONDITIONAL_BOARD_PASS / UPSTREAM_RIVAL_BLOCKER / EXACT_PICK_HOLD`
+- 상태: `SUPERSEDED_CONDITIONAL_BOARD / EXACT_PICK_LAMELO_LOCKED`
 - 기준 시점: 2020-11-18 드래프트 직전
 - 전제: O-15C6C 작가 선택 A — Chicago seed 7·전체 4순위 보유
 - 원고 게이트: `CLOSED`
@@ -14,12 +14,12 @@
 - seed가 실제와 같으므로 실제 추첨 사건인 **전체 4순위**를 보존한다.
 - 4순위 보존은 Patrick Williams 지명 보존을 뜻하지 않는다.
 
-### 아직 잠글 수 없는 것
+### 당시 잠글 수 없었던 것
 
 - 가상 라이벌은 2020년 `1순위급 평가`를 받은 실제 드래프트 참가자다.
 - 라이벌이 전체 1~3순위에 들어가면 Anthony Edwards·James Wiseman·LaMelo Ball 중 적어도 한 명의 가용성과 하류 팀보드가 바뀔 수 있다.
 - 따라서 아래 5인 순위는 **실제 상위 3명이 그대로 지명된 경우**에만 적용하는 조건부 보드다.
-- Chicago의 정확 지명은 라이벌의 서부 팀·순번과 1~3순위 재배열을 먼저 계산한 뒤 결정한다.
+- 이 상류 블로커는 O-15E2의 `라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4` 작가 선택으로 해소됐다. 아래 5인 순위는 결정 전 조건부 비교 이력이며 현재 Chicago의 정확 지명 권위가 아니다.
 
 ## 2. 사실 기준선
 
@@ -71,8 +71,9 @@
 - Chicago의 전체 4순위: `AUTHOR_APPROVED / LOCKED`
 - 실제 top 3 유지 조건의 5인 보드: `CONDITIONAL_BOARD_PASS`
 - 조건부 추천: `Haliburton > Avdija > Williams > Vassell > Okoro`
-- 정확 Chicago 지명: `UPSTREAM_RIVAL_BLOCKER / HOLD`
-- 다음 작업: 라이벌의 2020 서부 착지 4안을 **순번·팀보드·밀려난 실존 선수**까지 비교하고, 그 결과로 Chicago 4순위 전체 보드를 재실행한다.
+- 정확 Chicago 지명: O-15E2 작가 선택으로 **LaMelo Ball `AUTHOR_APPROVED / LOCKED`**
+- 이 5인 보드는 실제 top 3 유지 가정의 반증 자료로 보존하며 활성 exact board가 아니다.
+- 다음 작업: Patrick Williams의 5순위 이하 재착지와 밀려난 실존 선수 연쇄를 계산한다.
 
 ## 7. 출처
 

@@ -43,12 +43,14 @@
 | Chicago 2019-20 outcome 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_OUTCOME_BLINDSPOT_REVIEW.md` | REPRODUCTION_PASS / EXACT_OUTCOME_BLOCKED / NOT_INDEPENDENT |
 | Chicago 2019-20 RAPTOR 교차검증·regularizer sensitivity | `simulation/CHICAGO_2019_20_IMPACT_CROSSCHECK.md` 및 다섯 CSV | EXTERNAL_METHOD_CROSSCHECK_PASS / CENTRAL 21~22·SEED7 / TAIL 19~24 |
 | Chicago 2020 lottery 작가 선택 패킷 | `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md` | A AUTHOR_SELECTED / exact 21~22 HOLD·seed7/pick4 LOCK |
-| Chicago 2020 전체 4순위 조건부 5인 팀보드 | `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md` 및 CSV | CONDITIONAL_BOARD_PASS / RIVAL_UPSTREAM_BLOCKER / EXACT_PICK_HOLD |
+| Chicago 2020 전체 4순위 조건부 5인 팀보드 | `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md` 및 CSV | SUPERSEDED_CONDITIONAL_BOARD / LaMelo #4 AUTHOR_LOCKED |
 | Chicago 2020 전체 4순위 총괄 맹점 검토 | `reviews/R01_CHICAGO_2020_PICK4_BOARD_BLINDSPOT_REVIEW.md` | TOP3_AUTO_RETENTION 오류 차단 / NOT_INDEPENDENT |
 | 라이벌 2020 서부 팀 4안 | `design/RIVAL_2020_WEST_TEAM_DECISION_PACKET.md` 및 CSV | A AUTHOR_SELECTED / Minnesota #1 LOCKED |
 | 라이벌 2020 서부 팀 총괄 맹점 검토 | `reviews/R01_RIVAL_2020_WEST_TEAM_BLINDSPOT_REVIEW.md` | 직접 지명 2안·고비용 거래 2안 분리 / NOT_INDEPENDENT |
-| 2020 Draft 1~4순위 순차 팀보드 | `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md` 및 CSV | Minnesota #1 LOCKED / Wiseman→Edwards→LaMelo PRIMARY_LEAN / picks 2~4 AUTHOR_GATE |
-| 2020 Draft 1~4순위 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md` | Charlotte 내부 비교 blocker / NOT_INDEPENDENT |
+| 2020 Draft 1~4순위 순차 팀보드 | `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md` 및 CSV | Minnesota→Wiseman→Edwards→LaMelo AUTHOR_LOCKED |
+| 2020 Draft 1~4순위 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md` | Charlotte 내부 자료 한계를 작가 선택으로 해소 / NOT_INDEPENDENT |
+| Patrick Williams 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md` 및 CSV | Okoro 5·Okongwu 6 유지 주안 / Patrick Detroit 7 AUTHOR_GATE |
+| Patrick Williams 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md` | Atlanta 6분기·밀려난 선수 연쇄 OPEN / NOT_INDEPENDENT |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
