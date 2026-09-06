@@ -51,7 +51,8 @@ manuscript_allowed: false
 - O-15C3: 실제 2019 lottery 7순위·Coby White 지명 `AUTHOR_APPROVED / LOCKED`
 - O-15C4: 실제 65경기·15,675:11·325선발 기준선과 2년차 BASE 1,395분 `PRECALC_RANGE_PASS`
 - O-15C5: 65경기·18선발·1,395분과 경기별 15,675:11 보존 `PLAYER_GAME_CONSERVATION_PASS / PROVISIONAL_LOCK`
-- 다음 실행: O-15C6 2년차 생산성 prior·경기 영향·2020 standings/lottery
+- O-15C6A: 2년차 BASE 12.0득점·9.0리바운드/36·TS .530·USG 15.0% `BOX_PRIOR_PASS / IMPACT_HOLD`
+- 다음 실행: O-15C6B score-margin impact proxy·65경기 outcome·2020 standings/lottery
 
 ## 닫기 조건
 

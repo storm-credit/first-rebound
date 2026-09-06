@@ -615,3 +615,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 보호 10인의 시즌 순감은 0이다. donor 희박 경기 연결을 위한 Markkanen·Dunn gross 19:34는 다른 날짜에 전량 반환하며 생산성의 순이전으로 세지 않는다.
 - LaVine·Satoransky·Coby·Porter와 센터 4인의 경기별 분은 실제와 동일하다.
 - 정확 개인 박스·효율·온오프·승수·2020 standings/lottery·Patrick Williams 보드는 O-15C6 이후까지 `HOLD`다.
+
+## v0.30 O-15C6A PARTIAL ADDITIONS — Chicago 2년차 생산성 prior
+
+- O-15C1의 2018 드래프트 윙 9명을 재선택 없이 두 번째 NBA 시즌까지 추적한다. 2년차 성공자만 골라 비교군을 바꾸지 않는다.
+- 주인공 2년차 BASE는 **12.0득점·9.0리바운드·2.2어시스트·1.6스틸·0.9블록/36, TS .530·3PA 3.0·3P .320·USG 15.0%**다.
+- 65경기·1,395분 환산 중심은 약 465득점·349리바운드·85어시스트·62스틸·35블록, 경기당 7.15득점·5.37리바운드다. 정확 정수 박스는 `HOLD`다.
+- 2년차 핵심 성장은 약한 손 운반·closeout attack·감속 뒤 짧은 패스다. LaVine의 1차 득점과 Coby·Satoransky의 가드 possession을 침범하지 않는다.
+- donor 1,395분의 관측 귀속량과 주인공 BASE 차이는 약 -112득점·+107리바운드·-15어시스트·-11스틸·+13블록이다. 이는 선수 귀속 변화이며 팀 생산성 변화가 아니다.
+- single net rating·BPM으로 승패를 실행하지 않는다. causal impact·65경기 outcome·2020 standings/lottery·Patrick Williams는 O-15C6B까지 `HOLD`다.

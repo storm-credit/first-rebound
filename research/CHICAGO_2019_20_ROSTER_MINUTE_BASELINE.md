@@ -127,6 +127,8 @@ BASE 1,395분은 82경기 환산 약 1,760분이다. 루키 평균 17.45분에�
 - Patrick Williams 유지·대체 지명
 - Boylen 해임과 새 프런트 오피스 인과 변화
 
+O-15C6A의 생산성 prior 권위는 `simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md`다.
+
 ## 출처
 
 - [NBA Stats — Chicago 2019-20 선수 기록](https://www.nba.com/stats/team/1610612741/players-traditional?Season=2019-20&SeasonType=Regular%20Season)
