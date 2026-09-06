@@ -298,5 +298,9 @@
 | D-290 | RIVAL_UPSTREAM_BLOCKER | 2020 1순위급 라이벌의 서부 팀·순번과 실제 top 3 재배열 전 Chicago 정확 지명 금지 | 라이벌을 4순위 아래에 억지로 밀거나 Edwards·Wiseman·Ball을 자동 보존하지 않음 |
 | D-291 | PATRICK_RETENTION_DOWNGRADE | Patrick Williams는 실제 프런트 선호 때문에 생존하지만 주인공과의 SF/PF 수비·성장시간 중복으로 자동 유지에서 3순위 조건부 후보로 하향 | 최소 역사 변경 편향으로 지명 금지 |
 | D-292 | NEXT_PHASE_REORDER | O-15E 라이벌 2020 서부 착지·1~3순위 보드를 O-15D 거래 연쇄보다 먼저 계산 | 2020 Draft 상류 사건이 닫히기 전 Chicago 4순위·2020-21 roster 실행 금지 |
+| D-293 | WEST_TEAM_PACKET_PASS | 라이벌 서부 착지를 Minnesota 1·Golden State 2 직접 지명과 San Antonio·Oklahoma City 2순위 상향 거래의 4안으로 비교 | 네 안을 동일 확률로 취급하지 않음, 전부 NOT_CANON |
+| D-294 | MINNESOTA_PRIMARY_LEAN | Minnesota 1순위를 총괄 추천 | 거래 없이 1순위급 평가·서부 중앙성·기존 Towns/Russell 갈등을 결합, 작가 승인 전 미확정 |
+| D-295 | TOP4_SEQUENTIAL_BOARD_REQUIRED | Minnesota안 선택 시 Golden State 2→Charlotte 3→Chicago 4를 팀별로 재실행 | Edwards 자동 한 칸 이동·Wiseman/Ball 자동 유지 금지 |
+| D-296 | RIVAL_TEAM_AUTHOR_GATE | A~D 팀 선택을 작가 승인 게이트로 두고 공격형 추천은 fit 계산의 조건부 입력으로만 사용 | 정확 공격형·신체·성격·팀·순번·거래·신인 기록은 HOLD |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

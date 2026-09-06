@@ -285,3 +285,5 @@ v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위
 O-15C6C까지 세 impact 계열의 BASE는 2019-20 Chicago 21~22승과 2020 lottery seed 7에 수렴했다. exact 승수를 HOLD한 채 seed 7·실제 4순위 추첨 사건만 유지하는 A안을 총괄 추천한다. Patrick Williams는 자동 유지하지 않는다. 작가 선택 권위는 `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md`다.
 
 O-15C7에서 작가 선택 A를 반영했다. Chicago는 2020 전체 4순위를 보유하지만 정확 지명은 아직 `HOLD`다. 실제 top 3 유지 조건의 5인 보드는 Haliburton > Avdija > Williams > Vassell > Okoro다. 그러나 2020 1순위급 라이벌이 상위 1~3순위를 바꿀 수 있으므로, 다음 선택 게이트는 Patrick 유지 여부가 아니라 라이벌의 서부 팀·정확 순번과 밀려난 실제 top 3의 재배열이다.
+
+O-15E 서부 4안은 Minnesota 1·Golden State 2의 직접 지명과 San Antonio·Oklahoma City의 2순위 상향 거래 contingency로 압축했다. 총괄 추천은 **A Minnesota 1순위**다. 거래 없이 라이벌의 1순위급 평가와 서부 프랜차이즈 중앙성을 함께 살리지만, Edwards와 2~4순위 보드·Minnesota 2020-21 분/사용률·2021 Golden State 보호픽을 모두 재계산해야 한다. 작가 승인 전 `NOT_CANON`이다.
