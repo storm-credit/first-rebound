@@ -1,8 +1,10 @@
 # R01 Atlanta Franchise Path Recalculation Review
 
-- 상태: `ORCHESTRATOR_SELF_REVIEW / PASS_FOR_AUTHOR_SELECTION_WITH_BLOCKERS`
+- 상태: `ORCHESTRATOR_SELF_REVIEW / v0.27_SUPERSEDED_BRANCH`
 - 기준일: 2026-09-06
 - 독립성: 총괄 자체 검토이며 R16을 대체하지 않음
+
+> v0.27 Chicago 원클럽 선택 이후 이 판정은 과거 Atlanta 분기 검토로만 보존한다.
 
 ## 판정
 
@@ -29,4 +31,3 @@ Murray를 데려오지 않으면 주인공에게 맞춘 편의적 역사가 될 
 ## 결론
 
 `A1 구조 추천 / NOT_CANON`은 통과한다. 다음 실제 계산의 우선순위는 주인공의 2019-21 player-game 분보다도 2021 연장 가치와 2022 Murray 미영입의 리그 파급이다. 두 blocker가 닫히기 전 원클럽·첫 우승·Wembanyama 팀을 잠그지 않는다.
-
