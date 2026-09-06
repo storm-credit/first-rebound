@@ -10,9 +10,9 @@
 - 정본 버전: `PROJECT_FREEZE v0.27 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15A3 Hutchison 24 Portland·28 Golden State 인과 분기 재판정`
-- 최근 설계 변경: `Chicago one-club franchise direction + protagonist East/rival West LOCKED; exact pick/team ledger HOLD`
-- 최근 정본 병합: `PR #60 / 2dff7e2`
-- 최근 설계 병합: `PR #60 / 2dff7e2`
+- 최근 설계 변경: `Chicago #22 CONDITIONAL_PASS; Golden State #28 team-board primary LEAN; downstream cascade HOLD`
+- 최근 정본 병합: `PR #62 / c67053a`
+- 최근 설계 병합: `PR #62 / c67053a`
 
 ## 완료
 
