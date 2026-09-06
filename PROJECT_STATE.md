@@ -12,7 +12,7 @@
 - 현재 작업: `O-14A Atlanta 원클럽 공동 코어의 2021 계약·2022 거래 연쇄 계산`
 - 최근 설계 변경: `Atlanta one-club co-franchise A1 recommended; Murray/Collins/Huerter/Griffin/Bey cascade and new minute bands NOT_CANON`
 - 최근 정본 병합: `PR #56 / a179280`
-- 최근 설계 병합: `PR #56 / a179280`
+- 최근 설계 병합: `PR #58 / 113b384`
 
 ## 완료
 
