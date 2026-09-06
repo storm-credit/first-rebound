@@ -195,3 +195,16 @@
 - 순서 교정: 미래 거래의 구조 감사와 실제 사건 발생을 분리. Chicago의 2020-21 성적·Vučević 거래·플레이인 동기 전 6인 거래 발생 LOCK 금지
 - 새 blocker: Washington Brown+Trent 분, Portland Evans 생산, Powell 타시장·2021 FA, Chicago 2018-21 시간순 시즌 원장
 - 다음 조사: O-15B Chicago 2018-19 player-game donor·루키 분·Windy City·자기관리 비용
+
+### R15.9 Chicago 2018-19 루키 donor·Windy City·자기관리
+
+- 원장: `simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md`
+- 독립 검토: `reviews/R02_3Z_CHICAGO_ROOKIE_DONOR_ASSIGNMENT_REVIEW.md`
+- 판정: `RECEIVER_ALLOCATION_PASS / SEASON_LINE_PROVISIONAL_LOCK / GAME_OUTCOMES_HOLD`
+- 실제 기준: Hutchison 44경기·14선발·894.6분, Chicago 22승 60패, 1월 발 부상 뒤 시즌 종료
+- 역할선: 1월 25일까지 40경기·11선발·798:02 + 이후 33경기 476분 = 73경기·11선발·1,274:02
+- 보호: LaVine·Markkanen·Dunn·Carter·Porter·Lopez·Arcidiacono·Holiday·Portis 0분 차감
+- 자기관리: 12월 5일 지각과 12월 7일 약 10~12분 NBA 기회 상실 후보. 벌금·정확 시각 HOLD
+- Windy City: 2019년 1월 7~13일 standard-contract assignment, 1월 11~12일 홈 2경기·24~28분 후보. 징계·투웨이 금지
+- 같은 날짜 보존: 후반 476분 차감, 누락 4경기 96:35 수취, 실존 선수 순차감 379:25 PASS
+- 다음 조사: O-15C 생산성 prior·Chicago 승수·2019 standings/lottery·Coby White 보드

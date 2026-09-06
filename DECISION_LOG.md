@@ -251,5 +251,17 @@
 | D-243 | PORTLAND_NO_TRADE_PRIMARY | Trent가 없으면 Portland는 Powell 거래에서 이탈하는 것을 1차 기준선으로 둠 | Hood 단독 급여 매칭을 자산가치 충족으로 오인하지 않고 Evans 성과 자동 상속 금지 |
 | D-244 | POWELL_DESTINATION_HOLD | Portland 이탈 뒤 Powell의 Knicks·Philadelphia·Toronto 등 정확 시장 결과는 별도 2021 원장으로 이월 | Powell Toronto 잔류나 Portland Bird rights·후속 Clippers 거래 자동 보존 금지 |
 | D-245 | TRANSACTION_SCREEN_PASS | 2018 드래프트 주 후보 사슬의 2021 거래 구조 blocker는 해소 | 정확 Chicago 22·Hutchison/Evans/Trent 착지와 2021 사건 발생은 여전히 NOT_CANON |
+| D-246 | ROOKIE_DONOR_STRUCTURE_PASS | Chicago 루키의 1차 슬롯은 실제 Hutchison 44경기·894.6분, 후반 추가분은 Hutchison 부상 뒤 저·중역할 윙 donor로 분리 | Hutchison의 발 부상·정확 기록 자동 복사 금지 |
+| D-247 | CORE_MINUTE_FIREWALL | LaVine·Markkanen·Dunn·Carter·Porter·Lopez·Arcidiacono·Holiday·Portis에서 0분 차감 | 프랜차이즈 방향을 이유로 기존 핵심 성과·역할 선취 금지 |
+| D-248 | ROOKIE_LINE_CALCULATION_PRIMARY | Chicago 루키 시즌은 73경기·11선발·1,250~1,300분, 산술 중심 약 1,274분을 다음 계산안으로 둠 | 같은 날짜 receiver 초 단위 검산 전 NOT_CANON, 득점·리바운드·승패 HOLD |
+| D-249 | SELF_MANAGEMENT_CANDIDATE | 2018-12-04 원정 뒤 밤샘→12-05 영상·컨디셔닝 지각→12-07 약 10~12분 NBA 기회 상실을 Chicago 재발 후보로 둠 | 정확 시작 시각·지각 분수·벌금 HOLD, 급여 삭감 자동 적용 금지 |
+| D-250 | G_ASSIGNMENT_CANDIDATE | 2019-01-07~13 Windy City 배정과 01-11~12 홈 2경기·24~28분을 개발창 1순위로 둠 | 01-09·11·12 Chicago NBA 슬롯 85분 동시 사용 금지, G 개인 기록 HOLD |
+| D-251 | CBA_ASSIGNMENT_FIREWALL | 0~2년차 표준계약 assignment는 가능하나 misconduct 징계 목적으로 사용할 수 없음 | 투웨이 전환·강등·지각 벌로 서술 금지, NBA 급여·권리·로스터 유지 |
+| D-252 | REAL_PLAYER_MINUTE_FIREWALL | 후반 476분과 Windy City 52분은 같은 날짜 실존 선수 분에서 분산 차감 | 0분 계약·DNP를 공짜 분으로 사용하거나 한 실존 선수 기능 삭제 금지 |
+| D-253 | NEXT_BLOCKER | O-15B 구조는 통과했지만 73경기·11선발·정확 총분은 receiver 초 단위 ledger 뒤에만 승격 | 2019 승수·로터리·Coby White 보드 선행 실행 금지 |
+| D-254 | RECEIVER_ALLOCATION_PASS | 후반 33경기 476분을 실제 같은 날짜 donor에게 경기당 최대 6분·차감 뒤 최소 6분 규칙으로 배정 | 결과·점수차 미사용, 핵심 9인 0분 차감 유지 |
+| D-255 | PLAYER_MINUTE_CONSERVATION_PASS | 누락 4경기 96:35는 당일 실존 수취자에게 반환하고, Hutchison 894:37+실존 선수 순차감 379:25=주인공 1,274:02로 보존 | 수취자의 추가 생산·피로·승패 영향은 다음 원장 HOLD |
+| D-256 | SUPERSEDES_D248 / ROOKIE_ROLE_PROVISIONAL_LOCK | Chicago 루키 73경기·11선발·1,274:02·17.45분 역할선을 잠정 정본화 | 개인 득점·리바운드·효율·대표 경기·승수는 O-15C 전 LOCK 금지 |
+| D-257 | NEXT_PHASE | O-15B2를 닫고 O-15C Chicago 생산성 prior·승수·2019 standings/lottery·Coby White 보드로 이동 | 정확 Chicago 22와 팀보드 연쇄 HOLD 유지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

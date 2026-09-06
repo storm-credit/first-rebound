@@ -7,10 +7,10 @@
 - 현재 단계: `NBA_LONG_RANGE_ARCHITECTURE_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.29 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산`
-- 최근 설계 변경: `2021 transaction structure screen PASS; event chronology HOLD; Portland no-trade primary`
+- 현재 작업: `O-15C Chicago 2018-19 생산성 prior·승수 영향·2019 standings/lottery·Coby White 보드`
+- 최근 설계 변경: `Chicago rookie 73경기·11선발·1,274:02 역할선 PROVISIONAL_LOCK; receiver allocation PASS`
 - 최근 정본 병합: `PR #66 / 5c5cde9`
 - 최근 설계 병합: `PR #66 / 5c5cde9`
 
@@ -135,13 +135,22 @@
 - [x] Washington Trent 2021 RFA 제도 경로 PASS — deadline keep 주안, 정확 QO·계약·행선지 HOLD
 - [x] Portland Powell 원거래 대안 — `PORTLAND_NO_TRADE_PRIMARY`, Hood+Little 대안, 정확 Powell 행선지 HOLD
 - [x] O-15A5 독립 맹점 검토 — 미래 구조 감사와 시간순 사건 발생 LOCK 분리
+- [x] O-15B Chicago 실제 2018-19 22인 총분·거래·부상 경계와 핵심 9인 0분 차감 방화벽
+- [x] Hutchison 894.6분 직접 슬롯과 발 부상 뒤 33경기 476분 추가 donor 예산 분리
+- [x] Chicago 루키 73경기·11선발·1,274:02·17.45분 역할선 `PROVISIONAL_LOCK`
+- [x] 2018-12-05 자기관리 지각→12-07 약 10~12분 NBA 기회 상실 후보, 벌금·정확 시각 HOLD
+- [x] 2019-01-07~13 Windy City 표준계약 assignment 후보와 01-11~12 홈 2경기·24~28분 개발 목표
+- [x] G League assignment의 CBA상 징계 사용 금지·NBA 급여/권리/로스터 유지 방화벽
+- [x] O-15B 독립 맹점 검토 — G League 징계 오독·NBA/G 일정 중복·말기 실존 선수 삭제 방지
+- [x] O-15B2 후반 33경기 476분 같은 날짜 donor와 누락 4경기 96:35 실존 receiver 배정 PASS
+- [x] 전체 보존: Hutchison 894:37 + 실존 선수 순차감 379:25 = 주인공 1,274:02
 
 ## 현재 결정 대기
 
 - [ ] O-15A Chicago 정확 지명 순번 — 22순위 `CONDITIONAL_PASS`, 측정 범위·워크아웃 인과 작가 승인 전 HOLD
 - [x] O-15A4 Lakers 39 거래 구조·Bonga 44·Sanon 45~60 후속 보드 검증 — 내부 선호는 증거 부족 HOLD
 - [x] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산 — `STRUCTURE_SCREEN_PASS / EVENT_HOLD`
-- [ ] O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산
+- [x] O-15B2 Chicago 2018-19 같은 날짜 receiver ledger·73경기/11선발/정확 총분 판정
 - [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
@@ -300,6 +309,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 ## 다음 게이트
 
-v0.29는 Hutchison 없는 2021 세 팀 최소 거래의 cap·팀 동기 구조를 조건부 PASS로 만들고, Washington Trent의 RFA 제도 경로와 Portland `NO_TRADE` 기준선을 세웠다. 미래 구조 감사는 끝났지만 실제 거래 발생은 앞선 시즌을 시간순으로 계산하기 전 HOLD다. 다음은 Chicago 2018-19 player-game·Windy City·자기관리 비용, 2019/20 로터리, 2021 Chicago 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 계속 HOLD다.
+v0.30은 Chicago 루키 donor·receiver 구조, 자기관리 재발 후보, Windy City 표준계약 개발창을 통과시켰다. 73경기·11선발·1,274:02·17.45분의 역할선은 `PROVISIONAL_LOCK`이며 개인 박스와 승패는 HOLD다. 다음은 O-15C 생산성 prior·2019 승수/로터리/Coby White 보드, O-15D 2020~21 거래·계약, O-15E 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 개인 기록·관계 3명·승수·우승·수상은 계속 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

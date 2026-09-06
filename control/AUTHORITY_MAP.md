@@ -29,6 +29,9 @@
 | Chicago 22순위·Hutchison 후속 보드 1차 독립 검토 | `reviews/R02_3W_CHICAGO_PICK22_CASCADE_REVIEW.md` | 역사 보존 편향 교정 기록 |
 | Hutchison–Evans–Trent 후속 보드 독립 검토 | `reviews/R02_3X_CHICAGO_DRAFT_CASCADE_REVIEW.md` | DRAFT_BOARD_PASS / TRANSACTION_CASCADE_OPEN / EXACT_PICK_HOLD |
 | 2021 Washington Trent·Chicago 세 팀 거래·Portland Powell 대안 | `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md` | 구조 감사 PASS, 실제 거래 발생·정확 계약/행선지 HOLD |
+| Chicago 2018-19 루키 donor·자기관리·Windy City 배정 | `simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md` | 73경기·11선발·1,274:02 역할선 PROVISIONAL_LOCK, 개인 기록·승패 HOLD |
+| Chicago 2018-19 실존 donor/receiver 보존 | `simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md` | 같은 날짜 476분 차감·96:35 수취·순차감 379:25 PASS |
+| Chicago 루키 donor·assignment 독립 검토 | `reviews/R02_3Z_CHICAGO_ROOKIE_DONOR_ASSIGNMENT_REVIEW.md` | RECEIVER_ALLOCATION_PASS / OUTCOME_HOLD |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
 | 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |

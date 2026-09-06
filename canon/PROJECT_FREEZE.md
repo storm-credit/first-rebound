@@ -1,4 +1,4 @@
-# Project Freeze v0.29
+# Project Freeze v0.30
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -567,3 +567,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Portland Evans의 2018-21 생산·계약 구조와 Toronto가 수용할 자산가치
 - Powell의 2021 마감일 타팀 행선지 또는 Toronto 잔류와 2021 자유계약
 - Portland의 Powell 부재 후 정규시즌·플레이오프 분, 2021-22 roster와 2022 Clippers 거래 파급
+
+## v0.30 PARTIAL ADDITIONS — Chicago 루키 donor·Windy City·자기관리
+
+- Chicago 루키는 실제 Hutchison의 드래프트·로스터 기능을 대체하지만 Hutchison의 오른발 부상은 상속하지 않는다.
+- LaVine·Markkanen·Dunn·Carter·Porter·Lopez·Arcidiacono·Holiday·Portis의 실제 분은 우선 0분 차감으로 보호한다.
+- 1월 25일까지 Hutchison의 실제 44경기·894.6분을 1차 player-game 슬롯으로 사용하되, 2018년 12월 7일 자기관리 비용과 2019년 1월 9·11·12일 Windy City 개발창은 주인공 NBA 분에서 제외한다.
+- 1월 25일까지 40경기·11선발·798:02, 이후 33경기 476분이며 시즌 역할선은 **73경기·11선발·1,274:02·평균 17.45분**으로 `PROVISIONAL_LOCK`한다.
+- 자기관리 재발 후보는 2018년 12월 4일 원정 뒤 밤샘 게임→12월 5일 영상·컨디셔닝 체크인 지각→12월 7일 약 10~12분 NBA 로테이션 기회 상실이다. 정확 시작 시각·지각 분수·벌금은 `HOLD`이며 급여 삭감을 자동 적용하지 않는다.
+- Windy City 후보 배정은 2019년 1월 7~13일이고, 1월 11~12일 홈 2연전에서 경기당 24~28분의 세컨드사이드 판단·POA/스크린 내비게이션 반복을 목표로 한다.
+- Windy City 배정은 1라운드 표준 NBA 계약을 유지하는 assignment이며 투웨이 전환이 아니다. CBA상 misconduct 징계 목적으로 사용하지 않고, 12월 지각과 한 달 이상 분리된 개발 결정으로 둔다.
+- 해당 개발창에서 Chicago의 1월 9·11·12일 NBA 슬롯 85분을 동시에 사용할 수 없다. G League 52분도 실제 Windy City 선수들의 240분에서 분산 차감한다.
+- 후반 추가 476분의 같은 날짜 donor는 Selden 137·Harrison 119·Blakeney 61·Luwawu-Cabarrot 73·Alkins 27·Brandon Sampson 35·JaKarr Sampson 24분이다. 한 경기 최대 6분만 차감하고 실제 당일 출전분을 최소 6분 남긴다.
+- 주인공이 빠진 네 경기의 실제 Hutchison 슬롯 96:35는 Harrison·Parker·Selden·Blakeney·Portis에게 같은 날짜 돌려준다. `Hutchison 894:37 + 실존 선수 순차감 379:25 = 주인공 1,274:02`로 전체 분을 보존한다.
+- 상세 권위는 `simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md`와 `simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md`, 맹점 검토는 `reviews/R02_3Z_CHICAGO_ROOKIE_DONOR_ASSIGNMENT_REVIEW.md`다.
+
+## v0.30 RESEARCH_HOLD
+
+- 73경기·11선발·1,274:02의 개인 박스스코어와 생산성 prior
+- 변경된 로테이션의 2018-19 승수·Hoiberg 해임·Holiday/Porter 거래 영향
+- 2019 standings·lottery·Coby White 보드와 2020 Patrick Williams 보드
