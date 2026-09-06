@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15C6B Chicago 2019-20 score-margin impact·65경기 outcome·2020 standings/lottery`
 - 최근 설계 변경: `2년차 BASE 12.0득점·9.0리바운드/36·TS .530·USG 15.0% BOX PRIOR PASS; impact·승수 HOLD`
-- 최근 정본 병합: `PR #80 / 9f06b384`
-- 최근 설계 병합: `PR #80 / 9f06b384`
+- 최근 정본 병합: `PR #82 / e5b3e45b`
+- 최근 설계 병합: `PR #82 / e5b3e45b`
 
 ## 완료
 
