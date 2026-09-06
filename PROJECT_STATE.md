@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산`
 - 최근 설계 변경: `2021 transaction structure screen PASS; event chronology HOLD; Portland no-trade primary`
-- 최근 정본 병합: `PR #64 / 79e2168`
-- 최근 설계 병합: `PR #64 / 79e2168`
+- 최근 정본 병합: `PR #66 / 5c5cde9`
+- 최근 설계 병합: `PR #66 / 5c5cde9`
 
 ## 완료
 
