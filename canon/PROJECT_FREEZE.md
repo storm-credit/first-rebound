@@ -605,3 +605,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - BASE는 Hutchison 526:48과 Valentine·Harrison·Arcidiacono·Mokoka·Strus·Young의 868:12에서만 조달한다. LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio는 0분 차감으로 보호한다.
 - 2년차 핵심 업그레이드는 약한 손 운반·클로즈아웃 돌파이며, grab-and-go·숏롤 첫 패스의 완성은 2020-21보다 앞당기지 않는다.
 - BASE 63경기·18선발·1,395분은 같은 날짜 player-game·선발 자리 보존 전 `PRECALC_CANDIDATE`다. 개인 박스·승수·2020 lottery·Patrick Williams는 계속 `HOLD`다.
+
+## v0.30 O-15C5 PARTIAL ADDITIONS — Chicago 2년차 player-game
+
+- O-15C4의 BASE 63경기는 독립 결장 원인이 없는 후보였으므로 **65경기·18선발·1,395분**으로 교정해 `PROVISIONAL_LOCK`한다. LOW/HIGH 범위와 이후 시즌 내구성은 잠그지 않는다.
+- 실제 65경기의 Chicago 팀 총 15,675:11을 경기별로 보존한다. 취소된 17경기와 실제 없던 실존 선수 출전일은 만들지 않는다.
+- 18선발은 실제 Hutchison 선발 10자리와 실제 Harrison 선발의 시간순 최초 8자리에서 이전한다. 새 선발 자리를 만들지 않는다.
+- Hutchison·Valentine·Harrison·Arcidiacono·Mokoka·Strus·Young의 시즌 순차감 합계는 1,395:00으로 O-15C4 예산을 유지한다.
+- 보호 10인의 시즌 순감은 0이다. donor 희박 경기 연결을 위한 Markkanen·Dunn gross 19:34는 다른 날짜에 전량 반환하며 생산성의 순이전으로 세지 않는다.
+- LaVine·Satoransky·Coby·Porter와 센터 4인의 경기별 분은 실제와 동일하다.
+- 정확 개인 박스·효율·온오프·승수·2020 standings/lottery·Patrick Williams 보드는 O-15C6 이후까지 `HOLD`다.

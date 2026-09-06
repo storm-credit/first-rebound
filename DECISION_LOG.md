@@ -273,5 +273,10 @@
 | D-265 | SECOND_YEAR_ROLE_FIREWALL | 핵심 신기술은 약한 손 운반·클로즈아웃 돌파, 보조는 감속 뒤 짧은 패스 | Coby의 가드 역할·LaVine 1차 득점·2020-21 grab-and-go/숏롤 선취 금지 |
 | D-266 | MINUTE_BUDGET_PASS | BASE 1,395분은 Hutchison 526:48+Valentine/Harrison/Arcidiacono/Mokoka/Strus/Young 868:12로만 조달 | 보호 10인의 0분 차감, 같은 날짜·선발 보존 전 exact 역할 LOCK 금지 |
 | D-267 | NEXT_BLOCKER | O-15C5에서 65경기 같은 날짜 donor와 18선발 자리를 검산 | 생산성 prior·승패·2020 lottery·Patrick Williams 보드 선행 금지 |
+| D-268 | SUPERSEDES_D264_BASE / SECOND_YEAR_ROLE_PROVISIONAL_LOCK | O-15C4의 BASE 63경기를 65경기·18선발·1,395분으로 교정 | 두 결장에 독립 원인이 없고 65경기 전수 보존이 성립; LOW/HIGH 범위와 개인 생산성은 HOLD |
+| D-269 | PLAYER_GAME_CONSERVATION_PASS | 65경기 실제 팀 15,675:11을 actual real-player 분과 주인공 분 사이에서 경기별 초 단위 보존 | 취소 17경기 복원·실제 없던 선수 출전일 생성·센터 분 차감 금지 |
+| D-270 | PROTECTED_NET_ZERO_FIREWALL | 보호 10인의 `0분 차감`은 시즌 순감 0으로 고정하고, donor 희박 구간을 잇는 Markkanen·Dunn gross 19:34는 다른 날짜에 전량 반환 | gross bridge를 주인공 생산성 이전이나 공짜 피로 0으로 처리 금지 |
+| D-271 | STARTER_SOURCE_PASS | 주인공 18선발은 실제 Hutchison 선발 10자리와 실제 Harrison 선발 시간순 최초 8자리에서만 이전 | 새 선발 자리 생성·승패 기반 날짜 선택 금지, Harrison 마지막 2선발 유지 |
+| D-272 | NEXT_PHASE | O-15C6에서 2년차 생산성 prior·실존 선수 이전량·65경기 outcome을 계산 | exact 승수·2020 lottery·Patrick Williams 보드 선행 확정 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

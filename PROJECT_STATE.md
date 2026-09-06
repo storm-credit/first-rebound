@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15C5 Chicago 2019-20 65경기 player-game donor·선발 원장`
-- 최근 설계 변경: `2년차 60~65경기·14~22선발·1,320~1,470분, BASE 63경기·18선발·1,395분 PRECALC; exact player-game HOLD`
-- 최근 정본 병합: `PR #78 / 0241e489`
-- 최근 설계 병합: `PR #78 / 0241e489`
+- 현재 작업: `O-15C6 Chicago 2019-20 2년차 생산성 prior·경기 영향·2020 standings/lottery`
+- 최근 설계 변경: `2년차 BASE 65경기·18선발·1,395분 player-game 보존 PASS; 개인 생산성·승수 HOLD`
+- 최근 정본 병합: `PR #79 / 588360d4`
+- 최근 설계 병합: `PR #79 / 588360d4`
 
 ## 완료
 
@@ -157,6 +157,8 @@
 - [x] score-margin residual 후보 BPM 22/22/23·eRT 22/23/24, fatigue stress 무변화 — exact 승수 `22~24 / HOLD`
 - [x] O-15C3 실제 2019 lottery 7순위와 Coby White 지명 — `AUTHOR_APPROVED / LOCKED`
 - [x] O-15C4 실제 65경기·17명·15,675:11·325선발 roster 기준선과 2년차 BASE 1,395분 예산 — `EVIDENCE_BASELINE_PASS / PRECALC_RANGE`
+- [x] O-15C5 65경기·18선발·1,395분 same-date player-game 원장 — `CONSERVATION_PASS / PROVISIONAL_LOCK`
+- [x] 보호 10인 시즌 순감 0·센터 4인 경기별 분 고정·Markkanen/Dunn gross bridge 19:34 전량 반환
 
 ## 현재 결정 대기
 
@@ -168,7 +170,8 @@
 - [x] O-15C2B Elo baseline·eRT 대체 proxy·fatigue 0 가정 강건성 감사 — `MODEL_REOPEN_CORRECT / MARGIN_CANDIDATE_PASS`
 - [x] O-15C3 4번째 seed 유지에 따른 실제 7순위·Coby White 지명; 2020 Patrick Williams는 2019-20 뒤 재판정
 - [x] O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선과 주인공 2년차 역할 범위
-- [ ] O-15C5 BASE 63경기·18선발·1,395분의 같은 날짜 donor·선발 자리 보존
+- [x] O-15C5 BASE 65경기·18선발·1,395분의 같은 날짜 donor·선발 자리 보존
+- [ ] O-15C6 2년차 생산성 prior·실존 선수 이전량·65경기 outcome·2020 lottery
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
 
@@ -329,9 +332,11 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 103. 승패만 조건화한 Bernoulli latent로 exact 경기 결과를 선택하지 않는다. 실제 -56점 패배가 +1.20점 impact로 반전되는 구조적 결함이 확인됐다.
 104. score-margin residual의 22~24승 범위를 평균내 exact 23승으로 잠그지 않는다. impact proxy가 달라지면 중심 결과도 달라진다.
 105. 주인공을 Jordan에게 직결해 Rose·Noah·Butler·LaVine 계보를 공백 처리하지 않는다.
+106. `보호 선수 0분 차감`을 경기별 고정과 혼동하지 않는다. 시즌 순감은 0이지만 donor가 희박한 날짜의 gross 이동과 피로는 별도 기록한다.
+107. 65경기 출전이 성립한다고 이를 이후 시즌 무결석·내구성 보장으로 복사하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 donor·receiver·생산성 prior와 outcome 강건성 감사, Chicago 프랜차이즈 계보 방향까지 통과시켰다. 73경기·11선발·1,274:02·17.45분은 `PROVISIONAL_LOCK`, exact 개인 박스와 22~24승 중 한 값은 HOLD다. 다음은 O-15C3 실제 7순위·Coby White 보드의 작가 판정, 이후 2019-20 원장과 Patrick Williams 재판정이다. O-15D 2020~21 거래·계약과 O-15E 라이벌 서부 4안은 앞선 결과 뒤에 진행한다. 정확 22순위·측정치·루키 개인 기록·관계 3명·승수·우승·수상은 계속 HOLD다.
+v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차 player-game까지 통과시켰다. 2년차는 65경기·18선발·1,395분 `PROVISIONAL_LOCK`이며 개인 박스·승수·2020 lottery·Patrick Williams는 HOLD다. 다음은 O-15C6 2년차 생산성 prior와 65경기 outcome이다. O-15D 2020~21 거래·계약과 O-15E 라이벌 서부 4안은 앞선 결과 뒤에 진행한다. 정확 2018 지명 순번·측정치·관계 3명·우승·수상은 계속 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

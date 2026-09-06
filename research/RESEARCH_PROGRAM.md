@@ -221,3 +221,16 @@
 - 직접 슬롯: Hutchison 526:48, 추가 donor 예산 868:12
 - 보호: LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio 0분 차감
 - 다음 조사: 65경기 same-date donor·선발 자리 원장, 이후 생산성 prior·승패·2020 lottery
+
+### R15.11 Chicago 2019-20 player-game donor·선발 원장
+
+- 원장: `simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.md`
+- 경기 CSV: `simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv`
+- 변화 CSV: `simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.csv`
+- 총괄 맹점 검토: `reviews/R01_CHICAGO_2019_20_PLAYER_GAME_BLINDSPOT_REVIEW.md`
+- 판정: `PLAYER_GAME_CONSERVATION_PASS / SECOND_YEAR_ROLE_PROVISIONAL_LOCK / PRODUCTION_HOLD`
+- 주인공: 65경기·18선발·1,395:00, 경기당 16~31분
+- 선발 source: 실제 Hutchison 10 + 실제 Harrison 시간순 최초 8
+- 보존: 65경기 실제 팀 15,675:11, 보호 10인 시즌 순감 0, 센터 4인 경기별 고정
+- gross bridge: Markkanen·Dunn 19:34 차감과 19:34 반환; 생산성 순이전 아님
+- 다음 조사: O-15C6 2년차 production prior·changed player-game 생산성·65경기 승패·2020 lottery
