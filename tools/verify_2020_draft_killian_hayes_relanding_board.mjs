@@ -10,12 +10,12 @@ const rows = lines.map((line) => Object.fromEntries(line.split(',').map((value, 
 const primary = rows.filter((row) => row.branch === 'PRIMARY');
 
 const expected = [
-  ['8', 'New York Knicks', 'Obi Toppin', 'RETENTION_STRONG_LEAN'],
-  ['9', 'Washington Wizards', 'Deni Avdija', 'RETENTION_STRONG_LEAN'],
-  ['10', 'Phoenix Suns', 'Jalen Smith', 'RETENTION_LEAN'],
-  ['11', 'San Antonio Spurs', 'Devin Vassell', 'RETENTION_LEAN'],
-  ['12', 'Sacramento Kings', 'Tyrese Haliburton', 'RETENTION_STRONG_LEAN'],
-  ['13', 'New Orleans Pelicans', 'Killian Hayes', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['8', 'New York Knicks', 'Obi Toppin', 'AUTHOR_LOCKED'],
+  ['9', 'Washington Wizards', 'Deni Avdija', 'AUTHOR_LOCKED'],
+  ['10', 'Phoenix Suns', 'Jalen Smith', 'AUTHOR_LOCKED'],
+  ['11', 'San Antonio Spurs', 'Devin Vassell', 'AUTHOR_LOCKED'],
+  ['12', 'Sacramento Kings', 'Tyrese Haliburton', 'AUTHOR_LOCKED'],
+  ['13', 'New Orleans Pelicans', 'Killian Hayes', 'AUTHOR_LOCKED'],
 ];
 
 if (primary.length !== expected.length) throw new Error(`expected 6 primary rows, got ${primary.length}`);
@@ -28,14 +28,15 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'HAYES_13_PRIMARY_LEAN / AUTHOR_GATE',
+  'AUTHOR_APPROVED / PICKS_8_TO_13_LOCKED / HAYES_13_LOCKED',
   'Killian Hayes 13순위',
-  'Kira Lewis를 Boston 14순위부터',
+  'Kira Lewis를 Boston 14순위부터 재판정한다',
   '후대 NBA 성과와 계약은 사용하지 않는다',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('PICK13_INTERNAL_BOARD_BLOCKER')) throw new Error('missing pick-13 blocker');
+if (!review.includes('AUTHOR_RESOLVED')) throw new Error('missing author resolution');
+if (!review.includes('공개되지 않은 Hayes–Lewis 내부 보드가 확인됐다는 뜻이 아니다')) throw new Error('missing evidence firewall');
 
 console.log('PASS Killian Hayes relanding board');
-console.log('actual picks 8-12 retained; Hayes 13 primary; exact pick author-gated');
+console.log('actual picks 8-12 retained; Hayes 13 author-locked; Kira relanding open');

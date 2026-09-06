@@ -1,6 +1,6 @@
 # R01 2020 Draft Killian Hayes Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICK13_INTERNAL_BOARD_BLOCKER / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -12,8 +12,14 @@
 6. Hayes를 New Orleans에 놓고 Lewis를 삭제하지 않는다. Lewis는 14순위부터 새 보드를 요구한다.
 7. Hayes·Lewis·Toppin 등의 후대 성과와 부상은 2020 선택 근거에서 제외한다.
 
-## 결론
+## 결정 전 결론
 
 `Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12` 유지는 순차적으로 방어된다. 첫 활성 분기는 New Orleans 13순위의 Hayes/Lewis 비교다.
 
 당시 평가와 포인트가드 선택 의사를 함께 보면 Hayes 13순위가 주안이지만, 공개 내부 head-to-head가 없어 작가 승인 전 `HOLD`다.
+
+## 작가 결정 반영
+
+O-15E4에서 작가는 주 분기 A를 승인했다. **Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Killian Hayes 13**은 `AUTHOR_APPROVED / LOCKED`이며 Kira Lewis 13 유지분기는 `REJECTED_HISTORICAL_CONTINGENCY`다.
+
+이 결정은 New Orleans의 공개되지 않은 Hayes–Lewis 내부 보드가 확인됐다는 뜻이 아니다. 실제 13순위 Kira Lewis Jr.는 삭제하지 않고 Boston 14순위부터 새 보드를 통과한다.

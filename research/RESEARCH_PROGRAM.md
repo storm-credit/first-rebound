@@ -317,6 +317,15 @@
 - 팀보드: `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_KILLIAN_HAYES_RELANDING_REVIEW.md`
-- 8~12순위 주안: New York Toppin → Washington Avdija → Phoenix Smith → San Antonio Vassell → Sacramento Haliburton 유지
-- 첫 활성 분기: New Orleans 13순위 Hayes `PRIMARY_LEAN / AUTHOR_GATE` vs Kira Lewis 유지
-- 다음 조사: 작가 선택 뒤 이동 선수를 Boston 14순위부터 재판정
+- LOCK: New York Toppin 8 → Washington Avdija 9 → Phoenix Smith 10 → San Antonio Vassell 11 → Sacramento Haliburton 12 → New Orleans Hayes 13 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: New Orleans Kira Lewis 13 유지 `REJECTED_HISTORICAL_CONTINGENCY`
+- 다음 조사: Kira Lewis를 Boston 14순위부터 재판정
+
+### R15.20 Kira Lewis Jr. 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_KIRA_LEWIS_RELANDING_REVIEW.md`
+- Boston 14순위: Aaron Nesmith `RETENTION_STRONG_LEAN`
+- 첫 활성 분기: Orlando 15순위 Cole Anthony 유지 `RETENTION_LEAN / AUTHOR_GATE` vs Kira Lewis 지명
+- 다음 조사: 작가 선택 뒤 이동 선수를 Detroit 통제 16순위부터 재판정
