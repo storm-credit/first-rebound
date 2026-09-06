@@ -205,5 +205,9 @@
 | D-197 | DESIGN_CANDIDATE | 3년차 공격 성장 가시화와 5년차 공동 에이스 권한을 새 시즌 배정 목표로 둠 | 정확 분·사용률·Trae 공존·거래 연쇄 전 NOT_CANON |
 | D-198 | SERIALIZATION_CANDIDATE | 본편 780화, 허용 범위 720~840화와 NBA 75~85%를 장기 구조 후보로 둠 | 2028 종결·후기 커리어 에필로그·정확 회차는 HOLD |
 | D-199 | FUTURE_FIREWALL | 2026-09-06 이후 실존 NBA 미래를 확정 사실처럼 예언하지 않음 | 2026~28 좁은 대체 미래 뒤 가상 인물·압축 이정표 사용, 정확 결과 HOLD |
+| D-200 | DESIGN_LEAN | Atlanta 원클럽 공동 프랜차이즈 코어 A1을 새 장기 경로 추천으로 둠 | Murray 미영입·Collins 거래·Huerter 잔류·정확 분은 계산 전 NOT_CANON |
+| D-201 | RANGE_CANDIDATE | 2~5년차 분·사용률을 1,150~1,400/14~17%, 1,500~1,750/17~20%, 1,850~2,200/20~24%, 2,150~2,500/24~28%로 재계산 시작 | player-game donor·계약·거래 전 확정 기록 금지 |
+| D-202 | TRANSACTION_REOPENED | 5년차 공동 에이스 방향은 2022 Murray·Collins·Huerter·Griffin·Bey 연쇄 중 실제 변화를 요구 | 주인공만 성장시키고 실제 거래를 모두 보존하는 절충 금지 |
+| D-203 | STRUCTURE_REOPENED | D-191의 Chicago 라이벌+주인공 서부 이적 추천을 현행 기본값에서 해제 | Atlanta+Chicago 동부 반복전·플레이오프 경쟁도 대등한 후보 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
