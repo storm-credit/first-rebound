@@ -54,4 +54,4 @@ if ([...centralWins].sort((a, b) => a - b).join('/') !== '21/22') fail('combined
 console.log('PASS Chicago 2019-20 RAPTOR crosscheck');
 console.log('RAPTOR_EB-1000: 20/21/22 wins; regularizer stress: 19-22');
 console.log('combined BASE families: 21-22 wins, lottery seed 7');
-console.log('exact wins and lottery author choice remain HOLD');
+console.log('exact wins remain HOLD; lottery option A locks seed 7 and pick 4');

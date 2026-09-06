@@ -642,3 +642,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 세 계열의 BASE와 second-night stress만 보면 **21~22승**, Chicago 2020 lottery **seed 7**이 공통이다.
 - 총괄 추천은 exact 승수 21~22 `HOLD`를 유지하면서 seed 7·1순위 7.5%·실제 4순위 추첨 사건만 보존하는 A안이다. 이는 `AUTHOR_APPROVAL_REQUIRED / NOT_CANON`이다.
 - 실제 4순위가 승인돼도 Patrick Williams 지명은 자동 보존하지 않는다. 4순위 당시 보드는 주인공과의 성장시간 중복을 포함해 재심사한다.
+
+## v0.30 O-15C7 PARTIAL ADDITIONS — 2020 lottery A안·조건부 4순위 보드
+
+- 작가 선택 A를 반영한다. Chicago 2019-20 exact 성적은 **21~22승 `HOLD`**, 2020 lottery seed 7·1순위 확률 7.5%·실제 전체 4순위 추첨 사건은 `LOCKED`다.
+- 전체 4순위 보유와 Patrick Williams 실제 지명은 별도 사건이다. Patrick은 자동 보존하지 않는다.
+- 실제 Edwards·Wiseman·Ball이 1~3순위에서 모두 지명된 조건의 5인 보드는 **Haliburton > Avdija > Williams > Vassell > Okoro**다. 이는 `CONDITIONAL_BOARD_PASS`이며 정확 지명이 아니다.
+- 가상 라이벌은 같은 2020 Draft의 1순위급 후보다. 라이벌의 서부 팀·순번이 1~3순위 보드와 4순위 가용선수를 바꿀 수 있으므로 Chicago 정확 지명은 `UPSTREAM_RIVAL_BLOCKER / HOLD`다.
+- Patrick은 실제 Chicago 프런트의 운동능력·다포지션 수비·상한 선호 때문에 후보로 생존한다. 그러나 2년차 주인공과 SF/PF 수비·성장시간이 가장 크게 겹쳐 조건부 3순위로 하향한다.
+- 다음 인과 단계는 O-15D 거래가 아니라 O-15E 라이벌의 2020 서부 착지·상위 1~3순위 팀보드다. 이 상류 보드가 닫힌 뒤 Chicago 4순위와 2020-21 roster를 재실행한다.

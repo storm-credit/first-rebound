@@ -283,3 +283,5 @@ v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위
 계산 순서는 22~60 드래프트 보드 → 2018-19 Chicago player-game → 2019/20 로터리 → 2021 거래·계약 → 라이벌 서부 4안이다. 상세 권위는 `design/CHICAGO_FRANCHISE_REOPEN.md`다.
 
 O-15C6C까지 세 impact 계열의 BASE는 2019-20 Chicago 21~22승과 2020 lottery seed 7에 수렴했다. exact 승수를 HOLD한 채 seed 7·실제 4순위 추첨 사건만 유지하는 A안을 총괄 추천한다. Patrick Williams는 자동 유지하지 않는다. 작가 선택 권위는 `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md`다.
+
+O-15C7에서 작가 선택 A를 반영했다. Chicago는 2020 전체 4순위를 보유하지만 정확 지명은 아직 `HOLD`다. 실제 top 3 유지 조건의 5인 보드는 Haliburton > Avdija > Williams > Vassell > Okoro다. 그러나 2020 1순위급 라이벌이 상위 1~3순위를 바꿀 수 있으므로, 다음 선택 게이트는 Patrick 유지 여부가 아니라 라이벌의 서부 팀·정확 순번과 밀려난 실제 top 3의 재배열이다.

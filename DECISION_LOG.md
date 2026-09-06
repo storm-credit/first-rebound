@@ -292,5 +292,11 @@
 | D-284 | SUPERSEDES_D279_RANGE / TAIL_ENVELOPE_OPEN | RAPTOR_EB-1000은 20/21/22승, 500~2,000분 sensitivity까지 포함한 전체 stress tail은 19~24승 | tail을 동일 가중 정본 후보나 평균 승수로 사용 금지 |
 | D-285 | CENTRAL_SEED7_AUTHOR_CANDIDATE | 세 impact 계열 BASE와 fatigue의 21~22승은 모두 Chicago 2020 lottery seed 7을 유지 | exact 승수 HOLD+seed7·실제 pick4 사건 유지안은 작가 승인 전 NOT_CANON |
 | D-286 | LOTTERY_AND_PATRICK_AUTHOR_GATE | A안 승인 시 4순위 팀보드를 Williams·Avdija·Okoro·Haliburton·Vassell로 재심사 | 실제 4순위 보존과 Patrick 실제 지명 보존을 한 결정으로 묶지 않음 |
+| D-287 | AUTHOR_LOCK / LOTTERY_OPTION_A | Chicago 2019-20 exact 21~22승은 HOLD하고 2020 lottery seed 7·1순위 7.5%·실제 전체 4순위 사건을 보존 | 세 impact 계열 BASE 공통 경계만 정본화, tail과 exact 승수 혼합 금지 |
+| D-288 | PICK4_SLOT_LOCK | Chicago의 2020 전체 4순위 보유를 LOCK | 4순위 슬롯과 Patrick Williams 실제 지명을 같은 결정으로 묶지 않음 |
+| D-289 | CONDITIONAL_PICK4_BOARD_PASS | 실제 top 3가 그대로 지명된 조건에서 Haliburton·Avdija·Williams·Vassell·Okoro 순으로 팀보드 설정 | 후대 성과 제외, exact 선택 아님 |
+| D-290 | RIVAL_UPSTREAM_BLOCKER | 2020 1순위급 라이벌의 서부 팀·순번과 실제 top 3 재배열 전 Chicago 정확 지명 금지 | 라이벌을 4순위 아래에 억지로 밀거나 Edwards·Wiseman·Ball을 자동 보존하지 않음 |
+| D-291 | PATRICK_RETENTION_DOWNGRADE | Patrick Williams는 실제 프런트 선호 때문에 생존하지만 주인공과의 SF/PF 수비·성장시간 중복으로 자동 유지에서 3순위 조건부 후보로 하향 | 최소 역사 변경 편향으로 지명 금지 |
+| D-292 | NEXT_PHASE_REORDER | O-15E 라이벌 2020 서부 착지·1~3순위 보드를 O-15D 거래 연쇄보다 먼저 계산 | 2020 Draft 상류 사건이 닫히기 전 Chicago 4순위·2020-21 roster 실행 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

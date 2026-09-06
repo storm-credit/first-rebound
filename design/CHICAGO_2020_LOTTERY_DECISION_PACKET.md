@@ -1,6 +1,6 @@
 # Chicago 2020 Lottery Decision Packet
 
-- 상태: `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
+- 상태: `AUTHOR_SELECTED_A / CANON`
 - 선행 계산: O-15C6B·O-15C6C
 - 원고 게이트: `CLOSED`
 
@@ -24,3 +24,10 @@
 - Patrick Williams 지명: `REOPEN_REQUIRED / HOLD`
 
 즉 “실제 22승이 정답”이라고 선언하지 않는다. lottery 입력이 바뀌지 않는 최소 범위만 닫고, 4순위에서 Williams·Avdija·Okoro·Haliburton·Vassell을 당시 정보로 비교한다.
+
+## 작가 선택 결과
+
+- 2026-09-06 연속 진행 지시에 따라 총괄 추천 **A**를 승인안으로 반영한다.
+- exact 21~22승은 계속 `HOLD`한다.
+- seed 7·1순위 확률 7.5%·실제 전체 4순위 추첨 사건은 `LOCKED`다.
+- 정확 지명자는 `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md`와 라이벌의 상류 드래프트 보드가 닫힐 때까지 `HOLD`다.
