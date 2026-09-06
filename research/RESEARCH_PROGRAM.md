@@ -308,6 +308,15 @@
 - 팀보드: `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md`
-- 주 분기: Cleveland Okoro 5 유지 → Atlanta Okongwu 6 유지 → Detroit Patrick 7 `PRIMARY_LEAN / AUTHOR_GATE`
-- 반대 분기: Atlanta Patrick 6 → Detroit Hayes 7
-- 다음 조사: 작가 선택 뒤 A는 Hayes 8순위 이하, B는 Okongwu 7순위 이하 보드
+- LOCK: Cleveland Okoro 5 → Atlanta Okongwu 6 → Detroit Patrick 7 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Atlanta Patrick 6 → Detroit Hayes 7 `REJECTED_HISTORICAL_CONTINGENCY`
+- 다음 조사: Killian Hayes 8순위 이하 보드
+
+### R15.19 Killian Hayes 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_KILLIAN_HAYES_RELANDING_REVIEW.md`
+- 8~12순위 주안: New York Toppin → Washington Avdija → Phoenix Smith → San Antonio Vassell → Sacramento Haliburton 유지
+- 첫 활성 분기: New Orleans 13순위 Hayes `PRIMARY_LEAN / AUTHOR_GATE` vs Kira Lewis 유지
+- 다음 조사: 작가 선택 뒤 이동 선수를 Boston 14순위부터 재판정

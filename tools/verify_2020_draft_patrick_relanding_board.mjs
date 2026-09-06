@@ -10,9 +10,9 @@ const rows = lines.map((line) => Object.fromEntries(line.split(',').map((value, 
 const primary = rows.filter((row) => row.branch === 'PRIMARY');
 
 const expected = [
-  ['5', 'Cleveland Cavaliers', 'Isaac Okoro', 'RETENTION_STRONG_LEAN'],
-  ['6', 'Atlanta Hawks', 'Onyeka Okongwu', 'RETENTION_LEAN'],
-  ['7', 'Detroit Pistons', 'Patrick Williams', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['5', 'Cleveland Cavaliers', 'Isaac Okoro', 'AUTHOR_LOCKED'],
+  ['6', 'Atlanta Hawks', 'Onyeka Okongwu', 'AUTHOR_LOCKED'],
+  ['7', 'Detroit Pistons', 'Patrick Williams', 'AUTHOR_LOCKED'],
 ];
 
 if (primary.length !== expected.length) throw new Error(`expected 3 primary rows, got ${primary.length}`);
@@ -25,13 +25,14 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'PATRICK_7_PRIMARY_LEAN / AUTHOR_GATE',
+  'AUTHOR_APPROVED / PATRICK_7_LOCKED',
   'Patrick Williams Detroit 7순위',
   'Hayes는 삭제하지 않고 New York 8순위부터 다시 보드에 넣는다',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('PICK6_BRANCH_OPEN')) throw new Error('missing Atlanta pick-six blocker');
+if (!review.includes('AUTHOR_RESOLVED')) throw new Error('missing author resolution');
+if (!review.includes('promise 소문을 공식 사실로 승격하지 않는다')) throw new Error('missing evidence firewall');
 
 console.log('PASS Patrick Williams relanding board');
-console.log('Okoro 5 / Okongwu 6 / Patrick 7 primary; exact Patrick pick author-gated');
+console.log('Okoro 5 / Okongwu 6 / Patrick 7 author-locked; Hayes relanding open');

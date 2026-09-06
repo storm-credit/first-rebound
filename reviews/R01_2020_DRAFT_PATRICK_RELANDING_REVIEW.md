@@ -1,6 +1,6 @@
 # R01 2020 Draft Patrick Williams Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICK6_BRANCH_OPEN / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -10,6 +10,12 @@
 4. Patrick을 Detroit에 놓고 Hayes를 삭제하면 안 된다. Hayes는 8순위부터 새 팀보드를 요구한다.
 5. 후대 Williams·Okongwu·Hayes의 성과와 부상은 2020 보드 근거에서 제외한다.
 
-## 결론
+## 결정 전 결론
 
 `Okoro 5 유지 → Okongwu 6 유지 → Patrick 7`이 최소 가정의 주 분기다. 그러나 Atlanta 6순위가 완전히 닫히지 않았으므로 작가 선택 전 Patrick의 정확 재착지는 `HOLD`다.
+
+## 작가 결정 반영
+
+O-15E3에서 작가는 주 분기 A를 승인했다. **Okoro 5 → Okongwu 6 → Patrick Williams 7**은 `AUTHOR_APPROVED / LOCKED`이며 Atlanta Patrick 6분기는 `REJECTED_HISTORICAL_CONTINGENCY`다.
+
+이 결정은 Detroit promise 소문을 공식 사실로 승격하지 않는다. 또한 실제 7순위였던 Killian Hayes는 삭제하지 않고 New York 8순위부터 새 보드를 통과한다.

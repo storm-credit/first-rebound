@@ -49,8 +49,10 @@
 | 라이벌 2020 서부 팀 총괄 맹점 검토 | `reviews/R01_RIVAL_2020_WEST_TEAM_BLINDSPOT_REVIEW.md` | 직접 지명 2안·고비용 거래 2안 분리 / NOT_INDEPENDENT |
 | 2020 Draft 1~4순위 순차 팀보드 | `simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md` 및 CSV | Minnesota→Wiseman→Edwards→LaMelo AUTHOR_LOCKED |
 | 2020 Draft 1~4순위 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_TOP4_SEQUENTIAL_BOARD_REVIEW.md` | Charlotte 내부 자료 한계를 작가 선택으로 해소 / NOT_INDEPENDENT |
-| Patrick Williams 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md` 및 CSV | Okoro 5·Okongwu 6 유지 주안 / Patrick Detroit 7 AUTHOR_GATE |
-| Patrick Williams 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md` | Atlanta 6분기·밀려난 선수 연쇄 OPEN / NOT_INDEPENDENT |
+| Patrick Williams 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md` 및 CSV | Okoro 5→Okongwu 6→Patrick Detroit 7 AUTHOR_LOCKED |
+| Patrick Williams 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_PATRICK_RELANDING_REVIEW.md` | 작가 선택으로 Atlanta 6분기 해소 / NOT_INDEPENDENT |
+| Killian Hayes 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.md` 및 CSV | 실제 8~12 유지 주안 / Hayes New Orleans 13 AUTHOR_GATE |
+| Killian Hayes 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_KILLIAN_HAYES_RELANDING_REVIEW.md` | New Orleans Hayes/Lewis 내부 비교 blocker / NOT_INDEPENDENT |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
