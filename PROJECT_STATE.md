@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선`
-- 최근 설계 변경: `2019 실제 lottery 7순위·Coby White 지명 AUTHOR_APPROVED / LOCKED; 2019-20 분·2020 Patrick Williams 재계산 OPEN`
-- 최근 정본 병합: `PR #74 / f8c69ce`
-- 최근 설계 병합: `PR #75 / f5e456a`
+- 현재 작업: `O-15C5 Chicago 2019-20 65경기 player-game donor·선발 원장`
+- 최근 설계 변경: `2년차 60~65경기·14~22선발·1,320~1,470분, BASE 63경기·18선발·1,395분 PRECALC; exact player-game HOLD`
+- 최근 정본 병합: `PR #78 / 0241e489`
+- 최근 설계 병합: `PR #78 / 0241e489`
 
 ## 완료
 
@@ -156,6 +156,7 @@
 - [x] O-15C2B eRT stress에서 -56점 G027 반전 발견 — Bernoulli runner exact 권한 회수, `REOPEN_REQUIRED`
 - [x] score-margin residual 후보 BPM 22/22/23·eRT 22/23/24, fatigue stress 무변화 — exact 승수 `22~24 / HOLD`
 - [x] O-15C3 실제 2019 lottery 7순위와 Coby White 지명 — `AUTHOR_APPROVED / LOCKED`
+- [x] O-15C4 실제 65경기·17명·15,675:11·325선발 roster 기준선과 2년차 BASE 1,395분 예산 — `EVIDENCE_BASELINE_PASS / PRECALC_RANGE`
 
 ## 현재 결정 대기
 
@@ -166,7 +167,8 @@
 - [x] O-15C2 82경기 pB·logit scale·conditional latent 실행 — `PROVISIONAL_RUN_PASS`, exact 2019 승수는 21~22 `HOLD`
 - [x] O-15C2B Elo baseline·eRT 대체 proxy·fatigue 0 가정 강건성 감사 — `MODEL_REOPEN_CORRECT / MARGIN_CANDIDATE_PASS`
 - [x] O-15C3 4번째 seed 유지에 따른 실제 7순위·Coby White 지명; 2020 Patrick Williams는 2019-20 뒤 재판정
-- [ ] O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선과 주인공 2년차 역할 범위
+- [x] O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선과 주인공 2년차 역할 범위
+- [ ] O-15C5 BASE 63경기·18선발·1,395분의 같은 날짜 donor·선발 자리 보존
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
 
