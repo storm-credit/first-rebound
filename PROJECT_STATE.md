@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15C6B Chicago 2019-20 score-margin impact·65경기 outcome·2020 standings/lottery`
-- 최근 설계 변경: `2년차 BASE 12.0득점·9.0리바운드/36·TS .530·USG 15.0% BOX PRIOR PASS; impact·승수 HOLD`
-- 최근 정본 병합: `PR #82 / e5b3e45b`
-- 최근 설계 병합: `PR #82 / e5b3e45b`
+- 현재 작업: `O-15C6C Chicago 2019-20 독립 impact 보정·2020 조건부 fixed lottery draw`
+- 최근 설계 변경: `65경기 attainable record 21·22·24승·lottery seed 7~8 BRANCH_OPEN; exact 승수·pick·Patrick HOLD`
+- 최근 정본 병합: `PR #84 / 43bda0e4`
+- 최근 설계 병합: `PR #84 / 43bda0e4`
 
 ## 완료
 
@@ -161,6 +161,8 @@
 - [x] 보호 10인 시즌 순감 0·센터 4인 경기별 분 고정·Markkanen/Dunn gross bridge 19:34 전량 반환
 - [x] O-15C6A 루키 9인 비교군 종단 추적·2년차 LOW/BASE/HIGH 박스 prior — `RANGE_PASS`
 - [x] 1,395분 donor 관측 생산성 순이전량 검산 — `TRANSFER_PRODUCTION_PASS / TEAM_TOTAL_FIREWALL`
+- [x] O-15C6B 65경기 score-margin BPM·NET_EB outcome — attainable 21·22·24승, 실제 2점 차 이상 반전 0
+- [x] 2020 lottery 분기 — 21·22승 seed 7·실제 4순위 조건부 유지, 24승 seed 8·fixed draw 필요
 
 ## 현재 결정 대기
 
@@ -174,7 +176,8 @@
 - [x] O-15C4 Chicago 2019-20 실제 roster·player-minute donor 기준선과 주인공 2년차 역할 범위
 - [x] O-15C5 BASE 65경기·18선발·1,395분의 같은 날짜 donor·선발 자리 보존
 - [x] O-15C6A 2년차 박스 생산성 prior·실존 선수 순이전량
-- [ ] O-15C6B score-margin impact·65경기 outcome·2020 standings/lottery
+- [x] O-15C6B score-margin impact·65경기 outcome·2020 standings/lottery — `MODEL_REPRODUCED / EXACT_HOLD`
+- [ ] O-15C6C 독립 impact/lineup 교차검증·NET_EB regularizer sensitivity·조건부 2020 fixed draw
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
 
@@ -340,9 +343,11 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 108. donor 묶음보다 적은 주인공 득점·어시스트·스틸 귀속을 리바운드 설정만으로 자동 상쇄하지 않는다.
 109. sophomore 비교군 net rating을 팀·라인업 환경에서 떼어 causal impact로 사용하지 않는다.
 110. TS와 3P만으로 FGA·FTA·ORB/DRB 정수 박스를 임의 완성하지 않는다.
+111. 2020 lottery seed 계산에 Washington의 bubble 최종 25-47을 쓰지 않는다. 공식 입력은 3월 11일까지 24-40이다.
+112. 두 무피로 BASE가 22승에 수렴했다는 이유로 exact 22승을 잠그거나 실제 4순위·Patrick Williams를 연쇄 고정하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차 player-game·박스 prior까지 통과시켰다. 2년차는 65경기·18선발·1,395분, BASE 12.0득점·9.0리바운드/36·TS .530이지만 정확 정수 박스와 causal impact는 HOLD다. 다음은 O-15C6B score-margin 65경기 outcome과 2020 lottery다. O-15D 거래·계약과 O-15E 라이벌 서부 4안은 앞선 결과 뒤에 진행한다. 원고 게이트는 계속 CLOSED다.
+v0.30은 Chicago 루키 역할·2019 lottery/Coby White와 2019-20 2년차 player-game·박스 prior·score-margin outcome까지 통과시켰다. 2년차는 65경기·18선발·1,395분, attainable record 21·22·24승과 lottery seed 7~8 분기다. exact 승수·pick·Patrick Williams는 HOLD다. 다음은 O-15C6C 독립 impact 보정과 seed 8 조건부 fixed lottery draw다. O-15D 거래·계약과 O-15E 라이벌 서부 4안은 앞선 결과 뒤에 진행한다. 원고 게이트는 계속 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
