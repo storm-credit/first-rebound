@@ -53,7 +53,7 @@
 - WCC 우승 기능과 2020 NCAA 토너먼트 취소는 잠그되 실제 31승 2패·개인 기록은 R09에서 재계산한다.
 - 대학 범위 재개 조건은 `control/RIVAL_COLLEGE_SCOPE_GATE.md`가 통제한다.
 
-## v0.15 Atlanta·NBA assignment 작동 규칙
+## v0.15 Atlanta·NBA assignment 작동 규칙 — v0.27 폐기 분기 기록
 
 - 주인공은 2018 Draft 30순위 Atlanta 1라운더다. rookie-scale NBA 계약, 투웨이 계약, G League 표준계약을 혼용하지 않는다.
 - NBA 계약 선수의 G League assignment는 계약 해지·call-up이 아니다. Atlanta가 권리를 유지하고 회수할 수 있다.
@@ -62,6 +62,16 @@
 - 주인공의 분과 기록은 실제 Atlanta 선수 총분 위에 더하지 않는다. Young·Huerter·Collins의 핵심 공로도 자동 축소하지 않는다.
 - G League는 지각의 직접 징계가 아니다. 직접 비용은 NBA 기회 상실이고, assignment는 그 뒤 경기 반복을 확보하는 별도 권한 결정이다.
 - 첫 NBA 착지 범위 재개 조건은 `control/NBA_LANDING_SCOPE_GATE.md`가 통제한다.
+
+## v0.27 Chicago·NBA assignment 작동 규칙
+
+- 주인공의 장기 NBA 팀은 Chicago다. 2018 실제 22순위는 최우선 후보지만 정확 순번은 `HOLD`다.
+- 주인공은 1라운드 rookie-scale NBA 계약자다. 투웨이 계약·G League 표준계약과 혼용하지 않는다.
+- Windy City 배정은 NBA 계약 해지나 징계가 아니다. 정확 날짜·경기 수는 Chicago player-game 원장에서 정한다.
+- 실제 Chandler Hutchison의 44경기·14선발을 주인공에게 복사하지 않고, 실제 선수 총분 위에 주인공 분을 더하지 않는다.
+- LaVine·Markkanen·Carter Jr.의 초기 기능을 보존한다. 단독 프랜차이즈는 기존 간판→공동 에이스→주인공 최우선 코어의 단계로만 성립한다.
+- Patrick Williams·Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine의 이후 픽·거래·계약은 주인공 성장 뒤 새 인과 원장을 통과해야 한다.
+- v0.15~v0.26 Atlanta 원장은 검증 방법과 폐기 분기 증거로만 보존하며 Chicago 활성 세계선에 수치나 관계를 복사하지 않는다.
 
 ## v0.16 광고·인맥 작동 규칙
 
