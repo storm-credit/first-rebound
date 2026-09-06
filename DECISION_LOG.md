@@ -320,5 +320,11 @@
 | D-312 | PICKS_8_TO_12_RETENTION_LEAN | Toppin·Avdija·Jalen Smith·Vassell·Haliburton 실제 지명을 팀별 근거로 유지 주안 처리 | 한 번의 최소 역사 변경 결정으로 묶어 자동 LOCK하지 않음 |
 | D-313 | HAYES_NEW_ORLEANS_13_PRIMARY_LEAN | New Orleans가 Killian Hayes를 13순위로 지명하는 안을 총괄 추천 | 실제 Kira 지명만으로 내부 head-to-head를 추정하지 않고 작가 승인 전 HOLD |
 | D-314 | NEXT_DISPLACED_PLAYER_FIREWALL | Hayes 13 선택 시 Kira를, Lewis 13 유지 시 Hayes를 Boston 14순위부터 재계산 | 이동 선수 삭제·후대 성과 역선택 금지 |
+| D-315 | AUTHOR_LOCK / PICKS_8_TO_13 | 2020 Draft 8~13순위를 Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes로 확정 | 실제 8~12 지명을 무검토 자동 보존한 것으로 쓰지 않음 |
+| D-316 | AUTHOR_LOCK / HAYES_NEW_ORLEANS_13 | New Orleans는 전체 13순위로 Killian Hayes를 지명 | 공개되지 않은 Hayes–Lewis 내부 head-to-head가 확인된 것으로 쓰지 않음 |
+| D-317 | KIRA_RELANDING_REQUIRED | Hayes에게 밀린 Kira Lewis Jr.를 Boston 14순위부터 재배열 | 실제 13순위 선수를 삭제하거나 모든 하류 선수를 자동 한 칸 이동하지 않음 |
+| D-318 | NESMITH_14_RETENTION_STRONG_LEAN | Boston은 Aaron Nesmith를 14순위에 유지하는 주안 | Kira의 consensus 순위보다 Ainge·Stevens의 직접 Nesmith 우선 근거를 반영, 작가 승인 전 HOLD |
+| D-319 | COLE_15_RETENTION_LEAN_AUTHOR_GATE | Orlando는 Cole Anthony를 15순위에 유지하는 안을 총괄 추천 | Kira와 Cole 모두 워크아웃했으며 공개 내부 비교가 없어 정확 선택 HOLD |
+| D-320 | PICK15_DISPLACED_PLAYER_FIREWALL | Cole 유지 시 Kira를, Kira 지명 시 Cole을 Detroit 통제 16순위부터 재계산 | 후대 성과 역선택·16순위 거래 구조 자동 보존 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

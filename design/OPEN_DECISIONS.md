@@ -289,3 +289,5 @@ O-15C7에서 작가 선택 A를 반영했다. Chicago는 2020 전체 4순위를 
 O-15E2에서 작가는 주 분기를 선택했다. 상위 4순위는 **가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 `AUTHOR_APPROVED / LOCKED`**다. Charlotte의 Edwards/Ball 내부 head-to-head가 공개되지 않았다는 자료 한계는 남지만, 반대 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 닫는다. 다음 작가 게이트는 Patrick Williams의 `Detroit 7순위 주안`과 `Atlanta 6순위 대안`이며 라이벌의 공격형·성격·신인 기록은 별도 HOLD다.
 
 O-15E3에서 작가는 **A Okoro 5 → Okongwu 6 → Patrick Williams 7**을 선택했다. 정확 1~7순위는 `AUTHOR_APPROVED / LOCKED`다. Hayes는 8~12순위 실제 지명 유지 주안을 거쳐 New Orleans 13순위가 새 작가 게이트다. 총괄은 Hayes 13을 추천하고 Kira Lewis 13 유지를 반대 분기로 보존한다.
+
+O-15E4에서 작가는 **A Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Killian Hayes 13**을 선택했다. 정확 1~13순위는 `AUTHOR_APPROVED / LOCKED`다. Hayes에게 밀린 Kira Lewis는 Boston 14순위부터 재판정하며, Boston Nesmith 14 유지 뒤 Orlando 15순위의 Cole 유지와 Kira 지명이 새 작가 게이트다. 총괄은 공개된 실제 구단 선호를 우선해 **Nesmith 14·Cole 15 유지**를 추천한다.

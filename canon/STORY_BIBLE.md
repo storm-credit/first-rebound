@@ -155,7 +155,8 @@
 - Golden State는 James Wiseman을 2순위, Charlotte는 Anthony Edwards를 3순위, Chicago는 LaMelo Ball을 4순위로 지명한다.
 - LaMelo의 후대 성과를 선지급하지 않는다. Coby White·LaVine과의 분·볼 소유·수비 비용은 2020-21 원장에서 다시 계산한다.
 - Cleveland는 Isaac Okoro를 5순위, Atlanta는 Onyeka Okongwu를 6순위, Detroit는 Patrick Williams를 7순위로 지명한다.
-- Patrick에게 밀린 Killian Hayes는 삭제하지 않는다. 8~12순위 실제 지명 유지와 New Orleans 13순위 Hayes 주안을 비교하는 하류 보드는 아직 `HOLD`다.
+- New York은 Obi Toppin 8순위, Washington은 Deni Avdija 9순위, Phoenix는 Jalen Smith 10순위, San Antonio는 Devin Vassell 11순위, Sacramento는 Tyrese Haliburton 12순위, New Orleans는 Killian Hayes 13순위로 지명한다.
+- Hayes에게 밀린 Kira Lewis Jr.는 삭제하지 않는다. Boston 14순위 Nesmith 유지 주안과 Orlando 15순위 Cole/Kira 선택은 아직 `HOLD`다.
 
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 

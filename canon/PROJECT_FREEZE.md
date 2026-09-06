@@ -679,3 +679,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 첫 활성 분기는 New Orleans 13순위다. Hayes 13순위를 `PRIMARY_LEAN / AUTHOR_GATE`, Kira Lewis Jr. 유지를 대안으로 둔다.
 - A Hayes 13이면 Kira를, B Lewis 13이면 Hayes를 Boston 14순위부터 다시 계산한다. 이 연쇄가 닫히기 전 Chicago 2020-21 roster·승패를 확정하지 않는다.
 - 상세 권위는 `simulation/2020_DRAFT_KILLIAN_HAYES_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_KILLIAN_HAYES_RELANDING_REVIEW.md`다.
+
+## v0.30 O-15E4 PARTIAL ADDITIONS — Killian Hayes New Orleans 13순위
+
+- 작가 선택 A를 반영해 **New York Obi Toppin 8 → Washington Deni Avdija 9 → Phoenix Jalen Smith 10 → San Antonio Devin Vassell 11 → Sacramento Tyrese Haliburton 12 → New Orleans Killian Hayes 13**을 `AUTHOR_APPROVED / LOCKED`로 둔다.
+- 이에 따라 2020 Draft 정확 1~13순위가 정본화됐다. New Orleans의 실제 Kira Lewis 13 유지분기는 `REJECTED_HISTORICAL_CONTINGENCY`다.
+- 공개되지 않은 New Orleans의 Hayes–Lewis 내부 head-to-head가 확인된 것으로 쓰지 않는다. 정확 선택은 작가가 당시 평가와 포인트가드 선택 의사를 함께 보존해 결정한 것이다.
+- Hayes에게 밀린 Kira Lewis Jr.는 삭제하지 않는다. Boston 14순위의 Aaron Nesmith는 Ainge·Stevens의 직접 평가 때문에 `RETENTION_STRONG_LEAN`이다.
+- 첫 활성 분기는 Orlando 15순위다. 실제 Cole Anthony 유지가 `RETENTION_LEAN / AUTHOR_GATE`, Kira 15순위가 contingency다.
+- A Nesmith 14·Cole 15 유지면 Kira를, B Nesmith 14·Kira 15면 Cole을 Detroit가 통제한 16순위부터 재판정한다. 이 연쇄가 닫히기 전 Chicago 2020-21 roster·승패를 확정하지 않는다.
+- 상세 권위는 `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_KIRA_LEWIS_RELANDING_REVIEW.md`다.

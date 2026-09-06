@@ -1,6 +1,6 @@
 # 2020 Draft Killian Hayes Relanding Board
 
-- 상태: `PICKS_8_TO_13_SEQUENTIAL_PASS / HAYES_13_PRIMARY_LEAN / AUTHOR_GATE`
+- 상태: `AUTHOR_APPROVED / PICKS_8_TO_13_LOCKED / HAYES_13_LOCKED`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 → Okoro 5 → Okongwu 6 → Patrick 7`
 - 이동 선수: 실제 Detroit 7순위 Killian Hayes
 - 원고 게이트: `CLOSED`
@@ -15,7 +15,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - 그러나 실제 지명 뒤 Leon Rose는 Toppin을 구단이 매우 원한 상위 보드 선수라고 밝혔다.
 - 드래프트 전에도 Toppin이 8번에 남으면 New York이 지명할 가능성이 매우 높다는 동시대 보도가 있었다.
 
-판정: `Obi Toppin RETENTION_STRONG_LEAN`. Hayes의 포지션 필요만으로 구단의 강한 Toppin 선호를 지우지 않는다.
+판정: `Obi Toppin AUTHOR_APPROVED / LOCKED`. Hayes의 포지션 필요만으로 구단의 강한 Toppin 선호를 지우지 않는다.
 
 ## 3. Washington 9순위 — Deni Avdija 유지 주안
 
@@ -23,7 +23,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - Tommy Sheppard는 Avdija를 16세 무렵부터 추적했으며, 당시 Wall 복귀를 전제로 Avdija의 secondary creation과 포워드 기능을 선택했다.
 - Hayes도 Washington의 사전 검토 대상이었지만 Avdija의 낙폭 가치와 장기 관찰을 뒤집을 공개 내부 비교는 없다.
 
-판정: `Deni Avdija RETENTION_STRONG_LEAN`.
+판정: `Deni Avdija AUTHOR_APPROVED / LOCKED`.
 
 ## 4. Phoenix 10순위 — Jalen Smith 유지 주안
 
@@ -31,7 +31,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - James Jones는 Smith를 팀의 best fit이라고 설명했고, 4/5번 길이·리바운드·공간 기능을 구체적으로 들었다.
 - Smith는 consensus보다 이른 지명이었으므로 단순 BPA 유지로 보지는 않는다. 다만 그 reach 자체가 Phoenix의 의도적인 fit 선택 증거다.
 
-판정: `Jalen Smith RETENTION_LEAN`.
+판정: `Jalen Smith AUTHOR_APPROVED / LOCKED`.
 
 ## 5. San Antonio 11순위 — Devin Vassell 유지 주안
 
@@ -39,7 +39,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - Vassell은 장기 관찰한 슈팅·수비 윙이며, San Antonio에는 Dejounte Murray·Derrick White·Lonnie Walker가 있었다.
 - Hayes의 당시 상위 평가를 무시하지 않지만 가드 중복과 구단의 Vassell 평가를 뒤집을 직접 자료가 없다.
 
-판정: `Devin Vassell RETENTION_LEAN`.
+판정: `Devin Vassell AUTHOR_APPROVED / LOCKED`.
 
 ## 6. Sacramento 12순위 — Tyrese Haliburton 유지 주안
 
@@ -47,7 +47,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - 새 단장 Monte McNair는 Haliburton을 남은 최고 선수로 평가했다.
 - Fox와의 포지션 중복보다 슈팅·연결 패스·오프볼 공존성이 컸다. Hayes가 남아도 Haliburton 선호를 바꿀 직접 근거가 없다.
 
-판정: `Tyrese Haliburton RETENTION_STRONG_LEAN`.
+판정: `Tyrese Haliburton AUTHOR_APPROVED / LOCKED`.
 
 ## 7. New Orleans 13순위 — 첫 활성 분기
 
@@ -56,7 +56,7 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 - 당시 전체 prospect 평가는 대체로 Hayes를 Lewis보다 앞에 뒀다. Hayes는 더 큰 픽앤롤 창조자, Lewis는 속도와 하향 압박이 강한 가드였다.
 - 두 선수를 동시에 비교한 New Orleans 내부 보드는 공개되지 않았다.
 
-판정: **Killian Hayes 13순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`**.
+판정: **Killian Hayes 13순위 `AUTHOR_APPROVED / LOCKED`**.
 
 반대 분기는 Kira Lewis 13순위 유지다. 그 경우 Hayes는 Boston 14순위부터 다시 계산한다.
 
@@ -64,15 +64,15 @@ Patrick Williams가 Detroit 7순위로 이동했으므로 Hayes를 삭제하거�
 
 | 안 | 8~12순위 | New Orleans 13 | 새 이동 선수 | 판정 |
 |---|---|---|---|---|
-| **A** | 실제 지명 유지 | **Killian Hayes** | Kira Lewis Jr. | **총괄 추천** |
-| B | 실제 지명 유지 | Kira Lewis Jr. | Killian Hayes | Boston 14부터 재개 |
+| **A** | 실제 지명 유지 | **Killian Hayes** | Kira Lewis Jr. | **작가 승인 / 정본** |
+| B | 실제 지명 유지 | Kira Lewis Jr. | Killian Hayes | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — Hayes New Orleans 13순위**를 추천한다. 당시 평가와 New Orleans의 실제 포인트가드 선택 의사를 동시에 보존하기 때문이다. 정확 선택은 아직 정본이 아니다.
+O-15E4 작가 선택으로 **A — Hayes New Orleans 13순위**를 정본화한다. 당시 평가와 New Orleans의 실제 포인트가드 선택 의사를 함께 보존하되, 공개되지 않은 Hayes–Lewis 내부 비교가 새로 확인된 것으로 쓰지 않는다.
 
 ## 9. 다음 경계
 
-1. 작가가 A/B를 선택한다.
-2. A라면 Kira Lewis를 Boston 14순위부터, B라면 Hayes를 Boston 14순위부터 재판정한다.
+1. Hayes에게 밀린 Kira Lewis를 Boston 14순위부터 재판정한다.
+2. Kira의 새 팀에서 밀려난 선수를 같은 방식으로 이어서 계산한다.
 3. 변경 선수가 안정된 뒤에만 Chicago 2020-21 roster·player-game 원장을 시작한다.
 
 ## 10. 출처
