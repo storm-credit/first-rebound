@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15 Chicago 원클럽 프랜차이즈 착지 재개방과 2018 Draft 22~60 인과 재계산`
 - 최근 설계 변경: `Chicago one-club franchise direction + protagonist East/rival West LOCKED; exact pick/team ledger HOLD`
-- 최근 정본 병합: `PR #56 / a179280`
-- 최근 설계 병합: `PR #58 / 113b384`
+- 최근 정본 병합: `PR #60 / 2dff7e2`
+- 최근 설계 병합: `PR #60 / 2dff7e2`
 
 ## 완료
 
