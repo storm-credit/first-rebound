@@ -271,3 +271,14 @@
 - central BASE 세 계열: 21~22승·Chicago lottery seed 7 공통
 - 총괄 추천: exact 21~22 HOLD, seed 7·실제 4순위 외부 사건만 유지, Patrick 보드 재개방
 - 다음 조사: 작가가 lottery packet A~D를 선택한 뒤 2020 정확 pick/Patrick 팀보드 또는 추가 fixed draw
+
+### R15.15 Chicago 2020 전체 4순위 조건부 팀보드
+
+- 작가 선택: lottery packet A — exact 21~22승 HOLD, seed 7·1순위 7.5%·실제 전체 4순위 사건 LOCK
+- 팀보드: `simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md`
+- 원장: `simulation/CHICAGO_2020_PICK4_CONDITIONAL_BOARD.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2020_PICK4_BOARD_BLINDSPOT_REVIEW.md`
+- 당시 정보: 실제 top 3 유지 조건에서 Haliburton > Avdija > Williams > Vassell > Okoro
+- 핵심 교정: 2020 1순위급 가상 라이벌 때문에 실제 Edwards·Wiseman·Ball의 1~3순위 자동 보존 불가
+- 판정: `CONDITIONAL_BOARD_PASS / RIVAL_UPSTREAM_BLOCKER / EXACT_PICK_HOLD`
+- 다음 조사: 라이벌 2020 서부 착지 4안과 1~3순위 팀보드·밀려난 실존 선수 경로
