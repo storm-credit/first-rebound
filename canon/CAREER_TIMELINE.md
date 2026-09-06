@@ -1,6 +1,6 @@
-# Career Timeline Canon v1.0
+# Career Timeline Canon v1.1
 
-- 상태: `PARTIAL_CANON / NBA_ASCENSION_DIRECTION_LOCKED / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
+- 상태: `PARTIAL_CANON / NBA_ASCENSION_DIRECTION_LOCKED / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
 
@@ -14,7 +14,7 @@
 
 ## LOCKED 경로 분리
 
-- 주인공은 한국 고1을 마친 뒤 2016년 3월 가상 뉴잉글랜드 보딩 프렙으로 이동한다. 한국 네 학기와 미국 세 학기를 합친 7학기 과정으로 2017년 5~6월 조기졸업하고, 2017-18 Villanova에서 NCAA 한 시즌을 보낸 뒤 2018 NBA Draft 전체 30순위로 Atlanta에 진입한다.
+- 주인공은 한국 고1을 마친 뒤 2016년 3월 가상 뉴잉글랜드 보딩 프렙으로 이동한다. 한국 네 학기와 미국 세 학기를 합친 7학기 과정으로 2017년 5~6월 조기졸업하고, 2017-18 Villanova에서 NCAA 한 시즌을 보낸 뒤 2018 NBA Draft를 통해 Chicago에 진입한다. 실제 22순위는 최우선 후보지만 정확 순번은 HOLD다.
 - 라이벌은 한국 고교에 남아 2017년 9월 후보창에 오른쪽 무릎 ACL 완전파열을 입고 10월 재건술을 받는다. 2018년 가을 Gonzaga에 입학해 공식 경기 0회 레드셔츠로 재활한 뒤 2019-20 복귀를 증명하고 2020 NBA Draft에 진입한다.
 - 주인공의 대학 시즌은 보호받는 천재의 쇼케이스가 아니라 학업·생활·로테이션 경쟁을 처음 견디며 또래 집단과 소속을 얻는 단계다.
 - 라이벌의 부상은 주인공을 먼저 보내기 위한 시간 정지 장치가 아니라, 재활과 복귀를 통해 완성형 천재의 약점을 드러내는 비용이어야 한다.
@@ -28,8 +28,8 @@
 | 2017.05~06 | 7학기 조기졸업·Villanova 늦은 체육장학금 영입 | 한국 고교 최종 과정·부상 전 Gonzaga 영입 평가 | 졸업창·영입 기능 LOCK / 정확 오퍼일 HOLD |
 | 2017.09~10 | Villanova 입학 준비 | 비접촉 오른쪽 ACL 완전파열→재건술 | 부위·월 LOCK / 경기·수술 세부 HOLD |
 | 2017-18 | Villanova 신입생, 후순위 로테이션에서 NCAA 우승 | 한국 고교 졸업·수술 뒤 기초 재활·미국 대학 진학 인증 | 대학 범위 COMPLETE / 라이벌 인증 HOLD |
-| 2018 | NBA Draft 30순위 Atlanta, 두 Summer League와 루키 개발 일정 유지, 아시안게임 불참 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학·ACL 재활, 아시안게임 불참 | NBA 경로·AG 불참 LOCK / 세부액·NLI·counter HOLD |
-| 2018-19 | Atlanta 루키 43경기·621.9분·Erie 6경기 assignment | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 주인공 분·배정 LOCK / 승패·라이벌 의료·counter HOLD |
+| 2018 | NBA Draft를 통해 Chicago 진입, 1라운드 표준계약·아시안게임 불참 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학·ACL 재활, 아시안게임 불참 | Chicago 팀·AG 불참 LOCK / 정확 순번·일정·NLI·counter HOLD |
+| 2018-19 | Chicago 후순위 윙/포워드 루키, Windy City 짧은 assignment 후보 | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 역할 기능 LOCK / 정확 경기·분·배정·승패 HOLD |
 | 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
 | 2020 | NBA 성장기 | 합의 1순위급 후보로 Draft | 실제 지명 팀·순번·보드 R09 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
@@ -37,9 +37,9 @@
 ## NBA 상승 방향 — LOCKED / 정확 배정 HOLD
 
 - 주인공은 NBA에서 매 시즌 이전 약점에 대한 새 카운터를 증명하며 수비·리바운드 자원에서 공격 1옵션 투웨이 슈퍼스타로 상승한다.
-- 3년차부터 공격 성장의 가시적 보상이 필요하고, 5년차에는 공동 에이스 권한을 요구할 수 있는 표본이 있어야 한다. 정확한 분·사용률·기록은 Atlanta 거래 연쇄 재계산 전까지 HOLD다.
+- 3년차부터 공격 성장의 가시적 보상이 필요하고, 5년차에는 공동 에이스 권한을 요구할 수 있는 표본이 있어야 한다. 정확한 분·사용률·기록은 Chicago 거래 연쇄 재계산 전까지 HOLD다.
 - 전성기에는 리그 최고 선수 논쟁과 시대 지배가 가능하지만 정확한 팀·우승·수상·결말 연도는 잠그지 않는다.
-- 기존 `Atlanta 5시즌=저사용 연결자→두 번째 팀에서 S급` 배정은 계산 이력으로 보존하되 현행 방향과 충돌하므로 재개방한다.
+- 기존 `Atlanta 5시즌=저사용 연결자→두 번째 팀에서 S급` 배정은 폐기 분기 계산 이력으로만 보존한다. 현행 방향은 Chicago 원클럽 프랜차이즈 상승이다.
 - 연차별 기능 후보의 상세 권위는 `design/PROTAGONIST_ASCENSION_DOMINANCE_MODEL.md`다.
 
 ## Villanova 2017-18 관계 기능
@@ -95,16 +95,16 @@
 
 - 주인공은 2018년 달력연도에 만 19세가 되는 1999년생으로 둔다.
 - 미국 프렙 졸업창은 2017년 5~6월로 잠그며, 정확한 졸업일·한 시즌 경과 요건·조기진입 선언일은 당시 CBA·NCAA 원문으로 재검증한다.
-- Atlanta가 전체 30순위에서 지명하고 1라운드 NBA rookie-scale 계약을 체결한다. 투웨이 계약은 아니다.
-- 실제 30순위 Omari Spellman은 San Antonio 49순위로 이동한다. 신인 역할 기준은 Metu의 29경기·145.4분·0선발이며 정확한 경기별 분은 R09 HOLD다.
-- 루키 NBA 역할은 43경기·621.9분·평균 14.46분·0선발이다. Erie는 2018년 12월 7~22일 6경기·24~30분 안전선이며 정확한 G League 개인 박스스코어는 HOLD다.
-- 깊은 NBA 관계는 Trae Young·Kevin Huerter·John Collins 세 명으로 제한한다.
-- NBA 재발은 2018년 11월 19일 밤샘 게임 뒤 아침 영상·컨디셔닝 지각→예정 14.1분 로테이션 기회 상실이다. 12월 7~22일 Erie 배정은 별도의 개발 결정이다.
+- Chicago가 1라운드 후반에서 지명하고 NBA rookie-scale 계약을 체결한다. 투웨이 계약은 아니다. 실제 22순위가 최우선 후보지만 정확 순번은 팀 보드·워크아웃과 22~60 재판정 전까지 HOLD다.
+- 실제 22순위 Chandler Hutchison의 존재를 삭제하지 않는다. 변경 팀·순번과 이후 경력은 22~60 드래프트 보드에서 다시 계산한다.
+- 실제 Hutchison의 44경기·14선발은 donor 관측치일 뿐 주인공 기록이 아니다. Chicago 루키 경기·분·선발과 Windy City 배정은 player-game 원장 전까지 HOLD다.
+- Chicago의 깊은 NBA 관계는 최대 세 명으로 제한하되 LaVine·Markkanen·Carter Jr. 등을 로스터·성장 기능으로 비교한 뒤 선택한다.
+- NBA 재발은 밤샘 게임 뒤 아침 영상·컨디셔닝 지각→예정된 로테이션 기회 상실 기능만 유지한다. 정확 날짜·상대·분과 Windy City 배정은 별도 개발 결정으로 재계산한다.
 - 정확한 생일·졸업일·입학 등록일·장학금 서명일·계약 액수는 HOLD다. 2018 Summer League·대표팀 충돌은 검증을 마쳤으며 주인공의 아시안게임 불참으로 해소한다.
 
 ## 국가대표·병역 안전선
 
-- 2018 주인공은 Atlanta의 Utah·Las Vegas Summer League와 루키 개발 일정에 남는다. 라이벌은 ACL 재활 중이다. 두 선수 모두 Jakarta 아시안게임에 참가하지 않으며 한국의 실제 동메달을 유지한다.
+- 2018 주인공은 Chicago의 Summer League와 루키 개발 일정에 남는다. 라이벌은 ACL 재활 중이다. 두 선수 모두 Jakarta 아시안게임에 참가하지 않으며 한국의 실제 동메달을 유지한다. 정확 구단 일정은 Chicago 착지 원장에서 재검증한다.
 - 두 사람은 2023 Hangzhou 아시안게임 공동 도전을 선택한다. 같은 유니폼은 2018이 아니라 이 시점에 회수한다.
 - 2023 실제 한국 성적 7위는 기준선일 뿐, 두 선수 투입 뒤 결과는 자동으로 금메달이 되지 않는다. 최종 12인·실제 출전·모든 경기와 대진을 R09에서 재계산한다.
 - 아시안게임 참가에는 NBA 소속팀 허가·보험·의료자료가 필요하며 결선은 NBA 캠프 개막과 겹친다.
@@ -135,12 +135,12 @@
 - 2017-18 Villanova 개별 과목 자격 환산·정확한 입학 판단·장학금 counter·아마추어리즘
 - 실제 포워드 로테이션에 주인공이 들어갈 때의 정확한 기록·승패 파급
 - Texas Tech전 정확한 개인 분·기록
-- 주인공의 2018 Draft 선언·Atlanta 워크아웃·계약 세부와 Spellman의 Spurs 경기별 분
+- 주인공의 2018 Draft 선언·Chicago 워크아웃·정확 지명 순번·계약 세부와 Hutchison의 변경 팀·순번
 - 라이벌의 정확한 부상 경기·수술일·graft·의료 clearance
 - 라이벌의 NCAA 개별 학업 인증·Gonzaga NLI·장학금 counter·2019-20 기록
 - 2023 두 선수의 NBA 소속팀·구단 허가·보험·캠프 결장 일정
 - 2023 대표팀 최종 12인·경기별 기록·대진·메달 결과와 예술체육요원 편입 성립
-- Atlanta/Erie 루키 개인 박스스코어·승패 영향. NBA 43경기·621.9분·0선발, 2018-11-19 상실 경기, 2018-12-07~22 Erie 6경기 배정은 LOCK
+- Chicago/Windy City 루키 개인 박스스코어·승패 영향·자기관리 상실 경기·배정 일정은 새 player-game 원장 전까지 HOLD. 과거 Atlanta 43경기·621.9분·Erie 6경기는 비활성 분기 기록
 - 2019-20부터 은퇴까지의 정확한 팀·계약·전성기·우승창·쇠퇴·은퇴 연표 — `design/NBA_LONG_RANGE_CAREER_OPTIONS.md` 작가 선택 HOLD
 - 2019 코비 훈련의 실제 접근 경로와 날짜
 - PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정
