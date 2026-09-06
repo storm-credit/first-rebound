@@ -1,4 +1,4 @@
-# Project Freeze v0.27
+# Project Freeze v0.28
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -524,3 +524,26 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2021 Vučević·DeRozan·Lonzo·Caruso·Markkanen 거래·계약 연쇄
 - LaVine의 잔류/이별과 공동 에이스에서 프랜차이즈 승계까지의 공정한 역할
 - 라이벌의 2020 서부 팀·순번·베테랑 관계
+
+## v0.28 PARTIAL ADDITIONS — 2018 Draft 팀보드·연쇄 재판정
+
+- 드래프트 설계 순서는 **가상 선수 프로필→실제 기준선→순번별 삽입→가능안끼리 서사 비교→나비효과 폐쇄→정본 승격**으로 잠근다.
+- Golden State 28의 Chandler Hutchison 선택은 당시 즉시 투입 가능한 다목적 수비 윙 요구에 맞아 `TEAM_BOARD_PASS / DRAFT_NIGHT_PRIMARY_CANDIDATE`다. 정확 착지는 아직 `HOLD`다.
+- Portland 24는 Anfernee Simons의 두 차례 워크아웃과 최고 상한 선택 원칙을 우선해 `SIMONS_KEEP_LEAN`; Hutchison은 반증용 contingency로 둔다.
+- Golden State가 28에서 Hutchison을 택할 경우 Jacob Evans의 첫 후속 착지는 Portland 37이 현행 `PRIMARY_LEAN`이다. Detroit 42와 Orlando 43은 후순위 대안이며 전부 정본이 아니다.
+- Portland 37 Evans가 성립하면 Gary Trent Jr.의 첫 포획은 Lakers 39가 `PRIMARY_LEAN`, Detroit 42가 대안, Lakers 47이 하한선이다. Lakers는 드래프트 전날 39순위 픽 자체의 거래에 합의했으므로 거래 구조는 PASS지만 내부 선호 증거 전 LOCK하지 않는다.
+- `Trent 39→Bonga 44 Washington→Sanon 미지명/Olimpija`가 현행 주 후보 사슬이다. San Antonio 49는 LOW, Charlotte 55는 같은 기능의 대안이며 Tony Carr 51은 유지 STRONG이다. 이 지점에서 드래프트 보드 경계는 PASS지만 정확 결과는 정본이 아니다.
+- 2019 Spellman–Damian Jones 거래는 복원 가능, 2020 Russell–Wiggins 거래는 계약 구조 PASS·정확 Hutchison 자산 HOLD다.
+- Portland에 Trent가 없으므로 2021 Powell–Trent 거래는 원형 불성립이며 `NO_TRADE_BASELINE`부터 다시 계산한다.
+- Bonga가 Lakers에 없더라도 Trent가 같은 3년 최소급 구조를 받으면 2019-20 급여가 $1,416,852로 같아 2019 Anthony Davis 거래의 cap mechanics는 복원 가능하다. Trent의 Washington 이동과 2021 RFA·Chicago 거래 파급은 다시 계산한다.
+- 이 v0.28은 Chicago 원클럽·동서부 라이벌 방향을 변경하지 않는다. 주인공의 정확 22순위, 신체 수치, 루키 분·기록은 계속 `HOLD`다.
+
+## v0.28 RESEARCH_HOLD
+
+- Lakers의 39순위 내부 보드에서 Trent 대 Bonga 선호
+- Trent 39 Lakers 대 42 Detroit 최종 팀보드
+- Lakers의 Trent/Bonga·Washington의 익명 선호 반증과 Sanon 49/55 대안
+- 2019 Anthony Davis 거래로 Washington에 이동한 Trent의 역할·2021 RFA·Chicago 거래 파급
+- Trent 부재 시 2021 Portland–Toronto 거래와 Norman Powell 행선지
+- Hutchison의 2020 역할·가치와 Russell–Wiggins 거래의 정확 보조 자산
+- Chicago 22부터 60까지 전체 연쇄의 인과 경계와 정확 지명 순번

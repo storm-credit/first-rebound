@@ -25,12 +25,21 @@ manuscript_allowed: false
 - 자기관리 재발 1개: 아침 영상·컨디셔닝 지각으로 NBA 기회 상실
 - G League가 징계가 아니라 후속 개발 배정이라는 권한 분리
 
+## v0.28 드래프트 연쇄 상태
+
+- Golden State 28 Hutchison: `TEAM_BOARD_PASS / DRAFT_NIGHT_PRIMARY_CANDIDATE / NOT_LOCKED`
+- Portland 24: `SIMONS_KEEP_LEAN / HUTCHISON_CONTINGENCY_ONLY`
+- Evans: Portland 37 `PRIMARY_LEAN`, Detroit 42·Orlando 43 대안
+- Trent: Lakers 39 `PRIMARY_LEAN / PICK_TRADE_STRUCTURE_PASS`, Detroit 42 대안, Lakers 47 하한선
+- Bonga 44 Washington `PRIMARY_LEAN`; Sanon 미지명/Olimpija `PRIMARY_LEAN`; San Antonio 49 LOW·Charlotte 55 대안; draft-board boundary `PASS`
+- 2019 AD 거래: `CAP_MECHANICS_RESTORE_PASS / TRENT_WASHINGTON_CASCADE`; 2021 Powell 거래: `ORIGINAL_BLOCKED`
+
 ## 닫기 조건
 
 다음을 모두 통과할 때 첫 NBA 착지 범위를 다시 닫는다.
 
 1. Villanova 저사용 선수가 22순위 후보가 되는 워크아웃·측정·팀 보드 근거.
-2. Hutchison 이동과 2018 Draft 22~60 재판정.
+2. Hutchison 이동과 2018 Draft 22~60 재판정. Lakers 내부 보드·Bonga/Sanon 팀보드·2019 AD·2021 Powell 거래까지 포함한다.
 3. Chicago 2018-19 player-game donor·정확 루키 분·Windy City 배정.
 4. Hoiberg→Boylen 체제의 역할과 자기관리 기회 상실 날짜.
 5. 깊은 관계 세 명과 LaVine 공존 기능.

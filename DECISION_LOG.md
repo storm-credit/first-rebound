@@ -229,5 +229,20 @@
 | D-221 | ARCHIVED_ATLANTA_REGISTER | D-119~157의 Atlanta 주인공·Spellman Spurs·Metu·Spalding·Erie·805분 결과는 비활성 대안 분기 증거 | D-114~116 드래프트 인과 일반 원칙과 D-137 조건부 확장 방법은 활성 유지; Chicago 수치로 복사 금지 |
 | D-222 | TRANSACTION_BLOCKER | Evans 43 Orlando 후보는 Detroit 38/42와 Orlando–Denver 41↔43 거래·Orlando 계약 자리를 먼저 통과해야 함 | 건강한 Evans를 실제 부상 중 Jackson의 무계약 draft-rights 경로에 복사 금지 |
 | D-223 | MANDATORY_CASCADE | Chicago가 22순위에서 주인공을 택하면 Hutchison이 Bulls에 없으므로 2021 Chicago–Washington–Boston 3팀 거래는 어떤 후속 착지에서도 재계산 | Gafford·Troy Brown Jr.·Theis·Javonte Green 행선지를 선택적으로 보존 금지 |
+| D-224 | DRAFT_METHOD_LOCK | 가상 선수 프로필→실제 드래프트 기준선→순번별 삽입→가능안끼리 서사 비교→나비효과 폐쇄→정본 승격 순서를 사용 | 팀을 먼저 정하고 능력을 맞추거나 실제 역사를 보존 목표로 삼는 오류 금지 |
+| D-225 | PARTIAL_SUPERSEDE_D216 | Golden State 28 Hutchison을 `TEAM_BOARD_PASS / DRAFT_NIGHT_PRIMARY_CANDIDATE`로 올리되 정확 착지는 계속 HOLD, Portland 24는 contingency로 하향 | Evans 직접 검증은 반증으로 유지하고 미래 성과는 판정 근거에서 제외 |
+| D-226 | SUPERSEDES_D217_PRIMARY | Evans의 첫 후속 착지는 Portland 37을 `PRIMARY_LEAN`, Detroit 42를 2순위, Orlando 43을 3순위로 둠 | Portland 워크아웃·37순위 권리 취득을 누락한 초기 경로 교정; 전부 NOT_CANON |
+| D-227 | CASCADE_PRIMARY_LEAN | Portland 37 Evans가 성립하면 Gary Trent Jr.는 Lakers 39를 1차, Detroit 42를 대안, Lakers 47을 하한선으로 둠 | Lakers 직접 워크아웃 근거, 39순위 Bonga 거래의 선수 특정성 확인 전 LOCK 금지 |
+| D-228 | SECONDARY_CASCADE_LEAN | Trent 39일 때 Bonga 44 Washington→Sanon 51 New Orleans→Tony Carr 미지명/해외를 후속 후보 사슬로 등록 | Washington·New Orleans 내부 보드 반증 전 전부 NOT_CANON, Carr의 Pelicans 권리 자동 보존 금지 |
+| D-229 | TRANSACTION_RESTORE_PASS | Golden State 28 Hutchison 분기에서도 2019 Spellman–Damian Jones 거래는 기능·자산 기준 복원 가능 | Hutchison 윙 추가가 hard-cap 절감과 스트레치 4/5 필요를 제거하지 않음 |
+| D-230 | CAP_PASS_ASSET_HOLD | 2020 Russell–Wiggins 거래의 계약·세금 구조는 생존 가능하나 Evans 자리를 Hutchison이 같은 가치로 자동 대체하지 않음 | Hutchison의 2020 역할·시장가치에 따라 정확 보조 자산 재계산 |
+| D-231 | ORIGINAL_TRADE_BLOCKED | Portland에 Trent가 없으면 2021 Powell–Trent 거래는 원형 불성립, `NO_TRADE_BASELINE`에서 재개 | Evans·Simons를 Trent의 젊은 득점/RFA 자산으로 자동 치환 금지 |
+| D-232 | MANDATORY_CASCADE | Bonga가 Lakers 39에서 이동하면 2019 Anthony Davis 거래의 급여 정리·Washington 3팀 구성을 재계산 | Trent 또는 다른 선수를 Bonga의 자리에 자동 삽입 금지 |
+| D-233 | TRADE_STRUCTURE_PASS | Lakers–Philadelphia는 2018-06-20에 39순위 픽 자체의 거래를 합의했고 Philadelphia가 Lakers 지시에 따라 지명하는 구조였으므로 Bonga 법적 특정 blocker를 해소 | Lakers 내부 보드에서 Bonga보다 Trent를 앞세웠다는 뜻은 아니므로 Trent 39는 PRIMARY_LEAN 유지 |
+| D-234 | BONGA_44_PRIMARY_LEAN | Washington은 Sanon 지명 뒤 그보다 앞에서 좋아한 선수들이 있었다고 밝혔고 Bonga는 실제 39순위 국제 장기 개발자였으므로 44순위 첫 재판정 후보 | 좋아한 선수가 Bonga였다는 직접 증거는 없어 TEAM_BOARD_LOCK 금지 |
+| D-235 | PARTIAL_SUPERSEDE_D228 | D-228의 Sanon 51 New Orleans 자동 포획을 철회하고 Tony Carr 유지 LEAN·Sanon 52~60/미지명 유럽 경로 재개방 | Pelicans가 Carr의 사이즈·슛·양 가드 기능을 구체적으로 평가했으므로 단순 stash 기능 치환 금지 |
+| D-236 | AD_TRADE_CAP_RESTORE_PASS | Lakers 39 Trent가 실제와 같은 3년 최소급 구조를 받으면 2019-20 급여 $1,416,852가 Bonga와 같아 Wagner+Trent+Jones로 AD 3팀 거래의 salary matching 복원 가능 | Trent의 Washington 이동·2021 RFA·Chicago 3팀 거래 파급은 새로 계산하며 선수 가치 자동 동일시 금지 |
+| D-237 | SANON_UNDRAFTED_PRIMARY_LEAN | Bonga가 Washington 44를 차지하면 Sanon의 45~60 1차 결과는 미지명 뒤 Olimpija 잔류 | 동시대 평가는 30번대~63위로 분산, 45~60 팀은 더 구체적 타깃 보유; San Antonio 49 LOW·Charlotte 55 same-function 대안 |
+| D-238 | DRAFT_BOARD_BOUNDARY_PASS | Sanon이 미지명 뒤 기존 유럽 계약에 남고 NBA draft rights가 생기지 않는 지점을 2018 Draft 보드 연쇄의 인과 경계로 인정 | 2019 AD·2020 Russell–Wiggins·2021 Washington/Chicago·Powell 거래 연쇄는 별도 OPEN이며 정확 22순위 LOCK은 계속 차단 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

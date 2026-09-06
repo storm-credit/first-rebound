@@ -163,8 +163,23 @@
 - 보드 원장: `simulation/2018_DRAFT_22_60_REOPEN.md`
 - 판정: `CHICAGO_22_CONDITIONAL_PASS / CAUSAL_BRANCH_REOPENED / EXACT_PICK_HOLD`
 - 확인: Chicago 실제 22순위 윙 수요, Hutchison 실제 선택, 후순위 대학 로테이션 선수가 reach로 22순위에 오르기 위한 측정·영상·Combine·워크아웃 조건
-- 보드 비교: Golden State 28은 당시 즉시 수비·다목적 윙 필요로 1순위 LEAN. Portland 24는 대안이며 Simons의 31·35·37 연쇄를 연다.
-- 필수 하류: Evans의 Detroit 38·42·Orlando–Denver 41↔43·Orlando 계약, 2020 Russell–Wiggins, 2021 Chicago–Washington–Boston 거래
+- 보드 비교 당시 판정은 Golden State 28 `PRIMARY_LEAN`, Portland 24 대안이었다. R15.7이 Golden State를 `TEAM_BOARD_PASS`, Portland를 contingency로 갱신했다.
+- 필수 하류의 현행 권위는 R15.7이다. Portland 37 Evans와 Lakers 39 Trent를 먼저 통과하고 2019 AD·2020 Russell–Wiggins·2021 Powell·Chicago 3팀 거래를 재계산한다.
 - 교정: 실제 역사 최소훼손을 목표함수로 삼지 않는다. 당시 팀 보드와 필요를 우선하고 변경 비용은 결과로 수용한다.
 - HOLD: 정확 Chicago 22, 신체 수치, Chicago 비공개 워크아웃 결과, Hutchison 첫 착지와 후속 계약·거래
-- 다음 조사: 두 분기의 동시대 선택 확률·하류 거래를 비교한 뒤 Chicago 2018-19 player-game으로 이동
+- 다음 조사: R15.7의 거래 blocker를 닫은 뒤 Chicago 2018-19 player-game으로 이동
+
+### R15.7 Hutchison–Evans–Trent 후속 보드
+
+- 팀보드 감사: `research/2018_HUTCHISON_24_28_TEAM_BOARD.md`
+- Evans 연쇄: `simulation/2018_DRAFT_28_43_EVANS_CASCADE.md`
+- Trent 연쇄: `simulation/2018_DRAFT_37_60_TRENT_CASCADE.md`
+- 독립 검토: `reviews/R02_3X_CHICAGO_DRAFT_CASCADE_REVIEW.md`
+- 판정: `DRAFT_BOARD_PASS / TRANSACTION_CASCADE_OPEN / EXACT_PICK_BLOCKED_FOR_LOCK`
+- 주 후보: Golden State 28 Hutchison→Portland 37 Evans→Lakers 39 Trent
+- 2차 후보: Washington 44 Bonga→Sanon 미지명/Olimpija; San Antonio 49 LOW·Charlotte 55 대안, Tony Carr 51 유지 STRONG
+- 거래 판정: 2019 Spellman–Jones 복원 PASS, 2019 AD cap mechanics 복원 PASS·Trent Washington 파급 HOLD, 2020 Russell–Wiggins 계약 구조 PASS·자산 HOLD, 2021 Powell–Trent 원형 불성립
+- 해소: Lakers–Philadelphia는 드래프트 전날 39순위 픽 자체의 거래에 합의해 Bonga 법적 특정 blocker 해소
+- 해소: Sanon 45~60 전수 보드 뒤 미지명/Olimpija를 주 결과로 두고 2018 Draft 보드 연쇄 경계 PASS
+- 새 blocker: Lakers의 Trent 대 Bonga 내부 선호, Washington 익명 선호, Washington Trent의 2021 RFA·Chicago 거래
+- 다음 조사: Washington Trent 2021→Portland Powell 대안 행동 순

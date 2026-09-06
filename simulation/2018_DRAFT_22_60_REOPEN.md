@@ -1,6 +1,6 @@
 # 2018 Draft Picks 22-60 Reopen
 
-- 상태: `CAUSAL_PLAUSIBILITY_REOPENED / CASCADE_HOLD`
+- 상태: `GOLDEN_STATE_28_BOARD_PASS / TRENT_39_PRIMARY_LEAN / TRANSACTION_CASCADE_HOLD`
 - 기준일: 2026-09-06
 - 인과 시작 후보: Chicago 22순위 주인공
 - 원고 게이트: `CLOSED`
@@ -25,8 +25,8 @@
 | 순번 | 팀 | 판정 | 이유 |
 |---:|---|---|---|
 | 23 | Indiana | `PLAUSIBLE / BLOCKER` | 당시 약속 팀 소문은 있었으나 실제 Holiday를 잠재적 선발·Oladipo 보완으로 평가한 공식 근거가 강함 |
-| 24 | Portland | `PLAUSIBLE_B / CASCADE_OPEN` | 당시 Hutchison 예상과 윙 필요가 존재. 다만 실제 Simons를 최고 상한으로 고른 팀 보드와 충돌 |
-| 28 | Golden State | `TEAM_BOARD_PRIMARY_LEAN / CASCADE_OPEN` | 실제 즉시 10분을 기대한 성숙한 수비·다목적 윙을 원했고 공식 목에서도 Hutchison 28 전망 존재. 단 Evans 후속 보드는 미폐쇄 |
+| 24 | Portland | `CONTINGENCY_ONLY / SIMONS_KEEP_LEAN` | 당시 Hutchison 예상과 윙 필요는 존재하나, Simons를 두 번 검증하고 최고 상한으로 택한 실제 내부 신호가 더 강함 |
+| 28 | Golden State | `TEAM_BOARD_PASS / CASCADE_OPEN` | 실제 즉시 10분을 기대한 성숙한 수비·다목적 윙을 원했고 공식 목에서도 Hutchison 28 전망 존재. 정확 착지는 후속 연쇄 전 HOLD |
 | 29 | Brooklyn | `SECONDARY_HOLD` | 29 전망은 있으나 Musa·Kurucs 장기 추적 논리가 강함 |
 | 30 | Atlanta | `PASS_LEAN` | Young·Huerter 뒤 실제 Spellman의 프런트코트 기능이 더 비중복 |
 | 35 | Orlando | `LAST_CLEAR_FIT` | 실제 같은 대형 윙 Frazier를 선택, 다만 Hutchison이 여기까지 밀릴 가능성은 낮음 |
@@ -37,7 +37,7 @@
 |---:|---|---|
 | 22 Chicago | 주인공 | `AUTHOR_DIRECTION / EXACT_PICK_HOLD` |
 | 23 Indiana | Aaron Holiday 유지 | `MEDIUM_HIGH_LEAN` |
-| 24 Portland | Chandler Hutchison | `PLAUSIBLE / TEAM_BOARD_BLOCKER` |
+| 24 Portland | Chandler Hutchison | `CONTINGENCY_ONLY / TEAM_BOARD_LEAN_LOSS` |
 | 25~30 | 실제 선택 우선, Atlanta 30 Spellman 복원 후보 | `PROVISIONAL` |
 | 31 Phoenix | Elie Okobo 유지 | `MEDIUM_HIGH_LEAN` — Phoenix는 Simons도 워크아웃했으나 실제로 더 준비된 프로 가드 Okobo를 선택·표준계약 |
 | 32~36 | 실제 선택 우선 | `PROVISIONAL` |
@@ -45,7 +45,7 @@
 | 37 Portland via Sacramento | Simons가 남을 때만 Gary Trent Jr. 대신 Simons | `CONDITIONAL` |
 | 38~60 | Frazier 또는 Trent 후속 착지 | `CASCADE_OPEN` |
 
-이 분기는 Hutchison을 빠르게 닫지만 Simons와 Gary Trent Jr. 연쇄를 새로 만든다. Portland가 실제로 24순위 Simons와 37순위 Trent 권리를 모두 확보했기 때문에 Hutchison 한 명만 바꾸고 두 가드를 실제대로 보존할 수 없다. 특히 Phoenix가 31순위에서 Simons를 다시 통과시켜도 Orlando 35순위가 새 blocker다. 이것은 안의 결격 사유가 아니라 계산해야 할 실제 비용이다.
+이 분기는 Hutchison을 빠르게 닫지만 Simons와 Gary Trent Jr. 연쇄를 새로 만든다. 더 중요한 것은 Portland가 Simons를 두 번 워크아웃하고 해당 구간 최고 상한으로 설명했다는 동시대 내부 신호다. 따라서 나비효과가 크기 때문이 아니라 **실제 팀 보드에서 Simons 유지가 우세하기 때문에** 현행 주 분기에서 내린다.
 
 ## 인과 분기 B — Golden State 28
 
@@ -53,14 +53,16 @@
 |---:|---|---|
 | 22 Chicago | 주인공 | `AUTHOR_DIRECTION / EXACT_PICK_HOLD` |
 | 23~27 | 실제 선택 유지 | `STRONG_LEAN` |
-| 28 Golden State | Chandler Hutchison | `TEAM_FIT_PASS / LANDING_LEAN` |
-| 29 Brooklyn | Dzanan Musa 유지 | `LEAN` |
+| 28 Golden State | Chandler Hutchison | `TEAM_BOARD_PASS / DRAFT_NIGHT_PRIMARY_CANDIDATE` |
+| 29 Brooklyn | Dzanan Musa 유지 | `MEDIUM_LEAN` |
 | 30 Atlanta | Omari Spellman 복원 | `STRONG_RESTORE_LEAN` |
-| 31~37 | 실제 선택 우선 | `PROVISIONAL` |
-| 38 Detroit | Jacob Evans III 대 Khyri Thomas | `BLOCKER` |
-| 42 Detroit | 38을 통과한 Evans 대 Bruce Brown | `SECOND_BLOCKER` |
-| 43 Orlando | Evans가 남았을 때 Justin Jackson 대체 후보 | `CONDITIONAL_ONLY` |
-| 44~60·미지명 | 밀린 선수의 후속 경로 | `CASCADE_HOLD` |
+| 31~36 | 실제 선택 유지 우세 | `PROVISIONAL_PASS` |
+| 37 Portland | Jacob Evans III가 Gary Trent Jr.보다 우세 | `PRIMARY_CAPTURE_POINT` — Evans 직접 워크아웃·24순위 후보 검토·37 권리 매입 |
+| 38 Detroit | Evans가 37을 통과한 대안에서 Khyri Thomas 유지 우세 | `SECONDARY_SCAN` |
+| 39 Lakers | Evans가 37을 통과한 대안의 새 blocker | `UNDERCOUNTED_BLOCKER` — Evans 직접 워크아웃·Bonga 권리 매입 |
+| 42 Detroit | Evans의 2순위 종착점 | `SECONDARY_CAPTURE_POINT` |
+| 43 Orlando | Evans의 3순위 조건부 종착점 | `TERTIARY_ONLY` |
+| 38~60·미지명 | 밀린 Gary Trent Jr.의 후속 경로 | `CASCADE_HOLD` |
 
 ### 왜 28에서 Hutchison인가
 
@@ -69,24 +71,26 @@
 - 실제 28순위 Evans와 마찬가지로 대학 고학년·윙 수비·연결 기능을 제공하므로 팀 필요를 새로 발명하지 않는다.
 - Hutchison의 실제 22순위 보장액을 그대로 복사하지 않고 28순위 rookie scale을 적용한다.
 
-### Evans 43 Orlando 후보와 반증
+### Evans 37 Portland 종착 후보와 반증
 
-- Orlando는 실제 35순위 Melvin Frazier Jr.와 43순위 Justin Jackson이라는 장신 윙 두 명을 확보했다.
-- Evans는 실제 28순위 평가, Combine 참가, 대학 3년의 수비·슈팅·연결 표본이 있어 43순위에서 Jackson보다 먼저 선택될 수 있다.
-- 35순위 Frazier는 7피트 1.5인치 윙스팬이라는 Orlando의 명시적 길이 선호와 실제 선택을 존중해 유지한다.
-- 그러나 Detroit는 38순위 권리를 추가로 사서 Khyri Thomas를, 42순위에서 Bruce Brown을 선택했고 당시 42순위 구간을 운동능력형 윙 시장으로 보았다. 실제 28순위급 Evans가 두 픽을 모두 통과한다고 단정할 수 없다.
-- 따라서 `Evans 43→Justin Jackson 미지명`은 가능한 끝점일 뿐 현행 PASS가 아니다. Jackson도 당시 Combine 참가자·실제 43순위였으므로 근거 없이 미지명으로 보내지 않는다.
+- Portland는 Evans를 직접 워크아웃했고 구단 목드래프트 정리에서도 24순위 후보로 반복 검토했다.
+- Portland는 37순위 권리를 얻기 위해 미래 2라운드 두 장과 현금을 지출했다. 예상 밖으로 남은 Evans를 Trent와 다시 비교할 적극적 선택 지점이다.
+- Trent의 40.2% 3점은 강한 반증이지만, Evans는 당시 후기 1라운드/초기 2라운드 평가와 다포지션 수비·보조 볼 운반 표본을 제공한다.
+- 따라서 `Evans 42 Detroit`는 2순위, `Evans 43 Orlando`는 3순위로 내리고 `Evans 37 Portland→Gary Trent Jr. 38~60 재개방`을 현행 주 계산선으로 둔다.
 
-Golden State 28 분기는 Portland 24보다 드래프트 앞단 변화가 늦지만, 그것만으로 더 우수하지 않다. Evans가 Detroit로 이동하면 Khyri Thomas·Bruce Brown 연쇄가 열리고, Hutchison이 Golden State에 있으면 2020 Russell–Wiggins 거래 패키지도 다시 계산해야 한다.
+Golden State 28 분기는 Portland 24보다 드래프트 앞단 변화가 늦지만, 그것은 선택 근거가 아니다. Hutchison이 Golden State의 2018 팀 보드에 맞는지가 선택 근거다. Evans는 Portland 37에서 멈추는 안이 가장 자연스럽고, 여기서 Gary Trent Jr.의 38~60 연쇄가 새로 열린다. Hutchison이 Golden State에 있으면 2020 Russell–Wiggins 거래 패키지도 다시 계산해야 한다.
 
 ## 드래프트 뒤 필수 나비효과
 
 | 사건 | 원인 | 현행 상태 |
 |---|---|---|
-| Orlando–Denver #41↔#43 권리 거래 | Evans가 43까지 남으면 Denver가 직접 선택할 유인과 Orlando의 거래 타깃이 달라짐 | `TRANSACTION_HOLD` |
-| Orlando 계약 자리 | 건강한 후기 1라운드급 Evans는 실제 부상 중 Jackson처럼 무계약 draft-rights 선수로 둘 수 없음 | `ROSTER_CONTRACT_BLOCKER` |
-| 2019 Atlanta Spellman–Golden State Damian Jones | Atlanta 30 Spellman 복원 시 거래 기준선은 살아나지만 새 로스터에서 재검증 필요 | `RESTORE_REVIEW_LEAN` |
-| 2020 Golden State–Minnesota Russell–Wiggins | Evans 대신 Hutchison의 계약·성장·부상·평가가 패키지와 세금 기능을 충족해야 함 | `CONDITIONAL_HOLD` |
+| Portland–Sacramento #37 권리 거래 | Portland의 능동적 매입 의사는 유지되며 선택 선수만 Trent에서 Evans로 바뀌는 주 분기 | `STRUCTURE_KEEP_LEAN` |
+| Portland 계약 자리 | Evans가 37에서 선택되면 1라운드 scale이 아닌 새 2라운드 표준계약 협상이 필요 | `CONTRACT_HOLD` |
+| Gary Trent Jr. 후속 시장 | Evans가 37을 차지하면 Trent를 38~60·미지명 계약 시장에서 재판정 | `MANDATORY_CASCADE` |
+| 2021 Portland–Toronto Powell 거래 | 실제 거래 자산 Trent가 Portland에 없으므로 원거래 불성립이 기본값 | `ORIGINAL_BLOCKED / NO_TRADE_BASELINE` |
+| 2019 Atlanta Spellman–Golden State Damian Jones | Atlanta 30 Spellman·Jones·2026 2라운드와 센터/하드캡 동기가 유지 | `RESTORE_PASS` |
+| 2020 Golden State–Minnesota Russell–Wiggins | 같은 28순위 scale로 계약·세금 구조는 성립, Hutchison의 새 가치·건강·분은 미확정 | `CAP_PASS / ASSET_HOLD` |
+| 2019 Lakers–New Orleans–Washington AD 거래 | Trent가 실제와 같은 3년 최소급 구조를 받으면 2019-20 Bonga와 같은 $1,416,852로 salary matching 복원 가능 | `CAP_RESTORE_PASS / TRENT_WASHINGTON_CASCADE` |
 | 2021 Chicago–Washington–Boston 3팀 거래 | 주인공이 Chicago 22를 차지하면 Hutchison이 Bulls에 없으므로 원거래 자산이 처음부터 부재 | `MANDATORY_RECALC` |
 
 2021 3팀 거래 변화는 Hutchison의 새 팀이 Portland인지 Golden State인지와 무관하다. Chicago 22 후보 자체에서 직접 발생하는 필수 나비효과다.
@@ -99,7 +103,7 @@ Hutchison이 23에서 닫히면 Portland는 Holiday와 Simons를 다시 비교�
 
 ### Golden State 28
 
-현행 팀보드 1순위 LEAN이다. 실제 역사 보존량이 아니라 Golden State가 공개적으로 원한 즉시 수비·다목적 윙 기능과 Hutchison의 당시 평가가 가장 직접 겹치기 때문이다. Evans의 Detroit 38/42 재평가와 2020 Golden State 거래까지 닫기 전 LOCK하지 않는다.
+현행 드래프트 나이트 1순위 후보이며 팀보드 개연성은 PASS다. 실제 역사 보존량이 아니라 Golden State가 공개적으로 원한 즉시 수비·다목적 윙 기능과 Hutchison의 당시 평가가 가장 직접 겹치기 때문이다. Evans의 Portland 37 착지 뒤 Gary Trent Jr. 38~60과 2020 Golden State 거래까지 닫기 전 LOCK하지 않는다.
 
 ### Orlando 35
 
@@ -121,9 +125,9 @@ Golden State 28 분기에서는 Hutchison이 30 이전에 닫히므로 Atlanta 3
 
 ## 다음 판정
 
-`CHICAGO_22_CONDITIONAL_PASS / GOLDEN_STATE_28_TEAM_BOARD_LEAN / CASCADE_BLOCKED_FOR_LOCK`
+`CHICAGO_22_CONDITIONAL_PASS / GOLDEN_STATE_28_TEAM_BOARD_PASS / EVANS_37_PRIMARY / TRENT_39_PRIMARY_LEAN / TRANSACTION_CASCADE_BLOCKED_FOR_LOCK`
 
-Golden State 28을 당시 팀보드 기준 총괄 1순위 LEAN, Portland 24를 대안으로 둔다. 전자는 Evans의 Detroit 38·42와 2020 Golden State 거래, 후자는 Simons의 Phoenix 31·Orlando 35·Portland 37 연쇄가 blocker다. 두 갈래를 결과 훼손량으로 고르지 않으며, 정확 22순위와 후속 보드는 LOCK하지 않는다.
+Golden State 28을 당시 팀보드 기준 PASS이자 드래프트 나이트 1순위 후보로 둔다. Portland 24는 Simons 유지가 우세한 반증 분기로 내린다. Evans는 Portland 37, Gary Trent Jr.는 Lakers 39가 현행 주 계산선이다. Bonga 후속 보드, Sanon 52~60, 2020 Golden State, 2021 Washington/Chicago·Powell 거래가 blocker다. 2019 AD 거래의 cap mechanics는 Trent의 동일 급여로 복원 가능하다. 결과 훼손량으로 분기를 고르지 않으며, 정확 22순위와 후속 보드는 LOCK하지 않는다.
 
 ## 공식 근거
 
@@ -140,3 +144,6 @@ Golden State 28을 당시 팀보드 기준 총괄 1순위 LEAN, Portland 24를 �
 - [Detroit Pistons — Khyri Thomas 38·Bruce Brown 42](https://www.nba.com/pistons/news/detroit-pistons-acquire-draft-rights-khyri-thomas-and-select-bruce-brown-jr-2018-draft)
 - [NBA — Russell–Wiggins 거래와 세금 파급](https://www.nba.com/news/dangelo-russell-traded-timberwolves-warriors)
 - [Chicago Bulls — 2021 Washington·Boston 3팀 거래](https://www.nba.com/bulls/news/bulls-complete-three-team-trade-wizards-celtics)
+- 세부 팀보드: `research/2018_HUTCHISON_24_28_TEAM_BOARD.md`
+- Evans 순차 원장: `simulation/2018_DRAFT_28_43_EVANS_CASCADE.md`
+- Trent 순차 원장: `simulation/2018_DRAFT_37_60_TRENT_CASCADE.md`
