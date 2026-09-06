@@ -34,13 +34,21 @@ manuscript_allowed: false
 - Bonga 44 Washington `PRIMARY_LEAN`; Sanon 미지명/Olimpija `PRIMARY_LEAN`; San Antonio 49 LOW·Charlotte 55 대안; draft-board boundary `PASS`
 - 2019 AD 거래: `CAP_MECHANICS_RESTORE_PASS / TRENT_WASHINGTON_CASCADE`; 2021 Powell 거래: `ORIGINAL_BLOCKED`
 
+## v0.30 루키 donor·배정 상태
+
+- 실제 Hutchison 894.6분 직접 슬롯과 시즌 종료 부상 뒤 33경기 donor를 분리한다.
+- Chicago 루키 역할선: `73경기·11선발·1,274:02·17.45분 / PROVISIONAL_LOCK`
+- 자기관리 후보: 2018-12-05 지각→12-07 약 10~12분 NBA 기회 상실. 벌금·정확 시각 HOLD
+- Windy City 후보: 2019-01-07~13 standard-contract assignment, 01-11~12 홈 2경기·24~28분. 징계·투웨이 금지
+- 같은 날짜 receiver 원장 PASS. 개인 박스·승수·대표 경기는 HOLD
+
 ## v0.29 거래 구조 감사 상태
 
 - Hutchison 없는 2021 Chicago–Washington–Boston 최소 6인 거래: `CONDITIONAL_STRUCTURE_PASS / EVENT_HOLD`
 - Washington Trent: `DEADLINE_KEEP_PRIMARY / RFA_PATH_PASS / EXACT_CONTRACT_HOLD`
 - Portland Powell: `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
 - 연도별 순서: 실제 사건 전수 대조, 변화 지점 심층 계산, 시즌 시간순 최종 확정
-- 다음 실행: O-15B Chicago 2018-19 player-game donor·Windy City·자기관리 비용
+- 다음 실행: O-15C Chicago 2018-19 생산성 prior·승수·2019 로터리/Coby White 보드
 
 ## 닫기 조건
 
