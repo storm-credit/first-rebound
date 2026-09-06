@@ -281,3 +281,5 @@ v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위
 - 관계 3명·LaVine 승계·2020/21 거래 연쇄: `HOLD`
 
 계산 순서는 22~60 드래프트 보드 → 2018-19 Chicago player-game → 2019/20 로터리 → 2021 거래·계약 → 라이벌 서부 4안이다. 상세 권위는 `design/CHICAGO_FRANCHISE_REOPEN.md`다.
+
+O-15C6C까지 세 impact 계열의 BASE는 2019-20 Chicago 21~22승과 2020 lottery seed 7에 수렴했다. exact 승수를 HOLD한 채 seed 7·실제 4순위 추첨 사건만 유지하는 A안을 총괄 추천한다. Patrick Williams는 자동 유지하지 않는다. 작가 선택 권위는 `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md`다.

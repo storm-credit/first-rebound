@@ -41,6 +41,9 @@
 | Chicago 2019-20 생산성 prior 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_PRODUCTION_PRIOR_BLINDSPOT_REVIEW.md` | BOX_PRIOR_PASS / IMPACT_AND_OUTCOME_BLOCKED / NOT_INDEPENDENT |
 | Chicago 2019-20 score-margin impact·65경기 outcome·2020 lottery 분기 | `simulation/CHICAGO_2019_20_OUTCOME_ROBUSTNESS.md` 및 네 CSV | MODEL_REPRODUCED / 21·22·24승 HOLD / LOTTERY SEED 7~8 BRANCH_OPEN |
 | Chicago 2019-20 outcome 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_OUTCOME_BLINDSPOT_REVIEW.md` | REPRODUCTION_PASS / EXACT_OUTCOME_BLOCKED / NOT_INDEPENDENT |
+| Chicago 2019-20 RAPTOR 교차검증·regularizer sensitivity | `simulation/CHICAGO_2019_20_IMPACT_CROSSCHECK.md` 및 다섯 CSV | EXTERNAL_METHOD_CROSSCHECK_PASS / CENTRAL 21~22·SEED7 / TAIL 19~24 |
+| Chicago 2020 lottery 작가 선택 패킷 | `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md` | A exact 승수 HOLD+seed7/pick4 유지 추천 / NOT_CANON |
+| Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
 | 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
