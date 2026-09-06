@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15C2 Chicago 2018-19 closing probability·logit scale·경기별 승패 실행`
-- 최근 설계 변경: `Chicago rookie 생산성 prior 범위·실존 선수 이전량 PASS; 22~24승 방향 범위와 Coby 보드는 exact outcome 전 HOLD`
+- 현재 작업: `O-15C2B Chicago 2018-19 odds 독립 교차검증·impact/fatigue 강건성 감사`
+- 최근 설계 변경: `82경기 동일 latent 실행 LOW 21승·BASE/HIGH 22승; 4번째 lottery seed·12.5% ROBUST PASS, exact 승수와 Coby 사건 HOLD`
 - 최근 정본 병합: `PR #68 / 12db9c7`
-- 최근 설계 병합: `PR #70 / 34c96c8`
+- 최근 설계 병합: `PR #72 / 972f9d0`
 
 ## 완료
 
@@ -147,6 +147,9 @@
 - [x] O-15C1 Chicago 루키 생산성 prior LOW/BASE/HIGH와 476분 차감·96:35 반환 생산성 사건량 — `PRIOR_RANGE_PASS / TRANSFER_LEDGER_PASS`
 - [x] O-15C1 방향성 감사 — 0~+2승·22~24승 범위에서 4번째 lottery seed·12.5% 유지 `ROBUST_LEAN`; exact 승패·7순위는 HOLD
 - [x] O-15C1 Coby White 7순위 유지 시 `RETENTION_STRONG_LEAN / EVENT_HOLD`; Patrick Williams `REOPEN_REQUIRED`
+- [x] O-15C2 82경기 closing probability·직전 시즌 1,230경기 logit scale·동일 latent 실행 — `PROVISIONAL_RUN_PASS / SOURCE_SINGLETON`
+- [x] O-15C2 결과 LOW 21승·BASE/HIGH 22승; G033 Orlando전만 LOW에서 반전, exact 승수 `HOLD`
+- [x] O-15C2 전 범위 Chicago 4번째 lottery seed·1순위 12.5% — `ROBUST_PASS`; Coby `RETENTION_STRONG_LEAN / EVENT_HOLD`
 
 ## 현재 결정 대기
 
@@ -154,8 +157,9 @@
 - [x] O-15A4 Lakers 39 거래 구조·Bonga 44·Sanon 45~60 후속 보드 검증 — 내부 선호는 증거 부족 HOLD
 - [x] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산 — `STRUCTURE_SCREEN_PASS / EVENT_HOLD`
 - [x] O-15B2 Chicago 2018-19 같은 날짜 receiver ledger·73경기/11선발/정확 총분 판정
-- [ ] O-15C2 77개 영향 경기 pB·logit scale·conditional latent 실행과 exact 2019 승수
-- [ ] O-15C3 2019 standings/lottery 결과 확정 뒤 Coby White 보드; 2020 Patrick Williams는 2019-20 뒤 재판정
+- [x] O-15C2 82경기 pB·logit scale·conditional latent 실행 — `PROVISIONAL_RUN_PASS`, exact 2019 승수는 21~22 `HOLD`
+- [ ] O-15C2B 독립 odds source·대체 impact proxy·fatigue 0 가정 강건성 감사
+- [ ] O-15C3 O-15C2B 뒤 2019 exact standings/lottery·Coby White 보드 판정; 2020 Patrick Williams는 2019-20 뒤 재판정
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
 - [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
 
@@ -310,9 +314,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 97. Hutchison 없는 2021 거래에서 Trent나 주인공을 salary filler로 자동 투입하지 않는다.
 98. Trent의 실제 Portland 생산·QO·Toronto 계약을 Washington 경로에 복사하지 않는다.
 99. Powell이 Portland에 없어진 분을 Evans·Hood·Simons 한 명에게 자동 상속하지 않는다.
+100. Chicago 82경기 odds의 두 가공본을 독립 출처 두 개로 세지 않는다. 현재 원출처는 Sportsbook Review 계통 하나다.
+101. BASE에서 승패 반전이 없다는 이유로 주인공의 +26.15점 proxy를 효과 0으로 쓰거나, 반대로 LOW의 한 경기 반전을 exact 21승으로 잠그지 않는다.
+102. LOW의 Orlando전 반전을 Chicago lottery만 보고 국소 처리하지 않는다. Orlando 43승은 Brooklyn과 동부 6·7번 seed 및 1라운드 대진을 바꿀 수 있다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 루키 donor·receiver 구조, 자기관리 재발 후보, Windy City 표준계약 개발창을 통과시켰다. 73경기·11선발·1,274:02·17.45분의 역할선은 `PROVISIONAL_LOCK`이며 개인 박스와 승패는 HOLD다. 다음은 O-15C 생산성 prior·2019 승수/로터리/Coby White 보드, O-15D 2020~21 거래·계약, O-15E 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 개인 기록·관계 3명·승수·우승·수상은 계속 HOLD다.
+v0.30은 Chicago 루키 donor·receiver 구조와 생산성 prior, 82경기 outcome의 첫 전수 실행까지 통과시켰다. 73경기·11선발·1,274:02·17.45분은 `PROVISIONAL_LOCK`, exact 개인 박스와 21~22승 중 한 값은 HOLD다. 다음은 O-15C2B odds·impact·fatigue 강건성 감사, O-15C3 2019 standings/lottery·Coby White 보드, O-15D 2020~21 거래·계약, O-15E 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 개인 기록·관계 3명·승수·우승·수상은 계속 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
