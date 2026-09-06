@@ -48,7 +48,7 @@ O-01은 E0과 선택 시대 한국 학교 체육 고증 뒤 결정한다.
 | C | 상승 중인 하이메이저 | 팀과 함께 성장 | 허구/실존 조합 난도 |
 | D | 학업 강한 프로그램 | 학생선수 세계 심화 | 농구 보상 속도 저하 |
 
-## O-05 NBA 착지점
+## O-05 NBA 착지점 — v0.27 REOPENED
 
 | 안 | 유형 | 장점 | 위험 |
 |---|---|---|---|
@@ -57,13 +57,13 @@ O-01은 E0과 선택 시대 한국 학교 체육 고증 뒤 결정한다.
 | C | 강팀의 낮은 순번/트레이드 픽 | 높은 기준과 즉시 경쟁 | 출전 부족 |
 | D | 프런트 전환기의 팀 | 로스터·계약 갈등 | 역사 파급 복잡 |
 
-O-05는 CLOSED다. 실제 후반 1라운드의 Indiana 23·Boston 27·Golden State 28·Atlanta 30을 비교해 **Atlanta 30순위**를 선택했다.
+O-05는 v0.15에서 Atlanta 30순위로 닫혔으나, v0.27 사용자의 Chicago 원클럽 선택으로 다시 열렸다. Chicago 팀 방향은 LOCK이며 실제 22순위가 최우선 후보지만 정확 순번은 아래 계산 전까지 HOLD다.
 
-- 계약: 1라운드 NBA rookie-scale, 투웨이 아님
-- 2018-19: Atlanta NBA 본무대, Erie 짧은 assignment
-- 깊은 관계: Trae Young·Kevin Huerter·John Collins
-- 실제 30순위 Spellman은 San Antonio 49번으로 재배치됐고 BASE 29경기·145.4분은 잠겼다. Atlanta 주인공은 43경기·621.9분, reserve receivers는 183.1분으로 잠겼으며 개인 성과·승패는 R09 HOLD
-- 상세 권위: `research/PROTAGONIST_2018_DRAFT_LANDING.md`
+- 유지: 1라운드 NBA rookie-scale, 투웨이 아님, NBA 본무대, 짧은 G League assignment 가능
+- 새 후보: Chicago 22순위·Windy City·Hutchison displacement
+- 재계산: 22~60 드래프트 보드, Chicago 82경기 donor, 정확 관계 3명, 2019~21 로터리·거래
+- 과거 Atlanta·Erie·Spellman 원장은 삭제하지 않고 폐기 분기 증거로 보존
+- 현행 권위: `design/CHICAGO_FRANCHISE_REOPEN.md`
 
 ## O-06 국가대표·병역 경로
 
@@ -118,14 +118,16 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 
 `design/NBA_LONG_RANGE_CAREER_OPTIONS.md`가 두 선택을 분리해 비교한다.
 
-### O-11A 주인공의 Atlanta 이후 경로
+### O-11A 주인공의 장기 팀 — AUTHOR SELECTED
 
 | 안 | 핵심 | 판정 |
 |---|---|---|
-| A | Atlanta 원클럽 공동 프랜차이즈 코어 | O-14A 구조 추천 / 거래·분 재계산 중 |
+| A | Atlanta 원클럽 공동 프랜차이즈 코어 | v0.27에서 비활성 대안 분기로 전환 |
 | B | 2022 계약 분기 이탈 | 이른 분리안 / 인과 미채점 |
 | C | 2022 계약 성립 뒤 2023 여름 가치 트레이드 | **계산 전 잠정 선호 / 미승인** |
 | D | 2024 리셋까지 잔류 뒤 트레이드 | 흥미 우선 / 로터리 오염 높음 |
+
+사용자는 **Chicago 원클럽 프랜차이즈**를 선택했다. 정확한 22순위·루키 분·LaVine 승계·거래 연쇄는 O-15 계산 대상으로 남긴다.
 
 ### O-11B 라이벌의 2020 NBA 착지
 
@@ -134,9 +136,9 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 | Minnesota | 1 | REJECT_LEAN / 상위 보드 훼손 최대 |
 | Golden State | 2 | 전술 적합 높음 / 서사 적합 낮음 |
 | Charlotte | 3 | 경쟁축 최상 / LaMelo 경로 훼손 높음 |
-| Chicago | 4 | **조건부 로스터 적합 선호 / 미승인** |
+| Chicago | 4 | 주인공 Chicago·동서부 분리 선택으로 후보 해제 |
 
-두 선택 모두 R09의 2018-20 승패·로터리·픽 소유권 검증 전에는 팀·순번·계약·결말 동료를 LOCK하지 않는다. 사용자가 O-11A와 O-11B를 승인한 뒤에만 `canon/CAREER_TIMELINE.md`와 PROJECT_FREEZE 승격을 검토한다.
+라이벌은 서부 팀 방향만 LOCK한다. 정확 팀·순번·계약·결말 동료는 R09의 2018-20 승패·로터리·픽 소유권과 서부 4안 비교 전까지 잠그지 않는다.
 
 ### O-11C C안의 2023 이적 목적지 — AUTHOR_SELECTION_HOLD
 
@@ -183,7 +185,7 @@ NCAA 대학 4안은 CLOSED다. Duke·Gonzaga·Kentucky·Oregon을 비교해 **Go
 
 정확한 시즌 기록·첫 우승·MVP·결말 연도·780화 배분은 계속 HOLD다.
 
-`design/ATLANTA_FRANCHISE_PATH_RECALC.md`의 1차 재비교 결과는 `A1 Atlanta 원클럽 공동 코어`를 구조 추천으로 올렸다. 2년차 로테이션→3년차 공격 가시화→4년차 주전→5년차 공동 에이스의 새 분·사용률 후보를 등록했지만, Murray 미영입·Collins 거래·Huerter 잔류·Spurs 2023 로터리 파급 전에는 모두 `NOT_CANON`이다.
+`design/ATLANTA_FRANCHISE_PATH_RECALC.md`의 A1 추천은 v0.27에서 활성 기본값이 아니다. 성장 사다리의 일반 기능만 Chicago에 맞춰 재검증하며 Atlanta 고유 분·사용률·Murray/Collins/Huerter 연쇄는 폐기 분기 기록으로 보존한다.
 
 ## O-12B Atlanta 2018-23 성장 배정 — HISTORICAL_BASELINE / REOPENED
 
@@ -259,7 +261,7 @@ Koufos는 실제 NBA 거래망을 가장 적게 훼손하지만 실제 CSKA 2년
 
 `강한 에고 + 공개적 야망 + 통제된 도발 + 통제욕`을 총괄 추천한다. 상시 허세·괴롭힘형이 아니라 차분하게 마지막 포제션을 요구하고 결과를 책임지는 타입이다. 성장 질문은 ‘내가 해결한다’에서 ‘내가 팀의 최선 선택을 만든다’로 이동한다.
 
-### O-13C 콘퍼런스 구조
+### O-13C 콘퍼런스 구조 — DIRECTION LOCKED
 
 | 안 | 판정 |
 |---|---|
@@ -267,4 +269,15 @@ Koufos는 실제 NBA 거래망을 가장 적게 훼손하지만 실제 CSKA 2년
 | 라이벌 서부 + 주인공 Indiana 동부 | 2020 상위 보드 훼손 고비용 |
 | Chicago + Indiana 모두 동부 | 반복전 강점 / 파이널 불가 대조안 |
 
-기존 Indiana 추천과 Chicago 추천은 모두 조건부였으므로 어느 것도 자동 폐기하지 않는다. O-14A는 Atlanta 원클럽과 Chicago 라이벌의 동부 반복전을 대등한 후보로 올렸다. 전성기 동서부 분리를 다시 선택할 때만 2023 서부 후보 4안을 재평가한다. 공격형·성격·콘퍼런스 구조가 승인돼도 팀·순번·수상·공동 트레이너는 R09와 독립 검토 전까지 `NOT_CANON/HOLD`다.
+v0.27에서 **주인공 Chicago 동부 + 라이벌 서부**를 선택했다. 위 표는 과거 비교 이력으로 보존한다. 라이벌의 정확 팀·순번·수상·공동 트레이너는 R09와 독립 검토 전까지 `NOT_CANON/HOLD`다.
+
+## O-15 Chicago 원클럽 프랜차이즈 — RECALCULATION_GATE
+
+- 팀 방향: Chicago `LOCKED`
+- 장기 형태: 원클럽 프랜차이즈 `LOCKED`
+- 콘퍼런스: 주인공 동부·라이벌 서부 `LOCKED`
+- 정확 2018 순번: Chicago 22순위 `LEAN / HOLD`
+- 루키 경기·분·선발·Windy City: `HOLD`
+- 관계 3명·LaVine 승계·2020/21 거래 연쇄: `HOLD`
+
+계산 순서는 22~60 드래프트 보드 → 2018-19 Chicago player-game → 2019/20 로터리 → 2021 거래·계약 → 라이벌 서부 4안이다. 상세 권위는 `design/CHICAGO_FRANCHISE_REOPEN.md`다.
