@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15C Chicago 2018-19 생산성 prior·승수 영향·2019 standings/lottery·Coby White 보드`
 - 최근 설계 변경: `Chicago rookie 73경기·11선발·1,274:02 역할선 PROVISIONAL_LOCK; receiver allocation PASS`
-- 최근 정본 병합: `PR #66 / 5c5cde9`
-- 최근 설계 병합: `PR #66 / 5c5cde9`
+- 최근 정본 병합: `PR #68 / 12db9c7`
+- 최근 설계 병합: `PR #68 / 12db9c7`
 
 ## 완료
 
