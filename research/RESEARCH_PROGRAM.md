@@ -282,3 +282,13 @@
 - 핵심 교정: 2020 1순위급 가상 라이벌 때문에 실제 Edwards·Wiseman·Ball의 1~3순위 자동 보존 불가
 - 판정: `CONDITIONAL_BOARD_PASS / RIVAL_UPSTREAM_BLOCKER / EXACT_PICK_HOLD`
 - 다음 조사: 라이벌 2020 서부 착지 4안과 1~3순위 팀보드·밀려난 실존 선수 경로
+
+### R15.16 라이벌 2020 서부 착지 4안
+
+- 선택 패킷: `design/RIVAL_2020_WEST_TEAM_DECISION_PACKET.md`
+- 비교 원장: `simulation/RIVAL_2020_WEST_TEAM_CANDIDATES.csv`
+- 총괄 검토: `reviews/R01_RIVAL_2020_WEST_TEAM_BLINDSPOT_REVIEW.md`
+- 직접 지명: Minnesota 1·Golden State 2
+- 거래 contingency: San Antonio 11→2는 동시대 buzz 있으나 salary/대가 HOLD, Oklahoma City 25→2는 자산상 구조 후보지만 직접 보드 증거 없음
+- 판정: Minnesota 1 `PRIMARY_LEAN / NOT_CANON`; Golden State 전술 적합·서사 비용 동시 높음
+- 다음 조사: 작가 A~D 선택 뒤 선택 팀의 정확 팀보드·밀려난 actual top 3·Chicago 4순위를 순차 재계산
