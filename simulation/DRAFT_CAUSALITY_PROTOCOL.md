@@ -151,6 +151,14 @@
 - 실제 주요 선수의 후속 성공을 보존하려고 경로를 선택하지 않는다. 실존 선수 보호는 원래 팀 고정이 아니라 밀린 선수의 보드·계약·분·거래 비용 추적이다.
 - 전체 보드는 `simulation/2018_DRAFT_22_60_REOPEN.md`, Evans·Trent 연쇄는 `simulation/2018_DRAFT_28_43_EVANS_CASCADE.md`와 `simulation/2018_DRAFT_37_60_TRENT_CASCADE.md`가 권위다.
 
+## v0.29 2021 거래 구조 사전 감사
+
+- Hutchison 없는 Chicago–Washington–Boston 거래는 최소 6인 구조로 `CONDITIONAL_STRUCTURE_PASS`다. 실제 발생은 Chicago의 2020-21 성적·Vučević 거래·마감일 동기 전 `HOLD`다.
+- Washington Trent는 deadline keep이 주안이고 3년 계약 뒤 RFA·Bird 권리 경로는 PASS다. 정확 생산·QO·재계약은 HOLD다.
+- Portland에 Trent가 없으면 Powell 원거래는 불성립한다. `PORTLAND_NO_TRADE_PRIMARY`에서 시작하며 Evans·Simons·Little 자동 치환을 금지한다.
+- 이 감사는 미래 거래 구조의 blocker 탐지다. 2018-19부터 시즌 시간순으로 승수·로터리·로스터를 확정하는 절차를 대체하지 않는다.
+- 상세 권위는 `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md`다.
+
 ## 공식 기준선
 
 - [NBA — 2018 Draft Trade Tracker](https://www.nba.com/2018-draft-trade-tracker)

@@ -244,5 +244,12 @@
 | D-236 | AD_TRADE_CAP_RESTORE_PASS | Lakers 39 Trent가 실제와 같은 3년 최소급 구조를 받으면 2019-20 급여 $1,416,852가 Bonga와 같아 Wagner+Trent+Jones로 AD 3팀 거래의 salary matching 복원 가능 | Trent의 Washington 이동·2021 RFA·Chicago 3팀 거래 파급은 새로 계산하며 선수 가치 자동 동일시 금지 |
 | D-237 | SANON_UNDRAFTED_PRIMARY_LEAN | Bonga가 Washington 44를 차지하면 Sanon의 45~60 1차 결과는 미지명 뒤 Olimpija 잔류 | 동시대 평가는 30번대~63위로 분산, 45~60 팀은 더 구체적 타깃 보유; San Antonio 49 LOW·Charlotte 55 same-function 대안 |
 | D-238 | DRAFT_BOARD_BOUNDARY_PASS | Sanon이 미지명 뒤 기존 유럽 계약에 남고 NBA draft rights가 생기지 않는 지점을 2018 Draft 보드 연쇄의 인과 경계로 인정 | 2019 AD·2020 Russell–Wiggins·2021 Washington/Chicago·Powell 거래 연쇄는 별도 OPEN이며 정확 22순위 LOCK은 계속 차단 |
+| D-239 | ANNUAL_CAUSALITY_ORDER_LOCK | 실제 NBA 사건을 매년 전수 대조하고 바뀐 입력이 닿는 지점만 심층 재계산하며, 최종 확정은 시즌 시간순으로 수행 | 미래 cap 구조 사전 감사는 허용하되 앞선 승수·로스터 전 거래 발생 LOCK 금지 |
+| D-240 | CONDITIONAL_STRUCTURE_PASS | Hutchison 없는 2021 세 팀 거래의 주 구조를 Chicago Theis+Green, Washington Gafford, Boston Wagner+Kornet으로 둠 | Troy Brown Jr.·Trent Washington 잔류; 실제 발생은 Chicago 대체 성적·Vučević 동기 전 HOLD |
+| D-241 | TRENT_RFA_PATH_PASS | Washington Trent는 3년 계약 종료와 QO가 있으면 2021 RFA, Bird clock 승계로 Washington 재계약 경로 보유 | 실제 Portland 생산·QO·Toronto 계약 복사 금지; 정확 QO·계약 HOLD |
+| D-242 | TRENT_DEADLINE_KEEP_PRIMARY | 6인 거래가 Trent 없이 성립하므로 Washington 잔류를 마감일 기준선으로 둠 | Chicago 이동은 cap상 가능해도 대체 역사 가치 전 `VALUE_HOLD`; salary filler 자동 치환 금지 |
+| D-243 | PORTLAND_NO_TRADE_PRIMARY | Trent가 없으면 Portland는 Powell 거래에서 이탈하는 것을 1차 기준선으로 둠 | Hood 단독 급여 매칭을 자산가치 충족으로 오인하지 않고 Evans 성과 자동 상속 금지 |
+| D-244 | POWELL_DESTINATION_HOLD | Portland 이탈 뒤 Powell의 Knicks·Philadelphia·Toronto 등 정확 시장 결과는 별도 2021 원장으로 이월 | Powell Toronto 잔류나 Portland Bird rights·후속 Clippers 거래 자동 보존 금지 |
+| D-245 | TRANSACTION_SCREEN_PASS | 2018 드래프트 주 후보 사슬의 2021 거래 구조 blocker는 해소 | 정확 Chicago 22·Hutchison/Evans/Trent 착지와 2021 사건 발생은 여전히 NOT_CANON |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

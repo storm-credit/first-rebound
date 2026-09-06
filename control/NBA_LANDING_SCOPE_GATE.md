@@ -34,6 +34,14 @@ manuscript_allowed: false
 - Bonga 44 Washington `PRIMARY_LEAN`; Sanon 미지명/Olimpija `PRIMARY_LEAN`; San Antonio 49 LOW·Charlotte 55 대안; draft-board boundary `PASS`
 - 2019 AD 거래: `CAP_MECHANICS_RESTORE_PASS / TRENT_WASHINGTON_CASCADE`; 2021 Powell 거래: `ORIGINAL_BLOCKED`
 
+## v0.29 거래 구조 감사 상태
+
+- Hutchison 없는 2021 Chicago–Washington–Boston 최소 6인 거래: `CONDITIONAL_STRUCTURE_PASS / EVENT_HOLD`
+- Washington Trent: `DEADLINE_KEEP_PRIMARY / RFA_PATH_PASS / EXACT_CONTRACT_HOLD`
+- Portland Powell: `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
+- 연도별 순서: 실제 사건 전수 대조, 변화 지점 심층 계산, 시즌 시간순 최종 확정
+- 다음 실행: O-15B Chicago 2018-19 player-game donor·Windy City·자기관리 비용
+
 ## 닫기 조건
 
 다음을 모두 통과할 때 첫 NBA 착지 범위를 다시 닫는다.

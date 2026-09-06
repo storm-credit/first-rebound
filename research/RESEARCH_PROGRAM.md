@@ -183,3 +183,15 @@
 - 해소: Sanon 45~60 전수 보드 뒤 미지명/Olimpija를 주 결과로 두고 2018 Draft 보드 연쇄 경계 PASS
 - 새 blocker: Lakers의 Trent 대 Bonga 내부 선호, Washington 익명 선호, Washington Trent의 2021 RFA·Chicago 거래
 - 다음 조사: Washington Trent 2021→Portland Powell 대안 행동 순
+
+### R15.8 Washington Trent·Chicago 3팀 거래·Portland Powell 대안
+
+- 거래 원장: `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md`
+- 독립 검토: `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md`
+- 판정: `CONDITIONAL_TRANSACTION_STRUCTURE_PASS / PORTLAND_NO_TRADE_PRIMARY / EVENT_CHRONOLOGY_HOLD`
+- Chicago–Washington–Boston: Hutchison 없는 최소 6인 구조는 Chicago Theis+Green, Washington Gafford, Boston Wagner+Kornet으로 cap·팀 동기 PASS. Brown·Trent는 Washington 잔류
+- Trent: 3년 계약 뒤 QO 조건의 2021 RFA·Bird 권리 경로 PASS, 실제 QO·계약·별도 거래는 Washington 2019-21 생산 전 HOLD
+- Portland: Hood만으로 Powell 급여는 맞지만 Trent의 젊은 득점·RFA 가치는 대체되지 않음. `PORTLAND_NO_TRADE_PRIMARY`; Hood+Little+미래 2라운드는 영입 강행 대안
+- 순서 교정: 미래 거래의 구조 감사와 실제 사건 발생을 분리. Chicago의 2020-21 성적·Vučević 거래·플레이인 동기 전 6인 거래 발생 LOCK 금지
+- 새 blocker: Washington Brown+Trent 분, Portland Evans 생산, Powell 타시장·2021 FA, Chicago 2018-21 시간순 시즌 원장
+- 다음 조사: O-15B Chicago 2018-19 player-game donor·루키 분·Windy City·자기관리 비용
