@@ -30,7 +30,7 @@
 | 2017-18 | Villanova 신입생, 후순위 로테이션에서 NCAA 우승 | 한국 고교 졸업·수술 뒤 기초 재활·미국 대학 진학 인증 | 대학 범위 COMPLETE / 라이벌 인증 HOLD |
 | 2018 | NBA Draft를 통해 Chicago 진입, 1라운드 표준계약·아시안게임 불참 | 부상 전 오퍼를 유지한 Gonzaga에 체육장학금 입학·ACL 재활, 아시안게임 불참 | Chicago 팀·AG 불참 LOCK / 정확 순번·일정·NLI·counter HOLD |
 | 2018-19 | Chicago 후순위 윙/포워드 루키, 73경기·11선발·1,274:02·17.45분 역할선과 Windy City 1월 홈 2경기 assignment 후보 | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 역할선 PROVISIONAL_LOCK / 개인 기록·승패 HOLD |
-| 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
+| 2019-20 | NBA 2년차, Chicago의 2019 전체 7순위 Coby White와 공존 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | Coby 지명·학교·우승 기능 LOCK / NBA 역할·정확 기록 HOLD |
 | 2020 | NBA 성장기 | 합의 1순위급 후보로 Draft | 실제 지명 팀·순번·보드 R09 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
 
