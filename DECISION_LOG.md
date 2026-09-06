@@ -209,5 +209,11 @@
 | D-201 | RANGE_CANDIDATE | 2~5년차 분·사용률을 1,150~1,400/14~17%, 1,500~1,750/17~20%, 1,850~2,200/20~24%, 2,150~2,500/24~28%로 재계산 시작 | player-game donor·계약·거래 전 확정 기록 금지 |
 | D-202 | TRANSACTION_REOPENED | 5년차 공동 에이스 방향은 2022 Murray·Collins·Huerter·Griffin·Bey 연쇄 중 실제 변화를 요구 | 주인공만 성장시키고 실제 거래를 모두 보존하는 절충 금지 |
 | D-203 | STRUCTURE_REOPENED | D-191의 Chicago 라이벌+주인공 서부 이적 추천을 현행 기본값에서 해제 | Atlanta+Chicago 동부 반복전·플레이오프 경쟁도 대등한 후보 |
+| D-204 | AUTHOR_DIRECTION_LOCK | 주인공은 Chicago Bulls에서 원클럽 프랜차이즈 스타로 성장 | 정확한 지명 순번·루키 분·계약·우승은 새 인과 계산 전 HOLD |
+| D-205 | CONFERENCE_DIRECTION_LOCK | 주인공 Chicago 동부와 라이벌 서부의 장기 분리 구조를 사용 | 라이벌의 정확한 서부 팀·순번은 4안 비교와 R09 전 HOLD |
+| D-206 | SUPERSEDES_ACTIVE_CANON | D-094·D-096~100의 Atlanta 30순위 착지·Erie·관계 정본을 활성 세계선에서 해제 | 기존 문서·원장은 삭제하지 않고 폐기 분기 증거로 보존 |
+| D-207 | DRAFT_REOPENED | Chicago 실제 22순위를 최우선 착지 후보로 두고 2018 Draft 인과 시작점을 22순위 후보로 재개방 | 1~21 선행 보존, Hutchison 이동과 22~60 재판정 전 정확 순번 NOT_CANON |
+| D-208 | ROLE_FIREWALL | 단독 프랜차이즈는 2018년 즉시 LaVine의 자리를 빼앗는 뜻이 아니라 기존 간판→공동 에이스→주인공 최우선 코어의 단계 | LaVine 성과·분·계약 자동 이전 금지 |
+| D-209 | CASCADE_BLOCKER | Chicago 성장 세계선은 2020 Patrick Williams와 2021 Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 연쇄를 다시 계산 | 실제 거래·픽·선수 행선지 선택적 복사 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

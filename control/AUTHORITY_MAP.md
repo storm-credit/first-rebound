@@ -19,7 +19,8 @@
 | O-11A C안의 2023 이적 목적지 4안 | `research/PROTAGONIST_2023_TRADE_DESTINATION_OPTIONS.md` | 이적 갈래 생존 시 재평가, 팀·계약·대가 NOT_CANON |
 | 주인공 S급 성장 상한·스카우팅 W곡선 후보 | `design/PROTAGONIST_STAR_GROWTH_MODEL.md` | v0.26 핵심 방향 승격, 정확 기록·팀·수상 HOLD |
 | 주인공 연차별 공격 상승·투웨이 지배자 상한·연재 압축 | `design/PROTAGONIST_ASCENSION_DOMINANCE_MODEL.md` | v0.26 핵심 방향 LOCK, 정확 시즌·팀·기록·회차 HOLD |
-| Atlanta 원클럽 공동 코어·이적 재비교와 2~5년차 역할 창 | `design/ATLANTA_FRANCHISE_PATH_RECALC.md` | A1 구조 추천, 팀·거래·분·우승 NOT_CANON |
+| 과거 Atlanta 원클럽 공동 코어·이적 재비교 | `design/ATLANTA_FRANCHISE_PATH_RECALC.md` | v0.27 폐기 대안 분기, 활성 Chicago 세계선에 적용 금지 |
+| Chicago 원클럽 프랜차이즈 선택·22순위 후보·동서부 라이벌·나비효과 | `design/CHICAGO_FRANCHISE_REOPEN.md` | v0.27 방향 LOCK, 정확 픽·루키 분·거래·서부 팀 HOLD |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
 | 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |
@@ -51,7 +52,7 @@
 
 | 사실 종류 | 단일 권위 문서 | 비고 |
 |---|---|---|
-| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | Villanova·Gonzaga·주인공 Atlanta LOCK, 정확한 날짜·라이벌 NBA 팀은 RESEARCH_HOLD |
+| 확정된 고수준 커리어 연표·동갑/동교 관계·G리그/코비 기능 | `canon/CAREER_TIMELINE.md` | Villanova·Gonzaga·주인공 Chicago 방향 LOCK, 정확 순번·날짜·라이벌 서부 팀은 RESEARCH_HOLD |
 | 연표 4안과 선택 이력 | `design/CAREER_TIMELINE_OPTIONS.md` | O-09 CLOSED |
 | 학년·NCAA·드래프트 자격 근거 | `research/TIMELINE_ELIGIBILITY_LEDGER.md` | 역사 규정과 현재 안내 구분 |
 | 연표 선택 전 맹점 검토 | `reviews/R02_2_TIMELINE_BLINDSPOT_REVIEW.md` | 역사 기록 |
@@ -67,9 +68,10 @@
 | 라이벌 NCAA 대학 4안·Gonzaga 역할·관계·경기 예산 | `research/RIVAL_NCAA_SCHOOL_SELECTION.md` | 장학금 counter·정확 기록은 R09 HOLD |
 | 라이벌 대학 범위 중단 | `control/RIVAL_COLLEGE_SCOPE_GATE.md` | `RIVAL_COLLEGE_SCOPE_COMPLETE` |
 | 라이벌 Gonzaga 선택 맹점 검토 | `reviews/R02_3J_RIVAL_GONZAGA_REVIEW.md` | R16 독립 검수 대체 아님 |
-| 주인공 2018 Draft 4안·Atlanta 30순위·루키 역할 | `research/PROTAGONIST_2018_DRAFT_LANDING.md` | Spellman→Spurs 49번·BASE 145.4분 PASS, Atlanta 총분·승패는 R09 HOLD |
+| 과거 주인공 2018 Draft 4안·Atlanta 30순위·루키 역할 | `research/PROTAGONIST_2018_DRAFT_LANDING.md` | v0.27 폐기 분기 기록. Chicago 활성 원장에 수치 복사 금지 |
+| Chicago 전환 맹점 검토 | `reviews/R01_CHICAGO_FRANCHISE_REOPEN_BLINDSPOT_REVIEW.md` | PASS_FOR_RECALCULATION, 정본 교체 계산 미완료 |
 | Spellman Spurs 두 번째 팀 역할 기준선 | `simulation/SPURS_2018_19_SECOND_TEAM_IMPACT.md` | NBA/Austin 계층·안전선 PASS, competitive stint·승패 HOLD |
-| 첫 NBA 착지 범위 중단 | `control/NBA_LANDING_SCOPE_GATE.md` | `NBA_LANDING_SCOPE_COMPLETE` |
+| 첫 NBA 착지 범위 | `control/NBA_LANDING_SCOPE_GATE.md` | `CHICAGO_LANDING_REOPENED` |
 | Atlanta 착지 맹점 검토 | `reviews/R02_3K_PROTAGONIST_ATLANTA_REVIEW.md` | R16 독립 검수 대체 아님 |
 | Atlanta 주인공·실명 수취자 생산성·피로·경기 영향 방법 | `simulation/ATLANTA_2018_19_PLAYER_PRODUCTION_PRIORS.md` 및 `.xlsx`의 `ATL Priors` | method firewall PASS, 수치 교정·pB·workload·승패 HOLD |
 | Atlanta production prior 맹점 검토 | `reviews/R02_3U_ATLANTA_PRODUCTION_PRIOR_REVIEW.md` | R16 독립 검수 대체 아님 |

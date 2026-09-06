@@ -1,10 +1,12 @@
 # Atlanta Franchise Path Recalculation
 
-- 상태: `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
+- 상태: `v0.27_SUPERSEDED_ALTERNATE_BRANCH / NOT_ACTIVE_CANON`
 - 기준일: 2026-09-06
 - 적용 범위: NBA 2~5년차 상승 속도, Atlanta 잔류·이적, Trae Young 공동 코어, 2022 거래 분기
 - 선행 정본: 2018 Draft 30순위 Atlanta, 루키 43경기·621.9분, v0.26 공격 1옵션 투웨이 상한
 - 원고 게이트: `CLOSED`
+
+> v0.27에서 사용자가 Chicago 원클럽 프랜차이즈를 선택했다. 이 문서는 삭제하지 않는 Atlanta 대안 분기와 검증 이력이며, 수치·관계·거래를 Chicago 활성 세계선에 복사하지 않는다.
 
 ## 1. 재계산 이유
 
@@ -133,4 +135,3 @@ A1에서는 다음 사건 묶음을 우선 검토한다.
 3. 2022 Murray 미영입이 Spurs와 2023 로터리에 미치는 파급을 별도 원장으로 분리한다.
 4. Collins 거래 4안과 Huerter 잔류/이탈을 기능·급여·관계로 비교한다.
 5. 위 결과 뒤에만 2021 ECF·2022 플레이오프·2024-25 첫 우승 후보를 계산한다.
-
