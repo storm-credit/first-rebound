@@ -1,6 +1,6 @@
 # Career Timeline Canon v1.0
 
-- 상태: `PARTIAL_CANON / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
+- 상태: `PARTIAL_CANON / NBA_ASCENSION_DIRECTION_LOCKED / COLLEGE_ARC_SCOPE_COMPLETE / NBA_LANDING_SCOPE_COMPLETE / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
 
@@ -33,6 +33,14 @@
 | 2019-20 | NBA 2년차 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | 학교·우승 기능 LOCK / 정확 기록 HOLD |
 | 2020 | NBA 성장기 | 합의 1순위급 후보로 Draft | 실제 지명 팀·순번·보드 R09 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
+
+## NBA 상승 방향 — LOCKED / 정확 배정 HOLD
+
+- 주인공은 NBA에서 매 시즌 이전 약점에 대한 새 카운터를 증명하며 수비·리바운드 자원에서 공격 1옵션 투웨이 슈퍼스타로 상승한다.
+- 3년차부터 공격 성장의 가시적 보상이 필요하고, 5년차에는 공동 에이스 권한을 요구할 수 있는 표본이 있어야 한다. 정확한 분·사용률·기록은 Atlanta 거래 연쇄 재계산 전까지 HOLD다.
+- 전성기에는 리그 최고 선수 논쟁과 시대 지배가 가능하지만 정확한 팀·우승·수상·결말 연도는 잠그지 않는다.
+- 기존 `Atlanta 5시즌=저사용 연결자→두 번째 팀에서 S급` 배정은 계산 이력으로 보존하되 현행 방향과 충돌하므로 재개방한다.
+- 연차별 기능 후보의 상세 권위는 `design/PROTAGONIST_ASCENSION_DOMINANCE_MODEL.md`다.
 
 ## Villanova 2017-18 관계 기능
 
