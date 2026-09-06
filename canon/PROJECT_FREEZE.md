@@ -1,4 +1,4 @@
-# Project Freeze v0.28
+# Project Freeze v0.29
 
 - 상태: `PARTIAL_FREEZE`
 - 변경 권한: 사용자 명시 승인
@@ -547,3 +547,23 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Trent 부재 시 2021 Portland–Toronto 거래와 Norman Powell 행선지
 - Hutchison의 2020 역할·가치와 Russell–Wiggins 거래의 정확 보조 자산
 - Chicago 22부터 60까지 전체 연쇄의 인과 경계와 정확 지명 순번
+
+## v0.29 PARTIAL ADDITIONS — 연도별 우선순위·2021 거래 구조 감사
+
+- 실제 NBA의 매년 로스터·계약·픽·드래프트·이적은 기본값으로 전수 대조한다. 주인공·라이벌이 입력을 바꾼 사건만 심층 재계산한다.
+- 미래 거래는 드래프트 나비효과의 blocker를 찾기 위해 구조를 미리 감사할 수 있다. 그러나 거래의 실제 발생은 앞선 시즌의 승수·로터리·로스터를 시간순으로 계산하기 전 LOCK하지 않는다.
+- Chicago에 Hutchison이 없는 조건에서도 `Chicago: Theis+Green / Washington: Gafford / Boston: Wagner+Kornet`의 최소 6인 거래는 2020-21 급여 매칭과 세 팀 동기를 통과한다. Troy Brown Jr.와 Trent는 Washington에 남는다.
+- 위 거래는 Chicago가 실제와 같은 2021 마감일 매수·Vučević 후속 보강 동기에 도달할 때의 `CONDITIONAL_STRUCTURE_PASS`다. 사건 발생 자체는 O-15B~D 전까지 `HOLD`다.
+- Washington의 Trent는 3년 계약 종료 뒤 qualifying offer가 있으면 2021 RFA가 되고, 거래로 이어진 Bird 서비스에 따라 Washington이 cap을 넘겨 재계약할 제도 경로가 있다. 정확 QO·계약·행선지는 대체 역사 2019-21 생산 전까지 `HOLD`다.
+- Portland에 Trent가 없으면 실제 Powell 거래는 원형 불성립이다. Hood만으로 급여는 맞지만 Trent의 젊은 득점·RFA 가치는 대체되지 않으므로 `PORTLAND_NO_TRADE_PRIMARY`에서 시작한다.
+- Powell의 정확한 2021 행선지와 Portland의 이후 플레이오프 분·Bird rights·2022 거래는 해당 시즌 원장에서 계산한다. Evans·Simons·Little에게 Trent나 Powell의 실제 성과를 자동 이전하지 않는다.
+- 상세 권위는 `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md`다.
+
+## v0.29 RESEARCH_HOLD
+
+- Washington Trent와 Troy Brown Jr.의 2019-21 player-game·분·슈팅·시장가치
+- Washington의 Trent qualifying offer·재계약·별도 거래
+- Chicago의 대체 2020-21 성적·Vučević 거래·마감일 매수 동기와 6인 거래 발생 여부
+- Portland Evans의 2018-21 생산·계약 구조와 Toronto가 수용할 자산가치
+- Powell의 2021 마감일 타팀 행선지 또는 Toronto 잔류와 2021 자유계약
+- Portland의 Powell 부재 후 정규시즌·플레이오프 분, 2021-22 roster와 2022 Clippers 거래 파급

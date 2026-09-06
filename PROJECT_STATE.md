@@ -7,10 +7,10 @@
 - 현재 단계: `NBA_LONG_RANGE_ARCHITECTURE_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.28 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.29 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland Powell 대안 재계산`
-- 최근 설계 변경: `2018 draft-board cascade boundary PASS; exact picks HOLD; 2019 AD cap restore PASS; 2021 transactions OPEN`
+- 현재 작업: `O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산`
+- 최근 설계 변경: `2021 transaction structure screen PASS; event chronology HOLD; Portland no-trade primary`
 - 최근 정본 병합: `PR #64 / 79e2168`
 - 최근 설계 병합: `PR #64 / 79e2168`
 
@@ -131,12 +131,16 @@
 - [x] 2019 Spellman–Jones 복원 PASS, 2020 Russell–Wiggins 계약 구조 PASS·정확 Hutchison 자산 HOLD
 - [x] 2021 Powell–Trent 원거래 불성립과 2019 AD 거래의 Bonga 부재 blocker 등록
 - [x] O-15A3 독립 맹점 검토 — Portland 37·Lakers 39 누락 교정, `DRAFT_BOARD_PASS / TRANSACTION_CASCADE_OPEN / EXACT_PICK_HOLD`
+- [x] O-15A5 Hutchison 없는 2021 Chicago–Washington–Boston 최소 6인 구조 급여·팀 동기 조건부 PASS
+- [x] Washington Trent 2021 RFA 제도 경로 PASS — deadline keep 주안, 정확 QO·계약·행선지 HOLD
+- [x] Portland Powell 원거래 대안 — `PORTLAND_NO_TRADE_PRIMARY`, Hood+Little 대안, 정확 Powell 행선지 HOLD
+- [x] O-15A5 독립 맹점 검토 — 미래 구조 감사와 시간순 사건 발생 LOCK 분리
 
 ## 현재 결정 대기
 
 - [ ] O-15A Chicago 정확 지명 순번 — 22순위 `CONDITIONAL_PASS`, 측정 범위·워크아웃 인과 작가 승인 전 HOLD
 - [x] O-15A4 Lakers 39 거래 구조·Bonga 44·Sanon 45~60 후속 보드 검증 — 내부 선호는 증거 부족 HOLD
-- [ ] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산
+- [x] O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland의 2021 Powell 대안 재계산 — `STRUCTURE_SCREEN_PASS / EVENT_HOLD`
 - [ ] O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산
 - [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
 - [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
@@ -288,9 +292,14 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 92. 성장한 주인공과 Patrick Williams·DeRozan의 포지션·미드포스트 권한을 동시에 실제대로 보존하지 않는다.
 93. 주인공이 바꾼 Chicago 승수를 무시하고 Coby White·Patrick Williams 픽을 고정하지 않는다.
 94. 라이벌의 서부 배치만으로 실제 2020 상위 지명자를 삭제하지 않는다. 네 팀의 보드와 밀려난 선수 경로를 함께 계산한다.
+95. 매년 NBA 드래프트·이적을 전부 새로 창작하지 않는다. 실제 역사를 전수 대조하고 바뀐 입력이 닿는 사건만 심층 재계산한다.
+96. 몇 년 뒤 거래의 cap 구조가 가능하다는 이유로 사건 발생을 먼저 확정하지 않는다. 앞선 시즌 성적·로스터·팀 동기를 시간순으로 계산한다.
+97. Hutchison 없는 2021 거래에서 Trent나 주인공을 salary filler로 자동 투입하지 않는다.
+98. Trent의 실제 Portland 생산·QO·Toronto 계약을 Washington 경로에 복사하지 않는다.
+99. Powell이 Portland에 없어진 분을 Evans·Hood·Simons 한 명에게 자동 상속하지 않는다.
 
 ## 다음 게이트
 
-v0.28은 Golden State 28 Hutchison의 팀보드 개연성을 PASS로 올렸지만 정확 착지는 잠그지 않았다. 현행 주 계산선은 Portland 37 Evans→Lakers 39 Trent→Washington 44 Bonga→Sanon 미지명/Olimpija이며, 2018 Draft 보드 연쇄 경계는 통과했다. 2019 AD 거래는 Trent의 동일 급여로 cap mechanics가 복원되지만 Trent가 Washington으로 이동한다. 다음은 Trent의 2021 RFA·Chicago 거래와 Portland의 Powell 대안을 닫은 뒤 Chicago 2018-19 player-game, 2019/20 로터리, 2021 Chicago 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 HOLD다.
+v0.29는 Hutchison 없는 2021 세 팀 최소 거래의 cap·팀 동기 구조를 조건부 PASS로 만들고, Washington Trent의 RFA 제도 경로와 Portland `NO_TRADE` 기준선을 세웠다. 미래 구조 감사는 끝났지만 실제 거래 발생은 앞선 시즌을 시간순으로 계산하기 전 HOLD다. 다음은 Chicago 2018-19 player-game·Windy City·자기관리 비용, 2019/20 로터리, 2021 Chicago 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 계속 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
