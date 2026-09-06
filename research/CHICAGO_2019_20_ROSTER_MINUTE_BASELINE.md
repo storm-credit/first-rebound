@@ -1,6 +1,6 @@
 # Chicago 2019-20 Roster & Minute Baseline v0.1
 
-- 상태: `EVIDENCE_BASELINE_PASS / PLAYER_GAME_PENDING`
+- 상태: `PLAYER_GAME_CONSERVATION_PASS / SECOND_YEAR_ROLE_PROVISIONAL_LOCK`
 - 기준일: 2026-09-06
 - 적용 범위: O-15C4 Chicago 2019-20 실제 roster·총분·선발·부상·주인공 2년차 분 예산
 - 선행 정본: 2019 lottery 7순위·Coby White 지명 `LOCKED`
@@ -12,16 +12,16 @@
 
 대체 세계선의 1차 차이는 Chandler Hutchison이 Chicago에 없고 같은 2018 1라운드 표준계약 슬롯에 주인공이 있다는 점이다. Hutchison의 실제 28경기·10선발·526분 48초는 직접 대체 슬롯이지만, 그의 부상과 경기별 출전은 주인공에게 복사하지 않는다.
 
-주인공 2년차의 사전 범위는 다음과 같다.
+주인공 2년차의 사전 범위와 O-15C5 검산 결과는 다음과 같다.
 
 | 항목 | LOW | BASE | HIGH | 상태 |
 |---|---:|---:|---:|---|
-| 출전 | 60경기 | 63경기 | 65경기 | `CANDIDATE` |
+| 출전 | 60경기 | 65경기 | 65경기 | BASE `PROVISIONAL_LOCK` |
 | 선발 | 14경기 | 18경기 | 22경기 | `CANDIDATE` |
-| 총분 | 1,320분 | 1,395분 | 1,470분 | `PRECALC_RANGE` |
-| 출전 경기 평균 | 22.00분 | 22.14분 | 22.62분 | 산술값 |
+| 총분 | 1,320분 | 1,395분 | 1,470분 | BASE `PROVISIONAL_LOCK` |
+| 출전 경기 평균 | 22.00분 | 21.46분 | 22.62분 | 산술값 |
 
-BASE 1,395분은 82경기 환산 약 1,760분이다. 루키 평균 17.45분에서 약 22.14분으로 오르는 분명한 2년차 상승이지만, 주전 고정이나 공격 제1옵션을 선지급하지 않는다.
+BASE 1,395분은 82경기 환산 약 1,760분이다. 루키 평균 17.45분에서 약 21.46분으로 오르는 분명한 2년차 상승이지만, 주전 고정이나 공격 제1옵션을 선지급하지 않는다. O-15C5가 65경기 전수 same-date 보존을 통과했으므로 독립 원인 없는 두 경기 결장은 만들지 않는다.
 
 ## 1. 실제 시즌 경계
 
@@ -98,7 +98,7 @@ BASE 1,395분은 82경기 환산 약 1,760분이다. 루키 평균 17.45분에�
 | Young | 131:58 | 1,458:41 | 베테랑 포워드·리더십·프런트코트 기능 유지 |
 | **합계** | **1,395:00** |  |  |
 
-직접 슬롯 밖의 추가 이전은 868분 12초다. LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio에게서는 BASE에서 0분을 뺀다.
+직접 슬롯 밖의 추가 이전은 868분 12초다. LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio의 시즌 순감은 BASE에서 0이다. O-15C5에서 donor가 희박한 날짜를 연결하기 위해 Markkanen·Dunn의 19:34를 다른 경기로 옮겼지만, 두 선수의 시즌 총분은 전부 반환한다.
 
 ## 6. 2년차 역할과 성장 기능
 
@@ -112,11 +112,16 @@ BASE 1,395분은 82경기 환산 약 1,760분이다. 루키 평균 17.45분에�
 
 공존 우선순위는 `주인공 리바운드 → 직접 전진 가능 여부 판단 → Coby/Satoransky 조기 이양 → LaVine 1차 마무리`다. 주인공을 포인트가드로 만들거나 Coby의 신인 개발 possession을 빼앗지 않는다.
 
-## 7. 다음 계산 전 HOLD
+## 7. O-15C5 player-game 연결
 
-- 60~65경기 중 정확 출전일·결장일
-- 14~22선발 중 정확 선발 경기와 기존 선발 수취자
-- BASE 1,395분의 같은 날짜 donor 배정 가능성
+- 주인공: 65경기·18선발·1,395:00 `PROVISIONAL_LOCK`
+- 65경기 팀 총분 15,675:11 전수 보존
+- 선발 source: 실제 Hutchison 10자리 + 실제 Harrison 시간순 최초 8자리
+- 보호 10인 시즌 순감 0; 센터 4인과 LaVine·Satoransky·Coby·Porter 경기별 분 변경 0
+- 권위: `simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.md`
+
+## 8. 다음 계산 전 HOLD
+
 - 개인 박스·TS·BPM proxy·온오프
 - 정확 승수와 2020 standings·lottery
 - Patrick Williams 유지·대체 지명

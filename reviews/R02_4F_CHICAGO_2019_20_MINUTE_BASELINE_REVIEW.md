@@ -1,7 +1,8 @@
 # R02-4F Chicago 2019-20 Minute Baseline Blindspot Review
 
 - 대상: `research/CHICAGO_2019_20_ROSTER_MINUTE_BASELINE.md`
-- 판정: `PRECALC_RANGE_PASS / PLAYER_GAME_BLOCKER`
+- 당시 판정: `PRECALC_RANGE_PASS / PLAYER_GAME_BLOCKER`
+- 후속 상태: `RESOLVED_BY_O15C5` — 65경기·18선발·1,395분 전수 보존 PASS
 - 원고 게이트: `CLOSED`
 
 ## 총평
@@ -40,4 +41,4 @@
 - 18선발 BASE의 같은 날짜 선발 자리 보존
 - Valentine·Harrison·Arcidiacono·Young의 최소 기능 floor 검증
 
-이 다섯 조건 전에는 BASE 63경기·18선발·1,395분을 정본화하지 않는다.
+이 다섯 조건은 O-15C5에서 통과했다. 독립 원인 없는 2 DNP를 제거해 BASE를 65경기·18선발·1,395분으로 교정했고, 생산성·승패는 계속 HOLD한다.
