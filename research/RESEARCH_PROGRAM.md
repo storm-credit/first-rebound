@@ -208,3 +208,16 @@
 - Windy City: 2019년 1월 7~13일 standard-contract assignment, 1월 11~12일 홈 2경기·24~28분 후보. 징계·투웨이 금지
 - 같은 날짜 보존: 후반 476분 차감, 누락 4경기 96:35 수취, 실존 선수 순차감 379:25 PASS
 - 다음 조사: O-15C 생산성 prior·Chicago 승수·2019 standings/lottery·Coby White 보드
+
+### R15.10 Chicago 2019-20 roster·2년차 분 예산
+
+- 기준선: `research/CHICAGO_2019_20_ROSTER_MINUTE_BASELINE.md`
+- 실제 총분: `simulation/CHICAGO_2019_20_ROSTER_BASELINE.csv`
+- 분 예산: `simulation/CHICAGO_2019_20_PROTAGONIST_MINUTE_BUDGET.csv`
+- 독립 검토: `reviews/R02_4F_CHICAGO_2019_20_MINUTE_BASELINE_REVIEW.md`
+- 판정: `EVIDENCE_BASELINE_PASS / PRECALC_RANGE_PASS / PLAYER_GAME_BLOCKER`
+- 실제 기준: 65경기·22승 43패·17명·15,675:11·325선발, 재개 시즌 비참가
+- 2년차 후보: 60~65경기·14~22선발·1,320~1,470분; BASE 63경기·18선발·1,395분
+- 직접 슬롯: Hutchison 526:48, 추가 donor 예산 868:12
+- 보호: LaVine·Satoransky·Coby·Markkanen·Dunn·Carter·Porter·Gafford·Kornet·Felicio 0분 차감
+- 다음 조사: 65경기 same-date donor·선발 자리 원장, 이후 생산성 prior·승패·2020 lottery
