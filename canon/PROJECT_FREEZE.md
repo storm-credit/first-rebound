@@ -624,3 +624,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2년차 핵심 성장은 약한 손 운반·closeout attack·감속 뒤 짧은 패스다. LaVine의 1차 득점과 Coby·Satoransky의 가드 possession을 침범하지 않는다.
 - donor 1,395분의 관측 귀속량과 주인공 BASE 차이는 약 -112득점·+107리바운드·-15어시스트·-11스틸·+13블록이다. 이는 선수 귀속 변화이며 팀 생산성 변화가 아니다.
 - single net rating·BPM으로 승패를 실행하지 않는다. causal impact·65경기 outcome·2020 standings/lottery·Patrick Williams는 O-15C6B까지 `HOLD`다.
+
+## v0.30 O-15C6B PARTIAL ADDITIONS — Chicago 2년차 outcome·2020 lottery
+
+- 실제 65경기 최종 점수차와 같은 날짜 player-game delta에 BPM·NBA NET_EB 두 proxy를 적용한다. 무피로 기본은 BPM 21/22/22승, NET_EB 22/22/24승이다.
+- back-to-back 두 번째 밤 9경기에 주인공 rating -0.5~-1.0점/48분 stress를 적용해도 attainable set은 **21·22·24승**이다. exact 승수는 `HOLD`다.
+- 실제와 달라지는 경기는 모두 실제 1점 차인 2019-10-23 Charlotte, 2019-11-23 Charlotte, 2019-12-09 Toronto뿐이다. 실제 2점 차 이상 경기 반전은 없다.
+- 2020 lottery 입력은 Chicago 22-43 seed 7, Charlotte 23-42 seed 8, Washington 24-40 seed 9다. bubble 최종 Washington 25-47을 lottery seed 계산에 쓰지 않는다.
+- 21·22승 분기는 Chicago seed 7을 유지해 실제 4순위 추첨 사건을 조건부 보존할 수 있다. 24승 분기는 Charlotte와 seed를 교환해 Chicago seed 8이므로 공개 고정 seed 재추첨이 필요하다.
+- 정확 Chicago 승수·lottery seed·pick은 O-15C6C까지 `HOLD`다. 실제 4순위가 유지돼도 18선발·1,395분 SF/PF 주인공과 성장시간이 겹치므로 Patrick Williams 지명은 `REOPEN_REQUIRED / HOLD`다.

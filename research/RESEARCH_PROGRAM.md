@@ -246,3 +246,15 @@
 - 1,395분 환산: 465득점·349리바운드·85어시스트·62스틸·35블록 중심; exact 정수 박스 HOLD
 - donor 관측 귀속 차이: -112득점·+107리바운드·-15어시스트·-11스틸·+13블록 방향, 팀 총생산성 직접 합산 금지
 - 다음 조사: O-15C6B usage 재귀속·score-margin impact·65경기 outcome·2020 lottery
+
+### R15.13 Chicago 2019-20 outcome·2020 lottery 분기
+
+- 모형: `simulation/CHICAGO_2019_20_OUTCOME_ROBUSTNESS.md`
+- 원장: game margin baseline·impact inputs/priors·390행 outcome ledger
+- 검토: `reviews/R01_CHICAGO_2019_20_OUTCOME_BLINDSPOT_REVIEW.md`
+- 판정: `MARGIN_MODEL_REPRODUCED / EXACT_OUTCOME_HOLD / LOTTERY_BRANCH_OPEN`
+- 공식 실제 기준: Chicago 22-43 seed 7·1순위 7.5%, Charlotte 23-42 seed 8·6.0%, Washington의 lottery 입력 24-40
+- 결과: 무피로 BPM 21/22/22승, NET_EB 22/22/24승; second-night 0.5~1.0 감산 포함 attainable set 21·22·24승
+- 반전: 실제 1점 차 G017 @CHA, G001 @CHA, G025 vs TOR만; 실제 2점 차 이상 경기 반전 0
+- lottery: 21·22승은 seed 7과 실제 4순위 사건 조건부 유지, 24승은 CHI·CHA seed 교환으로 seed 8 고정 재추첨 필요
+- 다음 조사: O-15C6C 독립 impact/lineup 계열·NET_EB prior-minute sensitivity·seed 8 fixed draw 구현

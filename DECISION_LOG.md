@@ -283,5 +283,10 @@
 | D-275 | TRANSFER_PRODUCTION_PASS | 1,395분 donor 순차감의 관측 귀속량은 577.41득점·241.80리바운드·100.58어시스트·72.62스틸·21.97블록 | 주인공과의 차이를 팀 총득점·총리바운드에 직접 합산 금지 |
 | D-276 | IMPACT_MODEL_FIREWALL | sophomore net rating과 단일 BPM을 causal impact로 사용하지 않고 O-15C6B까지 승패 실행 차단 | Markkanen·Dunn gross bridge·usage 재귀속·fatigue를 0 처리 금지 |
 | D-277 | NEXT_PHASE | O-15C6B score-margin impact proxy·65경기 outcome·standings를 실행 | exact 2020 lottery와 Patrick Williams 보드는 결과 뒤 판정 |
+| D-278 | SCORE_MARGIN_MODEL_PASS | 실제 65경기 최종 점수차에 BPM·NBA NET_EB 두 proxy와 같은 player-game delta를 적용 | Bernoulli latent로 큰 점수차를 뒤집지 않으며 실제 2점 차 이상 반전 0 |
+| D-279 | OUTCOME_ATTAINABLE_SET_HOLD | 무피로·second-night -0.5/-1.0 stress에서 가능한 Chicago 기록은 21·22·24승 | 두 BASE의 무피로 22승 수렴만으로 exact 승수 LOCK 금지 |
+| D-280 | LOTTERY_BRANCH_OPEN | 21·22승은 Chicago seed 7과 실제 4순위 사건 유지 가능, 24승은 Charlotte와 교환해 seed 8 | Washington의 lottery 입력은 bubble 최종 25-47이 아닌 3월 11일 24-40, seed 8은 고정 재추첨 전 결과 HOLD |
+| D-281 | PATRICK_BOARD_REOPEN_REQUIRED | 실제 4순위가 유지돼도 18선발·1,395분 SF/PF 주인공 때문에 Patrick Williams 팀보드를 재심사 | 후대 성과 역선택·포지션 성장시간 중복 무시·실제 지명 자동 복사 금지 |
+| D-282 | NEXT_BLOCKER | O-15C6C 독립 impact/lineup 계열·NET_EB regularizer sensitivity와 조건부 2020 fixed draw를 실행 | exact 승수·정확 pick·Patrick 지명 전부 HOLD |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
