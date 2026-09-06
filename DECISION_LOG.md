@@ -211,9 +211,23 @@
 | D-203 | STRUCTURE_REOPENED | D-191의 Chicago 라이벌+주인공 서부 이적 추천을 현행 기본값에서 해제 | Atlanta+Chicago 동부 반복전·플레이오프 경쟁도 대등한 후보 |
 | D-204 | AUTHOR_DIRECTION_LOCK | 주인공은 Chicago Bulls에서 원클럽 프랜차이즈 스타로 성장 | 정확한 지명 순번·루키 분·계약·우승은 새 인과 계산 전 HOLD |
 | D-205 | CONFERENCE_DIRECTION_LOCK | 주인공 Chicago 동부와 라이벌 서부의 장기 분리 구조를 사용 | 라이벌의 정확한 서부 팀·순번은 4안 비교와 R09 전 HOLD |
-| D-206 | SUPERSEDES_ACTIVE_CANON | D-094·D-096~100의 Atlanta 30순위 착지·Erie·관계 정본을 활성 세계선에서 해제 | 기존 문서·원장은 삭제하지 않고 폐기 분기 증거로 보존 |
+| D-206 | SUPERSEDES_ACTIVE_CANON | D-094·D-096~97·D-099~100과 D-098의 Atlanta/Erie 세부만 활성 세계선에서 해제 | D-098의 밤샘→아침 영상·컨디셔닝 지각→NBA 기회 상실 자기관리 기능은 유지 |
 | D-207 | DRAFT_REOPENED | Chicago 실제 22순위를 최우선 착지 후보로 두고 2018 Draft 인과 시작점을 22순위 후보로 재개방 | 1~21 선행 보존, Hutchison 이동과 22~60 재판정 전 정확 순번 NOT_CANON |
 | D-208 | ROLE_FIREWALL | 단독 프랜차이즈는 2018년 즉시 LaVine의 자리를 빼앗는 뜻이 아니라 기존 간판→공동 에이스→주인공 최우선 코어의 단계 | LaVine 성과·분·계약 자동 이전 금지 |
 | D-209 | CASCADE_BLOCKER | Chicago 성장 세계선은 2020 Patrick Williams와 2021 Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 연쇄를 다시 계산 | 실제 거래·픽·선수 행선지 선택적 복사 금지 |
+| D-210 | CONDITIONAL_PASS | Villanova 후순위 주인공의 Chicago 22순위는 측정·Texas Tech 영상·Combine·워크아웃·메디컬 패키지가 모두 있을 때 성립 | 미국 평가는 25~40순위권 고위험 원석, Chicago의 reach로 제한 |
+| D-211 | MEASUREMENT_CANDIDATE | 약 202~204cm·98~102kg·윙스팬 215~219cm, 점프·직선가속 최상위권을 #22 검증 후보로 둠 | 정확 수치·모든 종목 1위·완성된 가드 민첩성 금지, 작가 승인 전 NOT_CANON |
+| D-212 | SUPERSEDES_D117 | Chicago 22순위 후보가 Hutchison을 밀면 1~21만 유지하고 22~60을 팀별 재판정 | D-117의 1~29 유지 경계와 Atlanta Spellman 연쇄는 활성 효력 정지 |
+| D-213 | LANDING_LEAN | Hutchison의 첫 재착지는 Portland 24를 1순위 계산안, Golden State 28을 2순위로 둠 | Simons·Trent·Evans 연쇄가 닫히기 전 정확 팀·순번 HOLD |
+| D-214 | RESTORE_LEAN | Hutchison 연쇄가 30 이전에 닫히면 Atlanta 30 Spellman과 실제 하류 거래를 복원 후보로 둠 | 과거 Spellman→Spurs→Metu→Spalding 연쇄를 자동 유지하지 않음 |
+| D-215 | PARTIAL_SUPERSEDE_D213 | D-213의 Portland 24 `1순위`만 철회하고 인과 분기 A로 보존 | Simons가 Phoenix 31을 통과해도 Orlando 35·Portland 37 재선택이 필요; 미래 성과 변화는 배제 사유가 아님 |
+| D-216 | TEAM_BOARD_PRIMARY_LEAN | Golden State 28을 성숙한 다목적 수비 윙 필요와 당시 공식 목에 근거한 Hutchison 착지 1순위로 둠 | 실제 역사 보존량과 무관한 2018 팀 적합성 판정이며 Evans 후속 보드·거래 전 LOCK 금지 |
+| D-217 | CASCADE_PATH_CANDIDATE | 28에서 밀린 Jacob Evans의 Orlando 43과 Justin Jackson(Maryland)의 후속 시장을 끝점 후보로 검토 | Detroit 38/42가 선행 blocker이며 Evans 43·Jackson 미지명 모두 NOT_CANON |
+| D-218 | CONDITIONAL_RESTORE_REVIEW | Hutchison이 30 이전에 닫히면 Atlanta 30 Spellman을 실제 선택 기준선으로, 2019 Spellman–Damian Jones 거래를 재검증 기준선으로 둠 | D-168·D-174·D-179·D-180은 해당 분기 통과 때만 조건부 폐기; 거래 자동 복원 금지 |
+| D-219 | ORCHESTRATOR_CORRECTION | 실제 역사 보존량을 Hutchison 착지의 목표함수로 삼는 접근을 철회 | 실존 선수 보호는 원팀 고정이 아니라 밀린 선수의 보드·계약·분·거래 비용 추적 |
+| D-220 | CAUSAL_BLOCKER | Golden State 28 분기는 Evans의 Detroit 38/42 재평가와 2020 Russell–Wiggins 거래, Portland 24 분기는 Simons의 Phoenix 31/Orlando 35/Portland 37 재평가가 필요 | 실존 선수 보호는 원팀 고정이 아니라 밀린 선수의 보드·계약·분·거래 비용 추적 |
+| D-221 | ARCHIVED_ATLANTA_REGISTER | D-119~157의 Atlanta 주인공·Spellman Spurs·Metu·Spalding·Erie·805분 결과는 비활성 대안 분기 증거 | D-114~116 드래프트 인과 일반 원칙과 D-137 조건부 확장 방법은 활성 유지; Chicago 수치로 복사 금지 |
+| D-222 | TRANSACTION_BLOCKER | Evans 43 Orlando 후보는 Detroit 38/42와 Orlando–Denver 41↔43 거래·Orlando 계약 자리를 먼저 통과해야 함 | 건강한 Evans를 실제 부상 중 Jackson의 무계약 draft-rights 경로에 복사 금지 |
+| D-223 | MANDATORY_CASCADE | Chicago가 22순위에서 주인공을 택하면 Hutchison이 Bulls에 없으므로 2021 Chicago–Washington–Boston 3팀 거래는 어떤 후속 착지에서도 재계산 | Gafford·Troy Brown Jr.·Theis·Javonte Green 행선지를 선택적으로 보존 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
