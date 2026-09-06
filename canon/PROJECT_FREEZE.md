@@ -633,3 +633,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 2020 lottery 입력은 Chicago 22-43 seed 7, Charlotte 23-42 seed 8, Washington 24-40 seed 9다. bubble 최종 Washington 25-47을 lottery seed 계산에 쓰지 않는다.
 - 21·22승 분기는 Chicago seed 7을 유지해 실제 4순위 추첨 사건을 조건부 보존할 수 있다. 24승 분기는 Charlotte와 seed를 교환해 Chicago seed 8이므로 공개 고정 seed 재추첨이 필요하다.
 - 정확 Chicago 승수·lottery seed·pick은 O-15C6C까지 `HOLD`다. 실제 4순위가 유지돼도 18선발·1,395분 SF/PF 주인공과 성장시간이 겹치므로 Patrick Williams 지명은 `REOPEN_REQUIRED / HOLD`다.
+
+## v0.30 O-15C6C PARTIAL ADDITIONS — RAPTOR 교차검증·lottery 작가 게이트
+
+- FiveThirtyEight modern RAPTOR를 제3 impact 계열로 사용한다. 기존 sophomore 9인의 Q1/median/Q3에서 주인공 LOW -2.7·BASE -1.8·HIGH -1.0 prior를 고정한다.
+- donor RAPTOR는 league-average 0으로 1,000분 수축한다. primary 결과는 20/21/22승이고, 500~2,000분 regularizer·fatigue stress에서는 19~22승이다.
+- BPM·NET_EB·RAPTOR_EB를 모두 합친 model-risk tail은 19~24승이다. tail을 동일 가중하거나 평균내 exact 승수로 쓰지 않는다.
+- 세 계열의 BASE와 second-night stress만 보면 **21~22승**, Chicago 2020 lottery **seed 7**이 공통이다.
+- 총괄 추천은 exact 승수 21~22 `HOLD`를 유지하면서 seed 7·1순위 7.5%·실제 4순위 추첨 사건만 보존하는 A안이다. 이는 `AUTHOR_APPROVAL_REQUIRED / NOT_CANON`이다.
+- 실제 4순위가 승인돼도 Patrick Williams 지명은 자동 보존하지 않는다. 4순위 당시 보드는 주인공과의 성장시간 중복을 포함해 재심사한다.

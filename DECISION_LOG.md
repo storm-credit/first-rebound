@@ -288,5 +288,9 @@
 | D-280 | LOTTERY_BRANCH_OPEN | 21·22승은 Chicago seed 7과 실제 4순위 사건 유지 가능, 24승은 Charlotte와 교환해 seed 8 | Washington의 lottery 입력은 bubble 최종 25-47이 아닌 3월 11일 24-40, seed 8은 고정 재추첨 전 결과 HOLD |
 | D-281 | PATRICK_BOARD_REOPEN_REQUIRED | 실제 4순위가 유지돼도 18선발·1,395분 SF/PF 주인공 때문에 Patrick Williams 팀보드를 재심사 | 후대 성과 역선택·포지션 성장시간 중복 무시·실제 지명 자동 복사 금지 |
 | D-282 | NEXT_BLOCKER | O-15C6C 독립 impact/lineup 계열·NET_EB regularizer sensitivity와 조건부 2020 fixed draw를 실행 | exact 승수·정확 pick·Patrick 지명 전부 HOLD |
+| D-283 | RAPTOR_CROSSCHECK_PASS | FiveThirtyEight modern RAPTOR와 기존 sophomore 9인 Q1/median/Q3 prior를 제3계열로 적용 | BPM·NBA NET과 완전 독립 causal estimator로 과장 금지 |
+| D-284 | SUPERSEDES_D279_RANGE / TAIL_ENVELOPE_OPEN | RAPTOR_EB-1000은 20/21/22승, 500~2,000분 sensitivity까지 포함한 전체 stress tail은 19~24승 | tail을 동일 가중 정본 후보나 평균 승수로 사용 금지 |
+| D-285 | CENTRAL_SEED7_AUTHOR_CANDIDATE | 세 impact 계열 BASE와 fatigue의 21~22승은 모두 Chicago 2020 lottery seed 7을 유지 | exact 승수 HOLD+seed7·실제 pick4 사건 유지안은 작가 승인 전 NOT_CANON |
+| D-286 | LOTTERY_AND_PATRICK_AUTHOR_GATE | A안 승인 시 4순위 팀보드를 Williams·Avdija·Okoro·Haliburton·Vassell로 재심사 | 실제 4순위 보존과 Patrick 실제 지명 보존을 한 결정으로 묶지 않음 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

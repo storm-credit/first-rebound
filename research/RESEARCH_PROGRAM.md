@@ -258,3 +258,16 @@
 - 반전: 실제 1점 차 G017 @CHA, G001 @CHA, G025 vs TOR만; 실제 2점 차 이상 경기 반전 0
 - lottery: 21·22승은 seed 7과 실제 4순위 사건 조건부 유지, 24승은 CHI·CHA seed 교환으로 seed 8 고정 재추첨 필요
 - 다음 조사: O-15C6C 독립 impact/lineup 계열·NET_EB prior-minute sensitivity·seed 8 fixed draw 구현
+
+### R15.14 Chicago 2019-20 RAPTOR 교차검증·lottery 결정 경계
+
+- 교차검증: `simulation/CHICAGO_2019_20_IMPACT_CROSSCHECK.md`
+- 선택 패킷: `design/CHICAGO_2020_LOTTERY_DECISION_PACKET.md`
+- 총괄 검토: `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md`
+- 외부 계열: FiveThirtyEight modern RAPTOR by team의 box+on/off+tracking total
+- cohort prior: 기존 sophomore 9인의 RAPTOR Q1 -2.709·median -1.804·Q3 -0.953에서 -2.7/-1.8/-1.0
+- primary RAPTOR_EB-1000: 20/21/22승, fatigue 포함 20~22승
+- 500~2,000분 regularizer stress: 19~22승; 기존 두 proxy와 합친 tail envelope 19~24승
+- central BASE 세 계열: 21~22승·Chicago lottery seed 7 공통
+- 총괄 추천: exact 21~22 HOLD, seed 7·실제 4순위 외부 사건만 유지, Patrick 보드 재개방
+- 다음 조사: 작가가 lottery packet A~D를 선택한 뒤 2020 정확 pick/Patrick 팀보드 또는 추가 fixed draw
