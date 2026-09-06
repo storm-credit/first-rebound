@@ -303,4 +303,3 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 v0.29는 Hutchison 없는 2021 세 팀 최소 거래의 cap·팀 동기 구조를 조건부 PASS로 만들고, Washington Trent의 RFA 제도 경로와 Portland `NO_TRADE` 기준선을 세웠다. 미래 구조 감사는 끝났지만 실제 거래 발생은 앞선 시즌을 시간순으로 계산하기 전 HOLD다. 다음은 Chicago 2018-19 player-game·Windy City·자기관리 비용, 2019/20 로터리, 2021 Chicago 거래·계약, 라이벌 서부 4안 순으로 진행한다. 정확 22순위·측정치·루키 기록·관계 3명·우승·수상은 계속 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
-74d5c536c8f1748a44a2447c639f1c1e0787e812
