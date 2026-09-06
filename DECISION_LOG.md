@@ -278,5 +278,10 @@
 | D-270 | PROTECTED_NET_ZERO_FIREWALL | 보호 10인의 `0분 차감`은 시즌 순감 0으로 고정하고, donor 희박 구간을 잇는 Markkanen·Dunn gross 19:34는 다른 날짜에 전량 반환 | gross bridge를 주인공 생산성 이전이나 공짜 피로 0으로 처리 금지 |
 | D-271 | STARTER_SOURCE_PASS | 주인공 18선발은 실제 Hutchison 선발 10자리와 실제 Harrison 선발 시간순 최초 8자리에서만 이전 | 새 선발 자리 생성·승패 기반 날짜 선택 금지, Harrison 마지막 2선발 유지 |
 | D-272 | NEXT_PHASE | O-15C6에서 2년차 생산성 prior·실존 선수 이전량·65경기 outcome을 계산 | exact 승수·2020 lottery·Patrick Williams 보드 선행 확정 금지 |
+| D-273 | LONGITUDINAL_COHORT_LOCK | O-15C1의 2018 드래프트 윙 9명을 재선택 없이 2019-20 두 번째 시즌까지 추적 | 2년차 성공자만 고르는 생존자 편향·새 분 하한 적용 금지 |
+| D-274 | SECOND_YEAR_BOX_PRIOR_PASS | 2년차 BASE를 12.0득점·9.0리바운드·2.2어시스트·1.6스틸·0.9블록/36, TS .530·USG 15.0%로 둠 | 65경기·1,395분 환산 7.15 PPG, 공격 1옵션·point-forward 선지급 금지 |
+| D-275 | TRANSFER_PRODUCTION_PASS | 1,395분 donor 순차감의 관측 귀속량은 577.41득점·241.80리바운드·100.58어시스트·72.62스틸·21.97블록 | 주인공과의 차이를 팀 총득점·총리바운드에 직접 합산 금지 |
+| D-276 | IMPACT_MODEL_FIREWALL | sophomore net rating과 단일 BPM을 causal impact로 사용하지 않고 O-15C6B까지 승패 실행 차단 | Markkanen·Dunn gross bridge·usage 재귀속·fatigue를 0 처리 금지 |
+| D-277 | NEXT_PHASE | O-15C6B score-margin impact proxy·65경기 outcome·standings를 실행 | exact 2020 lottery와 Patrick Williams 보드는 결과 뒤 판정 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

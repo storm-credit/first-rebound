@@ -234,3 +234,15 @@
 - 보존: 65경기 실제 팀 15,675:11, 보호 10인 시즌 순감 0, 센터 4인 경기별 고정
 - gross bridge: Markkanen·Dunn 19:34 차감과 19:34 반환; 생산성 순이전 아님
 - 다음 조사: O-15C6 2년차 production prior·changed player-game 생산성·65경기 승패·2020 lottery
+
+### R15.12 Chicago 2019-20 2년차 생산성 prior
+
+- prior: `simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md`
+- 비교군: `simulation/CHICAGO_2019_20_SOPHOMORE_WING_COHORT.csv`
+- 이전량: `simulation/CHICAGO_2019_20_TRANSFER_PRODUCTION.csv`
+- 검토: `reviews/R01_CHICAGO_2019_20_PRODUCTION_PRIOR_BLINDSPOT_REVIEW.md`
+- 판정: `BOX_PRIOR_RANGE_PASS / TRANSFER_PRODUCTION_PASS / IMPACT_MODEL_HOLD`
+- BASE: 12.0득점·9.0리바운드·2.2어시스트·1.6스틸·0.9블록/36, TS .530, USG 15.0%
+- 1,395분 환산: 465득점·349리바운드·85어시스트·62스틸·35블록 중심; exact 정수 박스 HOLD
+- donor 관측 귀속 차이: -112득점·+107리바운드·-15어시스트·-11스틸·+13블록 방향, 팀 총생산성 직접 합산 금지
+- 다음 조사: O-15C6B usage 재귀속·score-margin impact·65경기 outcome·2020 lottery
