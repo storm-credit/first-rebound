@@ -7,10 +7,10 @@
 - 현재 단계: `NBA_LONG_RANGE_ARCHITECTURE_GATE`
 - 설계 게이트: `CLOSED`
 - 원고 허용: `false`
-- 정본 버전: `PROJECT_FREEZE v0.26 PARTIAL`
+- 정본 버전: `PROJECT_FREEZE v0.27 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-14A Atlanta 원클럽 공동 코어의 2021 계약·2022 거래 연쇄 계산`
-- 최근 설계 변경: `Atlanta one-club co-franchise A1 recommended; Murray/Collins/Huerter/Griffin/Bey cascade and new minute bands NOT_CANON`
+- 현재 작업: `O-15 Chicago 원클럽 프랜차이즈 착지 재개방과 2018 Draft 22~60 인과 재계산`
+- 최근 설계 변경: `Chicago one-club franchise direction + protagonist East/rival West LOCKED; exact pick/team ledger HOLD`
 - 최근 정본 병합: `PR #56 / a179280`
 - 최근 설계 병합: `PR #58 / 113b384`
 
@@ -52,12 +52,12 @@
 - [x] 깊은 관계 Ayayi·Kispert·Petrusev 3명과 Oregon·Saint Mary's 대표 경기 2개 LOCK
 - [x] 2019-20 WCC 정규·토너먼트 우승 기능과 NCAA 전국우승 없음 LOCK
 - [x] `RIVAL_COLLEGE_SCOPE_COMPLETE` — 라이벌 대학 세부 설계 종료
-- [x] 주인공 2018 NBA Draft 전체 30순위 Atlanta LOCK
+- [x] 주인공 2018 NBA Draft 전체 30순위 Atlanta LOCK — v0.27에서 활성 정본 해제, 역사 기록으로 보존
 - [x] 1라운드 NBA rookie-scale 계약·투웨이 폐기 LOCK
 - [x] Atlanta NBA 본무대·Erie 4~10경기 짧은 assignment 안전선 LOCK
 - [x] Trae Young·Kevin Huerter·John Collins 깊은 관계 3명 LOCK
 - [x] 밤샘 게임→아침 영상·컨디셔닝 지각→NBA 로테이션 기회 상실 재발 LOCK
-- [x] `NBA_LANDING_SCOPE_COMPLETE` — 첫 NBA 착지 세부 설계 종료
+- [x] `NBA_LANDING_SCOPE_COMPLETE` — v0.27 Chicago 선택으로 `REOPENED`
 - [x] 주인공 2018 PUMA·라이벌 2020 adidas 신발 브랜드 기능 LOCK
 - [x] NCAA 구간 개인 광고 금지·신인 즉시 시그니처 슈즈 금지 LOCK
 - [x] Kobe 제한 접점과 Jordan·Shaq·Jay-Z 자동 멘토화 금지 LOCK
@@ -111,32 +111,34 @@
 - [x] 2026-09-06 이후 실제 NBA 미래 예언 방화벽과 720~840화·NBA 75~85% 연재 후보 등록
 - [x] O-14A Atlanta 원클럽·Murray 미영입 A1 구조 추천과 2~5년차 새 분·사용률 후보 작성 — `PASS_FOR_AUTHOR_SELECTION / NOT_CANON`
 - [x] Atlanta 잔류 경로의 Trae 공동 코어·Collins 역할 비용·동부 라이벌 반복전 맹점 검토
+- [x] O-15 주인공 Chicago 원클럽 프랜차이즈와 라이벌 서부 분리 작가 선택 — `DIRECTION_LOCKED`
+- [x] Chicago 실제 22순위 Hutchison 슬롯·Hoiberg→Boylen·윈디시티·초기 윙 경쟁 1차 실증 감사
+- [x] Atlanta 30순위·Erie·Spellman 연쇄를 삭제하지 않고 비활성 대안 분기로 전환
 
 ## 현재 결정 대기
 
-- [ ] O-11A/O-14 Atlanta 장기 경로 — 원클럽 공동 코어 / 정당한 가치 이적 재비교. 기존 C 2023 가치 트레이드 잠정 선호는 현행 기본값에서 해제
-- [ ] O-11B 라이벌 2020 NBA 착지 — Chicago 조건부 로스터 적합안 / Charlotte 경쟁 강화안 / 재검토
-- [ ] O-11C 2023 이적 목적지 — 이적 갈래가 살아남을 때만 Indiana·Sacramento·Memphis·Dallas 재평가
-- [ ] 잔류/이적 선택 뒤 2022 계약·거래 자산·player-minute donor·결말 동료 3-Act 원장·독립 검토
+- [ ] O-15A Chicago 정확 지명 순번 — 22순위 최우선 후보 / 워크아웃·팀 보드·22~60 재판정 전 HOLD
+- [ ] O-15B Chicago 2018-19 player-game donor·루키 분·Windy City 배정·자기관리 비용 재계산
+- [ ] O-15C 2019 승수·로터리·Coby White와 2020 Patrick Williams 대체 보드
+- [ ] O-15D Vučević·DeRozan·Lonzo·Caruso·Markkanen·LaVine 계약/거래 연쇄
+- [ ] O-15E 라이벌 2020 서부 착지 4안 — 정확 팀·순번 HOLD
+
+- [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
+- [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
+- [x] O-11C 2023 이적 목적지 — Chicago 원클럽 선택으로 활성 후보 해제
+- [ ] Chicago 잔류 기준 2022 계약·거래 자산·player-minute donor·결말 동료 3-Act 원장·독립 검토
 - [x] O-12/O-14 공격 1옵션 투웨이 스타·S+ 리바운드 전환·연차별 성장 방향의 작가 승인
-- [ ] O-14 Atlanta 잔류 공동 코어와 정당한 가치 이적의 player-minute·사용률·거래 연쇄 재계산
-- [ ] O-14A 2021 주인공 연장 가치·Atlanta 2022-23 cap/tax 계산
-- [ ] Murray 미영입 시 대체 거래·Spurs 승수·2023 로터리·Wembanyama 경로 원장
-- [ ] Collins 거래 4안과 Huerter 잔류/이탈의 관계·급여·기능 비교
+- [x] O-14 Atlanta 잔류 공동 코어 계산 — O-15가 대체, 자료는 삭제하지 않음
+- [x] O-14A Atlanta 2021 연장·2022-23 cap/tax 계산 — 활성 작업 중단, Chicago 계약 원장으로 교체 예정
+- [x] Murray 미영입·Spurs 로터리 원장 — Atlanta 폐기 분기로 보존, 활성 계산 중단
+- [x] Collins/Huerter 비교 — Atlanta 폐기 분기로 보존, 활성 계산 중단
 - [ ] O-13A 라이벌 공격형 — 대형 감속·템포 공격 지휘자 총괄 추천 / 작가 승인 대기
 - [ ] O-13B 라이벌 성격 — 강한 에고·공개적 야망·통제된 도발·통제욕 총괄 추천 / 작가 승인 대기
-- [ ] O-13C 전성기 콘퍼런스 구조 — Chicago 라이벌+2023 주인공 서부 구조 추천 / Chicago+Indiana 동부 반복전 대조안
-- [ ] O-13C가 동서부 분리로 선택되면 Indiana 잠정 추천을 폐기하지 않은 채 2023 서부 목적지 4안을 당시 정보로 재평가
+- [x] O-13C 전성기 콘퍼런스 구조 — 주인공 Chicago 동부·라이벌 서부 방향 선택
+- [ ] 라이벌 서부 목적지 4안을 2020 당시 정보로 재평가
 - [ ] 라이벌 정확 신체·2020 팀/순번·공동 트레이너/센터·두 선수 수상/우승/역대 평가 — R09·독립 검토 전 HOLD
 - [ ] O-13 승인 시 `TALENT_BQ_MODEL`의 엘리트 윙 수비와 `RIVAL_ARCHITECTURE`의 약 198cm SG/SF·POA 수비를 큰 공격 지휘자/B~B+ 적용 수비와 정본 조정
-- [ ] Atlanta 실존 코치별 정확한 개인 지도 근거·비시즌 훈련 접근 경로·말투 공개자료와 가상 반복 트레이너의 잔여 기능 확정
-- [ ] 2019~23 Atlanta 시즌별 player-minute·사용률·대표 경기·플레이오프 생존 분기 계산
-- [ ] 2019 대체 센터 작가 선택 — Koufos 총괄 추천 / Monroe·Noah 대안 / Vonleh 고위험안
-- [ ] 2019 Koufos 후보 계약의 Atlanta cap·15인 자리와 Jones 886.9분 player-game 분산
-- [ ] 2022 계약 구조 작가 선택 — 직접 다년 RFA 재계약 총괄 추천 / 정확한 기간·금액 HOLD
-- [ ] 2022-23 수정 범위 1,550~1,800분 player-game donor와 Griffin·Bey 잔존 기능
-- [ ] Bey 4팀 거래 당일 대체 세계 Atlanta의 영입 동기 생존 여부
-- [ ] 2022 No.16 지명 변경 여부·AJ Griffin 새 팀·2023 Saddiq Bey 거래 생존 여부
+- [x] Atlanta 코치·2019~23 분·Koufos·계약·Griffin/Bey 과제 — 비활성 대안 분기로 보존
 
 - [ ] 주인공의 정확한 생일·2017 졸업일
 - [ ] 프렙에서 자기관리 실패로 잃는 실제 기회의 종류
@@ -170,6 +172,8 @@
 - [ ] 정식 제목
 
 ## 현재 위험
+
+v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로 보존하되 활성 Chicago 세계선의 미결 목록으로 세지 않는다.
 
 1. 농구를 시작하자마자 결석·게임·생활이 완치되면 스포츠 만능치료물이 된다. 단계별 재발과 비용을 유지한다.
 2. 성숙을 외향화로 표현해 주인공을 말 많은 분위기 메이커로 바꾸면 고유 성격이 사라진다. 조용함·게임·혼자 쉬는 성향은 유지하고 신뢰성만 변화시킨다.
@@ -258,9 +262,16 @@
 85. Collins를 주인공 분 확보용 악역이나 삭제 대상으로 만들지 않는다. 정당한 시장가치·새 팀 역할·관계 비용을 함께 설계한다.
 86. Murray 미영입 뒤 San Antonio의 실제 승수와 2023 1순위 지명을 자동 복사하지 않는다. 다른 거래 또는 잔류부터 로터리까지 연속 계산한다.
 87. 같은 동부라는 이유만으로 라이벌 구조가 실패했다고 보지 않는다. 반복전·플레이오프 직접 생존전과 파이널 희소성의 교환을 비교한다.
+88. Chicago 선택을 곧바로 22순위 확정으로 확대하지 않는다. Villanova 저사용 선수의 워크아웃·팀 보드 근거가 먼저다.
+89. Hutchison만 삭제하고 23~60순위를 실제대로 복사하지 않는다. 새 인과 경계는 22순위 후보부터다.
+90. Atlanta 43경기·621.9분·Erie 6경기를 Chicago와 Windy City에 복사하지 않는다.
+91. 단독 프랜차이즈를 신인 때부터 LaVine을 밀어내는 서열로 쓰지 않는다. 공동 에이스를 거쳐 승계한다.
+92. 성장한 주인공과 Patrick Williams·DeRozan의 포지션·미드포스트 권한을 동시에 실제대로 보존하지 않는다.
+93. 주인공이 바꾼 Chicago 승수를 무시하고 Coby White·Patrick Williams 픽을 고정하지 않는다.
+94. 라이벌의 서부 배치만으로 실제 2020 상위 지명자를 삭제하지 않는다. 네 팀의 보드와 밀려난 선수 경로를 함께 계산한다.
 
 ## 다음 게이트
 
-대학 양쪽·주인공 첫 NBA 착지·상업 관계·국가대표/병역 기반과 드래프트 인과 프로토콜을 닫았고 Atlanta 루키 분 재배분도 검산했다. v0.26은 주인공을 공격 1옵션 투웨이 슈퍼스타와 리그 최고 선수 후보로 올리고, 매년 약점을 지우는 성장 문법을 잠갔다. O-14A 재비교에서는 Atlanta 원클럽 공동 코어를 구조 추천으로 올리고 2~5년차 새 분·사용률 후보를 만들었다. 다음 작업은 2021 연장 계약 가치와 2022-23 cap/tax를 계산한 뒤 Murray 미영입·Collins 거래·Huerter 잔류와 Spurs 2023 로터리 파급을 연속 검증하는 것이다. 이 결과 전까지 A1·정확 분·첫 우승·Wembanyama 팀은 NOT_CANON/HOLD다. O-13 라이벌 팀·콘퍼런스는 Atlanta 잔류 계산과 함께 선택한다.
+v0.27은 주인공의 Chicago 원클럽 프랜차이즈와 주인공 동부·라이벌 서부 방향을 잠갔다. 기존 Atlanta 30순위·Erie·Spellman·공동 코어 원장은 삭제하지 않고 비활성 대안 분기로 보존한다. 첫 NBA 착지 게이트는 다시 열렸으며, 다음 작업은 Chicago 22순위의 워크아웃 근거와 2018 Draft 22~60 재판정이다. 이어 Chicago 2018-19 player-game, 2019/20 로터리, 2021 거래·계약, 라이벌 서부 4안을 순서대로 계산한다. 정확 22순위·루키 기록·관계 3명·우승·수상은 HOLD다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
