@@ -1,6 +1,6 @@
 # Research Program
 
-- 상태: `ERA_SELECTION_MODERN_REVIEW / EVIDENCE_PROGRAM_BLOCKED_BY_E0`
+- 상태: `NBA_RESEARCH_ACTIVE / CHICAGO_PICK22_CONDITIONAL_PASS`
 - 원칙: 검색 결과 요약은 단서일 뿐 정본 근거가 아니다.
 
 ## 출처 등급
@@ -154,3 +154,17 @@
 - 새 충돌: Chicago 라이벌+Indiana 주인공은 모두 동부. 동서부 분리 선택 시 2023 서부 목적지 후보군 재평가
 - HOLD: 정확 신체·2020 팀/순번·2023 목적지·공동 센터/트레이너·수상/우승/역대 평가
 - 다음 조사: 작가 구조 선택 뒤 Chicago의 2020-21 사용률/분·ACL 의료 적합과 2023 서부 목적지 4안의 당시 자산·로스터 비교
+
+> v0.27 주의: R15.1~R15.4의 Atlanta 개발·분·계약·거래 계산은 삭제되지 않은 폐기 대안 분기 증거다. 활성 Chicago 세계선에 숫자나 관계를 복사하지 않는다.
+
+### R15.6 Chicago 22순위 개연성·2018 보드 재개방
+
+- 개연성 연구: `research/CHICAGO_2018_PICK22_PLAUSIBILITY.md`
+- 보드 원장: `simulation/2018_DRAFT_22_60_REOPEN.md`
+- 판정: `CHICAGO_22_CONDITIONAL_PASS / CAUSAL_BRANCH_REOPENED / EXACT_PICK_HOLD`
+- 확인: Chicago 실제 22순위 윙 수요, Hutchison 실제 선택, 후순위 대학 로테이션 선수가 reach로 22순위에 오르기 위한 측정·영상·Combine·워크아웃 조건
+- 보드 비교: Golden State 28은 당시 즉시 수비·다목적 윙 필요로 1순위 LEAN. Portland 24는 대안이며 Simons의 31·35·37 연쇄를 연다.
+- 필수 하류: Evans의 Detroit 38·42·Orlando–Denver 41↔43·Orlando 계약, 2020 Russell–Wiggins, 2021 Chicago–Washington–Boston 거래
+- 교정: 실제 역사 최소훼손을 목표함수로 삼지 않는다. 당시 팀 보드와 필요를 우선하고 변경 비용은 결과로 수용한다.
+- HOLD: 정확 Chicago 22, 신체 수치, Chicago 비공개 워크아웃 결과, Hutchison 첫 착지와 후속 계약·거래
+- 다음 조사: 두 분기의 동시대 선택 확률·하류 거래를 비교한 뒤 Chicago 2018-19 player-game으로 이동
