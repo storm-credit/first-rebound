@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15A5 Washington Trent의 2021 RFA·Chicago 거래와 Portland Powell 대안 재계산`
 - 최근 설계 변경: `2018 draft-board cascade boundary PASS; exact picks HOLD; 2019 AD cap restore PASS; 2021 transactions OPEN`
-- 최근 정본 병합: `PR #62 / c67053a`
-- 최근 설계 병합: `PR #62 / c67053a`
+- 최근 정본 병합: `PR #64 / 79e2168`
+- 최근 설계 병합: `PR #64 / 79e2168`
 
 ## 완료
 
