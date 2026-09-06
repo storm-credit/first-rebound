@@ -11,8 +11,8 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-14 주인공 연차별 공격 상승과 Atlanta 장기 경로 재계산`
 - 최근 설계 변경: `Protagonist first-option two-way superstar and annual upgrade direction LOCK; Atlanta connector-to-trade premise reopened`
-- 최근 정본 병합: `PR #47 / 7e38474`
-- 최근 설계 병합: `PR #54 / 212ff5d`
+- 최근 정본 병합: `PR #56 / a179280`
+- 최근 설계 병합: `PR #56 / a179280`
 
 ## 완료
 
