@@ -44,7 +44,7 @@ manuscript_allowed: false
 
 ## v0.29 거래 구조 감사 상태
 
-- Hutchison 없는 2021 Chicago–Washington–Boston 최소 6인 거래: `CONDITIONAL_STRUCTURE_PASS / EVENT_HOLD`
+- Hutchison 없는 2021 Chicago–Washington–Boston 3팀 5인 거래: `CONDITIONAL_STRUCTURE_PASS / O15F5_AUTHOR_GATE`
 - Washington Trent: `DEADLINE_KEEP_PRIMARY / RFA_PATH_PASS / EXACT_CONTRACT_HOLD`
 - Portland Powell: `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
 - 연도별 순서: 실제 사건 전수 대조, 변화 지점 심층 계산, 시즌 시간순 최종 확정
