@@ -32,7 +32,7 @@
 | 2018-19 | Chicago 후순위 윙/포워드 루키, 73경기·11선발·1,274:02·17.45분 역할선과 Windy City 1월 홈 2경기 assignment 후보 | Gonzaga 공식 경기 0회 전통적 레드셔츠·재활·팀 적응 | 역할선 PROVISIONAL_LOCK / 개인 기록·승패 HOLD |
 | 2019-20 | NBA 2년차, Chicago의 2019 전체 7순위 Coby White와 공존 | Gonzaga redshirt freshman 복귀, WCC 정규·토너먼트 우승, 포스트시즌 취소 | Coby 지명·학교·우승 기능 LOCK / NBA 역할·정확 기록 HOLD |
 | 2020 | NBA 성장기·Chicago가 전체 4순위로 LaMelo Ball 지명 | Minnesota가 라이벌을 전체 1순위로 직접 지명 | 2020 Draft 1~60 AUTHOR_LOCK / Riller 정확 UDFA 계약 HOLD |
-| 2020-21 | 3년차 선발 SF/PF, 마감일 전 43경기·43선발·1,219분; LaMelo는 18경기 bench 뒤 25선발·1,191분 | Minnesota 루키 시즌·정확 역할과 성과 별도 계산 | Chicago opening 15+2·마감일 전 분/선발 PASS / 생산성·승패·거래 HOLD |
+| 2020-21 | 3년차 선발 SF/PF, 마감일 전 43경기·43선발·1,219분; BASE 11.42점·7.72리바운드. LaMelo는 18경기 bench 뒤 25선발·1,191분, BASE 13.85점·5.54어시스트 | Minnesota 루키 시즌·정확 역할과 성과 별도 계산 | Chicago 마감일 전 역할·생산성 prior PASS / exact 박스·승패·부상·거래 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
 
 ## NBA 상승 방향 — LOCKED / 정확 배정 HOLD

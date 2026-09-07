@@ -399,5 +399,13 @@
 | D-391 | COBY_DEVELOPMENT_RETENTION | Coby 43경기·18선발·1,142:04와 26:34 평균 유지 | LaMelo 선발로 Coby 삭제·완성형 PG 판정 모두 금지 |
 | D-392 | YOUNG_38_SECOND_BRIDGE | Young 0:38을 두 실제 출전일 사이에서 이동하고 시즌 net·GP·GS 보존 | 보호 선수를 secondary donor로 재분류하지 않음 |
 | D-393 | O15F2_PRODUCTION_NEXT | 다음 계산을 주인공·LaMelo 생산성 prior와 donor 이전량으로 지정 | 43경기 outcome·마감일 거래는 생산성 전 HOLD |
+| D-394 | THIRD_YEAR_LONGITUDINAL_COHORT_PASS | O-15C1의 2018 윙 9명을 2020-21까지 재선택 없이 추적하고 Jacob Evans의 NBA 0분도 보존 | 3년차 성공 사례만 골라 주인공 prior를 부풀리지 않음 |
+| D-395 | PROTAGONIST_PREDEADLINE_BOX_PRIOR_PASS | 주인공 BASE를 14.5득점·9.8리바운드·3.2어시스트/36, TS .555, USG 17.0%로 설정 | 3년차 공격 성장 가시화, LaVine 제1옵션·타이트 핸들 미완성 유지 |
+| D-396 | LAMELO_CHICAGO_SHRINK_PRIOR_PASS | LaMelo BASE를 18.0득점·6.8리바운드·7.2어시스트/36, TS .535, USG 21.5%로 설정 | Charlotte 손목 전 41경기 관측치를 Chicago 기록으로 복사하지 않고 LaVine·Coby·Satoransky 공존 비용 반영 |
+| D-397 | PREDEADLINE_TRANSFER_PRODUCTION_PASS | Patrick·Hutchison 전량과 secondary donor 비례분의 제거 관측량은 851.77득점·405.63리바운드·213.77어시스트·63.13스틸·38.25블록 | Young 0:38 net-zero bridge는 aggregate 생산성 이전에서 제외 |
+| D-398 | BOX_ATTRIBUTION_NOT_TEAM_OUTPUT | 두 가상 선수 BASE와 제거 pool 차이 +234.72득점·+151.17리바운드·+132.79어시스트·+50.68스틸·+8.85블록·+76.95턴오버는 선수 귀속 변화 | 팀 총생산성·점수차에 직접 합산하거나 긍정 사건만 선택 금지 |
+| D-399 | PREDEADLINE_43_GAME_BOX_INPUT_PASS | 43개 event ID에 두 선수 BASE 기대 박스와 날짜별 donor 선형 제거량을 연결 | 모든 impact_status HOLD, score-margin 변환은 O-15F3에서 별도 검산 |
+| D-400 | LAMELO_INJURY_EVENT_REMAINS_HOLD | Chicago 43경기 active 계산을 Charlotte 오른손 손목 골절의 삭제로 승격하지 않음 | 낙상·부상 사건과 이후 결장은 별도 사건 원장 전 HOLD |
+| D-401 | O15F3_OUTCOME_NEXT | 다음 계산을 43경기 score-margin impact·대체 마감일 성적으로 지정 | 실제 19-24·Vučević·3팀 거래 자동 유지 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

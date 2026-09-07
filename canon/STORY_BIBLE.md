@@ -161,7 +161,7 @@
 - Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. 작가 선택으로 Achiuwa 20·Maxey 21·Denver Saddiq Bey 22를 `AUTHOR_APPROVED / LOCKED`로 둔다.
 - Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31·Charlotte Terry 32, 실제 33~41 유지·Charlotte Carey 42, 실제 43~55 유지·Charlotte Richards 56, 실제 57~60 유지·Grant Riller 미지명 자유계약 시장까지 `AUTHOR_APPROVED / LOCKED`로 둔다. 2020 Draft 1~60 연쇄는 닫혔으며 Riller의 정확 계약은 2020-21 opening roster 원장까지 `HOLD`다.
 
-## Chicago 2020-21 개막 역할 — LOCKED STRUCTURE / PROVISIONAL MINUTES
+## Chicago 2020-21 개막 역할 — LOCKED STRUCTURE / PREDEADLINE PRIOR PASS
 
 - 개막 명단은 `Hutchison→주인공`, `Patrick Williams→LaMelo Ball` 두 자리 치환으로 표준계약 15명 + 투웨이 2명을 유지한다. 별도 방출과 Marko Simonović의 조기 합류를 만들지 않는다.
 - 주인공은 3년차 선발 SF/PF로 리바운드 종료·큰 윙 수비·전환 시동을 맡는다. grab-and-go와 숏롤 첫 패스는 성장 기능이며 상시 point forward로 과장하지 않는다.
@@ -170,7 +170,9 @@
 - LaVine의 주득점원 지위, Coby의 개발 가치, Temple의 수비 기능을 공짜로 주인공·LaMelo에게 이전하지 않는다.
 - 마감일 전 same-date 역할은 주인공 43경기·43선발·1,219분, LaMelo 43경기·25선발·1,191분으로 잠정 고정한다. LaMelo는 첫 18경기 bench 적응 뒤 2021-02-01부터 선발한다.
 - Coby는 LaMelo 선발 전환 뒤에도 43경기·18선발·1,142:04를 유지한다. 역할은 주도 PG 고정에서 2차 득점·약한 수비 매치업 공격으로 이동하지만 성장 경로를 삭제하지 않는다.
-- 마감일 전 역할선은 생산성·승패·손목 부상·거래를 확정하지 않는다.
+- 마감일 전 주인공 BASE는 14.5득점·9.8리바운드·3.2어시스트/36, TS .555, USG 17.0%다. 3년차 grab-and-go·숏롤 첫 패스의 성장을 보여 주되 LaVine의 제1옵션 지위를 넘지 않는다.
+- LaMelo Chicago BASE는 18.0득점·6.8리바운드·7.2어시스트/36, TS .535, USG 21.5%다. Charlotte 신인왕 기록을 복사하지 않고 LaVine·Coby·Satoransky와의 권한 중복을 반영한다.
+- 두 선수의 생산성 prior와 donor 관측 이전량은 통과했지만 exact 개인 박스·승패·손목 부상·거래는 확정하지 않는다. 선수 박스 귀속 차이를 팀 득점에 직접 합산하지 않는다.
 
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 
