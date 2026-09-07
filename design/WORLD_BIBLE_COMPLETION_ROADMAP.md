@@ -8,13 +8,13 @@
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
-현재 대학 구간, 인물의 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~56순위가 정본화됐다. 57~60순위·미지명 시장의 마지막 작가 게이트 뒤 첫 번째 남은 매크로 게이트가 닫힌다. 다만 장기 NBA 인과와 통합 검수가 열려 있어 완성본 명칭을 쓰지 않는다.
+현재 대학 구간, 인물의 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~60순위와 Grant Riller의 미지명 시장 진입이 정본화됐다. 첫 번째 남은 매크로 게이트가 닫혔으며, 현재 작업은 Chicago 2020-21 opening roster·시즌 원장이다. 다만 장기 NBA 인과와 통합 검수가 열려 있어 완성본 명칭을 쓰지 않는다.
 
 ## 2. v1.0까지 남은 매크로 게이트
 
 | 순서 | 매크로 게이트 | 완료 조건 |
 |---:|---|---|
-| 1 | 2020 Draft 연쇄 마감 | 현재 이동 선수의 재착지와 거래 연쇄가 안정되고 2020-21 opening roster를 열 수 있음 |
+| 1 | 2020 Draft 연쇄 마감 | **COMPLETE — 1~60순위와 Riller 미지명 시장 진입 AUTHOR_LOCKED; 정확 계약은 다음 원장으로 분리** |
 | 2 | Chicago 2020-21 시즌 원장 | 선수별 경기·분·생산성·승패·standings가 같은 날짜 기준으로 보존됨 |
 | 3 | 2021~23 거래·계약 연쇄 | Vučević·DeRozan·Lonzo Ball·Caruso·Markkanen·LaVine 및 주인공 계약·cap·픽 자산을 시간순 검산 |
 | 4 | 두 선수 장기 커리어 | 주인공의 단계적 프랜차이즈 승계와 라이벌 Minnesota 경로, 수상·우승·부상은 선행 시즌 결과 뒤 조건부 확정 |

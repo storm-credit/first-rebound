@@ -159,7 +159,7 @@
 - Boston은 Aaron Nesmith를 14순위, Orlando는 Cole Anthony를 15순위, Detroit는 통제한 16순위로 Kira Lewis Jr.를 지명한다.
 - Kira에게 밀린 Isaiah Stewart는 Oklahoma City Pokuševski 17·Dallas Josh Green 18 유지 뒤 Detroit 통제 19순위에서 지명된다.
 - Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. 작가 선택으로 Achiuwa 20·Maxey 21·Denver Saddiq Bey 22를 `AUTHOR_APPROVED / LOCKED`로 둔다.
-- Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31·Charlotte Terry 32, 실제 33~41 유지·Charlotte Carey 42, 실제 43~55 유지·Charlotte Richards 56까지 `AUTHOR_APPROVED / LOCKED`로 둔다. Richards에게 밀린 Grant Riller는 57순위부터 재판정하며, 실제 57~60 유지 뒤 미지명 자유계약 시장 진입이 `PRIMARY_LEAN / AUTHOR_GATE`다.
+- Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31·Charlotte Terry 32, 실제 33~41 유지·Charlotte Carey 42, 실제 43~55 유지·Charlotte Richards 56, 실제 57~60 유지·Grant Riller 미지명 자유계약 시장까지 `AUTHOR_APPROVED / LOCKED`로 둔다. 2020 Draft 1~60 연쇄는 닫혔으며 Riller의 정확 계약은 2020-21 opening roster 원장까지 `HOLD`다.
 
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 

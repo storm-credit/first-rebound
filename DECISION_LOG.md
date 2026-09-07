@@ -380,5 +380,9 @@
 | D-372 | PICKS_57_TO_60_RETENTION_LEAN | Perry·Reed·Harris·Merrill 실제 지명 유지 주안 | 직접 권리 취득·구단 평가를 Riller의 일반 순위보다 우선 |
 | D-373 | RILLER_UNDRAFTED_MARKET_PRIMARY_LEAN | Grant Riller가 미지명 자유계약 시장으로 진입하는 안을 총괄 추천 | 네 자리 하락·추가 선수 이동 0, 정확 계약은 HOLD |
 | D-374 | RILLER_CONTRACT_FIREWALL | Riller의 드래프트 미지명과 정확 팀·계약 종류를 분리 | Charlotte 투웨이 자동 복원·로스터 초과 금지 |
+| D-375 | AUTHOR_LOCK / PICKS_57_TO_60 | Brooklyn Perry 57·Philadelphia Reed 58·Toronto Harris 59·Milwaukee Merrill 60 실제 지명을 유지 | 직접 권리 취득·구단 평가를 보존하고 추가 이동 선수 생성 금지 |
+| D-376 | AUTHOR_LOCK / RILLER_UNDRAFTED_MARKET | Grant Riller는 2020 Draft 미지명 자유계약 시장으로 진입 | 미지명을 NBA 탈락으로 쓰지 않고 정확 계약은 다음 원장으로 분리 |
+| D-377 | RILLER_59_OR_60_REJECTED | Toronto Riller 59·Milwaukee Riller 60 분기를 비교 이력으로 보존 | Harris·Merrill의 직접 선택·권리 취득을 존중 |
+| D-378 | 2020_DRAFT_CASCADE_COMPLETE | 2020 Draft 1~60 연쇄를 `AUTHOR_APPROVED / LOCKED`로 종료 | 다음 활성 계산은 Chicago 2020-21 opening roster·시즌 원장 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
