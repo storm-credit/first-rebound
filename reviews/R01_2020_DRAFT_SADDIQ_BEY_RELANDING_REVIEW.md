@@ -1,6 +1,6 @@
 # R01 2020 Draft Saddiq Bey Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICKS_20_TO_22_AUTHOR_GATE / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / PICKS_20_TO_22_AUTHOR_LOCKED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -13,6 +13,6 @@
 
 ## 결론
 
-**Achiuwa 20 유지**와 **Maxey 21 유지**는 각각 `RETENTION_STRONG_LEAN`이다. Bey는 실제 19순위 가치와 Denver의 동시대 공식 관심을 함께 충족하므로 **Bey 22 `PRIMARY_LEAN / AUTHOR_GATE`**가 가장 강하다.
+작가가 직전 총괄 추천을 이어서 승인했다. **Achiuwa 20 → Maxey 21 → Bey 22**는 `AUTHOR_APPROVED / LOCKED`다. 공개되지 않은 Denver의 Bey–Nnaji 내부 head-to-head가 확인됐다는 뜻은 아니다.
 
-총괄 추천은 **A Achiuwa 20 → Maxey 21 → Saddiq Bey 22 → Zeke Nnaji 23순위 이하 재개**다. 정확 20~22순위는 작가 승인 전 `HOLD`다.
+Zeke Nnaji는 삭제하지 않고 Minnesota 통제 23순위부터 재판정한다. Denver 24순위의 R.J. Hampton과 선수 순서 및 거래 구조를 분리해 검산한다.
