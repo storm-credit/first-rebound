@@ -1,6 +1,6 @@
 # R01 2020 Draft Zeke Nnaji Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICKS_23_TO_24_AUTHOR_GATE / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / PICKS_23_TO_24_AUTHOR_LOCKED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -13,6 +13,6 @@
 
 ## 결론
 
-**Bolmaro 23 유지**는 `RETENTION_STRONG_LEAN`이다. Nnaji는 실제 Denver의 첫 보유 픽에서 먼저 보호됐으므로 **Nnaji 24 `PRIMARY_LEAN / AUTHOR_GATE`**가 가장 강하다.
+작가 승인으로 **Bolmaro 23 → Nnaji 24**를 `AUTHOR_APPROVED / LOCKED`로 둔다. Nnaji가 실제 Denver의 첫 보유 픽에서 먼저 보호됐다는 관측과 Minnesota의 목적 상향 거래를 함께 보존하는 분기다.
 
-총괄 추천은 **A Bolmaro 23 → Zeke Nnaji 24 → R.J. Hampton 25순위 이하 재개**다. 정확 23~24순위는 작가 승인 전 `HOLD`다.
+정확 1~24순위가 정본화됐다. R.J. Hampton은 삭제하지 않고 25순위 이하에서 재개한다. 승인은 공개된 Nnaji–Hampton 내부 head-to-head 보드가 새로 확인됐다는 뜻이 아니다.

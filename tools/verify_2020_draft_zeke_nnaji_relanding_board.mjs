@@ -10,8 +10,8 @@ const rows = lines.map((line) => Object.fromEntries(line.split(',').map((value, 
 const primary = rows.filter((row) => row.branch === 'PRIMARY');
 
 const expected = [
-  ['23', 'Minnesota Timberwolves', 'Leandro Bolmaro', 'RETENTION_STRONG_LEAN'],
-  ['24', 'Denver Nuggets', 'Zeke Nnaji', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['23', 'Minnesota Timberwolves', 'Leandro Bolmaro', 'AUTHOR_LOCKED'],
+  ['24', 'Denver Nuggets', 'Zeke Nnaji', 'AUTHOR_LOCKED'],
 ];
 
 if (primary.length !== expected.length) throw new Error(`expected 2 primary rows, got ${primary.length}`);
@@ -24,17 +24,17 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'BEY_22_AUTHOR_LOCKED / PICKS_23_TO_24_AUTHOR_GATE',
-  'Leandro Bolmaro 23순위 `RETENTION_STRONG_LEAN`',
-  'Zeke Nnaji 24순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`',
+  'PICKS_23_TO_24_AUTHOR_LOCKED / HAMPTON_RELANDING_OPEN',
+  'Leandro Bolmaro 23순위 `AUTHOR_APPROVED / LOCKED`',
+  'Zeke Nnaji 24순위 `AUTHOR_APPROVED / LOCKED`',
   '선수 선택과 픽 거래의 경제는 분리',
   '후대 NBA 성과·부상·계약은 사용하지 않는다',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('PICKS_23_TO_24_AUTHOR_GATE')) throw new Error('missing pick 23-24 author gate');
+if (!review.includes('PICKS_23_TO_24_AUTHOR_LOCKED')) throw new Error('missing pick 23-24 author lock');
 if (!review.includes('공개된 Nnaji–Hampton 내부 head-to-head 보드는 아니다')) throw new Error('missing Denver evidence limit');
-if (!review.includes('정확 23~24순위는 작가 승인 전 `HOLD`')) throw new Error('missing exact-pick hold');
+if (!review.includes('정확 1~24순위가 정본화됐다')) throw new Error('missing exact-pick lock');
 
 console.log('PASS Zeke Nnaji relanding board');
-console.log('Bolmaro 23 retained as strong lean; Nnaji 24 author-gated');
+console.log('Bolmaro 23 and Nnaji 24 author-locked; Hampton relanding open');
