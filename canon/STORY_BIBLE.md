@@ -161,6 +161,14 @@
 - Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. 작가 선택으로 Achiuwa 20·Maxey 21·Denver Saddiq Bey 22를 `AUTHOR_APPROVED / LOCKED`로 둔다.
 - Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31·Charlotte Terry 32, 실제 33~41 유지·Charlotte Carey 42, 실제 43~55 유지·Charlotte Richards 56, 실제 57~60 유지·Grant Riller 미지명 자유계약 시장까지 `AUTHOR_APPROVED / LOCKED`로 둔다. 2020 Draft 1~60 연쇄는 닫혔으며 Riller의 정확 계약은 2020-21 opening roster 원장까지 `HOLD`다.
 
+## Chicago 2020-21 개막 역할 — LOCKED STRUCTURE / PROVISIONAL MINUTES
+
+- 개막 명단은 `Hutchison→주인공`, `Patrick Williams→LaMelo Ball` 두 자리 치환으로 표준계약 15명 + 투웨이 2명을 유지한다. 별도 방출과 Marko Simonović의 조기 합류를 만들지 않는다.
+- 주인공은 3년차 선발 SF/PF로 리바운드 종료·큰 윙 수비·전환 시동을 맡는다. grab-and-go와 숏롤 첫 패스는 성장 기능이며 상시 point forward로 과장하지 않는다.
+- LaMelo는 첫 가드 교체·두 번째 유닛 창출자로 시작하고, Coby의 초기 PG 시험을 짧게 보존한다. 게임 10~20 평가 뒤 LaMelo 선발·Coby 득점 역할 전환을 검토하되 exact 날짜는 player-game 원장 뒤 정한다.
+- provisional BASE는 주인공 1,938분, LaMelo 1,760분이다. 추가 donor 1,651분의 같은 날짜 보존 전에는 두 선수의 GP·GS·분·개인 기록을 LOCK하지 않는다.
+- LaVine의 주득점원 지위, Coby의 개발 가치, Temple의 수비 기능을 공짜로 주인공·LaMelo에게 이전하지 않는다.
+
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 
 - 2018에는 주인공과 라이벌 모두 아시안게임에 참가하지 않는다. 주인공은 Chicago 루키 개발 일정에 남고, 라이벌은 ACL 재활 중이다. 한국의 실제 동메달 결과를 유지한다.
