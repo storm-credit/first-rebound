@@ -303,3 +303,7 @@ O-15E8에서 작가는 직전 총괄 추천을 이어서 진행해 **Achiuwa 20 
 O-15E9에서 작가는 직전 총괄 추천을 이어서 진행해 **Bolmaro 23 → Zeke Nnaji 24**를 승인했다. 정확 1~24순위는 `AUTHOR_APPROVED / LOCKED`다. Hampton은 New York 통제 25순위부터 재판정한다. 실제 25~30은 팀별 슈팅 필요·직접 선호·백업 센터 역할·목적 거래가 겹쳐 유지 주안이며, Dallas의 실제 인터뷰와 Hampton의 7계단 가치 하락을 반영해 총괄은 **실제 25~30 유지 → R.J. Hampton 31**을 추천한다. 정확 25~31순위는 새 작가 게이트다.
 
 O-15E10에서 작가는 직전 총괄 추천을 이어서 진행해 **실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지→R.J. Hampton 31**을 승인했다. 정확 1~31순위는 `AUTHOR_APPROVED / LOCKED`다. Terry는 Charlotte 통제 32순위부터 재판정한다. Charlotte가 실제 LaMelo 대신 Edwards를 3순위로 지명해 창출 기능이 줄어든 상류 변화를 반영하되 Carey·Richards 센터 보강 의도를 함께 보존해야 한다. 총괄은 **Tyrell Terry 32**를 추천하며 정확 32순위는 새 작가 게이트다.
+
+O-15E11에서 작가는 직전 총괄 추천을 이어서 진행해 **Charlotte Tyrell Terry 32**를 승인했다. 정확 1~32순위는 `AUTHOR_APPROVED / LOCKED`다. Carey는 LA Clippers 통제 33순위부터 재판정한다. 33~41순위에는 목적 거래와 직접 선택이 연속되고, Charlotte는 실제 42순위 센터 슬롯을 2024 2라운드 지명권으로 취득했으며 Carey를 Richards보다 먼저 보호했다. 총괄은 **실제 33~41 유지 → Charlotte Vernon Carey Jr. 42**를 추천한다. 정확 33~42순위는 새 작가 게이트다.
+
+O-15E12에서 작가는 총괄의 시간순 정본 누적 방식과 권고안 A를 승인해 **실제 33~41 유지 → Charlotte Vernon Carey Jr. 42**를 확정했다. 정확 1~42순위는 `AUTHOR_APPROVED / LOCKED`다. Nick Richards는 Sacramento 43순위부터 재판정한다. 실제 43~55는 역할·stash·권리 거래 근거로 유지 주안이며, Charlotte는 Edwards 3·Terry 32로 Riller의 가드 개발 기능이 중복된 반면 실제 두 센터 보강 의도는 남는다. 총괄은 **실제 43~55 유지 → Charlotte Nick Richards 56**을 추천하며 정확 43~56순위는 새 작가 게이트다.

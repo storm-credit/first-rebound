@@ -1,6 +1,6 @@
 # 2020 Draft Tyrell Terry Relanding Board
 
-- 상태: `PICKS_1_TO_31_AUTHOR_LOCKED / PICK_32_AUTHOR_GATE`
+- 상태: `PICKS_1_TO_32_AUTHOR_LOCKED / CAREY_RELANDING_OPEN`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 → Okoro 5 → Okongwu 6 → Patrick 7 → Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Hayes 13 → Nesmith 14 → Cole 15 → Kira 16 → Pokuševski 17 → Josh Green 18 → Stewart 19 → Achiuwa 20 → Maxey 21 → Bey 22 → Bolmaro 23 → Nnaji 24 → Quickley 25 → Pritchard 26 → Azubuike 27 → McDaniels 28 → Flynn 29 → Bane 30 → Hampton 31`
 - 이동 선수: 실제 Dallas 31순위 Tyrell Terry
 - 원고 게이트: `CLOSED`
@@ -22,22 +22,21 @@ Dallas가 Hampton을 31순위로 지명했으므로 Terry를 삭제하거나 전
 - Kupchak은 Carey의 기술·크기·손을 직접 평가했다. Cody Zeller 뒤 장기 센터층이 얇았다는 roster 이유도 유지된다.
 - 따라서 `Edwards 3 → Terry 32`는 자동 결과가 아니다. 공개된 Terry–Carey 내부 head-to-head는 확인되지 않았다.
 
-## 4. 작가 선택
+## 4. 작가 선택 결과
 
 | 안 | Charlotte 32 | 새 이동 선수 | 판정 |
 |---|---|---|---|
-| **A** | **Tyrell Terry** | Vernon Carey Jr. | **총괄 추천** |
-| B | Vernon Carey Jr. | Tyrell Terry | 실제 센터 보강 우선 대안 |
+| **A** | **Tyrell Terry** | Vernon Carey Jr. | **작가 승인·LOCK** |
+| B | Vernon Carey Jr. | Tyrell Terry | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — Tyrell Terry 32**를 추천한다. Charlotte가 이미 3순위에서 LaMelo의 창출을 잃은 상류 변화를 실제로 반영하고, 실제 31순위급 선수를 한 칸 뒤에서 회수한다. 센터 필요는 지우지 않으며 Carey를 LA Clippers 통제 33순위부터 재판정한다.
+작가가 이어서 진행하도록 승인해 **A — Tyrell Terry 32**를 `AUTHOR_APPROVED / LOCKED`로 둔다. Charlotte가 이미 3순위에서 LaMelo의 창출을 잃은 상류 변화를 반영하고, 실제 31순위급 선수를 한 칸 뒤에서 회수한다. B는 비교 이력으로만 보존한다. 센터 필요는 지우지 않으며 Carey를 LA Clippers 통제 33순위부터 재판정한다.
 
 ## 5. 다음 경계
 
-1. 작가가 A/B를 선택한다.
-2. A라면 Vernon Carey Jr.를 LA Clippers 통제 33순위부터 재판정한다.
-3. B라면 Tyrell Terry를 LA Clippers 통제 33순위부터 재판정한다.
-4. Charlotte의 42순위 Nick Richards 권리 거래는 32순위 선택 하나로 자동 유지·소멸하지 않는다.
-5. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
+1. Vernon Carey Jr.를 LA Clippers 통제 33순위부터 재판정한다.
+2. Charlotte의 42순위 Nick Richards 권리 거래는 32순위 선택 하나로 자동 유지·소멸하지 않는다.
+3. B는 비교 이력으로만 보존하고 활성 연쇄에서 사용하지 않는다.
+4. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
 
 ## 6. 출처
 

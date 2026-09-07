@@ -364,5 +364,16 @@
 | D-356 | TERRY_CHARLOTTE_32_PRIMARY_LEAN | Charlotte가 32순위에서 Tyrell Terry를 지명하는 안을 총괄 추천 | 실제 31순위 가치·슈팅·보조 창출 반영, 공개 Carey head-to-head 부재로 exact HOLD |
 | D-357 | CAREY_32_RETENTION_CONTINGENCY | Vernon Carey Jr. 32 유지를 실현 가능한 반대 분기로 보존 | Carey·Richards의 센터 보강 목적을 Terry fit만으로 삭제하지 않음 |
 | D-358 | NEXT_CAREY_RELANDING_FIREWALL | Terry 32 선택 시 Carey를 LA Clippers 통제 33순위부터 재계산 | Carey 42 자동 회수·Nick Richards 자동 삭제 금지 |
+| D-359 | AUTHOR_LOCK / TERRY_CHARLOTTE_32 | Charlotte는 전체 32순위로 Tyrell Terry를 지명 | LaMelo 대신 Edwards를 선택해 줄어든 창출과 Terry의 실제 31순위 가치를 반영 |
+| D-360 | CAREY_32_REJECTED | Vernon Carey Jr. 32 유지를 비교 이력으로만 보존 | 센터 필요는 Carey 재착지 보드에서 계속 반영 |
+| D-361 | PICKS_33_TO_41_RETENTION_LEAN | Oturu·Maledon·Tillman·Tyler Bey·Krejčí·Saben Lee·Hughes·Woodard·Tre Jones 실제 지명 유지 주안 | 목적 거래·직접 선택을 Carey의 일반 순위값보다 우선, 공개 head-to-head로 과장 금지 |
+| D-362 | CAREY_CHARLOTTE_42_PRIMARY_LEAN | Charlotte가 42순위 센터 슬롯에서 Vernon Carey Jr.를 회수하는 안을 총괄 추천 | 실제 Carey 우선 선택·42순위 매입 반영, Richards 유지 대안 보존 |
+| D-363 | NEXT_RICHARDS_RELANDING_FIREWALL | Carey 42 선택 시 Nick Richards를 Sacramento 43순위부터 재계산 | Richards 삭제·43순위 이하 자동 한 칸 이동 금지 |
+| D-364 | WORLD_BIBLE_V1_COMPLETION_GATE | 세계관 설정집은 누적 작성 중이며 7개 매크로 게이트 뒤 v1.0 후보로 승격 | 드래프트 종료만으로 설계 완료·원고 개방 금지 |
+| D-365 | AUTHOR_LOCK / PICKS_33_TO_42 | 2020 Draft 33~41순위 실제 지명을 유지하고 Charlotte가 Carey를 42순위에서 회수 | 목적 거래와 Charlotte의 실제 Carey 우선 순서를 함께 보존 |
+| D-366 | CAREY_33_AND_RICHARDS_42_REJECTED | Clippers Carey 33·Charlotte Richards 42 유지 분기를 비교 이력으로 보존 | 비공개 내부 head-to-head 확인으로 쓰지 않음 |
+| D-367 | PICKS_43_TO_55_RETENTION_LEAN | Ramsey부터 Scrubb까지 실제 지명을 역할·stash·거래 근거로 유지 주안 | Richards의 실제 42순위만으로 자동 치환 금지 |
+| D-368 | RICHARDS_CHARLOTTE_56_PRIMARY_LEAN | Charlotte가 56순위에서 Nick Richards를 회수하는 안을 총괄 추천 | Edwards·Terry의 가드 중복과 실제 두 센터 보강 의도 반영 |
+| D-369 | NEXT_RILLER_RELANDING_FIREWALL | Richards 56 선택 시 Grant Riller를 Brooklyn 통제 57순위부터 재계산 | Riller 삭제·57~60 자동 이동 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

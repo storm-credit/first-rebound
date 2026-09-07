@@ -25,9 +25,9 @@ last_reviewed: 2026-09-02
 | G04 한국 농구 세계 | 선택 시대의 학교·대회·스카우팅·문화 | FOUNDATION_PARTIAL — 2015 입문·같은 고교·미국행 인과 LOCK, 교명·개별 대회/권한 HOLD |
 | G05 미국 프렙 세계 | 입학·비자·학사·리크루팅·생활 | FOUNDATION_PASS — 가상 뉴잉글랜드 보딩 프렙·2016년 3월 편입·2017년 5~6월 조기졸업 구조 LOCK. 교명·개별 학점 감사 HOLD |
 | G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
-| G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Chicago 원클럽·라이벌 Minnesota #1·2020 picks 1~31과 rookie-scale 방향 LOCK. 주인공 2018 정확 순번·관계·Terry 32+ 연쇄 HOLD |
+| G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Chicago 원클럽·라이벌 Minnesota #1·2020 picks 1~42와 rookie-scale 방향 LOCK. 주인공 2018 정확 순번·관계·Richards 43+ 연쇄 HOLD |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
-| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2018_20_PARTIAL — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~31 통과, exact 승수·Terry 32+·2020-21 roster HOLD |
+| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2018_20_PARTIAL — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~42 통과, exact 승수·Richards 43+·2020-21 roster HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
