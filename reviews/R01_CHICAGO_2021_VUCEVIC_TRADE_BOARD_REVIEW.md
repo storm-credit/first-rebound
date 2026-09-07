@@ -1,7 +1,7 @@
 # R01 Chicago 2021 Vučević Trade Board Review
 
 - 검토 범위: O-15F4 실제 Vučević 패키지·저비용 센터 보강·무거래 비교
-- 판정: `PASS_FOR_AUTHOR_SELECTION / B_PRIMARY_LEAN / EXACT_TRANSACTION_HOLD`
+- 판정: `AUTHOR_APPROVED / B_DIRECTION_LOCKED / EXACT_TRANSACTION_HOLD`
 
 ## 결론
 
@@ -26,13 +26,12 @@
 3. Boston·Washington이 Hutchison 없는 구조를 받아들이지 않거나 Theis 가격이 오르면 B가 타깃 실패 뒤 C로 끝날 수 있다.
 4. 대체 19승 분기에서는 확실한 All-Star를 사는 위험보다 2021 pick 가치가 더 크게 보일 수 있고, 21승 분기에서는 반대가 될 수 있다.
 
-이 반대 가능성들은 A 또는 C를 불가능하게 만들지 않는다. 그래서 B는 `PRIMARY_LEAN`이지 자동 정본이 아니다.
+이 반대 가능성들은 A 또는 C가 당시 불가능했다는 뜻은 아니다. 작가 선택으로 B를 방향 정본화하되, 정확한 저비용 거래는 별도 시장 보드 전 잠그지 않는다.
 
 ## 방화벽
 
-- A/B/C 정확 선택: `AUTHOR_GATE`
+- A/B/C 방향: `B AUTHOR_APPROVED_DIRECTION_LOCK`
 - Vučević·Theis·McGee·buyout 빅 정확 입단: `HOLD`
 - 마감일 뒤 승수·순위·2021 pick: `HOLD`
 - Markkanen·LaVine·주인공 계약과 2021 여름 영입: `HOLD`
 - 원고 게이트: `CLOSED`
-
