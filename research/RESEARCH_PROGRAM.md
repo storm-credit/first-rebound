@@ -461,3 +461,15 @@
 - Young bridge: 0:38 시즌 impact net zero·승패 변화 없음
 - 거래 경계: Chicago buyer motive PASS, 실제 Vučević 패키지와 3팀 거래는 별도 HOLD
 - 다음 조사: O-15F4 Vučević 실제 패키지·소형 센터 거래·무거래 팀보드
+
+### R15.33 Chicago 2021 Vučević 거래 팀보드
+
+- 시장 기준선: `research/CHICAGO_2021_DEADLINE_CENTER_MARKET.md`
+- 선택 보드: `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md`, `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2021_VUCEVIC_TRADE_BOARD_REVIEW.md`
+- PASS: 실제 Vučević 패키지·top-4 보호 두 1R·당시 29.9% 사용률과 Theis·McGee·buyout 시장을 당시 정보로 분리
+- A: 실제 Vučević 패키지 `HISTORICAL_CONTINGENCY / AUTHOR_GATE`
+- B: 1R 0장·Carter 유지·저사용률 수비 빅 `PRIMARY_LEAN / AUTHOR_GATE`
+- C: 무거래 `SECONDARY_CONTINGENCY / AUTHOR_GATE`
+- 방화벽: 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적을 당시 선택 근거로 역선택 금지
+- 다음 조사: 작가 선택. B 선택 시 O-15F5 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패 비교
