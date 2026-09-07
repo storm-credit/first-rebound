@@ -346,5 +346,11 @@
 | D-338 | MAXEY_21_RETENTION_STRONG_LEAN | Philadelphia는 Morey의 lottery급·포지션 필요 평가로 Tyrese Maxey 21 유지 주안 | Villanova 연고·슈팅 필요를 Bey 우선 내부 보드로 과장하지 않음 |
 | D-339 | BEY_DENVER_22_PRIMARY_LEAN | Denver가 Saddiq Bey를 22순위로 지명하는 안을 총괄 추천 | 공식 사전 관심·실제 19순위 가치 반영, Nnaji와 공개 head-to-head 부재로 exact HOLD |
 | D-340 | NEXT_NNAJI_RELANDING_FIREWALL | Bey 22 선택 시 Zeke Nnaji를 Minnesota 통제 23순위부터 재계산 | Denver 24순위 Hampton과의 순서·거래 구조 동시 검산 |
+| D-341 | AUTHOR_LOCK / PICKS_20_TO_22 | 2020 Draft 20~22순위를 Achiuwa→Maxey→Saddiq Bey로 확정 | Miami·Philadelphia·Denver의 비공개 Bey 비교가 확인된 것으로 쓰지 않음 |
+| D-342 | BEY_DENVER_22_LOCK | Denver는 전체 22순위로 Saddiq Bey를 지명 | Zeke Nnaji 삭제 금지·23순위 이하 재착지 요구 |
+| D-343 | BOLMARO_23_RETENTION_STRONG_LEAN | Minnesota는 목적 상향 거래를 보존해 Leandro Bolmaro 23 유지 주안 | Nnaji의 Minnesota 출신 배경을 직접 팀 선호로 과장하지 않음 |
+| D-344 | NNAJI_DENVER_24_PRIMARY_LEAN | Denver가 별도 통제한 24순위에서 Zeke Nnaji를 회수하는 안을 총괄 추천 | 실제 22 우선 보호 순서를 반영하되 공개 Hampton head-to-head 부재로 exact HOLD |
+| D-345 | PICKS_23_TO_24_TRANSACTION_FIREWALL | Minnesota의 23순위 상향 거래와 Denver의 24순위 4팀 거래를 선수 선택과 분리 검산 | 드래프트 밤 보도·공식 완료 거래 이중 계산 및 자동 유지·소멸 금지 |
+| D-346 | NEXT_HAMPTON_RELANDING_FIREWALL | Nnaji 24 선택 시 R.J. Hampton을 New York 통제 25순위부터 재계산 | Hampton 삭제·Quickley 목적 거래 자동 훼손 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

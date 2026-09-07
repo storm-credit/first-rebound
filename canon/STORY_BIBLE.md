@@ -158,7 +158,8 @@
 - New York은 Obi Toppin 8순위, Washington은 Deni Avdija 9순위, Phoenix는 Jalen Smith 10순위, San Antonio는 Devin Vassell 11순위, Sacramento는 Tyrese Haliburton 12순위, New Orleans는 Killian Hayes 13순위로 지명한다.
 - Boston은 Aaron Nesmith를 14순위, Orlando는 Cole Anthony를 15순위, Detroit는 통제한 16순위로 Kira Lewis Jr.를 지명한다.
 - Kira에게 밀린 Isaiah Stewart는 Oklahoma City Pokuševski 17·Dallas Josh Green 18 유지 뒤 Detroit 통제 19순위에서 지명된다.
-- Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. Achiuwa 20·Maxey 21 유지 뒤 Denver 22순위 Bey 주안은 아직 `HOLD`다.
+- Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. 작가 선택으로 Achiuwa 20·Maxey 21·Denver Saddiq Bey 22를 `AUTHOR_APPROVED / LOCKED`로 둔다.
+- Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. Minnesota의 목적 상향 거래 때문에 Bolmaro 23 유지가 강한 주안이며, Denver가 별도 통제한 24순위에서 Nnaji를 회수하는 안은 `AUTHOR_GATE`다.
 
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 

@@ -10,9 +10,9 @@ const rows = lines.map((line) => Object.fromEntries(line.split(',').map((value, 
 const primary = rows.filter((row) => row.branch === 'PRIMARY');
 
 const expected = [
-  ['20', 'Miami Heat', 'Precious Achiuwa', 'RETENTION_STRONG_LEAN'],
-  ['21', 'Philadelphia 76ers', 'Tyrese Maxey', 'RETENTION_STRONG_LEAN'],
-  ['22', 'Denver Nuggets', 'Saddiq Bey', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['20', 'Miami Heat', 'Precious Achiuwa', 'AUTHOR_LOCKED'],
+  ['21', 'Philadelphia 76ers', 'Tyrese Maxey', 'AUTHOR_LOCKED'],
+  ['22', 'Denver Nuggets', 'Saddiq Bey', 'AUTHOR_LOCKED'],
 ];
 
 if (primary.length !== expected.length) throw new Error(`expected 3 primary rows, got ${primary.length}`);
@@ -25,17 +25,17 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'STEWART_19_AUTHOR_LOCKED / PICKS_20_TO_22_AUTHOR_GATE',
-  'Precious Achiuwa 20순위 `RETENTION_STRONG_LEAN`',
-  'Tyrese Maxey 21순위 `RETENTION_STRONG_LEAN`',
-  'Saddiq Bey 22순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`',
+  'PICKS_20_TO_22_AUTHOR_LOCKED / NNAJI_RELANDING_REQUIRED',
+  'Precious Achiuwa 20순위 `AUTHOR_APPROVED / LOCKED`',
+  'Tyrese Maxey 21순위 `AUTHOR_APPROVED / LOCKED`',
+  'Saddiq Bey 22순위 `AUTHOR_APPROVED / LOCKED`',
   '후대 NBA 성과·부상·계약은 사용하지 않는다',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('PICKS_20_TO_22_AUTHOR_GATE')) throw new Error('missing pick 20-22 author gate');
+if (!review.includes('PICKS_20_TO_22_AUTHOR_LOCKED')) throw new Error('missing pick 20-22 author lock');
 if (!review.includes('head-to-head 증거는 아니다')) throw new Error('missing Denver evidence limit');
-if (!review.includes('정확 20~22순위는 작가 승인 전 `HOLD`')) throw new Error('missing exact-pick hold');
+if (!review.includes('Zeke Nnaji는 삭제하지 않고')) throw new Error('missing Nnaji relanding firewall');
 
 console.log('PASS Saddiq Bey relanding board');
-console.log('Achiuwa 20 / Maxey 21 retained as strong leans; Bey 22 author-gated');
+console.log('Achiuwa 20 / Maxey 21 / Bey 22 author-locked; Nnaji relanding required');

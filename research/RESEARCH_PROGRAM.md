@@ -348,6 +348,16 @@
 - 팀보드: `simulation/2020_DRAFT_SADDIQ_BEY_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_SADDIQ_BEY_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_SADDIQ_BEY_RELANDING_REVIEW.md`
-- 주안: Miami Achiuwa 20 `RETENTION_STRONG_LEAN` → Philadelphia Maxey 21 `RETENTION_STRONG_LEAN` → Denver Bey 22 `PRIMARY_LEAN / AUTHOR_GATE`
+- LOCK: Miami Achiuwa 20 → Philadelphia Maxey 21 → Denver Bey 22 `AUTHOR_APPROVED / LOCKED`
 - 거래 안전선: Denver 22순위 선택과 24순위 획득·Jerami Grant 후속 결정을 분리 검산
-- 다음 조사: 작가 선택 뒤 이동 선수를 Minnesota 통제 23순위부터 재판정
+- 다음 조사: Zeke Nnaji를 Minnesota 통제 23순위부터 재판정
+
+### R15.23 Zeke Nnaji 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_ZEKE_NNAJI_RELANDING_REVIEW.md`
+- 주안: Minnesota Bolmaro 23 `RETENTION_STRONG_LEAN` → Denver Nnaji 24 `PRIMARY_LEAN / AUTHOR_GATE`
+- 거래 안전선: Minnesota 23순위 목적 상향 거래와 Denver 24순위 4팀 거래를 선수 선택과 분리 검산
+- 자료 한계: Denver가 Nnaji를 22에서 먼저 보호한 순서는 강한 관측치지만 공개 Nnaji–Hampton 내부 순위는 아님
+- 다음 조사: 작가 선택 뒤 이동 선수를 New York 통제 25순위부터 재판정
