@@ -707,3 +707,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Dallas는 외곽 수비형 윙 Josh Green 18 유지 `RETENTION_LEAN`, Stewart가 19번까지 남으면 별도 픽을 통제한 Detroit가 Stewart를 회수하는 안을 `PRIMARY_LEAN / AUTHOR_GATE`로 둔다.
 - 총괄 추천은 **Pokuševski 17 → Josh Green 18 → Stewart 19**다. 이 경우 Saddiq Bey를 Miami 20순위부터 재판정한다. 정확 17~19순위는 작가 승인 전 `HOLD`다.
 - 16순위 Wood 거래, 17순위 Rubio 3팀 거래, 19순위 Kennard–Shamet 3팀 거래를 선수 한 명의 이동으로 자동 유지·소멸시키지 않는다.
+
+## v0.30 O-15E7 PARTIAL ADDITIONS — Pokuševski 17·Josh Green 18·Stewart 19
+
+- 작가가 직전 총괄 추천을 이어서 진행하도록 승인해 **Oklahoma City Pokuševski 17 → Dallas Josh Green 18 → Detroit Isaiah Stewart 19**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~19순위가 정본화됐다.
+- Stewart 17과 Stewart 18 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 이는 OKC·Dallas의 비공개 내부 보드가 확인됐다는 뜻이 아니다.
+- Stewart에게 밀린 Saddiq Bey는 삭제하지 않고 Miami 20순위부터 재판정한다.
+- Miami는 명시적 빅맨 필요 때문에 Precious Achiuwa 20 유지, Philadelphia는 Morey의 lottery급·포지션 필요 평가 때문에 Tyrese Maxey 21 유지를 각각 `RETENTION_STRONG_LEAN`으로 둔다.
+- Denver는 Bey를 동시대 공식 프로필에서 팀과 강하게 연결된 후보로 검토했고 Bey가 실제 19순위 가치이므로 **Bey 22 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다.
+- 총괄 추천은 **Achiuwa 20 → Maxey 21 → Bey 22**다. 이 경우 Zeke Nnaji를 Minnesota 통제 23순위부터 재판정하며 Denver 통제 24순위의 RJ Hampton과 함께 계산한다.

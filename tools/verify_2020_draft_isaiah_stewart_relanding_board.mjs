@@ -10,9 +10,9 @@ const rows = lines.map((line) => Object.fromEntries(line.split(',').map((value, 
 const primary = rows.filter((row) => row.branch === 'PRIMARY');
 
 const expected = [
-  ['17', 'Oklahoma City Thunder', 'Aleksej Pokusevski', 'RETENTION_STRONG_LEAN'],
-  ['18', 'Dallas Mavericks', 'Josh Green', 'RETENTION_LEAN'],
-  ['19', 'Detroit Pistons', 'Isaiah Stewart', 'PRIMARY_LEAN_AUTHOR_GATE'],
+  ['17', 'Oklahoma City Thunder', 'Aleksej Pokusevski', 'AUTHOR_LOCKED'],
+  ['18', 'Dallas Mavericks', 'Josh Green', 'AUTHOR_LOCKED'],
+  ['19', 'Detroit Pistons', 'Isaiah Stewart', 'AUTHOR_LOCKED'],
 ];
 
 if (primary.length !== expected.length) throw new Error(`expected 3 primary rows, got ${primary.length}`);
@@ -25,18 +25,18 @@ for (let index = 0; index < expected.length; index += 1) {
 const board = fs.readFileSync(boardPath, 'utf8');
 const review = fs.readFileSync(reviewPath, 'utf8');
 for (const marker of [
-  'KIRA_16_AUTHOR_LOCKED / PICKS_17_TO_19_AUTHOR_GATE',
-  'Aleksej Pokuševski 17순위 `RETENTION_STRONG_LEAN`',
-  'Josh Green 18순위 `RETENTION_LEAN`',
-  'Isaiah Stewart 19순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`',
+  'AUTHOR_APPROVED / PICKS_17_TO_19_LOCKED / BEY_RELANDING_OPEN',
+  'Aleksej Pokuševski 17순위 `AUTHOR_APPROVED / LOCKED`',
+  'Josh Green 18순위 `AUTHOR_APPROVED / LOCKED`',
+  'Isaiah Stewart 19순위 `AUTHOR_APPROVED / LOCKED`',
   '후대 NBA 성과·부상·계약은 사용하지 않는다',
   '픽 번호와 통제 구단을 분리한다',
 ]) {
   if (!board.includes(marker)) throw new Error(`missing board firewall: ${marker}`);
 }
-if (!review.includes('PICKS_17_TO_19_AUTHOR_GATE')) throw new Error('missing pick 17-19 author gate');
+if (!review.includes('AUTHOR_RESOLVED_TO_19')) throw new Error('missing pick 17-19 author resolution');
 if (!review.includes('Green–Stewart 공개 head-to-head는 아니다')) throw new Error('missing Dallas evidence limit');
-if (!review.includes('정확 17~19순위는 작가 승인 전 `HOLD`')) throw new Error('missing exact-pick hold');
+if (!review.includes('BEY_RELANDING_REQUIRED')) throw new Error('missing Bey relanding requirement');
 
 console.log('PASS Isaiah Stewart relanding board');
-console.log('Poku 17 / Green 18 retained as leans; Stewart 19 author-gated');
+console.log('Poku 17 / Green 18 / Stewart 19 author-locked; Bey relanding required');
