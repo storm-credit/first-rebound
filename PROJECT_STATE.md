@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F4-AUTHOR Chicago 2021 마감일 방향 A/B/C 선택`
-- 최근 설계 변경: `Vučević 실제 패키지·저비용 센터·무거래 보드 PASS; B PRIMARY_LEAN, exact 방향 AUTHOR_GATE`
-- 최근 정본 병합: `PR #127 / 54886974`
-- 최근 설계 병합: `PR #127 / 54886974`
+- 현재 작업: `O-15F5 Chicago 2021 저비용 센터 거래 보드`
+- 최근 설계 변경: `O-15F4 작가 선택 B; Vučević 실제 패키지 폐기, Carter·Porter·두 1라운드 보존 방향 LOCK, exact 센터 거래 HOLD`
+- 최근 정본 병합: `PR #129 / da6d29f2`
+- 최근 설계 병합: `PR #129 / da6d29f2`
 
 ## 완료
 
@@ -193,6 +193,7 @@
 - [x] 2,410분 제거 생산성·43경기 box attribution 입력 — `TRANSFER_PRODUCTION_PASS / IMPACT_HOLD`
 - [x] O-15F3 마감일 전 outcome — BPM·RAPTOR_EB·cutoff E_NET_EB, 중심 19~21승·동부 8~10위 `PASS / EXACT_HOLD`
 - [x] Young 0:38 bridge — 시즌 impact net zero·승패 변화 0경기 `PASS`
+- [x] O-15F4 작가 선택 B — Vučević 실제 패키지 폐기·1라운드 무소진·Carter 보존 저비용 센터 방향 `AUTHOR_APPROVED_DIRECTION_LOCK`
 - [x] 세계관 설정집은 정본 문서에 누적 작성 중이며 `World Bible v1.0`까지 7개 매크로 게이트로 완료 정의
 
 ## 현재 결정 대기
@@ -231,7 +232,8 @@
 - [x] O-15F2 Chicago 2020-21 마감일 전 생산성 — 주인공·LaMelo prior·donor 생산성 이전량·43경기 box 입력 `PASS`
 - [x] O-15F3 Chicago 2020-21 마감일 전 outcome — score-margin·세 impact proxy·Young bridge·일정 피로 stress `PASS`
 - [x] O-15F4 Chicago 2021 Vučević 거래 — 실제 패키지·저비용 센터·무거래 당시 팀보드 `PASS_FOR_AUTHOR_SELECTION`
-- [ ] O-15F4-AUTHOR A 실제 Vučević / B 저비용 센터 / C 무거래 선택 — 총괄 추천 B
+- [x] O-15F4-AUTHOR B 저비용 센터 선택 — `AUTHOR_APPROVED_DIRECTION_LOCK`; A 폐기, C 실패 contingency
+- [ ] O-15F5 Theis+Green 최소 6인 구조 / 다른 저비용 빅 / 타깃 실패 보드 — exact 거래 `HOLD`
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -457,11 +459,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 170. 실제 Vučević 거래와 Hutchison이 사라진 Washington–Chicago–Boston 3팀 거래를 한 사건으로 묶어 유지·폐기하지 않는다.
 171. 실제 Vučević 거래의 이후 성적, Carter의 Orlando 성장, 2021·2023 실제 지명 선수를 2021-03-25 당시 선택의 역선택 근거로 사용하지 않는다.
 172. LaMelo의 추가 창출로 Vučević의 상대 효용이 낮아졌다는 판정을 Vučević의 당시 All-Star 공격 가치 부정으로 확대하지 않는다.
-173. B 저비용 센터 경로 추천을 정확 Theis·Green 6인 거래나 McGee·buyout 영입의 발생 확정으로 쓰지 않는다.
-174. B 선택 시에도 Hutchison 없는 Washington–Chicago–Boston 구조를 O-15F5에서 별도 판정하고, 거래 실패 뒤 C 귀결 가능성을 보존한다.
+173. B 저비용 센터 방향 LOCK을 정확 Theis·Green 6인 거래나 McGee·buyout 영입의 발생 확정으로 쓰지 않는다.
+174. Hutchison 없는 Washington–Chicago–Boston 구조는 O-15F5에서 별도 판정하고, 거래 실패 뒤 C 귀결 가능성을 보존한다.
+175. Vučević 실제 패키지 폐기를 Vučević의 당시 All-Star 가치 부정이나 Orlando·Boston·Washington의 실역사 거래 자동 보존으로 확대하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 2020-21 마감일 전 중심 기록 19~21승·동부 8~10위권과 buyer motive를 통과시킨 뒤 O-15F4 거래 팀보드를 닫았다. A는 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 top-4 보호 1라운드`, B는 1라운드를 쓰지 않고 Carter를 지키는 저사용률 수비 빅 보강, C는 무거래다. LaMelo의 추가 창출과 LaVine·주인공의 2022 계약창 때문에 총괄은 B를 추천하지만 정확 방향은 작가 선택 전 `HOLD`다. B 선택 시 O-15F5에서 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 비교한다. LaMelo 손목 사건, Riller 정확 계약, exact 개인 박스·승수·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
+v0.30은 O-15F4 작가 선택 B로 `1라운드를 쓰지 않고 Carter를 지키는 저사용률 수비 빅 보강` 방향을 잠갔다. 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 top-4 보호 1라운드` 패키지는 활성 세계선에서 폐기됐고, 정확 센터·보조 선수·거래 상대·대가는 아직 `HOLD`다. O-15F5에서 Theis+Green 최소 6인 구조, 다른 저비용 빅, 타깃 실패를 당시 가격·급여 매칭·팀 동기로 비교한다. LaMelo 손목 사건, Riller 정확 계약, exact 개인 박스·승수·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
