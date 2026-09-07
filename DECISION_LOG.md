@@ -391,5 +391,13 @@
 | D-383 | LAMELO_CHICAGO_RESULT_FIREWALL | Charlotte의 51경기·신인왕·손목 부상을 Chicago 결과로 자동 복사하지 않음 | 손목 사건 INJURY_EVENT_HOLD, 후대 성과 역선택 금지 |
 | D-384 | CHICAGO_2021_DEADLINE_EVENT_HOLD | Vučević 거래와 3팀 거래는 2021-03-24까지 대체 성적·수요 뒤 판정 | Hutchison 부재로 실제 3팀 거래 원형 자동 유지 금지 |
 | D-385 | RILLER_EXACT_CONTRACT_REMAINS_HOLD | Riller의 UDFA 시장 진입은 LOCK이나 정확 팀·계약은 Chicago opening roster만으로 결정하지 않음 | Charlotte 또는 리그 전체 UDFA 보드 별도 검토 |
+| D-386 | CHICAGO_2020_21_PREDEADLINE_BASELINE_PASS | 실제 43경기·19승 24패·10,420:02·215선발을 식별 기준선으로 고정 | 실제 승패를 alternate 결과로 자동 유지 금지 |
+| D-387 | PROTAGONIST_PREDEADLINE_ROLE_PROVISIONAL_LOCK | 주인공 43경기·43선발·1,219분 | Patrick 42선발+Temple 1선발만 대체, 생산성·승패 HOLD |
+| D-388 | LAMELO_STAGED_START_PROVISIONAL_LOCK | LaMelo 43경기·25선발·1,191분, 18경기 bench 뒤 2021-02-01 선발 전환 | Coby 18·Satoransky 7선발 대체, 성과 기반 날짜 선택 금지 |
+| D-389 | CHICAGO_2020_21_DIRECT_REMOVED_POOL | Patrick 1,192:50+Hutchison 63:35=1,256:25 직접 제거 | 포지션이 다른 LaMelo에게 Patrick 분 전부 직접 복사 금지 |
+| D-390 | CHICAGO_2020_21_SECONDARY_DONOR_PASS | Satoransky·Valentine·Arcidiacono·Coby·Temple·Porter 순차감 합계 1,153:35 | same-date·당일 하한·실제 Porter 출전일 보존 |
+| D-391 | COBY_DEVELOPMENT_RETENTION | Coby 43경기·18선발·1,142:04와 26:34 평균 유지 | LaMelo 선발로 Coby 삭제·완성형 PG 판정 모두 금지 |
+| D-392 | YOUNG_38_SECOND_BRIDGE | Young 0:38을 두 실제 출전일 사이에서 이동하고 시즌 net·GP·GS 보존 | 보호 선수를 secondary donor로 재분류하지 않음 |
+| D-393 | O15F2_PRODUCTION_NEXT | 다음 계산을 주인공·LaMelo 생산성 prior와 donor 이전량으로 지정 | 43경기 outcome·마감일 거래는 생산성 전 HOLD |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

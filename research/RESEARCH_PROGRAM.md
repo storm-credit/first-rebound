@@ -423,3 +423,15 @@
 - PLAYER_GAME BLOCKER: 합산 3,698분에서 직접 대체분 2,047분을 뺀 1,651분을 같은 날짜 donor에게서 이전
 - 거래 방화벽: 대체 세계의 2021-03-24까지 성적·수요 전 Vučević 거래와 실제 3팀 거래 발생 LOCK 금지
 - 다음 조사: Chicago 2020-21 마감일 전 player-game donor·선발 원장
+
+### R15.30 Chicago 2020-21 마감일 전 player-game 원장
+
+- 역할·분 설계: `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_GAME.md`
+- 경기 원장: `simulation/CHICAGO_2020_21_PREDEADLINE_MINUTE_LEDGER.csv`
+- donor 원장: `simulation/CHICAGO_2020_21_PREDEADLINE_DONOR_VECTOR.csv`
+- 선수 합계: `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_BUDGET.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2020_21_PREDEADLINE_PLAYER_GAME_REVIEW.md`
+- PASS: 실제 43경기·19승 24패·10,420:02·215선발 기준선과 alternate 같은 날짜 분·선발 보존
+- PROVISIONAL LOCK: 주인공 43경기·43선발·1,219분, LaMelo 43경기·25선발·1,191분
+- secondary donor 순차감: 1,153:35, Young 0:38 gross bridge·시즌 net zero
+- 다음 조사: 두 가상 선수 생산성 prior·donor 생산성 이전·43경기 outcome
