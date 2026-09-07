@@ -1,8 +1,8 @@
 # Chicago 2021 Vučević Trade Board
 
 - 단계: `O-15F4`
-- 상태: `PASS_FOR_AUTHOR_SELECTION / EXACT_TRANSACTION_HOLD`
-- 총괄 추천: **B — 1라운드를 쓰지 않는 저비용 센터 보강 경로**
+- 상태: `AUTHOR_APPROVED / B_LOW_COST_CENTER_DIRECTION_LOCKED / EXACT_TRANSACTION_HOLD`
+- 작가 선택: **B — 1라운드를 쓰지 않는 저비용 센터 보강 경로**
 - 원고 게이트: `CLOSED`
 
 ## 1. 고정 입력
@@ -19,9 +19,9 @@
 
 | 안 | 구조 | 얻는 것 | 지불하는 것 | 판정 |
 |---|---|---|---|---|
-| A | 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 1R` | 즉시 All-Star 공격 허브, LaVine에 가장 강한 경쟁 신호 | Carter·top-4 보호 1R 두 장·공격 터치·수비 유연성 | `HISTORICAL_CONTINGENCY / AUTHOR_GATE` |
-| **B** | Theis 또는 동급 저사용률 수비 빅 시장, 1R 지출 0 | 스크린·림 수비·전환 지원, 젊은 코어와 자산 보존 | 실제 타깃·outgoing 재협상, 천장 상승은 A보다 작음 | **`PRIMARY_LEAN / AUTHOR_GATE`** |
-| C | Carter·Gafford 내부 평가 지속, 거래 없음 | 모든 픽·유망주·cap 유연성 보존 | buyer 신호와 즉시 frontcourt 안정성 부족 | `SECONDARY_CONTINGENCY / AUTHOR_GATE` |
+| A | 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 1R` | 즉시 All-Star 공격 허브, LaVine에 가장 강한 경쟁 신호 | Carter·top-4 보호 1R 두 장·공격 터치·수비 유연성 | `REJECTED_HISTORICAL_CONTINGENCY` |
+| **B** | Theis 또는 동급 저사용률 수비 빅 시장, 1R 지출 0 | 스크린·림 수비·전환 지원, 젊은 코어와 자산 보존 | 실제 타깃·outgoing 재협상, 천장 상승은 A보다 작음 | **`AUTHOR_APPROVED_DIRECTION_LOCK`** |
+| C | Carter·Gafford 내부 평가 지속, 거래 없음 | 모든 픽·유망주·cap 유연성 보존 | buyer 신호와 즉시 frontcourt 안정성 부족 | `FAILURE_CONTINGENCY` |
 
 ## 3. A — 실제 Vučević 패키지
 
@@ -61,31 +61,28 @@ C는 재건 포기가 아니다. LaMelo·주인공·Carter를 같은 시즌에 �
 
 ## 6. 총괄 판정
 
-총괄 추천은 **B**다.
+총괄 추천과 작가 승인으로 **B**를 방향 정본으로 둔다.
 
 이유는 최소변경이 아니라 필요의 변화다. 실제 Chicago는 LaVine 옆 두 번째 공격 축이 급했지만, 대체 Chicago에는 LaMelo가 이미 그 기능을 제공한다. 이 팀이 더 급하게 사야 하는 것은 또 하나의 고사용률 득점원이 아니라, 세 젊은 창출자의 공을 빼앗지 않고 수비와 스크린을 안정시키는 빅이다.
 
-B를 택해도 정확 Theis 거래가 자동 LOCK되지는 않는다. 이번 작가 선택이 잠그는 것은 `실제 Vučević 패키지를 실행하지 않고 저비용 센터 시장을 우선한다`는 프런트오피스 방향뿐이다.
+B를 택해도 정확 Theis 거래가 자동 LOCK되지는 않는다. 이번 작가 선택이 잠그는 것은 `실제 Vučević 패키지를 실행하지 않고 저비용 센터 시장을 우선한다`는 프런트오피스 방향뿐이다. A는 비교 이력으로, C는 저비용 협상 실패 뒤 귀결 가능한 contingency로 보존한다.
 
-## 7. 작가 선택
+## 7. 작가 선택 결과
 
-- **A** — 실제 Vučević 패키지 유지
-- **B** — Vučević 패키지 거부, 저비용 센터 보강 우선 **(총괄 추천)**
-- **C** — 마감일 무거래
+- A — 실제 Vučević 패키지 유지: `REJECTED_HISTORICAL_CONTINGENCY`
+- **B — Vučević 패키지 거부, 저비용 센터 보강 우선: `AUTHOR_APPROVED_DIRECTION_LOCK`**
+- C — 마감일 무거래: `FAILURE_CONTINGENCY`
 
-승인 전 세 안은 모두 `HOLD`다.
+정확한 저비용 센터·outgoing·3팀 거래 발생은 계속 `HOLD`다.
 
 ## 8. 다음 인과 단계
 
-1. 작가가 A/B/C를 선택한다.
-2. A면 Vučević·Aminu 입단 뒤 29경기 roster-minute·outcome을 계산한다.
-3. B면 O-15F5에서 Theis+Green 최소 6인 구조와 다른 저비용 빅을 비교한다.
-4. C면 Carter·Gafford 유지 29경기 원장을 계산한다.
-5. 이후에만 2021 lottery, Markkanen RFA, DeRozan·Lonzo·Caruso 보드를 연다.
+1. O-15F5에서 Theis+Green 최소 6인 구조와 다른 저비용 빅·타깃 실패를 비교한다.
+2. 정확 거래를 고른 뒤 마감일 이후 29경기 roster-minute·outcome을 계산한다.
+3. 이후에만 2021 lottery, Markkanen RFA, DeRozan·Lonzo·Caruso 보드를 연다.
 
 ## 출처
 
 - `research/CHICAGO_2021_DEADLINE_CENTER_MARKET.md`
 - `simulation/CHICAGO_2020_21_PREDEADLINE_OUTCOME_ROBUSTNESS.md`
 - `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md`
-
