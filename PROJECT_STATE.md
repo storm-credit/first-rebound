@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-06
+- 기준일: 2026-09-07
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E5-AUTHOR Orlando 15순위 Cole Anthony/Kira Lewis 선택`
-- 최근 설계 변경: `2020 Draft 1~13 LOCK; Nesmith Boston #14 유지 주안→Orlando #15 AUTHOR_GATE`
-- 최근 정본 병합: `PR #98 / 68edf956`
-- 최근 설계 병합: `PR #98 / 68edf956`
+- 현재 작업: `O-15E6-AUTHOR Detroit 통제 16순위 Kira Lewis/Isaiah Stewart 선택`
+- 최근 설계 변경: `2020 Draft 1~15 LOCK; Kira Detroit #16 PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #100 / 8a0b837c`
+- 최근 설계 병합: `PR #100 / 8a0b837c`
 
 ## 완료
 
@@ -175,7 +175,7 @@
 - [x] O-15E3 작가 선택 — `Okoro 5 → Okongwu 6 → Patrick Williams 7 AUTHOR_APPROVED / LOCKED`
 - [x] Killian Hayes 8~13순위 재착지 보드 — 실제 8~12 유지·Hayes 13 `AUTHOR_APPROVED / LOCKED`
 - [x] O-15E4 작가 선택 — `Toppin 8→Avdija 9→Jalen Smith 10→Vassell 11→Haliburton 12→Hayes 13 AUTHOR_APPROVED / LOCKED`
-- [x] Kira Lewis 14~15순위 재착지 보드 — Nesmith 14 `RETENTION_STRONG_LEAN`; Orlando 15 `AUTHOR_GATE`
+- [x] Kira Lewis 14~16순위 재착지 보드 — Nesmith 14·Cole 15 `AUTHOR_APPROVED / LOCKED`; Detroit 16 `AUTHOR_GATE`
 
 ## 현재 결정 대기
 
@@ -198,7 +198,8 @@
 - [x] O-15E2-AUTHOR 주 분기 `Wiseman 2→Edwards 3→LaMelo 4` 선택
 - [x] O-15E3-AUTHOR A `Okoro 5→Okongwu 6→Patrick 7` 선택
 - [x] O-15E4-AUTHOR A 실제 8~12 유지→`Hayes 13` 선택
-- [ ] O-15E5-AUTHOR A `Nesmith 14→Cole 15 유지→Kira 16+` 또는 B `Nesmith 14→Kira 15→Cole 16+` 선택
+- [x] O-15E5-AUTHOR A `Nesmith 14→Cole 15 유지→Kira 16+` 선택
+- [ ] O-15E6-AUTHOR A `Kira Lewis 16→Stewart 17+` 또는 B `Isaiah Stewart 16 유지→Kira 17+` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -373,9 +374,11 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 119. New Orleans의 실제 Kira Lewis 지명이 Hayes보다 높은 내부 보드였다고 추정하거나, Hayes 13 선택 뒤 Lewis를 삭제하지 않는다.
 120. Kira의 실제 13순위·consensus 14위만으로 Boston의 직접적인 Nesmith 우선 근거를 지우지 않는다.
 121. Orlando의 실제 Cole 지명이나 지명 뒤 칭찬을 Kira와의 공개 head-to-head 결과로 과장하지 않는다.
+122. 현재 세계선의 포인트가드 공백만으로 Detroit의 실제 Isaiah Stewart 16순위를 자동 폐기하거나 Kira 16을 자동 LOCK하지 않는다.
+123. Weaver의 Stewart 특정 선호나 16순위 픽 확보를 이유로 Patrick 7이 만든 가드 공백을 무시하지 않으며, 선수 선택 변화만으로 Christian Wood sign-and-trade·Ariza·보호 픽 거래 전체를 자동 유지·소멸시키지 않는다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~13순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes`로 통과시켰다. Hayes에게 밀린 Kira Lewis의 Boston 14순위 재판정에서는 Ainge·Stevens의 직접 평가 때문에 Nesmith 유지가 `RETENTION_STRONG_LEAN`이다. 다음 게이트는 A `Nesmith 14→Cole Anthony 15 유지→Kira 16+`와 B `Nesmith 14→Kira 15→Cole 16+` 중 선택이다. 총괄은 실제 구단의 선수별 선호 근거를 우선해 A를 추천한다. 선택 뒤 이동 선수를 Detroit 통제 16순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~15순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony`로 통과시켰다. Hayes에게 밀린 Kira Lewis는 Detroit가 통제한 16순위에서 Isaiah Stewart와 비교한다. 다음 게이트는 A `Kira Lewis 16→Stewart 17+`와 B `Isaiah Stewart 16 유지→Kira 17+` 중 선택이다. 실제 Kira 워크아웃·Patrick 7에 따른 포인트가드 공백·16번에서의 가치 하락을 반영해 총괄은 A를 추천한다. 다만 Weaver의 Stewart 특정 선호와 16순위 거래 경제 때문에 자동 LOCK하지 않는다. 선택 뒤 이동 선수를 Oklahoma City가 통제한 17순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
