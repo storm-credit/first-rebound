@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E8-AUTHOR 20~22순위 Achiuwa/Maxey/Saddiq Bey 연쇄 선택`
-- 최근 설계 변경: `2020 Draft 1~19 LOCK; Achiuwa 20→Maxey 21→Bey 22 PRIMARY_LEAN / AUTHOR_GATE`
-- 최근 정본 병합: `PR #104 / db0df317`
-- 최근 설계 병합: `PR #104 / db0df317`
+- 현재 작업: `O-15E9-AUTHOR 23~24순위 Bolmaro/Nnaji 연쇄 선택`
+- 최근 설계 변경: `2020 Draft 1~22 LOCK; Bolmaro 23→Nnaji 24 PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #106 / 3fc2c1ed`
+- 최근 설계 병합: `PR #106 / 3fc2c1ed`
 
 ## 완료
 
@@ -177,7 +177,8 @@
 - [x] O-15E4 작가 선택 — `Toppin 8→Avdija 9→Jalen Smith 10→Vassell 11→Haliburton 12→Hayes 13 AUTHOR_APPROVED / LOCKED`
 - [x] Kira Lewis 14~16순위 재착지 보드 — Nesmith 14·Cole 15·Kira 16 `AUTHOR_APPROVED / LOCKED`
 - [x] Isaiah Stewart 17~19순위 재착지 보드 — Poku 17·Green 18·Stewart 19 `AUTHOR_APPROVED / LOCKED`
-- [x] Saddiq Bey 20~22순위 재착지 보드 — Achiuwa 20·Maxey 21 `STRONG_LEAN`; Bey 22 `AUTHOR_GATE`
+- [x] Saddiq Bey 20~22순위 재착지 보드 — Achiuwa 20·Maxey 21·Bey 22 `AUTHOR_APPROVED / LOCKED`
+- [x] Zeke Nnaji 23~24순위 재착지 보드 — Bolmaro 23 `RETENTION_STRONG_LEAN`; Nnaji 24 `AUTHOR_GATE`
 
 ## 현재 결정 대기
 
@@ -203,7 +204,8 @@
 - [x] O-15E5-AUTHOR A `Nesmith 14→Cole 15 유지→Kira 16+` 선택
 - [x] O-15E6-AUTHOR A `Kira Lewis 16→Stewart 17+` 선택
 - [x] O-15E7-AUTHOR A `Poku 17→Green 18→Stewart 19` 선택
-- [ ] O-15E8-AUTHOR A `Achiuwa 20→Maxey 21→Bey 22` / B `Bey 20` / C `Achiuwa 20→Bey 21` 선택
+- [x] O-15E8-AUTHOR A `Achiuwa 20→Maxey 21→Bey 22` 선택
+- [ ] O-15E9-AUTHOR A `Bolmaro 23→Nnaji 24` / B `Nnaji 23→Hampton 24` / C `Bolmaro 23→Hampton 24` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -386,9 +388,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 127. Bey가 실제 19순위였다는 이유만으로 Miami의 명시적 운동능력 빅맨 필요와 Achiuwa 20 선택을 자동 폐기하지 않는다.
 128. Philadelphia의 Villanova 연고·슈팅 필요를 Bey 우선 내부 보드로 과장하거나, Morey의 Maxey lottery급·포지션 필요 평가를 후대 성과와 혼동하지 않는다.
 129. Denver 공식 Bey 프로필을 Nnaji와의 공개 head-to-head로 과장하지 않으며, Bey 22 선택 시 Nnaji를 삭제하거나 Denver 통제 24순위·Hampton 거래를 자동 보존하지 않는다.
+130. Minnesota의 Bolmaro 23순위를 실제 역사라는 이유만으로 유지하지 않고, 25·33순위를 지불한 목적 상향 거래를 근거로 삼는다. 드래프트 밤 보도와 공식 완료된 Rubio 포함 3팀 거래를 이중 계산하지 않는다.
+131. Nnaji의 Minnesota 출신 배경을 Timberwolves의 직접 선호로 과장하지 않는다.
+132. Denver가 Nnaji를 22번에서 먼저 보호한 순서를 공개된 Nnaji–Hampton 내부 head-to-head로 바꾸지 않으며, 선수 선택 변화만으로 Denver의 24순위 4팀 거래를 자동 유지·소멸시키지 않는다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~19순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart`로 통과시켰다. Stewart에게 밀린 Saddiq Bey는 20순위부터 재판정한다. 다음 게이트는 A `Achiuwa 20→Maxey 21→Bey 22→Nnaji 23+`, B `Bey 20→Achiuwa 21+`, C `Achiuwa 20→Bey 21→Maxey 22+` 중 선택이다. Miami와 Philadelphia의 직접 역할·선수 선호를 보존하고 Bey를 Denver의 동시대 관심 범위에서 회수하는 A를 총괄 추천한다. 선택 뒤 Zeke Nnaji를 Minnesota 통제 23순위부터 재판정하고 Denver 24순위의 RJ Hampton과 함께 계산한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~22순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey`로 통과시켰다. Bey에게 밀린 Zeke Nnaji는 23순위부터 재판정한다. 다음 게이트는 A `Bolmaro 23→Nnaji 24→Hampton 25+`, B `Nnaji 23→Hampton 24→Bolmaro 25+`, C `Bolmaro 23→Hampton 24→Nnaji 25+` 중 선택이다. Minnesota의 목적 상향 거래와 Denver의 실제 첫 지명 우선순위를 함께 보존하는 A를 총괄 추천한다. 선택 뒤 이동 선수를 New York 통제 25순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
