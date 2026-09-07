@@ -818,3 +818,11 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 작가가 B를 선택하면 Hutchison 없는 `Theis+Green` 최소 6인 구조와 다른 저비용 빅·타깃 실패를 O-15F5에서 별도 비교한다. 3팀 거래를 Vučević 결정과 합치지 않는다.
 - 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적은 사후 결과이며 2021-03-25 당시 선택의 역선택 근거로 사용하지 않는다.
 - 상세 권위는 `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md`다.
+
+## v0.30 O-15F4 AUTHOR ADDITIONS — 저비용 센터 방향 승인
+
+- 작가는 O-15F4 B를 승인했다. Chicago는 실제 Vučević 패키지를 실행하지 않고 **1라운드를 쓰지 않는 저비용 센터 보강을 우선**한다.
+- A 실제 Vučević 패키지는 `REJECTED_HISTORICAL_CONTINGENCY`, C 무거래는 `FAILURE_CONTINGENCY`로 보존한다.
+- 이 승인은 정확 Theis+Green 6인 거래나 다른 센터 영입을 확정하지 않는다. O-15F5에서 당시 가격·급여·상대 동기를 다시 통과해야 한다.
+- Carter·Porter·2021·2023 1라운드는 이 단계에서 Chicago 자산으로 남지만, 정확 거래 선택 뒤 다시 변동할 수 있다.
+- 원고 게이트는 계속 `CLOSED`다.
