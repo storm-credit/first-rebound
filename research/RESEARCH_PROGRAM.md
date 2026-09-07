@@ -435,3 +435,16 @@
 - PROVISIONAL LOCK: 주인공 43경기·43선발·1,219분, LaMelo 43경기·25선발·1,191분
 - secondary donor 순차감: 1,153:35, Young 0:38 gross bridge·시즌 net zero
 - 다음 조사: 두 가상 선수 생산성 prior·donor 생산성 이전·43경기 outcome
+
+### R15.31 Chicago 2020-21 마감일 전 생산성 prior
+
+- prior 문서: `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_PRODUCTION_PRIORS.md`
+- 종단 비교군: `simulation/CHICAGO_2020_21_THIRD_YEAR_WING_COHORT.csv`
+- 생산성·이전량: `simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv`, `simulation/CHICAGO_2020_21_PREDEADLINE_TRANSFER_PRODUCTION.csv`
+- 43경기 입력: `simulation/CHICAGO_2020_21_PREDEADLINE_IMPACT_INPUTS.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIOR_REVIEW.md`
+- PASS: 주인공 BASE 14.5득점·9.8리바운드·3.2어시스트/36, TS .555, USG 17.0%
+- PASS: LaMelo Chicago BASE 18.0득점·6.8리바운드·7.2어시스트/36, TS .535, USG 21.5%
+- 제거 관측량: 2,410분에서 851.77득점·405.63리바운드·213.77어시스트·63.13스틸·38.25블록
+- 방화벽: BASE 귀속 증가와 +76.95턴오버를 팀 score margin으로 직접 합산 금지
+- 다음 조사: 최소 두 impact proxy의 43경기 score-margin outcome, Young bridge·일정 피로 stress, 대체 마감일 성적

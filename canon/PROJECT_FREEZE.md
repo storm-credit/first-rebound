@@ -783,5 +783,17 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Coby는 43경기·18선발·1,142:04, Temple은 35경기·11선발·896:49를 유지한다. LaVine·Markkanen과 센터진의 경기별 분은 실제와 같다.
 - Young은 2021-03-12의 0:38을 실제 출전일인 2020-12-31에 반환하는 gross bridge만 사용하며 시즌 net·경기·선발은 모두 실제와 같다.
 - LaMelo가 마감일 전 43경기 모두 active인 것은 Chicago 고유 부상 입력이 없는 계산 BASE다. Charlotte 손목 사건을 영구 삭제하지 않으며 이후 부상은 `INJURY_EVENT_HOLD`다.
-- O-15F2 생산성 prior와 43경기 outcome 전에는 실제 19승 24패·Vučević 거래·3팀 거래를 alternate 정본으로 쓰지 않는다.
+- O-15F3 43경기 outcome 전에는 실제 19승 24패·Vučević 거래·3팀 거래를 alternate 정본으로 쓰지 않는다.
 - 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_GAME.md`다.
+
+## v0.30 O-15F2 PARTIAL ADDITIONS — Chicago 2020-21 마감일 전 생산성 prior
+
+- 주인공 3년차 BASE는 **14.5득점·9.8리바운드·3.2어시스트·1.7스틸·1.0블록/36, TS .555·3PA 3.6·3P .335·USG 17.0%**다. 1,219분 환산 참고선은 11.42점·7.72리바운드·2.52어시스트다.
+- 주인공 비교군은 2018-19 루키 9인을 2020-21까지 재선택 없이 추적한다. Jacob Evans의 NBA 0분을 탈락 표본으로 보존한다.
+- LaMelo Chicago BASE는 **18.0득점·6.8리바운드·7.2어시스트·1.7스틸·0.4블록/36, TS .535·3PA 6.0·3P .335·USG 21.5%**다. 1,191분 환산 참고선은 13.85점·5.23리바운드·5.54어시스트다.
+- LaMelo의 Charlotte 손목 전 41경기·21선발·1,174:03 관측치는 약 20.0득점·7.36리바운드·7.70어시스트/36, TS .562다. Chicago BASE는 LaVine·Coby·Satoransky와의 권한 중복 때문에 이를 수축하며 실제 신인왕 기록을 복사하지 않는다.
+- Patrick·Hutchison 전량과 여섯 secondary donor의 순차감 비율에 해당하는 관측 제거량은 851.77득점·405.63리바운드·213.77어시스트·63.13스틸·38.25블록이다.
+- 두 가상 선수 BASE와 제거 pool의 차이 +234.72득점·+151.17리바운드·+132.79어시스트·+50.68스틸·+8.85블록·+76.95턴오버는 **선수 귀속 변화**다. 팀 총득점·팀 리바운드·승수에 직접 더하지 않는다.
+- 43경기 event별 BASE 기대 박스·donor 선형 제거량 입력은 `PASS`지만 causal impact와 score-margin 변환은 `HOLD`다.
+- exact 정수 박스·LaMelo 손목 사건·alternate 마감일 성적·Vučević 및 3팀 거래 발생은 계속 `HOLD`다.
+- 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_PRODUCTION_PRIORS.md`다.
