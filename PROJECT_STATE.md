@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E10-AUTHOR 25~31순위 Hampton 재착지 선택`
-- 최근 설계 변경: `2020 Draft 1~24 LOCK; 실제 25~30 유지→Hampton 31 PRIMARY_LEAN / AUTHOR_GATE`
-- 최근 정본 병합: `PR #108 / dc2ac53a`
-- 최근 설계 병합: `PR #108 / dc2ac53a`
+- 현재 작업: `O-15E11-AUTHOR Charlotte 32순위 Terry/Carey 선택`
+- 최근 설계 변경: `2020 Draft 1~31 LOCK; Tyrell Terry 32 PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #111 / c57f0ff3`
+- 최근 설계 병합: `PR #111 / c57f0ff3`
 
 ## 완료
 
@@ -179,7 +179,8 @@
 - [x] Isaiah Stewart 17~19순위 재착지 보드 — Poku 17·Green 18·Stewart 19 `AUTHOR_APPROVED / LOCKED`
 - [x] Saddiq Bey 20~22순위 재착지 보드 — Achiuwa 20·Maxey 21·Bey 22 `AUTHOR_APPROVED / LOCKED`
 - [x] Zeke Nnaji 23~24순위 재착지 보드 — Bolmaro 23→Nnaji 24 `AUTHOR_APPROVED / LOCKED`
-- [x] R.J. Hampton 25~31순위 재착지 보드 — 실제 25~30 유지·Hampton Dallas 31 `PRIMARY_LEAN / AUTHOR_GATE`
+- [x] R.J. Hampton 25~31순위 재착지 보드 — 실제 25~30 유지→Hampton Dallas 31 `AUTHOR_APPROVED / LOCKED`
+- [x] Tyrell Terry 32순위 재착지 보드 — Charlotte Terry 32 `PRIMARY_LEAN / AUTHOR_GATE`; Carey 유지 대안
 
 ## 현재 결정 대기
 
@@ -207,7 +208,8 @@
 - [x] O-15E7-AUTHOR A `Poku 17→Green 18→Stewart 19` 선택
 - [x] O-15E8-AUTHOR A `Achiuwa 20→Maxey 21→Bey 22` 선택
 - [x] O-15E9-AUTHOR A `Bolmaro 23→Nnaji 24` 선택
-- [ ] O-15E10-AUTHOR A `실제 25~30 유지→Hampton 31` / B `Hampton 26→Pritchard 27+` / C `Terry 31 유지→Hampton 32+` 선택
+- [x] O-15E10-AUTHOR A `실제 25~30 유지→Hampton 31` 선택
+- [ ] O-15E11-AUTHOR A `Tyrell Terry 32→Carey 33+` / B `Carey 32 유지→Terry 33+` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -398,9 +400,14 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 135. Utah의 Azubuike 선택이 후대에 실패했다는 평가로 2020년 board 최상단·백업 센터 역할 근거를 역선택하지 않는다.
 136. Minnesota의 가상 라이벌 1순위가 McDaniels 역할에 만드는 비용과 Toronto Flynn·Memphis Bane의 당일 목적 근거를 후속 신인 원장 전 임의 수치로 닫지 않는다.
 137. Dallas의 Hampton 인터뷰·지역 연결을 공개 Hampton–Terry head-to-head로 과장하지 않으며, 31순위 선택과 Luka 옆 슈팅 적합성을 작가 승인 전 확정하지 않는다.
+138. Charlotte가 LaMelo 대신 Edwards를 뽑았다고 Graham·Rozier가 사라지거나 포인트가드가 0명이 되는 것으로 계산하지 않는다.
+139. Edwards의 득점·운동능력을 LaMelo의 대형 가드 패싱과 동일시하지 않으며 Terry의 `pass-first` 자기표현도 NBA 주도자 완성 증거로 쓰지 않는다.
+140. Terry의 실제 31순위·1라운드 전망을 Charlotte 내부 선호로 과장하지 않는다.
+141. Carey 32와 Richards 42 권리 거래가 보여주는 센터층 보강 목적을 Terry fit만으로 삭제하지 않는다.
+142. Terry 32 선택 시 Carey를 Charlotte 42에 자동 회수하거나 Nick Richards를 자동 삭제하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~24순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey→Bolmaro→Nnaji`로 통과시켰다. Nnaji에게 밀린 R.J. Hampton은 25순위부터 재판정한다. 다음 게이트는 A `실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지→Hampton 31`, B `Quickley 25 유지→Hampton 26→Pritchard 27+`, C `실제 25~31 유지→Hampton 32+` 중 선택이다. 팀별 목적 거래와 직접 필요를 가장 많이 보존하면서 Dallas의 실제 사전 접촉을 회수하는 A를 총괄 추천한다. 선택 뒤 이동 선수를 32순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~31순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey→Bolmaro→Nnaji→Quickley→Pritchard→Azubuike→McDaniels→Flynn→Bane→Hampton`으로 통과시켰다. Hampton에게 밀린 Tyrell Terry는 Charlotte 통제 32순위부터 재판정한다. 다음 게이트는 A `Terry 32→Carey 33+`, B `Carey 32 유지→Terry 33+` 중 선택이다. Charlotte가 LaMelo 대신 Edwards를 3순위로 뽑아 잃은 창출 기능과 Terry의 실제 31순위 가치를 반영하는 A를 총괄 추천한다. Carey·Richards의 센터 보강 목적은 반대 분기로 보존한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
