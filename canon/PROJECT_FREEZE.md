@@ -552,7 +552,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 
 - 실제 NBA의 매년 로스터·계약·픽·드래프트·이적은 기본값으로 전수 대조한다. 주인공·라이벌이 입력을 바꾼 사건만 심층 재계산한다.
 - 미래 거래는 드래프트 나비효과의 blocker를 찾기 위해 구조를 미리 감사할 수 있다. 그러나 거래의 실제 발생은 앞선 시즌의 승수·로터리·로스터를 시간순으로 계산하기 전 LOCK하지 않는다.
-- Chicago에 Hutchison이 없는 조건에서도 `Chicago: Theis+Green / Washington: Gafford / Boston: Wagner+Kornet`의 최소 6인 거래는 2020-21 급여 매칭과 세 팀 동기를 통과한다. Troy Brown Jr.와 Trent는 Washington에 남는다.
+- Chicago에 Hutchison이 없는 조건에서도 `Chicago: Theis+Green / Washington: Gafford / Boston: Wagner+Kornet`의 3팀 5인 거래는 2020-21 급여 매칭을 통과한다. Troy Brown Jr.와 Trent는 Washington에 남는다. 이전 `최소 6인` 표기는 O-15F5에서 선수 수 오기로 정정했다.
 - 위 거래는 Chicago가 실제와 같은 2021 마감일 매수·Vučević 후속 보강 동기에 도달할 때의 `CONDITIONAL_STRUCTURE_PASS`다. 사건 발생 자체는 O-15B~D 전까지 `HOLD`다.
 - Washington의 Trent는 3년 계약 종료 뒤 qualifying offer가 있으면 2021 RFA가 되고, 거래로 이어진 Bird 서비스에 따라 Washington이 cap을 넘겨 재계약할 제도 경로가 있다. 정확 QO·계약·행선지는 대체 역사 2019-21 생산 전까지 `HOLD`다.
 - Portland에 Trent가 없으면 실제 Powell 거래는 원형 불성립이다. Hood만으로 급여는 맞지만 Trent의 젊은 득점·RFA 가치는 대체되지 않으므로 `PORTLAND_NO_TRADE_PRIMARY`에서 시작한다.
@@ -563,7 +563,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 
 - Washington Trent와 Troy Brown Jr.의 2019-21 player-game·분·슈팅·시장가치
 - Washington의 Trent qualifying offer·재계약·별도 거래
-- Chicago의 대체 2020-21 성적·Vučević 거래·마감일 매수 동기와 6인 거래 발생 여부
+- Chicago의 대체 2020-21 성적·Vučević 거래·마감일 매수 동기와 5인 거래 발생 여부
 - Portland Evans의 2018-21 생산·계약 구조와 Toronto가 수용할 자산가치
 - Powell의 2021 마감일 타팀 행선지 또는 Toronto 잔류와 2021 자유계약
 - Portland의 Powell 부재 후 정규시즌·플레이오프 분, 2021-22 roster와 2022 Clippers 거래 파급
@@ -815,7 +815,7 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - LaMelo가 21.5% 사용률의 추가 1차 창출을 공급하므로, 29.9% 사용률의 30세 Vučević가 주는 공격 허브 가치의 한계효용은 실제 Chicago보다 낮다.
 - 총괄 추천은 **B — 1라운드 지출 없이 Carter를 유지하는 저사용률 수비 빅 보강 경로**다. 이는 필요 변화에 따른 추천이며 정확 Theis·McGee·buyout 영입을 뜻하지 않는다.
 - A 실제 Vučević 패키지, B 저비용 센터 보강, C 무거래는 모두 `AUTHOR_GATE / HOLD`다. 작가 승인 전 거래 발생·마감일 뒤 승수·2021 pick을 잠그지 않는다.
-- 작가가 B를 선택하면 Hutchison 없는 `Theis+Green` 최소 6인 구조와 다른 저비용 빅·타깃 실패를 O-15F5에서 별도 비교한다. 3팀 거래를 Vučević 결정과 합치지 않는다.
+- 작가가 B를 선택하면 Hutchison 없는 `Theis+Green` 3팀 5인 구조와 다른 저비용 빅·타깃 실패를 O-15F5에서 별도 비교한다. 3팀 거래를 Vučević 결정과 합치지 않는다.
 - 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적은 사후 결과이며 2021-03-25 당시 선택의 역선택 근거로 사용하지 않는다.
 - 상세 권위는 `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md`다.
 
@@ -823,6 +823,17 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 
 - 작가는 O-15F4 B를 승인했다. Chicago는 실제 Vučević 패키지를 실행하지 않고 **1라운드를 쓰지 않는 저비용 센터 보강을 우선**한다.
 - A 실제 Vučević 패키지는 `REJECTED_HISTORICAL_CONTINGENCY`, C 무거래는 `FAILURE_CONTINGENCY`로 보존한다.
-- 이 승인은 정확 Theis+Green 6인 거래나 다른 센터 영입을 확정하지 않는다. O-15F5에서 당시 가격·급여·상대 동기를 다시 통과해야 한다.
+- 이 승인은 정확 Theis+Green 5인 거래나 다른 센터 영입을 확정하지 않는다. O-15F5에서 당시 가격·급여·상대 동기를 다시 통과해야 한다.
 - Carter·Porter·2021·2023 1라운드는 이 단계에서 Chicago 자산으로 남지만, 정확 거래 선택 뒤 다시 변동할 수 있다.
 - 원고 게이트는 계속 `CLOSED`다.
+
+## v0.30 O-15F5 PARTIAL ADDITIONS — Chicago 2021 저비용 센터 거래 보드
+
+- 기존 `최소 6인` 명칭은 선수 수 오기다. 이동하는 고유 선수는 Gafford·Kornet·Theis·Green·Wagner 다섯 명이며 활성 명칭을 **3팀 5인 거래**로 정정한다. 급여 합계와 이동 방향은 변하지 않는다.
+- A는 `Chicago: Gafford+Kornet → Theis+Green`, `Washington: Wagner → Gafford`, `Boston: Theis+Green → Wagner+Kornet` 구조다. Brown·Trent는 Washington에 남는다.
+- Chicago outgoing $3,767,981 / incoming $6,517,981 / 허용 $6,693,967, Washington $2,161,920 / $1,517,981, Boston $6,517,981 / $4,411,920으로 세 팀 급여 매칭과 roster count를 통과한다.
+- Washington의 Gafford 수요와 Boston의 세금 절감 동기는 유지된다. Chicago는 Theis의 저사용률 스크린·수비와 Green의 수비 에너지를 얻지만, Vučević가 없는 세계에서는 값싼 Gafford를 만료계약 Theis로 바꾸는 비용이 실제보다 크다.
+- 총괄 추천은 **A — Theis·Green 3팀 5인 거래**다. 구조·가격·당시 세 팀 동기를 가장 구체적으로 통과하지만 정확 사건은 `AUTHOR_GATE / HOLD`다.
+- B 다른 저비용 빅은 `SECONDARY_MARKET`, C 타깃 실패·무거래는 `FAILURE_CONTINGENCY`다. 어느 안도 1라운드, Carter, Porter를 지출하지 않는다.
+- 정확 거래 선택 뒤에만 마감일 뒤 29경기와 2021 lottery·여름 계약 연쇄를 계산한다. 원고 게이트는 계속 `CLOSED`다.
+- 상세 권위는 `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`와 `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv`다.
