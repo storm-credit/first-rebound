@@ -422,5 +422,9 @@
 | D-414 | NO_TRADE_SECONDARY_CONTINGENCY | Carter·Gafford·두 1R을 지키는 무거래를 C안으로 보존 | 자산 보존만으로 buyer motive·LaVine 경쟁 신호 비용을 삭제하지 않음 |
 | D-415 | O15F4_AUTHOR_GATE | A 실제 Vučević / B 저비용 센터 / C 무거래의 정확 방향은 작가 선택 전 HOLD | B 추천을 transaction LOCK으로 확장 금지 |
 | D-416 | O15F5_CONDITIONAL_NEXT | 작가가 B를 선택하면 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 비교 | Washington–Chicago–Boston 사건을 Vučević 결정과 한 묶음으로 처리 금지 |
+| D-417 | AUTHOR_LOCK / LOW_COST_CENTER_DIRECTION | 작가가 O-15F4 B를 승인해 실제 Vučević 패키지를 거부하고 1R 없는 저비용 센터 시장을 우선 | 정확 Theis·Green·McGee·buyout 영입은 O-15F5 전 HOLD |
+| D-418 | HISTORICAL_VUCEVIC_PACKAGE_REJECTED | A 실제 Vučević 패키지는 비교 이력으로 보존 | 당시 All-Star 가치와 실제 프런트오피스 동기를 지우지 않음 |
+| D-419 | NO_TRADE_FAILURE_CONTINGENCY | C 무거래는 저비용 센터 협상 실패 뒤 귀결 가능한 분기로 보존 | B 방향 승인만으로 상대팀 수용과 선수 선택을 강제하지 않음 |
+| D-420 | O15F5_CENTER_MARKET_NEXT | Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 당시 가격과 급여로 비교 | 정확 거래 후에만 마감일 뒤 29경기 계산 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
