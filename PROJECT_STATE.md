@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F Chicago 2020-21 opening roster·계약·선수별 분 기준선`
-- 최근 설계 변경: `2020 Draft 1~60 및 Grant Riller 미지명 자유계약 시장 AUTHOR_APPROVED / LOCKED`
-- 최근 정본 병합: `PR #117 / dc315cd1`
-- 최근 설계 병합: `PR #117 / dc315cd1`
+- 현재 작업: `O-15F1 Chicago 2020-21 마감일 전 player-game donor·선발 원장`
+- 최근 설계 변경: `Chicago 2020-21 opening 15+2 STRUCTURE_PASS; 주인공 1,938분·LaMelo 1,760분 provisional BASE`
+- 최근 정본 병합: `PR #119 / 221a5613`
+- 최근 설계 병합: `PR #119 / 221a5613`
 
 ## 완료
 
@@ -185,6 +185,8 @@
 - [x] Nick Richards 43~56순위 재착지 — 실제 43~55 유지→Charlotte Richards 56 `AUTHOR_APPROVED / LOCKED`
 - [x] Grant Riller 최종 보드 — 실제 57~60 유지→Riller 미지명 자유계약 시장 `AUTHOR_APPROVED / LOCKED`; 정확 팀·계약 종류 HOLD
 - [x] 2020 Draft 1~60 연쇄 마감 — World Bible 매크로 게이트 1 `COMPLETE`
+- [x] Chicago 2020-21 opening roster — 실제/대체 15 standard + 2 two-way, 별도 방출 없이 1대1 자리 치환 `STRUCTURE_PASS`
+- [x] Chicago 2020-21 역할 prior — 주인공 68경기·58선발·1,938분, LaMelo 64경기·32선발·1,760분 `PROVISIONAL BASE`
 - [x] 세계관 설정집은 정본 문서에 누적 작성 중이며 `World Bible v1.0`까지 7개 매크로 게이트로 완료 정의
 
 ## 현재 결정 대기
@@ -218,7 +220,8 @@
 - [x] O-15E12-AUTHOR A `실제 33~41 유지→Carey 42` 선택
 - [x] O-15E13-AUTHOR A `실제 43~55 유지→Richards 56→Riller 57+` 선택
 - [x] O-15E14-AUTHOR A `실제 57~60 유지→Riller UDFA` 선택
-- [ ] O-15F Chicago 2020-21 opening roster — LaMelo·주인공 포함 15인/투웨이·계약·선수별 분·첫 이동 선수 판정
+- [x] O-15F Chicago 2020-21 opening roster — `Hutchison→주인공`, `Patrick→LaMelo`, 실제/대체 15+2 `STRUCTURE_PASS`
+- [ ] O-15F1 Chicago 2020-21 마감일 전 player-game — 1,651분 secondary donor·선발 5자리·단계적 LaMelo 전환 검산
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -421,10 +424,15 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 147. 세계관 설정집은 이미 누적 작성 중이며 2020 Draft 종료만으로 `DESIGN_COMPLETE`나 원고 개방을 선언하지 않는다.
 148. Riller의 실제 56순위만으로 Brooklyn·Philadelphia·Toronto·Milwaukee의 직접 선택·권리 취득을 지우지 않는다.
 149. Riller가 미지명이 되더라도 NBA 탈락이나 가치 붕괴로 쓰지 않는다. 드래프트 직후 자유계약 시장을 별도로 연다.
-150. 실제 Charlotte 투웨이 계약을 자동 복원하지 않는다. Edwards 3·Terry 32를 포함한 15인·투웨이 슬롯과 정확 계약 종류는 2020-21 opening roster 원장에서 계산한다.
+150. 실제 Charlotte 투웨이 계약을 자동 복원하지 않는다. Edwards 3·Terry 32를 포함한 Charlotte 15인·투웨이 슬롯과 정확 계약 종류는 별도 opening roster 원장에서 계산한다.
+151. opening roster의 15+2 통과를 시즌 rotation 통과로 오인하지 않는다. 주인공·LaMelo 합계 3,698분과 직접 대체 pool 2,047분의 차이 1,651분은 같은 날짜 원장에서 지불한다.
+152. Satoransky·Valentine·Arcidiacono를 우선 donor로 보더라도 실존 선수의 존재·베테랑 조직·슈팅 기능을 삭제하지 않는다. Coby·Temple은 개발 가치와 수비 바닥 때문에 제한한다.
+153. Porter의 실제 결장일을 공짜 출전시간으로 쓰거나 센터 분을 가드·윙 두 선수에게 직접 넘기지 않는다.
+154. LaMelo의 Charlotte 51경기·신인왕·손목 부상을 Chicago 세계선에 자동 복사하지 않는다. 부상 사건과 exact 기록은 player-game·생산성 계산 뒤 판정한다.
+155. 대체 세계의 2021-03-24까지 성적·수요 전 Vučević 거래를 잠그지 않는다. Hutchison 부재 때문에 실제 Washington–Chicago–Boston 3팀 거래도 원형 그대로 유지할 수 없다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~60순위와 Grant Riller의 미지명 자유계약 시장 진입을 `AUTHOR_APPROVED / LOCKED`로 통과시켰다. World Bible 매크로 게이트 1은 `COMPLETE`다. 다음 게이트 O-15F는 실제 Chicago 2020-21 opening roster와 거래·계약을 기준선으로 고정하고, LaMelo Ball·주인공이 차지하는 15인 자리·투웨이·선수별 분 및 첫 이동 선수를 판정하는 작업이다. Riller의 정확 계약은 Charlotte 쪽 roster 슬롯을 검산할 때까지 `HOLD`한다. 세계관 설정집은 정본 문서에 계속 누적 중이며 v1.0은 남은 매크로 게이트 뒤 승격한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 Chicago 2020-21 opening roster의 실제/대체 **표준계약 15명 + 투웨이 2명** 구조를 통과시켰다. 주인공 1,938분·LaMelo 1,760분은 provisional BASE이며, 다음 게이트 O-15F1은 2020-12-23부터 2021-03-24까지 실제 active list·분·선발을 적재해 부족한 1,651분을 같은 날짜 donor에게서 이전하는 계산이다. 여기서 단계적 선발 전환과 마감일 직전 대체 성적을 얻은 뒤 Vučević 거래와 3팀 거래를 각각 판정한다. 작가 선택 게이트가 아니라 원장 검증 단계이므로 중간 승인 없이 진행한다. Riller의 정확 계약, LaMelo 손목 사건, 개인 기록·승수·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
