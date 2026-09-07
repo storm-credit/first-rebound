@@ -1,6 +1,6 @@
 # R01 2020 Draft Kira Lewis Jr. Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED_TO_15 / PICK16_TEAM_BOARD_BLOCKER / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED_TO_16 / STEWART_RELANDING_REQUIRED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -32,4 +32,8 @@ O-15E5에서 작가는 주 분기 A를 승인했다. **Aaron Nesmith 14 → Cole
 4. Detroit가 Kira를 워크아웃한 사실은 실제 검토 증거지만 Stewart보다 높게 평가했다는 증거는 아니다.
 5. 후대 Kira·Stewart의 성과와 부상은 2020 선택 근거에서 제외한다.
 
-판정은 **Kira 16 `PRIMARY_LEAN / AUTHOR_GATE`**, Stewart 16 유지를 대안으로 둔다. Patrick 7로 생긴 가드 공백과 당시 Kira의 가치가 주안 근거지만, Stewart 특정 선호 때문에 자동 LOCK은 금지한다.
+결정 전 판정은 **Kira 16 `PRIMARY_LEAN / AUTHOR_GATE`**, Stewart 16 유지 대안이었다. Patrick 7로 생긴 가드 공백과 당시 Kira의 가치가 주안 근거지만, Stewart 특정 선호 때문에 자동 LOCK은 금지했다.
+
+## O-15E6 작가 결정
+
+작가는 직전 총괄 추천을 이어서 진행하도록 승인했다. **Kira Lewis Jr. 16순위**는 `AUTHOR_APPROVED / LOCKED`, Stewart 16 유지는 `REJECTED_HISTORICAL_CONTINGENCY`다. Stewart는 삭제하지 않고 Oklahoma City가 통제한 17순위부터 새 보드에 올린다.

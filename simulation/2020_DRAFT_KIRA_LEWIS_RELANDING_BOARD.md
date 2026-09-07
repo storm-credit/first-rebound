@@ -1,6 +1,6 @@
 # 2020 Draft Kira Lewis Jr. Relanding Board
 
-- 상태: `AUTHOR_APPROVED / PICKS_14_TO_15_LOCKED / DETROIT_16_AUTHOR_GATE`
+- 상태: `AUTHOR_APPROVED / PICKS_14_TO_16_LOCKED / STEWART_RELANDING_OPEN`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 → Okoro 5 → Okongwu 6 → Patrick 7 → Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Hayes 13`
 - 이동 선수: 실제 New Orleans 13순위 Kira Lewis Jr.
 - 원고 게이트: `CLOSED`
@@ -47,7 +47,7 @@ O-15E5 작가 선택으로 **A — Nesmith 14·Cole 15 유지**를 정본화한�
 - 반대로 Detroit가 단순히 남은 최고 선수를 고른 것은 아니다. 구단 회고는 Weaver가 Stewart를 특정 후보로 정했고, 16번 픽 확보 자체가 그 선호와 연결됐다고 설명한다.
 - 따라서 `가드 필요`만으로 Stewart를 지우거나 `Stewart 특정 선호`만으로 7번 가드 부재를 무시할 수 없다.
 
-판정: **Kira Lewis Jr. 16순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`**.
+판정: **Kira Lewis Jr. 16순위 `AUTHOR_APPROVED / LOCKED`**.
 
 총괄은 Kira 16을 추천한다. Detroit가 실제로 Kira를 검토했고, Patrick 7 선택으로 실제 Hayes가 맡았던 장기 포인트가드 기능이 비었으며, Kira는 16번에서 명백한 가치 하락 선수이기 때문이다.
 
@@ -55,13 +55,15 @@ O-15E5 작가 선택으로 **A — Nesmith 14·Cole 15 유지**를 정본화한�
 
 | 안 | Detroit 통제 16 | 새 이동 선수 | 판정 |
 |---|---|---|---|
-| **A** | **Kira Lewis Jr.** | Isaiah Stewart | **총괄 추천** |
-| B | Isaiah Stewart 유지 | Kira Lewis Jr. | Weaver 특정 선호 대안 |
+| **A** | **Kira Lewis Jr.** | Isaiah Stewart | **작가 승인 / 정본** |
+| B | Isaiah Stewart 유지 | Kira Lewis Jr. | `REJECTED_HISTORICAL_CONTINGENCY` |
+
+O-15E6에서 작가가 직전 총괄 추천을 이어서 진행하도록 승인했다. 따라서 **Kira Lewis Jr. 16순위**를 정본화하고 Stewart 16 유지는 비교 이력으로만 보존한다. 이는 Detroit의 비공개 Kira–Stewart 내부 순위가 확인됐다는 뜻이 아니다.
 
 ## 7. 다음 경계
 
-1. 작가가 Detroit 16순위 A/B를 선택한다.
-2. A라면 Isaiah Stewart를, B라면 Kira Lewis를 Oklahoma City가 통제한 17순위부터 재판정한다.
+1. Isaiah Stewart를 Oklahoma City가 통제한 17순위부터 재판정한다.
+2. Oklahoma City의 Pokuševski 목적 거래, Dallas의 Josh Green 선택, Detroit의 별도 19순위 자산을 순차 비교한다.
 3. 16순위 선수 변경이 Christian Wood sign-and-trade·Ariza 이동·Detroit의 보호 1라운드 픽 조건을 자동 변경한다고 가정하지 않는다. 선수 지정성과 거래 경제를 분리해 검산한다.
 4. 변경 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
 

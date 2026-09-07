@@ -332,5 +332,12 @@
 | D-324 | STEWART_16_CONTINGENCY | Isaiah Stewart 16순위 유지를 실현 가능 대안으로 보존 | Weaver의 Stewart 특정 선호와 픽 확보 비용을 가드 필요만으로 삭제하지 않음 |
 | D-325 | PICK16_TRANSACTION_FIREWALL | 16순위 선수 선택과 Wood sign-and-trade·Ariza·보호 1라운드 픽의 거래 경제를 분리 검산 | 선수 변경만으로 거래 전체 자동 소멸·자동 유지 금지 |
 | D-326 | NEXT_DISPLACED_PLAYER_FIREWALL | Kira 16이면 Stewart를, Stewart 유지면 Kira를 Oklahoma City 통제 17순위부터 재계산 | 이동 선수 삭제·후대 성과 역선택 금지 |
+| D-327 | AUTHOR_LOCK / KIRA_DETROIT_16 | Detroit는 통제한 16순위로 Kira Lewis Jr.를 지명 | Patrick 7의 PG 공백·실제 워크아웃·가치 하락 반영, 비공개 내부 순위 확인으로 쓰지 않음 |
+| D-328 | DETROIT_STEWART_16_REJECTED | Isaiah Stewart 16 유지를 비교 이력으로만 보존 | Stewart를 삭제하지 않고 Oklahoma City 통제 17순위부터 재계산 |
+| D-329 | POKU_17_RETENTION_STRONG_LEAN | Oklahoma City는 목적 상향 거래를 보존해 Aleksej Pokuševski 17 유지 주안 | Stewart 잔존만으로 직접적인 Poku 목표를 지우지 않음 |
+| D-330 | JOSH_GREEN_18_RETENTION_LEAN | Dallas는 외곽 수비형 윙 Josh Green 18 유지 주안 | Green–Stewart 공개 head-to-head 부재로 exact HOLD |
+| D-331 | STEWART_DETROIT_19_PRIMARY_LEAN | Stewart가 19번까지 남으면 Detroit가 별도 통제 픽에서 회수하는 안을 총괄 추천 | Weaver 특정 선호를 반영하되 Bey 평가·19순위 거래를 삭제하지 않음 |
+| D-332 | PICKS_17_TO_19_TRANSACTION_FIREWALL | 16 Wood·17 Rubio·19 Kennard–Shamet 거래를 서로 분리해 검산 | 선수 이동만으로 거래 전체 자동 유지·소멸 금지 |
+| D-333 | NEXT_BEY_RELANDING_FIREWALL | Stewart 19 선택 시 Saddiq Bey를 Miami 20순위부터 재계산 | Bey 삭제·후대 성과 역선택 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
