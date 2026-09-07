@@ -1,6 +1,6 @@
 # R01 2020 Draft Grant Riller Final Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICKS_57_TO_60_RETENTION_LEAN / UNDRAFTED_AUTHOR_GATE / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / PICKS_1_TO_60_AUTHOR_LOCKED / RILLER_UDFA_AUTHOR_LOCKED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -15,6 +15,6 @@
 
 ## 결론
 
-57~60순위 실제 선택은 직접 권리 거래·구단 평가가 확인돼 유지 주안이다. Riller는 실제 56순위보다 네 자리만 하락하며, 미지명 시장에서 팀과 계약 구조를 선택할 수 있다. 따라서 **실제 57~60 유지 → Grant Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`**가 추가 이동 선수를 만들지 않는 최소 인과 주안이다.
+57~60순위 실제 선택은 직접 권리 거래·구단 평가가 확인돼 유지한다. Riller는 실제 56순위보다 네 자리만 하락하며, 미지명 시장에서 팀과 계약 구조를 선택할 수 있다. 작가 승인으로 **실제 57~60 유지 → Grant Riller 미지명 자유계약 시장 `AUTHOR_APPROVED / LOCKED`**를 추가 이동 선수를 만들지 않는 최소 인과 정본으로 둔다.
 
-작가가 A를 선택하면 2020 Draft 1~60 연쇄를 닫되 Riller의 정확 팀·계약은 Chicago 2020-21 opening roster 원장과 분리해 `HOLD`한다.
+2020 Draft 1~60 연쇄는 닫혔다. Riller의 정확 팀·계약은 Chicago 2020-21 opening roster 원장과 분리해 `HOLD`한다.

@@ -406,8 +406,8 @@
 - 팀보드: `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.md`
 - 원장: `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_GRANT_RILLER_FINAL_REVIEW.md`
-- 유지 주안: 직접 권리 거래·구단 평가를 보존해 실제 57~60 유지
-- 최종 주안: Grant Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`
-- 대안: Toronto Riller 59, Milwaukee Riller 60
+- LOCK: 직접 권리 거래·구단 평가를 보존해 실제 57~60 유지
+- LOCK: Grant Riller 미지명 자유계약 시장 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Toronto Riller 59, Milwaukee Riller 60 `REJECTED_HISTORICAL_CONTINGENCY`
 - 계약 방화벽: 정확 팀·표준/투웨이/Exhibit 10은 2020-21 opening roster 원장까지 HOLD
-- 다음 조사: 작가 선택 뒤 2020 Draft 연쇄 종료 또는 이동 선수 추가 계산
+- 다음 조사: Chicago 2020-21 opening roster·계약·선수별 분 기준선
