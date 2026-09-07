@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E13-AUTHOR Charlotte 56순위 Richards/Riller 선택`
-- 최근 설계 변경: `2020 Draft 1~42 LOCK; Nick Richards 56 PRIMARY_LEAN / AUTHOR_GATE; World Bible v1.0 7개 매크로 게이트`
-- 최근 정본 병합: `PR #113 / 5ce16b0a`
-- 최근 설계 병합: `PR #113 / 5ce16b0a`
+- 현재 작업: `O-15E14-AUTHOR 2020 Draft 최종 Riller UDFA 선택`
+- 최근 설계 변경: `2020 Draft 1~56 LOCK; 실제 57~60 유지→Grant Riller UDFA PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #115 / ae0cbbc7`
+- 최근 설계 병합: `PR #115 / ae0cbbc7`
 
 ## 완료
 
@@ -182,7 +182,8 @@
 - [x] R.J. Hampton 25~31순위 재착지 보드 — 실제 25~30 유지→Hampton Dallas 31 `AUTHOR_APPROVED / LOCKED`
 - [x] Tyrell Terry 32순위 재착지 — Charlotte Terry 32 `AUTHOR_APPROVED / LOCKED`
 - [x] Vernon Carey Jr. 33~42순위 재착지 — 실제 33~41 유지→Charlotte Carey 42 `AUTHOR_APPROVED / LOCKED`
-- [x] Nick Richards 43~56순위 재착지 보드 — 실제 43~55 유지→Charlotte Richards 56 `PRIMARY_LEAN / AUTHOR_GATE`
+- [x] Nick Richards 43~56순위 재착지 — 실제 43~55 유지→Charlotte Richards 56 `AUTHOR_APPROVED / LOCKED`
+- [x] Grant Riller 최종 보드 — 실제 57~60 유지→Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`; 정확 팀·계약 종류 HOLD
 - [x] 세계관 설정집은 정본 문서에 누적 작성 중이며 `World Bible v1.0`까지 7개 매크로 게이트로 완료 정의
 
 ## 현재 결정 대기
@@ -214,7 +215,8 @@
 - [x] O-15E10-AUTHOR A `실제 25~30 유지→Hampton 31` 선택
 - [x] O-15E11-AUTHOR A `Tyrell Terry 32→Carey 33+` 선택
 - [x] O-15E12-AUTHOR A `실제 33~41 유지→Carey 42` 선택
-- [ ] O-15E13-AUTHOR A `실제 43~55 유지→Richards 56→Riller 57+` / B `Riller 56 유지→Richards 57+` / C `Richards 44→Simonović 45+` 선택
+- [x] O-15E13-AUTHOR A `실제 43~55 유지→Richards 56→Riller 57+` 선택
+- [ ] O-15E14-AUTHOR A `실제 57~60 유지→Riller UDFA` / B `Toronto Riller 59→Harris UDFA` / C `Milwaukee Riller 60→Merrill UDFA` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -415,9 +417,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 145. Richards의 실제 42순위만으로 43~55순위 선수들을 자동 치환하거나 Chicago의 Simonović stash 목적을 지우지 않는다.
 146. Edwards 3·Terry 32가 Riller의 가드 기능을 중복시키더라도 Riller가 무가치해지는 것으로 쓰지 않는다.
 147. 세계관 설정집은 이미 누적 작성 중이며 2020 Draft 종료만으로 `DESIGN_COMPLETE`나 원고 개방을 선언하지 않는다.
+148. Riller의 실제 56순위만으로 Brooklyn·Philadelphia·Toronto·Milwaukee의 직접 선택·권리 취득을 지우지 않는다.
+149. Riller가 미지명이 되더라도 NBA 탈락이나 가치 붕괴로 쓰지 않는다. 드래프트 직후 자유계약 시장을 별도로 연다.
+150. 실제 Charlotte 투웨이 계약을 자동 복원하지 않는다. Edwards 3·Terry 32를 포함한 15인·투웨이 슬롯과 정확 계약 종류는 2020-21 opening roster 원장에서 계산한다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~42순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey→Bolmaro→Nnaji→Quickley→Pritchard→Azubuike→McDaniels→Flynn→Bane→Hampton→Terry→Oturu→Maledon→Tillman→Tyler Bey→Krejčí→Saben Lee→Hughes→Woodard→Tre Jones→Carey`로 통과시켰다. Nick Richards는 43순위부터 재판정한다. 다음 게이트는 A `실제 43~55 유지→Richards 56→Riller 57+`, B `Riller 56 유지→Richards 57+`, C `Richards 44→Simonović 45+` 중 선택이다. Charlotte의 실제 두 센터 보강 방향과 Edwards·Terry의 가드 중복을 함께 반영하는 A를 총괄 추천한다. 세계관 설정집은 이미 누적 작성 중이며 v1.0은 7개 매크로 게이트 뒤 승격한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~56순위를 `AUTHOR_APPROVED / LOCKED`로 통과시켰다. 마지막 드래프트 게이트는 A `실제 57~60 유지→Grant Riller 미지명 자유계약 시장`, B `Toronto Riller 59→Jalen Harris 미지명`, C `Milwaukee Riller 60→Sam Merrill 미지명` 중 선택이다. 직접 권리 취득·구단 평가를 보존하고 추가 이동 선수를 만들지 않는 A를 총괄 추천한다. A가 승인되면 2020 Draft 1~60 연쇄를 닫고 World Bible 남은 매크로 게이트 2인 Chicago 2020-21 opening roster·시즌 원장으로 이동한다. Riller의 정확 팀·표준/투웨이/Exhibit 10 계약은 그 원장까지 HOLD한다. 세계관 설정집은 정본 문서에 계속 누적 중이며 v1.0은 7개 매크로 게이트 뒤 승격한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
