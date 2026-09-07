@@ -773,3 +773,15 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Vucevic 거래와 Washington–Chicago–Boston 3팀 거래는 대체 세계의 2021-03-24까지 성적·수요가 계산되기 전 발생을 잠그지 않는다. Hutchison 부재 때문에 후자는 실제 원형 그대로는 발생할 수 없다.
 - Riller의 미지명 시장 진입은 LOCK이지만 정확 팀·계약 종류는 Chicago opening roster만으로 결정되지 않아 계속 `HOLD`다.
 - 상세 권위는 `research/CHICAGO_2020_21_OPENING_ROSTER_BASELINE.md`와 `simulation/CHICAGO_2020_21_ROLE_ARCHITECTURE.md`다.
+
+## v0.30 O-15F1 PARTIAL ADDITIONS — Chicago 2020-21 마감일 전 player-game
+
+- 실제 2020-12-23~2021-03-24 Chicago 기준선은 43경기·19승 24패·팀 10,420:02·215선발이다. 승패는 분 배정에 사용하지 않은 식별 기준선이며 alternate 결과가 아니다.
+- 같은 날짜 보존을 통과한 마감일 전 역할은 주인공 43경기·43선발·1,219분, LaMelo 43경기·25선발·1,191분이다. 두 값은 `PREDEADLINE_ROLE_PROVISIONAL_LOCK`이며 개인 생산성·승패를 잠그지 않는다.
+- 주인공은 Patrick Williams의 42선발과 Patrick 결장일의 Garrett Temple 한 선발을 이어받는다. LaMelo는 첫 18경기 bench 적응 뒤 2021-02-01부터 선발하고 Coby 18선발·Satoransky 7선발을 대체한다.
+- Patrick 1,192:50과 Hutchison 63:35의 직접 pool 1,256:25를 제거한다. 두 가상 선수의 합계 2,410분과의 차이 1,153:35는 Satoransky 330:00·Valentine 360:00·Arcidiacono 139:22·Coby 220:00·Temple 80:38·Porter 23:35에서 같은 날짜로 이전한다.
+- Coby는 43경기·18선발·1,142:04, Temple은 35경기·11선발·896:49를 유지한다. LaVine·Markkanen과 센터진의 경기별 분은 실제와 같다.
+- Young은 2021-03-12의 0:38을 실제 출전일인 2020-12-31에 반환하는 gross bridge만 사용하며 시즌 net·경기·선발은 모두 실제와 같다.
+- LaMelo가 마감일 전 43경기 모두 active인 것은 Chicago 고유 부상 입력이 없는 계산 BASE다. Charlotte 손목 사건을 영구 삭제하지 않으며 이후 부상은 `INJURY_EVENT_HOLD`다.
+- O-15F2 생산성 prior와 43경기 outcome 전에는 실제 19승 24패·Vučević 거래·3팀 거래를 alternate 정본으로 쓰지 않는다.
+- 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_GAME.md`다.
