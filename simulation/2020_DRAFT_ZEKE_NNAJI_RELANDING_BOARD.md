@@ -1,6 +1,6 @@
 # 2020 Draft Zeke Nnaji Relanding Board
 
-- 상태: `BEY_22_AUTHOR_LOCKED / PICKS_23_TO_24_AUTHOR_GATE`
+- 상태: `PICKS_23_TO_24_AUTHOR_LOCKED / HAMPTON_RELANDING_OPEN`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 → Okoro 5 → Okongwu 6 → Patrick 7 → Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Hayes 13 → Nesmith 14 → Cole 15 → Kira 16 → Pokuševski 17 → Josh Green 18 → Stewart 19 → Achiuwa 20 → Maxey 21 → Bey 22`
 - 이동 선수: 실제 Denver 22순위 Zeke Nnaji
 - 원고 게이트: `CLOSED`
@@ -16,7 +16,7 @@ Denver가 Saddiq Bey를 22순위로 선택했으므로 Nnaji를 삭제하거나 
 - Nnaji는 Minnesota 출신 빅맨이고 당시 로컬 연결은 있으나, Minnesota가 Bolmaro 대신 Nnaji를 목표로 했다는 직접 공개 근거는 확인되지 않았다.
 - 가상 라이벌이 1순위로 Minnesota에 들어온 변화도 23순위의 draft-and-stash 윙 목적을 자동으로 없애지 않는다. 정확 roster 비용은 라이벌 신인 역할 원장에서 따로 계산한다.
 
-판정: **Leandro Bolmaro 23순위 `RETENTION_STRONG_LEAN`**.
+판정: **Leandro Bolmaro 23순위 `AUTHOR_APPROVED / LOCKED`**.
 
 ## 3. Denver 통제 24순위 — Nnaji 재착지 주안
 
@@ -25,25 +25,24 @@ Denver가 Saddiq Bey를 22순위로 선택했으므로 Nnaji를 삭제하거나 
 - Bey가 22번에서 새로 가용한 세계에서는 Denver가 Bey와 Nnaji를 직접 비교해야 한다. 작가가 Bey를 승인했으므로, Nnaji가 24번까지 남으면 실제 첫 지명 선호를 가장 가까운 Denver 통제 픽에서 회수하는 편이 인과 훼손이 작다.
 - 다만 Denver가 `Nnaji > Hampton`이라는 내부 순위를 공개한 자료는 없다. 거래 시점·상대 팀과의 합의 위험 때문에 22번 보호가 반드시 선수 절대순위만을 뜻하지도 않는다.
 
-판정: **Zeke Nnaji 24순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`**.
+판정: **Zeke Nnaji 24순위 `AUTHOR_APPROVED / LOCKED`**.
 
-## 4. 작가 선택
+## 4. 작가 선택 결과
 
 | 안 | Minnesota 23 | Denver 24 | 새 이동 선수 | 판정 |
 |---|---|---|---|---|
-| **A** | **Leandro Bolmaro** | **Zeke Nnaji** | R.J. Hampton | **총괄 추천** |
-| B | **Zeke Nnaji** | R.J. Hampton | Leandro Bolmaro | Minnesota 로컬 빅맨 대안 |
-| C | Leandro Bolmaro | **R.J. Hampton** | Zeke Nnaji | Denver 실제 24 유지 대안 |
+| **A** | **Leandro Bolmaro** | **Zeke Nnaji** | R.J. Hampton | **작가 승인·LOCK** |
+| B | **Zeke Nnaji** | R.J. Hampton | Leandro Bolmaro | `REJECTED_HISTORICAL_CONTINGENCY` |
+| C | Leandro Bolmaro | **R.J. Hampton** | Zeke Nnaji | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — Bolmaro 23 → Nnaji 24**를 추천한다. Minnesota가 두 픽을 지불한 목적 거래를 보존하고, Denver가 실제 첫 보유 픽에서 우선 보호한 Nnaji를 가장 가까운 별도 통제 픽에서 회수한다.
+작가가 이어서 진행하도록 승인해 **A — Bolmaro 23 → Nnaji 24**를 `AUTHOR_APPROVED / LOCKED`로 둔다. Minnesota가 두 픽을 지불한 목적 거래를 보존하고, Denver가 실제 첫 보유 픽에서 우선 보호한 Nnaji를 가장 가까운 별도 통제 픽에서 회수한다. 정확 1~24순위가 정본화됐다.
 
 ## 5. 다음 경계
 
-1. 작가가 A/B/C를 선택한다.
-2. A라면 R.J. Hampton을 New York 통제 25순위부터 재판정한다. 실제 25순위 Immanuel Quickley의 목적 거래와 직접 비교한다.
-3. B라면 Bolmaro를 Denver 24순위부터, C라면 Nnaji를 New York 통제 25순위부터 재계산한다.
-4. Minnesota의 23순위 상향 거래와 Denver의 24순위 4팀 거래는 선수 이름 하나가 바뀐다고 자동 유지·소멸하지 않는다.
-5. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
+1. R.J. Hampton을 New York 통제 25순위부터 재판정한다. 실제 25순위 Immanuel Quickley의 목적 거래와 직접 비교한다.
+2. B/C는 비교 이력으로만 보존하고 활성 연쇄에서 사용하지 않는다.
+3. Minnesota의 23순위 상향 거래와 Denver의 24순위 4팀 거래는 선수 이름 하나가 바뀐다고 자동 유지·소멸하지 않는다.
+4. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
 
 ## 6. 출처
 

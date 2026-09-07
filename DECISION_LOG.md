@@ -352,5 +352,11 @@
 | D-344 | NNAJI_DENVER_24_PRIMARY_LEAN | Denver가 별도 통제한 24순위에서 Zeke Nnaji를 회수하는 안을 총괄 추천 | 실제 22 우선 보호 순서를 반영하되 공개 Hampton head-to-head 부재로 exact HOLD |
 | D-345 | PICKS_23_TO_24_TRANSACTION_FIREWALL | Minnesota의 23순위 상향 거래와 Denver의 24순위 4팀 거래를 선수 선택과 분리 검산 | 드래프트 밤 보도·공식 완료 거래 이중 계산 및 자동 유지·소멸 금지 |
 | D-346 | NEXT_HAMPTON_RELANDING_FIREWALL | Nnaji 24 선택 시 R.J. Hampton을 New York 통제 25순위부터 재계산 | Hampton 삭제·Quickley 목적 거래 자동 훼손 금지 |
+| D-347 | AUTHOR_LOCK / PICKS_23_TO_24 | 2020 Draft 23~24순위를 Minnesota Bolmaro→Denver Nnaji로 확정 | Minnesota·Denver의 비공개 내부 head-to-head가 확인된 것으로 쓰지 않음 |
+| D-348 | HAMPTON_RELANDING_REQUIRED | Nnaji에게 밀린 R.J. Hampton을 New York 통제 25순위부터 재배열 | 실제 25순위 이하 자동 한 칸 이동 금지 |
+| D-349 | PICKS_25_TO_30_RETENTION_LEAN | Quickley·Pritchard·Azubuike·McDaniels·Flynn·Bane 실제 지명을 팀별 목적 근거로 유지 주안 | Boston Hampton 관심을 누락하지 않고 exact 25~30 작가 승인 전 HOLD |
+| D-350 | HAMPTON_DALLAS_31_PRIMARY_LEAN | Dallas가 31순위에서 R.J. Hampton을 지명하는 안을 총괄 추천 | 실제 인터뷰·지역 연결·가치 하락 반영, 공개 Terry head-to-head 부재로 exact HOLD |
+| D-351 | PICKS_25_TO_31_TRANSACTION_FIREWALL | 25·27·28·30순위 픽 거래와 선수 선택을 분리 검산 | 선수 변경만으로 거래 전체 자동 유지·소멸 금지 |
+| D-352 | NEXT_TERRY_RELANDING_FIREWALL | Hampton 31 선택 시 Tyrell Terry를 Charlotte 통제 32순위부터 재계산 | Terry 삭제·후대 성과 역선택 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

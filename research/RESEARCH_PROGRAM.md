@@ -357,7 +357,17 @@
 - 팀보드: `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_ZEKE_NNAJI_RELANDING_REVIEW.md`
-- 주안: Minnesota Bolmaro 23 `RETENTION_STRONG_LEAN` → Denver Nnaji 24 `PRIMARY_LEAN / AUTHOR_GATE`
+- LOCK: Minnesota Bolmaro 23 → Denver Nnaji 24 `AUTHOR_APPROVED / LOCKED`
 - 거래 안전선: Minnesota 23순위 목적 상향 거래와 Denver 24순위 4팀 거래를 선수 선택과 분리 검산
 - 자료 한계: Denver가 Nnaji를 22에서 먼저 보호한 순서는 강한 관측치지만 공개 Nnaji–Hampton 내부 순위는 아님
-- 다음 조사: 작가 선택 뒤 이동 선수를 New York 통제 25순위부터 재판정
+- 다음 조사: R.J. Hampton을 New York 통제 25순위부터 재판정
+
+### R15.24 R.J. Hampton 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_RJ_HAMPTON_RELANDING_REVIEW.md`
+- 주안: 실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지 → Dallas Hampton 31 `PRIMARY_LEAN / AUTHOR_GATE`
+- 거래 안전선: 25·27·28·30순위 거래와 선수 선택을 분리 검산
+- 자료 한계: Dallas의 Hampton 인터뷰는 Terry보다 높은 내부 순위를 증명하지 않음
+- 다음 조사: 작가 선택 뒤 이동 선수를 32순위부터 재판정

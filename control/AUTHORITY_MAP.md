@@ -59,8 +59,10 @@
 | Isaiah Stewart 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_ISAIAH_STEWART_RELANDING_REVIEW.md` | 17~19분기 작가 해소·Bey 재착지 요구 / NOT_INDEPENDENT |
 | Saddiq Bey 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_SADDIQ_BEY_RELANDING_BOARD.md` 및 CSV | Achiuwa 20·Maxey 21·Bey 22 AUTHOR_LOCKED |
 | Saddiq Bey 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_SADDIQ_BEY_RELANDING_REVIEW.md` | 작가 선택으로 20~22분기 해소·Nnaji 재착지 요구 / NOT_INDEPENDENT |
-| Zeke Nnaji 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.md` 및 CSV | Bolmaro 23 STRONG_LEAN / Nnaji 24 AUTHOR_GATE |
-| Zeke Nnaji 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_ZEKE_NNAJI_RELANDING_REVIEW.md` | 목적 거래·Denver 선수순서 증거 한계 / NOT_INDEPENDENT |
+| Zeke Nnaji 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_ZEKE_NNAJI_RELANDING_BOARD.md` 및 CSV | Bolmaro 23→Nnaji 24 AUTHOR_LOCKED |
+| Zeke Nnaji 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_ZEKE_NNAJI_RELANDING_REVIEW.md` | 작가 선택으로 23~24분기 해소·Hampton 재착지 요구 / NOT_INDEPENDENT |
+| R.J. Hampton 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md` 및 CSV | 실제 25~30 유지 / Hampton Dallas 31 AUTHOR_GATE |
+| R.J. Hampton 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_RJ_HAMPTON_RELANDING_REVIEW.md` | 팀별 목적 근거·Dallas 내부 비교 한계 / NOT_INDEPENDENT |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |

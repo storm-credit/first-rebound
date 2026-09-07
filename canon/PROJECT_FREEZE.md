@@ -725,3 +725,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Minnesota는 25·33순위를 지불해 23순위 Bolmaro를 얻은 목적 상향 거래 때문에 **Bolmaro 23 `RETENTION_STRONG_LEAN`**이다.
 - 실제 Denver는 자기 22순위로 Nnaji를 먼저 지명하고 별도 4팀 거래로 Hampton 24를 얻었다. Nnaji가 24번까지 남으면 Denver가 회수하는 안을 **`PRIMARY_LEAN / AUTHOR_GATE`**로 둔다.
 - 총괄 추천은 **Bolmaro 23 → Zeke Nnaji 24**다. 이 경우 R.J. Hampton을 New York 통제 25순위부터 재판정한다. 정확 23~24순위는 작가 승인 전 `HOLD`다.
+
+## v0.30 O-15E9 PARTIAL ADDITIONS — Bolmaro 23·Zeke Nnaji 24
+
+- 작가가 직전 총괄 추천을 이어서 진행하도록 승인해 **Minnesota Leandro Bolmaro 23 → Denver Zeke Nnaji 24**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~24순위가 정본화됐다.
+- Nnaji 23과 Hampton 24 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 이는 Minnesota·Denver의 비공개 내부 head-to-head가 확인됐다는 뜻이 아니다.
+- Nnaji에게 밀린 R.J. Hampton은 삭제하지 않고 New York 통제 25순위부터 재판정한다.
+- New York Quickley 25, Boston Pritchard 26, Utah Azubuike 27, Minnesota McDaniels 28, Toronto Flynn 29, Memphis Bane 30은 각각 슈팅 필요·직접 선호·역할·목적 거래 근거 때문에 유지 주안이다.
+- Hampton의 첫 합리적 재착지는 Dallas 31순위다. Dallas가 Hampton과 실제 사전 인터뷰를 했고 Hampton이 실제 24순위보다 7계단 내려왔지만, Tyrell Terry의 Luka 옆 슈팅 적합성과 공개 Hampton–Terry 내부 비교 부재 때문에 **`PRIMARY_LEAN / AUTHOR_GATE`**로 둔다.
+- 총괄 추천은 **실제 25~30 유지 → R.J. Hampton 31**이다. 이 경우 Tyrell Terry를 Charlotte 통제 32순위부터 재판정한다. 정확 25~31순위는 작가 승인 전 `HOLD`다.
+- 25·27·28·30순위의 거래는 선수 선택 변화만으로 자동 유지·소멸하지 않는다.
