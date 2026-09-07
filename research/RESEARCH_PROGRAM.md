@@ -473,3 +473,11 @@
 - C: 무거래 `SECONDARY_CONTINGENCY / AUTHOR_GATE`
 - 방화벽: 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적을 당시 선택 근거로 역선택 금지
 - 다음 조사: 작가 선택. B 선택 시 O-15F5 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패 비교
+
+### R15.34 O-15F4 작가 선택
+
+- 작가 승인: B `LOW_COST_CENTER_DIRECTION_LOCKED`
+- 거부: A 실제 Vučević 패키지 `REJECTED_HISTORICAL_CONTINGENCY`
+- 보존: C 무거래 `FAILURE_CONTINGENCY`
+- 자산 경계: Carter·Porter·2021·2023 1라운드는 exact 거래 전 Chicago에 유지
+- 다음 조사: O-15F5 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패 당시 시장 보드
