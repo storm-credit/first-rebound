@@ -761,3 +761,15 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 작가 승인으로 **실제 57~60 유지 → Riller 미지명 자유계약 시장**을 `AUTHOR_APPROVED / LOCKED`로 둔다. 2020 Draft 1~60 연쇄가 정본화됐다.
 - Toronto Riller 59와 Milwaukee Riller 60은 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. Riller의 정확 팀·표준/투웨이/Exhibit 10 계약은 2020-21 opening roster 원장까지 `HOLD`한다.
 - 세계관 설정집은 이미 정본 문서에 누적 중이다. `World Bible v1.0`은 드래프트 하나의 종료가 아니라 NBA 거래·장기 커리어·전체 구조·통합/독립 검수·작가 승인까지 닫힌 뒤 승격한다.
+
+## v0.30 O-15F PARTIAL ADDITIONS — Chicago 2020-21 opening roster·역할 기준선
+
+- 실제 Chicago opening roster는 표준계약 15명 + 투웨이 2명이다. 대체 세계에서는 `Chandler Hutchison→주인공`, `Patrick Williams→LaMelo Ball`로 두 표준계약 자리만 1대1 치환하며 별도 방출을 만들지 않는다.
+- LaMelo는 Patrick과 같은 전체 4순위 rookie-scale 슬롯을 사용한다. 주인공은 2018 정확 지명 순번이 `HOLD`이므로 Hutchison과 정확 급여가 같다고 잠그지 않고 1라운드 표준계약 계층만 유지한다.
+- 역할 provisional BASE는 주인공 68경기·58선발·1,938분·28.5 MPG, LaMelo 64경기·32선발·1,760분·27.5 MPG다. 이는 결과 정본이 아니라 O-15F1 player-game 제작 목표다.
+- 합계 3,698분에서 Patrick 1,983분과 Hutchison 64분의 직접 대체 pool 2,047분을 빼면 1,651분이 추가로 필요하다. 이 분은 Satoransky·Valentine·Arcidiacono를 우선하고 Coby·Temple을 제한적으로 검토하되 같은 날짜 active list·선발 5자리·포지션을 보존한다.
+- 첫날 선발은 Coby–LaVine–주인공–Markkanen–Carter를 provisional base로 둔다. LaMelo는 첫 가드 교체와 두 번째 유닛 1차 창출자로 시작하며 게임 10~20 평가 뒤 선발 전환을 검토한다. 정확 전환일은 `HOLD`다.
+- LaMelo의 실제 Charlotte 51경기·신인왕·손목 부상은 Chicago 결과로 복사하지 않는다. 손목 사건은 `INJURY_EVENT_HOLD`다.
+- Vucevic 거래와 Washington–Chicago–Boston 3팀 거래는 대체 세계의 2021-03-24까지 성적·수요가 계산되기 전 발생을 잠그지 않는다. Hutchison 부재 때문에 후자는 실제 원형 그대로는 발생할 수 없다.
+- Riller의 미지명 시장 진입은 LOCK이지만 정확 팀·계약 종류는 Chicago opening roster만으로 결정되지 않아 계속 `HOLD`다.
+- 상세 권위는 `research/CHICAGO_2020_21_OPENING_ROSTER_BASELINE.md`와 `simulation/CHICAGO_2020_21_ROLE_ARCHITECTURE.md`다.

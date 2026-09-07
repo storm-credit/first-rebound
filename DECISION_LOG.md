@@ -384,5 +384,12 @@
 | D-376 | AUTHOR_LOCK / RILLER_UNDRAFTED_MARKET | Grant Riller는 2020 Draft 미지명 자유계약 시장으로 진입 | 미지명을 NBA 탈락으로 쓰지 않고 정확 계약은 다음 원장으로 분리 |
 | D-377 | RILLER_59_OR_60_REJECTED | Toronto Riller 59·Milwaukee Riller 60 분기를 비교 이력으로 보존 | Harris·Merrill의 직접 선택·권리 취득을 존중 |
 | D-378 | 2020_DRAFT_CASCADE_COMPLETE | 2020 Draft 1~60 연쇄를 `AUTHOR_APPROVED / LOCKED`로 종료 | 다음 활성 계산은 Chicago 2020-21 opening roster·시즌 원장 |
+| D-379 | CHICAGO_2020_21_OPENING_ROSTER_PASS | 실제와 대체 세계 모두 표준계약 15명 + 투웨이 2명 유지 | Hutchison→주인공·Patrick→LaMelo 1대1 치환, 별도 방출 금지 |
+| D-380 | CHICAGO_2020_21_PROVISIONAL_ROLE_BASE | 주인공 68경기·58선발·1,938분, LaMelo 64경기·32선발·1,760분을 player-game 제작 BASE로 설정 | same-date 보존 전 exact GP·GS·분·기록 LOCK 금지 |
+| D-381 | CHICAGO_2020_21_SECONDARY_DONOR_BLOCKER | 합산 3,698분과 직접 대체 pool 2,047분의 차이 1,651분을 추가 조달 | 시즌 총분 일괄 차감 금지, 경기별 active list·선발 5자리 보존 |
+| D-382 | CHICAGO_2020_21_STAGED_STARTING_BASE | Coby 초기 PG 시험·LaMelo 첫 가드 교체 뒤 게임 10~20 평가로 선발 전환 검토 | 즉시 3가드 상시 선발·주인공 point forward 완성형 금지 |
+| D-383 | LAMELO_CHICAGO_RESULT_FIREWALL | Charlotte의 51경기·신인왕·손목 부상을 Chicago 결과로 자동 복사하지 않음 | 손목 사건 INJURY_EVENT_HOLD, 후대 성과 역선택 금지 |
+| D-384 | CHICAGO_2021_DEADLINE_EVENT_HOLD | Vučević 거래와 3팀 거래는 2021-03-24까지 대체 성적·수요 뒤 판정 | Hutchison 부재로 실제 3팀 거래 원형 자동 유지 금지 |
+| D-385 | RILLER_EXACT_CONTRACT_REMAINS_HOLD | Riller의 UDFA 시장 진입은 LOCK이나 정확 팀·계약은 Chicago opening roster만으로 결정하지 않음 | Charlotte 또는 리그 전체 UDFA 보드 별도 검토 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

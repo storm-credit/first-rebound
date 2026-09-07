@@ -411,3 +411,15 @@
 - 폐기 분기: Toronto Riller 59, Milwaukee Riller 60 `REJECTED_HISTORICAL_CONTINGENCY`
 - 계약 방화벽: 정확 팀·표준/투웨이/Exhibit 10은 2020-21 opening roster 원장까지 HOLD
 - 다음 조사: Chicago 2020-21 opening roster·계약·선수별 분 기준선
+
+### R15.29 Chicago 2020-21 opening roster·역할 기준선
+
+- 실제 기준선: `research/CHICAGO_2020_21_OPENING_ROSTER_BASELINE.md`
+- 로스터·총분 원장: `simulation/CHICAGO_2020_21_ROSTER_MINUTE_BASELINE.csv`
+- 역할선: `simulation/CHICAGO_2020_21_ROLE_ARCHITECTURE.md` 및 `simulation/CHICAGO_2020_21_ROLE_MINUTE_PRIOR.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2020_21_OPENING_ROSTER_REVIEW.md`
+- PASS: 실제와 대체 세계 모두 표준계약 15명 + 투웨이 2명. `Hutchison→주인공`, `Patrick Williams→LaMelo Ball` 1대1 치환으로 별도 방출 불필요
+- PROVISIONAL BASE: 주인공 68경기·58선발·1,938분, LaMelo 64경기·32선발·1,760분
+- PLAYER_GAME BLOCKER: 합산 3,698분에서 직접 대체분 2,047분을 뺀 1,651분을 같은 날짜 donor에게서 이전
+- 거래 방화벽: 대체 세계의 2021-03-24까지 성적·수요 전 Vučević 거래와 실제 3팀 거래 발생 LOCK 금지
+- 다음 조사: Chicago 2020-21 마감일 전 player-game donor·선발 원장

@@ -72,6 +72,9 @@
 | Grant Riller 2020 Draft 최종 보드 | `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.md` 및 CSV | 실제 57~60 유지→Riller UDFA AUTHOR_LOCKED |
 | Grant Riller 최종 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_GRANT_RILLER_FINAL_REVIEW.md` | Toronto 직접 평가·계약 분리 / NOT_INDEPENDENT |
 | 세계관 설정집 완성 로드맵 | `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` | 7개 매크로 게이트·v1.0 완료 정의 |
+| Chicago 2020-21 opening roster·실제 총분 기준선 | `research/CHICAGO_2020_21_OPENING_ROSTER_BASELINE.md` 및 `simulation/CHICAGO_2020_21_ROSTER_MINUTE_BASELINE.csv` | 실제/대체 15+2 PASS, 시즌 실제 17,380분·360선발 |
+| Chicago 2020-21 주인공·LaMelo 역할 prior | `simulation/CHICAGO_2020_21_ROLE_ARCHITECTURE.md` 및 `simulation/CHICAGO_2020_21_ROLE_MINUTE_PRIOR.csv` | 합계 3,698분 PROVISIONAL BASE / secondary donor 1,651분 PLAYER_GAME_REQUIRED |
+| Chicago 2020-21 opening roster 총괄 맹점 검토 | `reviews/R01_CHICAGO_2020_21_OPENING_ROSTER_REVIEW.md` | STRUCTURE_PASS / PLAYER_GAME_BLOCKER / NOT_INDEPENDENT |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
