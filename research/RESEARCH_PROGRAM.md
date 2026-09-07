@@ -448,3 +448,16 @@
 - 제거 관측량: 2,410분에서 851.77득점·405.63리바운드·213.77어시스트·63.13스틸·38.25블록
 - 방화벽: BASE 귀속 증가와 +76.95턴오버를 팀 score margin으로 직접 합산 금지
 - 다음 조사: 최소 두 impact proxy의 43경기 score-margin outcome, Young bridge·일정 피로 stress, 대체 마감일 성적
+
+### R15.32 Chicago 2020-21 마감일 전 score-margin outcome
+
+- 기준선: `simulation/CHICAGO_2020_21_PREDEADLINE_GAME_MARGIN_BASELINE.csv`, `simulation/CHICAGO_2020_21_2021_03_24_EAST_STANDINGS.csv`
+- impact 입력: `simulation/CHICAGO_2020_21_PREDEADLINE_IMPACT_PRIORS.csv`, `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_IMPACT_INPUTS.csv`
+- 실행 원장: `simulation/CHICAGO_2020_21_PREDEADLINE_OUTCOME_LEDGER.csv`, `simulation/CHICAGO_2020_21_PREDEADLINE_RAPTOR_SENSITIVITY.csv`
+- 설계 문서: `simulation/CHICAGO_2020_21_PREDEADLINE_OUTCOME_ROBUSTNESS.md`
+- 총괄 검토: `reviews/R01_CHICAGO_2020_21_PREDEADLINE_OUTCOME_REVIEW.md`
+- PASS: BPM·RAPTOR_EB·2021-03-24 cutoff E_NET_EB 세 계열, 실제 43경기 점수차·second-night 10경기 보존
+- 중심 결과: 19~21승·동부 8~10위권, exact record HOLD
+- Young bridge: 0:38 시즌 impact net zero·승패 변화 없음
+- 거래 경계: Chicago buyer motive PASS, 실제 Vučević 패키지와 3팀 거래는 별도 HOLD
+- 다음 조사: O-15F4 Vučević 실제 패키지·소형 센터 거래·무거래 팀보드
