@@ -377,7 +377,27 @@
 - 팀보드: `simulation/2020_DRAFT_TYRELL_TERRY_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_TYRELL_TERRY_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_TYRELL_TERRY_RELANDING_REVIEW.md`
-- 주안: Charlotte Tyrell Terry 32 `PRIMARY_LEAN / AUTHOR_GATE`
+- LOCK: Charlotte Tyrell Terry 32 `AUTHOR_APPROVED / LOCKED`
 - 상류 변화: Charlotte 3순위가 LaMelo에서 Edwards로 바뀌어 큰 가드 playmaking이 사라짐
 - 반대 근거: Carey 32·Richards 42 권리 거래가 보여주는 실제 센터층 보강 목적
-- 다음 조사: 작가 선택 뒤 이동 선수를 LA Clippers 통제 33순위부터 재판정
+- 폐기 분기: Charlotte Carey 32 유지 `REJECTED_HISTORICAL_CONTINGENCY`
+- 다음 조사: Vernon Carey Jr.를 LA Clippers 통제 33순위부터 재판정
+
+### R15.26 Vernon Carey Jr. 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_VERNON_CAREY_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_VERNON_CAREY_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_VERNON_CAREY_RELANDING_REVIEW.md`
+- LOCK: 목적 거래·직접 선택을 보존해 실제 33~41 유지 → Charlotte Vernon Carey Jr. 42 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Nick Richards 42 유지, Clippers Carey 33 `REJECTED_HISTORICAL_CONTINGENCY`
+- 다음 조사: Nick Richards를 Sacramento 43순위부터 재판정
+
+### R15.27 Nick Richards 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_NICK_RICHARDS_RELANDING_REVIEW.md`
+- 유지 주안: 역할·stash·권리 거래를 보존해 실제 43~55 유지
+- 56순위 주안: Charlotte Nick Richards `PRIMARY_LEAN / AUTHOR_GATE`
+- 반대 분기: Grant Riller 56 유지, Chicago Richards 44
+- 다음 조사: 작가 선택 뒤 이동 선수를 57순위부터 재판정

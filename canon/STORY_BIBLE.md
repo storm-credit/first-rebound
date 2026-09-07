@@ -159,7 +159,7 @@
 - Boston은 Aaron Nesmith를 14순위, Orlando는 Cole Anthony를 15순위, Detroit는 통제한 16순위로 Kira Lewis Jr.를 지명한다.
 - Kira에게 밀린 Isaiah Stewart는 Oklahoma City Pokuševski 17·Dallas Josh Green 18 유지 뒤 Detroit 통제 19순위에서 지명된다.
 - Stewart에게 밀린 Saddiq Bey는 삭제하지 않는다. 작가 선택으로 Achiuwa 20·Maxey 21·Denver Saddiq Bey 22를 `AUTHOR_APPROVED / LOCKED`로 둔다.
-- Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31까지 `AUTHOR_APPROVED / LOCKED`로 둔다. Hampton에게 밀린 Tyrell Terry는 Charlotte 32순위부터 재판정하며, LaMelo 대신 Edwards를 뽑은 상류 변화 때문에 Terry 32가 `PRIMARY_LEAN / AUTHOR_GATE`다.
+- Bey에게 밀린 Zeke Nnaji는 삭제하지 않는다. 작가 선택으로 Bolmaro 23·Denver Nnaji 24, 실제 25~30 유지·Dallas Hampton 31·Charlotte Terry 32, 실제 33~41 유지·Charlotte Carey 42까지 `AUTHOR_APPROVED / LOCKED`로 둔다. Carey에게 밀린 Nick Richards는 43순위부터 재판정하며, 실제 43~55 유지 뒤 Charlotte Richards 56이 `PRIMARY_LEAN / AUTHOR_GATE`다.
 
 ## 국가대표·병역 경로 — LOCKED FOUNDATION
 

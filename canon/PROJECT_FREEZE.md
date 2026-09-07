@@ -745,3 +745,15 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Graham·Rozier가 남아 있고 Carey·Richards의 센터 보강 목적도 분명하므로 **Tyrell Terry 32 `PRIMARY_LEAN / AUTHOR_GATE`**로 둔다. 공개 Terry–Carey 내부 보드는 확인되지 않았다.
 - 총괄 추천은 **Tyrell Terry 32**다. 이 경우 Vernon Carey Jr.를 LA Clippers 통제 33순위부터 재판정한다. 정확 32순위는 작가 승인 전 `HOLD`다.
 - Charlotte의 42순위 Nick Richards 권리 거래는 32순위 선택 변화만으로 자동 유지·소멸하지 않는다.
+
+## v0.30 O-15E11 PARTIAL ADDITIONS — Tyrell Terry Charlotte 32순위
+
+- 작가가 직전 총괄 추천을 이어서 진행하도록 승인해 **Charlotte Tyrell Terry 32**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~32순위가 정본화됐다.
+- Vernon Carey Jr. 32 유지 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 이 결정은 Charlotte의 공개 Terry–Carey 내부 head-to-head가 확인됐다는 뜻이 아니다.
+- Carey는 삭제하지 않고 LA Clippers가 통제한 33순위부터 재판정한다.
+- Clippers Oturu 33, Oklahoma City Maledon 34, Memphis Tillman 35, Dallas Tyler Bey 36, Oklahoma City Krejčí 37, Detroit Saben Lee 38, Utah Hughes 39, Sacramento Woodard 40, San Antonio Tre Jones 41은 목적 거래·직접 역할 때문에 유지 주안이다.
+- Charlotte는 실제로 2024 2라운드 지명권을 내고 42순위 센터 슬롯을 취득했고, 실제 같은 보드에서 Carey를 Richards보다 먼저 선택했다. 작가 승인으로 **실제 33~41 유지 → Charlotte Carey 42**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 정확 1~42순위가 정본화됐다.
+- Nick Richards 42 유지와 Clippers Carey 33은 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. Richards는 삭제하지 않고 43순위부터 재판정한다.
+- Sacramento Ramsey 43부터 LA Clippers Scrubb 55까지는 역할·stash·권리 거래 때문에 유지 주안이다. Chicago Simonović 44는 같은 빅 포지션의 첫 충돌이지만 새 프런트의 장기 관찰과 stash 기능을 보존한다.
+- Charlotte는 Edwards 3·Terry 32로 가드 개발 자원이 늘었고 실제 두 센터 보강 방향은 남는다. 따라서 **실제 43~55 유지 → Charlotte Nick Richards 56 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다. 이 경우 Grant Riller를 57순위부터 재판정한다.
+- 세계관 설정집은 이미 정본 문서에 누적 중이다. `World Bible v1.0`은 드래프트 하나의 종료가 아니라 NBA 거래·장기 커리어·전체 구조·통합/독립 검수·작가 승인까지 닫힌 뒤 승격한다.
