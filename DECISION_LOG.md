@@ -326,5 +326,11 @@
 | D-318 | NESMITH_14_RETENTION_STRONG_LEAN | Boston은 Aaron Nesmith를 14순위에 유지하는 주안 | Kira의 consensus 순위보다 Ainge·Stevens의 직접 Nesmith 우선 근거를 반영, 작가 승인 전 HOLD |
 | D-319 | COLE_15_RETENTION_LEAN_AUTHOR_GATE | Orlando는 Cole Anthony를 15순위에 유지하는 안을 총괄 추천 | Kira와 Cole 모두 워크아웃했으며 공개 내부 비교가 없어 정확 선택 HOLD |
 | D-320 | PICK15_DISPLACED_PLAYER_FIREWALL | Cole 유지 시 Kira를, Kira 지명 시 Cole을 Detroit 통제 16순위부터 재계산 | 후대 성과 역선택·16순위 거래 구조 자동 보존 금지 |
+| D-321 | AUTHOR_LOCK / PICKS_14_TO_15 | 2020 Draft 14~15순위를 Boston Aaron Nesmith→Orlando Cole Anthony로 확정 | Orlando의 비공개 Cole–Kira 내부 비교가 확인된 것으로 쓰지 않음 |
+| D-322 | ORLANDO_KIRA_15_REJECTED | Orlando Kira Lewis 15분기를 비교 이력으로만 보존 | Kira를 삭제하지 않고 Detroit 통제 16순위부터 재계산 |
+| D-323 | KIRA_DETROIT_16_PRIMARY_LEAN | Detroit가 통제한 16순위에서 Kira Lewis를 지명하는 안을 총괄 추천 | Patrick 7로 생긴 PG 공백·실제 Kira 워크아웃·가치 하락을 반영, 작가 승인 전 HOLD |
+| D-324 | STEWART_16_CONTINGENCY | Isaiah Stewart 16순위 유지를 실현 가능 대안으로 보존 | Weaver의 Stewart 특정 선호와 픽 확보 비용을 가드 필요만으로 삭제하지 않음 |
+| D-325 | PICK16_TRANSACTION_FIREWALL | 16순위 선수 선택과 Wood sign-and-trade·Ariza·보호 1라운드 픽의 거래 경제를 분리 검산 | 선수 변경만으로 거래 전체 자동 소멸·자동 유지 금지 |
+| D-326 | NEXT_DISPLACED_PLAYER_FIREWALL | Kira 16이면 Stewart를, Stewart 유지면 Kira를 Oklahoma City 통제 17순위부터 재계산 | 이동 선수 삭제·후대 성과 역선택 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -291,3 +291,5 @@ O-15E2에서 작가는 주 분기를 선택했다. 상위 4순위는 **가상 �
 O-15E3에서 작가는 **A Okoro 5 → Okongwu 6 → Patrick Williams 7**을 선택했다. 정확 1~7순위는 `AUTHOR_APPROVED / LOCKED`다. Hayes는 8~12순위 실제 지명 유지 주안을 거쳐 New Orleans 13순위가 새 작가 게이트다. 총괄은 Hayes 13을 추천하고 Kira Lewis 13 유지를 반대 분기로 보존한다.
 
 O-15E4에서 작가는 **A Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Killian Hayes 13**을 선택했다. 정확 1~13순위는 `AUTHOR_APPROVED / LOCKED`다. Hayes에게 밀린 Kira Lewis는 Boston 14순위부터 재판정하며, Boston Nesmith 14 유지 뒤 Orlando 15순위의 Cole 유지와 Kira 지명이 새 작가 게이트다. 총괄은 공개된 실제 구단 선호를 우선해 **Nesmith 14·Cole 15 유지**를 추천한다.
+
+O-15E5에서 작가는 **A Aaron Nesmith 14 → Cole Anthony 15 유지**를 선택했다. 정확 1~15순위는 `AUTHOR_APPROVED / LOCKED`다. Kira는 Detroit 통제 16순위에서 Isaiah Stewart와 비교한다. 실제 Hayes 7이 Patrick 7로 바뀌어 포인트가드 공백이 생기고 Detroit가 Kira를 워크아웃했으므로 총괄은 **Kira 16**을 추천하지만, Weaver의 Stewart 특정 선호 때문에 정확 선택은 새 작가 게이트다.
