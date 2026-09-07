@@ -397,7 +397,17 @@
 - 팀보드: `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_NICK_RICHARDS_RELANDING_REVIEW.md`
-- 유지 주안: 역할·stash·권리 거래를 보존해 실제 43~55 유지
-- 56순위 주안: Charlotte Nick Richards `PRIMARY_LEAN / AUTHOR_GATE`
-- 반대 분기: Grant Riller 56 유지, Chicago Richards 44
-- 다음 조사: 작가 선택 뒤 이동 선수를 57순위부터 재판정
+- LOCK: 역할·stash·권리 거래를 보존해 실제 43~55 유지 → Charlotte Nick Richards 56 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Grant Riller 56 유지, Chicago Richards 44 `REJECTED_HISTORICAL_CONTINGENCY`
+- 다음 조사: Grant Riller를 Brooklyn 통제 57순위부터 재판정
+
+### R15.28 Grant Riller 2020 Draft 최종 보드
+
+- 팀보드: `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.md`
+- 원장: `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_GRANT_RILLER_FINAL_REVIEW.md`
+- 유지 주안: 직접 권리 거래·구단 평가를 보존해 실제 57~60 유지
+- 최종 주안: Grant Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`
+- 대안: Toronto Riller 59, Milwaukee Riller 60
+- 계약 방화벽: 정확 팀·표준/투웨이/Exhibit 10은 2020-21 opening roster 원장까지 HOLD
+- 다음 조사: 작가 선택 뒤 2020 Draft 연쇄 종료 또는 이동 선수 추가 계산

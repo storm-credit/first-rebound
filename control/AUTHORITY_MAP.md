@@ -67,8 +67,10 @@
 | Tyrell Terry 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_TYRELL_TERRY_RELANDING_REVIEW.md` | 작가 선택·LaMelo 부재·센터 목적 충돌 / NOT_INDEPENDENT |
 | Vernon Carey Jr. 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_VERNON_CAREY_RELANDING_BOARD.md` 및 CSV | 실제 33~41 유지→Charlotte Carey 42 AUTHOR_LOCKED |
 | Vernon Carey Jr. 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_VERNON_CAREY_RELANDING_REVIEW.md` | 작가 선택·목적 거래·Richards 충돌 / NOT_INDEPENDENT |
-| Nick Richards 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.md` 및 CSV | 실제 43~55 유지→Charlotte Richards 56 AUTHOR_GATE |
-| Nick Richards 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_NICK_RICHARDS_RELANDING_REVIEW.md` | Chicago stash·Riller 중복 충돌 / NOT_INDEPENDENT |
+| Nick Richards 2020 Draft 재착지 보드 | `simulation/2020_DRAFT_NICK_RICHARDS_RELANDING_BOARD.md` 및 CSV | 실제 43~55 유지→Charlotte Richards 56 AUTHOR_LOCKED |
+| Nick Richards 재착지 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_NICK_RICHARDS_RELANDING_REVIEW.md` | 작가 선택·Chicago stash·Riller 중복 충돌 / NOT_INDEPENDENT |
+| Grant Riller 2020 Draft 최종 보드 | `simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.md` 및 CSV | 실제 57~60 유지→Riller UDFA AUTHOR_GATE |
+| Grant Riller 최종 총괄 맹점 검토 | `reviews/R01_2020_DRAFT_GRANT_RILLER_FINAL_REVIEW.md` | Toronto 직접 평가·계약 분리 / NOT_INDEPENDENT |
 | 세계관 설정집 완성 로드맵 | `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` | 7개 매크로 게이트·v1.0 완료 정의 |
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |

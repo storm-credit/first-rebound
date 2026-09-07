@@ -755,5 +755,9 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Charlotte는 실제로 2024 2라운드 지명권을 내고 42순위 센터 슬롯을 취득했고, 실제 같은 보드에서 Carey를 Richards보다 먼저 선택했다. 작가 승인으로 **실제 33~41 유지 → Charlotte Carey 42**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 정확 1~42순위가 정본화됐다.
 - Nick Richards 42 유지와 Clippers Carey 33은 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. Richards는 삭제하지 않고 43순위부터 재판정한다.
 - Sacramento Ramsey 43부터 LA Clippers Scrubb 55까지는 역할·stash·권리 거래 때문에 유지 주안이다. Chicago Simonović 44는 같은 빅 포지션의 첫 충돌이지만 새 프런트의 장기 관찰과 stash 기능을 보존한다.
-- Charlotte는 Edwards 3·Terry 32로 가드 개발 자원이 늘었고 실제 두 센터 보강 방향은 남는다. 따라서 **실제 43~55 유지 → Charlotte Nick Richards 56 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다. 이 경우 Grant Riller를 57순위부터 재판정한다.
+- Charlotte는 Edwards 3·Terry 32로 가드 개발 자원이 늘었고 실제 두 센터 보강 방향은 남는다. 작가 승인으로 **실제 43~55 유지 → Charlotte Nick Richards 56**을 `AUTHOR_APPROVED / LOCKED`로 둔다. 정확 1~56순위가 정본화됐다.
+- Grant Riller 56 유지와 Chicago Richards 44는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. Riller는 삭제하지 않고 57순위부터 재판정한다.
+- Brooklyn Perry 57, Philadelphia Paul Reed 58, Toronto Jalen Harris 59, Milwaukee Sam Merrill 60은 직접 권리 거래·구단 평가 때문에 유지 주안이다.
+- Riller는 실제 56순위 대비 네 자리 하락에 그치며 미지명 자유계약 시장에서 별도 계약 경쟁을 할 수 있다. 따라서 **실제 57~60 유지 → Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다.
+- A가 승인되면 2020 Draft 1~60 연쇄를 닫되 Riller의 정확 팀·표준/투웨이/Exhibit 10 계약은 2020-21 opening roster 원장까지 `HOLD`한다.
 - 세계관 설정집은 이미 정본 문서에 누적 중이다. `World Bible v1.0`은 드래프트 하나의 종료가 아니라 NBA 거래·장기 커리어·전체 구조·통합/독립 검수·작가 승인까지 닫힌 뒤 승격한다.
