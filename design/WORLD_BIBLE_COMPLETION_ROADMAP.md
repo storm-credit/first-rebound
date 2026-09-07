@@ -8,7 +8,7 @@
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
-현재 대학 구간, 인물의 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~42순위가 정본화됐다. 다만 장기 NBA 인과와 통합 검수가 열려 있어 완성본 명칭을 쓰지 않는다.
+현재 대학 구간, 인물의 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~56순위가 정본화됐다. 57~60순위·미지명 시장의 마지막 작가 게이트 뒤 첫 번째 남은 매크로 게이트가 닫힌다. 다만 장기 NBA 인과와 통합 검수가 열려 있어 완성본 명칭을 쓰지 않는다.
 
 ## 2. v1.0까지 남은 매크로 게이트
 

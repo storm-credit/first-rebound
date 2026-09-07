@@ -1,6 +1,6 @@
 # 2020 Draft Nick Richards Relanding Board
 
-- 상태: `PICKS_1_TO_42_AUTHOR_LOCKED / PICKS_43_TO_55_RETENTION_LEAN / PICK_56_AUTHOR_GATE`
+- 상태: `PICKS_1_TO_56_AUTHOR_LOCKED / RILLER_RELANDING_OPEN`
 - 고정 입력: `2020 Draft 1~41 AUTHOR_LOCKED → Charlotte Vernon Carey Jr. 42 AUTHOR_LOCKED`
 - 이동 선수: 실제 Charlotte 획득 42순위 Nick Richards
 - 원고 게이트: `CLOSED`
@@ -36,23 +36,21 @@ Charlotte가 42순위에서 Carey를 회수했으므로 Richards를 삭제하거
 - Charlotte가 실제 2024 2라운드 지명권을 내면서까지 확보한 두 번째 센터 Richards는 아직 남아 있다. Carey 42 뒤에도 두 센터 보강 의도를 유지하려면 56순위가 첫 저비용 회수 지점이다.
 - Richards의 실제 42순위와 Riller의 실제 56순위만으로 공개 내부 head-to-head가 확인된 것은 아니다. 정확 56순위는 작가 선택이 필요하다.
 
-## 4. 작가 선택
+## 4. 작가 선택 결과
 
 | 안 | 43~55 | Charlotte 56 | 새 이동 선수 | 판정 |
 |---|---|---|---|---|
-| **A** | **실제 지명 유지** | **Nick Richards** | Grant Riller | **총괄 추천** |
-| B | 실제 지명 유지 | Grant Riller | Nick Richards | 실제 56순위 유지 대안 |
-| C | Chicago 44 Nick Richards | Marko Simonović | 즉시 센터 대안 / Chicago stash 목적 비용 |
+| **A** | **실제 지명 유지** | **Nick Richards** | Grant Riller | **작가 승인·LOCK** |
+| B | 실제 지명 유지 | Grant Riller | Nick Richards | `REJECTED_HISTORICAL_CONTINGENCY` |
+| C | Chicago 44 Nick Richards | Marko Simonović | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — 실제 43~55 유지 → Charlotte Nick Richards 56**을 추천한다. Charlotte의 실제 두 센터 보강 방향을 유지하면서, Edwards·Terry가 만든 가드 중복 비용을 Riller 쪽에서 지불한다. 정확 43~56순위는 작가 승인 전 `HOLD`다.
+작가가 이어서 진행하도록 승인해 **A — 실제 43~55 유지 → Charlotte Nick Richards 56**을 `AUTHOR_APPROVED / LOCKED`로 둔다. Charlotte의 실제 두 센터 보강 방향을 유지하면서, Edwards·Terry가 만든 가드 중복 비용을 Riller 쪽에서 지불한다. 정확 1~56순위가 정본화됐다.
 
 ## 5. 다음 경계
 
-1. 작가가 A/B/C를 선택한다.
-2. A라면 Grant Riller를 Brooklyn 통제 57순위부터 재판정한다.
-3. B라면 Richards를 Brooklyn 통제 57순위부터 재판정한다.
-4. C라면 Simonović를 Milwaukee 45순위부터 재판정한다.
-5. 이동 선수가 60순위 또는 미지명 시장에서 안정되면 2020 Draft 연쇄를 닫는다.
+1. Grant Riller를 Brooklyn 통제 57순위부터 재판정한다.
+2. B/C는 비교 이력으로만 보존하고 활성 연쇄에서 사용하지 않는다.
+3. 이동 선수가 60순위 또는 미지명 시장에서 안정되면 2020 Draft 연쇄를 닫는다.
 
 ## 6. 출처
 

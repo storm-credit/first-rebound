@@ -307,3 +307,5 @@ O-15E10에서 작가는 직전 총괄 추천을 이어서 진행해 **실제 Qui
 O-15E11에서 작가는 직전 총괄 추천을 이어서 진행해 **Charlotte Tyrell Terry 32**를 승인했다. 정확 1~32순위는 `AUTHOR_APPROVED / LOCKED`다. Carey는 LA Clippers 통제 33순위부터 재판정한다. 33~41순위에는 목적 거래와 직접 선택이 연속되고, Charlotte는 실제 42순위 센터 슬롯을 2024 2라운드 지명권으로 취득했으며 Carey를 Richards보다 먼저 보호했다. 총괄은 **실제 33~41 유지 → Charlotte Vernon Carey Jr. 42**를 추천한다. 정확 33~42순위는 새 작가 게이트다.
 
 O-15E12에서 작가는 총괄의 시간순 정본 누적 방식과 권고안 A를 승인해 **실제 33~41 유지 → Charlotte Vernon Carey Jr. 42**를 확정했다. 정확 1~42순위는 `AUTHOR_APPROVED / LOCKED`다. Nick Richards는 Sacramento 43순위부터 재판정한다. 실제 43~55는 역할·stash·권리 거래 근거로 유지 주안이며, Charlotte는 Edwards 3·Terry 32로 Riller의 가드 개발 기능이 중복된 반면 실제 두 센터 보강 의도는 남는다. 총괄은 **실제 43~55 유지 → Charlotte Nick Richards 56**을 추천하며 정확 43~56순위는 새 작가 게이트다.
+
+O-15E13에서 작가는 직전 총괄 추천을 이어서 진행해 **실제 43~55 유지 → Charlotte Nick Richards 56**을 승인했다. 정확 1~56순위는 `AUTHOR_APPROVED / LOCKED`다. Grant Riller는 Brooklyn 통제 57순위부터 재판정한다. Perry 57·Reed 58·Harris 59·Merrill 60은 직접 권리 취득과 구단 평가 때문에 유지 주안이다. 총괄은 **실제 57~60 유지 → Grant Riller 미지명 자유계약 시장**을 추천하며, 정확 팀·계약 형태는 opening roster 원장까지 HOLD한다. 이 선택이 2020 Draft 연쇄의 최종 작가 게이트다.

@@ -1,6 +1,6 @@
 # R01 2020 Draft Nick Richards Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICKS_43_TO_55_RETENTION_LEAN / PICK_56_AUTHOR_GATE / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / PICKS_43_TO_56_AUTHOR_LOCKED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -15,6 +15,6 @@
 
 ## 결론
 
-실제 43~55 지명은 역할·stash·권리 거래 근거로 유지 주안이다. Charlotte는 현재 Edwards 3·Terry 32로 가드 개발 자원이 늘었고 실제 두 센터 보강 의도는 남는다. 따라서 **실제 43~55 유지 → Nick Richards 56 `PRIMARY_LEAN / AUTHOR_GATE`**가 가장 적은 인과 비용으로 상류 변화를 반영한다.
+실제 43~55 지명은 역할·stash·권리 거래 근거로 유지한다. Charlotte는 현재 Edwards 3·Terry 32로 가드 개발 자원이 늘었고 실제 두 센터 보강 의도는 남는다. 작가 승인으로 **실제 43~55 유지 → Nick Richards 56 `AUTHOR_APPROVED / LOCKED`**를 가장 적은 인과 비용 정본으로 둔다.
 
-Grant Riller 56 유지와 Chicago Richards 44는 실현 가능한 반대 분기다. 정확 43~56순위는 작가 승인 전 `HOLD`다.
+Grant Riller 56 유지와 Chicago Richards 44는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 정확 1~56순위가 정본화됐으며 Riller는 57순위부터 재판정한다.

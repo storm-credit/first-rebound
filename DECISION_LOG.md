@@ -375,5 +375,10 @@
 | D-367 | PICKS_43_TO_55_RETENTION_LEAN | Ramsey부터 Scrubb까지 실제 지명을 역할·stash·거래 근거로 유지 주안 | Richards의 실제 42순위만으로 자동 치환 금지 |
 | D-368 | RICHARDS_CHARLOTTE_56_PRIMARY_LEAN | Charlotte가 56순위에서 Nick Richards를 회수하는 안을 총괄 추천 | Edwards·Terry의 가드 중복과 실제 두 센터 보강 의도 반영 |
 | D-369 | NEXT_RILLER_RELANDING_FIREWALL | Richards 56 선택 시 Grant Riller를 Brooklyn 통제 57순위부터 재계산 | Riller 삭제·57~60 자동 이동 금지 |
+| D-370 | AUTHOR_LOCK / PICKS_43_TO_56 | 2020 Draft 43~55순위 실제 지명을 유지하고 Charlotte가 Richards를 56순위에서 회수 | 실제 두 센터 보강 방향과 Edwards·Terry의 가드 중복을 함께 반영 |
+| D-371 | RILLER_56_AND_RICHARDS_44_REJECTED | Charlotte Riller 56 유지·Chicago Richards 44 분기를 비교 이력으로 보존 | Chicago stash 목적과 Riller 재착지 의무 유지 |
+| D-372 | PICKS_57_TO_60_RETENTION_LEAN | Perry·Reed·Harris·Merrill 실제 지명 유지 주안 | 직접 권리 취득·구단 평가를 Riller의 일반 순위보다 우선 |
+| D-373 | RILLER_UNDRAFTED_MARKET_PRIMARY_LEAN | Grant Riller가 미지명 자유계약 시장으로 진입하는 안을 총괄 추천 | 네 자리 하락·추가 선수 이동 0, 정확 계약은 HOLD |
+| D-374 | RILLER_CONTRACT_FIREWALL | Riller의 드래프트 미지명과 정확 팀·계약 종류를 분리 | Charlotte 투웨이 자동 복원·로스터 초과 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
