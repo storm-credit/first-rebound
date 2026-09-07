@@ -40,7 +40,7 @@
 
 Boston은 같은 날 Daniel Theis를 거래했고 Chicago는 실제 3팀 거래로 그를 얻었다. 거래 당시 Theis는 28세, 9.5득점·5.2리바운드·1.6어시스트였으며, NBA cutoff 분석에서 paint 149회 중 103회 성공으로 스크린 뒤 마무리 효율이 확인된다.
 
-Hutchison이 없는 대체 세계에서도 `Chicago: Gafford+Kornet 방출 / Theis+Javonte Green 수취`의 최소 6인 구조는 이전 감사에서 급여 매칭을 통과했다. 다만 이 거래의 정확 발생은 Vučević 보드와 분리한다.
+Hutchison이 없는 대체 세계에서도 `Chicago: Gafford+Kornet 방출 / Theis+Javonte Green 수취`의 3팀 5인 구조는 이전 감사에서 급여 매칭을 통과했다. 이전 `6인` 표기는 O-15F5에서 선수 수 오기로 정정했다. 다만 이 거래의 정확 발생은 Vučević 보드와 분리한다.
 
 ### JaVale McGee 계열
 
@@ -81,4 +81,3 @@ Andre Drummond는 거래되지 않고 Cleveland와 buyout에 합의했다. Gorgu
 - [NBA — Theis 거래 당시 나이·생산](https://www.nba.com/news/report-celtics-trade-daniel-theis-to-bulls)
 - [NBA — McGee 가격과 Drummond buyout](https://www.nba.com/news/ap-source-cavs-dont-trade-drummond-working-on-buyout)
 - [Chicago Bulls — LaVine 계약 마지막 시즌 진입](https://www.nba.com/bulls/features/zach-lavine-sees-brighter-days-ahead-i-love-it-here-chicago-im-very-excited-future)
-

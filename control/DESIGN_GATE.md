@@ -27,7 +27,7 @@ last_reviewed: 2026-09-07
 | G06 NCAA 세계 | 선택 시대의 자격·규정·일정·리크루팅 | FOUNDATION_PASS / COLLEGE_SCOPE_COMPLETE / RIVAL_COLLEGE_SCOPE_COMPLETE — 주인공 Villanova 역할과 라이벌 Gonzaga 0경기 레드셔츠·WCC 우승 기능 LOCK. 양쪽 개별 인증·counter·정확 기록 HOLD |
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Chicago 원클럽·라이벌 Minnesota #1·2020 picks 1~60과 rookie-scale 방향 LOCK. 주인공 2018 정확 순번·관계·Riller 계약 HOLD |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
-| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, exact 센터·박스·승수·부상·Riller 계약·거래 HOLD |
+| G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED / O15F5_BOARD_PASS — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, Theis·Green 3팀 5인 A PRIMARY_LEAN. exact 거래·박스·승수·부상·Riller 계약 HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |

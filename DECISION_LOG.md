@@ -426,5 +426,12 @@
 | D-418 | HISTORICAL_VUCEVIC_PACKAGE_REJECTED | A 실제 Vučević 패키지는 비교 이력으로 보존 | 당시 All-Star 가치와 실제 프런트오피스 동기를 지우지 않음 |
 | D-419 | NO_TRADE_FAILURE_CONTINGENCY | C 무거래는 저비용 센터 협상 실패 뒤 귀결 가능한 분기로 보존 | B 방향 승인만으로 상대팀 수용과 선수 선택을 강제하지 않음 |
 | D-420 | O15F5_CENTER_MARKET_NEXT | Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 당시 가격과 급여로 비교 | 정확 거래 후에만 마감일 뒤 29경기 계산 |
+| D-421 | FIVE_PLAYER_COUNT_CORRECTION | 기존 `최소 6인` 표기는 오기이며 Theis·Green 대체안은 Gafford·Kornet·Theis·Green·Wagner의 3팀 5인 거래 | D-240·D-242·D-416·D-420의 과거 표기는 감사 이력으로 보존하고 활성 문서·검증기는 5명 사용 |
+| D-422 | THEIS_GREEN_FIVE_PLAYER_CAP_PASS | Chicago 3,767,981→6,517,981, Washington 2,161,920→1,517,981, Boston 6,517,981→4,411,920 급여 매칭 통과 | 기본급 구조 PASS를 trade bonus·현금·당일 리그 장부 FINAL로 확대 금지 |
+| D-423 | THEIS_GREEN_ROSTER_COUNT_PASS | Chicago·Boston 2명 out/2명 in, Washington 1명 out/1명 in으로 표준계약 자리 순증 0 | Brown·Trent는 Washington 잔류, 주인공·Hutchison filler 투입 금지 |
+| D-424 | THEIS_GREEN_MOTIVE_VALUE_TENSION | Washington의 Gafford 수요와 Boston의 세금 절감은 유지, Chicago의 저사용률 빅·수비 윙 수요도 PASS | Vučević 부재로 Gafford 가치가 커지고 Theis가 만료계약인 비용을 삭제하지 않음 |
+| D-425 | OTHER_LOW_COST_BIG_SECONDARY | McGee 실제 가격은 1R 없는 시장 anchor, buyout은 선수 선택권 때문에 비통제 시장 | 실제 Hartenstein+2R 가격·Drummond/Dieng 행선지를 Chicago에 자동 복사 금지 |
+| D-426 | O15F5_A_PRIMARY_LEAN_AUTHOR_GATE | A Theis+Green 3팀 5인 거래를 총괄 추천, B 다른 저비용 빅과 C 타깃 실패를 contingency로 유지 | exact 거래 발생은 작가 선택 전 HOLD |
+| D-427 | POSTDEADLINE_29_GAME_BLOCKER | 정확 거래 선택 뒤에만 Chicago 마감일 뒤 29경기 roster-minute·생산성·outcome 계산 | Markkanen RFA·Lonzo·Caruso·DeRozan·LaVine/주인공 계약 선잠금 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

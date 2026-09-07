@@ -2,7 +2,7 @@
 
 - 기준일: 2026-09-06
 - 선행 가정: `Chicago 22 protagonist → Golden State 28 Hutchison → Portland 37 Evans → Lakers 39 Trent → Washington 44 Bonga → Sanon undrafted/Olimpija`
-- 판정: `CONDITIONAL_TRANSACTION_STRUCTURE_PASS / PORTLAND_NO_TRADE_PRIMARY / EXACT_OUTCOMES_HOLD`
+- 판정: `FIVE_PLAYER_COUNT_CORRECTED / CONDITIONAL_TRANSACTION_STRUCTURE_PASS / PORTLAND_NO_TRADE_PRIMARY / EXACT_OUTCOMES_HOLD`
 - 정본성: 선행 드래프트 사슬과 2020-21 팀 성적이 확정되지 않았으므로 계산 후보이며 정본이 아니다.
 
 ## 왜 2021 거래를 지금 보되 잠그지는 않는가
@@ -26,7 +26,9 @@
 
 대체 역사에서 Hutchison은 Chicago 선수가 아니다. 실제 전체 귀환을 그대로 복사하면 Chicago는 Gafford와 Kornet의 합계 $3,767,981만 보내고 Theis·Green·Brown 합계 $9,890,821을 받는다. 2017 CBA의 해당 비납세팀 동시 거래 허용액 $6,693,967을 넘으므로 원거래는 불성립한다. 현금은 salary matching을 고치지 못하고, 주인공이나 Washington의 Trent를 Hutchison 자리에 자동 삽입해서도 안 된다. 참고로 실제 Hutchison 급여는 $2,443,440이며 실제 Chicago outgoing 합계는 $6,211,421이다.
 
-## Hutchison 없는 최소 6인 구조
+## Hutchison 없는 3팀 5인 구조
+
+> O-15F5 정정: 아래 이동표의 고유 선수는 Gafford·Kornet·Theis·Green·Wagner 다섯 명이다. 이전 `최소 6인` 표기는 선수 수 오기였으며 급여 합계와 이동 방향에는 변화가 없다.
 
 ### 이동
 
@@ -69,7 +71,7 @@ Troy Brown Jr.와 Gary Trent Jr.는 Washington에 남는다. Hutchison은 Golden
 
 | 후보 | 판정 | 이유 |
 |---|---|---|
-| Washington이 Trent 유지 | `PRIMARY_BASELINE` | 위 6인 구조가 Trent 없이 성립한다. 값이 미확정인 젊은 슈터를 salary filler로 내보낼 이유를 새로 만들지 않는다. |
+| Washington이 Trent 유지 | `PRIMARY_BASELINE` | 위 5인 구조가 Trent 없이 성립한다. 값이 미확정인 젊은 슈터를 salary filler로 내보낼 이유를 새로 만들지 않는다. |
 | Trent를 Chicago로 보내 Hutchison 대체 | `REJECT_AUTOMATIC_SUBSTITUTION` | 포지션·계약 껍질이 비슷해도 선수 가치와 팀 필요가 다르며, Chicago 주인공의 윙 분과도 새로 충돌한다. |
 | Trent를 Boston으로 이동 | `LOW / MOTIVE_BLOCKED` | Boston의 실제 목적은 세금·로스터 정리이며 추가 젊은 가드를 요구했다는 근거가 없다. |
 | Washington이 별도 팀에 Trent 거래 | `MARKET_HOLD` | 대체 역사 2019-21 생산과 제안 자산이 있어야 판정 가능하다. |
@@ -101,14 +103,14 @@ Trent를 Chicago로 보내는 별도 계산은 급여상 가능하다. Chicago�
 
 | 최초 원인 | 달라지는 실제 사건 | 밀려나는 자산·역할 | 다음 연결 | 현 상태 |
 |---|---|---|---|---|
-| Chicago 22에서 주인공 후보 | Hutchison이 Chicago에 없음 | Chicago의 Brown 수취와 Washington의 Hutchison 수취 제거 | Brown·Trent Washington 분, Chicago 2021 wing minutes | 6인 대체 구조 `CONDITIONAL_PASS`; 발생은 O-15D HOLD |
+| Chicago 22에서 주인공 후보 | Hutchison이 Chicago에 없음 | Chicago의 Brown 수취와 Washington의 Hutchison 수취 제거 | Brown·Trent Washington 분, Chicago 2021 wing minutes | 5인 대체 구조 `CONDITIONAL_PASS`; 발생은 O-15F5 AUTHOR_GATE |
 | Portland 37 Evans 후보 | Trent가 Portland에 없음 | Powell 거래의 핵심 젊은 RFA 자산 제거 | Powell 시장, Portland playoff minutes, 2021 Bird rights | `PORTLAND_NO_TRADE_PRIMARY`; 정확 행선지 HOLD |
 | Lakers 39 Trent 후보 | 2019 AD 거래로 Trent가 Washington 이동 | 실제 Bonga의 Washington NBA 자리 제거 | Trent 2019-21 생산·RFA, Bonga stash 경로 | 권리 구조 PASS; 분·계약 HOLD |
 | Portland가 Powell을 못 얻음 | 실제 2021-22 Powell 5년 $90m Portland 계약의 선행 Bird 권리 없음 | Powell의 Portland 27경기·플레이오프 분과 후속 Clippers 거래 자동 보존 금지 | 2021 FA·2022 Portland 거래 원장 | `DOWNSTREAM_OPEN`, 해당 시즌 도달 때 계산 |
 
 ## 인과 경계
 
-- 2021 세 팀 거래는 Hutchison 없이도 합법적이고 동기가 맞는 6인 구조가 존재하므로 **구조 blocker는 닫힌다**.
+- 2021 세 팀 거래는 Hutchison 없이도 합법적인 5인 구조가 존재하므로 **구조 blocker는 닫힌다**. O-15F5 재검산은 Chicago의 Gafford 가치 긴장을 별도 비용으로 남긴다.
 - 실제 거래 발생은 Chicago의 대체 2020-21 성적·Vučević 거래·플레이인 추격 동기가 아직 없으므로 **시간순 시뮬레이션 blocker가 남는다**.
 - Portland의 판단은 Trent 대체자를 공짜로 만들지 않는 `NO_TRADE`에서 시작한다. Powell의 정확 행선지는 2021 시장 원장의 새 분기이며, Chicago 2018 착지 구조를 역으로 막지는 않는다.
 - 따라서 2018 드래프트 후속 거래의 사전 구조 감사는 `TRANSACTION_CASCADE_SCREEN_PASS`, 정확 Chicago 22와 모든 후속 거래의 정본화는 계속 `HOLD`다.

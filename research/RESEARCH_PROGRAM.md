@@ -189,10 +189,10 @@
 - 거래 원장: `simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md`
 - 독립 검토: `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md`
 - 판정: `CONDITIONAL_TRANSACTION_STRUCTURE_PASS / PORTLAND_NO_TRADE_PRIMARY / EVENT_CHRONOLOGY_HOLD`
-- Chicago–Washington–Boston: Hutchison 없는 최소 6인 구조는 Chicago Theis+Green, Washington Gafford, Boston Wagner+Kornet으로 cap·팀 동기 PASS. Brown·Trent는 Washington 잔류
+- Chicago–Washington–Boston: Hutchison 없는 3팀 5인 구조는 Chicago Theis+Green, Washington Gafford, Boston Wagner+Kornet으로 cap PASS. 이전 `6인` 표기는 O-15F5에서 오기로 정정. Brown·Trent는 Washington 잔류
 - Trent: 3년 계약 뒤 QO 조건의 2021 RFA·Bird 권리 경로 PASS, 실제 QO·계약·별도 거래는 Washington 2019-21 생산 전 HOLD
 - Portland: Hood만으로 Powell 급여는 맞지만 Trent의 젊은 득점·RFA 가치는 대체되지 않음. `PORTLAND_NO_TRADE_PRIMARY`; Hood+Little+미래 2라운드는 영입 강행 대안
-- 순서 교정: 미래 거래의 구조 감사와 실제 사건 발생을 분리. Chicago의 2020-21 성적·Vučević 거래·플레이인 동기 전 6인 거래 발생 LOCK 금지
+- 순서 교정: 미래 거래의 구조 감사와 실제 사건 발생을 분리. Chicago의 2020-21 성적·Vučević 거래·플레이인 동기 전 5인 거래 발생 LOCK 금지
 - 새 blocker: Washington Brown+Trent 분, Portland Evans 생산, Powell 타시장·2021 FA, Chicago 2018-21 시간순 시즌 원장
 - 다음 조사: O-15B Chicago 2018-19 player-game donor·루키 분·Windy City·자기관리 비용
 
@@ -472,7 +472,7 @@
 - B: 1R 0장·Carter 유지·저사용률 수비 빅 `PRIMARY_LEAN / AUTHOR_GATE`
 - C: 무거래 `SECONDARY_CONTINGENCY / AUTHOR_GATE`
 - 방화벽: 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적을 당시 선택 근거로 역선택 금지
-- 다음 조사: 작가 선택. B 선택 시 O-15F5 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패 비교
+- 다음 조사: 작가 선택. B 선택 시 O-15F5 Theis+Green 3팀 5인 구조·다른 저비용 빅·타깃 실패 비교
 
 ### R15.34 O-15F4 작가 선택
 
@@ -480,4 +480,16 @@
 - 거부: A 실제 Vučević 패키지 `REJECTED_HISTORICAL_CONTINGENCY`
 - 보존: C 무거래 `FAILURE_CONTINGENCY`
 - 자산 경계: Carter·Porter·2021·2023 1라운드는 exact 거래 전 Chicago에 유지
-- 다음 조사: O-15F5 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패 당시 시장 보드
+- 다음 조사: O-15F5 Theis+Green 3팀 5인 구조·다른 저비용 빅·타깃 실패 당시 시장 보드
+
+### R15.35 Chicago 2021 저비용 센터 거래 보드
+
+- 선택 보드: `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`, `.csv`
+- 급여 원장: `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv`
+- 총괄 검토: `reviews/R01_CHICAGO_2021_LOW_COST_CENTER_BOARD_REVIEW.md`
+- 정정: 기존 `최소 6인` 표기는 오기, 활성 구조는 고유 선수 5명의 3팀 거래
+- A: Theis·Green 3팀 5인 `CAP_PASS / ROSTER_COUNT_PASS / MOTIVE_PASS_WITH_CHICAGO_VALUE_TENSION / PRIMARY_LEAN / AUTHOR_GATE`
+- B: 다른 저비용 빅 `SECONDARY_MARKET / EXACT_PACKAGE_HOLD`
+- C: 타깃 실패·무거래 `FAILURE_CONTINGENCY`
+- 보존: Carter·Porter·두 1라운드, Brown·Trent Washington 잔류
+- 다음 조사: 작가 선택. 정확 거래 뒤 마감일 후 29경기 player-game·생산성·outcome

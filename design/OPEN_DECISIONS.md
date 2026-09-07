@@ -320,6 +320,8 @@ O-15F2에서 마감일 전 생산성 prior와 43경기 box 입력을 통과했�
 
 O-15F3에서 실제 43경기 점수차를 BPM·RAPTOR_EB·2021-03-24 cutoff E_NET_EB의 세 계열로 실행했다. BASE와 second-night 피로 stress의 중심 기록은 **19~21승**, 동부 **8~10위권**이다. 19승은 실제 결과 유지, 20승은 2021-01-30 Portland전만 반전, 21승은 2020-12-27 Golden State전도 반전하는 구조다. Young 0:38 bridge는 시즌 impact 합계 0·승패 변화 0경기다. 정확 승수는 계속 `HOLD`지만 모든 중심 분기에서 플레이인 경쟁과 마감일 매수 동기는 유지된다. 다음 단계 O-15F4는 `실제 Vučević 패키지 / 더 작은 센터 거래 / 무거래`를 비교하며 3팀 거래는 별도 사건으로 분리한다.
 
-O-15F4에서 당시 센터 시장과 계약 시간축을 비교했다. A 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 top-4 보호 1R`, B 1라운드를 쓰지 않는 저비용 센터 보강, C 무거래가 모두 성립한다. LaMelo가 이미 추가 1차 창출을 공급하므로 실제보다 고사용률 공격 허브의 필요가 줄고, LaVine·주인공의 2022 계약창과 Carter·두 1R 보존 가치가 커진다. 총괄 추천은 **B**지만 정확 방향은 `AUTHOR_GATE`다. B 선택 시 O-15F5에서 Hutchison 없는 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 비교한다.
+O-15F4에서 당시 센터 시장과 계약 시간축을 비교했다. A 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 top-4 보호 1R`, B 1라운드를 쓰지 않는 저비용 센터 보강, C 무거래가 모두 성립한다. LaMelo가 이미 추가 1차 창출을 공급하므로 실제보다 고사용률 공격 허브의 필요가 줄고, LaVine·주인공의 2022 계약창과 Carter·두 1R 보존 가치가 커진다. 총괄 추천은 **B**지만 정확 방향은 `AUTHOR_GATE`다. B 선택 시 O-15F5에서 Hutchison 없는 Theis+Green 3팀 5인 구조·다른 저비용 빅·타깃 실패를 비교한다.
 
 O-15F4-AUTHOR에서 작가는 총괄 추천 B를 승인했다. 실제 Vučević 패키지는 실행하지 않고 1라운드 없는 저비용 센터 보강을 우선한다. A는 역사적 contingency, C는 시장 협상 실패 뒤 contingency다. 정확 Theis+Green·다른 센터·outgoing은 계속 `HOLD`이며 O-15F5 시장 보드에서 판정한다.
+
+O-15F5에서 기존 `최소 6인` 표기가 선수 수 오기임을 발견했다. 이동하는 고유 선수는 Gafford·Kornet·Theis·Green·Wagner 다섯 명이며, 급여 합계와 이동 방향은 그대로 통과한다. A Theis·Green 3팀 5인 거래는 세 팀 급여·roster count와 당시 동기를 가장 구체적으로 통과해 `PRIMARY_LEAN`이다. 다만 Vučević가 없는 Chicago에서 값싼 Gafford를 만료계약 Theis로 바꾸는 비용이 커지므로 정확 사건은 `AUTHOR_GATE`다. B 다른 저비용 빅은 `SECONDARY_MARKET`, C 타깃 실패는 `FAILURE_CONTINGENCY`다.
