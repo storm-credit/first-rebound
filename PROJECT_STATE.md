@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E14-AUTHOR 2020 Draft 최종 Riller UDFA 선택`
-- 최근 설계 변경: `2020 Draft 1~56 LOCK; 실제 57~60 유지→Grant Riller UDFA PRIMARY_LEAN / AUTHOR_GATE`
-- 최근 정본 병합: `PR #115 / ae0cbbc7`
-- 최근 설계 병합: `PR #115 / ae0cbbc7`
+- 현재 작업: `O-15F Chicago 2020-21 opening roster·계약·선수별 분 기준선`
+- 최근 설계 변경: `2020 Draft 1~60 및 Grant Riller 미지명 자유계약 시장 AUTHOR_APPROVED / LOCKED`
+- 최근 정본 병합: `PR #117 / dc315cd1`
+- 최근 설계 병합: `PR #117 / dc315cd1`
 
 ## 완료
 
@@ -183,7 +183,8 @@
 - [x] Tyrell Terry 32순위 재착지 — Charlotte Terry 32 `AUTHOR_APPROVED / LOCKED`
 - [x] Vernon Carey Jr. 33~42순위 재착지 — 실제 33~41 유지→Charlotte Carey 42 `AUTHOR_APPROVED / LOCKED`
 - [x] Nick Richards 43~56순위 재착지 — 실제 43~55 유지→Charlotte Richards 56 `AUTHOR_APPROVED / LOCKED`
-- [x] Grant Riller 최종 보드 — 실제 57~60 유지→Riller 미지명 자유계약 시장 `PRIMARY_LEAN / AUTHOR_GATE`; 정확 팀·계약 종류 HOLD
+- [x] Grant Riller 최종 보드 — 실제 57~60 유지→Riller 미지명 자유계약 시장 `AUTHOR_APPROVED / LOCKED`; 정확 팀·계약 종류 HOLD
+- [x] 2020 Draft 1~60 연쇄 마감 — World Bible 매크로 게이트 1 `COMPLETE`
 - [x] 세계관 설정집은 정본 문서에 누적 작성 중이며 `World Bible v1.0`까지 7개 매크로 게이트로 완료 정의
 
 ## 현재 결정 대기
@@ -216,7 +217,8 @@
 - [x] O-15E11-AUTHOR A `Tyrell Terry 32→Carey 33+` 선택
 - [x] O-15E12-AUTHOR A `실제 33~41 유지→Carey 42` 선택
 - [x] O-15E13-AUTHOR A `실제 43~55 유지→Richards 56→Riller 57+` 선택
-- [ ] O-15E14-AUTHOR A `실제 57~60 유지→Riller UDFA` / B `Toronto Riller 59→Harris UDFA` / C `Milwaukee Riller 60→Merrill UDFA` 선택
+- [x] O-15E14-AUTHOR A `실제 57~60 유지→Riller UDFA` 선택
+- [ ] O-15F Chicago 2020-21 opening roster — LaMelo·주인공 포함 15인/투웨이·계약·선수별 분·첫 이동 선수 판정
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -423,6 +425,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~56순위를 `AUTHOR_APPROVED / LOCKED`로 통과시켰다. 마지막 드래프트 게이트는 A `실제 57~60 유지→Grant Riller 미지명 자유계약 시장`, B `Toronto Riller 59→Jalen Harris 미지명`, C `Milwaukee Riller 60→Sam Merrill 미지명` 중 선택이다. 직접 권리 취득·구단 평가를 보존하고 추가 이동 선수를 만들지 않는 A를 총괄 추천한다. A가 승인되면 2020 Draft 1~60 연쇄를 닫고 World Bible 남은 매크로 게이트 2인 Chicago 2020-21 opening roster·시즌 원장으로 이동한다. Riller의 정확 팀·표준/투웨이/Exhibit 10 계약은 그 원장까지 HOLD한다. 세계관 설정집은 정본 문서에 계속 누적 중이며 v1.0은 7개 매크로 게이트 뒤 승격한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~60순위와 Grant Riller의 미지명 자유계약 시장 진입을 `AUTHOR_APPROVED / LOCKED`로 통과시켰다. World Bible 매크로 게이트 1은 `COMPLETE`다. 다음 게이트 O-15F는 실제 Chicago 2020-21 opening roster와 거래·계약을 기준선으로 고정하고, LaMelo Ball·주인공이 차지하는 15인 자리·투웨이·선수별 분 및 첫 이동 선수를 판정하는 작업이다. Riller의 정확 계약은 Charlotte 쪽 roster 슬롯을 검산할 때까지 `HOLD`한다. 세계관 설정집은 정본 문서에 계속 누적 중이며 v1.0은 남은 매크로 게이트 뒤 승격한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
