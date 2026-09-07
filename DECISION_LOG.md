@@ -407,5 +407,13 @@
 | D-399 | PREDEADLINE_43_GAME_BOX_INPUT_PASS | 43개 event ID에 두 선수 BASE 기대 박스와 날짜별 donor 선형 제거량을 연결 | 모든 impact_status HOLD, score-margin 변환은 O-15F3에서 별도 검산 |
 | D-400 | LAMELO_INJURY_EVENT_REMAINS_HOLD | Chicago 43경기 active 계산을 Charlotte 오른손 손목 골절의 삭제로 승격하지 않음 | 낙상·부상 사건과 이후 결장은 별도 사건 원장 전 HOLD |
 | D-401 | O15F3_OUTCOME_NEXT | 다음 계산을 43경기 score-margin impact·대체 마감일 성적으로 지정 | 실제 19-24·Vučević·3팀 거래 자동 유지 금지 |
+| D-402 | PREDEADLINE_MARGIN_BASELINE_PASS | 2020-12-23~2021-03-24 Chicago 실제 43경기·19승 24패·득점·점수차와 second-night 10경기를 동결 | 실제 점수차를 잔차로 사용하고 일부 경기만 사후 선택 금지 |
+| D-403 | PREDEADLINE_THREE_PROXY_PASS | BPM·RAPTOR_EB-1000·날짜 제한 E_NET_EB-1000 세 계열로 같은 43경기를 실행 | 박스 귀속 증가를 점수차에 이중 합산하지 않음 |
+| D-404 | DATE_CUTOFF_ENET_CROSSCHECK | NBA Stats 2021-03-24 cutoff E_NET을 Chicago 팀 -0.6으로 수축해 미래 표본 누수를 별도 점검 | lineup 내생성 때문에 단일 causal 권위로 승격 금지 |
+| D-405 | PREDEADLINE_CENTRAL_RECORD_HOLD | 세 BASE와 피로 stress의 중심 기록은 19~21승 | 정확 19·20·21 중 하나를 다수결·평균·서사 편의로 LOCK하지 않음 |
+| D-406 | YOUNG_BRIDGE_OUTCOME_NEUTRAL | Young 0:38 bridge는 세 proxy 모두 시즌 impact 합계 0·승패 변화 0경기 | outcome-neutral이어도 분 보존 원장에서는 삭제하지 않음 |
+| D-407 | PREDEADLINE_PLAY_IN_BAND_PASS | 중심 기록은 2021-03-24 동부 8~10위권 | 20-23의 Indiana 동률 tiebreak와 exact seed는 HOLD |
+| D-408 | VUCEVIC_BUYER_MOTIVE_PASS_TRANSACTION_HOLD | 19~21승에서 Chicago의 마감일 매수 동기는 유지되지만 실제 Vučević 패키지는 미확정 | 더 나은 성적을 두 장의 1라운드 지명권 지출 자동 근거로 사용 금지 |
+| D-409 | O15F4_VUCEVIC_BOARD_NEXT | 다음 계산을 실제 Vučević 패키지·소형 센터 거래·무거래 비교로 지정 | 3팀 거래는 별도 사건으로 분리하고 LaMelo·주인공 시간축 반영 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

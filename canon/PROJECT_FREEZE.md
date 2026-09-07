@@ -797,3 +797,14 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 43경기 event별 BASE 기대 박스·donor 선형 제거량 입력은 `PASS`지만 causal impact와 score-margin 변환은 `HOLD`다.
 - exact 정수 박스·LaMelo 손목 사건·alternate 마감일 성적·Vučević 및 3팀 거래 발생은 계속 `HOLD`다.
 - 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_PRODUCTION_PRIORS.md`다.
+
+## v0.30 O-15F3 PARTIAL ADDITIONS — Chicago 2020-21 마감일 전 outcome
+
+- 실제 43경기·19승 24패·최종 점수차와 10개의 back-to-back second-night를 기준선으로 고정한다.
+- BPM·RAPTOR_EB-1000·2021-03-24 cutoff E_NET_EB-1000의 세 계열을 같은 점수차 잔차에 적용한다. 박스 귀속 증가를 impact rating과 이중 합산하지 않는다.
+- BASE와 피로 stress의 중심 기록은 **19~21승**, 동부 위치는 **8~10위권**이다. exact 19·20·21승과 정확 seed는 `HOLD`다.
+- 중심 반전 후보는 실제 1점 차였던 2020-12-27 Golden State전과 2021-01-30 Portland전이다. 19승은 둘 다 유지, 20승은 Portland만 반전, 21승은 둘 다 반전한다.
+- Young 0:38 bridge는 세 proxy 모두 시즌 impact 합계 0·승패 변화 0경기다. outcome-neutral이어도 분 보존 원장에서는 유지한다.
+- 모든 중심 기록에서 Chicago는 플레이인 경쟁·마감일 매수 경계에 남는다. `BUYER_MOTIVE_PASS`는 실제 Vučević 패키지 발생을 뜻하지 않는다.
+- 실제 Vučević 거래·3팀 거래·LaMelo 손목 사건·exact 개인 박스는 계속 `HOLD`다. 다음 인과 단계는 O-15F4 Vučević 팀보드다.
+- 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_OUTCOME_ROBUSTNESS.md`다.
