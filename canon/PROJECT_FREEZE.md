@@ -808,3 +808,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 모든 중심 기록에서 Chicago는 플레이인 경쟁·마감일 매수 경계에 남는다. `BUYER_MOTIVE_PASS`는 실제 Vučević 패키지 발생을 뜻하지 않는다.
 - 실제 Vučević 거래·3팀 거래·LaMelo 손목 사건·exact 개인 박스는 계속 `HOLD`다. 다음 인과 단계는 O-15F4 Vučević 팀보드다.
 - 상세 권위는 `simulation/CHICAGO_2020_21_PREDEADLINE_OUTCOME_ROBUSTNESS.md`다.
+
+## v0.30 O-15F4 PARTIAL ADDITIONS — Chicago 2021 Vučević 거래 팀보드
+
+- 실제 `Vučević+Aminu ↔ Carter+Porter+2021/2023 top-4 보호 1라운드`는 당시 성립 가능한 A안이지만 대체 정본으로 자동 유지하지 않는다.
+- LaMelo가 21.5% 사용률의 추가 1차 창출을 공급하므로, 29.9% 사용률의 30세 Vučević가 주는 공격 허브 가치의 한계효용은 실제 Chicago보다 낮다.
+- 총괄 추천은 **B — 1라운드 지출 없이 Carter를 유지하는 저사용률 수비 빅 보강 경로**다. 이는 필요 변화에 따른 추천이며 정확 Theis·McGee·buyout 영입을 뜻하지 않는다.
+- A 실제 Vučević 패키지, B 저비용 센터 보강, C 무거래는 모두 `AUTHOR_GATE / HOLD`다. 작가 승인 전 거래 발생·마감일 뒤 승수·2021 pick을 잠그지 않는다.
+- 작가가 B를 선택하면 Hutchison 없는 `Theis+Green` 최소 6인 구조와 다른 저비용 빅·타깃 실패를 O-15F5에서 별도 비교한다. 3팀 거래를 Vučević 결정과 합치지 않는다.
+- 이후 Carter 성장·실제 2021/2023 픽 선수·Chicago 성적은 사후 결과이며 2021-03-25 당시 선택의 역선택 근거로 사용하지 않는다.
+- 상세 권위는 `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md`다.
