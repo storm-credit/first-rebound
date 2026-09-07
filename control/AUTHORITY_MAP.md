@@ -157,3 +157,6 @@
 | Chicago 2021 Vučević 거래 팀보드 | `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md` | B 저비용 센터 방향 AUTHOR_APPROVED / exact 거래 HOLD |
 | Chicago 2021 센터 시장 기준선 | `research/CHICAGO_2021_DEADLINE_CENTER_MARKET.md` | 당시 정보 PASS / 사후 결과 역선택 금지 |
 | Chicago 2021 Vučević 보드 총괄 검토 | `reviews/R01_CHICAGO_2021_VUCEVIC_TRADE_BOARD_REVIEW.md` | B 방향 승인 / exact 거래·O-15F5·R16 대체 아님 |
+| Chicago 2021 저비용 센터 팀보드 | `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`, `.csv` | A Theis·Green 3팀 5인 PRIMARY_LEAN / exact AUTHOR_GATE |
+| Chicago 2021 Theis·Green 급여 원장 | `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv` | 3팀·5명·급여·roster count PASS |
+| Chicago 2021 저비용 센터 총괄 검토 | `reviews/R01_CHICAGO_2021_LOW_COST_CENTER_BOARD_REVIEW.md` | 선수 수 오기 정정 / A 추천 / R16 대체 아님 |
