@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15E9-AUTHOR 23~24순위 Bolmaro/Nnaji 연쇄 선택`
-- 최근 설계 변경: `2020 Draft 1~22 LOCK; Bolmaro 23→Nnaji 24 PRIMARY_LEAN / AUTHOR_GATE`
-- 최근 정본 병합: `PR #106 / 3fc2c1ed`
-- 최근 설계 병합: `PR #106 / 3fc2c1ed`
+- 현재 작업: `O-15E10-AUTHOR 25~31순위 Hampton 재착지 선택`
+- 최근 설계 변경: `2020 Draft 1~24 LOCK; 실제 25~30 유지→Hampton 31 PRIMARY_LEAN / AUTHOR_GATE`
+- 최근 정본 병합: `PR #108 / dc2ac53a`
+- 최근 설계 병합: `PR #108 / dc2ac53a`
 
 ## 완료
 
@@ -178,7 +178,8 @@
 - [x] Kira Lewis 14~16순위 재착지 보드 — Nesmith 14·Cole 15·Kira 16 `AUTHOR_APPROVED / LOCKED`
 - [x] Isaiah Stewart 17~19순위 재착지 보드 — Poku 17·Green 18·Stewart 19 `AUTHOR_APPROVED / LOCKED`
 - [x] Saddiq Bey 20~22순위 재착지 보드 — Achiuwa 20·Maxey 21·Bey 22 `AUTHOR_APPROVED / LOCKED`
-- [x] Zeke Nnaji 23~24순위 재착지 보드 — Bolmaro 23 `RETENTION_STRONG_LEAN`; Nnaji 24 `AUTHOR_GATE`
+- [x] Zeke Nnaji 23~24순위 재착지 보드 — Bolmaro 23→Nnaji 24 `AUTHOR_APPROVED / LOCKED`
+- [x] R.J. Hampton 25~31순위 재착지 보드 — 실제 25~30 유지·Hampton Dallas 31 `PRIMARY_LEAN / AUTHOR_GATE`
 
 ## 현재 결정 대기
 
@@ -205,7 +206,8 @@
 - [x] O-15E6-AUTHOR A `Kira Lewis 16→Stewart 17+` 선택
 - [x] O-15E7-AUTHOR A `Poku 17→Green 18→Stewart 19` 선택
 - [x] O-15E8-AUTHOR A `Achiuwa 20→Maxey 21→Bey 22` 선택
-- [ ] O-15E9-AUTHOR A `Bolmaro 23→Nnaji 24` / B `Nnaji 23→Hampton 24` / C `Bolmaro 23→Hampton 24` 선택
+- [x] O-15E9-AUTHOR A `Bolmaro 23→Nnaji 24` 선택
+- [ ] O-15E10-AUTHOR A `실제 25~30 유지→Hampton 31` / B `Hampton 26→Pritchard 27+` / C `Terry 31 유지→Hampton 32+` 선택
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -391,9 +393,14 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 130. Minnesota의 Bolmaro 23순위를 실제 역사라는 이유만으로 유지하지 않고, 25·33순위를 지불한 목적 상향 거래를 근거로 삼는다. 드래프트 밤 보도와 공식 완료된 Rubio 포함 3팀 거래를 이중 계산하지 않는다.
 131. Nnaji의 Minnesota 출신 배경을 Timberwolves의 직접 선호로 과장하지 않는다.
 132. Denver가 Nnaji를 22번에서 먼저 보호한 순서를 공개된 Nnaji–Hampton 내부 head-to-head로 바꾸지 않으며, 선수 선택 변화만으로 Denver의 24순위 4팀 거래를 자동 유지·소멸시키지 않는다.
+133. Hampton의 실제 24순위·동시대 consensus를 25~31순위 팀들의 내부 선호로 바꾸거나 실존 지명자를 기계적으로 한 칸씩 밀지 않는다.
+134. Boston의 Hampton 사전 관심을 Pritchard보다 높은 내부 순위로 과장하지 않으며, 반대로 Pritchard의 슈팅 역할 때문에 Hampton 검토가 없었다고 지우지 않는다.
+135. Utah의 Azubuike 선택이 후대에 실패했다는 평가로 2020년 board 최상단·백업 센터 역할 근거를 역선택하지 않는다.
+136. Minnesota의 가상 라이벌 1순위가 McDaniels 역할에 만드는 비용과 Toronto Flynn·Memphis Bane의 당일 목적 근거를 후속 신인 원장 전 임의 수치로 닫지 않는다.
+137. Dallas의 Hampton 인터뷰·지역 연결을 공개 Hampton–Terry head-to-head로 과장하지 않으며, 31순위 선택과 Luka 옆 슈팅 적합성을 작가 승인 전 확정하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 2020 Draft 1~22순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey`로 통과시켰다. Bey에게 밀린 Zeke Nnaji는 23순위부터 재판정한다. 다음 게이트는 A `Bolmaro 23→Nnaji 24→Hampton 25+`, B `Nnaji 23→Hampton 24→Bolmaro 25+`, C `Bolmaro 23→Hampton 24→Nnaji 25+` 중 선택이다. Minnesota의 목적 상향 거래와 Denver의 실제 첫 지명 우선순위를 함께 보존하는 A를 총괄 추천한다. 선택 뒤 이동 선수를 New York 통제 25순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
+v0.30은 2020 Draft 1~24순위를 `Minnesota 가상 라이벌→Wiseman→Edwards→LaMelo→Okoro→Okongwu→Patrick→Toppin→Avdija→Jalen Smith→Vassell→Haliburton→Hayes→Nesmith→Cole Anthony→Kira Lewis→Pokuševski→Josh Green→Isaiah Stewart→Achiuwa→Maxey→Saddiq Bey→Bolmaro→Nnaji`로 통과시켰다. Nnaji에게 밀린 R.J. Hampton은 25순위부터 재판정한다. 다음 게이트는 A `실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지→Hampton 31`, B `Quickley 25 유지→Hampton 26→Pritchard 27+`, C `실제 25~31 유지→Hampton 32+` 중 선택이다. 팀별 목적 거래와 직접 필요를 가장 많이 보존하면서 Dallas의 실제 사전 접촉을 회수하는 A를 총괄 추천한다. 선택 뒤 이동 선수를 32순위부터 재판정한다. 라이벌 공격형·성격은 별도 HOLD이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
