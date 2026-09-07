@@ -1,6 +1,6 @@
 # 2020 Draft R.J. Hampton Relanding Board
 
-- 상태: `PICKS_1_TO_24_AUTHOR_LOCKED / PICKS_25_TO_31_AUTHOR_GATE`
+- 상태: `PICKS_25_TO_31_AUTHOR_LOCKED / TERRY_RELANDING_OPEN`
 - 고정 입력: `가상 라이벌 1 → Wiseman 2 → Edwards 3 → LaMelo 4 → Okoro 5 → Okongwu 6 → Patrick 7 → Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 11 → Haliburton 12 → Hayes 13 → Nesmith 14 → Cole 15 → Kira 16 → Pokuševski 17 → Josh Green 18 → Stewart 19 → Achiuwa 20 → Maxey 21 → Bey 22 → Bolmaro 23 → Nnaji 24`
 - 이동 선수: 실제 Denver 획득 24순위 R.J. Hampton
 - 원고 게이트: `CLOSED`
@@ -13,12 +13,12 @@ Denver가 Nnaji를 24순위로 회수했으므로 Hampton을 삭제하거나 25�
 
 | 순위 | 통제 팀 | 유지 선수 | 판정 | 직접 근거 |
 |---:|---|---|---|---|
-| 25 | New York | Immanuel Quickley | `RETENTION_STRONG_LEAN` | 25순위 권리를 최종 취득했고 Thibodeau 쪽 필요가 슈팅으로 특정됨 |
-| 26 | Boston | Payton Pritchard | `RETENTION_LEAN` | 구단이 14·26순위에서 슈팅 필요를 채웠고 Ainge가 26에서 Pritchard를 원했다는 동시대 보도 |
-| 27 | Utah | Udoka Azubuike | `RETENTION_STRONG_LEAN` | 프런트가 board 최상단·수비 최적합으로 설명했고 Tony Bradley 거래로 백업 센터 자리를 열음 |
-| 28 | Minnesota | Jaden McDaniels | `RETENTION_STRONG_LEAN` | Rubio 거래의 일부로 McDaniels 권리를 직접 취득; 가상 라이벌과의 정확 역할 비용은 후속 원장 HOLD |
-| 29 | Toronto | Malachi Flynn | `RETENTION_STRONG_LEAN` | Bobby Webster가 원하는 선수를 얻었다고 밝혔고 즉시 PnR·슈팅·수비 가드 기능을 특정 |
-| 30 | Memphis | Desmond Bane | `RETENTION_STRONG_LEAN` | 보유하지 않던 1라운드 말미로 들어오기 위해 미래 2라운드 2장을 지불한 목적 거래 |
+| 25 | New York | Immanuel Quickley | `AUTHOR_APPROVED / LOCKED` | 25순위 권리를 최종 취득했고 Thibodeau 쪽 필요가 슈팅으로 특정됨 |
+| 26 | Boston | Payton Pritchard | `AUTHOR_APPROVED / LOCKED` | 구단이 14·26순위에서 슈팅 필요를 채웠고 Ainge가 26에서 Pritchard를 원했다는 동시대 보도 |
+| 27 | Utah | Udoka Azubuike | `AUTHOR_APPROVED / LOCKED` | 프런트가 board 최상단·수비 최적합으로 설명했고 Tony Bradley 거래로 백업 센터 자리를 열음 |
+| 28 | Minnesota | Jaden McDaniels | `AUTHOR_APPROVED / LOCKED` | Rubio 거래의 일부로 McDaniels 권리를 직접 취득; 가상 라이벌과의 정확 역할 비용은 후속 원장 HOLD |
+| 29 | Toronto | Malachi Flynn | `AUTHOR_APPROVED / LOCKED` | Bobby Webster가 원하는 선수를 얻었다고 밝혔고 즉시 PnR·슈팅·수비 가드 기능을 특정 |
+| 30 | Memphis | Desmond Bane | `AUTHOR_APPROVED / LOCKED` | 보유하지 않던 1라운드 말미로 들어오기 위해 미래 2라운드 2장을 지불한 목적 거래 |
 
 Boston은 Hampton과 좋은 인터뷰를 했고 대면 워크아웃도 원했다는 보도가 있어 26순위가 진짜 첫 충돌점이다. 그러나 Pritchard는 단순 실제 지명이 아니라 팀의 슈팅 필요와 Ainge의 직접 선택 근거가 있다. 따라서 Hampton의 일반 순위값만으로 Pritchard를 자동 치환하지 않는다.
 
@@ -28,25 +28,24 @@ Boston은 Hampton과 좋은 인터뷰를 했고 대면 워크아웃도 원했다
 - 실제 24순위였고 동시대 평가는 대체로 1라운드 중후반이었다. 31순위에서는 Dallas가 이미 18순위로 Josh Green을 지명한 뒤에도 별도 upside guard 가치를 검토할 수 있다.
 - 실제 31순위 Tyrell Terry는 Luka Dončić 옆 슈팅·세컨더리 핸들러라는 직접 적합성이 있다. Dallas의 공개 Hampton–Terry 내부 head-to-head는 확인되지 않았다.
 
-판정: **R.J. Hampton 31순위 `PRIMARY_LEAN / AUTHOR_APPROVAL_REQUIRED`**.
+판정: **R.J. Hampton 31순위 `AUTHOR_APPROVED / LOCKED`**.
 
-## 4. 작가 선택
+## 4. 작가 선택 결과
 
 | 안 | 25~30 | Dallas 31 | 새 이동 선수 | 판정 |
 |---|---|---|---|---|
-| **A** | **실제 지명 유지** | **R.J. Hampton** | Tyrell Terry | **총괄 추천** |
-| B | Quickley 25 유지 | **R.J. Hampton 26** | Payton Pritchard | Boston 사전 관심 우선 대안 |
-| C | **실제 지명 유지** | Tyrell Terry | R.J. Hampton | Hampton 32순위 이하 재개 |
+| **A** | **실제 지명 유지** | **R.J. Hampton** | Tyrell Terry | **작가 승인·LOCK** |
+| B | Quickley 25 유지 | **R.J. Hampton 26** | Payton Pritchard | `REJECTED_HISTORICAL_CONTINGENCY` |
+| C | **실제 지명 유지** | Tyrell Terry | R.J. Hampton | `REJECTED_HISTORICAL_CONTINGENCY` |
 
-총괄은 **A — Quickley 25 → Pritchard 26 → Azubuike 27 → McDaniels 28 → Flynn 29 → Bane 30 유지 → Hampton 31**을 추천한다. 목적 거래와 직접 팀 필요를 보존하면서, Dallas의 실제 사전 접촉과 Hampton의 7계단 가치 하락을 가장 먼저 함께 만족한다.
+작가가 이어서 진행하도록 승인해 **A — Quickley 25 → Pritchard 26 → Azubuike 27 → McDaniels 28 → Flynn 29 → Bane 30 유지 → Hampton 31**을 `AUTHOR_APPROVED / LOCKED`로 둔다. 목적 거래와 직접 팀 필요를 보존하면서 Dallas의 실제 사전 접촉과 Hampton의 7계단 가치 하락을 회수한다. 정확 1~31순위가 정본화됐다.
 
 ## 5. 다음 경계
 
-1. 작가가 A/B/C를 선택한다.
-2. A라면 Tyrell Terry를 Charlotte 통제 32순위부터 재판정한다.
-3. B라면 Pritchard를 Utah 27순위부터, C라면 Hampton을 Charlotte 32순위부터 재판정한다.
-4. 25·27·28·30순위의 거래는 선택 선수가 바뀐다는 이유만으로 자동 유지·소멸하지 않는다.
-5. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
+1. Tyrell Terry를 Charlotte 통제 32순위부터 재판정한다.
+2. B/C는 비교 이력으로만 보존하고 활성 연쇄에서 사용하지 않는다.
+3. 25·27·28·30순위의 거래는 선택 선수가 바뀐다는 이유만으로 자동 유지·소멸하지 않는다.
+4. 이동 선수가 안정된 뒤에만 Chicago 2020-21 opening roster·player-game 원장을 시작한다.
 
 ## 6. 출처
 

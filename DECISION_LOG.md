@@ -358,5 +358,11 @@
 | D-350 | HAMPTON_DALLAS_31_PRIMARY_LEAN | Dallas가 31순위에서 R.J. Hampton을 지명하는 안을 총괄 추천 | 실제 인터뷰·지역 연결·가치 하락 반영, 공개 Terry head-to-head 부재로 exact HOLD |
 | D-351 | PICKS_25_TO_31_TRANSACTION_FIREWALL | 25·27·28·30순위 픽 거래와 선수 선택을 분리 검산 | 선수 변경만으로 거래 전체 자동 유지·소멸 금지 |
 | D-352 | NEXT_TERRY_RELANDING_FIREWALL | Hampton 31 선택 시 Tyrell Terry를 Charlotte 통제 32순위부터 재계산 | Terry 삭제·후대 성과 역선택 금지 |
+| D-353 | AUTHOR_LOCK / PICKS_25_TO_31 | 2020 Draft 25~31순위를 Quickley→Pritchard→Azubuike→McDaniels→Flynn→Bane→Hampton으로 확정 | Boston·Dallas의 비공개 내부 head-to-head가 확인된 것으로 쓰지 않음 |
+| D-354 | TERRY_RELANDING_REQUIRED | Hampton에게 밀린 Tyrell Terry를 Charlotte 통제 32순위부터 재배열 | 전체 2라운드 자동 한 칸 이동 금지 |
+| D-355 | CHARLOTTE_PLAYMAKING_INPUT_CHANGED | Charlotte의 3순위가 LaMelo에서 Edwards로 바뀌어 큰 가드 창출 기능이 사라진 입력을 32순위에 반영 | Graham·Rozier 존재와 Edwards 득점력을 삭제하지 않음 |
+| D-356 | TERRY_CHARLOTTE_32_PRIMARY_LEAN | Charlotte가 32순위에서 Tyrell Terry를 지명하는 안을 총괄 추천 | 실제 31순위 가치·슈팅·보조 창출 반영, 공개 Carey head-to-head 부재로 exact HOLD |
+| D-357 | CAREY_32_RETENTION_CONTINGENCY | Vernon Carey Jr. 32 유지를 실현 가능한 반대 분기로 보존 | Carey·Richards의 센터 보강 목적을 Terry fit만으로 삭제하지 않음 |
+| D-358 | NEXT_CAREY_RELANDING_FIREWALL | Terry 32 선택 시 Carey를 LA Clippers 통제 33순위부터 재계산 | Carey 42 자동 회수·Nick Richards 자동 삭제 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
