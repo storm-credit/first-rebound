@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F2 Chicago 2020-21 마감일 전 생산성 prior·이전량`
-- 최근 설계 변경: `43경기 same-date PASS; 주인공 43/43/1,219·LaMelo 43/25/1,191 PREDEADLINE_ROLE_PROVISIONAL_LOCK`
-- 최근 정본 병합: `PR #121 / da1e59ac`
-- 최근 설계 병합: `PR #121 / da1e59ac`
+- 현재 작업: `O-15F3 Chicago 2020-21 마감일 전 score-margin impact·대체 성적`
+- 최근 설계 변경: `주인공 BASE 14.5/9.8/3.2·LaMelo 18.0/6.8/7.2 per36; 2,410분 이전·43경기 box 입력 PASS`
+- 최근 정본 병합: `PR #123 / 837da563`
+- 최근 설계 병합: `PR #123 / 837da563`
 
 ## 완료
 
@@ -189,6 +189,8 @@
 - [x] Chicago 2020-21 역할 prior — 주인공 68경기·58선발·1,938분, LaMelo 64경기·32선발·1,760분 `PROVISIONAL BASE`
 - [x] Chicago 2020-21 마감일 전 player-game — 43경기·10,420:02·215선발 보존, secondary donor 1,153:35 `PASS`
 - [x] 마감일 전 역할선 — 주인공 43경기·43선발·1,219분, LaMelo 43경기·25선발·1,191분 `PROVISIONAL_LOCK`
+- [x] O-15F2 마감일 전 생산성 prior — 주인공 14.5/9.8/3.2·LaMelo 18.0/6.8/7.2 per36 `RANGE_PASS`
+- [x] 2,410분 제거 생산성·43경기 box attribution 입력 — `TRANSFER_PRODUCTION_PASS / IMPACT_HOLD`
 - [x] 세계관 설정집은 정본 문서에 누적 작성 중이며 `World Bible v1.0`까지 7개 매크로 게이트로 완료 정의
 
 ## 현재 결정 대기
@@ -224,7 +226,8 @@
 - [x] O-15E14-AUTHOR A `실제 57~60 유지→Riller UDFA` 선택
 - [x] O-15F Chicago 2020-21 opening roster — `Hutchison→주인공`, `Patrick→LaMelo`, 실제/대체 15+2 `STRUCTURE_PASS`
 - [x] O-15F1 Chicago 2020-21 마감일 전 player-game — 1,153:35 secondary donor·선발 5자리·단계적 LaMelo 전환 검산 `PASS`
-- [ ] O-15F2 Chicago 2020-21 마감일 전 생산성 — 주인공·LaMelo prior·donor 생산성 이전량·43경기 impact 입력
+- [x] O-15F2 Chicago 2020-21 마감일 전 생산성 — 주인공·LaMelo prior·donor 생산성 이전량·43경기 box 입력 `PASS`
+- [ ] O-15F3 Chicago 2020-21 마감일 전 outcome — score-margin·복수 impact proxy·Young bridge·일정 피로 stress·대체 3월 24일 성적
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -437,9 +440,14 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 157. LaMelo의 43경기 active BASE를 Charlotte 손목 부상의 영구 삭제로 쓰지 않는다. 이후 부상·결장은 독립 사건 원장에서 판정한다.
 158. LaMelo 선발 전환 뒤에도 Coby의 43경기·18선발·1,142:04를 보존한다. 이를 실패나 즉시 트레이드 요구로 자동 번역하지 않는다.
 159. 실제 19승 24패는 식별 기준선일 뿐 alternate 마감일 성적이 아니다. production·impact 실행 전 거래 동기를 평가하지 않는다.
+160. 두 가상 선수 BASE와 제거 pool의 +234.72득점·+132.79어시스트 차이를 Chicago 팀 득점·어시스트에 직접 더하지 않는다. 사용률과 동료 귀속이 재분배된다.
+161. 주인공의 +151.17리바운드 귀속과 LaMelo의 스틸을 팀 리바운드·전환득점으로 자동 환산하지 않는다.
+162. 두 선수의 +76.95턴오버 비용을 무시하거나 긍정 박스 사건만 impact proxy에 넣지 않는다.
+163. LaMelo Charlotte 손목 전 41경기 관측치와 신인왕을 Chicago exact 기록·부상 없음으로 복사하지 않는다.
+164. O-15F2 box input PASS를 대체 성적·Vučević·3팀 거래 발생 PASS로 확장하지 않는다.
 
 ## 다음 게이트
 
-v0.30은 Chicago 2020-21 마감일 전 43경기의 같은 날짜 분·선발 원장을 통과시켰다. 주인공 43경기·43선발·1,219분과 LaMelo 43경기·25선발·1,191분은 `PREDEADLINE_ROLE_PROVISIONAL_LOCK`이다. 다음 게이트 O-15F2는 두 선수의 공격·수비 생산성 prior와 Satoransky·Valentine·Arcidiacono·Coby·Temple·Porter의 생산성 이전량을 계산해 43경기 impact 입력을 만드는 단계다. 이후 점수차 outcome으로 대체 마감일 성적을 얻은 뒤 Vučević 거래와 3팀 거래를 각각 판정한다. 실제 19승 24패, LaMelo 손목 사건, Riller 정확 계약, 개인 박스·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
+v0.30은 Chicago 2020-21 마감일 전 역할과 생산성 prior를 통과시켰다. 주인공 BASE는 14.5득점·9.8리바운드·3.2어시스트/36, LaMelo BASE는 18.0득점·6.8리바운드·7.2어시스트/36이다. 다음 게이트 O-15F3은 실제 43경기 score margin에 최소 두 impact proxy를 적용하고 Young 0:38 bridge·일정 피로를 stress로 분리해 2021-03-24 대체 성적을 계산하는 단계다. box 귀속 증가를 팀 점수로 직접 합산하지 않는다. 대체 성적 뒤 Vučević 거래와 3팀 거래를 각각 판정한다. LaMelo 손목 사건, Riller 정확 계약, exact 개인 박스·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
