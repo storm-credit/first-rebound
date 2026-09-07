@@ -698,3 +698,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 실제 Detroit는 Hayes 7로 포인트가드를 확보한 뒤 Isaiah Stewart를 16번에서 지명했다. 현재 세계선은 Patrick 7이라 가드 공백이 남고 Detroit가 Kira를 실제 워크아웃했으므로 **Kira 16 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다.
 - Weaver가 Stewart를 특정 후보로 두고 16순위 픽을 확보했다는 구단 회고가 있으므로 Stewart 16 유지를 실현 가능 대안으로 보존한다. 가드 필요나 실제 픽 어느 한쪽으로 자동 LOCK하지 않는다.
 - A Kira 16이면 Stewart를, B Stewart 16 유지면 Kira를 Oklahoma City가 통제한 17순위부터 다시 계산한다. 선수 변경과 16순위 거래 경제를 분리해 검산한다.
+
+## v0.30 O-15E6 PARTIAL ADDITIONS — Kira Lewis Jr. Detroit 16순위
+
+- 작가가 직전 총괄 추천을 이어서 진행하도록 승인해 **Detroit 통제 16순위 Kira Lewis Jr.**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~16순위가 정본화됐다.
+- Isaiah Stewart 16 유지는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 이는 Detroit의 비공개 Kira–Stewart 내부 head-to-head가 확인됐다는 뜻이 아니다.
+- Stewart는 삭제하지 않고 Oklahoma City가 통제한 17순위부터 재판정한다. OKC의 Pokuševski 목적 상향 거래 때문에 Poku 17 유지가 `RETENTION_STRONG_LEAN`이다.
+- Dallas는 외곽 수비형 윙 Josh Green 18 유지 `RETENTION_LEAN`, Stewart가 19번까지 남으면 별도 픽을 통제한 Detroit가 Stewart를 회수하는 안을 `PRIMARY_LEAN / AUTHOR_GATE`로 둔다.
+- 총괄 추천은 **Pokuševski 17 → Josh Green 18 → Stewart 19**다. 이 경우 Saddiq Bey를 Miami 20순위부터 재판정한다. 정확 17~19순위는 작가 승인 전 `HOLD`다.
+- 16순위 Wood 거래, 17순위 Rubio 3팀 거래, 19순위 Kennard–Shamet 3팀 거래를 선수 한 명의 이동으로 자동 유지·소멸시키지 않는다.

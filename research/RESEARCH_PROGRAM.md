@@ -328,6 +328,16 @@
 - 총괄 검토: `reviews/R01_2020_DRAFT_KIRA_LEWIS_RELANDING_REVIEW.md`
 - LOCK: Boston Aaron Nesmith 14 → Orlando Cole Anthony 15 `AUTHOR_APPROVED / LOCKED`
 - 폐기 분기: Orlando Kira Lewis 15 `REJECTED_HISTORICAL_CONTINGENCY`
-- 첫 활성 분기: Detroit 통제 16순위 Kira Lewis `PRIMARY_LEAN / AUTHOR_GATE` vs Isaiah Stewart 유지
+- LOCK: Detroit 통제 16순위 Kira Lewis `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Detroit Isaiah Stewart 16 유지 `REJECTED_HISTORICAL_CONTINGENCY`
 - 거래 안전선: Christian Wood sign-and-trade·Ariza·보호 픽 구조와 정확 선수 선택을 분리 검산
-- 다음 조사: 작가 선택 뒤 이동 선수를 Oklahoma City 통제 17순위부터 재판정
+- 다음 조사: Isaiah Stewart를 Oklahoma City 통제 17순위부터 재판정
+
+### R15.21 Isaiah Stewart 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_ISAIAH_STEWART_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_ISAIAH_STEWART_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_ISAIAH_STEWART_RELANDING_REVIEW.md`
+- 주안: Oklahoma City Pokuševski 17 `RETENTION_STRONG_LEAN` → Dallas Josh Green 18 `RETENTION_LEAN` → Detroit Stewart 19 `PRIMARY_LEAN / AUTHOR_GATE`
+- 거래 안전선: 17순위 Rubio 3팀 거래와 19순위 Kennard–Shamet 3팀 거래를 선수 선택과 분리 검산
+- 다음 조사: 작가 선택 뒤 이동 선수를 Miami 20순위부터 재판정
