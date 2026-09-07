@@ -326,6 +326,8 @@
 - 팀보드: `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_KIRA_LEWIS_RELANDING_REVIEW.md`
-- Boston 14순위: Aaron Nesmith `RETENTION_STRONG_LEAN`
-- 첫 활성 분기: Orlando 15순위 Cole Anthony 유지 `RETENTION_LEAN / AUTHOR_GATE` vs Kira Lewis 지명
-- 다음 조사: 작가 선택 뒤 이동 선수를 Detroit 통제 16순위부터 재판정
+- LOCK: Boston Aaron Nesmith 14 → Orlando Cole Anthony 15 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Orlando Kira Lewis 15 `REJECTED_HISTORICAL_CONTINGENCY`
+- 첫 활성 분기: Detroit 통제 16순위 Kira Lewis `PRIMARY_LEAN / AUTHOR_GATE` vs Isaiah Stewart 유지
+- 거래 안전선: Christian Wood sign-and-trade·Ariza·보호 픽 구조와 정확 선수 선택을 분리 검산
+- 다음 조사: 작가 선택 뒤 이동 선수를 Oklahoma City 통제 17순위부터 재판정

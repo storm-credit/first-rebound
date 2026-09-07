@@ -689,3 +689,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 첫 활성 분기는 Orlando 15순위다. 실제 Cole Anthony 유지가 `RETENTION_LEAN / AUTHOR_GATE`, Kira 15순위가 contingency다.
 - A Nesmith 14·Cole 15 유지면 Kira를, B Nesmith 14·Kira 15면 Cole을 Detroit가 통제한 16순위부터 재판정한다. 이 연쇄가 닫히기 전 Chicago 2020-21 roster·승패를 확정하지 않는다.
 - 상세 권위는 `simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.md`, 맹점 검토는 `reviews/R01_2020_DRAFT_KIRA_LEWIS_RELANDING_REVIEW.md`다.
+
+## v0.30 O-15E5 PARTIAL ADDITIONS — Nesmith 14·Cole Anthony 15 유지
+
+- 작가 선택 A를 반영해 **Boston Aaron Nesmith 14 → Orlando Cole Anthony 15**를 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~15순위가 정본화됐다.
+- Orlando가 Kira Lewis를 15순위에 지명하는 분기는 `REJECTED_HISTORICAL_CONTINGENCY`다. 이 결정은 공개되지 않은 Cole–Kira 내부 head-to-head가 확인됐다는 뜻이 아니다.
+- Kira는 삭제하지 않고 Detroit가 통제한 16순위부터 재판정한다. 실제 16순위는 Portland가 행사한 뒤 Houston을 거쳐 Detroit로 이동했고, Christian Wood sign-and-trade·Trevor Ariza·보호 픽이 결합된 거래다.
+- 실제 Detroit는 Hayes 7로 포인트가드를 확보한 뒤 Isaiah Stewart를 16번에서 지명했다. 현재 세계선은 Patrick 7이라 가드 공백이 남고 Detroit가 Kira를 실제 워크아웃했으므로 **Kira 16 `PRIMARY_LEAN / AUTHOR_GATE`**를 주안으로 둔다.
+- Weaver가 Stewart를 특정 후보로 두고 16순위 픽을 확보했다는 구단 회고가 있으므로 Stewart 16 유지를 실현 가능 대안으로 보존한다. 가드 필요나 실제 픽 어느 한쪽으로 자동 LOCK하지 않는다.
+- A Kira 16이면 Stewart를, B Stewart 16 유지면 Kira를 Oklahoma City가 통제한 17순위부터 다시 계산한다. 선수 변경과 16순위 거래 경제를 분리해 검산한다.
