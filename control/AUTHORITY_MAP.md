@@ -154,3 +154,6 @@
 | 신발 스폰서 4안·광고 수량·멘토/유명인 관계 예산 | `research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md` | 주인공 PUMA·라이벌 adidas LOCK, 계약 조건 HOLD |
 | 상업·유명인 관계 범위 중단 | `control/COMMERCIAL_RELATIONSHIP_SCOPE_GATE.md` | `COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE` |
 | 스폰서·멘토 맹점 검토 | `reviews/R02_3L_SPONSOR_MENTOR_REVIEW.md` | R16 독립 검수 대체 아님 |
+| Chicago 2021 Vučević 거래 팀보드 | `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md` | B 저비용 센터 경로 PRIMARY_LEAN / A·B·C AUTHOR_GATE / exact 거래 HOLD |
+| Chicago 2021 센터 시장 기준선 | `research/CHICAGO_2021_DEADLINE_CENTER_MARKET.md` | 당시 정보 PASS / 사후 결과 역선택 금지 |
+| Chicago 2021 Vučević 보드 총괄 검토 | `reviews/R01_CHICAGO_2021_VUCEVIC_TRADE_BOARD_REVIEW.md` | NOT_INDEPENDENT / 작가 선택·O-15F5 전 정본 승격 금지 |
