@@ -53,7 +53,7 @@ B는 특정 선수를 이번 단계에서 자동 확정하지 않는 **전략 �
 - 낮은 사용률로 LaMelo·LaVine·주인공의 창출 성장 보존
 - 2021 여름 Markkanen과 2022 LaVine·주인공 계약 판단을 막지 않음
 
-Theis+Green을 얻는 이전 6인 구조는 이 경로의 가장 강한 실제 시장 anchor다. 다만 Hutchison 없는 3팀 거래는 별도 사건이므로, 작가가 B를 고르면 O-15F5에서 `Theis+Green 6인 구조 / 다른 저비용 빅 / 타깃 실패 후 무거래`를 다시 판정한다.
+Theis+Green을 얻는 이전 3팀 5인 구조는 이 경로의 가장 강한 실제 시장 anchor다. 이전 `6인` 표기는 O-15F5에서 선수 수 오기로 정정했다. 다만 Hutchison 없는 3팀 거래는 별도 사건이므로, 작가가 B를 고르면 O-15F5에서 `Theis+Green 5인 구조 / 다른 저비용 빅 / 타깃 실패 후 무거래`를 다시 판정한다.
 
 ## 5. C — 무거래
 
@@ -77,7 +77,7 @@ B를 택해도 정확 Theis 거래가 자동 LOCK되지는 않는다. 이번 작
 
 ## 8. 다음 인과 단계
 
-1. O-15F5에서 Theis+Green 최소 6인 구조와 다른 저비용 빅·타깃 실패를 비교한다.
+1. O-15F5에서 Theis+Green 3팀 5인 구조와 다른 저비용 빅·타깃 실패를 비교한다.
 2. 정확 거래를 고른 뒤 마감일 이후 29경기 roster-minute·outcome을 계산한다.
 3. 이후에만 2021 lottery, Markkanen RFA, DeRozan·Lonzo·Caruso 보드를 연다.
 
