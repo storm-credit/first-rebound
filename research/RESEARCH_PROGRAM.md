@@ -367,7 +367,17 @@
 - 팀보드: `simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_RJ_HAMPTON_RELANDING_REVIEW.md`
-- 주안: 실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지 → Dallas Hampton 31 `PRIMARY_LEAN / AUTHOR_GATE`
+- LOCK: 실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지 → Dallas Hampton 31 `AUTHOR_APPROVED / LOCKED`
 - 거래 안전선: 25·27·28·30순위 거래와 선수 선택을 분리 검산
 - 자료 한계: Dallas의 Hampton 인터뷰는 Terry보다 높은 내부 순위를 증명하지 않음
-- 다음 조사: 작가 선택 뒤 이동 선수를 32순위부터 재판정
+- 다음 조사: Tyrell Terry를 Charlotte 통제 32순위부터 재판정
+
+### R15.25 Tyrell Terry 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_TYRELL_TERRY_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_TYRELL_TERRY_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_TYRELL_TERRY_RELANDING_REVIEW.md`
+- 주안: Charlotte Tyrell Terry 32 `PRIMARY_LEAN / AUTHOR_GATE`
+- 상류 변화: Charlotte 3순위가 LaMelo에서 Edwards로 바뀌어 큰 가드 playmaking이 사라짐
+- 반대 근거: Carey 32·Richards 42 권리 거래가 보여주는 실제 센터층 보강 목적
+- 다음 조사: 작가 선택 뒤 이동 선수를 LA Clippers 통제 33순위부터 재판정

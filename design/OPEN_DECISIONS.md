@@ -301,3 +301,5 @@ O-15E7에서 작가는 직전 총괄 추천을 이어서 진행해 **Pokuševski
 O-15E8에서 작가는 직전 총괄 추천을 이어서 진행해 **Achiuwa 20 → Maxey 21 → Saddiq Bey 22**를 승인했다. 정확 1~22순위는 `AUTHOR_APPROVED / LOCKED`다. Nnaji는 Minnesota 통제 23순위부터 재판정한다. Minnesota가 25·33순위를 지불해 Bolmaro를 얻은 목적 거래와 Denver가 Nnaji 22를 먼저 지명한 뒤 Hampton 24를 별도 획득한 순서를 함께 반영해, 총괄은 **Bolmaro 23 → Zeke Nnaji 24**를 추천한다. 정확 23~24순위는 새 작가 게이트다.
 
 O-15E9에서 작가는 직전 총괄 추천을 이어서 진행해 **Bolmaro 23 → Zeke Nnaji 24**를 승인했다. 정확 1~24순위는 `AUTHOR_APPROVED / LOCKED`다. Hampton은 New York 통제 25순위부터 재판정한다. 실제 25~30은 팀별 슈팅 필요·직접 선호·백업 센터 역할·목적 거래가 겹쳐 유지 주안이며, Dallas의 실제 인터뷰와 Hampton의 7계단 가치 하락을 반영해 총괄은 **실제 25~30 유지 → R.J. Hampton 31**을 추천한다. 정확 25~31순위는 새 작가 게이트다.
+
+O-15E10에서 작가는 직전 총괄 추천을 이어서 진행해 **실제 Quickley 25→Pritchard 26→Azubuike 27→McDaniels 28→Flynn 29→Bane 30 유지→R.J. Hampton 31**을 승인했다. 정확 1~31순위는 `AUTHOR_APPROVED / LOCKED`다. Terry는 Charlotte 통제 32순위부터 재판정한다. Charlotte가 실제 LaMelo 대신 Edwards를 3순위로 지명해 창출 기능이 줄어든 상류 변화를 반영하되 Carey·Richards 센터 보강 의도를 함께 보존해야 한다. 총괄은 **Tyrell Terry 32**를 추천하며 정확 32순위는 새 작가 게이트다.

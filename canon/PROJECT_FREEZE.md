@@ -735,3 +735,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Hampton의 첫 합리적 재착지는 Dallas 31순위다. Dallas가 Hampton과 실제 사전 인터뷰를 했고 Hampton이 실제 24순위보다 7계단 내려왔지만, Tyrell Terry의 Luka 옆 슈팅 적합성과 공개 Hampton–Terry 내부 비교 부재 때문에 **`PRIMARY_LEAN / AUTHOR_GATE`**로 둔다.
 - 총괄 추천은 **실제 25~30 유지 → R.J. Hampton 31**이다. 이 경우 Tyrell Terry를 Charlotte 통제 32순위부터 재판정한다. 정확 25~31순위는 작가 승인 전 `HOLD`다.
 - 25·27·28·30순위의 거래는 선수 선택 변화만으로 자동 유지·소멸하지 않는다.
+
+## v0.30 O-15E10 PARTIAL ADDITIONS — 실제 25~30 유지·R.J. Hampton 31
+
+- 작가가 직전 총괄 추천을 이어서 진행하도록 승인해 **New York Quickley 25 → Boston Pritchard 26 → Utah Azubuike 27 → Minnesota McDaniels 28 → Toronto Flynn 29 → Memphis Bane 30 유지 → Dallas R.J. Hampton 31**을 `AUTHOR_APPROVED / LOCKED`로 둔다. 이에 따라 2020 Draft 정확 1~31순위가 정본화됐다.
+- Hampton 26과 Tyrell Terry 31 분기는 `REJECTED_HISTORICAL_CONTINGENCY`로 보존한다. 이는 Boston·Dallas의 비공개 내부 head-to-head가 확인됐다는 뜻이 아니다.
+- Hampton에게 밀린 Tyrell Terry는 삭제하지 않고 Charlotte 통제 32순위부터 재판정한다.
+- 실제 Charlotte는 LaMelo 3으로 playmaking을 얻은 뒤 Carey 32와 추가 비용을 낸 Richards 42로 센터층을 보강했다. 현재 세계에서는 Edwards 3이 LaMelo의 창출 기능을 그대로 대체하지 않으므로 Terry 32 검토가 강해진다.
+- Graham·Rozier가 남아 있고 Carey·Richards의 센터 보강 목적도 분명하므로 **Tyrell Terry 32 `PRIMARY_LEAN / AUTHOR_GATE`**로 둔다. 공개 Terry–Carey 내부 보드는 확인되지 않았다.
+- 총괄 추천은 **Tyrell Terry 32**다. 이 경우 Vernon Carey Jr.를 LA Clippers 통제 33순위부터 재판정한다. 정확 32순위는 작가 승인 전 `HOLD`다.
+- Charlotte의 42순위 Nick Richards 권리 거래는 32순위 선택 변화만으로 자동 유지·소멸하지 않는다.
