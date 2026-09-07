@@ -415,5 +415,12 @@
 | D-407 | PREDEADLINE_PLAY_IN_BAND_PASS | 중심 기록은 2021-03-24 동부 8~10위권 | 20-23의 Indiana 동률 tiebreak와 exact seed는 HOLD |
 | D-408 | VUCEVIC_BUYER_MOTIVE_PASS_TRANSACTION_HOLD | 19~21승에서 Chicago의 마감일 매수 동기는 유지되지만 실제 Vučević 패키지는 미확정 | 더 나은 성적을 두 장의 1라운드 지명권 지출 자동 근거로 사용 금지 |
 | D-409 | O15F4_VUCEVIC_BOARD_NEXT | 다음 계산을 실제 Vučević 패키지·소형 센터 거래·무거래 비교로 지정 | 3팀 거래는 별도 사건으로 분리하고 LaMelo·주인공 시간축 반영 |
+| D-410 | VUCEVIC_MARKET_EVIDENCE_PASS | 실제 Vučević 패키지·top-4 보호 두 1R·29.9% 사용률과 Theis·McGee·buyout 센터 시장을 당시 정보로 분리 | 이후 Carter 성장·실제 픽 선수·Chicago 성적을 역선택 근거로 사용 금지 |
+| D-411 | ALT_CHICAGO_CREATION_NEED_CHANGED | LaMelo의 21.5% 사용률 창출 추가로 고사용률 센터 허브의 한계효용이 실제보다 낮아짐 | Vučević의 즉시 공격 가치 자체를 부정하지 않음 |
+| D-412 | HISTORICAL_VUCEVIC_PACKAGE_CONTINGENCY | 실제 Vučević+Aminu 대 Carter+Porter+2021/2023 1R을 실현 가능한 A안으로 유지 | actual 발생을 alternate 정본으로 자동 복사 금지 |
+| D-413 | LOW_COST_CENTER_LANE_PRIMARY_LEAN | 1R 0장·Carter 유지·저사용률 수비 빅을 O-15F4 총괄 추천 B안으로 지정 | 정확 Theis·McGee·buyout 입단과 outgoing은 작가 선택 및 시장 보드 전 HOLD |
+| D-414 | NO_TRADE_SECONDARY_CONTINGENCY | Carter·Gafford·두 1R을 지키는 무거래를 C안으로 보존 | 자산 보존만으로 buyer motive·LaVine 경쟁 신호 비용을 삭제하지 않음 |
+| D-415 | O15F4_AUTHOR_GATE | A 실제 Vučević / B 저비용 센터 / C 무거래의 정확 방향은 작가 선택 전 HOLD | B 추천을 transaction LOCK으로 확장 금지 |
+| D-416 | O15F5_CONDITIONAL_NEXT | 작가가 B를 선택하면 Theis+Green 최소 6인 구조·다른 저비용 빅·타깃 실패를 비교 | Washington–Chicago–Boston 사건을 Vučević 결정과 한 묶음으로 처리 금지 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
