@@ -2,11 +2,11 @@
 
 - 검토 범위: Washington Trent의 2021 RFA·Chicago–Washington–Boston 거래와 Portland Powell 대안
 - 독립 검증: Washington/Chicago 거래 구조 검토와 Portland/Powell 자산 검토를 분리 수행
-- 판정: `PASS_WITH_CHRONOLOGY_BLOCKER / EXACT_OUTCOMES_HOLD`
+- 판정: `PLAYER_COUNT_CORRECTED_BY_O15F5 / PASS_WITH_CHRONOLOGY_BLOCKER / EXACT_OUTCOMES_HOLD`
 
 ## 결론
 
-Hutchison 없는 2021 세 팀 거래는 `Chicago가 Theis·Green, Washington이 Gafford, Boston이 Wagner·Kornet`을 받는 6인 구조로 급여와 팀 동기를 통과한다. Trent는 Washington에 남아도 거래가 성립하므로 Hutchison 대체물로 자동 이동시키지 않는다.
+Hutchison 없는 2021 세 팀 거래는 `Chicago가 Theis·Green, Washington이 Gafford, Boston이 Wagner·Kornet`을 받는 **5인 구조**로 급여를 통과한다. 이 문서의 이전 `6인` 표기는 O-15F5에서 정정됐으며 선수 이동과 급여 합계는 변하지 않는다. Trent는 Washington에 남아도 거래가 성립하므로 Hutchison 대체물로 자동 이동시키지 않는다.
 
 Portland는 Hood의 급여만으로 Powell을 받을 수 있지만 Toronto가 실제로 산 Trent의 젊은 득점·RFA 가치를 잃는다. Evans에게 그 가치를 자동 부여할 수 없으므로 `PORTLAND_NO_TRADE`가 현행 1순위다.
 
@@ -17,7 +17,7 @@ Portland는 Hood의 급여만으로 Powell을 받을 수 있지만 Toronto가 �
 | 맹점 | 교정 |
 |---|---|
 | Hutchison만 빼고 실제 7인 거래 유지 | Chicago incoming이 CBA 허용액을 넘어 원형 불성립으로 판정 |
-| Trent를 Hutchison 대신 Chicago로 이동 | 6인 구조가 Trent 없이 성립하므로 자동 치환 거부 |
+| Trent를 Hutchison 대신 Chicago로 이동 | 5인 구조가 Trent 없이 성립하므로 자동 치환 거부 |
 | 실제 Trent의 Portland 성장을 Washington에서도 재현 | Washington 2019-21 player-game과 Beal·Brown 등 경쟁을 별도 blocker로 등록 |
 | Hood+Evans를 실제 Hood+Trent와 동가치 취급 | Evans의 대체 역사 생산·계약 통제권을 먼저 증명하도록 제한 |
 | Powell no-trade를 Powell Toronto 잔류로 오인 | Portland 이탈만 1순위로 두고 Knicks·Philadelphia·Toronto 시장 결과는 HOLD |
@@ -38,4 +38,3 @@ Portland는 Hood의 급여만으로 Powell을 받을 수 있지만 Toronto가 �
 - `PORTLAND_NO_TRADE_PRIMARY / POWELL_DESTINATION_HOLD`
 - `ANNUAL_CHRONOLOGY_REQUIRED`
 - `EXACT_CHICAGO_PICK_AND_TRANSACTION_OUTCOMES_NOT_CANON`
-
