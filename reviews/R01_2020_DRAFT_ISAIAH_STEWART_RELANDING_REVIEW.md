@@ -1,6 +1,6 @@
 # R01 2020 Draft Isaiah Stewart Relanding Blindspot Review
 
-- 상태: `SEQUENCE_PASS / PICKS_17_TO_19_AUTHOR_GATE / NOT_INDEPENDENT`
+- 상태: `SEQUENCE_PASS / AUTHOR_RESOLVED_TO_19 / BEY_RELANDING_REQUIRED / NOT_INDEPENDENT`
 
 ## 맹점
 
@@ -13,6 +13,6 @@
 
 ## 결론
 
-**Pokuševski 17 유지**는 `RETENTION_STRONG_LEAN`, **Josh Green 18 유지**는 `RETENTION_LEAN`이다. Stewart가 19번까지 남으면 Weaver의 특정 선호와 실제 Detroit의 별도 19순위 통제를 함께 보존할 수 있으므로 **Stewart 19 `PRIMARY_LEAN / AUTHOR_GATE`**가 가장 강하다.
+결정 전에는 **Pokuševski 17 유지**를 `RETENTION_STRONG_LEAN`, **Josh Green 18 유지**를 `RETENTION_LEAN`, **Stewart 19**를 `PRIMARY_LEAN / AUTHOR_GATE`로 판정했다.
 
-총괄 추천은 **A Pokuševski 17 → Josh Green 18 → Isaiah Stewart 19 → Saddiq Bey 20순위 이하 재개**다. 정확 17~19순위는 작가 승인 전 `HOLD`다.
+O-15E7에서 작가는 직전 총괄 추천을 이어서 승인했다. **Pokuševski 17 → Josh Green 18 → Isaiah Stewart 19**는 `AUTHOR_APPROVED / LOCKED`다. Saddiq Bey는 삭제하지 않고 Miami 20순위부터 재판정한다.

@@ -295,3 +295,5 @@ O-15E4에서 작가는 **A Toppin 8 → Avdija 9 → Jalen Smith 10 → Vassell 
 O-15E5에서 작가는 **A Aaron Nesmith 14 → Cole Anthony 15 유지**를 선택했다. 정확 1~15순위는 `AUTHOR_APPROVED / LOCKED`다. Kira는 Detroit 통제 16순위에서 Isaiah Stewart와 비교한다. 실제 Hayes 7이 Patrick 7로 바뀌어 포인트가드 공백이 생기고 Detroit가 Kira를 워크아웃했으므로 총괄은 **Kira 16**을 추천하지만, Weaver의 Stewart 특정 선호 때문에 정확 선택은 새 작가 게이트다.
 
 O-15E6에서 작가는 직전 총괄 추천을 이어서 진행해 **Kira Lewis Jr. Detroit 통제 16순위**를 승인했다. 정확 1~16순위는 `AUTHOR_APPROVED / LOCKED`다. Stewart는 OKC 통제 17순위부터 재판정한다. 총괄은 목적 거래를 보존한 **Pokuševski 17 → Josh Green 18 → Stewart 19**를 추천하며, 정확 17~19순위는 새 작가 게이트다.
+
+O-15E7에서 작가는 직전 총괄 추천을 이어서 진행해 **Pokuševski 17 → Josh Green 18 → Isaiah Stewart 19**를 승인했다. 정확 1~19순위는 `AUTHOR_APPROVED / LOCKED`다. Bey는 Miami 20순위부터 재판정한다. 총괄은 직접 역할 선호를 보존한 **Achiuwa 20 → Maxey 21 → Saddiq Bey 22**를 추천하며, 정확 20~22순위는 새 작가 게이트다.

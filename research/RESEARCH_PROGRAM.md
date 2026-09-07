@@ -338,6 +338,16 @@
 - 팀보드: `simulation/2020_DRAFT_ISAIAH_STEWART_RELANDING_BOARD.md`
 - 원장: `simulation/2020_DRAFT_ISAIAH_STEWART_RELANDING_BOARD.csv`
 - 총괄 검토: `reviews/R01_2020_DRAFT_ISAIAH_STEWART_RELANDING_REVIEW.md`
-- 주안: Oklahoma City Pokuševski 17 `RETENTION_STRONG_LEAN` → Dallas Josh Green 18 `RETENTION_LEAN` → Detroit Stewart 19 `PRIMARY_LEAN / AUTHOR_GATE`
+- LOCK: Oklahoma City Pokuševski 17 → Dallas Josh Green 18 → Detroit Stewart 19 `AUTHOR_APPROVED / LOCKED`
+- 폐기 분기: Stewart 17·Stewart 18 `REJECTED_HISTORICAL_CONTINGENCY`
 - 거래 안전선: 17순위 Rubio 3팀 거래와 19순위 Kennard–Shamet 3팀 거래를 선수 선택과 분리 검산
-- 다음 조사: 작가 선택 뒤 이동 선수를 Miami 20순위부터 재판정
+- 다음 조사: Saddiq Bey를 Miami 20순위부터 재판정
+
+### R15.22 Saddiq Bey 2020 Draft 재착지
+
+- 팀보드: `simulation/2020_DRAFT_SADDIQ_BEY_RELANDING_BOARD.md`
+- 원장: `simulation/2020_DRAFT_SADDIQ_BEY_RELANDING_BOARD.csv`
+- 총괄 검토: `reviews/R01_2020_DRAFT_SADDIQ_BEY_RELANDING_REVIEW.md`
+- 주안: Miami Achiuwa 20 `RETENTION_STRONG_LEAN` → Philadelphia Maxey 21 `RETENTION_STRONG_LEAN` → Denver Bey 22 `PRIMARY_LEAN / AUTHOR_GATE`
+- 거래 안전선: Denver 22순위 선택과 24순위 획득·Jerami Grant 후속 결정을 분리 검산
+- 다음 조사: 작가 선택 뒤 이동 선수를 Minnesota 통제 23순위부터 재판정

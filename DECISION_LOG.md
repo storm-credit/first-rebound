@@ -339,5 +339,12 @@
 | D-331 | STEWART_DETROIT_19_PRIMARY_LEAN | Stewart가 19번까지 남으면 Detroit가 별도 통제 픽에서 회수하는 안을 총괄 추천 | Weaver 특정 선호를 반영하되 Bey 평가·19순위 거래를 삭제하지 않음 |
 | D-332 | PICKS_17_TO_19_TRANSACTION_FIREWALL | 16 Wood·17 Rubio·19 Kennard–Shamet 거래를 서로 분리해 검산 | 선수 이동만으로 거래 전체 자동 유지·소멸 금지 |
 | D-333 | NEXT_BEY_RELANDING_FIREWALL | Stewart 19 선택 시 Saddiq Bey를 Miami 20순위부터 재계산 | Bey 삭제·후대 성과 역선택 금지 |
+| D-334 | AUTHOR_LOCK / PICKS_17_TO_19 | 2020 Draft 17~19순위를 Pokuševski→Josh Green→Isaiah Stewart로 확정 | OKC·Dallas의 비공개 Stewart 비교가 확인된 것으로 쓰지 않음 |
+| D-335 | STEWART_DETROIT_19_LOCK | Detroit는 별도 통제한 19순위로 Isaiah Stewart를 지명 | 실제 Stewart 특정 선호를 보존하고 Saddiq Bey 재착지 요구 |
+| D-336 | BEY_RELANDING_REQUIRED | Stewart에게 밀린 Saddiq Bey를 Miami 20순위부터 재배열 | 실제 20순위 이하 자동 한 칸 이동 금지 |
+| D-337 | ACHIUWA_20_RETENTION_STRONG_LEAN | Miami는 명시적 운동능력 빅맨 필요로 Precious Achiuwa 20 유지 주안 | Bey의 즉시 전력 윙 fit만으로 직접 역할 선호를 지우지 않음 |
+| D-338 | MAXEY_21_RETENTION_STRONG_LEAN | Philadelphia는 Morey의 lottery급·포지션 필요 평가로 Tyrese Maxey 21 유지 주안 | Villanova 연고·슈팅 필요를 Bey 우선 내부 보드로 과장하지 않음 |
+| D-339 | BEY_DENVER_22_PRIMARY_LEAN | Denver가 Saddiq Bey를 22순위로 지명하는 안을 총괄 추천 | 공식 사전 관심·실제 19순위 가치 반영, Nnaji와 공개 head-to-head 부재로 exact HOLD |
+| D-340 | NEXT_NNAJI_RELANDING_FIREWALL | Bey 22 선택 시 Zeke Nnaji를 Minnesota 통제 23순위부터 재계산 | Denver 24순위 Hampton과의 순서·거래 구조 동시 검산 |
 
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
