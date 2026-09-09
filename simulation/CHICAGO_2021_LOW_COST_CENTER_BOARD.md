@@ -2,8 +2,9 @@
 
 - 단계: `O-15F5`
 - 기준 시점: `2021-03-24 종료 후 / 2021-03-25 거래 마감 전`
-- 상태: `PASS_FOR_AUTHOR_SELECTION / A_PRIMARY_LEAN / EXACT_EVENT_HOLD`
+- 상태: `AUTHOR_APPROVED_PLAYER_ROUTE / EXECUTION_DETAILS_HOLD`
 - 선행 정본: `O-15F4 B — 1라운드 없는 저비용 센터 보강 방향 LOCK`
+- 작가 선택: 2026-09-09 “이어서진행” — 직전 추천 A의 선수 이동 승인. 아래 추천·반대 비용은 선택 당시 감사 이력이다. 정확 현금·보너스·리그 장부는 승인과 별도로 남긴다.
 - 원고 게이트: `CLOSED`
 
 ## 1. 먼저 바로잡는 선수 수

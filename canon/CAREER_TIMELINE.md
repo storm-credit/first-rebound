@@ -147,3 +147,7 @@
 - PUMA·adidas 계약의 정확한 금액·기간·서명일·제품·촬영 일정
 - 두 가상 에이전트·브랜드 매니저의 이름·소속·수수료
 - Jordan·Shaq 공개 접점이 실제 구조에 필요한지 여부
+
+## 2021-03-25 이후 최신 경계 — 2026-09-09
+
+A Theis·Green의 3팀 5인 선수 이동은 작가 승인됐다. 위 2020-21 행의 A `PRIMARY_LEAN / AUTHOR_GATE`는 `AUTHOR_APPROVED_PLAYER_ROUTE / EXECUTION_DETAILS_HOLD`로 대체된다. 후반 29경기 조건부 분 용량만 통과했으며 정확 시즌 GP/GS/분·가용성·승패는 HOLD다. opening 목표 68/58/1,938 및 64/32/1,760은 재개방됐다.

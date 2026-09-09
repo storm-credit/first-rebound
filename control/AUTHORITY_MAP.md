@@ -160,3 +160,7 @@
 | Chicago 2021 저비용 센터 팀보드 | `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`, `.csv` | A Theis·Green 3팀 5인 PRIMARY_LEAN / exact AUTHOR_GATE |
 | Chicago 2021 Theis·Green 급여 원장 | `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv` | 3팀·5명·급여·roster count PASS |
 | Chicago 2021 저비용 센터 총괄 검토 | `reviews/R01_CHICAGO_2021_LOW_COST_CENTER_BOARD_REVIEW.md` | 선수 수 오기 정정 / A 추천 / R16 대체 아님 |
+
+| O-15F6 후반기 조건부 용량·선수 이동 승인 | `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY.md` | A 선수 이동 승인 / 실행 세부·가용성·lineup HOLD |
+| O-15F6 실제 박스·조건부 vector | `simulation/CHICAGO_2020_21_POSTDEADLINE_ACTUAL.csv`, `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY_VECTOR.csv` | 29경기 기준선 / 조건부 분 보존 |
+| O-15F6 총괄 검토 | `reviews/R01_CHICAGO_2020_21_POSTDEADLINE_CAPACITY_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |

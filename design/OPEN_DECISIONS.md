@@ -325,3 +325,5 @@ O-15F4에서 당시 센터 시장과 계약 시간축을 비교했다. A 실제 
 O-15F4-AUTHOR에서 작가는 총괄 추천 B를 승인했다. 실제 Vučević 패키지는 실행하지 않고 1라운드 없는 저비용 센터 보강을 우선한다. A는 역사적 contingency, C는 시장 협상 실패 뒤 contingency다. 정확 Theis+Green·다른 센터·outgoing은 계속 `HOLD`이며 O-15F5 시장 보드에서 판정한다.
 
 O-15F5에서 기존 `최소 6인` 표기가 선수 수 오기임을 발견했다. 이동하는 고유 선수는 Gafford·Kornet·Theis·Green·Wagner 다섯 명이며, 급여 합계와 이동 방향은 그대로 통과한다. A Theis·Green 3팀 5인 거래는 세 팀 급여·roster count와 당시 동기를 가장 구체적으로 통과해 `PRIMARY_LEAN`이다. 다만 Vučević가 없는 Chicago에서 값싼 Gafford를 만료계약 Theis로 바꾸는 비용이 커지므로 정확 사건은 `AUTHOR_GATE`다. B 다른 저비용 빅은 `SECONDARY_MARKET`, C 타깃 실패는 `FAILURE_CONTINGENCY`다.
+
+O-15F5-AUTHOR에서 2026-09-09 작가는 직전 추천 A의 선수 이동을 승인했다. 현금·보너스·당일 장부는 별도 HOLD로 남는다. O-15F6에서는 실제 후반 29경기·6,960:03·145선발과 조건부 분 vector를 적재했다. Porter 0분 및 용량에 맞춘 상한은 전 경기 보존되지만 고정 12분은 5경기에서 28:44 초과다. 전반 LaMelo 25선발 뒤 기존 시즌 32선발 목표를 강제하지 않고 opening prior를 재개방한다. 다음은 O-15F6B 거래 세부·가용성·5인 조합 감사이며 작가 선택을 다시 묻지 않는다.

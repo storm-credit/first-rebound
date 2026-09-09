@@ -46,3 +46,7 @@ last_reviewed: 2026-09-07
 5. 별도 커밋/PR에서만 `status: OPEN`, `manuscript_allowed: true`로 바꾼다.
 
 설계 작업자가 편의를 위해 스스로 열 수 없다.
+
+## O-15F6 최신 판정 — 2026-09-09
+
+G09의 O-15F5 A는 `AUTHOR_APPROVED_PLAYER_ROUTE`로 갱신됐다. 후반 29경기 실제 기준선과 조건부 분·선발 용량은 통과했지만 거래 세부·가용성·5인 조합·상대 roster·생산성·승패는 HOLD다. G09 전체 PASS 및 원고 개방으로 확대하지 않는다. 다음 O-15F6B.
