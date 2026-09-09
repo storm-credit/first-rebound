@@ -837,3 +837,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - B 다른 저비용 빅은 `SECONDARY_MARKET`, C 타깃 실패·무거래는 `FAILURE_CONTINGENCY`다. 어느 안도 1라운드, Carter, Porter를 지출하지 않는다.
 - 정확 거래 선택 뒤에만 마감일 뒤 29경기와 2021 lottery·여름 계약 연쇄를 계산한다. 원고 게이트는 계속 `CLOSED`다.
 - 상세 권위는 `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`와 `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv`다.
+
+## v0.30 O-15F5 AUTHOR / O-15F6 ADDITIONS — 2026-09-09
+
+- 작가의 “이어서진행”으로 A의 Theis·Green 3팀 5인 선수 이동을 승인한다. 상태는 `AUTHOR_APPROVED_PLAYER_ROUTE`; 정확 현금·보너스·당일 리그 장부는 `EXECUTION_DETAILS_HOLD`다. D-426의 작가 선택 대기는 이 범위에서 대체된다.
+- Chicago는 Carter·Porter·두 1라운드를 보존한다. Orlando의 Vučević·Aminu 별도 경로는 닫히지 않았다.
+- 실제 후반 29경기는 12-17·6,960:03·145선발이다. 이는 비교 기준선이며 대체 결과가 아니다.
+- 주인공 30분·LaMelo 28분·Carter 26분의 전 경기 가용성 조건에서 Porter 0분과 가변 상한 안은 29경기 총분·선발을 보존한다. Porter 고정 12분은 5경기 28:44 초과다.
+- opening의 주인공 68/58/1,938·LaMelo 64/32/1,760 목표는 `REOPEN_REQUIRED_POSTDEADLINE`다. 전반 역할과 충돌하는 임의 결장·벤치 강등을 만들지 않는다. 72경기 조건부 합계를 시즌 정본으로 잠그지 않는다.
+- 다음 O-15F6B는 거래 세부·가용성·5인 조합 감사다. 생산성·승패·2021 lottery·여름 계약과 원고 게이트 CLOSED를 유지한다.
+- 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY.md`.
