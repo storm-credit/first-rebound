@@ -9,11 +9,11 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F6C Orlando–Denver 거래 보드·Chicago 가용성 시나리오·수비 역할 연결`
-- 최근 설계 변경: `O-15F6B 감사 완료; 2빅 조합 7/6경기 실패 및 최소 분 이전 수정 후보 29/29 PASS; Hampton Dallas 정본의 Gordon 거래 충돌 특정`
-- 선행 정본 병합: `PR #133 / 24727e19`
-- 선행 상태 병합: `PR #134 / c96fa32a37e6f4502084b772969bcc1b5506583a`
-- 최신 감사 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md`
+- 현재 작업: `O-15F6D Gordon A 실행 조건·선행 픽 의무·Carter 공백의 선발/비상 분 대안`
+- 최근 설계 변경: `Gordon 4안 비교 및 Harris+Nnaji+보호 미래1R 협상 기준 추천; Chicago 단독 결장 87조건 검산 완료`
+- 선행 감사 병합: `PR #135 / 33378cbe9ed0cc48fa37d478c2ddaa1d8006adb9`
+- 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
+- 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`
 
 ## 완료
 
@@ -243,7 +243,11 @@
 - [x] 2빅 정책 기존 용량 7/6경기 실패; 3빅 민감도 29/29 통과; 최소 분 이전 2빅 수정 후보 두 안 29/29 통과
 - [x] 03-31 세 빅맨 선발 충돌, Young→Satoransky 조건부 선발 교체 및 47:05/41:08 순이전 비용 공개
 - [x] Hampton Dallas 31순위 정본으로 실제 Denver–Orlando Gordon 패키지의 입력 충돌 확인
-- [ ] O-15F6C Orlando–Denver 거래 보드·Chicago 가용성 시나리오·수비 역할 연결; 실행 보너스·당일 장부 미확보 유지
+- [x] O-15F6C Gordon 4안 비교 — A Harris·Nnaji·보호 미래1R 협상 기준 추천, 실제 거래 HOLD
+- [x] Denver Bey22·Nnaji24 재확인, Nnaji 실제22번 급여 복사 차단; 선행24번 취득 비용 환급 금지
+- [x] Chicago 87개 단독 결장 시험 — Carter 17/29·LaMelo 26/29·Porter 29/29 조합 통과, 정책 실패 12/3/0 공개
+- [x] Carter 센터 커버·LaMelo 창출 권한·Porter 윙 공백에 대한 역할 대응 초안
+- [ ] O-15F6D A 급여·보너스·선행 픽 이연 조건 및 Carter 비상 선발/분 대안; 실제 부상 일정·outcome 미확정
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -480,9 +484,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 180. 2빅 분석 정책의 실패를 NBA 규칙 위반으로 표현하지 않는다. 3빅 허용 시 분 성립과 전술 비용을 함께 공개한다.
 181. 수정 조합의 최소 변경·48분 존재 증명을 실제 교체 순서·수비 상대·가용성·시즌 기록으로 승격하지 않는다.
 182. Hampton Dallas 정본을 무시해 Denver가 Hampton을 Gordon 대가로 보내게 하지 않는다. Nnaji 자동 대체도 금지한다.
+183. Bey가 Denver에 있다는 이유로 신인 윙이 Gordon의 베테랑 수비 기능을 완전히 대신한다고 단정하지 않는다. 실제 Detroit 생산성도 복사하지 않는다.
+184. Nnaji의 대체24번 슬롯을 실제22번 급여와 혼동하거나 24번 취득 대가의 미래 픽을 환급하지 않는다.
+185. 87개 독립 결장 스트레스를 실제 부상 확률·일정으로 읽지 않는다. 12/3 실패는 명시된 분 상한·선발 정책의 한계다.
 
 ## 다음 게이트
 
-A Theis·Green 3팀 5인 선수 이동 승인은 유지한다. O-15F6B는 29경기 가용성 조건에서 기존 2빅 정책의 7/6경기 실패와 3빅 민감도 전 경기 통과를 확인했다. 03-31 Young→Satoransky 선발 교체와 같은 날짜 47:05/41:08 순이전을 적용한 수정 후보는 두 안 모두 29/29 조합 증명을 통과했다. 이는 의료·실전 전술·시즌 기록 확정이 아니다. 보너스·당일 리그 장부는 공개 근거 미확보로 HOLD다. Hampton Dallas 31순위 정본 때문에 실제 Denver–Orlando Gordon 패키지도 다시 판정해야 한다. 다음 O-15F6C는 해당 거래 보드·가용성 시나리오·수비 역할 연결이다. 그 뒤 생산성·양 팀 impact·outcome·2021 lottery·여름 계약으로 이어간다. 추가 작가 선택 질문은 없다. 설정집은 누적 중이며 v0.30 PARTIAL / 원고 CLOSED를 유지한다.
+Chicago Theis·Green A 승인은 유지한다. O-15F6C는 Denver의 Bey22·Nnaji24를 반영해 Gordon 4안을 비교했고 Harris·Nnaji·보호 미래1R을 보내는 A를 협상 기준으로 추천했다. 이는 별도 거래 사건 승인이나 cap FINAL이 아니다. Chicago 결장 스트레스 87조건은 Carter 17/29·LaMelo 26/29·Porter 29/29 조합 통과와 정책 실패 12/3/0을 확인했다. 다음 O-15F6D는 A 실행 조건·선행 픽 이연 의무와 Carter 공백의 선발/비상 분 대안이다. 정확 거래·부상 일정은 미확정이며 그 결과를 준비해 생산성·양 팀 impact·outcome으로 연결한다. 추가 작가 질문은 현재 없고 정본 v0.30 PARTIAL / 원고 CLOSED를 유지한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

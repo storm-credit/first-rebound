@@ -856,3 +856,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Hampton Dallas 31순위 정본으로 실제 Denver–Orlando Gordon 거래의 입력이 바뀐다. Hampton을 Denver 자산으로 재사용하거나 Nnaji를 자동 대체하지 않는다.
 - 다음은 O-15F6C 상대 거래 보드·가용성·수비 역할 연결이다. 생산성·outcome·lottery·여름 계약·원고는 잠그지 않는다.
 - 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md`.
+
+## v0.30 O-15F6C AUDIT ADDITIONS — 2026-09-09
+
+- Denver는 Bey22·Nnaji24, Hampton은 Dallas31이라는 기존 정본을 Gordon 보드에 적용한다. A Harris·Nnaji·보호 미래1R은 협상 기준 추천이며 `EXACT_EVENT_HOLD`다.
+- 24번 지명을 취득한 비용은 Hampton 부재로 환급되지 않는다. 대체 Nnaji의 24번 급여는 실제22번 급여와 구분한다.
+- Chicago의 단독 결장 87조건 시험에서 Carter 17/29·LaMelo 26/29·Porter 29/29가 조합 증명을 통과했다. 실패 12/3/0은 명시적 상한·선발 정책의 한계이며 실제 부상 일정·확률·승패가 아니다.
+- 주인공은 LaMelo 공백 때문에 즉시 전업 PG가 되거나 Carter 공백 때문에 완성형 센터가 되지 않는다. 역할 대응과 성장 단계의 비용을 함께 검토한다.
+- 다음 O-15F6D: 거래 실행 조건·선행 픽 의무·Carter 비상 선발/분 대안. 원고는 `CLOSED`다.
+- 상세 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`, `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`.

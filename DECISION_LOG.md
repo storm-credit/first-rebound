@@ -449,4 +449,14 @@
 | D-439 | EXECUTION_DETAILS_EVIDENCE_HOLD | 공식 공개 검색에서 보너스·거래일 장부 미확보 | A 작가 승인은 유지하되 리그 실행 검증 완료 주장 금지 |
 | D-440 | O15F6C_NEXT | Orlando–Denver 거래 보드·가용성 시나리오·수비 역할을 후속 범위로 지정 | 추가 작가 질문 없이 비교 보드부터 완성, outcome·원고 CLOSED |
 
+| D-441 | DENVER_BEY_NNAJI_CONTEXT_RESTORED | Gordon 보드에 Bey22·Nnaji24·Hampton Dallas31을 함께 반영 | Hampton 대체만으로 실제 거래 복원 금지 |
+| D-442 | GORDON_FOUR_OPTION_BOARD_COMPLETE | A Nnaji·B Bey·C 신인 제외·D Denver 결렬 비교 | A 협상 기준 추천, Chicago A 승인과 별개 |
+| D-443 | NNAJI_PICK24_SALARY_FIREWALL | 동일120% 가정의 22번 $2379840·24번 $2193480 차이 $186360 | 전체 matching·보너스 검증 대체 아님 |
+| D-444 | DENVER_PRIOR_PICK_OBLIGATION_HOLD | 24번 취득 대가의 보호 미래1R 비용을 보존하고 새 Gordon 픽과 이연 충돌 확인 필요 | Hampton 부재로 취득 비용 환급 금지 |
+| D-445 | ORLANDO_TRANSACTIONS_SEPARATE | Vučević·Gordon·Fournier·Teague/Wagner 후속을 독립 인과로 관리 | 매각 일괄 유지·취소 금지 |
+| D-446 | CHICAGO_87_AVAILABILITY_STRESSES | 29날짜×Carter/LaMelo/Porter 단독 결장 시험, 통과17/26/29 | 실제 부상 일정·GP·확률 NOT_CANON |
+| D-447 | STARTER_POLICY_CAPACITY_CUTS | Carter12·LaMelo3 실패의 분 상한과 선발 동시출전 비용 공개 | NBA 경기 불가·패배 확정 아님 |
+| D-448 | ABSENCE_ROLE_RESPONSE_DRAFT | 센터 커버·볼 운반·윙 대응을 성장 단계에 맞춰 분리 | 주인공 PG/센터 즉시 완성 금지 |
+| D-449 | O15F6D_NEXT | A 실행 조건·선행 픽 의무·Carter 비상 선발/분 대안 구체화 | 현재 추가 작가 질문 없음, 정확 사건·outcome·원고 HOLD |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
