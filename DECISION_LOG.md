@@ -441,4 +441,12 @@
 | D-432 | OPENING_SEASON_PRIOR_REOPEN_REQUIRED | 초기 주인공 68/58/1,938·LaMelo 64/32/1,760 목표 재개방 | 전반 선발 역할을 낡은 목표에 맞춰 강등하지 않음 |
 | D-433 | O15F6B_NEXT | 거래 실행 세부·가용성·5인 조합·Orlando 상대 roster 감사 | outcome·lottery·계약 선잠금 금지 |
 
+| D-434 | O15F6B_TWO_BIG_POLICY_AUDIT | 기존 용량 2빅 정책 7/6경기 실패, 3빅 민감도 29/29 성립 | 분석 정책을 NBA 규칙이나 전술 효율 보장으로 오인 금지 |
+| D-435 | CONDITIONAL_MINIMUM_LINEUP_REPAIR | 47:05/41:08 순이전·03-31 Young→Satoransky 선발 후보로 두 조건 29/29 조합 검산 | 주인공·LaMelo·Carter·Porter·LaVine 분 고정, 결과 NOT_CANON |
+| D-436 | RAW_CLOCK_RESIDUAL_SEPARATED | 세 경기 +1초 잔차를 원자료에 보존하고 조합 증명에만 -1초 별도 표시 | 417603초 실제 표를 417600초로 몰래 수정 금지 |
+| D-437 | AVAILABILITY_EVIDENCE_BOUNDARY | Porter 공식 PDF의 발 통증과 LaMelo 실제 손목 사건을 대체 세계 일정과 분리 | 행 부재를 부상 증거로 쓰거나 분 맞추기 결장 발명 금지 |
+| D-438 | HAMPTON_DALLAS_GORDON_CASCADE_BLOCKER | Hampton Dallas 31 정본으로 실제 Denver–Orlando Gordon 패키지 입력 충돌 특정 | Nnaji 자동 대체·Hampton 추가 거래·Gordon 잔류 자동 LOCK 금지 |
+| D-439 | EXECUTION_DETAILS_EVIDENCE_HOLD | 공식 공개 검색에서 보너스·거래일 장부 미확보 | A 작가 승인은 유지하되 리그 실행 검증 완료 주장 금지 |
+| D-440 | O15F6C_NEXT | Orlando–Denver 거래 보드·가용성 시나리오·수비 역할을 후속 범위로 지정 | 추가 작가 질문 없이 비교 보드부터 완성, outcome·원고 CLOSED |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

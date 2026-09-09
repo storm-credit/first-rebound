@@ -6,6 +6,8 @@
 - 선행 main: `183b9e61af4de4f19cc7fea2b63eff8b42e783ef`
 - 원고 게이트: `CLOSED`
 
+> 후속 감사: `CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md` (O-15F6B). 아래는 O-15F6 당시 용량 검산 이력이다. 최신 조건부 5인 조합·수정 후보·미결 파급은 후속 문서를 따른다.
+
 ## 작가 선택과 사건 경계
 
 직전 응답은 “이어서”를 A 승인으로 해석한다고 명시했고, 작가는 2026-09-09 “이어서진행”으로 계속을 지시했다. A의 선수 이동을 승인 기록으로 통합한다. Chicago는 Gafford·Kornet을 보내 Theis·Green을 받고, Washington은 Wagner를 보내 Gafford를 받으며, Boston은 Theis·Green을 보내 Wagner·Kornet을 받는다. Carter·Porter·두 1라운드는 Chicago에 남고 Brown·Trent는 Washington에 남는다.

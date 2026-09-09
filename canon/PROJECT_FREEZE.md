@@ -847,3 +847,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - opening의 주인공 68/58/1,938·LaMelo 64/32/1,760 목표는 `REOPEN_REQUIRED_POSTDEADLINE`다. 전반 역할과 충돌하는 임의 결장·벤치 강등을 만들지 않는다. 72경기 조건부 합계를 시즌 정본으로 잠그지 않는다.
 - 다음 O-15F6B는 거래 세부·가용성·5인 조합 감사다. 생산성·승패·2021 lottery·여름 계약과 원고 게이트 CLOSED를 유지한다.
 - 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY.md`.
+
+## v0.30 O-15F6B AUDIT ADDITIONS — 2026-09-09
+
+- A 선수 이동 작가 승인은 유지하며 재선택하지 않는다. 공개 근거가 확보되지 않은 거래 보너스·당일 리그 장부는 `EXECUTION_DETAILS_HOLD`다.
+- O-15F6 기존 조건부 용량은 최대 2빅 정책에서 Porter 0분 7경기·가변 상한 6경기가 실패한다. 최대 3빅을 허용하면 전 경기 성립하며, 2빅 정책은 NBA 규정이 아니다.
+- 같은 날짜 빅→가드·윙 47:05/41:08 순이전과 03-31 Young→Satoransky 선발 교체를 적용한 최소 변경 후보는 두 안 29/29 조합 검산을 통과한다. 정확 분·선발·가용성·전술 효율은 `NOT_CANON`으로 유지한다.
+- Hampton Dallas 31순위 정본으로 실제 Denver–Orlando Gordon 거래의 입력이 바뀐다. Hampton을 Denver 자산으로 재사용하거나 Nnaji를 자동 대체하지 않는다.
+- 다음은 O-15F6C 상대 거래 보드·가용성·수비 역할 연결이다. 생산성·outcome·lottery·여름 계약·원고는 잠그지 않는다.
+- 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md`.

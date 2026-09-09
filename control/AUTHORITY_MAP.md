@@ -157,10 +157,13 @@
 | Chicago 2021 Vučević 거래 팀보드 | `simulation/CHICAGO_2021_VUCEVIC_TRADE_BOARD.md` | B 저비용 센터 방향 AUTHOR_APPROVED / exact 거래 HOLD |
 | Chicago 2021 센터 시장 기준선 | `research/CHICAGO_2021_DEADLINE_CENTER_MARKET.md` | 당시 정보 PASS / 사후 결과 역선택 금지 |
 | Chicago 2021 Vučević 보드 총괄 검토 | `reviews/R01_CHICAGO_2021_VUCEVIC_TRADE_BOARD_REVIEW.md` | B 방향 승인 / exact 거래·O-15F5·R16 대체 아님 |
-| Chicago 2021 저비용 센터 팀보드 | `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`, `.csv` | A Theis·Green 3팀 5인 PRIMARY_LEAN / exact AUTHOR_GATE |
+| Chicago 2021 저비용 센터 팀보드 | `simulation/CHICAGO_2021_LOW_COST_CENTER_BOARD.md`, `.csv` | A Theis·Green 선수 이동 AUTHOR_APPROVED / 실행 세부 HOLD; CSV는 선택 당시 비교 이력 |
 | Chicago 2021 Theis·Green 급여 원장 | `simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv` | 3팀·5명·급여·roster count PASS |
 | Chicago 2021 저비용 센터 총괄 검토 | `reviews/R01_CHICAGO_2021_LOW_COST_CENTER_BOARD_REVIEW.md` | 선수 수 오기 정정 / A 추천 / R16 대체 아님 |
 
 | O-15F6 후반기 조건부 용량·선수 이동 승인 | `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY.md` | A 선수 이동 승인 / 실행 세부·가용성·lineup HOLD |
 | O-15F6 실제 박스·조건부 vector | `simulation/CHICAGO_2020_21_POSTDEADLINE_ACTUAL.csv`, `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY_VECTOR.csv` | 29경기 기준선 / 조건부 분 보존 |
 | O-15F6 총괄 검토 | `reviews/R01_CHICAGO_2020_21_POSTDEADLINE_CAPACITY_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |
+| O-15F6B 실행·가용성·상대 거래 파급 감사 | `simulation/CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md` | 감사 완료 / 실제 사건·outcome HOLD |
+| O-15F6B 조건부 5인 조합 증명 | `simulation/CHICAGO_2020_21_POSTDEADLINE_LINEUP_AUDIT.json` | 2빅 기존 실패·3빅 민감도·최소 변경 후보, NOT_CANON |
+| O-15F6B 총괄 검토 | `reviews/R01_CHICAGO_2020_21_POSTDEADLINE_EXECUTION_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |
