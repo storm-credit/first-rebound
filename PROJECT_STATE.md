@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-07
+- 기준일: 2026-09-09
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,10 +9,10 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F5-AUTHOR Chicago 2021 정확 저비용 센터 거래 A/B/C 선택`
-- 최근 설계 변경: `Theis·Green 대체안 6인→3팀 5인 정정; cap·roster PASS, A PRIMARY_LEAN / exact AUTHOR_GATE`
-- 최근 정본 병합: `PR #131 / 055a8526`
-- 최근 설계 병합: `PR #131 / 055a8526`
+- 현재 작업: `O-15F6B 거래 실행 세부·후반 가용성·5인 조합·Orlando 파급 감사`
+- 최근 설계 변경: `A 선수 이동 작가 승인; 후반 29경기 조건부 용량 PASS, Porter 고정 12분은 5경기 초과; 초기 시즌 prior 재개방`
+- 최근 정본 병합: `PR #133 / 24727e19`
+- 최근 설계 병합: `PR #133 / 24727e19`
 
 ## 완료
 
@@ -235,7 +235,10 @@
 - [x] O-15F4 Chicago 2021 Vučević 거래 — 실제 패키지·저비용 센터·무거래 당시 팀보드 `PASS_FOR_AUTHOR_SELECTION`
 - [x] O-15F4-AUTHOR B 저비용 센터 선택 — `AUTHOR_APPROVED_DIRECTION_LOCK`; A 폐기, C 실패 contingency
 - [x] O-15F5 Theis+Green 3팀 5인 구조 / 다른 저비용 빅 / 타깃 실패 보드 — `PASS_FOR_AUTHOR_SELECTION`
-- [ ] O-15F5-AUTHOR A Theis+Green 5인 / B 다른 저비용 빅 / C 타깃 실패 선택 — 총괄 추천 A
+- [x] O-15F5-AUTHOR A Theis+Green 3팀 5인 선수 이동 승인 — `AUTHOR_APPROVED_PLAYER_ROUTE / EXECUTION_DETAILS_HOLD`
+- [x] O-15F6 실제 후반 29경기·12-17·6,960:03·145선발, 조건부 용량 두 안 전 경기 보존
+- [x] Porter 고정 12분 stress 5경기 28:44 초과 공개, 기존 시즌 prior 재개방
+- [ ] O-15F6B 현금·보너스·리그 장부·Carter/Porter/LaMelo 가용성·5인 lineup·Orlando 파급 감사
 
 - [x] O-11A/O-14 Atlanta 장기 경로 — Chicago 원클럽 선택으로 활성 계산 중단, 대안 분기로 보존
 - [x] O-11B 라이벌 Chicago 후보 — 주인공 Chicago·동서부 분리 선택으로 해제
@@ -466,8 +469,12 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 175. Vučević 실제 패키지 폐기를 Vučević의 당시 All-Star 가치 부정이나 Orlando·Boston·Washington의 실역사 거래 자동 보존으로 확대하지 않는다.
 176. 5인 거래의 cap·roster count PASS를 사건 발생 PASS로 확대하지 않는다. Vučević 부재로 값싼 Gafford의 상대 가치가 커지고 Theis는 만료계약이라는 비용이 남는다.
 
+177. 29경기 all-active 용량 검산을 건강·내구성·실제 시즌 GP/GS/분 LOCK으로 승격하지 않는다.
+178. Porter 고정 12분의 다섯 경기 실패와 28:44 초과를 숨기거나 임의 부상으로 해결하지 않는다.
+179. Carter·Porter·픽을 받지 못한 Orlando의 로스터와 Vučević·Aminu 행선지를 실제대로 복사하지 않는다.
+
 ## 다음 게이트
 
-v0.30은 O-15F4 작가 선택 B로 `1라운드를 쓰지 않고 Carter를 지키는 저사용률 수비 빅 보강` 방향을 잠갔다. O-15F5는 기존 `6인` 표기를 **3팀 5인 거래**로 정정하고 A `Gafford+Kornet → Theis+Green`, B 다른 저비용 빅, C 타깃 실패를 비교했다. A는 세 팀 급여·roster count와 당시 동기를 가장 구체적으로 통과해 총괄 추천이지만, Vučević 없는 세계에서 Gafford를 만료계약 Theis로 바꾸는 비용 때문에 exact 사건은 `AUTHOR_GATE`다. 작가 선택 뒤 마감일 후 29경기를 계산한다. LaMelo 손목 사건, Riller 정확 계약, exact 개인 박스·승수·거래 발생은 계속 `HOLD`다. 세계관 설정집은 정본 문서에 누적 중이며 원고 게이트도 CLOSED다.
+A Theis·Green 3팀 5인 선수 이동은 2026-09-09 작가 승인으로 기록했다. 현금·보너스·당일 리그 장부는 별도 HOLD다. O-15F6은 후반 29경기 실제 기준선과 조건부 분·선발 용량을 계산했다. Porter 0분과 가변 상한 안은 전 경기 보존되지만 고정 12분은 5경기 합계 28:44 초과다. 전 경기 가용성이나 실제 5인 전술 조합이 증명된 것은 아니다. opening 시즌 목표는 전반 확정 역할에 맞춰 재개방했으며, 목표 숫자 때문에 결장·벤치 강등을 만들지 않는다. 다음 O-15F6B에서 거래 세부·가용성·5인 조합·Orlando 상대 roster를 감사한 뒤 생산성·outcome·2021 lottery·여름 계약으로 이어간다. 추가 작가 선택 질문은 없다. 설정집은 누적 중이며 v0.30 PARTIAL / 원고 CLOSED를 유지한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
