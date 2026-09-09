@@ -467,4 +467,13 @@
 | D-455 | POSTDEADLINE_CONTACT_QUEUE | 19상대29경기 입력 큐, Denver 직접0·Orlando1 확인 | 상대 무변경 자동 판정 금지, 리그 순위 파급은 추후 회수 |
 | D-456 | O15F7_NEXT | 상대 변화·가용성·생산성 입력으로 이동 | 조건부 입력 진행 가능, 정확 시즌/거래·원고 자동 확정 금지 |
 
+| D-457 | POSTDEADLINE_PAIRED_OBSERVATIONS | 공개 미러의 양 팀815행·29경기 관측과 기존CHI 원장 대조 | 공식 HTML 숫자 전수검증 주장 금지, 실제와 대체 분리 |
+| D-458 | OPPONENT_CONTACT_SCREEN | 7팀10경기 변경 접촉, 나머지12팀19경기 제한적 기준선 후보 | 상대 변경 분 미배정; 무영향 FINAL 아님 |
+| D-459 | CUTOFF_300_PLAYER_PRIORS | 3/24까지300명 관측 합계·per36·표본 상태 기록 | 무표본14명은 빈 rate, 미래 표본·0능력 대체 금지 |
+| D-460 | POSTDEADLINE_BOX_INPUT_174 | 분2조건×prior3범위×29경기 기대 박스 귀속 입력 | 기존 주인공/LaMelo prior 유지; 팀 득점/impact 직접 합산 금지 |
+| D-461 | LAMELO_THREE_FAILURES_RESPONSES | 두 정책×3날짜6시험, 실제 Arci 분 복원·DNP 벤치12분 후보로 해결 | 조건부29/29 가능, 실제 부상·전업PG 주인공 아님 |
+| D-462 | SAMPLE_AND_ROLE_COST_VISIBLE | Dotson/Mokoka/Felicio 소표본과 턴오버/파울 비용 공개 | 비상 분의 효율을 all-active BASE에 이미 반영했다고 주장 금지 |
+| D-463 | PREDEADLINE_OPPONENT_LIMIT_RECOVERY | 최종72경기 결합 전 전반19~21승 모델의 상대 고정 한계 회수 | 전반 결과를 완전한 양 팀 인과 정본으로 사용 금지 |
+| D-464 | O15F8_NEXT | 상대 변경 분·생산성과 양 팀 impact 입력 | 기존 드래프트/분 검산 반복 불요, 정확 시즌·거래·원고 HOLD |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -872,3 +872,11 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Gordon 정확 거래·전체 급여·선행 픽 이연 문구는 HOLD다. 비연속 연도 시험을 실제 계약 문구로 승격하지 않는다.
 - 후반 직접 일정은 19상대·29경기, Denver 직접 경기0·Orlando1. 미정 Orlando 분기와 다른 상대의 입력 수집을 구분해 O-15F7로 이동한다.
 - 설정집 진행은 7매크로 중1완료·1진행·5대기. 버전 숫자나 문서 수를 완료율로 쓰지 않는다. 설계/원고 CLOSED·manuscript_allowed false 유지.
+
+## v0.30 O-15F7 AUDIT ADDITIONS — 2026-09-09
+
+- 후반 실제 양 팀815행·관련300명 cutoff 관측·조건부174박스 귀속 입력을 감사 근거로 보존한다. 주인공/LaMelo의 기존 per36 prior를 유지하며 새 후반 성장 보너스를 부여하지 않는다. 정확 개인/팀 기록 LOCK이 아니다.
+- LaMelo 단독 공백 잔여3조건은 실제 분 복원·Coach's Decision DNP 벤치 후보로 대응 가능하다. 전업PG 주인공·실제 부상 일정·무부상 승격은 없다.
+- GSW·MIN·CHA·DET·TOR·ORL·BOS의10경기는 상대 변경 분을 계산해야 한다. 나머지19경기는 제한된 검토 범위의 기준선 후보다.
+- 무표본14명의 rate는 비워 두며0impact로 간주하지 않는다. 기대 박스 차이를 score-margin에 직접 더하지 않고 다음 양 팀 impact 입력으로 연결한다. 최종72경기 결합 전 전반 모델의 상대 고정 한계를 회수한다.
+- 다음 O-15F8. PROJECT_FREEZE v0.30 PARTIAL, 설계/원고 CLOSED·manuscript_allowed false 유지.
