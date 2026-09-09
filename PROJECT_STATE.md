@@ -9,13 +9,18 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F6D Gordon A 실행 조건·선행 픽 의무·Carter 공백의 선발/비상 분 대안`
-- 최근 설계 변경: `Gordon 4안 비교 및 Harris+Nnaji+보호 미래1R 협상 기준 추천; Chicago 단독 결장 87조건 검산 완료`
-- 선행 감사 병합: `PR #135 / 33378cbe9ed0cc48fa37d478c2ddaa1d8006adb9`
+- 현재 작업: `O-15F7 후반 29경기 상대 변경·가용성·생산성 입력`
+- 최근 설계 변경: `Carter 공백 4정책×29조건 검산과 조건부 29/29 대응; Gordon 실행 조건 명시; 19상대·29경기 입력 큐 작성`
+- 선행 감사 병합: `PR #136 / aabceef75b3be615856f07cdd4b1cbd73263b8c5`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
-- 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`
+- 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
+- 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·1진행·5대기, 완료율 환산 금지
 
 ## 완료
+
+- [x] O-15F6D Carter 단독 공백 4정책·116조건 검산, 조건부 29/29 대응과 전력 비용 명시
+- [x] Gordon 실행 조건·픽 전달 가정 달력 작성, 전체 cap/정확 픽 조항은 미확보 HOLD
+- [x] 후반 19상대·29경기 입력 큐 및 설정집 남은 6매크로 게이트 진행표 갱신
 
 - [x] 회귀·시스템·빙의 없는 현실 성장물
 - [x] 196cm 초보 → 203cm 투웨이 SF/PF
@@ -488,8 +493,14 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 184. Nnaji의 대체24번 슬롯을 실제22번 급여와 혼동하거나 24번 취득 대가의 미래 픽을 환급하지 않는다.
 185. 87개 독립 결장 스트레스를 실제 부상 확률·일정으로 읽지 않는다. 12/3 실패는 명시된 분 상한·선발 정책의 한계다.
 
+186. Carter 29/29 대응은 Theis/Young/Felicio 비상 상한을 포함한 조건부 분 증명이다. 실제 부상·안전 시간·전력 유지로 승격하지 않는다.
+187. Felicio의 Coach's Decision DNP는 조건부 후보 근거이며 대체 세계의 건강·등록을 자동 증명하지 않는다.
+188. 공개 원문 미확보 계약 조항은 HOLD를 유지한다. 다른 경기 입력 수집은 계속하되 정확 시즌/거래 확정 전에 회수한다.
+
 ## 다음 게이트
 
-Chicago Theis·Green A 승인은 유지한다. O-15F6C는 Denver의 Bey22·Nnaji24를 반영해 Gordon 4안을 비교했고 Harris·Nnaji·보호 미래1R을 보내는 A를 협상 기준으로 추천했다. 이는 별도 거래 사건 승인이나 cap FINAL이 아니다. Chicago 결장 스트레스 87조건은 Carter 17/29·LaMelo 26/29·Porter 29/29 조합 통과와 정책 실패 12/3/0을 확인했다. 다음 O-15F6D는 A 실행 조건·선행 픽 이연 의무와 Carter 공백의 선발/비상 분 대안이다. 정확 거래·부상 일정은 미확정이며 그 결과를 준비해 생산성·양 팀 impact·outcome으로 연결한다. 추가 작가 질문은 현재 없고 정본 v0.30 PARTIAL / 원고 CLOSED를 유지한다.
+O-15F6D의 Carter 단독 공백 검산은 종료했다. 선발 중첩 축소 20/29, Theis 비상30분 24/29, Young·Felicio 비상 정책 29/29 조합 증명을 보존한다. 실제 결장 일정과 전력 손실은 미확정이다. Gordon A는 협상 추천이며 정확 급여·픽 계약 원문 미확보 HOLD를 `ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md`에 좁혀 적었다.
+
+다음 **O-15F7은 후반 19상대·29경기의 변경 선수·가용성·분 donor·생산성 입력**이다. LaMelo 단독 결장의 남은 세 조건도 해당 입력에서 처리한다. Orlando 04-14는 거래 분기를 표시하고 다른 경기 입력 작업을 진행한다. 29경기 outcome, 전후반 결합·순위·2021 시장 연결 전에는 시즌을 확정하지 않는다. 추가 작가 질문은 현재 없고 기존 Chicago A 승인·v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.

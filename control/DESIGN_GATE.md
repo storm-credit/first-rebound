@@ -4,7 +4,7 @@
 status: CLOSED
 manuscript_allowed: false
 authority: this_file
-last_reviewed: 2026-09-07
+last_reviewed: 2026-09-09
 ```
 
 ## 절대 규칙
@@ -50,3 +50,7 @@ last_reviewed: 2026-09-07
 ## O-15F6 최신 판정 — 2026-09-09
 
 G09의 O-15F5 A는 `AUTHOR_APPROVED_PLAYER_ROUTE`로 갱신됐다. 후반 29경기 실제 기준선과 조건부 분·선발 용량은 통과했지만 거래 세부·가용성·5인 조합·상대 roster·생산성·승패는 HOLD다. G09 전체 PASS 및 원고 개방으로 확대하지 않는다. 다음 O-15F6B.
+
+## O-15F6D 최신 판정 — 2026-09-09
+
+G09는 `POSTDEADLINE_CONDITIONAL_CAPACITY_AND_CARTER_RESPONSE_PASS / O15F7_INPUTS_NEXT`다. 위 O-15F6의 다음 O-15F6B 포인터는 과거 기록이다. 116개 Carter 대응 시험에서 비상 정책을 포함한 29/29 분 증명을 얻었으나 실제 부상·거래 세부·상대 변화·생산성·승패는 미확정이다. 세계관 완성까지 진행 중인 시즌 원장을 포함해 큰 작업 6개가 남는다. G11·G15·G16 최종 검수·G17을 완료로 바꾸지 않는다.

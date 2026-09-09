@@ -459,4 +459,12 @@
 | D-448 | ABSENCE_ROLE_RESPONSE_DRAFT | 센터 커버·볼 운반·윙 대응을 성장 단계에 맞춰 분리 | 주인공 PG/센터 즉시 완성 금지 |
 | D-449 | O15F6D_NEXT | A 실행 조건·선행 픽 의무·Carter 비상 선발/분 대안 구체화 | 현재 추가 작가 질문 없음, 정확 사건·outcome·원고 HOLD |
 
+| D-450 | WORKFLOW_REMAINING_VISIBLE | 설정집 7묶음 중1완료·1진행·5대기, 남은6개를 진행표로 공개 | 문서 수·버전·1/7을 작업 완료율로 오인 금지 |
+| D-451 | CARTER_RESPONSE_POLICIES_AUDITED | 새4정책×29날짜116시험; 조합20/24/24/29 통과 | 실제 부상 일정·코치 선택·의학적 안전 시간 아님 |
+| D-452 | FELICIO_DNP_CONDITIONAL_CANDIDATE | 실제 출전/Coach's Decision DNP 행에 한해 비상18분 후보 허용 | 행 부재·부상 DNP로 가용성 발명 금지, 생산성 대가 별도 |
+| D-453 | CARTER_MINUTE_STRESS_SCOPE_CLOSED | 원정책부터 필요한 최소 단계만 적용하는 대응 권고 | 새 근거 없이 반복 검산 금지, LaMelo3조건은 별도 |
+| D-454 | GORDON_EXECUTION_CONDITIONS_SPECIFIED | 급여·선행 의무·전달/종료 문구별 해소 조건 작성 | 원문 미확보 HOLD, 보수적 연도 간격 시험을 실제 계약으로 오인 금지 |
+| D-455 | POSTDEADLINE_CONTACT_QUEUE | 19상대29경기 입력 큐, Denver 직접0·Orlando1 확인 | 상대 무변경 자동 판정 금지, 리그 순위 파급은 추후 회수 |
+| D-456 | O15F7_NEXT | 상대 변화·가용성·생산성 입력으로 이동 | 조건부 입력 진행 가능, 정확 시즌/거래·원고 자동 확정 금지 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
