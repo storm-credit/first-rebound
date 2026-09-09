@@ -493,3 +493,13 @@
 - C: 타깃 실패·무거래 `FAILURE_CONTINGENCY`
 - 보존: Carter·Porter·두 1라운드, Brown·Trent Washington 잔류
 - 다음 조사: 작가 선택. 정확 거래 뒤 마감일 후 29경기 player-game·생산성·outcome
+
+### R15.36 O-15F5-AUTHOR / O-15F6 후반기 용량 감사
+
+- A 선수 이동: `AUTHOR_APPROVED_PLAYER_ROUTE / EXECUTION_DETAILS_HOLD`
+- 실제 데이터: `simulation/CHICAGO_2020_21_POSTDEADLINE_ACTUAL.csv`; NBA V3 미러 part 1, 기존 전반 625,202초 교차 재현
+- 설계·원장: `simulation/CHICAGO_2020_21_POSTDEADLINE_CAPACITY.md`, `_GAMES.csv`, `_VECTOR.csv`, `_BUDGET.csv`
+- 실제 기준선: 29경기·12-17·417,603초·145선발
+- 조건부 용량: Porter 0분/가변 상한은 전 경기 보존, 고정 12분은 5경기 1,724초 초과
+- 총괄 자체 검토: `reviews/R01_CHICAGO_2020_21_POSTDEADLINE_CAPACITY_REVIEW.md`; 독립 검수 대체 아님
+- 다음: O-15F6B 거래 세부·가용성·5인 lineup·Orlando 상대 roster 감사
