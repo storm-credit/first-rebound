@@ -167,3 +167,6 @@
 | O-15F6B 실행·가용성·상대 거래 파급 감사 | `simulation/CHICAGO_2020_21_POSTDEADLINE_EXECUTION_AUDIT.md` | 감사 완료 / 실제 사건·outcome HOLD |
 | O-15F6B 조건부 5인 조합 증명 | `simulation/CHICAGO_2020_21_POSTDEADLINE_LINEUP_AUDIT.json` | 2빅 기존 실패·3빅 민감도·최소 변경 후보, NOT_CANON |
 | O-15F6B 총괄 검토 | `reviews/R01_CHICAGO_2020_21_POSTDEADLINE_EXECUTION_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |
+| O-15F6C Denver–Orlando Gordon 4안 | `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md` | A 협상 기준 추천 / 정확 사건·급여·픽 실행 HOLD |
+| O-15F6C Chicago 가용성·역할 대응 | `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`, `simulation/CHICAGO_2020_21_AVAILABILITY_STRESS.json` | 87개 독립 스트레스 / 실제 부상·outcome 아님 |
+| O-15F6C 총괄 검토 | `reviews/R01_O15F6C_GORDON_AVAILABILITY_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |
