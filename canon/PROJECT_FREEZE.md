@@ -889,3 +889,11 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Gordon A·Powell 잔류·Fournier·Hall 계약 등은 개별 조건이며 승인된 시즌 경로가 아니다. 전반 상대 고정 한계와 Porter 관측 범위 차이는 최종 연결 전에 회수한다.
 - O-15F8 입력 범위 종료. 다음 O-15F9는 독립 영향 계열 교차검증과 시즌 연결 조건이다. v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지.
 - 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md`.
+
+## v0.30 O-15F9 AUDIT ADDITIONS — 2026-09-09
+
+- RAPTOR·BPM 두 계열의 후반2106조건을 조건부 감사 근거로 보존한다. 두 수축 지표의 후반12승 방향과 원BPM의 Minnesota 극하방 꼬리는 실제 승수·라이벌 능력 승인이 아니다.
+- 새 BPM 보관본은3/25까지 관측 범위로 검증했다. 원래3/24 cutoff prior와 구분하며 마감일 당시 협상 정보로 사용하지 않는다. 무표본 선수의 리그 범위 stress도 개인 prior가 아니다.
+- 전반 Porter rating을 후반과 같은 전 팀 RAPTOR로 정렬했다. 전반 양 팀1144행에서10팀18경기의 상대 변화가 남음을 특정했다. 과거19~21승과 새 상대 고정 진단을 평균해 exact 기록으로 선택하지 않는다.
+- O-15F9 비교 범위 종료. 다음 O-15F10 전반 상대18경기 조건부 입력과72경기 연결이다. 같은 후반 분·민감도 감사를 새 입력 없이 반복하지 않는다.
+- v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지. 상세 권위: `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`.

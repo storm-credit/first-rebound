@@ -184,3 +184,8 @@
 | 후반 상대 분·양 팀 영향 입력 | `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md` 및 `POSTDEADLINE_PAIRED_IMPACT.json` 동명 접두 원장 | 39조건·20조합·234영향 입력, 한 계열 회고적 민감도, outcome HOLD |
 | 후반 RAPTOR 정규시즌·Kira 보충 관측 | `simulation/CHICAGO_2020_21_POSTDEADLINE_RAPTOR_RS.csv`, `simulation/CHICAGO_2020_21_POSTDEADLINE_SUPPLEMENT_OBSERVATIONS.csv` | 2021 RS626선수팀행·Kira cutoff28출전 |
 | O-15F8 총괄 검토 | `reviews/R01_O15F8_PAIRED_IMPACT_REVIEW.md` | NOT_INDEPENDENT |
+
+| 영향 계열 교차검증·시즌 연결 조건 | `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`, 동명JSON | 두 계열·후반2106/전반1161조건, 시즌 미연결 |
+| BPM3/25 관측·자료 계보 | `simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv`, `simulation/CHICAGO_2020_21_O15F9_PROVENANCE.json` | 보관본505명 GP/분 대조, 마감일 전 정보 아님 |
+| 전반 양 팀 관측·상대 접촉 큐 | `simulation/CHICAGO_2020_21_PREDEADLINE_PAIRED_OBSERVATIONS.csv`, `simulation/CHICAGO_2020_21_PREDEADLINE_OPPONENT_SCREEN.csv` |1144행·43경기 중18경기 상대 분 미배정|
+| O-15F9 총괄 검토 | `reviews/R01_O15F9_IMPACT_CROSSCHECK_REVIEW.md` | NOT_INDEPENDENT |

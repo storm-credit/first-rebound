@@ -1,0 +1,22 @@
+{
+  "stage": "O-15F9",
+  "bpm_origin": "https://www.basketball-reference.com/leagues/NBA_2021_advanced.html",
+  "bpm_direct_access": "403; archived data used, not fresh primary-site verification",
+  "archive_url": "https://github.com/sdl60660/nba_player_movement/blob/78b30434bacbee4ffb2361b817969a5530c08dd3/data_processing/data/players.csv",
+  "archive_sha256": "382fb2b433a2ba2e4cba480f0275052d1c3ba13634150c00e79b8b156d4368f3",
+  "nba_source_urls": [
+    "https://github.com/NocturneBear/NBA-Data-2010-2024/blob/a5f108b5b1f08074d78b9e8e901926a9ce4c06c5/regular_season_box_scores_2010_2024_part_1.csv",
+    "https://github.com/NocturneBear/NBA-Data-2010-2024/blob/a5f108b5b1f08074d78b9e8e901926a9ce4c06c5/regular_season_box_scores_2010_2024_part_2.csv",
+    "https://github.com/NocturneBear/NBA-Data-2010-2024/blob/a5f108b5b1f08074d78b9e8e901926a9ce4c06c5/regular_season_box_scores_2010_2024_part_3.csv"
+  ],
+  "nba_filtered_source_sha256": [
+    "a00a273f82d8e56508091ace005103c2f3fd12766a4dfef500801c8f92c86f9e",
+    "84fb1de1cfa14c6066cbfd288af8f69333dce008857169fe25f98bbcd7ea3dd0",
+    "d34a5d956337db73b5895949002970aa53718bf114915c0e0fb0016f3ccbe132"
+  ],
+  "bpm_snapshot_sha256": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+  "pre_observations_sha256": "b5558fb491c70d9cc1c26089023d1f3a7f70c63a7c80fc31f87e31c4eced980e",
+  "date_inference": "All 505 player GP and cumulative minutes match NBA observations through 2021-03-25 within one integer minute; BPM itself is archived, not recomputed",
+  "zero_clock_note": "Tacko Fall 2021-02-23: minutes=0:00 with nonempty clock; included as appearance, never an added minute",
+  "prior_cutoff_2021_03_24": "unchanged; this snapshot is one day later and cannot be called predeadline information"
+}
