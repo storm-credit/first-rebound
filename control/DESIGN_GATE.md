@@ -54,3 +54,7 @@ G09의 O-15F5 A는 `AUTHOR_APPROVED_PLAYER_ROUTE`로 갱신됐다. 후반 29경�
 ## O-15F6D 최신 판정 — 2026-09-09
 
 G09는 `POSTDEADLINE_CONDITIONAL_CAPACITY_AND_CARTER_RESPONSE_PASS / O15F7_INPUTS_NEXT`다. 위 O-15F6의 다음 O-15F6B 포인터는 과거 기록이다. 116개 Carter 대응 시험에서 비상 정책을 포함한 29/29 분 증명을 얻었으나 실제 부상·거래 세부·상대 변화·생산성·승패는 미확정이다. 세계관 완성까지 진행 중인 시즌 원장을 포함해 큰 작업 6개가 남는다. G11·G15·G16 최종 검수·G17을 완료로 바꾸지 않는다.
+
+## O-15F7 최신 판정 — 2026-09-09
+
+G09는 `POSTDEADLINE_OBSERVATION_AND_CHICAGO_BOX_INPUT_PASS / O15F8_IMPACT_INPUTS_NEXT`다. 실제 양 팀815행·cutoff300명·조건부174박스 입력과 LaMelo 잔여3조건 대응이 통과했다. 상대7팀10경기 변경 분은 미배정이며 나머지19경기도 리그 전체 무영향 FINAL이 아니다. 정확 부상·거래 조항·양 팀 impact·승패 및 최종72경기 정본은 HOLD다. 위 과거 포인터를 최신 완료 상태로 오인하지 않는다.

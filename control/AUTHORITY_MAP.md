@@ -176,3 +176,7 @@
 | Gordon A 실행 조건 | `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` | 정확 급여·픽 원문 HOLD, 거래 승인 아님 |
 | 후반 상대 입력 작업 큐 | `simulation/CHICAGO_2020_21_POSTDEADLINE_OPPONENT_QUEUE.csv` | 19상대29경기, 상대 원장 PASS 아님 |
 | O-15F6D 총괄 검토 | `reviews/R01_O15F6D_EXECUTION_RESPONSE_REVIEW.md` | NOT_INDEPENDENT |
+
+| 후반 양 팀 관측·cutoff prior·박스 입력 | `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md` 및 `BOTH_TEAMS_ACTUAL`, `OBSERVED_PRIORS`, `BOX_INPUTS`, `INPUT_PROVENANCE` 동명 접두 원장 | 815행·300명·174조건, score-margin 아님 |
+| LaMelo 잔여3조건 대응 | `simulation/CHICAGO_2020_21_LAMELO_RESPONSES.json` | 두 정책6시험, 실제 가용성/부상 HOLD |
+| O-15F7 총괄 검토 | `reviews/R01_O15F7_POSTDEADLINE_INPUT_REVIEW.md` | NOT_INDEPENDENT |

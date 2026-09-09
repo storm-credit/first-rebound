@@ -9,14 +9,19 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F7 후반 29경기 상대 변경·가용성·생산성 입력`
-- 최근 설계 변경: `Carter 공백 4정책×29조건 검산과 조건부 29/29 대응; Gordon 실행 조건 명시; 19상대·29경기 입력 큐 작성`
-- 선행 감사 병합: `PR #136 / aabceef75b3be615856f07cdd4b1cbd73263b8c5`
+- 현재 작업: `O-15F8 상대 변경 분·생산성과 양 팀 impact 입력`
+- 최근 설계 변경: `후반 양 팀815행·cutoff300명·조건부174박스 입력 통과; 7팀10경기 접촉 특정; LaMelo 잔여3조건 대응 완료`
+- 선행 감사 병합: `PR #137 / 0665795e4c2a91c6b3301874f4254b7b7c99c1a4`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
+- 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
 - 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·1진행·5대기, 완료율 환산 금지
 
 ## 완료
+
+- [x] O-15F7 후반 양 팀 실제815행·cutoff300명 관측 prior·조건부174박스 귀속 입력 검산
+- [x] 후반 상대7팀10경기 변경 접촉 특정; 나머지12팀19경기는 검토 범위 내 기준선 후보
+- [x] LaMelo 잔여3조건에 실제 분 복원·Coach's Decision DNP 벤치 후보 대응, 조건부29/29 분 증명
 
 - [x] O-15F6D Carter 단독 공백 4정책·116조건 검산, 조건부 29/29 대응과 전력 비용 명시
 - [x] Gordon 실행 조건·픽 전달 가정 달력 작성, 전체 cap/정확 픽 조항은 미확보 HOLD
@@ -497,10 +502,16 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 187. Felicio의 Coach's Decision DNP는 조건부 후보 근거이며 대체 세계의 건강·등록을 자동 증명하지 않는다.
 188. 공개 원문 미확보 계약 조항은 HOLD를 유지한다. 다른 경기 입력 수집은 계속하되 정확 시즌/거래 확정 전에 회수한다.
 
+189. 174개 박스 귀속 입력의 득점·리바운드·패스 차이를 팀 점수차·승수에 더하지 않는다. 같은 cutoff rate의 분 이전 감사다.
+190. 새 직접 변경 미특정12팀19경기를 리그 전체 무영향 FINAL로 잠그지 않는다. 상대7팀10경기 분은 아직 미배정이다.
+191. cutoff 무표본14명은 빈 rate를 유지하며0능력·0impact로 대체하지 않는다. Dotson/Mokoka/Felicio의 적은 분 표본도 안정된 실력으로 승격하지 않는다.
+192. LaMelo 공백29조건의 분 성립은 실제 결장·건강·전업PG 성장 승인과 다르다.
+193. 72경기 최종 결합 전 전반19~21승 모델의 상대 고정 한계도 회수한다. 전반을 완전한 양 팀 인과 정본으로 승격하지 않는다.
+
 ## 다음 게이트
 
-O-15F6D의 Carter 단독 공백 검산은 종료했다. 선발 중첩 축소 20/29, Theis 비상30분 24/29, Young·Felicio 비상 정책 29/29 조합 증명을 보존한다. 실제 결장 일정과 전력 손실은 미확정이다. Gordon A는 협상 추천이며 정확 급여·픽 계약 원문 미확보 HOLD를 `ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md`에 좁혀 적었다.
+O-15F7은 후반 양 팀 실제815행·cutoff300명 관측 prior·조건부174박스 입력을 검산했다. LaMelo의 잔여 세 분 실패는 실제 출전분 복원과 Coach's Decision DNP 후보 정책으로 해결했으며 기존26조건과 합쳐 단독 공백29조건의 분 증명이 갖춰졌다. 실제 결장 일정·효율 손실을 정본화하지 않았다.
 
-다음 **O-15F7은 후반 19상대·29경기의 변경 선수·가용성·분 donor·생산성 입력**이다. LaMelo 단독 결장의 남은 세 조건도 해당 입력에서 처리한다. Orlando 04-14는 거래 분기를 표시하고 다른 경기 입력 작업을 진행한다. 29경기 outcome, 전후반 결합·순위·2021 시장 연결 전에는 시즌을 확정하지 않는다. 추가 작가 질문은 현재 없고 기존 Chicago A 승인·v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+다음 **O-15F8은 상대 변경 분·생산성과 양 팀 impact 입력**이다. GSW·MIN·CHA·DET·TOR·ORL·BOS의10경기는 변경 가지별 분을 배정한다. 나머지19경기의 기준선 적용 범위와 실제 사용할 무표본 선수의 과거 관측도 확인한다. Chicago 기대 박스 차이는 score-margin 보정이 아니며 이후 양 팀 impact에서 이중 합산하지 않는다. 최종 시즌 연결 전 전반의 상대 고정 한계도 회수한다. 정확 Gordon/Orlando 거래·실제 가용성·승패는 HOLD, 추가 작가 질문은 현재 없음, v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
