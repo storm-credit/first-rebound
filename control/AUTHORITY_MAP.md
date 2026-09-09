@@ -189,5 +189,8 @@
 | BPM3/25 관측·자료 계보 | `simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv`, `simulation/CHICAGO_2020_21_O15F9_PROVENANCE.json` | 보관본505명 GP/분 대조, 마감일 전 정보 아님 |
 | 전반 양 팀 관측·상대 접촉 큐 | `simulation/CHICAGO_2020_21_PREDEADLINE_PAIRED_OBSERVATIONS.csv`, `simulation/CHICAGO_2020_21_PREDEADLINE_OPPONENT_SCREEN.csv` |1144행·43경기 중18경기 상대 분 미배정|
 | O-15F9 총괄 검토 | `reviews/R01_O15F9_IMPACT_CROSSCHECK_REVIEW.md` | NOT_INDEPENDENT |
-| O-15F10 시즌 연결 진단 | `simulation/CHICAGO_2020_21_SEASON_CONNECTION.md`, `.json` | 43+29 연결·18 조건부 경로·25 기준선 후보; 시즌 HOLD |
-| O-15F10 총괄 검토 | `reviews/R01_O15F10_SEASON_CONNECTION_REVIEW.md` | NOT_INDEPENDENT |
+| O-15F10 시즌 연결 진단 | `simulation/CHICAGO_2020_21_SEASON_CONNECTION.md`, `.json` | O-15F11 산술 정정본; 43+29 실제상대 기준선·18접촉; 시즌 HOLD |
+| O-15F10 총괄 검토 | `reviews/R01_O15F10_SEASON_CONNECTION_REVIEW.md` | 수치 판정 SUPERSEDED_BY_O15F11 / NOT_INDEPENDENT |
+
+| O-15F11 접전 상대 경로 | `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md`, `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.json` | 3경기11안·198조건·5인 조합; 작업안 추천·시즌 HOLD |
+| O-15F11 총괄 검토 | `reviews/R01_O15F11_CLOSE_GAME_REVIEW.md` | NOT_INDEPENDENT |

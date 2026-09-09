@@ -500,4 +500,12 @@
 | D-484 | O15F10_SCOPE_CLOSED | 43+29 연결 진단·18개 교체 벡터·25개 제한 기준선 후보 범위를 종료 | 정확 시즌 승패·순위·픽·여름 계약은 미완료 |
 | D-485 | O15F11_NEXT | Portland·Golden State 전반 접전부터 상대 분 조합과 양 팀 점수차 선택 | 거래·가용성·라이벌 계수 충돌 시 HOLD 유지 |
 
+| D-486 | O15F10_NUMERIC_AUDIT_SUPERSEDED | D-480·D-484 수치 정확성 판정을 정정: 상대 상수 혼입·prior 계열 덮어쓰기·전반 피로·표 불일치 | 당시 PASS를 근거로 시즌31–41을 사용하지 않음 |
+| D-487 | OBSERVED_BASELINE_REPAIRED | 지표별 O-15F9 전반43입력과 후반29실제상대 기준선 연결; 메뉴 독립 회귀검사 | 현행 31~36 진단도 최종 시즌 범위 아님 |
+| D-488 | PRE_CONTACT_CLASSIFICATION_FIXED | 18접촉은10벡터·8미배정; GSW/LAL의 제거 선수 없음도 접촉 보존 | D-481·D-484의18벡터 표현 정정; 무영향 선언 아님 |
+| D-489 | CLOSE_GAME_ALLOCATION_PASS | POR4정책×2일·GSW3안, 11개 분 배정·198영향 조건·5인 조합 검산 | 중복 벡터를 독립 증거로 계산 금지 |
+| D-490 | WORKING_POLICY_RECOMMENDED | POR 기존 선수 분담·GSW Hutchison 비활성을 조건부 작업 추천 | Evans 등록·Hutchison 행선지·부상·계약 실제 선택 아님 |
+| D-491 | CLOSE_GAME_DISAGREEMENT_PRESERVED | BASE에서1/5 POR 양수, GSW·1/30 POR 두 계열 부호 불일치 | 평균·피로0·미지rating0으로 승패 선잠금 금지 |
+| D-492 | O15F12_NEXT | 전반 나머지15접촉과 Minnesota 라이벌 계수·시즌 조건 연결 | 완료된3경기 분 검산은 새 입력 있을 때만 반복 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
