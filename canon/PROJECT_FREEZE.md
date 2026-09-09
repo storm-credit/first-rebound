@@ -865,3 +865,10 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 주인공은 LaMelo 공백 때문에 즉시 전업 PG가 되거나 Carter 공백 때문에 완성형 센터가 되지 않는다. 역할 대응과 성장 단계의 비용을 함께 검토한다.
 - 다음 O-15F6D: 거래 실행 조건·선행 픽 의무·Carter 비상 선발/분 대안. 원고는 `CLOSED`다.
 - 상세 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`, `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`.
+
+## v0.30 O-15F6D AUDIT ADDITIONS — 2026-09-09
+
+- Carter 단독 공백 116정책조건 감사 완료. 선발 중첩 축소·Theis 비상30분·Young/Felicio 비상 대응을 단계별 조건부 증명으로 보존한다. 마지막 정책 29/29 통과는 실제 가용성·전력·승수 LOCK이 아니다.
+- Gordon 정확 거래·전체 급여·선행 픽 이연 문구는 HOLD다. 비연속 연도 시험을 실제 계약 문구로 승격하지 않는다.
+- 후반 직접 일정은 19상대·29경기, Denver 직접 경기0·Orlando1. 미정 Orlando 분기와 다른 상대의 입력 수집을 구분해 O-15F7로 이동한다.
+- 설정집 진행은 7매크로 중1완료·1진행·5대기. 버전 숫자나 문서 수를 완료율로 쓰지 않는다. 설계/원고 CLOSED·manuscript_allowed false 유지.

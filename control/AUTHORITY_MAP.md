@@ -170,3 +170,9 @@
 | O-15F6C Denver–Orlando Gordon 4안 | `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md` | A 협상 기준 추천 / 정확 사건·급여·픽 실행 HOLD |
 | O-15F6C Chicago 가용성·역할 대응 | `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`, `simulation/CHICAGO_2020_21_AVAILABILITY_STRESS.json` | 87개 독립 스트레스 / 실제 부상·outcome 아님 |
 | O-15F6C 총괄 검토 | `reviews/R01_O15F6C_GORDON_AVAILABILITY_REVIEW.md` | 자체 검토 / NOT_INDEPENDENT |
+
+| 설정집 남은 매크로 작업·진행 보고 | `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` | 1완료·1진행·5대기; 전체 완료율 아님 |
+| Carter 공백 후속 정책 검산 | `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md` 및 `CHICAGO_2020_21_CARTER_RESPONSES.json` | 116조건·비상 정책 포함29/29, 실제 가용성/생산성 HOLD |
+| Gordon A 실행 조건 | `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` | 정확 급여·픽 원문 HOLD, 거래 승인 아님 |
+| 후반 상대 입력 작업 큐 | `simulation/CHICAGO_2020_21_POSTDEADLINE_OPPONENT_QUEUE.csv` | 19상대29경기, 상대 원장 PASS 아님 |
+| O-15F6D 총괄 검토 | `reviews/R01_O15F6D_EXECUTION_RESPONSE_REVIEW.md` | NOT_INDEPENDENT |
