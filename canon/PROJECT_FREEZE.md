@@ -897,3 +897,11 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 전반 Porter rating을 후반과 같은 전 팀 RAPTOR로 정렬했다. 전반 양 팀1144행에서10팀18경기의 상대 변화가 남음을 특정했다. 과거19~21승과 새 상대 고정 진단을 평균해 exact 기록으로 선택하지 않는다.
 - O-15F9 비교 범위 종료. 다음 O-15F10 전반 상대18경기 조건부 입력과72경기 연결이다. 같은 후반 분·민감도 감사를 새 입력 없이 반복하지 않는다.
 - v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지. 상세 권위: `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`.
+
+
+## v0.30 O-15F10 AUDIT ADDITIONS — 2026-09-09
+
+- 전반43경기와 후반29경기를 연결한 기준선 진단을 보존한다. 10팀18경기는 선수 초 1:1 교체 벡터로 만들고, 나머지25경기는 제한적 기준선 후보로 남긴다.
+- Minnesota·Denver 연장전의 실제 팀 총초를 보존한다. 48분 절삭이나 0분 선수의 가용성 발명은 없다.
+- RAPTOR RS EB와 BPM 3/25 EB의 72경기 산술값은 조건부 진단이며 정본 시즌 승수·순위가 아니다. 전반·후반 경로는 `selected=false`다.
+- 다음 O-15F11은 Portland·Golden State 전반 접전부터 상대 분 조합을 선택한다. 프로젝트는 v0.30 PARTIAL, 설계/원고 CLOSED·manuscript_allowed false를 유지한다.

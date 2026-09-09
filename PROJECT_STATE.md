@@ -9,14 +9,15 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F10 전반 상대18경기 조건부 입력과72경기 연결`
-- 최근 설계 변경: `두 영향 계열·후반2106조건 검산; 수축 지표 후반12승 방향 유지, 원BPM Minnesota 꼬리 분리; 전반18경기 상대 접촉 특정`
-- 선행 감사 병합: `PR #139 / 0e447045df5648307269dc2173ed74767711d28d`
+- 현재 작업: `O-15F11 Portland·Golden State 전반 접전 상대 경로 선택`
+- 최근 설계 변경: `O-15F10 전반18경기 교체 벡터·43+29 72경기 연결 진단; 연장 실제 총초 보존; 선택 경로·정본 승수 HOLD`
+- 선행 감사 병합: `PR #140 / cf790094b732f443f86b4d0852735b9f8a0eb5d7`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
 - 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
 - 후반 상대 분·양 팀 영향 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md`
 - 영향 교차검증·전반 연결 권위: `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`
+- 시즌 연결 진단 권위: `simulation/CHICAGO_2020_21_SEASON_CONNECTION.md`; 총괄 검토 `reviews/R01_O15F10_SEASON_CONNECTION_REVIEW.md`
 - 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·1진행·5대기, 완료율 환산 금지
 
 ## 완료
@@ -24,6 +25,8 @@
 - [x] O-15F9 BPM505명 snapshot 날짜를3/25로 검증;0:00 출전·별칭·누적 GP/분 대조
 - [x] 후반702입력×3피로·전반387입력×3피로 비교, 두 영향 계열 및 Porter 전 팀 범위 정렬
 - [x] 전반 양 팀1144행·43경기 관측;10팀18경기 상대 변화·접전 임계점 특정, 정확 시즌 미선택
+- [x] O-15F10 전반18경기 교체 벡터와43+29 72경기 연결 진단; Minnesota·Denver 연장 실제 총초 보존
+- [x] 18개 조건부 경로의 선수 계수를 일관되게 유지하고 25경기는 제한적 기준선 후보로 분리
 
 - [x] O-15F8 상대39조건·변경 경로20개 5인 조합·234개 양 팀 영향 입력 검산
 - [x] Kira cutoff28출전 보충; 실제 필요한53명 RAPTOR의2021 RS 전 팀 범위·1000분 수축 재현
@@ -530,6 +533,6 @@ v0.27에서 Atlanta 고유 위험 15~17·27~70·80·84~87은 감사 이력으로
 
 O-15F9는 BPM505명·전반1144관측 행·후반2106조건·전반1161진단 조건을 검산했다. RAPTOR와 수축BPM은 조건부 후반12승17패 방향을 유지하고, 원BPM의 매우 낮은 라이벌 rating에서만13승 꼬리가 남는다. 전반 Porter RAPTOR 범위는 후반과 정렬했으며 승수 방향은 바뀌지 않았다. 후반 민감도 검토는 새 입력이 없으면 반복하지 않는다.
 
-다음 **O-15F10은 전반 상대18경기 조건부 입력과72경기 연결**이다. Portland·GSW 접전부터 상대 분을 계산해 기존 전반의 상대 고정 한계를 회수한다. 나머지25전반 경기는 검토 범위 내 기준선 후보이며 무영향 정본이 아니다. 실제 가용성·일관된 거래 경로·실행 원문 HOLD는 최종 시즌 확정 조건으로 보존한다. 2021 순위·픽·여름 계약을 산술 합계로 선잠금하지 않는다. 추가 작가 질문은 현재 없음, v0.30 PARTIAL·설계/원고 CLOSED 유지.
+다음 **O-15F11은 Portland·Golden State 전반 접전부터 상대 분 조합을 선택**한다. O-15F10의 43+29 연결은 기준선 진단으로만 보존했고, 10팀18경기 교체 벡터는 `selected=false`다. 실제 가용성·거래 조건·라이벌 계수 충돌을 확인한 뒤에만 단일 시즌 경로를 고른다. 25개 제한 기준선과 기존19~21승 역사 범위는 평균내지 않는다. 추가 작가 질문은 현재 없음, v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 원고 게이트는 계속 CLOSED이며 manuscripts 경로를 만들지 않는다.
