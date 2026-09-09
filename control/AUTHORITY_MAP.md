@@ -180,3 +180,7 @@
 | 후반 양 팀 관측·cutoff prior·박스 입력 | `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md` 및 `BOTH_TEAMS_ACTUAL`, `OBSERVED_PRIORS`, `BOX_INPUTS`, `INPUT_PROVENANCE` 동명 접두 원장 | 815행·300명·174조건, score-margin 아님 |
 | LaMelo 잔여3조건 대응 | `simulation/CHICAGO_2020_21_LAMELO_RESPONSES.json` | 두 정책6시험, 실제 가용성/부상 HOLD |
 | O-15F7 총괄 검토 | `reviews/R01_O15F7_POSTDEADLINE_INPUT_REVIEW.md` | NOT_INDEPENDENT |
+
+| 후반 상대 분·양 팀 영향 입력 | `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md` 및 `POSTDEADLINE_PAIRED_IMPACT.json` 동명 접두 원장 | 39조건·20조합·234영향 입력, 한 계열 회고적 민감도, outcome HOLD |
+| 후반 RAPTOR 정규시즌·Kira 보충 관측 | `simulation/CHICAGO_2020_21_POSTDEADLINE_RAPTOR_RS.csv`, `simulation/CHICAGO_2020_21_POSTDEADLINE_SUPPLEMENT_OBSERVATIONS.csv` | 2021 RS626선수팀행·Kira cutoff28출전 |
+| O-15F8 총괄 검토 | `reviews/R01_O15F8_PAIRED_IMPACT_REVIEW.md` | NOT_INDEPENDENT |

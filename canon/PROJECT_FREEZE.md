@@ -880,3 +880,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - GSW·MIN·CHA·DET·TOR·ORL·BOS의10경기는 상대 변경 분을 계산해야 한다. 나머지19경기는 제한된 검토 범위의 기준선 후보다.
 - 무표본14명의 rate는 비워 두며0impact로 간주하지 않는다. 기대 박스 차이를 score-margin에 직접 더하지 않고 다음 양 팀 impact 입력으로 연결한다. 최종72경기 결합 전 전반 모델의 상대 고정 한계를 회수한다.
 - 다음 O-15F8. PROJECT_FREEZE v0.30 PARTIAL, 설계/원고 CLOSED·manuscript_allowed false 유지.
+
+## v0.30 O-15F8 AUDIT ADDITIONS — 2026-09-09
+
+- 상대39조건·변경20개 조합·234개 양 팀 영향 입력을 조건부 감사 근거로 보존한다. 기존 Chicago 분·성장 prior는 유지하며 실제 거래·가용성·시즌 사건으로 승격하지 않는다.
+- RAPTOR는2021 정규시즌만 사용한 회고적 한 계열이다. 216개 수치 조건28경기의 승패 방향 유지와 Minnesota18조건의 손익분기점을 후반 exact 승수·라이벌 실력 prior로 사용하지 않는다.
+- Kira의 cutoff28출전 관측을 보충한다. 라이벌·Riller·Hall·Langford 관련 미정 박스 계수는 유지하며 박스 차이를 점수차에 더하지 않는다.
+- Gordon A·Powell 잔류·Fournier·Hall 계약 등은 개별 조건이며 승인된 시즌 경로가 아니다. 전반 상대 고정 한계와 Porter 관측 범위 차이는 최종 연결 전에 회수한다.
+- O-15F8 입력 범위 종료. 다음 O-15F9는 독립 영향 계열 교차검증과 시즌 연결 조건이다. v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지.
+- 상세 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md`.

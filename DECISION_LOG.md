@@ -476,4 +476,12 @@
 | D-463 | PREDEADLINE_OPPONENT_LIMIT_RECOVERY | 최종72경기 결합 전 전반19~21승 모델의 상대 고정 한계 회수 | 전반 결과를 완전한 양 팀 인과 정본으로 사용 금지 |
 | D-464 | O15F8_NEXT | 상대 변경 분·생산성과 양 팀 impact 입력 | 기존 드래프트/분 검산 반복 불요, 정확 시즌·거래·원고 HOLD |
 
+| D-465 | OPPONENT_MINUTE_MENU_39 | 29날짜39조건, 변경7팀10경기20가지의 실명 분 배정·5인 조합 통과 | 거래·가용성·교체 순서·전술 효율 NOT_CANON |
+| D-466 | CONDITIONAL_TRANSACTION_PATHS_EXPLICIT | GSW 핵심 경로·Powell 잔류·Fournier·Gordon A·Hall 등 개별 조건 공개 | 미승인 사건 자동 발생이나 날짜별 유리한 경로 혼합 금지 |
+| D-467 | KIRA_CUTOFF_SUPPLEMENT | 기존300명에 없던 Kira3/24까지28출전 원자료 보충 | 실제 무표본 Riller/Hall/Langford와 혼동 금지 |
+| D-468 | RAPTOR_RS_PAIRED_INPUT_234 | 2021 RS626선수팀행·실제 필요한53명·1000분 수축·양 팀234영향 입력 | 회고적 한 계열·pace100 가정, 박스 차이 이중 합산 금지 |
+| D-469 | CONDITIONAL_MARGIN_SIGN_STABILITY | 숫자216조건28경기 부호 유지, Minnesota18조건 손익분기 r 약-15.4402~-6.5751 | exact 승수·라이벌 능력 prior로 승격 금지 |
+| D-470 | O15F8_SCOPE_CLOSED | 상대 분·조합·조건부 양 팀 입력 범위 종료, 새 입력 없으면 동일 분 검산 반복 불요 | 시즌 경로·실제 가용성·독립 계열 미완료 |
+| D-471 | O15F9_NEXT | 독립 영향 계열 교차검증과 시즌 연결 조건, 전반 상대 고정/Porter 관측 범위 회수 | 원고 CLOSED, 정확 기록을 먼저 발명하지 않음 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
