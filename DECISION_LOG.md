@@ -434,4 +434,11 @@
 | D-426 | O15F5_A_PRIMARY_LEAN_AUTHOR_GATE | A Theis+Green 3팀 5인 거래를 총괄 추천, B 다른 저비용 빅과 C 타깃 실패를 contingency로 유지 | exact 거래 발생은 작가 선택 전 HOLD |
 | D-427 | POSTDEADLINE_29_GAME_BLOCKER | 정확 거래 선택 뒤에만 Chicago 마감일 뒤 29경기 roster-minute·생산성·outcome 계산 | Markkanen RFA·Lonzo·Caruso·DeRozan·LaVine/주인공 계약 선잠금 금지 |
 
+| D-428 | AUTHOR_APPROVED_PLAYER_ROUTE | 2026-09-09 작가가 직전 추천 A Theis·Green 3팀 5인 선수 이동 승인 | D-426 작가 대기 SUPERSEDED; 현금·보너스·당일 리그 장부는 EXECUTION_DETAILS_HOLD |
+| D-429 | POSTDEADLINE_ACTUAL_BASELINE_PASS | 실제 29경기·12-17·417,603초·145선발, 전반 625,202초 교차 재현 | 실제 결과를 대체 성적에 복사하지 않음 |
+| D-430 | POSTDEADLINE_CONDITIONAL_CAPACITY_PASS | Porter 0분/가변 상한에서 전 경기 분·5선발 보존 | 전 경기 가용성 및 실제 5인 조합 증명 아님 |
+| D-431 | PORTER_FIXED_ROLE_STRESS_BLOCKED | Porter 고정 12분은 5경기 1,724초 초과 | 임의 부상·추가 거래로 분 맞추기 금지 |
+| D-432 | OPENING_SEASON_PRIOR_REOPEN_REQUIRED | 초기 주인공 68/58/1,938·LaMelo 64/32/1,760 목표 재개방 | 전반 선발 역할을 낡은 목표에 맞춰 강등하지 않음 |
+| D-433 | O15F6B_NEXT | 거래 실행 세부·가용성·5인 조합·Orlando 상대 roster 감사 | outcome·lottery·계약 선잠금 금지 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
