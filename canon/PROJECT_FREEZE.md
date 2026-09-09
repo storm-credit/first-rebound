@@ -905,3 +905,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Minnesota·Denver 연장전의 실제 팀 총초를 보존한다. 48분 절삭이나 0분 선수의 가용성 발명은 없다.
 - RAPTOR RS EB와 BPM 3/25 EB의 72경기 산술값은 조건부 진단이며 정본 시즌 승수·순위가 아니다. 전반·후반 경로는 `selected=false`다.
 - 다음 O-15F11은 Portland·Golden State 전반 접전부터 상대 분 조합을 선택한다. 프로젝트는 v0.30 PARTIAL, 설계/원고 CLOSED·manuscript_allowed false를 유지한다.
+
+
+## v0.30 O-15F11 AUDIT ADDITIONS — 2026-09-09
+
+- O-15F10의 기준선 수치 판정은 정정한다. 전반 상대 상수 혼입·계열별 prior 누락·전반 피로·본문 표 오류를 교정했다. 기존 BASE31–41을 확정 기록이나 현행 연결값으로 사용하지 않는다.
+- 전반18접촉은10개 교체 벡터·8개 미배정 경로였음을 정정한다. GSW와LAL처럼 제거 선수 없는 경로도 기준선 자동 확정 대상이 아니다.
+- Portland·Golden State3경기11안·198조건의 분·5인 조합·양 팀 점수차 계산을 완료했다. 기존 선수 분담/POR·Hutchison 비활성/GSW는 작업 추천이며 실제 사건 승인이 아니다.
+- BASE 추천안에서1/5 Portland는 두 지표 양수, GSW·1/30 Portland는 지표 부호가 달라 미정으로 남긴다. Evans는 지표별 동일 계수로 두 날짜를 연결한다. 미지 계수를0으로 대체하거나 계열 평균으로 승패를 고르지 않는다.
+- 다음 O-15F12는 나머지15전반 접촉·라이벌·시즌 조건 연결. v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지.

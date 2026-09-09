@@ -14,3 +14,7 @@
 | 게이트 | v0.30 PARTIAL, 설계·원고 CLOSED 유지 |
 
 검증: season connection script, O-15F9 crosscheck, O-15F8 paired script, git diff --check.
+
+## O-15F11 정정
+
+이 검토의 기준선 산술 정확성 판정은 `SUPERSEDED`다. 상대 교체 상수 혼입·지표별 prior 선택 누락·전반 피로 누락·본문/JSON 수치 불일치를 놓쳤다. 새 검수는 `R01_O15F11_CLOSE_GAME_REVIEW.md`를 따른다. 당시 18경기를 모두 완성된 교체 벡터로 표현한 것도 정정한다: 10개 벡터와 8개 미배정 접촉이다.
