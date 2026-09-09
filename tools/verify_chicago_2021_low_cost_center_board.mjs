@@ -29,13 +29,13 @@ assert(byId.A.players_moved === '5', 'A must identify five unique moved players'
 assert(byId.A.teams_involved === '3', 'A must involve three teams');
 assert(byId.A.first_rounders_spent === '0', 'A cannot spend a first-rounder');
 assert(byId.A.carter_retained === '1' && byId.A.porter_retained === '1', 'A must retain Carter and Porter');
-assert(byId.A.board_status === 'PRIMARY_LEAN', 'A must be the primary lean');
-assert(byId.A.event_status === 'AUTHOR_GATE', 'A exact event must remain at the author gate');
-assert(byId.B.board_status === 'SECONDARY_MARKET', 'B must remain the secondary market');
+assert(byId.A.board_status === 'AUTHOR_APPROVED_PLAYER_ROUTE', 'A must be the primary lean');
+assert(byId.A.event_status === 'EXECUTION_DETAILS_HOLD', 'A exact event must remain at the author gate');
+assert(byId.B.board_status === 'HISTORICAL_ALTERNATIVE', 'B must remain the secondary market');
 assert(byId.C.board_status === 'FAILURE_CONTINGENCY', 'C must remain the failure contingency');
 assert(board.every((row) => row.first_rounders_spent === '0'), 'no O-15F5 option may spend a first-rounder');
 assert(board.every((row) => row.carter_retained === '1' && row.porter_retained === '1'), 'all options must retain Carter and Porter');
-assert(board.every((row) => row.event_status === 'AUTHOR_GATE'), 'no exact O-15F5 outcome may be auto-locked');
+assert(board.every((row) => ['EXECUTION_DETAILS_HOLD', 'NOT_SELECTED'].includes(row.event_status)), 'no exact O-15F5 outcome may be auto-locked');
 
 assert(ledger.length === 3, `expected 3 team ledger rows, got ${ledger.length}`);
 const byTeam = Object.fromEntries(ledger.map((row) => [row.team, row]));
@@ -75,4 +75,4 @@ for (const player of movedPlayers) {
   assert(outgoingCount === 1 && incomingCount === 1, `${player} must appear once outgoing and once incoming`);
 }
 
-console.log('PASS Chicago 2021 low-cost center board: 3 teams, 5 players, cap/roster structure valid, A primary lean, exact event AUTHOR_GATE');
+console.log('PASS Chicago 2021 low-cost center board: 3 teams, 5 players, cap/roster structure valid, A player route author approved; execution details HOLD');
