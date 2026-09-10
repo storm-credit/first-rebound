@@ -508,4 +508,13 @@
 | D-491 | CLOSE_GAME_DISAGREEMENT_PRESERVED | BASE에서1/5 POR 양수, GSW·1/30 POR 두 계열 부호 불일치 | 평균·피로0·미지rating0으로 승패 선잠금 금지 |
 | D-492 | O15F12_NEXT | 전반 나머지15접촉과 Minnesota 라이벌 계수·시즌 조건 연결 | 완료된3경기 분 검산은 새 입력 있을 때만 반복 |
 
+| D-493 | PRE_REMAINING_ALLOCATION_PASS | 잔여15날짜29개 분 배정안·522영향 조건·5인 조합 검산 | 0분과새선수0분 동일시 금지,신규등록·가용성은 조건 |
+| D-494 | OT_AND_ROLE_SECONDS_SEPARATED | 2연장날짜53분 보존,±1초 자료잔차와센터39/7초 모델이동 구분 | 대체세계 연장 사건·의학적 분 상한 승인 아님 |
+| D-495 | CONDITIONAL_SEASON_PATHS_CONNECTED | 역할2종×라이벌3분정책=6개 72경기경로·216개 시즌 조건 | 전후반 같은prior/피로/rating,최종 사건 선택 아님 |
+| D-496 | FOURNIER_INCOMPLETE_PATH_EXCLUDED | Boston미합류+Orlando이탈 조합은 새 행선지/잔류 분 미계산으로 통합 제외 | 선행 단일경기 민감도는 이력 보존 |
+| D-497 | RIVAL_AND_MISSING_IMPACT_SHARED | 라이벌 같은 유효rating,Hall/Riller 구간 부호 안정 검사 | 미지계수0치환·리그range를라이벌prior로 사용 금지 |
+| D-498 | CONDITIONAL_BASE_31_33 | RAPTOR BASE32~33/BPM BASE31,GSW·POR 접전불일치 보존 | LOW/HIGH30~36을 세계선 확률범위나 확정성적으로 승격 금지 |
+| D-499 | OPPONENT_WIN_TRANSFER_CONSERVED | rating구간별 Chicago 변화+상대 변화=0 | Chicago 외 리그경기·순위는 미계산 |
+| D-500 | O15F13_NEXT | 시즌 결산·순위·픽 보드로 이동,18접촉 분감사 종료 | 실제 거래/가용성 선택과 리그 파급을 구분해 검토 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.
