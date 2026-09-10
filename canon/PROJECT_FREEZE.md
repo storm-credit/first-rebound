@@ -934,3 +934,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - POR/LAL/GSW의 서부 경계를 재개방. 자체2021/2023첫픽 보유와 성적순서·추첨결과를 분리한다. 드래프트동률에포스트시즌H2H를 사용하지 않는다.2021정확조합원문 미확보로 odds/추첨 HOLD.
 - 다음O-15F14는 리그 경계 파급·시즌 선택 선행 조건 회수. 매작업종료 전체7행 체크표·남은6매크로 표시.
 - v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지. 원고 미작성.
+
+
+## 2026-09-10 O-15F14-A 리그 접촉·경계 민감도
+
+- 권위:`simulation/CHICAGO_2020_21_LEAGUE_BOUNDARIES.md` 및동명JSON/1008경기접촉CSV,`CHICAGO_2020_21_EXECUTION_RECOVERY.md`.
+- 2021공식동률발표확보로선행미확보해소. 새조합·14팀·추첨미정.
+- 직접로스터526/거래조건103/직접변경미특정379.3후보×1008단일변경은가상민감도이며실제영향예측이아니다.
+- CHI32승에서도CHA1패로10위가능,CHI33승도탈락가능. 플레이인목표로지표/피로역선택금지.
+- 29근소경기우선양팀입력으로O-15F14-B진행. 나머지경기·서부/lottery/누적파급면제없음. O-15F14전체·Chicago시즌미완료.
+- 자체검토NOT_INDEPENDENT, v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지.

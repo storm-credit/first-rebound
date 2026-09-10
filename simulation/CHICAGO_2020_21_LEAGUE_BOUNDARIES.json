@@ -1,0 +1,1645 @@
+{
+  "stage": "O-15F14-A",
+  "status": "CONTACT_SCREEN_AND_BOUNDARY_SENSITIVITY_COMPLETE",
+  "upstream_sha256": "b6364c3eba1e13ec0a9d515229a4f081a5e56679b8595eadb63f8f786182c1e8",
+  "scope": "Non-CHI game screening and hypothetical one-result flips; no new impact estimates or outcome selections.",
+  "cutoff_policy": "2021-03-25 is a conservative transaction review boundary, not same-day eligibility.",
+  "screen_counts": {
+    "TRANSACTION_DEPENDENCY": 103,
+    "DIRECT_ROSTER_CONTACT": 526,
+    "NO_DIRECT_DELTA_IDENTIFIED": 379
+  },
+  "priority_counts": {
+    "P3_REMAINDER": 877,
+    "P2_BOUNDARY": 102,
+    "P1_BOUNDARY": 29
+  },
+  "sensitivity_cases": [
+    {
+      "CHI_wins": 31,
+      "initial_rank": 11,
+      "one_flip_trials": 1008,
+      "one_flip_rank_counts": {
+        "11": 1008
+      },
+      "rank_change_witnesses": [],
+      "isolated_competitor_thresholds": [
+        {
+          "team": "CHA",
+          "wins": 33,
+          "CHI_h2h": [
+            3,
+            0
+          ],
+          "losses_to_reach_CHI_record": 2,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "WAS",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 3,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "IND",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 3,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "BOS",
+          "wins": 36,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 5,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        }
+      ],
+      "two_CHA_losses_witness": {
+        "game_ids": [
+          "2021-02-28_SAC_CHA",
+          "2021-02-20_CHA_GSW"
+        ],
+        "CHI_rank": 10,
+        "selected": false
+      }
+    },
+    {
+      "CHI_wins": 32,
+      "initial_rank": 11,
+      "one_flip_trials": 1008,
+      "one_flip_rank_counts": {
+        "10": 33,
+        "11": 975
+      },
+      "rank_change_witnesses": [
+        {
+          "game_id": "2020-12-27_CHA_BKN",
+          "date": "2020-12-27",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "BKN",
+          "actual_margin": 2,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2020-12-30_DAL_CHA",
+          "date": "2020-12-30",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "DAL",
+          "actual_margin": 19,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-06_ATL_CHA",
+          "date": "2021-01-06",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "ATL",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-08_NOP_CHA",
+          "date": "2021-01-08",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "NOP",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-09_CHA_ATL",
+          "date": "2021-01-09",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "ATL",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-11_CHA_NYK",
+          "date": "2021-01-11",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "NYK",
+          "actual_margin": 21,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-24_ORL_CHA",
+          "date": "2021-01-24",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-29_CHA_IND",
+          "date": "2021-01-29",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "IND",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-30_CHA_MIL",
+          "date": "2021-01-30",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIL",
+          "actual_margin": 12,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-01_MIA_CHA",
+          "date": "2021-02-01",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIA",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-07_CHA_WAS",
+          "date": "2021-02-07",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "WAS",
+          "actual_margin": 22,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-08_CHA_HOU",
+          "date": "2021-02-08",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "HOU",
+          "actual_margin": 25,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-12_CHA_MIN",
+          "date": "2021-02-12",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 6,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-20_CHA_GSW",
+          "date": "2021-02-20",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "GSW",
+          "actual_margin": 2,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-24_PHX_CHA",
+          "date": "2021-02-24",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "PHX",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-28_SAC_CHA",
+          "date": "2021-02-28",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "SAC",
+          "actual_margin": 1,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-03_MIN_CHA",
+          "date": "2021-03-03",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 33,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-11_CHA_DET",
+          "date": "2021-03-11",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "DET",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-13_CHA_TOR",
+          "date": "2021-03-13",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "TOR",
+          "actual_margin": 10,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-15_CHA_SAC",
+          "date": "2021-03-15",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "SAC",
+          "actual_margin": 6,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-22_SAS_CHA",
+          "date": "2021-03-22",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "SAS",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-24_HOU_CHA",
+          "date": "2021-03-24",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "HOU",
+          "actual_margin": 25,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-26_CHA_MIA",
+          "date": "2021-03-26",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIA",
+          "actual_margin": 5,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-30_WAS_CHA",
+          "date": "2021-03-30",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "WAS",
+          "actual_margin": 10,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-02_IND_CHA",
+          "date": "2021-04-02",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "IND",
+          "actual_margin": 17,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-07_OKC_CHA",
+          "date": "2021-04-07",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "OKC",
+          "actual_margin": 11,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-09_MIL_CHA",
+          "date": "2021-04-09",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "MIL",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-18_CHA_POR",
+          "date": "2021-04-18",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "POR",
+          "actual_margin": 8,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-23_CHA_CLE",
+          "date": "2021-04-23",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 6,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-25_CHA_BOS",
+          "date": "2021-04-25",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "BOS",
+          "actual_margin": 21,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-01_CHA_DET",
+          "date": "2021-05-01",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "DET",
+          "actual_margin": 13,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-04_DET_CHA",
+          "date": "2021-05-04",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "DET",
+          "actual_margin": 3,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-07_CHA_ORL",
+          "date": "2021-05-07",
+          "actual_winner": "CHA",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 10,
+          "new_chicago_rank": 10,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        }
+      ],
+      "isolated_competitor_thresholds": [
+        {
+          "team": "CHA",
+          "wins": 33,
+          "CHI_h2h": [
+            3,
+            0
+          ],
+          "losses_to_reach_CHI_record": 1,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "WAS",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 2,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "IND",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 2,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "BOS",
+          "wins": 36,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 4,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        }
+      ],
+      "two_CHA_losses_witness": {
+        "game_ids": [
+          "2021-02-28_SAC_CHA",
+          "2021-02-20_CHA_GSW"
+        ],
+        "CHI_rank": 10,
+        "selected": false
+      }
+    },
+    {
+      "CHI_wins": 33,
+      "initial_rank": 10,
+      "one_flip_trials": 1008,
+      "one_flip_rank_counts": {
+        "9": 64,
+        "10": 910,
+        "11": 34
+      },
+      "rank_change_witnesses": [
+        {
+          "game_id": "2020-12-23_CLE_CHA",
+          "date": "2020-12-23",
+          "actual_winner": "CLE",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 7,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2020-12-23_IND_NYK",
+          "date": "2020-12-23",
+          "actual_winner": "IND",
+          "hypothetical_winner": "NYK",
+          "actual_margin": 14,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2020-12-26_CHA_OKC",
+          "date": "2020-12-26",
+          "actual_winner": "OKC",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 2,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2020-12-27_IND_BOS",
+          "date": "2020-12-27",
+          "actual_winner": "IND",
+          "hypothetical_winner": "BOS",
+          "actual_margin": 1,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2020-12-31_IND_CLE",
+          "date": "2020-12-31",
+          "actual_winner": "IND",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 20,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-01_CHA_MEM",
+          "date": "2021-01-01",
+          "actual_winner": "MEM",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 15,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-01_MIN_WAS",
+          "date": "2021-01-01",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 21,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-02_PHI_CHA",
+          "date": "2021-01-02",
+          "actual_winner": "PHI",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 15,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-03_BKN_WAS",
+          "date": "2021-01-03",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "BKN",
+          "actual_margin": 1,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-04_PHI_CHA",
+          "date": "2021-01-04",
+          "actual_winner": "PHI",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 17,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-04_NOP_IND",
+          "date": "2021-01-04",
+          "actual_winner": "IND",
+          "hypothetical_winner": "NOP",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-06_IND_HOU",
+          "date": "2021-01-06",
+          "actual_winner": "IND",
+          "hypothetical_winner": "HOU",
+          "actual_margin": 7,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-11_WAS_PHX",
+          "date": "2021-01-11",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "PHX",
+          "actual_margin": 21,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-12_GSW_IND",
+          "date": "2021-01-12",
+          "actual_winner": "IND",
+          "hypothetical_winner": "GSW",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "TRANSACTION_DEPENDENCY",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-13_CHA_DAL",
+          "date": "2021-01-13",
+          "actual_winner": "DAL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 11,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-14_TOR_CHA",
+          "date": "2021-01-14",
+          "actual_winner": "TOR",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 3,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-14_POR_IND",
+          "date": "2021-01-14",
+          "actual_winner": "IND",
+          "hypothetical_winner": "POR",
+          "actual_margin": 24,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-16_TOR_CHA",
+          "date": "2021-01-16",
+          "actual_winner": "TOR",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 3,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-22_IND_ORL",
+          "date": "2021-01-22",
+          "actual_winner": "IND",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-25_ORL_CHA",
+          "date": "2021-01-25",
+          "actual_winner": "ORL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 9,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-25_IND_TOR",
+          "date": "2021-01-25",
+          "actual_winner": "IND",
+          "hypothetical_winner": "TOR",
+          "actual_margin": 15,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-01-31_WAS_BKN",
+          "date": "2021-01-31",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "BKN",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-02_IND_MEM",
+          "date": "2021-02-02",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MEM",
+          "actual_margin": 18,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-03_CHA_PHI",
+          "date": "2021-02-03",
+          "actual_winner": "PHI",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 7,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-03_MIA_WAS",
+          "date": "2021-02-03",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "MIA",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-05_CHA_UTA",
+          "date": "2021-02-05",
+          "actual_winner": "UTA",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 17,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-10_MEM_CHA",
+          "date": "2021-02-10",
+          "actual_winner": "MEM",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 16,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-11_DET_IND",
+          "date": "2021-02-11",
+          "actual_winner": "IND",
+          "hypothetical_winner": "DET",
+          "actual_margin": 16,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-13_ATL_IND",
+          "date": "2021-02-13",
+          "actual_winner": "IND",
+          "hypothetical_winner": "ATL",
+          "actual_margin": 12,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-14_WAS_BOS",
+          "date": "2021-02-14",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "BOS",
+          "actual_margin": 13,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-14_CHA_SAS",
+          "date": "2021-02-14",
+          "actual_winner": "SAS",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 12,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-15_WAS_HOU",
+          "date": "2021-02-15",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "HOU",
+          "actual_margin": 12,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-17_WAS_DEN",
+          "date": "2021-02-17",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "DEN",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-17_MIN_IND",
+          "date": "2021-02-17",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 6,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-20_POR_WAS",
+          "date": "2021-02-20",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "POR",
+          "actual_margin": 7,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-22_UTA_CHA",
+          "date": "2021-02-22",
+          "actual_winner": "UTA",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 22,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-22_LAL_WAS",
+          "date": "2021-02-22",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "LAL",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-25_DEN_WAS",
+          "date": "2021-02-25",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "DEN",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-26_GSW_CHA",
+          "date": "2021-02-26",
+          "actual_winner": "GSW",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 9,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-02-27_WAS_MIN",
+          "date": "2021-02-27",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 16,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-01_POR_CHA",
+          "date": "2021-03-01",
+          "actual_winner": "POR",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 12,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-03_CLE_IND",
+          "date": "2021-03-03",
+          "actual_winner": "IND",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-04_WAS_LAC",
+          "date": "2021-03-04",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "LAC",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-13_PHX_IND",
+          "date": "2021-03-13",
+          "actual_winner": "IND",
+          "hypothetical_winner": "PHX",
+          "actual_margin": 11,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-17_DEN_CHA",
+          "date": "2021-03-17",
+          "actual_winner": "DEN",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 25,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-18_WAS_UTA",
+          "date": "2021-03-18",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "UTA",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-18_LAL_CHA",
+          "date": "2021-03-18",
+          "actual_winner": "LAL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 11,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-19_MIA_IND",
+          "date": "2021-03-19",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MIA",
+          "actual_margin": 27,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-20_LAC_CHA",
+          "date": "2021-03-20",
+          "actual_winner": "LAC",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 27,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-21_MIA_IND",
+          "date": "2021-03-21",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MIA",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-24_IND_DET",
+          "date": "2021-03-24",
+          "actual_winner": "IND",
+          "hypothetical_winner": "DET",
+          "actual_margin": 5,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-26_DAL_IND",
+          "date": "2021-03-26",
+          "actual_winner": "IND",
+          "hypothetical_winner": "DAL",
+          "actual_margin": 15,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-27_WAS_DET",
+          "date": "2021-03-27",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "DET",
+          "actual_margin": 14,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-28_CHA_PHX",
+          "date": "2021-03-28",
+          "actual_winner": "PHX",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 4,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-03-29_WAS_IND",
+          "date": "2021-03-29",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "IND",
+          "actual_margin": 8,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-01_BKN_CHA",
+          "date": "2021-04-01",
+          "actual_winner": "BKN",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 22,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-03_SAS_IND",
+          "date": "2021-04-03",
+          "actual_winner": "IND",
+          "hypothetical_winner": "SAS",
+          "actual_margin": 6,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-04_BOS_CHA",
+          "date": "2021-04-04",
+          "actual_winner": "BOS",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 30,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-07_IND_MIN",
+          "date": "2021-04-07",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MIN",
+          "actual_margin": 4,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-07_ORL_WAS",
+          "date": "2021-04-07",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 15,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-09_ORL_IND",
+          "date": "2021-04-09",
+          "actual_winner": "IND",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 5,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-09_GSW_WAS",
+          "date": "2021-04-09",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "GSW",
+          "actual_margin": 3,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-11_CHA_ATL",
+          "date": "2021-04-11",
+          "actual_winner": "ATL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 4,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-11_MEM_IND",
+          "date": "2021-04-11",
+          "actual_winner": "IND",
+          "hypothetical_winner": "MEM",
+          "actual_margin": 7,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-12_UTA_WAS",
+          "date": "2021-04-12",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "UTA",
+          "actual_margin": 4,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-13_CHA_LAL",
+          "date": "2021-04-13",
+          "actual_winner": "LAL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 8,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-14_CHA_CLE",
+          "date": "2021-04-14",
+          "actual_winner": "CLE",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 13,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-14_HOU_IND",
+          "date": "2021-04-14",
+          "actual_winner": "IND",
+          "hypothetical_winner": "HOU",
+          "actual_margin": 8,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-14_SAC_WAS",
+          "date": "2021-04-14",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "SAC",
+          "actual_margin": 12,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-16_WAS_NOP",
+          "date": "2021-04-16",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "NOP",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-16_BKN_CHA",
+          "date": "2021-04-16",
+          "actual_winner": "BKN",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 15,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-17_WAS_DET",
+          "date": "2021-04-17",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "DET",
+          "actual_margin": 21,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-19_WAS_OKC",
+          "date": "2021-04-19",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "OKC",
+          "actual_margin": 12,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-20_NYK_CHA",
+          "date": "2021-04-20",
+          "actual_winner": "NYK",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 12,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-21_WAS_GSW",
+          "date": "2021-04-21",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "GSW",
+          "actual_margin": 4,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-21_IND_OKC",
+          "date": "2021-04-21",
+          "actual_winner": "IND",
+          "hypothetical_winner": "OKC",
+          "actual_margin": 6,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-23_OKC_WAS",
+          "date": "2021-04-23",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "OKC",
+          "actual_margin": 20,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-24_IND_DET",
+          "date": "2021-04-24",
+          "actual_winner": "IND",
+          "hypothetical_winner": "DET",
+          "actual_margin": 6,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-25_WAS_CLE",
+          "date": "2021-04-25",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-25_ORL_IND",
+          "date": "2021-04-25",
+          "actual_winner": "IND",
+          "hypothetical_winner": "ORL",
+          "actual_margin": 19,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-27_CHA_MIL",
+          "date": "2021-04-27",
+          "actual_winner": "MIL",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 10,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-28_WAS_LAL",
+          "date": "2021-04-28",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "LAL",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-28_BOS_CHA",
+          "date": "2021-04-28",
+          "actual_winner": "BOS",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 9,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-04-30_CLE_WAS",
+          "date": "2021-04-30",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 29,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-01_OKC_IND",
+          "date": "2021-05-01",
+          "actual_winner": "IND",
+          "hypothetical_winner": "OKC",
+          "actual_margin": 57,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-02_CHA_MIA",
+          "date": "2021-05-02",
+          "actual_winner": "MIA",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 10,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-03_WAS_IND",
+          "date": "2021-05-03",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "IND",
+          "actual_margin": 13,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-06_TOR_WAS",
+          "date": "2021-05-06",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "TOR",
+          "actual_margin": 2,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-06_IND_ATL",
+          "date": "2021-05-06",
+          "actual_winner": "IND",
+          "hypothetical_winner": "ATL",
+          "actual_margin": 7,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-08_IND_WAS",
+          "date": "2021-05-08",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "IND",
+          "actual_margin": 1,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-09_CHA_NOP",
+          "date": "2021-05-09",
+          "actual_winner": "NOP",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 2,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-10_CLE_IND",
+          "date": "2021-05-10",
+          "actual_winner": "IND",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-11_CHA_DEN",
+          "date": "2021-05-11",
+          "actual_winner": "DEN",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 5,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-11_IND_PHI",
+          "date": "2021-05-11",
+          "actual_winner": "IND",
+          "hypothetical_winner": "PHI",
+          "actual_margin": 9,
+          "new_chicago_rank": 9,
+          "contact_status": "NO_DIRECT_DELTA_IDENTIFIED",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-13_CHA_LAC",
+          "date": "2021-05-13",
+          "actual_winner": "LAC",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 23,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-14_WAS_CLE",
+          "date": "2021-05-14",
+          "actual_winner": "WAS",
+          "hypothetical_winner": "CLE",
+          "actual_margin": 15,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-15_NYK_CHA",
+          "date": "2021-05-15",
+          "actual_winner": "NYK",
+          "hypothetical_winner": "CHA",
+          "actual_margin": 9,
+          "new_chicago_rank": 11,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        },
+        {
+          "game_id": "2021-05-16_TOR_IND",
+          "date": "2021-05-16",
+          "actual_winner": "IND",
+          "hypothetical_winner": "TOR",
+          "actual_margin": 12,
+          "new_chicago_rank": 9,
+          "contact_status": "DIRECT_ROSTER_CONTACT",
+          "selected": false
+        }
+      ],
+      "isolated_competitor_thresholds": [
+        {
+          "team": "CHA",
+          "wins": 33,
+          "CHI_h2h": [
+            3,
+            0
+          ],
+          "losses_to_reach_CHI_record": 0,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "WAS",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 1,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "IND",
+          "wins": 34,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 1,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        },
+        {
+          "team": "BOS",
+          "wins": 36,
+          "CHI_h2h": [
+            2,
+            1
+          ],
+          "losses_to_reach_CHI_record": 3,
+          "warning": "Isolated record threshold, not independent simultaneous league changes."
+        }
+      ],
+      "two_CHA_losses_witness": {
+        "game_ids": [
+          "2021-02-28_SAC_CHA",
+          "2021-02-20_CHA_GSW"
+        ],
+        "CHI_rank": 10,
+        "selected": false
+      }
+    }
+  ],
+  "boundary_game_ids": [
+    "2020-12-23_CLE_CHA",
+    "2020-12-23_IND_NYK",
+    "2020-12-26_CHA_OKC",
+    "2020-12-27_CHA_BKN",
+    "2020-12-27_IND_BOS",
+    "2020-12-30_DAL_CHA",
+    "2020-12-31_IND_CLE",
+    "2021-01-01_CHA_MEM",
+    "2021-01-01_MIN_WAS",
+    "2021-01-02_PHI_CHA",
+    "2021-01-03_BKN_WAS",
+    "2021-01-04_NOP_IND",
+    "2021-01-04_PHI_CHA",
+    "2021-01-06_ATL_CHA",
+    "2021-01-06_IND_HOU",
+    "2021-01-08_NOP_CHA",
+    "2021-01-09_CHA_ATL",
+    "2021-01-11_CHA_NYK",
+    "2021-01-11_WAS_PHX",
+    "2021-01-12_GSW_IND",
+    "2021-01-13_CHA_DAL",
+    "2021-01-14_POR_IND",
+    "2021-01-14_TOR_CHA",
+    "2021-01-16_TOR_CHA",
+    "2021-01-22_IND_ORL",
+    "2021-01-24_ORL_CHA",
+    "2021-01-25_IND_TOR",
+    "2021-01-25_ORL_CHA",
+    "2021-01-29_CHA_IND",
+    "2021-01-30_CHA_MIL",
+    "2021-01-31_WAS_BKN",
+    "2021-02-01_MIA_CHA",
+    "2021-02-02_IND_MEM",
+    "2021-02-03_CHA_PHI",
+    "2021-02-03_MIA_WAS",
+    "2021-02-05_CHA_UTA",
+    "2021-02-07_CHA_WAS",
+    "2021-02-08_CHA_HOU",
+    "2021-02-10_MEM_CHA",
+    "2021-02-11_DET_IND",
+    "2021-02-12_CHA_MIN",
+    "2021-02-13_ATL_IND",
+    "2021-02-14_CHA_SAS",
+    "2021-02-14_WAS_BOS",
+    "2021-02-15_WAS_HOU",
+    "2021-02-17_MIN_IND",
+    "2021-02-17_WAS_DEN",
+    "2021-02-20_CHA_GSW",
+    "2021-02-20_POR_WAS",
+    "2021-02-22_LAL_WAS",
+    "2021-02-22_UTA_CHA",
+    "2021-02-24_PHX_CHA",
+    "2021-02-25_DEN_WAS",
+    "2021-02-26_GSW_CHA",
+    "2021-02-27_WAS_MIN",
+    "2021-02-28_SAC_CHA",
+    "2021-03-01_POR_CHA",
+    "2021-03-03_CLE_IND",
+    "2021-03-03_MIN_CHA",
+    "2021-03-04_WAS_LAC",
+    "2021-03-11_CHA_DET",
+    "2021-03-13_CHA_TOR",
+    "2021-03-13_PHX_IND",
+    "2021-03-15_CHA_SAC",
+    "2021-03-17_DEN_CHA",
+    "2021-03-18_LAL_CHA",
+    "2021-03-18_WAS_UTA",
+    "2021-03-19_MIA_IND",
+    "2021-03-20_LAC_CHA",
+    "2021-03-21_MIA_IND",
+    "2021-03-22_SAS_CHA",
+    "2021-03-24_HOU_CHA",
+    "2021-03-24_IND_DET",
+    "2021-03-26_CHA_MIA",
+    "2021-03-26_DAL_IND",
+    "2021-03-27_WAS_DET",
+    "2021-03-28_CHA_PHX",
+    "2021-03-29_WAS_IND",
+    "2021-03-30_WAS_CHA",
+    "2021-04-01_BKN_CHA",
+    "2021-04-02_IND_CHA",
+    "2021-04-03_SAS_IND",
+    "2021-04-04_BOS_CHA",
+    "2021-04-07_IND_MIN",
+    "2021-04-07_OKC_CHA",
+    "2021-04-07_ORL_WAS",
+    "2021-04-09_GSW_WAS",
+    "2021-04-09_MIL_CHA",
+    "2021-04-09_ORL_IND",
+    "2021-04-11_CHA_ATL",
+    "2021-04-11_MEM_IND",
+    "2021-04-12_UTA_WAS",
+    "2021-04-13_CHA_LAL",
+    "2021-04-14_CHA_CLE",
+    "2021-04-14_HOU_IND",
+    "2021-04-14_SAC_WAS",
+    "2021-04-16_BKN_CHA",
+    "2021-04-16_WAS_NOP",
+    "2021-04-17_WAS_DET",
+    "2021-04-18_CHA_POR",
+    "2021-04-19_WAS_OKC",
+    "2021-04-20_NYK_CHA",
+    "2021-04-21_IND_OKC",
+    "2021-04-21_WAS_GSW",
+    "2021-04-23_CHA_CLE",
+    "2021-04-23_OKC_WAS",
+    "2021-04-24_IND_DET",
+    "2021-04-25_CHA_BOS",
+    "2021-04-25_ORL_IND",
+    "2021-04-25_WAS_CLE",
+    "2021-04-27_CHA_MIL",
+    "2021-04-28_BOS_CHA",
+    "2021-04-28_WAS_LAL",
+    "2021-04-30_CLE_WAS",
+    "2021-05-01_CHA_DET",
+    "2021-05-01_OKC_IND",
+    "2021-05-02_CHA_MIA",
+    "2021-05-03_WAS_IND",
+    "2021-05-04_DET_CHA",
+    "2021-05-06_IND_ATL",
+    "2021-05-06_TOR_WAS",
+    "2021-05-07_CHA_ORL",
+    "2021-05-08_IND_WAS",
+    "2021-05-09_CHA_NOP",
+    "2021-05-10_CLE_IND",
+    "2021-05-11_CHA_DEN",
+    "2021-05-11_IND_PHI",
+    "2021-05-13_CHA_LAC",
+    "2021-05-14_WAS_CLE",
+    "2021-05-15_NYK_CHA",
+    "2021-05-16_TOR_IND"
+  ],
+  "manuscript_allowed": false
+}
