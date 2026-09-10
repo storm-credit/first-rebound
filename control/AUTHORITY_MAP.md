@@ -204,3 +204,7 @@
 | O-15F14-A 리그접촉/경계 | `simulation/CHICAGO_2020_21_LEAGUE_BOUNDARIES.md`, 동명JSON; `simulation/NBA_2020_21_NON_CHICAGO_CONTACT_SCREEN.csv` | 1008경기스크린·3024가상단일변경·29우선접전;영향/순위정본아님 |
 | O-15F14-A 실행조건 | `simulation/CHICAGO_2020_21_EXECUTION_RECOVERY.md` | EX01~08·2021공식자료회수;정확거래/가용성HOLD |
 | O-15F14-A 총괄검토 | `reviews/R01_O15F14A_LEAGUE_BOUNDARY_REVIEW.md` | NOT_INDEPENDENT |
+
+| O-15F14-B 우선29경기 양팀 영향 | `simulation/CHICAGO_2020_21_BOUNDARY_PAIRED_IMPACT.md`, 동명JSON | 90분안·348조건·72제한연결;979실제유지·시즌HOLD |
+| O-15F14-B 관측과출처 | `simulation/NBA_2020_21_BOUNDARY_PAIRED_OBSERVATIONS.csv`, `simulation/NBA_2020_21_BOUNDARY_OBSERVATION_PROVENANCE.json` | 공개보관본776행·고정커밋/해시·1080점수대조 |
+| O-15F14-B 총괄검토 | `reviews/R01_O15F14B_BOUNDARY_PAIRED_REVIEW.md` | NOT_INDEPENDENT |

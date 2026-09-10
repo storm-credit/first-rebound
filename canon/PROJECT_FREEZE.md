@@ -944,3 +944,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - CHI32승에서도CHA1패로10위가능,CHI33승도탈락가능. 플레이인목표로지표/피로역선택금지.
 - 29근소경기우선양팀입력으로O-15F14-B진행. 나머지경기·서부/lottery/누적파급면제없음. O-15F14전체·Chicago시즌미완료.
 - 자체검토NOT_INDEPENDENT, v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지.
+
+
+## 2026-09-10 O-15F14-B 우선 경계 양 팀 영향
+
+- 권위: `simulation/CHICAGO_2020_21_BOUNDARY_PAIRED_IMPACT.md` 및동명JSON;관측776행·계보JSON;자체검토 `reviews/R01_O15F14B_BOUNDARY_PAIRED_REVIEW.md` (`NOT_INDEPENDENT`).
+- 우선29경기·조건부90분안·348영향조건·72제한시즌연결 완료. 24유지 중4실제유지가정,2역전·3불일치 모두 미선택.
+- 979경기 실제유지 진단은CHI9/10위지만최종진출보장이 아니다. Chicago33승목표로지표/피로역선택하지 않는다.
+- 다음O-15F14-C 남은리그/서부/lottery·거래/가용성·시즌선택 연결. 기존29분감사는새입력없으면반복하지 않는다.
+- v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지. 전체목표는장기커리어까지,현재2020–21우선. 한국어7행진행표/남은6개보고.
