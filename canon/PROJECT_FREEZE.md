@@ -953,3 +953,8 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - 979경기 실제유지 진단은CHI9/10위지만최종진출보장이 아니다. Chicago33승목표로지표/피로역선택하지 않는다.
 - 다음O-15F14-C 남은리그/서부/lottery·거래/가용성·시즌선택 연결. 기존29분감사는새입력없으면반복하지 않는다.
 - v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지. 전체목표는장기커리어까지,현재2020–21우선. 한국어7행진행표/남은6개보고.
+
+
+## 2026-09-10 O-15F14-C 동서부·플레이인·픽 연결
+
+권위 `simulation/CHICAGO_2020_21_POSTSEASON_ROUTES.md` 및동명JSON. 72조건의5정확경로·동서부순위·320플레이인분기·경로별25추첨명단·픽성적순서연결완료. Chicago첫상대는조건에따라WAS/CHA이며고정아님. 새승패·확률·추첨미선택. 잔여979경기×5단일변경에서280경계,그중40접전1082행확보;영향미계산. 다음40영향·Gordon실행보드구체화. EX01~08및전체파급HOLD. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false유지. 자체검토NOT_INDEPENDENT.
