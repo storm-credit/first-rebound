@@ -194,3 +194,6 @@
 
 | O-15F11 접전 상대 경로 | `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md`, `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.json` | 3경기11안·198조건·5인 조합; 작업안 추천·시즌 HOLD |
 | O-15F11 총괄 검토 | `reviews/R01_O15F11_CLOSE_GAME_REVIEW.md` | NOT_INDEPENDENT |
+
+| O-15F12 조건부72경기 연결 | `simulation/CHICAGO_2020_21_INTEGRATED_PATHS.md`, `simulation/CHICAGO_2020_21_INTEGRATED_PATHS.json` | 잔여15날짜 29안·6경로216조건;BASE31~33 조건부·순위HOLD |
+| O-15F12 총괄 검토 | `reviews/R01_O15F12_INTEGRATED_PATHS_REVIEW.md` | NOT_INDEPENDENT |
