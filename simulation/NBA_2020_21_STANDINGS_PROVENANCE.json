@@ -1,0 +1,38 @@
+{
+  "retrieved_or_checked": "2026-09-10",
+  "source": "https://github.com/Neil-Paine-1/NBA-elo/blob/9a485bacef9f18f6a8e3ec671f13b9609386f0fa/nba_elo.csv",
+  "source_sha256": "be12a0ffcf49820ec967bfc4e838d477728a345753e4ebcc8e1b455cc98d8bff",
+  "extract_sha256": "02268ac4d6019df51cda4ad2752618535b9a15dea25f0a658a92e62e10012ef2",
+  "source_type": "PUBLIC_COMPILED_SCORE_DATA_NOT_OFFICIAL_NBA_TABLE",
+  "filter": {
+    "season": "2021",
+    "playoff": "NA",
+    "is_home": "1",
+    "date_lte": "2021-05-16"
+  },
+  "exclusions": "Six play-in games labelled NA are excluded by the regular-season cutoff. Away-perspective duplicate rows excluded. No Elo ratings imported.",
+  "aliases": {
+    "BRK": "BKN",
+    "CHO": "CHA",
+    "PHO": "PHX"
+  },
+  "games": 1080,
+  "rules": [
+    {
+      "url": "https://www.nba.com/news/nba-announces-structure-and-format-for-2020-21-season",
+      "scope": "2020-21 official format; seventh through tenth enter play-in; ninth/tenth need two wins."
+    },
+    {
+      "url": "https://www.nba.com/standings?Season=2020-21",
+      "scope": "Two-team postseason tie: head-to-head first. Dynamic standings table not ingested."
+    },
+    {
+      "url": "https://pr.nba.com/2019-nba-draft-tiebreakers/",
+      "scope": "Established lottery framework and separate random draft tiebreak; 2021-specific odds/tie release not retrieved. No 2021 odds allocated."
+    }
+  ],
+  "limits": [
+    "Other 1008 games are held observations, not a full alternate league simulation.",
+    "2021 draw membership and exact tiebreak/combination allocation remain open."
+  ]
+}

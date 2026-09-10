@@ -517,4 +517,12 @@
 | D-499 | OPPONENT_WIN_TRANSFER_CONSERVED | rating구간별 Chicago 변화+상대 변화=0 | Chicago 외 리그경기·순위는 미계산 |
 | D-500 | O15F13_NEXT | 시즌 결산·순위·픽 보드로 이동,18접촉 분감사 종료 | 실제 거래/가용성 선택과 리그 파급을 구분해 검토 |
 
+| D-501 | O15F13_BASELINE_1080 | 공개 편집 경기자료에서1080정규경기·30팀72경기 추출,Chicago72날짜/상대/점수차 선행 대조 | 중복관점·play-in6경기 제외;NBA공식표 직접수집 아님 |
+| D-502 | BASE_RECORD_DIAGNOSTIC | BASE72조건의31/32/33승·날짜별 차이·상대이전 보존;다른1008경기 실제유지 | 최종 대체리그순위·확률분포 아님 |
+| D-503 | PLAYIN_BOUNDARY_AND_FATIGUE | 조건부11/11/10위,CHI-CHA3승0패;33승은RAPTOR피로0만 | 플레이인 진출을 위해 지표·피로 역선택 금지 |
+| D-504 | WEST_BOUNDARY_REOPENED | POR41승이면LAL직행/POR플레이인,GSW38승이면MEM동률 | 실제 서부플레이인·lottery명단 복사 금지 |
+| D-505 | PICK_OWNER_VS_RECORD_RANK | CHI자체2021/2023첫픽보유;비PO31승8~10/32승10/33승10~11또는12 성적순서 | 정확픽·odds·동률추첨미정,2021조합원문HOLD;H2H로드래프트동률해소금지 |
+| D-506 | O15F14_NEXT | 거래/가용성·리그파급·시즌선택·플레이인/lottery 선행조건 회수 | 같은 분감사는 변경입력이 있을 때만 |
+| D-507 | END_OF_RUN_FULL_CHECKLIST | 매종료답변에 전체7행 완료/진행/대기표와남은6매크로 표시 | 문서수·회차수·단순1/7을완료율로쓰거나시간약속금지 |
+
 결정 변경 시 기존 행을 삭제하지 않는다. 새 ID로 변경안을 기록하고 폐기된 결정은 `SUPERSEDED`로 표시한다.

@@ -924,3 +924,13 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 - Fournier Boston미합류안은 Orlando 잔류/새행선지 미계산 때문에 통합에서 제외한다. 나머지 공통 거래·가용성도 명시된 조건이다.
 - Chicago 승수 변화와 상대 변화는 합계0으로 보존했다. Chicago 외 경기의 리그전체 파급은 별도다.
 - 다음 O-15F13 시즌 결산·순위·픽 보드. 같은 분 감사를 새 입력 없이 반복하지 않는다. v0.30 PARTIAL·설계/원고 CLOSED·manuscript_allowed false 유지.
+
+
+## 2026-09-10 O-15F13 조건부 시즌 결산·순위·픽 감사
+
+- 권위: `simulation/CHICAGO_2020_21_STANDINGS_PICK_BOARD.md` 및 동명JSON; 총괄 검토 `reviews/R01_O15F13_STANDINGS_PICK_REVIEW.md` (`NOT_INDEPENDENT`).
+- 공개 편집 정규경기1080개 기준선과 Chicago72경기 대조,BASE72조건의31/32/33승 후보·상대 승수 이전 검산 완료. 다른1008경기 실제유지 진단이며 대체 리그 정본이 아니다.
+- 조건부동부11/11/10위,CHI-CHA3승0패.33승은RAPTOR피로0만이며 접전 지표 불일치·최종시즌 미선택 유지.
+- POR/LAL/GSW의 서부 경계를 재개방. 자체2021/2023첫픽 보유와 성적순서·추첨결과를 분리한다. 드래프트동률에포스트시즌H2H를 사용하지 않는다.2021정확조합원문 미확보로 odds/추첨 HOLD.
+- 다음O-15F14는 리그 경계 파급·시즌 선택 선행 조건 회수. 매작업종료 전체7행 체크표·남은6매크로 표시.
+- v0.30 PARTIAL·DESIGN_GATE CLOSED·manuscript_allowed false 유지. 원고 미작성.
