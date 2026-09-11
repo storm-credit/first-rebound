@@ -256,3 +256,14 @@ G의 `selected:false`와 당시 미승인 표현은 승인 전 이력이다. 최
 | 자체 검토 | `reviews/R01_O15F14I_CAUSAL_AVAILABILITY_REVIEW.md` | 검증7개·재현 PASS / NOT_INDEPENDENT |
 
 H는 관측 대조와 승인 범위의 권위로 보존한다. I는 보고 시점의 실제 사유와 국소 결장 시나리오를 추가하며 F의 기본1080경기 경로를 대체하지 않는다. 현행 다음 단계는 J 가용성 정책 후보 압축·시즌 결산 연결이다. 최종 시즌은 HOLD다.
+
+
+## O-15F14-J 정책 비교 권위
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| 가용성3후보·시즌 연결·후속 등록 접촉 | `simulation/CHICAGO_2020_21_AVAILABILITY_POLICY.md` 및 동명JSON | J1추천은 미승인; J0/J1 16시즌 조건 완결·J2 8조건 보류 |
+| 제거 분 배분·실패 증명 | `simulation/CHICAGO_2020_21_POLICY_REPLACEMENT_MINUTES.json` | 고유108안 중97성립/11실패; ORL6경기 역할/팀시간 부족 |
+| 자체 검토 | `reviews/R01_O15F14J_AVAILABILITY_POLICY_REVIEW.md` | 검증8개·재현 PASS / NOT_INDEPENDENT |
+
+기본 수치는 F, 공식 사유는 I, 방향 승인은 H가 기존 권위다. J는 명시적인 비교 달력과 후속 영입 제외 조건만 추가하며 IWashington반례를 자동 누적하지 않는다. 다음K는 Orlando백업18분·잔여실행조건과최종정규시즌추천안이다. 최종건강·계약·시즌은 HOLD.

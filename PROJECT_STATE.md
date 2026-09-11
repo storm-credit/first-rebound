@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14-J 가용성 정책 후보 압축·시즌 결산 연결`
-- 최근 설계 변경: `O-15F14-I 공식 보고서9건·39사유 항목,5경기20결장 조건·HIGH/RAPTOR 순위 반례`
-- 선행 감사 병합: `PR #152 / 0f1000ac75958357723a5bbea5c380c20c7d61c9`
+- 현재 작업: `O-15F14-K Orlando 백업18분·잔여 실행 조건과 최종 정규시즌 추천안`
+- 최근 설계 변경: `O-15F14-J 가용성3후보·Terry27경기 전량·J2의6경기 역할/시간 실패 보존`
+- 선행 감사 병합: `PR #153 / 671b9f52809c4b418eb190c3328f86a7b15cc483`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
 - 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
@@ -40,7 +40,13 @@
 
 - 최신 건강·등록 사유/결장 영향 권위: `simulation/CHICAGO_2020_21_CAUSAL_AVAILABILITY.md` 및 동명JSON; 공식 출처 `research/NBA_2020_21_CAUSAL_AVAILABILITY_SOURCES.json`; 검토 `reviews/R01_O15F14I_CAUSAL_AVAILABILITY_REVIEW.md`
 
+- 최신 가용성 정책·후속 등록·시즌 추천 후보 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_POLICY.md` 및 동명JSON; 분 증명 `CHICAGO_2020_21_POLICY_REPLACEMENT_MINUTES.json`; 자체검토 `reviews/R01_O15F14J_AVAILABILITY_POLICY_REVIEW.md`
+
 ## 완료
+
+- [x] O-15F14-J J0/J1/J2 비교, Terry후반27경기 전량·고유108분안/97성립·11실패, 양팀3경기 공동 연결
+- [x] J0/J1 16시즌 조건 승수·순위 유지, J2 8조건은 ORL6경기 실패로 결산 보류; Chicago겨울26항목 중복 차감 방지·검증8개
+
 
 - [x] O-15F14-I 공식 사유와 대체세계 인과 분리, 170우선 항목 중159항목의 조사 묶음에 사유 근거 연결·Carter겨울11 미확보 보존
 - [x] 4단독 공백8조건·Washington 동시 공백12조건 검산; HIGH/RAPTOR3반전·R1/피로0.5 시즌CHI9→10 반례, 검증7개
@@ -641,3 +647,14 @@ G의 추천 채택 질문에 대한 사용자 ‘이어서’를 R1과 T1~T4 방
 공식 보고서9건39항목을 회수했다. 170우선항목 중159항목의 조사 묶음에 관련 사유 근거를 연결했고 Carter겨울11항목은 상세 사유 미확보다. 실제 보고 사유가 대체세계의 발병·연속 결장을 뜻하지 않는다. 5경기20결장 조건 중 HIGH/RAPTOR3조건에서 WAS승으로 반전, R1/피로0.5의 HIGH 전체시즌 경로는 CHI9→10위다. 추천LOW 결과는 유지한다. 최종 건강·시즌 확정은 아니다.
 
 검증7개·분 증명/양팀 영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT. 다음은 O-15F14-J 가용성 정책 후보 압축·시즌 결산 연결이다. 위 H의 다음 I는 이력이며 기존 R1/T1~T4 방향 재승인 불요. 전체1완료·1진행·5대기/남은6개, v0.30 PARTIAL·원고CLOSED 유지.
+
+
+## 2026-09-11 O-15F14-J 가용성 후보 압축·시즌 결산 연결
+
+권위 `simulation/CHICAGO_2020_21_AVAILABILITY_POLICY.md` 및 동명JSON, `CHICAGO_2020_21_POLICY_REPLACEMENT_MINUTES.json`. J0기존 조건·J1Terry후반 공백·J2공백과후속영입제외의3후보를 비교했다. Terry3/30~5/16은 실제 발병일/연속 결장 확정이 아닌27경기 비교 달력이다. 기존 통제군을 보존하고 제거 분만 배분했다. 고유108분안 중97성립·11실패, 양팀이 바뀌는3경기는 동일 통제군에서 연결했다.
+
+J1은 R1/28분·피로0.5·두분정책/지표/Porter의8전체시즌 조건에서 승수·순위 변화0이다. J2는 ORL6경기의 역할·팀시간 부족으로8시즌 조건의 승수/순위를 null로 보존했다.4경기에서는 센터 역할18분이 부족하다. J1을 검토 후보로 추천하고 J2는 현재 실행안에서 제외한다. 추천은 작가 승인·최종 건강/시즌 확정이 아니다. I의Washington반례는 별도 조건으로 보존하며 자동 합산하지 않는다.
+
+Chicago겨울 Carter11·Porter15항목은 이미 기존 분 모델에서0임을 확인했다. EX04/06의Hall·Wagner·Parker·Rivers·McGee·Hutchison 각28날짜의 분 의존을 공개했다. 새 정확 계약·의학적 상세 사실 확보는0이다. 검증8개·분 증명·영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT.
+
+이전 I의다음J는 이력이다. 다음은 O-15F14-K Orlando 백업18분 문제·잔여 실행 조건을 반영한 최종 정규시즌 추천안이다. 기존 R1/T1~T4 승인은 유지하고 재질문하지 않는다. 정규시즌 입력 전체 재수집·같은27경기 반복은 하지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·전체1완료/1진행/5대기·남은6개 유지.
