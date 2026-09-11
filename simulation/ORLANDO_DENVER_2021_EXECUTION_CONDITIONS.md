@@ -101,3 +101,10 @@ A의 선수 총액은 Denver `Harris + Nnaji24` 발신, `Gordon + Clark` 수신�
 ## 2026-09-11 O-15F14-F 전체시즌 연결 이후
 
 D의40경기표는당시범위의이력이다. 현재 `CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`에서남은859까지영향계산을완료했다. Gordon A를바꾸면해당거래검토단계이후DEN/ORL의전체정규시즌입력과선행Chicago–ORL을회수해야한다. 기존같은급여/동일계약조건은확인된사실로추가하지않았고,이번Harris/Gordon급여이력본문접근은제한되어새급여값을확보하지못했다. 정확charge·픽조항과작가의Gordon사건선택은여전히HOLD다. 역할전제는분검산가능성과별개이며ORL의Ross보조진행·Nnaji비상골밑및후속등록도작가패킷에포함한다.
+
+
+## O-15F14-H 최신 승인 범위 — 2026-09-11
+
+G 추천 질문에 대한 사용자의 ‘이어서’로 **A 선수/자산 방향을 채택**했다. 권위 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`. Harris·Nnaji·보호 미래1R 대 Gordon·Clark 방향과 Vučević 잔여시즌 ORL 잔류, Fournier 독립 Boston행을 각각 승인 범위대로 적용한다. 선행 본문의 A_NEGOTIATION_LEAN/작가 방향 미선택 표현은 이력이며 방향 재승인은 불요다.
+
+정확 당일 charge·보너스·선행 픽 보호/이연/전환은 이번에도 미확보다. `AUTHOR_APPROVED_DIRECTION / EXACT_EXECUTION_HOLD`이며 거래 실행 PASS가 아니다. 신규 건강·후속 등록은 별도다. 최신 대조는 `CHICAGO_2020_21_EXECUTION_ADOPTION.md`와 달력 CSV를 따른다. G/F 수치 산출물은 당시 조건부 기록으로 보존한다.
