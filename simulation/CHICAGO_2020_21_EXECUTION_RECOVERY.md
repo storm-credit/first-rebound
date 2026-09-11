@@ -66,3 +66,12 @@ O-15F14 전체를 완료로 표시하지 않는다. 전체 매크로는 계속 1
 T1 Gordon A, T2 Vučević ORL 잔여시즌 잔류, T3 Fournier BOS 독립 경로, T4 Powell TOR/Hood POR 잔류는 사건 방향 검토 대상이다. 정확 charge·픽 보호/이연/전환·EX04/06 후속계약·EX07 실제 건강·EX08 최종시즌/추첨은 미해소다. 새 출처 확보나 거래 실행 PASS로 승격하지 않는다. 14개 목표 날짜 가용성은 실제 GP가 아니다. Chicago A·Chicago 원클럽·MIN #1 재승인 불요, 라이벌 전성기 수비/정확 신체·박스 미승인 유지.
 
 검증4개·JSON재현 통과, 자체검토NOT_INDEPENDENT. 다음 H는 작가 방향 선택 반영과 시즌 필수 실행 전제 회수다. 미계산859 작업을 다시 만들지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false, 전체 남은6개 유지.
+
+
+## 2026-09-11 O-15F14-H 작가 방향 채택·실제 가용성 근거
+
+G의 명시적 추천 채택 질문에 대한 사용자 ‘이어서’로 R1 공격/성격/초기28분과 T1~T4 사건 방향을 채택했다. 승인 권위 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`. R1은 감속·풀업·선제 패스의 SG/SF 창조 윙, 차분한 분석형과 승부욕·통제욕이다. Gordon A 방향, Vučević ORL 잔여시즌 잔류, Fournier BOS 독립행, Powell TOR/Hood POR 잔류를 기록한다. 정확 charge/픽·건강/후속계약·72경기 가용성·비교계수/주판정 지표·최종시즌은 승인 범위 밖이다. Chicago A와 기존 드래프트 재승인 불요.
+
+실행 권위 `simulation/CHICAGO_2020_21_EXECUTION_ADOPTION.md` 및 JSON/CSV. 고정 공개 원본의16명924관측행을 신규팀목표791+Chicago감시288=1079행에 대조했다. 실제 제한9·양쪽관측긴공백111·한쪽끝공백50을170항목/147경기 우선 회수 목록으로 연결했다. 결장일/원인/의학적 회복의 자동 추정이 아니며, 새 미계산경기 배치가 아니다. 행 부재·코치DNP·실제제한을 구분한다.
+
+새 정확 계약 사실 확보는0, 미확보값은HOLD다. 다음 I에서 건강/등록 사건별 인과를 회수하고 변경 날짜만 재계산한다. 방향 승인 질문과 동일 실패 검색을 반복하지 않는다. G/F 산출물은 이력과 수치 권위로 보존했다. 검증5개·JSON/CSV재현 PASS, 자체검토NOT_INDEPENDENT. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false, 전체남은6개 유지.

@@ -1,12 +1,12 @@
 # Rival NBA Identity & Relationship Model
 
-- 상태: `IDENTITY_PROPOSAL / CHICAGO_MINNESOTA_TEAMS_LOCKED / NOT_CANON`
+- 상태: `R1_ATTACK_PERSONALITY_INITIAL_ROLE_APPROVED / OTHER_DETAILS_NOT_CANON`
 - 기준일: 2026-09-11 (O-15F14-G 현행 권위 정렬)
 - 적용 범위: 핵심 라이벌의 NBA 공격 정체성·성격·주인공과의 장기 관계·실존 스타 경쟁층·동서부 배치
 - 선행 권위: `canon/TALENT_BQ_MODEL.md`, `design/RIVAL_ARCHITECTURE.md`, `design/NBA_LONG_RANGE_CAREER_OPTIONS.md`
 - 원고 게이트: `CLOSED`
 
-> 현행 팀 권위는 `canon/PROJECT_FREEZE.md`의 Chicago 원클럽·Minnesota 2020 전체 1순위다. 과거 Atlanta→Indiana·라이벌 Chicago 비교는 폐기 분기 이력이며 팀/콘퍼런스 선택을 다시 열지 않는다. 아래 공격·성격 후보와 능력 등급은 미승인이다. 특히 수비 B~B+는 정본의 POA 신체 도구를 덮어쓰지 않는다. 최신 초기 역할 비교는 `simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`를 따른다.
+> 현행 팀 권위는 `canon/PROJECT_FREEZE.md`의 Chicago 원클럽·Minnesota 2020 전체 1순위다. 과거 Atlanta→Indiana·라이벌 Chicago 비교는 폐기 분기 이력이며 팀/콘퍼런스 선택을 다시 열지 않는다. H에서 R1 공격·성격·초기28분 방향을 채택했다. 아래 능력 등급과 승인 범위 밖의 상세는 여전히 미승인이다. 특히 수비 B~B+는 정본의 POA 신체 도구를 덮어쓰지 않는다. 최신 초기 역할 비교는 `simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`를 따른다.
 
 ## 1. 총괄 판정
 
@@ -134,4 +134,7 @@ Chicago 원클럽 주인공(동부)과 Minnesota 2020 전체 1순위 라이벌(�
 
 ## 11. 다음 선택 게이트
 
-`simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`의 R1 공격·성격·28분 초기 목표와 R2~R4 대안을 검토한다. 선택 기록은 아직 없다. 팀·지명 순번을 다시 묻지 않는다. R1을 승인해도 정확 신체·수비 상한·박스·건강·수상·최종 시즌 사건은 HOLD다. G 패킷의 거래 방향 선택은 별도 항목이며 라이벌 선택과 자동 결합하지 않는다.
+`simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`의 R1 공격·성격·28분 초기 목표와 R2~R4 대안을 검토한다. H에서 G 추천에 대한 사용자의 ‘이어서’로 R1 방향을 채택했다. 승인 권위는 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`이다. 팀·지명 순번과 R1 방향을 다시 묻지 않는다. R1 채택 이후에도 정확 신체·수비 상한·박스·건강·수상·최종 시즌 사건은 HOLD다. G 패킷의 거래 방향 선택은 별도 항목이며 라이벌 선택과 자동 결합하지 않는다.
+
+
+위 3절의 전체 전성기 능력표를 일괄 승인한 것이 아니다. 현행 채택 범위는 감속·풀업·선제 패스의 SG/SF 창조 윙, 차분한 분석형/승부욕·통제욕, 초기 목표28분이다. 고유한 경기 표현과 정확 능력 등급은 후속 성장 원장으로 구체화한다.

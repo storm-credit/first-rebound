@@ -84,7 +84,7 @@
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
-| 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | 공격·성격 후보 NOT_CANON; Chicago 원클럽/Minnesota #1 승인 보존, 폐기된 2023 이적 분기 재개방 금지 |
+| 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | H의 R1 공격·성격·초기28분 방향 채택; 정확 능력 등급 HOLD, Chicago/MIN 승인 보존 |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |
 | 회차별 작업 입력 | `context-packs/` | 파생물, 정본 변경 불가 |
 | 독립 검수 | `reviews/INDEPENDENT_REVIEW.md` | 설계자와 분리된 관점 |
@@ -234,3 +234,14 @@
 |---|---|---|
 | 라이벌 초기 역할·거래 방향 선택 패킷 | `simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`, `CHICAGO_2020_21_AUTHOR_PACKET.json` | 4후보·2지표, R1/T1~T4 미승인; 건강/계약/최종시즌 HOLD |
 | 전체 정규시즌 조건부 수치 | `simulation/NBA_2020_21_FULL_SEASON.json` | F의1080경기149경로 보존; G는 기존 경로 조회 |
+
+
+## O-15F14-H 방향 채택과 가용성 근거
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| R1 및 T1~T4의 현행 작가 승인 | `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json` | 방향 승인; 정확 건강/계약/시즌 승인 제외 |
+| 1079행 실제 가용성 근거 대조 | `simulation/CHICAGO_2020_21_EXECUTION_ADOPTION.md` 및 JSON, `CHICAGO_2020_21_AVAILABILITY_RECONCILIATION.csv` | 170우선 근거 항목, 대체 가용성 미선택 |
+| 실존16명924관측행 | `simulation/NBA_2020_21_MOVED_PLAYER_OBSERVATIONS.csv` 및 PROVENANCE JSON | 고정 공개 미러; 공식 새 추출/진단 자료 아님 |
+
+G의 `selected:false`와 당시 미승인 표현은 승인 전 이력이다. 최신 승인 판단은 H 정본 기록을 읽는다. F 수치 권위는 불변이다.

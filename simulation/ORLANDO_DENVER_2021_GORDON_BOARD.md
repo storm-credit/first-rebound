@@ -88,3 +88,10 @@ Orlando의 상대 로스터를 만들 때는 최소한 `Vučević 잔류 + Gordo
 ## 2026-09-11 실행 후속 위치
 
 A/B/C/D 비교와 A_NEGOTIATION_LEAN은 유지한다. 최신 급여 근거·미확보 실행 필드·선택별 재계산 범위는 `ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md`의 O-15F14-D 절이 권위다. 이번 추가40경기 계산에 A를 조건부 사용했지만, 정확 거래가 승인되거나 전체 cap/픽 조건이 통과한 것은 아니다.
+
+
+## O-15F14-H 최신 승인 범위 — 2026-09-11
+
+G 추천 질문에 대한 사용자의 ‘이어서’로 **A 선수/자산 방향을 채택**했다. 권위 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`. Harris·Nnaji·보호 미래1R 대 Gordon·Clark 방향과 Vučević 잔여시즌 ORL 잔류, Fournier 독립 Boston행을 각각 승인 범위대로 적용한다. 선행 본문의 A_NEGOTIATION_LEAN/작가 방향 미선택 표현은 이력이며 방향 재승인은 불요다.
+
+정확 당일 charge·보너스·선행 픽 보호/이연/전환은 이번에도 미확보다. `AUTHOR_APPROVED_DIRECTION / EXACT_EXECUTION_HOLD`이며 거래 실행 PASS가 아니다. 신규 건강·후속 등록은 별도다. 최신 대조는 `CHICAGO_2020_21_EXECUTION_ADOPTION.md`와 달력 CSV를 따른다. G/F 수치 산출물은 당시 조건부 기록으로 보존한다.
