@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14-I 건강·등록 사건 회수와 선택된 방향의 시즌 실행 조건 정리`
-- 최근 설계 변경: `O-15F14-H R1/T1~T4 방향 채택,924관측행·1079가용성 대조·170우선 근거 항목`
-- 선행 감사 병합: `PR #151 / 456c12dea4a90f57695d4583c89d804e1acbaaf1`
+- 현재 작업: `O-15F14-J 가용성 정책 후보 압축·시즌 결산 연결`
+- 최근 설계 변경: `O-15F14-I 공식 보고서9건·39사유 항목,5경기20결장 조건·HIGH/RAPTOR 순위 반례`
+- 선행 감사 병합: `PR #152 / 0f1000ac75958357723a5bbea5c380c20c7d61c9`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
 - 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
@@ -38,7 +38,12 @@
 - 선행 E 영향 권위: `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`, `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json` (F 전량계산 이전 이력)
 - 선행 D 영향 권위: `simulation/CHICAGO_2020_21_REMAINING_PAIRED_IMPACT.md` 및 동명JSON (E 입력 이전 이력)
 
+- 최신 건강·등록 사유/결장 영향 권위: `simulation/CHICAGO_2020_21_CAUSAL_AVAILABILITY.md` 및 동명JSON; 공식 출처 `research/NBA_2020_21_CAUSAL_AVAILABILITY_SOURCES.json`; 검토 `reviews/R01_O15F14I_CAUSAL_AVAILABILITY_REVIEW.md`
+
 ## 완료
+
+- [x] O-15F14-I 공식 사유와 대체세계 인과 분리, 170우선 항목 중159항목의 조사 묶음에 사유 근거 연결·Carter겨울11 미확보 보존
+- [x] 4단독 공백8조건·Washington 동시 공백12조건 검산; HIGH/RAPTOR3반전·R1/피로0.5 시즌CHI9→10 반례, 검증7개
 
 - [x] O-15F14-H G 추천 R1/T1~T4 방향 채택 기록, 정확 계약/건강/최종시즌과 승인 범위 분리
 - [x] 고정 원본에서16명924행 추출, 목표791+Chicago감시288=1079행 대조, 우선170항목/147경기 근거 목록·검증5개
@@ -629,3 +634,10 @@ G의 추천 채택 질문에 대한 사용자 ‘이어서’를 R1과 T1~T4 방
 16명924관측행을 고정 원본3개 해시와 대조해1079행의 실제 근거를 연결했다. 신규팀14목표791행과Chicago4명감시288행을 구분한다. 우선170항목/147경기는 명시적제한9·양쪽관측긴공백111·한쪽끝공백50으로, 새 영향 미계산 배치가 아니다. 행 부재를 부상/건강으로 변환하지 않으며 시즌말 공백도 놓치지 않는다. 검증5개·JSON/CSV재현 PASS, 자체검토NOT_INDEPENDENT.
 
 다음 I는 실제 건강/등록 사건별 근거 회수와 대체 세계 유지 여부 판정, 변경 날짜만 재계산이다. 정확 계약 charge·픽은 새 원문 확보 때 해당 필드만 갱신한다. H의 새 정확 계약 사실 확보0. 전체1완료·1진행·5대기/남은6개, v0.30 PARTIAL·원고CLOSED 유지.
+
+
+## 2026-09-11 O-15F14-I 완료와 다음 작업
+
+공식 보고서9건39항목을 회수했다. 170우선항목 중159항목의 조사 묶음에 관련 사유 근거를 연결했고 Carter겨울11항목은 상세 사유 미확보다. 실제 보고 사유가 대체세계의 발병·연속 결장을 뜻하지 않는다. 5경기20결장 조건 중 HIGH/RAPTOR3조건에서 WAS승으로 반전, R1/피로0.5의 HIGH 전체시즌 경로는 CHI9→10위다. 추천LOW 결과는 유지한다. 최종 건강·시즌 확정은 아니다.
+
+검증7개·분 증명/양팀 영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT. 다음은 O-15F14-J 가용성 정책 후보 압축·시즌 결산 연결이다. 위 H의 다음 I는 이력이며 기존 R1/T1~T4 방향 재승인 불요. 전체1완료·1진행·5대기/남은6개, v0.30 PARTIAL·원고CLOSED 유지.

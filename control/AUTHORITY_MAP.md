@@ -245,3 +245,14 @@
 | 실존16명924관측행 | `simulation/NBA_2020_21_MOVED_PLAYER_OBSERVATIONS.csv` 및 PROVENANCE JSON | 고정 공개 미러; 공식 새 추출/진단 자료 아님 |
 
 G의 `selected:false`와 당시 미승인 표현은 승인 전 이력이다. 최신 승인 판단은 H 정본 기록을 읽는다. F 수치 권위는 불변이다.
+
+
+## O-15F14-I 공식 사유와 조건부 결장 영향
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| 공식 사유·인과 구분 | `research/NBA_2020_21_CAUSAL_AVAILABILITY_SOURCES.json`, `simulation/CHICAGO_2020_21_CAUSAL_AVAILABILITY.md` 및 동명JSON | 9보고서39항목; 159우선항목의 관련 사유 근거, 11미확보; 대체 건강 미선택 |
+| 단독·동시 결장 계산 | `simulation/CHICAGO_2020_21_REPORTED_ABSENCE_STRESS.json`, `simulation/CHICAGO_2020_21_JOINT_ABSENCE_STRESS.json` | 5경기20조건; HIGH/RAPTOR3반전, R1/피로0.5 CHI9→10 조건부 반례 |
+| 자체 검토 | `reviews/R01_O15F14I_CAUSAL_AVAILABILITY_REVIEW.md` | 검증7개·재현 PASS / NOT_INDEPENDENT |
+
+H는 관측 대조와 승인 범위의 권위로 보존한다. I는 보고 시점의 실제 사유와 국소 결장 시나리오를 추가하며 F의 기본1080경기 경로를 대체하지 않는다. 현행 다음 단계는 J 가용성 정책 후보 압축·시즌 결산 연결이다. 최종 시즌은 HOLD다.
