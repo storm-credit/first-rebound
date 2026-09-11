@@ -973,3 +973,12 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 ## 2026-09-11 O-15F14-F 정규시즌 입력 전량 연결
 
 최신 조건부 권위는 `simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`, `simulation/NBA_2020_21_FULL_SEASON.json`이다. 잔여859를 전량 계산해1080경기1198구간149경로 연결, 입력큐는완료다. 이는 실제배정유지·비상역할·거래/건강 조건 아래의 진단이며 최종시즌 사건 확정이 아니다. Chicago9/10위는조건부이고,MIN21~39범위를성장prior로승격하지않는다. 비상역할6점/48분 손실의BOS–DET반례는기본149경로와분리한다. 다음G는거래·성장·역할전제및최종사건작가검토패킷이며또다른859계산단계가아니다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·자체검토NOT_INDEPENDENT 유지.
+
+
+## 2026-09-11 O-15F14-G 작가 검토 패킷
+
+권위 `simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md` 및 `CHICAGO_2020_21_AUTHOR_PACKET.json`. F의1080경기 수치 권위는 보존하고 라이벌4후보·2지표의 전체 경로를 조회했다. R1 감속/풀업/선제 패스의 SG/SF 창조 윙·28분을 추천하되 선택은 아직 없다. 주판정 제안 BPM F038와 RAPTOR F138의5경기 차이를 보존하고, R1 MIN24승은 국소 민감도23~26으로 정확 기록 HOLD다.
+
+T1 Gordon A, T2 Vučević ORL 잔여시즌 잔류, T3 Fournier BOS 독립 경로, T4 Powell TOR/Hood POR 잔류는 사건 방향 검토 대상이다. 정확 charge·픽 보호/이연/전환·EX04/06 후속계약·EX07 실제 건강·EX08 최종시즌/추첨은 미해소다. 새 출처 확보나 거래 실행 PASS로 승격하지 않는다. 14개 목표 날짜 가용성은 실제 GP가 아니다. Chicago A·Chicago 원클럽·MIN #1 재승인 불요, 라이벌 전성기 수비/정확 신체·박스 미승인 유지.
+
+검증4개·JSON재현 통과, 자체검토NOT_INDEPENDENT. 다음 H는 작가 방향 선택 반영과 시즌 필수 실행 전제 회수다. 미계산859 작업을 다시 만들지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false, 전체 남은6개 유지.

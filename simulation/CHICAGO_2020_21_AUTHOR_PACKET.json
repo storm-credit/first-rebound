@@ -1,0 +1,2152 @@
+{
+  "stage": "O-15F14-G",
+  "status": "AUTHOR_PACKET_READY_NOT_SEASON_LOCK",
+  "benchmark_players": {
+    "Anthony Edwards": {
+      "RAPTOR_RS_EB": -2.3185353767682537,
+      "BPM_MAR25_EB": -2.6862896315338474
+    },
+    "Cole Anthony": {
+      "RAPTOR_RS_EB": -2.8781878311276254,
+      "BPM_MAR25_EB": -1.640491901619676
+    },
+    "Immanuel Quickley": {
+      "RAPTOR_RS_EB": 0.5020208647434821,
+      "BPM_MAR25_EB": 0.6662034463590883
+    },
+    "Killian Hayes": {
+      "RAPTOR_RS_EB": -3.2846887882227733,
+      "BPM_MAR25_EB": -1.7533101045296167
+    },
+    "LaMelo Ball": {
+      "RAPTOR_RS_EB": 0.15761540287755174,
+      "BPM_MAR25_EB": 1.4580496780128795
+    },
+    "Luka Doncic": {
+      "RAPTOR_RS_EB": 3.612230130710194,
+      "BPM_MAR25_EB": 4.339443742098609
+    },
+    "Tyrese Haliburton": {
+      "RAPTOR_RS_EB": -0.6025105561519825,
+      "BPM_MAR25_EB": 1.0252302025782687
+    }
+  },
+  "rival_candidates": [
+    {
+      "id": "R1",
+      "name": "기본 적응형",
+      "minutes": 28,
+      "players": [
+        "LaMelo Ball",
+        "Tyrese Haliburton",
+        "Immanuel Quickley"
+      ],
+      "aggregation": "median",
+      "recommended": true,
+      "meaning": "상위 동기 창조자 비교선, 득점·감속·선제 패스는 강점이나 팀 전체 구원은 선지급하지 않음",
+      "selected": false,
+      "methods": {
+        "RAPTOR_RS_EB": {
+          "effective_rating": 0.15761540287755174,
+          "bridge_indices": [
+            647,
+            683
+          ],
+          "case_id": "F138",
+          "chicago_record": [
+            32,
+            40
+          ],
+          "chicago_seed": 9,
+          "minnesota_record": [
+            24,
+            48
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "CHI",
+              "CHA"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "CHI",
+              "CHA",
+              "WAS",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 48,
+            "BOS": 36,
+            "CHA": 32,
+            "CHI": 32,
+            "CLE": 22,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 39,
+            "HOU": 17,
+            "IND": 36,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 24,
+            "NOP": 30,
+            "NYK": 41,
+            "OKC": 22,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 40,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 32
+          },
+          "changed_game_ids": [
+            "2021-01-20_MIN_ORL",
+            "2021-01-30_CHI_POR",
+            "2021-02-05_IND_NOP",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS",
+            "2021-05-08_IND_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              12
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              -0.3423845971224483,
+              0.6576154028775517
+            ],
+            "case_ids": [
+              "F138",
+              "F148"
+            ],
+            "chicago_wins": [
+              32
+            ],
+            "minnesota_wins": [
+              23,
+              24
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        },
+        "BPM_MAR25_EB": {
+          "effective_rating": 1.0252302025782687,
+          "bridge_indices": [
+            114,
+            163
+          ],
+          "case_id": "F038",
+          "chicago_record": [
+            31,
+            41
+          ],
+          "chicago_seed": 10,
+          "minnesota_record": [
+            24,
+            48
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "WAS",
+              "CHI"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "WAS",
+              "CHI",
+              "CHA",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 49,
+            "BOS": 36,
+            "CHA": 30,
+            "CHI": 31,
+            "CLE": 22,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 40,
+            "HOU": 17,
+            "IND": 34,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 24,
+            "NOP": 31,
+            "NYK": 41,
+            "OKC": 22,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 41,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 33
+          },
+          "changed_game_ids": [
+            "2020-12-27_CHA_BKN",
+            "2021-01-20_MIN_ORL",
+            "2021-02-20_CHA_GSW",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              10
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              0.5252302025782687,
+              1.5252302025782687
+            ],
+            "case_ids": [
+              "F036",
+              "F037",
+              "F038"
+            ],
+            "chicago_wins": [
+              31
+            ],
+            "minnesota_wins": [
+              24,
+              25,
+              26
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        }
+      }
+    },
+    {
+      "id": "R2",
+      "name": "완만한 적응형",
+      "minutes": 24,
+      "players": [
+        "LaMelo Ball",
+        "Tyrese Haliburton",
+        "Immanuel Quickley",
+        "Anthony Edwards",
+        "Cole Anthony",
+        "Killian Hayes"
+      ],
+      "aggregation": "median",
+      "recommended": false,
+      "meaning": "더 넓은 동기 비교선과 제한된 역할; 재활 이력만으로 부상·능력 저하를 확정한 것은 아님",
+      "selected": false,
+      "methods": {
+        "RAPTOR_RS_EB": {
+          "effective_rating": -1.460522966460118,
+          "bridge_indices": [
+            589,
+            617
+          ],
+          "case_id": "F148",
+          "chicago_record": [
+            32,
+            40
+          ],
+          "chicago_seed": 9,
+          "minnesota_record": [
+            23,
+            49
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "CHI",
+              "CHA"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "CHI",
+              "CHA",
+              "WAS",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 48,
+            "BOS": 36,
+            "CHA": 32,
+            "CHI": 32,
+            "CLE": 22,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 39,
+            "HOU": 17,
+            "IND": 36,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 23,
+            "NOP": 30,
+            "NYK": 41,
+            "OKC": 22,
+            "ORL": 21,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 40,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 32
+          },
+          "changed_game_ids": [
+            "2021-01-30_CHI_POR",
+            "2021-02-05_IND_NOP",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS",
+            "2021-05-08_IND_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              12
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              -1.960522966460118,
+              -0.960522966460118
+            ],
+            "case_ids": [
+              "F148"
+            ],
+            "chicago_wins": [
+              32
+            ],
+            "minnesota_wins": [
+              23
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        },
+        "BPM_MAR25_EB": {
+          "effective_rating": -0.4871442276302938,
+          "bridge_indices": [
+            17,
+            65
+          ],
+          "case_id": "F038",
+          "chicago_record": [
+            31,
+            41
+          ],
+          "chicago_seed": 10,
+          "minnesota_record": [
+            24,
+            48
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "WAS",
+              "CHI"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "WAS",
+              "CHI",
+              "CHA",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 49,
+            "BOS": 36,
+            "CHA": 30,
+            "CHI": 31,
+            "CLE": 22,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 40,
+            "HOU": 17,
+            "IND": 34,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 24,
+            "NOP": 31,
+            "NYK": 41,
+            "OKC": 22,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 41,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 33
+          },
+          "changed_game_ids": [
+            "2020-12-27_CHA_BKN",
+            "2021-01-20_MIN_ORL",
+            "2021-02-20_CHA_GSW",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              10
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              -0.9871442276302937,
+              0.012855772369706198
+            ],
+            "case_ids": [
+              "F038",
+              "F042"
+            ],
+            "chicago_wins": [
+              31
+            ],
+            "minnesota_wins": [
+              23,
+              24
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        }
+      }
+    },
+    {
+      "id": "R3",
+      "name": "신인 상단형",
+      "minutes": 32,
+      "players": [
+        "LaMelo Ball",
+        "Tyrese Haliburton",
+        "Immanuel Quickley"
+      ],
+      "aggregation": "max",
+      "recommended": false,
+      "meaning": "상위 동기 계수 상단과 높은 부하; 지표별 상단 선수가 다르므로 특정 선수 복제가 아님",
+      "selected": false,
+      "methods": {
+        "RAPTOR_RS_EB": {
+          "effective_rating": 0.5020208647434821,
+          "bridge_indices": [
+            719,
+            755
+          ],
+          "case_id": "F138",
+          "chicago_record": [
+            32,
+            40
+          ],
+          "chicago_seed": 9,
+          "minnesota_record": [
+            24,
+            48
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "CHI",
+              "CHA"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "CHI",
+              "CHA",
+              "WAS",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 48,
+            "BOS": 36,
+            "CHA": 32,
+            "CHI": 32,
+            "CLE": 22,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 39,
+            "HOU": 17,
+            "IND": 36,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 24,
+            "NOP": 30,
+            "NYK": 41,
+            "OKC": 22,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 40,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 32
+          },
+          "changed_game_ids": [
+            "2021-01-20_MIN_ORL",
+            "2021-01-30_CHI_POR",
+            "2021-02-05_IND_NOP",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS",
+            "2021-05-08_IND_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              12
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              0.002020864743482065,
+              1.002020864743482
+            ],
+            "case_ids": [
+              "F138"
+            ],
+            "chicago_wins": [
+              32
+            ],
+            "minnesota_wins": [
+              24
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        },
+        "BPM_MAR25_EB": {
+          "effective_rating": 1.4580496780128795,
+          "bridge_indices": [
+            214,
+            264
+          ],
+          "case_id": "F036",
+          "chicago_record": [
+            31,
+            41
+          ],
+          "chicago_seed": 10,
+          "minnesota_record": [
+            26,
+            46
+          ],
+          "minnesota_seed": 13,
+          "first_playin_pairings": [
+            [
+              "WAS",
+              "CHI"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "WAS",
+              "CHI",
+              "CHA",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "SAC",
+              "NOP",
+              "MIN",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 49,
+            "BOS": 36,
+            "CHA": 30,
+            "CHI": 31,
+            "CLE": 21,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 40,
+            "HOU": 17,
+            "IND": 34,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 38,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 26,
+            "NOP": 31,
+            "NYK": 41,
+            "OKC": 21,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 41,
+            "SAC": 32,
+            "SAS": 34,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 33
+          },
+          "changed_game_ids": [
+            "2020-12-27_CHA_BKN",
+            "2021-01-20_MIN_ORL",
+            "2021-02-01_CLE_MIN",
+            "2021-02-06_OKC_MIN",
+            "2021-02-20_CHA_GSW",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-05-06_TOR_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              10
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              0.9580496780128795,
+              1.9580496780128795
+            ],
+            "case_ids": [
+              "F028",
+              "F035",
+              "F036"
+            ],
+            "chicago_wins": [
+              31
+            ],
+            "minnesota_wins": [
+              26,
+              27,
+              28
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        }
+      }
+    },
+    {
+      "id": "R4",
+      "name": "즉시 스타 스트레스",
+      "minutes": 32,
+      "players": [
+        "Luka Doncic"
+      ],
+      "aggregation": "median",
+      "recommended": false,
+      "meaning": "2020–21의3년차 스타를 쓰는 의도적 과상향 반례; 신인 비교표본으로 사용 금지",
+      "selected": false,
+      "methods": {
+        "RAPTOR_RS_EB": {
+          "effective_rating": 3.612230130710194,
+          "bridge_indices": [
+            726,
+            762
+          ],
+          "case_id": "F109",
+          "chicago_record": [
+            32,
+            40
+          ],
+          "chicago_seed": 9,
+          "minnesota_record": [
+            31,
+            41
+          ],
+          "minnesota_seed": 11,
+          "first_playin_pairings": [
+            [
+              "CHI",
+              "CHA"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "NYK",
+              "ATL",
+              "MIA",
+              "BOS",
+              "IND",
+              "CHI",
+              "CHA",
+              "WAS",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "SAS",
+              "MIN",
+              "SAC",
+              "NOP",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 48,
+            "BOS": 36,
+            "CHA": 32,
+            "CHI": 32,
+            "CLE": 21,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 39,
+            "HOU": 17,
+            "IND": 36,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 37,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 31,
+            "NOP": 29,
+            "NYK": 41,
+            "OKC": 21,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 40,
+            "SAC": 31,
+            "SAS": 32,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 32
+          },
+          "changed_game_ids": [
+            "2021-01-09_MIN_SAS",
+            "2021-01-20_MIN_ORL",
+            "2021-01-30_CHI_POR",
+            "2021-02-01_CLE_MIN",
+            "2021-02-03_SAS_MIN",
+            "2021-02-05_IND_NOP",
+            "2021-02-06_OKC_MIN",
+            "2021-02-28_SAC_CHA",
+            "2021-04-16_SAS_POR",
+            "2021-04-21_SAC_MIN",
+            "2021-05-01_MIN_NOP",
+            "2021-05-05_MIN_MEM",
+            "2021-05-06_TOR_WAS",
+            "2021-05-08_IND_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              10,
+              13
+            ],
+            "PLAYOFF": [
+              15,
+              16
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              3.112230130710194,
+              4.112230130710194
+            ],
+            "case_ids": [
+              "F102",
+              "F105",
+              "F106",
+              "F108",
+              "F109",
+              "F110"
+            ],
+            "chicago_wins": [
+              32
+            ],
+            "minnesota_wins": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        },
+        "BPM_MAR25_EB": {
+          "effective_rating": 4.339443742098609,
+          "bridge_indices": [
+            223,
+            273
+          ],
+          "case_id": "F018",
+          "chicago_record": [
+            31,
+            41
+          ],
+          "chicago_seed": 10,
+          "minnesota_record": [
+            35,
+            37
+          ],
+          "minnesota_seed": 10,
+          "first_playin_pairings": [
+            [
+              "IND",
+              "CHI"
+            ]
+          ],
+          "full_seeds": {
+            "EAST": [
+              "PHI",
+              "BKN",
+              "MIL",
+              "ATL",
+              "MIA",
+              "NYK",
+              "BOS",
+              "WAS",
+              "IND",
+              "CHI",
+              "CHA",
+              "TOR",
+              "CLE",
+              "ORL",
+              "DET"
+            ],
+            "WEST": [
+              "UTA",
+              "PHX",
+              "DEN",
+              "LAC",
+              "DAL",
+              "LAL",
+              "POR",
+              "GSW",
+              "MEM",
+              "MIN",
+              "SAS",
+              "SAC",
+              "NOP",
+              "OKC",
+              "HOU"
+            ]
+          },
+          "team_wins": {
+            "ATL": 41,
+            "BKN": 49,
+            "BOS": 36,
+            "CHA": 29,
+            "CHI": 31,
+            "CLE": 21,
+            "DAL": 42,
+            "DEN": 47,
+            "DET": 20,
+            "GSW": 40,
+            "HOU": 17,
+            "IND": 33,
+            "LAC": 47,
+            "LAL": 42,
+            "MEM": 37,
+            "MIA": 40,
+            "MIL": 46,
+            "MIN": 35,
+            "NOP": 30,
+            "NYK": 40,
+            "OKC": 21,
+            "ORL": 20,
+            "PHI": 49,
+            "PHX": 51,
+            "POR": 40,
+            "SAC": 31,
+            "SAS": 32,
+            "TOR": 28,
+            "UTA": 52,
+            "WAS": 33
+          },
+          "changed_game_ids": [
+            "2020-12-27_CHA_BKN",
+            "2021-01-09_MIN_SAS",
+            "2021-01-20_MIN_ORL",
+            "2021-02-01_CLE_MIN",
+            "2021-02-03_SAS_MIN",
+            "2021-02-06_OKC_MIN",
+            "2021-02-12_CHA_MIN",
+            "2021-02-20_CHA_GSW",
+            "2021-02-21_NYK_MIN",
+            "2021-02-28_SAC_CHA",
+            "2021-03-13_MIN_POR",
+            "2021-04-07_IND_MIN",
+            "2021-04-16_SAS_POR",
+            "2021-04-21_SAC_MIN",
+            "2021-05-01_MIN_NOP",
+            "2021-05-05_MIN_MEM",
+            "2021-05-06_TOR_WAS"
+          ],
+          "chicago_record_position_ranges": {
+            "LOTTERY": [
+              9,
+              10
+            ],
+            "PLAYOFF": [
+              15,
+              15
+            ]
+          },
+          "both_porter_conditions_same_game_ids": true,
+          "plus_minus_half_point_stress": {
+            "rating_interval": [
+              3.8394437420986094,
+              4.839443742098609
+            ],
+            "case_ids": [
+              "F014",
+              "F015",
+              "F016",
+              "F018"
+            ],
+            "chicago_wins": [
+              31
+            ],
+            "minnesota_wins": [
+              35,
+              36,
+              37,
+              38
+            ],
+            "scope": "Local parameter sensitivity, not a confidence interval or an approved player prior"
+          }
+        }
+      }
+    }
+  ],
+  "recommended_rival_profile": "R1",
+  "recommended_identity": {
+    "attack": "SG/SF 창조 윙, 감속·풋워크·풀업·선제 패스로 첫 이점 생성",
+    "personality": "차분한 분석형, 강한 승부욕·통제욕; 상시 모욕/허세가 아닌 선택 책임으로 에고 표현",
+    "limits": "정확 신체·수비 전성기 상한·신인 박스/수상은 미승인. POA 신체 도구를 삭제하거나 즉시 전업PG로 변경하지 않음"
+  },
+  "primary_method_proposal": "BPM_MAR25_EB",
+  "primary_method_reason": "후반 평가의 기준시점과 맞는3/25 snapshot을 임시 주판정,시즌전체 RAPTOR는 사후 교차검사. 전반에는3/25도미래정보이므로예측모델주장금지.",
+  "recommended_primary_case": "F038",
+  "crosscheck_case": "F138",
+  "cross_method_changed_game_ids": [
+    "2020-12-27_CHA_BKN",
+    "2021-01-30_CHI_POR",
+    "2021-02-05_IND_NOP",
+    "2021-02-20_CHA_GSW",
+    "2021-05-08_IND_WAS"
+  ],
+  "scoring_results_not_locked": true,
+  "transaction_scenario_events": [
+    {
+      "id": "T1",
+      "event": "Gordon/Clark to DEN for Harris/Nnaji and one protected future1R",
+      "authority": "GORDON_A_NEGOTIATION_LEAN_NOT_AUTHOR_LOCKED",
+      "cost": "Nnaji acquired at24 and the separate acquisition-pick debt both remain costs; exact transfer terms/charges still HOLD"
+    },
+    {
+      "id": "T2",
+      "event": "Vucevic stays in ORL for remainder of2020–21",
+      "authority": "WORKING_CONDITION_NOT_AUTHOR_LOCKED",
+      "cost": "No Carter/Porter/Chicago1R return; Bamba/Nnaji development congestion remains"
+    },
+    {
+      "id": "T3",
+      "event": "Fournier Boston route retained independently",
+      "authority": "WORKING_CONDITION_NOT_AUTHOR_LOCKED",
+      "cost": "Boston exception/picks/registration and Orlando objective separate from Gordon"
+    },
+    {
+      "id": "T4",
+      "event": "Powell stays TOR; Hood stays POR",
+      "authority": "WORKING_CONDITION_NOT_AUTHOR_LOCKED",
+      "cost": "Portland loses actual Powell reinforcement; future contracts and asset path must follow this branch"
+    },
+    {
+      "id": "T5",
+      "event": "Incumbent followup contracts/core structures retained conditionally",
+      "authority": "EX04_EX06_HOLD",
+      "cost": "Hall/Wagner/Parker and other registrations require causal justification, not automatic actual-history copying"
+    }
+  ],
+  "conditional_target_calendar": [
+    {
+      "team": "CHA",
+      "player": "Anthony Edwards",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_CLE_CHA",
+        "2020-12-26_CHA_OKC",
+        "2020-12-27_CHA_BKN",
+        "2020-12-30_DAL_CHA",
+        "2021-01-01_CHA_MEM",
+        "2021-01-02_PHI_CHA",
+        "2021-01-04_PHI_CHA",
+        "2021-01-06_ATL_CHA",
+        "2021-01-08_NOP_CHA",
+        "2021-01-09_CHA_ATL",
+        "2021-01-11_CHA_NYK",
+        "2021-01-13_CHA_DAL",
+        "2021-01-14_TOR_CHA",
+        "2021-01-16_TOR_CHA",
+        "2021-01-22_CHA_CHI",
+        "2021-01-24_ORL_CHA",
+        "2021-01-25_ORL_CHA",
+        "2021-01-27_CHA_IND",
+        "2021-01-29_CHA_IND",
+        "2021-01-30_CHA_MIL",
+        "2021-02-01_MIA_CHA",
+        "2021-02-03_CHA_PHI",
+        "2021-02-05_CHA_UTA",
+        "2021-02-07_CHA_WAS",
+        "2021-02-08_CHA_HOU",
+        "2021-02-10_MEM_CHA",
+        "2021-02-12_CHA_MIN",
+        "2021-02-14_CHA_SAS",
+        "2021-02-20_CHA_GSW",
+        "2021-02-22_UTA_CHA",
+        "2021-02-24_PHX_CHA",
+        "2021-02-26_GSW_CHA",
+        "2021-02-28_SAC_CHA",
+        "2021-03-01_POR_CHA",
+        "2021-03-03_MIN_CHA",
+        "2021-03-11_CHA_DET",
+        "2021-03-13_CHA_TOR",
+        "2021-03-15_CHA_SAC",
+        "2021-03-17_DEN_CHA",
+        "2021-03-18_LAL_CHA",
+        "2021-03-20_LAC_CHA",
+        "2021-03-22_SAS_CHA",
+        "2021-03-24_HOU_CHA",
+        "2021-03-26_CHA_MIA",
+        "2021-03-28_CHA_PHX",
+        "2021-03-30_WAS_CHA",
+        "2021-04-01_BKN_CHA",
+        "2021-04-02_IND_CHA",
+        "2021-04-04_BOS_CHA",
+        "2021-04-07_OKC_CHA",
+        "2021-04-09_MIL_CHA",
+        "2021-04-11_CHA_ATL",
+        "2021-04-13_CHA_LAL",
+        "2021-04-14_CHA_CLE",
+        "2021-04-16_BKN_CHA",
+        "2021-04-18_CHA_POR",
+        "2021-04-20_NYK_CHA",
+        "2021-04-22_CHI_CHA",
+        "2021-04-23_CHA_CLE",
+        "2021-04-25_CHA_BOS",
+        "2021-04-27_CHA_MIL",
+        "2021-04-28_BOS_CHA",
+        "2021-05-01_CHA_DET",
+        "2021-05-02_CHA_MIA",
+        "2021-05-04_DET_CHA",
+        "2021-05-06_CHA_CHI",
+        "2021-05-07_CHA_ORL",
+        "2021-05-09_CHA_NOP",
+        "2021-05-11_CHA_DEN",
+        "2021-05-13_CHA_LAC",
+        "2021-05-15_NYK_CHA",
+        "2021-05-16_WAS_CHA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "CHA",
+      "player": "Tyrell Terry",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_CLE_CHA",
+        "2020-12-26_CHA_OKC",
+        "2020-12-27_CHA_BKN",
+        "2020-12-30_DAL_CHA",
+        "2021-01-01_CHA_MEM",
+        "2021-01-02_PHI_CHA",
+        "2021-01-04_PHI_CHA",
+        "2021-01-06_ATL_CHA",
+        "2021-01-08_NOP_CHA",
+        "2021-01-09_CHA_ATL",
+        "2021-01-11_CHA_NYK",
+        "2021-01-13_CHA_DAL",
+        "2021-01-14_TOR_CHA",
+        "2021-01-16_TOR_CHA",
+        "2021-01-22_CHA_CHI",
+        "2021-01-24_ORL_CHA",
+        "2021-01-25_ORL_CHA",
+        "2021-01-27_CHA_IND",
+        "2021-01-29_CHA_IND",
+        "2021-01-30_CHA_MIL",
+        "2021-02-01_MIA_CHA",
+        "2021-02-03_CHA_PHI",
+        "2021-02-05_CHA_UTA",
+        "2021-02-07_CHA_WAS",
+        "2021-02-08_CHA_HOU",
+        "2021-02-10_MEM_CHA",
+        "2021-02-12_CHA_MIN",
+        "2021-02-14_CHA_SAS",
+        "2021-02-20_CHA_GSW",
+        "2021-02-22_UTA_CHA",
+        "2021-02-24_PHX_CHA",
+        "2021-02-26_GSW_CHA",
+        "2021-02-28_SAC_CHA",
+        "2021-03-01_POR_CHA",
+        "2021-03-03_MIN_CHA",
+        "2021-03-11_CHA_DET",
+        "2021-03-13_CHA_TOR",
+        "2021-03-15_CHA_SAC",
+        "2021-03-17_DEN_CHA",
+        "2021-03-18_LAL_CHA",
+        "2021-03-20_LAC_CHA",
+        "2021-03-22_SAS_CHA",
+        "2021-03-24_HOU_CHA",
+        "2021-03-26_CHA_MIA",
+        "2021-03-28_CHA_PHX",
+        "2021-03-30_WAS_CHA",
+        "2021-04-01_BKN_CHA",
+        "2021-04-02_IND_CHA",
+        "2021-04-04_BOS_CHA",
+        "2021-04-07_OKC_CHA",
+        "2021-04-09_MIL_CHA",
+        "2021-04-11_CHA_ATL",
+        "2021-04-13_CHA_LAL",
+        "2021-04-14_CHA_CLE",
+        "2021-04-16_BKN_CHA",
+        "2021-04-18_CHA_POR",
+        "2021-04-20_NYK_CHA",
+        "2021-04-22_CHI_CHA",
+        "2021-04-23_CHA_CLE",
+        "2021-04-25_CHA_BOS",
+        "2021-04-27_CHA_MIL",
+        "2021-04-28_BOS_CHA",
+        "2021-05-01_CHA_DET",
+        "2021-05-02_CHA_MIA",
+        "2021-05-04_DET_CHA",
+        "2021-05-06_CHA_CHI",
+        "2021-05-07_CHA_ORL",
+        "2021-05-09_CHA_NOP",
+        "2021-05-11_CHA_DEN",
+        "2021-05-13_CHA_LAC",
+        "2021-05-15_NYK_CHA",
+        "2021-05-16_WAS_CHA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "DAL",
+      "player": "R.J. Hampton",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_PHX_DAL",
+        "2020-12-25_LAL_DAL",
+        "2020-12-27_LAC_DAL",
+        "2020-12-30_DAL_CHA",
+        "2021-01-01_DAL_MIA",
+        "2021-01-03_CHI_DAL",
+        "2021-01-04_HOU_DAL",
+        "2021-01-07_DEN_DAL",
+        "2021-01-09_DAL_ORL",
+        "2021-01-13_CHA_DAL",
+        "2021-01-15_MIL_DAL",
+        "2021-01-17_DAL_CHI",
+        "2021-01-18_TOR_DAL",
+        "2021-01-20_IND_DAL",
+        "2021-01-22_SAS_DAL",
+        "2021-01-23_DAL_HOU",
+        "2021-01-25_DAL_DEN",
+        "2021-01-27_UTA_DAL",
+        "2021-01-29_UTA_DAL",
+        "2021-01-30_DAL_PHX",
+        "2021-02-01_DAL_PHX",
+        "2021-02-03_ATL_DAL",
+        "2021-02-04_DAL_GSW",
+        "2021-02-06_DAL_GSW",
+        "2021-02-08_DAL_MIN",
+        "2021-02-10_DAL_ATL",
+        "2021-02-12_DAL_NOP",
+        "2021-02-14_DAL_POR",
+        "2021-02-22_DAL_MEM",
+        "2021-02-23_DAL_BOS",
+        "2021-02-25_PHI_DAL",
+        "2021-02-27_BKN_DAL",
+        "2021-03-01_ORL_DAL",
+        "2021-03-03_DAL_OKC",
+        "2021-03-10_DAL_SAS",
+        "2021-03-11_OKC_DAL",
+        "2021-03-13_DEN_DAL",
+        "2021-03-15_DAL_LAC",
+        "2021-03-17_DAL_LAC",
+        "2021-03-19_POR_DAL",
+        "2021-03-21_POR_DAL",
+        "2021-03-24_MIN_DAL",
+        "2021-03-26_DAL_IND",
+        "2021-03-27_NOP_DAL",
+        "2021-03-29_OKC_DAL",
+        "2021-03-31_BOS_DAL",
+        "2021-04-02_NYK_DAL",
+        "2021-04-03_WAS_DAL",
+        "2021-04-05_DAL_UTA",
+        "2021-04-07_HOU_DAL",
+        "2021-04-08_DAL_MIL",
+        "2021-04-11_DAL_SAS",
+        "2021-04-12_DAL_PHI",
+        "2021-04-14_MEM_DAL",
+        "2021-04-16_DAL_NYK",
+        "2021-04-18_DAL_SAC",
+        "2021-04-21_DAL_DET",
+        "2021-04-22_DAL_LAL",
+        "2021-04-24_DAL_LAL",
+        "2021-04-26_SAC_DAL",
+        "2021-04-27_GSW_DAL",
+        "2021-04-29_DET_DAL",
+        "2021-05-01_DAL_WAS",
+        "2021-05-02_DAL_SAC",
+        "2021-05-04_MIA_DAL",
+        "2021-05-06_DAL_BKN",
+        "2021-05-07_DAL_CLE",
+        "2021-05-09_CLE_DAL",
+        "2021-05-11_MEM_DAL",
+        "2021-05-12_DAL_NOP",
+        "2021-05-14_DAL_TOR",
+        "2021-05-16_MIN_DAL"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "DEN",
+      "player": "Saddiq Bey",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_DEN_SAC",
+        "2020-12-25_DEN_LAC",
+        "2020-12-28_DEN_HOU",
+        "2020-12-29_SAC_DEN",
+        "2021-01-01_DEN_PHX",
+        "2021-01-03_MIN_DEN",
+        "2021-01-05_DEN_MIN",
+        "2021-01-07_DEN_DAL",
+        "2021-01-09_PHI_DEN",
+        "2021-01-10_NYK_DEN",
+        "2021-01-12_BKN_DEN",
+        "2021-01-14_DEN_GSW",
+        "2021-01-17_DEN_UTA",
+        "2021-01-19_DEN_OKC",
+        "2021-01-22_PHX_DEN",
+        "2021-01-23_PHX_DEN",
+        "2021-01-25_DAL_DEN",
+        "2021-01-27_MIA_DEN",
+        "2021-01-29_SAS_DEN",
+        "2021-01-31_DEN_UTA",
+        "2021-02-04_LAL_DEN",
+        "2021-02-06_SAC_DEN",
+        "2021-02-08_DEN_MIL",
+        "2021-02-10_DEN_CLE",
+        "2021-02-12_DEN_OKC",
+        "2021-02-14_DEN_LAL",
+        "2021-02-16_BOS_DEN",
+        "2021-02-17_WAS_DEN",
+        "2021-02-19_CLE_DEN",
+        "2021-02-21_ATL_DEN",
+        "2021-02-23_DEN_POR",
+        "2021-02-25_DEN_WAS",
+        "2021-02-27_OKC_DEN",
+        "2021-03-01_CHI_DEN",
+        "2021-03-02_MIL_DEN",
+        "2021-03-04_IND_DEN",
+        "2021-03-12_MEM_DEN",
+        "2021-03-13_DEN_DAL",
+        "2021-03-15_DEN_IND",
+        "2021-03-17_DEN_CHA",
+        "2021-03-19_DEN_CHI",
+        "2021-03-21_DEN_NOP",
+        "2021-03-23_ORL_DEN",
+        "2021-03-24_TOR_DEN",
+        "2021-03-26_NOP_DEN",
+        "2021-03-28_DEN_ATL",
+        "2021-03-30_DEN_PHI",
+        "2021-04-01_LAC_DEN",
+        "2021-04-04_DEN_ORL",
+        "2021-04-06_DEN_DET",
+        "2021-04-07_DEN_SAS",
+        "2021-04-09_DEN_SAS",
+        "2021-04-11_DEN_BOS",
+        "2021-04-12_GSW_DEN",
+        "2021-04-14_DEN_MIA",
+        "2021-04-16_HOU_DEN",
+        "2021-04-19_DEN_MEM",
+        "2021-04-21_POR_DEN",
+        "2021-04-23_GSW_DEN",
+        "2021-04-24_DEN_HOU",
+        "2021-04-26_DEN_MEM",
+        "2021-04-28_DEN_NOP",
+        "2021-04-29_DEN_TOR",
+        "2021-05-01_LAC_DEN",
+        "2021-05-03_LAL_DEN",
+        "2021-05-05_DEN_NYK",
+        "2021-05-07_UTA_DEN",
+        "2021-05-08_DEN_BKN",
+        "2021-05-11_CHA_DEN",
+        "2021-05-13_MIN_DEN",
+        "2021-05-14_DET_DEN",
+        "2021-05-16_POR_DEN"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "DET",
+      "player": "Kira Lewis Jr.",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_MIN_DET",
+        "2020-12-26_DET_CLE",
+        "2020-12-28_ATL_DET",
+        "2020-12-29_DET_GSW",
+        "2021-01-01_DET_BOS",
+        "2021-01-03_DET_BOS",
+        "2021-01-04_MIL_DET",
+        "2021-01-06_MIL_DET",
+        "2021-01-08_DET_PHX",
+        "2021-01-10_DET_UTA",
+        "2021-01-13_DET_MIL",
+        "2021-01-16_MIA_DET",
+        "2021-01-18_MIA_DET",
+        "2021-01-20_ATL_DET",
+        "2021-01-22_DET_HOU",
+        "2021-01-23_DET_PHI",
+        "2021-01-25_DET_PHI",
+        "2021-01-27_CLE_DET",
+        "2021-01-28_DET_LAL",
+        "2021-01-30_GSW_DET",
+        "2021-02-02_UTA_DET",
+        "2021-02-05_PHX_DET",
+        "2021-02-06_LAL_DET",
+        "2021-02-09_DET_BKN",
+        "2021-02-11_DET_IND",
+        "2021-02-12_BOS_DET",
+        "2021-02-14_DET_NOP",
+        "2021-02-17_CHI_DET",
+        "2021-02-19_MEM_DET",
+        "2021-02-21_ORL_DET",
+        "2021-02-23_ORL_DET",
+        "2021-02-24_NOP_DET",
+        "2021-02-26_DET_SAC",
+        "2021-02-28_DET_NYK",
+        "2021-03-03_TOR_DET",
+        "2021-03-04_NYK_DET",
+        "2021-03-11_CHA_DET",
+        "2021-03-13_BKN_DET",
+        "2021-03-15_DET_SAS",
+        "2021-03-17_DET_TOR",
+        "2021-03-19_HOU_DET",
+        "2021-03-21_DET_CHI",
+        "2021-03-24_IND_DET",
+        "2021-03-26_DET_BKN",
+        "2021-03-27_WAS_DET",
+        "2021-03-29_DET_TOR",
+        "2021-03-31_DET_POR",
+        "2021-04-01_DET_WAS",
+        "2021-04-03_DET_NYK",
+        "2021-04-05_OKC_DET",
+        "2021-04-06_DEN_DET",
+        "2021-04-08_SAC_DET",
+        "2021-04-10_POR_DET",
+        "2021-04-11_LAC_DET",
+        "2021-04-14_DET_LAC",
+        "2021-04-16_DET_OKC",
+        "2021-04-17_WAS_DET",
+        "2021-04-19_DET_CLE",
+        "2021-04-21_DAL_DET",
+        "2021-04-22_SAS_DET",
+        "2021-04-24_IND_DET",
+        "2021-04-26_DET_ATL",
+        "2021-04-29_DET_DAL",
+        "2021-05-01_CHA_DET",
+        "2021-05-03_DET_ORL",
+        "2021-05-04_DET_CHA",
+        "2021-05-06_DET_MEM",
+        "2021-05-08_PHI_DET",
+        "2021-05-09_DET_CHI",
+        "2021-05-11_DET_MIN",
+        "2021-05-14_DET_DEN",
+        "2021-05-16_DET_MIA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "DET",
+      "player": "Patrick Williams",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_MIN_DET",
+        "2020-12-26_DET_CLE",
+        "2020-12-28_ATL_DET",
+        "2020-12-29_DET_GSW",
+        "2021-01-01_DET_BOS",
+        "2021-01-03_DET_BOS",
+        "2021-01-04_MIL_DET",
+        "2021-01-06_MIL_DET",
+        "2021-01-08_DET_PHX",
+        "2021-01-10_DET_UTA",
+        "2021-01-13_DET_MIL",
+        "2021-01-16_MIA_DET",
+        "2021-01-18_MIA_DET",
+        "2021-01-20_ATL_DET",
+        "2021-01-22_DET_HOU",
+        "2021-01-23_DET_PHI",
+        "2021-01-25_DET_PHI",
+        "2021-01-27_CLE_DET",
+        "2021-01-28_DET_LAL",
+        "2021-01-30_GSW_DET",
+        "2021-02-02_UTA_DET",
+        "2021-02-05_PHX_DET",
+        "2021-02-06_LAL_DET",
+        "2021-02-09_DET_BKN",
+        "2021-02-11_DET_IND",
+        "2021-02-12_BOS_DET",
+        "2021-02-14_DET_NOP",
+        "2021-02-17_CHI_DET",
+        "2021-02-19_MEM_DET",
+        "2021-02-21_ORL_DET",
+        "2021-02-23_ORL_DET",
+        "2021-02-24_NOP_DET",
+        "2021-02-26_DET_SAC",
+        "2021-02-28_DET_NYK",
+        "2021-03-03_TOR_DET",
+        "2021-03-04_NYK_DET",
+        "2021-03-11_CHA_DET",
+        "2021-03-13_BKN_DET",
+        "2021-03-15_DET_SAS",
+        "2021-03-17_DET_TOR",
+        "2021-03-19_HOU_DET",
+        "2021-03-21_DET_CHI",
+        "2021-03-24_IND_DET",
+        "2021-03-26_DET_BKN",
+        "2021-03-27_WAS_DET",
+        "2021-03-29_DET_TOR",
+        "2021-03-31_DET_POR",
+        "2021-04-01_DET_WAS",
+        "2021-04-03_DET_NYK",
+        "2021-04-05_OKC_DET",
+        "2021-04-06_DEN_DET",
+        "2021-04-08_SAC_DET",
+        "2021-04-10_POR_DET",
+        "2021-04-11_LAC_DET",
+        "2021-04-14_DET_LAC",
+        "2021-04-16_DET_OKC",
+        "2021-04-17_WAS_DET",
+        "2021-04-19_DET_CLE",
+        "2021-04-21_DAL_DET",
+        "2021-04-22_SAS_DET",
+        "2021-04-24_IND_DET",
+        "2021-04-26_DET_ATL",
+        "2021-04-29_DET_DAL",
+        "2021-05-01_CHA_DET",
+        "2021-05-03_DET_ORL",
+        "2021-05-04_DET_CHA",
+        "2021-05-06_DET_MEM",
+        "2021-05-08_PHI_DET",
+        "2021-05-09_DET_CHI",
+        "2021-05-11_DET_MIN",
+        "2021-05-14_DET_DEN",
+        "2021-05-16_DET_MIA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "MIN",
+      "player": "Fictional Rival",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_MIN_DET",
+        "2020-12-26_UTA_MIN",
+        "2020-12-27_LAL_MIN",
+        "2020-12-29_LAC_MIN",
+        "2021-01-01_MIN_WAS",
+        "2021-01-03_MIN_DEN",
+        "2021-01-05_DEN_MIN",
+        "2021-01-07_POR_MIN",
+        "2021-01-09_MIN_SAS",
+        "2021-01-10_MIN_SAS",
+        "2021-01-13_MIN_MEM",
+        "2021-01-18_ATL_MIN",
+        "2021-01-20_MIN_ORL",
+        "2021-01-22_MIN_ATL",
+        "2021-01-23_MIN_NOP",
+        "2021-01-25_GSW_MIN",
+        "2021-01-27_GSW_MIN",
+        "2021-01-29_MIN_PHI",
+        "2021-01-31_MIN_CLE",
+        "2021-02-01_CLE_MIN",
+        "2021-02-03_SAS_MIN",
+        "2021-02-05_OKC_MIN",
+        "2021-02-06_OKC_MIN",
+        "2021-02-08_DAL_MIN",
+        "2021-02-10_MIN_LAC",
+        "2021-02-12_CHA_MIN",
+        "2021-02-14_TOR_MIN",
+        "2021-02-16_MIN_LAL",
+        "2021-02-17_MIN_IND",
+        "2021-02-19_MIN_TOR",
+        "2021-02-21_NYK_MIN",
+        "2021-02-23_MIL_MIN",
+        "2021-02-24_CHI_MIN",
+        "2021-02-27_WAS_MIN",
+        "2021-02-28_MIN_PHX",
+        "2021-03-03_MIN_CHA",
+        "2021-03-11_NOP_MIN",
+        "2021-03-13_MIN_POR",
+        "2021-03-14_MIN_POR",
+        "2021-03-16_LAL_MIN",
+        "2021-03-18_PHX_MIN",
+        "2021-03-19_PHX_MIN",
+        "2021-03-22_MIN_OKC",
+        "2021-03-24_MIN_DAL",
+        "2021-03-26_MIN_HOU",
+        "2021-03-27_MIN_HOU",
+        "2021-03-29_BKN_MIN",
+        "2021-03-31_MIN_NYK",
+        "2021-04-02_MEM_MIN",
+        "2021-04-03_PHI_MIN",
+        "2021-04-05_MIN_SAC",
+        "2021-04-07_IND_MIN",
+        "2021-04-09_BOS_MIN",
+        "2021-04-11_MIN_CHI",
+        "2021-04-13_MIN_BKN",
+        "2021-04-14_MIN_MIL",
+        "2021-04-16_MIN_MIA",
+        "2021-04-18_LAC_MIN",
+        "2021-04-20_SAC_MIN",
+        "2021-04-21_SAC_MIN",
+        "2021-04-24_UTA_MIN",
+        "2021-04-26_MIN_UTA",
+        "2021-04-27_HOU_MIN",
+        "2021-04-29_MIN_GSW",
+        "2021-05-01_MIN_NOP",
+        "2021-05-05_MIN_MEM",
+        "2021-05-07_MIA_MIN",
+        "2021-05-09_ORL_MIN",
+        "2021-05-11_DET_MIN",
+        "2021-05-13_MIN_DEN",
+        "2021-05-15_MIN_BOS",
+        "2021-05-16_MIN_DAL"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "NOP",
+      "player": "Killian Hayes",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_TOR_NOP",
+        "2020-12-25_MIA_NOP",
+        "2020-12-27_NOP_SAS",
+        "2020-12-29_PHX_NOP",
+        "2020-12-31_OKC_NOP",
+        "2021-01-02_NOP_TOR",
+        "2021-01-04_NOP_IND",
+        "2021-01-06_NOP_OKC",
+        "2021-01-08_NOP_CHA",
+        "2021-01-13_LAC_NOP",
+        "2021-01-15_LAL_NOP",
+        "2021-01-17_SAC_NOP",
+        "2021-01-19_UTA_NOP",
+        "2021-01-21_UTA_NOP",
+        "2021-01-23_MIN_NOP",
+        "2021-01-27_NOP_WAS",
+        "2021-01-29_NOP_MIL",
+        "2021-01-30_NOP_HOU",
+        "2021-02-01_NOP_SAC",
+        "2021-02-03_NOP_PHX",
+        "2021-02-05_IND_NOP",
+        "2021-02-06_NOP_MEM",
+        "2021-02-09_NOP_HOU",
+        "2021-02-10_CHI_NOP",
+        "2021-02-12_DAL_NOP",
+        "2021-02-14_DET_NOP",
+        "2021-02-16_MEM_NOP",
+        "2021-02-17_NOP_POR",
+        "2021-02-19_NOP_PHX",
+        "2021-02-21_NOP_BOS",
+        "2021-02-24_NOP_DET",
+        "2021-02-25_MIL_NOP",
+        "2021-02-27_SAS_NOP",
+        "2021-03-01_NOP_UTA",
+        "2021-03-03_NOP_CHI",
+        "2021-03-04_NOP_MIA",
+        "2021-03-11_NOP_MIN",
+        "2021-03-12_NOP_CLE",
+        "2021-03-14_NOP_LAC",
+        "2021-03-16_POR_NOP",
+        "2021-03-18_POR_NOP",
+        "2021-03-21_DEN_NOP",
+        "2021-03-23_NOP_LAL",
+        "2021-03-26_NOP_DEN",
+        "2021-03-27_NOP_DAL",
+        "2021-03-29_BOS_NOP",
+        "2021-04-01_NOP_ORL",
+        "2021-04-02_NOP_ATL",
+        "2021-04-04_HOU_NOP",
+        "2021-04-06_ATL_NOP",
+        "2021-04-07_BKN_NOP",
+        "2021-04-09_NOP_PHI",
+        "2021-04-11_CLE_NOP",
+        "2021-04-12_NOP_SAC",
+        "2021-04-14_NOP_NYK",
+        "2021-04-16_WAS_NOP",
+        "2021-04-18_NYK_NOP",
+        "2021-04-20_NOP_BKN",
+        "2021-04-22_ORL_NOP",
+        "2021-04-24_NOP_SAS",
+        "2021-04-26_NOP_LAC",
+        "2021-04-28_DEN_NOP",
+        "2021-04-29_OKC_NOP",
+        "2021-05-01_MIN_NOP",
+        "2021-05-03_NOP_GSW",
+        "2021-05-04_NOP_GSW",
+        "2021-05-07_PHI_NOP",
+        "2021-05-09_CHA_NOP",
+        "2021-05-10_MEM_NOP",
+        "2021-05-12_DAL_NOP",
+        "2021-05-14_GSW_NOP",
+        "2021-05-16_NOP_LAL"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "ORL",
+      "player": "Nikola Vucevic",
+      "target_game_count": 28,
+      "event_ids": [
+        "2021-03-26_ORL_POR",
+        "2021-03-28_LAL_ORL",
+        "2021-03-30_LAC_ORL",
+        "2021-04-01_NOP_ORL",
+        "2021-04-03_UTA_ORL",
+        "2021-04-04_DEN_ORL",
+        "2021-04-07_ORL_WAS",
+        "2021-04-09_ORL_IND",
+        "2021-04-11_ORL_MIL",
+        "2021-04-12_ORL_SAS",
+        "2021-04-14_CHI_ORL",
+        "2021-04-16_TOR_ORL",
+        "2021-04-18_ORL_HOU",
+        "2021-04-20_ATL_ORL",
+        "2021-04-22_ORL_NOP",
+        "2021-04-25_ORL_IND",
+        "2021-04-26_ORL_LAL",
+        "2021-04-28_CLE_ORL",
+        "2021-04-30_MEM_ORL",
+        "2021-05-01_ORL_MEM",
+        "2021-05-03_DET_ORL",
+        "2021-05-05_ORL_BOS",
+        "2021-05-07_CHA_ORL",
+        "2021-05-09_ORL_MIN",
+        "2021-05-11_MIL_ORL",
+        "2021-05-13_ATL_ORL",
+        "2021-05-14_PHI_ORL",
+        "2021-05-16_PHI_ORL"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "ORL",
+      "player": "Zeke Nnaji",
+      "target_game_count": 28,
+      "event_ids": [
+        "2021-03-26_ORL_POR",
+        "2021-03-28_LAL_ORL",
+        "2021-03-30_LAC_ORL",
+        "2021-04-01_NOP_ORL",
+        "2021-04-03_UTA_ORL",
+        "2021-04-04_DEN_ORL",
+        "2021-04-07_ORL_WAS",
+        "2021-04-09_ORL_IND",
+        "2021-04-11_ORL_MIL",
+        "2021-04-12_ORL_SAS",
+        "2021-04-14_CHI_ORL",
+        "2021-04-16_TOR_ORL",
+        "2021-04-18_ORL_HOU",
+        "2021-04-20_ATL_ORL",
+        "2021-04-22_ORL_NOP",
+        "2021-04-25_ORL_IND",
+        "2021-04-26_ORL_LAL",
+        "2021-04-28_CLE_ORL",
+        "2021-04-30_MEM_ORL",
+        "2021-05-01_ORL_MEM",
+        "2021-05-03_DET_ORL",
+        "2021-05-05_ORL_BOS",
+        "2021-05-07_CHA_ORL",
+        "2021-05-09_ORL_MIN",
+        "2021-05-11_MIL_ORL",
+        "2021-05-13_ATL_ORL",
+        "2021-05-14_PHI_ORL",
+        "2021-05-16_PHI_ORL"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "POR",
+      "player": "Rodney Hood",
+      "target_game_count": 29,
+      "event_ids": [
+        "2021-03-25_MIA_POR",
+        "2021-03-26_ORL_POR",
+        "2021-03-28_TOR_POR",
+        "2021-03-31_DET_POR",
+        "2021-04-02_POR_MIL",
+        "2021-04-03_POR_OKC",
+        "2021-04-06_LAC_POR",
+        "2021-04-08_UTA_POR",
+        "2021-04-10_POR_DET",
+        "2021-04-11_POR_MIA",
+        "2021-04-13_POR_BOS",
+        "2021-04-16_SAS_POR",
+        "2021-04-18_CHA_POR",
+        "2021-04-20_POR_LAC",
+        "2021-04-21_POR_DEN",
+        "2021-04-23_POR_MEM",
+        "2021-04-25_POR_MEM",
+        "2021-04-27_IND_POR",
+        "2021-04-28_MEM_POR",
+        "2021-04-30_BKN_POR",
+        "2021-05-02_BOS_POR",
+        "2021-05-03_ATL_POR",
+        "2021-05-05_CLE_POR",
+        "2021-05-07_POR_LAL",
+        "2021-05-08_POR_SAS",
+        "2021-05-10_POR_HOU",
+        "2021-05-12_UTA_POR",
+        "2021-05-13_PHX_POR",
+        "2021-05-16_POR_DEN"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "TOR",
+      "player": "Norman Powell",
+      "target_game_count": 28,
+      "event_ids": [
+        "2021-03-26_TOR_PHX",
+        "2021-03-28_TOR_POR",
+        "2021-03-29_DET_TOR",
+        "2021-03-31_OKC_TOR",
+        "2021-04-02_TOR_GSW",
+        "2021-04-05_TOR_WAS",
+        "2021-04-06_TOR_LAL",
+        "2021-04-08_TOR_CHI",
+        "2021-04-10_CLE_TOR",
+        "2021-04-11_NYK_TOR",
+        "2021-04-13_TOR_ATL",
+        "2021-04-14_TOR_SAS",
+        "2021-04-16_TOR_ORL",
+        "2021-04-18_TOR_OKC",
+        "2021-04-21_TOR_BKN",
+        "2021-04-24_NYK_TOR",
+        "2021-04-26_TOR_CLE",
+        "2021-04-27_TOR_BKN",
+        "2021-04-29_DEN_TOR",
+        "2021-05-01_UTA_TOR",
+        "2021-05-02_LAL_TOR",
+        "2021-05-04_LAC_TOR",
+        "2021-05-06_TOR_WAS",
+        "2021-05-08_TOR_MEM",
+        "2021-05-11_TOR_LAC",
+        "2021-05-13_CHI_TOR",
+        "2021-05-14_DAL_TOR",
+        "2021-05-16_TOR_IND"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "WAS",
+      "player": "Gary Trent Jr.",
+      "target_game_count": 72,
+      "event_ids": [
+        "2020-12-23_PHI_WAS",
+        "2020-12-26_WAS_ORL",
+        "2020-12-27_WAS_ORL",
+        "2020-12-29_WAS_CHI",
+        "2020-12-31_WAS_CHI",
+        "2021-01-01_MIN_WAS",
+        "2021-01-03_BKN_WAS",
+        "2021-01-06_PHI_WAS",
+        "2021-01-08_BOS_WAS",
+        "2021-01-09_WAS_MIA",
+        "2021-01-11_WAS_PHX",
+        "2021-01-24_SAS_WAS",
+        "2021-01-26_HOU_WAS",
+        "2021-01-27_NOP_WAS",
+        "2021-01-29_WAS_ATL",
+        "2021-01-31_WAS_BKN",
+        "2021-02-02_WAS_POR",
+        "2021-02-03_MIA_WAS",
+        "2021-02-05_MIA_WAS",
+        "2021-02-07_CHA_WAS",
+        "2021-02-08_CHI_WAS",
+        "2021-02-10_WAS_TOR",
+        "2021-02-12_WAS_NYK",
+        "2021-02-14_WAS_BOS",
+        "2021-02-15_WAS_HOU",
+        "2021-02-17_WAS_DEN",
+        "2021-02-20_POR_WAS",
+        "2021-02-22_LAL_WAS",
+        "2021-02-23_LAC_WAS",
+        "2021-02-25_DEN_WAS",
+        "2021-02-27_WAS_MIN",
+        "2021-02-28_BOS_WAS",
+        "2021-03-02_WAS_MEM",
+        "2021-03-04_WAS_LAC",
+        "2021-03-10_MEM_WAS",
+        "2021-03-12_WAS_PHI",
+        "2021-03-13_WAS_MIL",
+        "2021-03-15_WAS_MIL",
+        "2021-03-17_WAS_SAC",
+        "2021-03-18_WAS_UTA",
+        "2021-03-21_BKN_WAS",
+        "2021-03-23_NYK_WAS",
+        "2021-03-25_NYK_WAS",
+        "2021-03-27_WAS_DET",
+        "2021-03-29_WAS_IND",
+        "2021-03-30_WAS_CHA",
+        "2021-04-01_DET_WAS",
+        "2021-04-03_WAS_DAL",
+        "2021-04-05_TOR_WAS",
+        "2021-04-07_ORL_WAS",
+        "2021-04-09_GSW_WAS",
+        "2021-04-10_PHX_WAS",
+        "2021-04-12_UTA_WAS",
+        "2021-04-14_SAC_WAS",
+        "2021-04-16_WAS_NOP",
+        "2021-04-17_WAS_DET",
+        "2021-04-19_WAS_OKC",
+        "2021-04-21_WAS_GSW",
+        "2021-04-23_OKC_WAS",
+        "2021-04-25_WAS_CLE",
+        "2021-04-26_WAS_SAS",
+        "2021-04-28_WAS_LAL",
+        "2021-04-30_CLE_WAS",
+        "2021-05-01_DAL_WAS",
+        "2021-05-03_WAS_IND",
+        "2021-05-05_MIL_WAS",
+        "2021-05-06_TOR_WAS",
+        "2021-05-08_IND_WAS",
+        "2021-05-10_ATL_WAS",
+        "2021-05-12_ATL_WAS",
+        "2021-05-14_WAS_CLE",
+        "2021-05-16_WAS_CHA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    },
+    {
+      "team": "WAS",
+      "player": "Troy Brown Jr.",
+      "target_game_count": 30,
+      "event_ids": [
+        "2021-03-25_NYK_WAS",
+        "2021-03-27_WAS_DET",
+        "2021-03-29_WAS_IND",
+        "2021-03-30_WAS_CHA",
+        "2021-04-01_DET_WAS",
+        "2021-04-03_WAS_DAL",
+        "2021-04-05_TOR_WAS",
+        "2021-04-07_ORL_WAS",
+        "2021-04-09_GSW_WAS",
+        "2021-04-10_PHX_WAS",
+        "2021-04-12_UTA_WAS",
+        "2021-04-14_SAC_WAS",
+        "2021-04-16_WAS_NOP",
+        "2021-04-17_WAS_DET",
+        "2021-04-19_WAS_OKC",
+        "2021-04-21_WAS_GSW",
+        "2021-04-23_OKC_WAS",
+        "2021-04-25_WAS_CLE",
+        "2021-04-26_WAS_SAS",
+        "2021-04-28_WAS_LAL",
+        "2021-04-30_CLE_WAS",
+        "2021-05-01_DAL_WAS",
+        "2021-05-03_WAS_IND",
+        "2021-05-05_MIL_WAS",
+        "2021-05-06_TOR_WAS",
+        "2021-05-08_IND_WAS",
+        "2021-05-10_ATL_WAS",
+        "2021-05-12_ATL_WAS",
+        "2021-05-14_WAS_CLE",
+        "2021-05-16_WAS_CHA"
+      ],
+      "meaning": "Conditional target-date availability, not observed GP or author-approved health"
+    }
+  ],
+  "approval_scope": {
+    "creative_choices": [
+      "R1공격/성격/초기역할 방향",
+      "T1~T4 사건 방향과 대가"
+    ],
+    "not_approved_by_this_choice": [
+      "정확 거래 charge·보호/이연/전환 조항",
+      "T5 후속 계약·실제 건강 사건",
+      "72경기 완전가용·개별선수초·정확박스/수상",
+      "최종시즌승패·플레이인·lottery",
+      "원고 개방"
+    ]
+  },
+  "conditions": [
+    "Fixed LOW_MINUTES, BASE protagonist/LaMelo prior, fatigue0.5. No daily metric/rival-rating mixing.",
+    "R1 benchmark median of three successful same-class perimeter creators; a transparent design calibration, not a validated transfer model or unseen scouting evidence.",
+    "R4 explicitly uses a third-year star; prohibited from masquerading as a rookie cohort.",
+    "F emergency-role costs0..3 preserve seven directions;6-point stress counterexample remains unresolved outside these baseline cases.",
+    "The target calendar exposes full target-date availability assumptions. It does not approve them or treat empirical coefficient ranges as hard bounds."
+  ],
+  "upstream_sha256": {
+    "NBA_2020_21_FULL_SEASON.json": "fece775c14aa2784f05ab682c8ed0ffbe3b00096e00b3e1390fb2cb0003ae6b3",
+    "NBA_2020_21_FINAL859_MINUTES.json": "1e4e24aebffe756c0fd5f619eaed1805b08b9904b388b9d47229aa5704881f7b",
+    "CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+    "CHICAGO_2020_21_POSTDEADLINE_RAPTOR_RS.csv": "50d36284aa1032bde2871261d8392a7076650902dc36f60cc4e3a3c0226cf79b",
+    "build_chicago_2020_21_author_packet.py": "4a20fd09691211eff7b27f3303aba469e5329d20a36ffd8be9dabce1591fdb9f"
+  },
+  "selected": false,
+  "manuscript_allowed": false
+}
