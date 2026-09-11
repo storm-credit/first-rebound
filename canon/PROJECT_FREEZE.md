@@ -968,3 +968,8 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 ## 2026-09-11 O-15F14-E 시즌 정책과 접전80
 
 최신 조건부 권위는 `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`와 `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json`이다. 잔여939정책색인·80경기 영향·564공동실력구간65경로 연결을 완료했다. 실제 포지션 교체 미확인인 MIN Vanderbilt 스몰볼 역할은 조건부 분석안이며 정본 승격이 아니다. 다른859경기 실제유지와 거래·건강 조건이 남아 Chicago9/10위는 최종순위가 아니다. 선행 산출물은 이력으로 보존한다. 다음 O-15F14-F에서 잔여영향·실행조건·시즌선택 보드로 연결한다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false, 자체검토NOT_INDEPENDENT 유지.
+
+
+## 2026-09-11 O-15F14-F 정규시즌 입력 전량 연결
+
+최신 조건부 권위는 `simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`, `simulation/NBA_2020_21_FULL_SEASON.json`이다. 잔여859를 전량 계산해1080경기1198구간149경로 연결, 입력큐는완료다. 이는 실제배정유지·비상역할·거래/건강 조건 아래의 진단이며 최종시즌 사건 확정이 아니다. Chicago9/10위는조건부이고,MIN21~39범위를성장prior로승격하지않는다. 비상역할6점/48분 손실의BOS–DET반례는기본149경로와분리한다. 다음G는거래·성장·역할전제및최종사건작가검토패킷이며또다른859계산단계가아니다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·자체검토NOT_INDEPENDENT 유지.
