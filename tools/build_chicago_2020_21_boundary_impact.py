@@ -89,8 +89,9 @@ def policies(team, day, high):
     return [],{},[],[],{}
 
 
-def valid(players, team):
-    return len(set(players)) == 5 and all(set(players)&set(role) for role in ROLES[team].values())
+def valid(players, team, roles=None):
+    roles = ROLES if roles is None else roles
+    return len(set(players)) == 5 and all(set(players)&set(role) for role in roles[team].values())
 
 
 def specs():
@@ -132,12 +133,12 @@ def specs():
     return result
 
 
-def solve(b):
+def solve(b, roles=None):
     if not b['changed']:return None
     import numpy as np
     from scipy.optimize import linprog
     players=list(b['alternate_seconds'])
-    lineups=[c for c in itertools.combinations(players,5) if valid(c,b['team'])]
+    lineups=[c for c in itertools.combinations(players,5) if valid(c,b['team'],roles)]
     start=tuple(b['starters']);assert start in lineups,(b['event_id'],b['team'],start)
     mat=np.array([[int(p in c) for c in lineups] for p in players]+[[1]*len(lineups)])
     target=list(b['alternate_seconds'].values())+[b['game_duration_seconds']]
