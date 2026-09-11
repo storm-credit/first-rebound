@@ -212,3 +212,9 @@
 | O-15F14-C 포스트시즌연결 | `simulation/CHICAGO_2020_21_POSTSEASON_ROUTES.md`, 동명JSON | 5경로·동서부순위·320분기·조건부14팀;시즌/추첨미선택 |
 | O-15F14-C 잔여큐/관측 | `simulation/NBA_2020_21_REMAINING_BOUNDARY_QUEUE.csv`, `simulation/NBA_2020_21_REMAINING_BOUNDARY_OBSERVATIONS.csv`, `simulation/NBA_2020_21_REMAINING_BOUNDARY_PROVENANCE.json` | 979큐·280경계·40경기1082행;새영향미계산 |
 | O-15F14-C 자체검토 | `reviews/R01_O15F14C_POSTSEASON_REVIEW.md` | NOT_INDEPENDENT |
+
+
+| O-15F14-D 추가40 영향·최신 리그 연결 | `simulation/CHICAGO_2020_21_REMAINING_PAIRED_IMPACT.md`, 동명JSON | 조건부 영향·새7경로; 최종시즌 미선택 |
+| O-15F14-D 미계산 큐 | `simulation/NBA_2020_21_AFTER_40_PENDING_QUEUE.csv` | 939경기; 과거 C 분류를 최신 안전판정으로 사용 금지 |
+| Gordon 실행 입력 최신 상태 | `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` D 후속 | 명목급여/charge 구분·대안별 영향; 정확 거래 HOLD |
+| O-15F14-D 자체검토 | `reviews/R01_O15F14D_REMAINING_IMPACT_REVIEW.md` | NOT_INDEPENDENT |

@@ -958,3 +958,8 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 ## 2026-09-10 O-15F14-C 동서부·플레이인·픽 연결
 
 권위 `simulation/CHICAGO_2020_21_POSTSEASON_ROUTES.md` 및동명JSON. 72조건의5정확경로·동서부순위·320플레이인분기·경로별25추첨명단·픽성적순서연결완료. Chicago첫상대는조건에따라WAS/CHA이며고정아님. 새승패·확률·추첨미선택. 잔여979경기×5단일변경에서280경계,그중40접전1082행확보;영향미계산. 다음40영향·Gordon실행보드구체화. EX01~08및전체파급HOLD. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false유지. 자체검토NOT_INDEPENDENT.
+
+
+## 2026-09-11 O-15F14-D 추가 경계 영향
+
+최신 조건부 계산 권위는 `simulation/CHICAGO_2020_21_REMAINING_PAIRED_IMPACT.md` 및 동명JSON이다. 추가40경기의 양 팀 영향을 기존 시즌 조건에 연결했으며, 이전 C의5경로 진단을 새 입력에 맞춰 확장했다. Gordon 실행 입력은 `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` D 후속에 부분 구체화했다. 새 경기 결과·거래·건강을 작가 확정으로 승격하지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false 유지. 자체 검토 NOT_INDEPENDENT.

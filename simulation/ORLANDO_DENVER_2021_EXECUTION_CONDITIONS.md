@@ -51,3 +51,48 @@ Fournier·Teague·Wagner 후속은 별도 사건이다. 한 가지가 닫혔다�
 후반 일정은 **19개 상대 팀, 29경기**다. Denver와의 직접 경기는 없고 Orlando는 04-14 한 경기다. Gordon 의무가 미정인 동안에도 다른 경기의 Chicago 생산성 prior와 상대 입력 수집은 진행할 수 있다. 단, 다른 상대를 자동 무변경 처리하지 않으며 Minnesota·Charlotte·Detroit·Boston 등 기존 드래프트/거래 접촉을 개별 판정한다. Denver의 리그 전체 순위 영향은 시즌 순위·2021 lottery 연결 시 회수한다.
 
 직접 경기 목록은 `CHICAGO_2020_21_POSTDEADLINE_OPPONENT_QUEUE.csv`로 고정했다. 이 표는 작업 큐이며 상대 roster 통과 증명이 아니다. 다음 O-15F7은 각 행에 가용성·변경 선수·분 donor·생산성 입력을 붙이는 작업이다. 정확 부상/거래가 미정인 행만 조건부 분기 상태로 남긴다.
+
+## 2026-09-11 O-15F14-D 실행 입력 구체화
+
+상태는 `EXECUTION_INPUTS_PARTLY_RECOVERED / EXACT_CHARGE_PICK_AND_AUTHOR_CHOICE_HOLD`다. 아래는 선행 A/B/C/D 보드를 실행 가능한 입력과 재계산 범위에 연결한다. 거래 성사 판정은 아니다.
+
+### 급여 입력: 확보값과 미확보값
+
+| 선수·슬롯 | 이번에 사용할 수 있는 값 | 정확 matching에 넣을 값 | 상태 |
+|---|---:|---|---|
+| Harris | 새로 확보한 급여 근거 없음 | 거래 전 Denver outgoing / Orlando incoming charge 각각 필요 | `null / HOLD` |
+| Gordon | 새로 확보한 급여 근거 없음 | 거래 전 Orlando outgoing / Denver incoming charge 각각 필요 | `null / HOLD` |
+| Clark | 2020–21 명목 급여 $2,000,000 | 해당 날짜의 양쪽 charge·보너스 적용은 별도 | `REPORTED_SALARY_ONLY` |
+| Nnaji 24 | 선행 120% 가정 $2,193,480 | 대체 계약 비율과 부가 charge | `CONDITIONAL_BASE_ONLY` |
+| Bey 22 | 선행 120% 가정 $2,379,840 | 대체 계약 비율과 부가 charge | `CONDITIONAL_BASE_ONLY` |
+
+Clark의 명목 급여는 이번에 본문을 읽은 [HoopsHype 급여 이력](https://hoopshype.com/player/gary-clark/salary/)에서 확인했다. 같은 페이지의 Philadelphia $18,458은 후속 계약 이력이므로 3월 25일 Denver 수취액에 합산하지 않는다. 이 페이지는 2차 급여 이력이며 당일 리그 charge 원장이 아니다.
+
+A의 선수 총액은 Denver `Harris + Nnaji24` 발신, `Gordon + Clark` 수신이다. Orlando는 반대 방향이지만 선수의 발신·수신 charge가 항상 같다고 가정하지 않는다. B는 Nnaji24 대신 Bey22를 쓰므로 **같은 120% 기본급만 비교하면 $186,360 증가**한다. C는 Nnaji/Bey와 Clark을 모두 빼므로 A에서 선수 한 명만 제거한 거래로 계산하지 않는다. 두 팀 모두 해당 예외·팀 급여·세금·보너스 기준을 충족해야 하며, 명목 급여를 채운 것만으로 cap PASS를 선언하지 않는다. 미확보 셀은 0으로 입력하지 않는다.
+
+### 미래 픽: 계약 원문 대신 만들지 않을 필드
+
+| 자산 | 이미 확인된 범위 | 여전히 비어 있는 필드 | 재개 조건 |
+|---|---|---|---|
+| 24번 권리 취득 대가 | Denver의 선행 미래 1R 지출 존재 | 최초 전달 연도·연도별 보호·이연·종료·전환 | 해당 거래 당시의 조항/보관 장부 확보 |
+| Gordon 대가 | 선행 보드의 2025~27 top-5 보호 보도 | 선행 의무와 연결된 정확 전달 문구·최종 미전달 처리 | 위 선행 의무와 한 장부로 재구성 |
+| A/B/C의 픽 | 상호 배타적인 같은 제안 자산 | 실제 선택·양 팀 동의 | 세 안에 각각 별도 픽을 추가하지 않음 |
+
+앞의 Y+2 달력은 여전히 가정 시험이다. 선행 픽이 보호로 이연될 때 후행 픽도 언제/어떻게 미뤄지는지 확인하지 않은 상태에서 2025 단일 픽으로 잠그지 않는다. 최신 미래 픽 웹페이지에 과거 의무가 없다는 사실은 과거 무부담 증거가 아니다.
+
+### 사건 선택별 입력 폐기 범위
+
+| 선택 | 새 40경기 중 직접 재계산해야 하는 입력 | 기존 계산에 대한 영향 | 남는 수용 문제 |
+|---|---|---|---|
+| A | ORL 3/28은 Vučević30·Nnaji8/12, DEN 4/21은 Bey20/24·Gordon 실제 분 조건으로 계산 완료 | CHI–ORL 4/14의 선행 A 가정과 연결 | Orlando의 빅 개발 분 경쟁·가드 유망주 부재, 양 팀 정확 거래 조건 |
+| B | ORL에 Nnaji 대신 Bey, DEN에 Bey 대신 Nnaji를 남기는 새 분 배정 필요 | 4/14 Orlando 입력과 A로 묶인 전체 시즌 경로 재생성 | Denver가 새 슈팅 윙을 포기하는 비용; Orlando 선호는 공개 사실로 단정 불가 |
+| C | ORL에 신인 없음·Clark 잔류, DEN에 Nnaji/Bey 유지·Clark 미합류 | A의 2대2 로스터/급여/분을 재사용할 수 없음 | Orlando가 신인 없는 반환을 받아들일 근거 부족 |
+| D | DEN에서 Gordon 제거 후 대체 역할 필요; ORL은 잔류/제3행선지를 먼저 지정 | A 기반 Orlando/Denver 입력을 모두 사용 중지 | 결렬은 Gordon 잔류 확정이 아님; 다른 거래를 발명하지 않음 |
+
+위 날짜는 **현재 계산된 40경기 안의 직접 접촉 목록**이다. 남은 리그 경기 전체에서 Orlando·Denver의 영향을 면제하는 목록이 아니다. A를 택해도 실제 역사와 같은 선수 GP·분·건강을 보장하지 않는다. 특히 ORL 3/28은 Harris에게 분을 주지 않았고, Bamba·Birch 관측 가용성을 보존했다. 4/14의 Hall 계약 가정을 3/28로 당겨 쓰지 않았다. DEN 4/21의 Rivers·McGee 등 후속 시장 경로는 별도 조건부 유지이며 Gordon 영입만으로 자동 승인되지 않는다.
+
+### 접근 결과와 다음 조사 범위
+
+이번 조회에서 NBA 두 구단 페이지는 iframe만 반환했다. Basketball-Reference Harris/Gordon, ProSportsTransactions Nuggets는 403, HoopsHype Harris/Gordon 및 전체 급여표는 robots 제한, Spotrac 두 선수 URL은 열기 실패였다. 실패한 페이지를 읽은 근거로 사용하지 않는다. Clark 급여 이력만 본문 확보했다. 이는 이 접근 경로의 2026-09-11 결과이며 공개 자료 전체가 없다는 주장은 아니다.
+
+따라서 Gordon 실행보드는 **부분 구체화**다. 새로 확보된 당시 장부·조항·접근 가능한 급여 원문이 있을 때 미확보 셀부터 재개한다. 현 단계에서 승패를 맞추기 위해 A를 확정하거나, 정확 조건이 없는 승인 질문을 반복하지 않는다. 40경기 조건부 영향 작업은 완료했고, 다음 리그 입력 작업은 계속할 수 있다.
