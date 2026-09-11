@@ -96,3 +96,8 @@ A의 선수 총액은 Denver `Harris + Nnaji24` 발신, `Gordon + Clark` 수신�
 이번 조회에서 NBA 두 구단 페이지는 iframe만 반환했다. Basketball-Reference Harris/Gordon, ProSportsTransactions Nuggets는 403, HoopsHype Harris/Gordon 및 전체 급여표는 robots 제한, Spotrac 두 선수 URL은 열기 실패였다. 실패한 페이지를 읽은 근거로 사용하지 않는다. Clark 급여 이력만 본문 확보했다. 이는 이 접근 경로의 2026-09-11 결과이며 공개 자료 전체가 없다는 주장은 아니다.
 
 따라서 Gordon 실행보드는 **부분 구체화**다. 새로 확보된 당시 장부·조항·접근 가능한 급여 원문이 있을 때 미확보 셀부터 재개한다. 현 단계에서 승패를 맞추기 위해 A를 확정하거나, 정확 조건이 없는 승인 질문을 반복하지 않는다. 40경기 조건부 영향 작업은 완료했고, 다음 리그 입력 작업은 계속할 수 있다.
+
+
+## 2026-09-11 O-15F14-F 전체시즌 연결 이후
+
+D의40경기표는당시범위의이력이다. 현재 `CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`에서남은859까지영향계산을완료했다. Gordon A를바꾸면해당거래검토단계이후DEN/ORL의전체정규시즌입력과선행Chicago–ORL을회수해야한다. 기존같은급여/동일계약조건은확인된사실로추가하지않았고,이번Harris/Gordon급여이력본문접근은제한되어새급여값을확보하지못했다. 정확charge·픽조항과작가의Gordon사건선택은여전히HOLD다. 역할전제는분검산가능성과별개이며ORL의Ross보조진행·Nnaji비상골밑및후속등록도작가패킷에포함한다.

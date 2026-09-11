@@ -222,3 +222,7 @@
 | O-15F14-E 시즌 정책·접전80 영향 | `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`, `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json` | 최신564구간65경로 / 다른859실제유지 / FINAL_SEASON_HOLD |
 | O-15F14-E 입력 정책·경계 색인 | `simulation/NBA_2020_21_POLICY_SCREEN.json`, `simulation/NBA_2020_21_POLICY_GAME_QUEUE.csv`, `simulation/NBA_2020_21_POLICY_TEAM_QUEUE.csv` | D7경로 입력시점,939정책/1878노출; 새65경로 안전인증 아님 |
 | O-15F14-E 관측·잔여·검토 | `simulation/NBA_2020_21_FINAL_CLOSE_OBSERVATIONS.csv`, `simulation/NBA_2020_21_FINAL_CLOSE_PROVENANCE.json`, `simulation/NBA_2020_21_AFTER_80_PENDING_QUEUE.csv`, `reviews/R01_O15F14E_SEASON_POLICY_REVIEW.md` | 80관측2169행/미계산859; 자체검토NOT_INDEPENDENT |
+
+| O-15F14-F 전체 정규시즌 연결 | `simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`, `simulation/NBA_2020_21_FULL_SEASON.json` | 최신1080경기1198구간149경로 / 입력큐완료 / FINAL_EVENTS_HOLD |
+| O-15F14-F 잔여859 관측·분·영향 | `simulation/NBA_2020_21_FINAL859_OBSERVATIONS.csv`, `simulation/NBA_2020_21_FINAL859_PROVENANCE.json`, `simulation/NBA_2020_21_FINAL859_MINUTES.json`, `simulation/NBA_2020_21_FINAL859_IMPACT.csv` | 신규1252변경조합·11748조건;실제배정가정과비상역할비용분리 |
+| O-15F14-F 시즌선택보드·검토 | `simulation/CHICAGO_2020_21_SEASON_SELECTION_BOARD.json`, `reviews/R01_O15F14F_FULL_SEASON_REVIEW.md` | 4정책군·EX01~08/다음G작가패킷;NOT_INDEPENDENT |

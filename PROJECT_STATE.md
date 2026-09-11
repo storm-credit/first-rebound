@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14-F 잔여859경기 시즌 영향 범위·거래/가용성 실행 및 시즌 선택 보드`
-- 최근 설계 변경: `O-15F14-E 939정책색인·접전80의1176영향조건·564구간65경로; 나머지859실제유지, 최종시즌 HOLD`
-- 선행 감사 병합: `PR #148 / de1e328dcd402b3fe00c0e0bd5f238b6c6173823`
+- 현재 작업: `O-15F14-G 거래·성장·역할 전제와 최종 시즌 사건의 작가 검토 패킷`
+- 최근 설계 변경: `O-15F14-F 잔여859 전량 계산·1080정규시즌1198구간149경로 연결; 입력큐완료/최종사건 HOLD`
+- 선행 감사 병합: `PR #149 / 3a98607e57a900cbd80e77b68a8ff10531d82dc1`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
 - 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
@@ -34,10 +34,15 @@
 
 - 포스트시즌 연결 권위: `simulation/CHICAGO_2020_21_POSTSEASON_ROUTES.md` 및동명JSON;잔여큐/관측/출처;검토 `reviews/R01_O15F14C_POSTSEASON_REVIEW.md`
 
-- 최신 시즌 정책·추가 경기 영향 권위: `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`, `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json`; 잔여859큐; `reviews/R01_O15F14E_SEASON_POLICY_REVIEW.md`
+- 최신 전체 정규시즌 연결 권위: `simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`, `simulation/NBA_2020_21_FULL_SEASON.json`; 선택 보드 `simulation/CHICAGO_2020_21_SEASON_SELECTION_BOARD.json`; 자체검토 `reviews/R01_O15F14F_FULL_SEASON_REVIEW.md`
+- 선행 E 영향 권위: `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`, `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json` (F 전량계산 이전 이력)
 - 선행 D 영향 권위: `simulation/CHICAGO_2020_21_REMAINING_PAIRED_IMPACT.md` 및 동명JSON (E 입력 이전 이력)
 
 ## 완료
+
+- [x] O-15F14-F 잔여859 전량·22873관측행·1252변경 분안·11748영향조건, 미계산0
+- [x] 전체1080 정규시즌1198구간·149경로 연결. Chicago조건부9/10위, 첫플레이인 상대에Indiana 추가
+- [x] 비상역할7경기 기본실패보존·336비용스트레스와BOS–DET반례,4정책군/EX01~08 시즌선택보드·검증15개
 
 - [x] O-15F14-E 잔여939경기·1878팀/날짜·25042행 정책/가용성 색인, D7경로6573가상반전 재검사
 - [x] 접전80경기2169관측행·228분안/100변경조합·1176영향조건. MIN 좁은 센터 역할 문제 교정, 스몰볼 조건 명시
@@ -590,4 +595,11 @@ D 완료 당시 다음 작업은 O-15F14-E였다. 이 문단은 E 이전 이력�
 
 최신 권위는 `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`다. 939경기 정책 색인과 그중80경기 조건부 영향을 완료했다. 71유지 중49는 양팀 실제 배정 가정이며9미정이다. MIN역할 교정 후 최종564구간·65경로로 정정했고 같은 실력 계수를 선행 시즌과 공유한다. Chicago9/10위는 다른859실제유지의 조건부 진단이다. 검증17개·재현 통과, 자체검토 NOT_INDEPENDENT.
 
-다음 **O-15F14-F는 잔여859경기의 팀/단계별 영향 범위와 거래·가용성 의존을 일괄 회수하고, 누적 리그 경계 및 최종 시즌 선택 보드로 연결**한다. 287경계/572기타는 D7경로 입력시점 분류이고 E65경로의 안전판정이 아니다. 이번80분감사는 변경 입력 없이 반복하지 않는다. 전체1완료·1진행·5대기, 진행 중 포함6개. v0.30 PARTIAL·원고CLOSED 유지.
+E 완료 당시의 다음 작업은 F였다. 아래 F에서859전량계산을 완료했으므로 이 문단의 미계산 범위는 이력이다. 287경계/572기타는 D7경로 입력시점 분류이고 E65경로의 안전판정이 아니다. 이번80분감사는 변경 입력 없이 반복하지 않는다. 전체1완료·1진행·5대기, 진행 중 포함6개. v0.30 PARTIAL·원고CLOSED 유지.
+
+
+## 2026-09-11 O-15F14-F 완료와 다음 작업
+
+정규시즌 입력큐를 닫았다. 새859경기는849시험조건유지(422양팀실제배정가정)/10라이벌변수이며, 선행221과 합쳐1080경기를1198공동실력구간149경로로 연결했다. 미계산0이지만 거래/건강/역할효율·최종시즌사건은HOLD다. 비상역할비용6점/48분에서BOS–DET2/12 HIGH/BPM/피로1의 반전 반례를 별도 보존했고 기본149경로와 섞지 않는다. 검증15개·재현 통과, 자체검토NOT_INDEPENDENT.
+
+다음 **O-15F14-G는 거래·성장·역할 전제와 최종 사건의 작가 검토 패킷을 닫는다.** 새859입력배치를 만들거나 같은 분 감사를 반복하지 않는다. 수용한 전제→전체시즌경로→플레이인→14팀/추첨→2021–23거래·계약으로 이어간다. ChicagoA선수이동 재승인불요; 정확Gordon등 타사건은 별도다. 전체1완료·1진행·5대기/남은6개·원고CLOSED 유지.
