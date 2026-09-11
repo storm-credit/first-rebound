@@ -218,3 +218,7 @@
 | O-15F14-D 미계산 큐 | `simulation/NBA_2020_21_AFTER_40_PENDING_QUEUE.csv` | 939경기; 과거 C 분류를 최신 안전판정으로 사용 금지 |
 | Gordon 실행 입력 최신 상태 | `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` D 후속 | 명목급여/charge 구분·대안별 영향; 정확 거래 HOLD |
 | O-15F14-D 자체검토 | `reviews/R01_O15F14D_REMAINING_IMPACT_REVIEW.md` | NOT_INDEPENDENT |
+
+| O-15F14-E 시즌 정책·접전80 영향 | `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`, `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json` | 최신564구간65경로 / 다른859실제유지 / FINAL_SEASON_HOLD |
+| O-15F14-E 입력 정책·경계 색인 | `simulation/NBA_2020_21_POLICY_SCREEN.json`, `simulation/NBA_2020_21_POLICY_GAME_QUEUE.csv`, `simulation/NBA_2020_21_POLICY_TEAM_QUEUE.csv` | D7경로 입력시점,939정책/1878노출; 새65경로 안전인증 아님 |
+| O-15F14-E 관측·잔여·검토 | `simulation/NBA_2020_21_FINAL_CLOSE_OBSERVATIONS.csv`, `simulation/NBA_2020_21_FINAL_CLOSE_PROVENANCE.json`, `simulation/NBA_2020_21_AFTER_80_PENDING_QUEUE.csv`, `reviews/R01_O15F14E_SEASON_POLICY_REVIEW.md` | 80관측2169행/미계산859; 자체검토NOT_INDEPENDENT |

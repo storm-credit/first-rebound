@@ -963,3 +963,8 @@ v0.8의 프리드래프트 G리그 경로는 역사 기록으로만 남기며, �
 ## 2026-09-11 O-15F14-D 추가 경계 영향
 
 최신 조건부 계산 권위는 `simulation/CHICAGO_2020_21_REMAINING_PAIRED_IMPACT.md` 및 동명JSON이다. 추가40경기의 양 팀 영향을 기존 시즌 조건에 연결했으며, 이전 C의5경로 진단을 새 입력에 맞춰 확장했다. Gordon 실행 입력은 `simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md` D 후속에 부분 구체화했다. 새 경기 결과·거래·건강을 작가 확정으로 승격하지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false 유지. 자체 검토 NOT_INDEPENDENT.
+
+
+## 2026-09-11 O-15F14-E 시즌 정책과 접전80
+
+최신 조건부 권위는 `simulation/CHICAGO_2020_21_SEASON_POLICY_CLOSE80.md`와 `simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json`이다. 잔여939정책색인·80경기 영향·564공동실력구간65경로 연결을 완료했다. 실제 포지션 교체 미확인인 MIN Vanderbilt 스몰볼 역할은 조건부 분석안이며 정본 승격이 아니다. 다른859경기 실제유지와 거래·건강 조건이 남아 Chicago9/10위는 최종순위가 아니다. 선행 산출물은 이력으로 보존한다. 다음 O-15F14-F에서 잔여영향·실행조건·시즌선택 보드로 연결한다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false, 자체검토NOT_INDEPENDENT 유지.
