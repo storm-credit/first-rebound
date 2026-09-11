@@ -84,7 +84,7 @@
 | Chicago 2019-20 impact 교차검증 총괄 맹점 검토 | `reviews/R01_CHICAGO_2019_20_IMPACT_CROSSCHECK_REVIEW.md` | CENTRAL_SEED_PASS / AUTHOR_APPROVAL_REQUIRED / NOT_INDEPENDENT |
 | 2021 거래 연쇄 독립 맹점 검토 | `reviews/R02_3Y_2021_TRANSACTION_CASCADE_REVIEW.md` | PASS_WITH_CHRONOLOGY_BLOCKER / NOT_CANON |
 | 선수 관계·비시즌 훈련·말투·트래시 토크 후보 | `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md` | 실존 우선·가상 최소화, 정확 인물·대사는 HOLD |
-| 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | AUTHOR_DIRECTION, Chicago+Indiana 충돌로 2023 목적지 재개방 가능, NOT_CANON |
+| 라이벌 NBA 공격 정체성·성격·두 한국인 장기 관계·콘퍼런스 분기 | `design/RIVAL_NBA_IDENTITY_RELATIONSHIP_MODEL.md` | 공격·성격 후보 NOT_CANON; Chicago 원클럽/Minnesota #1 승인 보존, 폐기된 2023 이적 분기 재개방 금지 |
 | 집필 허가 | `control/DESIGN_GATE.md` | 유일한 원고 잠금 권위 |
 | 회차별 작업 입력 | `context-packs/` | 파생물, 정본 변경 불가 |
 | 독립 검수 | `reviews/INDEPENDENT_REVIEW.md` | 설계자와 분리된 관점 |
@@ -226,3 +226,11 @@
 | O-15F14-F 전체 정규시즌 연결 | `simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md`, `simulation/NBA_2020_21_FULL_SEASON.json` | 최신1080경기1198구간149경로 / 입력큐완료 / FINAL_EVENTS_HOLD |
 | O-15F14-F 잔여859 관측·분·영향 | `simulation/NBA_2020_21_FINAL859_OBSERVATIONS.csv`, `simulation/NBA_2020_21_FINAL859_PROVENANCE.json`, `simulation/NBA_2020_21_FINAL859_MINUTES.json`, `simulation/NBA_2020_21_FINAL859_IMPACT.csv` | 신규1252변경조합·11748조건;실제배정가정과비상역할비용분리 |
 | O-15F14-F 시즌선택보드·검토 | `simulation/CHICAGO_2020_21_SEASON_SELECTION_BOARD.json`, `reviews/R01_O15F14F_FULL_SEASON_REVIEW.md` | 4정책군·EX01~08/다음G작가패킷;NOT_INDEPENDENT |
+
+
+## O-15F14-G 작가 검토 권위
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| 라이벌 초기 역할·거래 방향 선택 패킷 | `simulation/CHICAGO_2020_21_AUTHOR_REVIEW_PACKET.md`, `CHICAGO_2020_21_AUTHOR_PACKET.json` | 4후보·2지표, R1/T1~T4 미승인; 건강/계약/최종시즌 HOLD |
+| 전체 정규시즌 조건부 수치 | `simulation/NBA_2020_21_FULL_SEASON.json` | F의1080경기149경로 보존; G는 기존 경로 조회 |
