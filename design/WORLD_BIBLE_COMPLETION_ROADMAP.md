@@ -187,3 +187,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 권위 `simulation/NBA_2021_ASSET_CHAIN.md` 및 동명JSON, 출처 `research/NBA_2021_L_ASSET_CHAIN_SOURCES.json`. 승인된Bane30거래의MEM2025 2R출처를Boston공지에서회수했다. Fournier수취의실제TPE사용보도와후대11.05m목록을기존3시험값에대조했다.17.45m차액일치는당일charge인증이아니다. Denver선행1R미전달시2025·26 2R전환보도를회수했고Gordon연결/종료는null로보존했다.
 
 신규6개·JSON재현·diff검사PASS, 자체검토NOT_INDEPENDENT. 기존H승인/K1·L2추천·ChicagoR한도는유지한다. 사실미확보와작가선택을분리하며네K묶음전체종료0, 전체1완료/1진행/5대기·남은큰작업6개. v0.30 PARTIAL·설계/원고CLOSED·author_locked=false·season_selected=false. 다음은남은R구성/정확charge/Gordon후행/등록비용을최종실행패킷에연결한다.
+
+
+## 2026-09-12 O-15F14-L 채택 준비 색인
+
+`simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`에 K1/L2의 사건 선택3개와 기존 잔여 사실5묶음을 연결했다. 새 승인·새 시즌계산·신규확정사실은0이다. 외부 상세 본문 확보 실패를 기록하고 검색 요약은 정확charge나픽조항으로 채택하지 않았다. 다음은 F1의 R 구성 항목 회수이며, 사실 통과→사건 채택→추첨→픽 결산 순서를 유지한다. 네K묶음전체종료0, 전체1완료/1진행/5대기·남은6개. v0.30 PARTIAL·설계/원고CLOSED 유지.
