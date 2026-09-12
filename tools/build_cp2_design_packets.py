@@ -127,7 +127,9 @@ def make_samples(root=ROOT):
         s = next(s for s in structure['subacts'] if s['id'] == sid)
         a = next(a for a in structure['acts'] if a['id'] == s['parent_act'])
         refs = list(dict.fromkeys(['canon/PROJECT_FREEZE.md', 'canon/CAREER_TIMELINE.md',
-             'control/DESIGN_GATE.md', STRUCTURE, PROMISES, 'design/HOUSE_STYLE_FOUNDATION.md'] + extra))
+             'control/DESIGN_GATE.md', STRUCTURE, PROMISES, 'design/HOUSE_STYLE_FOUNDATION.md',
+             'research/STYLE_REFERENCE_ACCESS.md', 'research/STYLE_READING_OBSERVATIONS.json',
+             'research/STYLE_FUNCTION_COMPARISON.md'] + extra))
         active = [p['id'] for p in promises['promises'] if sid in [p['plant'], *p['variations'], p['payoff']]]
         out.append(dict(
             pack_id=pid, target_episode_or_design_unit=sid,
