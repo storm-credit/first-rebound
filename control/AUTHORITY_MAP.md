@@ -307,3 +307,12 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 | 공식 규약·부상/미출전·공개 급여/픽 | `research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json` | 1차/2차·날짜/계약별 기준 구분 |
 | Hall 근거·급여 산술 | `simulation/CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON | 리그 승인·정확charge·픽 종료·작가 채택 미완료 |
 | 자체검토 | `reviews/R01_O15F14L_EXECUTION_TERMS_REVIEW.md` | 신규6개·NOT_INDEPENDENT |
+
+
+## O-15F14-L Chicago 급여 범위 권위
+
+| 범위 | 권위 | 경계 |
+|---|---|---|
+| 공개 급여·rookie scale·규정 | `research/CHICAGO_2020_21_TAX_BOUND_SOURCES.json` | 시즌/옵션연차·1차/2차 구분 |
+| 15명 급여·60조건·잔여한도 | `simulation/CHICAGO_2020_21_TAX_BOUND.md` 및 동명JSON | R 실제값 null, 정확거래·순번·시즌 미채택 |
+| 자체검토 | `reviews/R01_O15F14L_CHICAGO_TAX_BOUND_REVIEW.md` | 신규6개·NOT_INDEPENDENT |

@@ -123,3 +123,8 @@ K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS는 모두 미닫힘이다
 ## L 실행 조항·급여 후속 반영
 
 `CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON을 후속 권위로 연결한다. Hall 신청의4명 결장 근거·2019규약6.08, Harris/Gordon 등8명의2차 급여 항목, Denver 선행 보호기간과 Fournier 픽 연도 일부를 회수했다. 선행 미확보 표현은 해당 범위에서 이력이다. 정확charge·리그 승인·당일 팀 세금/예외·픽 연결/종료는 미완료이며 K1/L2 추천을 작가 확정으로 올리지 않는다.
+
+
+### Chicago 비납세 범위 후속 — O-15F14-L
+
+이 문서의 다음Chicago급여합산은 `CHICAGO_2020_21_TAX_BOUND.md` 및 동명JSON에서 완료했다. 주인공순번을LOCK하지않은60조건의명단밖증가분한도는$5,609,972다. R실제값null·정확거래HOLD이며명단15명합계를다시전량수집하지않는다. 이후는R구성/Boston예외/픽연결·종료/후속charge 및K1·L2채택패킷이다.
