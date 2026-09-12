@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L 부분: 공식본문6건·날짜140행·L2 사건추천; 정확실행/시즌/추첨 HOLD`
+- 최근 설계 변경: `O-15F14-L 등록 후속: 공식본문9건 추가·ORL 16+2/추가1자리 5경기·Rivers 후속 계약 회수; 정확실행/시즌/추첨 HOLD`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -45,6 +45,7 @@
 - 최신 정규시즌 단일 추천 권위: `simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md` 및 동명JSON; 조합 `ORLANDO_2020_21_RETAINED_BACKUP_LINEUPS.json`; 검토 `reviews/R01_O15F14K_SEASON_RECOMMENDATION_REVIEW.md`
 
 - 최신 실행 근거·시즌 종료 사건 추천: `simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md` 및 동명JSON; 출처 `research/NBA_2020_21_L_EXECUTION_SOURCES.json`. L은 부분 완료이며 네 조건 묶음 모두 미닫힘.
+- 최신 등록 인원·계약 유형 후속: `simulation/ORLANDO_2020_21_REGISTRATION_LEDGER.md` 및 동명JSON; 출처 `research/NBA_2020_21_L_REGISTRATION_SOURCES.json`. 구단본문9건 추가, ORL19경기·Rivers28행 대조. 예외·charge·채택은 HOLD.
 
 ## 완료
 
