@@ -1,0 +1,93 @@
+{
+  "stage": "O-15F14-L_RESIDUAL_COMPONENTS",
+  "baseline_main": "042321496cde09219bbafae2d3918ee74a44daf3",
+  "as_of": "2021-03-25",
+  "conditions": {
+    "same_external_signing_routes": true,
+    "season_started": true,
+    "standard_roster_count": 15
+  },
+  "fa_rows": [
+    {
+      "player": "Kris Dunn",
+      "new_team": "ATL",
+      "signed_date": "2020-11-28",
+      "source_id": "RC_DUNN",
+      "conditional_previous_team_fa_amount_usd": 0,
+      "waived_salary_excluded_by_this_result": false
+    },
+    {
+      "player": "Shaquille Harrison",
+      "new_team": "UTA",
+      "signed_date": "2020-12-09",
+      "source_id": "RC_HARRISON",
+      "conditional_previous_team_fa_amount_usd": 0,
+      "waived_salary_excluded_by_this_result": false
+    },
+    {
+      "player": "Noah Vonleh",
+      "new_team": "BKN",
+      "signed_date": "2021-02-08",
+      "source_id": "RC_VONLEH",
+      "conditional_previous_team_fa_amount_usd": 0,
+      "waived_salary_excluded_by_this_result": false
+    }
+  ],
+  "incomplete_roster_charge_usd": 0,
+  "unresolved_components": [
+    {
+      "id": "WAIVED_PAY",
+      "includes": [
+        "Vonleh_CHI",
+        "Norvell_CHI",
+        "Shittu_CHI",
+        "earlier_applicable_dead_or_stretched_salary"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "OTHER_FA_RIGHTS",
+      "includes": [
+        "other_retained_free_agent_amounts_and_qualifying_or_matching_offers"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "UNSIGNED_FIRSTS",
+      "includes": [
+        "older_first_round_draft_rights_or_documented_exclusions"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "EXCEPTION_HISTORY",
+      "includes": [
+        "VII_6m2_trigger_history_and_unused_amounts"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "OTHER_ADJUSTMENTS",
+      "includes": [
+        "applicable_grievance_awards_retired_consideration_pending_agreements_offer_sheets"
+      ],
+      "amount_usd": null
+    }
+  ],
+  "complete_residual_inventory_verified": false,
+  "exact_residual_charge_usd": null,
+  "actual_non_tax_status": null,
+  "retained_prior_residual_limit_usd": 5609972,
+  "deduction_from_prior_known_salary_usd": 0,
+  "explanation": "Excluded holds were not included in the prior known salary; do not subtract them again.",
+  "exact_trade_cleared": false,
+  "requirements_closed": 0,
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "review": "NOT_INDEPENDENT",
+  "input_sha256": {
+    "research/CHICAGO_2020_21_RESIDUAL_SOURCES.json": "2e9f9e38af8fad6109b3c1090df7e890cdd97a4554bcc0b46b2e4e5c8a7f8b5a",
+    "simulation/CHICAGO_2020_21_TAX_BOUND.json": "e224953d1c89e8e0f31a57d29a0f33042f5bdade130d7b537f319fd77a442cc7"
+  }
+}

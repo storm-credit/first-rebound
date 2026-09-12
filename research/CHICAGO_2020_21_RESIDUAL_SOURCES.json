@@ -1,0 +1,129 @@
+{
+  "stage": "O-15F14-L_RESIDUAL_COMPONENTS",
+  "baseline_main": "042321496cde09219bbafae2d3918ee74a44daf3",
+  "as_of": "2021-03-25",
+  "accessed_date": "2026-09-12",
+  "references": [
+    {
+      "id": "RC_DUNN",
+      "url": "https://www.nba.com/hawks/atlanta-hawks-sign-free-agent-guard-kris-dunn",
+      "published_utc": "2020-11-28T17:00:13Z",
+      "classification": "PRIMARY_TEAM_BODY_READ",
+      "html_sha256": "19f8cdab886b45d54ff62c34ab3c282c24ba3cfe5d3f13f07580ab9bbc65767a",
+      "body_extraction": "__NEXT_DATA__.props.pageProps.pageObject.contentStructured",
+      "fact_ko": "Atlanta가 자유계약선수 Dunn을 영입했다."
+    },
+    {
+      "id": "RC_HARRISON",
+      "url": "https://www.nba.com/jazz/utah-jazz-sign-free-agent-guard-shaq-harrison",
+      "published_utc": "2020-12-09T19:40:00Z",
+      "classification": "PRIMARY_TEAM_BODY_READ",
+      "html_sha256": "99c979bf6512ffe68e10a03024c86272af54c5c41a3580b030991ddf65549d5d",
+      "body_extraction": "__NEXT_DATA__.props.pageProps.pageObject.contentStructured",
+      "fact_ko": "Utah가 자유계약선수 Harrison을 영입했다. Chicago는 QO를 제시하지 않았다."
+    },
+    {
+      "id": "RC_VONLEH",
+      "url": "https://www.nba.com/nets/news/2021/02/08/brooklyn-nets-sign-noah-vonleh",
+      "published_utc": "2021-02-08T20:30:00Z",
+      "classification": "PRIMARY_TEAM_BODY_READ",
+      "html_sha256": "542ed68625699ab39501f3b45885739affcb96bacfb918bc2a527bf6cc91005b",
+      "body_extraction": "__NEXT_DATA__.props.pageProps.pageObject.contentStructured",
+      "fact_ko": "Brooklyn이 자유계약선수 Vonleh을 영입했다. Chicago의 앞선 계약과 방출 날짜도 명시한다."
+    },
+    {
+      "id": "RC_CBA",
+      "url": "https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf",
+      "classification": "PRIMARY_2017_CBA",
+      "sha256": "65642a3c15990696169d97e55a911cc60e7899aef0d0ecffffe2be28e10f1dfb",
+      "locations": [
+        "VII 4(a)(1)(i): printed178, waiver salary",
+        "VII 4(d): printed184, FA amounts",
+        "VII 4(f): printed187-188, incomplete roster",
+        "VII 6(m)(2)-(3): printed214-216, exception amounts and limited apron adjustments"
+      ],
+      "rules_ko": "타 NBA팀 계약 시 전 팀 FA 금액 종료. 방출잔액은 별도. 빈 로스터 보류액은 개막 전 규칙. 예외액 산입은 6(m)(2)의 조건을 따르며 apron 조정은 적용 조항을 구분한다."
+    },
+    {
+      "id": "RC_TRANSACTION_SCREEN",
+      "url": "https://www.basketball-reference.com/teams/CHI/2021_transactions.html",
+      "classification": "SECONDARY_TRANSACTION_LIST_BODY_READ",
+      "html_sha256": "1217fc6dbeef5dfeb6375b65b5291f95eb975ca4fa6c05bceefde6cdf74a42f7",
+      "fact_ko": "12/14 Vonleh, 12/19 Norvell·Shittu 방출. 12/19 이후 다음 명시 거래는 3/25. 이 목록은 과거 잔액·분쟁의 완전한 장부가 아니다."
+    }
+  ],
+  "conditions": {
+    "same_external_signing_routes": true,
+    "season_started": true,
+    "standard_roster_count": 15
+  },
+  "fa_events": [
+    {
+      "player": "Kris Dunn",
+      "new_team": "ATL",
+      "signed_date": "2020-11-28",
+      "source_id": "RC_DUNN"
+    },
+    {
+      "player": "Shaquille Harrison",
+      "new_team": "UTA",
+      "signed_date": "2020-12-09",
+      "source_id": "RC_HARRISON"
+    },
+    {
+      "player": "Noah Vonleh",
+      "new_team": "BKN",
+      "signed_date": "2021-02-08",
+      "source_id": "RC_VONLEH"
+    }
+  ],
+  "unresolved_components": [
+    {
+      "id": "WAIVED_PAY",
+      "includes": [
+        "Vonleh_CHI",
+        "Norvell_CHI",
+        "Shittu_CHI",
+        "earlier_applicable_dead_or_stretched_salary"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "OTHER_FA_RIGHTS",
+      "includes": [
+        "other_retained_free_agent_amounts_and_qualifying_or_matching_offers"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "UNSIGNED_FIRSTS",
+      "includes": [
+        "older_first_round_draft_rights_or_documented_exclusions"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "EXCEPTION_HISTORY",
+      "includes": [
+        "VII_6m2_trigger_history_and_unused_amounts"
+      ],
+      "amount_usd": null
+    },
+    {
+      "id": "OTHER_ADJUSTMENTS",
+      "includes": [
+        "applicable_grievance_awards_retired_consideration_pending_agreements_offer_sheets"
+      ],
+      "amount_usd": null
+    }
+  ],
+  "source_limits": [
+    "Dunn/Harrison 날짜는 실제 역사이며 대체세계 자동 승인이 아니다.",
+    "Spotrac 상세 페이지403; 검색 요약의97261달러는 확정 입력으로 사용하지 않음.",
+    "Vonleh SalarySwish 재확인은 기존0보장/별도BKN잔액과 일치. CHI 잔액0의 완전한 증거가 아님.",
+    "BasketballInsiders 기존 팀 장부 주소는 현재 일반 급여 페이지로 이동. 당시 장부로 사용하지 않음."
+  ],
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}

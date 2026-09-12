@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L 채택 준비 색인: 사건 선택3개·잔여 사실5묶음·재검토 범위; 신규확정사실0·시즌 HOLD`
+- 최근 설계 변경: `O-15F14-L Chicago R 구성: 구단본문3건·조건부FA 종료/빈자리 제외, 실제R와시즌 HOLD`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -709,3 +709,10 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 최신 검토 색인은 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`다. K1/L2/H의 원권위와 계산은 유지하고, 미채택 사건 A1~A3와 잔여 사실 F1~F5를 한 문서에 연결했다. 정확 계약·등록 근거 없이 시즌을 잠그거나 추첨을 먼저 실행하지 않는다. 추가 웹 조회는 상세 본문 확보 실패로 신규확정사실0건이다.
 
 다음은 F1의 명단 밖 R 구성만 회수하며 기존15명 급여를 반복 수집하지 않는다. 독립 검수 미실시, 자체 문서 대조. 네 K 조건 전체종료0·전체1완료/1진행/5대기·남은6개, v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## 2026-09-12 O-15F14-L Chicago R 구성 후속
+
+`simulation/CHICAGO_2020_21_RESIDUAL_COMPONENTS.md` 및 동명JSON이 F1의 항목별 후속이다. 구단본문3건으로 Dunn/Harrison/Vonleh의 타팀계약을 확인하고, 같은 경로의 종전 FA보류액과 빈자리 부담을 구분했다. 방출잔액과 과거권리/예외/조정은 미확정이다. 기존R한도 $5,609,972 유지·이중차감0·실제R/null·비납세/null. 신규3개와 기존tax6개 검사 및 JSON재현 통과, 자체검토 NOT_INDEPENDENT.
+
+다음은 WAIVED_PAY 및 이전 FA/1R 권리 잔액 목록 회수다. 이번3계약본문/빈자리규정 재수집은 불필요하다. F1과 네K묶음전체종료0, 전체1완료/1진행/5대기·남은6개, v0.30 PARTIAL·설계/원고CLOSED·시즌미채택 유지.
