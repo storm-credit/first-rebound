@@ -9,8 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G9 장기 핵심 선수 비용·새 CBA 조건, 장기 시즌 연결`
-- 최근 설계 변경: `O-15G9 LaVine 기존 옵션 비용·LaMelo 연장 네 제안·40비용/44표 조건`
+- 현재 작업: `O-15G10 문체 실제 독서·통합 상태 대조, D1~D8 후속 의존 회수`
+- 최근 설계 변경: `G7 60픽 비교·G8 취득/계약 순서·G9 코어 비용/CBA·G10 실제16회차 독서`
+- 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
