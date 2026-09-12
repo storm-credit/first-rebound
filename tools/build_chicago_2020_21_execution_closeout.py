@@ -110,7 +110,7 @@ def build():
         {'id': 'K_HEALTH', 'closed': False, 'status': 'CONCRETE_SCENARIO_RECOMMENDED',
          'next_ko': 'K1의 1079행 노출 달력 채택 여부. 주인공·LaMelo 각72 양수일과 Terry27 공백을 명시; 새 진단을 붙이지 않는다.'},
         {'id': 'K_REGISTRATION', 'closed': False, 'status': 'PRIMARY_DATES_RECOVERED_SLOT_EXCEPTION_CHARGE_HOLD',
-         'next_ko': 'Hall 예외 자격·팀별 자리 수·charge, Rivers 잔여시즌 계약 본문과 후속 등록 실행을 확인한다.'},
+         'next_ko': '등록 후속 장부에서 ORL 5/9 이후 일반계약16+투웨이2 및 Rivers 잔여시즌 본문을 확보했다. Hall 추가1자리의 허가·정확charge·다른팀 자리 실행을 처리한다.'},
         {'id': 'K_TRANSACTIONS', 'closed': False, 'status': 'PRIMARY_FACTS_PARTLY_RECOVERED_EXACT_FIELDS_HOLD',
          'next_ko': 'CHI 비납세 전제·당일 charge, Gordon 선행/후행1R, Fournier BOS 예외 잔액·픽 연도를 같은 장부로 완성한다.'},
         {'id': 'K_METHOD_EVENTS', 'closed': False, 'status': 'FOUR_EVENT_PACKAGES_L2_RECOMMENDED_NOT_ADOPTED',

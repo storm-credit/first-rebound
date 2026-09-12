@@ -113,3 +113,8 @@ ORL28경기선수별분·선발3분을보존하고빅맨동시출전초과인원
 K는 PR #155로 실제 병합했고 원격/로컬 main의 SHA·tree를 확인했다. L의 권위는 `simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md` 및 동명JSON, 출처 `research/NBA_2020_21_L_EXECUTION_SOURCES.json`이다. 공식본문6건·날짜140행을 대조하고 네 사건안 중 L2를 추천했다. 이는 작가 사건 선택이나 등록/급여 적법성의 확정이 아니다.
 
 K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS는 모두 미닫힘이다. 다음은 L 잔여 실행 필드 처리 후 채택·추첨 연결이며 새 경기 전량수집이 아니다. K1과 L2는 조건부 추천으로만 보존한다. 기존 방향 승인 재질문 없음. 검증5개·JSON재현·공백검사 PASS, 자체검토 NOT_INDEPENDENT. v0.30 PARTIAL·설계/원고CLOSED·전체1완료/1진행/5대기·남은6개 유지.
+
+
+## L 등록 인원 후속 반영
+
+`ORLANDO_2020_21_REGISTRATION_LEDGER.md` 및 동명JSON을 후속 권위로 연결한다. 앞선 Rivers 후속 본문 미확보와 ORL 자리 수 미산출은 이력이다. 후속에서 구단본문9건 추가·계약 유형 및 기간을 회수하고 ORL 5/9 이후 일반계약16+투웨이2/추가1자리 필요5경기를 특정했다. 정확 허가·charge·거래 의무·작가 채택은 여전히 HOLD다. 날짜만 확인한 선행140행과 새 등록 인원 대조의 범위를 혼합하지 않는다.

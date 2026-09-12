@@ -289,3 +289,12 @@ K는단일추천을완성했으며F/J수치·I공식사유·H방향승인권위�
 | 자체검토 | `reviews/R01_O15F14L_EXECUTION_CLOSEOUT_REVIEW.md` | 검증5개·NOT_INDEPENDENT |
 
 K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모형 예측이나 채택 정본이 아니며 최종픽 null·원고CLOSED를 보존한다.
+
+
+## O-15F14-L 등록 인원 후속 권위
+
+| 범위 | 권위 | 경계 |
+|---|---|---|
+| 후속 공식 계약 사실 | `research/NBA_2020_21_L_REGISTRATION_SOURCES.json` | 구단본문9건 추가, 계약 유형·후속 기간 |
+| 등록 인원·기존 분 대조 | `simulation/ORLANDO_2020_21_REGISTRATION_LEDGER.md` 및 동명JSON | 조건부 ORL19경기·Rivers28행, 예외/charge 미확정 |
+| 자체검토 | `reviews/R01_O15F14L_REGISTRATION_LEDGER_REVIEW.md` | 신규6개·기존L5개, NOT_INDEPENDENT |
