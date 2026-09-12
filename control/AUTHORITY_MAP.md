@@ -298,3 +298,12 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 | 후속 공식 계약 사실 | `research/NBA_2020_21_L_REGISTRATION_SOURCES.json` | 구단본문9건 추가, 계약 유형·후속 기간 |
 | 등록 인원·기존 분 대조 | `simulation/ORLANDO_2020_21_REGISTRATION_LEDGER.md` 및 동명JSON | 조건부 ORL19경기·Rivers28행, 예외/charge 미확정 |
 | 자체검토 | `reviews/R01_O15F14L_REGISTRATION_LEDGER_REVIEW.md` | 신규6개·기존L5개, NOT_INDEPENDENT |
+
+
+## O-15F14-L 실행 조항·급여 후속 권위
+
+| 범위 | 권위 | 경계 |
+|---|---|---|
+| 공식 규약·부상/미출전·공개 급여/픽 | `research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json` | 1차/2차·날짜/계약별 기준 구분 |
+| Hall 근거·급여 산술 | `simulation/CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON | 리그 승인·정확charge·픽 종료·작가 채택 미완료 |
+| 자체검토 | `reviews/R01_O15F14L_EXECUTION_TERMS_REVIEW.md` | 신규6개·NOT_INDEPENDENT |
