@@ -387,3 +387,9 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 `simulation/NBA_2021_DRAFT_ASSETS.md` 및 동명 JSON은 네 거래 정책240행을 제공한다. AP1 Boston Kemba/Horford 교환 진행·NOP/MEM 교환 없음이 후속 추천이다. 순번 대신 원소유를 이동하므로 NOP/MEM 대안은9/17/40/49를 쓴다. Dallas 유래52의 현금 매각은 미실행, Lakers 유래53은 DET다. Fournier의 BOS/MEM2025 뒤 순번과 Kemba의 앞 순번을 분리하고,2023 Boston 수취의 중첩식을24순서로 검사했다. 미래 실제 순번/거래 적법성·최종60픽 지배권은 미확정이다.
 
 G4 DB1의 Chicago10 Duarte 추천과 G3 급여를 유지한다. Chicago39 및15~60 지명은 다음 선수·목적 거래 비교 대상이다. 전체1완료·6진행/남은큰작업6개, 자체검토 NOT_INDEPENDENT, v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15G6 — 1라운드 보유 선택 후속 비교
+
+`simulation/NBA_2021_FIRST_ROUND_CONTINUATION.md` 및 동명 JSON은 G4 네 안/G5 AP1에15~30 비교64행을 추가한다. 전체120행은 추가 거래를 제한한 비교이며 최종 드래프트가 아니다. DB1~3은 HOU Sengun16 목적 거래 제안, DB4는 대상 부재로 이전 없음·OKC Ziaire16/MEM Bouknight17이다. 다른 당일 거래의 작가 거절이나 전체 구단 인사/의료 감사 완료로 해석하지 않는다. G3 급여·CHI10 Duarte 주 비교안은 유지하며39순위는31~38 이후에 판정한다.
+
+DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했다. 신규6개 PASS, 자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은2라운드 잔여 후보와39순위 연결 및 당일 거래 비교다.
