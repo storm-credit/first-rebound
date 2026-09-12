@@ -97,3 +97,12 @@ J1은 R1/28분·피로0.5·두분정책/지표/Porter의8전체시즌 조건에�
 Chicago겨울 Carter11·Porter15항목은 이미 기존 분 모델에서0임을 확인했다. EX04/06의Hall·Wagner·Parker·Rivers·McGee·Hutchison 각28날짜의 분 의존을 공개했다. 새 정확 계약·의학적 상세 사실 확보는0이다. 검증8개·분 증명·영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT.
 
 이전 I의다음J는 이력이다. 다음은 O-15F14-K Orlando 백업18분 문제·잔여 실행 조건을 반영한 최종 정규시즌 추천안이다. 기존 R1/T1~T4 승인은 유지하고 재질문하지 않는다. 정규시즌 입력 전체 재수집·같은27경기 반복은 하지 않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·전체1완료/1진행/5대기·남은6개 유지.
+
+
+## 2026-09-12 O-15F14-K 정규시즌 단일 추천안
+
+권위 `simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md` 및 동명JSON, `ORLANDO_2020_21_RETAINED_BACKUP_LINEUPS.json`. K1은J1Terry후반공백·Hall/Wagner유지·LOW분·Porter0·R1/28분·피로0.5·BPM의단일검토추천이다. CHI31–41/동부10위·MIN24–48/서부13위·Washington원정플레이인으로연결되며, RAPTOR F138의CHI32–40/9위와5경기차이를보존한다. 추천은건강/계약/최종시즌의작가승인이아니다.
+
+ORL28경기선수별분·선발3분을보존하고빅맨동시출전초과인원×분을157.68→34.77로최소화했다. 모든경기에서산술하한에달했고4경기에잔여부담이있다.0/1/3/6점비용224조건은반전0,5/7은J1공백을먼저반영했다. 실제교대순서·전술효율을확정하지않는다.1079행조건부가용성달력과Hall등록공백3경기0분도공개했다. 정확예외/charge/pick승인은미해소다.
+
+검증6개·분증명·영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT. 이전J의다음K는이력이다. 다음L은K_HEALTH(달력창작선택),K_REGISTRATION(후속등록),K_TRANSACTIONS(승인거래정확조건),K_METHOD_EVENTS(경로/이후사건)의처리와시즌채택·플레이인/픽결산이다. 이미승인된R1/T1~T4재질문·경기전량재수집은하지않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·전체1완료/1진행/5대기·남은6개 유지.
