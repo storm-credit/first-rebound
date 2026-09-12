@@ -742,3 +742,9 @@ Valentine FA 금액을 유지하는 30조건에서 Caruso NTMLE 분류의 추가
 G4 DB1의 Chicago10 Duarte 추천과 G3 급여를 유지한다. Chicago39 및15~60 지명은 다음 선수·목적 거래 비교 대상이다. 전체1완료·6진행/남은큰작업6개, 자체검토 NOT_INDEPENDENT, v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 CP2 자동 진행 범위의 조건부 추천이며 작가 최종 채택 기록이 아니다. 이미 승인된 R1/T1~T4를 다시 묻지 않는다.
+
+## O-15G6 — 1라운드 보유 선택 후속 비교
+
+`simulation/NBA_2021_FIRST_ROUND_CONTINUATION.md` 및 동명 JSON은 G4 네 안/G5 AP1에15~30 비교64행을 추가한다. 전체120행은 추가 거래를 제한한 비교이며 최종 드래프트가 아니다. DB1~3은 HOU Sengun16 목적 거래 제안, DB4는 대상 부재로 이전 없음·OKC Ziaire16/MEM Bouknight17이다. 다른 당일 거래의 작가 거절이나 전체 구단 인사/의료 감사 완료로 해석하지 않는다. G3 급여·CHI10 Duarte 주 비교안은 유지하며39순위는31~38 이후에 판정한다.
+
+DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했다. 신규6개 PASS, 자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은2라운드 잔여 후보와39순위 연결 및 당일 거래 비교다.
