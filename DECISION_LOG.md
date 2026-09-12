@@ -720,3 +720,10 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 14 Act·42 Sub-Act·780분량 슬롯·NBA81.54%, 17시즌 책임 곡선, 5개 약속과 결말 동료의 선행4 Act를 연결했다. 회차 기능표 완료0·실제 회차 Pack0·원고0. 문체는 하우스 스타일 기초와 공개 참고작1화 독서만 진행해 딥리드 미완료를 보존한다. 설계 검증 샘플2개는 기반 커밋+원문 SHA256으로 버전을 고정한다.
 
 전체1완료·6진행(조건부/기초/자체 점검 포함), 진행 중 포함 남은큰작업6개. G16 전체 독립 검수·G17 작가 승인은 미실시다. CP2 재승인을 묻지 않으며 author_locked=false·season_selected=false·exact_execution_cleared=false·manuscript_allowed=false·v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+
+
+## O-15G3 — 2021 선수 후보·빈자리 비용·예외 순서
+
+`simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md` 및 동명 JSON은 G1A 다섯 빈자리의 후속이다. 가용할 때 Moody10·Edwards39·Bradley·Stanley Johnson·Valentine을 추천한다. 지명/계약 합의는 미실행이며 G1·추첨 원본은 유지한다. 15자리·네 센터240예산 조건·가용성32조건, G1A 대비 기본 추천 총액 −$856,688, 다음 해 세 유지 조건의 차이 −$206,244를 계산했다.
+
+Valentine FA 금액을 유지하는 30조건에서 Caruso NTMLE 분류의 추가 실제 금액 필요는0이지만 실행 장부는 HOLD다. Dieng 예외 부족과 별도 cap 공간 가능성, Draft Rookie/FA 세금 하한 구분을 기록했다. 신규5개 검증·JSON 재현·diff PASS, NOT_INDEPENDENT. 전체1완료·6진행/남은6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
