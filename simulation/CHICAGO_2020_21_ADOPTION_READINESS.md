@@ -58,3 +58,7 @@ Chicago 상세 cap 페이지, ProsportsTransactions의 Denver/Boston 목록, Rea
 [조건부 결산 CP2](../design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md)는 직전 전환 질문에 대한 사용자의 ‘이어서’로 승인됐다. 승인 범위는 작업 절차이며 정확 비용/조항이나 최종 시즌 승인이 아니다. 사전 기록과 실행 로그는 `NBA_2021_DRAW_PREREGISTRATION.md`와 후속 잠정 결과에서 관리한다. 같은 승인을 다시 묻지 않는다.
 
 이번 수용 기준은 최신 사실/산술의 단일 색인, 잔여 정확 필드, 작가 선택과 현행 게이트, 자동 후속을 위한 구체안 연결이다. 이 기준은 충족했지만 시즌 최종 완료 기준은 미충족이다. 자체 검토 `NOT_INDEPENDENT`, 전체 7묶음 중 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개다.
+
+## O-15F14-M / O-15G1 — 승인된 조건부 후속 실행
+
+CP2 절차 승인 후 [2021 잠정 추첨·픽 결산](NBA_2021_PROVISIONAL_DRAFT.md)을 실행했다. CHI10·39, MIN7→GSW/36→OKC 조건부 경로다. [2021–23 거래·계약 작업안](CHICAGO_2021_23_CONTINUATION.md)의 G1A/E2와 예산/역할 검산을 시작했다. 네 K 묶음의 정확 사실/최종 채택 HOLD는 그대로다. 과거 ‘추첨 미실행’은 CP2 승인 전 상태이며 현행 조건부 결과를 막지 않는다.
