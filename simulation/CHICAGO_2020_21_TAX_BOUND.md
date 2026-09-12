@@ -68,3 +68,8 @@ R이 한도 내임을 확인하면 Chicago의 기존 기본급 matching 여유 *
 다음은 (1) R의 실제 구성 확인, (2) Boston TPE 사용 및 픽 연결/종료, (3) 후속 계약 charge를 남은 사실 항목으로 정리하는 것이다. 이미 확보한 Hall4명 근거와 이번15명 급여는 다시 전량 조사하지 않는다. 작가 선택은 기존 K1·L2·Hall 행정 사건 추천 패킷에 별도로 남긴다. 이미 승인한 R1/T1~T4와 선수 이동 방향을 재질문하지 않는다.
 
 신규6개 검증 PASS: 명단 누락/중복, bonus 증가, 세금 경계 동일값/1센트 초과, 미측정R, 잘못된 신인 시즌, 순번 무단 채택, 비교값의실제charge승격을 점검했다. JSON 재현·diff 검사 통과. **자체검토 NOT_INDEPENDENT**이며 네 K 묶음의 완전 종료는0이다. `author_locked=false`, `season_selected=false`, v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+
+
+### F1 구성 후속
+
+`CHICAGO_2020_21_RESIDUAL_COMPONENTS.md` 및 동명JSON에서 타팀계약3건과 빈자리 규칙을 연결했다. 앞서 미분류였던 해당 FA항목만 좁혔으며 실제R·정확거래·시즌은 여전히HOLD다. 기존한도에서 제외액을 다시 빼지 않는다. 다음은 방출잔액 및 이전FA/1R권리 목록이다.

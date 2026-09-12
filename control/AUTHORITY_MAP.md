@@ -330,3 +330,8 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 ## O-15F14-L 채택 준비 색인
 
 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`는 사건선택 A1~A3와 사실 의존 F1~F5의 검토 순서만 관리한다. 사실·계산·승인 권위는 연결된 기존 문서에 있다. 이 색인은 정본 채택·거래 적법성 판정을 대신하지 않는다.
+
+
+## O-15F14-L Chicago 잔여 급여 항목
+
+사실은 `research/CHICAGO_2020_21_RESIDUAL_SOURCES.json`, 조건부 항목 분류는 `simulation/CHICAGO_2020_21_RESIDUAL_COMPONENTS.md` 및 동명JSON이 권위다. 기존15명 급여와R한도는 TAX_BOUND에 남는다. FA종료가 방출잔액을 삭제하거나 실제R을 확정하지 않는다.
