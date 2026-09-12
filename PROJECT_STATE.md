@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G4 2021 상위14 순차 보드, 15~60/권리·계약 연결`
-- 최근 설계 변경: `O-15G4 NOP9 Moody/CHI10 Duarte 주안·4보드56행, O-15G2/G3 조건부 패킷 유지`
+- 현재 작업: `O-15G5 원소유60픽·네 거래 정책, 15~60 선수/목적 거래 연결`
+- 최근 설계 변경: `O-15G5 4정책240행·Boston2023/2025 자산 분리, G4 Duarte10 추천 유지`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -775,3 +775,9 @@ Valentine FA 금액을 유지하는 30조건에서 Caruso NTMLE 분류의 추가
 `simulation/NBA_2021_TOP14_BOARD.md`/JSON과 입력/출처가 후속 권위다. DB1 NOP9 Moody→CHI10 Duarte를 추천한다. DB2 Moody10, DB3 GSW7 선점, DB4 Sengun10을 비교하며 구단 내부 선호의 사실이나 최종 지명이 아니다. 기존2020 정본과ORL Vucevic 잔류/TOR Powell 잔류/WAS Trent·Brown 보유를 반영했다.
 
 네 안56행·매 선택 가용 비교3명 이상·중복0·15자리/10순위 급여 유지·신규5검사. M 추첨/기존G1/G3 원본은 유지한다. 15~60의46픽과CHI39는 미판정이며 하류 후보는 삭제하지 않는다. G2 장기/구조/문체 패킷과author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT.
+
+## O-15G5 — 2021 픽 원소유·조건부 거래 연결
+
+`simulation/NBA_2021_DRAFT_ASSETS.md` 및 동명 JSON은 네 거래 정책240행을 제공한다. AP1 Boston Kemba/Horford 교환 진행·NOP/MEM 교환 없음이 후속 추천이다. 순번 대신 원소유를 이동하므로 NOP/MEM 대안은9/17/40/49를 쓴다. Dallas 유래52의 현금 매각은 미실행, Lakers 유래53은 DET다. Fournier의 BOS/MEM2025 뒤 순번과 Kemba의 앞 순번을 분리하고,2023 Boston 수취의 중첩식을24순서로 검사했다. 미래 실제 순번/거래 적법성·최종60픽 지배권은 미확정이다.
+
+G4 DB1의 Chicago10 Duarte 추천과 G3 급여를 유지한다. Chicago39 및15~60 지명은 다음 선수·목적 거래 비교 대상이다. 전체1완료·6진행/남은큰작업6개, 자체검토 NOT_INDEPENDENT, v0.30 PARTIAL·설계/원고 CLOSED 유지.
