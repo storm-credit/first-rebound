@@ -1100,3 +1100,7 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 14 Act·42 Sub-Act·780분량 슬롯·NBA81.54%, 17시즌 책임 곡선, 5개 약속과 결말 동료의 선행4 Act를 연결했다. 회차 기능표 완료0·실제 회차 Pack0·원고0. 문체는 하우스 스타일 기초와 공개 참고작1화 독서만 진행해 딥리드 미완료를 보존한다. 설계 검증 샘플2개는 기반 커밋+원문 SHA256으로 버전을 고정한다.
 
 전체1완료·6진행(조건부/기초/자체 점검 포함), 진행 중 포함 남은큰작업6개. G16 전체 독립 검수·G17 작가 승인은 미실시다. CP2 재승인을 묻지 않으며 author_locked=false·season_selected=false·exact_execution_cleared=false·manuscript_allowed=false·v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+
+## O-15G10 — 문체 기초의 독서 근거 보강
+
+필드1~5·재벌집1~6·데못죽1~5 실제16회차를 기초 규칙 검토에 사용했다. 10작품/핵심4/본문4플랫폼의 전체 딥리드와 G11은 미완료다. 작품 문구·대사·장면 작성0. 기존 승인 방향과 author_locked=false·season_selected=false·exact_execution_cleared=false·manuscript_allowed=false, v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.

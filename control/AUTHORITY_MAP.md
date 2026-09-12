@@ -411,3 +411,7 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 `simulation/CHICAGO_LONG_CORE_CBA.md` 및 동명 JSON은 G2의 비율 목표를 실제 계약 기간에 대조한다. LM1 2023 LaMelo 5년 25→30% 연장 제안·BC1 P30/LaMelo25/LaVine 기존 옵션을 주 비교안으로 추천한다. 모두 미합의다. LaVine의 2026 옵션 $48,967,380을 18% 새 가격으로 낮춰 계산하지 않는다.
 
 40비용 조건과44 CBA 표 조건을 연결했다. 실제2026 참고 cap에서 BC1 선수 예산 $205,210,600은 second 아래 $16,475,400이며, 미배정 예비비까지 포함한 계획 총액은 second보다 $20,700 크다. 예비비를 실제 charge로 판정하지 않는다. 동결 픽·수상 출전 기준·2023 전환 조항·2030 이후 규정 미확보를 구분했다. 신규8검사 PASS, 자체 검토 NOT_INDEPENDENT. 전체1완료·6진행/남은 큰 작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15G10 — 참고작의 실제 읽은 범위
+
+실제 회차·접근 사건·계량 입력은 `research/STYLE_READING_OBSERVATIONS.json`, 선별/출처는 `research/STYLE_REFERENCE_ACCESS.md`, 기능 비교는 `research/STYLE_FUNCTION_COMPARISON.md`가 권위다. 하우스 스타일은 이를 프로젝트 성격/권한에 맞춰 합성한 기초안이다.16회차·3작품 초반 완독을 G11 전체 완료로 확대하지 않는다. 문체 판단이 STORY_BIBLE의 성격·시점·승인 사건을 덮어쓰지 않으며 실제 원고0·CLOSED를 유지한다.
