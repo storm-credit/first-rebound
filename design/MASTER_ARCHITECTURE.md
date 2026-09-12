@@ -49,3 +49,7 @@
 ## 설계 방법 제한
 
 Act별 주 방법은 1~2개, Sub-Act별 주 장치는 1개만 둔다. 모든 방법론을 한 구간에 겹치지 않는다. 기법 이름보다 목표·압력·선택·비용·상태 변화가 먼저다.
+
+## O-15G2 현행 전체 작업안
+
+앞의 ‘NBA 세 구간 재분할’은 이번 CP2 패킷에서 14 Act·42 Sub-Act로 구체화했다. 현행 후보 권위는 [Chicago–Minnesota 장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md), 배분은 [Act Map](ACT_MAP.md), 장치/약속은 [원장](CP2_PROMISE_LEDGER.json)이다. 780분량 슬롯·NBA81.54%이며 회차별 기능표 완료 수는0이다. 과거 `NBA_LONG_RANGE_CAREER_OPTIONS.md`는 비교 이력으로 남고 새 추천을 작가 확정으로 승격하지 않는다.
