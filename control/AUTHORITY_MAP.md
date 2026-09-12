@@ -393,3 +393,9 @@ G4 DB1의 Chicago10 Duarte 추천과 G3 급여를 유지한다. Chicago39 및15~
 `simulation/NBA_2021_FIRST_ROUND_CONTINUATION.md` 및 동명 JSON은 G4 네 안/G5 AP1에15~30 비교64행을 추가한다. 전체120행은 추가 거래를 제한한 비교이며 최종 드래프트가 아니다. DB1~3은 HOU Sengun16 목적 거래 제안, DB4는 대상 부재로 이전 없음·OKC Ziaire16/MEM Bouknight17이다. 다른 당일 거래의 작가 거절이나 전체 구단 인사/의료 감사 완료로 해석하지 않는다. G3 급여·CHI10 Duarte 주 비교안은 유지하며39순위는31~38 이후에 판정한다.
 
 DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했다. 신규6개 PASS, 자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은2라운드 잔여 후보와39순위 연결 및 당일 거래 비교다.
+
+## O-15G7 — 60픽 비교와 Chicago39 연결
+
+`simulation/NBA_2021_FULL_DRAFT_COMPARISON.md` 및 동명 JSON은 G4/G5 AP1/G6에2라운드120행을 더한4안240행을 제공한다. DB1 Chicago10 Duarte·39 Wieskamp가 최신 주 비교안이다. G3의39후보는 NYK23 Ayo/UTA30 Thor/ORL33 Herbert/NOP34 Edwards로 먼저 소모된다. C39A~D 네 후속 후보와SAS44/TOR48 파급,15자리·G3 대비 예산차0을 연결했다.
+
+60행 비교의 미판정0은 최종 드래프트 완료가 아니다. 당일 추가 거래·전체 등록·대체세계 대학 참가자 집합·의료/프런트 감사는 미완료다. 신규6검사 PASS·자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은 Chicago의 이름 있는 취득/예외 순서와2022–23 계약 조건이다.
