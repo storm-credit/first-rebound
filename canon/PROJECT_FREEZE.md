@@ -1036,3 +1036,10 @@ K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS는 모두 미닫힘이다
 PR #156 이후 등록 후속 권위는 `simulation/ORLANDO_2020_21_REGISTRATION_LEDGER.md` 및 동명JSON이다. 공식 구단본문9건을 추가 회수하고 일반계약/투웨이·0분 보유자를 구분했다. 조건부 ORL 초기명단에서 5/9 이후 16+2, 추가 일반계약1자리 필요5경기를 특정했다. 기존 ORL19경기와 Rivers28행/15양수일의 계약기간 충돌은0이다.
 
 최저급여 계약 형식과 초과 등록 허가를 분리한다. 예외 자격·정확charge·거래 픽/예외·작가의 시즌/사건/추첨은 미결이며 네 K 묶음의 전체 종료는0이다. H 승인 방향과 K1/L2 추천, v0.30 PARTIAL·설계/원고 CLOSED를 보존한다. 신규6개·기존L5개 검증, 자체검토 NOT_INDEPENDENT. 전체7행 중1완료·1진행·5대기, 남은 큰 작업6개.
+
+
+## 2026-09-12 O-15F14-L 실행 조항·급여 후속
+
+권위는 `simulation/CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON, 출처 `research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json`이다. Hall은 Porter/Carter/투웨이를 쓰지 않는4명의 부상3연속 결장 근거와2019규약6.08을 회수했다. 급여8명 기본급/인센티브·Gordon4조건 산술·픽 보호기간/연도 일부를 채웠다. 정확 리그 승인·charge·팀 세금/예외·픽 연결/종료·시즌 채택은 미결이다.
+
+H 방향 승인과 K1/L2 추천을 보존한다. 신규6개 검증·자체검토 NOT_INDEPENDENT. author_locked=false·season_selected=false, v0.30 PARTIAL·설계/원고 CLOSED 유지. 네 조건 묶음 종료0개, 전체7행 중1완료·1진행·5대기 및 남은 큰 작업6개.
