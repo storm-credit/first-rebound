@@ -1,0 +1,170 @@
+{
+  "stage": "O-15G8",
+  "parent_roster": "simulation/NBA_2021_FULL_DRAFT_COMPARISON.json",
+  "parent_budget": "simulation/CHICAGO_2021_23_CONTINUATION.json",
+  "cap2021": 112414000,
+  "apron2021": 143002000,
+  "ntmle2021": 9536000,
+  "rookie_min2021": 925258,
+  "retained_FA": {
+    "Markkanen": 20194524,
+    "Theis": 9500000,
+    "Denzel Valentine": 8821320
+  },
+  "Markkanen_apron_QO_upper_reference": 9026952,
+  "Markkanen_actual_reported_QO": 7031451,
+  "Markkanen_QO_world_selected": null,
+  "routes": [
+    {
+      "id": "SQ1",
+      "Caruso_route": "NTMLE",
+      "first_contract": "Caruso",
+      "recommendation": "G3 권리 보유·Caruso 우선의 기존 추천을 실행 순서로 정리",
+      "cost": "2021–22 apron 상한·미사용 NTMLE 소멸/보유를 별도 관리"
+    },
+    {
+      "id": "SQ2",
+      "Caruso_route": "NTMLE",
+      "first_contract": "Markkanen",
+      "recommendation": "Markkanen 재계약 뒤에도 Theis/Valentine 권리를 유지",
+      "cost": "Markkanen 협상이 먼저 끝나야 Caruso를 같은 순서에 넣을 수 있음"
+    },
+    {
+      "id": "SQ3",
+      "Caruso_route": "CAP_ROOM",
+      "first_contract": "Markkanen",
+      "recommendation": "Markkanen Bird 재계약→다른 FA/예외 포기→Caruso cap 공간→나머지 minimum",
+      "cost": "큰 MLE/BAE/TPE 선택지를 포기하며 잔여 normal cap 금액 한도 필요"
+    },
+    {
+      "id": "SQ4",
+      "Caruso_route": "CAP_ROOM",
+      "first_contract": "Caruso",
+      "recommendation": "Markkanen 권리 유지·다른 FA/예외 포기→Caruso cap 공간→Markkanen Bird",
+      "cost": "Markkanen 보류액이 실제 계약보다 높아 Caruso 직전 cap 공간이 더 작음"
+    }
+  ],
+  "recommended_route": "SQ1",
+  "late_minimum_order": [
+    "Joe Wieskamp",
+    "Tony Bradley",
+    "Stanley Johnson",
+    "Denzel Valentine"
+  ],
+  "entry_conditions": [
+    "G7 DB1/AP1/C39A 권리·G1A 유지 제안을 전제",
+    "P/Carter/Coby의2021–22 rookie option이 기존 정해진 기간에 행사된 조건",
+    "Young/Satoransky2021 급여 전액 유지·해당 보너스0/1m 비교",
+    "Duarte120% rookie-scale 계약과 Green2년 minimum 재계약을 Caruso보다 앞에 배치",
+    "Markkanen Bird/유효 QO 유지; 다른 offer sheet/first refusal notice 없음",
+    "Porter/Felicio/Temple 등 본 경로에서 쓰지 않는 FA 권리의 서면 포기, Arcidiacono 옵션 미행사/권리 포기 포함 여부는 원장 확인",
+    "미포함 normal/apron 순증액은0으로 확정하지 않음; 한도 변수로 보존",
+    "해당 연도 다른 MLE/room/BAE/S&T 사용·hard cap 유발 없음; 최소 예외와 rookie 예외만 선행",
+    "모든 새 계약은 상호 합의·리그 승인 전의 제안"
+  ],
+  "rookie2018_QO_percent_permille": {
+    "16": 405,
+    "17": 412,
+    "18": 419,
+    "19": 426,
+    "20": 433,
+    "21": 441,
+    "22": 448,
+    "23": 455,
+    "24": 462,
+    "25": 469,
+    "26": 476,
+    "27": 483,
+    "28": 490,
+    "29": 500,
+    "30": 500
+  },
+  "starter_QO2018_reference": 7921300,
+  "starter_reference_pick": 9,
+  "starter_reference_scale_percent": 120,
+  "starter_2022_single_season": {
+    "starts": 41,
+    "minutes": 2000
+  },
+  "starter_2022_prior_normalization_report": {
+    "numerator": 82,
+    "denominator": 72,
+    "rounding_policy_verified": false,
+    "source_type": "SECONDARY_REPORT"
+  },
+  "Carter_options": [
+    {
+      "id": "CX1",
+      "route": "2021_ROOKIE_EXTENSION",
+      "salary_2022_to_2026": [
+        14150000,
+        13050000,
+        11950000,
+        10850000
+      ],
+      "cost": "50m 전액보장 제안·4년 전방 전력 선택 책임",
+      "recommended": true
+    },
+    {
+      "id": "CX2",
+      "route": "2021_ROOKIE_EXTENSION",
+      "salary_2022_to_2026": [
+        11320000,
+        10440000,
+        9560000,
+        8680000
+      ],
+      "cost": "40m 제안은 인하 수락이 필요; 자동 할인/충성심 사실 금지"
+    },
+    {
+      "id": "CX3",
+      "route": "2021_ROOKIE_EXTENSION",
+      "salary_2022_to_2026": [
+        16980000,
+        15660000,
+        14340000,
+        13020000
+      ],
+      "cost": "60m 전액보장 제안·벤치/Young 잔류 예산 감소"
+    },
+    {
+      "id": "CX4",
+      "route": "2022_RFA_AFTER_NO_2021_EXTENSION",
+      "salary_2022_to_2026": null,
+      "cost": "2021–22 건강/역할 확인 뒤 시장·QO·offer sheet를 재평가; 현재 확정 연봉 없음"
+    }
+  ],
+  "followup_2022_policies": [
+    {
+      "id": "RT1",
+      "Bradley_option_exercised": true,
+      "Valentine_retained": true
+    },
+    {
+      "id": "RT2",
+      "Bradley_option_exercised": false,
+      "Valentine_retained": true
+    },
+    {
+      "id": "RT3",
+      "Bradley_option_exercised": true,
+      "Valentine_retained": false
+    },
+    {
+      "id": "RT4",
+      "Bradley_option_exercised": false,
+      "Valentine_retained": false
+    }
+  ],
+  "second_year_named_costs": {
+    "Bradley": 2036318,
+    "Valentine": 2193920,
+    "Wieskamp": 1563518
+  },
+  "replacement_reserve": 2000000,
+  "known_2022_dead_salary": null,
+  "author_locked": false,
+  "season_selected": false,
+  "exact_execution_cleared": false,
+  "manuscript_allowed": false
+}

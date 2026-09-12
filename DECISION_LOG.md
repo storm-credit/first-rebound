@@ -754,3 +754,9 @@ DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했
 `simulation/NBA_2021_FULL_DRAFT_COMPARISON.md` 및 동명 JSON은 G4/G5 AP1/G6에2라운드120행을 더한4안240행을 제공한다. DB1 Chicago10 Duarte·39 Wieskamp가 최신 주 비교안이다. G3의39후보는 NYK23 Ayo/UTA30 Thor/ORL33 Herbert/NOP34 Edwards로 먼저 소모된다. C39A~D 네 후속 후보와SAS44/TOR48 파급,15자리·G3 대비 예산차0을 연결했다.
 
 60행 비교의 미판정0은 최종 드래프트 완료가 아니다. 당일 추가 거래·전체 등록·대체세계 대학 참가자 집합·의료/프런트 감사는 미완료다. 신규6검사 PASS·자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은 Chicago의 이름 있는 취득/예외 순서와2022–23 계약 조건이다.
+
+## O-15G8 — Chicago 취득 순서·2022 계약 조건
+
+`simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md` 및 동명 JSON은 SQ1 NTMLE 유지 추천과세 대안,240조건을 제공한다. SQ3 Mark 먼저/Caruso cap 공간의 추가 normal cap 한도는 $11,369,971, SQ4는 $6,866,356이며 정확 R은 null이다. NTMLE 잔액 소멸과그해 hard-cap 유지를 분리했다.
+
+P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출잔액을 연결했다. G1A/E2/G7 10 Duarte·39 Wieskamp는 조건부 주 경로다. 신규7검사 PASS, 실제 계약/시즌·2022 지명·2023 시장은 미완료. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
