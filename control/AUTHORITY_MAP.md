@@ -267,3 +267,14 @@ H는 관측 대조와 승인 범위의 권위로 보존한다. I는 보고 시�
 | 자체 검토 | `reviews/R01_O15F14J_AVAILABILITY_POLICY_REVIEW.md` | 검증8개·재현 PASS / NOT_INDEPENDENT |
 
 기본 수치는 F, 공식 사유는 I, 방향 승인은 H가 기존 권위다. J는 명시적인 비교 달력과 후속 영입 제외 조건만 추가하며 IWashington반례를 자동 누적하지 않는다. 다음K는 Orlando백업18분·잔여실행조건과최종정규시즌추천안이다. 최종건강·계약·시즌은 HOLD.
+
+
+## O-15F14-K 단일 추천 권위
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| K1 조건·1080경기·1079가정달력 | `simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md` 및 동명JSON | F038주추천/F138대조·AUTHOR_LOCK 없음 |
+| ORL28 고정분 최소중복 | `simulation/ORLANDO_2020_21_RETAINED_BACKUP_LINEUPS.json` | 산술하한28/28·잔여4경기·224비용조건 반전0; 전술효율 미측정 |
+| 등록 조회·자체검토 | `research/NBA_2020_21_K_REGISTRATION_REFERENCES.json`, `reviews/R01_O15F14K_SEASON_RECOMMENDATION_REVIEW.md` | 출처등급분리·검증6개/NOT_INDEPENDENT |
+
+K는단일추천을완성했으며F/J수치·I공식사유·H방향승인권위를바꾸지않는다. 다음L의4확정요건전최종건강/계약/시즌/플레이인/추첨은HOLD다.

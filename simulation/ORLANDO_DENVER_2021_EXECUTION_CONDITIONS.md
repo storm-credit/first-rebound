@@ -2,7 +2,8 @@
 
 - 상태: `EXECUTION_CONDITIONS_SPECIFIED / FULL_CAP_AND_PICK_TERMS_HOLD`
 - 선수 제안: Harris·Nnaji·보호 미래 1R → Orlando, Gordon·Clark → Denver
-- 권한: `A_NEGOTIATION_LEAN`, 정확 선수 이동은 `NOT_AUTHOR_LOCKED`
+- 현행 권한: `DIRECTION_AUTHOR_APPROVED_H / EXACT_CHARGE_PICK_HOLD`
+- 아래 F6D/D 본문의 미승인·협상 표현은 당시 이력이다. 최신 방향 승인 권위는 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`이며 정확 실행 조건은 계속 미확정이다.
 - 선행 보드: `ORLANDO_DENVER_2021_GORDON_BOARD.md`
 
 ## 1. 무엇이 남았는가
@@ -108,3 +109,10 @@ D의40경기표는당시범위의이력이다. 현재 `CHICAGO_2020_21_FULL_SEAS
 G 추천 질문에 대한 사용자의 ‘이어서’로 **A 선수/자산 방향을 채택**했다. 권위 `canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json`. Harris·Nnaji·보호 미래1R 대 Gordon·Clark 방향과 Vučević 잔여시즌 ORL 잔류, Fournier 독립 Boston행을 각각 승인 범위대로 적용한다. 선행 본문의 A_NEGOTIATION_LEAN/작가 방향 미선택 표현은 이력이며 방향 재승인은 불요다.
 
 정확 당일 charge·보너스·선행 픽 보호/이연/전환은 이번에도 미확보다. `AUTHOR_APPROVED_DIRECTION / EXACT_EXECUTION_HOLD`이며 거래 실행 PASS가 아니다. 신규 건강·후속 등록은 별도다. 최신 대조는 `CHICAGO_2020_21_EXECUTION_ADOPTION.md`와 달력 CSV를 따른다. G/F 수치 산출물은 당시 조건부 기록으로 보존한다.
+
+
+## 2026-09-12 O-15F14-K 현행 실행 연결
+
+H에서승인된Gordon A선수방향을재협상질문으로되돌리지않는다. K1은Vučević잔류세계에서도Hall/Wagner백업수요가있는조건부28경기분안을유지한다. 불필요한빅맨중복은선수별분을바꾸지않고최소화했으며4경기는중복이남는다. 근거는 `CHICAGO_2020_21_SEASON_RECOMMENDATION.md`와ORLANDO조합JSON이다.
+
+후속선수의필요성과등록자격은분리한다. Hall5/2~5/8은기존3경기0분으로유지했다. 실제10일계약이력은2차장부로대조했지만새세계의roster slot·적용예외·charge는아직확정하지않았다. Gordon선행/후행픽및양팀charge미확보필드는그대로다. 다음L에서정확필드와창작선택을구분해결산조건을닫는다.
