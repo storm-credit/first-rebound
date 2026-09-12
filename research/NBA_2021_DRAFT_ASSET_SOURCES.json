@@ -1,0 +1,82 @@
+{
+  "stage": "O-15G5",
+  "accessed": "2026-09-12",
+  "sources": [
+    {
+      "id": "ORDER",
+      "url": "https://api-hub.nba.com/news/2021-draft-order",
+      "title": "NBA 공식 원소유/당시 지배팀 표",
+      "access": "BODY_READ",
+      "boundary": "6/23 게시 표시지만 PHI53은 7/29 갱신이다. BOS16은 6/18 거래 후 값. 순수 6월 스냅샷 아님."
+    },
+    {
+      "id": "CASH",
+      "url": "https://www.nba.com/news/sixers-acquire-no-53-pick-in-2021-draft-from-pelicans",
+      "title": "NBA 공식 7/29 Dallas 유래53 현금 거래",
+      "access": "BODY_READ",
+      "boundary": "3/25 NOP 취득·7/29 PHI 현금 취득. 현금 액수 공식 미기재."
+    },
+    {
+      "id": "CASH_TEAM",
+      "url": "https://www.nba.com/pelicans/news/pelicans-complete-trade-76ers-2021-nba-draft",
+      "title": "NOP 동일 현금 공지",
+      "access": "SEARCH_BODY_READ",
+      "boundary": "7/29 09:00CDT. 앞선 순번이 바뀌면 번호 자체를 유지하지 않는다."
+    },
+    {
+      "id": "KEMBA_OFFICIAL",
+      "url": "https://www.nba.com/thunder/news/release-walker-210618",
+      "title": "OKC 6/18 Kemba 거래 공지",
+      "access": "SEARCH_SNIPPET_ONLY_BODY_ONE_LINE",
+      "boundary": "공개 검색에 2023 세 자산 중 least favorable. 구단본문 미복구; 세 자산의 구성은 2차 출처."
+    },
+    {
+      "id": "KEMBA_AP",
+      "url": "https://www.wbur.org/news/2021/06/18/celtics-send-kemba-walker-16th-pick-to-thunder-for-horford",
+      "title": "AP/WBUR 6/18 교환 구성",
+      "access": "SEARCH_BODY_READ",
+      "boundary": "Walker·16·2025 대 Horford·Moses Brown·2023. 금액은 현재 대체세계 charge가 아니다."
+    },
+    {
+      "id": "KEMBA_SWISH",
+      "url": "https://www.salaryswish.com/trades/players/kemba-walker",
+      "title": "거래 자산 이력",
+      "access": "BODY_READ",
+      "boundary": "6/19 표기와 공식 6/18 날짜 차이 보존. 2025 BOS/MEM 유리한 픽, 2023 문구는 단독 해석하지 않는다."
+    },
+    {
+      "id": "KEMBA_REALGM",
+      "url": "https://basketball.realgm.com/player/Al-Horford/Summary/35",
+      "title": "Horford 거래 이력",
+      "access": "SEARCH_BODY_READ",
+      "boundary": "6/18 2025 More Favorable, 2023 Least Favorable 대조."
+    },
+    {
+      "id": "KEMBA_2023",
+      "url": "https://kref.com/2021-nba-offseason-in-review-oklahoma-city-thunder/",
+      "title": "Hoops Rumors 전재 2021 오프시즌 정리",
+      "access": "SEARCH_BODY_READ",
+      "boundary": "OKC/WAS/더 유리한 DAL·MIA 중 가장 뒤. DAL/MIA가 네 팀 중 뒤 둘이면 그 둘 중 앞. 원문 hoopsrumors 접속502; 독립 두 출처로 세지 않는다."
+    },
+    {
+      "id": "NOP_MEM",
+      "url": "https://www.nba.com/news/pelicans-grizzlies-trade-valanciunas-adams-bledsoe",
+      "title": "7/26 합의 보도(7/27 UTC갱신)",
+      "access": "BODY_READ",
+      "boundary": "Adams/Bledsoe+10/40+2022 LAL top10 보호 대 Valanciunas+17/51. 최종 법적 실행과 다름."
+    },
+    {
+      "id": "TRACKER",
+      "url": "https://www.nba.com/news/2021-offseason-trade-tracker",
+      "title": "NBA 오프시즌 실제 후속 거래",
+      "access": "BODY_READ",
+      "boundary": "실제 다자/서명권 거래 목록은 변경 세계의 실행 사실이 아니다. Hutchison 부재 때문에 WAS 원거래를 통째 복사할 수 없다."
+    }
+  ],
+  "reuse": [
+    "research/NBA_2021_L_ASSET_CHAIN_SOURCES.json",
+    "simulation/NBA_2021_ASSET_CHAIN.json",
+    "simulation/NBA_2021_PROVISIONAL_DRAFT.json"
+  ],
+  "fact_limit": "공개 역사와 조건부 자산 보존만. 비공개 거래 문서·리그 승인·모든 보호 종료 조항 미확보."
+}

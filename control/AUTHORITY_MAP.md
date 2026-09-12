@@ -381,3 +381,9 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 ## O-15G4 — 2021 상위14 후속
 
 공개 기준선 `research/NBA_2021_TOP14_BOARD_SOURCES.json`; 창작 비교 입력 `simulation/NBA_2021_TOP14_BOARD_INPUTS.json`; 순차 선택의 조건부 산출/해석 `simulation/NBA_2021_TOP14_BOARD.md` 및 동명 JSON. DB1 NOP9 Moody/CHI10 Duarte가 G3의 가용 후보 이후 최신 추천이다. M 추첨·G3 예산·39순위 미판정 경계를 대체하지 않는다. 자체검토 `reviews/R01_O15G4_TOP14_BOARD_REVIEW.md`는 NOT_INDEPENDENT다.
+
+## O-15G5 — 2021 픽 원소유·조건부 거래 연결
+
+`simulation/NBA_2021_DRAFT_ASSETS.md` 및 동명 JSON은 네 거래 정책240행을 제공한다. AP1 Boston Kemba/Horford 교환 진행·NOP/MEM 교환 없음이 후속 추천이다. 순번 대신 원소유를 이동하므로 NOP/MEM 대안은9/17/40/49를 쓴다. Dallas 유래52의 현금 매각은 미실행, Lakers 유래53은 DET다. Fournier의 BOS/MEM2025 뒤 순번과 Kemba의 앞 순번을 분리하고,2023 Boston 수취의 중첩식을24순서로 검사했다. 미래 실제 순번/거래 적법성·최종60픽 지배권은 미확정이다.
+
+G4 DB1의 Chicago10 Duarte 추천과 G3 급여를 유지한다. Chicago39 및15~60 지명은 다음 선수·목적 거래 비교 대상이다. 전체1완료·6진행/남은큰작업6개, 자체검토 NOT_INDEPENDENT, v0.30 PARTIAL·설계/원고 CLOSED 유지.

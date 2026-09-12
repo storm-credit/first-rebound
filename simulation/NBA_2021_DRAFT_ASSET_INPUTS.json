@@ -1,0 +1,67 @@
+{
+  "stage": "O-15G5",
+  "parent": "simulation/NBA_2021_PROVISIONAL_DRAFT.json",
+  "baseline": "AFTER_MARCH_2021_BEFORE_JUNE_18_OPTIONAL_MOVES",
+  "first_round_owner_by_origin_overrides": {
+    "MIN": "GSW",
+    "MIA": "OKC",
+    "DAL": "NYK",
+    "POR": "HOU",
+    "MIL": "HOU"
+  },
+  "second_round_owner_by_origin_overrides": {
+    "HOU": "MIL",
+    "DET": "NYK",
+    "CLE": "NOP",
+    "MIN": "OKC",
+    "TOR": "DET",
+    "CHA": "DET",
+    "WAS": "NOP",
+    "IND": "BKN",
+    "MEM": "TOR",
+    "MIA": "ATL",
+    "GSW": "TOR",
+    "POR": "MEM",
+    "NYK": "PHI",
+    "ATL": "BKN",
+    "DAL": "NOP",
+    "LAL": "DET",
+    "MIL": "IND",
+    "DEN": "OKC",
+    "LAC": "CHA",
+    "PHI": "NYK",
+    "BKN": "CHA",
+    "PHX": "BKN",
+    "UTA": "IND"
+  },
+  "assumption": "기존 전달 조건과 원거래를 유지하는 CP2 조건부 투영. 모든 과거 거래의 정본/적법성 완료를 뜻하지 않는다.",
+  "scenarios": [
+    {
+      "id": "AP1",
+      "label": "Boston 교환 진행·NOP/MEM 교환 없음",
+      "boston_kemba": true,
+      "nop_mem": false
+    },
+    {
+      "id": "AP2",
+      "label": "두 교환 진행",
+      "boston_kemba": true,
+      "nop_mem": true
+    },
+    {
+      "id": "AP3",
+      "label": "두 교환 없음",
+      "boston_kemba": false,
+      "nop_mem": false
+    },
+    {
+      "id": "AP4",
+      "label": "Boston 유지·NOP/MEM 교환 진행",
+      "boston_kemba": false,
+      "nop_mem": true
+    }
+  ],
+  "recommended_scenario": "AP1",
+  "cash_sale_dal_second": false,
+  "other_draft_night_trades_executed": false
+}
