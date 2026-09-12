@@ -335,3 +335,5 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 ## O-15F14-L Chicago 잔여 급여 항목
 
 사실은 `research/CHICAGO_2020_21_RESIDUAL_SOURCES.json`, 조건부 항목 분류는 `simulation/CHICAGO_2020_21_RESIDUAL_COMPONENTS.md` 및 동명JSON이 권위다. 기존15명 급여와R한도는 TAX_BOUND에 남는다. FA종료가 방출잔액을 삭제하거나 실제R을 확정하지 않는다.
+
+| O-15F14-L 후반 5명·9계약 보고 금액·일할 계산·Hall 전액 비용안 | `simulation/NBA_2020_21_REGISTRATION_COSTS.md` 및 동명 JSON; 출처 `research/NBA_2020_21_REGISTRATION_COST_SOURCES.json` | PUBLIC_PAY_REPRODUCTION_PASS / TEAM_LIMITS_AND_HARDSHIP_HOLD / NOT_INDEPENDENT |
