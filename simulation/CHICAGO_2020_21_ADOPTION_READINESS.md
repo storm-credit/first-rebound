@@ -68,3 +68,8 @@ I의 Washington HIGH/RAPTOR 반례, F의 비상 역할 비용 반례, K의 4경�
 ### F4 후반 계약 금액 후속
 
 [NBA_2020_21_REGISTRATION_COSTS.md](NBA_2020_21_REGISTRATION_COSTS.md)와 동명 JSON에서 5명·9계약의 보고 급여와 일할 계산을 회수했다. 이전의 해당 금액 미확보 표현은 이 범위에서 이력이다. Hall의 0달러 제외 근거는 HOLD이며, 전액 비용안으로도 팀 한도를 검사할 수 있게 했다. 다음은 이 금액을 재조회하는 일이 아니라 ORL/BOS/DEN의 누적 장부·한도와 남은 앞선 단기 계약을 연결하는 작업이다. 기존 등록 구간·추가 1자리 5경기·K1/L2·작가/시즌 HOLD는 유지한다.
+
+
+### F4 Orlando 누적 급여 후속
+
+[ORLANDO_2020_21_PAYROLL_BOUND.md](ORLANDO_2020_21_PAYROLL_BOUND.md)에서 13명·9단기 계약·이전 방출 예산·캠프 전액 시험까지 연결했다. apron 최고 $124,207,255, 미포함 순증 R_ORL 허용액 $14,720,745이며 실제 R_ORL은 null이다. Hall 0달러 비용을 필요로 하지 않으나 추가 등록 허가는 별도다. 다음은 동일 급여 재조회가 아니라 BOS/DEN의 누적 비용과 ORL 잔여 가산 필드 연결이다. 이 ORL apron 정의를 F1 Chicago 6(j) 판정에 복사하지 않는다. A1~A3 미채택·F4 전체 HOLD·네 K 묶음 종료 0 유지.
