@@ -278,3 +278,14 @@ H는 관측 대조와 승인 범위의 권위로 보존한다. I는 보고 시�
 | 등록 조회·자체검토 | `research/NBA_2020_21_K_REGISTRATION_REFERENCES.json`, `reviews/R01_O15F14K_SEASON_RECOMMENDATION_REVIEW.md` | 출처등급분리·검증6개/NOT_INDEPENDENT |
 
 K는단일추천을완성했으며F/J수치·I공식사유·H방향승인권위를바꾸지않는다. 다음L의4확정요건전최종건강/계약/시즌/플레이인/추첨은HOLD다.
+
+
+## O-15F14-L 실행 회수·사건안 권위
+
+| 범위 | 권위 | 상태 |
+|---|---|---|
+| 신규 실제 사실 | `research/NBA_2020_21_L_EXECUTION_SOURCES.json` | 구단본문6건, 실제/대체 실행 분리 |
+| 날짜 대조·정확 산술·네 사건안 | `simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md` 및 동명JSON | 날짜140행·L2추천, 네묶음 미닫힘 |
+| 자체검토 | `reviews/R01_O15F14L_EXECUTION_CLOSEOUT_REVIEW.md` | 검증5개·NOT_INDEPENDENT |
+
+K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모형 예측이나 채택 정본이 아니며 최종픽 null·원고CLOSED를 보존한다.
