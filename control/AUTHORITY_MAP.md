@@ -376,3 +376,8 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 ## O-15G3 — 2021 후보 명단
 
 사실 출처는 `research/CHICAGO_2021_NAMED_ROSTER_SOURCES.json`, 후보 입력은 `simulation/CHICAGO_2021_NAMED_ROSTER_INPUTS.json`, 조건부 계산과 해석은 `simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md` 및 동명 JSON이다. G1A의 빈자리 후속이며 추첨·계약·최종 정본 권위를 대체하지 않는다. 검토 `reviews/R01_O15G3_NAMED_ROSTER_REVIEW.md`는 NOT_INDEPENDENT다.
+
+
+## O-15G4 — 2021 상위14 후속
+
+공개 기준선 `research/NBA_2021_TOP14_BOARD_SOURCES.json`; 창작 비교 입력 `simulation/NBA_2021_TOP14_BOARD_INPUTS.json`; 순차 선택의 조건부 산출/해석 `simulation/NBA_2021_TOP14_BOARD.md` 및 동명 JSON. DB1 NOP9 Moody/CHI10 Duarte가 G3의 가용 후보 이후 최신 추천이다. M 추첨·G3 예산·39순위 미판정 경계를 대체하지 않는다. 자체검토 `reviews/R01_O15G4_TOP14_BOARD_REVIEW.md`는 NOT_INDEPENDENT다.

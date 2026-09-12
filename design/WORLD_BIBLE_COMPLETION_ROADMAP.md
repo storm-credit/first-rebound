@@ -263,3 +263,10 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 `simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md` 및 동명 JSON은 G1A 다섯 빈자리의 후속이다. 가용할 때 Moody10·Edwards39·Bradley·Stanley Johnson·Valentine을 추천한다. 지명/계약 합의는 미실행이며 G1·추첨 원본은 유지한다. 15자리·네 센터240예산 조건·가용성32조건, G1A 대비 기본 추천 총액 −$856,688, 다음 해 세 유지 조건의 차이 −$206,244를 계산했다.
 
 Valentine FA 금액을 유지하는 30조건에서 Caruso NTMLE 분류의 추가 실제 금액 필요는0이지만 실행 장부는 HOLD다. Dieng 예외 부족과 별도 cap 공간 가능성, Draft Rookie/FA 세금 하한 구분을 기록했다. 신규5개 검증·JSON 재현·diff PASS, NOT_INDEPENDENT. 전체1완료·6진행/남은6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## O-15G4 — 상위14 네 순차 지명안
+
+`simulation/NBA_2021_TOP14_BOARD.md`/JSON과 입력/출처가 후속 권위다. DB1 NOP9 Moody→CHI10 Duarte를 추천한다. DB2 Moody10, DB3 GSW7 선점, DB4 Sengun10을 비교하며 구단 내부 선호의 사실이나 최종 지명이 아니다. 기존2020 정본과ORL Vucevic 잔류/TOR Powell 잔류/WAS Trent·Brown 보유를 반영했다.
+
+네 안56행·매 선택 가용 비교3명 이상·중복0·15자리/10순위 급여 유지·신규5검사. M 추첨/기존G1/G3 원본은 유지한다. 15~60의46픽과CHI39는 미판정이며 하류 후보는 삭제하지 않는다. G2 장기/구조/문체 패킷과author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT.
