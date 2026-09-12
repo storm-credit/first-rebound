@@ -1057,3 +1057,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 권위 `simulation/NBA_2021_ASSET_CHAIN.md` 및 동명JSON, 출처 `research/NBA_2021_L_ASSET_CHAIN_SOURCES.json`. 승인된Bane30거래의MEM2025 2R출처를Boston공지에서회수했다. Fournier수취의실제TPE사용보도와후대11.05m목록을기존3시험값에대조했다.17.45m차액일치는당일charge인증이아니다. Denver선행1R미전달시2025·26 2R전환보도를회수했고Gordon연결/종료는null로보존했다.
 
 신규6개·JSON재현·diff검사PASS, 자체검토NOT_INDEPENDENT. 기존H승인/K1·L2추천·ChicagoR한도는유지한다. 사실미확보와작가선택을분리하며네K묶음전체종료0, 전체1완료/1진행/5대기·남은큰작업6개. v0.30 PARTIAL·설계/원고CLOSED·author_locked=false·season_selected=false. 다음은남은R구성/정확charge/Gordon후행/등록비용을최종실행패킷에연결한다.
+
+
+## 2026-09-12 O-15F14-L 후반 등록 비용
+
+후속 권위는 `simulation/NBA_2020_21_REGISTRATION_COSTS.md` 및 동명 JSON, 출처는 `research/NBA_2020_21_REGISTRATION_COST_SOURCES.json`이다. 5명·9계약의 공개 급여를 146일 기준으로 재현했다. Rivers의 보전과 Parker의 2년 계약을 구분하고, Hall의 등록 해제와 10일 보수를 분리했다. Hall 5/9의 보고 cap hit 0은 당시 적용 근거 HOLD로 보존하며 전액 비용안도 제공한다. 세 팀 전체 급여·한도와 대체세계 등록 승인은 미완료다. 신규 5개·기존 6개 검증 PASS, 자체검토 NOT_INDEPENDENT. 네 K 묶음 전체 종료 0·남은 큰 작업 6개, v0.30 PARTIAL·설계/원고 CLOSED 유지.

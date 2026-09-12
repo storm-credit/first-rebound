@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L Chicago R 구성: 구단본문3건·조건부FA 종료/빈자리 제외, 실제R와시즌 HOLD`
+- 최근 설계 변경: `O-15F14-L 후반 5명·9계약 급여 재현, Hall 전액 비용안·팀 한도 HOLD`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -716,3 +716,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 `simulation/CHICAGO_2020_21_RESIDUAL_COMPONENTS.md` 및 동명JSON이 F1의 항목별 후속이다. 구단본문3건으로 Dunn/Harrison/Vonleh의 타팀계약을 확인하고, 같은 경로의 종전 FA보류액과 빈자리 부담을 구분했다. 방출잔액과 과거권리/예외/조정은 미확정이다. 기존R한도 $5,609,972 유지·이중차감0·실제R/null·비납세/null. 신규3개와 기존tax6개 검사 및 JSON재현 통과, 자체검토 NOT_INDEPENDENT.
 
 다음은 WAIVED_PAY 및 이전 FA/1R 권리 잔액 목록 회수다. 이번3계약본문/빈자리규정 재수집은 불필요하다. F1과 네K묶음전체종료0, 전체1완료/1진행/5대기·남은6개, v0.30 PARTIAL·설계/원고CLOSED·시즌미채택 유지.
+
+
+## 2026-09-12 O-15F14-L 후반 등록 비용
+
+후속 권위는 `simulation/NBA_2020_21_REGISTRATION_COSTS.md` 및 동명 JSON, 출처는 `research/NBA_2020_21_REGISTRATION_COST_SOURCES.json`이다. 5명·9계약의 공개 급여를 146일 기준으로 재현했다. Rivers의 보전과 Parker의 2년 계약을 구분하고, Hall의 등록 해제와 10일 보수를 분리했다. Hall 5/9의 보고 cap hit 0은 당시 적용 근거 HOLD로 보존하며 전액 비용안도 제공한다. 세 팀 전체 급여·한도와 대체세계 등록 승인은 미완료다. 신규 5개·기존 6개 검증 PASS, 자체검토 NOT_INDEPENDENT. 네 K 묶음 전체 종료 0·남은 큰 작업 6개, v0.30 PARTIAL·설계/원고 CLOSED 유지.
