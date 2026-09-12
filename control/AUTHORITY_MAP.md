@@ -316,3 +316,12 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 | 공개 급여·rookie scale·규정 | `research/CHICAGO_2020_21_TAX_BOUND_SOURCES.json` | 시즌/옵션연차·1차/2차 구분 |
 | 15명 급여·60조건·잔여한도 | `simulation/CHICAGO_2020_21_TAX_BOUND.md` 및 동명JSON | R 실제값 null, 정확거래·순번·시즌 미채택 |
 | 자체검토 | `reviews/R01_O15F14L_CHICAGO_TAX_BOUND_REVIEW.md` | 신규6개·NOT_INDEPENDENT |
+
+
+## O-15F14-L 자산 연결 권위
+
+| 범위 | 권위 | 경계 |
+|---|---|---|
+| Boston공지·예외사용/잔액·Denver전환보도 | `research/NBA_2021_L_ASSET_CHAIN_SOURCES.json` | 1차/2차·당일/후대 구분 |
+| 픽 분기·TPE대조 | `simulation/NBA_2021_ASSET_CHAIN.md` 및 동명JSON | 미래결과미선택·정확실행HOLD |
+| 자체검토 | `reviews/R01_O15F14L_ASSET_CHAIN_REVIEW.md` | 신규6개·NOT_INDEPENDENT |

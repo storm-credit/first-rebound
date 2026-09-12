@@ -1,0 +1,147 @@
+{
+  "stage": "O-15F14-L_ASSET_CHAIN",
+  "baseline_main": "11d488d3ae6afdf9c9d26dca44d2733e5b522e28",
+  "Boston": {
+    "MEM_2025_origin_supported_by_primary_source": true,
+    "Bane30_route_already_approved": true,
+    "fournier_historical_tpe_use_reported": true,
+    "tpe_comparisons": [
+      {
+        "charge_test_usd": 17000000,
+        "balance_if_no_prior_use_usd": 11500000,
+        "matches_later_snapshot_arithmetically": false
+      },
+      {
+        "charge_test_usd": 17150000,
+        "balance_if_no_prior_use_usd": 11350000,
+        "matches_later_snapshot_arithmetically": false
+      },
+      {
+        "charge_test_usd": 17450000,
+        "balance_if_no_prior_use_usd": 11050000,
+        "matches_later_snapshot_arithmetically": true
+      }
+    ],
+    "inferred_consumption_if_same_exception_and_no_other_uses_usd": 17450000,
+    "exact_trade_date_charge_verified": false,
+    "exact_alternate_tpe_balance_usd": null,
+    "pick_split_examples_not_outcomes": [
+      {
+        "ORL_if_terms_adopted": {
+          "origin": "BOS",
+          "pick": 60
+        },
+        "BOS_retained_before_other_obligations": {
+          "origin": "MEM",
+          "pick": 31
+        }
+      },
+      {
+        "ORL_if_terms_adopted": {
+          "origin": "MEM",
+          "pick": 60
+        },
+        "BOS_retained_before_other_obligations": {
+          "origin": "BOS",
+          "pick": 31
+        }
+      }
+    ],
+    "selected_2025_split": null,
+    "BOS_2027_2R_full_priority_and_terms_verified": false
+  },
+  "Denver": {
+    "preceding_reported_terminal_conversion": [
+      {
+        "team": "DEN",
+        "year": 2025,
+        "round": 2
+      },
+      {
+        "team": "DEN",
+        "year": 2026,
+        "round": 2
+      }
+    ],
+    "preceding_examples_not_outcomes": [
+      {
+        "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+        "year": 2023,
+        "asset": {
+          "team": "DEN",
+          "year": 2023,
+          "round": 1,
+          "pick": 15
+        }
+      },
+      {
+        "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+        "year": 2024,
+        "asset": {
+          "team": "DEN",
+          "year": 2024,
+          "round": 1,
+          "pick": 15
+        }
+      },
+      {
+        "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+        "year": 2025,
+        "asset": {
+          "team": "DEN",
+          "year": 2025,
+          "round": 1,
+          "pick": 15
+        }
+      },
+      {
+        "status": "CONDITIONAL_REPORTED_SECOND_ROUND_CONVERSION",
+        "year": 2025,
+        "asset": [
+          {
+            "team": "DEN",
+            "year": 2025,
+            "round": 2
+          },
+          {
+            "team": "DEN",
+            "year": 2026,
+            "round": 2
+          }
+        ]
+      }
+    ],
+    "selected_preceding_result": {
+      "status": "WAIT_FOR_OUTCOME",
+      "year": 2023,
+      "asset": null
+    },
+    "conditional_nonconsecutive_calendar": [
+      {
+        "preceding_delivery_year": 2023,
+        "earliest_gordon_test_year": 2025
+      },
+      {
+        "preceding_delivery_year": 2024,
+        "earliest_gordon_test_year": 2026
+      },
+      {
+        "preceding_delivery_year": 2025,
+        "earliest_gordon_test_year": 2027
+      }
+    ],
+    "gordon_after_preceding_conversion": null,
+    "gordon_terminal_conversion": null,
+    "complete_stepien_and_ownership_certified": false
+  },
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "exact_execution_cleared": false,
+  "requirements_closed": 0,
+  "review": "NOT_INDEPENDENT",
+  "input_sha256": {
+    "research/NBA_2021_L_ASSET_CHAIN_SOURCES.json": "b9b68de902060a53fd24f20f52a62471aa02b2c60b8df05086c687c8a43c4cf9",
+    "research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json": "d0597187f18b3f1436c72ab50444156448a2b3e8c3477c1095579e298f60603b"
+  }
+}
