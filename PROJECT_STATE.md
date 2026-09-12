@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L 실행 조항 후속: Hall4명 결장근거·2019규약·급여8명/인센티브·Gordon4조건·픽 항목 회수; 정확실행/시즌/추첨 HOLD`
+- 최근 설계 변경: `O-15F14-L Chicago15명 급여·주인공 미확정슬롯60조건: 명단밖R $5,609,972 이하 비납세; 실제R/정확실행/시즌 HOLD`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -688,3 +688,10 @@ K는 PR #155로 실제 병합했고 원격/로컬 main의 SHA·tree를 확인했
 K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS는 모두 미닫힘이다. 다음은 L 잔여 실행 필드 처리 후 채택·추첨 연결이며 새 경기 전량수집이 아니다. K1과 L2는 조건부 추천으로만 보존한다. 기존 방향 승인 재질문 없음. 검증5개·JSON재현·공백검사 PASS, 자체검토 NOT_INDEPENDENT. v0.30 PARTIAL·설계/원고CLOSED·전체1완료/1진행/5대기·남은6개 유지.
 
 - 최신 실행 조항·급여 범위 권위: `simulation/CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON. 다음은 Chicago 비납세 범위·Boston 예외 사용·픽 연결/종료·정확charge. Hall 신청의4명 근거는 회수 완료, 새 세계 승인 사건은 미채택.
+
+
+## 2026-09-12 O-15F14-L Chicago 거래 직후 급여 범위
+
+권위 `simulation/CHICAGO_2020_21_TAX_BOUND.md` 및 동명JSON, 출처 `research/CHICAGO_2020_21_TAX_BOUND_SOURCES.json`. 기존15명 명단의 주인공 제외 기본급$122,812,428, 2018 rookie3년차16~30순위80~120%·Young bonus0/1m의60조건을 계산했다. 최고 알려진 합계$127,017,028이며 명단 밖 증가분R이$5,609,972 이하면 모든 시험에서 비납세다. R의실제값은null이다. 주인공정확순번·급여LOCK 및 거래적법성완료가 아니다.
+
+Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 실제charge/전체상한은아니다. 새 검증6개·JSON재현·diff검사PASS, 자체검토NOT_INDEPENDENT. H승인/K1·L2추천·author_locked=false·season_selected=false·v0.30 PARTIAL·설계/원고CLOSED 유지. 네조건묶음종료0, 전체1완료/1진행/5대기·남은큰작업6개. 다음은R구성·Boston예외사용·픽연결/종료·후속charge를처리한뒤작가채택패킷연결이다.

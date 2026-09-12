@@ -649,3 +649,10 @@ PR #156 이후 등록 후속 권위는 `simulation/ORLANDO_2020_21_REGISTRATION_
 권위는 `simulation/CHICAGO_2020_21_EXECUTION_TERMS.md` 및 동명JSON, 출처 `research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json`이다. Hall은 Porter/Carter/투웨이를 쓰지 않는4명의 부상3연속 결장 근거와2019규약6.08을 회수했다. 급여8명 기본급/인센티브·Gordon4조건 산술·픽 보호기간/연도 일부를 채웠다. 정확 리그 승인·charge·팀 세금/예외·픽 연결/종료·시즌 채택은 미결이다.
 
 H 방향 승인과 K1/L2 추천을 보존한다. 신규6개 검증·자체검토 NOT_INDEPENDENT. author_locked=false·season_selected=false, v0.30 PARTIAL·설계/원고 CLOSED 유지. 네 조건 묶음 종료0개, 전체7행 중1완료·1진행·5대기 및 남은 큰 작업6개.
+
+
+## 2026-09-12 O-15F14-L Chicago 거래 직후 급여 범위
+
+권위 `simulation/CHICAGO_2020_21_TAX_BOUND.md` 및 동명JSON, 출처 `research/CHICAGO_2020_21_TAX_BOUND_SOURCES.json`. 기존15명 명단의 주인공 제외 기본급$122,812,428, 2018 rookie3년차16~30순위80~120%·Young bonus0/1m의60조건을 계산했다. 최고 알려진 합계$127,017,028이며 명단 밖 증가분R이$5,609,972 이하면 모든 시험에서 비납세다. R의실제값은null이다. 주인공정확순번·급여LOCK 및 거래적법성완료가 아니다.
+
+Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 실제charge/전체상한은아니다. 새 검증6개·JSON재현·diff검사PASS, 자체검토NOT_INDEPENDENT. H승인/K1·L2추천·author_locked=false·season_selected=false·v0.30 PARTIAL·설계/원고CLOSED 유지. 네조건묶음종료0, 전체1완료/1진행/5대기·남은큰작업6개. 다음은R구성·Boston예외사용·픽연결/종료·후속charge를처리한뒤작가채택패킷연결이다.
