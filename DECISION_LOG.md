@@ -680,3 +680,10 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 ## 2026-09-12 O-15F14-L 후반 등록 비용
 
 후속 권위는 `simulation/NBA_2020_21_REGISTRATION_COSTS.md` 및 동명 JSON, 출처는 `research/NBA_2020_21_REGISTRATION_COST_SOURCES.json`이다. 5명·9계약의 공개 급여를 146일 기준으로 재현했다. Rivers의 보전과 Parker의 2년 계약을 구분하고, Hall의 등록 해제와 10일 보수를 분리했다. Hall 5/9의 보고 cap hit 0은 당시 적용 근거 HOLD로 보존하며 전액 비용안도 제공한다. 세 팀 전체 급여·한도와 대체세계 등록 승인은 미완료다. 신규 5개·기존 6개 검증 PASS, 자체검토 NOT_INDEPENDENT. 네 K 묶음 전체 종료 0·남은 큰 작업 6개, v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## 2026-09-12 O-15F14-L Orlando 후반 급여 범위
+
+후속 권위는 `simulation/ORLANDO_2020_21_PAYROLL_BOUND.md` 및 동명 JSON, 출처는 `research/ORLANDO_2020_21_PAYROLL_SOURCES.json`이다. 기존 13명 기본급 $110,880,451, 공개 보너스·앞선 계약·9단기 계약의 apron 보정과 캠프 4명 연간 기본급 전액 시험을 연결했다. 최고 $124,207,255이며 남은 순증 R_ORL이 $14,720,745 이내라는 조건부 한도다. 실제 R_ORL·정확 전체 장부·Hall 등록 허가는 미확정이다. Chicago 거래 비납세 정의와 분리한다.
+
+신규 5개·기존 비용 5개 검사·JSON 재현·diff 검사 PASS, 자체검토 NOT_INDEPENDENT. K1/L2 미채택·네 K 묶음 전체 종료 0·남은 큰 작업 6개, v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은 Boston/Denver 후반 누적 급여 및 ORL 잔여 필드의 채택 패킷 연결이다.
