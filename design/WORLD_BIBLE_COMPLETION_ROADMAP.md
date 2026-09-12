@@ -249,10 +249,17 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 |---|---|
 | 2020 드래프트 연쇄 | 완료 |
 | Chicago 2020–21 시즌 원장 | 진행 — CP2 잠정 결산·추첨 완료, 정확 실행 HOLD |
-| 2021–23 거래·계약 | 진행 — G1A/E2 조건부 예산, 실제 계약·후속 시즌 미완료 |
+| 2021–23 거래·계약 | 진행 — G1A/E2·G3 후보/비용, 실제 지명·계약·후속 시즌 미완료 |
 | 주인공·라이벌 장기 커리어 | 진행 — 17시즌 H2·수상/우승 예산 추천 |
 | 결말·전체 Act 구조 | 진행 — RC1·14 Act/42 Sub-Act, 회차 기능표 미완료 |
 | 문체 기준·Context Pack | 진행 — 기초안·설계 샘플2, 딥리드 미완료 |
 | 통합·독립 검수·작가 승인 | 진행 — 통합 자체 점검, 독립/작가 승인 대기 |
 
 진행 중 포함 남은 큰 작업 **6개**. 문서 존재를 완료로 환산하지 않는다.
+
+
+## O-15G3 — 2021 선수 후보·빈자리 비용·예외 순서
+
+`simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md` 및 동명 JSON은 G1A 다섯 빈자리의 후속이다. 가용할 때 Moody10·Edwards39·Bradley·Stanley Johnson·Valentine을 추천한다. 지명/계약 합의는 미실행이며 G1·추첨 원본은 유지한다. 15자리·네 센터240예산 조건·가용성32조건, G1A 대비 기본 추천 총액 −$856,688, 다음 해 세 유지 조건의 차이 −$206,244를 계산했다.
+
+Valentine FA 금액을 유지하는 30조건에서 Caruso NTMLE 분류의 추가 실제 금액 필요는0이지만 실행 장부는 HOLD다. Dieng 예외 부족과 별도 cap 공간 가능성, Draft Rookie/FA 세금 하한 구분을 기록했다. 신규5개 검증·JSON 재현·diff PASS, NOT_INDEPENDENT. 전체1완료·6진행/남은6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.

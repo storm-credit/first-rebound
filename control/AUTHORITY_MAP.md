@@ -371,3 +371,8 @@ CP2 승인 권위는 `canon/CHICAGO_2020_21_CP2_APPROVAL.json`. 추첨 전 입�
 G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA 4년 $98.56m 예산)가 새 추천이다. 4안15자리·정상가용일240분·2022 재정48조건을 연결했으며 실제 계약은 미확정이다. 최종 author/season/exact 잠금 false·v0.30 PARTIAL·설계/원고 CLOSED·NOT_INDEPENDENT 유지.
 
 전체1완료·2진행·4대기/남은큰작업6개. Chicago2020–21은 잠정 결산 완료·정확실행HOLD, 2021–23거래·계약은 조건부 진행이다. 다음 후속은 이 재정/성장 비용에 기초한 장기 커리어·결말/Act 설계이며 CP2 재승인 질문은 없다.
+
+
+## O-15G3 — 2021 후보 명단
+
+사실 출처는 `research/CHICAGO_2021_NAMED_ROSTER_SOURCES.json`, 후보 입력은 `simulation/CHICAGO_2021_NAMED_ROSTER_INPUTS.json`, 조건부 계산과 해석은 `simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md` 및 동명 JSON이다. G1A의 빈자리 후속이며 추첨·계약·최종 정본 권위를 대체하지 않는다. 검토 `reviews/R01_O15G3_NAMED_ROSTER_REVIEW.md`는 NOT_INDEPENDENT다.

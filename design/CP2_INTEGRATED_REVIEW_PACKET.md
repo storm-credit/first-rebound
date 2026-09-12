@@ -11,6 +11,7 @@
 | 2020–21 | K1 Chicago31–41·L2 WAS 승리/IND 패배 | [K](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md), [L](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md) |
 | 2021 추첨 | 사전 게시 후 첫 결과 CHA/HOU/ORL/OKC; CHI10·39, MIN7·36 원소유 순번 | [잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md) |
 | 2021–23 | G1A 코어 유지·Caruso·Theis 이탈, E2 직접 RFA4년 $98.56m 예산 | [G1 예산/분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
+| 2021 후보 명단 | 가용 시 Moody10·Edwards39·Bradley·Stanley·Valentine, 15자리 비용 | [G3 후보](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) |
 | 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md) |
 | 우승/수상 | AW2의 CHI2028·2031 우승, P2027 MVP·2028/2031 FMVP 후보 | [기계 원장](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json) |
 | 전체 구조 | 14 Act·42 Sub-Act·780 분량 슬롯, NBA81.54% | [Act](ACT_MAP.md), [Sub-Act](SUB_ACT_MAP.md), [5개 약속](CP2_PROMISE_LEDGER.json) |
@@ -35,7 +36,7 @@
 | ID | 미완료 | 닫는 데 필요한 것 | 현재 가능한 후속 |
 |---|---|---|---|
 | D1 | 네 K 실행 묶음의 정확 사실/최종 채택 | [시즌 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 기존 필드 회수·작가 선택 | K1/L2/M을 조건으로 설계 계속 |
-| D2 | 2021 선수 보드·실제 계약 | 바뀐 top4부터 보드/소유권, CHI10·39와 백업C 취득·예외 순서 | G1A의 자리·예산 범위 사용 |
+| D2 | 2021 선수 보드·실제 계약 | 바뀐 top4부터 보드/소유권, CHI10·39와 백업C 취득·예외 순서 | [G3 실명 후보·예외 순서](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) 사용, 선행 지명/계약은 미실행 |
 | D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | E2와 48재정조건으로 비용 비교 |
 | D4 | 2023 대표팀·병역·새 CBA | 기존 범위 게이트 재개 조건에 따른 사실 조사와 전 경기 인과 | H2/NM1 조건부, 불성립 시 공백 분기 |
 | D5 | 장기 시즌·수상·동료 잔류 | H2/RC1/AW2의 전력·계약·상대·가용성 연결과 선택 | 역할·실패·종료 기능표 사용 |
