@@ -342,3 +342,8 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 ## O-15F14-L Orlando 후반 급여 범위
 
 급여/보너스·이전 계약·예외의 공개 근거는 `research/ORLANDO_2020_21_PAYROLL_SOURCES.json`, 조건부 8시점 누적 apron 예산은 `simulation/ORLANDO_2020_21_PAYROLL_BOUND.md` 및 동명 JSON이 권위다. 기존 REGISTRATION_COSTS의 보수 재현을 재사용한다. 실제 전체 장부·Hall 허가·Chicago 거래 비납세 검사·작가 채택을 대신하지 않는다. 자체검토 `reviews/R01_O15F14L_ORLANDO_PAYROLL_REVIEW.md`는 NOT_INDEPENDENT다.
+
+
+## O-15F14-L BOS/DEN 급여
+
+`simulation/BOSTON_DENVER_2020_21_PAYROLL.md` 및 동명 JSON은 후반 누적 비용/양수 분 등록 대조 권위다. 사실 출처 `research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json`, 자체검토 `reviews/R01_O15F14L_BOSTON_DENVER_PAYROLL_REVIEW.md`. 정확 전체 리그 장부·TPE·픽·작가 채택을 대신하지 않는다.

@@ -1,0 +1,705 @@
+{
+  "stage": "O-15F14-L_BOSTON_DENVER_PAYROLL_SOURCES",
+  "baseline_main": "d611a0add148ac52b058b5f68448462e6a9c1201",
+  "references": [
+    {
+      "id": "BD_BOS_TRANSACTIONS",
+      "url": "https://www.basketball-reference.com/teams/BOS/2021_transactions.html",
+      "final_url": "https://www.basketball-reference.com/teams/BOS/2021_transactions.html",
+      "html_sha256": "3e8d9c06814c3bd83ee051624c56e2694a6435a4d341895626865eb73c6934f7",
+      "bytes": 143654,
+      "text_chars": 93216,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_DEN_TRANSACTIONS",
+      "url": "https://www.basketball-reference.com/teams/DEN/2021_transactions.html",
+      "final_url": "https://www.basketball-reference.com/teams/DEN/2021_transactions.html",
+      "html_sha256": "57c4019c42e0cf777a30bb3a898dcc66e0814e6aa03adfcf839473352c2dc7ce",
+      "bytes": 143862,
+      "text_chars": 93475,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_AARON_NESMITH",
+      "url": "https://www.salaryswish.com/players/aaron-nesmith",
+      "final_url": "https://www.salaryswish.com/players/aaron-nesmith",
+      "html_sha256": "8c062dd961ceab83600ff90dba32de20dcd2bffac0676bd7e67f2f6fecfa88df",
+      "bytes": 105296,
+      "text_chars": 56341,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_AMILE_JEFFERSON",
+      "url": "https://www.salaryswish.com/players/amile-jefferson",
+      "final_url": "https://www.salaryswish.com/players/amile-jefferson",
+      "html_sha256": "47f9d96172991cc4cecf07fd04232b6881ca4b9ec16ab354b62cb0f76667763d",
+      "bytes": 98400,
+      "text_chars": 54567,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_BOL_BOL",
+      "url": "https://www.salaryswish.com/players/bol-bol",
+      "final_url": "https://www.salaryswish.com/players/bol-bol",
+      "html_sha256": "f00047c808a2088174ff5c901212703566dd434f3116dca27c283b51ca0f28a6",
+      "bytes": 115514,
+      "text_chars": 57136,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_CARSEN_EDWARDS",
+      "url": "https://www.salaryswish.com/players/carsen-edwards",
+      "final_url": "https://www.salaryswish.com/players/carsen-edwards",
+      "html_sha256": "c8e0538f3291037f403264f292aee8c48838cf6f89e715523156975d94053e84",
+      "bytes": 100040,
+      "text_chars": 55331,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_FACUNDO_CAMPAZZO",
+      "url": "https://www.salaryswish.com/players/facundo-campazzo",
+      "final_url": "https://www.salaryswish.com/players/facundo-campazzo",
+      "html_sha256": "265e84f6c1b64edde27350cc7221a2eb4bf9f26cb8d84ddf93afb45edc1bad3e",
+      "bytes": 100297,
+      "text_chars": 55308,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_GARY_CLARK",
+      "url": "https://www.salaryswish.com/players/gary-clark",
+      "final_url": "https://www.salaryswish.com/players/gary-clark",
+      "html_sha256": "21c4b5a3924c792e2eab853b3c2661c63e085edcd79f17ddab60c79189d9d867",
+      "bytes": 147484,
+      "text_chars": 61656,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_GRANT_WILLIAMS",
+      "url": "https://www.salaryswish.com/players/grant-williams",
+      "final_url": "https://www.salaryswish.com/players/grant-williams",
+      "html_sha256": "7d185a71200dd0a92b9a20303f1c34e24823f4365987cf9799c131bbc11c4aac",
+      "bytes": 100608,
+      "text_chars": 55654,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_JAMAL_MURRAY",
+      "url": "https://www.salaryswish.com/players/jamal-murray",
+      "final_url": "https://www.salaryswish.com/players/jamal-murray",
+      "html_sha256": "894c965647b92696b4df21639750a03bb5aebd031c4bf781afaeb1042fd35277",
+      "bytes": 106928,
+      "text_chars": 56881,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_JAMYCHAL_GREEN",
+      "url": "https://www.salaryswish.com/players/jamychal-green",
+      "final_url": "https://www.salaryswish.com/players/jamychal-green",
+      "html_sha256": "1bcec3b2e4089d45c091feb765a3e1b895b28f8745a768b7835391c57bb57ae6",
+      "bytes": 151982,
+      "text_chars": 62730,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_JAVALE_MCGEE",
+      "url": "https://www.salaryswish.com/players/javale-mcgee",
+      "final_url": "https://www.salaryswish.com/players/javale-mcgee",
+      "html_sha256": "32565a51b7bbfe1cd7061080fc37564d419e45cde8f2d726d7b068eab98c3d99",
+      "bytes": 149649,
+      "text_chars": 63180,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_JAYLEN_BROWN",
+      "url": "https://www.salaryswish.com/players/jaylen-brown",
+      "final_url": "https://www.salaryswish.com/players/jaylen-brown",
+      "html_sha256": "7ddb8bf65d03a245c6aeb6a254b0b8460bce1fad4598d05e8cb6a929d01199e9",
+      "bytes": 107089,
+      "text_chars": 56991,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_JAYSON_TATUM",
+      "url": "https://www.salaryswish.com/players/jayson-tatum",
+      "final_url": "https://www.salaryswish.com/players/jayson-tatum",
+      "html_sha256": "aee35e2a2ffd307971b27da871bc306253dbf617e047aa0dc177fbb32b604897",
+      "bytes": 108088,
+      "text_chars": 57131,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_KEITA_BATESDIOP",
+      "url": "https://www.salaryswish.com/players/keita-batesdiop",
+      "final_url": "https://www.salaryswish.com/players/keita-batesdiop",
+      "html_sha256": "1e6bb6ae6404ef41916023769fb963a57013408c412531e26d42fd51bb57473c",
+      "bytes": 112808,
+      "text_chars": 57232,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_KEMBA_WALKER",
+      "url": "https://www.salaryswish.com/players/kemba-walker",
+      "final_url": "https://www.salaryswish.com/players/kemba-walker",
+      "html_sha256": "ac7ce97eb94239bdf7fe2e6d62dd21e05a0373cd6b885b9e4738d2d6c8d0cd6a",
+      "bytes": 122746,
+      "text_chars": 59042,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_MARCUS_SMART",
+      "url": "https://www.salaryswish.com/players/marcus-smart",
+      "final_url": "https://www.salaryswish.com/players/marcus-smart",
+      "html_sha256": "2e6c2cf52d30b1576870307ed44c981cdd345de73c91caa474745a3e1599dd5a",
+      "bytes": 120233,
+      "text_chars": 58895,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_MICHAEL_PORTERJR",
+      "url": "https://www.salaryswish.com/players/michael-porterjr",
+      "final_url": "https://www.salaryswish.com/players/michael-porterjr",
+      "html_sha256": "2d2bd14c119ecc39f6c1d899f581066e2e3c29d6756fd788bdba422a3d26fbf0",
+      "bytes": 101478,
+      "text_chars": 56451,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_MONTE_MORRIS",
+      "url": "https://www.salaryswish.com/players/monte-morris",
+      "final_url": "https://www.salaryswish.com/players/monte-morris",
+      "html_sha256": "4677e52e93cfa78805a2bba404ec3be3fe8d8b438d66ea34d9ceb8e68f9a9278",
+      "bytes": 116993,
+      "text_chars": 57726,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_MORITZ_WAGNER",
+      "url": "https://www.salaryswish.com/players/moritz-wagner",
+      "final_url": "https://www.salaryswish.com/players/moritz-wagner",
+      "html_sha256": "334bf167e3e169679781bc6798b6b699ce4a2f2013e65ddb749d3e27ef1715bf",
+      "bytes": 129751,
+      "text_chars": 59951,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_NIKOLA_JOKIC",
+      "url": "https://www.salaryswish.com/players/nikola-jokic",
+      "final_url": "https://www.salaryswish.com/players/nikola-jokic",
+      "html_sha256": "cca0d6eb2e6743291e592732ba9ca912df2c97217e0ee512c883913b0480a758",
+      "bytes": 106959,
+      "text_chars": 56979,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_PAUL_MILLSAP",
+      "url": "https://www.salaryswish.com/players/paul-millsap",
+      "final_url": "https://www.salaryswish.com/players/paul-millsap",
+      "html_sha256": "0f008e9228cce6660db2bb6244996ed9a7964ded10984901f69d30071e012966",
+      "bytes": 125596,
+      "text_chars": 59277,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_PAYTON_PRITCHARD",
+      "url": "https://www.salaryswish.com/players/payton-pritchard",
+      "final_url": "https://www.salaryswish.com/players/payton-pritchard",
+      "html_sha256": "da88bb31e4d91ff94982123d9ee3e81cf9b5e6a5ae249a1d1f1040ff86dc96fc",
+      "bytes": 99884,
+      "text_chars": 55602,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_PJ_DOZIER",
+      "url": "https://www.salaryswish.com/players/pj-dozier",
+      "final_url": "https://www.salaryswish.com/players/pj-dozier",
+      "html_sha256": "be75e1587e1d4969884fda64632491f1f324f163337fb3a8dac8bacc964331b1",
+      "bytes": 152586,
+      "text_chars": 62597,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_ROBERT_WILLIAMSIII",
+      "url": "https://www.salaryswish.com/players/robert-williamsiii",
+      "final_url": "https://www.salaryswish.com/players/robert-williamsiii",
+      "html_sha256": "45884db828d5b49424cd4dd7c8bcab86fa4c3c00239fb3fae061afdaaca000da",
+      "bytes": 105942,
+      "text_chars": 56894,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_ROMEO_LANGFORD",
+      "url": "https://www.salaryswish.com/players/romeo-langford",
+      "final_url": "https://www.salaryswish.com/players/romeo-langford",
+      "html_sha256": "0d4f7cb4a1ac848a97edefd51addb3b40668c80374353fcb41add28b4e31e4bd",
+      "bytes": 106718,
+      "text_chars": 56257,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_SEMI_OJELEYE",
+      "url": "https://www.salaryswish.com/players/semi-ojeleye",
+      "final_url": "https://www.salaryswish.com/players/semi-ojeleye",
+      "html_sha256": "61cd164cf86169c7608f4e4ce201ca3dfbc83798dbd775fab715ae3017056004",
+      "bytes": 100493,
+      "text_chars": 55504,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_TRISTAN_THOMPSON",
+      "url": "https://www.salaryswish.com/players/tristan-thompson",
+      "final_url": "https://www.salaryswish.com/players/tristan-thompson",
+      "html_sha256": "d506c0fd8f090a152e29b36529e3551c2d46a1211a3df591a01942d35513b1dd",
+      "bytes": 129309,
+      "text_chars": 59734,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_VLATKO_CANCAR",
+      "url": "https://www.salaryswish.com/players/vlatko-cancar",
+      "final_url": "https://www.salaryswish.com/players/vlatko-cancar",
+      "html_sha256": "43dd317a7d1c380abcd56be6c37777c2b594628f71947adbf748473725fd00af",
+      "bytes": 104818,
+      "text_chars": 55945,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_WILL_BARTON",
+      "url": "https://www.salaryswish.com/players/will-barton",
+      "final_url": "https://www.salaryswish.com/players/will-barton",
+      "html_sha256": "54944ca87c44d44f53f3a64c51ed14c971baf3c875ce6abb4734128c2c7a02a9",
+      "bytes": 117265,
+      "text_chars": 57996,
+      "classification": "SECONDARY_2020_21_TABLE_OR_TRANSACTION_BODY_READ",
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "BD_CBA",
+      "url": "https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf",
+      "classification": "PRIMARY_CBA_TEXT_READ",
+      "file_sha256": "65642a3c15990696169d97e55a911cc60e7899aef0d0ecffffe2be28e10f1dfb",
+      "locators": [
+        "Article I 1(cc),1(fff),1(ggg): Draft Rookie vs Free Agent",
+        "Article VII 6(e),6(m)(3),12(f)(2): MLE apron and young FA floor"
+      ]
+    },
+    {
+      "id": "BD_MLE",
+      "url": "https://www.hoopsrumors.com/2020/12/how-teams-are-using-202021-mid-level-exceptions.html",
+      "classification": "CONTEMPORANEOUS_SECONDARY_BODY_READ",
+      "accessed": "2026-09-12",
+      "html_sha256": "15289a5ed485e8e11aeb97ff4fec767fc6b009849a679f76db35a5c4a5df5847",
+      "fact_ko": "Boston Thompson 9258000. Denver JaMychal Green 7199760 + Bol Bol 2058240 = 9258000 MLE 사용 목록."
+    }
+  ],
+  "existing_source_files": [
+    "research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json",
+    "research/NBA_2020_21_REGISTRATION_COST_SOURCES.json",
+    "research/ORLANDO_2020_21_PAYROLL_SOURCES.json"
+  ],
+  "core_players": {
+    "BOS": [
+      {
+        "player": "Kemba Walker",
+        "source_id": "BD_KEMBA_WALKER",
+        "base_usd": 34379100,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 34379100,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Jaylen Brown",
+        "source_id": "BD_JAYLEN_BROWN",
+        "base_usd": 22991071,
+        "likely_usd": 446429,
+        "unlikely_usd": 2232143,
+        "public_cap_hit_usd": 23437500,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Jayson Tatum",
+        "source_id": "BD_JAYSON_TATUM",
+        "base_usd": 9897120,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 9897120,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Marcus Smart",
+        "source_id": "BD_MARCUS_SMART",
+        "base_usd": 12946428,
+        "likely_usd": 500000,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 13446428,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Tristan Thompson",
+        "source_id": "BD_TRISTAN_THOMPSON",
+        "base_usd": 9258000,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 9258000,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Romeo Langford",
+        "source_id": "BD_ROMEO_LANGFORD",
+        "base_usd": 3631200,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 3631200,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Aaron Nesmith",
+        "source_id": "BD_AARON_NESMITH",
+        "base_usd": 3458400,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 3458400,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Grant Williams",
+        "source_id": "BD_GRANT_WILLIAMS",
+        "base_usd": 2498760,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 2498760,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Payton Pritchard",
+        "source_id": "BD_PAYTON_PRITCHARD",
+        "base_usd": 2035800,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 2035800,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Robert Williams III",
+        "source_id": "BD_ROBERT_WILLIAMSIII",
+        "base_usd": 2029920,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 2029920,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Semi Ojeleye",
+        "source_id": "BD_SEMI_OJELEYE",
+        "base_usd": 1752950,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 1752950,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Carsen Edwards",
+        "source_id": "BD_CARSEN_EDWARDS",
+        "base_usd": 1517981,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 1517981,
+        "entry_route": "DRAFT_CONTRACT_NOT_FA",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Evan Fournier",
+        "source_id": "LT_EVAN_FOURNIER",
+        "base_usd": 17000000,
+        "likely_usd": 450000,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 17450000,
+        "entry_route": "EXISTING_REPORTED_CONTRACT",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Luke Kornet",
+        "source_id": "LT_LUKE_KORNET",
+        "base_usd": 2250000,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 2250000,
+        "entry_route": "EXISTING_REPORTED_CONTRACT",
+        "young_fa_floor_addition_usd": 0
+      }
+    ],
+    "DEN": [
+      {
+        "player": "Nikola Jokic",
+        "source_id": "BD_NIKOLA_JOKIC",
+        "base_usd": 28542009,
+        "likely_usd": 1000001,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 29542010,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Jamal Murray",
+        "source_id": "BD_JAMAL_MURRAY",
+        "base_usd": 27285000,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 27285000,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Will Barton",
+        "source_id": "BD_WILL_BARTON",
+        "base_usd": 13723214,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 13723214,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Paul Millsap",
+        "source_id": "BD_PAUL_MILLSAP",
+        "base_usd": 10000000,
+        "likely_usd": 0,
+        "unlikely_usd": 1000000,
+        "public_cap_hit_usd": 10000000,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "JaMychal Green",
+        "source_id": "BD_JAMYCHAL_GREEN",
+        "base_usd": 7199760,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 7199760,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Monte Morris",
+        "source_id": "BD_MONTE_MORRIS",
+        "base_usd": 1723707,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 1723707,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Facundo Campazzo",
+        "source_id": "BD_FACUNDO_CAMPAZZO",
+        "base_usd": 2975000,
+        "likely_usd": 225000,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 3200000,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Michael Porter Jr.",
+        "source_id": "BD_MICHAEL_PORTERJR",
+        "base_usd": 3550800,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 3550800,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Bol Bol",
+        "source_id": "BD_BOL_BOL",
+        "base_usd": 2058240,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 2058240,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "PJ Dozier",
+        "source_id": "BD_PJ_DOZIER",
+        "base_usd": 1762796,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 1762796,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Vlatko Cancar",
+        "source_id": "BD_VLATKO_CANCAR",
+        "base_usd": 1517981,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 1517981,
+        "entry_route": "DRAFT_CONTRACT_NOT_FA",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "JaVale McGee",
+        "source_id": "BD_JAVALE_MCGEE",
+        "base_usd": 4200000,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": 4200000,
+        "entry_route": "PUBLIC_CONTRACT_CARRY_FORWARD",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Aaron Gordon",
+        "source_id": "LT_AARON_GORDON",
+        "base_usd": 18136364,
+        "likely_usd": 0,
+        "unlikely_usd": 1000000,
+        "public_cap_hit_usd": 18136364,
+        "entry_route": "EXISTING_REPORTED_CONTRACT",
+        "young_fa_floor_addition_usd": 0
+      },
+      {
+        "player": "Saddiq Bey",
+        "source_id": null,
+        "base_usd": 2379840,
+        "likely_usd": 0,
+        "unlikely_usd": 0,
+        "public_cap_hit_usd": null,
+        "entry_route": "ALTERNATE_PICK22_120_PERCENT_CONDITION",
+        "young_fa_floor_addition_usd": 0,
+        "authority": "simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md"
+      }
+    ]
+  },
+  "earlier_standard": [
+    {
+      "team": "BOS",
+      "player": "Moritz Wagner",
+      "start": "2021-03-26",
+      "end": "2021-04-15",
+      "annual_charge_budget_usd": 2161920,
+      "source_id": "BD_MORITZ_WAGNER"
+    },
+    {
+      "team": "DEN",
+      "player": "Gary Clark",
+      "start": "2021-03-26",
+      "end": "2021-04-07",
+      "annual_charge_budget_usd": 2000000,
+      "source_id": "BD_GARY_CLARK"
+    }
+  ],
+  "camp_stress": [
+    {
+      "team": "BOS",
+      "player": "Amile Jefferson",
+      "annual_base_usd": 1678854,
+      "reported_guarantee_usd": 0,
+      "source_id": "BD_AMILE_JEFFERSON"
+    },
+    {
+      "team": "DEN",
+      "player": "Keita Bates-Diop",
+      "annual_base_usd": 1663861,
+      "reported_guarantee_usd": 0,
+      "source_id": "BD_KEITA_BATESDIOP"
+    }
+  ],
+  "twoway": [
+    {
+      "team": "BOS",
+      "player": "Tacko Fall",
+      "start": "2021-03-26",
+      "end": "2021-05-16"
+    },
+    {
+      "team": "BOS",
+      "player": "Tremont Waters",
+      "start": "2021-03-26",
+      "end": "2021-05-16"
+    },
+    {
+      "team": "DEN",
+      "player": "Markus Howard",
+      "start": "2021-03-26",
+      "end": "2021-05-16"
+    },
+    {
+      "team": "DEN",
+      "player": "Greg Whittington",
+      "start": "2021-03-26",
+      "end": "2021-04-08"
+    },
+    {
+      "team": "DEN",
+      "player": "Shaquille Harrison",
+      "start": "2021-04-09",
+      "end": "2021-05-16"
+    }
+  ],
+  "mle_uses": {
+    "BOS": {
+      "Tristan Thompson": 9258000
+    },
+    "DEN": {
+      "JaMychal Green": 7199760,
+      "Bol Bol": 2058240
+    }
+  },
+  "limits": {
+    "apron_usd": 138928000,
+    "taxpayer_mle_usd": 5718000,
+    "source_file": "research/ORLANDO_2020_21_PAYROLL_SOURCES.json"
+  },
+  "scope": {
+    "start": "2021-03-26",
+    "end": "2021-05-16"
+  },
+  "unresolved_ko": [
+    "대체 계약 charge·팀별 미포함 방출/이전 권리/가산 R_BOS·R_DEN 실제값과 완전 목록",
+    "Fournier·McGee의 TPE 경로와 원자산/다른 사용 이력, Gordon 보호픽 연결은 별도 후속",
+    "공개 계약 이월·Parker/Rivers 등 기존 등록 경로의 최종 작가 채택; 이 자료만으로 K 묶음을 종료하지 않음"
+  ]
+}
