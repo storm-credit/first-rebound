@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14-L 네 확정 조건 처리·시즌 채택·플레이인/픽 결산`
-- 최근 설계 변경: `O-15F14-K 단일 K1추천·ORL28조합 최소중복·1079가정달력·F038 결산 후보`
-- 선행 감사 병합: `PR #154 / 4191a3b64cf64f5391e1adf5eac3201f12801a1c`
+- 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
+- 최근 설계 변경: `O-15F14-L 부분: 공식본문6건·날짜140행·L2 사건추천; 정확실행/시즌/추첨 HOLD`
+- 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
 - 후반 입력·LaMelo 후속 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_INPUT_REVIEW.md`
@@ -44,7 +44,12 @@
 
 - 최신 정규시즌 단일 추천 권위: `simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md` 및 동명JSON; 조합 `ORLANDO_2020_21_RETAINED_BACKUP_LINEUPS.json`; 검토 `reviews/R01_O15F14K_SEASON_RECOMMENDATION_REVIEW.md`
 
+- 최신 실행 근거·시즌 종료 사건 추천: `simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md` 및 동명JSON; 출처 `research/NBA_2020_21_L_EXECUTION_SOURCES.json`. L은 부분 완료이며 네 조건 묶음 모두 미닫힘.
+
 ## 완료
+
+- [x] K 게시 복구: PR #155 병합, 14blob/검증tree 일치·원격/로컬 main 동기화
+- [x] L 부분 산출: 공식본문6건 회수·등록날짜140행 충돌0·4사건안/L2추천·CHI9~10 동률군·신규검증5개
 
 - [x] O-15F14-K K1(J1/LOW/Porter0/R1/피로0.5/BPM) 단일 추천·전체1080경기 F038/F138 대조·1079조건부달력
 - [x] ORL28경기 고정분 조합 최소중복157.68→34.77, 4경기 잔여·224비용조건 반전0, Hall등록공백3경기0분·검증6개
@@ -673,3 +678,10 @@ Chicago겨울 Carter11·Porter15항목은 이미 기존 분 모델에서0임을 
 ORL28경기선수별분·선발3분을보존하고빅맨동시출전초과인원×분을157.68→34.77로최소화했다. 모든경기에서산술하한에달했고4경기에잔여부담이있다.0/1/3/6점비용224조건은반전0,5/7은J1공백을먼저반영했다. 실제교대순서·전술효율을확정하지않는다.1079행조건부가용성달력과Hall등록공백3경기0분도공개했다. 정확예외/charge/pick승인은미해소다.
 
 검증6개·분증명·영향/JSON재현 PASS, 자체검토 NOT_INDEPENDENT. 이전J의다음K는이력이다. 다음L은K_HEALTH(달력창작선택),K_REGISTRATION(후속등록),K_TRANSACTIONS(승인거래정확조건),K_METHOD_EVENTS(경로/이후사건)의처리와시즌채택·플레이인/픽결산이다. 이미승인된R1/T1~T4재질문·경기전량재수집은하지않는다. v0.30 PARTIAL·설계/원고CLOSED·manuscript_allowed false·전체1완료/1진행/5대기·남은6개 유지.
+
+
+## 2026-09-12 O-15F14-L 부분 처리
+
+K는 PR #155로 실제 병합했고 원격/로컬 main의 SHA·tree를 확인했다. L의 권위는 `simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md` 및 동명JSON, 출처 `research/NBA_2020_21_L_EXECUTION_SOURCES.json`이다. 공식본문6건·날짜140행을 대조하고 네 사건안 중 L2를 추천했다. 이는 작가 사건 선택이나 등록/급여 적법성의 확정이 아니다.
+
+K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS는 모두 미닫힘이다. 다음은 L 잔여 실행 필드 처리 후 채택·추첨 연결이며 새 경기 전량수집이 아니다. K1과 L2는 조건부 추천으로만 보존한다. 기존 방향 승인 재질문 없음. 검증5개·JSON재현·공백검사 PASS, 자체검토 NOT_INDEPENDENT. v0.30 PARTIAL·설계/원고CLOSED·전체1완료/1진행/5대기·남은6개 유지.
