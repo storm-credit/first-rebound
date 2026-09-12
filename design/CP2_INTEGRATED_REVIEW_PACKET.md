@@ -12,7 +12,7 @@
 | 2021 추첨 | 사전 게시 후 첫 결과 CHA/HOU/ORL/OKC; CHI10·39, MIN7·36 원소유 순번 | [잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md) |
 | 2021–23 | G1A/E2·G8 SQ1 취득 순서·CX1 Carter 연장 제안·2022 유지 조건 | [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [G1 분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
 | 2021 후보 명단 | G7 DB1 CHI10 Duarte/39 Wieskamp 주 비교안; 15자리·G3 비용 유지 | [G7 전체 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md), [G3 비용](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) |
-| 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md) |
+| 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo; G9 기존 옵션·새 계약 비용 | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md), [장기 비용](../simulation/CHICAGO_LONG_CORE_CBA.md) |
 | 우승/수상 | AW2의 CHI2028·2031 우승, P2027 MVP·2028/2031 FMVP 후보 | [기계 원장](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json) |
 | 전체 구조 | 14 Act·42 Sub-Act·780 분량 슬롯, NBA81.54% | [Act](ACT_MAP.md), [Sub-Act](SUB_ACT_MAP.md), [5개 약속](CP2_PROMISE_LEDGER.json) |
 | 문체 | S1 제한 3인칭 기초안·권한/동작/한국어 규칙 | [하우스 스타일](HOUSE_STYLE_FOUNDATION.md), [실제 독서 범위](../research/STYLE_REFERENCE_ACCESS.md) |
@@ -73,3 +73,9 @@ DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했
 `simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md` 및 동명 JSON은 SQ1 NTMLE 유지 추천과세 대안,240조건을 제공한다. SQ3 Mark 먼저/Caruso cap 공간의 추가 normal cap 한도는 $11,369,971, SQ4는 $6,866,356이며 정확 R은 null이다. NTMLE 잔액 소멸과그해 hard-cap 유지를 분리했다.
 
 P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출잔액을 연결했다. G1A/E2/G7 10 Duarte·39 Wieskamp는 조건부 주 경로다. 신규7검사 PASS, 실제 계약/시즌·2022 지명·2023 시장은 미완료. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15G9 — 장기 핵심 선수 비용과 새 CBA 조건
+
+`simulation/CHICAGO_LONG_CORE_CBA.md` 및 동명 JSON은 G2의 비율 목표를 실제 계약 기간에 대조한다. LM1 2023 LaMelo 5년 25→30% 연장 제안·BC1 P30/LaMelo25/LaVine 기존 옵션을 주 비교안으로 추천한다. 모두 미합의다. LaVine의 2026 옵션 $48,967,380을 18% 새 가격으로 낮춰 계산하지 않는다.
+
+40비용 조건과44 CBA 표 조건을 연결했다. 실제2026 참고 cap에서 BC1 선수 예산 $205,210,600은 second 아래 $16,475,400이며, 미배정 예비비까지 포함한 계획 총액은 second보다 $20,700 크다. 예비비를 실제 charge로 판정하지 않는다. 동결 픽·수상 출전 기준·2023 전환 조항·2030 이후 규정 미확보를 구분했다. 신규8검사 PASS, 자체 검토 NOT_INDEPENDENT. 전체1완료·6진행/남은 큰 작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.

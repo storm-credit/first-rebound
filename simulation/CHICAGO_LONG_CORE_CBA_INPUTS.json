@@ -1,0 +1,156 @@
+{
+  "stage": "O-15G9",
+  "parent_career": "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+  "parent_contracts": "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json",
+  "CBA_effective": "2023-07-01",
+  "CBA_regular_end": "2030-06-30",
+  "CBA_early_opt_out_after_season": "2028-29",
+  "cap_references": {
+    "2023": {
+      "cap": 136021000,
+      "tax": 165294000,
+      "first": 172346000,
+      "second": 182794000
+    },
+    "2024": {
+      "cap": 140588000,
+      "tax": 170814000,
+      "first": 178132000,
+      "second": 188931000
+    },
+    "2026": {
+      "cap": 164961000,
+      "tax": 200428000,
+      "first": 209015000,
+      "second": 221686000
+    }
+  },
+  "real_2026_cap_is_world_selected": false,
+  "cap_growth_cases_percent": [
+    0,
+    3,
+    5,
+    10
+  ],
+  "P_2026_first_cap_percent_cases": [
+    30,
+    35
+  ],
+  "P_35_requires_pre_signing_awards": true,
+  "P_2027_MVP_cannot_qualify_2026_contract": true,
+  "LaVine_2022_reference_base": [
+    37096500,
+    40064220,
+    43031940,
+    45999660,
+    48967380
+  ],
+  "LaVine_2026_player_option": true,
+  "LaVine_real_world_trade_kicker_not_imported": [
+    1500000,
+    1500000
+  ],
+  "LaVine_new_contract_target_percent_after_opt_out": 18,
+  "LaMelo_offer_options": [
+    {
+      "id": "LM1",
+      "first_season": 2024,
+      "years": 5,
+      "initial_cap_percent": 25,
+      "higher_max_cap_percent_if_qualified": 30,
+      "annual_raise_percent": 8,
+      "cost": "5년 장기 책임·조건 달성 시30% 지급 조항·2029 만료",
+      "recommended": true
+    },
+    {
+      "id": "LM2",
+      "first_season": 2024,
+      "years": 4,
+      "initial_cap_percent": 25,
+      "higher_max_cap_percent_if_qualified": 30,
+      "annual_raise_percent": 8,
+      "cost": "2028 클라이맥스 직후 FA 재협상 노출"
+    },
+    {
+      "id": "LM3",
+      "first_season": 2024,
+      "years": 5,
+      "initial_cap_percent": 25,
+      "higher_max_cap_percent_if_qualified": 25,
+      "annual_raise_percent": 8,
+      "cost": "상승 조건 없는25% 고정 제안의 선수 수락 필요"
+    },
+    {
+      "id": "LM4",
+      "first_season": 2024,
+      "years": null,
+      "initial_cap_percent": null,
+      "higher_max_cap_percent_if_qualified": null,
+      "annual_raise_percent": null,
+      "cost": "2023 연장 없이2024 RFA·QO/외부 offer sheet·가격/기간 재협상"
+    }
+  ],
+  "core_price_cases": [
+    {
+      "id": "BC1",
+      "LaMelo_initial_cap_percent": 25,
+      "LaVine_path": "EXERCISE_EXISTING_PLAYER_OPTION",
+      "cost": "기본 코어 유지 비용을 보수적으로 예약",
+      "recommended": true
+    },
+    {
+      "id": "BC2",
+      "LaMelo_initial_cap_percent": 30,
+      "LaVine_path": "EXERCISE_EXISTING_PLAYER_OPTION",
+      "cost": "LaMelo Higher Max 기준 충족·지급 합의 시 추가 비용"
+    },
+    {
+      "id": "BC3",
+      "LaMelo_initial_cap_percent": 25,
+      "LaVine_path": "DECLINE_OPTION_AND_ACCEPT_NEW_18_PERCENT_OFFER",
+      "cost": "LaVine 독립적인 옵션 거절과 새 계약 수락이 모두 필요"
+    },
+    {
+      "id": "BC4",
+      "LaMelo_initial_cap_percent": 30,
+      "LaVine_path": "DECLINE_OPTION_AND_ACCEPT_NEW_18_PERCENT_OFFER",
+      "cost": "Higher Max·옵션 거절·새 제안 수락의 복합 조건"
+    }
+  ],
+  "other_player_role_budget_percent": {
+    "center": 10,
+    "wing": 8,
+    "bench": 22
+  },
+  "unallocated_contingency_percent": 10,
+  "G2_original_total_envelope_percent": 123,
+  "award_targets": [
+    {
+      "season": 2026,
+      "award": "MVP",
+      "subject": "Protagonist",
+      "official_minutes": null,
+      "result_selected": false
+    },
+    {
+      "season": 2027,
+      "award": "Finals MVP",
+      "subject": "Protagonist",
+      "official_minutes": null,
+      "result_selected": false
+    },
+    {
+      "season": 2030,
+      "award": "Finals MVP",
+      "subject": "Protagonist",
+      "official_minutes": null,
+      "result_selected": false
+    }
+  ],
+  "restrictions_scope": "APRON_TRIGGER_TABLE_ONLY_NOT_COMPLETE_TRADE_LEGALITY",
+  "new_Second_Round_Pick_Exception_applies_to_2021_Wieskamp_renewal": false,
+  "author_locked": false,
+  "season_selected": false,
+  "exact_execution_cleared": false,
+  "manuscript_allowed": false
+}

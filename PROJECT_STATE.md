@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G8 취득 순서·2022 계약 조건, 후속 시즌·2023/장기 연결`
-- 최근 설계 변경: `O-15G6 4안120행·Sengun 대상 부재 시 거래 없음, Duarte10 비교 유지`
+- 현재 작업: `O-15G9 장기 핵심 선수 비용·새 CBA 조건, 장기 시즌 연결`
+- 최근 설계 변경: `O-15G9 LaVine 기존 옵션 비용·LaMelo 연장 네 제안·40비용/44표 조건`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -799,3 +799,9 @@ DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했
 `simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md` 및 동명 JSON은 SQ1 NTMLE 유지 추천과세 대안,240조건을 제공한다. SQ3 Mark 먼저/Caruso cap 공간의 추가 normal cap 한도는 $11,369,971, SQ4는 $6,866,356이며 정확 R은 null이다. NTMLE 잔액 소멸과그해 hard-cap 유지를 분리했다.
 
 P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출잔액을 연결했다. G1A/E2/G7 10 Duarte·39 Wieskamp는 조건부 주 경로다. 신규7검사 PASS, 실제 계약/시즌·2022 지명·2023 시장은 미완료. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15G9 — 장기 핵심 선수 비용과 새 CBA 조건
+
+`simulation/CHICAGO_LONG_CORE_CBA.md` 및 동명 JSON은 G2의 비율 목표를 실제 계약 기간에 대조한다. LM1 2023 LaMelo 5년 25→30% 연장 제안·BC1 P30/LaMelo25/LaVine 기존 옵션을 주 비교안으로 추천한다. 모두 미합의다. LaVine의 2026 옵션 $48,967,380을 18% 새 가격으로 낮춰 계산하지 않는다.
+
+40비용 조건과44 CBA 표 조건을 연결했다. 실제2026 참고 cap에서 BC1 선수 예산 $205,210,600은 second 아래 $16,475,400이며, 미배정 예비비까지 포함한 계획 총액은 second보다 $20,700 크다. 예비비를 실제 charge로 판정하지 않는다. 동결 픽·수상 출전 기준·2023 전환 조항·2030 이후 규정 미확보를 구분했다. 신규8검사 PASS, 자체 검토 NOT_INDEPENDENT. 전체1완료·6진행/남은 큰 작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
