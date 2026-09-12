@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L ORL 누적 급여·apron 범위 완료, 실제 잔여 부담/등록·BOS/DEN 한도 HOLD`
+- 최근 설계 변경: `O-15F14-L ORL/BOS/DEN 후반 급여 범위 완료, 거래·픽·최종 채택 자동 후속`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -728,3 +728,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 후속 권위는 `simulation/ORLANDO_2020_21_PAYROLL_BOUND.md` 및 동명 JSON, 출처는 `research/ORLANDO_2020_21_PAYROLL_SOURCES.json`이다. 기존 13명 기본급 $110,880,451, 공개 보너스·앞선 계약·9단기 계약의 apron 보정과 캠프 4명 연간 기본급 전액 시험을 연결했다. 최고 $124,207,255이며 남은 순증 R_ORL이 $14,720,745 이내라는 조건부 한도다. 실제 R_ORL·정확 전체 장부·Hall 등록 허가는 미확정이다. Chicago 거래 비납세 정의와 분리한다.
 
 신규 5개·기존 비용 5개 검사·JSON 재현·diff 검사 PASS, 자체검토 NOT_INDEPENDENT. K1/L2 미채택·네 K 묶음 전체 종료 0·남은 큰 작업 6개, v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은 Boston/Denver 후반 누적 급여 및 ORL 잔여 필드의 채택 패킷 연결이다.
+
+
+## 2026-09-12 O-15F14-L Boston·Denver 누적 급여
+
+후속 권위 `simulation/BOSTON_DENVER_2020_21_PAYROLL.md` 및 동명 JSON, 출처 `research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json`. 14명씩·이전 Wagner/Clark 비용·Parker/Rivers·공개 보너스·캠프 전액 시험을 연결했다. 조건부 apron 여유 BOS $5,381,195 / DEN $6,684,733, 실제 미포함 R은 null이다. 양수 선수/날짜 267+266의 등록 충돌0. 신규4개·기존5개·JSON 재현·diff PASS, NOT_INDEPENDENT. 네 K 전체 종료0·남은 큰 작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지. 사용자 자동 계속 지시에 따라 거래·픽 조항 및 최종 채택 패킷을 이어서 처리한다.
