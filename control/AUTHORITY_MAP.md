@@ -351,3 +351,16 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 
 - O-15F14-L 공개 픽 종료·McGee 예외·Chicago 잔여 항목 후속: `simulation/NBA_2021_EXECUTION_RESOLUTION.md` 및 동명 JSON; 사실 출처 `research/NBA_2021_EXECUTION_RESOLUTION_SOURCES.json`. 기존 자산 JSON의 종료 null은 당시 이력이며 후속 보고 필드는 여기에서 관리한다.
 - 조건부 자동 후속의 네 진행안: `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`. CP2 추천·미채택이며 현재 게이트를 변경하지 않는다. 실행 의존 색인은 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`.
+
+
+## O-15F14-M CP2와 잠정 추첨
+
+CP2 승인 권위는 `canon/CHICAGO_2020_21_CP2_APPROVAL.json`. 추첨 전 입력/알고리즘 권위는 `simulation/NBA_2021_DRAW_PREREGISTRATION.md` 및 동명 JSON, 실행기는 `tools/build_2021_provisional_draft.py`. 정확 사실 조건과 최종 시즌은 미잠금이다. 이전 CP2 미채택 표기는 이 승인 전 이력이다.
+
+## O-15F14-M / O-15G1 — 잠정 픽 결산과 2021–23 후속
+
+권위 `simulation/NBA_2021_PROVISIONAL_DRAFT.md`/JSON 및 `simulation/CHICAGO_2021_23_CONTINUATION.md`/JSON. 사전 게시 `2f77a4e` 뒤 첫 추첨은 CHA/HOU/ORL/OKC. CHI10·39, MIN7→GSW/36→OKC는 기존 보호 경로 유지 조건이다. 60개 원소유 순번이며 모든 보유 구단·선수 지명 완료가 아니다.
+
+G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA 4년 $98.56m 예산)가 새 추천이다. 4안15자리·정상가용일240분·2022 재정48조건을 연결했으며 실제 계약은 미확정이다. 최종 author/season/exact 잠금 false·v0.30 PARTIAL·설계/원고 CLOSED·NOT_INDEPENDENT 유지.
+
+전체1완료·2진행·4대기/남은큰작업6개. Chicago2020–21은 잠정 결산 완료·정확실행HOLD, 2021–23거래·계약은 조건부 진행이다. 다음 후속은 이 재정/성장 비용에 기초한 장기 커리어·결말/Act 설계이며 CP2 재승인 질문은 없다.

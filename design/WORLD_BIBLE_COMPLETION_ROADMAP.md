@@ -74,7 +74,7 @@ O-15F7에서 LaMelo 잔여3조건도 대응했고, O-15F8은 상대7팀10경기2
 |---:|---|---|
 | 1 | 2020 드래프트 연쇄 | ✅ 완료 |
 | 2 | Chicago 2020–21 시즌 원장 | 🔄 진행 — K 게시 완료·L 사실 회수/사건 추천, 정확 실행·채택·픽 결산 잔여 |
-| 3 | 2021–23 거래·계약 | ⬜ 대기 |
+| 3 | 2021–23 거래·계약 | 🔄 진행 — G1A/E2 조건부 예산·역할 검산 |
 | 4 | 주인공·라이벌 장기 커리어 | ⬜ 대기 |
 | 5 | 결말·전체 Act 구조 | ⬜ 대기 |
 | 6 | 문체 기준·Context Pack | ⬜ 대기 |
@@ -223,3 +223,16 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 후속 권위 `simulation/NBA_2021_EXECUTION_RESOLUTION.md` 및 동명 JSON, 출처 `research/NBA_2021_EXECUTION_RESOLUTION_SOURCES.json`. Gordon 후행 종료·McGee 2027 보호/예외의 보도 근거와 Chicago 과거 비용/캠프 FA 해석을 연결했다. 미확인 전환 연결·2023 보호 종료·팀별 실제 R/당일 예외는 HOLD다. 신규5개·기존자산6개·JSON 재현·diff PASS, NOT_INDEPENDENT.
 
 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`를 최신 통합 색인으로 갱신했다. 사용자 자동 후속을 위한 `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`의 CP2는 구체안만 작성했으며 미채택이다. 현행 사실 해소 전 추첨 금지는 유효하고 추첨 미실행. 이미 승인된 방향은 재질문하지 않는다. 네 K 전체 종료0·전체1완료/1진행/5대기·남은큰작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## O-15F14-M CP2 절차 승인·추첨 사전 기록
+
+직전 CP2 전환 질문에 대한 사용자 ‘이어서’를 `canon/CHICAGO_2020_21_CP2_APPROVAL.json`에 기록했다. K1·L2의 조건부 추첨·픽 결산과 2021–23 이후 설계 자동 후속이 허용됐다. `simulation/NBA_2021_DRAW_PREREGISTRATION.md` 및 동명 JSON과 알고리즘을 결과 확인 전에 게시한다. 정확 사실/최종 author·season 잠금은 false이며 v0.30 PARTIAL·설계/원고 CLOSED 유지. 기존 팀·드래프트·R1/T1~T4 재승인 없음.
+
+## O-15F14-M / O-15G1 — 잠정 픽 결산과 2021–23 후속
+
+권위 `simulation/NBA_2021_PROVISIONAL_DRAFT.md`/JSON 및 `simulation/CHICAGO_2021_23_CONTINUATION.md`/JSON. 사전 게시 `2f77a4e` 뒤 첫 추첨은 CHA/HOU/ORL/OKC. CHI10·39, MIN7→GSW/36→OKC는 기존 보호 경로 유지 조건이다. 60개 원소유 순번이며 모든 보유 구단·선수 지명 완료가 아니다.
+
+G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA 4년 $98.56m 예산)가 새 추천이다. 4안15자리·정상가용일240분·2022 재정48조건을 연결했으며 실제 계약은 미확정이다. 최종 author/season/exact 잠금 false·v0.30 PARTIAL·설계/원고 CLOSED·NOT_INDEPENDENT 유지.
+
+전체1완료·2진행·4대기/남은큰작업6개. Chicago2020–21은 잠정 결산 완료·정확실행HOLD, 2021–23거래·계약은 조건부 진행이다. 다음 후속은 이 재정/성장 비용에 기초한 장기 커리어·결말/Act 설계이며 CP2 재승인 질문은 없다.
