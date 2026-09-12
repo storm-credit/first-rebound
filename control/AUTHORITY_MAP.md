@@ -325,3 +325,8 @@ K/F/J의 경기 수치, H의 방향 승인은 기존 권위다. L2는 경기모�
 | Boston공지·예외사용/잔액·Denver전환보도 | `research/NBA_2021_L_ASSET_CHAIN_SOURCES.json` | 1차/2차·당일/후대 구분 |
 | 픽 분기·TPE대조 | `simulation/NBA_2021_ASSET_CHAIN.md` 및 동명JSON | 미래결과미선택·정확실행HOLD |
 | 자체검토 | `reviews/R01_O15F14L_ASSET_CHAIN_REVIEW.md` | 신규6개·NOT_INDEPENDENT |
+
+
+## O-15F14-L 채택 준비 색인
+
+`simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`는 사건선택 A1~A3와 사실 의존 F1~F5의 검토 순서만 관리한다. 사실·계산·승인 권위는 연결된 기존 문서에 있다. 이 색인은 정본 채택·거래 적법성 판정을 대신하지 않는다.

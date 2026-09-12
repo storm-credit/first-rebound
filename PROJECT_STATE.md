@@ -10,7 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-L Boston MEM2025픽출처·TPE사용/후대잔액·Denver선행2R전환 회수; 정확charge/후행/시즌 HOLD`
+- 최근 설계 변경: `O-15F14-L 채택 준비 색인: 사건 선택3개·잔여 사실5묶음·재검토 범위; 신규확정사실0·시즌 HOLD`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -702,3 +702,10 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 권위 `simulation/NBA_2021_ASSET_CHAIN.md` 및 동명JSON, 출처 `research/NBA_2021_L_ASSET_CHAIN_SOURCES.json`. 승인된Bane30거래의MEM2025 2R출처를Boston공지에서회수했다. Fournier수취의실제TPE사용보도와후대11.05m목록을기존3시험값에대조했다.17.45m차액일치는당일charge인증이아니다. Denver선행1R미전달시2025·26 2R전환보도를회수했고Gordon연결/종료는null로보존했다.
 
 신규6개·JSON재현·diff검사PASS, 자체검토NOT_INDEPENDENT. 기존H승인/K1·L2추천·ChicagoR한도는유지한다. 사실미확보와작가선택을분리하며네K묶음전체종료0, 전체1완료/1진행/5대기·남은큰작업6개. v0.30 PARTIAL·설계/원고CLOSED·author_locked=false·season_selected=false. 다음은남은R구성/정확charge/Gordon후행/등록비용을최종실행패킷에연결한다.
+
+
+## 2026-09-12 O-15F14-L 채택 준비 의존 항목
+
+최신 검토 색인은 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`다. K1/L2/H의 원권위와 계산은 유지하고, 미채택 사건 A1~A3와 잔여 사실 F1~F5를 한 문서에 연결했다. 정확 계약·등록 근거 없이 시즌을 잠그거나 추첨을 먼저 실행하지 않는다. 추가 웹 조회는 상세 본문 확보 실패로 신규확정사실0건이다.
+
+다음은 F1의 명단 밖 R 구성만 회수하며 기존15명 급여를 반복 수집하지 않는다. 독립 검수 미실시, 자체 문서 대조. 네 K 조건 전체종료0·전체1완료/1진행/5대기·남은6개, v0.30 PARTIAL·설계/원고 CLOSED 유지.
