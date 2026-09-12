@@ -223,3 +223,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 후속 권위 `simulation/NBA_2021_EXECUTION_RESOLUTION.md` 및 동명 JSON, 출처 `research/NBA_2021_EXECUTION_RESOLUTION_SOURCES.json`. Gordon 후행 종료·McGee 2027 보호/예외의 보도 근거와 Chicago 과거 비용/캠프 FA 해석을 연결했다. 미확인 전환 연결·2023 보호 종료·팀별 실제 R/당일 예외는 HOLD다. 신규5개·기존자산6개·JSON 재현·diff PASS, NOT_INDEPENDENT.
 
 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`를 최신 통합 색인으로 갱신했다. 사용자 자동 후속을 위한 `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`의 CP2는 구체안만 작성했으며 미채택이다. 현행 사실 해소 전 추첨 금지는 유효하고 추첨 미실행. 이미 승인된 방향은 재질문하지 않는다. 네 K 전체 종료0·전체1완료/1진행/5대기·남은큰작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## O-15F14-M CP2 절차 승인·추첨 사전 기록
+
+직전 CP2 전환 질문에 대한 사용자 ‘이어서’를 `canon/CHICAGO_2020_21_CP2_APPROVAL.json`에 기록했다. K1·L2의 조건부 추첨·픽 결산과 2021–23 이후 설계 자동 후속이 허용됐다. `simulation/NBA_2021_DRAW_PREREGISTRATION.md` 및 동명 JSON과 알고리즘을 결과 확인 전에 게시한다. 정확 사실/최종 author·season 잠금은 false이며 v0.30 PARTIAL·설계/원고 CLOSED 유지. 기존 팀·드래프트·R1/T1~T4 재승인 없음.

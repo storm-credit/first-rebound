@@ -1079,3 +1079,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 ### O-15F14-L 실행 조항 후속 — 정본 승격 없음
 
 공개 픽 조항·예외·잔여 비용의 후속 권위는 `simulation/NBA_2021_EXECUTION_RESOLUTION.md`다. `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`의 CP2는 미채택 작업 순서 제안으로, 현행 추첨 게이트를 바꾸지 않는다. K1/L2와 A1~A3는 최종 미채택·author_locked=false·season_selected=false. v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+
+
+## O-15F14-M CP2 절차 승인·추첨 사전 기록
+
+직전 CP2 전환 질문에 대한 사용자 ‘이어서’를 `canon/CHICAGO_2020_21_CP2_APPROVAL.json`에 기록했다. K1·L2의 조건부 추첨·픽 결산과 2021–23 이후 설계 자동 후속이 허용됐다. `simulation/NBA_2021_DRAW_PREREGISTRATION.md` 및 동명 JSON과 알고리즘을 결과 확인 전에 게시한다. 정확 사실/최종 author·season 잠금은 false이며 v0.30 PARTIAL·설계/원고 CLOSED 유지. 기존 팀·드래프트·R1/T1~T4 재승인 없음.
