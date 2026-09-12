@@ -55,3 +55,8 @@ Teague를같은공식거래로보냈다는이유로 `Fournier−Teague` 순액�
 남은사실은R실제구성·Boston당일charge/예외우선권·Gordon후행의정확연결과종료·후속등록charge다. 공개보도회수를실행완료로올리지않고, 미확보원문을작가선택으로대체하지않는다. K1·L2·Hall행정사건은기존추천패킷으로남기며이미승인한방향은재질문하지않는다. 새경기점검목록은추가하지않았다.
 
 신규검증6개PASS·JSON재현·diff검사통과. **자체검토 NOT_INDEPENDENT**. 네K묶음전체종료0, author_locked=false·season_selected=false·원고false·v0.30 PARTIAL·설계/원고CLOSED 유지.
+
+
+### 최신 회수 범위 연결
+
+[실행 조항 후속](NBA_2021_EXECUTION_RESOLUTION.md)에서 해당 미확보 이력의 후속 근거를 제공한다. 이 문서/JSON의 당시 계산을 소급 변경하지 않는다. 최신 잔여 필드는 [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md)에 통합했다. 전체 정확 실행·시즌은 여전히 HOLD다.

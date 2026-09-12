@@ -43,3 +43,8 @@ Vonleh의 [SalarySwish 이력](https://www.salaryswish.com/players/noah-vonleh)�
 신규 검사3개는 계약일 전/당일·경로 변경, 출처 누락, FA와방출급여 혼동, 이중 차감, 정규시즌/개막 전의 빈자리 차이, 부분 목록의 무단 완결을 점검한다. 같은 범위의 세부 단언을 별도 검증 개수로 세지 않는다. JSON 재생성·기존 tax bound 검사도 대조한다. 자체검토 `NOT_INDEPENDENT`다.
 
 다음은 WAIVED_PAY와 이전 FA/1R 권리 잔액의 실제 목록이다. 이번 세 선수의 영입 본문과 빈자리 규칙은 다시 찾지 않는다. R 실측·상한과 정확 거래 charge가 확보되기 전 F1은 열린 상태다. 전체 남은 큰 작업6개, 네K묶음 전체종료0개, 시즌·추첨 미채택 유지.
+
+
+### 최신 회수 범위 연결
+
+[실행 조항 후속](NBA_2021_EXECUTION_RESOLUTION.md)에서 해당 미확보 이력의 후속 근거를 제공한다. 이 문서/JSON의 당시 계산을 소급 변경하지 않는다. 최신 잔여 필드는 [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md)에 통합했다. 전체 정확 실행·시즌은 여전히 HOLD다.

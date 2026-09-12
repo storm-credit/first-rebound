@@ -1074,3 +1074,8 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 ## 2026-09-12 O-15F14-L Boston·Denver 누적 급여
 
 후속 권위 `simulation/BOSTON_DENVER_2020_21_PAYROLL.md` 및 동명 JSON, 출처 `research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json`. 14명씩·이전 Wagner/Clark 비용·Parker/Rivers·공개 보너스·캠프 전액 시험을 연결했다. 조건부 apron 여유 BOS $5,381,195 / DEN $6,684,733, 실제 미포함 R은 null이다. 양수 선수/날짜 267+266의 등록 충돌0. 신규4개·기존5개·JSON 재현·diff PASS, NOT_INDEPENDENT. 네 K 전체 종료0·남은 큰 작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지. 사용자 자동 계속 지시에 따라 거래·픽 조항 및 최종 채택 패킷을 이어서 처리한다.
+
+
+### O-15F14-L 실행 조항 후속 — 정본 승격 없음
+
+공개 픽 조항·예외·잔여 비용의 후속 권위는 `simulation/NBA_2021_EXECUTION_RESOLUTION.md`다. `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`의 CP2는 미채택 작업 순서 제안으로, 현행 추첨 게이트를 바꾸지 않는다. K1/L2와 A1~A3는 최종 미채택·author_locked=false·season_selected=false. v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.

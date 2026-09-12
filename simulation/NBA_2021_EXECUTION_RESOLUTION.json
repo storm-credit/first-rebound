@@ -1,0 +1,138 @@
+{
+  "stage": "O-15F14-L_EXECUTION_RESOLUTION",
+  "baseline_main": "32a2b738c57981cf4892d61627827d0d1190f51d",
+  "reported_gordon_terminal": "EXTINGUISHED_IF_ALL_ELIGIBLE_YEARS_PROTECTED",
+  "gordon_examples_not_outcomes": [
+    {
+      "preceding_first_delivery_year": 2023,
+      "test_slots": {
+        "2025": 6
+      },
+      "result": {
+        "status": "CONDITIONAL_DELIVERY",
+        "year": 2025,
+        "asset": {
+          "origin": "DEN",
+          "round": 1,
+          "year": 2025,
+          "pick": 6
+        }
+      }
+    },
+    {
+      "preceding_first_delivery_year": 2023,
+      "test_slots": {
+        "2025": 5,
+        "2026": 5,
+        "2027": 5
+      },
+      "result": {
+        "status": "CONDITIONAL_REPORTED_EXTINCTION",
+        "year": 2027,
+        "asset": null
+      }
+    },
+    {
+      "preceding_first_delivery_year": 2024,
+      "test_slots": {
+        "2026": 6
+      },
+      "result": {
+        "status": "CONDITIONAL_DELIVERY",
+        "year": 2026,
+        "asset": {
+          "origin": "DEN",
+          "round": 1,
+          "year": 2026,
+          "pick": 6
+        }
+      }
+    },
+    {
+      "preceding_first_delivery_year": 2025,
+      "test_slots": {
+        "2027": 6
+      },
+      "result": {
+        "status": "CONDITIONAL_DELIVERY",
+        "year": 2027,
+        "asset": {
+          "origin": "DEN",
+          "round": 1,
+          "year": 2027,
+          "pick": 6
+        }
+      }
+    },
+    {
+      "preceding_first_delivery_year": 2025,
+      "test_slots": {
+        "2027": 5
+      },
+      "result": {
+        "status": "CONDITIONAL_REPORTED_EXTINCTION",
+        "year": 2027,
+        "asset": null
+      }
+    },
+    {
+      "preceding_first_delivery_year": null,
+      "test_slots": {},
+      "result": {
+        "status": "PREDECESSOR_LINK_UNRESOLVED",
+        "asset": null
+      }
+    }
+  ],
+  "gordon_after_preceding_second_conversion": null,
+  "selected_gordon_asset": null,
+  "mcgee_reported_2027_protection": "UNPROTECTED",
+  "mcgee_2023_terminal": null,
+  "selected_mcgee_assets": null,
+  "mcgee_funding": {
+    "simple_175_allowance_usd": 2935987.0,
+    "incoming_test_usd": 4200000,
+    "simple_matching_pass": false,
+    "shortfall_usd": 1264013.0,
+    "reported_nominal_tpe_margin_usd": 5300000,
+    "exact_tpe_full_charge_coverage": null,
+    "hartenstein_not_added_to_grant_tpe": true,
+    "gordon_not_pooled": true,
+    "cba_additional_trade_tolerance_not_used": true,
+    "complete_trade_legality": null
+  },
+  "chicago_camp": [
+    {
+      "player": "Noah Vonleh",
+      "annual_base_usd": 2028594,
+      "reported_guaranteed_usd": 0,
+      "actual_waiver_charge_usd": null,
+      "waived_date": "2020-12-14",
+      "source_id": "noah-vonleh"
+    },
+    {
+      "player": "Zach Norvell Jr.",
+      "annual_base_usd": 1445697,
+      "reported_guaranteed_usd": 0,
+      "actual_waiver_charge_usd": null,
+      "waived_date": "2020-12-19",
+      "source_id": "zach-norvelljr"
+    },
+    {
+      "player": "Simisola Shittu",
+      "annual_base_usd": 898310,
+      "reported_guaranteed_usd": 0,
+      "actual_waiver_charge_usd": null,
+      "waived_date": "2020-12-19",
+      "source_id": "simisola-shittu"
+    }
+  ],
+  "chicago_actual_residual_usd": null,
+  "requirements_closed": 0,
+  "exact_execution_cleared": false,
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "review": "NOT_INDEPENDENT",
+  "input_sha256": "7633c0c22dc13972516a9f171d586aa5f68bcaee8736580690ddf5199129654a"
+}

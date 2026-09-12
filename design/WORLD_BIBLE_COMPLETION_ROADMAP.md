@@ -216,3 +216,10 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 ## 2026-09-12 O-15F14-L Boston·Denver 누적 급여
 
 후속 권위 `simulation/BOSTON_DENVER_2020_21_PAYROLL.md` 및 동명 JSON, 출처 `research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json`. 14명씩·이전 Wagner/Clark 비용·Parker/Rivers·공개 보너스·캠프 전액 시험을 연결했다. 조건부 apron 여유 BOS $5,381,195 / DEN $6,684,733, 실제 미포함 R은 null이다. 양수 선수/날짜 267+266의 등록 충돌0. 신규4개·기존5개·JSON 재현·diff PASS, NOT_INDEPENDENT. 네 K 전체 종료0·남은 큰 작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지. 사용자 자동 계속 지시에 따라 거래·픽 조항 및 최종 채택 패킷을 이어서 처리한다.
+
+
+## 2026-09-12 O-15F14-L 실행 조항 회수·최종 의존 패킷
+
+후속 권위 `simulation/NBA_2021_EXECUTION_RESOLUTION.md` 및 동명 JSON, 출처 `research/NBA_2021_EXECUTION_RESOLUTION_SOURCES.json`. Gordon 후행 종료·McGee 2027 보호/예외의 보도 근거와 Chicago 과거 비용/캠프 FA 해석을 연결했다. 미확인 전환 연결·2023 보호 종료·팀별 실제 R/당일 예외는 HOLD다. 신규5개·기존자산6개·JSON 재현·diff PASS, NOT_INDEPENDENT.
+
+`simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`를 최신 통합 색인으로 갱신했다. 사용자 자동 후속을 위한 `design/O15F14_CONDITIONAL_CONTINUATION_PROPOSAL.md`의 CP2는 구체안만 작성했으며 미채택이다. 현행 사실 해소 전 추첨 금지는 유효하고 추첨 미실행. 이미 승인된 방향은 재질문하지 않는다. 네 K 전체 종료0·전체1완료/1진행/5대기·남은큰작업6개·v0.30 PARTIAL·설계/원고 CLOSED 유지.
