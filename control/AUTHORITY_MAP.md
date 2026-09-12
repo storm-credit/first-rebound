@@ -2,6 +2,13 @@
 
 | 사실 종류 | 단일 권위 문서 | 비고 |
 |---|---|---|
+| CP2 장기 커리어·결말 동료·수상 총량 추천 | `design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json` / MD | H2/RC1/AW2 제안, 정본·실제 미래 아님 |
+| CP2 Act/Sub-Act 기능 배정 | `design/CP2_ACT_SUBACT_PACKET.json` | 14/42, 780분량 슬롯, 회차 완성0 |
+| CP2 활성 약속·회수 계획 | `design/CP2_PROMISE_LEDGER.json` | 5약속 PLANNED, 장치 상위 규칙 보존 |
+| 하우스 스타일 기초 | `design/HOUSE_STYLE_FOUNDATION.md` | S1 추천, 독서 합성 미완료 |
+| 참고작 접근/실제 독서 | `research/STYLE_REFERENCE_ACCESS.md` | 1화 완독, 메타데이터와 구분 |
+| CP2 설계 샘플 | `context-packs/CP2_DESIGN_VALIDATION_SAMPLES.json` | 파생·내용 해시, 정본 권위 없음 |
+| CP2 전체 검토 진입점 | `design/CP2_INTEGRATED_REVIEW_PACKET.md` | 조건부 연결·잔여 D1~D8 색인 |
 | 프로젝트 핵심 불변값 | `canon/PROJECT_FREEZE.md` | 사용자 승인 전 변경 금지 |
 | 현재 진행 상태 | `PROJECT_STATE.md` | 대화가 아니라 이 파일 갱신 |
 | 결정 이력 | `DECISION_LOG.md` | 변경 추적 |

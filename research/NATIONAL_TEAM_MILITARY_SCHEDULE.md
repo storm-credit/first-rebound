@@ -1,5 +1,7 @@
 # National Team & Military Schedule Ledger
 
+> O-15G2 현행 권위: 주인공 Chicago 원클럽·라이벌 Minnesota #1. 본문 중 Atlanta 개발/일정은 폐기 분기의 조사 이력이며 현행 적용값이 아니다. `canon/CAREER_TIMELINE.md`와 `design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md`가 우선한다.
+
 - 상태: `FOUNDATION_VERIFIED / 2023_RESULT_R09_HOLD`
 - 범위: 2018 NBA 전환기와 2023 아시안게임·병역 일정의 충돌만 검증
 - 원고 게이트: `CLOSED`

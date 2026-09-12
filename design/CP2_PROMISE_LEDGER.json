@@ -1,0 +1,79 @@
+{
+  "stage": "O-15G2",
+  "global_primary": [
+    "PLANT_AND_PAYOFF",
+    "FOIL"
+  ],
+  "promises": [
+    {
+      "id": "P1",
+      "type": "CHOICE",
+      "plant": "A01-S1",
+      "variations": [
+        "A05-S1",
+        "A11-S3"
+      ],
+      "payoff": "A13-S3",
+      "function": "공의 소유에서 선택 결과의 책임으로",
+      "status": "PLANNED"
+    },
+    {
+      "id": "P2",
+      "type": "PREPARATION",
+      "plant": "A01-S2",
+      "variations": [
+        "A03-S2",
+        "A05-S1"
+      ],
+      "payoff": "A14-S3",
+      "function": "다음 날 다시 나오는 준비가 후배에게 남음",
+      "status": "PLANNED"
+    },
+    {
+      "id": "P3",
+      "type": "RELATIONSHIP",
+      "plant": "A06-S1",
+      "variations": [
+        "A08-S3",
+        "A11-S3",
+        "A12-S1"
+      ],
+      "payoff": "A13-S3",
+      "function": "LaMelo와 공 없는 역할·계약·실패의 상호 비용",
+      "status": "PLANNED"
+    },
+    {
+      "id": "P4",
+      "type": "SCARCITY",
+      "plant": "A04-S3",
+      "variations": [
+        "A06-S2",
+        "A08-S1",
+        "A12-S1"
+      ],
+      "payoff": "A14-S2",
+      "function": "급여·출전 기회는 유한하며 자기 역할도 예외가 아님",
+      "status": "PLANNED"
+    },
+    {
+      "id": "P5",
+      "type": "FOIL",
+      "plant": "A01-S1",
+      "variations": [
+        "A03-S3",
+        "A09-S2",
+        "A11-S2"
+      ],
+      "payoff": "A13-S2",
+      "function": "서로 다른 방식이 경쟁·협력을 바꾸고 완전 화해 없이 존중",
+      "status": "PLANNED"
+    }
+  ],
+  "false_victory_candidates": [
+    "A08-S1",
+    "A11-S1"
+  ],
+  "macguffin_count": 0,
+  "manuscript_allowed": false,
+  "author_locked": false
+}

@@ -111,3 +111,7 @@ source_links:
 4. 유명하거나 멋있다는 이유만으로 전면에 올린 것은 아닌가?
 
 1~3이 모두 아니면 백스테이지로 내리거나 삭제한다.
+
+## O-15G2 조건부 배정
+
+CP2에 한해 [42 Sub-Act](CP2_ACT_SUBACT_PACKET.json)와 [5개 약속](CP2_PROMISE_LEDGER.json)을 배정했다. 전역 주 방법2·Act 최대2·Sub-Act 주1/보조 최대1·False Victory2·MacGuffin0. 배정 검증은 수량·연결 검사이며 실제 독자의 회수 인지/견인력 PASS가 아니다. 원고·최종 잠금 CLOSED를 유지한다.

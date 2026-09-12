@@ -4,7 +4,7 @@
 status: CLOSED
 manuscript_allowed: false
 authority: this_file
-last_reviewed: 2026-09-09
+last_reviewed: 2026-09-12
 ```
 
 ## 절대 규칙
@@ -28,12 +28,12 @@ last_reviewed: 2026-09-09
 | G07 NBA 세계 | 선택 드래프트의 CBA·로스터·계약·미디어 | FOUNDATION_PASS / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE — Chicago 원클럽·라이벌 Minnesota #1·2020 picks 1~60과 rookie-scale 방향 LOCK. 주인공 2018 정확 순번·관계·Riller 계약 HOLD |
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED / O15F5_BOARD_PASS — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, Theis·Green 3팀 5인 A PRIMARY_LEAN. exact 거래·박스·승수·부상·Riller 계약 HOLD |
-| G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | DRAFT |
-| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | NOT_STARTED |
-| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | FRAMEWORK_PASS / ASSIGNMENTS_BLOCKED |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | NBA_LONG_RANGE_RECALCULATION — 15~25% 전사 / 75~85% NBA, Chicago 원클럽·라이벌 Minnesota #1 LOCK. 정확 시즌·결말 동료 HOLD |
-| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | PARTIAL |
-| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | NOT_STARTED |
+| G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
+| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | FOUNDATION_PARTIAL / 1_CHAPTER_READ / DEEP_READ_INCOMPLETE |
+| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_HASH_CHECKED / ACTUAL_EPISODE_PACKS_0 |
+| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
 
@@ -58,3 +58,7 @@ G09는 `POSTDEADLINE_CONDITIONAL_CAPACITY_AND_CARTER_RESPONSE_PASS / O15F7_INPUT
 ## O-15F7 최신 판정 — 2026-09-09
 
 G09는 `POSTDEADLINE_OBSERVATION_AND_CHICAGO_BOX_INPUT_PASS / O15F8_IMPACT_INPUTS_NEXT`다. 실제 양 팀815행·cutoff300명·조건부174박스 입력과 LaMelo 잔여3조건 대응이 통과했다. 상대7팀10경기 변경 분은 미배정이며 나머지19경기도 리그 전체 무영향 FINAL이 아니다. 정확 부상·거래 조항·양 팀 impact·승패 및 최종72경기 정본은 HOLD다. 위 과거 포인터를 최신 완료 상태로 오인하지 않는다.
+
+## O-15G2 적용 한계
+
+[통합 검토 패킷](../design/CP2_INTEGRATED_REVIEW_PACKET.md)은 CP2의 조건부 후속이다. 표의 검사 완료는 수량·내용 해시·참조 연결 범위이며 G11/G13/G15/G16/G17 전체 PASS가 아니다. G09의 2021 후속은 PR #167의 잠정 추첨·G1 예산을 사용하되 정확 사실 HOLD를 보존한다. 설계/원고 CLOSED를 유지한다.

@@ -45,3 +45,7 @@
 - 패스를 받는 동료
 - 실존 역사와의 차이
 - 우승 뒤 커리어의 최종 잔상
+
+## O-15G2 조건부 좌표안
+
+기능 잠금은 위 순서를 유지한다. 최신 [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md)의 H2/RC1은 2028 CHI–MIN 재대결과 LaMelo 수취를 추천한다. A06·A08·A11·A12의 상호 비용은 [약속 원장](CP2_PROMISE_LEDGER.json)에 연결됐다. 2035 은퇴 기능까지 포함하지만 정확 좌표·경기·작가 잠금은 계속 HOLD다.

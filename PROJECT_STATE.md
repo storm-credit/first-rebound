@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14-L 잔여 등록·거래 실행 필드 처리 후 시즌/플레이인/픽 채택`
-- 최근 설계 변경: `O-15F14-M CP2 절차 승인, 잠정 추첨·픽 결산 후 2021–23 자동 후속`
+- 현재 작업: `O-15G2 CP2 장기 커리어·결말/Act·문체 기초·설계 Pack 통합, 정확 실행과 최종 승인 HOLD`
+- 최근 설계 변경: `O-15G2 H2/RC1/AW2 추천·14 Act/42 Sub-Act·17시즌·설계 샘플2, 최종 정본 승격 없음`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
@@ -18,7 +18,7 @@
 - 후반 상대 분·양 팀 영향 권위: `simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_REVIEW.md`
 - 영향 교차검증·전반 연결 권위: `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`
 - 시즌 연결 진단 권위: `simulation/CHICAGO_2020_21_SEASON_CONNECTION.md`; 총괄 검토 `reviews/R01_O15F10_SEASON_CONNECTION_REVIEW.md`
-- 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·1진행·5대기, 완료율 환산 금지
+- 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·6진행(조건부/기초/자체 점검 포함), 완료율 환산 금지
 
 - 접전 경로 권위: `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md`; 검토 `reviews/R01_O15F11_CLOSE_GAME_REVIEW.md`
 
@@ -753,3 +753,11 @@ Camp3명연간기본급전액$4,372,601 추가시험도여유$1,237,371이나 �
 G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA 4년 $98.56m 예산)가 새 추천이다. 4안15자리·정상가용일240분·2022 재정48조건을 연결했으며 실제 계약은 미확정이다. 최종 author/season/exact 잠금 false·v0.30 PARTIAL·설계/원고 CLOSED·NOT_INDEPENDENT 유지.
 
 전체1완료·2진행·4대기/남은큰작업6개. Chicago2020–21은 잠정 결산 완료·정확실행HOLD, 2021–23거래·계약은 조건부 진행이다. 다음 후속은 이 재정/성장 비용에 기초한 장기 커리어·결말/Act 설계이며 CP2 재승인 질문은 없다.
+
+## O-15G2 — 장기 커리어·결말·전체 구조·문체 기초의 조건부 패킷
+
+통합 진입점 `design/CP2_INTEGRATED_REVIEW_PACKET.md`. G1A/E2를 이어 H2(2026 MIN 패배→2028 재대결·2035 은퇴 기능), RC1 LaMelo, AW2 우승/수상 예산을 각각 네 대안에서 추천했다. 모든 새 사건은 창작 후보이며 시즌/투표 계산 결과나 작가 확정이 아니다. 2023 대표팀·병역이 연속 NBA 커리어의 조건임을 명시했다.
+
+14 Act·42 Sub-Act·780분량 슬롯·NBA81.54%, 17시즌 책임 곡선, 5개 약속과 결말 동료의 선행4 Act를 연결했다. 회차 기능표 완료0·실제 회차 Pack0·원고0. 문체는 하우스 스타일 기초와 공개 참고작1화 독서만 진행해 딥리드 미완료를 보존한다. 설계 검증 샘플2개는 기반 커밋+원문 SHA256으로 버전을 고정한다.
+
+전체1완료·6진행(조건부/기초/자체 점검 포함), 진행 중 포함 남은큰작업6개. G16 전체 독립 검수·G17 작가 승인은 미실시다. CP2 재승인을 묻지 않으며 author_locked=false·season_selected=false·exact_execution_cleared=false·manuscript_allowed=false·v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
