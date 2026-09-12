@@ -10,7 +10,7 @@
 |---|---|---|
 | 2020–21 | K1 Chicago31–41·L2 WAS 승리/IND 패배 | [K](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md), [L](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md) |
 | 2021 추첨 | 사전 게시 후 첫 결과 CHA/HOU/ORL/OKC; CHI10·39, MIN7·36 원소유 순번 | [잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md) |
-| 2021–23 | G1A 코어 유지·Caruso·Theis 이탈, E2 직접 RFA4년 $98.56m 예산 | [G1 예산/분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
+| 2021–23 | G1A/E2·G8 SQ1 취득 순서·CX1 Carter 연장 제안·2022 유지 조건 | [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [G1 분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
 | 2021 후보 명단 | G7 DB1 CHI10 Duarte/39 Wieskamp 주 비교안; 15자리·G3 비용 유지 | [G7 전체 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md), [G3 비용](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) |
 | 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md) |
 | 우승/수상 | AW2의 CHI2028·2031 우승, P2027 MVP·2028/2031 FMVP 후보 | [기계 원장](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json) |
@@ -37,7 +37,7 @@
 |---|---|---|---|
 | D1 | 네 K 실행 묶음의 정확 사실/최종 채택 | [시즌 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 기존 필드 회수·작가 선택 | K1/L2/M을 조건으로 설계 계속 |
 | D2 | 2021 선수 보드·실제 계약 | 바뀐 top4부터 보드/소유권, CHI10·39와 백업C 취득·예외 순서 | [G7 60픽 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)·G3 비용 사용, 최종 당일 거래/계약은 미완료 |
-| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | E2와 48재정조건으로 비용 비교 |
+| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | G8의 QO·Carter/옵션·192재정조건으로 비용 비교 |
 | D4 | 2023 대표팀·병역·새 CBA | 기존 범위 게이트 재개 조건에 따른 사실 조사와 전 경기 인과 | H2/NM1 조건부, 불성립 시 공백 분기 |
 | D5 | 장기 시즌·수상·동료 잔류 | H2/RC1/AW2의 전력·계약·상대·가용성 연결과 선택 | 역할·실패·종료 기능표 사용 |
 | D6 | G11 참고작 합성 | 10작품+예비3·4플랫폼·실제 회차 독서와 기능 비교 | 하우스 스타일 기초 규칙만 사용 |
@@ -67,3 +67,9 @@ DET/WAS의 별도 미래1R 보호·2R 전환과 선행연도 공백을 검사했
 `simulation/NBA_2021_FULL_DRAFT_COMPARISON.md` 및 동명 JSON은 G4/G5 AP1/G6에2라운드120행을 더한4안240행을 제공한다. DB1 Chicago10 Duarte·39 Wieskamp가 최신 주 비교안이다. G3의39후보는 NYK23 Ayo/UTA30 Thor/ORL33 Herbert/NOP34 Edwards로 먼저 소모된다. C39A~D 네 후속 후보와SAS44/TOR48 파급,15자리·G3 대비 예산차0을 연결했다.
 
 60행 비교의 미판정0은 최종 드래프트 완료가 아니다. 당일 추가 거래·전체 등록·대체세계 대학 참가자 집합·의료/프런트 감사는 미완료다. 신규6검사 PASS·자체검토 NOT_INDEPENDENT. 전체1완료·6진행/남은큰작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지. 다음은 Chicago의 이름 있는 취득/예외 순서와2022–23 계약 조건이다.
+
+## O-15G8 — Chicago 취득 순서·2022 계약 조건
+
+`simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md` 및 동명 JSON은 SQ1 NTMLE 유지 추천과세 대안,240조건을 제공한다. SQ3 Mark 먼저/Caruso cap 공간의 추가 normal cap 한도는 $11,369,971, SQ4는 $6,866,356이며 정확 R은 null이다. NTMLE 잔액 소멸과그해 hard-cap 유지를 분리했다.
+
+P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출잔액을 연결했다. G1A/E2/G7 10 Duarte·39 Wieskamp는 조건부 주 경로다. 신규7검사 PASS, 실제 계약/시즌·2022 지명·2023 시장은 미완료. 전체1완료·6진행/남은큰작업6개, NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
