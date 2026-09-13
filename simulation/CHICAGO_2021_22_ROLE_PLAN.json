@@ -1,0 +1,209 @@
+{
+  "stage": "O-15G11",
+  "status": "CONDITIONAL_ROLE_DECOMPOSITION_NOT_SEASON",
+  "cases": [
+    {
+      "id": "R21A",
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 22,
+        "Chris Duarte": 14,
+        "Coby": 18,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Tony Bradley": 12,
+        "Young": 20
+      },
+      "delta_from_R21A": {},
+      "active_rotation_players": 10,
+      "distinct_lineups": 9,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "R21B",
+      "player_minutes": {
+        "Carter": 32,
+        "Caruso": 22,
+        "Chris Duarte": 18,
+        "Coby": 18,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Young": 24
+      },
+      "delta_from_R21A": {
+        "Carter": 4,
+        "Young": 4,
+        "Chris Duarte": 4,
+        "Tony Bradley": -12
+      },
+      "active_rotation_players": 9,
+      "distinct_lineups": 7,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "R21C",
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 28,
+        "Chris Duarte": 20,
+        "Coby": 18,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 20,
+        "Protagonist": 32,
+        "Tony Bradley": 12,
+        "Young": 16
+      },
+      "delta_from_R21A": {
+        "Young": -4,
+        "Markkanen": -8,
+        "Caruso": 6,
+        "Chris Duarte": 6
+      },
+      "active_rotation_players": 10,
+      "distinct_lineups": 10,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "R21D",
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 16,
+        "Chris Duarte": 14,
+        "Coby": 18,
+        "Green": 6,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Satoransky": 6,
+        "Tony Bradley": 12,
+        "Young": 14
+      },
+      "delta_from_R21A": {
+        "Young": -6,
+        "Satoransky": 6,
+        "Caruso": -6,
+        "Green": 6
+      },
+      "active_rotation_players": 12,
+      "distinct_lineups": 12,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "AV_Carter",
+      "player_minutes": {
+        "Caruso": 22,
+        "Chris Duarte": 14,
+        "Coby": 18,
+        "Green": 12,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Tony Bradley": 28,
+        "Young": 20
+      },
+      "delta_from_R21A": {
+        "Carter": -28,
+        "Green": 12,
+        "Tony Bradley": 16
+      },
+      "active_rotation_players": 10,
+      "distinct_lineups": 8,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "AV_LaMelo",
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 28,
+        "Chris Duarte": 14,
+        "Coby": 32,
+        "LaVine": 34,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Satoransky": 12,
+        "Tony Bradley": 12,
+        "Young": 20
+      },
+      "delta_from_R21A": {
+        "LaMelo_pick4": -32,
+        "Coby": 14,
+        "Satoransky": 12,
+        "Caruso": 6
+      },
+      "active_rotation_players": 10,
+      "distinct_lineups": 9,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    },
+    {
+      "id": "AV_LaVine",
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 30,
+        "Chris Duarte": 28,
+        "Coby": 30,
+        "LaMelo_pick4": 32,
+        "Markkanen": 28,
+        "Protagonist": 32,
+        "Tony Bradley": 12,
+        "Young": 20
+      },
+      "delta_from_R21A": {
+        "LaVine": -34,
+        "Coby": 12,
+        "Caruso": 8,
+        "Chris Duarte": 14
+      },
+      "active_rotation_players": 9,
+      "distinct_lineups": 7,
+      "elapsed_minutes": 48,
+      "player_minutes_sum": 240,
+      "status": "POSITION_AND_LINEUP_CERTIFICATE_PASS"
+    }
+  ],
+  "infeasible_stress": {
+    "id": "AV_two_centers",
+    "unavailable": [
+      "Carter",
+      "Tony Bradley"
+    ],
+    "center_ceiling_design_only": {
+      "Young": 24
+    },
+    "required_center_minutes": 48,
+    "expected_unfilled_center_minutes": 24,
+    "policy": "HOLD_NO_NEW_PLAYER_OR_POSITION_INVENTED"
+  },
+  "source_content_sha256": {
+    "simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.json": "d4bdf4d2bbd8e8ca33f9894b7d84241bc23bfd30e102eedfa63f8726087d1502",
+    "simulation/NBA_2021_FULL_DRAFT_COMPARISON.json": "31e524c981a07240c835150e7db1d753191c92e205a03bc5207208aca07dbb8f",
+    "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json": "791745b2ff720e455eb8739729f372d50677418894168991555612463688c70c",
+    "simulation/CHICAGO_2021_22_ROLE_PLAN_INPUTS.json": "4372552756f20de906e0cf1e05a3900946be07edadc573226d8b8d755258ff40"
+  },
+  "author_locked": false,
+  "season_selected": false,
+  "exact_execution_cleared": false,
+  "manuscript_allowed": false,
+  "independent_review": "NOT_INDEPENDENT",
+  "season_results": null,
+  "substitution_timeline": null,
+  "tactical_efficiency": null
+}

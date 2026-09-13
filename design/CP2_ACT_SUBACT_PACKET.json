@@ -1039,26 +1039,32 @@
       "parent_act": "A07",
       "window": "2021–22",
       "title": "G1A의 빈자리",
-      "entry_state": "모두 남기면 안전하다고 봄",
-      "goal": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "pressure": "Theis 시장과 15자리·240분",
-      "choice": "엘보 카운터를 실제 압박에서 시험",
-      "cost": "백업 C 조달·벤치 기회",
-      "exit_state": "잔류/이탈의 역할 이유",
+      "entry_state": "G1A의 이름 있는 15자리 후보와 10인 정상 배분",
+      "goal": "엘보 공격을 시험할 자기 역할과 동료의 분 비용을 함께 제안한다",
+      "pressure": "Theis 이탈·Bradley 취득 조건과 Young/Caruso의 복수 역할",
+      "choice": "R21A를 기본 비교로 두고 코치에게 제한 공격 역할을 요청한다",
+      "cost": "Satoransky·Green 등 고정 분이 없는 선수의 기회를 공짜로 약속하지 못함",
+      "exit_state": "정상 조합과 예외 조건을 구분한 역할 제안",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": null,
       "institutional_constraint": "G1A 등록 15자리·NTMLE 자격·실제 R HOLD",
-      "relationship_in_play": "LaVine·LaMelo·Theis 시장·대체 센터",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1066,40 +1072,55 @@
         "window": "2021–22",
         "place_scope": "Chicago 및 NBA 원정·FA 시장"
       },
-      "basketball_question": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "irreversible_choice": "엘보 카운터를 실제 압박에서 시험; 이 구간에 지불한 백업 C 조달·벤치 기회는 즉시 되돌려 받지 않음",
+      "basketball_question": "두 번째 공격을 맡아도 기존 전개와 안쪽 공간을 겹치지 않게 할 수 있는가",
+      "irreversible_choice": "역할 시험에 쓴 훈련 시간과 동료의 기회 비용을 기록하고 결과가 나쁘면 그 배분을 수정한다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "15자리 후보·240분·중복 없는 5인 조합 연결",
+        "감독의 교대 권한과 선수의 요청을 구분"
+      ],
+      "failure_response": "기존 가용성/역할로 성립하지 않는 조합을 버리고 R21B/C/D의 구체적 비용을 다시 비교한다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A07-S2",
       "parent_act": "A07",
       "window": "2021–22",
       "title": "엘보의 사용",
-      "entry_state": "훈련 성공을 실전 완성으로 읽음",
-      "goal": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "pressure": "드롭·빠른 복귀·파울 관리",
-      "choice": "엘보 카운터를 실제 압박에서 시험",
-      "cost": "슈팅 변동과 공격 실패",
-      "exit_state": "제한 매치업 카운터",
+      "entry_state": "훈련에서 준비한 엘보 공격을 제한 매치업에 적용할 조건",
+      "goal": "엘보 캐치 뒤 도움수비가 오기 전에 자기 공격과 반환을 구분한다",
+      "pressure": "안쪽 수비 유지와 캐치 전 조기 도움의 서로 다른 도착 시점",
+      "choice": "짧게 공격할 창이 닫히면 LaMelo 또는 LaVine에게 반환하고 다시 공간을 만든다",
+      "cost": "망설인 시간만큼 동료에게 늦은 시계가 넘어가고 슛 기회가 줄어듦",
+      "exit_state": "통하는 조건과 중단할 조건이 구별된 엘보 카운터 표본",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": null,
       "institutional_constraint": "G1A 등록 15자리·NTMLE 자격·실제 R HOLD",
-      "relationship_in_play": "LaVine·LaMelo·Theis 시장·대체 센터",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1107,40 +1128,55 @@
         "window": "2021–22",
         "place_scope": "Chicago 및 NBA 원정·FA 시장"
       },
-      "basketball_question": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "irreversible_choice": "엘보 카운터를 실제 압박에서 시험; 이 구간에 지불한 슈팅 변동과 공격 실패는 즉시 되돌려 받지 않음",
+      "basketball_question": "받은 뒤 두 번째 수비가 닿기 전 공격을 계속할지 돌려줄지 판단하는가",
+      "irreversible_choice": "실전에서 소모한 공격 기회와 늦은 반환의 실패를 자신의 표본에 남긴다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "캐치 위치·도움 방향·반환 경로·후속 슛을 함께 기록",
+        "득점 성공과 올바른 선택을 분리"
+      ],
+      "failure_response": "같은 공격을 반복 호출하지 않고 준비된 반환으로 부담을 줄인다. 라이브 패스 완성은 A08로 남긴다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A07-S3",
       "parent_act": "A07",
       "window": "2021–22",
       "title": "계약 전의 평가",
-      "entry_state": "좋은 경기 하나로 가격을 확신",
-      "goal": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "pressure": "반복 표본·시장·성장 비용",
-      "choice": "엘보 카운터를 실제 압박에서 시험",
-      "cost": "역할과 몸값의 분리",
-      "exit_state": "2022 협상 가능한 자료",
+      "entry_state": "엘보 공격의 성공과 실패가 함께 남은 조건부 표본",
+      "goal": "반복 가능한 공격 역할과 남은 약점을 협상 자료로 구분한다",
+      "pressure": "상대 대응·실제 출전 집계·외부 시장 평가가 서로 다름",
+      "choice": "좋은 경기만 고르지 않은 자료로 역할 확대를 요구하고 가격 협상은 에이전트에게 맡긴다",
+      "cost": "실패와 효율 변동을 공개한 채 자신의 가격 기대를 조정할 수 있어야 함",
+      "exit_state": "2022 역할 평가와 E2 협상에 넘길 조건부 자료 기준",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": null,
       "institutional_constraint": "G1A 등록 15자리·NTMLE 자격·실제 R HOLD",
-      "relationship_in_play": "LaVine·LaMelo·Theis 시장·대체 센터",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1148,40 +1184,55 @@
         "window": "2021–22",
         "place_scope": "Chicago 및 NBA 원정·FA 시장"
       },
-      "basketball_question": "더 큰 공격 역할을 요구할 근거가 있는가",
-      "irreversible_choice": "엘보 카운터를 실제 압박에서 시험; 이 구간에 지불한 역할과 몸값의 분리는 즉시 되돌려 받지 않음",
+      "basketball_question": "한 번 통한 카운터가 상대 대응 뒤에도 공격 가치를 남기는가",
+      "irreversible_choice": "기록에서 불리한 경기와 턴오버를 제외하지 않는 평가 기준을 채택한다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "상대가 바꾼 수비에 따른 성공/실패를 함께 평가",
+        "32분 조합을 시즌 기록이나 QO 충족으로 환산하지 않음"
+      ],
+      "failure_response": "반복성이 부족하면 공동 에이스 지위를 자동 부여하지 않고 다음 해 훈련/역할 조건으로 넘긴다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A08-S1",
       "parent_act": "A08",
       "window": "2022–23",
       "title": "E2의 대가",
-      "entry_state": "큰 계약을 성장의 끝으로 읽음",
-      "goal": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "pressure": "LaVine·Carter·벤치 동시 예산",
-      "choice": "E2 협상과 동료 자원의 동시 비용 수용",
-      "cost": "타인에게 싼 계약 요구 금지",
-      "exit_state": "자기 비용이 팀 구조를 바꿈",
+      "entry_state": "E2·CX1·LaVine 재계약을 함께 비교하는 조건부 예산",
+      "goal": "자신의 보수와 필요한 동료 기능의 가격을 동시에 설명한다",
+      "pressure": "2022 지명 비용·Young 유지·추가 charge가 같은 예산을 사용",
+      "choice": "E2 자기 비용을 남긴 채 G8 RT1과 대체 정책의 명단/기능 손실을 함께 검토한다",
+      "cost": "계약 지위를 높이면서 이전 벤치 깊이와 자기 공격권을 모두 보장받을 수 없음",
+      "exit_state": "선수의 요구와 프런트의 계약 권한이 구분된 코어 유지 제안",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": "CLOCK",
       "institutional_constraint": "E2 협상·2022 cap와 apron·분배",
-      "relationship_in_play": "LaVine·LaMelo·Carter·가상 에이전트",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1189,40 +1240,55 @@
         "window": "2022–23",
         "place_scope": "Chicago 및 NBA 원정·계약 협상"
       },
-      "basketball_question": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "irreversible_choice": "E2 협상과 동료 자원의 동시 비용 수용; 이 구간에 지불한 타인에게 싼 계약 요구 금지는 즉시 되돌려 받지 않음",
+      "basketball_question": "자기 공격을 위해 필요한 연결·외곽·센터 역할 중 무엇을 유지해야 하는가",
+      "irreversible_choice": "자신의 계약에 사용한 예산만큼 다른 보강 선택지가 줄어드는 비용을 후속 원장에 남긴다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "G8 유지/방출 정책의 새 자리와 잔여 급여 비용 연결",
+        "동료의 할인 동의나 계약 체결을 임의로 가정하지 않음"
+      ],
+      "failure_response": "재정 조건이 실패하면 납세·유지·대체 정책을 비교하고 선수 명단과 분을 함께 다시 계산한다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A08-S2",
       "parent_act": "A08",
       "window": "2022–23",
       "title": "더블팀의 순서",
-      "entry_state": "미리 정한 패스로 해결하려 함",
-      "goal": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "pressure": "패스길을 먼저 닫는 수비",
-      "choice": "E2 협상과 동료 자원의 동시 비용 수용",
-      "cost": "턴오버·추가 반복",
-      "exit_state": "실시간 다음 선택",
+      "entry_state": "A07의 캐치 후 반환이 첫 패스길을 닫는 수비에 제한됨",
+      "goal": "공을 살아 있게 유지하며 다음 수신자를 실제 수비 이동에 맞춰 찾는다",
+      "pressure": "첫 반환 경로를 막는 두 번째 수비와 반대쪽 선제 회전",
+      "choice": "정해 둔 패스에 공을 밀어 넣지 않고 짧은 드리블로 각도를 바꾸거나 안전하게 재전개한다",
+      "cost": "턴오버·드리블 압박·동료의 재배치 반복과 공격 시간",
+      "exit_state": "압박 속 라이브 패스의 사용/중단 조건을 가진 표본",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": null,
       "institutional_constraint": "E2 협상·2022 cap와 apron·분배",
-      "relationship_in_play": "LaVine·LaMelo·Carter·가상 에이전트",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1230,40 +1296,55 @@
         "window": "2022–23",
         "place_scope": "Chicago 및 NBA 원정·계약 협상"
       },
-      "basketball_question": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "irreversible_choice": "E2 협상과 동료 자원의 동시 비용 수용; 이 구간에 지불한 턴오버·추가 반복는 즉시 되돌려 받지 않음",
+      "basketball_question": "첫 패스길이 닫힌 뒤에도 공을 유지하며 다음 선택을 할 수 있는가",
+      "irreversible_choice": "실패한 패스의 전환 실점 위험을 자신의 공격 확장 비용으로 기록한다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "캐치 직후 반환과 드리블 유지 후 패스를 다른 표본으로 분류",
+        "성공 패스뿐 아니라 공격 지연·턴오버·실패 뒤 복귀 책임 확인"
+      ],
+      "failure_response": "무조건 먼 패스를 고집하지 않고 기존 반환/재전개로 되돌아가며 동료에게 실패 비용을 떠넘기지 않는다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A08-S3",
       "parent_act": "A08",
       "window": "2022–23",
       "title": "공동 에이스",
-      "entry_state": "공을 더 잡아야 인정이라 생각",
-      "goal": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "pressure": "LaVine 득점과 LaMelo 전개",
-      "choice": "E2 협상과 동료 자원의 동시 비용 수용",
-      "cost": "경기별 클로징 분담",
-      "exit_state": "권한 확대와 설명 책임",
+      "entry_state": "주인공·LaVine·LaMelo의 공격 강점과 중단 조건이 구별된 상태",
+      "goal": "상대 수비에 맞춰 마지막 공격과 이후 관여를 분담한다",
+      "pressure": "LaVine의 득점 선택·LaMelo의 전개·주인공의 확장된 공격이 한 공을 공유",
+      "choice": "자신의 우위가 남으면 끝까지 맡고 동료의 우위가 크면 공을 보낸 뒤 리바운드와 재관여 위치를 확보한다",
+      "cost": "주인공과 LaMelo 모두 특정 포제션의 점유를 내려놓는 비용; 실패 책임은 남음",
+      "exit_state": "경기별 공격 권한과 준비 책임을 함께 가지는 공동 에이스 후보",
       "primary_device": "PLANT_AND_PAYOFF",
       "secondary_device": null,
       "institutional_constraint": "E2 협상·2022 cap와 apron·분배",
-      "relationship_in_play": "LaVine·LaMelo·Carter·가상 에이전트",
+      "relationship_in_play": "LaVine·LaMelo·Carter·Young·Caruso·Duarte·가상 에이전트; 감독/코치의 분 권한 별도",
       "research_dependencies": [
         "control/DESIGN_GATE.md",
         "canon/CAREER_TIMELINE.md",
-        "simulation/CHICAGO_2021_23_CONTINUATION.json"
+        "simulation/CHICAGO_2021_23_CONTINUATION.json",
+        "simulation/CHICAGO_2021_22_ROLE_PLAN.json",
+        "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json"
       ],
       "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
       "manuscript_allowed": false,
       "scenario_references": [
         "G1A",
-        "E2"
+        "E2",
+        "DB1",
+        "C39A",
+        "SQ1",
+        "R21A"
       ],
       "historical_events_touched": [],
       "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
@@ -1271,14 +1352,23 @@
         "window": "2022–23",
         "place_scope": "Chicago 및 NBA 원정·계약 협상"
       },
-      "basketball_question": "비싸진 자신이 팀을 더 좋게 만드는가",
-      "irreversible_choice": "E2 협상과 동료 자원의 동시 비용 수용; 이 구간에 지불한 경기별 클로징 분담는 즉시 되돌려 받지 않음",
+      "basketball_question": "공격을 넘긴 뒤에도 다음 플레이에 영향을 줄 위치를 만들 수 있는가",
+      "irreversible_choice": "유리한 동료에게 공격을 넘긴 포제션의 결과를 함께 감당하며 자신의 기여를 슛 시도로만 주장하지 않는다",
       "continuity_checks": [
         "연표의 학년·NBA 연차와 충돌하지 않음",
         "직전 종료 상태를 기본 출발 조건으로 재검토",
         "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
-        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
-      ]
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선",
+        "2021 엘보와 2022 라이브 패스를 같은 자동화 능력으로 합치지 않음",
+        "실존 선수의 속마음·동의·대사를 사실로 작성하지 않음"
+      ],
+      "success_criteria": [
+        "주인공이 끝내는 경우와 LaMelo/LaVine이 끝내는 경우 모두 조건을 설명",
+        "P3의 상호 비용을 남기되 2028 수취인/득점은 아직 잠그지 않음"
+      ],
+      "failure_response": "상시 양보나 무조건 독점으로 해결하지 않고 감독과 다음 공격의 역할을 다시 정리한다",
+      "function_revision": "O-15G11",
+      "evaluation_status": "CRITERIA_ONLY_NO_GAME_OBSERVATIONS"
     },
     {
       "id": "A09-S1",
