@@ -1,0 +1,23 @@
+{
+  "stage": "O-15G13",
+  "baseline_main": "0cadceed12e60e99b882e8b1c281fa31c76a73c1",
+  "status": "CREATIVE_PRODUCTION_CANDIDATES_NOT_OBSERVED_OR_SELECTED",
+  "opening_information_cutoff": "2021-10-19",
+  "recommended_pair": ["P21A", "D21A"],
+  "selected_pair": null,
+  "protagonist_prior_scenario": "BASE",
+  "protagonist_candidates": [
+    {"id": "P21A", "mechanism_ko": "제한된 엘보 캐치 공격 확대", "cost_ko": "시도와 턴오버가 함께 증가. 반환이 늦으면 가드 공격 시간이 줄어든다.", "pts36": 18.0, "reb36": 9.8, "ast36": 3.6, "stl36": 1.7, "blk36": 1.0, "tov36": 2.6, "pf36": 3.2, "ts": 0.555, "fg3a36": 3.8, "fg3p": 0.34, "fta36": 4.2, "ftp": 0.76},
+    {"id": "P21B", "mechanism_ko": "엘보 실전 도입 지연·기존 전환 역할 중심", "cost_ko": "공격 책임 확대의 보상이 늦어짐. 장기 성장 정체의 기본 결론으로 쓰지 않는다.", "pts36": 15.2, "reb36": 9.8, "ast36": 3.3, "stl36": 1.7, "blk36": 1.0, "tov36": 2.4, "pf36": 3.2, "ts": 0.55, "fg3a36": 3.6, "fg3p": 0.335, "fta36": 3.6, "ftp": 0.75},
+    {"id": "P21C", "mechanism_ko": "엘보 개인 공격 과부하", "cost_ko": "득점은 늘지만 효율 하락·턴오버 증가. LaVine/LaMelo의 기회와 충돌하는 반례.", "pts36": 20.0, "reb36": 9.8, "ast36": 3.7, "stl36": 1.7, "blk36": 1.0, "tov36": 3.2, "pf36": 3.4, "ts": 0.525, "fg3a36": 4.0, "fg3p": 0.33, "fta36": 4.6, "ftp": 0.76},
+    {"id": "P21D", "mechanism_ko": "무볼 컷·외곽 시도 우선", "cost_ko": "기존 무볼 기능의 비중 변경. 외곽 성공을 낙관하며 엘보 판단 표본은 줄어든다.", "pts36": 17.0, "reb36": 9.8, "ast36": 3.3, "stl36": 1.7, "blk36": 1.0, "tov36": 2.4, "pf36": 3.2, "ts": 0.57, "fg3a36": 4.8, "fg3p": 0.355, "fta36": 3.6, "ftp": 0.76}
+  ],
+  "duarte_candidates": [
+    {"id": "D21A", "mechanism_ko": "제한된 무볼 득점·보조 연결", "cost_ko": "NBA 거리·속도와 큰 윙 수비 부담. 대학 효율을 그대로 유지하지 않음.", "fg2a_scale": 0.8, "fg3a_scale": 0.95, "fta_scale": 0.7, "fg2p": 0.49, "fg3p": 0.355, "ftp": 0.79, "reb_scale": 0.9, "ast_scale": 0.85, "stl_scale": 0.65, "blk_scale": 0.4, "tov_scale": 1.1, "pf_scale": 2.0},
+    {"id": "D21B", "mechanism_ko": "공격 적응 지연", "cost_ko": "긴 수비·빠른 도움수비로 시도와 효율이 함께 감소. 14분 유지 자체도 재평가 대상.", "fg2a_scale": 0.7, "fg3a_scale": 0.85, "fta_scale": 0.6, "fg2p": 0.44, "fg3p": 0.32, "ftp": 0.77, "reb_scale": 0.85, "ast_scale": 0.75, "stl_scale": 0.6, "blk_scale": 0.35, "tov_scale": 1.25, "pf_scale": 2.3},
+    {"id": "D21C", "mechanism_ko": "캐치 슈팅 조기 적응", "cost_ko": "외곽 성공률을 높게 보는 스트레스. 수비·자가 창출까지 동시 승격하지 않음.", "fg2a_scale": 0.8, "fg3a_scale": 1.05, "fta_scale": 0.7, "fg2p": 0.5, "fg3p": 0.39, "ftp": 0.8, "reb_scale": 0.9, "ast_scale": 0.85, "stl_scale": 0.65, "blk_scale": 0.4, "tov_scale": 1.1, "pf_scale": 2.0},
+    {"id": "D21D", "mechanism_ko": "벤치 개인 공격 확대", "cost_ko": "자기 슛과 패스 시도는 늘지만 효율과 턴오버 비용 악화. Coby 역할 잠식 확인 필요.", "fg2a_scale": 1.05, "fg3a_scale": 0.95, "fta_scale": 0.85, "fg2p": 0.46, "fg3p": 0.34, "ftp": 0.79, "reb_scale": 0.9, "ast_scale": 1.1, "stl_scale": 0.65, "blk_scale": 0.4, "tov_scale": 1.4, "pf_scale": 2.1}
+  ],
+  "parameter_scope_ko": "모든 환산계수·슈팅률·허구 생산성은 수동 설계 가정이며 회귀 추정치/신뢰구간/실제 개막 스카우팅 기록이 아니다. 평균적인 역할 구간의 기대 귀속이며 날짜별 성장 진도·동료 점유/포제션·수비영향·시즌 결과는 미채택.",
+  "guardrails": {"author_locked": false, "season_selected": false, "exact_execution_cleared": false, "manuscript_allowed": false, "design_gate": "CLOSED", "freeze": "v0.30 PARTIAL"}
+}
