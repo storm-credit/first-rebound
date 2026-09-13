@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G13 주인공/Duarte46분 생산성 후보·우선사유·복합공백 연결; 다음 날짜별 양팀분/공격기회`
-- 최근 설계 변경: `G13 생산성8후보/16조합·신인5명·우선사유32행/공식14행·공백4증명; G12/G11 원본 유지`
+- 현재 작업: `O-15G14 세 경기 양팀분·공격기회24조건; 다음 Suggs 개막환산·ORL 가드12분`
+- 최근 설계 변경: `G14 관측78행·상대17prior/1087행·240분5증명·24팀정책16숫자/8HOLD; 실제시즌 미선택`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -843,3 +843,16 @@ Oregon2020–21 공식 총합을 연결하고 동일한 세 파일SHA256에서 �
 새8검사·기존입력8/역할6검사, G13/G12 재현·CP2설계샘플·JSON/링크/공백 검사를 완료했다. 자체검토는 reviews/R01_O15G13_GROWTH_AVAILABILITY_REVIEW.md, NOT_INDEPENDENT다. 다음은 이 후보를 사용할 날짜별 양팀분·공격기회 배분이며 1/23·2/16복합과 개막코비 조건부터 접촉상대를 연결한다. 미확보6사유는 해당날짜 선택 시 함께 처리한다. 82/1230행 재수집·기존 승인 재질문은 불필요하다.
 
 전체1완료·6진행/남은6개, 독서16회차·실제Pack/원고0, v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false를 유지한다.
+
+
+## O-15G14 — 세 경기 양 팀 분과 공격기회
+
+최신 날짜별 권위는 `simulation/CHICAGO_2021_22_PAIRED_REVIEW.md`와 동명JSON, 입력/출처/계보/선수배분CSV다. PR #180 main109a488에서 개막코비·1/23복합56분·2/16복합70분을 연결했다. 원본 세 파일 SHA 확인 후3경기 양팀78행·상대17명 전년도1087행을 추출했고 신규 공식 숫자박스 대조0을 명시했다.
+
+CHI3·DET1·SAC1의 조건부240분5인 증명5개, ORL 지정가드/36분규칙 아래12분 HOLD를 보존했다. DET Suggs24분은 개막 이전 환산 prior가 없으며 실제미래 NBA 기록이나0으로 채우지 않는다. SAC는 두 마감거래의4조건 중S14A 비거래 중립대조만 계산했고 Hood2020–21 방향을2022소속 영구금지로 확대하지 않는다. Mitchell Questionable과 비교용 미출전 가정을 분리했다.
+
+공통 역사적 선수FGA/FTA/TOV 예산의4배분정책은24팀조건16숫자/8HOLD,선수164행이다. 12양팀조건 중SAC4만 양쪽숫자이며 점수·효율·승수는null이다. B14A P32분기회를 고정하면2/16 동료실책 가중치0.663배가 필요하므로 검증된 개선효과로 쓰지 않는다. 0.75~1.25표식은 수동스트레스 경계다.
+
+신규11·기존22검사, G14/G13/G12/CP2 재현·별도해시시드·JSON/링크/공백검사를 완료했다. 자체검토 `reviews/R01_O15G14_PAIRED_OPPORTUNITY_REVIEW.md`, NOT_INDEPENDENT다. 다음은 Suggs 개막 이전 대학환산과 ORL12분 가드/전개자 대안이며 SAC후행거래는 해당 등록·자산회수 후 확장한다. 82/1230행 전량재수집·기존승인 재질문은 불필요하다.
+
+실제분/시즌선택0·D1정확실행미완료·독서16회차/실제Pack0/원고0. 전체1완료·6진행/남은큰작업6개·v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false를 유지한다.

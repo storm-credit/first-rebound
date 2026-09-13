@@ -1,7 +1,7 @@
 # CP2 통합 검토 패킷 — 2021 잠정 결산부터 은퇴까지
 
 - 상태: `PROVISIONAL_REVIEWABLE_PACKET / NOT_DESIGN_COMPLETE`.
-- 생성 기반: PR #167 main `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 최신 통합 대조 기반은 PR #178 main `29febb3b0bef1f83982190b15927a38a8a8148c8`이며 원문별 권위는 아래 링크를 따른다.
+- 생성 기반: PR #167 main `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 최신 통합 대조 기반은 PR #180 main `109a488c5c508a9f47a79c1f12991b9d162a1720`이며 원문별 권위는 아래 링크를 따른다.
 - 사용자 자동 후속 지시와 [CP2 절차 승인](../canon/CHICAGO_2020_21_CP2_APPROVAL.json)에 따라 작성했다. 최종 정본 승격·집필 허가는 포함하지 않는다.
 
 ## 지금 한 번에 검토할 수 있는 연결
@@ -11,7 +11,7 @@
 | 2020–21 | K1 Chicago31–41·L2 WAS 승리/IND 패배 | [K](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md), [L](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md) |
 | 2021 추첨 | 사전 게시 후 첫 결과 CHA/HOU/ORL/OKC; CHI10·39, MIN7·36 원소유 순번 | [잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md) |
 | 2021–23 | G1A/E2·G8 SQ1 취득 순서·CX1 Carter 연장 제안·2022 유지 조건 | [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [G1 분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
-| 2021–22 운용 | G13 P21A/D21A 추천·46분8후보/16조합·사유32행/공식14행·공백4증명; 시즌 미선택 | [G13 생산성/사유](../simulation/CHICAGO_2021_22_GROWTH_REVIEW.md), [G12 입력](../simulation/CHICAGO_2021_22_INPUT_REVIEW.md), [G11 역할](../simulation/CHICAGO_2021_22_ROLE_PLAN.md) |
+| 2021–22 운용 | G14 세 경기·240분5증명·공격기회24팀조건16숫자/8HOLD; G13 P21A/D21A 조건, 시즌 미선택 | [G14 양팀/기회](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md), [G13 생산성/사유](../simulation/CHICAGO_2021_22_GROWTH_REVIEW.md), [G12 입력](../simulation/CHICAGO_2021_22_INPUT_REVIEW.md) |
 | 2021 후보 명단 | G7 DB1 CHI10 Duarte/39 Wieskamp 주 비교안; 15자리·G3 비용 유지 | [G7 전체 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md), [G3 비용](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) |
 | 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo; G9 기존 옵션·새 계약 비용 | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md), [장기 비용](../simulation/CHICAGO_LONG_CORE_CBA.md) |
 | 우승/수상 | AW2의 CHI2028·2031 우승, P2027 MVP·2028/2031 FMVP 후보 | [기계 원장](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json) |
@@ -38,7 +38,7 @@
 |---|---|---|---|
 | D1 | 네 K 실행 묶음의 정확 사실/최종 채택 | [시즌 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 기존 필드 회수·작가 선택 | K1/L2/M을 조건으로 설계 계속 |
 | D2 | 2021 선수 보드·실제 계약 | 바뀐 top4부터 보드/소유권, CHI10·39와 백업C 취득·예외 순서 | [G7 60픽 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)·G3 비용 사용, 최종 당일 거래/계약은 미완료 |
-| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | [G13 46분 생산성 후보·우선 사유](../simulation/CHICAGO_2021_22_GROWTH_REVIEW.md) 연결. 다음 날짜별 양팀분/공격기회·미확보사유6행. 실제 분/생산성·시즌 채택은 미완료 |
+| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | [G14 세 경기 양팀분·공격기회](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md) 연결. 다음 Suggs 개막환산·ORL 가드12분; 미확보사유6행 유지. 실제 분/생산성·시즌 채택은 미완료 |
 | D4 | 2023 대표팀·병역·새 CBA | 기존 범위 게이트 재개 조건에 따른 사실 조사와 전 경기 인과 | G9의2023 CBA/수상·동결픽 규정은 조사됨. H2/NM1의 대표팀 결과/허가와2030 이후 규정은 미완료 |
 | D5 | 장기 시즌·수상·동료 잔류 | H2/RC1/AW2의 전력·계약·상대·가용성 연결과 선택 | 역할·실패·종료 기능표 사용 |
 | D6 | G11 참고작 합성 | 10작품+예비3·4플랫폼·실제 회차 독서와 기능 비교 | G10 세 작품16회차·본문3플랫폼의 기능 비교 사용;94화·선별/계량 미완료 |
@@ -94,3 +94,10 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 `simulation/CHICAGO_LONG_CORE_CBA.md` 및 동명 JSON은 G2의 비율 목표를 실제 계약 기간에 대조한다. LM1 2023 LaMelo 5년 25→30% 연장 제안·BC1 P30/LaMelo25/LaVine 기존 옵션을 주 비교안으로 추천한다. 모두 미합의다. LaVine의 2026 옵션 $48,967,380을 18% 새 가격으로 낮춰 계산하지 않는다.
 
 40비용 조건과44 CBA 표 조건을 연결했다. 실제2026 참고 cap에서 BC1 선수 예산 $205,210,600은 second 아래 $16,475,400이며, 미배정 예비비까지 포함한 계획 총액은 second보다 $20,700 크다. 예비비를 실제 charge로 판정하지 않는다. 동결 픽·수상 출전 기준·2023 전환 조항·2030 이후 규정 미확보를 구분했다. 신규8검사 PASS, 자체 검토 NOT_INDEPENDENT. 전체1완료·6진행/남은 큰 작업6개, author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
+## O-15G14 — 날짜별 상대 분과 공통 공격기회
+
+[G14 권위](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md)는 세 경기78관측행·상대17명1087전년도행을 연결한다. 조건부240분5증명과ORL12분 역할HOLD, 4정책24팀조건16숫자/8HOLD를 기록했다. 12양팀조건 중SAC의4만 양쪽숫자이며 선수TOV합계는 공식팀실책/포제션이 아니다. 역사적예산 통제비교를 예측·점수/승패로 승격하지 않는다.
+
+SAC두거래4조건 중S14A는 중립대조이며 최종추천/거절이 아니다. Hood T4 이후등록과Metu후속을HOLD로 남기고 Questionable을Out으로 고치지 않는다. 다음은 Suggs개막이전환산과ORL가드12분 대안이다. 신규11·기존22검사/재현PASS, NOT_INDEPENDENT·전체1완료/6진행·남은6개·v0.30 PARTIAL·설계/원고CLOSED 유지.
