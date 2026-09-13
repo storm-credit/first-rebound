@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-12
+- 기준일: 2026-09-13
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G10 문체 실제 독서·통합 상태 대조, D1~D8 후속 의존 회수`
-- 최근 설계 변경: `G7 60픽 비교·G8 취득/계약 순서·G9 코어 비용/CBA·G10 실제16회차 독서`
+- 현재 작업: `O-15G11 2021–22 조합·공격 역할 및 A07/A08 판단 기준; 다음 날짜별 시즌 입력`
+- 최근 설계 변경: `G11 4운용안·7조합 증명·센터 이중 공백 HOLD·6 Sub-Act 구체화; G7~G10 선행 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -812,3 +812,11 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 `research/STYLE_READING_OBSERVATIONS.json`에 필드1~5·재벌집1~6·데못죽1~5의16회차 실제 독서를 기록했다. 기본1~5 완독3작품·핵심1~20 완독0·본문3플랫폼이다. 13개는 접근/선별 후보이고 최종 코퍼스 확정이 아니다. 기본110화 대비94화·작품별 선별/추출 항목이 미완료다. 화산귀환 첫화와데못죽6화에서 실제 로그인 요구를 확인했으며 다른 미독서는 접근 제한으로 포장하지 않았다.
 
 원문 없는620개 p 길이/기호 배열로22,876자 집계를 재검산했다. p는 문장이 아니며139개 기호 시작 단위도 정확 대사 비율이 아니다. `design/HOUSE_STYLE_FOUNDATION.md`에 평가 종류·정보 접근·위치/반응 기준을 보강하고 설계 샘플2개의 출처 해시를 검토 후 갱신한다. 원문/가사 재배포·원고/대사 생성0, G11 미완료. 전체1완료·6진행/남은6개·NOT_INDEPENDENT·v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15G11 — 2021–22 조합·공격 역할과 A07/A08 판단 기준
+
+후속 권위 `simulation/CHICAGO_2021_22_ROLE_PLAN.md` 및 입력/결과 JSON. G7의 Duarte10·Wieskamp39를 G1A 15자리/240분에 연결했다. R21A 주 추천과 세 대안, 3개 단독 공백의 총 7개 순서 없는 5인 조합 증명을 검산했다. Carter+Bradley 공백은 Young C24 상한에서 C24분 부족으로 HOLD다. 개인/포지션 상한은 설계 가정이며 의료 판단·실제 교대·성능이 아니다.
+
+A07/A08 여섯 Sub-Act의 중복 선택 문구를 각 농구 문제에 맞게 고치고 성공 기준·실패 대응·역할/계약 권한을 연결했다. 14 Act·42 Sub-Act·780 분량은 유지하며 완료 회차/실제 Pack/원고 0이다. 신규 6검사·기존 CP2 6검사와 JSON 재현/해시·링크/diff 검사로 검토한다. 검토 결과는 `reviews/R01_O15G11_ROLE_STRUCTURE_REVIEW.md`에 기록한다. NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED·전체1완료/6진행·남은6개.
+
+다음 D3 작업은 2021–22 날짜별 기준선/가용성·접촉 구단과 생산성 입력 연결이다. R21A를 82경기 기록·2022 플레이오프 진출·E2 합의로 승격하지 않는다. D1 정확 실행·G11 문체 딥리드·전체 독립 검수/작가 승인도 남아 있다.
