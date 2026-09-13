@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G12 2021–22 날짜/가용성 관측·개막 prior 연결; 다음 주인공/Duarte46분과 우선 사유`
-- 최근 설계 변경: `G12 리그1230경기·CHI82일/1230선수일·전년도16prior·Coby18분 공백 예시; G11 선행 유지`
+- 현재 작업: `O-15G13 주인공/Duarte46분 생산성 후보·우선사유·복합공백 연결; 다음 날짜별 양팀분/공격기회`
+- 최근 설계 변경: `G13 생산성8후보/16조합·신인5명·우선사유32행/공식14행·공백4증명; G12/G11 원본 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -830,3 +830,16 @@ A07/A08 여섯 Sub-Act의 중복 선택 문구를 각 농구 문제에 맞게 �
 개막 prior는2020–21로 제한해 실제선수16명(제안명단12·비교자4)을 집계했다. 주인공/Duarte의 정상46분과Wieskamp는 별도입력 HOLD다. Coby 비가용·나머지 가용의 예시에서 Satoransky10/Valentine8로240분을 검산했지만 첫13경기 결장/배분을 채택한 것은 아니다. 신규8·기존조합6검사와 재현/해시·링크/diff 검토는 `reviews/R01_O15G12_SEASON_INPUT_REVIEW.md`에 기록한다.
 
 다음은 주인공/Duarte46분의 생산성 후보와 우선 가용성 사유 연결이며, 같은1,230행을 다시 수집하는 작업이 아니다. 2021–22 실제 승패·2022 계약/픽은 미선택, D1의2020–21 정확 실행도 미완료다. NOT_INDEPENDENT·전체1완료/6진행·남은6개·v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false 유지.
+
+
+## O-15G13 — 주인공·Duarte46분 생산성 후보와 우선 사유
+
+[G13 권위](simulation/CHICAGO_2021_22_GROWTH_REVIEW.md)에 주인공4안·Duarte4안/16조합을 작성했다. P21A/D21A를 후속 비교 추천으로 두며 실제 개막/시즌 기록이나 작가 확정은 아니다. P32분16.00점·8.71REB·3.20AST·2.31TOV, Duarte14분4.93점의 기대 귀속과 공격 기회 비용을 계산했다. G12의 alternate prior null은 유지한다.
+
+Oregon2020–21 공식 총합을 연결하고 동일한 세 파일SHA256에서 신인 비교5명344행을 추출했다. 편의 비교군이며 보정 모형/신뢰구간이 아니다. 가용성 우선32행 중 공식사유14행, generic미확보6행·코비 맥락12행을 구분했다. 새2보고서10항목에 보고일/경기일·소속·Out/Probable·파견을 보존했다.
+
+단독14/22분과 복합70/56분의 네 증명을 추가했다. 2/16 LaVine·Caruso·Duarte, 1/23 LaVine·Caruso·Green 공백을 각각 처리하고 Green부재의 잘못된 수신자 재사용을 거부한다. 두 복합안 모두 P32/LaMelo32·Coby36, 전체240분이며 의료허가·실제 교대·같은 전력은 증명하지 않는다.
+
+새8검사·기존입력8/역할6검사, G13/G12 재현·CP2설계샘플·JSON/링크/공백 검사를 완료했다. 자체검토는 reviews/R01_O15G13_GROWTH_AVAILABILITY_REVIEW.md, NOT_INDEPENDENT다. 다음은 이 후보를 사용할 날짜별 양팀분·공격기회 배분이며 1/23·2/16복합과 개막코비 조건부터 접촉상대를 연결한다. 미확보6사유는 해당날짜 선택 시 함께 처리한다. 82/1230행 재수집·기존 승인 재질문은 불필요하다.
+
+전체1완료·6진행/남은6개, 독서16회차·실제Pack/원고0, v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false를 유지한다.
