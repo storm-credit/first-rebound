@@ -1,7 +1,7 @@
 # CP2 통합 검토 패킷 — 2021 잠정 결산부터 은퇴까지
 
 - 상태: `PROVISIONAL_REVIEWABLE_PACKET / NOT_DESIGN_COMPLETE`.
-- 생성 기반: PR #167 main `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 최신 통합 대조 기반은 PR #177 main `05664c8be869173f2736dfdb9e659b88f7be9d77`이며 원문별 권위는 아래 링크를 따른다.
+- 생성 기반: PR #167 main `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 최신 통합 대조 기반은 PR #178 main `29febb3b0bef1f83982190b15927a38a8a8148c8`이며 원문별 권위는 아래 링크를 따른다.
 - 사용자 자동 후속 지시와 [CP2 절차 승인](../canon/CHICAGO_2020_21_CP2_APPROVAL.json)에 따라 작성했다. 최종 정본 승격·집필 허가는 포함하지 않는다.
 
 ## 지금 한 번에 검토할 수 있는 연결
@@ -11,7 +11,7 @@
 | 2020–21 | K1 Chicago31–41·L2 WAS 승리/IND 패배 | [K](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md), [L](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md) |
 | 2021 추첨 | 사전 게시 후 첫 결과 CHA/HOU/ORL/OKC; CHI10·39, MIN7·36 원소유 순번 | [잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md) |
 | 2021–23 | G1A/E2·G8 SQ1 취득 순서·CX1 Carter 연장 제안·2022 유지 조건 | [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [G1 분 배분](../simulation/CHICAGO_2021_23_CONTINUATION.md) |
-| 2021–22 운용 | G11 R21A·7개 조합 증명·센터 이중 공백 HOLD, A07/A08 판단 기준 | [G11 역할](../simulation/CHICAGO_2021_22_ROLE_PLAN.md) |
+| 2021–22 운용 | G11 R21A·G12 날짜82/선수일1230·전년도16prior·Coby 공백 예시; 시즌 미선택 | [G12 입력](../simulation/CHICAGO_2021_22_INPUT_REVIEW.md), [G11 역할](../simulation/CHICAGO_2021_22_ROLE_PLAN.md) |
 | 2021 후보 명단 | G7 DB1 CHI10 Duarte/39 Wieskamp 주 비교안; 15자리·G3 비용 유지 | [G7 전체 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md), [G3 비용](../simulation/CHICAGO_2021_NAMED_ROSTER_OPTIONS.md) |
 | 장기 | H2 2026 실패→2028 CHI–MIN 재대결→2035 은퇴 기능, RC1 LaMelo; G9 기존 옵션·새 계약 비용 | [장기 패킷](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md), [장기 비용](../simulation/CHICAGO_LONG_CORE_CBA.md) |
 | 우승/수상 | AW2의 CHI2028·2031 우승, P2027 MVP·2028/2031 FMVP 후보 | [기계 원장](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json) |
@@ -38,7 +38,7 @@
 |---|---|---|---|
 | D1 | 네 K 실행 묶음의 정확 사실/최종 채택 | [시즌 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 기존 필드 회수·작가 선택 | K1/L2/M을 조건으로 설계 계속 |
 | D2 | 2021 선수 보드·실제 계약 | 바뀐 top4부터 보드/소유권, CHI10·39와 백업C 취득·예외 순서 | [G7 60픽 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)·G3 비용 사용, 최종 당일 거래/계약은 미완료 |
-| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | G8 비용에 [G11의 4운용안·7조합 증명](../simulation/CHICAGO_2021_22_ROLE_PLAN.md)을 연결. 날짜별 가용성/생산성/성적은 다음 작업 |
+| D3 | 2022–23 실제 분·성적·픽/계약 | 실제 가용성·연장·RFA·팀 재정과 전체 경로 | G8/G11에 [G12 날짜별 관측과 개막 prior](../simulation/CHICAGO_2021_22_INPUT_REVIEW.md) 연결. 주인공/Duarte46분·우선 사유·실제 분/생산성 채택은 미완료 |
 | D4 | 2023 대표팀·병역·새 CBA | 기존 범위 게이트 재개 조건에 따른 사실 조사와 전 경기 인과 | G9의2023 CBA/수상·동결픽 규정은 조사됨. H2/NM1의 대표팀 결과/허가와2030 이후 규정은 미완료 |
 | D5 | 장기 시즌·수상·동료 잔류 | H2/RC1/AW2의 전력·계약·상대·가용성 연결과 선택 | 역할·실패·종료 기능표 사용 |
 | D6 | G11 참고작 합성 | 10작품+예비3·4플랫폼·실제 회차 독서와 기능 비교 | G10 세 작품16회차·본문3플랫폼의 기능 비교 사용;94화·선별/계량 미완료 |
