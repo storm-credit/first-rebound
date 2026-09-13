@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G11 2021–22 조합·공격 역할 및 A07/A08 판단 기준; 다음 날짜별 시즌 입력`
-- 최근 설계 변경: `G11 4운용안·7조합 증명·센터 이중 공백 HOLD·6 Sub-Act 구체화; G7~G10 선행 유지`
+- 현재 작업: `O-15G12 2021–22 날짜/가용성 관측·개막 prior 연결; 다음 주인공/Duarte46분과 우선 사유`
+- 최근 설계 변경: `G12 리그1230경기·CHI82일/1230선수일·전년도16prior·Coby18분 공백 예시; G11 선행 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -820,3 +820,13 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 A07/A08 여섯 Sub-Act의 중복 선택 문구를 각 농구 문제에 맞게 고치고 성공 기준·실패 대응·역할/계약 권한을 연결했다. 14 Act·42 Sub-Act·780 분량은 유지하며 완료 회차/실제 Pack/원고 0이다. 신규 6검사·기존 CP2 6검사와 JSON 재현/해시·링크/diff 검사로 검토한다. 검토 결과는 `reviews/R01_O15G11_ROLE_STRUCTURE_REVIEW.md`에 기록한다. NOT_INDEPENDENT·author/season/exact/manuscript false·v0.30 PARTIAL·설계/원고 CLOSED·전체1완료/6진행·남은6개.
 
 다음 D3 작업은 2021–22 날짜별 기준선/가용성·접촉 구단과 생산성 입력 연결이다. R21A를 82경기 기록·2022 플레이오프 진출·E2 합의로 승격하지 않는다. D1 정확 실행·G11 문체 딥리드·전체 독립 검수/작가 승인도 남아 있다.
+
+## O-15G12 — 날짜별 가용성 관측과 개막 생산성 입력
+
+권위 `simulation/CHICAGO_2021_22_INPUT_REVIEW.md` 및 동명 JSON, 날짜표/가용성 CSV·개막 prior JSON을 연결했다. 고정 미러 세 파일을 검증해 2021–22 전체31,321행/1,230경기에서 Chicago82일·15명×82일=1,230행 대조를 작성했다. 저장 관측2,618행은 전년도1,036·현재시즌1,582행이다. 숫자는 미러 관측이며 공식 네 경기 페이지에서는 ID/팀/날짜만 대조했다.
+
+같은 날 행 부재499·감독DNP82·명시 제한8·실제출전559·허구82를 구분하고 alternate 가용성/분을 HOLD로 유지했다. 공식11/14 White Out·11/15 Duarte Questionable과 파견 사유를 대상 날짜에 연결했다. DET@CHI의 변경 보도1/10과 실제1/11 차이는 경기ID 기준으로 분리하고, 출전초 합계332경기의 표시 잔차를 남겼다.
+
+개막 prior는2020–21로 제한해 실제선수16명(제안명단12·비교자4)을 집계했다. 주인공/Duarte의 정상46분과Wieskamp는 별도입력 HOLD다. Coby 비가용·나머지 가용의 예시에서 Satoransky10/Valentine8로240분을 검산했지만 첫13경기 결장/배분을 채택한 것은 아니다. 신규8·기존조합6검사와 재현/해시·링크/diff 검토는 `reviews/R01_O15G12_SEASON_INPUT_REVIEW.md`에 기록한다.
+
+다음은 주인공/Duarte46분의 생산성 후보와 우선 가용성 사유 연결이며, 같은1,230행을 다시 수집하는 작업이 아니다. 2021–22 실제 승패·2022 계약/픽은 미선택, D1의2020–21 정확 실행도 미완료다. NOT_INDEPENDENT·전체1완료/6진행·남은6개·v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false 유지.
