@@ -1,0 +1,1008 @@
+{
+  "stage": "O-15G14",
+  "baseline_main": "109a488c5c508a9f47a79c1f12991b9d162a1720",
+  "opening_information_cutoff": "2021-10-19",
+  "recommended_production_pair": [
+    "P21A",
+    "D21A"
+  ],
+  "selected_production_pair": null,
+  "recommended_budget_policy": "B14A",
+  "selected_budget_policy": null,
+  "selected_trade_policy": null,
+  "budget_policy_scope_ko": "실제 같은 경기의 선수 합산 FGA/FTA/TOV를 공통 비교 예산으로 고정한다. 개막 예측·추정 팀 포제션·승패 계산이 아니다.",
+  "stress_ratio_design_only": [
+    0.75,
+    1.25
+  ],
+  "policies": [
+    {
+      "id": "B14A",
+      "protect": "featured",
+      "description_ko": "주 비교: 주인공/지정 주선수 원시 기회를 고정하고 나머지가 잔여를 비례 분담"
+    },
+    {
+      "id": "B14B",
+      "protect": "core",
+      "description_ko": "출전 코어 원시 기회를 고정하고 나머지가 잔여를 비례 분담"
+    },
+    {
+      "id": "B14C",
+      "protect": "none",
+      "description_ko": "모두 원시 가중치에 비례해 축소·확대"
+    },
+    {
+      "id": "B14D",
+      "protect": "noncore",
+      "description_ko": "비코어 원시 기회를 고정하고 코어가 잔여를 비례 분담"
+    }
+  ],
+  "trade_conditions": [
+    {
+      "id": "S14A",
+      "sabonis_package": false,
+      "four_team_package": false,
+      "rotation": "SAC_0022100878",
+      "status": "NEUTRAL_CONTROL_NOT_RECOMMENDATION"
+    },
+    {
+      "id": "S14B",
+      "sabonis_package": true,
+      "four_team_package": false,
+      "rotation": null,
+      "status": "ASSET_REGISTRATION_HOLD"
+    },
+    {
+      "id": "S14C",
+      "sabonis_package": false,
+      "four_team_package": true,
+      "rotation": null,
+      "status": "PREDECESSOR_PICK_REGISTRATION_HOLD"
+    },
+    {
+      "id": "S14D",
+      "sabonis_package": true,
+      "four_team_package": true,
+      "rotation": null,
+      "status": "BOTH_PACKAGE_CHAIN_HOLD"
+    }
+  ],
+  "trade_scope_ko": [
+    "실제 2/8 Sabonis/Holiday/Lamb 패키지와 2/10 4구단 패키지를 별개로 둔다. Indiana는 G7 Duarte 미보유/Trey Murphy 조건이다.",
+    "T4는 2020–21 Hood POR 잔류 방향이다. 2021 방출·FA·MIL 등록을 확인하지 않았다는 뜻이며 2022 MIL 보유가 영구 불가능하다는 뜻이 아니다.",
+    "정확 픽·현금·급여·권리/등록·합의가 닫히기 전 S14B~D 실제 분을 만들지 않는다."
+  ],
+  "rotations": [
+    {
+      "id": "CHI_0022100004",
+      "game_id": "0022100004",
+      "date": "2021-10-20",
+      "team": "CHI",
+      "status": "CONDITIONAL",
+      "source_case": "AV_Coby_EXAMPLE",
+      "position_minutes": {
+        "PG": {
+          "LaMelo_pick4": 32,
+          "Caruso": 6,
+          "Satoransky": 10
+        },
+        "SG": {
+          "LaVine": 34,
+          "Caruso": 6,
+          "Denzel Valentine": 8
+        },
+        "SF": {
+          "Protagonist": 24,
+          "Caruso": 10,
+          "Chris Duarte": 14
+        },
+        "PF": {
+          "Markkanen": 28,
+          "Protagonist": 8,
+          "Young": 12
+        },
+        "C": {
+          "Carter": 28,
+          "Young": 8,
+          "Tony Bradley": 12
+        }
+      },
+      "lineup_witness": [
+        {
+          "minutes": 12,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 8,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          }
+        },
+        {
+          "minutes": 10,
+          "positions": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          }
+        }
+      ],
+      "unavailable": [
+        "Coby"
+      ],
+      "required_creator_any_of": [
+        "LaMelo_pick4",
+        "LaVine",
+        "Coby"
+      ],
+      "eligibility": {
+        "PG": [
+          "LaMelo_pick4",
+          "Coby",
+          "Caruso",
+          "Satoransky"
+        ],
+        "SG": [
+          "LaVine",
+          "Coby",
+          "Caruso",
+          "Chris Duarte",
+          "Denzel Valentine"
+        ],
+        "SF": [
+          "Protagonist",
+          "Chris Duarte",
+          "Caruso",
+          "Joe Wieskamp",
+          "Stanley Johnson",
+          "Green",
+          "Denzel Valentine"
+        ],
+        "PF": [
+          "Markkanen",
+          "Protagonist",
+          "Young",
+          "Green",
+          "Stanley Johnson"
+        ],
+        "C": [
+          "Carter",
+          "Young",
+          "Tony Bradley"
+        ]
+      },
+      "minute_ceiling_design_only": 36,
+      "featured": [
+        "Protagonist"
+      ],
+      "core": [
+        "Protagonist",
+        "LaMelo_pick4",
+        "LaVine"
+      ],
+      "conditions_ko": [
+        "G1A/SQ1 등록과 이 날 출전 선수의 가용성을 모두 가정한다.",
+        "원래 구단의 역사적 사유를 대체세계 결장에 자동 전이하지 않는다. 이번 분안의 결장을 조건으로만 채택한다.",
+        "개막 코비 조건은 전 13경기 채택이 아니다. 1/23 Markkanen의 다음 날 사유를 당일 결장으로 쓰지 않는다."
+      ]
+    },
+    {
+      "id": "CHI_0022100701",
+      "game_id": "0022100701",
+      "date": "2022-01-23",
+      "team": "CHI",
+      "status": "CONDITIONAL",
+      "source_case": "LAVINE_CARUSO_GREEN_OUT_56",
+      "position_minutes": {
+        "PG": {
+          "Satoransky": 6,
+          "LaMelo_pick4": 32,
+          "Coby": 10
+        },
+        "SG": {
+          "Coby": 26,
+          "Denzel Valentine": 22
+        },
+        "SF": {
+          "Chris Duarte": 14,
+          "Protagonist": 24,
+          "Stanley Johnson": 10
+        },
+        "PF": {
+          "Markkanen": 28,
+          "Young": 12,
+          "Protagonist": 8
+        },
+        "C": {
+          "Young": 8,
+          "Carter": 28,
+          "Tony Bradley": 12
+        }
+      },
+      "lineup_witness": [
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "Satoransky",
+            "SG": "Coby",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Stanley Johnson",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 8,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Stanley Johnson",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          }
+        },
+        {
+          "minutes": 10,
+          "positions": {
+            "PG": "Coby",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        }
+      ],
+      "unavailable": [
+        "Caruso",
+        "Green",
+        "LaVine"
+      ],
+      "required_creator_any_of": [
+        "LaMelo_pick4",
+        "LaVine",
+        "Coby"
+      ],
+      "eligibility": {
+        "PG": [
+          "LaMelo_pick4",
+          "Coby",
+          "Caruso",
+          "Satoransky"
+        ],
+        "SG": [
+          "LaVine",
+          "Coby",
+          "Caruso",
+          "Chris Duarte",
+          "Denzel Valentine"
+        ],
+        "SF": [
+          "Protagonist",
+          "Chris Duarte",
+          "Caruso",
+          "Joe Wieskamp",
+          "Stanley Johnson",
+          "Green",
+          "Denzel Valentine"
+        ],
+        "PF": [
+          "Markkanen",
+          "Protagonist",
+          "Young",
+          "Green",
+          "Stanley Johnson"
+        ],
+        "C": [
+          "Carter",
+          "Young",
+          "Tony Bradley"
+        ]
+      },
+      "minute_ceiling_design_only": 36,
+      "featured": [
+        "Protagonist"
+      ],
+      "core": [
+        "Protagonist",
+        "LaMelo_pick4",
+        "LaVine"
+      ],
+      "conditions_ko": [
+        "G1A/SQ1 등록과 이 날 출전 선수의 가용성을 모두 가정한다.",
+        "원래 구단의 역사적 사유를 대체세계 결장에 자동 전이하지 않는다. 이번 분안의 결장을 조건으로만 채택한다.",
+        "개막 코비 조건은 전 13경기 채택이 아니다. 1/23 Markkanen의 다음 날 사유를 당일 결장으로 쓰지 않는다."
+      ]
+    },
+    {
+      "id": "CHI_0022100878",
+      "game_id": "0022100878",
+      "date": "2022-02-16",
+      "team": "CHI",
+      "status": "CONDITIONAL",
+      "source_case": "LAVINE_CARUSO_DUARTE_OUT_70",
+      "position_minutes": {
+        "PG": {
+          "Satoransky": 6,
+          "LaMelo_pick4": 32,
+          "Coby": 10
+        },
+        "SG": {
+          "Coby": 26,
+          "Denzel Valentine": 22
+        },
+        "SF": {
+          "Green": 16,
+          "Protagonist": 24,
+          "Stanley Johnson": 8
+        },
+        "PF": {
+          "Markkanen": 28,
+          "Young": 12,
+          "Protagonist": 8
+        },
+        "C": {
+          "Young": 8,
+          "Carter": 28,
+          "Tony Bradley": 12
+        }
+      },
+      "lineup_witness": [
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "Satoransky",
+            "SG": "Coby",
+            "SF": "Green",
+            "PF": "Markkanen",
+            "C": "Young"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Green",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Stanley Johnson",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 8,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Green",
+            "PF": "Markkanen",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Stanley Johnson",
+            "PF": "Protagonist",
+            "C": "Carter"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Stanley Johnson",
+            "PF": "Protagonist",
+            "C": "Young"
+          }
+        },
+        {
+          "minutes": 10,
+          "positions": {
+            "PG": "Coby",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          }
+        }
+      ],
+      "unavailable": [
+        "Caruso",
+        "Chris Duarte",
+        "LaVine"
+      ],
+      "required_creator_any_of": [
+        "LaMelo_pick4",
+        "LaVine",
+        "Coby"
+      ],
+      "eligibility": {
+        "PG": [
+          "LaMelo_pick4",
+          "Coby",
+          "Caruso",
+          "Satoransky"
+        ],
+        "SG": [
+          "LaVine",
+          "Coby",
+          "Caruso",
+          "Chris Duarte",
+          "Denzel Valentine"
+        ],
+        "SF": [
+          "Protagonist",
+          "Chris Duarte",
+          "Caruso",
+          "Joe Wieskamp",
+          "Stanley Johnson",
+          "Green",
+          "Denzel Valentine"
+        ],
+        "PF": [
+          "Markkanen",
+          "Protagonist",
+          "Young",
+          "Green",
+          "Stanley Johnson"
+        ],
+        "C": [
+          "Carter",
+          "Young",
+          "Tony Bradley"
+        ]
+      },
+      "minute_ceiling_design_only": 36,
+      "featured": [
+        "Protagonist"
+      ],
+      "core": [
+        "Protagonist",
+        "LaMelo_pick4",
+        "LaVine"
+      ],
+      "conditions_ko": [
+        "G1A/SQ1 등록과 이 날 출전 선수의 가용성을 모두 가정한다.",
+        "원래 구단의 역사적 사유를 대체세계 결장에 자동 전이하지 않는다. 이번 분안의 결장을 조건으로만 채택한다.",
+        "개막 코비 조건은 전 13경기 채택이 아니다. 1/23 Markkanen의 다음 날 사유를 당일 결장으로 쓰지 않는다."
+      ]
+    },
+    {
+      "id": "DET_0022100004",
+      "game_id": "0022100004",
+      "date": "2021-10-20",
+      "team": "DET",
+      "status": "CONDITIONAL",
+      "source_case": "MANUAL_COMPARISON",
+      "position_minutes": {
+        "PG": {
+          "Kira Lewis Jr.": 24,
+          "Cory Joseph": 24
+        },
+        "SG": {
+          "Jalen Suggs": 24,
+          "Josh Jackson": 16,
+          "Hamidou Diallo": 8
+        },
+        "SF": {
+          "Patrick Williams": 28,
+          "Josh Jackson": 8,
+          "Hamidou Diallo": 12
+        },
+        "PF": {
+          "Jerami Grant": 30,
+          "Kelly Olynyk": 18
+        },
+        "C": {
+          "Isaiah Stewart": 24,
+          "Mason Plumlee": 24
+        }
+      },
+      "lineup_witness": [
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 12,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 14,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "unavailable": [],
+      "required_creator_any_of": [
+        "Kira Lewis Jr.",
+        "Cory Joseph",
+        "Jalen Suggs"
+      ],
+      "eligibility": {
+        "PG": [
+          "Kira Lewis Jr.",
+          "Cory Joseph"
+        ],
+        "SG": [
+          "Jalen Suggs",
+          "Josh Jackson",
+          "Hamidou Diallo"
+        ],
+        "SF": [
+          "Patrick Williams",
+          "Josh Jackson",
+          "Hamidou Diallo"
+        ],
+        "PF": [
+          "Jerami Grant",
+          "Kelly Olynyk"
+        ],
+        "C": [
+          "Isaiah Stewart",
+          "Mason Plumlee"
+        ]
+      },
+      "minute_ceiling_design_only": 36,
+      "featured": [
+        "Jerami Grant"
+      ],
+      "core": [
+        "Jerami Grant",
+        "Jalen Suggs",
+        "Patrick Williams"
+      ],
+      "conditions_ko": [
+        "2020 DET Patrick7/Kira16/Stewart19와 G7 DB1 Suggs5를 사용한 조건부 비교다.",
+        "G7이 실행하지 않은 실제 Plumlee/37 거래를 이번 비교에서도 실행하지 않는다. 작가의 거래 거절이 아니다.",
+        "Joseph/Jackson/Diallo/Grant/Olynyk/Plumlee의 등록·가용성은 조건이며 전체 15자리/계약 감사는 미완료다.",
+        "Suggs24분에 필요한 개막 이전 신인 환산 prior가 없어 숫자 공격기회는 HOLD다."
+      ]
+    },
+    {
+      "id": "SAC_0022100878",
+      "game_id": "0022100878",
+      "date": "2022-02-16",
+      "team": "SAC",
+      "status": "CONDITIONAL",
+      "source_case": "MANUAL_COMPARISON",
+      "position_minutes": {
+        "PG": {
+          "De'Aaron Fox": 36,
+          "Tyrese Haliburton": 12
+        },
+        "SG": {
+          "Tyrese Haliburton": 24,
+          "Buddy Hield": 24
+        },
+        "SF": {
+          "Buddy Hield": 12,
+          "Harrison Barnes": 36
+        },
+        "PF": {
+          "Maurice Harkless": 28,
+          "Marvin Bagley III": 20
+        },
+        "C": {
+          "Marvin Bagley III": 8,
+          "Richaun Holmes": 28,
+          "Alex Len": 12
+        }
+      },
+      "lineup_witness": [
+        {
+          "minutes": 8,
+          "positions": {
+            "PG": "De'Aaron Fox",
+            "SG": "Tyrese Haliburton",
+            "SF": "Buddy Hield",
+            "PF": "Maurice Harkless",
+            "C": "Marvin Bagley III"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "De'Aaron Fox",
+            "SG": "Tyrese Haliburton",
+            "SF": "Buddy Hield",
+            "PF": "Marvin Bagley III",
+            "C": "Alex Len"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "De'Aaron Fox",
+            "SG": "Tyrese Haliburton",
+            "SF": "Harrison Barnes",
+            "PF": "Maurice Harkless",
+            "C": "Richaun Holmes"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "De'Aaron Fox",
+            "SG": "Tyrese Haliburton",
+            "SF": "Harrison Barnes",
+            "PF": "Marvin Bagley III",
+            "C": "Alex Len"
+          }
+        },
+        {
+          "minutes": 12,
+          "positions": {
+            "PG": "De'Aaron Fox",
+            "SG": "Buddy Hield",
+            "SF": "Harrison Barnes",
+            "PF": "Maurice Harkless",
+            "C": "Richaun Holmes"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Tyrese Haliburton",
+            "SG": "Buddy Hield",
+            "SF": "Harrison Barnes",
+            "PF": "Maurice Harkless",
+            "C": "Alex Len"
+          }
+        },
+        {
+          "minutes": 10,
+          "positions": {
+            "PG": "Tyrese Haliburton",
+            "SG": "Buddy Hield",
+            "SF": "Harrison Barnes",
+            "PF": "Marvin Bagley III",
+            "C": "Richaun Holmes"
+          }
+        }
+      ],
+      "unavailable": [
+        "Davion Mitchell",
+        "Terence Davis"
+      ],
+      "required_creator_any_of": [
+        "De'Aaron Fox",
+        "Tyrese Haliburton"
+      ],
+      "eligibility": {
+        "PG": [
+          "De'Aaron Fox",
+          "Tyrese Haliburton"
+        ],
+        "SG": [
+          "Tyrese Haliburton",
+          "Buddy Hield"
+        ],
+        "SF": [
+          "Buddy Hield",
+          "Harrison Barnes"
+        ],
+        "PF": [
+          "Maurice Harkless",
+          "Marvin Bagley III"
+        ],
+        "C": [
+          "Marvin Bagley III",
+          "Richaun Holmes",
+          "Alex Len"
+        ]
+      },
+      "minute_ceiling_design_only": 36,
+      "featured": [
+        "De'Aaron Fox"
+      ],
+      "core": [
+        "De'Aaron Fox",
+        "Tyrese Haliburton",
+        "Harrison Barnes"
+      ],
+      "conditions_ko": [
+        "S14A 두 마감 거래를 모두 보류한 대조 조건이다. 실제 거래 거절·추천·정본이 아니다.",
+        "위 8명의 등록·가용성, Mitchell 미출전, Queta0분을 추가 가정한다. Mitchell은 보고서상 Questionable이며 확정 Out이 아니다.",
+        "Metu의 2018 DAL 이후 방출·후속 등록 연쇄가 닫히지 않아 실제 SAC 출전을 자동 이식하지 않는다.",
+        "Fox/Haliburton/Hield/Barnes36분, Harkless PF28·Hield SF12는 설계 상한을 쓰는 비용 큰 스트레스안이다."
+      ]
+    },
+    {
+      "id": "ORL_0022100701",
+      "game_id": "0022100701",
+      "date": "2022-01-23",
+      "team": "ORL",
+      "status": "ROLE_HOLD",
+      "available_designated_primary_guards": [
+        "Cole Anthony"
+      ],
+      "minute_ceiling_design_only": 36,
+      "required_guard_minutes": 48,
+      "conditional_missing_guard_minutes": 12,
+      "unavailable": [
+        "Michael Carter-Williams",
+        "Markelle Fultz",
+        "Gary Harris",
+        "Jonathan Isaac",
+        "E'Twaun Moore",
+        "Terrence Ross"
+      ],
+      "conditions_ko": [
+        "G7 DB1 Mobley3/Herbert33와 Suggs DET·Hampton DAL·Carter CHI·Vucevic ORL/Nnaji Gordon A를 조건으로 한다.",
+        "1/23 실제 ORL 여섯 선수 결장 사유를 채택할 때 기존 지정 주 가드는 Cole뿐이다. Hampton의 실제 ORL 결장은 DAL 세계에 자동 적용하지 않는다.",
+        "36분 상한과 매분 지정 주 가드 규칙 아래 최소 12분이 부족하다. NBA 규정상 출전 불가 또는 ORL 전체 로스터 불능 판정이 아니다.",
+        "추가 가드의 등록/가용성 또는 다른 선수의 전개 역할을 먼저 지정한 뒤 5인 증명한다. 240분을 임의 충전하지 않는다."
+      ]
+    }
+  ],
+  "guardrails": {
+    "author_locked": false,
+    "season_selected": false,
+    "exact_execution_cleared": false,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "independent_review": "NOT_INDEPENDENT"
+  }
+}
