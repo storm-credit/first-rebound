@@ -57,6 +57,8 @@
 | 파급 | 접촉 경기→분/등록/계약/픽/플레이오프→다음 시즌 |
 | 종료 | 테스트·PR·State, 남은 HOLD, 게이트 플래그 |
 
-현재 시범은 로그인 복구 후 Anti-Gravity `RUN / NO_VERIFIED_EVIDENCE_PACK`, NotebookLM `RUN / THREE_SOURCES_WITH_CORRECTIONS`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md)과 [원자료 대조](../research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
+현재 시범은 로그인 복구 후 Anti-Gravity `RUN / NO_VERIFIED_EVIDENCE_PACK`, NotebookLM `RUN / SOURCE_LINKAGE_ONLY_WITH_CORRECTIONS`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md)과 [원자료 대조](../research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
 
 후속 O-15G15D에서 [NBA의 2021–22 공식 로스터 규칙과 투웨이 자리 조건](../research/O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md)을 대조했다. NotebookLM 작업실은 공식 규칙을 네 번째 출처로 추가하고 두 출처 한정 질문으로 2/2 자리 산술을 반환했다. Anti-Gravity의 같은 URL 요청은 headless 명령 권한 거부로 증거 0건 유지. 이전 세 출처 분석의 오류 교정과 G16/G17 구분은 그대로다.
+
+후속 O-15G15E에서 [10/16 명단을 대체세계 표준 자리와 대조](../research/O15G15E_ORLANDO_STANDARD_SLOT_BRIDGE.md)했다. Anti-Gravity의 구단 URL 읽기는 `ACCESS_FAILED`, NotebookLM의 같은 URL 소스 추가도 실패했다. NotebookLM에 **Codex 작성 G15E 문서 사본**을 다섯 번째 출처로 올려 NBA 공식 규칙과의 16/17명 산술만 재현했다. 공유 입력이므로 구단 명단의 독립 검증이나 Evidence Pack 증가로 표시하지 않는다.
