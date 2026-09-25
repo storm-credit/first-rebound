@@ -57,4 +57,4 @@
 | 파급 | 접촉 경기→분/등록/계약/픽/플레이오프→다음 시즌 |
 | 종료 | 테스트·PR·State, 남은 HOLD, 게이트 플래그 |
 
-현재 시범은 Anti-Gravity `ATTEMPTED / AUTH_BLOCKED / NO_EVIDENCE_PACK`, NotebookLM `RUN / LIMITED_SOURCES`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
+현재 시범은 로그인 복구 후 Anti-Gravity `RUN / NO_VERIFIED_EVIDENCE_PACK`, NotebookLM `RUN / THREE_SOURCES_WITH_CORRECTIONS`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md)과 [원자료 대조](../research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
