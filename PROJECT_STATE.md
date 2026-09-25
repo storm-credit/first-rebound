@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15 Suggs 개막 이전 공식 대학 기준선·ORL 가드12분 4안; 다음 동시대 신인 보정군·ORL 등록/240분 증명`
-- 최근 설계 변경: `G15 사실/산술/후보 분리와 Research/Verification Layer v2 시범 준비; G14 숫자16/8HOLD·실제시즌 미선택 유지`
+- 현재 작업: `O-15G15B 동시대 신인3명 민감도·DET4정책 반례·ORL240분2조건; 다음 DET 팀예산/ORL 날짜별 등록 감사`
+- 최근 설계 변경: `G15B 12 DET 스트레스 중 B14D 3 BUDGET_HOLD·ORL 수학적240분2증명; G14 숫자16/8HOLD·실제시즌 미선택 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -864,3 +864,11 @@ CHI3·DET1·SAC1의 조건부240분5인 증명5개, ORL 지정가드/36분규칙
 `control/RESEARCH_VERIFICATION_LAYER_V2.md`는 기존 조사·저장소 검증·독립 검수의 부속 절차와 Anti-Gravity/NotebookLM/총괄/Codex/Claude/source-blind 전용 지시를 고정했다. Anti-Gravity·NotebookLM·Claude·독립 source-blind 실행은 `NOT_RUN`이며 G16 전체 독립 검수와 G17 작가 승인을 대체하지 않는다. 다음은 시점이 맞는 신인 보정군, ORL 등록/가용성·기존 포워드 분과 5인240분 증명이다. 기존 82/1230행 재수집이나 CP2 재승인은 하지 않는다.
 
 전체1완료·6진행/남은 큰 작업6개. D1의 2020–21 정확 시즌, 2021–22 실제 시즌, 2022–23 계약/픽과 장기 커리어 확정은 미완료. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false` 유지.
+
+## O-15G15B — 세 신인 비교군·DET 공격기회·ORL 240분 수학 증명
+
+최신 후속 권위는 `simulation/CHICAGO_2021_22_G15B_REVIEW.md`, 결과 JSON·공식 출처 입력 JSON·재현 도구다. Cole Anthony·Tyrese Haliburton·Anthony Edwards의 2019–20 대학/2020–21 NBA 분당 FGA/3PA/FTA/TOV 비율을 개막 이전 데이터로 비교했다. Suggs의 조건부 DET24분 스트레스는 FGA8.202~9.963·FTA1.809~2.285·TOV1.692~2.039다. 세 명의 선택적 비교일 뿐 NBA 환산 예측·신뢰구간이 아니다.
+
+G14의 DET 역사적 선수 FTA13 예산에 재사용한 12 정책 스트레스는 B14A/B/C 각3숫자이나 수동 조정 표식 각9/7/10명, B14D는 3건 모두 `BUDGET_HOLD`다. 원시 FTA24.431~24.907과 예산13의 차이 때문에 G14의 DET4 `PRIOR_HOLD`를 해제하지 않는다. ORL은 Herbert PG12와 Gravett PG12의 두 4×12분 수학 증명(각 240분·개인≤36)을 검산했다. Herbert NBA 역할·G7 신인/기존 명단 등록, Gravett의 1/23 적법 계약·자리/급여, 전체 당일 가용성은 HOLD라 G14의 ORL4 `ROLE_HOLD`도 유지한다. O15B Okeke/O15D Cole48 수학 증명은 없다.
+
+다음은 DET 팀 예산 자체의 포제션/파울 인과와 ORL 2021 여름~2022-01-23 등록/가용성·Herbert 전개 비용 감사다. G14 원본·D1 정확 실행·시즌/계약/픽/승패는 변경하지 않았다. 자체 검토 `reviews/R01_O15G15B_SELF_REVIEW.md`, `NOT_INDEPENDENT`; Anti-Gravity/NotebookLM/Claude/source-blind 미실행. 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.

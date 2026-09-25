@@ -1,0 +1,83 @@
+{
+  "stage": "O-15G15B",
+  "opening_information_cutoff": "2021-10-19",
+  "scope": "DESCRIPTIVE_THREE_PLAYER_COLLEGE_TO_NBA_RATE_STRESS_NOT_PREDICTION",
+  "metrics": ["fga", "fg3a", "fta", "tov"],
+  "suggs": {
+    "name": "Jalen Suggs",
+    "college_season": "2020-21",
+    "college": {"minutes": 870, "fga": 308, "fg3a": 104, "fta": 114, "tov": 88},
+    "source": "https://gozags.com/sports/mens-basketball/stats/2020-21",
+    "conditional_det_minutes": 24
+  },
+  "comparators": [
+    {
+      "name": "Cole Anthony",
+      "selection_reason": "freshman lead guard; same historical Orlando organization, different injury and offensive role",
+      "college_season": "2019-20",
+      "college": {"minutes": 768, "fga": 345, "fg3a": 141, "fta": 128, "tov": 77},
+      "college_source": "https://goheels.com/sports/mens-basketball/stats/2019-20",
+      "nba_rookie_season": "2020-21",
+      "nba": {"minutes": 1273, "fga": 552, "fg3a": 172, "fta": 131, "tov": 106},
+      "nba_source": "https://magicweb.blob.core.windows.net/resources/communications/orlando-magic-media-guide-2024-25.pdf"
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "selection_reason": "sophomore pass-first guard; different creation burden and college role",
+      "college_season": "2019-20",
+      "college": {"minutes": 807, "fga": 244, "fg3a": 124, "fta": 45, "tov": 61},
+      "college_source": "https://cyclones.com/sports/mens-basketball/stats/2019/",
+      "nba_rookie_season": "2020-21",
+      "nba": {"minutes": 1746, "fga": 619, "fg3a": 296, "fta": 56, "tov": 92},
+      "nba_source": "https://cdn.nba.com/teams/uploads/sites/1610612758/2022/07/kings_media_guide_2021-22_FINAL.pdf"
+    },
+    {
+      "name": "Anthony Edwards",
+      "selection_reason": "freshman high-usage guard/wing and deliberate upper-role stress, not same team or role",
+      "college_season": "2019-20",
+      "college": {"minutes": 1057, "fga": 505, "fg3a": 245, "fta": 171, "tov": 87},
+      "college_source": "https://georgiadogs.com/sports/mens-basketball/stats/2019-20",
+      "college_minutes_note": "The official cumulative table reports 1057; a separate UGA PDF search rendering shows 1059:54. Use cumulative table and retain a minute-source sensitivity HOLD.",
+      "nba_rookie_season": "2020-21",
+      "nba": {"minutes": 2314, "fga": 1211, "fg3a": 520, "fta": 272, "tov": 160},
+      "nba_source": "https://cdn.nba.com/teams/uploads/sites/1610612750/2022/03/2021-22_Timberwolves_Media_Guide.pdf"
+    }
+  ],
+  "orlando": {
+    "game_id": "0022100701",
+    "date": "2022-01-23",
+    "historical_injury_source": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2022-01-23_05PM.pdf",
+    "historical_box_source": "https://www.nba.com/magic/game/0022100701",
+    "historical_gravett_contract_source": "https://www.nba.com/magic/orlando-magic-sign-ford-gravett-johnson-and-schofield-10-day-contracts-20211217",
+    "historical_schofield_contract_source": "https://www.nba.com/magic/orlando-magic-sign-admiral-schofield-two-way-contract-waive-mychal-mulder-20220105",
+    "herbert_predraft_role_source": "https://www.nba.com/draft/2021/prospects/herbert-jones",
+    "alternate_world_sources": ["simulation/NBA_2021_FULL_DRAFT_COMPARISON.md", "simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md"],
+    "minute_ceiling_design_only": 36,
+    "unavailable_if_historical_reasons_retained": ["Michael Carter-Williams", "Markelle Fultz", "Gary Harris", "Jonathan Isaac", "E'Twaun Moore", "Terrence Ross"],
+    "witnesses": [
+      {
+        "id": "O15A_HERBERT_INTERNAL",
+        "designated_primary_guards": ["Cole Anthony", "Herbert Jones"],
+        "status": "MINUTE_WITNESS_ONLY_ROLE_AND_REGISTRATION_HOLD",
+        "lineups": [
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Admiral Schofield", "SF": "Ignas Brazdeikis", "PF": "Evan Mobley", "C": "Nikola Vucevic"}},
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Admiral Schofield", "SF": "Herbert Jones", "PF": "Chuma Okeke", "C": "Nikola Vucevic"}},
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Herbert Jones", "SF": "Chuma Okeke", "PF": "Evan Mobley", "C": "Mo Bamba"}},
+          {"minutes": 12, "positions": {"PG": "Herbert Jones", "SG": "Admiral Schofield", "SF": "Ignas Brazdeikis", "PF": "Zeke Nnaji", "C": "Nikola Vucevic"}}
+        ]
+      },
+      {
+        "id": "O15C_GRAVETT_CONTRACT",
+        "designated_primary_guards": ["Cole Anthony", "Hassani Gravett"],
+        "status": "MINUTE_WITNESS_ONLY_GRAVETT_CONTRACT_AND_REGISTRATION_HOLD",
+        "lineups": [
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Admiral Schofield", "SF": "Herbert Jones", "PF": "Evan Mobley", "C": "Nikola Vucevic"}},
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Herbert Jones", "SF": "Ignas Brazdeikis", "PF": "Chuma Okeke", "C": "Nikola Vucevic"}},
+          {"minutes": 12, "positions": {"PG": "Cole Anthony", "SG": "Admiral Schofield", "SF": "Chuma Okeke", "PF": "Evan Mobley", "C": "Mo Bamba"}},
+          {"minutes": 12, "positions": {"PG": "Hassani Gravett", "SG": "Admiral Schofield", "SF": "Herbert Jones", "PF": "Zeke Nnaji", "C": "Nikola Vucevic"}}
+        ]
+      }
+    ],
+    "guardrails": {"author_locked": false, "season_selected": false, "exact_execution_cleared": false, "manuscript_allowed": false}
+  }
+}
