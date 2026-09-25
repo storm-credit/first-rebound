@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15D Orlando 2022-01-23 투웨이 자리·표준/하드십 조건 감사; 다음 날짜별 표준계약 점유표`
-- 최근 설계 변경: `G15D 공식 2021–22 15+2/active15/투웨이50경기 규칙 대조; G15B 두 240분 증명과 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
+- 현재 작업: `O-15G15E Orlando 2021 여름~2022-01-23 표준계약 자리 연결; 다음 Vučević/Aminu/여름 FA 분기별 날짜 원장`
+- 최근 설계 변경: `G15E 원역사 2021-10-16 표준15+투웨이1 대조; 대체 4대5 치환 시 조건부 16명, Gravett 추가 시 17명 반례. Vučević 승인은 2020–21에 한정. G15B·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
