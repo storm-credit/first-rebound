@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-13
+- 기준일: 2026-09-26
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15B 동시대 신인3명 민감도·DET4정책 반례·ORL240분2조건; 다음 DET 팀예산/ORL 날짜별 등록 감사`
-- 최근 설계 변경: `G15B 12 DET 스트레스 중 B14D 3 BUDGET_HOLD·ORL 수학적240분2증명; G14 숫자16/8HOLD·실제시즌 미선택 유지`
+- 현재 작업: `O-15G15D Orlando 2022-01-23 투웨이 자리·표준/하드십 조건 감사; 다음 날짜별 표준계약 점유표`
+- 최근 설계 변경: `G15D 공식 2021–22 15+2/active15/투웨이50경기 규칙 대조; G15B 두 240분 증명과 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -880,3 +880,7 @@ G14의 DET 역사적 선수 FTA13 예산에 재사용한 12 정책 스트레스�
 ## O-15G15C — CLI 로그인 복구·Orlando 계약 원역사 대조
 
 Anti-Gravity CLI 로그인은 복구됐고 읽기 전용 조사를 실제 실행했다. 다만 NBA 기사 본문과 PDF/통계 본문은 끝내 분석하지 못해 **검증된 Anti-Gravity 출처 팩 0건**이다. URL 추정은 기각했다. Codex가 공식 Orlando 2022–23 미디어 가이드 인쇄 230–231쪽을 직접 대조하고, NotebookLM 작업실에 해당 원문 한 쪽을 추가해 거래 연표를 분석했다. [계약 원역사 점검](research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md): Gravett·Schofield는 2021-10-16 방출, 12-17 및 12-27 하드십 10일 계약, Schofield는 2022-01-06 투웨이 전환. 이 연표와 부상 보고서만으로 Gravett의 가상 1/23 계약·등록·활동이나 Herbert PG12를 확정할 수 없다. NotebookLM의 명단 부재·계약 부재 확대 추론은 기각했다. O15A/O15C 및 G14 HOLD 유지. 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15D — 투웨이 2자리 조건부 점유·가드 추가 경로
+
+[공식 2021–22 로스터 규칙과 구단 거래 연표 대조](research/O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md)를 추가했다. 원역사의 Brazdeikis 투웨이(8/11), Mulder 투웨이(10/26), Mulder 방출·Schofield 투웨이(1/6)를 확인했다. 이 두 투웨이 계약을 대체세계에서도 유지하는 **조건**에서는 1/23 자리가 2/2라 G15B 동시 출전 증명에 Gravett를 세 번째 투웨이로 추가할 수 없다. 표준계약의 15명 점유, 하드십 예외 자격·리그 허가, Herbert 계약/활동, 실제 대체 ORL의 날짜별 전체 명단은 HOLD다. NotebookLM CLI로 규칙·거래 원문을 연결 분석했지만 독립 검수로 세지 않는다. Anti-Gravity CLI의 해당 규칙 조사도 권한 거부로 검증된 출처 팩은 0건 유지. 시즌/승패/계약/픽 확정 없음. 전체7개 중1완료·1진행·5대기, 진행 중 포함 남은6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
