@@ -101,3 +101,7 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 [G14 권위](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md)는 세 경기78관측행·상대17명1087전년도행을 연결한다. 조건부240분5증명과ORL12분 역할HOLD, 4정책24팀조건16숫자/8HOLD를 기록했다. 12양팀조건 중SAC의4만 양쪽숫자이며 선수TOV합계는 공식팀실책/포제션이 아니다. 역사적예산 통제비교를 예측·점수/승패로 승격하지 않는다.
 
 SAC두거래4조건 중S14A는 중립대조이며 최종추천/거절이 아니다. Hood T4 이후등록과Metu후속을HOLD로 남기고 Questionable을Out으로 고치지 않는다. 다음은 Suggs개막이전환산과ORL가드12분 대안이다. 신규11·기존22검사/재현PASS, NOT_INDEPENDENT·전체1완료/6진행·남은6개·v0.30 PARTIAL·설계/원고CLOSED 유지.
+
+### O-15G15B 후속 범위
+
+[G15B 민감도·두 분 증명](../simulation/CHICAGO_2021_22_G15B_REVIEW.md)은 Suggs 개막 이전 비교군3명의 단순 분당 비율과 DET12스트레스, ORL Herbert/Gravett 두 240분 수학 증명이다. B14D는3건 모두 FTA 예산 HOLD이고 나머지9건도 큰 조정 부담이 남는다. 두 ORL안의 등록/가용성·역할은 미확보. G14 숫자16/8HOLD·D1 정확 실행·실제 시즌/계약/픽·작가 선택은 그대로다. 다음은 DET 공통 예산 인과와 ORL 날짜별 등록 감사다.

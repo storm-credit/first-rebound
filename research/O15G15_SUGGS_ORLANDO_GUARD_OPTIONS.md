@@ -45,3 +45,7 @@ O15A/B는 실제 선수의 당일 볼 운반 능력을 증명한 판정이 아�
 4. 실제 점수·승수·시즌 선택·2022 계약/픽, D1의 2020–21 정확 실행, SAC S14B~D는 계속 HOLD.
 
 `PROJECT_FREEZE v0.30 PARTIAL`; 설계/원고 `CLOSED`; `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`.
+
+## O-15G15B 후속 권위
+
+[세 동시대 가드 민감도와 두 Orlando 240분 증명](../simulation/CHICAGO_2021_22_G15B_REVIEW.md)이 이 문서의 S15B·O15A/C 후보를 구체화했다. Herbert의 2021 드래프트 전 대학 주 전개 경험은 확인했지만 NBA 역할·등록·가용성은 HOLD다. 세 비교군은 예측 모형이 아니라 관측 스트레스이며 G14의 DET 4 `PRIOR_HOLD`·ORL 4 `ROLE_HOLD`를 바꾸지 않는다. O15B/D의 240분 증명은 없다.
