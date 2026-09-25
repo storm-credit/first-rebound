@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G14 세 경기 양팀분·공격기회24조건; 다음 Suggs 개막환산·ORL 가드12분`
-- 최근 설계 변경: `G14 관측78행·상대17prior/1087행·240분5증명·24팀정책16숫자/8HOLD; 실제시즌 미선택`
+- 현재 작업: `O-15G15 Suggs 개막 이전 공식 대학 기준선·ORL 가드12분 4안; 다음 동시대 신인 보정군·ORL 등록/240분 증명`
+- 최근 설계 변경: `G15 사실/산술/후보 분리와 Research/Verification Layer v2 시범 준비; G14 숫자16/8HOLD·실제시즌 미선택 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -856,3 +856,11 @@ CHI3·DET1·SAC1의 조건부240분5인 증명5개, ORL 지정가드/36분규칙
 신규11·기존22검사, G14/G13/G12/CP2 재현·별도해시시드·JSON/링크/공백검사를 완료했다. 자체검토 `reviews/R01_O15G14_PAIRED_OPPORTUNITY_REVIEW.md`, NOT_INDEPENDENT다. 다음은 Suggs 개막 이전 대학환산과 ORL12분 가드/전개자 대안이며 SAC후행거래는 해당 등록·자산회수 후 확장한다. 82/1230행 전량재수집·기존승인 재질문은 불필요하다.
 
 실제분/시즌선택0·D1정확실행미완료·독서16회차/실제Pack0/원고0. 전체1완료·6진행/남은큰작업6개·v0.30 PARTIAL·설계/원고CLOSED·author/season/exact/manuscript false를 유지한다.
+
+## O-15G15 — Suggs 개막 이전 기준선·Orlando 12분 대안·검증 레이어 v2
+
+`research/O15G15_SUGGS_ORLANDO_GUARD_OPTIONS.md`는 Gonzaga 공식 2020–21 통계로 Suggs의 30경기/870분, 308 FGA·104 3PA·114 FTA·88 TOV·136 AST를 확인하고 per36/24분 **산술 노출량**을 기록했다. NBA 환산 모델은 없으므로 G14의 DET `PRIOR_HOLD` 4건을 숫자로 바꾸지 않는다. Orlando는 내부 Herbert/Okeke 전개, 적법 등록 가드, Cole 상한 변경의 상호 배타적 네 정책을 비교했으며 G14의 12분 `ROLE_HOLD`와 240분 미증명은 유지한다. G7 DB1의 Franz GSW7을 확인해 ORL 자동 등록을 금지했다.
+
+`control/RESEARCH_VERIFICATION_LAYER_V2.md`는 기존 조사·저장소 검증·독립 검수의 부속 절차와 Anti-Gravity/NotebookLM/총괄/Codex/Claude/source-blind 전용 지시를 고정했다. Anti-Gravity·NotebookLM·Claude·독립 source-blind 실행은 `NOT_RUN`이며 G16 전체 독립 검수와 G17 작가 승인을 대체하지 않는다. 다음은 시점이 맞는 신인 보정군, ORL 등록/가용성·기존 포워드 분과 5인240분 증명이다. 기존 82/1230행 재수집이나 CP2 재승인은 하지 않는다.
+
+전체1완료·6진행/남은 큰 작업6개. D1의 2020–21 정확 시즌, 2021–22 실제 시즌, 2022–23 계약/픽과 장기 커리어 확정은 미완료. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false` 유지.
