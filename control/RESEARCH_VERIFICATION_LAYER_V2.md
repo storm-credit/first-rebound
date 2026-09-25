@@ -3,7 +3,7 @@
 - 상태: `READY_FOR_TRIAL / NOT_A_CANON_OR_GATE_REPLACEMENT`.
 - 적용 위치: `control/MASTER_WORKFLOW.md`의 조사와 변경 후 검증, `control/ORCHESTRATOR_WORKFLOW.md` R09–R16 사이. 기존 PR→main, 단일 권위, 사용자 확정, `DESIGN_GATE`의 G16/G17 순서를 유지한다.
 - 현재 시험 대상: O-15G15 Suggs 개막 이전 prior와 Orlando 12분. 과거 완료 원장을 전량 반복하지 않는다.
-- Anti-Gravity·NotebookLM·Claude 실행 결과는 아직 없다. 도구 출력이나 인포그래픽은 단독으로 정본의 근거가 되지 않는다.
+- [2026-09-26 CLI 시범](../reviews/O15G15_V2_CLI_PILOT_20260926.md): NotebookLM은 제한된 두 출처로 실행, Anti-Gravity는 두 번 시도했으나 출처 팩 없음. Claude 실행 결과는 아직 없다. 도구 출력이나 인포그래픽은 단독으로 정본의 근거가 되지 않는다.
 
 ## 단계·전용 책임·인수 기준
 
@@ -57,4 +57,4 @@
 | 파급 | 접촉 경기→분/등록/계약/픽/플레이오프→다음 시즌 |
 | 종료 | 테스트·PR·State, 남은 HOLD, 게이트 플래그 |
 
-현재 시범에서 Anti-Gravity·NotebookLM·Claude는 `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
+현재 시범은 Anti-Gravity `ATTEMPTED / NO_EVIDENCE_PACK`, NotebookLM `RUN / LIMITED_SOURCES`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
