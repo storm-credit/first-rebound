@@ -2,6 +2,8 @@
 
 이 문서는 `control/MASTER_WORKFLOW.md`를 실제 작업 단위로 실행하는 runbook이다. 단계의 정의가 충돌하면 Master Workflow가 우선한다.
 
+조사·검증의 선택적 세부 역할과 도구별 출력 계약은 `control/RESEARCH_VERIFICATION_LAYER_V2.md`를 따른다. 해당 레이어는 이 실행 순서나 정본/승인 게이트를 변경하지 않는다.
+
 ## 총괄 원칙
 
 - Root Orchestrator 한 명이 현재 게이트·정본·브랜치·승인을 소유한다.

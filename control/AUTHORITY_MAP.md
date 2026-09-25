@@ -10,6 +10,8 @@
 | CP2 설계 샘플 | `context-packs/CP2_DESIGN_VALIDATION_SAMPLES.json` | 파생·내용 해시, 정본 권위 없음 |
 | CP2 전체 검토 진입점 | `design/CP2_INTEGRATED_REVIEW_PACKET.md` | 조건부 연결·잔여 D1~D8 색인 |
 | 프로젝트 핵심 불변값 | `canon/PROJECT_FREEZE.md` | 사용자 승인 전 변경 금지 |
+| 조사·검증 레이어 v2 절차 | `control/RESEARCH_VERIFICATION_LAYER_V2.md` | 기존 워크플로·정본·G16/G17 대체 불가, 외부 도구 미실행은 NOT_RUN |
+| O-15G15 Suggs/Orlando 빈칸 조사 | `research/O15G15_SUGGS_ORLANDO_GUARD_OPTIONS.md` | 대학 기준선 VERIFIED, NBA 환산·ORL 240분 HOLD; G14 결과 변경 없음 |
 | 현재 진행 상태 | `PROJECT_STATE.md` | 대화가 아니라 이 파일 갱신 |
 | 결정 이력 | `DECISION_LOG.md` | 변경 추적 |
 | 인물·관계·성장 한계 | `canon/STORY_BIBLE.md` | 현재 초안 |
