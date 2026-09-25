@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15E Orlando 2021 여름~2022-01-23 표준계약 자리 연결; 다음 Vučević/Aminu/여름 FA 분기별 날짜 원장`
-- 최근 설계 변경: `G15E 원역사 2021-10-16 표준15+투웨이1 대조; 대체 4대5 치환 시 조건부 16명, Gravett 추가 시 17명 반례. Vučević 승인은 2020–21에 한정. G15B·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
+- 현재 작업: `O-15G15F Orlando 2021 여름 명단·33번 픽 분기 비용; 다음 Vučević/Aminu 실제 급여·날짜 원장과 1/23 선수별 등록`
+- 최근 설계 변경: `G15F 원역사 Lopez·Moritz·Moore 여름 계약과 ORL33→Clippers 2026 DET 2R+현금 대조; O15A 표준 -1/O15C -2 최소 비용 사건 후보. G15B·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
