@@ -876,3 +876,7 @@ G14의 DET 역사적 선수 FTA13 예산에 재사용한 12 정책 스트레스�
 ## O-15G15 v2 CLI 시범 — 도구 실행 상태 정정
 
 기존 G15B 판정 후 [CLI 실행 기록](reviews/O15G15_V2_CLI_PILOT_20260926.md)을 추가했다. Anti-Gravity CLI는 설치 확인 후 두 차례 시도했으나 권한 거부/시간 초과로 **출처 팩 0건**이다. 추가 진단 로그에는 CLI 로그인 없음 오류가 반복되어 `AUTH_BLOCKED`로 표시한다. NotebookLM CLI는 별도 비정본 작업실에서 NBA 2022-01-23 부상 보고서와 G15B 사본의 두 출처를 분석했다. 원역사 ORL 결장 7명과 Herbert/Gravett 조건부안의 계약·등록 증거 부재를 구분했으며, NBA 기사 URL 두 건은 업로드되지 않았다. NotebookLM의 가상 경기 박스스코어 요구는 부적절하여 기각한다. 이 시범은 G14 HOLD나 시즌/승패/계약/픽을 바꾸지 않는다. Claude/source-blind는 `NOT_RUN`; 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15C — CLI 로그인 복구·Orlando 계약 원역사 대조
+
+Anti-Gravity CLI 로그인은 복구됐고 읽기 전용 조사를 실제 실행했다. 다만 NBA 기사 본문과 PDF/통계 본문은 끝내 분석하지 못해 **검증된 Anti-Gravity 출처 팩 0건**이다. URL 추정은 기각했다. Codex가 공식 Orlando 2022–23 미디어 가이드 인쇄 230–231쪽을 직접 대조하고, NotebookLM 작업실에 해당 원문 한 쪽을 추가해 거래 연표를 분석했다. [계약 원역사 점검](research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md): Gravett·Schofield는 2021-10-16 방출, 12-17 및 12-27 하드십 10일 계약, Schofield는 2022-01-06 투웨이 전환. 이 연표와 부상 보고서만으로 Gravett의 가상 1/23 계약·등록·활동이나 Herbert PG12를 확정할 수 없다. NotebookLM의 명단 부재·계약 부재 확대 추론은 기각했다. O15A/O15C 및 G14 HOLD 유지. 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
