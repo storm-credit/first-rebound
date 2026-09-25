@@ -875,4 +875,4 @@ G14의 DET 역사적 선수 FTA13 예산에 재사용한 12 정책 스트레스�
 
 ## O-15G15 v2 CLI 시범 — 도구 실행 상태 정정
 
-기존 G15B 판정 후 [CLI 실행 기록](reviews/O15G15_V2_CLI_PILOT_20260926.md)을 추가했다. Anti-Gravity CLI는 설치 확인 후 두 차례 시도했으나 권한 거부/시간 초과로 **출처 팩 0건**이다. NotebookLM CLI는 별도 비정본 작업실에서 NBA 2022-01-23 부상 보고서와 G15B 사본의 두 출처를 분석했다. 원역사 ORL 결장 7명과 Herbert/Gravett 조건부안의 계약·등록 증거 부재를 구분했으며, NBA 기사 URL 두 건은 업로드되지 않았다. NotebookLM의 가상 경기 박스스코어 요구는 부적절하여 기각한다. 이 시범은 G14 HOLD나 시즌/승패/계약/픽을 바꾸지 않는다. Claude/source-blind는 `NOT_RUN`; 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+기존 G15B 판정 후 [CLI 실행 기록](reviews/O15G15_V2_CLI_PILOT_20260926.md)을 추가했다. Anti-Gravity CLI는 설치 확인 후 두 차례 시도했으나 권한 거부/시간 초과로 **출처 팩 0건**이다. 추가 진단 로그에는 CLI 로그인 없음 오류가 반복되어 `AUTH_BLOCKED`로 표시한다. NotebookLM CLI는 별도 비정본 작업실에서 NBA 2022-01-23 부상 보고서와 G15B 사본의 두 출처를 분석했다. 원역사 ORL 결장 7명과 Herbert/Gravett 조건부안의 계약·등록 증거 부재를 구분했으며, NBA 기사 URL 두 건은 업로드되지 않았다. NotebookLM의 가상 경기 박스스코어 요구는 부적절하여 기각한다. 이 시범은 G14 HOLD나 시즌/승패/계약/픽을 바꾸지 않는다. Claude/source-blind는 `NOT_RUN`; 전체1완료·6진행/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
