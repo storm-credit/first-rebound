@@ -1036,3 +1036,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-P — D1 종료 묶음과 다음 실행
 
 [D1 종료 묶음](simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)은 이미 있는 K1/L2·CP2 잠정 결산을 완료 입력으로 고정하고 F1~F5 전체 PASS 0/5, A1~A3 최종 채택 0/3, 네 K 종료 0/4를 한 표에 묶었다. 각 정확 필드의 최소 판정과 미확보 시 **열린** `HOLD`를 명시했다. 동일 근거 반복 수집을 멈추되 게이트를 면제하지 않는다. 새 거래일 근거가 없는 동안 CP2가 허용한 **D2 2021 선수·계약 조건부 경로**에서 잠정 #10/#39·백업 C 취득·Caruso 예외 순서를 연결한다. D1 정확 시즌·계약·최종 픽·작가확정은 0건이다. 7개 매크로 게이트 1완료·1진행·5대기, 진행 중 포함 남은 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8A — D2 취득 시각의 1차 근거 대조
+
+[G8 계약 순서](simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md)에 NBA FA 협상·서명 가능일, 실제 Chicago의 Caruso 8/10 발표와 Bradley·Green·Dotson 8/19 발표를 대조했다. 구단 공지는 계약 금액이나 대체 세계의 서명·동의를 인증하지 않는다. Bradley의 2차 계약표 `8/11`과 구단 발표 `8/19`도 서로 다른 의미로 보존했다. 기존 DB1/C39A의 #10 Duarte·#39 Wieskamp, Bradley, Caruso SQ1은 **조건부 주 경로**로 유지하고 실제 계약·최종 지명 `HOLD`. Green 잔류는 D1 F1 거래 실행에 종속된다. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
