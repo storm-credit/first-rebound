@@ -1048,3 +1048,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8C — Markkanen 잔류/이탈의 가격과 분 시험
 
 [G8C 네 경로](simulation/CHICAGO_2021_MARKKANEN_OFFER_STRESS.md)는 기존 G1A, 가상 4년 $76.16m·PF32분 강화안, 1년 QO, G1B형 이탈을 분리했다. 강화안은 기존 Markkanen 예산보다 2021–22 +$1,309,091·2022–23 +$1,884,546이며 G3 상단 $108,171,174와 G8 RT1 한 조건 $148,806,968, 정상일 다섯 포지션 각48분을 재계산했다. 이는 선수의 수락·계약·실전 5인 조합이 아니며 2023–25 팀 전체 비용도 미완료. 기존 G1A 추천·`G1A_CONSENT_HOLD`, D1/D2 정확 실행, CP2 잠정 픽은 그대로다. 7개 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8D — Markkanen 계약연도 역할 재검산
+
+[G8D 분 원장](research/O15G8D_MARKKANEN_CONTRACT_YEAR_ROLE_AUDIT.md)은 전반 23경기·41,429초와 후반 K1 `PORTER_ZERO` 최소 변경 후보 28경기·36,899초를 연결했다. 합계는 조건부 51경기·26선발·78,328초(1,305:28)로 원역사 관측 79,046초보다 **718초 적다**. 최초 후반 용량표의 0분 차이를 K1 입력으로 오인하지 않도록 F9 코드 경로를 대조했다. 공격 기회와 선수 만족도는 미배정이므로 G1A의 2020–21 역할 확대 주장은 미입증이다. G8C M1 PF32분은 향후 제안 후보이고 선수 수락은 `null`; `G1A_CONSENT_HOLD`와 D1 정확 시즌/계약, CP2 잠정 픽은 유지한다. 새 외부 원문 없이 내부 산술만 재검산했다. 전반·후반 Node 원장 PASS, Python 저장 증명은 Windows `CRLF` 해시 관문에서 중단; Antigravity·NotebookLM `NOT_RUN`, Claude 출력 없음, source-blind `NOT_RUN`. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
