@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15N Orlando 2021–22 공통 계약 8명의 원역사 cap hit를 선수별 분리·조건부 부분합 검산; 다음 Lopez·Moritz·Moore 계약/FA hold와 Herbert33 required tender, Bacon/Aminu 비용 사건 연결`
-- 최근 설계 변경: `공통 8명 조건부 charge 부분합 $84,477,366, Vučević+Aminu 보유 가정의 10계약 부분합 $118,661,166을 기록. 대체 Nnaji는 2020 #24 선택·120% 서명 가정일 때 2년차 $2,303,040 후보로, 원역사 #22 Nnaji $2,498,760 복사 금지. 전체 팀 샐러리/캡 판정 HOLD; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15O Orlando 2021 FA 3명 원역사 서명 비용과 선행 cap hold 팀을 분리; 다음 Moritz 실제 QO/renounce, 대체 예외 경로, Herbert33 tender 및 Bacon/Aminu 비용 사건 연결`
+- 최근 설계 변경: `Lopez·Moritz·Moore 모두 원역사식 서명 시 2021–22 charge 부분합 $8,398,395, G15N 공통 8명까지 조건부 11계약 $92,875,761. Lopez/WAS·Moore/PHX 선행 hold를 Orlando에 전가 금지; Moritz ORL 선행 hold $1,669,178 후보와 새 charge $1,729,217 중복 금지. NBA UFA/비공식 RFA 표기 충돌 HOLD. 전체 팀 샐러리/캡 판정 HOLD; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
