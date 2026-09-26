@@ -1,6 +1,6 @@
 # O-15G15AN — Detroit 8/6 FA 범위·McGruder 웨이버·예외 차지 분기
 
-- 시작 권위: `main` `806a007`, [G15AK 권리/웨이버 날짜](O15G15AK_DETROIT_AUG6_RIGHTS_AND_WAIVER_TIMING.md)·[G15AL Olynyk 직전 원장](O15G15AL_DETROIT_PRE_OLYNYK_ROSTER_CHARGE_SEQUENCE.md). 판정: `KNOWN_FA_NAMES_NARROWED / WAIVER_CAP_EFFECT_HOLD / EXCEPTION_RENOUNCE_HOLD / P0_B_SAME_ROUTE_HOLD`.
+- 시작 권위: `main` `806a007`, [G15AK 권리/웨이버 날짜](O15G15AK_DETROIT_AUG6_RIGHTS_AND_WAIVER_TIMING.md)·[G15AL Olynyk 직전 원장](O15G15AL_DETROIT_PRE_OLYNYK_ROSTER_CHARGE_SEQUENCE.md). [G15AP Lee 홀드 정정](O15G15AP_SABEN_LEE_HOLD_AND_SEQUENCE_CORRECTION.md)을 인원·산술에 반영했다. 판정: `KNOWN_FA_NAMES_NARROWED / WAIVER_CAP_EFFECT_HOLD / EXCEPTION_RENOUNCE_HOLD / P0_B_SAME_ROUTE_HOLD`.
 - `PROJECT_FREEZE v0.30 PARTIAL`; 설계/원고 `CLOSED`, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`. 신규 작가확정 0건. Chicago 2020–21 정확 시즌이 현재 진행 중인 시즌이고, Detroit 2021–22는 **조건부 미래 분기**다.
 
 ## 1. 드래프트 직전 명단의 범위와 8월 변환
@@ -24,12 +24,12 @@
 
 | Olynyk 직전 조건부 원장 | 원역사 후보 | P0-B 후보 |
 |---|---:|---:|
-| 구계약 `$5m` 제거, McGruder 인원 제외 | 10명·미충원2, 소계 `$95,844,426`, 여지 `$16,569,574` | 11명·미충원1, 소계 `$100,052,228`, 여지 `$12,361,772` |
+| 구계약 `$5m` 제거, McGruder 인원 제외 | 11명·미충원1, 소계 `$95,844,426`, 여지 `$16,569,574` | 12명·미충원0, 소계 `$100,052,228`, 여지 `$12,361,772` |
 | **이 경우 Olynyk `$12,195,122` 서명 직전 여지** | **`+$4,374,452`** | **`+$166,650`** |
-| 구계약 `$5m` 유지, McGruder 인원 포함 | 11명·미충원1, 소계 `$99,919,168`, 여지 `$12,494,832` | 12명·미충원0, 소계 `$104,126,970`, 여지 `$8,287,030` |
-| **이 경우 Olynyk 서명 직전 여지** | **`+$299,710`** | **`-$3,908,092`** |
+| 구계약 `$5m` 유지, McGruder 인원 포함 | 12명·미충원0, 소계 `$99,919,168`, 여지 `$12,494,832` | 13명·미충원0, 소계 `$105,052,228`, 여지 `$7,361,772` |
+| **이 경우 Olynyk 서명 직전 여지** | **`+$299,710`** | **`-$4,833,350`** |
 
-구계약 유지 분기가 제거 분기보다 Team Salary를 `$5m−$925,258=$4,074,742` 높이는 이유는 **McGruder 1명을 세면 미충원 차지 1개가 사라지기 때문**이다. Olynyk 서명 뒤의 차지 제거까지 포함한 네 잔여값은 [JSON](O15G15AN_DETROIT_WAIVER_AND_EXCEPTION_BRANCHES.json)과 [검사기](../tools/check_o15g15an_detroit_waiver_branches.py)에 있다. 어느 쪽도 실제 전체 Team Salary가 아니다. 팀이 요청 뒤 `$5m`은 제거하면서 선수가 §4(f) 인원에는 잠시 남는 제3 처리도 여기서는 입증하지 못해 모델 밖이다.
+원역사 후보에서는 McGruder를 추가할 때 마지막 미충원 차지 하나가 빠져 소계가 `$5m−$925,258=$4,074,742` 높아진다. **P0-B 후보는 Lee FA Amount를 센 순간 이미 12명이므로** McGruder를 추가해도 차지 감소가 없고 소계가 `$5m` 그대로 높아진다. Olynyk 서명 뒤의 네 잔여값은 [JSON](O15G15AN_DETROIT_WAIVER_AND_EXCEPTION_BRANCHES.json)과 [검사기](../tools/check_o15g15an_detroit_waiver_branches.py)에 있다. 어느 쪽도 실제 전체 Team Salary가 아니다. 팀이 요청 뒤 `$5m`은 제거하면서 선수가 §4(f) 인원에는 잠시 남는 제3 처리도 여기서는 입증하지 못해 모델 밖이다.
 
 ## 3. 다른 홀드와 예외가 작은 여지를 덮을 수 있음
 
