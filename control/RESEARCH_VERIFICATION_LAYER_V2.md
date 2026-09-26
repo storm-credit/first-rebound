@@ -63,7 +63,7 @@
 | 파급 | 접촉 경기→분/등록/계약/픽/플레이오프→다음 시즌 |
 | 종료 | 테스트·PR·State, 남은 HOLD, 게이트 플래그 |
 
-현재 시범은 로그인 복구 후 Anti-Gravity `RUN / NO_VERIFIED_EVIDENCE_PACK`, NotebookLM `RUN / SOURCE_LINKAGE_ONLY_WITH_CORRECTIONS`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md)과 [원자료 대조](../research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md) 참조. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
+G15F까지의 시범 상태는 로그인 복구 후 Anti-Gravity `RUN / NO_VERIFIED_EVIDENCE_PACK`, NotebookLM `RUN / SOURCE_LINKAGE_ONLY_WITH_CORRECTIONS`, Claude `NOT_RUN`; Codex 조사/저장소 감사와 총괄의 후보 분리는 `IN_PROGRESS`; source-blind 독립 검수는 `NOT_RUN`이었다. [실행 기록](../reviews/O15G15_V2_CLI_PILOT_20260926.md)과 [원자료 대조](../research/O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md) 참조. 뒤의 G15H 제한 검토와 결과물 단독 검수는 아래에 시간순으로 기록한다. 이 표시는 검수 횟수나 G16 PASS를 부풀리지 않는다.
 
 후속 O-15G15D에서 [NBA의 2021–22 공식 로스터 규칙과 투웨이 자리 조건](../research/O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md)을 대조했다. NotebookLM 작업실은 공식 규칙을 네 번째 출처로 추가하고 두 출처 한정 질문으로 2/2 자리 산술을 반환했다. Anti-Gravity의 같은 URL 요청은 headless 명령 권한 거부로 증거 0건 유지. 이전 세 출처 분석의 오류 교정과 G16/G17 구분은 그대로다.
 
@@ -72,3 +72,9 @@
 [MCP/URL 재시험](../reviews/O15G15_V2_CLI_PILOT_20260926.md)에서 Anti-Gravity → NotebookLM MCP 호출은 실제 성공했다. 공식 Google 제품 페이지는 `read_url_content`가 저장한 파일을 `view_file`로 잇자 읽혔다. Orlando NBA 기사는 자바스크립트 HTML만 회수되어 명단 본문을 읽지 못했다. NotebookLM에서 이미 수집한 NBA 규칙의 MCP 재조회는 **연결 시험**이며 별도 독립 Evidence Pack이 아니다. 현 단계는 `AG_MCP_CONNECTED / NBA_DIRECT_SOURCE_HOLD`다.
 
 [G15G 후속](../research/O15G15G_AMINU_DEROZAN_CAUSAL_LEDGER.md)에서는 Anti-Gravity의 공식 PDF 읽기가 headless `command` 권한 거부, Bulls 기사 본문 읽기가 `ACCESS_FAILED`였다. NotebookLM CLI에는 NBA 공식 오프시즌 거래 원장 URL을 새로 추가해 8/11 DeRozan 거래의 선수·픽을 출처 제한 질의로 분석했다. 도구들이 같은 원문을 읽은 결과를 독립 원자료로 중복 계수하지 않으며 Anti-Gravity 직접 NBA Evidence Pack은 여전히 0건이다.
+
+[G15H 자리 증명](../research/O15G15H_ORLANDO_DATED_REGISTRATION_WITNESS.md)은 G15B JSON의 양수 분 집합을 이름별 표준/투웨이 가정과 대조한다. NotebookLM은 로스터 규칙과 부상 보고서 두 지정 출처를 분석했지만 시간 표기를 한 번 잘못 병기해 원문으로 교정했다. Anti-Gravity는 NBA 거래 원장의 출처 위치와 자산을 반환했으나 로스터 규칙 페이지는 `read_url_content`→`view_file` 후에도 본문을 판독하지 못했다. 결과가 성공한 URL 하나를 다른 NBA URL 전체의 접근 보장으로 확대하지 않는다.
+
+[Claude 제한 검토](../reviews/R01_O15G15H_CLAUDE_LIMITED_REVIEW.md)는 넓은 반증 요청이 시간 초과로 미완료였고, 좁은 G15H 산술 검토만 종료했다. 지적을 수용해 계약 자리·의료 분기를 분리했으며 최소 명단 14/15 적용은 HOLD다. 이 시점은 `CLAUDE_LIMITED_RUN`이고 source-blind는 아직 `NOT_RUN`이었다. G16/G17 PASS가 아니다.
+
+[결과물 단독 맹점 검수](../reviews/R02_O15G15H_SOURCE_BLIND_REVIEW.md)도 실행했다. 의료 이월 편의, Lopez/Moritz 실존 선수 비용, Orlando 리그 인과를 지적했고 문서에 선택 전 조건을 보강했다. Hampton 삭제 의심은 Dallas 31번 정본으로 기각했다. 상태는 `SOURCE_BLIND_EDITORIAL_RUN`이며 원문을 독립 검증한 G16 PASS가 아니다.

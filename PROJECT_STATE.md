@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15G Aminu 2021 여름 경로와 Chicago–Spurs DeRozan 거래 의존성; 다음 Vučević/Aminu 날짜별 계약·급여·처분과 1/23 선수별 등록`
-- 최근 설계 변경: `G15E 10/16형 표준 16/17명 초과, G15F Lopez·Moritz·Moore 및 ORL33 픽 비용, G15G Aminu의 8/11 DeRozan 원거래 불가 조건을 대조. 새 이동·시즌·정확 실행은 미선택, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15H Orlando 2021-10-16~2022-01-23 조건부 등록 자리 증명; 다음 Aminu/Vučević·Lopez/Moritz 계약·급여 사건과 1/23 의료·활동`
+- 최근 설계 변경: `G15H에서 Aminu 10/16 전 처분 조건의 O15A 표준15+투웨이2에 G15B 양수 분 9명 전원 포함, O15C는 Gravett 신규 표준계약에 추가 1자리 사건 필요. 계약·의료·역할 미검증, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -892,3 +892,9 @@ Anti-Gravity CLI 로그인은 복구됐고 읽기 전용 조사를 실제 실행
 [G15G](research/O15G15G_AMINU_DEROZAN_CAUSAL_LEDGER.md)는 원역사의 8/11 DeRozan 사인앤트레이드가 Aminu·Young·1R·2R 두 장을 Spurs에 보낸 사실을 공식 NBA 거래 원장과 구단 발표로 대조했다. T2의 Orlando Vučević 2020–21 말까지 잔류는 Chicago가 3월 원거래로 Aminu를 얻었다는 뜻이 아니며, G8의 Young 유지 조건부 예산도 원거래를 자동 재현하지 않는다. Aminu를 10/16 전에 Orlando에서 한 명 처분하면 O15A의 **수량만** 15가 되지만 O15C는 16명으로 남는다. 날짜·새 팀·급여/보상·1/23 등록은 HOLD다.
 
 Anti-Gravity CLI는 절대 경로에서 버전/모델 서비스 조회가 정상이고 Anti-Gravity→NotebookLM MCP 실제 호출은 통과했다. 이번 공식 PDF/기사 직접 읽기는 권한 거부/본문 접근 실패로 독립 NBA Evidence Pack이 여전히 0건이다. NotebookLM CLI는 새 NBA 거래 원장 URL을 추가하고 해당 출처만으로 8/11 자산을 연결 분석했다. Claude/source-blind는 `NOT_RUN`, G16 독립 검수나 G17 작가 승인을 대체하지 않는다. 전체7개 중1완료·1진행·5대기, 진행 중 포함 남은6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15H — Orlando 이름 있는 날짜별 자리 증명
+
+[G15H 원장](research/O15G15H_ORLANDO_DATED_REGISTRATION_WITNESS.md)은 G15B 양수 분 선수 9/10명을 G15E의 조건부 표준 15명·투웨이 2명에 직접 대조했다. Aminu의 10/16 전 처분이 실제 사건으로 성립하고 공통 11명+Vučević/Nnaji/Mobley/Herbert가 표준 계약을 맺는 조건에서 O15A 9명은 이름 집합에 모두 들어간다. 원역사 1/23 Orlando `Out` 7명 중 이 대체 명단에 겹치는 6명을 **추가로 이월하는 경우에만** 표준 9명+투웨이 2명의 잠재 집합이다. O15C의 Gravett는 단순 추가 시 표준 16명이라 Lopez 비영입 또는 Moritz 비재계약 같은 추가 한 자리 사건과 새 1/23 계약이 필요하다. 이는 수량·부분집합 증명이지 계약·의료·활동·NBA PG 역할 통과가 아니다.
+
+NotebookLM CLI는 규칙·부상 보고서 두 기존 출처만 지정해 교차 분석했고 시간 표기의 `05:00 PM` 오류는 원문 `05:30 PM`으로 교정했다. Anti-Gravity CLI는 NBA 거래 원장의 8/11 절 정보를 반환했지만 규칙 URL은 도구 호출 후 본문 판독 실패였다. [Claude 제한 반증 검토](reviews/R01_O15G15H_CLAUDE_LIMITED_REVIEW.md)는 최초 광범위 요청이 시간 초과, 후속 G15H 산술 감사가 완료돼 확실한 산술 오류 0건이었다. [결과물 단독 맹점 검수](reviews/R02_O15G15H_SOURCE_BLIND_REVIEW.md)는 의료 이월·실존 선수 비용·리그 인과의 표현을 지적해 G15H에 반영했다. 14명 최소 규정과 하드십·실제 의료는 HOLD다. 두 검수를 G16 독립 검수 완료로 세지 않는다. 공유 자료를 독립 출처로 중복 계수하지 않는다. 다음은 Aminu/Vučević의 2021–22 계약 소유·급여 charge, Lopez/Moritz의 이름 있는 사건 비용과 Herbert/Mobley/Nnaji 서명·당일 활동 검증이다. G14 HOLD·시즌/정확 실행 미선택, 전체7개 중1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
