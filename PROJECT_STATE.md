@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AJ Detroit 8/6 실명 급여 부분합·RFA QO charge와 P0-B 대체 신인/Plumlee 순차이를 조건부 검산; 다음 전체 Team Salary·8/6 계약/권리 시점·이름 있는 cap 이탈 거래·8/10 Joseph 예외·Nets 대체 실행 회수`
+- 현재 작업: `O-15G15AK Detroit 8/6 Smith/Ellington 권리 포기·McGruder 웨이버와 Diallo/Frank QO 날짜 경계를 복구; 다음 전체 Team Salary·계약/웨이버 효력 시각·실명 cap 이탈 거래·8/10 Joseph 예외·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -980,3 +980,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AJ — Detroit 8/6 실명 급여 부분합
 
 [G15AJ 원장](research/O15G15AJ_DETROIT_AUG6_NAMED_SALARY_LEDGER.md)은 원역사 기존 7계약·방출 잔액 5건·추가 5건과 Diallo/Frank QO 또는 계약 분기를 분리했다. 2020 정본 Patrick7/Kira16과 **미선택** Suggs5의 120% 신인 급여/홀드, Plumlee 잔류, 다른 사건 동일을 가정하면 8/6 실명 소계 차이는 `+$5,133,060`. 가장 가벼운 분기도 대체 소계의 캡 아래 여지가 `$64,759`뿐이고, Diallo QO 존속 시 대체 실명 소계 초과 후보는 `$2,015,067`이다. [산술 검사기](tools/check_o15g15aj_detroit_salary.py)는 부분합만 재현한다. [도구별 검토](reviews/R01_O15G15AJ_SALARY_CLI_AND_BLIND.md)는 AG 공식 cap 기사 답변, NLM CBA 요약의 규칙 불충분, Claude 결과물 단독 반증을 분리한다. 이 수치는 완전 Team Salary·실제 부족액·작가확정이 아니다. 8/6 권리/서명 시점·다른 홀드/예외, 실명 cap 거래, 8/10 Joseph 자격, 9월 Nets 수락, G16/G17은 `HOLD`; 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AK — Detroit 8/6 권리·웨이버 날짜 좁히기
+
+[G15AK 시간 경계](research/O15G15AK_DETROIT_AUG6_RIGHTS_AND_WAIVER_TIMING.md)는 원역사 8/6 Smith/Ellington 자유계약 권리 포기, McGruder 웨이버와 재서명, Cook 7/31 비보장 방출을 거래 로그·계약표에서 분리한다. Detroit 구단의 8/12 기사상 Diallo는 아직 미서명 RFA라 8/6 QO 존속이 우선 조사할 추론이지만 리그 접수 문서 부재로 후보 유지. Frank는 2차 계약표 8/6과 두 거래 로그 8/10이 충돌해 8/10을 작업가설로 두되 `$1.93935m` QO 대 `$3m` 서명 행을 모두 남긴다. 투웨이 출신이라도 2017 CBA상 다음 시즌 투웨이 자격이 없으면 표준 QO가 가능하다는 규칙을 확인했다. [도구별 검토](reviews/R01_O15G15AK_RIGHTS_CLI_AND_BLIND.md)는 Antigravity 구단 기사 실패, NotebookLM 기존 NBA QO 기사 한 출처 날짜 제한 분석, Codex 직접 구단·CBA 대조와 Claude 문서 단독 반증을 구분한다. G15AJ 부분합을 전체 Team Salary로 승격하지 않는다. 실명 cap 거래·8/10 Joseph 자격·Nets/Charlotte·G16/G17 `HOLD`, 신규 작가확정 0건, 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
