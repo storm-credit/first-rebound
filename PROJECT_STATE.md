@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AL Detroit 8/6 Olynyk 전 미충원 차지와 서명 순서 민감도 조건부 원장; 다음 전체 Team Salary·계약/웨이버 효력 시각·실명 cap 이탈 거래·8/10 Joseph 예외·Nets 대체 실행 회수`
+- 현재 작업: `O-15G15AM Antigravity CLI 읽기 전용 NBA 공식 기사 수집 복구; 다음 Detroit 전체 Team Salary·계약/웨이버 효력 시각·실명 cap 이탈 거래·8/10 Joseph 예외·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -988,3 +988,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AL — Detroit 8/6 Olynyk 전 미충원 차지와 서명 순서
 
 [G15AL 조건부 원장](research/O15G15AL_DETROIT_PRE_OLYNYK_ROSTER_CHARGE_SEQUENCE.md)은 2017 CBA §4(f)의 오프시즌 12명 미달 차지를 G15AJ **사건 후 소계와 다른 시점**에 적용했다. 선택하지 않은 P0-B Suggs5·Plumlee 잔류·Patrick7/Kira16, Frank/Diallo QO 존속, 권리 포기/웨이버 선행, 2차 급여표를 모두 가정하면 Olynyk 전 11명·미충원 한 자리, 조건부 Team Salary `$100,052,228`, 명목 잔여 `$12,361,772`다. Olynyk `$12,195,122` 먼저면 계약 직전 여지 `$166,650`·서명 후 미충원 차지 제거까지 반영한 잔여 `$1,091,908`; Lyles 먼저면 Olynyk 직전 `$1,408,092` 부족이다. 방출 잔액 표만 바꾸어도 Olynyk 먼저 분기가 `$36,921` 부족으로 뒤집혀 **실제 캡룸/동일 사건 실행 판정은 HOLD**다. [검사기](tools/check_o15g15al_detroit_roster_charge.py)는 G15AJ와 조건부 산술만 대조하고 [도구·제한 반증 기록](reviews/R01_O15G15AL_ROSTER_CHARGE_CLI_AND_BLIND.md)은 Antigravity 직접 증거0·NotebookLM 요약 소스 부재 확인·Claude 문서 단독 지적을 구분한다. 다음은 NBA 계약 접수 순서·완전 Team Salary·나머지 같은 날 계약과 8/10 Joseph 예외, 필요시 이름 있는 cap 이탈 거래다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 `HOLD`; 신규 작가확정 0건, 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15G15AM — Antigravity 직접 기사 읽기 복구
+
+[G15AM 실행 기록](reviews/O15G15AM_ANTIGRAVITY_READONLY_RECOVERY.md)은 별도 Antigravity CLI 재시험에서 `read_url_content→view_file` 이벤트와 저장된 NBA cap 기사 본문을 확인했다. 공개 기사 읽기는 성공했으며 `$112.414m` cap·`$4.910m` room MLE가 원문과 맞는다. G15AL의 headless `RunCommand` 거부는 해당 호출의 실패로 그대로 남긴다. 동일 공식 기사의 재접근을 독립 원자료나 Detroit 전체 cap 검증으로 부풀리지 않는다. 전역 명령 허용 설정과 정본/게이트는 변경하지 않았다. 다음은 같은 읽기 전용 경로로 남은 원문을 회수해 전체 Team Salary·서명 순서·실명 거래를 검증한다. 전체 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
