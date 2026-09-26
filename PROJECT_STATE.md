@@ -944,3 +944,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AA — Detroit Hayes 세 번째 이탈
 
 [G15AA 정정](research/O15G15AA_DETROIT_HAYES_THIRD_EXIT_AND_MEDICAL_BOUNDARY.md)은 G15Y의 원역사 Detroit Bey+Cade 두 행에 **Hayes `24:42`·5 FGA·8점**을 추가했다. 2020 작가확정은 Bey DEN22·Hayes NOP13이므로 두 선수 원역사 Detroit 행 합 `55:24`·16 FGA·19점이 이탈한다. 2021 DB1의 Cade CHA1 후보까지 적용하는 분기는 세 행 `91:38`·31 FGA·37점이며 모두 **원역사 관측 행의 합**일 뿐 대체 Detroit 목표 분/득점이 아니다. 원역사 Detroit Hayes의 Available/고관절, Chicago Patrick 손목, New Orleans Kira ACL/MCL 의료 상태를 이동한 선수의 새 팀에 복사하지 않는다. 다음은 대체 Detroit의 날짜별 계약/가용성·가드 분·공격 예산과 New Orleans Hayes 경로다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 `HOLD`; 신규 작가확정 0건. 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AB — Detroit 1/23 원역사 전체 박스 기준선
+
+[G15AB](research/O15G15AB_DETROIT_JAN23_ORIGINAL_BOX_AND_BRANCH_BOUNDARY.md)은 NBA 공식 페이지 내장 박스의 13행을 [JSON](simulation/NBA_2022_01_23_DET_ORIGINAL_BOX.json)으로 보존하고 [검증기](tools/check_o15g15ab_detroit_box.py)로 원역사 **10명 출전+3명 DNP, 240:00/75 FGA/19 FTA/111점/22 TOV**를 재현했다. 2020 확정 Bey+Hayes 이탈은 `55:24/16 FGA/19점/6 TOV`, DB1 Cade CHA1까지 조건부 적용하면 세 명 `91:38/31 FGA/37점/12 TOV`다. 나머지 원역사 7명 `148:22/44 FGA/74점/10 TOV`도 대체 Detroit에 자동 잔류하지 않는다. G14 10/20 Detroit 조합의 Grant/Olynyk/Plumlee와 원역사 공격 예산을 1/23에 복사하지 않는다. 대체 계약·등록·의료·240분·공격예산·승패가 `HOLD`다. 다음은 이름별 날짜별 소유·서명·거래 원장이다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 미완료이며 새 작가확정 0건. 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
