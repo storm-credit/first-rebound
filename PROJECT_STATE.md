@@ -1040,3 +1040,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8A — D2 취득 시각의 1차 근거 대조
 
 [G8 계약 순서](simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md)에 NBA FA 협상·서명 가능일, 실제 Chicago의 Caruso 8/10 발표와 Bradley·Green·Dotson 8/19 발표를 대조했다. 구단 공지는 계약 금액이나 대체 세계의 서명·동의를 인증하지 않는다. Bradley의 2차 계약표 `8/11`과 구단 발표 `8/19`도 서로 다른 의미로 보존했다. 기존 DB1/C39A의 #10 Duarte·#39 Wieskamp, Bradley, Caruso SQ1은 **조건부 주 경로**로 유지하고 실제 계약·최종 지명 `HOLD`. Green 잔류는 D1 F1 거래 실행에 종속된다. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8B — Markkanen 2021 선수 동의 대조
+
+[G8B 원장](research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)은 Yle의 2021-08-06 선수 직접 발언과 Cleveland의 8/28 실제 사인앤트레이드를 G1A 잔류안에 대조했다. 원역사의 이적 희망은 대체 세계의 자동 이탈이 아니지만, G1A의 28분·두 시즌 급여 예산과 SQ1 숫자만으로 선수 수락을 만들 수도 없다. `G1A_CONSENT_HOLD`; 잔류 불성립 때 G1B는 자산·팀 동기를 다시 검증할 대안으로 보존한다. NotebookLM은 Cleveland 공식 소스 한정 질의 성공, Yle URL 추가 실패; Antigravity는 빈 응답으로 직접 증거 0건. D1/D2 정확 계약·시즌·픽과 신규 작가확정은 여전히 미완료. 7개 게이트 1완료·1진행·5대기, 남은 큰 작업 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
