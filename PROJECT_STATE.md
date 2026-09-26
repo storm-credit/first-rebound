@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15V 원역사 2021–22 전방 7명 분/선발을 공식 구단 자료로 복원하고 Orlando 규정시간 예산·Chicago/Cleveland/Denver 이탈 기회를 조건부 대조; 다음 실제 거래/서명/의료·82경기 날짜별 분 회수`
-- 최근 설계 변경: `G15U의 Moritz H/R/D FA 비용 분기와 QO/renounce/통지 HOLD 유지. G15V에서 Vučević CHI 2,418분, Mobley CLE 2,331분, Nnaji DEN 698분, Bamba ORL 1,824분, Moritz ORL 960분, Lopez ORL 612분, Okeke ORL 1,749분의 원역사 회고 행 확보. 여섯 빅맨 원역사 8,843분은 82경기 규정시간 C/PF 7,872분보다 971분 많다는 압박 진단일 뿐 대체세계 분 예측 아님. G15B 1/23 C=Vučević36+Bamba12, PF=Mobley24+Nnaji12+Okeke12와 연결; Moritz/Lopez 0분의 시즌 지속 불가 여부는 날짜별 검증 필요. Chicago/Cleveland/Denver의 기회 재배분·계약/의료/거래·정확 시즌·G16/G17 HOLD, author lock 0건`
+- 현재 작업: `O-15G15W 2022-01-23 CHI@ORL·DET@DEN 원역사 박스와 G14/G15B 대체 한 경기 분을 연결; 다음 Denver Nnaji 이탈 수신자·Detroit 상대·Orlando Moritz 역할 및 정확 거래/의료 회수`
+- 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
