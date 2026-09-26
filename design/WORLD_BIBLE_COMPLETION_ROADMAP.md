@@ -8,6 +8,8 @@
 
 **현행 체크포인트(2026-09-27):** Chicago 정규시즌 1080경기 조건부 입력은 [F14F](../simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md)에서 완료됐다. [K1 시즌 추천](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md)·[L2 플레이인 추천](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)과 [승인된 CP2의 잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md)도 완료했다. **정확 시즌/선수 지명/계약 정본은 미확정**이다. [채택 준비 색인](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 F1~F5는 남은 사실, A1~A3는 남은 최종 선택이다. 이를 포함하는 네 K 조건 묶음은 모두 미완료이며 현재 D1 병목이다. 아래 F10~F14 초기 문단은 누적 작업 이력이며 현행 중단 지점으로 읽지 않는다.
 
+[D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)은 F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 종료 0/4를 한 번에 추적한다. 정확 증거가 없는 필드는 `HOLD`로 남기고 기존 CP2에 따라 D2를 **조건부로** 계속한다. 이것은 아래 7행 상태나 시즌/계약의 정본 승격을 바꾸지 않는다.
+
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
 현재 대학 구간, 인물 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~60순위가 정본화됐다. Chicago 2020-21 전반 분·생산성과 19~21승 중심 범위가 통과했고 Theis·Green 3팀 5인 선수 이동 A는 작가 승인됐다. O-15F10까지 후반 조건부 분·5인 조합과 Carter/LaMelo 단독 공백 대응, 상대39조건·두 영향 계열의후반2106조건, 전반18접촉(10벡터·8미배정)과43+29 연결 진단을 검산했다. 전반1144행·BPM3/25 표본505명과 연장 실제 총초를 보존했다. 실제 가용성·일관된 거래 경로·전반 상대 선택·정확 시즌 승패는 아직 닫히지 않았다. 전체 장기 커리어 및 집필 설계 완성을 뜻하지 않는다.
