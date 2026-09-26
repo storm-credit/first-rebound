@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15J Orlando 2021–22 원역사 계약 기본급 후보의 출처·조건부 부분합 회수; 다음 2021년 5월 옵션과 7–10월 날짜별 전체 계약/FA/픽/예외 원장`
-- 최근 설계 변경: `G15J에서 Vučević $24m·Aminu 옵션 $10.1838m의 원역사 비공식 연봉 추적값을 후보 입력으로 회수. 두 계약 조건부 부분합 $34.1838m은 Orlando 전체 팀 샐러리나 cap room이 아님. 옵션·잔류·방출/거래는 대체세계 미선택, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15K Aminu 선수 옵션의 보도일/통지일을 정정하고 행사 작업상 우선 후보를 비교; 다음 2021-07-29→08-11→10-16 계약 소유·명단·급여 사건표`
+- 최근 설계 변경: `G15J의 Aminu 5/18 행사일 단정을 교정: 5/18은 행사 계획 보도일이고 비공식 계약 이력은 5/18·5/21로 충돌, 공식 통지일 미확보. 5월 Orlando 소유도 별도 이동 없음 조건이며 EXERCISE_WORKING_PRIOR는 작가확정 아님; ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -910,3 +910,9 @@ NotebookLM CLI는 NBA CBA PDF와 NBA 2021–22 캡 발표 두 공식 출처에 �
 [G15J 계약 입력 원장](research/O15G15J_ORLANDO_2021_22_CONTRACT_INPUT_LEDGER.md)은 원역사 비공식 계약 추적값 Vučević $24,000,000과 Aminu 옵션 $10,183,800을 회수했다. 두 값의 $34,183,800 합계는 **Vučević가 2021–22에도 Orlando에 잔류하고 Aminu가 옵션을 행사해 Orlando가 계약을 보유한다는 조건의 2인 부분합**이다. 공식 NBA 자료는 리그 기준선과 계약 사건일을 뒷받침하지만 선수별 상세 급여를 공개하지 않는다. 방출 뒤 보장급여 잔류, 미행사 시 FA 관련 비용, 거래 시 수취 팀·반대급부를 분리했고 전체 Orlando 팀 샐러리·cap room·세금/거래 합법 판정은 보류했다. 옵션 행사/미행사, Vučević 후속 잔류, Aminu 처리, Lopez/Moritz 후속은 작가확정 0건이다.
 
 NotebookLM CLI는 NBA CBA/캡 공식 두 출처만 지정해 팀 샐러리 규칙과 선수별 금액 부재를 재확인했다. 구단 영입 기사 두 URL의 새 출처 추가는 실패했고, Anti-Gravity CLI도 두 URL에서 기사 본문을 판독하지 못했다. Claude CLI의 두 반증 시도도 응답 없이 중단됐으므로 G15J 독립 반증·source-blind는 `NOT_RUN`이다. 실패를 증거 확보나 검수 완료로 세지 않는다. 다음은 **2021년 5월 대체 Orlando Aminu 옵션과 7–10월 선수별 계약·FA 권리·드래프트/거래·예외 원장**을 날짜별로 채우는 것이다. G14 ORL4 `ROLE_HOLD`·DET4 `PRIOR_HOLD`, G16/G17 미완료, 전체 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15K — Aminu 옵션 보도일·통지일 교정과 작업상 우선 후보
+
+[G15K 옵션 검토](research/O15G15K_AMINU_OPTION_NOTICE_AND_PREFERENCE.md)는 G15J의 **5/18 행사일 단정**을 교정했다. 5/18 NBC Sports 기사는 Chicago 소속 Aminu가 옵션을 행사할 **계획**이라는 보도이고, SalarySwish의 5/18과 Spotrac의 5/21 거래 이력은 정확 날짜가 다르다. 공식 통지일·계약서의 통지 마감 조항은 확보하지 못했다. T2의 명시 승인은 Vučević에게만 해당하므로 Aminu의 5월 Orlando 소유도 **Chicago 원거래 미실행 뒤 별도 이동이 없다는 조건**으로 제한했다. NBA의 원역사 Orlando 2020–21 기록 17경기·14선발과 분기 이전 무릎 이력, 원역사 옵션 행사 결과를 근거로 그 조건에서의 **행사 `WORKING_PRIOR`**를 제안하지만 작가확정은 아니다. 옵션 미행사를 명단 한 자리의 무료 해결책으로 쓰지 않으며, 행사 시험에서는 G15H의 자리·보호급여 문제를 그대로 보존한다.
+
+NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 공식 통지일과 대체 Orlando 선택을 증명하지 못한다고 답했다. Anti-Gravity CLI는 같은 URL 판독에서 60초 시간 초과·본문 0건이었다. [Claude 제한 반증](reviews/R01_O15G15K_CLAUDE_OPTION_REVIEW.md)과 [결과물 단독 맹점 검수](reviews/R02_O15G15K_SOURCE_BLIND_REVIEW.md)는 각각 초안 논리와 결과 설명을 공격했으며, 유효한 지적을 보완하고 잘못된 계약/지명 구단 전제는 기각했다. 둘 다 사실 원문의 독립 검증이나 G16 통과가 아니다. 다음은 **2021-07-29→08-11→10-16** 선수별 계약 소유·명단·급여 사건표를 행사 **시험 입력** 아래 구성하는 것이다. Chicago 2020–21 정확 실행·Orlando 2021–22 시즌 선택·G14 ORL4 `ROLE_HOLD`·DET4 `PRIOR_HOLD`, G16/G17 미완료. 전체 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
