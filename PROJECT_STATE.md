@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15S Orlando 2021–22 이름 있는 계약 비용을 8/3 cap 발효→FA 영입→Bacon 이탈→개막 신인 서명까지 날짜순으로 연결; 다음 실제 보호액·FA hold·신인 서명일·MLE apron·Gordon 거래 매칭 회수`
-- 최근 설계 변경: `G15N/O/M/R의 기존 금액을 중복 조사 없이 연결. 공통8+Vučević/Aminu/Nnaji/Bacon 조건부 8/3 12계약 $122,788,209, Mobley3 미서명 hold 포함 $130,863,369. Lopez·Bacon B0 이탈 완료·Moritz·Moore·Herbert 최저급·Mobley 120% 서명 전부 채택 시 개막 16표준 / 열거 charge $138,363,019. Aminu 전액 보호 waiver는 15자리라도 charge 유지, 무복귀선수 거래는 조건부 $128,179,219; 실제 보호액·상대/매칭·apron·완전 Team Salary HOLD. 8/8 방출 요청과 이탈 완료 시각 분리. Moritz QO 실제 사건, G14 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD, 정확 시즌·G16/G17 HOLD; 작가확정 0건`
+- 현재 작업: `O-15G15T Moritz 2021-08-04 합의 보도와 8/23 실제 서명을 분리하고, Franz GSW·Vučević 잔류 아래 재계약/미재계약·FA hold의 날짜별 자리와 비용을 비교; 다음 실제 QO/renounce·다음 팀·빅맨 240분 회수`
+- 최근 설계 변경: `G15S의 조건부 8/3 12계약 $122,788,209 / Mobley3 hold 포함 $130,863,369, 개막 두 신인·세 FA 채택 16표준·열거 charge $138,363,019 유지. Moritz 8/4는 NBA의 취재 인용 합의 보도, 8/23이 구단의 실제 서명 발표. Franz가 GSW인 대체 분기에서는 형제 동팀 동기를 자동 이월하지 않음. Moritz 비재계약이면 조건부 15표준·계약 부분합 $136,633,802, 비공식 $1,669,178 FA hold 유지 시험은 열거 합 $138,302,980, 적법 제거 시험은 $136,633,802. 실제 QO/hold·권리 포기·다음 팀·출전분·apron·완전 Team Salary HOLD. G14 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD, 정확 시즌·G16/G17 HOLD; 작가확정 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
