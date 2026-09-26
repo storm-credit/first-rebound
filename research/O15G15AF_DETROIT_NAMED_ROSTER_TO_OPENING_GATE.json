@@ -1,0 +1,23 @@
+{
+  "authority": "historical_reconstruction_and_conditional_stress_only",
+  "historical_august_12_retained": [
+    "Killian Hayes", "Josh Jackson", "Saddiq Bey", "Sekou Doumbouya",
+    "Jerami Grant", "Isaiah Stewart", "Jahlil Okafor"
+  ],
+  "historical_august_12_added_or_resigned": [
+    "Kelly Olynyk", "Trey Lyles", "Saben Lee", "Cory Joseph",
+    "Rodney McGruder", "Frank Jackson", "Cade Cunningham", "Isaiah Livers"
+  ],
+  "historical_events_after_august_12": [
+    {"date": "2021-08-19", "event": "Diallo re-signs", "out": [], "in": ["Hamidou Diallo"], "expected_standard_count": 16},
+    {"date": "2021-09-04", "event": "Nets trade", "out": ["Sekou Doumbouya", "Jahlil Okafor"], "in": ["DeAndre Jordan"], "expected_standard_count": 15},
+    {"date": "before 2021-09-09 Lakers signing", "event": "Jordan buyout and waiver", "out": ["DeAndre Jordan"], "in": [], "expected_standard_count": 14},
+    {"date": "2021-09-24", "event": "Garza two-way conversion", "out": [], "in": ["Luka Garza"], "expected_standard_count": 15}
+  ],
+  "conditional_same_other_events": {
+    "replaced_historical_players": ["Killian Hayes", "Saddiq Bey", "Cade Cunningham"],
+    "replacement_players": ["Patrick Williams", "Kira Lewis Jr.", "Jalen Suggs"],
+    "plumlee_retained": "Mason Plumlee",
+    "expected_standard_counts": [16, 17, 16, 15, 16]
+  }
+}

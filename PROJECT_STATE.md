@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15W 2022-01-23 CHI@ORL·DET@DEN 원역사 박스와 G14/G15B 대체 한 경기 분을 연결; 다음 Denver Nnaji 이탈 수신자·Detroit 상대·Orlando Moritz 역할 및 정확 거래/의료 회수`
+- 현재 작업: `O-15G15AF Detroit 2021-08-12 실명 표준 15명 재구성·10/20 개막 연결과 Plumlee/Olynyk P0-B 조건부 16명 자리 비용; 다음 독립 10/20 명부, 실명 이탈·8/6 cap 경로·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -960,3 +960,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AE — Detroit 8월 15인 기준과 9월 별도 거래
 
 [G15AE](research/O15G15AE_DETROIT_AUGUST15_AND_SEPTEMBER_ASSET_BRIDGE.md)는 구단의 2021-08-12·08-18 **원역사 표준 15명·Diallo 미해결** 관측을 출발점으로, 2020 확정 Hayes/Bey→Patrick/Kira와 미선택 DB1 Cade→Suggs를 1:1 치환하고 Plumlee를 유지하는 **엄격한 동일 사건 시험**에서 `15−3+3+1=16`임을 표시했다. Aldama 37번은 서명 전 자리 0이고, 서명 시 조건부 17; Olynyk 미취득 P0-A라면 같은 시험에서 15다. 이는 대체 명단 사실이나 8월 규정 위반 판정이 아니다. 원역사 9/4 Doumbouya+Okafor→Brooklyn, Jordan+4×2R+현금→Detroit 거래와 Jordan 방출을 날짜별로 연결하되, 대체 Nets 수락·Jordan 보장급여·픽/현금·Diallo/Aldama 자리는 `HOLD`로 남겼다. 9월 거래는 8/6 Olynyk 영입 cap을 소급 조달하지 않는다. Antigravity의 NBA 원문 본문 접근은 이번에 성공했고 NotebookLM은 같은 원문 한정 분석만 수행했다. Claude의 [제한 맹점 검토](reviews/R01_O15G15AE_ROSTER_CLI_AND_SOURCE_BLIND.md) 중 Plumlee 출발 15명 제외 근거를 보강했다. 다음은 8/12 전원 실명 계약·급여 원장과 10/20 표준 등록·Charlotte 센터 대체다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 `HOLD`; 신규 작가확정 0건, 전체 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AF — Detroit 실명 명단과 개막 자리 관문
+
+[G15AF 원장](research/O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.md)은 NBA 드래프트 당시 11 계약자에서 여름 출입을 적용해 8/12 Detroit 표준계약 15명의 이름을 재구성했다. Diallo 재계약→9/4 Nets 2명 송출/1명 수취→Jordan 방출→9/24 Garza 투웨이 전환을 적용하면 원역사 장기 보유 표준 집합 `15→16→15→14→15`가 된다. 캠프 임시 계약 전량이나 10/20 독립 공식 명부가 아니므로 그 범위를 넘겨 확정하지 않는다. 2020 정본 Hayes/Bey→Patrick/Kira, 미선택 DB1 Cade→Suggs, Plumlee와 Olynyk 동시 보유, 기타 원역사 사건 전부 동일이라는 엄격 가정에서는 개막 `16`으로 한 자리가 남는다. 원역사 Nets 거래의 대체 실행·8/6 Olynyk 별도 cap room·실명 이탈과 타 팀 비용이 `HOLD`다. [검사기](tools/check_o15g15af_detroit_roster.py)는 집합/산술을 통과했고 [제한 검수](reviews/R01_O15G15AF_NAMED_ROSTER_CLI_AND_BLIND.md)는 AG 드래프트 페이지 본문 실패·NLM 같은 원문 분석 성공·Claude 초안 반증과 오류 기각을 분리했다. 신규 작가확정 0건, G14 Detroit `PRIOR_HOLD`/Orlando `ROLE_HOLD`, Chicago 정확 시즌·G16/G17 `HOLD`; 전체 7개 매크로 게이트는 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
