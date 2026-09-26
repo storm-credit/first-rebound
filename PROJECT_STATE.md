@@ -1044,3 +1044,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8B — Markkanen 2021 선수 동의 대조
 
 [G8B 원장](research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)은 Yle의 2021-08-06 선수 직접 발언과 Cleveland의 8/28 실제 사인앤트레이드를 G1A 잔류안에 대조했다. 원역사의 이적 희망은 대체 세계의 자동 이탈이 아니지만, G1A의 28분·두 시즌 급여 예산과 SQ1 숫자만으로 선수 수락을 만들 수도 없다. `G1A_CONSENT_HOLD`; 잔류 불성립 때 G1B는 자산·팀 동기를 다시 검증할 대안으로 보존한다. NotebookLM은 Cleveland 공식 소스 한정 질의 성공, Yle URL 추가 실패; Antigravity는 빈 응답으로 직접 증거 0건. D1/D2 정확 계약·시즌·픽과 신규 작가확정은 여전히 미완료. 7개 게이트 1완료·1진행·5대기, 남은 큰 작업 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8C — Markkanen 잔류/이탈의 가격과 분 시험
+
+[G8C 네 경로](simulation/CHICAGO_2021_MARKKANEN_OFFER_STRESS.md)는 기존 G1A, 가상 4년 $76.16m·PF32분 강화안, 1년 QO, G1B형 이탈을 분리했다. 강화안은 기존 Markkanen 예산보다 2021–22 +$1,309,091·2022–23 +$1,884,546이며 G3 상단 $108,171,174와 G8 RT1 한 조건 $148,806,968, 정상일 다섯 포지션 각48분을 재계산했다. 이는 선수의 수락·계약·실전 5인 조합이 아니며 2023–25 팀 전체 비용도 미완료. 기존 G1A 추천·`G1A_CONSENT_HOLD`, D1/D2 정확 실행, CP2 잠정 픽은 그대로다. 7개 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
