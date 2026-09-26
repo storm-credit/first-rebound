@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AH Plumlee 잔류 기본급·Olynyk 첫해 계약액·2021–22 MLE 한도를 대조하고 G14 사용 10명과 개막 자리 검토 6명을 분리; 다음 8/6 전체 Team Salary·홀드·이름 있는 이탈 거래·Nets 대체 실행 회수`
+- 현재 작업: `O-15G15AI Joseph 7/31 방출→8/10 room MLE 재서명과 8/6 Olynyk cap room의 결합을 분리; 다음 7/31→8/6→8/10 Detroit 전체 Team Salary·홀드·이름 있는 이탈 거래·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -972,3 +972,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AH — 8/6 급여 후보와 개막 자리 검토 대상
 
 [G15AH 급여·자리 원장](research/O15G15AH_DETROIT_AUG6_CAP_AND_OPENING_SLOT_SCREEN.md)은 공식 2021–22 캡 `$112.414m` 및 MLE 세 한도와 2차 계약표의 Plumlee 미이적 기본급 `$8.1375m`·원역사 Charlotte 이적 후 표시액 `$9.248333m`·Olynyk 첫해 `$12.195122m`을 구분했다. 동일 Olynyk 계약은 단일 MLE 세 종류 어느 것으로도 설명되지 않으며, 두 선수의 `$20.332622m`은 **조건부 급여 소계**이지 Detroit 전체 Team Salary/8월 캡 부족액이 아니다. G15AF의 조건부 개막 표준 16명에서 G14 분표 사용 10명과 분표 0분의 Frank Jackson·Trey Lyles·Saben Lee·Rodney McGruder·Isaiah Livers·Luka Garza 6명을 분리했다. 한 자리 방출이 8/6 캡을 자동 확보하지 않으며 6명 중 실제 이탈, 수신 팀·계약·분 비용은 모두 `HOLD`다. [검사기](tools/check_o15g15ah_cap_slot.py)는 급여 산술·10+6 집합만 통과했고 [도구별 제한 검토](reviews/R01_O15G15AH_CAP_SLOT_CLI_AND_BLIND.md)는 Antigravity 공식 캡 답변, NotebookLM 동일 출처 분석, Claude source-blind 반증의 권위를 분리했다. 다음은 **8/6 전체 Team Salary/홀드/예외와 실명 이탈 거래**, 9/4 Nets 대체 수락, Charlotte 센터/권리 및 1/23 의료·분 비용. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AI — Joseph 방출·room MLE 재서명의 두 번째 급여 관문
+
+[G15AI 날짜별 원장](research/O15G15AI_JOSEPH_ROOM_EXCEPTION_SEQUENCE_GATE.md)은 원역사 Joseph 7/31 방출, 8/2 재계약 합의 보도, 8/6 Olynyk 등 서명, 8/10 Joseph 재서명을 다른 사건으로 분리했다. 구단이 설명한 **원계약 `$2.4m` 보장**과 2차 계약표의 신계약 첫해 `$4.91m`은 서로 다른 항목이며 단순 합계 `$7.31m`은 완전 Team Salary가 아니다. 당시 보도상 Joseph의 원역사 신계약은 cap room 사용 후 **room MLE**였고, 리그의 2021–22 한도도 `$4.91m`이다. P0-B가 Olynyk PF18·Joseph PG24를 함께 쓰려면 **8/6 Olynyk 경로와 8/10 Joseph 예외 자격/대체 계약 경로를 둘 다** 증명해야 한다. [도구별 제한 검토](reviews/R01_O15G15AI_JOSEPH_CLI_AND_BLIND.md)는 Antigravity의 NBA 규칙 본문 인용, NotebookLM의 동일 출처 한정 분석·Detroit URL 추가 실패, Claude의 `계약 당일 under-cap` 오독 기각을 기록했다. 공식 설명의 과거 `$4.449m` 예시를 2021–22 수치로 사용하지 않았다. 다음은 **7/31→8/6→8/10 전체 Team Salary·홀드/예외 원장과 실명 이탈 거래**, Charlotte/Nets 상대 비용. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
