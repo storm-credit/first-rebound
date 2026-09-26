@@ -34,3 +34,7 @@
 다음 단계는 원역사 Detroit 나머지 양수 분을 이름별로 확인하고, **2020 확정 집합만 적용한 분기**와 **DB1 추가 분기**를 따로 계산하는 것이다. 2020–21 Chicago 정확 시즌, G14 Detroit `PRIOR_HOLD`, Orlando `ROLE_HOLD`, G16/G17은 그대로다. 7개 매크로 게이트는 1완료·1진행·5대기, 진행 중 포함 6개가 남는다.
 
 [이번 CLI·제한 source-blind 검토](../reviews/R01_O15G15AA_THIRD_EXIT_CLI_AND_SOURCE_BLIND.md)는 NotebookLM의 공식 PDF 한정 성공, Antigravity의 headless 권한 거부, Claude의 원역사 팀 혼동을 각각 기록한다. 검토 횟수를 독립 출처나 G16 통과 횟수로 세지 않는다.
+
+### 후속 — G15AB 원역사 전체 박스 대조
+
+[G15AB](O15G15AB_DETROIT_JAN23_ORIGINAL_BOX_AND_BRANCH_BOUNDARY.md)는 NBA 페이지 내장 박스의 **양수 분 10명·DNP 3명**을 직접 추출해 팀 `240:00 / 75 FGA / 19 FTA / 111점 / 22 TOV`와 대조했다. Hayes 발견은 유지하되, 원역사에서 이탈하지 않은 나머지 7명의 대체세계 계약·등록·분도 자동 보존하지 않는다. 2020 확정만의 제거 집합과 DB1을 더한 집합을 분리한다.
