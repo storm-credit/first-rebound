@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AN Detroit FA 명단·McGruder 비보장 계약의 웨이버 중 cap 처리·미사용 예외 차지 분기; 다음 실제 8/6 Team Salary·계약 접수 순서·실명 cap 거래·8/10 Joseph 예외 회수`
+- 현재 작업: `O-15G15AO Detroit 8/6 구두·서면 합의 리그 통지/예상 급여 차지와 서명 순서 분리; 다음 실제 NBA 통지·접수 시각·전체 Team Salary·실명 cap 거래·8/10 Joseph 예외 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -996,3 +996,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AN — Detroit FA 범위와 McGruder 웨이버 중 cap 처리 분기
 
 [G15AN 원장](research/O15G15AN_DETROIT_WAIVER_AND_EXCEPTION_BRANCHES.md)은 NBA 2021 드래프트 프로필의 11계약·5FA를 시점 한정 목록으로 받아, NBA 8/2 Smith Jr. QO **미제출** 및 Cook 누락을 대조해 완전 cap 장부로 오인하지 않게 했다. 구단의 McGruder 비보장 `$5m` 후보와 2017 CBA Exhibit A ¶16(f)·부속 By-Laws 5.03–5.04의 요청/48시간/미청구 종료를 분리했다. **웨이버 중 비보장 차지가 언제 Team Salary에서 빠지는지는 미확인**이다. 구계약 차지가 Olynyk 직전까지 남으면 P0-B 명명 소계 후보 `$104,126,970`·Olynyk 계약 직전 부족 `$3,908,092`; 차지 제거·인원 제외면 G15AL의 `$100,052,228`·여지 `$166,650`이다. 어느 수치도 실제 전체 Team Salary가 아니다. CBA §6(m)(2)의 미사용 예외 차지/포기도 별도 `HOLD`. [검사기](tools/check_o15g15an_detroit_waiver_branches.py)는 네 산술 분기를 G15AL과 대조해 PASS. [CLI·Claude 검토](reviews/R01_O15G15AN_WAIVER_AND_EXCEPTION_BLIND.md)는 AG Detroit HTML 셸 실패, NLM NBA 프로필/2017 CBA PDF 단일 소스 질의 성공, Claude 문서 단독 반증을 구분한다. 다음은 실제 8/6 cap 장부·접수 시각과 예외/권리 포기 서류, 이후 Olynyk→Lyles/Lee/Livers/Frank→Joseph 연속 경로다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17 `HOLD`; 신규 작가확정 0건, 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15G15AO — 합의 통지와 서명 사이 Team Salary
+
+[G15AO 통지 시점](research/O15G15AO_DETROIT_DISCLOSED_AGREEMENT_CAP_TIMING.md)은 2017 CBA Article II §13(a)·§15와 Article VII §4(a)(1)(iv)를 적용했다. NBA에 통지한 경제 조건의 **예상 급여가 계약서 서명 전에도 Team Salary에 들어갈 수 있다**. 따라서 G15AL의 `Olynyk 먼저`는 **그보다 앞서 Lyles 합의가 리그에 통지되지 않았다는 조건까지** 필요하다. G15AL P0-B의 기존 `$100,052,228`에는 11명 미충원 `$925,258`이 포함돼 있다. Lyles `$2.5m` 통지·미서명 조건을 더하면 후보 소계 `$102,552,228`, Olynyk 직전 부족 `$2,333,350`; 계약까지 먼저 체결한 G15AL 분기는 미충원 차지 제거로 부족 `$1,408,092`다. 8/6 공동 발표와 모라토리엄 전후 언론 보도는 실제 NBA 이메일·접수 순서를 주지 않는다. [NotebookLM/Claude 검토](reviews/R01_O15G15AO_DISCLOSED_AGREEMENT_BLIND.md)는 같은 CBA 재독과 문서 단독 반증으로만 계수했다. 전체 cap 장부·McGruder 처리·권리/예외·실제 순서, Chicago 정확 시즌과 G16/G17 `HOLD`; 신규 작가확정 0건, 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
