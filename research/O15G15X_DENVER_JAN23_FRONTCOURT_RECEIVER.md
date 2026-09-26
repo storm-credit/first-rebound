@@ -41,3 +41,7 @@ X1의 대안은 Gordon/Jokić/Cousins의 분 증가 또는 Barton/Reed 등 외�
 **도구 대조:** Codex가 위 NBA 공식 PDF와 박스·계약 공지를 직접 읽었다. NotebookLM CLI는 같은 PDF를 출처 `c8189748-40fd-473a-afcc-f7cc35b396dd`로 수집하고, 해당 출처만의 질의에서 JaMychal `Available`, Jeff/Čančar/Porter Jr. `Out`, Detroit Olynyk `Out`을 재확인했다. `Available`의 일반적 의미에 관한 NotebookLM 설명은 원문에 없는 해석이므로 사실 행으로 올리지 않는다. Antigravity CLI는 구단 프리뷰 직접 판독에서 `ACCESS_FAILED`를 반환해 본문 증거가 0건이다. CLI 통신 성공과 원문 검증 성공을 구분한다.
 
 [Claude 제한·source-blind 검토](../reviews/R01_O15G15X_CLAUDE_SOURCE_BLIND.md)는 분 산술을 확인하고 5인 교대 미증명을 지적했다. 원역사 감독 DNP를 대체세계 출전의 절대 금지로 읽은 주장은 기각했다. G16 독립 검수는 여전히 미완료다.
+
+### 후속 — O-15G15Y의 Denver Bey22 대조
+
+[세 경기 선수 이동 원장](O15G15Y_2022_01_23_THREE_GAME_PLAYER_FLOW.md)은 2020 작가 확정 Denver Bey22와 조건부 2021–22 잔류를 1/23 `DET@DEN`에 연결한다. 따라서 이 문서 X1의 JaMychal `16:45`는 유일한 수신자가 아니다. Bey를 PF 수신자로 놓는 X2도 분 합계 후보이지만, 두 안 모두 Bey의 다른 윙 분·계약·코치 결정과 Detroit 상대 변화가 `HOLD`다. 원역사 Detroit Bey `30:42`를 Denver로 옮겨 쓰지 않는다.
