@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AQ Lee 3년 계약 cap-room/Non-Bird 수단과 Olynyk·Lyles 연속 장부; 다음 실제 NBA 권리·계약 접수 원본·전체 Team Salary·실명 cap 거래·8/10 Joseph 예외 회수`
+- 현재 작업: `O-15G15AR Sekou/Okafor 실명 이탈과 미충원 차지·9월 Nets 거래 경계; 다음 8/6 수취팀·픽/예외·전체 Team Salary·개막 명단/분 연쇄 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -1008,3 +1008,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AQ — Lee 계약 수단과 P0-B 연속 cap-room 부족
 
 [G15AQ 연속 원장](research/O15G15AQ_DETROIT_LEE_CAP_ROOM_AND_NONBIRD_ROUTE.md)은 구단의 8/6 Olynyk·Lyles·Lee 계약 발표, 2017 CBA §6(b)(2)/Article IX §1 및 NBA CBA 101을 대조했다. Non-Bird는 **3년 Lee 계약에 규칙상 가능한 별도 후보**지만 실제 사용 증거는 없다. SalarySwish와 HoopsRumors 2차 계약표는 Lee를 **cap room**으로 분류하므로 이를 원역사의 유력 후보로 두되 리그 접수 원본 `HOLD`. G15AP의 P0-B 명명 원장에 같은 cap-room 수단을 적용하면 Olynyk+Lee 누적 `-$397,157`, Lyles까지 `-$2,897,157`, Frank QO를 `$3m` 계약으로 교체하면 `-$3,957,807`이다. 이는 다른 cap 이탈·권리/예외 조정 없는 **조건부 부족**이며 실제 Team Salary 부족액이 아니다. Antigravity는 NBA 자유계약 규칙 본문 회수 성공/Detroit Lee 회고 본문 실패, NotebookLM은 2017 CBA 한 출처 재독, Codex는 [산술 검사기](tools/check_o15g15aq_detroit_lee_route.py) PASS. Claude 반증은 [별도 기록](reviews/R01_O15G15AQ_LEE_ROUTE_BLIND.md)에 둔다. 실제 서명 방식·접수 순서·모든 FA 홀드/예외·실명 거래와 8/10 Joseph 연결은 `HOLD`; Chicago 2020–21 정확 시즌, G14/G16/G17·정본 불변. 전체 7행 1완료·1진행·5대기, 남은 큰 작업 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 신규 작가확정 0건.
+
+## O-15G15AR — 실명 이탈·미충원 차지·9월 거래 경계
+
+[G15AR 이탈 원장](research/O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.md)은 P0-B의 8/6 Olynyk 전 12명·미충원0에서 Sekou/Okafor를 각각 **순급여 0 수취**로 먼저 내보내는 수학적 시험이다. 한 선수 이탈 직후에는 미충원 한 자리 `$925,258`이 생기고 뒤의 Olynyk/Lyles 새 계약에서 제거된다. Sekou 단독이면 Olynyk→Lee→Lyles 뒤 `+$716,523`, Frank QO→`$3m` 뒤 `-$344,127`; Okafor 단독은 각각 `-$767,134`/`-$1,827,784`; 두 선수 모두 이탈은 `+$2,846,546`/`+$1,785,896`이다. [검사기](tools/check_o15g15ar_detroit_named_exit.py)는 사건별 인원·급여 차지를 재현한다. 실제 **9/4 Brooklyn 거래**는 두 선수 대신 Jordan 계약을 받고 네 2라운드 픽·현금을 얻은 별도 사건이므로 8/6 순급여 0 거래로 당길 수 없다. NBA 거래 기사와 SalarySwish Jordan 2차 급여를 분리했고 Antigravity는 NBA 거래 기사 본문 회수 성공, NotebookLM은 CBA 한 출처 재독, Claude 문서 단독 반증은 [R01](reviews/R01_O15G15AR_NAMED_EXIT_BLIND.md)에 기록한다. 수취팀·픽 대가·8/6 거래/계약 접수·Charlotte/9월 Brooklyn 연쇄·개막 인원/앞코트 분·완전 Team Salary는 `HOLD`. 신규 작가확정 0건; Chicago 정확 시즌/G14/G16/G17과 `PROJECT_FREEZE v0.30 PARTIAL`·설계/원고 `CLOSED` 유지. 7행 1완료·1진행·5대기, 남은 큰 작업 6개.
