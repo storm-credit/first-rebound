@@ -25,6 +25,8 @@ Chicago는 LaMelo(2020 #4)·Carter·주인공을 보유하고, Vučević·Aminu�
 
 [실제 DeRozan 공지](https://www.nba.com/bulls/news/bulls-acquire-demar-derozan)는 Young·Aminu와 픽의 이동 근거다. G1D의 Satoransky 대체 패키지는 **새 창작 제안**이며 Spurs 수락/매칭 완료가 아니다. [Markkanen 3팀 공지](https://www.nba.com/news/cavs-acquire-lauri-markkanen-from-bulls-in-3-team-trade)의 반환 자산은 G1B 비교 기준이다. DEN2023 보호2R은 McGee 연쇄의 같은 자산이므로 별도 픽으로 두 번 만들지 않는다.
 
+[G8B 선수 동의 대조](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)는 Yle가 직접 확인한 원역사 Markkanen의 2021년 이적 희망을 G1A의 **반대 증거**로 보존한다. Vučević 부재·PF 28분·두 시즌 급여 **비교 예산**은 대체 세계에서 잔류 가능성을 시험할 차이지만 선수의 수락을 증명하지 않는다. Cleveland 계약을 참조한 금액이 바뀌면 팀 샐러리·SQ1·2022 비용을 재계산한다. 따라서 G1A 추천은 `G1A_CONSENT_HOLD`가 붙은 조건부 추천이며, 수락이 성립하지 않으면 G1B의 세 팀·픽·로스터 파급을 다시 검토한다. G1B의 원역사 거래도 자동 실행하지 않는다.
+
 ## 2021–22 15자리 예산
 
 모든 안은 주인공 포함 일반계약 **15자리**다. 2-way는 이 자리에 넣지 않는다. 10순위 외 드래프트 선수는 미지정이며 #39 예산 $1.6m·미지정 벤치 각 $2m는 **예비비**, 합의 급여/거래용 matching salary가 아니다. 실제 계약·급여 분류·미확인 잔액 R은 별도다. Young의 공개 unlikely bonus $1m, G1C Lonzo의 $1m는 apron 쪽에 전액 비용 시험으로 넣었다.
