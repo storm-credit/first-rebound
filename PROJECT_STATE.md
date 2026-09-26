@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AF Detroit 2021-08-12 실명 표준 15명 재구성·10/20 개막 연결과 Plumlee/Olynyk P0-B 조건부 16명 자리 비용; 다음 독립 10/20 명부, 실명 이탈·8/6 cap 경로·Nets 대체 실행 회수`
+- 현재 작업: `O-15G15AG 공식 2021-10-20 CHI@DET 경기 기록의 17명과 Detroit 투웨이 2명을 교차 대조해 G15AF 원역사 표준 15명 집합 확인; 다음 P0-B 실명 이탈·8/6 Olynyk cap 경로·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -964,3 +964,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AF — Detroit 실명 명단과 개막 자리 관문
 
 [G15AF 원장](research/O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.md)은 NBA 드래프트 당시 11 계약자에서 여름 출입을 적용해 8/12 Detroit 표준계약 15명의 이름을 재구성했다. Diallo 재계약→9/4 Nets 2명 송출/1명 수취→Jordan 방출→9/24 Garza 투웨이 전환을 적용하면 원역사 장기 보유 표준 집합 `15→16→15→14→15`가 된다. 캠프 임시 계약 전량이나 10/20 독립 공식 명부가 아니므로 그 범위를 넘겨 확정하지 않는다. 2020 정본 Hayes/Bey→Patrick/Kira, 미선택 DB1 Cade→Suggs, Plumlee와 Olynyk 동시 보유, 기타 원역사 사건 전부 동일이라는 엄격 가정에서는 개막 `16`으로 한 자리가 남는다. 원역사 Nets 거래의 대체 실행·8/6 Olynyk 별도 cap room·실명 이탈과 타 팀 비용이 `HOLD`다. [검사기](tools/check_o15g15af_detroit_roster.py)는 집합/산술을 통과했고 [제한 검수](reviews/R01_O15G15AF_NAMED_ROSTER_CLI_AND_BLIND.md)는 AG 드래프트 페이지 본문 실패·NLM 같은 원문 분석 성공·Claude 초안 반증과 오류 기각을 분리했다. 신규 작가확정 0건, G14 Detroit `PRIOR_HOLD`/Orlando `ROLE_HOLD`, Chicago 정확 시즌·G16/G17 `HOLD`; 전체 7개 매크로 게이트는 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AG — 공식 10/20 경기 기록의 실명 독립 대조
+
+[G15AG 경기 기록 대조](research/O15G15AG_DETROIT_2021_OPENING_GAMEBOOK_WITNESS.md)는 NBA 공식 2021-10-20 CHI@DET FINAL BOX의 선발5·교체5·DNP4·inactive3, 고유 17명을 회수했다. Detroit 구단의 10/5 Chris Smith·10/13 Jamorko Pickett 투웨이 설명을 교차 적용하면 그 둘을 제외한 15명 이름이 G15AF 원역사 개막 재구성과 일치한다. 경기 기록 단독으로 계약 유형을 알 수 없어 이는 교차 출처 **추론**이며 당일 계약서·등록 시스템 원본은 미확보다. 원역사 Chicago Patrick Williams28:26도 확인했으나 2020 정본 Detroit Patrick의 대체 Chicago 분·득점으로 복사하지 않는다. [검사기](tools/check_o15g15ag_detroit_gamebook.py)는 이름 집합 일치를 통과했다. [제한 검수](reviews/R01_O15G15AG_GAMEBOOK_CLI_AND_BLIND.md)에서 AG 공식 PDF 45초 시간 초과·본문0, NLM 동일 PDF의 17명 제한 분석 성공, Claude의 9/29→10/20 계약 유형 이월 경고와 10/5·10/13 자료 보강을 구분했다. P0-B의 대체 Nets 거래·Plumlee/Olynyk cap·추가 한 자리 실명 이탈, G14 DET/ORL, Chicago 정확 시즌, G16/G17은 여전히 `HOLD`. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
