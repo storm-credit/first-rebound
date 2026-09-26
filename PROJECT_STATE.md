@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AI Joseph 7/31 방출→8/10 room MLE 재서명과 8/6 Olynyk cap room의 결합을 분리; 다음 7/31→8/6→8/10 Detroit 전체 Team Salary·홀드·이름 있는 이탈 거래·Nets 대체 실행 회수`
+- 현재 작업: `O-15G15AJ Detroit 8/6 실명 급여 부분합·RFA QO charge와 P0-B 대체 신인/Plumlee 순차이를 조건부 검산; 다음 전체 Team Salary·8/6 계약/권리 시점·이름 있는 cap 이탈 거래·8/10 Joseph 예외·Nets 대체 실행 회수`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -976,3 +976,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AI — Joseph 방출·room MLE 재서명의 두 번째 급여 관문
 
 [G15AI 날짜별 원장](research/O15G15AI_JOSEPH_ROOM_EXCEPTION_SEQUENCE_GATE.md)은 원역사 Joseph 7/31 방출, 8/2 재계약 합의 보도, 8/6 Olynyk 등 서명, 8/10 Joseph 재서명을 다른 사건으로 분리했다. 구단이 설명한 **원계약 `$2.4m` 보장**과 2차 계약표의 신계약 첫해 `$4.91m`은 서로 다른 항목이며 단순 합계 `$7.31m`은 완전 Team Salary가 아니다. 당시 보도상 Joseph의 원역사 신계약은 cap room 사용 후 **room MLE**였고, 리그의 2021–22 한도도 `$4.91m`이다. P0-B가 Olynyk PF18·Joseph PG24를 함께 쓰려면 **8/6 Olynyk 경로와 8/10 Joseph 예외 자격/대체 계약 경로를 둘 다** 증명해야 한다. [도구별 제한 검토](reviews/R01_O15G15AI_JOSEPH_CLI_AND_BLIND.md)는 Antigravity의 NBA 규칙 본문 인용, NotebookLM의 동일 출처 한정 분석·Detroit URL 추가 실패, Claude의 `계약 당일 under-cap` 오독 기각을 기록했다. 공식 설명의 과거 `$4.449m` 예시를 2021–22 수치로 사용하지 않았다. 다음은 **7/31→8/6→8/10 전체 Team Salary·홀드/예외 원장과 실명 이탈 거래**, Charlotte/Nets 상대 비용. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AJ — Detroit 8/6 실명 급여 부분합
+
+[G15AJ 원장](research/O15G15AJ_DETROIT_AUG6_NAMED_SALARY_LEDGER.md)은 원역사 기존 7계약·방출 잔액 5건·추가 5건과 Diallo/Frank QO 또는 계약 분기를 분리했다. 2020 정본 Patrick7/Kira16과 **미선택** Suggs5의 120% 신인 급여/홀드, Plumlee 잔류, 다른 사건 동일을 가정하면 8/6 실명 소계 차이는 `+$5,133,060`. 가장 가벼운 분기도 대체 소계의 캡 아래 여지가 `$64,759`뿐이고, Diallo QO 존속 시 대체 실명 소계 초과 후보는 `$2,015,067`이다. [산술 검사기](tools/check_o15g15aj_detroit_salary.py)는 부분합만 재현한다. [도구별 검토](reviews/R01_O15G15AJ_SALARY_CLI_AND_BLIND.md)는 AG 공식 cap 기사 답변, NLM CBA 요약의 규칙 불충분, Claude 결과물 단독 반증을 분리한다. 이 수치는 완전 Team Salary·실제 부족액·작가확정이 아니다. 8/6 권리/서명 시점·다른 홀드/예외, 실명 cap 거래, 8/10 Joseph 자격, 9월 Nets 수락, G16/G17은 `HOLD`; 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
