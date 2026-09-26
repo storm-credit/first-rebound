@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15L 2021-07-29→08-11→10-16 Orlando 계약 소유·등록 사건표와 Bacon 8/8 방출 경계 복구; 다음 선수별 2021–22 charge·보장일·FA 분기 비용`
-- 최근 설계 변경: `원역사 NBA 드래프트 당시 Under Contract 명단의 Dwayne Bacon을 7월 시작 장부에 추가하고 8/8 공식 방출을 10/16 자리 산술과 연결. 대체세계 방출/보호급여는 미확정; O15A/O15C·Aminu 행사 우선 시험·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15M Bacon 원역사 미보장 $1,824,003과 방출 경계, Mobley3 미서명 1R cap hold를 규칙별 분리; 다음 Orlando 전체 2021–22 계약·FA 권리/보장액 수집`
+- 최근 설계 변경: `G15L의 미서명 신인 급여 HOLD를 2017 CBA Article VII §4(e)(1)에 맞춰 정정: Mobley3 조건부 지명 시 표준 명단 자리 없이도 120% rookie-scale cap hold가 발생. Bacon 원역사 8/8 방출은 보호액 $0 작업값이나 대체 방출/보장 시점은 미확정; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -922,3 +922,9 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 [G15L 날짜 원장](research/O15G15L_ORLANDO_SUMMER_CONTRACT_EVENT_LEDGER.md)은 NBA 2021 드래프트 당시 Orlando `Under Contract` 목록의 **Dwayne Bacon**을 7월 장부에 되살리고, 구단 미디어 가이드의 **2021-08-08 방출**과 10/16 명단을 연결했다. G15E의 10월 공통 11명에는 Bacon이 없으므로 그 방출을 대체 역사에서도 선택하는 조건을 써야 한다. 공통 계약 8+Bacon+조건부 Vučević/Aminu/Nnaji 3 = 7월 **12명 시험**이다. 원역사 Lopez 8/6, Bacon 방출 8/8, Brazdeikis 투웨이 8/11, Moritz 8/23, Moore 9/9를 조건부 채택하고 Mobley/Herbert가 10/16 전에 표준계약을 맺으면 **16/15**; Aminu 이탈 후 O15A **15/15**, Gravett 표준 신규 계약 시 O15C **16/15**가 된다. Bacon을 유지하면 각각 한 명 더 많다. 이 수치는 계약·선택·의료 확인 전 가정 산술이다.
 
 공식 구단 연표는 Bacon의 보호급여를 공개하지 않는다. 비공식 계약 추적/당시 보도는 원역사 $1,824,003 미보장·방출 후 dead money 0이라고 하나, 대체 Orlando의 동일 조항·방출일·팀 샐러리 0을 확정하지 않는다. 신인 지명권은 서명과, 원역사 Chicago–Spurs DeRozan 패키지는 대체 Chicago의 Aminu 소유와 분리했다. 2021–22 Orlando 전체 급여·cap room/거래 적법성과 1/23 등록·의료·PG 역할은 여전히 `HOLD`다. NotebookLM CLI는 두 NBA 자료를 각각 한정 질의했고, Antigravity CLI는 두 차례 본문 판독에 실패했다. [Claude 제한/결과 단독 검수](reviews/R01_O15G15L_CLAUDE_LIMITED_AND_SOURCE_BLIND.md)는 산술 오류를 찾지 못했으나 신인 서명 순서와 `15/15`의 조건부 위상을 지적해 본문을 보강했다. 다음은 **Bacon 보장일/방출 유지 여부, Vučević·Aminu·Nnaji 소유와 신인 서명/금액, FA 선택별 비용**을 채우는 일이다. 새 작가확정 0건, G14 ORL4 `ROLE_HOLD`·DET4 `PRIOR_HOLD`, G16/G17 미완료, 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15M — Bacon 미보장 계약과 Mobley3 지명권 급여 비용
+
+[G15M 계약/지명권 원장](research/O15G15M_BACON_GUARANTEE_AND_ROOKIE_CAP_HOLD.md)은 Bacon의 **원역사 2021–22 기본급 $1,824,003·8/8 방출 당시 보호액 $0**을 비공식 계약표와 당시 보도로 대조하고, NBA가 발표한 8/6 정오 ET moratorium 종료와 계약표의 “종료 후 최장 3일 이내” 보장 조건을 분리했다. 8/9 **정오가 정확한 계약 데드라인**이라는 NotebookLM의 단정은 원문에 없으므로 기각했다. 8/8 waiver 사건을 대체 Orlando에도 선택하고 원계약 보호조건이 같아야 원역사식 `dead money $0`을 시험할 수 있다. 늦은 방출은 보장·set-off/waiver 효력 비용을, 보유는 표준 +1과 원역사 Knicks 캠프 경로 소실을 요구한다.
+
+더 중요한 교정은 **명단 자리와 팀 샐러리의 분리**다. 2021년에 적용된 NBA–NBPA 2017 CBA Article VII §4(e)(1)에 따르면 1라운드 선수는 지명권 보유 팀의 팀 샐러리에 선택 직후 스케일 **120% hold**로 반영된다. 따라서 대체 Orlando가 Mobley를 3번으로 실제 지명하면 서명 전 **표준 자리 0 / cap hold 발생**이다. RealGM #3 스케일 $6,729,300을 넣은 **$8,075,160 작업상 hold 후보**는 원역사 Cleveland Mobley 계약 추적액과 일치하나 공식 스케일 원표·대체 Orlando 지명/서명은 아직 확인하지 못했다. 33번 Herbert에는 1라운드 hold 규칙을 이식하지 않는다. G15J의 Vučević+Aminu $34,183,800 부분합에 Mobley hold/Bacon/FA 급여는 포함되지 않는다. [Claude 제한·source-blind 검토](reviews/R01_O15G15M_CLAUDE_LIMITED_AND_SOURCE_BLIND.md)는 waiver 요청/통과 및 Bacon 자리 감소와 Mobley 미서명 0자리의 **다른 인과**를 더 분명히 하도록 지적했고 본문에 반영했다. 신규 작가확정 0건, 2021–22 전체 팀 샐러리·1/23 등록/의료·Chicago 정확 시즌은 `HOLD`. 전체 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
