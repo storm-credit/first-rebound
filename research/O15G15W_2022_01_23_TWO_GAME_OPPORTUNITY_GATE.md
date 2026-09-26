@@ -33,3 +33,7 @@ Denver [공식 경기 박스](https://www.nba.com/nuggets/game/0022100707)는 Nn
 [Claude 제한적 맹점 검토](../reviews/R01_O15G15W_CLAUDE_SOURCE_BLIND.md)는 Chicago/Orlando 산술을 확인하고 Denver Nnaji 분 수신자 미지정과 Mobley 경로 분리를 지적했다. 전자는 이미 열린 `HOLD`, 후자는 G7 드래프트 후보라는 입력 계보를 명시해 보강했다. Claude의 무도구 응답을 경기 원문 검증으로 세지 않는다.
 
 **사실:** 원역사 두 경기 날짜·박스 행, Cleveland 1/22·1/24 일정, 기존 G14/G15B의 숫자 배정. **추론:** 같은 날짜 기회 부채와 원역사 점수 이월 불가. **후보:** Denver/Detroit/Orlando의 구체 수신자·공격 예산. **작가확정:** 신규 0건. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`.
+
+### 후속 교정 — O-15G15X
+
+[19:30 ET 공식 부상 보고와 Denver 분 수신자 시험](O15G15X_DENVER_JAN23_FRONTCOURT_RECEIVER.md)은 원역사 JaMychal Green의 경기 전 상태를 `Available`, 최종 박스를 `DNP - Coach's Decision`으로 대조했다. 위 경기 요약의 방역 결장 서술은 이 더 구체적인 시각별 근거와 충돌하므로 최종 `Out` 근거로 사용하지 않는다. Jeff Green은 같은 보고에서 `Out`이다. JaMychal `16:45`는 조건부 X1 후보일 뿐 실제 출전·대체세계 계약·코치 결정을 확정하지 않는다.
