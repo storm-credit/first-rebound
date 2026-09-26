@@ -133,3 +133,7 @@ Rokas는 실제로 드래프트 전 Barcelona와4년 계약했다([EuroLeague 20
 신규6개 unittest PASS: 매 선택 가용 비교3명/중복0, G3 후보 선점,39변경의 SAS/TOR 파급, 앞선 잔여 후보의 누락 방지, 이미 선택된39후보 거부/15자리 예산, 비교 완료와 세계 확정 플래그 구분. `unjudged_pick_rows_in_this_comparison=0`은 이 비교의60행이 채워졌다는 뜻이다.
 
 `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 CLOSED 유지. 원고·장면·대사는 작성하지 않았다. 다음은 이름이 채워진 Chicago의 취득/예외 순서를2022–23 만료·연장 조건까지 연결하는 작업이다.
+
+### 후속 — G15AC Plumlee/37/57 원역사 거래 비이식
+
+[G15AC 자산 대조](../research/O15G15AC_PLUMLEE_2021_DRAFT_ASSET_COLLISION.md)는 원역사 Plumlee+37 Thor ↔ 57 Koprivica 거래를 DB1~DB4의 픽·선수에 자동 덧붙일 수 없는 이유를 기록한다. 비교안에서는 Thor가 UTA30, DET37은 Aldama, Koprivica가 NYK57이며 CHA58은 Huff다. 기존의 `other_draft_night_trades_executed=false`, 미선택 플래그와 본문 선수 보드는 바꾸지 않는다. Plumlee 거래 미실행도 작가확정이 아니라 별도 비용 분기다.
