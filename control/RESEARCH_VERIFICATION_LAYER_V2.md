@@ -3,7 +3,13 @@
 - 상태: `READY_FOR_TRIAL / NOT_A_CANON_OR_GATE_REPLACEMENT`.
 - 적용 위치: `control/MASTER_WORKFLOW.md`의 조사와 변경 후 검증, `control/ORCHESTRATOR_WORKFLOW.md` R09–R16 사이. 기존 PR→main, 단일 권위, 사용자 확정, `DESIGN_GATE`의 G16/G17 순서를 유지한다.
 - 현재 시험 대상: O-15G15 Suggs 개막 이전 prior와 Orlando 12분. 과거 완료 원장을 전량 반복하지 않는다.
-- [2026-09-26 CLI 시범](../reviews/O15G15_V2_CLI_PILOT_20260926.md): NotebookLM은 제한된 두 출처로 실행, Anti-Gravity는 두 번 시도했으나 출처 팩 없음. Claude 실행 결과는 아직 없다. 도구 출력이나 인포그래픽은 단독으로 정본의 근거가 되지 않는다.
+- [2026-09-26 CLI 시범과 후속 재시험](../reviews/O15G15_V2_CLI_PILOT_20260926.md): NotebookLM 출처 연결 분석과 Anti-Gravity → NotebookLM MCP 호출은 실행됐다. Anti-Gravity의 독립 NBA 출처 팩은 아직 0건이며 Claude 실행 결과는 없다. 도구 출력이나 인포그래픽은 단독으로 정본의 근거가 되지 않는다.
+
+## 현재 실행 연결
+
+- **Codex → Anti-Gravity:** 설치된 `C:\Users\Storm Credit\AppData\Local\agy\bin\agy.exe`를 절대 경로로 호출한다. 2026-09-26 로컬 확인에서 `--version`은 `1.2.11`, `models`는 서비스의 모델 목록을 정상 반환했다. `agy`가 셸 검색 경로에 없다는 사실만으로 연결 실패라고 판정하지 않는다.
+- **Anti-Gravity → 외부 MCP:** 이 CLI는 MCP 클라이언트다. 사용자 확인 기준으로 Codex·NotebookLM·프로젝트별 Obsidian 서버가 설정돼 있다. 이 시범에서 실제 도구 호출까지 확인한 서버는 **NotebookLM**뿐이다. 다른 서버의 설정·활성 표시는 통신 성공의 증거가 아니다. Codex가 Anti-Gravity를 사용하기 위해 Anti-Gravity를 MCP 서버로 등록할 필요는 없다.
+- **분석·검증:** Anti-Gravity의 원자료와 NotebookLM의 출처 연결 분석을 총괄이 후보 판정에 사용하고, Codex는 저장소 검증, Claude는 독립 반증, source-blind 검수는 결과물 자체의 맹점을 맡는다. 마지막 연구 판정도 G16 독립 검수와 G17 작가 승인을 대신하지 않는다.
 
 ## 단계·전용 책임·인수 기준
 
@@ -64,3 +70,5 @@
 후속 O-15G15E에서 [10/16 명단을 대체세계 표준 자리와 대조](../research/O15G15E_ORLANDO_STANDARD_SLOT_BRIDGE.md)했다. Anti-Gravity의 구단 URL 읽기는 `ACCESS_FAILED`, NotebookLM의 같은 URL 소스 추가도 실패했다. NotebookLM에 **Codex 작성 G15E 문서 사본**을 다섯 번째 출처로 올려 NBA 공식 규칙과의 16/17명 산술만 재현했다. 공유 입력이므로 구단 명단의 독립 검증이나 Evidence Pack 증가로 표시하지 않는다.
 
 [MCP/URL 재시험](../reviews/O15G15_V2_CLI_PILOT_20260926.md)에서 Anti-Gravity → NotebookLM MCP 호출은 실제 성공했다. 공식 Google 제품 페이지는 `read_url_content`가 저장한 파일을 `view_file`로 잇자 읽혔다. Orlando NBA 기사는 자바스크립트 HTML만 회수되어 명단 본문을 읽지 못했다. NotebookLM에서 이미 수집한 NBA 규칙의 MCP 재조회는 **연결 시험**이며 별도 독립 Evidence Pack이 아니다. 현 단계는 `AG_MCP_CONNECTED / NBA_DIRECT_SOURCE_HOLD`다.
+
+[G15G 후속](../research/O15G15G_AMINU_DEROZAN_CAUSAL_LEDGER.md)에서는 Anti-Gravity의 공식 PDF 읽기가 headless `command` 권한 거부, Bulls 기사 본문 읽기가 `ACCESS_FAILED`였다. NotebookLM CLI에는 NBA 공식 오프시즌 거래 원장 URL을 새로 추가해 8/11 DeRozan 거래의 선수·픽을 출처 제한 질의로 분석했다. 도구들이 같은 원문을 읽은 결과를 독립 원자료로 중복 계수하지 않으며 Anti-Gravity 직접 NBA Evidence Pack은 여전히 0건이다.
