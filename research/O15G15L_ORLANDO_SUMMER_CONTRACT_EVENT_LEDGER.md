@@ -8,7 +8,7 @@
 
 원역사 NBA 드래프트 프로필의 `Under Contract`에는 Cole Anthony, Michael Carter-Williams, Markelle Fultz, R.J. Hampton, Gary Harris, **Dwayne Bacon**, Terrence Ross, Jonathan Isaac, Chuma Okeke, Wendell Carter Jr., Mo Bamba 등 11명이 있다. 이 중 대체 Orlando에 **공통 가능**한 8명은 Cole, Carter-Williams, Fultz, Harris, Ross, Isaac, Okeke, Bamba다. Hampton은 [대체 드래프트 경로](../simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md)에서 Dallas, Carter는 T2 Chicago 분기라 제외한다. Bacon은 **기존 10/16 공통 11명 목록에는 없지만 7월 계약 선수에는 있었다.** 따라서 7월에서 10월로 넘어가려면 이름 있는 방출/거래 사건이 필요하다.
 
-Moritz Wagner는 같은 NBA 표에서 **UFA**다. Lopez와 Moore도 원역사 후속 FA 영입 전에는 위 Orlando 계약 11명에 없다. Herbert Jones 33번·Evan Mobley 3번은 [G7 비교 후보](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)에서 지명권/선택과 계약을 구분해야 한다. `draft rights`만으로 표준 명단 한 자리를 차지한다고 세지 않는다. 신인 미서명 시 팀 샐러리 반영은 CBA·금액 확인 전 `HOLD`다.
+Moritz Wagner는 같은 NBA 표에서 **UFA**다. Lopez와 Moore도 원역사 후속 FA 영입 전에는 위 Orlando 계약 11명에 없다. Herbert Jones 33번·Evan Mobley 3번은 [G7 비교 후보](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)에서 지명권/선택과 계약을 구분해야 한다. **지명권만으로 표준 명단 자리를 차지하지 않는다.** 다만 [2021년에 적용된 2017 NBA–NBPA CBA Article VII §4(e)(1)](https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf)에 따라 **1라운드 지명 선수**는 선택 즉시 권리 보유 팀의 `Team Salary`에 신인 스케일의 **120% cap hold**로 들어간다(정해진 예외 또는 권리 양도·서명 전까지). 따라서 Mobley3을 Orlando가 실제 선택한 분기는 서명 전에도 급여 반영 후보가 생긴다. 33번 Herbert는 2라운드라 **이 1라운드 조항을 적용하지 않는다**. 정확 Mobley3 스케일액·권리 보유와 33번의 required tender/서명 비용은 아직 미입력이다.
 
 **조건부 7월 말 표준계약 보유 시험:** 공통 8 + Bacon 1 + Vučević/Aminu/Nnaji 3 = **12명**. 세 대체 선수의 소유·옵션·정확 거래 실행은 각각 `HOLD`이므로 12는 실제 대체 구단 제출 수가 아니다. 원역사 11명에서 Carter/Hampton을 빼고 Vučević/Aminu/Nnaji를 넣어도 `11−2+3=12`다. Aminu 옵션 미행사, Vučević 후속 이적, Nnaji 거래 미실행이면 각 해당 선수를 빼고 재산정해야 한다. 서명 전 Mobley/Herbert는 이 12에 포함하지 않는다.
 
@@ -18,7 +18,7 @@ Moritz Wagner는 같은 NBA 표에서 **UFA**다. Lopez와 Moore도 원역사 �
 
 | 날짜 | 원역사 사건 | 대체 Orlando에서 필요한 판단 | 조건부 표준 수 / 급여 상태 |
 |---|---|---|---|
-| 2021-07-29 | Orlando는 원역사 33번 Jason Preston 권리를 Clippers에 양도해 Detroit 경유 2026년 2R+현금을 얻었다. | Herbert33 선택 시 이 원거래와 수입을 함께 취소; Mobley3·Herbert33 선택, 계약 서명은 각각 별개. | **12** 시험. Vučević $24m·Aminu $10.1838m은 [G15J](O15G15J_ORLANDO_2021_22_CONTRACT_INPUT_LEDGER.md)의 조건부 **두 사람 부분합**만 가능. Bacon·Nnaji 및 나머지 급여 미합산. |
+| 2021-07-29 | Orlando는 원역사 33번 Jason Preston 권리를 Clippers에 양도해 Detroit 경유 2026년 2R+현금을 얻었다. | Herbert33 선택 시 이 원거래와 수입을 함께 취소; Mobley3·Herbert33 선택, 계약 서명은 각각 별개. | **12** 표준계약 시험. Vučević $24m·Aminu $10.1838m은 [G15J](O15G15J_ORLANDO_2021_22_CONTRACT_INPUT_LEDGER.md)의 조건부 **두 사람 부분합**만 가능. Mobley3 선택이 성립하면 **미서명 1R cap hold도 별도로 발생**하며 이 부분합에는 없다. Bacon·Nnaji 등 나머지 급여 미합산. |
 | 2021-08-03 | 원역사 Suggs·Franz Wagner 신인 계약. | 두 선수는 비교 분기에서 다른 팀이므로 원역사 ORL 서명 복사 금지. Mobley·Herbert의 대체 계약일/금액 `?`. | **12+?+?**. 드래프트권과 선수계약 분리. |
 | 2021-08-06 | 원역사 Robin Lopez FA 영입. | 빅맨 과밀과 Lopez의 후속 구단/역할을 함께 비교한 뒤 채택 여부 결정. | 채택 시 **13**; 계약 발표에는 공개 금액 없음. |
 | **2021-08-08** | **Orlando가 Dwayne Bacon 방출.** 공식 미디어 가이드에 날짜가 있다. | 원역사 사건을 대체세계에서도 채택하면 7월 보유에서 10월 명단으로 연결되는 명시적 `−1`. 유지한다면 10월 16/17명 산술에 **한 명 추가**. | 채택 시 **12**. [SalarySwish 계약 이력](https://www.salaryswish.com/players/dwayne-bacon)과 [당시 보도](https://www.hoopsrumors.com/2021/08/dwayne-bacon-waived-by-magic.html)는 $1,824,003의 당시 미보장 급여·원역사 dead money 0을 제시하지만 **구단 연표는 보호액을 공개하지 않는다**. 대체 방출 시 보장일·보호액·set-off는 미확정. |
