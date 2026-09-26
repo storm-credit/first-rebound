@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15H Orlando 2021-10-16~2022-01-23 조건부 등록 자리 증명; 다음 Aminu/Vučević·Lopez/Moritz 계약·급여 사건과 1/23 의료·활동`
-- 최근 설계 변경: `G15H에서 Aminu 10/16 전 처분 조건의 O15A 표준15+투웨이2에 G15B 양수 분 9명 전원 포함, O15C는 Gravett 신규 표준계약에 추가 1자리 사건 필요. 계약·의료·역할 미검증, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15I Aminu 조건부 방출·트레이드의 2021–22 명단 자리와 팀 샐러리 비용 분리; 다음 정확 보호급여·팀 샐러리·선수 후속 경로`
+- 최근 설계 변경: `G15I에서 Aminu의 2021–22 선수 옵션이 방출/트레이드보다 선행함을 발견. 방출 보장급여는 명단 자리와 달리 자동 삭제되지 않고 Moritz 비재계약의 FA cap hold도 별도 검증 필요. 계약·의료·역할 미검증, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -898,3 +898,9 @@ Anti-Gravity CLI는 절대 경로에서 버전/모델 서비스 조회가 정상
 [G15H 원장](research/O15G15H_ORLANDO_DATED_REGISTRATION_WITNESS.md)은 G15B 양수 분 선수 9/10명을 G15E의 조건부 표준 15명·투웨이 2명에 직접 대조했다. Aminu의 10/16 전 처분이 실제 사건으로 성립하고 공통 11명+Vučević/Nnaji/Mobley/Herbert가 표준 계약을 맺는 조건에서 O15A 9명은 이름 집합에 모두 들어간다. 원역사 1/23 Orlando `Out` 7명 중 이 대체 명단에 겹치는 6명을 **추가로 이월하는 경우에만** 표준 9명+투웨이 2명의 잠재 집합이다. O15C의 Gravett는 단순 추가 시 표준 16명이라 Lopez 비영입 또는 Moritz 비재계약 같은 추가 한 자리 사건과 새 1/23 계약이 필요하다. 이는 수량·부분집합 증명이지 계약·의료·활동·NBA PG 역할 통과가 아니다.
 
 NotebookLM CLI는 규칙·부상 보고서 두 기존 출처만 지정해 교차 분석했고 시간 표기의 `05:00 PM` 오류는 원문 `05:30 PM`으로 교정했다. Anti-Gravity CLI는 NBA 거래 원장의 8/11 절 정보를 반환했지만 규칙 URL은 도구 호출 후 본문 판독 실패였다. [Claude 제한 반증 검토](reviews/R01_O15G15H_CLAUDE_LIMITED_REVIEW.md)는 최초 광범위 요청이 시간 초과, 후속 G15H 산술 감사가 완료돼 확실한 산술 오류 0건이었다. [결과물 단독 맹점 검수](reviews/R02_O15G15H_SOURCE_BLIND_REVIEW.md)는 의료 이월·실존 선수 비용·리그 인과의 표현을 지적해 G15H에 반영했다. 14명 최소 규정과 하드십·실제 의료는 HOLD다. 두 검수를 G16 독립 검수 완료로 세지 않는다. 공유 자료를 독립 출처로 중복 계수하지 않는다. 다음은 Aminu/Vučević의 2021–22 계약 소유·급여 charge, Lopez/Moritz의 이름 있는 사건 비용과 Herbert/Mobley/Nnaji 서명·당일 활동 검증이다. G14 HOLD·시즌/정확 실행 미선택, 전체7개 중1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15G15I — Aminu 자리 이탈과 샐러리캡 비용 분기
+
+[G15I 비용 원장](research/O15G15I_AMINU_WAIVER_CAP_COST.md)은 먼저 Aminu의 2021–22 **선수 옵션 행사/미행사**를 나누고, 행사한 경우에만 보유/개막 전 방출/개막 전 트레이드/개막 뒤 처분을 비교한다. 원역사 옵션 행사와 $10,183,800은 비공식 계약 추적표끼리 일치하지만, 대체세계의 Orlando 소속 행사나 개인 동기를 확정하지 않는다. NBA의 당시 CBA 101에 따르면 방출 선수에게 남은 보장급여도 팀 샐러리에 포함되며, 현금 지급 stretch와 cap stretch는 다르다. 따라서 G15H의 표준 자리 1개 해결을 **급여 여유 확보**로 승격하지 않는다. Moritz 비재계약은 자체 UFA 권리와 cap hold 처리, Lopez 비영입은 외부 FA의 대체 행선지가 각각 HOLD다. 2019 구단 계약 발표는 Aminu/Vučević의 연도별 계약 금액을 공개하지 않아 정확 2021–22 대체 계약액과 Orlando 팀 샐러리는 비워 뒀다.
+
+NotebookLM CLI는 NBA CBA PDF와 NBA 2021–22 캡 발표 두 공식 출처에 한정해 보장급여·stretch·리그 기준선($112.414m cap/$136.606m tax)을 인용했다. Anti-Gravity CLI는 CBA PDF 직접 판독에는 시간 초과했으나 **NBA 캡 발표 원문 1건**을 `read_url_content`→`view_file`로 실제 읽고 동일 수치를 반환했다. [Claude CBA 반증](reviews/R01_O15G15I_CLAUDE_CBA_REVIEW.md)의 48시간/RFA/9월1일 주장은 원문 대조 후 기각하거나 표현만 정밀화했다. [결과물 단독 맹점 검수](reviews/R02_O15G15I_SOURCE_BLIND_REVIEW.md)는 팀 급여 기준선·거래 상대의 수용 비용·8월 Chicago 거래 선행을 지적해 연결했다. 동일 NBA 원문을 독립 출처 여러 개로 세지 않고 두 검수를 G16 완료로 세지 않는다. 새 방출/트레이드·계약·시즌/승패/원고 확정은 0건. 다음은 실제 계약 보호액·대체 Orlando 전체 팀 샐러리, waiver 또는 거래 상대와 선수·픽 비용을 날짜별로 채우는 것이다. 전체 7개 매크로 게이트는 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.

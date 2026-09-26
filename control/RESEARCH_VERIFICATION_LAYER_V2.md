@@ -78,3 +78,7 @@ G15F까지의 시범 상태는 로그인 복구 후 Anti-Gravity `RUN / NO_VERIF
 [Claude 제한 검토](../reviews/R01_O15G15H_CLAUDE_LIMITED_REVIEW.md)는 넓은 반증 요청이 시간 초과로 미완료였고, 좁은 G15H 산술 검토만 종료했다. 지적을 수용해 계약 자리·의료 분기를 분리했으며 최소 명단 14/15 적용은 HOLD다. 이 시점은 `CLAUDE_LIMITED_RUN`이고 source-blind는 아직 `NOT_RUN`이었다. G16/G17 PASS가 아니다.
 
 [결과물 단독 맹점 검수](../reviews/R02_O15G15H_SOURCE_BLIND_REVIEW.md)도 실행했다. 의료 이월 편의, Lopez/Moritz 실존 선수 비용, Orlando 리그 인과를 지적했고 문서에 선택 전 조건을 보강했다. Hampton 삭제 의심은 Dallas 31번 정본으로 기각했다. 상태는 `SOURCE_BLIND_EDITORIAL_RUN`이며 원문을 독립 검증한 G16 PASS가 아니다.
+
+[G15I 샐러리캡 비용 분기](../research/O15G15I_AMINU_WAIVER_CAP_COST.md)에서는 명단 한 자리와 방출 뒤 팀 샐러리를 구분했다. NotebookLM CLI는 NBA CBA PDF와 2021–22 캡 발표를 지정 출처로 인용했다. Anti-Gravity CLI는 NBA CBA PDF 판독에 실패했지만 별도 캡 발표 URL은 `read_url_content`→`view_file`로 본문을 실제 읽었다. 상태는 **해당 NBA 기사 1건의 직접 판독 PASS**, CBA PDF와 Aminu 계약액은 `HOLD`다. 같은 기사에 대한 Codex·NotebookLM·Anti-Gravity 확인을 세 독립 출처로 세지 않는다.
+
+[G15I Claude 반증](../reviews/R01_O15G15I_CLAUDE_CBA_REVIEW.md)은 48시간 waiver·Moritz FA 지위·9월1일 stretch에 오류 가능성을 제기했으나 NBA CBA 전체본과 구단/리그 자료에 대조해 모델의 잘못된 전제를 기각했다. [G15I 결과물 단독 검수](../reviews/R02_O15G15I_SOURCE_BLIND_REVIEW.md)는 상대 팀 수용·픽/현금 보상과 8월 Chicago 거래→10월 Orlando 시장의 순서를 보강했다. 별도 조사로 드러난 Aminu 선수 옵션 선행 게이트는 모델의 성과로 오인하지 않는다. 둘 다 제한적 실행이며 G16 전체 독립 검수 PASS가 아니다.
