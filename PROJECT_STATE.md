@@ -1,6 +1,6 @@
 # Project State
 
-- 기준일: 2026-09-26
+- 기준일: 2026-09-27
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
@@ -9,9 +9,9 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15AR Sekou/Okafor 실명 이탈과 미충원 차지·9월 Nets 거래 경계; 다음 8/6 수취팀·픽/예외·전체 Team Salary·개막 명단/분 연쇄 회수`
+- 현재 작업: `O-15F14 D1 Chicago 2020–21 정확 실행의 미해결 항목 회수. K1/L2 추천과 CP2 잠정 추첨은 이미 완료; F1~F5 사실 및 A1~A3 최종 채택이 미해결이고 K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS 네 묶음 모두 미완료. 2021–23 G15AU는 조건부 선행 연구로만 보존`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
-- 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
+- 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; Chicago D1 채택 준비 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`; 잠정 픽 `simulation/NBA_2021_PROVISIONAL_DRAFT.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
 - 최신 가용성 권위: `simulation/CHICAGO_2020_21_AVAILABILITY_ROLE_RESPONSE.md`; Carter 후속 `simulation/CHICAGO_2020_21_CARTER_RESPONSE_DECISION.md`
