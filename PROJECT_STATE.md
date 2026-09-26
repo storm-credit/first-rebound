@@ -1028,3 +1028,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-N — Hall 재계약 이후 공개 결장 상태
 
 [F14-N 원장](research/O15F14N_HALL_MAY9_16_FOUR_PLAYER_STATUS.md)은 원역사 Orlando의 5/9·11·13·14·16 경기 전 NBA 공식 부상 보고서에서 Carter-Williams·Fultz·Isaac·Ross 네 명 모두 `Out`인 20행을 확인했다. 이는 이미 확보한 5/3·5·7의 선행 3경기 결장과 이어지는 **공개 상태 근거**이며, 경기 후 실제 출전·리그 승인 서류 또는 대체 세계의 동일 건강/승인을 증명하지 않는다. Hall 발표보다 5/9 보고서가 8분 늦어 이를 계약 전 승인 근거로 쓰지 않는다. F4/K_REGISTRATION의 정확 허가·급여와 A1/A2 채택은 `HOLD`; K1/L2 추천·CP2 잠정 추첨과 Chicago 2020–21 D1 정확 실행의 중단 지점은 불변이다. Antigravity headless 명령 권한 거절, NotebookLM 두 NBA PDF 한정 분석 성공, Codex 다섯 공식 PDF 대조를 구분했다. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-O — Hall 복귀 5경기의 실제 미출전
+
+[F14-O 원장](research/O15F14O_HALL_FIVE_FINAL_BOX_ABSENCE.md)은 선행 N의 경기 전 보고와 별도로 NBA 공식 최종 박스 5건을 렌더링해 Carter-Williams·Fultz·Isaac·Ross가 5/9·11·13·14·16 모두 실제 출전하지 않은 20행을 확인했다. Hall은 다섯 경기 모두 양수 분. 5/14 Ross의 최종 박스는 `NWT - Not With Team`만 적으므로 같은 날 경기 전 `Out / Back Spasms`와 출처별 의미를 나눈다. 원역사 결장 연속성이 강화됐으나 리그의 서명 당시 판단·예외 승인/기간, 대체 세계 4인 건강 및 등록 허가는 미확정이다. F4/K_REGISTRATION·A1/A2, Chicago D1 정확 실행은 `HOLD`; K1/L2·CP2 잠정 결과와 후속 조건부 연구는 불변. Antigravity 원문 회수 실패, NotebookLM 최종 박스 2건 한정 재독, Codex 5건 육안 대조. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.

@@ -25,3 +25,5 @@
 | Claude | 완성 원장의 날짜·원역사/대체 세계·신청/승인 경계만 문서 단독으로 반증했다. [R01 검토 기록](../reviews/R01_O15F14N_HALL_STATUS_BLIND.md)에 지적과 처리·원문 접근 한계를 남겼다. |
 
 **사실:** NBA 공식 PDF의 해당 시각 `Out` 20행, 원역사 Hall 계약 공지의 발표 시각·hardship 사용. **추론:** 네 명의 공개 결장 연속성이 추가 자리 유지 신청의 근거에 도움을 준다는 판단. **후보:** 대체 Orlando의 동일 건강 달력·hardship 신청/승인. **작가확정:** 0건. F4/K_REGISTRATION과 A1/A2는 미완료, `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`.
+
+후속 [O-15F14-O 최종 박스 대조](O15F14O_HALL_FIVE_FINAL_BOX_ABSENCE.md)는 같은 다섯 경기의 **실제 미출전 20행**을 별도 확인했다. 5/14 Ross는 경기 전 `Out / Back Spasms`이나 최종 박스 단독 사유는 `NWT - Not With Team`이다. 경기 전 상태와 최종 행을 하나의 동일 기록으로 합치지 않는다.
