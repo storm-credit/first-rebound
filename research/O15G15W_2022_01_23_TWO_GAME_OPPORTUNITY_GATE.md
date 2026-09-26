@@ -37,3 +37,5 @@ Denver [공식 경기 박스](https://www.nba.com/nuggets/game/0022100707)는 Nn
 ### 후속 교정 — O-15G15X
 
 [19:30 ET 공식 부상 보고와 Denver 분 수신자 시험](O15G15X_DENVER_JAN23_FRONTCOURT_RECEIVER.md)은 원역사 JaMychal Green의 경기 전 상태를 `Available`, 최종 박스를 `DNP - Coach's Decision`으로 대조했다. 위 경기 요약의 방역 결장 서술은 이 더 구체적인 시각별 근거와 충돌하므로 최종 `Out` 근거로 사용하지 않는다. Jeff Green은 같은 보고에서 `Out`이다. JaMychal `16:45`는 조건부 X1 후보일 뿐 실제 출전·대체세계 계약·코치 결정을 확정하지 않는다.
+
+[G15Y 세 경기 후속](O15G15Y_2022_01_23_THREE_GAME_PLAYER_FLOW.md)은 같은 날 `ATL@CHA`도 필요함을 확인하고 Denver Bey22 정본/원역사 Detroit Bey의 상대 전환, DB1 Cade CHA·Suggs DET 후보, Chicago LaMelo 정본을 한 표에 묶었다. 이 문서의 ‘두 경기’는 해당 시점 조사 범위이며 전체 1/23 접촉 경기 수가 아니다.
