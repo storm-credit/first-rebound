@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15P Orlando 33번 Herbert 후보의 2라운드 Required Tender와 실제 서명·자리·급여를 분리; 다음 Moritz 실제 QO/renounce, Herbert 대체 계약 예외, Bacon/Aminu 비용 사건 연결`
-- 최근 설계 변경: `2017 CBA 전체본에서 2라운드 1시즌 최저급 Required Tender·수락기간을 확인. 원역사 Orlando 33 Preston→LAC 거래와 NOP 35 Herbert 및 NOP 첫해 $1.7m 계약을 대체 ORL 33 Herbert 보유안에 자동 이전 금지. 미서명 1R 120% hold와 2R 권리 제안 구분, 12명 미만 incomplete roster charge는 별도. G15O 11계약 $92,875,761은 여전히 조건부 부분합이며 Herbert 미포함. Moritz UFA/RFA/QO HOLD, 전체 팀 샐러리/캡 판정 HOLD; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15R Orlando 33번 Herbert 후보의 최저급·MLE 계약 경로와 Moritz 공개 UFA 분류를 대조; 다음 Bacon/Aminu 보호급여, 전체 팀 샐러리, Moritz 실제 QO 사건 연결`
+- 최근 설계 변경: `CBA·NBA cap으로 2021 Herbert 0년 경력 최저급 첫해 $925,258/2년차 $1,563,518을 재현. G15O 11계약 조건부 $92,875,761에 Herbert 최저급 서명 시 $93,801,019, 새 $1.7m 협상 시 $94,575,761은 각각 조건부 12계약 부분합. Lopez $5m+Herbert $1.7m을 같은 MLE로 처리하는 명목 $6.7m은 non-taxpayer MLE 한도 안, taxpayer/room 한도 초과; 실제 자격·apron·선택 HOLD. NBA는 Moritz를 UFA로 분류하지만 QO 제출·철회일과 대체 권리는 HOLD. 전체 팀 샐러리/캡·명단/분 판정 HOLD; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
