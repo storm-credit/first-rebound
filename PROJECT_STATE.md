@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15R Orlando 33번 Herbert 후보의 최저급·MLE 계약 경로와 Moritz 공개 UFA 분류를 대조; 다음 Bacon/Aminu 보호급여, 전체 팀 샐러리, Moritz 실제 QO 사건 연결`
-- 최근 설계 변경: `CBA·NBA cap으로 2021 Herbert 0년 경력 최저급 첫해 $925,258/2년차 $1,563,518을 재현. G15O 11계약 조건부 $92,875,761에 Herbert 최저급 서명 시 $93,801,019, 새 $1.7m 협상 시 $94,575,761은 각각 조건부 12계약 부분합. Lopez $5m+Herbert $1.7m을 같은 MLE로 처리하는 명목 $6.7m은 non-taxpayer MLE 한도 안, taxpayer/room 한도 초과; 실제 자격·apron·선택 HOLD. NBA는 Moritz를 UFA로 분류하지만 QO 제출·철회일과 대체 권리는 HOLD. 전체 팀 샐러리/캡·명단/분 판정 HOLD; O15A/O15C·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15S Orlando 2021–22 이름 있는 계약 비용을 8/3 cap 발효→FA 영입→Bacon 이탈→개막 신인 서명까지 날짜순으로 연결; 다음 실제 보호액·FA hold·신인 서명일·MLE apron·Gordon 거래 매칭 회수`
+- 최근 설계 변경: `G15N/O/M/R의 기존 금액을 중복 조사 없이 연결. 공통8+Vučević/Aminu/Nnaji/Bacon 조건부 8/3 12계약 $122,788,209, Mobley3 미서명 hold 포함 $130,863,369. Lopez·Bacon B0 이탈 완료·Moritz·Moore·Herbert 최저급·Mobley 120% 서명 전부 채택 시 개막 16표준 / 열거 charge $138,363,019. Aminu 전액 보호 waiver는 15자리라도 charge 유지, 무복귀선수 거래는 조건부 $128,179,219; 실제 보호액·상대/매칭·apron·완전 Team Salary HOLD. 8/8 방출 요청과 이탈 완료 시각 분리. Moritz QO 실제 사건, G14 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD, 정확 시즌·G16/G17 HOLD; 작가확정 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
