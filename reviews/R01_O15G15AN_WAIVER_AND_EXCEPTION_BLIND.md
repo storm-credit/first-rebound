@@ -12,3 +12,5 @@
 | 정확 접수 시각, 예외 포기, 모든 FA Amount, 전체 Team Salary 부족 | 수용·유지. 다음 회수 항목이며 문서 완결 주장 없음. |
 
 Claude는 네 분기 산술·날짜 표현에서 구체 오류를 찾지 못했다. 이것은 실제 캡 적격성 PASS가 아니다. Antigravity 팀 기사 본문 실패, NotebookLM 공식 두 소스 분석 성공, Codex 원문 대조 및 G16/G17 미완료를 [검증 레이어 기록](../control/RESEARCH_VERIFICATION_LAYER_V2.md)과 같이 분리한다.
+
+**후속 정정 G15AP:** 이 검토도 Lee FA Amount가 빠진 초안에 대한 당시 기록이다. 네 분기 중 인원과 미충원 차지에 의존한 숫자는 [G15AP](../research/O15G15AP_SABEN_LEE_HOLD_AND_SEQUENCE_CORRECTION.md) 및 수정된 G15AN 표가 우선한다.

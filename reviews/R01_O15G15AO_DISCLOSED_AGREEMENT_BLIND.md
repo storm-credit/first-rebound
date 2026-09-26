@@ -9,3 +9,5 @@
 | 음수 여지를 실제 계약 불가능 판정으로 읽을 위험 | **조건부 표시 유지**. 표가 다른 모든 cap 차지/계약 수단을 배제한 시험임을 재강조했다. |
 
 Codex는 G15AL 원장 수치를 재계산해 통지 미서명 `-$2,333,350`, 선행 계약 `-$1,408,092`를 확인했다. NotebookLM의 2017 CBA 한 출처 질의와 Codex 직접 열람은 같은 원자료의 교차 독해다. 신규 작가확정 0건, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+**후속 정정 G15AP:** 위 선행 계약 `-$1,408,092`는 Lee FA Amount 누락으로 무효다. [G15AP](../research/O15G15AP_SABEN_LEE_HOLD_AND_SEQUENCE_CORRECTION.md)의 통지 선행·서명 선행 모두 `-$2,333,350`을 따른다. 원래 Claude 응답은 이력으로 남긴다.
