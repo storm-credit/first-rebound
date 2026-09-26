@@ -38,3 +38,5 @@ Houston이 10월 Sekou를 받은 데 사용한 **거래 예외의 출처·8/6 �
 **사실:** Rockets의 8/7 공식 Theis 발표, Nets의 9/4 공식 거래, NBA의 10/6 거래. **2차 기록:** ESPN의 예외 사용 계획, Basketball-Reference 픽 소유 분류, Chronicle의 10월 예외·웨이브 보도, 급여 후보. **추론:** 동일 Oladipo 예외 하나를 두 급여에 중복 전액 사용하면 보도된 한도를 넘는다는 산술. **후보:** 8/6 다른 예외·대가·상대방 수락과 새 연쇄. **작가확정:** 0건.
 
 현재 Houston은 `HOLD`다. Chicago 정확 시즌과 G14/G16/G17은 진행상태 불변; 전체 7행 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개.
+
+**후속:** [G15AT 별도 Harden 예외 수치 시험](O15G15AT_HOUSTON_SEPARATE_HARDEN_EXCEPTION_SCREEN.md)은 6월 2차 예산표의 `$5,019,920` 예외를 찾아 Sekou 급여만은 별도 예외에 들어갈 **조건부 가능성**을 추가했다. G15AS는 같은 Oladipo 예외 하나를 이중 쓰는 가설만 기각하며 Houston 전체를 불가능으로 판정하지 않는다.
