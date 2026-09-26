@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15F Orlando 2021 여름 명단·33번 픽 분기 비용; 다음 Vučević/Aminu 실제 급여·날짜 원장과 1/23 선수별 등록`
-- 최근 설계 변경: `G15F 원역사 Lopez·Moritz·Moore 여름 계약과 ORL33→Clippers 2026 DET 2R+현금 대조; O15A 표준 -1/O15C -2 최소 비용 사건 후보. G15B·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD·실제시즌 미선택 유지`
+- 현재 작업: `O-15G15G Aminu 2021 여름 경로와 Chicago–Spurs DeRozan 거래 의존성; 다음 Vučević/Aminu 날짜별 계약·급여·처분과 1/23 선수별 등록`
+- 최근 설계 변경: `G15E 10/16형 표준 16/17명 초과, G15F Lopez·Moritz·Moore 및 ORL33 픽 비용, G15G Aminu의 8/11 DeRozan 원거래 불가 조건을 대조. 새 이동·시즌·정확 실행은 미선택, ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -884,3 +884,11 @@ Anti-Gravity CLI 로그인은 복구됐고 읽기 전용 조사를 실제 실행
 ## O-15G15D — 투웨이 2자리 조건부 점유·가드 추가 경로
 
 [공식 2021–22 로스터 규칙과 구단 거래 연표 대조](research/O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md)를 추가했다. 원역사의 Brazdeikis 투웨이(8/11), Mulder 투웨이(10/26), Mulder 방출·Schofield 투웨이(1/6)를 확인했다. 이 두 투웨이 계약을 대체세계에서도 유지하는 **조건**에서는 1/23 자리가 2/2라 G15B 동시 출전 증명에 Gravett를 세 번째 투웨이로 추가할 수 없다. 표준계약의 15명 점유, 하드십 예외 자격·리그 허가, Herbert 계약/활동, 실제 대체 ORL의 날짜별 전체 명단은 HOLD다. NotebookLM CLI로 규칙·거래 원문을 연결 분석했지만 독립 검수로 세지 않는다. Anti-Gravity CLI의 해당 규칙 조사도 권한 거부로 검증된 출처 팩은 0건 유지. 시즌/승패/계약/픽 확정 없음. 전체7개 중1완료·1진행·5대기, 진행 중 포함 남은6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15E–G — Orlando 2021–22 자리·거래 연쇄
+
+[G15E](research/O15G15E_ORLANDO_STANDARD_SLOT_BRIDGE.md)는 2021-10-16 원역사 표준 15명+투웨이 1명 명단을 대체세계 공통 11명에 대조했다. 조건부 O15A는 표준 16명, O15C는 Gravett 표준계약까지 더해 17명이므로 개막 전 이름 있는 자리 비용이 각각 최소 1/2건 필요하다. [G15F](research/O15G15F_ORLANDO_OFFSEASON_BRANCH_COSTS.md)는 Lopez·Moritz·Moore 여름 계약과 Orlando 33번 Jason Preston 권리 양도의 픽/현금 비용을 연결했다. Herbert 33번 후보를 쓰면 원역사의 2026 Detroit 2R+현금 유입을 그대로 보유할 수 없다.
+
+[G15G](research/O15G15G_AMINU_DEROZAN_CAUSAL_LEDGER.md)는 원역사의 8/11 DeRozan 사인앤트레이드가 Aminu·Young·1R·2R 두 장을 Spurs에 보낸 사실을 공식 NBA 거래 원장과 구단 발표로 대조했다. T2의 Orlando Vučević 2020–21 말까지 잔류는 Chicago가 3월 원거래로 Aminu를 얻었다는 뜻이 아니며, G8의 Young 유지 조건부 예산도 원거래를 자동 재현하지 않는다. Aminu를 10/16 전에 Orlando에서 한 명 처분하면 O15A의 **수량만** 15가 되지만 O15C는 16명으로 남는다. 날짜·새 팀·급여/보상·1/23 등록은 HOLD다.
+
+Anti-Gravity CLI는 절대 경로에서 버전/모델 서비스 조회가 정상이고 Anti-Gravity→NotebookLM MCP 실제 호출은 통과했다. 이번 공식 PDF/기사 직접 읽기는 권한 거부/본문 접근 실패로 독립 NBA Evidence Pack이 여전히 0건이다. NotebookLM CLI는 새 NBA 거래 원장 URL을 추가하고 해당 출처만으로 8/11 자산을 연결 분석했다. Claude/source-blind는 `NOT_RUN`, G16 독립 검수나 G17 작가 승인을 대체하지 않는다. 전체7개 중1완료·1진행·5대기, 진행 중 포함 남은6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
