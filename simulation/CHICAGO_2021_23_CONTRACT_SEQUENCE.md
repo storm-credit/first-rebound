@@ -48,6 +48,16 @@ NTMLE 자격은 예외가 생긴 때부터 사용까지 유지돼야 한다. Gre
 
 [2021 NBA 일정](https://www.nba.com/news/nba-announces-start-date-for-2021-free-agency)의 협상 시작은8/2, 일반 FA 계약 시작은8/6이다. 구체 서명일은 채택하지 않았다. 모든 계약을8/2에 완료했다고 쓰지 않는다.
 
+### D2 실제 발표 시각과 대체 세계 취득의 경계
+
+| 실제 역사에서 확인되는 사건 | 1차 근거가 인증하는 범위 | 이 설계의 조건부 처리 |
+|---|---|---|
+| 8/2 18:00 ET 협상 시작, 8/6 12:01 ET 서명 가능 | [NBA·NBPA 발표](https://www.nba.com/news/nba-announces-start-date-for-2021-free-agency)의 리그 일정 | SQ1~SQ4 어느 경로도 8/2에 서명이 끝난 것으로 놓지 않음 |
+| 8/10 Chicago의 Caruso 영입 발표 | [구단 공지](https://www.nba.com/bulls/news/bulls-sign-alex-caruso)는 실제 영입만 확인하며 계약 조항을 공개하지 않음 | 대체 Chicago의 $8.6m·NTMLE·권리 처리 순서는 G3/G8의 **제안·산술**로 유지. 실제 구단 발표일을 대체 세계 서명일로 고정하지 않음 |
+| 8/19 Chicago의 Bradley 영입·Green 재계약·Dotson 투웨이 발표 | [구단 공동 공지](https://www.nba.com/bulls/news/bulls-sign-free-agents-bradley-green-and-dotson)는 세 발표와 계약 유형 중 Dotson의 투웨이만 확인하며 나머지 금액·법적 효력일은 공개하지 않음 | Bradley 최소계약 수락과 C 12분, Green 재계약은 각각 조건부. Green의 대체 Chicago 소속은 앞선 F1 거래 정확 실행에 의존. Dotson을 G1A의 일반계약 15자리로 자동 추가하지 않음 |
+
+G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **구단 발표일**이다. 둘이 다른 이유나 정확한 법적 효력일을 자료 없이 단정하지 않는다. 원역사 발표는 선수 영입의 실례일 뿐, Carter가 남는 대체 Chicago에서도 선수·상대 구단이 같은 조건에 동의했다는 증거가 아니다. 새 서명일·급여 원장·동의가 확인될 때까지 `D2 실제 계약=HOLD`이며, 기존 #10 Duarte·#39 Wieskamp 보드는 최종 지명으로 승격하지 않는다.
+
 - 2021–22용 P/Carter/Coby rookie option은 이전 행사 기간에 처리돼 있어야 한다. 실제 Coby/Carter 공지는 [2020-12-20](https://www.nba.com/news/bulls-exercise-options-on-white-carter-jr-hutchison)이다. 가상 P의 행사 문서나 이 세계 Hutchison 소속을 그 공지로 인증하지 않는다.
 - Young·Satoransky는 제안된 전액 급여로 유지한다. 무보장/부분보장이라는 표시는 시즌 내내 공짜로 사용할 수 있다는 뜻이 아니다.
 - 사용하지 않는 Porter·Felicio·Temple 등의 FA 권리와 Arcidiacono 옵션/권리를 실제 장부와 대조해 정리한다. 다른 팀에 간 선수의 보류액이나 과거 캠프 비용을 매년 다시 더하지 않는다. 서면 권리 포기와 선수 방출을 구분한다.
