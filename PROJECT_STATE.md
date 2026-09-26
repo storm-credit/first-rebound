@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15T Moritz 2021-08-04 합의 보도와 8/23 실제 서명을 분리하고, Franz GSW·Vučević 잔류 아래 재계약/미재계약·FA hold의 날짜별 자리와 비용을 비교; 다음 실제 QO/renounce·다음 팀·빅맨 240분 회수`
-- 최근 설계 변경: `G15S의 조건부 8/3 12계약 $122,788,209 / Mobley3 hold 포함 $130,863,369, 개막 두 신인·세 FA 채택 16표준·열거 charge $138,363,019 유지. Moritz 8/4는 NBA의 취재 인용 합의 보도, 8/23이 구단의 실제 서명 발표. Franz가 GSW인 대체 분기에서는 형제 동팀 동기를 자동 이월하지 않음. Moritz 비재계약이면 조건부 15표준·계약 부분합 $136,633,802, 비공식 $1,669,178 FA hold 유지 시험은 열거 합 $138,302,980, 적법 제거 시험은 $136,633,802. 실제 QO/hold·권리 포기·다음 팀·출전분·apron·완전 Team Salary HOLD. G14 ORL4 ROLE_HOLD·DET4 PRIOR_HOLD, 정확 시즌·G16/G17 HOLD; 작가확정 0건`
+- 현재 작업: `O-15G15U Moritz 2021-08-06 FA hold/renounce와 8/4 보도의 NBA 통지 여부를 분리해 Lopez MLE 시점의 이름 있는 부분합 재검산; 다음 실제 QO·권리 포기·합의 통지 서류, 다른 FA hold/예외 및 빅맨 분 회수`
+- 최근 설계 변경: `2017 CBA는 UFA도 재서명/타 팀 서명/renounce 전 FA amount 포함, 유효 QO 중 renounce 금지, 통지된 구두·서면 합의의 예상 급여 반영을 규정. Moritz 8/6 hold 유지 H는 열거 부분합 $137,532,547, 적법 제거 R은 $135,863,369, 같은 $1,729,217 예상 급여의 리그 통지 D는 $137,592,586 조건부 시험. NBA 8/4 합의 보도만으로 통지·경제조건·효력일 증명 불가; 미통지를 적법한 cap 절약 수단으로 사용 금지. 8/23 실제 계약을 채택하면 세 경로의 열거 종점 같음. M0 개막 15표준/FA hold 가능성, Moritz 및 Vucević/Bamba/Lopez/Nnaji/Mobley의 센터/PF 96분 재배분 HOLD. 완전 Team Salary/apron·QO/renounce 실제 사건·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
