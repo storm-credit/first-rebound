@@ -52,3 +52,7 @@
 다음은 **대체 Detroit의 2020/2021 신인 서명과 기존 7명 계약·거래의 날짜별 소유 원장**, 그리고 그 이후에만 조건부 1/23 240분·공격 기회 증명이다. Chicago 2020–21 정확 시즌, G14 DET `PRIOR_HOLD`·ORL `ROLE_HOLD`, G16/G17은 그대로다. 7개 매크로 게이트는 1완료·1진행·5대기, 진행 중 포함 6개가 남는다.
 
 [이번 CLI·제한 source-blind 검토](../reviews/R01_O15G15AB_CLI_AND_SOURCE_BLIND.md)는 NotebookLM의 공식 부상 보고 한정 확인, Antigravity 시간 초과·본문 0건, Claude의 유효한 미해결 게이트와 잘못된 이중계산/드래프트 충돌을 분리했다. 어떤 검토도 G16/G17 완료가 아니다.
+
+### 후속 — G15AC Plumlee 거래의 드래프트 자산 비용
+
+[G15AC](O15G15AC_PLUMLEE_2021_DRAFT_ASSET_COLLISION.md)는 G14의 Plumlee 조건부 잔류와 원역사 2021-08-06 Charlotte 거래가 DB1의 30·37·57·58순위 제안과 **동일하게 실행될 수 없음**을 확인했다. 원역사 DET 1/23에 Plumlee가 없다는 관측만으로 대체 DET Plumlee를 지우거나, G14 C24를 1/23에 무료 추가하지 않는다. 날짜별 계약·거래·활동과 Charlotte 상대 비용은 `HOLD`다.

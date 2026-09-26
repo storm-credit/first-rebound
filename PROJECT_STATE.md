@@ -948,3 +948,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AB — Detroit 1/23 원역사 전체 박스 기준선
 
 [G15AB](research/O15G15AB_DETROIT_JAN23_ORIGINAL_BOX_AND_BRANCH_BOUNDARY.md)은 NBA 공식 페이지 내장 박스의 13행을 [JSON](simulation/NBA_2022_01_23_DET_ORIGINAL_BOX.json)으로 보존하고 [검증기](tools/check_o15g15ab_detroit_box.py)로 원역사 **10명 출전+3명 DNP, 240:00/75 FGA/19 FTA/111점/22 TOV**를 재현했다. 2020 확정 Bey+Hayes 이탈은 `55:24/16 FGA/19점/6 TOV`, DB1 Cade CHA1까지 조건부 적용하면 세 명 `91:38/31 FGA/37점/12 TOV`다. 나머지 원역사 7명 `148:22/44 FGA/74점/10 TOV`도 대체 Detroit에 자동 잔류하지 않는다. G14 10/20 Detroit 조합의 Grant/Olynyk/Plumlee와 원역사 공격 예산을 1/23에 복사하지 않는다. 대체 계약·등록·의료·240분·공격예산·승패가 `HOLD`다. 다음은 이름별 날짜별 소유·서명·거래 원장이다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 미완료이며 새 작가확정 0건. 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15AC — Plumlee 원역사 거래와 DB1 자산 충돌
+
+[G15AC](research/O15G15AC_PLUMLEE_2021_DRAFT_ASSET_COLLISION.md)은 원역사 Charlotte의 **Plumlee+37 Thor 수취 / 57 Koprivica 양도**와 DB1~DB4 비교안의 **UTA30 Thor·DET37 Aldama·NYK57 Koprivica·CHA58 Huff**를 대조했다. `selected_scenario=null`, `other_draft_night_trades_executed=false`를 유지하며 원역사 거래를 한 줄로 복사하면 Thor 선행 지명과 57번 소유권이 충돌한다. P0 거래 미실행/Plumlee 보유와 P1 새 자산 거래를 조건부 비교로만 열었다. P0도 Plumlee의 2022-01-23 Detroit 계약·등록·건강·분이나 Charlotte 대체 센터를 확정하지 않는다. 다음은 P0의 계약·자리·급여 연속성과 Charlotte 보상 비용이다. Chicago 2020–21 정확 시즌, G14 DET/ORL, G16/G17은 `HOLD`; 신규 작가확정 0건, 7개 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
