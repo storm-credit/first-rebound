@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15U Moritz 2021-08-06 FA hold/renounce와 8/4 보도의 NBA 통지 여부를 분리해 Lopez MLE 시점의 이름 있는 부분합 재검산; 다음 실제 QO·권리 포기·합의 통지 서류, 다른 FA hold/예외 및 빅맨 분 회수`
-- 최근 설계 변경: `2017 CBA는 UFA도 재서명/타 팀 서명/renounce 전 FA amount 포함, 유효 QO 중 renounce 금지, 통지된 구두·서면 합의의 예상 급여 반영을 규정. Moritz 8/6 hold 유지 H는 열거 부분합 $137,532,547, 적법 제거 R은 $135,863,369, 같은 $1,729,217 예상 급여의 리그 통지 D는 $137,592,586 조건부 시험. NBA 8/4 합의 보도만으로 통지·경제조건·효력일 증명 불가; 미통지를 적법한 cap 절약 수단으로 사용 금지. 8/23 실제 계약을 채택하면 세 경로의 열거 종점 같음. M0 개막 15표준/FA hold 가능성, Moritz 및 Vucević/Bamba/Lopez/Nnaji/Mobley의 센터/PF 96분 재배분 HOLD. 완전 Team Salary/apron·QO/renounce 실제 사건·정확 시즌·G16/G17 HOLD, author lock 0건`
+- 현재 작업: `O-15G15V 원역사 2021–22 전방 7명 분/선발을 공식 구단 자료로 복원하고 Orlando 규정시간 예산·Chicago/Cleveland/Denver 이탈 기회를 조건부 대조; 다음 실제 거래/서명/의료·82경기 날짜별 분 회수`
+- 최근 설계 변경: `G15U의 Moritz H/R/D FA 비용 분기와 QO/renounce/통지 HOLD 유지. G15V에서 Vučević CHI 2,418분, Mobley CLE 2,331분, Nnaji DEN 698분, Bamba ORL 1,824분, Moritz ORL 960분, Lopez ORL 612분, Okeke ORL 1,749분의 원역사 회고 행 확보. 여섯 빅맨 원역사 8,843분은 82경기 규정시간 C/PF 7,872분보다 971분 많다는 압박 진단일 뿐 대체세계 분 예측 아님. G15B 1/23 C=Vučević36+Bamba12, PF=Mobley24+Nnaji12+Okeke12와 연결; Moritz/Lopez 0분의 시즌 지속 불가 여부는 날짜별 검증 필요. Chicago/Cleveland/Denver의 기회 재배분·계약/의료/거래·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
