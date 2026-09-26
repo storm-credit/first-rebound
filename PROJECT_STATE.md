@@ -9,7 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15F14 D1 Chicago 2020–21 정확 실행의 미해결 항목 회수. K1/L2 추천과 CP2 잠정 추첨은 이미 완료; F1~F5 사실 및 A1~A3 최종 채택이 미해결이고 K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS 네 묶음 모두 미완료. 2021–23 G15AU는 조건부 선행 연구로만 보존`
+- 현재 작업: `O-15F14 D1 Chicago 2020–21 정확 실행 종료 묶음. K1/L2 추천과 CP2 잠정 추첨은 이미 완료; F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 묶음 종료 0/4. 동일 근거 재수집을 멈추고 새 거래일 증거가 생길 때 D1을 재개하며, 승인된 CP2로 D2 2021 선수·계약을 조건부 계속`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; Chicago D1 채택 준비 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`; 잠정 픽 `simulation/NBA_2021_PROVISIONAL_DRAFT.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
@@ -1032,3 +1032,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-O — Hall 복귀 5경기의 실제 미출전
 
 [F14-O 원장](research/O15F14O_HALL_FIVE_FINAL_BOX_ABSENCE.md)은 선행 N의 경기 전 보고와 별도로 NBA 공식 최종 박스 5건을 렌더링해 Carter-Williams·Fultz·Isaac·Ross가 5/9·11·13·14·16 모두 실제 출전하지 않은 20행을 확인했다. Hall은 다섯 경기 모두 양수 분. 5/14 Ross의 최종 박스는 `NWT - Not With Team`만 적으므로 같은 날 경기 전 `Out / Back Spasms`와 출처별 의미를 나눈다. 원역사 결장 연속성이 강화됐으나 리그의 서명 당시 판단·예외 승인/기간, 대체 세계 4인 건강 및 등록 허가는 미확정이다. F4/K_REGISTRATION·A1/A2, Chicago D1 정확 실행은 `HOLD`; K1/L2·CP2 잠정 결과와 후속 조건부 연구는 불변. Antigravity 원문 회수 실패, NotebookLM 최종 박스 2건 한정 재독, Codex 5건 육안 대조. 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15F14-P — D1 종료 묶음과 다음 실행
+
+[D1 종료 묶음](simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)은 이미 있는 K1/L2·CP2 잠정 결산을 완료 입력으로 고정하고 F1~F5 전체 PASS 0/5, A1~A3 최종 채택 0/3, 네 K 종료 0/4를 한 표에 묶었다. 각 정확 필드의 최소 판정과 미확보 시 **열린** `HOLD`를 명시했다. 동일 근거 반복 수집을 멈추되 게이트를 면제하지 않는다. 새 거래일 근거가 없는 동안 CP2가 허용한 **D2 2021 선수·계약 조건부 경로**에서 잠정 #10/#39·백업 C 취득·Caruso 예외 순서를 연결한다. D1 정확 시즌·계약·최종 픽·작가확정은 0건이다. 7개 매크로 게이트 1완료·1진행·5대기, 진행 중 포함 남은 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
