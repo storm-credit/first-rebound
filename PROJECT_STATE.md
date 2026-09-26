@@ -9,8 +9,8 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
-- 현재 작업: `O-15G15K Aminu 선수 옵션의 보도일/통지일을 정정하고 행사 작업상 우선 후보를 비교; 다음 2021-07-29→08-11→10-16 계약 소유·명단·급여 사건표`
-- 최근 설계 변경: `G15J의 Aminu 5/18 행사일 단정을 교정: 5/18은 행사 계획 보도일이고 비공식 계약 이력은 5/18·5/21로 충돌, 공식 통지일 미확보. 5월 Orlando 소유도 별도 이동 없음 조건이며 EXERCISE_WORKING_PRIOR는 작가확정 아님; ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
+- 현재 작업: `O-15G15L 2021-07-29→08-11→10-16 Orlando 계약 소유·등록 사건표와 Bacon 8/8 방출 경계 복구; 다음 선수별 2021–22 charge·보장일·FA 분기 비용`
+- 최근 설계 변경: `원역사 NBA 드래프트 당시 Under Contract 명단의 Dwayne Bacon을 7월 시작 장부에 추가하고 8/8 공식 방출을 10/16 자리 산술과 연결. 대체세계 방출/보호급여는 미확정; O15A/O15C·Aminu 행사 우선 시험·ORL4 ROLE_HOLD·DET4 PRIOR_HOLD 유지`
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
@@ -916,3 +916,9 @@ NotebookLM CLI는 NBA CBA/캡 공식 두 출처만 지정해 팀 샐러리 규�
 [G15K 옵션 검토](research/O15G15K_AMINU_OPTION_NOTICE_AND_PREFERENCE.md)는 G15J의 **5/18 행사일 단정**을 교정했다. 5/18 NBC Sports 기사는 Chicago 소속 Aminu가 옵션을 행사할 **계획**이라는 보도이고, SalarySwish의 5/18과 Spotrac의 5/21 거래 이력은 정확 날짜가 다르다. 공식 통지일·계약서의 통지 마감 조항은 확보하지 못했다. T2의 명시 승인은 Vučević에게만 해당하므로 Aminu의 5월 Orlando 소유도 **Chicago 원거래 미실행 뒤 별도 이동이 없다는 조건**으로 제한했다. NBA의 원역사 Orlando 2020–21 기록 17경기·14선발과 분기 이전 무릎 이력, 원역사 옵션 행사 결과를 근거로 그 조건에서의 **행사 `WORKING_PRIOR`**를 제안하지만 작가확정은 아니다. 옵션 미행사를 명단 한 자리의 무료 해결책으로 쓰지 않으며, 행사 시험에서는 G15H의 자리·보호급여 문제를 그대로 보존한다.
 
 NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 공식 통지일과 대체 Orlando 선택을 증명하지 못한다고 답했다. Anti-Gravity CLI는 같은 URL 판독에서 60초 시간 초과·본문 0건이었다. [Claude 제한 반증](reviews/R01_O15G15K_CLAUDE_OPTION_REVIEW.md)과 [결과물 단독 맹점 검수](reviews/R02_O15G15K_SOURCE_BLIND_REVIEW.md)는 각각 초안 논리와 결과 설명을 공격했으며, 유효한 지적을 보완하고 잘못된 계약/지명 구단 전제는 기각했다. 둘 다 사실 원문의 독립 검증이나 G16 통과가 아니다. 다음은 **2021-07-29→08-11→10-16** 선수별 계약 소유·명단·급여 사건표를 행사 **시험 입력** 아래 구성하는 것이다. Chicago 2020–21 정확 실행·Orlando 2021–22 시즌 선택·G14 ORL4 `ROLE_HOLD`·DET4 `PRIOR_HOLD`, G16/G17 미완료. 전체 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
+
+## O-15G15L — Orlando 2021 여름 계약 소유·등록 사건표
+
+[G15L 날짜 원장](research/O15G15L_ORLANDO_SUMMER_CONTRACT_EVENT_LEDGER.md)은 NBA 2021 드래프트 당시 Orlando `Under Contract` 목록의 **Dwayne Bacon**을 7월 장부에 되살리고, 구단 미디어 가이드의 **2021-08-08 방출**과 10/16 명단을 연결했다. G15E의 10월 공통 11명에는 Bacon이 없으므로 그 방출을 대체 역사에서도 선택하는 조건을 써야 한다. 공통 계약 8+Bacon+조건부 Vučević/Aminu/Nnaji 3 = 7월 **12명 시험**이다. 원역사 Lopez 8/6, Bacon 방출 8/8, Brazdeikis 투웨이 8/11, Moritz 8/23, Moore 9/9를 조건부 채택하고 Mobley/Herbert가 10/16 전에 표준계약을 맺으면 **16/15**; Aminu 이탈 후 O15A **15/15**, Gravett 표준 신규 계약 시 O15C **16/15**가 된다. Bacon을 유지하면 각각 한 명 더 많다. 이 수치는 계약·선택·의료 확인 전 가정 산술이다.
+
+공식 구단 연표는 Bacon의 보호급여를 공개하지 않는다. 비공식 계약 추적/당시 보도는 원역사 $1,824,003 미보장·방출 후 dead money 0이라고 하나, 대체 Orlando의 동일 조항·방출일·팀 샐러리 0을 확정하지 않는다. 신인 지명권은 서명과, 원역사 Chicago–Spurs DeRozan 패키지는 대체 Chicago의 Aminu 소유와 분리했다. 2021–22 Orlando 전체 급여·cap room/거래 적법성과 1/23 등록·의료·PG 역할은 여전히 `HOLD`다. NotebookLM CLI는 두 NBA 자료를 각각 한정 질의했고, Antigravity CLI는 두 차례 본문 판독에 실패했다. [Claude 제한/결과 단독 검수](reviews/R01_O15G15L_CLAUDE_LIMITED_AND_SOURCE_BLIND.md)는 산술 오류를 찾지 못했으나 신인 서명 순서와 `15/15`의 조건부 위상을 지적해 본문을 보강했다. 다음은 **Bacon 보장일/방출 유지 여부, Vučević·Aminu·Nnaji 소유와 신인 서명/금액, FA 선택별 비용**을 채우는 일이다. 새 작가확정 0건, G14 ORL4 `ROLE_HOLD`·DET4 `PRIOR_HOLD`, G16/G17 미완료, 7개 매크로 게이트 1완료·1진행·5대기/남은6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, author/season/exact/manuscript false 유지.
