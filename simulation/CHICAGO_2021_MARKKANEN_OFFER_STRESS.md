@@ -26,6 +26,6 @@ M1은 **가능성을 스트레스 시험하려고 만든 가격**, 실제 Chicag
 
 현재 추천 G1A를 자동 폐기하거나 M1을 새 정본으로 승격하지 않는다. **M1은 G1A를 방어할 수 있는지 시험할 우선 대안**이고, M3은 선수 동의가 성립하지 않을 때의 구조적 대안이다. [G8D 계약연도 원장 대조](../research/O15G8D_MARKKANEN_CONTRACT_YEAR_ROLE_AUDIT.md)에서 K1의 2020–21 Markkanen 분은 실제보다 11:58 적으며 공격 기회 증분은 미배정이다. 그러므로 M0의 낮은 비용을 유지하려면 계약연도 역할 확대를 주장하는 대신 원역사 이탈 희망과 다른 **향후** 역할·계약·경쟁 제안 선택의 근거를 제시해야 한다. M1의 미래 32분 약속도 과거 경험이나 선수 수락을 증명하지 않는다. M2는 계약/시장 시간을 2022로 넘기는 비용을 숨기지 않는 보조 분기다.
 
-다음 닫는 순서는 대체 2020–21 Markkanen 역할/실제 기회→2021 제안의 기간·보장과 선수 선택 후보→G8 cap/권리 재계산→당일 일반명단·5인 교대·2022 세금/옵션→G1B 선택 시 CLE/POR/픽 후손 재계산이다. 이 작업은 기존 D2 최종 사건 검토의 입력이며 사용자 승인 전 후보만 기록한다. [G8B](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)의 `G1A_CONSENT_HOLD`, D1 F1~F5·A1~A3, CP2 잠정 픽과 `PROJECT_FREEZE v0.30 PARTIAL`·설계/원고 `CLOSED`는 그대로다.
+다음 닫는 순서는 대체 2020–21 Markkanen 역할/실제 기회→2021 제안의 기간·보장과 선수 선택 후보→G8 cap/권리 재계산→당일 일반명단·5인 교대·2022 세금/옵션→G1B 선택 시 CLE/POR/픽 후손 재계산이다. [G8E 선발 인과 보드](../research/O15G8E_MARKKANEN_STARTER_CAUSALITY_BOARD.md)는 현재 후반 3선발이 원역사 표기를 상속한 값임을 드러낸다. 3/17/14/28선발 네 정책의 48분 조합은 수학적으로 성립하지만 슛·매치업·코치 선택은 여전히 후보다. 이 작업은 기존 D2 최종 사건 검토의 입력이며 사용자 승인 전 후보만 기록한다. [G8B](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)의 `G1A_CONSENT_HOLD`, D1 F1~F5·A1~A3, CP2 잠정 픽과 `PROJECT_FREEZE v0.30 PARTIAL`·설계/원고 `CLOSED`는 그대로다.
 
 문서 단독 Claude 반증의 수용·기각과 숫자 재현 범위는 [R01 검토](../reviews/R01_O15G8C_OFFER_STRESS_LIMITED_REVIEW.md)에 기록했다.

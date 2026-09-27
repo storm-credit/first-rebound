@@ -19,6 +19,8 @@ K1은 `PORTER_ZERO`를 택한다. [F9 재현 코드](../tools/crosscheck_chicago
 
 ## 출전시간과 공격 기회는 다른 주장
 
+후속 [G8E 선발 인과 감사](O15G8E_MARKKANEN_STARTER_CAUSALITY_BOARD.md)는 위 26선발 합계 중 후반 3선발이 **원역사 표기를 상속한 K1 입력**이며, Vučević 없는 세계의 코치 결정을 증명하지 않는다고 판정한다. 아래 1,305:28은 S0 입력의 분 합계이고 S1–S3 선발 후보의 실전 분·전술 결과가 아니다.
+
 전반 모델은 LaVine·Markkanen과 센터진의 **경기별 분을 원역사와 같게** 둔다([전반 원장](../simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_GAME.md)). 후반 `PORTER_ZERO` 최초 용량도 Markkanen 분을 같게 두었고, K1이 쓰는 5인 보정에서는 오히려 11:58 줄어든다. Vučević가 없고 Carter가 남는다는 **명단 구조 변화**는 사실이지만, 현재 계산이 계약연도 Markkanen의 출전시간 확대를 보여 준다는 주장은 성립하지 않는다.
 
 [후반 관측 priors](../simulation/CHICAGO_2020_21_POSTDEADLINE_OBSERVED_PRIORS.csv)의 Markkanen 득점·FGA는 3/24까지 원역사 표본이고, [후반 실제 박스 입력](../simulation/CHICAGO_2020_21_POSTDEADLINE_ACTUAL.csv)은 실제 Chicago 경기다. K1 보정은 **분과 영향 계수**를 계산하며 대체 세계의 Markkanen 슛 시도·터치·사용률·공격 전술·라커룸 평가를 경기별로 재배정하지 않는다. 원역사 FGA를 대체 역할의 증거로 복사하거나, 분 감소만으로 선수 불만을 확정하지 않는다.
