@@ -1159,3 +1159,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AB — Orlando Hall 생략 5경기 건강 관측 대조
 
 [F4 5경기 선별](research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md#5월-원역사-건강출전-대조-후속-검문)에 NBA 공식 부상 보고·Orlando 경기 후 기사·최종 경기책의 Bamba 상태를 붙였다. 원역사 5/11 `Out`에는 대체 분도 0, 5/13 `Questionable`에는 선별 0분, 5/14 복귀 출전·5/16 출전에는 각각 후보 23.50·30.00분이다. 5/9 Bamba 24.40분과 Wagner의 5/11·13 각 36분도 원역사 대비 추가 부하이므로 대체 세계 건강·감독 선택의 사실로 확정하지 않는다. 기존 5인조/팀240분·국소 승패 방향 검산은 유지하되 F4/A1·전체 시즌은 `HOLD`; C1/C2 작가 선택도 대기. F `0/5`, A `0/3`, K `0/4`, 7행 1완료·1진행·5대기/미완료 6개, `PROJECT_FREEZE v0.30 PARTIAL` 및 설계/원고 `CLOSED` 불변.
+
+## O-15F14-AC — Denver 플레이오프 교대 시계
+
+[F5 공식 구간 증인](research/O15F14AC_DENVER_PLAYOFF_NONTRADE_STINT_WITNESS.md)은 원역사 McGee 4경기의 플레이바이플레이 교대를 `33:49` 박스 합계에 맞추고, Phoenix 4차전 `19:40` 중 Jokić 퇴장 **뒤**를 `15:49.3`으로 분리했다. M1 동일 슬롯 Hartenstein 치환은 조건부 산술 증인이지 대체 건강·실제 감독 선택·포지션 적합성·원역사 대진/패배의 보존 증명이 아니다. NotebookLM CLI는 6/13 NBA 경기책 한 출처만 지정한 인용 분석을 반환했고, Antigravity CLI는 headless 도구 권한 거절로 본문 0건이었다. Claude의 문서 단독 반증은 산술 오류를 찾지 못했지만 퇴장 사건 의존을 지적했다; 이는 새 NBA 원자료가 아니다. F5와 네 K·A 최종 판정, Varejão C1/C2 미선택, freeze/CLOSED 및 7행 1완료·1진행·5대기/미완료 6개는 불변.
