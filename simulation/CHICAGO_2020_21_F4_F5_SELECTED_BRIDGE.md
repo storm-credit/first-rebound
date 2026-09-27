@@ -28,4 +28,4 @@ Hall의 4월 **일반계약 2건**과 Orlando에서의 앞선 출전은 보존�
 
 F4의 **일반계약 자리 초과 문제**와 F5의 **거래 TPE/픽 의무 문제**는 선택 경로에서 사라졌다. 이것은 원안의 증거를 찾았다는 뜻이 아니라 사건 자체를 선택하지 않았기 때문이다. F4/F5의 남은 건강 부하, 등록 기간, 전체 계약비용/미포함 부담, 플레이오프 파급을 마치기 전까지 D1의 두 정확 실행 묶음은 `HOLD`다. F1 Chicago, F2 Boston, F3 Gordon도 별도로 `HOLD`다.
 
-다음은 (1) Cleveland 날짜별 전체 등록/급여, (2) Orlando 5경기 추가 부하와 Denver 2021 플레이오프, (3) F1~F3 당일 조건, (4) A1 건강·A3 시즌의 최종 단일 경로다. F 전체 PASS `0/5`, A 최종 채택 `0/3`, 네 K 종료 `0/4`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `manuscript_allowed=false`.
+다음은 (1) [Cleveland Varejão 5월 추가 자리](../research/O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)의 C1 hardship 유지/C2 영입 생략 중 실행 가능 경로와 전체 등록·급여, (2) Orlando 5경기 추가 부하와 Denver 2021 플레이오프, (3) F1~F3 당일 조건, (4) A1 건강·A3 시즌의 최종 단일 경로다. McGee/Hartenstein 1대1 표준 자리 치환만으로 Cleveland의 5/4 **16+2**를 적법화하지 않는다. F 전체 PASS `0/5`, A 최종 채택 `0/3`, 네 K 종료 `0/4`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `manuscript_allowed=false`.
