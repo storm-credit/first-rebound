@@ -20,6 +20,7 @@
 - 영향 교차검증·전반 연결 권위: `simulation/CHICAGO_2020_21_IMPACT_CROSSCHECK.md`
 - 시즌 연결 진단 권위: `simulation/CHICAGO_2020_21_SEASON_CONNECTION.md`; 총괄 검토 `reviews/R01_O15F10_SEASON_CONNECTION_REVIEW.md`
 - 전체 진행표: `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` — 7묶음 중 1완료·1진행·5대기, 진행 중 포함 남은 6개, 완료율 환산 금지
+- Codex 지속 작업·작가 결정점 알림 원칙: `AGENTS.md` — 승인 범위 안에서는 시즌마다 중단하지 않고 진행; 정본을 바꾸는 중대 선택지만 근거·상호 배타적 후보를 준비해 작가에게 알림
 
 - 접전 경로 권위: `simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md`; 검토 `reviews/R01_O15F11_CLOSE_GAME_REVIEW.md`
 
