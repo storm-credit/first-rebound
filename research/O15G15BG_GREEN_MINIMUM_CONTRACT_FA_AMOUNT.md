@@ -1,0 +1,25 @@
+# O-15G15BG — Green 2021 FA 보류액의 minimum 계약 예외
+
+- 기준: `main` `8460013` (PR #259), [G15BF Green RFA 선후 장부](O15G15BF_GREEN_2021_RFA_ORDER_AND_QO_CHARGE.md), [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md). 판정: `MINIMUM_CONTRACT_EXCEPTION_SUPPORTED / QO_DOMINANT_IF_OUTSTANDING / EXACT_FILING_HOLD`.
+- 범위: 원역사 Green 계약과 2017–23 CBA를 대조해 **후행 Green 서명**의 조건부 Caruso 직전 Team Salary 입력을 좁힌다. 대체 Chicago의 Green 권리, QO 유지, 선수 동의, 정확 계약/리그 접수 시각은 확정하지 않는다.
+
+## 근거와 계산
+
+| 구분 | 근거·검산 | 판정 |
+|---|---|---|
+| 적용 계약표 | [Chicago 구단의 Green 소개](https://www.nba.com/bulls/news/bulls-sign-free-agents-bradley-green-and-dotson)는 2019년 Boston 계약을 확인한다. [SalarySwish Green 계약표](https://www.salaryswish.com/players/javonte-green)는 2019–20/2020–21의 2년 Minimum Salary Exception, 연봉 `$898,310/$1,517,981`, 보너스 `$0`을 기록한다. [2017–23 CBA Article II §6(a)](https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf)는 계약 **첫 시즌**의 최저급여표가 전 기간에 적용된다고 명시한다. | `$1,517,981`을 2020–21에 새로 체결한 1년 계약의 표와 비교하지 않는다. 원계약 2019–20 표의 2년 차와 비교한다. 계약표 금액은 2차 자료다. |
+| 2019 표 교차검산 | CBA Exhibit C의 2017–18 **1년 경력/계약 2년 차** `$1,378,242`와 [NBA 공식 2017–18 cap `$99.093m`](https://www.nba.com/news/nba-salary-cap-set-2017-18-season-99093-million), [2019–20 cap `$109.140m`](https://www.nba.com/news/nba-salary-cap-2019-20-season-set-10914-million)를 적용하면 `$1,378,242 × 109.140/99.093 = $1,517,981.41`이다. | 2차 계약표의 `$1,517,981`과 달러 단위에서 일치한다. 이는 **규칙 적용 추론**이며 원본 계약서 확인을 대신하지 않는다. |
+| 일반 Early Bird식과 예외 | CBA Article I의 Early Qualifying Veteran FA 정의는 연속한 직전 2시즌이며 트레이드로 연속성이 깨지지 않는다. Article VII §4(d)(2)는 일반 `130% × prior Salary`; §4(d)(4)는 `prior Salary ≤ 그 선수에게 적용되는 Minimum Player Salary`이면 **당시 최저급여 중 리그 환급이 없는 부분**으로 대체한다. §4(d)(8)의 prior Salary에는 보너스 배분·실제 획득 인센티브도 포함된다. | 2차 표의 보너스 `$0` 및 위 계약표 일치가 참이라면 §4(d)(4) 적용 후보가 130%보다 앞선다. 실제 계약 원본에 다른 보너스가 있으면 재검산한다. |
+| 2021 FA 보류액 `F` | CBA Article IV §6(g)(1)–(2)의 리그 환급은 **3년 이상 경력자의 1년/10일/잔여시즌 minimum 계약**에서 2년 경력 minimum을 넘는 부분이다. Green은 [NBA 경력표](https://www.nba.com/player/1629750/javonte-green/bio)상 2019–20·2020–21의 2시즌이므로 이 환급 대상이 아니다. Exhibit C의 2017–18 **2년 경력/계약 첫해** `$1,471,382`와 [NBA 공식 2021–22 cap `$112.414m`](https://www.nba.com/news/salary-cap-set-at-112-4-million-for-2021-22-season)는 약 `$1,669,179`를 주고, [Green 2차 계약표](https://www.salaryswish.com/players/javonte-green)의 정확 첫해 minimum 표기는 `$1,669,178`이다. | **조건부 `F≈$1,669,178`**. CBA cap 발표의 백만 단위 반올림 수치만으로 달러 단위 공식 표를 재현했다고 주장하지 않는다. 2021 리그 최저급여 원장·계약 원본은 `HOLD`. |
+| QO와 실제 Team Salary | [NBA 2021 QO 명단](https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers)은 원역사 Green QO 발급을 확인한다. CBA Article XI §1(c)(iv)와 [G15BF의 경력·starter 검산](O15G15BF_GREEN_2021_RFA_ORDER_AND_QO_CHARGE.md)에 따른 기본 `125% × $1,517,981 = $1,897,476.25`는 **조건부** `$1,897,476`을 지지한다. Article VII §4(a)(2)(ii)는 미서명 제한적 FA의 Team Salary를 `max(F, 유효 QO, First Refusal Exercise Notice)`로 정의한다. | **`QO=$1,897,476`이 Caruso 거래 시점까지 유효하고 `N≤Q`라면, Green 항목은 `$1,897,476` 후보**다. `$1,669,178`은 이 조건의 Team Salary가 아니라 `F` 후보 또는 Green 후행 minimum 서명 뒤 급여 후보다. |
+
+이 해석이면 [G8의 후행 Green 180개 민감도](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json) 중 `$1,897,476` 입력이 **선두 조건부 경로**가 된다. 나머지 `$1,929,217`은 3년 경력으로 잘못 입력된 2차 계산기의 스트레스, `$2,056,061`은 근거식이 설명되지 않은 ESPN 2차 보류액 스트레스다. 셋 중 어느 것도 대체 Chicago의 법적 원장으로 승격하지 않는다. QO 철회·수락 또는 `N>Q`가 확인되면 다시 계산한다.
+
+## 검증 레이어 v2 실행과 반증
+
+- **Codex 원문 검증:** CBA Article II §6(a), IV §6(g), VII §4(a)(2)(ii)·§4(d)(2)/(4)/(8), XI §1(c)(iv), Exhibit C와 NBA의 2017/2019/2021 cap 발표, NBA Green 경력표를 대조했다. `$1,378,242 × 109.140/99.093 = $1,517,981.41`, `$1,471,382 × 112.414/99.093 = $1,669,178.81`, `$1,517,981 × 125% = $1,897,476.25`를 직접 계산했다. 반올림된 cap 발표로 정확 minimum 달러를 증명하지 않는다.
+- **NotebookLM CLI:** 비정본 작업실 `303ffd55-e019-476a-9ae3-8dc0e32fe11f`에서 CBA 원문 출처 `fb655448-b9dc-49ba-95ec-ff26ca9ed3f6`와 Green 계약표 출처 `e1d4cdeb-22e3-4968-8d21-51f4645cf712`만 지정한 대화 `ef4b7d99-0abd-4f93-bfa5-d95ab5f7b625`는 2019 표의 2020–21 지속과 §4(d)(4)를 찾아냈다. 출처 재구성이며 독립 계약 증거는 아니다. 응답의 starter 자료 부재 주장은 NBA 경력표로 별도 검사했다.
+- **Antigravity CLI:** 설치된 절대경로 `agy.exe`에 NBA 2019 cap과 Chicago Green 발표의 `read_url_content→view_file`를 요청했지만 45초 뒤 `status=SUCCESS,response=""`라 본문 증거가 0건이다. `AGY_SOURCE_READ_FAILED`.
+- **Claude 반증:** 도구 없는 법조항 반증은 §4(d)(4) 적용 가능성을 인정했지만 `F≈$151,197` 및 130% `$1,973,377`라는 **잘못된 수치**도 제시했다. 전자는 두 최저급여의 단순 차액이고 후자는 곱셈값 `$1,973,375.30`과 다르므로 채택하지 않았다. 별도 source-blind 질문에는 원계약, 공식 2021 minimum 표, QO/notice 접수 시각 검증 필요를 지적했다. 다만 Early Bird를 3년 경력이라고 잘못 설명했으므로 Article I의 2년 규칙을 우선한다. 두 응답 모두 G16/G17 최종 PASS가 아니다.
+
+**사실:** 위 NBA 발표·경력·QO 명단과 CBA 조항. **추론:** 2019 계약표 및 보너스 `$0`이 맞다면 §4(d)(4)의 `F`가 일반 130%가 아닌 2021 2년 경력 minimum 수준. **후보:** Caruso 시점에 QO가 유효하고 `N≤Q`인 후행 Green 장부 `$1,897,476`; G8 수치 민감도. **작가확정:** 신규 0건. D1 F1~F5 0/5, A1~A3 0/3, K 종료 0/4, 정확 Green 신고·Caruso 순서·G16/G17 모두 `HOLD`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED` 유지.
