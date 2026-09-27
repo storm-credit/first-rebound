@@ -22,6 +22,10 @@
 - [G15AT](O15G15AT_HOUSTON_SEPARATE_HARDEN_EXCEPTION_SCREEN.md)의 Houston 별도 약 `$5.02m` 예외와 Sekou `$3.613680m`은 **수취 급여 수치**만 검사했다. 2022 픽 후보/현금 가능성은 Houston의 인수 의사, 8/6 리그 예외 잔액·Team Salary·명단·8/7 Theis 사인 앤드 트레이드 이후 apron을 증명하지 않는다. [G15AR](O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.md)의 Detroit Frank 후 `$344,127` 부족도 그대로다.
 - [G15AV](O15G15AV_HOUSTON_GARUBA_AUG6_ROOKIE_HOLD.md)의 조건부 Houston Garuba 21번 신인 hold/계약은 원역사 23번의 장부와 다르다. 약 `$0.20m` Team Salary 민감도는 Houston의 대가 요구나 Detroit 자산 소유를 자동으로 해결하지 않는다.
 
+### 후속 자산 충돌 — G15BP
+
+[G15BP](O15G15BP_DETROIT_BAGLEY_PICK_ORIGIN_AND_ROUTING.md)에서 원역사 Detroit는 2020 Drummond 거래로 **Cleveland/Golden State 2023 2R 중 더 불리한 한 장**, 2021 Wright 거래로 **2024 2R**을 받은 사실을 확인했다. 두 선행 거래가 대체세계에서도 유지된다면 2021-08-06 Houston 대가의 **추가 검토 후보**일 수 있다. 그러나 이 픽을 8월에 먼저 쓰면 2022-02-10 Bagley 4팀 거래의 원형 대가로 **중복 사용할 수 없다**. Wright 거래는 Cory Joseph의 Detroit 유입과 함께 움직여 G14 교대에도 영향을 준다. Houston 수락·정확 픽 보호/소유·2월 수신자 및 캡/예외 통과는 여전히 `HOLD`다.
+
 ## 연구/검증 레이어 실행 기록
 
 | 도구 | 실제 관측·한계 |
