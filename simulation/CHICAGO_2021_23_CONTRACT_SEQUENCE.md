@@ -60,6 +60,8 @@ NTMLE 자격은 예외가 생긴 때부터 사용까지 유지돼야 한다. Gre
 
 G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **구단 발표일**이다. 둘이 다른 이유나 정확한 법적 효력일을 자료 없이 단정하지 않는다. 원역사 발표는 선수 영입의 실례일 뿐, Carter가 남는 대체 Chicago에서도 선수·상대 구단이 같은 조건에 동의했다는 증거가 아니다. 새 서명일·급여 원장·동의가 확인될 때까지 `D2 실제 계약=HOLD`이며, 기존 #10 Duarte·#39 Wieskamp 보드는 최종 지명으로 승격하지 않는다.
 
+[G15BF Green 제한적 FA 순서 검문](../research/O15G15BF_GREEN_2021_RFA_ORDER_AND_QO_CHARGE.md)은 이 G8의 Duarte·Green **선서명**을 계산 진입 조건으로 한정한다. `first_contract=Caruso`는 그 진입 **이후**의 순서다. Green을 Caruso 뒤로 미루고 QO가 살아 있으면 미서명 Team Salary는 최저급여 계약액이 아니라 CBA의 `max(FA 보류액, QO, first-refusal 통지액)`이다. 그 후행 경로는 이번 240조건에 없으므로 Caruso 시점 장부를 다시 계산해야 한다. QO 수락으로 1년 계약이 되면 2022–23 Green 비용도 재검토한다. 원역사 발표일을 근거로 G8의 선서명 후보를 자동 기각하지 않으며, 조기 선수 합의도 자동 성립시키지 않는다.
+
 [G15AW 계약 종류 분기](../research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)는 원역사 Spurs #41 Wieskamp의 9/7 투웨이와 이 SQ1의 조건부 Chicago #39 **2년 일반계약**을 구분한다. 투웨이 선택 시 최종 일반 14명·첫해 알려진 예산 `−$925,258` 민감도이며, 2022–23 둘째 해 일반계약/RT1~RT4를 그대로 재사용하지 않는다. 본 G8 JSON은 **일반계약 주 경로**의 계산으로 보존한다.
 
 [G15AY 2021 투웨이 자리 검문](../research/O15G15AY_CHICAGO_2021_TWO_WAY_SLOT_SCREEN.md)은 원역사 10/25 Windy City 공지와 10/28 NBA 공식 경기 기록의 Dotson·Cook 두 투웨이와 Simonović 배정을 구분한다. #39를 투웨이로 바꾸면서 Dotson·Cook을 둘 다 투웨이로 유지하는 3자리 안은 불가능하다. 어느 선수가 대체 Chicago에서 실제 서명했는지는 `HOLD`이고, 두 자료로 Chicago NBA 10/20 첫 경기 명단을 소급 인증하지 않는다. SQ3의 12명 미달 중간 normal-cap 차지는 #39 투웨이 전환 즉시 사라지지 않으며, G15AW의 최종 apron 예산 차이와 혼용하지 않는다.
