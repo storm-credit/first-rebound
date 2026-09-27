@@ -1,0 +1,648 @@
+{
+  "stage": "O-15G8G",
+  "status": "CONDITIONAL_SHOOTING_PRESSURE_NOT_ALTERNATE_BOX",
+  "source_sha256_lf": {
+    "CHICAGO_2020_21_POSTDEADLINE_LINEUP_AUDIT.json": "3d66f8d0ffeea8b18307d0652888116d0f48e31722f71f84bb4c74df2987f380",
+    "CHICAGO_2020_21_POSTDEADLINE_OBSERVED_PRIORS.csv": "5aee8ea2d013fb367a38730bbbb5fff757e43dce9c7963f5088fe5c933b7d0dd",
+    "CHICAGO_2020_21_POSTDEADLINE_BOTH_TEAMS_ACTUAL.csv": "760f817ff8229a2d7921839938a8bddfb6750160331bb7c7bf6c2b6738aefac5",
+    "CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv": "b5296e9014698fdb1b658e1b3108aa5f8ffaff1eec9a57ea9f553fb0db3df95c"
+  },
+  "policy": {
+    "k1_minutes": "PORTER_ZERO minimum_change_candidate",
+    "incumbents": "2021-03-24 observed FGA/FTA per second, not causal",
+    "new_players": "existing LOW/BASE/HIGH pts36 and TS; FGA/FTA split unknown",
+    "mark_post_and_mid": "hindsight sensitivity only; unavailable at cutoff",
+    "weight": 0.44,
+    "pressure_definition": "model FGA + 0.44*FTA shooting equivalents minus actual-history CHI total; not possessions or a hard alternate cap"
+  },
+  "reference": {
+    "games": 29,
+    "team_fga": 2558,
+    "team_fta": 451,
+    "shooting_equivalents": 2756.44,
+    "mark_actual_post_fga": 218,
+    "mark_actual_post_fta": 31
+  },
+  "limited_incumbent_priors": [
+    "Adam Mokoka",
+    "Cristiano Felicio",
+    "Devon Dotson"
+  ],
+  "mark_k1_seconds": 36899.0,
+  "cases": {
+    "POST_HINDSIGHT_LOW": {
+      "incumbent_fga": 1845.533278,
+      "incumbent_fta": 401.625236,
+      "new_pts": 675.055556,
+      "new_shooting_equivalents": 660.095238,
+      "new_three_pa_floor": 184.955556,
+      "pressure": -74.09638,
+      "positive_games": 13,
+      "negative_games": 16
+    },
+    "POST_HINDSIGHT_BASE": {
+      "incumbent_fga": 1845.533278,
+      "incumbent_fta": 401.625236,
+      "new_pts": 756.416667,
+      "new_shooting_equivalents": 695.129943,
+      "new_three_pa_floor": 222.333333,
+      "pressure": -39.061675,
+      "positive_games": 15,
+      "negative_games": 14
+    },
+    "POST_HINDSIGHT_HIGH": {
+      "incumbent_fga": 1845.533278,
+      "incumbent_fta": 401.625236,
+      "new_pts": 837.777778,
+      "new_shooting_equivalents": 732.546706,
+      "new_three_pa_floor": 259.711111,
+      "pressure": -1.644912,
+      "positive_games": 17,
+      "negative_games": 12
+    },
+    "MID_HINDSIGHT_LOW": {
+      "incumbent_fga": 1873.548204,
+      "incumbent_fta": 413.586104,
+      "new_pts": 675.055556,
+      "new_shooting_equivalents": 660.095238,
+      "new_three_pa_floor": 184.955556,
+      "pressure": -40.818673,
+      "positive_games": 14,
+      "negative_games": 15
+    },
+    "MID_HINDSIGHT_BASE": {
+      "incumbent_fga": 1873.548204,
+      "incumbent_fta": 413.586104,
+      "new_pts": 756.416667,
+      "new_shooting_equivalents": 695.129943,
+      "new_three_pa_floor": 222.333333,
+      "pressure": -5.783968,
+      "positive_games": 16,
+      "negative_games": 13
+    },
+    "MID_HINDSIGHT_HIGH": {
+      "incumbent_fga": 1873.548204,
+      "incumbent_fta": 413.586104,
+      "new_pts": 837.777778,
+      "new_shooting_equivalents": 732.546706,
+      "new_three_pa_floor": 259.711111,
+      "pressure": 31.632795,
+      "positive_games": 17,
+      "negative_games": 12
+    },
+    "PRE_CUTOFF_LOW": {
+      "incumbent_fga": 1901.563129,
+      "incumbent_fta": 425.546971,
+      "new_pts": 675.055556,
+      "new_shooting_equivalents": 660.095238,
+      "new_three_pa_floor": 184.955556,
+      "pressure": -7.540965,
+      "positive_games": 16,
+      "negative_games": 13
+    },
+    "PRE_CUTOFF_BASE": {
+      "incumbent_fga": 1901.563129,
+      "incumbent_fta": 425.546971,
+      "new_pts": 756.416667,
+      "new_shooting_equivalents": 695.129943,
+      "new_three_pa_floor": 222.333333,
+      "pressure": 27.49374,
+      "positive_games": 17,
+      "negative_games": 12
+    },
+    "PRE_CUTOFF_HIGH": {
+      "incumbent_fga": 1901.563129,
+      "incumbent_fta": 425.546971,
+      "new_pts": 837.777778,
+      "new_shooting_equivalents": 732.546706,
+      "new_three_pa_floor": 259.711111,
+      "pressure": 64.910503,
+      "positive_games": 19,
+      "negative_games": 10
+    }
+  },
+  "games": [
+    {
+      "date": "2021-03-27",
+      "event_id": "CHI_2020_21_G044",
+      "reference_fga": 95,
+      "reference_fta": 18,
+      "mark_k1_seconds": 1566.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -7.393764,
+        "POST_HINDSIGHT_BASE": -6.185671,
+        "POST_HINDSIGHT_HIGH": -4.895438,
+        "MID_HINDSIGHT_LOW": -5.981452,
+        "MID_HINDSIGHT_BASE": -4.773359,
+        "MID_HINDSIGHT_HIGH": -3.483126,
+        "PRE_CUTOFF_LOW": -4.569141,
+        "PRE_CUTOFF_BASE": -3.361047,
+        "PRE_CUTOFF_HIGH": -2.070814
+      }
+    },
+    {
+      "date": "2021-03-29",
+      "event_id": "CHI_2020_21_G045",
+      "reference_fga": 84,
+      "reference_fta": 11,
+      "mark_k1_seconds": 1330.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 3.094938,
+        "POST_HINDSIGHT_BASE": 4.303031,
+        "POST_HINDSIGHT_HIGH": 5.593264,
+        "MID_HINDSIGHT_LOW": 4.294411,
+        "MID_HINDSIGHT_BASE": 5.502504,
+        "MID_HINDSIGHT_HIGH": 6.792737,
+        "PRE_CUTOFF_LOW": 5.493884,
+        "PRE_CUTOFF_BASE": 6.701977,
+        "PRE_CUTOFF_HIGH": 7.99221
+      }
+    },
+    {
+      "date": "2021-03-31",
+      "event_id": "CHI_2020_21_G046",
+      "reference_fga": 99,
+      "reference_fta": 21,
+      "mark_k1_seconds": 1940.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -22.174426,
+        "POST_HINDSIGHT_BASE": -20.966332,
+        "POST_HINDSIGHT_HIGH": -19.676099,
+        "MID_HINDSIGHT_LOW": -20.424819,
+        "MID_HINDSIGHT_BASE": -19.216725,
+        "MID_HINDSIGHT_HIGH": -17.926492,
+        "PRE_CUTOFF_LOW": -18.675211,
+        "PRE_CUTOFF_BASE": -17.467118,
+        "PRE_CUTOFF_HIGH": -16.176885
+      }
+    },
+    {
+      "date": "2021-04-02",
+      "event_id": "CHI_2020_21_G047",
+      "reference_fga": 89,
+      "reference_fta": 17,
+      "mark_k1_seconds": 1361.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 2.742266,
+        "POST_HINDSIGHT_BASE": 3.95036,
+        "POST_HINDSIGHT_HIGH": 5.240593,
+        "MID_HINDSIGHT_LOW": 3.969697,
+        "MID_HINDSIGHT_BASE": 5.17779,
+        "MID_HINDSIGHT_HIGH": 6.468023,
+        "PRE_CUTOFF_LOW": 5.197127,
+        "PRE_CUTOFF_BASE": 6.405221,
+        "PRE_CUTOFF_HIGH": 7.695454
+      }
+    },
+    {
+      "date": "2021-04-04",
+      "event_id": "CHI_2020_21_G048",
+      "reference_fga": 78,
+      "reference_fta": 30,
+      "mark_k1_seconds": 1380.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 3.274189,
+        "POST_HINDSIGHT_BASE": 4.482282,
+        "POST_HINDSIGHT_HIGH": 5.772515,
+        "MID_HINDSIGHT_LOW": 4.518755,
+        "MID_HINDSIGHT_BASE": 5.726848,
+        "MID_HINDSIGHT_HIGH": 7.017081,
+        "PRE_CUTOFF_LOW": 5.763321,
+        "PRE_CUTOFF_BASE": 6.971414,
+        "PRE_CUTOFF_HIGH": 8.261647
+      }
+    },
+    {
+      "date": "2021-04-06",
+      "event_id": "CHI_2020_21_G049",
+      "reference_fga": 94,
+      "reference_fta": 14,
+      "mark_k1_seconds": 1292.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -1.19384,
+        "POST_HINDSIGHT_BASE": 0.014253,
+        "POST_HINDSIGHT_HIGH": 1.304486,
+        "MID_HINDSIGHT_LOW": -0.028638,
+        "MID_HINDSIGHT_BASE": 1.179455,
+        "MID_HINDSIGHT_HIGH": 2.469689,
+        "PRE_CUTOFF_LOW": 1.136564,
+        "PRE_CUTOFF_BASE": 2.344658,
+        "PRE_CUTOFF_HIGH": 3.634891
+      }
+    },
+    {
+      "date": "2021-04-08",
+      "event_id": "CHI_2020_21_G050",
+      "reference_fga": 87,
+      "reference_fta": 18,
+      "mark_k1_seconds": 1100.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 3.427799,
+        "POST_HINDSIGHT_BASE": 4.635892,
+        "POST_HINDSIGHT_HIGH": 5.926125,
+        "MID_HINDSIGHT_LOW": 4.419844,
+        "MID_HINDSIGHT_BASE": 5.627937,
+        "MID_HINDSIGHT_HIGH": 6.918171,
+        "PRE_CUTOFF_LOW": 5.411889,
+        "PRE_CUTOFF_BASE": 6.619983,
+        "PRE_CUTOFF_HIGH": 7.910216
+      }
+    },
+    {
+      "date": "2021-04-09",
+      "event_id": "CHI_2020_21_G051",
+      "reference_fga": 86,
+      "reference_fta": 14,
+      "mark_k1_seconds": 1617.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 7.301464,
+        "POST_HINDSIGHT_BASE": 8.509557,
+        "POST_HINDSIGHT_HIGH": 9.799791,
+        "MID_HINDSIGHT_LOW": 8.759771,
+        "MID_HINDSIGHT_BASE": 9.967864,
+        "MID_HINDSIGHT_HIGH": 11.258097,
+        "PRE_CUTOFF_LOW": 10.218077,
+        "PRE_CUTOFF_BASE": 11.42617,
+        "PRE_CUTOFF_HIGH": 12.716404
+      }
+    },
+    {
+      "date": "2021-04-11",
+      "event_id": "CHI_2020_21_G052",
+      "reference_fga": 92,
+      "reference_fta": 13,
+      "mark_k1_seconds": 1127.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 0.580397,
+        "POST_HINDSIGHT_BASE": 1.78849,
+        "POST_HINDSIGHT_HIGH": 3.078723,
+        "MID_HINDSIGHT_LOW": 1.596792,
+        "MID_HINDSIGHT_BASE": 2.804886,
+        "MID_HINDSIGHT_HIGH": 4.095119,
+        "PRE_CUTOFF_LOW": 2.613188,
+        "PRE_CUTOFF_BASE": 3.821281,
+        "PRE_CUTOFF_HIGH": 5.111514
+      }
+    },
+    {
+      "date": "2021-04-12",
+      "event_id": "CHI_2020_21_G053",
+      "reference_fga": 86,
+      "reference_fta": 17,
+      "mark_k1_seconds": 964.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 4.988705,
+        "POST_HINDSIGHT_BASE": 6.196799,
+        "POST_HINDSIGHT_HIGH": 7.487032,
+        "MID_HINDSIGHT_LOW": 5.858098,
+        "MID_HINDSIGHT_BASE": 7.066191,
+        "MID_HINDSIGHT_HIGH": 8.356424,
+        "PRE_CUTOFF_LOW": 6.72749,
+        "PRE_CUTOFF_BASE": 7.935583,
+        "PRE_CUTOFF_HIGH": 9.225817
+      }
+    },
+    {
+      "date": "2021-04-14",
+      "event_id": "CHI_2020_21_G054",
+      "reference_fga": 86,
+      "reference_fta": 9,
+      "mark_k1_seconds": 993.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 6.320977,
+        "POST_HINDSIGHT_BASE": 7.52907,
+        "POST_HINDSIGHT_HIGH": 8.819304,
+        "MID_HINDSIGHT_LOW": 7.216523,
+        "MID_HINDSIGHT_BASE": 8.424617,
+        "MID_HINDSIGHT_HIGH": 9.71485,
+        "PRE_CUTOFF_LOW": 8.11207,
+        "PRE_CUTOFF_BASE": 9.320163,
+        "PRE_CUTOFF_HIGH": 10.610396
+      }
+    },
+    {
+      "date": "2021-04-16",
+      "event_id": "CHI_2020_21_G055",
+      "reference_fga": 96,
+      "reference_fta": 15,
+      "mark_k1_seconds": 1257.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -13.359676,
+        "POST_HINDSIGHT_BASE": -12.151583,
+        "POST_HINDSIGHT_HIGH": -10.86135,
+        "MID_HINDSIGHT_LOW": -12.226039,
+        "MID_HINDSIGHT_BASE": -11.017946,
+        "MID_HINDSIGHT_HIGH": -9.727713,
+        "PRE_CUTOFF_LOW": -11.092402,
+        "PRE_CUTOFF_BASE": -9.884309,
+        "PRE_CUTOFF_HIGH": -8.594076
+      }
+    },
+    {
+      "date": "2021-04-17",
+      "event_id": "CHI_2020_21_G056",
+      "reference_fga": 82,
+      "reference_fta": 9,
+      "mark_k1_seconds": 1558.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 3.509177,
+        "POST_HINDSIGHT_BASE": 4.71727,
+        "POST_HINDSIGHT_HIGH": 6.007503,
+        "MID_HINDSIGHT_LOW": 4.914274,
+        "MID_HINDSIGHT_BASE": 6.122367,
+        "MID_HINDSIGHT_HIGH": 7.4126,
+        "PRE_CUTOFF_LOW": 6.31937,
+        "PRE_CUTOFF_BASE": 7.527464,
+        "PRE_CUTOFF_HIGH": 8.817697
+      }
+    },
+    {
+      "date": "2021-04-19",
+      "event_id": "CHI_2020_21_G057",
+      "reference_fga": 91,
+      "reference_fta": 10,
+      "mark_k1_seconds": 1169.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -7.627353,
+        "POST_HINDSIGHT_BASE": -6.419259,
+        "POST_HINDSIGHT_HIGH": -5.129026,
+        "MID_HINDSIGHT_LOW": -6.573079,
+        "MID_HINDSIGHT_BASE": -5.364986,
+        "MID_HINDSIGHT_HIGH": -4.074752,
+        "PRE_CUTOFF_LOW": -5.518805,
+        "PRE_CUTOFF_BASE": -4.310712,
+        "PRE_CUTOFF_HIGH": -3.020479
+      }
+    },
+    {
+      "date": "2021-04-21",
+      "event_id": "CHI_2020_21_G058",
+      "reference_fga": 79,
+      "reference_fta": 18,
+      "mark_k1_seconds": 1269.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -0.190953,
+        "POST_HINDSIGHT_BASE": 1.01714,
+        "POST_HINDSIGHT_HIGH": 2.307373,
+        "MID_HINDSIGHT_LOW": 0.953506,
+        "MID_HINDSIGHT_BASE": 2.1616,
+        "MID_HINDSIGHT_HIGH": 3.451833,
+        "PRE_CUTOFF_LOW": 2.097966,
+        "PRE_CUTOFF_BASE": 3.306059,
+        "PRE_CUTOFF_HIGH": 4.596292
+      }
+    },
+    {
+      "date": "2021-04-22",
+      "event_id": "CHI_2020_21_G059",
+      "reference_fga": 87,
+      "reference_fta": 11,
+      "mark_k1_seconds": 1591.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -4.428222,
+        "POST_HINDSIGHT_BASE": -3.220129,
+        "POST_HINDSIGHT_HIGH": -1.929895,
+        "MID_HINDSIGHT_LOW": -2.993364,
+        "MID_HINDSIGHT_BASE": -1.78527,
+        "MID_HINDSIGHT_HIGH": -0.495037,
+        "PRE_CUTOFF_LOW": -1.558505,
+        "PRE_CUTOFF_BASE": -0.350412,
+        "PRE_CUTOFF_HIGH": 0.939821
+      }
+    },
+    {
+      "date": "2021-04-24",
+      "event_id": "CHI_2020_21_G060",
+      "reference_fga": 79,
+      "reference_fta": 13,
+      "mark_k1_seconds": 1251.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 4.103797,
+        "POST_HINDSIGHT_BASE": 5.31189,
+        "POST_HINDSIGHT_HIGH": 6.602123,
+        "MID_HINDSIGHT_LOW": 5.232023,
+        "MID_HINDSIGHT_BASE": 6.440116,
+        "MID_HINDSIGHT_HIGH": 7.730349,
+        "PRE_CUTOFF_LOW": 6.360249,
+        "PRE_CUTOFF_BASE": 7.568342,
+        "PRE_CUTOFF_HIGH": 8.858575
+      }
+    },
+    {
+      "date": "2021-04-26",
+      "event_id": "CHI_2020_21_G061",
+      "reference_fga": 77,
+      "reference_fta": 22,
+      "mark_k1_seconds": 1183.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 2.304009,
+        "POST_HINDSIGHT_BASE": 3.512103,
+        "POST_HINDSIGHT_HIGH": 4.802336,
+        "MID_HINDSIGHT_LOW": 3.370909,
+        "MID_HINDSIGHT_BASE": 4.579002,
+        "MID_HINDSIGHT_HIGH": 5.869236,
+        "PRE_CUTOFF_LOW": 4.437809,
+        "PRE_CUTOFF_BASE": 5.645902,
+        "PRE_CUTOFF_HIGH": 6.936135
+      }
+    },
+    {
+      "date": "2021-04-28",
+      "event_id": "CHI_2020_21_G062",
+      "reference_fga": 85,
+      "reference_fta": 10,
+      "mark_k1_seconds": 1132.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -2.229656,
+        "POST_HINDSIGHT_BASE": -1.021562,
+        "POST_HINDSIGHT_HIGH": 0.268671,
+        "MID_HINDSIGHT_LOW": -1.208751,
+        "MID_HINDSIGHT_BASE": -0.000658,
+        "MID_HINDSIGHT_HIGH": 1.289576,
+        "PRE_CUTOFF_LOW": -0.187846,
+        "PRE_CUTOFF_BASE": 1.020247,
+        "PRE_CUTOFF_HIGH": 2.31048
+      }
+    },
+    {
+      "date": "2021-04-30",
+      "event_id": "CHI_2020_21_G063",
+      "reference_fga": 96,
+      "reference_fta": 21,
+      "mark_k1_seconds": 0.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -17.516703,
+        "POST_HINDSIGHT_BASE": -16.30861,
+        "POST_HINDSIGHT_HIGH": -15.018376,
+        "MID_HINDSIGHT_LOW": -17.516703,
+        "MID_HINDSIGHT_BASE": -16.30861,
+        "MID_HINDSIGHT_HIGH": -15.018376,
+        "PRE_CUTOFF_LOW": -17.516703,
+        "PRE_CUTOFF_BASE": -16.30861,
+        "PRE_CUTOFF_HIGH": -15.018376
+      }
+    },
+    {
+      "date": "2021-05-01",
+      "event_id": "CHI_2020_21_G064",
+      "reference_fga": 85,
+      "reference_fta": 17,
+      "mark_k1_seconds": 1367.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -2.003849,
+        "POST_HINDSIGHT_BASE": -0.795756,
+        "POST_HINDSIGHT_HIGH": 0.494477,
+        "MID_HINDSIGHT_LOW": -0.771007,
+        "MID_HINDSIGHT_BASE": 0.437086,
+        "MID_HINDSIGHT_HIGH": 1.727319,
+        "PRE_CUTOFF_LOW": 0.461834,
+        "PRE_CUTOFF_BASE": 1.669928,
+        "PRE_CUTOFF_HIGH": 2.960161
+      }
+    },
+    {
+      "date": "2021-05-03",
+      "event_id": "CHI_2020_21_G065",
+      "reference_fga": 87,
+      "reference_fta": 14,
+      "mark_k1_seconds": 1008.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -5.922048,
+        "POST_HINDSIGHT_BASE": -4.713955,
+        "POST_HINDSIGHT_HIGH": -3.423721,
+        "MID_HINDSIGHT_LOW": -5.012974,
+        "MID_HINDSIGHT_BASE": -3.80488,
+        "MID_HINDSIGHT_HIGH": -2.514647,
+        "PRE_CUTOFF_LOW": -4.1039,
+        "PRE_CUTOFF_BASE": -2.895806,
+        "PRE_CUTOFF_HIGH": -1.605573
+      }
+    },
+    {
+      "date": "2021-05-06",
+      "event_id": "CHI_2020_21_G066",
+      "reference_fga": 91,
+      "reference_fta": 17,
+      "mark_k1_seconds": 1250.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -4.572532,
+        "POST_HINDSIGHT_BASE": -3.364438,
+        "POST_HINDSIGHT_HIGH": -2.074205,
+        "MID_HINDSIGHT_LOW": -3.445208,
+        "MID_HINDSIGHT_BASE": -2.237114,
+        "MID_HINDSIGHT_HIGH": -0.946881,
+        "PRE_CUTOFF_LOW": -2.317883,
+        "PRE_CUTOFF_BASE": -1.10979,
+        "PRE_CUTOFF_HIGH": 0.180443
+      }
+    },
+    {
+      "date": "2021-05-07",
+      "event_id": "CHI_2020_21_G067",
+      "reference_fga": 99,
+      "reference_fta": 18,
+      "mark_k1_seconds": 853.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -12.122107,
+        "POST_HINDSIGHT_BASE": -10.914014,
+        "POST_HINDSIGHT_HIGH": -9.623781,
+        "MID_HINDSIGHT_LOW": -11.352821,
+        "MID_HINDSIGHT_BASE": -10.144728,
+        "MID_HINDSIGHT_HIGH": -8.854495,
+        "PRE_CUTOFF_LOW": -10.583535,
+        "PRE_CUTOFF_BASE": -9.375442,
+        "PRE_CUTOFF_HIGH": -8.085209
+      }
+    },
+    {
+      "date": "2021-05-09",
+      "event_id": "CHI_2020_21_G068",
+      "reference_fga": 84,
+      "reference_fta": 14,
+      "mark_k1_seconds": 1373.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 6.277543,
+        "POST_HINDSIGHT_BASE": 7.485636,
+        "POST_HINDSIGHT_HIGH": 8.775869,
+        "MID_HINDSIGHT_LOW": 7.515796,
+        "MID_HINDSIGHT_BASE": 8.723889,
+        "MID_HINDSIGHT_HIGH": 10.014122,
+        "PRE_CUTOFF_LOW": 8.754048,
+        "PRE_CUTOFF_BASE": 9.962142,
+        "PRE_CUTOFF_HIGH": 11.252375
+      }
+    },
+    {
+      "date": "2021-05-11",
+      "event_id": "CHI_2020_21_G069",
+      "reference_fga": 96,
+      "reference_fta": 14,
+      "mark_k1_seconds": 1140.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -5.086515,
+        "POST_HINDSIGHT_BASE": -3.878422,
+        "POST_HINDSIGHT_HIGH": -2.588189,
+        "MID_HINDSIGHT_LOW": -4.058396,
+        "MID_HINDSIGHT_BASE": -2.850302,
+        "MID_HINDSIGHT_HIGH": -1.560069,
+        "PRE_CUTOFF_LOW": -3.030276,
+        "PRE_CUTOFF_BASE": -1.822183,
+        "PRE_CUTOFF_HIGH": -0.531949
+      }
+    },
+    {
+      "date": "2021-05-13",
+      "event_id": "CHI_2020_21_G070",
+      "reference_fga": 83,
+      "reference_fta": 10,
+      "mark_k1_seconds": 1519.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": 9.051891,
+        "POST_HINDSIGHT_BASE": 10.259984,
+        "POST_HINDSIGHT_HIGH": 11.550217,
+        "MID_HINDSIGHT_LOW": 10.421815,
+        "MID_HINDSIGHT_BASE": 11.629908,
+        "MID_HINDSIGHT_HIGH": 12.920142,
+        "PRE_CUTOFF_LOW": 11.79174,
+        "PRE_CUTOFF_BASE": 12.999833,
+        "PRE_CUTOFF_HIGH": 14.290066
+      }
+    },
+    {
+      "date": "2021-05-15",
+      "event_id": "CHI_2020_21_G071",
+      "reference_fga": 98,
+      "reference_fta": 17,
+      "mark_k1_seconds": 1823.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -16.361249,
+        "POST_HINDSIGHT_BASE": -15.153156,
+        "POST_HINDSIGHT_HIGH": -13.862922,
+        "MID_HINDSIGHT_LOW": -14.717159,
+        "MID_HINDSIGHT_BASE": -13.509066,
+        "MID_HINDSIGHT_HIGH": -12.218833,
+        "PRE_CUTOFF_LOW": -13.07307,
+        "PRE_CUTOFF_BASE": -11.864976,
+        "PRE_CUTOFF_HIGH": -10.574743
+      }
+    },
+    {
+      "date": "2021-05-16",
+      "event_id": "CHI_2020_21_G072",
+      "reference_fga": 87,
+      "reference_fta": 19,
+      "mark_k1_seconds": 1486.0,
+      "pressure_by_case": {
+        "POST_HINDSIGHT_LOW": -8.89064,
+        "POST_HINDSIGHT_BASE": -7.682546,
+        "POST_HINDSIGHT_HIGH": -6.392313,
+        "MID_HINDSIGHT_LOW": -7.550477,
+        "MID_HINDSIGHT_BASE": -6.342383,
+        "MID_HINDSIGHT_HIGH": -5.05215,
+        "PRE_CUTOFF_LOW": -6.210314,
+        "PRE_CUTOFF_BASE": -5.00222,
+        "PRE_CUTOFF_HIGH": -3.711987
+      }
+    }
+  ]
+}

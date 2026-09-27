@@ -40,6 +40,8 @@ K1 `PORTER_ZERO`의 F6B 보정 후보는 Markkanen 후반 **36,899초**, 즉 원
 - **작가확정:** **0건**. `G1A_CONSENT_HOLD`, K1/L2·CP2 잠정 추천, D1 F1–F5 전체 PASS 0/5·A1–A3 최종 채택 0/3·네 K 묶음 종료 0/4를 유지한다.
 - **다음 입력:** K1의 Chicago 29경기에서 Vučević 미영입, Carter 잔류, P·LaMelo 유입을 반영한 선수별 FGA/FTA·포제션 보존 후보를 먼저 만든다. 그 뒤 S0–S3별 동반자와 공격권을 대조하고 2021 제안의 선수 수락은 별도 관문으로 둔다. 이는 D1 완료 또는 장기 커리어 확정이 아니다.
 
+[G8G 29경기 슛 총량 압박](../simulation/CHICAGO_2020_21_SHOT_OPPORTUNITY_PRESSURE.md)은 위 미배정을 팀 원역사 비교선에 대해 아홉 조건으로 계량했다. `PRE_CUTOFF×BASE`의 +27.49 거친 슛 종료량은 **조건부 충돌**이지 대체 팀 포제션 또는 선수별 슛 이전을 확정한 값이 아니다. 경기별 정수 FGA/FTA와 새 두 선수의 분배는 여전히 HOLD다.
+
 ## 검증 범위
 
 Codex는 저장 CSV 두 개를 다시 집계해 23+28=51출전, FGA 303+218=521, FTA 61+31=92, 후반 팀 29경기/2,558 FGA, Vučević 26경기/488 FGA를 확인했다. 36분 환산은 `시도수 × 2160 / 출전초`, K1 환산은 `시도수 × 36899 / 관측초`로 재계산했다. [NBA 경기 페이지](https://www.nba.com/game/0022001068/box-score)는 후반 경기 식별에만 사용했고 HTML에서 28경기 숫자 전수 검증은 하지 않았다. Antigravity CLI의 공식 NBA 시즌 합계 회수 요청은 35초 제한에 빈 응답이어서 `ATTEMPTED_NO_VERIFIED_BODY`다. NotebookLM CLI에 추가한 [NBA 선수 시즌 페이지](https://www.nba.com/stats/player/1628374/traditional?Season=2020-21)는 시즌 표기는 가져왔지만 FGA/FTA 숫자 표가 빠진 본문만 수집했다. 잘못된 독립 검증으로 쓰지 않도록 그 불완전한 새 소스는 삭제했다. 이번 도구 시도에서 공식 총합 Evidence Pack은 **0건**이며, Claude와 source-blind는 `NOT_RUN`이다. 기존 [v2 계보](../control/RESEARCH_VERIFICATION_LAYER_V2.md)의 성공/실패 기록을 새 검증 횟수로 세지 않는다.
