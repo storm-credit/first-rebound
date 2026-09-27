@@ -28,6 +28,8 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 [F4 Hall 5월 재계약 생략](../research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md)과 [F5 McGee 거래 생략](../research/O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)을 대체 경로로 추가했고, **작가가 두 생략 방향을 선택**했다. 권위는 [F4/F5 결정 기록](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)이다. F4는 5경기 분·등록 수와 10개 평점 비교를, F5는 Denver/Cleveland 25경기 국소 분 치환과 50개 평점 비교를 기록한다. 위 표는 이제 **선택 경로**를 나타낸다. 원안의 Hall hardship/5월 계약 및 McGee TPE/픽 조항은 각 선별 문서에서 비교 이력으로만 보존한다. 기존 승인 T1~T4는 그대로다. 실행 재검증이 남아 있어 F1~F5 전체 PASS `0/5`, A1~A3 최종 채택 `0/3`, K 종료 `0/4` 판정은 아직 바뀌지 않는다.
 
+F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 원경기 출전분 초과 없이 5인조·240분·10개 평점 방향을 통과했다. 5/11·13 Wagner의 최소 추가 `3:03`·`6:40`과 Vučević/Nnaji 상한 부하, 전체 계약·후속 등록은 열려 있어 F4/A1/K 판정은 올리지 않는다.
+
 F5 Cleveland의 별도 [Varejão C1/C2 결정 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교한다. C2를 추천하지만 **작가 선택 전 후보**다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.
 
 F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2021년 6월 자산 설명](https://www.nba.com/magic/news/orlando-magic-have-great-opportunity-add-several-quality-players-through-draft-next-few-years-20210610)의 검색 색인 문장으로 기존 2차 거래 장부와 대조했다. 이번 접근에서 본문 HTTP 403이므로 **구단 본문 직접 회수로 등급을 올리지 않는다**. 이 대조는 F2의 당일 TPE 사용 가능액·Fournier 전체 charge·다른 자산 의무를 닫지 않는다.

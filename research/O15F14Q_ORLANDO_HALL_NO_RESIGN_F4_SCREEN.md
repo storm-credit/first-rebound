@@ -42,6 +42,8 @@
 
 [5/16 부하 민감도](O15F14AL_ORLANDO_HALL_FINAL_GAME_LOAD_BOUND.md)는 원역사 출전 상한을 적용해 Bamba `22:55`·Wagner `34:38`·Nnaji `10:00`의 다른 5인조 증인을 찾았다. 위 표와 원 JSON은 최초 선별 이력으로 유지한다. 새 증인도 대체 건강 허가나 전체 F4 PASS가 아니다.
 
+[5경기 노출량 상한 후속](O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 출전 3경기 추가 분을 0으로, Wagner의 원경기 초과분을 5/11 `3:03`·5/13 `6:40`으로 국한하는 다른 국소 증인을 기록한다. F4/A1·최종 시즌 `HOLD`는 유지한다.
+
 ## F4 판정과 다음 연결
 
 선택된 경로에서는 Hall 추가 일반계약 자리와 그 재계약 비용, 대체 세계의 hardship 신청·허가 사건이 **필요하지 않다**. 대신 다섯 경기의 선수별 분·체력 및 경기 결과를 검토해야 한다. Hall을 남기는 이전 경로에는 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)의 A1 건강·A2 행정 조건이 적용됐었다. 두 경로를 합쳐 필요조건을 지우지 않는다.
