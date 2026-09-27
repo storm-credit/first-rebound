@@ -1061,3 +1061,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8F — Markkanen 슛 기회 미배정 경계
 
 [G8F 슛 기회 감사](research/O15G8F_MARKKANEN_SHOT_OPPORTUNITY_AUDIT.md)는 저장된 원역사 이차 박스 미러와 3/24 cutoff 관측 원장을 대조해 Markkanen의 전반 23출전 303 FGA·61 FTA, 후반 28출전 218 FGA·31 FTA를 재집계했다. FGA/36분은 15.80→12.52, FTA/36분은 3.18→1.78로 하락했다. K1 후반 36,899초에 전반 FGA 시도율을 단순 적용한 약 270회는 공격권 필요량을 드러내는 **진단 산술**이지 대체 기록이나 팀 시도 보존 증명이 아니다. 후반 원역사 Vučević 488 FGA를 Markkanen에게 자동 이전하지 않고 P·LaMelo·Carter·Young·Theis와 경기별 슛/포제션 비용을 다음 원장 입력으로 남겼다. Antigravity는 공식 NBA 총합 본문 회수 타임아웃, NotebookLM은 NBA 선수 페이지의 숫자 없는 본문만 수집해 해당 새 소스를 삭제했다. 공식 총합 Evidence Pack 0건, Claude/source-blind `NOT_RUN`; `G1A_CONSENT_HOLD`, D1·CP2 잠정 상태, 작가확정 0건. 7개 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8G — 후반 팀 슛 총량 압박 9조건
+
+[G8G 슛 총량 압박](simulation/CHICAGO_2020_21_SHOT_OPPORTUNITY_PRESSURE.md)과 [재현 JSON](simulation/CHICAGO_2020_21_SHOT_OPPORTUNITY_PRESSURE.json)은 K1 `PORTER_ZERO` 후반 29경기 분, 3/24 실존 선수 FGA/FTA 시도율, 주인공·LaMelo의 기존 LOW/BASE/HIGH PTS·TS를 연결했다. Markkanen 시도율은 cutoff 전 관측, 후반 원역사 hindsight, 두 값의 평균으로 분리했다. 원역사 Chicago의 2,558 FGA·451 FTA(`FGA+0.44FTA=2,756.44`)와 비교할 때 `PRE_CUTOFF×BASE`는 +27.49 거친 슛 종료량 압박이며 날짜별 17초과·12미달이다. 이는 대체 팀의 고정 포제션 상한이나 정수 경기 박스가 아니다. 주인공·LaMelo 개인 FGA/FTA, 팀 페이스/턴오버/공격리바운드, Markkanen의 실제 역할·선수 동의는 HOLD. 새 외부 원문 없이 내부 재현만 수행해 Anti-Gravity·NotebookLM·Claude/source-blind `NOT_RUN`; K1/L2·CP2 잠정, `G1A_CONSENT_HOLD`, D1 F1~F5·A1~A3, 작가확정 0건. 7개 게이트 1완료·1진행·5대기, 남은 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
