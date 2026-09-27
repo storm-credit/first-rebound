@@ -70,3 +70,5 @@ A1의 세부 달력과 A3의 시즌/플레이인 대안은 [채택 준비 색인
 [F5 Denver Nnaji 잔여 구간](../research/O15F14AO_DENVER_NNAJI_OTHER_PLAYOFF_STINTS.md)은 기존 McGee 겹침 11:17 밖의 5/24·6/7·6/11 **6:22**를 세 NBA 박스·FOX 2차 교대로 시간 분리했다. 확정된 Nnaji 이탈과 McGee 거래 생략 아래 Hartenstein/Bey 조건부 배분의 총 18개 양수 구간이 K1 역할·5인 검사에 통과한다. NBA 박스 분과 FOX 교대의 출처 등급, 원역사 대 대체 감독 선택을 구분한다. 이것은 F5·A1·K·시즌 종료가 아니며 표의 `HOLD` 수를 바꾸지 않는다.
 
 [F5 Hartenstein 건강 인과 검문](../research/O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)은 원역사 Cleveland의 뇌진탕 보고를 선택된 Denver 경로로 이식하지 못하게 한다. Denver의 새 건강·등록·실제 출전은 미확정이므로 위 18/18은 계속 **가용성 조건부**이고 F5/A1/K 판정은 `HOLD`다.
+
+[F1 Chicago 방출잔액 후속](../research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 4/16 원역사 팀 총액 `$97,261`을 동시대 2차 보도로 확인했다. 이를 선택된 3/25 정확 장부로 승격하지 않고, 동일 부담이 유지될 때의 잔여 R 여유 `$5,512,711`만 별도 계산한다. F1과 전체 F·A·K 게이트 수는 바뀌지 않는다.

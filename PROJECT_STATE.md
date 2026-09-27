@@ -1187,3 +1187,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AQ — Fournier/Gordon 픽의 구단 1차 보유 스냅샷
 
 [2021년 6월 Orlando 구단 기사](simulation/NBA_2021_ASSET_CHAIN.md)는 원역사 거래 뒤 BOS/MEM 중 뒤 2025 2R, BOS 2027 2R, DEN 2025 top5 보호 1R을 열거한다. 기존 2차 장부의 세 권리를 구단 1차 출처로 보강했다. 이 사후 기사만으로 3/25의 모든 선행 의무, BOS 2027 보호/우선권, DEN 2026–27 연결·미전달 종료 원문을 인증하지 않는다. F2/F3 및 F 전체 `0/5`, A `0/3`, K `0/4`는 `HOLD`; 7행 1완료·1진행·5대기/미완료 6개. freeze v0.30 PARTIAL 및 설계/원고 CLOSED 유지.
+
+## O-15F14-AR — Chicago 방출잔액 원역사 날짜 검문
+
+[AR 날짜 검문](research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 2021-04-16 당시 2차 급여 집계의 원역사 Chicago dead money 총액 `$97,261`을 회수했다. Salary Sport 보관표의 Vonleh 귀속은 후보 대조이며 당일 리그 계약 원문이 아니다. 3/25 선택세계에 같은 금액이 적용될 때 다른 R 허용액은 `$5,512,711`이지만, 날짜·인과·다른 잔여액이 미확정이므로 `WAIVED_PAY`, R, F1 `HOLD`다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
