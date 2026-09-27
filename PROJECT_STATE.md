@@ -1179,3 +1179,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AO — Nnaji 단독 6:22의 경기별 교대 경계
 
 [Nnaji 잔여 구간](research/O15F14AO_DENVER_NNAJI_OTHER_PLAYOFF_STINTS.md)은 5/24·6/7·6/11 NBA 공식 박스의 `2:43+2:15+1:24=6:22`를 FOX Sports 2차 플레이바이플레이의 4개 4Q 5인조 구간으로 풀었다. 기존 McGee와 Nnaji 겹침 `11:17`의 14개 구간과 합쳐 Hartenstein/Bey 조건부 18/18 역할·인원 증인을 얻었다. 5/24 첫 26초는 Bey 단독 치환 시 K1 센터 태그가 없어 실패하고 Hartenstein 치환은 통과한다. 원역사 Nnaji도 K1에서 센터 태그가 없으므로 이 판정은 실제 포지션 불능을 뜻하지 않는다. FOX 교대는 NBA 공식 경기책보다 낮은 출처 등급이며 건강·실제 감독 선택·득점/시리즈는 `HOLD`. F5 `HOLD`, F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개 및 freeze/CLOSED 불변.
+
+## O-15F14-AP — Hartenstein 건강 인과 경계
+
+[AP 공식 부상 보고 검문](research/O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)은 원역사 Cleveland의 4/28 뇌진탕 결장, 5/5 복귀 가능 보고, 5/9 재평가, 5/10·14 결장을 기록했다. 작가 확정 F5 거래 생략에서는 Hartenstein이 Denver에 남으므로 Cleveland 노출과 결장을 Denver의 A1 건강 달력에 복사하지 않는다. 그렇다고 Denver의 건강·플레이오프 출전을 자동 인증하지도 않는다. 기존 18/18 역할·5인조 증인은 가용성 조건부다. C1/C2는 작가 선택 대기, F5/A1/네 K `HOLD`, F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
