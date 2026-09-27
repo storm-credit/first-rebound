@@ -29,7 +29,8 @@ CAP_SECONDS = {
 WEIGHTS = {"Nikola Vucevic": 4, "Moritz Wagner": 2, "Mo Bamba": 2, "Zeke Nnaji": 3}
 
 
-def screen():
+def screen(cap_overrides=None):
+    cap_overrides = cap_overrides or {}
     source = json.loads(SOURCE.read_text(encoding="utf-8"))
     registration = json.loads(REGISTRATION.read_text(encoding="utf-8"))
     expected = {r["event_id"] for r in registration["orl_game_checks"]
@@ -53,6 +54,7 @@ def screen():
     assert len(branches) == 5
     rows = []
     for branch in sorted(branches, key=lambda b: b["date"]):
+        caps = CAP_SECONDS | cap_overrides.get(branch["event_id"], {})
         prior = branch["alternate_seconds"]
         players = sorted(p for p, seconds in prior.items() if p != HALL and seconds > 0)
         assert HALL in prior and HALL not in branch["starters"]
@@ -61,7 +63,7 @@ def screen():
                   if k.j.bi.valid(c, "ORL", {"ORL": roles})]
         assert branch["starters"] in combos
         duration = branch["game_duration_seconds"]
-        additions = sorted(set(players) & CAP_SECONDS.keys())
+        additions = sorted(set(players) & caps.keys())
         fixed = sorted(set(players) - set(additions))
         equal = [[int(p in c) for c in combos] for p in fixed]
         equal.append([1] * len(combos))
@@ -71,7 +73,7 @@ def screen():
         for p in additions:
             line = np.array([int(p in c) for c in combos])
             upper.extend((line, -line))
-            limits.extend((CAP_SECONDS[p], -prior[p]))
+            limits.extend((caps[p], -prior[p]))
         objective = [100 * max(0, len(set(c) & k.BIGS) - 2)
                      + sum(WEIGHTS.get(p, 0) for p in c) for c in combos]
         solved = linprog(objective, A_eq=equal, b_eq=targets,
@@ -83,7 +85,7 @@ def screen():
                    for p in players}
         assert abs(sum(minutes.values()) - 5 * duration) < 1e-5
         assert all(abs(minutes[p] - prior[p]) < 1e-5 for p in fixed)
-        assert all(prior[p] - 1e-5 <= minutes[p] <= CAP_SECONDS[p] + 1e-5
+        assert all(prior[p] - 1e-5 <= minutes[p] <= caps[p] + 1e-5
                    for p in additions)
         assert abs(sum(minutes[p] - prior[p] for p in additions) - prior[HALL]) < 1e-5
         assert sum(w["seconds"] for w in witness if w["players"] == branch["starters"]) >= 180
