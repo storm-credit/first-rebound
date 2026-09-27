@@ -32,6 +32,8 @@ F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2
 
 [F2 원거래 동일성 경로](../research/O15F14R_BOSTON_FOURNIER_PRIMARY_EQUIVALENCE.md)에서는 NBA의 거래일 기사로 Hayward 예외의 **원역사 사용**과 Boston/Orlando 구단의 같은 선수·두 2R 거래를 공식 자료에 연결했다. 비공개 센트 원장을 만들어 채우기 전에, Boston 예외/픽·Orlando 3/25~27 Teague 임시 등록과 Vučević 잔류 장부가 원거래의 합법 입력과 동일한지 검증한다. 이름 붙은 Boston 거래 네 선수의 일치만으로 F2 PASS는 아니다. F2·K_TRANSACTIONS `HOLD`와 전체 `0/5`는 유지한다.
 
+[F2 Orlando 등록 후속](../research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md)은 3/24 NBA 공식 경기책의 일반 15+투웨이 2 재관측과 구단 공식 거래 연혁의 3/25 전 공백, 3/27 Teague 방출을 결합했다. 승인 방향의 Gordon/Clark 2:2와 Fournier/Teague 1:1 실행에서 **3/25~26 일반 15+투웨이 2, 3/27 방출 뒤 일반 14+투웨이 2**의 공개 자리 산술은 통과했다. Teague 비용과 Vučević 잔류·Nnaji 수취의 정확 한도/예외, Boston TPE·픽 우선권은 아직 F2 `HOLD`; 이를 다시 자리 수 미검수로 설명하지 않는다.
+
 ## 3. 사실 통과 뒤의 최종 채택
 
 | 선택 | 이미 있는 검토안 | 최종 채택 전에 필요한 것 |
