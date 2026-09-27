@@ -47,16 +47,24 @@ class ContractSequenceTests(unittest.TestCase):
     def test_green_pending_rfa_charge_changes_intermediate_not_final_salary(self):
         route=self.p['routes'][0]
         early=run_route(self.p,self.final,route,1000000)
-        for charge in (1897476,1929217,2056061):
-            late=run_route(self.p,self.final,route,1000000,green_pending_charge=charge)
+        for charge,apron_charge in ((1897476,1897476),(1929217,1929217),(2056061,1897476)):
+            late=run_route(self.p,self.final,route,1000000,green_pending_charge=charge,green_pending_apron_charge=apron_charge)
             self.assertEqual(late['rows'][0]['standard_contracts'],8)
             self.assertEqual(late['rows'][0]['normal']['incomplete_count'],early['rows'][0]['normal']['incomplete_count'])
             self.assertEqual(late['rows'][0]['cap_room'],early['rows'][0]['cap_room']-(charge-self.final['Green']))
+            self.assertEqual(late['rows'][0]['apron_room'],early['rows'][0]['apron_room']-(apron_charge-self.final['Green']))
+            early_caruso=next(row for row in early['rows'] if row['event']=='SIGN_Caruso_NTMLE')
+            late_caruso=next(row for row in late['rows'] if row['event']=='SIGN_Caruso_NTMLE')
+            self.assertEqual(late_caruso['apron_room'],early_caruso['apron_room']-(apron_charge-self.final['Green']))
             self.assertEqual(late['final_gross_budget'],early['final_gross_budget'])
             self.assertEqual(late['rows'][-1]['normal'],early['rows'][-1]['normal'])
+            self.assertEqual(late['rows'][-1]['apron_room'],early['rows'][-1]['apron_room'])
+            self.assertEqual(late['apron_extra_upper_after_trigger'],early['apron_extra_upper_after_trigger'])
         self.assertEqual(self.x['Green_late_SQ1_sensitivities']['case_count'],180)
         self.assertEqual([s['id'] for s in self.x['Green_late_SQ1_sensitivities']['charge_scenarios']],['QO_125_PERCENT_PRIOR','THREE_YEAR_CALCULATOR_STRESS','ESPN_FA_HOLD_STRESS'])
-        self.assertIsNone(self.x['Green_late_SQ1_sensitivities']['actual_Green_effective_charge'])
+        self.assertIsNone(self.x['Green_late_SQ1_sensitivities']['actual_Green_normal_cap_charge'])
+        self.assertIsNone(self.x['Green_late_SQ1_sensitivities']['actual_Green_apron_charge'])
+        self.assertEqual([(s['charge'],s['apron_charge']) for s in self.x['Green_late_SQ1_sensitivities']['charge_scenarios']],[(1897476,1897476),(1929217,1929217),(2056061,1897476)])
 
     def test_unknown_prior_starter_criterion_is_not_failure(self):
         self.assertTrue(single_season_starter_sufficient(41,None))
