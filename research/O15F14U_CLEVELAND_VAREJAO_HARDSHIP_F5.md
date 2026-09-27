@@ -31,7 +31,7 @@ McGee와 Hartenstein이 모두 일반계약으로 원래 팀에 계속 남는다
 
 | 대체 사건 후보 | 자리·의무 | 다음 검증 |
 |---|---|---|
-| C1 원역사 Varejão 영입 유지 | 5/4 16+2. Hartenstein을 근거로 쓰지 않고 Dellavedova·Nance·Prince·Windler의 3연속 결장과 5/3 계속 결장 전망으로 **새 세계 hardship 신청/허가 사건**을 설정해야 함 | A1 대체 건강 달력, 리그 판단/기간, Varejão 10일 계약 2건 및 전체 Cleveland 비용·5월 분·승패. 원역사 승인 자동 복사 금지 |
+| C1 원역사 Varejão 영입 유지 | 5/4 16+2. Hartenstein을 근거로 쓰지 않고 Dellavedova·Nance·Prince·Windler의 3연속 결장과 5/3 계속 결장 전망으로 **새 세계 hardship 신청/허가 사건**을 설정해야 함 | A1 대체 건강 달력, 리그 판단/기간, Varejão 5/4 10일 계약과 [5/14 형식 미인증 후속](O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md), 전체 Cleveland 비용·5월 분·승패. 원역사 승인 자동 복사 금지 |
 | C2 Varejão 영입 생략 | 그 한 명을 빼면 5/4 **15+2**. Varejão의 원역사 분·작별 행사는 발생하지 않음 | 5월 실제 출전 5경기의 분을 McGee 등 실명 가용 선수에게 재배정하고 5인조·승패·건강·비용을 재검산 |
 
 C2의 원역사 5경기 **35:56** 분 부담과 McGee 단독 흡수의 조건부 5/5 **19:27**, 5/7 **17:12**는 [분 검문](O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)에서 따로 기록한다. 이는 출전 가능이나 새 시즌 결과의 증명이 아니다.
