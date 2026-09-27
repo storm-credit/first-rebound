@@ -18,6 +18,14 @@
 
 [2019–20 Chicago 경기 기준선](../simulation/CHICAGO_2019_20_GAME_MARGIN_BASELINE.csv)과 [기존 조건부 결과 원장](../simulation/CHICAGO_2019_20_OUTCOME_LEDGER.csv)을 날짜로 결합하면, Drummond 거래 전 Chicago–Detroit **4경기**, Chicago–Cleveland **3경기**다. 저장된 각 경기의 BPM/NET_EB × LOW/BASE/HIGH **6개 조건**에서 `base_flip`, `fatigue_05_flip`, `fatigue_10_flip`은 모두 `0`이었다(7경기×6행). 즉 **이 원장의 직접 맞대결 승패는 그대로**였으며, 양 구단의 Drummond 거래 전 승수 변화를 Chicago와의 직접 경기 결과에서 찾지는 못했다. 이 42행은 타 구단과의 연쇄 경기·프런트의 판단·선수 가치·의료/급여를 검증하지 않으므로 **대체 Drummond 거래 실행 PASS는 아니다**.
 
+### 16번 권리의 정확 대가와 2021 Lakers 픽의 왕복
+
+[Houston 공식 2020-11-24 발표](https://www.nba.com/rockets/news/rockets-acquire-christian-wood)와 [NBA 공식 드래프트 거래표](https://www.nba.com/news/2020-nba-draft-trade-tracker)를 합치면 원역사 패키지는 다음과 같다. Houston→Detroit는 **Ariza, 16번 Stewart 지명권, Houston 미래 2R, 현금**이고 Detroit→Houston은 **사인 앤드 트레이드 Wood, Detroit 미래 보호 1R, Lakers 경유 2021 2R**이다. 16번 권리는 Houston이 [Portland에서 Ariza와 함께 받은 자산](https://www.nba.com/news/2020-nba-draft-trade-tracker)이다. 11/21의 [사전 보도](https://www.nba.com/news/reports-pistons-mavericks-thunder-execute-three-way-trade)는 Ariza·16번의 Detroit행이 **아직 공식 완료 전**이라고 적는다. 보도된 합의 시점과 11/24 공식 실행을 혼합하지 않는다.
+
+[NBA의 2021-05-25 공식 드래프트 순서 발표](https://www.nba.com/news/ties-broken-for-order-of-selection-in-2021-nba-draft)는 원역사 **Lakers 2021 2R**을 `LAL→Detroit→Houston→Sacramento→Detroit` 경유로 기록한다. 실제 순번은 이 자료에서 `52`지만 대체 시즌의 순번으로 복사하지 않는다. 이 왕복은 **11/24 Wood 거래에서 Detroit가 내보낸 2021 2R과 3/25 Wright 거래로 되찾은 2021 2R이 같은 법적 픽**임을 원역사 한정으로 잇는다. 3/25의 2024 2R과는 다른 자산이며, 2020 Houston→Detroit 미래 2R도 별도다.
+
+대체 Kira16 정본은 `16번 권리를 Detroit가 통제한다`는 지명 결과를 잠근다. 이것만으로 **Wood의 사인 앤드 트레이드 동의**, 양 구단의 새 16번 선수 가치 평가, Detroit 보호 1R·Lakers 2021 2R 소유, Houston의 Ariza/2R/현금 제공과 거래 급여를 승인하지 않는다. 원형 11/24 패키지가 유지되면 `Stewart16 권리`라는 역사적 선수 이름을 **Kira16 권리**로 바꾸어 후속 Ariza→Wright 고리를 검토할 수 있다. 원형 패키지가 깨지면 Kira16 권리 취득과 Wright 수신을 각각 새 경로로 증명해야 한다. `Kira16`과 `Stewart19`를 한 거래의 중복 16번 자산으로 쓰지 않는다.
+
 ## 2022-02-10 픽의 출처 표현 차이
 
 [NBA 공식 거래표](https://www.nba.com/news/2021-22-nba-trade-tracker)는 Milwaukee가 Sacramento 경유 픽과 Detroit 경유 픽을 하나씩 받고 Sacramento도 Detroit 경유 픽 하나를 받았다고 적는다. 반면 [Golden State의 2022–23 DiVincenzo 미디어 가이드](https://cdn.nba.com/teams/uploads/sites/1610612744/2022/10/Golden_State_Warriors_2022_23_Media_Guide.pdf)는 Detroit의 2023·2024 픽 **두 장이 Milwaukee로 갔다**고 요약한다. 두 문서는 **최종 수취와 중간 경유 또는 서로 다른 법적 픽**을 구별하지 않는다. 같은 2024 자산인지, Sacramento가 별도 픽을 Milwaukee로 보냈는지 원계약/공식 자산 ID 없이는 확정하지 않는다. 미디어 가이드의 요약으로 NBA 표의 Sacramento 수취 행을 지우거나 세 장의 Detroit 픽을 만들지 않는다.
