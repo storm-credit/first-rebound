@@ -1,0 +1,31 @@
+{
+  "status": "CONDITIONAL_QUARTER_ROTATION_WITNESS_ONLY",
+  "date": "2022-01-23",
+  "game": "0022100707",
+  "basis": "O15G15Z_DENVER_FIVE_MAN_WITNESS.json",
+  "slot_minutes": 2,
+  "roles": ["PG", "SG", "SF", "PF", "C"],
+  "names": {
+    "MM": "Monte Morris", "FC": "Facundo Campazzo", "BF": "Bryn Forbes",
+    "AR": "Austin Rivers", "WB": "Will Barton", "DR": "Davon Reed",
+    "AG": "Aaron Gordon", "NJ": "Nikola Jokic", "DC": "DeMarcus Cousins",
+    "RX": "{receiver}"
+  },
+  "branches": {
+    "X1": {"receiver": "JaMychal Green", "excluded_receiver": "Saddiq Bey"},
+    "X2": {"receiver": "Saddiq Bey", "excluded_receiver": "JaMychal Green"}
+  },
+  "quarters": [
+    [["MM","BF","WB","AG","NJ"], ["MM","BF","WB","AG","NJ"], ["MM","FC","WB","AG","NJ"], ["FC","AR","WB","AG","NJ"], ["FC","AR","WB","AG","NJ"], ["FC","AR","WB","RX","NJ"]],
+    [["FC","BF","AR","RX","DC"], ["FC","BF","AR","RX","DC"], ["MM","BF","WB","RX","DC"], ["MM","AR","WB","RX","DC"], ["MM","AR","WB","AG","DC"], ["MM","AR","WB","AG","NJ"]],
+    [["MM","AR","DR","AG","NJ"], ["MM","AR","DR","AG","NJ"], ["FC","AR","DR","AG","NJ"], ["FC","BF","DR","AG","NJ"], ["FC","BF","DR","RX","NJ"], ["FC","BF","DR","RX","DC"]],
+    [["MM","BF","AR","RX","NJ"], ["MM","BF","AR","AG","NJ"], ["MM","AR","WB","AG","NJ"], ["MM","AR","WB","AG","NJ"], ["MM","AR","WB","AG","NJ"], ["MM","AR","WB","AG","NJ"]]
+  ],
+  "expected_minutes": {
+    "Monte Morris": 30, "Facundo Campazzo": 20, "Bryn Forbes": 20,
+    "Austin Rivers": 34, "Will Barton": 28, "Davon Reed": 12,
+    "Aaron Gordon": 32, "Nikola Jokic": 36, "DeMarcus Cousins": 12,
+    "{receiver}": 16
+  },
+  "max_continuous_minutes": 12
+}

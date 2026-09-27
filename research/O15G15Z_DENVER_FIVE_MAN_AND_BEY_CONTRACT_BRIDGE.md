@@ -38,3 +38,7 @@ Campazzo는 SG를 마친 뒤 PG를 맡고 Rivers는 SF를 마친 뒤 SG를 맡�
 다음은 Denver의 조건부 **날짜별 계약·15인 자리와 쿼터별 실전 가능한 휴식 로테이션**, 이어 Detroit의 Bey/Cade 이탈과 Patrick/Kira/Suggs 당일 가용성·분·FGA를 확인한다. G14 Detroit `PRIOR_HOLD`와 Orlando `ROLE_HOLD`, Chicago 2020–21 정확 시즌, G16/G17은 그대로다. 7개 매크로 게이트는 1완료·1진행·5대기이며 진행 중 포함 6개가 남는다.
 
 [이번 CLI·제한 반증·결과물 단독 맹점 검수](../reviews/R01_O15G15Z_CLI_AND_LIMITED_BLIND_REVIEW.md)는 Antigravity의 NBA 기사 본문 성공, NotebookLM의 CBA 출처 제한 분석, Claude의 수학 확인과 잘못된 Monte Morris 의심의 기각을 기록한다. 어느 단계도 G16/G17을 대체하지 않는다.
+
+### 후속 — G15BI 쿼터별 휴식 후보
+
+[G15BI](O15G15BI_DENVER_QUARTER_ROTATION_WITNESS.md)는 실제 교체 시각을 추정하지 않는 2분 칸 원장으로 X1/X2 각각 4쿼터·5인 동시·팀240분·선수 연속 출전 최대12분을 증명했다. 기존 G15Z의 긴 무휴식 배정은 선행 산술 증명으로만 남는다. 계약·건강·포지션 적합성·경기 성과는 여전히 `HOLD`다.
