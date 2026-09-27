@@ -28,3 +28,5 @@
 | 작가확정 | 0건. 후보 A/B 미선택, 2021 DB1 미선택, 건강·급여·타 팀 거래 미확정. |
 
 다음에는 Detroit의 실제 게임북/활동·비활동 표기를 **출전/DNP/비활동**으로 분리해 원역사 참고표를 만들되, 원역사 Garza가 표준계약이었다는 차이를 유지한다. 후보 A의 실질 검증은 대체 G14/G15의 날짜별 센터 가용성, Garza 사용 필요 경기, Pickett Exhibit 10/Cruise 이동 및 8/6 Olynyk cap·Charlotte/Nets 거래 선행 HOLD와 함께 해야 한다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지. 전체 7묶음 1완료·1진행·5대기, 진행 중 포함 남은 6묶음.
+
+[G15BO](O15G15BO_DETROIT_GARZA_BAGLEY_SLOT_BRIDGE.md)는 원역사 2/10 4팀 거래가 대체세계에서도 성립하면 그 **거래 완료 후** 표준 자리가 하나 열리는 조건부 경로를 검산했다. 이 경로도 2/10 이전 50활동경기 누적이나 상대 팀 수락·Pickett 확보를 해결하지 않는다.
