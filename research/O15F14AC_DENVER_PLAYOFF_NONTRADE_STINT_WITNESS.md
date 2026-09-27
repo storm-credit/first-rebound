@@ -33,3 +33,5 @@ NBA 경기책의 최종 박스와 플레이바이플레이에서 McGee의 **출�
 - **NotebookLM CLI:** 비정본 검증 작업실에 6/13 공식 경기책 한 파일을 추가했다(출처 ID `ab7d3f87-50f6-42fa-baf3-7138e45349ef`). **그 출처만** 지정한 질의가 Jokić `3Q 3:52`, McGee 퇴장 전 `3:51`·후 `15:49`와 세부 출입 구간을 인용해 반환했다. 동일 NBA 파일의 분석이므로 독립 원자료 한 건을 더 얻은 것으로 세지 않는다. 다른 3경기는 이번 NotebookLM 질의 범위 밖이다.
 - **Antigravity CLI:** 같은 6/13 NBA PDF의 교대 시계 수집을 요청했으나 headless `RunCommand` 권한 자동 거절로 응답 본문이 비었다. `status=SUCCESS`·1턴만으로 수집 성공이라 부르지 않는다. 이번 호출의 새 Evidence Pack은 **0건**.
 - **Claude 제한 반증 / 결과물 단독 검수:** 각각 실행했다. 첫 호출은 초 산술을 인정하고 6/13 퇴장 사건 의존을 지적했다. 둘째는 앞선 분석을 보지 않고 원역사 출전분의 이름 치환·빠진 6경기·달력/상대팀 연결을 의심했다. 본문에 조건부 대진·10경기 중 4출전·원역사 박스의 이름 치환과 6/13 연장 없음, Cleveland의 McGee 잔류를 명시했다. [도구별 판정과 기각 범위](../reviews/R01_O15F14AC_PLAYOFF_STINT_CLI_AND_BLIND.md)를 따른다. 동일 모델의 두 호출은 NBA 원자료 독립 검수나 G16/G17 완료가 아니다.
+
+**후속 AN에서 드러난 범위 축소:** 선택된 Gordon A는 Nnaji를 Orlando로 보낸다. 원역사 McGee 출전 구간 중 [5/29·6/9 합계 11:17](O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md)에 Nnaji가 함께 뛰었으므로, 이 문서의 McGee→Hartenstein **단일** 이름 치환은 그 두 구간의 선택 Denver 5인조 증인이 아니다. AN은 그 구간에서 Nnaji→Bey까지 별도로 검사한다. 본문의 시계 산술은 원역사 구간 사실로 유지한다.

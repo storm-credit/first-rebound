@@ -34,3 +34,5 @@
 ### 후속 AC: 6/13 퇴장 전후 출전 구간
 
 [교대 시계 검문](O15F14AC_DENVER_PLAYOFF_NONTRADE_STINT_WITNESS.md)은 네 McGee 출전 경기의 플레이바이플레이 구간을 공식 박스 총 `33:49`와 대조했다. 6/13 `19:40` 중 Jokić의 3Q `3:52` 퇴장 **뒤**가 약 `15:49.3`이다. 이름만 Hartenstein으로 바꾸는 M1은 이 시간 공백을 드러내는 조건부 산술안이고, 퇴장 이후 Jokić에게 시간을 재배분하는 M2는 원역사 퇴장 유지 조건과 충돌한다. 플레이오프 5인조·가용성·결과와 F5/K의 `HOLD`는 그대로다.
+
+[AN 명단 겹침 후속](O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md)은 원역사 McGee 분 가운데 `11:17`에 Nnaji가 함께 뛴 사실을 확인했다. Gordon A 승인 방향에서는 Nnaji가 Orlando 선수이므로 M1의 McGee 이름만 바꾸는 방식은 그 구간에서 성립하지 않는다. Hartenstein·Bey를 각각 배치한 조건부 5인조 수량/역할 증인을 AN에 분리한다. 다른 Nnaji 출전·건강·점수는 여전히 미해결이다.
