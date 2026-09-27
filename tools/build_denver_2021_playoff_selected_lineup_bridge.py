@@ -10,6 +10,7 @@ from pathlib import Path
 
 import build_chicago_2020_21_season_recommendation as k
 import build_denver_2021_playoff_game4_lineups as game4
+import build_denver_2021_playoff_nnaji_other_stints as nnaji_other
 import build_denver_2021_playoff_other_lineups as other
 
 
@@ -62,6 +63,12 @@ def build():
     assert sum(row["seconds"] for row in rows) == 2029.4
     assert overlap == 677.0
     assert sum(game["seconds"] for game in NNAJI_OTHER_GAMES) == 382
+    nnaji_nonoverlap = nnaji_other.build()
+    assert nnaji_nonoverlap["original_nnaji_box_seconds_three_games"] == 382
+    other_windows = [row for game in nnaji_nonoverlap["games"] for row in game["windows"]]
+    assert len(other_windows) == 4
+    assert all(row["conditional_hartenstein_k1_role_pass"] for row in other_windows)
+    assert len(rows) + len(other_windows) == 18
     return {
         "stage": "O-15F14-F5_DENVER_PLAYOFF_SELECTED_ROSTER_COLLISION_BRIDGE",
         "selected": False,
@@ -73,7 +80,10 @@ def build():
         "original_nnaji_other_positive_game_box_seconds": NNAJI_OTHER_GAMES,
         "original_nnaji_positive_box_seconds_at_least": int(overlap) + 382,
         "mcgee_windows": rows,
-        "limits": "Conditional Bey/Hartenstein role/count witness only; three other Nnaji games lack lineup clocks and no score, health, roster eligibility, or series result is certified",
+        "nnaji_other_windows": other_windows,
+        "combined_positive_window_count": len(rows) + len(other_windows),
+        "conditional_18_window_role_pass": True,
+        "limits": "Conditional Bey/Hartenstein role/count witness only; other Nnaji lineup clocks come from secondary FOX play-by-play, NBA boxes confirm their minute totals; no score, health, roster eligibility, or series result is certified",
     }
 
 

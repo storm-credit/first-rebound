@@ -1175,3 +1175,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AC — Denver 플레이오프 교대 시계
 
 [F5 공식 구간 증인](research/O15F14AC_DENVER_PLAYOFF_NONTRADE_STINT_WITNESS.md)은 원역사 McGee 4경기의 플레이바이플레이 교대를 `33:49` 박스 합계에 맞추고, Phoenix 4차전 `19:40` 중 Jokić 퇴장 **뒤**를 `15:49.3`으로 분리했다. M1 동일 슬롯 Hartenstein 치환은 조건부 산술 증인이지 대체 건강·실제 감독 선택·포지션 적합성·원역사 대진/패배의 보존 증명이 아니다. NotebookLM CLI는 6/13 NBA 경기책 한 출처만 지정한 인용 분석을 반환했고, Antigravity CLI는 headless 도구 권한 거절로 본문 0건이었다. Claude의 문서 단독 반증은 산술 오류를 찾지 못했지만 퇴장 사건 의존을 지적했다; 이는 새 NBA 원자료가 아니다. F5와 네 K·A 최종 판정, Varejão C1/C2 미선택, freeze/CLOSED 및 7행 1완료·1진행·5대기/미완료 6개는 불변.
+
+## O-15F14-AO — Nnaji 단독 6:22의 경기별 교대 경계
+
+[Nnaji 잔여 구간](research/O15F14AO_DENVER_NNAJI_OTHER_PLAYOFF_STINTS.md)은 5/24·6/7·6/11 NBA 공식 박스의 `2:43+2:15+1:24=6:22`를 FOX Sports 2차 플레이바이플레이의 4개 4Q 5인조 구간으로 풀었다. 기존 McGee와 Nnaji 겹침 `11:17`의 14개 구간과 합쳐 Hartenstein/Bey 조건부 18/18 역할·인원 증인을 얻었다. 5/24 첫 26초는 Bey 단독 치환 시 K1 센터 태그가 없어 실패하고 Hartenstein 치환은 통과한다. 원역사 Nnaji도 K1에서 센터 태그가 없으므로 이 판정은 실제 포지션 불능을 뜻하지 않는다. FOX 교대는 NBA 공식 경기책보다 낮은 출처 등급이며 건강·실제 감독 선택·득점/시리즈는 `HOLD`. F5 `HOLD`, F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개 및 freeze/CLOSED 불변.
