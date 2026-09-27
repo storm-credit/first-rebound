@@ -1155,3 +1155,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AA — Cleveland Varejão C1/C2 검토 가능
 
 [C1/C2 결정 패킷](research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 NBPA 2017 CBA의 시즌 마지막 경기일 10일 계약 제한과 원역사 5/14 “둘째 10일” 2차 보도의 충돌을 기록했다. 5/4 첫 10일은 공식 확인, 5/14 후속 형식은 공식 계약 원본 미확보다. SalarySwish의 **잔여시즌 계약** 2차 표와 CBA 일할·베테랑 보전을 대조한 C1 개인 계약 부분합은 선수 총보수 $228,368·팀 charge $144,297; C2에서는 새 Varejão 비용이 없다. 5/14·16 공식 경기책에도 Dellavedova·Nance·Prince·Windler는 계속 부상 미출전이다. C2는 기존 5경기 35:56 분/승패 화면을 재사용하고 새 hardship/후속 계약 사건을 피하므로 **추천**이나 **작가 확정 전 후보**다. 전체 Cleveland 급여, 대체 건강·리그 허가, 2021–22 FA hold/권리 포기, Denver 플레이오프는 HOLD. F5·A1·K 등록/거래/시즌 HOLD, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-AB — Orlando Hall 생략 5경기 건강 관측 대조
+
+[F4 5경기 선별](research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md#5월-원역사-건강출전-대조-후속-검문)에 NBA 공식 부상 보고·Orlando 경기 후 기사·최종 경기책의 Bamba 상태를 붙였다. 원역사 5/11 `Out`에는 대체 분도 0, 5/13 `Questionable`에는 선별 0분, 5/14 복귀 출전·5/16 출전에는 각각 후보 23.50·30.00분이다. 5/9 Bamba 24.40분과 Wagner의 5/11·13 각 36분도 원역사 대비 추가 부하이므로 대체 세계 건강·감독 선택의 사실로 확정하지 않는다. 기존 5인조/팀240분·국소 승패 방향 검산은 유지하되 F4/A1·전체 시즌은 `HOLD`; C1/C2 작가 선택도 대기. F `0/5`, A `0/3`, K `0/4`, 7행 1완료·1진행·5대기/미완료 6개, `PROJECT_FREEZE v0.30 PARTIAL` 및 설계/원고 `CLOSED` 불변.
