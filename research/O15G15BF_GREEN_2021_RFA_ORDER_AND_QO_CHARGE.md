@@ -19,12 +19,23 @@
 | 시간 경로 | Caruso 직전 Green의 일반계약 자리 | 그 시점 Green Team Salary 항목 | 이후 비용 |
 |---|---|---|---|
 | `SQ1-GREEN-EARLY` — 현재 G8 계산 | 서명된 1자리 | 제안 급여 `$1,669,178` **2차 비교값** | 이미 검산한 240조건만 이 경로에 적용. Green의 조기 수락·신고일 `HOLD`. |
-| `SQ1-GREEN-LATE-QO` — 아직 계산하지 않은 반례 | FA 권리만 있으며 일반계약 1자리로 등록하지 않음 | QO가 여전히 유효하다면 `max(F,Q,N)`, `F=Free Agent Amount`, `Q=outstanding QO`, `N=First Refusal Exercise Notice`. FA는 12명 미달 차지 검사에서 CBA 규칙대로 셀 수 있지만 일반 명단에 자동 입단하지 않는다. | Caruso 시점의 cap/apron와 NTMLE 적격성·하드캡 경로를 **다시** 계산. 뒤에 같은 2년 계약이 실제 체결된다면 최종 급여 비교는 현재 G8으로 돌아오지만 중간 순서는 별개다. |
+| `SQ1-GREEN-LATE-QO` — 조건부 수치 반례 | FA 권리만 있으며 일반계약 1자리로 등록하지 않음 | QO가 여전히 유효하다면 `max(F,Q,N)`, `F=Free Agent Amount`, `Q=outstanding QO`, `N=First Refusal Exercise Notice`. FA는 12명 미달 차지 검사에서 CBA 규칙대로 셀 수 있지만 일반 명단에 자동 입단하지 않는다. | 아래 두 **가정상 실효 보류액**으로 Caruso 시점 cap/apron와 NTMLE 경로를 재계산. 뒤에 같은 2년 계약이 실제 체결된다면 최종 급여 비교는 현재 G8으로 돌아오지만 중간 순서는 별개다. |
 | `SQ1-GREEN-QO-ACCEPT` | QO 수락 시 계약자 | 1시즌 QO 급여 | G8의 2년 minimum 및 2022–23 Green 잔류 비용을 재사용할 수 없다. |
 
 숫자 민감도만 보면, [Green 2차 계약표](https://www.salaryswish.com/players/javonte-green)는 2020–21 급여 `$1,517,981`, 원역사 2021–22 계약 첫해 `$1,669,178`, 8/11 서명일 표기를 제시한다. 이 2차 표기일은 구단의 Caruso 8/10 발표 뒤이지만, 두 자료의 날짜 종류가 달라 법적 선후의 확증은 아니다. [Hoops Rumors의 6/28 사전 전망](https://www.hoopsrumors.com/2021/06/2021-nba-offseason-preview-chicago-bulls.html)은 QO와 보류액을 각각 `$1,897,476`로 **예측**했다. 앞 급여의 125%는 반올림하여 `$1,897,476`이며 [CBA Article XI §1(c)(iv)](https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf)의 기본 비교식과 맞는다. 이 QO가 실제 유효한 경로라면 `N`이 없어도 미서명 항목은 **최소 `$1,897,476`**, 현재 G8의 서명 급여보다 **최소 `$228,298` 높다**. 이는 **조건부 Caruso 직전 차이**이며 전체 팀 장부·최종 apron 차액이 아니다.
 
 그러나 [SalarySwish의 Green QO 계산기](https://www.salaryswish.com/qualifying-offer-calculator/javonte-green/47)는 `Years of Service=3`과 해당 minimum `$1,729,217`을 입력해 QO `$1,929,217`을 반환하고, 선수 페이지의 QO도 그 수치다. 같은 선수 페이지의 2021–22 실제 최소 계약 첫해는 `$1,669,178`이고 [NBA 선수 이력](https://www.nba.com/player/1629750/javonte-green/bio)은 2021 전 NBA 시즌을 2019–20·2020–21 두 시즌으로 나열한다. 서비스 연수와 사용한 최소급여 기준을 확정하는 원장은 여기서 제시되지 않았으므로 **QO `$1,897,476` 대 `$1,929,217` 출처 충돌을 해소한 것으로 쓰지 않는다**. 계산기의 상단을 적용하면 단순 차이는 `$260,039`이다. [ESPN의 별도 FA 보류액 표기](https://www.espn.com/nba/insider/story/_/id/31733302/offseason-moves-chicago-bulls-contract-decisions-zach-lavine-lauri-markkanen)도 `$2,056,061`로 달라 정확 `F`를 고정하지 않는다. 실제 `N`, QO 철회 여부, 선수 수락/신고 시각도 미확인이다.
+
+## 후행 서명 수치 검문 — G8의 120개 추가 민감도
+
+[G8 계산 결과](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.json)의 `Green_late_SQ1_sensitivities`는 `SQ1×주인공 급여30×Young 보너스2×실효 Green 보류액2=120`개의 **가정상** 경로다. `$1,897,476`과 `$1,929,217`은 위 2차 출처의 상충 후보를 각각 `max(F,Q,N)`의 **실효값이라고 가정**한 입력이다. 실제 `F` 또는 `N`이 더 높으면 해당 경로의 입력을 올려 다시 계산해야 한다.
+
+| 가정한 Caruso 전 Green 실효 보류액 | Green 조기 서명 대비 Caruso 전 cap/apron 여유 차이 | 60개 급여·보너스 조건의 `R=0` 수치 검사 | 최악 조건 최종 apron 순증 한도 |
+|---|---:|---:|---:|
+| `$1,897,476` | `−$228,298` | 60/60 조건부 성립 | `$36,139,917` |
+| `$1,929,217` | `−$260,039` | 60/60 조건부 성립 | `$36,139,917` |
+
+후행 경로에서는 진입 일반계약이 9→8자리이고 Green FA 항목이 한 개 늘어 `12명 미달` 공석 수는 그대로다. Caruso NTMLE 뒤 Markkanen Bird·불필요 FA 정리·Green **동일한** 2년 최소계약 순서로 계산했으므로 최종 알려진 총급여도 조기 경로와 같다. 이 입력 범위에서는 마지막 단계가 apron 순증 한도를 묶는다. `R=0`은 미포함 비용이 실제로 0이라는 증거가 아니고, QO 발급이 대체 Chicago에서 계속 유효한지와 Green의 서명 동의도 증명하지 않는다. 따라서 120/120은 **조건부 산술**, 정확 실행 PASS는 0건이다.
 
 **사실:** NBA의 Green QO 발급 명단, Caruso/Green 구단 발표, CBA의 `max(F,Q,N)` 규칙. **추론:** 원역사의 발표 순서와 G8의 가상 입력 순서가 다르므로 조기 Green 서명에는 별도 선수·리그 사건이 필요하다. **후보:** `EARLY/LATE-QO/QO-ACCEPT`의 비교 경로; 위 달러는 2차 자료를 이용한 조건부 민감도. **작가확정:** 이번 추가 0건. Green·Caruso 실제 대체 계약, #10/#39, D1 정확 시즌은 `HOLD`다.
 
