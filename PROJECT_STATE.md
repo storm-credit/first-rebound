@@ -1135,3 +1135,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-V — Cleveland Varejão 생략의 5경기 분
 
 [공식 5경기 분 검문](research/O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)은 Varejão의 5/5·7·9·12·14 원역사 출전 **35:56**을 확인했다. 선택된 McGee 잔류 화면에 이미 들어간 5/5·7 Hartenstein→McGee 12:50·12:35와 **중복하지 않고** C2 생략 후보의 추가 부담을 계산하면 McGee 단독 흡수 시 그 두 경기 19:27·17:12다. 5/9·12·14는 기존 화면 행 밖이라 새 5인조·건강·두 평점법·전체 승패 검산이 필요하다. C1 hardship 유지/C2 생략 모두 후보, Varejão 결정 0건. F5·A1·K 등록/거래/시즌 `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기, 미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-W — C1의 5/3 동시대 부상 보고서
+
+[Cleveland hardship 검문](research/O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)에 공식 5/1 경기책과 NBA 5/3 20:30 ET 부상 보고서를 추가했다. Hartenstein을 빼고도 Dellavedova·Nance·Prince·Windler **네 명의 4연속 부상 결장**과 5/3 현재 다음 5/4 경기 `Out`은 원역사 공식 자료로 확인된다. 이것은 C1 hardship 후보의 자료 강도를 높이지만, A1 대체 건강·각 선수의 장래 예후에 대한 **새 세계 리그 판단/허가**를 대신하지 않는다. C1/C2 모두 후보, F5와 K 등록/거래 `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
