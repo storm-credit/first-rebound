@@ -1069,3 +1069,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15AV — Houston 8/6 Garuba 지명권 hold 검문
 
 [G15AV 원장](research/O15G15AV_HOUSTON_GARUBA_AUG6_ROOKIE_HOLD.md)은 조건부 DB1~DB4의 Houston Garuba **21번**과 원역사 NBA **23번·8/16 계약**을 분리했다. 2017 CBA Article VII §4(e)에 따라 8/6 미서명 1라운드는 통상 120% rookie-scale hold 대상이고 해외 계약의 제외 시점은 정규시즌 첫날 이전으로 당겨지지 않는다. 21번과 23번의 2차 스케일 표 산술 차이는 약 **`$0.20m`**이며 정확 달러·대체 서명일·서면 제외 여부는 HOLD다. 이는 Houston 별도 Harden 예외 자체의 잔액을 바꾸지 않지만, Sekou 수취 조건의 전체 Team Salary/명단 검문 입력이다. Antigravity CLI는 `SUCCESS` 메타데이터에 빈 응답, NotebookLM CLI는 Houston URL 추가 실패라 해당 원문 분석 0건; Codex가 NBA/CBA 원문과 저장소 후보를 직접 대조했다. Claude CLI 반증 시도는 결과 없이 종료했고 source-blind는 `NOT_RUN`; G15AT/AU 대가·예외·apron, 9월 Nets/10월 Brooklyn 연쇄, Chicago 정확 시즌과 G14/G16/G17은 HOLD. 신규 작가확정 0건; 7행 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8H — 후반 날짜별 슛 압박의 비상쇄 합계
+
+[G8H 날짜별 원장](simulation/CHICAGO_2020_21_DAILY_SHOT_PRESSURE.md)과 [재현 JSON](simulation/CHICAGO_2020_21_DAILY_SHOT_PRESSURE.json)은 G8G의 동일한 29경기·9조건을 날짜별 양수/음수로 분리했다. `PRE_CUTOFF×BASE`는 시즌 순초과 +27.49지만 역사상 경기별 슛 종료량을 고정하는 **진단 시험**에서 17개 양수일의 압박 합계는 약 +111.25이고 다른 12일의 음수 크기 합계는 83.75다. 아홉 조건 모두 양수인 날 13일·모두 음수 10일·부호가 갈리는 날 6일이다. 이는 실제 대체 팀 포제션 상한이나 선수별 시도 이전·정수 박스가 아니며 `G1A_CONSENT_HOLD`를 해소하지 않는다. 새 외부 자료 없이 기존 JSON을 재집계해 Anti-Gravity·NotebookLM·Claude/source-blind `NOT_RUN`. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 종료 0/4, K1/L2·CP2 잠정, 신규 작가확정 0건; 7행 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.

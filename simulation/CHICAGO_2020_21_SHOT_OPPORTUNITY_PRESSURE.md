@@ -37,6 +37,8 @@ Markkanen 시도율은 세 가지로 분리했다. `PRE_CUTOFF`는 당시 확보
 
 **사실:** 저장된 원역사 이차 미러의 팀 2,558 FGA·451 FTA와 3/24 cutoff 관측표, 저장된 K1 분. **추론:** 아홉 조합의 비교선 압박. **후보:** 시도율/LOW·BASE·HIGH 교차 민감도이며 경기별 슛 배정안은 아직 0건. **작가확정:** 0건. K1/L2·CP2 잠정, D1 F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 묶음 종료 0/4, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
 
+[G8H 날짜별 비상쇄 집계](CHICAGO_2020_21_DAILY_SHOT_PRESSURE.md)는 위 9조건의 양수 날짜만 따로 더해 시즌 순합계가 숨기는 비교선 압박을 보인다. 역사상 경기별 총량을 고정한 시험일 뿐 대체 팀의 실제 포제션 상한이나 슛 배분이 아니다.
+
 ## 도구와 검증 계보
 
 Codex가 저장된 네 입력만 사용해 29경기·9조건을 재계산했고 출력 JSON에 LF 정규화 SHA-256을 남겼다. `--check`는 저장 JSON과 재계산 결과의 값·날짜·원자료 해시를 대조한다. 이 내부 비교에는 신규 외부 사실 원문이 없어 Antigravity·NotebookLM `NOT_RUN`; Claude와 source-blind도 `NOT_RUN`이다. 이전 G8F의 공식 NBA 본문 회수 실패를 성공으로 바꾸지 않는다. 외부 독립 검증이나 G16/G17 PASS가 아니다.
