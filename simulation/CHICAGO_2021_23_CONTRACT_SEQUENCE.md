@@ -60,6 +60,8 @@ NTMLE 자격은 예외가 생긴 때부터 사용까지 유지돼야 한다. Gre
 
 G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **구단 발표일**이다. 둘이 다른 이유나 정확한 법적 효력일을 자료 없이 단정하지 않는다. 원역사 발표는 선수 영입의 실례일 뿐, Carter가 남는 대체 Chicago에서도 선수·상대 구단이 같은 조건에 동의했다는 증거가 아니다. 새 서명일·급여 원장·동의가 확인될 때까지 `D2 실제 계약=HOLD`이며, 기존 #10 Duarte·#39 Wieskamp 보드는 최종 지명으로 승격하지 않는다.
 
+[G15AW 계약 종류 분기](../research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)는 원역사 Spurs #41 Wieskamp의 9/7 투웨이와 이 SQ1의 조건부 Chicago #39 **2년 일반계약**을 구분한다. 투웨이 선택 시 최종 일반 14명·첫해 알려진 예산 `−$925,258` 민감도이며, 2022–23 둘째 해 일반계약/RT1~RT4를 그대로 재사용하지 않는다. 본 G8 JSON은 **일반계약 주 경로**의 계산으로 보존한다.
+
 - 2021–22용 P/Carter/Coby rookie option은 이전 행사 기간에 처리돼 있어야 한다. 실제 Coby/Carter 공지는 [2020-12-20](https://www.nba.com/news/bulls-exercise-options-on-white-carter-jr-hutchison)이다. 가상 P의 행사 문서나 이 세계 Hutchison 소속을 그 공지로 인증하지 않는다.
 - Young·Satoransky는 제안된 전액 급여로 유지한다. 무보장/부분보장이라는 표시는 시즌 내내 공짜로 사용할 수 있다는 뜻이 아니다.
 - 사용하지 않는 Porter·Felicio·Temple 등의 FA 권리와 Arcidiacono 옵션/권리를 실제 장부와 대조해 정리한다. 다른 팀에 간 선수의 보류액이나 과거 캠프 비용을 매년 다시 더하지 않는다. 서면 권리 포기와 선수 방출을 구분한다.

@@ -1073,3 +1073,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8H — 후반 날짜별 슛 압박의 비상쇄 합계
 
 [G8H 날짜별 원장](simulation/CHICAGO_2020_21_DAILY_SHOT_PRESSURE.md)과 [재현 JSON](simulation/CHICAGO_2020_21_DAILY_SHOT_PRESSURE.json)은 G8G의 동일한 29경기·9조건을 날짜별 양수/음수로 분리했다. `PRE_CUTOFF×BASE`는 시즌 순초과 +27.49지만 역사상 경기별 슛 종료량을 고정하는 **진단 시험**에서 17개 양수일의 압박 합계는 약 +111.25이고 다른 12일의 음수 크기 합계는 83.75다. 아홉 조건 모두 양수인 날 13일·모두 음수 10일·부호가 갈리는 날 6일이다. 이는 실제 대체 팀 포제션 상한이나 선수별 시도 이전·정수 박스가 아니며 `G1A_CONSENT_HOLD`를 해소하지 않는다. 새 외부 자료 없이 기존 JSON을 재집계해 Anti-Gravity·NotebookLM·Claude/source-blind `NOT_RUN`. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 종료 0/4, K1/L2·CP2 잠정, 신규 작가확정 0건; 7행 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G15AW — Chicago #39 Wieskamp 계약 종류 분기
+
+[G15AW 원장](research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)은 조건부 G7 DB1/C39A #39 Wieskamp와 원역사 Spurs #41·2021-09-07 투웨이 계약을 분리했다. 현재 G8 SQ1은 Wieskamp **2년 일반 최소계약**을 전제로 15명·첫해 최상단 알려진 apron 예산 `$106,862,083`을 계산한다. 같은 다른 입력을 고정한 투웨이 민감도는 일반 14명·투웨이 1명, 첫해 알려진 예산 `$105,936,825`지만 실제 계약 동의·두 투웨이 슬롯의 사용자·미확인 `R`과 2022–23 재계산은 HOLD다. G3 Moody/Edwards는 후속 Duarte/Wieskamp 비교보다 앞선 단계 이력임을 표시했다. Spurs/NBA/Bulls/Pacers 공식 원문과 당시 CBA 101을 Codex가 직접 대조했고 Antigravity 빈 응답·NotebookLM URL 추가 실패, Claude/source-blind `NOT_RUN`으로 기록했다. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 종료 0/4, G1A 선수 동의·D2 실제 계약/시즌·G14/G16/G17 HOLD, 신규 작가확정 0건. 7행 1완료·1진행·5대기, 남은 큰 작업 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.

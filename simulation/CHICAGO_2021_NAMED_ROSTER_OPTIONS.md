@@ -4,6 +4,7 @@
 - 선행: [G1A](CHICAGO_2021_23_CONTINUATION.md), [잠정 추첨](NBA_2021_PROVISIONAL_DRAFT.md).
 - 입력/산출: [입력](CHICAGO_2021_NAMED_ROSTER_INPUTS.json), [계산](CHICAGO_2021_NAMED_ROSTER_OPTIONS.json), [출처](../research/CHICAGO_2021_NAMED_ROSTER_SOURCES.json).
 - 선수 지명·계약 합의·최종 시즌 채택은 미실행이다. `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`.
+- **후속 권위 주의:** 이 G3 단계의 Moody/Edwards 우선안은 [G7 DB1/C39A의 Duarte/Wieskamp 주 비교안](NBA_2021_FULL_DRAFT_COMPARISON.md)보다 앞선 이력이다. 아래 15자리·센터/Caruso 예산은 기준값으로 재사용하되 현재의 선수 지명 추천으로 읽지 않는다. [Wieskamp 일반/투웨이 계약 종류 분기](../research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)는 후속 G8의 2년 일반계약 가정에만 붙는다.
 
 ## 추천의 범위
 
