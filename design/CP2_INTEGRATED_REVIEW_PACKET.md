@@ -3,6 +3,7 @@
 - 상태: `PROVISIONAL_REVIEWABLE_PACKET / NOT_DESIGN_COMPLETE`.
 - 생성 기반: PR #167 main `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 최신 통합 대조 기반은 PR #180 main `109a488c5c508a9f47a79c1f12991b9d162a1720`이며 원문별 권위는 아래 링크를 따른다.
 - 사용자 자동 후속 지시와 [CP2 절차 승인](../canon/CHICAGO_2020_21_CP2_APPROVAL.json)에 따라 작성했다. 최종 정본 승격·집필 허가는 포함하지 않는다.
+- D1 후속 사건: 작가는 [Hall 5/9 재계약 생략·McGee 거래 생략](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)을 선택했다. [30경기 국소 연결](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md)에서 K1 조건부 승자 방향은 유지되지만, 아래 2020–21 행과 2021 잠정 픽은 최종 정본이 아니다. CP2-A06-S3 설계 샘플은 새 연표를 반영해 다시 생성하기 전까지 STALE로 취급한다.
 
 ## 지금 한 번에 검토할 수 있는 연결
 
