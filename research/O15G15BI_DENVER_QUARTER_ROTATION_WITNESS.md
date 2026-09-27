@@ -36,3 +36,7 @@ RX `16:00`과 G15Z의 원역사 Nnaji `16:45`의 45초 차이는 Gordon으로 �
 | 작가확정 | 이번 0건. Bey 서명·2021–22 보유/등록·PF 적합성, JaMychal 계약/건강, 실제 교대·공격기회·수비/파울·점수/승패·Gordon A 정확 거래는 모두 `HOLD`. |
 
 따라서 G15Z의 **긴 무휴식 교대**라는 산술 맹점은 개선됐지만 Denver 경기 자체는 미완료다. 다음은 날짜별 계약·15인 자리/의료, Detroit의 이탈한 Bey/Hayes 및 DB1 Cade와 새 Patrick/Kira/Suggs의 당일 기회 비용이다. D1 Chicago 2020–21 정확 실행, G14 Detroit `PRIOR_HOLD`·Orlando `ROLE_HOLD`, G16/G17은 그대로다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`. 전체 7묶음은 1완료·1진행·5대기, 진행 중 포함 6묶음이 남는다.
+
+### 후속 — G15BJ Denver 명단 자리 연결
+
+[G15BJ](O15G15BJ_DENVER_JAN23_ROSTER_SLOT_BRIDGE.md)는 공식 1/23 명단의 정규 15·투웨이 2에서 Nnaji를 Bey로 조건부 교체해 자리 수와 G15BI 두 교대의 명단 포함을 검증했다. 이는 Bey 서명·Forbes 거래·Cousins 계약·Reed 투웨이·당일 건강의 대체세계 존속 증명이 아니며, 포지션/공격 `HOLD`를 유지한다.
