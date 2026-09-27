@@ -34,6 +34,12 @@ def build(source, bound):
     assert len({r['player'] for r in rows}) == len(rows)
     unresolved = source['unresolved_components']
     assert len({r['id'] for r in unresolved}) == len(unresolved)
+    later_dead = source['later_original_dead_money_screen']
+    assert later_dead['aggregate_source_id'] in refs
+    assert later_dead['candidate_attribution_source_id'] in refs
+    assert date.fromisoformat(later_dead['as_of']) > date.fromisoformat(source['as_of'])
+    assert later_dead['alternate_trade_date_charge_usd'] is None
+    assert later_dead['full_waived_pay_component_verified'] is False
     # This file classifies a partial inventory, never certifies a complete ledger.
     return {
         'stage': source['stage'], 'baseline_main': source['baseline_main'],
@@ -42,6 +48,9 @@ def build(source, bound):
         'incomplete_roster_charge_usd': 0 if conditions['season_started'] or
             conditions['standard_roster_count'] >= 12 else None,
         'unresolved_components': unresolved,
+        'later_original_dead_money_screen': later_dead,
+        'remaining_residual_if_later_reported_dead_money_carried_usd':
+            bound['max_residual_for_all_tested_cases_usd'] - later_dead['reported_team_total_usd'],
         'complete_residual_inventory_verified': False,
         'exact_residual_charge_usd': None, 'actual_non_tax_status': None,
         'retained_prior_residual_limit_usd': bound['max_residual_for_all_tested_cases_usd'],
@@ -54,10 +63,12 @@ def build(source, bound):
 
 
 def main():
-    result = build(json.loads(SOURCE.read_text()), json.loads(BOUND.read_text()))
-    result['input_sha256'] = {str(p.relative_to(ROOT)): sha256(p.read_bytes()).hexdigest()
-                              for p in (SOURCE, BOUND)}
-    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    result = build(json.loads(SOURCE.read_text(encoding='utf-8')), json.loads(BOUND.read_text(encoding='utf-8')))
+    result['input_sha256'] = {
+        p.relative_to(ROOT).as_posix(): sha256(p.read_text(encoding='utf-8').replace('\r\n', '\n').encode('utf-8')).hexdigest()
+        for p in (SOURCE, BOUND)
+    }
+    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'PASS': True, 'conditional_fa_rows': len(result['fa_rows']),
                       'complete_residual_inventory_verified': False,
                       'actual_non_tax_status': None}))

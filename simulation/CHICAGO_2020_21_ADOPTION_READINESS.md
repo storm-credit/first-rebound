@@ -45,6 +45,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [F1 미서명 1R·출처 한계](../research/O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 구단 가이드의 일부 지명/권리 계약을 확인하고, 2019-01-22 Diebler 2R 권리 누락을 당시 구단 공식 공지와 대조했다. 가이드 무기재는 2021-03-25 **모든** 미서명 1R/거래 예외 0의 증명이 아니다. `UNSIGNED_FIRSTS`, R과 F1은 HOLD다.
 
+[F1 방출잔액 날짜 검문](../research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 동시대 2차 보도에서 **4/16 원역사 Chicago dead money $97,261**을 회수했다. 대체세계 3/25 charge로 앞당겨 확정하지 않는다. 같은 값이 적용된다는 조건의 다른 R 여유는 `$5,512,711`이지만 `WAIVED_PAY`·R·F1은 `HOLD`다.
+
 [F2 Boston Hayward TPE 용량](../research/O15F14AI_BOSTON_FOURNIER_TPE_CAPACITY_BOUND.md)은 NBA 3/16 약 `$28.5m` 기사와 공식 시즌 거래표를 연결했다. 거래표에 3/16~24 Boston 거래가 없고 3/25에는 Fournier·Theis 3팀 거래 두 건이 있다. 2차 계약액으로 Kornet·Wagner를 같은 Hayward 예외에 먼저 모두 차감하는 스트레스에서 `$28m−$4.41192m−$17.45m=$6.13808m`이다. 이것은 **공개 입력의 조건부 명목 용량**이며 리그의 정확 예외 잔액·수취 charge, Boston/Orlando 전체 급여와 픽 가용성은 HOLD다. [도구·반증 기록](../reviews/R01_O15F14AI_BOSTON_TPE_CAPACITY_REVIEW.md)은 AG/NLM의 공유 출처와 문서 단독 Claude 검수를 분리한다.
 
 [F2 Orlando 거래일 순서 화면](../research/O15F14AJ_ORLANDO_TRADE_DAY_ORDER_SCREEN.md)은 두 거래 뒤 동일한 후반 장부에 도달해도 중간 apron 여유가 Gordon 먼저 `$4,064,216`, Fournier 먼저 `$22,644,815`로 갈라짐을 재현했다. Gordon 먼저에서 캠프 4명 연간 전액을 추가한 가혹한 시험은 `$76,411` 초과다. 실제 캠프 charge·hard-cap 트리거·리그 처리 순서가 미확정이므로 거래 실패나 위반을 선언하지 않는다. 등록 15+2 검산과 별도로 `F2=HOLD`를 유지한다.

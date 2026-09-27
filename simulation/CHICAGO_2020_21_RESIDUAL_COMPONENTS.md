@@ -48,3 +48,5 @@ Vonleh의 [SalarySwish 이력](https://www.salaryswish.com/players/noah-vonleh)�
 ### 최신 회수 범위 연결
 
 [실행 조항 후속](NBA_2021_EXECUTION_RESOLUTION.md)에서 해당 미확보 이력의 후속 근거를 제공한다. 이 문서/JSON의 당시 계산을 소급 변경하지 않는다. 최신 잔여 필드는 [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md)에 통합했다. 전체 정확 실행·시즌은 여전히 HOLD다.
+
+[AR의 날짜별 방출잔액](../research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 당시 2차 집계의 **4/16 원역사 Chicago 총액 $97,261**을 회수했다. 3/25 대체세계 charge는 검증하지 못했으므로 위 `WAIVED_PAY` 및 전체 R의 `null`은 유지한다. 같은 금액을 조건부로 대입한 남은 R 여유만 `$5,512,711`이다.

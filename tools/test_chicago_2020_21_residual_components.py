@@ -7,8 +7,8 @@ import build_chicago_2020_21_residual_components as b
 
 class ResidualTests(unittest.TestCase):
     def setUp(self):
-        self.source = json.loads(b.SOURCE.read_text())
-        self.bound = json.loads(b.BOUND.read_text())
+        self.source = json.loads(b.SOURCE.read_text(encoding='utf-8'))
+        self.bound = json.loads(b.BOUND.read_text(encoding='utf-8'))
 
     def test_signing_date_and_route_are_required(self):
         e = self.source['fa_events'][0]
@@ -25,6 +25,8 @@ class ResidualTests(unittest.TestCase):
         self.assertEqual(r['deduction_from_prior_known_salary_usd'], 0)
         self.assertIsNone(r['exact_residual_charge_usd'])
         self.assertIsNone(r['actual_non_tax_status'])
+        self.assertEqual(r['remaining_residual_if_later_reported_dead_money_carried_usd'], 5512711)
+        self.assertIsNone(r['later_original_dead_money_screen']['alternate_trade_date_charge_usd'])
         changed = copy.deepcopy(self.source)
         for x in changed['unresolved_components']:
             x['amount_usd'] = 0
