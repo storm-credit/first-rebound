@@ -20,6 +20,7 @@
 - [Brooklyn의 2021-09-04 공식 발표](https://www.nba.com/nets/news/2021/09/04/brooklyn-nets-complete-trade-detroit-pistons)는 Sekou+Okafor를 받고 Jordan·2022/2024(Washington 경유)/2025(Golden State 경유)/2027 2라운드 네 장·현금을 Detroit에 보냈다. 이 자산들은 **9/4에 받은 것**이므로 8/6 Detroit→Houston 대가가 아니다. Sekou를 8월에 빼면 이 거래의 선수·Jordan·픽 네 장·현금 수취를 다시 계산해야 한다.
 - [Clippers의 Portland 2023 픽](https://www.nba.com/clippers/news/la-clippers-acquire-kennard-patton-scrubb-and-four-second-round-picks-three-team-deal), [Detroit 자체 2023의 2022 재취득](https://www.nba.com/pistons/news/detroit-pistons-acquire-alec-burks-nerlens-noel-draft-picks-and-cash-considerations), [Brooklyn의 Washington 경유 2024 픽](https://www.nba.com/nets/news/2021/09/04/brooklyn-nets-complete-trade-detroit-pistons), [10/6 Brooklyn 자체 2024 픽](O15G15AS_HOUSTON_AUG6_TPE_AND_PICK_GATE.md)은 연도만 비슷할 뿐 네 개의 다른 출처·시점이다.
 - [G15AT](O15G15AT_HOUSTON_SEPARATE_HARDEN_EXCEPTION_SCREEN.md)의 Houston 별도 약 `$5.02m` 예외와 Sekou `$3.613680m`은 **수취 급여 수치**만 검사했다. 2022 픽 후보/현금 가능성은 Houston의 인수 의사, 8/6 리그 예외 잔액·Team Salary·명단·8/7 Theis 사인 앤드 트레이드 이후 apron을 증명하지 않는다. [G15AR](O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.md)의 Detroit Frank 후 `$344,127` 부족도 그대로다.
+- [G15AV](O15G15AV_HOUSTON_GARUBA_AUG6_ROOKIE_HOLD.md)의 조건부 Houston Garuba 21번 신인 hold/계약은 원역사 23번의 장부와 다르다. 약 `$0.20m` Team Salary 민감도는 Houston의 대가 요구나 Detroit 자산 소유를 자동으로 해결하지 않는다.
 
 ## 연구/검증 레이어 실행 기록
 

@@ -28,6 +28,8 @@
 
 **거래 성사 판정은 여전히 `HOLD`**다. 8/6 Houston의 정확한 예외 잔액·예외 유지 요건/Team Salary·사인 앤드 트레이드 후 apron 제한·표준 명단 자리는 아직 없다. Houston이 Sekou 보장 급여를 떠안는 대가로 Detroit가 **실제 8/6 소유한 픽/현금**을 얼마나 줄지, 보호 조건과 양 팀 거래 동의도 미입증이다. 10/6 Brooklyn 자체 2024 픽을 Detroit 소유 자산으로 복사할 수 없다. Sekou 선이탈이면 9/4 Nets의 Sekou+Okafor→Jordan/픽 네 장/현금 거래와 10/6 Brooklyn→Houston 거래, Detroit 개막 명단·앞코트 분·장기 나비효과를 다시 설계해야 한다. Houston 수단의 수치상 가능성이 Detroit의 [G15AR Frank까지 `$344,127` 부족](O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.md)도 없애지 않는다.
 
+후속 [G15AV Houston 신인 hold 검문](O15G15AV_HOUSTON_GARUBA_AUG6_ROOKIE_HOLD.md)은 조건부 DB1~DB4의 Garuba **21번**과 원역사 **23번** 사이 약 `$0.20m` Team Salary 민감도를 분리한다. 이는 위 Harden 예외 잔액에서 빼는 값이 아니며, 8/6 전체 Team Salary와 서명/hold 시점 확인이 필요하다.
+
 ## 검증 레이어
 
 | 도구 | 실제 관측과 한계 |
