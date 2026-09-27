@@ -1204,3 +1204,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AV — Denver–Lakers 조건부 개막 분 템플릿·행 오류 정정
 
 [AV 두 공식 경기책 분 검문](research/O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 원역사 5/22 Denver 홈 9명과 5/23 Lakers 원정 10명의 분을 각각 **240:00**으로 맞췄다. AU의 `Gasol 7:05`는 PDF 텍스트 열 오독으로, 실제 5/23 `Horton-Tucker 7:05`·Gasol 감독 선택 DNP로 교정했다. 새 Denver 명단의 Hartenstein·Bey 분은 **선택하지 않았다**. 두 팀이 서로 다른 원역사 상대와 치른 박스는 대체 DEN–LAL 5대5 시간축·득점·승자 증거가 아니다. F5/A1/A3·K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
+
+## O-15F14-AW — Denver–Lakers 동일 상대 Hartenstein 선례와 인과 경계
+
+[AW 두 NBA 공식 맞대결 경기책](research/O15F14AW_DEN_LAL_HARTENSTEIN_HEAD_TO_HEAD_PRECEDENT.md)은 원역사 Hartenstein이 Denver 소속으로 Lakers 상대 2/4 `10:11`·2/14 `3:04`을 뛰었음을 확인했다. 그러나 원역사 두 경기의 Hampton Denver 분 `2:53`·`20:23`은 대체 2020 Draft에서 Dallas #31인 선수에게 속하므로 복사할 수 없다. 2/14 Davis의 선행 건병증과 경기 중 재악화도 다른 Denver 로테이션 아래 자동 보존하지 않는 A1 인과 분기다. Hartenstein의 대체 5월 분·건강, Lakers 센터 기용, 새 시리즈 승패는 미선택이다. F5/A1/A3·K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
