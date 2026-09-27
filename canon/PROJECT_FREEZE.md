@@ -1104,3 +1104,7 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 ## O-15G10 — 문체 기초의 독서 근거 보강
 
 필드1~5·재벌집1~6·데못죽1~5 실제16회차를 기초 규칙 검토에 사용했다. 10작품/핵심4/본문4플랫폼의 전체 딥리드와 G11은 미완료다. 작품 문구·대사·장면 작성0. 기존 승인 방향과 author_locked=false·season_selected=false·exact_execution_cleared=false·manuscript_allowed=false, v0.30 PARTIAL·설계/원고 CLOSED를 유지한다.
+
+## 2026-09-28 O-15F14-Q/S — 선택된 F4/F5와 F2 자리 검문
+
+작가가 [F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략](CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)을 방향으로 선택했다. [선택 브리지](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md)의 F4/F5 국소 분·등록·승패 검사는 최종 시즌이 아니다. 원안 Hall hardship 허가와 McGee 거래 TPE·두 2R 이전은 **선택 경로에서 발생하지 않는다**. [F2 Orlando 3/25 등록 연결](../research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md)은 일반 15+투웨이 2의 공개 자리 산술만 통과했다. 현재 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)의 F 전체 PASS 0/5·A 최종 채택 0/3·K 종료 0/4, 7행 1완료·1진행·5대기·미완료 6개다. A2의 행정 비발생 방향을 다시 선택받지 않으며 A1 건강·A3 최종 시즌, F1~F5 남은 실행은 `HOLD`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `manuscript_allowed=false`를 유지한다.

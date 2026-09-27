@@ -23,6 +23,11 @@ def read(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
+def source_sha256(path):
+    """Hash JSON source bytes after cross-platform LF normalization."""
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
 def build():
     decision = read(DECISION)
     assert decision["status"] == "AUTHOR_SELECTED_F4_F5_FOLLOWUP_DIRECTIONS_ONLY"
@@ -82,7 +87,7 @@ def build():
         "author_followup_selected": True,
         "season_selected": False,
         "exact_execution_cleared": False,
-        "source_sha256": {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
+        "source_sha256": {str(p.relative_to(ROOT)): source_sha256(p)
                           for p in (DECISION, SEASON, *SCREENS, ORLANDO_REGISTRATION,
                                     ORLANDO_PAYROLL, DENVER_PAYROLL, MCGEE_FUNDING)},
         "events": [r["event_id"] for r in rows],

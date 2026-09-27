@@ -19,14 +19,14 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 | F1 Chicago 거래 | [비납세 범위](CHICAGO_2020_21_TAX_BOUND.md)에서 알려진 상단 $127,017,028·미포함 순증 `R_CHI≤$5,609,972` 조건, [R 구성](CHICAGO_2020_21_RESIDUAL_COMPONENTS.md)의 타팀 계약/빈자리 분류 | **3/25 거래 당시** 적용되는 R의 전체 상한 또는 실제 구성과 양측 incoming/outgoing charge를 결합해 비납세 자격·matching을 같은 사건에서 판정 | 기본급 matching 여유만으로 Theis/Green 정확 거래 PASS 불가; 승인된 선수 이동 방향을 폐기하지 않고 `K_TRANSACTIONS=HOLD` |
 | F2 Boston Fournier | [자산 연쇄](NBA_2021_ASSET_CHAIN.md)의 MEM2025 출처·TPE 사용 보도/후대 잔액, [BOS 급여](BOSTON_DENVER_2020_21_PAYROLL.md)의 조건부 apron 여유 $5,381,195 | 수취일 Fournier **전체 charge**에 쓴 TPE 당일 가용액/다른 사용, 두 2R의 보호·우선권·가용성과 미포함 팀 부담을 연결 | 후대 $11.05m 잔액 역산을 당일 허가서로 승격하지 않고 거래/픽 소유 `HOLD` |
 | F3 Denver Gordon | [실행 조항](CHICAGO_2020_21_EXECUTION_TERMS.md)의 공개 bonus matching, [후속](NBA_2021_EXECUTION_RESOLUTION.md)의 후행 보호 종료 보도, [DEN 급여](BOSTON_DENVER_2020_21_PAYROLL.md)의 조건부 apron 여유 $6,684,733 | **선행 1R이 실제 전달되는 분기와 2R로 전환되는 분기를 각각** 후행 1R 연결·소멸 조건과 대체 Denver의 자산 우선권/가용성·거래일 charge에 결합 | 선행 2R 전환을 후행 1R 전달로 가정하지 않고 Gordon 거래 정확 실행 `HOLD` |
-| F4 Orlando Hall·후속 등록 | [등록 원장](ORLANDO_2020_21_REGISTRATION_LEDGER.md)의 5경기 추가 일반계약 1자리, [사전 보고](../research/O15F14N_HALL_MAY9_16_FOUR_PLAYER_STATUS.md)·[최종 미출전](../research/O15F14O_HALL_FIVE_FINAL_BOX_ABSENCE.md)의 4인 20행, [계약 비용](NBA_2020_21_REGISTRATION_COSTS.md)의 Hall 전액 비용안, [ORL 급여](ORLANDO_2020_21_PAYROLL_BOUND.md)의 조건부 apron 여유 $14,720,745 | §6.08의 3연속 부상 결장·서명 시점의 계속 결장 전망 요건을 **A1 대체 건강 달력에 대조**하고, A2에서 대체 리그의 신청/허가 사건·기간을 명시하며, 계약/팀 charge와 미포함 팀 부담을 결합. 실재하지 않는 대체 세계의 리그 문서를 요구하지 않는다 | 원역사 미출전 20건을 대체 허가로 읽지 않고 A2·`K_REGISTRATION=HOLD`; 비용 0 근거가 없어도 전액 비용안은 유지 |
-| F5 Denver McGee | [후속](NBA_2021_EXECUTION_RESOLUTION.md)의 2023 top46·2027 무보호 보도와 Grant TPE 후보, F4에 연결된 후속 등록 | 2023 보호 시 **종료/이월**과 해당 2R 가용성, Grant TPE의 당일 실제 사용 가능액·다른 사용 및 거래일 팀 비용을 결합 | Hartenstein 단독 matching 실패 판정을 보존하고 별도 예외의 실제 사용·자산 전달을 `HOLD` |
+| F4 Orlando Hall 재계약 **생략** | [작가 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)·[선택 브리지](CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md): 5/9 이후 일반 15+투웨이 2, Hall 새 계약/추가 자리/신청 불필요, 5경기 분 재배정과 조건부 apron 여유 $14,809,543 | 선택된 대체 건강·분/체력과 다른 후속 등록을 대조하고, Hall 4월 두 계약을 보존한 전체 Orlando 비용 및 미포함 부담을 닫는다 | 원안의 §6.08 추가 자리 허가와 5/9 Hall charge는 **미발생**. 선택 경로의 건강·팀 비용·후속 사건이 남아 `K_REGISTRATION=HOLD` |
+| F5 Denver–Cleveland McGee 거래 **생략** | [작가 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)·[선택 브리지](CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md): McGee CLE/Hartenstein DEN 잔류, DEN 11·CLE 14경기 국소 분, Denver 조건부 apron 여유 $9,264,169 | Cleveland 날짜별 전체 등록·급여와 두 선수의 건강/역할, Denver 플레이오프 및 이후 계약·픽 파급을 연결한다. Denver 미포함 부담도 닫는다 | 원안의 Grant TPE·McGee 대가 2023/2027 2R 의무는 **미발생**. 25경기 국소 승패 불변만으로 전체 F5·`K_TRANSACTIONS` PASS 불가 |
 
 위 금액은 각 문서가 정한 **서로 다른 시점·정의의 조건부 여유**다. Chicago의 6(j) 비납세 검사를 다른 세 팀의 apron 검사와 합산하지 않는다. 공개 보도·2차 계약표·산술 시험은 분야별 문서의 출처 등급대로만 사용한다. 실재하지 않는 리그 원장이나 미공개 계약 문구를 만들어 빈칸을 닫지 않는다.
 
 ### F4·F5의 대체 사건 선별 — O-15F14-Q
 
-[F4 Hall 5월 재계약 생략](../research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md)과 [F5 McGee 거래 생략](../research/O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)을 대체 경로로 추가했고, **작가가 두 생략 방향을 선택**했다. 권위는 [F4/F5 결정 기록](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)이다. F4는 5경기 분·등록 수와 10개 평점 비교를, F5는 Denver/Cleveland 25경기 국소 분 치환과 50개 평점 비교를 기록한다. 위 F4/F5 표의 hardship/TPE/픽 요구는 **이제 선택되지 않은 원거래 유지 경로**의 조건이다. 선택 경로에서는 이를 면제하는 대신 분·건강·전체 팀 비용·후속 사건을 확인한다. 기존 승인 T1~T4는 그대로다. 실행 재검증이 남아 있어 F1~F5 전체 PASS `0/5`, A1~A3 최종 채택 `0/3`, K 종료 `0/4` 판정은 아직 바뀌지 않는다.
+[F4 Hall 5월 재계약 생략](../research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md)과 [F5 McGee 거래 생략](../research/O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)을 대체 경로로 추가했고, **작가가 두 생략 방향을 선택**했다. 권위는 [F4/F5 결정 기록](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)이다. F4는 5경기 분·등록 수와 10개 평점 비교를, F5는 Denver/Cleveland 25경기 국소 분 치환과 50개 평점 비교를 기록한다. 위 표는 이제 **선택 경로**를 나타낸다. 원안의 Hall hardship/5월 계약 및 McGee TPE/픽 조항은 각 선별 문서에서 비교 이력으로만 보존한다. 기존 승인 T1~T4는 그대로다. 실행 재검증이 남아 있어 F1~F5 전체 PASS `0/5`, A1~A3 최종 채택 `0/3`, K 종료 `0/4` 판정은 아직 바뀌지 않는다.
 
 F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2021년 6월 자산 설명](https://www.nba.com/magic/news/orlando-magic-have-great-opportunity-add-several-quality-players-through-draft-next-few-years-20210610)의 검색 색인 문장으로 기존 2차 거래 장부와 대조했다. 이번 접근에서 본문 HTTP 403이므로 **구단 본문 직접 회수로 등급을 올리지 않는다**. 이 대조는 F2의 당일 TPE 사용 가능액·Fournier 전체 charge·다른 자산 의무를 닫지 않는다.
 
@@ -39,12 +39,12 @@ F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2
 | 선택 | 이미 있는 검토안 | 최종 채택 전에 필요한 것 |
 |---|---|---|
 | A1 건강/분 | K의 1,079행 조건부 가용성·J1 Terry 후반 공백 | 대체 세계의 건강 달력 선택과 F4 등록 자격에 미치는 영향. 실존 선수의 새 진단·의료 예후 창작 금지 |
-| A2 Hall 행정 사건 | 기존 네 선수 결장·Hall hardship 사용 추천 | F4와 맞는 **대체 세계의 신청·리그 허가 사건** 선택. 원역사 허가 자동 복사 금지 |
+| A2 Hall 행정 사건 | **작가가 5/9 재계약 생략을 선택**. 선택 명단은 15+2라 Hall 신규 계약·hardship 신청·허가 사건 없음 | 새로운 선택 질문은 불필요. F4의 5경기 대체 분/건강·등록·팀 비용이 닫히면 이 **행정 비발생 사건**을 최종 경로에 반영. 그 전까지 A2 최종 게이트는 `HOLD` |
 | A3 시즌/사건 | K1/BPM 전체 경로·L2 동서부 플레이인 추천 | F1~F5·A1/A2와 모순 없는 단일 정규시즌/사건의 최종 작가 채택, 이후 추첨·픽 소유 재검증 |
 
 A1~A3는 기존 Chicago 원클럽, 2020 지명 연쇄, Theis/Green 선수 이동 A, R1/T1~T4 방향을 **재승인받는 질문이 아니다**. 이 단계 전에는 `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`다. `G17` 전체 설계 승인과도 별개다.
 
-A1의 세부 달력과 A3의 시즌/플레이인 대안은 [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md) 및 [L1~L4 비교](CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)에서 가져온다. A2의 Hall 경로는 [등록 원장](ORLANDO_2020_21_REGISTRATION_LEDGER.md)의 자리 수와 §6.08 조건에 맞추며, 그 경로가 성립하지 않으면 **자리 조정/분 재배정 대안**을 사건·비용과 함께 제시한다. 대안 목록을 만들어 두는 것은 승인이나 원역사 사실의 변경이 아니다.
+A1의 세부 달력과 A3의 시즌/플레이인 대안은 [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md) 및 [L1~L4 비교](CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)에서 가져온다. A2의 작가 선택은 이미 [F4/F5 결정](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)에 있다. 이전 Hall hardship 경로는 비교 이력이고, 지금 검증할 것은 5/9 이후 **재계약·신청 없는 15+2 등록**과 그 분/비용이다. A2 최종 게이트 수를 조기 올리지는 않는다.
 
 ## 4. 반복 조사 중지선과 다음 실행
 
