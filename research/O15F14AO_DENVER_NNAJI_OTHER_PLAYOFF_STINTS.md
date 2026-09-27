@@ -15,3 +15,5 @@
 [선택 명단 종합 검사](../simulation/DENVER_2021_PLAYOFF_SELECTED_LINEUP_BRIDGE.json)는 McGee가 나온 공식 경기책 기반 14구간에 Hartenstein을, 그와 Nnaji가 겹친 구간에 Bey도 배치하고, 이번 FOX 기반 네 구간에 Hartenstein을 배치한 **조건부 18/18 역할·인원 증인**이다. 두 출처 등급을 섞어 모두 공식 교대라고 부르지 않는다. 이는 원역사 교대 시계 보존의 한 가지 후보일 뿐, 감독 선택·Bey/Hartenstein 건강과 등록·체력·경기 득점·시리즈 결과를 검증하지 않는다. 나머지 원역사 경기의 출전 정책도 복사하지 않는다. `F5`, 네 K와 Chicago 최종 시즌은 `HOLD`; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
 
 [Claude 제한 반증](../reviews/R01_O15F14AO_NNAJI_OTHER_STINTS_REBUTTAL.md)은 제공된 문서·네 구간 코드만 검토했다. 원자료나 종합 18구간을 독립 확인한 것으로 세지 않는다.
+
+[AP 건강 인과 검문](O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)은 Hartenstein의 원역사 Cleveland 뇌진탕 보고를 선택된 Denver 경로에 그대로 옮길 수 없음을 확인했다. 따라서 위 18/18은 가용성 조건부 증인으로만 남고, 선택 경로의 Denver 건강·플레이오프 출전은 별도 `UNKNOWN`이다.
