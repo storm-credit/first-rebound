@@ -1183,3 +1183,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AP — Hartenstein 건강 인과 경계
 
 [AP 공식 부상 보고 검문](research/O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)은 원역사 Cleveland의 4/28 뇌진탕 결장, 5/5 복귀 가능 보고, 5/9 재평가, 5/10·14 결장을 기록했다. 작가 확정 F5 거래 생략에서는 Hartenstein이 Denver에 남으므로 Cleveland 노출과 결장을 Denver의 A1 건강 달력에 복사하지 않는다. 그렇다고 Denver의 건강·플레이오프 출전을 자동 인증하지도 않는다. 기존 18/18 역할·5인조 증인은 가용성 조건부다. C1/C2는 작가 선택 대기, F5/A1/네 K `HOLD`, F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-AQ — Fournier/Gordon 픽의 구단 1차 보유 스냅샷
+
+[2021년 6월 Orlando 구단 기사](simulation/NBA_2021_ASSET_CHAIN.md)는 원역사 거래 뒤 BOS/MEM 중 뒤 2025 2R, BOS 2027 2R, DEN 2025 top5 보호 1R을 열거한다. 기존 2차 장부의 세 권리를 구단 1차 출처로 보강했다. 이 사후 기사만으로 3/25의 모든 선행 의무, BOS 2027 보호/우선권, DEN 2026–27 연결·미전달 종료 원문을 인증하지 않는다. F2/F3 및 F 전체 `0/5`, A `0/3`, K `0/4`는 `HOLD`; 7행 1완료·1진행·5대기/미완료 6개. freeze v0.30 PARTIAL 및 설계/원고 CLOSED 유지.

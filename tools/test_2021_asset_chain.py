@@ -5,8 +5,8 @@ import build_2021_asset_chain as b
 
 class AssetChainTests(unittest.TestCase):
     def setUp(self):
-        self.s = json.loads(b.SOURCE.read_text())
-        self.p = json.loads(b.PRIOR.read_text())
+        self.s = json.loads(b.SOURCE.read_text(encoding='utf-8'))
+        self.p = json.loads(b.PRIOR.read_text(encoding='utf-8'))
 
     def test_second_round_later_pick_both_directions(self):
         for bos, mem, origin in [(60, 31, 'BOS'), (31, 60, 'MEM')]:

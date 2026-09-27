@@ -47,6 +47,7 @@ def build(source, prior):
     assert not source['denver_preceding_pick']['alternate_terms_adopted']
     assert prior['public_pick_terms']['fournier']['first_second'] == '2025 less favorable BOS/MEM'
     assert source['gordon_following_pick']['terminal_conversion'] is None
+    assert source['boston_2025_chain']['post_trade_first_party_snapshot_source_id'] == 'BP_MAGIC_JUNE_PICK_INVENTORY'
     tpe = source['boston_tpe']
     comparisons = [{'charge_test_usd': c,
                     'balance_if_no_prior_use_usd': tpe_remaining(tpe['opening_usd'], c, 0),
@@ -59,6 +60,7 @@ def build(source, prior):
         'stage': source['stage'], 'baseline_main': source['baseline_main'],
         'Boston': {
             'MEM_2025_origin_supported_by_primary_source': True,
+            '2025_BOS_MEM_and_2027_BOS_posttrade_team_snapshot': True,
             'Bane30_route_already_approved': True,
             'fournier_historical_tpe_use_reported': tpe['used_for_fournier_reported'],
             'tpe_comparisons': comparisons,
@@ -71,6 +73,7 @@ def build(source, prior):
             'BOS_2027_2R_full_priority_and_terms_verified': False,
         },
         'Denver': {
+            '2025_top5_posttrade_team_snapshot': source['gordon_following_pick']['first_party_2025_top5_snapshot_source_id'] == 'BP_MAGIC_JUNE_PICK_INVENTORY',
             'preceding_reported_terminal_conversion': source['denver_preceding_pick']['reported_terminal_conversion'],
             'preceding_examples_not_outcomes': [preceding_denver(s, source['denver_preceding_pick']) for s in examples],
             'selected_preceding_result': preceding_denver({}, source['denver_preceding_pick']),
@@ -86,10 +89,13 @@ def build(source, prior):
 
 
 def main():
-    source, prior = [json.loads(p.read_text()) for p in [SOURCE, PRIOR]]
+    source, prior = [json.loads(p.read_text(encoding='utf-8')) for p in [SOURCE, PRIOR]]
     result = build(source, prior)
-    result['input_sha256'] = {str(p.relative_to(ROOT)): sha256(p.read_bytes()).hexdigest() for p in [SOURCE, PRIOR]}
-    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    result['input_sha256'] = {
+        p.relative_to(ROOT).as_posix(): sha256(p.read_text(encoding='utf-8').replace('\r\n', '\n').encode('utf-8')).hexdigest()
+        for p in [SOURCE, PRIOR]
+    }
+    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'PASS': True, 'tpe_comparisons': 3, 'preceding_pick_branches': 4,
                       'selected_future_outcomes': 0, 'exact_execution_cleared': False}))
 
