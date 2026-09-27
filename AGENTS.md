@@ -2,6 +2,8 @@
 
 User instruction recorded 2026-09-27: continue `first-rebound` repository work in Codex through the already approved scope. Do not send the user back to another chat after every season. Bring an important canon-changing choice to the author only when evidence and comparable options are ready for a decision.
 
+User clarification recorded 2026-09-28: continuation is triggered by **completion of the current milestone**, not by a two-hour timer. Keep working on macro group 2 until its documented exit criteria are actually met. As soon as group 2 is complete, report the evidence and continue directly to macro group 3 in Codex under the existing authorization; do not wait for a scheduled heartbeat or ask for the same approval again. Continue the remaining approved roadmap in order, escalating only a consequential author choice under the rule below. A paused periodic heartbeat is not a reason to stop active work.
+
 ## At the start of each continuation
 
 1. Read `PROJECT_STATE.md`, `canon/PROJECT_FREEZE.md`, `control/DESIGN_GATE.md`, and `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` from the latest `main`. Check recent PRs/commits and the working tree. Use these files to recover the actual checkpoint; do not restart the plan from a remembered older season.
