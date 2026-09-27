@@ -4,6 +4,8 @@
 - 작가 확정 방향: [Gordon A 선수 이동](../canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json)은 Nnaji를 Orlando로 보내고 Bey를 Denver에 남긴다. [F5 별도 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)은 McGee–Hartenstein 거래를 생략해 McGee가 Cleveland에, Hartenstein이 Denver에 남는다. 두 방향은 재승인 대상이 아니다.
 - 재현: [6/13 전체 5인조 시계](../simulation/DENVER_2021_PLAYOFF_GAME4_LINEUP_WITNESS.json)·[나머지 3경기 교대 시계](../simulation/DENVER_2021_PLAYOFF_OTHER_LINEUPS.json)·[선택 명단 겹침 검사](../simulation/DENVER_2021_PLAYOFF_SELECTED_LINEUP_BRIDGE.json). 각 [도구](../tools/build_denver_2021_playoff_selected_lineup_bridge.py)는 원경기 교대 사건의 조건부 이름 치환을 검사한다.
 
+**대진 범위:** [K1+L2 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver–Lakers 1라운드를 산출한다. 이 문서의 Portland/Phoenix 4경기와 14구간은 원역사 명단 충돌 및 **동일 대진 가정의 민감도** 증인이다. K1+L2의 실제 경기/교대/승패 증인이 아니다.
+
 ## 사실·추론·후보·작가 확정
 
 | 등급 | 내용 |

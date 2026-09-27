@@ -3,6 +3,8 @@
 - 판정: `ORIGINAL_CLEVELAND_HEALTH_RECORD_VERIFIED / SELECTED_DENVER_AVAILABILITY_HOLD`.
 - 적용 범위: 작가가 선택한 **McGee–Hartenstein 거래 생략**의 A1 건강 달력과 Denver 2021 플레이오프 F5 검문. 진단이나 대체 세계 의료 사건을 창작하지 않는다.
 
+**대진 경계:** [K1+L2 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver–Lakers 1라운드를 산출한다. 아래 Portland/Phoenix `33:49`·`17:39`·6/13 퇴장 검문은 원역사 비교/동일 대진 가정에만 적용되며 K1+L2 날짜별 의료·출전 입력이 아니다.
+
 ## 확인한 원역사와 출처
 
 | 날짜 | 원역사 Cleveland의 관측 | 출처와 한계 |

@@ -1192,3 +1192,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AR — Chicago 방출잔액 원역사 날짜 검문
 
 [AR 날짜 검문](research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 2021-04-16 당시 2차 급여 집계의 원역사 Chicago dead money 총액 `$97,261`을 회수했다. Salary Sport 보관표의 Vonleh 귀속은 후보 대조이며 당일 리그 계약 원문이 아니다. 3/25 선택세계에 같은 금액이 적용될 때 다른 R 허용액은 `$5,512,711`이지만, 날짜·인과·다른 잔여액이 미확정이므로 `WAIVED_PAY`, R, F1 `HOLD`다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15F14-AT — K1/L2 플레이오프 대진 오류 격리
+
+[K1/F038+L2 대진 재현](simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver 3번–Lakers 6번, Phoenix 2번–Portland 7번의 첫 라운드를 산출했다. 이전 Denver–Portland 6경기→Phoenix 4경기 및 McGee `33:49`·Nnaji `17:39`·18/18 치환 검사는 원역사 비교/동일 대진 가정의 민감도이며 **K1+L2 플레이오프 실행 증거가 아님**을 D1 종료 묶음·채택 준비 색인·원자료 연구에 명시했다. Denver–Lakers 새 시리즈의 건강·등록·5인조·승패, 가능한 2라운드 및 일정 파급이 F5/K_METHOD_EVENTS의 열린 빈칸이다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기·미완료 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지. 이번 교정은 기존 Hall/McGee 작가 선택이나 K1/L2 후보를 새 정본으로 승격하지 않는다.
