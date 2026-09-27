@@ -34,6 +34,8 @@ F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2
 
 [F2 원거래 동일성 경로](../research/O15F14R_BOSTON_FOURNIER_PRIMARY_EQUIVALENCE.md)에서는 NBA의 거래일 기사로 Hayward 예외의 **원역사 사용**과 Boston/Orlando 구단의 같은 선수·두 2R 거래를 공식 자료에 연결했다. 비공개 센트 원장을 만들어 채우기 전에, Boston 예외/픽·Orlando 3/25~27 Teague 임시 등록과 Vučević 잔류 장부가 원거래의 합법 입력과 동일한지 검증한다. 이름 붙은 Boston 거래 네 선수의 일치만으로 F2 PASS는 아니다. F2·K_TRANSACTIONS `HOLD`와 전체 `0/5`는 유지한다.
 
+[F2 Orlando 당일 순서 화면](../research/O15F14AJ_ORLANDO_TRADE_DAY_ORDER_SCREEN.md)은 기존 급여 입력으로 Gordon 먼저/Fournier 먼저 중간 부담을 분리했다. 0보장 캠프 4명의 연간 기본급 전액을 추가한 Gordon 먼저 스트레스만 apron `$76,411` 초과하지만 실제 charge·hard-cap 트리거·리그 승인 순서 미확정이므로 위반 판정이나 F2 PASS가 아니다. 같은 날 거래라는 말로 중간 급여/세금선 변화를 생략하지 않는다.
+
 [F2 Orlando 등록 후속](../research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md)은 3/24 NBA 공식 경기책의 일반 15+투웨이 2 재관측과 구단 공식 거래 연혁의 3/25 전 공백, 3/27 Teague 방출을 결합했다. 승인 방향의 Gordon/Clark 2:2와 Fournier/Teague 1:1 실행에서 **3/25~26 일반 15+투웨이 2, 3/27 방출 뒤 일반 14+투웨이 2**의 공개 자리 산술은 통과했다. Teague 비용과 Vučević 잔류·Nnaji 수취의 정확 한도/예외, Boston TPE·픽 우선권은 아직 F2 `HOLD`; 이를 다시 자리 수 미검수로 설명하지 않는다.
 
 ## 3. 사실 통과 뒤의 최종 채택
