@@ -33,3 +33,7 @@
 3월 25일 **선택 거래에서 새로 생길 수 있는** TPE는 거래 이전 보유분으로 소급하지 않는다. 다른 당사자의 TPE 또는 거래 직후 예외, Chicago 수취·송출 charge도 이 증인으로 계산하지 않는다. 2019–20의 동반 거래 동기·픽 소유를 무검증 정본화하지 않는다. 작가확정 0건, F1~F5 전체 `0/5`, A1~A3 `0/3`, K `0/4`; `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`.
 
 Codex가 구단 연혁·NBA 발표·CBA를 직접 대조한 자체 증인이다. Claude CLI의 [문서 단독 반증](../reviews/R01_O15F14AF_EXCEPTION_ORIGIN_REBUTTAL.md) 뒤 2020년 표의 **0건 검색 범위**를 명시하고 코로나 연장 소급 불판정을 적었다. Claude가 PDF/CBA를 독립 조회한 것은 아니다. Anti-Gravity·NotebookLM·source-blind는 이 증인에서 `NOT_RUN`; 동일 원자료 재독을 독립 자료 증가로 세지 않는다.
+
+### 후속 출처 완전성 정정 — AH
+
+[AH의 대조](O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 가이드의 2019-01-22 거래 행에 Chicago가 받은 **Jon Diebler 2라운드 권리**가 빠졌음을 당시 [Chicago 공식 공지](https://www.nba.com/bulls/news/bulls-complete-trade-rockets-0)와 확인했다. 이는 위 가이드의 2020 `Traded` 0건을 **가이드에서 찾은 범위**로 읽어야 한다는 반례다. Diebler 권리 누락은 선수 계약 송출이나 1라운드 hold의 누락 증거가 아니므로 기존 조건부 TPE 0 판정을 바로 뒤집지는 않는다. 다만 거래 부재의 완전한 증명은 아니며 NBA 시즌 거래 추적·오프시즌 이동표와 선택 세계 선행 사건 전수 대조를 추가해야 한다. F1·R은 계속 HOLD다.
