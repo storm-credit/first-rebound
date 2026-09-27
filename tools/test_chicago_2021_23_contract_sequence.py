@@ -54,7 +54,8 @@ class ContractSequenceTests(unittest.TestCase):
             self.assertEqual(late['rows'][0]['cap_room'],early['rows'][0]['cap_room']-(charge-self.final['Green']))
             self.assertEqual(late['final_gross_budget'],early['final_gross_budget'])
             self.assertEqual(late['rows'][-1]['normal'],early['rows'][-1]['normal'])
-        self.assertEqual(self.x['Green_late_SQ1_sensitivities']['case_count'],120)
+        self.assertEqual(self.x['Green_late_SQ1_sensitivities']['case_count'],180)
+        self.assertEqual([s['id'] for s in self.x['Green_late_SQ1_sensitivities']['charge_scenarios']],['QO_125_PERCENT_PRIOR','THREE_YEAR_CALCULATOR_STRESS','ESPN_FA_HOLD_STRESS'])
         self.assertIsNone(self.x['Green_late_SQ1_sensitivities']['actual_Green_effective_charge'])
 
     def test_unknown_prior_starter_criterion_is_not_failure(self):
