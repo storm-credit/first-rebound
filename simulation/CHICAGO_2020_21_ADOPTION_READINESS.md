@@ -37,6 +37,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [F1 미서명 1R·출처 한계](../research/O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 구단 가이드의 일부 지명/권리 계약을 확인하고, 2019-01-22 Diebler 2R 권리 누락을 당시 구단 공식 공지와 대조했다. 가이드 무기재는 2021-03-25 **모든** 미서명 1R/거래 예외 0의 증명이 아니다. `UNSIGNED_FIRSTS`, R과 F1은 HOLD다.
 
+[F2 Boston Hayward TPE 용량](../research/O15F14AI_BOSTON_FOURNIER_TPE_CAPACITY_BOUND.md)은 NBA 3/16 약 `$28.5m` 기사와 공식 시즌 거래표를 연결했다. 거래표에 3/16~24 Boston 거래가 없고 3/25에는 Fournier·Theis 3팀 거래 두 건이 있다. 2차 계약액으로 Kornet·Wagner를 같은 Hayward 예외에 먼저 모두 차감하는 스트레스에서 `$28m−$4.41192m−$17.45m=$6.13808m`이다. 이것은 **공개 입력의 조건부 명목 용량**이며 리그의 정확 예외 잔액·수취 charge, Boston/Orlando 전체 급여와 픽 가용성은 HOLD다. [도구·반증 기록](../reviews/R01_O15F14AI_BOSTON_TPE_CAPACITY_REVIEW.md)은 AG/NLM의 공유 출처와 문서 단독 Claude 검수를 분리한다.
+
 등록 대조는 기존 범위에서 ORL 19경기 및 BOS/DEN 양수 선수·날짜 267+266에 충돌이 없었다. 이는 리그 전체 등록·건강의 인증이 아니다. **ORL 5/9 이후 5경기의 추가 일반계약 1자리는 Hall 재계약을 유지한 원안에서만 필요했고, 선택된 생략 경로에서는 필요하지 않다.** 출전 분이 0인 선수를 급여·등록 원장에서 삭제하지 않는다.
 
 각 팀의 여유는 서로 다른 시점·정의의 값이다. CHI는 거래 직후 6(j) 비납세 판정, ORL/BOS/DEN은 각 문서 범위의 apron 예산 시험이다. 값들을 합치거나 모두 시즌말 사치세 여유로 부르지 않는다. 이 범위 검사만으로 네 K 묶음 전체를 닫지 않는다. 종료 수는 여전히 0이다.
