@@ -72,3 +72,5 @@ A1의 세부 달력과 A3의 시즌/플레이인 대안은 [채택 준비 색인
 [F5 Hartenstein 건강 인과 검문](../research/O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)은 원역사 Cleveland의 뇌진탕 보고를 선택된 Denver 경로로 이식하지 못하게 한다. Denver의 새 건강·등록·실제 출전은 미확정이므로 위 18/18은 계속 **가용성 조건부**이고 F5/A1/K 판정은 `HOLD`다.
 
 [F1 Chicago 방출잔액 후속](../research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)은 4/16 원역사 팀 총액 `$97,261`을 동시대 2차 보도로 확인했다. 이를 선택된 3/25 정확 장부로 승격하지 않고, 동일 부담이 유지될 때의 잔여 R 여유 `$5,512,711`만 별도 계산한다. F1과 전체 F·A·K 게이트 수는 바뀌지 않는다.
+
+[F1 공개 15인 급여 차액](../research/O15F14AS_CHICAGO_PUBLIC_ROSTER_DELTA.md)은 원역사 보관 15인 기본급과 선택 경로의 같은 자리 입력을 비교한다. Young bonus를 양쪽에서 같게 두면 선택 경로는 주인공 급여 상한에서도 **$1,951,061 낮다**. 이는 알려진 선수 부분의 조건부 비교이며 원역사 보관 표를 거래일 공식 Team Salary로 쓰거나 선택 경로의 명단 밖 `R`이 같다고 가정하지 않는다. F1 정확 실행은 계속 `HOLD`다.
