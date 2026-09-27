@@ -56,3 +56,7 @@
 ### 후속 — G15AC Plumlee 거래의 드래프트 자산 비용
 
 [G15AC](O15G15AC_PLUMLEE_2021_DRAFT_ASSET_COLLISION.md)는 G14의 Plumlee 조건부 잔류와 원역사 2021-08-06 Charlotte 거래가 DB1의 30·37·57·58순위 제안과 **동일하게 실행될 수 없음**을 확인했다. 원역사 DET 1/23에 Plumlee가 없다는 관측만으로 대체 DET Plumlee를 지우거나, G14 C24를 1/23에 무료 추가하지 않는다. 날짜별 계약·거래·활동과 Charlotte 상대 비용은 `HOLD`다.
+
+### 후속 — G15BK McGruder 출전 행의 거래 조건
+
+[G15BK](O15G15BK_DET_DEN_BOL_MCGRUDER_FORBES_DEPENDENCY.md)는 1/10 발표된 Bol–McGruder 거래가 1/13 취소된 **원역사**와, 완료를 가정하는 **대체 후보**를 분리했다. 취소가 유지되면 McGruder의 Detroit 소유는 가능하지만 `23:38`의 대체세계 보존은 아니다. 거래가 완료되면 McGruder 원역사 행도 제거해야 하며, Denver의 원형 1/19 Forbes 거래는 Bol을 Boston에 보낼 수 없어 재설계가 필요하다. 어느 분기도 정본으로 선택하지 않는다.

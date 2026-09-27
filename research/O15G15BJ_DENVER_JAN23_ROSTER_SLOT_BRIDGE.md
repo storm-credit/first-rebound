@@ -38,3 +38,7 @@
 | 작가확정 | 이번 0건. Gordon **정확 실행**, Bey 서명/급여/당일 등록, Forbes 거래의 미래 픽·현금·상대 동의, Cousins·Reed 조건, 두 수신자 의료/역할, 시즌 결과 모두 `HOLD`. |
 
 다음은 Denver 2021-03-25→2022-01-23의 **실제 계약액·자산·거래 순서 원장**과 Detroit Bey/Hayes 이탈·DB1 Cade 조건 및 Patrick/Kira/Suggs 대체 등록·기회 비용을 함께 검산한다. Chicago 2020–21 D1 F1~F5 `0/5`·A1~A3 `0/3`·K `0/4`, G14 DET `PRIOR_HOLD`/ORL `ROLE_HOLD`, G16/G17은 그대로다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`; 전체 7묶음 1완료·1진행·5대기, 진행 중 포함 6묶음 남음.
+
+### 후속 — G15BK Bol 소유의 선행 조건
+
+[G15BK](O15G15BK_DET_DEN_BOL_MCGRUDER_FORBES_DEPENDENCY.md)는 원역사 1/10 Detroit행 Bol–McGruder 거래 **발표**가 1/13 의료 사유로 취소되어, 1/19 Denver가 Bol을 Boston에 보낼 수 있었음을 연결했다. 대체세계에서 1/10 거래가 완료되면 Denver의 Bol 보유가 없어 원형 Forbes 거래가 막힌다. 따라서 이 문서의 Forbes 포함 15+2와 G15BI의 Forbes20분은 **취소 유지 또는 검증된 대체 거래**를 선행 조건으로 추가한다. 두 경로 모두 후보이며 신규 작가확정 0건이다.
