@@ -1143,3 +1143,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-X — C2의 5경기 국소 5인조·평점 확장
 
 [C2 검문](research/O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)의 [재현 화면](simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json)은 원역사 Varejão 35:56을 McGee에게 조건부 배분하고, 5/5·7 기존 Hartenstein→McGee 분과 결합했다. 원 선발을 보존한 역할별 **5인조 해 5/5**, RAPTOR/BPM의 **국소 승패 방향 10/10 유지**를 확인했다. 특히 5/12 Cleveland 원역사 +8은 BPM 후보 홈 구간 +7.49~+8.20이다. 이 화면은 원역사 점수차와 상대팀 다른 사건을 고정했고 BPM Varejão 미평점에는 경험적 범위를 사용했다. 건강, coaching, 전체 Cleveland 등록/급여, Denver 플레이오프, 시즌 나비효과는 인증하지 않는다. Varejão C1/C2 선택 0건, F5·A1·K `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-Y — C2와 F14F 리그 구간의 보수적 연결
+
+[C2 재현 화면](simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json)에 기존 F14F 전체 리그 조건부 점수차 구간을 입력으로 더했다. 다섯 경기의 C2 국소 변화 구간을 F14F 각 구간에 **바깥 경계로 덧셈**한 결과 RAPTOR/BPM 10/10 승패 방향을 유지한다. 이는 기존 상대팀 조건부 변화를 포함하는 감도 확장이며 K1 새 시즌·건강·거래·계약 최종 채택이 아니다. Varejão C1/C2 선택 0건, F5·A1·K `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
