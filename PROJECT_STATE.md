@@ -1147,3 +1147,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-Y — C2와 F14F 리그 구간의 보수적 연결
 
 [C2 재현 화면](simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json)에 기존 F14F 전체 리그 조건부 점수차 구간을 입력으로 더했다. 다섯 경기의 C2 국소 변화 구간을 F14F 각 구간에 **바깥 경계로 덧셈**한 결과 RAPTOR/BPM 10/10 승패 방향을 유지한다. 이는 기존 상대팀 조건부 변화를 포함하는 감도 확장이며 K1 새 시즌·건강·거래·계약 최종 채택이 아니다. Varejão C1/C2 선택 0건, F5·A1·K `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-Z — Denver 플레이오프 거래 생략 후속
+
+[공식 플레이오프 10경기 검문](research/O15F14Z_DENVER_2021_PLAYOFF_NONTRADE_SCREEN.md)은 원역사 Denver의 McGee가 4경기에 **33:49** 출전하고 6경기 감독 선택 DNP였음을 확인했다. 6/13 Phoenix 4차전 **19:40**은 Jokic 퇴장이 발생한 경기의 분이므로 선택된 거래 생략 세계의 Hartenstein 잔류만으로 경기 결과·분배를 자동 보존할 수 없다. 동일 분 치환 M1과 감독 재배분 M2는 후보이며, 대체 대진·건강·5인조·승패/후속 사건은 `HOLD`다. C1/C2와 신규 작가확정 0건, F5·K 거래/방법 `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
