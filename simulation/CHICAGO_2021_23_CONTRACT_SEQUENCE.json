@@ -4201,28 +4201,32 @@
   ],
   "route_salary_cases": 240,
   "Green_late_SQ1_sensitivities": {
-    "status": "HYPOTHETICAL_EFFECTIVE_CHARGES_NOT_ACTUAL_QO_OR_FA_AMOUNT",
+    "status": "HYPOTHETICAL_NORMAL_AND_APRON_CHARGES_NOT_ACTUAL_LEDGER",
     "charge_scenarios": [
       {
         "id": "QO_125_PERCENT_PRIOR",
         "charge": 1897476,
-        "basis": "CBA 2017 Article XI 1(c)(iv), two service years and secondary 2020-21 salary; assumes F and N do not exceed Q"
+        "apron_charge": 1897476,
+        "basis": "Conditional F=2021 two-year minimum, Q=125% of prior salary, N absent; normal=max(F,Q,N), apron=max(Q,N)"
       },
       {
         "id": "THREE_YEAR_CALCULATOR_STRESS",
         "charge": 1929217,
-        "basis": "SalarySwish calculator uses three service years; not a verified Green 2021 QO"
+        "apron_charge": 1929217,
+        "basis": "SalarySwish QO calculator uses three service years; hypothetical Q stress, not verified Green 2021 QO"
       },
       {
         "id": "ESPN_FA_HOLD_STRESS",
         "charge": 2056061,
-        "basis": "ESPN secondary FA hold estimate; not a certified effective Team Salary"
+        "apron_charge": 1897476,
+        "basis": "Hypothetical ESPN F=2,056,061 with two-year Q=1,897,476 and N absent; Article VII 6(m)(3)(D) excludes F from apron"
       }
     ],
     "cases": [
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -4238,7 +4242,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -4254,7 +4259,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -4270,7 +4276,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -4286,7 +4293,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -4302,7 +4310,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -4318,7 +4327,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -4334,7 +4344,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -4350,7 +4361,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -4366,7 +4378,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -4382,7 +4395,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -4398,7 +4412,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -4414,7 +4429,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -4430,7 +4446,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -4446,7 +4463,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -4462,7 +4480,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -4478,7 +4497,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -4494,7 +4514,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -4510,7 +4531,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -4526,7 +4548,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -4542,7 +4565,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -4558,7 +4582,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -4574,7 +4599,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -4590,7 +4616,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -4606,7 +4633,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -4622,7 +4650,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -4638,7 +4667,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -4654,7 +4684,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -4670,7 +4701,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -4686,7 +4718,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -4702,7 +4735,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -4718,7 +4752,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -4734,7 +4769,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -4750,7 +4786,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -4766,7 +4803,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -4782,7 +4820,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -4798,7 +4837,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -4814,7 +4854,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -4830,7 +4871,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -4846,7 +4888,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -4862,7 +4905,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -4878,7 +4922,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -4894,7 +4939,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -4910,7 +4956,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -4926,7 +4973,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -4942,7 +4990,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -4958,7 +5007,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -4974,7 +5024,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -4990,7 +5041,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -5006,7 +5058,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -5022,7 +5075,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -5038,7 +5092,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -5054,7 +5109,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -5070,7 +5126,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -5086,7 +5143,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -5102,7 +5160,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -5118,7 +5177,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -5134,7 +5194,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -5150,7 +5211,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -5166,7 +5228,8 @@
       },
       {
         "charge_scenario": "QO_125_PERCENT_PRIOR",
-        "assumed_effective_Green_RFA_charge": 1897476,
+        "assumed_Green_normal_cap_charge": 1897476,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -5182,7 +5245,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -5198,7 +5262,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -5214,7 +5279,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -5230,7 +5296,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -5246,7 +5313,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -5262,7 +5330,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -5278,7 +5347,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -5294,7 +5364,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -5310,7 +5381,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -5326,7 +5398,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -5342,7 +5415,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -5358,7 +5432,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -5374,7 +5449,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -5390,7 +5466,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -5406,7 +5483,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -5422,7 +5500,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -5438,7 +5517,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -5454,7 +5534,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -5470,7 +5551,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -5486,7 +5568,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -5502,7 +5585,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -5518,7 +5602,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -5534,7 +5619,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -5550,7 +5636,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -5566,7 +5653,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -5582,7 +5670,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -5598,7 +5687,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -5614,7 +5704,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -5630,7 +5721,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -5646,7 +5738,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -5662,7 +5755,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -5678,7 +5772,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -5694,7 +5789,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -5710,7 +5806,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -5726,7 +5823,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -5742,7 +5840,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -5758,7 +5857,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -5774,7 +5874,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -5790,7 +5891,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -5806,7 +5908,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -5822,7 +5925,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -5838,7 +5942,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -5854,7 +5959,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -5870,7 +5976,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -5886,7 +5993,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -5902,7 +6010,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -5918,7 +6027,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -5934,7 +6044,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -5950,7 +6061,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -5966,7 +6078,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -5982,7 +6095,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -5998,7 +6112,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -6014,7 +6129,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -6030,7 +6146,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -6046,7 +6163,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -6062,7 +6180,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -6078,7 +6197,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -6094,7 +6214,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -6110,7 +6231,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -6126,7 +6248,8 @@
       },
       {
         "charge_scenario": "THREE_YEAR_CALCULATOR_STRESS",
-        "assumed_effective_Green_RFA_charge": 1929217,
+        "assumed_Green_normal_cap_charge": 1929217,
+        "assumed_Green_apron_charge": 1929217,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -6142,7 +6265,8 @@
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -6151,14 +6275,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38778536,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104223464
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 80,
@@ -6167,14 +6292,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37778536,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105223464
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -6183,14 +6309,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37139917,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105862083
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 16,
           "percent": 120,
@@ -6199,14 +6326,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 36139917,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106862083
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -6215,14 +6343,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38938554,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104063446
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 80,
@@ -6231,14 +6360,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37938554,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105063446
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -6247,14 +6377,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37379944,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105622056
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 17,
           "percent": 120,
@@ -6263,14 +6394,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 36379944,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106622056
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -6279,14 +6411,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39090510,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103911490
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 80,
@@ -6295,14 +6428,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38090510,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104911490
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -6311,14 +6445,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37607878,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105394122
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 18,
           "percent": 120,
@@ -6327,14 +6462,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 36607878,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106394122
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -6343,14 +6479,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39220202,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103781798
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 80,
@@ -6359,14 +6496,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38220202,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104781798
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -6375,14 +6513,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37802417,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105199583
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 19,
           "percent": 120,
@@ -6391,14 +6530,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 36802417,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106199583
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -6407,14 +6547,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39330504,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103671496
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 80,
@@ -6423,14 +6564,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38330504,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104671496
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -6439,14 +6581,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37967870,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105034130
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 20,
           "percent": 120,
@@ -6455,14 +6598,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 36967870,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106034130
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -6471,14 +6615,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39352644,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103649356
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 80,
@@ -6487,14 +6632,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38352644,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104649356
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -6503,14 +6649,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38001079,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105000921
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 21,
           "percent": 120,
@@ -6519,14 +6666,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37001079,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 106000921
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -6535,14 +6683,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39376134,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103625866
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 80,
@@ -6551,14 +6700,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38376134,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104625866
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -6567,14 +6717,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38036315,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104965685
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 22,
           "percent": 120,
@@ -6583,14 +6734,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37036315,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105965685
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -6599,14 +6751,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39402073,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103599927
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 80,
@@ -6615,14 +6768,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38402073,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104599927
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -6631,14 +6785,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38075222,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104926778
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 23,
           "percent": 120,
@@ -6647,14 +6802,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37075222,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105926778
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -6663,14 +6819,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39429895,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103572105
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 80,
@@ -6679,14 +6836,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38429895,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104572105
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -6695,14 +6853,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38116956,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104885044
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 24,
           "percent": 120,
@@ -6711,14 +6870,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37116956,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105885044
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -6727,14 +6887,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39460028,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103541972
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 80,
@@ -6743,14 +6904,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38460028,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104541972
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -6759,14 +6921,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38162156,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104839844
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 25,
           "percent": 120,
@@ -6775,14 +6938,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37162156,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105839844
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -6791,14 +6955,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39543545,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103458455
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 80,
@@ -6807,14 +6972,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38543545,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104458455
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -6823,14 +6989,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38287431,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104714569
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 26,
           "percent": 120,
@@ -6839,14 +7006,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37287431,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105714569
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -6855,14 +7023,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39614456,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103387544
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 80,
@@ -6871,14 +7040,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38614456,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104387544
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -6887,14 +7057,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38393798,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104608202
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 27,
           "percent": 120,
@@ -6903,14 +7074,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37393798,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105608202
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -6919,14 +7091,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39628265,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103373735
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 80,
@@ -6935,14 +7108,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38628265,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104373735
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -6951,14 +7125,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38414511,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104587489
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 28,
           "percent": 120,
@@ -6967,14 +7142,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37414511,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105587489
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -6983,14 +7159,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39645738,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103356262
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 80,
@@ -6999,14 +7176,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38645738,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104356262
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -7015,14 +7193,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38440720,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104561280
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 29,
           "percent": 120,
@@ -7031,14 +7210,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37440720,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105561280
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -7047,14 +7227,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 39663210,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 103338790
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 80,
@@ -7063,14 +7244,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38663210,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104338790
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -7079,14 +7261,15 @@
         "Young_bonus_budget": 0,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 38466928,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 104535072
       },
       {
         "charge_scenario": "ESPN_FA_HOLD_STRESS",
-        "assumed_effective_Green_RFA_charge": 2056061,
+        "assumed_Green_normal_cap_charge": 2056061,
+        "assumed_Green_apron_charge": 1897476,
         "protagonist": {
           "pick": 30,
           "percent": 120,
@@ -7095,14 +7278,15 @@
         "Young_bonus_budget": 1000000,
         "entry_cap_room_delta": -386883,
         "Caruso_cap_room_delta": -386883,
-        "Caruso_apron_room_delta": -386883,
+        "Caruso_apron_room_delta": -228298,
         "minimum_apron_extra_limit": 37466928,
         "conditional_numeric_pass_at_zero_extra": true,
         "final_gross_budget": 105535072
       }
     ],
     "case_count": 180,
-    "actual_Green_effective_charge": null,
+    "actual_Green_normal_cap_charge": null,
+    "actual_Green_apron_charge": null,
     "actual_Green_signing_order": null,
     "exact_execution_cleared": false
   },

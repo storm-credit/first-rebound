@@ -11,6 +11,7 @@
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14 D1 Chicago 2020–21 정확 실행 종료 묶음. K1/L2 추천과 CP2 잠정 추첨은 이미 완료; F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 묶음 종료 0/4. 동일 근거 재수집을 멈추고 새 거래일 증거가 생길 때 D1을 재개하며, 승인된 CP2로 D2 2021 선수·계약을 조건부 계속`
 - 최근 설계 변경: `G15V 원역사 시즌 총분 압박·G15U Moritz H/R/D FA 비용과 QO/renounce/통지 HOLD 유지. G15W에서 Chicago 원역사 Vučević 30:19와 달리 G14 대체 Chicago 센터 Carter28+Young8+Bradley12=48이 이미 배정됐음을 확인해 중복 차감 방지. 같은 날 원역사 ORL Moritz25:08·23점인데 G15B O15A/O15C는 Moritz0분; DEN 원역사 Nnaji16:45·12점인데 Gordon A 정확 실행 시 이탈 필요; DET 상대 로스터도 G7 Suggs5 분기와 충돌. CLE는 1/23 경기 없음, Mobley 이탈은 Cleveland 자체 경기일에만 계산. NBA 두 경기 점수/생산성 이월·Denver 대체 분/의료·Orlando 코칭/계약·정확 시즌·G16/G17 HOLD, author lock 0건`
+- 최신 조건부 D2 장부 감사: `G15BH`에서 Green 후행 미서명 RFA의 일반 cap `max(F,Q,N)`과 NTMLE apron의 `max(Q,N)`을 CBA에 따라 분리했다. ESPN의 높은 F 스트레스는 Caruso 직전 일반 cap 여유와 apron 여유에 서로 다른 영향을 준다. [검토 기록](reviews/R01_O15G15BH_GREEN_NORMAL_CAP_APRON_SPLIT.md); 실제 F/Q/N·서명·정확 시즌 및 작가확정은 HOLD.
 - 최신 통합 권위: `design/CP2_INTEGRATED_REVIEW_PACKET.md`; Chicago D1 채택 준비 `simulation/CHICAGO_2020_21_ADOPTION_READINESS.md`; 잠정 픽 `simulation/NBA_2021_PROVISIONAL_DRAFT.md`; G11 실제 독서 권위 `research/STYLE_READING_OBSERVATIONS.json`
 - 선행 감사 병합: `PR #155 / c78fbe8b8055b2ace673ec5a349d37389cacacd6`
 - 최신 거래 보드 권위: `simulation/ORLANDO_DENVER_2021_GORDON_BOARD.md`
