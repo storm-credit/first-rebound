@@ -111,8 +111,14 @@ def build():
         qos.append(dict(protagonist=pro,nonstarter_QO_budget_upper=ceiling(pro['salary']*(1000+p['rookie2018_QO_percent_permille'][str(pro['pick'])]),1000),starter_QO_reference=p['starter_QO2018_reference'],selected_QO=None,actual_starter_criteria_met=None,actual_rounding_charge_certified=False))
     future=[row for pol in p['followup_2022_policies'] for row in future_budget(g1,p,pol)]
     green_late=[]
+    green_charge_scenarios=[
+        dict(id='QO_125_PERCENT_PRIOR',charge=1897476,basis='CBA 2017 Article XI 1(c)(iv), two service years and secondary 2020-21 salary; assumes F and N do not exceed Q'),
+        dict(id='THREE_YEAR_CALCULATOR_STRESS',charge=1929217,basis='SalarySwish calculator uses three service years; not a verified Green 2021 QO'),
+        dict(id='ESPN_FA_HOLD_STRESS',charge=2056061,basis='ESPN secondary FA hold estimate; not a certified effective Team Salary'),
+    ]
     sq1=next(r for r in p['routes'] if r['id']=='SQ1')
-    for charge in (1897476,1929217):
+    for scenario in green_charge_scenarios:
+        charge=scenario['charge']
         for pro in g1['rookie_fourth_cases']:
             for bonus in (0,1000000):
                 roster=dict(final,Protagonist=pro['salary'])
@@ -120,7 +126,7 @@ def build():
                 late=run_route(p,roster,sq1,bonus,green_pending_charge=charge)
                 early_caruso=next(row for row in early['rows'] if row['event']=='SIGN_Caruso_NTMLE')
                 late_caruso=next(row for row in late['rows'] if row['event']=='SIGN_Caruso_NTMLE')
-                green_late.append(dict(assumed_effective_Green_RFA_charge=charge,protagonist=pro,Young_bonus_budget=bonus,
+                green_late.append(dict(charge_scenario=scenario['id'],assumed_effective_Green_RFA_charge=charge,protagonist=pro,Young_bonus_budget=bonus,
                     entry_cap_room_delta=late['rows'][0]['cap_room']-early['rows'][0]['cap_room'],
                     Caruso_cap_room_delta=late_caruso['cap_room']-early_caruso['cap_room'],
                     Caruso_apron_room_delta=late_caruso['apron_room']-early_caruso['apron_room'],
@@ -131,7 +137,7 @@ def build():
     # hold equals its proposed salary. Omit Green salary and any replacement
     # empty charge entirely to avoid using an unknown Green FA amount as proof.
     entry_lower=min(r['known_normal_cap_before_Caruso']+p['retained_FA']['Denzel Valentine']-final['Green'] for r in g1['ntmle_sequence'])
-    return dict(stage='O-15G8',status='CONDITIONAL_ORDER_AND_CONTRACT_BRIDGE',recommended_route=p['recommended_route'],routes=routes,route_salary_cases=240,Green_late_SQ1_sensitivities=dict(status='HYPOTHETICAL_EFFECTIVE_CHARGES_NOT_ACTUAL_QO_OR_FA_AMOUNT',cases=green_late,case_count=len(green_late),actual_Green_effective_charge=None,actual_Green_signing_order=None,exact_execution_cleared=False),NTMLE_entry_lower_bound_excluding_Green=entry_lower,NTMLE_entry_lower_plus_exception_exceeds_cap=entry_lower+p['ntmle2021']>p['cap2021'],protagonist_QO_cases=qos,starter_single_season_only_is_sufficient_not_necessary=True,prior_season_proration_rounding_verified=False,Carter_options=[dict(**o,total=sum(o['salary_2022_to_2026']) if o['salary_2022_to_2026'] else None,contract_agreed=False) for o in p['Carter_options']],budget2022_cases=future,budget2022_case_count=len(future),selected_route=None,selected_Carter_contract=None,contracts_agreed=False,author_locked=False,season_selected=False,exact_execution_cleared=False,manuscript_allowed=False,independent_review='NOT_INDEPENDENT')
+    return dict(stage='O-15G8',status='CONDITIONAL_ORDER_AND_CONTRACT_BRIDGE',recommended_route=p['recommended_route'],routes=routes,route_salary_cases=240,Green_late_SQ1_sensitivities=dict(status='HYPOTHETICAL_EFFECTIVE_CHARGES_NOT_ACTUAL_QO_OR_FA_AMOUNT',charge_scenarios=green_charge_scenarios,cases=green_late,case_count=len(green_late),actual_Green_effective_charge=None,actual_Green_signing_order=None,exact_execution_cleared=False),NTMLE_entry_lower_bound_excluding_Green=entry_lower,NTMLE_entry_lower_plus_exception_exceeds_cap=entry_lower+p['ntmle2021']>p['cap2021'],protagonist_QO_cases=qos,starter_single_season_only_is_sufficient_not_necessary=True,prior_season_proration_rounding_verified=False,Carter_options=[dict(**o,total=sum(o['salary_2022_to_2026']) if o['salary_2022_to_2026'] else None,contract_agreed=False) for o in p['Carter_options']],budget2022_cases=future,budget2022_case_count=len(future),selected_route=None,selected_Carter_contract=None,contracts_agreed=False,author_locked=False,season_selected=False,exact_execution_cleared=False,manuscript_allowed=False,independent_review='NOT_INDEPENDENT')
 
 
 if __name__=='__main__':
