@@ -45,3 +45,5 @@ Codex는 기존 정본 2020 #44와 G8/G7 명단, Chicago 공식 발표·NBA 경�
 Simonović를 실제로 계약하는 `S1/S2` 후보의 2년/3년 비용과 Caruso NTMLE 잔액·renounce 뒤 cap 공간의 **서로 다른 서명 순서**는 [G15BA 후속](O15G15BA_SIMONOVIC_2021_MLE_AND_CAP_TIMING.md)에 둔다. 원역사 2차 급여표의 `M1/M2`가 #39 제안 급여와 동액이어도 선수·계약 기간·예외 사용은 같지 않다.
 
 `S0`의 지명권 유지 시계와 2020 해외 임대·Required Tender 미확인 항목, 원역사 2년/3년 보도 충돌은 [G15BC](O15G15BC_SIMONOVIC_DRAFT_RIGHTS_CLOCK.md)에 분리했다. `S0`의 15명 명단 산술은 독점 협상권의 2021–22 존속 증명이 아니다.
+
+[G15BD Early Entry 검문](O15G15BD_SIMONOVIC_EARLY_ENTRY_2021_DRAFT_CLOCK.md)은 2020 공식 국제 조기 신청 분류와 §6의 2021 드래프트 경계를 확인했다. `S0`의 2021 이후 #44 권리 유지에는 §5 해외 계약·통지/Tender 조건을 별도 증명해야 하며, 실패 분기는 2021 G7 참가 가능 풀과 후속 계약 수단의 재검문을 부른다.
