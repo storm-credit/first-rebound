@@ -10,11 +10,13 @@
 |---|---|---|---|
 | [5/3 DEN @ LAL 정규시즌](https://statsdmz.nba.com/pdfs/20210503/20210503_DENLAL_book.pdf) | 89–93 패. McGee **12:24=744초**, Nnaji `Inactive / Left Ankle Sprain`; Murray `Inactive / Left ACL Surgery`, Barton·Monte Morris도 `Inactive / Right Hamstring Strain` | James `Inactive / Right Ankle Sprain`, Schröder `Inactive / Health and Safety Protocols`; Davis **33:06** | 실제 맞대결의 점수·명단·분 비교. 플레이오프 승패 기준선 아님 |
 | [5/22 POR @ DEN 원역사 1라운드 1차전](https://statsdmz.nba.com/pdfs/20210522/20210522_PORDEN_book.pdf) | McGee·Nnaji 모두 **DNP / Coach's decision**. Murray ACL 수술, Barton 햄스트링, Dozier 오른쪽 내전근 문제로 `Inactive`; Morris **21:59** 출전 | 상대가 Portland이므로 Lakers 명단/전술 관측 없음 | Denver의 원역사 플레이오프 개막 가용성 **비교**. 새 Lakers 상대 기용 결정 아님 |
-| [5/23 LAL @ PHX 원역사 1라운드 1차전](https://statsdmz.nba.com/pdfs/20210523/20210523_LALPHX_book.pdf) | 상대가 Phoenix이므로 Denver 명단/전술 관측 없음 | James **36:04**, Davis **38:48**, Schröder **34:08**, Drummond **19:05**, Gasol **7:05** 출전 | Lakers의 원역사 플레이오프 개막 가용성 **비교**. 새 Denver 상대 분/득점 아님 |
+| [5/23 LAL @ PHX 원역사 1라운드 1차전](https://statsdmz.nba.com/pdfs/20210523/20210523_LALPHX_book.pdf) | 상대가 Phoenix이므로 Denver 명단/전술 관측 없음 | James **36:04**, Davis **38:48**, Schröder **34:08**, Drummond **19:05**, Horton-Tucker **7:05** 출전; Gasol **DNP / 감독 선택** | Lakers의 원역사 플레이오프 개막 가용성 **비교**. 새 Denver 상대 분/득점 아님 |
 
 **사실:** 5/3 맞대결에서 빠진 James·Schröder는 원역사 5/23 플레이오프 개막 경기에 출전했다. 5/3의 Lakers 93–89 승리와 [F5 정규시즌 국소 치환](O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)의 McGee `744초`→Hartenstein `744초`는 같은 날·같은 원역사 결장을 전제로 한 계산이다. 후자의 조건부 홈 점수차는 RAPTOR `+4.40518408`, BPM `+4.09807281`로 두 방법 모두 Lakers 방향이다. 이 값은 **단일 정규시즌 경기의 국소 민감도**이며, James·Schröder가 출전하는 플레이오프 상대 전력이나 4~7경기 결과를 검증하지 않는다.
 
 **선택 경로의 명단 차이:** 작가가 선택한 거래/이동에 따르면 대체 Denver에는 McGee·Nnaji가 없고 Hartenstein·Bey가 남는다. 5/22 원역사 McGee·Nnaji의 DNP는 새 상대·새 명단에서 Hartenstein·Bey DNP의 근거가 아니다. 원역사 Cleveland의 Hartenstein 뇌진탕/결장도 [별도 인과 검문](O15F14AP_DENVER_HARTENSTEIN_HEALTH_CAUSALITY.md)에 따라 Denver 의료 장부로 복사하지 않는다.
+
+[후속 AV 판독 교정](O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 위 5/23 `7:05`가 Horton-Tucker의 분이며 Gasol은 감독 선택 DNP임을 PDF 첫 장에서 확인했다. 두 팀의 **서로 다른 원역사 개막 경기** 240분씩을 명시적 후보 입력으로만 연결했고, 대체 세계의 5대5 시간축·승패는 만들지 않았다.
 
 **추론/후보:** 새 시리즈의 첫 경기 날짜, 양 팀의 실제 가용 선수, 선발과 교대, 경기별 240분·5인조, 슛/포제션, 승자와 시리즈 길이는 전부 `UNKNOWN`이다. 원역사 5/22 Denver와 5/23 Lakers의 가용성은 **초기 비교 후보**로만 사용할 수 있다. 별도 인과 근거 없이 이를 대체 세계 1차전 건강·기용으로 확정하지 않는다. 원역사 Denver–Portland 6경기·Denver–Phoenix 4경기의 출전 시계도 [대진 보정](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 실제 DEN–LAL 분 원장에 이월하지 않는다.
 

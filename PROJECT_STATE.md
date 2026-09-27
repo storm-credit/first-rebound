@@ -1200,3 +1200,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AU — Denver–Lakers 원역사 맞대결과 개막 가용성 차이
 
 [AU 세 공식 경기책 대조](research/O15F14AU_DENVER_LAKERS_PLAYOFF_COMPARATOR.md)는 5/3 Denver @ Lakers의 McGee `12:24=744초`·Lakers 93–89를 F5 국소 화면과 연결했다. 그러나 원역사 5/3 James·Schröder는 결장하고 5/23 Lakers 첫 플레이오프 경기에는 각각 `36:04`·`34:08` 출전했으며, 5/22 Denver의 Portland 상대 DNP/부상 명단도 새 Lakers 상대 코치 선택은 아니다. Antigravity 본문 수집 0건, NotebookLM은 같은 5/3 공식 경기책 한 출처만 인용, Codex는 세 NBA 경기책을 직접 대조했다. 이 비교로 F5의 새 시리즈 건강·분·득점 입력이 구체화됐으나 승자/시리즈는 미선택이다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-AV — Denver–Lakers 조건부 개막 분 템플릿·행 오류 정정
+
+[AV 두 공식 경기책 분 검문](research/O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 원역사 5/22 Denver 홈 9명과 5/23 Lakers 원정 10명의 분을 각각 **240:00**으로 맞췄다. AU의 `Gasol 7:05`는 PDF 텍스트 열 오독으로, 실제 5/23 `Horton-Tucker 7:05`·Gasol 감독 선택 DNP로 교정했다. 새 Denver 명단의 Hartenstein·Bey 분은 **선택하지 않았다**. 두 팀이 서로 다른 원역사 상대와 치른 박스는 대체 DEN–LAL 5대5 시간축·득점·승자 증거가 아니다. F5/A1/A3·K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.

@@ -12,6 +12,8 @@
 
 [K1+L2 대진 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver–Lakers 1라운드를 산출했다. 기존 Denver–Portland→Phoenix 10경기 분 검사는 원역사 비교로 보존하며, 2번 F5/K_METHOD_EVENTS 종료에는 새 상대·결과 원장이 필요하다. 일곱 매크로 게이트의 상태와 진행 중 포함 미완료 6개는 바뀌지 않는다.
 
+[Denver–Lakers 개막 분 검문](../research/O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 다른 상대와 치른 원역사 개막 경기에서 각 팀 240:00의 실명 비교값을 회수하고 5/23 Lakers의 Gasol DNP/Horton-Tucker `7:05` 행 오류를 바로잡았다. 대체 출전분은 선택하지 않았으며 두 박스는 단일 대체 경기의 5대5 시계·승패 증거가 아니다. F5/K 종료를 바꾸지 않는다.
+
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
 현재 대학 구간, 인물 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~60순위가 정본화됐다. Chicago 2020-21 전반 분·생산성과 19~21승 중심 범위가 통과했고 Theis·Green 3팀 5인 선수 이동 A는 작가 승인됐다. O-15F10까지 후반 조건부 분·5인 조합과 Carter/LaMelo 단독 공백 대응, 상대39조건·두 영향 계열의후반2106조건, 전반18접촉(10벡터·8미배정)과43+29 연결 진단을 검산했다. 전반1144행·BPM3/25 표본505명과 연장 실제 총초를 보존했다. 실제 가용성·일관된 거래 경로·전반 상대 선택·정확 시즌 승패는 아직 닫히지 않았다. 전체 장기 커리어 및 집필 설계 완성을 뜻하지 않는다.
