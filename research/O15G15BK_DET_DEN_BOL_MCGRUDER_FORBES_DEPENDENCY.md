@@ -30,3 +30,7 @@
 | 작가확정 | 이번 0건. Bol–McGruder 대체세계 결과, Forbes 취득, 1/23 양 팀 명단/분/득점, 장기 커리어 `HOLD`. |
 
 다음은 `R`에서 Detroit의 **1/23 McGruder 재서명·당일 활동과 2021 P0-B 16인 정리**, Denver의 Forbes/Dozier 거래 조건을 날짜별로 연결한다. `C`는 작가 선택 이전에 대체 거래와 의료·픽 비용을 제시해야 한다. Chicago D1 F1–F5 `0/5`·A1–A3 `0/3`·K `0/4`, G14 DET/ORL 및 G16/G17은 그대로다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`; 7묶음 1완료·1진행·5대기, 진행 중 포함 남은 6묶음.
+
+### 후속 — G15BL 원역사 계약 날짜의 연결
+
+[G15BL](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md)은 McGruder의 원역사 8/11 재계약 및 Stanley의 1/21 새 10일 계약을 확인했다. `R`에서도 **P0-B의 10월 기본 16인 초과**와 **1월 Stanley 추가 자격**은 별도 `HOLD`다. 이 계약 날짜들이 대체 Detroit 명단 또는 1/23 분표를 자동으로 통과시키지 않는다.

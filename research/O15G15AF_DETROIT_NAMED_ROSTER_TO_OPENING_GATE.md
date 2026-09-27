@@ -56,3 +56,7 @@ Joseph·McGruder는 드래프트 프로필에 있어도 그 계약이 연속 유
 | 작가확정 | 신규 0건. 2020 정본 변경 없음. G14 Detroit `PRIOR_HOLD`, Orlando `ROLE_HOLD`; Chicago 2020–21 정확 시즌, G16/G17 `HOLD`. |
 
 다음 우선순위는 (1) 원역사 10/20 공식 15인 계약 명부의 독립 대조, (2) P0-B에서 빠질 **실명 선수와 그 팀·분·급여 비용**, (3) 8/6 이전 Olynyk 영입 가능 cap 경로, (4) Nets 거래 대체 실행 및 Charlotte 수신자, (5) 1/23 의료·분 연결이다. [기계 검산 원장](O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.json)과 [검사기](../tools/check_o15g15af_detroit_roster.py)는 **집합과 산술만** 확인한다. 계약·CBA 합법성과 대체 실행을 증명하지 않는다. [도구별 검수 기록](../reviews/R01_O15G15AF_NAMED_ROSTER_CLI_AND_BLIND.md)을 별도로 둔다.
+
+### 후속 — G15BL 1월 긴급 계약은 10월 초과 자리가 아니다
+
+[G15BL](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md)의 원역사 Stanley 1/21 **별도 10일 계약**은 이 문서의 조건부 **10/20 표준 16명**을 15명으로 줄이는 거래가 아니다. P0-B의 실명 이탈 또는 다른 사건 변경이 여전히 먼저 필요하다. 그 뒤 대체 1/21 Stanley 호출의 표준 자리 또는 COVID 긴급 예외 자격을 별도로 검사한다.
