@@ -33,6 +33,8 @@ McGee와 Hartenstein이 모두 일반계약으로 원래 팀에 계속 남는다
 | C1 원역사 Varejão 영입 유지 | 5/4 16+2. Hartenstein을 근거로 쓰지 않고 Dellavedova·Nance·Prince·Windler의 3연속 결장과 5/3 계속 결장 전망으로 **새 세계 hardship 신청/허가 사건**을 설정해야 함 | A1 대체 건강 달력, 리그 판단/기간, Varejão 10일 계약 2건 및 전체 Cleveland 비용·5월 분·승패. 원역사 승인 자동 복사 금지 |
 | C2 Varejão 영입 생략 | 그 한 명을 빼면 5/4 **15+2**. Varejão의 원역사 분·작별 행사는 발생하지 않음 | 5월 실제 출전 5경기의 분을 McGee 등 실명 가용 선수에게 재배정하고 5인조·승패·건강·비용을 재검산 |
 
+C2의 원역사 5경기 **35:56** 분 부담과 McGee 단독 흡수의 조건부 5/5 **19:27**, 5/7 **17:12**는 [분 검문](O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)에서 따로 기록한다. 이는 출전 가능이나 새 시즌 결과의 증명이 아니다.
+
 두 경로는 **후보**이며 이미 선택된 McGee 거래 생략과 별도다. 원역사 Varejão 10일 계약은 [NBA 발표](https://www.nba.com/news/report-cavaliers-to-add-veteran-big-anderson-varejao-for-return-tour)로, 5/5·7·9·12·14 출전은 [NBA 선수별 2020–21 박스](https://www.nba.com/stats/player/2760/boxscores?Season=2020-21&SeasonType=Regular+Season)에서 대조한다. 단순 5월 4일 명단 수를 전체 시즌 결과로 승격하지 않는다.
 
 **사실:** 위 원역사 경기책·구단 계약/부상 발표와 AP의 관계자 보도(서로 다른 등급). **추론:** 같은 다른 계약 경로를 보존하면 McGee/Hartenstein 1대1 치환으로 Cleveland의 일반 자리 수가 변하지 않음. **후보:** C1/C2. **작가확정:** McGee 거래 생략 방향만; Varejão 사건·건강·최종 시즌은 미선택. F5·`K_REGISTRATION`·`K_TRANSACTIONS`는 `HOLD`, F 전체 `0/5`, A 최종 `0/3`, K 종료 `0/4`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.

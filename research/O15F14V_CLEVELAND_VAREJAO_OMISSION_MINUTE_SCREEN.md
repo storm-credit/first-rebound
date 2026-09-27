@@ -1,0 +1,28 @@
+# O-15F14-V — Cleveland Varejão 영입 생략안의 5경기 분 검문
+
+- 기준: `main` `727d733` / PR #277 병합 뒤. 선행 [Cleveland 5월 추가 자리](O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)의 **C2 후보만** 검산한다.
+- 판정: `FIVE_GAME_MINUTE_OBSERVED / CONDITIONAL_MCGEE_LOAD / HEALTH_AND_OUTCOME_HOLD`.
+- 작가 확정은 3/25 McGee–Hartenstein 거래 **생략**까지다. Varejão 영입 생략, 분 배분, 건강, 최종 승패는 확정되지 않았다.
+
+## 원역사 5경기와 대체 분 부담
+
+출전 초는 NBA 공식 경기책의 **최종 박스**에 맞춘다. 같은 PDF에 분기별 박스가 반복되고 PDF 텍스트 추출은 이름·숫자 열을 어긋나게 놓기도 하므로, 첫 페이지의 최종 박스와 [NBA 선수별 경기 목록](https://www.nba.com/stats/player/2760/boxscores?Season=2020-21&SeasonType=Regular+Season)을 교차 대조했다. 분기별 Varejão 합계를 최종 출전 시간으로 읽지 않는다.
+
+| 대체 세계 K1 경기 ID | 공식 경기책 | 원역사 Varejão | 기존 F5 선택 화면의 McGee 조건부 분 | C2에서 Varejão 분을 모두 McGee에게 줄 때 | 원역사 결과 |
+|---|---|---:|---:|---:|---|
+| `2021-05-05_CLE_POR` | [5/5 POR–CLE](https://statsdmz.nba.com/pdfs/20210505/20210505_PORCLE_book.pdf) | 6:37 = 397초 | 12:50 = 770초 | **19:27 = 1,167초** | CLE 105–141 POR |
+| `2021-05-07_DAL_CLE` | [5/7 CLE–DAL](https://statsdmz.nba.com/pdfs/20210507/20210507_CLEDAL_book.pdf) | 4:37 = 277초 | 12:35 = 755초 | **17:12 = 1,032초** | CLE 90–110 DAL |
+| `2021-05-09_CLE_DAL` | [5/9 DAL–CLE](https://statsdmz.nba.com/pdfs/20210509/20210509_DALCLE_book.pdf) | 16:23 = 983초 | 기존 화면 없음 | **16:23 = 983초** | CLE 97–124 DAL |
+| `2021-05-12_CLE_BOS` | [5/12 BOS–CLE](https://statsdmz.nba.com/pdfs/20210512/20210512_BOSCLE_book.pdf) | 3:12 = 192초 | 기존 화면 없음 | **3:12 = 192초** | CLE 102–94 BOS |
+| `2021-05-14_WAS_CLE` | [5/14 CLE–WAS](https://statsdmz.nba.com/pdfs/20210514/20210514_CLEWAS_book.pdf) | 5:07 = 307초 | 기존 화면 없음 | **5:07 = 307초** | CLE 105–120 WAS |
+
+Varejão 출전 합계는 **2,156초 = 35:56**. 5/5·7의 397+277=674초는 기존 [McGee 거래 생략 화면](../simulation/DENVER_2020_21_MCGEE_NONTRADE_SCREEN.json)의 Hartenstein→McGee **770+755초와 별도**다. 따라서 그 화면의 14경기·50개 평점 비교는 C2 전체의 검산이 아니다. 5경기에서 원역사 Varejão 분을 모두 McGee에게 주는 단일 후보는 기존 1,525초와 새 2,156초를 합쳐 **3,681초 = 61:21**의 McGee 조건부 출전이다. 5/5·7 두 경기의 조건부 McGee 분은 각각 19:27·17:12로 48분 상한 안에 있다. 이는 5인조 동시성, 출장 가능, 연속 경기 체력, 경기 결과를 증명하지 않는다.
+
+## 아직 닫히지 않은 경계
+
+1. 5/9·12·14에 기존 F5 화면 행이 없는 이유는 원역사 Cleveland의 Hartenstein **출전 분을** 치환한 화면이기 때문이다. McGee 대체 건강·감독 선택을 0분 또는 자동 출장으로 확정할 수 없다.
+2. C2라면 Varejão 5/4 및 후속 계약 사건을 생략한다. [선행 등록 검문](O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)의 5/4 일반 15+투웨이 2는 다른 계약 사건을 보존한 **조건부 자리 산술**이다. 5월 전체 날짜별 등록·급여와 선수별 건강을 다시 연결해야 한다.
+3. 위 표의 원역사 점수는 새 세계 점수나 승패가 아니다. 특히 5/12 원역사 Cleveland 승리의 8점 차까지 포함해 5경기 5인조·두 평점법·시즌 원장을 다시 계산하기 전에는 K1 승수 불변을 말할 수 없다.
+4. C1 Varejão 유지도 별도 후보로 남는다. C1은 대체 세계 hardship 허가·부상 예후가 미확정이고, C2는 분/체력·성과·계약 파급이 미확정이다. 어느 쪽도 작가 선택 요청을 보낼 만큼 비교 비용이 완성되지 않았다.
+
+**사실:** 공식 5경기 박스의 원역사 출전 시간·점수, 기존 화면의 5/5·7 조건부 McGee 초. **추론:** 같은 다른 분을 보존하고 Varejão만 빼면 2,156초 재배정이 필요하다. **후보:** C2의 McGee 단독 흡수 5경기. **작가확정:** McGee 거래 생략 방향만. F5·A1·K 등록/거래/시즌 `HOLD`; F 전체 `0/5`, A 최종 `0/3`, K 종료 `0/4`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
