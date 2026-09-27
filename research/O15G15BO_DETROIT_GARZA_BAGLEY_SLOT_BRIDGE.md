@@ -46,3 +46,5 @@ Pickett의 중간 경로는 `8월 Exhibit 10 → 캠프 뒤 Cruise 선수/다른
 | 작가확정 | 0건. Bagley 거래·Garza 전환·Pickett 계약·DB1·2021–22 결과 어느 것도 선택하지 않았다. |
 
 다음은 2/10 4팀 거래의 **Detroit가 실제로 소유한 두 픽과 타 팀 수락·급여 매칭**, 2/11 전후 후보 A 표준 인원 변동, Pickett의 G League/타 팀 상태, Garza의 날짜별 사용 필요 경기를 대조한다. Chicago D1 F1–F5 `0/5`, A1–A3 `0/3`, K `0/4`; 전체 7묶음 1완료·1진행·5대기, 진행 중 포함 남은 6묶음.
+
+[G15BP](O15G15BP_DETROIT_BAGLEY_PICK_ORIGIN_AND_ROUTING.md)는 원역사 2023 조건부 픽이 2020 Drummond 거래, 2024 픽이 2021 Wright 거래에서 Detroit에 왔음을 확인했다. 특히 Wright 거래는 Joseph의 최초 Detroit 유입과 묶인다. 공식 2/10 거래 원장의 Detroit·Sacramento 경유 픽을 한 번의 Detroit→Milwaukee 직행 두 장으로 뭉뚱그리지 않으며, 대체세계의 실제 소유·상대 수락은 `HOLD`다.
