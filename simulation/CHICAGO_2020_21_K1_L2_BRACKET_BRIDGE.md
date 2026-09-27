@@ -19,6 +19,8 @@
 
 **다음 F5 검문:** Denver–Lakers 1라운드의 후보 경기별 건강·등록·실명 로테이션/5인조·분·포제션/승패를 구성하고, Phoenix–Portland와 Utah–Memphis 등 상대 경로의 결과를 조건부로 연결한다. Denver의 McGee 거래 생략 및 Nnaji 이탈, Bey/Hartenstein 잔류는 이미 승인된 방향이므로 그대로 입력한다. Cleveland의 Varejão C1/C2 선택과 팀 비용도 별도 열린 입력이다. 원역사 10경기 이름 치환을 K1+L2 분 원장으로 복사하지 않는다.
 
+[5/3 실제 맞대결과 양 팀 원역사 플레이오프 개막 경기 비교](../research/O15F14AU_DENVER_LAKERS_PLAYOFF_COMPARATOR.md)는 James·Schröder가 빠진 5/3 한 경기의 점수/분을 DEN–LAL 새 1라운드로 옮길 수 없음을 확인했다. 상대가 일치해도 건강·기용·일정 입력은 별도다.
+
 **게이트:** F5·A1/A3·K_METHOD_EVENTS는 `HOLD`; F1~F5 `0/5`, A1~A3 최종 채택 `0/3`, 네 K 종료 `0/4`. 작가의 K1/L2 최종 시즌·플레이오프 결과 확정은 0건. 7개 매크로 중 1완료·1진행·5대기, 미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
 
 [Claude 제한 반증 기록](../reviews/R01_O15F14AT_BRACKET_CLAUDE_SCOPE.md)은 1라운드 짝을 재확인했으나 2라운드 Denver–Portland 가능성을 놓친 문장을 기각했다. 새 NBA 원자료로 세지 않는다.

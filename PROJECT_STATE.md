@@ -1196,3 +1196,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AT — K1/L2 플레이오프 대진 오류 격리
 
 [K1/F038+L2 대진 재현](simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver 3번–Lakers 6번, Phoenix 2번–Portland 7번의 첫 라운드를 산출했다. 이전 Denver–Portland 6경기→Phoenix 4경기 및 McGee `33:49`·Nnaji `17:39`·18/18 치환 검사는 원역사 비교/동일 대진 가정의 민감도이며 **K1+L2 플레이오프 실행 증거가 아님**을 D1 종료 묶음·채택 준비 색인·원자료 연구에 명시했다. Denver–Lakers 새 시리즈의 건강·등록·5인조·승패, 가능한 2라운드 및 일정 파급이 F5/K_METHOD_EVENTS의 열린 빈칸이다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기·미완료 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지. 이번 교정은 기존 Hall/McGee 작가 선택이나 K1/L2 후보를 새 정본으로 승격하지 않는다.
+
+## O-15F14-AU — Denver–Lakers 원역사 맞대결과 개막 가용성 차이
+
+[AU 세 공식 경기책 대조](research/O15F14AU_DENVER_LAKERS_PLAYOFF_COMPARATOR.md)는 5/3 Denver @ Lakers의 McGee `12:24=744초`·Lakers 93–89를 F5 국소 화면과 연결했다. 그러나 원역사 5/3 James·Schröder는 결장하고 5/23 Lakers 첫 플레이오프 경기에는 각각 `36:04`·`34:08` 출전했으며, 5/22 Denver의 Portland 상대 DNP/부상 명단도 새 Lakers 상대 코치 선택은 아니다. Antigravity 본문 수집 0건, NotebookLM은 같은 5/3 공식 경기책 한 출처만 인용, Codex는 세 NBA 경기책을 직접 대조했다. 이 비교로 F5의 새 시리즈 건강·분·득점 입력이 구체화됐으나 승자/시리즈는 미선택이다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.

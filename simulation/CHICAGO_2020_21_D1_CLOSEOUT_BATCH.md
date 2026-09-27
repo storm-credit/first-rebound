@@ -32,6 +32,8 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 [K1+L2 대진 재현](CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)에서는 Denver 3번–Lakers 6번이 첫 라운드다. 위 Portland→Phoenix 10경기 교대 검사는 원역사 비교 및 **동일 대진을 가정한 별도 민감도 시험**으로만 보존한다. 선택 후보 K1+L2의 F5 종료 증거로 승격할 수 없으며 Lakers 상대 분·결과가 새 빈칸이다.
 
+[DEN–LAL 5/3 맞대결 및 5/22·23 개막 경기 대조](../research/O15F14AU_DENVER_LAKERS_PLAYOFF_COMPARATOR.md)는 국소 F5 744초 치환의 공식 분 근거와 James·Schröder의 날짜별 결장/출전 차이를 확인했다. 5/3 정규시즌 승자 방향을 1라운드 승패로 고정하지 않는다. F5/K_METHOD_EVENTS 종료를 위해 건강·등록·양 팀 경기별 분/전술·시리즈 결과가 여전히 필요하다.
+
 F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 원경기 출전분 초과 없이 5인조·240분·10개 평점 방향을 통과했다. 5/11·13 Wagner의 최소 추가 `3:03`·`6:40`과 Vučević/Nnaji 상한 부하, 전체 계약·후속 등록은 열려 있어 F4/A1/K 판정은 올리지 않는다.
 
 F5 Cleveland의 별도 [Varejão C1/C2 결정 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교한다. C2를 추천하지만 **작가 선택 전 후보**다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.
