@@ -1151,3 +1151,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-Z — Denver 플레이오프 거래 생략 후속
 
 [공식 플레이오프 10경기 검문](research/O15F14Z_DENVER_2021_PLAYOFF_NONTRADE_SCREEN.md)은 원역사 Denver의 McGee가 4경기에 **33:49** 출전하고 6경기 감독 선택 DNP였음을 확인했다. 6/13 Phoenix 4차전 **19:40**은 Jokic 퇴장이 발생한 경기의 분이므로 선택된 거래 생략 세계의 Hartenstein 잔류만으로 경기 결과·분배를 자동 보존할 수 없다. 동일 분 치환 M1과 감독 재배분 M2는 후보이며, 대체 대진·건강·5인조·승패/후속 사건은 `HOLD`다. C1/C2와 신규 작가확정 0건, F5·K 거래/방법 `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-AA — Cleveland Varejão C1/C2 검토 가능
+
+[C1/C2 결정 패킷](research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 NBPA 2017 CBA의 시즌 마지막 경기일 10일 계약 제한과 원역사 5/14 “둘째 10일” 2차 보도의 충돌을 기록했다. 5/4 첫 10일은 공식 확인, 5/14 후속 형식은 공식 계약 원본 미확보다. SalarySwish의 **잔여시즌 계약** 2차 표와 CBA 일할·베테랑 보전을 대조한 C1 개인 계약 부분합은 선수 총보수 $228,368·팀 charge $144,297; C2에서는 새 Varejão 비용이 없다. 5/14·16 공식 경기책에도 Dellavedova·Nance·Prince·Windler는 계속 부상 미출전이다. C2는 기존 5경기 35:56 분/승패 화면을 재사용하고 새 hardship/후속 계약 사건을 피하므로 **추천**이나 **작가 확정 전 후보**다. 전체 Cleveland 급여, 대체 건강·리그 허가, 2021–22 FA hold/권리 포기, Denver 플레이오프는 HOLD. F5·A1·K 등록/거래/시즌 HOLD, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
