@@ -18,6 +18,8 @@
 
 [후속 AV 판독 교정](O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 위 5/23 `7:05`가 Horton-Tucker의 분이며 Gasol은 감독 선택 DNP임을 PDF 첫 장에서 확인했다. 두 팀의 **서로 다른 원역사 개막 경기** 240분씩을 명시적 후보 입력으로만 연결했고, 대체 세계의 5대5 시간축·승패는 만들지 않았다.
 
+[2월 동일 상대 맞대결 검문](O15F14AW_DEN_LAL_HARTENSTEIN_HEAD_TO_HEAD_PRECEDENT.md)은 Hartenstein의 원역사 Denver 선수 시절 Lakers 상대 `10:11`·`3:04` 출전 선례를 확인했다. 그러나 그 두 박스에는 대체 Draft에서 Dallas로 간 Hampton의 Denver 분도 들어 있다. 2/14 Davis의 선행 건병증과 경기 중 재악화 역시 A1의 별도 인과 사건이다. 원역사 두 승패를 5월 조건부 시리즈로 상속하지 않는다.
+
 **추론/후보:** 새 시리즈의 첫 경기 날짜, 양 팀의 실제 가용 선수, 선발과 교대, 경기별 240분·5인조, 슛/포제션, 승자와 시리즈 길이는 전부 `UNKNOWN`이다. 원역사 5/22 Denver와 5/23 Lakers의 가용성은 **초기 비교 후보**로만 사용할 수 있다. 별도 인과 근거 없이 이를 대체 세계 1차전 건강·기용으로 확정하지 않는다. 원역사 Denver–Portland 6경기·Denver–Phoenix 4경기의 출전 시계도 [대진 보정](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 실제 DEN–LAL 분 원장에 이월하지 않는다.
 
 **다음 정확 검문:** (1) 2021년 5월 대체 Denver/Lakers 각 선수의 등록·건강·가용성 달력을 구성하고, (2) McGee/Nnaji 이탈·Hartenstein/Bey 잔류를 Denver 경기별 5인조와 팀 240분에 반영하고, (3) Lakers의 James/Davis/Schröder 및 센터군을 상대 전력으로 반영해 시리즈 4~7경기 승패를 **후보별**로 검산하고, (4) Phoenix–Portland 승자와 2라운드 상대·일정·후속 계약 영향을 연결한다. 날짜·점수·건강을 임의로 확정하지 않는다. Cleveland Varejão C1/C2, F1~F4와 A1/A3도 별도 열린 입력이다.
