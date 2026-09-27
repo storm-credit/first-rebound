@@ -2,6 +2,7 @@
 
 - 기준: `main` `1c6973f`; 분류: `FACT / INFERENCE / CONDITIONAL`, F1 `HOLD`.
 - 목적: F1의 `EXCEPTION_HISTORY`에 평년 1월 10일 감소 규칙을 기계적으로 대입하는 오류를 차단하고, 2020–21 변경일을 적용한 위험 분기를 계산한다. `R_CHI`의 나머지 항목이나 Chicago의 실제 Team Salary를 인증하지 않는다.
+- 후속 적용 제한: [AE 급여 하한](O15F14AE_CHICAGO_OVER_CAP_EXCEPTION_TRIGGER.md)은 드래프트 뒤~3월 25일 거래 직전 기존 계약 보유 경로가 캡 위였음을 보여준다. 아래 양쪽 예외 산입 숫자는 **트리거가 별도로 증명될 때만** 쓰는 스트레스이며 Chicago의 실제 잔여 예외액으로 읽지 않는다.
 
 ## 원문과 적용 범위
 
