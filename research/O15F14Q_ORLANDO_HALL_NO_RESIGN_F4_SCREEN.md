@@ -28,6 +28,18 @@
 
 표의 반올림 분은 합계가 0.01분 다를 수 있다. 정확 초와 분해는 JSON을 따른다. RAPTOR와 BPM의 **10개 경기·방법 비교에서 승자 방향 반전은 0건**이다. BPM의 Hall 평점 공백은 리그 관측 범위로 처리했고, 5월 14일 연전 피로 변화를 반영했다. 이는 승패 방향의 국소 스트레스 검사다. 실제 경기 결과, 선수 건강, 효율, 앞선 일정의 누적 변화를 증명하지 않는다.
 
+### 5월 원역사 건강·출전 대조 (후속 검문)
+
+| 경기 | 원역사 관측 | 선택 경로의 선별 분 | 판정 |
+|---|---|---|---|
+| 5/9 MIN | [NBA 원경기 기록](https://www.nba.com/magic/game/0022001022): Bamba 19:44, Wagner 24:25 출전 | Bamba 24.40, Wagner 27.27분 | 실제 출전 사실은 확인. 각각 약 +4.66, +2.85분의 대체 부하는 건강·코칭 `HOLD` |
+| 5/11 @MIL | [NBA 경기 전 보고](https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-11_08PM.pdf): Bamba `Out`, 비 COVID 질환 | Bamba 0, Wagner 36.00, Nnaji 16.00분 | Bamba의 원역사 결장과 선별안은 충돌하지 않음. Wagner/Nnaji 부하 `HOLD` |
+| 5/13 @ATL | [NBA 경기 전 보고](https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-13_05PM.pdf)와 [Orlando 구단 프리뷰](https://www.nba.com/magic/orlando-magic-atlanta-hawks-game-preview-story-20210513): Bamba `Questionable`, 비 COVID 질환 | Bamba 0, Wagner 36.00, Nnaji 14.07분 | `Questionable`을 `Out` 확정으로 바꾸지 않음. 미출전 선택과 다른 선수의 부하 `HOLD` |
+| 5/14 @PHI | [NBA 경기 전 보고](https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-14_05PM.pdf): Bamba `Questionable`; [Orlando 경기 후 보도](https://www.nba.com/magic/news/magic-lose-philly-first-two-games-against-76ers-finish-season-20210514): 앞선 두 경기 결장 뒤 복귀 출전 | Bamba 23.50, Wagner 19.52분 | 출전 가능성은 원역사로 뒷받침되나 추가 4.38분·연전 체력 `HOLD` |
+| 5/16 @PHI | [NBA 최종 경기책](https://statsdmz.nba.com/pdfs/20210516/20210516_ORLPHI.pdf): Bamba 22:55, Wagner 34:38 출전 | Bamba 30.00, Wagner 29.55분 | Bamba의 추가 7.08분은 모델 상한에 맞춘 후보일 뿐 의료 허용치가 아님 |
+
+위 대조는 원역사 **출전/상태의 증거**와 대체 세계 **선수별 분 후보**를 구분한다. 특히 Bamba의 5/11 원역사 `Out`을 무시해 빠진 Hall 분을 채우지 않았고, 5/13 `Questionable`을 대체 세계의 새 진단으로 변환하지 않았다. 다섯 경기의 5인조·240분 산술은 기존 JSON에서 통과했지만, Wagner의 5/11·13 각 36분 및 Bamba의 5/16 30분에 대한 대체 건강·체력·감독 선택은 확인되지 않았다. F4/A1·최종 시즌은 여전히 `HOLD`다.
+
 ## F4 판정과 다음 연결
 
 선택된 경로에서는 Hall 추가 일반계약 자리와 그 재계약 비용, 대체 세계의 hardship 신청·허가 사건이 **필요하지 않다**. 대신 다섯 경기의 선수별 분·체력 및 경기 결과를 검토해야 한다. Hall을 남기는 이전 경로에는 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)의 A1 건강·A2 행정 조건이 적용됐었다. 두 경로를 합쳐 필요조건을 지우지 않는다.
