@@ -1056,3 +1056,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G8E — Markkanen 선발 역할 인과 감사
 
 [G8E 선발 보드](research/O15G8E_MARKKANEN_STARTER_CAUSALITY_BOARD.md)는 Yle 2021-05-17 직접 인터뷰의 원역사 역할 불만과 K1 후반 원장의 28출전·3선발·25벤치를 대조했다. 벤치 25경기의 대체 선발은 Young 14·Theis 11이다. Vučević가 없는 세계에도 원역사 선발 표기를 상속한 S0는 코치 판단·선수 동의의 증명이 아니므로 S1(28선발), S2(17선발), S3(14선발)의 **상호 배타적 선발 정책 후보**를 분·실존 선수 비용과 함께 기록했다. F6B 분을 고정한 전체 48분 5인 조합은 네 안 모두 29/29경기 수학적 PASS이나 슛/터치·매치업·코치 선택은 `HOLD`; K1/L2·CP2 잠정 추천을 새 시즌 정본으로 바꾸지 않는다. Antigravity는 Yle 기사 본문을 읽었다고 반환했고 Codex가 원문을 직접 대조했다. NotebookLM의 두 URL 직접 소스 추가는 실패했으며 Codex 요약문 한정 연결 분석만 성공했다. 같은 원문을 여러 독립 출처로 세지 않는다. Claude CLI는 무응답 종료, source-blind는 미실행. `G1A_CONSENT_HOLD`, D1 F1~F5·A1~A3, 신규 작가확정 0건; 7개 게이트 1완료·1진행·5대기, 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G8F — Markkanen 슛 기회 미배정 경계
+
+[G8F 슛 기회 감사](research/O15G8F_MARKKANEN_SHOT_OPPORTUNITY_AUDIT.md)는 저장된 원역사 이차 박스 미러와 3/24 cutoff 관측 원장을 대조해 Markkanen의 전반 23출전 303 FGA·61 FTA, 후반 28출전 218 FGA·31 FTA를 재집계했다. FGA/36분은 15.80→12.52, FTA/36분은 3.18→1.78로 하락했다. K1 후반 36,899초에 전반 FGA 시도율을 단순 적용한 약 270회는 공격권 필요량을 드러내는 **진단 산술**이지 대체 기록이나 팀 시도 보존 증명이 아니다. 후반 원역사 Vučević 488 FGA를 Markkanen에게 자동 이전하지 않고 P·LaMelo·Carter·Young·Theis와 경기별 슛/포제션 비용을 다음 원장 입력으로 남겼다. Antigravity는 공식 NBA 총합 본문 회수 타임아웃, NotebookLM은 NBA 선수 페이지의 숫자 없는 본문만 수집해 해당 새 소스를 삭제했다. 공식 총합 Evidence Pack 0건, Claude/source-blind `NOT_RUN`; `G1A_CONSENT_HOLD`, D1·CP2 잠정 상태, 작가확정 0건. 7개 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
