@@ -19,17 +19,22 @@ def normal_cap(contracts,holds,rookie_min,extra=0):
     return dict(known_salaries=sum(contracts.values()),FA_holds=sum(holds.values()),incomplete_count=empty,incomplete_charge=empty*rookie_min,total=sum(contracts.values())+sum(holds.values())+empty*rookie_min+extra)
 
 
-def run_route(p,final,route,bonus=0,normal_extra=0,apron_extra=0,late_first=False):
+def run_route(p,final,route,bonus=0,normal_extra=0,apron_extra=0,late_first=False,green_pending_charge=None):
     contracts={k:v for k,v in final.items() if k not in {'Markkanen','Caruso',*p['late_minimum_order']}}
     if len(contracts)!=9:raise ValueError('entry requires nine proposed contracts including P')
     holds=dict(p['retained_FA']);ntmle=p['ntmle2021'];used_ntmle=False;hard=False;rows=[];checks=[]
+    if green_pending_charge is not None:
+        if route['id']!='SQ1' or late_first or green_pending_charge<0:raise ValueError('Green pending comparison requires SQ1 and a nonnegative charge')
+        contracts.pop('Green');holds['Green']=green_pending_charge
     def snapshot(event,cap_required=False):
         nonlocal ntmle
         n=normal_cap(contracts,holds,p['rookie_min2021'],normal_extra+bonus)
         # Both public Markkanen QO references fit this upper budget; outside
         # offer-sheet matching and any other RFA tender are excluded conditions.
         q=p['Markkanen_apron_QO_upper_reference'] if 'Markkanen' in holds else 0
-        apron=sum(contracts.values())+bonus+q+apron_extra
+        # A pending Green RFA is Team Salary, but is not a signed roster slot.
+        # The caller supplies the assumed max(FA amount, outstanding QO, notice).
+        apron=sum(contracts.values())+bonus+q+holds.get('Green',0)+apron_extra
         if ntmle and n['total']<p['cap2021'] and p['cap2021']-n['total']>=ntmle:ntmle=0
         rec=dict(event=event,normal=n,standard_contracts=len(contracts),cap_room=p['cap2021']-n['total'],apron_upper_budget=apron,apron_room=p['apron2021']-apron,hard_cap_from_this_route=hard,unused_NTMLE_in_this_restricted_model=ntmle,cap_required=cap_required)
         if cap_required:checks.append(dict(event=event,kind='CAP_ROOM',room=rec['cap_room']))
@@ -50,7 +55,7 @@ def run_route(p,final,route,bonus=0,normal_extra=0,apron_extra=0,late_first=Fals
         holds.pop('Theis',None);holds.pop('Denzel Valentine',None)
         if route['Caruso_route']=='CAP_ROOM':ntmle=0
         snapshot('RENOUNCE_UNUSED_FA_AND_APPLICABLE_EXCEPTIONS')
-    snapshot('ENTRY_AFTER_DUARTE_AND_GREEN')
+    snapshot('ENTRY_AFTER_DUARTE_AND_GREEN' if green_pending_charge is None else 'ENTRY_AFTER_DUARTE_GREEN_RFA_PENDING')
     # late_first is a comparison counterexample: every minimum contract is
     # signed before Caruso, consuming room even though minimum exceptions exist.
     if late_first:
@@ -60,6 +65,7 @@ def run_route(p,final,route,bonus=0,normal_extra=0,apron_extra=0,late_first=Fals
     sign('Caruso',route['Caruso_route'])
     if route['first_contract']=='Caruso':sign('Markkanen','BIRD')
     if route['Caruso_route']=='NTMLE':renounce()
+    if green_pending_charge is not None:sign('Green','MINIMUM')
     if not late_first:
         for name in p['late_minimum_order']:sign(name,'MINIMUM')
     if contracts!=final or holds:raise ValueError('final proposed roster mismatch')
@@ -104,11 +110,28 @@ def build():
     for pro in g1['rookie_fourth_cases']:
         qos.append(dict(protagonist=pro,nonstarter_QO_budget_upper=ceiling(pro['salary']*(1000+p['rookie2018_QO_percent_permille'][str(pro['pick'])]),1000),starter_QO_reference=p['starter_QO2018_reference'],selected_QO=None,actual_starter_criteria_met=None,actual_rounding_charge_certified=False))
     future=[row for pol in p['followup_2022_policies'] for row in future_budget(g1,p,pol)]
+    green_late=[]
+    sq1=next(r for r in p['routes'] if r['id']=='SQ1')
+    for charge in (1897476,1929217):
+        for pro in g1['rookie_fourth_cases']:
+            for bonus in (0,1000000):
+                roster=dict(final,Protagonist=pro['salary'])
+                early=run_route(p,roster,sq1,bonus)
+                late=run_route(p,roster,sq1,bonus,green_pending_charge=charge)
+                early_caruso=next(row for row in early['rows'] if row['event']=='SIGN_Caruso_NTMLE')
+                late_caruso=next(row for row in late['rows'] if row['event']=='SIGN_Caruso_NTMLE')
+                green_late.append(dict(assumed_effective_Green_RFA_charge=charge,protagonist=pro,Young_bonus_budget=bonus,
+                    entry_cap_room_delta=late['rows'][0]['cap_room']-early['rows'][0]['cap_room'],
+                    Caruso_cap_room_delta=late_caruso['cap_room']-early_caruso['cap_room'],
+                    Caruso_apron_room_delta=late_caruso['apron_room']-early_caruso['apron_room'],
+                    minimum_apron_extra_limit=late['apron_extra_upper_after_trigger'],
+                    conditional_numeric_pass_at_zero_extra=late['conditional_numeric_pass'],
+                    final_gross_budget=late['final_gross_budget']))
     # Lower bound before the two preliminary signings. Unsigned #10's 120%
     # hold equals its proposed salary. Omit Green salary and any replacement
     # empty charge entirely to avoid using an unknown Green FA amount as proof.
     entry_lower=min(r['known_normal_cap_before_Caruso']+p['retained_FA']['Denzel Valentine']-final['Green'] for r in g1['ntmle_sequence'])
-    return dict(stage='O-15G8',status='CONDITIONAL_ORDER_AND_CONTRACT_BRIDGE',recommended_route=p['recommended_route'],routes=routes,route_salary_cases=240,NTMLE_entry_lower_bound_excluding_Green=entry_lower,NTMLE_entry_lower_plus_exception_exceeds_cap=entry_lower+p['ntmle2021']>p['cap2021'],protagonist_QO_cases=qos,starter_single_season_only_is_sufficient_not_necessary=True,prior_season_proration_rounding_verified=False,Carter_options=[dict(**o,total=sum(o['salary_2022_to_2026']) if o['salary_2022_to_2026'] else None,contract_agreed=False) for o in p['Carter_options']],budget2022_cases=future,budget2022_case_count=len(future),selected_route=None,selected_Carter_contract=None,contracts_agreed=False,author_locked=False,season_selected=False,exact_execution_cleared=False,manuscript_allowed=False,independent_review='NOT_INDEPENDENT')
+    return dict(stage='O-15G8',status='CONDITIONAL_ORDER_AND_CONTRACT_BRIDGE',recommended_route=p['recommended_route'],routes=routes,route_salary_cases=240,Green_late_SQ1_sensitivities=dict(status='HYPOTHETICAL_EFFECTIVE_CHARGES_NOT_ACTUAL_QO_OR_FA_AMOUNT',cases=green_late,case_count=len(green_late),actual_Green_effective_charge=None,actual_Green_signing_order=None,exact_execution_cleared=False),NTMLE_entry_lower_bound_excluding_Green=entry_lower,NTMLE_entry_lower_plus_exception_exceeds_cap=entry_lower+p['ntmle2021']>p['cap2021'],protagonist_QO_cases=qos,starter_single_season_only_is_sufficient_not_necessary=True,prior_season_proration_rounding_verified=False,Carter_options=[dict(**o,total=sum(o['salary_2022_to_2026']) if o['salary_2022_to_2026'] else None,contract_agreed=False) for o in p['Carter_options']],budget2022_cases=future,budget2022_case_count=len(future),selected_route=None,selected_Carter_contract=None,contracts_agreed=False,author_locked=False,season_selected=False,exact_execution_cleared=False,manuscript_allowed=False,independent_review='NOT_INDEPENDENT')
 
 
 if __name__=='__main__':

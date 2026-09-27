@@ -44,6 +44,19 @@ class ContractSequenceTests(unittest.TestCase):
             self.assertEqual(len(r['cases']),60)
             self.assertTrue(all(c['numeric_pass_at_zero_extra'] for c in r['cases']))
 
+    def test_green_pending_rfa_charge_changes_intermediate_not_final_salary(self):
+        route=self.p['routes'][0]
+        early=run_route(self.p,self.final,route,1000000)
+        for charge in (1897476,1929217,2056061):
+            late=run_route(self.p,self.final,route,1000000,green_pending_charge=charge)
+            self.assertEqual(late['rows'][0]['standard_contracts'],8)
+            self.assertEqual(late['rows'][0]['normal']['incomplete_count'],early['rows'][0]['normal']['incomplete_count'])
+            self.assertEqual(late['rows'][0]['cap_room'],early['rows'][0]['cap_room']-(charge-self.final['Green']))
+            self.assertEqual(late['final_gross_budget'],early['final_gross_budget'])
+            self.assertEqual(late['rows'][-1]['normal'],early['rows'][-1]['normal'])
+        self.assertEqual(self.x['Green_late_SQ1_sensitivities']['case_count'],120)
+        self.assertIsNone(self.x['Green_late_SQ1_sensitivities']['actual_Green_effective_charge'])
+
     def test_unknown_prior_starter_criterion_is_not_failure(self):
         self.assertTrue(single_season_starter_sufficient(41,None))
         self.assertTrue(single_season_starter_sufficient(None,2000))

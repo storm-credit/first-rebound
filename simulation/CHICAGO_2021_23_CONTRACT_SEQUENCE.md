@@ -1,6 +1,6 @@
 # O-15G8 — Chicago 2021 취득 순서와 2022–23 계약 연결
 
-**조건부 순서·금액 검토 / NOT_CANON / NOT_INDEPENDENT**. G7 DB1/AP1/C39A의15자리와 G1A/E2를 유지한다. 새 계약 수락이나 전 구단 원장을 확정하는 문서가 아니다. 2021 취득4경로×주인공30급여×Young보너스2조건=240조건, 주인공 QO30쌍,2022 유지4정책×48예산=192조건을 계산했다.
+**조건부 순서·금액 검토 / NOT_CANON / NOT_INDEPENDENT**. G7 DB1/AP1/C39A의15자리와 G1A/E2를 유지한다. 새 계약 수락이나 전 구단 원장을 확정하는 문서가 아니다. 2021 Green 선서명 취득4경로×주인공30급여×Young보너스2조건=240조건, Green 후행 서명 SQ1의 실효 보류액2가정×30급여×2보너스=120조건, 주인공 QO30쌍,2022 유지4정책×48예산=192조건을 계산했다.
 
 이 수치 시험에는 Markkanen의 **선수 동의가 들어 있지 않다**. [G8B 선수 관문](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)의 원역사 이적 희망과 대체 세계 역할·보장 기간·경쟁 제안 대조 전까지 SQ1의 Mark Bird 서명 단계는 `G1A_CONSENT_HOLD`다. 이하 숫자는 계약이 수락됐다는 뜻이 아니다.
 
@@ -60,7 +60,7 @@ NTMLE 자격은 예외가 생긴 때부터 사용까지 유지돼야 한다. Gre
 
 G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **구단 발표일**이다. 둘이 다른 이유나 정확한 법적 효력일을 자료 없이 단정하지 않는다. 원역사 발표는 선수 영입의 실례일 뿐, Carter가 남는 대체 Chicago에서도 선수·상대 구단이 같은 조건에 동의했다는 증거가 아니다. 새 서명일·급여 원장·동의가 확인될 때까지 `D2 실제 계약=HOLD`이며, 기존 #10 Duarte·#39 Wieskamp 보드는 최종 지명으로 승격하지 않는다.
 
-[G15BF Green 제한적 FA 순서 검문](../research/O15G15BF_GREEN_2021_RFA_ORDER_AND_QO_CHARGE.md)은 이 G8의 Duarte·Green **선서명**을 계산 진입 조건으로 한정한다. `first_contract=Caruso`는 그 진입 **이후**의 순서다. Green을 Caruso 뒤로 미루고 QO가 살아 있으면 미서명 Team Salary는 최저급여 계약액이 아니라 CBA의 `max(FA 보류액, QO, first-refusal 통지액)`이다. 그 후행 경로는 이번 240조건에 없으므로 Caruso 시점 장부를 다시 계산해야 한다. QO 수락으로 1년 계약이 되면 2022–23 Green 비용도 재검토한다. 원역사 발표일을 근거로 G8의 선서명 후보를 자동 기각하지 않으며, 조기 선수 합의도 자동 성립시키지 않는다.
+[G15BF Green 제한적 FA 순서 검문](../research/O15G15BF_GREEN_2021_RFA_ORDER_AND_QO_CHARGE.md)은 이 G8의 Duarte·Green **선서명**을 기존 240조건의 진입 조건으로 한정한다. `first_contract=Caruso`는 그 진입 **이후**의 순서다. Green을 Caruso 뒤로 미루고 QO가 살아 있으면 미서명 Team Salary는 최저급여 계약액이 아니라 CBA의 `max(FA 보류액, QO, first-refusal 통지액)`이다. 별도 `Green_late_SQ1_sensitivities` 120조건은 실효 Green 보류액 `$1,897,476/$1,929,217`을 각각 **가정**해 Caruso 시점 장부를 다시 계산한다. 두 수치는 상충하는 2차 자료이며 실제 `F/N`·계약 신고일·선수 수락을 대체하지 않는다. QO 수락으로 1년 계약이 되면 2022–23 Green 비용도 재검토한다. 원역사 발표일을 근거로 G8의 선서명 후보를 자동 기각하지 않으며, 조기 선수 합의도 자동 성립시키지 않는다.
 
 [G15AW 계약 종류 분기](../research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)는 원역사 Spurs #41 Wieskamp의 9/7 투웨이와 이 SQ1의 조건부 Chicago #39 **2년 일반계약**을 구분한다. 투웨이 선택 시 최종 일반 14명·첫해 알려진 예산 `−$925,258` 민감도이며, 2022–23 둘째 해 일반계약/RT1~RT4를 그대로 재사용하지 않는다. 본 G8 JSON은 **일반계약 주 경로**의 계산으로 보존한다.
 
