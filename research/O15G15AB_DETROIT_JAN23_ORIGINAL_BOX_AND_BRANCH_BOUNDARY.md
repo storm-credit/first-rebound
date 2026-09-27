@@ -60,3 +60,7 @@
 ### 후속 — G15BK McGruder 출전 행의 거래 조건
 
 [G15BK](O15G15BK_DET_DEN_BOL_MCGRUDER_FORBES_DEPENDENCY.md)는 1/10 발표된 Bol–McGruder 거래가 1/13 취소된 **원역사**와, 완료를 가정하는 **대체 후보**를 분리했다. 취소가 유지되면 McGruder의 Detroit 소유는 가능하지만 `23:38`의 대체세계 보존은 아니다. 거래가 완료되면 McGruder 원역사 행도 제거해야 하며, Denver의 원형 1/19 Forbes 거래는 Bol을 Boston에 보낼 수 없어 재설계가 필요하다. 어느 분기도 정본으로 선택하지 않는다.
+
+### 후속 — G15BL Stanley의 세 번째 10일 계약
+
+[G15BL](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md)은 Stanley의 원역사 12/25·1/8·**1/21 새 10일 계약**과 1/23 출전을 날짜별로 연결했다. `10:37`의 대체세계 사용은 1/21 재호출과 별도 표준 자리 또는 COVID 긴급 예외 자격·급여·당일 활동 확인 뒤에만 가능하다. Stanley를 G15AF의 10월 기본 표준 16인에 넣거나 그 한 자리 초과를 해결하는 선수로 계산하지 않는다.
