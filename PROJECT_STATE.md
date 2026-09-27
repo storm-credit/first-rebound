@@ -1097,3 +1097,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15G15BB — 2021 최저급여표 원문 역산
 
 [G15BB 최저급여표 검산](research/O15G15BB_2021_MINIMUM_SALARY_SCALE_CROSSCHECK.md)은 NBPA 2017–23 CBA Exhibit C와 NBA 공식 2017/2021 cap을 대조했다. 2017 표의 0년차 첫해·1년차 둘째 해·2년차 셋째 해를 2021 cap 배수로 환산하면 SalarySwish의 원역사 세 급여 `$925,258 / $1,563,518 / $1,836,096`과 **각각 정확히 일치**한다. 2년차 `$638,260` 차이는 임의 협상 5% 인상으로 해석할 사안이 아니며 최저급여표 경로로 설명된다. 단, 2021 NBA 원본 최저급여표·원역사 계약서와 대체 Chicago의 NTMLE/cap 계약 순서, 전체 Team Salary 및 선수 수락은 `HOLD`; 원역사 3년 설명을 이 세계 작가확정으로 바꾸지 않았다. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 0/4. 7행 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+## O-15G15BC — Simonović 2020 지명권의 해외 보관 시계
+
+[G15BC 권리 검문](research/O15G15BC_SIMONOVIC_DRAFT_RIGHTS_CLOCK.md)은 ABA League의 2020 드래프트 당시 Mega **임대** 보도, Bulls 2021 원역사 서명과 NBPA 2017–23 CBA Article X §§4–6을 대조했다. `S0`의 2021–22 미서명은 명단 15명을 유지하지만 해외 원계약 기간·선수 가용 통지·Required Tender 제출에 따라 독점 협상권이 달라져 **무기한 보관을 보장하지 않는다**. 기본 CBA의 9월 5일은 실제 2020-11-18 드래프트보다 앞서므로 그해 수정 기한/실제 통지는 `HOLD`다. Mega의 2021 **2년** 계약 보도와 Bulls 2022 구단 기사의 **3년** 설명은 계약서 부재의 출처 충돌로 남겼다. NotebookLM은 ABA·Mega 두 지정 URL의 연결 분석에 성공했고, Antigravity는 URL 도구 호출은 성공했으나 기사 본문 없는 HTML만 회수했다. Claude의 [제한 반증](reviews/R01_O15G15BC_SIMONOVIC_RIGHTS_REBUTTAL.md)은 Tender 증거 부재를 재확인했고 S1~S3 전체 불능 주장은 기각했다; source-blind `NOT_RUN`. 도구 실행을 새 독립 근거로 중복 세지 않는다. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 0/4, G1A 동의·D2 정확 계약/픽/시즌 `HOLD`, 신규 작가확정 0건. 7행 1완료·1진행·5대기, 진행 중 포함 남은 큰 작업 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.

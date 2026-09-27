@@ -12,6 +12,8 @@
 | [SalarySwish 계약표](https://www.salaryswish.com/players/marko-simonovic) | **2차 기록:** 2021–22 `$925,258`, 2022–23 `$1,563,518` 각각 보장, 2023–24 `$1,836,096` 비보장, 3년 총 `$4,324,872`, MLE 사용·8/13 서명일 표시. | 구단이 금액/보장·MLE 사용을 공표한 적 없음. 2차 사이트의 8/13과 구단 발표 8/18은 서로 다른 사건 시계이며 실제 접수·효력 시각 인증도 아님. |
 | [NBA 2021–22 cap·예외 공식 발표](https://pr.nba.com/nba-salary-cap-for-2021-22-season-set-at-112-414-million/), [당시 CBA 101](https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf), [NBPA의 2017–23 CBA 원문](https://www.nbpa.com/cba) | 2021 비납세 MLE 첫해 총액 `$9,536,000`. 해당 예외는 **복수 선수 첫해 급여 합산**과 최대 4시즌, minimum exception은 최대 2시즌. NTMLE 사용의 그해 apron 제한. CBA Article VII §5(c)(1)의 일반 연간 인상 한도와 Article II §6의 최저급여·deemed amendment 조항은 별도로 대조해야 함. | 특정 팀의 미공개 실제 cap sheet, Marko의 3년 예외 방식, 가상 계약 승인까지 직접 인증하지 않음. |
 
+[G15BC의 후속 출처 대조](O15G15BC_SIMONOVIC_DRAFT_RIGHTS_CLOCK.md)에서 Mega의 2021 **2년 계약** 보도와 이 표의 Bulls 2022 **3년** 설명이 충돌함을 확인했다. 원계약서 없이 Mega가 보장기간만 뜻했는지 판단하지 않는다. 아래 3년/2년 수단은 각각 가상 후보로 유지한다.
+
 ## G8 SQ1에 원역사 **급여만** 넣는 한 변수 시험
 
 G8은 Caruso에게 첫해 `$8,600,000`을 비납세 MLE로 쓰는 **제안**이고 Markkanen Bird 재계약·FA 권리 정리 뒤 #39 Wieskamp 2년 일반 최소계약을 두어 최종 일반 15명이다. [G15AZ](O15G15AZ_SIMONOVIC_2021_ACTIVATION_SLOT_GATE.md)의 `S1`은 #39를 투웨이로 바꾸고 Simonović에게 일반 15번째 자리를 주는 별도 후보, `S2`는 #39를 미서명으로 두는 후보이다. Dotson/Cook의 두 투웨이 자리는 [G15AY](O15G15AY_CHICAGO_2021_TWO_WAY_SLOT_SCREEN.md)에 따라 다시 배정해야 한다. 아래의 `M1=$925,258`, `M2=$1,563,518`, `M3=$1,836,096`은 SalarySwish **원역사 2차 비교값**이며 가상 합의 금액은 `null`이다.
