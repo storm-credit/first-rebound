@@ -64,3 +64,7 @@
 ### 후속 — G15BL Stanley의 세 번째 10일 계약
 
 [G15BL](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md)은 Stanley의 원역사 12/25·1/8·**1/21 새 10일 계약**과 1/23 출전을 날짜별로 연결했다. `10:37`의 대체세계 사용은 1/21 재호출과 별도 표준 자리 또는 COVID 긴급 예외 자격·급여·당일 활동 확인 뒤에만 가능하다. Stanley를 G15AF의 10월 기본 표준 16인에 넣거나 그 한 자리 초과를 해결하는 선수로 계산하지 않는다.
+
+### 후속 — G15BM Lyles 미계약이면 이 표의 행도 이탈
+
+[G15BM](O15G15BM_DETROIT_OPENING_SLOT_TWO_NAMED_OPTIONS.md)의 `B`는 Lyles의 2021-08-06 계약 자체를 하지 않는 **후보**다. 이를 택하면 위 일곱 원역사 잔류 행 중 **Lyles `21:18 / 11 FGA / 18점`**도 대체 Detroit에서 제거한다. `A` Garza 투웨이 유지 역시 별도 등록·50활동경기 조건이 있다. 어느 후보도 1/23 원역사 240분·공격 합을 새 결과로 승격하지 않는다.

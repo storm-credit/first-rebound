@@ -34,3 +34,7 @@
 NotebookLM CLI는 기존 2017 CBA 전체본 **한 출처에 한정**해 §13(a)와 §4(a)(1)(iv)를 찾아냈으며 Detroit 실제 이메일 시각은 알 수 없다고 답했다. 이는 Codex가 직접 확인한 **같은 CBA**의 분석 보조이지 독립 원자료가 아니다. Antigravity CLI의 Detroit 팀 기사 본문 0건은 [G15AN 기록](O15G15AN_DETROIT_WAIVER_AND_EXCEPTION_BRANCHES.md)대로 유지한다. [문서 단독 반증](../reviews/R01_O15G15AO_DISCLOSED_AGREEMENT_BLIND.md)은 사실 독립 검증으로 세지 않는다.
 
 다음은 8/6 NBA 리그 통지·계약 접수 순서, 그 직전 전체 Team Salary와 권리/예외 포기, McGruder 차지 시각을 확보하는 것이다. 이후 Olynyk·Lyles·Lee와 Livers/Frank, 8/10 Joseph까지 한 연속 경로를 계산한다. P0-B·개막 인원·G14 DET/ORL·G16/G17·Chicago 정확 시즌은 `HOLD`; 7개 매크로 게이트 1완료·1진행·5대기, 진행 중 포함 6개 남음.
+
+### 후속 — G15BM Lyles 미계약 후보의 범위
+
+[G15BM](O15G15BM_DETROIT_OPENING_SLOT_TWO_NAMED_OPTIONS.md)의 `B`는 **Lyles 합의 통지·서명 자체가 없었다**는 새 반사실 조건이다. 이 원장의 `Lyles 먼저 통지` 부족 후보 한 항을 피할 수는 있지만, 실제 8/6 전체 Team Salary와 Olynyk 계약의 합법성을 통과시키지 않는다. 원역사 1/23 Lyles 센터 분과 2/10 Bagley 거래도 다시 설계해야 하므로 개막 한 자리와 캡을 동시에 해결했다고 판정하지 않는다.

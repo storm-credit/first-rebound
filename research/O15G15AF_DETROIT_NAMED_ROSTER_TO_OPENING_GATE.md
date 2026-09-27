@@ -60,3 +60,7 @@ Joseph·McGruder는 드래프트 프로필에 있어도 그 계약이 연속 유
 ### 후속 — G15BL 1월 긴급 계약은 10월 초과 자리가 아니다
 
 [G15BL](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md)의 원역사 Stanley 1/21 **별도 10일 계약**은 이 문서의 조건부 **10/20 표준 16명**을 15명으로 줄이는 거래가 아니다. P0-B의 실명 이탈 또는 다른 사건 변경이 여전히 먼저 필요하다. 그 뒤 대체 1/21 Stanley 호출의 표준 자리 또는 COVID 긴급 예외 자격을 별도로 검사한다.
+
+### 후속 — G15BM 실명 한 자리 산술 후보
+
+[G15BM](O15G15BM_DETROIT_OPENING_SLOT_TWO_NAMED_OPTIONS.md)은 `A` Garza를 기존 투웨이에 남겨 표준 전환을 하지 않는 경우와 `B` Lyles의 8/6 계약 자체를 하지 않는 경우를 비교했다. 각각 **표준 15+투웨이 2**와 G14의 10명 보존은 집합 검사만 통과한다. `A`의 Pickett 투웨이 상실·Garza 50활동경기, `B`의 1/23 Lyles 센터 분·2/10 Bagley 거래 파급, 공통 8/6 cap·Nets/Charlotte는 `HOLD`다. 둘 다 작가확정이 아니다.
