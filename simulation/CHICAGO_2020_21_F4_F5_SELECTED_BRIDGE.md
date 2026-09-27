@@ -1,6 +1,7 @@
 # O-15F14-Q — 작가 선택 F4/F5의 등록·급여·시즌 연결
 
 - 선택 권위: [F4/F5 결정](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json). 계산 권위: [브리지 JSON](CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json), 재현 도구 [`build_chicago_2020_21_followup_bridge.py`](../tools/build_chicago_2020_21_followup_bridge.py).
+- 브리지 JSON의 `source_sha256`은 LF로 정규화한 원문 바이트 해시다. Windows 체크아웃에서 결정 JSON 하나만 CRLF로 바뀌어 재현 비교가 실패하던 문제를 고쳤으며, 경기·급여 계산 필드는 그대로다.
 - 판정: `F4_F5_DIRECTION_LOCKED / LOCAL_CAPACITY_PASS / EXACT_EXECUTION_AND_SEASON_HOLD`.
 - K1·L2 원본은 당시 추천 이력으로 보존한다. 시즌 최종 확정, 실제 건강·정확 급여·플레이오프·추첨 승격은 하지 않았다.
 

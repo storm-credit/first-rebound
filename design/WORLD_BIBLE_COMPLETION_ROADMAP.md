@@ -6,7 +6,7 @@
 
 ## 1. 현재 산출물
 
-**현행 체크포인트(2026-09-27):** Chicago 정규시즌 1080경기 조건부 입력은 [F14F](../simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md)에서 완료됐다. [K1 시즌 추천](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md)·[L2 플레이인 추천](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)과 [승인된 CP2의 잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md)도 완료했다. **정확 시즌/선수 지명/계약 정본은 미확정**이다. [채택 준비 색인](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 F1~F5는 남은 사실, A1~A3는 남은 최종 선택이다. 이를 포함하는 네 K 조건 묶음은 모두 미완료이며 현재 D1 병목이다. 아래 F10~F14 초기 문단은 누적 작업 이력이며 현행 중단 지점으로 읽지 않는다.
+**현행 체크포인트(2026-09-28):** Chicago 정규시즌 1080경기 조건부 입력은 [F14F](../simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md)에서 완료됐다. [K1 시즌 추천](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md)·[L2 플레이인 추천](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)과 [승인된 CP2의 잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md)도 완료했다. **정확 시즌/선수 지명/계약 정본은 미확정**이다. 작가가 Hall 5/9 재계약과 McGee 거래의 **생략 방향**을 선택했고, F2 Orlando 3/25 공개 자리 산술은 통과했다. [채택 준비 색인](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 F1~F5는 선택 경로의 남은 실행 검문, A1~A3는 남은 최종 채택 게이트다. A2의 선택 방향을 다시 묻지 않는다. 네 K 조건 묶음은 모두 미완료이며 현재 D1 병목이다. 아래 F10~F14 초기 문단은 누적 작업 이력이며 현행 중단 지점으로 읽지 않는다.
 
 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)은 F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 종료 0/4를 한 번에 추적한다. 정확 증거가 없는 필드는 `HOLD`로 남기고 기존 CP2에 따라 D2를 **조건부로** 계속한다. 이것은 아래 7행 상태나 시즌/계약의 정본 승격을 바꾸지 않는다.
 
