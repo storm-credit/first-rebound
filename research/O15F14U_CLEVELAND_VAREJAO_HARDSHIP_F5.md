@@ -14,6 +14,7 @@
 | 4/14·4/28 | [Stevens 일반계약 전환](https://www.nba.com/cavaliers/releases/stevens-contract-210414), [NBA G League Martin 투웨이 이력](https://gleague.nba.com/nba-call-ups-for-the-2020-21-season) | 5월에는 Stevens가 일반계약, Martin과 Thomas가 투웨이인 분류를 확인한다. |
 | 5/3 20:30 ET | [NBA 5/3 공식 부상 보고서](https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-03_08PM.pdf), PHX@CLE 5/4 행 | 원역사 Cleveland가 Dellavedova·Nance·Prince·Windler 네 명 모두를 5/4 경기 `Out`으로 신고. 이 자료는 **5/3 시점 다음 경기 상태**이며, 리그의 새 세계 hardship 허가서나 각 선수의 장래 예후 판정은 아니다. Hartenstein도 원역사 보고에는 있지만 선택 경로 Cleveland 명단에는 없다. |
 | 5/3~4 | [NBA Varejão 10일 계약 발표 보도](https://www.nba.com/news/report-cavaliers-to-add-veteran-big-anderson-varejao-for-return-tour), [NBA 5/4 PHX–CLE 공식 경기책 첫 장](https://statsdmz.nba.com/pdfs/20210504/20210504_PHXCLE_book.pdf) | 원역사에서 Varejão 영입. 5/4 Cleveland 박스 12명 + inactive 6명 = 18명, Thomas·Martin 투웨이 2명 ⇒ **일반 16+투웨이 2**. Dellavedova·Nance·Prince·Windler는 이날도 inactive. |
+| 5/9 | [NBA DAL–CLE 공식 경기책 첫 장](https://statsdmz.nba.com/pdfs/20210509/20210509_DALCLE_book.pdf) | 원역사 Cleveland 박스 12명 + inactive 6명 = 18명. Thomas·Martin 투웨이 2명 분류를 유지하면 **일반 16+투웨이 2**다. Varejão는 16:23 출전했고 Dellavedova·Nance·Prince·Windler는 다시 부상 inactive다. Garland·Stevens도 이날 부상 inactive지만, 이 두 사람의 대체 세계 결장을 자동 이식하지 않는다. |
 
 [동시대 AP 취재](https://www.sportsnet.ca/nba/article/ap-source-cavs-sign-varejao-getting-nba-exception/)는 원역사 리그의 5/3 hardship 허가를 관계자 인용으로 보도했다. 이는 NBA 서명 허가서 원본이 아니며 **대체 세계 허가**가 아니다. 2019 NBA 규약 §6.08의 4명·3연속 부상 결장 및 계속 결장 전망 조건은 [기존 실행 조항](../simulation/CHICAGO_2020_21_EXECUTION_TERMS.md)에서 사용한 것과 같다. 경기책은 **네 명의 4연속 결장**, 5/3 보고서는 **다음 5/4 경기 Out**을 뒷받침하지만, 새 세계에서 네 명 각각에 대한 리그의 계속 결장 판단과 승인 사건을 확정하지 않는다. 특히 원역사 보도에는 Hartenstein 부상도 후보였지만, 그는 선택된 대체 Cleveland 명단에 **없다**.
 
@@ -28,6 +29,8 @@ McGee와 Hartenstein이 모두 일반계약으로 원래 팀에 계속 남는다
 | 나머지 실제 계약 경로를 동일하게 둘 때 5/4 Varejão 영입 뒤 | 16+2 관측 | **조건부 16+2**, 17+2가 아님 |
 
 이 비교는 Hartenstein의 건강 여부로 그를 제외하는 게 아니다. 작가가 **그 거래 자체를 생략**했으므로 그는 Denver 소속이다. 다른 Cleveland 계약·의료 사건까지 자동 확정하는 비교도 아니다.
+
+5/9 원역사 18명은 Varejão 영입 뒤의 **두 번째 날짜별 자리 관측**이다. 다른 계약 경로가 그대로라는 조건에서 선택된 McGee 잔류는 Hartenstein과 1대1 치환이며, C1은 그날도 16+2, C2는 Varejão 한 명을 빼 15+2다. 경기책은 원역사 등록·부상 상태의 증거일 뿐 대체 세계의 hardship 허가 기간이나 McGee 출장 가능성을 증명하지 않는다.
 
 | 대체 사건 후보 | 자리·의무 | 다음 검증 |
 |---|---|---|

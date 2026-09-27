@@ -10,6 +10,7 @@
 | 항목 | 근거 | 지금 확정할 수 있는 범위 |
 |---|---|---|
 | 5/4 첫 계약 | [Cleveland 공식 발표](https://www.nba.com/cavaliers/releases/varejao-signing-210504), [NBA 기사](https://www.nba.com/news/report-cavaliers-to-add-veteran-big-anderson-varejao-for-return-tour) | 원역사 **10일 계약** 사실. 개인 계약서·리그 hardship 승인서 원본은 확보하지 못했다. |
+| 5/9 등록·결장 | [DAL@CLE 공식 경기책](https://statsdmz.nba.com/pdfs/20210509/20210509_DALCLE_book.pdf) | Cleveland 박스 12명·inactive 6명으로 총 18명. Thomas·Martin 투웨이 2명을 제외하면 원역사 일반 16명이다. Varejão 16:23 출전, Dellavedova·Nance·Prince·Windler 부상 inactive. 이 날짜의 대체 건강·리그 허가는 별개다. |
 | 5/14 후속·5/16 소속 | [5/14 CLE@WAS](https://statsdmz.nba.com/pdfs/20210514/20210514_CLEWAS_book.pdf)·[5/16 CLE@BKN](https://statsdmz.nba.com/pdfs/20210516/20210516_CLEBKN_book.pdf) 공식 경기책 | Varejão가 두 날 모두 명단에 있다. 5/14 **5:07** 출전, 5/16 감독 선택 DNP. 이 기록만으로 후속 계약 **형식**은 알 수 없다. |
 | 원역사 계약 이력의 2차 표기 | [SalarySwish 선수 계약표](https://www.salaryswish.com/players/anderson-varejao)·[거래표](https://www.salaryswish.com/transactions/players/anderson-varejao) | 5/4~13은 10일 계약, 5/14는 **잔여시즌 veteran 계약**으로 기록한다. 반면 [NBA 선수 페이지의 Rotowire 연동 문구](https://www.nba.com/blazers/player/2760/anderson-varejao)와 [CBS](https://www.cbssports.com/fantasy/basketball/news/cavaliers-anderson-varejao-inks-second-10-day-deal/amp/)는 5/14를 둘째 10일 계약이라고 부른다. 상충하는 **2차 보도**이지 공식 계약서가 아니다. |
 | 적용 규칙 | [NBPA가 제공하는 2017 CBA](https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf) Article II §9(a),(d), §10; Article I §1(ll); Article VII §3(f) | 기본 규칙은 10일/3경기 중 긴 기간, **마지막 정규시즌 경기일까지 걸치는 새 10일 계약 금지**, 잔여시즌 계약 허용, 최저급 일할·베테랑 차액 보전이다. 2020–21 특정 개정의 전문이나 5/14 개인 계약 원본은 확보하지 못했으므로 둘째 계약 형식을 법적 확정으로 올리지 않는다. |
@@ -34,7 +35,7 @@ Varejão의 2016년 Portland 방출 잔액이 [2차 계약표](https://www.salar
 
 | 비용·나비효과 | C1 — Varejão 유지 | C2 — Varejão 영입 생략 |
 |---|---|---|
-| 등록·리그 판단 | McGee/Hartenstein 1대1 잔류 치환 뒤 5/4 일반 **16+투웨이 2**. Hartenstein을 세지 않고 Dellavedova·Nance·Prince·Windler의 결장/계속 결장 전망으로 새 세계 hardship 신청·허가가 필요. 5/14 후속 계약에도 자리/허가 기간 검사 필요 | 기존 계약 경로를 유지하면 5/4 일반 **15+투웨이 2**. Varejão 추가 자리 신청·5/14 새 계약 없음 |
+| 등록·리그 판단 | McGee/Hartenstein 1대1 잔류 치환 뒤 5/4·5/9 일반 **16+투웨이 2**. Hartenstein을 세지 않고 Dellavedova·Nance·Prince·Windler의 결장/계속 결장 전망으로 새 세계 hardship 신청·허가가 필요. 5/14 후속 계약에도 자리/허가 기간 검사 필요 | 다른 계약 경로를 유지하면 5/4·5/9 일반 **15+투웨이 2**. Varejão 추가 자리 신청·5/14 새 계약 없음 |
 | 건강 | 원역사 [5/4](https://statsdmz.nba.com/pdfs/20210504/20210504_PHXCLE_book.pdf)·[5/14](https://statsdmz.nba.com/pdfs/20210514/20210514_CLEWAS_book.pdf)·[5/16](https://statsdmz.nba.com/pdfs/20210516/20210516_CLEBKN_book.pdf)에는 위 네 명이 계속 부상 미출전. 대체 세계도 그런지 A1 달력과 리그 전망을 검증해야 함 | McGee의 출전 가능/체력과 다른 선수의 건강은 여전히 A1 검증 대상. Varejão의 건강·허가 사건은 없음 |
 | 분·경기 | 원역사 Varejão 5출전 **35:56**을 그대로 둘 수 있는 후보. 대체 세계 McGee가 Cleveland에 있다는 효과와 중복 분/실제 감독 선택은 다시 대조 | [C2 5경기 화면](O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)에서 35:56을 McGee에게 추가. 조건부 5인조 5/5, RAPTOR/BPM과 F14F 보수 구간 각 10/10 승패 방향 유지. 실전 건강·최종 시즌 증명은 아님 |
 | 급여·후속 권리 | 위 개인 계약 부분합의 팀 charge **$144,297** 후보, 선수 보수 $228,368. 여타 팀 비용·2021–22 FA hold/권리 포기 `HOLD` | Varejão 신규 비용 없음. 새 대체 계약을 발명하지 않으면 그의 2021–22 Cleveland FA hold도 생기지 않음 |
