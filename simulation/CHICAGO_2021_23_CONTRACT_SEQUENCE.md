@@ -62,6 +62,8 @@ G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **�
 
 [G15AW 계약 종류 분기](../research/O15G15AW_CHICAGO_WIESKAMP_CONTRACT_CLASS_GATE.md)는 원역사 Spurs #41 Wieskamp의 9/7 투웨이와 이 SQ1의 조건부 Chicago #39 **2년 일반계약**을 구분한다. 투웨이 선택 시 최종 일반 14명·첫해 알려진 예산 `−$925,258` 민감도이며, 2022–23 둘째 해 일반계약/RT1~RT4를 그대로 재사용하지 않는다. 본 G8 JSON은 **일반계약 주 경로**의 계산으로 보존한다.
 
+[G15AY 2021 투웨이 자리 검문](../research/O15G15AY_CHICAGO_2021_TWO_WAY_SLOT_SCREEN.md)은 원역사 10/25 Windy City 공지와 10/28 NBA 공식 경기 기록의 Dotson·Cook 두 투웨이와 Simonović 배정을 구분한다. #39를 투웨이로 바꾸면서 Dotson·Cook을 둘 다 투웨이로 유지하는 3자리 안은 불가능하다. 어느 선수가 대체 Chicago에서 실제 서명했는지는 `HOLD`이고, 두 자료로 Chicago NBA 10/20 첫 경기 명단을 소급 인증하지 않는다. SQ3의 12명 미달 중간 normal-cap 차지는 #39 투웨이 전환 즉시 사라지지 않으며, G15AW의 최종 apron 예산 차이와 혼용하지 않는다.
+
 - 2021–22용 P/Carter/Coby rookie option은 이전 행사 기간에 처리돼 있어야 한다. 실제 Coby/Carter 공지는 [2020-12-20](https://www.nba.com/news/bulls-exercise-options-on-white-carter-jr-hutchison)이다. 가상 P의 행사 문서나 이 세계 Hutchison 소속을 그 공지로 인증하지 않는다.
 - Young·Satoransky는 제안된 전액 급여로 유지한다. 무보장/부분보장이라는 표시는 시즌 내내 공짜로 사용할 수 있다는 뜻이 아니다.
 - 사용하지 않는 Porter·Felicio·Temple 등의 FA 권리와 Arcidiacono 옵션/권리를 실제 장부와 대조해 정리한다. 다른 팀에 간 선수의 보류액이나 과거 캠프 비용을 매년 다시 더하지 않는다. 서면 권리 포기와 선수 방출을 구분한다.
