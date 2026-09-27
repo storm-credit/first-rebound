@@ -10,3 +10,5 @@
 Claude의 제한 응답은 원문/JSON 독립 확인이나 G16 감사가 아니다. 위 세 공식 PDF를 세 **역사적 관측 경기**로만 세며, 같은 문서를 여러 도구가 읽은 횟수를 원자료 건수로 부풀리지 않는다. 결과물 단독 source-blind 검수는 이번에 별도로 수행하지 않았다. F5·A1/A3·K_METHOD_EVENTS와 2번 매크로는 계속 `HOLD`; `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
 
 직접 회수한 공식 PDF의 SHA-256: `20210503_DENLAL` `2afee840cc5a9899bb485ea59aa51d8c394e3752fec948109e87c18cd6e5386a`; `20210522_PORDEN` `23362aa3f7b3332e543ea28d25e9aff54d5ddb89d97a29801e71f4e829bc10d1`; `20210523_LALPHX` `f6dea38257ed7d83ea210d1f1e87a7734c38c08dc01eed8c574deed0f81d60ca`. 임시 회수본 자체는 저장소에 추가하지 않는다.
+
+**후속 교정 O-15F14-AV:** 5/23 첫 장의 텍스트 추출은 선수 이름과 분 열을 어긋나게 배치했다. AU 비교표의 `Gasol 7:05`는 잘못된 행 결합이었다. 첫 장을 이미지로 재검토한 [AV](../research/O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)는 Horton-Tucker `7:05`, Gasol 감독 선택 DNP로 바로잡고 팀별 합계 240:00을 검문한다. 이전 AU의 이 선수별 관측 한 항목은 기각하며 대체 시리즈 판정 `HOLD`는 유지한다.
