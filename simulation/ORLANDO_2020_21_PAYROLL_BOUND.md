@@ -63,6 +63,8 @@ PR #163의 Orlando 6계약을 읽고, Cannady 4/6 및 Franks 4/12·4/22의 3계�
 
 당시 MLE 사용 목록은 Ennis $3.3m와 Clark $2m, 합계 **$5.3m**이고 Carter-Williams는 **Early Bird**로 설명한다. Clark 이적 후에도 이미 사용한 MLE 기록은 남긴다. 이 기록과 비납세 MLE $9.258m의 단순 차액을 4월 가용 예외로 쓰지 않는다. 일할 감소·다른 사용 이력이 별도로 필요하다. $5.3m라는 금액만으로 실제 hard-cap 발동을 확정하지 않으며, 이번에는 발동 여부와 별개로 apron에 대조했다. [당시 MLE 사용 목록](https://www.hoopsrumors.com/2020/12/how-teams-are-using-202021-mid-level-exceptions.html)
 
+[F2 MLE 재분류 검문](../research/O15F14AK_ORLANDO_2020_MLE_RECLASSIFICATION_GATE.md)은 2017 CBA VII §6(f)(5)와 보고된 Ennis/Clark 1·2년 계약, 합계 `$5.3m`을 대조한다. 추가 MLE/BAE/수취 sign-and-trade 및 2020 수정 규칙이 없다는 **조건**이면 `$5.718m` 납세 MLE 이하의 두 계약은 apron 초과 거래 시 재분류될 수 있다. 실제 전환이나 hard-cap 부재를 인증하지 않는다.
+
 ## 4. 계약 체결일별 누적 예산
 
 기본 13명·보너스·Birch/Teague 이전 계약 비용은 이 기간에 계속 포함한다. 단기 계약은 체결된 날부터 해당 계약 전체 보수를 포함하고 기간 종료 뒤에도 누적 부담에서 삭제하지 않는다. 5/12 이후 추가 입력이 없어 5/16까지 같은 최고값이다. 아래 첫 금액에도 캠프 외 잔여 미확인 항목은 포함되지 않았다.
