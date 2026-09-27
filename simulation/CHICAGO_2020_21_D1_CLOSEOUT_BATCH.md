@@ -28,6 +28,8 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 [F4 Hall 5월 재계약 생략](../research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md)과 [F5 McGee 거래 생략](../research/O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)을 대체 경로로 추가했고, **작가가 두 생략 방향을 선택**했다. 권위는 [F4/F5 결정 기록](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)이다. F4는 5경기 분·등록 수와 10개 평점 비교를, F5는 Denver/Cleveland 25경기 국소 분 치환과 50개 평점 비교를 기록한다. 위 표는 이제 **선택 경로**를 나타낸다. 원안의 Hall hardship/5월 계약 및 McGee TPE/픽 조항은 각 선별 문서에서 비교 이력으로만 보존한다. 기존 승인 T1~T4는 그대로다. 실행 재검증이 남아 있어 F1~F5 전체 PASS `0/5`, A1~A3 최종 채택 `0/3`, K 종료 `0/4` 판정은 아직 바뀌지 않는다.
 
+[F5 Denver 플레이오프 명단 충돌](../research/O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md)은 원역사 McGee 분의 `11:17`에 Nnaji가 동시 출전한 것을 드러냈다. 선택된 Gordon A 아래 Nnaji는 Orlando로 갔으므로 McGee→Hartenstein 단일 치환이 그 구간에서 무효다. Hartenstein·Bey 이중 치환의 조건부 5인조/역할 검사는 통과했으나, 다른 Nnaji `6:22`와 의료·등록·승패는 F5와 K를 계속 묶는다.
+
 F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 원경기 출전분 초과 없이 5인조·240분·10개 평점 방향을 통과했다. 5/11·13 Wagner의 최소 추가 `3:03`·`6:40`과 Vučević/Nnaji 상한 부하, 전체 계약·후속 등록은 열려 있어 F4/A1/K 판정은 올리지 않는다.
 
 F5 Cleveland의 별도 [Varejão C1/C2 결정 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교한다. C2를 추천하지만 **작가 선택 전 후보**다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.

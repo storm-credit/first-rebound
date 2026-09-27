@@ -33,6 +33,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [F5 Denver 플레이오프 구간 검문](../research/O15F14AC_DENVER_PLAYOFF_NONTRADE_STINT_WITNESS.md)은 원역사 McGee 4경기의 공식 교대 시계를 `33:49`와 맞췄고, 6/13 `19:40` 가운데 퇴장 후 `15:49.3`을 분리했다. 이 초 단위 증인은 M1 동일 슬롯 치환의 비용을 특정하지만 Hartenstein의 건강·실제 5인조·승패 또는 추가 경기의 최종 증거가 아니다.
 
+[F5 Denver 원역사 5인조 겹침 후속](../research/O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md)은 McGee와 선택 경로에서 Orlando로 간 Nnaji의 동시 출전 `11:17`을 확인했다. McGee→Hartenstein 한 명 치환만으로는 그 두 경기 구간의 Denver 명단이 성립하지 않는다. Bey까지 치환한 14개 McGee 시간 구간의 수량·K1 역할 검사는 조건부 통과했으나, McGee와 겹치지 않은 Nnaji 최소 `6:22`와 전체 등록·건강·플레이오프 승패는 `HOLD`다.
+
 [F1 이름 있는 FA 보류액 후속](../research/O15F14AG_CHICAGO_2020_FA_HOLD_FOLLOWUP.md)은 Valentine·Mokoka 재계약과 Strus의 Miami 영입을 공식 연혁에 연결했다. 이 계약 경로에서 세 명의 종전 보류액은 별도 추가하지 않지만, 전체 과거 권리·방출액·미서명 1R·예외/기타 조정과 R은 계속 미확정이다. F1 통과나 `$5,609,972` 한도 증가로 읽지 않는다.
 
 [F1 미서명 1R·출처 한계](../research/O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 구단 가이드의 일부 지명/권리 계약을 확인하고, 2019-01-22 Diebler 2R 권리 누락을 당시 구단 공식 공지와 대조했다. 가이드 무기재는 2021-03-25 **모든** 미서명 1R/거래 예외 0의 증명이 아니다. `UNSIGNED_FIRSTS`, R과 F1은 HOLD다.
