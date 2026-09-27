@@ -27,4 +27,4 @@
 
 명단 밖 `R`은 두 세계에서 같다고 검증되지 않았다. Porter/Carter 잔류, Vučević/Aminu/Brown 미수취, 다른 거래·예외/권리의 차이가 있을 수 있다. 원역사 보관 15인 합계와 거래일 Team Salary 또는 최종 사치세 판정도 동일한 필드가 아니다. 이 차액은 **F1의 알려진 선수 부분을 좁히는 비교**이며 `R=null`, F1 `HOLD`, F1~F5 전체 `0/5`, A1~A3 `0/3`, K 종료 `0/4`를 바꾸지 않는다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`, 원고 금지.
 
-Codex가 구단 발표·보관 표·기존 JSON을 직접 대조하고 세 자리 합계와 15인 차액을 재계산했다. Anti-Gravity·NotebookLM·Claude·별도 source-blind는 이 차액에 대해 `NOT_RUN`이며 원자료 독립 검증으로 세지 않는다.
+Codex가 구단 발표·보관 표·기존 JSON을 직접 대조하고 세 자리 합계와 15인 차액을 재계산했다. [Claude 제한 반박과 CBA 원문 대조](../reviews/R01_O15F14AS_CHICAGO_DELTA_CLAUDE_REBUTTAL.md)는 `R` 미인증 지적을 수용하고 거래 전 팀 전체 급여가 분류의 필수 선행값이라는 지적은 §6(j)(1)과 대조해 기각했다. Claude는 저장소·원자료를 독립 열람하지 않았고, Anti-Gravity·NotebookLM·별도 source-blind는 이 차액에 대해 `NOT_RUN`이다. 새 독립 금액 출처나 F1 PASS로 세지 않는다.
