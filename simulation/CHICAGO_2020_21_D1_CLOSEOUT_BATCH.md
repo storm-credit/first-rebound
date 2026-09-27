@@ -24,6 +24,12 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 위 금액은 각 문서가 정한 **서로 다른 시점·정의의 조건부 여유**다. Chicago의 6(j) 비납세 검사를 다른 세 팀의 apron 검사와 합산하지 않는다. 공개 보도·2차 계약표·산술 시험은 분야별 문서의 출처 등급대로만 사용한다. 실재하지 않는 리그 원장이나 미공개 계약 문구를 만들어 빈칸을 닫지 않는다.
 
+### F4·F5의 대체 사건 선별 — O-15F14-Q
+
+[F4 Hall 5월 재계약 생략](../research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md)과 [F5 McGee 거래 생략](../research/O15F14Q_DENVER_MCGEE_NONTRADE_F5_SCREEN.md)을 대체 경로로 추가했고, **작가가 두 생략 방향을 선택**했다. 권위는 [F4/F5 결정 기록](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)이다. F4는 5경기 분·등록 수와 10개 평점 비교를, F5는 Denver/Cleveland 25경기 국소 분 치환과 50개 평점 비교를 기록한다. 위 F4/F5 표의 hardship/TPE/픽 요구는 **이제 선택되지 않은 원거래 유지 경로**의 조건이다. 선택 경로에서는 이를 면제하는 대신 분·건강·전체 팀 비용·후속 사건을 확인한다. 기존 승인 T1~T4는 그대로다. 실행 재검증이 남아 있어 F1~F5 전체 PASS `0/5`, A1~A3 최종 채택 `0/3`, K 종료 `0/4` 판정은 아직 바뀌지 않는다.
+
+F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2021년 6월 자산 설명](https://www.nba.com/magic/news/orlando-magic-have-great-opportunity-add-several-quality-players-through-draft-next-few-years-20210610)의 검색 색인 문장으로 기존 2차 거래 장부와 대조했다. 이번 접근에서 본문 HTTP 403이므로 **구단 본문 직접 회수로 등급을 올리지 않는다**. 이 대조는 F2의 당일 TPE 사용 가능액·Fournier 전체 charge·다른 자산 의무를 닫지 않는다.
+
 ## 3. 사실 통과 뒤의 최종 채택
 
 | 선택 | 이미 있는 검토안 | 최종 채택 전에 필요한 것 |

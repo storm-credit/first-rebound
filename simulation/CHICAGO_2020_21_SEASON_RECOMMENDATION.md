@@ -6,6 +6,8 @@
 - Orlando 조합 증명: `ORLANDO_2020_21_RETAINED_BACKUP_LINEUPS.json`
 - R1/T1~T4 방향 승인 보존. 원고 CLOSED / manuscript_allowed false.
 
+**2026-09-28 후속:** 아래 Hall 재계약 유지 K1 문구와 JSON은 선택 당시의 계산 이력이다. 작가는 [Hall 5/9 재계약 생략과 McGee 거래 생략](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)을 선택했다. [선택 경로 30경기 국소 브리지](CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json)는 두 평점법 모두 승자 반전 0건이어서 아래 조건부 승수/순위를 보존하지만, 선수 분·건강·전체 실행은 재검증 중이다. Hall 유지 추천을 현행 작가 선택으로 읽지 않는다.
+
 ## 한 가지 추천안
 
 **K1: J1의 Terry 후반 공백, Orlando의 Hall·Wagner 백업 경로 유지, LOW 출전시간 정책, Porter 후반0분, R1 초기28분, 피로0.5, BPM 주판정.** RAPTOR는 교차검사로 둔다. 이는 작가 검토용 작업 추천안이며 미확인 사실을 승인한 정본이 아니다.

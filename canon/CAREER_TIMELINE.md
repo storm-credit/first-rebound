@@ -35,6 +35,8 @@
 | 2020-21 | 3년차 선발 SF/PF, 마감일 전 43경기·43선발·1,219분; BASE 11.42점·7.72리바운드. LaMelo는 18경기 bench 뒤 25선발·1,191분, BASE 13.85점·5.54어시스트. 세 impact BASE의 마감일 전 중심 기록 19~21승·동부 8~10위권. 실제 Vučević 패키지는 거부하고 1R 없는 저비용 센터 시장을 우선, Theis·Green 3팀 5인 거래 총괄 추천 | Minnesota 루키 시즌·정확 역할과 성과 별도 계산 | Chicago 마감일 전 역할·생산성·outcome range PASS / 저비용 방향 AUTHOR_APPROVED / A 거래 PRIMARY_LEAN·AUTHOR_GATE / exact 박스·승수·부상 HOLD |
 | 2023 | NBA 소속팀 허가·보험·캠프 결장 비용을 감수하고 아시안게임 공동 도전 | 같은 대표팀에서 공동 도전 | 참가 경로 LOCK / 최종 명단·경기별 결과·메달 R09 HOLD |
 
+2020–21 후속 사건의 최신 작가 선택: Orlando는 Hall과 2021-05-09 재계약하지 않고, Denver–Cleveland는 McGee/Hartenstein 거래를 실행하지 않는다. [결정 기록](CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)에 한정된 방향 확정이다. 4월 Hall 계약, Theis/Green 및 R1/T1~T4 기존 승인은 보존한다. [30경기 국소 브리지](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json)의 승패 방향 유지가 정확 시즌·건강·플레이오프 확정은 아니다.
+
 ## NBA 상승 방향 — LOCKED / 정확 배정 HOLD
 
 - 주인공은 NBA에서 매 시즌 이전 약점에 대한 새 카운터를 증명하며 수비·리바운드 자원에서 공격 1옵션 투웨이 슈퍼스타로 상승한다.
