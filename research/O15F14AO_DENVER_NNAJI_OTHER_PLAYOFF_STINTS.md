@@ -3,6 +3,8 @@
 - 판정: `THREE_GAME_SECONDARY_LINEUP_CLOCK_AND_NBA_BOX_PASS / F5_HEALTH_SCORE_HOLD`.
 - [재현 JSON](../simulation/DENVER_2021_PLAYOFF_NNAJI_OTHER_STINTS.json)·[도구](../tools/build_denver_2021_playoff_nnaji_other_stints.py)는 앞선 [McGee 동시 출전 11:17](O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md) **밖**의 확인된 Nnaji 세 경기만 다룬다. FOX Sports의 공개 교대·5인조 표기를 시간 자료로 전사하고 NBA 공식 박스의 분으로 검산했다. FOX 교대 표기는 NBA 경기책과 같은 등급의 1차 자료로 올리지 않는다.
 
+**대진 범위:** [K1+L2 대진 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)에서는 Denver–Lakers가 1라운드다. 아래 Portland/Phoenix `6:22`와 종합 `18/18`은 원역사 비교·동일 대진 가정의 조건부 검사다. K1+L2 Denver의 출전분 또는 플레이오프 결과로 채택하지 않는다.
+
 | 원역사 경기 | 공식 NBA 박스 | FOX 4Q 5인조 시작·변경 | 재배정 초 |
 |---|---|---|---:|
 | 5/24 POR | [Nnaji 2:43](https://www.nba.com/game/por-vs-den-0042000162/box-score) | [2:43에 Harrison/Campazzo/Howard/Čančar/Nnaji, 2:17에 Campazzo→Bol](https://www.foxsports.com/nba/boxscore?id=37619&tab=playbyplay) | 26+137=163 |
