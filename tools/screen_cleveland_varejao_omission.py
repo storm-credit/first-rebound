@@ -12,6 +12,7 @@ import screen_denver_mcgee_nontrade as f5
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "simulation/NBA_2020_21_FINAL859_MINUTES.json"
 F5_SCREEN = ROOT / "simulation/DENVER_2020_21_MCGEE_NONTRADE_SCREEN.json"
+FULL_SEASON = ROOT / "simulation/NBA_2020_21_FULL_SEASON.json"
 RATING_FILES = (k.j.f.bi.cc.BPM, k.j.f.bi.cc.paired.RAPTOR)
 GAMES = k.j.bi.lb.sb.GAMES
 OFFICIAL_SECONDS = {
@@ -30,6 +31,9 @@ def digest(path):
 def screen():
     source = json.loads(SOURCE.read_text(encoding="utf-8"))
     prior_f5 = json.loads(F5_SCREEN.read_text(encoding="utf-8"))
+    league = json.loads(FULL_SEASON.read_text(encoding="utf-8"))
+    assert league["stage"] == "O-15F14-F"
+    league_games = {g["event_id"]: g for g in league["game_summary"]}
     old_by_event = {r["event_id"]: r for r in prior_f5["rows"] if r["team"] == "CLE"}
     schedule, _, _, _, _ = k.j.load()
     rating_maps = k.j.f.rating_maps()
@@ -78,10 +82,20 @@ def screen():
                     new_delta[p] = new_delta.get(p, 0) + change
                 fatigue = -sign * .5 * (sum(max(0, n) for n in new_delta.values()) - old_positive) / 2880
             proposed = k.j.cc.band(original_margin + sign * delta + fatigue, terms, envelopes[method])
+            prior_band = league_games[event_id]["method_bands"][method]
+            # An interval sum deliberately retains unknown-rating uncertainty from both screens.
+            # It is an outer bound, not a newly fitted season model.
+            league_plus_c2 = [prior_band[0] + proposed[0] - original_margin,
+                              prior_band[1] + proposed[1] - original_margin]
+            assert f5.direction(league_plus_c2) == f5.direction(prior_band)
             stress.append({"method": method, "actual_home_margin": original_margin,
                            "candidate_home_band": proposed,
+                           "f14f_home_band": prior_band,
+                           "f14f_plus_c2_outer_band": [round(n, 8) for n in league_plus_c2],
                            "actual_direction": f5.direction([original_margin, original_margin]),
                            "candidate_direction": f5.direction(proposed),
+                           "f14f_direction": f5.direction(prior_band),
+                           "f14f_plus_c2_direction": f5.direction(league_plus_c2),
                            "fatigue_adjustment": fatigue,
                            "unrated_delta_players": sorted(delta_terms)})
         rows.append({"event_id": event_id, "varejao_removed_seconds": observed,
@@ -93,9 +107,10 @@ def screen():
     return {"stage": "O-15F14_C2_CLEVELAND_VAREJAO_OMISSION_SCREEN", "selected": False,
             "scope": "five Cleveland regular-season games only; Varejao omission plus selected McGee/Hartenstein nontrade",
             "source_sha256": {str(p.relative_to(ROOT)): digest(p)
-                              for p in (SOURCE, F5_SCREEN, *RATING_FILES, GAMES)},
+                              for p in (SOURCE, F5_SCREEN, FULL_SEASON, *RATING_FILES, GAMES)},
             "rows": rows, "limits": ["health and coaching choice not proved", "conditional role-only lineup witnesses",
-                                  "opponent cascade and other game changes held at actual margin baseline",
+                                  "F14F opponent inputs included by conservative interval addition only",
+                                  "later K1 season inputs and all causal health changes still open",
                                   "rating direction is local, not final season", "C1 hardship path remains open",
                                   "registration, cap, subsequent transactions and playoff effects open"]}
 
