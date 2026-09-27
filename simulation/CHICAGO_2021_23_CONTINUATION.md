@@ -42,6 +42,8 @@ Chicago는 LaMelo(2020 #4)·Carter·주인공을 보유하고, Vučević·Aminu�
 
 G1A 15자리: LaVine·LaMelo·Coby·Carter·Young·Satoransky·주인공·Markkanen·Caruso·Green·#10·#39·백업 C·백업 윙·백업 가드. Porter/Felicio/Valentine/Temple/Arcidiacono의 옛 권리 보유와 마지막 보수는 정리 대상이며, 만료를 그 선수의 은퇴·새 팀 확정으로 쓰지 않는다. Satoransky의 $10m를 벤치라는 이유로 삭제하지 않는다.
 
+이 15자리에는 이미 확정된 2020 #44 지명권자 Simonović의 **2021 일반계약 서명**을 넣지 않았다. [G15AZ의 활성화 검문](../research/O15G15AZ_SIMONOVIC_2021_ACTIVATION_SLOT_GATE.md)은 원역사 8/18 계약을 자동 이월하지 않으면서도, 그를 실제로 데려오면 #39 또는 다른 실명 일반계약 자리와 비용을 교환해야 함을 명시한다. 2020 지명권 자체는 유지한다.
+
 가장 보수적인 G1A에서 미계상 **순증 R≤$35,283,229**이면 위 단순 apron 비교를 통과한다. 정확 R=null이므로 적법성 전체 PASS는 아니다. 모든 안의 낮은 금액은 재계약 협상/예비비가 현실화될 때만 유효하다.
 
 ### Caruso 예외 순서
