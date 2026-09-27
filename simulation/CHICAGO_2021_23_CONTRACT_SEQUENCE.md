@@ -66,6 +66,8 @@ G3의 Bradley `2021-08-11`은 **2차 계약표의 표기일**이고 8/19는 **�
 
 [G15AZ 2020 #44 Simonović의 2021 합류 검문](../research/O15G15AZ_SIMONOVIC_2021_ACTIVATION_SLOT_GATE.md)은 이미 확정된 **지명권**과 원역사 8/18 **계약**을 구분한다. 본 G8의 일반계약 15명에는 Simonović를 넣지 않았다. 2021에도 지명권만 보유하는 후보는 권리·선수 의사가 `HOLD`; 그를 일반계약으로 데려오면 #39 일반계약을 투웨이/미서명으로 바꾸거나 기존 15명 중 다른 실명 한 명의 자리를 빼야 한다. 원역사 배정 기록만으로 이 세계의 합류·급여·NBA 분을 만들지 않는다.
 
+[G15BA Caruso 이후 예외·계약기간 시험](../research/O15G15BA_SIMONOVIC_2021_MLE_AND_CAP_TIMING.md)은 원역사 Simonović의 3년/첫해 `$925,258` **2차 비교값**을 `S1/S2`에 넣는다. 이 금액을 Caruso 제안 `$8.6m` 뒤 남는 NTMLE `$936,000`에서 쓰면 명목 첫해 잔액 `$10,742`이며, G8의 권리 정리 전에 써야 그 **잔액** 경로가 남는다. 별도의 renounce 뒤 cap 공간 3년 경로와 최대 2년 minimum exception 경로도 분리했다. 계약 기간·예외·선수 수락·정확 팀 원장은 여전히 `HOLD`; 기존 G8 JSON은 #39 **일반계약 주 경로** 그대로다.
+
 - 2021–22용 P/Carter/Coby rookie option은 이전 행사 기간에 처리돼 있어야 한다. 실제 Coby/Carter 공지는 [2020-12-20](https://www.nba.com/news/bulls-exercise-options-on-white-carter-jr-hutchison)이다. 가상 P의 행사 문서나 이 세계 Hutchison 소속을 그 공지로 인증하지 않는다.
 - Young·Satoransky는 제안된 전액 급여로 유지한다. 무보장/부분보장이라는 표시는 시즌 내내 공짜로 사용할 수 있다는 뜻이 아니다.
 - 사용하지 않는 Porter·Felicio·Temple 등의 FA 권리와 Arcidiacono 옵션/권리를 실제 장부와 대조해 정리한다. 다른 팀에 간 선수의 보류액이나 과거 캠프 비용을 매년 다시 더하지 않는다. 서면 권리 포기와 선수 방출을 구분한다.

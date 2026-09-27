@@ -41,3 +41,5 @@
 - **작가확정:** 이번 새 선택 0건. 기존 2020 #44 지명권만 유지. Simonović의 2021 합류·Wieskamp 계약·선수 동의·2022 급여와 분·건강·시즌은 `HOLD`.
 
 Codex는 기존 정본 2020 #44와 G8/G7 명단, Chicago 공식 발표·NBA 경기 기록을 직접 대조했다. NotebookLM CLI의 8/18 Chicago URL 추가는 `Could not add url source`로 실패해 새 출처 연결 분석 0건이다. Antigravity CLI는 직전 429 개인 한도 후 새 수집 `NOT_RUN`; 실패를 수집 성공으로 세지 않는다. Claude CLI의 도구 없는 [제한 반증](../reviews/R01_O15G15AZ_SIMONOVIC_SLOT_REBUTTAL.md)은 숫자 1건과 명단 1건을 모순으로 의심했으나 둘 다 원장 대조 후 **표현 명확화**로 처리했다. 새 source-blind는 `NOT_RUN`; 이 문서는 G16 전체 독립 검수나 정확 계약/시즌의 PASS가 아니다. D1 F1~F5 PASS 0/5·A1~A3 0/3·K 종료 0/4, G1A 선수 동의·D2 계약/픽/시즌 `HOLD`, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
+
+Simonović를 실제로 계약하는 `S1/S2` 후보의 2년/3년 비용과 Caruso NTMLE 잔액·renounce 뒤 cap 공간의 **서로 다른 서명 순서**는 [G15BA 후속](O15G15BA_SIMONOVIC_2021_MLE_AND_CAP_TIMING.md)에 둔다. 원역사 2차 급여표의 `M1/M2`가 #39 제안 급여와 동액이어도 선수·계약 기간·예외 사용은 같지 않다.
