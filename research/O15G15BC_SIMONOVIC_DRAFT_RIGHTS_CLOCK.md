@@ -7,7 +7,7 @@
 
 | 시점·자료 | 확인한 사실 | 확인하지 못한 것 |
 |---|---|---|
-| [ABA League, 2020-11-19](https://www.aba-liga.com/news/44140) | 2020 드래프트 #44 Chicago 지명 당시 Simonović가 Mega Soccerbet에서 **임대 중**이었다고 대회 운영자가 보도했다. 이전 Petrol Olimpija 소속 이력을 함께 언급한다. | 임대의 법적 상대방, 원계약·임대계약 원문, 종료일, NBA 이적 제한 조항. |
+| [ABA League, 2020-11-19](https://www.aba-liga.com/news/44140) | 2020 드래프트 #44 Chicago 지명 당시 Simonović가 Mega Soccerbet에서 **임대 중**이었다고 대회 운영자가 보도했다. 이전 Petrol Olimpija 소속 이력을 함께 언급한다. [G15BE의 2018–20 발표·인터뷰](O15G15BE_SIMONOVIC_OLIMPIJA_MEGA_LOAN_CHAIN.md)는 2018 Petrol Olimpija 다년 계약과 Cedevita Olimpija에서 Mega로 온 2년 임대 보도를 추가 확인했다. | 원계약·임대계약 원문, 두 조직의 계약 승계 관계, 정확 종료일, NBA 이적 제한 조항. |
 | [NBA 2020 드래프트 전체 결과](https://www.nba.com/news/2020-nba-draft-results-picks-1-60) | 2020 드래프트가 11월 18일 열렸고 #44가 Chicago의 Simonović였음. | 그해 CBA의 수정된 Required Tender 기한. |
 | [Mega, 2021-08-19](https://www.bcmegabasket.net/en/2021/08/19/simonovic-potpisao-za-cikago-buls/) | Mega는 그가 Chicago와 **2년 계약**을 맺었다고 보도했고, Mega에서 보낸 두 시즌을 회고했다. | NBA 계약서·보장 구조·예외 사용. 2년이 전체 계약기간인지 보장된 기간만 뜻하는지 확정할 근거 없음. |
 | [Bulls, 2021-08-18](https://www.nba.com/bulls/news/bulls-sign-rookies-dosunmu-and-simonovic) | 구단이 원역사 NBA 계약을 발표했으나 조건은 공개하지 않았다. | 실제 서명·리그 접수일, 대체 Chicago의 계약 의사. |
@@ -22,7 +22,7 @@ Mega와 Bulls의 기간 설명은 같은 원역사 계약에 관한 **출처 충
 1. **일반 지명권 규칙:** Article X §4(a),(e)는 2라운드 지명권의 독점 협상과 Required Tender를 연결한다. 구단의 무기한 독점권을 보장하지 않는다. Article I의 Required Tender 정의는 구단이 서명한 1시즌 최저급여 이상 제안과 선수의 수락 기한을 포함한다.
 2. **2020 예외 기한 `HOLD`:** Article X §4(a)의 기본문은 2라운드 Tender를 “Initial Draft 직후의 9월 5일” 직전 2주에 내도록 하고, Article I의 일반 수락 기한은 직후 10월 15일이다. 통상 여름 드래프트를 전제한 이 달력은 실제 **2020-11-18** 드래프트에 그대로 대응하지 않는다. 2020년 9월 날짜를 이미 만료된 의무로 단정하거나 2021년 9월 날짜를 자동 대체 기한으로 확정하지 않는다. NBA/NBPA의 [시즌 조정 발표](https://pr.nba.com/nba-nbpa-2020-21-season/)는 일정·CBA 수정의 존재를 알려주지만 이 선수의 수정 Tender 마감일·제출 기록을 입증하지 않는다.
 3. **해외 계약 경로:** Article X §5는 NBA 독점권이 유지되는 동안, 직후 NBA 시즌 일부를 덮는 기존 비NBA 프로 계약 또는 새 비NBA 계약이 있으면 별도 시계를 둔다. §5(a)는 선수의 유효한 가용 통지 두 형태 중 **더 이른 시점에서 1년**을 계산한다. §5(b),(c)는 7월 1일까지 다음 9월 1일 이후 완전히 가능하다고 통지하고 실제 법적 장애가 없을 때, 구단이 9월 10일까지 Tender를 해야 권리를 유지한다. §5(d)~(f)는 추가 해외 계약, 진정한 NBA 협상 시도와 Tender 여부, 후속 드래프트/FA 결과를 나눠 정한다. [G15BD](O15G15BD_SIMONOVIC_EARLY_ENTRY_2021_DRAFT_CLOCK.md)는 NBA 공식 명단으로 **2020 Early Entry 분류를 확인**하고 §6의 2021 드래프트 경계를 별도 대조한다. §5 실제 충족 조건은 여전히 `HOLD`다.
-4. **Simonović 적용 한계:** ABA의 “임대” 관측은 2020–21 비NBA 프로 관계를 뒷받침하지만, §5가 요구하는 계약이 정확히 어느 NBA 시즌을 덮는지, 선수의 2021 가용 통지가 있었는지, Chicago가 언제 Tender를 냈는지는 공개 자료에서 확인되지 않았다. Bulls가 실제 2021년 그와 계약했다는 **결과만으로**, 서명 직전까지 독점 협상권이 유지됐는지와 어느 법적 경로가 작동했는지 역추정할 수 없다. 대체 Chicago의 2021–22 미서명 권리 존속은 별도 증명이 필요하다.
+4. **Simonović 적용 한계:** [G15BE](O15G15BE_SIMONOVIC_OLIMPIJA_MEGA_LOAN_CHAIN.md)의 2019년 2시즌 합류 발표와 2020년 `임대 1년 더` 선수 발언은 2020–21 Mega 체류의 공개 근거를 강화한다. 그러나 §5가 요구하는 계약의 정확 유효 기간·원계약 승계·완전한 NBA 이적 가능 시점, 선수의 2021 가용 통지, Chicago의 Tender 제출은 공개 자료에서 확인되지 않았다. Bulls가 실제 2021년 그와 계약했다는 **결과만으로**, 서명 직전까지 독점 협상권이 유지됐는지와 어느 법적 경로가 작동했는지 역추정할 수 없다. 대체 Chicago의 2021–22 미서명 권리 존속은 별도 증명이 필요하다.
 
 ## S0~S3에 주는 비용과 다음 입력
 
