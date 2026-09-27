@@ -17,6 +17,8 @@
 
 [Boston의 Fournier 공지](https://www.nba.com/celtics/news/pressrelease/celtics-acquire-evan-fournier)도 Teague와미래2R두장 교환을 확인한다. 기존Orlando 공지와 일치하지만 이Boston 공지는 정확 픽연도나TPE금액을 명시하지 않는다. 기존 [Fournier 거래 장부](https://www.salaryswish.com/trades/players/evan-fournier)의 최종2025 순번/선수 결과는 복사하지 않는다.
 
+[Orlando 구단의 2021년 6월 픽 보유 기사](https://www.nba.com/magic/news/orlando-magic-have-great-opportunity-add-several-quality-players-through-draft-next-few-years-20210610)는 **거래 후 원역사 스냅샷**으로 2025 BOS/MEM 중 뒤 2R과 BOS 2027 2R을 직접 열거한다. 같은 기사에서 DEN 2025 1R의 top5 보호도 확인된다. 이는 이전 2차 장부의 픽 **출처·연도·선택규칙 및 2025 보호 첫해**를 구단 1차 기사로 보강하지만, BOS 2027의 전체 보호/우선권, 3/25 당시 모든 선행 의무, DEN의 2026–27 연결·미전달 종료 원계약을 포함하지 않는다. 기사 시점의 원역사 보유를 대체 세계 미래 전달 결과로 복사하지 않는다.
+
 `less favorable`는 숫자가 더 큰 뒤 지명이다. 예시 BOS60/MEM31이면ORL에BOS60, 반대면MEM60이다. 이는 선택 규칙의 시험이며 미래성적·동률추첨·최종순번이 아니다. 아직 순번이 없으면 결과는null이다. 서로 같은 최종순번을 입력하거나1R순번을 넣으면 거부한다. 동률승수를 최종순번으로 대신하지 않는다.
 
 ## 2. TPE 사용과11.05m 잔액의 의미
