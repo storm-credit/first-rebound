@@ -1139,3 +1139,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-W — C1의 5/3 동시대 부상 보고서
 
 [Cleveland hardship 검문](research/O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)에 공식 5/1 경기책과 NBA 5/3 20:30 ET 부상 보고서를 추가했다. Hartenstein을 빼고도 Dellavedova·Nance·Prince·Windler **네 명의 4연속 부상 결장**과 5/3 현재 다음 5/4 경기 `Out`은 원역사 공식 자료로 확인된다. 이것은 C1 hardship 후보의 자료 강도를 높이지만, A1 대체 건강·각 선수의 장래 예후에 대한 **새 세계 리그 판단/허가**를 대신하지 않는다. C1/C2 모두 후보, F5와 K 등록/거래 `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
+
+## O-15F14-X — C2의 5경기 국소 5인조·평점 확장
+
+[C2 검문](research/O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)의 [재현 화면](simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json)은 원역사 Varejão 35:56을 McGee에게 조건부 배분하고, 5/5·7 기존 Hartenstein→McGee 분과 결합했다. 원 선발을 보존한 역할별 **5인조 해 5/5**, RAPTOR/BPM의 **국소 승패 방향 10/10 유지**를 확인했다. 특히 5/12 Cleveland 원역사 +8은 BPM 후보 홈 구간 +7.49~+8.20이다. 이 화면은 원역사 점수차와 상대팀 다른 사건을 고정했고 BPM Varejão 미평점에는 경험적 범위를 사용했다. 건강, coaching, 전체 Cleveland 등록/급여, Denver 플레이오프, 시즌 나비효과는 인증하지 않는다. Varejão C1/C2 선택 0건, F5·A1·K `HOLD`, F `0/5`, A `0/3`, K `0/4`; 7행 1완료·1진행·5대기·미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.
