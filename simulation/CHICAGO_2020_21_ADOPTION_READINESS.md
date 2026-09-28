@@ -49,6 +49,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [F038/L2 대진 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)는 4/15 Boston–Lakers 반전 한 건만으로 Denver 3–Dallas 6이 되고, 2/14 Lakers–Denver 반전 한 건은 Denver 4–Lakers 5로 같은 상대라도 다음 라운드 갈래를 바꿈을 검산했다. 건강·코칭·경기 결과는 미선택이다. F5/K_METHOD_EVENTS를 닫기 전에 A1 선행 사건과 최종 시드를 함께 재산출해야 한다.
 
+AX 후속은 두 사건의 `홈_원정` ID를 기준 원경기와 직접 맞추고, Davis 원역사 결장 30경기 14–16과 3/20 LeBron 별도 발목 사건을 재집계했다. F038은 이 30경기의 승패를 바꾼 적이 없다. A1이 건강 경로를 달리 택하면 변경된 날짜만이 아니라 Lakers 순위·상대 승수·Denver의 첫 대진을 다시 산출한다. [AX 근거·16패 원장](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)은 가용성이나 경기 반전을 확정하지 않는다.
+
 [F1 이름 있는 FA 보류액 후속](../research/O15F14AG_CHICAGO_2020_FA_HOLD_FOLLOWUP.md)은 Valentine·Mokoka 재계약과 Strus의 Miami 영입을 공식 연혁에 연결했다. 이 계약 경로에서 세 명의 종전 보류액은 별도 추가하지 않지만, 전체 과거 권리·방출액·미서명 1R·예외/기타 조정과 R은 계속 미확정이다. F1 통과나 `$5,609,972` 한도 증가로 읽지 않는다.
 
 [F1 미서명 1R·출처 한계](../research/O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 구단 가이드의 일부 지명/권리 계약을 확인하고, 2019-01-22 Diebler 2R 권리 누락을 당시 구단 공식 공지와 대조했다. 가이드 무기재는 2021-03-25 **모든** 미서명 1R/거래 예외 0의 증명이 아니다. `UNSIGNED_FIRSTS`, R과 F1은 HOLD다.

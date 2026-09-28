@@ -2,6 +2,129 @@
   "status": "STRUCTURAL_STRESS_ONLY_NOT_SELECTED",
   "source_season_case": "F038",
   "source_playin_proposal": "L2",
+  "historical_davis_absence_window": {
+    "status": "HISTORICAL_SCHEDULE_ONLY_NOT_ALTERNATE_HEALTH",
+    "first_absent_game": "2021-02-16_MIN_LAL",
+    "last_absent_game": "2021-04-19_LAL_UTA",
+    "games": 30,
+    "lakers_wins": 14,
+    "lakers_losses": 16,
+    "f038_changed_game_ids_in_window": [],
+    "before_march20_james_injury": {
+      "games": 13,
+      "wins": 7,
+      "losses": 6
+    },
+    "march20_atl_james_injury_game": {
+      "event_id": "2021-03-20_LAL_ATL",
+      "date": "2021-03-20",
+      "opponent": "ATL",
+      "lakers_margin": -5
+    },
+    "after_march20_james_injury": {
+      "games": 16,
+      "wins": 7,
+      "losses": 9
+    },
+    "original_losses": [
+      {
+        "event_id": "2021-02-18_LAL_BKN",
+        "date": "2021-02-18",
+        "opponent": "BKN",
+        "lakers_margin": -11
+      },
+      {
+        "event_id": "2021-02-20_LAL_MIA",
+        "date": "2021-02-20",
+        "opponent": "MIA",
+        "lakers_margin": -2
+      },
+      {
+        "event_id": "2021-02-22_LAL_WAS",
+        "date": "2021-02-22",
+        "opponent": "WAS",
+        "lakers_margin": -3
+      },
+      {
+        "event_id": "2021-02-24_UTA_LAL",
+        "date": "2021-02-24",
+        "opponent": "UTA",
+        "lakers_margin": -25
+      },
+      {
+        "event_id": "2021-03-02_LAL_PHX",
+        "date": "2021-03-02",
+        "opponent": "PHX",
+        "lakers_margin": -10
+      },
+      {
+        "event_id": "2021-03-03_SAC_LAL",
+        "date": "2021-03-03",
+        "opponent": "SAC",
+        "lakers_margin": -3
+      },
+      {
+        "event_id": "2021-03-20_LAL_ATL",
+        "date": "2021-03-20",
+        "opponent": "ATL",
+        "lakers_margin": -5
+      },
+      {
+        "event_id": "2021-03-21_PHX_LAL",
+        "date": "2021-03-21",
+        "opponent": "PHX",
+        "lakers_margin": -17
+      },
+      {
+        "event_id": "2021-03-23_NOP_LAL",
+        "date": "2021-03-23",
+        "opponent": "NOP",
+        "lakers_margin": -17
+      },
+      {
+        "event_id": "2021-03-25_LAL_PHI",
+        "date": "2021-03-25",
+        "opponent": "PHI",
+        "lakers_margin": -8
+      },
+      {
+        "event_id": "2021-03-31_LAL_MIL",
+        "date": "2021-03-31",
+        "opponent": "MIL",
+        "lakers_margin": -15
+      },
+      {
+        "event_id": "2021-04-04_LAC_LAL",
+        "date": "2021-04-04",
+        "opponent": "LAC",
+        "lakers_margin": -18
+      },
+      {
+        "event_id": "2021-04-08_MIA_LAL",
+        "date": "2021-04-08",
+        "opponent": "MIA",
+        "lakers_margin": -6
+      },
+      {
+        "event_id": "2021-04-12_NYK_LAL",
+        "date": "2021-04-12",
+        "opponent": "NYK",
+        "lakers_margin": -15
+      },
+      {
+        "event_id": "2021-04-15_LAL_BOS",
+        "date": "2021-04-15",
+        "opponent": "BOS",
+        "lakers_margin": -8
+      },
+      {
+        "event_id": "2021-04-19_LAL_UTA",
+        "date": "2021-04-19",
+        "opponent": "UTA",
+        "lakers_margin": -14
+      }
+    ]
+  },
   "scope": "one game winner reversed, all other F038/L2 results held fixed",
   "tie_policy": "original F038 order retained only for unchanged win ties; no newly tied changed team allowed",
   "health_or_coaching_inferred": false,
@@ -10,6 +133,7 @@
     {
       "id": "F038_L2_BASE",
       "flipped_game": null,
+      "original_game": null,
       "win_deltas": {},
       "conferences": {
         "east": {
@@ -167,8 +291,14 @@
       }
     },
     {
-      "id": "APR15_BOS_LAL_FLIP_ONLY",
-      "flipped_game": "2021-04-15_BOS_LAL",
+      "id": "APR15_LAL_BOS_FLIP_ONLY",
+      "flipped_game": "2021-04-15_LAL_BOS",
+      "original_game": {
+        "home": "LAL",
+        "away": "BOS",
+        "home_score": 113,
+        "away_score": 121
+      },
       "win_deltas": {
         "BOS": -1,
         "LAL": 1
@@ -329,8 +459,14 @@
       }
     },
     {
-      "id": "FEB14_LAL_DEN_FLIP_ONLY",
-      "flipped_game": "2021-02-14_LAL_DEN",
+      "id": "FEB14_DEN_LAL_FLIP_ONLY",
+      "flipped_game": "2021-02-14_DEN_LAL",
+      "original_game": {
+        "home": "DEN",
+        "away": "LAL",
+        "home_score": 122,
+        "away_score": 105
+      },
       "win_deltas": {
         "DEN": -1,
         "LAL": 1

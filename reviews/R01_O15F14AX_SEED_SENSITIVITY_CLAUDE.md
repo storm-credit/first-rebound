@@ -12,3 +12,5 @@
 | 반전 가정은 Davis 건강·경기 점수·플레이오프 승자를 증명하지 않음 | **수용.** A1/F5/K의 `HOLD` 유지. |
 
 Codex는 [2/14](https://statsdmz.nba.com/pdfs/20210214/20210214_LALDEN_book.pdf)·[4/15](https://statsdmz.nba.com/pdfs/20210415/20210415_BOSLAL_book.pdf) NBA 공식 경기책과 F038/L2 저장소 입력을 별도로 확인했다. Claude가 동일 원자료를 다시 읽은 것은 아니며, 이번 검수 수를 NBA 출처 증가나 `G16 PASS`로 세지 않는다. 결과 판정: **두 반전 산술 수용, 과장된 동률 설명 기각, 건강/결과 HOLD**.
+
+**검수 범위의 누락:** Claude에는 날짜·팀만 주고 저장소의 `날짜_홈_원정` 사건 ID를 주지 않아 PR #311 JSON의 뒤집힌 ID를 발견하지 못했다. [생성기 교정](../tools/build_chicago_2020_21_k1_l2_seed_sensitivity.py)은 CSV의 홈·원정·원점수와 F038 `game_summary`에 실재하는 ID를 함께 검사한다. 이전 검토를 소스 연결 전체의 독립 PASS로 부르지 않는다.
