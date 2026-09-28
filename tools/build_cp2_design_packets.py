@@ -17,7 +17,7 @@ REPORT = 'reviews/O15G2_INTEGRITY_REPORT.json'
 
 
 def load(path, root=ROOT):
-    return json.loads((root / path).read_text())
+    return json.loads((root / path).read_text(encoding='utf-8'))
 
 
 def sha(path, root=ROOT):
@@ -244,7 +244,7 @@ def main():
                   manuscript_allowed=False, errors=errors)
     if not args.check and not errors:
         for path, data in [(PACKS, samples), (REPORT, report)]:
-            (ROOT / path).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+            (ROOT / path).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False))
     if errors:
         raise SystemExit(1)
