@@ -32,6 +32,8 @@
 
 [AZ의 30경기 원장 결합](O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md)은 이 30개를 F038의 859경기 부분 26개·선행 Remaining 3개·Boundary 1개에 각각 연결하고 두 평점법의 기존 승자 유지 30/30을 검산했다. 따라서 859경기 `game_summary`만 보고 네 경기가 미계산됐다고 해석하지 않는다. 3/28 Orlando 상대 원역사 +3점은 기존 조건부 입력에서 Lakers 약 +1점대로 좁아지지만 Davis 건강을 변경한 계산은 아니다.
 
+[BA 3/20 접촉 검문](O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md)은 원역사 LeBron 부상 상대가 Atlanta의 Solomon Hill임을 확인했다. Hill의 원역사 영입/출전과 대체 세계의 동일 포제션·LeBron 건강을 분리하며, 이 사건도 Lakers 시드와 Denver 첫 상대의 A1 선행 입력으로 둔다.
+
 ## 인과 판정과 다음 작업
 
 **추론:** 대체 Denver는 원역사 2월 로스터의 Hampton 분을 가질 수 없으므로 2/14 경기 전체와 Davis 재악화의 동일 재현을 당연시할 수 없다. 다만 [AY의 공식 플레이바이플레이 재구성](O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md)에서 원역사 **2:39 Davis–Jokić 접촉 당시 Denver 코트 5명에는 Hampton·Nnaji가 모두 없었다.** Hampton의 Dallas행 자체가 그 장면의 선수 신원을 직접 제거하지는 않는다. 앞선 경기 흐름과 의료 달력은 달라질 수 있어 **재부상 유지·회피나 Lakers의 추가 승리 어느 쪽도 자동 사실이 아니다**. 4/15은 Davis가 원역사에 빠진 실제 패배 중 하나라서 *대진 경계 시험*에 적합하지만, 그날 James·Drummond도 결장했고 Boston이 121점을 냈다. Davis 한 명의 복귀가 8점 차를 뒤집는다는 예측으로 읽지 않는다.
