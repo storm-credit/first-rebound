@@ -22,6 +22,8 @@
 
 [Davis 결장 창 30경기 접촉 원장](../research/O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md)은 F038 859경기 부분 26개·선행 Remaining 3개·Boundary 1개에서 원역사 14–16과 조건부 승자 유지 30/30을 재현했다. F038 변경 경기와의 교집합은 0이지만, Davis 건강을 바꾸는 A1 달력은 아직 시험하지 않았다.
 
+[3/20 LeBron–Hill 접촉 검문](../research/O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md)은 NBA 보도·공식 박스에서 원역사 접촉 당사자와 Hill 18:25/James 10:36을 확인했다. Atlanta의 Hill 원역사 영입과 활성 Chicago 세계선의 정확 포제션·후속 건강을 구분한다. F038의 Lakers −5 유지 계산은 건강 대체 분기를 시험하지 않았으므로 A1·F5 종료 수는 그대로다.
+
 [대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.

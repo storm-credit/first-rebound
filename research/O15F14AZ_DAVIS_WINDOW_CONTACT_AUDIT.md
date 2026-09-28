@@ -33,6 +33,8 @@
 
 [NBA의 LeBron 3/20 부상 보도](https://www.nba.com/news/lebron-james-leaves-lakers-game-with-right-ankle-injury-will-not-return)는 Davis 창 안의 **별도 사건**이다. A1에서 2/14 Davis 재악화·30경기 가용성 중 하나라도 달라지면 이 30개 경기의 날짜별 Lakers 5인조·상대 입력·승패를 새로 계산하고, LeBron 사건은 독립 분기로 검문해야 한다. 변경 결과를 [AX의 서부 시드·Denver 첫 상대](O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)에 다시 입력한다. 현행 F038 결과 0/30 변경은 건강 변경안을 통과시키는 근거가 아니다.
 
+[BA 후속](O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md)은 원역사 3/20 접촉 당사자가 Atlanta의 Solomon Hill임을 확인했다. 두 부상은 별도 사건이지만 대체 세계의 3/20 로스터·포제션과 Davis 선행 가용성은 서로 독립이라는 뜻이 아니다. F038의 Atlanta전 Lakers `−5` 유지도 LeBron 건강 대체안의 검산이 아니다.
+
 **분류:** NBA 부상 보도·기준 경기 점수는 원역사 **사실**. 세 저장소 원장의 구간·승자 유지는 기존 **조건부 계산**. 건강 분기·30경기 새 결과는 **후보 미산출**, **작가확정 0**. F5/A1/A3·K_HEALTH/K_METHOD_EVENTS는 `HOLD`, F `0/5`·A `0/3`·K `0/4`, `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`.
 
 Codex가 NBA 보도와 1080경기 기준 CSV·세 조건부 게임 원장을 직접 대조하고 생성기를 실행했다. 이 국소 검문에서 Anti-Gravity·NotebookLM·Claude·source-blind 독립 검수는 `NOT_RUN`; 전체 G16 검수로 세지 않는다.
