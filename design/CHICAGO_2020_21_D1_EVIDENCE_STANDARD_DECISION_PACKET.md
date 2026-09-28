@@ -1,7 +1,7 @@
 # Chicago 2020–21 D1 종료 증거 기준 — 작가 결정 패킷
 
 - 상태: `AUTHOR_CHOICE_PENDING / NO_GATE_CHANGE`. 이 문서는 선택지를 제시할 뿐 기존 종료 조건을 바꾸지 않는다.
-- 기준: `main` PR #305 이후 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md), [7행 로드맵](WORLD_BIBLE_COMPLETION_ROADMAP.md), [설계 게이트](../control/DESIGN_GATE.md).
+- 기준: `main` PR #312 이후 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md), [7행 로드맵](WORLD_BIBLE_COMPLETION_ROADMAP.md), [설계 게이트](../control/DESIGN_GATE.md).
 - 변경 불가 전제: Chicago 원클럽, 2020 Draft 잠금, Theis/Green 및 T1~T4 승인 방향, Hall 5/9 재계약 생략, McGee/Hartenstein 거래 생략. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
 
 ## 지금 결정이 필요한 이유
@@ -16,19 +16,19 @@ D1의 현재 정의는 F1~F5 **정확 실행 PASS 5/5**, A1~A3 **최종 채택 3
 | F2 Boston/Orlando | 원역사 Fournier의 Hayward TPE 경로와 선수/2R 방향, Orlando 3/25~27 일반 자리 산술. [D1 표](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md). | Boston 당일 TPE 가용액·다른 사용·픽 우선권, Orlando 거래 순서와 정확 비용/예외·후속 등록. 원역사 거래 승인을 대체 명단의 승인서로 복사할 수 없다. |
 | F3 Denver/Orlando | 승인된 Gordon A의 선수 방향과 보호 1R 보도·조건부 급여 화면. [실행 조건](../simulation/ORLANDO_DENVER_2021_EXECUTION_CONDITIONS.md). | 2020 Hampton 취득의 선행 1R이 전달·전환·소멸되는 각 분기와 Gordon 후행 1R의 정확 연결 문구, 양 팀 적용 charge/픽 가용성. |
 | F4 Orlando Hall | 작가가 5/9 재계약을 생략해 5경기 일반 **15+투웨이 2**가 됨. 원경기 노출 상한을 쓴 5경기·두 평점법 국소 승자 반전 0. [5경기 부하](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md). | 5/11·13 Wagner 추가 `3:03`·`6:40`, Vučević/Nnaji 연속 상한과 이후 건강/감독 선택, Orlando 전체 적용 비용·미포함 부담. 원경기 출전은 대체 의료 허가가 아니다. |
-| F5 Denver/Cleveland | 작가가 거래를 생략해 McGee CLE·Hartenstein DEN 잔류. Denver 11·Cleveland 14 정규시즌 국소 분과 2021 Denver 플레이오프 교대 충돌을 검문. [선택 브리지](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md). | Cleveland 5월 Varejão 유지 C1/생략 C2 **작가 선택 대기**, Denver 플레이오프 건강·5인조·후속 자산/비용과 리그 전체 승패. [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md). |
+| F5 Denver/Cleveland | 작가가 거래를 생략해 McGee CLE·Hartenstein DEN 잔류. Denver 11·Cleveland 14 정규시즌 국소 분과 2021 Denver 플레이오프 교대 충돌을 검문. [선택 브리지](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md). | Cleveland 5월 Varejão 유지 C1/생략 C2 **작가 선택 대기**, Denver 플레이오프 건강·5인조·후속 자산/비용과 리그 전체 승패. F038의 Denver–Lakers 3–6 대진은 Davis 건강 사건과 Lakers 승수가 유지될 때만 성립. [A1 대진 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)·[C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md). |
 
 ## 상호 배타적 종료 기준 선택
 
 | 선택 | D1 판정 방법 | 실제 진행·나비효과 비용 |
 |---|---|---|
 | **S0 — 현행 정확 증거 기준 유지** | F1~F5의 기존 `PASS` 정의를 유지한다. 공개 원문으로 인증하지 못한 필드는 `null/HOLD`이며 2번은 종료하지 않는다. | 사실 등급이 가장 엄격하다. 비공개 리그/구단 장부나 원계약 문구가 없으면 종료 시점은 정할 수 없다. 승인된 CP2의 2021–23 작업은 조건부로 계속할 수 있으나 2021 시즌·추첨·계약은 정본 승격 불가. 원고 게이트는 계속 CLOSED. |
-| **S1 — 명시적 대체세계 가정과 공개 검산 기준으로 D1 재정의** | 작가가 `R` 상한·거래/픽 조항·건강/코칭 등 공개로 인증 불가능한 **대체세계 입력**을 사실처럼 위장하지 않는 조건에서 승인한다. 각 F는 공개 CBA·원역사·기계 재현과 충돌하지 않는 **조건부 실행 증인**을 요구하며, 리그 승인서가 없는 항목은 `MODELED/ASSUMED`로 별도 남긴다. `EXACT_PASS`라는 이름은 사용하지 않는다. | 2번 종료를 위한 실행 가능한 경로가 생길 수 있지만 법적·의학적 **정확 인증의 강도는 낮아진다**. 가정이 바뀌면 1080경기 연결, 상대 승패·플레이인·lottery, 2021–23 계약과 장기 시즌 후손을 재검산해야 한다. A1/A3의 단일 사건 채택, Varejão C1/C2 및 G16/G17 등 다른 작가 선택은 자동 통과하지 않는다. 원고 게이트는 계속 CLOSED. |
-| **S2 — 법적 금액은 구간 증명, 반사실 사건은 명시적 설계 선택** | 모든 F의 계약·등록·픽·CBA 필드에는 닫힌 상·하한 또는 원문을 요구한다. 산출 구간 **전체가** 허용 범위 안에 있을 때만 그 법적 필드를 통과시키며, `R=null`처럼 상한이 없으면 계속 `HOLD`다. 원리상 관측 불가능한 **대체세계 건강·감독/프런트 선택**만 별도 `AUTHOR_MODELED`로 잠근다. 두 증거 등급을 각 F와 K에 따로 표시한다. | 리그 내부 승인서가 없더라도 충분히 보수적인 법적 증명이 가능하면 2번을 닫을 수 있다. 현재 F1 `R`, F2 예외/픽, F3 선행·후행 픽의 닫힌 구간은 아직 없으므로 이 선택만으로 진척 수가 오르지 않는다. 각 구간의 최악 조합과 건강 분기의 1080경기·플레이인·lottery·2021–23 후손을 재검산해야 한다. 원고 게이트는 계속 CLOSED. |
+| **S1 — 명시적 대체세계 가정과 공개 검산 기준으로 D1 재정의** | 작가가 `R` 상한·거래/픽 조항·건강/코칭 등 공개로 인증 불가능한 **대체세계 입력**을 사실처럼 위장하지 않는 조건에서 승인한다. 각 F는 공개 CBA·원역사·기계 재현과 충돌하지 않는 **조건부 실행 증인**을 요구하며, 리그 승인서가 없는 항목은 `MODELED/ASSUMED`로 별도 남긴다. `EXACT_PASS`라는 이름은 사용하지 않는다. | 2번 종료를 위한 실행 가능한 경로가 생길 수 있지만 법적·의학적 **정확 인증의 강도는 낮아진다**. 가정이 바뀌면 1080경기 연결, 상대 승패·플레이인·lottery, 2021–23 계약과 장기 시즌 후손을 재검산해야 한다. 특히 Davis 건강을 바꾸면 원역사 결장 30경기와 3/20 LeBron 별도 사건을 날짜별로 검문한다. A1/A3의 단일 사건 채택, Varejão C1/C2 및 G16/G17 등 다른 작가 선택은 자동 통과하지 않는다. 원고 게이트는 계속 CLOSED. |
+| **S2 — 법적 금액은 구간 증명, 반사실 사건은 명시적 설계 선택** | 모든 F의 계약·등록·픽·CBA 필드에는 닫힌 상·하한 또는 원문을 요구한다. 산출 구간 **전체가** 허용 범위 안에 있을 때만 그 법적 필드를 통과시키며, `R=null`처럼 상한이 없으면 계속 `HOLD`다. 원리상 관측 불가능한 **대체세계 건강·감독/프런트 선택**만 별도 `AUTHOR_MODELED`로 잠근다. 두 증거 등급을 각 F와 K에 따로 표시한다. | 리그 내부 승인서가 없더라도 충분히 보수적인 법적 증명이 가능하면 2번을 닫을 수 있다. 현재 F1 `R`, F2 예외/픽, F3 선행·후행 픽의 닫힌 구간은 아직 없으므로 이 선택만으로 진척 수가 오르지 않는다. 각 구간의 최악 조합과 건강 분기의 1080경기·플레이인·lottery·2021–23 후손을 재검산해야 한다. Davis의 30경기 결장 창과 LeBron 3/20 사건은 따로 선택/검증한다. 원고 게이트는 계속 CLOSED. |
 
 **추천: S2.** 원역사의 법적 제약은 허용 구간 전체를 검산하고, 관측할 수 없는 대체세계의 건강·코칭은 작품의 명시적 선택으로 다룬다. S2에서도 현재 `R=null`을 임의의 0이나 작은 수로 넣어 F1을 통과시킬 수 없다. 이 선택만으로 2번을 완료 처리하지 않으며, 각 구간의 최악 비용·계약 적법성 반례·선수 분/5인조/승패·픽 연쇄를 통과시킨 뒤에만 단일 시즌을 채택한다. S0는 현행 엄격도를 유지하고, S1은 법적 필드에도 가정을 허용해 더 빨리 진행할 수 있지만 검증 강도가 낮다. S1/S2 승인 시 `D1_CLOSEOUT_BATCH`, `ADOPTION_READINESS`, 7행 로드맵의 종료 문구를 **별도 PR**로 변경하고, 그 후 재현·독립검수와 작가 선택을 진행한다. S0 승인 시 기준은 그대로이며 누락된 원자료가 발견된 항목만 다시 조사한다.
 
-**F5 대진 보정:** [K1+L2 대진 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 Denver 1라운드는 Lakers 상대다. 위에서 언급한 원역사 Denver–Portland→Phoenix 교대 검문은 K1+L2 실행 증거가 아니다. S0/S1/S2 어느 기준을 택해도 실제 후보 Denver–Lakers 건강·분·승패와 후속 대진 검증은 남는다.
+**F5 대진 보정:** [K1+L2 고정 입력](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 Denver 1라운드는 Lakers 3–6 상대다. 원역사 Denver–Portland→Phoenix 교대 검문은 그 대진의 실행 증거가 아니다. [새 AX 검문](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)에서 원역사 Davis 결장 30경기 14–16을 확인했고, F038은 이 30경기 결과를 변경하지 않았다. 4/15 Lakers 패배 한 건의 반전만 가정해도 Denver 상대가 Dallas 3–6으로 바뀐다. 반전은 승패 예측이 아니다. S0/S1/S2 어느 기준에서도 A1 건강 사건→정규시즌 승수·시드→첫 대진·시리즈 분/승패→다음 라운드 순으로 검증해야 한다. S2 선택은 Davis 결장 유지나 회피를 자동 승인하지 않는다.
 
 ## 작가에게 필요한 결정
 

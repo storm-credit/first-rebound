@@ -1216,3 +1216,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 AX 원자료 연결 교정: 첫 JSON의 2/14·4/15 사건 ID는 원정·홈 순서가 뒤집혀 있었다. [재현 도구](tools/build_chicago_2020_21_k1_l2_seed_sensitivity.py)가 실제 기준 CSV의 `2021-02-14_DEN_LAL`, `2021-04-15_LAL_BOS` 행과 원점수·원승자를 검사하도록 고쳤다. 반전 승수·대진 산술은 불변이고, 이전 잘못된 ID 표기는 폐기한다. Claude의 숫자 검토는 이 식별자를 검사하지 않았음을 [범위 기록](reviews/R01_O15F14AX_SEED_SENSITIVITY_CLAUDE.md)에 명시했다. F/A/K와 freeze/CLOSED 판정은 불변이다.
 
 AX A1 건강 창 후속: [NBA 4/22 Davis 복귀 보도](https://www.nba.com/news/lakers-anthony-davis-ends-30-game-injury-absence-against-mavs)의 원역사 30경기 14–16을 [기준 경기 CSV](simulation/NBA_2020_21_REGULAR_GAME_BASELINE.csv)로 재현했다. 3/20 LeBron 별도 발목 사건 전 13경기 7–6, 당일 Atlanta 패배, 이후 16경기 7–9이다. F038에서 이 30경기의 결과 변경은 0건이다. [AX JSON](simulation/CHICAGO_2020_21_K1_L2_SEED_SENSITIVITY.json)은 16패의 날짜·상대·원점수차를 보존한다. Davis 건강 분기와 LeBron 사건은 별개 입력이며 16패의 자동 반전·Denver–Lakers 대진 확정은 금지. F5/A1/A3·K_HEALTH/K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개, freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+## O-15F14-AY — 대기 중 작가 선택 패킷의 A1 대진 비용 동기화
+
+[D1 증거 기준 S0/S1/S2 선택서](design/CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [Cleveland Varejão C1/C2 선택서](research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)에 AX의 30경기 Davis 건강 창·3/20 LeBron 별도 사건·한 경기 반전 시 Denver 상대 변경 비용을 연결했다. F038 고정의 Denver–Lakers 3–6만 현재 재현 대진이며, S2나 C2를 선택해도 Davis 건강·최종 시드/시리즈를 자동 채택하지 않는다. 두 선택서는 계속 **작가 결정 대기**, 권고는 S2/C2, 신규 작가확정 0건이다. F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/미완료 6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED` 유지.

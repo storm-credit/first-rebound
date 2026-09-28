@@ -18,6 +18,8 @@
 
 [A1 경기 반전 대진 검문](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)은 F038의 4/15 Lakers 한 승 추가만으로 Denver 상대가 Dallas로 바뀌고, 2/14 DEN–LAL 한 승 교환은 같은 두 팀의 시드를 4–5로 옮겨 2라운드 갈래를 바꾼다는 구조 민감도를 보였다. 둘 다 미선택 후보이며 기존 3–6 대진은 F038 고정 조건에서만 유효하다. 게이트 종료 수는 바뀌지 않는다.
 
+[대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
+
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
 현재 대학 구간, 인물 핵심 성장축, Chicago 원클럽 방향, 2018-20 역할선과 2019·2020 lottery, 2020 Draft 1~60순위가 정본화됐다. Chicago 2020-21 전반 분·생산성과 19~21승 중심 범위가 통과했고 Theis·Green 3팀 5인 선수 이동 A는 작가 승인됐다. O-15F10까지 후반 조건부 분·5인 조합과 Carter/LaMelo 단독 공백 대응, 상대39조건·두 영향 계열의후반2106조건, 전반18접촉(10벡터·8미배정)과43+29 연결 진단을 검산했다. 전반1144행·BPM3/25 표본505명과 연장 실제 총초를 보존했다. 실제 가용성·일관된 거래 경로·전반 상대 선택·정확 시즌 승패는 아직 닫히지 않았다. 전체 장기 커리어 및 집필 설계 완성을 뜻하지 않는다.
