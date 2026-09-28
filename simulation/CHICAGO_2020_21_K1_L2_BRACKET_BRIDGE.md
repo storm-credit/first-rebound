@@ -21,6 +21,8 @@
 
 [5/3 실제 맞대결과 양 팀 원역사 플레이오프 개막 경기 비교](../research/O15F14AU_DENVER_LAKERS_PLAYOFF_COMPARATOR.md)는 James·Schröder가 빠진 5/3 한 경기의 점수/분을 DEN–LAL 새 1라운드로 옮길 수 없음을 확인했다. 상대가 일치해도 건강·기용·일정 입력은 별도다.
 
+[A1 선행 사건에 따른 대진 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)는 F038에서 Lakers가 Boston 상대 4/15 한 패배만 뒤집으면 Denver 3–Dallas 6이 되고, 2/14 Denver 상대 결과만 뒤집으면 Denver 4–Lakers 5가 됨을 재현했다. 원역사 Davis 재부상·30경기 결장 경로를 대체 세계에 옮길지 아직 선택하지 않았다. 따라서 이 문서의 Denver–Lakers **3–6은 고정 F038의 구조 결과**이며 F5 새 시리즈의 확정 상대가 아니다.
+
 **게이트:** F5·A1/A3·K_METHOD_EVENTS는 `HOLD`; F1~F5 `0/5`, A1~A3 최종 채택 `0/3`, 네 K 종료 `0/4`. 작가의 K1/L2 최종 시즌·플레이오프 결과 확정은 0건. 7개 매크로 중 1완료·1진행·5대기, 미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
 
 [Claude 제한 반증 기록](../reviews/R01_O15F14AT_BRACKET_CLAUDE_SCOPE.md)은 1라운드 짝을 재확인했으나 2라운드 Denver–Portland 가능성을 놓친 문장을 기각했다. 새 NBA 원자료로 세지 않는다.

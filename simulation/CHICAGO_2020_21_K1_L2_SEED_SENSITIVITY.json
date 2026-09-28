@@ -1,0 +1,494 @@
+{
+  "status": "STRUCTURAL_STRESS_ONLY_NOT_SELECTED",
+  "source_season_case": "F038",
+  "source_playin_proposal": "L2",
+  "scope": "one game winner reversed, all other F038/L2 results held fixed",
+  "tie_policy": "original F038 order retained only for unchanged win ties; no newly tied changed team allowed",
+  "health_or_coaching_inferred": false,
+  "series_winner_selected": false,
+  "scenarios": [
+    {
+      "id": "F038_L2_BASE",
+      "flipped_game": null,
+      "win_deltas": {},
+      "conferences": {
+        "east": {
+          "regular_top10": [
+            {
+              "team": "PHI",
+              "wins": 49
+            },
+            {
+              "team": "BKN",
+              "wins": 49
+            },
+            {
+              "team": "MIL",
+              "wins": 46
+            },
+            {
+              "team": "NYK",
+              "wins": 41
+            },
+            {
+              "team": "ATL",
+              "wins": 41
+            },
+            {
+              "team": "MIA",
+              "wins": 40
+            },
+            {
+              "team": "BOS",
+              "wins": 36
+            },
+            {
+              "team": "IND",
+              "wins": 34
+            },
+            {
+              "team": "WAS",
+              "wins": 33
+            },
+            {
+              "team": "CHI",
+              "wins": 31
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "PHI",
+              "lower_seed": 8,
+              "lower_team": "IND"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "BKN",
+              "lower_seed": 7,
+              "lower_team": "BOS"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "MIL",
+              "lower_seed": 6,
+              "lower_team": "MIA"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "NYK",
+              "lower_seed": 5,
+              "lower_team": "ATL"
+            }
+          ]
+        },
+        "west": {
+          "regular_top10": [
+            {
+              "team": "UTA",
+              "wins": 52
+            },
+            {
+              "team": "PHX",
+              "wins": 51
+            },
+            {
+              "team": "DEN",
+              "wins": 47
+            },
+            {
+              "team": "LAC",
+              "wins": 47
+            },
+            {
+              "team": "DAL",
+              "wins": 42
+            },
+            {
+              "team": "LAL",
+              "wins": 42
+            },
+            {
+              "team": "POR",
+              "wins": 41
+            },
+            {
+              "team": "GSW",
+              "wins": 40
+            },
+            {
+              "team": "MEM",
+              "wins": 38
+            },
+            {
+              "team": "SAS",
+              "wins": 34
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "UTA",
+              "lower_seed": 8,
+              "lower_team": "MEM"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "PHX",
+              "lower_seed": 7,
+              "lower_team": "POR"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "DEN",
+              "lower_seed": 6,
+              "lower_team": "LAL"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "LAC",
+              "lower_seed": 5,
+              "lower_team": "DAL"
+            }
+          ]
+        }
+      },
+      "denver_first_round": {
+        "higher_seed": 3,
+        "higher_team": "DEN",
+        "lower_seed": 6,
+        "lower_team": "LAL"
+      },
+      "denver_possible_second_round_from": {
+        "higher_seed": 2,
+        "higher_team": "PHX",
+        "lower_seed": 7,
+        "lower_team": "POR"
+      }
+    },
+    {
+      "id": "APR15_BOS_LAL_FLIP_ONLY",
+      "flipped_game": "2021-04-15_BOS_LAL",
+      "win_deltas": {
+        "BOS": -1,
+        "LAL": 1
+      },
+      "conferences": {
+        "east": {
+          "regular_top10": [
+            {
+              "team": "PHI",
+              "wins": 49
+            },
+            {
+              "team": "BKN",
+              "wins": 49
+            },
+            {
+              "team": "MIL",
+              "wins": 46
+            },
+            {
+              "team": "NYK",
+              "wins": 41
+            },
+            {
+              "team": "ATL",
+              "wins": 41
+            },
+            {
+              "team": "MIA",
+              "wins": 40
+            },
+            {
+              "team": "BOS",
+              "wins": 35
+            },
+            {
+              "team": "IND",
+              "wins": 34
+            },
+            {
+              "team": "WAS",
+              "wins": 33
+            },
+            {
+              "team": "CHI",
+              "wins": 31
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "PHI",
+              "lower_seed": 8,
+              "lower_team": "IND"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "BKN",
+              "lower_seed": 7,
+              "lower_team": "BOS"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "MIL",
+              "lower_seed": 6,
+              "lower_team": "MIA"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "NYK",
+              "lower_seed": 5,
+              "lower_team": "ATL"
+            }
+          ]
+        },
+        "west": {
+          "regular_top10": [
+            {
+              "team": "UTA",
+              "wins": 52
+            },
+            {
+              "team": "PHX",
+              "wins": 51
+            },
+            {
+              "team": "DEN",
+              "wins": 47
+            },
+            {
+              "team": "LAC",
+              "wins": 47
+            },
+            {
+              "team": "LAL",
+              "wins": 43
+            },
+            {
+              "team": "DAL",
+              "wins": 42
+            },
+            {
+              "team": "POR",
+              "wins": 41
+            },
+            {
+              "team": "GSW",
+              "wins": 40
+            },
+            {
+              "team": "MEM",
+              "wins": 38
+            },
+            {
+              "team": "SAS",
+              "wins": 34
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "UTA",
+              "lower_seed": 8,
+              "lower_team": "MEM"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "PHX",
+              "lower_seed": 7,
+              "lower_team": "POR"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "DEN",
+              "lower_seed": 6,
+              "lower_team": "DAL"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "LAC",
+              "lower_seed": 5,
+              "lower_team": "LAL"
+            }
+          ]
+        }
+      },
+      "denver_first_round": {
+        "higher_seed": 3,
+        "higher_team": "DEN",
+        "lower_seed": 6,
+        "lower_team": "DAL"
+      },
+      "denver_possible_second_round_from": {
+        "higher_seed": 2,
+        "higher_team": "PHX",
+        "lower_seed": 7,
+        "lower_team": "POR"
+      }
+    },
+    {
+      "id": "FEB14_LAL_DEN_FLIP_ONLY",
+      "flipped_game": "2021-02-14_LAL_DEN",
+      "win_deltas": {
+        "DEN": -1,
+        "LAL": 1
+      },
+      "conferences": {
+        "east": {
+          "regular_top10": [
+            {
+              "team": "PHI",
+              "wins": 49
+            },
+            {
+              "team": "BKN",
+              "wins": 49
+            },
+            {
+              "team": "MIL",
+              "wins": 46
+            },
+            {
+              "team": "NYK",
+              "wins": 41
+            },
+            {
+              "team": "ATL",
+              "wins": 41
+            },
+            {
+              "team": "MIA",
+              "wins": 40
+            },
+            {
+              "team": "BOS",
+              "wins": 36
+            },
+            {
+              "team": "IND",
+              "wins": 34
+            },
+            {
+              "team": "WAS",
+              "wins": 33
+            },
+            {
+              "team": "CHI",
+              "wins": 31
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "PHI",
+              "lower_seed": 8,
+              "lower_team": "IND"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "BKN",
+              "lower_seed": 7,
+              "lower_team": "BOS"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "MIL",
+              "lower_seed": 6,
+              "lower_team": "MIA"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "NYK",
+              "lower_seed": 5,
+              "lower_team": "ATL"
+            }
+          ]
+        },
+        "west": {
+          "regular_top10": [
+            {
+              "team": "UTA",
+              "wins": 52
+            },
+            {
+              "team": "PHX",
+              "wins": 51
+            },
+            {
+              "team": "LAC",
+              "wins": 47
+            },
+            {
+              "team": "DEN",
+              "wins": 46
+            },
+            {
+              "team": "LAL",
+              "wins": 43
+            },
+            {
+              "team": "DAL",
+              "wins": 42
+            },
+            {
+              "team": "POR",
+              "wins": 41
+            },
+            {
+              "team": "GSW",
+              "wins": 40
+            },
+            {
+              "team": "MEM",
+              "wins": 38
+            },
+            {
+              "team": "SAS",
+              "wins": 34
+            }
+          ],
+          "first_round": [
+            {
+              "higher_seed": 1,
+              "higher_team": "UTA",
+              "lower_seed": 8,
+              "lower_team": "MEM"
+            },
+            {
+              "higher_seed": 2,
+              "higher_team": "PHX",
+              "lower_seed": 7,
+              "lower_team": "POR"
+            },
+            {
+              "higher_seed": 3,
+              "higher_team": "LAC",
+              "lower_seed": 6,
+              "lower_team": "DAL"
+            },
+            {
+              "higher_seed": 4,
+              "higher_team": "DEN",
+              "lower_seed": 5,
+              "lower_team": "LAL"
+            }
+          ]
+        }
+      },
+      "denver_first_round": {
+        "higher_seed": 4,
+        "higher_team": "DEN",
+        "lower_seed": 5,
+        "lower_team": "LAL"
+      },
+      "denver_possible_second_round_from": {
+        "higher_seed": 1,
+        "higher_team": "UTA",
+        "lower_seed": 8,
+        "lower_team": "MEM"
+      }
+    }
+  ]
+}
