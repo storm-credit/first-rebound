@@ -1,6 +1,7 @@
 # 3번 2021–23 거래·계약 연쇄 — 조건부 실행과 종료 경계
 
 - 상태: `M1_AUTHOR_SELECTED / EXACT_EXECUTION_HOLD / MACRO_GATE_OPEN`. 이 문서 아래의 M1/M2/M3 비교표는 선택 **이전**의 판단 근거로 보존한다. 현행 선택 권위는 [M1 작가 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json), 후행 사실·추론·HOLD는 [M1 연쇄](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)다.
+- 다음 중요 선택: [M1 아래 2021 여름 A/C/D 주 경로](CHICAGO_2021_M1_OFFSEASON_CHOICE.md). M1은 Caruso/Lonzo/DeRozan·Young/Satoransky의 동시 이동까지 선택하지 않았다.
 - 작업 지시: 사용자는 2026-09-28에 2번의 미해결 선택을 보존한 채 **3번을 끝까지 진행**하라고 했다. 정기 자동화 등록은 요청하지 않았다.
 - 선행 권위: [7행 로드맵](WORLD_BIBLE_COMPLETION_ROADMAP.md), [CP2 통합 검토](CP2_INTEGRATED_REVIEW_PACKET.md), [D1 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md), [G1 여름 4안](../simulation/CHICAGO_2021_23_CONTINUATION.md), [G8 취득 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md).
 - 유지: `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`. Chicago 원클럽·LaMelo 2020 #4·Theis/Green A·F4 Hall 재계약 생략·F5 McGee 거래 생략을 다시 선택하지 않는다.
