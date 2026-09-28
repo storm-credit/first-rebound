@@ -9,6 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
+- 6번 G11 후속 독서(2026-09-28): [공식 독서 원장](research/STYLE_REFERENCE_ACCESS.md)에 문피아 《아포칼립스에 집을 숨김》 1~5화 전체 화면 확인을 추가했다. 누계 **21/110회차·첫5화 완독4/10작품·본문3/4플랫폼**, 미독89화다. 네이버 시리즈 《홈 플레이트의 빌런》 첫 무료 회차는 로그인 이동으로 본문0이며 이 작품 경로만 `AUTH_REQUIRED`다. [기능 비교](research/STYLE_FUNCTION_COMPARISON.md)는 공간·정보 신뢰·후속 비용만 조건부 채택하고 재난 폭력 장치를 배제한다. G11 최종 미완료, G14 실제 회차 Pack0, 6번 OPEN, 큰 작업 남음6, freeze v0.30 PARTIAL·설계/원고 CLOSED. 이전 16회차 기록은 당시 이력이다.
 - 현재 작업: `O-15G8G 3번 2021–23 거래·계약 연쇄의 M1 작가 선택 반영 및 후손 자산·계약 검문. 2번 D1 정확 실행은 선행 HOLD: F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 묶음 종료 0/4. F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략은 작가 선택 유지. K1/L2와 CP2 추첨/2021 #10·#39는 조건부이며, G1A/SQ1·2022–23 전체 실행과 시즌 결과는 미완료`
 - 2026-09-28 작업 순서 변경: 사용자가 **3번 2021–23 거래·계약 연쇄를 끝까지 진행**하라고 명시했다. 정기 자동화 등록은 하지 않는다. [3번 종료/선택 패킷](design/CHICAGO_2021_23_MACRO3_CLOSEOUT.md)에 이미 검산한 G1/G7/G8/G9와 2번 D1 의존, Markkanen M0~M3 결정을 연결했다. 3번의 조건부 연구는 바로 진행하되 2번 미종료를 지우거나 잠정 #10/#39·계약을 정본으로 올리지 않는다. 7행 게이트는 1완료·2번 진행·3번 조건부 선행·4~7 대기, 미완료 6개, 설계/원고 CLOSED.
 - 최신 3번 작가 선택: 사용자가 [Markkanen M1 Chicago 4년 잔류](canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)의 선택·반영을 위임했다. `$17m/$18.36m/$19.72m/$21.08m` 제안·수락은 작품 사건 방향으로 선택됐고 M2/M3는 비선택. [M1 연쇄](research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)는 Cleveland의 원형 Mitchell 대가, San Antonio의 Young→Toronto→2022 #20, Chicago의 Lonzo 관련 2R 제재를 대체세계에 자동 복사하지 않는다. SQ1/15인·2022/23 전체 Team Salary, 다른 선수 동의·시즌/추첨은 여전히 HOLD. 3번 OPEN, F `0/5`·A `0/3`·K `0/4`, freeze v0.30 PARTIAL·설계/원고 CLOSED, 미완료 큰 작업 6개.
