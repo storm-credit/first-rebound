@@ -9,6 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
+- 6번 G11 문피아 핵심 첫20화 완료(2026-09-28): 공식 《아포칼립스에 집을 숨김》 무료16~20화의 본문 시작부터 종료 표시까지 확인해 누계 **80/110회차·첫5화 완독7/10작품·첫20화 완독3/4작품·본문4/4플랫폼**, 미독30화(나머지3작품 초반15+마지막 핵심1작품 추가15)가 됐다. [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래75회차 이하는 이전 이력이다.
 - 6번 G11 문피아 핵심 추가 독서(2026-09-28): 공식 《아포칼립스에 집을 숨김》 무료11~15화의 본문 시작부터 종료 표시까지 확인해 누계 **75/110회차·첫5화 완독7/10작품·첫20화 완독2/4작품·본문4/4플랫폼**, 미독35화(나머지3작품 초반15+핵심2작품 추가20)가 됐다. [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래70회차 이하는 이전 이력이다.
 - 6번 G11 문피아 핵심 추가 독서(2026-09-28): 공식 《아포칼립스에 집을 숨김》 무료6~10화의 본문 시작부터 종료 표시까지 확인해 누계 **70/110회차·첫5화 완독7/10작품·첫20화 완독2/4작품·본문4/4플랫폼**, 미독40화(나머지3작품 초반15+핵심2작품 추가25)가 됐다. [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래65회차 이하는 이전 이력이다.
 - 6번 G11 문피아 핵심 첫20화 완료(2026-09-28): 공식 《필드의 고인물》 11~20화의 본문 시작부터 종료 표시까지 확인해 누계 **65/110회차·첫5화 완독7/10작품·첫20화 완독2/4작품·본문4/4플랫폼**, 미독45화(나머지3작품 초반15+핵심2작품 추가30)가 됐다. [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래55회차 이하는 이전 이력이다.
