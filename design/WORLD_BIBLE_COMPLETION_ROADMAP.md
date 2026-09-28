@@ -24,6 +24,8 @@
 
 [3/20 LeBron–Hill 접촉 검문](../research/O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md)은 NBA 보도·공식 박스에서 원역사 접촉 당사자와 Hill 18:25/James 10:36을 확인했다. Atlanta의 Hill 원역사 영입과 활성 Chicago 세계선의 정확 포제션·후속 건강을 구분한다. F038의 Lakers −5 유지 계산은 건강 대체 분기를 시험하지 않았으므로 A1·F5 종료 수는 그대로다.
 
+[LeBron 20+6경기 창의 원장 대조](../research/O15F14BB_LEBRON_20_PLUS_6_GAME_CONTACT_AUDIT.md)는 3/20 부분 경기·20경기 첫 결장·2경기 복귀·6경기 재결장·2경기 마지막 복귀를 구분했다. 31경기 모두 기존 두 평점법에서 원승자를 유지했으나 이는 원역사 건강 입력의 일관성 검사다. 첫 결장 16경기가 Davis 결장과 겹치고, 5/3 Denver 맞대결도 재결장 창에 있으므로 A1 건강과 F5 대진을 함께 재검산해야 한다.
+
 [대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
