@@ -1208,3 +1208,7 @@ NotebookLM CLI는 5/18 기사 URL을 새 출처로 수집·한정 질의했고 �
 ## O-15F14-AW — Denver–Lakers 동일 상대 Hartenstein 선례와 인과 경계
 
 [AW 두 NBA 공식 맞대결 경기책](research/O15F14AW_DEN_LAL_HARTENSTEIN_HEAD_TO_HEAD_PRECEDENT.md)은 원역사 Hartenstein이 Denver 소속으로 Lakers 상대 2/4 `10:11`·2/14 `3:04`을 뛰었음을 확인했다. 그러나 원역사 두 경기의 Hampton Denver 분 `2:53`·`20:23`은 대체 2020 Draft에서 Dallas #31인 선수에게 속하므로 복사할 수 없다. 2/14 Davis의 선행 건병증과 경기 중 재악화도 다른 Denver 로테이션 아래 자동 보존하지 않는 A1 인과 분기다. Hartenstein의 대체 5월 분·건강, Lakers 센터 기용, 새 시리즈 승패는 미선택이다. F5/A1/A3·K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.
+
+## O-15F14-AX — Davis 건강 사건 앞뒤의 서부 대진 구조 민감도
+
+[AX F038/L2 단일 경기 반전 검문](research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)은 2/14 Denver 122–105 Lakers 경기의 Davis 재악화와 원역사 30경기 결장을 A1의 선행 인과 사건으로 분리했다. 4/15 Boston 상대 Lakers 원역사 패배만 승리로 바꿔도 LAL 43승·5번이 되어 Denver 3–Dallas 6이며, 2/14 Denver전만 뒤집으면 DEN 46승·4번/LAL 43승·5번으로 Denver–Lakers 4–5와 Utah/Memphis 쪽 2라운드 갈래다. 두 시험은 대체 건강·승패의 예측이 아니며 후속 경기와 시리즈는 미선택이다. F5/A1/A3·K_HEALTH/K_METHOD_EVENTS `HOLD`, F `0/5`·A `0/3`·K `0/4`; 7행 1완료·1진행·5대기/미완료 6개. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 원고 금지.

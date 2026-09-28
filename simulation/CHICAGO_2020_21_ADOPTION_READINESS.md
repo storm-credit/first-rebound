@@ -47,6 +47,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [2월 DEN–LAL 동일 상대 선례](../research/O15F14AW_DEN_LAL_HARTENSTEIN_HEAD_TO_HEAD_PRECEDENT.md)에서 Hartenstein 원역사 `10:11`·`3:04` 출전을 확인했다. 하지만 두 경기의 Hampton Denver 출전분은 대체 Draft의 Dallas행으로 무효이며 2/14 Davis 재부상도 A1 인과 분기다. 이 자료를 5월 Hartenstein 분·Davis 건강·시리즈 승패의 확정값으로 쓰지 않는다.
 
+[F038/L2 대진 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)는 4/15 Boston–Lakers 반전 한 건만으로 Denver 3–Dallas 6이 되고, 2/14 Lakers–Denver 반전 한 건은 Denver 4–Lakers 5로 같은 상대라도 다음 라운드 갈래를 바꿈을 검산했다. 건강·코칭·경기 결과는 미선택이다. F5/K_METHOD_EVENTS를 닫기 전에 A1 선행 사건과 최종 시드를 함께 재산출해야 한다.
+
 [F1 이름 있는 FA 보류액 후속](../research/O15F14AG_CHICAGO_2020_FA_HOLD_FOLLOWUP.md)은 Valentine·Mokoka 재계약과 Strus의 Miami 영입을 공식 연혁에 연결했다. 이 계약 경로에서 세 명의 종전 보류액은 별도 추가하지 않지만, 전체 과거 권리·방출액·미서명 1R·예외/기타 조정과 R은 계속 미확정이다. F1 통과나 `$5,609,972` 한도 증가로 읽지 않는다.
 
 [F1 미서명 1R·출처 한계](../research/O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 구단 가이드의 일부 지명/권리 계약을 확인하고, 2019-01-22 Diebler 2R 권리 누락을 당시 구단 공식 공지와 대조했다. 가이드 무기재는 2021-03-25 **모든** 미서명 1R/거래 예외 0의 증명이 아니다. `UNSIGNED_FIRSTS`, R과 F1은 HOLD다.
