@@ -9,6 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
+- 6번 G11 네 번째 플랫폼(2026-09-28): [공식 독서 원장](research/STYLE_REFERENCE_ACCESS.md)에 조아라 《소설 속 엑스트라》 1~5화 완독·회차별 기능 관찰과 대중성6 후보 잠정 교체 근거를 추가했다. 누계 **26/110회차·첫5화 완독5/10작품·본문4/4플랫폼**, 미독84화다. 네 플랫폼 본문 접근만 충족; 작품별 인기도 근거·추출/합성, 5작품 첫5화와 핵심4작품 추가59화는 남았다. G11/G14 최종 HOLD·실제 회차 Pack0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래21회차는 이전 이력이다.
 - 6번 G14 무결성 보강(2026-09-28): [CP2 설계 샘플](context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)의 새 A 선택을 시기별 HOLD와 연결했다. [검사기](tools/build_cp2_design_packets.py)는 출처 SHA뿐 아니라 샘플의 `allowed_facts`·HOLD·작가 잠금 등 생성 본문 일치와 중복 출처를 확인하며 변조 테스트를 추가했다. 실제 회차 Pack0, G11/G14 최종 HOLD, freeze/CLOSED 유지.
 - 3번 신규 작가 선택(2026-09-28): 사용자가 [M1과 병행할 Chicago 2021 여름 A](canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)를 선택했다. 성장 코어·Caruso 영입 추진, Green 재계약 추진, Young·Satoransky 계약연도 보유, Theis FA 이탈이 선택 주 경로다. Lonzo G1C·DeRozan G1D는 비선택. Caruso/Green 등 개별 선수 수락, SQ1/15+2/cap/R·정확 계약/지명·2021–22 실제 시즌은 HOLD. 3번 OPEN, 2번 F `0/5`·A `0/3`·K `0/4`, 미완료 큰 작업6·freeze/CLOSED 유지. 아래 'A/C/D 미선택'은 이전 체크포인트다.
 - 6번 G11 후속 독서(2026-09-28): [공식 독서 원장](research/STYLE_REFERENCE_ACCESS.md)에 문피아 《아포칼립스에 집을 숨김》 1~5화 전체 화면 확인을 추가했다. 누계 **21/110회차·첫5화 완독4/10작품·본문3/4플랫폼**, 미독89화다. 네이버 시리즈 《홈 플레이트의 빌런》 첫 무료 회차는 로그인 이동으로 본문0이며 이 작품 경로만 `AUTH_REQUIRED`다. [기능 비교](research/STYLE_FUNCTION_COMPARISON.md)는 공간·정보 신뢰·후속 비용만 조건부 채택하고 재난 폭력 장치를 배제한다. G11 최종 미완료, G14 실제 회차 Pack0, 6번 OPEN, 큰 작업 남음6, freeze v0.30 PARTIAL·설계/원고 CLOSED. 이전 16회차 기록은 당시 이력이다.
