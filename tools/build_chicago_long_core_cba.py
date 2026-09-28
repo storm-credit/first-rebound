@@ -75,7 +75,7 @@ def core_cost(p,capcase,price,Ppct):
 
 
 def build():
-    p=json.loads(INPUT.read_text());base=p['cap_references']['2023'];c2024=p['cap_references']['2024']['cap'];caps=[]
+    p=json.loads(INPUT.read_text(encoding='utf-8'));base=p['cap_references']['2023'];c2024=p['cap_references']['2024']['cap'];caps=[]
     for g in p['cap_growth_cases_percent']:
         if not 0<=g<=10:raise ValueError('growth outside current CBA smoothing range')
         cap=ceil_fraction(Fraction(c2024*(100+g)**2,10000))
@@ -99,6 +99,6 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     primary=next(r for r in x['core_cases'] if r['cap_case']=='ACTUAL2026_REFERENCE' and r['price_case']=='BC1' and r['P_first_cap_percent']==30)
     print(json.dumps(dict(PASS=True,core_cases=x['core_case_count'],table_cases=len(x['apron_table_cases']),primary_reference={k:primary[k] for k in ['LaVine_salary','LaVine_option_minus_18pct_target','player_budget','planning_envelope','full_envelope_room_to_second']},actual_contracts_agreed=False)))
