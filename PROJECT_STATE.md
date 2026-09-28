@@ -9,6 +9,7 @@
 - 원고 허용: `false`
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
+- 6번 G11/G14 문서 단독 맹점 검수(2026-09-28): [source-blind 검토](reviews/R02_G11_G14_SOURCE_BLIND_PROTOCOL_REVIEW.md)는 하우스 스타일과 Context Pack 프로토콜 두 문서만 읽고 게이트 표시·주장별 출처 매핑·시점 전환 검증의 빈틈을 지적했다. 실제 CP2 샘플/생성기와 대조해 앞의 두 건은 README 설명으로 보완했고, 회차별 독서 증거 재확인·원고 규칙 실측·실제 Pack 시점 전환 검사는 후행으로 남겼다. 독립 NBA 원자료 검수나 G16 전체 PASS가 아니다. G11 85/110, G14 실제 회차 Pack0·FINAL_HOLD, freeze v0.30 PARTIAL·설계/원고 CLOSED, 7행 1완료·6미완료는 그대로다.
 - 6번 G14 설계 샘플 근거 추적(2026-09-28): 기존 샘플 2개 `allowed_facts` 각각에 상태·출처 경로를 연결하고, 출처 해시 누락·조건부 결과의 FACT 승격을 검사한다. 실제 회차 Pack0, G14 최종 HOLD, 설계/원고 CLOSED는 유지한다.
 - 6번 G11 공식 문피아 스포츠 초반 독서(2026-09-28): 《홈 플레이트의 빌런》 프롤로그 포함 무료1~5화를 각 시작부터 100% 종료까지 확인했다. 누계 **85/110회차·첫5화 완독8/10작품·첫20화 완독3/4작품·본문4/4플랫폼**, 미독25화(나머지2작품 초반10+마지막 핵심1작품 추가15). [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래80회차 이하는 이전 이력이다.
 - 6번 G11 문피아 핵심 첫20화 완료(2026-09-28): 공식 《아포칼립스에 집을 숨김》 무료16~20화의 본문 시작부터 종료 표시까지 확인해 누계 **80/110회차·첫5화 완독7/10작품·첫20화 완독3/4작품·본문4/4플랫폼**, 미독30화(나머지3작품 초반15+마지막 핵심1작품 추가15)가 됐다. [회차별 관찰](research/STYLE_READING_OBSERVATIONS.json)과 [설계 질문](research/STYLE_FUNCTION_COMPARISON.md)만 보강했다. G11/G14 최종 HOLD·실제 회차 Pack0·원고0, freeze v0.30 PARTIAL·설계/원고 CLOSED, 남은 큰 작업6. 아래75회차 이하는 이전 이력이다.
