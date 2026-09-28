@@ -26,10 +26,10 @@ def replace_slots(roster, mapping, prices):
 
 
 def build():
-    p=json.loads(INPUT.read_text())
-    s=json.loads((ROOT/p['source_file']).read_text())
-    g=json.loads((ROOT/p['parent_file']).read_text())
-    d=json.loads((ROOT/p['draft_file']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'))
+    s=json.loads((ROOT/p['source_file']).read_text(encoding='utf-8'))
+    g=json.loads((ROOT/p['parent_file']).read_text(encoding='utf-8'))
+    d=json.loads((ROOT/p['draft_file']).read_text(encoding='utf-8'))
     assert not any(p[x] for x in ['author_locked','season_selected','exact_execution_cleared','manuscript_allowed'])
     assert d['core_asset_settlement']['CHI_first']['pick']==10
     assert d['core_asset_settlement']['CHI_NOP_second']['CHI_receives_pick']==39
@@ -88,5 +88,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True,standard_slots=x['named_standard_slots'],gross_delta=x['gross_budget_delta_from_G1A'],centers={n:{k:v for k,v in r.items() if k in ['min_budget','max_budget','min_conditional_apron_gap']} for n,r in x['centers'].items()},availability_cases=sum(len(a['cases']) for a in x['availability'].values()),second_year_conditional_delta=x['second_year_all_three_if_retained_delta']),ensure_ascii=False))

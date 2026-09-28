@@ -27,7 +27,7 @@ class FullComparisonTests(unittest.TestCase):
         self.assertEqual(b['board'][47]['proposed_player'],'David Johnson')
 
     def test_unpicked_candidates_stay_visible_and_old_remaining_compared(self):
-        x=build();p=json.loads(INPUT.read_text());old=json.loads((ROOT/p['parent_round']).read_text())
+        x=build();p=json.loads(INPUT.read_text(encoding='utf-8'));old=json.loads((ROOT/p['parent_round']).read_text(encoding='utf-8'))
         for o,s in zip(old['scenarios'],x['scenarios']):
             compared={n for r in s['board'][30:] for n in r['available_comparison']}
             self.assertTrue(set(o['tracked_candidates_remaining_for_second_round']).issubset(compared))
@@ -35,7 +35,7 @@ class FullComparisonTests(unittest.TestCase):
             self.assertEqual(picked|unpicked,set(x['tracked_candidate_pool']));self.assertFalse(picked&unpicked)
 
     def test_unavailable39_rejected_and_slot_replacement_not_addition(self):
-        p=json.loads(INPUT.read_text());old=json.loads((ROOT/p['parent_round']).read_text());assets=json.loads((ROOT/p['parent_assets']).read_text())['scenarios'][0]
+        p=json.loads(INPUT.read_text(encoding='utf-8'));old=json.loads((ROOT/p['parent_round']).read_text(encoding='utf-8'));assets=json.loads((ROOT/p['parent_assets']).read_text(encoding='utf-8'))['scenarios'][0]
         with self.assertRaises(ValueError):second_round(old['scenarios'][0],assets,p,'Kessler Edwards')
         for s in build()['scenarios']+build()['CHI39_options']:
             self.assertEqual(len(s['named_roster_without_protagonist'])+1,15);self.assertEqual(s['gross_budget_delta_from_G3'],0)

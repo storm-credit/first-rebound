@@ -34,9 +34,9 @@ def overlay_roster(parent,player):
 
 
 def build():
-    p=json.loads(INPUT.read_text())
-    d=json.loads((ROOT/p['parent_draft']).read_text())
-    g=json.loads((ROOT/p['parent_roster']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'))
+    d=json.loads((ROOT/p['parent_draft']).read_text(encoding='utf-8'))
+    g=json.loads((ROOT/p['parent_roster']).read_text(encoding='utf-8'))
     assert [r['pick'] for r in p['rows']]==list(range(1,15))
     expected=[r['origin'] for r in d['first_round_origins'][:14]]
     assert expected[6]=='MIN'
@@ -56,5 +56,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True,scenario_rows=sum(len(s['board']) for s in x['scenarios']),CHI10={s['id']:s['CHI10'] for s in x['scenarios']},remaining_picks=x['unresolved_pick_count'],author_locked=False),ensure_ascii=False))

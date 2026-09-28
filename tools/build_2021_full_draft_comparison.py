@@ -39,7 +39,7 @@ def overlay_roster(g3,first,second):
 
 
 def build():
-    p=json.loads(INPUT.read_text());g6=json.loads((ROOT/p['parent_round']).read_text());g5=json.loads((ROOT/p['parent_assets']).read_text());g3=json.loads((ROOT/p['parent_roster']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'));g6=json.loads((ROOT/p['parent_round']).read_text(encoding='utf-8'));g5=json.loads((ROOT/p['parent_assets']).read_text(encoding='utf-8'));g3=json.loads((ROOT/p['parent_roster']).read_text(encoding='utf-8'))
     assets=next(s for s in g5['scenarios'] if s['id']==p['asset_policy'])
     pool={n for r in p['rows'] for n in r['priority']}|{n for s in g6['scenarios'] for n in s['tracked_candidates_remaining_for_second_round']}|{r['proposed_player'] for s in g6['scenarios'] for r in s['board']}
     scenarios=[]
@@ -57,5 +57,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True,primary_rows=x['primary_path_rows'],new_second_round_rows=120,CHI39={s['id']:s['CHI39'] for s in x['scenarios']},CHI39_options=4,unjudged_rows_in_comparison=0,final_draft=False),ensure_ascii=False))

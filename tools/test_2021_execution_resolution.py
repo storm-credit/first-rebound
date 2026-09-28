@@ -5,7 +5,7 @@ from build_2021_execution_resolution import SOURCE, build, funding, gordon_after
 
 class ResolutionTests(unittest.TestCase):
     def setUp(self):
-        self.s = json.loads(SOURCE.read_text())
+        self.s = json.loads(SOURCE.read_text(encoding='utf-8'))
 
     def test_gordon_protection_and_terminal(self):
         t = self.s['gordon']
