@@ -27,6 +27,7 @@ payoff_or_defer:
 reader_expected_question:
 do_not_explain_device: true
 allowed_facts:
+fact_evidence: # allowed_facts와 같은 순서의 claim/status/source_paths; 각 경로는 아래 내용 해시로 고정
 required_historical_events:
 relationship_state:
 physical_state:
@@ -41,6 +42,7 @@ integrity_status:
 ## 무결성 규칙
 
 - 모든 사실에 원본 문서 링크와 버전이 있어야 함
+- 설계 샘플의 각 `allowed_facts`는 `fact_evidence`에 같은 문구·순서로 매핑하고, 상태와 출처 경로를 별도 기록함. 후보·조건부 결과를 사실로 승격하지 않음
 - 현재 회차에서 활성화되지 않는 장치와 복선은 Pack에 넣지 않음
 - Sub-Act 주 장치 1개와 선택 보조 1개 예산을 초과하지 않음
 - Context Pack과 정본이 충돌하면 정본이 승리
