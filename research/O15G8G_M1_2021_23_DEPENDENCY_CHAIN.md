@@ -1,7 +1,7 @@
 # O-15G8G — M1 선택 뒤 2021–23 거래·지명 연쇄
 
-- 권위: [작가 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json), [금액 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json), [3번 종료 경계](../design/CHICAGO_2021_23_MACRO3_CLOSEOUT.md).
-- 상태: `M1_AUTHOR_SELECTED / EXACT_EXECUTION_HOLD / MACRO3_OPEN`. M1만 작가 선택이다. G1A 전체, SQ1, 2021 #10/#39와 2022 거래·승패는 아직 조건부다.
+- 권위: [M1 작가 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json), [Chicago G1A 여름 방향](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json), [금액 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json), [3번 종료 경계](../design/CHICAGO_2021_23_MACRO3_CLOSEOUT.md).
+- 상태: `M1_AND_G1A_DIRECTION_AUTHOR_SELECTED / EXACT_EXECUTION_HOLD / MACRO3_OPEN`. M1과 [Chicago 2021 여름 A 주 경로](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)만 작가 선택이다. G1A의 개별 선수 수락·SQ1, 2021 #10/#39와 2022 거래·승패는 아직 조건부다.
 
 ## 선택된 사건과 숫자의 범위
 

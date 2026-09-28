@@ -1112,3 +1112,7 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 ## 2026-09-28 O-15G8G — Markkanen M1 2021 잔류 방향 선택
 
 작가가 [M1 선택](CHICAGO_2021_MARKKANEN_M1_DECISION.json)의 반영을 위임했다. 대체세계에서 Markkanen은 Chicago 4년 완전보장 제안 `$17m/$18.36m/$19.72m/$21.08m`을 선택하는 **작품 사건 방향**이다. M2 1년 QO·M3 이탈은 비선택이다. 정상 가용일 PF32분은 제안된 역할이며 경기별 사실이 아니다. [M1 금액 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json)와 [후행 거래 연쇄](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)에 따라 원형 Cleveland→Utah Mitchell 대가를 그대로 복사하지 않는다. G1A 전체 선수 합의·SQ1 법적 실행·최종 2020–21 시즌/2021 픽·2022–23 결과는 미확정이다. G8C의 M0 예산은 과거 비교로 보존한다. 3번 `OPEN`, F `0/5`·A `0/3`·K `0/4`, v0.30 PARTIAL, 설계/원고 `CLOSED`와 미완료 큰 작업 6개 유지.
+
+## 2026-09-28 O-15G8H — Chicago 2021 여름 A 방향 선택
+
+작가가 [G1A+M1 성장 코어·Caruso 경로](CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)를 선택했다. 이는 Chicago가 Caruso 취득·Green 재계약을 추진하고 Young·Satoransky의 계약연도 보유, Theis FA 이탈을 주 경로로 삼는 **작품 사건 방향**이다. Lonzo G1C·DeRozan G1D는 비선택이며 원역사 거래를 동시에 복사하지 않는다. M1 Markkanen 수락 외 Caruso/Green/Bradley 등 선수 및 상대팀의 수락·정확 서명/예외·15+2·급여·실제 분/승패는 미검증이다. 2021 #10/#39와 E2·CX1·RT1도 조건부로 유지한다. 3번 `OPEN`, 2번 F `0/5`·A `0/3`·K `0/4`, freeze v0.30 PARTIAL·설계/원고 `CLOSED`, 남은 큰 작업 6개 유지.

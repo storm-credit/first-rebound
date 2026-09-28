@@ -32,10 +32,12 @@ last_reviewed: 2026-09-12
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | FOUNDATION_PARTIAL / 21_CHAPTERS_READ / 4_WORKS_FIRST_FIVE / 3_BODY_PLATFORMS / DEEP_READ_INCOMPLETE |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
-| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_HASH_REPINNED_2026_09_28 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_HASH_AND_BODY_CHECKED_2026_09_28 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
+
+2026-09-28 작가는 M1과 함께 [Chicago 2021 여름 G1A 방향](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)을 선택했다. 이는 G07/G09·G14의 Caruso/Green 개별 계약·SQ1·명단·실제 시즌 PASS가 아니며, 위 게이트와 `CLOSED`를 바꾸지 않는다.
 
 ## 개방 절차
 

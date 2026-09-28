@@ -50,6 +50,8 @@ integrity_status:
 - 미검증 사실은 `HOLD`이며 원고 입력 금지
 - 팩 생성 후 정본이 바뀌면 해당 팩은 `STALE` 처리
 
+현재 CLOSED 게이트의 CP2 설계 샘플은 `tools/build_cp2_design_packets.py --check`로 **출처 내용 해시와 생성된 샘플 본문 자체**를 함께 대조한다. 이 검사는 실제 회차 팩의 생성 허가나 사실 승인으로 해석하지 않는다.
+
 ## Obsidian 연결
 
 팩은 `[[canon/PROJECT_FREEZE]]`, 인물 정본, 세계 규칙, Act/Sub-Act, 사건 원장을 링크한다. 역링크는 탐색용이며 권위 관계를 바꾸지 않는다.

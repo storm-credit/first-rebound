@@ -46,6 +46,21 @@ class DesignBoundaryTests(unittest.TestCase):
         errors = m.validate_samples(samples)
         self.assertTrue(any('STALE canon/CAREER_TIMELINE.md' in e for e in errors))
 
+    def test_sample_body_and_author_lock_cannot_be_changed_under_valid_source_hashes(self):
+        samples = m.make_samples()
+        samples['samples'][0]['allowed_facts'] = ['unverified championship']
+        samples['samples'][0]['author_locked'] = True
+        samples['author_locked'] = True
+        errors = m.validate_samples(samples)
+        self.assertTrue(any('content differs' in e for e in errors))
+        self.assertTrue(any('purpose or author lock' in e for e in errors))
+        self.assertTrue(any('sample promoted' in e for e in errors))
+
+    def test_duplicate_source_link_is_not_hidden_by_set_comparison(self):
+        samples = m.make_samples()
+        samples['samples'][0]['source_links'].append(samples['samples'][0]['source_links'][0])
+        self.assertTrue(any('duplicate source link' in e for e in m.validate_samples(samples)))
+
     def test_source_hash_ignores_only_checkout_line_endings(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

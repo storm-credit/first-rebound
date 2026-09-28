@@ -1,8 +1,8 @@
 # 3번 후속 — M1 아래 Chicago 2021 여름 주 경로 선택
 
-- 상태: `M1_AUTHOR_SELECTED / G1_OFFSEASON_CHOICE_PENDING / EXACT_EXECUTION_HOLD`.
+- 상태: `M1_AUTHOR_SELECTED / G1A_OFFSEASON_DIRECTION_AUTHOR_SELECTED / EXACT_EXECUTION_HOLD`. 아래 표는 선택 전 비교 이력이며 현행 선택 권위는 [A 결정](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)이다.
 - 권위: [M1 결정](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json), [기존 G1 4안](../simulation/CHICAGO_2021_23_CONTINUATION.md), [G8 계약 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [M1 후손](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md).
-- 질문: **M1 잔류와 함께 Chicago가 2021년 여름에 어떤 주 경로를 택하는가?** M1은 Markkanen 사건만 선택했고 Caruso/Lonzo/DeRozan 및 Young/Satoransky의 최종 이동은 아직 정하지 않았다. Vučević/Aminu 원거래 거부, LaMelo 2020 #4, Chicago 원클럽, Theis/Green A 방향을 유지한다.
+- 선택 전 질문은 **M1 잔류와 함께 Chicago가 2021년 여름에 어떤 주 경로를 택하는가**였다. 작가는 A를 선택했으며 Caruso·Green 제안의 개별 수락과 Young/Satoransky의 후행 이동은 아직 정하지 않았다. Vučević/Aminu 원거래 거부, LaMelo 2020 #4, Chicago 원클럽, Theis/Green A 방향을 유지한다.
 
 | 상호 배타적 주 경로 | 2021–22 G1 비교 예산에 M1 `+$1,309,091` 적용 | 사람·픽·분/작품 비용 | 법적/후행 HOLD |
 |---|---:|---|---|
@@ -22,4 +22,4 @@ cap 공간 대안은 순서에 따라 다르다. SQ3은 Markkanen을 Caruso **�
 
 [Bulls의 Lonzo 영입 공지](https://www.nba.com/bulls/news/bulls-acquire-lonzo-ball)는 Satoransky·Temple·2024 2R·현금, [DeRozan 공지](https://www.nba.com/bulls/news/bulls-acquire-demar-derozan)는 Young·Aminu·1R·2R 두 장을 원역사 대가로 적는다. 두 S&T를 같은 자산으로 동시에 실행하지 않는다. C/D에서도 Markkanen M1의 선수 수락은 선택돼 있으나 그 밖의 선수·상대팀 수락은 문서로 증명되지 않는다. [NBA 제재 공지](https://pr.nba.com/bulls-heat-penalties-free-agency/)의 원역사 Bulls 2R 박탈은 **Lonzo 관련 협상 시각 위반** 때문이지 Lonzo의 미래 부상 때문이 아니다.
 
-**권고 A의 이유:** M1로 이미 Markkanen의 역할·가격을 높였으므로 동시에 고사용률 Lonzo/DeRozan을 들이면 주인공/LaMelo·Young/Caruso의 역할 비용과 픽/제재·타 구단 거래 검문이 커진다. A는 기존 G1의 성장 코어 추천을 유지하면서 확정 지명/시즌을 먼저 요구하지 않는 비교 경로다. A도 새 영입과 전체 cap의 자동 승인은 아니다. 선택 전 A/C/D는 모두 `CANDIDATE`; M1만 `AUTHOR_SELECTED`. 3번 OPEN, 2번 F `0/5`·A `0/3`·K `0/4`, freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+**선택된 A의 이유와 범위:** M1로 이미 Markkanen의 역할·가격을 높였으므로 동시에 고사용률 Lonzo/DeRozan을 들이면 주인공/LaMelo·Young/Caruso의 역할 비용과 픽/제재·타 구단 거래 검문이 커진다. 작가는 A를 선택해 성장 코어와 Caruso 취득 추진을 주 경로로 정했다. C/D는 비선택이다. **Caruso·Green 등 개별 선수 수락, SQ1·15인·cap, 정확 지명/시즌은 여전히 HOLD**이며 위 표의 비교 예산만으로 실행 PASS가 되지 않는다. 3번 OPEN, 2번 F `0/5`·A `0/3`·K `0/4`, freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
