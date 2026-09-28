@@ -11,8 +11,12 @@ Context Pack은 회차 작업에 필요한 최소 문맥을 모은 **파생 산�
 ```yaml
 pack_id:
 target_episode_or_design_unit:
+purpose: DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK # 현재 CP2 샘플 한정
+manuscript_allowed: false
+author_locked: false
 generated_at:
 source_commit:
+source_revision: # 기반 커밋과 이후 파일 내용 해시를 구별
 canon_version:
 timeline_window:
 pov_character:
@@ -27,7 +31,7 @@ payoff_or_defer:
 reader_expected_question:
 do_not_explain_device: true
 allowed_facts:
-fact_evidence: # allowed_facts와 같은 순서의 claim/status/source_paths; 각 경로는 아래 내용 해시로 고정
+fact_evidence: # allowed_facts와 같은 순서의 claim/status/source_paths
 required_historical_events:
 relationship_state:
 physical_state:
@@ -36,18 +40,23 @@ promises_to_pay:
 forbidden_moves:
 exit_state_required:
 source_links:
+source_content_sha256: # source_links의 모든 경로를 파일 내용 SHA-256에 연결
 integrity_status:
 ```
+
+현재 샘플 파일의 최상위에는 `actual_episode_packs: 0`, `manuscript_allowed: false`, `author_locked: false`가 있어야 한다. `purpose`와 이 세 필드는 설계 검증용 샘플이라는 경계를 표시한다. 이 YAML은 실제 회차 Pack의 생성 허가나 완성된 범용 스키마가 아니다.
 
 ## 무결성 규칙
 
 - 모든 사실에 원본 문서 링크와 버전이 있어야 함
-- 설계 샘플의 각 `allowed_facts`는 `fact_evidence`에 같은 문구·순서로 매핑하고, 상태와 출처 경로를 별도 기록함. 후보·조건부 결과를 사실로 승격하지 않음
+- 설계 샘플의 각 `allowed_facts`는 `fact_evidence`에 같은 문구·순서로 매핑하고, 상태와 출처 경로를 별도 기록함. 현재 허용 상태는 `CANON_FUNCTION`(이미 잠긴 기능), `CANDIDATE`(후보), `CONDITIONAL_RESULT`(조건부 계산 결과)뿐이다. 어느 상태도 개별 NBA 사건의 무조건적 `FACT`나 작가확정을 뜻하지 않는다
+- 각 `fact_evidence.source_paths`는 `source_links`에 존재하고 `source_content_sha256`에서 동일 경로의 내용 해시로 해석되어야 함. 해시는 해당 파일의 변조·구식 여부를 검사하며, 원자료의 진실성이나 주장에 대한 독립 검증까지 증명하지 않음
 - 현재 회차에서 활성화되지 않는 장치와 복선은 Pack에 넣지 않음
 - Sub-Act 주 장치 1개와 선택 보조 1개 예산을 초과하지 않음
 - Context Pack과 정본이 충돌하면 정본이 승리
 - 사건 날짜와 선수 신체 상태가 연표와 일치
 - 인물은 실제 권한 밖의 정보를 알거나 명령하지 않음
+- `pov_character`의 한 값은 시점 전환 승인이 아니다. S1 시점 전환은 장래 실제 회차 Pack에서 구간 경계·정보 접근 근거가 잠긴 뒤 별도 검증한다
 - 주인공이 접촉한 역사 사건은 시뮬레이션 ID를 포함
 - 미검증 사실은 `HOLD`이며 원고 입력 금지
 - 팩 생성 후 정본이 바뀌면 해당 팩은 `STALE` 처리
