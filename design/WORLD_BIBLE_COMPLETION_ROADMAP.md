@@ -28,6 +28,8 @@
 
 [A1 두 건강 사건 선택 준비](CHICAGO_2020_21_A1_LAKERS_HEALTH_DECISION_PACKET.md)는 Davis의 부상 당일 2/14까지 포함해 두 원역사 건강 창의 최소 재검문 합집합을 **45개 고유 Lakers 경기**로 묶었다. H00~H11 어느 안도 아직 작가확정이 아니며, H00의 원역사 건강 유지 권고조차 F1~F5·A1~A3·K 종료나 새 대진 승자를 뜻하지 않는다.
 
+사용자가 2026-09-28에 **3번을 끝까지 진행**하라고 요청했다. [3번 조건부 종료/선택 패킷](CHICAGO_2021_23_MACRO3_CLOSEOUT.md)에서 2021–23의 이미 완료한 예산·지명 비교와 미완료 계약/선수 동의/시즌 의존을 분리한다. 2번 D1의 최종 시즌·추첨이 닫힐 때까지 3번의 최종 정본 판정은 유보하지만, 승인된 CP2와 이번 지시에 따라 3번의 독립적인 계약·역할·자산 검증을 진행한다. 정기 자동화는 등록하지 않는다.
+
 [대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.

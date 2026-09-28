@@ -10,6 +10,7 @@
 - 정본 버전: `PROJECT_FREEZE v0.30 PARTIAL`
 - 기준 브랜치: `main`
 - 현재 작업: `O-15F14 D1 Chicago 2020–21 정확 실행 종료 묶음. 작가가 F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략 방향을 선택; K1 30경기 국소 브리지에서 두 평점법 승자 반전 0. K1/L2 추천과 CP2 잠정 추첨은 그대로 조건부. F1~F5 전체 PASS 0/5·A1~A3 최종 채택 0/3·네 K 묶음 종료 0/4. F4/F5 건강·등록·급여/후속 검증과 F1~F3 정확 실행을 계속하고, 승인된 CP2의 D2는 조건부로만 진행`
+- 2026-09-28 작업 순서 변경: 사용자가 **3번 2021–23 거래·계약 연쇄를 끝까지 진행**하라고 명시했다. 정기 자동화 등록은 하지 않는다. [3번 종료/선택 패킷](design/CHICAGO_2021_23_MACRO3_CLOSEOUT.md)에 이미 검산한 G1/G7/G8/G9와 2번 D1 의존, Markkanen M0~M3 결정을 연결했다. 3번의 조건부 연구는 바로 진행하되 2번 미종료를 지우거나 잠정 #10/#39·계약을 정본으로 올리지 않는다. 7행 게이트는 1완료·2번 진행·3번 조건부 선행·4~7 대기, 미완료 6개, 설계/원고 CLOSED.
 - 최신 D1 작가 선택 권위: `canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json`; 검증 범위는 `simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json`. T1~T4·R1 재승인 불요, 최종 시즌·원고 게이트는 미변경.
 - D1 종료 증거 기준의 작가 선택 대기: [S0/S1/S2 결정 패킷](design/CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)은 공개 자료로 인증할 수 있는 법적 구간과 관측 불가능한 대체세계 건강·코칭을 분리한다. [제한 Claude 반박](reviews/R01_CHICAGO_D1_EVIDENCE_STANDARD_CLAUDE_REVIEW.md)을 반영했으나 어느 안도 아직 승인되지 않았다. **현행 S0가 유일한 기준**이며 F `0/5`·A `0/3`·K `0/4`, 2번 미완료, freeze/CLOSED 유지. C1/C2 선택은 별도다.
 - 최신 D1 A1 2/14 장면 범위: [AY 공식 교대 재구성](research/O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md)은 원역사 Davis–Jokić 2:39 접촉 당시 Denver의 Millsap·Monte Morris·Porter·Jokić·Murray를 확인했다. Hampton·Nnaji는 둘 다 코트 밖이므로 대체 드래프트만으로 이 장면의 선수 신원이 직접 제거되지는 않는다. 앞선 경기 흐름과 건강 사건·30경기 결장·Lakers 시드/Denver 대진은 여전히 `A1/F5/K HOLD`, F `0/5`·A `0/3`·K `0/4`, freeze/CLOSED 불변.
