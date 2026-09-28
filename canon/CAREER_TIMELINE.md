@@ -156,6 +156,7 @@ A Theis·Green의 3팀 5인 선수 이동은 작가 승인됐다. 위 2020-21 �
 
 ## 2021–25 Markkanen M1 방향 — 2026-09-28
 
+- **2021 여름 Chicago 주 경로:** [작가 선택 A](CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)에 따라 M1과 성장 코어·Caruso 영입 제안 방향을 함께 둔다. Green 재계약 제안, Young·Satoransky 계약연도 유지, Theis FA 이탈이 선택된 경로다. Caruso/Green 등 선수 수락·정확 서명일·SQ1 cap·15+2 등록은 HOLD. Lonzo/DeRozan 원형 거래를 Chicago에 자동 실행하지 않는다.
 - **2021 여름:** [작가 선택 M1](CHICAGO_2021_MARKKANEN_M1_DECISION.json)에 따라 Chicago 4년 완전보장 `$17m/$18.36m/$19.72m/$21.08m` 제안·수락을 작품 사건으로 둔다. 실제 서명일·CBA 통과·그날 명단은 HOLD.
 - **2021–22:** PF32분은 정상 가용일의 계획안. 실제 GP/GS/분과 주인공·Carter·Young·Caruso의 공동 출전 배분, 팀 승패는 HOLD.
 - **2022 여름:** 원역사 Markkanen의 Cleveland 소유를 전제로 한 Mitchell→Cleveland 동일 대가를 복사하지 않는다. Mitchell의 대체 행선지와 Utah/Cleveland 후속은 HOLD.
