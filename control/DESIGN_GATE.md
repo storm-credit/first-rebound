@@ -32,7 +32,7 @@ last_reviewed: 2026-09-12
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | FOUNDATION_PARTIAL / 16_CHAPTERS_READ / 3_WORKS_FIRST_FIVE / 3_BODY_PLATFORMS / DEEP_READ_INCOMPLETE |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
-| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_HASH_CHECKED / ACTUAL_EPISODE_PACKS_0 |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_HASH_REPINNED_2026_09_28 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |

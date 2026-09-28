@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = '8bd0cc8a9aefeda72e4683a35bceba646f3a50a2'
+BASE_COMMIT = '8cee5a0'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
@@ -21,7 +21,8 @@ def load(path, root=ROOT):
 
 
 def sha(path, root=ROOT):
-    return hashlib.sha256((root / path).read_bytes()).hexdigest()
+    # Git may check out the same text with CRLF on Windows and LF elsewhere.
+    return hashlib.sha256((root / path).read_bytes().replace(b'\r\n', b'\n')).hexdigest()
 
 
 def validate_design(structure, career, promises, root=ROOT):
@@ -112,16 +113,22 @@ def make_samples(root=ROOT):
         ('CP2-A06-S3', 'A06-S3', 'K1/L2와 사전 기록된 M 추첨의 잠정 연결 확인',
          ['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json',
           'simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json',
-          'simulation/NBA_2021_PROVISIONAL_DRAFT.json'],
+          'simulation/NBA_2021_PROVISIONAL_DRAFT.json',
+          'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json',
+          'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json'],
          ['CHI 31–41은 K1 조건부 추천', 'L2는 WAS 승리/IND 패배의 사건안',
           '사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번'],
          ['K1', 'L2', 'M_DRAW'], '사실 검증자',
-         ['정확 건강·등록·charge', '전체 60픽의 현재 소유 구단과 선수 지명']),
+         ['F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략 방향은 작가 선택; 정확 건강·등록·charge는 미검증',
+          'Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님',
+          '전체 60픽의 현재 소유 구단과 선수 지명']),
         ('CP2-A13-S3', 'A13-S3', '결말 기능과 RC1의 선행 상호 비용 연결 확인',
-         [CAREER, 'design/ENDING_THEME.md'],
+         [CAREER, 'design/ENDING_THEME.md',
+          'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json'],
          ['결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점'],
          [], '주인공 밀착 3인칭 후보 — 설계 시점만',
-         ['2028 대진·수취인 RC1은 새 창작 추천', '점수·남은 시간·패스 각도·잔류·건강'])]
+         ['M1 계약 제안은 2024–25 종료; 2028 Markkanen 소속·잔류는 미확정',
+          '2028 대진·수취인 RC1은 새 창작 추천', '점수·남은 시간·패스 각도·잔류·건강'])]
     out = []
     for pid, sid, function, extra, facts, events, pov, holds in configs:
         s = next(s for s in structure['subacts'] if s['id'] == sid)
@@ -133,9 +140,9 @@ def make_samples(root=ROOT):
         active = [p['id'] for p in promises['promises'] if sid in [p['plant'], *p['variations'], p['payoff']]]
         out.append(dict(
             pack_id=pid, target_episode_or_design_unit=sid,
-            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-09-12',
+            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-09-28',
             source_commit=BASE_COMMIT,
-            source_revision='BASE_COMMIT_PLUS_REVIEWED_WORKTREE_HASHES',
+            source_revision='MAIN_BASE_PLUS_REVIEWED_CONTENT_HASHES',
             source_revision_note='source_commit는 기반 커밋. 새 설계 파일은 같은 커밋에 포함됐다는 뜻이 아니며 아래 개별 해시가 실제 내용을 고정한다.',
             canon_version='PROJECT_FREEZE v0.30 PARTIAL', timeline_window=s['window'],
             pov_character=pov, entry_state=s['entry_state'], episode_function=function,
@@ -144,6 +151,9 @@ def make_samples(root=ROOT):
             active_setup=active, payoff_or_defer='설계 기능 검증만; 실제 회수·원고 없음',
             reader_expected_question=a['question'], do_not_explain_device=True,
             allowed_facts=facts, fact_status='CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT',
+            decision_boundaries=[
+                'F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다',
+                'M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다'],
             required_historical_events=events, relationship_state=s['relationship_in_play'],
             physical_state='HOLD — 개별 날짜의 신체·건강 확정 없음',
             basketball_constraints=s['institutional_constraint'], promises_to_pay=active,
@@ -165,6 +175,12 @@ def validate_samples(data, root=ROOT):
     for p in data['samples']:
         if p['purpose'] != 'DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK' or p['manuscript_allowed'] is not False:
             errors.append(p['pack_id'] + ': purpose')
+        if len(p.get('decision_boundaries', [])) != 2:
+            errors.append(p['pack_id'] + ': missing author-decision boundary')
+        if 'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json' not in p['source_links']:
+            errors.append(p['pack_id'] + ': missing M1 source')
+        if p['pack_id'] == 'CP2-A06-S3' and 'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json' not in p['source_links']:
+            errors.append(p['pack_id'] + ': missing F4/F5 source')
         if set(p['source_links']) != set(p['source_content_sha256']):
             errors.append(p['pack_id'] + ': source hash coverage')
         for path, expected in p['source_content_sha256'].items():

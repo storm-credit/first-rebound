@@ -2,10 +2,10 @@
 
 - [파생 JSON](CP2_DESIGN_VALIDATION_SAMPLES.json): A06-S3(2021 잠정 결산 연결), A13-S3(결말 기능과 선행 신뢰).
 - 상태: `DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK`. 실제 회차 팩0개·원고0개. [Context Pack 규약](README.md)의 CLOSED 상태 샘플 허용 범위다.
-- 기반 커밋은 PR #167의 `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 새 설계 파일까지 해당 기반 커밋에 들어 있었다는 뜻은 아니다. 같은 변경 묶음의 실제 내용을 `source_content_sha256`로 고정한다. 따라서 기반 커밋+개별 내용 해시가 생성 버전이다.
+- 현재 검토 기준 main은 PR #325 뒤의 `8cee5a0`이다. 새 샘플은 그 상태의 출처를 검토해 내용 해시로 다시 고정했다. 작업 브랜치에서 갱신한 `control/DESIGN_GATE.md`의 실제 내용도 별도 해시가 고정한다. 기반 커밋 하나가 모든 새 파일을 포함한다는 뜻은 아니다.
+- 해시는 UTF-8 파일의 `CRLF`를 `LF`로 정규화한 바이트에 적용한다. 운영체제의 체크아웃 줄바꿈 차이만 무시하며 본문 변경은 여전히 `STALE`로 검출한다.
 - 먼저 `python tools/build_cp2_design_packets.py --check`로 검사한다. 정본/설계가 바뀌면 `STALE` 오류가 나며, 근거 검토 없이 builder를 돌려 오류를 숨기지 않는다. 검토된 변경만 기본 builder로 새 해시를 생성한다.
-- 2026-09-28 D1 후속: [Hall 재계약·McGee 거래 생략 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)은 이 샘플의 현재 JSON에 반영되지 않았다. `--check`는 두 샘플 모두 STALE을 보고한다(연표 외의 선행 다수 출처도 포함). 실제 회차 Pack으로 사용하지 않고 D1 정확 시즌/연관 설계 출처를 검토한 뒤 재생성한다.
-- 2026-09-28 3번 후속: [Markkanen M1 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)과 그 비용/타 구단 연쇄도 이 과거 설계 샘플에는 반영되지 않았다. 해시 오류를 무시하거나 샘플을 실제 회차 Pack으로 승격하지 않는다. D1 시즌·G8 실행을 검토한 다음 두 샘플을 재생성한다.
+- 2026-09-28 재생성: [Hall 재계약·McGee 거래 생략 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)과 [Markkanen M1 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)을 각 샘플의 참조와 `decision_boundaries`에 연결했다. A06에서 M1은 다음 여름 사건으로만 읽고 2020–21 시즌 결과의 소급 근거로 쓰지 않는다. A13의 2028 Markkanen 소속은 2024–25까지인 M1 제안만으로 확정하지 않는다. 정확 시즌·계약과 실제 회차 기능표가 여전히 HOLD이므로 이 재생성은 G14 최종 PASS가 아니다.
 
 | 샘플 | 검증할 기능 | 원고에 넘기지 않을 HOLD |
 |---|---|---|

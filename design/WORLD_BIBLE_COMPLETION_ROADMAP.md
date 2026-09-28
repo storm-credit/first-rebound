@@ -12,6 +12,8 @@
 
 [M1 2022–23 세금선 민감도](../simulation/CHICAGO_2022_M1_TAX_SENSITIVITY.md)는 G1A형 G8 192조건에 작가 선택 M1 급여 증분을 반영해 12개 조건의 부분합 여유 부호가 바뀜을 확인했다. 전체 계약/방출 잔액과 G1 여름 주 경로는 아직 `HOLD`이므로 3번 종료 판정은 아니다.
 
+[G14 CP2 설계 샘플 재검문](../context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)은 23개 낡은 출처 해시를 F4/F5·M1 시간 경계까지 검토해 갱신한다. 실제 회차 Pack은 0개이며 G11 딥리드·G13 전체 회차 기능표·앞선 시즌 정본 없이는 6번 최종 종료가 아니다.
+
 [K1+L2 대진 재현](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)은 Denver–Lakers 1라운드를 산출했다. 기존 Denver–Portland→Phoenix 10경기 분 검사는 원역사 비교로 보존하며, 2번 F5/K_METHOD_EVENTS 종료에는 새 상대·결과 원장이 필요하다. 일곱 매크로 게이트의 상태와 진행 중 포함 미완료 6개는 바뀌지 않는다.
 
 [Denver–Lakers 개막 분 검문](../research/O15F14AV_DEN_LAL_OPENING_MINUTE_TEMPLATES.md)은 다른 상대와 치른 원역사 개막 경기에서 각 팀 240:00의 실명 비교값을 회수하고 5/23 Lakers의 Gasol DNP/Horton-Tucker `7:05` 행 오류를 바로잡았다. 대체 출전분은 선택하지 않았으며 두 박스는 단일 대체 경기의 5대5 시계·승패 증거가 아니다. F5/K 종료를 바꾸지 않는다.
