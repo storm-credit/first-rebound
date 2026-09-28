@@ -44,6 +44,8 @@ AX 원경기 재집계에서 2/14 뒤 Davis의 원역사 결장 30경기는 14�
 
 [LeBron 20+6경기 창 원장](../research/O15F14BB_LEBRON_20_PLUS_6_GAME_CONTACT_AUDIT.md)은 3/20 Hill 접촉 부분 경기와 첫 20결장 8–12/2복귀 0–2/재결장 6경기 4–2/최종 복귀 2승을 분리했다. 31개 경기는 F038 28·Remaining 3에 대응하며 첫 결장 16경기가 Davis 창과 겹친다. 5/3 Lakers가 Denver를 4점 차로 이긴 원역사 맞대결은 LeBron 재결장 구간이다. 두 평점법 승자 유지 31/31은 원역사 건강 입력의 검사이며 대체 건강·시드·F5 시리즈의 PASS가 아니다.
 
+[A1 두 사건 선택 준비](../design/CHICAGO_2020_21_A1_LAKERS_HEALTH_DECISION_PACKET.md)는 2/14 Davis 부분 출전까지 누락 없이 포함해 31+31−17=45개 원경기 날짜를 검문 목록으로 고정했다. H00/H10/H01/H11은 아직 후보이고, 날짜 집합은 승패 예측이나 A1·F5 통과가 아니다. S0/S1/S2와 Cleveland C1/C2 답도 별도 대기한다.
+
 F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 원경기 출전분 초과 없이 5인조·240분·10개 평점 방향을 통과했다. 5/11·13 Wagner의 최소 추가 `3:03`·`6:40`과 Vučević/Nnaji 상한 부하, 전체 계약·후속 등록은 열려 있어 F4/A1/K 판정은 올리지 않는다.
 
 F5 Cleveland의 별도 [Varejão C1/C2 결정 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교한다. C2를 추천하지만 **작가 선택 전 후보**다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.
