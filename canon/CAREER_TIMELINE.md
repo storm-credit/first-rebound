@@ -153,3 +153,10 @@
 ## 2021-03-25 이후 최신 경계 — 2026-09-09
 
 A Theis·Green의 3팀 5인 선수 이동은 작가 승인됐다. 위 2020-21 행의 A `PRIMARY_LEAN / AUTHOR_GATE`는 `AUTHOR_APPROVED_PLAYER_ROUTE / EXECUTION_DETAILS_HOLD`로 대체된다. 후반 29경기 조건부 분 용량만 통과했으며 정확 시즌 GP/GS/분·가용성·승패는 HOLD다. opening 목표 68/58/1,938 및 64/32/1,760은 재개방됐다.
+
+## 2021–25 Markkanen M1 방향 — 2026-09-28
+
+- **2021 여름:** [작가 선택 M1](CHICAGO_2021_MARKKANEN_M1_DECISION.json)에 따라 Chicago 4년 완전보장 `$17m/$18.36m/$19.72m/$21.08m` 제안·수락을 작품 사건으로 둔다. 실제 서명일·CBA 통과·그날 명단은 HOLD.
+- **2021–22:** PF32분은 정상 가용일의 계획안. 실제 GP/GS/분과 주인공·Carter·Young·Caruso의 공동 출전 배분, 팀 승패는 HOLD.
+- **2022 여름:** 원역사 Markkanen의 Cleveland 소유를 전제로 한 Mitchell→Cleveland 동일 대가를 복사하지 않는다. Mitchell의 대체 행선지와 Utah/Cleveland 후속은 HOLD.
+- **2022–23 이후:** M1의 급여는 2024–25까지 비용 입력이다. 2023/24·2024/25 전체 팀 급여와 2023 Coby/LaMelo 선택, 주인공 장기 커리어의 정확 결과는 HOLD. [연쇄 원장](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)을 따른다.

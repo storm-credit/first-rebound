@@ -1,5 +1,7 @@
 # O-15G8C — Markkanen 2021 잔류 제안·이탈 비용 시험
 
+**후속 선택(2026-09-28):** 아래 네 안은 선택 전 비교 이력이다. 작가가 [M1 Chicago 4년 잔류](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)를 선택·위임했다. [M1 연쇄](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)와 [금액 오버레이](CHICAGO_2021_M1_AUTHOR_BRIDGE.json)가 현행 방향이다. 여기서의 M0 기준 숫자와 M2/M3 후보는 비교용으로 남고, 정확 계약 등록·시즌·3번 완료는 HOLD다.
+
 - 기준: `main` `d66637f`; [G8B 선수 동의 관문](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md), [G1 2021–23](CHICAGO_2021_23_CONTINUATION.md), [G3 실명 15자리](CHICAGO_2021_NAMED_ROSTER_OPTIONS.md), [G8 계약 순서](CHICAGO_2021_23_CONTRACT_SEQUENCE.md).
 - 상태: `FOUR_MUTUALLY_EXCLUSIVE_CANDIDATES / NOT_CANON`. 네 후보를 합산하지 않는다. 원고·정확 계약·선수 동의·시즌·픽 선택은 `HOLD`.
 

@@ -348,3 +348,7 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 ## O-15G14 — 세 경기 양 팀 분·공격기회 비교
 
 [G14 권위](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md)에3경기78행·상대17명1087전년도행, CHI3/DET1/SAC1의240분5증명과ORL가드12분HOLD를 연결했다. 24팀정책16숫자/8HOLD·12양팀조건 중4만 양쪽숫자다. 역사적 선수FGA/FTA/TOV 예산을 예측/포제션/점수로 취급하지 않는다. 다음은 Suggs개막이전환산·ORL12분 역할 대안이며 SAC거래연쇄는 등록/자산회수 뒤 확장한다. 실제시즌/계약·독립/작가승인 미완료, 전체1완료·6진행/남은6개·독서16회차·실제Pack/원고0·v0.30 PARTIAL·설계/원고CLOSED 유지.
+
+## 2026-09-28 3번 Markkanen M1 선택 후속
+
+사용자는 [M1 Chicago 4년 잔류](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)의 선택·반영을 위임했다. [금액 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json)와 [2021–23 후손](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)은 원형 Mitchell 거래 대가, Young의 2022 Spurs→Toronto 이동/Branham #20, Lonzo 관련 Chicago 2R 제재를 현행 경로에 자동 이식하지 않는다. 2021–23 정확 계약·시즌과 2번 D1 최종 시즌/추첨은 HOLD다. 7행 중 1완료·2번 진행·3번 조건부 선행·4~7 대기, **미완료 큰 작업 6개**, v0.30 PARTIAL·설계/원고 CLOSED 유지. 작업은 연속 진행하며 정기 자동화는 등록하지 않는다.

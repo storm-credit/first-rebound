@@ -1108,3 +1108,7 @@ G1A(육성 코어·Markkanen·Caruso, Theis 시장 이탈)와 E2(2022 직접 RFA
 ## 2026-09-28 O-15F14-Q/S — 선택된 F4/F5와 F2 자리 검문
 
 작가가 [F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략](CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)을 방향으로 선택했다. [선택 브리지](../simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md)의 F4/F5 국소 분·등록·승패 검사는 최종 시즌이 아니다. 원안 Hall hardship 허가와 McGee 거래 TPE·두 2R 이전은 **선택 경로에서 발생하지 않는다**. [F2 Orlando 3/25 등록 연결](../research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md)은 일반 15+투웨이 2의 공개 자리 산술만 통과했다. 현재 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md)의 F 전체 PASS 0/5·A 최종 채택 0/3·K 종료 0/4, 7행 1완료·1진행·5대기·미완료 6개다. A2의 행정 비발생 방향을 다시 선택받지 않으며 A1 건강·A3 최종 시즌, F1~F5 남은 실행은 `HOLD`. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, `manuscript_allowed=false`를 유지한다.
+
+## 2026-09-28 O-15G8G — Markkanen M1 2021 잔류 방향 선택
+
+작가가 [M1 선택](CHICAGO_2021_MARKKANEN_M1_DECISION.json)의 반영을 위임했다. 대체세계에서 Markkanen은 Chicago 4년 완전보장 제안 `$17m/$18.36m/$19.72m/$21.08m`을 선택하는 **작품 사건 방향**이다. M2 1년 QO·M3 이탈은 비선택이다. 정상 가용일 PF32분은 제안된 역할이며 경기별 사실이 아니다. [M1 금액 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json)와 [후행 거래 연쇄](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)에 따라 원형 Cleveland→Utah Mitchell 대가를 그대로 복사하지 않는다. G1A 전체 선수 합의·SQ1 법적 실행·최종 2020–21 시즌/2021 픽·2022–23 결과는 미확정이다. G8C의 M0 예산은 과거 비교로 보존한다. 3번 `OPEN`, F `0/5`·A `0/3`·K `0/4`, v0.30 PARTIAL, 설계/원고 `CLOSED`와 미완료 큰 작업 6개 유지.

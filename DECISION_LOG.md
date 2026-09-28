@@ -777,3 +777,7 @@ P QO30쌍·Carter CX1~4(CX1 4년50m 제안 추천)·2022 유지192조건/방출�
 ## O-15G10 통합 상태 대조
 
 PR #176 이후 PROJECT_STATE 상단의 G9 작업 포인터와 DESIGN_GATE G11의1회차 표시가 뒤처져 있음을 수정했다. G11은16회차·3작품 초반·본문3플랫폼의 부분 완료이며 전체 PASS가 아니다. 통합 패킷은 G7/G8/G9/G10 최신 권위와 일곱 추천 묶음의 사실/작가 선택 한계를 한곳에 연결한다. 승인 범위/원고 게이트 변경0. DESIGN_GATE의 상태 설명만 검토한 뒤 설계 샘플2개의 해당 출처 해시를 갱신한다.
+
+## 2026-09-28 O-15G8G — Markkanen M1 작가 선택
+
+사용자가 3번의 연속 진행을 지시하고 M1 선택·반영 권한을 명시적으로 위임했다. [결정 JSON](canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)은 Chicago 4년 잔류 제안·수락 방향과 연봉 `$17m/$18.36m/$19.72m/$21.08m`을 기록한다. M2 QO·M3 이탈은 비선택이며 G8C의 M0 값은 과거 비교로 남긴다. [M1 연쇄](research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)는 원형 Mitchell 대가, Young→Toronto→Branham, Lonzo 관련 2R 제재를 자동 복사하지 않는다. 작가 선택의 범위는 **Markkanen 사건 방향**이며 G1A 전체·SQ1·2021 지명·최종 시즌/계약 적법성·Mitchell 행선지의 승인이 아니다. 3번 OPEN, 미완료 큰 작업 6개, freeze/CLOSED 유지. 정기 자동화는 등록하지 않는다.
