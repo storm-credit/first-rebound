@@ -3,6 +3,7 @@
 - 판정: `HISTORICAL_ACTOR_CONFIRMED / ALTERNATE_CONTACT_AND_HEALTH_HOLD`.
 - 범위: Chicago 2020–21 D1의 A1 건강, F5 Denver 첫 대진, K_HEALTH·K_METHOD_EVENTS. 원고나 새 건강 사건을 쓰지 않는다.
 - 선행: [AX 시드 민감도](O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md) · [AY Davis 접촉 선수](O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md) · [AZ Davis 결장 30경기 원장](O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md).
+- 후속: [BB LeBron 20+6경기 원장](O15F14BB_LEBRON_20_PLUS_6_GAME_CONTACT_AUDIT.md)은 부분 출전/두 결장/두 복귀 창의 31개 고유 경기와 Davis 겹침을 재현한다.
 
 ## 원역사의 사건과 활성 세계선의 분리
 
