@@ -20,6 +20,8 @@
 
 [2/14 Davis 장면의 공식 교대 재구성](../research/O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md)은 원역사 2쿼터 2:39 Denver 코트 5명에 Hampton·Nnaji가 없음을 확인했다. Hampton의 대체 Dallas행은 이 장면의 선수 신원을 직접 없애지 않지만 앞선 포제션·의료 결과의 재현은 보증하지 않는다. A1 건강 선택·F5 대진 및 종료 수는 그대로다.
 
+[Davis 결장 창 30경기 접촉 원장](../research/O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md)은 F038 859경기 부분 26개·선행 Remaining 3개·Boundary 1개에서 원역사 14–16과 조건부 승자 유지 30/30을 재현했다. F038 변경 경기와의 교집합은 0이지만, Davis 건강을 바꾸는 A1 달력은 아직 시험하지 않았다.
+
 [대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
