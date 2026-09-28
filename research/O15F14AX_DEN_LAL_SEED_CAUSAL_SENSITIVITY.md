@@ -30,6 +30,8 @@
 
 [NBA의 3/20 LeBron 발목 부상 보도](https://www.nba.com/news/lebron-james-leaves-lakers-game-with-right-ankle-injury-will-not-return)는 그날 Atlanta전에서 별도 접촉 후 James가 이탈한 사건을 기록한다. 30경기 창을 이 날짜 기준으로 분리하면 3/20 **이전 13경기 7–6**, 3/20 Atlanta전 **1경기 0–1**, 이후 **16경기 7–9**다. F038의 변경 경기 ID와 이 30경기의 교집합은 **0개**다. 즉 F038의 Lakers 42승·6번 시드는 Davis의 원역사 결장 구간과 그 사이 LeBron 사건의 경기 결과를 그대로 둔 조건부 계산이다. A1에서 Davis 재악화나 결장 길이를 달리 고르면 30경기 중 영향을 받는 날짜·상대와 LeBron의 독립 건강 사건을 구분해 재계산해야 한다. 16패를 모두 승리로 뒤집거나 James 부상까지 자동 삭제하지 않는다.
 
+[AZ의 30경기 원장 결합](O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md)은 이 30개를 F038의 859경기 부분 26개·선행 Remaining 3개·Boundary 1개에 각각 연결하고 두 평점법의 기존 승자 유지 30/30을 검산했다. 따라서 859경기 `game_summary`만 보고 네 경기가 미계산됐다고 해석하지 않는다. 3/28 Orlando 상대 원역사 +3점은 기존 조건부 입력에서 Lakers 약 +1점대로 좁아지지만 Davis 건강을 변경한 계산은 아니다.
+
 ## 인과 판정과 다음 작업
 
 **추론:** 대체 Denver는 원역사 2월 로스터의 Hampton 분을 가질 수 없으므로 2/14 경기 전체와 Davis 재악화의 동일 재현을 당연시할 수 없다. 다만 [AY의 공식 플레이바이플레이 재구성](O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md)에서 원역사 **2:39 Davis–Jokić 접촉 당시 Denver 코트 5명에는 Hampton·Nnaji가 모두 없었다.** Hampton의 Dallas행 자체가 그 장면의 선수 신원을 직접 제거하지는 않는다. 앞선 경기 흐름과 의료 달력은 달라질 수 있어 **재부상 유지·회피나 Lakers의 추가 승리 어느 쪽도 자동 사실이 아니다**. 4/15은 Davis가 원역사에 빠진 실제 패배 중 하나라서 *대진 경계 시험*에 적합하지만, 그날 James·Drummond도 결장했고 Boston이 121점을 냈다. Davis 한 명의 복귀가 8점 차를 뒤집는다는 예측으로 읽지 않는다.
