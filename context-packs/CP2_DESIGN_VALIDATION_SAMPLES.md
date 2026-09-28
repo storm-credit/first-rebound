@@ -5,6 +5,7 @@
 - 기반 커밋은 PR #167의 `8bd0cc8a9aefeda72e4683a35bceba646f3a50a2`. 새 설계 파일까지 해당 기반 커밋에 들어 있었다는 뜻은 아니다. 같은 변경 묶음의 실제 내용을 `source_content_sha256`로 고정한다. 따라서 기반 커밋+개별 내용 해시가 생성 버전이다.
 - 먼저 `python tools/build_cp2_design_packets.py --check`로 검사한다. 정본/설계가 바뀌면 `STALE` 오류가 나며, 근거 검토 없이 builder를 돌려 오류를 숨기지 않는다. 검토된 변경만 기본 builder로 새 해시를 생성한다.
 - 2026-09-28 D1 후속: [Hall 재계약·McGee 거래 생략 선택](../canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json)은 이 샘플의 현재 JSON에 반영되지 않았다. `--check`는 두 샘플 모두 STALE을 보고한다(연표 외의 선행 다수 출처도 포함). 실제 회차 Pack으로 사용하지 않고 D1 정확 시즌/연관 설계 출처를 검토한 뒤 재생성한다.
+- 2026-09-28 3번 후속: [Markkanen M1 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)과 그 비용/타 구단 연쇄도 이 과거 설계 샘플에는 반영되지 않았다. 해시 오류를 무시하거나 샘플을 실제 회차 Pack으로 승격하지 않는다. D1 시즌·G8 실행을 검토한 다음 두 샘플을 재생성한다.
 
 | 샘플 | 검증할 기능 | 원고에 넘기지 않을 HOLD |
 |---|---|---|

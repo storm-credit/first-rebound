@@ -1,6 +1,6 @@
 # 3번 2021–23 거래·계약 연쇄 — 조건부 실행과 종료 경계
 
-- 상태: `CONDITIONAL_WORK_AUTHORIZED / AUTHOR_CHOICE_PENDING / MACRO_GATE_OPEN`.
+- 상태: `M1_AUTHOR_SELECTED / EXACT_EXECUTION_HOLD / MACRO_GATE_OPEN`. 이 문서 아래의 M1/M2/M3 비교표는 선택 **이전**의 판단 근거로 보존한다. 현행 선택 권위는 [M1 작가 선택](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json), 후행 사실·추론·HOLD는 [M1 연쇄](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)다.
 - 작업 지시: 사용자는 2026-09-28에 2번의 미해결 선택을 보존한 채 **3번을 끝까지 진행**하라고 했다. 정기 자동화 등록은 요청하지 않았다.
 - 선행 권위: [7행 로드맵](WORLD_BIBLE_COMPLETION_ROADMAP.md), [CP2 통합 검토](CP2_INTEGRATED_REVIEW_PACKET.md), [D1 채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md), [G1 여름 4안](../simulation/CHICAGO_2021_23_CONTINUATION.md), [G8 취득 순서](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md).
 - 유지: `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`. Chicago 원클럽·LaMelo 2020 #4·Theis/Green A·F4 Hall 재계약 생략·F5 McGee 거래 생략을 다시 선택하지 않는다.
@@ -37,12 +37,12 @@ M1의 Chicago 4년 잔류에서는 Cleveland가 2022년 9월 Markkanen을 보유
 
 ## 결정 뒤 작업 순서
 
-1. Markkanen M 경로의 작가 선택을 기록한다. 선택 전 네 안 모두 `CANDIDATE`, 새 작가확정 0건이다.
+1. Markkanen M1 경로의 작가 선택은 기록했다. M2/M3는 비선택, M0은 과거 비교 입력이다. M1의 제안·수락 작품 사건 외의 계약/리그 실행은 `HOLD`다.
 2. 2021 지명 DB1/C39A 및 G1A/B/C/D의 선수·픽/권리 의존을 날짜별로 재검산하고, SQ1~SQ4의 cap/apron을 선택 경로에만 적용한다. Chicago #10/#39는 D1이 닫힐 때까지 잠정이다.
 3. 2022 주인공 E1–E4, Carter CX, LaVine 제안과 실제 동의·등록/옵션을 같은 급여 원장으로 연결한다. 2021 계약을 2022에도 무료로 유지하지 않는다.
 4. 2021–22/2022–23 역할·건강·상대 승패가 2023 옵션/RFA/연장 및 픽·플레이오프에 미치는 파급을 검문한다. 필요한 중요 작가 선택은 비교안을 만든 뒤 요청한다.
 5. Codex 재현/링크/권위 감사와 별도 반증 검토를 기록한 PR→main을 따른다. 독립 도구가 실행되지 않으면 `NOT_RUN`; G16/G17·원고 게이트의 대용으로 삼지 않는다.
 
-**현재 판정:** 3번 `OPEN / CONDITIONAL_EXECUTION`, Markkanen M 선택 `AUTHOR_PENDING`, 2021–23 최종 계약/시즌 `HOLD`. 7행은 1완료·2번 진행·3번 조건부 선행·4~7 대기이며, **미완료 큰 작업 6개**다. 이는 날짜 예약이나 완료율이 아니다.
+**현재 판정:** 3번 `OPEN / CONDITIONAL_EXECUTION`, Markkanen M1 방향 `AUTHOR_SELECTED`, 2021–23 정확 계약/시즌 `HOLD`. 7행은 1완료·2번 진행·3번 조건부 선행·4~7 대기이며, **미완료 큰 작업 6개**다. 이는 날짜 예약이나 완료율이 아니다.
 
-**분류·검증:** Yle 직접 인터뷰와 NBA Utah/Cleveland 구단 발표는 원역사 **사실**. 2022 Mitchell 원형 거래가 Markkanen의 Cleveland 소유를 필요로 한다는 것은 자산 보존 **인과 검사**. M1/M2/M3와 계약 가격·선수 수락은 **대체세계 후보**, 신규 작가확정 0건. Codex는 기존 G8C 차액 `$1,309,091/$1,884,546`과 2022 tax 여유 `$1,460,032` 및 상대 링크를 재확인했다. 이번 자료에서 Anti-Gravity·NotebookLM·Claude·별도 source-blind 검수는 `NOT_RUN`; 동일 구단 기사를 다시 읽는 것은 독립 자료 증가가 아니다. G16/G17 통과나 3번 완료로 세지 않는다.
+**분류·검증:** 이 비교 패킷의 Yle 인터뷰와 NBA Utah/Cleveland 구단 발표는 원역사 **사실**. Mitchell 원형 거래가 Markkanen의 Cleveland 소유를 필요로 한다는 것은 자산 보존 **인과 검사**. 원래 작성 시 M1/M2/M3와 가격·수락은 모두 후보였으나, 이후 **M1만 작가 선택**됐다. M1 증분 `$1,309,091/$1,884,546`과 2022 tax 단순 여유 `$1,460,032`는 [선택 오버레이](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json)로 이어진다. 원래 패킷 시점의 Anti-Gravity·NotebookLM·Claude·source-blind `NOT_RUN`은 [후속 M1 연구](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)의 도구 기록으로 대체해 읽는다. G16/G17 통과나 3번 완료로 세지 않는다.

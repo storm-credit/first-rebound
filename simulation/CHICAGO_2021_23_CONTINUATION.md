@@ -1,5 +1,7 @@
 # O-15G1 — Chicago 2021–23 조건부 거래·계약 작업안
 
+**2026-09-28 후속 선택:** 아래 G1A~D와 E1~E4 숫자는 작성 당시 비교 입력으로 보존한다. 작가는 [Markkanen M1 4년 Chicago 잔류](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)만 선택했다. G1A 전체 선수 영입이나 E2 계약은 아직 작가 선택이 아니다. M1 연봉 증분·Mitchell 거래 및 2022–23 자산 파급은 [후속 원장](../research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md)을 따른다.
+
 - 상태: `CONDITIONAL_DESIGN_AND_BUDGET / CP2`.
 - 권위: [입력](CHICAGO_2021_23_CONTINUATION_INPUTS.json), [계산 결과](CHICAGO_2021_23_CONTINUATION.json), [출처 목록](../research/CHICAGO_2021_23_CONTINUATION_SOURCES.json).
 - **추천 G1A + E2**. 작가 확정 계약·시즌이 아니다. `author_locked=false`, `season_selected=false`, 원고 CLOSED.

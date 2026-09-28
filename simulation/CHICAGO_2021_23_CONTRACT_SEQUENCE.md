@@ -1,5 +1,7 @@
 # O-15G8 — Chicago 2021 취득 순서와 2022–23 계약 연결
 
+**2026-09-28 후속 선택:** 작가는 [Markkanen M1 제안·수락 작품 사건](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json)을 선택했다. 아래 SQ1~SQ4의 금액 입력은 M0 비교 예산과 선수 동의 미정이던 **작성 시점의 조건부 모델**이다. [M1 오버레이](CHICAGO_2021_M1_AUTHOR_BRIDGE.json)는 별도이며 SQ1 법적 순서·명단·전체 Team Salary 검증은 HOLD다. 원 모델을 소급해 M1 계약 실행 PASS로 읽지 않는다.
+
 **조건부 순서·금액 검토 / NOT_CANON / NOT_INDEPENDENT**. G7 DB1/AP1/C39A의15자리와 G1A/E2를 유지한다. 새 계약 수락이나 전 구단 원장을 확정하는 문서가 아니다. 2021 Green 선서명 취득4경로×주인공30급여×Young보너스2조건=240조건, Green 후행 서명 SQ1의 실효 보류액3가정×30급여×2보너스=180조건, 주인공 QO30쌍,2022 유지4정책×48예산=192조건을 계산했다.
 
 이 수치 시험에는 Markkanen의 **선수 동의가 들어 있지 않다**. [G8B 선수 관문](../research/O15G8B_MARKKANEN_2021_CONSENT_GATE.md)의 원역사 이적 희망과 대체 세계 역할·보장 기간·경쟁 제안 대조 전까지 SQ1의 Mark Bird 서명 단계는 `G1A_CONSENT_HOLD`다. 이하 숫자는 계약이 수락됐다는 뜻이 아니다.
