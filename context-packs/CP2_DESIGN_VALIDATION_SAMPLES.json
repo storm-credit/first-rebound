@@ -5,9 +5,9 @@
       "pack_id": "CP2-A06-S3",
       "target_episode_or_design_unit": "A06-S3",
       "purpose": "DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK",
-      "generated_at": "2026-09-12",
-      "source_commit": "8bd0cc8a9aefeda72e4683a35bceba646f3a50a2",
-      "source_revision": "BASE_COMMIT_PLUS_REVIEWED_WORKTREE_HASHES",
+      "generated_at": "2026-09-28",
+      "source_commit": "8cee5a0",
+      "source_revision": "MAIN_BASE_PLUS_REVIEWED_CONTENT_HASHES",
       "source_revision_note": "source_commit는 기반 커밋. 새 설계 파일은 같은 커밋에 포함됐다는 뜻이 아니며 아래 개별 해시가 실제 내용을 고정한다.",
       "canon_version": "PROJECT_FREEZE v0.30 PARTIAL",
       "timeline_window": "2020–21",
@@ -28,6 +28,10 @@
         "사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번"
       ],
       "fact_status": "CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT",
+      "decision_boundaries": [
+        "F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다",
+        "M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다"
+      ],
       "required_historical_events": [
         "K1",
         "L2",
@@ -38,7 +42,8 @@
       "basketball_constraints": "K1/L2 조건·정확 실행 미완료",
       "promises_to_pay": [],
       "hold_fields": [
-        "정확 건강·등록·charge",
+        "F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략 방향은 작가 선택; 정확 건강·등록·charge는 미검증",
+        "Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님",
         "전체 60픽의 현재 소유 구단과 선수 지명"
       ],
       "forbidden_moves": [
@@ -61,12 +66,14 @@
         "research/STYLE_FUNCTION_COMPARISON.md",
         "simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json",
         "simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json",
-        "simulation/NBA_2021_PROVISIONAL_DRAFT.json"
+        "simulation/NBA_2021_PROVISIONAL_DRAFT.json",
+        "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json",
+        "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json"
       ],
       "source_content_sha256": {
-        "canon/PROJECT_FREEZE.md": "573c14b8ccfd3083062c5584ee2f81321cdaf7d45065978c1b96d00d91eb9c42",
-        "canon/CAREER_TIMELINE.md": "e70c0e63181a9532a3a15ab399619ce4f850d07c3041f3a5a39bcd3de32d27d6",
-        "control/DESIGN_GATE.md": "26cce876ee6129844bc083670e7f33382cee4c62c35c7407738dbb932128589c",
+        "canon/PROJECT_FREEZE.md": "a24720e8b2365ccfdfffc09cb47e839c321fd06edcf6693a5c49fdf000d16d82",
+        "canon/CAREER_TIMELINE.md": "35fc50e9ab7d8092bc9350b73b0e963bb0eea39adab98db02168f72c0a69f710",
+        "control/DESIGN_GATE.md": "2901cf203fdb01d06a1c81b7f3c8c3e79e089e79279179777e828282a8c98737",
         "design/CP2_ACT_SUBACT_PACKET.json": "7c16061616d7a267385ebbbaf42c73735b1b85ab4789ce748593c1da5965d390",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "c045d22ffe502a8743a15a48f2e5be5bbd418d6785eb739e8754f4941a8e3038",
@@ -75,7 +82,9 @@
         "research/STYLE_FUNCTION_COMPARISON.md": "cfcb6ec93e5267255bfdc3adcbc1eac1f5c3d7f80e29b9a302c79f75fd4ce3d1",
         "simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json": "19427d536c0ef5bb136d570ad04ed6de6cb285e68e0c3ff06c88e65c718a70f9",
         "simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json": "8ba9fce2eb0c30f16912ee6ffcde4d6b461239b3c768d05f771859546c776817",
-        "simulation/NBA_2021_PROVISIONAL_DRAFT.json": "feeeec4e28c79c2e0bed722b56ee6e5045bf92abce722b261084a6196c750e06"
+        "simulation/NBA_2021_PROVISIONAL_DRAFT.json": "feeeec4e28c79c2e0bed722b56ee6e5045bf92abce722b261084a6196c750e06",
+        "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+        "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088"
       },
       "integrity_status": "CONTENT_HASH_PINNED_DESIGN_ONLY",
       "manuscript_allowed": false,
@@ -85,9 +94,9 @@
       "pack_id": "CP2-A13-S3",
       "target_episode_or_design_unit": "A13-S3",
       "purpose": "DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK",
-      "generated_at": "2026-09-12",
-      "source_commit": "8bd0cc8a9aefeda72e4683a35bceba646f3a50a2",
-      "source_revision": "BASE_COMMIT_PLUS_REVIEWED_WORKTREE_HASHES",
+      "generated_at": "2026-09-28",
+      "source_commit": "8cee5a0",
+      "source_revision": "MAIN_BASE_PLUS_REVIEWED_CONTENT_HASHES",
       "source_revision_note": "source_commit는 기반 커밋. 새 설계 파일은 같은 커밋에 포함됐다는 뜻이 아니며 아래 개별 해시가 실제 내용을 고정한다.",
       "canon_version": "PROJECT_FREEZE v0.30 PARTIAL",
       "timeline_window": "2027–28",
@@ -109,6 +118,10 @@
         "결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점"
       ],
       "fact_status": "CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT",
+      "decision_boundaries": [
+        "F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다",
+        "M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다"
+      ],
       "required_historical_events": [],
       "relationship_state": "LaMelo·LaVine·라이벌 및 해당 시즌 코어",
       "physical_state": "HOLD — 개별 날짜의 신체·건강 확정 없음",
@@ -118,6 +131,7 @@
         "P3"
       ],
       "hold_fields": [
+        "M1 계약 제안은 2024–25 종료; 2028 Markkanen 소속·잔류는 미확정",
         "2028 대진·수취인 RC1은 새 창작 추천",
         "점수·남은 시간·패스 각도·잔류·건강"
       ],
@@ -140,12 +154,13 @@
         "research/STYLE_READING_OBSERVATIONS.json",
         "research/STYLE_FUNCTION_COMPARISON.md",
         "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
-        "design/ENDING_THEME.md"
+        "design/ENDING_THEME.md",
+        "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json"
       ],
       "source_content_sha256": {
-        "canon/PROJECT_FREEZE.md": "573c14b8ccfd3083062c5584ee2f81321cdaf7d45065978c1b96d00d91eb9c42",
-        "canon/CAREER_TIMELINE.md": "e70c0e63181a9532a3a15ab399619ce4f850d07c3041f3a5a39bcd3de32d27d6",
-        "control/DESIGN_GATE.md": "26cce876ee6129844bc083670e7f33382cee4c62c35c7407738dbb932128589c",
+        "canon/PROJECT_FREEZE.md": "a24720e8b2365ccfdfffc09cb47e839c321fd06edcf6693a5c49fdf000d16d82",
+        "canon/CAREER_TIMELINE.md": "35fc50e9ab7d8092bc9350b73b0e963bb0eea39adab98db02168f72c0a69f710",
+        "control/DESIGN_GATE.md": "2901cf203fdb01d06a1c81b7f3c8c3e79e089e79279179777e828282a8c98737",
         "design/CP2_ACT_SUBACT_PACKET.json": "7c16061616d7a267385ebbbaf42c73735b1b85ab4789ce748593c1da5965d390",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "c045d22ffe502a8743a15a48f2e5be5bbd418d6785eb739e8754f4941a8e3038",
@@ -153,7 +168,8 @@
         "research/STYLE_READING_OBSERVATIONS.json": "4221f532be7a225f1e83de77c36019a53a73c6a333e2477d637d0588eab0a5b1",
         "research/STYLE_FUNCTION_COMPARISON.md": "cfcb6ec93e5267255bfdc3adcbc1eac1f5c3d7f80e29b9a302c79f75fd4ce3d1",
         "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json": "bb4b3d848717d2ccc8bac3635ff0b916c6d1e2bcf8ebf2f913ff6f21283a2f66",
-        "design/ENDING_THEME.md": "929807f42a2d1ed0f8229ecf5bb1f2e3f00642732cbaa590cbce630fae0c34f3"
+        "design/ENDING_THEME.md": "929807f42a2d1ed0f8229ecf5bb1f2e3f00642732cbaa590cbce630fae0c34f3",
+        "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088"
       },
       "integrity_status": "CONTENT_HASH_PINNED_DESIGN_ONLY",
       "manuscript_allowed": false,

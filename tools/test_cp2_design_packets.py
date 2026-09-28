@@ -1,5 +1,7 @@
 import copy
+import tempfile
 import unittest
+from pathlib import Path
 import build_cp2_design_packets as m
 
 
@@ -43,6 +45,17 @@ class DesignBoundaryTests(unittest.TestCase):
         p['source_content_sha256']['canon/CAREER_TIMELINE.md'] = '0' * 64
         errors = m.validate_samples(samples)
         self.assertTrue(any('STALE canon/CAREER_TIMELINE.md' in e for e in errors))
+
+    def test_source_hash_ignores_only_checkout_line_endings(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            path = root / 'sample.md'
+            path.write_bytes(b'alpha\nsecond\n')
+            expected = m.sha('sample.md', root)
+            path.write_bytes(b'alpha\r\nsecond\r\n')
+            self.assertEqual(m.sha('sample.md', root), expected)
+            path.write_bytes(b'alpha\r\nchanged\r\n')
+            self.assertNotEqual(m.sha('sample.md', root), expected)
 
     def test_no_skipped_year_or_pretended_episode_completion(self):
         self.c['seasons'].pop(6)
