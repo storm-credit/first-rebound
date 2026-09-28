@@ -16,7 +16,7 @@ class AssetTests(unittest.TestCase):
         self.assertFalse(b['G4_top14_compatible']);self.assertTrue(b['requires_new_top14_board'])
 
     def test_cash_sale_is_separate_dated_event(self):
-        p=json.loads(INPUT.read_text());d=json.loads((ROOT/p['parent']).read_text());s=p['scenarios'][0]
+        p=json.loads(INPUT.read_text(encoding='utf-8'));d=json.loads((ROOT/p['parent']).read_text(encoding='utf-8'));s=p['scenarios'][0]
         p['cash_sale_dal_second']=True;rows=project(p,d,s)['rows']
         self.assertEqual(rows[51]['owner'],'PHI');self.assertEqual(rows[52]['owner'],'DET')
         with self.assertRaises(ValueError):transfer(rows,2,'DAL','NOP','PHI','duplicate')

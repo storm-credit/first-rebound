@@ -51,7 +51,7 @@ def future_settlement(terms,positions):
 
 
 def build():
-    p=json.loads(INPUT.read_text());g4=json.loads((ROOT/p['parent_board']).read_text());g5=json.loads((ROOT/p['parent_assets']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'));g4=json.loads((ROOT/p['parent_board']).read_text(encoding='utf-8'));g5=json.loads((ROOT/p['parent_assets']).read_text(encoding='utf-8'))
     a=next(s for s in g5['scenarios'] if s['id']==p['asset_policy'])
     ss=[resolve(s,a,p) for s in g4['scenarios']]
     pool=set(g4['tracked_candidate_pool'])|{n for r in p['rows'] for n in r['priority']}|set(p['sengun_buyer_priority'])
@@ -60,5 +60,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True,rows=x['first_round_comparison_rows'],Sengun_trade={s['id']:s['Sengun_trade_status'] for s in x['scenarios']},second_round_unjudged=30,author_locked=False),ensure_ascii=False))

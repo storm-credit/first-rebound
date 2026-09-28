@@ -22,18 +22,18 @@ class ContinuationTests(unittest.TestCase):
             self.assertEqual(len(taken),30)
 
     def test_no_unseen_candidate_drops_from_top14(self):
-        p=json.loads(INPUT.read_text());g4=json.loads((ROOT/p['parent_board']).read_text())
+        p=json.loads(INPUT.read_text(encoding='utf-8'));g4=json.loads((ROOT/p['parent_board']).read_text(encoding='utf-8'))
         for old,new in zip(g4['scenarios'],build()['scenarios']):
             compared={n for r in new['board'][14:] for n in r['available_comparison']}
             self.assertTrue(set(old['tracked_candidates_not_yet_picked']).issubset(compared))
 
     def test_incompatible_assets_are_rejected(self):
-        p=json.loads(INPUT.read_text());g4=json.loads((ROOT/p['parent_board']).read_text());g5=json.loads((ROOT/p['parent_assets']).read_text())
+        p=json.loads(INPUT.read_text(encoding='utf-8'));g4=json.loads((ROOT/p['parent_board']).read_text(encoding='utf-8'));g5=json.loads((ROOT/p['parent_assets']).read_text(encoding='utf-8'))
         with self.assertRaises(ValueError):resolve(g4['scenarios'][0],g5['scenarios'][1],p)
         with self.assertRaises(ValueError):resolve(g4['scenarios'][0],g5['scenarios'][0],p,{'15':['Trey Murphy']})
 
     def test_future_protection_threshold_and_termination(self):
-        det,was=json.loads(INPUT.read_text())['sengun_future_picks']
+        det,was=json.loads(INPUT.read_text(encoding='utf-8'))['sengun_future_picks']
         self.assertEqual(future_settlement(det,{'2022':17})['status'],'CONVEYS_FIRST')
         early=future_settlement(det,{'2022':16,'2023':19});self.assertEqual(early['asset']['year'],2023);self.assertEqual(early['later_obligations'],[])
         for t in [det,was]:

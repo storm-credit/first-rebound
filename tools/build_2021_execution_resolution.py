@@ -55,7 +55,7 @@ def funding(terms):
 
 
 def build():
-    s = json.loads(SOURCE.read_text())
+    s = json.loads(SOURCE.read_text(encoding='utf-8'))
     assert not any(s[k] for k in ('author_locked', 'season_selected', 'manuscript_allowed'))
     assert not s['gordon']['terms_adopted'] and not s['mcgee']['terms_adopted']
     examples = [(2023,{2025:6}), (2023,{2025:5,2026:5,2027:5}),
@@ -77,6 +77,6 @@ def build():
 
 if __name__ == '__main__':
     r = build()
-    OUT.write_text(json.dumps(r, ensure_ascii=False, indent=2)+'\n')
+    OUT.write_text(json.dumps(r, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True, simple_matching_pass=r['mcgee_funding']['simple_matching_pass'],
                          future_assets_selected=0, exact_execution_cleared=False)))

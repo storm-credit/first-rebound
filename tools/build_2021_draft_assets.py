@@ -61,7 +61,7 @@ def project(p,parent,s):
 
 
 def build():
-    p=json.loads(INPUT.read_text());parent=json.loads((ROOT/p['parent']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'));parent=json.loads((ROOT/p['parent']).read_text(encoding='utf-8'))
     scenarios=[project(p,parent,s) for s in p['scenarios']]
     tests2023=[]
     for ranks_order in permutations(['OKC','WAS','DAL','MIA']):
@@ -72,5 +72,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(PASS=True,projection_rows=x['projection_rows'],future_2023_orders=len(x['future_2023_permutations']),future_2025_orders=len(x['future_2025_order_cases']),final_rights_verified=False)))
