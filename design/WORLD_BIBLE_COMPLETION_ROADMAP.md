@@ -4,6 +4,8 @@
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`
 
+**6번 선행 작업 갱신(2026-09-28):** [G11 공식 독서 원장](../research/STYLE_REFERENCE_ACCESS.md)은 21/110회차·첫5화 완독4/10작품·본문3/4플랫폼이다. 미독89화와 네 번째 플랫폼 본문·작품별 추출/합성이 남아 G11은 미완료다. G14 설계 샘플2개는 출처 내용을 재검토해 해시를 재고정하지만 실제 회차 Pack0이다. 6번의 최종 종료와 설계·원고 게이트 개방으로 계산하지 않는다. 아래 16회차 표기는 해당 시점 이력이다.
+
 ## 1. 현재 산출물
 
 **현행 체크포인트(2026-09-28):** Chicago 정규시즌 1080경기 조건부 입력은 [F14F](../simulation/CHICAGO_2020_21_FULL_SEASON_CONNECTION.md)에서 완료됐다. [K1 시즌 추천](../simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.md)·[L2 플레이인 추천](../simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)과 [승인된 CP2의 잠정 추첨](../simulation/NBA_2021_PROVISIONAL_DRAFT.md)도 완료했다. **정확 시즌/선수 지명/계약 정본은 미확정**이다. 작가가 Hall 5/9 재계약과 McGee 거래의 **생략 방향**을 선택했고, F2 Orlando 3/25 공개 자리 산술은 통과했다. [채택 준비 색인](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md)의 F1~F5는 선택 경로의 남은 실행 검문, A1~A3는 남은 최종 채택 게이트다. A2의 선택 방향을 다시 묻지 않는다. 네 K 조건 묶음은 모두 미완료이며 현재 D1 병목이다. 아래 F10~F14 초기 문단은 누적 작업 이력이며 현행 중단 지점으로 읽지 않는다.
