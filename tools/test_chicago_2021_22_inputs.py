@@ -16,7 +16,7 @@ class SeasonInputTests(unittest.TestCase):
 
     def test_saved_derivatives_reproduce(self):
         for path, text in self.outputs.items():
-            self.assertEqual(path.read_text(), text, path.name)
+            self.assertEqual(path.read_text(encoding='utf-8'), text, path.name)
 
     def test_schedule_and_game_identity(self):
         r = self.report

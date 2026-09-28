@@ -33,8 +33,8 @@ def ingest(folder):
     rows = []
     for name, expected in mirror['full_file_sha256'].items():
         path = folder / name
-        assert sha(path) == expected, 'Pinned source changed'
-        with path.open() as stream:
+        assert prior.raw_sha(path) == expected, 'Pinned source changed'
+        with path.open(encoding='utf-8', newline='') as stream:
             for r in csv.DictReader(stream):
                 if r['season_year'] == '2020-21' and r['personName'] in names:
                     rows.append(dict(season=r['season_year'], date=r['game_date'],
@@ -275,7 +275,7 @@ def build():
                  result='CONDITIONAL_GREEN_PROBABLE_IS_NOT_MEDICAL_CLEARANCE')],
         actual_game_minutes_selected=0, team_score_delta=None, season_wins=None,
         independent_review='NOT_INDEPENDENT', guardrails=config['guardrails'],
-        input_sha256={str(p.relative_to(ROOT)): sha(p) for p in
+        input_sha256={p.relative_to(ROOT).as_posix(): sha(p) for p in
             (CONFIG, SOURCE, OBS, META, prior.AVAIL, prior.ROLE, prior.PRIORS,
              S / 'CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv')})
     return {BOOK: json_text(book), QUEUE: csv_text(queue), REPORT: json_text(report)}
@@ -291,9 +291,9 @@ def main():
         ingest(args.source_dir)
     for path, content in build().items():
         if args.check:
-            assert path.read_text() == content, 'Stale output: ' + path.name
+            assert path.read_text(encoding='utf-8') == content, 'Stale output: ' + path.name
         else:
-            path.write_text(content)
+            path.write_text(content, encoding='utf-8', newline='\n')
     print('PASS: 8 production candidates / 16 pairs / 4 conditional witnesses; season not selected')
 
 
