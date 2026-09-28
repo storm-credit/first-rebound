@@ -5,6 +5,7 @@ stress tests, not a health forecast or a selected counterfactual result.
 """
 
 import argparse
+import csv
 import json
 from pathlib import Path
 
@@ -20,21 +21,73 @@ SCENARIOS = (
         {},
     ),
     (
-        "APR15_BOS_LAL_FLIP_ONLY",
-        "2021-04-15_BOS_LAL",
+        "APR15_LAL_BOS_FLIP_ONLY",
+        "2021-04-15_LAL_BOS",
         {"BOS": -1, "LAL": 1},
     ),
     (
-        "FEB14_LAL_DEN_FLIP_ONLY",
-        "2021-02-14_LAL_DEN",
+        "FEB14_DEN_LAL_FLIP_ONLY",
+        "2021-02-14_DEN_LAL",
         {"DEN": -1, "LAL": 1},
     ),
 )
 
 
+def davis_absence_window(observed, changed_game_ids):
+    rows = [
+        (event, row) for event, row in observed.items()
+        if "2021-02-14" < row["date"] < "2021-04-22"
+        and "LAL" in (row["home"], row["away"])
+    ]
+    rows.sort(key=lambda item: item[0])
+    assert len(rows) == 30
+    assert not {event for event, _ in rows} & set(changed_game_ids)
+    games = []
+    for event, row in rows:
+        home_margin = int(row["home_score"]) - int(row["away_score"])
+        lakers_margin = home_margin if row["home"] == "LAL" else -home_margin
+        games.append({
+            "event_id": event,
+            "date": row["date"],
+            "opponent": row["away"] if row["home"] == "LAL" else row["home"],
+            "lakers_margin": lakers_margin,
+        })
+    wins = sum(game["lakers_margin"] > 0 for game in games)
+    losses = [game for game in games if game["lakers_margin"] < 0]
+    assert (wins, len(losses)) == (14, 16)
+    before = [game for game in games if game["date"] < "2021-03-20"]
+    on = [game for game in games if game["date"] == "2021-03-20"]
+    after = [game for game in games if game["date"] > "2021-03-20"]
+    assert (len(before), len(on), len(after)) == (13, 1, 16)
+    assert (sum(game["lakers_margin"] > 0 for game in before),
+            sum(game["lakers_margin"] > 0 for game in after)) == (7, 7)
+    assert on[0]["opponent"] == "ATL" and on[0]["lakers_margin"] == -5
+    return {
+        "status": "HISTORICAL_SCHEDULE_ONLY_NOT_ALTERNATE_HEALTH",
+        "first_absent_game": games[0]["event_id"],
+        "last_absent_game": games[-1]["event_id"],
+        "games": len(games),
+        "lakers_wins": wins,
+        "lakers_losses": len(losses),
+        "f038_changed_game_ids_in_window": [],
+        "before_march20_james_injury": {"games": 13, "wins": 7, "losses": 6},
+        "march20_atl_james_injury_game": on[0],
+        "after_march20_james_injury": {"games": 16, "wins": 7, "losses": 9},
+        "original_losses": losses,
+    }
+
+
 def build():
     season = read("simulation/NBA_2020_21_FULL_SEASON.json")
     closeout = read("simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json")
+    with (ROOT / "simulation" / "NBA_2020_21_REGULAR_GAME_BASELINE.csv").open(
+        encoding="utf-8", newline=""
+    ) as source:
+        observed = {
+            f"{row['date']}_{row['home']}_{row['away']}": row
+            for row in csv.DictReader(source)
+        }
+    summaries = {item["event_id"]: item for item in season["game_summary"]}
     case = next(item for item in season["league_cases"] if item["id"] == "F038")
     proposal = next(item for item in closeout["postseason_proposals"] if item["id"] == "L2")
     assert not case["selected"] and not proposal["selected"]
@@ -43,6 +96,22 @@ def build():
     results = []
     for name, event, deltas in SCENARIOS:
         assert sum(deltas.values()) == 0
+        original_game = None
+        if event:
+            assert event in observed and event in summaries, (name, event)
+            assert summaries[event]["status"] == "ALL_TESTED_RETAIN"
+            row = observed[event]
+            home_score, away_score = int(row["home_score"]), int(row["away_score"])
+            assert home_score != away_score
+            winner, loser = (
+                (row["home"], row["away"])
+                if home_score > away_score else (row["away"], row["home"])
+            )
+            assert deltas == {winner: -1, loser: 1}, (name, deltas, row)
+            original_game = {
+                "home": row["home"], "away": row["away"],
+                "home_score": home_score, "away_score": away_score,
+            }
         wins = case["team_wins"] | {
             team: case["team_wins"][team] + delta for team, delta in deltas.items()
         }
@@ -83,6 +152,7 @@ def build():
         results.append({
             "id": name,
             "flipped_game": event,
+            "original_game": original_game,
             "win_deltas": deltas,
             "conferences": conferences,
             "denver_first_round": denver_pair,
@@ -99,6 +169,7 @@ def build():
         "status": "STRUCTURAL_STRESS_ONLY_NOT_SELECTED",
         "source_season_case": "F038",
         "source_playin_proposal": "L2",
+        "historical_davis_absence_window": davis_absence_window(observed, case["changed_game_ids"]),
         "scope": "one game winner reversed, all other F038/L2 results held fixed",
         "tie_policy": "original F038 order retained only for unchanged win ties; no newly tied changed team allowed",
         "health_or_coaching_inferred": False,

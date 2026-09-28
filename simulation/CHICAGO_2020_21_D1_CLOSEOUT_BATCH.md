@@ -40,6 +40,8 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 [한 경기 대진 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)는 F038/L2를 고정한 단일 승패 반전에서 4/15 Lakers 승리라면 Denver–Dallas 3–6, 2/14 Lakers 승리라면 Denver–Lakers 4–5와 Utah/Memphis 쪽 2라운드 갈래를 얻었다. Davis 건강이나 그 경기 승패를 선택한 결과가 아니다. F5 시리즈 분 원장은 A1의 2/14 사건 및 후속 승수 경계 뒤에 작성한다.
 
+AX 원경기 재집계에서 2/14 뒤 Davis의 원역사 결장 30경기는 14–16이고, 3/20 LeBron 발목 부상 전 13경기 7–6/당일 패배/이후 16경기 7–9로 갈린다. F038의 변경 경기에는 이 30경기가 없다. A1이 Davis 건강 경로를 바꾸면 이 날짜 창과 LeBron 별도 사건의 영향 경계를 다시 검문해야 하며 한 경기 대진 시험을 시즌 예측으로 확대하지 않는다.
+
 F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME_OBSERVED_LOAD.md)은 Bamba의 원경기 출전분 초과 없이 5인조·240분·10개 평점 방향을 통과했다. 5/11·13 Wagner의 최소 추가 `3:03`·`6:40`과 Vučević/Nnaji 상한 부하, 전체 계약·후속 등록은 열려 있어 F4/A1/K 판정은 올리지 않는다.
 
 F5 Cleveland의 별도 [Varejão C1/C2 결정 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교한다. C2를 추천하지만 **작가 선택 전 후보**다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.

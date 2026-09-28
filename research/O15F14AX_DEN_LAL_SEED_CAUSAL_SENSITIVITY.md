@@ -22,6 +22,14 @@
 
 계산은 기존 F038 승수·동률 순서를 시작점으로 사용한다. **변경된 팀이 새 승수 동률에 들어가는 시험은 금지**했으므로 새 NBA 동률 판정은 이 표에 숨어 있지 않다. 두 반전 모두 2021 플레이인 7~10위 참가 집합과 L2 승자를 그대로 둘 수 있는 순위 시험이며, 실제 경기를 다시 시뮬레이션한 결과가 아니다. NBA의 1–8, 2–7, 3–6, 4–5 대진 규칙은 [기존 연결 문서](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 공식 출처를 따른다.
 
+**경기 ID 교정:** 저장소의 사건 ID는 `날짜_홈_원정`이다. [원경기 CSV](../simulation/NBA_2020_21_REGULAR_GAME_BASELINE.csv)의 `2021-04-15_LAL_BOS`(113–121), `2021-02-14_DEN_LAL`(122–105)을 생성기가 직접 찾고 원역사 승자에게 `-1`·패자에게 `+1`이 적용됐는지 검사한다. PR #311 첫 JSON의 두 ID는 원정·홈을 뒤집어 표기했으며 승수 계산 자체에는 쓰이지 않았다. 그 잘못된 출처 연결은 이 교정으로 폐기한다.
+
+## A1이 다시 계산해야 할 원역사 건강 창
+
+[NBA Davis 복귀 보도](https://www.nba.com/news/lakers-anthony-davis-ends-30-game-injury-absence-against-mavs)는 2/14 Denver전 뒤 4/22 Dallas전 복귀 전까지 **30경기 결장·Lakers 14승 16패**를 기록한다. [기준 1080경기 CSV](../simulation/NBA_2020_21_REGULAR_GAME_BASELINE.csv)의 2/16 Minnesota전부터 4/19 Utah전까지 Lakers 30경기를 날짜·홈/원정·점수로 다시 집계해 같은 `14–16`을 얻었다. 이 구간의 16개 원역사 패배와 점수차는 [재현 JSON](../simulation/CHICAGO_2020_21_K1_L2_SEED_SENSITIVITY.json)의 `historical_davis_absence_window.original_losses`에 실명 상대와 함께 있다. 그중 원점수차 5점 이내는 2/20 Miami `-2`, 2/22 Washington `-3`, 3/3 Sacramento `-3`, 3/20 Atlanta `-5` 네 경기다. **가까운 점수차는 Davis 복귀 시 승리할 확률이나 가상 점수 보증이 아니다.**
+
+[NBA의 3/20 LeBron 발목 부상 보도](https://www.nba.com/news/lebron-james-leaves-lakers-game-with-right-ankle-injury-will-not-return)는 그날 Atlanta전에서 별도 접촉 후 James가 이탈한 사건을 기록한다. 30경기 창을 이 날짜 기준으로 분리하면 3/20 **이전 13경기 7–6**, 3/20 Atlanta전 **1경기 0–1**, 이후 **16경기 7–9**다. F038의 변경 경기 ID와 이 30경기의 교집합은 **0개**다. 즉 F038의 Lakers 42승·6번 시드는 Davis의 원역사 결장 구간과 그 사이 LeBron 사건의 경기 결과를 그대로 둔 조건부 계산이다. A1에서 Davis 재악화나 결장 길이를 달리 고르면 30경기 중 영향을 받는 날짜·상대와 LeBron의 독립 건강 사건을 구분해 재계산해야 한다. 16패를 모두 승리로 뒤집거나 James 부상까지 자동 삭제하지 않는다.
+
 ## 인과 판정과 다음 작업
 
 **추론:** 대체 Denver는 원역사 2월 로스터의 Hampton 분을 가질 수 없으므로 2/14 경기와 Davis 재악화의 동일 재현을 당연시할 수 없다. 한편 선행 아킬레스건 문제, 다른 부상·코치 선택, 상대팀 변화가 있어 **재부상 회피나 Lakers의 추가 승리도 자동 사실이 아니다**. 4/15은 Davis가 원역사에 빠진 실제 패배 중 하나라서 *대진 경계 시험*에 적합하지만, 그날 James·Drummond도 결장했고 Boston이 121점을 냈다. Davis 한 명의 복귀가 8점 차를 뒤집는다는 예측으로 읽지 않는다.
