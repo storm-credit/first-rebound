@@ -17,7 +17,11 @@ POSITIONS = ('PG', 'SG', 'SF', 'PF', 'C')
 
 
 def load(path, root=ROOT):
-    return json.loads((root / path).read_text())
+    return json.loads((root / path).read_text(encoding='utf-8'))
+
+
+def sha_text(path):
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
 
 
 def totals(budget):
@@ -30,7 +34,7 @@ def totals(budget):
 def validate(data, root=ROOT):
     errors = []
     for path, expected in data['source_content_sha256'].items():
-        if hashlib.sha256((root / path).read_bytes()).hexdigest() != expected:
+        if sha_text(root / path) != expected:
             errors.append('STALE ' + path)
     for key in ['author_locked', 'season_selected', 'exact_execution_cleared', 'manuscript_allowed']:
         if data.get(key) is not False:
@@ -111,7 +115,7 @@ def build(data):
                          status='POSITION_AND_LINEUP_CERTIFICATE_PASS'))
     return dict(stage=data['stage'], status=data['status'], cases=rows,
                 infeasible_stress=copy.deepcopy(data['infeasible_stress']),
-                source_content_sha256={**data['source_content_sha256'], INPUT: hashlib.sha256((ROOT / INPUT).read_bytes()).hexdigest()},
+                source_content_sha256={**data['source_content_sha256'], INPUT: sha_text(ROOT / INPUT)},
                 author_locked=False, season_selected=False, exact_execution_cleared=False,
                 manuscript_allowed=False, independent_review='NOT_INDEPENDENT',
                 season_results=None, substitution_timeline=None, tactical_efficiency=None)
@@ -127,10 +131,10 @@ def main():
         raise SystemExit('\n'.join(errors))
     content = json.dumps(build(data), ensure_ascii=False, indent=2) + '\n'
     if args.check:
-        if (ROOT / OUTPUT).read_text() != content:
+        if (ROOT / OUTPUT).read_text(encoding='utf-8') != content:
             raise SystemExit('STALE generated role plan')
     else:
-        (ROOT / OUTPUT).write_text(content)
+        (ROOT / OUTPUT).write_text(content, encoding='utf-8', newline='\n')
     print('PASS: 7 lineup certificates; 1 conditional center shortage; no season results')
 
 

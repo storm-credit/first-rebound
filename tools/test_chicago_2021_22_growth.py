@@ -17,7 +17,7 @@ class GrowthTests(unittest.TestCase):
 
     def test_saved_outputs_reproduce_and_stay_unselected(self):
         for path, content in self.outputs.items():
-            self.assertEqual(path.read_text(), content)
+            self.assertEqual(path.read_text(encoding='utf-8'), content)
         self.assertIsNone(self.book['selected_pair'])
         self.assertEqual(self.report['actual_game_minutes_selected'], 0)
         self.assertTrue(all(r['alternate_available'] == r['alternate_minutes'] == 'HOLD' for r in self.queue))

@@ -33,8 +33,8 @@ def ingest(folder):
     obs, pre = [], []
     for filename, expected in mirror['full_file_sha256'].items():
         path = folder / filename
-        assert sha(path) == expected, 'Pinned mirror changed'
-        with path.open() as stream:
+        assert prior.raw_sha(path) == expected, 'Pinned mirror changed'
+        with path.open(encoding='utf-8', newline='') as stream:
             for r in csv.DictReader(stream):
                 target = r['season_year'] == '2021-22' and r['gameId'].zfill(10) in ids
                 previous = r['season_year'] == '2020-21' and r['personName'] in names
@@ -253,7 +253,7 @@ def build():
         selected_budget_policy=None, selected_trade_policy=None, actual_minutes_selected=0,
         projected_points=None, team_efficiency=None, season_wins=None,
         guardrails=config['guardrails'],
-        input_sha256={str(p.relative_to(ROOT)): sha(p) for p in dependencies})
+        input_sha256={p.relative_to(ROOT).as_posix(): sha(p) for p in dependencies})
     prebook = dict(stage='O-15G14', cutoff=config['opening_information_cutoff'], priors=priors,
                    scope='HISTORICAL_NBA_PRIOR_NOT_ALTERNATE_PRODUCTION', selected=False)
     return {PREBOOK: prior.json_text(prebook), REPORT: prior.json_text(report), ALLOC: prior.csv_text(allocation_rows)}
@@ -269,9 +269,9 @@ def main():
         ingest(args.source_dir)
     for path, content in build().items():
         if args.check:
-            assert path.read_text() == content, 'Stale output: ' + path.name
+            assert path.read_text(encoding='utf-8') == content, 'Stale output: ' + path.name
         else:
-            path.write_text(content)
+            path.write_text(content, encoding='utf-8', newline='\n')
     print('PASS: 3 paired controls, 5 conditional minute witnesses; ORL role hold preserved')
 
 

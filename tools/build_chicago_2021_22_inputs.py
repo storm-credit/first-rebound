@@ -33,15 +33,21 @@ STATS = {'pts': 'points', 'fgm': 'fieldGoalsMade', 'fga': 'fieldGoalsAttempted',
 
 
 def load(path):
-    return json.loads(path.read_text())
+    return json.loads(path.read_text(encoding='utf-8'))
 
 
 def read_csv(path):
-    with path.open() as f:
+    with path.open(encoding='utf-8', newline='') as f:
         return list(csv.DictReader(f))
 
 
 def sha(path):
+    """Hash versioned text as stored on LF checkouts on every platform."""
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
+
+
+def raw_sha(path):
+    """External mirror checksums are byte-exact."""
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
@@ -70,8 +76,8 @@ def ingest(folder):
     keys = set()
     for filename, expected in config['full_file_sha256'].items():
         path = folder / filename
-        assert sha(path) == expected, 'Pinned mirror changed: ' + filename
-        with path.open() as stream:
+        assert raw_sha(path) == expected, 'Pinned mirror changed: ' + filename
+        with path.open(encoding='utf-8', newline='') as stream:
             for r in csv.DictReader(stream):
                 season = r['season_year']
                 if season not in (config['observed_season'], config['prior_season']):
@@ -254,7 +260,7 @@ def build():
         normal_minutes_without_nba_prior=sum(r['normal_role_minutes'] for r in priors if r['kind'] == 'PROPOSED_ROSTER' and r['historical_prior'] is None),
         official_game_date_checks=len(config['official_date_checks']), fresh_primary_numeric_box_checks=0,
         schedule_conflicts=config['schedule_conflicts'],
-        source_content_sha256={str(p.relative_to(ROOT)): sha(p) for p in (SOURCE, META, OBS, LEAGUE, ROLE)},
+        source_content_sha256={p.relative_to(ROOT).as_posix(): sha(p) for p in (SOURCE, META, OBS, LEAGUE, ROLE)},
         alternate_calendar_selected=False, alternate_availability_selected=False, alternate_production_selected=False,
         author_locked=False, season_selected=False, exact_execution_cleared=False, manuscript_allowed=False,
         independent_review='NOT_INDEPENDENT')
@@ -294,9 +300,9 @@ def main():
     outputs = build()
     for path, content in outputs.items():
         if args.check:
-            assert path.read_text() == content, 'STALE derived output: ' + path.name
+            assert path.read_text(encoding='utf-8') == content, 'STALE derived output: ' + path.name
         else:
-            path.write_text(content)
+            path.write_text(content, encoding='utf-8', newline='\n')
     print('PASS: 1230 observed games / 82 CHI dates / 1230 player-date rows; prior vintage separated')
 
 
