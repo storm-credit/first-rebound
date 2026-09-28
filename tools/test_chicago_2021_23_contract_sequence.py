@@ -6,9 +6,9 @@ from build_chicago_2021_23_contract_sequence import ROOT,INPUT,build,run_route,n
 class ContractSequenceTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.p=json.loads(INPUT.read_text());cls.x=build()
-        cls.g1=json.loads((ROOT/cls.p['parent_budget']).read_text())
-        g7=json.loads((ROOT/cls.p['parent_roster']).read_text())
+        cls.p=json.loads(INPUT.read_text(encoding='utf-8'));cls.x=build()
+        cls.g1=json.loads((ROOT/cls.p['parent_budget']).read_text(encoding='utf-8'))
+        g7=json.loads((ROOT/cls.p['parent_roster']).read_text(encoding='utf-8'))
         top=max(cls.g1['rookie_fourth_cases'],key=lambda c:c['salary'])
         cls.final=dict(g7['scenarios'][0]['named_roster_without_protagonist'],Protagonist=top['salary'])
 

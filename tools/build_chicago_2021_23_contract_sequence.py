@@ -93,7 +93,7 @@ def future_budget(g1,p,policy,dead_salary=None):
 
 
 def build():
-    p=json.loads(INPUT.read_text());g7=json.loads((ROOT/p['parent_roster']).read_text());g1=json.loads((ROOT/p['parent_budget']).read_text())
+    p=json.loads(INPUT.read_text(encoding='utf-8'));g7=json.loads((ROOT/p['parent_roster']).read_text(encoding='utf-8'));g1=json.loads((ROOT/p['parent_budget']).read_text(encoding='utf-8'))
     final=g7['scenarios'][0]['named_roster_without_protagonist'];routes=[]
     for route in p['routes']:
         cases=[];stage_ranges={}
@@ -142,5 +142,5 @@ def build():
 
 
 if __name__=='__main__':
-    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+    x=build();OUT.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(dict(PASS=True,route_cases=x['route_salary_cases'],routes={r['id']:{k:r[k] for k in ['min_normal_extra_limit','min_apron_extra_limit']} for r in x['routes']},QO_cases=len(x['protagonist_QO_cases']),budget2022_cases=x['budget2022_case_count'],contracts_agreed=False)))
