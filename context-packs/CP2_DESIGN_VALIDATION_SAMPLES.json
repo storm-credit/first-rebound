@@ -27,7 +27,30 @@
         "L2는 WAS 승리/IND 패배의 사건안",
         "사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번"
       ],
-      "fact_status": "CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT",
+      "fact_evidence": [
+        {
+          "claim": "CHI 31–41은 K1 조건부 추천",
+          "status": "CANDIDATE",
+          "source_paths": [
+            "simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json"
+          ]
+        },
+        {
+          "claim": "L2는 WAS 승리/IND 패배의 사건안",
+          "status": "CANDIDATE",
+          "source_paths": [
+            "simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json"
+          ]
+        },
+        {
+          "claim": "사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번",
+          "status": "CONDITIONAL_RESULT",
+          "source_paths": [
+            "simulation/NBA_2021_PROVISIONAL_DRAFT.json"
+          ]
+        }
+      ],
+      "fact_status": "CLAIM_LEVEL_STATUS_IN_FACT_EVIDENCE",
       "decision_boundaries": [
         "F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다",
         "M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다",
@@ -76,7 +99,7 @@
       "source_content_sha256": {
         "canon/PROJECT_FREEZE.md": "51589a0a1f173da4da4923ba4f1240a95a27eea12fb50a2c1bb89e4798aef7b6",
         "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
-        "control/DESIGN_GATE.md": "55e0a0438786ce22244beaade458216f660afc71c8134056e7a0011f030592c1",
+        "control/DESIGN_GATE.md": "c068b839dde0fb3ca79d7e54df4b57178ca40244a439d81d1bb0eeb69d51ca2a",
         "design/CP2_ACT_SUBACT_PACKET.json": "7c16061616d7a267385ebbbaf42c73735b1b85ab4789ce748593c1da5965d390",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "53debfb19072443018fad8d38c439a279b9d6187725bc79307e05138507341e2",
@@ -121,7 +144,16 @@
       "allowed_facts": [
         "결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점"
       ],
-      "fact_status": "CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT",
+      "fact_evidence": [
+        {
+          "claim": "결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점",
+          "status": "CANON_FUNCTION",
+          "source_paths": [
+            "design/ENDING_THEME.md"
+          ]
+        }
+      ],
+      "fact_status": "CLAIM_LEVEL_STATUS_IN_FACT_EVIDENCE",
       "decision_boundaries": [
         "F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다",
         "M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다",
@@ -167,7 +199,7 @@
       "source_content_sha256": {
         "canon/PROJECT_FREEZE.md": "51589a0a1f173da4da4923ba4f1240a95a27eea12fb50a2c1bb89e4798aef7b6",
         "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
-        "control/DESIGN_GATE.md": "55e0a0438786ce22244beaade458216f660afc71c8134056e7a0011f030592c1",
+        "control/DESIGN_GATE.md": "c068b839dde0fb3ca79d7e54df4b57178ca40244a439d81d1bb0eeb69d51ca2a",
         "design/CP2_ACT_SUBACT_PACKET.json": "7c16061616d7a267385ebbbaf42c73735b1b85ab4789ce748593c1da5965d390",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "53debfb19072443018fad8d38c439a279b9d6187725bc79307e05138507341e2",

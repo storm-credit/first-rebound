@@ -61,6 +61,16 @@ class DesignBoundaryTests(unittest.TestCase):
         samples['samples'][0]['source_links'].append(samples['samples'][0]['source_links'][0])
         self.assertTrue(any('duplicate source link' in e for e in m.validate_samples(samples)))
 
+    def test_claim_without_pinned_source_is_rejected(self):
+        samples = m.make_samples()
+        samples['samples'][0]['fact_evidence'][0]['source_paths'] = ['missing/source.json']
+        self.assertTrue(any('claim source not hash-pinned' in e for e in m.validate_samples(samples)))
+
+    def test_conditional_claim_cannot_be_promoted_to_fact(self):
+        samples = m.make_samples()
+        samples['samples'][0]['fact_evidence'][2]['status'] = 'FACT'
+        self.assertTrue(any('invalid or promoted claim status' in e for e in m.validate_samples(samples)))
+
     def test_source_hash_ignores_only_checkout_line_endings(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

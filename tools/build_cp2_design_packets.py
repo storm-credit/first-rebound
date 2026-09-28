@@ -117,8 +117,13 @@ def make_samples(root=ROOT):
           'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json',
           'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json',
           'canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json'],
-         ['CHI 31–41은 K1 조건부 추천', 'L2는 WAS 승리/IND 패배의 사건안',
-          '사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번'],
+         [dict(claim='CHI 31–41은 K1 조건부 추천', status='CANDIDATE',
+               source_paths=['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json']),
+          dict(claim='L2는 WAS 승리/IND 패배의 사건안', status='CANDIDATE',
+               source_paths=['simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json']),
+          dict(claim='사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번',
+               status='CONDITIONAL_RESULT',
+               source_paths=['simulation/NBA_2021_PROVISIONAL_DRAFT.json'])],
          ['K1', 'L2', 'M_DRAW'], '사실 검증자',
          ['F4 Hall 5/9 재계약 생략·F5 McGee 거래 생략 방향은 작가 선택; 정확 건강·등록·charge는 미검증',
           'Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님',
@@ -128,7 +133,8 @@ def make_samples(root=ROOT):
          [CAREER, 'design/ENDING_THEME.md',
           'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json',
           'canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json'],
-         ['결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점'],
+         [dict(claim='결말 기능은 수비→리바운드→직접 전진→유리한 동료에게 패스→동료 결승 득점',
+               status='CANON_FUNCTION', source_paths=['design/ENDING_THEME.md'])],
          [], '주인공 밀착 3인칭 후보 — 설계 시점만',
          ['M1 계약 제안은 2024–25 종료; 2028 Markkanen 소속·잔류는 미확정',
           'G1A 선택은 2028 Caruso·Green 소속이나 실제 계약 수락을 확정하지 않음',
@@ -154,7 +160,8 @@ def make_samples(root=ROOT):
             primary_narrative_device=s['primary_device'], secondary_device_optional=s['secondary_device'],
             active_setup=active, payoff_or_defer='설계 기능 검증만; 실제 회수·원고 없음',
             reader_expected_question=a['question'], do_not_explain_device=True,
-            allowed_facts=facts, fact_status='CANON_FUNCTION_OR_EXPLICIT_CONDITIONAL_RESULT',
+            allowed_facts=[f['claim'] for f in facts], fact_evidence=facts,
+            fact_status='CLAIM_LEVEL_STATUS_IN_FACT_EVIDENCE',
             decision_boundaries=[
                 'F4/F5 선택 방향은 정확 시즌·의료·등록 PASS가 아니다',
                 'M1 제안·수락 방향은 2021 여름 사건이며 2028 잔류나 전체 계약 실행 PASS가 아니다',
@@ -198,6 +205,15 @@ def validate_samples(data, root=ROOT):
             errors.append(pid + ': duplicate source link')
         if set(links) != set(hashes):
             errors.append(pid + ': source hash coverage')
+        evidence = p.get('fact_evidence', [])
+        if len(evidence) != len(p.get('allowed_facts', [])) or [e.get('claim') for e in evidence] != p.get('allowed_facts', []):
+            errors.append(pid + ': claim evidence coverage')
+        for e in evidence:
+            if e.get('status') not in {'CANON_FUNCTION', 'CANDIDATE', 'CONDITIONAL_RESULT'}:
+                errors.append(pid + ': invalid or promoted claim status')
+            paths = e.get('source_paths', [])
+            if not paths or len(paths) != len(set(paths)) or any(path not in hashes for path in paths):
+                errors.append(pid + ': claim source not hash-pinned')
         generated = expected_by_id.get(pid)
         if generated is not None:
             body = {k: v for k, v in p.items() if k != 'source_content_sha256'}
