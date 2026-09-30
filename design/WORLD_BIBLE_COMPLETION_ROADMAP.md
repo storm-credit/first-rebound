@@ -1,5 +1,9 @@
 # World Bible Completion Roadmap
 
+실제 [리디1화 음성 구성요소 파일럿](../research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.md)은 문맥으로 분류한현재/매개기억/UI를 두 번 열람해 지문 재현했다. 음성 구성요소1/50·전체P3 아님·새 독서0. 기록 재분류의 CT는 명확한1작품만 남겨 교차작품 후보HOLD다.
+
+**6번 G11 후속(2026-10-01):** [공식 인기 근거](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md) 최소 쌍10/10·별도 미확인 카운터4작품. [기존50회차 기능표](../research/G11_RECORDED_FUNCTION_CODING_2026_10_01.md)는6기능300칸의 P2 기록 재분류이며 전체P3/SAMPLE 최종은 HOLD다. 새 독서0·95/110·미독15·실제Pack0, 7행 상태/미완료6·freeze/CLOSED 유지. 아래5/10 인기 연결은 최초 배치 이력이다.
+
 **6번 G11 전작 P1 계보 심사(2026-10-01):** [10작품 인기 근거](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md)를 전작 행별 대조했다. 서로 다른 종류의 분명한 근거 연결5/10·지표 정의/원작 연결 HOLD5이며, 홈플레이트 시리즈의 관심 수 오기를 다운로드 아이콘 집계로 정정했다. 새 독서0·95/110·미독15, 전체 P3/합성은 HOLD·실제 회차 Pack0·freeze/CLOSED·미완료6이다.
 
 **6번 로그인 없는 검증(2026-10-01):** [리디 5화 구조 계측](../research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.md)은 두 번 열람 5/5 재현, 새 독서0이다. 95/110·첫5화10/10·핵심20화3/4·미독15화는 유지한다. [기록 검사](../reviews/G11_READING_EVIDENCE_REPORT.json)는 계수/지문만 확인하며 G11 전체 P3는 HOLD다. [CP2 샘플](../context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)은 검토자 정보와 극중 지식을 분리하고 실제 회차 Pack0·G14 최종 HOLD를 유지한다. 작가는 로그인 없이 가능한 작업 우선을 선택했다. 큰 묶음은 1완료·2번 진행·3번 조건부 선행·4~5대기·6번 기초 진행·7번 대기, 미완료6·freeze/CLOSED다.

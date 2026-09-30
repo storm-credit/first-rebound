@@ -1,10 +1,13 @@
 # 하우스 스타일 기초 — 설계 검토용
 
+실제 [리디1화 음성 구성요소 파일럿](../research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.md)은 문맥으로 분류한현재/매개기억/UI를 두 번 열람해 지문 재현했다. 음성 구성요소1/50·전체P3 아님·새 독서0. 기록 재분류의 CT는 명확한1작품만 남겨 교차작품 후보HOLD다.
+
 - 상태: `FOUNDATION_PARTIAL / REFERENCE_DEEP_READ_INCOMPLETE`.
 - 적용 권위: `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`.
 - 참고작 실제 열람 범위는 [접근·독서 원장](../research/STYLE_REFERENCE_ACCESS.md)에 별도 기록한다. 아래 규칙 대부분은 프로젝트의 성격·농구·권한 요구에서 만든 기초안이며 참고작 전체 딥리드의 결론이 아니다.
 - 공통 `novel-writing-skills` 확인 `f3af0eb`(2026-09-30)의 `REFERENCE_DEEP_READ` P0~P3·대체 표본 재판정·스포츠 모듈을 [G11 대응표](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)로 연결했다. 리디 《내가 키운 S급들》·문피아 《닥터, 조선 가다》의 각 1~5화는 실제 본문 `P2`로 읽어 작업용 표본에 편입했다. 현재 작업용 표본의 독서 범위는 95/110·첫5화10/10이나 동일 검사표 `P3`, 캔버스 계측 및 House Style 최종 판정은 보류한다.
-- [10작품 인기 근거 계보 심사](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md)는 P1 자료를 전작 행별 대조했다. 두 종류의 분명한 근거 연결5/10·지표 정의/원작 연결 HOLD5이며 전체 P3나 하우스 스타일 최종 확정이 아니다.
+- [10작품 인기 근거 계보 심사](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md)는 P1 자료를 전작 행별 대조했다. 최소 두 종류의 식별 가능한 공식 근거 연결10/10이며, 미확인 카운터4작품은 이번 근거쌍에 쓰지 않은 별도 부채다. 전체 P3나 하우스 스타일 최종 확정이 아니다.
+- [첫5화 동일 기능표](../research/G11_RECORDED_FUNCTION_CODING_2026_10_01.md)는 기존50회차의6기능300칸을 관찰 인덱스와 연결한다. 현재 아래 평가·권한·공간·정보·후속 비용 규칙에 증인을 붙이는 P2 재분류이며 새로운 전역 규칙/POV/문장·음성 목표가 아니다. 미기록과 부재를 구분하며 SAMPLE/FULL/G11 최종HOLD다.
 - 원고·대사 샘플0개. `manuscript_allowed=false`, G11 최종 PASS 아님.
 - 2026-10-01 [리디 연재판 5화 계측](../research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.md)의 두 번 열람 지문·계측 해시는 5/5 재현됐다. 구조 계측만 통과했고 기능별 대사 비율·전체 P3는 HOLD다. 관측 수치를 문단 크기 목표로 적용하지 않는다. 공통 스킬의 2~4문장은 같은 행동·인식 연결 점검으로 문구를 수정했다.
 

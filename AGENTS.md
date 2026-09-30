@@ -4,6 +4,8 @@ User instruction recorded 2026-09-27: continue `first-rebound` repository work i
 
 User clarification recorded 2026-09-28: continuation is triggered by **completion of the current milestone**, not by a two-hour timer. Keep working on macro group 2 until its documented exit criteria are actually met. As soon as group 2 is complete, report the evidence and continue directly to macro group 3 in Codex under the existing authorization; do not wait for a scheduled heartbeat or ask for the same approval again. Continue the remaining approved roadmap in order, escalating only a consequential author choice under the rule below. A paused periodic heartbeat is not a reason to stop active work.
 
+User clarification recorded 2026-10-01: continue authorized work without asking additional questions or registering schedules. Keep preparing and validating independent work while a consequential choice is unselected; leave promotion of that choice and dependent canon CLOSED/HOLD. A no-question continuation request does not specify an individual health, season, title, or final manuscript-gate choice. Report completed work and concrete remaining dependencies without repeating pending questions.
+
 ## At the start of each continuation
 
 1. Read `PROJECT_STATE.md`, `canon/PROJECT_FREEZE.md`, `control/DESIGN_GATE.md`, and `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` from the latest `main`. Check recent PRs/commits and the working tree. Use these files to recover the actual checkpoint; do not restart the plan from a remembered older season.
