@@ -4,7 +4,7 @@
 - 판정: `PACKET_ASSEMBLED / FACT_BLOCKERS_OPEN / NOT_READY_FOR_FINAL_ADOPTION`.
 - 이 문서는 현재 확보 범위와 잔여 의존을 연결하는 색인이다. 아래 분야별 문서·JSON이 사실과 산술의 권위를 가진다.
 - `author_locked=false`, `season_selected=false`, `manuscript_allowed=false`. v0.30 PARTIAL·설계/원고 CLOSED.
-- **2026-09-30 F5 선택 후속:** [C2 Varejão 영입·후속 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. 아래 C1/C2 대기 표기는 선택 전 이력이다. 기존 5경기 분·승패 감도는 조건부이며 Cleveland 전체 건강·명단·급여 및 Denver 새 플레이오프는 `HOLD`다. F 전체 PASS 0/5.
+- **2026-09-30 F5 선택 후속:** [C2 Varejão 영입·후속 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. [BD 8경기 명단 검문](../research/O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md)은 나머지 계약 유지·McGee/Hartenstein 1대1 치환 조건에서 5/4~16 각 경기일 일반15+투웨이2를 확인했다. 아래 C1/C2 대기 표기는 선택 전 이력이다. 기존 5경기 분·승패 감도는 조건부이며 오프데이 등록·Cleveland 전체 건강/급여·Denver 새 플레이오프는 `HOLD`다. F 전체 PASS 0/5.
 
 ## 1. 시즌·사건 추천은 완성돼 있다
 
