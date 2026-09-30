@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "tool": "Claude CLI",
+      "scope": "Fresh source-blind artifact review",
+      "status": "TIMEOUT_NO_RESPONSE",
+      "duration_seconds": 75.068,
+      "prior_reviewer_outputs_supplied": false
+    },
+    {
+      "tool": "Claude CLI",
+      "scope": "Fresh source-blind narrow final claims plus three retained CT witnesses",
+      "duration_seconds": 35.854,
+      "exit_code": 0,
+      "session_id": "00c47956-5784-4dc8-abf8-2d96328182f1",
+      "is_error": false,
+      "result": "## Verdict\n\nInternally the arithmetic holds (50 records × 6 codes = 300 cells), but three claims are stated at a confidence the artifact cannot carry. All three CT witnesses do not survive the definition given.\n\n## Necessary corrections\n\n**1. \"Four separate unknown counter definitions\" forbids a single unknown figure.**\nFour definitions means four incommensurable counters. They cannot be summed, averaged, or reported as \"the unknowns\" in the 300-cell grid. Correction: attach a definition ID to every unknown count, report them as four parallel series, and designate one as operative for any comparison. Until that is done, no unknown-rate statement about the 300 cells is well-formed.\n\n**2. The evidence base is 50/110, not 95/110.**\nNo new reading occurred, so 95/110 is an inherited coverage figure, unverified in this artifact — and only 50 records were recoded. Every cell-level count therefore rests on 50 items (≈45% of corpus, ≈53% of read material), first-five chapters only. Correction: state 50/110 as the denominator for all coded claims; keep 95/110 explicitly labeled as carried-forward, non-reverified. With whole-P3 and sample-final false, no saturation, stability, or corpus-rate claim is available.\n\n**3. \"Ten official P1 evidence pairs\" overstates status, and CT has at most one clean witness.**\nWith all manuscript gates false and P3 false, \"official\" can only mean *logged and unadjudicated*. Relabel accordingly.\n\nAgainst the stated definition (a choice linked to another actor bearing a cost):\n\n| Witness | Verdict |\n|---|---|\n| 나 혼자만 레벨업 ch.4 — hypothesis/rule gap causes others' failure cost | **Borderline.** Cost is a downstream consequence of an epistemic gap; no choice is identified as the link. Reads as a mechanism note, not CT. |\n| 홈 플레이트의 빌런 ch.3 — declares overseas move, separates parents' worry from support | **Fails.** Disclosure and dialogue-sorting only; no actor is shown bearing a cost. Recode or drop. |\n| 닥터, 조선 가다 ch.2 — family cooperation set as the cost of the treatment choice | **Passes.** Choice, linked actor, and borne cost all present. |\n\nSo CT stands on one clear witness plus one borderline. If a P1 pair requires two qualifying witnesses, CT cannot yet ground one; the ten-pair count must be reduced by any pair resting on these three.\n\n## Standing limits\n\nParaphrases are recorded, not quoted, and locators are chapter-level — blind verification of code fit is impossible for the borderline case. And per your own stipulation, every figure here is a count of recorded observations, not a body frequency; that qualifier must travel with each number rather than appear once in a preamble.",
+      "primary_body_authenticated": false,
+      "prior_reviewer_outputs_supplied": false
+    }
+  ],
+  "whole_primary_body_verified": false
+}

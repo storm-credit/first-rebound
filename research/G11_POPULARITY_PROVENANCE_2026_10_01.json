@@ -1,10 +1,10 @@
 {
   "stage": "G11_P1_POPULARITY_PROVENANCE_RECONCILIATION",
-  "baseline_main": "6e4fc81",
+  "baseline_main": "e784f8d",
   "observed_on": "2026-10-01",
   "work_rows_reviewed": 10,
-  "two_kinds_reconciled": 5,
-  "remaining_provenance_or_metric_definition_holds": 5,
+  "two_kinds_reconciled": 10,
+  "remaining_provenance_or_metric_definition_holds": 4,
   "readings_added": 0,
   "sample_selection_final": false,
   "whole_P3_final": false,
@@ -13,7 +13,7 @@
   "manuscript_allowed": false,
   "independent_source_verification": false,
   "raw_novel_text_retained": false,
-  "scope_note": "Official snapshots, award/publication facts and adaptation responses. Distinct indicators are not independent readers or novel-body evidence. No ranking or sales conversion.",
+  "scope_note": "Ten works have two identifiable official evidence kinds including an in-platform novel measure or platform-issued dated novel rank. This reconciles evidence pairs, not quality/rank comparisons, unique readers, independent issuers, complete P3, final sample or author gates. Four works retain separate unused counter-definition debts.",
   "works": [
     {
       "work": "재벌집 막내아들",
@@ -28,20 +28,35 @@
       "second": {
         "url": "https://tv.jtbc.co.kr/plan/pr10011524",
         "kind": "OFFICIAL_DRAMA_PRODUCTION_PAGE",
-        "verified": "TITLE_AND_PRODUCTION_ONLY",
-        "novel_author_credit_verified": false
+        "verified": "PRODUCTION_PAGE_PLUS_EXPLICIT_ORIGINAL_AUTHOR_CREDIT",
+        "novel_author_credit_verified": true,
+        "identity_source": {
+          "url": "https://www.joonganggroup.com/newsroom/press/view?pno=3891",
+          "issuer": "JTBC / 중앙그룹",
+          "published_on": "2026-03-30",
+          "verified": "JTBC identifies 산경 as the original author of 재벌집 막내아들. The same paragraph describes 신입사원 강회장 as another same-author novel adaptation; do not conflate the two novels."
+        }
       },
-      "status": "SECOND_KIND_IDENTITY_HOLD"
+      "status": "TWO_KINDS_RECONCILED_NOT_FINAL_SAMPLE"
     },
     {
       "work": "데뷔 못 하면 죽는 병 걸림",
       "group": "POPULAR_2",
       "novel": {
-        "url": "https://page.kakao.com/content/56325530/",
+        "url": "https://kakaoent.com/pr/detail/155",
+        "kind": "OFFICIAL_NOVEL_GENRE_RANK_DURATION",
+        "issuer": "카카오엔터테인먼트",
+        "published_on": "2024-11-28",
         "observed_on": "2026-10-01",
-        "display_label": "열람자",
-        "display_value": "7.2억",
-        "rating": 10,
+        "capture": "OFFICIAL_BROWSER_VISIBLE_BODY",
+        "novel_genre_rank": 1,
+        "rank_duration_months": 17,
+        "period": "론칭 직후 17개월; 현재 2026년 순위 아님",
+        "million_page_awarded": true,
+        "million_page_rule": "유저 100만명 이상 열람 OR 누적 매출 100만달러",
+        "qualifying_branch": null,
+        "combined_novel_webtoon_views": 650000000,
+        "novel_only_views": null,
         "unique_readers": null
       },
       "second": {
@@ -51,7 +66,16 @@
         "release_on": "2024-11-13",
         "volumes": 28
       },
-      "status": "NOVEL_COUNTER_DEFINITION_HOLD"
+      "status": "TWO_KINDS_RECONCILED_NOT_FINAL_SAMPLE",
+      "legacy_counter": {
+        "url": "https://page.kakao.com/content/56325530/",
+        "observed_on": "2026-10-01",
+        "display_label": "열람자",
+        "display_value": "7.2억",
+        "rating": 10,
+        "unique_readers": null
+      },
+      "metric_definition_hold": "Legacy 7.2억 열람자 rule remains unknown; combined 6.5억 belongs to novel+webtoon in 2024, not novel-only or current population."
     },
     {
       "work": "전지적 독자 시점",
@@ -91,12 +115,18 @@
       "work": "나 혼자만 레벨업",
       "group": "POPULAR_5",
       "novel": {
-        "url": "https://page.kakao.com/content/48787313",
+        "url": "https://ridibooks.com/books/777035894",
+        "kind": "OFFICIAL_NOVEL_BUYER_RATING",
+        "capture": "OFFICIAL_BROWSER_VISIBLE_BODY",
         "observed_on": "2026-10-01",
-        "display_label": "열람자",
-        "display_value": "4.8억",
-        "rating": 9.9,
-        "unique_readers": null
+        "edition": "파피루스 소설 e북 14권; 카카오 연재와 별도 판본",
+        "author": "추공",
+        "rating_label": "구매자 별점",
+        "rating": 4.4,
+        "rating_count": 4977,
+        "interest": 668,
+        "ISBN": "9791162680490",
+        "unique_buyers": null
       },
       "second": {
         "url": "https://kakaoent.com/pr/detail/22",
@@ -106,12 +136,54 @@
         "global_webtoon_views_display": "143억여회",
         "novel_views": null
       },
-      "status": "NOVEL_COUNTER_DEFINITION_HOLD"
+      "status": "TWO_KINDS_RECONCILED_NOT_FINAL_SAMPLE",
+      "legacy_counter": {
+        "url": "https://page.kakao.com/content/48787313",
+        "observed_on": "2026-10-01",
+        "display_label": "열람자",
+        "display_value": "4.8억",
+        "rating": 9.9,
+        "unique_readers": null
+      },
+      "metric_definition_hold": "Legacy Kakao 4.8억 counter rule remains unknown; Ridi ratings and global WEBTOON views are not unique novel buyers."
     },
     {
       "work": "소설 속 엑스트라",
       "group": "POPULAR_6",
       "novel": {
+        "url": "https://ridibooks.com/books/2057134943",
+        "kind": "OFFICIAL_NOVEL_BUYER_RATING",
+        "capture": "OFFICIAL_BROWSER_VISIBLE_BODY",
+        "observed_on": "2026-10-01",
+        "edition": "KW북스 소설 e북 28권",
+        "author": "지갑송",
+        "ISBN": "9791129368515",
+        "published_on": "2020-11-26",
+        "updated_on": "2020-12-01",
+        "rating_label": "구매자 별점",
+        "rating": 3.8,
+        "rating_count": 259,
+        "interest": 62,
+        "unique_buyers": null
+      },
+      "second": {
+        "url": "https://tumblbug.com/extra/story",
+        "kind": "PUBLISHER_DIRECT_COLLECTOR_EDITION_FUNDING",
+        "issuer": "케이더블유북스",
+        "capture": "OFFICIAL_PUBLISHER_PROJECT_PAGE_WEB_OPEN",
+        "edition": "소설 속 엑스트라 큐브 편 애장판; 2020 e북과 다른 판본",
+        "author": "지갑송",
+        "funding_start": "2021-08-10",
+        "funding_end": "2021-09-10",
+        "status": "프로젝트 성공",
+        "funding_won": 26742000,
+        "supporters": 152,
+        "target_percent": 106,
+        "creator_lifetime_supporters_included": false,
+        "novel_sales_inferred": null
+      },
+      "status": "TWO_KINDS_RECONCILED_NOT_FINAL_SAMPLE",
+      "legacy_novel_counter": {
         "url": "https://www.joara.com/book/1301411",
         "prior_observed_on": "2026-09-28",
         "prior_views": 1665515,
@@ -124,7 +196,7 @@
         ],
         "fresh_metric_name_binding_verified": false
       },
-      "second": {
+      "legacy_adaptation_counter": {
         "url": "https://webtoon.kakao.com/content/%EC%86%8C%EC%84%A4-%EC%86%8D-%EC%97%91%EC%8A%A4%ED%8A%B8%EB%9D%BC/2953",
         "kind": "ADAPTATION_METADATA",
         "creators": [
@@ -136,7 +208,7 @@
           "47만"
         ]
       },
-      "status": "METRIC_NAME_BINDING_HOLD"
+      "metric_definition_hold": "Joara recent unlabeled buttons and KakaoWebtoon unlabeled counters remain unknown. Publisher creator lifetime totals are excluded."
     },
     {
       "work": "필드의 고인물",
@@ -169,6 +241,26 @@
         "episodes": 493
       },
       "second": {
+        "url": "https://page.kakao.com/content/60180921/",
+        "kind": "OFFICIAL_ADAPTATION_PUBLICATION_AND_RATING",
+        "observed_on": "2026-10-01",
+        "capture": "OFFICIAL_BROWSER_VISIBLE_BODY",
+        "format": "웹툰 판타지",
+        "credits": [
+          "Randomorder",
+          "이블라인"
+        ],
+        "linked_original_novel_url": "https://page.kakao.com/content/51100742/",
+        "rating_label": "별점",
+        "rating": 9.5,
+        "display_counter_label": "열람자",
+        "display_counter": "803.6만",
+        "precise_counting_rule": null,
+        "novel_views": null,
+        "unique_readers": null
+      },
+      "status": "TWO_KINDS_RECONCILED_NOT_FINAL_SAMPLE",
+      "legacy_series_counter": {
         "url": "https://series.naver.com/novel/detail.series?productNo=8779656",
         "kind": "OTHER_NOVEL_EDITION_COUNTER",
         "rating": 9.9,
@@ -180,7 +272,7 @@
         "interest_counter": null,
         "precise_counting_rule": null
       },
-      "status": "DOWNLOAD_COUNTER_DEFINITION_HOLD"
+      "metric_definition_hold": "Series btn_download precise rule and Kakao adaptation counter rule remain unknown; 9.5 is the adaptation displayed rating, not 9.9 Series novel rating."
     },
     {
       "work": "아포칼립스에 집을 숨김",
@@ -220,5 +312,9 @@
     }
   ],
   "two_kinds_do_not_mean_independent_issuers": true,
-  "display_counters_are_not_unique_audience": true
+  "display_counters_are_not_unique_audience": true,
+  "followup_scope": "OFFICIAL_IDENTITY_AND_ALTERNATIVE_LABELED_PAIRS_NOT_COUNTER_DEFINITION_CERTIFICATION",
+  "remaining_primary_pair_holds": 0,
+  "legacy_metric_definition_holds": 4,
+  "legacy_metric_debt_unit": "WORKS_NOT_DEFINITIONS_OR_FUNCTION_GRID_CELLS"
 }
