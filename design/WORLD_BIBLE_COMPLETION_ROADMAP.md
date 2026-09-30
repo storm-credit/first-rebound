@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+**6번 G11 전작 P1 계보 심사(2026-10-01):** [10작품 인기 근거](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md)를 전작 행별 대조했다. 서로 다른 종류의 분명한 근거 연결5/10·지표 정의/원작 연결 HOLD5이며, 홈플레이트 시리즈의 관심 수 오기를 다운로드 아이콘 집계로 정정했다. 새 독서0·95/110·미독15, 전체 P3/합성은 HOLD·실제 회차 Pack0·freeze/CLOSED·미완료6이다.
+
 **6번 로그인 없는 검증(2026-10-01):** [리디 5화 구조 계측](../research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.md)은 두 번 열람 5/5 재현, 새 독서0이다. 95/110·첫5화10/10·핵심20화3/4·미독15화는 유지한다. [기록 검사](../reviews/G11_READING_EVIDENCE_REPORT.json)는 계수/지문만 확인하며 G11 전체 P3는 HOLD다. [CP2 샘플](../context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)은 검토자 정보와 극중 지식을 분리하고 실제 회차 Pack0·G14 최종 HOLD를 유지한다. 작가는 로그인 없이 가능한 작업 우선을 선택했다. 큰 묶음은 1완료·2번 진행·3번 조건부 선행·4~5대기·6번 기초 진행·7번 대기, 미완료6·freeze/CLOSED다.
 
 **2번 F5 날짜별 방출비 대조(2026-10-01):** [4/16 기사·7개 계약행 대조](../research/CLEVELAND_2020_21_DATED_DEAD_MONEY_RECONCILIATION.md)의 차이 $131,759는 Maker/Ferrell 보고 기준 차이로 산술 재현했다. 기사에 선수별 내역은 없어 귀속 가설이며 공식 charge/완전 상한 인증이 아니다. 새 감도 $132,191,336, tax/apron 기준 차이 $435,664/$6,736,664도 R_CLE=null·F5 HOLD다. S2 F0/5·A0/3·K0/4; 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
