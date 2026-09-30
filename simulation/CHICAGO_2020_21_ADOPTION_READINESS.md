@@ -8,6 +8,8 @@
 
 ## 1. 시즌·사건 추천은 완성돼 있다
 
+**Cleveland 비용 후속:** [C2 공개 목록](CLEVELAND_2020_21_C2_PAYROLL_SCREEN.md)의 $130,668,168·조건부 FA 하한 $130,711,287·두 감액 혜택0 시험 $132,059,577을 구분한다. 선수 보수/팀 차지, 이전9의무와 현재15명 자리, likely 포함 cap hit/추가 unlikely를 따로 검산했다. 전체 R_CLE와 실제 tax/apron·일자별 등록은 미확인으로 F5는 HOLD다.
+
 K1 **원안**은 J1 Terry 후반 공백, Orlando Hall/Wagner 유지, LOW 분 정책, Porter ZERO, 라이벌 R1/28분, 피로 0.5, BPM 전체 경로다. Chicago 31승 41패·동부 10위, Minnesota 24승 48패·서부 13위로 연결된다. RAPTOR는 별도 전체 경로이며 경기마다 유리한 지표를 고르지 않는다. 원권위는 [K 추천](CHICAGO_2020_21_SEASON_RECOMMENDATION.md)이다. 선택된 Hall/McGee 생략의 30경기 국소 승자 방향 대조는 [후속 브리지](CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md)에 있다.
 
 L2는 Chicago가 Washington 원정에서 이긴 뒤 Indiana 원정에서 탈락하는 사건 추천이다. 동부 BOS의 IND전 승리, 서부 POR의 GSW전 승리와 MEM의 SAS·GSW전 승리까지 하나의 패킷이다. 정규시즌 산술로 플레이인 승패·점수·개인 박스까지 계산한 것은 아니다. [L 종료 사건](CHICAGO_2020_21_EXECUTION_CLOSEOUT.md)에 네 대안과 추천 근거가 있다.

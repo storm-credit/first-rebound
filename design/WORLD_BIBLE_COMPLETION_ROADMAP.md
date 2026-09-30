@@ -4,6 +4,8 @@
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`
 
+**2번 F5 Cleveland 공개 비용(2026-09-30):** [C2 비용 화면](../simulation/CLEVELAND_2020_21_C2_PAYROLL_SCREEN.md)은 일반15명과 이전9의무를 연결했다. 목록/bonus $130,668,168→Kabengele 조건부 하한 $130,711,287→Drummond 감액·Dellavedova 보전 혜택0 시험 $132,059,577이다. 캠프·기타 권리/방출·정확 차지가 미확인이라 실제 전체 상한·tax/apron PASS로 쓰지 않는다. F0/5·A0/3·K0/4, 7행 1완료·1진행·5대기/남은6, freeze/CLOSED 유지.
+
 **2번 F5 Cleveland 최종 경기일 명단(2026-09-30):** [공식 경기책 8경기](../research/O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md)의 원역사 명단 18명과 승패 연속성을 확인했다. C2의 Varejão 계약 생략 및 McGee/Hartenstein 1대1 잔류 치환, 나머지 계약 유지 조건이면 각 경기일 일반15+투웨이2다. 5/4·10·16은 Varejão 미출전으로 추가 분 부담0. 오프데이 등록·Cleveland 전체 비용/건강·새 시즌과 Denver 시리즈는 `HOLD`라 F `0/5`·A `0/3`·K `0/4`, 7행 1완료·1진행·5대기/남은6, freeze/CLOSED 불변. G11은 아래 95/110 기록을 유지한다.
 
 **6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 두 후보의 공식 연재본 각1~5화를 읽고 연구용 표본으로 조건부 교체했다. 현재 95/110·첫5화10/10·핵심20화3/4·본문4/4플랫폼, 미독15화다. 문피아 캔버스 해시·P3·전작 인기 심사·프로젝트 합성은 HOLD이며 G11 최종 종료가 아니다. G14 실제 회차 Pack0, 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.

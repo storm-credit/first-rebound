@@ -32,6 +32,8 @@
 
 ## 복사 가능한 전용 지시
 
+2026-09-30 [Cleveland C2 비용 화면의 실행 기록](../reviews/R01_CLEVELAND_C2_PAYROLL_SCREEN.md)은 Antigravity 빈 응답·NotebookLM 공식 URL 실패·텍스트 소스 제목만 입력됨을 기록했다. txt 파일 업로드 후 실제 본문/금액을 회수한 NotebookLM의 소스1개 제한 분석은 목록 합계와 HOLD 경계를 확인했다. Codex 문서의 재분석으로 독립 금액 근거가 아니며, Claude 제한 반증은 55초와 180초 시도 모두 시간 초과로 NOT_RUN이다. 후속 NotebookLM 파일 소스 단독 분석은 Maker/Tucker 회수 뒤 최종9의무 합계와 전체 상한 미인증도 확인했다. F5·D1·G16/G17 통과 수는 올리지 않는다.
+
 ### Anti-Gravity — 원자료 수집
 
 > 질문: [정확한 시즌·경기·선수·규정·거래]. [main SHA] 이후의 기존 Evidence Pack은 반복 수집하지 말고 빈칸만 채워라. 각 주장에 원문 URL, 발행/사건일, 원문 위치, 공식/2차 분류, 접근 여부, 원역사와 대체세계 적용 차이를 기록하라. 추정치를 사실처럼 쓰지 말고 미확보는 null/HOLD로 반환하라. 작품의 선택이나 정본 확정은 하지 마라.
