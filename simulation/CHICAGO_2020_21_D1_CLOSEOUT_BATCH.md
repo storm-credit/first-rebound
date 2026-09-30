@@ -64,6 +64,8 @@ F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2
 
 ## 3. 사실 통과 뒤의 최종 채택
 
+[Cleveland C2 공개 비용 화면](CLEVELAND_2020_21_C2_PAYROLL_SCREEN.md)은 일반15명 보고 cap hit·Prince bonus 전액과 이전 Drummond/J.R. Smith/Cook/Kabengele/Maker/Tucker/Ferrell 9의무를 합쳐 $130,668,168을 얻었다. Kabengele 새 FA 계약의 조건부 tax/apron 하한을 넣은 $130,711,287과 Drummond 감액·Dellavedova 보전 혜택0의 $132,059,577 시험도 분리한다. 아직 확인하지 못한 부담 R_CLE=null이므로 $6,868,423 apron 기준선 차이를 전체 적법성으로 올리지 않는다. 이전 계약 비용을 출전0/명단 제외로 지우지 않으며 Allen/Windler likely를 cap hit에 이중 가산하지 않는다. F5 최종 종료는 남은 전체 비용·등록/건강·새 대진/승패를 요구한다.
+
 | 선택 | 이미 있는 검토안 | 최종 채택 전에 필요한 것 |
 |---|---|---|
 | A1 건강/분 | K의 1,079행 조건부 가용성·J1 Terry 후반 공백 | 대체 세계의 건강 달력 선택과 F4 등록 자격에 미치는 영향. 실존 선수의 새 진단·의료 예후 창작 금지 |
