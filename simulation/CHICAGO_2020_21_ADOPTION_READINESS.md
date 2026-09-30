@@ -35,6 +35,8 @@ A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대
 
 [F2/F3 픽 원역사 1차 스냅샷](NBA_2021_ASSET_CHAIN.md)은 Orlando 구단의 2021년 6월 기사에서 BOS/MEM 2025 뒤 2R·BOS 2027 2R·DEN 2025 top5 1R을 직접 확인했다. 이 구단 기사에는 전체 픽 원계약의 2027 BOS 우선권/보호나 DEN 2026–27 연결/종료가 없어 위 F2/F3 정확 필드는 계속 `HOLD`다.
 
+[F1 2020 CBA 발표 범위](../research/O15F14BC_2020_CBA_AMENDMENT_PUBLIC_SOURCE_BOUNDARY.md)는 공식 11/09·11/10 발표가 캡·일정과 수정 승인 사실을 확인하지만 수정 조항 전문·Chicago 개별 장부를 제공하지 않음을 분리했다. 발표 수치를 정확 §6(m)(2) 적용이나 전체 `R`의 대용으로 쓰지 않는다. F1은 `HOLD`다.
+
 [F5 Denver 플레이오프 구간 검문](../research/O15F14AC_DENVER_PLAYOFF_NONTRADE_STINT_WITNESS.md)은 원역사 McGee 4경기의 공식 교대 시계를 `33:49`와 맞췄고, 6/13 `19:40` 가운데 퇴장 후 `15:49.3`을 분리했다. 이 초 단위 증인은 M1 동일 슬롯 치환의 비용을 특정하지만 Hartenstein의 건강·실제 5인조·승패 또는 추가 경기의 최종 증거가 아니다.
 
 [F5 Denver 원역사 5인조 겹침 후속](../research/O15F14AN_DENVER_2021_PLAYOFF_ROSTER_COLLISION.md)은 McGee와 선택 경로에서 Orlando로 간 Nnaji의 동시 출전 `11:17`을 확인했다. McGee→Hartenstein 한 명 치환만으로는 그 두 경기 구간의 Denver 명단이 성립하지 않는다. Bey까지 치환한 14개 McGee 시간 구간의 수량·K1 역할 검사는 조건부 통과했으나, McGee와 겹치지 않은 Nnaji 최소 `6:22`와 전체 등록·건강·플레이오프 승패는 `HOLD`다.
