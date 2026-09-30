@@ -1,5 +1,6 @@
 # Project State
 
+- 最新 D1 검증 기준(2026-09-30): 작가가 [S2](canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)를 선택했다. [운영 규칙/원장](control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)에서 법적 구간 전체 검증과 개별 AUTHOR_MODELED 사건을 분리한다. S2 기준은 확정됐지만 R 상한·건강 사건·시즌은 미확정이다. S2 법적 F0/5·A0/3·K0/4, 남은6, freeze PARTIAL·설계/원고 CLOSED. 아래 S0 현행/선택 대기는 이전 이력이다.
 - 기준일: 2026-09-30
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
@@ -39,7 +40,7 @@
 - 3번 M1 2022–23 부분합: [세금선 민감도](simulation/CHICAGO_2022_M1_TAX_SENSITIVITY.md)는 G1A형 G8 RT1–RT4의 192개 조건에 M1 2년 차 `+$1,884,546`만 적용했다. 기존 비음수 여유 168개 중 12개가 음수로 바뀌고 156개가 남는다. 미확정 방출 잔액·다른 계약·전체 `R` 때문에 실제 납세 여부는 `HOLD`; G1C/D에 원용하지 않는다. 3번 OPEN, 2번 F `0/5`·A `0/3`·K `0/4`, 미완료 큰 작업 6개와 freeze/CLOSED 불변.
 - 6번 G14 선행 검증: [CP2 설계 샘플 2개](context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)의 과거 해시가 23개 `STALE`임을 확인하고 F4/F5·M1 작가 선택의 시간 경계를 검토해 현재 내용 해시로 다시 고정했다. 샘플은 설계 검증용이며 실제 회차 Pack 0개·원고 0개. 정확 시즌·2021 여름 경로·전체 회차 기능표 및 G11 참고작 딥리드가 남아 G14 최종 PASS/6번 완료는 아니다. 미완료 큰 작업 6개, freeze/CLOSED 유지.
 - 최신 D1 작가 선택 권위: `canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json`; 검증 범위는 `simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json`. T1~T4·R1 재승인 불요, 최종 시즌·원고 게이트는 미변경.
-- D1 종료 증거 기준의 작가 선택 대기: [S0/S1/S2 결정 패킷](design/CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)은 공개 자료로 인증할 수 있는 법적 구간과 관측 불가능한 대체세계 건강·코칭을 분리한다. [제한 Claude 반박](reviews/R01_CHICAGO_D1_EVIDENCE_STANDARD_CLAUDE_REVIEW.md)을 반영했으나 어느 안도 아직 승인되지 않았다. **현행 S0가 유일한 기준**이며 F `0/5`·A `0/3`·K `0/4`, 2번 미완료, freeze/CLOSED 유지. C1/C2 선택은 별도다.
+- D1 종료 증거 기준 선택 전 이력: [S0/S1/S2 결정 패킷](design/CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)은 공개 자료로 인증할 수 있는 법적 구간과 관측 불가능한 대체세계 건강·코칭을 분리한다. [제한 Claude 반박](reviews/R01_CHICAGO_D1_EVIDENCE_STANDARD_CLAUDE_REVIEW.md)을 반영했으나 어느 안도 아직 승인되지 않았다. 당시 S0가 유일한 기준이었으며 F `0/5`·A `0/3`·K `0/4`, 2번 미완료, freeze/CLOSED 유지. C1/C2 선택은 별도다.
 - 최신 D1 A1 2/14 장면 범위: [AY 공식 교대 재구성](research/O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md)은 원역사 Davis–Jokić 2:39 접촉 당시 Denver의 Millsap·Monte Morris·Porter·Jokić·Murray를 확인했다. Hampton·Nnaji는 둘 다 코트 밖이므로 대체 드래프트만으로 이 장면의 선수 신원이 직접 제거되지는 않는다. 앞선 경기 흐름과 건강 사건·30경기 결장·Lakers 시드/Denver 대진은 여전히 `A1/F5/K HOLD`, F `0/5`·A `0/3`·K `0/4`, freeze/CLOSED 불변.
 - 최신 D1 A1 30경기 원장 완전성: [AZ 재현](research/O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md)은 원역사 Davis 결장 구간의 Lakers 30경기 14–16을 F038 26·선행 Remaining 3·Boundary 1에 빠짐없이 대응하고, 기존 두 평점법 승자 유지 30/30·F038 변경 교집합 0을 확인했다. 3/28 Orlando 상대 Lakers +3점은 기존 조건부 구간에서 +1점대로 좁지만 Davis 대체 건강은 미모델링. A1/F5/시드·K는 `HOLD`; F `0/5`·A `0/3`·K `0/4`, freeze/CLOSED 불변.
 - 최신 D1 A1 3/20 접촉 선행 조건: [BA 검문](research/O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md)은 원역사 LeBron 발목 부상이 Atlanta의 Solomon Hill과 접촉한 별도 사건임을 NBA 보도·공식 최종 박스로 확인했다. Hill의 원역사 FA 영입과 18:25 출전은 사실이나 활성 Chicago 세계선의 3/20 동일 포제션·의료 달력은 미확정이다. F038의 Atlanta전 Lakers −5 결과는 기존 건강 입력을 유지한 조건부 계산일 뿐 새 A1 통과 증거가 아니다. A1/F5/시드·K `HOLD`, F `0/5`·A `0/3`·K `0/4`, freeze/CLOSED 및 미완료 6묶음 불변.

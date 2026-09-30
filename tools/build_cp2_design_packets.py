@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = '8cee5a0'
+BASE_COMMIT = 'e5e8661'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
@@ -145,13 +145,16 @@ def make_samples(root=ROOT):
         s = next(s for s in structure['subacts'] if s['id'] == sid)
         a = next(a for a in structure['acts'] if a['id'] == s['parent_act'])
         refs = list(dict.fromkeys(['canon/PROJECT_FREEZE.md', 'canon/CAREER_TIMELINE.md',
-             'control/DESIGN_GATE.md', STRUCTURE, PROMISES, 'design/HOUSE_STYLE_FOUNDATION.md',
+             'control/DESIGN_GATE.md',
+             'canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json',
+             'control/CHICAGO_2020_21_D1_S2_PROTOCOL.md',
+             STRUCTURE, PROMISES, 'design/HOUSE_STYLE_FOUNDATION.md',
              'research/STYLE_REFERENCE_ACCESS.md', 'research/STYLE_READING_OBSERVATIONS.json',
              'research/STYLE_FUNCTION_COMPARISON.md'] + extra))
         active = [p['id'] for p in promises['promises'] if sid in [p['plant'], *p['variations'], p['payoff']]]
         out.append(dict(
             pack_id=pid, target_episode_or_design_unit=sid,
-            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-09-28',
+            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-09-30',
             source_commit=BASE_COMMIT,
             source_revision='MAIN_BASE_PLUS_REVIEWED_CONTENT_HASHES',
             source_revision_note='source_commit는 기반 커밋. 새 설계 파일은 같은 커밋에 포함됐다는 뜻이 아니며 아래 개별 해시가 실제 내용을 고정한다.',

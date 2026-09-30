@@ -1,7 +1,8 @@
 # O-15F14-P — Chicago 2020–21 D1 종료 묶음
 
+- 현행 기준(2026-09-30): [작가 S2 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [S2 운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)이 종료 증거의 권위다. 아래 정확 원장만 요구하는 S0 표현은 이전 검문 이력으로 읽는다. F의 법적 필드는 전체 닫힌 구간/분기로 검증하며 건강·코칭은 별도 AUTHOR_MODELED 선택이다. S2 법적 F0/5·A0/3·K0/4; 어떤 사건도 이번 기준 선택으로 자동 확정하지 않는다.
 - 기준: `main` `9ce3b21`; [채택 준비 색인](CHICAGO_2020_21_ADOPTION_READINESS.md), [CP2 통합 검토](../design/CP2_INTEGRATED_REVIEW_PACKET.md), [전체 7개 게이트](../design/WORLD_BIBLE_COMPLETION_ROADMAP.md).
-- 현재 판정: `D1_EXACT_EXECUTION_OPEN / CP2_CONDITIONAL_CONTINUATION_ALLOWED`.
+- 현재 판정: `D1_S2_LEGAL_AND_MODEL_OPEN / CP2_CONDITIONAL_CONTINUATION_ALLOWED`.
 - 목적: 이미 회수한 세부 사실을 반복 수집하지 않고 **D1을 닫는 데 필요한 최소 증거와 그 증거가 없을 때의 다음 실행**을 한곳에서 관리한다. 여기서 새 거래·부상·계약·시즌을 채택하지 않는다.
 
 ## 1. 확정 가능한 현재 위치
@@ -12,7 +13,7 @@ K1의 Chicago 31–41·Minnesota 24–48 정규시즌 **추천**, L2의 Chicago 
 
 이 패킷에서 `PASS`는 해당 경로가 요구한 근거·산술·승인된 선택을 충족한 상태, `HOLD`는 **열린 채로 증거/결정을 기다리는 상태**, `FAIL`은 특정 실행 경로가 반증되어 대안 경로와 파급 재계산이 필요한 상태다. `HOLD`는 PASS·종료·면제가 아니다. F의 증거가 없어도 A의 비교안은 준비할 수 있지만 A의 **최종 채택과 K 종료는 하지 않는다**. F는 사실/계약 경로를 검증하는 관문이고, A는 그 통과 경로 중 대체 세계 사건을 선택하는 별도 관문이므로 순환하지 않는다.
 
-## 2. F1~F5를 한 묶음으로 닫는 증거 기준
+## 2. F1~F5의 남은 증거 — S2 분류는 현행 운영 규칙을 따른다
 
 | ID | 이미 재사용할 결과 | 정확 종료에 필요한 최소 판정 | 못 얻으면 |
 |---|---|---|---|
@@ -62,7 +63,7 @@ F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2
 
 [F2 Orlando 등록 후속](../research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md)은 3/24 NBA 공식 경기책의 일반 15+투웨이 2 재관측과 구단 공식 거래 연혁의 3/25 전 공백, 3/27 Teague 방출을 결합했다. 승인 방향의 Gordon/Clark 2:2와 Fournier/Teague 1:1 실행에서 **3/25~26 일반 15+투웨이 2, 3/27 방출 뒤 일반 14+투웨이 2**의 공개 자리 산술은 통과했다. Teague 비용과 Vučević 잔류·Nnaji 수취의 정확 한도/예외, Boston TPE·픽 우선권은 아직 F2 `HOLD`; 이를 다시 자리 수 미검수로 설명하지 않는다.
 
-## 3. 사실 통과 뒤의 최종 채택
+## 3. S2 법적 필드 통과 뒤의 최종 사건 채택
 
 [Cleveland C2 공개 비용 화면](CLEVELAND_2020_21_C2_PAYROLL_SCREEN.md)은 일반15명 보고 cap hit·Prince bonus 전액과 이전 Drummond/J.R. Smith/Cook/Kabengele/Maker/Tucker/Ferrell 9의무를 합쳐 $130,668,168을 얻었다. Kabengele 새 FA 계약의 조건부 tax/apron 하한을 넣은 $130,711,287과 Drummond 감액·Dellavedova 보전 혜택0의 $132,059,577 시험도 분리한다. 아직 확인하지 못한 부담 R_CLE=null이므로 $6,868,423 apron 기준선 차이를 전체 적법성으로 올리지 않는다. 이전 계약 비용을 출전0/명단 제외로 지우지 않으며 Allen/Windler likely를 cap hit에 이중 가산하지 않는다. F5 최종 종료는 남은 전체 비용·등록/건강·새 대진/승패를 요구한다.
 

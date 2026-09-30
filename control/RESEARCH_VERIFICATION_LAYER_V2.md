@@ -1,5 +1,6 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+- **D1 현행 검증 기준(2026-09-30):** [작가 S2](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json) 및 [운영 규칙](CHICAGO_2020_21_D1_S2_PROTOCOL.md)의 법적 구간·별도 사건 선택을 각 검수 프롬프트에 함께 준다. 법적 값에 명시적 가정을 허용한 S1로 바꾸지 않는다. 원자료 누락과 건강 미선택을 다른 HOLD 사유로 기록한다.
 - 상태: `READY_FOR_TRIAL / NOT_A_CANON_OR_GATE_REPLACEMENT`.
 - 적용 위치: `control/MASTER_WORKFLOW.md`의 조사와 변경 후 검증, `control/ORCHESTRATOR_WORKFLOW.md` R09–R16 사이. 기존 PR→main, 단일 권위, 사용자 확정, `DESIGN_GATE`의 G16/G17 순서를 유지한다.
 - 현재 시험 대상: O-15G15 Suggs 개막 이전 prior와 Orlando 12분. 과거 완료 원장을 전량 반복하지 않는다.

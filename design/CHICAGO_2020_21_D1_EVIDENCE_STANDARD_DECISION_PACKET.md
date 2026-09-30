@@ -1,7 +1,8 @@
 # Chicago 2020–21 D1 종료 증거 기준 — 작가 결정 패킷
 
-- 상태: `AUTHOR_CHOICE_PENDING / NO_GATE_CHANGE`. 이 문서는 선택지를 제시할 뿐 기존 종료 조건을 바꾸지 않는다.
-- **2026-09-30 후속:** 이 문서에서 별도로 언급한 Cleveland C1/C2는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)으로 작가 선택됐다. 아래 C1/C2 대기 문구는 선택 전 이력이다. D1 증거 기준 `S0/S1/S2` 선택은 별개로 아직 대기 중이며, F5·D1 종료 수는 변하지 않는다.
+- **2026-09-30 작가 결정:** [S2 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)이 회수됐다. [현행 운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)을 적용한다. 아래 선택 대기/S0 현행 문구는 결정 전 비교 이력이다. S2 선택은 건강 경로·급여 상한·시즌 사건의 자동 승인이 아니다.
+- 상태: `AUTHOR_SELECTED_S2 / NO_SEASON_OR_MANUSCRIPT_PROMOTION`. 현행 S2 운영 규칙을 적용하며 아래 비교표는 선택 근거를 보존한다.
+- **2026-09-30 후속:** 이 문서에서 별도로 언급한 Cleveland C1/C2는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)으로 작가 선택됐다. 아래 C1/C2 대기 문구는 선택 전 이력이다. 당시 D1 증거 기준 선택은 별개로 대기 중이었다. 이후 위 S2 결정이 우선하며 F5·D1 종료 수는 변하지 않는다.
 - 기준: `main` PR #312 이후 [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md), [7행 로드맵](WORLD_BIBLE_COMPLETION_ROADMAP.md), [설계 게이트](../control/DESIGN_GATE.md).
 - 변경 불가 전제: Chicago 원클럽, 2020 Draft 잠금, Theis/Green 및 T1~T4 승인 방향, Hall 5/9 재계약 생략, McGee/Hartenstein 거래 생략. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.
 

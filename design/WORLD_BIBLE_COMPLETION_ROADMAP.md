@@ -1,5 +1,6 @@
 # World Bible Completion Roadmap
 
+**2026-09-30 현행 기준:** 작가가 [D1 S2](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)를 선택했다. [S2 운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)에 따라 법적 구간과 대체 사건 모델을 따로 판정한다. S0 정확 인증만 요구하던 문구와 S2 미선택 표기는 아래의 이전 이력이다. 법적 F0/5·A0/3·K0/4, 2번 미완료, 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze/CLOSED 유지.
 - 상태: `ACTIVE / MILESTONE_BASED / NOT_CALENDAR_PROMISE`
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`

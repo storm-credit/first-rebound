@@ -1,5 +1,7 @@
 # Context Pack Protocol
 
+2026-09-30 [D1 S2 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)을 설계 샘플 출처/해시에 연결한다. 검증 기준의 변경이며 allowed_facts·개별 건강·시즌의 승격이 아니다. 실제 회차 Pack0·설계/원고 CLOSED.
+
 Context Pack은 회차 작업에 필요한 최소 문맥을 모은 **파생 산출물**이다. 정본이 아니며, 캐논을 몰래 변경할 수 없다. 설계 게이트가 닫힌 동안에는 회차 집필용 팩이 아니라 설계 검증용 샘플만 허용한다.
 
 ## 생성 시점

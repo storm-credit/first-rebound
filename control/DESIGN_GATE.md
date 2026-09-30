@@ -1,5 +1,6 @@
 # Design Gate
 
+- **2026-09-30 D1 표준:** [S2 작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](CHICAGO_2020_21_D1_S2_PROTOCOL.md)은 2번의 증거 판정에만 적용한다. G00~G17 및 CLOSED/manuscript_allowed:false는 그대로이며 R=null·건강 미선택·독립검수 미실행은 면제하지 않는다.
 ```yaml
 status: CLOSED
 manuscript_allowed: false

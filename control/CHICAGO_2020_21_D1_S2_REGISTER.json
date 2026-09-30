@@ -1,0 +1,215 @@
+{
+  "policy": "S2",
+  "authority": "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json",
+  "baseline_main": "e5e8661",
+  "legal_proofs": [
+    {
+      "id": "CHI_TEAM_SALARY",
+      "group": "F1",
+      "kind": "INTERVAL",
+      "scope": "3/25 post-assignment Team Salary; R_CHI upper bound unknown, not the 15-person subtotal",
+      "lower": null,
+      "upper": null,
+      "maximum": 132627000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/CHICAGO_2020_21_TAX_BOUND.md",
+        "simulation/CHICAGO_2020_21_RESIDUAL_COMPONENTS.md"
+      ]
+    },
+    {
+      "id": "CHI_MATCHING_RULE",
+      "group": "F1",
+      "kind": "BRANCH_WITNESS",
+      "scope": "Both sides and applicable 2020 amendments",
+      "required_branches": [
+        "post_assignment_rule_and_both_sides_charge"
+      ],
+      "branches": [],
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/CHICAGO_2020_21_EXECUTION_TERMS.md",
+        "research/O15F14BC_2020_CBA_AMENDMENT_PUBLIC_SOURCE_BOUNDARY.md"
+      ]
+    },
+    {
+      "id": "BOS_TPE_AND_PICKS",
+      "group": "F2",
+      "kind": "BRANCH_WITNESS",
+      "scope": "Full dated TPE capacity and every asset branch",
+      "required_branches": [
+        "dated_TPE_charge_and_capacity",
+        "2025_2R_ownership_priority",
+        "2027_2R_ownership_priority"
+      ],
+      "branches": [],
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/NBA_2021_ASSET_CHAIN.md"
+      ]
+    },
+    {
+      "id": "BOS_COMPLETE_COST",
+      "group": "F2",
+      "kind": "INTERVAL",
+      "scope": "BOS complete charge and applicable apron/exception rule at transaction date; not an automatic hard-cap assertion",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/BOSTON_DENVER_2020_21_PAYROLL.md",
+        "research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md"
+      ]
+    },
+    {
+      "id": "DEN_GORDON_PICKS_AND_CHARGE",
+      "group": "F3",
+      "kind": "BRANCH_WITNESS",
+      "scope": "All live prior/subsequent asset outcomes and both-side charges",
+      "required_branches": [
+        "prior_1R_conveys",
+        "prior_1R_converts_to_2R",
+        "subsequent_1R_protection_and_termination",
+        "dated_matching_charge"
+      ],
+      "branches": [],
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/NBA_2021_EXECUTION_RESOLUTION.md",
+        "simulation/CHICAGO_2020_21_EXECUTION_TERMS.md"
+      ]
+    },
+    {
+      "id": "DEN_COMPLETE_COST",
+      "group": "F3",
+      "kind": "INTERVAL",
+      "scope": "DEN date-specific complete apron charge, not the earlier conditional screen",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/BOSTON_DENVER_2020_21_PAYROLL.md"
+      ]
+    },
+    {
+      "id": "ORL_COMPLETE_COST",
+      "group": "F4",
+      "kind": "INTERVAL",
+      "scope": "Preserve April Hall obligations; May9 new contract omitted",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md"
+      ]
+    },
+    {
+      "id": "ORL_DATED_REGISTRATION",
+      "group": "F4",
+      "kind": "BRANCH_WITNESS",
+      "scope": "5 game-day 15+2 screen is local conditional evidence, not complete interval",
+      "required_branches": [
+        "game_days",
+        "intervening_days",
+        "all_other_transactions"
+      ],
+      "branches": [],
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "research/O15F14Q_ORLANDO_HALL_NO_RESIGN_F4_SCREEN.md"
+      ]
+    },
+    {
+      "id": "CLE_COMPLETE_COST",
+      "group": "F5",
+      "kind": "INTERVAL",
+      "scope": "15 players +9 earlier items remain reported subtotal; R_CLE unknown",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/CLEVELAND_2020_21_C2_PAYROLL_SCREEN.md"
+      ]
+    },
+    {
+      "id": "DEN_CLE_DATED_REGISTRATION",
+      "group": "F5",
+      "kind": "BRANCH_WITNESS",
+      "scope": "McGee CLE/Hartenstein DEN, Varejao May4/14 absent; 8 final game-day count is conditional",
+      "required_branches": [
+        "DEN_all_dates",
+        "CLE_all_dates",
+        "prior_and_followup_contracts"
+      ],
+      "branches": [],
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "research/O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md",
+        "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md"
+      ]
+    },
+    {
+      "id": "ORL_F2_COMPLETE_COST",
+      "group": "F2",
+      "kind": "INTERVAL",
+      "scope": "ORL own full dated charge and applicable rule; never aggregate BOS and ORL payroll",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/BOSTON_DENVER_2020_21_PAYROLL.md",
+        "research/O15F14S_ORLANDO_MARCH25_REGISTRATION_BRIDGE.md"
+      ]
+    },
+    {
+      "id": "DEN_F5_COMPLETE_COST",
+      "group": "F5",
+      "kind": "INTERVAL",
+      "scope": "DEN own full dated charge after omitted McGee trade; whole residual and applicable limit unverified",
+      "lower": null,
+      "upper": null,
+      "maximum": 138928000,
+      "complete_domain": false,
+      "source_verified": false,
+      "evidence": [
+        "simulation/BOSTON_DENVER_2020_21_PAYROLL.md"
+      ]
+    }
+  ],
+  "model_gates": [
+    {
+      "id": "A1",
+      "state": "AUTHOR_CHOICE_PENDING",
+      "scope": "Full health/availability calendar; Lakers H00-H11 still unselected"
+    },
+    {
+      "id": "A2",
+      "state": "EXECUTION_HOLD",
+      "scope": "Existing transaction directions locked; do not ask again"
+    },
+    {
+      "id": "A3",
+      "state": "FINAL_EVENT_SELECTION_PENDING",
+      "scope": "Season/method/play-in/lottery and new Denver series outcomes"
+    }
+  ],
+  "k_closed": [],
+  "season_selected": false,
+  "manuscript_allowed": false
+}
