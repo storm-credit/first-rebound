@@ -4,6 +4,7 @@
 - 브리지 JSON의 `source_sha256`은 LF로 정규화한 원문 바이트 해시다. Windows 체크아웃에서 결정 JSON 하나만 CRLF로 바뀌어 재현 비교가 실패하던 문제를 고쳤으며, 경기·급여 계산 필드는 그대로다.
 - 판정: `F4_F5_DIRECTION_LOCKED / LOCAL_CAPACITY_PASS / EXACT_EXECUTION_AND_SEASON_HOLD`.
 - K1·L2 원본은 당시 추천 이력으로 보존한다. 시즌 최종 확정, 실제 건강·정확 급여·플레이오프·추첨 승격은 하지 않았다.
+- Cleveland 5월 후속은 작가가 [C2 Varejão 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 추가 선택했다. 기존 F5의 14경기 화면과 [C2 5경기 감도 화면](../research/O15F14V_CLEVELAND_VAREJAO_OMISSION_MINUTE_SCREEN.md)은 서로 범위가 다르며, C2의 35:56 재배분도 실제 분 확정이 아니다. 아래 C1/C2 선택 대기 문구는 이 후속 이전 이력이다.
 
 ## 선택 사건과 발생하지 않는 의무
 
