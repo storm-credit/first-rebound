@@ -3,12 +3,13 @@
 No scenes, actual episode packs, canon promotion, or new season simulation.
 """
 import argparse
+from datetime import date
 import hashlib
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = 'e5e8661'
+BASE_COMMIT = 'ab76fec'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
@@ -150,11 +151,12 @@ def make_samples(root=ROOT):
              'control/CHICAGO_2020_21_D1_S2_PROTOCOL.md',
              STRUCTURE, PROMISES, 'design/HOUSE_STYLE_FOUNDATION.md',
              'research/STYLE_REFERENCE_ACCESS.md', 'research/STYLE_READING_OBSERVATIONS.json',
-             'research/STYLE_FUNCTION_COMPARISON.md'] + extra))
+             'research/STYLE_FUNCTION_COMPARISON.md',
+             'research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.json'] + extra))
         active = [p['id'] for p in promises['promises'] if sid in [p['plant'], *p['variations'], p['payoff']]]
         out.append(dict(
             pack_id=pid, target_episode_or_design_unit=sid,
-            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-09-30',
+            purpose='DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK', generated_at='2026-10-01',
             source_commit=BASE_COMMIT,
             source_revision='MAIN_BASE_PLUS_REVIEWED_CONTENT_HASHES',
             source_revision_note='source_commit는 기반 커밋. 새 설계 파일은 같은 커밋에 포함됐다는 뜻이 아니며 아래 개별 해시가 실제 내용을 고정한다.',
@@ -165,6 +167,12 @@ def make_samples(root=ROOT):
             active_setup=active, payoff_or_defer='설계 기능 검증만; 실제 회수·원고 없음',
             reader_expected_question=a['question'], do_not_explain_device=True,
             allowed_facts=[f['claim'] for f in facts], fact_evidence=facts,
+            information_boundary=dict(
+                mode='DESIGN_REVIEW_NO_IN_WORLD_ACCESS',
+                reviewer_loaded_claim_indexes=list(range(len(facts))),
+                story_known_claim_indexes=[], scene_segments=[], access_witnesses=[],
+                relative_time_references=[], exact_scene_date=None,
+                pov_author_locked=False, narrative_access_status='HOLD'),
             fact_status='CLAIM_LEVEL_STATUS_IN_FACT_EVIDENCE',
             decision_boundaries=[
                 'F4/F5 및 Cleveland C2 선택 방향은 정확 시즌·의료·등록 PASS가 아니다',
@@ -184,6 +192,42 @@ def make_samples(root=ROOT):
                 manuscript_allowed=False, author_locked=False)
 
 
+def assess_observed_access(witness):
+    """Check a supplied past-observation clock, never authenticate a story claim."""
+    if witness.get('claim_kind') != 'PAST_OBSERVED_EVENT':
+        return 'HOLD'
+    values = [witness.get(k) for k in ('event_on', 'acquired_on', 'segment_on')]
+    if any(not isinstance(v, str) for v in values):
+        return 'HOLD'
+    try:
+        event_on, acquired_on, segment_on = [date.fromisoformat(v) for v in values]
+    except ValueError:
+        return 'HOLD'
+    if not event_on <= acquired_on <= segment_on:
+        return 'FAIL'
+    if (witness.get('access_route') not in {'DIRECT_OBSERVATION', 'PUBLIC_RECORD', 'DIRECT_REPORT'}
+            or not witness.get('holder_id') or not witness.get('source_path')
+            or witness.get('source_verified') is not True):
+        return 'HOLD'
+    return 'SUPPLIED_CLOCK_REPRODUCTION_PASS_NOT_NARRATIVE_CLEARANCE'
+
+
+def validate_information_boundary(sample):
+    errors = []
+    b = sample.get('information_boundary', {})
+    if (b.get('mode') != 'DESIGN_REVIEW_NO_IN_WORLD_ACCESS'
+            or b.get('narrative_access_status') != 'HOLD'
+            or b.get('pov_author_locked') is not False
+            or b.get('exact_scene_date') is not None):
+        errors.append('design review cannot grant POV/date/narrative access')
+    if b.get('reviewer_loaded_claim_indexes') != list(range(len(sample.get('fact_evidence', [])))):
+        errors.append('reviewer claim mapping mismatch')
+    for key in ('story_known_claim_indexes', 'scene_segments', 'access_witnesses', 'relative_time_references'):
+        if b.get(key) != []:
+            errors.append('in-world input requires locked scene/POV; ' + key)
+    return errors
+
+
 def validate_samples(data, root=ROOT):
     errors = []
     if (data.get('actual_episode_packs') != 0 or data.get('manuscript_allowed') is not False
@@ -198,6 +242,7 @@ def validate_samples(data, root=ROOT):
         errors.append('sample IDs differ from generated set')
     for p in actual_samples:
         pid = p.get('pack_id', '<missing pack_id>')
+        errors.extend(pid + ': ' + e for e in validate_information_boundary(p))
         if (p.get('purpose') != 'DESIGN_VALIDATION_ONLY_NOT_EPISODE_PACK'
                 or p.get('manuscript_allowed') is not False or p.get('author_locked') is not False):
             errors.append(pid + ': purpose or author lock')

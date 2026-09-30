@@ -89,6 +89,42 @@ class DesignBoundaryTests(unittest.TestCase):
         self.assertIn('career season continuity', errors)
         self.assertIn('slots cannot become finished episode outlines', errors)
 
+    def test_review_loaded_claims_cannot_become_character_knowledge(self):
+        sample = m.make_samples()['samples'][0]
+        sample['information_boundary']['story_known_claim_indexes'] = [0]
+        self.assertTrue(any('in-world input' in e for e in m.validate_information_boundary(sample)))
+
+    def test_unapproved_pov_or_exact_date_is_rejected(self):
+        sample = m.make_samples()['samples'][1]
+        sample['information_boundary']['pov_author_locked'] = True
+        sample['information_boundary']['exact_scene_date'] = '2028-06-01'
+        self.assertTrue(m.validate_information_boundary(sample))
+
+    def test_past_observation_clock_blocks_future_knowledge(self):
+        witness = dict(claim_kind='PAST_OBSERVED_EVENT', event_on='1900-01-02',
+                       acquired_on='1900-01-03', segment_on='1900-01-04',
+                       access_route='PUBLIC_RECORD', holder_id='TEST_ONLY',
+                       source_path='TEST_ONLY', source_verified=True)
+        self.assertEqual(m.assess_observed_access(witness),
+                         'SUPPLIED_CLOCK_REPRODUCTION_PASS_NOT_NARRATIVE_CLEARANCE')
+        witness['segment_on'] = '1900-01-01'
+        self.assertEqual(m.assess_observed_access(witness), 'FAIL')
+        witness['segment_on'] = '1900-01-04'
+        witness['event_on'] = '1900-01-05'
+        self.assertEqual(m.assess_observed_access(witness), 'FAIL')
+
+    def test_unknown_date_or_unverified_route_is_not_clock_pass(self):
+        witness = dict(claim_kind='PAST_OBSERVED_EVENT', event_on=None,
+                       acquired_on='1900-01-03', segment_on='1900-01-04')
+        self.assertEqual(m.assess_observed_access(witness), 'HOLD')
+        witness['event_on'] = 'invalid'
+        self.assertEqual(m.assess_observed_access(witness), 'HOLD')
+        witness.update(event_on='1900-01-02', access_route='PUBLIC_RECORD',
+                       holder_id='TEST_ONLY', source_path='TEST_ONLY', source_verified=False)
+        self.assertEqual(m.assess_observed_access(witness), 'HOLD')
+        witness.update(source_verified=True, claim_kind='FUTURE_PLAN')
+        self.assertEqual(m.assess_observed_access(witness), 'HOLD')
+
 
 if __name__ == '__main__':
     unittest.main()

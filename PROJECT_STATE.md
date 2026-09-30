@@ -1,5 +1,7 @@
 # Project State
 
+- [6번 G11/G14 실제 V2 검토](reviews/G11_G14_V2_REVIEW_2026_10_01.md)(2026-10-01): [리디 구조 계측](research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.md)은 기존 5화의 두 번 열람 지문·계측 5/5를 재현했다. 새 독서0, 원장95/110·첫5화10/10·핵심20화3/4·미독15화. 사용자는 로그인 없이 가능한 작업 우선을 선택했다. [증거 검사 보고서](reviews/G11_READING_EVIDENCE_REPORT.json)는 기록의 중복/계수/지문만 검증하며 독립 본문 검수·전체 P3·G11 최종은 HOLD다. [CP2 샘플](context-packs/CP2_DESIGN_VALIDATION_SAMPLES.md)은 검토자 로드와 극중 지식을 분리하고 실제 회차 Pack0·POV/날짜/정보 접근 HOLD를 유지한다. 7행 1완료·2번 진행·3번 조건부 선행·4~5대기·6번 기초 진행·7번 대기/미완료6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 - 2번 F5 Cleveland 날짜별 방출비 대조(2026-10-01): [4/16 기사·7개 계약행 대조](research/CLEVELAND_2020_21_DATED_DEAD_MONEY_RECONCILIATION.md)의 차이 $131,759는 Maker/Ferrell 보고 기준 차이로 산술 재현했다. 기사에 선수별 내역은 없어 귀속 가설이며 공식 charge/완전 상한 인증이 아니다. 새 감도 $132,191,336, tax/apron 기준 차이 $435,664/$6,736,664도 R_CLE=null·F5 HOLD다. S2 F0/5·A0/3·K0/4; 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
 - 最新 D1 검증 기준(2026-09-30): 작가가 [S2](canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)를 선택했다. [운영 규칙/원장](control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)에서 법적 구간 전체 검증과 개별 AUTHOR_MODELED 사건을 분리한다. S2 기준은 확정됐지만 R 상한·건강 사건·시즌은 미확정이다. S2 법적 F0/5·A0/3·K0/4, 남은6, freeze PARTIAL·설계/원고 CLOSED. 아래 S0 현행/선택 대기는 이전 이력이다.
