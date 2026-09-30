@@ -3,7 +3,7 @@
 - 상태: `FOUNDATION_PARTIAL / REFERENCE_DEEP_READ_INCOMPLETE`.
 - 적용 권위: `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`.
 - 참고작 실제 열람 범위는 [접근·독서 원장](../research/STYLE_REFERENCE_ACCESS.md)에 별도 기록한다. 아래 규칙 대부분은 프로젝트의 성격·농구·권한 요구에서 만든 기초안이며 참고작 전체 딥리드의 결론이 아니다.
-- 공통 `novel-writing-skills` 최신 확인 `f3af0eb`(2026-09-30)의 `REFERENCE_DEEP_READ` P0~P3·대체 표본 재판정·스포츠 모듈을 [G11 대응표](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)로 연결했다. 리디 연재 후보 1~5화는 탐색 `P2`, 문피아 후보는 `P1/첫 화면`; 표본 선정·P3 전에는 G11 분자나 문체 결론으로 승격하지 않는다.
+- 공통 `novel-writing-skills` 확인 `f3af0eb`(2026-09-30)의 `REFERENCE_DEEP_READ` P0~P3·대체 표본 재판정·스포츠 모듈을 [G11 대응표](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)로 연결했다. 리디·문피아 연재본 두 작품의 각 1~5화는 실제 본문 `P2`로 읽어 작업용 표본에 편입했다. 독서 범위는 95/110·첫5화10/10이나 동일 검사표 `P3`, 캔버스 계측 및 House Style 최종 판정은 보류한다.
 - 원고·대사 샘플0개. `manuscript_allowed=false`, G11 최종 PASS 아님.
 
 ## 서술 방식 네 안
