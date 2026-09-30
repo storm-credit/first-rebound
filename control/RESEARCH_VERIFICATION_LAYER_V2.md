@@ -167,3 +167,6 @@ G15F까지의 시범 상태는 로그인 복구 후 Anti-Gravity `RUN / NO_VERIF
 [D1 F2/F3 구단 픽 스냅샷](../simulation/NBA_2021_ASSET_CHAIN.md)은 Codex가 Orlando 2021-06-10 공식 팀 기사 본문을 읽어 2025 BOS/MEM 뒤 2R·BOS 2027 2R·DEN 2025 top5 1R을 확인했다. [도구별 검문](../reviews/R01_O15F14AQ_PICK_SNAPSHOT_CLI_AND_BLIND.md)에서 Antigravity 본문 수집과 NotebookLM URL 직접 추가는 실패했고, NotebookLM의 붙인 요약 분석과 Claude 문서 단독 반증은 `LIMITED_RUN`이다. 같은 기사 재독을 독립 출처로 세지 않는다. 전체 계약 조항과 F2/F3·시즌은 `HOLD`다.
 
 [D1 F1 방출잔액 날짜 경계](../research/O15F14AR_CHICAGO_DEAD_MONEY_DATED_SCREEN.md)는 Codex가 4/16 당시 2차 기사의 원역사 Chicago 팀 dead money `$97,261`을 판독했다. [도구별 검문](../reviews/R01_O15F14AR_CHICAGO_DEAD_MONEY_CLI_AND_BLIND.md)에서 Antigravity는 본문 회수 실패, NotebookLM은 **동일 기사 URL 본문** 추가·소스 한정 질의 성공, Claude는 기사 직접 접근 없는 제한 source-blind 반증이었다. 서로 다른 호출을 독립 금액 출처로 세지 않는다. 원래 계약 보장 `$0`과 후대 총액의 인과 및 3/25 대체세계 원장은 미확인이다. 조건부 `$5,512,711`은 남은 R 여유 감도값이며 F1·시즌 `HOLD`다.
+
+
+[2026-10-01 G11/G14 로그인 없는 검증](../reviews/G11_G14_V2_REVIEW_2026_10_01.md): Antigravity 공통 스킬 URL 수집은 timeout·응답 공백으로 증거0. NotebookLM은 지정 Codex 요약의 구조/권한 경계를 분석했으나 반환 인용 객체는 비어 있어 원문 독립 검증0이다. Claude 넓은 코드 감사는90초 무응답, safe-mode 좁은 코드 반증과 별도 결과물 source-blind는 응답을 회수했다. 작품별 URL 바인딩·계수/게이트·정보 경계 검사와 모호한 이력/문단 단위 문구를 수정했다. 새 독서0·95/110·실제 회차 Pack0·G11/G14 및 G16 최종 HOLD·freeze/CLOSED·미완료 큰 묶음6이다.
