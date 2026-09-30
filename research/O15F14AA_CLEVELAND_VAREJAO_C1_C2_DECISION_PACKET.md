@@ -1,6 +1,7 @@
 # O-15F14-AA — Cleveland Varejão 후속 사건 C1/C2 결정 패킷
 
 - 판정: `F5_AUTHOR_CHOICE_READY / EXACT_EXECUTION_HOLD`.
+- **2026-09-30 결정 후속:** 작가는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 선택했다. 아래 C1/C2 비교표와 추천은 선택 전 증거로 보존한다. 선택 경로의 실제 건강·분·전체 급여·승패는 여전히 `HOLD`다.
 - 기존 작가 확정: **2021-03-25 Denver–Cleveland McGee/Hartenstein 거래 생략**. McGee는 Cleveland, Hartenstein은 Denver에 남는다. 이 문서의 C1/C2는 그 선택을 바꾸지 않는다.
 - 새 작가 확정: **없음**. C1/C2 중 한 경로를 작가가 선택할 때까지 `CANDIDATE`다.
 - 질문: Cleveland가 2021-05-04 Varejão 영입 및 5/14 후속 계약을 대체 세계에서도 실행하는가?

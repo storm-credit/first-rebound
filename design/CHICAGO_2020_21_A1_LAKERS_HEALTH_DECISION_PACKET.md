@@ -1,6 +1,7 @@
 # Chicago 2020–21 A1 — Lakers 두 접촉 사건의 건강 경로 선택 준비
 
 - 상태: `AUTHOR_CHOICE_PREPARED / NO_HEALTH_BRANCH_SELECTED / NO_GATE_CHANGE`.
+- **2026-09-30 후속:** 별개 사건인 Cleveland Varejão C1/C2는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)으로 작가 선택됐다. 아래 C1/C2 미선택 표기는 이전 이력이다. Lakers H00/H10/H01/H11 건강 선택과 A1 전체 검증은 여전히 열려 있다.
 - 범위: 대체 세계의 **Lakers Davis·LeBron 건강 하위 달력**. A1은 전체 리그의 선수 가용성도 포함하므로 아래 선택 하나가 A1 전체 PASS가 아니다.
 - 선행 권위: [AY 2/14 접촉 선수](../research/O15F14AY_DAVIS_INJURY_POSSESSION_LINEUP.md), [AZ Davis 결장 30경기](../research/O15F14AZ_DAVIS_WINDOW_CONTACT_AUDIT.md), [BA 3/20 Hill 접촉](../research/O15F14BA_LEBRON_HILL_CONTACT_CAUSAL_GATE.md), [BB LeBron 20+6 달력](../research/O15F14BB_LEBRON_20_PLUS_6_GAME_CONTACT_AUDIT.md), [재현 45경기 집합](../simulation/CHICAGO_2020_21_DUAL_HEALTH_EXPOSURE.json).
 - 기존 작가 확정: Chicago 원클럽·2020 Draft·T1~T4/R1·Hall 5/9 재계약 생략·McGee 거래 생략. **Lakers 건강 경로는 작가 미확정.**

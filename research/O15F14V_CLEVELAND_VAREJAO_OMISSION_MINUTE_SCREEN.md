@@ -2,6 +2,7 @@
 
 - 기준: `main` `727d733` / PR #277 병합 뒤. 선행 [Cleveland 5월 추가 자리](O15F14U_CLEVELAND_VAREJAO_HARDSHIP_F5.md)의 **C2 후보만** 검산한다.
 - 판정: `FIVE_GAME_MINUTE_OBSERVED / CONDITIONAL_LINEUP_AND_LOCAL_RATING_PASS / HEALTH_AND_SEASON_HOLD`.
+- **2026-09-30 후속:** 작가는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 선택했다. 아래 35:56의 McGee 단독 흡수와 10/10 승패 방향은 선택 경로에 쓸 **조건부 감도 화면**이며 실제 감독 결정·출전초·승패로 승격하지 않는다. 아래 “C2 후보·미선택” 표기는 선택 전 이력이다.
 - 재현: [C2 화면 JSON](../simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json), [`screen_cleveland_varejao_omission.py`](../tools/screen_cleveland_varejao_omission.py). Windows에서는 종속 기존 도구의 기본 텍스트 읽기를 위해 `PYTHONUTF8=1`로 실행한다.
 - 작가 확정은 3/25 McGee–Hartenstein 거래 **생략**까지다. Varejão 영입 생략, 분 배분, 건강, 최종 승패는 확정되지 않았다.
 
