@@ -32,6 +32,8 @@ McGee와 Hartenstein이 모두 일반계약으로 원래 팀에 계속 남는다
 
 5/9 원역사 18명은 Varejão 영입 뒤의 **두 번째 날짜별 자리 관측**이다. 다른 계약 경로가 그대로라는 조건에서 선택된 McGee 잔류는 Hartenstein과 1대1 치환이며, C1은 그날도 16+2, C2는 Varejão 한 명을 빼 15+2다. 경기책은 원역사 등록·부상 상태의 증거일 뿐 대체 세계의 hardship 허가 기간이나 McGee 출장 가능성을 증명하지 않는다.
 
+**2026-09-30 후속:** 작가는 C2를 이미 선택했다. [BD 최종 경기일 대조](O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md)는 원역사 5/4·5·7·9·10·12·14·16 경기책 8개 모두 같은 18명(일반16+투웨이2) 명단 집합을 확인했다. 다른 계약 유지·McGee/Hartenstein 1대1 치환·Varejão 제외 조건이면 여덟 **경기일** 모두 일반15+투웨이2다. 아래 C1/C2 후보 표는 선택 전 이력이며 건강·오프데이 등록·급여·승패는 여전히 HOLD다.
+
 | 대체 사건 후보 | 자리·의무 | 다음 검증 |
 |---|---|---|
 | C1 원역사 Varejão 영입 유지 | 5/4 16+2. Hartenstein을 근거로 쓰지 않고 Dellavedova·Nance·Prince·Windler의 3연속 결장과 5/3 계속 결장 전망으로 **새 세계 hardship 신청/허가 사건**을 설정해야 함 | A1 대체 건강 달력, 리그 판단/기간, Varejão 5/4 10일 계약과 [5/14 형식 미인증 후속](O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md), 전체 Cleveland 비용·5월 분·승패. 원역사 승인 자동 복사 금지 |

@@ -50,6 +50,8 @@ F4의 [후속 5경기 부하 상한](../research/O15F14AM_ORLANDO_HALL_FIVE_GAME
 
 F5 Cleveland의 별도 [Varejão C1/C2 비교 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 5/4 첫 10일 계약과 5/14 **형식 미인증 후속**, 조건부 개인 charge 합 $144,297, C2 35:56 재배분 및 추가 자리/2021–22 권리 파급을 비교했다. 작가는 [C2 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 선택했지만 Cleveland 전체 등록·급여·실제 분과 새 대진 검증은 남아 있다. “10일 계약 2건”은 정확 F5 종료 요건이 아니다.
 
+[BD 5월 최종 경기일 명단](../research/O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md)은 5/4~16 Cleveland 원역사 8경기 모두 박스12+inactive6=18을 확인했다. 같은 다른 계약과 McGee/Hartenstein 1대1 치환을 보존하는 C2에서는 Varejão 한 자리만 빠져 **각 경기일 일반15+투웨이2**다. 5/4·10·16 Varejão 미출전은 추가 분 재배정0이며, 이미 검산한 출전5경기 `35:56`을 바꾸지 않는다. 이것은 F5의 **경기일 자리 수 소항목**이지 5월 오프데이 등록·전체 급여/건강·새 Denver–Lakers 시리즈나 F5 PASS가 아니다.
+
 F2의 BOS/MEM 2025 2R 중 뒤 순번·BOS 2027 2R 규칙은 [Orlando 구단의 2021년 6월 자산 설명](https://www.nba.com/magic/news/orlando-magic-have-great-opportunity-add-several-quality-players-through-draft-next-few-years-20210610)의 검색 색인 문장으로 기존 2차 거래 장부와 대조했다. 이번 접근에서 본문 HTTP 403이므로 **구단 본문 직접 회수로 등급을 올리지 않는다**. 이 대조는 F2의 당일 TPE 사용 가능액·Fournier 전체 charge·다른 자산 의무를 닫지 않는다.
 
 [F2 원거래 동일성 경로](../research/O15F14R_BOSTON_FOURNIER_PRIMARY_EQUIVALENCE.md)에서는 NBA의 거래일 기사로 Hayward 예외의 **원역사 사용**과 Boston/Orlando 구단의 같은 선수·두 2R 거래를 공식 자료에 연결했다. 비공개 센트 원장을 만들어 채우기 전에, Boston 예외/픽·Orlando 3/25~27 Teague 임시 등록과 Vučević 잔류 장부가 원거래의 합법 입력과 동일한지 검증한다. 이름 붙은 Boston 거래 네 선수의 일치만으로 F2 PASS는 아니다. F2·K_TRANSACTIONS `HOLD`와 전체 `0/5`는 유지한다.
