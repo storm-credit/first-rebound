@@ -1,5 +1,6 @@
 # O-15F14-L — 시즌 채택 전 실행 패킷
 
+- 현행 기준(2026-09-30): [S2 작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)을 적용한다. 아래 정확 필드는 원문 또는 전체 닫힌 법적 구간으로 판정하고, 반사실 건강·코칭은 개별 AUTHOR_MODELED 선택으로 따로 잠근다. R=null은 계속 HOLD, 법적 F0/5·A0/3·K0/4. S0 시기 EXACT_PASS와 S2의 LEGAL_BOUND_PASS를 혼합하지 않는다.
 - 기준: PR #165 main `32a2b738c57981cf4892d61627827d0d1190f51d` 및 이번 실행 조항 후속.
 - 판정: `PACKET_ASSEMBLED / FACT_BLOCKERS_OPEN / NOT_READY_FOR_FINAL_ADOPTION`.
 - 이 문서는 현재 확보 범위와 잔여 의존을 연결하는 색인이다. 아래 분야별 문서·JSON이 사실과 산술의 권위를 가진다.
