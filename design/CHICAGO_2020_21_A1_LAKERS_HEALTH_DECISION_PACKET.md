@@ -29,9 +29,9 @@
 
 - **명단·분:** Denver는 McGee/Nnaji 이탈·Hartenstein/Bey 잔류, Atlanta Hill 경로, Lakers 2/14·3/20·5월 건강과 각 경기 240분/5인조를 연결한다. 원역사 박스의 이름만 바꿔 경기 결과를 상속하지 않는다.
 - **승패·플레이오프:** [AX 한 경기 민감도](../research/O15F14AX_DEN_LAL_SEED_CAUSAL_SENSITIVITY.md)는 4/15 Lakers 한 승 추가로 Denver 첫 상대가 Dallas가 되는 조건부 예를 보인다. 원역사 건강과 F038 승패를 모두 유지했을 때의 Denver–Lakers 3–6도 새 시리즈 승자는 아니다. Phoenix–Portland/Utah–Memphis 갈래도 실제 대진 결정 뒤 연결한다.
-- **계약·픽:** Lakers 건강 선택은 F1 Chicago `R`, F2 Boston 예외/픽, F3 Denver Gordon 픽을 해결하지 않는다. 새 시드/플레이오프·추첨이 계약/픽 가치나 2021–23 거래를 바꾸면 후행 자산과 CBA를 다시 검문한다. [Cleveland C1/C2](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)는 별도 작가 선택이다.
+- **계약·픽:** Lakers 건강 선택은 F1 Chicago `R`, F2 Boston 예외/픽, F3 Denver Gordon 픽을 해결하지 않는다. 새 시드/플레이오프·추첨이 계약/픽 가치나 2021–23 거래를 바꾸면 후행 자산과 CBA를 다시 검문한다. [Cleveland C2](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)는 이미 별도 선택됐지만 실행 검증은 남아 있다.
 - **인물·역사:** 주인공의 Chicago 원클럽과 라이벌 Minnesota 성장축은 유지한다. Lakers 핵심 두 선수의 부상 달력을 바꾸면 실존 선수의 출전·수상·플레이오프 공로와 독자에게 보이는 역사 이탈 범위를 검토한다. 새 서사 장면이나 원고는 작성하지 않는다.
 
-현재 권고를 작가에게 제시할 수는 있지만, H00도 **A1 전체 PASS, F5, K_HEALTH, 시즌/추첨 정본, 원고 개방을 자동으로 만들지 않는다.** S0/S1/S2와 C1/C2의 미선택 상태를 먼저 보존한다. 선택이 오면 사건/날짜를 결정 기록에 넣고, 해당 경기 집합과 후행 시즌을 재현·독립 반증한 뒤 PR→main으로 반영한다.
+현재 권고를 작가에게 제시할 수는 있지만, H00도 **A1 전체 PASS, F5, K_HEALTH, 시즌/추첨 정본, 원고 개방을 자동으로 만들지 않는다.** S0/S1/S2와 H00/H10/H01/H11은 미선택이며 Cleveland C2는 선택됐다. Lakers 건강 선택이 오면 사건/날짜를 결정 기록에 넣고, 해당 경기 집합과 후행 시즌을 재현·독립 반증한 뒤 PR→main으로 반영한다.
 
 **분류:** NBA 경기책·당시 보도는 원역사 **사실**. 31/31/17/45 집합과 F038 시드는 저장소 **재현/조건부 계산**. H00~H11은 **후보**. 건강 관련 **신규 작가확정 0건**. 이번 패킷의 Antigravity CLI는 첫 호출에서 내부 command 권한 거부, 둘째 웹 전용 호출은 45초 제한에 본문 0건이어서 `NO_VERIFIED_BODY`. Claude CLI의 읽기 전용 반증 호출도 약 75초 동안 결과가 없어 중단해 `ATTEMPTED_NO_RESULT`; NotebookLM·source-blind는 `NOT_RUN`이다. 이 시도들을 독립 검증이나 G16 통과로 세지 않는다. F `0/5`, A `0/3`, K `0/4`, 7행 1완료·1진행·5대기/미완료 6개, `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`.
