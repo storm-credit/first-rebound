@@ -48,19 +48,22 @@ Stevens는 [구단 4/14 다년 계약](https://www.nba.com/cavaliers/releases/st
 
 [2017 CBA VII §12(f)(2), §6(m)(3)(B)](https://cosmic-s3.imgix.net/3c7a0a50-8e11-11e9-875d-3d44e94ae33f-2017-NBA-NBPA-Collective-Bargaining-Agreement.pdf)는 0·1년 경력 FA 계약의 tax/apron 산입 하한을 2년 경력 최저급에 연결한다. Kabengele는 Sacramento에서 기존 rookie 계약이 방출된 뒤 Cleveland와 **새 FA 계약**을 맺은 경로이므로 보유 draft rookie 계약과 구분한다. 기존 [146일 최소급 원장](NBA_2020_21_REGISTRATION_COSTS.md)의 $1,620,564를 10·10·16일에 적용한 **조건부** 차지는 $110,998·$110,998·$177,596, 보고값 대비 총 **+$43,119**다. 원계약·보너스·2020 수정 규정까지 인증한 실제 tax/apron 금액은 아니다. Sacramento 이전 rookie 방출비를 Cleveland에 가져오지 않는다.
 
+아래 네 안은 첫 목록에 각 줄의 증분을 **순서대로 누적**한 시험이다. `season_selected=false`는 작품 대체 시즌을 작가확정하지 않았다는 뜻이며 자료의 2020–21 시즌 필터와 별개다. 실제 비용과 누락 구간 미인증 때문에 actual tax/apron은 미판정(null)이다.
+
 | 같은 공개 입력의 비용안 | 목록 비용 | tax $132,627,000까지 숫자 차이 | apron $138,928,000까지 숫자 차이 |
 |---|---:|---:|---:|
 | 보고 cap 목록+Prince bonus 전액 | $130,668,168 | $1,958,832 | $8,259,832 |
 | 위+Kabengele 조건부 FA 하한 | $130,711,287 | $1,915,713 | $8,216,713 |
 | 위+Drummond 감액 혜택 0+Dellavedova 보전 혜택 0 시험 | **$132,059,577** | **$567,423** | **$6,868,423** |
+| 위+Maker/Ferrell 다른 보고행 차이 치환(10/1 추가, 완전 상한 아님) | **$132,191,336** | **$435,664** | **$6,736,664** |
 
-마지막 줄은 Drummond 원래 연간 $28,751,774를 전액 남겨 **+$794,536**, Dellavedova의 보고 현금 $2,174,318을 넣어 **+$553,754**한 시험이다. buyout가 취소됐다는 사건 선택도, 현금이 실제 tax 차지라는 주장도 아니다. [공식 NBA 2020–21 cap/tax 발표](https://pr.nba.com/nba-nbpa-2020-21-season/)와 [apron 이력](https://www.salaryswish.com/salary-cap)을 기준선으로 쓴다. 양수 차이는 공개 목록에서만 성립하며 실제 비납세/하드캡 PASS가 아니다.
+세 번째 줄은 Drummond 원래 연간 $28,751,774를 전액 남겨 **+$794,536**, Dellavedova의 보고 현금 $2,174,318을 넣어 **+$553,754**한 시험이다. buyout가 취소됐다는 사건 선택도, 현금이 실제 tax 차지라는 주장도 아니다. [공식 NBA 2020–21 cap/tax 발표](https://pr.nba.com/nba-nbpa-2020-21-season/)와 [apron 이력](https://www.salaryswish.com/salary-cap)을 기준선으로 쓴다. 양수 차이는 공개 목록에서만 성립하며 실제 비납세/하드캡 PASS가 아니다.
 
 동일한 다른 계약 가정에서 원역사 Hartenstein 보고액 $1,620,564와 Varejão 조건부 $144,297 대신 McGee $4,200,000을 유지하면 C2 목록은 **+$2,435,139**다. 이 연간 비용 차이에 시즌 잔여 일수 비율을 다시 곱하지 않는다. 3/25 거래 생략은 신규 McGee 영입이 아니며 선수의 현금 지급 팀 배분과 리그 Team Salary는 다른 장부다.
 
 ## 4. 남은 조건과 V2
 
-캠프·기타 방출잔액/상계·과거 권리/예외·정확 bonus 및 2020 수정·실제 hard-cap 발생·Stevens 전환액·다른 대체 거래를 전수 확인하지 못했다. [12/19 구단 계열 공지](https://cleveland.gleague.nba.com/news/cavs-convert-bolden-to-two-way-contract)는 Mooney·Randolph·Matthews 방출, Bolden 투웨이 전환, Pelle 서명을 확인하지만 이들의 미보장·Exhibit 10 보너스·권리 소멸/상계 비용을 전부 인증하지 못한다. Maker의 현금/cap 차이 $20,761과 Ferrell 현금 $118,983도 위 두 혜택0 시험에는 들어 있지 않다. 따라서 마지막 줄조차 전체 비용 상한이 아니다. 그 때문에 `R_CLE=null`, 정확 Team Salary와 tax/apron PASS는 `null`이며 위 숫자 차이는 **미포함 부담을 담을 수 있는 조건부 폭**이다. 미확인 항목을 더했을 때 비용이 얼마나 달라지는지 다음 검증에 사용할 수 있게 처음으로 15명+이전 9의무를 연결했다.
+캠프·기타 방출잔액/상계·과거 권리/예외·정확 bonus 및 2020 수정·실제 hard-cap 발생·Stevens 전환액·다른 대체 거래를 전수 확인하지 못했다. [12/19 구단 계열 공지](https://cleveland.gleague.nba.com/news/cavs-convert-bolden-to-two-way-contract)는 Mooney·Randolph·Matthews 방출, Bolden 투웨이 전환, Pelle 서명을 확인하지만 이들의 미보장·Exhibit 10 보너스·권리 소멸/상계 비용을 전부 인증하지 못한다. Maker의 현금/cap 차이 $20,761과 Ferrell 현금 $118,983도 위 두 혜택0 시험에는 들어 있지 않다. 따라서 세 번째 줄은 전체 비용 상한이 아니다. 2026-10-01 추가한 네 번째 줄은 [4/16 보고액 대조](../research/CLEVELAND_2020_21_DATED_DEAD_MONEY_RECONCILIATION.md)의 Maker +$20,761/Ferrell +$110,998만 치환한 감도다. Ferrell 현금 $118,983이나 모든 잔여 의무의 완전 구간을 증명하지 않아 이 줄 역시 전체 비용 상한이 아니다. 그 때문에 `R_CLE=null`, 정확 Team Salary와 tax/apron PASS는 `null`이며 위 숫자 차이는 **미포함 부담을 담을 수 있는 조건부 폭**이다. 미확인 항목을 더했을 때 비용이 얼마나 달라지는지 다음 검증에 사용할 수 있게 처음으로 15명+이전 9의무를 연결했다.
 
 Codex는 2차 계약 본문/행과 기존 결정·급여 규칙을 대조하고 산술을 재현했다. Antigravity 공식 Kabengele 본문 요청은 45초 뒤 빈 응답으로 **증거 0건**이었다. NotebookLM의 같은 공식 URL 추가도 실패했다. 후속 분석과 반증의 실제 결과는 별도 [V2 기록](../reviews/R01_CLEVELAND_C2_PAYROLL_SCREEN.md)을 따른다. 도구 상태를 독립 원자료 수로 세지 않는다.
 

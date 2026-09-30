@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+**2번 F5 날짜별 방출비 대조(2026-10-01):** [4/16 기사·7개 계약행 대조](../research/CLEVELAND_2020_21_DATED_DEAD_MONEY_RECONCILIATION.md)의 차이 $131,759는 Maker/Ferrell 보고 기준 차이로 산술 재현했다. 기사에 선수별 내역은 없어 귀속 가설이며 공식 charge/완전 상한 인증이 아니다. 새 감도 $132,191,336, tax/apron 기준 차이 $435,664/$6,736,664도 R_CLE=null·F5 HOLD다. S2 F0/5·A0/3·K0/4; 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 **2026-09-30 현행 기준:** 작가가 [D1 S2](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)를 선택했다. [S2 운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)에 따라 법적 구간과 대체 사건 모델을 따로 판정한다. S0 정확 인증만 요구하던 문구와 S2 미선택 표기는 아래의 이전 이력이다. 법적 F0/5·A0/3·K0/4, 2번 미완료, 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze/CLOSED 유지.
 - 상태: `ACTIVE / MILESTONE_BASED / NOT_CALENDAR_PROMISE`
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`

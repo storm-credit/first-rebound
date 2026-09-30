@@ -15,6 +15,22 @@
   "kabengele_conditional_floor_delta_usd": 43119,
   "no_buyout_saving_stress_delta_usd": 794536,
   "no_dell_reimbursement_stress_delta_usd": 553754,
+  "dated_dead_money_comparison": {
+    "snapshot_date": "2021-04-16",
+    "comparable_obligation_count": 7,
+    "existing_reported_subtotal_usd": 30264495,
+    "alternate_reported_subtotal_usd": 30396254,
+    "article_team_total_usd": 30396254,
+    "alternate_rows_minus_article_usd": 0,
+    "article_minus_existing_rows_usd": 131759,
+    "row_deltas_usd": {
+      "MAKER_WAIVED": 20761,
+      "FERRELL_HARDSHIP": 110998
+    },
+    "classification": "ARITHMETIC_RECONCILIATION_HYPOTHESIS_NOT_OFFICIAL_ATTRIBUTION",
+    "legal_attribution_verified": false,
+    "complete_domain": false
+  },
   "c2_minus_reported_original_same_other_inputs_usd": 2435139,
   "cases": [
     {
@@ -40,6 +56,14 @@
       "apron_reference_gap_usd": 6868423,
       "actual_tax_compliance": null,
       "actual_apron_compliance": null
+    },
+    {
+      "case": "PLUS_ALTERNATE_REPORTED_MAKER_FERRELL_ROWS_NOT_UPPER_BOUND",
+      "listed_budget_usd": 132191336,
+      "tax_reference_gap_usd": 435664,
+      "apron_reference_gap_usd": 6736664,
+      "actual_tax_compliance": null,
+      "actual_apron_compliance": null
     }
   ],
   "unresolved": [
@@ -58,7 +82,7 @@
   "season_selected": false,
   "manuscript_allowed": false,
   "source_sha256": {
-    "research\\CLEVELAND_2020_21_C2_PAYROLL_SOURCES.json": "0b8d2139cea3c5a8f1574533ca17bdf38592a8c84849c7f303e3d115380660a8",
+    "research\\CLEVELAND_2020_21_C2_PAYROLL_SOURCES.json": "bfa8b826f8ece610e6f12c064eab2329d83e723f1f8d704ebce7ad7845c57010",
     "canon\\CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
     "canon\\CLEVELAND_2021_VAREJAO_C2_DECISION.json": "f78897dc76bff7dc183c977c9fa8971109f53bf53d1f18d88f837f687f5e3a41"
   }

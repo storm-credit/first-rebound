@@ -1,7 +1,9 @@
 # Project State
 
+- 2번 F5 Cleveland 날짜별 방출비 대조(2026-10-01): [4/16 기사·7개 계약행 대조](research/CLEVELAND_2020_21_DATED_DEAD_MONEY_RECONCILIATION.md)의 차이 $131,759는 Maker/Ferrell 보고 기준 차이로 산술 재현했다. 기사에 선수별 내역은 없어 귀속 가설이며 공식 charge/완전 상한 인증이 아니다. 새 감도 $132,191,336, tax/apron 기준 차이 $435,664/$6,736,664도 R_CLE=null·F5 HOLD다. S2 F0/5·A0/3·K0/4; 7행 1완료·2번 진행·3번 조건부 선행·4~7 대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 - 最新 D1 검증 기준(2026-09-30): 작가가 [S2](canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)를 선택했다. [운영 규칙/원장](control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)에서 법적 구간 전체 검증과 개별 AUTHOR_MODELED 사건을 분리한다. S2 기준은 확정됐지만 R 상한·건강 사건·시즌은 미확정이다. S2 법적 F0/5·A0/3·K0/4, 남은6, freeze PARTIAL·설계/원고 CLOSED. 아래 S0 현행/선택 대기는 이전 이력이다.
-- 기준일: 2026-09-30
+- 기준일: 2026-10-01
 - 프로젝트: `first-rebound`
 - 정식 제목: `HOLD`
 - 태그라인 후보: 《처음 배운 것은 리바운드였다》
