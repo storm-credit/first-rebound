@@ -4,7 +4,7 @@
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`
 
-**6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 신규 후보는 본문 미독 `P1/HOLD`; 기존 실제 독서 85/110·첫5화 8/10·핵심20화 3/4·본문4/4플랫폼과 G14 실제 회차 Pack0은 불변. 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+**6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 리디 연재 후보 1~5화는 탐색 `P2`, 문피아 후보는 `P1/첫 화면`이나 표본 교체 전이다. 기존 선정 표본 85/110·첫5화 8/10·핵심20화 3/4·본문4/4플랫폼과 G14 실제 회차 Pack0은 불변. 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
 **2번 F5 Cleveland 선택(2026-09-30):** [C2 Varejão 복귀 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. 아래 C1/C2 미선택 표기는 선택 전 이력이다. 건강·명단·급여·5경기 실제 분과 승패, Denver 새 대진은 미검증이므로 7행 1완료·1진행·5대기, 남은 6개는 그대로다. G11 85/110·G14 실제 회차 Pack0·freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
