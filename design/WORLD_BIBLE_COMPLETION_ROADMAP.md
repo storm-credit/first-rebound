@@ -4,11 +4,11 @@
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`
 
-**6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 리디 연재 후보 1~5화는 탐색 `P2`, 문피아 후보는 `P1/첫 화면`이나 표본 교체 전이다. 기존 선정 표본 85/110·첫5화 8/10·핵심20화 3/4·본문4/4플랫폼과 G14 실제 회차 Pack0은 불변. 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+**6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 두 후보의 공식 연재본 각1~5화를 읽고 연구용 표본으로 조건부 교체했다. 현재 95/110·첫5화10/10·핵심20화3/4·본문4/4플랫폼, 미독15화다. 문피아 캔버스 해시·P3·전작 인기 심사·프로젝트 합성은 HOLD이며 G11 최종 종료가 아니다. G14 실제 회차 Pack0, 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
-**2번 F5 Cleveland 선택(2026-09-30):** [C2 Varejão 복귀 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. 아래 C1/C2 미선택 표기는 선택 전 이력이다. 건강·명단·급여·5경기 실제 분과 승패, Denver 새 대진은 미검증이므로 7행 1완료·1진행·5대기, 남은 6개는 그대로다. G11 85/110·G14 실제 회차 Pack0·freeze v0.30 PARTIAL·설계/원고 CLOSED.
+**2번 F5 Cleveland 선택(2026-09-30):** [C2 Varejão 복귀 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. 아래 C1/C2 미선택 표기는 선택 전 이력이다. 건강·명단·급여·5경기 실제 분과 승패, Denver 새 대진은 미검증이므로 7행 1완료·1진행·5대기, 남은 6개는 그대로다. 당시 G11 85/110(위 최신 재심사 후 95/110)·G14 실제 회차 Pack0·freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
-**2번 F1 공식 수정 조항 범위(2026-09-30):** [2020 CBA 공개 출처 대조](../research/O15F14BC_2020_CBA_AMENDMENT_PUBLIC_SOURCE_BOUNDARY.md)는 공식 합의·승인 발표의 cap/일정과 아직 입수하지 못한 수정 전문·Chicago 급여 장부를 분리했다. F1·정확 시즌은 `HOLD`; 7행은 1완료·1진행·5대기, 진행 중 포함 미완료 6개다. G11은 여전히 85/110, G14 실제 회차 Pack0, freeze v0.30 PARTIAL·설계/원고 CLOSED다. 아래 2026-09-28 항목은 당시 이력이다.
+**2번 F1 공식 수정 조항 범위(2026-09-30):** [2020 CBA 공개 출처 대조](../research/O15F14BC_2020_CBA_AMENDMENT_PUBLIC_SOURCE_BOUNDARY.md)는 공식 합의·승인 발표의 cap/일정과 아직 입수하지 못한 수정 전문·Chicago 급여 장부를 분리했다. F1·정확 시즌은 `HOLD`; 7행은 1완료·1진행·5대기, 진행 중 포함 미완료 6개다. 당시 G11은 85/110(위 최신 재심사 후 95/110), G14 실제 회차 Pack0, freeze v0.30 PARTIAL·설계/원고 CLOSED다. 아래 2026-09-28 항목은 당시 이력이다.
 
 **6번 G11 문피아 스포츠 초반 독서(2026-09-28):** [《홈 플레이트의 빌런》 공식 무료판 1~5화 관찰](../research/STYLE_READING_OBSERVATIONS.json)을 더해 85/110회차·첫5화 완독8/10작품·첫20화 완독3/4작품·본문4/4플랫폼이다. 미독25화(나머지2작품 초반10+마지막 핵심1작품 추가15). G11 최종 미완료, G14 실제 회차 Pack0, 7행 전체1완료·6미완료, freeze v0.30 PARTIAL·설계/원고 CLOSED. 아래80회차 이하는 당시 이력이다.
 
