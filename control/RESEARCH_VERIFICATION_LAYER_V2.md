@@ -170,3 +170,6 @@ G15F까지의 시범 상태는 로그인 복구 후 Anti-Gravity `RUN / NO_VERIF
 
 
 [2026-10-01 G11/G14 로그인 없는 검증](../reviews/G11_G14_V2_REVIEW_2026_10_01.md): Antigravity 공통 스킬 URL 수집은 timeout·응답 공백으로 증거0. NotebookLM은 지정 Codex 요약의 구조/권한 경계를 분석했으나 반환 인용 객체는 비어 있어 원문 독립 검증0이다. Claude 넓은 코드 감사는90초 무응답, safe-mode 좁은 코드 반증과 별도 결과물 source-blind는 응답을 회수했다. 작품별 URL 바인딩·계수/게이트·정보 경계 검사와 모호한 이력/문단 단위 문구를 수정했다. 새 독서0·95/110·실제 회차 Pack0·G11/G14 및 G16 최종 HOLD·freeze/CLOSED·미완료 큰 묶음6이다.
+
+
+[2026-10-01 G11 전작 P1 계보 후속](../research/G11_POPULARITY_PROVENANCE_2026_10_01.md)은 Codex가 공식 문피아/리디/카카오/조아라/시리즈와 수상·출판·각색 자료를 확인했다. 홈플레이트 시리즈 관심 수 오기를 다운로드 아이콘 집계로 정정했다. 별도 Claude CLI의 제공 문서 한정 반증은 회수했고, 두 종류와 독립 발행 주체·검토행과 충족행·카운터/판본 차이를 명시했다. 이 후속에 Antigravity·NotebookLM·source-blind를 다시 실행하지 않았으며 앞선 G11/G14 검토를 이 문서의 신규 검수로 세지 않는다. P1 두 종류 연결5/10·HOLD5, 새 독서0·95/110·G11/P3 최종 HOLD·freeze/CLOSED·미완료6이다.
