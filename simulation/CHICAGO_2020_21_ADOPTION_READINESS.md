@@ -20,7 +20,7 @@ L2는 Chicago가 Washington 원정에서 이긴 뒤 Indiana 원정에서 탈락�
 
 A2의 **행정 비발생 방향**은 작가 선택으로 기록됐다. A1의 대체 건강·분과 A3의 단일 시즌/플레이인, A2를 포함한 최종 실행 게이트는 아직 채택되지 않았다. 사용자의 ‘자동으로 끝까지 계속’에 따라 조사·구현·PR 병합을 계속했으며, 새로운 최종 시즌 승인으로 확대하지 않았다.
 
-[A1 Lakers 건강 하위 선택 패킷](../design/CHICAGO_2020_21_A1_LAKERS_HEALTH_DECISION_PACKET.md)은 Davis 2/14 사건+30결장과 LeBron 3/20 부분 경기+20/2/6/2 창의 재검문 날짜 45개를 연결한다. H00 원역사 두 달력 유지/H10 Davis 변경/H01 LeBron 변경/H11 둘 다 변경은 전부 후보이며, H00 권고도 A1 전체 채택이나 F5 대진 종료가 아니다. S0/S1/S2의 종료 증거 기준과 Cleveland C1/C2는 별도 미선택이다.
+[A1 Lakers 건강 하위 선택 패킷](../design/CHICAGO_2020_21_A1_LAKERS_HEALTH_DECISION_PACKET.md)은 Davis 2/14 사건+30결장과 LeBron 3/20 부분 경기+20/2/6/2 창의 재검문 날짜 45개를 연결한다. H00 원역사 두 달력 유지/H10 Davis 변경/H01 LeBron 변경/H11 둘 다 변경은 전부 후보이며, H00 권고도 A1 전체 채택이나 F5 대진 종료가 아니다. S0/S1/S2의 종료 증거 기준은 미선택이고 [Cleveland C2](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)는 선택됐으나 실제 실행 검증이 남아 있다.
 
 ## 2. 잔여 사실 F1~F5 — 최신 통합 상태
 

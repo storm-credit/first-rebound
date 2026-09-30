@@ -3,6 +3,7 @@
 - 상태: `FOUNDATION_PARTIAL / REFERENCE_DEEP_READ_INCOMPLETE`.
 - 적용 권위: `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`.
 - 참고작 실제 열람 범위는 [접근·독서 원장](../research/STYLE_REFERENCE_ACCESS.md)에 별도 기록한다. 아래 규칙 대부분은 프로젝트의 성격·농구·권한 요구에서 만든 기초안이며 참고작 전체 딥리드의 결론이 아니다.
+- 공통 `novel-writing-skills` 최신 확인 `f3af0eb`(2026-09-30)의 `REFERENCE_DEEP_READ` P0~P3·대체 표본 재판정·스포츠 모듈을 [G11 대응표](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)로 연결했다. 문피아·리디 신규 후보는 `P1/HOLD`; 본문 분석이나 G11 완료로 승격하지 않는다.
 - 원고·대사 샘플0개. `manuscript_allowed=false`, G11 최종 PASS 아님.
 
 ## 서술 방식 네 안

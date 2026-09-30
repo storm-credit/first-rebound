@@ -4,6 +4,8 @@
 - 현재 정본: `PROJECT_FREEZE v0.30 PARTIAL`
 - 원고 게이트: `CLOSED`
 
+**6번 G11 공통 스킬 동기화(2026-09-30):** [문피아·리디 연재본 대체 후보 재심사](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)는 갱신된 `novel-writing-skills` `f3af0eb`의 P0~P3·표본 교체 Gate를 반영한다. 신규 후보는 본문 미독 `P1/HOLD`; 기존 실제 독서 85/110·첫5화 8/10·핵심20화 3/4·본문4/4플랫폼과 G14 실제 회차 Pack0은 불변. 7행 1완료·1진행·5대기/남은6, freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 **2번 F5 Cleveland 선택(2026-09-30):** [C2 Varejão 복귀 계약 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)을 작가가 선택했다. 아래 C1/C2 미선택 표기는 선택 전 이력이다. 건강·명단·급여·5경기 실제 분과 승패, Denver 새 대진은 미검증이므로 7행 1완료·1진행·5대기, 남은 6개는 그대로다. G11 85/110·G14 실제 회차 Pack0·freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
 **2번 F1 공식 수정 조항 범위(2026-09-30):** [2020 CBA 공개 출처 대조](../research/O15F14BC_2020_CBA_AMENDMENT_PUBLIC_SOURCE_BOUNDARY.md)는 공식 합의·승인 발표의 cap/일정과 아직 입수하지 못한 수정 전문·Chicago 급여 장부를 분리했다. F1·정확 시즌은 `HOLD`; 7행은 1완료·1진행·5대기, 진행 중 포함 미완료 6개다. G11은 여전히 85/110, G14 실제 회차 Pack0, freeze v0.30 PARTIAL·설계/원고 CLOSED다. 아래 2026-09-28 항목은 당시 이력이다.
@@ -64,7 +66,7 @@
 
 사용자가 2026-09-28에 **3번을 끝까지 진행**하라고 요청했다. [3번 조건부 종료/선택 패킷](CHICAGO_2021_23_MACRO3_CLOSEOUT.md)에서 2021–23의 이미 완료한 예산·지명 비교와 미완료 계약/선수 동의/시즌 의존을 분리한다. 2번 D1의 최종 시즌·추첨이 닫힐 때까지 3번의 최종 정본 판정은 유보하지만, 승인된 CP2와 이번 지시에 따라 3번의 독립적인 계약·역할·자산 검증을 진행한다. 정기 자동화는 등록하지 않는다.
 
-[대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2/C2는 권고 후보일 뿐 미선택이고, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
+[대기 중 작가 선택서](CHICAGO_2020_21_D1_EVIDENCE_STANDARD_DECISION_PACKET.md)와 [C1/C2 비교 패킷](../research/O15F14AA_CLEVELAND_VAREJAO_C1_C2_DECISION_PACKET.md)은 이 A1 선행 건강·대진 비용을 반영했다. S2는 권고 후보로 미선택이고 [C2는 선택](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)됐지만, 어느 쪽도 2번 완료·시즌/플레이오프 확정·원고 개방을 뜻하지 않는다.
 
 세계관 설정집은 마지막에 새로 쓰는 단일 문서가 아니다. `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `canon/WORLD_MODEL.md`, `canon/PROJECT_FREEZE.md`에 승인된 설정이 이미 누적되고 있으며, `simulation/`, `research/`, `reviews/`가 근거 원장 역할을 한다.
 
