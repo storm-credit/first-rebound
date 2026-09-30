@@ -43,6 +43,31 @@ def build():
     dell = next(r for r in rows if r['player'] == 'Matthew Dellavedova')
     no_dell_reimbursement = dell['reported_base_usd'] - dell['reported_cap_hit_usd']
     stress = conditional_floor + no_buyout_saving + no_dell_reimbursement
+    dated = source['dated_dead_money_comparison']
+    assert dated['snapshot_date'] == '2021-04-16'
+    ids = dated['comparable_obligation_ids']
+    expected = {'DRUMMOND_BUYOUT', 'JR_STRETCH', 'COOK_1', 'COOK_2',
+                'MAKER_WAIVED', 'TUCKER_WAIVED', 'FERRELL_HARDSHIP'}
+    assert len(ids) == len(set(ids)) == 7 and set(ids) == expected
+    assert set(dated['comparison_rows_usd']) == expected
+    selected = [r for r in earlier if r['id'] in expected]
+    assert len(selected) == 7
+    assert all(r['date'] <= dated['snapshot_date'] for r in selected if 'date' in r)
+    reported_subtotal = sum(r['reported_cap_hit_usd'] for r in selected)
+    comparison_subtotal = sum(dated['comparison_rows_usd'].values())
+    changes = {r['id']: dated['comparison_rows_usd'][r['id']] - r['reported_cap_hit_usd']
+               for r in selected if dated['comparison_rows_usd'][r['id']] != r['reported_cap_hit_usd']}
+    dated_result = dict(snapshot_date=dated['snapshot_date'], comparable_obligation_count=7,
+                        existing_reported_subtotal_usd=reported_subtotal,
+                        alternate_reported_subtotal_usd=comparison_subtotal,
+                        article_team_total_usd=dated['reported_team_dead_money_usd'],
+                        alternate_rows_minus_article_usd=comparison_subtotal - dated['reported_team_dead_money_usd'],
+                        article_minus_existing_rows_usd=dated['reported_team_dead_money_usd'] - reported_subtotal,
+                        row_deltas_usd=changes,
+                        classification=dated['comparison_classification'],
+                        legal_attribution_verified=False, complete_domain=False)
+    # A fourth sensitivity uses the two other reported rows; it is not an upper bound.
+    alternate_rows_stress = stress + sum(changes.values())
     comparison = source['comparison_only']
     mcgee = next(r for r in rows if r['player'] == 'JaVale McGee')
     difference = (mcgee['reported_cap_hit_usd'] - comparison['hartenstein_reported_cap_usd'] -
@@ -50,7 +75,8 @@ def build():
     cases = []
     for name, amount in [('REPORTED_LIST_PLUS_ALL_DISCLOSED_BONUS', listed),
                          ('PLUS_CONDITIONAL_KABENGELE_FA_FLOOR', conditional_floor),
-                         ('NO_DRUMMOND_BUYOUT_SAVING_NO_DELL_REIMBURSEMENT_STRESS', stress)]:
+                         ('NO_DRUMMOND_BUYOUT_SAVING_NO_DELL_REIMBURSEMENT_STRESS', stress),
+                         ('PLUS_ALTERNATE_REPORTED_MAKER_FERRELL_ROWS_NOT_UPPER_BOUND', alternate_rows_stress)]:
         cases.append(dict(case=name, listed_budget_usd=amount,
                           tax_reference_gap_usd=source['limits']['tax_usd'] - amount,
                           apron_reference_gap_usd=source['limits']['apron_usd'] - amount,
@@ -65,6 +91,7 @@ def build():
                 kabengele_conditional_floor_delta_usd=floor_delta,
                 no_buyout_saving_stress_delta_usd=no_buyout_saving,
                 no_dell_reimbursement_stress_delta_usd=no_dell_reimbursement,
+                dated_dead_money_comparison=dated_result,
                 c2_minus_reported_original_same_other_inputs_usd=difference,
                 cases=cases, unresolved=source['unresolved'],
                 actual_residual_usd=None, exact_team_salary_usd=None,
