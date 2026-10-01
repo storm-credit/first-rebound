@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [CP2 소막 선택·비용 보완](reviews/CP2_LOCAL_CHOICES_REVIEW_2026_10_02.md): 42소막 중 부모 선택을 복제한36개의 국소 행동/책임을 보완, 기존A07/A08 6소막·부모14막·780배분·시간창·약속을 보존했다. 독립 Codex/Claude 제한 검수의 주체·비용 지적을 수용하고 A13 동료 득점 삭제 지적은 고정 결말 정본과 대조해 기각했다. CP2샘플2 지문 갱신/15개 테스트 PASS. NotebookLM 자체 입력 등록 성공·분석59.097초 timeout, Claude45.181초 검수/41.021초 수리5행 재검수 응답 회수·최종 전체PASS 아님, AG 신규수집 NOT_RUN. 최종 회차 기능0·실제Pack0·원고0·새작가확정0, S2 F0/5·A0/3·K0/4·법적 증거12 HOLD·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED 유지.
+
 2026-10-02 [Denver 공식 거래·연도 표기 보강](reviews/D1_DEN_PRIMARY_ORIGIN_REVIEW_2026_10_02.md): 공식2021–22 가이드 인쇄278·279의 Grant2020픽/조건부 Hampton2023픽·직접 상대를 구분했다. 역사상 명시 연도만 보강하며 전체 이연/보호·후속 소유권·Gordon 연결·dated charge 인증이 아니다. Claude 방법 반증/제한 결과물 blind 응답 회수 후 표현·출처 메타데이터를 보완, 자산8개/S2 부정 대조 PASS. AG53초 timeout/임시 정리 오류·최종증거0, NotebookLM 공식 발췌 import 성공/분석46.320초 timeout. F0/5·A0/3·K0/4/법적 증거12 HOLD·미선택 건강/시즌, 수정 독서110/110·질적 비교10/10·실제Pack0/샘플2·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED 유지.
 
 2026-10-02 [10작품 질적 표본 비교 종료](reviews/G11_TEN_WORK_CLOSEOUT_REVIEW_2026_10_02.md): 수정 독서110/110·핵심20화4/4·공통14항목 준비10/10·남은0, 교차기능6·맹점12의 합성과 House Style 후보를 검토했다. SAMPLE_GATE_COMPLETE는 질적 기능 비교만이며 정확 숫자P3·FULL_TEXT_FINAL·S1 최초 작가 승인·G11최종은 별도HOLD다. NotebookLM 단일 파생 출처 분석·Claude 제한 결과물 blind 응답 회수, Claude 방법 반증58초 timeout·AG 이번 소설 신규수집 NOT_RUN. 원계획 접근부채15·실제Pack0/설계샘플2·원고0·S2 F0/5 A0/3 K0/4/법적 증거12·미선택 건강/시즌·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED. 아래 준비4/10·95/110 등은 당시 이력이다.

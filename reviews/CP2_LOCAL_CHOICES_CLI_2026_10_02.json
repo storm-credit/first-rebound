@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-02",
+  "baseline_main": "171b46b0a48684231581653ebb0b7348d6050448",
+  "common_skill_main": "f3af0eb22615c546a0007a9db794d56181f26add",
+  "novel_original_supplied": false,
+  "antigravity": {
+    "status": "NOT_RUN",
+    "reason": "No new external fact acquisition in this CP2 structural revision; existing NBA evidence not repeated"
+  },
+  "codex_independent_agent": {
+    "task": "subact_choices_audit",
+    "scope": "READ_ONLY_SPECIFIED_STRUCTURE_AND_CANON_NOT_BLIND_OR_PROJECT_WIDE",
+    "initial_finding": "36 copied choices/cost templates, six A07/A08 rows already specific",
+    "revision_findings": [
+      "A05-S1 assignment causal implication",
+      "A06-S3/A11-S3 designer action mixed with player action",
+      "A13-S3 shot cost should be limited to final possession"
+    ]
+  },
+  "recheck_initial_attempt": {
+    "status": "NO_FINAL_RESULT",
+    "own_helper_process_remaining_at_audit": 0,
+    "success_count": 0,
+    "observed_after_resume": "helper1591bytes/1591NUL; temporary input10377bytes/10377NUL; cause undetermined",
+    "preflight_failures": [
+      "SyntaxError in damaged helper; no service request",
+      "embedded NUL in temporary input before process creation; no service request"
+    ],
+    "final_helper": "New helper reads current repository rows directly"
+  },
+  "nlm": {
+    "scope": "CP2_OWN_DERIVATIVE_LOCAL_FUNCTIONS_ONLY_NOT_PRIMARY_SOURCE_OR_CANON_APPROVAL",
+    "input_path": "reviews/CP2_LOCAL_CHOICES_INPUT_2026_10_02.md",
+    "input_sha256": "5ea72eefc128dc2b2aa4906eb6e5930116674907073c00eaee433d627e5cb80e",
+    "novel_original_supplied": false,
+    "import": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "source_type": "file",
+        "source_id": "59a448e2-1b0a-415b-8ee3-b52e6713dbad",
+        "title": "CP2 42 subacts local choice candidate audit 2026-10-02"
+      },
+      "elapsed_seconds": 16.735,
+      "stderr": ""
+    },
+    "source_id": "59a448e2-1b0a-415b-8ee3-b52e6713dbad",
+    "analysis": {
+      "status": "PROCESS_TIMEOUT",
+      "elapsed_seconds": 59.097
+    }
+  },
+  "claude": {
+    "scope": "CP2_OWN_DERIVATIVE_LOCAL_FUNCTIONS_ONLY_NOT_PRIMARY_SOURCE_OR_CANON_APPROVAL",
+    "input_path": "reviews/CP2_LOCAL_CHOICES_INPUT_2026_10_02.md",
+    "input_sha256": "5ea72eefc128dc2b2aa4906eb6e5930116674907073c00eaee433d627e5cb80e",
+    "novel_original_supplied": false,
+    "result": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "is_error": false,
+        "subtype": "success",
+        "result": "## 약한 항목 3개\n\n**A06-S3** — 권한·주체 이탈. 입구/압력은 선수 시점인데 선택 후보가 \"K1/L2 후보를 검토할 때\"로 설계자 행위가 되어 선수가 무엇을 지불하는지가 사라짐. 비용 \"한 경기 생존 후 최종 실패\"는 지불이 아니라 사건 결과이고, 출구가 \"2021 자산과 다음 계약 판단\"으로 프런트 권한에 넘어가 입구의 압력이 이 구간에서 움직이지 않음.\n\n**A11-S3** — 미선택 결과 승격. 비용 칸이 \"정상 직전 실패\", 즉 미선택 사건 결과 자체로 채워져 있다. 경계 문장에 \"미선택 설계 후보\"라고 적힌 것만으로는 비용칸의 승격이 상쇄되지 않음. 선택도 \"다음 훈련·계약 검토에 넘긴다\"로 비용 지불 지점을 구간 밖으로 이전해, 입구(자기 슛으로 수습)와 출구 사이에 실제 지불이 비어 있음.\n\n**A14-S1** — 추상성. 입구(\"첫 우승 방식의 영구 반복\")·선택(\"권한과 기능을 검토\")·비용(\"기존 권한\")이 모두 명사형이라 어느 포제션·분·일정에서 무엇을 내려놓는지가 없다. 선택이 \"검토한다\"에서 끝나 출구 \"유산이 개인 기록과 분리\"가 동작이 아닌 평가 문장에 머묾.\n\n경계선: A08-S1(선수가 프런트 명단·기능 손실을 검토)과 A12-S3(미선택 파이널을 입구 전제로 사용)은 같은 축에 걸리지만, 출구와 경계에서 권한 분리·미승격이 명시돼 통과로 봄.",
+        "stop_reason": "end_turn",
+        "terminal_reason": "completed"
+      },
+      "elapsed_seconds": 45.181,
+      "stderr": ""
+    }
+  },
+  "recheck": {
+    "scope": "FIVE_REPAIRED_ROWS_METHOD_RECHECK_NOT_BLIND_OR_PROJECT_WIDE",
+    "input": {
+      "A05-S1": {
+        "id": "A05-S1",
+        "parent_act": "A05",
+        "window": "2018–20",
+        "title": "기회 상실",
+        "entry_state": "밤샘 뒤 준비를 가볍게 봄",
+        "goal": "재능을 매일 믿어도 되는가",
+        "pressure": "영상·컨디셔닝 지각과 다음 선수",
+        "choice": "밤샘 뒤 준비 부족을 외부 핑계로 돌리지 않고 놓친 로테이션 기회의 원인을 자기 준비에서 찾는다",
+        "cost": "NBA 로테이션 기회",
+        "exit_state": "핑계 없이 준비 결과를 감당",
+        "primary_device": "PLANT_AND_PAYOFF",
+        "secondary_device": null,
+        "institutional_constraint": "assignment와 NBA 계약 신분·실제 팀 일정",
+        "relationship_in_play": "Chicago 코칭 조직·LaVine·개발 담당",
+        "research_dependencies": [
+          "control/DESIGN_GATE.md",
+          "canon/CAREER_TIMELINE.md",
+          "research/CHICAGO_2019_20_ROSTER_MINUTE_BASELINE.md"
+        ],
+        "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "manuscript_allowed": false,
+        "scenario_references": [],
+        "historical_events_touched": [],
+        "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+        "time_and_place": {
+          "window": "2018–20",
+          "place_scope": "Chicago·Windy City 및 NBA 원정"
+        },
+        "basketball_question": "재능을 매일 믿어도 되는가",
+        "irreversible_choice": "이미 놓친 NBA 기회는 사후 결심으로 되살리지 않으며 회복에 필요한 준비를 별도로 보여야 한다",
+        "continuity_checks": [
+          "연표의 학년·NBA 연차와 충돌하지 않음",
+          "직전 종료 상태를 기본 출발 조건으로 재검토",
+          "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+          "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+        ]
+      },
+      "A06-S3": {
+        "id": "A06-S3",
+        "parent_act": "A06",
+        "window": "2020–21",
+        "title": "플레이인 탈락",
+        "entry_state": "정규시즌 개선을 진출 보장으로 읽음",
+        "goal": "같은 공으로 세 코어가 성장할 수 있는가",
+        "pressure": "Washington/Indiana L2 사건 압박",
+        "choice": "미선택 L2 후보 경로 안에서 주인공은 한 경기 생존을 진출 보장으로 읽지 않고 다음 경기의 수비·리바운드 준비를 맡는다",
+        "cost": "당장의 개인 공격 기회와 다음 경기 준비 시간",
+        "exit_state": "진출 여부와 분리된 개인 수행 표본을 다음 훈련과 에이전트의 계약 평가에 넘김",
+        "primary_device": "FOIL",
+        "secondary_device": null,
+        "institutional_constraint": "K1/L2 조건·정확 실행 미완료",
+        "relationship_in_play": "LaVine·LaMelo·Carter·MIN 라이벌",
+        "research_dependencies": [
+          "control/DESIGN_GATE.md",
+          "canon/CAREER_TIMELINE.md",
+          "simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json",
+          "simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json",
+          "simulation/NBA_2021_PROVISIONAL_DRAFT.json"
+        ],
+        "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "manuscript_allowed": false,
+        "scenario_references": [
+          "K1",
+          "L2",
+          "M_DRAW"
+        ],
+        "historical_events_touched": [],
+        "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+        "time_and_place": {
+          "window": "2020–21",
+          "place_scope": "Chicago 및 NBA 원정·플레이인"
+        },
+        "basketball_question": "같은 공으로 세 코어가 성장할 수 있는가",
+        "irreversible_choice": "해당 후보 경로에서 준비에 쓴 시간과 넘긴 공격 기회의 비용을 남긴다; 플레이인 최종 실패·2021 자산 결산·계약 합의는 선택하지 않는다",
+        "continuity_checks": [
+          "연표의 학년·NBA 연차와 충돌하지 않음",
+          "직전 종료 상태를 기본 출발 조건으로 재검토",
+          "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+          "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+        ]
+      },
+      "A11-S3": {
+        "id": "A11-S3",
+        "parent_act": "A11",
+        "window": "2025–26",
+        "title": "첫 패배",
+        "entry_state": "더 많은 자기 슛으로 수습하려 함",
+        "goal": "전술의 정답을 알면 우승하는가",
+        "pressure": "MIN의 선제 회전과 자기 슛 고집",
+        "choice": "미선택 패배 후보 경로 안에서 주인공은 자기 슛 증가로 덮지 않고 MIN의 선제 회전 앞에서 자신의 판단 실패를 팀 검토에 내놓는다",
+        "cost": "자기 슛 우선권과 불리한 수행을 공개하는 평가 부담",
+        "exit_state": "다음 계약·훈련의 원인 회수",
+        "primary_device": "FOIL",
+        "secondary_device": null,
+        "institutional_constraint": "미래 시즌·코어 계약·정확 가용성 HOLD",
+        "relationship_in_play": "LaMelo·LaVine·라이벌 및 해당 시즌 코어",
+        "research_dependencies": [
+          "control/DESIGN_GATE.md",
+          "canon/CAREER_TIMELINE.md",
+          "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+          "design/ENDING_THEME.md"
+        ],
+        "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "manuscript_allowed": false,
+        "scenario_references": [],
+        "historical_events_touched": [],
+        "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+        "time_and_place": {
+          "window": "2025–26",
+          "place_scope": "Chicago·Minnesota 및 해당 시즌 원정 — 정확 대진/일정 HOLD"
+        },
+        "basketball_question": "전술의 정답을 알면 우승하는가",
+        "irreversible_choice": "해당 후보에서 자신의 불리한 표본도 남기며 다음 훈련의 재준비 비용을 감당한다; 패배·파이널·계약 결과의 실제 채택은 별도 HOLD다",
+        "continuity_checks": [
+          "연표의 학년·NBA 연차와 충돌하지 않음",
+          "직전 종료 상태를 기본 출발 조건으로 재검토",
+          "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+          "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+        ]
+      },
+      "A13-S3": {
+        "id": "A13-S3",
+        "parent_act": "A13",
+        "window": "2027–28",
+        "title": "마지막 패스",
+        "entry_state": "영웅 슛이 자기 가치라고 생각",
+        "goal": "가장 강한 자신이 공을 넘길 수 있는가",
+        "pressure": "수비를 끌어당긴 뒤 열린 동료",
+        "choice": "마지막 리바운드 뒤 자신의 영웅 슛보다 유리한 동료의 득점 기회를 만드는 패스를 택하는 결말 기능을 유지한다",
+        "cost": "기록·실패 책임",
+        "exit_state": "수비→리바운드→전진→패스→동료 득점",
+        "primary_device": "FOIL",
+        "secondary_device": null,
+        "institutional_constraint": "미래 시즌·코어 계약·정확 가용성 HOLD",
+        "relationship_in_play": "LaMelo·LaVine·라이벌 및 해당 시즌 코어",
+        "research_dependencies": [
+          "control/DESIGN_GATE.md",
+          "canon/CAREER_TIMELINE.md",
+          "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+          "design/ENDING_THEME.md"
+        ],
+        "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "manuscript_allowed": false,
+        "scenario_references": [],
+        "historical_events_touched": [],
+        "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+        "time_and_place": {
+          "window": "2027–28",
+          "place_scope": "Chicago·Minnesota 및 해당 시즌 원정 — 정확 대진/일정 HOLD"
+        },
+        "basketball_question": "가장 강한 자신이 공을 넘길 수 있는가",
+        "irreversible_choice": "그 마지막 포제션에서 자신의 슛 기회를 동료에게 넘기고 패스 결과의 책임을 남긴다; 커리어 공격 1옵션 방향은 유지하며 수신자·점수·우승 결과는 새로 잠그지 않는다",
+        "continuity_checks": [
+          "연표의 학년·NBA 연차와 충돌하지 않음",
+          "직전 종료 상태를 기본 출발 조건으로 재검토",
+          "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+          "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+        ]
+      },
+      "A14-S1": {
+        "id": "A14-S1",
+        "parent_act": "A14",
+        "window": "2028–2035",
+        "title": "두 번째 우승창",
+        "entry_state": "첫 우승 방식의 영구 반복",
+        "goal": "주전이 아니어도 팀을 이을 수 있는가",
+        "pressure": "새 계약·동료 교체·노화",
+        "choice": "미선택 다음 우승창 후보에서 공격 시작을 동료에게 넘길 구간을 시험하고 자신은 무볼의 마무리 위치와 준비 역할을 맡는다",
+        "cost": "일부 공격 시작권과 무볼 재관여의 준비 부담",
+        "exit_state": "유산이 개인 기록과 분리",
+        "primary_device": "PLANT_AND_PAYOFF",
+        "secondary_device": null,
+        "institutional_constraint": "미래 시즌·코어 계약·정확 가용성 HOLD",
+        "relationship_in_play": "LaMelo·LaVine·라이벌 및 해당 시즌 코어",
+        "research_dependencies": [
+          "control/DESIGN_GATE.md",
+          "canon/CAREER_TIMELINE.md",
+          "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+          "design/ENDING_THEME.md"
+        ],
+        "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "manuscript_allowed": false,
+        "scenario_references": [],
+        "historical_events_touched": [],
+        "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+        "time_and_place": {
+          "window": "2028–2035",
+          "place_scope": "Chicago·Minnesota 및 해당 시즌 원정 — 정확 대진/일정 HOLD"
+        },
+        "basketball_question": "주전이 아니어도 팀을 이을 수 있는가",
+        "irreversible_choice": "그 구간의 공격 시작권을 넘겨도 역할 수행 책임은 남는다; 정확 분·계약·동료 교체·건강·첫째와 둘째 우승의 실현은 미선택 후보다",
+        "continuity_checks": [
+          "연표의 학년·NBA 연차와 충돌하지 않음",
+          "직전 종료 상태를 기본 출발 조건으로 재검토",
+          "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+          "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+        ]
+      }
+    },
+    "input_sha256": "cb04ce56be6d697ffba34d83ea5c8064c67e1cb061b62392203730d5c277c900",
+    "result": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "is_error": false,
+        "subtype": "success",
+        "result": "## 이 범위 재검수: 조건부 PASS 아님 — 남은 구체 결함 2개\n\n**1) A05-S1 — `cost`가 여전히 선택 이전의 손실**\n\n`cost: \"NBA 로테이션 기회\"`인데, 같은 소막의 `irreversible_choice`는 \"이미 놓친 NBA 기회는 사후 결심으로 되살리지 않는다\"고 명시한다. 즉 로테이션 상실은 선택의 대가가 아니라 `entry_state`(밤샘 뒤 준비 경시)로 이미 확정된 진입 조건이다. A06·A11에는 \"선택 때문에 발생하는 비용\"으로 재지정이 적용됐는데 A05만 남았다.\n→ 수정 방향: `cost`를 자기 원인 인정에서 실제로 지불되는 것(외부 핑계를 버려 얻을 수 있던 평가 보호, 회복 준비에 추가로 묶이는 시간/자기 평판 부담)으로 교체하고, 로테이션 상실은 `entry_state` 쪽으로 이관.\n\n**2) A13-S3 — `exit_state`가 미선택 결과를 확정**\n\n`choice`는 \"득점 **기회를 만드는** 패스\", `irreversible_choice`는 \"수신자·점수·우승 결과는 새로 잠그지 않는다\"인데, `exit_state`는 \"수비→리바운드→전진→패스→**동료 득점**\"으로 성공한 득점을 못 박는다. 한 소막 안에서 세 필드가 서로 충돌하고, 유일하게 HOLD여야 할 값이 종료 상태로 승격돼 있다.\n→ 수정 방향: `exit_state`를 \"수비→리바운드→전진→패스까지 수행, 결과 책임은 자신에게 남김\" 수준으로 내리고 득점 성립은 미선택으로 유지.\n\n(부수: `choice`의 \"결말 기능을 유지한다\"는 A06에서 걷어낸 설계자 서술과 같은 계열이라, 인물 행동 문장으로 바꾸는 편이 일관됩니다.)",
+        "stop_reason": "end_turn",
+        "terminal_reason": "completed"
+      },
+      "stderr": ""
+    },
+    "elapsed_seconds": 41.021
+  }
+}
