@@ -52,7 +52,26 @@
     "BOS_2027_2R_full_priority_and_terms_verified": false
   },
   "Denver": {
+    "historical_primary_origin": {
+      "source_id": "BP_DEN_2122_PRIMARY_ORIGIN",
+      "historical_transaction_date": "2020-11-23",
+      "historical_rights_counterparty": "MIL",
+      "named_conditional_pick_year": 2023,
+      "support_scope": "HISTORICAL_TRANSACTION_AND_NAMED_YEAR_ONLY",
+      "complete_deferral_terms_verified": false,
+      "onward_ownership_chain_verified": false,
+      "alternate_transaction_adopted": false
+    },
     "2025_top5_posttrade_team_snapshot": true,
+    "2025_top5_snapshot_provenance": {
+      "source_id": "BP_MAGIC_JUNE_PICK_INVENTORY",
+      "as_of": "2021-06-10",
+      "scope": "HISTORICAL_POSTTRADE_SNAPSHOT_NOT_CONTRACT_OR_ALTERNATE_DELIVERY"
+    },
+    "preceding_terms_provenance": {
+      "source_id": "BP_DEN_CONVERSION",
+      "scope": "SECONDARY_REPORTED_CONDITIONS_NOT_SELECTED_OUTCOME"
+    },
     "preceding_reported_terminal_conversion": [
       {
         "team": "DEN",
@@ -143,7 +162,7 @@
   "requirements_closed": 0,
   "review": "NOT_INDEPENDENT",
   "input_sha256": {
-    "research/NBA_2021_L_ASSET_CHAIN_SOURCES.json": "b1ef9e5eaadd1a4fae4e472cb13ab8be34fa41884cb8f8e67b5e081127895bb0",
+    "research/NBA_2021_L_ASSET_CHAIN_SOURCES.json": "2d7f8e14a4672d9f8770520235ead40b6fb2c3a970235a3d53174ae41501c5d7",
     "research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json": "d0597187f18b3f1436c72ab50444156448a2b3e8c3477c1095579e298f60603b"
   }
 }

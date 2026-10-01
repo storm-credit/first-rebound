@@ -62,6 +62,23 @@
       "classification": "CONTEMPORANEOUS_SECONDARY_REPORT",
       "html_sha256": "a7ec888dc4561a598aa85807b1467e16d56ca0aea8e0d01097410541a5460432",
       "fact_ko": "2025 1R top5보호가 미전달 시2026·2027에도 유지된다는 기존 범위를 재확인. 종료 조항 없음."
+    },
+    {
+      "id": "BP_DEN_2122_PRIMARY_ORIGIN",
+      "url": "https://kseblobstorage.blob.core.windows.net/sitefiles/pdf/DN_MediaGuide_2122_Digital.pdf",
+      "title": "Denver Nuggets 2021-22 Media Guide — Transactions",
+      "classification": "PRIMARY_TEAM_MEDIA_GUIDE_PDF_TEXT_AND_VISUAL_READ_NOT_CONTRACT",
+      "accessed_date": "2026-10-02",
+      "pdf_sha256": "248c91faeb5d3f64ceb747d2135f6ac65fb55a2d71dcb4a92db02f81732f19a6",
+      "printed_pages": [
+        278,
+        279
+      ],
+      "zero_based_pdf_indices": [
+        279,
+        280
+      ],
+      "fact_ko": "인쇄278: 2019-07-08 Grant 취득 대가 2020 first to OKC. 인쇄279: 2020-11-23 Hampton 권리 취득 from MIL 대가 conditional 2023 first. 서로 다른 거래이며 보호·이연·2R전환 후 Gordon 연결·급여 원문을 증명하지 않는다."
     }
   ],
   "boston_2025_chain": {
@@ -111,7 +128,17 @@
     ],
     "source_id": "BP_DEN_CONVERSION",
     "contract_text_verified": false,
-    "alternate_terms_adopted": false
+    "alternate_terms_adopted": false,
+    "historical_primary_origin": {
+      "source_id": "BP_DEN_2122_PRIMARY_ORIGIN",
+      "historical_transaction_date": "2020-11-23",
+      "historical_rights_counterparty": "MIL",
+      "named_conditional_pick_year": 2023,
+      "support_scope": "HISTORICAL_TRANSACTION_AND_NAMED_YEAR_ONLY",
+      "complete_deferral_terms_verified": false,
+      "onward_ownership_chain_verified": false,
+      "alternate_transaction_adopted": false
+    }
   },
   "gordon_following_pick": {
     "first_party_2025_top5_snapshot_source_id": "BP_MAGIC_JUNE_PICK_INVENTORY",
@@ -129,9 +156,15 @@
     "NBA 검색 추출은 iframe만 반환했지만 공개 HTML의 본문을 읽었다.",
     "HoopsRumors web 재조회502 뒤 같은 공개URL HTML을 확보했다. 비공개 영역을 사용하지 않았다.",
     "SalarySwish 시즌 필터에서 행이 표시되지 않아 거래 부재 증거로 사용하지 않았다.",
-    "후대 실제 선수·최종 순번·전달 결과는 채택하지 않는다."
+    "후대 실제 선수·최종 순번·전달 결과는 채택하지 않는다.",
+    "2026-10-02 공식 PDF HTTP200/12,087,374bytes/442pages. web open 크기 제한은 접근 거부가 아님; 인쇄278·279 텍스트/렌더 직접 확인. 최초 전달 가능 연도 전체 규칙으로 승격하지 않음."
   ],
   "author_locked": false,
   "season_selected": false,
-  "manuscript_allowed": false
+  "manuscript_allowed": false,
+  "followup_primary_origin": {
+    "accessed_date": "2026-10-02",
+    "baseline_main": "593df2415c3847761e4e9adcd8adf126a5f46ec6",
+    "scope": "Historical named year/counterparty; not complete legal terms or alternate execution"
+  }
 }
