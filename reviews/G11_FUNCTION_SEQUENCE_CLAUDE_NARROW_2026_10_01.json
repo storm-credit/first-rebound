@@ -1,0 +1,106 @@
+{
+  "status": "RESPONSE",
+  "elapsed_seconds": 29.885,
+  "exit_code": 0,
+  "scope": "NARROW_TEMPORAL_REWARD_AND_PARTITION_METHODS_NOT_ORIGINAL_BODY",
+  "original_body_supplied": false,
+  "prior_model_reviews_supplied": false,
+  "response": {
+    "duration_api_ms": 25107,
+    "stop_reason": "end_turn",
+    "session_id": "0ae962f2-de43-4793-9c0c-a7975508e701",
+    "total_cost_usd": 0.06522,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 2626,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1558,
+      "output_tokens_details": {
+        "thinking_tokens": 1018
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 2626,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1558,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 2626,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 2626
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 1558,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 2626,
+        "webSearchRequests": 0,
+        "costUSD": 0.06522,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1018,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "**Residual category ambiguity — audit comment**\n\n1. **Non-orthogonal axes.** A is defined by modality (action/dialogue/pause), E partly by temporality and partly by discourse type (background/rules/UI/past reports), I by mental state. Because coexistence is permitted, a block cannot be read back to a dominant anchor; past dialogue in the Ch1 window is legitimately A (dialogue) *and* E (past material), and the label set does not record which axis triggered each tag.\n\n2. **Ch1 window.** The 10 past-voice + 2 past-report + 2 present-reaction split is well disclosed, but \"present reactions\" sit on the I/A boundary (felt response vs observable act); the surrounding current frame is correctly noted and does not resolve that boundary.\n\n3. **Premise-class labels (Ch2, Ch3).** \"Premise\" is a provenance judgement, not an anchor. Its mapping onto E is implicit. In Ch3 the depicted relationship action immediately precedes the premise-classed awakening; the anchors encode no ordering or dependency, so premise-vs-consequence remains undecidable from labels alone.\n\n4. **Ch5.** The test failure is simultaneously observation (A) and information report (E), repeating the dual-axis issue; the planned/executed separation is otherwise clean.\n\n5. **Granularity.** 54 blocks over 568p (~10.5p each) likely saturates anchor sets, lowering discrimination. This is structural, not a coding deficiency.\n\n**Suggested remedy:** state an axis-precedence rule, or store anchors as per-axis tuples.",
+    "ttft_ms": 17659,
+    "type": "result",
+    "duration_ms": 25215,
+    "uuid": "a1d9ef36-5223-48c7-b8bb-50ee586a37f7",
+    "ttft_stream_ms": 1406,
+    "time_to_request_ms": 84,
+    "first_content_frame_ms": 1407,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": ""
+}
