@@ -77,7 +77,7 @@ def validate(data):
 
 
 def build():
-    lineups, policy, sources, old_sources = [json.loads(p.read_text()) for p in INPUTS]
+    lineups, policy, sources, old_sources = [json.loads(p.read_text(encoding='utf-8')) for p in INPUTS]
     contracts = intervals()
     ids = {r['id'] for r in sources['references'] + old_sources['references']}
     assert all(c['source'] in ids | {'CONDITIONAL_CARRY_FORWARD_BASELINE'} for c in contracts)
@@ -127,7 +127,7 @@ def build():
 
 if __name__ == '__main__':
     result = build()
-    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'PASS': True, 'orl_games': 19, 'extra_slot_games': 5,
                       'rivers_dates': 28, 'rivers_positive_dates': 15,
                       'unregistered_positive_players': 0, 'registration_cleared': False}))
