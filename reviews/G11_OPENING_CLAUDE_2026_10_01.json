@@ -1,0 +1,104 @@
+{
+  "status": "RESPONSE",
+  "elapsed_seconds": 38.315,
+  "exit_code": 0,
+  "scope": "DERIVATIVE_OPENING_METHODS_NO_ORIGINAL_BODY",
+  "response": {
+    "duration_api_ms": 36032,
+    "stop_reason": "end_turn",
+    "session_id": "055f7067-b3f0-4288-95fa-6afd3ec7b27f",
+    "total_cost_usd": 0.06717500000000001,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 954,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2305,
+      "output_tokens_details": {
+        "thinking_tokens": 1438
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 954,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2305,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 954,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 954
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2305,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 954,
+        "webSearchRequests": 0,
+        "costUSD": 0.06717500000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1438,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "**Methods critique — residual misleading/unsupported claims**\n\n**1. Unit substitution.** The 157/180/180/233/204 figures are `Intl.Segmenter` spans under a per-`<p>` DOM partition, which forces every paragraph boundary to be a span boundary. UI 39p→40 and silence 2p→2 demonstrate the counter tracks markup granularity as much as prose. With linguistic sentence count null, these must never be labeled \"sentences,\" and the medians (19,22,17,25,19) need an explicit unit (chars? graphemes? code units?) and a normalization statement; without it they are uninterpretable, not merely imprecise.\n\n**2. Window artifacts stated as text facts.** \"first1000\" includes double-LF joins and terminates inside a paragraph in ch1–4, so it is a join-rule-dependent slice that can bisect spans. The term at 1075 proves the hazard: \"not in first1000\" is a statement about the window, never about the body. Any absence claim must carry the window and join rule inline.\n\n**3. Annotated counts posed as measurements.** First-person information-function counts (2,3,3,1,2), the ch4 \"one new question,\" action/setting clusters, and referent groups are all coder outputs. No rubric, unitization rule, or reliability is reported, and n=1 cells are rule-fragile. The recap exclusion is a defensible convention but makes the ch4 figure inseparable from that convention.\n\n**4. Denominators that do not exist.** Clusters are declared NONEXHAUSTIVE, so they license no proportions, no \"most/primary,\" and no cross-chapter ranking. Likewise referent groups admit recalled/collective/offscene/overlapping members and distinct-person count is null — they cannot support cast size, presence, or who-is-onstage claims, and they do not sum across chapters.\n\n**5. Dictionary selection ≠ search.** Selected literal positions have unknown recall; absence from the selected set is uninformative.\n\n**6. Hash identity oversold.** Shared body and metric hashes under the same map/runtime show byte identity, not independent corroboration; they also raise double-count risk. Treat as one observation.\n\n**7. Scope.** Length differs materially (157 vs 233), so raw integers invite false cross-chapter comparison — report rates or nothing. With fullP3/writing gates CLOSED and 15 unread, the five chapters are the entire frame; nothing here extends to the work.\n\n**8. Unchanged ≠ verified.** 5/50 and 5/50 are non-additive snapshots over the observed interval only.\n\nNo semantic labels certified.",
+    "ttft_ms": 25383,
+    "type": "result",
+    "duration_ms": 36062,
+    "uuid": "b9dddf70-a491-4268-b66e-8a6a0f126b7c",
+    "ttft_stream_ms": 1486,
+    "time_to_request_ms": 29,
+    "first_content_frame_ms": 1486,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": ""
+}

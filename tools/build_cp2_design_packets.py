@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = '6b4854c'
+BASE_COMMIT = 'ff557ce'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
@@ -156,7 +156,8 @@ def make_samples(root=ROOT):
              'research/G11_POPULARITY_PROVENANCE_2026_10_01.json',
              'research/G11_RECORDED_FUNCTION_CODING_2026_10_01.json',
              'research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.json',
-             'research/G11_RIDI_CONTEXTUAL_VOICE_FIRST_FIVE_2026_10_01.json'] + extra))
+             'research/G11_RIDI_CONTEXTUAL_VOICE_FIRST_FIVE_2026_10_01.json',
+             'research/G11_RIDI_OPENING_BOUNDARY_COMPONENT_2026_10_01.json'] + extra))
         active = [p['id'] for p in promises['promises'] if sid in [p['plant'], *p['variations'], p['payoff']]]
         out.append(dict(
             pack_id=pid, target_episode_or_design_unit=sid,

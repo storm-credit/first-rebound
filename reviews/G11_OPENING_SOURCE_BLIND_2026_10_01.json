@@ -1,0 +1,106 @@
+{
+  "status": "RESPONSE",
+  "elapsed_seconds": 17.198,
+  "exit_code": 0,
+  "scope": "LIMITED_SOURCE_BLIND_RESULT_METHODS_NOT_NOVEL_BODY",
+  "prior_reviews_supplied": false,
+  "original_body_supplied": false,
+  "response": {
+    "duration_api_ms": 15269,
+    "stop_reason": "end_turn",
+    "session_id": "1dd7f777-4aa8-445f-8c1c-c2526eae3db8",
+    "total_cost_usd": 0.029545000000000002,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 901,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 821,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 901,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 821,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 901,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 901
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 821,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 901,
+        "webSearchRequests": 0,
+        "costUSD": 0.029545000000000002,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "# Editorial Blind-Spot Findings\n\n**No semantic certification is offered here.** All figures below are counting artifacts of specified extractors; none attest that a chapter opens well, or at all.\n\n## Likely wrong inferences\n\n**1. \"Chapter 1 opens with a 10-char sentence, so it's punchy.\"** The 10 UTF-16 figure is a first-`<p>` length, not a sentence or a line. It may be a dateline, a speaker tag, a single UI glyph, or a fragment. Report must label it *first DOM paragraph length*, never \"opening sentence.\"\n\n**2. \"97 vs 25 means Ch2 opens denser than Ch4.\"** First-`p` length is one paragraph in a chapter of unknown shape; adjacent paragraphs are invisible. Forbid cross-chapter density claims from this column.\n\n**3. \"5 opening action groups > 1 means Ch1 is more active.\"** Action groups are explicitly **NONEXHAUSTIVE and selected**; counts are lower bounds on a curated list, not measures. Mark every selected column with a persistent \"≥, selected subset\" flag — not a footnote.\n\n**4. \"Person referent groups 5 = five characters.\"** Groups include recalled, collective, and overlapping referents; two groups may be one person, one group may be a crowd. **Distinct people count is null** — state that absence inline in the same cell, so no reader back-derives a cast size.\n\n**5. \"157 sentences\" / \"median 19 is terse.\"** Spans are automatic boundary segments per DOM `<p>`, including UI, silence, and nonverbal cues; **linguistic sentence count is null**. Rename to *boundary spans*; medians describe spans, not prose rhythm. Ch4's 233/25 may reflect markup granularity, not style.\n\n**6. \"Window shows the real opening.\"** First-1000 joined-body UTF-16 includes two-LF separators and can truncate mid-paragraph; it is not a faithful excerpt. State truncation risk at the window, not in method notes.\n\n**7. \"5/50 + 5/50 = 10/50.\"** Same five chapters; sets overlap. Print \"not additive\" beside both.\n\n**8. Dictionary coverage.** Literal dictionary only — absent terms are unsearched, not absent. **9. Gates:** whole P3, sample-final, and writing gates CLOSED; 15 of 110 unread, 95 unchanged. Any \"representative of the book\" reading is unsupported.",
+    "ttft_ms": 15265,
+    "type": "result",
+    "duration_ms": 15325,
+    "uuid": "c23e44b2-6f14-4000-aab1-42a959bccb40",
+    "ttft_stream_ms": 1712,
+    "time_to_request_ms": 54,
+    "first_content_frame_ms": 1712,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": ""
+}
