@@ -1,0 +1,111 @@
+{
+  "wrapper_status": "RETURNED",
+  "cli_exit_code": 0,
+  "elapsed_seconds": 45.189,
+  "response": {
+    "duration_api_ms": 38904,
+    "stop_reason": "end_turn",
+    "session_id": "919a50f1-830f-49e5-b366-fd861258c68b",
+    "total_cost_usd": 0.06522,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 771,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2300,
+      "output_tokens_details": {
+        "thinking_tokens": 937
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 771,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2300,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 771,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 771
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2300,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 771,
+        "webSearchRequests": 0,
+        "costUSD": 0.06522,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 937,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "## 핵심 지적: 주석 출처(provenance)의 비동일성이 통제되지 않아 작품 간 비교가 교란되어 있음\n\n현재 결과는 \"기존에 선택된 의미 주석을 재독 없이 재사용\"한다고 밝히고, 누락 범주를 NOT_REPORTED로 처리하며, P3·원문 의미 인증이 거짓임도 명시합니다. 여기까지는 범위 설정이 적절합니다. 그러나 **3개 작품 사이의 비교 자체가 성립한다는 암묵적 전제**는 아직 방어되지 않았습니다.\n\n구체적으로:\n\n- 재사용된 주석은 작품별로 서로 다른 시점·다른 선택 기준·다른 세분도(granularity)로 생성되었을 수 있고, 결과물에는 이를 배제할 어떤 근거도 제시되지 않았습니다. 이 경우 작품 A의 CHARACTER_SPEECH 카운트가 작품 B보다 낮은 것은 텍스트 차이가 아니라 **주석 밀도·주석 패스 버전 차이**일 수 있습니다.\n- NOT_REPORTED 처리는 \"0으로 읽지 말라\"는 방어만 제공하며, **NOT_REPORTED의 발생률이 작품별로 다를 때 생기는 비교 불가능성**은 막아주지 못합니다. 전화/과거 전언/기억/기계 발화/UI를 CHARACTER_SPEECH와 분리한 설계에서는 특히 치명적입니다. 한 작품에서만 분리 범주가 성실히 태깅되었다면, 그 작품의 CHARACTER_SPEECH는 구조적으로 작게 나옵니다. 즉 \"분리\" 자체가 작품 간 체계적 하향 편향을 만듭니다.\n- 장(章) 중위수가 비가중이고 산문 목표치가 아니라는 단서는 **수치의 용도**만 제한하고 **수치의 비교 가능성**은 제한하지 않습니다. 5개 표본의 중위수는 표집 변동이 매우 크며, 더구나 5개 장이 작품 간 동일한 서사 위치(도입부/중반 등)에서 추출되었는지에 대한 언급이 없습니다. 위치가 어긋났다면 작품 효과와 장 위치 효과가 분리되지 않습니다.\n\n## 교정 방안\n\n1. 작품·장별로 주석 출처 메타데이터를 필수 출력에 포함: 주석 패스 식별자, 생성 일자, 스키마 버전, 분리 범주(전화/기억/기계/UI 등)의 태깅 여부 플래그, 그리고 UTF-16 1,000단위당 주석 스팬 수.\n2. 동일 패스 식별자·동일 스키마 버전을 공유하지 않는 작품 쌍의 모든 차이값은 수치로 제시하지 말고 `NOT_COMPARABLE`로 라벨링.\n3. 분리 범주 중 하나라도 NOT_REPORTED인 장은 CHARACTER_SPEECH 비율 산출에서 제외하거나, 해당 장을 \"하한값만 유효(lower-bound only)\"로 표기.\n4. 5개 장의 선정 규칙과 작품 내 상대 위치(예: 전체 장 수에 대한 분위)를 명시하고, 위치가 정렬되지 않으면 중위수 비교 대신 장별 쌍대 대조만 보고.\n\n그 밖에: LF 제외·UTF-16 길이·DOM P/FONT 비인증·인용된 내적 발화 0의 비함의 등은 적절히 한정되어 있으며, 본 검토는 어떤 원문도 제공받지 않았으므로 원작 텍스트에 대한 어떠한 인증도 수행하지 않았습니다.",
+    "ttft_ms": 16045,
+    "type": "result",
+    "duration_ms": 39215,
+    "uuid": "a03de489-3d64-434b-b00f-4f97a16b860b",
+    "ttft_stream_ms": 1864,
+    "time_to_request_ms": 364,
+    "first_content_frame_ms": 1868,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "original_text_supplied": false,
+  "new_original_sources": 0,
+  "cause_certified": false,
+  "scope": "NAME_BLINDED_SHORT_METHOD_DESCRIPTION_CRITIQUE_NOT_FULL_SOURCE_BLIND",
+  "substantive_response_inspected": true,
+  "original_source_collection_success": false,
+  "original_semantic_review_success": false,
+  "whole_independent_review_success": false,
+  "finding_disposition": "Annotation provenance and cross-cohort semantic comparability made explicit; arbitrary same-pass-only/lower-bound prescriptions not adopted."
+}
