@@ -56,15 +56,26 @@ def build(root=ROOT):
     observed=reading['observed']
     from check_g11_work_minimum_records import audit as audit_minimum_records
     minimum_audit=audit_minimum_records(root)
-    minimum_ready=minimum_audit['ready_works']
+    from check_g11_visual_minimum import audit as audit_visual_minimum
+    visual_audit=audit_visual_minimum(root)
+    minimum_sources=minimum_audit['record_sources']+visual_audit['record_sources']
+    minimum_names=[json.loads((root/path).read_text(encoding='utf-8'))['work'] for path in minimum_sources]
+    if len(minimum_names)!=len(set(minimum_names)):
+        errors.append('common minimum: duplicate work across evidence modes')
+    minimum_ready=len(set(minimum_names))
     errors.extend('common minimum: '+problem for problem in minimum_audit['errors'])
+    errors.extend('visual minimum: '+problem for problem in visual_audit['errors'])
     return dict(status='FAIL' if errors else 'PASS',errors=errors,rows=rows,components=counts,unique_component_chapters=len(all_chapters),components_not_added=True,
         unique_readings=observed['complete_chapters'],unread=observed['unread_chapters_against_default_target'],
         original_plan_unread=observed.get('original_plan_unread_chapters',observed['unread_chapters_against_default_target']),
         new_unique_readings=0,new_unique_readings_scope='THIS_COMPONENT_GENERATOR_DOES_NOT_ADD_READINGS',
         common_minimum_work_records_ready=minimum_ready,common_minimum_work_records_target=10,
         common_minimum_work_records_remaining=10-minimum_ready,
-        common_minimum_record_sources=minimum_audit['record_sources'],
+        common_minimum_record_sources=minimum_sources,
+        common_minimum_records_by_evidence_mode={
+            'RETAINED_DOM_COMPONENT_RECORDS':minimum_audit['ready_works'],
+            'QUALITATIVE_VISUAL_INPUT_ONLY':visual_audit['ready_works']},
+        common_minimum_numeric_cross_modality_comparison='NOT_APPLICABLE_UNMEASURED_VISUAL_VALUES',
         common_minimum_record_scope='PREPARED_RECORDS_NOT_WHOLE_P3_OR_INDEPENDENT_SEMANTIC_CERTIFICATION',
         whole_P3_completed_chapters=0,G11_final=False,author_locked=False,manuscript_allowed=False)
 if __name__=='__main__':
