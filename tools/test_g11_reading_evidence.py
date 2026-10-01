@@ -12,8 +12,10 @@ class EvidenceTests(unittest.TestCase):
     def test_existing_joara_query_identity_and_counts(self):
         result = m.audit(self.data, self.measured)
         self.assertTrue(result['PASS'], result['errors'])
-        self.assertEqual(result['chapter_platform_counts']['Joara'], 5)
-        self.assertEqual(result['observed']['complete_chapters'], 95)
+        self.assertEqual(result['chapter_platform_counts']['Joara'], 20)
+        self.assertEqual(result['observed']['complete_chapters'], 110)
+        self.assertEqual(result['original_core_missing_chapters']['데뷔 못 하면 죽는 병 걸림'],list(range(6,21)))
+        self.assertFalse(result['G11_final'])
 
     def test_duplicate_cannot_fill_target(self):
         self.data['readings'].append(copy.deepcopy(self.data['readings'][0]))
@@ -52,6 +54,25 @@ class EvidenceTests(unittest.TestCase):
     def test_other_work_viewer_cannot_satisfy_named_work(self):
         self.data['readings'][0]['url'] = 'https://page.kakao.com/content/48787313/viewer/1234567/'
         self.assertFalse(m.audit(self.data, self.measured)['PASS'])
+    def test_unreviewed_core_revision_rejected(self):
+        self.data['planned']['core_work_names']=['필드의 고인물','재벌집 막내아들','아포칼립스에 집을 숨김','내가 키운 S급들']
+        self.assertIn('unreviewed core revision',m.audit(self.data,self.measured)['errors'])
+    def test_revised_scope_requires_evidence(self):
+        self.data['planned'].pop('research_revision_evidence')
+        self.assertIn('core revision evidence missing',m.audit(self.data,self.measured)['errors'])
+
+    def test_original_access_debt_cannot_disappear(self):
+        self.data.pop('original_access_debt')
+        self.assertIn('original access debt lost',m.audit(self.data,self.measured)['errors'])
+
+    def test_new_count_cannot_be_labelled_original_completion(self):
+        self.data['observed']['original_plan_complete_chapters']=110
+        self.assertIn('original plan counts rewritten',m.audit(self.data,self.measured)['errors'])
+
+    def test_extension_url_and_hash_bound_to_ledger(self):
+        row=next(r for r in self.data['readings'] if r['work']=='소설 속 엑스트라' and r['chapter']==6)
+        row['body_sha256']='0'*64
+        self.assertIn('extension record does not match ledger',m.audit(self.data,self.measured)['errors'])
 
 
 if __name__ == '__main__':

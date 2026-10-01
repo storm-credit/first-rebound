@@ -52,7 +52,13 @@ def build(root=ROOT):
             observation_union_only=True,by_evidence_mode={mode:len(cs) for mode,cs in by_mode.items()},
             cross_modality_semantic_calibration='NOT_RUN' if len(by_mode)>1 else 'NOT_APPLICABLE')
     all_chapters=set().union(*union.values())
-    return dict(status='FAIL' if errors else 'PASS',errors=errors,rows=rows,components=counts,unique_component_chapters=len(all_chapters),components_not_added=True,unique_readings=95,unread=15,new_unique_readings=0,whole_P3_completed_chapters=0,G11_final=False,author_locked=False,manuscript_allowed=False)
+    reading=json.loads((root/'research/STYLE_READING_OBSERVATIONS.json').read_text(encoding='utf-8'))
+    observed=reading['observed']
+    return dict(status='FAIL' if errors else 'PASS',errors=errors,rows=rows,components=counts,unique_component_chapters=len(all_chapters),components_not_added=True,
+        unique_readings=observed['complete_chapters'],unread=observed['unread_chapters_against_default_target'],
+        original_plan_unread=observed.get('original_plan_unread_chapters',observed['unread_chapters_against_default_target']),
+        new_unique_readings=0,new_unique_readings_scope='THIS_COMPONENT_GENERATOR_DOES_NOT_ADD_READINGS',
+        whole_P3_completed_chapters=0,G11_final=False,author_locked=False,manuscript_allowed=False)
 if __name__=='__main__':
     import argparse
     parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args()
