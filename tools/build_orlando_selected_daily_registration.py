@@ -20,6 +20,16 @@ def build(registration=None,decision=None,source=None,root=ROOT):
     assert source['original_contracts_or_league_registration_certified'] is False
     assert len(source['events'])==15 and len({(e['date'],e['player'],e['action']) for e in source['events']})==15
     assert not any(registration[k] for k in ['author_locked','season_selected','manuscript_allowed'])
+    contracts_in=registration['contracts']
+    assert all(c['type'] in {'STANDARD','TWO_WAY'} for c in contracts_in),'unknown contract class'
+    assert all(ledger.START<=c['start']<=c['end']<=ledger.END for c in contracts_in),'invalid contract window'
+    baseline=[c for c in contracts_in if c['source']=='CONDITIONAL_CARRY_FORWARD_BASELINE']
+    assert len(baseline)==13 and {c['player'] for c in baseline}==set(ledger.BASE_STANDARD),'carry-forward baseline changed'
+    assert all(c['type']=='STANDARD' and (c['start'],c['end'])==(ledger.START,ledger.END) for c in baseline),'carry-forward window/class changed'
+    games=registration['orl_game_checks']
+    assert len(games)==19 and len({g['event_id'] for g in games})==19,'duplicate/missing game IDs'
+    assert len({g['event_id'][:10] for g in games})==19,'duplicate game dates'
+    assert all(ledger.START<=g['event_id'][:10]<=ledger.END for g in games),'game outside calendar'
     for event in source['events']:
         day,player,action=event['date'],event['player'],event['action']
         kind='TWO_WAY' if 'TWO_WAY' in action else 'STANDARD'
@@ -49,7 +59,7 @@ def build(registration=None,decision=None,source=None,root=ROOT):
             historical_actions=[e for e in source['events'] if e['date']==day],
             selected_omission=[e for e in source['events'] if e['date']==day and e['player']=='Donta Hall' and e['action']=='SIGN_REST_OF_SEASON'])
         assert roster['ordinary_count_pass'] and not roster['registration_cleared']
-        assert {'Al-Farouq Aminu','Jonathan Isaac','Markelle Fultz'}<=set(roster['standard'])
+        assert set(ledger.BASE_STANDARD)<=set(roster['standard'])
         rows.append(roster);cursor+=timedelta(days=1)
     assert len(rows)==35 and sum(r['game_day'] for r in rows)==19
     assert all(len(r['standard'])==15 for r in rows)
@@ -60,7 +70,9 @@ def build(registration=None,decision=None,source=None,root=ROOT):
     return dict(base_main='6e444eb',scope='2021-04-12_TO_2021-05-16_END_OF_DAY',
         status='CONDITIONAL_DAILY_OCCUPANCY_WITNESS_NOT_LEGAL_BOUND_PASS',
         source_sha256={p:hashlib.sha256((root/p).read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in [INPUT,DECISION,SOURCE]},
-        rows=rows,calendar_days=35,game_days=19,off_days=16,standard_count_max=15,two_way_count_max=2,
+        rows=rows,calendar_days=len(rows),game_days=sum(r['game_day'] for r in rows),
+        off_days=sum(not r['game_day'] for r in rows),
+        standard_count_max=max(r['standard_count'] for r in rows),two_way_count_max=max(r['two_way_count'] for r in rows),
         historical_source_actions=15,selected_omitted_actions=1,selected_retained_actions=14,
         complete_historical_action_inventory_claim='ONLY_TEAM_GUIDE_LISTED_EVENTS',
         complete_counterfactual_domain=False,source_verified_for_full_S2_legal_proof=False,

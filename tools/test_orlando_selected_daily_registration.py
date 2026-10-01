@@ -40,5 +40,18 @@ class DailyRegistrationTests(unittest.TestCase):
         d=self.build()
         for k in ['complete_counterfactual_domain','source_verified_for_full_S2_legal_proof','legal_registration_cleared','exact_salary_cleared','health_cleared','F4_complete','season_selected','manuscript_allowed','author_locked']:
             self.assertIs(d[k],False)
+    def test_unknown_contract_class_rejected(self):
+        next(c for c in self.r['contracts'] if c['player']=='Chasson Randle')['type']='OTHER'
+        with self.assertRaises(AssertionError):self.build()
+    def test_all_thirteen_baseline_players_preserved(self):
+        next(c for c in self.r['contracts'] if c['player']=='Zeke Nnaji')['player']='Unknown replacement'
+        with self.assertRaises(AssertionError):self.build()
+    def test_duplicate_game_row_rejected_before_date_mapping(self):
+        self.r['orl_game_checks'].append(copy.deepcopy(self.r['orl_game_checks'][0]))
+        with self.assertRaises(AssertionError):self.build()
+    def test_summary_counts_derived_from_rows(self):
+        d=self.build()
+        self.assertEqual(d['two_way_count_max'],max(r['two_way_count'] for r in d['rows']))
+        self.assertEqual(d['standard_count_max'],max(r['standard_count'] for r in d['rows']))
 
 if __name__=='__main__':unittest.main()
