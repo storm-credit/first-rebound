@@ -1,0 +1,109 @@
+{
+  "status": "RESPONSE",
+  "elapsed_seconds": 34.568,
+  "exit_code": 0,
+  "scope": "LIMITED_SOURCE_BLIND_FINAL_MACRO_RESULTS_NOT_ORIGINAL_BODY",
+  "original_body_supplied": false,
+  "prior_reviews_supplied": false,
+  "response": {
+    "duration_api_ms": 31497,
+    "stop_reason": "end_turn",
+    "session_id": "6db66bd9-54a8-47d4-80b2-c8caeb7bedc8",
+    "total_cost_usd": 0.080745,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 2716,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2143,
+      "output_tokens_details": {
+        "thinking_tokens": 1253
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 2716,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2143,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 2716,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 2716
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2143,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 2716,
+        "webSearchRequests": 0,
+        "costUSD": 0.080745,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1253,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "## Residual misreading risks (final-result layer only)\n\n**Counting and partition**\n- Summing 91/98/113/150/116 to 568 and treating that as a full-text census. These are *visible nonempty body p*; clause order and sentence-level counts are explicitly out of scope.\n- Reading the 54 coarse blocks as uniform units, then comparing chapters by p-per-block (e.g. \"ch.3 is denser at 113p/9 blocks\"). Coarse blocks are not calibrated for cross-chapter density claims.\n- Treating the 150-p chapter as the longest, central, or climactic chapter, or assuming the five chapters are the entire work or in presentation order.\n\n**Function anchors A/E/I**\n- Treating A/E/I as mutually exclusive, or expecting shares to total 100%. A p may carry multiple functions.\n- Reading anchors as exhaustive coding of every p inside blocks — they are *selected* anchors.\n- Deriving an interiority percentage. Full-inner share is null, so no inner-monologue proportion exists to quote.\n- Reading \"semantic authentication false\" as content checked and found wanting, rather than never attempted.\n\n**Memory window**\n- Reporting \"14 past p.\" The window is 14p containing 10 past voice, 2 past reports, 2 current reactions.\n- Calling the window a flashback or retrospective insertion. Time relocation occurs elsewhere and as premise; the window is not that device.\n\n**Premise vs. outcome**\n- Treating new awakening as a depicted or earned event rather than a starting premise.\n- Chaining the gift item, the combat win/loot, and the relational responses into one scene or one cause-effect sequence. They are separate observations with no supplied linkage.\n- Converting intended registration, relocation, recruitment, contracts, and organization — or contemplated permanent fame — into achieved plot outcomes or confirmed stakes.\n\n**Record values**\n- Adding the nonadditive records (map 5/50, same 5 voice, 5 opening) into 15, or reading 5/50 as 10% progress.\n- Reading 95/110 with 15 unread as reading *gained*. No new reading occurred; the delta is zero.\n- Reading fullP3 completed 0 as \"not attempted\" versus \"attempted, zero completed\" — neither is established.\n- Reading writing gate CLOSED as a quality verdict, a permanent state, or a cause of the other figures, rather than a state recorded at final-result time.\n\n**Framing**\n- Inferring authorial intent, source-selection rationale, or creative direction from distributions alone; none of that layer is supplied here.\n\nNo claim is made about meaning, quality, or original-body content.",
+    "ttft_ms": 20651,
+    "type": "result",
+    "duration_ms": 31543,
+    "uuid": "e612433d-fdf0-4b5d-b949-bc2eb2b36115",
+    "ttft_stream_ms": 1852,
+    "time_to_request_ms": 44,
+    "first_content_frame_ms": 1852,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": "",
+  "wrapper_console_unicode_print_failed_after_saving": true,
+  "response_file_written_before_console_failure": true,
+  "exit_code_scope": "CLAUDE_CLI_SUBPROCESS_NOT_PYTHON_CONSOLE_WRAPPER"
+}
