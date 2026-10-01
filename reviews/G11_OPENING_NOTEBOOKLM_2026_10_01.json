@@ -1,0 +1,36 @@
+{
+  "answer": "### Packet Audit Breakdown\n\n#### 1. Categorization of Derivative Elements\n\n* **Local Coder Interpretations:**\n  * **Irreversible Codex metrics** and local information-function group counts (2, 3, 3, 1, 2) across Chapters 1–5 [1].\n  * **Functional classifications** assigned to paragraphs, such as Ch1 relational safety questions, Ch2 weapon/action consequences, Ch3 location/smell evidence, Ch4 carryover questions, and Ch5 visit intentions [1].\n  * **Categorized clusters**, including nonexhaustive action groups (5, 8, 3, 1, 2), human referent groups (2, 2, 5, 2, 4), and setting explanation groups (2, 3, 3, 5, 2) that combine recalled plans and adjacent actions [2].\n* **Selected Literal Positions:**\n  * **Zero-based UTF-16 substring positions** within 1,000-character joined-body windows [2].\n  * **Predeclared dictionary matches**, such as Ch1 monster name (888), dungeon (830), escape item (1075); Ch3 guild (171), broker (407), association (902); Ch4 ability term (94), buffs (346, 406); and Ch5 association (20), guard (853), guild (859) [2].\n* **Boundary Proxy Metrics:**\n  * **DOM-level programmatic splits** using `Intl.Segmenter(ko, sentence)` across nonempty paragraphs, yielding counts (157, 180, 180, 233, 204), medians (19, 22, 17, 25, 19), and p90 values (41, 39, 39, 45, 43) [3].\n  * **First-paragraph UTF-16 lengths** (10, 97, 66, 25, 38) and DOM structural inclusions, such as UI elements and represented silence [1, 3].\n  * **Canonical hash comparisons** verifying browser open sequence reproducibility [4].\n\n---\n\n#### 2. Why These Metrics Cannot Prove the Target Claims\n\n* **Cannot Prove Full Density:** The packet supplies **no raw body text or original novel quotations** [1]. The setting and action groups are nonexhaustive topical clusters rather than atomic facts, and functional questions represent unexecuted tasks rather than established world state [1, 2].\n* **Cannot Prove Distinct Cast Size:** Human referent groups count off-scene, remembered, and collective entities that overlap, leaving the **distinct human count as null** [2]. Furthermore, substring index searches rely on a finite predeclared dictionary rather than complete coreference or named-entity resolution [2].\n* **Cannot Prove Linguistic Sentence Counts:** `Intl.Segmenter` outputs serve purely as **boundary proxies, not true linguistic sentence or utterance counts** [3]. The tool retains UI elements, nonverbal fragments, and silence as spans (e.g., Ch3 silence creates 2 spans; Ch4 UI creates 40 spans) [3]. Same-runtime hash agreement merely proves boundary reproducibility, not linguistic validity [4].\n* **Cannot Prove P3 Completion:** The observation covers only **5 of 50 chapters**, leaving 45 remaining [4]. Whole P3, sample final, G11, author lock, and manuscript permission are explicitly false, keeping freeze partial and writing gates closed while cross-work synthesis and independent review remain unfulfilled [4].\n\n💡 Would you like to analyze how these boundary proxy metrics compare against earlier structural voice benchmarks in your other validation logs?",
+  "question": "Audit this derivative packet only. Separate local coder interpretations, selected literal positions and boundary proxy metrics. Explain why these cannot prove full density, distinct cast size, linguistic sentence counts or P3 completion. Cite only this source. Concise answer.",
+  "conversation_id": "b1305481-c5bc-4b55-9e0b-4c7f34c4bede",
+  "sources_used": [
+    "b2fe3589-e22d-4065-80dd-3821cbaa10b0"
+  ],
+  "citations": {
+    "1": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+    "2": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+    "3": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+    "4": "b2fe3589-e22d-4065-80dd-3821cbaa10b0"
+  },
+  "references": [
+    {
+      "source_id": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+      "citation_number": 1,
+      "cited_text": "Derivative opening methods packet — no original novel body Official RIDI serial work \"내가 키운 S급들\", existing first five already counted in95/110 unique readings. No new reading, no raw body or novel quotations supplied. These are Codex interpretations and irreversible metrics, not independent primary-body evidence for the reviewing model. Chapter1–5 first paragraph UTF16 lengths:10,97,66,25,38. Local information-function group counts:2,3,3,1,2. Ch1 relational address and safety question; Ch2 action/weapon consequence/appearance; Ch3 location/smell/clothes change evidence; Ch4 a new carryover-result question, excluding return-to-past recap; Ch5 available time and visit intention. Questions are tasks, not established world facts; intentions are not execution."
+    },
+    {
+      "source_id": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+      "citation_number": 2,
+      "cited_text": "First1000 joined-body UTF16 windows include double-LF joins. Selected nonexhaustive action groups:5,8,3,1,2. Human referent groups:2,2,5,2,4; include remembered, off-scene and collective referents, can overlap, so distinct human count is null. Selected setting explanation groups:2,3,3,5,2; topical clusters, not atomic fact counts. Repeated same-goal speech/adjacent action and consequence may be grouped; recalled past and future plans are excluded from current execution. Windows1–4 end inside a paragraph; truncated paragraphs are tagged. Window5 reaches one LF after the last complete prefix p. Selected literal substring positions (zero based): ch1 monster name888, dungeon830, escape item1075 outsideprefix. Ch3 guild171/broker407/association902; ch4 ability term94/buffs346and406/occupation example793; ch5 association20/guard853/guild859. This is a predeclared finite dictionary, not complete named entities or coreference."
+    },
+    {
+      "source_id": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+      "citation_number": 3,
+      "cited_text": "Intl.Segmenter(ko,sentence) splits each nonempty DOM p separately, trims each segment and retains UTF16 lengths. Counts157,180,180,233,204; median19,22,17,25,19; p9041,39,39,45,43. UI, represented silence and nonverbal fragments stay included with their prior channel labels. Ch3 silence2p creates2spans; ch4 UI39p creates40spans. These are boundary proxies, not linguistic sentence counts, utterance counts or author paragraph rhythms. Percentiles use sorted[floor((N-1)*q)]. Trimming can remove inter-segment whitespace. No population style targets or total-inner shares are derived."
+    },
+    {
+      "source_id": "b2fe3589-e22d-4065-80dd-3821cbaa10b0",
+      "citation_number": 4,
+      "cited_text": "Official browser open sequence1,2,3,4,5,1,2,3,4,5. Body/viewer/prefix and derivative canonical hashes agree across two separate opens and prior structural body hashes. No independent semantic recoding. Same-runtime boundary reproducibility does not certify linguistic segmentation or stable output across runtime versions. New opening observation records5/50 with45remaining. Prior voice component5/50 unchanged, not10/50 chapters by addition. Whole P3, sample final, G11, author lock and manuscript permission false. Other full P3 fields, cross-work synthesis,15unread and original-body independent review remain. Freeze partial and writing gates CLOSED."
+    }
+  ]
+}

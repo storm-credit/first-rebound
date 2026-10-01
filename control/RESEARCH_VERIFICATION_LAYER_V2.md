@@ -1,11 +1,13 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-01 [리디 첫5화 초반 배치·경계 조각 실제 검토](../reviews/G11_OPENING_V2_REVIEW_2026_10_01.md): 공식 1~5화 두 별도 열람·NotebookLM 한 파생 출처 분석·Claude 방법 반증·이전 검토를 주지 않은 제한 source-blind 결과 검토를 회수했다. 원문 독립 검수나 G16 완료는 아니다. 첫 DOM p/첫1000 선정 묶음/자동 경계의 단위를 분리하고 고유 인원·실제 문장 수 null을 유지한다. 초반5/50과 음성5/50은 같은 회차라 비합산·전체 P3 완료0·새 독서0·95/110·미독15·미완료6·freeze/CLOSED 유지. Antigravity의 Denver 픽 미전달 분기 질의는 별도 NBA 수집이며 G11 인증과 합산하지 않는다.
+
 2026-10-01 [리디 첫5화 음성 구성요소 실제 검토](../reviews/G11_VOICE_COHORT_V2_REVIEW_2026_10_01.md): 공식 본문 추가4화의 두 별도 열람, NotebookLM 한 파생 출처 분석, Claude 좁은 방법 반증 응답을 회수했다. AG 신규 자료 수집과 별도 source-blind 원문 검수는 이번 배치 NOT_RUN이다. 전화/UI·침묵·전체 내면 미계측을 명시했고, 구성요소5/50·잔여45를 전체 P3 완료로 확대하지 않는다. 독서95/110·미독15·원고0·미완료6·freeze/CLOSED 유지.
 
 - **D1 현행 검증 기준(2026-09-30):** [작가 S2](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json) 및 [운영 규칙](CHICAGO_2020_21_D1_S2_PROTOCOL.md)의 법적 구간·별도 사건 선택을 각 검수 프롬프트에 함께 준다. 법적 값에 명시적 가정을 허용한 S1로 바꾸지 않는다. 원자료 누락과 건강 미선택을 다른 HOLD 사유로 기록한다.
 - 상태: `READY_FOR_TRIAL / NOT_A_CANON_OR_GATE_REPLACEMENT`.
 - 적용 위치: `control/MASTER_WORKFLOW.md`의 조사와 변경 후 검증, `control/ORCHESTRATOR_WORKFLOW.md` R09–R16 사이. 기존 PR→main, 단일 권위, 사용자 확정, `DESIGN_GATE`의 G16/G17 순서를 유지한다.
-- 현재 시험 대상: O-15G15 Suggs 개막 이전 prior와 Orlando 12분. 과거 완료 원장을 전량 반복하지 않는다.
+- 최신 시험 대상(2026-10-01): G11 초반/음성 구성요소와 D1 Denver 이전 픽 미전달 분기의 수집 회수. 초기 O-15G15 Suggs/Orlando 시범은 아래 이력으로 보존하며 과거 완료 원장을 전량 반복하지 않는다.
 - [2026-09-26 CLI 시범과 후속 재시험](../reviews/O15G15_V2_CLI_PILOT_20260926.md): NotebookLM 출처 연결 분석과 Anti-Gravity → NotebookLM MCP 호출은 실행됐다. Anti-Gravity의 독립 NBA 출처 팩은 아직 0건이며 Claude 실행 결과는 없다. 도구 출력이나 인포그래픽은 단독으로 정본의 근거가 되지 않는다.
 
 ## 현재 실행 연결
