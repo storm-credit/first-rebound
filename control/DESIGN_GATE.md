@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-01 [문피아 시각 선정 검수](../reviews/G11_FIELD_V2_REVIEW_2026_10_01.md): 기존 첫5회차의19선정 구간·10정보 전달 사례를 관측했다. 기능/전달은 DOM 근거15/50 | 시각 선정5/50(관측 합집합20/50·미관측30); 구조/음성/초반15/50·잔여35. 동일 방법 완료율이 아니며 방식 간 의미 보정 NOT_RUN. NotebookLM 자체 파생 분석·Claude 방법 반증 회수, Antigravity 목록 요청40초 응답 미회수·성공0. 새 독서0·95/110·미독15·전체P3완료0·실제Pack0·원고0. 2번 F0/5·A0/3·K0/4·미선택 건강/시즌 HOLD, 미완료 큰 묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 2026-10-01 [세 작품 관측 대역 비교와 반증 반영](../reviews/G11_RANGES_V2_REVIEW_2026_10_01.md): 기존15화의 분모·범주·주석 출처를 대조해 House Style RANGE에 연결했다. Antigravity 제공 산술/NotebookLM 단일 파생 출처 분석/Claude 좁은 방법 반증은 실제 응답 회수. 독립 원문 검수·전체 source-blind는 미완료. 새 독서/구성요소0·95/110·미독15·구성요소15/50(잔여35)·전체P3완료0·실제Pack0·원고0. 2번 F0/5·A0/3·K0/4·미선택 건강/시즌 HOLD, 7행 미완료6·freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
 - **2026-09-30 D1 표준:** [S2 작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](CHICAGO_2020_21_D1_S2_PROTOCOL.md)은 2번의 증거 판정에만 적용한다. G00~G17 및 CLOSED/manuscript_allowed:false는 그대로이며 R=null·건강 미선택·독립검수 미실행은 면제하지 않는다.
