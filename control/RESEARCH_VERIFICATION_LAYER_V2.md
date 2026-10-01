@@ -1,5 +1,7 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-02 [Orlando 35일 명단/V2 검수](../reviews/D1_ORL_CALENDAR_V2_REVIEW_2026_10_02.md): 공식 Orlando 가이드의 계약/해제15행을 기존 승인 경로와 대조하고 경기19일+비경기16일=35일의 일반15·투웨이 최대2를 조건부 재현했다. Antigravity는 RunCommand 거절/빈 응답 뒤 읽기 경로에서 UNVERIFIED 최종 응답을 회수했으며 기사 본문 수집0이다. NotebookLM 공식 PDF 한 출처 분석은 회수, Claude60초 반증은 시간 초과·source-blind NOT_RUN. 전체 등록/급여·건강/시즌은 HOLD, S2 F0/5·A0/3·K0/4. 독서95/110·미독15·실제Pack0·원고0·미완료 큰 묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED.
+
 2026-10-01 [문피아 시각 검수](../reviews/G11_FIELD_V2_REVIEW_2026_10_01.md): Codex 공식 표시 관측/선정 사례, NotebookLM 업로드 시점 해시를 남긴 파생 한 출처 분석, Claude 작품명 없는 방법 반증을 분리했다. Claude의 이종 관측 합산·현재 세션 종료·선정 층위/사후 선택 지적을 반영했다. Antigravity 공식 목록 수집은40초 최종 응답 미회수; 원인/로그인/MCP 문제로 단정하지 않는다. 마지막 원문 source-blind·전체 독립 검수 NOT_RUN.
 
 2026-10-01 [G11 세 작품 대역 검토](../reviews/G11_RANGES_V2_REVIEW_2026_10_01.md): Antigravity CLI1턴의 제공 산술 답변, NotebookLM 파생 한 출처 분석, Claude 작품명 없는 짧은 방법 반증을 실제 회수했다. 수집/산술/분석/반증 성공을 분리한다. 원자료수집·MCP 통신·원문 독립 검수·전체 source-blind의 성공으로 승격하지 않는다.

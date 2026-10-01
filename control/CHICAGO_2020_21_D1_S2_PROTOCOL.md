@@ -1,5 +1,7 @@
 # D1 S2 — 법적 구간 검증과 대체세계 사건 판정
 
+2026-10-02 [Orlando 35일 보조 증인](../research/D1_ORLANDO_DAILY_REGISTRATION_WITNESS_2026_10_02.md): 경기19+비경기16일의 조건부 자리 수와 구단 공표15행을 대조했다. 전체 법적 등록/비용 proof가 아니며 ORL_DATED_REGISTRATION complete_domain/source_verified=false, F0/5·A0/3·K0/4를 유지한다.
+
 - 권위: [작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json). 2026-09-30 S2를 선택했다. S0/S1은 비선택 비교 이력이다.
 - 적용: [D1 종료 묶음](../simulation/CHICAGO_2020_21_D1_CLOSEOUT_BATCH.md), [채택 준비](../simulation/CHICAGO_2020_21_ADOPTION_READINESS.md), [검문 원장](CHICAGO_2020_21_D1_S2_REGISTER.json).
 - 판정 도구: [S2 검사기](../tools/check_chicago_d1_s2.py). `python tools/check_chicago_d1_s2.py --self-test`.
