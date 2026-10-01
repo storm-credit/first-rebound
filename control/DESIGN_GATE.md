@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-02 [10작품 질적 표본 비교 종료](../reviews/G11_TEN_WORK_CLOSEOUT_REVIEW_2026_10_02.md): 수정 독서110/110·핵심20화4/4·공통14항목 준비10/10·남은0, 교차기능6·맹점12의 합성과 House Style 후보를 검토했다. SAMPLE_GATE_COMPLETE는 질적 기능 비교만이며 정확 숫자P3·FULL_TEXT_FINAL·S1 최초 작가 승인·G11최종은 별도HOLD다. NotebookLM 단일 파생 출처 분석·Claude 제한 결과물 blind 응답 회수, Claude 방법 반증58초 timeout·AG 이번 소설 신규수집 NOT_RUN. 원계획 접근부채15·실제Pack0/설계샘플2·원고0·S2 F0/5 A0/3 K0/4/법적 증거12·미선택 건강/시즌·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED. 아래 준비4/10·95/110 등은 당시 이력이다.
+
 2026-10-02 [전독시 수동 시각 최소 기록](../reviews/G11_ORV_VISUAL_MINIMUM_REVIEW_2026_10_02.md): 공식 첫5회차의 초반·설명/대화/물리·말미와14칸을 묶어 준비4/10(서로 다른 DOM3+시각1)·남은6작품이다. 수동 초반p2–8은 보수창이며 정확1000 경계/밀도/비율/본문지문null; 전사 진단값을 원문 계측으로 승격하지 않는다. Claude 반증·NotebookLM 제한 재분석은 실제 응답 회수, 독립 원문/전체source-blind는 미완료. 수정독서110/110·원계획 접근부채15·새독서0·전체P3/G11 HOLD·실제Pack0·원고0·S2 F0/5 A0/3 K0/4·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED.
 
 2026-10-02 [공통 최소 비교 기록3개 준비](../reviews/G11_MINIMUM_THREE_REVIEW_2026_10_02.md): S급들에 재벌집·엑스트라를 이어 각각14칸의 위치·지문·기능·과거/현재·보상을 통합했다. 준비3/10·남은7이며 전체P3/G11은 HOLD. 재벌집·엑스트라 본문 재독/지문5/5씩 일치; 엑스트라 raw FONT 변경은본문동일성과분리했다. Claude 방법 반증과 NotebookLM 단일 파생 출처 분석은 실제 응답 회수, 독립 원문/source-blind 전체검수는 미완료. 새 고유 독서0·수정110/110·원계획 접근부채15·실제Pack0·원고0·S2 F0/5 A0/3 K0/4·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED.
@@ -44,7 +46,7 @@ last_reviewed: 2026-09-12
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED / O15F5_BOARD_PASS — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, Theis·Green 3팀 5인 A PRIMARY_LEAN. exact 거래·박스·승수·부상·Riller 계약 HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
-| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | FOUNDATION_PARTIAL / 95_CHAPTERS_READ / 10_WORKS_FIRST_FIVE / 3_CORE_FIRST_TWENTY / 4_BODY_PLATFORMS / DEEP_READ_INCOMPLETE |
+| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | QUALITATIVE_SAMPLE_GATE_COMPLETE / REVISED_110_CHAPTERS_READ / 10_WORKS_FIRST_FIVE / 4_CORE_FIRST_TWENTY / 4_BODY_PLATFORMS / MINIMUM_10_OF_10 / SYNTHESIS_REVIEWED / S1_RECOMMENDED_AUTHOR_UNLOCKED / FULL_TEXT_AND_NUMERIC_P3_FINAL_HOLD / G11_FINAL_HOLD |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |

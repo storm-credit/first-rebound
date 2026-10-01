@@ -58,13 +58,24 @@ def build(root=ROOT):
     minimum_audit=audit_minimum_records(root)
     from check_g11_visual_minimum import audit as audit_visual_minimum
     visual_audit=audit_visual_minimum(root)
-    minimum_sources=minimum_audit['record_sources']+visual_audit['record_sources']
-    minimum_names=[json.loads((root/path).read_text(encoding='utf-8'))['work'] for path in minimum_sources]
+    from check_g11_scoped_minimum_batch import audit as audit_scoped_minimum
+    scoped_audit=audit_scoped_minimum(root)
+    single_sources=minimum_audit['record_sources']+visual_audit['record_sources']
+    minimum_sources=single_sources+scoped_audit['record_sources']
+    minimum_names=[json.loads((root/path).read_text(encoding='utf-8'))['work'] for path in single_sources]
+    scoped_modes={}
+    for path in scoped_audit['record_sources']:
+        data=json.loads((root/path).read_text(encoding='utf-8'))
+        for item in data['works']:
+            minimum_names.append(item['work'])
+            mode='QUALITATIVE_DOM_SCOPED_INPUT_ONLY' if 'KAKAO' in path else 'QUALITATIVE_VISUAL_SCOPED_INPUT_ONLY'
+            scoped_modes[mode]=scoped_modes.get(mode,0)+1
     if len(minimum_names)!=len(set(minimum_names)):
         errors.append('common minimum: duplicate work across evidence modes')
-    minimum_ready=len(set(minimum_names))
     errors.extend('common minimum: '+problem for problem in minimum_audit['errors'])
     errors.extend('visual minimum: '+problem for problem in visual_audit['errors'])
+    errors.extend('scoped minimum: '+problem for problem in scoped_audit['errors'])
+    minimum_ready=len(set(minimum_names)) if not errors else 0
     return dict(status='FAIL' if errors else 'PASS',errors=errors,rows=rows,components=counts,unique_component_chapters=len(all_chapters),components_not_added=True,
         unique_readings=observed['complete_chapters'],unread=observed['unread_chapters_against_default_target'],
         original_plan_unread=observed.get('original_plan_unread_chapters',observed['unread_chapters_against_default_target']),
@@ -72,9 +83,10 @@ def build(root=ROOT):
         common_minimum_work_records_ready=minimum_ready,common_minimum_work_records_target=10,
         common_minimum_work_records_remaining=10-minimum_ready,
         common_minimum_record_sources=minimum_sources,
+        common_minimum_work_names=sorted(set(minimum_names)),
         common_minimum_records_by_evidence_mode={
             'RETAINED_DOM_COMPONENT_RECORDS':minimum_audit['ready_works'],
-            'QUALITATIVE_VISUAL_INPUT_ONLY':visual_audit['ready_works']},
+            'QUALITATIVE_VISUAL_INPUT_ONLY':visual_audit['ready_works'],**scoped_modes},
         common_minimum_numeric_cross_modality_comparison='NOT_APPLICABLE_UNMEASURED_VISUAL_VALUES',
         common_minimum_record_scope='PREPARED_RECORDS_NOT_WHOLE_P3_OR_INDEPENDENT_SEMANTIC_CERTIFICATION',
         whole_P3_completed_chapters=0,G11_final=False,author_locked=False,manuscript_allowed=False)

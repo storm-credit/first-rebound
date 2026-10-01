@@ -1,4 +1,4 @@
-"""Negative controls for ORV visual evidence; no novel text or screenshot fixtures."""
+"""Negative controls for visual evidence; no novel text or screenshot fixtures."""
 import copy
 import json
 import sys
@@ -13,15 +13,21 @@ class VisualMinimumTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.data = json.loads((visual.ROOT / visual.SOURCE).read_text(encoding='utf-8'))
+        cls.field_data = json.loads((visual.ROOT / visual.FIELD_SOURCE).read_text(encoding='utf-8'))
 
     def defects(self, mutate):
         changed = copy.deepcopy(self.data)
         mutate(changed)
         return visual.validate(changed)
 
+    def field_defects(self, mutate):
+        changed = copy.deepcopy(self.field_data)
+        mutate(changed)
+        return visual.validate(changed)
+
     def test_current_record_scope(self):
         self.assertEqual(visual.validate(copy.deepcopy(self.data)), [])
-        report = visual.audit()
+        report = visual.audit(sources=[visual.SOURCE])
         self.assertTrue(report['PASS'])
         self.assertEqual(report['ready_works'], 1)
         self.assertEqual(report['record_sources'], [visual.SOURCE])
@@ -141,6 +147,61 @@ class VisualMinimumTests(unittest.TestCase):
     def test_semantic_truth_is_outside_checker_scope(self):
         self.assertEqual(self.defects(
             lambda d: d['chapters'][0].__setitem__('central_event', '검증되지 않은 해석')), [])
+
+    def test_all_registered_records_are_two_distinct_visual_works(self):
+        self.assertEqual(visual.validate(copy.deepcopy(self.field_data)), [])
+        report = visual.audit()
+        self.assertTrue(report['PASS'], report['errors'])
+        self.assertEqual(report['ready_works'], 2)
+        self.assertEqual(set(report['ready_work_names']), {visual.WORK, visual.FIELD_WORK})
+        self.assertEqual(set(report['record_sources']), {visual.SOURCE, visual.FIELD_SOURCE})
+        self.assertFalse(report['whole_P3_final'])
+        self.assertFalse(report['G11_final'])
+
+    def test_field_cross_work_chapter_url_rejected(self):
+        self.assertIn('official chapter URL/work', self.field_defects(
+            lambda d: d['chapters'][0].__setitem__(
+                'official_url', self.data['chapters'][0]['official_url'])))
+
+    def test_field_cross_work_opening_url_rejected(self):
+        self.assertIn('unmeasured opening window not separately observed', self.field_defects(
+            lambda d: d['fresh_opening_observation'].__setitem__(
+                'official_url', self.data['chapters'][0]['official_url'])))
+
+    def test_field_unmeasured_number_rejected(self):
+        self.assertIn('unmeasured manual quantity promoted', self.field_defects(
+            lambda d: d['fresh_opening_observation'].__setitem__('character_count', 1000)))
+
+    def test_field_false_measurement_rejected(self):
+        self.assertIn('unmeasured opening window not separately observed', self.field_defects(
+            lambda d: d['fresh_opening_observation'].__setitem__('window_length_measured', True)))
+
+    def test_field_no_separate_opening_read_rejected(self):
+        self.assertIn('unmeasured opening window not separately observed', self.field_defects(
+            lambda d: d['fresh_opening_observation'].__setitem__(
+                'selected_window_separately_read', False)))
+
+    def test_field_missing_assumptions_rejected(self):
+        self.assertIn('manual first1000 basis/uncertainty', self.field_defects(
+            lambda d: d['manual_first1000_boundary'].__setitem__('assumptions', [])))
+
+    def test_field_historical_page_cannot_be_current_certified(self):
+        self.assertIn('conditional viewer address', self.field_defects(
+            lambda d: d['chapters'][1]['viewer_pages'].__setitem__(
+                'current_page_identity_certified', True)))
+
+    def test_field_numeric_diagnostic_cannot_be_invented(self):
+        self.assertIn('registered manual diagnostic scope', self.field_defects(
+            lambda d: d['manual_first1000_boundary'].__setitem__(
+                'diagnostic', {'utf16_under_assumption': 1000})))
+
+    def test_orv_numeric_diagnostic_cannot_be_silently_removed(self):
+        self.assertIn('registered manual diagnostic scope', self.defects(
+            lambda d: d['manual_first1000_boundary'].__setitem__('diagnostic', None)))
+
+    def test_unregistered_source_and_duplicate_selection_do_not_inflate(self):
+        self.assertFalse(visual.audit(sources=['research/not-a-record.json'])['PASS'])
+        self.assertEqual(visual.audit(sources=[visual.SOURCE, visual.SOURCE])['ready_works'], 1)
 
 
 if __name__ == '__main__':
