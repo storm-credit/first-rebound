@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = '15f81bd'
+BASE_COMMIT = 'b002018'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
@@ -154,6 +154,8 @@ def make_samples(root=ROOT):
              'research/STYLE_FUNCTION_COMPARISON.md',
              'research/G11_CORE_EXTENSION_2026_10_02.json',
              'research/G11_CORE_EXTENSION_2026_10_02.md',
+             'research/G11_SGRADE_COMMON_MINIMUM_2026_10_02.json',
+             'research/G11_SGRADE_COMMON_MINIMUM_2026_10_02.md',
              'research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.json',
              'research/G11_POPULARITY_PROVENANCE_2026_10_01.json',
              'research/G11_RECORDED_FUNCTION_CODING_2026_10_01.json',
