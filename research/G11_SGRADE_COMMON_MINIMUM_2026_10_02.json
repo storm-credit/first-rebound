@@ -23,7 +23,15 @@
     "F": "Too-short boundary fragment to carry an identifiable information function",
     "all_tags_nonexclusive": true,
     "fractions_must_not_be_summed": true,
-    "body_scene_not_claimed_from_truncated_prefix": true
+    "body_scene_not_claimed_from_truncated_prefix": true,
+    "F_is_boundary_annotation_not_content_function": true,
+    "cut_coordinate_system": "First slice normalized body including join LF to1000UTF16; then calculate text-only presence denominator from its intersections",
+    "semantic_functions": [
+      "A",
+      "E",
+      "I"
+    ],
+    "unassignable_fragment_policy": "F only when clipped fragment is insufficient to identify a function; never complete names or actions beyond cut. F is not included in a content-function total."
   },
   "source_hashes": {
     "research/G11_RIDI_STRUCTURAL_MEASUREMENTS_2026_10_01.json": "59e6444df083aba5306f4b7ac175853c8080665536be4cdef65d63f316bf3347",
@@ -837,5 +845,6 @@
   "raw_novel_text_retained": false,
   "raw_novel_text_uploaded": false,
   "independent_semantic_authentication": false,
-  "source_hash_method": "SHA256 of file bytes after CRLF -> LF normalization, not OS-specific raw file bytes"
+  "source_hash_method": "SHA256 of file bytes after CRLF -> LF normalization, not OS-specific raw file bytes",
+  "conditional_outcome_scope": "AEI presence alone cannot certify success; read separate central_event/reward_functions/past_scene outcome and conditions."
 }

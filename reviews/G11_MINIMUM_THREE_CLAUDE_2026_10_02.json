@@ -1,0 +1,105 @@
+{
+  "status": "RETURNED",
+  "exit_code": 0,
+  "response": {
+    "duration_api_ms": 47576,
+    "stop_reason": "end_turn",
+    "session_id": "6c38b6b2-2ba4-46d1-a2da-00cb5052d9f4",
+    "total_cost_usd": 0.081755,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1012,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2865,
+      "output_tokens_details": {
+        "thinking_tokens": 1376
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1012,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2865,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 1012,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1012
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2865,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 1012,
+        "webSearchRequests": 0,
+        "costUSD": 0.081755,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1376,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "## 측정 방법 결함 (3건)\n\n**결함 1 — 정규화 불변집합 미선언 + 해시 5/5의 자기참조성**\n\"정규화 본문 해시 5/5 일치\"는 정규화기가 무엇을 제거·보존하는지(불변집합)가 선언되지 않은 상태에서는 본문 동일성을 보증하지 못한다. Joara 래퍼가 raw FONT 오프셋을 9 이동시켰다는 사실은 두 가지 해석이 열려 있다 — (a) 본문 경계 외부의 래퍼 토큰 변화, (b) 정규화기가 삭제하는 종류의 삽입이 본문 경계 **내부**에서 발생. 본문 경계 판정 규칙이 없으므로 (b)를 배제할 수 없고, raw-viewer canonical 비교가 미재인증이라고 스스로 명시했으므로 5/5는 \"동일 추출 경로의 정규화기 멱등성\"만 입증한다. 게다가 루트 재점검이 독립 본문 검증이 아님을 인정했으므로 이 일치는 자기참조 루프다. 더 치명적으로, **실제 에피소드 팩 0 / 원고 CLOSED**인데 무엇을 해시했는지의 출처가 정의되지 않는다 — 준비기록 3/10이 해시 대상이면 그것은 본문이 아니라 준비물의 해시이며, 그렇다면 \"첫 5화 본문 재점검\"이라는 명칭 자체가 오표기다.\n\n**결함 2 — 1000UTF16 격자의 인덱싱 모호 + F 라벨의 범주 혼합**\n길이 분모가 join LF를 제외하므로 1000 단위 절단이 LF 제거 **전** 좌표계인지 **후** 좌표계인지에 따라 블록 경계가 어긋나며, 이 명세가 없어 \"정확히 1000\"은 재현 불가능하다. 또한 F(too-short fragment)는 텍스트 속성이 아니라 격자 절단이 만든 인공물이다. 이를 A/E/I와 동일 평면의 멀티라벨로 코딩하면 내용 라벨과 격자 라벨이 같은 분모를 공유하게 되어, 컨테이너 존재율이라는 단서로도 보정되지 않는 범주 혼합이 발생한다. 규칙 충돌도 실재한다 — \"마지막 절단 1UTF16은 F\"와 \"식별 가능한 부분 가족호칭 단어는 E\"는 1음절 호칭 절단에서 동시 충족되어, 둘 중 어느 쪽이 우선하는지 미정이다. 추가로 \"식별 가능\"의 임계(접두 몇 단위, 어느 자소 집합)가 조작화되지 않아 판정자 의존이다.\n\n**결함 3 — A/E 축 충돌이 \"조건≠실행\" 분리를 무력화 + 비교 14필드의 기준 부재**\n\"과거 서술 행위=E\"는 시제축이고 \"현재 수행 발화는 A/E/I 가능\"은 수행성축이다. 두 축이 한 라벨 집합에 섞여, 현재 수행되는 발화가 과거를 서술하는 경우 규칙상 A와 E가 동시 성립하며 멀티라벨이 이 차이를 흡수한다. 그 결과 조건부 선물≠전달, 조준 중단≠발사, 권한 획득≠실행 성공이라는 세 분리 규칙은 라벨 수준에서 판별력을 잃는다 — 분리의 결론이 같은 셀에 공존하기 때문이다. 동시에 실제 문장 수·전체 내부 비율·원자 밀도가 null인 상태에서 14개 비교 필드가 과거 지표/음성 인벤토리를 재사용하므로, 비교표에는 살아 있는 기준선이 없다. 장면 밀도는 분자가 명명된 기능 단계 수, 분모가 1000자이고 장면별 분모가 비교 불가임을 스스로 인정했으니, 이 재사용 지표는 숙련도 강도로도 서사 밀도로도 해석 불가한 무차원 잔여값이다.",
+    "ttft_ms": 21743,
+    "type": "result",
+    "duration_ms": 47645,
+    "uuid": "c0966539-8869-4bd8-afd0-c22b9e639626",
+    "ttft_stream_ms": 1369,
+    "time_to_request_ms": 69,
+    "first_content_frame_ms": 1369,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": "",
+  "elapsed_seconds": 50.67,
+  "scope": "LIMITED_METHOD_REBUTTAL_NOT_ORIGINAL_BODY_REVIEW",
+  "original_text_supplied": false
+}
