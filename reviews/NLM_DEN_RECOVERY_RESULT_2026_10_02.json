@@ -1,0 +1,53 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "e0be29bb-1317-41c6-a828-252a4c7c9520"
+  ],
+  "question_sha256": "f3079f9cefe045086205d3a0290af3f432f31d160d2edd74d99cc3a6d8bc3163",
+  "query_budget_seconds": 120,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 40.648,
+    "process_budget_seconds": 150,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "1. 인쇄 278면의 2019년 Grant 거래 대가 픽은 **오클라호마시티(Oklahoma City)** 상대의 **2020년 1라운드 픽**입니다 [1].\n2. 인쇄 279면의 2020년 11월 23일 Hampton 드래프트 권리 취득 대가 픽은 **밀워키(Milwaukee)** 상대의 **조건부 2023년 1라운드 드래프트 픽**입니다 [2].\n3. 선행 픽의 2라운드 전환 이후 Gordon 후행 픽 처리, 전체 이연·보호 및 급여 charge 조항은 **이 발췌문 기준 미확인**입니다 [3].",
+      "question": "지정된 공식 PDF 발췌만 읽고 한국어3줄로 답하라. 인쇄278의2019년 Grant 거래 대가 픽 연도·상대와 인쇄279의2020-11-23 Hampton 권리 취득 대가 조건부 픽 연도·상대를 구분하라. 이 발췌에 선행 픽이2R로전환된 뒤 Gordon 후행 픽 처리·전체 이연/보호·급여 charge 조항이 명시되는지, 없으면 이 발췌로 미확인이라고 답하라. 문서 전체 부재나 대체세계 사건을 확정하지 말라.",
+      "conversation_id": "16cb29d5-de48-4dbb-928d-8aedffc9c0bb",
+      "sources_used": [
+        "e0be29bb-1317-41c6-a828-252a4c7c9520"
+      ],
+      "citations": {
+        "1": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+        "2": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+        "3": "e0be29bb-1317-41c6-a828-252a4c7c9520"
+      },
+      "references": [
+        {
+          "source_id": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+          "citation_number": 1,
+          "cited_text_sha256": "703053057cdc3473e259f1bd3a85f10b3caeab4bd77be47695528ab62c32c7ff",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+          "citation_number": 2,
+          "cited_text_sha256": "a665e8abbb0db51ea49431c2aaee437ee1e039193804a49f58bb6d64129f45f6",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+          "citation_number": 3,
+          "cited_text_sha256": "b2c76923da783aad6947bf0c36ca906efcae656fd808a2f6a7aeb5be09978e20",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  }
+}
