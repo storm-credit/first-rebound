@@ -1,0 +1,107 @@
+{
+  "wrapper_status": "RETURNED",
+  "cli_exit_code": 0,
+  "response": {
+    "duration_api_ms": 40763,
+    "stop_reason": "end_turn",
+    "session_id": "2f73d0bf-4a57-4f56-82e9-9f523dbcd8ef",
+    "total_cost_usd": 0.06557500000000001,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 799,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2303,
+      "output_tokens_details": {
+        "thinking_tokens": 946
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 799,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2303,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 799,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 799
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2303,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 799,
+        "webSearchRequests": 0,
+        "costUSD": 0.06557500000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 946,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "## 표집(sampling) 방법 한정 비평 — 결함 3건\n\n**결함 1. 대체 표본의 선정 기준이 \"접근 가능성\"으로 바뀌어 층(stratum) 자체가 교체됨**\n4번째 first-20 확장에서 접근 불가(6–20 인증 요구) 연예계 직업물을 접근 가능한 학원 판타지로 교체한 순간, 포함 기준이 \"대표성\"에서 \"열람 가능성\"으로 이동했습니다. 이는 전형적인 가용성 편향이고, 비용 목록에 명시했더라도 편향이 상쇄되지는 않습니다. 결과적으로 연예계 직업 축이 표본에서 완전히 소멸하고, 핵 플랫폼 구성이 문피아2/리디1/조아라1 — 카카오 핵 0, 네이버 본문 0 으로 재편됩니다. 따라서 추가된 15개 고유 독해는 기존 95점 설계와 **동일 모집단의 증분이 아니라 다른 층의 신규 표본**이며, 95/110 → 110/110의 상승분 일부는 커버리지 품질이 아니라 접근 용이성이 만든 값입니다. 최소 보정: 교체본을 증분이 아닌 별도 층으로 분리 보고하고, 연예계·카카오·네이버 결손을 점수에서 차감 가시화할 것.\n\n**결함 2. (역할 매핑 리스크) 역할 대응 규칙이 반증 불가능하게 설계되어 확증 매칭이 자동 발생**\n\"역할이 팀/개인 평가와 일치, 강점 뒤 약점, 평가자 지식 차, 검증 후 보상\"이라는 순서 규칙은 불일치 사례를 식별하는 기준(부정 사례 정의·코더 간 일치 검증)이 없어, 어떤 본문이든 사후적으로 끼워 맞출 수 있습니다. 핵심 리스크는 **대체작의 장르 자체가 매칭을 기계적으로 생산**한다는 점입니다. 판타지 UI/미래 지식 설정은 상태창·등급·퀘스트 형태로 역할·평가·보상 순서를 내장하고 있어, 규칙이 실제로 작동한 결과인지 장르 장치의 반영인지 구분되지 않습니다. 또한 단일 주인공 학원물에서는 개인 평가가 지배적이므로 \"팀/개인 평가 일치\" 항목은 거의 무조건 성립(trivial match)합니다. 즉 역할 매핑의 적중은 가설 검증이 아니라 표본 선택의 부산물일 위험이 큽니다.\n\n**결함 3. (완료 카운트 해석 오류) 15/15 2차 개방과 110/110을 분석 완료로 읽을 수 없음**\n본문/뷰어/해시/카운트 15/15의 2차 개방 관찰은 사용자 설명대로 독립적 의미 검토가 아니며, 재접근 안정성(검색·열람 재현성) 지표입니다. 이를 독해 수량에 합산하면 1차 패스를 이중 계상하게 되고, \"15 고유 독해 + 15/15 검증 = 완료\"라는 서술은 **접근 완결성과 분석 완결성의 혼동**입니다. 더구나 Full P3/G11이 미완인 상태에서 110/110이 만점이라는 것은, 분모가 코퍼스가 아니라 계획서 자체의 체크리스트임을 뜻합니다(천장 효과). 따라서 110/110은 \"표본 완성도\"가 아니라 \"계획 항목 소진\"으로만 표기해야 하며, 별도 보유된 원안 부채 15는 신규 점수와 상계 금지, P3/G11 미완은 미완으로 병기해야 합니다.",
+    "ttft_ms": 15237,
+    "type": "result",
+    "duration_ms": 41247,
+    "uuid": "35e020e0-47cc-4464-a949-ee705e62fe45",
+    "ttft_stream_ms": 1978,
+    "time_to_request_ms": 530,
+    "first_content_frame_ms": 1978,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": "",
+  "elapsed_seconds": 44.976,
+  "original_text_supplied": false,
+  "source_derivative_sha256": "531cb5d0de7eecbbb19d723856616562427046b2c4d31e05a4ea977e6f40126d",
+  "cause_certified": false,
+  "scope": "LIMITED_METHOD_REBUTTAL_NOT_ORIGINAL_BODY_REVIEW"
+}

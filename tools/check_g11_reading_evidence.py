@@ -43,6 +43,30 @@ def recorded_work_url_matches(work, chapter, url):
 
 def audit(data, measured):
     errors = []
+    core=set(data['planned'].get('core_work_names', CORE))
+    works=CORE | FIRST_FIVE_ONLY
+    replacement=(CORE-{'데뷔 못 하면 죽는 병 걸림'})|{'소설 속 엑스트라'}
+    if core not in (CORE,replacement):
+        errors.append('unreviewed core revision')
+    if core!=CORE:
+        path=data['planned'].get('research_revision_evidence')
+        if path!='research/G11_CORE_EXTENSION_2026_10_02.json':
+            errors.append('core revision evidence missing')
+        else:
+            revision=json.loads((ROOT/path).read_text(encoding='utf-8'))
+            if set(revision['selected_core_work_names'])!=core or revision['original_unread_debt']['count']!=15 or revision['G11_final'] is not False:
+                errors.append('core revision/debt mismatch')
+            debt=data.get('original_access_debt',{})
+            if (debt.get('work')!='데뷔 못 하면 죽는 병 걸림' or debt.get('count')!=15
+                    or debt.get('chapters')!=list(range(6,21)) or debt.get('status')!='AUTH_REQUIRED'):
+                errors.append('original access debt lost')
+            identities={r['chapter']:r for r in revision['chapter_identity']}
+            for rec in revision['records']:
+                ch=rec[0]
+                matches=[r for r in data['readings'] if r['work']==revision['work'] and r['chapter']==ch]
+                if (len(matches)!=1 or matches[0].get('body_sha256')!=rec[6]
+                        or matches[0]['url']!=identities[ch]['url']):
+                    errors.append('extension record does not match ledger')
     for key in ('author_locked', 'season_selected', 'exact_execution_cleared',
                 'manuscript_allowed', 'raw_text_retained'):
         if data.get(key) is not False:
@@ -64,8 +88,8 @@ def audit(data, measured):
                  bool(row.get('body_read_pages')) and bool(row.get('observations')) and
                  url.scheme == 'https' and url.hostname in HOSTS and
                  type(row['chapter']) is int and
-                 row['work'] in CORE | FIRST_FIVE_ONLY and
-                 1 <= row['chapter'] <= (20 if row['work'] in CORE else 5))
+                 row['work'] in works and
+                 1 <= row['chapter'] <= (20 if row['work'] in core else 5))
         valid = valid and recorded_work_url_matches(row['work'], row['chapter'], url)
         if not valid:
             errors.append('incomplete or unsupported reading evidence')
@@ -75,12 +99,12 @@ def audit(data, measured):
         chapters[row['work']].add(row['chapter'])
         platforms[HOSTS[url.hostname]] += 1
     first_five = sum(set(range(1, 6)) <= cs for cs in chapters.values())
-    first_twenty = sum(set(range(1, 21)) <= chapters[w] for w in CORE)
+    first_twenty = sum(set(range(1, 21)) <= chapters[w] for w in core)
     planned = data['planned']
     target = (planned['works'] * planned['first_five_chapters_per_work'] +
               planned['core_works'] * (planned['core_chapters'] - planned['first_five_chapters_per_work']))
-    if (target != planned['total_chapters'] or planned['core_works'] != len(CORE)
-            or planned['works'] != len(CORE | FIRST_FIVE_ONLY)
+    if (target != planned['total_chapters'] or planned['core_works'] != len(core)
+            or planned['works'] != len(works)
             or planned['first_five_chapters_per_work'] != 5 or planned['core_chapters'] != 20):
         errors.append('planned target mismatch')
     observed = data['observed']
@@ -89,6 +113,9 @@ def audit(data, measured):
                   unread_chapters_against_default_target=target - sum(platforms.values()))
     if any(observed[k] != v for k, v in actual.items()):
         errors.append('declared counts differ from recorded readings')
+    if core!=CORE and (observed.get('original_plan_complete_chapters')!=sum(len(cs & set(range(1,21 if w in CORE else 6))) for w,cs in chapters.items())
+                      or observed.get('original_plan_unread_chapters')!=15):
+        errors.append('original plan counts rewritten')
     if set(observed['body_platforms']) != set(platforms):
         errors.append('declared platforms differ from recorded readings')
     if measured.get('readings_added') != 0 or measured.get('raw_text_retained') is not False:
@@ -115,9 +142,12 @@ def audit(data, measured):
         errors.append('duplicate measured body across chapters')
     return dict(PASS=not errors, scope='RECORDED_EVIDENCE_ARITHMETIC_AND_MEASUREMENT_REPRODUCTION',
                 observed=actual, target_chapters=target, chapter_platform_counts=dict(platforms),
-                missing_core_chapters={w: sorted(set(range(1, 21)) - chapters[w]) for w in sorted(CORE)
+                missing_core_chapters={w: sorted(set(range(1, 21)) - chapters[w]) for w in sorted(core)
                                        if not set(range(1, 21)) <= chapters[w]},
+                original_core_missing_chapters={w:sorted(set(range(1,21))-chapters[w]) for w in sorted(CORE) if not set(range(1,21))<=chapters[w]},
+                research_revision_not_original_plan_completion=core!=CORE,
                 structurally_remeasured_chapters=len(measures), new_readings=0,
+                new_readings_scope='THIS_CHECKER_ADDS_NO_READINGS; BATCH_ADDED_15_RECORDED_ELSEWHERE',
                 literary_P3_final=False, G11_final=False, actual_episode_packs=0,
                 manuscript_allowed=False, independent_body_verification=False,
                 captures_authenticated_by_checker=False, errors=errors)
