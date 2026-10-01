@@ -1,4 +1,5 @@
-"""Check the ORV visual minimum record's scope and addresses, not pixels or meaning."""
+"""Check registered visual minimum records' scope and addresses, not pixels or meaning."""
+import argparse
 import hashlib
 import json
 import re
@@ -9,6 +10,17 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = 'research/G11_ORV_VISUAL_MINIMUM_2026_10_02.json'
 READING_LEDGER = 'research/STYLE_READING_OBSERVATIONS.json'
 WORK = '전지적 독자 시점'
+FIELD_WORK = '필드의 고인물'
+FIELD_SOURCE = 'research/G11_FIELD_VISUAL_MINIMUM_2026_10_02.json'
+RECORDS = {
+    WORK: {'source': SOURCE, 'novel_id': '104753', 'main_episode_offset': -1,
+           'manual_diagnostic_expected': True},
+    FIELD_WORK: {
+        'source': FIELD_SOURCE,
+        'novel_id': '153525', 'main_episode_offset': -1,
+        'manual_diagnostic_expected': False,
+    },
+}
 SHA = re.compile(r'^[0-9a-f]{64}$')
 FALSE_FLAGS = (
     'whole_P3_final', 'G11_final', 'author_locked', 'season_selected',
@@ -57,7 +69,9 @@ def validate(data, root=ROOT, ledger=None):
         if not ok:
             errors.append(message)
 
-    require(data.get('work') == WORK, 'work identity')
+    work = data.get('work')
+    config = RECORDS.get(work)
+    require(config is not None, 'work identity')
     require(data.get('evidence_mode') == 'VISUAL_SCOPED_MINIMUM', 'visual evidence mode')
     require(data.get('current_mode') == 'QUALITATIVE_VISUAL_INPUT_ONLY', 'visual-only scope')
     require(data.get('minimum_comparison_record_ready') is True and
@@ -123,50 +137,103 @@ def validate(data, root=ROOT, ledger=None):
             first_end = max(ends)
     require(boundary.get('diagnostic_only') is True and boundary.get('serial_chapter') == 1
             and isinstance(page_range, list) and len(page_range) == 2
-            and all(isinstance(p, int) for p in page_range)
+            and all(type(p) is int for p in page_range)
             and first_end is not None and 1 <= page_range[0] <= page_range[1] <= first_end,
             'manual first1000 range/mode')
-    require(bool(boundary.get('boundary_neighborhood')) and bool(boundary.get('assumptions'))
+    neighborhood_valid = (bool(boundary.get('boundary_neighborhood'))
+                          if work == WORK else
+                          boundary.get('boundary_neighborhood') is None and
+                          boundary.get('range_status') ==
+                          'FULL_PROLOGUE_OPENING_WINDOW_LENGTH_UNMEASURED')
+    require(neighborhood_valid and bool(boundary.get('assumptions'))
             and bool(boundary.get('limitations')) and bool(boundary.get('range_status'))
             and bool(boundary.get('selected_qualitative_function_order')),
             'manual first1000 basis/uncertainty')
     require(boundary.get('temporary_transcription_retained') is False and
             boundary.get('temporary_transcription_sent_to_other_models') is False,
             'manual temporary transcription retained/sent')
-    diagnostic = boundary.get('diagnostic', {})
-    if not isinstance(diagnostic, dict):
-        diagnostic = {}
-    require(diagnostic.get('publishable_metric') is False and
-            isinstance(diagnostic.get('utf16_under_assumption'), int) and
-            diagnostic['utf16_under_assumption'] > 0 and
-            isinstance(diagnostic.get('manual_display_blocks'), int) and
-            diagnostic['manual_display_blocks'] > 0 and bool(diagnostic.get('assumed_join')),
-            'manual diagnostic misrepresented')
-    require(diagnostic.get('original_text_error_bound') is None and
-            diagnostic.get('variants_are_original_text_error_bounds') is False,
-            'manual join variants misrepresented as original-text bounds')
-    variants = diagnostic.get('join_sensitivity_variants')
-    if (isinstance(variants, list) and isinstance(diagnostic.get('manual_display_blocks'), int) and
-            isinstance(diagnostic.get('utf16_under_assumption'), int) and
-            isinstance(diagnostic.get('assumed_join_LF_total'), int)):
-        gaps = diagnostic['manual_display_blocks'] - 1
-        base = diagnostic['utf16_under_assumption'] - diagnostic['assumed_join_LF_total']
-        require(gaps >= 0 and base > 0 and diagnostic['assumed_join_LF_total'] == gaps * 2
-                and len(variants) == 3 and
-                {v.get('join_LF_per_gap') for v in variants if isinstance(v, dict)} == {0, 1, 2}
-                and all(isinstance(v, dict) and v.get('utf16_under_assumption') ==
-                        base + gaps * v.get('join_LF_per_gap', -1) for v in variants),
-                'manual join sensitivity arithmetic')
+    diagnostic = boundary.get('diagnostic')
+    require('diagnostic' in boundary, 'manual diagnostic absent')
+    if config is not None:
+        require((diagnostic is not None) == config['manual_diagnostic_expected'],
+                'registered manual diagnostic scope')
+    if diagnostic is None:
+        # A separately observed opening window can be prepared as qualitative
+        # input without inventing a manual character count or an exact boundary.
+        fresh = data.get('fresh_opening_observation')
+        first = chapters_preview[0] if isinstance(chapters_preview, list) and chapters_preview else {}
+        if not isinstance(fresh, dict):
+            fresh = {}
+        if not isinstance(first, dict):
+            first = {}
+        spreads = fresh.get('observed_spreads')
+        pages = ([page for spread in spreads for page in spread]
+                 if isinstance(spreads, list) and all(isinstance(s, list) for s in spreads) else [])
+        first_view = first.get('viewer_pages')
+        if not isinstance(first_view, dict):
+            first_view = {}
+        window_valid = (isinstance(page_range, list) and len(page_range) == 2 and
+                        all(type(p) is int for p in page_range) and
+                        first_end is not None and page_range == [1, first_end] and
+                        pages == list(range(1, first_end + 1)))
+        require(window_valid and fresh.get('selected_window_separately_read') is True and
+                fresh.get('full_body_read') is True and fresh.get('body_end_observed') is True and
+                fresh.get('window_length_measured') is False and
+                bool(fresh.get('observer')) and bool(fresh.get('date')) and
+                bool(fresh.get('display_mode')) and fresh.get('viewport_override') is False and
+                _url_identity(fresh.get('official_url')) == _url_identity(first.get('official_url')) and
+                fresh.get('body_end_page') == first_end and
+                fresh.get('total_viewer_pages') == first_view.get('total') and
+                first_view.get('unit') == 'CONDITIONAL_VISUAL_VIEWER_PAGE',
+                'unmeasured opening window not separately observed')
+        require(not any(key in boundary for key in (
+            'utf16_under_assumption', 'manual_display_blocks', 'assumed_join_LF_total',
+            'join_sensitivity_variants', 'character_count', 'sentence_count',
+            'paragraph_count', 'first1000_count', 'first1000_density')) and
+                not any(key in fresh for key in (
+                    'utf16_under_assumption', 'manual_display_blocks',
+                    'character_count', 'sentence_count', 'paragraph_count',
+                    'first1000_count', 'first1000_density')),
+            'unmeasured manual quantity promoted')
+    elif isinstance(diagnostic, dict):
+        require(diagnostic.get('publishable_metric') is False and
+                type(diagnostic.get('utf16_under_assumption')) is int and
+                diagnostic['utf16_under_assumption'] > 0 and
+                type(diagnostic.get('manual_display_blocks')) is int and
+                diagnostic['manual_display_blocks'] > 0 and bool(diagnostic.get('assumed_join')),
+                'manual diagnostic misrepresented')
+        require(diagnostic.get('original_text_error_bound') is None and
+                diagnostic.get('variants_are_original_text_error_bounds') is False,
+                'manual join variants misrepresented as original-text bounds')
+        variants = diagnostic.get('join_sensitivity_variants')
+        if (isinstance(variants, list) and type(diagnostic.get('manual_display_blocks')) is int and
+                type(diagnostic.get('utf16_under_assumption')) is int and
+                type(diagnostic.get('assumed_join_LF_total')) is int):
+            gaps = diagnostic['manual_display_blocks'] - 1
+            base = diagnostic['utf16_under_assumption'] - diagnostic['assumed_join_LF_total']
+            require(gaps >= 0 and base > 0 and diagnostic['assumed_join_LF_total'] == gaps * 2
+                    and len(variants) == 3 and
+                    {v.get('join_LF_per_gap') for v in variants if isinstance(v, dict)} == {0, 1, 2}
+                    and all(isinstance(v, dict) and type(v.get('join_LF_per_gap')) is int
+                            and type(v.get('utf16_under_assumption')) is int
+                            and v['utf16_under_assumption'] == base + gaps * v['join_LF_per_gap']
+                            for v in variants),
+                    'manual join sensitivity arithmetic')
+        else:
+            errors.append('manual join sensitivity arithmetic')
     else:
-        errors.append('manual join sensitivity arithmetic')
+        errors.append('manual diagnostic misrepresented')
     require(not any(k in boundary for k in ('body_sha256', 'first1000_sha256', 'canonical_sha256')),
             'manual range labeled DOM hash')
 
     if ledger is None:
         ledger = json.loads((root / READING_LEDGER).read_text(encoding='utf-8'))
     official = {r['chapter']: _url_identity(r['url']) for r in ledger['readings']
-                if r.get('work') == WORK and r.get('chapter') in range(1, 6)}
-    require(len(official) == 5 and all(official.values()), 'reading ledger first-five identity')
+                if r.get('work') == work and r.get('chapter') in range(1, 6)}
+    require(len(official) == 5 and all(official.values()) and config is not None and
+            all(path.startswith('/novel/viewer/' + config['novel_id'] + '/')
+                for path in official.values() if path),
+            'reading ledger first-five identity')
 
     chapters = data.get('chapters')
     if (not isinstance(chapters, list) or len(chapters) != 5 or
@@ -177,7 +244,8 @@ def validate(data, root=ROOT, ledger=None):
     for index, chapter in enumerate(chapters, 1):
         identity = _url_identity(chapter.get('official_url'))
         require(identity is not None and identity == official.get(index), 'official chapter URL/work')
-        require(chapter.get('main_episode') == index - 1 and bool(chapter.get('title')),
+        require(config is not None and chapter.get('main_episode') ==
+                index + config['main_episode_offset'] and bool(chapter.get('title')),
                 'prologue/main episode identity')
         require(chapter.get('full_body_read') is True and chapter.get('body_end_observed') is True,
                 'body start/end reading declaration')
@@ -186,7 +254,12 @@ def validate(data, root=ROOT, ledger=None):
             view = {}
         end = view.get('body_end')
         total = view.get('total')
-        require(view.get('unit') == 'CONDITIONAL_VISUAL_VIEWER_PAGE'
+        unit = view.get('unit')
+        historical = unit == 'HISTORICAL_CONDITIONAL_VISUAL_VIEWER_PAGE'
+        require((unit == 'CONDITIONAL_VISUAL_VIEWER_PAGE' or
+                 (work == FIELD_WORK and historical and
+                  view.get('current_page_identity_certified') is False and
+                  bool(view.get('observation_date'))))
                 and view.get('conditional_address') is True,
                 'conditional viewer address')
         require(isinstance(total, int) and total > 0 and isinstance(end, list) and bool(end)
@@ -235,19 +308,43 @@ def validate(data, root=ROOT, ledger=None):
     return errors
 
 
-def audit(root=ROOT):
-    data = json.loads((root / SOURCE).read_text(encoding='utf-8'))
-    errors = validate(data, root)
+def audit(root=ROOT, sources=None):
+    """Audit every registered record, or selected registered sources for diagnostics."""
+    registered = {config['source']: work for work, config in RECORDS.items()}
+    selected = list(registered) if sources is None else list(dict.fromkeys(sources))
+    errors, ready_names, ready_sources, hashes = [], [], [], {}
+    for source in selected:
+        if source not in registered:
+            errors.append(source + ': unregistered visual source')
+            continue
+        path = root / source
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(source + ': unreadable visual source: ' + str(exc))
+            continue
+        defects = validate(data, root)
+        if data.get('work') != registered[source]:
+            defects.append('registered source/work mismatch')
+        if defects:
+            errors.extend(source + ': ' + defect for defect in defects)
+        else:
+            ready_names.append(registered[source])
+            ready_sources.append(source)
+            hashes[source] = _normalized_sha(path)
     return {'PASS': not errors, 'errors': errors,
-            'ready_works': 1 if not errors else 0,
-            'ready_work_names': [WORK] if not errors else [],
-            'record_sources': [SOURCE] if not errors else [],
-            'record_source_hashes': {SOURCE: _normalized_sha(root / SOURCE)} if not errors else {},
+            'ready_works': len(set(ready_names)) if not errors else 0,
+            'ready_work_names': ready_names if not errors else [],
+            'record_sources': ready_sources if not errors else [],
+            'record_source_hashes': hashes if not errors else {},
             'scope': 'VISUAL_ADDRESS_AND_DECLARATION_NOT_PIXEL_OR_SEMANTIC_AUTHENTICATION',
             'prepared_qualitative_visual': not errors, 'whole_P3_final': False, 'G11_final': False}
 
 
 if __name__ == '__main__':
-    result = audit()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source', action='append', help='registered repository-relative JSON path')
+    args = parser.parse_args()
+    result = audit(sources=args.source)
     print(json.dumps(result, ensure_ascii=False))
     raise SystemExit(not result['PASS'])
