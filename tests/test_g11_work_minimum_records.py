@@ -9,6 +9,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
 import check_g11_work_minimum_records as minimum
 import build_g11_component_progress as progress
+import check_g11_visual_minimum as visual
 
 
 class MinimumRecordTests(unittest.TestCase):
@@ -129,9 +130,11 @@ class MinimumRecordTests(unittest.TestCase):
 
     def test_progress_uses_validated_unique_works(self):
         report = progress.build()
-        self.assertEqual(report['common_minimum_work_records_ready'], 3)
-        self.assertEqual(report['common_minimum_work_records_remaining'], 7)
-        self.assertEqual(report['common_minimum_record_sources'], list(minimum.RECORD_FILES))
+        self.assertEqual(report['common_minimum_work_records_ready'], 4)
+        self.assertEqual(report['common_minimum_work_records_remaining'], 6)
+        self.assertEqual(report['common_minimum_record_sources'], list(minimum.RECORD_FILES) + [visual.SOURCE])
+        self.assertEqual(report['common_minimum_records_by_evidence_mode'], {
+            'RETAINED_DOM_COMPONENT_RECORDS': 3, 'QUALITATIVE_VISUAL_INPUT_ONLY': 1})
         self.assertEqual(report['components']['structure']['observed'], 15)
         self.assertEqual(report['components']['function']['observed'], 20)
 
@@ -142,7 +145,16 @@ class MinimumRecordTests(unittest.TestCase):
             report = progress.build()
         self.assertEqual(report['status'], 'FAIL')
         self.assertIn('common minimum: source content changed', report['errors'])
-        self.assertEqual(report['common_minimum_work_records_ready'], 2)
+        self.assertEqual(report['common_minimum_work_records_ready'], 3)
+
+    def test_same_work_across_modes_does_not_increase_unique_count(self):
+        duplicate = {'PASS': True, 'errors': [], 'ready_works': 1,
+                     'record_sources': [minimum.RECORD_FILES[0]]}
+        with patch.object(visual, 'audit', return_value=duplicate):
+            report = progress.build()
+        self.assertEqual(report['status'], 'FAIL')
+        self.assertIn('common minimum: duplicate work across evidence modes', report['errors'])
+        self.assertEqual(report['common_minimum_work_records_ready'], 3)
 
 
 if __name__ == '__main__':

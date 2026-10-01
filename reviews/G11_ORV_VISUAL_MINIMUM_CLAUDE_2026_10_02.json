@@ -1,0 +1,105 @@
+{
+  "status": "RETURNED",
+  "exit_code": 0,
+  "response": {
+    "duration_api_ms": 49750,
+    "stop_reason": "end_turn",
+    "session_id": "530b6291-4adf-4708-8ac1-d6f1b07d53f6",
+    "total_cost_usd": 0.08378,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1027,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2940,
+      "output_tokens_details": {
+        "thinking_tokens": 1521
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1027,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2940,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 1027,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1027
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-opus-5[1m]": {
+        "inputTokens": 2,
+        "outputTokens": 2940,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 1027,
+        "webSearchRequests": 0,
+        "costUSD": 0.08378,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1521,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "## 방법론 반박 (3건)\n\n**1. 994 UTF-16 / 31블록 수치는 \"경계 탐색용 진단\"이라는 면책을 넘어서 추론에 쓰이고 있음**\n\n수동 전사본은 즉시 폐기되었고 원문 블록·길이·구두점·zero-width는 모두 null로 선언되었습니다. 그렇다면 994는 재도출 불가능하며, 동시에 null로 둔 항목들(블록 경계, 비표시 문자, 구두점)을 이미 확정한 것으로 전제합니다. 더 심각한 것은 오차 구조입니다. \"표시 블록당 LF 2개\" 가정 아래 31블록은 62 코드유닛, 즉 994의 약 6%가 측정자가 삽입한 값입니다. 가정을 LF 1개 또는 단락 단위로 바꾸면 수치는 수십 단위로 이동하는데, 이는 1000까지의 간격(6유닛)보다 한 자릿수 큽니다. 따라서 \"다음 p7 조회수 하락 보고가 추정 1000 경계\"라는 진술은 관측이 아니라 정규화 가정의 함수이며, 부호조차 보장되지 않습니다. 최소 수정: 1000 경계 진술을 철회하거나, \"가정 A 하에서 994±62, 경계 판정 불가\"로 기재.\n\n**2. p 번호가 좌표계로 쓰일 수 없음 — 그런데 경계가 p 번호에 못박혀 있음**\n\n본 방법은 \"높이 맞춤 2단 렌더러에 조건부\"임을 스스로 인정하고 장면 주소를 조건부로 처리합니다. 그렇다면 \"프롤로그 뷰어 p2–7\", \"p7 하락 보고\", \"물리 5p25–28\"은 기기·높이 의존 좌표이며, 문자 오프셋 추정의 앵커로 쓰일 수 없습니다. p 번호를 조건부라고 선언한 뒤 동일한 p 번호로 1000 경계를 정위하는 것은 내적 모순입니다. 덧붙여 \"4/10\"의 산술도 모호합니다. DOM 기록 3 + 수동 시각 기록 1이 서로 다른 범위를 덮는지, 중첩되는지가 명시되지 않아 4가 독립 증언 수인지 단순 레코드 수인지 판정 불가합니다. 특히 필수 선행부(p2–7)는 폐기된 단일 비보존 관측에만 의존하므로, 그 구간의 증거력은 1에 가깝습니다.\n\n**3. 부정 주장과 인과 주장이 보존 증거 없이 단정형으로 서술됨**\n\n세 가지가 섞여 있습니다. (a) \"특성창 활성화 실패\"는 음성 결과의 관측을 뜻하지만, 읽은 범위 내 미표시와 구별되지 않습니다. 후자라면 \"실패\"가 아니라 \"무관측\"입니다. (b) \"원로 구출 아님\", \"기본 300/전체 클리어 미달\"은 해당 구간의 완전성을 전제한 부정 주장인데, 그 완전성은 폐기된 수동 기록과 조건부 p 주소에만 근거합니다. \"미달\"보다 \"해당 범위 내 미확인\"이 증거와 일치합니다. (c) \"첫 벌레가 추가 100코인을 촉발\"은 인접성에서 인과를 끌어낸 것으로, 보상 사다리(약속1/수령2/제목열람4/본문실행5)가 이미 단계 혼재를 보이는 상황에서 지지되지 않습니다.\n\n---\n\n위 세 건은 어느 것도 원문·전체 용어·내적 발화 전수 조사를 요구하지 않습니다. 모두 **이미 선언된 null과 이미 내려진 단정 사이의 불일치**만 지적한 것이며, 수치 철회 또는 양태 하향(단정 → 범위 내 무관측)으로 해결됩니다.",
+    "ttft_ms": 24028,
+    "type": "result",
+    "duration_ms": 49820,
+    "uuid": "f7672838-9d0a-4600-b0ed-7a92646897e4",
+    "ttft_stream_ms": 1530,
+    "time_to_request_ms": 88,
+    "first_content_frame_ms": 1531,
+    "queued_turn_count": 0,
+    "result_index": 0
+  },
+  "stderr": "",
+  "elapsed_seconds": 52.014,
+  "scope": "LIMITED_METHOD_REBUTTAL_NOT_ORIGINAL_BODY_REVIEW",
+  "original_text_supplied": false
+}
