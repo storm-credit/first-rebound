@@ -1,6 +1,8 @@
 # 하우스 스타일 기초 — 설계 검토용
 
-실제 [리디1화 음성 구성요소 파일럿](../research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.md)은 문맥으로 분류한현재/매개기억/UI를 두 번 열람해 지문 재현했다. 음성 구성요소1/50·전체P3 아님·새 독서0. 기록 재분류의 CT는 명확한1작품만 남겨 교차작품 후보HOLD다.
+2026-10-01 [리디 첫5화 문맥 음성 구성요소](../research/G11_RIDI_CONTEXTUAL_VOICE_FIRST_FIVE_2026_10_01.md): 기존 1화 파일럿을 보존하고 공식 2~5화를 다시 읽어 두 별도 열람 지문을 대조했다. 누적 구성요소 **5/50·잔여45**, 전체 P3 완료가 아니다. 전화 발화·UI·표시된 침묵을 분리하고 나머지 서술/무인용 사고의 전체 내면 비중은 null로 남긴다. 새 독서0·95/110·미독15·실제 Pack0, G11 최종 HOLD·freeze v0.30 PARTIAL·설계/원고 CLOSED·큰 묶음 미완료6.
+
+이전 1화 기록: 실제 [리디1화 음성 구성요소 파일럿](../research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.md)은 문맥으로 분류한현재/매개기억/UI를 두 번 열람해 지문 재현했다. 음성 구성요소1/50·전체P3 아님·새 독서0. 기록 재분류의 CT는 명확한1작품만 남겨 교차작품 후보HOLD다.
 
 - 상태: `FOUNDATION_PARTIAL / REFERENCE_DEEP_READ_INCOMPLETE`.
 - 적용 권위: `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`.
