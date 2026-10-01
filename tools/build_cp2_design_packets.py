@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_COMMIT = 'ad0ac7a'
+BASE_COMMIT = '171b46b'
 STRUCTURE = 'design/CP2_ACT_SUBACT_PACKET.json'
 CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
