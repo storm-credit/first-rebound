@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [Denver 선행2R 전환 분기 조사](reviews/D1_DEN_2R_BRANCH_REVIEW_2026_10_02.md): AG 첫133.507초 반환은 로컬event/type 기록 오류로 최종 미보존, 교정 후1회130.374초 반환은SUCCESS/빈답변이었다. 새 원자료0·회수false를 명시하고 공식NDJSON 파서3검사/실제빈최종 재생·제한Codex 감사를 완료했다. 공식2023–24 Orlando 가이드의3/25 거래 행도 해당 전환 분기 인증이 아니다. 동일 질문의 시간 재시도 종료; 새 전체 조건 근거에서만 분기 검문 재개. NotebookLM/Claude 이번NBA분석 NOT_RUN·F0/5 A0/3 K0/4·법적12 HOLD·미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED·원고0 유지.
+
 2026-10-02 [CP2 다섯 약속 행동·비용 연결](design/CP2_PROMISE_FUNCTION_BRIDGE.md): 기존 심기/변형/회수23위치·고유18소막·다섯 약속을 보존하고 각각의 행동·비용 변화와 겹침5곳의 주기능/보조기능을 정리했다. P2 A05→A14 등 표지 공백은 본문 기능 부재 인증이 아니며 실제 회차 침묵 수는 미정이다. NotebookLM 자체 파생 출처 등록15.825초/분석31.408초 회수, Claude 제한 방법 반증60.069초 timeout·별도Codex 지정 범위 문제 미발견·전체PASS 아님. [검수 기록](reviews/CP2_PROMISE_BRIDGE_REVIEW_2026_10_02.md). 새 작가확정/최종 회차 기능/실제Pack/원고0; F0/5·A0/3·K0/4·법적12 HOLD·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED.
 
 2026-10-02 [NotebookLM Denver 미회수 분석 회복](reviews/NLM_QUERY_RECOVERY_REVIEW_2026_10_02.md)(PR #372): 이전 공식 발췌 질의를120초/외부150초 Python 직접 경로로 실행해40.648초에 회수했다. 아래 이전46.320초 timeout은 당시 이력이다. 신규 독립 증거0·전체 보호/전환/Gordon/급여 인증 아님·Antigravity timeout 별도·F/A/K 종료 불변.
