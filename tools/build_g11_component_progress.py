@@ -54,16 +54,17 @@ def build(root=ROOT):
     all_chapters=set().union(*union.values())
     reading=json.loads((root/'research/STYLE_READING_OBSERVATIONS.json').read_text(encoding='utf-8'))
     observed=reading['observed']
-    minimum_path='research/G11_SGRADE_COMMON_MINIMUM_2026_10_02.json'
-    minimum=json.loads((root/minimum_path).read_text(encoding='utf-8'))
-    minimum_ready=1 if minimum.get('minimum_comparison_record_ready') is True else 0
+    from check_g11_work_minimum_records import audit as audit_minimum_records
+    minimum_audit=audit_minimum_records(root)
+    minimum_ready=minimum_audit['ready_works']
+    errors.extend('common minimum: '+problem for problem in minimum_audit['errors'])
     return dict(status='FAIL' if errors else 'PASS',errors=errors,rows=rows,components=counts,unique_component_chapters=len(all_chapters),components_not_added=True,
         unique_readings=observed['complete_chapters'],unread=observed['unread_chapters_against_default_target'],
         original_plan_unread=observed.get('original_plan_unread_chapters',observed['unread_chapters_against_default_target']),
         new_unique_readings=0,new_unique_readings_scope='THIS_COMPONENT_GENERATOR_DOES_NOT_ADD_READINGS',
         common_minimum_work_records_ready=minimum_ready,common_minimum_work_records_target=10,
         common_minimum_work_records_remaining=10-minimum_ready,
-        common_minimum_record_source=minimum_path,
+        common_minimum_record_sources=minimum_audit['record_sources'],
         common_minimum_record_scope='PREPARED_RECORDS_NOT_WHOLE_P3_OR_INDEPENDENT_SEMANTIC_CERTIFICATION',
         whole_P3_completed_chapters=0,G11_final=False,author_locked=False,manuscript_allowed=False)
 if __name__=='__main__':

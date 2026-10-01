@@ -1,0 +1,2721 @@
+{
+  "stage": "G11_COMMON_MINIMUM_WORK_RECORD",
+  "date": "2026-10-02",
+  "base_main": "2fe9ba5",
+  "shared_skill_commit": "f3af0eb",
+  "work": "재벌집 막내아들",
+  "edition": "RIDI_OFFICIAL_SERIAL_NOT_EBOOK",
+  "new_unique_readings": 0,
+  "full_body_reinspection_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fresh_full_body_matches": "5/5",
+  "fresh_first1000_matches": "5/5",
+  "semantic_review": "ROOT_CODEX_MANUAL_FULL_BODY_REINSPECTION_NOT_INDEPENDENT",
+  "observation_provenance": "Root Codex supplied actual official-viewer fresh1–5 body/prefix matches, prefix labels, first-p local functions, scene hashes/metadata and past/current/reward judgements. Child agent assembled these with existing source records; child did not reopen original body.",
+  "normalization": {
+    "heading_selector": "#viewer_contents h3",
+    "body_selector": "#viewer_contents p",
+    "first_body_raw_p": 9,
+    "zero_width_remove": "U200B-D/2060/2063/FEFF",
+    "per_p_trim": true,
+    "exclude_empty_p": true,
+    "exclude_title_and_non_p_scene_markers": true,
+    "body_join": "two_LF",
+    "unit": "JS_UTF16_with_spaces",
+    "scene_character_denominator": "sum normalized nonempty p lengths, excluding join LF"
+  },
+  "first1000_rubric": {
+    "unit": "Every nonempty display-p intersection with exact1000UTF16 including join LF; multi-label A/E/I plus F fragment",
+    "A": "Current performed speech/action/observable state",
+    "E": "Rule/background/UI/past report",
+    "I": "Evaluation/emotion/question/intention/hypothesis",
+    "F": "Too-short boundary fragment without identifiable full function",
+    "all_tags_nonexclusive": true,
+    "fractions_must_not_be_summed": true,
+    "text_fractions_are_container_presence_not_clause_or_inner_proportions": true,
+    "boundary_notes": "1p65 includes7UTF16 and3p69 includes5UTF16: F only.2p48 contains17UTF16 of past-history E.5p73 includes5UTF16 of family-name E without full-name inference.4p69 ends998 and final twoLF complete1000; p71 starts1000 and is excluded.",
+    "root_reported_method": "A/E/I/F nonexclusive display intersection presence; not unique atomic info/clause percentages. E historical narrated action not current performed A. Last1p65/3p69 fragments F. 2p48 clipped past-history E;5p73 clipped family-name E without full-name inference.",
+    "F_is_boundary_annotation_not_content_function": true,
+    "cut_coordinate_system": "First slice normalized body including join LF to1000UTF16; then calculate text-only presence denominator from its intersections",
+    "semantic_functions": [
+      "A",
+      "E",
+      "I"
+    ],
+    "unassignable_fragment_policy": "F only when clipped fragment is insufficient to identify a function; never complete names or actions beyond cut. F is not included in a content-function total."
+  },
+  "source_hashes": {
+    "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json": "9ebbcb771f98499c3daf0767027c0a0003ad71126f0ea89c7df5a361e809fac2"
+  },
+  "source_hash_method": "SHA256 of UTF8 file text after CRLF -> LF normalization, not OS-specific raw bytes",
+  "records": [
+    {
+      "chapter": 1,
+      "url": "https://ridibooks.com/books/3586025015/view",
+      "title": "재벌집 막내아들 1화 - 리디",
+      "heading": "머슴의 일생 1",
+      "body_sha256": "5be089d3c3e20b839d548a8d99b1464d465af25e67abc80bbf84320174492a71",
+      "body_utf16": 4177,
+      "fresh_body_match": true,
+      "first1000_sha256": "45ebd3a2e28cf0463facb0449e674e2234dc65437a99160024f57298292f4bbd",
+      "fresh_first1000_match": true,
+      "prefix_nonempty_intersections": 28,
+      "prefix_text_utf16_without_join": 946,
+      "prefix_join_utf16": 54,
+      "prefix_intersection_metadata": [
+        {
+          "raw_p_index": 9,
+          "start_utf16": 0,
+          "full_length_utf16": 26,
+          "covered_utf16": 26,
+          "complete": true
+        },
+        {
+          "raw_p_index": 11,
+          "start_utf16": 28,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_p_index": 13,
+          "start_utf16": 81,
+          "full_length_utf16": 59,
+          "covered_utf16": 59,
+          "complete": true
+        },
+        {
+          "raw_p_index": 15,
+          "start_utf16": 142,
+          "full_length_utf16": 37,
+          "covered_utf16": 37,
+          "complete": true
+        },
+        {
+          "raw_p_index": 17,
+          "start_utf16": 181,
+          "full_length_utf16": 47,
+          "covered_utf16": 47,
+          "complete": true
+        },
+        {
+          "raw_p_index": 19,
+          "start_utf16": 230,
+          "full_length_utf16": 3,
+          "covered_utf16": 3,
+          "complete": true
+        },
+        {
+          "raw_p_index": 21,
+          "start_utf16": 235,
+          "full_length_utf16": 14,
+          "covered_utf16": 14,
+          "complete": true
+        },
+        {
+          "raw_p_index": 23,
+          "start_utf16": 251,
+          "full_length_utf16": 18,
+          "covered_utf16": 18,
+          "complete": true
+        },
+        {
+          "raw_p_index": 25,
+          "start_utf16": 271,
+          "full_length_utf16": 17,
+          "covered_utf16": 17,
+          "complete": true
+        },
+        {
+          "raw_p_index": 27,
+          "start_utf16": 290,
+          "full_length_utf16": 39,
+          "covered_utf16": 39,
+          "complete": true
+        },
+        {
+          "raw_p_index": 29,
+          "start_utf16": 331,
+          "full_length_utf16": 72,
+          "covered_utf16": 72,
+          "complete": true
+        },
+        {
+          "raw_p_index": 31,
+          "start_utf16": 405,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_p_index": 33,
+          "start_utf16": 437,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_p_index": 35,
+          "start_utf16": 469,
+          "full_length_utf16": 12,
+          "covered_utf16": 12,
+          "complete": true
+        },
+        {
+          "raw_p_index": 37,
+          "start_utf16": 483,
+          "full_length_utf16": 34,
+          "covered_utf16": 34,
+          "complete": true
+        },
+        {
+          "raw_p_index": 39,
+          "start_utf16": 519,
+          "full_length_utf16": 4,
+          "covered_utf16": 4,
+          "complete": true
+        },
+        {
+          "raw_p_index": 41,
+          "start_utf16": 525,
+          "full_length_utf16": 32,
+          "covered_utf16": 32,
+          "complete": true
+        },
+        {
+          "raw_p_index": 43,
+          "start_utf16": 559,
+          "full_length_utf16": 5,
+          "covered_utf16": 5,
+          "complete": true
+        },
+        {
+          "raw_p_index": 45,
+          "start_utf16": 566,
+          "full_length_utf16": 27,
+          "covered_utf16": 27,
+          "complete": true
+        },
+        {
+          "raw_p_index": 47,
+          "start_utf16": 595,
+          "full_length_utf16": 40,
+          "covered_utf16": 40,
+          "complete": true
+        },
+        {
+          "raw_p_index": 49,
+          "start_utf16": 637,
+          "full_length_utf16": 84,
+          "covered_utf16": 84,
+          "complete": true
+        },
+        {
+          "raw_p_index": 51,
+          "start_utf16": 723,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_p_index": 53,
+          "start_utf16": 755,
+          "full_length_utf16": 35,
+          "covered_utf16": 35,
+          "complete": true
+        },
+        {
+          "raw_p_index": 55,
+          "start_utf16": 792,
+          "full_length_utf16": 26,
+          "covered_utf16": 26,
+          "complete": true
+        },
+        {
+          "raw_p_index": 57,
+          "start_utf16": 820,
+          "full_length_utf16": 15,
+          "covered_utf16": 15,
+          "complete": true
+        },
+        {
+          "raw_p_index": 60,
+          "start_utf16": 837,
+          "full_length_utf16": 49,
+          "covered_utf16": 49,
+          "complete": true
+        },
+        {
+          "raw_p_index": 63,
+          "start_utf16": 888,
+          "full_length_utf16": 103,
+          "covered_utf16": 103,
+          "complete": true
+        },
+        {
+          "raw_p_index": 65,
+          "start_utf16": 993,
+          "full_length_utf16": 88,
+          "covered_utf16": 7,
+          "complete": false
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_p_indexes": [
+            9,
+            11,
+            13,
+            17,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            57
+          ],
+          "display_blocks": 14,
+          "covered_utf16": 454,
+          "display_block_presence_fraction": 0.5,
+          "text_presence_fraction": 0.479915
+        },
+        {
+          "function": "E",
+          "raw_p_indexes": [
+            31,
+            47,
+            53,
+            60,
+            63
+          ],
+          "display_blocks": 5,
+          "covered_utf16": 257,
+          "display_block_presence_fraction": 0.178571,
+          "text_presence_fraction": 0.27167
+        },
+        {
+          "function": "I",
+          "raw_p_indexes": [
+            15,
+            19,
+            21,
+            33,
+            41,
+            43,
+            45,
+            47,
+            49,
+            51,
+            55
+          ],
+          "display_blocks": 11,
+          "covered_utf16": 328,
+          "display_block_presence_fraction": 0.392857,
+          "text_presence_fraction": 0.346723
+        },
+        {
+          "function": "F",
+          "raw_p_indexes": [
+            65
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 7,
+          "display_block_presence_fraction": 0.035714,
+          "text_presence_fraction": 0.0074
+        }
+      ],
+      "first_paragraph_local_information_functions": [
+        "호칭",
+        "현재 통화 지연 질문"
+      ],
+      "first_paragraph_local_information_function_count": 2,
+      "first1000_people_and_setting_summary": "전화·사고 수습 지시·문자 발신. 사고 원인과 언론 침묵은 추론/기대.",
+      "distinct_human_count": null,
+      "atomic_setting_information_count": null,
+      "paragraph_distribution": {
+        "p10": 10,
+        "median": 32,
+        "p90": 65,
+        "max": 103
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 159,
+        "p10": 7,
+        "median": 21,
+        "p90": 46,
+        "max": 88
+      },
+      "linguistic_sentence_count": null,
+      "voice_channels": {
+        "CHARACTER_SPEECH": {
+          "raw_p_indexes": [
+            9,
+            17,
+            23,
+            25,
+            37,
+            91,
+            99,
+            103,
+            124,
+            134,
+            136,
+            140,
+            149,
+            155,
+            159,
+            161,
+            167,
+            177,
+            189,
+            191,
+            193,
+            197,
+            201,
+            211,
+            213,
+            217,
+            227
+          ],
+          "display_p_count": 27,
+          "text_utf16": 640,
+          "paragraph_character_share": 0.161657
+        },
+        "QUOTED_INNER": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "PAST_REPORTED_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_MEMORY_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_BROADCAST": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_PHONE_SPEECH": {
+          "raw_p_indexes": [
+            31,
+            39,
+            89,
+            93,
+            101
+          ],
+          "display_p_count": 5,
+          "text_utf16": 173,
+          "paragraph_character_share": 0.043698
+        },
+        "UI_SYSTEM": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_TEXT_MESSAGE": {
+          "raw_p_indexes": [
+            60,
+            70
+          ],
+          "display_p_count": 2,
+          "text_utf16": 99,
+          "paragraph_character_share": 0.025006
+        },
+        "NONVERBAL": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "REPRESENTED_SILENCE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        }
+      },
+      "voice_paragraph_character_denominator": 3959,
+      "whole_inner_share": null,
+      "central_event": "사적 수습과 매장 통제 업무를 수행하지만 생일의 개인 기대와 관계 비용이 남는다.",
+      "ending_function": "생일의 개인 기대가 좌절되고 배우자에 대한 죄책감이 남음; 직접 위험cliff로 강제 분류하지 않음",
+      "reward_functions": {
+        "visible": [
+          "매장 출입 제한 업무 결과"
+        ],
+        "information": [
+          "현재 요청·관계 위계와 지시"
+        ],
+        "premise": [],
+        "not_fulfilled": [
+          "실제 배상금 지급",
+          "언론 보도 차단"
+        ]
+      },
+      "past_scene": {
+        "kind": "CURRENT_OLD_LIFE_FRAME_WITH_BRIEF_REPEATED_EXPERIENCE_REPORTS",
+        "dramatized_past_scene_present": false,
+        "size": "현재의 직장 생활을 순서대로 진행하며 짧은 반복 경험 보고가 섞임. 독립 과거 실행장면 없음",
+        "old_life_chronological_prologue_not_whole_flashback": true
+      },
+      "macro_blocks_source": {
+        "file": "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json",
+        "path": "episodes[0].blocks",
+        "block_count": 7,
+        "selected_anchors_not_clause_inventory": true
+      },
+      "voice_other_narration_or_unquoted_thought": {
+        "display_p_count": 76,
+        "text_utf16": 3047,
+        "paragraph_character_share": 0.769639,
+        "not_pure_objective_narration": true
+      }
+    },
+    {
+      "chapter": 2,
+      "url": "https://ridibooks.com/books/3586025016/view",
+      "title": "재벌집 막내아들 2화 - 리디",
+      "heading": "머슴의 일생 2",
+      "body_sha256": "0411dfafde46242be9824dccb00dce714b81bc7fe508d1de0952e421ada5b373",
+      "body_utf16": 4417,
+      "fresh_body_match": true,
+      "first1000_sha256": "af29b4c706606cc20cbbbe35287db627b76d9f8d92489302e59aa9de046b4568",
+      "fresh_first1000_match": true,
+      "prefix_nonempty_intersections": 20,
+      "prefix_text_utf16_without_join": 962,
+      "prefix_join_utf16": 38,
+      "prefix_intersection_metadata": [
+        {
+          "raw_p_index": 9,
+          "start_utf16": 0,
+          "full_length_utf16": 5,
+          "covered_utf16": 5,
+          "complete": true
+        },
+        {
+          "raw_p_index": 11,
+          "start_utf16": 7,
+          "full_length_utf16": 32,
+          "covered_utf16": 32,
+          "complete": true
+        },
+        {
+          "raw_p_index": 13,
+          "start_utf16": 41,
+          "full_length_utf16": 83,
+          "covered_utf16": 83,
+          "complete": true
+        },
+        {
+          "raw_p_index": 15,
+          "start_utf16": 126,
+          "full_length_utf16": 70,
+          "covered_utf16": 70,
+          "complete": true
+        },
+        {
+          "raw_p_index": 17,
+          "start_utf16": 198,
+          "full_length_utf16": 86,
+          "covered_utf16": 86,
+          "complete": true
+        },
+        {
+          "raw_p_index": 19,
+          "start_utf16": 286,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_p_index": 22,
+          "start_utf16": 339,
+          "full_length_utf16": 76,
+          "covered_utf16": 76,
+          "complete": true
+        },
+        {
+          "raw_p_index": 24,
+          "start_utf16": 417,
+          "full_length_utf16": 48,
+          "covered_utf16": 48,
+          "complete": true
+        },
+        {
+          "raw_p_index": 26,
+          "start_utf16": 467,
+          "full_length_utf16": 65,
+          "covered_utf16": 65,
+          "complete": true
+        },
+        {
+          "raw_p_index": 28,
+          "start_utf16": 534,
+          "full_length_utf16": 36,
+          "covered_utf16": 36,
+          "complete": true
+        },
+        {
+          "raw_p_index": 30,
+          "start_utf16": 572,
+          "full_length_utf16": 73,
+          "covered_utf16": 73,
+          "complete": true
+        },
+        {
+          "raw_p_index": 32,
+          "start_utf16": 647,
+          "full_length_utf16": 63,
+          "covered_utf16": 63,
+          "complete": true
+        },
+        {
+          "raw_p_index": 34,
+          "start_utf16": 712,
+          "full_length_utf16": 31,
+          "covered_utf16": 31,
+          "complete": true
+        },
+        {
+          "raw_p_index": 36,
+          "start_utf16": 745,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_p_index": 38,
+          "start_utf16": 798,
+          "full_length_utf16": 42,
+          "covered_utf16": 42,
+          "complete": true
+        },
+        {
+          "raw_p_index": 40,
+          "start_utf16": 842,
+          "full_length_utf16": 26,
+          "covered_utf16": 26,
+          "complete": true
+        },
+        {
+          "raw_p_index": 42,
+          "start_utf16": 870,
+          "full_length_utf16": 12,
+          "covered_utf16": 12,
+          "complete": true
+        },
+        {
+          "raw_p_index": 44,
+          "start_utf16": 884,
+          "full_length_utf16": 38,
+          "covered_utf16": 38,
+          "complete": true
+        },
+        {
+          "raw_p_index": 46,
+          "start_utf16": 924,
+          "full_length_utf16": 57,
+          "covered_utf16": 57,
+          "complete": true
+        },
+        {
+          "raw_p_index": 48,
+          "start_utf16": 983,
+          "full_length_utf16": 88,
+          "covered_utf16": 17,
+          "complete": false
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_p_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0
+        },
+        {
+          "function": "E",
+          "raw_p_indexes": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48
+          ],
+          "display_blocks": 20,
+          "covered_utf16": 962,
+          "display_block_presence_fraction": 1.0,
+          "text_presence_fraction": 1.0
+        },
+        {
+          "function": "I",
+          "raw_p_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0
+        },
+        {
+          "function": "F",
+          "raw_p_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0
+        }
+      ],
+      "first_paragraph_local_information_functions": [
+        "기업명"
+      ],
+      "first_paragraph_local_information_function_count": 1,
+      "first1000_people_and_setting_summary": "기업 규모·기원·자산. 현재 사건 진행 구간으로 바꾸지 않음.",
+      "distinct_human_count": null,
+      "atomic_setting_information_count": null,
+      "paragraph_distribution": {
+        "p10": 14,
+        "median": 47,
+        "p90": 83,
+        "max": 108
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 122,
+        "p10": 8,
+        "median": 29,
+        "p90": 66,
+        "max": 100
+      },
+      "linguistic_sentence_count": null,
+      "voice_channels": {
+        "CHARACTER_SPEECH": {
+          "raw_p_indexes": [
+            148,
+            150,
+            152,
+            158,
+            160,
+            162,
+            168,
+            172,
+            174,
+            176,
+            178,
+            180,
+            182,
+            186
+          ],
+          "display_p_count": 14,
+          "text_utf16": 499,
+          "paragraph_character_share": 0.117772
+        },
+        "QUOTED_INNER": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "PAST_REPORTED_SPEECH": {
+          "raw_p_indexes": [
+            100,
+            115
+          ],
+          "display_p_count": 2,
+          "text_utf16": 159,
+          "paragraph_character_share": 0.037527
+        },
+        "MEDIATED_MEMORY_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_BROADCAST": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_PHONE_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_SYSTEM": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_TEXT_MESSAGE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "NONVERBAL": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "REPRESENTED_SILENCE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        }
+      },
+      "voice_paragraph_character_denominator": 4237,
+      "whole_inner_share": null,
+      "central_event": "기업/직무와 개인 채용·노동 과거를 설명한 뒤 현행 비밀 업무를 받아 출국한다.",
+      "ending_function": "출국은 실행되지만 승진은 기대이며 완료 아님",
+      "reward_functions": {
+        "visible": [
+          "서류 수령",
+          "출국 실행"
+        ],
+        "information": [
+          "직무·현행 업무 조건"
+        ],
+        "premise": [],
+        "not_fulfilled": [
+          "승진",
+          "해외 송금 완료"
+        ]
+      },
+      "past_scene": {
+        "kind": "MIXED_PERSONAL_RECRUITMENT_AND_WORK_RETROSPECTIVE",
+        "dramatized_past_scene_present": true,
+        "raw_p_window": [
+          90,
+          139
+        ],
+        "window_nonempty_display_p": 25,
+        "past_reported_speech_raw_p": [
+          100,
+          115
+        ],
+        "current_summary_raw_p": [
+          139
+        ],
+        "return_raw_p_range": [
+          141,
+          148
+        ],
+        "background_report_raw_p_range": [
+          19,
+          71
+        ],
+        "size": "채용·노동 과거의 혼합25표시p 창. p139 현재 근속 요약 포함, 전부 순수 과거문단 아님. p141~148 현재 기대로 돌아와 현행 지시",
+        "external_company_history_is_background_report": true
+      },
+      "macro_blocks_source": {
+        "file": "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json",
+        "path": "episodes[1].blocks",
+        "block_count": 6,
+        "selected_anchors_not_clause_inventory": true
+      },
+      "voice_other_narration_or_unquoted_thought": {
+        "display_p_count": 75,
+        "text_utf16": 3579,
+        "paragraph_character_share": 0.844701,
+        "not_pure_objective_narration": true
+      }
+    },
+    {
+      "chapter": 3,
+      "url": "https://ridibooks.com/books/3586025017/view",
+      "title": "재벌집 막내아들 3화 - 리디",
+      "heading": "머슴의 일생 3",
+      "body_sha256": "5d64ce98a6087664bc814ce4727ef313c592cb75a8863fc56bccf2945411fd30",
+      "body_utf16": 4779,
+      "fresh_body_match": true,
+      "first1000_sha256": "9206239a1a436ffc5f8b033e502b6fba5ce4e70bd62c71408e5609fc63b2e519",
+      "fresh_first1000_match": true,
+      "prefix_nonempty_intersections": 29,
+      "prefix_text_utf16_without_join": 944,
+      "prefix_join_utf16": 56,
+      "prefix_intersection_metadata": [
+        {
+          "raw_p_index": 9,
+          "start_utf16": 0,
+          "full_length_utf16": 68,
+          "covered_utf16": 68,
+          "complete": true
+        },
+        {
+          "raw_p_index": 11,
+          "start_utf16": 70,
+          "full_length_utf16": 22,
+          "covered_utf16": 22,
+          "complete": true
+        },
+        {
+          "raw_p_index": 13,
+          "start_utf16": 94,
+          "full_length_utf16": 13,
+          "covered_utf16": 13,
+          "complete": true
+        },
+        {
+          "raw_p_index": 15,
+          "start_utf16": 109,
+          "full_length_utf16": 9,
+          "covered_utf16": 9,
+          "complete": true
+        },
+        {
+          "raw_p_index": 17,
+          "start_utf16": 120,
+          "full_length_utf16": 33,
+          "covered_utf16": 33,
+          "complete": true
+        },
+        {
+          "raw_p_index": 19,
+          "start_utf16": 155,
+          "full_length_utf16": 23,
+          "covered_utf16": 23,
+          "complete": true
+        },
+        {
+          "raw_p_index": 21,
+          "start_utf16": 180,
+          "full_length_utf16": 23,
+          "covered_utf16": 23,
+          "complete": true
+        },
+        {
+          "raw_p_index": 24,
+          "start_utf16": 205,
+          "full_length_utf16": 28,
+          "covered_utf16": 28,
+          "complete": true
+        },
+        {
+          "raw_p_index": 26,
+          "start_utf16": 235,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_p_index": 28,
+          "start_utf16": 267,
+          "full_length_utf16": 10,
+          "covered_utf16": 10,
+          "complete": true
+        },
+        {
+          "raw_p_index": 30,
+          "start_utf16": 279,
+          "full_length_utf16": 123,
+          "covered_utf16": 123,
+          "complete": true
+        },
+        {
+          "raw_p_index": 32,
+          "start_utf16": 404,
+          "full_length_utf16": 21,
+          "covered_utf16": 21,
+          "complete": true
+        },
+        {
+          "raw_p_index": 34,
+          "start_utf16": 427,
+          "full_length_utf16": 39,
+          "covered_utf16": 39,
+          "complete": true
+        },
+        {
+          "raw_p_index": 36,
+          "start_utf16": 468,
+          "full_length_utf16": 28,
+          "covered_utf16": 28,
+          "complete": true
+        },
+        {
+          "raw_p_index": 38,
+          "start_utf16": 498,
+          "full_length_utf16": 50,
+          "covered_utf16": 50,
+          "complete": true
+        },
+        {
+          "raw_p_index": 40,
+          "start_utf16": 550,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_p_index": 43,
+          "start_utf16": 610,
+          "full_length_utf16": 10,
+          "covered_utf16": 10,
+          "complete": true
+        },
+        {
+          "raw_p_index": 45,
+          "start_utf16": 622,
+          "full_length_utf16": 9,
+          "covered_utf16": 9,
+          "complete": true
+        },
+        {
+          "raw_p_index": 47,
+          "start_utf16": 633,
+          "full_length_utf16": 32,
+          "covered_utf16": 32,
+          "complete": true
+        },
+        {
+          "raw_p_index": 49,
+          "start_utf16": 667,
+          "full_length_utf16": 13,
+          "covered_utf16": 13,
+          "complete": true
+        },
+        {
+          "raw_p_index": 52,
+          "start_utf16": 682,
+          "full_length_utf16": 90,
+          "covered_utf16": 90,
+          "complete": true
+        },
+        {
+          "raw_p_index": 54,
+          "start_utf16": 774,
+          "full_length_utf16": 29,
+          "covered_utf16": 29,
+          "complete": true
+        },
+        {
+          "raw_p_index": 56,
+          "start_utf16": 805,
+          "full_length_utf16": 33,
+          "covered_utf16": 33,
+          "complete": true
+        },
+        {
+          "raw_p_index": 58,
+          "start_utf16": 840,
+          "full_length_utf16": 62,
+          "covered_utf16": 62,
+          "complete": true
+        },
+        {
+          "raw_p_index": 60,
+          "start_utf16": 904,
+          "full_length_utf16": 38,
+          "covered_utf16": 38,
+          "complete": true
+        },
+        {
+          "raw_p_index": 62,
+          "start_utf16": 944,
+          "full_length_utf16": 3,
+          "covered_utf16": 3,
+          "complete": true
+        },
+        {
+          "raw_p_index": 64,
+          "start_utf16": 949,
+          "full_length_utf16": 35,
+          "covered_utf16": 35,
+          "complete": true
+        },
+        {
+          "raw_p_index": 66,
+          "start_utf16": 986,
+          "full_length_utf16": 7,
+          "covered_utf16": 7,
+          "complete": true
+        },
+        {
+          "raw_p_index": 69,
+          "start_utf16": 995,
+          "full_length_utf16": 29,
+          "covered_utf16": 5,
+          "complete": false
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_p_indexes": [
+            9,
+            11,
+            13,
+            21
+          ],
+          "display_blocks": 4,
+          "covered_utf16": 126,
+          "display_block_presence_fraction": 0.137931,
+          "text_presence_fraction": 0.133475
+        },
+        {
+          "function": "E",
+          "raw_p_indexes": [
+            15,
+            17,
+            26,
+            45,
+            47,
+            56,
+            58,
+            60
+          ],
+          "display_blocks": 8,
+          "covered_utf16": 246,
+          "display_block_presence_fraction": 0.275862,
+          "text_presence_fraction": 0.260593
+        },
+        {
+          "function": "I",
+          "raw_p_indexes": [
+            19,
+            24,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            43,
+            47,
+            49,
+            52,
+            54,
+            62,
+            64,
+            66
+          ],
+          "display_blocks": 17,
+          "covered_utf16": 599,
+          "display_block_presence_fraction": 0.586207,
+          "text_presence_fraction": 0.634534
+        },
+        {
+          "function": "F",
+          "raw_p_indexes": [
+            69
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 5,
+          "display_block_presence_fraction": 0.034483,
+          "text_presence_fraction": 0.005297
+        }
+      ],
+      "first_paragraph_local_information_functions": [
+        "16시간 이동 완료",
+        "도착 장소",
+        "예상 밖 사건 예고"
+      ],
+      "first_paragraph_local_information_function_count": 3,
+      "first1000_people_and_setting_summary": "공항 도착 뒤 미래 공식 발표/죽음을 상상. 실제 보도 아님.",
+      "distinct_human_count": null,
+      "atomic_setting_information_count": null,
+      "paragraph_distribution": {
+        "p10": 13,
+        "median": 29,
+        "p90": 65,
+        "max": 143
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 201,
+        "p10": 7,
+        "median": 18,
+        "p90": 42,
+        "max": 82
+      },
+      "linguistic_sentence_count": null,
+      "voice_channels": {
+        "CHARACTER_SPEECH": {
+          "raw_p_indexes": [
+            11,
+            71,
+            89,
+            95,
+            97,
+            99,
+            103,
+            109,
+            113,
+            115,
+            119,
+            121,
+            123,
+            125,
+            137,
+            139,
+            143,
+            145,
+            147,
+            149,
+            153,
+            155,
+            157,
+            159,
+            161,
+            165,
+            203,
+            208,
+            214,
+            241,
+            243,
+            245,
+            249,
+            251,
+            253,
+            261
+          ],
+          "display_p_count": 36,
+          "text_utf16": 1623,
+          "paragraph_character_share": 0.358199
+        },
+        "QUOTED_INNER": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "PAST_REPORTED_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_MEMORY_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_BROADCAST": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_PHONE_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_SYSTEM": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_TEXT_MESSAGE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "NONVERBAL": {
+          "raw_p_indexes": [
+            263
+          ],
+          "display_p_count": 1,
+          "text_utf16": 3,
+          "paragraph_character_share": 0.000662
+        },
+        "REPRESENTED_SILENCE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        }
+      },
+      "voice_paragraph_character_denominator": 4531,
+      "whole_inner_share": null,
+      "central_event": "공항·호텔·은행·물가의 현재 동선에서 탈출과 협상이 막히고 강제 업무 뒤 총격을 맞는다.",
+      "ending_function": "총격의 즉각적 위험과 다음 상태 미해결",
+      "reward_functions": {
+        "visible": [],
+        "information": [
+          "위협·강요받는 업무 조건"
+        ],
+        "premise": [],
+        "coerced_not_free_reward": [
+          "은행 절차와 카드"
+        ],
+        "not_fulfilled": [
+          "CCTV 수사 성공",
+          "가족 보상",
+          "도피안 실행"
+        ]
+      },
+      "past_scene": {
+        "kind": "CURRENT_OLD_LIFE_FRAME_WITH_BRIEF_PAST_REPORTS",
+        "dramatized_past_scene_present": false,
+        "examples_raw_p": [
+          129,
+          131,
+          179,
+          181,
+          183,
+          185,
+          187,
+          189,
+          191
+        ],
+        "size": "상사 관계·결혼 과거는 현재 위협/협상 안 짧은 보고이며 독립 과거 실행장면 없음",
+        "old_life_chronological_prologue_not_whole_flashback": true,
+        "imagined_media_raw_p_range": [
+          30,
+          40
+        ],
+        "imagined_media_not_actual_announcement": true
+      },
+      "macro_blocks_source": {
+        "file": "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json",
+        "path": "episodes[2].blocks",
+        "block_count": 7,
+        "selected_anchors_not_clause_inventory": true
+      },
+      "voice_other_narration_or_unquoted_thought": {
+        "display_p_count": 88,
+        "text_utf16": 2905,
+        "paragraph_character_share": 0.641139,
+        "not_pure_objective_narration": true
+      }
+    },
+    {
+      "chapter": 4,
+      "url": "https://ridibooks.com/books/3586025018/view",
+      "title": "재벌집 막내아들 4화 - 리디",
+      "heading": "재벌 총수의 생일 1",
+      "body_sha256": "3e715515187282cb9dcc91541eee774ee66b78a96388f8bfa923a3d24ca51919",
+      "body_utf16": 5627,
+      "fresh_body_match": true,
+      "first1000_sha256": "85cdacb8a0045f3e2e2f235210513cecf7cfcdf51e50124649accc3c3581d7d9",
+      "fresh_first1000_match": true,
+      "prefix_nonempty_intersections": 31,
+      "prefix_text_utf16_without_join": 938,
+      "prefix_join_utf16": 62,
+      "prefix_intersection_metadata": [
+        {
+          "raw_p_index": 9,
+          "start_utf16": 0,
+          "full_length_utf16": 5,
+          "covered_utf16": 5,
+          "complete": true
+        },
+        {
+          "raw_p_index": 11,
+          "start_utf16": 7,
+          "full_length_utf16": 9,
+          "covered_utf16": 9,
+          "complete": true
+        },
+        {
+          "raw_p_index": 13,
+          "start_utf16": 18,
+          "full_length_utf16": 31,
+          "covered_utf16": 31,
+          "complete": true
+        },
+        {
+          "raw_p_index": 15,
+          "start_utf16": 51,
+          "full_length_utf16": 43,
+          "covered_utf16": 43,
+          "complete": true
+        },
+        {
+          "raw_p_index": 17,
+          "start_utf16": 96,
+          "full_length_utf16": 22,
+          "covered_utf16": 22,
+          "complete": true
+        },
+        {
+          "raw_p_index": 19,
+          "start_utf16": 120,
+          "full_length_utf16": 25,
+          "covered_utf16": 25,
+          "complete": true
+        },
+        {
+          "raw_p_index": 21,
+          "start_utf16": 147,
+          "full_length_utf16": 9,
+          "covered_utf16": 9,
+          "complete": true
+        },
+        {
+          "raw_p_index": 23,
+          "start_utf16": 158,
+          "full_length_utf16": 36,
+          "covered_utf16": 36,
+          "complete": true
+        },
+        {
+          "raw_p_index": 25,
+          "start_utf16": 196,
+          "full_length_utf16": 47,
+          "covered_utf16": 47,
+          "complete": true
+        },
+        {
+          "raw_p_index": 27,
+          "start_utf16": 245,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_p_index": 29,
+          "start_utf16": 305,
+          "full_length_utf16": 41,
+          "covered_utf16": 41,
+          "complete": true
+        },
+        {
+          "raw_p_index": 31,
+          "start_utf16": 348,
+          "full_length_utf16": 32,
+          "covered_utf16": 32,
+          "complete": true
+        },
+        {
+          "raw_p_index": 33,
+          "start_utf16": 382,
+          "full_length_utf16": 54,
+          "covered_utf16": 54,
+          "complete": true
+        },
+        {
+          "raw_p_index": 35,
+          "start_utf16": 438,
+          "full_length_utf16": 40,
+          "covered_utf16": 40,
+          "complete": true
+        },
+        {
+          "raw_p_index": 37,
+          "start_utf16": 480,
+          "full_length_utf16": 45,
+          "covered_utf16": 45,
+          "complete": true
+        },
+        {
+          "raw_p_index": 39,
+          "start_utf16": 527,
+          "full_length_utf16": 31,
+          "covered_utf16": 31,
+          "complete": true
+        },
+        {
+          "raw_p_index": 41,
+          "start_utf16": 560,
+          "full_length_utf16": 42,
+          "covered_utf16": 42,
+          "complete": true
+        },
+        {
+          "raw_p_index": 43,
+          "start_utf16": 604,
+          "full_length_utf16": 13,
+          "covered_utf16": 13,
+          "complete": true
+        },
+        {
+          "raw_p_index": 45,
+          "start_utf16": 619,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_p_index": 47,
+          "start_utf16": 672,
+          "full_length_utf16": 22,
+          "covered_utf16": 22,
+          "complete": true
+        },
+        {
+          "raw_p_index": 49,
+          "start_utf16": 696,
+          "full_length_utf16": 6,
+          "covered_utf16": 6,
+          "complete": true
+        },
+        {
+          "raw_p_index": 51,
+          "start_utf16": 704,
+          "full_length_utf16": 53,
+          "covered_utf16": 53,
+          "complete": true
+        },
+        {
+          "raw_p_index": 53,
+          "start_utf16": 759,
+          "full_length_utf16": 17,
+          "covered_utf16": 17,
+          "complete": true
+        },
+        {
+          "raw_p_index": 55,
+          "start_utf16": 778,
+          "full_length_utf16": 4,
+          "covered_utf16": 4,
+          "complete": true
+        },
+        {
+          "raw_p_index": 57,
+          "start_utf16": 784,
+          "full_length_utf16": 11,
+          "covered_utf16": 11,
+          "complete": true
+        },
+        {
+          "raw_p_index": 59,
+          "start_utf16": 797,
+          "full_length_utf16": 29,
+          "covered_utf16": 29,
+          "complete": true
+        },
+        {
+          "raw_p_index": 61,
+          "start_utf16": 828,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_p_index": 63,
+          "start_utf16": 888,
+          "full_length_utf16": 14,
+          "covered_utf16": 14,
+          "complete": true
+        },
+        {
+          "raw_p_index": 65,
+          "start_utf16": 904,
+          "full_length_utf16": 46,
+          "covered_utf16": 46,
+          "complete": true
+        },
+        {
+          "raw_p_index": 67,
+          "start_utf16": 952,
+          "full_length_utf16": 27,
+          "covered_utf16": 27,
+          "complete": true
+        },
+        {
+          "raw_p_index": 69,
+          "start_utf16": 981,
+          "full_length_utf16": 17,
+          "covered_utf16": 17,
+          "complete": true
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_p_indexes": [
+            9,
+            23,
+            25,
+            27,
+            29,
+            31,
+            35,
+            37,
+            39,
+            47,
+            49,
+            51,
+            59,
+            61,
+            63,
+            65
+          ],
+          "display_blocks": 16,
+          "covered_utf16": 563,
+          "display_block_presence_fraction": 0.516129,
+          "text_presence_fraction": 0.600213
+        },
+        {
+          "function": "E",
+          "raw_p_indexes": [
+            11,
+            13,
+            15,
+            21,
+            33,
+            41,
+            43,
+            53,
+            55,
+            69
+          ],
+          "display_blocks": 10,
+          "covered_utf16": 239,
+          "display_block_presence_fraction": 0.322581,
+          "text_presence_fraction": 0.254797
+        },
+        {
+          "function": "I",
+          "raw_p_indexes": [
+            15,
+            17,
+            19,
+            45,
+            57,
+            67
+          ],
+          "display_blocks": 6,
+          "covered_utf16": 179,
+          "display_block_presence_fraction": 0.193548,
+          "text_presence_fraction": 0.190832
+        },
+        {
+          "function": "F",
+          "raw_p_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0
+        }
+      ],
+      "first_paragraph_local_information_functions": [
+        "현재 깨어남 발화"
+      ],
+      "first_paragraph_local_information_function_count": 1,
+      "first1000_people_and_setting_summary": "아침 이동·신문 날짜·호칭/나이. p69 끝998 뒤 합류 구분자2가1000자 경계.",
+      "distinct_human_count": null,
+      "atomic_setting_information_count": null,
+      "paragraph_distribution": {
+        "p10": 9,
+        "median": 31,
+        "p90": 71,
+        "max": 114
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 172,
+        "p10": 6,
+        "median": 27,
+        "p90": 64,
+        "max": 108
+      },
+      "linguistic_sentence_count": null,
+      "voice_channels": {
+        "CHARACTER_SPEECH": {
+          "raw_p_indexes": [
+            49,
+            59,
+            61,
+            63,
+            77,
+            79,
+            148,
+            150,
+            152,
+            158,
+            160,
+            178,
+            182,
+            200,
+            230,
+            244,
+            246,
+            253,
+            259,
+            261,
+            277,
+            281
+          ],
+          "display_p_count": 22,
+          "text_utf16": 492,
+          "paragraph_character_share": 0.09198
+        },
+        "QUOTED_INNER": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "PAST_REPORTED_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_MEMORY_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_BROADCAST": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_PHONE_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_SYSTEM": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_TEXT_MESSAGE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "NONVERBAL": {
+          "raw_p_indexes": [
+            9
+          ],
+          "display_p_count": 1,
+          "text_utf16": 5,
+          "paragraph_character_share": 0.000935
+        },
+        "REPRESENTED_SILENCE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        }
+      },
+      "voice_paragraph_character_denominator": 5349,
+      "whole_inner_share": null,
+      "central_event": "전제 변화 이후3개월의 아침·가족·학교 생활과 행사 준비를 진행하며 강제와 그 후행 보고가 나온다.",
+      "ending_function": "가족 행사 방문 약속/출발과 기대이며 실제 총수 대면/도착 완료 아님",
+      "reward_functions": {
+        "visible": [],
+        "information": [
+          "새 가족과 현재 상황"
+        ],
+        "premise": [
+          "새 신체/가족/옛 지식은 전제 변화에 따른 상태"
+        ],
+        "not_fulfilled": [
+          "학교 인맥 확보",
+          "실제 총수 대면",
+          "형의 영구 복종"
+        ]
+      },
+      "past_scene": {
+        "kind": "CURRENT_POST_PREMISE_FRAME_WITH_DREAM_PREMISE_AND_OLD_KNOWLEDGE_REPORTS",
+        "dramatized_past_scene_present": false,
+        "dream_report_raw_p_range": [
+          9,
+          19
+        ],
+        "current_morning_raw_p_range": [
+          21,
+          47
+        ],
+        "premise_report_raw_p_range": [
+          85,
+          95
+        ],
+        "mother_background_raw_p_range": [
+          112,
+          128
+        ],
+        "old_information_and_future_memory_raw_p_range": [
+          130,
+          146
+        ],
+        "awakening_recall_raw_p": [
+          163
+        ],
+        "current_treatment_raw_p_range": [
+          253,
+          273
+        ],
+        "omitted_prior_threat_report_raw_p": [
+          267
+        ],
+        "size": "깨어난 현재에서 반복꿈·3개월 전 전제변화·가족/옛 지식·누락 행동을 짧게 보고. 죽음을 재연하는 별도 과거장면 없음",
+        "omitted_action_report_is_not_complete_action_scene": true,
+        "temporary_response_not_permanent_submission": true
+      },
+      "macro_blocks_source": {
+        "file": "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json",
+        "path": "episodes[3].blocks",
+        "block_count": 9,
+        "selected_anchors_not_clause_inventory": true
+      },
+      "voice_other_narration_or_unquoted_thought": {
+        "display_p_count": 117,
+        "text_utf16": 4852,
+        "paragraph_character_share": 0.907085,
+        "not_pure_objective_narration": true
+      }
+    },
+    {
+      "chapter": 5,
+      "url": "https://ridibooks.com/books/3586025019/view",
+      "title": "재벌집 막내아들 5화 - 리디",
+      "heading": "재벌 총수의 생일 2",
+      "body_sha256": "5ded696801cddc0a7b44befe20b63255a7556528e5cb238feb9001daecfe5220",
+      "body_utf16": 5031,
+      "fresh_body_match": true,
+      "first1000_sha256": "3c659a1e7514fafd3a3d37ebe7097264cbc22458491dbfd33057418a6168ad1c",
+      "fresh_first1000_match": true,
+      "prefix_nonempty_intersections": 31,
+      "prefix_text_utf16_without_join": 940,
+      "prefix_join_utf16": 60,
+      "prefix_intersection_metadata": [
+        {
+          "raw_p_index": 9,
+          "start_utf16": 0,
+          "full_length_utf16": 38,
+          "covered_utf16": 38,
+          "complete": true
+        },
+        {
+          "raw_p_index": 11,
+          "start_utf16": 40,
+          "full_length_utf16": 44,
+          "covered_utf16": 44,
+          "complete": true
+        },
+        {
+          "raw_p_index": 13,
+          "start_utf16": 86,
+          "full_length_utf16": 28,
+          "covered_utf16": 28,
+          "complete": true
+        },
+        {
+          "raw_p_index": 15,
+          "start_utf16": 116,
+          "full_length_utf16": 25,
+          "covered_utf16": 25,
+          "complete": true
+        },
+        {
+          "raw_p_index": 18,
+          "start_utf16": 143,
+          "full_length_utf16": 11,
+          "covered_utf16": 11,
+          "complete": true
+        },
+        {
+          "raw_p_index": 20,
+          "start_utf16": 156,
+          "full_length_utf16": 8,
+          "covered_utf16": 8,
+          "complete": true
+        },
+        {
+          "raw_p_index": 22,
+          "start_utf16": 166,
+          "full_length_utf16": 12,
+          "covered_utf16": 12,
+          "complete": true
+        },
+        {
+          "raw_p_index": 24,
+          "start_utf16": 180,
+          "full_length_utf16": 9,
+          "covered_utf16": 9,
+          "complete": true
+        },
+        {
+          "raw_p_index": 26,
+          "start_utf16": 191,
+          "full_length_utf16": 18,
+          "covered_utf16": 18,
+          "complete": true
+        },
+        {
+          "raw_p_index": 28,
+          "start_utf16": 211,
+          "full_length_utf16": 36,
+          "covered_utf16": 36,
+          "complete": true
+        },
+        {
+          "raw_p_index": 30,
+          "start_utf16": 249,
+          "full_length_utf16": 39,
+          "covered_utf16": 39,
+          "complete": true
+        },
+        {
+          "raw_p_index": 32,
+          "start_utf16": 290,
+          "full_length_utf16": 72,
+          "covered_utf16": 72,
+          "complete": true
+        },
+        {
+          "raw_p_index": 35,
+          "start_utf16": 364,
+          "full_length_utf16": 75,
+          "covered_utf16": 75,
+          "complete": true
+        },
+        {
+          "raw_p_index": 37,
+          "start_utf16": 441,
+          "full_length_utf16": 27,
+          "covered_utf16": 27,
+          "complete": true
+        },
+        {
+          "raw_p_index": 39,
+          "start_utf16": 470,
+          "full_length_utf16": 24,
+          "covered_utf16": 24,
+          "complete": true
+        },
+        {
+          "raw_p_index": 41,
+          "start_utf16": 496,
+          "full_length_utf16": 74,
+          "covered_utf16": 74,
+          "complete": true
+        },
+        {
+          "raw_p_index": 43,
+          "start_utf16": 572,
+          "full_length_utf16": 81,
+          "covered_utf16": 81,
+          "complete": true
+        },
+        {
+          "raw_p_index": 45,
+          "start_utf16": 655,
+          "full_length_utf16": 42,
+          "covered_utf16": 42,
+          "complete": true
+        },
+        {
+          "raw_p_index": 48,
+          "start_utf16": 699,
+          "full_length_utf16": 24,
+          "covered_utf16": 24,
+          "complete": true
+        },
+        {
+          "raw_p_index": 50,
+          "start_utf16": 725,
+          "full_length_utf16": 15,
+          "covered_utf16": 15,
+          "complete": true
+        },
+        {
+          "raw_p_index": 52,
+          "start_utf16": 742,
+          "full_length_utf16": 21,
+          "covered_utf16": 21,
+          "complete": true
+        },
+        {
+          "raw_p_index": 54,
+          "start_utf16": 765,
+          "full_length_utf16": 10,
+          "covered_utf16": 10,
+          "complete": true
+        },
+        {
+          "raw_p_index": 56,
+          "start_utf16": 777,
+          "full_length_utf16": 33,
+          "covered_utf16": 33,
+          "complete": true
+        },
+        {
+          "raw_p_index": 58,
+          "start_utf16": 812,
+          "full_length_utf16": 36,
+          "covered_utf16": 36,
+          "complete": true
+        },
+        {
+          "raw_p_index": 60,
+          "start_utf16": 850,
+          "full_length_utf16": 24,
+          "covered_utf16": 24,
+          "complete": true
+        },
+        {
+          "raw_p_index": 62,
+          "start_utf16": 876,
+          "full_length_utf16": 11,
+          "covered_utf16": 11,
+          "complete": true
+        },
+        {
+          "raw_p_index": 64,
+          "start_utf16": 889,
+          "full_length_utf16": 29,
+          "covered_utf16": 29,
+          "complete": true
+        },
+        {
+          "raw_p_index": 66,
+          "start_utf16": 920,
+          "full_length_utf16": 55,
+          "covered_utf16": 55,
+          "complete": true
+        },
+        {
+          "raw_p_index": 69,
+          "start_utf16": 977,
+          "full_length_utf16": 7,
+          "covered_utf16": 7,
+          "complete": true
+        },
+        {
+          "raw_p_index": 71,
+          "start_utf16": 986,
+          "full_length_utf16": 7,
+          "covered_utf16": 7,
+          "complete": true
+        },
+        {
+          "raw_p_index": 73,
+          "start_utf16": 995,
+          "full_length_utf16": 7,
+          "covered_utf16": 5,
+          "complete": false
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_p_indexes": [
+            9,
+            13,
+            32,
+            35,
+            39,
+            41,
+            43,
+            48,
+            50,
+            60
+          ],
+          "display_blocks": 10,
+          "covered_utf16": 455,
+          "display_block_presence_fraction": 0.322581,
+          "text_presence_fraction": 0.484043
+        },
+        {
+          "function": "E",
+          "raw_p_indexes": [
+            18,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            37,
+            52,
+            64,
+            69,
+            71,
+            73
+          ],
+          "display_blocks": 13,
+          "covered_utf16": 229,
+          "display_block_presence_fraction": 0.419355,
+          "text_presence_fraction": 0.243617
+        },
+        {
+          "function": "I",
+          "raw_p_indexes": [
+            11,
+            15,
+            35,
+            43,
+            45,
+            54,
+            56,
+            58,
+            62,
+            66
+          ],
+          "display_blocks": 10,
+          "covered_utf16": 412,
+          "display_block_presence_fraction": 0.322581,
+          "text_presence_fraction": 0.438298
+        },
+        {
+          "function": "F",
+          "raw_p_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0
+        }
+      ],
+      "first_paragraph_local_information_functions": [
+        "현재 차내 위치",
+        "형 동승",
+        "저택 도착까지 조용한 태도"
+      ],
+      "first_paragraph_local_information_function_count": 3,
+      "first1000_people_and_setting_summary": "주택 규모·입장·거실 가족 호칭; 뒤의 갈등 대사까지 첫1000에 합치지 않음.",
+      "distinct_human_count": null,
+      "atomic_setting_information_count": null,
+      "paragraph_distribution": {
+        "p10": 10,
+        "median": 29,
+        "p90": 57,
+        "max": 104
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 202,
+        "p10": 6,
+        "median": 21,
+        "p90": 44,
+        "max": 81
+      },
+      "linguistic_sentence_count": null,
+      "voice_channels": {
+        "CHARACTER_SPEECH": {
+          "raw_p_indexes": [
+            81,
+            85,
+            95,
+            99,
+            103,
+            105,
+            113,
+            157,
+            173,
+            190,
+            219,
+            221,
+            223,
+            233,
+            239,
+            241,
+            243,
+            247,
+            258,
+            260,
+            262,
+            272,
+            274,
+            276,
+            278,
+            280,
+            286,
+            294,
+            298,
+            308,
+            312
+          ],
+          "display_p_count": 31,
+          "text_utf16": 1031,
+          "paragraph_character_share": 0.21774
+        },
+        "QUOTED_INNER": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "PAST_REPORTED_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_MEMORY_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_BROADCAST": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "MEDIATED_PHONE_SPEECH": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_SYSTEM": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "UI_TEXT_MESSAGE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        },
+        "NONVERBAL": {
+          "raw_p_indexes": [
+            91
+          ],
+          "display_p_count": 1,
+          "text_utf16": 8,
+          "paragraph_character_share": 0.00169
+        },
+        "REPRESENTED_SILENCE": {
+          "raw_p_indexes": [],
+          "display_p_count": 0,
+          "text_utf16": 0,
+          "paragraph_character_share": 0.0
+        }
+      },
+      "voice_paragraph_character_denominator": 4735,
+      "whole_inner_share": null,
+      "central_event": "저택에 들어가 가족 위계를 대면한 뒤 총수의 환대·장난감 시험과 성적 조건의 미래 약속을 얻는다.",
+      "ending_function": "현재 환대·손잡기와 조건약속, 실물 말 인도·성적 달성 아님",
+      "reward_functions": {
+        "visible": [
+          "환대",
+          "관계 접촉",
+          "조건이 붙은 약속 획득"
+        ],
+        "information": [
+          "시험·성적·위험 조건"
+        ],
+        "premise": [],
+        "not_fulfilled": [
+          "실물 말 인도",
+          "성적 달성",
+          "상속/기업 지배권"
+        ]
+      },
+      "past_scene": {
+        "kind": "CURRENT_FRAME_WITH_BRIEF_OLD_LIFE_REPORTS_AND_CONDITIONAL_PROMISE",
+        "dramatized_past_scene_present": false,
+        "examples_raw_p": [
+          35,
+          87,
+          89,
+          266,
+          302,
+          304,
+          306
+        ],
+        "size": "이전 주택·옛 노년 인식·죽음 감정·기존 아이 성격을 현재 판단에 끼우는 보고. 독립 과거 실행장면 없음",
+        "conditional_reward_not_fulfillment": true
+      },
+      "macro_blocks_source": {
+        "file": "research/G11_RIDI_BUSINESS_FIRST_FIVE_COMPONENTS_2026_10_01.json",
+        "path": "episodes[4].blocks",
+        "block_count": 7,
+        "selected_anchors_not_clause_inventory": true
+      },
+      "voice_other_narration_or_unquoted_thought": {
+        "display_p_count": 117,
+        "text_utf16": 3696,
+        "paragraph_character_share": 0.78057,
+        "not_pure_objective_narration": true
+      }
+    }
+  ],
+  "minimum_scene_samples": [
+    {
+      "kind": "PROFESSIONAL_WORK",
+      "chapter": 1,
+      "url": "https://ridibooks.com/books/3586025015/view",
+      "raw_p": [
+        147,
+        181
+      ],
+      "blocks": 18,
+      "text_utf16": 766,
+      "region_sha256": "cb9c343872417674695a2d67f1623b52a1bdc19890e64689ad81fa9063a2c5a7",
+      "observed_function_stages": [
+        "입장확인 질문",
+        "총수 연결을 내세우는 허위 위압",
+        "상대 항의",
+        "시간 제한 제시",
+        "현장 출입 제한 수락"
+      ],
+      "function_stages_count": 5,
+      "local_proxy_stages_per_1000_utf16": 6.527415,
+      "limits": "출입 제한은 성취; 배상 지급·기사 삭제까지 관측 아님"
+    },
+    {
+      "kind": "DIALOGUE",
+      "chapter": 5,
+      "url": "https://ridibooks.com/books/3586025019/view",
+      "raw_p": [
+        219,
+        286
+      ],
+      "blocks": 34,
+      "text_utf16": 1022,
+      "region_sha256": "2418406a10b364c73f284c586be38500e71995d24918a09a3723cc7a88a80289",
+      "observed_function_stages": [
+        "진짜 물건 요구",
+        "상대 의미 확인",
+        "실물 산업 연결 답변",
+        "위험 고지",
+        "훈련·학업 조건",
+        "1년 성적과 생일 선물 약속"
+      ],
+      "function_stages_count": 6,
+      "local_proxy_stages_per_1000_utf16": 5.870841,
+      "limits": "현재 협상·조건 획득; 실물 말 인도·성적 달성 아님"
+    },
+    {
+      "kind": "PHYSICAL_MOVEMENT",
+      "chapter": 3,
+      "url": "https://ridibooks.com/books/3586025017/view",
+      "raw_p": [
+        69,
+        101
+      ],
+      "blocks": 17,
+      "text_utf16": 565,
+      "region_sha256": "4d8dc9ca635acc291e2c3da63536a50c49e3747ab16a718a978a23c06c46f599",
+      "observed_function_stages": [
+        "호텔 방 현위치",
+        "지갑 탈출 구상",
+        "문 방향 이동",
+        "가로막힘",
+        "휴식 명목 제지"
+      ],
+      "function_stages_count": 5,
+      "local_proxy_stages_per_1000_utf16": 8.849558,
+      "limits": "도피 실패; 의도한 이동을 완료 동선으로 계수하지 않음"
+    },
+    {
+      "kind": "EXPOSITION",
+      "chapter": 2,
+      "url": "https://ridibooks.com/books/3586025016/view",
+      "raw_p": [
+        32,
+        54
+      ],
+      "blocks": 12,
+      "text_utf16": 530,
+      "region_sha256": "2db72696076262b6b35a5cb5227aa9ed2e0ce5a4585e27d1a54a8e57f4ad908c",
+      "observed_function_stages": [
+        "자산 처분 용어",
+        "정의",
+        "일반 대상",
+        "창고 선택",
+        "기록 공백",
+        "재고 축적 설명"
+      ],
+      "function_stages_count": 6,
+      "local_proxy_stages_per_1000_utf16": 11.320755,
+      "limits": "소설 내부 기업사 배경; 검증된 경제사 증거 아님"
+    }
+  ],
+  "minimum_comparison_fields": [
+    {
+      "item": "첫 문단 새 정보",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "첫p 국소 정보 기능2/1/3/1/3; 질문/의도/예고 포함, 원자 사실 수 아님",
+      "evidence_path": "records[].first_paragraph_local_information_functions"
+    },
+    {
+      "item": "첫1000 사건·인물·설정",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "정확1000의 모든 비공백 표시p 교집합 다중A/E/I/F; 인물·설정은 기존 요약, 고유 인원/원자설정null",
+      "evidence_path": "records[].first1000_all_display_blocks_coded"
+    },
+    {
+      "item": "문장·문단 길이 분포",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "표시p와 자동 경계 조각 분포; 문법문장·작가문단 인증 아님",
+      "evidence_path": "records[].paragraph_distribution / automatic_sentence_boundary_distribution"
+    },
+    {
+      "item": "기능별 직접음성·서술",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "현재/원격전화/과거보고/SMS/비언어 분리; 나머지에는 비인용 사고 혼합",
+      "evidence_path": "records[].voice_channels"
+    },
+    {
+      "item": "행동·설명·내면 배열",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "615표시p/36큰 구간의 선정 흐름; 절별 전수 비율 아님",
+      "evidence_path": "source.episodes[].blocks"
+    },
+    {
+      "item": "용어 최초 투입",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "23선정 문자열/121겹침 일치의 코호트 최초; 전수·별칭·고유인원 아님",
+      "evidence_path": "source.terms"
+    },
+    {
+      "item": "용어의 문맥·행동 이해",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "2화p32~54 자산용어→정의→창고/재고 설명; 현실경제사 인증 아님",
+      "evidence_path": "minimum_scene_samples[3] / source.episodes[1].expression"
+    },
+    {
+      "item": "공간 기준·이동·원인",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "3화p69~101 호텔 위치→탈출구상→이동→제지; 구상은 도피 성공 아님",
+      "evidence_path": "minimum_scene_samples[2]"
+    },
+    {
+      "item": "전투·직업 정보 밀도",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "1화p147~181 업무18p/766에서 선정5기능의 대용치; 실제 전문성/공로/원자정보 밀도 아님",
+      "evidence_path": "minimum_scene_samples[0]"
+    },
+    {
+      "item": "말미 기능",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "굴욕/출발/총격/행사기대/조건약속을 구별",
+      "evidence_path": "records[].ending_function"
+    },
+    {
+      "item": "표현 조건",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "계급/성별 평가·기업목록·금액·애정동기 가설은 문맥에 두고 AI/번역체 판별하지 않음",
+      "evidence_path": "source.episodes[].expression"
+    },
+    {
+      "item": "중심 사건",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "각 회차 현재 흐름과 기대/강요/계획을 구별",
+      "evidence_path": "records[].central_event"
+    },
+    {
+      "item": "과거 장면 존재·크기·복귀",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "2화혼합25p·현행복귀,1/3순차옛삶도입 및4/5짧은보고; 새전체재독의해석",
+      "evidence_path": "records[].past_scene"
+    },
+    {
+      "item": "성취·정보·전제 보상",
+      "status": "OBSERVED_WITH_EXPLICIT_UNIT_AND_SEMANTIC_LIMITS",
+      "scope": "업무 결과·조건획득/강요·환생전제/미이행 약속 분리",
+      "evidence_path": "records[].reward_functions"
+    }
+  ],
+  "selected_terms": [
+    {
+      "id": "BT01",
+      "literal": "윤현우",
+      "count": 5,
+      "first": [
+        1,
+        60,
+        6
+      ]
+    },
+    {
+      "id": "BT02",
+      "literal": "순양그룹",
+      "count": 32,
+      "first": [
+        1,
+        60,
+        1
+      ]
+    },
+    {
+      "id": "BT03",
+      "literal": "논현동",
+      "count": 5,
+      "first": [
+        1,
+        31,
+        1
+      ]
+    },
+    {
+      "id": "BT04",
+      "literal": "미래전략기획본부",
+      "count": 4,
+      "first": [
+        2,
+        75,
+        40
+      ]
+    },
+    {
+      "id": "BT05",
+      "literal": "비자금",
+      "count": 1,
+      "first": [
+        2,
+        154,
+        0
+      ]
+    },
+    {
+      "id": "BT06",
+      "literal": "몰도바",
+      "count": 10,
+      "first": [
+        2,
+        152,
+        1
+      ]
+    },
+    {
+      "id": "BT07",
+      "literal": "버진아일랜드",
+      "count": 1,
+      "first": [
+        2,
+        176,
+        29
+      ]
+    },
+    {
+      "id": "BT08",
+      "literal": "진양철",
+      "count": 20,
+      "first": [
+        2,
+        22,
+        27
+      ]
+    },
+    {
+      "id": "BT09",
+      "literal": "진순철",
+      "count": 6,
+      "first": [
+        2,
+        22,
+        22
+      ]
+    },
+    {
+      "id": "BT10",
+      "literal": "적산",
+      "count": 5,
+      "first": [
+        2,
+        32,
+        16
+      ]
+    },
+    {
+      "id": "BT11",
+      "literal": "불하",
+      "count": 5,
+      "first": [
+        2,
+        32,
+        23
+      ]
+    },
+    {
+      "id": "BT12",
+      "literal": "조선미곡창고",
+      "count": 2,
+      "first": [
+        2,
+        42,
+        3
+      ]
+    },
+    {
+      "id": "BT13",
+      "literal": "진영기",
+      "count": 5,
+      "first": [
+        2,
+        73,
+        47
+      ]
+    },
+    {
+      "id": "BT14",
+      "literal": "진영준",
+      "count": 1,
+      "first": [
+        2,
+        75,
+        16
+      ]
+    },
+    {
+      "id": "BT15",
+      "literal": "키시너우",
+      "count": 1,
+      "first": [
+        3,
+        9,
+        33
+      ]
+    },
+    {
+      "id": "BT16",
+      "literal": "마스터 카드",
+      "count": 1,
+      "first": [
+        3,
+        212,
+        73
+      ]
+    },
+    {
+      "id": "BT17",
+      "literal": "CCTV",
+      "count": 1,
+      "first": [
+        3,
+        212,
+        30
+      ]
+    },
+    {
+      "id": "BT18",
+      "literal": "진도준",
+      "count": 4,
+      "first": [
+        4,
+        55,
+        0
+      ]
+    },
+    {
+      "id": "BT19",
+      "literal": "진윤기",
+      "count": 2,
+      "first": [
+        4,
+        116,
+        47
+      ]
+    },
+    {
+      "id": "BT20",
+      "literal": "평창동",
+      "count": 4,
+      "first": [
+        4,
+        281,
+        26
+      ]
+    },
+    {
+      "id": "BT21",
+      "literal": "진상준",
+      "count": 1,
+      "first": [
+        4,
+        100,
+        21
+      ]
+    },
+    {
+      "id": "BT22",
+      "literal": "철면",
+      "count": 4,
+      "first": [
+        5,
+        122,
+        0
+      ]
+    },
+    {
+      "id": "BT23",
+      "literal": "VVIP",
+      "count": 1,
+      "first": [
+        1,
+        167,
+        33
+      ]
+    }
+  ],
+  "selected_literal_count": 23,
+  "selected_literal_match_count": 121,
+  "local_discrepancy_candidates": [
+    {
+      "status": "INFERENCE_NOT_REFERENCE_CORRECTION",
+      "anchors": [
+        [
+          2,
+          139
+        ],
+        [
+          3,
+          45
+        ],
+        [
+          3,
+          47
+        ]
+      ],
+      "note": "근속12/13년의 국소 표현 차이. 다음 날 이동과의 정합은 미확정이며 원작을 수정하지 않는다."
+    }
+  ],
+  "minimum_comparison_record_ready": true,
+  "minimum_work_records_ready": 2,
+  "minimum_work_records_target": 10,
+  "whole_P3_final": false,
+  "G11_final": false,
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "actual_episode_packs": 0,
+  "raw_novel_text_retained": false,
+  "raw_novel_text_uploaded": false,
+  "independent_semantic_authentication": false,
+  "checker_authenticates_semantics": false,
+  "freeze": "v0.30 PARTIAL",
+  "gate": "CLOSED",
+  "conditional_outcome_scope": "AEI presence alone cannot certify success; read separate central_event/reward_functions/past_scene outcome and conditions."
+}

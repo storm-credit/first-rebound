@@ -1,0 +1,3393 @@
+{
+  "stage": "G11_COMMON_MINIMUM_WORK_RECORD",
+  "date": "2026-10-02",
+  "base_main": "2fe9ba5",
+  "shared_skill_commit": "f3af0eb",
+  "work": "소설 속 엑스트라",
+  "edition": "JOARA_OFFICIAL_SERIAL_INCLUDING_NUMBERED_PROLOGUE",
+  "new_unique_readings": 0,
+  "full_body_reinspection_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fresh_full_body_matches": "5/5",
+  "semantic_review": "ROOT_CODEX_MANUAL_FULL_BODY_REINSPECTION_NOT_INDEPENDENT",
+  "observation_provenance": "Root Codex actually reread official first5 complete bodies and supplied fresh matching hashes, current wrapper mapping, exact prefix labels/first-p functions, scene hashes/stages and past/current/reward judgements. Child assembled derivative records; child did not access original body.",
+  "source_hashes": {
+    "research/G11_JOARA_EXTRA_FIRST_FIVE_COMPONENTS_2026_10_01.json": "3ce0749f85efbca0af5a6c40e98c59dafa2c3ff82301f448b5e93a7d9fce1ec7",
+    "research/G11_JOARA_EXTRA_FIRST_FIVE_COMPONENTS_2026_10_01.md": "5d271bc2d3f1dcb564f7a7abd9c7d096f57305e987e84e53f28bf1271b0350d0"
+  },
+  "source_hash_method": "SHA256 of UTF8 file bytes after CRLF to LF normalization, not OS-specific raw bytes or novel body text",
+  "normalization": {
+    "body_selector": "ol.text-wrap > FONT direct children",
+    "current_inclusive_body_bounds": [
+      [
+        7,
+        87
+      ],
+      [
+        6,
+        92
+      ],
+      [
+        6,
+        102
+      ],
+      [
+        6,
+        112
+      ],
+      [
+        6,
+        141
+      ]
+    ],
+    "current_to_legacy_index_add": 9,
+    "exclude_scene_separators": [
+      "===",
+      "/*",
+      "* * *"
+    ],
+    "exclude_title_and_copyright": true,
+    "include_first_profile_name": true,
+    "remove_zero_width": "U200B-D/2060/2063/FEFF",
+    "trim_each_nonempty_block": true,
+    "body_join": "two_LF",
+    "unit": "JS_UTF16_WITH_SPACES",
+    "scene_character_denominator": "sum trimmed selected FONT lengths excluding join LF",
+    "wrapper_change_note": "Leading hidden notice absent in current wrapper; current rawFONT+9 maps to inherited rawFONT. Matching normalized full body hashes5/5 preserve body identity; raw wrapper indexes/strings are not unchanged."
+  },
+  "first1000_rubric": {
+    "unit": "Every nonempty display-FONT intersection with exact1000UTF16 including join LF. Multilabel A/E/I plus F boundary fragment; character fractions are container-presence proxies, not clause proportions.",
+    "A": "Current performed speech, observable action, sound or visible current state",
+    "E": "Rule/backstory/UI/report information",
+    "I": "Evaluation/emotion/question/intention/hypothesis",
+    "F": "Too-short boundary fragment to carry an identifiable information function",
+    "all_tags_nonexclusive": true,
+    "fractions_must_not_be_summed": true,
+    "body_scene_not_claimed_from_truncated_prefix": true,
+    "F_is_boundary_annotation_not_content_function": true,
+    "cut_coordinate_system": "First slice normalized body including join LF to1000UTF16; then calculate text-only presence denominator from its intersections",
+    "semantic_functions": [
+      "A",
+      "E",
+      "I"
+    ],
+    "unassignable_fragment_policy": "F only when clipped fragment is insufficient to identify a function; never complete names or actions beyond cut. F is not included in a content-function total."
+  },
+  "common_fourteen_fields": [
+    {
+      "id": "FIRST_PARAGRAPH_INFORMATION",
+      "label": "첫 문단 새 정보",
+      "scoped_observation": "1~5화 국소 정보 기능1/2/2/2/2. 첫 프로필 인물명FONT7 포함; 이름표를 UI로 제외하지 않는다.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "FIRST1000_AEI",
+      "label": "첫1000 사건·인물·설정",
+      "scoped_observation": "모든 비공백FONT와 정확1000UTF16 교집합에 공통A/E/I/F 다중표지. 고유인원·원자정보수 인증 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "LENGTH_DISTRIBUTIONS",
+      "label": "문장·문단 길이 분포",
+      "scoped_observation": "표시FONT p10/중앙/p90/최대, FONT내 자동경계 조각5화. 문법문장·작가문단 인증 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "VOICE_FUNCTIONS",
+      "label": "기능별 직접음성/서술",
+      "scoped_observation": "현재발화/발신수단미확정호명/로봇/메일/시계/환경텍스트/UI/비언어를 별도범주·분모로 유지. 인용내면0을 전체내면0으로 읽지 않음.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "AEI_SEQUENCE",
+      "label": "행동·설명·내면 배열",
+      "scoped_observation": "25큰구간/468비공백FONT의 선정기능 지도와 현재/보고/계획 구분. 전수절별 배열 비율 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "TERM_ENTRY",
+      "label": "용어 최초 투입",
+      "scoped_observation": "선정21표면문자열168중복일치·최초5화주소. 별칭/인물전수·최초의미투입 인증 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "TERM_EXPLANATION",
+      "label": "용어를 이해시키는 방식",
+      "scoped_observation": "무기위계/변경/숙련 제약이 권총선택 책임과 연결. 판타지총기 규칙은 실제NBA제도 자료 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "SPACE_CAUSE",
+      "label": "공간 기준·이동·원인",
+      "scoped_observation": "4화 현재방→조준→벨중단→문/박스→탁자/개봉→노트북.3화포탈/버스는 이미지난보고.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "PROFESSIONAL_DENSITY",
+      "label": "전투·직업 정보 밀도",
+      "scoped_observation": "선정물리29FONT/885UTF16에서8기능단계, 설명/대화는5/8단계. 동일크기원자정보·전투품질·현실직업밀도 목표 아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "ENDING",
+      "label": "회차 말미 기능",
+      "scoped_observation": "정체문제/출발/선택실물/도착물건/권능통지를 정보·성과·전제로 구분.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "EXPRESSION_CONDITIONS",
+      "label": "번역/보고서/AI식 표현 조건",
+      "scoped_observation": "프로필/규칙/입력목록이 현재평가·선택제약과 연결되는 국소사례. 목록존재로AI저작·작품품질 판정 없음.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "CENTRAL_EVENT",
+      "label": "중심 사건 한 줄",
+      "scoped_observation": "각화현재흐름과실행/정보/기대의단계를 별도기록.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "PAST_SCENE",
+      "label": "과거 장면 존재·크기·복귀",
+      "scoped_observation": "2화열기21FONT는보고+메일을포함한혼합retrospectiveframe;1/3/4/5는짧은과거보고·현재프레임.5화3현재scene는과거가아님.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    },
+    {
+      "id": "REWARD",
+      "label": "성취·정보·전제 보상",
+      "scoped_observation": "현재자원수령/선택/정보관찰·권한UI획득을 실제발사/편집성과/승리/스카우팅수락과 분리.",
+      "status": "SCOPED_RECORD_READY_NOT_FINAL_P3"
+    }
+  ],
+  "records": [
+    {
+      "chapter": 1,
+      "url": "https://www.joara.com/viewer?cid=T/Yx4kEreXCNRiHy3JVVvA==&bookCode=1301411&sortno=1",
+      "title": "소설 속 엑스트라 1화 - 조아라 : 스토리 본능을 깨우다",
+      "heading": "프롤로그 소설 속 이야기",
+      "body_sha256": "fea7dbbe97cf12362309bbb79fc9e1634fee45ede9dfb71b683da5c173ccdfc8",
+      "fresh_body_match": true,
+      "first1000_sha256": "9e94ff229f9a9bb5bccac5a7b65c6f35b2f8d5e2f9f78cc70f89f75d8cdd5758",
+      "prefix_nonempty_intersections": 24,
+      "prefix_text_utf16_without_join": 954,
+      "prefix_join_utf16": 46,
+      "prefix_intersections": [
+        {
+          "raw_FONT_index": 7,
+          "legacy_raw_FONT_index": 16,
+          "body_start_utf16": 0,
+          "full_display_block_utf16": 5,
+          "covered_utf16": 5
+        },
+        {
+          "raw_FONT_index": 8,
+          "legacy_raw_FONT_index": 17,
+          "body_start_utf16": 7,
+          "full_display_block_utf16": 14,
+          "covered_utf16": 14
+        },
+        {
+          "raw_FONT_index": 9,
+          "legacy_raw_FONT_index": 18,
+          "body_start_utf16": 23,
+          "full_display_block_utf16": 136,
+          "covered_utf16": 136
+        },
+        {
+          "raw_FONT_index": 10,
+          "legacy_raw_FONT_index": 19,
+          "body_start_utf16": 161,
+          "full_display_block_utf16": 5,
+          "covered_utf16": 5
+        },
+        {
+          "raw_FONT_index": 11,
+          "legacy_raw_FONT_index": 20,
+          "body_start_utf16": 168,
+          "full_display_block_utf16": 14,
+          "covered_utf16": 14
+        },
+        {
+          "raw_FONT_index": 12,
+          "legacy_raw_FONT_index": 21,
+          "body_start_utf16": 184,
+          "full_display_block_utf16": 120,
+          "covered_utf16": 120
+        },
+        {
+          "raw_FONT_index": 13,
+          "legacy_raw_FONT_index": 22,
+          "body_start_utf16": 306,
+          "full_display_block_utf16": 57,
+          "covered_utf16": 57
+        },
+        {
+          "raw_FONT_index": 16,
+          "legacy_raw_FONT_index": 25,
+          "body_start_utf16": 365,
+          "full_display_block_utf16": 27,
+          "covered_utf16": 27
+        },
+        {
+          "raw_FONT_index": 17,
+          "legacy_raw_FONT_index": 26,
+          "body_start_utf16": 394,
+          "full_display_block_utf16": 37,
+          "covered_utf16": 37
+        },
+        {
+          "raw_FONT_index": 18,
+          "legacy_raw_FONT_index": 27,
+          "body_start_utf16": 433,
+          "full_display_block_utf16": 110,
+          "covered_utf16": 110
+        },
+        {
+          "raw_FONT_index": 19,
+          "legacy_raw_FONT_index": 28,
+          "body_start_utf16": 545,
+          "full_display_block_utf16": 31,
+          "covered_utf16": 31
+        },
+        {
+          "raw_FONT_index": 21,
+          "legacy_raw_FONT_index": 30,
+          "body_start_utf16": 578,
+          "full_display_block_utf16": 52,
+          "covered_utf16": 52
+        },
+        {
+          "raw_FONT_index": 23,
+          "legacy_raw_FONT_index": 32,
+          "body_start_utf16": 632,
+          "full_display_block_utf16": 37,
+          "covered_utf16": 37
+        },
+        {
+          "raw_FONT_index": 27,
+          "legacy_raw_FONT_index": 36,
+          "body_start_utf16": 671,
+          "full_display_block_utf16": 33,
+          "covered_utf16": 33
+        },
+        {
+          "raw_FONT_index": 28,
+          "legacy_raw_FONT_index": 37,
+          "body_start_utf16": 706,
+          "full_display_block_utf16": 54,
+          "covered_utf16": 54
+        },
+        {
+          "raw_FONT_index": 29,
+          "legacy_raw_FONT_index": 38,
+          "body_start_utf16": 762,
+          "full_display_block_utf16": 28,
+          "covered_utf16": 28
+        },
+        {
+          "raw_FONT_index": 30,
+          "legacy_raw_FONT_index": 39,
+          "body_start_utf16": 792,
+          "full_display_block_utf16": 14,
+          "covered_utf16": 14
+        },
+        {
+          "raw_FONT_index": 31,
+          "legacy_raw_FONT_index": 40,
+          "body_start_utf16": 808,
+          "full_display_block_utf16": 10,
+          "covered_utf16": 10
+        },
+        {
+          "raw_FONT_index": 32,
+          "legacy_raw_FONT_index": 41,
+          "body_start_utf16": 820,
+          "full_display_block_utf16": 24,
+          "covered_utf16": 24
+        },
+        {
+          "raw_FONT_index": 33,
+          "legacy_raw_FONT_index": 42,
+          "body_start_utf16": 846,
+          "full_display_block_utf16": 49,
+          "covered_utf16": 49
+        },
+        {
+          "raw_FONT_index": 34,
+          "legacy_raw_FONT_index": 43,
+          "body_start_utf16": 897,
+          "full_display_block_utf16": 17,
+          "covered_utf16": 17
+        },
+        {
+          "raw_FONT_index": 35,
+          "legacy_raw_FONT_index": 44,
+          "body_start_utf16": 916,
+          "full_display_block_utf16": 22,
+          "covered_utf16": 22
+        },
+        {
+          "raw_FONT_index": 36,
+          "legacy_raw_FONT_index": 45,
+          "body_start_utf16": 940,
+          "full_display_block_utf16": 30,
+          "covered_utf16": 30
+        },
+        {
+          "raw_FONT_index": 37,
+          "legacy_raw_FONT_index": 46,
+          "body_start_utf16": 972,
+          "full_display_block_utf16": 40,
+          "covered_utf16": 28
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_FONT_indexes": [
+            21,
+            23,
+            27,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "display_blocks": 12,
+          "covered_utf16": 344,
+          "display_block_presence_fraction": 0.5,
+          "text_presence_fraction": 0.360587,
+          "raw_font_indexes": [
+            21,
+            23,
+            27,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "function": "E",
+          "raw_FONT_indexes": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            28,
+            36,
+            37
+          ],
+          "display_blocks": 14,
+          "covered_utf16": 689,
+          "display_block_presence_fraction": 0.583333,
+          "text_presence_fraction": 0.722222,
+          "raw_font_indexes": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            21,
+            28,
+            36,
+            37
+          ]
+        },
+        {
+          "function": "I",
+          "raw_FONT_indexes": [
+            19
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 31,
+          "display_block_presence_fraction": 0.041667,
+          "text_presence_fraction": 0.032495,
+          "raw_font_indexes": [
+            19
+          ]
+        },
+        {
+          "function": "F",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0,
+          "raw_font_indexes": []
+        }
+      ],
+      "first_paragraph_local_information_units": [
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "프로필 인물 이름",
+          "raw_FONT_index": 7
+        }
+      ],
+      "distinct_human_count": null,
+      "person_referent_count_scope": "No unique-human count inferred from profile lists, collective labels or selected names.",
+      "paragraph_distribution": {
+        "p10": 10,
+        "median": 30,
+        "p90": 61,
+        "max": 136
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 108,
+        "p10": 5,
+        "median": 20,
+        "p90": 45,
+        "max": 110
+      },
+      "linguistic_sentence_count": null,
+      "voice_function_records": [
+        {
+          "function": "CHARACTER_SPEECH",
+          "raw_FONT_indexes": [
+            30,
+            31,
+            33,
+            34,
+            36,
+            37,
+            42,
+            43,
+            44,
+            48,
+            50,
+            53,
+            54,
+            55,
+            56,
+            57,
+            74,
+            77,
+            78,
+            81,
+            82
+          ],
+          "display_blocks": 21,
+          "text_utf16": 505,
+          "text_fraction_without_join": 0.188363,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "QUOTED_INNER",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "EVENT_ANNOUNCEMENT_SOURCE_UNSPECIFIED",
+          "raw_FONT_indexes": [
+            21,
+            61
+          ],
+          "display_blocks": 2,
+          "text_utf16": 75,
+          "text_fraction_without_join": 0.027975,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "MEDIATED_MACHINE_SPEECH",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_EMAIL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_CLOCK",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_ENVIRONMENT_TEXT",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_SYSTEM",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "NONVERBAL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        }
+      ],
+      "voice_text_denominator_without_join": 2681,
+      "past_scene": {
+        "kind": "CURRENT_CEREMONY_WITH_PROFILE_AND_BRIEF_PAST_REPORTS",
+        "profile_background_current_raw_FONT": [
+          9,
+          12,
+          13
+        ],
+        "brief_past_report_current_raw_FONT": [
+          47,
+          51,
+          52
+        ],
+        "separate_past_frame_transition": false,
+        "size": "Profile past/future background and short unfinished-serial/first-love/writing-model reports; not separately staged past scene.",
+        "current_return": "Current graduation ceremony remains primary frame; current remote hearing/information observation at39~40 does not certify ability cause."
+      },
+      "central_event": "공식 졸업식 평가와 실제 정보 관찰 속에서 자신의 배경 인물 위치를 인식한다.",
+      "reward_distinctions": "가시적 성취: 현재 원거리 정보 확인; 정보: 자기 위치; 전제: 낯선 신체/세계. 능력 원인 인증·연애·스카우트 수락 없음.",
+      "ending_function": "배경 신체/정체 문제",
+      "semantic_status": "INFERENCE_ROOT_MANUAL_REINSPECTION_NOT_INDEPENDENT",
+      "prefix_intersection_metadata": [
+        {
+          "raw_font_index": 7,
+          "start_utf16": 0,
+          "full_length_utf16": 5,
+          "covered_utf16": 5,
+          "complete": true
+        },
+        {
+          "raw_font_index": 8,
+          "start_utf16": 7,
+          "full_length_utf16": 14,
+          "covered_utf16": 14,
+          "complete": true
+        },
+        {
+          "raw_font_index": 9,
+          "start_utf16": 23,
+          "full_length_utf16": 136,
+          "covered_utf16": 136,
+          "complete": true
+        },
+        {
+          "raw_font_index": 10,
+          "start_utf16": 161,
+          "full_length_utf16": 5,
+          "covered_utf16": 5,
+          "complete": true
+        },
+        {
+          "raw_font_index": 11,
+          "start_utf16": 168,
+          "full_length_utf16": 14,
+          "covered_utf16": 14,
+          "complete": true
+        },
+        {
+          "raw_font_index": 12,
+          "start_utf16": 184,
+          "full_length_utf16": 120,
+          "covered_utf16": 120,
+          "complete": true
+        },
+        {
+          "raw_font_index": 13,
+          "start_utf16": 306,
+          "full_length_utf16": 57,
+          "covered_utf16": 57,
+          "complete": true
+        },
+        {
+          "raw_font_index": 16,
+          "start_utf16": 365,
+          "full_length_utf16": 27,
+          "covered_utf16": 27,
+          "complete": true
+        },
+        {
+          "raw_font_index": 17,
+          "start_utf16": 394,
+          "full_length_utf16": 37,
+          "covered_utf16": 37,
+          "complete": true
+        },
+        {
+          "raw_font_index": 18,
+          "start_utf16": 433,
+          "full_length_utf16": 110,
+          "covered_utf16": 110,
+          "complete": true
+        },
+        {
+          "raw_font_index": 19,
+          "start_utf16": 545,
+          "full_length_utf16": 31,
+          "covered_utf16": 31,
+          "complete": true
+        },
+        {
+          "raw_font_index": 21,
+          "start_utf16": 578,
+          "full_length_utf16": 52,
+          "covered_utf16": 52,
+          "complete": true
+        },
+        {
+          "raw_font_index": 23,
+          "start_utf16": 632,
+          "full_length_utf16": 37,
+          "covered_utf16": 37,
+          "complete": true
+        },
+        {
+          "raw_font_index": 27,
+          "start_utf16": 671,
+          "full_length_utf16": 33,
+          "covered_utf16": 33,
+          "complete": true
+        },
+        {
+          "raw_font_index": 28,
+          "start_utf16": 706,
+          "full_length_utf16": 54,
+          "covered_utf16": 54,
+          "complete": true
+        },
+        {
+          "raw_font_index": 29,
+          "start_utf16": 762,
+          "full_length_utf16": 28,
+          "covered_utf16": 28,
+          "complete": true
+        },
+        {
+          "raw_font_index": 30,
+          "start_utf16": 792,
+          "full_length_utf16": 14,
+          "covered_utf16": 14,
+          "complete": true
+        },
+        {
+          "raw_font_index": 31,
+          "start_utf16": 808,
+          "full_length_utf16": 10,
+          "covered_utf16": 10,
+          "complete": true
+        },
+        {
+          "raw_font_index": 32,
+          "start_utf16": 820,
+          "full_length_utf16": 24,
+          "covered_utf16": 24,
+          "complete": true
+        },
+        {
+          "raw_font_index": 33,
+          "start_utf16": 846,
+          "full_length_utf16": 49,
+          "covered_utf16": 49,
+          "complete": true
+        },
+        {
+          "raw_font_index": 34,
+          "start_utf16": 897,
+          "full_length_utf16": 17,
+          "covered_utf16": 17,
+          "complete": true
+        },
+        {
+          "raw_font_index": 35,
+          "start_utf16": 916,
+          "full_length_utf16": 22,
+          "covered_utf16": 22,
+          "complete": true
+        },
+        {
+          "raw_font_index": 36,
+          "start_utf16": 940,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_font_index": 37,
+          "start_utf16": 972,
+          "full_length_utf16": 40,
+          "covered_utf16": 28,
+          "complete": false
+        }
+      ],
+      "other_display_blocks_without_selected_direct_voice_tag": {
+        "raw_font_indexes": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          23,
+          27,
+          28,
+          29,
+          32,
+          35,
+          38,
+          39,
+          40,
+          41,
+          45,
+          46,
+          47,
+          49,
+          51,
+          52,
+          58,
+          59,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          79,
+          80,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "display_blocks": 49,
+        "text_utf16": 2101,
+        "text_fraction_without_join": 0.783663,
+        "scope": "Remainder of inherited selected direct-voice tags; can contain narration/unquoted thought. Not total narration or total-inner proportion."
+      }
+    },
+    {
+      "chapter": 2,
+      "url": "https://www.joara.com/viewer?cid=6NcrmSetrx2ISOxSZv+WUw==&bookCode=1301411&sortno=2",
+      "title": "소설 속 엑스트라 2화 - 조아라 : 스토리 본능을 깨우다",
+      "heading": "1장 큐브(1)",
+      "body_sha256": "2cdfdb01adaa3a8cffcf006ceb5d102cdbda622896cbdb22940066b1964537bb",
+      "fresh_body_match": true,
+      "first1000_sha256": "b6261ebda7f8293601ea46379869d64633358c7655a17097af434b1e487f0f5b",
+      "prefix_nonempty_intersections": 21,
+      "prefix_text_utf16_without_join": 960,
+      "prefix_join_utf16": 40,
+      "prefix_intersections": [
+        {
+          "raw_FONT_index": 6,
+          "legacy_raw_FONT_index": 15,
+          "body_start_utf16": 0,
+          "full_display_block_utf16": 39,
+          "covered_utf16": 39
+        },
+        {
+          "raw_FONT_index": 7,
+          "legacy_raw_FONT_index": 16,
+          "body_start_utf16": 41,
+          "full_display_block_utf16": 58,
+          "covered_utf16": 58
+        },
+        {
+          "raw_FONT_index": 8,
+          "legacy_raw_FONT_index": 17,
+          "body_start_utf16": 101,
+          "full_display_block_utf16": 27,
+          "covered_utf16": 27
+        },
+        {
+          "raw_FONT_index": 9,
+          "legacy_raw_FONT_index": 18,
+          "body_start_utf16": 130,
+          "full_display_block_utf16": 80,
+          "covered_utf16": 80
+        },
+        {
+          "raw_FONT_index": 10,
+          "legacy_raw_FONT_index": 19,
+          "body_start_utf16": 212,
+          "full_display_block_utf16": 24,
+          "covered_utf16": 24
+        },
+        {
+          "raw_FONT_index": 11,
+          "legacy_raw_FONT_index": 20,
+          "body_start_utf16": 238,
+          "full_display_block_utf16": 48,
+          "covered_utf16": 48
+        },
+        {
+          "raw_FONT_index": 12,
+          "legacy_raw_FONT_index": 21,
+          "body_start_utf16": 288,
+          "full_display_block_utf16": 44,
+          "covered_utf16": 44
+        },
+        {
+          "raw_FONT_index": 13,
+          "legacy_raw_FONT_index": 22,
+          "body_start_utf16": 334,
+          "full_display_block_utf16": 28,
+          "covered_utf16": 28
+        },
+        {
+          "raw_FONT_index": 14,
+          "legacy_raw_FONT_index": 23,
+          "body_start_utf16": 364,
+          "full_display_block_utf16": 58,
+          "covered_utf16": 58
+        },
+        {
+          "raw_FONT_index": 15,
+          "legacy_raw_FONT_index": 24,
+          "body_start_utf16": 424,
+          "full_display_block_utf16": 39,
+          "covered_utf16": 39
+        },
+        {
+          "raw_FONT_index": 16,
+          "legacy_raw_FONT_index": 25,
+          "body_start_utf16": 465,
+          "full_display_block_utf16": 90,
+          "covered_utf16": 90
+        },
+        {
+          "raw_FONT_index": 17,
+          "legacy_raw_FONT_index": 26,
+          "body_start_utf16": 557,
+          "full_display_block_utf16": 37,
+          "covered_utf16": 37
+        },
+        {
+          "raw_FONT_index": 18,
+          "legacy_raw_FONT_index": 27,
+          "body_start_utf16": 596,
+          "full_display_block_utf16": 15,
+          "covered_utf16": 15
+        },
+        {
+          "raw_FONT_index": 19,
+          "legacy_raw_FONT_index": 28,
+          "body_start_utf16": 613,
+          "full_display_block_utf16": 49,
+          "covered_utf16": 49
+        },
+        {
+          "raw_FONT_index": 20,
+          "legacy_raw_FONT_index": 29,
+          "body_start_utf16": 664,
+          "full_display_block_utf16": 44,
+          "covered_utf16": 44
+        },
+        {
+          "raw_FONT_index": 21,
+          "legacy_raw_FONT_index": 30,
+          "body_start_utf16": 710,
+          "full_display_block_utf16": 31,
+          "covered_utf16": 31
+        },
+        {
+          "raw_FONT_index": 23,
+          "legacy_raw_FONT_index": 32,
+          "body_start_utf16": 743,
+          "full_display_block_utf16": 26,
+          "covered_utf16": 26
+        },
+        {
+          "raw_FONT_index": 24,
+          "legacy_raw_FONT_index": 33,
+          "body_start_utf16": 771,
+          "full_display_block_utf16": 125,
+          "covered_utf16": 125
+        },
+        {
+          "raw_FONT_index": 26,
+          "legacy_raw_FONT_index": 35,
+          "body_start_utf16": 898,
+          "full_display_block_utf16": 40,
+          "covered_utf16": 40
+        },
+        {
+          "raw_FONT_index": 27,
+          "legacy_raw_FONT_index": 36,
+          "body_start_utf16": 940,
+          "full_display_block_utf16": 25,
+          "covered_utf16": 25
+        },
+        {
+          "raw_FONT_index": 28,
+          "legacy_raw_FONT_index": 37,
+          "body_start_utf16": 967,
+          "full_display_block_utf16": 99,
+          "covered_utf16": 33
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0,
+          "raw_font_indexes": []
+        },
+        {
+          "function": "E",
+          "raw_FONT_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            26,
+            27,
+            28
+          ],
+          "display_blocks": 21,
+          "covered_utf16": 960,
+          "display_block_presence_fraction": 1.0,
+          "text_presence_fraction": 1.0,
+          "raw_font_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "function": "I",
+          "raw_FONT_indexes": [
+            7,
+            9,
+            11,
+            13,
+            16,
+            17,
+            19,
+            20,
+            28
+          ],
+          "display_blocks": 9,
+          "covered_utf16": 467,
+          "display_block_presence_fraction": 0.428571,
+          "text_presence_fraction": 0.486458,
+          "raw_font_indexes": [
+            7,
+            9,
+            11,
+            13,
+            16,
+            17,
+            19,
+            20,
+            28
+          ]
+        },
+        {
+          "function": "F",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0,
+          "raw_font_indexes": []
+        }
+      ],
+      "first_paragraph_local_information_units": [
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "이전 메일 수신",
+          "raw_FONT_index": 6
+        },
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "리메이크 요청",
+          "raw_FONT_index": 6
+        }
+      ],
+      "distinct_human_count": null,
+      "person_referent_count_scope": "No unique-human count inferred from profile lists, collective labels or selected names.",
+      "paragraph_distribution": {
+        "p10": 11,
+        "median": 37,
+        "p90": 73,
+        "max": 148
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 122,
+        "p10": 9,
+        "median": 21,
+        "p90": 54,
+        "max": 148
+      },
+      "linguistic_sentence_count": null,
+      "voice_function_records": [
+        {
+          "function": "CHARACTER_SPEECH",
+          "raw_FONT_indexes": [
+            59,
+            64,
+            68,
+            80,
+            83
+          ],
+          "display_blocks": 5,
+          "text_utf16": 73,
+          "text_fraction_without_join": 0.021345,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "QUOTED_INNER",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "EVENT_ANNOUNCEMENT_SOURCE_UNSPECIFIED",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "MEDIATED_MACHINE_SPEECH",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_EMAIL",
+          "raw_FONT_indexes": [
+            23,
+            24
+          ],
+          "display_blocks": 2,
+          "text_utf16": 151,
+          "text_fraction_without_join": 0.044152,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_CLOCK",
+          "raw_FONT_indexes": [
+            76
+          ],
+          "display_blocks": 1,
+          "text_utf16": 11,
+          "text_fraction_without_join": 0.003216,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_ENVIRONMENT_TEXT",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_SYSTEM",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "NONVERBAL",
+          "raw_FONT_indexes": [
+            56,
+            57,
+            91
+          ],
+          "display_blocks": 3,
+          "text_utf16": 18,
+          "text_fraction_without_join": 0.005263,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        }
+      ],
+      "voice_text_denominator_without_join": 3420,
+      "past_scene": {
+        "kind": "OPENING_MIXED_RETROSPECTIVE_REPORT_AND_EMAIL_TEXT",
+        "opening_current_raw_FONT": [
+          6,
+          28
+        ],
+        "opening_nonempty_display_FONT": 21,
+        "past_email_UI_current_raw_FONT": [
+          23,
+          24
+        ],
+        "opening_scope": "Mixed report, reflection and displayed past email. Not21past actions and not a purely current opening.",
+        "current_cause_question_raw_FONT": [
+          29,
+          30
+        ],
+        "current_home_return_raw_FONT": 32,
+        "brief_report_current_raw_FONT": [
+          [
+            47,
+            54
+          ],
+          [
+            65,
+            67
+          ]
+        ],
+        "separate_past_frame_transition": true,
+        "separately_acted_past_action_scene": false,
+        "size": "Opening retrospective frame21nonemptyFONT plus later short first-day/recent-two-week reports; no complete past-text character ratio."
+      },
+      "central_event": "메일과 집필 과거를 새 생활의 원인에 연결하려다 현재 외출한다.",
+      "reward_distinctions": "가시적 성취: 현재2주 생존/외출; 정보: 신체/생활 조건; 전제 원인은 미확정. 큐브 입소 완료 아님.",
+      "ending_function": "집 밖 출발",
+      "semantic_status": "INFERENCE_ROOT_MANUAL_REINSPECTION_NOT_INDEPENDENT",
+      "prefix_intersection_metadata": [
+        {
+          "raw_font_index": 6,
+          "start_utf16": 0,
+          "full_length_utf16": 39,
+          "covered_utf16": 39,
+          "complete": true
+        },
+        {
+          "raw_font_index": 7,
+          "start_utf16": 41,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_font_index": 8,
+          "start_utf16": 101,
+          "full_length_utf16": 27,
+          "covered_utf16": 27,
+          "complete": true
+        },
+        {
+          "raw_font_index": 9,
+          "start_utf16": 130,
+          "full_length_utf16": 80,
+          "covered_utf16": 80,
+          "complete": true
+        },
+        {
+          "raw_font_index": 10,
+          "start_utf16": 212,
+          "full_length_utf16": 24,
+          "covered_utf16": 24,
+          "complete": true
+        },
+        {
+          "raw_font_index": 11,
+          "start_utf16": 238,
+          "full_length_utf16": 48,
+          "covered_utf16": 48,
+          "complete": true
+        },
+        {
+          "raw_font_index": 12,
+          "start_utf16": 288,
+          "full_length_utf16": 44,
+          "covered_utf16": 44,
+          "complete": true
+        },
+        {
+          "raw_font_index": 13,
+          "start_utf16": 334,
+          "full_length_utf16": 28,
+          "covered_utf16": 28,
+          "complete": true
+        },
+        {
+          "raw_font_index": 14,
+          "start_utf16": 364,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_font_index": 15,
+          "start_utf16": 424,
+          "full_length_utf16": 39,
+          "covered_utf16": 39,
+          "complete": true
+        },
+        {
+          "raw_font_index": 16,
+          "start_utf16": 465,
+          "full_length_utf16": 90,
+          "covered_utf16": 90,
+          "complete": true
+        },
+        {
+          "raw_font_index": 17,
+          "start_utf16": 557,
+          "full_length_utf16": 37,
+          "covered_utf16": 37,
+          "complete": true
+        },
+        {
+          "raw_font_index": 18,
+          "start_utf16": 596,
+          "full_length_utf16": 15,
+          "covered_utf16": 15,
+          "complete": true
+        },
+        {
+          "raw_font_index": 19,
+          "start_utf16": 613,
+          "full_length_utf16": 49,
+          "covered_utf16": 49,
+          "complete": true
+        },
+        {
+          "raw_font_index": 20,
+          "start_utf16": 664,
+          "full_length_utf16": 44,
+          "covered_utf16": 44,
+          "complete": true
+        },
+        {
+          "raw_font_index": 21,
+          "start_utf16": 710,
+          "full_length_utf16": 31,
+          "covered_utf16": 31,
+          "complete": true
+        },
+        {
+          "raw_font_index": 23,
+          "start_utf16": 743,
+          "full_length_utf16": 26,
+          "covered_utf16": 26,
+          "complete": true
+        },
+        {
+          "raw_font_index": 24,
+          "start_utf16": 771,
+          "full_length_utf16": 125,
+          "covered_utf16": 125,
+          "complete": true
+        },
+        {
+          "raw_font_index": 26,
+          "start_utf16": 898,
+          "full_length_utf16": 40,
+          "covered_utf16": 40,
+          "complete": true
+        },
+        {
+          "raw_font_index": 27,
+          "start_utf16": 940,
+          "full_length_utf16": 25,
+          "covered_utf16": 25,
+          "complete": true
+        },
+        {
+          "raw_font_index": 28,
+          "start_utf16": 967,
+          "full_length_utf16": 99,
+          "covered_utf16": 33,
+          "complete": false
+        }
+      ],
+      "other_display_blocks_without_selected_direct_voice_tag": {
+        "raw_font_indexes": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          58,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          77,
+          78,
+          79,
+          81,
+          82,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          92
+        ],
+        "display_blocks": 72,
+        "text_utf16": 3167,
+        "text_fraction_without_join": 0.926023,
+        "scope": "Remainder of inherited selected direct-voice tags; can contain narration/unquoted thought. Not total narration or total-inner proportion."
+      }
+    },
+    {
+      "chapter": 3,
+      "url": "https://www.joara.com/viewer?cid=T8mxysB3vtAnh8pryh3Nnw==&bookCode=1301411&sortno=3",
+      "title": "소설 속 엑스트라 3화 - 조아라 : 스토리 본능을 깨우다",
+      "heading": "1장 큐브(2)",
+      "body_sha256": "755a2b4ac1f7adcda4481836f2bd3d03ab31b1e064f916345e6aca2df8ad7775",
+      "fresh_body_match": true,
+      "first1000_sha256": "f19181b6455fac4f6fe3d71e7e908a03440feb15299e2b8b5d1889252d57e375",
+      "prefix_nonempty_intersections": 18,
+      "prefix_text_utf16_without_join": 966,
+      "prefix_join_utf16": 34,
+      "prefix_intersections": [
+        {
+          "raw_FONT_index": 6,
+          "legacy_raw_FONT_index": 15,
+          "body_start_utf16": 0,
+          "full_display_block_utf16": 38,
+          "covered_utf16": 38
+        },
+        {
+          "raw_FONT_index": 8,
+          "legacy_raw_FONT_index": 17,
+          "body_start_utf16": 40,
+          "full_display_block_utf16": 4,
+          "covered_utf16": 4
+        },
+        {
+          "raw_FONT_index": 10,
+          "legacy_raw_FONT_index": 19,
+          "body_start_utf16": 46,
+          "full_display_block_utf16": 65,
+          "covered_utf16": 65
+        },
+        {
+          "raw_FONT_index": 11,
+          "legacy_raw_FONT_index": 20,
+          "body_start_utf16": 113,
+          "full_display_block_utf16": 51,
+          "covered_utf16": 51
+        },
+        {
+          "raw_FONT_index": 12,
+          "legacy_raw_FONT_index": 21,
+          "body_start_utf16": 166,
+          "full_display_block_utf16": 90,
+          "covered_utf16": 90
+        },
+        {
+          "raw_FONT_index": 13,
+          "legacy_raw_FONT_index": 22,
+          "body_start_utf16": 258,
+          "full_display_block_utf16": 38,
+          "covered_utf16": 38
+        },
+        {
+          "raw_FONT_index": 14,
+          "legacy_raw_FONT_index": 23,
+          "body_start_utf16": 298,
+          "full_display_block_utf16": 72,
+          "covered_utf16": 72
+        },
+        {
+          "raw_FONT_index": 15,
+          "legacy_raw_FONT_index": 24,
+          "body_start_utf16": 372,
+          "full_display_block_utf16": 190,
+          "covered_utf16": 190
+        },
+        {
+          "raw_FONT_index": 16,
+          "legacy_raw_FONT_index": 25,
+          "body_start_utf16": 564,
+          "full_display_block_utf16": 30,
+          "covered_utf16": 30
+        },
+        {
+          "raw_FONT_index": 17,
+          "legacy_raw_FONT_index": 26,
+          "body_start_utf16": 596,
+          "full_display_block_utf16": 48,
+          "covered_utf16": 48
+        },
+        {
+          "raw_FONT_index": 18,
+          "legacy_raw_FONT_index": 27,
+          "body_start_utf16": 646,
+          "full_display_block_utf16": 58,
+          "covered_utf16": 58
+        },
+        {
+          "raw_FONT_index": 19,
+          "legacy_raw_FONT_index": 28,
+          "body_start_utf16": 706,
+          "full_display_block_utf16": 63,
+          "covered_utf16": 63
+        },
+        {
+          "raw_FONT_index": 20,
+          "legacy_raw_FONT_index": 29,
+          "body_start_utf16": 771,
+          "full_display_block_utf16": 109,
+          "covered_utf16": 109
+        },
+        {
+          "raw_FONT_index": 21,
+          "legacy_raw_FONT_index": 30,
+          "body_start_utf16": 882,
+          "full_display_block_utf16": 21,
+          "covered_utf16": 21
+        },
+        {
+          "raw_FONT_index": 22,
+          "legacy_raw_FONT_index": 31,
+          "body_start_utf16": 905,
+          "full_display_block_utf16": 22,
+          "covered_utf16": 22
+        },
+        {
+          "raw_FONT_index": 24,
+          "legacy_raw_FONT_index": 33,
+          "body_start_utf16": 929,
+          "full_display_block_utf16": 12,
+          "covered_utf16": 12
+        },
+        {
+          "raw_FONT_index": 26,
+          "legacy_raw_FONT_index": 35,
+          "body_start_utf16": 943,
+          "full_display_block_utf16": 54,
+          "covered_utf16": 54
+        },
+        {
+          "raw_FONT_index": 27,
+          "legacy_raw_FONT_index": 36,
+          "body_start_utf16": 999,
+          "full_display_block_utf16": 21,
+          "covered_utf16": 1
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_FONT_indexes": [
+            22
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 22,
+          "display_block_presence_fraction": 0.055556,
+          "text_presence_fraction": 0.022774,
+          "raw_font_indexes": [
+            22
+          ]
+        },
+        {
+          "function": "E",
+          "raw_FONT_indexes": [
+            6,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            26
+          ],
+          "display_blocks": 13,
+          "covered_utf16": 775,
+          "display_block_presence_fraction": 0.722222,
+          "text_presence_fraction": 0.802277,
+          "raw_font_indexes": [
+            6,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            24,
+            26
+          ]
+        },
+        {
+          "function": "I",
+          "raw_FONT_indexes": [
+            13,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "display_blocks": 6,
+          "covered_utf16": 337,
+          "display_block_presence_fraction": 0.333333,
+          "text_presence_fraction": 0.348861,
+          "raw_font_indexes": [
+            13,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "function": "F",
+          "raw_FONT_indexes": [
+            27
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 1,
+          "display_block_presence_fraction": 0.055556,
+          "text_presence_fraction": 0.001035,
+          "raw_font_indexes": [
+            27
+          ]
+        }
+      ],
+      "first_paragraph_local_information_units": [
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "양성기관 정의",
+          "raw_FONT_index": 6
+        },
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "혼합 기술",
+          "raw_FONT_index": 6
+        }
+      ],
+      "distinct_human_count": null,
+      "person_referent_count_scope": "No unique-human count inferred from profile lists, collective labels or selected names.",
+      "paragraph_distribution": {
+        "p10": 12,
+        "median": 38,
+        "p90": 93,
+        "max": 190
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 156,
+        "p10": 9,
+        "median": 21,
+        "p90": 48,
+        "max": 190
+      },
+      "linguistic_sentence_count": null,
+      "voice_function_records": [
+        {
+          "function": "CHARACTER_SPEECH",
+          "raw_FONT_indexes": [
+            50,
+            53,
+            56,
+            58,
+            60,
+            62,
+            64,
+            67,
+            69,
+            73,
+            75,
+            79,
+            82,
+            85,
+            88,
+            96
+          ],
+          "display_blocks": 16,
+          "text_utf16": 942,
+          "text_fraction_without_join": 0.223753,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "QUOTED_INNER",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "EVENT_ANNOUNCEMENT_SOURCE_UNSPECIFIED",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "MEDIATED_MACHINE_SPEECH",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_EMAIL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_CLOCK",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_ENVIRONMENT_TEXT",
+          "raw_FONT_indexes": [
+            24
+          ],
+          "display_blocks": 1,
+          "text_utf16": 12,
+          "text_fraction_without_join": 0.00285,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_SYSTEM",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "NONVERBAL",
+          "raw_FONT_indexes": [
+            30,
+            41
+          ],
+          "display_blocks": 2,
+          "text_utf16": 13,
+          "text_fraction_without_join": 0.003088,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        }
+      ],
+      "voice_text_denominator_without_join": 4210,
+      "past_scene": {
+        "kind": "CURRENT_CLASSROOM_WITH_BRIEF_TRANSIT_AND_WRITING_REPORTS",
+        "brief_past_report_current_raw_FONT": [
+          40,
+          44,
+          45,
+          46,
+          47,
+          55
+        ],
+        "reported_transit_current_raw_FONT": [
+          44,
+          47
+        ],
+        "separate_past_frame_transition": false,
+        "size": "Short former-school/military/writing-setting reports and already-completed portal/bus commute; not live travel or separately acted flashback.",
+        "current_frame": "Classroom entry, instructor rules and actual pistol selection/receipt99~102."
+      },
+      "central_event": "현재 교실 규칙과 제약을 거쳐 권총을 실제 선택하고 받는다.",
+      "reward_distinctions": "가시적 성취: 등교·권총 선택/수령; 정보: 변경/실전 제약. 발사·시험 승리·영입 없음.",
+      "ending_function": "실물 선택 공개",
+      "semantic_status": "INFERENCE_ROOT_MANUAL_REINSPECTION_NOT_INDEPENDENT",
+      "prefix_intersection_metadata": [
+        {
+          "raw_font_index": 6,
+          "start_utf16": 0,
+          "full_length_utf16": 38,
+          "covered_utf16": 38,
+          "complete": true
+        },
+        {
+          "raw_font_index": 8,
+          "start_utf16": 40,
+          "full_length_utf16": 4,
+          "covered_utf16": 4,
+          "complete": true
+        },
+        {
+          "raw_font_index": 10,
+          "start_utf16": 46,
+          "full_length_utf16": 65,
+          "covered_utf16": 65,
+          "complete": true
+        },
+        {
+          "raw_font_index": 11,
+          "start_utf16": 113,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_font_index": 12,
+          "start_utf16": 166,
+          "full_length_utf16": 90,
+          "covered_utf16": 90,
+          "complete": true
+        },
+        {
+          "raw_font_index": 13,
+          "start_utf16": 258,
+          "full_length_utf16": 38,
+          "covered_utf16": 38,
+          "complete": true
+        },
+        {
+          "raw_font_index": 14,
+          "start_utf16": 298,
+          "full_length_utf16": 72,
+          "covered_utf16": 72,
+          "complete": true
+        },
+        {
+          "raw_font_index": 15,
+          "start_utf16": 372,
+          "full_length_utf16": 190,
+          "covered_utf16": 190,
+          "complete": true
+        },
+        {
+          "raw_font_index": 16,
+          "start_utf16": 564,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_font_index": 17,
+          "start_utf16": 596,
+          "full_length_utf16": 48,
+          "covered_utf16": 48,
+          "complete": true
+        },
+        {
+          "raw_font_index": 18,
+          "start_utf16": 646,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_font_index": 19,
+          "start_utf16": 706,
+          "full_length_utf16": 63,
+          "covered_utf16": 63,
+          "complete": true
+        },
+        {
+          "raw_font_index": 20,
+          "start_utf16": 771,
+          "full_length_utf16": 109,
+          "covered_utf16": 109,
+          "complete": true
+        },
+        {
+          "raw_font_index": 21,
+          "start_utf16": 882,
+          "full_length_utf16": 21,
+          "covered_utf16": 21,
+          "complete": true
+        },
+        {
+          "raw_font_index": 22,
+          "start_utf16": 905,
+          "full_length_utf16": 22,
+          "covered_utf16": 22,
+          "complete": true
+        },
+        {
+          "raw_font_index": 24,
+          "start_utf16": 929,
+          "full_length_utf16": 12,
+          "covered_utf16": 12,
+          "complete": true
+        },
+        {
+          "raw_font_index": 26,
+          "start_utf16": 943,
+          "full_length_utf16": 54,
+          "covered_utf16": 54,
+          "complete": true
+        },
+        {
+          "raw_font_index": 27,
+          "start_utf16": 999,
+          "full_length_utf16": 21,
+          "covered_utf16": 1,
+          "complete": false
+        }
+      ],
+      "other_display_blocks_without_selected_direct_voice_tag": {
+        "raw_font_indexes": [
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51,
+          52,
+          54,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          66,
+          68,
+          70,
+          71,
+          72,
+          74,
+          80,
+          81,
+          83,
+          84,
+          86,
+          87,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "display_blocks": 71,
+        "text_utf16": 3243,
+        "text_fraction_without_join": 0.770309,
+        "scope": "Remainder of inherited selected direct-voice tags; can contain narration/unquoted thought. Not total narration or total-inner proportion."
+      }
+    },
+    {
+      "chapter": 4,
+      "url": "https://www.joara.com/viewer?cid=954suqlSmn58GCVT/djKcQ==&bookCode=1301411&sortno=4",
+      "title": "소설 속 엑스트라 4화 - 조아라 : 스토리 본능을 깨우다",
+      "heading": "1장 큐브(3)",
+      "body_sha256": "53f305644963a627d6ead6d419bd70d09b7fc52434727c7a8a7cfb7f94a8fdf3",
+      "fresh_body_match": true,
+      "first1000_sha256": "c9b8fa85b170376b14d79444232d6173e3fcaa272458c7990b3810604e09bc70",
+      "prefix_nonempty_intersections": 16,
+      "prefix_text_utf16_without_join": 970,
+      "prefix_join_utf16": 30,
+      "prefix_intersections": [
+        {
+          "raw_FONT_index": 6,
+          "legacy_raw_FONT_index": 15,
+          "body_start_utf16": 0,
+          "full_display_block_utf16": 49,
+          "covered_utf16": 49
+        },
+        {
+          "raw_FONT_index": 7,
+          "legacy_raw_FONT_index": 16,
+          "body_start_utf16": 51,
+          "full_display_block_utf16": 60,
+          "covered_utf16": 60
+        },
+        {
+          "raw_FONT_index": 8,
+          "legacy_raw_FONT_index": 17,
+          "body_start_utf16": 113,
+          "full_display_block_utf16": 76,
+          "covered_utf16": 76
+        },
+        {
+          "raw_FONT_index": 9,
+          "legacy_raw_FONT_index": 18,
+          "body_start_utf16": 191,
+          "full_display_block_utf16": 53,
+          "covered_utf16": 53
+        },
+        {
+          "raw_FONT_index": 10,
+          "legacy_raw_FONT_index": 19,
+          "body_start_utf16": 246,
+          "full_display_block_utf16": 71,
+          "covered_utf16": 71
+        },
+        {
+          "raw_FONT_index": 11,
+          "legacy_raw_FONT_index": 20,
+          "body_start_utf16": 319,
+          "full_display_block_utf16": 55,
+          "covered_utf16": 55
+        },
+        {
+          "raw_FONT_index": 12,
+          "legacy_raw_FONT_index": 21,
+          "body_start_utf16": 376,
+          "full_display_block_utf16": 41,
+          "covered_utf16": 41
+        },
+        {
+          "raw_FONT_index": 13,
+          "legacy_raw_FONT_index": 22,
+          "body_start_utf16": 419,
+          "full_display_block_utf16": 94,
+          "covered_utf16": 94
+        },
+        {
+          "raw_FONT_index": 14,
+          "legacy_raw_FONT_index": 23,
+          "body_start_utf16": 515,
+          "full_display_block_utf16": 34,
+          "covered_utf16": 34
+        },
+        {
+          "raw_FONT_index": 15,
+          "legacy_raw_FONT_index": 24,
+          "body_start_utf16": 551,
+          "full_display_block_utf16": 78,
+          "covered_utf16": 78
+        },
+        {
+          "raw_FONT_index": 16,
+          "legacy_raw_FONT_index": 25,
+          "body_start_utf16": 631,
+          "full_display_block_utf16": 49,
+          "covered_utf16": 49
+        },
+        {
+          "raw_FONT_index": 17,
+          "legacy_raw_FONT_index": 26,
+          "body_start_utf16": 682,
+          "full_display_block_utf16": 91,
+          "covered_utf16": 91
+        },
+        {
+          "raw_FONT_index": 18,
+          "legacy_raw_FONT_index": 27,
+          "body_start_utf16": 775,
+          "full_display_block_utf16": 40,
+          "covered_utf16": 40
+        },
+        {
+          "raw_FONT_index": 19,
+          "legacy_raw_FONT_index": 28,
+          "body_start_utf16": 817,
+          "full_display_block_utf16": 98,
+          "covered_utf16": 98
+        },
+        {
+          "raw_FONT_index": 20,
+          "legacy_raw_FONT_index": 29,
+          "body_start_utf16": 917,
+          "full_display_block_utf16": 8,
+          "covered_utf16": 8
+        },
+        {
+          "raw_FONT_index": 21,
+          "legacy_raw_FONT_index": 30,
+          "body_start_utf16": 927,
+          "full_display_block_utf16": 83,
+          "covered_utf16": 73
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_FONT_indexes": [
+            20,
+            21
+          ],
+          "display_blocks": 2,
+          "covered_utf16": 81,
+          "display_block_presence_fraction": 0.125,
+          "text_presence_fraction": 0.083505,
+          "raw_font_indexes": [
+            20,
+            21
+          ]
+        },
+        {
+          "function": "E",
+          "raw_FONT_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21
+          ],
+          "display_blocks": 15,
+          "covered_utf16": 962,
+          "display_block_presence_fraction": 0.9375,
+          "text_presence_fraction": 0.991753,
+          "raw_font_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21
+          ]
+        },
+        {
+          "function": "I",
+          "raw_FONT_indexes": [
+            8
+          ],
+          "display_blocks": 1,
+          "covered_utf16": 76,
+          "display_block_presence_fraction": 0.0625,
+          "text_presence_fraction": 0.078351,
+          "raw_font_indexes": [
+            8
+          ]
+        },
+        {
+          "function": "F",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0,
+          "raw_font_indexes": []
+        }
+      ],
+      "first_paragraph_local_information_units": [
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "총기 효용",
+          "raw_FONT_index": 6
+        },
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "일반 군인 조건",
+          "raw_FONT_index": 6
+        }
+      ],
+      "distinct_human_count": null,
+      "person_referent_count_scope": "No unique-human count inferred from profile lists, collective labels or selected names.",
+      "paragraph_distribution": {
+        "p10": 10,
+        "median": 33,
+        "p90": 83,
+        "max": 123
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 149,
+        "p10": 5,
+        "median": 22,
+        "p90": 53,
+        "max": 91
+      },
+      "linguistic_sentence_count": null,
+      "voice_function_records": [
+        {
+          "function": "CHARACTER_SPEECH",
+          "raw_FONT_indexes": [
+            20,
+            23,
+            25,
+            26,
+            27,
+            29,
+            32,
+            33,
+            37,
+            44,
+            50,
+            51,
+            52,
+            59,
+            63,
+            66,
+            67,
+            68,
+            71,
+            72,
+            81
+          ],
+          "display_blocks": 21,
+          "text_utf16": 613,
+          "text_fraction_without_join": 0.156617,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "QUOTED_INNER",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "EVENT_ANNOUNCEMENT_SOURCE_UNSPECIFIED",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "MEDIATED_MACHINE_SPEECH",
+          "raw_FONT_indexes": [
+            97
+          ],
+          "display_blocks": 1,
+          "text_utf16": 33,
+          "text_fraction_without_join": 0.008431,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_EMAIL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_CLOCK",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_ENVIRONMENT_TEXT",
+          "raw_FONT_indexes": [
+            103
+          ],
+          "display_blocks": 1,
+          "text_utf16": 39,
+          "text_fraction_without_join": 0.009964,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_SYSTEM",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "NONVERBAL",
+          "raw_FONT_indexes": [
+            90,
+            93,
+            107
+          ],
+          "display_blocks": 3,
+          "text_utf16": 14,
+          "text_fraction_without_join": 0.003577,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        }
+      ],
+      "voice_text_denominator_without_join": 3914,
+      "past_scene": {
+        "kind": "CURRENT_CHOICE_AND_RECEIPT_WITH_BRIEF_TRAINING_REPORTS",
+        "brief_past_report_current_raw_FONT": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "separate_past_frame_transition": false,
+        "size": "Cadet education and protagonist military experience used as explanatory grounds; not standalone flashback.",
+        "current_frame": "Weapon negotiation, dorm/watch, room aiming interrupted at92, door/box/opening and laptop receipt112."
+      },
+      "central_event": "선택 책임을 수락하고 숙소·워치와 옛 노트북을 실제 받는다.",
+      "reward_distinctions": "가시적 성취: 현재 정보 접근·워치/방/노트북 수령; 정보: 조건/숙련 한계. 발사·노트북 권한 실행 없음.",
+      "ending_function": "도착 물건의 정체 인식",
+      "semantic_status": "INFERENCE_ROOT_MANUAL_REINSPECTION_NOT_INDEPENDENT",
+      "prefix_intersection_metadata": [
+        {
+          "raw_font_index": 6,
+          "start_utf16": 0,
+          "full_length_utf16": 49,
+          "covered_utf16": 49,
+          "complete": true
+        },
+        {
+          "raw_font_index": 7,
+          "start_utf16": 51,
+          "full_length_utf16": 60,
+          "covered_utf16": 60,
+          "complete": true
+        },
+        {
+          "raw_font_index": 8,
+          "start_utf16": 113,
+          "full_length_utf16": 76,
+          "covered_utf16": 76,
+          "complete": true
+        },
+        {
+          "raw_font_index": 9,
+          "start_utf16": 191,
+          "full_length_utf16": 53,
+          "covered_utf16": 53,
+          "complete": true
+        },
+        {
+          "raw_font_index": 10,
+          "start_utf16": 246,
+          "full_length_utf16": 71,
+          "covered_utf16": 71,
+          "complete": true
+        },
+        {
+          "raw_font_index": 11,
+          "start_utf16": 319,
+          "full_length_utf16": 55,
+          "covered_utf16": 55,
+          "complete": true
+        },
+        {
+          "raw_font_index": 12,
+          "start_utf16": 376,
+          "full_length_utf16": 41,
+          "covered_utf16": 41,
+          "complete": true
+        },
+        {
+          "raw_font_index": 13,
+          "start_utf16": 419,
+          "full_length_utf16": 94,
+          "covered_utf16": 94,
+          "complete": true
+        },
+        {
+          "raw_font_index": 14,
+          "start_utf16": 515,
+          "full_length_utf16": 34,
+          "covered_utf16": 34,
+          "complete": true
+        },
+        {
+          "raw_font_index": 15,
+          "start_utf16": 551,
+          "full_length_utf16": 78,
+          "covered_utf16": 78,
+          "complete": true
+        },
+        {
+          "raw_font_index": 16,
+          "start_utf16": 631,
+          "full_length_utf16": 49,
+          "covered_utf16": 49,
+          "complete": true
+        },
+        {
+          "raw_font_index": 17,
+          "start_utf16": 682,
+          "full_length_utf16": 91,
+          "covered_utf16": 91,
+          "complete": true
+        },
+        {
+          "raw_font_index": 18,
+          "start_utf16": 775,
+          "full_length_utf16": 40,
+          "covered_utf16": 40,
+          "complete": true
+        },
+        {
+          "raw_font_index": 19,
+          "start_utf16": 817,
+          "full_length_utf16": 98,
+          "covered_utf16": 98,
+          "complete": true
+        },
+        {
+          "raw_font_index": 20,
+          "start_utf16": 917,
+          "full_length_utf16": 8,
+          "covered_utf16": 8,
+          "complete": true
+        },
+        {
+          "raw_font_index": 21,
+          "start_utf16": 927,
+          "full_length_utf16": 83,
+          "covered_utf16": 73,
+          "complete": false
+        }
+      ],
+      "other_display_blocks_without_selected_direct_voice_tag": {
+        "raw_font_indexes": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          24,
+          28,
+          30,
+          31,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          45,
+          46,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          60,
+          61,
+          62,
+          64,
+          65,
+          69,
+          70,
+          73,
+          74,
+          75,
+          76,
+          80,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          91,
+          92,
+          94,
+          95,
+          99,
+          100,
+          101,
+          105,
+          106,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "display_blocks": 71,
+        "text_utf16": 3215,
+        "text_fraction_without_join": 0.82141,
+        "scope": "Remainder of inherited selected direct-voice tags; can contain narration/unquoted thought. Not total narration or total-inner proportion."
+      }
+    },
+    {
+      "chapter": 5,
+      "url": "https://www.joara.com/viewer?cid=ITOmhEB725y1eghNBhazsg==&bookCode=1301411&sortno=5",
+      "title": "소설 속 엑스트라 5화 - 조아라 : 스토리 본능을 깨우다",
+      "heading": "2장 동기화(1)",
+      "body_sha256": "76e1533610b109094c67900d5460ab7746d0fa4a2f613e16e3597f9aafb302ae",
+      "fresh_body_match": true,
+      "first1000_sha256": "ea29b9e10ced037b4ba8d5f317c01492fb777c86ac483e587efb0c90ffdf4d7a",
+      "prefix_nonempty_intersections": 21,
+      "prefix_text_utf16_without_join": 959,
+      "prefix_join_utf16": 41,
+      "prefix_intersections": [
+        {
+          "raw_FONT_index": 6,
+          "legacy_raw_FONT_index": 15,
+          "body_start_utf16": 0,
+          "full_display_block_utf16": 57,
+          "covered_utf16": 57
+        },
+        {
+          "raw_FONT_index": 7,
+          "legacy_raw_FONT_index": 16,
+          "body_start_utf16": 59,
+          "full_display_block_utf16": 58,
+          "covered_utf16": 58
+        },
+        {
+          "raw_FONT_index": 8,
+          "legacy_raw_FONT_index": 17,
+          "body_start_utf16": 119,
+          "full_display_block_utf16": 72,
+          "covered_utf16": 72
+        },
+        {
+          "raw_FONT_index": 9,
+          "legacy_raw_FONT_index": 18,
+          "body_start_utf16": 193,
+          "full_display_block_utf16": 30,
+          "covered_utf16": 30
+        },
+        {
+          "raw_FONT_index": 10,
+          "legacy_raw_FONT_index": 19,
+          "body_start_utf16": 225,
+          "full_display_block_utf16": 47,
+          "covered_utf16": 47
+        },
+        {
+          "raw_FONT_index": 11,
+          "legacy_raw_FONT_index": 20,
+          "body_start_utf16": 274,
+          "full_display_block_utf16": 29,
+          "covered_utf16": 29
+        },
+        {
+          "raw_FONT_index": 12,
+          "legacy_raw_FONT_index": 21,
+          "body_start_utf16": 305,
+          "full_display_block_utf16": 30,
+          "covered_utf16": 30
+        },
+        {
+          "raw_FONT_index": 13,
+          "legacy_raw_FONT_index": 22,
+          "body_start_utf16": 337,
+          "full_display_block_utf16": 29,
+          "covered_utf16": 29
+        },
+        {
+          "raw_FONT_index": 14,
+          "legacy_raw_FONT_index": 23,
+          "body_start_utf16": 368,
+          "full_display_block_utf16": 45,
+          "covered_utf16": 45
+        },
+        {
+          "raw_FONT_index": 15,
+          "legacy_raw_FONT_index": 24,
+          "body_start_utf16": 415,
+          "full_display_block_utf16": 25,
+          "covered_utf16": 25
+        },
+        {
+          "raw_FONT_index": 16,
+          "legacy_raw_FONT_index": 25,
+          "body_start_utf16": 442,
+          "full_display_block_utf16": 73,
+          "covered_utf16": 73
+        },
+        {
+          "raw_FONT_index": 17,
+          "legacy_raw_FONT_index": 26,
+          "body_start_utf16": 517,
+          "full_display_block_utf16": 34,
+          "covered_utf16": 34
+        },
+        {
+          "raw_FONT_index": 18,
+          "legacy_raw_FONT_index": 27,
+          "body_start_utf16": 553,
+          "full_display_block_utf16": 44,
+          "covered_utf16": 44
+        },
+        {
+          "raw_FONT_index": 19,
+          "legacy_raw_FONT_index": 28,
+          "body_start_utf16": 599,
+          "full_display_block_utf16": 51,
+          "covered_utf16": 51
+        },
+        {
+          "raw_FONT_index": 20,
+          "legacy_raw_FONT_index": 29,
+          "body_start_utf16": 652,
+          "full_display_block_utf16": 52,
+          "covered_utf16": 52
+        },
+        {
+          "raw_FONT_index": 21,
+          "legacy_raw_FONT_index": 30,
+          "body_start_utf16": 706,
+          "full_display_block_utf16": 82,
+          "covered_utf16": 82
+        },
+        {
+          "raw_FONT_index": 22,
+          "legacy_raw_FONT_index": 31,
+          "body_start_utf16": 790,
+          "full_display_block_utf16": 15,
+          "covered_utf16": 15
+        },
+        {
+          "raw_FONT_index": 23,
+          "legacy_raw_FONT_index": 32,
+          "body_start_utf16": 807,
+          "full_display_block_utf16": 11,
+          "covered_utf16": 11
+        },
+        {
+          "raw_FONT_index": 24,
+          "legacy_raw_FONT_index": 33,
+          "body_start_utf16": 820,
+          "full_display_block_utf16": 59,
+          "covered_utf16": 59
+        },
+        {
+          "raw_FONT_index": 25,
+          "legacy_raw_FONT_index": 34,
+          "body_start_utf16": 881,
+          "full_display_block_utf16": 50,
+          "covered_utf16": 50
+        },
+        {
+          "raw_FONT_index": 26,
+          "legacy_raw_FONT_index": 35,
+          "body_start_utf16": 933,
+          "full_display_block_utf16": 66,
+          "covered_utf16": 66
+        }
+      ],
+      "first1000_all_display_blocks_coded": [
+        {
+          "function": "A",
+          "raw_FONT_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "display_blocks": 19,
+          "covered_utf16": 843,
+          "display_block_presence_fraction": 0.904762,
+          "text_presence_fraction": 0.879041,
+          "raw_font_indexes": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "function": "E",
+          "raw_FONT_indexes": [
+            6,
+            18,
+            19,
+            24,
+            25,
+            26
+          ],
+          "display_blocks": 6,
+          "covered_utf16": 327,
+          "display_block_presence_fraction": 0.285714,
+          "text_presence_fraction": 0.34098,
+          "raw_font_indexes": [
+            6,
+            18,
+            19,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "function": "I",
+          "raw_FONT_indexes": [
+            8,
+            13,
+            14,
+            19,
+            20,
+            24
+          ],
+          "display_blocks": 6,
+          "covered_utf16": 308,
+          "display_block_presence_fraction": 0.285714,
+          "text_presence_fraction": 0.321168,
+          "raw_font_indexes": [
+            8,
+            13,
+            14,
+            19,
+            20,
+            24
+          ]
+        },
+        {
+          "function": "F",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "covered_utf16": 0,
+          "display_block_presence_fraction": 0.0,
+          "text_presence_fraction": 0.0,
+          "raw_font_indexes": []
+        }
+      ],
+      "first_paragraph_local_information_units": [
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "현재 숙소 위치",
+          "raw_FONT_index": 6
+        },
+        {
+          "kind": "LOCAL_INFORMATION_FUNCTION",
+          "paraphrase": "여섯 생도 현재 존재",
+          "raw_FONT_index": 6
+        }
+      ],
+      "distinct_human_count": null,
+      "person_referent_count_scope": "No unique-human count inferred from profile lists, collective labels or selected names.",
+      "paragraph_distribution": {
+        "p10": 7,
+        "median": 27,
+        "p90": 73,
+        "max": 99
+      },
+      "automatic_sentence_boundary_distribution": {
+        "count": 200,
+        "p10": 6,
+        "median": 16,
+        "p90": 43,
+        "max": 72
+      },
+      "linguistic_sentence_count": null,
+      "voice_function_records": [
+        {
+          "function": "CHARACTER_SPEECH",
+          "raw_FONT_indexes": [
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20,
+            23,
+            24,
+            27,
+            28,
+            30,
+            31,
+            33,
+            34,
+            37,
+            38,
+            39,
+            40,
+            41,
+            47,
+            49,
+            50,
+            51,
+            61,
+            64,
+            65,
+            67,
+            69,
+            70,
+            71,
+            72,
+            76,
+            78,
+            79,
+            81,
+            83,
+            84,
+            85,
+            87,
+            88,
+            89,
+            90,
+            102,
+            130
+          ],
+          "display_blocks": 46,
+          "text_utf16": 1234,
+          "text_fraction_without_join": 0.297278,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "QUOTED_INNER",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "EVENT_ANNOUNCEMENT_SOURCE_UNSPECIFIED",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "MEDIATED_MACHINE_SPEECH",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_EMAIL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_CLOCK",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_ENVIRONMENT_TEXT",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "UI_SYSTEM",
+          "raw_FONT_indexes": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            139,
+            140,
+            141
+          ],
+          "display_blocks": 27,
+          "text_utf16": 253,
+          "text_fraction_without_join": 0.060949,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        },
+        {
+          "function": "NONVERBAL",
+          "raw_FONT_indexes": [],
+          "display_blocks": 0,
+          "text_utf16": 0,
+          "text_fraction_without_join": 0.0,
+          "annotation_scope": "Inherited context-coded first5 body blocks mapped by9FONT offset; not new independent semantic recoding."
+        }
+      ],
+      "voice_text_denominator_without_join": 4151,
+      "past_scene": {
+        "kind": "THREE_CURRENT_SCENE_FOCUSES_WITH_BRIEF_PAST_REPORTS",
+        "current_scene_focus_ranges": [
+          [
+            6,
+            52
+          ],
+          [
+            56,
+            96
+          ],
+          [
+            100,
+            141
+          ]
+        ],
+        "brief_past_report_current_raw_FONT": [
+          18,
+          69,
+          75,
+          131
+        ],
+        "separate_past_frame_transition": false,
+        "size": "Childhood mention, age-seven training report, prior-belief report and writing-format recollection; three current scene focuses are not past scenes.",
+        "other_character_thought_current_raw_FONT": 45,
+        "protagonist_first_person_return_current_raw_FONT": 100,
+        "current_frame": "Male cadets living room, training room, protagonist room; other-character first-person thought is not protagonist knowledge."
+      },
+      "central_event": "현재 타 인물 관계/훈련 뒤 주인공의 동기화·초기화·권한 통지가 발생한다.",
+      "reward_distinctions": "정보/전제: 동기화139·초기화140·편집 권한 습득141의 현재UI 통지. 실제 편집 실행·제대로 활용한 성과·전투 승리 없음.",
+      "ending_function": "현재UI 권한 통지와 신체/설정 의문",
+      "semantic_status": "INFERENCE_ROOT_MANUAL_REINSPECTION_NOT_INDEPENDENT",
+      "prefix_intersection_metadata": [
+        {
+          "raw_font_index": 6,
+          "start_utf16": 0,
+          "full_length_utf16": 57,
+          "covered_utf16": 57,
+          "complete": true
+        },
+        {
+          "raw_font_index": 7,
+          "start_utf16": 59,
+          "full_length_utf16": 58,
+          "covered_utf16": 58,
+          "complete": true
+        },
+        {
+          "raw_font_index": 8,
+          "start_utf16": 119,
+          "full_length_utf16": 72,
+          "covered_utf16": 72,
+          "complete": true
+        },
+        {
+          "raw_font_index": 9,
+          "start_utf16": 193,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_font_index": 10,
+          "start_utf16": 225,
+          "full_length_utf16": 47,
+          "covered_utf16": 47,
+          "complete": true
+        },
+        {
+          "raw_font_index": 11,
+          "start_utf16": 274,
+          "full_length_utf16": 29,
+          "covered_utf16": 29,
+          "complete": true
+        },
+        {
+          "raw_font_index": 12,
+          "start_utf16": 305,
+          "full_length_utf16": 30,
+          "covered_utf16": 30,
+          "complete": true
+        },
+        {
+          "raw_font_index": 13,
+          "start_utf16": 337,
+          "full_length_utf16": 29,
+          "covered_utf16": 29,
+          "complete": true
+        },
+        {
+          "raw_font_index": 14,
+          "start_utf16": 368,
+          "full_length_utf16": 45,
+          "covered_utf16": 45,
+          "complete": true
+        },
+        {
+          "raw_font_index": 15,
+          "start_utf16": 415,
+          "full_length_utf16": 25,
+          "covered_utf16": 25,
+          "complete": true
+        },
+        {
+          "raw_font_index": 16,
+          "start_utf16": 442,
+          "full_length_utf16": 73,
+          "covered_utf16": 73,
+          "complete": true
+        },
+        {
+          "raw_font_index": 17,
+          "start_utf16": 517,
+          "full_length_utf16": 34,
+          "covered_utf16": 34,
+          "complete": true
+        },
+        {
+          "raw_font_index": 18,
+          "start_utf16": 553,
+          "full_length_utf16": 44,
+          "covered_utf16": 44,
+          "complete": true
+        },
+        {
+          "raw_font_index": 19,
+          "start_utf16": 599,
+          "full_length_utf16": 51,
+          "covered_utf16": 51,
+          "complete": true
+        },
+        {
+          "raw_font_index": 20,
+          "start_utf16": 652,
+          "full_length_utf16": 52,
+          "covered_utf16": 52,
+          "complete": true
+        },
+        {
+          "raw_font_index": 21,
+          "start_utf16": 706,
+          "full_length_utf16": 82,
+          "covered_utf16": 82,
+          "complete": true
+        },
+        {
+          "raw_font_index": 22,
+          "start_utf16": 790,
+          "full_length_utf16": 15,
+          "covered_utf16": 15,
+          "complete": true
+        },
+        {
+          "raw_font_index": 23,
+          "start_utf16": 807,
+          "full_length_utf16": 11,
+          "covered_utf16": 11,
+          "complete": true
+        },
+        {
+          "raw_font_index": 24,
+          "start_utf16": 820,
+          "full_length_utf16": 59,
+          "covered_utf16": 59,
+          "complete": true
+        },
+        {
+          "raw_font_index": 25,
+          "start_utf16": 881,
+          "full_length_utf16": 50,
+          "covered_utf16": 50,
+          "complete": true
+        },
+        {
+          "raw_font_index": 26,
+          "start_utf16": 933,
+          "full_length_utf16": 66,
+          "covered_utf16": 66,
+          "complete": true
+        }
+      ],
+      "other_display_blocks_without_selected_direct_voice_tag": {
+        "raw_font_indexes": [
+          6,
+          7,
+          8,
+          10,
+          11,
+          16,
+          17,
+          21,
+          22,
+          25,
+          26,
+          29,
+          32,
+          35,
+          36,
+          42,
+          43,
+          44,
+          45,
+          46,
+          48,
+          52,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          63,
+          66,
+          68,
+          73,
+          74,
+          75,
+          77,
+          80,
+          82,
+          86,
+          91,
+          93,
+          94,
+          95,
+          96,
+          100,
+          101,
+          103,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137
+        ],
+        "display_blocks": 53,
+        "text_utf16": 2664,
+        "text_fraction_without_join": 0.641773,
+        "scope": "Remainder of inherited selected direct-voice tags; can contain narration/unquoted thought. Not total narration or total-inner proportion."
+      }
+    }
+  ],
+  "minimum_scene_samples": [
+    {
+      "kind": "EXPOSITION",
+      "chapter": 4,
+      "url": "https://www.joara.com/viewer?cid=954suqlSmn58GCVT/djKcQ==&bookCode=1301411&sortno=4",
+      "raw_FONT": [
+        6,
+        19
+      ],
+      "legacy_raw_FONT": [
+        15,
+        28
+      ],
+      "blocks": 14,
+      "text_utf16": 889,
+      "region_sha256": "25c89570bcee8db29949ba81ee3e46c6e6dd9592c67cc85fbf88dca1d07a44ff",
+      "observed_function_stages": [
+        "총기 현재 위력 규칙",
+        "성장 한계·등급 대조",
+        "신화 무기 예시",
+        "숙련도 사용 조건",
+        "선택 제약"
+      ],
+      "function_stages_count": 5,
+      "local_proxy_stages_per_1000_utf16": 5.624297,
+      "stage_count_scope": "Nonuniform selected functional stages, not atomic events, complete action frequency or scene-quality/professional-density measure."
+    },
+    {
+      "kind": "DIALOGUE",
+      "chapter": 4,
+      "url": "https://www.joara.com/viewer?cid=954suqlSmn58GCVT/djKcQ==&bookCode=1301411&sortno=4",
+      "raw_FONT": [
+        20,
+        46
+      ],
+      "legacy_raw_FONT": [
+        29,
+        55
+      ],
+      "blocks": 27,
+      "text_utf16": 1097,
+      "region_sha256": "13dfce5bc37b9ca0c69fbaf65e177bd32ee96160464503685bd8f294e2d48463",
+      "observed_function_stages": [
+        "호명·개인정보 조회",
+        "기존 무기 질문",
+        "변경 답변",
+        "선택 책임 명시",
+        "소문·반응",
+        "시험 공통 조건",
+        "부족한 경험·군대 경험 근거",
+        "선정 완료"
+      ],
+      "function_stages_count": 8,
+      "local_proxy_stages_per_1000_utf16": 7.292616,
+      "stage_count_scope": "Nonuniform selected functional stages, not atomic events, complete action frequency or scene-quality/professional-density measure."
+    },
+    {
+      "kind": "PHYSICAL_MOVEMENT",
+      "chapter": 4,
+      "url": "https://www.joara.com/viewer?cid=954suqlSmn58GCVT/djKcQ==&bookCode=1301411&sortno=4",
+      "raw_FONT": [
+        80,
+        112
+      ],
+      "legacy_raw_FONT": [
+        89,
+        121
+      ],
+      "blocks": 29,
+      "text_utf16": 885,
+      "region_sha256": "68204b0c12633c6c948265135c29dc986a7b94a1873f463af05cfd263a7e2db4",
+      "observed_function_stages": [
+        "현재 방·소파·권총",
+        "시험 발사 의도",
+        "기립·조준·손가락 위치",
+        "벨로 중단",
+        "권총 내려두기·문 열기",
+        "박스 발견·반입·탁자 배치",
+        "테이프 개봉",
+        "노트북 식별"
+      ],
+      "function_stages_count": 8,
+      "local_proxy_stages_per_1000_utf16": 9.039548,
+      "stage_count_scope": "Nonuniform selected functional stages, not atomic events, complete action frequency or scene-quality/professional-density measure."
+    }
+  ],
+  "minimum_comparison_record_ready": true,
+  "minimum_work_records_ready": 3,
+  "minimum_work_records_target": 10,
+  "minimum_count_role": "Cumulative preparation checkpoint after SGRADE and BUSINESS records; not whole P3 completed works or new chapter count.",
+  "whole_P3_final": false,
+  "G11_final": false,
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "actual_episode_packs": 0,
+  "raw_novel_text_retained": false,
+  "raw_novel_text_uploaded": false,
+  "independent_semantic_authentication": false,
+  "checker_authenticates_semantics": false,
+  "freeze": "v0.30 PARTIAL",
+  "gate": "CLOSED",
+  "fresh_raw_wrapper_sha256_recorded": false,
+  "fresh_full_canonical_measurement_sha256": null,
+  "fresh_capture_limit": "Only normalized full-body identity matches5/5 and supplied exact-prefix/selected-scene hashes were recorded for fresh capture. Current raw wrapper hashes differ from inherited wrapper; no full raw/canonical measurement identity was observed or claimed.",
+  "conditional_outcome_scope": "AEI presence alone cannot certify success; read separate central_event/reward_functions/past_scene outcome and conditions."
+}
