@@ -48,6 +48,14 @@ def build(source, prior):
     assert prior['public_pick_terms']['fournier']['first_second'] == '2025 less favorable BOS/MEM'
     assert source['gordon_following_pick']['terminal_conversion'] is None
     assert source['boston_2025_chain']['post_trade_first_party_snapshot_source_id'] == 'BP_MAGIC_JUNE_PICK_INVENTORY'
+    origin = source['denver_preceding_pick']['historical_primary_origin']
+    primary = next(r for r in source['references'] if r['id'] == origin['source_id'])
+    assert origin['named_conditional_pick_year'] == 2023
+    assert origin['historical_rights_counterparty'] == 'MIL'
+    assert primary['printed_pages'] == [278, 279]
+    assert origin['support_scope'] == 'HISTORICAL_TRANSACTION_AND_NAMED_YEAR_ONLY'
+    assert origin['complete_deferral_terms_verified'] is False
+    assert source['denver_preceding_pick']['contract_text_verified'] is False
     tpe = source['boston_tpe']
     comparisons = [{'charge_test_usd': c,
                     'balance_if_no_prior_use_usd': tpe_remaining(tpe['opening_usd'], c, 0),
@@ -73,7 +81,17 @@ def build(source, prior):
             'BOS_2027_2R_full_priority_and_terms_verified': False,
         },
         'Denver': {
+            'historical_primary_origin': dict(origin),
             '2025_top5_posttrade_team_snapshot': source['gordon_following_pick']['first_party_2025_top5_snapshot_source_id'] == 'BP_MAGIC_JUNE_PICK_INVENTORY',
+            '2025_top5_snapshot_provenance': {
+                'source_id': 'BP_MAGIC_JUNE_PICK_INVENTORY',
+                'as_of': '2021-06-10',
+                'scope': 'HISTORICAL_POSTTRADE_SNAPSHOT_NOT_CONTRACT_OR_ALTERNATE_DELIVERY',
+            },
+            'preceding_terms_provenance': {
+                'source_id': source['denver_preceding_pick']['source_id'],
+                'scope': 'SECONDARY_REPORTED_CONDITIONS_NOT_SELECTED_OUTCOME',
+            },
             'preceding_reported_terminal_conversion': source['denver_preceding_pick']['reported_terminal_conversion'],
             'preceding_examples_not_outcomes': [preceding_denver(s, source['denver_preceding_pick']) for s in examples],
             'selected_preceding_result': preceding_denver({}, source['denver_preceding_pick']),

@@ -53,6 +53,19 @@ class AssetChainTests(unittest.TestCase):
         with self.assertRaises(AssertionError):
             b.build(self.s, self.p)
 
+    def test_grant_2020_pick_cannot_replace_hampton_2023_reference(self):
+        origin = self.s['denver_preceding_pick']['historical_primary_origin']
+        origin['named_conditional_pick_year'] = 2020
+        with self.assertRaises(AssertionError):
+            b.build(self.s, self.p)
+
+    def test_named_year_does_not_certify_deferral_or_contract(self):
+        origin = self.s['denver_preceding_pick']['historical_primary_origin']
+        self.assertFalse(b.build(self.s, self.p)['Denver']['complete_stepien_and_ownership_certified'])
+        origin['complete_deferral_terms_verified'] = True
+        with self.assertRaises(AssertionError):
+            b.build(self.s, self.p)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,177 @@
+{
+  "baseline_main": "593df2415c3847761e4e9adcd8adf126a5f46ec6",
+  "date": "2026-10-02",
+  "novel_original_supplied": false,
+  "antigravity": {
+    "preflight": "exit2 invalid --print-timeout 45; not a service call",
+    "actual_readonly_attempt": "--print-timeout 45s, no commands/delegation/writes requested",
+    "status": "PROCESS_TIMEOUT",
+    "subprocess_timeout_seconds": 53,
+    "temporary_cleanup_error": "WinError32 then WinError5; masked timeout result writer",
+    "final_evidence_count": 0,
+    "timeout_cause": "UNDETERMINED; no login or global MCP diagnosis",
+    "raw_result_json": "NOT_WRITTEN; stale preflight JSON not adopted"
+  },
+  "nlm": {
+    "scope": "NEW_PRIMARY_2023_ORIGIN_ONLY_NOT_ALTERNATE_TRANSACTION_OR_FULL_LEGAL_PROOF",
+    "novel_original_supplied": false,
+    "original_pdf_url": "https://kseblobstorage.blob.core.windows.net/sitefiles/pdf/DN_MediaGuide_2122_Digital.pdf",
+    "original_pdf_sha256": "248c91faeb5d3f64ceb747d2135f6ac65fb55a2d71dcb4a92db02f81732f19a6",
+    "excerpt_original_pdf_indices": [
+      0,
+      279,
+      280
+    ],
+    "excerpt_sha256": "561e53f127bb9ce35b2ebc49c95fd08c8e427974652c3f4c1098338001f8b4fd",
+    "import": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "source_type": "file",
+        "source_id": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+        "title": "Denver official 2021-22 guide transactions printed278-279"
+      },
+      "elapsed_seconds": 17.627,
+      "stderr": ""
+    },
+    "source_id": "e0be29bb-1317-41c6-a828-252a4c7c9520",
+    "analysis": {
+      "status": "PROCESS_TIMEOUT",
+      "elapsed_seconds": 46.32
+    }
+  },
+  "claude": {
+    "scope": "NEW_PRIMARY_2023_ORIGIN_ONLY_NOT_ALTERNATE_TRANSACTION_OR_FULL_LEGAL_PROOF",
+    "novel_original_supplied": false,
+    "own_derivative_prompt": "한국어3줄 반증. NBA팀2021-22공식미디어가이드의인쇄278에는2019Grant대가2020first,인쇄279에는2020-11-23Milwaukee에서Hampton권리취득대가conditional2023first가명시. 2023최초연도만1차근거로보강하되top14보호/2025+26second전환은기존2차보도, Gordon후행연결null, salary charge원문없음. 대체Nnaji24방향은이미별도승인이고실제Hampton이동복사안함. F0/5A0/3K0/4유지. 이 논리가 원자료보다과장됐을수있는점1개와전체완료로승격불가이유1개. 도구/재검색없이즉시답하라.",
+    "result": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "is_error": false,
+        "subtype": "success",
+        "result": "- 과장 가능점: 가이드 278/279는 \"2020-11-23 Hampton 권리 취득 대가 = conditional 2023 first\"라는 거래 기재일 뿐, 이를 \"2023이 확정된 최초 양도연도\"로 읽는 건 원문에 없는 해석 한 겹을 더한 것 — 조건 미충족 시 이연 구조가 명시되지 않았으므로 \"최초연도\" 자체가 1차 확증이 아니라 추정에 가깝다.\n- 승격 불가 이유: 핵심 조건 필드(top-14 보호, 2025+26 second 전환)가 여전히 2차 보도 단일 경로이고 Gordon 후행 연결이 null·salary charge 원문 부재라, 1차 근거는 \"거래 존재\"만 덮고 \"조건 구조\"는 못 덮으므로 체인이 끊긴 상태다.\n- 따라서 F0/5·A0/3·K0/4 유지가 맞고, Nnaji24 대체방향은 별도 승인건으로 이 레코드의 완결성에 기여하지 않는다(실제 Hampton 이동 복사 금지도 그대로 유지).",
+        "stop_reason": "end_turn",
+        "terminal_reason": "completed"
+      },
+      "elapsed_seconds": 19.797,
+      "stderr": ""
+    }
+  },
+  "blind": {
+    "scope": "RESULT_ONLY_LIMITED_BLIND_NOT_PRIMARY_SOURCE_OR_PROJECT_WIDE_AUDIT",
+    "previous_reviews_supplied": false,
+    "input": {
+      "Denver": {
+        "historical_primary_origin": {
+          "source_id": "BP_DEN_2122_PRIMARY_ORIGIN",
+          "historical_transaction_date": "2020-11-23",
+          "historical_rights_counterparty": "MIL",
+          "named_conditional_pick_year": 2023,
+          "support_scope": "HISTORICAL_TRANSACTION_AND_NAMED_YEAR_ONLY",
+          "complete_deferral_terms_verified": false,
+          "onward_ownership_chain_verified": false,
+          "alternate_transaction_adopted": false
+        },
+        "2025_top5_posttrade_team_snapshot": true,
+        "preceding_reported_terminal_conversion": [
+          {
+            "team": "DEN",
+            "year": 2025,
+            "round": 2
+          },
+          {
+            "team": "DEN",
+            "year": 2026,
+            "round": 2
+          }
+        ],
+        "preceding_examples_not_outcomes": [
+          {
+            "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+            "year": 2023,
+            "asset": {
+              "team": "DEN",
+              "year": 2023,
+              "round": 1,
+              "pick": 15
+            }
+          },
+          {
+            "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+            "year": 2024,
+            "asset": {
+              "team": "DEN",
+              "year": 2024,
+              "round": 1,
+              "pick": 15
+            }
+          },
+          {
+            "status": "CONDITIONAL_FIRST_ROUND_DELIVERY",
+            "year": 2025,
+            "asset": {
+              "team": "DEN",
+              "year": 2025,
+              "round": 1,
+              "pick": 15
+            }
+          },
+          {
+            "status": "CONDITIONAL_REPORTED_SECOND_ROUND_CONVERSION",
+            "year": 2025,
+            "asset": [
+              {
+                "team": "DEN",
+                "year": 2025,
+                "round": 2
+              },
+              {
+                "team": "DEN",
+                "year": 2026,
+                "round": 2
+              }
+            ]
+          }
+        ],
+        "selected_preceding_result": {
+          "status": "WAIT_FOR_OUTCOME",
+          "year": 2023,
+          "asset": null
+        },
+        "conditional_nonconsecutive_calendar": [
+          {
+            "preceding_delivery_year": 2023,
+            "earliest_gordon_test_year": 2025
+          },
+          {
+            "preceding_delivery_year": 2024,
+            "earliest_gordon_test_year": 2026
+          },
+          {
+            "preceding_delivery_year": 2025,
+            "earliest_gordon_test_year": 2027
+          }
+        ],
+        "gordon_after_preceding_conversion": null,
+        "gordon_terminal_conversion": null,
+        "complete_stepien_and_ownership_certified": false
+      },
+      "exact_execution_cleared": false,
+      "season_selected": false
+    },
+    "result": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "response": {
+        "is_error": false,
+        "subtype": "success",
+        "result": "1. **모순**: `preceding_reported_terminal_conversion`에 2025·2026년 2라운드가 \"terminal(최종) 전환\"으로 기재됐지만, 같은 항목이 `preceding_examples_not_outcomes`에서는 \"CONDITIONAL_REPORTED\"(확정 아님·예시)로 분류되고 `selected_preceding_result`는 `WAIT_FOR_OUTCOME`/`asset: null`, `gordon_terminal_conversion`도 null이다 — 동일 자산이 확정·미확정으로 동시에 기록돼 순환 참조 상태다.\n\n2. **잘못된 확정**: `support_scope`가 \"역사적 거래와 지명 연도만\"이고 `complete_deferral_terms_verified`·`onward_ownership_chain_verified`·`complete_stepien_and_ownership_certified`가 모두 false인데, `2025_top5_posttrade_team_snapshot: true`만 근거·기준시점 없는 단독 불리언으로 단정되어 범위를 초과한다. 2023·2024·2025 세 해 모두 `pick: 15`로 동일한 것도 실데이터가 아닌 템플릿/플레이스홀더 의심 신호다.\n\n3. **빠진 의존성**: `conditional_nonconsecutive_calendar`를 적용하려면 선행 인도연도가 확정돼야 하는데 선택값이 null이라 `earliest_gordon_test_year`(2025/2026/2027) 중 어느 분기도 해소되지 않고, Stepien 규칙 인증·후속 소유권 체인·전체 연기조건이 모두 미검증인 상태에서 `exact_execution_cleared: false`, `season_selected: false`로 남아 결론 산출의 전제가 비어 있다.",
+        "stop_reason": "end_turn",
+        "terminal_reason": "completed"
+      },
+      "stderr": ""
+    },
+    "elapsed_seconds": 24.625
+  }
+}
