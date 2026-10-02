@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-02 현재 선택/검증 구분: [S2원장](../control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.
+
 2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 

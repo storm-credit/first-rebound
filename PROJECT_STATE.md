@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 현재 선택/검증 구분: [S2원장](control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.
+
 2026-10-02 [2021플레이오프 결과 설계](simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json): DEN–LAL보존+신규14개로15시리즈 승자/길이 설계 채택. MIL우승/PHX준우승, 새PHX–LAL7경기와서부부하변경 명시. 15고유탈락/후속연결 검사PASS; 건강·등록·날짜·점수·법적12행과전체시즌 실행HOLD·미완료6·원고CLOSED.
 
 2026-10-02 [시리즈 외부 분석 회수/처분](reviews/DEN_LAL_2021_DELEGATED_SERIES_REVIEW.md): AG인자120s교정 후90.029초 응답 회수지만 전부본문미확인·새검증원자료0. NLMtext등록9.859초/자체출처분석52.938초 회수; 승인된Bey/Hartenstein 경로를 역사명단과 혼동한 모순지적 기각. Claude65.099초timeout·반증본문0. H00과별도playoff가용성/목록밖선수DNP미확정/후속회복미상속 범위명시. LAL4–2/분배 변경0·법적12HOLD·미완료6·freezePARTIAL·CLOSED.
