@@ -24,8 +24,8 @@ for ordinal, expected in milestones.items():
     game = games[ordinal - 1]
     actual = (game["date"], game["away"], game["home"])
     assert actual == expected, (ordinal, actual, expected)
-    print(f"DET game {ordinal:02}: {game['date']} {game['away']}@{game['home']}; all-active count {ordinal}/50")
+    print(f"DET game {ordinal:02}: {game['date']} {game['away']}@{game['home']}; all-active count {ordinal}; opening-limit-only stress {ordinal}/50")
 
-assert 55 - 50 == 5  # minimum inactive by game 55 if active on game 55
-assert 82 - 50 == 32  # minimum inactive across a full 82-game two-way season
-print("PASS: calendar ceiling only; no actual or alternate active-list status inferred")
+assert 55 - 50 == 5  # conditional only: opening 50-game limit retained through game 55
+assert 82 - 50 == 32  # conditional only: opening 50-game limit retained all season
+print("PASS: 82-date calendar and conditional arithmetic; season-long 50-game limit NOT certified; exception effective dates/payroll HOLD")

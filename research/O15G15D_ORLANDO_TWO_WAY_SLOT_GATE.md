@@ -1,5 +1,7 @@
 # O-15G15D — Orlando 2022-01-23 투웨이 자리와 세 번째 가드 경로
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 기준 `main` `1605e6b` (PR #186). [G15B의 두 조건부 240분 증명](../simulation/CHICAGO_2021_22_G15B_REVIEW.md)과 [G15C 계약 연표](O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md)를 잇는 **자리 분류 감사**다. 어느 계약·출전·승패도 새로 채택하지 않는다.
 - 1차 규칙: [NBA Communications 2021-07-27 공식 발표, Roster-Related Rules](https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/). 2021–22 기본 동시 계약 한도는 표준 NBA 계약 **15명 + 투웨이 2명**, 한 경기 활동 명단은 최대 **15명**, 각 투웨이 선수의 정규시즌 활동 명단은 최대 **50경기**다. 같은 시즌 투웨이 계약의 1월 15일 서명 마감은 적용하지 않는다. 하드십 추가 자리의 별도 허가 여부는 이 발표만으로 판정하지 않는다.
 - 원역사 날짜: [Orlando 2022–23 공식 미디어 가이드](https://cdn.nba.com/teams/uploads/sites/1610612753/2022/11/orlando-magic-media-guide-2022-23.pdf) 인쇄 230–231쪽(파일 117쪽). 이는 **사후 거래 연표**이며 대체세계의 실제 계약서가 아니다.

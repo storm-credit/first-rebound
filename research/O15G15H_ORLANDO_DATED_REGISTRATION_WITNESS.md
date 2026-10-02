@@ -1,5 +1,7 @@
 # O-15G15H — Orlando 1/23 양수 분 선수의 날짜별 등록 자리 증명
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 기준 `main` `a84bc95` (PR #191). [G15E의 10/16형 16/17명 반례](O15G15E_ORLANDO_STANDARD_SLOT_BRIDGE.md), [G15F의 비용 사건](O15G15F_ORLANDO_OFFSEASON_BRANCH_COSTS.md), [G15G Aminu 후속](O15G15G_AMINU_DEROZAN_CAUSAL_LEDGER.md)을 [G15B의 두 240분 증명](../simulation/CHICAGO_2021_22_G15B_REVIEW.md)에 **날짜별로** 연결한다.
 - 상태: `NAMED_SLOT_WITNESS_ONLY / CONTRACT_MEDICAL_ROLE_HOLD`. 원역사 roster를 대체세계의 실제 계약·의료 명단으로 확정하지 않는다. 새 선수 이동·경기 결과·시즌 선택은 0건이다.
 - 외부 1차 근거: [NBA 2021–22 로스터 규칙](https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/)의 `Roster-Related Rules`(표준 15·투웨이 2·경기 활동 최대 15·투웨이 선수별 활동 최대 50경기), [NBA 2022-01-23 17:30 ET 부상 보고서](https://ak-static.cms.nba.com/referee/injury/Injury-Report_2022-01-23_05PM.pdf) 2쪽의 원역사 Orlando `Out` 7명. [NBA의 2017 CBA 요약](https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf)은 일반적으로 표준 14 또는 15명을 요구하고 리그 전체 평균에 따른 15명 최소치 발동 조건을 둔다. 계약일 계보는 [G15C](O15G15C_ORLANDO_CONTRACT_CHRONOLOGY.md)와 [G15D](O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md)를 재사용한다.
