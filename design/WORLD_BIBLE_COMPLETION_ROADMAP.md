@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-02 현재 선택/검증 구분: [S2원장](../control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.
+
 2026-10-02 [10작품 질적 표본 비교 종료](../reviews/G11_TEN_WORK_CLOSEOUT_REVIEW_2026_10_02.md): 수정 독서110/110·핵심20화4/4·공통14항목 준비10/10·남은0, 교차기능6·맹점12의 합성과 House Style 후보를 검토했다. SAMPLE_GATE_COMPLETE는 질적 기능 비교만이며 정확 숫자P3·FULL_TEXT_FINAL·S1 최초 작가 승인·G11최종은 별도HOLD다. NotebookLM 단일 파생 출처 분석·Claude 제한 결과물 blind 응답 회수, Claude 방법 반증58초 timeout·AG 이번 소설 신규수집 NOT_RUN. 원계획 접근부채15·실제Pack0/설계샘플2·원고0·S2 F0/5 A0/3 K0/4/법적 증거12·미선택 건강/시즌·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED. 아래 준비4/10·95/110 등은 당시 이력이다.
 
 2026-10-02 [전독시 수동 시각 최소 기록](../reviews/G11_ORV_VISUAL_MINIMUM_REVIEW_2026_10_02.md): 공식 첫5회차의 초반·설명/대화/물리·말미와14칸을 묶어 준비4/10(서로 다른 DOM3+시각1)·남은6작품이다. 수동 초반p2–8은 보수창이며 정확1000 경계/밀도/비율/본문지문null; 전사 진단값을 원문 계측으로 승격하지 않는다. Claude 반증·NotebookLM 제한 재분석은 실제 응답 회수, 독립 원문/전체source-blind는 미완료. 수정독서110/110·원계획 접근부채15·새독서0·전체P3/G11 HOLD·실제Pack0·원고0·S2 F0/5 A0/3 K0/4·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED.
