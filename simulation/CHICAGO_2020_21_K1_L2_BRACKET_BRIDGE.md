@@ -1,5 +1,7 @@
 # O-15F14-AT — K1/L2 조건부 플레이오프 대진 연결
 
+2026-10-02 최신 권위: [위임 후속 선택](../canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json)으로 기존 K1/L2 첫 라운드 대진과 사전등록 첫 추첨의 원소유 순번을 설계 경로로 채택했다. 재추첨/seed 탐색0. Chicago 원소유10·39 및 NOP 스왑 미행사를 선택한다. 아래 미선택/잠정 문구는 원계산 이력이며 전체 픽 소유권·법적 실행·플레이오프 시리즈 결과는 여전히 HOLD다.
+
 - 판정: `K1_L2_BRACKET_REPRODUCED / SERIES_EXECUTION_HOLD`.
 - 원입력: [K1 전체 리그 F038](NBA_2020_21_FULL_SEASON.json)의 동·서부 정규시즌 시드와 [L2 플레이인](CHICAGO_2020_21_EXECUTION_CLOSEOUT.json)의 세 경기씩. [재현 JSON](CHICAGO_2020_21_K1_L2_BRACKET.json)은 [도구](../tools/build_chicago_2020_21_k1_l2_bracket.py)로 두 원입력에서 생성한다.
 - NBA 규칙: [2021 플레이인 설명](https://www.nba.com/news/2021-nba-play-in-tournament-schedule)에서 7/8전 승자가 7번, 최종전 승자가 8번 시드를 얻는다. [NBA 첫 라운드 일정](https://www.nba.com/news/2021-nba-playoffs-first-round-schedule)에서 1–8, 2–7, 3–6, 4–5 짝을 대조한다. 규칙만 적용하며 원역사 시리즈 결과는 이 세계에 이월하지 않는다.
