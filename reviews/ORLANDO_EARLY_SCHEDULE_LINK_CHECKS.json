@@ -1,0 +1,32 @@
+{
+  "status": "PASS_LIMITED_SCHEDULE_JOIN",
+  "base_main": "f595b415f80c6a9843023c0b987c5a265f106e37",
+  "early_game_days": 9,
+  "early_non_game_days": 9,
+  "existing_35_rows_preserved": true,
+  "full_window_game_days": 28,
+  "negative_checks": [
+    {
+      "case": "missing season game",
+      "result": "REJECTED",
+      "reason": "Orlando season schedule must contain 72 games"
+    },
+    {
+      "case": "duplicate game date",
+      "result": "REJECTED",
+      "reason": "duplicate Orlando game date"
+    },
+    {
+      "case": "stale existing game-day flag",
+      "result": "REJECTED",
+      "reason": "game-day flag disagrees with schedule"
+    },
+    {
+      "case": "wrong existing opponent",
+      "result": "REJECTED",
+      "reason": "event identity disagrees with schedule"
+    }
+  ],
+  "legal_registration_cleared": false,
+  "source_authentication": "existing repository historical baseline; no new independent schedule authentication"
+}
