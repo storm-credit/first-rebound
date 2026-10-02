@@ -1,5 +1,7 @@
 # O-15F14-AU — Denver–Lakers 2021 조건부 1라운드의 관측 범위
 
+2026-10-02 [위임 시리즈 설계](../simulation/DEN_LAL_2021_DELEGATED_SERIES.json): LAL4–2·양팀 가용성 모델과240분 성립 증인을 선택했다. 아래 건강/결과 미선택 문구는 당시 이력이다. 실제 날짜·등록자격·득점/포제션·PHX/POR 후속·법적12행은 HOLD. 원역사 DEN→PHX와6/13퇴장 이월 금지. 전체season_selected=false·설계/원고CLOSED.
+
 - 판정: `HISTORICAL_MATCHUP_AND_OPENERS_OBSERVED / K1_L2_SERIES_HEALTH_MINUTES_SCORE_HOLD`.
 - 경로: [K1/F038+L2 대진](../simulation/CHICAGO_2020_21_K1_L2_BRACKET_BRIDGE.md)의 **조건부** Denver 3번–Lakers 6번 첫 라운드. 작가가 확정한 사건은 McGee–Hartenstein 거래 생략과 Gordon A의 Nnaji Orlando 이동·Bey Denver 잔류다. 대진·건강·시리즈 결과는 작가확정이 아니다.
 - 출처 등급: 아래 세 경기의 NBA **공식 최종 경기책 첫 장**을 직접 확인했다. 원역사 사실과 대체 세계 가정을 분리한다.

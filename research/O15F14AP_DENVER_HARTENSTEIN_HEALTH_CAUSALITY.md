@@ -1,5 +1,7 @@
 # O-15F14-AP — F5 Hartenstein 건강 기록의 인과 경계
 
+2026-10-02 [위임 시리즈 설계](../simulation/DEN_LAL_2021_DELEGATED_SERIES.json): LAL4–2·양팀 가용성 모델과240분 성립 증인을 선택했다. 아래 건강/결과 미선택 문구는 당시 이력이다. 실제 날짜·등록자격·득점/포제션·PHX/POR 후속·법적12행은 HOLD. 원역사 DEN→PHX와6/13퇴장 이월 금지. 전체season_selected=false·설계/원고CLOSED.
+
 - 판정: `ORIGINAL_CLEVELAND_HEALTH_RECORD_VERIFIED / SELECTED_DENVER_AVAILABILITY_HOLD`.
 - 적용 범위: 작가가 선택한 **McGee–Hartenstein 거래 생략**의 A1 건강 달력과 Denver 2021 플레이오프 F5 검문. 진단이나 대체 세계 의료 사건을 창작하지 않는다.
 

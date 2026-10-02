@@ -1,5 +1,7 @@
 # O-15F14-AT — K1/L2 조건부 플레이오프 대진 연결
 
+2026-10-02 [위임 시리즈 설계](../simulation/DEN_LAL_2021_DELEGATED_SERIES.json): LAL4–2·양팀 가용성 모델과240분 성립 증인을 선택했다. 아래 건강/결과 미선택 문구는 당시 이력이다. 실제 날짜·등록자격·득점/포제션·PHX/POR 후속·법적12행은 HOLD. 원역사 DEN→PHX와6/13퇴장 이월 금지. 전체season_selected=false·설계/원고CLOSED.
+
 2026-10-02 최신 권위: [위임 후속 선택](../canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json)으로 기존 K1/L2 첫 라운드 대진과 사전등록 첫 추첨의 원소유 순번을 설계 경로로 채택했다. 재추첨/seed 탐색0. Chicago 원소유10·39 및 NOP 스왑 미행사를 선택한다. 아래 미선택/잠정 문구는 원계산 이력이며 전체 픽 소유권·법적 실행·플레이오프 시리즈 결과는 여전히 HOLD다.
 
 - 판정: `K1_L2_BRACKET_REPRODUCED / SERIES_EXECUTION_HOLD`.
