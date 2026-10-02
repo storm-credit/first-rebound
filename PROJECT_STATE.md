@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [Orlando기초13명 연결](simulation/ORLANDO_2021_BASELINE_CONTINUITY.json): 승인거래15→Teague해제14→Cannady서명15→Birch해제14에서Cannady단기계약을분리하면기존기초13명과일치한다.0분Aminu/Fultz/Isaac보존. Birch대체해제/Nnaji일반계약/중간전수는조건·비용HOLD이며원장12행PASS변경0. 미완료6·freezePARTIAL·원고CLOSED.
+
 2026-10-02 [Orlando同日순서증인](simulation/ORLANDO_2021_INTRADAY_ORDER_WITNESS.json): 4날짜12순서의중간자리수를검문해상한유지6/초과6을분리했다. 해제후서명 순서로 각국소자리상한을유지할수있으나 실제접수순서·13명기초·계약자격·전체비용/등록HOLD. F0/5 A0/3 K0/4·미완료6·원고CLOSED.
 
 2026-10-02 현재 선택/검증 구분: [S2원장](control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.
