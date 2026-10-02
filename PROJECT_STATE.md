@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [대진·추첨 설계 채택](canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json): 위임된 K1/L2 후손의 첫라운드 대진·사전등록 첫 추첨 원소유 순번·Chicago10/39·NOP스왑 미행사를 채택했다. 재추첨0·전체 픽소유/법적12행/시리즈 실행HOLD. S1 변경으로 오래된 CP2설계샘플2 지문을 갱신한다. 실제Pack0·원고0·미완료6·freezePARTIAL·CLOSED.
+
 2026-10-02 최신 권위: [위임 선택](canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 

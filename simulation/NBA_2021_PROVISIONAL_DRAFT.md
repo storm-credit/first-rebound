@@ -1,5 +1,7 @@
 # O-15F14-M — 2021 잠정 추첨·픽 결산
 
+2026-10-02 최신 권위: [위임 후속 선택](../canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json)으로 기존 K1/L2 첫 라운드 대진과 사전등록 첫 추첨의 원소유 순번을 설계 경로로 채택했다. 재추첨/seed 탐색0. Chicago 원소유10·39 및 NOP 스왑 미행사를 선택한다. 아래 미선택/잠정 문구는 원계산 이력이며 전체 픽 소유권·법적 실행·플레이오프 시리즈 결과는 여전히 HOLD다.
+
 - 상태: `PROVISIONAL_CONDITIONAL_RESULT / CP2_WORKFLOW_APPROVED`.
 - [계산 JSON](NBA_2021_PROVISIONAL_DRAFT.json), [실행 전 기록](NBA_2021_DRAW_PREREGISTRATION.md), [승인 권위](../canon/CHICAGO_2020_21_CP2_APPROVAL.json).
 - 최종 작가·시즌·정확 실행 잠금 false, v0.30 PARTIAL·설계/원고 CLOSED. 새 선수 지명은 아직 없다.
