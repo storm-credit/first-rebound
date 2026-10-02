@@ -1,0 +1,153 @@
+{
+  "status": "THREE_CONDITIONAL_FUNCTIONS_NOT_FINAL_G13",
+  "baseline_main": "918e38f",
+  "source_sha256": {
+    "design/A03_COLLEGE_REPRESENTATIVE_FUNCTIONS.md": "18cc07dc2d427d41837d05c8fed2bf2323974771fa26f419467ead5fc8285a53",
+    "design/SUB_ACT_MAP.md": "4f66baef112b0e9dee945ad6a56adbce65a3687c15843c2f185a52139ba7a389",
+    "research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+    "control/COLLEGE_ARC_SCOPE_GATE.md": "917fa965f9d6f4e0c639db154f54baa3dd22bc83dbf0aa1bf6990bdce01e0406",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80"
+  },
+  "functions": [
+    {
+      "id": "A03-F01",
+      "subact": "A03-S1",
+      "function": "초기 실패",
+      "entry": "프렙의 신체 우위를 대학 출전 기회로 바로 환산하려는 기대",
+      "pressure": "자신의 대인수비와 팀 도움수비 연결이 충돌하는 제한 출전 과제",
+      "choice": "영상으로 자신이 동료에게 넘긴 부담을 확인하고 다음 훈련의 제한 역할을 수락",
+      "cost": "출전 보상 없이 영상·역할 훈련에 시간을 쓰며 학업 의무도 유지",
+      "observation_limit": "구체 경기/포제션 HOLD; 후보 수비 실패를 실제 기록으로 쓰지 않음",
+      "changed_state": "불만은 남지만 다음 기회 전에 수행할 과제를 구분",
+      "ending_question": "말로 인정한 실패가 다음 반복 행동으로 바뀔 수 있는가",
+      "next": "A03-F02",
+      "causal_link": "제한 역할 수락을 반복 행동으로 확인해야 신뢰의 근거가 생김",
+      "blocks": [
+        {
+          "action": "제한 역할에 진입",
+          "known": "자신의 출전 기대와 맡은 과제",
+          "access": "주인공 직접 경험",
+          "unknown": "감독의 비공개 평가·다음 출전 예정",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "실패 후보를 영상에서 대조",
+          "known": "영상에 드러난 자신의 위치와 동료가 메운 공간",
+          "access": "허용된 팀 영상 검토",
+          "unknown": "영상에 없는 동료 감정·실제 감독 발언",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "다음 훈련 과제를 수락",
+          "known": "본인이 포기한 쇼케이스와 지불할 시간",
+          "access": "자신의 선택",
+          "unknown": "코치가 신뢰를 확정했는지·향후 로테이션",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        }
+      ],
+      "status": "CONDITIONAL_EPISODE_FUNCTION_CANDIDATE",
+      "episode_number": null,
+      "date": null,
+      "opponent": null,
+      "pov": "PROTAGONIST_CLOSE_THIRD",
+      "pov_author_locked": false,
+      "author_locked": false
+    },
+    {
+      "id": "A03-F02",
+      "subact": "A03-S2",
+      "function": "역할 획득",
+      "entry": "역할 과제를 알지만 동료에게 맡겨질 반복 증거가 부족",
+      "pressure": "개인 리바운드/볼 수신 기회와 팀에 필요한 위치·박스아웃의 경쟁",
+      "choice": "볼 없는 준비 위치와 박스아웃을 먼저 수행해 동료의 공 확보를 돕는 반복",
+      "cost": "자기 리바운드/공격 표본에 남지 않는 노동과 반복 훈련 시간",
+      "observation_limit": "한 번의 칭찬을 신뢰 완성으로 쓰지 않음; 정확 경기/분 상승 HOLD",
+      "changed_state": "관측 가능한 반복 수행이 제한 수비 기능을 맡길 근거가 됨",
+      "ending_question": "자기 기록을 늘릴 유혹이 큰 무대에서도 같은 역할을 지킬 수 있는가",
+      "next": "A03-F03",
+      "causal_link": "반복으로 획득한 역할을 토너먼트 압박에서 다시 시험",
+      "blocks": [
+        {
+          "action": "볼 없는 과제를 준비",
+          "known": "자신에게 요청된 위치와 동료의 코트 행동",
+          "access": "훈련에서 직접 관측",
+          "unknown": "실존 동료의 속마음·사적 약속",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "개인 기록 대신 박스아웃을 우선",
+          "known": "공이 동료에게 간 관측 결과와 자신의 행동",
+          "access": "직접 경험 또는 경기 영상",
+          "unknown": "그 선택이 늘 승리를 보장하는지",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "반복 증거를 다음 과제에 연결",
+          "known": "반복한 준비와 제한 역할",
+          "access": "공개된 과제·본인 수행",
+          "unknown": "정확 경기 출전 상승·드래프트 평가",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        }
+      ],
+      "status": "CONDITIONAL_EPISODE_FUNCTION_CANDIDATE",
+      "episode_number": null,
+      "date": null,
+      "opponent": null,
+      "pov": "PROTAGONIST_CLOSE_THIRD",
+      "pov_author_locked": false,
+      "author_locked": false
+    },
+    {
+      "id": "A03-F03",
+      "subact": "A03-S3",
+      "function": "Texas Tech 증명",
+      "entry": "제한 역할의 근거를 얻었지만 전국 무대 압박에서의 유지가 미검문",
+      "pressure": "공격이 원활하지 않은 날 개인 득점으로 존재감을 만들 유혹",
+      "choice": "맡은 상대의 박스아웃과 스위치 연결을 먼저 수행",
+      "cost": "전국 무대에서도 개인 공격 표본을 극대화하지 못해 NBA 자가 창조 질문이 남음",
+      "observation_limit": "Texas Tech는 기존 대표 경기; 실제 개인 기록/200분 재분배/교체초 HOLD",
+      "changed_state": "우승팀 기여와 NBA 공격 능력 증명을 분리",
+      "ending_question": "낮은 사용률을 숨기지 않고 프로 평가에서 어떤 기술 표본을 보여 줄 것인가",
+      "next": "A04-S1",
+      "causal_link": "팀 소속 증명은 얻어도 공격 능력의 빈칸은 측정·워크아웃 과제로 넘어감",
+      "blocks": [
+        {
+          "action": "팀 공격 부진 속 자신의 과제를 확인",
+          "known": "코트에서 관측한 공격 흐름과 자신의 과제",
+          "access": "제한 출전 또는 벤치에서 직접 관측",
+          "unknown": "미래 최종 박스·드래프트 순번",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "박스아웃·스위치 과제를 수행",
+          "known": "자신의 위치와 직접 본 동료 움직임",
+          "access": "주인공 경험",
+          "unknown": "포제션별 공로 확정·상대 내면",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        },
+        {
+          "action": "대학 기여와 프로 과제를 분리",
+          "known": "시즌 후 공개된 평가 질문 또는 본인이 확인한 기술 한계",
+          "access": "공개 피드백/자기 훈련 관측의 후보",
+          "unknown": "스카우트 비공개 보드·지명 확약",
+          "status": "SCENE_FUNCTION_CANDIDATE_NOT_PROSE"
+        }
+      ],
+      "status": "CONDITIONAL_EPISODE_FUNCTION_CANDIDATE",
+      "episode_number": null,
+      "date": null,
+      "opponent": "Texas Tech",
+      "pov": "PROTAGONIST_CLOSE_THIRD",
+      "pov_author_locked": false,
+      "author_locked": false
+    }
+  ],
+  "conditional_functions": 3,
+  "final_episode_functions": 0,
+  "actual_context_packs": 0,
+  "new_representative_games": 0,
+  "manuscript_allowed": false,
+  "author_locked": false,
+  "design_gate": "CLOSED",
+  "full_design_complete": false
+}

@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [전체 기둥 후속 기능 검수](reviews/A03_AND_LONG_CAREER_FUNCTION_REVIEW.md): 대학 후보회차기능3/정보구간9와 기존17시즌 행동·직접비용·다음과제를 구체화했다. NotebookLM 자체3기능분석59.758초 회수·별도Codex대조 충돌미발견·Claude55.079초timeout. 최종회차기능0·실제Pack0·법적PASS0·미완료6, PARTIAL/CLOSED 유지.
+
 2026-10-02 [Orlando53일 제한 반증](reviews/ORLANDO_53_DAY_TRANSITION_REBUTTAL.md): Claude 응답51.463초 회수. 스냅샷 전이/후반행 중복·count 검사 누락을 수정, 초기 이월 행 추적 추가. 기존 경계검사 부재라는 오독은 기각. 원본 검사·변조5종 거부 PASS, 법적PASS0·미완료6·PARTIAL/CLOSED 유지.
 
 2026-10-02 [Orlando 53일 명단 연결](simulation/ORLANDO_2021_DEADLINE_TO_FINAL_CALENDAR.json): 기존 기초명단의3/25~4/11 18일을 명시하고 기존4/12~5/16 35행을 그대로 연결했다. 날짜 연속·Franks 경계 이름집합·부상0분선수 보존 PASS. 초기18일 경기일분류/계약자격/전체등록은 HOLD, 새원자료0·법적PASS0·미완료6·freezePARTIAL·CLOSED.
