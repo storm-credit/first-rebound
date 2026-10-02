@@ -111,21 +111,23 @@ def make_samples(root=ROOT):
     structure = load(STRUCTURE, root)
     promises = load(PROMISES, root)
     configs = [
-        ('CP2-A06-S3', 'A06-S3', 'K1/L2와 사전 기록된 M 추첨의 잠정 연결 확인',
+        ('CP2-A06-S3', 'A06-S3', '위임 선택된 K1/L2와 사전 기록된 M 추첨의 실행 경계 확인',
          ['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json',
           'simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json',
           'simulation/NBA_2021_PROVISIONAL_DRAFT.json',
           'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json',
           'canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json',
           'canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json',
-          'canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json'],
-         [dict(claim='CHI 31–41은 K1 조건부 추천', status='CANDIDATE',
-               source_paths=['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json']),
-          dict(claim='L2는 WAS 승리/IND 패배의 사건안', status='CANDIDATE',
-               source_paths=['simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json']),
+          'canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json',
+          'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json',
+          'canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json'],
+         [dict(claim='CHI 31–41은 위임 선택된 K1 설계 목표이며 전체 실행은 HOLD', status='AUTHOR_MODELED_DESIGN',
+               source_paths=['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json', 'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json']),
+          dict(claim='L2 WAS 승리/IND 패배는 위임 선택된 사건이며 정확 박스는 HOLD', status='AUTHOR_MODELED_DESIGN',
+               source_paths=['simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json', 'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json']),
           dict(claim='사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번',
-               status='CONDITIONAL_RESULT',
-               source_paths=['simulation/NBA_2021_PROVISIONAL_DRAFT.json'])],
+               status='AUTHOR_MODELED_DESIGN',
+               source_paths=['simulation/NBA_2021_PROVISIONAL_DRAFT.json', 'canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json'])],
          ['K1', 'L2', 'M_DRAW'], '사실 검증자',
          ['F4 Hall 5/9 재계약 생략·F5 McGee 거래 및 Cleveland Varejão 5월 복귀계약 생략은 작가 선택; 정확 건강·등록·charge는 미검증',
           'Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님',
@@ -295,8 +297,13 @@ def validate_samples(data, root=ROOT):
         evidence = p.get('fact_evidence', [])
         if len(evidence) != len(p.get('allowed_facts', [])) or [e.get('claim') for e in evidence] != p.get('allowed_facts', []):
             errors.append(pid + ': claim evidence coverage')
-        for e in evidence:
-            if e.get('status') not in {'CANON_FUNCTION', 'CANDIDATE', 'CONDITIONAL_RESULT'}:
+        for i, e in enumerate(evidence):
+            if e.get('status') == 'AUTHOR_MODELED_DESIGN':
+                authority_path = ('canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json'
+                                  if i == 2 else 'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json')
+                if pid != 'CP2-A06-S3' or i > 2 or authority_path not in e.get('source_paths', []):
+                    errors.append(pid + ': delegated claim missing scoped authority')
+            if e.get('status') not in {'CANON_FUNCTION', 'CANDIDATE', 'CONDITIONAL_RESULT', 'AUTHOR_MODELED_DESIGN'}:
                 errors.append(pid + ': invalid or promoted claim status')
             paths = e.get('source_paths', [])
             if not paths or len(paths) != len(set(paths)) or any(path not in hashes for path in paths):
