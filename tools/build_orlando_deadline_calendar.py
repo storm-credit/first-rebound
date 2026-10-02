@@ -47,7 +47,7 @@ def build(base=None,late=None):
         assert len(tw)==len(set(tw))<=2, 'two-way uniqueness/capacity'
         assert not set(ordinary)&set(tw), 'dual contract class'
         assert row['standard_count']==len(ordinary) and row['two_way_count']==len(tw), 'row count mismatch'
-        assert row['registration_cleared'] is False, 'false registration promotion' 
+        assert row['registration_cleared'] is False, 'false registration promotion'
     for a,b in zip(rows,rows[1:]):
         assert date.fromisoformat(b['date'])-date.fromisoformat(a['date'])==timedelta(days=1)
     assert all(set(base['retained_zero_minute_contracts']).issubset(r['standard']) for r in rows)
