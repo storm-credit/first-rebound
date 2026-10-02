@@ -6,6 +6,8 @@ User clarification recorded 2026-09-28: continuation is triggered by **completio
 
 User clarification recorded 2026-10-01: continue authorized work without asking additional questions or registering schedules. Keep preparing and validating independent work while a consequential choice is unselected; leave promotion of that choice and dependent canon CLOSED/HOLD. A no-question continuation request does not specify an individual health, season, title, or final manuscript-gate choice. Report completed work and concrete remaining dependencies without repeating pending questions.
 
+User clarification recorded 2026-10-02: the user confirmed existing orchestration delegates health, season-result and style recommendations, then instructed continuation. Record explicit delegated design selections under canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json. Do not ask those permissions again. Delegation does not certify missing historical/legal evidence or open manuscript/final approval gates. Earlier no-selection statements describe the preceding authorization state.
+
 ## At the start of each continuation
 
 1. Read `PROJECT_STATE.md`, `canon/PROJECT_FREEZE.md`, `control/DESIGN_GATE.md`, and `design/WORLD_BIBLE_COMPLETION_ROADMAP.md` from the latest `main`. Check recent PRs/commits and the working tree. Use these files to recover the actual checkpoint; do not restart the plan from a remembered older season.

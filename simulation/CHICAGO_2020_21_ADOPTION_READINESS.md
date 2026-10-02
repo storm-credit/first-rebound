@@ -1,5 +1,8 @@
 # O-15F14-L — 시즌 채택 전 실행 패킷
 
+2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
 2026-10-02 [Orlando 35일 보조 증인](../research/D1_ORLANDO_DAILY_REGISTRATION_WITNESS_2026_10_02.md): 경기19+비경기16일의 조건부 자리 수와 구단 공표15행을 대조했다. 전체 법적 등록/비용 proof가 아니며 ORL_DATED_REGISTRATION complete_domain/source_verified=false, F0/5·A0/3·K0/4를 유지한다.
 
 - 현행 기준(2026-09-30): [S2 작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)을 적용한다. 아래 정확 필드는 원문 또는 전체 닫힌 법적 구간으로 판정하고, 반사실 건강·코칭은 개별 AUTHOR_MODELED 선택으로 따로 잠근다. R=null은 계속 HOLD, 법적 F0/5·A0/3·K0/4. S0 시기 EXACT_PASS와 S2의 LEGAL_BOUND_PASS를 혼합하지 않는다.

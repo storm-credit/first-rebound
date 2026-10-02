@@ -201,8 +201,8 @@
   "model_gates": [
     {
       "id": "A1",
-      "state": "AUTHOR_CHOICE_PENDING",
-      "scope": "Full health/availability calendar; Lakers H00-H11 still unselected"
+      "state": "HEALTH_MODEL_SELECTED_FULL_CALENDAR_HOLD",
+      "scope": "Delegated H00 selected; full league availability and causal minute validation remain HOLD"
     },
     {
       "id": "A2",
@@ -211,11 +211,12 @@
     },
     {
       "id": "A3",
-      "state": "FINAL_EVENT_SELECTION_PENDING",
-      "scope": "Season/method/play-in/lottery and new Denver series outcomes"
+      "state": "SEASON_PLAYIN_DESIGN_SELECTED_POSTSEASON_DRAW_HOLD",
+      "scope": "Delegated K1/BPM target and L2 selected; DEN-LAL series, downstream playoffs, lottery and asset execution remain HOLD"
     }
   ],
   "k_closed": [],
   "season_selected": false,
-  "manuscript_allowed": false
+  "manuscript_allowed": false,
+  "delegated_design_authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json"
 }

@@ -1,5 +1,8 @@
 # Chicago 2020–21 A1 — Lakers 두 접촉 사건의 건강 경로 선택 준비
 
+2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
 - **2026-09-30 증거 기준 후속:** [S2](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)가 선택돼 건강/코칭을 별도 AUTHOR_MODELED로 판정할 수 있다. H00/H10/H01/H11 자체는 아직 선택되지 않았다. 아래 S1/S2 기준 승인 전 문구는 이전 이력이다.
 - 상태: `AUTHOR_CHOICE_PREPARED / NO_HEALTH_BRANCH_SELECTED / NO_GATE_CHANGE`.
 - **2026-09-30 후속:** 별개 사건인 Cleveland Varejão C1/C2는 [C2 영입 생략](../canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json)으로 작가 선택됐다. 아래 C1/C2 미선택 표기는 이전 이력이다. Lakers H00/H10/H01/H11 건강 선택과 A1 전체 검증은 여전히 열려 있다.
