@@ -1,5 +1,8 @@
 # 하우스 스타일 기초 — 설계 검토용
 
+2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
 ## 2026-10-02 10작품 연구 합성 후보 — 연구 검토 준비
 
 [10작품 질적 합성](../research/G11_TEN_WORK_SYNTHESIS_2026_10_02.md)은 기존 공식 첫5화와 작품별14칸의 기능·시간층·보상 상태를 연결한다. 수정 실제 독서110/110·핵심20화4/4, 원계획95/110·데못죽 접근부채15를 분리한다. 부모 전역 검사10/10 PASS·14필드 누락0을 반영해 최소 비교 기록 준비10/10·남은0, SAMPLE_FUNCTION_COMPARISON_PREPARED/RESEARCH_REVIEW_READY로 둔다. 정확 수치가null인 기록도 실제 질적 기능비교의 준비에서 배제하지 않는다. 전체P3·FULL_TEXT_FINAL·G11최종·작가 스타일 잠금은 별도다. 아래 날짜별 준비 수는 당시 snapshot으로 보존한다.

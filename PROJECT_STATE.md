@@ -1,5 +1,8 @@
 # Project State
 
+2026-10-02 최신 권위: [위임 선택](canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
+
+
 2026-10-02 [자율 종료 가능성 감사](reviews/AUTONOMOUS_COMPLETION_BOUNDARY_2026_10_02.md): 두 읽기전용 독립Codex 감사에서 현재입력으로S2법적12행 전체통과 후보0·3~6번 자율완결 가능한 필수잔여 미확인을 보고했다. 승인S2는 비공개리그장부/원계약/대체세계실제접수 원본이 필수가 아니라 출처 있는 닫힌 구간OR완전한 분기증인을 허용한다. 이 기존기준을 운영규칙/Orlando증인에 명확히 반영했고 원장·검사기·통과수는 변경하지 않았다. 새전체법적증거/미선택건강·최종시즌·스타일 입력 없이 반복문서/재시도로완료를표시하지 않는다. F0/5 A0/3 K0/4·법적12HOLD·미완료큰묶음6·freezePARTIAL·설계/원고CLOSED·원고0. 추가질문/일정등록0.
 
 2026-10-02 [관계·음성 문서 구판 권위 교정](reviews/VOICE_ARCHIVE_AUTHORITY_REVIEW_2026_10_02.md): 상단주의문과 달리 개별표에서 활성관계처럼 보이던Trae/Huerter/Collins·Indiana 팀HOLD·Atlanta 개발 감사/CollegePark를 폐기 비교 분기의 범위로 명시했다. Chicago 원클럽·고정 결말승리·최종수신자HOLD, 대학관계/주인공말투는 보존한다. 새외부사실/관계선택/최종회차기능/실제Pack/원고0; F0/5 A0/3 K0/4·법적12 HOLD·미완료큰묶음6·freezePARTIAL·설계/원고CLOSED. 이번AG/NLM/Claude NOT_RUN.
