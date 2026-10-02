@@ -1,5 +1,7 @@
 # O-15G15AB — Detroit 1/23 원역사 전체 박스와 대체 명단 경계
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 시작점: `main` `1adeb18`; [G15AA 세 번째 이탈](O15G15AA_DETROIT_HAYES_THIRD_EXIT_AND_MEDICAL_BOUNDARY.md) 뒤에 남은 **원역사 Detroit 양수 분 전원** 확인.
 - 판정: `OFFICIAL_ORIGINAL_BOX_RECONCILED / ALT_CONTRACT_MINUTES_OFFENSE_HOLD`. 원역사 박스의 관측값을 대체 Detroit 결과로 선택하지 않는다.
 - `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`; 신규 작가확정 0건, `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`.

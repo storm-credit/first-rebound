@@ -1,5 +1,7 @@
 # O-15G15BL — Detroit 1/23 McGruder·Stanley 계약과 긴급 명단 경계
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 선행: [G15BK 거래 취소 분기](O15G15BK_DET_DEN_BOL_MCGRUDER_FORBES_DEPENDENCY.md)의 `R`, [G15AB 원역사 박스](O15G15AB_DETROIT_JAN23_ORIGINAL_BOX_AND_BRANCH_BOUNDARY.md), [G15AF 2021 개막 명단](O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.md).
 - 판정: `HISTORICAL_DATED_SIGNING_PASS / ALT_HARDSHIP_ELIGIBILITY_AND_STANDARD_SLOT_HOLD`. 원역사의 계약 날짜를 확인했으며 대체 Detroit의 1/23 Stanley 등록·분은 통과시키지 않는다.
 - 정본·게이트 변경 0건. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`.

@@ -1,5 +1,7 @@
 # O-15G15AF — Detroit 2021-08-12 실명 15명과 개막 등록 연결
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 시작 권위: `main` `0d76e75`, [G15AE](O15G15AE_DETROIT_AUGUST15_AND_SEPTEMBER_ASSET_BRIDGE.md)의 빈칸인 8월 실명 명단. 판정: `HISTORICAL_NAMED_ROSTER_RECONSTRUCTED / CONDITIONAL_P0B_OPENING_SLOT_16 / CAP_AND_TRADE_HOLD`.
 - `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`; `author_locked=false`, `season_selected=false`, `exact_execution_cleared=false`, `manuscript_allowed=false`. 신규 작가확정 0건.
 

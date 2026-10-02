@@ -1,5 +1,7 @@
 # O-15G15E — Orlando 2021 여름~2022-01-23 표준계약 자리 연결
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 출발점: `main` `4e90d1f` (PR #187), [G15D 투웨이 감사](O15G15D_ORLANDO_TWO_WAY_SLOT_GATE.md). 이 문서는 **원역사 2021-10-16 명단을 대체세계 후보와 대조하는 계산표**다. 2022-01-23 대체 ORL 계약·출전·시즌은 확정하지 않는다.
 - 원역사 1차 자료: [Orlando Magic 2021-10-16 공식 명단·방출 발표](https://www.nba.com/magic/orlando-magic-waive-four-players-20211016), [구단 2022–23 미디어 가이드 거래 연표](https://cdn.nba.com/teams/uploads/sites/1610612753/2022/11/orlando-magic-media-guide-2022-23.pdf) 인쇄 230–231쪽, [NBA 2021–22 명단 규칙](https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/). 구단 발표의 전체 본문은 검색 색인에서 읽었고 현재 직접 페이지 열기는 iframe만 반환했다. 미디어 가이드 PDF 해당 쪽은 직접 대조했다. 서로 다른 두 구단 문서라도 동일 구단 계보이며 독립 검수 횟수로 세지 않는다.
 - 정본 경계: [T2 작가 승인](../canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json)은 **Vučević의 2020–21 잔여 시즌 ORL 잔류까지만**이다. 2021–22 잔류는 미승인 분기다. [2021 드래프트 비교표](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md)의 Mobley3·Herbert33 역시 조건부 비교 입력이며 계약·등록 사실이 아니다. 기존 G15B에서 이 선수들에게 준 양수 분은 존재 가능성 증명일 뿐이다.

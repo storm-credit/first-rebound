@@ -1,5 +1,7 @@
 # O-15G15BM — P0-B 개막 초과 한 자리의 두 실명 경로
 
+**2026-10-02 적용기간 정정:** [공식 G League 보존본](TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md)은 2021–22 후속 50경기 초과 허용 예외를 확인한다. 아래 50경기 관련 필요조건은 개막 제한 유지 가정에 한정한다. 시즌 전체 필수 비활동 수·2월 50초과 자동 위반은 철회하며 정확 시행일·예외 급여·등록 자격은 HOLD다. 표준/투웨이 자리 산술과 후보 선택은 변경하지 않는다.
+
 - 선행: [G15AF 원역사/대체 명단](O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.md)의 `16`, [G15AH 개막 0분 후보](O15G15AH_DETROIT_AUG6_CAP_AND_OPENING_SLOT_SCREEN.md), [G15BL 1월 별도 계약](O15G15BL_DETROIT_JAN23_STANLEY_CONTRACT_AND_HARDSHIP_GATE.md).
 - 판정: `TWO_NAMED_SLOT_WITNESSES / CONTRACT_CAP_50_GAME_AND_BUTTERFLY_HOLD`. 두 경로는 **자리 수만** 15+2가 되는 후보이며 어느 쪽도 실행·작가확정이 아니다. [입력 JSON](../simulation/O15G15BM_DETROIT_OPENING_SLOT_OPTIONS.json)과 [집합 검사기](../tools/check_o15g15bm_detroit_slot_options.py)는 G15AF 실명 기준을 재사용한다.
 - `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 신규 작가확정 0건.
@@ -18,18 +20,18 @@
 
 | 후보 | 바꾸는 실명 사건 | 개막 자리의 **조건부 산술** | 실제 비용·남은 증거 |
 |---|---|---|---|
-| `A` Garza 투웨이 유지 | 원역사 **9/24 Garza→표준 전환을 실행하지 않는다**. 8/17 Garza·Smith 투웨이를 유지한다. | 표준 `16−Garza=15`; 투웨이 `Garza+Smith=2`. Pickett은 원역사 9월 투웨이가 아닌 Exhibit 10/Cruise **후보**. | Pickett은 타 팀 표준/투웨이 제안에 노출되고 원역사 Detroit 1/23 DNP 행도 보존할 수 없다. Garza의 대체 시즌 활동 명단 **50경기 누적**, 실제 계약 변경 허용·급여, 장기 육성 및 추후 표준 전환 자리가 필요하다. 50경기에 닿으면 **추가 활동 명단 배치를 멈추거나** 새 표준 자리를 마련해 전환해야 한다. 원역사 1/23 Garza `Out`를 대체 건강으로 복사하지 않는다. 8/6 Olynyk cap 문제는 그대로다. |
+| `A` Garza 투웨이 유지 | 원역사 **9/24 Garza→표준 전환을 실행하지 않는다**. 8/17 Garza·Smith 투웨이를 유지한다. | 표준 `16−Garza=15`; 투웨이 `Garza+Smith=2`. Pickett은 원역사 9월 투웨이가 아닌 Exhibit 10/Cruise **후보**. | Pickett은 타 팀 표준/투웨이 제안에 노출되고 원역사 Detroit 1/23 DNP 행도 보존할 수 없다. Garza의 날짜별 규정·예외에 따른 활동 누적, 실제 계약 변경 허용·급여, 장기 육성 및 추후 표준 전환 자리가 필요하다. 그 날짜에 50경기 제한이 적용되고 한도에 닿으면 **추가 활동 명단 배치를 멈추거나** 새 표준 자리를 마련해 전환해야 한다. 원역사 1/23 Garza `Out`를 대체 건강으로 복사하지 않는다. 8/6 Olynyk cap 문제는 그대로다. |
 | `B` Lyles 미계약 | 원역사 **8/6 Lyles 서명/그보다 앞선 합의 통지 자체를 하지 않는다**. 다른 G15AF 사건과 Garza 표준 전환은 비교 조건으로 유지한다. | 표준 `16−Lyles=15`; 투웨이 `Pickett+Smith=2`라는 **원역사 후속 사건 유지 가정**. | Lyles의 다른 팀 착지·계약·그 팀 분은 미정. [1/23 Detroit 구단 기사](https://www.nba.com/pistons/news/pistons-push-nuggets-to-the-wire-but-come-up-short/)의 원역사 Lyles **센터 교대**와 `21:18/11 FGA/18점` 행을 제거하고 Plumlee 등에게 새 역할·공격 기회 비용을 배분해야 한다. [NBA 공식 2022-02-10 거래 추적기](https://www.nba.com/news/2021-22-nba-trade-tracker)의 **Lyles·Josh Jackson→Sacramento / Bagley→Detroit** 원형 거래도 Lyles 부재로 재설계한다. Lyles 미합의는 G15AO의 통지 급여 한 항목을 없앨 수 있는 **조건부 방향**일 뿐, 전체 8/6 Team Salary·Olynyk 계약 통과가 아니다. |
 
-`A`는 G14 10명과 원역사 1/23 Lyles 역할을 직접 제거하지 않아 **다음 세부 검증의 우선 후보**다. 우선순위는 작가확정이나 전체 법적 가능성 순위가 아니다. Pickett 권리·50활동경기·Garza 계약 변경 시점의 막힘이 크면 `B`와 다시 비교한다. `B`는 8월 캡에 유리할 **수 있는** 방향이나 1월 센터 분·2월 Bagley 거래에 직접 파급하므로 단순 절약안으로 취급하지 않는다. 둘 다 Plumlee의 Charlotte 거래 미실행, Olynyk cap, 9/4 Nets 거래 수락과 DB1 선택을 해결하지 않는다. 이 공통 선행 조건이 닫히지 않으면 어느 후보도 실행 판정으로 승격하지 않는다.
+`A`는 G14 10명과 원역사 1/23 Lyles 역할을 직접 제거하지 않아 **다음 세부 검증의 우선 후보**다. 우선순위는 작가확정이나 전체 법적 가능성 순위가 아니다. Pickett 권리·적용기간별 활동 자격·Garza 계약 변경 시점의 막힘이 크면 `B`와 다시 비교한다. `B`는 8월 캡에 유리할 **수 있는** 방향이나 1월 센터 분·2월 Bagley 거래에 직접 파급하므로 단순 절약안으로 취급하지 않는다. 둘 다 Plumlee의 Charlotte 거래 미실행, Olynyk cap, 9/4 Nets 거래 수락과 DB1 선택을 해결하지 않는다. 이 공통 선행 조건이 닫히지 않으면 어느 후보도 실행 판정으로 승격하지 않는다.
 
 | 구분 | 이번 판정 |
 |---|---|
-| 사실 | 원역사 Garza·Smith 투웨이, Pickett Exhibit 10→투웨이의 구단 설명, 2021–22 NBA 15+2/투웨이 50활동경기 규칙, Lyles 8/6 서명 및 1/23·2/10 역사 사건. |
+| 사실 | 원역사 Garza·Smith 투웨이, Pickett Exhibit 10→투웨이의 구단 설명, 2021–22 NBA 15+2/개막 투웨이 50활동경기 규칙, Lyles 8/6 서명 및 1/23·2/10 역사 사건. |
 | 추론 | 다른 사건을 고정하면 `A`와 `B` 각각 하나의 실명 표준 자리를 뺀 산술 결과는 15+2다. 32 **출전**과 50 **활동**은 다른 계수다. |
 | 후보 | `A`를 다음 검증 우선, `B`를 계약·장기 거래 파급 비교안으로 보존. 실명 수신 팀·계약 금액과 모든 대체 승패는 `HOLD`. |
 | 작가확정 | 이번 0건. `A/B` 어느 선수 이탈·팀 착지·급여·의료·2021 DB1도 선택하지 않았다. |
 
-다음은 `A`의 **Garza 2021–22 날짜별 활동 명단 50경기**와 Pickett의 Exhibit 10/Cruise 권리·타 팀 위험을 검산하고, `B`는 Lyles의 가능한 착지와 1/23 앞코트·2/10 거래 재설계의 실명 비용을 채운다. Chicago D1 F1–F5 `0/5`·A1–A3 `0/3`·K `0/4`, G14 DET/ORL 및 G16/G17은 그대로다. 7묶음 1완료·1진행·5대기, 진행 중 포함 남은 6묶음.
+다음은 `A`의 **Garza 2021–22 날짜별 규정·예외·활동 명단**와 Pickett의 Exhibit 10/Cruise 권리·타 팀 위험을 검산하고, `B`는 Lyles의 가능한 착지와 1/23 앞코트·2/10 거래 재설계의 실명 비용을 채운다. Chicago D1 F1–F5 `0/5`·A1–A3 `0/3`·K `0/4`, G14 DET/ORL 및 G16/G17은 그대로다. 7묶음 1완료·1진행·5대기, 진행 중 포함 남은 6묶음.
 
 [G15BN](O15G15BN_DETROIT_GARZA_TWO_WAY_50_GAME_ENVELOPE.md)은 `A`의 실제 경기 날짜 82개에 50활동경기 상한을 겹쳐 가장 빠른 소진일과 필요한 비활동 경기 수를 계산했다. 활동/비활동의 실제·대체 경기별 원장은 아직 없으므로 후보의 적법성 PASS가 아니다.
