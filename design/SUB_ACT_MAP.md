@@ -1,6 +1,7 @@
 # Sub-Act Map — CP2 42개 기능 단위
 
 - 상태: `PROVISIONAL_FUNCTION_PACKET / NOT_EPISODE_OUTLINE`.
+- A03의 기존 대표 기능 3개는 [대학 기능 패킷](A03_COLLEGE_REPRESENTATIVE_FUNCTIONS.md)으로 구체화했다. 정확 경기/분·54회차 기능표는 HOLD이며 후보 패킷이다.
 - [전체 필드 JSON](CP2_ACT_SUBACT_PACKET.json)의 각 단위는 시작 상태·목표·압력·선택·비용·종료 상태·장치·권한 의존성을 가진다. 원고 없음.
 
 | ID | 기능 | 압력 | 직접 비용 | 종료 상태 |
