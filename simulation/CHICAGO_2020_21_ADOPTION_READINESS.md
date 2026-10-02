@@ -1,5 +1,7 @@
 # O-15F14-L — 시즌 채택 전 실행 패킷
 
+2026-10-02 [2021플레이오프 결과 설계](../simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json): DEN–LAL보존+신규14개로15시리즈 승자/길이 설계 채택. MIL우승/PHX준우승, 새PHX–LAL7경기와서부부하변경 명시. 15고유탈락/후속연결 검사PASS; 건강·등록·날짜·점수·법적12행과전체시즌 실행HOLD·미완료6·원고CLOSED.
+
 2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 
