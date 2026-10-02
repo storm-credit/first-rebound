@@ -30,7 +30,9 @@
 
 목표 비율은 실존 세계 80% 안팎, 가상 연결 인물 20% 안팎의 설계 감각이다. 수치 할당이 아니라 인맥 수집과 허구 사생활을 막는 기준이다.
 
-## 3. 2018 Atlanta 실제 개발 환경 기준선
+## 3. 폐기 분기 조사 이력 — 2018 Atlanta 개발 환경
+
+이 절의 구단·스태프는 Atlanta 비교 분기의 역사 조사다. 현행 Chicago 주인공의 코치·접근 경로·훈련 일정으로 사용하지 않는다. 가상 트레이너 최소화·권한 분리 원칙만 유지하며 실제 Chicago 담당자는 해당 시점의 별도 근거를 따른다.
 
 - Lloyd Pierce는 부임 당시 선수 성장과 신뢰 형성을 강조했고, 2018-19 스태프는 Trae Young·Kevin Huerter·Omari Spellman·John Collins의 개발에 관여했다.
 - 당시 코칭스태프에는 Melvin Hunt, Marlon Garnett, Greg Foster, Matt Hill, Chris Jent가 있었다.
@@ -41,17 +43,17 @@
 
 ## 4. 기존 실존 관계의 기술 기능
 
-| 인물 | 정본 관계 | 기술·관계 기능 | 금지 |
+| 인물 | 관계 권위·상태 | 기술·관계 기능 | 금지 |
 |---|---|---|---|
 | Jalen Brunson | 주장·준비 선배 | 풋워크보다 먼저 경기 준비·사전 계획·작은 각도의 중요성을 체감 | 전담 개인교사·비밀 절친 |
 | Mikal Bridges | 수비·포지션 멘토 | 윙 수비·볼 없는 이동·반복 가능성의 기준 | 주인공에게 실제 공로 양도 |
 | Donte DiVincenzo | 가장 가까운 대학 친구 | 또래 실전 속도·감정 회복·건조한 농담의 상대 | 모든 대학 관계를 독점 |
-| Trae Young | 공격 엔진·장기 핵심 동료 | 스크린으로 수비를 움직이고 도움수비 시선을 읽는 실전 표본 | 정식 개인 드리블 교사화 |
-| Kevin Huerter | 가까운 루키 동료 후보 | 슈팅 준비·오프볼 이동·공간 유지의 기준 | 주인공 때문에 분·공로 자동 축소 |
-| John Collins | 프런트코트 파트너·긴장축 | 스크린·수직 공간·리바운드 역할 충돌 | 자동 우정·자동 희생 |
+| Trae Young | 폐기 Atlanta 분기의 공격 엔진·장기 핵심 동료안 | 해당 비교 분기의 스크린·도움수비 표본 | 현행 Chicago 동료/개인교사로 로드 금지 |
+| Kevin Huerter | 폐기 Atlanta 분기의 루키 동료 후보 | 해당 비교 분기의 슈팅 준비·오프볼 이동 표본 | 현행 동료 관계·분·공로로 복사 금지 |
+| John Collins | 폐기 Atlanta 분기의 프런트코트 파트너안 | 해당 비교 분기의 스크린·수직 공간·리바운드 충돌 | 현행 동료·우정·희생으로 복사 금지 |
 | 핵심 라이벌 | 평생 기준 | 핸들·왼손·템포·자가 창조의 약점을 가장 먼저 폭로 | 같은 기술형으로 수렴 |
 
-Indiana가 선택될 경우 Haliburton·Mathurin·Nembhard 관계는 별도 3-Act 원장 뒤에만 추가한다. 현재는 팀도 결말 동료도 `HOLD`다.
+Indiana의 Haliburton·Mathurin·Nembhard 동료안도 비선택 비교 이력이다. 현행 주인공 팀은 Chicago 원클럽으로 잠겨 있으며 재선택하지 않는다. 장기 동료 기능 후보는 `design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md`를 따르되, 최종 패스 수신자는 HOLD다. 고정 결말의 동료 결승 득점·팀 승리 기능은 유지한다.
 
 ## 5. 비시즌 관계 예산
 
@@ -116,6 +118,8 @@ Indiana가 선택될 경우 Haliburton·Mathurin·Nembhard 관계는 별도 3-Ac
 
 ## 8. 인물별 음성 대비
 
+아래는 음성 기능 후보이며 실제 사적 말투 인증이 아니다. Trae/Huerter/Collins 세 행은 폐기 Atlanta 분기의 비교 표본으로만 보관한다. 현행 Context Pack에 동료로 넣거나 자동으로 상대와의 친분을 만드는 입력이 아니다.
+
 | 인물 | 어투 기능 | 트래시 토크 방식 |
 |---|---|---|
 | 주인공 | 짧고 건조한 사실형 | 결과가 나온 뒤 상대 선택을 찌름 |
@@ -139,16 +143,16 @@ Indiana가 선택될 경우 Haliburton·Mathurin·Nembhard 관계는 별도 3-Ac
 - 민감한 갈등이 필요하면 기능이 겹치지 않는 가상 인물로 분리한다.
 - 실제 팀 내 권한은 감독·코치·트레이너·의료진·에이전트별로 유지한다.
 
-## 10. 근거와 다음 감사
+## 10. 폐기 Atlanta 분기의 조사 근거
 
 - [Atlanta Hawks — Lloyd Pierce의 선수개발 평판](https://www.nba.com/hawks/coach-lloyd-pierce-reputation-successful-development)
 - [Atlanta Hawks — 2018-19 신인·John Collins 개발 언급](https://www.nba.com/hawks/usa-basketball-announces-lloyd-pierce-2019-20-usa-mens-national-team-assistant-coach)
 - [Atlanta Hawks — Therian Williams의 video operations/player development 경력](https://www.nba.com/hawks/news/hawks-announce-basketball-operations-additions-promotions)
 - [Atlanta Hawks — Chris Jent와 DeAndre' Bembry의 체육관 작업 공개 사례](https://www.nba.com/hawks/deandre-bembry-extra-credit-and-court)
 
-Atlanta 2018~23의 코칭 시대·G League 가용성·주요 로스터 충돌은 1차 감사했다. 이후에는 실제 인물별 공개 전문성·주인공이 참가할 수 있는 비시즌 훈련·픽업런·정확한 접근 경로를 추가 확인한다. 가상 트레이너는 실제 조직이 담당할 기능을 침범하지 않으며, 정확한 신원과 남는 기능은 후속 감사 뒤에만 결정한다.
+Atlanta 2018~23의 코칭 시대·G League 가용성·주요 로스터 충돌은 당시 비교 분기에서 1차 감사했다. 아래 감사 상태는 그 역사 조사 범위에만 적용되며 Chicago 경로 인증이 아니다. 현행 인물의 전문성·비시즌 접근 경로는 Chicago 시점의 근거로 확인한다. 가상 트레이너는 실제 조직의 기능을 침범하지 않으며 정확 신원은 HOLD다.
 
-## 11. Atlanta 2018-23 감사 반영
+## 11. 폐기 Atlanta 분기에서만 유효한 감사 결과
 
 상세 권위는 `research/ATLANTA_2018_23_DEVELOPMENT_PATH.md`로 이동한다.
 
@@ -159,4 +163,4 @@ Atlanta 2018~23의 코칭 시대·G League 가용성·주요 로스터 충돌은
 - 2021-22부터 반복 기술은 가상 트레이너와 NBA 팀 훈련이 중심이며, G League는 기본 경로가 아니다.
 - Chris Jent의 공개 개발 사례는 조직적 가능성의 근거이지 주인공 전담 개인교사 확정이 아니다.
 
-감사는 `EVIDENCE_AUDIT_PASS`지만 실제 인물별 정확한 지도 기술·사적 대화·말투는 계속 HOLD다.
+당시 Atlanta 역사 조사의 `EVIDENCE_AUDIT_PASS`는 현행 Chicago 감사 상태가 아니다. 이 절의 College Park 가용성·코칭 시기·G League 운용을 Chicago/Windy City 경로로 이식하지 않는다. 실제 인물별 정확한 지도 기술·사적 대화·말투는 계속 HOLD다.
