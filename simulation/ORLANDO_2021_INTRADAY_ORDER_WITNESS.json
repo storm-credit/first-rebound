@@ -1,0 +1,367 @@
+{
+  "scope": "FOUR_SAME_DAY_SIGN_RELEASE_BOUNDARIES_CONDITIONAL_CAPACITY_ONLY",
+  "classification": "EXHAUSTIVE_LOCAL_ORDER_WITNESS_NOT_LEGAL_REGISTRATION",
+  "inputs": [
+    "research/D1_ORLANDO_CALENDAR_SOURCES_2026_10_02.json",
+    "simulation/ORLANDO_2020_21_SELECTED_DAILY_REGISTRATION.json"
+  ],
+  "rows": [
+    {
+      "date": "2021-04-13",
+      "pre_counts": {
+        "standard": 15,
+        "two_way": 2
+      },
+      "orders": [
+        {
+          "steps": [
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 16,
+              "two_way": 2
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 15,
+              "two_way": 2
+            },
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 16,
+              "two_way": 2
+            },
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 16,
+              "two_way": 1
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 14,
+              "two_way": 2
+            },
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 15,
+              "two_way": 2
+            },
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": true
+        },
+        {
+          "steps": [
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 14,
+              "two_way": 2
+            },
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 14,
+              "two_way": 1
+            },
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": true
+        },
+        {
+          "steps": [
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 15,
+              "two_way": 1
+            },
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 16,
+              "two_way": 1
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Karim Mane",
+              "standard": 15,
+              "two_way": 1
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Devin Cannady",
+              "standard": 14,
+              "two_way": 1
+            },
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 15,
+              "two_way": 1
+            }
+          ],
+          "capacity_safe": true
+        }
+      ],
+      "recommended_process_order": [
+        {
+          "action": "RELEASE_TEN_DAY",
+          "player": "Devin Cannady",
+          "standard": 14,
+          "two_way": 2
+        },
+        {
+          "action": "WAIVE_TWO_WAY",
+          "player": "Karim Mane",
+          "standard": 14,
+          "two_way": 1
+        },
+        {
+          "action": "SIGN_TEN_DAY",
+          "player": "Donta Hall",
+          "standard": 15,
+          "two_way": 1
+        }
+      ],
+      "safe_orders": 3,
+      "all_orders": 6
+    },
+    {
+      "date": "2021-04-27",
+      "pre_counts": {
+        "standard": 15,
+        "two_way": 2
+      },
+      "orders": [
+        {
+          "steps": [
+            {
+              "action": "SIGN_REST_OF_SEASON",
+              "player": "Moritz Wagner",
+              "standard": 16,
+              "two_way": 2
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Robert Franks",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Robert Franks",
+              "standard": 14,
+              "two_way": 2
+            },
+            {
+              "action": "SIGN_REST_OF_SEASON",
+              "player": "Moritz Wagner",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": true
+        }
+      ],
+      "recommended_process_order": [
+        {
+          "action": "RELEASE_TEN_DAY",
+          "player": "Robert Franks",
+          "standard": 14,
+          "two_way": 2
+        },
+        {
+          "action": "SIGN_REST_OF_SEASON",
+          "player": "Moritz Wagner",
+          "standard": 15,
+          "two_way": 2
+        }
+      ],
+      "safe_orders": 1,
+      "all_orders": 2
+    },
+    {
+      "date": "2021-05-02",
+      "pre_counts": {
+        "standard": 15,
+        "two_way": 2
+      },
+      "orders": [
+        {
+          "steps": [
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Ignas Brazdeikis",
+              "standard": 16,
+              "two_way": 2
+            },
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "RELEASE_TEN_DAY",
+              "player": "Donta Hall",
+              "standard": 14,
+              "two_way": 2
+            },
+            {
+              "action": "SIGN_TEN_DAY",
+              "player": "Ignas Brazdeikis",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": true
+        }
+      ],
+      "recommended_process_order": [
+        {
+          "action": "RELEASE_TEN_DAY",
+          "player": "Donta Hall",
+          "standard": 14,
+          "two_way": 2
+        },
+        {
+          "action": "SIGN_TEN_DAY",
+          "player": "Ignas Brazdeikis",
+          "standard": 15,
+          "two_way": 2
+        }
+      ],
+      "safe_orders": 1,
+      "all_orders": 2
+    },
+    {
+      "date": "2021-05-04",
+      "pre_counts": {
+        "standard": 15,
+        "two_way": 2
+      },
+      "orders": [
+        {
+          "steps": [
+            {
+              "action": "SIGN_TWO_WAY",
+              "player": "Sindarius Thornwell",
+              "standard": 15,
+              "two_way": 3
+            },
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Devin Cannady",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": false
+        },
+        {
+          "steps": [
+            {
+              "action": "WAIVE_TWO_WAY",
+              "player": "Devin Cannady",
+              "standard": 15,
+              "two_way": 1
+            },
+            {
+              "action": "SIGN_TWO_WAY",
+              "player": "Sindarius Thornwell",
+              "standard": 15,
+              "two_way": 2
+            }
+          ],
+          "capacity_safe": true
+        }
+      ],
+      "recommended_process_order": [
+        {
+          "action": "WAIVE_TWO_WAY",
+          "player": "Devin Cannady",
+          "standard": 15,
+          "two_way": 1
+        },
+        {
+          "action": "SIGN_TWO_WAY",
+          "player": "Sindarius Thornwell",
+          "standard": 15,
+          "two_way": 2
+        }
+      ],
+      "safe_orders": 1,
+      "all_orders": 2
+    }
+  ],
+  "total_orders": 12,
+  "safe_orders": 6,
+  "limits": [
+    "13-player carry-forward baseline remains conditional",
+    "Actual historical intraday receipt order is not recovered",
+    "Local capacity does not certify contract eligibility, salary, complete transaction domain or league acceptance"
+  ],
+  "complete_domain": false,
+  "source_verified": false,
+  "legal_execution_cleared": false,
+  "manuscript_allowed": false
+}

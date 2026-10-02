@@ -32,3 +32,7 @@
 독서95/110·미독15·전체P30·실제 회차Pack0·원고0·새작가확정0.7행 1완료·2진행·3조건부 선행·4/5대기·6기초 진행·7대기,남은 큰 묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED. 이번 증인/PR를 전체 완료로 처리하지 않고 해소 가능한 다음 의존성으로 계속 진행한다.
 
 [실제 V2 실행·검수 경계](../reviews/D1_ORL_CALENDAR_V2_REVIEW_2026_10_02.md)를 연결했다.
+
+## 同日 처리 순서 후속
+
+[4개 날짜 순서 전수](../simulation/ORLANDO_2021_INTRADAY_ORDER_WITNESS.json)는 끝자리수에서선행명단을역산해 총12순서를 비교한다. 자리상한유지6·초과6. 4/13 Cannady일반해제와Mane투웨이해제 뒤Hall서명,4/27 Franks해제→Wagner서명,5/2 Hall해제→Brazdeikis서명,5/4 Cannady투웨이해제→Thornwell서명은 각중간한도유지. 이는실제접수순서발견이나전체등록PASS가아니며, 기존13명기초/완전거래범위/계약자격·비용HOLD를유지한다. 구단연혁에SIGN먼저나왔다고실제접수먼저라고읽지않는다. 외부서비스이번NOT_RUN·Codex국소분기검사·전체독립PASS아님.
