@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [Orlando 초기18일 일정 연결](reviews/ORLANDO_EARLY_SCHEDULE_LINK_REVIEW.md): 기존실제72경기 기준선으로초기9경기/9비경기와후반19경기를대조했다. 전체53일28경기·홈/원정event_id·후반35행완전보존·변조4건거부 PASS. 당일활동/등록/접수/전체비용과법적12HOLD·F0/5 A0/3 K0/4·미완료6·PARTIAL/CLOSED 유지.
+
 2026-10-02 [투웨이 적용기간 정정](research/TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md): 공식 G League 2023 보존본문에서2021–22 50활동경기 초과허용 예외 존재를 확인했다. Garza 연간32비활동/2월5비활동 의무를 개막제한 유지 가정으로 낮추고 관련8문서 적용범위를 교정했다. 82날짜/산술은 유지·시행일/추가급여/등록 HOLD·법적12PASS0·미완료6·PARTIAL/CLOSED.
 
 2026-10-02 [전체 기둥 후속 기능 검수](reviews/A03_AND_LONG_CAREER_FUNCTION_REVIEW.md): 대학 후보회차기능3/정보구간9와 기존17시즌 행동·직접비용·다음과제를 구체화했다. NotebookLM 자체3기능분석59.758초 회수·별도Codex대조 충돌미발견·Claude55.079초timeout. 최종회차기능0·실제Pack0·법적PASS0·미완료6, PARTIAL/CLOSED 유지.
