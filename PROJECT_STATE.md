@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [Orlando53일 제한 반증](reviews/ORLANDO_53_DAY_TRANSITION_REBUTTAL.md): Claude 응답51.463초 회수. 스냅샷 전이/후반행 중복·count 검사 누락을 수정, 초기 이월 행 추적 추가. 기존 경계검사 부재라는 오독은 기각. 원본 검사·변조5종 거부 PASS, 법적PASS0·미완료6·PARTIAL/CLOSED 유지.
+
 2026-10-02 [Orlando 53일 명단 연결](simulation/ORLANDO_2021_DEADLINE_TO_FINAL_CALENDAR.json): 기존 기초명단의3/25~4/11 18일을 명시하고 기존4/12~5/16 35행을 그대로 연결했다. 날짜 연속·Franks 경계 이름집합·부상0분선수 보존 PASS. 초기18일 경기일분류/계약자격/전체등록은 HOLD, 새원자료0·법적PASS0·미완료6·freezePARTIAL·CLOSED.
 
 2026-10-02 [A03 대학 대표 기능](design/A03_COLLEGE_REPRESENTATIVE_FUNCTIONS.md): 기존 초기 실패/역할 획득/Texas Tech 증명 3개의 진입·문제·선택·직접 비용·종료·Draft 연결을 구체화했다. 후보 패킷이며 추가 대표 경기0·새 역사 사실0·최종 회차 기능0·실제Pack0. 정확 경기/200분 재배분은 HOLD, F0/5 A0/3 K0/4·법적12HOLD·미완료6·freezePARTIAL·설계/원고CLOSED 유지. 이번 외부 분석 NOT_RUN.
