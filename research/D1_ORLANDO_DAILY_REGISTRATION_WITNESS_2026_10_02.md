@@ -42,3 +42,9 @@
 [명단 연결](../simulation/ORLANDO_2021_BASELINE_CONTINUITY.json)은3/24원역사15명의재구성에서Gordon/Clark→Harris/Nnaji,Fournier→Teague,3/27Teague해제,4/6Cannady서명,4/8Birch해제를연결한다. 마지막14명에서Cannady별도단기계약을분리하면기존BASE_STANDARD13명과정확히일치한다.4/12Franks로15명이된다. Aminu/Fultz/Isaac는0분·부상에도보존한다.
 
 Birch대체세계해제·Nnaji일반계약·중간사건전수는여전히조건이며전수법적등록/비용PASS로올리지않는다. 같은대체기초13명을두번검증했다고세지않는다. 이번웹의공식가이드검색발췌는4/6서명·4/8해제연혁만보조하고,직접3/24경기책/Birch구단본문접근실패는보존한다. 도구실행AG/NLM/Claude이번NOT_RUN.
+
+## 마감일부터 최종전까지 달력 연결
+
+[53일 연결 증인](../simulation/ORLANDO_2021_DEADLINE_TO_FINAL_CALENDAR.json)과 [생성기](../tools/build_orlando_deadline_calendar.py)는 기존 baseline의 3/25~4/11 18일을 명시해 기존 35일에 연결한다. 4/11 명단에 Franks 하나를 더하면 4/12 이름 집합이 정확히 일치하며 투웨이 집합도 같다. 기존 35행은 그대로 보존한다. 초기 18일의 경기/비경기일 분류는 NOT_CHECKED이며 새 경기책 검증으로 세지 않는다.
+
+3/25 일반15→3/27 일반14→4/6 일반15→4/8 일반14→4/12 일반15의 끝시점 연결이다. 초기 사건 사이에는 기존 명단을 조건부 이월한다. 同日 순서·계약 자격·모든 사건 전수·비용·Birch 방출의 대체세계 실행은 인증하지 않는다. 신규 원자료0·법적 PASS0·AG/NLM/Claude/source-blind 이번 NOT_RUN, 전체 S2 HOLD와 미완료6 및 CLOSED 유지.
