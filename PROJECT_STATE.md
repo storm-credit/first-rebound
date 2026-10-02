@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 [2021플레이오프 결과 설계](simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json): DEN–LAL보존+신규14개로15시리즈 승자/길이 설계 채택. MIL우승/PHX준우승, 새PHX–LAL7경기와서부부하변경 명시. 15고유탈락/후속연결 검사PASS; 건강·등록·날짜·점수·법적12행과전체시즌 실행HOLD·미완료6·원고CLOSED.
+
 2026-10-02 [시리즈 외부 분석 회수/처분](reviews/DEN_LAL_2021_DELEGATED_SERIES_REVIEW.md): AG인자120s교정 후90.029초 응답 회수지만 전부본문미확인·새검증원자료0. NLMtext등록9.859초/자체출처분석52.938초 회수; 승인된Bey/Hartenstein 경로를 역사명단과 혼동한 모순지적 기각. Claude65.099초timeout·반증본문0. H00과별도playoff가용성/목록밖선수DNP미확정/후속회복미상속 범위명시. LAL4–2/분배 변경0·법적12HOLD·미완료6·freezePARTIAL·CLOSED.
 
 2026-10-02 [위임 시리즈 설계](simulation/DEN_LAL_2021_DELEGATED_SERIES.json): LAL4–2·양팀 가용성 모델과240분 성립 증인을 선택했다. 아래 건강/결과 미선택 문구는 당시 이력이다. 실제 날짜·등록자격·득점/포제션·PHX/POR 후속·법적12행은 HOLD. 원역사 DEN→PHX와6/13퇴장 이월 금지. 전체season_selected=false·설계/원고CLOSED.
