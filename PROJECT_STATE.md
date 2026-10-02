@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-02 Context設計샘플권위수정: 생성기가이미위임선택된K1/L2를CANDIDATE로출력하던결함을AUTHOR_MODELED_DESIGN+선택기록해시로교정했다. FACT승격금지와지정샘플/주장별권위필수검사를유지한다. G11표/현재HouseStyle의S1미선택표기를동기화하되개별POV/G11최종/실제Pack/G16은HOLD. 이전독립감사S1미선택사유는최신권한에대해폐기되며, Context프로토콜CLOSED조건은유지한다. 미완료6·원고0.
+
 2026-10-02 [Orlando기초13명 연결](simulation/ORLANDO_2021_BASELINE_CONTINUITY.json): 승인거래15→Teague해제14→Cannady서명15→Birch해제14에서Cannady단기계약을분리하면기존기초13명과일치한다.0분Aminu/Fultz/Isaac보존. Birch대체해제/Nnaji일반계약/중간전수는조건·비용HOLD이며원장12행PASS변경0. 미완료6·freezePARTIAL·원고CLOSED.
 
 2026-10-02 [Orlando同日순서증인](simulation/ORLANDO_2021_INTRADAY_ORDER_WITNESS.json): 4날짜12순서의중간자리수를검문해상한유지6/초과6을분리했다. 해제후서명 순서로 각국소자리상한을유지할수있으나 실제접수순서·13명기초·계약자격·전체비용/등록HOLD. F0/5 A0/3 K0/4·미완료6·원고CLOSED.
