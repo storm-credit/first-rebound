@@ -1,5 +1,30 @@
 # CP2 통합 검토 패킷 — 2021 잠정 결산부터 은퇴까지
 
+## 2026-10-04 현행 조건부 기능 인덱스
+
+14막의 행동·직접비용을 아래 후보 파일에 연결했다. 기존780배분/42소막과 구분하며 대학 대표3개의 범위를 넓히지 않았다. 어느 행도 배분 슬롯 수의 최종 회차를 성립시키지 않는다. **최종 회차 기능0·실제Pack0·전체 설계 미완료**다.
+
+| 막·기간 | 기존 배분 슬롯 | 기능 입력 | 회차 상태 |
+|---|---:|---|---|
+| A01 2015–2016.02 | 36 | [12개 인과후보](A01_CONDITIONAL_EPISODE_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A02 2016.03–2017.06 | 54 | [10개 인과후보](A02_PREP_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A03 2017–18 | 54 | [기존 대표기능3개](A03_COLLEGE_REPRESENTATIVE_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A04 2018 Draft | 12 | [6개 인과후보](A04_DRAFT_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A05 2018–20 | 92 | [8개 인과후보](A05_EARLY_NBA_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A06 2020–21 | 74 | [8개 인과후보](A06_2020_21_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A07 2021–22 | 60 | [6개 인과후보](A07_2021_22_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A08 2022–23 | 60 | [5개 인과후보](A08_2022_23_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A09 2023–24 | 70 | [5개 인과후보](A09_2023_24_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A10 2024–25 | 70 | [4개 인과후보](A10_2024_25_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A11 2025–26 | 65 | [4개 인과후보](A11_2025_26_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A12 2026–27 | 58 | [4개 인과후보](A12_2026_27_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A13 2027–28 | 60 | [4개 인과후보](A13_2027_28_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+| A14 2028–2035 | 15 | [6개 인과후보](A14_2028_35_CONDITIONAL_FUNCTIONS.md) | 최종 회차·배치 미정 |
+
+현재 권위: K1/L2·15시리즈 결과·첫 추첨 디자인은 [기존 위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)과 [2021결과](../simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json)·[첫 추첨 선택](../canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json)에 따른다. M1/G1A는 [작가 방향](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json), S1/G11규격은 [문체 종료](../reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md)가 우선한다. E2·H2·RC1·AW2·NM1 정확 사건/성과/좌표는 후보/검증HOLD다. **Game7 동료 결승득점·팀 승리 기능은 이미 잠겼고**, 미래 구체수신자/연도/상대와 구분한다. 아래 초기 표의 추천/미선택·옛 독서 수·샘플 STALE 문장은 당시 이력이며 현행 사용은 각 최신 상세 권위를 따른다.
+
+[현행7행 진행표](WORLD_BIBLE_COMPLETION_ROADMAP.md): 미완료큰묶음6·법적12HOLD/F0/5 A0/3 K0/4·PARTIAL/CLOSED·원고0. 기능 후보를 실제 ContextPack으로 일괄 컴파일하지 않는다.
+
 2026-10-02 [42소막 국소 기능 검수](../reviews/CP2_LOCAL_CHOICES_REVIEW_2026_10_02.md): 부모 선택 복제36개를 기존 입구·압력에 맞는 행동과 비용으로 보완했고 이미 개별화된A07/A08의6개는 보존했다. 14Act·42SubAct·780배분·약속·시간창은 유지한다. 고정 결말의 동료 결승 득점·팀 승리를 제한 검수의 기각 의견으로 덮어쓰지 않았다. [10작품 질적 합성 종료](../reviews/G11_TEN_WORK_CLOSEOUT_REVIEW_2026_10_02.md)의 수정 독서110/110·질적 비교10/10을 현재 연구 입력으로 읽고 아래 초기 독서 수는 당시 이력으로 보존한다. 새 사건/승패/계약 합의0·최종 회차 기능0·실제Pack0/설계샘플2·미완료 큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 이번 검수는 지정된 소막/비용 범위이며 G16 전체PASS가 아니다.
 
 - 상태: `PROVISIONAL_REVIEWABLE_PACKET / NOT_DESIGN_COMPLETE`.

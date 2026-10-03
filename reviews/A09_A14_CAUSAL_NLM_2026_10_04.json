@@ -1,0 +1,174 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "00cf6b99-70ce-47f9-ba67-b9eeb12832d4"
+  ],
+  "question_sha256": "151fbf86a69248aea310e3ac63f2005b5a3e0ea4f8ed0e69399a6eda7c5dd5fd",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 58.234,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "A09–A14 구간의 27개 인과 후보(A09: 5개, A10: 4개, A11: 4개, A12: 4개, A13: 4개, A14: 6개)에 대한 조건부 입력 검토 결과입니다 [1-7].\n\n제시된 검토 기준(슬롯/실제회차, 기술시도/완성, 명단·건강·계약·메달·H2/RC1/AW2 좌표 누출 여부)에 해당하는 규정 위반 및 정보 누출 실제 결함은 **미발견**되었습니다 [8].\n\n지침에 따라 **전체통과 판정은 금지**하며, 해당 범위의 세부 검토 내역은 다음과 같습니다.\n\n---\n\n### **1. 항목별 세부 검토 내역**\n\n* **슬롯 / 실제 회차 구분 검토**: A09–A14의 allocation 수치(A09: 70, A10: 70, A11: 65, A12: 58, A13: 60, A14: 명목 15슬롯)는 권한 배정용 명목 슬롯일 뿐이며, 최종 에피소드 패크(`actualPacks=0, CLOSED`)를 확정하거나 회차 수를 오인하여 누출하는 결함이 없습니다 [1-6, 8].\n* **기술 시도 vs 완성 (성과 미보증) 검토**: 모든 인과 후보는 선수 본인의 준비, 관측, 행동 시험 및 직접 비용(시간·신체 배정)만을 기술하고 있습니다 [9-17]. `changed_state` 항목을 통해 기술 완성, 우승, 자동 성능 개선, 개인 클러치 성과 등을 보증하지 않음을 명확히 격리하고 있습니다 [9-14, 16-18].\n* **명단·건강·계약·메달·H2/RC1/AW2 좌표 누출 여부**: 모든 후보의 `information_access` 조건은 \"본인의 수행·코트 관측·허용된 영상·실제 전달된 역할/일정/공개 급여 기반 설명\"으로 엄격히 제한되어 있습니다 [8, 9, 11, 13, 15, 16, 19, 20]. 미전달 계약, 건강 상태, 감독·동료의 속마음 및 H2/AW2/RC1/NM1 등 결과 예산 좌표는 미선택(`unselected`) 상태로 보존되어 있습니다 [8, 9, 11, 13, 15, 16, 19, 20].\n* **불변 기능(Fixed Ending Authority) 보존 검토**: \n  * **A13-CF04** (NBA Finals Game7 수비→리바운드→전진→패스→동료 결승 득점·팀 승리)는 작가 잠금 기능(`author_locked_function: true`)으로 고정되어 있으며, 연도·상대·수신자 좌표는 미선택으로 격리되어 있습니다 [8, 18].\n  * **A14-CF06** (Chicago 원클럽 은퇴) 역시 작가 잠금 기능으로 보존되어 있으며, 정확한 은퇴 일자나 연속 시즌 수치 등의 개별 좌표를 확정하지 않은 채 안전하게 유지되고 있습니다 [6, 7].\n\n---\n\n### **2. 판정 결과**\n* **검토 범위 내 결함 상태**: **미발견** [8]\n* **전체통과 판정**: **금지 (지침에 따라 전체통과 판정을 내리지 않음)**\n\n🔍 A01–A08 등 앞선 막들의 인과 후보나 특정 서브액트 구조에 대해서도 동일한 격리 검토가 필요하신가요?",
+      "question": "전체14막의 조건부 입력을 검토한다. 파이널Game7 동료결승득점·팀승리 기능은 이미 잠겼고 연도/상대/수신자 미정이다. 원클럽은퇴 기능 보존/정확은퇴일미정이다. A09–A14의27인과후보가 슬롯/실제회차, 기술시도/완성, 명단·건강·계약·메달·H2/RC1/AW2 좌표로 새는 실제 결함만 최대3개 찾아라. 제공된 관측/받은역할/공개급여 기반 실제전달설명 조건은 유효하며 비용은 성과보증이 아니다. 결함없으면 해당 범위에서 미발견이라고 쓰고 전체통과 판정금지.",
+      "conversation_id": "cba9caa3-1064-4900-a610-93931b4dd519",
+      "sources_used": [
+        "00cf6b99-70ce-47f9-ba67-b9eeb12832d4"
+      ],
+      "citations": {
+        "1": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "2": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "3": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "4": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "5": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "6": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "7": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "8": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "9": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "10": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "11": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "12": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "13": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "14": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "15": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "16": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "17": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "18": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "19": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+        "20": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4"
+      },
+      "references": [
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 1,
+          "cited_text_sha256": "8c882d339eede72fdb9a19d02ee892be2ea8077fcdf921283fbb60083d488772",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 2,
+          "cited_text_sha256": "3c343d1eba1f656ca7327b968c06c730ec62aaf264fd0daf8ef84d99a580c888",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 3,
+          "cited_text_sha256": "b0f3bf35adc2746d60f8ec6b87a3a1f0e04681d84e48cc64cb98a5499e17634c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 4,
+          "cited_text_sha256": "c66b4f082ef6afb072d9771c584ba811e9a809bf1c76925a3b1325747a535fdd",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 5,
+          "cited_text_sha256": "fb01bcef54a39d689348fd4babe9c289aa76bb1a1358110d23141fed9bdb655c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 6,
+          "cited_text_sha256": "2d2dbcb7ab7a35b8e31fc275f82c0c4b3032bfe1de37bca8ea3ba2117fa1378c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 7,
+          "cited_text_sha256": "fcc24bda9aa16ab69af16b4c6601f612b32aec218e5f01477a3287932e8a2aa6",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 8,
+          "cited_text_sha256": "313ef2c53620d2935af40b4c4e1ca0070296ef9db6dd534e528e8e462978eaff",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 9,
+          "cited_text_sha256": "6df0493aded6287696e185581ccd0da1f5ee13087cadfaef75f024aef341f1e2",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 10,
+          "cited_text_sha256": "22b084d44a6f2840589aba417e865c72e527a34f3927ee4aa8f19c8ff9f5d80b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 11,
+          "cited_text_sha256": "8f5017782dc7aa3ea8671043d4b51b9689af4b2c06c3129bf5f6b96020d09bb1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 12,
+          "cited_text_sha256": "b4b6ace5ba8b9fc7c1af082f6c58c1171910a829fa878579f653036783000e2e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 13,
+          "cited_text_sha256": "f2d821063aa73b975e22238219fa59e5cda81c7fcab3c1365e5c0cc3eb6a0bce",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 14,
+          "cited_text_sha256": "39ccb4d4a5f5c9a336b1cbc54ac7bc2091733defd1a7527bbf7df0602890d681",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 15,
+          "cited_text_sha256": "69afe1efad620322f990a9a055f2164c27b6fe42e1baa55442e30577ed66d2f1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 16,
+          "cited_text_sha256": "f4e512bfcfa5e8c80cb95463be56ed3c71f34729947df66374eff6f81a9d7bc8",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 17,
+          "cited_text_sha256": "d380a8f13250525010cb596882961fb19b97844aa33d23162dc0161fd1fd68b4",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 18,
+          "cited_text_sha256": "cbef5dd57d0632254d9edc1197c1769fd53bd64870be653c6809d7d492544dd9",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 19,
+          "cited_text_sha256": "5c82ac7a3c9995621cacf9766c714f690cce4145855c6cb70f9fe19fb5fccdf0",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+          "citation_number": 20,
+          "cited_text_sha256": "a7ce0e926a33888c6277fdd22de876431efaeba4df157915853a7c8ba42fc237",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
