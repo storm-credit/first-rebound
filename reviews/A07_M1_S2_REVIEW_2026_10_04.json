@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-04",
+  "baseline_main": "2acea7dcddd72d2809ba902e1f4268605d1d2d73",
+  "artifact_sha256": {
+    "design/A07_2021_22_CONDITIONAL_FUNCTIONS.json": "aac2d944867c731f2772272ad46378bfb0570386d65e9f9bbb5481dad3ee06f4",
+    "simulation/CHICAGO_2021_M1_ROLE_WITNESS.json": "26b73b6ba0a87449f60774fa3a631374679e0fd5bc6547e5bbecf013232ddf0c",
+    "tools/check_chicago_2021_m1_role_witness.py": "99cb0ba01862961d50c7c85c0333b30094121c00f9bbcac4d73efa231e0718f9",
+    "tools/check_chicago_d1_s2.py": "68322ad3b33728b581f0476b88e378baa859cf9a6ec0c6a7fba556426405e282"
+  },
+  "checks": {
+    "A07_functions": 6,
+    "A07_slots": 60,
+    "A06_entry_matches": true,
+    "adjacent_states_match": true,
+    "source_hashes_match": true,
+    "MD_JSON_match": true,
+    "event_fields_null": true,
+    "local_links": 19,
+    "M1_witness_lineups": 11,
+    "M1_clock_minutes": 48,
+    "M1_team_minutes": 240,
+    "M1_negative_tests": 8,
+    "S2_minimum_domain_delete_duplicate_group_kind_controls_passed": true,
+    "S2_future_complete_branch_allowed": true,
+    "legal_register_unchanged": true
+  },
+  "nlm_imports": {
+    "M1": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "elapsed_seconds": 11.626,
+      "response": {
+        "source_type": "text",
+        "source_id": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+        "title": "FR M1 conditional5player witness 2026-10-04"
+      },
+      "process_budget_seconds": 50,
+      "prompt_sha256": "d913a9b9e25e2868e1c108704f27fd6aec1c400b8425f47f56b204fed9b131aa",
+      "raw_logs_retained": false,
+      "independent_source_increment": 0
+    },
+    "A07": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "elapsed_seconds": 8.448,
+      "response": {
+        "source_type": "text",
+        "source_id": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+        "title": "FR A07 elbow conditional6 functions 2026-10-04"
+      },
+      "process_budget_seconds": 50,
+      "prompt_sha256": "7b5817c69000d9a04b391cf427f0ef2fc2e7d8d852b092d8bbe4b3c32425c720",
+      "raw_logs_retained": false,
+      "independent_source_increment": 0
+    }
+  },
+  "external_results": {
+    "M1_NLM_response_seconds": 27.945,
+    "A07_NLM_response_seconds": 48.87,
+    "Claude_M1_response_seconds": 71.91,
+    "Claude_scope": "LIMITED_ARTIFACT_ONLY_BLIND_NOT_FULL_REPOSITORY",
+    "Antigravity": "NOT_RUN_NO_NEW_SOURCE_COLLECTION_NEEDED",
+    "full_independent_source_increment": 0
+  },
+  "adjudication": {
+    "A07_NLM_success_guarantee_objections": "REJECTED: action/cost need not guarantee coach acceptance, skill mastery or contract. Actual trial boundaries are required, not defects.",
+    "Claude_global_counter_concern": "ACCEPTED_CONTEXT: date-stamped snapshot and linked current authorities, no cycle with PROJECT_STATE source hash.",
+    "Claude_LaMelo_unselected_claim": "REJECTED: pre-existing freeze O15E2 author selected pick4. Added explicit authority link/hash; no downgrade.",
+    "Codex_A07_CF04_CF05": "REPAIRED: cost not guaranteed hesitation; later trial uses actual error observation condition.",
+    "Codex_M1_summary": "REPAIRED: persisted player totals/clock compared with witness.",
+    "S2_false_closure": "REPAIRED: deleting required obligation from both lists no longer creates PASS."
+  },
+  "scope_notes": [
+    "External M1 input predates authority-link/date clarification; no arithmetic changed. Fresh mechanical checks cover final sourcehashes.",
+    "S2 proof shape verification does not verify human supplied source_verified flags or facts."
+  ],
+  "new_author_decisions": 0,
+  "final_episode_functions": 0,
+  "actual_context_packs": 0,
+  "legal_proofs_cleared": 0,
+  "F": "0/5",
+  "A": "0/3",
+  "K": "0/4",
+  "unfinished_macro_groups": 6,
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}

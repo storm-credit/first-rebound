@@ -1,0 +1,55 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "dae37e6d-473b-4a86-bf00-db8348ece9ca"
+  ],
+  "question_sha256": "8d327013707db05a840893ac38aa6bd8d5548599f3f5d92f42096e842b60e809",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 48.87,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "A07의 6개 조건부 기능(CF01~CF06)에서 **현재 행동(choice)·직접 비용(direct_cost)·변경 상태(changed_state) 연결 상의 실제 결함** 2가지와 권한 검증 및 증거 인증 결과는 다음과 같습니다.\n\n---\n\n### 1. 행동·비용·상태 연결의 실제 결함 (최대 2개)\n\n1. **실행 오류 발생 및 수정 요청의 성공 불확정성 (CF04, CF05)**\n   - **CF04**에서는 조기 도움수비 앞에서 자기 공격을 접고 반환을 시도하는 행동을 취하나, 변경 상태에서 **\"늦은 판단·막힌 반환 경로·다음 위치의 오류가 함께 드러날 수 있다\"**[1]는 가능적 결함이 명시됩니다.\n   - **CF05**는 막힌 캐치나 늦어진 반환이 실제 관측된 조건으로, 실패 영상 확인과 역할 축소 감수라는 직접 비용을 치르며 제한 재시험을 요청하는 행동을 수행합니다 [1]. 그러나 변경 상태는 **\"코치의 수락과 재시험 성공은 보장되지 않는다\"**[1]로 나타나, 비용 지불과 수정 행동이 실전에서의 성공이나 역할 확정으로 연결되지 않는 결함을 보입니다.\n\n2. **개별 행동·비용 지불과 권한·성과 획득 간의 비연결성 (CF01, CF03, CF06)**\n   - 선수가 연습 기회를 일부 줄이거나(CF01), 공과 시간을 사용하고(CF03), 약점이 포함된 자료를 에이전트에 넘기는 등(CF06) 직접 비용을 감수하며 행동을 실행합니다 [1, 2].\n   - 하지만 변경 상태는 **\"실제 호출·출전 권한은 자신이 정하지 못한다\"**[2], **\"득점 성공과 선택의 반복성은 별도 과제로 남는다\"**[2], **\"계약 가격·공동 에이스 권한은 아직 얻지 않는다\"**[1]로 마감되어, 선수의 주도적 행동이나 비용 지불이 구체적인 권한 상승이나 결과로 직결되지 못합니다.\n\n---\n\n### 2. 권한 유출 검사 (A08 기술 / E2 계약 / 공동 에이스 / 팀 결과)\n\n- **A08 기술**: **\"A08livepassnotmastered\"**[3]로 라이브 패스 기술을 마스터하지 못했으므로 이를 통한 권한 유출은 발생하지 않습니다.\n- **E2 계약**: **\"E2notselected\"**[3] 및 **\"계약 가격·공동 에이스 권한은 아직 얻지 않는다\"**[1]에 따라 E2 계약 선택 및 계약 가격 결정 권한이 새어나가지 않습니다.\n- **공동 에이스**: **\"LaMeloattackstart/LaVinefinisher/Markspacingpreserved,M1selecteddirectionexactexecutionHOLD,G1ACarusopursuitonly\"**[3] 구조가 유지되며, 공동 에이스 권한은 획득되지 않습니다 [1].\n- **팀 결과 및 출전 권한**: 선수는 **\"LimitedPOVreceivedrole/owntrials/permittedvideoonly\"**[3] 상태로 제한된 수신 역할과 자체 시험, 허용된 영상 자료만 보유합니다. 또한 **\"실제 호출·출전 권한은 자신이 정하지 못한다\"**[2]에 따라 팀의 공식 출전/호출 권한이나 경기 결과 영역으로 권한이 유출되지 않습니다.\n\n---\n\n### 3. 자체 자료 후보 분석의 증거 성격\n\n- A07 자료는 **\"A07 CANDIDATE6causalunits2021-22,60slotsunassigned,CLOSED/finalepisodes0/actualPacks0\"**[3]로 규정되어 있습니다.\n- 이는 확정된 실행 패크가 없는(actualPacks0) 내부 **후보 분석(CANDIDATE)** 및 자체 시험 표본에 불과하므로, 이를 **NBA 독립 증거 인증 자료로 사용할 수 없습니다** [3].\n\n---\n\n💡 A07 조건부 기능의 결함 구조나 A08 패스 미습득 건과 관련해 추가적인 비교 분석표가 필요하신가요?",
+      "question": "A07의6개 조건부 기능에서 현재 행동·직접 비용·변경 상태 연결의 실제 결함을 최대2개 지적해라. CF04 오류는 가능성이며 CF05는 실제 오류가 관측된 조건이다. A08 기술/E2 계약/공동에이스/팀 결과로 권한이 새는지 검사하되 허용된 자체자료의 후보분석을 NBA독립증거인증으로 쓰지 마라. 출처에 없는 문장 인용 금지.",
+      "conversation_id": "4ab82888-506f-4048-ad9b-78b40dd2752d",
+      "sources_used": [
+        "dae37e6d-473b-4a86-bf00-db8348ece9ca"
+      ],
+      "citations": {
+        "1": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+        "2": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+        "3": "dae37e6d-473b-4a86-bf00-db8348ece9ca"
+      },
+      "references": [
+        {
+          "source_id": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+          "citation_number": 1,
+          "cited_text_sha256": "7d998096b23bcba9715d1f71429997d1de521eeb292fc0b51b7c864ffe72bb14",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+          "citation_number": 2,
+          "cited_text_sha256": "08aed2bae5018eb5197c8ed03dace5d8d1d67d332cbd2b8163312af6f246bdb9",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dae37e6d-473b-4a86-bf00-db8348ece9ca",
+          "citation_number": 3,
+          "cited_text_sha256": "0a587b959c88551fa35ac4be43d46012d62ad165fe87b4678804bbdcdb4f2f9b",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
