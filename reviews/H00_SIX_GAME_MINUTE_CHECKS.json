@@ -1,0 +1,34 @@
+{
+  "status": "PASS_LIMITED_MINUTE_LINK",
+  "negative_checks": [
+    {
+      "case": "ambiguous team branch",
+      "result": "REJECTED",
+      "reason": "ambiguous team minute branch"
+    },
+    {
+      "case": "lost two-second clock normalization",
+      "result": "REJECTED",
+      "reason": "normalized team budget mismatch"
+    },
+    {
+      "case": "changed return load masquerading as held",
+      "result": "REJECTED",
+      "reason": ""
+    },
+    {
+      "case": "minutes for selected absent player",
+      "result": "REJECTED",
+      "reason": ""
+    },
+    {
+      "case": "unselected exact minutes inserted into health authority",
+      "result": "REJECTED",
+      "reason": ""
+    }
+  ],
+  "team_budget_checks": 6,
+  "focal_load_checks": 6,
+  "medical_maximum_certifications": 0,
+  "minute_design_selections": 0
+}
