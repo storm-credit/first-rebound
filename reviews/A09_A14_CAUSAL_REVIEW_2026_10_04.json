@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-04",
+  "baseline_main": "eb222e68e7cd458cb58eb6fbb1e19c96483afe5d",
+  "checks": {
+    "new_acts": 6,
+    "new_functions": 27,
+    "old_slots": 338,
+    "new_local_links": 47,
+    "A08_through_A14_exact_entry_state": true,
+    "all_adjacent_function_states_match": true,
+    "all_14_artifact_source_hashes_current": true,
+    "MD_JSON_match": true,
+    "explicit_event_nulls_preserved": true,
+    "optional_absent_fields_not_promoted": true,
+    "current_index_acts": 14,
+    "index_links": 20,
+    "A12_automatic_recognition_removed": true,
+    "A13_locked_G7_teammate_score_team_win_preserved": true,
+    "A14_one_club_retirement_function_preserved_exact_date_unselected": true
+  },
+  "acts": [
+    {
+      "act": "A09",
+      "functions": 5,
+      "slots": 70,
+      "links": 10,
+      "sha256": "63a5ecf564c222541cf2a4179aaf203b42f7948971fc31b54813974873110a38"
+    },
+    {
+      "act": "A10",
+      "functions": 4,
+      "slots": 70,
+      "links": 7,
+      "sha256": "5cc22b948e12f37581d354e3fa9b508522d0c87968bbd9fc3892b8bacaafa437"
+    },
+    {
+      "act": "A11",
+      "functions": 4,
+      "slots": 65,
+      "links": 7,
+      "sha256": "b8cab9a9e80de5713824493805839fdd485212d25d6582f7df04c8f8604aa8b2"
+    },
+    {
+      "act": "A12",
+      "functions": 4,
+      "slots": 58,
+      "links": 7,
+      "sha256": "10b428b9742f356f4a447c2d44e75c1dfdbe891c92669ace30ad399a2a6be2e7"
+    },
+    {
+      "act": "A13",
+      "functions": 4,
+      "slots": 60,
+      "links": 9,
+      "sha256": "f0f2add25e5279f01f52366657704dbac0262ef93f43246a72b05c965848da72"
+    },
+    {
+      "act": "A14",
+      "functions": 6,
+      "slots": 15,
+      "links": 7,
+      "sha256": "9d6bb34cf5097381245610ed1ba7468b130877482f8d83de4f914a669627c454"
+    }
+  ],
+  "aggregate_counts": {
+    "causal_candidates_excluding_college_representatives": 82,
+    "existing_college_representatives": 3,
+    "allocation_slots": 780,
+    "final_episode_functions": 0,
+    "actual_context_packs": 0
+  },
+  "nlm_import": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "response": {
+      "source_type": "text",
+      "source_id": "00cf6b99-70ce-47f9-ba67-b9eeb12832d4",
+      "title": "FR A09-A14 conditionalcausal and fixedending authority 2026-10-04"
+    },
+    "elapsed_seconds": 8.386,
+    "input_sha256": "5420f30edda13053c58243f7bd674809a61568ab5b9ba068f8a648c17b016288",
+    "source_scope": "OWN_CANDIDATE_ARTIFACTS_NOT_PRIMARY_EVIDENCE",
+    "independent_source_increment": 0,
+    "raw_logs_retained": false
+  },
+  "external_results": {
+    "NLM_response_recovered": true,
+    "NLM_seconds": 58.234,
+    "Claude": "NOT_RUN_AFTER_ACTUAL_SESSION_USAGE_LIMIT_IN_A08",
+    "Antigravity": "RETURNED",
+    "AG_exit_code": 0,
+    "AG_seconds": 90.059,
+    "AG_response_recovered": false,
+    "AG_terminal_response": "EMPTY_SUCCESS_NOT_EVIDENCE",
+    "independent_new_sources": 0,
+    "full_source_blind": "NOT_RUN"
+  },
+  "Fournier_primary_body_probe": {
+    "url": "https://www.nba.com/magic/orlando-magic-trade-deadline-recap-nikola-vucevic-aaron-gordon-evan-fournier-wendell-carter-gary-harris-otto-porter-rj-hampton-draft-pick-story-20210325",
+    "http_status": 403,
+    "bytes": 615,
+    "response_sha256": "a976081062ce887ea984a494f71a2f0f2a8d9815c1a655f0e0de5f22c57f3e10",
+    "unrestricted_occurrences": 0,
+    "raw_html_committed": false
+  },
+  "adjudication": {
+    "NLM_limited_review": "No concrete authority leakage found in supplied sixact scope; notfullPASS.",
+    "NLM_allocation_wording": "REJECTED permission-budget wording: CP2 allocations are story-volume slots, not player/coach rights or actual episode plan.",
+    "NLM_blanket_success_unlocked": "Interpret with explicit A13/A14 lockedfunction exceptions; fixed teamwin cannot be downgraded.",
+    "Codex_independent": "Limited peract artifact/canon review and statechain; no remaining concrete defect found."
+  },
+  "next_work": "S2 complete domains/dated health and registration, contract/season execution, G13 finalepisode assignment and G14 actualverifiedBlueprint/Packs; do not repeat candidate preparation or G11reading.",
+  "new_author_decisions": 0,
+  "F": "0/5",
+  "A": "0/3",
+  "K": "0/4",
+  "legal_proofs_cleared": 0,
+  "unfinished_macro_groups": 6,
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}
