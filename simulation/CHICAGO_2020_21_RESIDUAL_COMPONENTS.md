@@ -1,5 +1,7 @@
 # O-15F14-L — Chicago 명단 밖 부담의 항목별 처리
 
+2026-10-03 [2019 cap-room 앵커의 조건부 수치 조사](../research/CHICAGO_2019_CAP_ROOM_ANCHOR_SCREEN.md)는 기존 영입 시점부터 이월 의무/신규 사건을 유한하게 추적한다. projected QO와 실제7/7 charge, 연도별80~120% 협상, 다음해 미서명1R 재진입을 분리했다. 현재 Δ와 전체R 상한은null이며 아래 구성별 미인증/기존 한도는 유지한다.
+
 - 기준 main: PR #161 / `042321496cde09219bbafae2d3918ee74a44daf3`.
 - 상태: `PARTIAL_COMPONENT_SCREEN / EXACT_RESIDUAL_HOLD`.
 - 출처: `research/CHICAGO_2020_21_RESIDUAL_SOURCES.json`. 판정 출력: 동명 JSON.

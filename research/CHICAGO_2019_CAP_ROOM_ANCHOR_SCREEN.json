@@ -1,0 +1,144 @@
+{
+  "status": "CONDITIONAL_2019_ANCHOR_SCREEN_NOT_COMPLETE_S2_PROOF",
+  "baseline_main": "6aa84ff68910068f10c426e58a9ef7ce34edf1ed",
+  "as_of_candidate": "2019-07-07",
+  "cap_usd": 109140000,
+  "room_trade_tolerance_usd": 100000,
+  "non_protagonist_2020_known_and_bonus_usd": 123812428,
+  "camp_annual_stress_usd": 4372601,
+  "camp_is_complete_legal_bound": false,
+  "rows": [
+    {
+      "id": "HR_PROJECTED_ARC_QO",
+      "arc_test_usd": 1818486,
+      "subtotal_excluding_P2_usd": 105748289,
+      "anchor_residual_expression": "3491711 - P2",
+      "constant_usd": 131676740,
+      "P2_test_usd": 2039200,
+      "P3_test_usd": 3204600,
+      "delta_test_only_usd": 0,
+      "test_total_usd": 132842140,
+      "tax_excess_usd": 215140,
+      "dated_charge_certified": false,
+      "full_R_upper_usd": null
+    },
+    {
+      "id": "ARC_OMITTED_WIDER_SCREEN",
+      "arc_test_usd": 0,
+      "subtotal_excluding_P2_usd": 103929803,
+      "anchor_residual_expression": "5310197 - P2",
+      "constant_usd": 133495226,
+      "P2_test_usd": 2039200,
+      "P3_test_usd": 3204600,
+      "delta_test_only_usd": 0,
+      "test_total_usd": 134660626,
+      "tax_excess_usd": 2033626,
+      "dated_charge_certified": false,
+      "full_R_upper_usd": null
+    }
+  ],
+  "same_percent_shortcut": {
+    "P2_percent": 120,
+    "P3_percent": 120,
+    "test_total_usd": 131822540,
+    "allowed_domain_restriction": false
+  },
+  "arc_source_conflict": {
+    "HR_projected_QO_usd": 1818486,
+    "SalarySwish_QO_usd": 1878854,
+    "SalarySwish_hold_usd": 1620564,
+    "actual_July7_charge_usd": null
+  },
+  "sources": [
+    {
+      "id": "NBA2019PREVIEW",
+      "url": "https://www.nba.com/30teams30days/2019/chi",
+      "tier": "PRIMARY_PUBLISHED_NBA_ANALYSIS",
+      "scope": "2019 cap-space use and existing acquisitions; no dated charge"
+    },
+    {
+      "id": "NBA2019CAP",
+      "url": "https://www.nba.com/news/nba-salary-cap-2019-20-season-set-10914-million",
+      "tier": "PRIMARY_ANNOUNCEMENT",
+      "scope": "109140000"
+    },
+    {
+      "id": "NBA2019QO",
+      "url": "https://www.nba.com/news/guide-qualifying-offers-options-2019",
+      "tier": "PRIMARY_PUBLISHED_NBA_ANALYSIS",
+      "scope": "Arc QO issued as of June30 only; no July7 amount or persistence"
+    },
+    {
+      "id": "HR2019DIGEST",
+      "url": "https://www.hoopsrumors.com/2019/04/2019-nba-offseason-salary-cap-digest-chicago-bulls.html",
+      "tier": "CONTEMPORANEOUS_SECONDARY_CONTRACT_CATALOG",
+      "scope": "April23 reported guaranteed subtotal and projected Arc QO; no July7 certification"
+    },
+    {
+      "id": "Young",
+      "url": "https://www.salaryswish.com/players/thaddeus-young",
+      "tier": "SECONDARY_CONTRACT_HISTORY_BODY_READ",
+      "season": "2019-20",
+      "base_comparator_usd": 12900000
+    },
+    {
+      "id": "Satoransky",
+      "url": "https://www.salaryswish.com/players/tomas-satoransky",
+      "tier": "SECONDARY_CONTRACT_HISTORY_BODY_READ",
+      "season": "2019-20",
+      "base_comparator_usd": 10000000
+    },
+    {
+      "id": "White",
+      "url": "https://www.salaryswish.com/players/coby-white",
+      "tier": "SECONDARY_CONTRACT_HISTORY_BODY_READ",
+      "season": "2019-20",
+      "base_comparator_usd": 5307120
+    },
+    {
+      "id": "Arc",
+      "url": "https://www.salaryswish.com/players/ryan-arcidiacono",
+      "tier": "SECONDARY_CONTRACT_HISTORY_BODY_READ",
+      "season": "2019-20",
+      "base_comparator_usd": null
+    },
+    {
+      "id": "NBA2017CBA",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "pdf_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "pages": 633,
+      "tier": "PRIMARY_PDF_TEXT_READ",
+      "visual_verified": false,
+      "locations": [
+        {
+          "section": "VII6j2",
+          "printed": 212,
+          "pdf_page_1based": 234
+        },
+        {
+          "section": "VII4e3",
+          "printed": 189,
+          "pdf_page_1based": 211
+        },
+        {
+          "section": "VIII1c1",
+          "printed": 272,
+          "pdf_page_1based": 294
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    "July7 charged contract and Arc QO/hold lower bound",
+    "Asik exclusion and transferred liabilities at anchor",
+    "Season-excluded unsigned 1R rights and future-year obligations",
+    "All later additions, renunciations, exceptions and adjustments"
+  ],
+  "legacy_change_upper_usd": null,
+  "actual_R_upper_usd": null,
+  "complete_domain": false,
+  "source_verified_for_whole_domain": false,
+  "legal_execution_cleared": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}
