@@ -1,0 +1,55 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "dff0fc4f-afb1-4b3f-8687-70407d75759a"
+  ],
+  "question_sha256": "086c468ba17f2fdb066c36dc7a523b5f47f6f59dd040c1e2bf2a3e4f8d35a1a3",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 27.945,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**정상 가용일 M1 배분은 5인·48분·240팀분 조건에 정확히 부합**합니다 [1, 2]. 11개 조합은 매 조합마다 5명의 선수가 서로 다르며, 포지션별 48분 및 총 240팀분(elapsed_minutes: 48, team_minutes: 240)을 만족하는 순서 없는 수학적 성립 증인으로 구성되어 있습니다 [1, 2].\n\n해당 조건부 증인에서 실제 명단, 건강, QO, 실제 교대 권한 등으로 확장되지 않음을 한정한 출처 내 핵심 문장 2개는 다음과 같습니다 [3]:\n\n1. **\"모든 사용 선수가 적법하게 등록되고 가용하다는 조건은 증명하지 않았다. 정상일 조합을 건강/82경기/선발/QO 기준 충족으로 환산하지 않는다.\"** [3]\n2. **\"2분 단위·행 순서는 수학적 구성이다. 실제 교대, 첫5명, 공격 효율, 선수 만족도, 연장 유무를 선택하지 않는다.\"** [3]\n\n💡 M1 조합 내 포지션별 세부 분 배분이나 특정 선수의 출전 시간 집계에 대해 추가 확인이 필요하시면 말씀해 주세요.",
+      "question": "검토 범위: 이 단일 파생 출처의 정상일 M1 배분이 5인·48분·240팀분에 맞는지, 조건부 증인에서 실제 명단·건강·QO·교대 권한으로 새는 문장만 2개 이내로 지적. 원문 역사나 독립 법적 증거 인증은 하지 말 것. 출처에 없는 문장을 인용하지 말 것.",
+      "conversation_id": "28951a13-992f-4579-a829-77cf13111c90",
+      "sources_used": [
+        "dff0fc4f-afb1-4b3f-8687-70407d75759a"
+      ],
+      "citations": {
+        "1": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+        "2": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+        "3": "dff0fc4f-afb1-4b3f-8687-70407d75759a"
+      },
+      "references": [
+        {
+          "source_id": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+          "citation_number": 1,
+          "cited_text_sha256": "b5dcbabdcbf8845058079bafd146294156e324eb954f58d47757c824ceb7d39e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+          "citation_number": 2,
+          "cited_text_sha256": "d06b7ad79197846dc1e0652bbbdea85a92db3240bf4323070c6094b936318f0d",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dff0fc4f-afb1-4b3f-8687-70407d75759a",
+          "citation_number": 3,
+          "cited_text_sha256": "24d6ce1d89deb0739ce17a23bb2e05e08fe4fce5cfd24e6491e90f1c3764660e",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
