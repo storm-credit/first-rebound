@@ -1,0 +1,69 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7"
+  ],
+  "question_sha256": "9f03d7ea6a41127e1d7f84ad5eb5edac891bcbe290d91b6ff124d698aa5a6cbb",
+  "query_budget_seconds": 60.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 35.436,
+    "process_budget_seconds": 80.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**파생 설계 출처 분석** (`FR A01 revised 12 causal units CANDIDATE 2026-10-04` [1])  \n*(※ 본 분석은 기획 후보용 파생 출처에만 한정되며, 역사적/정본 독립 증거나 회차·Pack·게이트 통과 인증을 의미하지 않습니다.)*\n\n---\n\n### 1. 타인 내면 또는 학교/입학 허가를 전제하는 연결 (최대 3개)\n* **`A01-CF04` (타인 내면 전제)**: 주인공의 직접 관찰 범위를 넘어 **\"라이벌이 아직 자신을 경쟁자로 취급하지 않는다\"**는 동갑 라이벌의 내면적 평가 상태를 전제합니다 [2, 3].\n* **`A01-CF11` (학교/행정 권한 전제)**: 학업·서류 조건 파악 시 **\"담당 권한에 확인해야 할 사항\"** 및 **\"타인의 답이 필요한 항목\"** 등 학교 및 외부 행정 주체의 응답을 전제합니다 [4, 5].\n* **`A01-CF12` (입학/이동 승인 전제)**: **\"승인된 미국 프렙 이동 방향\"**과 같이 외부 학교/기관의 입학 허가나 이동 승인이 이미 완료되었음을 전제합니다 [5].\n\n---\n\n### 2. CF06→CF07 및 CF08→CF09의 해석 주의점\n* **CF06 → CF07**: 첫 본능적 리바운드 성공 후 박스아웃·위치선정 등 기본 동작을 반복 배우는 단계 [3]는 **농구 기술의 반복 학습 과제**일 뿐이며, 이를 인성이나 전반적 인격의 성숙으로 확장해 단정할 수 없습니다.\n* **CF08 → CF09**: 팀 약속을 위해 당장의 게임 보상을 나중으로 미루는 행동 [4]은 **우선순위를 한 번 조정한 특정 행동의 선택**일 뿐이며, 구체적 명시와 같이 일부 약속을 지킨 경험이 생활 전반의 완전한 성숙이나 새 환경 적응을 보장하지는 않습니다 [4].\n\n---\n\n### 3. CF10과 CF11의 정보 접근 차이\n* **`A01-CF10` (농구 환경 비교)**: 주인공 자신이 훈련 시간과 영상/자료 등을 활용해 기술 및 판단력 격차를 **직접 체감하고 기준을 세울 수 있는 개인적 정보 접근**입니다 [4].\n* **`A01-CF11` (학업/서류 조건)**: 학생 신분 및 서류 조건처럼 **학교·담당 기관 등 외부 권한 주체의 공식 답변과 승인에 의존해야만 파악할 수 있는 행정적 정보 접근**입니다 [4, 5].\n\n---\n\n🏀 A01의 12개 후보 인과 단위 중에서 의존성 관계가 모호한 다른 구체적 인과 연결(예: CF01~CF03)도 추가 검토해 드릴까요?",
+      "question": "A01의 후보 인과 기능12개를 회차 수로 환산하지 마세요. 이 자체 파생 출처만 분석하며 역사/정본 독립 증거는 아닙니다. 주인공이 직접 알 수 없는 타인 내면이나 학교/입학 허가를 전제하는 연결을 최대3개만 찾아 주세요. CF06 첫 본능 기여→CF07 이후 학습, CF08 훈련 참여 이유→CF09 한 번의 게임 보상 미루기를 전체 생활 성숙으로 단정하지 마세요. CF10 농구 환경 비교와 CF11 학업/서류 조건의 정보 접근 차이를 설명해 주세요. source 위치/id를 붙이고 실제 회차/Pack/게이트 통과 인증은 하지 마세요. 짧은 한국어 답변.",
+      "conversation_id": "685ec632-1adf-473a-993f-36dfd7b2af82",
+      "sources_used": [
+        "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7"
+      ],
+      "citations": {
+        "1": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+        "2": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+        "3": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+        "4": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+        "5": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7"
+      },
+      "references": [
+        {
+          "source_id": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+          "citation_number": 1,
+          "cited_text_sha256": "a73bdd9d12ab99798e9fed58052210d534053537a848da3316b38e3c26951318",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+          "citation_number": 2,
+          "cited_text_sha256": "9c8f39f21b4ff6c0bf5d7284ee201c6768ee17b2e87e43092403da25b4739839",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+          "citation_number": 3,
+          "cited_text_sha256": "c98bf78486c1ec081cfec4fc773a5f4e4a00625a7c67c8f25436667447df6694",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+          "citation_number": 4,
+          "cited_text_sha256": "4acb8e3e4fdc98c0e19954037fdb6cfb43373fcb4ab719dc7f907254b0b824c9",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "dc3470b2-5bcd-4044-a2e5-6c75ebe07bf7",
+          "citation_number": 5,
+          "cited_text_sha256": "b593cd1dfb3c69675e0e29fb6655d2a29fa7bc12a3d0c19d0895f5d04f2486a5",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
