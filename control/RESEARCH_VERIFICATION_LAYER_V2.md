@@ -1,5 +1,7 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-04 [Antigravity 응답 복구](../reviews/A04_DRAFT_CALENDAR_REVIEW_2026_10_04.md): 설치 CLI의 `--output-format json`은 최상위 `status/response`, `stream-json`은 `event=result/result`다. [공용 파서](../tools/parse_antigravity_stream.py)는 두 형식을 구분하고 중복 terminal/중복 JSON키·오류·빈응답을 성공으로 올리지 않는다. 무도구 `AGY_OK`와 NBA G5 원문 수집 응답을 실제 회수했다. 이전 hash만 남은 stdout은 소급 인증하지 않으며, 응답 회수≠원자료/대체세계 검증 원칙은 유지한다.
+
 2026-10-02 [10작품 질적 표본 비교 종료](../reviews/G11_TEN_WORK_CLOSEOUT_REVIEW_2026_10_02.md): 수정 독서110/110·핵심20화4/4·공통14항목 준비10/10·남은0, 교차기능6·맹점12의 합성과 House Style 후보를 검토했다. SAMPLE_GATE_COMPLETE는 질적 기능 비교만이며 정확 숫자P3·FULL_TEXT_FINAL·S1 최초 작가 승인·G11최종은 별도HOLD다. NotebookLM 단일 파생 출처 분석·Claude 제한 결과물 blind 응답 회수, Claude 방법 반증58초 timeout·AG 이번 소설 신규수집 NOT_RUN. 원계획 접근부채15·실제Pack0/설계샘플2·원고0·S2 F0/5 A0/3 K0/4/법적 증거12·미선택 건강/시즌·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED. 아래 준비4/10·95/110 등은 당시 이력이다.
 
 2026-10-02 [핵심 확장 실제 검수](../reviews/G11_CORE_V2_REVIEW_2026_10_02.md): 추가15회차 공식 본문 읽기와 재열람 지문15/15, 수정범위110/110·원계획95/110 및 미독15를 분리했다. Claude 방법 반증3건은 회수해 역할 실패 기준을 보완했고, NotebookLM 파생 MD import 성공 뒤 질의는 실제100.303초 시간 초과·분석 회수0이다. AG 이번 소설수집/source-blind 원문 검수 NOT_RUN. 도구 호출/지문/반증/전체 검수의 완료를 합산하지 않는다.

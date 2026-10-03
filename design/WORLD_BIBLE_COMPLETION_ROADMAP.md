@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-04 [A04 드래프트·DEN–LAL 달력/Antigravity 응답 복구 검수](../reviews/A04_DRAFT_CALENDAR_REVIEW_2026_10_04.md): Antigravity json/stream-json 파서 불일치 수리·AGY_OK 및 NBA G5 응답회수 성공. 대학 역할 질문→프로 평가→Chicago 루키 준비를6인과후보로 연결하고 최초 성공/입단 보상 선지급을 수리했다. 기존12슬롯·3소막/대학대표3보존·정확#22/측정/콜/계약null. 원역사 DEN–POR 공식6날짜 직접 확인→대체 DEN–LAL 후보만 추가·홈/승자 기존선택 보존·다음PHX/POR 오기를 현재 W2/W3→W6의PHX로정정. 한국12/프렙10/대학3/드래프트6후보·최종기능0/실제Pack0. G11규격완료 보존·법적12HOLD/F0/5 A0/3 K0/4·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [A02 프렙 인과후보10](A02_PREP_CONDITIONAL_FUNCTIONS.md): A01말단 상태→생활영어/학사도움→기회상실1→조건부루틴→윙학습→반복평가/학사준비를 연결했다. 기존54슬롯·3소막/2016봄가을10/7준비 보존·회차배치미정. 한국12/프렙10 인과후보·대학대표3과 최종기능0/실제Pack0을분리한다. 큰묶음6미완료·법적12HOLD/F0/5 A0/3 K0/4·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [A01 12개 조건부 인과 기능](A01_CONDITIONAL_EPISODE_FUNCTIONS.md): 기존36배분슬롯·3소막은 보존하고 한 포제션 분할/미완성 인식 반복을 통합했다. 조건부 회차배치도 미정이며 대학 대표기능후보3과 별도 기록한다. 최종회차기능0·실제Pack0·G13/G14전체미완료. [Fournier 보너스 상한](../research/FOURNIER_2021_ASSIGNMENT_BONUS_BOUND.md)은 실제동의/계약/TPE잔액의 자동복사를 배제한 조건부 계산이며 법적12HOLD/F0/5 A0/3 K0/4. 미완료큰묶음6·freezePARTIAL·CLOSED·원고0.
