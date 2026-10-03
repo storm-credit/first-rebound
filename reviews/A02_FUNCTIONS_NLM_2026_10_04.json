@@ -1,0 +1,69 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "4c04aa00-64be-443f-bbf3-f0d06986ba33"
+  ],
+  "question_sha256": "31f068da72d64a074f1bc21ad61299299853cedf7a0183dadc5ea962430196ea",
+  "query_budget_seconds": 50.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 33.791,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**A02 자체 파생 설계 출처**(`FR A02 prep 10 causal units CANDIDATE 2026-10-04`)만을 바탕으로 한 분석 결과입니다 [1]. (본 분석은 신규 역사 근거나 전체 G13/G14 인증이 아니며, 10개 인과 단위 또한 회차나 불연속 학기 배정이 아닙니다 [1].)\n\n---\n\n### 1. CF01 → CF08과 2016년 학업 지속성 간 양립성\n* **분석 및 양립성**: **CF01**(`A02-CF01`)은 프렙 입학 직후 학사 담당자에게 부족한 과목과 필요한 준비를 묻고 도움을 요청하여 학업을 개시하는 단계입니다 [2]. 헤더(Header) 설정상 학업 10/7 준비는 2016년 내내 지속(run throughout 2016)되며, 2017년 최종 학기(final 2017 term)에서 전체 요건이 마감됩니다 [1]. 따라서 **CF08**(`A02-CF08`)은 2017년 후반에 학업을 처음 시작하는 것이 아니라, 2016년부터 지속된 학학 계획에 따라 **\"남은 과목과 시험 준비\"를 이수·마감하는 단계**입니다 [3]. 이는 헤더의 2016년 봄·가을 준비 지속 설정과 완벽히 양립합니다 [1, 3].\n\n### 2. CF02와 CF04의 중복 계수 검문\n* **검문 결과**: **중복 계수하지 않습니다** [2, 4].\n* **구분 이유**: \n  * **CF02**(`A02-CF02` / `A02-S1`): 게임·수면 조절 실패로 발생한 단 1회의 실제 기회 상실(시간 관리/생활 영역 비용)입니다 [2].\n  * **CF04**(`A02-CF04` / `A02-S2`): 생활 시간을 맞춘 후 코트 위에서 기존의 국내 빅맨 방식을 고집하다 한계에 부딪히는 '경기력적 수행 실패'입니다 [4]. 손실 비용 역시 '국내식 우위 및 즉시 주전 인정 기대 상실'로 기술되어 있습니다 [4].\n  * 두 단위는 서로 다른 서브액트(`S1` 생활/학업 vs `S2` 농구 수행)의 별개 과제이므로 별도의 추가 생활 처벌로 중복 계수되지 않습니다 [2, 4].\n\n### 3. '대학의 자발적 동료 준비' 선지급 표현 유무\n* **선지급 표현 수**: **0개 (없음)** [1].\n* **근거**: 헤더(Header)에 **\"College voluntary teammate preparation not yet achieved\"**(대학의 자발적 동료 준비는 아직 달성되지 않음)라고 명시되어 있습니다 [1]. **CF10**(`A02-CF10`)에서도 프렙 단계에서 확보한 것은 '조건부 자기관리'일 뿐이며, 대학의 제한 역할과 새 준비 과제로 넘어가는 단계로 정리되어 있습니다 [5].\n\n---\n*※ 출처 명시 기준에 따라 구체적인 날짜, 학교명, 공식 허가/인증, 평점/점수 등은 미지정(null) 상태이며 어떠한 추정도 포함하지 않았습니다 [1].*\n\n💡 **다음 단계 제안**: A02 10개 인과 단위의 서브액트별(`S1`, `S2`, `S3`) 구조나 직간접 비용 흐름을 한눈에 볼 수 있는 요약 표 생성이 필요하시면 말씀해 주세요.",
+      "question": "A02 자체 파생 설계 출처만 분석하세요. 새 역사 근거나 전체G13/G14 인증이 아닙니다. 인과 단위10개는 회차/불연속학기 배정이 아닙니다. CF01 학사 도움 요청→CF08 마지막 준비가 학업을2017후반에 처음 시작하는 것으로 읽힐 위험, 헤더의2016봄·가을10/7 준비 지속과의 양립성을 설명하세요. CF02 한차례 생활기회상실과 CF04 농구 수행실패를 별도 추가생활처벌로 중복계수하는지 검문하세요. 프렙 조건부자기관리에서 대학의 자발적동료준비를 선지급한 표현이 있다면 최대2개. source 위치/id 붙여 짧은 한국어 답변; 구체날짜·교명·허가·점수는 추정하지 마세요.",
+      "conversation_id": "18fc3558-db63-4ee6-a786-1f369a9b814e",
+      "sources_used": [
+        "4c04aa00-64be-443f-bbf3-f0d06986ba33"
+      ],
+      "citations": {
+        "1": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+        "2": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+        "3": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+        "4": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+        "5": "4c04aa00-64be-443f-bbf3-f0d06986ba33"
+      },
+      "references": [
+        {
+          "source_id": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+          "citation_number": 1,
+          "cited_text_sha256": "71fa02b4cf9370e8428434df4db9557c6e658c1877fdc6b0886effd186f3805c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+          "citation_number": 2,
+          "cited_text_sha256": "bd46760a25f1830e255aebfa04c76efd90bf2a9473e29ed28618608a55b17942",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+          "citation_number": 3,
+          "cited_text_sha256": "107c2bbcf76c89c8342415764d568fe032ed952e93387f1b8152cbb5b6ccc06c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+          "citation_number": 4,
+          "cited_text_sha256": "856f9d06aacce9efab4442e150f928a32d9ba2f007caf706a9c3b777fc0e4576",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "4c04aa00-64be-443f-bbf3-f0d06986ba33",
+          "citation_number": 5,
+          "cited_text_sha256": "4496c8a2c93435ffc4dff9176d0f28d4391b28e4829103360a0c1bca319ad2f7",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
