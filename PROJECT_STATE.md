@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-03 [G11 문체 규격 종료](reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md): 위임S1·9차원·질적합성10작품을 정본 성격/권한과 대조해 표본 기반 규격 완료를 판정했다. 숫자 목표를 채택하지 않아 전체 숫자P3/FULL을 규격 종료의 새 필수 조건으로 추가하지 않는다. 원계획15화접근·숫자/전체연구 부채는 남고 기존산출물의false를전부PASS로바꾸지않는다. G14 최종회차기능0·실제Pack0·설계샘플2 때문에6번전체는미완료. 법적12HOLD/F0/5 A0/3 K0/4·미완료큰묶음6·PARTIAL/CLOSED·원고0.
+
 2026-10-03 [S1 운영 규격 보완](reviews/S1_OPERATIONAL_STYLE_SPEC_REVIEW.md): 기존9차원 중 대화/서술·감정·유머·이름/직함·공통보이스5공백을 보완하고4장면유형의강도/정보경로를 연결했다. 별도결과물Codex검수에서실제결함미발견(열람격리제한명시)·CP2샘플2의출처지문갱신/기존15검사PASS. NLMtext등록17.259초성공/분석55.092초timeout·Claude55.091초timeout. 수정독서110/110·질적10/10·S1선택보존, 최종회차기능0·실제Pack0 때문에6번전체HOLD. 숫자P3/원계획확장부채와운영규격을분리하며재독/새종료조건을추가하지않음. 미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-03 [Chicago2019 Arc 차지 분기](research/CHICAGO_2019_ARC_CHARGE_DOMAIN.md): NBA작성October2019급여표 원문미러/해시·PDF30시각을검문해2YOS최소1,620,564→유효QO분기하한1,820,564를연결했다. QO유지/철회+권리유지/모라토리엄후통지/적법renounce4조건부앵커와Arc·Kornet동일보도시간규칙을구분했다. 실제7/7분기·R/Δ는null, 법적12HOLD. AG지정guide60.107초빈stdouttimeout·별도Codex범위검문은검토기록참조. F0/5 A0/3 K0/4·새작가확정0·미완료6·PARTIAL/CLOSED.

@@ -1,5 +1,7 @@
 # 하우스 스타일 기초 — 설계 검토용
 
+2026-10-03 현행 문체 판정: [G11 표본 기반 규격 종료](../reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md). S1·9차원·4장면 유형은 SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE_WITH_RESEARCH_DEBT다. 수정독서110/110·질적10/10을 보존한다. 숫자P3/FULL_TEXT_FINAL·원계획15화 접근·실제원고 적용은 별도 미완료이며 G14/6번전체는 HOLD다. 아래 기초안·95/110·G11최종HOLD는 해당 시점의 이력이다. 설계/원고 CLOSED.
+
 2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
 
 
@@ -49,7 +51,7 @@ G11 연구 검토 준비·표본 게이트·작가 스타일 확정·전체P3·F
 
 이전 1화 기록: 실제 [리디1화 음성 구성요소 파일럿](../research/G11_RIDI_CONTEXTUAL_VOICE_PILOT_2026_10_01.md)은 문맥으로 분류한현재/매개기억/UI를 두 번 열람해 지문 재현했다. 음성 구성요소1/50·전체P3 아님·새 독서0. 기록 재분류의 CT는 명확한1작품만 남겨 교차작품 후보HOLD다.
 
-- 상태: `FOUNDATION_PARTIAL / REFERENCE_DEEP_READ_INCOMPLETE`.
+- 현행 상태: `SAMPLE_BASED_OPERATIONAL_SPEC_COMPLETE / RESEARCH_EXTENSIONS_OPEN / MANUSCRIPT_CLOSED`. 아래 날짜별 연구 상태는 이력이다.
 - 적용 권위: `canon/STORY_BIBLE.md`, `canon/CAREER_TIMELINE.md`, `design/PLAYER_RELATIONSHIP_VOICE_MODEL.md`.
 - 참고작 실제 열람 범위는 [접근·독서 원장](../research/STYLE_REFERENCE_ACCESS.md)에 별도 기록한다. 아래 규칙 대부분은 프로젝트의 성격·농구·권한 요구에서 만든 기초안이며 참고작 전체 딥리드의 결론이 아니다.
 - 공통 `novel-writing-skills` 확인 `f3af0eb`(2026-09-30)의 `REFERENCE_DEEP_READ` P0~P3·대체 표본 재판정·스포츠 모듈을 [G11 대응표](../research/G11_SHARED_SKILL_ALIGNMENT_2026_09_30.md)로 연결했다. 리디 《내가 키운 S급들》·문피아 《닥터, 조선 가다》의 각 1~5화는 실제 본문 `P2`로 읽어 작업용 표본에 편입했다. 현재 작업용 표본의 독서 범위는 95/110·첫5화10/10이나 동일 검사표 `P3`, 캔버스 계측 및 House Style 최종 판정은 보류한다.
@@ -71,7 +73,7 @@ S1은 위임 선택된 문체 방향이며 기존 정본의 개별 시점 규정
 
 ## S1 운영 규격 — 2026-10-03 보완
 
-이 절은 위임 선택된 S1과 기존 인물·행동·정보 규칙을 집필 지시의 형태로 연결한다. 참고작 수치를 작품의 목표 비율로 확정하지 않는다. 원고·시험 대사·회차 POV·실제 Context Pack을 생성한 결과가 아니며, G11 최종 판정과 G14는 HOLD다.
+이 절은 위임 선택된 S1과 기존 인물·행동·정보 규칙을 집필 지시의 형태로 연결한다. 참고작 수치를 작품의 목표 비율로 확정하지 않는다. 문체 규격은 위 종료 판정 범위에서 완료됐으며 원고·시험 대사·회차 POV·실제 Context Pack을 생성한 결과가 아니다. G14는 HOLD다.
 
 ### 단일 보이스의 아홉 차원
 
@@ -108,7 +110,7 @@ S1은 위임 선택된 문체 방향이며 기존 정본의 개별 시점 규정
 - 장래 실제 Pack은 중립화한 기능과 현재 회차에 필요한 정보만 싣는다. 참고작 이름·원문·내부 연구 이력을 극중 문구로 넣지 않는다.
 - 현재 CP2 샘플은 검토자 정보만 로드한다. 이 규격을 넣었다는 이유로 `story_known_claim_indexes`·`scene_segments`를 채우거나 `pov_author_locked`를 true로 바꾸지 않는다.
 
-표본 기반 S1 운영 규격과 전체 숫자 P3/원계획 확장 부채/최종 G11 판정을 따로 보고한다. 수정 표본110/110과 질적10/10을 다시 읽을 과제로 되돌리지 않는다. 공통 `REFERENCE_CRAFT §0`, `REFERENCE_DEEP_READ §0·§5.1·§7`, writing §17·§21·§22 및 sports의 현장/방송 정보 경계를 적용했다. [이번 검수](../reviews/S1_OPERATIONAL_STYLE_SPEC_REVIEW.md).
+표본 기반 S1 운영 규격의 종료와 전체 숫자 P3/원계획 확장 부채/실제 적용 검증을 따로 보고한다. 수정 표본110/110과 질적10/10을 다시 읽을 과제로 되돌리지 않는다. 공통 `REFERENCE_CRAFT §0`, `REFERENCE_DEEP_READ §0·§5.1·§7`, writing §17·§21·§22 및 sports의 현장/방송 정보 경계를 적용했다. [규격 검수](../reviews/S1_OPERATIONAL_STYLE_SPEC_REVIEW.md), [범위 종료 판정](../reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md).
 
 ## KEEP — 보존할 기준
 
