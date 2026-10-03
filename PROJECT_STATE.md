@@ -1,5 +1,9 @@
 # Project State
 
+2026-10-03 [S1 운영 규격 보완](reviews/S1_OPERATIONAL_STYLE_SPEC_REVIEW.md): 기존9차원 중 대화/서술·감정·유머·이름/직함·공통보이스5공백을 보완하고4장면유형의강도/정보경로를 연결했다. 별도결과물Codex검수에서실제결함미발견(열람격리제한명시)·CP2샘플2의출처지문갱신/기존15검사PASS. NLMtext등록17.259초성공/분석55.092초timeout·Claude55.091초timeout. 수정독서110/110·질적10/10·S1선택보존, 최종회차기능0·실제Pack0 때문에6번전체HOLD. 숫자P3/원계획확장부채와운영규격을분리하며재독/새종료조건을추가하지않음. 미완료6·PARTIAL/CLOSED·원고0.
+
+2026-10-03 [Chicago2019 Arc 차지 분기](research/CHICAGO_2019_ARC_CHARGE_DOMAIN.md): NBA작성October2019급여표 원문미러/해시·PDF30시각을검문해2YOS최소1,620,564→유효QO분기하한1,820,564를연결했다. QO유지/철회+권리유지/모라토리엄후통지/적법renounce4조건부앵커와Arc·Kornet동일보도시간규칙을구분했다. 실제7/7분기·R/Δ는null, 법적12HOLD. AG지정guide60.107초빈stdouttimeout·별도Codex범위검문은검토기록참조. F0/5 A0/3 K0/4·새작가확정0·미완료6·PARTIAL/CLOSED.
+
 2026-10-03 [Chicago2019 cap-room 앵커](research/CHICAGO_2019_CAP_ROOM_ANCHOR_SCREEN.md): 기존 승인 영입 시점의 두 조건부 부분합과2020연결식을 조사했다. 같은연도별스케일%무단묶음·4월QO예상값의7/7승격·제외1R자동소멸을 배제했다. 독립 연도별#16 시험은세금선초과$215,140/$2,033,626; Δ/R상한null·전체법적12HOLD. NLM45.499초분석회수(2차FACT표현기각)·별도Codex범위검수결함미발견·AG60.153/Claude55.061초timeout. 미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-03 [H00 선택 구간 전체 분 검문](reviews/H00_WINDOW_MINUTE_COMPATIBILITY_REVIEW.md): 45경기·62칸 검문 완료. FINAL859 39/REMAINING 5/BOUNDARY 1로 연결해 결장56칸 양수분·누락·중복0, 부분이탈/복귀6칸 후보 보존, 연장3경기 팀265분 검산. 변조5건 거부·별도Codex 대조 결함미발견. 전체건강/등록/정확분·법적12HOLD·새선택/원고0·미완료6·PARTIAL/CLOSED.

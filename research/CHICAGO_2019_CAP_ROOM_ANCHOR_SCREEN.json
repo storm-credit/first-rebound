@@ -140,5 +140,133 @@
   "source_verified_for_whole_domain": false,
   "legal_execution_cleared": false,
   "season_selected": false,
-  "manuscript_allowed": false
+  "manuscript_allowed": false,
+  "arc_2019_charge_branch_screen": {
+    "status": "CONDITIONAL_BRANCH_SCREEN_NOT_FULL_LEGAL_DOMAIN",
+    "QO_minimum_rule_floor_usd": 1820564,
+    "minimum_2YOS_2019_usd": 1620564,
+    "HR_projection_difference_usd": 2078,
+    "rows": [
+      {
+        "id": "QO_OUTSTANDING",
+        "condition": "QO valid on July7; two NBA YOS; higher starter/bonus/QO amount remains possible",
+        "arc_charge_lower_bound_usd": 1820564,
+        "subtotal_excluding_P2_usd": 105750367,
+        "anchor_residual_upper_expression": "3489633 - P2",
+        "constant_usd": 131674662,
+        "P2_test_usd": 2039200,
+        "P3_test_usd": 3204600,
+        "delta_test_only_usd": 0,
+        "test_total_usd": 132840062,
+        "tax_excess_usd": 213062,
+        "actual_July7_branch": null,
+        "dated_charge_certified": false
+      },
+      {
+        "id": "QO_WITHDRAWN_FA_RIGHTS_RETAINED",
+        "condition": "QO withdrawn by July7 but FA amount not renounced; floor only, not exact FA charge",
+        "arc_charge_lower_bound_usd": 1620564,
+        "subtotal_excluding_P2_usd": 105550367,
+        "anchor_residual_upper_expression": "3689633 - P2",
+        "constant_usd": 131874662,
+        "P2_test_usd": 2039200,
+        "P3_test_usd": 3204600,
+        "delta_test_only_usd": 0,
+        "test_total_usd": 133040062,
+        "tax_excess_usd": 413062,
+        "actual_July7_branch": null,
+        "dated_charge_certified": false
+      },
+      {
+        "id": "DISCLOSED_POST_MORATORIUM_3M",
+        "condition": "Post-moratorium consummated agreement disclosed to NBA with at least 3m first-year anticipated salary; no lower FA amount substituted",
+        "arc_charge_lower_bound_usd": 3000000,
+        "subtotal_excluding_P2_usd": 106929803,
+        "anchor_residual_upper_expression": "2310197 - P2",
+        "constant_usd": 130495226,
+        "P2_test_usd": 2039200,
+        "P3_test_usd": 3204600,
+        "delta_test_only_usd": 0,
+        "test_total_usd": 131660626,
+        "tax_excess_usd": -966374,
+        "actual_July7_branch": null,
+        "dated_charge_certified": false
+      },
+      {
+        "id": "QO_WITHDRAWN_AND_RENOUNCED",
+        "condition": "QO withdrawn and FA rights validly renounced; no disclosed salary or other Arc charge; separate re-signing means must be proved",
+        "arc_charge_lower_bound_usd": 0,
+        "subtotal_excluding_P2_usd": 103929803,
+        "anchor_residual_upper_expression": "5310197 - P2",
+        "constant_usd": 133495226,
+        "P2_test_usd": 2039200,
+        "P3_test_usd": 3204600,
+        "delta_test_only_usd": 0,
+        "test_total_usd": 134660626,
+        "tax_excess_usd": 2033626,
+        "actual_July7_branch": null,
+        "dated_charge_certified": false
+      }
+    ],
+    "full_R_upper_usd": null,
+    "delta_upper_usd": null,
+    "complete_domain": false,
+    "source_for_actual_July7_charge_verified": false,
+    "moratorium_report_is_disclosed_salary": false,
+    "Kornet_report_requires_same_timing_rule": true,
+    "sources": [
+      {
+        "url": "https://nyc3.digitaloceanspaces.com/sportsarchive-documents/prod/63f2840a2a9ad/2019-20-CBA-101-October-2019.pdf",
+        "tier": "NBA_AUTHORED_PRIMARY_DOCUMENT_THIRD_PARTY_MIRROR",
+        "document_date": "October 2019",
+        "pdf_pages_1based": [
+          1,
+          16,
+          22,
+          23,
+          30
+        ],
+        "sha256": "58b6b5b1889cc795c2112ef9a76421ac45977930d045de5b77b1c56b0e403a9c",
+        "text_checked": true,
+        "visual_checked_pages_1based": [
+          30
+        ],
+        "scope": "Minimum salary and QO rules, not actual Arc charge"
+      },
+      {
+        "url": "https://cdn-gleague.nba.com/sites/1612709915/2021/12/Game-1-110521-at-CPS.pdf",
+        "tier": "OFFICIAL_TEAM_GAME_NOTES",
+        "event_date": "2021-11-05",
+        "pdf_page_1based": 12,
+        "scope": "Historical 2017-18 NBA rookie 24 games and 2018-19 81 games",
+        "read_by": "Codex source collector",
+        "parent_web_access": "UNAVAILABLE_NO_NEW_PARENT_BODY"
+      },
+      {
+        "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+        "tier": "PRIMARY_CBA",
+        "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+        "text_checked_pdf_pages_1based": [
+          36,
+          80,
+          81,
+          84,
+          85,
+          206,
+          207,
+          209,
+          313,
+          317
+        ],
+        "scope": "YOS, QO floor, FA floor/withdrawal, moratorium/disclosed anticipated salary"
+      },
+      {
+        "url": "https://cdn-uat.nba.com/news/nba-offseason-2019-roundup-july-2",
+        "tier": "NBA_PUBLISHED_REPORT_ROUNDUP",
+        "reported_event_date": "2019-07-02",
+        "publication_display": "2019-07-03 02:52",
+        "scope": "Reports Arc and Kornet negotiations; not consummation/NBA notification proof"
+      }
+    ]
+  }
 }
