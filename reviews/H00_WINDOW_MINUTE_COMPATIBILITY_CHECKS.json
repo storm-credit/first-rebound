@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SELECTED_WINDOW_ONLY",
+  "negative_checks": [
+    {
+      "case": "positive minutes for selected Davis absence with conserved team sum",
+      "result": "REJECTED",
+      "reason": "selected absence has positive minutes"
+    },
+    {
+      "case": "overtime treated as regulation",
+      "result": "REJECTED",
+      "reason": "team clock conservation"
+    },
+    {
+      "case": "missing supplemental selected-window game",
+      "result": "REJECTED",
+      "reason": "missing selected-window budget"
+    },
+    {
+      "case": "duplicate preferred branch",
+      "result": "REJECTED",
+      "reason": "ambiguous Lakers budget"
+    },
+    {
+      "case": "dropped clock normalization",
+      "result": "REJECTED",
+      "reason": ""
+    }
+  ],
+  "selected_game_checks": 45,
+  "selected_cell_checks": 62,
+  "medical_or_legal_promotions": 0
+}

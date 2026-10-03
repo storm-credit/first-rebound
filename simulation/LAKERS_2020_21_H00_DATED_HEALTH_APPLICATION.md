@@ -25,3 +25,5 @@
 [생성기](../tools/build_h00_dated_health_application.py) --check로 원문 해시·72일·각 창의 단계 수·분/null 범위와 전역 false 플래그를 재현한다. A1 전체/K_HEALTH/법적12행/시즌 확정은 HOLD다.
 
 [부분 이탈·복귀6칸의관측/held분 후속](LAKERS_2020_21_H00_SIX_GAME_MINUTE_BRIDGE.md)은정확분선택을자동화하지않고원관측·정규화·의료최대/등록HOLD를분리한다.
+
+[H00 선택 구간 45경기·62칸 전체 분 검문](LAKERS_2020_21_H00_WINDOW_MINUTE_COMPATIBILITY.md)은 결장56칸 양수분0과 연장3경기를 확인했다. 범위밖 건강·의료/등록·정확 분 HOLD는 유지한다.
