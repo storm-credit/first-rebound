@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-03 [G11 문체 규격 종료 판정](../reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md): SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE_WITH_RESEARCH_DEBT. 위임S1와9차원을 승인된 성격/권한에 대조했고 참고작 수치 목표는 채택하지 않았다. P3/FULL_TEXT_FINAL은 별도 연구 부채이며 문체 규격 종료의 새 필수 조건으로 추가하지 않는다. G14·6번전체HOLD, 실제Pack0·회차기능0·원고0. 아래 G11최종HOLD는 해당 연구 산출물 시점의 이력이다. PARTIAL/CLOSED 유지.
+
 2026-10-02 현재 선택/검증 구분: [S2원장](../control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.
 
 2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
@@ -51,7 +53,7 @@ last_reviewed: 2026-09-12
 | G08 역사 기준선 | 시즌별 고정 사건과 검증 출처 | FOUNDATION_PARTIAL — 2018/2023 대표팀·병역 일정 기준선 완료, 전체 시즌 기준선 R09 대기 |
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED / O15F5_BOARD_PASS — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, Theis·Green 3팀 5인 A PRIMARY_LEAN. exact 거래·박스·승수·부상·Riller 계약 HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
-| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | QUALITATIVE_SAMPLE_GATE_COMPLETE / REVISED_110_CHAPTERS_READ / 10_WORKS_FIRST_FIVE / 4_CORE_FIRST_TWENTY / 4_BODY_PLATFORMS / MINIMUM_10_OF_10 / SYNTHESIS_REVIEWED / S1_DELEGATED_AUTHOR_SELECTED / S1_NINE_DIMENSION_OPERATIONAL_SPEC_REVIEWED / FULL_TEXT_AND_NUMERIC_P3_FINAL_HOLD / G11_FINAL_HOLD |
+| G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
