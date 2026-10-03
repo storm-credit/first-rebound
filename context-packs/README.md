@@ -71,7 +71,7 @@ integrity_status:
 ## 무결성 규칙
 
 - 모든 사실에 원본 문서 링크와 버전이 있어야 함
-- 설계 샘플의 각 `allowed_facts`는 `fact_evidence`에 같은 문구·순서로 매핑하고, 상태와 출처 경로를 별도 기록함. 현재 허용 상태는 `CANON_FUNCTION`(이미 잠긴 기능), `CANDIDATE`(후보), `CONDITIONAL_RESULT`(조건부 계산 결과)뿐이다. 어느 상태도 개별 NBA 사건의 무조건적 `FACT`나 작가확정을 뜻하지 않는다
+- 설계 샘플의 각 `allowed_facts`는 `fact_evidence`에 같은 문구·순서로 매핑하고, 상태와 출처 경로를 별도 기록함. 허용 상태는 `CANON_FUNCTION`(이미 잠긴 기능), `CANDIDATE`(후보), `CONDITIONAL_RESULT`(조건부 계산 결과), `AUTHOR_MODELED_DESIGN`(지정 범위에서 이미 위임 선택된 설계)이다. 마지막 상태는 현재 생성기의 CP2-A06-S3 지정 주장과 해당 작가 선택 출처가 연결된 경우만 허용하며, 역사적 `FACT`나 전체 시즌 실행 승인을 뜻하지 않는다
 - 각 `fact_evidence.source_paths`는 `source_links`에 존재하고 `source_content_sha256`에서 동일 경로의 내용 해시로 해석되어야 함. 해시는 해당 파일의 변조·구식 여부를 검사하며, 원자료의 진실성이나 주장에 대한 독립 검증까지 증명하지 않음
 - 현재 회차에서 활성화되지 않는 장치와 복선은 Pack에 넣지 않음
 - Sub-Act 주 장치 1개와 선택 보조 1개 예산을 초과하지 않음
@@ -80,7 +80,7 @@ integrity_status:
 - 인물은 실제 권한 밖의 정보를 알거나 명령하지 않음
 - `pov_character`의 한 값은 시점 전환 승인이 아니다. S1 시점 전환은 장래 실제 회차 Pack에서 구간 경계·정보 접근 근거가 잠긴 뒤 별도 검증한다
 - 주인공이 접촉한 역사 사건은 시뮬레이션 ID를 포함
-- 미검증 항목은 샘플의 `hold_fields` 목록에 별도로 기록하며 원고 입력 금지. 이 `hold_fields` 목록과 `fact_evidence.status`의 세 상태는 다른 필드이며 HOLD를 허용 사실로 추가하지 않음
+- 미검증 항목은 샘플의 `hold_fields` 목록에 별도로 기록하며 원고 입력 금지. 이 `hold_fields` 목록과 `fact_evidence.status`는 다른 필드이며 HOLD를 허용 사실로 추가하지 않음
 - 팩 생성 후 정본이 바뀌면 해당 팩은 `STALE` 처리
 
 현재 CLOSED 게이트의 CP2 설계 샘플은 `tools/build_cp2_design_packets.py --check`로 **출처 내용 해시와 생성된 샘플 본문 자체**를 함께 대조한다. 이 검사는 실제 회차 팩의 생성 허가나 사실 승인으로 해석하지 않는다.
