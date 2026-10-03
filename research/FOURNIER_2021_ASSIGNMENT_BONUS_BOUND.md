@@ -11,6 +11,12 @@
 
 **조건:** 이 조항이2020–21 해당 계약에 적용되고, 추가 계약 연도가 없고 거래 시점 계약 전체의 잔여 기본급 합계가17m을 넘지 않으며, 공개된 성과 보너스450k가 이 계산의 성과 보너스 전체를 포괄할 때만 아래 상한이 성립한다. 이 조건들의 완전 검증은 아직 없다. 미행사 옵션 제외는 기본급 상한을 키우지 않는다. 거래 시점 잔여 기본급을 정확히 안다는 뜻도 아니다.
 
+### 계약기간 보강 — 회수 권위 구분
+
+2026-10-04 추가검색에서 [Orlando의 거래일 회고](https://www.nba.com/magic/orlando-magic-trade-deadline-recap-nikola-vucevic-aaron-gordon-evan-fournier-wendell-carter-gary-harris-otto-porter-rj-hampton-draft-pick-story-20210325)의 검색 색인은 Fournier가2021여름 UFA가 될 예정이었다고 전한다. 작성자는 Dan Savage·구단 Digital News Director, 게시시간2021-03-26 00:15 EDT로 표시된다. 2016계약의 연수만으로 추정하던 기간 조건에 보조 근거가 생겼다.
+
+부모와 수집 에이전트 모두 검색 제공자의 공식URL 색인 추출을 본 것이며 직접 본문 검문은 아니다. 부모 web open은HTML셸1행·HTTP요청은403이었다. `SEARCH_PROVIDER_INDEX_EXTRACT_OF_OFFICIAL_URL`로 기록하고, 추가 계약 연도 부재의 전체 인증·기본급17m·성과450k전체·2020규칙 적용을PASS로 바꾸지 않는다.
+
 ## 새 계산
 
 | 항목 | 조건부 값 | 해석 |
