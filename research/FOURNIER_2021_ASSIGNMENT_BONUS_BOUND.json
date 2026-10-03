@@ -1,0 +1,94 @@
+{
+  "status": "CONDITIONAL_BOUND_NOT_COMPLETE_LEGAL_DOMAIN",
+  "date": "2026-10-04",
+  "baseline_main": "108858f570abc69c1f36176b9787161fe80283a4",
+  "primary_rule": {
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "article": "XXIV",
+    "section": "2(a)(ii)",
+    "printed_page": 376,
+    "pdf_page_one_based": 398,
+    "pdf_pages": 633,
+    "pdf_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "direct_local_text_read": true,
+    "web_pdf_read_this_run": false,
+    "base": "remaining Base Compensation",
+    "unexercised_option_year_excluded": true,
+    "percentage": 15,
+    "applicability_2020_21_verified": false
+  },
+  "source_sha256": {
+    "simulation/BOSTON_DENVER_2020_21_PAYROLL.json": "b5a215afbf4a83c1ef9fb1e10a87f1947e3521da6a5d4bbc947d50e5eca85b10",
+    "research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json": "dbf5b4daabd1aefba2d1f15642b7f0d25a3941824d9562a0eb36ebf92efa61ac",
+    "control/CHICAGO_2020_21_D1_S2_REGISTER.json": "ca85a9c0d221b6e5498ef7beb4507d928d0aa49a61df95e063c5e25d840dc3d6"
+  },
+  "inputs": {
+    "base_annual_reported_usd": 17000000,
+    "performance_bonus_reported_usd": 450000,
+    "base_and_bonus_authority": "SECONDARY_REPORTED_INPUTS_NOT_FULL_CONTRACT",
+    "reported_2016_contract": {
+      "years": 5,
+      "total_usd": 85000000,
+      "url": "https://www.nba.com/news/2016-17-season-preview-orlando-magic"
+    },
+    "additional_contract_years_verified_absent": false,
+    "performance_inventory_complete_verified": false,
+    "nominal_tpe_reported_usd": 28500000,
+    "existing_peak_stress_usd": 133546805,
+    "apron_input_usd": 138928000
+  },
+  "conditional_interval": {
+    "trade_bonus_lower_usd": 0,
+    "trade_bonus_upper_usd": 2550000,
+    "includes_partial_amounts": true,
+    "upper_is_monotone_worst_case": true,
+    "actual_trade_bonus_usd": null,
+    "actual_waiver": null,
+    "actual_remaining_base_usd": null,
+    "preconditions": [
+      "2017 clause applies to relevant 2020-21 contract",
+      "no additional contractual years and total remaining Base Compensation under the contract at the trade date <=17000000, excluding unexercised options",
+      "reported450k covers relevant performance bonus inventory"
+    ]
+  },
+  "calculations": {
+    "incoming_full_stress_usd": 20000000,
+    "nominal_tpe_difference_usd": 8500000,
+    "peak_with_maximum_trade_bonus_usd": 136096805,
+    "residual_allowance_usd": 2831195,
+    "performance_bonus_added_to_existing_peak_again": false,
+    "exact_tpe_charge": null,
+    "actual_tpe_capacity": null,
+    "actual_residual_R_BOS": null
+  },
+  "proof_scope": {
+    "complete_cost_domain_verified": false,
+    "source_verified_whole_domain": false,
+    "original_transaction_shows_legal_possibility_only": true,
+    "original_waiver_not_automatically_carried_forward": true,
+    "S2_private_ledger_not_always_required": true,
+    "legal_requirements_closed": 0,
+    "legal_hold_count": 12,
+    "F_closed": 0,
+    "A_closed": 0,
+    "K_closed": 0
+  },
+  "archive_collection": {
+    "official_url": "https://www.mavs.com/wp-content/uploads/2020/12/2021-mediaguide.pdf",
+    "official_http_status": 403,
+    "mirror_url": "https://archive.org/download/dallas-mavericks-2020-21-media-guide-c/Dallas%20Mavericks%202020-21%20Media%20Guide%20%28C%29.pdf",
+    "bytes": 19587107,
+    "pages": 381,
+    "sha256": "0de4446e542e9c72af12305bbf3ab5198432f6651f8c4f5ae5b3a38427d971f1",
+    "pdf_author": "Dallas Mavericks",
+    "nba_cba_101_rule_table_found": false,
+    "original_hash_equivalence_verified": false
+  },
+  "new_author_decisions": 0,
+  "author_locked": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "source_hash_convention": "SHA256_UTF8_NO_BOM_LF_NORMALIZED"
+}

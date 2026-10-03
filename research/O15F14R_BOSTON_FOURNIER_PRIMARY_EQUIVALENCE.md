@@ -1,5 +1,7 @@
 # O-15F14-R — Fournier F2의 원거래 동일성 증명 경로
 
+2026-10-04 후속 [트레이드 보너스 조건부 상한](FOURNIER_2021_ASSIGNMENT_BONUS_BOUND.md): Boston 기존 경제 상태를 보존하는 경로와 Fournier의 incoming bonus/waiver를 분리한다. Orlando 선행 결과가 달라지면 해당 경제 입력의 원역사 동일성을 자동 상속하지 않는다. 잔여BASE15%와 보고된 계약 범위를 조건부로 적용해 최대2.55m을 스트레스하되 전체 S2 증인·당일TPE·R_BOS 검증은 미완료다. 아래 동일성 경로는 이 입력까지 입증해야 유효하다.
+
 - 기준: `main` `e9e6771` / PR #273 병합 뒤. 범위는 F2의 **Boston–Orlando Fournier 거래**이며 F1 Chicago 3팀 거래·F3 Gordon·F4/F5 새 선택의 정확 종료가 아니다.
 - 판정: `PRIMARY_TRANSACTION_ROUTE_RECOVERED / ALTERNATE_LEDGER_EQUIVALENCE_HOLD`. 실제 NBA가 승인한 사건과 대체 세계의 이름·계약·픽 경로를 분리한다. 이 문서는 F2 `PASS`가 아니다.
 
