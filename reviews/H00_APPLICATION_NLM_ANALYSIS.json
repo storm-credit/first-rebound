@@ -1,0 +1,48 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "53ae87de-de21-45bc-871a-b9f94479b3ff"
+  ],
+  "question_sha256": "5f1504b113c0e938bb6fec9da5f68c752b0950e815b9ed564540d9ed7c8d5afc",
+  "query_budget_seconds": 40.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 27.843,
+    "process_budget_seconds": 55.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "제시된 **H00 분석 출처(H00 dated application analysis 2026-10-03)** 바탕의 산술 검사 및 승격 여부 확인 결과입니다.\n\n---\n\n### 1. 산술 검사 (모두 정확히 일치)\n* **144셀 = 62선택 + 82미확인**: 72개 경기일 × 2명(데이비스 31셀 + 르브론 31셀 = 62선택셀) + 범위 외 82미확인셀(HOLD) = **총 144셀** [1].\n* **31 + 31 − 17 = 45경기**: 데이비스 31셀 + 르브론 31셀 − 양선수 중복 공유 경기일 17일 = **총 45개 고유 경기일(경기)** [1].\n* **56결장 + 2부분이탈 + 4복귀 = 62선택**: 결장(ABSENT) 56셀 + 부분 이탈(partial-exit) 2셀 + 복귀(return) 4셀 = **총 62선택셀** [1].\n\n---\n\n### 2. H00 선택의 승격 여부 확인 (승격 지점 없음)\n출처 내에서 H00 선택이 의료 사실, 출전시간, 당일 등록, 플레이오프 건강, 전체시즌 PASS로 **승격된 지점은 없습니다** [1, 2].\n\n* **의료 사실 및 출전시간**: H00은 저자 모델(author model)일 뿐 동일한 실제 역사의 의료 증명이 아니며, 부분 이탈 및 복귀 셀의 출전시간(minutes)은 `null`로 처리되어 있습니다 [1, 2].\n* **당일 등록**: 표준/투웨이 계약 또는 액티브 리스트(active-list) 등록 승인이 제공되지 않습니다 [1, 2].\n* **플레이오프 건강 및 전체시즌 PASS**: 플레이오프 건강 승계(playoff health inheritance)가 없으며, 리그 전체 건강 및 최종 시즌 통과(PASS) 여부는 모두 **`false/HOLD`** 상태로 유지됩니다 [1].\n\n🔍 추가로 다른 검증 문서나 선택 파라미터와의 대조가 필요하시면 말씀해 주세요.",
+      "question": "이 출처만 분석하라. 144셀=62선택+82미확인, 31+31−17=45경기, 56결장+2부분이탈+4복귀의 산술을 검사하라. H00 선택을 의료사실/출전시간/당일 등록/플레이오프 건강/전체시즌 PASS로 승격한 지점이 있는지 확인하라. 출처는 자체 파생 요약이며 역사근거 독립 인증을 요청하지 않는다. 간결하게 답하라.",
+      "conversation_id": "b7fea6e6-be21-472d-98f7-7f81a336e0ae",
+      "sources_used": [
+        "53ae87de-de21-45bc-871a-b9f94479b3ff"
+      ],
+      "citations": {
+        "1": "53ae87de-de21-45bc-871a-b9f94479b3ff",
+        "2": "53ae87de-de21-45bc-871a-b9f94479b3ff"
+      },
+      "references": [
+        {
+          "source_id": "53ae87de-de21-45bc-871a-b9f94479b3ff",
+          "citation_number": 1,
+          "cited_text_sha256": "45adcdcc858097663fb9e20bbd0dd23a69fda11e347cfab7be5fa58c6c36cb64",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "53ae87de-de21-45bc-871a-b9f94479b3ff",
+          "citation_number": 2,
+          "cited_text_sha256": "961c36ad9cf6700af308ea26349e8d1596bbc9717dd7a1e20de60c73426dfa42",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
