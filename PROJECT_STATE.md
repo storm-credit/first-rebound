@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-03 [Chicago2019 cap-room 앵커](research/CHICAGO_2019_CAP_ROOM_ANCHOR_SCREEN.md): 기존 승인 영입 시점의 두 조건부 부분합과2020연결식을 조사했다. 같은연도별스케일%무단묶음·4월QO예상값의7/7승격·제외1R자동소멸을 배제했다. 독립 연도별#16 시험은세금선초과$215,140/$2,033,626; Δ/R상한null·전체법적12HOLD. NLM45.499초분석회수(2차FACT표현기각)·별도Codex범위검수결함미발견·AG60.153/Claude55.061초timeout. 미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-03 [H00 선택 구간 전체 분 검문](reviews/H00_WINDOW_MINUTE_COMPATIBILITY_REVIEW.md): 45경기·62칸 검문 완료. FINAL859 39/REMAINING 5/BOUNDARY 1로 연결해 결장56칸 양수분·누락·중복0, 부분이탈/복귀6칸 후보 보존, 연장3경기 팀265분 검산. 변조5건 거부·별도Codex 대조 결함미발견. 전체건강/등록/정확분·법적12HOLD·새선택/원고0·미완료6·PARTIAL/CLOSED.
 
 2026-10-03 [H00 부분이탈/복귀6분 연결](reviews/H00_SIX_GAME_MINUTE_REVIEW.md): 원관측분과기존held후보6칸·6팀240분을연결하고3/20 Kuzma2초정규화를분리했다. 공식PDF웹본문2칸대조·로컬6PDF timeout, 변조5종거부·제한Codex반증결함미발견. 정확분/의료상한/등록·A1전체는HOLD·새선택/원고0·법적12HOLD·미완료6·PARTIAL/CLOSED.
