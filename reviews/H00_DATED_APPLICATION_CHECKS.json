@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SCOPE_AND_DATE_APPLICATION_ONLY",
+  "checks": [
+    {
+      "case": "unselected health route",
+      "result": "REJECTED",
+      "reason": "H00 not selected"
+    },
+    {
+      "case": "medical fact promotion",
+      "result": "REJECTED",
+      "reason": ""
+    },
+    {
+      "case": "duplicate Davis absence",
+      "result": "REJECTED",
+      "reason": ""
+    },
+    {
+      "case": "event outside Lakers regular season",
+      "result": "REJECTED",
+      "reason": "health event outside schedule"
+    },
+    {
+      "case": "partial incident overwritten as full absence",
+      "result": "REJECTED",
+      "reason": "LeBron window phase mismatch"
+    }
+  ],
+  "nulls_preserved_in_non_absence_cells": 88,
+  "full_health_or_registration_promotions": 0,
+  "legal_proofs_closed": 0
+}

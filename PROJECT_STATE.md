@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-03 [H00 날짜별 적용](reviews/H00_DATED_APPLICATION_REVIEW.md): Lakers72경기×2선수144칸 중 승인창62/범위밖HOLD82를 연결했다. 56모델결장0초·부분이탈2/복귀4 및 범위밖의88분null 보존·변조5건거부. NLM자체출처27.843초회수·Claude55.075초timeout·새선택/원고0. A1전체/법적12HOLD·미완료6·PARTIAL/CLOSED.
+
 2026-10-02 [Orlando 초기18일 일정 연결](reviews/ORLANDO_EARLY_SCHEDULE_LINK_REVIEW.md): 기존실제72경기 기준선으로초기9경기/9비경기와후반19경기를대조했다. 전체53일28경기·홈/원정event_id·후반35행완전보존·변조4건거부 PASS. 당일활동/등록/접수/전체비용과법적12HOLD·F0/5 A0/3 K0/4·미완료6·PARTIAL/CLOSED 유지.
 
 2026-10-02 [투웨이 적용기간 정정](research/TWO_WAY_2021_22_RULE_PERIOD_CORRECTION.md): 공식 G League 2023 보존본문에서2021–22 50활동경기 초과허용 예외 존재를 확인했다. Garza 연간32비활동/2월5비활동 의무를 개막제한 유지 가정으로 낮추고 관련8문서 적용범위를 교정했다. 82날짜/산술은 유지·시행일/추가급여/등록 HOLD·법적12PASS0·미완료6·PARTIAL/CLOSED.
