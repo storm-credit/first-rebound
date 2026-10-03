@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-04",
+  "baseline_main": "51da5e577bcd4bb7c3f79a67f716daa7e75d9bef",
+  "checks": {
+    "function_count": 6,
+    "allocation_slots": 12,
+    "adjacent_states_match": true,
+    "source_hashes_match": true,
+    "null_event_fields_preserved": true,
+    "calendar_games": 6,
+    "calendar_day_gaps": [
+      2,
+      3,
+      2,
+      3,
+      2
+    ],
+    "non_game_dates": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "selected_home_winner_sequence_preserved": true,
+    "selected_series_downstream_only_correction": true,
+    "PHX_W2_W3_to_W6": true,
+    "no_health_or_OT_promotion": true,
+    "local_links_passed": 19,
+    "cp2_tests_passed": 15,
+    "s2_negative_controls_passed": true,
+    "legal_fields_still_HOLD": 12,
+    "antigravity_parser_tests_passed": 7
+  },
+  "independent_review": "LIMITED_CODEX_REBUTTAL_NOT_FULL_SOURCE_BLIND",
+  "author_decisions_added": 0,
+  "final_episode_functions_added": 0,
+  "actual_context_packs_added": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "unfinished_macro_groups": 6,
+  "artifact_sha256": {
+    "design/A04_DRAFT_CONDITIONAL_FUNCTIONS.json": "1427edd30d9602f1de651d58fb9b877b5cef92bb3edd8bd8630de4876461d2e6",
+    "simulation/DEN_LAL_2021_SIX_DATE_CANDIDATE_BRIDGE.json": "f417f832dd403812dd4676c4bdb2a1a68960cf44c26cbc905b121c0d0147bdd9",
+    "simulation/DEN_LAL_2021_DELEGATED_SERIES.json": "81332e263b01ef86f5b3c0abea408a89bc926ae36cc7eb4f30d2877fbd1b0354"
+  },
+  "nlm_import": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 9.068,
+    "response": {
+      "source_type": "text",
+      "source_id": "46864664-dbf9-4801-a4c1-51392b42db24",
+      "title": "FR A04 causal6 and DEN-LAL date candidate 2026-10-04"
+    },
+    "process_budget_seconds": 50,
+    "prompt_sha256": "6bc2bbe8fbfa7e3b037b1880ce63c94af0e33ad407b1fe5044e14122386a8345",
+    "raw_logs_retained": false,
+    "independent_source_increment": 0
+  },
+  "external_results": {
+    "nlm_import_success": true,
+    "nlm_analysis_success": true,
+    "nlm_analysis_elapsed_seconds": 53.729,
+    "claude_analysis_success": true,
+    "claude_elapsed_seconds": 87.317,
+    "antigravity_process_exit_code": 0,
+    "antigravity_final_response_recovered": true,
+    "antigravity_elapsed_seconds": 101.905,
+    "full_source_blind_review": "NOT_RUN",
+    "antigravity_initial_response_recovered": false,
+    "antigravity_initial_elapsed_seconds": 48.255,
+    "antigravity_output_format": "json",
+    "antigravity_collection_claim": "Primary page __NEXT_DATA__ date June1 and 2OT matches parent direct page; tool trace not included in json output",
+    "antigravity_diagnostic_AGY_OK": true
+  },
+  "final_independent_recheck": "LIMITED_FINAL_ARTIFACT_REVIEW_NO_REMAINING_CONCRETE_DEFECT_FOUND",
+  "parser_fix": "json terminal object vs stream-json result wrapper; previous hash-only outputs cannot be retroactively certified"
+}

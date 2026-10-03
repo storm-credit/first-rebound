@@ -9,6 +9,41 @@ spec.loader.exec_module(parser)
 
 
 class StreamTests(unittest.TestCase):
+    def test_mixed_terminal_formats_cannot_hide_error(self):
+        direct = json.dumps({'status': 'ERROR', 'response': 'failed'})
+        wrapped = json.dumps({'event': 'result', 'result': {
+            'status': 'SUCCESS', 'response': 'ok'}})
+        for text in (direct + '\n' + wrapped, wrapped + '\n' + direct):
+            value = parser.parse_stream(text)
+            self.assertEqual(value['terminal_count'], 2)
+            self.assertFalse(value['response_recovered'])
+
+    def test_duplicate_keys_cannot_overwrite_failure(self):
+        for text in ('{"status":"ERROR","status":"SUCCESS","response":"ok"}',
+                     '{"event":"result","result":{"status":"ERROR",'
+                     '"status":"SUCCESS","response":"ok"}}'):
+            self.assertFalse(parser.parse_stream(text)['response_recovered'])
+
+    def test_print_json_terminal_compact_and_multiline(self):
+        payload = {'status': 'SUCCESS', 'response': 'AGY_OK',
+                   'num_turns': 1, 'usage': {'private': 'private usage'}}
+        for indent in (None, 2):
+            value = parser.parse_stream(json.dumps(payload, indent=indent))
+            self.assertTrue(value['response_recovered'])
+            self.assertEqual(value['output_format'], 'json')
+            self.assertEqual(value['terminal_count'], 1)
+            self.assertEqual(value['terminal']['response'], 'AGY_OK')
+            self.assertNotIn('private', str(value))
+
+    def test_json_failure_empty_or_ambiguous_is_not_success(self):
+        for text in ('{"status":"ERROR","response":"not success"}',
+                     '{"status":"SUCCESS","response":""}',
+                     '{"status":"SUCCESS","response":null}',
+                     '{"status":"SUCCESS","response":{"text":"x"}}',
+                     '[{"status":"SUCCESS","response":"x"}]',
+                     '\n'.join(['{"status":"SUCCESS","response":"x"}'] * 2)):
+            self.assertFalse(parser.parse_stream(text)['response_recovered'])
+
     def test_documented_event_and_nested_terminal(self):
         text = json.dumps({'event': 'result', 'result': {'status': 'SUCCESS', 'response': 'UNVERIFIED', 'unknown': 'private'}})
         value = parser.parse_stream(text)

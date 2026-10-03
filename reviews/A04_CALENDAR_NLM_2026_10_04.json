@@ -1,0 +1,62 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "46864664-dbf9-4801-a4c1-51392b42db24"
+  ],
+  "question_sha256": "c0936a5b70b40b0c0c1bef4ebae3aea0ea0eef46aa5d3a9405584de06ff9982e",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 53.729,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "제공된 단일 출처(\"FR A04 causal6 and DEN-LAL date candidate 2026-10-04\")를 바탕으로 요청하신 항목별 분석 결과입니다.\n\n---\n\n### 1. 달력 구조 구분 분석\n\n* **원역사 사실**: 원역사 DEN-POR 대진의 공식 현지 경기 날짜는 **5월 22일, 24일, 27일, 29일, 6월 1일, 3일**이며, 5차전(G5)에서 **2OT(2연장전)**가 진행되었습니다 [1].\n* **대체날짜후보**: 대체 대진인 DEN-LAL에 적용할 **6개 후보 날짜**(2021-05-22, 05-24, 05-27, 05-29, 06-01, 06-03), 경기 장소 순서(**DEN, DEN, LAL, LAL, DEN, LAL**), 날짜 간격(**2, 3, 2, 3, 2일**) 및 비경기일(**1, 2, 1, 2, 1일**)입니다 (단, 모든 경기는 선택 확정이 아닌 `date_selected: false` 상태의 후보 스켈레톤임) [1, 2].\n* **기존선택결과**: 대진 승자는 **DEN, LAL, LAL, DEN, LAL, LAL**로 지정되어 **LAL이 4-2로 승리**하는 기존 결과를 따릅니다 [1, 2]. 기존 시리즈 전체 결과는 **W2 PHX 4-2 POR, W3 LAL 4-2 DEN -> W6 PHX 4-3 LAL**의 흐름을 유지하며(구버전의 다음 상대 오류는 PHX로 수정됨) [1].\n* **미확인 사항**: 대체 경기의 **연장전 여부(OT), 경기 점수(score), 선수 건강 상태(dated_health_verified), 이동 시간(travel_hours), 회복 시간(recovery_hours), 경기장 대관(venue_booking_verified), 팁오프 시간(tipoff_time), 개인 박스스코어(individual_boxes), 날짜별 자격(dated_eligibility_verified)**은 모두 `null` 또는 `false` 상태입니다 [1, 2]. 또한 정확한 시리즈 전체 달력 및 **법적 종결(legalclosure)** 역시 미확인 항목입니다 [1].\n\n---\n\n### 2. 승격 및 복사 불가 이유\n\n* **날짜간격을 회복시간으로 승격할 수 없는 이유**: 출처에서 비경기일(1~2일)은 **휴식/회복시간이 아님(`NOT resthours`)**으로 밝히고 있으며, 실제 회복시간(`recovery_hours`) 역시 `null`로 미확인된 단순 달력상 날짜 차이에 불과하기 때문입니다 [1, 2].\n* **원역사 2OT를 대체경기에 복사할 수 없는 이유**: 출처에 **원역사 G5 2OT를 복사하지 않는다(`OriginalG5twoOT notcopied`)**고 명시되어 있으며, 대체 경기의 연장전, 점수, 선수 건강 등 구체적 경기 내용이 확정되지 않은 `null` 상태이기 때문입니다 [1, 2].\n\n---\n\n### 3. A04 시도/성과 구분 누출 문장 지적\n\n* **ID**: `A04-CF05` [3]\n* **지적**: 에이전트 및 팀과의 연락 단계에서 구체적 전화 및 계약 결과가 모두 미정(`exactcallsnull`, `contractsnull`)임에도 [4], `changed_state` 항목에 **\"입단 보상과 함께\"**라는 확정적 성과 표현이 누출되어 시도/준비 행동과 확정 성과 간의 구분을 저해합니다 [3].\n\n---\n\n### 4. 단위 성격 및 미확정 항목 명시\n\n* **6개 인과 단위(6 causal units)**: 이 단위들은 에피소드 회차수가 아닙니다(`NOT episodes`) [4].\n* **확정 불가 항목**: **정확한 픽 순번**(exactpicknull, #22 후보일 뿐) [4], **측정/워크아웃 성공 여부 및 결과**(measurement/workoutresults null) [4], **선수 건강 상태**(dated_health_verified null) [1, 2], **법적 종결**(legalclosure null) [1], **최종 Pack 및 에피소드 확정**(actualPacks0/CLOSED, finalepisodes0) [4]은 모두 확정할 수 없습니다.\n\n---\n\n💡 혹시 A04 인과 단위들의 세부 행동 선택 구조나 스켈레톤 검증에 대해 추가로 정리할 부분이 있으신가요?",
+      "question": "제공된 한 출처만 분석한다. 달력 부분의 원역사 사실/대체날짜후보/기존선택결과/미확인을 구분하고, 날짜간격을 회복시간으로 승격하거나 원역사2OT를 대체경기에 복사할 수 없는 이유를 짧게 써라. A04에서는 시도와 성과를 구분하는 데 누출된 문장이 있으면 ID와 1개 지적만 제공하라. 외부원문을 독립 검증했다고 쓰지 말라. 6단위는 회차수가 아니며 정확픽/성공/건강/법적/최종Pack은 확정하지 말라.",
+      "conversation_id": "44145484-7d1b-47ab-a98b-de1bec6853f0",
+      "sources_used": [
+        "46864664-dbf9-4801-a4c1-51392b42db24"
+      ],
+      "citations": {
+        "1": "46864664-dbf9-4801-a4c1-51392b42db24",
+        "2": "46864664-dbf9-4801-a4c1-51392b42db24",
+        "3": "46864664-dbf9-4801-a4c1-51392b42db24",
+        "4": "46864664-dbf9-4801-a4c1-51392b42db24"
+      },
+      "references": [
+        {
+          "source_id": "46864664-dbf9-4801-a4c1-51392b42db24",
+          "citation_number": 1,
+          "cited_text_sha256": "72b96b1943c3b3e1df8561d22f06c21b8625ff490a20dcdeb1ff6bb26413ea64",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "46864664-dbf9-4801-a4c1-51392b42db24",
+          "citation_number": 2,
+          "cited_text_sha256": "f9f03763db4ab5669c3a1d78c7b3a0ee8c0f2244b42ef4fd416d1988e51db78f",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "46864664-dbf9-4801-a4c1-51392b42db24",
+          "citation_number": 3,
+          "cited_text_sha256": "0c3a990cecaed101a12bc2445d6a4e1e8a31998260a62a931d2ca45bea08d3a8",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "46864664-dbf9-4801-a4c1-51392b42db24",
+          "citation_number": 4,
+          "cited_text_sha256": "481e3f0cf3838186acf25b40735b89a4bfbbaf6c5631f5097d609c836be9e933",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
