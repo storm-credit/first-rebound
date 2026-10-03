@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-04",
+  "baseline_main": "4b92e1191c9c36c78b5e1de18a6fa7941698c3f4",
+  "checks": {
+    "function_count": 8,
+    "allocation_slots": 74,
+    "A05_entry_matches": true,
+    "adjacent_states_match": true,
+    "source_hashes_match": true,
+    "null_event_fields_preserved": true,
+    "MD_JSON_actions_costs_states_match": true,
+    "selected_K1_L2_preserved": true,
+    "local_links_passed": 28,
+    "calendar_negative_controls_passed": 8,
+    "calendar": {
+      "series_count": 15,
+      "games": 88,
+      "team_date_collisions": 0,
+      "LA_shared_home_date_collisions": 0,
+      "parent_child_links": 14,
+      "all_game_gaps_at_least_two_calendar_days": true,
+      "all_parent_gaps_at_least_two_calendar_days": true,
+      "selected_results_preserved": true,
+      "no_calendar_health_or_eligibility_promotion": true
+    }
+  },
+  "author_decisions_added": 0,
+  "final_episode_functions_added": 0,
+  "actual_context_packs_added": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "unfinished_macro_groups": 6,
+  "artifact_sha256": {
+    "design/A06_2020_21_CONDITIONAL_FUNCTIONS.json": "83974da54378dd66770b0453f445c9e637833e48d82f46cf966ca059c6704f91",
+    "simulation/NBA_2021_PLAYOFF_CALENDAR_CANDIDATE.json": "b28b40624f96c6a030b249d2f4c99be598f9b3775b0cf1901104dbbfdb08780d",
+    "tools/build_2021_playoff_calendar_candidate.py": "7fc125533337bab45c33e0098af22e375cc4a2c0d39d373106c187c2ded6aebd"
+  },
+  "nlm_import": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 11.179,
+    "response": {
+      "source_type": "text",
+      "source_id": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+      "title": "FR A06 causal8 and playoff15 calendar candidate 2026-10-04"
+    },
+    "process_budget_seconds": 50,
+    "prompt_sha256": "4a1f41b18be27ce982a6c70d5e05301d1e426d04d774e276431c4a062af339a9",
+    "raw_logs_retained": false,
+    "independent_source_increment": 0
+  },
+  "external_results": {
+    "nlm_import_success": true,
+    "nlm_import_elapsed_seconds": 11.179,
+    "nlm_analysis_response_recovered": true,
+    "nlm_analysis_elapsed_seconds": 47.314,
+    "nlm_invented_quote_rejected": true,
+    "claude_analysis_response_recovered": false,
+    "claude_status": "OWNED_PROCESS_TIMEOUT",
+    "claude_elapsed_seconds": 150.1,
+    "antigravity": "NOT_RUN_NEW_PRIMARY_PDF_COLLECTED_BY_CODEX",
+    "full_source_blind_review": "NOT_RUN"
+  },
+  "independent_review": "LIMITED_CODEX_REBUTTAL_2_CALENDAR_CHECKER_DEFECTS_REPAIRED"
+}

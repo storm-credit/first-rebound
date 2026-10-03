@@ -1,0 +1,1563 @@
+{
+  "status": "ALL_15_SERIES_CHRONOLOGY_CANDIDATE_NOT_SELECTED_CALENDAR",
+  "baseline_main": "4b92e1191c9c36c78b5e1de18a6fa7941698c3f4",
+  "date": "2026-10-04",
+  "source_hash_convention": "SHA256_UTF8_NO_BOM_LF_NORMALIZED",
+  "source_sha256": {
+    "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json": "dc1d47563f8381a4b1bd98409f198e8df088ce782622071e22556e8f0c7a7cdb",
+    "simulation/CHICAGO_2020_21_K1_L2_BRACKET.json": "a9517ebac489711f744df6bb0edf65c82b47c43db9a647b9de3c140326e4d5b1",
+    "simulation/NBA_2020_21_FULL_SEASON.json": "fece775c14aa2784f05ab682c8ed0ffbe3b00096e00b3e1390fb2cb0003ae6b3",
+    "simulation/DEN_LAL_2021_SIX_DATE_CANDIDATE_BRIDGE.json": "f417f832dd403812dd4676c4bdb2a1a68960cf44c26cbc905b121c0d0147bdd9",
+    "simulation/DEN_LAL_2021_DELEGATED_SERIES.json": "81332e263b01ef86f5b3c0abea408a89bc926ae36cc7eb4f30d2877fbd1b0354"
+  },
+  "calendar_selected": false,
+  "new_author_decisions": 0,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "legal_execution_cleared": false,
+  "design_gate": "CLOSED",
+  "historical_source": {
+    "url": "https://cdn.nba.com/teams/uploads/sites/1610612758/2022/07/kings_media_guide_2021-22_FINAL.pdf",
+    "document_sha256": "61613ab4d5d6868e406c0bae84d7f376256b96f4c5bd9e95012c20186a7132a5",
+    "printed_page": 100,
+    "zero_based_page": 99,
+    "access": "DIRECT_PDF_TEXT_AND_RENDERED_PAGE",
+    "caveat": "BKN May30 row misplaced in PHX block; PHX May27 row missing; NBA pages correct these. Historical G5 DEN-POR 2OT omitted by guide but separately verified."
+  },
+  "corrections": [
+    {
+      "url": "https://www.nba.com/game/bkn-vs-bos-0042000114",
+      "claim": "Historical BKN-BOS G4 May30 belongs in BKN block"
+    },
+    {
+      "url": "https://www.nba.com/game/phx-vs-lal-0042000153/box-score",
+      "claim": "Historical PHX-LAL G3 May27 fills missing row"
+    }
+  ],
+  "calendar_window_source": {
+    "url": "https://official.nba.com/nba-announces-structure-and-format-for-2020-21-season/",
+    "claim": "Nov17 2020 release tentative playoffs May22-Jul22 2021",
+    "access": "DIRECT_OFFICIAL_PAGE"
+  },
+  "modeling_changes": [
+    "W6 replaces original DEN opponent by LAL and extends 4 to selected7 games on June15/17/19 candidates",
+    "W7 first date shifts June20 to June22 to leave a non-game date after W6 June19; endsJuly2 candidate",
+    "Original date skeletons for other series remain candidate, including changed first-round opponents"
+  ],
+  "exclusions": [
+    "No historical scores, medical events, minute boxes or per-game winners copied",
+    "No venue/broadcast/travel/health/eligibility certification",
+    "Calendar date gaps are not hours of rest; Olympics readiness not certified",
+    "Candidate timings do not alter source exact_dates=null or F/A/K HOLD"
+  ],
+  "series": [
+    {
+      "id": "E1",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "PHI",
+      "winner_wins": 4,
+      "loser_wins": 1,
+      "higher_homecourt_team_candidate": "PHI",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-23",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-23"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-26",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-26"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-29",
+          "date_selected": false,
+          "home_team_candidate": "IND",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-29"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-31",
+          "date_selected": false,
+          "home_team_candidate": "IND",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-31"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-02",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-02"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "BKN",
+      "winner_wins": 4,
+      "loser_wins": 1,
+      "higher_homecourt_team_candidate": "BKN",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-22",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-22"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-25",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-25"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-28",
+          "date_selected": false,
+          "home_team_candidate": "BOS",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-28"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-30",
+          "date_selected": false,
+          "home_team_candidate": "BOS",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-30"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-01",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-01"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "MIL",
+      "winner_wins": 4,
+      "loser_wins": 0,
+      "higher_homecourt_team_candidate": "MIL",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-22",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-22"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-24",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-24"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-27",
+          "date_selected": false,
+          "home_team_candidate": "MIA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-27"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-29",
+          "date_selected": false,
+          "home_team_candidate": "MIA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-29"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "ATL",
+      "winner_wins": 4,
+      "loser_wins": 1,
+      "higher_homecourt_team_candidate": "NYK",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-23",
+          "date_selected": false,
+          "home_team_candidate": "NYK",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-23"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-26",
+          "date_selected": false,
+          "home_team_candidate": "NYK",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-26"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-28",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-28"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-30",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-30"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-02",
+          "date_selected": false,
+          "home_team_candidate": "NYK",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-02"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "UTA",
+      "winner_wins": 4,
+      "loser_wins": 1,
+      "higher_homecourt_team_candidate": "UTA",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-23",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-23"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-26",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-26"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-29",
+          "date_selected": false,
+          "home_team_candidate": "MEM",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-29"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-31",
+          "date_selected": false,
+          "home_team_candidate": "MEM",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-31"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-02",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-02"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "PHX",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "PHX",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-23",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-23"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-25",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-25"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-27",
+          "date_selected": false,
+          "home_team_candidate": "POR",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-27"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-30",
+          "date_selected": false,
+          "home_team_candidate": "POR",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-30"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-01",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-01"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-03",
+          "date_selected": false,
+          "home_team_candidate": "POR",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-03"
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "LAL",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "DEN",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-22",
+          "date_selected": false,
+          "home_team_candidate": "DEN",
+          "selected_game_winner": "DEN",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-22"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-24",
+          "date_selected": false,
+          "home_team_candidate": "DEN",
+          "selected_game_winner": "LAL",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-24"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-27",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": "LAL",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-27"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-29",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": "DEN",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-29"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-01",
+          "date_selected": false,
+          "home_team_candidate": "DEN",
+          "selected_game_winner": "LAL",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-01"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-03",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": "LAL",
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-03"
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "round": 1,
+      "parents": [],
+      "selected_winner": "LAC",
+      "winner_wins": 4,
+      "loser_wins": 3,
+      "higher_homecourt_team_candidate": "LAC",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-05-22",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-22"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-05-25",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-25"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-05-28",
+          "date_selected": false,
+          "home_team_candidate": "DAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-28"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-05-30",
+          "date_selected": false,
+          "home_team_candidate": "DAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-05-30"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-02",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-02"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-04",
+          "date_selected": false,
+          "home_team_candidate": "DAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-04"
+        },
+        {
+          "game": 7,
+          "date_candidate": "2021-06-06",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-06"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "round": 2,
+      "parents": [
+        "E1",
+        "E4"
+      ],
+      "selected_winner": "ATL",
+      "winner_wins": 4,
+      "loser_wins": 3,
+      "higher_homecourt_team_candidate": "PHI",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "E1",
+          "end_candidate": "2021-06-02",
+          "elapsed_calendar_days": 4
+        },
+        {
+          "series": "E4",
+          "end_candidate": "2021-06-02",
+          "elapsed_calendar_days": 4
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-06",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-06"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-08",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-08"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-11",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-11"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-14",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-14"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-16",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-16"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-18",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-18"
+        },
+        {
+          "game": 7,
+          "date_candidate": "2021-06-20",
+          "date_selected": false,
+          "home_team_candidate": "PHI",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-20"
+        }
+      ]
+    },
+    {
+      "id": "E6",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "round": 2,
+      "parents": [
+        "E2",
+        "E3"
+      ],
+      "selected_winner": "MIL",
+      "winner_wins": 4,
+      "loser_wins": 3,
+      "higher_homecourt_team_candidate": "BKN",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "E2",
+          "end_candidate": "2021-06-01",
+          "elapsed_calendar_days": 4
+        },
+        {
+          "series": "E3",
+          "end_candidate": "2021-05-29",
+          "elapsed_calendar_days": 7
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-05",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-05"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-07",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-07"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-10",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-10"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-13",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-13"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-15",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-15"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-17",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-17"
+        },
+        {
+          "game": 7,
+          "date_candidate": "2021-06-19",
+          "date_selected": false,
+          "home_team_candidate": "BKN",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-19"
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "round": 2,
+      "parents": [
+        "W1",
+        "W4"
+      ],
+      "selected_winner": "LAC",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "UTA",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "W1",
+          "end_candidate": "2021-06-02",
+          "elapsed_calendar_days": 6
+        },
+        {
+          "series": "W4",
+          "end_candidate": "2021-06-06",
+          "elapsed_calendar_days": 2
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-08",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-08"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-10",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-10"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-12",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-12"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-14",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-14"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-16",
+          "date_selected": false,
+          "home_team_candidate": "UTA",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-16"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-18",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-18"
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "round": 2,
+      "parents": [
+        "W2",
+        "W3"
+      ],
+      "selected_winner": "PHX",
+      "winner_wins": 4,
+      "loser_wins": 3,
+      "higher_homecourt_team_candidate": "PHX",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "W2",
+          "end_candidate": "2021-06-03",
+          "elapsed_calendar_days": 4
+        },
+        {
+          "series": "W3",
+          "end_candidate": "2021-06-03",
+          "elapsed_calendar_days": 4
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-07",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-07"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-09",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-09"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-11",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-11"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-13",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-13"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-15",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": null
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-06-17",
+          "date_selected": false,
+          "home_team_candidate": "LAL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": null
+        },
+        {
+          "game": 7,
+          "date_candidate": "2021-06-19",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": null
+        }
+      ]
+    },
+    {
+      "id": "E7",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "round": 3,
+      "parents": [
+        "E5",
+        "E6"
+      ],
+      "selected_winner": "MIL",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "MIL",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "E5",
+          "end_candidate": "2021-06-20",
+          "elapsed_calendar_days": 3
+        },
+        {
+          "series": "E6",
+          "end_candidate": "2021-06-19",
+          "elapsed_calendar_days": 4
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-23",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-23"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-25",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-25"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-27",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-27"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-29",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-29"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-07-01",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-01"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-07-03",
+          "date_selected": false,
+          "home_team_candidate": "ATL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-03"
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "round": 3,
+      "parents": [
+        "W5",
+        "W6"
+      ],
+      "selected_winner": "PHX",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "PHX",
+      "homecourt_basis": "Existing selected bracket seed order",
+      "parent_gaps": [
+        {
+          "series": "W5",
+          "end_candidate": "2021-06-18",
+          "elapsed_calendar_days": 4
+        },
+        {
+          "series": "W6",
+          "end_candidate": "2021-06-19",
+          "elapsed_calendar_days": 3
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-06-22",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-20"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-06-24",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-22"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-06-26",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-24"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-06-28",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-26"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-06-30",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-28"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-07-02",
+          "date_selected": false,
+          "home_team_candidate": "LAC",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-06-30"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "round": 4,
+      "parents": [
+        "E7",
+        "W7"
+      ],
+      "selected_winner": "MIL",
+      "winner_wins": 4,
+      "loser_wins": 2,
+      "higher_homecourt_team_candidate": "PHX",
+      "homecourt_basis": "F038 PHX51 > MIL46",
+      "parent_gaps": [
+        {
+          "series": "E7",
+          "end_candidate": "2021-07-03",
+          "elapsed_calendar_days": 3
+        },
+        {
+          "series": "W7",
+          "end_candidate": "2021-07-02",
+          "elapsed_calendar_days": 4
+        }
+      ],
+      "games": [
+        {
+          "game": 1,
+          "date_candidate": "2021-07-06",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-06"
+        },
+        {
+          "game": 2,
+          "date_candidate": "2021-07-08",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-08"
+        },
+        {
+          "game": 3,
+          "date_candidate": "2021-07-11",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-11"
+        },
+        {
+          "game": 4,
+          "date_candidate": "2021-07-14",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-14"
+        },
+        {
+          "game": 5,
+          "date_candidate": "2021-07-17",
+          "date_selected": false,
+          "home_team_candidate": "PHX",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-17"
+        },
+        {
+          "game": 6,
+          "date_candidate": "2021-07-20",
+          "date_selected": false,
+          "home_team_candidate": "MIL",
+          "selected_game_winner": null,
+          "score": null,
+          "actual_overtime": null,
+          "health_verified": false,
+          "eligibility_verified": false,
+          "venue_booking_verified": false,
+          "historical_date_basis": "2021-07-20"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "series_count": 15,
+    "games": 88,
+    "team_date_collisions": 0,
+    "LA_shared_home_date_collisions": 0,
+    "parent_child_links": 14,
+    "all_game_gaps_at_least_two_calendar_days": true,
+    "all_parent_gaps_at_least_two_calendar_days": true,
+    "selected_results_preserved": true,
+    "no_calendar_health_or_eligibility_promotion": true
+  }
+}

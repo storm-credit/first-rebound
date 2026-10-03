@@ -1,0 +1,62 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "97fa130b-edff-4f4a-93a8-3b06faafaea2"
+  ],
+  "question_sha256": "67d013249e3105f65785c5cb1937038fda139d9d5df24cc9c29c801f23e7bcc7",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 47.314,
+    "process_budget_seconds": 75.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**FR A06 causal8 and playoff15 calendar candidate 2026-10-04** 출처 단독 분석 결과입니다 [1, 2].\n\n---\n\n### 1. W6(PHX-LAL) 7경기 확장 및 W7(6/22~7/2) 이동 이유\n* **W6(PHX-LAL) 7경기 확장 이유**: 기존 4경기 일정(6/7, 6/9, 6/11, 6/13)에 6/15, 6/17, 6/19의 3경기가 추가되어 최대 7경기 일정으로 선택 확장되었습니다 [2]. 이에 따라 W6 시리즈의 최종 종료 후보일이 **2021-06-19**로 설정되었습니다 [2, 3].\n* **W7(LAC-PHX) 일정 이동 이유**: W7은 선행 시리즈인 W5(6/18 종료)와 W6(6/19 종료)의 결과를 받아 진행됩니다 [3]. W6의 종료일이 6/19로 늘어남에 따라, W6 종료일 이후 선행-후행 간 **3일의 달력 날짜 간격(`elapsed_calendar_days: 3`)**을 확보하기 위해 W7의 시작일이 기존 6/20에서 **6/22로 이동**되었으며, 6/22부터 7/2까지(6/22, 6/24, 6/26, 6/28, 6/30, 7/2) 진행되도록 조정되었습니다 [2, 3].\n\n---\n\n### 2. 두 결승전 선행 종료 → 7/6(파이널) 관계 검사\n* **선행 종료일**: 서부 결승 W7(LAC-PHX)은 **2021-07-02**, 동부 결승 E7(ATL-MIL)은 **2021-07-03**에 각각 종료됩니다 [2, 3].\n* **파이널(F1) 시작일**: 파이널 F1(MIL-PHX)의 첫 경기는 **2021-07-06**에 시작합니다 [2, 3].\n* **관계 검사**: 서부 결승 종료(7/2) 후 파이널까지 **4일 간격**, 동부 결승 종료(7/3) 후 파이널까지 **3일 간격**의 달력 일수가 확보됩니다 [3]. 따라서 두 컨퍼런스 결승전이 모두 파이널 시작일(7/6) 이전에 선행하여 무사히 종료되는 일정이 정상적으로 성립합니다 [2, 3].\n\n---\n\n### 3. 날짜 간격과 휴식 / 의료 / 자격의 구분\n* 본 출처는 `Allscores/OT/medical/venue/eligibilitynull/false, dategapsnotresthours`라고 분명히 규정하고 있습니다 [2].\n* 달력 상의 **날짜 간격(date gaps / elapsed calendar days)**은 순수한 대진표 배치상의 일자 차이일 뿐이며, 선수들의 실제 **휴식 시간(rest hours), 의료/부상 상태(medical), 경기 점수/결과(scores), 연장전(OT), 경기장(venue), 출전 자격(eligibility)**과는 엄격히 구분됩니다 [2]. 해당 항목들은 본 날짜 후보 데이터에서 모두 `null` 또는 `false`로 처리되어 있으며 대체세계로 복사·적용되지 않습니다 [2].\n\n---\n\n### 4. 팀 결과(Selected)와 개인 수행 시도(Candidate) 혼동 문장 지적 (1건)\n\n> **[지적 대상 혼동 표현]**\n> *\"A06-CF01~CF08의 개인 수행 시도 및 과제 행동이 실제로 확정 실행됨으로써 시카고의 인디애나전 패배 및 시즌 종료라는 팀 결과를 가져왔다.\"*\n\n* **오류 원인 및 지적**:\n  * **팀 결과(Selected)**: 시카고의 31승 41패, Washington전 승리 후 Indiana전 패배, 15개 시리즈 승리팀 및 시리즈 길이는 이미 고정/선택 완료된 상위 구조입니다 (`SelecteddelegatedChicago31-41... winner/lengthselected`) [1, 2].\n  * **개인 수행 시도(Not Selected / Candidate)**: A06-CF01~CF08에 기술된 인물의 개인 수행 및 역할 시험은 최종 사건 결정권이 없는 단순 후보 행동(Candidate actions)이며, 미완성·미확정 상태입니다 (`NOTfullexecution`, `Candidateactions notfinaleventauthority`, `CLOSED/finalepisodes0`) [1, 4].\n  * 따라서 **이미 선택·위임된 팀 결과(Selected)**를 **미확정 후보 상태인 개인의 수행 시도(Candidate)**가 직접 결정짓거나 최종 확정 사건으로 실행되었다고 해석하는 것은 두 개념을 혼동한 것입니다 [1, 4].\n\n---\n\n💡 **다음 단계 안내**: 이번 달력 후보 구조(88경기/15시리즈)의 선행-후행 연결 간격이나 특정 시리즈의 경기 배치에 대해 더 세부적인 검증이 필요하시면 말씀해 주세요.",
+      "question": "이 한 출처만 분석하라. 15시리즈88경기 날짜 후보에서 W6 PHX-LAL을7경기로 늘린 뒤 W7을6/22~7/2로 옮긴 이유와 두 결승전선행 종료→7/6 관계를 검사하라. 날짜간격과 휴식/의료/자격을 구분. A068후보의 팀결과가 이미선택됨과 개인수행시도가 미선택임을 혼동하는 문장 최대1건만 지적하라. 다른출처 독립인증·전체시즌PASS로 쓰지 말라. 원역사 점수/부상과 구단가이드 오류를 대체세계에 복사하지 말라.",
+      "conversation_id": "d62b5719-1b8b-4e52-8e81-88ef2601a5fd",
+      "sources_used": [
+        "97fa130b-edff-4f4a-93a8-3b06faafaea2"
+      ],
+      "citations": {
+        "1": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+        "2": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+        "3": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+        "4": "97fa130b-edff-4f4a-93a8-3b06faafaea2"
+      },
+      "references": [
+        {
+          "source_id": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+          "citation_number": 1,
+          "cited_text_sha256": "5f22c895b6ad935a16e5eb3e4bd330c30aaaaea33f19b1d80fa9657ebdc8c9d1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+          "citation_number": 2,
+          "cited_text_sha256": "43dc8c110ea155a66c2adeb796aec050842b5a0188cecc61bae7047a9b5a9a00",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+          "citation_number": 3,
+          "cited_text_sha256": "b9e1ef3de660c5bba423448d9d404c8419cf6b609592c07f8ae521863b6d7388",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "97fa130b-edff-4f4a-93a8-3b06faafaea2",
+          "citation_number": 4,
+          "cited_text_sha256": "f9f609a2c6f0086f5bc0c60bc0e998af5d02d29c4aadd2bb95ca32d9f5fcca3e",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
