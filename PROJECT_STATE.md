@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-05 [Denver–Cleveland 등록 종료](reviews/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 고유15공개그룹/21행을 재실행한 DEN53일×Clark4/8·4/9 양분기와 CLE53일 검문. Cook/Kabengele/Rivers5개10일의만료·Stevens전환·후속계약연결, CLE일반13명9일의TW보정배치/2017CBA·2019규약 직접대조. 독립실제코드재검수/음성4종 통과. DEN_CLE_DATED_REGISTRATION 추가종료: 법적2완료/10HOLD·F0/5 A0/3 K0/4. 급여·건강·실제접수·F4/F5전체·시즌은미완료. 최종회차0·실제Pack0·미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래11/12HOLD는당시이력이다.
+
 2026-10-05 [Orlando 등록 법적 범위 종료](reviews/ORL_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 53일·21공개사건을 근거 ID/승인 변환으로 직접 재실행했다. 정원15를 유지하는 무근거 교체 falsePASS를 독립 반증으로 찾아 수리, 음성4종과 재검수 통과. 유효 첫#24 rookie-scale T1 양도 전 범위는 일반1자리이며 정확120% 재선택 불필요. ORL_DATED_REGISTRATION만 LEGAL_BOUND_PASS: 법적1완료/11HOLD·F0/5 A0/3 K0/4. 전체 비용·건강·실제 접수/T5·시즌은 미완료. 최종회차0·실제Pack0·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래12HOLD는 해당 시점의 이력이다.
 
 2026-10-05 [S2 종료 경로 수리](reviews/S2_FINITE_SCOPE_CLOSEOUT_REVIEW_2026_10_05.md): Orlando53일의공개21사건/18feed그룹 전수대조를 종료하고 무제한미공표부재요구를 제거했다. 검사기의초기K0/seasonfalse영구강제를closing_witness검문으로분리; 증인없는완료는거부. 독립검토가찾은두파일강제도수리. 해제일3표현정정/기존명단·비용보존. Harrison기존2018계약2YOS·Year2 $1,588,231/8월보장발동과7월방출을분리, Asik중복차감0·Lemon미래조건HOLD. AG32.869초빈응답·NLM37.944초분석/절대부재설명기각. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0. 다음은계약유형·전체법적범위·같은날실행순서증인이며 공개목록 재수집은종료조건아님.

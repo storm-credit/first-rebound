@@ -175,19 +175,37 @@
       "id": "DEN_CLE_DATED_REGISTRATION",
       "group": "F5",
       "kind": "BRANCH_WITNESS",
-      "scope": "McGee CLE/Hartenstein DEN, Varejao May4/14 absent; 8 final game-day count is conditional",
+      "scope": "DEN/CLE all53 dates, Clark release-date alternatives and all finite public groups plus derived prior/followup contract expiries; cost, health and actual execution separate",
       "required_branches": [
         "DEN_all_dates",
         "CLE_all_dates",
         "prior_and_followup_contracts"
       ],
-      "branches": [],
-      "complete_domain": false,
-      "source_verified": false,
+      "branches": [
+        {
+          "id": "DEN_all_dates",
+          "verdict": "LEGAL_BOUND_PASS"
+        },
+        {
+          "id": "CLE_all_dates",
+          "verdict": "LEGAL_BOUND_PASS"
+        },
+        {
+          "id": "prior_and_followup_contracts",
+          "verdict": "LEGAL_BOUND_PASS"
+        }
+      ],
+      "complete_domain": true,
+      "source_verified": true,
       "evidence": [
         "research/O15F14BD_CLEVELAND_C2_FINAL_ROSTER_WINDOW.md",
-        "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md"
-      ]
+        "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.md",
+        "research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.json",
+        "research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.md",
+        "reviews/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md"
+      ],
+      "supporting_witness_scope": "Independent actual-code/source rereview: DEN two53-day branches and CLE53 days; thirteen-standard9-day capacity arrangement including TW inactive adjustment. No full cost/health/receipt/T5/F5 completion.",
+      "reviewed_baseline_main": "a7238c6c4d58a88d5f8cd7f6713fa1876eec8f9e"
     },
     {
       "id": "ORL_F2_COMPLETE_COST",

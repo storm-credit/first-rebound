@@ -1,5 +1,7 @@
 # Project Freeze v0.30
 
+2026-10-05 [Denver–Cleveland 등록 종료](../reviews/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 고유15공개그룹/21행을 재실행한 DEN53일×Clark4/8·4/9 양분기와 CLE53일 검문. Cook/Kabengele/Rivers5개10일의만료·Stevens전환·후속계약연결, CLE일반13명9일의TW보정배치/2017CBA·2019규약 직접대조. 독립실제코드재검수/음성4종 통과. DEN_CLE_DATED_REGISTRATION 추가종료: 법적2완료/10HOLD·F0/5 A0/3 K0/4. 급여·건강·실제접수·F4/F5전체·시즌은미완료. 최종회차0·실제Pack0·미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래11/12HOLD는당시이력이다.
+
 2026-10-05 [Orlando 등록 법적 범위 종료](../reviews/ORL_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 53일·21공개사건을 근거 ID/승인 변환으로 직접 재실행했다. 정원15를 유지하는 무근거 교체 falsePASS를 독립 반증으로 찾아 수리, 음성4종과 재검수 통과. 유효 첫#24 rookie-scale T1 양도 전 범위는 일반1자리이며 정확120% 재선택 불필요. ORL_DATED_REGISTRATION만 LEGAL_BOUND_PASS: 법적1완료/11HOLD·F0/5 A0/3 K0/4. 전체 비용·건강·실제 접수/T5·시즌은 미완료. 최종회차0·실제Pack0·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래12HOLD는 해당 시점의 이력이다.
 
 2026-10-02 최신 권위: [위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)으로 H00 건강 모델·K1/BPM 31–41 설계 목표·L2 플레이인·S1 최초 스타일 잠금을 채택했다. 아래 미선택/권고 표기는 당시 이력이다. 법적12행·전체 건강·DEN–LAL 후속·추첨/픽·최종 시즌 실행은 HOLD, season_selected=false. 스타일 선택은 P3/FULL_TEXT_FINAL/G11최종 통과가 아니다. freeze v0.30 PARTIAL·설계/원고 CLOSED 유지.
