@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-05 [Denver–Cleveland 등록 종료](../reviews/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 고유15공개그룹/21행을 재실행한 DEN53일×Clark4/8·4/9 양분기와 CLE53일 검문. Cook/Kabengele/Rivers5개10일의만료·Stevens전환·후속계약연결, CLE일반13명9일의TW보정배치/2017CBA·2019규약 직접대조. 독립실제코드재검수/음성4종 통과. DEN_CLE_DATED_REGISTRATION 추가종료: 법적2완료/10HOLD·F0/5 A0/3 K0/4. 급여·건강·실제접수·F4/F5전체·시즌은미완료. 최종회차0·실제Pack0·미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래11/12HOLD는당시이력이다.
+
 2026-10-05 [Orlando 등록 법적 범위 종료](../reviews/ORL_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 53일·21공개사건을 근거 ID/승인 변환으로 직접 재실행했다. 정원15를 유지하는 무근거 교체 falsePASS를 독립 반증으로 찾아 수리, 음성4종과 재검수 통과. 유효 첫#24 rookie-scale T1 양도 전 범위는 일반1자리이며 정확120% 재선택 불필요. ORL_DATED_REGISTRATION만 LEGAL_BOUND_PASS: 법적1완료/11HOLD·F0/5 A0/3 K0/4. 전체 비용·건강·실제 접수/T5·시즌은 미완료. 최종회차0·실제Pack0·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래12HOLD는 해당 시점의 이력이다.
 
 2026-10-04 [당시 구단 발표 대조](../research/ORLANDO_ORIGINAL_RELEASE_CROSSCHECK_2026_10_04.md): 해제3건과 Hall5/9 잔여시즌·원역사 hardship을 실제 기사본문4개로 확인했다. feed의 기존11/1/3과 승인세계명단/계약은 보존. [Chicago 당시 자료](../research/CHICAGO_2019_DATED_SOURCE_RECOVERY_2026_10_04.md)의 공식발표2·2019가이드 미러·7/10 원기자 보도를 회수하고 Arc7/11/측정7/7을 구분했다. 국소독립검문·NLM30.679초분석(작가권위혼동기각), AG29.932초빈응답/원문검증0. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
@@ -25,7 +27,7 @@
 | 번호 | 전체 작업 | 현행 상태·남은 핵심 |
 |---|---|---|
 | 1 | 2020 드래프트 연쇄 | 완료. 기존 작가 선택·연쇄 보존 |
-| 2 | Chicago 2020–21 | 진행: 결과 디자인 선택·15시리즈/88날짜 후보 보존. ORL53일·21사건 등록 법적 범위 종료, 무근거 교체 차단. 법적1완료/11HOLD·F0/5·A0/3·K0/4; 전체급여/건강/분/시즌 실행 미완료 |
+| 2 | Chicago 2020–21 | 진행: 결과 디자인 선택·15시리즈/88날짜 후보 보존. ORL53일·DEN양분기53일/CLE53일 등록 법적 범위 종료. 법적2완료/10HOLD·F0/5·A0/3·K0/4; 전체급여/픽/건강/분/시즌 실행 미완료 |
 | 3 | 2021–23 거래·계약 | M1/G1A 방향 선택. M1 정상일5인48/240증인, A07의6/A08의5기능 후보. 전체 비용·계약 실행·시즌 미완료 |
 | 4 | 주인공·라이벌 장기 커리어 | 17시즌 행동/비용·A09–A14 27인과후보 연결. H2·RC1·AW2·NM1의 중요 결과·후속 정확 실행 미완료 |
 | 5 | 결말·전체 구조 | 14막/42소막/780배분. 인과82/대학대표3·A01국소Blueprint1 보존. 학교원문4/FACT9와 수락/참가·G13/G14 조건 수리. 전체 회차 배치 미정·최종 회차 기능0 |
