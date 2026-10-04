@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "status": "PRIMARY_TEXT_RECOVERED_WITH_CASE_SPECIFIC_HOLD",
+  "accessed_date": "2026-10-04",
+  "base_main": "9c1a647a8c6f3e47433d5033e80a5d78441c3893",
+  "scope": "A01 / 2015 가상 한국 고교 / 체험 제안과 실제 참가·학업·소속·등록·대회 분리",
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "PRIMARY_HISTORICAL_STATUTE_HTML_BODY",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=136652&efYd=20130323&chrClsCd=010202",
+      "effective_from": "2013-03-23",
+      "law_number": "법률 제11690호",
+      "read_method": "requests HTTP 200 -> BeautifulSoup get_text(separator=space, strip=True); full body, not search index",
+      "raw_bytes": 40766,
+      "raw_sha256": "fd0b59c95fb64066191733ad40d71e67a50d02b9003a21759e1b03d6afd61f90",
+      "normalized_body_text_sha256": "0c79a591da23d7569d0fe9c762462d3395808b4670b62553713661f6aa16e3e3",
+      "locator": [
+        "제2조제4호",
+        "제11조제1항 및 제2항",
+        "제12조제1항 및 제7항"
+      ],
+      "short_excerpt": "필요할 경우 경기대회 출전을 제한할 수 있다.",
+      "scope": "당시 조문 구조 및 권한 경계. 개별 학교 체험 승인이나 전체 2015년 후속 개정 전수감사는 인증하지 않음."
+    },
+    {
+      "id": "S2",
+      "kind": "PRIMARY_HISTORICAL_STATUTE_HTML_BODY",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=165006&efYd=20150101&chrClsCd=010202",
+      "effective_from": "2015-01-01",
+      "law_number": "대통령령 제25840호",
+      "read_method": "requests HTTP 200 -> BeautifulSoup get_text(separator=space, strip=True); full body, not search index",
+      "raw_bytes": 34699,
+      "raw_sha256": "c1edc2d531ea2f5a1806f58a9ecb03bc62f1d9a03aac6bd120b4e705a1593556",
+      "normalized_body_text_sha256": "4780b240876a8c7b8ade0f9fd2083d7cdcd005eaf4281106874120171c4608f1",
+      "locator": [
+        "제3조제3항"
+      ],
+      "short_excerpt": "학생선수에 대한 훈련계획 작성, 지도 및 관리",
+      "scope": "당시 조문 구조 및 권한 경계. 개별 학교 체험 승인이나 전체 2015년 후속 개정 전수감사는 인증하지 않음."
+    },
+    {
+      "id": "S3",
+      "kind": "PRIMARY_LAW_SERVICE_HISTORICAL_COMPILATION_PDF",
+      "url": "https://www.law.go.kr/LSW/lbook/lbFileDownload.do?flExt=pdf&lbookConflSeq=50581&lbookSeq=57026",
+      "title": "학교 비정규직 강사 관련 법령집",
+      "cover_date": "2015-03-16",
+      "publisher_host": "국가법령정보센터 law.go.kr; 법령집 PDF의 당시 법령본문",
+      "read_method": "requests HTTP 200 -> pypdf full relevant pages; PyMuPDF rendering and direct visual inspection for PDF74/87/219/220",
+      "raw_bytes": 6816194,
+      "raw_sha256": "e2d2a59ff15d5fce39590a9994d2d3a0611fc293f523849446108e2f5ffb027d",
+      "pdf_page_count": 1083,
+      "scope": "2015-03-16 보존 시점의 법령집. 관련 조문 검문이며 전체 법령집 내용 또는 전체 2015년 개정 적용성 전수인증 아님.",
+      "historical_chapters": [
+        {
+          "name": "초ㆍ중등교육법 시행령",
+          "effective_from": "2015-01-06",
+          "law_number": "대통령령 제25961호",
+          "header_page": {
+            "pdf_page_one_based": 73,
+            "pdf_page_zero_based": 72,
+            "printed_page": 85,
+            "extracted_text_sha256": "d4376ac8cc0ef2bb70a63da044970a7099136f4817ab4f6872af30df4143669a"
+          },
+          "provisions": [
+            "제9조제1항",
+            "제48조제5항",
+            "제50조제2항"
+          ],
+          "pages": [
+            {
+              "pdf_page_one_based": 74,
+              "pdf_page_zero_based": 73,
+              "printed_page": 86,
+              "extracted_text_sha256": "a3d7c4717dc41a5dad1e9920d2bacbf4593a4c35c084d16fa952d9e690127d53"
+            },
+            {
+              "pdf_page_one_based": 75,
+              "pdf_page_zero_based": 74,
+              "printed_page": 87,
+              "extracted_text_sha256": "03d65b458cae269dab74ae0fe5c988a50623fc14215b6c0a171b47dc525b3ac0"
+            },
+            {
+              "pdf_page_one_based": 86,
+              "pdf_page_zero_based": 85,
+              "printed_page": 98,
+              "extracted_text_sha256": "edffdb55226bc87fc49baaa904d21eafb52993b7a26b01a6ee9a0f5862c2aa66"
+            },
+            {
+              "pdf_page_one_based": 87,
+              "pdf_page_zero_based": 86,
+              "printed_page": 99,
+              "extracted_text_sha256": "c5f3efe5c0cc2b8859c5e909105236718dc467ff29ec9d1d12457831925aa048"
+            }
+          ],
+          "short_excerpt": "학칙이 정하는 범위안에서 수업으로 인정할 수 있다.",
+          "scope": "제9조 학칙 기재사항, 교외체험학습의 보호자 동의/학교장 허가/학칙 범위, 과정수료 출석 2/3. 교내 농구 체험을 교외체험학습으로 분류하거나 결석 삭제를 허가하지 않음.",
+          "effective_date_note": "제25961호의 일부 다른 조문은 2015-02-01 또는 2016-03-01 별도 시행. 사용한 제9조/제48조제5항/제50조제2항은 이 부칙의 지연시행 대상이 아님."
+        },
+        {
+          "name": "학교체육 진흥법 시행규칙",
+          "effective_from": "2013-03-23",
+          "law_number": "교육부령 제1호(법령집 표기 제00001호)",
+          "provisions": [
+            "제6조제1항부터 제4항"
+          ],
+          "pages": [
+            {
+              "pdf_page_one_based": 219,
+              "pdf_page_zero_based": 218,
+              "printed_page": 278,
+              "extracted_text_sha256": "ce1d4c121e899e1a247fcd41c423132761a3dc282dc615052d9e92abf1983666"
+            },
+            {
+              "pdf_page_one_based": 220,
+              "pdf_page_zero_based": 219,
+              "printed_page": 279,
+              "extracted_text_sha256": "d91ec0015de3189e4efa49d2fd95d7c5e53a2c7d5a48cc1d3f9f792235ab1984"
+            }
+          ],
+          "short_excerpt": "학기당 60시간 이상으로 운영하여야 한다.",
+          "scope": "고등학생선수 지정3교과, 해당학교/학년 각교과 평균성적의30%, 기초학력보장 학기당60시간, 교육감 세부 운영. 체험일 단기 보충 약속과 동일하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "PRIMARY_2015_MOE_MCST_SCHOOL_SPORTS_PLAN_PDF",
+      "url": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=bfb2893daaf01f6ed836128466e7c6aa&m=0302&s=moe",
+      "official_post_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=316&boardSeq=59104&lev=0&m=0302&opType=N&page=1&s=moe&searchType=null&statusYN=C",
+      "title": "2015년 학교체육 주요업무 계획",
+      "cover_date": "2015-03-11",
+      "official_post_date": "2015-04-22",
+      "policy_application_start": "2015-03-01",
+      "read_method": "requests HTTP 200 -> pypdf full relevant pages; cover directly rendered and visually verified; PDF29/PDF32 (printed27/30) visually checked separately by root",
+      "raw_bytes": 1706692,
+      "raw_sha256": "ab160108a76735bc163ec25ce15ef78dea7daa401445c1c84d2b15f0321cf6b2",
+      "pdf_page_count": 74,
+      "pages": [
+        {
+          "pdf_page_one_based": 1,
+          "pdf_page_zero_based": 0,
+          "printed_page": null,
+          "extracted_text_sha256": "8a1368e31f8a8693459a31c17a8bfd7f4f64df55475194d3486e10df3bbfd0e9"
+        },
+        {
+          "pdf_page_one_based": 27,
+          "pdf_page_zero_based": 26,
+          "printed_page": 25,
+          "extracted_text_sha256": "80d6942f1c2ffd6ea52607d832603bd88ad90cefb6381124bfb9d81a2337d33b"
+        },
+        {
+          "pdf_page_one_based": 28,
+          "pdf_page_zero_based": 27,
+          "printed_page": 26,
+          "extracted_text_sha256": "1d469278b9edd927ad63d3ef258043105dc701c358a09a61c93acc769cb77d87"
+        },
+        {
+          "pdf_page_one_based": 29,
+          "pdf_page_zero_based": 28,
+          "printed_page": 27,
+          "extracted_text_sha256": "9daa63e9adc345c537fef7aaba7cfa28d85501d496bffabd55c98e3329853a19"
+        },
+        {
+          "pdf_page_one_based": 32,
+          "pdf_page_zero_based": 31,
+          "printed_page": 30,
+          "extracted_text_sha256": "1c80397739202e256c8a05711365861bbe470b30103ba6d3b014b9a63fd3ae63"
+        }
+      ],
+      "short_excerpts": [
+        "'15년도 초4~고1까지 시행('15.3.1.~)",
+        "대한체육회 가맹경기단체에 선수등록은 가능",
+        "정규수업 이외에 운동에 참여"
+      ],
+      "scope": "2015고1까지 단계적 적용. 제한/해제 방안은 예시와 지역 세부지침을 구분. 계획 수립일/게시일/정책 적용일을 구분하며 그 이전 작중 인물의 문서 지식으로 자동 사용하지 않음."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "source_ids": [
+        "S1"
+      ],
+      "classification": "FACT",
+      "statement_ko": "학생선수 정의는 학교운동부 소속·운동 또는 해당 체육단체 등록·선수활동이다. 단체등록만이 유일한 요건은 아니다.",
+      "locator": "제2조제4호"
+    },
+    {
+      "id": "F02",
+      "source_ids": [
+        "S1"
+      ],
+      "classification": "FACT",
+      "statement_ko": "2013시행 법 제11조제1항은 별도 기초학력보장 프로그램과 최저학력 보장 노력, 필요한 경우 경기대회 출전 제한의 구조다.",
+      "locator": "제11조제1항 및 제2항"
+    },
+    {
+      "id": "F03",
+      "source_ids": [
+        "S2"
+      ],
+      "classification": "FACT",
+      "statement_ko": "지도자 직무는 훈련계획·지도관리, 대회 지원·인솔, 경기력 분석·훈련일지, 훈련장 안전이다.",
+      "locator": "제3조제3항"
+    },
+    {
+      "id": "F04",
+      "source_ids": [
+        "S3"
+      ],
+      "classification": "FACT",
+      "statement_ko": "당시 시행규칙은 매 학기말 고등학생선수3교과, 학교·학년 각교과 평균의30%, 보장프로그램 학기60시간, 교육감 세부운영을 정한다.",
+      "locator": "시행규칙 제6조; 인쇄278–279 / PDF219–220"
+    },
+    {
+      "id": "F05",
+      "source_ids": [
+        "S4"
+      ],
+      "classification": "FACT",
+      "statement_ko": "2015계획의 실제 적용 범위는 2015-03-01부터 초4~고1이며, 고2는2016/고3는2017 확대단계다.",
+      "locator": "인쇄26 / PDF28"
+    },
+    {
+      "id": "F06",
+      "source_ids": [
+        "S4"
+      ],
+      "classification": "FACT",
+      "statement_ko": "계획의 제한·해제 예시는 선수등록 가능을 대회출전 제한과 따로 명시한다. 법정 보충 수료와 출결·학습 확인은 대회 허용 절차의 별도 조건이다.",
+      "locator": "인쇄27 / PDF29"
+    },
+    {
+      "id": "F07",
+      "source_ids": [
+        "S4"
+      ],
+      "classification": "FACT",
+      "statement_ko": "학교운동부 운영계획은 학교장 수립과 학교운영위원회 심의, 정규수업 이외 운동 원칙을 명시한다. 특정 시설 부재 종목의 체험학습·결재 예외는 농구에 자동 적용되지 않는다.",
+      "locator": "인쇄25·30 / PDF27·32"
+    },
+    {
+      "id": "F08",
+      "source_ids": [
+        "S3"
+      ],
+      "classification": "FACT",
+      "statement_ko": "학칙에 교과·수업일수·고사·과정수료 인정 및 학교생활 사항을 기재한다.",
+      "locator": "초중등 시행령 제9조; 인쇄86–87 / PDF74–75"
+    },
+    {
+      "id": "F09",
+      "source_ids": [
+        "S3"
+      ],
+      "classification": "FACT",
+      "statement_ko": "교외체험학습의 수업 인정은 교육상 필요·보호자 동의·학교장 허가·학칙 범위의 구조다. 과정수료 출석은 수업일수2/3 이상이다.",
+      "locator": "초중등 시행령 제48조제5항·제50조제2항; 인쇄99 / PDF87"
+    }
+  ],
+  "existing_author_locked_context": {
+    "path": "canon/CAREER_TIMELINE.md",
+    "scope": "1999동년생,2015고교입학,한국고1. 기존 정본 참고이며 새잠금 아님."
+  },
+  "inferences": [
+    {
+      "classification": "INFERENCE",
+      "source_fact_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F06",
+        "F08",
+        "F09"
+      ],
+      "statement_ko": "제안수락만으로 실제참가·정식소속·공식등록·대회출전·출결정정을 인증할 수 없다."
+    },
+    {
+      "classification": "INFERENCE",
+      "source_fact_ids": [
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "statement_ko": "2015고1 적용 범위는 기존 정본과 맞지만 체험생의 학생선수 해당 여부·학기말 성적·개별 프로그램 수료·대회 자격은 미검증이다."
+    },
+    {
+      "classification": "INFERENCE",
+      "source_fact_ids": [
+        "F04",
+        "F06",
+        "F07"
+      ],
+      "statement_ko": "체험일의 짧은 보충조건을 학기60시간 기초학력보장 프로그램 수료와 등치하거나 훈련참가로 과거결석을 소급삭제하지 않는다."
+    }
+  ],
+  "school_rule_candidate": {
+    "classification": "SCHOOL_RULE_CANDIDATE_NOT_AUTHOR_LOCK",
+    "statement_ko": "허용된 학교운영계획 안에서 체험 일시·안전수칙·담당교사 확인절차를 전달하고 조건확인 후 실제참가. 감독 단독승인 권한이나 전국 공통 절차로 인증하지 않음.",
+    "exact_schedule": null,
+    "guardian_consent_form": null,
+    "trial_period": null,
+    "coach_solo_authority_verified": false
+  },
+  "uncertified": [
+    "감독의 단독 체험승인 권한",
+    "제안 당일과 체험일의 정확 일정",
+    "당일 학업 보충 완료",
+    "정식 농구부 소속 확정 시점",
+    "경기단체 실제 선수등록",
+    "개별 대회 참가 신청·승인",
+    "기존 출결 처분 완료·소급 삭제",
+    "가상학교 학칙·지역교육청 세부지침·정확 결석수",
+    "전체2015년 후속개정 전수감사",
+    "사고·징계·담임·생활지도부 권한"
+  ],
+  "tool_scope": {
+    "antigravity": "별도 reviews/A01_KOREA_SCHOOL_AG_2026_10_04.json; 직접회수 근거와 자동합산하지 않음",
+    "notebooklm": {
+      "import": "reviews/A01_KOREA_PRIMARY_NLM_IMPORT_2026_10_04.json",
+      "query": "reviews/A01_KOREA_PRIMARY_NLM_2026_10_04.json",
+      "original_pdf_import_succeeded": true,
+      "analysis_success": false,
+      "query_result": "TIMEOUT_NOT_PASS",
+      "independent_document_increment_from_upload": 0
+    },
+    "claude": "NOT_RUN_AFTER_ACTUAL_SESSION_USAGE_LIMIT; reviews/A08_LIVEPASS_CLAUDE_2026_10_04.json",
+    "source_blind": "NOT_RUN_WHOLE_PROJECT"
+  },
+  "promotion": {
+    "new_author_lock": false,
+    "official_registration_certified": false,
+    "tournament_eligibility_certified": false,
+    "attendance_deleted": false,
+    "same_day_remediation_completed": false,
+    "canon_promotion": false,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "project_freeze": "v0.30 PARTIAL"
+  }
+}
