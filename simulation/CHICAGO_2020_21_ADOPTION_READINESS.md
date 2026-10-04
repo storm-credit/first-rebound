@@ -1,5 +1,7 @@
 # O-15F14-L — 시즌 채택 전 실행 패킷
 
+2026-10-05 [Denver F5 비용 비교 증명](../reviews/DEN_F5_COST_COMPARATOR_REVIEW_2026_10_05.md): 원역사Nnaji22/대체Bey22 비율을 독립80~120%로 놓고 Hartenstein잔류−McGee미취득 기본급 차액을 합치면 −3,372,716~−1,786,156이다. 원역사 전체 상한+보너스/모든비공통차액의 증명 경로를 명시했으며 해당 상한은 아직null. 실제독립코드/CBA검문·음성6종·NLM단일파생출처49.384초회수; 추가법적PASS0. 등록2완료/법적10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0.
+
 2026-10-03 H00 후속: [72경기 날짜별 적용](LAKERS_2020_21_H00_DATED_HEALTH_APPLICATION.md)은 이미 선택된 H00의62칸을 명시하고 범위밖82칸·부분이탈/복귀분을 HOLD로 보존했다. A1전체/건강전수/등록/시즌 PASS가 아니다.
 
 2026-10-02 [2021플레이오프 결과 설계](../simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json): DEN–LAL보존+신규14개로15시리즈 승자/길이 설계 채택. MIL우승/PHX준우승, 새PHX–LAL7경기와서부부하변경 명시. 15고유탈락/후속연결 검사PASS; 건강·등록·날짜·점수·법적12행과전체시즌 실행HOLD·미완료6·원고CLOSED.

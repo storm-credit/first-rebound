@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "baseline_main": "305104151e98d8570e1b8388e9a9583cbf00efa0",
+  "classification": "CONDITIONAL_COMPARATOR_NOT_COMPLETE_COST_DOMAIN",
+  "scope": {
+    "team": "DEN",
+    "start": "2021-03-25",
+    "end": "2021-05-16",
+    "phase": "AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS",
+    "excludes": [
+      "F3 intervening trade order",
+      "CLE cost",
+      "matching",
+      "pick obligations",
+      "actual contract execution"
+    ]
+  },
+  "shared_apron_definition": "2017 CBA VII 6(m)(3); applicable 2020 amendments unverified",
+  "evidence_sha256": {
+    "research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.json": "28b32eafb6f9793c637235eff727ef0e1da2c067c9497dc112a2047f6a7f29e1",
+    "simulation/BOSTON_DENVER_2020_21_PAYROLL.json": "5cbe694a3ad68f60aa13b4a39ca7edcf91501d494dc6d02deed8944f876d871b",
+    "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json": "38719c96d3a1139173ee99d134a020cb3a124060585ed246055f21912189ef24",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "e2c90e54e821116b1f29b1d2ef4ed58d3e2e45bc15d2abd7ff15f58f75ff2fea",
+    "simulation/NBA_2021_EXECUTION_RESOLUTION.json": "50b6afaf48a4e40649d61baaabdb5a576331aef13102139f5007eb959efc232e"
+  },
+  "approved_transformation": {
+    "historical_retained_rookie": "Zeke Nnaji at #22",
+    "alternate_retained_rookie": "Saddiq Bey at #22",
+    "historical_sent_rookie": "R.J. Hampton at #24",
+    "alternate_sent_rookie": "Zeke Nnaji at #24",
+    "historical_center": "JaVale McGee",
+    "alternate_center": "Isaiah Hartenstein",
+    "new_author_locks": 0
+  },
+  "reported_input_bounds": {
+    "rookie_22_scale_100_usd": 1983200,
+    "each_rookie_ratio_interval": [
+      0.8,
+      1.2
+    ],
+    "historical_ratio_verified": false,
+    "alternate_ratio_selected": false,
+    "retained_hartenstein_base_usd": 1620564,
+    "omitted_mcgee_base_usd": 4200000,
+    "center_base_saving_usd": 2579436,
+    "rookie_base_delta_interval_usd": [
+      -793280,
+      793280
+    ],
+    "named_base_delta_interval_usd": [
+      -3372716,
+      -1786156
+    ],
+    "complete_contract_charge_verified": false
+  },
+  "symbolic_cost_equation": "ALT_APRON = HIST_APRON + DELTA_BASE + GAMMA_GORDON + GAMMA_CLARK + DELTA_OTHER",
+  "unmeasured_differences": [
+    {
+      "id": "GAMMA_GORDON",
+      "definition": "alternative minus historical current-year allocated trade/signing bonus",
+      "lower": null,
+      "upper": null,
+      "source_verified": false
+    },
+    {
+      "id": "GAMMA_CLARK",
+      "definition": "alternative minus historical current-year allocated trade/signing bonus",
+      "lower": null,
+      "upper": null,
+      "source_verified": false
+    },
+    {
+      "id": "DELTA_OTHER",
+      "definition": "all other non-common charge differences: contract adjustments, prior obligations, exception/rights treatment, subsequent contracts and residuals",
+      "lower": null,
+      "upper": null,
+      "source_verified": false
+    }
+  ],
+  "closure_conditions": {
+    "historical_same_date_full_apron_bound": null,
+    "historical_applicable_limit_source_verified": false,
+    "same_definition_and_complete_delta_inventory_verified": false,
+    "dominance_if_combined_other_delta_upper_at_most_usd": 1786156,
+    "equal_rookie_ratios_candidate": {
+      "selected": false,
+      "dominance_if_combined_other_delta_upper_at_most_usd": 2579436
+    },
+    "general_rule": "HIST_UPPER + MAX_DELTA_BASE + MAX_GAMMA_GORDON + MAX_GAMMA_CLARK + MAX_DELTA_OTHER <= 138928000"
+  },
+  "daily_link": {
+    "registration_days_per_branch": 53,
+    "clark_release_date_branches": [
+      "2021-04-08",
+      "2021-04-09"
+    ],
+    "registration_complete_domain": true,
+    "release_does_not_erase_prior_pay": true,
+    "actual_intraday_receipt_times_verified": false
+  },
+  "reused_bridge_comparison": {
+    "selected_conditional_peak_usd": 129663831,
+    "residual_allowance_usd": 9264169,
+    "not_historical_full_cost_certificate": true
+  },
+  "complete_domain": false,
+  "source_verified": false,
+  "legal_fields_promoted": [],
+  "season_selected": false,
+  "manuscript_allowed": false
+}
