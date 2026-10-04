@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-04 [Young 2019 직접 FA 자금 경계](research/CHICAGO_2019_YOUNG_SIGNING_BOUNDARY.md): CapRoom 사후 보고·공식FA분류와 CBA22쪽을 연결했다. 일반 직접 FA의예외별 제외/3년Summer 반례·최대1명 roster credit $898,310→직전차액 시험 $12,001,690·bonus funding/caphit 분리. Y1–Y5의공개구간 또는완전분기 증인HOLD, 비공개원계약 새필수조건0. AG70.139초/NLM57.198초응답회수·국소독립Codex 결함미발견·Claude한도후미실행/전체blind미실행. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [Chicago2019 캡 공간 취득 시점](research/CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY.md): 이전 예외 산입을 2020 하한으로 지우지 않고 2019 실제 캡 공간 취득 증인으로 좁히는 조건부 경로를 준비했다. $10m 수취시험→직전캡차액 최소$9.9m·I§1(kkk) Room정의/6j2/6m1–2/6g·S&T/DPE/minimum의CBA11쪽·Bulls1쪽 직접대조·별도Codex 한정논증 수용. 실제취득수단/charge/순서 네조건HOLD·pre-anchor 송출3사건은 불완전목록. AG41.093초응답UNVERIFIED/본문0·NLM45.183초분석회수·Claude한도후미실행·전체blind미실행. 기존AE중복계수0·법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [Chicago 예외 존속기간 검수](reviews/CHI_EXCEPTION_LIFETIME_REVIEW_2026_10_04.md): AF의TPE0조건에서누락된만료/연장·발생목록을복구하고 신규산입차단과초기/이월잔액부재를분리했다. NBA2017본문·BullsQO서명11/21의PDF401텍스트/렌더·기존AE하한중복계수0·14막193입력지문/13링크·독립Codex실제결함반영. AG신규기사43.974초/NLM2017시간연결58.56초회수, Claude한도후미실행·전체sourceblind미실행. 2020규칙/전체잔액 미인증·법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.

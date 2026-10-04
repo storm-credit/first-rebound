@@ -1,0 +1,139 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6"
+  ],
+  "question_sha256": "28da681397a59e89f40d5ab8402312c1a4ec2e0fb448a56424a74e5edf030a6a",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 57.198,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. Exception Funding vs. Cap Gap\nUnder **Article VII, Section 6**, no cap exception can fund a \\$12.9m first-year Salary for a veteran free agent coming from a different Prior Team:\n* **Traded Player Exception (TPE) (Art. VII §6(j))**: Applies strictly to player contracts acquired by assignment (trades), not direct FA signings [1].\n* **Bird / Early Bird / Non-Bird Exceptions (Art. VII §6(b))**: Restricted exclusively to re-signing a team's own Veteran Free Agent [2].\n* **MLE / BAE / DPE / Minimum / Rookie / Existing / Reinstatement (Art. VII §6(a)-(i), (k))**: Maximum allowable limits under Non-Taxpayer MLE (§6(e)), Taxpayer MLE (§6(f)), Room MLE (§6(g)), BAE (§6(d)), DPE (§6(c)), and Minimum (§6(i)) are all well below \\$12.9m [3-8]. Existing Contracts (§6(a)) and Rookie Scale (§6(h)) do not apply to new veteran signings [2, 8].\n\nConsequently, the contract must be funded directly via **Cap Room** under **Article VII, Section 5(b)** [9].\n\n### 2. Summer Contracts & Roster Charge Net Impact\nUnder **Article VII, Section 4(i)**, a Summer Contract cannot provide Compensation protection prior to the Regular Season [10]. Because this contract includes protection at signing, it cannot bypass cap space requirements [9, 10]. \nUnder **Article VII, Section 4(f)**, signing a player replaces at most one incomplete-roster cap hold (\\$898,310) [11]. Thus, the conservative pre-signing positive cap gap lower test is **\\$12.9m - \\$898,310 = \\$12.001690m** [11]. The \\$100k trade acquisition tolerance under **Art. VII §6(j)(2)** cannot be applied to direct signings [12].\n\n### 3. Unlikely Bonuses & Exception Extinguishment\nUnder **Article VII, Section 5(d)(2)**, a \\$1m Unlikely Bonus is excluded from Team Salary, but Room is deemed reduced by all Unlikely Bonuses signed in that Salary Cap Year [13]. \nUnder **Article VII, Section 6(m)(1)-(2)**, using cap space to sign a free agent extinguishes pre-existing unused exceptions (MLE, BAE, pre-existing TPEs) [14, 15]. Removing a later TPE alternative requires a complete witness confirming no intervening transaction generated a new TPE [1, 15].\n\n### 4. Premises & Counterexample\n* **Minimum Evidence Premises**: Execution timestamp, Prior Team status, protection at signing, and transaction logs.\n* **Counterexample**: Assuming cap room usage permanently blocks acquiring subsequent TPEs via separate concurrent or future trades overbroadly interprets **Art. VII §6(m)** [1, 15].\n\n*(Note: This proof does not certify historical contract executions, 2020 amendments, or future balances.)*",
+      "question": "Use ONLY supplied 2017 CBA source. Test a CONDITIONAL proof: a veteran from a different Prior Team legally signs a NEW direct Standard FA contract, not acquired by assignment, with Chicago in July2019. Stated first-year applicable Salary lower bound $12.9m, 2019 non-tax MLE $9.258m (external test inputs, don't certify), three seasons and some Compensation protection at signing. Could TPE, Bird/NonBird/EarlyBird, DPE, MLE, BAE, RoomMLE, Minimum, Rookie, ExistingContract or Reinstatement rules fund this instead of actual cap gap? Account for Summer Contract under VII4i and TW; Summer has no protection and salary deferred to opening, so do not silently exclude it merely due to three-year term. Under VII4f, signing may replace at most one incomplete-roster charge, tested as $898310. Is $12.9m-$898310=$12.001690m the conservative pre-signing positive capgap lower test (before separate unlikely bonus restrictions); do not borrow j2 $100k acquisition tolerance for a direct signing. Under VII5d2 assess a separately stated $1m Unlikely Bonus without adding it automatically to TeamSalary's cap hit. Does a legally evidenced positive capgap end prior eligible unused 6m balances and pre-existing TPE entitlement? Only if a complete no-new-outgoing-contract/TPE-origin witness between this instant and a later Satoransky acquisition closes, may that later OLD-TPE alternative be removed? State minimum evidence premises and a counterexample to overbroad conclusions. Do not certify historical contracts, alternative-world execution, total R, 2020 amendments or future balances. Under350 words with exact sections.",
+      "conversation_id": "22690b03-53d5-4ddb-ab08-15307c12ba16",
+      "sources_used": [
+        "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6"
+      ],
+      "citations": {
+        "1": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "2": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "3": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "4": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "5": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "6": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "7": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "8": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "9": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "10": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "11": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "12": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "13": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "14": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+        "15": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6"
+      },
+      "references": [
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 1,
+          "cited_text_sha256": "5d35aaa52c932cc741a50da6956e03cc92aeb12f647060a77f6458dd7c03a6ee",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 2,
+          "cited_text_sha256": "174a86d96ac8b3983188ff9b653fd7e560ed2a3a6b9bb0b0c649c4061176908f",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 3,
+          "cited_text_sha256": "7b44c5deb6f8f1f64a7b32ec4e81f51d100cba6942652c870e193669403dbc5b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 4,
+          "cited_text_sha256": "653dd7ea559f313636421c3eebe8355026948c4b92d5e979b21461d9f6dd04c9",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 5,
+          "cited_text_sha256": "81b6084f574a05ae0b2724133c3f6335302ff7c7a1888b4b3774ad1cb4cf00d5",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 6,
+          "cited_text_sha256": "08f157536293e808fc56904297114ecc17622827548c20e7a07961bd114e00ff",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 7,
+          "cited_text_sha256": "2fbb361b74973df7317626f483f4393f35d4771954c4256d194b93d87eafc532",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 8,
+          "cited_text_sha256": "7d55192ae287a77b40e25c24ba3d9ac7e2eb72000b151856007317f6e7440857",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 9,
+          "cited_text_sha256": "8da5fe438a97383471a43ae850447dd39ef704aa8701dce2607271a9efc76d77",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 10,
+          "cited_text_sha256": "b933d6de7737dfdb4155a4b7c857dd31d8c91be7b7ae5c924eb71c191936c5aa",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 11,
+          "cited_text_sha256": "876bc2a7b59d7b027f3e15b23ad030fa827405fe6e5c860e7726362158dd5bee",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 12,
+          "cited_text_sha256": "546c6b19d9a4343b085640e504277100602152c93255cf41deb55ef88ff15427",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 13,
+          "cited_text_sha256": "6c011f07f7c0c5d03f5c555bd96f27e3249a37933ae6cfc7bacaea4659e66b5a",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 14,
+          "cited_text_sha256": "e8fbcc2379a5854369acc72a63b088a4c8d56cda031f77c5b56d606aec3aa588",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+          "citation_number": 15,
+          "cited_text_sha256": "b73baa777ceda3e296feb790d9bdd0973d3a102d3c46681e1f40a14ed9ef95f2",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
