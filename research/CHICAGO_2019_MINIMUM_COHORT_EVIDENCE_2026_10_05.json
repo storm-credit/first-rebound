@@ -1,0 +1,141 @@
+{
+  "schema": "CHICAGO_MINIMUM_COHORT_AND_REPORTED_TRIGGER_V1",
+  "baseline_main": "cf50c92c58d997d67e74b5684337edf9aa5fac2c",
+  "observed_local_date": "2026-10-05",
+  "sources": [
+    {
+      "id": "harrison",
+      "url": "https://x.com/malika_andrews/status/1054469748950470659",
+      "author": "Malika Andrews",
+      "publication_date": "2018-10-22",
+      "raw_sha256": "cddcd2f11026f9748d874c181874d6d47a5162b3dda323a6694bfe3d9fc31c75",
+      "bytes": 875,
+      "access": "PUBLIC_X_OEMBED_BODY_READ_DIRECT_X_PAGE_UNAVAILABLE",
+      "tier": "ORIGINAL_REPORTER_LEAGUE_SOURCE_REPORT_NOT_REGISTERED_CONTRACT"
+    },
+    {
+      "id": "lemon",
+      "url": "https://x.com/ShamsCharania/status/1111308797782491137",
+      "author": "Shams Charania",
+      "publication_date": "2019-03-28",
+      "raw_sha256": "5543fed992a62a82bdf77ca18eb53ed42c8bfe169316968529e8507470a86007",
+      "bytes": 943,
+      "access": "PUBLIC_X_OEMBED_BODY_READ_DIRECT_X_PAGE_UNAVAILABLE",
+      "tier": "ORIGINAL_REPORTER_LEAGUE_SOURCE_REPORT_NOT_REGISTERED_CONTRACT"
+    },
+    {
+      "id": "asik_application",
+      "url": "https://x.com/ShamsCharania/status/1121524384953511936",
+      "author": "Shams Charania",
+      "publication_date": "2019-04-25",
+      "raw_sha256": "eebb685eaa558a67419fc14e073c436b9456e7618009d359e113449ca740dc87",
+      "bytes": 1024,
+      "access": "PUBLIC_X_OEMBED_BODY_READ_DIRECT_X_PAGE_UNAVAILABLE",
+      "tier": "ORIGINAL_REPORTER_LEAGUE_SOURCE_REPORT_NOT_REGISTERED_CONTRACT"
+    },
+    {
+      "id": "asik_grant_report",
+      "url": "https://x.com/ShamsCharania/status/1143922858416050176",
+      "author": "Shams Charania",
+      "publication_date": "2019-06-26",
+      "raw_sha256": "36267408204b70258b5c6f4e0d9af86d8441c96301a01e69aa0a85bf727d0880",
+      "bytes": 1023,
+      "access": "PUBLIC_X_OEMBED_BODY_READ_DIRECT_X_PAGE_UNAVAILABLE",
+      "tier": "ORIGINAL_REPORTER_LEAGUE_SOURCE_REPORT_NOT_REGISTERED_CONTRACT"
+    },
+    {
+      "id": "cba2017",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "bytes": 2176412,
+      "pdf_pages": [
+        36,
+        55,
+        56
+      ],
+      "text_sha256": {
+        "36": "244e483d771ac95d2d374b516df666b1240f5247c19626078a286e9eea94e72f",
+        "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+        "56": "f25d2afa78d77cf1b6141a08c5afe08318c20e33c00bd3005544e89cff7b6b44"
+      },
+      "access": "DIRECT_LOCAL_PDF_TEXT_READ",
+      "table_visual_checked": false,
+      "official_host": true,
+      "official_mirror_byte_equivalence_verified": null
+    },
+    {
+      "id": "scale2018",
+      "url": "https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf",
+      "raw_sha256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "bytes": 501528,
+      "pdf_pages": [
+        30
+      ],
+      "text_sha256": {
+        "30": "52927cac77e2d529b4b6d9c1bc31b5f9bad4284763eccd07ab11f3b081e32be9"
+      },
+      "access": "DIRECT_LOCAL_PDF_TEXT_READ",
+      "table_visual_checked": true,
+      "official_host": true,
+      "official_mirror_byte_equivalence_verified": null
+    },
+    {
+      "id": "harrison_history",
+      "url": "https://archive.org/download/chicago-bulls-2019-2020-media-guide/Chicago%20Bulls%202019-2020%20Media%20Guide.pdf",
+      "raw_sha256": "c89c69ea29d8a68395267133fa4edff9280c36c6335a4a274f649da75168e82e",
+      "bytes": 17978521,
+      "pdf_pages": [
+        52
+      ],
+      "text_sha256": {
+        "52": "88e16b4a94756f185219df9381ae97fae3e2315f73a9d1b662659c7984976e0a"
+      },
+      "access": "DIRECT_LOCAL_PDF_TEXT_READ",
+      "table_visual_checked": false,
+      "official_host": false,
+      "official_mirror_byte_equivalence_verified": false
+    }
+  ],
+  "official_waiver_evidence": {
+    "path": "research/CHICAGO_2019_DATED_SOURCE_RECOVERY_2026_10_04.json",
+    "sha256": "a645e14cb292c0679d3cf6e4b1b6715911be0d0710bf0ec87cc7d0ce314ccbd5"
+  },
+  "harrison": {
+    "status": "SOURCE_BACKED_CONDITIONAL_BASE_AND_REPORT_TIMING",
+    "first_contract_season": "2018-19",
+    "upcoming_season": "2019-20",
+    "credited_YOS": 2,
+    "contract_year": 2,
+    "applicable_scale": "2018-19",
+    "ordinary_annual_base_if_reported_contract_unchanged_usd": 1588231,
+    "rejected_new_2019_scale_year1_substitution_usd": 1620564,
+    "substitution_difference_usd": 32333,
+    "rejected_2018_scale_1YOS_year2_usd": 1416852,
+    "reported_future_protection_usd": 175000,
+    "reported_trigger_date": "2019-08-15",
+    "official_waiver_date": "2019-07-06",
+    "reported_trigger_satisfied_if_unchanged": false,
+    "prior_season_250000_guarantee_carried_to_2019": false,
+    "actual_full_post_waiver_residual_usd": null
+  },
+  "lemon": {
+    "original_report_covers": "REMAINDER_OF_2018_19_SEASON",
+    "future_2019_20_salary_or_protection_disclosed": false,
+    "future_contract_absence_proved": false
+  },
+  "asik": {
+    "application_report_date": "2019-04-25",
+    "exclusion_grant_report_date": "2019-06-26",
+    "rounded_reported_relief_usd": 3000000,
+    "grant_report_is_not_exact_3000001_charge_certificate": true,
+    "additional_deduction_to_existing_anchor_usd": 0,
+    "alternative_world_medical_decision_certified": false
+  },
+  "boundaries": {
+    "full_R_upper_usd": null,
+    "amended_terms_or_injury_claims_zero": false,
+    "historical_reporting_is_alternative_author_lock": false,
+    "legal_proofs_promoted": 0,
+    "manuscript_allowed": false
+  }
+}

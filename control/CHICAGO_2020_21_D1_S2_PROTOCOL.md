@@ -1,5 +1,9 @@
 # D1 S2 — 법적 구간 검증과 대체세계 사건 판정
 
+2026-10-05 [공개 사건 범위 종료](../research/ORLANDO_PUBLIC_EVENT_COVERAGE_2026_10_05.md): Orlando53일의 공식 feed18그룹과 구단 가이드21사건을 전수 대조했다. 정의한 공개 목록의 미대조0이며 미공표 모든 계약의 절대 부재를 별도 증명 조건으로 요구하지 않는다. 대체 계약 유형·차지·법적 실행 순서는 별도로 검문한다. 공개 목록 통과는 ORL 등록/급여의 전체 PASS가 아니다.
+
+2026-10-05 검사기 종료 API: 초기 상태의 `K_closed=0/season_selected=false`를 영구 강제하지 않는다. 선택적 `closing_witness`의 `schema_version:1`은 `model_execution` A1~A3, `k_bundles` K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS, `season_execution` season2020-21을 각각 정확히 한 번 요구한다. A·시즌은 `authority_evidence`와 `execution_evidence`, K는 `evidence`에 존재하는 저장소 근거를 연결한다. 동일 패킷에 두 역할의 서로 다른 절을 담을 수 있다. PASS에는 `complete_domain/source_verified:true` 검수 인증이 필요하다. 모든 F법적 통과→A최종 실행→K→시즌 순서로 계산하고 원장의 `k_closed/season_selected`와 대조한다. 증인 없이 플래그만 올리면 거부한다. 이 검사기는 출처 진실·범위의 검수자를 대신하지 않는다. `--initial-snapshot`만 초기 미닫힘 상태도 추가 검사하며 원고 false는 모든 상태에서 유지한다. S2 표준 선택 때의 `season_selected:false`는 당시 이력이다.
+
 2026-10-02 [Orlando 35일 보조 증인](../research/D1_ORLANDO_DAILY_REGISTRATION_WITNESS_2026_10_02.md): 경기19+비경기16일의 조건부 자리 수와 구단 공표15행을 대조했다. 전체 법적 등록/비용 proof가 아니며 ORL_DATED_REGISTRATION complete_domain/source_verified=false, F0/5·A0/3·K0/4를 유지한다.
 
 - 권위: [작가 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json). 2026-09-30 S2를 선택했다. S0/S1은 비선택 비교 이력이다.

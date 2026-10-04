@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-05 [S2 종료 경로 수리](reviews/S2_FINITE_SCOPE_CLOSEOUT_REVIEW_2026_10_05.md): Orlando53일의공개21사건/18feed그룹 전수대조를 종료하고 무제한미공표부재요구를 제거했다. 검사기의초기K0/seasonfalse영구강제를closing_witness검문으로분리; 증인없는완료는거부. 독립검토가찾은두파일강제도수리. 해제일3표현정정/기존명단·비용보존. Harrison기존2018계약2YOS·Year2 $1,588,231/8월보장발동과7월방출을분리, Asik중복차감0·Lemon미래조건HOLD. AG32.869초빈응답·NLM37.944초분석/절대부재설명기각. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0. 다음은계약유형·전체법적범위·같은날실행순서증인이며 공개목록 재수집은종료조건아님.
+
 2026-10-04 [당시 구단 발표 대조](research/ORLANDO_ORIGINAL_RELEASE_CROSSCHECK_2026_10_04.md): 해제3건과 Hall5/9 잔여시즌·원역사 hardship을 실제 기사본문4개로 확인했다. feed의 기존11/1/3과 승인세계명단/계약은 보존. [Chicago 당시 자료](research/CHICAGO_2019_DATED_SOURCE_RECOVERY_2026_10_04.md)의 공식발표2·2019가이드 미러·7/10 원기자 보도를 회수하고 Arc7/11/측정7/7을 구분했다. 국소독립검문·NLM30.679초분석(작가권위혼동기각), AG29.932초빈응답/원문검증0. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [NBA 공식 거래 원자료 구간 대조](research/NBA_MOVEMENT_WINDOW_EVIDENCE_2026_10_04.md): 전체 feed 9,927행을 회수해 Chicago 7/6~7/7 Trade61행/18그룹과 상대팀을 검문했다. Young/Harrison/Lemon/Sato·대가5행, player-linked 송출후보0(법적TPE수 null). Orlando53일28행/18그룹↔기존가이드 후반15행은 일치11·guide-only해제3·Hall계약문구충돌1. 해제/기존Hall생략 보존. 5위험검사·국소독립Codex검문, AG87.223초UNVERIFIED/원문증거0·NLM27.872초분석회수. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
