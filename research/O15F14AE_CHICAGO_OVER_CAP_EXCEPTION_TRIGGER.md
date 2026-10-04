@@ -38,3 +38,5 @@
 - **다음 회수:** NBA–NBPA 2020–21 일정 변경 원문에서 cap-year 첫날과 §6(d)(4)·§6(e)(4)·§6(m)(2) 변경 여부, Chicago 최초 cap sheet·DPE/다른 예외의 실제 사용, 미서명 1R/FA·방출액. 이 확인 후에만 MLE/BAE 소항목을 0으로 닫는다.
 
 이 증인은 공개 CBA 원문과 급여 2차 장부를 Codex가 대조한 **자체 검토**다. Anti-Gravity·NotebookLM·Claude·source-blind 독립 검수는 이번 증인에서 `NOT_RUN`; 독립 통과로 세지 않는다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`, `manuscript_allowed=false` 유지.
+
+2026-10-04 [존속기간·QO 경계 검수](../reviews/CHI_EXCEPTION_LIFETIME_REVIEW_2026_10_04.md)는 기존 하한을 보존하고 신규 산입 차단과 초기·이월 산입 잔액 부재를 구분했다. Valentine QO 서명일은 구단 원문에서 11/21로 대조했지만 그 계약 급여를 서명 전으로 소급하지 않는다. 4순위 권리를 넣은 위 기존 하한은 유지하며, 같은 계산을 새 증인으로 세지 않는다. 후속의 AG 기사 대조/NLM 2017조항 분석·국소 Codex 검수는 당시 NOT_RUN 기록을 소급 교체하거나 2020 수정·전체 법적 PASS를 인증하지 않는다.

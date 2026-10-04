@@ -13,7 +13,7 @@
 | 399 / 2020 전체 | `Traded`/선수 `Acquired` 거래 행 **0건**. 등록·G League 배정·계약·방출 행은 별개 |
 | 400 / 2021~3/25 직전 | 1/27 Dotson G League 배정, 3/1 복귀 뒤 **3/25가 첫 선수 거래 행**. 같은 날 Porter/Carter 및 Hutchison/Gafford/Kornet 송출 |
 
-[2017 NBA–NBPA CBA](https://official.nba.com/2017-nba-collective-bargaining-agreement/) Article VII §6(j)(1), 인쇄 211쪽은 다른 구단에 **선수 계약을 거래한 날부터 1년**의 TPE 대체 취득 기간을 둔다. 두 2R만 보낸 2019-07-07 Satoransky 수취는 Chicago가 선수 계약을 송출한 거래가 아니다. 2019-02-06 Porter 거래에서 Chicago 쪽에 어떤 분할 TPE가 있었다고 최대한 가정해도, 기본 1년 종료는 **2020-02-06**이다. [당시 2차 일정 보도](https://www.hoopsrumors.com/2020/11/latest-on-nbas-updated-dates-deadlines-details.html)의 2020년 여름 예정 만료 TPE 연장일 **11월 23·24일조차 2021-03-25보다 앞**이다. 코로나 수정 조항 원문은 없으므로 이 연장이 Chicago의 2월 만료분에 소급 적용됐는지 **판정하지 않는다**. 2020년~2021-03-24에 새 Chicago 선수 송출 거래가 없다는 구단 장부를 승인된 대체 경로에도 유지하면, **선택 거래 직전 사용 가능한 기존 Chicago TPE는 0**이다.
+[2017 NBA–NBPA CBA](https://official.nba.com/2017-nba-collective-bargaining-agreement/) Article VII §6(j)(1), 인쇄 211쪽은 다른 구단에 **선수 계약을 거래한 날부터 1년**의 TPE 대체 취득 기간을 둔다. 두 2R만 보낸 2019-07-07 Satoransky 수취는 Chicago가 선수 계약을 송출한 거래가 아니다. 2019-02-06 Porter 거래에서 Chicago 쪽에 어떤 분할 TPE가 있었다고 최대한 가정해도, 기본 1년 종료는 **2020-02-06**이다. [당시 2차 일정 보도](https://www.hoopsrumors.com/2020/11/latest-on-nbas-updated-dates-deadlines-details.html)의 2020년 여름 예정 만료 TPE 연장일 **11월 23·24일조차 2021-03-25보다 앞**이다. 코로나 수정 조항 원문은 없으므로 이 연장이 Chicago의 2월 만료분에 소급 적용됐는지 **판정하지 않는다**. 따라서 거래 연혁 유지만으로 기존 TPE를 0으로 인증할 수 없다. 전체 발생·사용 목록의 완전성과 해당 Chicago 예외의 만료·연장 적용을 닫고, 선택 세계에 다른 선수 송출 거래가 없음을 확인했을 때만 **거래 직전 기존 TPE 0 후보**를 검문한다. 현재는 `CANDIDATE_ZERO / EXPIRATION_AND_ORIGIN_DOMAIN_HOLD`다.
 
 ## DPE와 Team Salary 산입은 별도 질문
 
@@ -25,9 +25,9 @@
 
 | 항목 | 현재 판정 | 남은 증거 |
 |---|---|---|
-| 3/25 거래 **직전 기존 Chicago TPE** | 2019–21 위 거래 연혁을 대체 경로에서도 유지하면 `0` | 대체세계의 다른 선수 송출 거래가 없는지 정본·시뮬레이션 전수 대조 |
+| 3/25 거래 **직전 기존 Chicago TPE** | `CANDIDATE_ZERO / HOLD`. 거래 연혁만으로 0 인증 불가 | 전체 발생·사용 목록/소유 경계, 2020 만료·연장 적용, 대체세계의 다른 선수 송출 거래 부재 대조 |
 | 2020–21 DPE의 허가·사용 | `UNKNOWN` | 구단/리그 원장, 대체 선수 건강·신청·리그 판단 |
-| §6(m)(2) 미사용 예외의 Team Salary 산입 | AE 하한·수정 규칙 유지 시 **조건부 `0`** | 코로나 수정 합의 원문, Chicago 1차 cap sheet와 거래 직전 시점 |
+| §6(m)(2) 미사용 예외의 Team Salary 산입 | AE 하한·수정 규칙 유지 시 **신규 산입 차단 후보**. 이전 산입 잔액까지 0 인증은 아님 | 적용 수정 규칙, 존속기간 전체 급여 하한 또는 동등 증인, 초기·이월 산입과 실제 사용·소멸·포기 처리 |
 | `EXCEPTION_HISTORY` 전체와 F1 잔여액 `R` | `null / HOLD` | 위 전제와 방출액·다른 FA/1R 권리·기타 조정의 전체 목록/상한 |
 
 3월 25일 **선택 거래에서 새로 생길 수 있는** TPE는 거래 이전 보유분으로 소급하지 않는다. 다른 당사자의 TPE 또는 거래 직후 예외, Chicago 수취·송출 charge도 이 증인으로 계산하지 않는다. 2019–20의 동반 거래 동기·픽 소유를 무검증 정본화하지 않는다. 작가확정 0건, F1~F5 전체 `0/5`, A1~A3 `0/3`, K `0/4`; `PROJECT_FREEZE v0.30 PARTIAL`, 설계·원고 `CLOSED`.
@@ -37,3 +37,5 @@ Codex가 구단 연혁·NBA 발표·CBA를 직접 대조한 자체 증인이다.
 ### 후속 출처 완전성 정정 — AH
 
 [AH의 대조](O15F14AH_CHICAGO_UNSIGNED_FIRST_RIGHTS_SOURCE_SCOPE.md)는 가이드의 2019-01-22 거래 행에 Chicago가 받은 **Jon Diebler 2라운드 권리**가 빠졌음을 당시 [Chicago 공식 공지](https://www.nba.com/bulls/news/bulls-complete-trade-rockets-0)와 확인했다. 이는 위 가이드의 2020 `Traded` 0건을 **가이드에서 찾은 범위**로 읽어야 한다는 반례다. Diebler 권리 누락은 선수 계약 송출이나 1라운드 hold의 누락 증거가 아니므로 기존 조건부 TPE 0 판정을 바로 뒤집지는 않는다. 다만 거래 부재의 완전한 증명은 아니며 NBA 시즌 거래 추적·오프시즌 이동표와 선택 세계 선행 사건 전수 대조를 추가해야 한다. F1·R은 계속 HOLD다.
+
+2026-10-04 [존속기간·이월 산입 검수](../reviews/CHI_EXCEPTION_LIFETIME_REVIEW_2026_10_04.md)는 위 표의 0 후보 조건에서 빠진 만료/연장·발생목록과 초기/이월 산입을 복구했다. 원장12행의 상태를 바꾸거나 새 종료 기준을 추가한 것이 아니다. 기존 AE 하한을 새 계산 완료로 중복 계수하지 않는다.

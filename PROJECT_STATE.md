@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-04 [Chicago 예외 존속기간 검수](reviews/CHI_EXCEPTION_LIFETIME_REVIEW_2026_10_04.md): AF의TPE0조건에서누락된만료/연장·발생목록을복구하고 신규산입차단과초기/이월잔액부재를분리했다. NBA2017본문·BullsQO서명11/21의PDF401텍스트/렌더·기존AE하한중복계수0·14막193입력지문/13링크·독립Codex실제결함반영. AG신규기사43.974초/NLM2017시간연결58.56초회수, Claude한도후미실행·전체sourceblind미실행. 2020규칙/전체잔액 미인증·법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [A01 학교·체험 경계 검수](reviews/A01_SCHOOL_TRIAL_REVIEW_2026_10_04.md): 2015학교체육 공식원문4/FACT9·원문지문4/PDF12쪽 대조. CF02계획수락→CF03실제체험을 분리하고 G13기능↔G14Pack 순환조건을 수리했다. 전체14막193입력지문·독립Codex국소검문, A01국소Blueprint1/전체82인과+대학대표3 보존. AG93.139초응답회수·개정시행원문대조/NLM원본등록18.827초성공·분석55.972초timeout·Claude한도후미실행. 학교개별허가/성적/등록HOLD·NBA12법적HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [A01 첫 진입 Blueprint 검수](reviews/A01_OPENING_BLUEPRINT_REVIEW_2026_10_04.md): 잠긴 등교·관중석회피·공반응·조건부체험제안 4Beat/5주장과8원본지문을 대조했다. 국소1개 ACTUAL_VERIFIED는 현행정본·핵심상태 일치만이며 개별씬POV/전체회차배치/최종G13/실제Pack 권위는 미인증이다. 제안에서종료해 수락·출석·첫훈련 선지급0. NLM53.496초응답/범위밖결함·물리존재오독기각, 제한Codex대조회수·Claude한도후재시도0·이번AG수집NOT_RUN. Boston픽 공식가이드2권의미확인조건 새완전근거0/12법적HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
