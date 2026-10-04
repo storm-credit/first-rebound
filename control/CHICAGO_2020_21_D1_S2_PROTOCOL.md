@@ -1,5 +1,7 @@
 # D1 S2 — 법적 구간 검증과 대체세계 사건 판정
 
+2026-10-05 [Orlando 등록 법적 범위 종료](../research/ORLANDO_REGISTRATION_LEGAL_DOMAIN_2026_10_05.md): 53일·21공개사건을 근거 ID/승인 변환으로 직접 재실행했다. 정원15를 유지하는 무근거 교체 falsePASS를 독립 반증으로 찾아 수리, 음성4종과 재검수 통과. 유효 첫#24 rookie-scale T1 양도 전 범위는 일반1자리이며 정확120% 재선택 불필요. ORL_DATED_REGISTRATION만 LEGAL_BOUND_PASS: 법적1완료/11HOLD·F0/5 A0/3 K0/4. 전체 비용·건강·실제 접수/T5·시즌은 미완료. 최종회차0·실제Pack0·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래12HOLD는 해당 시점의 이력이다.
+
 2026-10-05 [공개 사건 범위 종료](../research/ORLANDO_PUBLIC_EVENT_COVERAGE_2026_10_05.md): Orlando53일의 공식 feed18그룹과 구단 가이드21사건을 전수 대조했다. 정의한 공개 목록의 미대조0이며 미공표 모든 계약의 절대 부재를 별도 증명 조건으로 요구하지 않는다. 대체 계약 유형·차지·법적 실행 순서는 별도로 검문한다. 공개 목록 통과는 ORL 등록/급여의 전체 PASS가 아니다.
 
 2026-10-05 검사기 종료 API: 초기 상태의 `K_closed=0/season_selected=false`를 영구 강제하지 않는다. 선택적 `closing_witness`의 `schema_version:1`은 `model_execution` A1~A3, `k_bundles` K_HEALTH/K_REGISTRATION/K_TRANSACTIONS/K_METHOD_EVENTS, `season_execution` season2020-21을 각각 정확히 한 번 요구한다. A·시즌은 `authority_evidence`와 `execution_evidence`, K는 `evidence`에 존재하는 저장소 근거를 연결한다. 동일 패킷에 두 역할의 서로 다른 절을 담을 수 있다. PASS에는 `complete_domain/source_verified:true` 검수 인증이 필요하다. 모든 F법적 통과→A최종 실행→K→시즌 순서로 계산하고 원장의 `k_closed/season_selected`와 대조한다. 증인 없이 플래그만 올리면 거부한다. 이 검사기는 출처 진실·범위의 검수자를 대신하지 않는다. `--initial-snapshot`만 초기 미닫힘 상태도 추가 검사하며 원고 false는 모든 상태에서 유지한다. S2 표준 선택 때의 `season_selected:false`는 당시 이력이다.
@@ -33,7 +35,7 @@
 | F1 | Chicago 거래일 R 전체 상한·양측 차지/법규 | 승인된 Theis/Green 방향의 날짜별 실행 |
 | F2 | Boston TPE/픽 분기, Boston·Orlando 개별 전체 비용 | 기존 Fournier 방향의 실행·후속 등록 |
 | F3 | Denver 선행 1R 전달/2R 전환과 후행 보호/종료, 전체 차지 | Gordon A 방향의 실행·후속 역할 |
-| F4 | Orlando 전체 비용·경기일 사이 포함 등록 | Hall 5/9 생략 뒤 분·가용성 달력 |
+| F4 | Orlando 전체 비용; 53일 등록 법적 범위는 2026-10-05 종료 | Hall 5/9 생략 뒤 분·가용성 달력 |
 | F5 | Cleveland·Denver 개별 전체 비용·등록/계약 | C2·McGee 거래 생략 뒤 건강·분과 새 DEN–LAL 대진/시리즈 |
 
 초기 법적 F 종료 **0/5**, A 최종 채택 **0/3**, K 종료 **0/4**다. 옛 `EXACT_PASS 0/5`는 S0 시기의 판정 이력이고 S2 법적 통과와 이름을 섞지 않는다. F 전체 종료는 해당 법적 필드와 연결 사건·재현 검문이 모두 닫힌 뒤 판정한다. 어느 한 필드의 통과가 F 전체 종료는 아니다.

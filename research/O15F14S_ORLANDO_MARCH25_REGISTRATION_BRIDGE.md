@@ -1,5 +1,7 @@
 # O-15F14-S — Orlando 3/24→3/27 Fournier 거래 등록 연결
 
+2026-10-05 현재 등록 판정: [53일 법적 범위 증인](ORLANDO_REGISTRATION_LEGAL_DOMAIN_2026_10_05.md)은 유효한 대체#24 첫 rookie-scale 계약의 적법한 T1 양도 전체 범위에서 Nnaji 일반1자리를 검증했다. 아래120%는 당시 급여 시험값이며 등록 자리의 필수 재선택 조건이 아니다. 미서명 권리/계약 상실 뒤 새 투웨이는 별도 경로로 제외한다. 전체급여·매칭·실제접수·F/K는 여전히 HOLD.
+
 - 기준: `main` `4bcb41f` / PR #274 병합 뒤.
 - 판정: `PUBLIC_REGISTRATION_COUNT_PASS / MARCH25_27_CHARGE_AND_F2_HOLD`.
 - 범위: F2의 **Orlando 일반계약·투웨이 자리 수**. 거래일 Team Salary, 정확 charge, Boston TPE·픽 의무, F1/F3/F4/F5는 별도다.
