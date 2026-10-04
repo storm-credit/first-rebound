@@ -1,0 +1,233 @@
+{
+  "schema": "CHICAGO_2019_YOUNG_SIGNING_BOUNDARY_V1",
+  "baseline_main": "d310ddb5a61f4374c11b8084340dde736e2649eb",
+  "status": "CONDITIONAL_FUNDING_PROOF_WITH_REPORTED_HISTORICAL_METHOD",
+  "historical_method_reporting": "SECONDARY_CAP_ROOM_REPORTED",
+  "alternative_execution_verified": false,
+  "candidate_instant": "2019-07-06 Young signing, before 2019-07-07 Satoransky acquisition",
+  "reported_contract": {
+    "source_url": "https://www.salaryswish.com/players/thaddeus-young",
+    "source_type": "SECONDARY_RETROSPECTIVE_BODY_READ",
+    "team": "CHI",
+    "signing_date": "2019-07-06",
+    "method": "Cap Room",
+    "term_seasons": 3,
+    "first_year_base_usd": 12900000,
+    "first_year_cap_hit_usd": 12900000,
+    "first_year_guaranteed_report_usd": 12900000,
+    "first_year_likely_usd": 0,
+    "first_year_unlikely_usd": 1000000,
+    "first_year_guarantee_change_arrow_present": false,
+    "protection_at_signing_verified": false
+  },
+  "conditional_arithmetic": {
+    "first_year_salary_lower_test_usd": 12900000,
+    "non_tax_mle_first_year_usd": 9258000,
+    "max_replaced_incomplete_roster_charge_usd": 898310,
+    "pre_sign_cap_gap_lower_test_usd": 12001690,
+    "trade_tolerance_applied_usd": 0,
+    "actual_pre_sign_gap_usd": null,
+    "is_execution_certificate": false
+  },
+  "premises": [
+    {
+      "id": "Y1",
+      "claim": "Applicable NEW direct Standard FA contract from different Prior Team, not assignment, rookie or reinstatement",
+      "historical_support": "NBA player movement and Bulls dated guide",
+      "selected_world_status": "HOLD"
+    },
+    {
+      "id": "Y2",
+      "claim": "Applicable first-year Salary lower bound exceeds the largest available MLE; 12.9m is the reported test input",
+      "historical_support": "SalarySwish 2019 CHI row plus NBA official 2019 MLE announcement",
+      "selected_world_status": "HOLD"
+    },
+    {
+      "id": "Y3",
+      "claim": "At this instant the contract is not a salary-deferred Summer Contract; positive protection or equivalent ordinary-signing classification witness",
+      "historical_support": "Cap Room method is reported; present-day guarantee is not original-time proof",
+      "selected_world_status": "HOLD"
+    },
+    {
+      "id": "Y4",
+      "claim": "Legally executable complete same-instant Team Salary / exception-ending witness, including rookie, FA, waiver and roster charges",
+      "selected_world_status": "HOLD"
+    },
+    {
+      "id": "Y5",
+      "claim": "Complete no-new-TPE-origin witness between this signing and Satoransky receipt; separate later exception changes retained",
+      "selected_world_status": "HOLD"
+    }
+  ],
+  "conditional_conclusion": "Y1-Y4 imply actual cap-gap funding and zero eligible prior unused exception amounts currently included under VII6m2 at that instant. Only with Y5 may the old-TPE alternative at the later Satoransky acquisition be excluded. Total R, later balances and 2020 rule changes remain unverified.",
+  "exception_exclusion": [
+    {
+      "route": "VII6j TPE",
+      "reason": "assignment only, not direct FA signing"
+    },
+    {
+      "route": "VII6b Bird/EarlyBird/NonBird",
+      "reason": "Prior Team or Expansion Team required; Chicago is neither in this premise"
+    },
+    {
+      "route": "VII6a Existing Contract",
+      "reason": "does not fund a NEW contract"
+    },
+    {
+      "route": "VII6k Reinstatement",
+      "reason": "last playing Team required; not Chicago in this premise"
+    },
+    {
+      "route": "VII6e/f MLE",
+      "reason": "first-year Salary plus Unlikely cannot exceed 9.258m / 5.718m limits"
+    },
+    {
+      "route": "VII6c DPE",
+      "reason": "one-season signing incompatible with three-season term"
+    },
+    {
+      "route": "VII6d/g BAE/RoomMLE",
+      "reason": "at most two-season contract"
+    },
+    {
+      "route": "VII6h Rookie",
+      "reason": "veteran not rookie-scale contract"
+    },
+    {
+      "route": "VII6i Minimum",
+      "reason": "at most two seasons, minimum only, no bonus"
+    },
+    {
+      "route": "II11d Two-Way",
+      "reason": "at most two seasons; not the stated Standard contract"
+    },
+    {
+      "route": "VII6l aggregation",
+      "reason": "cannot combine exceptions to sign above a single permitted limit"
+    },
+    {
+      "route": "VII4i Summer",
+      "reason": "NOT excluded by three-year term alone; Y3 is required"
+    }
+  ],
+  "bonus_boundary": {
+    "first_year_unlikely_report_usd": 1000000,
+    "automatic_addition_to_cap_hit": false,
+    "rule": "VII5d2 first-year funding and previously approved same-year Unlikely Bonus availability; separate from ordinary Salary classification",
+    "actual_funding_room_usd": null
+  },
+  "legal_source": {
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "pdf_total_pages": 633,
+    "pdf_pages_1based": [
+      32,
+      74,
+      211,
+      212,
+      216,
+      217,
+      221,
+      222,
+      223,
+      224,
+      225,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      238,
+      239,
+      240
+    ],
+    "page_text_sha256": {
+      "32": "4acec95a4c21f903be8bb00a9de529fdd248808e356226328902d8b8c8bae6e1",
+      "74": "c69d78fdd64deded34b2062e3bf3bcb3b5ffd2a028801bafcdf1d50cf120ad63",
+      "211": "46763c8e87cdec7f91f16a94c91342403a137bdfcf10a6397ea5e3c8dfc61c1e",
+      "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+      "216": "dfbea7597d0b3913e9da06ffcd40ce135e257074cc3223b34230175b8084ade2",
+      "217": "50aa4cd4e10dda0518192e65c5831c6f12ec6e27122bcb158b0a8e709ea09ac1",
+      "221": "95381a108bbe074058aacd9f91595bd3516016356cd0b38d6c8f6bfd34fe80c2",
+      "222": "d25729bf91cc0a46cde01aa9ed484798091eea9fe3a7ceaa061aaa13fde84403",
+      "223": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b",
+      "224": "88bfd31d8dd7393b272a8bdfdc55da36a34f60aa87ae297f4435be53549bbe1c",
+      "225": "090a64c9ad12ed4e698998c7194a0c975f6321e4d0e0add4b9029f14ff15ad97",
+      "227": "1aceebad4fd3a98adadad8826e9af895d99d22705feb712ad9b7c71277640fa2",
+      "228": "29dbab5b2ece11f0ab356048dddec4eb3004cd670669a248b530340a9ecaba96",
+      "229": "9730d33141c80d8cfdc81e91e7bafe26b38f1a403591affd3ccc9c3e1b2dacbe",
+      "230": "f43ba49ebc3081c929d3ec97966a8396074a007943170e9acd6554db05ce5b64",
+      "231": "04cd2a6414e59b50589d2d4cf8a71f5f011d793b6ac7e7c1cfd4328401dcb5b1",
+      "232": "38b400763b01a29678eaecbb413e01a318ca8460bf29ce7d884e6f0f140239b0",
+      "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+      "234": "6c47932b11835e0215ef806fdaf1ef3107d9b8c7dac0a3e208d179f14070f3c5",
+      "238": "92603cc01664d2b6026c8190a8661c6c6b56588f4a74b29d3adebf53bd7bfd89",
+      "239": "8cbbebad974fe1b8e78cca0ec11c99b04d22dc0ef34a7282dac2b81721bc5918",
+      "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+    },
+    "visual_review_this_turn": "NOT_RUN"
+  },
+  "supporting_sources": [
+    {
+      "url": "https://pr.nba.com/nba-salary-cap-for-2019-20-season-set-at-109-140-million/",
+      "type": "NBA_OFFICIAL_BODY_READ",
+      "published": "2019-06-29",
+      "cap_usd": 109140000,
+      "non_tax_mle_usd": 9258000,
+      "tax_mle_usd": 5718000,
+      "room_mle_usd": 4767000
+    },
+    {
+      "url": "https://www.nba.com/2019-eastern-conference-player-movement?experience=app",
+      "type": "NBA_OFFICIAL_BODY_READ",
+      "published_display": "2019-10-22 1:48 PM",
+      "supports": "Indiana departure / Chicago direct FA classification, not guarantee or charge at signing"
+    },
+    {
+      "url": "https://chibullsdigital.com/mediaGuide/2022_ChicagoBulls_MG_NBA_HI.pdf",
+      "type": "TEAM_PRIMARY_CACHED_TEXT_READ",
+      "pdf_page_1based": 400,
+      "supports": "July6 Young / July7 Satoransky date order only",
+      "sha256": "113bf68ccc0d5b891f3bbc942a96f2c32b96caa6d3438299ebe92fc3ffebfe9e",
+      "page_text_sha256": "bd6bf7f87ca5df902503b297f72f196a8f8285e1129f8121e46858807af4a0f9"
+    },
+    {
+      "url": "https://nyc3.digitaloceanspaces.com/sportsarchive-documents/prod/63f2840a2a9ad/2019-20-CBA-101-October-2019.pdf",
+      "type": "NBA_WRITTEN_THIRD_PARTY_MIRROR_TEXT_READ",
+      "pdf_page_1based": 30,
+      "zero_yos_min_usd": 898310,
+      "sha256": "58b6b5b1889cc795c2112ef9a76421ac45977930d045de5b77b1c56b0e403a9c"
+    }
+  ],
+  "input_sha256": {
+    "research/CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY.json": "a131a27400217d3298c18bca8fefb8e9c19bbb4ccb2a84079fb019df2a210633",
+    "control/CHICAGO_2020_21_D1_S2_PROTOCOL.md": "8bb9468fa2d11bf02a5b40e0beaada294c1224097f09b9978c0ab97647c9c8aa",
+    "reviews/CHI_2019_YOUNG_AG_2026_10_04.json": "9057f35003efcb26659fa484603a252dc4049bde9e9cb8fc82678e1c9a2dec6d",
+    "reviews/CHI_2019_YOUNG_NLM_2026_10_04.json": "eea396be42b6255bd958dbdc9b601330e8e4efacff39609c03759f21795555ef"
+  },
+  "tool_status": {
+    "antigravity": "RESPONSE_RECOVERED_SECONDARY_FIELDS_PARENT_BODY_CROSSCHECK",
+    "notebooklm": "RESPONSE_RECOVERED_ONE_CBA_SOURCE_SCOPE_CORRECTED",
+    "claude": "NOT_RUN_PRIOR_SESSION_USAGE_LIMIT",
+    "whole_source_blind": "NOT_RUN",
+    "independent_source_increment_from_model_repetition": 0,
+    "independent_codex": "READ_ONLY_LOCAL_REBUTTAL_NO_DEFECT_FOUND_NOT_WHOLE_GATE_PASS"
+  },
+  "unchanged": {
+    "legal_holds": 12,
+    "F_complete": 0,
+    "A_complete": 0,
+    "K_complete": 0,
+    "final_episode_functions": 0,
+    "actual_context_packs": 0,
+    "unfinished_major_groups": 6,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_gate": "CLOSED",
+    "manuscript_count": 0,
+    "new_author_locks": 0
+  }
+}
