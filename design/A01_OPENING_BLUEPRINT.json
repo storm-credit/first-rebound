@@ -1,0 +1,195 @@
+{
+  "schema": "A01_LOCAL_OPENING_BLUEPRINT_V1",
+  "status": "ACTUAL_VERIFIED",
+  "purpose": "CURRENT_CANON_LOCAL_BLUEPRINT_FOR_INDEPENDENT_AUTHORITY_CHECK_NOT_FINAL_G13",
+  "source_main": "ce772c7",
+  "source_rev_convention": "SHA256_UTF8_NO_BOM_CRLF_AND_CR_TO_LF",
+  "derived_from": [
+    {
+      "path": "canon/STORY_BIBLE.md",
+      "scope": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입",
+      "role": "four event facts and school-role boundary"
+    },
+    {
+      "path": "canon/PROJECT_FREEZE.md",
+      "scope": "v0.7 LOCKED ADDITIONS — v0.6 입문 계기 대체",
+      "role": "active opening sequence and unresolved attendance details"
+    },
+    {
+      "path": "design/CP2_ACT_SUBACT_PACKET.json",
+      "scope": "A01 / A01-S1",
+      "role": "provisional Act and Sub-Act question, not episode allocation"
+    },
+    {
+      "path": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "scope": "S1 delegated style direction only",
+      "role": "global style selection, not individual scene POV approval"
+    },
+    {
+      "path": "design/HOUSE_STYLE_FOUNDATION.md",
+      "scope": "S1 주인공 밀착 3인칭 / 정보 접근",
+      "role": "POV and information limit"
+    },
+    {
+      "path": "context-packs/README.md",
+      "scope": "생성 시점 / 무결성 규칙 / 정보 경계",
+      "role": "no actual Pack under current gate"
+    },
+    {
+      "path": "control/DESIGN_GATE.md",
+      "scope": "CLOSED / G13 / G14",
+      "role": "no manuscript or final gate promotion"
+    },
+    {
+      "path": "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md",
+      "scope": "writing §§13, 21, 22",
+      "role": "Beat before Pack and file-existence versus authority rule"
+    }
+  ],
+  "source_rev_sha256": {
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/PROJECT_FREEZE.md": "2bd6f303402cc72374b8d5698493c836ad379942c81d64b5d3eff51f60198652",
+    "design/CP2_ACT_SUBACT_PACKET.json": "9c3d92f8f98406d081a40e77597ab9c40f4eb88b633c3e917739a1771dc1c587",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "design/HOUSE_STYLE_FOUNDATION.md": "ab3b82c912b9c8c452ae36507adcdfb4991ed9ded4933cdf5d9b63dbd1089234",
+    "context-packs/README.md": "96bb39d546fdfb8fb9dc15fb969deb925f72101ce1d1a3292a08a4cdd4584778",
+    "control/DESIGN_GATE.md": "61405e0229eef4ab67b4397d4e07a1d148cde6151e4b406c229d1a2a95826cec",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "design_unit": "A01 opening within A01-S1",
+  "provisional_opening_position": 1,
+  "final_episode_number": null,
+  "global_episode_assignment_locked": false,
+  "final_episode_functions_added": 0,
+  "actual_context_packs": 0,
+  "manuscript_allowed": false,
+  "author_locked": false,
+  "single_function": "숨는 공간이 조건 있는 농구 체험 기회로 바뀐다",
+  "entry_state": "출석 경고가 남은 채 늦게 등교했고 교실에 들어가기를 피한다",
+  "exit_state": "감독의 방과 후 조건부 체험 제안을 들었다. 수락·수업 출석·보충·시간 준수와 실제 출결 처리는 아직 일어나거나 확인되지 않았다",
+  "direct_present_cost": "관중석에 숨는 동안 교실로 돌아갈 기회를 미루며 기존 출결 문제를 해결하지 못한다",
+  "next_question": "주인공은 체험 조건을 받아들이고 학교가 요구하는 수업·보충·시간을 실제로 지킬 것인가",
+  "partial_order": [
+    "B1 < B2 < B3 < B4"
+  ],
+  "beat_count": 4,
+  "beats": [
+    {
+      "id": "B1",
+      "event": "출석 경고가 이어지는 가운데 늦게 등교한다",
+      "claims": [
+        {
+          "claim": "만성 지각·무단결석에 따른 출석 경고 뒤에도 늦게 등교한다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입 / 첫째 항목",
+          "protagonist_access": "자신의 늦은 등교와 이미 받은 경고를 앎",
+          "other_person_access": "교사·감독이 언제 무엇을 보고받았는지는 미정",
+          "unknown": "정확한 날짜·결석 일수·경고 단계"
+        }
+      ],
+      "relative_time": "B2보다 앞선 같은 등교일"
+    },
+    {
+      "id": "B2",
+      "event": "교실을 피하려고 비어 있는 체육관 관중석에 숨는다",
+      "claims": [
+        {
+          "claim": "교실에 들어가기 싫어 비어 있는 체육관 관중석에 숨는다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입 / 첫째 항목",
+          "protagonist_access": "교실 회피 의도와 자신이 택한 공간을 앎",
+          "other_person_access": "숨은 사실을 감독이나 교사가 이미 안다고 두지 않음",
+          "unknown": "체육관 실명·정확한 동선·시각"
+        }
+      ],
+      "relative_time": "B1 뒤, B3 앞"
+    },
+    {
+      "id": "B3",
+      "event": "우연한 공 반응이 감독의 관찰 범위에 들어온다",
+      "claims": [
+        {
+          "claim": "감독은 우연한 공 반응에서 주인공의 196cm 신체와 운동능력을 발견한다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입 / 둘째 항목",
+          "protagonist_access": "자신의 공 반응은 알 수 있으나 감독의 비공개 평가·속마음은 알 수 없음",
+          "other_person_access": "감독의 외부 관찰 사실만 근거로 두며 내적 판단 문구를 만들지 않음",
+          "unknown": "공의 이동 경로·감독의 정확한 위치·평가 발언"
+        }
+      ],
+      "relative_time": "B2 뒤, B4 앞"
+    },
+    {
+      "id": "B4",
+      "event": "감독이 방과 후 체험 훈련을 조건부로 제안한다",
+      "claims": [
+        {
+          "claim": "감독은 즉시 선수 선발 대신 방과 후 체험 훈련만 제안한다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입 / 둘째 항목",
+          "protagonist_access": "제안이 전달된 범위만 듣고 이해할 수 있음; 수락은 미정",
+          "other_person_access": "감독에게 제안 권한만 있으며 선수 선발·출결 삭제 권한을 부여하지 않음",
+          "unknown": "제안의 정확한 대사·체험 훈련의 승인 절차"
+        },
+        {
+          "claim": "체험 참여 조건은 당일 수업 출석·학업보충·시간 준수이며 출결 처리는 담임·생활지도부의 별도 권한이다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_BOUNDARY",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계: 체육관 진입 / 셋째 항목",
+          "protagonist_access": "실제로 전달된 조건만 알 수 있음; 조건 이행·학교 처리 결과를 미리 알 수 없음",
+          "other_person_access": "감독은 출결 불이익을 삭제하거나 담임·생활지도부의 판단을 대신하지 못함",
+          "unknown": "정확한 출결 처리·담당자 결정·학업보충 일정"
+        }
+      ],
+      "relative_time": "B3 뒤; 이 제안에서 설계 단위를 끝냄"
+    }
+  ],
+  "information_boundary": {
+    "pov_style_direction": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "individual_scene_pov_verified": false,
+    "protagonist_knows": [
+      "자신의 지각·출석 경고",
+      "교실 회피와 관중석에 숨은 행동",
+      "자신의 공 반응",
+      "실제로 전달받은 체험 제안; 세 조건의 전달 시점과 구체 표현은 미정"
+    ],
+    "not_available_to_protagonist_without_new_access": [
+      "감독의 비공개 평가·속마음",
+      "담임·생활지도부의 아직 내려지지 않은 출결 결정",
+      "체험 훈련 합격·선수 선발 결과"
+    ],
+    "exact_date": null,
+    "school_name": null,
+    "school_administrative_disposition": null
+  },
+  "exclusions": [
+    "조건 수락 완료",
+    "첫 훈련 참여",
+    "실제 수업 출석·학업보충 완료",
+    "출결 경고나 불이익의 삭제",
+    "새 학교명·정확 날짜·회차 분량·학사 인증",
+    "감독의 전지적 내면",
+    "A01-CF01 또는 CF02 하나를 최종 한 회차로 자동 등치"
+  ],
+  "verification_scope": {
+    "classification": "CURRENT_CANON_LOCAL_CORE_EVENTS_ONLY",
+    "meaning": "공통 writing §22의 현행 원본·revision·핵심 상태 일치. 4 Beat/5주장/제안 종료 경계만이며 물리 파일 존재나 전체 회차·집필 사용 권위 인증과 다르다.",
+    "verified": [
+      "8 source paths/revisions current",
+      "4 Beats and 5 locked-canon claims matched",
+      "proposal endpoint; no acceptance, attendance execution or training",
+      "no director-private-thought access imported into protagonist"
+    ],
+    "not_verified": [
+      "individual-scene realization of viewpoint and information access",
+      "school administrative processing and trial approval details",
+      "global episode numbering, length or final G13 functions",
+      "actual Context Pack generation or manuscript permission"
+    ],
+    "review_path": "reviews/A01_OPENING_BLUEPRINT_REVIEW_2026_10_04.json"
+  }
+}

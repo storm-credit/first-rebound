@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-04",
+  "baseline_main": "ce772c7bd15173ab4729051e0a6bc32deb9e1549",
+  "verification_scope": "CURRENT_CANON_LOCAL_CORE_EVENTS_ONLY",
+  "blueprint_path": "design/A01_OPENING_BLUEPRINT.json",
+  "blueprint_sha256": "7a4e29bc3ffdcf586965739f6b69e45a6202c8ac7dc546296917e382ce4ee1eb",
+  "checks": {
+    "source_hashes_current": 8,
+    "beats": 4,
+    "claims": 5,
+    "exact_canon_item_mapping": true,
+    "proposal_boundary_preserved": true,
+    "current_cost_without_future_acceptance": true,
+    "individual_scene_pov_verified": false,
+    "global_episode_assignment_locked": false
+  },
+  "independent_codex": {
+    "status": "LIMITED_CURRENT_CANON_REBUTTAL_RETURNED",
+    "agent": "/root/independent_finish_scope",
+    "finding": "No concrete conflict within supplied local opening/canon scope; currentness classification does not certify scene execution or final episodes",
+    "full_G16": false
+  },
+  "notebooklm": {
+    "source_id": "5073841c-fc68-492a-af1f-b354d7e45e16",
+    "import_elapsed_seconds": 7.92,
+    "query_elapsed_seconds": 53.496,
+    "analysis_returned": true,
+    "independent_historical_source_increment": 0,
+    "input_before_status_clarification": true,
+    "adjudication": [
+      {
+        "item": "Hardcoded SHA256 + PHYSICAL_UNVERIFIED inconsistent",
+        "decision": "REJECT",
+        "reason": "Persisted hashes are provenance before an independent audit; they do not self-certify actual currentness."
+      },
+      {
+        "item": "Individual-scene POV false and global episode null are defects",
+        "decision": "REJECT_AS_LOCAL_DEFECT_RETAIN_AS_REAL_UNFINISHED_WORK",
+        "reason": "This local artifact does not claim those authorities."
+      },
+      {
+        "item": "ACTUAL_VERIFIED should mean physical existence only",
+        "decision": "REJECT_AND_CLARIFY",
+        "reason": "Common skill §22 requires present source/revision/core-state correspondence; new verification_scope states exact scope and exclusions."
+      },
+      {
+        "item": "G13/G14 label definitions in response",
+        "decision": "REJECT",
+        "reason": "Repository G13 is whole structure; G14 is Context Pack. Manuscript permission remains separately CLOSED."
+      }
+    ]
+  },
+  "antigravity": {
+    "status": "NOT_RUN_THIS_LOCAL_DESIGN",
+    "reason": "No new historical claim to collect; prior Fournier call was genuinely empty after parser repair."
+  },
+  "claude": {
+    "status": "NOT_RUN_AFTER_ACTUAL_SESSION_USAGE_LIMIT",
+    "last_actual_error_artifact": "reviews/A08_LIVEPASS_CLAUDE_2026_10_04.json",
+    "full_independent_rebuttal_complete": false
+  },
+  "BOS_pick_investigation": {
+    "new_complete_primary_proofs": 0,
+    "guides_checked": [
+      {
+        "url": "https://cdn.nba.com/teams/uploads/sites/1610612753/2022/11/orlando-magic-media-guide-2022-23.pdf",
+        "PDF_pages": 222
+      },
+      {
+        "url": "https://magicweb.blob.core.windows.net/resources/communications/Orlando_Magic_Media_Guide_2023-24.pdf",
+        "PDF_pages": 226,
+        "sha256": "75e2ade9353bcd850ff9af62bfb0bb3ecbfd78f12d02e4b84c7e45e29df19ccd"
+      }
+    ],
+    "missing": "2021 BOS/MEM 2025 ownership priority and 2027 full protection/termination; later 2025 Penda transaction cannot be back-applied",
+    "register_changed": false
+  },
+  "local_current_blueprints": 1,
+  "final_episode_functions": 0,
+  "actual_context_packs": 0,
+  "legal_proofs_HOLD": 12,
+  "F_completed": 0,
+  "A_completed": 0,
+  "K_completed": 0,
+  "unfinished_macro_groups": 6,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false,
+  "mechanical_negative_controls": {
+    "boundary_mutations_rejected": 7,
+    "stale_source_rejected": true,
+    "unreviewed_body_rejected": true,
+    "temporary_positive_copy": true
+  }
+}
