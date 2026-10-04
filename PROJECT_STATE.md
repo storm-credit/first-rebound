@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-04 [Chicago2019 캡 공간 취득 시점](research/CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY.md): 이전 예외 산입을 2020 하한으로 지우지 않고 2019 실제 캡 공간 취득 증인으로 좁히는 조건부 경로를 준비했다. $10m 수취시험→직전캡차액 최소$9.9m·I§1(kkk) Room정의/6j2/6m1–2/6g·S&T/DPE/minimum의CBA11쪽·Bulls1쪽 직접대조·별도Codex 한정논증 수용. 실제취득수단/charge/순서 네조건HOLD·pre-anchor 송출3사건은 불완전목록. AG41.093초응답UNVERIFIED/본문0·NLM45.183초분석회수·Claude한도후미실행·전체blind미실행. 기존AE중복계수0·법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [Chicago 예외 존속기간 검수](reviews/CHI_EXCEPTION_LIFETIME_REVIEW_2026_10_04.md): AF의TPE0조건에서누락된만료/연장·발생목록을복구하고 신규산입차단과초기/이월잔액부재를분리했다. NBA2017본문·BullsQO서명11/21의PDF401텍스트/렌더·기존AE하한중복계수0·14막193입력지문/13링크·독립Codex실제결함반영. AG신규기사43.974초/NLM2017시간연결58.56초회수, Claude한도후미실행·전체sourceblind미실행. 2020규칙/전체잔액 미인증·법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [A01 학교·체험 경계 검수](reviews/A01_SCHOOL_TRIAL_REVIEW_2026_10_04.md): 2015학교체육 공식원문4/FACT9·원문지문4/PDF12쪽 대조. CF02계획수락→CF03실제체험을 분리하고 G13기능↔G14Pack 순환조건을 수리했다. 전체14막193입력지문·독립Codex국소검문, A01국소Blueprint1/전체82인과+대학대표3 보존. AG93.139초응답회수·개정시행원문대조/NLM원본등록18.827초성공·분석55.972초timeout·Claude한도후미실행. 학교개별허가/성적/등록HOLD·NBA12법적HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.

@@ -1,0 +1,259 @@
+{
+  "schema": "CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY_V1",
+  "baseline_main": "52f7e431afe7966f39de1ce33cc93a519f5feeae",
+  "status": "CONDITIONAL_PROOF_ROUTE_NOT_EXECUTION_CERTIFICATE",
+  "candidate_instant": "2019-07-07 immediately before the selected Satoransky acquisition",
+  "date_order_and_charge_verified": false,
+  "funding_method_verified": false,
+  "satoransky_assignment_salary_usd": null,
+  "currently_included_nonroom_exception_balance_usd": null,
+  "conditional_arithmetic": {
+    "assignment_salary_test_usd": 10000000,
+    "j2_tolerance_usd": 100000,
+    "cap_gap_min_test_usd": 9900000,
+    "is_actual_charge": false
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "Acquisition legally uses the actual cap gap under VII6j2, not an existing TPE or broad Room exception entitlement",
+      "status": "HOLD"
+    },
+    {
+      "id": "P2",
+      "claim": "The applicable receiving assignment Salary is closed; $10m base reporting alone is insufficient",
+      "status": "HOLD"
+    },
+    {
+      "id": "P3",
+      "claim": "Complete applicable Team Salary and ordering immediately before that acquisition support the same positive cap gap",
+      "status": "HOLD"
+    },
+    {
+      "id": "P4",
+      "claim": "Any prior included non-room unused exception amount has legally ended inclusion through loss of entitlement, use, expiry or renunciation as applicable",
+      "status": "HOLD"
+    }
+  ],
+  "conditional_conclusion": "If P1-P4 close, currently included eligible unused exception balances under VII6m2 at that instant are zero; no inference about later balances or total R",
+  "legal_source": {
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "pdf_pages_1based": [
+      32,
+      234,
+      238,
+      239,
+      240,
+      231,
+      232,
+      225,
+      233,
+      253,
+      254
+    ],
+    "printed_pages": [
+      10,
+      212,
+      216,
+      217,
+      218,
+      209,
+      210,
+      203,
+      211,
+      231,
+      232
+    ],
+    "page_text_sha256": {
+      "32": "4acec95a4c21f903be8bb00a9de529fdd248808e356226328902d8b8c8bae6e1",
+      "234": "6c47932b11835e0215ef806fdaf1ef3107d9b8c7dac0a3e208d179f14070f3c5",
+      "238": "92603cc01664d2b6026c8190a8661c6c6b56588f4a74b29d3adebf53bd7bfd89",
+      "239": "8cbbebad974fe1b8e78cca0ec11c99b04d22dc0ef34a7282dac2b81721bc5918",
+      "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+      "231": "04cd2a6414e59b50589d2d4cf8a71f5f011d793b6ac7e7c1cfd4328401dcb5b1",
+      "232": "38b400763b01a29678eaecbb413e01a318ca8460bf29ce7d884e6f0f140239b0",
+      "225": "090a64c9ad12ed4e698998c7194a0c975f6321e4d0e0add4b9029f14ff15ad97",
+      "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+      "253": "f35be5e4b1e7af94779ab9e72256c06ea86c5cfb17f0076aa159ada72badff9a",
+      "254": "ff59fbc69a921ae3d87511f82fd59541017c8ab589720f530d3f3bcad9e595bb"
+    }
+  },
+  "scope_exclusions": [
+    "Room MLE under VII6g",
+    "used exceptions player salaries",
+    "all historical exception existence",
+    "future entitlements",
+    "later new exceptions and holds",
+    "2020 amended rules",
+    "complete R bound",
+    "whole F1/S2 PASS"
+  ],
+  "source_boundaries": [
+    {
+      "id": "NBA2019PREVIEW",
+      "url": "https://www.nba.com/30teams30days/2019/chi",
+      "access": "BODY_READ",
+      "claim": "Chicago had summer cap space; specific legal funding method not certified",
+      "already_in_repository": true
+    },
+    {
+      "id": "WAS2019SATO",
+      "url": "https://www.nba.com/wizards/wizards-acquire-draft-pick-chicago",
+      "access": "SEARCH_INDEX_ONLY_PARENT_BODY_SHELL_AG_UNVERIFIED",
+      "claim": "Index describes July7 sign-and-trade/draft compensation; no method certification",
+      "already_in_repository": true
+    },
+    {
+      "id": "NBA2018OFFSEASON",
+      "url": "https://cdn-uat.nba.com/news/2018-nba-offseason-trade-tracker",
+      "access": "BODY_READ",
+      "claim": "July7 Grant/Stone exchange is a pre-anchor outgoing-player origin candidate",
+      "complete_inventory": false
+    },
+    {
+      "id": "NBA2018SEASON",
+      "url": "https://www.nba.com/2018-19-trade-tracker",
+      "access": "BODY_READ",
+      "claim": "Holiday and Parker/Portis outgoing; incoming-only rows distinguished",
+      "complete_inventory": false
+    }
+  ],
+  "pre_anchor_origin_screen": [
+    {
+      "event_date": "2018-07-07",
+      "outgoing_contract_names": [
+        "Jerian Grant"
+      ],
+      "source_id": "NBA2018OFFSEASON",
+      "unused_tpe_usd": null,
+      "expiration_at_2019_july7_boundary_verified": false
+    },
+    {
+      "event_date": "2019-01-03",
+      "outgoing_contract_names": [
+        "Justin Holiday"
+      ],
+      "source_id": "NBA2018SEASON",
+      "unused_tpe_usd": null
+    },
+    {
+      "event_date": "2019-02-06",
+      "outgoing_contract_names": [
+        "Jabari Parker",
+        "Bobby Portis"
+      ],
+      "source_id": "NBA2018SEASON",
+      "unused_tpe_usd": null
+    }
+  ],
+  "no_new_tpe_from_incoming_or_waiver_alone": true,
+  "finite_followup": [
+    "Close same-instant legal cap-gap acquisition through source-closed bounded charge/order evidence or complete branch witness; alternative TPE method remains open",
+    "Only after the anchor closes, propagate subsequent creation/use/loss/expiry/renunciation and dated salary conditions; AE later floor cannot fill the 2019-2020 gap",
+    "Keep waived salary, FA/draft rights and other adjustments in their separate residual domains"
+  ],
+  "nlm_assessment": {
+    "record": "reviews/CHI_2019_RESET_NLM_2026_10_04.json",
+    "accepted": "Conditional cap-gap inequality and included-balance incompatibility",
+    "not_adopted": [
+      "Unqualified no counterexample exists beyond the stipulated legal premises",
+      "Permanently destroying or preserving every underlying right",
+      "Room automatically positive simply because exceptional Room exists"
+    ]
+  },
+  "independent_codex": {
+    "reviewer": "/root/independent_finish_scope",
+    "status": "CONDITIONAL_RULE_PROPOSITION_ACCEPTED",
+    "original_pdf_read": true,
+    "scope": "Same-instant rule proposition and four premises; no historical method certification; not full G16"
+  },
+  "other_codex": {
+    "reviewer": "/root/chi_salary_domain",
+    "role": "Find a finite antecedent route; shared repository/source premises, not independent historical certificate"
+  },
+  "tool_status": {
+    "antigravity": "RETURNED_SUCCESS_WITH_UNVERIFIED_BODY_NOT_EVIDENCE_SUCCESS",
+    "notebooklm": "RETURNED_ANALYSIS_SUCCESS_SHARED_2017_SOURCE",
+    "claude": "NOT_RUN_AFTER_KNOWN_SESSION_USAGE_LIMIT_NO_RESET_EVIDENCE",
+    "whole_source_blind": "NOT_RUN"
+  },
+  "gate_effect": {
+    "legal_proofs_closed": 0,
+    "legal_holds": 12,
+    "F": "0/5",
+    "A": "0/3",
+    "K": "0/4",
+    "unfinished_macro_groups": 6,
+    "actual_context_packs": 0,
+    "final_episode_functions_added": 0,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED"
+  },
+  "input_revisions": {
+    "research/CHICAGO_2019_CAP_ROOM_ANCHOR_SCREEN.json": "eff2d5ea4aac241d5358b12f75c772b1a86c7142cfcbe363c15f0df77c683a55",
+    "research/CHICAGO_2019_ARC_CHARGE_DOMAIN.md": "1ce10c7364637afda7c48394b0fd090e84ba6a685680091a41b754bb43b4d146",
+    "research/O15F14AE_CHICAGO_OVER_CAP_EXCEPTION_TRIGGER.md": "16a136a576ca4521de2ec26824ae1be7ff0ab4b60de8a0b7e8c5c54e74aa16be",
+    "research/O15F14AF_CHICAGO_PREDEADLINE_EXCEPTION_ORIGIN.md": "c173226b83feeeb6255ca1bc8fd6b584de34d5539da8d637859ea7a791548a83",
+    "control/CHICAGO_2020_21_D1_S2_REGISTER.json": "ca85a9c0d221b6e5498ef7beb4507d928d0aa49a61df95e063c5e25d840dc3d6"
+  },
+  "bulls_transaction_source": {
+    "url": "https://chibullsdigital.com/mediaGuide/2022_ChicagoBulls_MG_NBA_HI.pdf",
+    "pdf_sha256": "113bf68ccc0d5b891f3bbc942a96f2c32b96caa6d3438299ebe92fc3ffebfe9e",
+    "pdf_page_1based": 400,
+    "printed_page": 398,
+    "text_sha256_pymupdf": "bd6bf7f87ca5df902503b297f72f196a8f8285e1129f8121e46858807af4a0f9",
+    "claim": "2019-07-07 acquisition for draft assets; funding method and sign-and-trade legal certificate not stated"
+  },
+  "conditional_funding_domain": {
+    "sign_and_trade_route_reported_in_nba_analysis": true,
+    "actual_contract_execution_verified": false,
+    "rules": [
+      {
+        "rule": "VII8e1ii",
+        "pdf_pages_1based": [
+          253,
+          254
+        ],
+        "condition": "sign-and-trade contract at least three seasons excluding option years"
+      },
+      {
+        "rule": "VII6c1iii",
+        "pdf_page_1based": 225,
+        "excluded_if_legitimate_sign_and_trade": "DPE acquisition requires only one season remaining"
+      },
+      {
+        "rule": "VII6i",
+        "pdf_pages_1based": [
+          232,
+          233
+        ],
+        "excluded_if_legitimate_sign_and_trade": "Minimum exception acquisition cannot exceed two seasons"
+      },
+      {
+        "rule": "VII8e1vii and I1kkk",
+        "pdf_pages_1based": [
+          254,
+          32
+        ],
+        "warning": "S&T acquiring-team Room language alone does not distinguish cap gap from exception entitlement"
+      }
+    ],
+    "remaining_branches": [
+      "Actual cap-gap route",
+      "Eligible non-simultaneous TPE route or other legal structure still to be excluded"
+    ],
+    "hypothetical_TPE_min_if_incoming_salary_10m_usd": 9900000,
+    "origin_screen_complete": false,
+    "parker_portis_net_salary_shortcut_allowed": false,
+    "warning": "Do not exclude separately generated Parker TPE solely from net Parker+Portis-Porter salaries; potential allocation of Porter to cap gap requires its own complete witness"
+  },
+  "repository_checks": {
+    "input_revisions_current": 5,
+    "local_links_resolved": 5,
+    "conditional_inequality": "PASS_NOT_HISTORICAL_SALARY_CERTIFICATE",
+    "S2_checker": "12_HOLD_F5_HOLD_K0_SEASON_FALSE_MANUSCRIPT_FALSE",
+    "diff_check": "PASS"
+  }
+}
