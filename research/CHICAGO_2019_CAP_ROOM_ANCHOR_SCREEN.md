@@ -1,5 +1,7 @@
 # Chicago 2019 cap-room 앵커의 조건부 수치 검문
 
+2026-10-04 후속 [실제 캡 공간 취득 시점의 예외 산입 경계](CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY.md): Satoransky 취득이 적법한 §6(j)(2) 캡 공간 실행으로 닫히면 직전 산입액을 유한하게 좁히는 조건부 경로다. I§1(kkk)의 일반 Room과 실제 캡 차액을 구분한다. 거래 수단·수취 Salary·전체 당일 상태는 아직 HOLD이며 아래 부분합·R/Δ를 0이나 실제 실행으로 승격하지 않는다.
+
 2026-10-03 기준 main `6aa84ff68910068f10c426e58a9ef7ce34edf1ed`. S2의 CHI_TEAM_SALARY 잔여를 기존 승인된 2019 영입 시점부터 유한하게 추적하는 조사다. **전체 R 상한 인증이 아니며 법적12행 HOLD 유지**. [수치·출처 원장](CHICAGO_2019_CAP_ROOM_ANCHOR_SCREEN.json).
 
 ## 확인한 근거
