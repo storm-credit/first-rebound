@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-05 [Orlando 등록 법적 범위 종료](../reviews/ORL_REGISTRATION_LEGAL_DOMAIN_REVIEW_2026_10_05.md): 53일·21공개사건을 근거 ID/승인 변환으로 직접 재실행했다. 정원15를 유지하는 무근거 교체 falsePASS를 독립 반증으로 찾아 수리, 음성4종과 재검수 통과. 유효 첫#24 rookie-scale T1 양도 전 범위는 일반1자리이며 정확120% 재선택 불필요. ORL_DATED_REGISTRATION만 LEGAL_BOUND_PASS: 법적1완료/11HOLD·F0/5 A0/3 K0/4. 전체 비용·건강·실제 접수/T5·시즌은 미완료. 최종회차0·실제Pack0·미완료 큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래12HOLD는 해당 시점의 이력이다.
+
 2026-10-03 [G11 문체 규격 종료 판정](../reviews/G11_STYLE_SCOPE_CLOSEOUT_2026_10_03.md): SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE_WITH_RESEARCH_DEBT. 위임S1와9차원을 승인된 성격/권한에 대조했고 참고작 수치 목표는 채택하지 않았다. P3/FULL_TEXT_FINAL은 별도 연구 부채이며 문체 규격 종료의 새 필수 조건으로 추가하지 않는다. G14·6번전체HOLD, 실제Pack0·회차기능0·원고0. 아래 G11최종HOLD는 해당 연구 산출물 시점의 이력이다. PARTIAL/CLOSED 유지.
 
 2026-10-02 현재 선택/검증 구분: [S2원장](../control/CHICAGO_2020_21_D1_S2_REGISTER.json)의A3를 RESULT_DESIGN_SELECTED_EXECUTION_HOLD로 동기화했다. 정규시즌·플레이인·추첨원소유순번·플레이오프15결과 설계는 선택 완료이며 재승인/재선택 대상이 아니다. 잔여는 전체픽소유/날짜별건강·등록/전술·법적12행 검증이다. 선택 완료를A3/K/시즌 실행PASS로 계수하지 않는다. F0/5 A0/3 K0/4·미완료6·freezePARTIAL·설계원고CLOSED. 아래 선택대기 문구는 당시이력이다.

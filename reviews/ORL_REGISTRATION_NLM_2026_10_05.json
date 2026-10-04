@@ -1,0 +1,62 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed"
+  ],
+  "question_sha256": "cb589cc47087a59b60695a2247137faa5f9cb51c24f674f1508c95161c204c5e",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 39.702,
+    "process_budget_seconds": 70.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "제시된 출처(\"FR Orlando registration legal domain 2026-10-05\")의 작성 체계와 검증 논리를 분석한 결과, **문서 내부의 구체적 논리적 모순이나 결함은 존재하지 않습니다.**\n\n---\n\n### 1. 1개 항목 PASS 및 11개 필드 HOLD 처리의 논리적 모순 여부\n단 1개 항목(`ORL_DATED_REGISTRATION`)만 `LEGAL_BOUND_PASS`로 종료하고 나머지 11개 법적 필드·F4 전체·건강·실제 접수·시즌 선택을 `HOLD`로 남겨두는 것은 **모순이 아니라 검증 범위의 엄격한 분리**입니다 [1, 2].\n\n* **분리 사유:** 해당 증인은 2021-03-25~05-16 기간의 계약 분류, 기간, 등록 정원, 공개 사건별 적법 실행 순서만을 입증하는 **'날짜별 등록 법적 범위 증인'**에 한정됩니다 [3].\n* **타 필드 독립성:** 전체 급여·보너스·예외 사용·매칭은 별도 필드(`ORL_COMPLETE_COST`)의 영역이며, 53일간의 출전 건강·활동 명단·분 배정 및 T5/F4 작가확정 역시 별개 검증 대상이므로 `HOLD`로 보존하는 것이 정당합니다 [1].\n\n---\n\n### 2. 세 가지 핵심 구분 사항 분석\n\n1. **Nnaji 120% 선택과 등록 정원 (필수 여부):**\n   * **구분:** Nnaji가 일반 계약 한 자리를 차지하는 등록 정원 조건에는 허용 범위(\\\\(0.8 \\times S24 \\le \\text{기본급} \\le 1.2 \\times S24\\\\)) 내의 유효한 신인 계약이면 충분합니다 [3].\n   * **결론:** 따라서 **정확히 120% 금액을 먼저 선택할 필요는 없으며**, 금액 선택과 등록 정원 충족 여부는 서로 분리됩니다 [3].\n\n2. **일반 14명/15명 동시 10일 한도 vs 이 경로의 최댓값:**\n   * **구분:** CBA 법규상 동시 10일 계약 한도는 일반 계약 명단이 14명일 때 최대 2건, 15명일 때 최대 3건까지 허용되는 **제도적 상한**입니다 [3, 4].\n   * **결론:** 반면 **이 특정 실행 경로에서 실제 사용된 최댓값은 2건**이므로, 법규가 허용하는 이론적 한도(2/3건)와 경로상 실제 집행치(2건)를 오인 없이 명확히 구분하고 있습니다 [4].\n\n3. **21개 공개 사건 직접 재실행 vs 정원 15 유지 무근거 교체 음성 대조:**\n   * **21개 공개 사건 직접 재실행:** 명단 차이에서 임의 사건을 섣불리 추론하던 코드를 제거하고, 공표된 21개 사건을 날짜순으로 직접 재실행하여 매일의 최종 이름 집합을 일치시킵니다 [1, 4].\n   * **정원 15 유지 무근거 교체 음성 대조:** 공표된 사건 없이 명단 정원 15명을 유지하기 위해 임의의 선수를 하루 동안 교체(예: Aminu 무근거 하루 교체)하는 **허위 명단 유지 오류를 차단**합니다 [1, 4].\n\n---\n\n### 3. 법적 범위 및 제외 조건 (요약)\n\n* **적용 범위 (`LEGAL_BOUND_PASS`):**\n  * 2021-03-25 ~ 2021-05-16 (연속 53일) 기간의 `ORL_DATED_REGISTRATION` 3개 분기 (`game_days`, `intervening_days`, `all_other_transactions`) [1, 3].\n  * 최소 급여, 서명/양도 자격, 유효 계약 및 서면 해제 통지라는 법적 범주의 기본 전제 충족 [1].\n\n* **제외 및 보존 조건 (`HOLD` / 미주장):**\n  * 가상 세계에서의 실제 서명·리그 접수 시각 및 T5 전체 작가확정 미주장 [3].\n  * 전체 급여/보너스/잔여 보수/예외 사용/매칭 (`ORL_COMPLETE_COST` 등 별도 필드) [1].\n  * 53일 경기 건강·활동 명단·분 배정, T5 실제 실행 및 F4 전체 종료 [1].\n  * 나머지 11개 법적 필드, F0/5, A0/3, K0/4 및 `season_selected=false` 보존 [1].\n\n💡 Orlando 등록 법적 범위 외에, `ORL_COMPLETE_COST`나 다른 비용 검증 필드의 연계 조건도 함께 살펴볼까요?",
+      "question": "역할은 파생 증인의 모순/범위 분석자입니다. 이 출처는 독립 원자료나 작가승인이 아닙니다. 문서의 법적 범위 전제가 명시된 조건에서 등록 한 항목만 LEGAL_BOUND_PASS로 종료하고 다른11개 법적필드/F4전체/건강/실제접수/시즌을 HOLD로 남기는 논리가 모순되는지 분석하세요. Nnaji 정확120% 선택은 등록 정원에 필요한가, 일반14명/15명 동시10일한도와 이경로최댓값을 혼동하는가, 21공개사건 직접재실행과 정원15 무근거교체 음성대조가 무엇을 차단하는가를 구분하세요. 비공개계약원본 또는 세상모든 미공표사건부재를 새필수조건으로 추가하지마세요. 가상세계 실제서명/리그접수나 비용전체PASS를 추론하지마세요. 구체적 결함이 없다면 범위와 제외조건만 짧게 제시하세요.",
+      "conversation_id": "7b29e303-a2f3-4e6b-8056-46207ca2dbd0",
+      "sources_used": [
+        "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed"
+      ],
+      "citations": {
+        "1": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+        "2": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+        "3": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+        "4": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed"
+      },
+      "references": [
+        {
+          "source_id": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+          "citation_number": 1,
+          "cited_text_sha256": "23b50898b50ecc91ce3293229d8c223b45a9daa295c8dcf84b7ce12e77567796",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+          "citation_number": 2,
+          "cited_text_sha256": "f84c37268d3e7b619954c53d583fe7b76cd5aa3451a070d73a22f00b2dcb44dc",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+          "citation_number": 3,
+          "cited_text_sha256": "cd4803d3b351ff9c50755057ce9f438063097f7e8e826d9a38d5bf643125b9a0",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "19cdd5cc-07ec-4e3b-8d69-4d957b94d6ed",
+          "citation_number": 4,
+          "cited_text_sha256": "142335ee7c7e89cde4c9a0e1617038760a5864af4090023c82e161020f681af6",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
