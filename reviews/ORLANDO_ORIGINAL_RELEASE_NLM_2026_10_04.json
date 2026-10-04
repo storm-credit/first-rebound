@@ -1,0 +1,83 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "f7c80875-b6c1-4a45-af57-3393c609f5a9"
+  ],
+  "question_sha256": "bbe389390648715b378718d1f4a96d2b2155c37145106a47dda36a29c8ee9e59",
+  "query_budget_seconds": 90.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 30.679,
+    "process_budget_seconds": 115.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**3가지 방출 일자**(4월 13일 Cannady, 4월 27일 Franks, 5월 2일 Hall)는 이전 집계 피드의 `GUIDE_ONLY_EVENT_NOT_DELETED` 항목을 공식 팀 발표로 직접 확인하며 [1-4], **5월 9일 Hall의 계약 라벨**은 피드의 계약 갈등(`CONTRACT_CLASS_CONFLICT`)과 달리 팀 발표 기준 '잔여 시즌(`REMAINDER_OF_REGULAR_SEASON`) 계약' 및 하드십 보고로 확인됩니다 [4, 5].\n\n당시 올랜도 매직의 발표는 **역사적 방출 사실, 4월 의무 보존, 5월 9일 계약 생략**을 입증하지만 [4, 6], 승인된 대체 세계에서의 리그 등록·실행, 정확한 리그 접수 시간, 전체 연봉 조건, 샐러리 캡 승인까지 입증하지는 못합니다 [2, 6, 7].\n\n또한 5월 9일 원본 세계의 하드십 승인은 **4월 하드십 클래스 추론, 방출 후 잔여 연봉 0원(zero residual), 선택된 세계로의 하드십 전이**를 보증하지 않습니다 [6].\n\n**회복된 문서 수**(4건)는 **독립 출판사 수**(1곳, 독립 출판사 증가분 0) 및 **추가된 S2/범위 법적 증명 수**(0건)와 엄격히 별개로 구분됩니다 [4, 6].\n\n💡 대체 세계 조건에 맞춘 Cap 영향 및 잔여 계약 구조에 대해 추가 분석을 진행할까요?",
+      "question": "Use only this source. Reconcile the three release dates and Hall May9 contract label against the older NBA aggregate feed. Identify what the contemporary Magic announcement does establish and what it cannot establish for the approved alternate world where May9 Hall signing is omitted but April obligations are retained. Does hardship in the May9 original world certify April hardship, zero salary or the selected world? Keep document count separate from independent publishers and full S2 legal proofs. Answer in Korean within 220 words.",
+      "conversation_id": "d00026cf-0769-4caa-b384-23126d1891d1",
+      "sources_used": [
+        "f7c80875-b6c1-4a45-af57-3393c609f5a9"
+      ],
+      "citations": {
+        "1": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "2": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "3": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "4": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "5": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "6": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+        "7": "f7c80875-b6c1-4a45-af57-3393c609f5a9"
+      },
+      "references": [
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 1,
+          "cited_text_sha256": "f2dae15364a4a85a662d7fae5eedd27a6910fc2136fb5ac86bfaba5336010d79",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 2,
+          "cited_text_sha256": "139c9454801e467dc6a70b301bd5c23c102147deef36423ca60160e74ecbad1c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 3,
+          "cited_text_sha256": "ddc9ed5d10fd0828f58eede8b607f702be3b621d08d8fcc1a3c2a82bfc51ffc5",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 4,
+          "cited_text_sha256": "29eae6f7d1fa5b2799897d54c20ac7b903e74b1f4fcc6ef002990c2f8e14cbd5",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 5,
+          "cited_text_sha256": "967b12e316a39ec0ebbbec90cff31ec2872e9690dc847400b7cce5530c13fc52",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 6,
+          "cited_text_sha256": "d4c35bdce6730d750a770972a9876a5ab918c20745c99da6c6ab3441e355dad8",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7c80875-b6c1-4a45-af57-3393c609f5a9",
+          "citation_number": 7,
+          "cited_text_sha256": "700992a736a9870578ae4dba126d2b887242c72b2525cbfd8f70b26f6db4b8e1",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

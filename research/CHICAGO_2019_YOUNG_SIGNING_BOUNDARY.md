@@ -54,3 +54,5 @@ Y1–Y4가 닫히면, 이 실제 cap gap 시점에 VII6m1–2(PDF238–240)에 �
 검토/실제 도구 실행은 [이번 검수](../reviews/CHI_2019_YOUNG_SIGNING_REVIEW_2026_10_04.md). 법적12HOLD·F0/5 A0/3 K0/4·R=null·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0 유지.
 
 후속 [공식 거래 데이터 구간 증인](NBA_MOVEMENT_WINDOW_EVIDENCE_2026_10_04.md)은 Y5에 연결할 공개 송출 목록을 회수했다. 7/6~7/7 전체 Trade61행/18그룹의 상대팀까지 player-linked Chicago 송출후보0이며 Harrison/Lemon 방출도 추가로 확인한다. 그 방출의 잔급0·Contract표시의Summer배제·숨은/대체세계 사건부재는 인증하지 않는다. 어느 계약연도의 서명당시 양수 보호든 Summer 배제 근거로 사용할 수 있으며 첫해 보호만을 새 필수조건으로 요구하지 않는다. Y1–Y5의 실제 법적 종료와 전체R는 여전히 HOLD다.
+
+후속 [당시 자료 회수](CHICAGO_2019_DATED_SOURCE_RECOVERY_2026_10_04.md)에서 공식 Young 발표의 계약조건 비공개와 Harrison/Lemon 방출, Pincus7/10 원보도의3년차보장6m, 2019가이드·Arc7/11공식발표를 직접 읽었다. 보도일7/10의 보호를7/6로 소급하지 않고 방출 잔급0·전체자금/후행예외 인증으로 확장하지 않는다. Y1–Y5의 법적 종료 추가0.

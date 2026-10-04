@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-04 [당시 구단 발표 대조](research/ORLANDO_ORIGINAL_RELEASE_CROSSCHECK_2026_10_04.md): 해제3건과 Hall5/9 잔여시즌·원역사 hardship을 실제 기사본문4개로 확인했다. feed의 기존11/1/3과 승인세계명단/계약은 보존. [Chicago 당시 자료](research/CHICAGO_2019_DATED_SOURCE_RECOVERY_2026_10_04.md)의 공식발표2·2019가이드 미러·7/10 원기자 보도를 회수하고 Arc7/11/측정7/7을 구분했다. 국소독립검문·NLM30.679초분석(작가권위혼동기각), AG29.932초빈응답/원문검증0. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [NBA 공식 거래 원자료 구간 대조](research/NBA_MOVEMENT_WINDOW_EVIDENCE_2026_10_04.md): 전체 feed 9,927행을 회수해 Chicago 7/6~7/7 Trade61행/18그룹과 상대팀을 검문했다. Young/Harrison/Lemon/Sato·대가5행, player-linked 송출후보0(법적TPE수 null). Orlando53일28행/18그룹↔기존가이드 후반15행은 일치11·guide-only해제3·Hall계약문구충돌1. 해제/기존Hall생략 보존. 5위험검사·국소독립Codex검문, AG87.223초UNVERIFIED/원문증거0·NLM27.872초분석회수. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [Young 2019 직접 FA 자금 경계](research/CHICAGO_2019_YOUNG_SIGNING_BOUNDARY.md): CapRoom 사후 보고·공식FA분류와 CBA22쪽을 연결했다. 일반 직접 FA의예외별 제외/3년Summer 반례·최대1명 roster credit $898,310→직전차액 시험 $12,001,690·bonus funding/caphit 분리. Y1–Y5의공개구간 또는완전분기 증인HOLD, 비공개원계약 새필수조건0. AG70.139초/NLM57.198초응답회수·국소독립Codex 결함미발견·Claude한도후미실행/전체blind미실행. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
