@@ -1,0 +1,55 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "68dffe2e-395d-460d-bf56-f7c5e75f004b"
+  ],
+  "question_sha256": "e799e7a75d3566535a4567b95c0b6557c07bcffec3f4d1628824631e3e8e4cf8",
+  "query_budget_seconds": 90.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 27.872,
+    "process_budget_seconds": 115.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**Reconciliation & Conflicts**:\nThe primary public feed and Orlando guide align on multiple date/player/action events, including 10-day/rest-of-season signings and waivers for R. Franks, D. Hall, K. Mane, D. Cannady, M. Wagner, I. Brazdeikis, and S. Thornwell [1, 2]. However, three guide `RELEASE_TEN_DAY` events (Cannady Apr 13, Franks Apr 27, Hall May 2) are **missing from the feed** [1]. Additionally, a **wording conflict** exists on May 9 for Donta Hall: the guide records `SIGN_REST_OF_SEASON`, whereas the feed description explicitly states `10-Day Contract` [2].\n\n**Feed Limitations**:\nThe feed alone **cannot** certify event absence, zero salary upon waiving, Summer exclusion on general contract signings, or intraday midnight receipt timing [2].\n\n**Filtering & ID Eligibility**:\n**Team-only trade filtering** misses outbound assets and contracts recorded strictly on counterparty rows (such as Wizards draft consideration rows during the Satoransky trade) [3]. Furthermore, **`PLAYER_ID > 0`** simply indicates a valid player entity across 10-day, two-way, or waived entries; it does not establish Standard contract classification or TPE eligibility [1-3].\n\n**Evidence & Scope Rules**:\nUseful evidence is strictly limited to published snapshot date, player, and action fields [3]. Unsupported promotions include certifying legal proofs (`legal_proofs_added: 0`) or choosing unverified author events [2]. The existing author decision omitting Hall's May 9 contract is preserved, without importing real-world Vucevic/Aminu or Hampton trades into this selected alternate world [2].",
+      "question": "Use ONLY this single supplied DERIVED evidence packet. Reconcile the explicit primary NBA public feed fields with Orlando guide events. State the date/player/action matches, missing-guide-events, and Hall May9 contract wording conflict. Does the feed alone certify all event absence, salary zero on waivers, Summer exclusion on Contract signings, or intraday midnight timing? Explain why team-only trade filtering misses outbound contracts recorded on counterparty rows and why PLAYER_ID>0 alone does not establish Standard contract or TPE eligibility. Preserve existing author omission of Hall May9; do not import real Vucevic/Aminu or Hampton trades into the selected alternate world. Do not certify legal proofs or choose author events. Max250 words, identify useful evidence and unsupported promotions.",
+      "conversation_id": "6587c1b2-1a19-4982-a699-48df62a0e66a",
+      "sources_used": [
+        "68dffe2e-395d-460d-bf56-f7c5e75f004b"
+      ],
+      "citations": {
+        "1": "68dffe2e-395d-460d-bf56-f7c5e75f004b",
+        "2": "68dffe2e-395d-460d-bf56-f7c5e75f004b",
+        "3": "68dffe2e-395d-460d-bf56-f7c5e75f004b"
+      },
+      "references": [
+        {
+          "source_id": "68dffe2e-395d-460d-bf56-f7c5e75f004b",
+          "citation_number": 1,
+          "cited_text_sha256": "949c90c8db118cbdc4beef52f551a405e6d313e020f81e53899ec0243139c98b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "68dffe2e-395d-460d-bf56-f7c5e75f004b",
+          "citation_number": 2,
+          "cited_text_sha256": "ce67cb3e852dac8b37d3ac8485d568690a51ff53c77c59d7ba77e8193d12bedf",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "68dffe2e-395d-460d-bf56-f7c5e75f004b",
+          "citation_number": 3,
+          "cited_text_sha256": "7d985279f35297c293e5c9bb730380929a91c952e6ab13f1874c70b92638daad",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

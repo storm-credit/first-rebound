@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-04 [NBA 공식 거래 원자료 구간 대조](../research/NBA_MOVEMENT_WINDOW_EVIDENCE_2026_10_04.md): 전체 feed 9,927행을 회수해 Chicago 7/6~7/7 Trade61행/18그룹과 상대팀을 검문했다. Young/Harrison/Lemon/Sato·대가5행, player-linked 송출후보0(법적TPE수 null). Orlando53일28행/18그룹↔기존가이드 후반15행은 일치11·guide-only해제3·Hall계약문구충돌1. 해제/기존Hall생략 보존. 5위험검사·국소독립Codex검문, AG87.223초UNVERIFIED/원문증거0·NLM27.872초분석회수. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-04 [Young 2019 직접 FA 자금 경계](../research/CHICAGO_2019_YOUNG_SIGNING_BOUNDARY.md): CapRoom 사후 보고·공식FA분류와 CBA22쪽을 연결했다. 일반 직접 FA의예외별 제외/3년Summer 반례·최대1명 roster credit $898,310→직전차액 시험 $12,001,690·bonus funding/caphit 분리. Y1–Y5의공개구간 또는완전분기 증인HOLD, 비공개원계약 새필수조건0. AG70.139초/NLM57.198초응답회수·국소독립Codex 결함미발견·Claude한도후미실행/전체blind미실행. 법적12HOLD/F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-04 [Chicago2019 캡 공간 취득 시점](../research/CHICAGO_2019_ROOM_ACQUISITION_BOUNDARY.md): 2019 적법한 캡 공간 취득이 닫히면 직전 미사용 예외 산입액을 좁히는 조건부 증명 경로를 마련했다. 일반Room정의와cap차액 구분·CBA11쪽·Bulls1쪽원문/별도Codex 법규논증 대조·AG본문UNVERIFIED/NLM분석회수. 실제취득수단·수취차지·당일전체상태·적법산입처리HOLD, 법적12HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료6·PARTIAL/CLOSED·원고0.
@@ -14,12 +16,12 @@
 
 2026-10-04 [A08 라이브 패스 검수](../reviews/A08_LIVEPASS_REVIEW_2026_10_04.md): 기존2022–23의60슬롯/3소막과A07인계에5인과후보를 연결했다. 실제관측 오류만수정·공개급여 기반전달설명 접근명확화·상태/해시/null/MD/11링크PASS·제한Codex검문. NLM53.651초응답/요약경계누락교정·Claude세션한도8.475초오류는통과아님. 현행7행표를구판누적표와분리해동기화했다. 최종회차0·실제Pack0·법적12HOLD/F0/5 A0/3 K0/4·미완료6·G11규격완료·PARTIAL/CLOSED·원고0.
 
-## 현행 전체 7행 진행표 — 2026-10-04 Young 직접 FA 자금 경계 검문 시점
+## 현행 전체 7행 진행표 — 2026-10-04 NBA 공개 거래 원자료 대조 시점
 
 | 번호 | 전체 작업 | 현행 상태·남은 핵심 |
 |---|---|---|
 | 1 | 2020 드래프트 연쇄 | 완료. 기존 작가 선택·연쇄 보존 |
-| 2 | Chicago 2020–21 | 결과 디자인 선택·15시리즈/88날짜 후보 검산. 2019 Young 직접FA 자금/roster credit·Summer 경계 및 취득직전 예외 산입 증명 경로 준비. 당시분류/전체차지·중간TPE HOLD. 정확 실행 F0/5·A0/3·K0/4, 법적12HOLD |
+| 2 | Chicago 2020–21 | 결과 디자인 선택·15시리즈/88날짜 후보 검산. 공식거래 원자료 CHI송출후보0·ORL가이드 누락3/문구충돌1 연결. Young 당시분류/전체차지·승인세계 연결 HOLD. 정확 실행 F0/5·A0/3·K0/4, 법적12HOLD |
 | 3 | 2021–23 거래·계약 | M1/G1A 방향 선택. M1 정상일5인48/240증인, A07의6/A08의5기능 후보. 전체 비용·계약 실행·시즌 미완료 |
 | 4 | 주인공·라이벌 장기 커리어 | 17시즌 행동/비용·A09–A14 27인과후보 연결. H2·RC1·AW2·NM1의 중요 결과·후속 정확 실행 미완료 |
 | 5 | 결말·전체 구조 | 14막/42소막/780배분. 인과82/대학대표3·A01국소Blueprint1 보존. 학교원문4/FACT9와 수락/참가·G13/G14 조건 수리. 전체 회차 배치 미정·최종 회차 기능0 |

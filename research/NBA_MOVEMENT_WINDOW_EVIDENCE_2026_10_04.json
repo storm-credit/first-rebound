@@ -1,0 +1,1385 @@
+{
+  "schema": "NBA_PUBLIC_MOVEMENT_WINDOW_EVIDENCE_V1",
+  "baseline_main": "0a6bfca8209c4655d59c892cd9bc27ee9bf0b8ea",
+  "status": "PRIMARY_PUBLIC_INVENTORY_RECONCILIATION_NOT_LEGAL_CERTIFICATE",
+  "source": {
+    "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
+    "nba_consumer_page": "https://www.nba.com/players/transactions",
+    "observed_local_date": "2026-10-04",
+    "snapshot_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+    "bytes": 4196976,
+    "row_count": 9927,
+    "date_range": [
+      "2015-07-01",
+      "2026-10-02"
+    ],
+    "client_proof": [
+      {
+        "url": "https://www.nba.com/_next/static/chunks/pages/players/transactions-2610939022b5a41c.js",
+        "bytes": 322,
+        "sha256": "c9b3ade833e16e03f8f571349955a587c390fff0ea06092135eafb8664d1f630",
+        "excerpts": []
+      },
+      {
+        "url": "https://www.nba.com/_next/static/chunks/80805-b7463c1d29c0c2f3.js",
+        "bytes": 18314,
+        "sha256": "9f8568117e1d9bd6e7f2c58b8bf08ecb235d0904fc3988006db360d3e47b3ad6",
+        "excerpts": [
+          "onth:x}=f,[_,b]=(0,o.useState)({type:M.default});return(0,o.useEffect)((()=>{(async()=>{try{const e=await(0,B.Bf)(),t=e&&e.length?e.slice(0,500).map(q):[];d(t)}catch(e){(0,I.Z)({action:\"fetchCmsFeed error fetchPlayerTransactions\",error:e}),d([])}n(!0)})()}),[]),(0,o.useEffect)((()=>{const e=l.filter((e=>{const t=\"0\"===g.selected||+g.selected===+e.teamId,n=\"\"===_.type||_.type===e.type,s=\"0\"===x.sele"
+        ]
+      },
+      {
+        "url": "https://www.nba.com/_next/static/chunks/pages/_app-71c0bd4c8ffc33a7.js",
+        "bytes": 1440096,
+        "sha256": "47f9487b21ea581649d3059ef5489c7a6744b3ef6edf0798ecd98299599a8e51",
+        "excerpts": [
+          ");return!!n&&{name:n.text||null,links:n.children||null}}(e,r.links);return{header:r,footer:i,subNav:s,adPlacements:o,analytics:a}}async function U(){const e=await k(\"https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json\",E,{});return(0,r.XZ)([\"NBA_Player_Movement\",\"rows\"],e,[])}async function F(e,t){const n=new URLSearchParams(e).toString(),r=`${P}/content?${n}`,i=t?null:_,{results:o={}}=await k(r,i,{});if(o&&o.seo){const e=(0,c.Z)(o.seo);o.seo=e,o.hasSeo=!0}return "
+        ]
+      }
+    ],
+    "ui_row_limit": 500,
+    "snapshot_input_is_full_feed": true
+  },
+  "chicago": {
+    "date_window": [
+      "2019-07-06",
+      "2019-07-07"
+    ],
+    "league_trade_row_count": 61,
+    "league_trade_group_count": 18,
+    "related_rows": [
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2019-07-07T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls received guard Tomas Satoransky from Washington Wizards.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 203107.0,
+        "PLAYER_SLUG": "tomas-satoransky",
+        "Additional_Sort": 1610612764.0,
+        "GroupSort": "Trade 2019018"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2019-07-07T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Washington Wizards received draft consideration from Chicago Bulls.",
+        "TEAM_ID": 1610612764.0,
+        "TEAM_SLUG": "wizards",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612741.0,
+        "GroupSort": "Trade 2019018"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2019-07-06T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls signed forward Thaddeus Young to a Contract.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 201152.0,
+        "PLAYER_SLUG": "thaddeus-young",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1018791"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2019-07-06T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls waived guard Shaquille Harrison.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 1627885.0,
+        "PLAYER_SLUG": "shaquille-harrison",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1018796"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2019-07-06T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls waived guard Walt Lemon Jr..",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 1627215.0,
+        "PLAYER_SLUG": "walt-lemon-jr",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1018797"
+      }
+    ],
+    "outbound_player_linked_trade_candidates": [],
+    "positive_player_id_is_not_contract_type_proof": true,
+    "legal_TPE_origin_count": null,
+    "extended_public_window": [
+      "2019-07-01",
+      "2020-11-18"
+    ],
+    "extended_related_trade_rows": [
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2019-07-07T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls received guard Tomas Satoransky from Washington Wizards.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 203107.0,
+        "PLAYER_SLUG": "tomas-satoransky",
+        "Additional_Sort": 1610612764.0,
+        "GroupSort": "Trade 2019018"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2019-07-07T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Washington Wizards received draft consideration from Chicago Bulls.",
+        "TEAM_ID": 1610612764.0,
+        "TEAM_SLUG": "wizards",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612741.0,
+        "GroupSort": "Trade 2019018"
+      }
+    ],
+    "extended_outbound_player_candidates": [],
+    "negative_claim_scope": "Only this published snapshot and dates; not hidden events, intraday order, alternative-world changes or legal balances"
+  },
+  "chicago_global_trade_window_rows": [
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Atlanta Hawks received forward Solomon Hill from New Orleans Pelicans.",
+      "TEAM_ID": 1610612737.0,
+      "TEAM_SLUG": "hawks",
+      "PLAYER_ID": 203524.0,
+      "PLAYER_SLUG": "solomon-hill",
+      "Additional_Sort": 1610612740.0,
+      "GroupSort": "Trade 2019013"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Atlanta Hawks received draft consideration from New Orleans Pelicans.",
+      "TEAM_ID": 1610612737.0,
+      "TEAM_SLUG": "hawks",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612740.0,
+      "GroupSort": "Trade 2019013"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received draft consideration from Atlanta Hawks.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612737.0,
+      "GroupSort": "Trade 2019013"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received guard Andre Iguodala from Golden State Warriors.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 2738.0,
+      "PLAYER_SLUG": "andre-iguodala",
+      "Additional_Sort": 1610612744.0,
+      "GroupSort": "Trade 2019016"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received draft consideration from Golden State Warriors.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612744.0,
+      "GroupSort": "Trade 2019016"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Phoenix Suns received guard Jevon Carter from Memphis Grizzlies.",
+      "TEAM_ID": 1610612756.0,
+      "TEAM_SLUG": "suns",
+      "PLAYER_ID": 1628975.0,
+      "PLAYER_SLUG": "jevon-carter",
+      "Additional_Sort": 1610612763.0,
+      "GroupSort": "Trade 2019017"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Phoenix Suns received guard Kyle Korver from Memphis Grizzlies.",
+      "TEAM_ID": 1610612756.0,
+      "TEAM_SLUG": "suns",
+      "PLAYER_ID": 2594.0,
+      "PLAYER_SLUG": "kyle-korver",
+      "Additional_Sort": 1610612763.0,
+      "GroupSort": "Trade 2019017"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received guard De'Anthony Melton from Phoenix Suns.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 1629001.0,
+      "PLAYER_SLUG": "deanthony-melton",
+      "Additional_Sort": 1610612756.0,
+      "GroupSort": "Trade 2019017"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received guard Josh Jackson from Phoenix Suns.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 1628367.0,
+      "PLAYER_SLUG": "josh-jackson",
+      "Additional_Sort": 1610612756.0,
+      "GroupSort": "Trade 2019017"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received draft consideration from Phoenix Suns.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612756.0,
+      "GroupSort": "Trade 2019017"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Chicago Bulls received guard Tomas Satoransky from Washington Wizards.",
+      "TEAM_ID": 1610612741.0,
+      "TEAM_SLUG": "bulls",
+      "PLAYER_ID": 203107.0,
+      "PLAYER_SLUG": "tomas-satoransky",
+      "Additional_Sort": 1610612764.0,
+      "GroupSort": "Trade 2019018"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received draft consideration from Chicago Bulls.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612741.0,
+      "GroupSort": "Trade 2019018"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received forward Derrick Favors from Utah Jazz.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 202324.0,
+      "PLAYER_SLUG": "derrick-favors",
+      "Additional_Sort": 1610612762.0,
+      "GroupSort": "Trade 2019019"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Utah Jazz received draft consideration from New Orleans Pelicans.",
+      "TEAM_ID": 1610612762.0,
+      "TEAM_SLUG": "jazz",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612740.0,
+      "GroupSort": "Trade 2019019"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Atlanta Hawks received forward Chandler Parsons from Memphis Grizzlies.",
+      "TEAM_ID": 1610612737.0,
+      "TEAM_SLUG": "hawks",
+      "PLAYER_ID": 202718.0,
+      "PLAYER_SLUG": "chandler-parsons",
+      "Additional_Sort": 1610612763.0,
+      "GroupSort": "Trade 2019020"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received forward Solomon Hill from Atlanta Hawks.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 203524.0,
+      "PLAYER_SLUG": "solomon-hill",
+      "Additional_Sort": 1610612737.0,
+      "GroupSort": "Trade 2019020"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received forward Miles Plumlee from Atlanta Hawks.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 203101.0,
+      "PLAYER_SLUG": "miles-plumlee",
+      "Additional_Sort": 1610612737.0,
+      "GroupSort": "Trade 2019020"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Golden State Warriors received guard Treveon Graham from Brooklyn Nets.",
+      "TEAM_ID": 1610612744.0,
+      "TEAM_SLUG": "warriors",
+      "PLAYER_ID": 1626203.0,
+      "PLAYER_SLUG": "treveon-graham",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019021"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Golden State Warriors received guard D'Angelo Russell from Brooklyn Nets.",
+      "TEAM_ID": 1610612744.0,
+      "TEAM_SLUG": "warriors",
+      "PLAYER_ID": 1626156.0,
+      "PLAYER_SLUG": "dangelo-russell",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019021"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Golden State Warriors received guard Shabazz Napier from Brooklyn Nets.",
+      "TEAM_ID": 1610612744.0,
+      "TEAM_SLUG": "warriors",
+      "PLAYER_ID": 203894.0,
+      "PLAYER_SLUG": "shabazz-napier",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019021"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Brooklyn Nets received forward Kevin Durant from Golden State Warriors.",
+      "TEAM_ID": 1610612751.0,
+      "TEAM_SLUG": "nets",
+      "PLAYER_ID": 201142.0,
+      "PLAYER_SLUG": "kevin-durant",
+      "Additional_Sort": 1610612744.0,
+      "GroupSort": "Trade 2019021"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-07T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Brooklyn Nets received draft consideration from Golden State Warriors.",
+      "TEAM_ID": 1610612751.0,
+      "TEAM_SLUG": "nets",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612744.0,
+      "GroupSort": "Trade 2019021"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Indiana Pacers received draft consideration from Miami Heat.",
+      "TEAM_ID": 1610612754.0,
+      "TEAM_SLUG": "pacers",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612748.0,
+      "GroupSort": "Trade 2019001"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Indiana Pacers received forward T.J. Warren from Phoenix Suns.",
+      "TEAM_ID": 1610612754.0,
+      "TEAM_SLUG": "pacers",
+      "PLAYER_ID": 203933.0,
+      "PLAYER_SLUG": "tj-warren",
+      "Additional_Sort": 1610612756.0,
+      "GroupSort": "Trade 2019001"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Atlanta Hawks received guard Allen Crabbe from Brooklyn Nets.",
+      "TEAM_ID": 1610612737.0,
+      "TEAM_SLUG": "hawks",
+      "PLAYER_ID": 203459.0,
+      "PLAYER_SLUG": "allen-crabbe",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019002"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Atlanta Hawks received draft consideration from Brooklyn Nets.",
+      "TEAM_ID": 1610612737.0,
+      "TEAM_SLUG": "hawks",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019002"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Brooklyn Nets received forward Taurean Prince from Atlanta Hawks.",
+      "TEAM_ID": 1610612751.0,
+      "TEAM_SLUG": "nets",
+      "PLAYER_ID": 1627752.0,
+      "PLAYER_SLUG": "taurean-prince",
+      "Additional_Sort": 1610612737.0,
+      "GroupSort": "Trade 2019002"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Brooklyn Nets received draft consideration from Atlanta Hawks.",
+      "TEAM_ID": 1610612751.0,
+      "TEAM_SLUG": "nets",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612737.0,
+      "GroupSort": "Trade 2019002"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Utah Jazz received guard Mike Conley from Memphis Grizzlies.",
+      "TEAM_ID": 1610612762.0,
+      "TEAM_SLUG": "jazz",
+      "PLAYER_ID": 201144.0,
+      "PLAYER_SLUG": "mike-conley",
+      "Additional_Sort": 1610612763.0,
+      "GroupSort": "Trade 2019003"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received guard Grayson Allen from Utah Jazz.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 1628960.0,
+      "PLAYER_SLUG": "grayson-allen",
+      "Additional_Sort": 1610612762.0,
+      "GroupSort": "Trade 2019003"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received forward Jae Crowder from Utah Jazz.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 203109.0,
+      "PLAYER_SLUG": "jae-crowder",
+      "Additional_Sort": 1610612762.0,
+      "GroupSort": "Trade 2019003"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received guard Kyle Korver from Utah Jazz.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 2594.0,
+      "PLAYER_SLUG": "kyle-korver",
+      "Additional_Sort": 1610612762.0,
+      "GroupSort": "Trade 2019003"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received draft consideration from Utah Jazz.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612762.0,
+      "GroupSort": "Trade 2019003"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Phoenix Suns received forward Dario Saric from Minnesota Timberwolves.",
+      "TEAM_ID": 1610612756.0,
+      "TEAM_SLUG": "suns",
+      "PLAYER_ID": 203967.0,
+      "PLAYER_SLUG": "dario-saric",
+      "Additional_Sort": 1610612750.0,
+      "GroupSort": "Trade 2019004"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Boston Celtics received draft consideration from Phoenix Suns.",
+      "TEAM_ID": 1610612738.0,
+      "TEAM_SLUG": "celtics",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612756.0,
+      "GroupSort": "Trade 2019005"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Phoenix Suns received center Aron Baynes from Boston Celtics.",
+      "TEAM_ID": 1610612756.0,
+      "TEAM_SLUG": "suns",
+      "PLAYER_ID": 203382.0,
+      "PLAYER_SLUG": "aron-baynes",
+      "Additional_Sort": 1610612738.0,
+      "GroupSort": "Trade 2019005"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "LA Clippers received draft consideration from Miami Heat.",
+      "TEAM_ID": 1610612746.0,
+      "TEAM_SLUG": "clippers",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612748.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "LA Clippers received forward Maurice Harkless from Portland Trail Blazers.",
+      "TEAM_ID": 1610612746.0,
+      "TEAM_SLUG": "clippers",
+      "PLAYER_ID": 203090.0,
+      "PLAYER_SLUG": "maurice-harkless",
+      "Additional_Sort": 1610612757.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Miami Heat received forward Jimmy Butler III from Philadelphia 76ers.",
+      "TEAM_ID": 1610612748.0,
+      "TEAM_SLUG": "heat",
+      "PLAYER_ID": 202710.0,
+      "PLAYER_SLUG": "jimmy-butler-iii",
+      "Additional_Sort": 1610612755.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Miami Heat received forward Meyers Leonard from Portland Trail Blazers.",
+      "TEAM_ID": 1610612748.0,
+      "TEAM_SLUG": "heat",
+      "PLAYER_ID": 203086.0,
+      "PLAYER_SLUG": "meyers-leonard",
+      "Additional_Sort": 1610612757.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Philadelphia 76ers received guard Josh Richardson from Miami Heat.",
+      "TEAM_ID": 1610612755.0,
+      "TEAM_SLUG": "sixers",
+      "PLAYER_ID": 1626196.0,
+      "PLAYER_SLUG": "josh-richardson",
+      "Additional_Sort": 1610612748.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Portland Trail Blazers received center Hassan Whiteside from Miami Heat.",
+      "TEAM_ID": 1610612757.0,
+      "TEAM_SLUG": "blazers",
+      "PLAYER_ID": 202355.0,
+      "PLAYER_SLUG": "hassan-whiteside",
+      "Additional_Sort": 1610612748.0,
+      "GroupSort": "Trade 2019006"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received center Dwight Howard from Washington Wizards.",
+      "TEAM_ID": 1610612763.0,
+      "TEAM_SLUG": "grizzlies",
+      "PLAYER_ID": 2730.0,
+      "PLAYER_SLUG": "dwight-howard",
+      "Additional_Sort": 1610612764.0,
+      "GroupSort": "Trade 2019007"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received guard CJ Miles from Memphis Grizzlies.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 101139.0,
+      "PLAYER_SLUG": "cj-miles",
+      "Additional_Sort": 1610612763.0,
+      "GroupSort": "Trade 2019007"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Milwaukee Bucks received draft consideration from Indiana Pacers.",
+      "TEAM_ID": 1610612749.0,
+      "TEAM_SLUG": "bucks",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612754.0,
+      "GroupSort": "Trade 2019008"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Indiana Pacers received guard Malcolm Brogdon from Milwaukee Bucks.",
+      "TEAM_ID": 1610612754.0,
+      "TEAM_SLUG": "pacers",
+      "PLAYER_ID": 1627763.0,
+      "PLAYER_SLUG": "malcolm-brogdon",
+      "Additional_Sort": 1610612749.0,
+      "GroupSort": "Trade 2019008"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "San Antonio Spurs received forward DeMarre Carroll from Brooklyn Nets.",
+      "TEAM_ID": 1610612759.0,
+      "TEAM_SLUG": "spurs",
+      "PLAYER_ID": 201960.0,
+      "PLAYER_SLUG": "demarre-carroll",
+      "Additional_Sort": 1610612751.0,
+      "GroupSort": "Trade 2019009"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received forward Davis Bertans from San Antonio Spurs.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 202722.0,
+      "PLAYER_SLUG": "davis-bertans",
+      "Additional_Sort": 1610612759.0,
+      "GroupSort": "Trade 2019009"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Boston Celtics received guard Kemba Walker from Charlotte Hornets.",
+      "TEAM_ID": 1610612738.0,
+      "TEAM_SLUG": "celtics",
+      "PLAYER_ID": 202689.0,
+      "PLAYER_SLUG": "kemba-walker",
+      "Additional_Sort": 1610612766.0,
+      "GroupSort": "Trade 2019011"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Boston Celtics received draft consideration from Charlotte Hornets.",
+      "TEAM_ID": 1610612738.0,
+      "TEAM_SLUG": "celtics",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612766.0,
+      "GroupSort": "Trade 2019011"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Charlotte Hornets received guard Terry Rozier from Boston Celtics.",
+      "TEAM_ID": 1610612766.0,
+      "TEAM_SLUG": "hornets",
+      "PLAYER_ID": 1626179.0,
+      "PLAYER_SLUG": "terry-rozier",
+      "Additional_Sort": 1610612738.0,
+      "GroupSort": "Trade 2019011"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Charlotte Hornets received draft consideration from Boston Celtics.",
+      "TEAM_ID": 1610612766.0,
+      "TEAM_SLUG": "hornets",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612738.0,
+      "GroupSort": "Trade 2019011"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received guard Josh Hart from Los Angeles Lakers.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 1628404.0,
+      "PLAYER_SLUG": "josh-hart",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received guard Lonzo Ball from Los Angeles Lakers.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 1628366.0,
+      "PLAYER_SLUG": "lonzo-ball",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received forward Brandon Ingram from Los Angeles Lakers.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 1627742.0,
+      "PLAYER_SLUG": "brandon-ingram",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "New Orleans Pelicans received draft consideration from Los Angeles Lakers.",
+      "TEAM_ID": 1610612740.0,
+      "TEAM_SLUG": "pelicans",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Los Angeles Lakers received forward Anthony Davis from New Orleans Pelicans.",
+      "TEAM_ID": 1610612747.0,
+      "TEAM_SLUG": "lakers",
+      "PLAYER_ID": 203076.0,
+      "PLAYER_SLUG": "anthony-davis",
+      "Additional_Sort": 1610612740.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received forward Jemerrio Jones from Los Angeles Lakers.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 1629203.0,
+      "PLAYER_SLUG": "jemerrio-jones",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received guard Isaac Bonga from Los Angeles Lakers.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 1629067.0,
+      "PLAYER_SLUG": "isaac-bonga",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received forward Moritz Wagner from Los Angeles Lakers.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 1629021.0,
+      "PLAYER_SLUG": "moritz-wagner",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    },
+    {
+      "Transaction_Type": "Trade",
+      "TRANSACTION_DATE": "2019-07-06T00:00:00",
+      "TRANSACTION_DESCRIPTION": "Washington Wizards received draft consideration from Los Angeles Lakers.",
+      "TEAM_ID": 1610612764.0,
+      "TEAM_SLUG": "wizards",
+      "PLAYER_ID": 0.0,
+      "PLAYER_SLUG": "",
+      "Additional_Sort": 1610612747.0,
+      "GroupSort": "Trade 2019012"
+    }
+  ],
+  "orlando": {
+    "date_window": [
+      "2021-03-25",
+      "2021-05-16"
+    ],
+    "related_group_count": 18,
+    "related_rows": [
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-05-12T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed forward Ignas Brazdeikis to a Rest-of-Season Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629649.0,
+        "PLAYER_SLUG": "ignas-brazdeikis",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039949"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-05-09T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629743.0,
+        "PLAYER_SLUG": "donta-hall",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039896"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-05-04T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed guard Sindarius Thornwell to a Two-Way Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1628414.0,
+        "PLAYER_SLUG": "sindarius-thornwell",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039782"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2021-05-04T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic waived guard Devin Cannady.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629962.0,
+        "PLAYER_SLUG": "devin-cannady",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1039789"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-05-02T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed forward Ignas Brazdeikis to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629649.0,
+        "PLAYER_SLUG": "ignas-brazdeikis",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039697"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-27T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed forward Moritz Wagner to a Rest-of-Season Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629021.0,
+        "PLAYER_SLUG": "moritz-wagner",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039576"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-23T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629743.0,
+        "PLAYER_SLUG": "donta-hall",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039465"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-22T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed forward Robert Franks to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629606.0,
+        "PLAYER_SLUG": "robert-franks",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039454"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-16T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed guard Devin Cannady to a Two-Way Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629962.0,
+        "PLAYER_SLUG": "devin-cannady",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039158"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-13T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629743.0,
+        "PLAYER_SLUG": "donta-hall",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1039009"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2021-04-13T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic waived guard Karim Mane.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1630211.0,
+        "PLAYER_SLUG": "karim-mane",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1039021"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-12T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed forward Robert Franks to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629606.0,
+        "PLAYER_SLUG": "robert-franks",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1038903"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2021-04-08T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic waived center Khem Birch.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 203920.0,
+        "PLAYER_SLUG": "khem-birch",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1038858"
+      },
+      {
+        "Transaction_Type": "Signing",
+        "TRANSACTION_DATE": "2021-04-06T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic signed guard Devin Cannady to a 10-Day Contract.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1629962.0,
+        "PLAYER_SLUG": "devin-cannady",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Signing 1038773"
+      },
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2021-03-27T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic waived guard Jeff Teague.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 201952.0,
+        "PLAYER_SLUG": "jeff-teague",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1038409"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls received center Nikola Vucevic from Orlando Magic.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 202696.0,
+        "PLAYER_SLUG": "nikola-vucevic",
+        "Additional_Sort": 1610612753.0,
+        "GroupSort": "Trade 2020065"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls received forward Al-Farouq Aminu from Orlando Magic.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 202329.0,
+        "PLAYER_SLUG": "al-farouq-aminu",
+        "Additional_Sort": 1610612753.0,
+        "GroupSort": "Trade 2020065"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received center Wendell Carter Jr. from Chicago Bulls.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1628976.0,
+        "PLAYER_SLUG": "wendell-carter-jr",
+        "Additional_Sort": 1610612741.0,
+        "GroupSort": "Trade 2020065"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received forward Otto Porter Jr. from Chicago Bulls.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 203490.0,
+        "PLAYER_SLUG": "otto-porter-jr",
+        "Additional_Sort": 1610612741.0,
+        "GroupSort": "Trade 2020065"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received draft consideration from Chicago Bulls.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612741.0,
+        "GroupSort": "Trade 2020065"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Denver Nuggets received forward Gary Clark from Orlando Magic.",
+        "TEAM_ID": 1610612743.0,
+        "TEAM_SLUG": "nuggets",
+        "PLAYER_ID": 1629109.0,
+        "PLAYER_SLUG": "gary-clark",
+        "Additional_Sort": 1610612753.0,
+        "GroupSort": "Trade 2020075"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Denver Nuggets received forward Aaron Gordon from Orlando Magic.",
+        "TEAM_ID": 1610612743.0,
+        "TEAM_SLUG": "nuggets",
+        "PLAYER_ID": 203932.0,
+        "PLAYER_SLUG": "aaron-gordon",
+        "Additional_Sort": 1610612753.0,
+        "GroupSort": "Trade 2020075"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received guard R.J. Hampton from Denver Nuggets.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 1630181.0,
+        "PLAYER_SLUG": "rj-hampton",
+        "Additional_Sort": 1610612743.0,
+        "GroupSort": "Trade 2020075"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received guard Gary Harris from Denver Nuggets.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 203914.0,
+        "PLAYER_SLUG": "gary-harris",
+        "Additional_Sort": 1610612743.0,
+        "GroupSort": "Trade 2020075"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received draft consideration from Denver Nuggets.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612743.0,
+        "GroupSort": "Trade 2020075"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Boston Celtics received guard Evan Fournier from Orlando Magic.",
+        "TEAM_ID": 1610612738.0,
+        "TEAM_SLUG": "celtics",
+        "PLAYER_ID": 203095.0,
+        "PLAYER_SLUG": "evan-fournier",
+        "Additional_Sort": 1610612753.0,
+        "GroupSort": "Trade 2020077"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received guard Jeff Teague from Boston Celtics.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 201952.0,
+        "PLAYER_SLUG": "jeff-teague",
+        "Additional_Sort": 1610612738.0,
+        "GroupSort": "Trade 2020077"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2021-03-25T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Orlando Magic received draft consideration from Boston Celtics.",
+        "TEAM_ID": 1610612753.0,
+        "TEAM_SLUG": "magic",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612738.0,
+        "GroupSort": "Trade 2020077"
+      }
+    ],
+    "guide_comparison_window": [
+      "2021-04-12",
+      "2021-05-16"
+    ],
+    "guide_event_count": 15,
+    "own_feed_event_count": 12,
+    "comparison_counts": {
+      "DATE_PLAYER_ACTION_MATCH": 11,
+      "CONTRACT_CLASS_CONFLICT": 1,
+      "GUIDE_ONLY_EVENT_NOT_DELETED": 3
+    },
+    "comparison": [
+      {
+        "guide_event": {
+          "date": "2021-04-12",
+          "player": "Robert Franks",
+          "action": "SIGN_TEN_DAY",
+          "printed_page": 229
+        },
+        "player_id": 1629606,
+        "feed_groups": [
+          "Signing 1038903"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed forward Robert Franks to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-13",
+          "player": "Donta Hall",
+          "action": "SIGN_TEN_DAY",
+          "printed_page": 229
+        },
+        "player_id": 1629743,
+        "feed_groups": [
+          "Signing 1039009"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-13",
+          "player": "Devin Cannady",
+          "action": "RELEASE_TEN_DAY",
+          "printed_page": 229
+        },
+        "player_id": 1629962,
+        "feed_groups": [],
+        "status": "GUIDE_ONLY_EVENT_NOT_DELETED"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-13",
+          "player": "Karim Mane",
+          "action": "WAIVE_TWO_WAY",
+          "printed_page": 229
+        },
+        "player_id": 1630211,
+        "feed_groups": [
+          "Waive 1039021"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": null,
+        "feed_description": "Orlando Magic waived guard Karim Mane.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-16",
+          "player": "Devin Cannady",
+          "action": "SIGN_TWO_WAY",
+          "printed_page": 229
+        },
+        "player_id": 1629962,
+        "feed_groups": [
+          "Signing 1039158"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed guard Devin Cannady to a Two-Way Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-22",
+          "player": "Robert Franks",
+          "action": "SECOND_TEN_DAY",
+          "printed_page": 229
+        },
+        "player_id": 1629606,
+        "feed_groups": [
+          "Signing 1039454"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed forward Robert Franks to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-23",
+          "player": "Donta Hall",
+          "action": "SECOND_TEN_DAY",
+          "printed_page": 230
+        },
+        "player_id": 1629743,
+        "feed_groups": [
+          "Signing 1039465"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-27",
+          "player": "Moritz Wagner",
+          "action": "SIGN_REST_OF_SEASON",
+          "printed_page": 230
+        },
+        "player_id": 1629021,
+        "feed_groups": [
+          "Signing 1039576"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed forward Moritz Wagner to a Rest-of-Season Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-04-27",
+          "player": "Robert Franks",
+          "action": "RELEASE_TEN_DAY",
+          "printed_page": 230
+        },
+        "player_id": 1629606,
+        "feed_groups": [],
+        "status": "GUIDE_ONLY_EVENT_NOT_DELETED"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-02",
+          "player": "Ignas Brazdeikis",
+          "action": "SIGN_TEN_DAY",
+          "printed_page": 230
+        },
+        "player_id": 1629649,
+        "feed_groups": [
+          "Signing 1039697"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed forward Ignas Brazdeikis to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-02",
+          "player": "Donta Hall",
+          "action": "RELEASE_TEN_DAY",
+          "printed_page": 230
+        },
+        "player_id": 1629743,
+        "feed_groups": [],
+        "status": "GUIDE_ONLY_EVENT_NOT_DELETED"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-04",
+          "player": "Sindarius Thornwell",
+          "action": "SIGN_TWO_WAY",
+          "printed_page": 230
+        },
+        "player_id": 1628414,
+        "feed_groups": [
+          "Signing 1039782"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed guard Sindarius Thornwell to a Two-Way Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-04",
+          "player": "Devin Cannady",
+          "action": "WAIVE_TWO_WAY",
+          "printed_page": 230
+        },
+        "player_id": 1629962,
+        "feed_groups": [
+          "Waive 1039789"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": null,
+        "feed_description": "Orlando Magic waived guard Devin Cannady.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-09",
+          "player": "Donta Hall",
+          "action": "SIGN_REST_OF_SEASON",
+          "printed_page": 230
+        },
+        "player_id": 1629743,
+        "feed_groups": [
+          "Signing 1039896"
+        ],
+        "status": "CONTRACT_CLASS_CONFLICT",
+        "contract_class_match": false,
+        "feed_description": "Orlando Magic signed center Donta Hall to a 10-Day Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      },
+      {
+        "guide_event": {
+          "date": "2021-05-12",
+          "player": "Ignas Brazdeikis",
+          "action": "SIGN_REST_OF_SEASON",
+          "printed_page": 230
+        },
+        "player_id": 1629649,
+        "feed_groups": [
+          "Signing 1039949"
+        ],
+        "status": "DATE_PLAYER_ACTION_MATCH",
+        "contract_class_match": true,
+        "feed_description": "Orlando Magic signed forward Ignas Brazdeikis to a Rest-of-Season Contract.",
+        "nth_contract_scope": "Ordinal, if present, is sourced to guide only"
+      }
+    ],
+    "feed_only_groups": [],
+    "guide_path": "research/D1_ORLANDO_CALENDAR_SOURCES_2026_10_02.json",
+    "guide_sha256": "3adea76efe01691ce10d9922723c91467159e3fd76fc59941f8535aa0314185a",
+    "hall_may9_selected_world": "OMITTED_BY_EXISTING_AUTHOR_APPROVAL_NOT_RESTORED",
+    "historical_trade_groups_are_not_alternative_world_roster_inputs": true
+  },
+  "boundaries": {
+    "midnight_is_actual_receipt_time": false,
+    "waive_means_zero_salary": false,
+    "Signing_Contract_excludes_Summer": false,
+    "draft_consideration_identifies_pick_terms": false,
+    "feed_absence_proves_event_absence": false,
+    "source_verified_legal_proofs_added": 0,
+    "complete_domain_legal_proofs_added": 0,
+    "manuscript_allowed": false,
+    "new_author_locks": 0
+  }
+}
