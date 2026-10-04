@@ -1,0 +1,104 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "1661d6d3-d900-41da-ad54-7bc050f865eb"
+  ],
+  "question_sha256": "f7b2c0ed181056e543c5b45fac02a82f97acdb190a37a25fe8fca5c048569421",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 37.944,
+    "process_budget_seconds": 70.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "Based on the supplied evidence bundle, here is the concise breakdown separating historical public event coverage, counterfactual contract conditions, and full legal proof:\n\n---\n\n### 1. Separation of Domains\nThe provided bundle is a **Codex-derived research ledger** and does not constitute independent legal certification or author-locked authority [1-3]. Three distinct domains must be separated:\n* **Historical Public Event Coverage:** Public transaction feed items cross-checked against official team guides (e.g., Orlando’s 21 public events across 18 feed groups) [1, 4].\n* **Counterfactual Contract Conditions:** Conditional salary models calculated from media reports (e.g., Andrews, Charania) under CBA rules [3, 5, 6].\n* **Full Legal Proof:** Absolute legal verification of contract terms, execution ordering, or proving the total absence of unrecorded transactions [2, 7, 8].\n\n---\n\n### 2. 21-Event / 18-Group Reconciliation & Claims of \"No Secret Contracts\" or \"Zero Salary\"\nReconciling the 21 public events across 18 feed groups **does not permit** claiming that no secret or unpublished contracts existed, nor does it allow setting unknown salary residuals to zero [1, 2, 7]. \n* Reconciling public events merely confirms that defined, published transaction records match available guides [1, 2].\n* The ledger explicitly maintains `unpublished_event_absence_proved = false` and `unknown_salary_residual_zero = false`, leaving open legal and salary items unverified (`source_verified = false`) [2, 7].\n\n---\n\n### 3. Harrison 2018 Contract Year 2 (2 YOS) Scale Rule\nHarrison's 2019–20 base salary uses the **2018–19 Minimum Salary Scale table amount (\\$1,588,231)** rather than the **2019–20 Year 1 scale amount (\\$1,620,564)** for the following reasons:\n* **First-Season Scale Lock:** Under **2017 CBA Article II, Section 6(a)**, multi-year minimum contracts use the Minimum Annual Salary Scale table from the **first season of the contract** (2018–19) across the contract's entire duration [6].\n* **No Table Substitution:** Under CBA II §6(d)/(f), updated annual scales do not replace the original scale schedule for multi-year contracts already in progress [6].\n* **Accrued Experience:** Harrison had 2 Years of Service accrued (2 YOS) entering 2019–20 [6]. Applying **2 YOS × Year 2** of the 2018–19 table gives **\\$1,588,231** [3, 6]. \n* Substituting the 2019–20 new scale Year 1 (\\$1,620,564) creates an incorrect **\\$32,333** discrepancy by treating Year 2 of an existing contract as if it were Year 1 of a newly signed contract [3, 6].\n\n---\n\n### 4. Logical Overclaims Identified\n* **Harrison Protection Trigger (Aug 15 Protection vs. July 6 Waiver):**\n  * *Reported Condition:* Malika Andrews reported a \\$175,000 protection trigger for 2019–20 if Harrison was not waived prior to August 15, 2019 [3, 5].\n  * *Logical Overclaim:* Claiming the \\$175,000 guarantee was triggered is invalid because the Bulls officially waived him on **July 6, 2019**—before the August 15 trigger date (`reported_trigger_satisfied_if_unchanged = false`) [3, 5, 9]. Conversely, claiming total post-waiver obligation was unconditionally \\$0 without checking actual settlement terms is also an overclaim [5, 9].\n* **Asik Double Deduction:**\n  * *Reported Event:* Shams Charania reported a ~\\$3M medical exclusion grant on June 26, 2019 [3, 10].\n  * *Logical Overclaim:* Deducting \\$3M again from cap room is an erroneous double deduction, as the existing cap anchor model had **already accounted** for Asik's medical exclusion (`additional_deduction_to_existing_anchor_usd = 0`) [9, 10].\n\n---\n\n### 5. Completion Status\nIn accordance with the evidence boundaries, no individual reporter/author authority is locked, and the full legal registration or full season coverage remains **incomplete / HOLD** (`complete_domain/source_verified = false`, `manuscript_allowed = false`) [2, 7-9].\n\n🔍 *Would you like me to analyze any of the other contract cohorts or specific cap anchor models mentioned in your workspace?*",
+      "question": "Use only this supplied evidence bundle, which is Codex-derived and not independent certification. Separate historical public event coverage, counterfactual contract conditions and full legal proof. Check whether the 21-event/18-group reconciliation permits claiming no secret contracts or zero salary. Explain why Harrison 2018-contract Year2 with 2 YOS uses the 2018 table amount rather than 2019 Year1. Identify any logical overclaim, especially Aug15 reported protection vs July6 waiver and Asik double deduction. Do not assign author authority or mark the full season complete. Keep the answer concise and cite the provided source.",
+      "conversation_id": "752354ec-2669-4666-a387-efff6de5ec44",
+      "sources_used": [
+        "1661d6d3-d900-41da-ad54-7bc050f865eb"
+      ],
+      "citations": {
+        "1": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "2": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "3": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "4": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "5": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "6": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "7": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "8": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "9": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+        "10": "1661d6d3-d900-41da-ad54-7bc050f865eb"
+      },
+      "references": [
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 1,
+          "cited_text_sha256": "e2ef5dc2a812ceb306f45a6a2ceb84a72018b4f857a286f300391e689c7b3e5b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 2,
+          "cited_text_sha256": "4aab84318b7872031ccacc0b404f03d4cc15cb67bffc7a809105cdffae5f0bc7",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 3,
+          "cited_text_sha256": "59720df282275187f93ddd0c7dec6892967815a7246dc149fa2dfebb4f44c652",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 4,
+          "cited_text_sha256": "92068088834b5b90c6abfa7a6977f4d87cac3e5a103d06c29bb283dae709ae7d",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 5,
+          "cited_text_sha256": "db9e54365987bd03d1adb5f5d41eba991663c0294bf828cc0b8820fe952aba13",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 6,
+          "cited_text_sha256": "123c84eb833719dfa93f71d1cb61d7ade58ea80efb5726da39e3edf60eb819bc",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 7,
+          "cited_text_sha256": "dd3591a520a8989699899b1fea0ced5cc1b31051778436febd531b504479b5f8",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 8,
+          "cited_text_sha256": "f5f6df9727d9f7ce8b217efba84e4bfcee0291261ae1d625ae0eab11528ca205",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 9,
+          "cited_text_sha256": "8245c1c1247680ee1178946d6ba2371f7a8e9940d55041e2fc709329a9e3dc25",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "1661d6d3-d900-41da-ad54-7bc050f865eb",
+          "citation_number": 10,
+          "cited_text_sha256": "bbc1fb5bb45002ea133ef50e9cadfd498bc7a42fd7dd6dbfdfbb9a77caa7d05a",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
