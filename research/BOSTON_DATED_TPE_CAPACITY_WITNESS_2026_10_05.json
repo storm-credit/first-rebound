@@ -1,0 +1,429 @@
+{
+  "artifact_id": "BOSTON_DATED_TPE_CAPACITY_WITNESS_2026_10_05",
+  "baseline_main": "5a717b375a4fce91087c69bc548ff0a2412b41ab",
+  "status": "S2_SOURCE_SUPPORTED_DATED_TPE_CAPACITY_BRANCH_PASS",
+  "scope": "Only dated_TPE_charge_and_capacity under preserved approved Boston public input model; no pick or wholeF2 closure",
+  "classification": {
+    "facts": "Original CBA rules, NBA March16 positiveavailableTPE snapshot, officialHaywardassignment, publichistoricalcontracttables and finiteevents",
+    "inference": "Legal sequence exists for preservedBostoninputfamily with all incomingbonus bounds",
+    "candidate": "Independent actualartifact/source/CBA/canon reviewaccepted oneTPEcapacitybranch",
+    "author_locked": "Existing T3Boston direction; no newbonus/order/pick/contractselection"
+  },
+  "source_recoveries": [
+    {
+      "id": "BT_HAYWARD_SS",
+      "url": "https://www.salaryswish.com/players/gordon-hayward",
+      "classification": "SECONDARY_HISTORICAL_CONTRACT_BODY",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\gordon-hayward_2026_10_05.html",
+      "raw_sha256": "661535c11027b48734f7a8a52a525d2037d2c6c86e71c0d13d3db7d9488d2699",
+      "bytes": 114002,
+      "actual_rows": [
+        "2019-20 | Max | $32,700,690 | $32,700,690 (+5%) | $32,700,690 | $0 | $0",
+        "2020-21 | Max | Player | No (Nov 19, 2020) | $34,187,085 | $34,187,085 (+5%) | $0 | (34.2M→0) | $0 | $0",
+        "2020-21 | $28,500,000 | $28,500,000 | $28,500,000 | $0 | $0"
+      ],
+      "current_season_base_usd": 28500000,
+      "prior_season_salary_usd": 32700690,
+      "reported_protected_percent": 100
+    },
+    {
+      "id": "BT_NBA_AVAILABLE",
+      "url": "https://www.nba.com/news/trade-exceptions-what-they-are-and-why-they-matter",
+      "classification": "PRIMARY_NBA_CONTEMPORANEOUS_POSITIVE_AVAILABILITY_REPORT",
+      "published_date": "2021-03-16",
+      "access": "Parent web.open actual283linebody;L168/180/187/196",
+      "available_amount_usd": 28500000,
+      "raw_sha256": null,
+      "not_adopted": "Article general claim salary/tax unaffected is incorrect for playercost; CBA determines costs"
+    },
+    {
+      "id": "BT_NBA_ASSIGNMENT",
+      "url": "https://www.nba.com/news/hornets-acquire-gordon-hayward-future-draft-picks-in-sign-and-trade-deal",
+      "classification": "PRIMARY_OFFICIAL_RELEASE",
+      "published_date": "2020-11-29",
+      "access": "Parent web.open actual242linebody;L177",
+      "raw_sha256": null,
+      "meaning": "Positive original HaywardS&T event; monetaryterms not disclosed by release"
+    },
+    {
+      "id": "BA_BI_BODY",
+      "url": "https://web.archive.org/web/20210420161634id_/http://www.basketballinsiders.com/boston-celtics-team-salary/",
+      "classification": "CONTEMPORANEOUS_ORIGINAL_CAP_REPORTING_ARCHIVE",
+      "locator": "Quick; TradeKickers; qualifyingoffers; unsignedpicks; waivedplayers; datedtransaction list",
+      "direct_recovery": "Python requests HTTP200; local body read",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\bos_BI_archive.html",
+      "bytes": 139160,
+      "raw_sha256": "02fc44e9df81370ce44007c6f2d026e254e79e669f95ea2601e0ec31fccbee47",
+      "content_updated": "2021-03-29",
+      "archive_timestamp": "2021-04-20T16:16:34Z"
+    },
+    {
+      "id": "BA_CBA",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "classification": "PRIMARY_CBA_ORIGINAL_TEXT",
+      "locator": "NBA633page edition; allPDFpage indices onebased",
+      "direct_recovery": "Python requests HTTP200; local body read",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "bytes": 2176412,
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "edition_pages": 633
+    },
+    {
+      "id": "BA_2018_SCALE",
+      "url": "https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf",
+      "classification": "PRIMARY_NBA_CBA101_ACTUAL_2018_SCALE",
+      "locator": "PDF29 ExhibitA; pick25 thirdyearoption1801.6($000)",
+      "direct_recovery": "Python requests HTTP200; local body read",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\NBA_2018_19_CBA101.pdf",
+      "bytes": 501528,
+      "raw_sha256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "draft_class": "2018",
+      "guide_season": "2018-19"
+    },
+    {
+      "id": "BA_BREF_TRANSACTIONS",
+      "url": "https://www.basketball-reference.com/teams/BOS/2021_transactions.html",
+      "classification": "SECONDARY_HISTORICAL_EVENT_INVENTORY_BODY",
+      "locator": "2020-21 datedtransactions; Dec4/19 Amile; Mar25 incoming; Apr16 Parker/Wagner; Jun18 outside analysis period",
+      "direct_recovery": "Python requests HTTP200; local body read",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\bref_boston_2021_transactions.html",
+      "bytes": 146136,
+      "raw_sha256": "fcb6f5d9f1e17c88393b593b17c986705d9a14285cc5c970599b0284e6e9fc25"
+    },
+    {
+      "id": "BA_SS_OUTGOING_DANIEL_THEIS",
+      "classification": "SECONDARY_HISTORICAL_CONTRACT_BODY_READ",
+      "locator": "2020-21 contracthistory tr; Bostoncontract notlaterMilwaukeeTeague",
+      "direct_recovery": "Parent requests HTTP200 localactualrowread",
+      "slug": "daniel-theis",
+      "url": "https://www.salaryswish.com/players/daniel-theis",
+      "raw_sha256": "e8db5205a494c8845ff3669385ee767d08b61cf798d65a8b78e13e31437a897b",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\daniel-theis_2026_10_05.html",
+      "bytes": 119562,
+      "historical_rows": [
+        "2020-21 | $5,000,000 | $5,000,000 | $5,000,000 | (0→5.00M) | $0 | $0"
+      ]
+    },
+    {
+      "id": "BA_SS_OUTGOING_JAVONTE_GREEN",
+      "classification": "SECONDARY_HISTORICAL_CONTRACT_BODY_READ",
+      "locator": "2020-21 contracthistory tr; Bostoncontract notlaterMilwaukeeTeague",
+      "direct_recovery": "Parent requests HTTP200 localactualrowread",
+      "slug": "javonte-green",
+      "url": "https://www.salaryswish.com/players/javonte-green",
+      "raw_sha256": "ce7e3d8273e4923326ffa07ecb924b87bc708d3ec08cda9bd0212b2483f67a51",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\javonte-green_2026_10_05.html",
+      "bytes": 140404,
+      "historical_rows": [
+        "2020-21 | $1,517,981 | $1,517,981 (+69%) | $1,517,981 | (0→1.52M) | $0 | $0"
+      ]
+    },
+    {
+      "id": "BA_SS_OUTGOING_JEFF_TEAGUE",
+      "classification": "SECONDARY_HISTORICAL_CONTRACT_BODY_READ",
+      "locator": "2020-21 contracthistory tr; Bostoncontract notlaterMilwaukeeTeague",
+      "direct_recovery": "Parent requests HTTP200 localactualrowread",
+      "slug": "jeff-teague",
+      "url": "https://www.salaryswish.com/players/jeff-teague",
+      "raw_sha256": "294f31b525f42faf34dbb8aec83354d393dc9818c06cac567c0483899cadda25",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\jeff-teague_2026_10_05.html",
+      "bytes": 117153,
+      "historical_rows": [
+        "2020-21 | $510,589 | $808,073 | $808,073 | $0 | $0",
+        "2020-21 | $2,564,753 | $1,620,564"
+      ]
+    }
+  ],
+  "repository_input_sha256": {
+    "research/BOSTON_APRON_COMPONENT_BOUND_2026_10_05.json": "62576ddeb7bd2c5744cd9dec8c77fff585111e5925cddeaefc14388024c5942a",
+    "research/BOS_FOURNIER_2025_2027_ASSET_EQUIVALENCE_2026_10_05.json": "d537871318b0eb8e419f478792c19e39b313149690cbfefa5865aa626a102c83"
+  },
+  "inherited_canon_input_links": [
+    {
+      "path": "simulation/CAUSALITY_MODEL.md",
+      "sha256": "f54f2b26a79669ad3798cb2e0b7c19b2bb98d6e431fbc3a76f2d891f2a092b10",
+      "lines_1based": [
+        54,
+        57,
+        58
+      ],
+      "positive_claim": "Useactualseasoncontractbaseline, preserveunchangedinputs; changedinputsonly deeprecompute",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/2018_DRAFT_30_60_ALTERNATE_BOARD.md",
+      "sha256": "74741546a50efc22eb807a3dfb03136042b3926b0e023de424bb60bcd225a163",
+      "lines_1based": [
+        31
+      ],
+      "positive_claim": "ExplicitLakersprior#25Wagner; olderboardreferencealoneisnotlatestlock",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/2018_DRAFT_22_60_REOPEN.md",
+      "sha256": "3f6c78cd0efd6e66ab9781f020ff44a4068cd491b1637f5701654f9d712d3ccc",
+      "lines_1based": [
+        54,
+        55,
+        56
+      ],
+      "positive_claim": "Chicago22 primarybranch preservesactual23-27; no25replacement",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/2018_DRAFT_37_60_TRENT_CASCADE.md",
+      "sha256": "0e093cf25c4e1fcc3a747357ed6d6544065c3cc1a49fcc7baa54d20b81abeaba",
+      "lines_1based": [
+        99
+      ],
+      "positive_claim": "2019ADsalaryrestorationpreservesWagner, substitutesTrentforBonga",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md",
+      "sha256": "ceabac5790c5a6dfccd8cee487ba224f51ea34bfb5d447b54c230ea0eeeb86ce",
+      "lines_1based": [
+        4,
+        17,
+        41
+      ],
+      "positive_claim": "AuthorlockedNesmith14/Pritchard26",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+      "sha256": "bebab50e2569747fc7cf3caf0cb5189f10921500c9bb14f5b1975e524abe5b69",
+      "lines_1based": [
+        17,
+        21
+      ],
+      "positive_claim": "T3FournierBostonretained; exactfeesnotselected andnotneededforclosedbonusinterval",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md",
+      "sha256": "0ae90f0295a5a15d53187246a101d667515230dda84e3ad7924be4b87736d560",
+      "lines_1based": [
+        37,
+        38,
+        39,
+        57
+      ],
+      "positive_claim": "BostonunchangedTheis/Greenout,Wagner/Kornetin; changedChicago/WASplayersdo notaddBostoncontracts",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    },
+    {
+      "path": "simulation/BOSTON_DENVER_2020_21_PAYROLL.md",
+      "sha256": "c3778950dd549b60edea157a881d77f58b80c6494b031ca8adaa99381d77de07",
+      "lines_1based": [
+        14,
+        62,
+        65
+      ],
+      "positive_claim": "AlreadyapprovedBosWagner/Kornetretained; postdeadlineParkerlaterandWagneroldsalaryassignedBoston; outsideclubnewWagnernotBOS",
+      "interpretation": "PRESERVED_PUBLIC_CONTRACT_COST_INPUT_NOT_EXACT_NEW_CONTRACT_SELECTION"
+    }
+  ],
+  "dated_availability_bridge": {
+    "positive_start": "2021-03-16",
+    "end_before_assignments": "2021-03-25",
+    "start_capacity_usd": 28500000,
+    "catalogs": [
+      "BA_BREF_TRANSACTIONS",
+      "BA_BI_BODY"
+    ],
+    "historical_bref_last_prior_player_event": "2020-12-19 AmileJeffersonwaiver",
+    "historical_next_assignment_event": "2021-03-25 two groups",
+    "historical_intervening_acquisitions": [],
+    "alternate_link": "Existing CAUSALITY_MODEL baseline and8preservedBostoncostdirectionlinks. No reviewedapproved additionalBostonacquisition March16–24; finiteexistinginputfamily, not universal unreportedabsence.",
+    "not_claim": "Do not infer Nov29–Mar16 continuousqualification from March25 payroll. March16 positiveavailable snapshot is start witness. If earlierapprovedchanges invalidate snapshotidentity,recompute."
+  },
+  "legal_rules": [
+    {
+      "article": "VII6(j)(1)(i),(iii)",
+      "pdf_pages": [
+        233,
+        234
+      ],
+      "meaning": "Use conservative125%+100000 simultaneousmatching; Theis/Green originalcontracts held >2months"
+    },
+    {
+      "article": "VII6(j)(1)(ii)",
+      "pdf_pages": [
+        234
+      ],
+      "meaning": "Non-simultaneousHaywardTPE100% outgoingSalary+100000. Ignoreextra100000forstress"
+    },
+    {
+      "article": "VII6(j)(4)",
+      "pdf_pages": [
+        235,
+        236
+      ],
+      "meaning": "Haywardnew28.5m <120% prior32.700690m; BYC20%salaryincreasecondition false"
+    },
+    {
+      "article": "VII6(j)(5)(ii)",
+      "pdf_pages": [
+        236
+      ],
+      "meaning": "March25 duringJan10–regularlastday: outgoingbase deemedfullyprotected for matching"
+    },
+    {
+      "article": "VII6(l)",
+      "pdf_pages": [
+        238
+      ],
+      "meaning": "Do not combine exceptions; can selectavailableexception"
+    },
+    {
+      "article": "VII6(m)(1),(2)",
+      "pdf_pages": [
+        238,
+        239,
+        240
+      ],
+      "meaning": "Continuouseligibility from positivesnapshot bridge; excludingexceptionitself salarylower>cap"
+    },
+    {
+      "article": "VIII1(c)(i)",
+      "pdf_pages": [
+        294
+      ],
+      "meaning": "Wagnerfirstoption rookiecontract lowest80%scale1801600=1441280; upper120%2161920 includesSalaryandunlikely"
+    }
+  ],
+  "cap_eligibility_lower_witness": {
+    "cap_usd": 109140000,
+    "common_12_contracts": [
+      {
+        "player": "Kemba Walker",
+        "base_lower_usd": 34379100
+      },
+      {
+        "player": "Jaylen Brown",
+        "base_lower_usd": 22991071
+      },
+      {
+        "player": "Jayson Tatum",
+        "base_lower_usd": 9897120
+      },
+      {
+        "player": "Marcus Smart",
+        "base_lower_usd": 12946428
+      },
+      {
+        "player": "Tristan Thompson",
+        "base_lower_usd": 9258000
+      },
+      {
+        "player": "Romeo Langford",
+        "base_lower_usd": 3631200
+      },
+      {
+        "player": "Aaron Nesmith",
+        "base_lower_usd": 3458400
+      },
+      {
+        "player": "Grant Williams",
+        "base_lower_usd": 2498760
+      },
+      {
+        "player": "Payton Pritchard",
+        "base_lower_usd": 2035800
+      },
+      {
+        "player": "Robert Williams III",
+        "base_lower_usd": 2029920
+      },
+      {
+        "player": "Semi Ojeleye",
+        "base_lower_usd": 1752950
+      },
+      {
+        "player": "Carsen Edwards",
+        "base_lower_usd": 1517981
+      }
+    ],
+    "common_base_sum_usd": 106396730,
+    "excluded_nonnegative_costs": [
+      "JeffTeagueENTIREcontract",
+      "allperformance/bonuses",
+      "priorstretch",
+      "camp",
+      "ordinaryFArights",
+      "exceptioncharges"
+    ],
+    "before_WK_lower_usd": 112914711,
+    "after_WK_lower_usd": 110088010,
+    "Wagner_minimum_original_rookie_usd": 1441280,
+    "Kornet_existing_base_usd": 2250000,
+    "before_margin_usd": 3774711,
+    "after_margin_usd": 948010,
+    "Teague_reimbursement_guard": "SSreportsplayerbase2564753 butcap1620564. Neither is insertedinlower; completeomissionavoidsreimbursementandBI2320044conflict. Prior tentativeagent115234755/113128694 notadopted."
+  },
+  "sequence_existence_witness": [
+    {
+      "order": 1,
+      "atomic_group": "TheisGreenout_KornetWagnerin",
+      "outgoing_matching_base_usd": 6517981,
+      "conservative_matching_limit_usd": 8247476.25,
+      "Kornet_full_base_bonus_upper_usd": 2587500,
+      "Wagner_full_rookie_salary_unlikely_upper_usd": 2161920,
+      "incoming_total_upper_usd": 4749420,
+      "matching_margin_usd": 3498056.25,
+      "Hayward_TPE_used_usd": 0
+    },
+    {
+      "order": 2,
+      "atomic_group": "Fournierin_Teagueout",
+      "receiving_exception": "ONE_HAYWARD_TPE",
+      "Fournier_base_usd": 17000000,
+      "likely_usd": 450000,
+      "unlikely_overincluded_usd": 1150000,
+      "full_bonus_upper_usd": 2550000,
+      "total_receive_stress_usd": 21150000,
+      "start_TPE_usd": 28500000,
+      "remaining_stress_usd": 7350000,
+      "Teague_note": "MaycreateoutgoingTPE; notcombinedwithHaywardforFournierreceipt"
+    }
+  ],
+  "all_three_Hayward_capacity_stress": {
+    "Wagner_Kornet_Fournier_upper_usd": 25899420,
+    "start_usd": 28500000,
+    "remaining_usd": 2600580,
+    "meaning": "Additional numericalcapacitystress, not declaredactualallocation or requiredroute"
+  },
+  "cost_safety_link": {
+    "path": "research/BOSTON_APRON_COMPONENT_BOUND_2026_10_05.json",
+    "already_closed_S2_row": "BOS_COMPLETE_COST",
+    "states_usd": [
+      121899556,
+      120130995,
+      138716242,
+      138716242
+    ],
+    "apron_usd": 138928000,
+    "not_new_cost_pass": true
+  },
+  "closure": {
+    "branch_id": "dated_TPE_charge_and_capacity",
+    "legal_capacity_witness_ready": true,
+    "branch_pass": true,
+    "whole_BOS_TPE_AND_PICKS_pass": false,
+    "pick_branches_remaining": [
+      "2025_2R_ownership_priority",
+      "2027_2R_ownership_priority"
+    ],
+    "exact_receipt_or_bonus_or_pick_selection": false,
+    "F2_pass": false,
+    "manuscript_allowed": false,
+    "later_input_family_change_invalidates": true
+  },
+  "independent_review": {
+    "reviewer": "/root/independent_finish_scope",
+    "actual_JSON_MD_raw_CBA_sources_and_8_canon_links_checked": true,
+    "verdict": "TPE_CAPACITY_SUBBRANCH_ACCEPTED_ONLY",
+    "finding": "Haywardunusedoptionrownotnewcontract; Teagueomittedfromlower; caplower112914711/110088010; matchingandnonaggregationvalid; March16positive snapshotbridgefinite; twoassetbranchesHOLD"
+  }
+}

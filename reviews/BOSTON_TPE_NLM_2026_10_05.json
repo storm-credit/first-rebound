@@ -1,0 +1,59 @@
+{
+  "scope": "ONE_DERIVED_PACKET_SCOPE_ANALYSIS_NOT_INDEPENDENT_SOURCE_OR_APPROVAL",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "0034a1f1-4276-44de-b768-1301345bde7d"
+  ],
+  "source_lf_normalized_utf8_sha256": "1fae9384f75232bff57e800ab657482b55a49deaeb3d936bea3ec7e2001dbce0",
+  "question_sha256": "ec953267025fff94a3dfbf7bc522abb4b105bdba0b613a9457011ef83c1dc7f5",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 46.598,
+    "process_budget_seconds": 100,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. Positive March 16 Snapshot vs. Nov 29 Continuous History\n* **March 16 Positive Snapshot**: The candidate packet grounds its analysis on a positive observation from March 16 confirming Boston held a \\$28.5m Traded Player Exception (TPE) [1].\n* **Nov 29 History**: It distinguishes this snapshot from an unproved continuous transaction log starting Nov 29 (Gordon Hayward sign-and-trade) [1]. The packet explicitly rejects treating intermediate unpublicized ledger changes between Nov 29 and March 16 as universal mandatory new gates [1].\n\n---\n\n### 2. Bounded Sequence Verification: WK Matching & Hayward-Fournier Absorption\n* **Wagner + Kornet (WK) Simultaneous Exception**: Outgoing salaries of Daniel Theis + Javonte Green (\\$6,517,981) generate a matching ceiling of \\$8,247,476.25 (125% + \\$100k) [2]. Incoming Wagner (\\$2,161,920) + Kornet (\\$2,587,500) total \\$4,749,420, leaving \\$3,498,056.25 in excess matching room [2].\n* **Single Hayward TPE Absorption**: Evan Fournier (\\$21,150,000) is absorbed individually against the \\$28,500,000 Hayward TPE, leaving \\$7,350,000 in unused room [2].\n* **Sensitivity Check**: Absorbing all three incoming players (Wagner, Kornet, Fournier) into the Hayward TPE yields \\$25,899,420 ≤ \\$28,500,000, leaving \\$2,600,580 [2].\n\n---\n\n### 3. Teague Omission Validity & Cap Floor Bounds\n* **Omission Validity**: Complete omission of Jeff Teague's contract from the floor calculation remains **valid** because team salary stays strictly above the \\$109.14m salary cap at all steps [3].\n* **Floor Values**: From a 12-contract base floor of \\$106,396,730, adding Theis + Green pre-trade yields \\$112,914,711 (> \\$109.14m cap); replacing them post-trade with Kornet (\\$2.25m) and Wagner's 80% rookie minimum (\\$1,441,280) yields \\$110,088,010 (> \\$109.14m cap) [3].\n\n---\n\n### 4. Wagner 80% Lower / 120% Upper & Non-Aggregation\n* **Wagner Salary Bounds**: Wagner's lower bound is set at his 80% rookie minimum (\\$1,441,280) [3]. His upper bound is set at 120% (\\$2,161,920), which includes trade bonus allocations without double-counting [2].\n* **Non-Aggregation Rule**: Per CBA Article VII Section 6(l), the WK simultaneous trade exception and the Hayward TPE are maintained separately without aggregating other TPEs (\"다른 TPE 합산은 0\") [2].\n\n---\n\n### 5. Concrete Input Scope & Reasoning Defects\n* **Teague Salary vs. Cap Charge Confusion**: Confusing Teague's base salary (\\$2,564,753) with his minimum cap charge (\\$1,620,564) introduces a defect in floor construction [3].\n* **Flawed Media Generalization**: Accepting media claims that acquiring players has zero cap or tax impact is a flawed generalization rejected by the packet [1].\n* **Incentive Over-Inclusion**: Over-includes Fournier's \\$1.15m unlikely incentives and \\$2.55m trade bonus in upper-bound sensitivity testing [2].\n* **Unreported Absence Gate Defect**: Treating unreported absence of intermediate transactions as a universal requirement is identified as a reasoning flaw [1].\n\n---\n\n### 6. Preserved Open Scopes & Constraints\n* **Draft Picks & Unresolved Branches**: World-line priorities/obligations for the 2025 and 2027 draft picks remain on **HOLD** [4].\n* **Unclosed Executions**: Actual transaction fees/receipts, full F2 legal/health executions, season executions, Chicago connections, and manuscript conclusions are intentionally left unclosed by this subbranch [4].\n* **External Link Verification**: Hyperlinks provided within the derived packet cannot be independently verified from this packet alone [1].\n\n💡 Would you like me to construct a visual sensitivity matrix comparing the single TPE absorption versus simultaneous matching exceptions across these salary ranges?",
+      "question": "Only analyze this derived candidatepacket. Distinguish positiveMarch16availableTPE snapshot fromunprovedNov29continuoushistory; verify boundedsequence WKmatching then singleHaywardFournier. Is TeagueENTIREomission inlower valid? Check Wagner80%lower120%upper and nonaggregation. Find concrete inputscope/reasoning defect, not privateledger/unreportedabsence universal newgate. Do not close2025/2027pickbranches, actualfees/receipt, fullF2, Chicago, season, manuscript. Cannot independentlyverifylinks from thisderivedpacket. Concise findings only.",
+      "conversation_id": "1ace903f-4165-4349-b7ec-35c34f611f34",
+      "sources_used": [
+        "0034a1f1-4276-44de-b768-1301345bde7d"
+      ],
+      "citations": {
+        "1": "0034a1f1-4276-44de-b768-1301345bde7d",
+        "2": "0034a1f1-4276-44de-b768-1301345bde7d",
+        "3": "0034a1f1-4276-44de-b768-1301345bde7d",
+        "4": "0034a1f1-4276-44de-b768-1301345bde7d"
+      },
+      "references": [
+        {
+          "source_id": "0034a1f1-4276-44de-b768-1301345bde7d",
+          "citation_number": 1,
+          "cited_text_sha256": "75c28f400d7185eacf36d3a33d594d07c6e7067e0eca245b576ced43961accbd",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "0034a1f1-4276-44de-b768-1301345bde7d",
+          "citation_number": 2,
+          "cited_text_sha256": "730f2991ad883ef9773516f575da83746043ab1b6d2dda1bce28f3ff5bfc4124",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "0034a1f1-4276-44de-b768-1301345bde7d",
+          "citation_number": 3,
+          "cited_text_sha256": "def3d3e51f152cb0e84175477dc794cb3c3593e0a34e7a3fe27351d6627262b6",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "0034a1f1-4276-44de-b768-1301345bde7d",
+          "citation_number": 4,
+          "cited_text_sha256": "2d98ae67648cecddebb35968188c4290b6431169d0044c631417e7190af6739d",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
