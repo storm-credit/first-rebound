@@ -82,5 +82,93 @@
   "new_author_decisions": 0,
   "manuscript_allowed": false,
   "research_agent": "/root/nba_legal_next",
-  "independent_screen_review": "ACTUAL_ARTIFACT_REVIEW_ACCEPTED_BY_INDEPENDENT_FINISH_SCOPE_NO_GAMMA_PROMOTION"
+  "independent_screen_review": "FOLLOWUP_ACTUAL_ARTIFACT_ACCEPTED_BY_CHI_SALARY_DOMAIN_LOCATOR_CORRECTION_APPLIED",
+  "followup_baseline_main": "b089d5f0e3f1cff6b719c83bca867072b6468a4e",
+  "gordon_reported_guarantee_point": {
+    "url": "https://www.salaryswish.com/players/aaron-gordon",
+    "authority": "PUBLIC_DATA_VENDOR_ORIGINAL_2018_CONTRACT_HISTORY_NOT_CONTEMPORANEOUS_ARCHIVE_OR_LEAGUE_RECEIPT",
+    "access": "LOCAL_HTTP200_AND_PARENT_WEB_BODY_READ",
+    "raw_html_bytes": 112228,
+    "raw_html_sha256": "f3951a489ddb5af031a8784140bb66d64687f6c10f308637a93c64bfa936c337",
+    "locator": "2018 VETERAN CONTRACT / third HTML table / 2020-21 and 2021-22 rows",
+    "reported_signing_date": "2018-07-06",
+    "reported_rows": [
+      {
+        "season": "2020-21",
+        "base": 18136364,
+        "guaranteed": 18136364
+      },
+      {
+        "season": "2021-22",
+        "base": 16409091,
+        "guaranteed": 16409091
+      }
+    ],
+    "reported_ratios": [
+      1,
+      1
+    ],
+    "lack_of_skill_category_explicitly_named": false,
+    "contract_95_percent_is_not_base_protection_ratio": true,
+    "later_2024_trade_kicker_not_applied": true
+  },
+  "conditional_skill_half_route": {
+    "preconditions": [
+      "Reported Guaranteed=Base is applicable lack-of-skill protection100/100 at allocation",
+      "2017 VII3b applies to this 2020-21 assignment",
+      "Only current and next cap years remain, no additional terms"
+    ],
+    "earned_lower_assumed_for_stress": 0,
+    "current_allocation_fraction": "1/2 based on protected percentages, not dollars",
+    "combined_ceiling_exact": "3205909.125",
+    "combined_ceiling_usd_cents_rounded_up": "3205909.13",
+    "verdict": "CONDITIONAL_SCOPE_NOT_COMPLETE_GAMMA_SOURCE_WITNESS",
+    "still_exceeds_named_base_saving": true
+  },
+  "conditional_daily_earned_route": {
+    "schedule_source": {
+      "url": "https://www.nba.com/news/how-rest-road-trips-and-other-factors-played-out-in-2021-22-schedule",
+      "author": "John Schuhmann",
+      "published": "2021-08-23",
+      "access": "WEB_BODY_READ_409_LINES_DIRECT_HTTP403",
+      "locator": "Days table and definition / web lines204-217",
+      "reported_days": 146,
+      "raw_html_sha256": null
+    },
+    "date_source": {
+      "url": "https://www.nba.com/news/nba-2020-21-season-faq",
+      "updated": "2021-04-01",
+      "access": "WEB_BODY_READ_310_LINES_DIRECT_HTTP403",
+      "start": "2020-12-22",
+      "end": "2021-05-16",
+      "raw_html_sha256": null
+    },
+    "trade_date_counted_as_remaining_day": true,
+    "remaining_calendar_days": 53,
+    "fraction": "53/146",
+    "combined_ceiling_usd_cents_rounded_up": "2339462.97",
+    "preconditions": [
+      "All conditions of conditional_skill_half_route",
+      "Ordinary salary earned proration applies to XXIV trade remaining Base Compensation on this 2020-21 date"
+    ],
+    "trade_earned_connection_source_verified": false,
+    "UPC_16e_is_termination_clause_not_direct_trade_definition": true,
+    "no_177_day_or_82_game_rule_copied": true,
+    "verdict": "CONDITIONAL_NUMERIC_FEASIBILITY_NOT_COST_OR_GAMMA_PASS"
+  },
+  "cba_followup_locators": {
+    "lack_of_skill_definitions": [
+      "II3(g) PDF40 / printed18",
+      "II4(a) PDF44 / printed22"
+    ],
+    "signing_bonus_proration": {
+      "pdf193_text_sha256": "8c437e14a675f6f2b28bb1189740ef8261d041ea083ea33e5f10e190bffb83a5"
+    },
+    "trade_bonus_ceiling": {
+      "pdf398_text_sha256": "7b73db6a8ee98227cf0afc6c7606242f303360c729a3f621b15dc09b6a0a9354"
+    },
+    "UPC16e": {
+      "pdf531_text_sha256": "df20db8ea555eb34dcba41ca2c6bad1e25a2e371a911907841682ef68b18cf58"
+    }
+  }
 }
