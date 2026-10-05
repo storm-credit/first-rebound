@@ -170,5 +170,43 @@
     "UPC16e": {
       "pdf531_text_sha256": "df20db8ea555eb34dcba41ca2c6bad1e25a2e371a911907841682ef68b18cf58"
     }
+  },
+  "trade_earned_scope_followup": {
+    "baseline_main": "92d3db48d2ff8f4b4459dbb02554e061c2f261a1",
+    "classification": "OFFICIAL_SUPPORTING_CONTEXT_NOT_DIRECT_XXIV_EARNED_DEFINITION",
+    "source_url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "source_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "minimum_team_salary_rule": {
+      "locator": "VII2(b)(4)(i) PDF184-185 / printed162-163",
+      "page_text_sha256": {
+        "184": "8ae45313606d3fe2f9934bcdb4b841123e96cd09508f5e347ada3ce9142d013f",
+        "185": "865087ab3c159dc07e342224eed34fce0ef4026b562fcb728666f2b9c6bc1ea3"
+      },
+      "supports": "For Minimum Team Salary only: same contract acquired by trade/waiver allocates Salary by roster regular-season days over actual regular-season days; last team gets remainder",
+      "does_not_certify": "Ordinary earned Base Compensation definition for XXIV trade bonus"
+    },
+    "assignment_rule": {
+      "locator": "UPC10(a) PDF521 / printedA-9",
+      "page_text_sha256": "805ed0e68bef304a0a9381a3c0b773d67d3f63381cea8106f0a85c44bb8b1fb7",
+      "supports": "Assignment transfers same contract with same force and effect",
+      "does_not_certify": "Daily definition of earned Base Compensation"
+    },
+    "rejected_bridge": "UPC3(b) PDF514-515 is training-camp/preseason weekly advance, not regular-season earned definition",
+    "expert_search_not_adopted": [
+      {
+        "url": "https://medium.com/16-wins-a-ring/carmelo-anthony-to-the-clippers-a-cap-cba-primer-c8a642aa60dd",
+        "author": "Cole Zwicker",
+        "access": "SEARCH_INDEX_ONLY_HTTP403_WEB_TIMEOUT",
+        "body_verified": false
+      },
+      {
+        "url": "https://www.basketballinsiders.com/news/nba-am-timing-is-crucial-for-trade-kickers/",
+        "access": "AGENT_HTTP200_BODY_READ",
+        "cache_sha256": "16343d92fdff20d8cba01b767a3618f07b732120c4110a3e0f08f38ce003b920",
+        "not_adopted_reason": "2015-16 example with later2021 displayed update/byline, not2020-21 earned rule source"
+      }
+    ],
+    "trade_earned_connection_source_verified": false,
+    "gamma_promoted": false
   }
 }

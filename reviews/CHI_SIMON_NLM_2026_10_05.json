@@ -1,0 +1,53 @@
+{
+  "scope": "SINGLE_DERIVED_PACKET_PROVENANCE_ANALYSIS_NOT_INDEPENDENT_SOURCE_OR_LEGAL_PROOF",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "a3f86818-a620-4da7-a77c-9894a47bba1c"
+  ],
+  "source_sha256": "881d5de3a3409648cd620e582f32a46d2616b7f063950c2ad3d94aa76e3717cd",
+  "question_sha256": "606b50063fc1a9646c3554102b7fc097410ab8ecc854e1eff093644179ca9ed7",
+  "installed_cli_version": "0.11.5",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 49.565,
+    "process_budget_seconds": 115,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### Analysis of Derived Packet: `CHI Simon2019 carry scope 2026-10-05 PR419 followup`\n\n#### 1. Fact and Assertion Tier Distinction\n* **Original Reporter Fact (원보도 사실)**: Adam Zagoria’s 2019-09-12 report (updated Sept 13) states based on league sources that Justin Simon agreed to/signed an **Exhibit 10 contract** [1]. The packet explicitly distinguishes this news reporting from physical contract documents or official league filing receipts [1].\n* **Official Roster / Movement Fact (공식 명단·이동 사실)**:\n  * **NBA Official Movement**: Transaction `Waive 1021066` confirms Chicago officially waived Justin Simon on **2019-10-19** [1].\n  * **G League Official Roster**: Windy City Bulls’ official November 7 opening night roster classifies Simon (along with Callandret, Doyle, and Shittu) as an **Affiliate Player** [1].\n* **CBA Local Inference (국소 법적 추론)**: Application of 2017 CBA rules to the Exhibit 10 classification and waiver timing:\n  * **2017 CBA Art. II §3(q)**: Exhibit 10 is a 1-season minimum salary contract allowing no non-E10 bonuses or salary protection (unless converted to Two-Way) [1].\n  * **2017 CBA Art. VII §7(d)(6)(A)**: Preseason waivers after September 1 leave current-season salary in place, excluding current/upcoming season amounts from future-year stretch [1].\n  * **2017 CBA Art. VII §4(k)**: Exhibit 10 Bonus amounts are statutorily excluded from Team Salary [1].\n* **Candidate Status (후보)**: Unclosed roster items across the broader cohort (e.g., Blakeney, Callandret, Deng, Doyle, Shittu, and 2020 waived cohort), currently logged under legal status **2 complete / 10 HOLD** (F0/5, A0/3, K0/4) [2].\n* **Author Selection (작가 확정 / 작가 선택)**:\n  * **\"New author selections = 0\" (새 작가 선택 0)**: Preserves existing approval directions and canonical contract paths [2].\n  * Workflow state: `freeze v0.30 PARTIAL`, `design/manuscript CLOSED`, `manuscript 0` [2].\n\n---\n\n#### 2. Scope of Zero  Valuation\n* **YES, zero is strictly limited to three specific items** for Justin Simon's contract:\n  1. **2020–21 Ordinary Base Salary = 0** (because the contract was a single-season 2019–20 contract) [3].\n  2. **Future-Year Stretch of 2019–20 Salary = 0** (excluded by post-Sept 1 preseason waiver rules) [1, 3].\n  3. **Exhibit 10 Bonus Inclusion in Team Salary = 0** (excluded from Team Salary under CBA VII §4(k)) [1, 3].\n* **What Zero Does NOT Cover**: It does **not** certify zero for 2019–20 current-year injury compensation, arbitration or post-adjustments, separate new contracts, or Chicago's overall other team carry costs [3]. It is not a broad zeroing out of all liabilities based merely on a waiver event [3].\n\n---\n\n#### 3. Unwarranted Inferences & R_CHI Expansion Scope\n* **Affiliate Status Fallacy**: G League Affiliate Player status on the Windy City roster is a G League roster fact and **does not independently prove NBA contract type** [1].\n* **Waiver Alone Fallacy**: A waiver event alone does not justify setting total remaining contract liability to zero without evaluating contract duration, specific terms, and applicable CBA stretch provisions [3].\n* **Unwarranted Expansion to Entire R_CHI**: This packet is strictly a **local S2 legal inference tied to public reporter facts for Justin Simon alone** [1]. It explicitly is **not** a terminating witness or proof for Chicago’s total roster carry costs (`전체 R·이월 비용의 종료 증인이 아니다`) [1]. The overall R upper bound remains `null`, and `CHI_TEAM_SALARY` is held on `HOLD` [2].\n\n---\n\n#### 4. Gate Requirements & Verification Standard\n* The packet explicitly establishes that **it does NOT require private original physical contracts or proof of absolute absence of unannounced costs as a new gate or prerequisite** [3].\n* It operates within finite public coverage and applicable CBA governing rules without introducing ungrounded verification hurdles [3].\n\n---\n\n#### 5. Finite Remaining Components Needing Evidence\n* **2019 Waived Cohort (5 players remaining)**: Blakeney, Callandret, Deng, Doyle, and Shittu are not closed by this packet alone; their contract types, terms, and carry amounts require separate evidence [2].\n* **2020 Waived Cohort (3 players)**: Requires continued inspection under the Chicago retrospective flow and S2 register [2].\n* **Initial / Exception Inclusions**: Broader exception items and overall team salary totals (`CHI_TEAM_SALARY`) remain on `HOLD` pending further register checks [2].\n\n---\n\n*(This analysis represents provenance and contradiction checking of the specified derived packet, not independent primary source verification or legal approval.)*\n\n🔍 Would you like me to examine the remaining 5 players from the 2019 waived cohort (Blakeney, Callandret, Deng, Doyle, Shittu) or review the 2020 waiver cohort in the S2 register?",
+      "question": "Analyze only this specified derived packet. Distinguish original reporter fact, official roster fact, CBA local inference, candidate, and author selection. Is zero limited to ordinary2020-21 base/current-season future stretch/Exhibit10Bonus inclusion? Identify any unwarranted inference from Affiliate status or waiver alone, and any expansion from one contract to entire R_CHI. Do not require private original contracts or absolute absence of unreported costs as a new gate. Explain which finite remaining components still need evidence. This is provenance/contradiction analysis, not independent source verification or legal approval.",
+      "conversation_id": "5ee0b1ef-5e5c-4cfe-81ba-a16f6a75a634",
+      "sources_used": [
+        "a3f86818-a620-4da7-a77c-9894a47bba1c"
+      ],
+      "citations": {
+        "1": "a3f86818-a620-4da7-a77c-9894a47bba1c",
+        "2": "a3f86818-a620-4da7-a77c-9894a47bba1c",
+        "3": "a3f86818-a620-4da7-a77c-9894a47bba1c"
+      },
+      "references": [
+        {
+          "source_id": "a3f86818-a620-4da7-a77c-9894a47bba1c",
+          "citation_number": 1,
+          "cited_text_sha256": "a1e072fddd8e877be4553f07fbe61c746ece8ff9e3e397e7c92d21b6911a738d",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "a3f86818-a620-4da7-a77c-9894a47bba1c",
+          "citation_number": 2,
+          "cited_text_sha256": "e8fae07dddbaa4c0f3e0cdf845a0a1a59945c52c443dd2448aa89f2f35a26270",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "a3f86818-a620-4da7-a77c-9894a47bba1c",
+          "citation_number": 3,
+          "cited_text_sha256": "2a15bd6f6524e257a7c2cd1806a0c3d8ff721331fdd7a713de7494d184c8b9b2",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
