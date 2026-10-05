@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "source_id": "PINCUS_2021_03_22",
+  "url": "https://bleacherreport.com/articles/2937467-ranking-every-nba-team-by-its-trade-asset-war-chest",
+  "author": "Eric Pincus",
+  "date": "2021-03-22",
+  "access": "WEB_ORIGINAL_PAGE_BODY_READ",
+  "local_requests_http_status": 403,
+  "raw_html_sha256": null,
+  "locator": "intro paragraph / web line40",
+  "raw_article_retained_in_repository": false,
+  "authority": "POST_SIGNING_ORIGINAL_PUBLIC_ANALYST_REPORT_NOT_LEAGUE_EXCEPTION_RECEIPT",
+  "reported_claim": "Denver used Campazzo BAE; 2020–21 hardcap.",
+  "reported_rounded_limit_usd": 138900000,
+  "exact_138928000_from_this_report_verified": false,
+  "historical_hardcap_supported_by_public_report": true,
+  "whole_comparator_complete": false,
+  "legal_fields_promoted": [],
+  "amount_sources": {
+    "NBA_2019_CAP": {
+      "url": "https://pr.nba.com/nba-salary-cap-for-2019-20-season-set-at-109-140-million/",
+      "authority": "NBA_OFFICIAL_RELEASE",
+      "access": "WEB_ORIGINAL_BODY_READ",
+      "local_requests_http_status": 403,
+      "raw_html_sha256": null,
+      "cap_usd": 109140000,
+      "tax_usd": 132627000,
+      "release_status": "2019_EFFECTIVE_CAP"
+    },
+    "NBA_2020_CAP": {
+      "url": "https://pr.nba.com/nba-nbpa-2020-21-season/",
+      "authority": "NBA_OFFICIAL_RELEASE",
+      "access": "WEB_ORIGINAL_BODY_READ",
+      "local_requests_http_status": 403,
+      "raw_html_sha256": null,
+      "cap_usd": 109140000,
+      "tax_usd": 132627000,
+      "release_status": "2020_AGREEMENT_IN_PRINCIPLE_SUBSEQUENT_APPROVAL_RECORDED_SEPARATELY"
+    },
+    "NBA_2020_APPROVAL": {
+      "url": "https://pr.nba.com/nba-board-of-governors-approves-adjustments-to-collective-bargaining-agreement/",
+      "date": "2020-11-10",
+      "authority": "NBA_OFFICIAL_RELEASE",
+      "access": "WEB_ORIGINAL_BODY_READ",
+      "scope": "Board approval of adjustments, not bilateral amendment text or team ledger"
+    },
+    "NBA_AUTHORED_2019_CBA101": {
+      "url": "https://nyc3.digitaloceanspaces.com/sportsarchive-documents/prod/63f2840a2a9ad/2019-20-CBA-101-October-2019.pdf",
+      "authority": "NBA_AUTHORED_ORIGINAL_THIRD_PARTY_MIRROR_NOT_OFFICIAL_HOST",
+      "pdf_page_one_based": 10,
+      "section": "I.F(3)(e)",
+      "raw_pdf_sha256": "58b6b5b1889cc795c2112ef9a76421ac45977930d045de5b77b1c56b0e403a9c",
+      "page_text_sha256": "23c88caf7750c9a231029a8de67185f0cb584f6166a07a8a0e20b9d98db5215b",
+      "tax_apron_offset_2019_usd": 6301000,
+      "published_precision": "0.001 million USD"
+    },
+    "CBA_2017_FORMULA": {
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "authority": "OFFICIAL_2017_ORIGINAL_RULE_LINKED_TO_POST_SIGNING_2020_APPLICATION_REPORT",
+      "pdf_page_one_based": 240,
+      "printed_page": 218,
+      "section": "VII 6(m)(3)",
+      "raw_pdf_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "page_text_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+      "formula": "APRON_OFFSET_CURRENT = APRON_OFFSET_PRIOR * (1 + 0.5 * (CAP_CURRENT/CAP_PRIOR - 1))"
+    }
+  },
+  "historical_apron_bound": {
+    "classification": "S2_SOURCE_SUPPORTED_HISTORICAL_APRON_BOUND_LEGAL_INFERENCE",
+    "policy": "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json",
+    "team": "DEN",
+    "upper_usd": 138928000,
+    "source_verified": true,
+    "cap_change_ratio": "0",
+    "date_scope": [
+      "2021-03-25",
+      "2021-05-16"
+    ],
+    "definition": "Apron-adjusted Team Salary under VII 6(m)(3); BAE season-long restriction",
+    "comparison_phase": "AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS",
+    "full_private_ledger_required": false,
+    "exact_ledger_or_receipt_certified": false,
+    "2020_amendment_full_text_recovered": false,
+    "method": "Post-signing season application report + official cap amounts + NBA-authored prior offset + original annual adjustment rule",
+    "not_from_rounded_pincus_limit": true
+  },
+  "independent_review": {
+    "agent": "/root/independent_finish_scope",
+    "scope": "Original report, original rule and numeric-source chain; historical bound only",
+    "accepted": "Limited S2 historical bound may be counted as source-supported legal inference; no full amendment/private ledger prerequisite",
+    "complete_alternate_cost": false
+  },
+  "excludes": [
+    "Other 2020 amendment provisions",
+    "Alternative actual exception use or contract receipt",
+    "GAMMA_GORDON",
+    "GAMMA_CLARK",
+    "DELTA_OTHER",
+    "F3 intervening trade order",
+    "matching",
+    "pick clauses"
+  ]
+}

@@ -1,5 +1,7 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-05 [Denver 역사 상한·A01 입문 후속](../reviews/DEN_EXCEPTION_A01_CONTINUATION_REVIEW_2026_10_05.md): S2 공개 근거 기반 법적 추론으로 원역사 apron 상한138,928,000을 확보해 F5 비교식에 연결했다. 정확 장부 인증·다른 개정 조항·전체 대체 비용과 구분하며 보너스/기타차액3상단은null, 추가법적PASS0. A01 기존 오프닝 구식지문2개를 원본 대조 후 갱신하고 첫체험·첫기여를 독립 검문해 국소핵심Blueprint3(총9Beat) 연결. 알려진 패배 다음날 재방문과 달력/C1대응 미정도 분리했다. AG검색4/답변빈값, NLM초기사본34.068초회수; Claude/전체blind 이번NOT_RUN. 법적2완료/10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래 상한null·국소1 등의 표기는 당시 이력이다.
+
 2026-10-05 [Denver F5 비용 비교 증명](../reviews/DEN_F5_COST_COMPARATOR_REVIEW_2026_10_05.md): 원역사Nnaji22/대체Bey22 비율을 독립80~120%로 놓고 Hartenstein잔류−McGee미취득 기본급 차액을 합치면 −3,372,716~−1,786,156이다. 원역사 전체 상한+보너스/모든비공통차액의 증명 경로를 명시했으며 해당 상한은 아직null. 실제독립코드/CBA검문·음성6종·NLM단일파생출처49.384초회수; 추가법적PASS0. 등록2완료/법적10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0.
 
 2026-10-04 [Antigravity 응답 복구](../reviews/A04_DRAFT_CALENDAR_REVIEW_2026_10_04.md): 설치 CLI의 `--output-format json`은 최상위 `status/response`, `stream-json`은 `event=result/result`다. [공용 파서](../tools/parse_antigravity_stream.py)는 두 형식을 구분하고 중복 terminal/중복 JSON키·오류·빈응답을 성공으로 올리지 않는다. 무도구 `AGY_OK`와 NBA G5 원문 수집 응답을 실제 회수했다. 이전 hash만 남은 stdout은 소급 인증하지 않으며, 응답 회수≠원자료/대체세계 검증 원칙은 유지한다.

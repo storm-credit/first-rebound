@@ -13,6 +13,7 @@ PAYROLL = 'simulation/BOSTON_DENVER_2020_21_PAYROLL.json'
 BRIDGE = 'simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json'
 AUTHORITY = 'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json'
 FUNDING = 'simulation/NBA_2021_EXECUTION_RESOLUTION.json'
+HISTORICAL_BOUND = 'research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json'
 
 
 def read(path):
@@ -23,6 +24,11 @@ def build():
     registration = read(REGISTRATION)
     payroll = read(PAYROLL)
     bridge = read(BRIDGE)
+    historical = read(HISTORICAL_BOUND)['historical_apron_bound']
+    assert historical['classification'] == 'S2_SOURCE_SUPPORTED_HISTORICAL_APRON_BOUND_LEGAL_INFERENCE'
+    assert historical['source_verified'] is True
+    assert historical['upper_usd'] == 138928000
+    assert historical['comparison_phase'] == 'AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS'
     core = {r['player']: r for r in payroll['teams']['DEN']['core_players']}
     # Existing #22 120% input is a conditional public-table input, not a
     # recovered historical contract or an author-selected alternative ratio.
@@ -33,7 +39,7 @@ def build():
     assert retained == 1620564  # Reuse the existing reported basic-salary input.
     omitted = core['JaVale McGee']['base_usd']
     saving = omitted - retained
-    paths = [REGISTRATION, PAYROLL, BRIDGE, AUTHORITY, FUNDING]
+    paths = [REGISTRATION, PAYROLL, BRIDGE, AUTHORITY, FUNDING, HISTORICAL_BOUND]
     den_branches = [b for b in registration['branches'] if b['team'] == 'DEN']
     assert len(den_branches) == 2 and all(len(b['rows']) == 53 for b in den_branches)
     assert all(all('Saddiq Bey' in r['standard'] and 'Isaiah Hartenstein' in r['standard']
@@ -41,13 +47,13 @@ def build():
                    for r in b['rows']) for b in den_branches)
     return {
         'schema': 1,
-        'baseline_main': '305104151e98d8570e1b8388e9a9583cbf00efa0',
+        'baseline_main': '9391faba1df3c981963d24e031d509dcc14bb4c6',
         'classification': 'CONDITIONAL_COMPARATOR_NOT_COMPLETE_COST_DOMAIN',
         'scope': {'team': 'DEN', 'start': '2021-03-25', 'end': '2021-05-16',
                   'phase': 'AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS',
                   'excludes': ['F3 intervening trade order', 'CLE cost',
                                'matching', 'pick obligations', 'actual contract execution']},
-        'shared_apron_definition': '2017 CBA VII 6(m)(3); applicable 2020 amendments unverified',
+        'shared_apron_definition': '2017 CBA VII 6(m)(3); historical application supported by dated reporting/numeric-source chain; complete alternative delta inventory unverified',
         'evidence_sha256': {p: sha256((ROOT / p).read_bytes()).hexdigest() for p in paths},
         'approved_transformation': {
             'historical_retained_rookie': 'Zeke Nnaji at #22',
@@ -77,8 +83,11 @@ def build():
             {'id': 'DELTA_OTHER', 'definition': 'all other non-common charge differences: contract adjustments, prior obligations, exception/rights treatment, subsequent contracts and residuals',
              'lower': None, 'upper': None, 'source_verified': False}],
         'closure_conditions': {
-            'historical_same_date_full_apron_bound': None,
-            'historical_applicable_limit_source_verified': False,
+            'historical_same_date_full_apron_bound': historical['upper_usd'],
+            'historical_applicable_limit_source_verified': historical['source_verified'],
+            'historical_bound_authority': historical['classification'],
+            'historical_bound_evidence': HISTORICAL_BOUND,
+            'historical_exact_ledger_or_receipt_certified': False,
             'same_definition_and_complete_delta_inventory_verified': False,
             'dominance_if_combined_other_delta_upper_at_most_usd': saving-int(delta),
             'equal_rookie_ratios_candidate': {'selected': False,
@@ -108,7 +117,9 @@ def validate(result):
                for r in result['unmeasured_differences'])
     assert result['daily_link']['release_does_not_erase_prior_pay'] is True
     assert result['reported_input_bounds']['historical_ratio_verified'] is False
-    assert result['closure_conditions']['historical_same_date_full_apron_bound'] is None
+    assert result['closure_conditions']['historical_same_date_full_apron_bound'] == 138928000
+    assert result['closure_conditions']['historical_applicable_limit_source_verified'] is True
+    assert result['closure_conditions']['historical_exact_ledger_or_receipt_certified'] is False
     assert result['complete_domain'] is False and result['source_verified'] is False
     assert result['legal_fields_promoted'] == [] and result['manuscript_allowed'] is False
     return result

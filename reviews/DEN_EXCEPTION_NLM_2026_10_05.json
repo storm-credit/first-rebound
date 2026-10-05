@@ -1,0 +1,55 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef"
+  ],
+  "question_sha256": "0ce1d175bd4e967abdcee3b1c24afbddfd28b1a987a7193f66398afa778c9545",
+  "query_budget_seconds": 55.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 34.068,
+    "process_budget_seconds": 70.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "제공된 근거 패킷(\"DEN 2020 exception source boundary 2026-10-05\")을 바탕으로 분석한 결과는 다음과 같습니다.\n\n---\n\n### 1. 사실(Fact)과 추론(Inference)의 구분\n\n* **확인된 사실 (Fact):**\n  * **Singer의 원보도:** Mike Singer의 Denver Post(2020-11-21) 기사 본문(9번째 문단)에서 익명 리그 소식통을 인용하여 Green의 MLE, Campazzo의 BAE 사용 **'계획'을 미래형으로 보도한 사실**입니다 (구단의 최종 실행 확인은 아님) [1].\n  * **NBA 공식 기록:** Player Movement 고정 사본에서 Green과 Campazzo의 2020-11-30 **계약 서명 2행이 확인된 사실**입니다 (단, 실제 적용된 예외명은 기록되어 있지 않음) [1].\n  * **2017 CBA 조문:** CBA PDF(227/228/231/240쪽)상 BAE·NTMLE 사용 후 해당 cap year의 apron 의무, TaxMLE 재분류 조건, apron 성과 보너스 산입 **규정 자체의 내용**입니다 (단, 2020 개정 적용까지 인증된 것은 아님) [1].\n\n* **연결 및 도출된 추론 (Inference):**\n  * 당시 보도된 BAE 사용 계획과 후속 서명 기록의 일치를 바탕으로 **실제 적용 예외 및 실행 경로를 연결·지탱하는 것은 '추론'**에 해당합니다 [2].\n  * Green의 알려진 첫해 급여가 TaxMLE보다 크다는 이유만으로 취득 경로를 확정하거나, Bol의 낮은 첫해 급여를 단독 하드캡 증인으로 삼는 것 역시 확정적 사실이 아닌 검토 대상입니다 [2].\n\n---\n\n### 2. 138,928,000을 전체 비용 확정 상한으로 승격할 수 없는 이유\n\n* **138,928,000**은 실행 경로 도출상 계산되는 **'조건부 상한(conditional upper bound)'**에 불과하며, 공식 인증된 상한(certified upper bound)은 **null** 상태입니다 [2].\n* 따라서 이 근거 패킷만으로는 `DEN_COMPLETE_COST` 또는 `DEN_F5_COMPLETE_COST` 항목을 **PASS로 승격할 수 없으며**, 판정은 **'전체 비용 HOLD'** 상태로 유지됩니다 [1, 2].\n\n---\n\n### 3. F5 비교식에서 남는 비공통 차액 (DELTA)\n\nF5 비교식에서 완결되지 않고 남아 있는 비공통 차액 구간은 다음과 같습니다:\n\n* **Gordon / Clark의 당해 연도 배분 보너스 차이** [2]\n* **DELTA_OTHER 전체 차액 구간** [2]\n\n동일한 선수라는 이유만으로 미확인 보너스나 잔여 비용을 자동으로 0으로 간주할 수 없으므로, 원역사 상한에 비공통 차액 상단을 합산하여 제한 이하임을 증명하는 작업이 추가로 필요합니다 [3].\n\n---\n\n### 4. 최종 판정 및 상태 유지\n\n* **새 작가확정:** 0건 [3]\n* **법적 추가 PASS:** 0건 [3]\n* **전체 비용 판정:** **HOLD** (freeze v0.30 PARTIAL) [1-3]\n* 임의로 새로운 출처·금액을 창출하거나 시즌/원고 PASS를 부여하지 않습니다 [2, 3].\n\n---\n\n💡 F5 비교식의 세부 구조나 다른 관련 패킷과의 연결 검증이 필요하시면 말씀해 주세요.",
+      "question": "제공된 근거 패킷 하나만 분석하라. Singer의 미래형 예외 사용 계획, NBA의 후속 서명 기록, 2017 CBA 조문 사이에서 어떤 연결이 사실이고 어떤 연결이 추론인가? 138928000을 전체 비용 확정 상한으로 승격할 수 없는 이유와 F5 비교식에서 남는 비공통 차액을 구분하라. 새로운 출처·금액을 만들거나 시즌/원고 PASS를 부여하지 말고 출처 인용을 붙여 한국어로 답하라.",
+      "conversation_id": "89f79854-57f1-4c2e-91d4-712f74e7cf96",
+      "sources_used": [
+        "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef"
+      ],
+      "citations": {
+        "1": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef",
+        "2": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef",
+        "3": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef"
+      },
+      "references": [
+        {
+          "source_id": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef",
+          "citation_number": 1,
+          "cited_text_sha256": "ae4dfa0671f590e1d3f4a9497e0d7048620042e90da78aad56720fef3c03d0fd",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef",
+          "citation_number": 2,
+          "cited_text_sha256": "0bdb39b3ba91b6da505e933a766c697914537bf9dab920f6a6ce00b511069505",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2eac5fb0-76b1-4c1a-8f6b-5b30e0ce46ef",
+          "citation_number": 3,
+          "cited_text_sha256": "574a5637b5f9413ff7bc99c133d731cd834fe743f7d13b2ee2f5b781256a967d",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

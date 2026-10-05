@@ -3,7 +3,7 @@
   "baseline_main": "ce772c7bd15173ab4729051e0a6bc32deb9e1549",
   "verification_scope": "CURRENT_CANON_LOCAL_CORE_EVENTS_ONLY",
   "blueprint_path": "design/A01_OPENING_BLUEPRINT.json",
-  "blueprint_sha256": "7a4e29bc3ffdcf586965739f6b69e45a6202c8ac7dc546296917e382ce4ee1eb",
+  "blueprint_sha256": "070b784fc2d0d8a68eb2026301e40dbd7b21a49a65a1c7a0b607198cba8f94bf",
   "checks": {
     "source_hashes_current": 8,
     "beats": 4,
@@ -91,5 +91,19 @@
     "stale_source_rejected": true,
     "unreviewed_body_rejected": true,
     "temporary_positive_copy": true
+  },
+  "initial_reviewed_blueprint_sha256": "7a4e29bc3ffdcf586965739f6b69e45a6202c8ac7dc546296917e382ce4ee1eb",
+  "currentness_refresh": {
+    "date": "2026-10-05",
+    "baseline_main": "9391fab",
+    "stale_sources_detected": [
+      "canon/PROJECT_FREEZE.md",
+      "control/DESIGN_GATE.md"
+    ],
+    "source_diffs": "Status notes only since initial local audit; v0.7 canon and CLOSED requirements unchanged",
+    "parent_semantic_recheck_complete": true,
+    "events_replanned": 0,
+    "current_source_hashes": 8,
+    "related_review": "reviews/DEN_EXCEPTION_A01_CONTINUATION_REVIEW_2026_10_05.md"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "baseline_main": "305104151e98d8570e1b8388e9a9583cbf00efa0",
+  "baseline_main": "9391faba1df3c981963d24e031d509dcc14bb4c6",
   "classification": "CONDITIONAL_COMPARATOR_NOT_COMPLETE_COST_DOMAIN",
   "scope": {
     "team": "DEN",
@@ -15,13 +15,14 @@
       "actual contract execution"
     ]
   },
-  "shared_apron_definition": "2017 CBA VII 6(m)(3); applicable 2020 amendments unverified",
+  "shared_apron_definition": "2017 CBA VII 6(m)(3); historical application supported by dated reporting/numeric-source chain; complete alternative delta inventory unverified",
   "evidence_sha256": {
     "research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.json": "28b32eafb6f9793c637235eff727ef0e1da2c067c9497dc112a2047f6a7f29e1",
     "simulation/BOSTON_DENVER_2020_21_PAYROLL.json": "5cbe694a3ad68f60aa13b4a39ca7edcf91501d494dc6d02deed8944f876d871b",
     "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json": "38719c96d3a1139173ee99d134a020cb3a124060585ed246055f21912189ef24",
     "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "e2c90e54e821116b1f29b1d2ef4ed58d3e2e45bc15d2abd7ff15f58f75ff2fea",
-    "simulation/NBA_2021_EXECUTION_RESOLUTION.json": "50b6afaf48a4e40649d61baaabdb5a576331aef13102139f5007eb959efc232e"
+    "simulation/NBA_2021_EXECUTION_RESOLUTION.json": "50b6afaf48a4e40649d61baaabdb5a576331aef13102139f5007eb959efc232e",
+    "research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json": "b3fc224dd6368f975123a256a8ecb7ba957cf2d0556dd023110c700038eff299"
   },
   "approved_transformation": {
     "historical_retained_rookie": "Zeke Nnaji at #22",
@@ -78,8 +79,11 @@
     }
   ],
   "closure_conditions": {
-    "historical_same_date_full_apron_bound": null,
-    "historical_applicable_limit_source_verified": false,
+    "historical_same_date_full_apron_bound": 138928000,
+    "historical_applicable_limit_source_verified": true,
+    "historical_bound_authority": "S2_SOURCE_SUPPORTED_HISTORICAL_APRON_BOUND_LEGAL_INFERENCE",
+    "historical_bound_evidence": "research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json",
+    "historical_exact_ledger_or_receipt_certified": false,
     "same_definition_and_complete_delta_inventory_verified": false,
     "dominance_if_combined_other_delta_upper_at_most_usd": 1786156,
     "equal_rookie_ratios_candidate": {
