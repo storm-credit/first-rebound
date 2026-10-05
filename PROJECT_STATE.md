@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-05 [Boston TPE 하위 분기 검수](reviews/BOSTON_TPE_BRANCH_REVIEW_2026_10_05.md): 3/16긍정가용28.5m·유한사건/보존입력 연결과WK매칭→단일HaywardFournier21.15m 순서증인을독립검문해TPE1/3분기종료. 두픽HOLD·전체법적3완료/9HOLD·F0/5 A0/3 K0/4는유지. Teague전액제외하한112,914,711/110,088,010·Chicago연간MLE/BAE와옛TPE/DPE범위분리. Chicago적용시점/전체비용미완료. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
+
 2026-10-05 [동시대 급여 원장 검수](reviews/DATED_CAP_REVIEW_2026_10_05.md): Boston보존비용모델의전체상단138,716,242와4상태비용순서증인을독립대조해BOS_COMPLETE_COST종료: 법적3완료/9HOLD. 픽/TPE/F전체·시즌은미완료다. Chicago동시대원장128,065,350·TempleNTMLE·11행날짜브리지는supporting이며CHI전체HOLD. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
 
 2026-10-05 [2019 이월·Denver 일할 범위 검수](reviews/CHI_SIMON_TRADE_SCOPE_REVIEW_2026_10_05.md): Simon/Blakeney/Deng/Shittu의 보고된2019기간4/6에 미래ordinaryyear/당해시즌futurestretch 국소0을 연결하고 SimonEx10Bonus산입도제외했다. ShittuFAhold898310·별도2020계약/전체R·조정은보존. Chicago전체비교종료 경계133,578,061은조건부이며 역사상단/기타차액null. DEN일수는최소팀급여 목적이며XXIV earned로승격0. AG48.376초검색실행/최종빈값, NLM새Simon사본49.565초회수, Claude85초timeout·독립Codex파일/원문국소검수수용. 추가법적PASS0·법적2완료/10HOLD·F0/5 A0/3 K0/4·국소Blueprint3·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0.
