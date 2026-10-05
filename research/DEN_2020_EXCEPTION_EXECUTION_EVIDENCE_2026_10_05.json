@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "baseline_main": "9391faba1df3c981963d24e031d509dcc14bb4c6",
+  "classification": "ORIGINAL_REPORT_AND_OFFICIAL_SIGNING_LINK_NOT_EXECUTED_EXCEPTION_CERTIFICATE",
+  "sources": {
+    "SINGER_ORIGINAL": {
+      "url": "https://www.denverpost.com/2020/11/21/nuggets-free-agency-jerami-grant-paul-millsap/",
+      "author": "Mike Singer",
+      "published_at": "2020-11-21T21:17:59Z",
+      "modified_at": "2020-11-21T23:17:14Z",
+      "access": "ORIGINAL_BODY_READ_HTTP200_PYTHON_REQUESTS",
+      "web_access": "ROBOTS_BLOCKED_SEPARATE_FROM_LOCAL_HTTP200",
+      "authority": "CONTEMPORANEOUS_ORIGINAL_REPORT_ANONYMOUS_LEAGUE_SOURCES",
+      "raw_html_sha256": "e2c60315e2ab15c9de9f8643d878db22cededf47a6f2824460a835d52e2d2a9d",
+      "raw_html_bytes": 186192,
+      "locator": ".body-copy p index 8 zero-based / paragraph 9 one-based",
+      "paragraph_sha256": "9ff7f351bc45b90f92231467fc5e94f377b15a00cb5980500a0d4bede7925bcc",
+      "raw_article_retained_in_repository": false
+    },
+    "NBA_MOVEMENT": {
+      "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
+      "authority": "OFFICIAL_LIVE_DATABASE_FROZEN_2026_10_04_NOT_CONTEMPORANEOUS_RECEIPT",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "total_rows": 9927,
+      "selected_rows": [
+        {
+          "row_index_zero_based": 5798,
+          "record": {
+            "Transaction_Type": "Signing",
+            "TRANSACTION_DATE": "2020-11-30T00:00:00",
+            "TRANSACTION_DESCRIPTION": "Denver Nuggets signed guard Facundo Campazzo to a Contract.",
+            "TEAM_ID": 1610612743.0,
+            "TEAM_SLUG": "nuggets",
+            "PLAYER_ID": 1630267.0,
+            "PLAYER_SLUG": "facundo-campazzo",
+            "Additional_Sort": 0.0,
+            "GroupSort": "Signing 1033589"
+          }
+        },
+        {
+          "row_index_zero_based": 5808,
+          "record": {
+            "Transaction_Type": "Signing",
+            "TRANSACTION_DATE": "2020-11-30T00:00:00",
+            "TRANSACTION_DESCRIPTION": "Denver Nuggets signed forward JaMychal Green to a Contract.",
+            "TEAM_ID": 1610612743.0,
+            "TEAM_SLUG": "nuggets",
+            "PLAYER_ID": 203210.0,
+            "PLAYER_SLUG": "jamychal-green",
+            "Additional_Sort": 0.0,
+            "GroupSort": "Signing 1033635"
+          }
+        }
+      ],
+      "exception_name_in_selected_rows": false
+    },
+    "CBA_2017": {
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "authority": "OFFICIAL_2017_RULE_TEXT_NOT_2020_AMENDMENT_CERTIFICATE",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "pages": [
+        {
+          "pdf_page_one_based": 227,
+          "printed_page": 205,
+          "section": "VII 6(d)(1)",
+          "text_sha256": "1aceebad4fd3a98adadad8826e9af895d99d22705feb712ad9b7c71277640fa2"
+        },
+        {
+          "pdf_page_one_based": 228,
+          "printed_page": 206,
+          "section": "VII 6(e)(1)",
+          "text_sha256": "29dbab5b2ece11f0ab356048dddec4eb3004cd670669a248b530340a9ecaba96"
+        },
+        {
+          "pdf_page_one_based": 231,
+          "printed_page": 209,
+          "section": "VII 6(f)(5)",
+          "text_sha256": "04cd2a6414e59b50589d2d4cf8a71f5f011d793b6ac7e7c1cfd4328401dcb5b1"
+        },
+        {
+          "pdf_page_one_based": 240,
+          "printed_page": 218,
+          "section": "VII 6(m)(3)",
+          "text_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+        }
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "R_GREEN_MLE_PLAN",
+      "class": "HISTORICAL_REPORT",
+      "source": "SINGER_ORIGINAL",
+      "claim": "November 21 original report attributes planned Green MLE use to an anonymous league source.",
+      "executed_exception_verified": false
+    },
+    {
+      "id": "R_CAMPAZZO_BAE_PLAN",
+      "class": "HISTORICAL_REPORT",
+      "source": "SINGER_ORIGINAL",
+      "claim": "November 21 original report attributes planned Campazzo BAE use to an anonymous league source; reported two-year total about $6 million is rounded.",
+      "executed_exception_verified": false
+    },
+    {
+      "id": "F_SIGNINGS_1130",
+      "class": "HISTORICAL_OFFICIAL_RECORD",
+      "source": "NBA_MOVEMENT",
+      "claim": "NBA records Green and Campazzo signing contracts November 30; the rows omit funding exception and detailed contract charge.",
+      "executed_exception_verified": false
+    },
+    {
+      "id": "F_BAE_2017",
+      "class": "FACT_2017_RULE",
+      "source": "CBA_2017",
+      "claim": "VII 6(d)(1) restricts Team Salary to the Apron from BAE use through that Salary Cap Year.",
+      "applicable_2020_rule_verified": false
+    },
+    {
+      "id": "F_NTMLE_2017",
+      "class": "FACT_2017_RULE",
+      "source": "CBA_2017",
+      "claim": "VII 6(e)(1) has the Apron restriction for NTMLE. VII 6(f)(5) permits TaxMLE reclassification only within its first-year salary ceiling and term limit.",
+      "applicable_2020_rule_verified": false
+    },
+    {
+      "id": "F_APRON_2017",
+      "class": "FACT_2017_RULE",
+      "source": "CBA_2017",
+      "claim": "VII 6(m)(3) includes performance bonuses otherwise omitted from Team Salary for Apron purposes.",
+      "applicable_2020_rule_verified": false
+    }
+  ],
+  "inferences": [
+    {
+      "id": "I_EXECUTION",
+      "class": "INFERENCE_NOT_OFFICIAL_EXCEPTION_RECEIPT",
+      "claim": "Later official signing of the same players is consistent with the reported funding plan; it does not name the actually applied exception.",
+      "historical_hardcap_source_verified": false
+    },
+    {
+      "id": "I_COMPARATOR_CAP",
+      "class": "CONDITIONAL_LEGAL_DERIVATION",
+      "claim": "If actual BAE use and the same 2020 rule/Apron definition apply, the historical complete same-date Apron cost is bounded even when private line items are not individually known.",
+      "conditional_upper_usd": 138928000,
+      "certified_upper_usd": null
+    }
+  ],
+  "comparison_link": "research/DEN_F5_COST_COMPARATOR_2026_10_05.json",
+  "open_proof_conditions": [
+    "Actual applied exception and 2020 rule applicability for the historical bound",
+    "GAMMA_GORDON current-year allocated bonus difference",
+    "GAMMA_CLARK current-year allocated bonus difference",
+    "DELTA_OTHER complete non-common cost inventory and upper bound"
+  ],
+  "excluded_shortcuts": [
+    "Green salary alone implies NTMLE without proving acquisition path and timing",
+    "Bol low first-year salary alone forces hardcap",
+    "November 21 funding plan equals November 30 executed exception receipt",
+    "Reported rounded $6 million fixes exact annual Campazzo charge",
+    "Same contract identity silently sets all bonus/residual differences to zero"
+  ],
+  "new_author_locks": 0,
+  "complete_domain": false,
+  "source_verified": false,
+  "legal_fields_promoted": [],
+  "manuscript_allowed": false
+}

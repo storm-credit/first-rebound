@@ -1,5 +1,7 @@
 # Denver F5 비교 증명 — 실제 검수 기록
 
+이 문서는 PR416의 초기 검수 기록이다. 이후 [역사 상한 후속 검수](DEN_EXCEPTION_A01_CONTINUATION_REVIEW_2026_10_05.md)에서 원역사 상한을 채웠다. 아래 상한null은 초기 시점이며 대체 비용 전체 HOLD는 유지한다.
+
 기준 main `305104151e98d8570e1b8388e9a9583cbf00efa0` / PR #415 이후. 대상은 [계산/조건 패킷](../research/DEN_F5_COST_COMPARATOR_2026_10_05.md)과 JSON/생성기다. 판정 **CONDITIONAL_COMPARATOR_REVIEWED / FULL_COST_HOLD**.
 
 ## 작업과 실제 검문
