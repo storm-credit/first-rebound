@@ -1,5 +1,7 @@
 # O-15F14-L Boston·Denver 후반 누적 급여
 
+2026-10-05 후속: 아래는 과거 부분합 이력이다. [Boston의 최신 보존 비용 상단 증인](../research/BOSTON_APRON_COMPONENT_BOUND_2026_10_05.md)은 누락stretch·Fournierunlikely·수취bonus를 포함해138,716,242/여유211,758로 S2비용행을 종료했다. 아래Fournier0과BOS여유5,381,195를 최신전체값으로 재사용하지 않는다. Denver는 별도 최신 F5비교증인을 따른다.
+
 - 기준 main: PR #164 / d611a0add148ac52b058b5f68448462e6a9c1201.
 - 판정: PUBLIC_CONTRACT_CARRY_FORWARD_BOUND_NOT_EXACT_TEAM_CLEARANCE.
 - 권위: 동명 JSON / `research/BOSTON_DENVER_2020_21_PAYROLL_SOURCES.json`.
