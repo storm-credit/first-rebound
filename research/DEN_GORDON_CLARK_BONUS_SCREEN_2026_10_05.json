@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "baseline_main": "259b5dbd8f7ed1af8c965a8ea794a8681515601f",
+  "classification": "SOURCE_INVESTIGATION_AND_CONDITIONAL_WIDE_SCREEN_NOT_GAMMA_BOUND",
+  "sources": [
+    {
+      "id": "ROBBINS_GORDON_2018_AGREEMENT",
+      "url": "https://www.orlandosentinel.com/sports/orlando-magic/os-sp-aaron-gordon-magic-agree-0702-story.html",
+      "authority": "ORIGINAL_REPORT_OF_AGREEMENT_NOT_SIGNED_CONTRACT_RECEIPT",
+      "access": "LOCAL_HTTP200_BODY_READ",
+      "published": "2018-07-02T02:10Z",
+      "modified": "2018-12-13T02:25:37Z",
+      "raw_html_sha256": "c6016dffb9e6d8a1e992e585e4bb9c410095ecd37f24d22e57dbfaf530f8ea2f",
+      "supports": "Four-year agreement without player/team option; year-by-year amount structure not yet complete in this report",
+      "does_not_certify": [
+        "signed terms",
+        "future protection percentages",
+        "trade bonus absence"
+      ]
+    },
+    {
+      "id": "CLARK_2020_GUARANTEE_SECONDARY",
+      "url": "https://www.hoopsrumors.com/2020/11/eastern-contract-details-heat-rondo-harris-clark-raptors.html",
+      "authority": "SECONDARY_REPORT_ATTRIBUTED_TO_KEITH_SMITH_ORIGINAL_TWEET_NOT_RECOVERED",
+      "original_tweet": "https://twitter.com/KeithSmithNBA/status/1331211141280919554",
+      "access": "LOCAL_HTTP200_BODY_READ",
+      "raw_html_sha256": "0e4252d6f22977427a358fe0f3c18f88a780a639308e9a8793f0d59b389eafb2",
+      "reported_base_2020_21": 2000000,
+      "reported_base_2021_22": 2100000,
+      "reported_2021_22_guarantee_trigger": "Seven days after end of 2021 moratorium",
+      "does_not_certify": [
+        "trade bonus absence",
+        "full charge",
+        "original tweet body"
+      ]
+    },
+    {
+      "id": "2017_CBA_BONUS",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "locators": [
+        "PDF398 / printed376 / XXIV2(a)(ii)",
+        "PDF193 / printed171 / VII3(b)(1)(ii)-(2)"
+      ],
+      "supports": "15 percent remaining Base Compensation ceiling excluding unexercised option; allocate using relative percentages of Base Compensation protected for lack of skill, not dollar amounts"
+    }
+  ],
+  "failed_absence_search": {
+    "pincus": "Direct regional restriction/403; indexed section did not recover explicit Trade Kickers None",
+    "later_gordon_3_percent": "2024 extension term not back-applied to 2021",
+    "performance_bonus_zero": "Not evidence of zero trade bonus"
+  },
+  "conditional_wide_screen": {
+    "assumptions": [
+      "Remaining years limited to 2020-21 and 2021-22",
+      "Existing reported full annual basic inputs reused",
+      "Current allocated amount no greater than total legal bonus",
+      "No absence/waiver/guarantee percentage inferred"
+    ],
+    "gordon_annual_bases": [
+      18136364,
+      16409091
+    ],
+    "clark_annual_bases": [
+      2000000,
+      2100000
+    ],
+    "rate": 0.15,
+    "gordon_total_ceiling": 5181818.25,
+    "clark_total_ceiling": 615000,
+    "combined_total_ceiling": 5796818.25,
+    "comparator_available_named_base_saving": 2579436,
+    "excess_before_unmeasured_other": 3217382.25,
+    "verdict": "WIDE_ROUTE_INSUFFICIENT_NOT_ACTUAL_EXCESS_OR_INFEASIBILITY"
+  },
+  "next_evidence": "Narrow allocated bonus differences using contemporary remaining-pay/protection/terms witnesses and inventory all non-common charges; another valid full-bound route remains allowed",
+  "gamma_gordon_verified_upper": null,
+  "gamma_clark_verified_upper": null,
+  "delta_other_verified_upper": null,
+  "complete_domain": false,
+  "legal_fields_promoted": [],
+  "new_author_decisions": 0,
+  "manuscript_allowed": false,
+  "research_agent": "/root/nba_legal_next",
+  "independent_screen_review": "ACTUAL_ARTIFACT_REVIEW_ACCEPTED_BY_INDEPENDENT_FINISH_SCOPE_NO_GAMMA_PROMOTION"
+}
