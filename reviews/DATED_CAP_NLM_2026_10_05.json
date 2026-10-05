@@ -1,0 +1,53 @@
+{
+  "scope": "SINGLE_DERIVED_PACKET_PROVENANCE_ANALYSIS_NOT_INDEPENDENT_LEGAL_PROOF",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "179bcfa5-2aad-4d7a-893f-3a9f866ce712"
+  ],
+  "source_lf_normalized_utf8_sha256": "ce5b3944f7cdc1a9786f6103ac727874fbf2e570f669e3edb8bd9dfe73d157d5",
+  "question_sha256": "dd71f2fdaf066a6bafd62271b6e8e24ce5169225a86745b443b6f67484efee5b",
+  "installed_cli_version": "0.11.5",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 40.061,
+    "process_budget_seconds": 115,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. Date and Provenance Mismatch (3/29 Body vs. 4/24 Dynamic Widget)\n* **Body Provenance & Timestamp**: The Basketball Insiders article body displays a **2021-03-29 update timestamp** and was archived on 2021-04-22 [1].\n* **Dynamic Widget Timestamp**: The original salary widget (`salaries_widget_new.php?team_id=11`) referenced by the body is a separate Web Archive snapshot dated **2021-04-24** [1].\n* **Ledger Provenance Classification**: This packet is categorized as a **contemporary public ledger from a cap analysis website**, not an official NBA league receipt [1].\n* **Date Attribution Rule**: The body’s update date (3/29) must **not** be copied or assumed as the reference date for the 4/24 dynamic widget [2].\n\n---\n\n### 2. Evaluation of the 11-Row No-Later-Registration Bridge\n* **Roster Movement Verification**: Cross-referencing the frozen NBA official player movement feed between 3/25 and 4/24 reveals **11 transactions across 2 groups**, all occurring on **3/25**, with **0 registration transactions** recorded between 3/25 and 4/24 [2].\n* **What it Proves**: This 11-row bridge proves that the widget’s player cohort directly connects to Chicago's post-March 25 trade deadline roster [2].\n* **Does it Prove Fullcharge Equality?**: **No.** The lack of subsequent registrations does **not** prove fullcharge equality (i.e., exact identity of widget update timing, incentive status, guarantee terms, option rights, exception balances, or arbitrage adjustments) [2].\n\n---\n\n### 3. NTMLE Usage vs. Unused Exception Eligibility vs. Team Salary Incorporation\n* **Garrett Temple's NTMLE Usage**: Garrett Temple's 1-year, **\\$4,767,000** contract utilized a portion of the Non-Taxpayer Mid-Level Exception (NTMLE) [2]. Matching the Room MLE dollar value does not reclassify it as Room MLE usage [2].\n* **Unused Exception Eligibility vs. Actual Team Salary Incorporation**:\n  * The body lists unused exception balances separately: **\\$4,491,000** (MLE) and **\\$3,623,000** (BAE) [2].\n  * Under **2017 CBA Art. VII § 6(m)(1)–(2)**, unused exception eligibility and balances are legally distinct from actual incorporation into Team Salary [2].\n  * An exception already incorporated into Team Salary is not removed merely because a higher salary is recorded later; conversely, journalist reports of exception usage do not prove prior non-incorporation [2]. Expiration terms (e.g., CBA § 6(d)(4)/§ 6(e)(4) regarding cap year generation and last regular season game expiration) must also be applied [2].\n\n---\n\n### 4. Testing the \\$5,512,711 Conditional Allowance & \\$8,114,000 Counterexample\n* **Public Ledger Base Total**: 15 players (**\\$127,968,089**) + Noah Vonleh waived row (**\\$97,261**) = **\\$128,065,350** (matching guaranteed/inclusive summary rows) [1]. Two Two-Way rows are blank [1].\n* **Upper Comparison Bound**: The historical upper comparison bound is **\\$133,578,061** [3].\n* **\\$5,512,711 Conditional Allowance**: The gap between the historical upper bound (\\$133,578,061) and the public table sum (\\$128,065,350) is **\\$5,512,711** [3]. This represents the maximum allowable buffer to cover missing actual Team Salary incorporations and alternative differences combined [3].\n* **\\$8,114,000 Counterexample Test**:\n  * Combining both unused exception balances (\\$4,491,000 MLE + \\$3,623,000 BAE) equals **\\$8,114,000** [2].\n  * If both unused exceptions (\\$8,114,000) are improperly added to the public table sum (\\$128,065,350), the total reaches **\\$136,179,350**, which **exceeds the upper bound by \\$2,601,289** [3].\n  * This counterexample demonstrates that automatically adding unused exception balances as active cap charges is invalid and violates the legal cap upper bound [3].\n\n---\n\n### 5. Upper Bound Boundary Conditions & Audit Gate Rules\n* **Reporter \"None\" Fields & Subtotals**: Reported omissions in the body (e.g., claiming zero FA cap holds, unsigned 1st rounders, or trade kickers) or public subtotals (\\$128,065,350) must **not** be treated as a complete legal upper bound [1].\n* **New Gate Restrictions**: Closing the finite analysis does **not** require demanding an unreleased private whole ledger or proving absolute unreported absence as a new prerequisite gate [3].\n\n---\n\n### 6. Concrete Remaining Finite Claims\nThe remaining finite verification claims are strictly bounded by three items [3]:\n1. **Legal incorporation scope and timing** (법적 산입 범위·시점) [3].\n2. **Daniel Theis / Javonte Green and all non-common cost differences** (Theis/Green 및 모든 비공통 비용 차액) [3].\n3. **Incorporation, usage, and renunciation history of valid exceptions** (유효 예외의 산입/사용/포기 이력) [3].\n\n💡 Would you like to analyze the specific cap hit timing and incorporation rules for the Daniel Theis and Javonte Green transaction differences?",
+      "question": "Analyze only this derived dated cap ledger packet. Identify date/provenance mismatch between3/29 body and4/24 dynamicwidget. Does11row no-later-registration bridge prove fullcharge equality? Distinguish NTMLE use, unusedexception eligibility, and actual TeamSalary incorporation. Test the5512711 conditional allowance and8114000 counterexample. Do not count reporterNone fields or subtotal as complete legalupper, and do not demand privatewholeledger or absolute unreportedabsence as newgate. Return concrete remaining finite claims. Not independent historical verification or approval.",
+      "conversation_id": "1b674ea1-ba92-4d93-b5be-c948e237992d",
+      "sources_used": [
+        "179bcfa5-2aad-4d7a-893f-3a9f866ce712"
+      ],
+      "citations": {
+        "1": "179bcfa5-2aad-4d7a-893f-3a9f866ce712",
+        "2": "179bcfa5-2aad-4d7a-893f-3a9f866ce712",
+        "3": "179bcfa5-2aad-4d7a-893f-3a9f866ce712"
+      },
+      "references": [
+        {
+          "source_id": "179bcfa5-2aad-4d7a-893f-3a9f866ce712",
+          "citation_number": 1,
+          "cited_text_sha256": "b012180ce7b7c2c1cb005d916e49a8082ef94538166984030d2c608ffbc85f66",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "179bcfa5-2aad-4d7a-893f-3a9f866ce712",
+          "citation_number": 2,
+          "cited_text_sha256": "1e1230ca1df1f0d0440b6260718191d83c362d3b6e4f0064984c0e102ffcefe7",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "179bcfa5-2aad-4d7a-893f-3a9f866ce712",
+          "citation_number": 3,
+          "cited_text_sha256": "b6db80a078ed3ccf9897bb97ed85bc7286fa1b621ab30bf94d6ce60f00cb6381",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

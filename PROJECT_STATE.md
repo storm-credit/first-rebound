@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-05 [동시대 급여 원장 검수](reviews/DATED_CAP_REVIEW_2026_10_05.md): Boston보존비용모델의전체상단138,716,242와4상태비용순서증인을독립대조해BOS_COMPLETE_COST종료: 법적3완료/9HOLD. 픽/TPE/F전체·시즌은미완료다. Chicago동시대원장128,065,350·TempleNTMLE·11행날짜브리지는supporting이며CHI전체HOLD. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
+
 2026-10-05 [2019 이월·Denver 일할 범위 검수](reviews/CHI_SIMON_TRADE_SCOPE_REVIEW_2026_10_05.md): Simon/Blakeney/Deng/Shittu의 보고된2019기간4/6에 미래ordinaryyear/당해시즌futurestretch 국소0을 연결하고 SimonEx10Bonus산입도제외했다. ShittuFAhold898310·별도2020계약/전체R·조정은보존. Chicago전체비교종료 경계133,578,061은조건부이며 역사상단/기타차액null. DEN일수는최소팀급여 목적이며XXIV earned로승격0. AG48.376초검색실행/최종빈값, NLM새Simon사본49.565초회수, Claude85초timeout·독립Codex파일/원문국소검수수용. 추가법적PASS0·법적2완료/10HOLD·F0/5 A0/3 K0/4·국소Blueprint3·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0.
 
 2026-10-05 [공개 입력·자산 범위 후속](reviews/D1_PUBLIC_INPUT_FOLLOWUP_REVIEW_2026_10_05.md): Chicago의 실제2019 cap-room 사용 사후 보도와 후속 공개21행을 확보했으며 전체R/이월상단은미확인이다. Gordon 기본급·Guaranteed100/100 공개점과 실제146일 달력을 회수했지만 skill보호/거래earned 연결은조건부이며Gamma를채우지않는다. BOS두픽은역사정체성과870순번쌍 선택규칙만 supporting; 전체우선권 종료아님. 추가법적PASS0·2완료/10HOLD·F0/5 A0/3 K0/4·국소Blueprint3·최종회차0·실제Pack0·미완료큰묶음6·PARTIAL/CLOSED·원고0.
