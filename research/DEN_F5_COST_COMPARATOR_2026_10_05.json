@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "baseline_main": "9391faba1df3c981963d24e031d509dcc14bb4c6",
+  "baseline_main": "259b5dbd8f7ed1af8c965a8ea794a8681515601f",
   "classification": "CONDITIONAL_COMPARATOR_NOT_COMPLETE_COST_DOMAIN",
   "scope": {
     "team": "DEN",
@@ -22,7 +22,8 @@
     "simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json": "38719c96d3a1139173ee99d134a020cb3a124060585ed246055f21912189ef24",
     "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "e2c90e54e821116b1f29b1d2ef4ed58d3e2e45bc15d2abd7ff15f58f75ff2fea",
     "simulation/NBA_2021_EXECUTION_RESOLUTION.json": "50b6afaf48a4e40649d61baaabdb5a576331aef13102139f5007eb959efc232e",
-    "research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json": "b3fc224dd6368f975123a256a8ecb7ba957cf2d0556dd023110c700038eff299"
+    "research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json": "b3fc224dd6368f975123a256a8ecb7ba957cf2d0556dd023110c700038eff299",
+    "research/DEN_NNAJI_2020_HISTORICAL_BASIC_POINT_2026_10_05.json": "a0b431f5d54c0ddebd4e9b8c6b0045bc1e8f85196a3a706d678f4ab248b35db0"
   },
   "approved_transformation": {
     "historical_retained_rookie": "Zeke Nnaji at #22",
@@ -35,22 +36,28 @@
   },
   "reported_input_bounds": {
     "rookie_22_scale_100_usd": 1983200,
-    "each_rookie_ratio_interval": [
+    "historical_rookie_ratio_interval": [
+      1.2,
+      1.2
+    ],
+    "alternate_rookie_ratio_interval": [
       0.8,
       1.2
     ],
-    "historical_ratio_verified": false,
+    "historical_ratio_verified": true,
+    "historical_ratio_authority": "SOURCE_SUPPORTED_REPORTED_HISTORICAL_BASIC_POINT",
+    "historical_rookie_evidence": "research/DEN_NNAJI_2020_HISTORICAL_BASIC_POINT_2026_10_05.json",
     "alternate_ratio_selected": false,
     "retained_hartenstein_base_usd": 1620564,
     "omitted_mcgee_base_usd": 4200000,
     "center_base_saving_usd": 2579436,
     "rookie_base_delta_interval_usd": [
       -793280,
-      793280
+      0
     ],
     "named_base_delta_interval_usd": [
       -3372716,
-      -1786156
+      -2579436
     ],
     "complete_contract_charge_verified": false
   },
@@ -85,7 +92,7 @@
     "historical_bound_evidence": "research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json",
     "historical_exact_ledger_or_receipt_certified": false,
     "same_definition_and_complete_delta_inventory_verified": false,
-    "dominance_if_combined_other_delta_upper_at_most_usd": 1786156,
+    "dominance_if_combined_other_delta_upper_at_most_usd": 2579436,
     "equal_rookie_ratios_candidate": {
       "selected": false,
       "dominance_if_combined_other_delta_upper_at_most_usd": 2579436

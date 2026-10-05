@@ -14,6 +14,7 @@ BRIDGE = 'simulation/CHICAGO_2020_21_F4_F5_SELECTED_BRIDGE.json'
 AUTHORITY = 'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json'
 FUNDING = 'simulation/NBA_2021_EXECUTION_RESOLUTION.json'
 HISTORICAL_BOUND = 'research/DEN_HARDCAP_POST_SIGNING_REPORT_2026_10_05.json'
+HISTORICAL_ROOKIE = 'research/DEN_NNAJI_2020_HISTORICAL_BASIC_POINT_2026_10_05.json'
 
 
 def read(path):
@@ -29,17 +30,21 @@ def build():
     assert historical['source_verified'] is True
     assert historical['upper_usd'] == 138928000
     assert historical['comparison_phase'] == 'AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS'
+    historical_rookie = read(HISTORICAL_ROOKIE)
+    assert historical_rookie['source_supported_basic_point'] is True
+    assert historical_rookie['world_and_role'] == 'HISTORICAL_DEN_RETAINED_ROOKIE_22_NOT_ALTERNATE_SENT_NNAJI_24'
     core = {r['player']: r for r in payroll['teams']['DEN']['core_players']}
-    # Existing #22 120% input is a conditional public-table input, not a
-    # recovered historical contract or an author-selected alternative ratio.
+    # The alternate Bey #22 input remains conditional. Historical Nnaji #22
+    # now has a separate reported basic-salary witness; neither is a full charge.
     scale = Decimal(core['Saddiq Bey']['base_usd']) / Decimal('1.2')
+    assert Decimal(historical_rookie['reported_base_salary_usd']) == scale * Decimal('1.2')
     delta = scale * Decimal('0.4')
     funding = read(FUNDING)['mcgee_funding']
     retained = int((Decimal(str(funding['simple_175_allowance_usd']))-100000)/Decimal('1.75'))
     assert retained == 1620564  # Reuse the existing reported basic-salary input.
     omitted = core['JaVale McGee']['base_usd']
     saving = omitted - retained
-    paths = [REGISTRATION, PAYROLL, BRIDGE, AUTHORITY, FUNDING, HISTORICAL_BOUND]
+    paths = [REGISTRATION, PAYROLL, BRIDGE, AUTHORITY, FUNDING, HISTORICAL_BOUND, HISTORICAL_ROOKIE]
     den_branches = [b for b in registration['branches'] if b['team'] == 'DEN']
     assert len(den_branches) == 2 and all(len(b['rows']) == 53 for b in den_branches)
     assert all(all('Saddiq Bey' in r['standard'] and 'Isaiah Hartenstein' in r['standard']
@@ -47,7 +52,7 @@ def build():
                    for r in b['rows']) for b in den_branches)
     return {
         'schema': 1,
-        'baseline_main': '9391faba1df3c981963d24e031d509dcc14bb4c6',
+        'baseline_main': '259b5dbd8f7ed1af8c965a8ea794a8681515601f',
         'classification': 'CONDITIONAL_COMPARATOR_NOT_COMPLETE_COST_DOMAIN',
         'scope': {'team': 'DEN', 'start': '2021-03-25', 'end': '2021-05-16',
                   'phase': 'AFTER_BOTH_HISTORICAL_GORDON_AND_MCGEE_EVENTS',
@@ -65,14 +70,17 @@ def build():
             'new_author_locks': 0},
         'reported_input_bounds': {
             'rookie_22_scale_100_usd': int(scale),
-            'each_rookie_ratio_interval': [0.8, 1.2],
-            'historical_ratio_verified': False,
+            'historical_rookie_ratio_interval': [1.2, 1.2],
+            'alternate_rookie_ratio_interval': [0.8, 1.2],
+            'historical_ratio_verified': True,
+            'historical_ratio_authority': 'SOURCE_SUPPORTED_REPORTED_HISTORICAL_BASIC_POINT',
+            'historical_rookie_evidence': HISTORICAL_ROOKIE,
             'alternate_ratio_selected': False,
             'retained_hartenstein_base_usd': retained,
             'omitted_mcgee_base_usd': omitted,
             'center_base_saving_usd': saving,
-            'rookie_base_delta_interval_usd': [-int(delta), int(delta)],
-            'named_base_delta_interval_usd': [-saving-int(delta), -saving+int(delta)],
+            'rookie_base_delta_interval_usd': [-int(delta), 0],
+            'named_base_delta_interval_usd': [-saving-int(delta), -saving],
             'complete_contract_charge_verified': False},
         'symbolic_cost_equation': 'ALT_APRON = HIST_APRON + DELTA_BASE + GAMMA_GORDON + GAMMA_CLARK + DELTA_OTHER',
         'unmeasured_differences': [
@@ -89,7 +97,7 @@ def build():
             'historical_bound_evidence': HISTORICAL_BOUND,
             'historical_exact_ledger_or_receipt_certified': False,
             'same_definition_and_complete_delta_inventory_verified': False,
-            'dominance_if_combined_other_delta_upper_at_most_usd': saving-int(delta),
+            'dominance_if_combined_other_delta_upper_at_most_usd': saving,
             'equal_rookie_ratios_candidate': {'selected': False,
                 'dominance_if_combined_other_delta_upper_at_most_usd': saving},
             'general_rule': 'HIST_UPPER + MAX_DELTA_BASE + MAX_GAMMA_GORDON + MAX_GAMMA_CLARK + MAX_DELTA_OTHER <= 138928000'},
@@ -116,7 +124,11 @@ def validate(result):
     assert all(r['upper'] is None and r['source_verified'] is False
                for r in result['unmeasured_differences'])
     assert result['daily_link']['release_does_not_erase_prior_pay'] is True
-    assert result['reported_input_bounds']['historical_ratio_verified'] is False
+    assert result['reported_input_bounds']['historical_ratio_verified'] is True
+    assert result['reported_input_bounds']['alternate_ratio_selected'] is False
+    assert result['reported_input_bounds']['historical_rookie_ratio_interval'] == [1.2, 1.2]
+    assert result['reported_input_bounds']['alternate_rookie_ratio_interval'] == [0.8, 1.2]
+    assert result['reported_input_bounds']['rookie_base_delta_interval_usd'] == [-793280, 0]
     assert result['closure_conditions']['historical_same_date_full_apron_bound'] == 138928000
     assert result['closure_conditions']['historical_applicable_limit_source_verified'] is True
     assert result['closure_conditions']['historical_exact_ledger_or_receipt_certified'] is False
