@@ -1,0 +1,69 @@
+{
+  "scope": "TARGETED_ORIGINAL_CALLANDRET_DOYLE_COLLECTION_NOT_S2_LEGAL_PASS",
+  "baseline_main": "92d3db48d2ff8f4b4459dbb02554e061c2f261a1",
+  "prompt_sha256": "0f2e6a30a914a3da5176542fc6bd29062d2e72bc6cb26753d4d1dd5dbe57fa90",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 48.376,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "2fb52d26-5ec0-4236-a3f9-18c24c09ef60",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 37.0023405,
+        "num_turns": 1
+      },
+      "response_recovered": false,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 3,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 3,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 5,
+          "state": "ACTIVE",
+          "tool_name": "run_command"
+        },
+        {
+          "step_index": 5,
+          "state": "DONE",
+          "tool_name": "run_command"
+        },
+        {
+          "step_index": 6,
+          "state": "ACTIVE",
+          "tool_name": "run_command"
+        },
+        {
+          "step_index": 6,
+          "state": "DONE",
+          "tool_name": "run_command"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "2d4068c0b483a3ca4d66aef440e3cdda6fb331d170bf124171b13c10146f4cc9",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC"
+    },
+    "stderr_sha256": "04a3fd7b53540108a5ddd980fe2cbad6d681c6fa15eeb5fb69a969fb581fe0c0"
+  }
+}

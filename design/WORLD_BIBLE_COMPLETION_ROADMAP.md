@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-05 [2019 이월·Denver 일할 범위 검수](../reviews/CHI_SIMON_TRADE_SCOPE_REVIEW_2026_10_05.md): Simon/Blakeney/Deng/Shittu의2019기간4/6에 미래ordinaryyear/currentseasonfuturestretch 국소0; ShittuFAhold898310/별도2020계약/전체R보존. Chicago전체비교종료경계133,578,061은조건부. DEN최소팀급여 일수를XXIV earned로승격0. AG검색실행/최종빈값·NLM새Simon사본회수·Claude timeout·독립Codex원문/파일국소수용. 법적2완료/10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·PARTIAL/CLOSED·원고0.
+
 2026-10-05 [공개 입력·자산 범위 후속](../reviews/D1_PUBLIC_INPUT_FOLLOWUP_REVIEW_2026_10_05.md): Chicago의 실제2019 cap-room 사용 사후 보도와 후속 공개21행을 확보했으며 전체R/이월상단은미확인이다. Gordon 기본급·Guaranteed100/100 공개점과 실제146일 달력을 회수했지만 skill보호/거래earned 연결은조건부이며Gamma를채우지않는다. BOS두픽은역사정체성과870순번쌍 선택규칙만 supporting; 전체우선권 종료아님. 추가법적PASS0·2완료/10HOLD·F0/5 A0/3 K0/4·국소Blueprint3·최종회차0·실제Pack0·미완료큰묶음6·PARTIAL/CLOSED·원고0.
 
 2026-10-05 [Denver 신인 기본급·보너스 조사](../reviews/DEN_NNAJI_BASIC_POINT_REVIEW_2026_10_05.md): Nnaji22 원역사 공개 기본급2,379,840을 확보했다. 대체Bey22의80~120% 미선택 구간을 유지해 기본급 차액을−3,372,716~−2,579,436으로 좁혔다. 보너스 부재는 미확인; 넓은 조건부 상한5,796,818.25만으로는 허용폭2,579,436을 닫지 못한다. 원역사 상한138,928,000과 구분하며 Gamma/기타차액3상단null·법적2완료/10HOLD·F0/5 A0/3 K0/4·국소Blueprint3·최종회차0·실제Pack0·미완료큰묶음6·PARTIAL/CLOSED·원고0. 아래 독립양비율/옛차액은 당시 이력이다.

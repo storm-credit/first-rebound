@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "baseline_main": "92d3db48d2ff8f4b4459dbb02554e061c2f261a1",
+  "classification": "THREE_ADDITIONAL_2019_CONTRACT_TERM_LOCAL_CARRY_INFERENCES_NOT_COMPLETE_CHICAGO_R",
+  "common_cba_source": {
+    "id": "2017_CBA_LOCAL_CARRY",
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "locators": [
+      "II3(q) PDF42-44 / printed20-22",
+      "VII7(d)(6)(A) PDF249-250 / printed227-228",
+      "VII4(k) PDF217 / printed195"
+    ],
+    "page_text_sha256": {
+      "44": "5486e0169937512eff7215611904d0556752503abd92df1a3902a7717a81f4ad",
+      "217": "890eef3bcdc7eb80f61aedf2a5f385086d4badfb9fb7ca70a783b3f917430c1d",
+      "249": "881b2bd30e8994ec19d1fe748d822e2b5d471c84d8e031c6efa1e28ed6d70e0a",
+      "250": "94cc46b5e5d98892f7b9d8e32a7fdae8998eb5d64cf94c223ba71f2bc4bab8ba"
+    }
+  },
+  "preserved_path_preconditions": [
+    "Preserve each reported historical contract duration and dated waiver path",
+    "Apply2017VII7(d)(6)(A) to September1-plus2019 requests; not all2020 amendments certified",
+    "Only ordinary contract years and current-season future-stretch components are tested; adjustments and separate contracts remain separate"
+  ],
+  "contracts": [
+    {
+      "player": "Antonio Blakeney",
+      "contract_term_source": {
+        "url": "https://www.shamsports.com/players/antonio-blakeney",
+        "authority": "PUBLIC_CONTRACT_HISTORY_VENDOR_NOT_CONTEMPORANEOUS_ARCHIVE_OR_LEAGUE_RECEIPT",
+        "access": "AGENT_WEB_LOCAL_HTTP200_PARENT_CACHE_BODY_READ",
+        "raw_html_bytes": 540720,
+        "raw_html_sha256": "f0072fd8a28121f084e5fa505150b6397195a8dc5874546ac002e96ec54fdc7b",
+        "locator": "Transactions July19,2018 guaranteed two-year minimum"
+      },
+      "official_signing_source": {
+        "url": "https://www.nba.com/news/chicago-bulls-sign-guard-antonio-blakeney-nba-contract-official-releaase",
+        "published": "2018-07-20",
+        "access": "AGENT_WEB_BODY_READ",
+        "raw_html_sha256": null,
+        "contract_duration_published": false
+      },
+      "reported_start": "2018-07-19",
+      "reported_contract_seasons": [
+        "2018-19",
+        "2019-20"
+      ],
+      "waive_source_row": {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2019-09-09T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls waived guard Antonio Blakeney.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 1628469.0,
+        "PLAYER_SLUG": "antonio-blakeney",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1019604"
+      },
+      "ordinary_base_2020_21_bound": [
+        0,
+        0
+      ],
+      "current_season_stretch_into_2020_21_bound": [
+        0,
+        0
+      ],
+      "classification": "SOURCE_SUPPORTED_LOCAL_LEGAL_INFERENCE"
+    },
+    {
+      "player": "Luol Deng",
+      "contract_term_source": {
+        "url": "https://www.nba.com/news/bulls-pay-tribute-luol-deng",
+        "authority": "NBA_DOMAIN_MEDIA_REPORT_NOT_CONTRACT_RECEIPT",
+        "published": "2019-11-21",
+        "access": "AGENT_AND_PARENT_WEB_BODY_READ",
+        "raw_html_sha256": null,
+        "locator": "First paragraph one-day Chicago retirement contract"
+      },
+      "official_signing_source": {
+        "url": "https://www.nba.com/news/chicago-bulls-sign-luol-deng-who-will-retire",
+        "published": "2019-10-17",
+        "authority": "OFFICIAL_RELEASE",
+        "access": "AGENT_AND_PARENT_WEB_BODY_READ",
+        "raw_html_sha256": null
+      },
+      "reported_contract_scope": "2019 Chicago one-day retirement transaction; no future ordinary contract year under reported path",
+      "waive_source_row": {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2019-10-18T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls waived forward Luol Deng.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 2736.0,
+        "PLAYER_SLUG": "luol-deng",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1020974"
+      },
+      "ordinary_base_2020_21_bound": [
+        0,
+        0
+      ],
+      "current_season_stretch_into_2020_21_bound": [
+        0,
+        0
+      ],
+      "classification": "SOURCE_SUPPORTED_LOCAL_LEGAL_INFERENCE",
+      "other_team_liability_not_imported": [
+        "Los Angeles Lakers stretch",
+        "Minnesota Timberwolves contract"
+      ]
+    },
+    {
+      "player": "Simisola Shittu",
+      "contract_term_source": {
+        "url": "https://www.salaryswish.com/players/simisola-shittu",
+        "authority": "PUBLIC_CONTRACT_HISTORY_VENDOR_NOT_CONTEMPORANEOUS_ARCHIVE_OR_LEAGUE_RECEIPT",
+        "access": "PARENT_WEB_BODY_AND_HTTP200_READ",
+        "raw_html_bytes": 103756,
+        "raw_html_sha256": "829749f9512ac30a02b2a51dac4777fa279c4e3edfdec2ff17be29ac2bb9a6b2",
+        "locator": "First CAMP INVITE contract October4,2019; first2019-20 table",
+        "reported_length_years": 1,
+        "reported_base": 898310,
+        "reported_guaranteed": 0,
+        "row_text_sha256": "d462132c717ddc4ac76cb164745afa7eff2a8780c6821b924ed6d4e45a606d40"
+      },
+      "reported_contract_seasons": [
+        "2019-20"
+      ],
+      "waive_source_row": {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2019-10-19T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Chicago Bulls waived center Simisola Shittu.",
+        "TEAM_ID": 1610612741.0,
+        "TEAM_SLUG": "bulls",
+        "PLAYER_ID": 1629679.0,
+        "PLAYER_SLUG": "simisola-shittu",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1021065"
+      },
+      "ordinary_base_2020_21_bound": [
+        0,
+        0
+      ],
+      "current_season_stretch_into_2020_21_bound": [
+        0,
+        0
+      ],
+      "classification": "SOURCE_SUPPORTED_LOCAL_LEGAL_INFERENCE",
+      "no_2019_exhibit10_type_inferred": true,
+      "separate_2020_contract_not_removed": true,
+      "cap_hold_2020_21_reported": 898310,
+      "cap_hold_status": "SEPARATE_FA_COMPONENT_NOT_ZEROED_BY_ORDINARY_BASE_INFERENCE"
+    }
+  ],
+  "source_input_hash_semantics": "RAW_REPOSITORY_BYTES",
+  "source_input_sha256": {
+    "research/CHICAGO_2019_ROOM_RETROSPECTIVE_FLOW_2026_10_05.json": "eec5db9b771b566411355a3c453591e96c0d39a0fef406f8e9123974ca33d21c",
+    "research/CHICAGO_SIMON_2019_CARRY_BOUNDARY_2026_10_05.json": "302e2dba4e2f060bf846ac29a89c9ff7d71ad1701fd127027f983b206e372fe4"
+  },
+  "ordinary_term_component_inventory": {
+    "identified_2019_waivers": 6,
+    "supported_reported_term_local_paths_including_simon": 4,
+    "remaining_term_paths": [
+      "Perrion Callandret",
+      "Milton Doyle"
+    ],
+    "scope": "Reported2019 contract future ordinary years and current-season stretch only, not all six complete salary/FA/adjustment liabilities"
+  },
+  "not_certified": [
+    "Entire R_CHI",
+    "2019 actual salary/guarantee/payments are zero",
+    "Injury/adjustment/grievance allocation",
+    "FA holds or rights including Shittu2020-21",
+    "New2020 Shittu contract",
+    "Contract classification/guarantees for Callandret or Doyle",
+    "All2020 waiver charges"
+  ],
+  "whole_chicago_verified_upper": null,
+  "complete_domain": false,
+  "legal_fields_promoted": [],
+  "new_author_decisions": 0,
+  "manuscript_allowed": false
+}
