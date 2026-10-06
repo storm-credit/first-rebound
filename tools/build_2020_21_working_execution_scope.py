@@ -7,11 +7,17 @@ import build_2020_21_regular_clock_completion as regular_check
 import build_2021_l2_working_minutes as playin_check
 import build_2021_all_playoff_coach_plans as playoff_check
 import apply_2021_l2_working_calendar as common
+import build_2020_21_regular_working_chronology as regular_order
+import build_2021_l2_working_chronology as playin_order
+import build_2021_l2_nonplayoff_roster_scope as roster_check
 
 ROOT = Path(__file__).resolve().parents[1]
 REGULAR = 'simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json'
 PLAYIN = 'simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json'
 PLAYOFF = 'simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json'
+REGULAR_ORDER = 'simulation/NBA_2020_21_REGULAR_WORKING_CHRONOLOGY.json'
+PLAYIN_ORDER = 'simulation/NBA_2021_L2_WORKING_CHRONOLOGY.json'
+PLAYIN_ROSTER = 'simulation/NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.json'
 REGISTER = 'control/CHICAGO_2020_21_D1_S2_REGISTER.json'
 OUT = 'simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json'
 
@@ -21,6 +27,10 @@ def build():
     if playin != playin_check.build():
         raise ValueError('play-in working source reconstruction differs')
     playoff_check.validate(playoff)
+    regular_chronology, playin_chronology, roster = (common.read(p) for p in (REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER))
+    regular_order.validate(regular_chronology,source=regular)
+    playin_order.validate(playin_chronology)
+    roster_check.validate(roster)
     phases = []
     player_dates = defaultdict(list)
     team_dates = defaultdict(list)
@@ -53,7 +63,7 @@ def build():
     if any(len(v)!=1 for v in team_dates.values()) or any(len(v)!=1 for v in player_dates.values()):
         raise ValueError('team or positive player scheduled twice on same date')
     return dict(status='WORKING_MINUTE_AVAILABILITY_RESULT_SUBSCOPES_COMPLETE_FORMAL_SEASON_HOLD',
-        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF)},
+        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF,REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER)},
         authority=common.AUTH,phase_games={'REGULAR':1080,'PLAYIN':6,'PLAYOFF':88},
         phase_team_rows=dict(rows),positive_modeled_player_dates=dict(positive),
         total_games=1174,total_team_games=len(phases),same_date_team_collisions=0,
@@ -61,13 +71,23 @@ def build():
         regular_minutes_complete=True,regular_all_five_player_existence_witnesses_complete=True,
         regular_single_bpm_results_recomputed=True,regular_clock_corrections=6,
         regular_original_ot_preserved=True,regular_record={'CHI':[31,41],'MIN':[24,48]},
+        regular_working_chronology_complete=True,
+        regular_working_order_team_plans=regular_chronology['summary']['new_working_chronological_team_plans'],
+        regular_working_order_blocks=regular_chronology['summary']['blocks'],
+        original_regular_107_witnesses_preserved=True,
         playin_six_dated_minute_availability_result_models_complete=True,
         playin_first_round_pairs_verified=playin['playoff_first_round_pairs_verified'],
         playin_qualifier_changes=playin['playoff_qualifiers_changed'],
+        playin_working_chronology_complete=True,
+        playin_working_order_team_plans=playin_chronology['working_team_plans'],
+        playin_working_order_blocks=playin_chronology['assignment_blocks'],
+        playin_nonplayoff_roster_candidates=roster['working_team_roster_candidates'],
+        playin_nonplayoff_candidate_player_dates=sum(len(r['entries']) for r in roster['dated_team_rosters']),
+        playin_nonplayoff_registration_conflicts=['WAS_HOMESLEY_16TH_STANDARD','GSW_HUTCHISON_PATH'],
         playoff_eighty_eight_working_coach_health_result_models_complete=True,
-        scope_completed='Positive rotation availability, complete minute budgets/existence witnesses and chosen result continuity only.',
-        scopes_not_certified=['Regular/play-in positional matchups and chronological coach substitutions',
-            'All registered/reserve-player health and complete four non-playoff play-in rosters',
+        scope_completed='Positive rotation availability, complete minute budgets/existence witnesses, all regular/play-in working clock orders and chosen result continuity.',
+        scopes_not_certified=['Regular/play-in positional matchups and actual dead-ball substitutions',
+            'All registered/reserve-player health and final four non-playoff play-in roster registration',
             'Exact boxes/scores, final pick ownership and downstream rights obligations',
             'Full transaction acceptance/financial choices and all S2 legal domains'],
         formal_gate_prerequisite_register=REGISTER,
@@ -83,8 +103,8 @@ def markdown(d):
 
 | 단계 | 경기 | 팀 경기 | 양수분 작가 모델 칸 | 완료한 범위 |
 |---|---:|---:|---:|---|
-| 정규시즌 | 1080 | 2160 | {d['positive_modeled_player_dates']['REGULAR']} | 선택 분·6행 초 잔차 보정·전5인 존재 증인·단일BPM 승패 재계산 |
-| 플레이인 | 6 | 12 | {d['positive_modeled_player_dates']['PLAYIN']} | 선택 날짜·분·양수 가용 모델·L2 결과와8첫대진 연결 |
+| 정규시즌 | 1080 | 2160 | {d['positive_modeled_player_dates']['REGULAR']} | 선택 분·6행 초 잔차 보정·전5인 존재 증인·전체 작업 교대 순서·단일BPM 승패 재계산 |
+| 플레이인 | 6 | 12 | {d['positive_modeled_player_dates']['PLAYIN']} | 선택 날짜·분·양수 가용 모델·12팀 작업 순서·L2 결과와8첫대진 연결 |
 | 플레이오프 | 88 | 176 | {d['positive_modeled_player_dates']['PLAYOFF']} | 날짜별 작가 감독·건강 모델·결과 |
 | 합계 | 1174 | 2348 | {sum(d['positive_modeled_player_dates'].values())} | 동일날짜 팀·양수선수 중복0 |
 
@@ -95,8 +115,11 @@ S2의 `AUTHOR_MODELED`와 `REPRODUCTION_PASS` 적용 범위를 기록한다. 원
 J1 27팀 효과는 기존 점수차에 이미 한 번 연결되어 있다. F4 5 + 최종F5 23 + C2 5 = 추가33팀 효과다.
 따라서 **27+33=60팀**, 같은CHA–CLE경기 양팀 겹침2를 제외해58경기다. C2–F5 같은팀 겹침2는 별도의 전벡터 대체다.
 
-정규시즌/플레이인의 존재 증인은 전술·교체 순서 증명이 아니다. 네 비플레이오프팀의 전체15+2명단과
-전체 예비선수 건강·픽 소유/후손·계약 수락·재무는 따로 남는다. 의료 인증을 새 필수 요건으로 추가하지 않는다.
+정규시즌2160팀·{d['regular_working_order_blocks']}블록과 플레이인12팀·{d['playin_working_order_blocks']}블록에
+별도 작업용 시계 순서를 선택했다. 기존107원증인은 보존하고 새107순서를 따로 만들었다.
+선발·개인초·쿼터/연장 경계를 대조했으며 실제dead-ball 교대·전술·휴식 상한 인증은 아니다.
+네 비플레이오프팀은6팀-날짜/102선수칸의15+2후보로 대조했다. WAS Homesley16명과 GSW Hutchison경로가 미선택이다.
+최종등록·전체 예비선수 건강·픽 소유/후손·계약 수락·재무는 따로 남는다. 의료 인증을 새 필수 요건으로 추가하지 않는다.
 
 공식A/K/시즌 집계는 [S2 검사기](../tools/check_chicago_d1_s2.py)의 모든F법적 선행조건을 따른다.
 현재 법적10PASS/2HOLD(CHI matching·DEN 자산3분기), F법적3/5·A0/3·K0/4·시즌false다.
@@ -104,6 +127,7 @@ J1 27팀 효과는 기존 점수차에 이미 한 번 연결되어 있다. F4 5 
 
 [정규시즌](NBA_2020_21_REGULAR_CLOCK_COMPLETION.md) · [플레이인](NBA_2021_L2_WORKING_MINUTE_MODELS.md) · [플레이오프](NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.md)
 [기계 범위표](NBA_2020_21_WORKING_EXECUTION_SCOPE.json)
+[정규 작업 순서](NBA_2020_21_REGULAR_WORKING_CHRONOLOGY.md) · [L2 작업 순서](NBA_2021_L2_WORKING_CHRONOLOGY.md) · [L2 명단 후보](NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.md)
 """
 
 if __name__=='__main__':

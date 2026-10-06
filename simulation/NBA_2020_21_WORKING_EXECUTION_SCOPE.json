@@ -3,7 +3,10 @@
   "source_sha256": {
     "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json": "6dba9c39d125be317fa4030980621c5383dc31e38cd7c93c9c6b143111950ee9",
     "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json": "f3b09ab0ca20d21e1257d6777a4fd84cb46fb9479a46d3306603a9a16c1ee431",
-    "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json": "27fb630174fb39653738a19e51f0a8d6c969c6397505284e794a7383f6030c99"
+    "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json": "27fb630174fb39653738a19e51f0a8d6c969c6397505284e794a7383f6030c99",
+    "simulation/NBA_2020_21_REGULAR_WORKING_CHRONOLOGY.json": "f77d90a485051334d8c1142284ec2f9bafec302fbe50ccd078a50f8d142518e2",
+    "simulation/NBA_2021_L2_WORKING_CHRONOLOGY.json": "8d268860f3835814236e92c9d0022b6504a817d8a0cfd221575195afaa915354",
+    "simulation/NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.json": "044897a7030a117bc4bcfcf7240895aa6dc7ad0876a001312dfd463e09428fbf"
   },
   "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
   "phase_games": {
@@ -40,14 +43,27 @@
       48
     ]
   },
+  "regular_working_chronology_complete": true,
+  "regular_working_order_team_plans": 2160,
+  "regular_working_order_blocks": 51968,
+  "original_regular_107_witnesses_preserved": true,
   "playin_six_dated_minute_availability_result_models_complete": true,
   "playin_first_round_pairs_verified": 8,
   "playin_qualifier_changes": 0,
+  "playin_working_chronology_complete": true,
+  "playin_working_order_team_plans": 12,
+  "playin_working_order_blocks": 230,
+  "playin_nonplayoff_roster_candidates": 6,
+  "playin_nonplayoff_candidate_player_dates": 102,
+  "playin_nonplayoff_registration_conflicts": [
+    "WAS_HOMESLEY_16TH_STANDARD",
+    "GSW_HUTCHISON_PATH"
+  ],
   "playoff_eighty_eight_working_coach_health_result_models_complete": true,
-  "scope_completed": "Positive rotation availability, complete minute budgets/existence witnesses and chosen result continuity only.",
+  "scope_completed": "Positive rotation availability, complete minute budgets/existence witnesses, all regular/play-in working clock orders and chosen result continuity.",
   "scopes_not_certified": [
-    "Regular/play-in positional matchups and chronological coach substitutions",
-    "All registered/reserve-player health and complete four non-playoff play-in rosters",
+    "Regular/play-in positional matchups and actual dead-ball substitutions",
+    "All registered/reserve-player health and final four non-playoff play-in roster registration",
     "Exact boxes/scores, final pick ownership and downstream rights obligations",
     "Full transaction acceptance/financial choices and all S2 legal domains"
   ],

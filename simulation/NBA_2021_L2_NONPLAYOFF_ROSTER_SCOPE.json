@@ -1,0 +1,1446 @@
+{
+  "status": "FOUR_NONPLAYOFF_TEAM_DATED_ROSTER_CANDIDATES_WITH_REGISTRATION_HEALTH_HOLD",
+  "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+  "source_hash_method": "SHA256_UTF8_LF_NORMALIZED_LOCAL;PDF_RAW_BYTES_EXTERNAL",
+  "local_source_sha256": {
+    "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json": "f3b09ab0ca20d21e1257d6777a4fd84cb46fb9479a46d3306603a9a16c1ee431",
+    "simulation/CHICAGO_2021_POSTDEADLINE_ROSTER.csv": "6ae2018ade1cf35c586cd85686ac0fe558779547801532c4644aaad0e93a2e54",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md": "f444a53bb90bde46e56ff3f4ecf516044529c2e43c69db9ef40a8ed0937efc79",
+    "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json": "abf099ad6fc26df0b922c25abd71945c41066e4800eb1eb3fbd676a460661fd6"
+  },
+  "official_external_sources": {
+    "WAS_MAY18_GAMEBOOK": {
+      "url": "https://statsdmz.nba.com/pdfs/20210518/20210518_WASBOS.pdf",
+      "sha256_raw_pdf_bytes": "e25e0110b599f6d272e657485b2e82c1b26ee3a9fd5c6ec4c0568e2a567c99d6",
+      "locator": "page 1 final box and inactive line; historical roster only",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "GSW_MAY19_GAMEBOOK": {
+      "url": "https://statsdmz.nba.com/pdfs/20210519/20210519_GSWLAL_book.pdf",
+      "sha256_raw_pdf_bytes": "e98f31556173d2d261ebf31b4e1652ef03e9cc7d5e56a8f433740931b597c594",
+      "locator": "page 1 final box and inactive line; historical roster only",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "SAS_MAY19_GAMEBOOK": {
+      "url": "https://statsdmz.nba.com/pdfs/20210519/20210519_SASMEM_book.pdf",
+      "sha256_raw_pdf_bytes": "9bc963d51e51ed66f496724e084cecf425793afff2107858f84fd995f197ee78",
+      "locator": "page 1 final box and inactive line; historical roster only",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "MAY19_INJURY_REPORT": {
+      "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-19_05PM.pdf",
+      "sha256_raw_pdf_bytes": "5a4bc6da820630da78e4b8ff36d53c98a328b9dedfb5ff93b4e884c99eae0766",
+      "locator": "historical GSW/SAS listed statuses",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "MAY21_INJURY_REPORT": {
+      "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2021-05-21_05PM.pdf",
+      "sha256_raw_pdf_bytes": "0973c8d8b824375611ee2f141541e900916975eb5dddb8c6e388f30dccf0c965",
+      "locator": "historical GSW Lee questionable, Oubre/Thompson/Wiseman out",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "NBA_GLEAGUE_TWOWAY_TRACKER": {
+      "url": "https://gleague.nba.com/news/two-way-tracker-for-2020-21-season",
+      "locator": "2020-21 CHI/WAS/GSW/SAS two-way table; early season snapshot",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "NBA_GLEAGUE_CALLOUTS": {
+      "url": "https://gleague.nba.com/nba-call-ups-for-the-2020-21-season",
+      "locator": "Caleb Homesley May 15 standard; Jordan Bell May 13 two-way",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    },
+    "GSW_TRANSACTION_GUIDE": {
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612744/2023/12/2324-gsw-media-guide.pdf",
+      "locator": "2020-21 May 13 JTA conversion/Jordan Bell two-way, May 16 Gary Payton II signing",
+      "cache_location": null,
+      "raw_body_preserved_in_repository": false
+    }
+  },
+  "roster_families": {
+    "CHI": {
+      "standard": [
+        "Coby White",
+        "Cristiano Felicio",
+        "Daniel Theis",
+        "Denzel Valentine",
+        "Garrett Temple",
+        "Javonte Green",
+        "LaMelo Ball",
+        "Lauri Markkanen",
+        "Otto Porter Jr.",
+        "Protagonist",
+        "Ryan Arcidiacono",
+        "Thaddeus Young",
+        "Tomas Satoransky",
+        "Wendell Carter Jr.",
+        "Zach LaVine"
+      ],
+      "two_way": [
+        "Adam Mokoka",
+        "Devon Dotson"
+      ],
+      "status": "EXISTING_APPROVED_TRANSACTION_PATH_15_PLUS_2_WORKING_ROSTER",
+      "roster_source": "simulation/CHICAGO_2021_POSTDEADLINE_ROSTER.csv",
+      "historical_difference": [
+        "Chicago's fictional protagonist and LaMelo are included; original NBA May 2021 roster cannot be copied."
+      ],
+      "registration_complete": false
+    },
+    "WAS": {
+      "standard": [
+        "Alex Len",
+        "Anthony Gill",
+        "Bradley Beal",
+        "Daniel Gafford",
+        "Davis Bertans",
+        "Deni Avdija",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Ish Smith",
+        "Raul Neto",
+        "Robin Lopez",
+        "Rui Hachimura",
+        "Russell Westbrook",
+        "Thomas Bryant",
+        "Troy Brown Jr."
+      ],
+      "two_way": [
+        "Garrison Mathews",
+        "Cassius Winston"
+      ],
+      "status": "CANDIDATE_15_PLUS_2_HOMESLEY_OMISSION_UNSELECTED",
+      "roster_source": "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md",
+      "historical_difference": [
+        "Gary Trent Jr. and Troy Brown Jr. retained; Chandler Hutchison absent in alternate path.",
+        "Historical Caleb Homesley May 15 standard signing would create a 16th standard player; omission is a candidate, not selected."
+      ],
+      "registration_complete": false
+    },
+    "GSW": {
+      "standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Gary Payton II",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kent Bazemore",
+        "Kelly Oubre Jr.",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "two_way": [
+        "Jordan Bell",
+        "Nico Mannion"
+      ],
+      "status": "HISTORICAL_15_PLUS_2_CANDIDATE_HUTCHISON_REGISTRATION_HOLD",
+      "roster_source": "simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md",
+      "historical_difference": [
+        "Chandler Hutchison's 2018 GSW draft landing and later transaction/registration remain unresolved.",
+        "Keeping Hutchison alongside all 15 historical standard names would exceed the standard limit; omitting Payton's May 16 signing is an unselected alternative."
+      ],
+      "registration_complete": false
+    },
+    "SAS": {
+      "standard": [
+        "DaQuan Jeffries",
+        "DeMar DeRozan",
+        "Dejounte Murray",
+        "Derrick White",
+        "Devin Vassell",
+        "Drew Eubanks",
+        "Gorgui Dieng",
+        "Jakob Poeltl",
+        "Keldon Johnson",
+        "Lonnie Walker IV",
+        "Luka Samanic",
+        "Patty Mills",
+        "Rudy Gay",
+        "Tre Jones",
+        "Trey Lyles"
+      ],
+      "two_way": [
+        "Keita Bates-Diop",
+        "Quinndary Weatherspoon"
+      ],
+      "status": "HISTORICAL_15_PLUS_2_CONDITIONAL_CARRY",
+      "roster_source": "https://statsdmz.nba.com/pdfs/20210519/20210519_SASMEM_book.pdf",
+      "historical_difference": [
+        "DaQuan Jeffries appears inactive and Not With Team in the historical May 19 scorer report; alternate registration and presence are not certified."
+      ],
+      "registration_complete": false
+    }
+  },
+  "dated_team_rosters": [
+    {
+      "event_id": "2021-05-18_WAS_CHI",
+      "date": "2021-05-18",
+      "team": "WAS",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 11,
+      "reserve_count": 6,
+      "roster_candidate_status": "CANDIDATE_15_PLUS_2_HOMESLEY_OMISSION_UNSELECTED",
+      "roster_source": "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "Alex Len",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 280,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Anthony Gill",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 417,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Bradley Beal",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2077,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Cassius Winston",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Daniel Gafford",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 985,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Davis Bertans",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 735,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Deni Avdija",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "RIGHT_ANKLE_FRACTURE",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Garrison Mathews",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Gary Trent Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1440,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Isaac Bonga",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Ish Smith",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1923,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Raul Neto",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Robin Lopez",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1591,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Rui Hachimura",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2061,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Russell Westbrook",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2411,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Thomas Bryant",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "LEFT_KNEE_ACL_INJURY",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Troy Brown Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 480,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    },
+    {
+      "event_id": "2021-05-18_WAS_CHI",
+      "date": "2021-05-18",
+      "team": "CHI",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 10,
+      "reserve_count": 7,
+      "roster_candidate_status": "EXISTING_APPROVED_TRANSACTION_PATH_15_PLUS_2_WORKING_ROSTER",
+      "roster_source": "simulation/CHICAGO_2021_POSTDEADLINE_ROSTER.csv",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "Adam Mokoka",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Coby White",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1200.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Cristiano Felicio",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Daniel Theis",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Denzel Valentine",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Devon Dotson",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Garrett Temple",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1531.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Javonte Green",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 752.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "LaMelo Ball",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1680.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Lauri Markkanen",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1519.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Otto Porter Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Protagonist",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1800.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Ryan Arcidiacono",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Thaddeus Young",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1685.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Tomas Satoransky",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 600.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Wendell Carter Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1560.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Zach LaVine",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2073.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    },
+    {
+      "event_id": "2021-05-20_IND_CHI",
+      "date": "2021-05-20",
+      "team": "CHI",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 10,
+      "reserve_count": 7,
+      "roster_candidate_status": "EXISTING_APPROVED_TRANSACTION_PATH_15_PLUS_2_WORKING_ROSTER",
+      "roster_source": "simulation/CHICAGO_2021_POSTDEADLINE_ROSTER.csv",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "Adam Mokoka",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Coby White",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1200.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Cristiano Felicio",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Daniel Theis",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Denzel Valentine",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Devon Dotson",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Garrett Temple",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1531.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Javonte Green",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 752.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "LaMelo Ball",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1680.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Lauri Markkanen",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1519.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Otto Porter Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Protagonist",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1800.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Ryan Arcidiacono",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Thaddeus Young",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1685.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Tomas Satoransky",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 600.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Wendell Carter Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1560.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Zach LaVine",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2073.0,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    },
+    {
+      "event_id": "2021-05-19_POR_GSW",
+      "date": "2021-05-19",
+      "team": "GSW",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 8,
+      "reserve_count": 9,
+      "roster_candidate_status": "HISTORICAL_15_PLUS_2_CANDIDATE_HUTCHISON_REGISTRATION_HOLD",
+      "roster_source": "simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "Alen Smailagic",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Andrew Wiggins",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2227,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Damion Lee",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "HEALTH_AND_SAFETY_PROTOCOLS",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Draymond Green",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2272,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Eric Paschall",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Gary Payton II",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "James Wiseman",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "RIGHT_KNEE_MENISCUS_TEAR",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Jordan Bell",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Jordan Poole",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1493,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Juan Toscano-Anderson",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1610,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kelly Oubre Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "LEFT_WRIST_SORENESS",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kent Bazemore",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1640,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kevon Looney",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1870,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Klay Thompson",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "RIGHT_ACHILLES_REPAIR",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Mychal Mulder",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 891,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Nico Mannion",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Stephen Curry",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2397,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    },
+    {
+      "event_id": "2021-05-19_MEM_SAS",
+      "date": "2021-05-19",
+      "team": "SAS",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 12,
+      "reserve_count": 5,
+      "roster_candidate_status": "HISTORICAL_15_PLUS_2_CONDITIONAL_CARRY",
+      "roster_source": "https://statsdmz.nba.com/pdfs/20210519/20210519_SASMEM_book.pdf",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "DaQuan Jeffries",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "NOT_WITH_TEAM",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "DeMar DeRozan",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1524,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Dejounte Murray",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1792,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Derrick White",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "RIGHT_ANKLE_SPRAIN",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Devin Vassell",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1561,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Drew Eubanks",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 519,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Gorgui Dieng",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 569,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Jakob Poeltl",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1792,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Keita Bates-Diop",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 720,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Keldon Johnson",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1291,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Lonnie Walker IV",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1625,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Luka Samanic",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "LEFT_FOURTH_METACARPAL_FRACTURE",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Patty Mills",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Quinndary Weatherspoon",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 720,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Rudy Gay",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1199,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Tre Jones",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1088,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Trey Lyles",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "RIGHT_ANKLE_SPRAIN_QUESTIONABLE_IN_REPORT",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    },
+    {
+      "event_id": "2021-05-21_GSW_MEM",
+      "date": "2021-05-21",
+      "team": "GSW",
+      "standard_count": 15,
+      "two_way_count": 2,
+      "positive_count": 8,
+      "reserve_count": 9,
+      "roster_candidate_status": "HISTORICAL_15_PLUS_2_CANDIDATE_HUTCHISON_REGISTRATION_HOLD",
+      "roster_source": "simulation/CHICAGO_2020_21_CLOSE_GAME_PATHS.md",
+      "minute_source": "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json",
+      "entries": [
+        {
+          "player": "Alen Smailagic",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Andrew Wiggins",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2227,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Damion Lee",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "QUESTIONABLE_HEALTH_AND_SAFETY_PROTOCOLS",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Draymond Green",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2272,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Eric Paschall",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Gary Payton II",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "James Wiseman",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "OUT_RIGHT_KNEE_MENISCUS_TEAR",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Jordan Bell",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Jordan Poole",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1493,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Juan Toscano-Anderson",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1610,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kelly Oubre Jr.",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "OUT_LEFT_WRIST_SORENESS",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kent Bazemore",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1640,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Kevon Looney",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 1870,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Klay Thompson",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": "OUT_RIGHT_ACHILLES_REPAIR",
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Mychal Mulder",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 891,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Nico Mannion",
+          "contract_class_working": "TWO_WAY",
+          "modeled_seconds": 0,
+          "working_positive_minute_selection": false,
+          "reserve_health_input": "UNSELECTED_ZERO_MINUTES_HEALTH_UNDETERMINED",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        },
+        {
+          "player": "Stephen Curry",
+          "contract_class_working": "STANDARD",
+          "modeled_seconds": 2397,
+          "working_positive_minute_selection": true,
+          "reserve_health_input": "POSITIVE_MINUTE_MODEL_NOT_MEDICAL_CLEARANCE",
+          "historical_status_anchor": null,
+          "historical_status_is_alternate_game_certification": false,
+          "actual_registration_certified": false,
+          "medical_certified": false
+        }
+      ],
+      "positive_players_all_in_roster": true,
+      "zero_minutes_do_not_imply_injury": true,
+      "date_specific_health_selection_complete": false,
+      "working_roster_registration_complete": false
+    }
+  ],
+  "working_team_roster_candidates": 6,
+  "distinct_teams": 4,
+  "existing_twelve_team_minute_vectors_preserved": true,
+  "conflicts": {
+    "WAS": {
+      "type": "SIXTEENTH_STANDARD_IF_HISTORICAL_HOMESLEY_SIGNING_COPIED",
+      "candidate": "OMIT_MAY15_HOMESLEY_SIGNING_KEEP_BROWN_AND_TRENT",
+      "candidate_selected": false,
+      "salary_and_slot_followup": "Roster slot and nonzero or unknown salary charge differ; exact fee and filing remain HOLD."
+    },
+    "GSW": {
+      "type": "HUTCHISON_DRAFT_ASSET_AND_REGISTRATION_PATH_UNRESOLVED",
+      "candidate": "HISTORICAL_17_WITHOUT_HUTCHISON_OR_RETAIN_HUTCHISON_AND_HOLD_LATE_STANDARD_SLOT",
+      "candidate_selected": false,
+      "salary_and_slot_followup": "Hutchison disposition and possible May16 Payton standard slot require explicit downstream transaction audit."
+    }
+  },
+  "reserve_health_selection": "UNSELECTED_HOLD_EXCEPT_POSITIVE_MINUTE_WORKING_INPUT",
+  "historical_inactive_reasons_are_source_anchors_only": true,
+  "author_locked": false,
+  "actual_homesley_omission_selected": false,
+  "actual_active_lists_certified": false,
+  "medical_certified": false,
+  "legal_execution_cleared": false,
+  "whole_league_health_cleared": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}
