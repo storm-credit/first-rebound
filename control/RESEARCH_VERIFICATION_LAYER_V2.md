@@ -1,5 +1,8 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-06 [Boston 두 권리 양도 소항목 종료](../reviews/BOS_NAMED_RIGHTS_ASSIGNMENT_REVIEW_2026_10_06.md): 관련권리 객체·선행부담/우선권/양도조건 θ와 유한사건을 보존한 후보 가족의 March25 법적구현만 검문했다. 두 직접 독립자료검수와 신규맥락 결과물blind의3범위 지적/보완을 반영해 BOS법적3/3·전체법적10PASS/2HOLD·F법적3/5(F2,F4,F5). 정확픽조건·실제수락·미래전달은null, A0/3 K0/4·시즌미확정. CHI matching 상단증인부족분801,711.40(실제위법금액아님)·DEN세픽분기가 남는다. [A01 첫 회차 경계](../design/A01_OPENING_EPISODE_BOUNDARY.md)는E1조건부제안 종료를WORKING_BOUNDARY1로선택; 최종회차0/36슬롯소모0·실제Pack0·원고0. 이번AG60.17초/NLM80.198초timeout은성공으로계수하지않고 Claude한도뒤재시도0. 미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED. 아래9/3·F2/5는직전배치이력이다.
+
+
 2026-10-06 [Denver matching 검수](../reviews/DEN_DATED_MATCHING_REVIEW_2026_10_06.md): AGread_url_content/view_file35.190초BODY_READ·NLM원CBA+파생후보48.269초관계분석 회수·Codex원문/날짜/산술/독립검문을 구분했다. Claude12.335초세션한도 오류/반증미회수, 전체G16는HOLD. 같은기사재독은새독립출처0. NLM의Harris까지115일묶음은정정·불변입력/응답보존. 제한결과물맹점검문은전체source-independentG16와별개다. DENmatching한분기만종료, 전체법적9완료/3HOLD·F법적2/5·A0 K0·시즌미확정·미완료6·PARTIAL/CLOSED·원고0.
 
 2026-10-06 [Denver 비용 검수](../reviews/DEN_FULL_COST_REVIEW_2026_10_06.md): 원 CBA·BI report/widget·SS 계약행과 실제 독립 검문으로 같은 비용 증인 두 행을 종료했다. NotebookLM CBA 업로드45초대기 초과 기록을 보존하고 같은 ID의 READY상태를 회수, 원 CBA/원보고서/파생후보 세 소스를 분리해 분석했다. 분석은 조항/시점/관계 검문이며 독립G16 인증이 아니다. 이번 DEN 별도AG/Claude/전체blind NOT_RUN. 법적9완료/3HOLD·F법적2/5·A0 K0·시즌미확정·미완료6·PARTIAL/CLOSED·원고0.
