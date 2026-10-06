@@ -1,5 +1,7 @@
 # D1 S2 — 법적 구간 검증과 대체세계 사건 판정
 
+2026-10-06 [Cleveland 전체 비용행 종료](../reviews/CLE_FULL_COST_REVIEW_2026_10_06.md): 보존된 공개 계약군의 전체 비용 상한137,501,394와 apron 여유1,426,606을 원문·A–G·53일 연결·별도 독립 검문으로 확인했다. Jan4 Cleveland 위젯에서 McGee4.2m 거래 전 현재 Salary도 회수했다. 법적7완료/5HOLD·F법적1/5(F4)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 두 픽·DEN 자산/양 비용행과 건강/분이 남는다. 큰 묶음6개 미완료·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래6완료/6HOLD는 PR423 이력이다.
+
 2026-10-06 [Chicago·Orlando 전체 비용행 종료](../reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): CHI전체공개비용132,367,326.15·ORLF4전체apron137,768,857·ORLF2전중간포함상단138,303,543을실제원문/지문/구성/독립검문으로종료했다. 새annual산입0·camp/RequiredTender/모든incomingbonus도포함. 법적6완료/6HOLD·F법적1/5(F4)·A0/3 K0/4·시즌미확정. CHI matching·픽/다른팀급여·건강/분은미완료. AG응답회수/기사본문실패·NLM분석회수·Claude70초timeout·전체blind/G16미실행. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
 
 2026-10-05 [Denver–Cleveland 등록 종료](../research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.md): 고유15공개그룹/21행을 재실행한 DEN53일×Clark4/8·4/9 양분기와 CLE53일 검문. Cook/Kabengele/Rivers5개10일의만료·Stevens전환·후속계약연결, CLE일반13명9일의TW보정배치/2017CBA·2019규약 직접대조. 독립실제코드재검수/음성4종 통과. DEN_CLE_DATED_REGISTRATION 추가종료: 법적2완료/10HOLD·F0/5 A0/3 K0/4. 급여·건강·실제접수·F4/F5전체·시즌은미완료. 최종회차0·실제Pack0·미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래11/12HOLD는당시이력이다.
@@ -40,7 +42,7 @@
 | F2 | BOS·ORL 전체 비용 종료, TPE1/3 분기 종료; 두 픽 소유/우선권은 HOLD | 기존 Fournier 방향의 실행·후속 등록 |
 | F3 | Denver 선행 1R 전달/2R 전환과 후행 보호/종료, 전체 차지 | Gordon A 방향의 실행·후속 역할 |
 | F4 | 전체 비용·53일 등록 법적 범위 종료; F법적 PASS | Hall 5/9 생략 뒤 분·가용성 달력 |
-| F5 | Cleveland·Denver 개별 전체 비용; 53일 등록 법적 범위는 2026-10-05 종료 | C2·McGee 거래 생략 뒤 건강·분과 새 DEN–LAL 대진/시리즈 |
+| F5 | CLE 전체 비용·양팀53일 등록 종료; DEN 전체 비용은 HOLD | C2·McGee 거래 생략 뒤 건강·분과 새 DEN–LAL 대진/시리즈 |
 
 현행 법적 F 종료 **1/5(F4)**; 최초 법적 F 종료 이력은 **0/5**, A 최종 채택 **0/3**, K 종료 **0/4**다. 옛 `EXACT_PASS 0/5`는 S0 시기의 판정 이력이고 S2 법적 통과와 이름을 섞지 않는다. F 전체 종료는 해당 법적 필드와 연결 사건·재현 검문이 모두 닫힌 뒤 판정한다. 어느 한 필드의 통과가 F 전체 종료는 아니다.
 
