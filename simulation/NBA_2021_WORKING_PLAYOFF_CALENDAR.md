@@ -11,3 +11,5 @@
 [DEN–LAL6경기 작업 감독계획](DEN_LAL_2021_DATED_COACH_PLAN.json)의 날짜/홈/승자를 일치 검문했다. 다른14시리즈82경기의 개별 승자 배열은null이며 감독·건강·정확 분 적용도 미완료다. 날짜 사이 간격은 달력 일수이며 회복시간·의료 부하의 인증이 아니다. 다음PHX건강을 DEN–LAL에서 자동 이월하지 않는다.
 
 `working_calendar_adopted=true`, `working_games_adopted=88`, `coach_plan_games_applied=6`, `other_coach_plan_games_remaining=82`. 실제 일정 인증·전체 건강·전체 감독 실행·A3/K/시즌/원고는false/HOLD다. 본 채택은 최종 회차 기능/Context Pack을 만들지 않는다. v0.30 PARTIAL·설계/원고 CLOSED·미완료큰묶음6.
+
+2026-10-07 후속 소비자: 생성 당시 다른82승패/분null은 이 달력 파일의 당시 범위다. [88날짜별승패](NBA_2021_DATED_PLAYOFF_RESULT_MODELS.md)와 [88전체감독계획](NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.md)을 별도후속으로 적용했다. 원후보/달력 날짜배치·기존6연결을 덮어쓰지 않는다. 남은playoff작업감독경기0, 전체법적/정규시즌건강/A/K/시즌HOLD.

@@ -1,4 +1,5 @@
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import unittest
@@ -65,6 +66,68 @@ class StreamTests(unittest.TestCase):
         self.assertEqual(value['tool_steps'][0]['tool_name'], 'search_web')
         self.assertNotIn('private', str(value))
         self.assertEqual(value['malformed_line_count'], 1)
+
+    def test_opt_in_partial_agent_text_is_not_terminal_recovery(self):
+        text = '\n'.join(json.dumps(item) for item in [
+            {'event': 'step_update', 'step_update': {
+                'step_type': 'agent_response', 'state': 'ACTIVE', 'text_delta': 'Partial '}},
+            {'event': 'step_update', 'step_update': {
+                'step_type': 'agent_response', 'state': 'DONE', 'text_delta': 'answer'}},
+            {'event': 'result', 'result': {'status': 'SUCCESS', 'response': ''}},
+        ])
+        basic = parser.parse_stream(text)
+        self.assertNotIn('partial_agent_response', basic)
+        captured = parser.parse_stream(text, safe_capture=True)
+        self.assertFalse(captured['response_recovered'])
+        self.assertEqual(captured['partial_agent_response']['text'], 'Partial answer')
+        self.assertTrue(captured['partial_agent_response']['available'])
+        self.assertFalse(captured['partial_agent_response']['terminal_response_certified'])
+        self.assertFalse(captured['partial_agent_response']['source_evidence_certified'])
+
+    def test_opt_in_tool_output_is_metadata_only_and_missing_body_stays_missing(self):
+        secret = 'PRIVATE_TOOL_BODY_NOT_FOR_RECORD'
+        text = '\n'.join(json.dumps(item) for item in [
+            {'event': 'step_update', 'step_update': {'step_type': 'tool',
+                'tool_name': 'search_web', 'state': 'DONE',
+                'tool_info': {'parameters': 'PRIVATE_PARAMETERS', 'output': secret}}},
+            {'event': 'step_update', 'step_update': {'step_type': 'tool',
+                'tool_name': 'search_web', 'state': 'DONE', 'tool_info': {}}},
+            {'event': 'result', 'result': {'status': 'SUCCESS', 'response': ''}},
+        ])
+        captured = parser.parse_stream(text, safe_capture=True)
+        first, second = captured['tool_steps']
+        self.assertEqual(first['tool_output_kind'], 'string')
+        self.assertEqual(first['tool_output_char_count'], len(secret))
+        self.assertEqual(first['tool_output_sha256'], hashlib.sha256(secret.encode()).hexdigest())
+        self.assertFalse(second['tool_output_present'])
+        self.assertNotIn(secret, str(captured))
+        self.assertNotIn('PRIVATE_PARAMETERS', str(captured))
+        self.assertFalse(captured['response_recovered'])
+
+    def test_opt_in_duplicate_or_error_terminal_cannot_promote_partial(self):
+        agent = json.dumps({'event': 'step_update', 'step_update': {
+            'step_type': 'agent_response', 'text_delta': 'Apparently complete'}})
+        success = json.dumps({'event': 'result', 'result': {
+            'status': 'SUCCESS', 'response': 'final'}})
+        error = json.dumps({'event': 'result', 'result': {
+            'status': 'ERROR', 'response': 'error', 'error': 'PRIVATE_ERROR'}})
+        for text in (agent + '\n' + success + '\n' + success,
+                     agent + '\n' + error):
+            value = parser.parse_stream(text, safe_capture=True)
+            self.assertFalse(value['response_recovered'])
+            self.assertTrue(value['partial_agent_response']['available'])
+            self.assertNotIn('PRIVATE_ERROR', str(value))
+
+    def test_opt_in_partial_is_bounded_without_changing_final_status(self):
+        long_text = 'x' * 5000
+        text = '\n'.join((json.dumps({'event': 'step_update', 'step_update': {
+            'step_type': 'agent_response', 'text_delta': long_text}}),
+            json.dumps({'event': 'result', 'result': {'status': 'SUCCESS', 'response': 'done'}})))
+        value = parser.parse_stream(text, safe_capture=True)
+        self.assertTrue(value['response_recovered'])
+        self.assertEqual(len(value['partial_agent_response']['text']), 4096)
+        self.assertEqual(value['partial_agent_response']['char_count'], 5000)
+        self.assertTrue(value['partial_agent_response']['truncated'])
 
 
 if __name__ == '__main__':

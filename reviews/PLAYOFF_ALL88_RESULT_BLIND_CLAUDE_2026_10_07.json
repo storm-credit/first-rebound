@@ -1,0 +1,31 @@
+{
+  "scope": "FRESH_RESULT_SYNOPSIS_BLIND_LOGICAL_REVIEW_NOT_ORIGINAL_SOURCE_VERIFICATION_OR_G16",
+  "working_directory": "EMPTY_TASK_TEMP_DIRECTORY",
+  "source_files_supplied": 0,
+  "prior_reviews_supplied": 0,
+  "tools_enabled": false,
+  "session_persistence": false,
+  "prompt_sha256": "0e289ebd84999d598f5efaade04f5fe5e278ce565a62c49131e6a3dd6344c007",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 37.265,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "response": {
+      "type": "result",
+      "subtype": "success",
+      "is_error": false,
+      "result": "## 핵심 판정\n\n**명확한 산술 모순은 없음.** 검산 결과 모두 정합적입니다.\n\n- 48분 = 8블록 × 6분; 5명 × 48분 = 240 팀분 ✓\n- 6(보존) + 82(신규) = 88경기, 15시리즈(8+4+2+1)는 60~105 범위 내 ✓\n- PHX 25 × 240 = 6000, MIL 23 × 240 = 5520 ✓\n- 제임스/데이비스 13경기 × 36분 = 468 ✓ (2라운드 최대 14경기 내)\n- 홈 순서 PHX PHX LAL LAL PHX LAL PHX = 표준 2-2-1-1-1, PHX 4-3과 일치 ✓\n- MIL 23 < PHX 25라도 파이널 7차전 가정 시 양립 가능\n\n## 실제 결함: 0분의 이중 매핑\n\n가장 뚜렷한 **내부 논리 결함**은 \"0분\"이 두 범주(모델상 결장 / 비로테이션 예비, 건강 null)에 동시에 대응한다는 점입니다. 따라서 미첼의 5/23=0은 자체로 해석 불가이며, 0→24→36의 상승 곡선을 \"부상 후 복귀 램프업\"으로 읽는 것은 **저자 모델을 의학적 사실로 승격시키는 추론**입니다. 시놉시스 스스로 \"실제 의학적 증거 아님\"이라 적고도 복귀 서사를 내포하는 구조가 긴장을 만듭니다.\n\n## 근거 부족 항목 (모순 아닌 불확실성으로 표기 권장)\n\n- 과거 부상의 대체 역사 이식: 분기 후에도 동일 부상이 성립한다는 보장 없음\n- 로스터 ≤15 / 투웨이 ≤2는 \"이름 있는 명단\"에만 검증됨 — 실제 등록 증명 아님\n- 공개 계약 정보로 정확 금액·선수 동의 추론 불가\n- 88경기 전부 OT 0: 가능하지만 통계적으로 매우 낮아 **독자 설득력** 약점. 모델 단순화로 명시 필요\n\n## 권고\n\n0분 필드를 세 값(결장/비로테이션/미지정)으로 분리하고, 부상·복귀·계약 서술에 \"저자 모델\" 라벨을 일괄 부착하십시오.",
+      "stop_reason": "end_turn"
+    },
+    "rebuttal_recovered": true
+  },
+  "whole_gate_certified": false,
+  "root_adjudication": {
+    "limited_arithmetic_accepted": true,
+    "source_truth_or_g16_certified": false,
+    "rejected_as_actual_defect": "Zeroambiguity is in synopsis only: actualdatedcells have threeexplicitmode values andhealthnull forreserves. MitchellMay23 actualmode=MODELED_ABSENT; rampisexplicitauthorhealthmodel notmedicalfact.",
+    "correction": "Finalselected6games: MIL4+7+6+6=23,PHX6+7+6+6=25. BlindFinals7 exampleisnotcurrentchoice.",
+    "retained_uncertainty": "All88regulation/OT0 isexplicitplannedbudget, notfinalbox orstatisticalplausibilitycertificate. Unsupportedverylowprobability claimnotadopted."
+  }
+}
