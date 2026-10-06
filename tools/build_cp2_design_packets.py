@@ -11,6 +11,7 @@ import build_a01_e1_final_episode_function as e1_function
 import build_a01_e2_final_episode_function as e2_function
 import build_a01_e3_final_episode_function as e3_function
 import build_a01_e4_final_episode_function as e4_function
+import build_a01_e5_final_episode_function as e5_function
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_COMMIT = '171b46b'
@@ -34,7 +35,8 @@ def validate_final_functions(structure, root=ROOT):
     known = {str(e1_function.OUTPUT).replace('\\', '/'): e1_function.validate,
              str(e2_function.OUTPUT).replace('\\', '/'): e2_function.validate,
              str(e3_function.OUTPUT).replace('\\', '/'): e3_function.validate,
-             str(e4_function.OUTPUT).replace('\\', '/'): e4_function.validate}
+             str(e4_function.OUTPUT).replace('\\', '/'): e4_function.validate,
+             str(e5_function.OUTPUT).replace('\\', '/'): e5_function.validate}
     for path in paths:
         if path not in known:
             errors.append('unreviewed final function path: ' + str(path))
