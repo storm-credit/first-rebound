@@ -1,0 +1,64 @@
+{
+  "scope": "OFFICIAL_CALLOUT_TWO_ROWS_COLLECTION_ATTEMPT_NOT_ALTERNATE_REGISTRATION",
+  "prompt_sha256": "1bee089b16e10b89946f25608f984cd7f719aa169227337e63bd49fa51ee830f",
+  "result": {
+    "status": "PROCESS_TIMEOUT",
+    "elapsed_seconds": 60.074,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "d08e1139-aca3-422d-bdc0-33c3a3137789",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 20.1304126,
+        "num_turns": 1
+      },
+      "response_recovered": false,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "view_file",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "view_file",
+          "tool_output_present": true,
+          "tool_output_kind": "string",
+          "tool_output_char_count": 21,
+          "tool_output_sha256": "70ad7955d8c8e31e9007ddcee4ead07c5e85d920dcd5ca7f1e866cf0a2192a95"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "6b7f040b20fd920efd1bd5949b920718a9965188507b9ebb56f474dd332e6e24",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC",
+      "partial_agent_response": {
+        "text": "",
+        "char_count": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "truncated": false,
+        "available": false,
+        "terminal_response_certified": false,
+        "source_evidence_certified": false
+      }
+    }
+  },
+  "source_fact_acceptance": "ROOT_DIRECT_SOURCE_CHECK_REQUIRED",
+  "whole_gate_certified": false
+}
