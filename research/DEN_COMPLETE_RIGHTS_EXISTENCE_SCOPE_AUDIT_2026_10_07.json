@@ -1,0 +1,706 @@
+{
+  "schema_version": 2,
+  "baseline_main": "43e359c3a5c0dffb4d3c02f401ad0ed286b202bd",
+  "date_local": "2026-10-07",
+  "status": "CONDITIONAL_RELATION_LEMMA_VALID_WHOLE_BRANCH_PROMOTION_REJECTED",
+  "source_hash_convention": "SHA256_UTF8_NO_BOM_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/2020_DRAFT_RJ_HAMPTON_RELANDING_BOARD.md": "9c78d49f12b8068ea2c8dd91999b64e535a716d5dadedbbad3abdcc1cf6d1c22",
+    "research/BOS_NAMED_RIGHTS_ASSIGNMENT_WITNESS_2026_10_06.json": "a697079527d2724ed11943246a8af64a1159354d57ae9cbc811a356ceb5254f0",
+    "research/DEN_NAMED_CONDITIONAL_RIGHTS_WITNESS_2026_10_06.json": "db0c3fb87c5a6d6b04c6bc8f0e612278e6381285cc86672c044b6a20ff5198f2",
+    "research/DEN_THETA_TRANSITION_DOMAIN_2026_10_07.json": "21abc9a6b4d4c33cdd97e91cf5c4d9074ee77df9a06d6b96d40494094300cb85",
+    "research/DEN_F5_RESOURCE_FRAME_REVIEW_2026_10_07.json": "ae1ac9ae5720c61aeabf5260bcbbd809cd293e2bfe62de8f0272dd7e1bf9e0bb",
+    "research/DEN_PRIMARY_GUIDE_TERMS_COLLECTION_2026_10_07.json": "3ee186b2f63578c486c977d5d6f2ae567bfe5ede245cd37195f0927d41390ad2",
+    "research/DEN_T1_T3_DATED_MATCHING_WITNESS_2026_10_06.json": "4fe78e44c10e6a42e45dafda470b4a0c006b48e6b573dd8afbf8002c18020ee9",
+    "control/CHICAGO_2020_21_D1_S2_PROTOCOL.md": "a403bc5dfde53294601f094f2022f1d9ed4336593611d6f45d92cf137fc9b309",
+    "tools/build_den_complete_rights_existence_scope_audit.py": "f58242f314c5cdb8b8b97ca83ab83e3f492e469a230a9fa2b488a6c3ea00333c"
+  },
+  "source_versions_pinned": true,
+  "raw_sources": [
+    {
+      "id": "NBA2019_BYLAWS",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019-1.pdf"
+    },
+    {
+      "id": "NBA_COMPLETED_NOV2020",
+      "path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-den-graph-2026-10-07/nov2020-fourteam-release.html",
+      "raw_sha256": "1d8fd539e7ec135a335622256de4bc7d662d5c470a6fd61a078767d0dba70938",
+      "url": "https://www.nba.com/news/pelicans-acquire-steven-adams-eric-bledsoe-in-4-team-trade-jrue-holiday-to-milwaukee"
+    },
+    {
+      "id": "ORL_2223",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-den-primary-2026-10-07\\ORL_2223.pdf",
+      "raw_sha256": "63550e97068a14cbd60d8b461d1f15c0bb898652c9813fdbfa113509f5a8f92c",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612753/2022/11/orlando-magic-media-guide-2022-23.pdf",
+      "locator": {
+        "pdf_page_one_based": 116,
+        "printed_pages": [
+          228,
+          229
+        ],
+        "section": "ALL-TIME TRANSACTIONS"
+      }
+    },
+    {
+      "id": "DEN_2223",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-den-primary-2026-10-07\\DEN_2223.pdf",
+      "raw_sha256": "92722179281827e0bafd5c6379f2218a8cecb9d5818d4da39b97b93b4df83874",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612743/2022/11/2022-23-Denver-Nuggets-Media-Guide.pdf",
+      "locator": {
+        "pdf_page_one_based": 275,
+        "printed_pages": [
+          275
+        ],
+        "section": "FRANCHISE HISTORY TRANSACTIONS"
+      }
+    },
+    {
+      "id": "OKC_2122",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-den-primary-2026-10-07\\OKC_2122.pdf",
+      "raw_sha256": "94848cbdf59427f2dcd04db56bc6f924be88787ec4c5f252d917d7b378524564",
+      "url": "https://okcthunder.com/web-includes/ThunderMediaGuide2021-22.pdf",
+      "locator": {
+        "pdf_page_one_based": 49,
+        "printed_pages": [
+          96,
+          97
+        ],
+        "section": "2020-21 TRANSACTIONS"
+      }
+    },
+    {
+      "id": "OKC_2223",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-den-primary-2026-10-07\\OKC_2223.pdf",
+      "raw_sha256": "d2bfb8024b29ec78825c081ef6c6646628bebee7d6cd6e3e6e23c281ed453727",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612760/2022/12/mediaguide-202223.pdf",
+      "locator": {
+        "pdf_page_one_based": 52,
+        "printed_pages": [
+          102,
+          103
+        ],
+        "section": "2021-22 TRANSACTIONS"
+      }
+    },
+    {
+      "id": "DEN_GUIDE_2020_21",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-den-rights-2026-10-06\\DN_MediaGuide_2021.pdf",
+      "raw_sha256": "60e6f316b4c28747b3fd1dc4798b776daac1982a19bd07e82506a7deb5050ad6",
+      "url": "https://kseblobstorage.blob.core.windows.net/sitefiles/nuggets/DN_MediaGuide_2021.pdf"
+    },
+    {
+      "id": "WOJ_20210325",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-den-rights-2026-10-06\\woj-gordon-oembed.json",
+      "raw_sha256": "25d3513eda8222fca4119b6f4bb4777bd71b195ebb085df5ed3b4d5348837d34",
+      "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Ftwitter.com%2Fwojespn%2Fstatus%2F1375123571656306695&omit_script=true"
+    },
+    {
+      "id": "ORL_COMPLETION_ATTEMPT",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-den-rights-2026-10-06\\orlando-gordon-attempt.html",
+      "raw_sha256": "be242aaaa9e912fb823c4416278475ad0a6bc71ec4011d224fe7d97c3dc15065",
+      "url": "https://www.nba.com/magic/orlando-magic-acquire-rj-hampton-garry-harris-draft-pick-denver-nuggets-aaron-gordon-gary-clark-trade-20210325"
+    },
+    {
+      "id": "DEN_COMPLETION_ATTEMPT",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-den-rights-2026-10-06\\denver-gordon-attempt.html",
+      "raw_sha256": "e83ee33651ae85542a0859eda7187b2939fad0d22805286938255937dc7266f0",
+      "url": "https://www.nba.com/nuggets/news/nuggets-acquire-gordon-and-clark-20210325"
+    },
+    {
+      "id": "NBA_FROZEN_FLOW",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json"
+    },
+    {
+      "id": "BI_DEN_ARCHIVE",
+      "path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-denver-cost-2026-10-06\\BI_DEN_archive.html",
+      "raw_sha256": "d6a41cd3209a62c428578ea14c7acc1fe7338df4c206bf871b8e4de41b5af942",
+      "url": "https://web.archive.org/web/20210422002709id_/https://www.basketballinsiders.com/denver-nuggets-team-salary/"
+    }
+  ],
+  "original_S2_rule": "Every applicable salary, roster, exception, matching and draft-rights field requires a closed, source-supported bound or complete document/branch witness. The whole admissible domain must satisfy the rule. Unknown residuals remain HOLD.",
+  "classification": {
+    "fact": "Actual completed original acquisitions and published original rights/dated transactions; existing author directions",
+    "inference": "Existence of projected feasible rights realization in the expressly preserved economic family",
+    "candidate": "Complete P/G economic obligation relation retained while F5 allocations are omitted and freed resources left unused",
+    "author_locked": "Existing directions only; exact theta, numeric protections, waiver or future outcome not selected"
+  },
+  "scope_comparison": {
+    "same_named_assignment_existence_scope_as_BOS": true,
+    "DEN_all_required_asset_branch_categories_present": true,
+    "March25_legal_existence_not_actual_future_execution": true,
+    "prior_scope_audit_correction": "Unknown general portfolio predicates are not automatically members of the approved source-supported public family. Same output or no hidden clause is not a new mandatory S2 condition.",
+    "policy_changed": false
+  },
+  "family": {
+    "identity": "Same source-anchored complete historical P/G economic rights and all retained prior burdens, priorities, conversion, linkage, protection and termination obligations",
+    "preservation_kind": "CANDIDATE_IMPLEMENTATION_FAMILY_CONDITION_NOT_GLOBAL_PRIVATE_FACT",
+    "preserve_retained_obligation_relation_not_AST_only": true,
+    "preserve_all_other_already_committed_claim_realizations": true,
+    "rank_paths": "Every admissible external rank/event path of the original conditional rights; no actual future path chosen",
+    "changed_players": [
+      "DEN24 and T1 rookie payload Hampton->Nnaji",
+      "F5 McGee remains CLE and Hartenstein remains DEN"
+    ],
+    "deleted_F5_claim_objects": [
+      "theta.F5_DEN2023_second",
+      "theta.F5_DEN2027_second"
+    ],
+    "released_capacity_not_newly_spent": true,
+    "underlying_future_pick_owner": null,
+    "historical_F5_claims_made_unconditional": false,
+    "new_contract_terms_selected": false,
+    "all_private_portfolio_clauses_absent_certified": false,
+    "authority_support": [
+      "Existing approved T1/DEN24 economic template preservation",
+      "Existing F5 omission direction",
+      "CAUSALITY_MODEL changed-inputs-only and source-preserved baseline family",
+      "Same accepted BOS named-right assignment existence scope"
+    ],
+    "counterfactual_family_is_not_actual_negotiated_acceptance": true
+  },
+  "symbolic_witness": {
+    "classification": "SYMBOLIC_SIMULATION_RELATION_FOR_PRESERVED_CANDIDATE_FAMILY",
+    "original_anchor": "NBA publicly completed Nov2020 P acquisition and March2021 G assignment; 4.02 provides actual full enforceable original theta_star anchor",
+    "not_legal_by_definition": "theta_star names the actual original source-anchored economic rights, not an arbitrary member of a set defined to be lawful",
+    "theorem": "For every feasible original complete retained-right realization H(theta,r), project away the omitted conditional F5 outgoing claims and keep every retained obligation realization. The resulting candidate H_alt is feasible in this preserved family.",
+    "construction": [
+      "Choose the original complete feasible rights realization anchored by the original completed assignments, parametrically in every admissible future path r.",
+      "Carry P/G and every other retained contractual economic obligation realization and original priority/reference identities unchanged, including prior conversion and G rollover/termination.",
+      "Remove only the F5 conditional allocations to CLE when they would be active; if protection would make the allocation zero, remove zero. Do not infer unconditional CLE or DEN underlying ownership.",
+      "Leave any released resource unused; every other team retains its already committed original claim realization. New future CLE spending of an omitted F5 receipt is outside March25 proof and reopens descendants.",
+      "First-round claim/retention projection is unchanged. For each dated resource u, retained used_alt(u)=used_hist(u)-used_F5(u)<=used_hist(u)<=capacity_hist(u). Every surviving allocation and its priority still has its original witness.",
+      "The changed rookie/player payloads are handled by the previously accepted matching/registration/cost witnesses and do not silently change P/G asset consideration."
+    ],
+    "conditional_resource_algebra": {
+      "symbols": [
+        "C(u,r)",
+        "D_ret(u,theta,r)",
+        "D_F5(u,theta,r)"
+      ],
+      "premise": "D_ret>=0, D_F5>=0, D_ret+D_F5<=C in a feasible original realization",
+      "conclusion": "D_ret<=C after omission; the released amount is not committed to a new claim",
+      "proof": "D_ret<=D_ret+D_F5<=C, including D_F5=0 on protected/terminated outcomes",
+      "sample_enumeration_used_as_whole_proof": false
+    },
+    "quantifiers": "For every admissible original source-preserved theta and future path with a lawful original realization, there exists the projected candidate realization; instantiate source-anchored actual theta_star. Not every imagined report-compatible theta is asserted lawful.",
+    "all_three_asset_branches_covered_in_declared_family": true,
+    "same_future_rank_or_delivery_required": false,
+    "actual_unreported_global_state_simulation_proved": false,
+    "private_hidden_clause_absence_required": false,
+    "root_review_of_family_scope_support_required": true
+  },
+  "joint_public_graph": {
+    "original_edges": [
+      {
+        "id": "ADAMS",
+        "kind": "PLAYER",
+        "from": "OKC",
+        "to": "NOP",
+        "payload": "Steven Adams"
+      },
+      {
+        "id": "BLEDSOE",
+        "kind": "PLAYER",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "Eric Bledsoe"
+      },
+      {
+        "id": "MIL_TWO_FIRSTS",
+        "kind": "OPAQUE_UNCHANGED_RIGHT_BUNDLE",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "theta.MIL_two_firsts"
+      },
+      {
+        "id": "MIL_TWO_SWAPS",
+        "kind": "OPAQUE_UNCHANGED_RIGHT_BUNDLE",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "theta.MIL_two_swaps"
+      },
+      {
+        "id": "HOLIDAY",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "MIL",
+        "payload": "Jrue Holiday"
+      },
+      {
+        "id": "MERRILL60",
+        "kind": "DRAFT_PLAYER_RIGHT",
+        "from": "NOP",
+        "to": "MIL",
+        "payload": "Sam Merrill"
+      },
+      {
+        "id": "HILL",
+        "kind": "PLAYER",
+        "from": "MIL",
+        "to": "OKC",
+        "payload": "George Hill"
+      },
+      {
+        "id": "CHEATHAM",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Zylan Cheatham"
+      },
+      {
+        "id": "GRAY",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Josh Gray"
+      },
+      {
+        "id": "MILLER",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Darius Miller"
+      },
+      {
+        "id": "WILLIAMS",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Kenrich Williams"
+      },
+      {
+        "id": "NOP_WAS2023_2R",
+        "kind": "UNCHANGED_DATED_RIGHT",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "WAS2023_2R"
+      },
+      {
+        "id": "NOP_CHA2024_2R",
+        "kind": "UNCHANGED_DATED_RIGHT",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "CHA2024_2R"
+      },
+      {
+        "id": "DEN_PRIOR_FIRST",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "DEN",
+        "to": "OKC",
+        "payload": "theta.P"
+      },
+      {
+        "id": "DEN24_PLAYER",
+        "kind": "DRAFT_PLAYER_RIGHT",
+        "from": "MIL",
+        "to": "DEN",
+        "payload": "R.J. Hampton"
+      },
+      {
+        "id": "T1_HARRIS",
+        "kind": "PLAYER",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "Gary Harris"
+      },
+      {
+        "id": "T1_ROOKIE",
+        "kind": "PLAYER",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "R.J. Hampton"
+      },
+      {
+        "id": "T1_GORDON",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "DEN",
+        "payload": "Aaron Gordon"
+      },
+      {
+        "id": "T1_CLARK",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "DEN",
+        "payload": "Gary Clark"
+      },
+      {
+        "id": "DEN_FOLLOW_FIRST",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "theta.G"
+      },
+      {
+        "id": "T3_FOURNIER",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "BOS",
+        "payload": "Evan Fournier"
+      },
+      {
+        "id": "T3_TEAGUE",
+        "kind": "PLAYER",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "Jeff Teague"
+      },
+      {
+        "id": "T3_BOS2025_SECOND",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "theta.BOS_MEM2025_less_favorable"
+      },
+      {
+        "id": "T3_BOS2027_SECOND",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "theta.BOS2027_second"
+      },
+      {
+        "id": "F5_MCGEE",
+        "kind": "PLAYER",
+        "from": "CLE",
+        "to": "DEN",
+        "payload": "JaVale McGee"
+      },
+      {
+        "id": "F5_HARTENSTEIN",
+        "kind": "PLAYER",
+        "from": "DEN",
+        "to": "CLE",
+        "payload": "Isaiah Hartenstein"
+      },
+      {
+        "id": "F5_DEN2023_SECOND",
+        "kind": "OMITTED_DATED_RIGHT",
+        "from": "DEN",
+        "to": "CLE",
+        "payload": "theta.F5_DEN2023_second"
+      },
+      {
+        "id": "F5_DEN2027_SECOND",
+        "kind": "OMITTED_DATED_RIGHT",
+        "from": "DEN",
+        "to": "CLE",
+        "payload": "theta.F5_DEN2027_second"
+      }
+    ],
+    "candidate_edges": [
+      {
+        "id": "ADAMS",
+        "kind": "PLAYER",
+        "from": "OKC",
+        "to": "NOP",
+        "payload": "Steven Adams"
+      },
+      {
+        "id": "BLEDSOE",
+        "kind": "PLAYER",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "Eric Bledsoe"
+      },
+      {
+        "id": "MIL_TWO_FIRSTS",
+        "kind": "OPAQUE_UNCHANGED_RIGHT_BUNDLE",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "theta.MIL_two_firsts"
+      },
+      {
+        "id": "MIL_TWO_SWAPS",
+        "kind": "OPAQUE_UNCHANGED_RIGHT_BUNDLE",
+        "from": "MIL",
+        "to": "NOP",
+        "payload": "theta.MIL_two_swaps"
+      },
+      {
+        "id": "HOLIDAY",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "MIL",
+        "payload": "Jrue Holiday"
+      },
+      {
+        "id": "MERRILL60",
+        "kind": "DRAFT_PLAYER_RIGHT",
+        "from": "NOP",
+        "to": "MIL",
+        "payload": "Sam Merrill"
+      },
+      {
+        "id": "HILL",
+        "kind": "PLAYER",
+        "from": "MIL",
+        "to": "OKC",
+        "payload": "George Hill"
+      },
+      {
+        "id": "CHEATHAM",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Zylan Cheatham"
+      },
+      {
+        "id": "GRAY",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Josh Gray"
+      },
+      {
+        "id": "MILLER",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Darius Miller"
+      },
+      {
+        "id": "WILLIAMS",
+        "kind": "PLAYER",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "Kenrich Williams"
+      },
+      {
+        "id": "NOP_WAS2023_2R",
+        "kind": "UNCHANGED_DATED_RIGHT",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "WAS2023_2R"
+      },
+      {
+        "id": "NOP_CHA2024_2R",
+        "kind": "UNCHANGED_DATED_RIGHT",
+        "from": "NOP",
+        "to": "OKC",
+        "payload": "CHA2024_2R"
+      },
+      {
+        "id": "DEN_PRIOR_FIRST",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "DEN",
+        "to": "OKC",
+        "payload": "theta.P"
+      },
+      {
+        "id": "DEN24_PLAYER",
+        "kind": "DRAFT_PLAYER_RIGHT",
+        "from": "MIL",
+        "to": "DEN",
+        "payload": "Zeke Nnaji"
+      },
+      {
+        "id": "T1_HARRIS",
+        "kind": "PLAYER",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "Gary Harris"
+      },
+      {
+        "id": "T1_ROOKIE",
+        "kind": "PLAYER",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "Zeke Nnaji"
+      },
+      {
+        "id": "T1_GORDON",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "DEN",
+        "payload": "Aaron Gordon"
+      },
+      {
+        "id": "T1_CLARK",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "DEN",
+        "payload": "Gary Clark"
+      },
+      {
+        "id": "DEN_FOLLOW_FIRST",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "DEN",
+        "to": "ORL",
+        "payload": "theta.G"
+      },
+      {
+        "id": "T3_FOURNIER",
+        "kind": "PLAYER",
+        "from": "ORL",
+        "to": "BOS",
+        "payload": "Evan Fournier"
+      },
+      {
+        "id": "T3_TEAGUE",
+        "kind": "PLAYER",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "Jeff Teague"
+      },
+      {
+        "id": "T3_BOS2025_SECOND",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "theta.BOS_MEM2025_less_favorable"
+      },
+      {
+        "id": "T3_BOS2027_SECOND",
+        "kind": "OPAQUE_NAMED_CONDITIONAL_RIGHT",
+        "from": "BOS",
+        "to": "ORL",
+        "payload": "theta.BOS2027_second"
+      }
+    ],
+    "removed_edges": [
+      "F5_MCGEE",
+      "F5_HARTENSTEIN",
+      "F5_DEN2023_SECOND",
+      "F5_DEN2027_SECOND"
+    ],
+    "retained_contract_objects": {
+      "theta.P": {
+        "promisor": "DEN",
+        "assignee": "OKC",
+        "object_identity": "historical_complete_prior_right_object",
+        "transition_body": "theta.P.full_original_transition",
+        "resolution_event": "theta.P.full_original_resolution_event",
+        "priority_refs": "theta.P.all_original_priority_refs",
+        "second_round_conversion_refs": "theta.P.all_original_conversion_refs",
+        "first_round_supply_refs": "theta.P.all_original_first_round_supply_refs"
+      },
+      "theta.G": {
+        "promisor": "DEN",
+        "assignee": "ORL",
+        "object_identity": "historical_complete_Gordon_right_object",
+        "transition_body": "theta.G.full_original_transition",
+        "prior_resolution_ref": "theta.P.full_original_resolution_event",
+        "priority_refs": "theta.G.all_original_priority_refs",
+        "protection_rollover_termination_refs": "theta.G.all_original_protection_rollover_termination_refs",
+        "first_round_supply_refs": "theta.G.all_original_first_round_supply_refs"
+      },
+      "theta.context": {
+        "other_teams": "all teams in the complete related rights state",
+        "all_other_nodes_and_refs": "same historical related-state objects carried by identity",
+        "zero_or_no_other_burdens_assumed": false
+      }
+    },
+    "global_full_state_equals_history": false
+  },
+  "branches": [
+    {
+      "id": "prior_1R_conveys",
+      "status": "CONDITIONAL_RELATION_LEMMA_ONLY_NOT_LEGAL_BOUND_PASS",
+      "witness": "Same complete symbolic original obligation realization and omission projection; no branch numeric realization omitted",
+      "exact_terms": null,
+      "actual_future_delivery": null
+    },
+    {
+      "id": "prior_1R_converts_to_2R",
+      "status": "CONDITIONAL_RELATION_LEMMA_ONLY_NOT_LEGAL_BOUND_PASS",
+      "witness": "Same complete symbolic original obligation realization and omission projection; no branch numeric realization omitted",
+      "exact_terms": null,
+      "actual_future_delivery": null
+    },
+    {
+      "id": "subsequent_1R_protection_and_termination",
+      "status": "CONDITIONAL_RELATION_LEMMA_ONLY_NOT_LEGAL_BOUND_PASS",
+      "witness": "Same complete symbolic original obligation realization and omission projection; no branch numeric realization omitted",
+      "exact_terms": null,
+      "actual_future_delivery": null
+    }
+  ],
+  "matching": {
+    "already_passed": true,
+    "source": "research/DEN_T1_T3_DATED_MATCHING_WITNESS_2026_10_06.json",
+    "new_matching_execution_count": 0
+  },
+  "previous_probe_interpretation": {
+    "actual_F5_dependent_clause_found": false,
+    "actual_theta_star_illegal_counterexample_found": false,
+    "abstract_same_AST_probe_is_actual_source_counterexample": false,
+    "unknown_hypothetical_nonmonotone_obligations_must_be_added_to_public_family": false
+  },
+  "reopen": [
+    "Source-supported retained-right obligation depends on omitted F5 transaction in a way that defeats this preserved candidate economic realization",
+    "New related rights/priority/spending or changed P/G consideration",
+    "Candidate no longer preserves the complete original economic rights relation",
+    "Actual acceptance/future execution requested; descendants require dated verification"
+  ],
+  "authority": {
+    "proposed_all_three_asset_legal_bound_pass": false,
+    "whole_branch_source_verified": false,
+    "whole_branch_complete_domain": false,
+    "new_asset_PASS": 0,
+    "whole_row_promoted": false,
+    "independent_review_completed": false,
+    "actual_theta_values": null,
+    "actual_waiver_or_new_financial_choice": null,
+    "actual_future_delivery": null,
+    "actual_recipient_acceptance": null,
+    "private_global_absence_certified": false,
+    "register_central_prior_file_edits": 0,
+    "manuscript_allowed": false
+  },
+  "verification_scope": {
+    "pinned_source_and_direct_graph_delta": true,
+    "symbolic_nonnegative_resource_inequality": true,
+    "old_48_or_81_abstract_enumerations_reexecuted": 0,
+    "additional_same_AST_test_counted_as_legal_proof": 0,
+    "whole_actual_private_contract_world_verified": false,
+    "family_preservation_source_support_complete": false,
+    "original_nonempty_anchor_implies_projected_same_contract_family_coverage": false
+  },
+  "tools": {
+    "Antigravity": "NOT_RUN",
+    "NotebookLM": "PROCESS_TIMEOUT_ANALYSIS_NOT_RECOVERED",
+    "Claude": "RETURNED_LIMITED_LOGIC_REBUTTAL"
+  },
+  "external_tool_records": {
+    "NotebookLM": {
+      "path": "reviews/DEN_PRESERVED_RIGHTS_NLM_2026_10_07.json",
+      "source_sha256": "0d664d1fe92f1a5ff191b27027ae9bc84520bcf1cdad5ad62ad703b70bebb6e0",
+      "import_seconds": 18.345,
+      "query_seconds": 70.041,
+      "analysis_recovered": false
+    },
+    "Claude": {
+      "path": "reviews/DEN_PRESERVED_RIGHTS_CLAUDE_BLIND_2026_10_07.json",
+      "source_sha256": "80f1fd01a41da2fe1c6a4b4a3f85f1f561139a57600d49c33c656707316bc100",
+      "elapsed_seconds": 31.362,
+      "direct_sources_supplied": 0,
+      "whole_gate_certified": false
+    }
+  },
+  "rebuttal_disposition": {
+    "finding1_family_support": "SUBSTANTIVE_ACCEPTED: preserving feasible realization is a sufficient premise, not a source-derived candidate coverage fact",
+    "finding2_original_anchor": "SUBSTANTIVE_ACCEPTED: original H nonempty does not establish that its projected H_alt satisfies the same full retained contract relation",
+    "finding3_cross_branch": "Conditional algebra covers every branch with unchanged economic realizations, but actual joint priority/termination response remains unproved; no actual future execution certification added",
+    "finding4_acceptance": "Actual acceptance stays null as separate A2/execution; actual consent is not a new prerequisite for a sound lawful-existence witness",
+    "primary_authority_support_limit": "NBA4.02 supports original enforceable theta_star; NBA7.03 supports first-round retention predicate; neither supplies full-contract F5 deletion monotonicity",
+    "canon_permission_support_limit": "CAUSALITY and T1/DEN24 directions permit testing preserved original economic terms but do not directly certify feasible relation preservation on changed F5 state",
+    "actual_source_backed_illegal_counterexample_found": false,
+    "new_required_private_source_or_all_hidden_clause_absence": false
+  },
+  "report": {
+    "roadmap": "design/WORLD_BIBLE_COMPLETION_ROADMAP.md",
+    "unfinished_major_groups": 6,
+    "freeze": "v0.30 PARTIAL",
+    "gates": "CLOSED",
+    "manuscript_count": 0
+  }
+}

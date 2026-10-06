@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-07 [E2 기능·학교 운영안 및 DEN 범위 재검문](../reviews/A01_E2_SCHOOL_PATH_AND_DEN_SCOPE_REVIEW_2026_10_07.md): 첫 체험 T1/T2를 A01-EF-002/slot2로 배정했다. 학교계획·지도/안전·출석/학업 담당권한을 분리하고 T1 전 수업출석·학업보충·시간준수 세 조건의 충족 확인을 가상학교 설계로 명시했다. 실제 한국학교/학생기록 인증·출결삭제·등록/대회보장·새작가잠금0. E1→E2→C1 인계·기존5+3주장 보존, 최종기능2/A01잔여34/전체780계획 중 미배정778·실제Pack0·원고0. DEN 새 투영정리는 조건부로 유효하지만 원θ를 F5변경 상태에 운반할 조건 지원이 부족해 whole legal 승격을 기각했다. 실제 위법 반례나 비공개접수 필수요건을 추가한 것은 아니다. 법적11PASS/1HOLD·F4/5·A0/3·K0/4·시즌false·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
+
 2026-10-07 [E1 최종 기능·CHI 세 팀 matching 검문](../reviews/E1_FINAL_FUNCTION_AND_CHI_F1_SCOPE_REVIEW_2026_10_07.md): A01-EF-001을 첫 기능/배분slot1에 실제 배정하고 기존B1–B4/승인주장5를 보존했다. A01남은35·전체780계획slot 중 미배정779이며 공개회차수 확정은 아니다. CHI/BOS/WAS 동일 원자거래의 모든 외부 계약 입력∀Γ∃합법적 구현q를 원CBA·당해날짜·독립원문/산술검문으로 완료했다. 원S2/기존BOS·DEN과 같은 존재 범위이며 실제Γ/q/동의/금융선택/접수는null이다. 법적11PASS/1HOLD·F법적4/5(F1,F2,F4,F5)·A0/3·K0/4·시즌false. DEN공식guide4회수는 전체조건 증명과 별도이며 세자산branchHOLD. 전체G13/G14/G15/G16/G17미완·실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
 
 2026-10-07 [G14 집필 전 검증 순환 수리](../reviews/G14_PRE_MANUSCRIPT_DEPENDENCY_REPAIR_2026_10_07.md): README의 CLOSED→실제Pack금지와 G14 PASS→OPEN 조건이 만드는 순환1개를 수리했다. 전체G13/역사원장 잠금·ACTUAL_VERIFIED Blueprint+현행Canon 뒤에는 CLOSED/manuscript_allowed:false로 집필전Pack생성·검증이가능하다. 원고입력사용은G15/G16 검수·G17 사용자 명시 승인·별도OPEN PR뒤에만허용. 현재G13/역사잠금미완이므로 실제Pack0·기존설계샘플2·최종회차0·원고0 유지.10/4 G13→G14 수리는보존,새780Pack요건추가0. 법적10PASS/2HOLD·F법적3/5·A0/3·K0/4·시즌false·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
@@ -85,7 +87,7 @@ last_reviewed: 2026-09-12
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_1 / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_2 / FINAL_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |

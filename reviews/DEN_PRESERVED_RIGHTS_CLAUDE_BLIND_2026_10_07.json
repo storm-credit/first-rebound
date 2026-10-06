@@ -1,0 +1,21 @@
+{
+  "scope": "DEN_PRESERVED_RIGHTS_CANDIDATE_LOGIC_NOT_SOURCE_CODE_OR_G16",
+  "whole_gate_certified": false,
+  "source_files_supplied": 0,
+  "prior_reviews_supplied": 0,
+  "tools_enabled": false,
+  "prompt_sha256": "d94c663e4054fff796d9daa78629c78695f9793aac1900a3c3423a8a039b348e",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 31.362,
+    "response": {
+      "type": "result",
+      "subtype": "success",
+      "is_error": false,
+      "result": "## 독립 반증 (설명 텍스트만 대상)\n\n**1. 후보family 보존조건의 순환성**\n\"P/G·priority·conversion·rollover·termination을 통째로 보존하는 family를 택한다\"는 선택이 결론과 동형이다. 증명해야 할 명제가 \"보존된 권리의 법적 구현이 존재한다\"인데, family를 보존 성립으로 정의해 놓고 그 안에서 원소를 찾으면 비공허성만 남는다. 즉 보존은 도출이 아니라 전제다. 구조상 \"AST 동일 → 자동 성공\"을 금지한다고 선언했지만, family 정의 단계에서 동일한 지름길이 재진입한다.\n\n**2. θ\\* 앵커의 범위 부족**\n2020/2021 공식 완료 거래와 CBA 4.02는 **원** 할당의 feasible positive anchor일 뿐, 후보 H_alt의 앵커가 아니다. θ\\*가 원 패키지에서 성립한다는 사실은 F5 두 조건부 allocation을 제거한 후에도 같은 θ에서 P/G 의무가 동일 순번·동일 보호수치로 실현된다는 보장을 주지 않는다. 앵커 이전(transfer)에는 단조성 또는 독립성 보조정리가 필요하고, 설명문에는 그 보조정리가 없다.\n\n**3. 양화 구간의 누락**\n\"모든 u\"라 하면서 분기(prior convey / convert / subsequent protection termination) 각각에 대한 전구간 점검이 서술되지 않았다. D_ret ≤ C는 비음성에서 자동 따라오는 약한 귀결이고, 실제 쟁점인 **분기 교차 구간**—convert 후 rollover가 priority를 재배열하는 구간, termination 시점이 protection 창을 분할하는 구간—은 다루어지지 않았다. \"0삭제, projection 동일\"은 경계값 진술일 뿐 내부 구간 증인이 아니다.\n\n**4. 구분 유지**\n이 지적은 숨은 비단조 조건을 source-backed 반례로 주장하는 것이 아니다. 주장은 약하다: 조건부 정리는 서 있을 수 있으나, 그 조건의 지원이 미완이며, **법적 구현 가능성**과 **실제 수락**의 간극이 (recipient acceptance·실접수 null로) 명시 보류되어 있으므로 결론은 존재증인이 아니라 조건부 가설에 머문다.",
+      "stop_reason": "end_turn"
+    },
+    "rebuttal_recovered": true
+  }
+}
