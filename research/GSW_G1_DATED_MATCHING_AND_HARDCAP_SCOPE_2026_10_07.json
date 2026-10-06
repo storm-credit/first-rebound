@@ -1,0 +1,430 @@
+{
+  "status": "G1_DUAL_MATCHING_SOURCE_BOUND_VALID_CONDITIONAL_HARDCAP_DELTA_WHOLE_COST_HOLD_ROOT_REVIEW_PENDING",
+  "baseline_main": "b48fb829756fc8c9ee943a440a13a2b2d4426d08",
+  "candidate": "G1",
+  "candidate_selected": false,
+  "source_sha256": {
+    "simulation/GSW_HUTCHISON_2018_2021_OPERATING_CANDIDATES.json": "8bf812b411ce61592d7221f91954479f596062cf7b501ca78292ebf9ce5e6a99",
+    "tools/build_gsw_hutchison_operating_candidates.py": "9fa244e5bfb8a745ebf2a48ca636eef13f095be947130ce97b39df63c8e6c7fa",
+    "tools/build_gsw_g1_matching_hardcap_scope.py": "62f90e5c66ac9f3462762399ccd969ef0e7484cc7120a62fb9411ecab268fb90"
+  },
+  "raw_new_salary_sources": {
+    "WIGGINS": {
+      "url": "https://www.salaryswish.com/players/andrew-wiggins",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-matching-20261007\\WIGGINS.html",
+      "raw_sha256": "c938241967d082d8857303af95300ff9fc0dd0243ef971a06a78cff9132d39d3",
+      "bytes": 112645,
+      "text_sha256": "c2131421cd874a0433cea40b2ea157e88fb8a5b7d723bbc3a145a5ed497ae611",
+      "extraction": "BeautifulSoup html.parser get_text(' ',strip=True), UTF8; raw HTML bytes unchanged",
+      "authority_type": "PUBLISHER_OWN_COMPILED_PUBLIC_DATA_NOT_LEAGUE_CONTRACT_MEMO"
+    },
+    "RUSSELL": {
+      "url": "https://www.salaryswish.com/players/dangelo-russell",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-matching-20261007\\RUSSELL.html",
+      "raw_sha256": "6b21519a6be3aeab265b5aab7fb4b0079f1d3fe92c78c53d9cfcb953a44d46ea",
+      "bytes": 114212,
+      "text_sha256": "413a3ae97a2b206f416c6d1d3179c3221fb2deeae617a863b86c9cc0edf0a51d",
+      "extraction": "BeautifulSoup html.parser get_text(' ',strip=True), UTF8; raw HTML bytes unchanged",
+      "authority_type": "PUBLISHER_OWN_COMPILED_PUBLIC_DATA_NOT_LEAGUE_CONTRACT_MEMO"
+    },
+    "SPELLMAN": {
+      "url": "https://www.salaryswish.com/players/omari-spellman",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-matching-20261007\\SPELLMAN.html",
+      "raw_sha256": "21a830fae7ad38ec82a81ac8b575ce500f45a8861e30a03281bd6062db92342d",
+      "bytes": 94352,
+      "text_sha256": "37c6bc74d6436b79957b71c849a36a5eb3e8883a5488e1247614c20ee436f436",
+      "extraction": "BeautifulSoup html.parser get_text(' ',strip=True), UTF8; raw HTML bytes unchanged",
+      "authority_type": "PUBLISHER_OWN_COMPILED_PUBLIC_DATA_NOT_LEAGUE_CONTRACT_MEMO"
+    },
+    "CAP": {
+      "url": "https://www.salaryswish.com/salary-cap",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-matching-20261007\\CAP.html",
+      "raw_sha256": "970ac166d62d09d052de1c8419d2c53288aed9af1d51c5b10db3c063e41340b4",
+      "bytes": 110588,
+      "text_sha256": "c402ebe97ed0e7e7cd103474f36d783f0434f24abdf7927207b5aac6b45aad19",
+      "extraction": "BeautifulSoup html.parser get_text(' ',strip=True), UTF8; raw HTML bytes unchanged",
+      "authority_type": "PUBLISHER_OWN_COMPILED_PUBLIC_DATA_NOT_LEAGUE_CONTRACT_MEMO"
+    }
+  },
+  "existing_cba_direct_read": {
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "pdf_pages": [
+      64,
+      65,
+      193,
+      233,
+      234,
+      235,
+      236,
+      240,
+      241,
+      248,
+      252,
+      253,
+      254,
+      255,
+      294,
+      295,
+      398,
+      399
+    ],
+    "page_text_sha256": {
+      "64": "74a99ce5afa7d4672100e15df16f8098edf759c2eef0a3c3dcf496c9b185476d",
+      "65": "17ffeef7fdace31f8ac74cf053239e733fc0a7c19b45801b45eaee4844726a58",
+      "193": "8c437e14a675f6f2b28bb1189740ef8261d041ea083ea33e5f10e190bffb83a5",
+      "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+      "234": "6c47932b11835e0215ef806fdaf1ef3107d9b8c7dac0a3e208d179f14070f3c5",
+      "235": "1f449a622bbc1500de8056f778ced65f1ed3e316cccc5e85d04511cf2f7d1f36",
+      "236": "aa61f44487ea58bea1c27f04b6bac740acc3e8f86cb9edc47e18d8871986724d",
+      "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+      "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+      "248": "c722bdea14fa56c16772c7f070c15a40313f9afa91cf7f998176c7c93bd737c9",
+      "252": "b086e518697b5b94795c341b154279e6734b22f61c6157d51ab05a4f668aaab0",
+      "253": "f35be5e4b1e7af94779ab9e72256c06ea86c5cfb17f0076aa159ada72badff9a",
+      "254": "ff59fbc69a921ae3d87511f82fd59541017c8ab589720f530d3f3bcad9e595bb",
+      "255": "a00217d98754050d4ce74b982c756df925372d84aff152d5a62a6a0dbcdd98bf",
+      "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+      "295": "759d7300ca1b2e3539c96c7119b40eae99c77e6d7f4d23582fa890f9f3f2b3c0",
+      "398": "7b73db6a8ee98227cf0afc6c7606242f303360c729a3f621b15dc09b6a0a9354",
+      "399": "374510c0f0ffb64c519463645283ebf4ef66d65ec47442142c35af2fe2842d30"
+    }
+  },
+  "observed_original_contract_inputs": {
+    "WIGGINS": {
+      "season_label": "2019-20 Max",
+      "cap_hit": 27504630,
+      "base": 27504630,
+      "protected": 27504630,
+      "likely": 0,
+      "unlikely": 0,
+      "table_rows": [
+        [
+          "2018-19 Max",
+          "",
+          "",
+          "$25,467,250",
+          "$25,467,250",
+          "$25,467,250",
+          "$0",
+          "$0"
+        ],
+        [
+          "2019-20 Max",
+          "",
+          "",
+          "$27,504,630",
+          "$27,504,630 (+8%)",
+          "$27,504,630",
+          "$0",
+          "$0"
+        ],
+        [
+          "2020-21 Max",
+          "",
+          "",
+          "$29,542,010",
+          "$29,542,010 (+8%)",
+          "$29,542,010",
+          "$0",
+          "$0"
+        ],
+        [
+          "2021-22 Max",
+          "",
+          "",
+          "$31,579,390",
+          "$31,579,390 (+8%)",
+          "$31,579,390",
+          "$0",
+          "$0"
+        ],
+        [
+          "2022-23 Max",
+          "",
+          "",
+          "$33,616,770",
+          "$33,616,770 (+8%)",
+          "$33,616,770",
+          "$0",
+          "$0"
+        ]
+      ]
+    },
+    "RUSSELL": {
+      "season_label": "2019-20 Max",
+      "cap_hit": 27285000,
+      "base": 27285000,
+      "protected": 27285000,
+      "likely": 0,
+      "unlikely": 0,
+      "table_rows": [
+        [
+          "2019-20 Max",
+          "",
+          "",
+          "$27,285,000",
+          "$27,285,000",
+          "$27,285,000",
+          "$0",
+          "$0"
+        ],
+        [
+          "2020-21 Max",
+          "",
+          "",
+          "$28,649,250",
+          "$28,649,250 (+5%)",
+          "$28,649,250",
+          "$0",
+          "$0"
+        ],
+        [
+          "2021-22 Max",
+          "",
+          "",
+          "$30,013,500",
+          "$30,013,500 (+5%)",
+          "$30,013,500",
+          "$0",
+          "$0"
+        ],
+        [
+          "2022-23 Max",
+          "",
+          "",
+          "$31,377,750",
+          "$31,377,750 (+5%)",
+          "$31,377,750",
+          "$0",
+          "$0"
+        ]
+      ],
+      "prior_contract_rows": [
+        [
+          "2015-16",
+          "",
+          "",
+          "$5,103,120",
+          "$5,003,120",
+          "$5,003,120",
+          "$100,000",
+          "$0"
+        ],
+        [
+          "2016-17",
+          "",
+          "",
+          "$5,332,800",
+          "$5,232,800 (+5%)",
+          "$5,232,800",
+          "$100,000",
+          "$0"
+        ],
+        [
+          "2017-18",
+          "Team",
+          "Yes (Oct 27, 2016)",
+          "$5,562,360",
+          "$5,562,360 (+7%)",
+          "$5,562,360 (0→5.56M)",
+          "$0",
+          "$0"
+        ],
+        [
+          "2018-19",
+          "Team",
+          "Yes (Oct 12, 2017)",
+          "$7,019,698",
+          "$7,019,698 (+29%)",
+          "$7,019,698 (0→7.02M)",
+          "$0",
+          "$0"
+        ]
+      ]
+    },
+    "SPELLMAN": {
+      "season_label": "2019-20",
+      "cap_hit": 1897800,
+      "base": 1897800,
+      "protected": 1897800,
+      "likely": 0,
+      "unlikely": 0,
+      "table_rows": [
+        [
+          "2018-19",
+          "",
+          "",
+          "$1,620,480",
+          "$1,620,480",
+          "$1,620,480",
+          "$0",
+          "$0"
+        ],
+        [
+          "2019-20",
+          "",
+          "",
+          "$1,897,800",
+          "$1,897,800 (+17%)",
+          "$1,897,800",
+          "$0",
+          "$0"
+        ],
+        [
+          "2020-21 W",
+          "Team",
+          "Yes (Oct 31, 2019)",
+          "$1,988,280",
+          "$1,988,280 (+6%)",
+          "$1,988,280",
+          "$0",
+          "$0"
+        ],
+        [
+          "2021-22 W",
+          "Team",
+          "No (Dec 29, 2020)",
+          "$3,588,845",
+          "$3,588,845 (+99%)",
+          "$0",
+          "$0",
+          "$0"
+        ]
+      ]
+    },
+    "CAP": {
+      "cap": 109140000,
+      "tax": 132627000,
+      "apron": 138928000
+    }
+  },
+  "contract_source_scope": "Historical nominal contract components in publisher's own compilation; current modern player status and future careers are not candidate facts. No league memo certification.",
+  "source_exclusions": {
+    "SalarySwish_trade_sum": "NOT_USED: search trade summary reports original Evans as0 signingrights; aggregate is not a valid whole-player-salary witness",
+    "ESPN2020": "HTTP403 raw cached; no retrieved salary-body evidence adopted"
+  },
+  "preserved_family": {
+    "Russell_Wiggins_Spellman_public_nominal_contract_components": true,
+    "original_Evans_salary_used": false,
+    "original_Chicago22_Hutchison_salary_used": false,
+    "original_Evans_MIN_NY_future_copied": false,
+    "new_Hutchison_salary_percentage_selected": null,
+    "third_fourth_options_selected": null,
+    "post_assignment_Hutchison_bonus_or_salary_exact": null,
+    "MIN_acceptance": null,
+    "actual_contract_global_certification": false
+  },
+  "scale_domain": {
+    "source": "NBA CBA1012018 ExhibitA PDF29 #28 secondyeardisplay1604.9 ($000s)",
+    "published_reference": 1604900,
+    "conservative_source_magnitude_envelope": [
+      1000000,
+      2000000
+    ],
+    "envelope_is_selected_salary": false,
+    "envelope_is_exact_operative_scale": false,
+    "all_salary_percentages": [
+      0.8,
+      1.2
+    ],
+    "unknown_trade_bonus_included_in_post_120_percent_ceiling": true,
+    "future_option_dependence_does_not_bypass_current_year_ceiling": true,
+    "no_precise_display_rounding_algorithm_assumed": true
+  },
+  "rule_connections": {
+    "matching": "VII6(j)(1)(i),(iii) and6(j)(3):125%+100k is an available sufficient bound above/below tax and belowcap; simultaneous aggregate, no exceptions mixed",
+    "current_guarantee": "VII6(j)(5)(ii):Feb6 is afterJan10, current base is fully protected for matching",
+    "Hutchison_bonus": "VIII1(d):salary+unlikely including assignmentbonus automatically limited to120% of applicable scale",
+    "Russell_Wiggins_bonus": "II7(f)(i):current bonus positive headroom max(0,max25%cap/105%prior salary-current salary-unlikely); both have0",
+    "Spellman_bonus": "XXIV2(a)(i),(vi):original rookiecontract already traded ATL→GSW July8; this February assignment is not a second payable bonus",
+    "allocation": "VII3(b)(1)(ii),(2):tradebonus allocated over current and remaining years by protected percentages, not arbitrary future-only assignment",
+    "hardcap": "VII8(e)(1),6(m)(3):recipientS&T imposes apron in all subsequent capyear states with A-G adjustments"
+  },
+  "numeric_dual_matching_witness": {
+    "h_pre_salary_lower": 800000.0,
+    "h_post_salary_plus_unlikely_upper": 2400000.0,
+    "russell_current_bonus_headroom": 0,
+    "wiggins_current_bonus_headroom": 0,
+    "spellman_second_assignment_current_bonus": 0,
+    "gsw_outgoing_lower": 29982800.0,
+    "gsw_incoming_upper": 27504630,
+    "gsw_sufficient_matching_limit": 37578500.0,
+    "gsw_min_matching_slack": 10073870.0,
+    "min_outgoing": 27504630,
+    "min_incoming_upper": 31582800.0,
+    "min_sufficient_matching_limit": 34480787.5,
+    "min_min_matching_slack": 2897987.5,
+    "gsw_trade_apron_delta_upper_if_other_costs_preserved": -2478170.0
+  },
+  "bonus_parameters_actual_values": null,
+  "bonus_waiver_q_selected": false,
+  "matching_bound_valid_for_all_h_salary_percentages_and_allowed_assignment_bonus_in_declared_source_domain": true,
+  "matching_bound_whole_contract_or_transaction_certificate": false,
+  "dates": {
+    "candidate_trade": "2020-02-06",
+    "Russell_signed_and_acquired": "2019-07-07",
+    "Spellman_acquired": "2019-07-08",
+    "Russell_days_since_acquisition": 214,
+    "Spellman_days_since_acquisition": 213,
+    "Hutchison_contract_family_start_season": "2018-19",
+    "Hutchison_exact_signing_date": null,
+    "aggregation_2month_and_signing3month_Dec15_Jan15_restrictions_have_elapsed_in_this_family": true,
+    "new_excess_extension_6month_boundary": "2020-08-06",
+    "actual_future_extension_selected": null
+  },
+  "hardcap_scope": {
+    "reported_2019_apron": 138928000,
+    "trigger_original_S_and_T": "2019-07-07",
+    "pretrade_symbol": "B(t)=allother_GSW_apron_adjusted_cost_excluding_Hutchison",
+    "pretrade_whole_scale_sufficient_othercost_upper": 136528000,
+    "pretrade_formula": "forall preG1 states t: B(t)+H_apron(t)<=A; H_apron<=1.2*s28<=2400000",
+    "trade_delta_formula": "if unchanged other components and priorstate legal: outgoing R+S+H_apron replaced by incoming W; delta<=-2478170, so this trade cannot create a new apron breach",
+    "after_trade_Hutchison_GSW_current_salary_removed": true,
+    "outgoing_bonus_cash_and_annual_cash_limit_not_whole_certified": true,
+    "posttrade_remaining_othercost_domain": null,
+    "pretrade_Bt_source_complete": false,
+    "known_guide_event_dates": [
+      "2019-07-07",
+      "2019-07-08",
+      "2019-07-10",
+      "2019-07-11",
+      "2019-07-17",
+      "2019-07-31",
+      "2019-08-03",
+      "2019-09-30",
+      "2019-10-07",
+      "2020-01-07",
+      "2020-01-15",
+      "2020-01-24",
+      "2020-02-06",
+      "2020-02-07",
+      "2020-02-08",
+      "2020-02-23",
+      "2020-02-27",
+      "2020-03-03",
+      "2020-03-05",
+      "2020-03-10"
+    ],
+    "event_list_complete_private_transaction_registry": false,
+    "all_cost_states_2019_to_actual_capyear_end_certified": false,
+    "COVID_adjusted_next_capyear_boundary": null,
+    "whole_hardcap_pass": false
+  },
+  "upstream_GSW_L2_objects_changed": false,
+  "new_source_guessed_actual_money": false,
+  "actual_registration_certified": false,
+  "actual_medical_certified": false,
+  "whole_financial_pass": false,
+  "new_financial_selection": false,
+  "whole_legal_pass": false,
+  "new_destination_selected": false,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "tools": {
+    "Antigravity": "NOT_RUN_FOR_THIS_PACKET",
+    "NotebookLM": "NOT_RUN_FOR_THIS_PACKET",
+    "Claude": "NOT_RUN_FOR_THIS_PACKET",
+    "independent_review": "PENDING"
+  }
+}

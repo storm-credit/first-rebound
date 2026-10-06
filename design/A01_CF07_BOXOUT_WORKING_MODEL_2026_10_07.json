@@ -1,0 +1,130 @@
+{
+  "schema": "A01_CF07_ROUTINE_TRAINING_WORKING_MODEL_V1",
+  "status": "ROUTINE_CONCRETE_ACTION_DESIGN_SELECTED_INDEPENDENTLY_REVIEWED",
+  "authority_scope": "FICTIONAL_EDITORIAL_IMPLEMENTATION_NOT_AUTHOR_LOCK_OR_VERIFIED_BLUEPRINT",
+  "source_function": "A01-CF07",
+  "subact": "A01-S2",
+  "entry_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+  "canon_locked_direction": "첫 성공을 근거로 박스아웃·위치선정·패스 학습을 시작한다. 첫 성공 자체는 완성된 기술이나 천재 인증이 아니다.",
+  "routine_choice_versus_locked_fact": {
+    "locked_fact": "Learning starts after first contribution; mastery is not yet achieved.",
+    "new_design_choice": "One first boxout positioning task, a directly observable first shortfall, and an adjustment attempt.",
+    "new_author_lock": false,
+    "consequential_long_term_outcome_selected": false
+  },
+  "option_comparison": [
+    {
+      "id": "BOXOUT_FIRST",
+      "selected": true,
+      "reason": "A separate body-position task tests how the instinctive contribution differs from learned preparation; it does not infer a defect in the earlier rebound.",
+      "risk_control": "No later successful rebound, mastery or rival comparison is inferred."
+    },
+    {
+      "id": "POSITIONING_FIRST",
+      "selected": false,
+      "reason": "A broad positioning task overlaps the locked instinctive landing-spot moment unless an observable missing element is specified."
+    },
+    {
+      "id": "PASS_FIRST",
+      "selected": false,
+      "reason": "An outlet drill is possible later, but doing it first could imply a repeatable skill from the one locked assist sequence."
+    }
+  ],
+  "single_function": "첫 본능적 기여와 반복 가능한 기본 박스아웃 준비가 다르다는 부족을 자기 시도와 재시도로 확인한다",
+  "task_source": "The existing coach may convey a bounded supervised boxout task; no exact speech or new named instructor is assigned.",
+  "event_steps": [
+    {
+      "id": "L1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "기본 박스아웃 과제를 전달받고 상대 위치보다 공을 먼저 좇는 첫 시도를 한다",
+      "observable_result": "공을 먼저 보던 뒤 상대가 자신과 바스켓 사이에 먼저 자리한 것을 보고, 자기 발 위치를 제때 바꾸지 못해 그 사이 자리를 확보하지 못한 자기 수행의 부족을 확인한다",
+      "not_claimed": "상대의 득점·공식 경기 패배·부상·감독 속마음"
+    },
+    {
+      "id": "L2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "choice_options": [
+        "공을 먼저 좇는 기존 접근을 반복한다",
+        "상대 위치를 먼저 확인하는 접근을 택한다"
+      ],
+      "selected_choice": "상대 위치를 먼저 확인하는 접근을 택한다",
+      "action": "다음 시도에서 공부터 좇는 접근을 반복하지 않고 상대 위치를 먼저 확인한 뒤 합법적 몸과 발 위치를 세워 보려 한다",
+      "observable_result": "두 접근 중 상대 위치부터 보는 쪽을 택해 시도했다는 행동까지만 확인한다",
+      "not_claimed": "박스아웃 성공·리바운드 확보·기술 숙련·라이벌 추월"
+    }
+  ],
+  "direct_present_cost": "첫 성공을 다시 과시할 훈련 시간을 눈에 덜 띄는 기본 자리잡기 시도에 쓴다. 특정 득점 기회 상실은 주장하지 않는다.",
+  "selected_design_exit_state": "첫 박스아웃 시도의 위치 부족을 직접 확인하고 다음 시도에서 상대 위치를 먼저 보려 했다. 반복 성공·기술 숙련은 확인되지 않았으며 팀 준비 약속의 구체 작업은 아직 후보로 남는다.",
+  "reader_question_at_end": "이 기본 준비를 팀이 필요로 하는 반복 행동으로 연결할 수 있는가",
+  "next_candidate": {
+    "id": "A01-CF08",
+    "status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "exact_next_function_entry_required": "selected_design_exit_state",
+    "candidate_not_promoted": true
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "실제로 전달받은 기본 과제",
+      "자기 첫 시도와 상대의 보이는 위치",
+      "자기 재시도 순서"
+    ],
+    "not_available_without_access": [
+      "감독·상대의 비공개 평가",
+      "미래 숙련·성공",
+      "동료 전원의 신뢰"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "school_access": {
+    "C1_C2_C3_clearance_automatically_extends_to_CF07": false,
+    "bounded_CF07_learning_session_path_selected": true,
+    "same_fictional_school_plan": true,
+    "pre_session_condition_check_in_selected_model": {
+      "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+    },
+    "coach_supervision_and_safety": true,
+    "actual_real_school_or_case_records_certified": false,
+    "registration_or_contest_eligibility_certified": false
+  },
+  "unassigned_details": {
+    "school_name": null,
+    "date_or_session_number": null,
+    "training_partner_identity": null,
+    "exact_drill_or_contact": null,
+    "score_rebound_or_possession_outcome": null,
+    "academic_or_attendance_records": null,
+    "team_preparation_task_or_burden_holder": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_cf07_boxout_working_model.py": "ead96c4e3a2fc42937fb02b93881e25c083987bf852f19adb3199a70ae809fcb",
+    "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "7b4b33a1796b323aa689466538b9d8ee1aed87cd85157c7ef2ff329bebbc3f94",
+    "design/A01_LEARNING_AND_TEAM_PREPARATION_BOUNDARIES.json": "82c6a515558093a750e3ee12d9a13d57ee5b2dc70c0daa4459bf6b70884c441e",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/A01_FOLLOWUP_SCHOOL_PATH_2026_10_07.json": "47830ebf35d18e4f605608c416e2d7176e6f03c55f76250c8ec7e84fce933462",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "This is a selected routine design proposal, not an ACTUAL_VERIFIED Blueprint or final episode function.",
+    "The observed first shortfall and retry are newly selected fictional action, not preexisting author-locked fact.",
+    "The bounded school access model is a design path; real individual records remain unverified.",
+    "The visible L1 cue and L2 choice passed independent re-review; Blueprint/function authority still requires separate source-current validation."
+  ],
+  "actual_verified_blueprint_created": false,
+  "final_episode_function_added": 0,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}

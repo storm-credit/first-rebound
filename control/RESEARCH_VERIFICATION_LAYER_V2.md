@@ -64,6 +64,8 @@
 
 ## 현재 실행 연결
 
+2026-10-07 [본문 회수 기록](../reviews/A01_BOXOUT_AGY_BODY_TEST_2026_10_07.json): 단일 로컬 공식원자료 추출문 질문에서 `--output-format json`과 `--json-schema`의 `source_status`(`BODY_READ`/`UNVERIFIED`), 비어 있지 않은 `locator`/`answer`를 지정해26.705초 만에 답을 회수했다. 기존 JSON/stream parser로 terminal response를 확인하고 직접읽은 FIBA PDF157과 대조했다. 이 한 사례로 이전 빈 응답의 원인·모든 URL 수집·실제 tool trace·로그인 상태를 확정하지 않는다. 같은 원자료 재검문이므로 새 독립 출처0이며 `UNVERIFIED` 응답도 내용 검증 PASS로 올리지 않는다. [NLM 원문분석](../reviews/A01_BOXOUT_NLM_2026_10_07.json)과 [Claude 새결과물 blind](../reviews/A01_BOXOUT_CLAUDE_BLIND_2026_10_07.json)는 각 역할로 회수했다.
+
 - **Codex → Anti-Gravity:** 설치된 `C:\Users\Storm Credit\AppData\Local\agy\bin\agy.exe`를 절대 경로로 호출한다. 2026-09-26 로컬 확인에서 `--version`은 `1.2.11`, `models`는 서비스의 모델 목록을 정상 반환했다. `agy`가 셸 검색 경로에 없다는 사실만으로 연결 실패라고 판정하지 않는다.
 - **Anti-Gravity → 외부 MCP:** 이 CLI는 MCP 클라이언트다. 사용자 확인 기준으로 Codex·NotebookLM·프로젝트별 Obsidian 서버가 설정돼 있다. 이 시범에서 실제 도구 호출까지 확인한 서버는 **NotebookLM**뿐이다. 다른 서버의 설정·활성 표시는 통신 성공의 증거가 아니다. Codex가 Anti-Gravity를 사용하기 위해 Anti-Gravity를 MCP 서버로 등록할 필요는 없다.
 - **분석·검증:** Anti-Gravity의 원자료와 NotebookLM의 출처 연결 분석을 총괄이 후보 판정에 사용하고, Codex는 저장소 검증, Claude는 독립 반증, source-blind 검수는 결과물 자체의 맹점을 맡는다. 마지막 연구 판정도 G16 독립 검수와 G17 작가 승인을 대신하지 않는다.

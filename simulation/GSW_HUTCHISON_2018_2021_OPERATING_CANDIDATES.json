@@ -1,0 +1,865 @@
+{
+  "status": "THREE_CONDITIONAL_GSW_OPERATING_CANDIDATES_READY_FOR_REVIEW_NO_PROMOTION",
+  "baseline_main": "b48fb829756fc8c9ee943a440a13a2b2d4426d08",
+  "source_hash_method": "SHA256_UTF8_NO_BOM_LF_REPOSITORY;RAW_BYTES_CACHES;NORMALIZED_PYMUPDF_PAGE_TEXT",
+  "source_sha256": {
+    "control/AUTHORITY_MAP.md": "693ee88e93614a1bcaa470747f7986d267b6a35ec3bffd95aaff5e6467eaf4c1",
+    "simulation/2018_DRAFT_22_60_REOPEN.md": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+    "simulation/2018_DRAFT_28_43_EVANS_CASCADE.md": "006be16c10213127352087409c52512dd18bc3d084a4bd1d0588c6ec50fb5bfb",
+    "simulation/2018_DRAFT_37_60_TRENT_CASCADE.md": "1b947c463247fd1c4bfd76cb80df63f2b82aca0cd319c3b7ea53840ea5694c24",
+    "research/2018_HUTCHISON_24_28_TEAM_BOARD.md": "2eced96d772c5d816f87580f05b0cfc3032469cf020bd5df3f85e9bbc2168a97",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.json": "044897a7030a117bc4bcfcf7240895aa6dc7ad0876a001312dfd463e09428fbf",
+    "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json": "f3b09ab0ca20d21e1257d6777a4fd84cb46fb9479a46d3306603a9a16c1ee431",
+    "simulation/NBA_2021_L2_WORKING_CHRONOLOGY.json": "8d268860f3835814236e92c9d0022b6504a817d8a0cfd221575195afaa915354",
+    "tools/build_gsw_hutchison_operating_candidates.py": "9fa244e5bfb8a745ebf2a48ca636eef13f095be947130ce97b39df63c8e6c7fa"
+  },
+  "raw_sources": {
+    "GSW_GUIDE": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-hutchison-20261007\\GSW_2324.pdf",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612744/2023/12/2324-gsw-media-guide.pdf",
+      "raw_sha256": "1f229c48c478e78079a7c47ba1b9e0baa69f7867a1cfa8ff9c8185bca12dfd45",
+      "bytes": 12500914,
+      "role": "NEW_PRIMARY_COLLECTION_RETROSPECTIVE_TRANSACTION_LEDGER",
+      "pdf_pages": [
+        432,
+        433,
+        434
+      ],
+      "page_text_sha256": {
+        "432": "e6201cf85e9aa194cec4c475935c55184097c2369d68db695bead42a694fa22a",
+        "433": "db16ce7c4a0ba72cb2c5de473407e209f3a2470476f3a88749a2503d96cccc75",
+        "434": "00ddc220a90abf71739a556be7b0ded2a29a08ad04359208c0838ff192082a08"
+      },
+      "text_extraction": "PyMuPDF get_text(), UTF8 no BOM, CRLF/CR normalized LF; raw PDF bytes unchanged"
+    },
+    "NBA_SCALE": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-hutchison-20261007\\NBA_2018_19_CBA101.pdf",
+      "url": "https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf",
+      "raw_sha256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "bytes": 501528,
+      "role": "NEW_PRIMARY_COLLECTION_PUBLISHED_2018_SCALE",
+      "pdf_pages": [
+        10,
+        11,
+        29
+      ],
+      "page_text_sha256": {
+        "10": "a1b4e64db5c357363631aff0e2732274996731d9e9a526142e52fbc75dd543aa",
+        "11": "70bd6c52de58c5cc39308598af2276d43d9da405ff4d0a70d857582ccd015e5f",
+        "29": "a5adfd15fce5920cc6aa7aaa427cc48d9c755d4d5919943023c2dbcf49b23fde"
+      },
+      "text_extraction": "PyMuPDF get_text(), UTF8 no BOM, CRLF/CR normalized LF; raw PDF bytes unchanged"
+    },
+    "CBA": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "bytes": 2176412,
+      "role": "EXISTING_PRIMARY_RULES_DIRECT_READ",
+      "pdf_pages": [
+        69,
+        70,
+        202,
+        292,
+        294,
+        295,
+        296,
+        297
+      ],
+      "page_text_sha256": {
+        "69": "beabe2a0bae2126e3ef362b7ab8a7c8b0ead846cd7d716263a9626f3b5a0169e",
+        "70": "7c54cd0520304a25778774f889a47afcab309a28b34bd2121b5571043740664a",
+        "202": "3cdcf2dc3dc546b38f3be65b24c055f3c5da17d9a062f2a7472c30ffe6c82e12",
+        "292": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed",
+        "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+        "295": "759d7300ca1b2e3539c96c7119b40eae99c77e6d7f4d23582fa890f9f3f2b3c0",
+        "296": "ccc0e06d08145675c52559b668badc4a764ec6b0a19b3569982e4e24b69fa984",
+        "297": "5f5b2eaef8fde7966c49a82c13e5509bee2295d4bcbff032eb7e250e82080973"
+      },
+      "text_extraction": "PyMuPDF get_text(), UTF8 no BOM, CRLF/CR normalized LF; raw PDF bytes unchanged"
+    },
+    "OPENING": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-den-lal-opening-20261006.pdf",
+      "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/goduke.com/documents/2020/12/22/2020_21_Opening_Day_Rosters_12_22_20.pdf?timestamp=20201222074936",
+      "raw_sha256": "75a981d64c87de34f7d7896f3a0b1e695b1ed0a3c0e8d4b6638cef71c489ffa0",
+      "bytes": 690564,
+      "role": "EXISTING_PRIMARY_DATED_OPENING_ROSTER_DIRECT_READ",
+      "pdf_pages": [
+        2
+      ],
+      "page_text_sha256": {
+        "2": "6d00437c401e4a68f0b5a2a4ebc6cdd0cb802055e5cc96d064f445add28836a9"
+      },
+      "text_extraction": "PyMuPDF get_text(), UTF8 no BOM, CRLF/CR normalized LF; raw PDF bytes unchanged"
+    },
+    "KEY_DATES": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2020-21-nba-officials-guide.pdf",
+      "url": "https://697f6f9668a0bb24cd4b-78390edf330c094418f39edbaa9073b0.ssl.cf1.rackcdn.com/2021/02/2020-21-NBA-Officials-Guide-1-5-211.pdf",
+      "raw_sha256": "60b6987a4adc6fa3b836c787b033e37299509c8af0d8afda770253e3dfa69d40",
+      "bytes": 10456852,
+      "role": "EXISTING_PRIMARY_SEASON_KEY_DATES_DIRECT_READ",
+      "pdf_pages": [
+        4
+      ],
+      "page_text_sha256": {
+        "4": "2a037faa129efd66e635f134dd0096a303d535a2fd34a6b9898dc926874d43ce"
+      },
+      "text_extraction": "PyMuPDF get_text(), UTF8 no BOM, CRLF/CR normalized LF; raw PDF bytes unchanged"
+    },
+    "NBA_FEED": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "bytes": 4196976,
+      "role": "EXISTING_FROZEN_PRIMARY_EVENT_FEED",
+      "pdf_pages": []
+    }
+  },
+  "authority": {
+    "gsw_2018_28_landing": "TEAM_BOARD_PASS_DRAFT_NIGHT_PRIMARY_CANDIDATE_EXACT_LANDING_HOLD",
+    "landing_author_locked": false,
+    "source": "control/AUTHORITY_MAP.md",
+    "new_transaction_selection": false,
+    "health_season_style_delegation_is_new_financial_selection": false,
+    "approved_T1_T4_direction_preserved": true
+  },
+  "historical_fact_anchors": [
+    {
+      "date": "2018-07-02",
+      "event": "original Evans rookie signing in GSW guide",
+      "source": "GSW_GUIDE",
+      "pdf_page": 432,
+      "feed_date": "2018-07-01",
+      "date_disagreement_preserved": true,
+      "hutchison_signing_date": null
+    },
+    {
+      "date": "2019-07-07",
+      "event": "Russell/Napier/Graham acquired via Durant sign-and-trade; hardcap trigger",
+      "source": "GSW_GUIDE",
+      "pdf_page": 433
+    },
+    {
+      "date": "2019-07-08",
+      "event": "Spellman from ATL for Damian Jones/named2026second; Napier/Graham to MIN",
+      "source": "GSW_GUIDE",
+      "pdf_page": 433
+    },
+    {
+      "date": "2020-02-06",
+      "event": "Wiggins/named top3protected2021first/named2021second to GSW; Evans/Russell/Spellman to MIN",
+      "source": "GSW_GUIDE",
+      "pdf_page": 433,
+      "candidate_hutchison_assignment_observed": false
+    },
+    {
+      "date": "2020-11-24",
+      "event": "original Wanamaker GSW signing in guide",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434,
+      "feed_date": "2020-11-23T00:00:00",
+      "date_disagreement_preserved": true,
+      "exact_execution_time": null
+    },
+    {
+      "date": "2020-11-24",
+      "event": "original Evans MIN to NY",
+      "source": "NBA_FEED",
+      "hutchison_min_ny_assignment_observed": false
+    },
+    {
+      "date": "2020-12-09",
+      "event": "original Evans NY waiver in frozen feed",
+      "source": "NBA_FEED",
+      "candidate_hutchison_waiver_copied": false
+    },
+    {
+      "date": "2020-12-22",
+      "event": "original JTA two-way signing guide; frozenfeed dates it2020-12-21T00:00:00",
+      "source": "GSW_GUIDE+NBA_FEED",
+      "pdf_page": 434,
+      "date_disagreement_preserved": true,
+      "exact_execution_time": null
+    },
+    {
+      "date": "2020-12-21",
+      "event": "opening roster deadline11pmET",
+      "source": "KEY_DATES",
+      "pdf_page": 4
+    },
+    {
+      "date": "2021-03-25",
+      "event": "GSW moves Wanamaker to CHA and Chriss to SAS",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434
+    },
+    {
+      "date": "2021-04-08",
+      "event": "Payton first10day",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434
+    },
+    {
+      "date": "2021-04-19",
+      "event": "Payton second10day",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434
+    },
+    {
+      "date": "2021-05-13",
+      "event": "JTA standard/Bell two-way",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434
+    },
+    {
+      "date": "2021-05-16",
+      "event": "Payton standard rest-of-season contract",
+      "source": "GSW_GUIDE",
+      "pdf_page": 434
+    }
+  ],
+  "money_and_option_model": {
+    "source": "NBA_SCALE.PDF29+2017CBA_VIII1_and4",
+    "pick": 28,
+    "contract_first_season_condition": "2018-19_ROOKIE_SCALE_ONLY",
+    "published_table_units": "USD_THOUSANDS_ONE_DECIMAL",
+    "displayed_scale_reference_dollars": [
+      1370200,
+      1604900,
+      1681100
+    ],
+    "displayed_fourth_option_increase_percent": 80.5,
+    "salary_plus_unlikely_range_formula": "0.8*actual_applicable_scale <= salary_plus_unlikely <= 1.2*actual_applicable_scale; base salary itself >=0.8*scale",
+    "display_reference_80_120_arithmetic": [
+      [
+        1096160,
+        1644240
+      ],
+      [
+        1283920,
+        1925880
+      ],
+      [
+        1344880,
+        2017320
+      ]
+    ],
+    "display_reference_fourth_arithmetic": [
+      2427508.4,
+      3641262.6
+    ],
+    "display_arithmetic_is_exact_operative_dollar_certificate": false,
+    "table_rounding_method_and_exact_underlying_dollars": null,
+    "actual_contract_salary_or_bonuses": null,
+    "third_option_exercise_notice_date": null,
+    "ordinary_third_option_deadline_under_CBA": "2019-10-31",
+    "fourth_option_exercise_notice_date": null,
+    "season_specific_2020_fourth_option_deadline": null,
+    "ordinary_CBA_deadline_must_not_overwrite_2020_adjustment": true,
+    "third_fourth_options_not_automatic": true,
+    "2019_hardcap_constraint": "GSW_apron_adjusted_other_cost(t) + Hutchison_apron_charge(t) <= 2019_apron at S&T completion and every subsequent state through that capyear",
+    "gsw_2019_other_cost_domain": null,
+    "gsw_2019_full_hardcap_proof": false,
+    "2020_matching_constraints": {
+      "G1": "apply VII6(j) to GSW Russell+Spellman+Hutchison outgoing and MIN Wiggins outgoing; Hutchison receiving trade-bonus capped by VIII1(d)",
+      "G2_G3": "recompute BOTH teams with Russell+Spellman only outgoing and unchanged Wiggins/namedpick incoming; no automatic original matched-salary certificate"
+    },
+    "2020_full_matching_cost_proof": false,
+    "waiver_rule": "VII4(a)(1)(i): paid/payable terminated-contract salary remains Team Salary; no automatic zero or stretch",
+    "waiver_cost_if_third_exercised": "2020-21 protected salary remains; fourth option protection retained only if exercised; exact charge/setoff null",
+    "gp2_ten_day_end_dates": null,
+    "ten_day_rule": "II9(a): longer of10days or3teamgames; no exact expiry inferred from signing alone"
+  },
+  "conflict_witnesses": {
+    "opening": {
+      "historical_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Brad Wanamaker",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "James Wiseman",
+        "Jordan Poole",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Marquese Chriss",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "actual_pdf_standard_count_including_inactive_Klay": 15,
+      "two_way_pdf_names": [
+        "Nico Mannion"
+      ],
+      "unadjusted_hutchison_retention_count": 16,
+      "inactive_Klay_is_standard_not_two_way": true
+    },
+    "may": {
+      "historical_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Gary Payton II",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "historical_two_way": [
+        "Jordan Bell",
+        "Nico Mannion"
+      ],
+      "unadjusted_hutchison_retention_count": 16,
+      "only_may16_payton_omission_does_not_resolve_opening_conflict": true
+    }
+  },
+  "preserved_l2_gsw_team_inputs": {
+    "2021-05-19_POR_GSW": {
+      "player_seconds": {
+        "Andrew Wiggins": 2227,
+        "Draymond Green": 2272,
+        "Jordan Poole": 1493,
+        "Juan Toscano-Anderson": 1610,
+        "Kent Bazemore": 1640,
+        "Kevon Looney": 1870,
+        "Mychal Mulder": 891,
+        "Stephen Curry": 2397
+      },
+      "starters": [
+        "Andrew Wiggins",
+        "Draymond Green",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Stephen Curry"
+      ],
+      "witness": [
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Stephen Curry"
+          ],
+          "seconds": 1270.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Stephen Curry"
+          ],
+          "seconds": 719.0
+        },
+        {
+          "players": [
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kevon Looney",
+            "Mychal Mulder",
+            "Stephen Curry"
+          ],
+          "seconds": 408.0
+        },
+        {
+          "players": [
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Mychal Mulder"
+          ],
+          "seconds": 245.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Mychal Mulder"
+          ],
+          "seconds": 117.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kevon Looney",
+            "Mychal Mulder"
+          ],
+          "seconds": 75.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Mychal Mulder"
+          ],
+          "seconds": 38.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Mychal Mulder"
+          ],
+          "seconds": 8.0
+        }
+      ],
+      "modeled_absent": [],
+      "zero_health": {},
+      "source": {
+        "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+        "event_id": "2021-05-16_GSW_MEM",
+        "team": "GSW"
+      },
+      "source_full_roster_included": false,
+      "modeled_available": [
+        "Andrew Wiggins",
+        "Draymond Green",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+      "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+      "no_new_contact_injury_selected": true,
+      "recovery_or_medical_certificate": false,
+      "actual_active_list_certified": false,
+      "legal_registration_cleared": false,
+      "actual_substitution_order_certified": false,
+      "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+    },
+    "2021-05-21_GSW_MEM": {
+      "player_seconds": {
+        "Andrew Wiggins": 2227,
+        "Draymond Green": 2272,
+        "Jordan Poole": 1493,
+        "Juan Toscano-Anderson": 1610,
+        "Kent Bazemore": 1640,
+        "Kevon Looney": 1870,
+        "Mychal Mulder": 891,
+        "Stephen Curry": 2397
+      },
+      "starters": [
+        "Andrew Wiggins",
+        "Draymond Green",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Stephen Curry"
+      ],
+      "witness": [
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Stephen Curry"
+          ],
+          "seconds": 1270.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Stephen Curry"
+          ],
+          "seconds": 719.0
+        },
+        {
+          "players": [
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kevon Looney",
+            "Mychal Mulder",
+            "Stephen Curry"
+          ],
+          "seconds": 408.0
+        },
+        {
+          "players": [
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Mychal Mulder"
+          ],
+          "seconds": 245.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Mychal Mulder"
+          ],
+          "seconds": 117.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kevon Looney",
+            "Mychal Mulder"
+          ],
+          "seconds": 75.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Mychal Mulder"
+          ],
+          "seconds": 38.0
+        },
+        {
+          "players": [
+            "Andrew Wiggins",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Mychal Mulder"
+          ],
+          "seconds": 8.0
+        }
+      ],
+      "modeled_absent": [],
+      "zero_health": {},
+      "source": {
+        "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+        "event_id": "2021-05-16_GSW_MEM",
+        "team": "GSW"
+      },
+      "source_full_roster_included": false,
+      "modeled_available": [
+        "Andrew Wiggins",
+        "Draymond Green",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+      "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+      "no_new_contact_injury_selected": true,
+      "recovery_or_medical_certificate": false,
+      "actual_active_list_certified": false,
+      "legal_registration_cleared": false,
+      "actual_substitution_order_certified": false,
+      "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+    }
+  },
+  "candidates": [
+    {
+      "id": "G1",
+      "route": "2020-02-06_HUTCHISON_TO_MIN",
+      "status": "COMPARISON_CANDIDATE_NOT_SELECTED",
+      "recommended": true,
+      "author_locked": false,
+      "may_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Gary Payton II",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "may_two_way": [
+        "Jordan Bell",
+        "Nico Mannion"
+      ],
+      "opening_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Brad Wanamaker",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "James Wiseman",
+        "Jordan Poole",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Marquese Chriss",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "opening_two_way_in_official_pdf": [
+        "Nico Mannion"
+      ],
+      "JTA_two_way_event_is_separate_from_opening_pdf_observation": true,
+      "JTA_source_dates": {
+        "guide": "2020-12-22",
+        "frozen_feed": "2020-12-21T00:00:00",
+        "exact_execution_time": null
+      },
+      "dated_changes": [
+        "2020-02-06: substitute Hutchison for original outgoing Evans in Russell/Spellman package"
+      ],
+      "hutchison_in_gsw_may": false,
+      "third_option_required_for_may_hutchison": false,
+      "third_option_required_for_december_waiver_live_contract": false,
+      "new_contract_after_nonexercise_automatically_added": false,
+      "third_option_actual_selection": null,
+      "fourth_option_actual_selection": null,
+      "financial_percentage_selected": null,
+      "underlying_pick_conditions_changed_or_selected": false,
+      "future_min_ny_evans_path_copied": false,
+      "actual_acceptance": null,
+      "actual_registration_cleared": false,
+      "full_cost_bound_certified": false,
+      "candidate_waiver_request_date": null,
+      "candidate_waiver_completion_date": null,
+      "waiver_erases_all_salary": false,
+      "stretch_selected": false,
+      "claiming_team_or_setoff_assumed": false,
+      "new_standard_financial_contract_selected": false,
+      "l2_positive_vectors_preserved": true,
+      "other_teams_minutes_certified_unchanged": false,
+      "remaining_gaps": [
+        "MIN_ACCEPTANCE_AND_HUTCHISON_VALUE",
+        "FULL_MATCHING_AND_HARDCAP",
+        "MIN_DOWNSTREAM_PATH"
+      ],
+      "reserve_hutchison_health": null
+    },
+    {
+      "id": "G2",
+      "route": "RETAIN_HUTCHISON_OMIT_WANAMAKER_AND_MAY16_PAYTON",
+      "status": "COMPARISON_CANDIDATE_NOT_SELECTED",
+      "recommended": false,
+      "author_locked": false,
+      "may_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Chandler Hutchison",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "may_two_way": [
+        "Jordan Bell",
+        "Nico Mannion"
+      ],
+      "opening_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Chandler Hutchison",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "James Wiseman",
+        "Jordan Poole",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Marquese Chriss",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "opening_two_way_in_official_pdf": [
+        "Nico Mannion"
+      ],
+      "JTA_two_way_event_is_separate_from_opening_pdf_observation": true,
+      "JTA_source_dates": {
+        "guide": "2020-12-22",
+        "frozen_feed": "2020-12-21T00:00:00",
+        "exact_execution_time": null
+      },
+      "dated_changes": [
+        "2020-02-06: retain Hutchison; modified outgoing Russell/Spellman package",
+        "2020-11-24: omit Wanamaker signing",
+        "2021-03-25: omit original Wanamaker/CHA transaction, including its named outgoing/incoming claims",
+        "2021-05-16: omit Payton rest-of-season signing"
+      ],
+      "hutchison_in_gsw_may": true,
+      "third_option_required_for_may_hutchison": true,
+      "third_option_required_for_december_waiver_live_contract": false,
+      "new_contract_after_nonexercise_automatically_added": false,
+      "third_option_actual_selection": null,
+      "fourth_option_actual_selection": null,
+      "financial_percentage_selected": null,
+      "underlying_pick_conditions_changed_or_selected": false,
+      "future_min_ny_evans_path_copied": false,
+      "actual_acceptance": null,
+      "actual_registration_cleared": false,
+      "full_cost_bound_certified": false,
+      "candidate_waiver_request_date": null,
+      "candidate_waiver_completion_date": null,
+      "waiver_erases_all_salary": false,
+      "stretch_selected": false,
+      "claiming_team_or_setoff_assumed": false,
+      "new_standard_financial_contract_selected": false,
+      "l2_positive_vectors_preserved": true,
+      "other_teams_minutes_certified_unchanged": false,
+      "remaining_gaps": [
+        "MODIFIED_MIN_PACKAGE",
+        "FULL_HARDCAP",
+        "THIRD_OPTION",
+        "CHA_REGULAR_MINUTES_AND_PICK_CASCADE",
+        "PAYTON_FUTURE"
+      ],
+      "reserve_hutchison_health": null
+    },
+    {
+      "id": "G3",
+      "route": "RETAIN_THEN_PREOPENING_WAIVER_PAYTON_PRESERVED",
+      "status": "COMPARISON_CANDIDATE_NOT_SELECTED",
+      "recommended": false,
+      "author_locked": false,
+      "may_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Gary Payton II",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "may_two_way": [
+        "Jordan Bell",
+        "Nico Mannion"
+      ],
+      "opening_standard": [
+        "Alen Smailagic",
+        "Andrew Wiggins",
+        "Brad Wanamaker",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "James Wiseman",
+        "Jordan Poole",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Marquese Chriss",
+        "Mychal Mulder",
+        "Stephen Curry"
+      ],
+      "opening_two_way_in_official_pdf": [
+        "Nico Mannion"
+      ],
+      "JTA_two_way_event_is_separate_from_opening_pdf_observation": true,
+      "JTA_source_dates": {
+        "guide": "2020-12-22",
+        "frozen_feed": "2020-12-21T00:00:00",
+        "exact_execution_time": null
+      },
+      "dated_changes": [
+        "2020-02-06: retain Hutchison; modified outgoing Russell/Spellman package",
+        "2020-12-18: candidate waiver request before opening roster deadline; completed waiver/list removal timing must satisfy the December21 deadline"
+      ],
+      "hutchison_in_gsw_may": false,
+      "third_option_required_for_may_hutchison": false,
+      "third_option_required_for_december_waiver_live_contract": true,
+      "new_contract_after_nonexercise_automatically_added": false,
+      "third_option_actual_selection": null,
+      "fourth_option_actual_selection": null,
+      "financial_percentage_selected": null,
+      "underlying_pick_conditions_changed_or_selected": false,
+      "future_min_ny_evans_path_copied": false,
+      "actual_acceptance": null,
+      "actual_registration_cleared": false,
+      "full_cost_bound_certified": false,
+      "candidate_waiver_request_date": "2020-12-18",
+      "candidate_waiver_completion_date": null,
+      "waiver_erases_all_salary": false,
+      "stretch_selected": false,
+      "claiming_team_or_setoff_assumed": false,
+      "new_standard_financial_contract_selected": false,
+      "l2_positive_vectors_preserved": true,
+      "other_teams_minutes_certified_unchanged": false,
+      "remaining_gaps": [
+        "MODIFIED_MIN_PACKAGE",
+        "FULL_HARDCAP",
+        "THIRD_OPTION_LIVE_CONTRACT_BEFORE_WAIVER",
+        "WAIVER_COMPLETION_TIMING",
+        "PROTECTED_AND_FOURTH_OPTION_COST"
+      ],
+      "reserve_hutchison_health": null
+    }
+  ],
+  "recommendation": {
+    "candidate": "G1",
+    "reason": "Existing2020 auxiliary-rookie assignment candidate solves both opening and May slot issues without deleting Wanamaker/Payton events; source supports cap-role comparison, not Minnesota valuation/acceptance or full legal implementation.",
+    "selected": false,
+    "exact_hutchison_destination_after_min": null,
+    "no_gsw_return_in_G1_candidate_family": true
+  },
+  "new_primary_documents_collected": 2,
+  "tools": {
+    "Antigravity": "NOT_RUN_FOR_THIS_PACKET",
+    "NotebookLM": "NOT_RUN_FOR_THIS_PACKET",
+    "Claude": "NOT_RUN_FOR_THIS_PACKET",
+    "independent_review": "PENDING"
+  },
+  "full_actual_registration_complete": false,
+  "medical_certified": false,
+  "whole_legal_certified": false,
+  "season_selected_by_this_packet": false,
+  "new_financial_selection": false,
+  "actual_pack_count_changed": 0,
+  "manuscript_count": 0,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_gate": "CLOSED"
+}
