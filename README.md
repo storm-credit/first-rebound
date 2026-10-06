@@ -10,7 +10,7 @@
 
 설계서·설계도·세계 모델·고증 원장·인과 시뮬레이션·Act/Sub-Act·회차 기능표·Context Pack·독립 검수가 모두 통과되어 `control/DESIGN_GATE.md`가 `OPEN`으로 바뀌기 전에는 프롤로그와 1화를 포함한 어떠한 원고도 작성하지 않는다.
 
-현재 국소 G13 완료는 [E1](design/A01_E1_FINAL_EPISODE_FUNCTION.md)·[E2 최종 기능](design/A01_E2_FINAL_EPISODE_FUNCTION.md) 2개다. 전체 G13/역사 잠금은 미완료이며 실제 Context Pack 0개, 원고 0이다. 전체 780 계획 배분 중 2slot을 배정했고 778slot은 미배정이다. 이는 공개 회차수 확정이나 집필 허가가 아니다.
+현재 국소 G13 완료는 [E1](design/A01_E1_FINAL_EPISODE_FUNCTION.md)·[E2](design/A01_E2_FINAL_EPISODE_FUNCTION.md)·[E3 최종 기능](design/A01_E3_FINAL_EPISODE_FUNCTION.md) 3개다. 전체 G13/역사 잠금은 미완료이며 실제 Context Pack 0개, 원고 0이다. 전체 780 계획 배분 중 3slot을 배정했고 777slot은 미배정이다. 이는 공개 회차수 확정이나 집필 허가가 아니다.
 
 ## 현재 고정된 중심
 
