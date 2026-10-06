@@ -1,5 +1,7 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-06 [Chicago·Orlando 비용행 검수](../reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): Antigravity CLI 응답은 회수됐으나 요청 기사의 본문은 BODY_UNAVAILABLE이었다. NotebookLM은 고정 후보사본1개 분석을 회수했으며 독립 역사 자료 인증은 아니다. Claude는70초 timeout으로 반증을 회수하지 못했다. Codex의 원문 수집·별도 실제 CBA/구성/산술 검문으로 CHI 비용·ORL F4 비용·ORL F2 전중간 비용3행만 종료했다. 법적6완료/6HOLD·F법적1/5·A0/3 K0/4·전체blind/G16 미실행·PARTIAL/CLOSED·원고0.
+
 2026-10-05 [Denver 역사 상한·A01 입문 후속](../reviews/DEN_EXCEPTION_A01_CONTINUATION_REVIEW_2026_10_05.md): S2 공개 근거 기반 법적 추론으로 원역사 apron 상한138,928,000을 확보해 F5 비교식에 연결했다. 정확 장부 인증·다른 개정 조항·전체 대체 비용과 구분하며 보너스/기타차액3상단은null, 추가법적PASS0. A01 기존 오프닝 구식지문2개를 원본 대조 후 갱신하고 첫체험·첫기여를 독립 검문해 국소핵심Blueprint3(총9Beat) 연결. 알려진 패배 다음날 재방문과 달력/C1대응 미정도 분리했다. AG검색4/답변빈값, NLM초기사본34.068초회수; Claude/전체blind 이번NOT_RUN. 법적2완료/10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0. 아래 상한null·국소1 등의 표기는 당시 이력이다.
 
 2026-10-05 [Denver F5 비용 비교 증명](../reviews/DEN_F5_COST_COMPARATOR_REVIEW_2026_10_05.md): 원역사Nnaji22/대체Bey22 비율을 독립80~120%로 놓고 Hartenstein잔류−McGee미취득 기본급 차액을 합치면 −3,372,716~−1,786,156이다. 원역사 전체 상한+보너스/모든비공통차액의 증명 경로를 명시했으며 해당 상한은 아직null. 실제독립코드/CBA검문·음성6종·NLM단일파생출처49.384초회수; 추가법적PASS0. 등록2완료/법적10HOLD·F0/5 A0/3 K0/4·최종회차0·실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0.

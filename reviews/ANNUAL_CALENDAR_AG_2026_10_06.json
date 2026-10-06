@@ -1,0 +1,53 @@
+{
+  "scope": "DATED_CALENDAR_ORIGINAL_REPORTER_BODY_COLLECTION",
+  "baseline_main": "e05cf85d75825366cbc4407866029b1d3546f04e",
+  "model_selection": "Actual models command listed gemini-3.8-flash-low; selected explicitly to test response recovery",
+  "prompt_sha256": "31ac662e611bd88e7d4490e150dfaf24772d86eb7b952daddaaf5abc3a96eae1",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 36.987,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "a9096424-efd7-4b4e-b498-18357b624d28",
+        "status": "SUCCESS",
+        "response": "**Status:** `BODY_UNAVAILABLE`\n\n### Source Collection Findings\n- **Target URL:** `https://www.hoopsrumors.com/2020/07/key-2020-nba-offseason-dates-deadlines.html`\n- **Publisher:** Hoops Rumors (Publisher Organization metadata in schema: Hoops Rumors, Author: Luke Adams)\n- **Title:** Key 2020 NBA Offseason Dates, Deadlines\n- **Page Publication Date vs. Current Updated Date (from JSON-LD metadata):**\n  - `datePublished`: `2020-07-08T13:54:27-05:00` (July 8, 2020)\n  - `dateModified`: `2020-11-27T09:09:40-06:00` (November 27, 2020)\n- **Body Retrieval State:** The HTTP fetch returned a truncated / partial HTML shell (174 lines terminating mid-navigation menu at line 172: `<li class=\"teamname... Denver Nuggets</l`). The main article post content / date-body (including the text covering November 18 draft, November 20 last day of old league year, and November 21 new league year) was not delivered in the response body.\n- **November 18 Draft / November 20 / November 21 Facts & Paragraph Locators:** Not recovered due to truncated markup payload (`BODY_UNAVAILABLE`).\n- **Standard CBA / Exception Disclaimer:** In accordance with instructions, this reporter article does not constitute an official NBA/NBPA Collective Bargaining Agreement document or certify annual exception amendments.\n",
+        "duration_seconds": 25.3241388,
+        "num_turns": 1
+      },
+      "response_recovered": true,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "read_url_content"
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "read_url_content"
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "view_file"
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "view_file"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "477439be695ea5f2d7c29ff7edb6847d3f8106f7e4864d84b963dcba47021c05",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC"
+    },
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "independent_fact_sources_added_by_tool_re_read": 0,
+  "parent_body_verified_separately": true,
+  "amendment_or_legal_pass": false
+}

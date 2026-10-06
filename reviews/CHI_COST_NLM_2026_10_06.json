@@ -1,0 +1,59 @@
+{
+  "scope": "ONE_DERIVED_PACKET_TIMELINE_COMPONENT_ANALYSIS_NOT_INDEPENDENT_HISTORY",
+  "input_lf_normalized_utf8_sha256": "c349b5ed9b4bcd4639fca5512d3ff395874dc0b5113148a223e9c06eaf25beb9",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8"
+  ],
+  "question_sha256": "6d491dfb531e1e62039ad4fceed6eefb31587afca1f1c1790936b26330f1eaf0",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 54.168,
+    "process_budget_seconds": 100,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**분석 전제 및 검증 기준**\n본 분석은 제공된 파생 패킷(`Chicago annual scoped closure and wholecost candidate 2026-10-06`)의 내용만을 바탕으로 작성되었으며, 수록된 소스 문헌을 외부에서 독립적으로 재검증하지 않았습니다 [1, 2]. 비공개/사적 절대 부재 상태를 임의로 추정·가공하지 않으며, 드래프트 피/픽을 선택하거나 F1 및 시즌 전체 비용을 종결 처리하지 않습니다 [1-3].\n\n---\n\n### 1. 압축 인과 타임라인 (Causal Timeline)\n* **2020-11-18**: 2020 NBA 드래프트 진행 [1].\n* **2020-11-20**: 구 cap 연도 마지막 날 [1].\n* **2020-11-21 (신연도 개시 ~ 입증 창 시작)**: 신규 2020–21 cap 연도가 시작됨 [1].\n* **2020-11-21 ~ 2021-03-25 (F1 직전)**: 예외 제외 보수적 급여 하한은 **\\$109,622,028**(Cap 대비 +\\$482,028)이며, 개막 계약 최소 기본급은 **\\$121,387,948**(Cap 대비 +\\$12,247,948)로 계속 Cap 상회를 유지함 [2].\n* **2021-03-25 (원자적 F1 거래 직후)**: Gafford/Kornet 송출과 Theis/Green 수취가 단일 원자적 거래로 결합되며, 직후 기본급 최소액은 **\\$124,137,948**(Cap 대비 +\\$14,997,948)을 기록함 [2].\n* **결론**: 입증 창 전 기간(2020-11-21 ~ 2021-03-25) 동안 시카고의 TeamSalary가 지속적으로 Cap 위에 위치함에 따라, CBA VII §6(m)(2) 조건상 신규 MLE(\\$9,258,000) 및 BAE(\\$3,623,000)의 미사용 캡 미만 산입 기여분은 **0**으로 확정·종결됨 [1, 2].\n\n---\n\n### 2. 구성요소 비교 (Component Comparison)\n* **신규 연간 MLE/BAE 미산입 입증창**: **종결 (CLOSED)**. 공개 S2 법적 추론 범위 내에서 기여분 0으로 수용됨 [1, 2].\n* **시카고 전체 비용 (Whole CHI Cost)**: **미종결 (UNCLOSED)**. 산술 상한 \\$132,367,326.15(최대 \\$132,627,000 대비 여유분 \\$259,673.85)가 도출되었으나, `whole_bound_verified`: false 및 `whole_cost_pass`: false 상태임 [3, 4].\n* **트레이드 매칭 (Matching)**: **미종결 (UNCLOSED)**. F1 원자적 거래 트랜잭션 수치는 반영되었으나, 전체 매칭 검증은 통과하지 못함 (`matching_pass`: false) [2, 3].\n\n---\n\n### 3. 구체적 결함 분석 (Concrete Defects)\n* **수학/산술 결함 (Math Defect)**: 계산상 수치 상한(\\$132,367,326.15)이 최대 한도 이하로 상한 마진(\\$259,673.85)이 존재하지만, 보너스/웨이버 산식 미확정 및 입증 요소 미비로 인해 전체 경계 검증에 실패함 (`whole_bound_verified`: false) [3, 4].\n* **구성요소 매핑 결함 (Component Mapping Defect)**: 예외 점유 규칙(VII4a7/6m2)에서 신규 연간 예외는 0으로 닫혔으나, 이전 TPE/DPE 인벤토리 매핑이 미검토 상태로 남아 있음 (`TPE/DPEoldincorporation mappingawaitsindependentreview`) [3].\n* **원자적 시퀀스 결함 (Atomic Sequence Defect)**: 3/25 F1 거래 시 Gafford/Kornet 송출과 Theis/Green 수취는 단일 거래로 집계되어야 하며, 임의의 수취 전 송출 상태를 별도의 독립 사건으로 분리 생성하는 것은 부적절함 [2].\n\n---\n\n### 4. 이전 TPE/DPE 매핑 대기와 후보 승격(Candidate Promotion) 여부\n* **승격 불가**: 이전 TPE/DPE 인벤토리 매핑이 독립 검토 대기 중이고 `whole_cost_pass` 및 `matching_pass`가 모두 false이므로, 후보(Candidate) 단계에서 전체 원고/최종 승격 상태로 전환될 수 없음 (`manuscript_allowed`: false, `author_decisions_added`: 0, freeze v0.30 PARTIAL) [2-4].\n\n---\n\n### 5. 명시적 미해결 범위 (Unresolved Scope)\n1. **옛 TPE/DPE의 초기 및 이월 산입 매핑** [2, 3]\n2. **시카고 전체 비용(Whole Cost) 경계 검증 및 장부 종결** [2-4]\n3. **트레이드 매칭(Matching), 리그 접수/승인 및 시즌 전체 범위** [2, 3]\n4. **G16 전체 검수 통과 (G16 Overall Pass)** [2]\n\n💡 미해결 항목으로 남은 옛 TPE/DPE 인벤토리 매핑이나 Whole Cost 관련 다른 소스를 함께 검토해 볼까요?",
+      "question": "Analyze only this derivedpacket. Produce compact causal timeline and component comparison: newannual MLEBAE nonincorporation proofwindow vs wholeCHIcost vs matching. Find concrete math/component/atomic sequence defect. Does pending oldTPE/DPE inventory mapping prevent candidate promotion? Do not invent mandatoryprivateabsoluteabsence, do notselectfees/picks orclosewholeF1/season. Sources not independentlyverified byreadingthispacket. State unresolvedscope explicitly. Korean concise.",
+      "conversation_id": "831eb205-a030-429d-be1f-d87b65a39b31",
+      "sources_used": [
+        "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8"
+      ],
+      "citations": {
+        "1": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+        "2": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+        "3": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+        "4": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8"
+      },
+      "references": [
+        {
+          "source_id": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+          "citation_number": 1,
+          "cited_text_sha256": "f697b1c21669c826123257001aef04c9a9cb571e0557454bbe17190de88469c4",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+          "citation_number": 2,
+          "cited_text_sha256": "ea2ddc774d03585b3f01313a16dd3acd3ad3b8eb0c738e9fba8066340095235c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+          "citation_number": 3,
+          "cited_text_sha256": "f0eb5af59371c86269f3c11dc31d87bee55cd8d8c64387c5e7503bfa566d223c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "e1b9a62c-c98c-4cec-b432-ddd6b4e807c8",
+          "citation_number": 4,
+          "cited_text_sha256": "c6b9abb16bcafa48ffadea0cd1e0927ec4405608234da593733b38baee13dbaf",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
