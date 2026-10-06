@@ -1,0 +1,51 @@
+{
+  "scope": "ONLY_PRIMARY_NBA_GRANT_AVAILABILITY_BODY_COLLECTION",
+  "baseline_main": "f0dac6f3a1880b752bb5f22db5e0cab8da008a76",
+  "prompt_sha256": "27cf69cab328415876ad4d4e4550c384d8a3be78b9fcf2376db0f714e60ee041",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 35.19,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "3b320f05-1f8d-4055-abc2-07421ce3eda2",
+        "status": "SUCCESS",
+        "response": "- **Status**: BODY_READ\n- **Article Published Date**: 2021-03-16T13:44:26Z\n- **Exact Reported Text Amount**: \"$9.5 million\"\n- **Paragraph Locator**: Paragraph 17 (specifically: *\"Denver has a $9.5 million trade exception from the deal it struck with Detroit involving forward Jerami Grant.\"*)\n",
+        "duration_seconds": 24.2285656,
+        "num_turns": 1
+      },
+      "response_recovered": true,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "read_url_content"
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "read_url_content"
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "view_file"
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "view_file"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "8bbc97333cd915974184f61b4eeb182a2792f41e26da2635b7cd52e44b0afbee",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC"
+    },
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "independent_source_count_added_by_same_article_reread": 0,
+  "automatic_legal_pass": false
+}

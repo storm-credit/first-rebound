@@ -1,0 +1,96 @@
+{
+  "scope": "ORIGINAL_CBA_AND_DERIVED_CANDIDATE_RELATION_ANALYSIS_NOT_INDEPENDENT_FACT_COLLECTION_OR_G16",
+  "input_lf_normalized_utf8_sha256": "ec205f9272ea23f735f960ca419906d341e8e2d2c75ab576a339ae3af37426c9",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "5b958455-c880-4ecd-be28-0d357c75bbe6",
+    "52836dbc-0d37-4988-9d5b-5212a9875a8f"
+  ],
+  "question_sha256": "314d7fe7703fe2780245f776bfb2280322f0fa257b94b96b62581805df3c651b",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 48.269,
+    "process_budget_seconds": 100,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**Original 2017 CBA**와 후보 검증 문서(`DEN T1 T3 dated matching candidate 2026-10-06`)에 기반한 계약일자·Grant TPE·다팀 매칭 관계 분석 및 `dated_matching_charge` 하위 분기 검토 결과입니다 [1-4].\n\n---\n\n### 1. 원 조항(Source Clause) vs 법적 추론(Derived Inference)\n* **원 CBA 및 공식 데이터 조항 (Source Clause)**:\n  * **2개월 재합산 금지**: Exception으로 취득한 계약은 취득 후 2개월 동안 타 계약과 합산(aggregation)하여 트레이드할 수 없음 (`CBA Art. VII Sec. 6(j)(1)(iii)`) [1, 5].\n  * **신인 30일 트레이드 바**: Rookie Scale Contract 서명 후 30일간 트레이드가 제한됨 (`CBA Art. VII Sec. 8(d)(i)`) [5, 6].\n  * **동일 선수 예외 중첩 금지**: 동일한 교체 선수(replacement player) 수취 시 복수의 예외를 합쳐 사용할 수 없음 (`CBA Art. VII Sec. 6(l)`) [4, 5].\n  * **연속 Cap Lower 상회**: TPE 자격 유지를 위해 팀 총급여가 지속적으로 Salary Cap 이상이어야 함 (`CBA Art. VII Sec. 6(m)(1)-(2)`) [4, 7].\n  * **Grant TPE 가용액**: 2021-03-16 공식 보도 기준 Denver의 Jerami Grant TPE 가용액은 \\$9.5M임 [3, 7].\n* **구조적/법적 추론 (Derived Inference)**:\n  * **다팀 원자 거래 (Multi-team Atomic Trade)**: CBA 원문의 단일 수취 팀 관점 합산 규칙을 적용하여, 동일 작가가 승인한 T1/T3 edge(BOS–ORL–DEN)를 단일 원자 거래 구조로 묶어 평가함 (문자 그대로의 다팀 CBA 조항 인용이 아닌 법적 추론) [3, 4, 8].\n  * **재정 선택 미확정 상태의 결합**: 개별 세부 재정 조건(신인 계약율, bonus 분류, waiver 등)을 확정하지 않은 채, 최대 스트레스 한도(Worst-case upper bounds)로 통과 여부를 검증함 [2-4].\n\n---\n\n### 2. 계약일 · Grant TPE · 다팀 연결 구조\n* **계약일자 및 경과일**: Zeke Nnaji의 신인 계약 서명일(2020-11-30)과 Gary Harris의 연장계약일(2017-10-12)로부터 거래일(2021-03-25)까지 **115일이 경과**함 [5, 6].\n* **Grant TPE 연계**: Gary Clark 수취액(\\$2M + Gamma = \\$2.615M)은 기존 Grant TPE(\\$9.5M)에서 별도 차감되어 잔여 \\$6.885M을 유지함 [4, 7, 8].\n* **다팀 매칭 한도**: Taxpayer 매칭 기준(125% + \\$100k)을 모든 팀에 보수적으로 적용하더라도 ORL 수취 한도(\\$46.52M 대비 \\$32.78M), DEN 수취 한도(\\$25.88M 대비 \\$24.32M) 모두 여유를 확보함 [4, 8].\n\n---\n\n### 3. `dated_matching_charge` FalsePASS 공격 요소 검증\n* **신규 수취 2개월 합산 제한 (`VII.6(j)(1)(iii)`)**: Harris와 Nnaji 모두 최근 2개월 이내에 트레이드로 새로 수취된 assignment가 없으므로 Denver의 **Harris + Nnaji 송출 합산 가능** [5, 6].\n* **신인 30일 트레이드 바 (`VII.8(d)(i)`)**: Nnaji 서명 후 115일이 경과하여 **30일 제한 및 일반 FA 3개월/12월 15일 기준을 모두 통과** [5, 6].\n* **Gordon vs Clark 예외 분리 (`VII.6(l)`)**: Gordon은 Harris/Nnaji 합산 트레이드 예외로, Clark는 Grant TPE로 **분리 수취하여 동일 선수 예외 중복 적용 금지 조항을 준수** [4, 5, 8].\n* **Continuous Cap Lower (`VII.6(m)(1)-(2)`)**: DEN 기본급 8인 급여가 T1 전 \\$110.61M, Harris→Gordon 치환 후 \\$109.59M으로 Salary Cap(\\$109.14M)을 **지속 상회하여 TPE 자격 연쇄 유지** [4, 7].\n* **Boston WK-first 순서 및 Apron 한도**: Boston의 WK 거래(Theis/Green 송출, Kornet/Wagner 수취) 및 Hayward TPE 수취(\\$21.15M / \\$28.5M 한도) 선행 통과 확인 후, BOS, ORL, DEN **3개 팀 모두 Tax Apron(\\$138.928M) 이내** 수렴 [2, 4, 8, 9].\n* **ORL/DEN 성과 보너스 및 Gamma 상한**: ORL 수취(Harris 성과전액 \\$2.533M 포함) 및 DEN 수취(Gordon 성과전액 \\$1M 포함) 모두 **Unlikely/Gamma 포함 최대 스트레스 테스트 상한 충족** [4, 8].\n\n---\n\n### 4. 1차 조항 충돌 및 산술 갭 검토 결과\n* **Primary Clause Contradiction (원 조항 충돌)**: **없음**. CBA 수취 비율, 예외 분리 적용, 신인 제한 및 연속 Cap 조건상 직접적인 조항 충돌이 존재하지 않음 [1, 4, 5].\n* **Arithmetic Gap (산술적 갭)**: **없음**. 125% + \\$100k 산식, Grant TPE 잔여액 계산(\\$9.5M - \\$2.615M = \\$6.885M), Apron 여유분 등 모든 수치적 공식이 정확히 일치함 [4, 8].\n\n---\n\n### 5. 범위 한계 및 부재 미증명 명시\n* **사적 전역 부재 증명 불요**: 유한 보존 공공 S2 증인(finite preserved public S2 witness)에 대한 검증이며, 미공개 사적 사건에 대한 전역 부재 증명서(private all-absence certificate)를 요구하거나 보증하지 않음 [3, 4, 7].\n* **검증 범위 국한**: 미확정 픽 분기, F1/F3 전체 실행, 특정 시즌 전체 인증을 수행하지 않으며, 오직 `dated_matching_charge` 하위 분기의 검문 자격만을 평가함 [2-4].\n\n💡 추가적으로 특정 팀의 Apron 여유분 산출 내역이나 특정 선수의 Gamma 계산 방식에 대해 더 세부적인 확증이 필요하시면 말씀해 주세요!",
+      "question": "Only original2017CBA and owncandidate. Build short contract-date/Grantavailability/multiteam-edges relation analysis. Attack dated_matching_charge subbranch falsePASS: newlyacquiredtwo-monthaggregation, rookie30daytradebar, separateexceptions Gordon-vs-Clark, continuouscaplower, BostonWK-firstcostorder, ORLallperformance/fullbonus bounds. Candidate sameauthorapprovedT1T3edges grouped atomic, nofinancialselection. Identify actual primaryclause contradiction or arithmetic gap. Do not require private/unpublishedallabsence certificate forfinitepreservedpublicS2 witness, or certifyunknownpickbranches/allF1/F3/season. Distinguish source clause vsderivedinference. Korean concise.",
+      "conversation_id": "9464591e-aa95-41e4-832d-f6683790c5e2",
+      "sources_used": [
+        "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "52836dbc-0d37-4988-9d5b-5212a9875a8f"
+      ],
+      "citations": {
+        "1": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "2": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "3": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "4": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "5": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "6": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "7": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "8": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+        "9": "52836dbc-0d37-4988-9d5b-5212a9875a8f"
+      },
+      "references": [
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 1,
+          "cited_text_sha256": "fc20544713039b1870b750b16f489e43ac5a81235b8f4e925acc541753d65660",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 2,
+          "cited_text_sha256": "590c54e4035568192ed6be8a3fc09159a0d4f18ceb982f704523bd6176ad6f8f",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 3,
+          "cited_text_sha256": "5d540b89523019a84105fb01be7c34f48e80867aebdc783acd743ee1a9f7d347",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 4,
+          "cited_text_sha256": "6ec1103538395bc32baaef353d0b1dbbea7170b3f67821fabceb56d9ac9563dd",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 5,
+          "cited_text_sha256": "8b3256c25ef953d7e4a3ef7ad6f1047145d7fa81d287940d179aec319363c251",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 6,
+          "cited_text_sha256": "b8e4f08bf85357af380b91c6c7e09dbf165b7148e2b11f3d0f149e001cd9854f",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 7,
+          "cited_text_sha256": "2756de1ad0fe3ba53ecb1fdab5c43e887d520218fdd10349a6960312ba8c33bb",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 8,
+          "cited_text_sha256": "9025a33c79c874f96917e74e2047d987514a2ef2789a1951cc08708845e38852",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "52836dbc-0d37-4988-9d5b-5212a9875a8f",
+          "citation_number": 9,
+          "cited_text_sha256": "f5e7d2057f9948bbc4f73a0f5ce98021270b15146e70a6ab7387353fdb702bb1",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

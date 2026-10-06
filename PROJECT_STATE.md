@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-06 [Denver 날짜별 matching 한 분기 종료](reviews/DEN_DATED_MATCHING_REVIEW_2026_10_06.md): 승인T1/T3 이동의 다팀 원자 구조·Grant3/16~25/연속cap·Nnaji서명115일·세팀전체fee/성과상단을 실제 검문했다. DEN matching1/4분기완료·픽3분기HOLD; BOS TPE1/3완료·픽2분기HOLD. 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3 K0/4·시즌미확정. 남은법적행은CHI matching·BOS두픽·DEN픽이며 건강/분/시즌도 남는다. AG본문회수·NLM분석회수·Claude세션한도반증미회수. 미완료큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
+
 2026-10-06 [Denver 전체 비용행 종료](reviews/DEN_FULL_COST_REVIEW_2026_10_06.md): T1전132,646,932·후135,692,588(최소apron여유3,235,412), 수취bonus전범위·신인/FA/방출/후속·A–G/53일을 원문·산술·독립 검문했다. 같은 증인으로 DEN_COMPLETE_COST/DEN_F5_COMPLETE_COST 종료: 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 픽2개·DEN 픽/양측charge, 건강/분/전체시즌이 남는다. 미완료큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래 법적7/5·F1/5 등의 숫자는 이전 이력이다.
 
 2026-10-06 [Cleveland 전체 비용행 종료](reviews/CLE_FULL_COST_REVIEW_2026_10_06.md): 보존된 공개 계약군의 전체 비용 상한137,501,394와 apron 여유1,426,606을 원문·A–G·53일 연결·별도 독립 검문으로 확인했다. Jan4 Cleveland 위젯에서 McGee4.2m 거래 전 현재 Salary도 회수했다. 법적7완료/5HOLD·F법적1/5(F4)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 두 픽·DEN 자산/양 비용행과 건강/분이 남는다. 큰 묶음6개 미완료·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래6완료/6HOLD는 PR423 이력이다.
