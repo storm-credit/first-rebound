@@ -1,0 +1,97 @@
+{
+  "scope": "THREE_SOURCE_CLAUSE_REPORT_CANDIDATE_TIMELINE_ANALYSIS_NOT_INDEPENDENT_G16",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "5b958455-c880-4ecd-be28-0d357c75bbe6",
+    "42b74aa3-448f-4699-9cbc-ed6d5887d51c",
+    "303b5911-f546-414c-96f7-edb188bfc199"
+  ],
+  "input_lf_normalized_utf8_sha256": "7814b2e533a5f9e5a3a68762dd49f0f4e4a962eb02a1ed52e17f4f4a534fb481",
+  "question_sha256": "ec59019e7931eb6d2b80a352360d4b8682c5557f21c0543029c96c842c5337fd",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 77.293,
+    "process_budget_seconds": 100,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. 원천별 근거 구분 (Provenance)\n\n* **CBA 원문 규정**: CBA Article XXIV Section 2(a)(ii) (트레이드 보너스 15% 상한) [1], Article VII Section 3(b) (당해 귀속 배분) [2], Article VII Section 6(m)(3) A–G (Apron 팀 급여 조정 항목) [3], Article I Section 1(iii) 및 Article VIII Section 1(c)–(d) (루키 스케일 및 감액 상한) [4].\n* **BI 언론 보고서 (4/20 수정, 4/22 캡처)**: JaMychal Green 계약에 따른 Hard Cap(Apron) 발동, McGee 수급 표기, Gary Clark 4/8 방출, Austin Rivers 4/20 10일 계약(\\$158,907), 미사용 TPE(Grant \\$5,325,000 등), Troy Daniels/Richard Jefferson 캡 홀드 명시 [5-7].\n* **자체 Candidate 모델 (`DEN_CURRENT_CANDIDATE`)**: T1 전(\\$132,646,932) 및 원자적 T1 후/F5 생략(\\$135,692,588) 상한 산출 및 Apron 여유액(\\$3,235,412) 상한선 증인 구축 [5, 7].\n\n---\n\n### 2. 주요 트랜잭션 및 Apron 카테고리(A~G) 크로스링크\n\n* **T1 전 (\\$132,646,932)**: Gordon, Clark 및 신규 보너스를 제하고 Gary Harris(\\$19,160,714), Harris unlikely(\\$2,533,333), Zeke Nnaji 120% 상한(\\$2,193,480)을 원자적으로 배치하여 선예약 산출 [5, 7].\n* **원자적 T1 후 (\\$135,692,588)**: Harris/Nnaji24 교체 후 Gordon(\\$18,136,364) 및 Clark(\\$2,000,000 원계약)을 반영하되, 이전 선수와 신규 선수의 이중 잔류(double residency)를 방지함 [5, 7].\n* **McGee 거래 생략**: BI 보고서상 McGee 표기에도 불구하고 F5 거래를 생략하여 Hartenstein의 기존 덴버 최소 계약(\\$1,620,564)을 유지함 [5, 7].\n* **Clark 방출 (4/8 또는 4/9)**: 4/8~4/9 방출 분기와 상관없이 원래 계약 연간 전액(\\$2,000,000)을 상한 예비비로 보존함 [5, 7].\n* **Rivers 일자별 계약**: 4/20 10일 계약(\\$158,907) 및 후속 계약(\\$270,142) 현금 전액을 3/25 시점 소급 등록 없이 T1 전후 선예약으로 포괄 [5, 7].\n* **Apron A~G 항목 적용 (CBA VII Sec. 6(m)(3))**:\n  * **A (Performance)**: Jokic/Campazzo likely는 14명 현재 급여에 이미 포함, Millsap/Gordon unlikely 각 \\$1M을 별도 합산 [5, 7, 8].\n  * **B (Young FA)**: Cancar 2YOS (\\$1,620,564) 스트레스 적용 및 Hartenstein 기존 계약 유지 [5, 7, 8].\n  * **C (Grievance)**: 공개 계약 분쟁/종료 비용 포함 [7, 8].\n  * **D (FA QO)**: Troy Daniels/Richard Jefferson 등 일반 FA hold 및 미진행 QO 제외 [7, 8].\n  * **E (Unsigned First Tender)**: 미서명 1순위 hold 없음 [7, 8].\n  * **F (Unused Exceptions)**: Grant 미사용 TPE 등 제외 [7, 8].\n  * **G (Incomplete Roster)**: 로스터 미충원 hold 제외 [7, 8].\n\n---\n\n### 3. 트레이드 보너스 15% 상한 검증 (일수/보장 가정 회피)\n\n* **보너스 상한 산출**: Gordon `(18,136,364 + 16,409,091) * 15% = $5,181,818.25`, Clark `(2,000,000 + 2,100,000) * 15% = $615,000` [7, 9].\n* **상한 통합**: 합계 `$5,796,818.25` → 달러 올림 **`$5,796,819`**로 선예약 [5, 7, 9].\n* **회피 효과**: CBA Article XXIV Section 2(a)(ii) 및 Article VII Section 3(b) (PDF 398/193)에 따라 당해 귀속액은 전체 보너스를 초과할 수 없음 [7, 9]. 정확한 소급 일수(earned days), 100% 보장 비율, half allocation, 웨이버 적용 여부 등의 자발적 가정을 두지 않고, 남은 기본급 전체의 15% 상한으로 과대 포괄(over-inclusive)하여 안전하게 보존함 [7, 9].\n\n---\n\n### 4. \\$135,692,588 (Post) 및 \\$132,646,932 (Pre) 결함·중복·신인 상한 검증\n\n* **Post T1 (\\$135,692,588)**:\n  * **누락 부품 보완**: Rivers 10일+후속 현금(\\$429,049), Bates-Diop 원계약 연간(\\$1,663,861), Clark 연간(\\$2,000,000), 신규 보너스 상한(\\$5,796,819) 전액을 반영하여 Apron 상단(\\$138,928,000) 대비 **\\$3,235,412 여유** 확보 [5, 7].\n  * **이중 계산 방지**: 14명 현재 급여점에 이미 포함된 Jokic(\\$1,000,001)/Campazzo(\\$225,000) likely를 중복 합산하지 않음 (Millsap/Gordon unlikely 각 \\$1M만 합산) [5, 7, 9].\n  * **신인 상한 통제**: Article I Section 1(iii) 및 Article VIII Section 1(c)–(d) 기준 120% 신인 급여/unlikely/assignment 자동감액 상한(\\$2,379,840/Bey22, \\$2,193,480/Nnaji24) 범위 내 통제하며, 실제 120% 선택이나 Bey19/Nnaji22 과거 점의 무단 복사 오류가 없음 [5, 7].\n* **Pre T1 (\\$132,646,932)**:\n  * Gordon, Gordon unlikely, Clark, 신규 보너스를 제하고 Harris(\\$19,160,714), Harris unlikely(\\$2,533,333), Nnaji24 상한(\\$2,193,480)을 대입하여 이중 잔류 없이 원자적 선예약을 달성함 [5, 7].\n\n---\n\n### 5. 비용 행 분리 및 모델 운용 원칙\n\n* **누락 벤더 보너스 및 사적 원장**: 벤더 보너스 누락을 0으로 처리하지 않으며, 사적 원장(private ledger)의 전수 미존재 인증을 요구하지도 않고 보수적 공공 S2 비용 증인으로 상한을 유지함 [7-9].\n* **비용 행의 엄격한 분리**: 비용 행은 자산 매칭, 드래프트 지명권, 선수 건강/출전시간, F5 전체 실행 조건과 엄격히 분리됨 [5, 7].\n* **CBA 범위 한계**: 2017 CBA 규정은 2020 CBA 개정안 전체에 대한 종합 인증서가 아님 [5, 7].",
+      "question": "Use ONLY these 3 sources with distinct provenance: original 2017 CBA PDF, original Denver BI report body updated 4/20 captured 4/22, and own derived candidate. Crosslink before T1, atomic T1, McGee omission, Clark 4/8-or-9 release, Rivers dated contracts and apron A-G categories. Test whether whole remaining annual Base Compensation *15% upper avoids exact earned days/protected-half assumptions. Find concrete missing component, double counting or rookie ceiling flaw in135692588/post and132646932/pre. Cite original clauses separately from report and own inference. Do not treat missing vendor bonus as0 or require private-ledger all-absence certification for a finite preserved public input-family S2 cost witness. Keep cost rows separate from matching/picks/health/whole F5; NBA2017 is not all2020amendments certificate. Korean concise.",
+      "conversation_id": "d1bdda4e-d970-4499-a01f-8777abc68e39",
+      "sources_used": [
+        "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "303b5911-f546-414c-96f7-edb188bfc199"
+      ],
+      "citations": {
+        "1": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "2": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "3": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "4": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "5": "303b5911-f546-414c-96f7-edb188bfc199",
+        "6": "303b5911-f546-414c-96f7-edb188bfc199",
+        "7": "303b5911-f546-414c-96f7-edb188bfc199",
+        "8": "303b5911-f546-414c-96f7-edb188bfc199",
+        "9": "303b5911-f546-414c-96f7-edb188bfc199"
+      },
+      "references": [
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 1,
+          "cited_text_sha256": "b93941668473430247bb64911e08be0a18191b88252c08c03f439fd42f380115",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 2,
+          "cited_text_sha256": "248fed938d2cad6a679a8ec9df24fe15c7f2ae6e51b479ea7219e04e56b463ec",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 3,
+          "cited_text_sha256": "ba50c149d867f6e5ea2ddcdebecb538a58cf95c301b9e87ecbcf369a5526e23e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 4,
+          "cited_text_sha256": "fecf75ff94d99a00954e2f2e4f7e64d38f1c09e33642810d0aae63c070fc28b3",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199",
+          "citation_number": 5,
+          "cited_text_sha256": "3e11e185d611065184859690cf6ae7a79ae8a4531e9f62acfb5180b159341273",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199",
+          "citation_number": 6,
+          "cited_text_sha256": "edc6b8b6ab64bd543b11be2b50bb37e34844cee16f1ebdaca6ccc690033d779d",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199",
+          "citation_number": 7,
+          "cited_text_sha256": "1b575bd8738fa250bb8b74700ea34a8553fa113ad3afa9e1d28275050238a07e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199",
+          "citation_number": 8,
+          "cited_text_sha256": "2d36252b2ac35cabbb42e8d97d7fcdfd98871a9b4b218d0ea2f147de3f9744e2",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199",
+          "citation_number": 9,
+          "cited_text_sha256": "e15f75b995f8fa5acb6b4bf6ea0e7271957dc7600fb35c32efd78bf4fad5b367",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

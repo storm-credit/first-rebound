@@ -1,5 +1,7 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-06 [Denver 비용 검수](../reviews/DEN_FULL_COST_REVIEW_2026_10_06.md): 원 CBA·BI report/widget·SS 계약행과 실제 독립 검문으로 같은 비용 증인 두 행을 종료했다. NotebookLM CBA 업로드45초대기 초과 기록을 보존하고 같은 ID의 READY상태를 회수, 원 CBA/원보고서/파생후보 세 소스를 분리해 분석했다. 분석은 조항/시점/관계 검문이며 독립G16 인증이 아니다. 이번 DEN 별도AG/Claude/전체blind NOT_RUN. 법적9완료/3HOLD·F법적2/5·A0 K0·시즌미확정·미완료6·PARTIAL/CLOSED·원고0.
+
 2026-10-06 [Cleveland 비용행 검수](../reviews/CLE_FULL_COST_REVIEW_2026_10_06.md): 새 BI/SS 원자료 및 Jan4 McGee 시점 공백을 회수하고 한정 독립 검문으로 CLE 비용행을 종료했다. NLM 긴텍스트 전달 실패 후 동일 후보사본 파일 등록·48.773초 분석 회수; 인용9개는 파생사본1개이며 Ex9금액/Tucker날짜 오기는 원문으로 정정했다. CLE별도AG/Claude 및 전체blind/G16 NOT_RUN. 법적7완료/5HOLD·F법적1/5·A0/3 K0/4·큰묶음6미완료·PARTIAL/CLOSED·원고0.
 
 2026-10-06 [Chicago·Orlando 비용행 검수](../reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): Antigravity CLI 응답은 회수됐으나 요청 기사의 본문은 BODY_UNAVAILABLE이었다. NotebookLM은 고정 후보사본1개 분석을 회수했으며 독립 역사 자료 인증은 아니다. Claude는70초 timeout으로 반증을 회수하지 못했다. Codex의 원문 수집·별도 실제 CBA/구성/산술 검문으로 CHI 비용·ORL F4 비용·ORL F2 전중간 비용3행만 종료했다. 법적6완료/6HOLD·F법적1/5·A0/3 K0/4·전체blind/G16 미실행·PARTIAL/CLOSED·원고0.
