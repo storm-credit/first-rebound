@@ -1,0 +1,90 @@
+{
+  "artifact_id": "CHI_MINIMUM_ASSIGNMENT_BONUS_BOUNDARY_2026_10_06",
+  "baseline_main": "e03db63d5260edd37550c7fa9f2e8b67882499dd",
+  "status": "SCOPED_CONSERVATIVE_UPPER_WITNESS_SHORTFALL_REVIEW_NO_PROMOTION",
+  "source_recoveries": [
+    {
+      "id": "CBA",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "bytes": 2176412,
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "locator": "PDF56 II6f;193 VII3b;232-234 VII6i/j;238 VII6l",
+      "classification": "PRIMARY_ORIGINAL_CBA_TEXT"
+    },
+    {
+      "id": "NBA_CBA101",
+      "url": "https://cdn.nba.com/manage/2021/03/2018-19-CBA.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-boston-apron-2026-10-05\\NBA_2018_19_CBA101.pdf",
+      "bytes": 501528,
+      "raw_sha256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "locator": "PDF6-7 E4-11 signing vsassignment exceptions",
+      "classification": "PRIMARY_NBA_GUIDE_NOT_MODIFIED2020_FULLTEXT"
+    }
+  ],
+  "repository_input_sha256": {
+    "research/CHICAGO_PUBLIC_COMPONENT_BOUND_2026_10_06.json": "b60e6cc1fdda9ce91b58f9624f7b7ba4b64a3e818ef4de6a7be88d5b3cf5fb09",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "0ae90f0295a5a15d53187246a101d667515230dda84e3ad7924be4b87736d560",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "bebab50e2569747fc7cf3caf0cb5189f10921500c9bb14f5b1975e524abe5b69"
+  },
+  "decimal_usd": {
+    "outgoing_base": "3767981",
+    "nonTax_matching_allowance": "6693966.75",
+    "incoming_base": "6517981",
+    "theis_remaining_bonus_upper": "750000.00",
+    "green_remaining_bonus_upper": "227697.15",
+    "combined_remaining_bonus_upper": "977697.15",
+    "incoming_full_upper": "7495678.15",
+    "full_upper_shortfall": "801711.40",
+    "aggregate_total_bonus_allowance": "175985.75",
+    "green_zero_theis_full_bonus_incoming": "5750000.00",
+    "green_zero_theis_full_bonus_margin": "943966.75"
+  },
+  "finite_cases": [
+    {
+      "id": "GREEN_ZERO_AND_MIN_CONTRACT_QUALIFIES",
+      "green_gamma_usd": "0",
+      "theis_gamma_interval_usd": [
+        "0",
+        "750000.00"
+      ],
+      "route": "Green separate VII6i; Theis aggregate outgoing",
+      "verdict": "CONDITIONAL_BRANCH_LEGAL_NOT_SELECTED",
+      "requires": "Positive Green bonus-zero/currentminimumcontract qualification; cannot infer zero from minimumlabel alone"
+    },
+    {
+      "id": "GREEN_POSITIVE",
+      "green_gamma_interval_usd": [
+        "0_EXCLUSIVE",
+        "227697.15"
+      ],
+      "route": "Theis+Green simultaneousaggregate",
+      "maximum_sum_gamma_usd": "175985.75",
+      "verdict": "ONLY_CAPPED_SUBDOMAIN_LEGAL_NOT_SELECTED"
+    },
+    {
+      "id": "FULL_REMAINING_BONUS_DOMAIN",
+      "route": "No proved separate positive-Green exception",
+      "incoming_upper_usd": "7495678.15",
+      "verdict": "FULL_DOMAIN_WITNESS_FAIL_WITH_ROW_HOLD"
+    }
+  ],
+  "rejected_routes": [
+    "II6f carveout automatically waives VII6i distinct acquisition Salary/no-bonus requirement",
+    "Green minimumlabel implies gamma0",
+    "MLE/BAE signplayer capacity implies acquirebyassignment capacity",
+    "Wagner freshly acquired viaexception immediately aggregated with Kornet",
+    "Selecting earned-day/waiver/pay-zero without authority/evidence"
+  ],
+  "full_matching_pass": false,
+  "new_exact_financial_choice": null,
+  "actual_bonus": null,
+  "actual_waiver": null,
+  "register_promotions": 0,
+  "season_selected": false,
+  "manuscript_allowed": false,
+  "tool_analysis": "reviews/CHI_MINIMUM_NLM_2026_10_06.json",
+  "realized_simultaneous_upper_combination_certified": false,
+  "actual_illegal_amount_usd": null,
+  "independent_review": "d1_closeable_audit actual2raw/3inputs/sourceCBA/Decimal read accepted; conservativeproofshortfall not actualillegalcombination"
+}

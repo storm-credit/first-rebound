@@ -1,5 +1,8 @@
 # Project Freeze v0.30
 
+2026-10-06 [Boston 두 권리 양도 소항목 종료](../reviews/BOS_NAMED_RIGHTS_ASSIGNMENT_REVIEW_2026_10_06.md): 관련권리 객체·선행부담/우선권/양도조건 θ와 유한사건을 보존한 후보 가족의 March25 법적구현만 검문했다. 두 직접 독립자료검수와 신규맥락 결과물blind의3범위 지적/보완을 반영해 BOS법적3/3·전체법적10PASS/2HOLD·F법적3/5(F2,F4,F5). 정확픽조건·실제수락·미래전달은null, A0/3 K0/4·시즌미확정. CHI matching 상단증인부족분801,711.40(실제위법금액아님)·DEN세픽분기가 남는다. [A01 첫 회차 경계](../design/A01_OPENING_EPISODE_BOUNDARY.md)는E1조건부제안 종료를WORKING_BOUNDARY1로선택; 최종회차0/36슬롯소모0·실제Pack0·원고0. 이번AG60.17초/NLM80.198초timeout은성공으로계수하지않고 Claude한도뒤재시도0. 미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED. 아래9/3·F2/5는직전배치이력이다.
+
+
 2026-10-06 [Denver 날짜별 matching 한 분기 종료](../reviews/DEN_DATED_MATCHING_REVIEW_2026_10_06.md): 승인T1/T3 이동의 다팀 원자 구조·Grant3/16~25/연속cap·Nnaji서명115일·세팀전체fee/성과상단을 실제 검문했다. DEN matching1/4분기완료·픽3분기HOLD; BOS TPE1/3완료·픽2분기HOLD. 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3 K0/4·시즌미확정. 남은법적행은CHI matching·BOS두픽·DEN픽이며 건강/분/시즌도 남는다. AG본문회수·NLM분석회수·Claude세션한도반증미회수. 미완료큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
 
 2026-10-06 [Denver 전체 비용행 종료](../reviews/DEN_FULL_COST_REVIEW_2026_10_06.md): T1전132,646,932·후135,692,588(최소apron여유3,235,412), 수취bonus전범위·신인/FA/방출/후속·A–G/53일을 원문·산술·독립 검문했다. 같은 증인으로 DEN_COMPLETE_COST/DEN_F5_COMPLETE_COST 종료: 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 픽2개·DEN 픽/양측charge, 건강/분/전체시즌이 남는다. 미완료큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래 법적7/5·F1/5 등의 숫자는 이전 이력이다.
