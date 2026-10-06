@@ -1,0 +1,116 @@
+{
+  "schema": "A01_CF12_MOVE_INTENT_WORKING_MODEL_V1",
+  "status": "ROUTINE_MOVE_INTENT_DESIGN_SELECTED_INDEPENDENTLY_REVIEWED",
+  "authority_scope": "EXISTING_AUTHOR_LOCKED_ROUTE_CHARACTER_INTENT_NOT_REAL_TRANSFER_CERTIFICATION",
+  "source_function": "A01-CF12",
+  "target_subact": "A01-S3",
+  "entry_state": "주인공은 국내 학교에 스스로 확인·요청할 출결·이수 기록 범주와 가상 프렙의 권한 있는 답이 필요한 입학·학점 인정 질문을 구분했다. 실제 기록 발급·조건 충족·학교 수락은 아직 확인되지 않았다.",
+  "prior_S2_whole_subact_exit_certified": false,
+  "S3_full_entry_or_exit_certified": false,
+  "existing_locked_route": "한국 고1 뒤 2016년 3월 가상 뉴잉글랜드 소규모 보딩 프렙 편입 방향",
+  "route_reapproval_required": false,
+  "routine_choice_versus_locked_fact": {
+    "locked_fact": "March 2016 fictional New England prep transfer direction is already author locked.",
+    "new_design_choice": "The protagonist explicitly communicates intent to pursue that route despite open conditions.",
+    "new_author_lock": false,
+    "actual_departure_or_admission_selected_by_this_model": false
+  },
+  "relative_time_window": {
+    "after_E8_exit": true,
+    "before_locked_2016_03_prep_move": true,
+    "exact_date_or_semester_position": null
+  },
+  "single_function": "답이 남은 학업·이동 조건을 숨기지 않고 기존 미국 프렙 방향을 자기 의사로 선택해 준비를 계속한다",
+  "event_steps": [
+    {
+      "id": "D1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "choice_options": [
+        "익숙한 한국 팀·동갑 승부 안에 남는 편한 방향을 택한다",
+        "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다"
+      ],
+      "selected_choice": "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다",
+      "action": "E8에서 남긴 국내 기록 확인 항목과 미국 프렙 권한자의 미답 질문을 다시 보고, 익숙한 국내 경쟁에만 남는 선택 대신 이미 정해진 가상 프렙 방향을 계속 준비하기로 정한다",
+      "observable_result": "답이 없는 항목을 지우지 않고 자기 선택과 행정 결과를 구분한 준비 목록을 유지한다",
+      "not_claimed": "미국 프렙 합격·보호자 동의·학점 인정·주전 보장·국내 관계 단절"
+    },
+    {
+      "id": "D2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "기존 한국 고교 감독에게 자신이 가상 프렙 이동 방향의 준비를 계속하겠다는 의사를 전한다",
+      "observable_result": "주인공이 자기 의사를 말한 사실만 남고, 감독은 입학이나 학사 조건을 승인하지 않는다",
+      "not_claimed": "감독의 실제 미국학교 권한·미국 프렙 제안·가족과 학교의 수락·출국"
+    }
+  ],
+  "direct_present_cost": "익숙한 국내 신체 우위와 관계 안에만 남는 쉬운 선택을 내려놓고, 미답인 학업·이동 준비를 자기 몫으로 계속 감당하기로 한다.",
+  "selected_design_exit_state": "주인공은 답이 남은 국내 기록·프렙 입학·학점 질문을 보존한 채 기존 가상 뉴잉글랜드 프렙 이동 방향의 준비를 계속하겠다고 직접 밝혔다. 실제 승인·이동은 아직 이 기능에서 실행되지 않았고 기술·학업·생활 과제는 남아 있다.",
+  "reader_question_at_end": "답이 남은 조건과 낯선 경쟁 속에서 실제로 자기 몫을 감당할 수 있는가",
+  "next_candidate": {
+    "id": "A02-S1",
+    "status": "CP2_PROVISIONAL_NOT_EXECUTED",
+    "prep_arrival_and_academic_conditions_not_resolved_here": true
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "자신의 이동 의사",
+      "자신이 보존한 준비·미답 목록",
+      "감독에게 의사를 전한 자신의 행동"
+    ],
+    "not_available_without_access": [
+      "감독의 비공개 평가",
+      "미국 프렙의 입학 판단",
+      "보호자 속마음과 재정 선택",
+      "향후 미국팀 역할"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "institutional_limits": {
+    "Korean_coach_can_approve_prep_admission_or_credit": false,
+    "actual_US_prep_admission_or_enrollment_certified": false,
+    "guardian_consent_or_finance_selected": false,
+    "credit_audit_or_visa_certified": false,
+    "actual_departure_or_A02_arrival_certified": false,
+    "familiar_Korean_relationship_severed_certified": false
+  },
+  "unassigned_details": {
+    "fictional_prep_name": null,
+    "Korean_coach_identity_or_exact_reply": null,
+    "family_consent_or_financing": null,
+    "actual_acceptance_or_enrollment_record": null,
+    "individual_credit_conversion": null,
+    "visa_or_departure_day": null,
+    "A02_first_scene": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_cf12_move_intent_working_model.py": "366b755a1c672e125f42c9e596b5ce27d6f9174c8756677c557506992762eb66",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "f2b62be5b00d8c07f3d3c06426f16ffbfa0547b6d222df8893c56b802df012c1",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/CP2_ACT_SUBACT_PACKET.json": "476085a2e2902faf9f1fc9c06be7d523981c5cf66477a8c5b378142c062428d2",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/PROJECT_FREEZE.md": "0506a4b62e2c1815f6a81c1748bb481a9ee3e07ce1453b27ed5f5b2a25cd6373",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "The March 2016 fictional prep direction is existing canon; this new action is only the protagonist communicating intent.",
+    "The coach receives the intent but cannot certify prep admission, credits, visa, guardian consent or departure.",
+    "The open E8 academic and transfer questions are preserved rather than silently resolved.",
+    "This one unit does not certify S3 whole completion or the A02 arrival and academic status.",
+    "Independent review accepted this limited intent; source-current Blueprint and ninth function require separate validation."
+  ],
+  "actual_verified_blueprint_created": false,
+  "final_episode_function_added": 0,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
