@@ -1,5 +1,8 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-07 [날짜별 실행 후속 검문](../reviews/D1_DATED_EXECUTION_FOLLOWUP_REVIEW_2026_10_07.md): 승인15시리즈88날짜를 전체 작업달력으로 채택하고 DEN–LAL6경기를 위임된 감독 작업계획으로 적용했다(48공통블록·204명단칸·팀별예정1,440분). 원명단·계약5사건·18일공개연결/TW원보도와 독립검문을 연결하고 예비선수교체/결장모드변조 falsePASS2종을 수리했다. Denver권리 새6raw/9정본 검문은 국소양도 존재만 수용·전체세자산branch승격기각; CHI합의면제∀γ∃q는 실제동의/financial선택null인조건부증인. 법적10PASS/2HOLD·F법적3/5(F2,F4,F5)·A0/3·K0/4·시즌미확정. A01경계1/최종회차0/실제Pack0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0. AG60.09초최종빈응답, NLM61.088초회수/원문교정; Claude한도후재시도0. 아래는 이전배치이력이다.
+
+
 2026-10-06 [Boston 두 권리 양도 소항목 종료](../reviews/BOS_NAMED_RIGHTS_ASSIGNMENT_REVIEW_2026_10_06.md): 관련권리 객체·선행부담/우선권/양도조건 θ와 유한사건을 보존한 후보 가족의 March25 법적구현만 검문했다. 두 직접 독립자료검수와 신규맥락 결과물blind의3범위 지적/보완을 반영해 BOS법적3/3·전체법적10PASS/2HOLD·F법적3/5(F2,F4,F5). 정확픽조건·실제수락·미래전달은null, A0/3 K0/4·시즌미확정. CHI matching 상단증인부족분801,711.40(실제위법금액아님)·DEN세픽분기가 남는다. [A01 첫 회차 경계](../design/A01_OPENING_EPISODE_BOUNDARY.md)는E1조건부제안 종료를WORKING_BOUNDARY1로선택; 최종회차0/36슬롯소모0·실제Pack0·원고0. 이번AG60.17초/NLM80.198초timeout은성공으로계수하지않고 Claude한도뒤재시도0. 미완료큰묶음6·freeze v0.30 PARTIAL·설계/원고 CLOSED. 아래9/3·F2/5는직전배치이력이다.
 
 

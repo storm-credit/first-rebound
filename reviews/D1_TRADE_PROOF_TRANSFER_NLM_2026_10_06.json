@@ -1,0 +1,119 @@
+{
+  "scope": "ORIGINAL_CBA_RULE_RELATION_NOT_HISTORICAL_APPROVAL_CERTIFICATION",
+  "baseline_main": "76cd80b085bf4b0b0a305fa944ee76e185efb4a8",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "5b958455-c880-4ecd-be28-0d357c75bbe6"
+  ],
+  "question_sha256": "550988c559dac89df1c9658790a0292962049b3ad55bb58fe35921b0a7724e17",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 61.088,
+    "process_budget_seconds": 80,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### **1. Executive Conclusion on Proof Transfer**\n\n**No**, original league approval of a historical three-team trade **does not prove** that the modified candidate trade satisfies Collective Bargaining Agreement (CBA) trade-matching rules for every unknown assignment bonus [1, 2]. \n\nProof transfer fails because altering player directions (removing outgoing and incoming contracts) changes the mathematical baseline of the Traded Player Exception (TPE) [1, 3]. A trade bonus that fit comfortably within the original trade’s higher salary threshold can cause the modified trade to exceed the maximum allowable incoming salary [1, 4].\n\n---\n\n### **2. Rule Text vs. Unproven Inference**\n\nTo evaluate trade validity under the 2017 CBA, explicit rule requirements must be distinguished from unproven analytical assumptions:\n\n| Category | CBA Rule Text Requirement | Unproven Inference (Cannot Be Assumed) |\n| :--- | :--- | :--- |\n| **Trade Matching Formulas** | Post-assignment incoming salary must not exceed statutory TPE limits based on outgoing salary (Art. VII, Sec. 6(j)) [1, 2]. | Assuming the original approval transfers valid status to a modified subset of players [1]. |\n| **Assignment Bonus Allocation** | Any earned trade bonus is treated as a signing bonus and added to the player's salary for trade-matching calculations in the year of the trade (Art. VII, Sec. 3(b)(1)(ii) & Sec. 3(b)(2)) [4, 5]. | Assuming an unknown assignment bonus is zero (**\"bonuszero\"**) without inspecting Exhibit 4 [6, 7]. |\n| **Bonus Waiver & Amendments** | A trade bonus can only be modified or waived via a formal contract amendment signed by the player and assignor team prior to the trade (Art. VII, Sec. 7(e)(3) & Art. XXIV, Sec. 2(a)) [6, 8]. | Inferring an actual waiver, player acceptance, or private contract authentication without documented evidence [6, 8]. |\n| **Salary Cap & Protection** | Traded player salary calculations are adjusted for unearned non-fully protected base compensation depending on the timing of the trade (Art. VII, Sec. 6(j)(5)) [9, 10]. | Assuming post-trade team cap hits or salary protections remain identical across structurally altered trades [9]. |\n\n---\n\n### **3. Salary & Exception Preconditions Remaining to Verify**\n\nBefore the modified trade can be verified as compliant, the following preconditions must be audited against the CBA:\n\n1. **Taxpayer Status Precondition (Art. VII, Sec. 6(j)(1) & (3))**:\n   * *If Chicago is a Taxpayer*: Max allowable incoming salary = \\\\(125\\% \\times S_{\\text{out}} + \\$100,000\\\\) [1].\n   * *If Chicago is a Non-Taxpayer*: Max allowable incoming salary = \\\\(\\min\\left(175\\% \\times S_{\\text{out}} + \\$100,000,\\, S_{\\text{out}} + \\$5,000,000\\right)\\\\) [1].\n2. **Assignment Bonus Headroom (Art. VII, Sec. 3(b)(1)(ii) & Art. XXIV, Sec. 2(a))**:\n   * Verification of Exhibit 4 for each player to confirm whether a trade kicker (up to 15% of remaining base compensation) is present and whether it causes incoming salary to breach TPE thresholds [4, 6, 7].\n3. **Salary Protection / Unearned Salary Deductions (Art. VII, Sec. 6(j)(5))**:\n   * Verifying if the trade occurs outside the fully protected window (Jan 10–end of Regular Season), which reduces outgoing player salary for TPE math if base compensation is not fully protected [9, 10].\n4. **Non-Aggregation & Timing Rules (Art. VII, Sec. 6(j)(1)(iii) & Sec. 6(l))**:\n   * Confirming that no acquired contract being aggregated was acquired via an exception within the preceding two months [3, 11].\n\n---\n\n### **4. Compact Dependency Diagram**\n\n```\n[Original 3-Team Approval]\n       │\n       ▼\n(Proves validity ONLY for Original Outgoing: $6.21M vs Original Incoming: $9.89M)\n       │\n       ├─► [Remove Hutchison & Brown] ──► Outgoing drops to $3.77M | Base Incoming = $6.52M\n       │\n       ▼\n[Recalculate TPE Headroom]\n       │\n       ├─► If Taxpayer ─────────► Max Incoming = $4.81M < $6.52M ──► [TRADE FAILS]\n       │\n       └─► If Non-Taxpayer ─────► Max Incoming = $6.69M\n                                         │\n                                         ▼\n                               [Headroom = $175.98k]\n                                         │\n                                         ▼\n                        [Unknown Assignment Bonus Check]\n                                         │\n                       ┌─────────────────┴─────────────────┐\n                       ▼                                   ▼\n          [Bonus <= $175.98k]                     [Bonus > $175.98k]\n               (Valid)                                 (FAILS)\n                                                           │\n                                                           ▼\n                                               [Proof Transfer FAILS]\n```\n\n---\n\n### **5. Concrete Logical Counterexample**\n\n#### **Step 1: Define the Base Numbers**\n* **Original Trade Outgoing (Chicago)**: Gafford (\\$1,517,981) + Kornet (\\$2,250,000) + Hutchison (\\$2,443,440) = **\\$6,211,421** [1].\n* **Original Trade Incoming (Chicago)**: Theis (\\$5,000,000) + Green (\\$1,517,981) + Brown (\\$3,372,840) = **\\$9,890,821** [1].\n* **Modified Candidate Outgoing**: Gafford (\\$1,517,981) + Kornet (\\$2,250,000) = **\\$3,767,981**.\n* **Modified Candidate Base Incoming**: Theis (\\$5,000,000) + Green (\\$1,517,981) = **\\$6,517,981**.\n\n---\n\n#### **Step 2: Calculate Non-Taxpayer TPE Cap for Modified Trade**\nUnder Article VII, Section 6(j)(1)(i), for a non-taxpayer team:\n\\\\[\\text{Max Allowable Incoming} = \\min\\left(175\\% \\times 3,767,981 + 100,000,\\, 3,767,981 + 5,000,000\\right)\\\\]\n\\\\[\\text{Max Allowable Incoming} = \\min\\left(6,593,966.75 + 100,000,\\, 8,767,981\\right) = \\mathbf{\\$6,693,966.75} \\quad [1]\\\\]\n\n* **Available Bonus Headroom**:\n  \\\\[\\$6,693,966.75 - \\$6,517,981.00 = \\mathbf{\\$175,985.75}\\\\]\n\n---\n\n#### **Step 3: Introduce the Unknown Assignment Bonus**\n* Suppose Theis holds a standard 5% trade kicker (assignment bonus) in Exhibit 4 of his \\$5,000,000 contract (\\$250,000 trade bonus) [6, 7].\n* Under Article VII, Section 3(b)(1)(ii), this \\$250,000 trade bonus is allocated to his current-year incoming trade salary:\n  \\\\[\\text{New Incoming Salary (Theis)} = \\$5,000,000 + \\$250,000 = \\$5,250,000 \\quad [4, 5]\\\\]\n  \\\\[\\text{Total Modified Incoming Salary} = \\$5,250,000 + \\$1,517,981 = \\mathbf{\\$6,767,981.00}\\\\]\n\n---\n\n#### **Step 4: Proof Transfer Disproof**\n1. **Original Trade Status**:\n   * Outgoing = \\$6,211,421 \\\\(\\implies\\\\) Max Allowable Incoming = \\\\(\\min(1.75 \\times 6.211\\text{M} + 100\\text{k}, 6.211\\text{M} + 5\\text{M}) = \\mathbf{\\$10,970,000.00}\\\\) [1].\n   * Total Incoming with \\$250,000 bonus = \\\\(\\$9,890,821 + \\$250,000 = \\$10,140,821 \\le \\$10,970,000\\\\).\n   * **Result**: **Original Trade = VALID** [1].\n\n2. **Modified Candidate Trade Status**:\n   * Total Incoming with \\$250,000 bonus = **\\$6,767,981.00**.\n   * Max Allowable Incoming = **\\$6,693,966.75**.\n   * Since \\\\(\\$6,767,981.00 > \\$6,693,966.75\\\\), the modified trade **VIOLATES** Article VII, Section 6(j) [1].\n   * **Result**: **Modified Trade = INVALID**.\n\n**Conclusion**: \\\\(\\text{Original Approval} = \\text{TRUE}\\\\) does not imply \\\\(\\text{Modified Matching} = \\text{TRUE}\\\\). Proof transfer is logically invalid [1].\n\n---\n*Would you like to analyze specific contract exhibits or run additional cap scenario simulations under alternative team tax levels?*",
+      "question": "ONLY original2017CBA. Analyze proof transfer: a publicly completed historical three-team trade had Chicago sending Gafford1517981,Kornet2250000,Hutchison2443440 and receiving Theis5000000,Green1517981,Brown3372840. Modified candidate removes Hutchison and Brown but preserves other player directions. Does original approval alone prove modified matching for every unknown assignment bonus? Distinguish rule text vs inference. Identify which salary and exception preconditions remain to verify; no bonuszero, actual waiver, same posttrade caphit, playeracceptance or privatecontract authentication inferred. Need compact dependency diagram and concrete logical counterexample, not financial recommendation. Keep exact terms null. SourceCBA only, no sources beyond original.",
+      "conversation_id": "5f77d43b-ffc6-43cb-a351-ea37c76c302e",
+      "sources_used": [
+        "5b958455-c880-4ecd-be28-0d357c75bbe6"
+      ],
+      "citations": {
+        "1": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "2": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "3": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "4": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "5": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "6": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "7": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "8": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "9": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "10": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "11": "5b958455-c880-4ecd-be28-0d357c75bbe6"
+      },
+      "references": [
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 1,
+          "cited_text_sha256": "5d35aaa52c932cc741a50da6956e03cc92aeb12f647060a77f6458dd7c03a6ee",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 2,
+          "cited_text_sha256": "546c6b19d9a4343b085640e504277100602152c93255cf41deb55ef88ff15427",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 3,
+          "cited_text_sha256": "fc20544713039b1870b750b16f489e43ac5a81235b8f4e925acc541753d65660",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 4,
+          "cited_text_sha256": "a31428d273844f675cca64055c442ebc836a223aeebd4d359ee43b056af7dbcf",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 5,
+          "cited_text_sha256": "8a99b11f206759316cfce549ac08017d82c959c483ae2d0e5fcd52040b231174",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 6,
+          "cited_text_sha256": "1d865d2639fc6344c8646b7402767eaf1d9a9d4f3f98d1c60a2b112d1f84bb37",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 7,
+          "cited_text_sha256": "b93941668473430247bb64911e08be0a18191b88252c08c03f439fd42f380115",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 8,
+          "cited_text_sha256": "4641cca1f0604f8fff5a2578db42074b33bbb7be6d59e7ae1cf4c935e37ebe51",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 9,
+          "cited_text_sha256": "83f7bd5ecf99465325cfea4666c32645030ee7423a03dfee4bd4c4420279e545",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 10,
+          "cited_text_sha256": "49bf2ff776711c960583858c9d82f2a1f9763b67c6bbed89f70449019fe3f74d",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+          "citation_number": 11,
+          "cited_text_sha256": "b9386b9328ac5fe8f6bc59746dcca5ce087a67d7acf310d1304b49510238ab9a",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "accepted": "OriginalapprovaldoesnotprovechangedCHIsalarymatchingforallunknownbonuses; directCBAandDecimalcounterexamplechecked",
+    "corrected": [
+      "CBAwaiverlocator7(e)(3) incorrect; original2017VII7(d)(3)PDF248",
+      "NonTaxformula omittedmax125percent+100k branch; full6jformula retained inactualmatchingwitness",
+      "PrivateExhibit4inspectionnotnewmandatoryS2gate; publicclosedrange/completewitnessallowed",
+      "Originaltradecap exact10969986.75 ratherthanrounded10970000"
+    ],
+    "new_legal_pass": false,
+    "actual_bonus_or_waiver_selected": false
+  }
+}

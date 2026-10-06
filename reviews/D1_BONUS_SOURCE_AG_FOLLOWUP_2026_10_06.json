@@ -1,0 +1,84 @@
+{
+  "scope": "PRE_TRADE_PUBLIC_BONUS_SOURCE_COLLECTION_ONLY",
+  "baseline_main": "76cd80b085bf4b0b0a305fa944ee76e185efb4a8",
+  "prompt_sha256": "e92215fdc6ee0b792314482ede9c6dff904829d6ca97163e2e3de9f2b5a9eb38",
+  "result": {
+    "status": "PROCESS_TIMEOUT",
+    "elapsed_seconds": 60.09,
+    "parsed_partial": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "55deb5bf-154c-46ee-8804-2a665fe5f11a",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 44.1987295,
+        "num_turns": 1
+      },
+      "response_recovered": false,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 2,
+          "state": "ERROR",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 6,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 6,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 8,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 8,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 10,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 10,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 12,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "99cbb216d124605bed539aa215ed956298d2d7e428c16675713e077a0c2b9416",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC"
+    },
+    "response_recovered": false
+  },
+  "bonus_zero_certified": false
+}
