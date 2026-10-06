@@ -1,0 +1,112 @@
+{
+  "scope": "OWN_DERIVED_SINGLE_POLICY_RELATION_ANALYSIS_NOT_INDEPENDENT_NBA_SOURCE_OR_CODE_VERIFICATION",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "input_path": "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.md",
+  "input_lf_sha256": "5db9ead144640528e76edf2bf2a95439d765a18c90a6b29833a5406fa40311ba",
+  "whole_gate_certified": false,
+  "source_import": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 24.121,
+    "process_budget_seconds": 60,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b"
+    }
+  },
+  "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+  "question_sha256": "95f1c483ff9d19a702f3674383685d0e7c2ff08e7fb7da6e554f62b8f1cba598",
+  "analysis": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 45.794,
+    "process_budget_seconds": 80,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. 치환 현황 및 경기 수 의존관계\n\n| 구분 | 최초 팀경기 | 최종 적용 | 비고 |\n| :--- | :---: | :---: | :--- |\n| **J1 (Terry 휴가)** | 27 | 27 | POLICY_REPLACEMENT_MINUTES [1] |\n| **F4 (Hall 재계약 생략)** | 5 | 5 | 후속 5경기 부담 벡터 선택 [1] |\n| **F5 (McGee 거래 생략)** | 25 | 23 | C2에 의해 2행 대체 [1, 2] |\n| **C2 (Varejão 복귀 생략)** | 5 | 5 | F5 제거분 포함 [1, 2] |\n\n**의존관계**: 1080경기(2160팀) 원입력 중 C2가 F5의 2개 팀경기를 **대체**하여 고유 팀경기는 60개가 됩니다 [1, 2]. 여기에 CHA-CLE 간 2개 joint 경기(2021-04-14, 04-23)에서 양 팀 치환이 동시에 적용·결합하면서 최종 고유 경기는 58개로 축소 연결됩니다 [1, 3].\n\n---\n\n### 2. 내부 구조적 모순 및 한계 지적\n\n* **위임 작업 모델 vs 실제 의료·법적 인증**: 양수 출전분은 '작가 위임 작업 모델'일 뿐 실제 의학적 허가나 법적 명단 인증이 아니며 [2, 4, 5], 0분 선수는 사유 미선택(`null`)으로 남습니다 [4].\n* **시계 잔차 6행 미보정**: 원입력의 클락 오차 6행(`source_clock_gaps_retained`)을 2880초로 단위 보정하지 않고 미보정 상태로 유지합니다 [4].\n* **단일 BPM 고수 vs 타 지표 분리**: RAPTOR/RTP 결과를 혼합하지 않고 단일 BPM 평점법만 적용하나 [3, 6], 선형계획 증인의 존재가 실제 감독 판단이나 효율을 증명하지는 않습니다 [2].\n* **정규시즌 승수 vs 플레이인/플레이오프 분리**: 1080경기 승수 재평가(CHI 31승, MIN 24승 등)가 원승자와 차이 0이더라도 [7], 플레이인/포스트시즌 완결이나 최종 원고 승인(`manuscript_allowed: false`, `freeze v0.30 PARTIAL`)을 의미하지 않습니다 [5].\n\n*(※ 제공되지 않은 실행 코드 및 원본 NBA 자료를 직접 읽거나 검증했다고 주장하지 않으며, 전체 G16 및 시즌 완료 판정을 내리지 않습니다 [5, 8].)*\n\n---\n\n💡 이 고정 스냅샷의 치환 수치나 승수 재산정 내역을 바탕으로 개별 팀(예: 시카고 Bulls)의 세부 영향 리포트를 작성해보시겠습니까?",
+      "question": "이 고정 사본 하나만 분석하라. 1080경기/2160팀 입력과 J1 27,F4 5,F5 25,C2 5 중 같은팀2겹침 대체→60팀/58경기 관계를 작은 표와 의존관계로 설명하라. CHA-CLE 두 joint경기, 기존분원천 vs 채택작업건강 vs 실제의료명단법적인증, 잔차6미보정, 하나의BPM vs RAPTOR별도, 양수분 vs 0분null, 정규시즌 승수 vs 플레이인/플레이오프 분리에서 내부모순이 있으면 구체적으로 지적하라. 코드/원NBA자료는 제공되지 않았으므로 이를 읽거나 직접검증했다고 주장하지 말고 전체G16/시즌 완료판정하지마라. 한국어300단어이내.",
+      "conversation_id": "8b2965d9-0878-4bc8-9e84-374bf9ba8534",
+      "sources_used": [
+        "f7b86c0e-a7b9-454a-9f9f-80597f7e927b"
+      ],
+      "citations": {
+        "1": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "2": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "3": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "4": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "5": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "6": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "7": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+        "8": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b"
+      },
+      "references": [
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 1,
+          "cited_text_sha256": "0f6bd024f27d2d8a9f58ae02441e930e1702b47d87fbf5af56e8d6e5abe83a4c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 2,
+          "cited_text_sha256": "85f04e96ee0078a9662926678d15d0af16d9391ef019fcdd4068a3a4f4db0451",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 3,
+          "cited_text_sha256": "e5e2e3875deaa1b1657477e0e73bdf83d8be00bde6db34fef5c84430bcb527be",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 4,
+          "cited_text_sha256": "36b45004f9db227082079abc075e48e74c2897c6329c4d5c9cdb16333835fa5a",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 5,
+          "cited_text_sha256": "128013d4aef1cd2c9c3cf0568e9f1f53f26c03455569cc4a1a69568ca4598d1e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 6,
+          "cited_text_sha256": "c7b1aed503926133ad0b41bb1da8b4e6ca58221ec67664505c38bdb12fccb9de",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 7,
+          "cited_text_sha256": "866457eed8dcbf7c4a4c015bb45294c992eb7496e28aee1735b89fdc1a154e6c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "f7b86c0e-a7b9-454a-9f9f-80597f7e927b",
+          "citation_number": 8,
+          "cited_text_sha256": "671eabb4f66666caf682172f19c25065a48f54111d4509db76580254df431b95",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "accepted": "One own immutable MD relation map;60team/58game hierarchy and modeled/certified separation only.",
+    "rejected": [
+      "Allsixsourcegapsmustbe2880: originalregularOT durations3180 etc arepreserved, notflattened."
+    ],
+    "source_changed_after_import": true,
+    "later_consumers": [
+      "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+      "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json"
+    ],
+    "independent_source_or_code_verification": false,
+    "whole_gate_certified": false
+  }
+}

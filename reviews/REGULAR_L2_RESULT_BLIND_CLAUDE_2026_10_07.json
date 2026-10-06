@@ -1,0 +1,35 @@
+{
+  "scope": "FRESH_RESULT_SYNOPSIS_BLIND_LOGIC_NOT_SOURCE_VERIFICATION_OR_G16",
+  "working_directory": "EMPTY_TASK_TEMP_DIRECTORY",
+  "source_files_supplied": 0,
+  "prior_reviews_supplied": 0,
+  "tools_enabled": false,
+  "session_persistence": false,
+  "prompt_sha256": "e03377b322951b412248b56deda6916a5e50cf004548bc85bcf47e71bc8b8789",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 41.896,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "response": {
+      "type": "result",
+      "subtype": "success",
+      "is_error": false,
+      "result": "## 실제 모순/결함\n\n**1. 행 수와 충격항 수 불일치 (산술)**\n순 60팀행인데 \"J1 + 나머지 33 팀충격 = 34\"만 가산된다고 기술됩니다. 62→60(동일팀 C2/F5 두 행 전벡터 대체), 60행→58경기(CHA-CLE 양팀 충격 2건)는 맞지만, 60행과 34 충격항의 대응이 정의되지 않습니다. \"행\"과 \"충격\"이 1:1이 아니라면 그 사상(寫像)을 명시해야 하고, 1:1이라면 26행이 미계상입니다. 이게 남은 가장 구체적인 산술 모순입니다.\n\n**2. 소스 비대칭 (권위 과대주장)**\nIND LeVert 결장은 원본 5/18 프로토콜 보고·5/20 출처로 **고정**하면서, CHI LaVine 5/16 불참과 LaMelo 손목 접촉은 \"자동 수입하지 않음\"으로 처리합니다. 동일한 종류의 원자료를 한쪽은 근거로, 한쪽은 비적용으로 쓰는 선택적 인용이며, 저자 모델 재량이라는 설명만으로는 정당화되지 않습니다. 둘 중 하나로 통일하거나 비대칭 사유를 규칙으로 명문화해야 합니다.\n\n**3. 인과 단축**\n기존 88 플레이오프 작업모델을 \"분리\"로 두면서 플레이인 승자 6건을 저자 사건으로 확정하면, 대진 상류가 바뀌는데 하류 모델은 불변인 구조가 됩니다. \"분리\"는 독립을 선언할 뿐 성립시키지 않습니다.\n\n## 인정된 한계(모순 아님)\n\n- 2160 증인(107+2053)이 전술/교대 순서 증명이 아님 — 자체 선언으로 일관.\n- 4개 비플레이오프팀 등록명부 미제공 → 벡터 전용.\n- 등록·명부건강·CHI 재무 null/DEN 픽 조항 null로 전체 법적·시즌·원고 층위 false 유지.\n- 반올림 6건을 작업본 최소양수 벤치에서만 수정, 원자료 보존, 1080 승자 불변 — 절차상 정합.\n\n모델 하위범위 완결 주장은 위 1·2·3 해소를 조건으로 유효합니다.",
+      "stop_reason": "end_turn"
+    },
+    "rebuttal_recovered": true
+  },
+  "whole_gate_certified": false,
+  "root_adjudication": {
+    "rejected_contradictions": [
+      "J1one+33=34 inventsJ1count1. Actual27priorreplacements+33nonJ1teamchanges=60; sameeventcollisionsyield58; all1080expressionsdirectlychecked.",
+      "INDLeVertfixedfact reading isfalse: bothINDabsencecontinuation andCHIavailabilityexplicitAUTHORnewmodels; sourcefact andcounterfactualapplication areseparated."
+    ],
+    "accepted_clarification": [
+      "Differentnoncontactprotocol/rest/otherteamcontact causality nowexplicit; noautomaticinjurytransfer.",
+      "Phase separation doesnotmeanindependence. Eightfirstpairs/fourqualifiers/qualificationdatesdirectlyasserted againstexistingplayoffsource; qualifierchanges0."
+    ],
+    "certified_scope": "Limited firstviewlogicalrebuttal adjudicated againstactualcode/JSON, not originalsourceorG16."
+  }
+}
