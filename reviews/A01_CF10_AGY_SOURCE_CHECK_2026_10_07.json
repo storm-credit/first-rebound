@@ -1,0 +1,51 @@
+{
+  "scope": "CF10_2015_PREP_STRUCTURE_SOURCE_AND_FICTIONAL_COMPARISON_ONLY",
+  "original_pdf_sha256": "4e63b254fd4fc81653c6a174d50ad7efd4c47d6a3c2fadb71b3e54a0ec5b6367",
+  "whole_gate_certified": false,
+  "manuscript_allowed": false,
+  "input_kind": "DIRECT_PRIMARY_EXTRACT_ONLY",
+  "prompt_sha256": "39be27784bbaea53004d52823490da6d13511efc7a5c135a7e2903ec8243b832",
+  "source_certified": false,
+  "new_independent_sources": 0,
+  "source_read_tool_trace_verified": false,
+  "previous_attempt": {
+    "result": {
+      "status": "RETURNED",
+      "exit_code": 0,
+      "elapsed_seconds": 33.497,
+      "process_budget_seconds": 45,
+      "pipe_drain_complete": true,
+      "stderr_sha256": "2f70f945243833d446f0501960769e51d4aabe7f6b4f4f502a24883d197ccc06",
+      "stderr_retained": false,
+      "response": {
+        "conversation_id": "ca8cda04-3f29-4e45-a975-2e6195809e39"
+      }
+    },
+    "limitation": "NLM-specific safe_response omitted Antigravity answer fields; body not retained, success not certified"
+  },
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 40.158,
+    "response": {
+      "status": "SUCCESS",
+      "response": "{\"answer\":\"이 PDF 문서는 Class AAA, AA, A, B, C, D의 대진표를 1~6페이지에 걸쳐 수록하고 있습니다. 3월의 모든 경기 날짜와 Class B 준결승전 날짜를 합치면 3월 4일, 6일, 7일, 8일입니다. 자료에 명시되어 있지 않으므로 가상의 한국인 주인공이 2015년에 이 아카이브 URL에 접속했다는 사실을 증명하지 않습니다(아니요).\",\"locator\":\"Pages 1-6\",\"source_status\":\"BODY_READ\",\"toolAction\":\"Finishing task\",\"toolSummary\":\"Finish task\"}\n",
+      "structured_output": {
+        "answer": "이 PDF 문서는 Class AAA, AA, A, B, C, D의 대진표를 1~6페이지에 걸쳐 수록하고 있습니다. 3월의 모든 경기 날짜와 Class B 준결승전 날짜를 합치면 3월 4일, 6일, 7일, 8일입니다. 자료에 명시되어 있지 않으므로 가상의 한국인 주인공이 2015년에 이 아카이브 URL에 접속했다는 사실을 증명하지 않습니다(아니요).",
+        "locator": "Pages 1-6",
+        "source_status": "BODY_READ"
+      }
+    },
+    "body_answer_recovered": true,
+    "stdout_sha256": "c61db88fbd44161ac7133dd33cd1fed19d932802ba1ff3c712ca22a058db19b2",
+    "stderr_retained": false
+  },
+  "root_body_check": {
+    "scope": "Recovered paraphrase vs direct official PDF pages1–6",
+    "classes_and_date_union_supported": true,
+    "exact2015_archive_access_not_certified": true,
+    "Class_B_specific_date_answered_separately": false,
+    "new_independent_sources": 0,
+    "whole_gate_certified": false
+  }
+}

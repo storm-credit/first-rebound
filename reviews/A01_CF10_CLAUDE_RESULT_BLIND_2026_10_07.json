@@ -1,0 +1,35 @@
+{
+  "scope": "CF10_2015_PREP_STRUCTURE_SOURCE_AND_FICTIONAL_COMPARISON_ONLY",
+  "original_pdf_sha256": "4e63b254fd4fc81653c6a174d50ad7efd4c47d6a3c2fadb71b3e54a0ec5b6367",
+  "whole_gate_certified": false,
+  "manuscript_allowed": false,
+  "input_kind": "RESULT_ONLY_NO_PREVIOUS_REVIEWS",
+  "source_files_supplied": 0,
+  "tools_enabled": false,
+  "prompt_sha256": "b5175837fe0179211d4bfe7586e9a213e9a99aed24759443d98e98ddfc5e4f7b",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 32.65,
+    "response": {
+      "type": "result",
+      "subtype": "success",
+      "is_error": false,
+      "result": "**결함 1 — 정보 접근 과정과 2015 시점 정합의 공백(자기부정 포함)**\nQ1의 행동 전체가 \"공개된 2015 프렙 대회 구조 확인\"에 걸려 있는데, 그 확인이 어떤 매체·언어·경로로 일어나는지 본문에 없다. 더 심각한 것은 같은 문서가 원자료 항목에서 \"2015 정확 웹주소 열람의 증거는 아니다\"라고 스스로 적는 점이다. 열람 증거가 없다고 선언하면서 열람을 행동의 실체로 쓰면, 비교 행동이 관측이 아니라 서술자의 사후 요약으로 내려앉는다. 또한 이동 방향이 2016년 3월인데 E6 종료가 2015 시즌의 전·중·후 어디인지 특정되지 않아, 한국 고1 학기와 NEPSAC 시즌의 선후가 확인 불가다. 가상학교·비자 부재가 아니라 시점 자체의 미지정이 문제다.\n\n**결함 2 — 단일기능 이탈과 비용 누락**\nQ1은 \"정보 범위 확인\", Q2는 \"자기 T2·C2·E4 대조 후 과제 설정\"으로 성격이 다른 두 기능이며, 비용 항목은 Q1의 기회비용만 계상한다. Q2의 대조가 공짜로 처리되어, 비용이 선택 전체를 덮지 못한다. 욕망도 \"확인하고 배울 과제\"라는 추상에 머문다.\n\n과장된 미국 기술우위·성공보장은 \"장소가 성공을 보장하지 않는다\"는 명시로 적절히 억제되어 있어 지적 대상 아니다. 본 검문은 국소이며 전체 게이트 인증 아님."
+    },
+    "rebuttal_recovered": true
+  },
+  "root_disposition": {
+    "accepted": [
+      "Specify a fictional information provider/medium/language and after-2015-03-08 before-2016-02 chronology",
+      "Cover Q1 and Q2 with the same whole opportunity cost and concrete present desire"
+    ],
+    "not_accepted": [
+      "Lack of real archive access evidence does not bar an explicitly fictional receipt",
+      "Comparison input and self-assessment may be two steps of one function"
+    ],
+    "status": "IMPLEMENTATION_REPAIRED_INDEPENDENT_CURRENTNESS_ACCEPTED",
+    "repeat_blind_run_required": false,
+    "independent_recheck": "chi actual model JSON/MD currentness, relative chronology, fictional receipt and shared Q1/Q2 cost; 13 negative controls passed"
+  }
+}
