@@ -21,7 +21,7 @@ J1 27팀 효과는 기존 점수차에 이미 한 번 연결되어 있다. F4 5 
 최종등록·전체 예비선수 건강·픽 소유/후손·계약 수락·재무는 따로 남는다. 의료 인증을 새 필수 요건으로 추가하지 않는다.
 
 공식A/K/시즌 집계는 [S2 검사기](../tools/check_chicago_d1_s2.py)의 모든F법적 선행조건을 따른다.
-현재 법적10PASS/2HOLD(CHI matching·DEN 자산3분기), F법적3/5·A0/3·K0/4·시즌false다.
+현재 법적11PASS/1HOLD(DEN_GORDON_PICKS_AND_CHARGE), F법적4/5·A0/3·K0/4·시즌false다.
 이 두법적 빈칸을 임의 금융 선택/픽조건으로 채우지 않는다. 미완료 큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
 
 [정규시즌](NBA_2020_21_REGULAR_CLOCK_COMPLETION.md) · [플레이인](NBA_2021_L2_WORKING_MINUTE_MODELS.md) · [플레이오프](NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.md)

@@ -10,6 +10,7 @@ import apply_2021_l2_working_calendar as common
 import build_2020_21_regular_working_chronology as regular_order
 import build_2021_l2_working_chronology as playin_order
 import build_2021_l2_nonplayoff_roster_scope as roster_check
+import check_chicago_d1_s2 as s2_check
 
 ROOT = Path(__file__).resolve().parents[1]
 REGULAR = 'simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json'
@@ -22,6 +23,7 @@ REGISTER = 'control/CHICAGO_2020_21_D1_S2_REGISTER.json'
 OUT = 'simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json'
 
 def build():
+    formal = s2_check.evaluate(common.read(REGISTER))
     regular, playin, playoff = (common.read(p) for p in (REGULAR,PLAYIN,PLAYOFF))
     regular_check.validate_against_sources(regular)
     if playin != playin_check.build():
@@ -63,7 +65,7 @@ def build():
     if any(len(v)!=1 for v in team_dates.values()) or any(len(v)!=1 for v in player_dates.values()):
         raise ValueError('team or positive player scheduled twice on same date')
     return dict(status='WORKING_MINUTE_AVAILABILITY_RESULT_SUBSCOPES_COMPLETE_FORMAL_SEASON_HOLD',
-        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF,REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER)},
+        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF,REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER,REGISTER)},
         authority=common.AUTH,phase_games={'REGULAR':1080,'PLAYIN':6,'PLAYOFF':88},
         phase_team_rows=dict(rows),positive_modeled_player_dates=dict(positive),
         total_games=1174,total_team_games=len(phases),same_date_team_collisions=0,
@@ -91,7 +93,9 @@ def build():
             'Exact boxes/scores, final pick ownership and downstream rights obligations',
             'Full transaction acceptance/financial choices and all S2 legal domains'],
         formal_gate_prerequisite_register=REGISTER,
-        pending_legal_rows=['CHI_MATCHING_RULE','DEN_GORDON_PICKS_AND_CHARGE'],
+        pending_legal_rows=[key for key, verdict in formal['legal_fields'].items() if verdict != 'LEGAL_BOUND_PASS'],
+        completed_legal_rows=sum(v == 'LEGAL_BOUND_PASS' for v in formal['legal_fields'].values()),
+        completed_f_legal_groups=sum(v == 'LEGAL_BOUND_PASS' for v in formal['F_legal'].values()),
         rule='S2 allows AUTHOR_MODELED health/coaching and REPRODUCTION_PASS quantities; actual medical or private receipt originals are not new completion requirements.',
         formal_a_k_season_depends_on_all_f_legal=True,
         completed_subscope_does_not_clear_missing_law=True,
@@ -122,7 +126,7 @@ J1 27팀 효과는 기존 점수차에 이미 한 번 연결되어 있다. F4 5 
 최종등록·전체 예비선수 건강·픽 소유/후손·계약 수락·재무는 따로 남는다. 의료 인증을 새 필수 요건으로 추가하지 않는다.
 
 공식A/K/시즌 집계는 [S2 검사기](../tools/check_chicago_d1_s2.py)의 모든F법적 선행조건을 따른다.
-현재 법적10PASS/2HOLD(CHI matching·DEN 자산3분기), F법적3/5·A0/3·K0/4·시즌false다.
+현재 법적{d['completed_legal_rows']}PASS/{len(d['pending_legal_rows'])}HOLD({', '.join(d['pending_legal_rows'])}), F법적{d['completed_f_legal_groups']}/5·A0/3·K0/4·시즌false다.
 이 두법적 빈칸을 임의 금융 선택/픽조건으로 채우지 않는다. 미완료 큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
 
 [정규시즌](NBA_2020_21_REGULAR_CLOCK_COMPLETION.md) · [플레이인](NBA_2021_L2_WORKING_MINUTE_MODELS.md) · [플레이오프](NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.md)

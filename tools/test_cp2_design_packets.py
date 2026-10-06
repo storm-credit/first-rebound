@@ -89,6 +89,17 @@ class DesignBoundaryTests(unittest.TestCase):
         self.assertIn('career season continuity', errors)
         self.assertIn('slots cannot become finished episode outlines', errors)
 
+    def test_planned_slots_cannot_replace_verified_final_functions(self):
+        self.a['final_episode_functions_completed'] = self.a['total_planned_units']
+        self.assertIn('final function count differs from verified assignments', self.errors())
+
+    def test_duplicate_final_function_cannot_consume_two_slots(self):
+        self.a['final_episode_function_paths'] *= 2
+        self.a['final_episode_functions_completed'] = 2
+        errors = self.errors()
+        self.assertIn('duplicate final function path', errors)
+        self.assertIn('final function allocation/order collision', errors)
+
     def test_review_loaded_claims_cannot_become_character_knowledge(self):
         sample = m.make_samples()['samples'][0]
         sample['information_boundary']['story_known_claim_indexes'] = [0]

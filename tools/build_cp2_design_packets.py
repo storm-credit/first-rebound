@@ -7,6 +7,7 @@ from datetime import date
 import hashlib
 import json
 from pathlib import Path
+import build_a01_e1_final_episode_function as e1_function
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_COMMIT = '171b46b'
@@ -15,6 +16,38 @@ CAREER = 'design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json'
 PROMISES = 'design/CP2_PROMISE_LEDGER.json'
 PACKS = 'context-packs/CP2_DESIGN_VALIDATION_SAMPLES.json'
 REPORT = 'reviews/O15G2_INTEGRITY_REPORT.json'
+
+
+def validate_final_functions(structure, root=ROOT):
+    """Count reviewed functional assignments; never infer completion from slots."""
+    errors, records = [], []
+    paths = structure.get('final_episode_function_paths', [])
+    declared = structure.get('final_episode_functions_completed', 0)
+    if (type(declared) is not int or declared < 0 or not isinstance(paths, list)
+            or any(not isinstance(path, str) for path in paths)):
+        return ['invalid final function registry'], []
+    if len(paths) != len(set(paths)):
+        errors.append('duplicate final function path')
+    known = {str(e1_function.OUTPUT).replace('\\', '/'): e1_function.validate}
+    for path in paths:
+        if path not in known:
+            errors.append('unreviewed final function path: ' + str(path))
+            continue
+        try:
+            data = load(path, root)
+            check_errors = known[path](data, root=root)
+            errors.extend(path + ': ' + e for e in check_errors)
+            if not check_errors:
+                records.append(data)
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            errors.append(path + ': ' + str(exc))
+    if declared != len(records):
+        errors.append('final function count differs from verified assignments')
+    slots = [r['planned_allocation_slot'] for r in records]
+    orders = [r['final_function_order'] for r in records]
+    if len(slots) != len(set(slots)) or sorted(orders) != list(range(1, len(records) + 1)):
+        errors.append('final function allocation/order collision')
+    return errors, records
 
 
 def load(path, root=ROOT):
@@ -57,6 +90,8 @@ def validate_design(structure, career, promises, root=ROOT):
         errors.append('global allocation / NBA share')
     if structure.get('planned_episode_outlines_completed') != 0:
         errors.append('slots cannot become finished episode outlines')
+    function_errors, _ = validate_final_functions(structure, root)
+    errors.extend(function_errors)
     for s in subacts:
         if s['parent_act'] not in act_by_id:
             errors.append(s['id'] + ': unknown parent')
@@ -326,6 +361,7 @@ def main():
     args = ap.parse_args()
     a, c, p = load(STRUCTURE), load(CAREER), load(PROMISES)
     errors = validate_design(a, c, p)
+    _, final_functions = validate_final_functions(a)
     samples = load(PACKS) if args.check else make_samples()
     errors += validate_samples(samples)
     alloc = {k: sum((x['NBA_content_allocation'] or {}).get(k, 0) for x in a['acts'])
@@ -333,6 +369,9 @@ def main():
     report = dict(PASS=not errors, scope='STRUCTURE_CONTENT_AND_SAMPLE_SEMANTICS',
                   acts=len(a['acts']), subacts=len(a['subacts']), planned_units=a['total_planned_units'],
                   episode_outlines_completed=0, NBA_content_allocation=alloc,
+                  final_episode_functions_completed=len(final_functions),
+                  assigned_function_slots=len(final_functions),
+                  unassigned_planned_slots=a['total_planned_units'] - len(final_functions),
                   career_seasons=len(c['seasons']), design_samples=len(samples['samples']),
                   independent_review=False, final_design_complete=False,
                   manuscript_allowed=False, errors=errors)

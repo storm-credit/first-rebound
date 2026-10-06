@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "baseline_main": "43e359c",
+  "date_local": "2026-10-07",
+  "status": "ACCEPTED_LIMITED_THREE_TEAM_LEGAL_IMPLEMENTATION_EXISTENCE",
+  "classification": {
+    "fact": "CBA permissible amendments/matching and NBA season dates; public contract/event source records",
+    "inference": "For every admissible preserved external contract input there is a simultaneous three-team implementation with permissible consensual amendments",
+    "candidate": "Independently accepted legal-existence family; actual agreements and exact execution are separate",
+    "author_locked": "Prior F1 player directions only; no new financial choice"
+  },
+  "source_hash_convention": "SHA256_UTF8_NO_BOM_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_chi_f1_matching_existence_witness.py": "6aaaecda29843eac261190f7ed5c146f7c7989d92267a7524bf9b3ffe01288ae",
+    "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "research/CHI_CONSENSUAL_WAIVER_EXISTENCE_BOUNDARY_2026_10_07.json": "a5a5436faf05acbdb62f30248ff857e0f2e7d74f9ccfc9e6dd7058dece977791",
+    "research/CHI_MINIMUM_ASSIGNMENT_BONUS_BOUNDARY_2026_10_06.json": "ca191441eeccadb085f36248e92b1b1828f54c72cd2d433b00a41d34533b5ee2",
+    "research/CHICAGO_PUBLIC_COMPONENT_BOUND_2026_10_06.json": "196cec339d3c3db24fd723c235b7a28efb0df37539adefc726b70bbc6716d7b3",
+    "research/BOSTON_DATED_TPE_CAPACITY_WITNESS_2026_10_05.json": "cf2776d3f9d9066ddebb54ac433771e74f924d3074d999c3ddf3754c8e8ef4aa",
+    "research/DEN_T1_T3_DATED_MATCHING_WITNESS_2026_10_06.json": "4fe78e44c10e6a42e45dafda470b4a0c006b48e6b573dd8afbf8002c18020ee9",
+    "research/NBA_2020_21_L_EXECUTION_TERMS_SOURCES.json": "d0597187f18b3f1436c72ab50444156448a2b3e8c3477c1095579e298f60603b",
+    "research/CHICAGO_ANNUAL_EXCEPTION_SCOPE_2026_10_05.json": "c0997b4f9324650a27991426f906b845d15d32afdc41b114b0354475db9dd704"
+  },
+  "reviewed_upstream_source_versions_pinned": true,
+  "raw_sources": {
+    "CBA": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "bytes": 2176412,
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "role": "PRIMARY_ORIGINAL_CBA"
+    },
+    "NBA_2020_21_GUIDE": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2020-21-nba-officials-guide.pdf",
+      "raw_sha256": "60b6987a4adc6fa3b836c787b033e37299509c8af0d8afda770253e3dfa69d40",
+      "bytes": 10456852,
+      "url": "https://697f6f9668a0bb24cd4b-78390edf330c094418f39edbaa9073b0.ssl.cf1.rackcdn.com/2021/02/2020-21-NBA-Officials-Guide-1-5-211.pdf",
+      "role": "PRIMARY_NBA_SEASON_SPECIFIC_KEY_DATES",
+      "pdf_page": 4,
+      "extracted_text_sha256": "465eb08a51a995b525ff11046bab5c382b8e1c6d7537bf96daad968c0e4187c4",
+      "facts": {
+        "standard_contract_guarantee_date": "2021-02-27",
+        "trade_deadline": "2021-03-25",
+        "regular_end": "2021-05-16"
+      },
+      "not_full_amendment_text": true
+    },
+    "NBA_FEED": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "bytes": 4196976,
+      "url": "https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json",
+      "role": "PRIMARY_FROZEN_DATED_PUBLIC_EVENT_CATALOG"
+    },
+    "GAFFORD_CURRENT_VENDOR": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-f1-gafford-20261007.html",
+      "raw_sha256": "e03bfd35c6ab29f7f4e1152fdd60d84cb5d25ceacdd30a1bfe26206a61aee72d",
+      "bytes": 104747,
+      "url": "https://www.salaryswish.com/players/daniel-gafford",
+      "role": "CURRENT_VENDOR_HISTORICAL_CONTRACT_ROW_NOT_TRADE_DATE_LEDGER",
+      "locator": "2019 four-year minimum contract table, 2020-21 row",
+      "current_salary_row": "2020-21 | $1,517,981 | $1,517,981 (+69%) | $1,517,981 | $0 | $0",
+      "future_rows": [
+        "2021-22 | $1,782,621 | $1,782,621 (+30%) | $1,782,621 | (0→1.78M) | $0 | $0",
+        "2022-23 | Team | Yes (Oct 12, 2021) | $1,930,681 | $1,930,681 (+17%) | $1,930,681 | (0→1.93M) | (0→1.93M) | $0 | $0"
+      ],
+      "no_guarantee_or_option_selection": true
+    },
+    "CURRENT_MATCHING_HR": {
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-matching-original-hr.html",
+      "raw_sha256": "e0316e39e2c64849b099e5ca3bdc3de8f9e4295a560ad84d55ad208ea6e1c8e6",
+      "bytes": 80240,
+      "url": "https://www.hoopsrumors.com/2021/03/hoops-rumors-glossary-traded-player-exception-3.html",
+      "role": "CONTEMPORANEOUS_CAP_ANALYST_APPLICABILITY_SUPPORT_NOT_AMENDMENT_TEXT",
+      "locator": "LukeAdamsMarch10 simultaneous/posttradetax explanation; underlyingnumericrule fromCBA",
+      "not_full_amendment_text": true
+    }
+  },
+  "CBA_clause_locations": {
+    "193": {
+      "pdf_page": 193,
+      "printed_page": 171,
+      "extracted_text_sha256": "e17f01c621c687902b0828a5472ebe6298d72ee51c1305a4c5fc3a0a6ec54f13"
+    },
+    "233": {
+      "pdf_page": 233,
+      "printed_page": 211,
+      "extracted_text_sha256": "b941a66a2e023c5ba2db9be61f70abcde7d4977b1caaf3ef03bbf90a4d71214e"
+    },
+    "234": {
+      "pdf_page": 234,
+      "printed_page": 212,
+      "extracted_text_sha256": "1610c3ce4d5d5602e43be0c5c46b61431bcbc69bf8fa578b78b68206d9a87dd6"
+    },
+    "235": {
+      "pdf_page": 235,
+      "printed_page": 213,
+      "extracted_text_sha256": "2629cc9c03aad70bd91033561b8e42016c0efa54fa3e1044be79436c5ba72421"
+    },
+    "236": {
+      "pdf_page": 236,
+      "printed_page": 214,
+      "extracted_text_sha256": "70e56f15da86cc7c391bda23304bbda276b393fcc16e9efd3f8d5825a5681545"
+    },
+    "248": {
+      "pdf_page": 248,
+      "printed_page": 226,
+      "extracted_text_sha256": "44d877e0580034c251aef1d55f6a25fb1594c1ef8141214968356e0ee0eadc4e"
+    },
+    "252": {
+      "pdf_page": 252,
+      "printed_page": 230,
+      "extracted_text_sha256": "9fbab67c065022dbb10e511f0f4a8287cb03803cf69f1d9ceb2e368251c293ed"
+    },
+    "398": {
+      "pdf_page": 398,
+      "printed_page": 376,
+      "extracted_text_sha256": "d0e7c47ec485f29d8d44219305451b54a720e642a1212079b71562f5441cb6b9"
+    }
+  },
+  "scope_comparison": {
+    "original_author_rule": "Every applicable salary, roster, exception, matching and draft-rights field requires a closed, source-supported bound or complete document/branch witness. The whole admissible domain must satisfy the rule. Unknown residuals remain HOLD.",
+    "accepted_BOS_scope": "Only dated_TPE_charge_and_capacity under preserved approved Boston public input model; no pick or wholeF2 closure",
+    "accepted_DEN_sequence_scope": "Legal implementation existence preserves independentlyapproveddirections, notnewfictionalofficialtradeconfirmation orallF1legalsidesclosed. EarlierT3beforeT1costsequence remainshistory, notauthorlockedorder. No newlyreceivedContract resent/aggregated.",
+    "interpretation": "BRANCH_WITNESS: forall external source-supported contract parameters exists a legally permitted implementation; not forall discretionary implementation choices",
+    "scope_or_authority_changed": false,
+    "prior_unwaived_upper_retained": true,
+    "financial_selection_or_actual_consent_inferred": false
+  },
+  "quantifiers": {
+    "external": "Theis/Green complete Gamma intervals; Gafford all eligible total bonuses and all allocation/protection inputs; Kornet full Gamma bound; Wagner whole rookie envelope; all BOS/WAS cap/tax classes",
+    "controls": "Only mathematical permissible amendment quantities and simultaneous route; no actual agreement assumed",
+    "statement": "FOR_ALL external contract inputs EXISTS qT,qG,qGafford and simultaneous implementation satisfying every team matching constraint; IF the parties execute the permissible agreements",
+    "actual_all_waiver_choices_pass": false,
+    "actual_acceptance_certified": false
+  },
+  "topology": {
+    "date": "2021-03-25",
+    "atomic": true,
+    "edges": [
+      {
+        "from": "CHI",
+        "to": "WAS",
+        "player": "Daniel Gafford"
+      },
+      {
+        "from": "CHI",
+        "to": "BOS",
+        "player": "Luke Kornet"
+      },
+      {
+        "from": "WAS",
+        "to": "BOS",
+        "player": "Moritz Wagner"
+      },
+      {
+        "from": "BOS",
+        "to": "CHI",
+        "player": "Daniel Theis"
+      },
+      {
+        "from": "BOS",
+        "to": "CHI",
+        "player": "Javonte Green"
+      }
+    ],
+    "newly_acquired_contract_reaggregated": false,
+    "minimum_exception_used": false,
+    "combined_distinct_exceptions": false
+  },
+  "CHI": {
+    "outgoing_lower_usd": "3767981",
+    "rule": "VII6(j)(1)(iii) full max/min; post-TeamSalary <= tax",
+    "post_team_salary_upper_usd": "132367326.15",
+    "tax_usd": "132627000",
+    "tax_margin_usd": "259673.85",
+    "matching_limit_usd": "6693966.75",
+    "incoming_base_usd": "6517981",
+    "external_gamma_intervals": {
+      "Theis": [
+        "0",
+        "750000"
+      ],
+      "Green": [
+        "0",
+        "227697.15"
+      ]
+    },
+    "algebra": {
+      "q": "max(0,gT+gG-175985.75)",
+      "qT": "min(gT,q)",
+      "qG": "q-qT",
+      "proof": "0<=qT<=gT, 0<=qG<=gG and gT+gG-q=min(gT+gG,175985.75)"
+    },
+    "incoming_after_candidate_waiver_upper_usd": "6693966.75",
+    "max_permissible_candidate_q_sum_usd": "801711.40",
+    "all_incentives_in_preserved_model": "Theis/Green reported likely/unlikely 0; full old-contract bonus intervals retained"
+  },
+  "BOS": {
+    "outgoing_lower_usd": "6517981",
+    "conservative_limit_usd": "8247476.25",
+    "incoming_full_upper_usd": "4749420",
+    "margin_usd": "3498056.25",
+    "Kornet_base_fullGamma_upper_usd": "2587500",
+    "Wagner_entire_rookie_upper_usd": "2161920",
+    "rule": "125%+100000 safe for over-cap taxpayer/non-taxpayer and below-cap VII6(j)(3)",
+    "candidate_waiver_reduces_BOS_outgoing_matching_salary": false,
+    "reason": "Outgoing uses pre-trade Salary; new assignment bonus and its waiver are post-assignment incoming effects",
+    "Hayward_TPE_usage_usd": 0,
+    "prior_four_cost_states": [
+      121899556,
+      120130995,
+      138716242,
+      138716242
+    ],
+    "maximum_prior_apron_usd": "138716242",
+    "apron_usd": "138928000",
+    "apron_margin_usd": "211758"
+  },
+  "WAS": {
+    "outgoing_Wagner_rookie_lower_usd": "1441280",
+    "conservative_limit_usd": "1901600",
+    "incoming_Gafford_current_base_usd": "1517981",
+    "performance_upper_in_preserved_model_usd": "0",
+    "external_Gafford_total_Gamma": "Any bonus permitted by XXIV2(a), including all protected/allocation/remaining-year possibilities; actual value null",
+    "candidate_qGafford": "entire eligible total trade bonus",
+    "post_assignment_current_bonus_after_candidate_waiver_usd": "0",
+    "proof": "VII7(d)(3) permits entire waiver. VII3(b) allocation of zero total bonus is zero in every year regardless of protection weights.",
+    "incoming_after_candidate_waiver_upper_usd": "1517981",
+    "margin_usd": "383619",
+    "rule": "125%+100000 is safe in all cap/tax classes, including below-cap VII6(j)(3); no new whole-WAS-cost certification",
+    "original_future_bonus_and_protection_actual_values": null,
+    "actual_assignment_bonus_zero_certified": false
+  },
+  "date_and_rule_boundary": {
+    "contract_timing": [
+      {
+        "player": "daniel-gafford",
+        "positive_event": {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-08T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Chicago Bulls re-signed forward Daniel Gafford to a Contract.",
+          "TEAM_ID": 1610612741.0,
+          "TEAM_SLUG": "bulls",
+          "PLAYER_ID": 1629655.0,
+          "PLAYER_SLUG": "daniel-gafford",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1018968"
+        },
+        "recent_public_rows": [],
+        "preservation": "CAUSALITY unchanged contract/event family; not universal private absence"
+      },
+      {
+        "player": "luke-kornet",
+        "positive_event": {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-18T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Chicago Bulls signed center Luke Kornet to a Contract.",
+          "TEAM_ID": 1610612741.0,
+          "TEAM_SLUG": "bulls",
+          "PLAYER_ID": 1628436.0,
+          "PLAYER_SLUG": "luke-kornet",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1019217"
+        },
+        "recent_public_rows": [],
+        "preservation": "CAUSALITY unchanged contract/event family; not universal private absence"
+      },
+      {
+        "player": "daniel-theis",
+        "positive_event": {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-16T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Boston Celtics re-signed forward Daniel Theis to a Contract.",
+          "TEAM_ID": 1610612738.0,
+          "TEAM_SLUG": "celtics",
+          "PLAYER_ID": 1628464.0,
+          "PLAYER_SLUG": "daniel-theis",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1019194"
+        },
+        "recent_public_rows": [],
+        "preservation": "CAUSALITY unchanged contract/event family; not universal private absence"
+      },
+      {
+        "player": "javonte-green",
+        "positive_event": {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-25T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Boston Celtics signed guard Javonte Green to a Contract.",
+          "TEAM_ID": 1610612738.0,
+          "TEAM_SLUG": "celtics",
+          "PLAYER_ID": 1629750.0,
+          "PLAYER_SLUG": "javonte-green",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1019292"
+        },
+        "recent_public_rows": [],
+        "preservation": "CAUSALITY unchanged contract/event family; not universal private absence"
+      },
+      {
+        "player": "moritz-wagner",
+        "positive_event": {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2019-07-06T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Washington Wizards received forward Moritz Wagner from Los Angeles Lakers.",
+          "TEAM_ID": 1610612764.0,
+          "TEAM_SLUG": "wizards",
+          "PLAYER_ID": 1629021.0,
+          "PLAYER_SLUG": "moritz-wagner",
+          "Additional_Sort": 1610612747.0,
+          "GroupSort": "Trade 2019012"
+        },
+        "recent_public_rows": [],
+        "preservation": "CAUSALITY unchanged contract/event family; not universal private absence"
+      }
+    ],
+    "outgoing_base_protection": "March25 after season-specific Feb27 standard-contract guarantee and before May16 regular end; VII6(j)(5)(ii) no unprotected current-base subtraction in this window",
+    "not_full_2020_amendment_certificate": true,
+    "applicability": "Same original detailed rules plus NBA March16 current-season connection and March10 original cap-analyst current matching support as accepted BOS/DEN scope. NBA officials guide positively verifies the changed guarantee/deadline dates. No absence-of-change inferred from press silence.",
+    "after_waiver_restriction": {
+      "rule": "VII7(d)(3): old contract extension/renegotiation not before later of six months or otherwise eligible date",
+      "trade_date": "2021-03-25",
+      "six_month_floor": "2021-09-25",
+      "affected_candidate_contracts": [
+        "Theis",
+        "Green",
+        "Gafford"
+      ],
+      "whole_2021_contract_execution_certified": false,
+      "ordinary_new_FA_contract_is_not_automatically_old_contract_extension": true
+    }
+  },
+  "authority": {
+    "actual_gamma": null,
+    "actual_waiver_quantities": null,
+    "actual_player_consent": null,
+    "actual_assignor_agreement": null,
+    "actual_recipient_acceptance": null,
+    "actual_trade_call": null,
+    "new_financial_author_selection": null,
+    "actual_atomic_group_selection": null,
+    "source_supported_complete_legal_existence_family": true,
+    "independent_review_completed": true,
+    "register_promotion": 0,
+    "whole_A2_K_or_season_pass": false,
+    "full_future_contract_execution_certified": false,
+    "manuscript_allowed": false
+  },
+  "independent_review": {
+    "reviewer": "/root/den_pick_full_branch",
+    "parent_acceptance": "/root",
+    "verdict": "ACCEPT_ONLY_THREE_TEAM_MATCHING_LEGAL_IMPLEMENTATION_EXISTENCE",
+    "actual_CBA_pages_read": [
+      193,
+      233,
+      234,
+      235,
+      236,
+      248,
+      252,
+      398
+    ],
+    "NBA_officials_guide_page_read": 4,
+    "reviewed_repository_input_SHA_count": 12,
+    "reviewed_raw_SHA_count": 5,
+    "actual_source_bodies_and_all_three_team_Decimal_piecewise_interval_algebra_checked": true,
+    "independent_negative_tests": [
+      "actual_acceptance",
+      "drop_six_month_floor",
+      "WAS_current_only_waiver",
+      "atomic_reaggregation",
+      "same_total_upstream_contract_mutation"
+    ],
+    "independent_negative_rejections": 5,
+    "descendants": {
+      "affected_candidate_contracts": [
+        "Theis",
+        "Green",
+        "Gafford"
+      ],
+      "accepted_constraint": "Old contract extension/renegotiation >= max(2021-09-25, otherwise eligible date) if consensual waiver implementation is actually selected",
+      "actual_waiver_or_consent_selected": false,
+      "ordinary_new_FA_contract_is_not_automatically_old_contract_extension": true,
+      "exact_2021_future_contract_execution_certified": false
+    },
+    "new_source_collection_by_independent_reviewer": false,
+    "whole_G16_independent_pass": false
+  },
+  "reopen": [
+    "New contract/performance/source input",
+    "Changed player direction or pretrade contract event",
+    "Changed current TeamSalary upper or rule applicability evidence",
+    "Actual future extension/renegotiation before permissible date"
+  ],
+  "tools": {
+    "Antigravity": {
+      "status": "SOURCE_ATTEMPT_RETURNED_EMPTY_NO_NEW_EVIDENCE",
+      "evidence": "reviews/CHI_F1_ANTIGRAVITY_SOURCE_ATTEMPT_2026_10_07.json",
+      "evidence_sha256": "31df9d75771e3286ae77be9d5873652b8ad8272ffe94f40f394308bd19f7d13b",
+      "elapsed_seconds": 53.001,
+      "new_verified_source_bodies": 0,
+      "terminal_SUCCESS_does_not_certify_source_evidence": true
+    },
+    "NotebookLM": {
+      "status": "TERMINAL_RECOVERED_ANALYSIS_ONLY",
+      "evidence": "reviews/CHI_F1_NLM_EXISTENCE_ANALYSIS_2026_10_07.json",
+      "evidence_sha256": "d0c5a80cff6009ddd9dc0a0f73aa52492c3ded965d6541a94fbb67b8c78e110b",
+      "source_id": "79e449fe-4e43-49a6-9b0f-b7bf8a0126be",
+      "source_import_elapsed_seconds": 17.199,
+      "analysis_elapsed_seconds": 60.059,
+      "input_phase": "FROZEN_PRE_ACCEPTANCE_CANDIDATE_MD_SNAPSHOT_NOT_CURRENT_ACCEPTED_MD",
+      "candidate_MD_normalized_SHA256": "c94f21a72c8f8cdad38c68d978973d797535b314f8471ac4ce3e62cea7c3aed3",
+      "current_status_not_retroactively_attributed_to_snapshot": true,
+      "shorthand_September25_restriction_corrected_to_exact_max_boundary": true,
+      "source_code_independent_or_G16_certified": false
+    },
+    "Claude": {
+      "status": "TERMINAL_RECOVERED_REBUTTAL_ALL_THREE_OBJECTIONS_REJECTED_BY_PRIMARY",
+      "evidence": "reviews/CHI_F1_CLAUDE_EXISTENCE_BLIND_2026_10_07.json",
+      "evidence_sha256": "4969ae99bc61ccc495ba8dbb92f5b9bd1b207eb81fba031ac1bec03de54a135e",
+      "elapsed_seconds": 56.285,
+      "disposition_evidence": "reviews/E1_FINAL_FUNCTION_AND_CHI_F1_SCOPE_REVIEW_2026_10_07.md",
+      "rejected_objections": [
+        "CHI125percent_only_omits_nonTax175percent_branch",
+        "February_deadline_assumed_despite_2021_March25_primary_date",
+        "Conflates_belowcap_matching_election_with_waiver_and_misreads_explicit_sixmonth_clause"
+      ],
+      "original_sources_supplied": 0,
+      "original_code_supplied": 0,
+      "source_code_or_G16_certified": false
+    }
+  }
+}
