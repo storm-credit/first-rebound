@@ -1,0 +1,119 @@
+{
+  "status": "CONDITIONAL_EXISTENCE_PROOF_NOT_S2_WHOLE_ROW_PASS",
+  "baseline_main": "76cd80b085bf4b0b0a305fa944ee76e185efb4a8",
+  "classification": "CBA_FACT_AND_QUANTIFIED_MATHEMATICAL_CANDIDATE_NO_AUTHOR_FINANCIAL_SELECTION",
+  "source": {
+    "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "locator": "ArticleVII7(d)(3), PDF247heading(d)Other→PDF248printed226; allocationVII3(b)PDF193; matching6(j)PDF233-234",
+    "page248_extracted_text_sha256": "44d877e0580034c251aef1d55f6a25fb1594c1ef8141214968356e0ee0eadc4e"
+  },
+  "input_sha256": {
+    "research/CHI_MINIMUM_ASSIGNMENT_BONUS_BOUNDARY_2026_10_06.json": "ca191441eeccadb085f36248e92b1b1828f54c72cd2d433b00a41d34533b5ee2",
+    "research/CHICAGO_PUBLIC_COMPONENT_BOUND_2026_10_06.json": "196cec339d3c3db24fd723c235b7a28efb0df37539adefc726b70bbc6716d7b3",
+    "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798"
+  },
+  "rule": "Playerandassignorteam mayagreeallorpartialtradebonuswaiver inconnectionwithtrade; thencontractextension/renegotiationprohibiteduntillaterofsixmonthsorotherwiseeligibledate.",
+  "quantifiers": "FOR_EVERY original gamma IN modeledlegalrange EXISTS permissiblewaiver IF BOTH playerandassignorteam agree; NOT FOR_EVERY actualwaiverchoice OR acceptanceguarantee.",
+  "formula": {
+    "q": "max(0,gammaTheis+gammaGreen-175985.75)",
+    "qTheis": "min(gammaTheis,q)",
+    "qGreen": "q-qTheis",
+    "domains": "gammaTheis[0,750000],gammaGreen[0,227697.15]; eachwaiver[0,ownGamma]",
+    "upper_waiver_sum": "801711.40",
+    "remaining_bonus_upper": "175985.75",
+    "route": "SimultaneousaggregateTheisGreen incoming; noGreenminimumexceptionshortcut; compare6517981+sumGamma-q<=6693966.75"
+  },
+  "nine_boundary_cases": [
+    {
+      "gamma_theis": "0",
+      "gamma_green": "0",
+      "existential_waiver_total": "0",
+      "existential_waiver_theis": "0",
+      "existential_waiver_green": "0",
+      "conditional_incoming": "6517981"
+    },
+    {
+      "gamma_theis": "0",
+      "gamma_green": "100000",
+      "existential_waiver_total": "0",
+      "existential_waiver_theis": "0",
+      "existential_waiver_green": "0",
+      "conditional_incoming": "6617981"
+    },
+    {
+      "gamma_theis": "0",
+      "gamma_green": "227697.15",
+      "existential_waiver_total": "51711.40",
+      "existential_waiver_theis": "0",
+      "existential_waiver_green": "51711.40",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "175985.75",
+      "gamma_green": "0",
+      "existential_waiver_total": "0",
+      "existential_waiver_theis": "0",
+      "existential_waiver_green": "0",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "175985.75",
+      "gamma_green": "100000",
+      "existential_waiver_total": "100000.00",
+      "existential_waiver_theis": "100000.00",
+      "existential_waiver_green": "0.00",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "175985.75",
+      "gamma_green": "227697.15",
+      "existential_waiver_total": "227697.15",
+      "existential_waiver_theis": "175985.75",
+      "existential_waiver_green": "51711.40",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "750000",
+      "gamma_green": "0",
+      "existential_waiver_total": "574014.25",
+      "existential_waiver_theis": "574014.25",
+      "existential_waiver_green": "0.00",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "750000",
+      "gamma_green": "100000",
+      "existential_waiver_total": "674014.25",
+      "existential_waiver_theis": "674014.25",
+      "existential_waiver_green": "0.00",
+      "conditional_incoming": "6693966.75"
+    },
+    {
+      "gamma_theis": "750000",
+      "gamma_green": "227697.15",
+      "existential_waiver_total": "801711.40",
+      "existential_waiver_theis": "750000",
+      "existential_waiver_green": "51711.40",
+      "conditional_incoming": "6693966.75"
+    }
+  ],
+  "unwaived_upper_counterexample_retained": true,
+  "restriction_followup": {
+    "trade_date": "2021-03-25",
+    "six_month_boundary": "2021-09-25",
+    "rule": "No earlier extension/renegotiationofamendedoldcontract; ordinarynewFAcontractnotbyitselfanextension, but2021newcontractscope needsownreview. Do notcopyexactAugagreementsascleared."
+  },
+  "actual_original_gamma": null,
+  "actual_waiver_amounts": null,
+  "actual_player_consent": null,
+  "actual_assignor_agreement": null,
+  "new_financial_author_selection": null,
+  "policy_changed": false,
+  "whole_matching_pass": false,
+  "whole_cost_witness_retained": true,
+  "season_selected": false,
+  "manuscript_allowed": false
+}
