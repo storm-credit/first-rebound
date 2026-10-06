@@ -1,0 +1,100 @@
+{
+  "artifact_id": "CHICAGO_NEW_ANNUAL_EXCEPTION_WITNESS_2026_10_06",
+  "baseline_main": "e05cf85d75825366cbc4407866029b1d3546f04e",
+  "status": "S2_SOURCE_SUPPORTED_NEW_ANNUAL_NONINCORPORATION_COMPONENT",
+  "classification": "FACT_AND_PUBLIC_LEGAL_INFERENCE_NOT_PRIVATE_LEDGER_CERTIFICATE",
+  "sources": [
+    {
+      "url": "https://www.hoopsrumors.com/2020/07/key-2020-nba-offseason-dates-deadlines.html",
+      "classification": "CONTEMPORANEOUS_ORIGINAL_REPORTER_UPDATED_BODY",
+      "locator": "Article datedJuly8 but JSON-LD modifiedNov27; Nov18draft/Nov20oldyearlast/Nov21newyearfirst",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-annual-date-source-1.html",
+      "bytes": 62079,
+      "raw_sha256": "ab77ab1fef712dda155ffdce46ffba44668b3c9c00d4f5eb5f0435ea7ca3b1af"
+    },
+    {
+      "url": "https://www.hoopsrumors.com/2020/11/values-of-202021-mid-level-bi-annual-exceptions.html",
+      "classification": "CONTEMPORANEOUS_ORIGINAL_REPORTER_RULE_AND_VALUES",
+      "locator": "LukeAdams Nov10; applicableCBA cap-linked NTMLE9258000/BAE3623000",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-annual-values-2020.html",
+      "bytes": 80987,
+      "raw_sha256": "5449184596182d4d334dd79fbcd9bf87d04ef098da1e818416fa24a61cd82073"
+    },
+    {
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "classification": "PRIMARY_CBA",
+      "locator": "VII6d4/e4 PDF228-229; VII6m2 PDF239-240",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "bytes": 2176412,
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a"
+    }
+  ],
+  "source_inputs": {
+    "research/CHICAGO_ANNUAL_EXCEPTION_SCOPE_2026_10_05.json": "3a3a8bfe38a9264abdfe07b058280a53f0f7e782025ab8e11baa465f4e82077e",
+    "research/O15F14AE_CHICAGO_OVER_CAP_EXCEPTION_TRIGGER.md": "a01edbeb8b6e4371bc2116ade516cb457717721d9d8e9aacc1fe6351272b24cf",
+    "research/O15F14AF_CHICAGO_PREDEADLINE_EXCEPTION_ORIGIN.md": "a89c4cd44e7ac39c77dcbb081fa8352cfe51bbb0618ab025d41fa70d8db1096e",
+    "research/CHICAGO_DATED_PUBLIC_LEDGER_2026_10_05.json": "fd24b6a7b22c5ad5c31da5152324a86a8347040fe3f2a91725a7173c7a66bab5",
+    "simulation/CHICAGO_2020_21_TAX_BOUND.json": "1ae2c77e02c0098d9b34ae419d9f2c7f69cb1af89a1d383dc1c9df971fed3a86",
+    "research/CHICAGO_2020_21_TAX_BOUND_SOURCES.json": "8d83761cda8117f5c793a6a3408ceadcf60a22023f872ddcbe2d154d95af9e03",
+    "simulation/CAUSALITY_MODEL.md": "f54f2b26a79669ad3798cb2e0b7c19b2bb98d6e431fbc3a76f2d891f2a092b10",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "bebab50e2569747fc7cf3caf0cb5189f10921500c9bb14f5b1975e524abe5b69",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "0ae90f0295a5a15d53187246a101d667515230dda84e3ad7924be4b87736d560",
+    "research/CHICAGO_2020_21_OPENING_ROSTER_BASELINE.md": "62518bf272527c3d327f9168118206e895bd66e2a967d0cc8b1e9dff7005e907"
+  },
+  "period": [
+    "2020-11-21",
+    "2021-03-25 AFTER_ATOMIC_F1"
+  ],
+  "calendar": {
+    "date_published": "2020-07-08T13:54:27-05:00",
+    "date_modified": "2020-11-27T09:09:40-06:00",
+    "old_year_last": "2020-11-20",
+    "new_year_first": "2020-11-21",
+    "official_COVID_amendment_original_recovered": false
+  },
+  "cap_usd": 109140000,
+  "cap_floors": [
+    {
+      "state": "FIRST_DAY_TO_F1_BEFORE",
+      "lower_usd": 109622028,
+      "method": "ExistingAE floor with4thpick80% sensitivity; actualunsignedhold120% islarger"
+    },
+    {
+      "state": "PRE_F1_FULL_OPENING_BASE_MIN",
+      "lower_usd": 121387948,
+      "method": "120062428+protagonist1325520"
+    },
+    {
+      "state": "POST_ATOMIC_F1_BASE_MIN",
+      "lower_usd": 124137948,
+      "method": "122812428+protagonist1325520"
+    }
+  ],
+  "rules": {
+    "new_annual_generation": "VII6d4/e4: firstday eachcapyear, expireteamlastregularday",
+    "incorporation": "VII6m2: belowcap whileexceptionvalid; eligibilitynotinclusion",
+    "signed_players": "UsedexceptioncontractSalary alreadycounted; no salaryremoval"
+  },
+  "conclusion": {
+    "new2020_MLE_BAE_unused_incorporation_contribution_usd": 0,
+    "prior_new_annual_incorporation_window_excluded": true,
+    "existing2019_TPE_DPE_entire_history_certified": false,
+    "whole_CHI_TEAM_SALARY_pass": false,
+    "BAE_complete_eligibility_certified": false
+  },
+  "scope_limits": [
+    "No inference from2017text silencealone: contemporaneousoriginalrule/valueandcalendar positivewitnesses combined underapprovedS2",
+    "No private2020MOU sameclause text new mandatorygate",
+    "No copiedHR belowcap-disappears simplification",
+    "OldTPE/DPE priorincorporation andwholecost separate",
+    "Exactprotagonistpick/salary andbonus receipts unselected"
+  ],
+  "review": {
+    "independent_agent": "d1_closeable_audit",
+    "actual_raw_hash_CBA_body_read": true,
+    "decision": "ACCEPTED_SCOPED_S2_PUBLIC_LEGAL_INFERENCE"
+  },
+  "tool_record": "reviews/ANNUAL_CALENDAR_AG_2026_10_06.json",
+  "author_decisions_added": 0,
+  "manuscript_allowed": false
+}

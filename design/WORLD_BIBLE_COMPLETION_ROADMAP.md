@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-06 [Chicago·Orlando 전체 비용행 종료](../reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): CHI전체공개비용132,367,326.15·ORLF4전체apron137,768,857·ORLF2전중간포함상단138,303,543을실제원문/지문/구성/독립검문으로종료했다. 새annual산입0·camp/RequiredTender/모든incomingbonus도포함. 법적6완료/6HOLD·F법적1/5(F4)·A0/3 K0/4·시즌미확정. CHI matching·픽/다른팀급여·건강/분은미완료. AG응답회수/기사본문실패·NLM분석회수·Claude70초timeout·전체blind/G16미실행. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
+
 2026-10-05 [Boston TPE 하위 분기 검수](../reviews/BOSTON_TPE_BRANCH_REVIEW_2026_10_05.md): 3/16긍정가용28.5m·유한사건/보존입력 연결과WK매칭→단일HaywardFournier21.15m 순서증인을독립검문해TPE1/3분기종료. 두픽HOLD·전체법적3완료/9HOLD·F0/5 A0/3 K0/4는유지. Teague전액제외하한112,914,711/110,088,010·Chicago연간MLE/BAE와옛TPE/DPE범위분리. Chicago적용시점/전체비용미완료. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
 
 2026-10-05 [동시대 급여 원장 검수](../reviews/DATED_CAP_REVIEW_2026_10_05.md): Boston보존비용모델의전체상단138,716,242와4상태비용순서증인을독립대조해BOS_COMPLETE_COST종료: 법적3완료/9HOLD. 픽/TPE/F전체·시즌은미완료다. Chicago동시대원장128,065,350·TempleNTMLE·11행날짜브리지는supporting이며CHI전체HOLD. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
@@ -36,12 +38,12 @@
 
 2026-10-04 [A08 라이브 패스 검수](../reviews/A08_LIVEPASS_REVIEW_2026_10_04.md): 기존2022–23의60슬롯/3소막과A07인계에5인과후보를 연결했다. 실제관측 오류만수정·공개급여 기반전달설명 접근명확화·상태/해시/null/MD/11링크PASS·제한Codex검문. NLM53.651초응답/요약경계누락교정·Claude세션한도8.475초오류는통과아님. 현행7행표를구판누적표와분리해동기화했다. 최종회차0·실제Pack0·법적12HOLD/F0/5 A0/3 K0/4·미완료6·G11규격완료·PARTIAL/CLOSED·원고0.
 
-## 현행 전체 7행 진행표 — 2026-10-05 Boston TPE 하위 분기 검수 시점
+## 현행 전체 7행 진행표 — 2026-10-06 Chicago·Orlando 비용행 종료
 
 | 번호 | 전체 작업 | 현행 상태·남은 핵심 |
 |---|---|---|
 | 1 | 2020 드래프트 연쇄 | 완료. 기존 작가 선택·연쇄 보존 |
-| 2 | Chicago 2020–21 | 진행: 결과 디자인 선택·15시리즈/88날짜 후보 보존. ORL53일·DEN양분기53일/CLE53일 등록 법적 범위 종료. Boston보존비용 상한·4상태 및 TPE1/3분기 종료(두픽HOLD). 법적3완료/9HOLD·F0/5·A0/3·K0/4; 나머지전체급여/픽/건강/분/시즌 실행 미완료 |
+| 2 | Chicago 2020–21 | 진행: 결과 디자인/15시리즈88날짜 후보 보존. 등록 ORL53일·DEN양분기53일/CLE53일, BOS전체비용/TPE1분기, CHI전체비용·ORLF4전체비용·ORLF2전중간비용 종료. 법적6완료/6HOLD·F법적1/5(F4)·A0/3·K0/4. matching·두픽·다른팀비용·건강/분/시즌 미완료 |
 | 3 | 2021–23 거래·계약 | M1/G1A 방향 선택. M1 정상일5인48/240증인, A07의6/A08의5기능 후보. 전체 비용·계약 실행·시즌 미완료 |
 | 4 | 주인공·라이벌 장기 커리어 | 17시즌 행동/비용·A09–A14 27인과후보 연결. H2·RC1·AW2·NM1의 중요 결과·후속 정확 실행 미완료 |
 | 5 | 결말·전체 구조 | 14막/42소막/780배분. 인과82/대학대표3·A01국소Blueprint3(9Beat) 보존. 학교원문4/FACT9와 수락/참가·G13/G14 조건 수리. 전체 회차 배치 미정·최종 회차 기능0 |
