@@ -1,0 +1,260 @@
+{
+  "schema": "A01_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A01-EF-006",
+  "act": "A01",
+  "primary_subact": "A01-S2",
+  "source_conditional_function": "A01-CF09",
+  "final_function_order": 6,
+  "planned_allocation_slot": 6,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "prior_function_slots": 5,
+    "this_function_slots": 1,
+    "assigned_function_slots_through_this": 6,
+    "remaining_planned_slots": 30,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "local_contiguous_functions_through_this": 6,
+  "previous_function": {
+    "id": "A01-EF-005",
+    "path": "design/A01_E5_FINAL_EPISODE_FUNCTION.json",
+    "exit_state": "주인공이 맡은 공 준비에 다시 와 자기 몫을 수행했고, 전에는 혼자 준비하던 동료가 남은 몫만 처리하는 것을 직접 봤다. 팀 전체 신뢰·생활 개선·게임 보상 충돌은 아직 확인되지 않았다."
+  },
+  "local_blueprint": {
+    "schema": "A01_CF09_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_LOCAL_ROUTINE_DESIGN_ONLY_NOT_AUTHOR_LOCK_OR_FULL_G13",
+    "source_currentness": "Selected CF09 model and E5 full exit validated against current source files",
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a01_e6_final_episode_function.py": "bda9116c62bd122605d9549c05d31d0bd3b51e59072288b8593a4d98e0fc4fd5",
+      "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json": "774e77d3d379912cd26858c2500e4004942a702b5abf6c8b17d82d60ca36312a",
+      "design/A01_E5_FINAL_EPISODE_FUNCTION.json": "b6b0e1672fc80121def5f8ae6e8e34cb68309883f5d78a2a91ba30d14a4e0cc6",
+      "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "entry_state": "주인공이 맡은 공 준비에 다시 와 자기 몫을 수행했고, 전에는 혼자 준비하던 동료가 남은 몫만 처리하는 것을 직접 봤다. 팀 전체 신뢰·생활 개선·게임 보상 충돌은 아직 확인되지 않았다.",
+    "single_function": "한 판 더 할 수 있는 즉시 재미 앞에서 이번 한 번은 맡은 공동 준비 약속을 먼저 선택한다",
+    "unit_choice": "게임을 한 판 더 이어갈 수 있어도 이번에는 PC방을 나와 이미 맡은 준비를 먼저 한다",
+    "exit_state": "주인공이 게임 한 판을 더 시작하지 않고 이번 한 번 맡은 공 준비에 참여했다. 게임은 계속 좋아하고 수면·출석·생활 전체의 반복 통제는 아직 확인되지 않았다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "G1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "친구들과 PC방에서 하던 짧은 게임이 끝난 뒤 한 판을 더 시작할 수 있는 시점에 약속된 공 준비 시간이 다가온 것을 확인한다",
+        "observable_result": "계속하면 공동 준비 시작에 늦을 수 있다는 현재의 두 선택을 인식한다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "정확 게임명·승패·현금/아이템 보상·친구의 권유나 속마음",
+        "protagonist_access": "자신의 현재 게임 선택, 이미 받은 준비 약속과 본인이 수행한 일에 한정",
+        "source_path": "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json",
+        "source_step": "G1",
+        "author_locked": false
+      },
+      {
+        "id": "G2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "새 판을 시작하지 않고 PC방을 나와 그 한 번의 허용 준비 기회에 맞춰 맡은 공 준비에 참여한다",
+        "observable_result": "게임의 다음 즉시 재미를 뒤로 두고 약속된 준비 일을 먼저 수행한 현재 행동을 확인한다",
+        "choice_options": [
+          "짧은 게임을 한 판 더 이어간다",
+          "이번에는 게임을 멈추고 맡은 공 준비를 먼저 한다"
+        ],
+        "selected_choice": "이번에는 게임을 멈추고 맡은 공 준비를 먼저 한다",
+        "not_claimed": "게임 포기·밤샘/지각/결석 완치·미국 프렙 자율 루틴·팀 전체 신뢰",
+        "protagonist_access": "자신의 현재 게임 선택, 이미 받은 준비 약속과 본인이 수행한 일에 한정",
+        "source_path": "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json",
+        "source_step": "G2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "E5 full exit < G1 game continuation opportunity < G2 decline and perform one assigned preparation"
+    ],
+    "direct_present_cost": "한 판 더 이어갈 즉시 재미와 승부 기회를 이번에는 미루며, 그 시간에 이미 맡은 공동 준비를 한다. 실제 게임 승리나 아이템 보상 포기는 주장하지 않는다.",
+    "time_and_access_model": {
+      "relative_time": "E5 뒤의 별도 한 준비 기회. 정확 날짜와 시각은 미정",
+      "short_game_window_before_preparation_selected": true,
+      "game_title_platform_or_service_reward": null,
+      "pc_room_name_or_route": null,
+      "actual_transport_or_minutes_certified": false,
+      "preparation_start_met_in_fictional_design": true
+    },
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "현재 게임 종료와 다음 판 선택",
+        "자신이 받은 준비 약속",
+        "본인이 도착해 수행한 일"
+      ],
+      "not_available_without_access": [
+        "친구 속마음",
+        "감독의 비공개 평가",
+        "향후 생활 습관 안정",
+        "미국 환경의 실제 수락"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "school_access": {
+      "E5_clearance_automatically_extends_to_CF09": false,
+      "bounded_one_preparation_occasion_selected": true,
+      "pre_participation_condition_check": {
+        "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+        "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+        "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+      },
+      "coach_supervision_and_safety": true,
+      "actual_real_school_or_case_records_certified": false,
+      "registration_or_contest_eligibility_certified": false
+    },
+    "unassigned_details": {
+      "game_title_or_reward": null,
+      "friends_individual_identity": null,
+      "pc_room_and_school_name": null,
+      "exact_date_or_time": null,
+      "travel_route_or_duration": null,
+      "real_attendance_or_supplement_records": null,
+      "next_US_school_application_or_acceptance": null
+    },
+    "actual_real_school_or_case_records_certified": false,
+    "lasting_gaming_or_school_routine_repair_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "한 판 더 할 수 있는 즉시 재미 앞에서 이번 한 번은 맡은 공동 준비 약속을 먼저 선택한다",
+  "entry_state": "주인공이 맡은 공 준비에 다시 와 자기 몫을 수행했고, 전에는 혼자 준비하던 동료가 남은 몫만 처리하는 것을 직접 봤다. 팀 전체 신뢰·생활 개선·게임 보상 충돌은 아직 확인되지 않았다.",
+  "unit_choice": "게임을 한 판 더 이어갈 수 있어도 이번에는 PC방을 나와 이미 맡은 준비를 먼저 한다",
+  "exit_state": "주인공이 게임 한 판을 더 시작하지 않고 이번 한 번 맡은 공 준비에 참여했다. 게임은 계속 좋아하고 수면·출석·생활 전체의 반복 통제는 아직 확인되지 않았다.",
+  "direct_present_cost": "한 판 더 이어갈 즉시 재미와 승부 기회를 이번에는 미루며, 그 시간에 이미 맡은 공동 준비를 한다. 실제 게임 승리나 아이템 보상 포기는 주장하지 않는다.",
+  "reader_question_at_end": "즉시 보상이 더 큰 날에도 이 순서를 다시 지킬 수 있는가",
+  "internal_order": [
+    "G1",
+    "G2"
+  ],
+  "beats": [
+    {
+      "id": "G1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "친구들과 PC방에서 하던 짧은 게임이 끝난 뒤 한 판을 더 시작할 수 있는 시점에 약속된 공 준비 시간이 다가온 것을 확인한다",
+      "observable_result": "계속하면 공동 준비 시작에 늦을 수 있다는 현재의 두 선택을 인식한다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "정확 게임명·승패·현금/아이템 보상·친구의 권유나 속마음",
+      "protagonist_access": "자신의 현재 게임 선택, 이미 받은 준비 약속과 본인이 수행한 일에 한정",
+      "source_path": "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json",
+      "source_step": "G1",
+      "author_locked": false
+    },
+    {
+      "id": "G2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "새 판을 시작하지 않고 PC방을 나와 그 한 번의 허용 준비 기회에 맞춰 맡은 공 준비에 참여한다",
+      "observable_result": "게임의 다음 즉시 재미를 뒤로 두고 약속된 준비 일을 먼저 수행한 현재 행동을 확인한다",
+      "choice_options": [
+        "짧은 게임을 한 판 더 이어간다",
+        "이번에는 게임을 멈추고 맡은 공 준비를 먼저 한다"
+      ],
+      "selected_choice": "이번에는 게임을 멈추고 맡은 공 준비를 먼저 한다",
+      "not_claimed": "게임 포기·밤샘/지각/결석 완치·미국 프렙 자율 루틴·팀 전체 신뢰",
+      "protagonist_access": "자신의 현재 게임 선택, 이미 받은 준비 약속과 본인이 수행한 일에 한정",
+      "source_path": "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json",
+      "source_step": "G2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A01-CF10",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_subact": "A01-S3",
+    "candidate_entry_non_authoritative_summary": "취미를 지우지 않고 한 약속의 순서를 바꾸는 행동이 생긴다",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "주인공이 게임 한 판을 더 시작하지 않고 이번 한 번 맡은 공 준비에 참여했다. 게임은 계속 좋아하고 수면·출석·생활 전체의 반복 통제는 아직 확인되지 않았다.",
+    "candidate_is_executed_here": false,
+    "candidate_is_final_episode_function": false,
+    "us_environment_comparison_or_acceptance": null
+  },
+  "time_and_access_model": {
+    "relative_time": "E5 뒤의 별도 한 준비 기회. 정확 날짜와 시각은 미정",
+    "short_game_window_before_preparation_selected": true,
+    "game_title_platform_or_service_reward": null,
+    "pc_room_name_or_route": null,
+    "actual_transport_or_minutes_certified": false,
+    "preparation_start_met_in_fictional_design": true
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "현재 게임 종료와 다음 판 선택",
+      "자신이 받은 준비 약속",
+      "본인이 도착해 수행한 일"
+    ],
+    "not_available_without_access": [
+      "친구 속마음",
+      "감독의 비공개 평가",
+      "향후 생활 습관 안정",
+      "미국 환경의 실제 수락"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "school_authority": {
+    "E5_clearance_automatically_extends_to_CF09": false,
+    "bounded_one_preparation_occasion_selected": true,
+    "pre_participation_condition_check": {
+      "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+    },
+    "coach_supervision_and_safety": true,
+    "actual_real_school_or_case_records_certified": false,
+    "registration_or_contest_eligibility_certified": false
+  },
+  "unassigned_details": {
+    "game_title_or_reward": null,
+    "friends_individual_identity": null,
+    "pc_room_and_school_name": null,
+    "exact_date_or_time": null,
+    "travel_route_or_duration": null,
+    "real_attendance_or_supplement_records": null,
+    "next_US_school_application_or_acceptance": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_e6_final_episode_function.py": "bda9116c62bd122605d9549c05d31d0bd3b51e59072288b8593a4d98e0fc4fd5",
+    "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json": "774e77d3d379912cd26858c2500e4004942a702b5abf6c8b17d82d60ca36312a",
+    "design/A01_E5_FINAL_EPISODE_FUNCTION.json": "b6b0e1672fc80121def5f8ae6e8e34cb68309883f5d78a2a91ba30d14a4e0cc6",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED only means this local Blueprint matches current selected routine design and source revisions.",
+    "G1/G2 are one new fictional choice, not a preexisting author-locked PC-room episode.",
+    "The next game round is delayed; no actual item, win, service title or permanent abstinence is claimed.",
+    "One timely preparation attendance does not certify lasting sleep, class attendance or life control.",
+    "The school conditions are fictional plan checks, not actual student records.",
+    "CF10 US-environment comparison and transfer or acceptance remain unexecuted."
+  ],
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
