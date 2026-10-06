@@ -1,0 +1,211 @@
+{
+  "schema": "A01_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A01-EF-002",
+  "function_label": "E2_SECOND_FUNCTION_AFTER_E1",
+  "old_boundary_E2_cumulative_first_episode_alternative_selected": false,
+  "act": "A01",
+  "subact": "A01-S1",
+  "final_function_order": 2,
+  "planned_allocation_slot": 2,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "prior_function_slots": 1,
+    "this_function_slots": 1,
+    "assigned_function_slots_through_this": 2,
+    "remaining_planned_slots": 34,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "local_contiguous_functions_through_this": 2,
+  "previous_function": {
+    "id": "A01-EF-001",
+    "path": "design/A01_E1_FINAL_EPISODE_FUNCTION.json",
+    "exit_state": "감독의 방과 후 조건부 체험 제안을 들었다. 수락·수업 출석·보충·시간 준수와 실제 출결 처리는 아직 일어나거나 확인되지 않았다"
+  },
+  "single_function": "체험에 들어간 주인공이 동갑의 기술·판단·위치선정 앞에서 첫 완패를 겪는다",
+  "entry_state": "감독의 방과 후 조건부 체험 제안을 들었다. 수락·수업 출석·보충·시간 준수와 실제 출결 처리는 아직 일어나거나 확인되지 않았다",
+  "unit_choice": "T1의 첫 훈련 진입. 별도의 구두 수락·조건 협상·1대1 대결 수락·재도전은 새로 선택하지 않는다.",
+  "exit_state": "체육관에 남을 명분과 자존심으로 첫 훈련에 들어갔고 같은 학년 라이벌에게 기술·판단·위치선정으로 완패했다. 다음 훈련에 남는 행동은 이 단위 밖이다.",
+  "direct_present_cost": {
+    "claim": "첫 훈련에 실제 쓴 시간에는 체육관에서 과제 없이 머무를 수 없고, 첫 비교에서 완패하여 기술·판단·위치선정의 부족이 드러난다.",
+    "evidence_class": "INFERENCE_FROM_LOCKED_EVENT_PLUS_LOCKED_DEFEAT",
+    "locked_component": "첫 비교의 기술·판단·위치선정 완패",
+    "inference_ids": [
+      "I2",
+      "I3"
+    ],
+    "not_claimed": "특정 게임 약속 취소·정확 소요 시간·추가 수업/보충 완료·학교 처분·즉각 인격 교정"
+  },
+  "reader_question_at_end": "첫 완패 뒤 동갑에게 무시당한 자존심으로 다음 훈련에 남을 것인가",
+  "reader_question_class": "EDITORIAL_INFERENCE_FROM_LOCKED_C1_NOT_NEW_AUTHOR_DECISION",
+  "internal_order": [
+    "T1",
+    "T2"
+  ],
+  "beats": [
+    {
+      "id": "T1",
+      "function_event": "체육관에 남을 명분과 도발에 반응한 자존심 때문에 실제 첫 훈련에 들어간다",
+      "relative_time": "opening B4 제안 뒤. 제안일과 체험일이 같은 날인지 미정",
+      "claims": [
+        {
+          "claim": "주인공은 농구를 좋아해서가 아니라 체육관에 남을 명분과 감독의 도발에 반응한 자존심 때문에 첫 훈련에 들어간다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 1단계 넷째 항목",
+          "protagonist_access": "자신의 참여 행동과 그 동기, 실제 전달받은 제안·도발만 접근",
+          "other_person_access": "비공개 내면·새 발언·행정 판단을 부여하지 않음",
+          "unknown": "수락 발언·도발의 정확한 대사·참여일·조건 확인 절차·실제 수업/보충 이행"
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "function_event": "첫 연습에서 같은 학년 엘리트 라이벌의 기술·판단·위치선정에 완패한다",
+      "relative_time": "T1의 진입 이후 첫 연습에서. 완패와 관계 경계 안의 세부 순서는 미정",
+      "claims": [
+        {
+          "claim": "같은 학년 엘리트 라이벌에게 첫 연습에서 기술·판단·위치선정으로 완패한다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 2단계 첫째 항목",
+          "protagonist_access": "자신이 비교에서 못 한 기술·판단·위치선정의 결과를 관측할 수 있음",
+          "other_person_access": "비공개 내면·새 발언·행정 판단을 부여하지 않음",
+          "unknown": "정확 비교 형식·반복 횟수·점수·실패 동작·팀 구성·소요 시간"
+        },
+        {
+          "claim": "라이벌은 주인공을 화려하게 모욕하지 않고 아직 경쟁자로 취급하지 않는다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_RELATION_BOUNDARY",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 2단계 둘째 항목",
+          "protagonist_access": "코트에서 실제 나타나는 대응만 접근. 상대의 속마음이나 전지적 평가를 주인공 지식으로 복사하지 않음",
+          "other_person_access": "원본의 관계 경계만 보존하며 모욕 대사·칭찬·새 내면을 추가하지 않음",
+          "unknown": "비경쟁자 취급을 외부 행동으로 나타낼 구체 방식·대사"
+        }
+      ]
+    }
+  ],
+  "next_unit": {
+    "beat_id": "C1",
+    "function_event": "동갑에게 무시당한 자존심 때문에 다음 훈련에 남는다",
+    "entry_state": "체육관에 남을 명분과 자존심으로 첫 훈련에 들어갔고 같은 학년 라이벌에게 기술·판단·위치선정으로 완패했다. 다음 훈련에 남는 행동은 이 단위 밖이다.",
+    "is_in_this_function": false,
+    "handoff_to_blueprint": "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json"
+  },
+  "information_access": {
+    "pov_style_direction": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "individual_scene_pov_verified": false,
+    "protagonist_knows": [
+      "자신에게 실제 전달된 제안·조건·도발",
+      "자신이 첫 훈련에 들어간 행동과 동기",
+      "첫 비교에서 자신의 기술·판단·위치선정 수행",
+      "라이벌이 실제 드러낸 외부 대응만"
+    ],
+    "not_available_without_new_access": [
+      "감독·라이벌의 비공개 생각과 평가 문구",
+      "담임·생활지도부의 아직 확인하지 않은 결정",
+      "학교 참여 조건 확인·출결 처리 결과",
+      "뒤의 자발 복귀·첫 유효 리바운드와 팀 기여"
+    ],
+    "exact_date": null,
+    "school_name": null,
+    "training_administrative_permission": null,
+    "school_attendance_or_supplement_execution": null,
+    "school_administrative_disposition": null,
+    "exact_trial_format": null,
+    "exact_actions_scores_or_duration": null
+  },
+  "source_inferences": [
+    {
+      "id": "I1",
+      "claim": "제안된 첫 훈련에 실제 들어가는 행동에는 그 범위의 체험 참여를 택했다는 제한 수락이 함축된다.",
+      "evidence_class": "INFERENCE_NOT_NEW_AUTHOR_DECISION",
+      "basis": [
+        "T1"
+      ],
+      "limit": "말로 수락한 별도 장면·세 조건 모두의 완료·학교 행정 허가의 성공을 뜻하지 않는다. 원본의 참여 사건을 해석할 뿐이다."
+    },
+    {
+      "id": "I2",
+      "claim": "첫 훈련에 실제 들어가 수행한 시간은 체육관에 아무 과제 없이 머무는 시간과 중복 사용할 수 없다.",
+      "evidence_class": "INFERENCE_DIRECT_TIME_COST",
+      "basis": [
+        "T1"
+      ],
+      "limit": "정확 시간과 이미 잡힌 게임·친구 약속을 만들지 않는다."
+    },
+    {
+      "id": "I3",
+      "claim": "첫 비교의 완패는 자신의 운동 반응만으로 기술·판단·위치선정까지 바로 해결하지 못한다는 현재의 부족을 드러낸다.",
+      "evidence_class": "INFERENCE_FROM_LOCKED_DEFEAT",
+      "basis": [
+        "T2"
+      ],
+      "limit": "세부 못 한 동작 목록은 미정이며 라이벌의 봐주기·일부 버팀을 승리로 바꾸지 않는다. 주인공의 완성·재능 인증·새 숙련 상승을 뜻하지 않는다."
+    }
+  ],
+  "school_authority": {
+    "fictional_school_operating_path_selected": true,
+    "operating_path": "design/A01_TRIAL_SCHOOL_OPERATING_PATH_2026_10_07.json",
+    "pre_T1_all_three_conditions_checked_in_model": true,
+    "modeled_condition_check": {
+      "same_day_class_attendance": "SATISFIED_FOR_LIMITED_TRIAL_IN_FICTIONAL_MODEL",
+      "academic_supplement": "SATISFIED_FOR_LIMITED_TRIAL_IN_FICTIONAL_MODEL",
+      "punctuality": "SATISFIED_FOR_LIMITED_TRIAL_IN_FICTIONAL_MODEL"
+    },
+    "first_training_entry_is_locked_story_event": true,
+    "real_school_or_case_records_certified": false,
+    "coach_solo_attendance_or_registration_authority": false,
+    "retroactive_attendance_deletion": false,
+    "official_registration_or_contest_eligibility_certified": false
+  },
+  "unassigned_details": {
+    "school_name": null,
+    "exact_grade": null,
+    "exact_date": null,
+    "offer_day_equals_trial_day": null,
+    "exact_attendance_or_supplement_record": null,
+    "trial_format_or_score": null,
+    "exact_dialogue": null,
+    "rival_private_thought": null,
+    "individual_scene_pov": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_e2_final_episode_function.py": "b9053e69224182f3da87d7afa875ce2ccb07ac71d43d52a69708e02010721c17",
+    "design/A01_E1_FINAL_EPISODE_FUNCTION.json": "ea6d414686e880c290fc226d0f6d8c9776fd8f8d305ec443376fe5235f746200",
+    "design/A01_TRIAL_SCHOOL_OPERATING_PATH_2026_10_07.json": "aa05a48d06f7e746d96d0c020390f5ce57edb776b3c0ad6f63d211312fd7cea6",
+    "design/A01_FIRST_TRIAL_BLUEPRINT.json": "9f36a9339453be7bcd943b70a0db7ff3efe32dabe41d18a9531495f1bca58176",
+    "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json": "6b60b2889b96ad809367107cfe34a62894aed45e1ab232c955f3ff8b532c2639",
+    "design/CP2_ACT_SUBACT_PACKET.json": "716f42966fbdd1ff9bb324945f7b360b20cb55b564b1951d3c8d15bb3bd31f86",
+    "design/A01_OPENING_EPISODE_BOUNDARY.md": "4bc3a4c5693066c5ee6ad7f909f2ed18fc9e85db45fa21e5571f227b370b6043",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80"
+  },
+  "source_semantic_projection_sha256": {
+    "first_trial": "be9dd623fb75b4489a2658602e95e8f91bccb8520cde7451048c2d11e1a05b6b",
+    "first_contribution": "362ef7fccfb99f00cb07b148ac7062cdb768fbb72ad63e1db8e055cef95641b9"
+  },
+  "verification_limits": [
+    "Fictional school operating path establishes a design-level route, not real-school or specific case-record proof.",
+    "All three participation conditions are checked as satisfied in the selected model before T1; exact attendance and supplement records remain unknown.",
+    "T1–T2 are locked story events; precise scene actions, dialogue and individual viewpoint execution remain unverified.",
+    "Two planned slots do not establish published numbering or whole G13 completion."
+  ],
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
