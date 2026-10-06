@@ -16,16 +16,18 @@
 
 **2026-10-07 다섯 번째 기능 후속:** [A01-EF-005](A01_E5_FINAL_EPISODE_FUNCTION.md)까지 국소 기능5·A01잔여31이다. 이전 기능4·잔여32는 PR438 시점 계수다. 첫 경계 비교의 내용과 전역 미완료 판정은 보존한다.
 
+**2026-10-07 여섯 번째 기능 후속:** [A01-EF-006](A01_E6_FINAL_EPISODE_FUNCTION.md)까지 국소 기능6·A01잔여30이다. 이전 기능5·잔여31는 PR439 시점 계수다. 첫 경계 비교 내용과 전역 미완료 판정은 보존한다.
+
 ## 1. 입력과 증거 구분
 
 세 Blueprint는 현재 파일의 `status=ACTUAL_VERIFIED`를 입력으로 읽었다. 이 표시는 정본 국소 핵심 사건에 관한 한정 검증이며, 실제 학교 조건 이행·개별 장면·회차 배치·Context Pack 인증으로 읽지 않는다. 아래 SHA는 이번 편집 판단이 실제 읽은 파일의 지문이다.
 
 | 실제 읽은 원본 | `source_rev_sha256` |
 | --- | --- |
-| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `4a9fb4c90975ac216663cc8eca2032f21c8a282d0ad1e06b50238d76cac35a38` |
-| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `8063527d95c50f4ea527c6ffb067f5d13829df6d3503c323631ab5d0825b76ca` |
-| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `3d7c2bae7c7d8bf2fc0ee04db3ed3d060b53266958c86755373847e0de56c59d` |
-| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `964d56fa47f1c26f5edf6336e8b9f1e37770ce7a68332888c9b896dd6253ad92` |
+| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `b7224f28d525a1b341bd63a9fff6d886b49fde8d1784c9bf6438b665d1b40498` |
+| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `57ac4c5b6679f49d5e8c17c51d0bd4e2ee6d78a6f12bc7fbfb1c0986b91f4fbc` |
+| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `7640ddca516de9b7f69385052a7320234df564cd25565adb3455f2e7fad38a83` |
+| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `050d7d809258ba45601e7d4d1263296a935b5632fb4128c68fcd0313af8f1edc` |
 | [canon/STORY_BIBLE.md](../canon/STORY_BIBLE.md) | `9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be` |
 | [canon/CHARACTER_RESPONSIBILITY_ARC.md](../canon/CHARACTER_RESPONSIBILITY_ARC.md) | `6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb` |
 

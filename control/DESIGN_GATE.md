@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-07 [E6 게임·준비 선택 검문](../reviews/A01_E6_GAME_PRIORITY_REVIEW_2026_10_07.md): PC방에서 한 판 더 할 수 있어도 이번 한 번 맡은 공 준비를 먼저 하는 기존 방향의 일상설계를 국소 검문하여 A01-EF-006/slot6로 배정했다. E5 전체출구→G1 새판 유혹→G2 새판을 시작하지 않고 허용 준비 수행→미실행 CF10 인계가 연결된다. 게임을 계속 좋아하며 생활전체개선·게임금지·실제보상·미국행 수락을 인증하지 않는다. 최종기능6/A01잔여30/전체780계획 중 미배정774·실제Pack0·원고0. 법적11PASS/1HOLD·F4/5·A0/3·K0/4·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
+
 2026-10-07 [E5 공동 준비 기능 검문](../reviews/A01_E5_TEAM_PREPARATION_REVIEW_2026_10_07.md): 감독이 맡긴 공 준비 몫을 다음 허용 기회에 수행하는 기존 방향의 일상설계를 국소 검문하여 A01-EF-005/slot5로 배정했다. E4 전체출구→P1 한 동료의 준비부담 관측→P2 자기 몫 수행·동료 잔여몫 관측→미실행 CF09 인계가 연결된다. 두 기회 각각 학교 세조건을 재확인하는 가상 설계이며 실제학교기록·팀전원신뢰·생활전체개선·게임충돌 해결을 인증하지 않는다. 최종기능5/A01잔여31/전체780계획 중 미배정775·실제Pack0·원고0. 법적11PASS/1HOLD·F4/5·A0/3·K0/4·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
 
 2026-10-07 [E4 학습 기능·GSW 후보 범위 검문](../reviews/A01_E4_AND_GSW_OPERATING_REVIEW_2026_10_07.md): 기존 학습 방향을 구현하는 좁은 박스아웃 일상설계 L1/L2를 선택·검문하여 A01-EF-004/slot4로 배정했다. 새일상설계와 작가잠금을 구분하고 C2 기여에 결함을 소급하지 않는다. 가시적 첫 위치부족→두 접근 중 상대확인 우선 재시도만, 숙련/승패/CF08 수행0. 새FIBA공식문서1·원2쪽 NLM분석41.528초·Claude새결과물 반증30.361초·AG JSON/schema 본문답26.705초 회수를 각각 기록하고 원문/의미변조를 대조했다. 최종기능4/A01잔여32/전체780계획 중 미배정776·실제Pack0·원고0. GSW 원후보3의 개막16명 반례·옵션전제·날짜출처를 수리했으며 정확거래/금융선택·전체하드캡은 미완이다. 법적11PASS/1HOLD·F4/5·A0/3·K0/4·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
@@ -93,7 +95,7 @@ last_reviewed: 2026-09-12
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_5 / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_6 / FINAL_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
