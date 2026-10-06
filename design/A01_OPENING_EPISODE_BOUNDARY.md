@@ -20,16 +20,18 @@
 
 **2026-10-07 일곱 번째 기능 후속:** [A01-EF-007](A01_E7_FINAL_EPISODE_FUNCTION.md)까지 국소 기능7·A01잔여29이다. 이전 기능6·잔여30은 PR440 시점 계수다. 첫 경계 비교 내용과 전역 미완료 판정은 보존한다.
 
+**2026-10-07 여덟·아홉 번째 기능 후속:** [A01-EF-008](A01_E8_FINAL_EPISODE_FUNCTION.md)·[A01-EF-009](A01_E9_FINAL_EPISODE_FUNCTION.md)까지 국소 기능9·A01잔여27이다. 이전 기능7·잔여29는 PR441 시점 계수다. 첫 경계 비교 내용과 전역 미완료 판정은 보존한다.
+
 ## 1. 입력과 증거 구분
 
 세 Blueprint는 현재 파일의 `status=ACTUAL_VERIFIED`를 입력으로 읽었다. 이 표시는 정본 국소 핵심 사건에 관한 한정 검증이며, 실제 학교 조건 이행·개별 장면·회차 배치·Context Pack 인증으로 읽지 않는다. 아래 SHA는 이번 편집 판단이 실제 읽은 파일의 지문이다.
 
 | 실제 읽은 원본 | `source_rev_sha256` |
 | --- | --- |
-| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `ccafb40922e8d2b4b61604b7c7b6d6c8325d37af01dcee79c903734dd3c670da` |
-| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `b8b8e1b3bebb23dbba63eca7c4ebf4e012c4ecca584ebf41569cc9cc107722fc` |
-| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `74863e0d07977a1eb96c98d7441db4378d3281daa6fd3892988053275bba8b9f` |
-| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `c302ca26b6890e196e3e9a75daffa6a5abdfed450facef1217318d8a7bb0b00c` |
+| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `d97732868e5d6dc9d6fe2b7d3266bd1157f8eecfe32e9dd08cfe12726fca143d` |
+| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `ba57553896db1613f6dde08b4b4725feb4d750014eaf71e09ee4df1338364bd1` |
+| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `07d406c47a8df472dbe10c52f59131b7dda61d92776ecdce7bed53a4612de66a` |
+| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `476085a2e2902faf9f1fc9c06be7d523981c5cf66477a8c5b378142c062428d2` |
 | [canon/STORY_BIBLE.md](../canon/STORY_BIBLE.md) | `9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be` |
 | [canon/CHARACTER_RESPONSIBILITY_ARC.md](../canon/CHARACTER_RESPONSIBILITY_ARC.md) | `6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb` |
 

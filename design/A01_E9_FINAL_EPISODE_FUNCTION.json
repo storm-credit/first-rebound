@@ -1,0 +1,254 @@
+{
+  "schema": "A01_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A01-EF-009",
+  "act": "A01",
+  "primary_subact": "A01-S3",
+  "source_conditional_function": "A01-CF12",
+  "final_function_order": 9,
+  "planned_allocation_slot": 9,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "prior_function_slots": 8,
+    "this_function_slots": 1,
+    "assigned_function_slots_through_this": 9,
+    "remaining_planned_slots": 27,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "local_contiguous_functions_through_this": 9,
+  "previous_function": {
+    "id": "A01-EF-008",
+    "path": "design/A01_E8_FINAL_EPISODE_FUNCTION.json",
+    "exit_state": "주인공은 국내 학교에 스스로 확인·요청할 출결·이수 기록 범주와 가상 프렙의 권한 있는 답이 필요한 입학·학점 인정 질문을 구분했다. 실제 기록 발급·조건 충족·학교 수락은 아직 확인되지 않았다."
+  },
+  "local_blueprint": {
+    "schema": "A01_CF12_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_LOCAL_ROUTINE_DESIGN_ONLY_NOT_AUTHOR_LOCK_OR_FULL_G13",
+    "source_currentness": "Reviewed CF12 move intent and E8 full exit validated against current source files",
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a01_e9_final_episode_function.py": "76def9fa4497dc3a2aad12b0343d249ee7ee64408b2f75f0c29509416ef82a36",
+      "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json": "1024b8ad04a1fb6c74d07c6c885fe1b2a1926274005aa258f49f559399768556",
+      "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "f2b62be5b00d8c07f3d3c06426f16ffbfa0547b6d222df8893c56b802df012c1",
+      "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+      "design/CP2_ACT_SUBACT_PACKET.json": "476085a2e2902faf9f1fc9c06be7d523981c5cf66477a8c5b378142c062428d2",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+      "canon/PROJECT_FREEZE.md": "0506a4b62e2c1815f6a81c1748bb481a9ee3e07ce1453b27ed5f5b2a25cd6373",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "entry_state": "주인공은 국내 학교에 스스로 확인·요청할 출결·이수 기록 범주와 가상 프렙의 권한 있는 답이 필요한 입학·학점 인정 질문을 구분했다. 실제 기록 발급·조건 충족·학교 수락은 아직 확인되지 않았다.",
+    "single_function": "답이 남은 학업·이동 조건을 숨기지 않고 기존 미국 프렙 방향을 자기 의사로 선택해 준비를 계속한다",
+    "unit_choice": "미답 조건을 보존한 채 기존 가상 프렙 이동 방향을 준비할 의사를 정하고 한국 감독에게 전한다",
+    "exit_state": "주인공은 답이 남은 국내 기록·프렙 입학·학점 질문을 보존한 채 기존 가상 뉴잉글랜드 프렙 이동 방향의 준비를 계속하겠다고 직접 밝혔다. 실제 승인·이동은 아직 이 기능에서 실행되지 않았고 기술·학업·생활 과제는 남아 있다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "D1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "E8에서 남긴 국내 기록 확인 항목과 미국 프렙 권한자의 미답 질문을 다시 보고, 익숙한 국내 경쟁에만 남는 선택 대신 이미 정해진 가상 프렙 방향을 계속 준비하기로 정한다",
+        "observable_result": "답이 없는 항목을 지우지 않고 자기 선택과 행정 결과를 구분한 준비 목록을 유지한다",
+        "choice_options": [
+          "익숙한 한국 팀·동갑 승부 안에 남는 편한 방향을 택한다",
+          "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다"
+        ],
+        "selected_choice": "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다",
+        "not_claimed": "미국 프렙 합격·보호자 동의·학점 인정·주전 보장·국내 관계 단절",
+        "protagonist_access": "자신의 E8 미답 목록·현재 선택·감독에게 전한 자기 의사에 한정",
+        "source_path": "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json",
+        "source_step": "D1",
+        "author_locked": false
+      },
+      {
+        "id": "D2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "기존 한국 고교 감독에게 자신이 가상 프렙 이동 방향의 준비를 계속하겠다는 의사를 전한다",
+        "observable_result": "주인공이 자기 의사를 말한 사실만 남고, 감독은 입학이나 학사 조건을 승인하지 않는다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "감독의 실제 미국학교 권한·미국 프렙 제안·가족과 학교의 수락·출국",
+        "protagonist_access": "자신의 E8 미답 목록·현재 선택·감독에게 전한 자기 의사에 한정",
+        "source_path": "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json",
+        "source_step": "D2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "E8 full exit < D1 intent with open conditions < D2 statement to existing Korean coach < 2016-03 transfer window"
+    ],
+    "direct_present_cost": "익숙한 국내 신체 우위와 관계 안에만 남는 쉬운 선택을 내려놓고, 미답인 학업·이동 준비를 자기 몫으로 계속 감당하기로 한다.",
+    "existing_locked_route": "한국 고1 뒤 2016년 3월 가상 뉴잉글랜드 소규모 보딩 프렙 편입 방향",
+    "relative_time_window": {
+      "after_E8_exit": true,
+      "before_locked_2016_03_prep_move": true,
+      "exact_date_or_semester_position": null
+    },
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "자신의 이동 의사",
+        "자신이 보존한 준비·미답 목록",
+        "감독에게 의사를 전한 자신의 행동"
+      ],
+      "not_available_without_access": [
+        "감독의 비공개 평가",
+        "미국 프렙의 입학 판단",
+        "보호자 속마음과 재정 선택",
+        "향후 미국팀 역할"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "institutional_limits": {
+      "Korean_coach_can_approve_prep_admission_or_credit": false,
+      "actual_US_prep_admission_or_enrollment_certified": false,
+      "guardian_consent_or_finance_selected": false,
+      "credit_audit_or_visa_certified": false,
+      "actual_departure_or_A02_arrival_certified": false,
+      "familiar_Korean_relationship_severed_certified": false
+    },
+    "unassigned_details": {
+      "fictional_prep_name": null,
+      "Korean_coach_identity_or_exact_reply": null,
+      "family_consent_or_financing": null,
+      "actual_acceptance_or_enrollment_record": null,
+      "individual_credit_conversion": null,
+      "visa_or_departure_day": null,
+      "A02_first_scene": null
+    },
+    "S2_whole_completion_certified": false,
+    "S3_full_entry_or_exit_certified": false,
+    "actual_prep_admission_or_departure_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "답이 남은 학업·이동 조건을 숨기지 않고 기존 미국 프렙 방향을 자기 의사로 선택해 준비를 계속한다",
+  "entry_state": "주인공은 국내 학교에 스스로 확인·요청할 출결·이수 기록 범주와 가상 프렙의 권한 있는 답이 필요한 입학·학점 인정 질문을 구분했다. 실제 기록 발급·조건 충족·학교 수락은 아직 확인되지 않았다.",
+  "unit_choice": "미답 조건을 보존한 채 기존 가상 프렙 이동 방향을 준비할 의사를 정하고 한국 감독에게 전한다",
+  "exit_state": "주인공은 답이 남은 국내 기록·프렙 입학·학점 질문을 보존한 채 기존 가상 뉴잉글랜드 프렙 이동 방향의 준비를 계속하겠다고 직접 밝혔다. 실제 승인·이동은 아직 이 기능에서 실행되지 않았고 기술·학업·생활 과제는 남아 있다.",
+  "direct_present_cost": "익숙한 국내 신체 우위와 관계 안에만 남는 쉬운 선택을 내려놓고, 미답인 학업·이동 준비를 자기 몫으로 계속 감당하기로 한다.",
+  "reader_question_at_end": "답이 남은 조건과 낯선 경쟁 속에서 실제로 자기 몫을 감당할 수 있는가",
+  "internal_order": [
+    "D1",
+    "D2"
+  ],
+  "beats": [
+    {
+      "id": "D1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "E8에서 남긴 국내 기록 확인 항목과 미국 프렙 권한자의 미답 질문을 다시 보고, 익숙한 국내 경쟁에만 남는 선택 대신 이미 정해진 가상 프렙 방향을 계속 준비하기로 정한다",
+      "observable_result": "답이 없는 항목을 지우지 않고 자기 선택과 행정 결과를 구분한 준비 목록을 유지한다",
+      "choice_options": [
+        "익숙한 한국 팀·동갑 승부 안에 남는 편한 방향을 택한다",
+        "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다"
+      ],
+      "selected_choice": "미답 조건을 표시한 채 기존 가상 프렙 이동 방향의 준비를 계속한다",
+      "not_claimed": "미국 프렙 합격·보호자 동의·학점 인정·주전 보장·국내 관계 단절",
+      "protagonist_access": "자신의 E8 미답 목록·현재 선택·감독에게 전한 자기 의사에 한정",
+      "source_path": "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json",
+      "source_step": "D1",
+      "author_locked": false
+    },
+    {
+      "id": "D2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "기존 한국 고교 감독에게 자신이 가상 프렙 이동 방향의 준비를 계속하겠다는 의사를 전한다",
+      "observable_result": "주인공이 자기 의사를 말한 사실만 남고, 감독은 입학이나 학사 조건을 승인하지 않는다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "감독의 실제 미국학교 권한·미국 프렙 제안·가족과 학교의 수락·출국",
+      "protagonist_access": "자신의 E8 미답 목록·현재 선택·감독에게 전한 자기 의사에 한정",
+      "source_path": "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json",
+      "source_step": "D2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A02-S1",
+    "candidate_status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+    "candidate_window": "2016.03–2017.06",
+    "candidate_entry_non_authoritative_summary": "생활 영어를 학업 자격과 혼동",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "주인공은 답이 남은 국내 기록·프렙 입학·학점 질문을 보존한 채 기존 가상 뉴잉글랜드 프렙 이동 방향의 준비를 계속하겠다고 직접 밝혔다. 실제 승인·이동은 아직 이 기능에서 실행되지 않았고 기술·학업·생활 과제는 남아 있다.",
+    "candidate_is_executed_here": false,
+    "candidate_is_final_episode_function": false,
+    "prep_arrival_and_academic_conditions_resolved": false
+  },
+  "existing_locked_route": "한국 고1 뒤 2016년 3월 가상 뉴잉글랜드 소규모 보딩 프렙 편입 방향",
+  "relative_time_window": {
+    "after_E8_exit": true,
+    "before_locked_2016_03_prep_move": true,
+    "exact_date_or_semester_position": null
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "자신의 이동 의사",
+      "자신이 보존한 준비·미답 목록",
+      "감독에게 의사를 전한 자신의 행동"
+    ],
+    "not_available_without_access": [
+      "감독의 비공개 평가",
+      "미국 프렙의 입학 판단",
+      "보호자 속마음과 재정 선택",
+      "향후 미국팀 역할"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "institutional_limits": {
+    "Korean_coach_can_approve_prep_admission_or_credit": false,
+    "actual_US_prep_admission_or_enrollment_certified": false,
+    "guardian_consent_or_finance_selected": false,
+    "credit_audit_or_visa_certified": false,
+    "actual_departure_or_A02_arrival_certified": false,
+    "familiar_Korean_relationship_severed_certified": false
+  },
+  "unassigned_details": {
+    "fictional_prep_name": null,
+    "Korean_coach_identity_or_exact_reply": null,
+    "family_consent_or_financing": null,
+    "actual_acceptance_or_enrollment_record": null,
+    "individual_credit_conversion": null,
+    "visa_or_departure_day": null,
+    "A02_first_scene": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_e9_final_episode_function.py": "76def9fa4497dc3a2aad12b0343d249ee7ee64408b2f75f0c29509416ef82a36",
+    "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json": "1024b8ad04a1fb6c74d07c6c885fe1b2a1926274005aa258f49f559399768556",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "f2b62be5b00d8c07f3d3c06426f16ffbfa0547b6d222df8893c56b802df012c1",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/CP2_ACT_SUBACT_PACKET.json": "476085a2e2902faf9f1fc9c06be7d523981c5cf66477a8c5b378142c062428d2",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "canon/PROJECT_FREEZE.md": "0506a4b62e2c1815f6a81c1748bb481a9ee3e07ce1453b27ed5f5b2a25cd6373",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED only means this local Blueprint matches reviewed intent design and current sources.",
+    "The March 2016 fictional prep move direction was previously author locked; this unit adds only the protagonist intent.",
+    "The Korean coach receives intent without prep admissions, credit, guardian, visa or departure authority.",
+    "E8 open questions persist; A02 school arrival and academic conditions are not certified here.",
+    "S2 whole completion and S3 full entry/exit remain unverified despite this local function."
+  ],
+  "prior_S2_whole_completion_certified": false,
+  "S3_full_entry_or_exit_certified": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
