@@ -1,0 +1,1897 @@
+{
+  "status": "SIX_L2_DATED_MINUTE_AVAILABILITY_MODELS_APPLIED_TACTICAL_ROSTER_HOLD",
+  "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+  "source_sha256": {
+    "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json": "abf099ad6fc26df0b922c25abd71945c41066e4800eb1eb3fbd676a460661fd6",
+    "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json": "6dba9c39d125be317fa4030980621c5383dc31e38cd7c93c9c6b143111950ee9",
+    "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json": "27fb630174fb39653738a19e51f0a8d6c969c6397505284e794a7383f6030c99",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "tools/build_2021_l2_working_minutes.py": "dad45a5eddc877955b8e80e1679c10385f55027877be88ef780b2423a2c369a7",
+    "tools/build_2020_21_regular_clock_completion.py": "4787b42e3ac9beb8bbdf08cc42c5a37d3dbb516582261852405c8cbe32a4a096"
+  },
+  "health_anchor": {
+    "url": "https://www.nba.com/news/pacers-swingman-caris-levert-to-miss-play-in-game-vs-hornets",
+    "inspection_utc": "2026-10-06",
+    "page_lines": [
+      153,
+      158,
+      164
+    ],
+    "fact": "NBA 보도: 2021-05-18 LeVert 건강·안전 절차 결장.",
+    "application": "5/18 BOS전 및5/20 CHI전 지속은 새 작가 모델; 원역사 상대·실제 결과를 옮기지 않는다.",
+    "complete_body_cached": false,
+    "new_independent_historical_source": false
+  },
+  "games": [
+    {
+      "event_id": "2021-05-18_BOS_IND",
+      "date": "2021-05-18",
+      "home": "BOS",
+      "away": "IND",
+      "selected_winner": "BOS",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "BOS": {
+          "player_seconds": {
+            "Kemba Walker": 2160,
+            "Marcus Smart": 2160,
+            "Evan Fournier": 2160,
+            "Jayson Tatum": 2160,
+            "Tristan Thompson": 2160,
+            "Payton Pritchard": 1440,
+            "Romeo Langford": 1440,
+            "Robert Williams III": 720
+          },
+          "starters": [
+            "Kemba Walker",
+            "Marcus Smart",
+            "Evan Fournier",
+            "Jayson Tatum",
+            "Tristan Thompson"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Kemba Walker",
+                "Marcus Smart",
+                "Evan Fournier",
+                "Jayson Tatum",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Payton Pritchard",
+                "Marcus Smart",
+                "Romeo Langford",
+                "Jayson Tatum",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Kemba Walker",
+                "Payton Pritchard",
+                "Evan Fournier",
+                "Romeo Langford",
+                "Robert Williams III"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Kemba Walker",
+                "Marcus Smart",
+                "Evan Fournier",
+                "Jayson Tatum",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Kemba Walker",
+                "Marcus Smart",
+                "Evan Fournier",
+                "Jayson Tatum",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Payton Pritchard",
+                "Marcus Smart",
+                "Romeo Langford",
+                "Jayson Tatum",
+                "Robert Williams III"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Kemba Walker",
+                "Payton Pritchard",
+                "Evan Fournier",
+                "Romeo Langford",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Kemba Walker",
+                "Marcus Smart",
+                "Evan Fournier",
+                "Jayson Tatum",
+                "Tristan Thompson"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [
+            "Jaylen Brown"
+          ],
+          "zero_health": {
+            "Grant Williams": null,
+            "Aaron Nesmith": null,
+            "Semi Ojeleye": null,
+            "Carsen Edwards": null,
+            "Luke Kornet": null,
+            "Jabari Parker": null,
+            "Tacko Fall": null,
+            "Tremont Waters": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "E2",
+            "game": 1,
+            "team": "BOS"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Evan Fournier",
+            "Jayson Tatum",
+            "Kemba Walker",
+            "Marcus Smart",
+            "Payton Pritchard",
+            "Robert Williams III",
+            "Romeo Langford",
+            "Tristan Thompson"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "IND": {
+          "player_seconds": {
+            "Malcolm Brogdon": 2160,
+            "Justin Holiday": 2160,
+            "Doug McDermott": 2160,
+            "Oshae Brissett": 2160,
+            "Domantas Sabonis": 2160,
+            "T.J. McConnell": 1440,
+            "Edmond Sumner": 1440,
+            "Goga Bitadze": 720
+          },
+          "starters": [
+            "Malcolm Brogdon",
+            "Justin Holiday",
+            "Doug McDermott",
+            "Oshae Brissett",
+            "Domantas Sabonis"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "T.J. McConnell",
+                "Justin Holiday",
+                "Edmond Sumner",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "T.J. McConnell",
+                "Doug McDermott",
+                "Edmond Sumner",
+                "Goga Bitadze"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "T.J. McConnell",
+                "Justin Holiday",
+                "Edmond Sumner",
+                "Oshae Brissett",
+                "Goga Bitadze"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "T.J. McConnell",
+                "Doug McDermott",
+                "Edmond Sumner",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [
+            "Caris LeVert",
+            "Myles Turner",
+            "T.J. Warren",
+            "Jeremy Lamb"
+          ],
+          "zero_health": {
+            "Aaron Holiday": null,
+            "JaKarr Sampson": null,
+            "Kelan Martin": null,
+            "Cassius Stanley": null,
+            "Amida Brimah": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "E1",
+            "game": 1,
+            "team": "IND"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Domantas Sabonis",
+            "Doug McDermott",
+            "Edmond Sumner",
+            "Goga Bitadze",
+            "Justin Holiday",
+            "Malcolm Brogdon",
+            "Oshae Brissett",
+            "T.J. McConnell"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    },
+    {
+      "event_id": "2021-05-18_WAS_CHI",
+      "date": "2021-05-18",
+      "home": "WAS",
+      "away": "CHI",
+      "selected_winner": "CHI",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "WAS": {
+          "player_seconds": {
+            "Alex Len": 280,
+            "Anthony Gill": 417,
+            "Bradley Beal": 2077,
+            "Daniel Gafford": 985,
+            "Davis Bertans": 735,
+            "Gary Trent Jr.": 1440,
+            "Ish Smith": 1923,
+            "Robin Lopez": 1591,
+            "Rui Hachimura": 2061,
+            "Russell Westbrook": 2411,
+            "Troy Brown Jr.": 480
+          },
+          "starters": [
+            "Alex Len",
+            "Bradley Beal",
+            "Davis Bertans",
+            "Rui Hachimura",
+            "Russell Westbrook"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Bradley Beal",
+                "Ish Smith",
+                "Robin Lopez",
+                "Rui Hachimura",
+                "Russell Westbrook"
+              ],
+              "seconds": 1440.0
+            },
+            {
+              "players": [
+                "Bradley Beal",
+                "Daniel Gafford",
+                "Davis Bertans",
+                "Gary Trent Jr.",
+                "Russell Westbrook"
+              ],
+              "seconds": 637.0
+            },
+            {
+              "players": [
+                "Anthony Gill",
+                "Gary Trent Jr.",
+                "Ish Smith",
+                "Rui Hachimura",
+                "Troy Brown Jr."
+              ],
+              "seconds": 417.0
+            },
+            {
+              "players": [
+                "Alex Len",
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Rui Hachimura",
+                "Russell Westbrook"
+              ],
+              "seconds": 204.0
+            },
+            {
+              "players": [
+                "Daniel Gafford",
+                "Davis Bertans",
+                "Gary Trent Jr.",
+                "Robin Lopez",
+                "Russell Westbrook"
+              ],
+              "seconds": 98.0
+            },
+            {
+              "players": [
+                "Alex Len",
+                "Gary Trent Jr.",
+                "Ish Smith",
+                "Robin Lopez",
+                "Troy Brown Jr."
+              ],
+              "seconds": 38.0
+            },
+            {
+              "players": [
+                "Alex Len",
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Ish Smith",
+                "Russell Westbrook"
+              ],
+              "seconds": 21.0
+            },
+            {
+              "players": [
+                "Alex Len",
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Robin Lopez",
+                "Troy Brown Jr."
+              ],
+              "seconds": 14.0
+            },
+            {
+              "players": [
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Ish Smith",
+                "Russell Westbrook",
+                "Troy Brown Jr."
+              ],
+              "seconds": 7.0
+            },
+            {
+              "players": [
+                "Alex Len",
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Russell Westbrook",
+                "Troy Brown Jr."
+              ],
+              "seconds": 3.0
+            },
+            {
+              "players": [
+                "Daniel Gafford",
+                "Gary Trent Jr.",
+                "Robin Lopez",
+                "Russell Westbrook",
+                "Troy Brown Jr."
+              ],
+              "seconds": 1.0
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-16_WAS_CHA",
+            "team": "WAS"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "Alex Len",
+            "Anthony Gill",
+            "Bradley Beal",
+            "Daniel Gafford",
+            "Davis Bertans",
+            "Gary Trent Jr.",
+            "Ish Smith",
+            "Robin Lopez",
+            "Rui Hachimura",
+            "Russell Westbrook",
+            "Troy Brown Jr."
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "CHI": {
+          "player_seconds": {
+            "Coby White": 1200.0,
+            "Garrett Temple": 1531.0,
+            "Javonte Green": 752.0,
+            "LaMelo Ball": 1680.0,
+            "Lauri Markkanen": 1519.0,
+            "Protagonist": 1800.0,
+            "Thaddeus Young": 1685.0,
+            "Tomas Satoransky": 600.0,
+            "Wendell Carter Jr.": 1560.0,
+            "Zach LaVine": 2073.0
+          },
+          "starters": [
+            "LaMelo Ball",
+            "Protagonist",
+            "Thaddeus Young",
+            "Wendell Carter Jr.",
+            "Zach LaVine"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Coby White",
+                "Garrett Temple",
+                "LaMelo Ball",
+                "Thaddeus Young",
+                "Zach LaVine"
+              ],
+              "seconds": 52.6
+            },
+            {
+              "players": [
+                "Coby White",
+                "Garrett Temple",
+                "Protagonist",
+                "Thaddeus Young",
+                "Zach LaVine"
+              ],
+              "seconds": 618.8
+            },
+            {
+              "players": [
+                "Coby White",
+                "Javonte Green",
+                "LaMelo Ball",
+                "Lauri Markkanen",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 478.0
+            },
+            {
+              "players": [
+                "Coby White",
+                "LaMelo Ball",
+                "Protagonist",
+                "Tomas Satoransky",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 50.6
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "Javonte Green",
+                "LaMelo Ball",
+                "Protagonist",
+                "Thaddeus Young"
+              ],
+              "seconds": 188.8
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "LaMelo Ball",
+                "Thaddeus Young",
+                "Tomas Satoransky",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 89.6
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "Lauri Markkanen",
+                "Protagonist",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 581.2
+            },
+            {
+              "players": [
+                "Javonte Green",
+                "LaMelo Ball",
+                "Protagonist",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 85.2
+            },
+            {
+              "players": [
+                "LaMelo Ball",
+                "Lauri Markkanen",
+                "Thaddeus Young",
+                "Tomas Satoransky",
+                "Zach LaVine"
+              ],
+              "seconds": 459.8
+            },
+            {
+              "players": [
+                "LaMelo Ball",
+                "Protagonist",
+                "Thaddeus Young",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 275.4
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-13_CHI_TOR",
+            "team": "CHI"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "Coby White",
+            "Garrett Temple",
+            "Javonte Green",
+            "LaMelo Ball",
+            "Lauri Markkanen",
+            "Protagonist",
+            "Thaddeus Young",
+            "Tomas Satoransky",
+            "Wendell Carter Jr.",
+            "Zach LaVine"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Use nearest final-week full-core donor; select LaVine available again and do not import Charlotte LaMelo wrist contact.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    },
+    {
+      "event_id": "2021-05-20_IND_CHI",
+      "date": "2021-05-20",
+      "home": "IND",
+      "away": "CHI",
+      "selected_winner": "IND",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "IND": {
+          "player_seconds": {
+            "Malcolm Brogdon": 2160,
+            "Justin Holiday": 2160,
+            "Doug McDermott": 2160,
+            "Oshae Brissett": 2160,
+            "Domantas Sabonis": 2160,
+            "T.J. McConnell": 1440,
+            "Edmond Sumner": 1440,
+            "Goga Bitadze": 720
+          },
+          "starters": [
+            "Malcolm Brogdon",
+            "Justin Holiday",
+            "Doug McDermott",
+            "Oshae Brissett",
+            "Domantas Sabonis"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "T.J. McConnell",
+                "Justin Holiday",
+                "Edmond Sumner",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "T.J. McConnell",
+                "Doug McDermott",
+                "Edmond Sumner",
+                "Goga Bitadze"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "T.J. McConnell",
+                "Justin Holiday",
+                "Edmond Sumner",
+                "Oshae Brissett",
+                "Goga Bitadze"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "T.J. McConnell",
+                "Doug McDermott",
+                "Edmond Sumner",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Malcolm Brogdon",
+                "Justin Holiday",
+                "Doug McDermott",
+                "Oshae Brissett",
+                "Domantas Sabonis"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [
+            "Caris LeVert",
+            "Myles Turner",
+            "T.J. Warren",
+            "Jeremy Lamb"
+          ],
+          "zero_health": {
+            "Aaron Holiday": null,
+            "JaKarr Sampson": null,
+            "Kelan Martin": null,
+            "Cassius Stanley": null,
+            "Amida Brimah": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "E1",
+            "game": 1,
+            "team": "IND"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Domantas Sabonis",
+            "Doug McDermott",
+            "Edmond Sumner",
+            "Goga Bitadze",
+            "Justin Holiday",
+            "Malcolm Brogdon",
+            "Oshae Brissett",
+            "T.J. McConnell"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "CHI": {
+          "player_seconds": {
+            "Coby White": 1200.0,
+            "Garrett Temple": 1531.0,
+            "Javonte Green": 752.0,
+            "LaMelo Ball": 1680.0,
+            "Lauri Markkanen": 1519.0,
+            "Protagonist": 1800.0,
+            "Thaddeus Young": 1685.0,
+            "Tomas Satoransky": 600.0,
+            "Wendell Carter Jr.": 1560.0,
+            "Zach LaVine": 2073.0
+          },
+          "starters": [
+            "LaMelo Ball",
+            "Protagonist",
+            "Thaddeus Young",
+            "Wendell Carter Jr.",
+            "Zach LaVine"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Coby White",
+                "Garrett Temple",
+                "LaMelo Ball",
+                "Thaddeus Young",
+                "Zach LaVine"
+              ],
+              "seconds": 52.6
+            },
+            {
+              "players": [
+                "Coby White",
+                "Garrett Temple",
+                "Protagonist",
+                "Thaddeus Young",
+                "Zach LaVine"
+              ],
+              "seconds": 618.8
+            },
+            {
+              "players": [
+                "Coby White",
+                "Javonte Green",
+                "LaMelo Ball",
+                "Lauri Markkanen",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 478.0
+            },
+            {
+              "players": [
+                "Coby White",
+                "LaMelo Ball",
+                "Protagonist",
+                "Tomas Satoransky",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 50.6
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "Javonte Green",
+                "LaMelo Ball",
+                "Protagonist",
+                "Thaddeus Young"
+              ],
+              "seconds": 188.8
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "LaMelo Ball",
+                "Thaddeus Young",
+                "Tomas Satoransky",
+                "Wendell Carter Jr."
+              ],
+              "seconds": 89.6
+            },
+            {
+              "players": [
+                "Garrett Temple",
+                "Lauri Markkanen",
+                "Protagonist",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 581.2
+            },
+            {
+              "players": [
+                "Javonte Green",
+                "LaMelo Ball",
+                "Protagonist",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 85.2
+            },
+            {
+              "players": [
+                "LaMelo Ball",
+                "Lauri Markkanen",
+                "Thaddeus Young",
+                "Tomas Satoransky",
+                "Zach LaVine"
+              ],
+              "seconds": 459.8
+            },
+            {
+              "players": [
+                "LaMelo Ball",
+                "Protagonist",
+                "Thaddeus Young",
+                "Wendell Carter Jr.",
+                "Zach LaVine"
+              ],
+              "seconds": 275.4
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-13_CHI_TOR",
+            "team": "CHI"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "Coby White",
+            "Garrett Temple",
+            "Javonte Green",
+            "LaMelo Ball",
+            "Lauri Markkanen",
+            "Protagonist",
+            "Thaddeus Young",
+            "Tomas Satoransky",
+            "Wendell Carter Jr.",
+            "Zach LaVine"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Use nearest final-week full-core donor; select LaVine available again and do not import Charlotte LaMelo wrist contact.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    },
+    {
+      "event_id": "2021-05-19_POR_GSW",
+      "date": "2021-05-19",
+      "home": "POR",
+      "away": "GSW",
+      "selected_winner": "POR",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "POR": {
+          "player_seconds": {
+            "Damian Lillard": 2160,
+            "CJ McCollum": 2160,
+            "Rodney Hood": 1440,
+            "Robert Covington": 1800,
+            "Jusuf Nurkic": 1800,
+            "Anfernee Simons": 720,
+            "Derrick Jones Jr.": 720,
+            "Enes Kanter": 1080,
+            "Jacob Evans": 720,
+            "Nassir Little": 720,
+            "Carmelo Anthony": 1080
+          },
+          "starters": [
+            "Damian Lillard",
+            "CJ McCollum",
+            "Rodney Hood",
+            "Robert Covington",
+            "Jusuf Nurkic"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Damian Lillard",
+                "CJ McCollum",
+                "Rodney Hood",
+                "Robert Covington",
+                "Jusuf Nurkic"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Damian Lillard",
+                "Anfernee Simons",
+                "Derrick Jones Jr.",
+                "Robert Covington",
+                "Enes Kanter"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "CJ McCollum",
+                "Jacob Evans",
+                "Nassir Little",
+                "Carmelo Anthony",
+                "Enes Kanter"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Damian Lillard",
+                "CJ McCollum",
+                "Rodney Hood",
+                "Carmelo Anthony",
+                "Jusuf Nurkic"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Damian Lillard",
+                "CJ McCollum",
+                "Rodney Hood",
+                "Robert Covington",
+                "Jusuf Nurkic"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Anfernee Simons",
+                "Jacob Evans",
+                "Derrick Jones Jr.",
+                "Nassir Little",
+                "Enes Kanter"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Damian Lillard",
+                "CJ McCollum",
+                "Carmelo Anthony",
+                "Robert Covington",
+                "Jusuf Nurkic"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Damian Lillard",
+                "CJ McCollum",
+                "Rodney Hood",
+                "Robert Covington",
+                "Jusuf Nurkic"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [
+            "Zach Collins"
+          ],
+          "zero_health": {
+            "CJ Elleby": null,
+            "Harry Giles III": null,
+            "Rondae Hollis-Jefferson": null,
+            "Keljin Blevins": null,
+            "T.J. Leaf": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "W2",
+            "game": 1,
+            "team": "POR"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Anfernee Simons",
+            "CJ McCollum",
+            "Carmelo Anthony",
+            "Damian Lillard",
+            "Derrick Jones Jr.",
+            "Enes Kanter",
+            "Jacob Evans",
+            "Jusuf Nurkic",
+            "Nassir Little",
+            "Robert Covington",
+            "Rodney Hood"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "GSW": {
+          "player_seconds": {
+            "Andrew Wiggins": 2227,
+            "Draymond Green": 2272,
+            "Jordan Poole": 1493,
+            "Juan Toscano-Anderson": 1610,
+            "Kent Bazemore": 1640,
+            "Kevon Looney": 1870,
+            "Mychal Mulder": 891,
+            "Stephen Curry": 2397
+          },
+          "starters": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Stephen Curry"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Kent Bazemore",
+                "Kevon Looney",
+                "Stephen Curry"
+              ],
+              "seconds": 1270.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Stephen Curry"
+              ],
+              "seconds": 719.0
+            },
+            {
+              "players": [
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kevon Looney",
+                "Mychal Mulder",
+                "Stephen Curry"
+              ],
+              "seconds": 408.0
+            },
+            {
+              "players": [
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Mychal Mulder"
+              ],
+              "seconds": 245.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Kevon Looney",
+                "Mychal Mulder"
+              ],
+              "seconds": 117.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kevon Looney",
+                "Mychal Mulder"
+              ],
+              "seconds": 75.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Mychal Mulder"
+              ],
+              "seconds": 38.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Mychal Mulder"
+              ],
+              "seconds": 8.0
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-16_GSW_MEM",
+            "team": "GSW"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Mychal Mulder",
+            "Stephen Curry"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    },
+    {
+      "event_id": "2021-05-19_MEM_SAS",
+      "date": "2021-05-19",
+      "home": "MEM",
+      "away": "SAS",
+      "selected_winner": "MEM",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "MEM": {
+          "player_seconds": {
+            "Ja Morant": 2160,
+            "Dillon Brooks": 1800,
+            "Kyle Anderson": 1800,
+            "Jaren Jackson Jr.": 1440,
+            "Jonas Valanciunas": 1800,
+            "Desmond Bane": 1080,
+            "Tyus Jones": 720,
+            "De'Anthony Melton": 1080,
+            "Grayson Allen": 720,
+            "Brandon Clarke": 1080,
+            "Xavier Tillman Sr.": 720
+          },
+          "starters": [
+            "Ja Morant",
+            "Dillon Brooks",
+            "Kyle Anderson",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Ja Morant",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Desmond Bane",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Tyus Jones",
+                "De'Anthony Melton",
+                "Grayson Allen",
+                "Brandon Clarke",
+                "Xavier Tillman Sr."
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "De'Anthony Melton",
+                "Dillon Brooks",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Grayson Allen",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Tyus Jones",
+                "Desmond Bane",
+                "De'Anthony Melton",
+                "Jaren Jackson Jr.",
+                "Brandon Clarke"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Desmond Bane",
+                "Kyle Anderson",
+                "Brandon Clarke",
+                "Xavier Tillman Sr."
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {
+            "John Konchar": null,
+            "Jontay Porter": null,
+            "Justise Winslow": null,
+            "Tim Frazier": null,
+            "Killian Tillie": null,
+            "Sean McDermott": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "W1",
+            "game": 1,
+            "team": "MEM"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Brandon Clarke",
+            "De'Anthony Melton",
+            "Desmond Bane",
+            "Dillon Brooks",
+            "Grayson Allen",
+            "Ja Morant",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas",
+            "Kyle Anderson",
+            "Tyus Jones",
+            "Xavier Tillman Sr."
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "SAS": {
+          "player_seconds": {
+            "DeMar DeRozan": 1524,
+            "Dejounte Murray": 1792,
+            "Devin Vassell": 1561,
+            "Drew Eubanks": 519,
+            "Gorgui Dieng": 569,
+            "Jakob Poeltl": 1792,
+            "Keita Bates-Diop": 720,
+            "Keldon Johnson": 1291,
+            "Lonnie Walker IV": 1625,
+            "Quinndary Weatherspoon": 720,
+            "Rudy Gay": 1199,
+            "Tre Jones": 1088
+          },
+          "starters": [
+            "DeMar DeRozan",
+            "Dejounte Murray",
+            "Jakob Poeltl",
+            "Keldon Johnson",
+            "Lonnie Walker IV"
+          ],
+          "witness": [
+            {
+              "players": [
+                "DeMar DeRozan",
+                "Dejounte Murray",
+                "Devin Vassell",
+                "Jakob Poeltl",
+                "Lonnie Walker IV"
+              ],
+              "seconds": 1524.0
+            },
+            {
+              "players": [
+                "Keita Bates-Diop",
+                "Keldon Johnson",
+                "Quinndary Weatherspoon",
+                "Rudy Gay",
+                "Tre Jones"
+              ],
+              "seconds": 720.0
+            },
+            {
+              "players": [
+                "Drew Eubanks",
+                "Gorgui Dieng",
+                "Keldon Johnson",
+                "Rudy Gay",
+                "Tre Jones"
+              ],
+              "seconds": 368.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Drew Eubanks",
+                "Gorgui Dieng",
+                "Jakob Poeltl",
+                "Keldon Johnson"
+              ],
+              "seconds": 151.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Jakob Poeltl",
+                "Keldon Johnson",
+                "Lonnie Walker IV",
+                "Rudy Gay"
+              ],
+              "seconds": 52.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Gorgui Dieng",
+                "Jakob Poeltl",
+                "Lonnie Walker IV",
+                "Rudy Gay"
+              ],
+              "seconds": 28.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Devin Vassell",
+                "Gorgui Dieng",
+                "Jakob Poeltl",
+                "Rudy Gay"
+              ],
+              "seconds": 16.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Devin Vassell",
+                "Jakob Poeltl",
+                "Lonnie Walker IV",
+                "Rudy Gay"
+              ],
+              "seconds": 15.0
+            },
+            {
+              "players": [
+                "Dejounte Murray",
+                "Devin Vassell",
+                "Gorgui Dieng",
+                "Jakob Poeltl",
+                "Lonnie Walker IV"
+              ],
+              "seconds": 6.0
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-16_SAS_PHX",
+            "team": "SAS"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "DeMar DeRozan",
+            "Dejounte Murray",
+            "Devin Vassell",
+            "Drew Eubanks",
+            "Gorgui Dieng",
+            "Jakob Poeltl",
+            "Keita Bates-Diop",
+            "Keldon Johnson",
+            "Lonnie Walker IV",
+            "Quinndary Weatherspoon",
+            "Rudy Gay",
+            "Tre Jones"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    },
+    {
+      "event_id": "2021-05-21_GSW_MEM",
+      "date": "2021-05-21",
+      "home": "GSW",
+      "away": "MEM",
+      "selected_winner": "MEM",
+      "result_source": "simulation/NBA_2021_L2_DATED_WORKING_CALENDAR.json",
+      "duration_model_seconds": 2880,
+      "overtime_model_periods": 0,
+      "teams": {
+        "GSW": {
+          "player_seconds": {
+            "Andrew Wiggins": 2227,
+            "Draymond Green": 2272,
+            "Jordan Poole": 1493,
+            "Juan Toscano-Anderson": 1610,
+            "Kent Bazemore": 1640,
+            "Kevon Looney": 1870,
+            "Mychal Mulder": 891,
+            "Stephen Curry": 2397
+          },
+          "starters": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Stephen Curry"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Kent Bazemore",
+                "Kevon Looney",
+                "Stephen Curry"
+              ],
+              "seconds": 1270.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Stephen Curry"
+              ],
+              "seconds": 719.0
+            },
+            {
+              "players": [
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kevon Looney",
+                "Mychal Mulder",
+                "Stephen Curry"
+              ],
+              "seconds": 408.0
+            },
+            {
+              "players": [
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Mychal Mulder"
+              ],
+              "seconds": 245.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Kevon Looney",
+                "Mychal Mulder"
+              ],
+              "seconds": 117.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kevon Looney",
+                "Mychal Mulder"
+              ],
+              "seconds": 75.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Draymond Green",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Mychal Mulder"
+              ],
+              "seconds": 38.0
+            },
+            {
+              "players": [
+                "Andrew Wiggins",
+                "Jordan Poole",
+                "Juan Toscano-Anderson",
+                "Kent Bazemore",
+                "Mychal Mulder"
+              ],
+              "seconds": 8.0
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {},
+          "source": {
+            "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+            "event_id": "2021-05-16_GSW_MEM",
+            "team": "GSW"
+          },
+          "source_full_roster_included": false,
+          "modeled_available": [
+            "Andrew Wiggins",
+            "Draymond Green",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kent Bazemore",
+            "Kevon Looney",
+            "Mychal Mulder",
+            "Stephen Curry"
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        },
+        "MEM": {
+          "player_seconds": {
+            "Ja Morant": 2160,
+            "Dillon Brooks": 1800,
+            "Kyle Anderson": 1800,
+            "Jaren Jackson Jr.": 1440,
+            "Jonas Valanciunas": 1800,
+            "Desmond Bane": 1080,
+            "Tyus Jones": 720,
+            "De'Anthony Melton": 1080,
+            "Grayson Allen": 720,
+            "Brandon Clarke": 1080,
+            "Xavier Tillman Sr.": 720
+          },
+          "starters": [
+            "Ja Morant",
+            "Dillon Brooks",
+            "Kyle Anderson",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas"
+          ],
+          "witness": [
+            {
+              "players": [
+                "Ja Morant",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Desmond Bane",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Tyus Jones",
+                "De'Anthony Melton",
+                "Grayson Allen",
+                "Brandon Clarke",
+                "Xavier Tillman Sr."
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "De'Anthony Melton",
+                "Dillon Brooks",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Grayson Allen",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Tyus Jones",
+                "Desmond Bane",
+                "De'Anthony Melton",
+                "Jaren Jackson Jr.",
+                "Brandon Clarke"
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Desmond Bane",
+                "Kyle Anderson",
+                "Brandon Clarke",
+                "Xavier Tillman Sr."
+              ],
+              "seconds": 360
+            },
+            {
+              "players": [
+                "Ja Morant",
+                "Dillon Brooks",
+                "Kyle Anderson",
+                "Jaren Jackson Jr.",
+                "Jonas Valanciunas"
+              ],
+              "seconds": 360
+            }
+          ],
+          "modeled_absent": [],
+          "zero_health": {
+            "John Konchar": null,
+            "Jontay Porter": null,
+            "Justise Winslow": null,
+            "Tim Frazier": null,
+            "Killian Tillie": null,
+            "Sean McDermott": null
+          },
+          "source": {
+            "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
+            "series": "W1",
+            "game": 1,
+            "team": "MEM"
+          },
+          "source_full_roster_included": true,
+          "modeled_available": [
+            "Brandon Clarke",
+            "De'Anthony Melton",
+            "Desmond Bane",
+            "Dillon Brooks",
+            "Grayson Allen",
+            "Ja Morant",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas",
+            "Kyle Anderson",
+            "Tyus Jones",
+            "Xavier Tillman Sr."
+          ],
+          "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+          "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+          "no_new_contact_injury_selected": true,
+          "recovery_or_medical_certificate": false,
+          "actual_active_list_certified": false,
+          "legal_registration_cleared": false,
+          "actual_substitution_order_certified": false,
+          "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+        }
+      },
+      "score": null,
+      "box": null,
+      "winner_derived_from_minutes": false,
+      "winner_author_selected": true,
+      "medical_certified": false,
+      "actual_result_certified": false
+    }
+  ],
+  "playoff_qualification_dependencies": [
+    {
+      "team": "BOS",
+      "qualification_event": "2021-05-18_BOS_IND",
+      "qualification_date": "2021-05-18",
+      "first_round_series": "E2",
+      "first_playoff_date": "2021-05-22",
+      "qualifier_unchanged_from_selected_l2": true
+    },
+    {
+      "team": "IND",
+      "qualification_event": "2021-05-20_IND_CHI",
+      "qualification_date": "2021-05-20",
+      "first_round_series": "E1",
+      "first_playoff_date": "2021-05-23",
+      "qualifier_unchanged_from_selected_l2": true
+    },
+    {
+      "team": "POR",
+      "qualification_event": "2021-05-19_POR_GSW",
+      "qualification_date": "2021-05-19",
+      "first_round_series": "W2",
+      "first_playoff_date": "2021-05-23",
+      "qualifier_unchanged_from_selected_l2": true
+    },
+    {
+      "team": "MEM",
+      "qualification_event": "2021-05-19_MEM_SAS",
+      "qualification_date": "2021-05-19",
+      "first_round_series": "W1",
+      "first_playoff_date": "2021-05-23",
+      "qualifier_unchanged_from_selected_l2": true
+    }
+  ],
+  "playoff_first_round_pairs_verified": 8,
+  "playoff_qualifiers_changed": 0,
+  "working_games_applied": 6,
+  "working_team_vectors": 12,
+  "team_minutes_per_game": 240,
+  "working_winners_changed_from_l2": 0,
+  "regulation_choice": "AUTHOR_WORKING_48_MINUTES_OT0_NOT_HISTORICAL_OVERTIME_ASSERTION",
+  "chronological_coach_plans_applied": false,
+  "full_working_rosters_included": false,
+  "limits": [
+    "Positive-minute availability is author modeled; no medical clearance follows.",
+    "The four non-playoff-team donor vectors do not contain full standard/TW registration rosters.",
+    "The four playoff rotation donors are newly selected for earlier play-in dates; neither actual usage nor recovery is inferred.",
+    "CHI donor is May13 full core; May16 LaVine nonparticipation is not automatically transferred to play-in.",
+    "Unordered stint existence proves budget only; positional roles, matchups and tactical chronology remain unverified.",
+    "Selected L2 wins are independent author events, not a prediction implied by the reused minute vectors."
+  ],
+  "medical_certified": false,
+  "actual_active_lists_certified": false,
+  "legal_execution_cleared": false,
+  "whole_league_health_cleared": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}

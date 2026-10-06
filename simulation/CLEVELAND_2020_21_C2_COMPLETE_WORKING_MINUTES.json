@@ -1,0 +1,1728 @@
+{
+  "status": "FIVE_C2_COMPLETE_WORKING_TEAM_VECTORS_AND_ORDERED_STINTS_ROOT_REVIEW_PENDING",
+  "baseline_main": "94a672bd",
+  "date_local": "2026-10-07",
+  "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+  "direction_sources": [
+    "canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json"
+  ],
+  "source_sha256": {
+    "simulation/NBA_2020_21_FINAL859_MINUTES.json": "1e4e24aebffe756c0fd5f619eaed1805b08b9904b388b9d47229aa5704881f7b",
+    "simulation/DENVER_2020_21_MCGEE_NONTRADE_SCREEN.json": "e3231cf8963a942f40f9dbc99ddb4a5bfa4f41550884d1a4b7abeb5e7a654d88",
+    "simulation/CLEVELAND_2020_21_VAREJAO_OMISSION_SCREEN.json": "7c5fa7246802fd02f2e353c4886faa9ab70ae4ca4caadf06e5438fc0c21fb247",
+    "canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json": "f78897dc76bff7dc183c977c9fa8971109f53bf53d1f18d88f837f687f5e3a41",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "tools/screen_denver_mcgee_nontrade.py": "3fbc62d966de9c891ffabe8aae7d0800705c503b805308158f00c440900089fd",
+    "tools/screen_cleveland_varejao_omission.py": "6ac0a0d390b2d746148c023e60a9f48402ade5cd3000101adcba558e53e3f9e6",
+    "tools/build_cleveland_c2_complete_working_minutes.py": "adaa06cbb4cf6846137a8cc343d4a28118bd3784f0e8b550c230a84045220b49"
+  },
+  "source_hash_convention": "SHA256_UTF8_BOM_STRIPPED_CRLF_OR_CR_TO_LF_BYTES",
+  "input_join_key": [
+    "event_id",
+    "team"
+  ],
+  "units": "SECONDS_NOT_MINUTES",
+  "working_design_selected_under_existing_delegation": true,
+  "scope": "Five CLE dates only; replaces full team vector, including two prior F5 overlaps once.",
+  "fact": "Preserved source donor seconds and the approved omission directions.",
+  "inference": "Removed donor total can be assigned once to retained McGee within declared LP roles.",
+  "author_model": "Positive-minute health availability and ordered working coach stints under existing delegation.",
+  "unverified": "Counterfactual medical diagnosis, official active list, complete roster, contract receipt and actual game outcomes.",
+  "prior_cleveland_f5_witnesses_checked": 14,
+  "cleveland_conditional_roles": {
+    "handler": [
+      "Cedi Osman",
+      "Collin Sexton",
+      "Damyean Dotson",
+      "Darius Garland",
+      "Jeremiah Martin",
+      "Matthew Dellavedova"
+    ],
+    "center": [
+      "Anderson Varejao",
+      "Dean Wade",
+      "JaVale McGee",
+      "Jarrett Allen",
+      "Kevin Love",
+      "Mfiondu Kabengele"
+    ],
+    "wing": [
+      "Brodric Thomas",
+      "Cedi Osman",
+      "Damyean Dotson",
+      "Dean Wade",
+      "Isaac Okoro",
+      "Kevin Love",
+      "Lamar Stevens",
+      "Larry Nance Jr.",
+      "Taurean Prince"
+    ]
+  },
+  "rows": [
+    {
+      "event_id": "2021-05-05_CLE_POR",
+      "team": "CLE",
+      "date": "2021-05-05",
+      "source_profile": "OBSERVED_HELD",
+      "game_duration_seconds": 2880,
+      "actual_seconds": {
+        "Anderson Varejao": 397,
+        "Brodric Thomas": 813,
+        "Cedi Osman": 1561,
+        "Collin Sexton": 2065,
+        "Damyean Dotson": 1171,
+        "Dean Wade": 1723,
+        "Isaac Okoro": 1878,
+        "Isaiah Hartenstein": 770,
+        "Jarrett Allen": 1713,
+        "Jeremiah Martin": 361,
+        "Kevin Love": 1551,
+        "Mfiondu Kabengele": 397
+      },
+      "source_control_seconds": {
+        "Anderson Varejao": 397,
+        "Brodric Thomas": 813,
+        "Cedi Osman": 1561,
+        "Collin Sexton": 2065,
+        "Damyean Dotson": 1171,
+        "Dean Wade": 1723,
+        "Isaac Okoro": 1878,
+        "Isaiah Hartenstein": 770,
+        "Jarrett Allen": 1713,
+        "Jeremiah Martin": 361,
+        "Kevin Love": 1551,
+        "Mfiondu Kabengele": 397
+      },
+      "alternate_seconds": {
+        "Brodric Thomas": 813,
+        "Cedi Osman": 1561,
+        "Collin Sexton": 2065,
+        "Damyean Dotson": 1171,
+        "Dean Wade": 1723,
+        "Isaac Okoro": 1878,
+        "Jarrett Allen": 1713,
+        "Jeremiah Martin": 361,
+        "Kevin Love": 1551,
+        "Mfiondu Kabengele": 397,
+        "JaVale McGee": 1167
+      },
+      "delta_seconds": {
+        "Anderson Varejao": -397,
+        "Isaiah Hartenstein": -770,
+        "JaVale McGee": 1167
+      },
+      "starters": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Isaac Okoro",
+        "Jarrett Allen",
+        "Kevin Love"
+      ],
+      "removed_players": [
+        "Anderson Varejao",
+        "Isaiah Hartenstein"
+      ],
+      "modeled_available": [
+        "Brodric Thomas",
+        "Cedi Osman",
+        "Collin Sexton",
+        "Damyean Dotson",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jeremiah Martin",
+        "Kevin Love",
+        "Mfiondu Kabengele"
+      ],
+      "modeled_absent": [],
+      "reserve_health_unselected": null,
+      "varejao_removed_seconds": 397,
+      "hartenstein_removed_seconds": 770,
+      "mcgee_candidate_seconds": 1167,
+      "prior_f5_same_team_override_replaced": true,
+      "prior_f5_seconds_already_included": 770,
+      "overlay_operation": "REPLACE_FULL_TEAM_VECTOR_DO_NOT_ADD_PRIOR_F5_AGAIN",
+      "lineup_witness": [
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 436.23076923
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 325.38461538
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jeremiah Martin",
+            "Kevin Love"
+          ],
+          "seconds": 21.53846154
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 29.84615385
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jeremiah Martin"
+          ],
+          "seconds": 225.53846154
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 647.61538462
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 71.61538462
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 130.46153846
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 653.46153846
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jeremiah Martin",
+            "Kevin Love"
+          ],
+          "seconds": 113.92307692
+        },
+        {
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 44.38461538
+        }
+      ],
+      "ordered_working_stints": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 180.0,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "start_seconds": 180.0,
+          "end_seconds": 616.2307692300001,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 436.23076923
+        },
+        {
+          "start_seconds": 616.2307692300001,
+          "end_seconds": 941.6153846100001,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 325.38461538
+        },
+        {
+          "start_seconds": 941.6153846100001,
+          "end_seconds": 963.15384615,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jeremiah Martin",
+            "Kevin Love"
+          ],
+          "seconds": 21.53846154
+        },
+        {
+          "start_seconds": 963.15384615,
+          "end_seconds": 993.0,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 29.84615385
+        },
+        {
+          "start_seconds": 993.0,
+          "end_seconds": 1218.53846154,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jeremiah Martin"
+          ],
+          "seconds": 225.53846154
+        },
+        {
+          "start_seconds": 1218.53846154,
+          "end_seconds": 1866.15384616,
+          "players": [
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 647.61538462
+        },
+        {
+          "start_seconds": 1866.15384616,
+          "end_seconds": 1937.76923078,
+          "players": [
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 71.61538462
+        },
+        {
+          "start_seconds": 1937.76923078,
+          "end_seconds": 2068.23076924,
+          "players": [
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 130.46153846
+        },
+        {
+          "start_seconds": 2068.23076924,
+          "end_seconds": 2721.6923077,
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 653.46153846
+        },
+        {
+          "start_seconds": 2721.6923077,
+          "end_seconds": 2835.61538462,
+          "players": [
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jeremiah Martin",
+            "Kevin Love"
+          ],
+          "seconds": 113.92307692
+        },
+        {
+          "start_seconds": 2835.61538462,
+          "end_seconds": 2880.0,
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 44.38461538
+        }
+      ],
+      "health_classification": "AUTHOR_DELEGATED_POSITIVE_MINUTE_AVAILABILITY_MODEL",
+      "coaching_classification": "AUTHOR_DELEGATED_WORKING_STINT_ORDER_NOT_OBSERVED_SUBSTITUTIONS",
+      "actual_active_list_certified": false,
+      "medical_certified": false,
+      "legal_registration_cleared": false
+    },
+    {
+      "event_id": "2021-05-07_DAL_CLE",
+      "team": "CLE",
+      "date": "2021-05-07",
+      "source_profile": "OBSERVED_HELD",
+      "game_duration_seconds": 2880,
+      "actual_seconds": {
+        "Anderson Varejao": 277,
+        "Brodric Thomas": 1464,
+        "Cedi Osman": 2189,
+        "Collin Sexton": 2185,
+        "Damyean Dotson": 1061,
+        "Dean Wade": 1828,
+        "Isaac Okoro": 2150,
+        "Isaiah Hartenstein": 755,
+        "Jarrett Allen": 1848,
+        "Jeremiah Martin": 443,
+        "Mfiondu Kabengele": 200
+      },
+      "source_control_seconds": {
+        "Anderson Varejao": 277,
+        "Brodric Thomas": 1464,
+        "Cedi Osman": 2189,
+        "Collin Sexton": 2185,
+        "Damyean Dotson": 1061,
+        "Dean Wade": 1828,
+        "Isaac Okoro": 2150,
+        "Isaiah Hartenstein": 755,
+        "Jarrett Allen": 1848,
+        "Jeremiah Martin": 443,
+        "Mfiondu Kabengele": 200
+      },
+      "alternate_seconds": {
+        "Brodric Thomas": 1464,
+        "Cedi Osman": 2189,
+        "Collin Sexton": 2185,
+        "Damyean Dotson": 1061,
+        "Dean Wade": 1828,
+        "Isaac Okoro": 2150,
+        "Jarrett Allen": 1848,
+        "Jeremiah Martin": 443,
+        "Mfiondu Kabengele": 200,
+        "JaVale McGee": 1032
+      },
+      "delta_seconds": {
+        "Anderson Varejao": -277,
+        "Isaiah Hartenstein": -755,
+        "JaVale McGee": 1032
+      },
+      "starters": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Dean Wade",
+        "Isaac Okoro",
+        "Jarrett Allen"
+      ],
+      "removed_players": [
+        "Anderson Varejao",
+        "Isaiah Hartenstein"
+      ],
+      "modeled_available": [
+        "Brodric Thomas",
+        "Cedi Osman",
+        "Collin Sexton",
+        "Damyean Dotson",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jeremiah Martin",
+        "Mfiondu Kabengele"
+      ],
+      "modeled_absent": [],
+      "reserve_health_unselected": null,
+      "varejao_removed_seconds": 277,
+      "hartenstein_removed_seconds": 755,
+      "mcgee_candidate_seconds": 1032,
+      "prior_f5_same_team_override_replaced": true,
+      "prior_f5_seconds_already_included": 755,
+      "overlay_operation": "REPLACE_FULL_TEAM_VECTOR_DO_NOT_ADD_PRIOR_F5_AGAIN",
+      "lineup_witness": [
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "JaVale McGee"
+          ],
+          "seconds": 98.46153846
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jarrett Allen"
+          ],
+          "seconds": 263.92307692
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jeremiah Martin"
+          ],
+          "seconds": 65.15384615
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jarrett Allen"
+          ],
+          "seconds": 355.69230769
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 30.23076923
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 650.53846154
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro"
+          ],
+          "seconds": 658.15384615
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 200.0
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 367.61538462
+        },
+        {
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jeremiah Martin"
+          ],
+          "seconds": 10.23076923
+        }
+      ],
+      "ordered_working_stints": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 180.0,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "start_seconds": 180.0,
+          "end_seconds": 278.46153846,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "JaVale McGee"
+          ],
+          "seconds": 98.46153846
+        },
+        {
+          "start_seconds": 278.46153846,
+          "end_seconds": 542.38461538,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jarrett Allen"
+          ],
+          "seconds": 263.92307692
+        },
+        {
+          "start_seconds": 542.38461538,
+          "end_seconds": 607.5384615300001,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jeremiah Martin"
+          ],
+          "seconds": 65.15384615
+        },
+        {
+          "start_seconds": 607.5384615300001,
+          "end_seconds": 963.2307692200001,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jarrett Allen"
+          ],
+          "seconds": 355.69230769
+        },
+        {
+          "start_seconds": 963.2307692200001,
+          "end_seconds": 993.46153845,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 30.23076923
+        },
+        {
+          "start_seconds": 993.46153845,
+          "end_seconds": 1643.99999999,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 650.53846154
+        },
+        {
+          "start_seconds": 1643.99999999,
+          "end_seconds": 2302.15384614,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro"
+          ],
+          "seconds": 658.15384615
+        },
+        {
+          "start_seconds": 2302.15384614,
+          "end_seconds": 2502.15384614,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 200.0
+        },
+        {
+          "start_seconds": 2502.15384614,
+          "end_seconds": 2869.76923076,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 367.61538462
+        },
+        {
+          "start_seconds": 2869.76923076,
+          "end_seconds": 2879.99999999,
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jeremiah Martin"
+          ],
+          "seconds": 10.23076923
+        }
+      ],
+      "health_classification": "AUTHOR_DELEGATED_POSITIVE_MINUTE_AVAILABILITY_MODEL",
+      "coaching_classification": "AUTHOR_DELEGATED_WORKING_STINT_ORDER_NOT_OBSERVED_SUBSTITUTIONS",
+      "actual_active_list_certified": false,
+      "medical_certified": false,
+      "legal_registration_cleared": false
+    },
+    {
+      "event_id": "2021-05-09_CLE_DAL",
+      "team": "CLE",
+      "date": "2021-05-09",
+      "source_profile": "OBSERVED_HELD",
+      "game_duration_seconds": 2880,
+      "actual_seconds": {
+        "Anderson Varejao": 983,
+        "Brodric Thomas": 1356,
+        "Collin Sexton": 1937,
+        "Damyean Dotson": 1538,
+        "Dean Wade": 1714,
+        "Isaac Okoro": 1893,
+        "Jarrett Allen": 1561,
+        "Jeremiah Martin": 422,
+        "Kevin Love": 1614,
+        "Mfiondu Kabengele": 1382
+      },
+      "source_control_seconds": {
+        "Anderson Varejao": 983,
+        "Brodric Thomas": 1356,
+        "Collin Sexton": 1937,
+        "Damyean Dotson": 1538,
+        "Dean Wade": 1714,
+        "Isaac Okoro": 1893,
+        "Jarrett Allen": 1561,
+        "Jeremiah Martin": 422,
+        "Kevin Love": 1614,
+        "Mfiondu Kabengele": 1382
+      },
+      "alternate_seconds": {
+        "Brodric Thomas": 1356,
+        "Collin Sexton": 1937,
+        "Damyean Dotson": 1538,
+        "Dean Wade": 1714,
+        "Isaac Okoro": 1893,
+        "Jarrett Allen": 1561,
+        "Jeremiah Martin": 422,
+        "Kevin Love": 1614,
+        "Mfiondu Kabengele": 1382,
+        "JaVale McGee": 983
+      },
+      "delta_seconds": {
+        "Anderson Varejao": -983,
+        "JaVale McGee": 983
+      },
+      "starters": [
+        "Collin Sexton",
+        "Dean Wade",
+        "Isaac Okoro",
+        "Jarrett Allen",
+        "Kevin Love"
+      ],
+      "removed_players": [
+        "Anderson Varejao",
+        "Isaiah Hartenstein"
+      ],
+      "modeled_available": [
+        "Brodric Thomas",
+        "Collin Sexton",
+        "Damyean Dotson",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jeremiah Martin",
+        "Kevin Love",
+        "Mfiondu Kabengele"
+      ],
+      "modeled_absent": [],
+      "reserve_health_unselected": null,
+      "varejao_removed_seconds": 983,
+      "hartenstein_removed_seconds": 0,
+      "mcgee_candidate_seconds": 983,
+      "prior_f5_same_team_override_replaced": false,
+      "prior_f5_seconds_already_included": 0,
+      "overlay_operation": "REPLACE_FULL_TEAM_VECTOR_DO_NOT_ADD_PRIOR_F5_AGAIN",
+      "lineup_witness": [
+        {
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 338.125
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 378.75
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 361.25
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 261.375
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 16.5
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 678.875
+        },
+        {
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 207.375
+        },
+        {
+          "players": [
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 52.25
+        },
+        {
+          "players": [
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 325.25
+        },
+        {
+          "players": [
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 80.25
+        }
+      ],
+      "ordered_working_stints": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 180.0,
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "start_seconds": 180.0,
+          "end_seconds": 518.125,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 338.125
+        },
+        {
+          "start_seconds": 518.125,
+          "end_seconds": 896.875,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 378.75
+        },
+        {
+          "start_seconds": 896.875,
+          "end_seconds": 1258.125,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 361.25
+        },
+        {
+          "start_seconds": 1258.125,
+          "end_seconds": 1519.5,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 261.375
+        },
+        {
+          "start_seconds": 1519.5,
+          "end_seconds": 1536.0,
+          "players": [
+            "Brodric Thomas",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 16.5
+        },
+        {
+          "start_seconds": 1536.0,
+          "end_seconds": 2214.875,
+          "players": [
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 678.875
+        },
+        {
+          "start_seconds": 2214.875,
+          "end_seconds": 2422.25,
+          "players": [
+            "Damyean Dotson",
+            "Dean Wade",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 207.375
+        },
+        {
+          "start_seconds": 2422.25,
+          "end_seconds": 2474.5,
+          "players": [
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 52.25
+        },
+        {
+          "start_seconds": 2474.5,
+          "end_seconds": 2799.75,
+          "players": [
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 325.25
+        },
+        {
+          "start_seconds": 2799.75,
+          "end_seconds": 2880.0,
+          "players": [
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jeremiah Martin",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 80.25
+        }
+      ],
+      "health_classification": "AUTHOR_DELEGATED_POSITIVE_MINUTE_AVAILABILITY_MODEL",
+      "coaching_classification": "AUTHOR_DELEGATED_WORKING_STINT_ORDER_NOT_OBSERVED_SUBSTITUTIONS",
+      "actual_active_list_certified": false,
+      "medical_certified": false,
+      "legal_registration_cleared": false
+    },
+    {
+      "event_id": "2021-05-12_CLE_BOS",
+      "team": "CLE",
+      "date": "2021-05-12",
+      "source_profile": "OBSERVED_HELD",
+      "game_duration_seconds": 2880,
+      "actual_seconds": {
+        "Anderson Varejao": 192,
+        "Brodric Thomas": 2054,
+        "Collin Sexton": 1933,
+        "Damyean Dotson": 1482,
+        "Dean Wade": 1686,
+        "Isaac Okoro": 2168,
+        "Jarrett Allen": 1927,
+        "Kevin Love": 2015,
+        "Mfiondu Kabengele": 943
+      },
+      "source_control_seconds": {
+        "Anderson Varejao": 192,
+        "Brodric Thomas": 2054,
+        "Collin Sexton": 1933,
+        "Damyean Dotson": 1482,
+        "Dean Wade": 1686,
+        "Isaac Okoro": 2168,
+        "Jarrett Allen": 1927,
+        "Kevin Love": 2015,
+        "Mfiondu Kabengele": 943
+      },
+      "alternate_seconds": {
+        "Brodric Thomas": 2054,
+        "Collin Sexton": 1933,
+        "Damyean Dotson": 1482,
+        "Dean Wade": 1686,
+        "Isaac Okoro": 2168,
+        "Jarrett Allen": 1927,
+        "Kevin Love": 2015,
+        "Mfiondu Kabengele": 943,
+        "JaVale McGee": 192
+      },
+      "delta_seconds": {
+        "Anderson Varejao": -192,
+        "JaVale McGee": 192
+      },
+      "starters": [
+        "Collin Sexton",
+        "Dean Wade",
+        "Isaac Okoro",
+        "Jarrett Allen",
+        "Kevin Love"
+      ],
+      "removed_players": [
+        "Anderson Varejao",
+        "Isaiah Hartenstein"
+      ],
+      "modeled_available": [
+        "Brodric Thomas",
+        "Collin Sexton",
+        "Damyean Dotson",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Kevin Love",
+        "Mfiondu Kabengele"
+      ],
+      "modeled_absent": [],
+      "reserve_health_unselected": null,
+      "varejao_removed_seconds": 192,
+      "hartenstein_removed_seconds": 0,
+      "mcgee_candidate_seconds": 192,
+      "prior_f5_same_team_override_replaced": false,
+      "prior_f5_seconds_already_included": 0,
+      "overlay_operation": "REPLACE_FULL_TEAM_VECTOR_DO_NOT_ADD_PRIOR_F5_AGAIN",
+      "lineup_witness": [
+        {
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jarrett Allen"
+          ],
+          "seconds": 379.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 156.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 330.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 242.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 614.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 162.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 171.0
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 21.0
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 625.0
+        }
+      ],
+      "ordered_working_stints": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 180.0,
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "start_seconds": 180.0,
+          "end_seconds": 559.0,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Jarrett Allen"
+          ],
+          "seconds": 379.0
+        },
+        {
+          "start_seconds": 559.0,
+          "end_seconds": 715.0,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Damyean Dotson",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 156.0
+        },
+        {
+          "start_seconds": 715.0,
+          "end_seconds": 1045.0,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 330.0
+        },
+        {
+          "start_seconds": 1045.0,
+          "end_seconds": 1287.0,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 242.0
+        },
+        {
+          "start_seconds": 1287.0,
+          "end_seconds": 1901.0,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Kevin Love"
+          ],
+          "seconds": 614.0
+        },
+        {
+          "start_seconds": 1901.0,
+          "end_seconds": 2063.0,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "Dean Wade",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 162.0
+        },
+        {
+          "start_seconds": 2063.0,
+          "end_seconds": 2234.0,
+          "players": [
+            "Brodric Thomas",
+            "Damyean Dotson",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Kevin Love"
+          ],
+          "seconds": 171.0
+        },
+        {
+          "start_seconds": 2234.0,
+          "end_seconds": 2255.0,
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Kevin Love"
+          ],
+          "seconds": 21.0
+        },
+        {
+          "start_seconds": 2255.0,
+          "end_seconds": 2880.0,
+          "players": [
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Kevin Love",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 625.0
+        }
+      ],
+      "health_classification": "AUTHOR_DELEGATED_POSITIVE_MINUTE_AVAILABILITY_MODEL",
+      "coaching_classification": "AUTHOR_DELEGATED_WORKING_STINT_ORDER_NOT_OBSERVED_SUBSTITUTIONS",
+      "actual_active_list_certified": false,
+      "medical_certified": false,
+      "legal_registration_cleared": false
+    },
+    {
+      "event_id": "2021-05-14_WAS_CLE",
+      "team": "CLE",
+      "date": "2021-05-14",
+      "source_profile": "OBSERVED_HELD",
+      "game_duration_seconds": 2880,
+      "actual_seconds": {
+        "Anderson Varejao": 307,
+        "Brodric Thomas": 1399,
+        "Cedi Osman": 1696,
+        "Collin Sexton": 1832,
+        "Darius Garland": 718,
+        "Dean Wade": 2112,
+        "Isaac Okoro": 2342,
+        "Jarrett Allen": 2090,
+        "Jeremiah Martin": 653,
+        "Mfiondu Kabengele": 1251
+      },
+      "source_control_seconds": {
+        "Anderson Varejao": 307,
+        "Brodric Thomas": 1399,
+        "Cedi Osman": 1696,
+        "Collin Sexton": 1832,
+        "Darius Garland": 718,
+        "Dean Wade": 2112,
+        "Isaac Okoro": 2342,
+        "Jarrett Allen": 2090,
+        "Jeremiah Martin": 653,
+        "Mfiondu Kabengele": 1251
+      },
+      "alternate_seconds": {
+        "Brodric Thomas": 1399,
+        "Cedi Osman": 1696,
+        "Collin Sexton": 1832,
+        "Darius Garland": 718,
+        "Dean Wade": 2112,
+        "Isaac Okoro": 2342,
+        "Jarrett Allen": 2090,
+        "Jeremiah Martin": 653,
+        "Mfiondu Kabengele": 1251,
+        "JaVale McGee": 307
+      },
+      "delta_seconds": {
+        "Anderson Varejao": -307,
+        "JaVale McGee": 307
+      },
+      "starters": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Dean Wade",
+        "Isaac Okoro",
+        "Jarrett Allen"
+      ],
+      "removed_players": [
+        "Anderson Varejao",
+        "Isaiah Hartenstein"
+      ],
+      "modeled_available": [
+        "Brodric Thomas",
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jeremiah Martin",
+        "Mfiondu Kabengele"
+      ],
+      "modeled_absent": [],
+      "reserve_health_unselected": null,
+      "varejao_removed_seconds": 307,
+      "hartenstein_removed_seconds": 0,
+      "mcgee_candidate_seconds": 307,
+      "prior_f5_same_team_override_replaced": false,
+      "prior_f5_seconds_already_included": 0,
+      "overlay_operation": "REPLACE_FULL_TEAM_VECTOR_DO_NOT_ADD_PRIOR_F5_AGAIN",
+      "lineup_witness": [
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 117.75
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Darius Garland",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 232.75
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee"
+          ],
+          "seconds": 119.5
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Darius Garland",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 182.5
+        },
+        {
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 746.5
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Darius Garland",
+            "Dean Wade",
+            "Isaac Okoro"
+          ],
+          "seconds": 115.25
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Darius Garland",
+            "JaVale McGee",
+            "Jarrett Allen"
+          ],
+          "seconds": 187.5
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 47.5
+        },
+        {
+          "players": [
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 695.75
+        },
+        {
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 255.0
+        }
+      ],
+      "ordered_working_stints": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 180.0,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 180.0
+        },
+        {
+          "start_seconds": 180.0,
+          "end_seconds": 297.75,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Collin Sexton",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 117.75
+        },
+        {
+          "start_seconds": 297.75,
+          "end_seconds": 530.5,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Darius Garland",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 232.75
+        },
+        {
+          "start_seconds": 530.5,
+          "end_seconds": 650.0,
+          "players": [
+            "Brodric Thomas",
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee"
+          ],
+          "seconds": 119.5
+        },
+        {
+          "start_seconds": 650.0,
+          "end_seconds": 832.5,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Darius Garland",
+            "Isaac Okoro",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 182.5
+        },
+        {
+          "start_seconds": 832.5,
+          "end_seconds": 1579.0,
+          "players": [
+            "Brodric Thomas",
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen"
+          ],
+          "seconds": 746.5
+        },
+        {
+          "start_seconds": 1579.0,
+          "end_seconds": 1694.25,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Darius Garland",
+            "Dean Wade",
+            "Isaac Okoro"
+          ],
+          "seconds": 115.25
+        },
+        {
+          "start_seconds": 1694.25,
+          "end_seconds": 1881.75,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Darius Garland",
+            "JaVale McGee",
+            "Jarrett Allen"
+          ],
+          "seconds": 187.5
+        },
+        {
+          "start_seconds": 1881.75,
+          "end_seconds": 1929.25,
+          "players": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Jeremiah Martin"
+          ],
+          "seconds": 47.5
+        },
+        {
+          "start_seconds": 1929.25,
+          "end_seconds": 2625.0,
+          "players": [
+            "Cedi Osman",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jarrett Allen",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 695.75
+        },
+        {
+          "start_seconds": 2625.0,
+          "end_seconds": 2880.0,
+          "players": [
+            "Collin Sexton",
+            "Dean Wade",
+            "Isaac Okoro",
+            "Jeremiah Martin",
+            "Mfiondu Kabengele"
+          ],
+          "seconds": 255.0
+        }
+      ],
+      "health_classification": "AUTHOR_DELEGATED_POSITIVE_MINUTE_AVAILABILITY_MODEL",
+      "coaching_classification": "AUTHOR_DELEGATED_WORKING_STINT_ORDER_NOT_OBSERVED_SUBSTITUTIONS",
+      "actual_active_list_certified": false,
+      "medical_certified": false,
+      "legal_registration_cleared": false
+    }
+  ],
+  "complete_team_vectors": 5,
+  "overlap_team_vectors": 2,
+  "original_varejao_seconds": 2156,
+  "prior_hartenstein_seconds": 1525,
+  "retained_mcgee_seconds": 3681,
+  "modeled_full_rosters_included": false,
+  "actual_registration_certified": false,
+  "medical_certified": false,
+  "whole_league_health_cleared": false,
+  "whole_legal_execution_cleared": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}
