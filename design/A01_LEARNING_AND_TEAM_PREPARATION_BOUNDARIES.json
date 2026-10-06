@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-07",
+  "status": "TWO_WORKING_BOUNDARIES_CONCRETE_ACTIONS_CANDIDATE_REVIEW_PENDING",
+  "purpose": "EDITORIAL_DESIGN_VALIDATION_ONLY_NOT_EPISODE_BLUEPRINT_OR_CONTEXT_PACK",
+  "source_main": "7e3949604a5158ae314dcff54c05bf81bf6b4d63",
+  "source_hash_convention": "SHA256_UTF8_NO_BOM_LF_NORMALIZED",
+  "source_sha256": {
+    "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json": "701887356db2ebb89c7516d51018f577f84de107cb1e65f4fe1d5706987d78a3",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/A01_OPENING_EPISODE_BOUNDARY.md": "0352202581d75549d0c549e8ceb37eda7e89b0f3f7ea6bcffbb45e7663270e4f",
+    "design/CP2_ACT_SUBACT_PACKET.json": "9c3d92f8f98406d081a40e77597ab9c40f4eb88b633c3e917739a1771dc1c587",
+    "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "canon/PROJECT_FREEZE.md": "37d1b6683d26e87c0c5a3e78821ad3d12fad1ede3afe3691723c5a5d812f583d",
+    "control/DESIGN_GATE.md": "812734e4b9ae3c281928643132b8b5946848b20bdb1dd0b30e8524896846b7f2",
+    "context-packs/README.md": "96bb39d546fdfb8fb9dc15fb969deb925f72101ce1d1a3292a08a4cdd4584778",
+    "research/A01_KOREA_2015_SCHOOL_TRIAL_BOUNDARY.json": "e406ffbffa72c47a88710b1c9c1804e0fce23e9fceb6525fd2385ebfdfc40e6d",
+    "research/A01_KOREA_2015_SCHOOL_TRIAL_BOUNDARY.md": "83156de992885a4a7261fd0faa6fb9e14a10be5dbcb992a29b6c364a68177aa1"
+  },
+  "common_skill": {
+    "path": "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md",
+    "sha256": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57",
+    "revision": "f3af0eb22615c546a0007a9db794d56181f26add",
+    "sections": [
+      "7",
+      "8",
+      "13",
+      "19",
+      "21",
+      "22"
+    ]
+  },
+  "parent_scope": {
+    "act": "A01",
+    "subact": "A01-S2",
+    "act_question": "재능만으로 맡은 일을 피할 수 있는가",
+    "subact_question": "재능만으로 맡은 일을 피할 수 있는가",
+    "primary_device": "PLANT_AND_PAYOFF",
+    "secondary_device": null
+  },
+  "authority": {
+    "existing_local_core_input": "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json",
+    "existing_E1_preserved": "design/A01_OPENING_EPISODE_BOUNDARY.md",
+    "concrete_new_training_event_authority": null,
+    "health_season_style_delegation_does_not_lock_new_training_events": true,
+    "working_editorial_scope_selected": true,
+    "concrete_actions_selected": false
+  },
+  "classification": {
+    "canon_fact": "기존 입문·첫 기여·학습 한계·책임 성장의 작품 정본만",
+    "inference": "기본 학습과 팀 준비를 서로 다른 작업 경계로 좁히는 편집 판단",
+    "candidate": "L-A/L-B/P-A/P-B 구체 행동과 그 비용·관측 결과",
+    "new_author_lock": "없음"
+  },
+  "boundaries": [
+    {
+      "id": "A01-LEARNING-WB",
+      "source_function": "A01-CF07",
+      "subact": "A01-S2",
+      "status": "WORKING_EDITORIAL_BOUNDARY_CONCRETE_EVENT_CANDIDATE",
+      "entry_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+      "source_function_entry_summary": "동료의 득점으로 이어지면서 자신의 득점 없이 팀이 자신을 필요로 하는 첫 경험이 생긴다",
+      "entry_summary_is_exact_handoff": false,
+      "single_function": "첫 팀 기여를 반복할 준비 과제로 좁히며 기본 학습 시도의 범위를 정한다",
+      "working_boundary_selection": "C3 뒤 기본 과제를 시도하는 범위까지만 다루고 반복 성공·기술 완성 전에 끝낸다",
+      "action_candidates": [
+        {
+          "id": "L-A",
+          "status": "CANDIDATE",
+          "action": "박스아웃·위치선정·패스 중 한 기본 과제를 먼저 시도하는 좁은 단위",
+          "advantage": "첫 성공과 학습의 차이를 하나의 관측 과제로 분리할 수 있다",
+          "cost": "첫 성공을 다시 과시할 시간을 기본 과제 시도에 사용한다",
+          "missing": "세 과제 중 어느 것을 택할지·지시·시도 동작·관측 결과는 미선택"
+        },
+        {
+          "id": "L-B",
+          "status": "CANDIDATE",
+          "action": "세 기본 과제를 연결한 반복 훈련 범위",
+          "advantage": "첫 기여의 연속 행동과 준비 항목의 관계를 함께 다룰 수 있다",
+          "cost": "학습 항목이 늘어나면 단일 기능과 관측 결과가 흐려질 수 있다",
+          "missing": "연결 드릴·과제 순서·시도 결과·기간은 미선택"
+        }
+      ],
+      "editorial_recommendation": "L-A",
+      "concrete_action_selected": false,
+      "current_cost_class": "CANDIDATE_DIRECT_TIME_OPPORTUNITY_NOT_REALIZED_COST",
+      "exit_state": "기본 학습을 시도할 작업 범위를 정했고 기술 완성·반복 성공은 미선택이다. 다음 팀 준비 약속의 구체 작업과 수행 결과는 후보로 남는다.",
+      "next_boundary": "A01-TEAM-PREPARATION-WB",
+      "required_before_event_promotion": [
+        "기본 과제의 실제 행동",
+        "전달 또는 관측 경로",
+        "성공·실패를 선지급하지 않는 관측 결과",
+        "학교 참여 조건의 필요한 범위"
+      ],
+      "excluded": [
+        "C1/C2/C3 재실행",
+        "완패 다음날 재방문 재작성",
+        "새 완패나 부상",
+        "반복 성공·숙련 완료",
+        "감독의 천재 인증",
+        "게임 포기 사건"
+      ],
+      "source_claims": [
+        {
+          "classification": "AUTHOR_LOCKED_CANON",
+          "claim": "첫 성공은 박스아웃·위치선정·패스 학습을 시작할 증거이지 기술 완성이 아니다",
+          "path": "canon/STORY_BIBLE.md",
+          "section": "농구 입문 동기 / 3단계 셋째 항목"
+        },
+        {
+          "classification": "CANDIDATE",
+          "claim": "성공 동작만 과시하지 않고 박스아웃·위치선정·패스의 기본 과제를 반복해 본다",
+          "path": "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json",
+          "section": "A01-CF07"
+        }
+      ],
+      "exact_date": null,
+      "episode_number": null,
+      "allocation_slot": null,
+      "school_permission_certified": false,
+      "individual_scene_pov_verified": false,
+      "realized_event_verified": false,
+      "actual_result": null,
+      "author_locked": false
+    },
+    {
+      "id": "A01-TEAM-PREPARATION-WB",
+      "source_function": "A01-CF08",
+      "subact": "A01-S2",
+      "status": "WORKING_EDITORIAL_BOUNDARY_CONCRETE_EVENT_CANDIDATE",
+      "entry_state": "기본 학습을 시도할 작업 범위를 정했고 기술 완성·반복 성공은 미선택이다. 다음 팀 준비 약속의 구체 작업과 수행 결과는 후보로 남는다.",
+      "source_function_entry_summary": "팀 기여를 반복하기 위한 준비 과제가 생기고 미완성 기술이 남는다",
+      "entry_summary_is_exact_handoff": false,
+      "single_function": "맡은 준비에 다시 참여하는 후보 행동과 동료 부담의 관측 조건을 분리한다",
+      "working_boundary_selection": "구체 준비 약속과 수행의 범위까지 다루며 게임 충돌 시험·생활 전체 개선 전에 끝낸다",
+      "action_candidates": [
+        {
+          "id": "P-A",
+          "status": "CANDIDATE",
+          "action": "팀 공동 훈련 도구의 준비·정리 중 맡은 일을 다시 수행하는 범위",
+          "advantage": "누가 대신 준비해야 하는지와 수행 뒤 남은 일을 관측할 수 있다",
+          "cost": "칭찬이나 승부가 없는 준비 시간에 참여한다",
+          "missing": "도구·작업·약속 시각·대신 맡을 동료·실제 부담 감소는 미선택"
+        },
+        {
+          "id": "P-B",
+          "status": "CANDIDATE",
+          "action": "기본 훈련 반복에서 동료에게 연결하는 준비 역할을 맡는 범위",
+          "advantage": "학습과 팀의 다음 반복에 필요한 행동을 연결할 수 있다",
+          "cost": "자기 성공을 보여 주는 차례와 준비 역할의 시간 관계를 따로 확인해야 한다",
+          "missing": "훈련 형식·역할·차례·동료·관측 가능한 결과는 미선택"
+        }
+      ],
+      "editorial_recommendation": "P-A",
+      "concrete_action_selected": false,
+      "current_cost_class": "CANDIDATE_DIRECT_TIME_OPPORTUNITY_NOT_REALIZED_COST",
+      "exit_state": "팀 준비 약속·수행·동료 부담을 확인할 작업 범위를 정했다. 구체 사건과 생활 개선은 확정하지 않았고 CF09의 게임 보상 시험은 다음 후보로 남는다.",
+      "next_boundary": null,
+      "next_source_function": "A01-CF09",
+      "burden_observation_required": {
+        "alternative_burden_holder": null,
+        "preparation_task": null,
+        "observable_before": null,
+        "observable_after": null,
+        "reduced_burden_certified": false,
+        "rule": "누군가 대신 떠안는 준비와 수행 뒤 줄어든 일을 관측할 입력 없이 팀 부담 감소를 사실로 쓰지 않는다"
+      },
+      "required_before_event_promotion": [
+        "맡은 준비 작업·약속의 전달 경로",
+        "본인 수행",
+        "대신 맡을 동료와 전후 관측",
+        "필요한 참여·권한 조건"
+      ],
+      "excluded": [
+        "패배 다음날 자존심 복귀 재작성",
+        "CF09 게임 보상 충돌 선지급",
+        "학교 출결·수면 전체 개선",
+        "미국 프렙 자율 루틴",
+        "동료 전원의 신뢰"
+      ],
+      "source_claims": [
+        {
+          "classification": "AUTHOR_LOCKED_CANON_FOUNDATION_EVENT_DETAIL_HOLD",
+          "claim": "팀에 필요한 경험은 반복돼야 학교에 오는 이유가 라이벌 밖으로 확장된다",
+          "path": "canon/CHARACTER_RESPONSIBILITY_ARC.md",
+          "section": "세 번의 문턱 / 한국 고교"
+        },
+        {
+          "classification": "CANDIDATE",
+          "claim": "자신이 맡은 준비 시간에 다시 나와 그 일을 한다",
+          "path": "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json",
+          "section": "A01-CF08"
+        }
+      ],
+      "promise_link": {
+        "id": "P2",
+        "role": "PLANT_ACTION_CANDIDATE",
+        "ledger_position": "A01-S2",
+        "silence_length_or_on_page_payoff_certified": false
+      },
+      "exact_date": null,
+      "episode_number": null,
+      "allocation_slot": null,
+      "school_permission_certified": false,
+      "individual_scene_pov_verified": false,
+      "realized_event_verified": false,
+      "actual_result": null,
+      "author_locked": false
+    }
+  ],
+  "information_boundary": {
+    "global_style": "S1",
+    "scope": "DESIGN_REVIEW_INFORMATION_RULES_NOT_SCENE_POV_CERTIFICATE",
+    "possible_in_world_access": [
+      "자신이 실제 수행한 행동",
+      "자신이 직접 본 공·위치·동료 행동",
+      "실제로 전달받은 과제·시간 조건"
+    ],
+    "not_yet_observed": [
+      "어떤 구체 과제를 전달받았는지",
+      "누가 어떤 준비를 대신 맡았는지",
+      "준비 수행 뒤 누구의 부담이 얼마나 줄었는지"
+    ],
+    "forbidden_access": [
+      "감독·라이벌·동료의 비공개 생각",
+      "미전달 학교 결정",
+      "장래 기술 완성·성공",
+      "팀원 전원의 신뢰"
+    ],
+    "story_known_claim_indexes": [],
+    "scene_segments": [],
+    "access_witnesses": [],
+    "exact_scene_date": null,
+    "individual_scene_pov_verified": false
+  },
+  "hold_fields": {
+    "exact_date": null,
+    "school_permission": null,
+    "school_name": null,
+    "teacher_authorization": null,
+    "class_attendance_completion": null,
+    "academic_supplement_completion": null,
+    "attendance_disposition": null,
+    "team_membership": null,
+    "athletic_registration": null,
+    "concrete_action_selection": null,
+    "drill_format": null,
+    "duration": null,
+    "named_teammate": null,
+    "observable_result": null,
+    "individual_scene_pov": null,
+    "episode_number": null
+  },
+  "school_constraints": [
+    "제안·참여·소속·등록·대회 자격은 서로 다른 사건",
+    "감독은 출결 불이익을 삭제하지 못함",
+    "체험 조건의 학업 보충과 법정 기초학력 프로그램 수료를 동일시하지 않음",
+    "제안일과 체험일·새 경계 날짜의 관계는 미선택",
+    "기존 학교 원문·개별 허가 미인증을 그대로 보존"
+  ],
+  "counts": {
+    "working_boundaries_added": 2,
+    "concrete_action_candidates": 4,
+    "new_local_core_blueprints_verified": 0,
+    "A01_existing_allocation_slots": 36,
+    "A01_allocation_slots_consumed": 0,
+    "final_episode_functions_added": 0,
+    "actual_context_packs_added": 0,
+    "new_author_locks": 0,
+    "manuscript_count": 0
+  },
+  "global_episode_assignment": false,
+  "actual_episode_pack": false,
+  "school_execution_cleared": false,
+  "full_design_complete": false,
+  "author_locked": false,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "tools_executed_in_this_packet": {
+    "Antigravity": "NOT_RUN",
+    "NotebookLM": "NOT_RUN",
+    "Claude": "NOT_RUN"
+  },
+  "review_scope": "SELF_SOURCE_AND_HANDOFF_CHECK_ONLY_INDEPENDENT_REVIEW_PENDING"
+}

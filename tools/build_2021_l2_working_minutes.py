@@ -92,13 +92,17 @@ def build():
                 raise ValueError('L2 qualifiers differ from existing playoff first round')
         finals = [g for g in games if g['event_id'] in {r['event_id'] for r in dated['games'] if r['conference']==conference}]
         for team in bracket[conference]['final_seeds'][6:8]:
-            qualification = next(g for g in finals if g['selected_winner']==team)
+            qualification = max((g for g in finals if g['selected_winner']==team),key=lambda g:g['date'])
             downstream = next(g for g in first_round.values() if team in g['teams'])
             if qualification['date']>=downstream['date_model']:
                 raise ValueError('playoff date precedes play-in qualification')
             dependencies.append(dict(team=team,qualification_event=qualification['event_id'],
                 qualification_date=qualification['date'],first_round_series=downstream['series'],
                 first_playoff_date=downstream['date_model'],qualifier_unchanged_from_selected_l2=True))
+    expected_qualification={'BOS':'2021-05-18_BOS_IND','IND':'2021-05-20_IND_CHI',
+        'POR':'2021-05-19_POR_GSW','MEM':'2021-05-21_GSW_MEM'}
+    if {r['team']:r['qualification_event'] for r in dependencies}!=expected_qualification:
+        raise ValueError('9/10 preliminary victory cannot be mistaken for final seed8 qualification')
     return dict(status='SIX_L2_DATED_MINUTE_AVAILABILITY_MODELS_APPLIED_TACTICAL_ROSTER_HOLD',
         authority=AUTH,source_sha256={p:calendar.sha(p) for p in (CALENDAR,REGULAR,PLAYOFF,AUTH,
             'tools/build_2021_l2_working_minutes.py','tools/build_2020_21_regular_clock_completion.py')},
