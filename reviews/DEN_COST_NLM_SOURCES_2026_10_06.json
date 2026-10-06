@@ -1,0 +1,75 @@
+{
+  "scope": "PRIMARY_CBA_AND_ORIGINAL_REPORT_AND_DERIVED_PACKET_DISTINCT_PROVENANCE",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "input_lf_normalized_utf8_sha256": "7814b2e533a5f9e5a3a68762dd49f0f4e4a962eb02a1ed52e17f4f4a534fb481",
+  "imports": [
+    {
+      "title": "NBA2017CBA_ORIGINAL",
+      "classification": "PRIMARY_CBA_PDF",
+      "file_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "result": {
+        "status": "RETURNED",
+        "exit_code": 1,
+        "elapsed_seconds": 52.389,
+        "process_budget_seconds": 60,
+        "pipe_drain_complete": true,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_retained": false,
+        "response": {
+          "error": "Could not add file source: Source 5b958455-c880-4ecd-be28-0d357c75bbe6 not ready after 45.0s"
+        }
+      },
+      "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+      "recovery": {
+        "method": "source_list_exact_ID_from_original_timeout_error",
+        "source_id": "5b958455-c880-4ecd-be28-0d357c75bbe6",
+        "title": "fr-2017-cba.pdf",
+        "type": "pdf",
+        "status": 2,
+        "elapsed_seconds": 4.622,
+        "original_import_timeout_preserved": true,
+        "new_imports": 0
+      }
+    },
+    {
+      "title": "DEN_BI_ORIGINAL_REPORT_EXTRACT",
+      "classification": "ORIGINAL_REPORT_BODY_TEXT_EXTRACT_NOT_AUTHOR_PACKET",
+      "file_raw_sha256": "45cca533229da9b16daa12d9d13f3b8084705b89aa13e810f8905a1800e9f2bd",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-denver-cost-2026-10-06\\NLM_BI_DEN_original_report_text.txt",
+      "original_HTML_raw_sha256": "d6a41cd3209a62c428578ea14c7acc1fe7338df4c206bf871b8e4de41b5af942",
+      "result": {
+        "status": "RETURNED",
+        "exit_code": 0,
+        "elapsed_seconds": 16.215,
+        "process_budget_seconds": 60,
+        "pipe_drain_complete": true,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_retained": false,
+        "response": {
+          "source_id": "42b74aa3-448f-4699-9cbc-ed6d5887d51c"
+        }
+      },
+      "source_id": "42b74aa3-448f-4699-9cbc-ed6d5887d51c"
+    },
+    {
+      "title": "DEN_CURRENT_CANDIDATE",
+      "classification": "OWN_DERIVED_CANDIDATE",
+      "file_raw_sha256": "625900cab0239722b749410d435e839b285b8cc6e5217185c14ca5d0d8640d17",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\first-rebound-denver-cost-2026-10-06\\NLM_DEN_candidate_immutable.txt",
+      "result": {
+        "status": "RETURNED",
+        "exit_code": 0,
+        "elapsed_seconds": 15.92,
+        "process_budget_seconds": 60,
+        "pipe_drain_complete": true,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_retained": false,
+        "response": {
+          "source_id": "303b5911-f546-414c-96f7-edb188bfc199"
+        }
+      },
+      "source_id": "303b5911-f546-414c-96f7-edb188bfc199"
+    }
+  ]
+}

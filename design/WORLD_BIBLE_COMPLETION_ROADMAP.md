@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-06 [Denver 전체 비용행 종료](../reviews/DEN_FULL_COST_REVIEW_2026_10_06.md): T1전132,646,932·후135,692,588(최소apron여유3,235,412), 수취bonus전범위·신인/FA/방출/후속·A–G/53일을 원문·산술·독립 검문했다. 같은 증인으로 DEN_COMPLETE_COST/DEN_F5_COMPLETE_COST 종료: 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 픽2개·DEN 픽/양측charge, 건강/분/전체시즌이 남는다. 미완료큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래 법적7/5·F1/5 등의 숫자는 이전 이력이다.
+
 2026-10-06 [Cleveland 전체 비용행 종료](../reviews/CLE_FULL_COST_REVIEW_2026_10_06.md): 보존된 공개 계약군의 전체 비용 상한137,501,394와 apron 여유1,426,606을 원문·A–G·53일 연결·별도 독립 검문으로 확인했다. Jan4 Cleveland 위젯에서 McGee4.2m 거래 전 현재 Salary도 회수했다. 법적7완료/5HOLD·F법적1/5(F4)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 두 픽·DEN 자산/양 비용행과 건강/분이 남는다. 큰 묶음6개 미완료·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래6완료/6HOLD는 PR423 이력이다.
 
 2026-10-06 [Chicago·Orlando 전체 비용행 종료](../reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): CHI전체공개비용132,367,326.15·ORLF4전체apron137,768,857·ORLF2전중간포함상단138,303,543을실제원문/지문/구성/독립검문으로종료했다. 새annual산입0·camp/RequiredTender/모든incomingbonus도포함. 법적6완료/6HOLD·F법적1/5(F4)·A0/3 K0/4·시즌미확정. CHI matching·픽/다른팀급여·건강/분은미완료. AG응답회수/기사본문실패·NLM분석회수·Claude70초timeout·전체blind/G16미실행. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
@@ -40,12 +42,12 @@
 
 2026-10-04 [A08 라이브 패스 검수](../reviews/A08_LIVEPASS_REVIEW_2026_10_04.md): 기존2022–23의60슬롯/3소막과A07인계에5인과후보를 연결했다. 실제관측 오류만수정·공개급여 기반전달설명 접근명확화·상태/해시/null/MD/11링크PASS·제한Codex검문. NLM53.651초응답/요약경계누락교정·Claude세션한도8.475초오류는통과아님. 현행7행표를구판누적표와분리해동기화했다. 최종회차0·실제Pack0·법적12HOLD/F0/5 A0/3 K0/4·미완료6·G11규격완료·PARTIAL/CLOSED·원고0.
 
-## 현행 전체 7행 진행표 — 2026-10-06 Cleveland 비용행 종료
+## 현행 전체 7행 진행표 — 2026-10-06 Denver 비용행 종료
 
 | 번호 | 전체 작업 | 현행 상태·남은 핵심 |
 |---|---|---|
 | 1 | 2020 드래프트 연쇄 | 완료. 기존 작가 선택·연쇄 보존 |
-| 2 | Chicago 2020–21 | 진행: 결과 디자인/15시리즈88날짜 후보 보존. ORL·DEN/CLE 등록, BOS·CHI·ORL F4/F2·CLE 전체 비용 종료. 법적7완료/5HOLD·F법적1/5(F4)·A0/3·K0/4. CHI matching·BOS 두 픽·DEN 자산/두 비용행·건강/분/시즌 미완료 |
+| 2 | Chicago 2020–21 | 진행: 결과 디자인/15시리즈88날짜 후보 보존. ORL·DEN/CLE 등록과 BOS·CHI·ORL F4/F2·CLE·DEN F3/F5 전체 비용 종료. 법적9완료/3HOLD·F법적2/5(F4,F5)·A0/3·K0/4. CHI matching·BOS 두 픽·DEN 자산/양측charge·건강/분/시즌 미완료 |
 | 3 | 2021–23 거래·계약 | M1/G1A 방향 선택. M1 정상일5인48/240증인, A07의6/A08의5기능 후보. 전체 비용·계약 실행·시즌 미완료 |
 | 4 | 주인공·라이벌 장기 커리어 | 17시즌 행동/비용·A09–A14 27인과후보 연결. H2·RC1·AW2·NM1의 중요 결과·후속 정확 실행 미완료 |
 | 5 | 결말·전체 구조 | 14막/42소막/780배분. 인과82/대학대표3·A01국소Blueprint3(9Beat) 보존. 학교원문4/FACT9와 수락/참가·G13/G14 조건 수리. 전체 회차 배치 미정·최종 회차 기능0 |

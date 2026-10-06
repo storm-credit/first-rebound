@@ -1,5 +1,9 @@
 # Cleveland 전체 비용행 종료 검수 — 2026-10-06
 
+## PR424 이후 공개점 충돌의 보수적 보완 — 현행 상한137,835,769
+
+3/10 Luke Adams 원문은 Nets 송출 계산의 Prince12,584,375, Allen3,909,902를 명시했다. 기존 Prince현재Salary12,250,000과 차이334,375 전액을 추가 예약했고, 기존unlikely1,837,500도 그대로 남겼다. Allen차이0. 현행 전체상한137,835,769·apron여유1,092,231. 원문은 차액 성격과 CLE 귀속을 설명하지 않으므로 bonus/likely/영수증으로 확정하지 않는다. 원HTML80240B/SHA·본문을 부모와 chi_salary_domain이 실제 확인, independent_finish_scope가 새 전체상단을 수용했다. raw37개이며 입력11개는 보존됐다. 불변 NLM 입력/응답의 이전137,501,394는 당시 검문 이력이다. [원 보도](https://www.hoopsrumors.com/2021/03/hoops-rumors-glossary-traded-player-exception-3.html). 아래 이전 숫자/36raw는 PR424 이력이다.
+
 - 기준 main1f602de63c9f5dd4d8dc722f03ce9c1770e63a7b, PR423 이후.
 - [전체 비용 증인](../research/CLEVELAND_PUBLIC_COMPONENT_BOUND_2026_10_06.json)의 보존 공개 계약·사건 입력군 상한137,501,394 ≤ apron138,928,000, 여유1,426,606.
 - **CLE_COMPLETE_COST만 추가 LEGAL_BOUND_PASS**, 법적7완료/5HOLD. F법적1/5(F4)·A 실행0/3·K0/4·시즌 미확정·미완료 큰 묶음6개.
