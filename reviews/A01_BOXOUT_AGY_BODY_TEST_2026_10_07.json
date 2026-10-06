@@ -1,0 +1,59 @@
+{
+  "scope": "AGY_LOCAL_PRIMARY_EXTRACT_BODY_TEST_NOT_NEW_INDEPENDENT_SOURCE_OR_G16",
+  "diagnostic_change": "Documented JSON output with nonempty schema instead of previous stream-json; explicit local direct-primary page extract",
+  "source_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-fiba-boxout-page-extract-20261007.json",
+  "source_sha256": "58aefd5829cd4f75464723e534f66350190db17f87546173ae5d73ff4ce54fe1",
+  "prompt_sha256": "4f493f9b764217bef9049b08885d203fc54d7480a00d8c3e170ad1e9d1f89d3e",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 26.705,
+    "stdout_nonempty": true,
+    "stdout_sha256": "0731e007cf1b7c9c834320753c41819341184150b43522696e13da65b2cbb231",
+    "stderr_retained": false,
+    "response": {
+      "conversation_id": "61888837-1e3d-473c-8e2c-967cd0f8d1eb",
+      "status": "SUCCESS",
+      "response": "{\"answer\":\"박스아웃의 첫 번째 단계는 슛이 나올 때 바스켓만 보지 말고 상대를 끝까지 시야에 두는 것입니다. 또한, 팔을 뻗어 상대를 미는 행위는 파울로 명시되어 있습니다.\",\"locator\":\"C:/Users/Storm Credit/AppData/Local/Temp/fr-fiba-boxout-page-extract-20261007.json, PDF page 157\",\"source_status\":\"BODY_READ\",\"toolAction\":\"Finishing task\",\"toolSummary\":\"Provide final answer\"}\n",
+      "duration_seconds": 18.4424251,
+      "num_turns": 1,
+      "structured_output": {
+        "answer": "박스아웃의 첫 번째 단계는 슛이 나올 때 바스켓만 보지 말고 상대를 끝까지 시야에 두는 것입니다. 또한, 팔을 뻗어 상대를 미는 행위는 파울로 명시되어 있습니다.",
+        "locator": "C:/Users/Storm Credit/AppData/Local/Temp/fr-fiba-boxout-page-extract-20261007.json, PDF page 157",
+        "source_status": "BODY_READ"
+      }
+    }
+  },
+  "source_certified": false,
+  "new_primary_documents": 0,
+  "whole_gate_certified": false,
+  "parsed_terminal": {
+    "output_format": "json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "61888837-1e3d-473c-8e2c-967cd0f8d1eb",
+      "status": "SUCCESS",
+      "response": "{\"answer\":\"박스아웃의 첫 번째 단계는 슛이 나올 때 바스켓만 보지 말고 상대를 끝까지 시야에 두는 것입니다. 또한, 팔을 뻗어 상대를 미는 행위는 파울로 명시되어 있습니다.\",\"locator\":\"C:/Users/Storm Credit/AppData/Local/Temp/fr-fiba-boxout-page-extract-20261007.json, PDF page 157\",\"source_status\":\"BODY_READ\",\"toolAction\":\"Finishing task\",\"toolSummary\":\"Provide final answer\"}\n",
+      "duration_seconds": 18.4424251,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [],
+    "malformed_line_count": 0,
+    "stdout_sha256": "c2818c99288edee4562a040006872a1fd0dfcf6fbe06676522f6bdbbc70788d1",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "",
+      "char_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "truncated": false,
+      "available": false,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "body_answer_recovered": true,
+  "answer_compared_to_directly_read_primary_page": true,
+  "source_read_tool_trace_verified": false
+}

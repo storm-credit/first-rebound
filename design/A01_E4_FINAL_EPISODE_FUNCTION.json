@@ -1,0 +1,242 @@
+{
+  "schema": "A01_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A01-EF-004",
+  "act": "A01",
+  "primary_subact": "A01-S2",
+  "source_conditional_function": "A01-CF07",
+  "final_function_order": 4,
+  "planned_allocation_slot": 4,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "prior_function_slots": 3,
+    "this_function_slots": 1,
+    "assigned_function_slots_through_this": 4,
+    "remaining_planned_slots": 32,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "local_contiguous_functions_through_this": 4,
+  "previous_function": {
+    "id": "A01-EF-003",
+    "path": "design/A01_E3_FINAL_EPISODE_FUNCTION.json",
+    "exit_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다."
+  },
+  "local_blueprint": {
+    "schema": "A01_CF07_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_LOCAL_ROUTINE_DESIGN_ONLY_NOT_AUTHOR_LOCK_OR_FULL_G13",
+    "source_currentness": "Selected CF07 model and E3 full exit validated against current source files",
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a01_e4_final_episode_function.py": "036828554ccd76e8b5a73cd033e1c2cf81ef47237b55bb1b02c79fe19c6bdb5c",
+      "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json": "62e67ed168f62edb71e723f97971c00ac233eaf179caf113ee72abb94c3f14b5",
+      "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "7b4b33a1796b323aa689466538b9d8ee1aed87cd85157c7ef2ff329bebbc3f94",
+      "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "entry_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+    "single_function": "첫 본능적 기여와 반복 가능한 기본 박스아웃 준비가 다르다는 부족을 자기 시도와 재시도로 확인한다",
+    "unit_choice": "첫 기본 과제를 박스아웃으로 좁혀 눈에 보이는 자리잡기 부족을 확인하고 접근 순서의 재시도까지만 한다",
+    "exit_state": "첫 박스아웃 시도의 위치 부족을 직접 확인하고 다음 시도에서 상대 위치를 먼저 보려 했다. 반복 성공·기술 숙련은 확인되지 않았으며 팀 준비 약속의 구체 작업은 아직 후보로 남는다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "L1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "기본 박스아웃 과제를 전달받고 상대 위치보다 공을 먼저 좇는 첫 시도를 한다",
+        "observable_result": "공을 먼저 보던 뒤 상대가 자신과 바스켓 사이에 먼저 자리한 것을 보고, 자기 발 위치를 제때 바꾸지 못해 그 사이 자리를 확보하지 못한 자기 수행의 부족을 확인한다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "상대의 득점·공식 경기 패배·부상·감독 속마음",
+        "protagonist_access": "자신에게 전달된 과제·자기 몸 움직임·상대의 보이는 위치에 한정",
+        "source_path": "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json",
+        "source_step": "L1",
+        "author_locked": false
+      },
+      {
+        "id": "L2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "다음 시도에서 공부터 좇는 접근을 반복하지 않고 상대 위치를 먼저 확인한 뒤 합법적 몸과 발 위치를 세워 보려 한다",
+        "observable_result": "두 접근 중 상대 위치부터 보는 쪽을 택해 시도했다는 행동까지만 확인한다",
+        "choice_options": [
+          "공을 먼저 좇는 기존 접근을 반복한다",
+          "상대 위치를 먼저 확인하는 접근을 택한다"
+        ],
+        "selected_choice": "상대 위치를 먼저 확인하는 접근을 택한다",
+        "not_claimed": "박스아웃 성공·리바운드 확보·기술 숙련·라이벌 추월",
+        "protagonist_access": "자신에게 전달된 과제·자기 몸 움직임·상대의 보이는 위치에 한정",
+        "source_path": "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json",
+        "source_step": "L2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "E3 full exit < L1 first task/shortfall < L2 changed approach attempt"
+    ],
+    "direct_present_cost": "첫 성공을 다시 과시할 훈련 시간을 눈에 덜 띄는 기본 자리잡기 시도에 쓴다. 특정 득점 기회 상실은 주장하지 않는다.",
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "실제로 전달받은 기본 과제",
+        "자기 첫 시도와 상대의 보이는 위치",
+        "자기 재시도 순서"
+      ],
+      "not_available_without_access": [
+        "감독·상대의 비공개 평가",
+        "미래 숙련·성공",
+        "동료 전원의 신뢰"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "school_access": {
+      "C1_C2_C3_clearance_automatically_extends_to_CF07": false,
+      "bounded_CF07_learning_session_path_selected": true,
+      "same_fictional_school_plan": true,
+      "pre_session_condition_check_in_selected_model": {
+        "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+        "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+        "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+      },
+      "coach_supervision_and_safety": true,
+      "actual_real_school_or_case_records_certified": false,
+      "registration_or_contest_eligibility_certified": false
+    },
+    "unassigned_details": {
+      "school_name": null,
+      "date_or_session_number": null,
+      "training_partner_identity": null,
+      "exact_drill_or_contact": null,
+      "score_rebound_or_possession_outcome": null,
+      "academic_or_attendance_records": null,
+      "team_preparation_task_or_burden_holder": null
+    },
+    "actual_real_school_or_case_records_certified": false,
+    "technique_mastery_or_repeat_success_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "첫 본능적 기여와 반복 가능한 기본 박스아웃 준비가 다르다는 부족을 자기 시도와 재시도로 확인한다",
+  "entry_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+  "unit_choice": "첫 기본 과제를 박스아웃으로 좁혀 눈에 보이는 자리잡기 부족을 확인하고 접근 순서의 재시도까지만 한다",
+  "exit_state": "첫 박스아웃 시도의 위치 부족을 직접 확인하고 다음 시도에서 상대 위치를 먼저 보려 했다. 반복 성공·기술 숙련은 확인되지 않았으며 팀 준비 약속의 구체 작업은 아직 후보로 남는다.",
+  "direct_present_cost": "첫 성공을 다시 과시할 훈련 시간을 눈에 덜 띄는 기본 자리잡기 시도에 쓴다. 특정 득점 기회 상실은 주장하지 않는다.",
+  "reader_question_at_end": "이 기본 준비를 팀이 필요로 하는 반복 행동으로 연결할 수 있는가",
+  "internal_order": [
+    "L1",
+    "L2"
+  ],
+  "beats": [
+    {
+      "id": "L1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "기본 박스아웃 과제를 전달받고 상대 위치보다 공을 먼저 좇는 첫 시도를 한다",
+      "observable_result": "공을 먼저 보던 뒤 상대가 자신과 바스켓 사이에 먼저 자리한 것을 보고, 자기 발 위치를 제때 바꾸지 못해 그 사이 자리를 확보하지 못한 자기 수행의 부족을 확인한다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "상대의 득점·공식 경기 패배·부상·감독 속마음",
+      "protagonist_access": "자신에게 전달된 과제·자기 몸 움직임·상대의 보이는 위치에 한정",
+      "source_path": "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json",
+      "source_step": "L1",
+      "author_locked": false
+    },
+    {
+      "id": "L2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "다음 시도에서 공부터 좇는 접근을 반복하지 않고 상대 위치를 먼저 확인한 뒤 합법적 몸과 발 위치를 세워 보려 한다",
+      "observable_result": "두 접근 중 상대 위치부터 보는 쪽을 택해 시도했다는 행동까지만 확인한다",
+      "choice_options": [
+        "공을 먼저 좇는 기존 접근을 반복한다",
+        "상대 위치를 먼저 확인하는 접근을 택한다"
+      ],
+      "selected_choice": "상대 위치를 먼저 확인하는 접근을 택한다",
+      "not_claimed": "박스아웃 성공·리바운드 확보·기술 숙련·라이벌 추월",
+      "protagonist_access": "자신에게 전달된 과제·자기 몸 움직임·상대의 보이는 위치에 한정",
+      "source_path": "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json",
+      "source_step": "L2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A01-CF08",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_entry_non_authoritative_summary": "팀 기여를 반복하기 위한 준비 과제가 생기고 미완성 기술이 남는다",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "첫 박스아웃 시도의 위치 부족을 직접 확인하고 다음 시도에서 상대 위치를 먼저 보려 했다. 반복 성공·기술 숙련은 확인되지 않았으며 팀 준비 약속의 구체 작업은 아직 후보로 남는다.",
+    "candidate_is_executed_here": false,
+    "candidate_is_final_episode_function": false,
+    "team_preparation_task_or_burden_holder": null
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "실제로 전달받은 기본 과제",
+      "자기 첫 시도와 상대의 보이는 위치",
+      "자기 재시도 순서"
+    ],
+    "not_available_without_access": [
+      "감독·상대의 비공개 평가",
+      "미래 숙련·성공",
+      "동료 전원의 신뢰"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "school_authority": {
+    "C1_C2_C3_clearance_automatically_extends_to_CF07": false,
+    "bounded_CF07_learning_session_path_selected": true,
+    "same_fictional_school_plan": true,
+    "pre_session_condition_check_in_selected_model": {
+      "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+    },
+    "coach_supervision_and_safety": true,
+    "actual_real_school_or_case_records_certified": false,
+    "registration_or_contest_eligibility_certified": false
+  },
+  "unassigned_details": {
+    "school_name": null,
+    "date_or_session_number": null,
+    "training_partner_identity": null,
+    "exact_drill_or_contact": null,
+    "score_rebound_or_possession_outcome": null,
+    "academic_or_attendance_records": null,
+    "team_preparation_task_or_burden_holder": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_e4_final_episode_function.py": "036828554ccd76e8b5a73cd033e1c2cf81ef47237b55bb1b02c79fe19c6bdb5c",
+    "design/A01_CF07_BOXOUT_WORKING_MODEL_2026_10_07.json": "62e67ed168f62edb71e723f97971c00ac233eaf179caf113ee72abb94c3f14b5",
+    "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "7b4b33a1796b323aa689466538b9d8ee1aed87cd85157c7ef2ff329bebbc3f94",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED only means this local Blueprint matches current selected design and upstream source revisions.",
+    "The selected L1 shortfall and L2 changed attempt are routine fictional design, not preexisting author-locked facts.",
+    "A body-position deficiency in the earlier C2 rebound is not inferred from the new L1 failure.",
+    "No successful repeat, mastery, rival outcome, contest result, injury, or actual school records are certified.",
+    "CF08 remains unexecuted; its candidate entry is not automatically the exact full exit here."
+  ],
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
