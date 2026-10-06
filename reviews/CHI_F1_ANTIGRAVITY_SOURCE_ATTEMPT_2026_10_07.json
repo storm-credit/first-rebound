@@ -1,0 +1,67 @@
+{
+  "scope": "ONE_OFFICIAL_GREEN_SIGNING_SOURCE_ATTEMPT_NOT_BONUS_OR_MATCHING_PROOF",
+  "source_url": "https://www.nba.com/celtics/news/pressrelease/celtics-sign-four-players",
+  "prompt_sha256": "01fdd78980b7510ccf331ff8c4674a3f14ef2ba5095cc6a3cc7e7be03037fce6",
+  "diagnostic_change": "stdin_DEVNULL_instead_of_inherited_input; different_source; no_login_state_inference",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 53.001,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "5479c7d6-787b-40fc-8981-20fe0f536448",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 31.0065454,
+        "num_turns": 1
+      },
+      "response_recovered": false,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "view_file",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "view_file",
+          "tool_output_present": true,
+          "tool_output_kind": "string",
+          "tool_output_char_count": 21,
+          "tool_output_sha256": "51985c4d3e9097852ac01b07dfd645872d98dfd310afc45a1fe8c06e189902cc"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "683307e493c1e29be2fe8d79a9c0639d124e0d4ac02450fe30f7060dd0bb43a5",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC",
+      "partial_agent_response": {
+        "text": "",
+        "char_count": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "truncated": false,
+        "available": false,
+        "terminal_response_certified": false,
+        "source_evidence_certified": false
+      }
+    }
+  },
+  "source_certified": false,
+  "whole_gate_certified": false
+}

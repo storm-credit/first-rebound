@@ -6,16 +6,18 @@
 - 이 문서가 수행한 작업은 세 종료안 비교와 첫 작업 회차의 포함·종료·인계 범위 선택 **1건**이다. 기존 Blueprint의 사건 검증 상태가 회차 확정으로 자동 승격된 결과가 아니다.
 - 기존 사용자 계속 진행 권한에 따른 편집 선택이며, 새 정본 사건·작가 잠금·학교 허가·개별 장면 POV·전역 회차 번호를 선택하지 않는다. 독립 검문과 전역 배치는 이 문서의 완료 범위 밖이다.
 
+**2026-10-07 후속 현재성 주석:** 아래 `WORKING_BOUNDARY`·최종 기능 0·36슬롯 소모 0은 이 경계 비교를 기록한 **2026-10-06 당시 계수**다. 후속 [A01-EF-001 최종 회차 기능](A01_E1_FINAL_EPISODE_FUNCTION.md)은 B1–B4를 첫 기능 순서·계획 슬롯 1에 배치해 국소 기능 1개를 완료했다. 계획 슬롯 잔여는 35개이며 출판 회차 번호·총회차 수·전체 G13/G14·실제 Pack·원고 허가는 여전히 확정/완료되지 않았다. 이 주석은 기존 종료안 비교나 사건 정본을 변경하지 않는다.
+
 ## 1. 입력과 증거 구분
 
 세 Blueprint는 현재 파일의 `status=ACTUAL_VERIFIED`를 입력으로 읽었다. 이 표시는 정본 국소 핵심 사건에 관한 한정 검증이며, 실제 학교 조건 이행·개별 장면·회차 배치·Context Pack 인증으로 읽지 않는다. 아래 SHA는 이번 편집 판단이 실제 읽은 파일의 지문이다.
 
 | 실제 읽은 원본 | `source_rev_sha256` |
 | --- | --- |
-| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `070b784fc2d0d8a68eb2026301e40dbd7b21a49a65a1c7a0b607198cba8f94bf` |
-| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `3b7c10e92ac3d5b1261cc2fea215c6a8c3cb390cb94aee1c5516fc960fb4ec1f` |
-| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `701887356db2ebb89c7516d51018f577f84de107cb1e65f4fe1d5706987d78a3` |
-| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `9c3d92f8f98406d081a40e77597ab9c40f4eb88b633c3e917739a1771dc1c587` |
+| [design/A01_OPENING_BLUEPRINT.json](A01_OPENING_BLUEPRINT.json) | `8ee5d68e0cf52f8329e34ac040c266fff61d4f78c55b3191ebc5ba63535c9581` |
+| [design/A01_FIRST_TRIAL_BLUEPRINT.json](A01_FIRST_TRIAL_BLUEPRINT.json) | `873706277db0bb36ce842a5e7b4e8dad2b90b42a6a816caf4987e4892496a21a` |
+| [design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json](A01_FIRST_CONTRIBUTION_BLUEPRINT.json) | `366b92451c190f3ae670ac46cfdb34569c4dc2588d52243d6dc1efd6c79a49ae` |
+| [design/CP2_ACT_SUBACT_PACKET.json](CP2_ACT_SUBACT_PACKET.json) | `134c50ba2d47bd49b1cddec95e5307b50794ad1315a85ee489f1a0330fcfec55` |
 | [canon/STORY_BIBLE.md](../canon/STORY_BIBLE.md) | `9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be` |
 | [canon/CHARACTER_RESPONSIBILITY_ARC.md](../canon/CHARACTER_RESPONSIBILITY_ARC.md) | `6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb` |
 

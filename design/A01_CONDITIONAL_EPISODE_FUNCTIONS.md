@@ -1,5 +1,7 @@
 # A01 한국 고교 — 12개 조건부 인과 기능 단위
 
+2026-10-07 현행 국소 완료: [A01-EF-001](A01_E1_FINAL_EPISODE_FUNCTION.md) 첫 기능/slot1 배정. 이 문서의 인과후보12는 그대로 후보이며 아래 최종기능0은 이전 스냅샷이다. 전체G13 미완료·실제Pack0·원고0.
+
 - 상태: `TWELVE_CONDITIONAL_CAUSAL_FUNCTIONS_NOT_FINAL_G13` / 개정3.
 - 기준 main: `108858f570abc69c1f36176b9787161fe80283a4`.
 - 단일 기능 원장: [JSON](A01_CONDITIONAL_EPISODE_FUNCTIONS.json). 조건부 기능12·최종 회차 기능0·실제 Context Pack0·새 작가 결정0·원고0.
