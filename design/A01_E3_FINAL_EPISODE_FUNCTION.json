@@ -1,0 +1,245 @@
+{
+  "schema": "A01_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A01-EF-003",
+  "act": "A01",
+  "primary_subact": "A01-S2",
+  "entry_bridge_from_subact": "A01-S1",
+  "subact_boundary_basis": "Existing conditional CF05 is S1; CF06 and CF07 are S2 candidates. C1–C3 remain one reviewed local core.",
+  "final_function_order": 3,
+  "planned_allocation_slot": 3,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "prior_function_slots": 2,
+    "this_function_slots": 1,
+    "assigned_function_slots_through_this": 3,
+    "remaining_planned_slots": 33,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "local_contiguous_functions_through_this": 3,
+  "previous_function": {
+    "id": "A01-EF-002",
+    "path": "design/A01_E2_FINAL_EPISODE_FUNCTION.json",
+    "exit_state": "체육관에 남을 명분과 자존심으로 첫 훈련에 들어갔고 같은 학년 라이벌에게 기술·판단·위치선정으로 완패했다. 다음 훈련에 남는 행동은 이 단위 밖이다."
+  },
+  "single_function": "동갑에게 지기 싫어 남던 이유가 첫 팀 기여를 통해 팀에 필요한 사람이라는 자기 느낌으로 확장된다",
+  "entry_state": "체육관에 남을 명분과 자존심으로 첫 훈련에 들어갔고 같은 학년 라이벌에게 기술·판단·위치선정으로 완패했다. 다음 훈련에 남는 행동은 이 단위 밖이다.",
+  "unit_choice": "자존심 때문에 다음 훈련에 남고 첫 유효 리바운드·아웃렛으로 연결한다. 새로운 훈련 일정·대결·등록·학교 승인 선택은 추가하지 않는다.",
+  "exit_state": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+  "direct_present_cost": {
+    "claim": "다시 남은 훈련 시간에는 훈련 밖 자유시간을 동시에 쓰지 못하고, 공을 확보한 뒤에는 이어지는 아웃렛에 그 공과 몸의 움직임을 사용한다.",
+    "evidence_class": "INFERENCE_DIRECT_TIME_AND_ACTION_COST",
+    "inference_ids": [
+      "I1",
+      "I2"
+    ],
+    "not_claimed": "특정 게임 약속 취소·자기 슛 성공 기회 보장·정확 시간/부하·학교 조건 완료·즉시 책임 성장 완성"
+  },
+  "reader_question_at_end": "첫 본능적 기여를 다시 할 수 있도록 위치·박스아웃·패스의 무엇을 배울 것인가",
+  "reader_question_class": "EDITORIAL_INFERENCE_FROM_LOCKED_LEARNING_DIRECTION_NOT_NEW_EVENT",
+  "internal_order": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "beats": [
+    {
+      "id": "C1",
+      "function_event": "동갑에게 무시당한 자존심 때문에 다음 훈련에 남는다",
+      "relative_time": "first-trial T2 완패 뒤의 다음 훈련. 정확한 훈련일·시각은 미정",
+      "claims": [
+        {
+          "claim": "주인공은 농구의 꿈이 아니라 동갑에게 무시당한 자존심 때문에 다음 훈련에 남는다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 2단계 셋째 항목",
+          "protagonist_access": "자신의 완패 기억·자존심과 다시 남은 행동",
+          "other_person_access": "현재 원본 밖의 반응·칭찬·대사·속마음·권한을 추가하지 않음",
+          "unknown": "정확 훈련일·재방문 동선·체험 허가·수업/보충 이행·말로 한 약속"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "function_event": "본능적으로 낙하지점을 선점한 첫 유효 리바운드와 이어진 아웃렛이 팀 득점을 만든다",
+      "relative_time": "C1의 잔류 뒤 첫 유효 기여. 리바운드 < 아웃렛 < 팀 득점은 한 연속 단위이며 각각 별도 회차 기능으로 분할하지 않음",
+      "claims": [
+        {
+          "claim": "주인공의 첫 유효 기여는 본능적으로 낙하지점을 선점한 리바운드다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 3단계 첫째 항목",
+          "protagonist_access": "자신이 공을 확보한 현재 수행",
+          "other_person_access": "현재 원본 밖의 반응·칭찬·대사·속마음·권한을 추가하지 않음",
+          "unknown": "정확 경기/훈련 형식·누구의 슛·공의 경로·점프/발동작·상대·기록"
+        },
+        {
+          "claim": "이어지는 아웃렛 패스로 팀의 득점이 만들어진다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_EVENT",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 3단계 둘째 항목",
+          "protagonist_access": "자신의 연결과 실제 이어진 팀 득점을 관측",
+          "other_person_access": "현재 원본 밖의 반응·칭찬·대사·속마음·권한을 추가하지 않음",
+          "unknown": "수신자/득점자 신원·정확 거리·패스 동작·득점 종류·점수"
+        },
+        {
+          "claim": "한 번의 성공은 완성된 기술이나 천재 인증이 아니라 이후 박스아웃·위치선정·패스 학습을 시작하게 하는 증거다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_DEVELOPMENT_BOUNDARY",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 3단계 셋째 항목",
+          "protagonist_access": "본인은 성공을 경험하지만 원본의 장기 학습 판정은 설계자 경계이며 인물이 이미 완성/향후 학습 결과를 안다고 쓰지 않음",
+          "other_person_access": "현재 원본 밖의 반응·칭찬·대사·속마음·권한을 추가하지 않음",
+          "unknown": "학습을 누가 언제 어떤 드릴로 시작하는지·기간·성취 결과"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "function_event": "라이벌 외에 팀이 자신을 필요로 한다고 느껴 농구를 계속할 이유가 생긴다",
+      "relative_time": "C2 첫 유효 기여 뒤. 느낌이 외부에 드러나는 정확 시점·표현은 미정",
+      "claims": [
+        {
+          "claim": "주인공이 라이벌 외에도 농구를 계속하는 이유는 처음으로 팀이 자신을 필요로 했다고 느꼈기 때문이다",
+          "evidence_class": "AUTHOR_LOCKED_CANON_MOTIVATION",
+          "source_path": "canon/STORY_BIBLE.md",
+          "source_anchor": "농구 입문 동기 — LOCKED / 3단계 넷째 항목",
+          "protagonist_access": "자신의 느낌과 농구를 계속할 이유만 접근. 동료 전원의 생각이나 실제 장기 신뢰는 알 수 없음",
+          "other_person_access": "현재 원본 밖의 반응·칭찬·대사·속마음·권한을 추가하지 않음",
+          "unknown": "필요하다고 느끼는 구체 외부 반응·대사·이후 참여 일정"
+        }
+      ]
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A01-CF07",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_function": "첫 성공 뒤 위치 학습",
+    "candidate_entry_non_authoritative_summary": "동료의 득점으로 이어지면서 자신의 득점 없이 팀이 자신을 필요로 하는 첫 경험이 생긴다",
+    "exact_full_entry_for_next_function": "동갑에게 무시당한 자존심으로 다음 훈련에 남았고 본능적 리바운드·아웃렛으로 팀 득점에 기여했다. 팀이 자신을 필요로 했다고 느껴 라이벌 외에도 농구를 계속할 이유가 생긴다. 기술 학습과 수업·생활 변화는 아직 이후 과제다.",
+    "candidate_entry_is_exact_string_match": false,
+    "candidate_summary_is_verified_projection_of_full_exit": false,
+    "candidate_summary_unverified_extra_detail": [
+      "자신의 득점 없이"
+    ],
+    "locked_learning_direction": "첫 성공을 근거로 이후 박스아웃·위치선정·패스 학습을 시작한다",
+    "is_executed_in_this_function": false,
+    "candidate_is_final_episode_function": false
+  },
+  "information_access": {
+    "pov_style_direction": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "individual_scene_pov_verified": false,
+    "protagonist_knows": [
+      "자신의 완패와 무시당한 자존심",
+      "다음 훈련에 남은 행동",
+      "자신이 리바운드하고 아웃렛한 수행",
+      "이어진 팀 득점과 팀에 필요하다고 느끼는 자기 경험"
+    ],
+    "not_available_without_new_access": [
+      "감독·라이벌·팀원들의 비공개 평가·생각",
+      "동료 전원의 장기 신뢰·미래 선수 평가",
+      "이후 기술 학습의 성취 결과",
+      "학교 행정·수업/보충 이행·등록 처리의 미확인 결과"
+    ],
+    "exact_date": null,
+    "school_name": null,
+    "school_administrative_permission_or_disposition": null,
+    "attendance_or_supplement_execution": null,
+    "new_match_or_trial_format": null,
+    "exact_movements_or_body_load": null,
+    "score_or_record": null,
+    "outlet_receiver_or_scorer_name": null,
+    "external_reaction_or_dialogue": null,
+    "known_relative_time": {
+      "claim": "패배 다음 날 처음으로 자발적으로 체육관에 나타남",
+      "evidence_class": "AUTHOR_LOCKED_CANON_RELATIVE_TIME",
+      "source_path": "canon/CHARACTER_RESPONSIBILITY_ARC.md",
+      "source_anchor": "한국 고교 행 / 행동 증거",
+      "relation_to_C1": "NEXT_DAY_REVISIT_PRESERVED_EXACT_C1_CORRESPONDENCE_UNASSIGNED"
+    },
+    "school_administrative_disposition": null
+  },
+  "source_inferences": [
+    {
+      "id": "I1",
+      "claim": "다음 훈련에 실제 남은 시간은 그 시간의 훈련 밖 자유시간과 중복 사용할 수 없다.",
+      "evidence_class": "INFERENCE_DIRECT_TIME_COST",
+      "basis": [
+        "C1"
+      ],
+      "limit": "게임을 끊거나 특정 친구·게임 약속을 취소한 사건을 만들지 않는다."
+    },
+    {
+      "id": "I2",
+      "claim": "리바운드로 확보한 공을 이어지는 아웃렛에 사용한 선택은 그 공을 계속 보유하는 행동과 동시에 성립하지 않는다.",
+      "evidence_class": "INFERENCE_FROM_LOCKED_OUTLET_ACTION",
+      "basis": [
+        "C2"
+      ],
+      "limit": "자신에게 확실한 슛·득점 기회가 있었거나 정확한 전술 비교를 마친 성숙자였다고 주장하지 않는다."
+    }
+  ],
+  "school_authority": {
+    "fictional_followup_path_selected": true,
+    "followup_path": "design/A01_FOLLOWUP_SCHOOL_PATH_2026_10_07.json",
+    "pre_participation_three_conditions_rechecked_each_session_in_model": true,
+    "modeled_condition_check": {
+      "same_day_class_attendance": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "academic_supplement": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL",
+      "punctuality": "SATISFIED_FOR_LIMITED_SUPERVISED_ACTIVITY_IN_FICTIONAL_MODEL"
+    },
+    "real_school_or_case_records_certified": false,
+    "one_trial_clearance_automatically_reused": false,
+    "standing_team_membership_or_registration_certified": false,
+    "official_contest_eligibility_certified": false,
+    "retrospective_attendance_deletion": false
+  },
+  "unassigned_details": {
+    "school_name": null,
+    "exact_date": null,
+    "next_day_revisit_equals_C1": null,
+    "C1_C2_same_session": null,
+    "training_session_count": null,
+    "exact_attendance_or_supplement_record": null,
+    "trial_or_game_format": null,
+    "score_or_receiver_scorer_name": null,
+    "individual_scene_pov": null,
+    "dialogue_or_team_private_reaction": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a01_e3_final_episode_function.py": "3413c092da19aced37a4c79f861b93fc3d48bfc3bdf1845a1080030980ff5b27",
+    "design/A01_E2_FINAL_EPISODE_FUNCTION.json": "016666a44daf951027811976aafa5d698bfc6588bf8cdc851e344e09872ad1a3",
+    "design/A01_FOLLOWUP_SCHOOL_PATH_2026_10_07.json": "79d558d1d523bd58f77838817c60f3e44cf6c634e949b1f53f6720dcd9aca849",
+    "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json": "d11790bf5de07495cf8cd986ed6ad6aa97908896eb9b99e052ecfa8d6989211c",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/CP2_ACT_SUBACT_PACKET.json": "cc8f79feb486d69720b3ee19be55e9750d66b3605ebcd2d672e43dc3641ca351",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80"
+  },
+  "source_semantic_projection_sha256": {
+    "first_contribution": "362ef7fccfb99f00cb07b148ac7062cdb768fbb72ad63e1db8e055cef95641b9"
+  },
+  "verification_limits": [
+    "C1–C3 are locked story events but precise practice timing, drills, score and scene execution are unverified.",
+    "The school path is a fictional repeat-check model, not proof of actual attendance, supplement records or team registration.",
+    "CF07 remains a candidate; its entry is not a verified projection and contains an unverified no-protagonist-score detail. Only the full C3 exit is exact next input.",
+    "Three assigned planned slots do not establish published numbering or whole G13 completion."
+  ],
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}
