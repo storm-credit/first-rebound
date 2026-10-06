@@ -1,0 +1,74 @@
+{
+  "scope": "ANTIGRAVITY_CLI_RESPONSE_RECOVERY_DIAGNOSIS_ONLY",
+  "date": "2026-10-07",
+  "cli_path": "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+  "cli_version_observed": "1.3.0",
+  "configuration_or_auth_changed": false,
+  "model_listing": {
+    "returned": true,
+    "pinned_model_available": true,
+    "model": "gemini-3.8-flash-low"
+  },
+  "new_test": {
+    "kind": "ONE_NO_TOOL_PRINT_MODE_RESPONSE_TEST",
+    "prompt": "Reply with exactly AGY_OK. Do not use tools.",
+    "model": "gemini-3.8-flash-low",
+    "effort": "low",
+    "mode_override": null,
+    "output_format": "stream-json",
+    "print_timeout": "30s",
+    "outer_process_timeout_seconds": 40,
+    "elapsed_seconds": 25.72,
+    "process_exit_code": 0,
+    "terminal_count": 1,
+    "terminal_status": "SUCCESS",
+    "terminal_response": "AGY_OK",
+    "agent_response_delta_join": "AGY_OK",
+    "agent_response_delta_count": 3,
+    "tool_steps": 0,
+    "stderr_nonempty": false,
+    "raw_logs_retained": false
+  },
+  "prior_test": {
+    "record": "reviews/PLAYOFF_PREEXISTING_HEALTH_AG_2026_10_07.json",
+    "print_timeout": "50s",
+    "outer_process_timeout_seconds": 60,
+    "outer_result": "PROCESS_TIMEOUT",
+    "terminal_status": "SUCCESS",
+    "terminal_response": "",
+    "terminal_duration_seconds": 49.9814571,
+    "search_web_tool_updates_recorded": 11,
+    "last_recorded_tool_update": "ACTIVE",
+    "response_recovered": false,
+    "raw_logs_retained": false
+  },
+  "comparison": {
+    "known_nonempty_tool_run": "reviews/ANNUAL_CALENDAR_AG_2026_10_06.json",
+    "known_empty_longer_runs": [
+      "reviews/CHI_ANNUAL_EXCEPTIONS_AG_2026_10_05.json",
+      "reviews/DATED_CAP_AG_2026_10_05.json"
+    ],
+    "inference": "The CLI/model/auth/stream parser can return a response. The recent multi-search call reached its 50s ceiling before a substantive final answer. Timeout pressure is strongly indicated for that call, but other empty responses prevent a universal single-cause diagnosis.",
+    "mode_plan_causation_proven": false,
+    "tool_body_recovered_from_old_record": false
+  },
+  "parser_boundary": {
+    "file": "tools/parse_antigravity_stream.py",
+    "tool_info_output_persisted": false,
+    "agent_response_text_delta_persisted": false,
+    "old_raw_stdout_persisted": false,
+    "consequence": "Old tool body and any partial agent prose cannot be reconstructed from the sanitized record; tool DONE does not certify original source body or final response."
+  },
+  "bounded_recovery": [
+    "Use one narrow source question or one official URL per call; avoid six serial searches in a 50s print ceiling.",
+    "Use stream-json progress and an inner print timeout comfortably above the observed 25.72s no-tool latency, with a slightly larger outer deadline and at most one deliberate retry.",
+    "Require exit code 0, exactly one terminal result, status SUCCESS, and a nonempty response or separately captured agent_response text before treating a collector run as returned.",
+    "If the terminal response is empty, classify EMPTY_RESPONSE/HOLD even when the CLI says SUCCESS; preserve only safe metadata and source locator, then use an independent official source read for facts.",
+    "Do not change login, configuration, installation, permissions, or another project's sessions for this recovery."
+  ],
+  "official_docs": [
+    "https://antigravity.google/docs/cli/install",
+    "https://antigravity.google/docs/cli/headless/"
+  ],
+  "source_facts_or_gate_certified": false
+}

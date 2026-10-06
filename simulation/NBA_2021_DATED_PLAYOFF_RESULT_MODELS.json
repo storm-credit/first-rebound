@@ -1,0 +1,1551 @@
+{
+  "status": "ALL_88_DATED_GAME_RESULT_MODELS_APPLIED_EXECUTION_HOLD",
+  "baseline_main": "1401b7482f0a1ca8b5600bba70d403091344b2b4",
+  "date_local": "2026-10-07",
+  "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+  "source_sha256": {
+    "simulation/NBA_2021_WORKING_PLAYOFF_CALENDAR.json": "61338747a336f1e9dc86443430fc6b42b25450c08a8ba0da0f4b0e586093402e",
+    "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json": "dc1d47563f8381a4b1bd98409f198e8df088ce782622071e22556e8f0c7a7cdb",
+    "simulation/DEN_LAL_2021_DATED_COACH_PLAN.json": "5a312cf4a227b4a9dac153439e77a5f6d43c7f98e29fc3859ff885dd7a0c7050",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80"
+  },
+  "patterns": {
+    "E1": "WWLWW",
+    "E2": "WWLWW",
+    "E3": "WWWW",
+    "E4": "WLWWW",
+    "W1": "LWWWW",
+    "W2": "WLWLWW",
+    "W4": "LLWWLWW",
+    "E5": "WLLWLWW",
+    "E6": "LLWWLWW",
+    "W5": "LLWWWW",
+    "W6": "WWLLWLW",
+    "E7": "LWWLWW",
+    "W7": "WWLWLW",
+    "F1": "LLWWWW"
+  },
+  "pattern_key": "W=selected series winner; L=selected series loser",
+  "selection_reasons": {
+    "E1": "PHI wins both opening home games; IND earns one home win before PHI closes. New opponent requires new execution.",
+    "E2": "BKN wins opening home games; BOS earns one home win. Brown availability is a separate input, not a score proof.",
+    "E3": "MIL four-game advance preserves the selected sweep; each game still needs a basketball execution model.",
+    "E4": "ATL wins two road games including the closeout; NYK wins game2. No historical shots or scores are imported.",
+    "W1": "MEM carries play-in momentum into game1; UTA answers with four wins. Mitchell health must be separately modeled.",
+    "W2": "PHX organizes two opening games around a split, POR splits at home, PHX closes two. No original Paul shoulder event is imported.",
+    "W4": "DAL wins opening two; LAC answers on the road, DAL takes game5, LAC closes two. Hampton and Oturu roles remain explicit; Carey33 was rejected.",
+    "E5": "ATL splits opening road games, PHI takes game3, ATL takes game4, PHI game5, ATL closes home then away; pressure execution is modeled separately.",
+    "E6": "BKN opens with two home wins, MIL answers at home; BKN game5, MIL closes home then away. No automatic Irving or Harden injury explanation.",
+    "W5": "UTA opens with two home wins; LAC changes matchup coverage for four wins. No automatic Leonard contact injury.",
+    "W6": "Home teams win all seven; PHX home advantage resolves selected seven-game result with James/Davis health separately modeled.",
+    "E7": "ATL wins game1, MIL wins games2/3, ATL game4, MIL closes home then away. No automatic original Young or Giannis injury.",
+    "W7": "PHX takes opening two, LAC answers at home; PHX wins game4, LAC game5, PHX closes away. Paul protocol and Leonard health are separate designs.",
+    "F1": "PHX opens with two home wins, MIL answers with four through rim pressure and defense; changed prior workload is carried by coach plans."
+  },
+  "games": [
+    {
+      "series": "E1",
+      "game": 1,
+      "date_model": "2021-05-23",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "home_team": "PHI",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E1",
+      "game": 2,
+      "date_model": "2021-05-26",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "home_team": "PHI",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E1",
+      "game": 3,
+      "date_model": "2021-05-29",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "home_team": "IND",
+      "winner_model": "IND",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E1",
+      "game": 4,
+      "date_model": "2021-05-31",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "home_team": "IND",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E1",
+      "game": 5,
+      "date_model": "2021-06-02",
+      "teams": [
+        "PHI",
+        "IND"
+      ],
+      "home_team": "PHI",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E2",
+      "game": 1,
+      "date_model": "2021-05-22",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E2",
+      "game": 2,
+      "date_model": "2021-05-25",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E2",
+      "game": 3,
+      "date_model": "2021-05-28",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "home_team": "BOS",
+      "winner_model": "BOS",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E2",
+      "game": 4,
+      "date_model": "2021-05-30",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "home_team": "BOS",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E2",
+      "game": 5,
+      "date_model": "2021-06-01",
+      "teams": [
+        "BKN",
+        "BOS"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E3",
+      "game": 1,
+      "date_model": "2021-05-22",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E3",
+      "game": 2,
+      "date_model": "2021-05-24",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E3",
+      "game": 3,
+      "date_model": "2021-05-27",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "home_team": "MIA",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E3",
+      "game": 4,
+      "date_model": "2021-05-29",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "home_team": "MIA",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E4",
+      "game": 1,
+      "date_model": "2021-05-23",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "home_team": "NYK",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E4",
+      "game": 2,
+      "date_model": "2021-05-26",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "home_team": "NYK",
+      "winner_model": "NYK",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E4",
+      "game": 3,
+      "date_model": "2021-05-28",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E4",
+      "game": 4,
+      "date_model": "2021-05-30",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E4",
+      "game": 5,
+      "date_model": "2021-06-02",
+      "teams": [
+        "NYK",
+        "ATL"
+      ],
+      "home_team": "NYK",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W1",
+      "game": 1,
+      "date_model": "2021-05-23",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "home_team": "UTA",
+      "winner_model": "MEM",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W1",
+      "game": 2,
+      "date_model": "2021-05-26",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "home_team": "UTA",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W1",
+      "game": 3,
+      "date_model": "2021-05-29",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "home_team": "MEM",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W1",
+      "game": 4,
+      "date_model": "2021-05-31",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "home_team": "MEM",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W1",
+      "game": 5,
+      "date_model": "2021-06-02",
+      "teams": [
+        "UTA",
+        "MEM"
+      ],
+      "home_team": "UTA",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 1,
+      "date_model": "2021-05-23",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 2,
+      "date_model": "2021-05-25",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "PHX",
+      "winner_model": "POR",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 3,
+      "date_model": "2021-05-27",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "POR",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 4,
+      "date_model": "2021-05-30",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "POR",
+      "winner_model": "POR",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 5,
+      "date_model": "2021-06-01",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W2",
+      "game": 6,
+      "date_model": "2021-06-03",
+      "teams": [
+        "PHX",
+        "POR"
+      ],
+      "home_team": "POR",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 1,
+      "date_model": "2021-05-22",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "DEN",
+      "winner_model": "DEN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 2,
+      "date_model": "2021-05-24",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "DEN",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 3,
+      "date_model": "2021-05-27",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 4,
+      "date_model": "2021-05-29",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "DEN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 5,
+      "date_model": "2021-06-01",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "DEN",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W3",
+      "game": 6,
+      "date_model": "2021-06-03",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 1,
+      "date_model": "2021-05-22",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "LAC",
+      "winner_model": "DAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 2,
+      "date_model": "2021-05-25",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "LAC",
+      "winner_model": "DAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 3,
+      "date_model": "2021-05-28",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "DAL",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 4,
+      "date_model": "2021-05-30",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "DAL",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 5,
+      "date_model": "2021-06-02",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "LAC",
+      "winner_model": "DAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 6,
+      "date_model": "2021-06-04",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "DAL",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W4",
+      "game": 7,
+      "date_model": "2021-06-06",
+      "teams": [
+        "LAC",
+        "DAL"
+      ],
+      "home_team": "LAC",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 1,
+      "date_model": "2021-06-06",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "PHI",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 2,
+      "date_model": "2021-06-08",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "PHI",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 3,
+      "date_model": "2021-06-11",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 4,
+      "date_model": "2021-06-14",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 5,
+      "date_model": "2021-06-16",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "PHI",
+      "winner_model": "PHI",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 6,
+      "date_model": "2021-06-18",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E5",
+      "game": 7,
+      "date_model": "2021-06-20",
+      "teams": [
+        "PHI",
+        "ATL"
+      ],
+      "home_team": "PHI",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 1,
+      "date_model": "2021-06-05",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 2,
+      "date_model": "2021-06-07",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 3,
+      "date_model": "2021-06-10",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 4,
+      "date_model": "2021-06-13",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 5,
+      "date_model": "2021-06-15",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "BKN",
+      "winner_model": "BKN",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 6,
+      "date_model": "2021-06-17",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E6",
+      "game": 7,
+      "date_model": "2021-06-19",
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "home_team": "BKN",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 1,
+      "date_model": "2021-06-08",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "UTA",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 2,
+      "date_model": "2021-06-10",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "UTA",
+      "winner_model": "UTA",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 3,
+      "date_model": "2021-06-12",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "LAC",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 4,
+      "date_model": "2021-06-14",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "LAC",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 5,
+      "date_model": "2021-06-16",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "UTA",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W5",
+      "game": 6,
+      "date_model": "2021-06-18",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "home_team": "LAC",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 1,
+      "date_model": "2021-06-07",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 2,
+      "date_model": "2021-06-09",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 3,
+      "date_model": "2021-06-11",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 4,
+      "date_model": "2021-06-13",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 5,
+      "date_model": "2021-06-15",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 6,
+      "date_model": "2021-06-17",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "LAL",
+      "winner_model": "LAL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W6",
+      "game": 7,
+      "date_model": "2021-06-19",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 1,
+      "date_model": "2021-06-23",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 2,
+      "date_model": "2021-06-25",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 3,
+      "date_model": "2021-06-27",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 4,
+      "date_model": "2021-06-29",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "ATL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 5,
+      "date_model": "2021-07-01",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "E7",
+      "game": 6,
+      "date_model": "2021-07-03",
+      "teams": [
+        "ATL",
+        "MIL"
+      ],
+      "home_team": "ATL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 1,
+      "date_model": "2021-06-22",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 2,
+      "date_model": "2021-06-24",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 3,
+      "date_model": "2021-06-26",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "LAC",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 4,
+      "date_model": "2021-06-28",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "LAC",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 5,
+      "date_model": "2021-06-30",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "LAC",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "W7",
+      "game": 6,
+      "date_model": "2021-07-02",
+      "teams": [
+        "LAC",
+        "PHX"
+      ],
+      "home_team": "LAC",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 1,
+      "date_model": "2021-07-06",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 2,
+      "date_model": "2021-07-08",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "PHX",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 3,
+      "date_model": "2021-07-11",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 4,
+      "date_model": "2021-07-14",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 5,
+      "date_model": "2021-07-17",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "PHX",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    },
+    {
+      "series": "F1",
+      "game": 6,
+      "date_model": "2021-07-20",
+      "teams": [
+        "MIL",
+        "PHX"
+      ],
+      "home_team": "MIL",
+      "winner_model": "MIL",
+      "classification": "AUTHOR_DELEGATED_WORKING_GAME_RESULT",
+      "authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "actual_box": null,
+      "score_model": null,
+      "historical_result_certified": false,
+      "medical_certified": false
+    }
+  ],
+  "dated_result_models_applied": 88,
+  "new_game_results_applied": 82,
+  "preserved_game_results": 6,
+  "series_results_changed": 0,
+  "whole_health_cleared": false,
+  "legal_execution_cleared": false,
+  "season_selected": false,
+  "manuscript_allowed": false
+}

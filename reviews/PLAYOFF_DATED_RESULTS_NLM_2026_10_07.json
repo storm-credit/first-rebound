@@ -1,0 +1,73 @@
+{
+  "scope": "OWN_DERIVED_DATED_RESULT_RELATION_ANALYSIS_NOT_SOURCE_FACT_VERIFICATION",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "input_lf_normalized_utf8_sha256": "36e13aa02c2e61f72f873553f1680a9a4ae3c3d2574e2d71f27e3a9da97d1561",
+  "source_import": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 16.572,
+    "process_budget_seconds": 60,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "source_id": "8340fd4c-9475-4666-8f5a-b221a1e26c2d"
+    }
+  },
+  "source_id": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+  "question_sha256": "e6bba1cec1ad2d5425ffb3a4f10fa0c429792acdb7335c5585211e6a6ea12302",
+  "analysis": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 53.589,
+    "process_budget_seconds": 80,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. 상위 의존성 및 관계 지도 (Dependency Map)\n\n* **상위 결정 및 부모 지침 (Parent Directives)**\n  * **[시즌 설계 위임]** `DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json` [1]\n  * **[시리즈 결과 정본]** `NBA_2021_DELEGATED_PLAYOFF_RESULTS.json` (15시리즈 선택 승자 및 시리즈 길이 보존) [1]\n  * **[플레이오프 달력]** `NBA_2021_WORKING_PLAYOFF_CALENDAR.json` (채택된 88개 날짜 및 홈/원정 배정) [1, 2]\n* **작업 실행 및 선택 (Selected Execution)**\n  * **[실행 모델 및 검문기]** `NBA_2021_DATED_PLAYOFF_RESULT_MODELS.json` & `apply_2021_dated_playoff_results.py` [1]\n  * **[보존 6경기 (W3)]** DEN–LAL 시리즈 6경기는 기존 승인건 그대로 연결 (`DEN LAL LAL DEN LAL LAL`) [1, 3]\n  * **[신규 모델링 82경기]** 나머지 14시리즈 82경기는 새 작업 모델로 선택 (총 88경기) [1]\n* **미확정 및 Null 유지 요소 (Remains Null)**\n  * **`score_model` / `actual_box`**: `null` 유지 [2]\n  * **미확정 영역**: 개별 경기 점수, 박스스코어, 전체 선수 건강/부상 상태, 등록, 법적 실행, 시즌 최종 인증 [2]\n\n---\n\n### 2. 15개 시리즈 게임 시퀀스 검증 및 요약표\n\n모든 15개 시리즈 시퀀스를 검증한 결과, **모순이나 오류 없이 모든 규칙이 정확히 충족**되었습니다 [1, 2].\n\n| 시리즈 | 경기별 승리 팀 시퀀스 | 최종 결과 | 총 경기 수 | 주요 검증 및 모델링 특징 |\n| :--- | :--- | :--- | :--- | :--- |\n| **PHI–IND** | PHI PHI IND PHI PHI | PHI 4–1 | 5경기 | IND 홈 1승, PHI 홈/내선 우위 반영 [3] |\n| **BKN–BOS** | BKN BKN BOS BKN BKN | BKN 4–1 | 5경기 | BOS 홈 1승 및 BKN 공격 선택 보존 [3] |\n| **MIL–MIA** | MIL MIL MIL MIL | MIL 4–0 | 4경기 | 기존 4–0 스윕 선택 유지 [3] |\n| **NYK–ATL** | ATL NYK ATL ATL ATL | ATL 4–1 | 5경기 | ATL 원정 3승 실행 [3] |\n| **UTA–MEM** | MEM UTA UTA UTA UTA | UTA 4–1 | 5경기 | MEM 첫 승 후 UTA 4연승 [3] |\n| **PHX–POR** | PHX POR PHX POR PHX PHX | PHX 4–2 | 6경기 | POR 2승 및 PHX 마지막 2연승 [3] |\n| **DEN–LAL** | DEN LAL LAL DEN LAL LAL | LAL 4–2 | 6경기 | **기존 승인 6경기 보존 (W3)** [1, 3] |\n| **LAC–DAL** | DAL DAL LAC LAC DAL LAC LAC | LAC 4–3 | 7경기 | DAL 첫 2승 후 LAC 전술 조정 [3] |\n| **PHI–ATL** | ATL PHI PHI ATL PHI ATL ATL | ATL 4–3 | 7경기 | ATL 마지막 홈/원정 연속 승리 [3] |\n| **BKN–MIL** | BKN BKN MIL MIL BKN MIL MIL | MIL 4–3 | 7경기 | MIL 마지막 홈/원정 승리, 원부상 이식 없음 [3] |\n| **UTA–LAC** | UTA UTA LAC LAC LAC LAC | LAC 4–2 | 6경기 | LAC 수비 및 스몰라인업 조정 [3] |\n| **PHX–LAL** | PHX LAL PHX LAL PHX LAL PHX | PHX 4–3 | 7경기 | **홈팀 7전 전승**, 부상 공짜 승리 없음 [3] |\n| **ATL–MIL** | ATL MIL MIL ATL MIL MIL | MIL 4–2 | 6경기 | MIL 마지막 2연승 [3] |\n| **LAC–PHX** | PHX PHX LAC PHX LAC PHX | PHX 4–2 | 6경기 | PHX 첫 2승 및 원정 마무리 [3] |\n| **MIL–PHX** | PHX PHX MIL MIL MIL MIL | MIL 4–2 | 6경기 | PHX 홈 2승 후 MIL 4연승 [3] |\n\n#### **핵심 검증 항목 결과**\n1. **4선승제(First to 4) 준수**: 15개 시리즈 모두 어느 한 팀이 4번째 승리를 거둔 직후 시리즈가 종료되며, 4승 이후 추가 경기는 존재하지 않습니다 [2].\n2. **승자 및 시리즈 길이 100% 보존**: 기존 상위 정본 대비 최종 승자와 시리즈 길이 변경은 0건입니다 [1, 2].\n3. **DEN–LAL 6경기 보존 (W3)**: 기존 승인된 6경기가 변형 없이 연결되었습니다 [1, 3].\n4. **82경기 신규 모델링**: 보존된 6경기를 제외한 14시리즈 82경기가 새 작업 모델로 구성되어 총 88경기 일정을 완성합니다 [1].\n5. **PHX–LAL 홈팀 7승**: 7경기 모두 홈팀이 승리하는 시퀀스(`PHX LAL PHX LAL PHX LAL PHX`)가 정확히 성립합니다 [3].\n6. **부상 및 점수 자동 이식 차단**: 원역사의 특정 슛, 부상, 연장전 기록을 임의로 가져오거나 점수를 이식하지 않았습니다 [1, 2].\n\n---\n\n### 3. 결과 선택(Result Choice)과 검증 영역의 구분\n\n* **결과 선택 (Result Choice / 작업 설계 이유)**:\n  * 각 시리즈의 `selection_reasons`는 홈 우위, 전술 변경, 라인업 조정 등 설계 작가의 작업상 이유일 뿐이며, 실제 경기 점수나 인과관계를 인증하지 않습니다 [1, 2].\n* **감독·건강·등록·법적 검증 영역 (Verification Domain)**:\n  * 검문기(`apply_2021_dated_playoff_results.py`)는 각 행의 팀 승리 여부, 4승 후 경기 종료, 승자/길이 일치, 88날짜/홈 배치 일치만 확인합니다 [1, 2].\n  * 점수 임의 삽입, 의료 승격, 시즌 승격을 엄격히 거부하며 `score_model`과 `actual_box`는 `null`로 유지됩니다 [2].\n\n> **주의 사항**: 본 모델은 사용자 자체 작업 설계 모델이며, 독립적인 실제 NBA 역사 기록이나 의학적·법적 공식 인증을 주장하지 않습니다 [1, 2].\n\n🏀 이 플레이오프 승패 작업 모델을 바탕으로, 특정 시리즈(예: PHX–LAL 7경기 전승 모델)의 날짜별 홈/원정 일정 시각화나 세부 수비/라인업 조정 시나리오를 추가로 분석해 드릴까요?",
+      "question": "Only this working design source. Make a compact relationship/dependency map (timeline/series parents/what is selected vs remains null), then locate contradictions in the15series game sequences. Verify each series first to4, exactwinner/length preservation, W3preserved6, allother82 newlymodeled, PHX-LAL all7homewins, no automatic originalinjuries/scores. Distinguish resultchoice from coach/health/registration verification. Source is our ownmodel; do not claim independent NBAhistory or medicallegalcertification, do not import other notebook sources. Short Korean table and dependency map.",
+      "conversation_id": "47815a91-fae1-4a49-b582-dbe36c276811",
+      "sources_used": [
+        "8340fd4c-9475-4666-8f5a-b221a1e26c2d"
+      ],
+      "citations": {
+        "1": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+        "2": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+        "3": "8340fd4c-9475-4666-8f5a-b221a1e26c2d"
+      },
+      "references": [
+        {
+          "source_id": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+          "citation_number": 1,
+          "cited_text_sha256": "aaab1c3e12dc5e44dd06331170ad5dfa0dceb9d1cc056a70bc4bb9b6a6e8bccc",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+          "citation_number": 2,
+          "cited_text_sha256": "db3818c0b20c7054d97ff7564c1bb363325ff0521037cf0ed6d812a83ee0bc95",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "8340fd4c-9475-4666-8f5a-b221a1e26c2d",
+          "citation_number": 3,
+          "cited_text_sha256": "4d3cb99d673a84d458ef8c042dd0d52a379c64db2a2e1685713ef6d073a4614b",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "accepted_scope": "Ownderived15series arithmetic/dependency summary only; input was the pre-correction MD snapshot, not primaryNBAfacts or current88coach verification.",
+    "rejected_or_corrected": [
+      "Source and answer wrongly called alternatingPHX/LAL sequence home7wins. Actualadopted2-2-1-1-1homes require PHX PHX LAL LAL PHX LAL PHX; rootdate/home assertion repaired.",
+      "ATL E4 source roadwins3 waswrong; actualsourcearray has2.",
+      "NLM cited only the ownMD; claimed checks of upstreamJSON/code/date are not independent directexecution."
+    ],
+    "current_source_changed_after_import": true,
+    "old_immutable_import_preserved": true,
+    "whole_health_or_legal_certified": false
+  }
+}

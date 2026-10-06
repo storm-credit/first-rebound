@@ -1,0 +1,84 @@
+{
+  "scope": "ORIGINAL_PREPLAYOFF_STATUS_COLLECTION_NOT_HEALTH_MODEL_APPROVAL",
+  "baseline_main": "1401b7482f0a1ca8b5600bba70d403091344b2b4",
+  "prompt_sha256": "e949e0c48c93515c5de7f919147f4df60456deccc32f6498acf27e7c1f40c366",
+  "result": {
+    "status": "PROCESS_TIMEOUT",
+    "elapsed_seconds": 60.064,
+    "response_recovered": false,
+    "parsed_partial": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "1d25a626-3c34-4813-9734-1397a21527b2",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 49.9814571,
+        "num_turns": 1
+      },
+      "response_recovered": false,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 6,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 6,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 8,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 8,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 10,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 10,
+          "state": "DONE",
+          "tool_name": "search_web"
+        },
+        {
+          "step_index": 12,
+          "state": "ACTIVE",
+          "tool_name": "search_web"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "f82e65f4a97aca4db586057b4a91ed2fa27b4fd37ea67c2273db55611edbe591",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC"
+    }
+  },
+  "whole_gate_certified": false
+}
