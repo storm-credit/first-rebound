@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-07 [G14 집필 전 검증 순환 수리](../reviews/G14_PRE_MANUSCRIPT_DEPENDENCY_REPAIR_2026_10_07.md): README의 CLOSED→실제Pack금지와 G14 PASS→OPEN 조건이 만드는 순환1개를 수리했다. 전체G13/역사원장 잠금·ACTUAL_VERIFIED Blueprint+현행Canon 뒤에는 CLOSED/manuscript_allowed:false로 집필전Pack생성·검증이가능하다. 원고입력사용은G15/G16 검수·G17 사용자 명시 승인·별도OPEN PR뒤에만허용. 현재G13/역사잠금미완이므로 실제Pack0·기존설계샘플2·최종회차0·원고0 유지.10/4 G13→G14 수리는보존,새780Pack요건추가0. 법적10PASS/2HOLD·F법적3/5·A0/3·K0/4·시즌false·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
+
 2026-10-07 [정규·L2 전체 작업 순서 검문](../reviews/REGULAR_L2_CHRONOLOGY_AND_ROSTER_REVIEW_2026_10_07.md): 정규2160팀/51,968블록과L2 12팀/230블록의 별도 작업용 시계 순서를 완료했다. 기존107원증인 보존+새107순서, 원초·선발·가용·날짜·승패 변경0, 모든 쿼터/OT·원32소수벡터 비반올림·독립전수검문 통과.180초는 표현상한이며 휴식/전술/dead-ball 인증은 아니다. L2 네팀6날짜/102명단칸15+2후보와 WAS Homesley16명/GSW Hutchison 충돌은 미선택으로 기록. 상위분 동합계변조/정책참조SHA결함 수리, 공식PDF5별도회수SHA일치. NLM1사본분석/Claude40.022초논리회수, AG60.074초빈최종응답·새근거0. 총1174/2348·양수25065칸 유지; 법적10PASS/2HOLD·F법적3/5·A0/3·K0/4·시즌false·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED·원고0. 다음은 DEN전체graph관계증인/CHI금융동의와 명단충돌의 후손이다. 아래는 이전배치 이력이다.
 
 2026-10-07 [학습·준비 경계 및 진출일 검문](../reviews/A01_LEARNING_PREPARATION_AND_L2_QUALIFICATION_REVIEW_2026_10_07.md): A01 C3→CF07 학습→CF08 팀 준비의 편집 작업 경계2개를 검문했다. 구체 행동4개는 후보·슬롯 소모0·새 최종회차0·실제Pack0·새 작가잠금0·원고0. 기존E1/체험/기여3Blueprint·9Beat와 CF09 게임 충돌을 보존하며 학교/날짜/개별POV는null이다. 출처13+공통스킬·음성8/독립변조6 검문, 기준main 고정으로 커밋 후 재현 결함을 수리했다. L2 MEM 진출일을 예비승5/19에서 최종승5/21로 고쳐 네진출일/첫playoff 선행조건을 독립 대조했다. 승패/분/1174경기·2348팀·양수25065칸은 불변. 법적10PASS/2HOLD·F법적3/5·A0/3·K0/4·시즌false; 미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 다음 연속 작업은 정규 교대·L2 전체 명단·DEN 남은 자산이다. 아래는 이전배치 이력이다.
@@ -82,7 +84,7 @@ last_reviewed: 2026-09-12
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / FINAL_HOLD |
-| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
