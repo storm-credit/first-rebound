@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-06 [Cleveland 전체 비용행 종료](reviews/CLE_FULL_COST_REVIEW_2026_10_06.md): 보존된 공개 계약군의 전체 비용 상한137,501,394와 apron 여유1,426,606을 원문·A–G·53일 연결·별도 독립 검문으로 확인했다. Jan4 Cleveland 위젯에서 McGee4.2m 거래 전 현재 Salary도 회수했다. 법적7완료/5HOLD·F법적1/5(F4)·A0/3 K0/4·시즌 미확정. CHI matching·BOS 두 픽·DEN 자산/양 비용행과 건강/분이 남는다. 큰 묶음6개 미완료·v0.30 PARTIAL·설계/원고 CLOSED·원고0. 아래6완료/6HOLD는 PR423 이력이다.
+
 2026-10-06 [Chicago·Orlando 전체 비용행 종료](reviews/CHI_ORL_FULL_COST_REVIEW_2026_10_06.md): CHI전체공개비용132,367,326.15·ORLF4전체apron137,768,857·ORLF2전중간포함상단138,303,543을실제원문/지문/구성/독립검문으로종료했다. 새annual산입0·camp/RequiredTender/모든incomingbonus도포함. 법적6완료/6HOLD·F법적1/5(F4)·A0/3 K0/4·시즌미확정. CHI matching·픽/다른팀급여·건강/분은미완료. AG응답회수/기사본문실패·NLM분석회수·Claude70초timeout·전체blind/G16미실행. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
 
 2026-10-05 [Boston TPE 하위 분기 검수](reviews/BOSTON_TPE_BRANCH_REVIEW_2026_10_05.md): 3/16긍정가용28.5m·유한사건/보존입력 연결과WK매칭→단일HaywardFournier21.15m 순서증인을독립검문해TPE1/3분기종료. 두픽HOLD·전체법적3완료/9HOLD·F0/5 A0/3 K0/4는유지. Teague전액제외하한112,914,711/110,088,010·Chicago연간MLE/BAE와옛TPE/DPE범위분리. Chicago적용시점/전체비용미완료. 미완료큰묶음6·PARTIAL/CLOSED·원고0.
