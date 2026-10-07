@@ -1,0 +1,48 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0"
+  ],
+  "question_sha256": "ee64901824407ba5eafdce7a1702151673e1f682326f43ffaa6abc04253c3dc0",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 112.185,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "|구분|인과 및 역할|23예산|\n|---|---|---|\n|원2R양도·P1생략|19년 WAS양도 유지, P1미승격 [1]|2R: 0 [1]|\n|M1잔류(21생략)|Vučević생략(1R보유), DEN 2R미수취 [1]|1R: 1 [1]|\n|원제재원인미복사|제재 배제해도 새 2R 미생성 [2]|2R: 0 [2]|\n|N23/A23구별|확정가격 아닌 양수함수(null≠0, 60픽·계약 미인증) [2]|STD: 1 [1, 2]|\n\n**논리맹점**: N23/A23 함수 미정(null≠0)에도 STD 1칸을 확정 예산화함.",
+      "question": "이 지정사본만 사용해 2019원청구→2021생략→2023CHI예산의 인과관계를 300자 이내 표로 분석. 원2R양도·P1생략·M1잔류·원제재원인미복사의각역할과N23/A23양수가격미정 구별. 전체60픽이나현실계약인증 금지. 논리맹점1개 있으면 지적.",
+      "conversation_id": "84c87ce1-30cd-49e8-ba33-acff2d02489e",
+      "sources_used": [
+        "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0"
+      ],
+      "citations": {
+        "1": "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0",
+        "2": "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0"
+      },
+      "references": [
+        {
+          "source_id": "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0",
+          "citation_number": 1,
+          "cited_text_sha256": "7c34ca3df8b9cd13eb8f7a3fdb5d500db5b1676dbbe3e43c64d5c29502bff413",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "20b0bb69-5cf0-4b17-b9b7-23f6d592edc0",
+          "citation_number": 2,
+          "cited_text_sha256": "6c3afcc1892f3651ba9263e2c689b9c46fe1028f7e92125794c60a8a4a7ce624",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}
