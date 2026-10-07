@@ -1,0 +1,93 @@
+{
+  "tool": "Antigravity",
+  "scope": "SINGLE_OFFICIAL_2026_CAP_TAX_APRON_MORATORIUM_COLLECTION",
+  "prompt_sha256": "5059e7e59016e3c2bc3fe7113936a4ce53b13e3d33fca9e03652b4be791b58a8",
+  "attempt_count": 1,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 36.255,
+    "owned_timeout_seconds": 90,
+    "stdout_sha256": "493572c72f63040afa0aed281b24eae232253bf3e5fefd8ae2c6bf215cb94fa7",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"url\": \"https://www.nba.com/news/nba-salary-cap-2026-27-season\",\n  \"locator\": \"script[type=\\\"application/ld+json\\\"] / meta[property=\\\"og:description\\\"]\",\n  \"body_read\": true,\n  \"figures\": {\n    \"publication_date\": \"2026-06-30T22:05:30Z\",\n    \"salary_cap\": \"$164.961 million\",\n    \"tax_level\": \"$200.428 million\",\n    \"first_apron\": \"$209.015 million\",\n    \"second_apron\": \"$221.686 million\",\n    \"published_minimum_salary\": {\n      \"minimum_team_salary\": \"$148.465 million\",\n      \"individual_player_minimum_salary\": null,\n      \"note\": \"Body lists Minimum Team Salary; individual player minimum not published.\"\n    },\n    \"moratorium_period_et\": {\n      \"start\": \"12:01 a.m. ET on Wednesday, July 1\",\n      \"end\": \"noon ET on Monday, July 6\",\n      \"negotiations_start\": \"6:00 p.m. ET on Tuesday, June 30\"\n    }\n  },\n  \"quote\": \"Salary Cap for the 2026-27 season has been set\"\n}\n```\n",
+      "duration_seconds": 26.9258025,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "fe0c91d3573197336eacf94d6104538236ebab4c6b1d3610de80ce936a927590"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "493572c72f63040afa0aed281b24eae232253bf3e5fefd8ae2c6bf215cb94fa7",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"url\": \"https://www.nba.com/news/nba-salary-cap-2026-27-season\",\n  \"locator\": \"script[type=\\\"application/ld+json\\\"] / meta[property=\\\"og:description\\\"]\",\n  \"body_read\": true,\n  \"figures\": {\n    \"publication_date\": \"2026-06-30T22:05:30Z\",\n    \"salary_cap\": \"$164.961 million\",\n    \"tax_level\": \"$200.428 million\",\n    \"first_apron\": \"$209.015 million\",\n    \"second_apron\": \"$221.686 million\",\n    \"published_minimum_salary\": {\n      \"minimum_team_salary\": \"$148.465 million\",\n      \"individual_player_minimum_salary\": null,\n      \"note\": \"Body lists Minimum Team Salary; individual player minimum not published.\"\n    },\n    \"moratorium_period_et\": {\n      \"start\": \"12:01 a.m. ET on Wednesday, July 1\",\n      \"end\": \"noon ET on Monday, July 6\",\n      \"negotiations_start\": \"6:00 p.m. ET on Tuesday, June 30\"\n    }\n  },\n  \"quote\": \"Salary Cap for the 2026-27 season has been set\"\n}\n```\n",
+      "char_count": 896,
+      "sha256": "2f593cacfe48e31b149a2355c87afa427681ea9c02d8e3c85fe68441a06468ca",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_raw_independently_verified_by_AGY_wrapper": false,
+  "settings_auth_MCP_changed": false,
+  "raw_private_logs_retained": false,
+  "contract_or_price_selected": false,
+  "direct_primary_collection_separate": {
+    "primary_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-den-cap2026-20261008\\NBA_COMM_CAP2026_query.html",
+    "raw_sha256": "e8e014a9c516d9fee0d494a3d17a412c933f536e43d74b96436fd9727099faef",
+    "http_status": 200,
+    "direct_article_verified": true,
+    "AGY_response_independently_verifies_raw_bytes": false,
+    "failed_direct_requests": [
+      {
+        "url": "https://www.nba.com/news/nba-salary-cap-2026-27-season",
+        "http_status": 403,
+        "raw_sha256": "323f6b866b4e39eff5f06a540257e552ce3c0b205e7130fcc86662047bb598fd",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-den-cap2026-20261008\\NBA_CAP2026.html"
+      },
+      {
+        "url": "https://pr.nba.com/2026-27-salary-cap/",
+        "http_status": 403,
+        "raw_sha256": "4be609d52e12bbe1c8827c2719f256ab1ef7e8269408b832d49ffcc1fcb37b35",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-den-cap2026-20261008\\NBA_COMM_CAP2026.html"
+      }
+    ]
+  }
+}
