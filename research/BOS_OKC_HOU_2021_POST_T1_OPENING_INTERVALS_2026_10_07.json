@@ -1,0 +1,357 @@
+{
+  "schema": "BOS_OKC_HOU_POST_T1_BOUNDED_OPENING_INTERVAL_V1",
+  "status": "HOU_TWO_NAMED_ROOKIE_CONTRACT_ROUTINES_SELECTED_BOS_OKC_HOU_FIRST_CHI_INTERVAL_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json": "86b9989daa20eced72106c25b14fb8d8b3b32d201132a0b87ba466b0ce51fba0",
+    "design/CHICAGO_2021_22_OPPONENT_FINITE_DISPATCH_SCOPE_2026_10_07.json": "a57bec4bc61e2bf2030ebc25f800f06e2c64cd86e9ed573a2ccc4c4d958af203",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183"
+  },
+  "source_hash_method": "UTF8_LF_SHA256",
+  "self_sha256": "28a983866110be8915d0fcdbbdb91f4f65dffd311eb93c1c766b14abfd611238",
+  "raw_feed": {
+    "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-nba-player-movement-2026-10-04.json",
+    "sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+    "total_rows": 9927
+  },
+  "CBA": {
+    "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+    "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "page_text_sha256": {
+      "84": "00b16f51fee21ba4893fef9ac2baedf8e56c2cfe02b28e027742b3941e51357d",
+      "85": "6effe0b5d5b2bff97c84c942c9f02fe945eccfc6e733c8e46cbd2784c6011bc7",
+      "292": "2ed44d760dbba5187d614c95001dfb164deb4a368ddcbc5fdbdcb8964dfcbda6",
+      "293": "f56e14e36fa254d1265bd51ec7b1930df33d4280181cf76fa5fc65d6c90a3464",
+      "294": "17a15e17207724b7bd9314d9fd2276e8a52d3460d6c062e5641d4fb682a900f7",
+      "295": "a2986cbc32e01c65a10496c1f4e8a1360dbd5a538f5ef19b5d516e16f7d80d2c"
+    },
+    "page_text_method": "pdftotext_-layout_single_PDF_page_UTF8_LF_strip_final_formfeed",
+    "rule_locator": "Article II Section 15 PDF84–85: first-round rights holder may enter Rookie Scale Contract during moratorium; Article VIII Section 1 PDF292–295: two seasons, separate third/fourth team options, scale/protection; Article VII unsigned hold is replaced by signed salary only in selected fictional family",
+    "actual_2021_scale_table_cents_loaded": false
+  },
+  "selected_T1_source": "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json",
+  "old_year_to_new_year_boundary": {
+    "T1_old_year_last_atomic_date": "2021-07-29",
+    "new_year_start": "2021-08-03",
+    "old_year_apron_numbers_auto_carried": false,
+    "HOU_pre_signing_conditional_carry_standard": 15,
+    "HOU_pre_signing_conditional_carry_two_way": 2,
+    "all_May16_contracts_proven_live_on_Aug3": false
+  },
+  "selected_named_contract_events": [
+    {
+      "date": "2021-08-04",
+      "reported_GroupSort": "Signing 1042544",
+      "source_row_index": 5237,
+      "pick": 2,
+      "player": "Jalen Green",
+      "team": "HOU",
+      "fictional_routine_contract_event_selected": true,
+      "contract_class": "STANDARD_ROOKIE_SCALE",
+      "first_year_salary_design_family": "[0.80*S2021_PICK_2, 1.20*S2021_PICK_2]",
+      "selected_policy": "120_PERCENT_OF_OFFICIAL_PICK_SCALE_SUBJECT_TO_SCALE_INPUT",
+      "lawful_UPC_term": {
+        "initial_seasons": [
+          "2021-22",
+          "2022-23"
+        ],
+        "third_season_team_option": "2023-24_NOT_EXERCISED",
+        "fourth_season_team_option": "2024-25_NOT_EXERCISED",
+        "third_and_fourth_options_separate": true
+      },
+      "scale_constraints": {
+        "first_two_and_first_option_current_base_at_least": "80_PERCENT_OF_APPLICABLE_SCALE",
+        "salary_plus_unlikely_bonuses_each_year_at_most": "120_PERCENT_OF_APPLICABLE_SCALE",
+        "fourth_option_raise": "APPLICABLE_SCALE_PERCENTAGE_IF_EXERCISED",
+        "new_signing_bonus": 0,
+        "unlikely_bonus": 0,
+        "loan": 0
+      },
+      "protection": {
+        "lack_of_skill": "AT_LEAST_80_PERCENT_SCALE_FIRST_TWO_AND_FIRST_OPTION",
+        "injury_or_illness": "AT_LEAST_80_PERCENT_SCALE_FIRST_TWO_AND_FIRST_OPTION",
+        "fictional_selected_full_base_protection_first_two": true,
+        "first_option_protection_if_exercised": true
+      },
+      "moratorium_rule": "2017_CBA_ARTICLE_II_SECTION_15_FIRST_ROUND_RIGHTS_HOLDER_RSC_EXCEPTION",
+      "reported_calendar_day_not_exact_signing_time": true,
+      "foreign_contract_obstacle_lawfully_resolved_before_UPC": null,
+      "actual_foreign_release_document_certified": false,
+      "numeric_scale_amount_certified_here": false,
+      "actual_signed_contract_or_private_receipt_certified": false,
+      "actual_medical_or_clinical_certified": false
+    },
+    {
+      "date": "2021-08-06",
+      "reported_GroupSort": "Signing 1042640",
+      "source_row_index": 5173,
+      "pick": 16,
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "fictional_routine_contract_event_selected": true,
+      "contract_class": "STANDARD_ROOKIE_SCALE",
+      "first_year_salary_design_family": "[0.80*S2021_PICK_16, 1.20*S2021_PICK_16]",
+      "selected_policy": "120_PERCENT_OF_OFFICIAL_PICK_SCALE_SUBJECT_TO_SCALE_INPUT",
+      "lawful_UPC_term": {
+        "initial_seasons": [
+          "2021-22",
+          "2022-23"
+        ],
+        "third_season_team_option": "2023-24_NOT_EXERCISED",
+        "fourth_season_team_option": "2024-25_NOT_EXERCISED",
+        "third_and_fourth_options_separate": true
+      },
+      "scale_constraints": {
+        "first_two_and_first_option_current_base_at_least": "80_PERCENT_OF_APPLICABLE_SCALE",
+        "salary_plus_unlikely_bonuses_each_year_at_most": "120_PERCENT_OF_APPLICABLE_SCALE",
+        "fourth_option_raise": "APPLICABLE_SCALE_PERCENTAGE_IF_EXERCISED",
+        "new_signing_bonus": 0,
+        "unlikely_bonus": 0,
+        "loan": 0
+      },
+      "protection": {
+        "lack_of_skill": "AT_LEAST_80_PERCENT_SCALE_FIRST_TWO_AND_FIRST_OPTION",
+        "injury_or_illness": "AT_LEAST_80_PERCENT_SCALE_FIRST_TWO_AND_FIRST_OPTION",
+        "fictional_selected_full_base_protection_first_two": true,
+        "first_option_protection_if_exercised": true
+      },
+      "moratorium_rule": "2017_CBA_ARTICLE_II_SECTION_15_FIRST_ROUND_RIGHTS_HOLDER_RSC_EXCEPTION",
+      "reported_calendar_day_not_exact_signing_time": true,
+      "foreign_contract_obstacle_lawfully_resolved_before_UPC": true,
+      "actual_foreign_release_document_certified": false,
+      "numeric_scale_amount_certified_here": false,
+      "actual_signed_contract_or_private_receipt_certified": false,
+      "actual_medical_or_clinical_certified": false
+    }
+  ],
+  "named_T1_downstream_reported_events_not_yet_executed": {
+    "BOS_MOSES_BROWN_TO_DAL_JULY31": {
+      "GroupSort": "Trade 2020091",
+      "raw_rows": [
+        {
+          "source_row_index": 5270,
+          "date": "2021-07-31",
+          "type": "Trade",
+          "player_slug": "josh-richardson",
+          "TEAM_ID": 1610612738
+        },
+        {
+          "source_row_index": 5271,
+          "date": "2021-07-31",
+          "type": "Trade",
+          "player_slug": "moses-brown",
+          "TEAM_ID": 1610612742
+        }
+      ],
+      "selected_for_fictional_execution": false,
+      "cost_or_counterparty_effect_certified": false
+    },
+    "OKC_FAVORS_JULY30": {
+      "GroupSort": "Trade 2020090",
+      "raw_rows": [
+        {
+          "source_row_index": 5277,
+          "date": "2021-07-30",
+          "type": "Trade",
+          "player_slug": "derrick-favors",
+          "TEAM_ID": 1610612760
+        },
+        {
+          "source_row_index": 5278,
+          "date": "2021-07-30",
+          "type": "Trade",
+          "player_slug": "",
+          "TEAM_ID": 1610612760
+        },
+        {
+          "source_row_index": 5279,
+          "date": "2021-07-30",
+          "type": "Trade",
+          "player_slug": "",
+          "TEAM_ID": 1610612762
+        }
+      ],
+      "selected_for_fictional_execution": false,
+      "cost_or_counterparty_effect_certified": false
+    },
+    "OKC_KEMBA_WAIVE_AUG6": {
+      "GroupSort": "Waive 1042646",
+      "raw_rows": [
+        {
+          "source_row_index": 5225,
+          "date": "2021-08-06",
+          "type": "Waive",
+          "player_slug": "kemba-walker",
+          "TEAM_ID": 1610612760
+        }
+      ],
+      "selected_for_fictional_execution": false,
+      "cost_or_counterparty_effect_certified": false
+    }
+  },
+  "HOU_offseason_slot_witness_if_all_old_named_retained": {
+    "STANDARD": 17,
+    "TWO_WAY": 2,
+    "total_including_TW": 19,
+    "offseason_max_including_TW": 20,
+    "regular_season_15_STANDARD_rule_satisfied_by_this_snapshot": false,
+    "named_hardship_Oliver_Reynolds_not_carried": true,
+    "candidate_rookie_signed_salaries_replace_unsigned_holds": true
+  },
+  "six_cost_categories": {
+    "existing_live_and_retained_contracts": "UNKNOWN_AFTER_AUG3",
+    "new_selected_RSC_salary": "1.2*S2021_PICK_2 + 1.2*S2021_PICK_16",
+    "dead_camp_grievance": "PRESERVE_UNKNOWN_NOT_ZERO",
+    "FA_unsigned_rights": "RECOMPUTE_HOU_NEVER_ZERO_BY_ABSENCE",
+    "tender_floor": "SIGNED_ROOKIES_REPLACE_THEIR_OWN_HOLDS_OTHER_TENDERS_UNSELECTED",
+    "exceptions": "RECOMPUTE_NEW_YEAR",
+    "whole_team_salary_or_apron_certified": false
+  },
+  "first_CHI_operating_interval": {
+    "BOS": {
+      "first_CHI_game": {
+        "game_id": "0022100098",
+        "date": "2021-11-01",
+        "opponent": "BOS",
+        "historical_score_not_selected": true
+      },
+      "reported_rows_after_T1_before_new_capyear_unexecuted": 1,
+      "reported_rows_before_first_CHI": 20,
+      "selected_named_routine_signing_rows": 0,
+      "not_executed_reported_rows": 20,
+      "unapplied_GroupSorts": [
+        "Signing 1042950",
+        "Signing 1042951",
+        "Signing 1042952",
+        "Signing 1043038",
+        "Signing 1043054",
+        "Signing 1043065",
+        "Signing 1044776",
+        "Signing 1045173",
+        "Trade 2020091",
+        "Trade 2021011",
+        "Trade 2021033",
+        "Waive 1044538",
+        "Waive 1044539",
+        "Waive 1044622",
+        "Waive 1044623",
+        "Waive 1044624",
+        "Waive 1044625",
+        "Waive 1044740"
+      ],
+      "contract_roster_cost_interval_to_first_game_certified": false
+    },
+    "HOU": {
+      "first_CHI_game": {
+        "game_id": "0022100271",
+        "date": "2021-11-24",
+        "opponent": "HOU",
+        "historical_score_not_selected": true
+      },
+      "reported_rows_after_T1_before_new_capyear_unexecuted": 0,
+      "reported_rows_before_first_CHI": 27,
+      "selected_named_routine_signing_rows": 2,
+      "not_executed_reported_rows": 25,
+      "unapplied_GroupSorts": [
+        "AwardedOnWaivers 1044896",
+        "ContractConverted 1044316",
+        "ContractConverted 1044477",
+        "ContractConverted 1044904",
+        "Signing 1042665",
+        "Signing 1042835",
+        "Signing 1042949",
+        "Signing 1042964",
+        "Signing 1043219",
+        "Signing 1043383",
+        "Signing 1043503",
+        "Signing 1044388",
+        "Trade 2021012",
+        "Trade 2021041",
+        "Waive 1043386",
+        "Waive 1043489",
+        "Waive 1043689",
+        "Waive 1043708",
+        "Waive 1044417",
+        "Waive 1044546",
+        "Waive 1044647",
+        "Waive 1044648",
+        "Waive 1044982",
+        "Waive 1044983"
+      ],
+      "contract_roster_cost_interval_to_first_game_certified": false
+    },
+    "OKC": {
+      "first_CHI_game": {
+        "game_id": "0022100730",
+        "date": "2022-01-24",
+        "opponent": "OKC",
+        "historical_score_not_selected": true
+      },
+      "reported_rows_after_T1_before_new_capyear_unexecuted": 2,
+      "reported_rows_before_first_CHI": 35,
+      "selected_named_routine_signing_rows": 0,
+      "not_executed_reported_rows": 35,
+      "unapplied_GroupSorts": [
+        "AwardedOnWaivers 1043508",
+        "Signing 1042683",
+        "Signing 1042787",
+        "Signing 1042789",
+        "Signing 1042878",
+        "Signing 1042908",
+        "Signing 1042960",
+        "Signing 1043002",
+        "Signing 1043169",
+        "Signing 1043349",
+        "Signing 1049392",
+        "Signing 1049393",
+        "Signing 1049394",
+        "Signing 1049559",
+        "Signing 1050914",
+        "Signing 1051301",
+        "Signing 1052027",
+        "Trade 2020090",
+        "Trade 2021079",
+        "Waive 1042646",
+        "Waive 1043303",
+        "Waive 1043528",
+        "Waive 1044027",
+        "Waive 1044143",
+        "Waive 1044427",
+        "Waive 1044557",
+        "Waive 1044558",
+        "Waive 1044673",
+        "Waive 1044674",
+        "Waive 1044675",
+        "Waive 1044676",
+        "Waive 1050492",
+        "Waive 1050798"
+      ],
+      "contract_roster_cost_interval_to_first_game_certified": false
+    }
+  },
+  "summary": {
+    "teams": 3,
+    "first_CHI_anchor_games": 3,
+    "source_reported_rows_in_requested_ranges": 82,
+    "new_selected_named_RSC_events": 2,
+    "remaining_unexecuted_reported_rows_in_requested_ranges": 80,
+    "full_15_plus_2_opening_teams_completed": 0,
+    "date_intervals_to_first_CHI_fully_legal": 0,
+    "actual_2021_22_opponent_health_or_game_result_selected": 0
+  },
+  "exact_remaining_inputs": [
+    "Published 2021–22 #2/#16 official rookie scale cents or a clearly bounded scale interval for numeric new-year salary; the lawful RSC percentage policy is selected, actual contract paper is not a gate.",
+    "BOS/OKC and HOU post-8/6 GroupSort counterparty/contract-class events, old-contract expiry/waive-dead-money, six new-year cost categories and final 15+2 roster by each first CHI date.",
+    "Date-specific available 5-player role and opponent health/result choices after legal interval; historical first-CHI box score is not automatically copied."
+  ],
+  "authority": {
+    "new_human_question_required_by_NPC_unselected_label": false,
+    "selected_routine_NPC_signing_family": true,
+    "actual_private_contract_receipt_certified": false,
+    "new_author_lock": false,
+    "whole_macro3_or_2021_22_season_complete": false,
+    "manuscript_allowed": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED"
+}
