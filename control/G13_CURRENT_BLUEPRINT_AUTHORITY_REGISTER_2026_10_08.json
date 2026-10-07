@@ -1,0 +1,2593 @@
+{
+  "schema": "G13_CURRENT_BLUEPRINT_AUTHORITY_REGISTER_V1",
+  "status": "CURRENT_60_LOCAL_BLUEPRINT_AUTHORITIES_REFERENCE_ONLY_PENDING_REGISTER_PEER",
+  "source_sha256": {
+    "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+    "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+    "reviews/A06_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "c32ae5e1921a872caf240498d131647f19690fe7d0edfe059edd054548e49cbf",
+    "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+    "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+    "design/A01_REMAINING_VERIFIED_BLUEPRINT_BUNDLE_2026_10_08.json": "36b48ef73b91a477d5caf547f010c1c4ada7ac7deac6b5f9de9abc498f90c439",
+    "design/A06_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json": "80ae9cd6dccdac4fbd820f08fd89863018d444548f5eac861d2fe6bc92894a53",
+    "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+    "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+    "tools/build_a01_remaining_verified_blueprint_bundle.py": "9f7a46f219542a27aa45c5e41e0638a179102cb33ee2a45994114fef1e608170",
+    "design/A01_REMAINING_VERIFIED_BLUEPRINT_BUNDLE_2026_10_08.md": "a2d9051550731d3559f0488ff49b1623da6cf22ece5e1215c1bd92aedae405be",
+    "tools/build_a06_local_blueprint_bundle.py": "28d7e13f05e41753b3e4ecb69a750114965174f49db44deb8a91fc80b5bc8a2d",
+    "design/A06_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.md": "72da6e4f8c13c0fc5e852db8b9e4846d42fcdd050ae2212acc126180f783d491",
+    "design/G13_VERIFIED_BLUEPRINT_FINITE_BUILD_QUEUE_2026_10_08.json": "2a318281c77158687ced14a5cf6ad5c07243079189b2631a3f5db048279af84d",
+    "design/G13_VERIFIED_BLUEPRINT_FINITE_BUILD_QUEUE_2026_10_08.md": "041146239750eed90a8b85e069fcb99f6e34a6e60ea271c89d449d8039e62369",
+    "tools/build_a06_a09_remaining_blueprint_bundle.py": "8fee93ceb8e6f7eaafb1d6dd66d13adaaefc7f3f7da2d41f0d00e98a49cd58a8",
+    "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.md": "008db4849c373280cd12f9f1d3a9e0ab927cec9b682086328fe8d25e130c4991",
+    "tools/build_a10_a14_local_blueprint_bundle.py": "5b2147524832c0fe95ce23406c65f62fd66718f8defd6aeabaebd4379087d94f",
+    "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.md": "fd84a8f871d09a0777138e25e20db7bd363066f44ec57eef989e380ba79e35ef",
+    "tools/build_g13_current_blueprint_authority_register.py": "3a674b78704864b38eed0654d9b5ce0df053080e6bce693a7c06d35849a67ba2"
+  },
+  "current_function_register_scope_sha256": "d6bbe165a376f081471aceec76f44a0df930a38eab5cfc4435f6c6b508d1412c",
+  "historical_register_line_snapshot": {
+    "commit": "1953b41782dd4ae7367746011a2f803e67c9dee2",
+    "sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+    "historical_lines": {
+      "A01-EF-001": 133,
+      "A01-EF-002": 143,
+      "A01-EF-003": 153,
+      "A01-EF-004": 163,
+      "A01-EF-005": 173,
+      "A01-EF-006": 183,
+      "A01-EF-007": 193,
+      "A01-EF-008": 203,
+      "A01-EF-009": 213,
+      "A02-EF-001": 223,
+      "A02-EF-002": 233,
+      "A02-EF-003": 243,
+      "A02-EF-004": 253,
+      "A02-EF-005": 263,
+      "A02-EF-006": 273,
+      "A02-EF-007": 283,
+      "A02-EF-008": 293,
+      "A02-EF-009": 303,
+      "A02-EF-010": 313,
+      "A03-EF-001": 323,
+      "A03-EF-002": 333,
+      "A03-EF-003": 343,
+      "A04-EF-001": 353,
+      "A04-EF-002": 363,
+      "A04-EF-003": 373,
+      "A04-EF-004": 383,
+      "A04-EF-005": 393,
+      "A05-EF-001": 403,
+      "A05-EF-002": 413,
+      "A05-EF-003": 423,
+      "A05-EF-004": 433,
+      "A06-EF-001": 443,
+      "A06-EF-002": 454,
+      "A06-EF-003": 465,
+      "A06-EF-004": 476,
+      "A06-EF-005": 487,
+      "A07-EF-001": 498,
+      "A07-EF-002": 509,
+      "A07-EF-003": 520,
+      "A08-EF-001": 531,
+      "A08-EF-002": 542,
+      "A08-EF-003": 553,
+      "A09-EF-001": 564,
+      "A09-EF-002": 574,
+      "A09-EF-003": 586,
+      "A10-EF-001": 598,
+      "A10-EF-002": 610,
+      "A10-EF-003": 622,
+      "A11-EF-001": 634,
+      "A11-EF-002": 645,
+      "A11-EF-003": 659,
+      "A12-EF-001": 673,
+      "A12-EF-002": 687,
+      "A12-EF-003": 701,
+      "A13-EF-001": 715,
+      "A13-EF-002": 729,
+      "A13-EF-003": 743,
+      "A14-EF-001": 757,
+      "A14-EF-002": 771,
+      "A14-EF-003": 785
+    },
+    "line_numbers_are_snapshot_locators_not_currentness_gates": true
+  },
+  "function_authorities": [
+    {
+      "function_id": "A01-EF-001",
+      "order": 1,
+      "subact": "A01-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "line_at_read_snapshot": 133,
+        "relevant_core_sha256": "e6802d08ab909cae5d2e242a089f7d29deb44c7cd07dac6cfd11a9a337030730"
+      },
+      "selected_function": {
+        "path": "design/A01_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "9c15706717053a274f254ada476c027ea619858e6cd4ae80d8d8b422b789405e"
+      },
+      "blueprint": {
+        "path": "design/A01_OPENING_BLUEPRINT.json",
+        "json_pointer": "/",
+        "current_source_sha256": "7cae80dea76e56676d18a741c3e053648989b2596d43f24d98b5cdeb0e166251",
+        "record_semantic_sha256": "5d84f8b7f578dcba35356381e39ca264fe599e050004eb3d5ecd2ec9b46cc970",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "ACTUAL_VERIFIED",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-002",
+      "order": 2,
+      "subact": "A01-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "line_at_read_snapshot": 143,
+        "relevant_core_sha256": "223a443a9690c65b9fac59b330fa0a88310f4123375a33e7d0f3fa6f82e3a9a0"
+      },
+      "selected_function": {
+        "path": "design/A01_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "306dd7810fda0395dc722ab953ebac9ef1e4cf3db0cc4a9dc0266a8a2b2e5285"
+      },
+      "blueprint": {
+        "path": "design/A01_FIRST_TRIAL_BLUEPRINT.json",
+        "json_pointer": "/",
+        "current_source_sha256": "745638c9764fe6bdbf5e885efaa26b8e477c0d141236abed8c00d137270c9945",
+        "record_semantic_sha256": "1646281f62ec0df8fda6f05db0ff06f21a2d44b09466f46a6b4a90ae5f2ca704",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "ACTUAL_VERIFIED",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-003",
+      "order": 3,
+      "subact": "A01-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "line_at_read_snapshot": 153,
+        "relevant_core_sha256": "e2e48b627cd756b75e0965f51015cc3f8ba8146c7e8de7fa46ff11d78cf8e22e"
+      },
+      "selected_function": {
+        "path": "design/A01_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "edbccc96f145274f4dfcfc2bbaebdce1477b0f3f3426a5420848aadfde1f4911"
+      },
+      "blueprint": {
+        "path": "design/A01_FIRST_CONTRIBUTION_BLUEPRINT.json",
+        "json_pointer": "/",
+        "current_source_sha256": "56d7bfd2ff2b1b7f5fc805f4ec959508d2a08cba207454d8d3b861d00f5e2656",
+        "record_semantic_sha256": "6980e49c47781fdc9fca8a1843e35e750cef3ff85e0101a5fb8144405b57698a",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "ACTUAL_VERIFIED",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-004",
+      "order": 4,
+      "subact": "A01-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/3",
+        "line_at_read_snapshot": 163,
+        "relevant_core_sha256": "040712c03f7afbe5b97dd52298940e19b87f8d62002a59e9f1cad48b69c83c87"
+      },
+      "selected_function": {
+        "path": "design/A01_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "2223050467378df34763f5211d88eb82951e85acb18f1afee3cfb61b2998fecf"
+      },
+      "blueprint": {
+        "path": "design/A01_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "2223050467378df34763f5211d88eb82951e85acb18f1afee3cfb61b2998fecf",
+        "record_semantic_sha256": "801a7fc5cd426e955a80a31748a688836562981010186bc275d4d52ccc115430",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-005",
+      "order": 5,
+      "subact": "A01-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/4",
+        "line_at_read_snapshot": 173,
+        "relevant_core_sha256": "42aec5261718077949772c59e1b4a43c6c4714bc86b102c01d9f5cbd39366c03"
+      },
+      "selected_function": {
+        "path": "design/A01_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "7d8a1e11a978ebe049d0079606fb0a7140520efc892a76241627389711c4609f"
+      },
+      "blueprint": {
+        "path": "design/A01_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "7d8a1e11a978ebe049d0079606fb0a7140520efc892a76241627389711c4609f",
+        "record_semantic_sha256": "78411f83b3ef04d24b535335c26fb1ed71634211bfe0bc2d049f6b562d1580ed",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-006",
+      "order": 6,
+      "subact": "A01-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/5",
+        "line_at_read_snapshot": 183,
+        "relevant_core_sha256": "ce568401ef004c3dae552c827a097cb9ef5ef8c1676a129615eb0dc9b82fa1e8"
+      },
+      "selected_function": {
+        "path": "design/A01_E6_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "673bf62f660a6b71bb358752875df67f24204e34e36b4d0ce799fd6033c29feb"
+      },
+      "blueprint": {
+        "path": "design/A01_E6_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "673bf62f660a6b71bb358752875df67f24204e34e36b4d0ce799fd6033c29feb",
+        "record_semantic_sha256": "fa8d99affc574951610b6f915a7b08206e108544612988b9575395c9266f058a",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-007",
+      "order": 7,
+      "subact": "A01-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/6",
+        "line_at_read_snapshot": 193,
+        "relevant_core_sha256": "0fcbc33ffc93f53bf77b946bff3998d766ab51aaf110ed4eef0cd4db680438a1"
+      },
+      "selected_function": {
+        "path": "design/A01_E7_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "9c3c23821264c7c27c9a786c375bd812e3131dac79175b1ba6144ab001b9c4f0"
+      },
+      "blueprint": {
+        "path": "design/A01_E7_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "9c3c23821264c7c27c9a786c375bd812e3131dac79175b1ba6144ab001b9c4f0",
+        "record_semantic_sha256": "3239b43931ac8e1b2ccb7c91c2ece2de5ac106a2ba3bfbbaf4246a9692858005",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-008",
+      "order": 8,
+      "subact": "A01-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/7",
+        "line_at_read_snapshot": 203,
+        "relevant_core_sha256": "268c4facbbcbba8f138509ad9d32e0592de5af0e7794ebf71d874beb2ee54cd4"
+      },
+      "selected_function": {
+        "path": "design/A01_E8_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "e1eb6a51536dcb75f4c4a91cdc0504418b73140045dc5db790d89016c672b7ac"
+      },
+      "blueprint": {
+        "path": "design/A01_E8_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "e1eb6a51536dcb75f4c4a91cdc0504418b73140045dc5db790d89016c672b7ac",
+        "record_semantic_sha256": "910334b3d20893abcdc89f6d856345b91e7d80f71cdf7c3c6540a8554a88f4e4",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A01-EF-009",
+      "order": 9,
+      "subact": "A01-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/8",
+        "line_at_read_snapshot": 213,
+        "relevant_core_sha256": "15a63fa3ef5c51e3ec5751b758b38f3b9f7bf56947aa2077aff560f5f0358448"
+      },
+      "selected_function": {
+        "path": "design/A01_E9_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "23d4ab60ccac1b2ac2af855943ae6ca65b8e17f70ce7ea635a287043404b8455"
+      },
+      "blueprint": {
+        "path": "design/A01_E9_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "23d4ab60ccac1b2ac2af855943ae6ca65b8e17f70ce7ea635a287043404b8455",
+        "record_semantic_sha256": "2ad6860d84b65a6748d20b5c9bcf3963430d7bb5e7385d6b67ae9e2d8b2f44dd",
+        "reference_kind": "EXISTING_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+        "scope": "CURRENT_CANON_CORE_REVISION_AND_INFORMATION_ACCESS_FOR_NINE_EXISTING_FUNCTIONS_AND_SELECTED_SAME_TRIAL_W_OVERLAY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-001",
+      "order": 10,
+      "subact": "A02-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/9",
+        "line_at_read_snapshot": 223,
+        "relevant_core_sha256": "3f9baba12561fc57491f4b98c6abbd9eba62f04a039db0624e30a3afadb2b457"
+      },
+      "selected_function": {
+        "path": "design/A02_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "4e1b337204d9e8e772e4f1efabae1efac24eb688b40da6db06b6d51c10eaa51a"
+      },
+      "blueprint": {
+        "path": "design/A02_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "4e1b337204d9e8e772e4f1efabae1efac24eb688b40da6db06b6d51c10eaa51a",
+        "record_semantic_sha256": "215305dafec9f37db98610d60c070fe5d32ca025f68e153b0512bac186e8f227",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/0",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-002",
+      "order": 11,
+      "subact": "A02-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/10",
+        "line_at_read_snapshot": 233,
+        "relevant_core_sha256": "db4588de65684bd7be3dd23b0bced2dd646fa0c39c258601bbb62af95765afb0"
+      },
+      "selected_function": {
+        "path": "design/A02_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "df4254eca10598e6854cff5fcc63a4576b6f1f04eb5c1b9aa3eab9a7983a9f84"
+      },
+      "blueprint": {
+        "path": "design/A02_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "df4254eca10598e6854cff5fcc63a4576b6f1f04eb5c1b9aa3eab9a7983a9f84",
+        "record_semantic_sha256": "b4b59fc3c74b7d43542dab54e67919c32a7114d073cebdb0b41e41534056ac2e",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/1",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-003",
+      "order": 12,
+      "subact": "A02-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/11",
+        "line_at_read_snapshot": 243,
+        "relevant_core_sha256": "eb13276d9895a801bd4f43fc810686a283e11538fe07d35367934f0b862bd0e7"
+      },
+      "selected_function": {
+        "path": "design/A02_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "6563f2fe70b455f7997a797ff3ce0b1294013630b5c3ebff314760d20db0f0f0"
+      },
+      "blueprint": {
+        "path": "design/A02_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "6563f2fe70b455f7997a797ff3ce0b1294013630b5c3ebff314760d20db0f0f0",
+        "record_semantic_sha256": "9241068fccc6d3eda689f3b4e5f96a25aea983da16c3d26bb9981a45c7ec0e88",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/2",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-004",
+      "order": 13,
+      "subact": "A02-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/12",
+        "line_at_read_snapshot": 253,
+        "relevant_core_sha256": "69dfe2a4144fae6ece507b9260c7780ce1992815cc587e62d30f16e8891014cd"
+      },
+      "selected_function": {
+        "path": "design/A02_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "422ae5de50ab77decf210f6ffc656c075f75c505e1cada397c6feeb986dcb196"
+      },
+      "blueprint": {
+        "path": "design/A02_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "422ae5de50ab77decf210f6ffc656c075f75c505e1cada397c6feeb986dcb196",
+        "record_semantic_sha256": "ccc0f9e1f2ed64188932778427d71bfd34926c47a9371a1201b48a6021f6ea07",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/3",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-005",
+      "order": 14,
+      "subact": "A02-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/13",
+        "line_at_read_snapshot": 263,
+        "relevant_core_sha256": "4b70909824a64f27fed1a78fd936d57ed9351c107d60e3c6c722a502c3b59834"
+      },
+      "selected_function": {
+        "path": "design/A02_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "5b3668e86b34aa58aadcbb2b1fb2a1582b8172b901f9ab47fba3491cbd193477"
+      },
+      "blueprint": {
+        "path": "design/A02_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "5b3668e86b34aa58aadcbb2b1fb2a1582b8172b901f9ab47fba3491cbd193477",
+        "record_semantic_sha256": "2afa11f2f1590c2c8292527099933a3a6c2a741f1de73217fd940fc8108390a5",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/4",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-006",
+      "order": 15,
+      "subact": "A02-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/14",
+        "line_at_read_snapshot": 273,
+        "relevant_core_sha256": "61eacdd3e715eb787fb88b78011871d5b4383fd2cbf74ad44024ea02e76ef070"
+      },
+      "selected_function": {
+        "path": "design/A02_E6_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "cebe71aebda62caeb13a7f1d0d87679ed81f46ac857adc292813c3c652c01eb2"
+      },
+      "blueprint": {
+        "path": "design/A02_E6_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "cebe71aebda62caeb13a7f1d0d87679ed81f46ac857adc292813c3c652c01eb2",
+        "record_semantic_sha256": "105157284d67efd9e1b93695a03cd3d340aa2a0e9f11d5cac2017a7e21d8609a",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/5",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-007",
+      "order": 16,
+      "subact": "A02-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/15",
+        "line_at_read_snapshot": 283,
+        "relevant_core_sha256": "f409261e9d7a708c989c3d11054140c10b6ae15d77439c3207d8402e4883797c"
+      },
+      "selected_function": {
+        "path": "design/A02_E7_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "8acf5b1976baf3108fece2f978fdc3b834b10be52aab68e3bf68b4774a2bc0c8"
+      },
+      "blueprint": {
+        "path": "design/A02_E7_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "8acf5b1976baf3108fece2f978fdc3b834b10be52aab68e3bf68b4774a2bc0c8",
+        "record_semantic_sha256": "3d27f72fd97977f0401ab230e8c8395adbd59560ad6c0a2d28e73330b6157c0b",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/6",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-008",
+      "order": 17,
+      "subact": "A02-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/16",
+        "line_at_read_snapshot": 293,
+        "relevant_core_sha256": "2c950a7ae8b47b51bdb08cf7346bf5506ae0a24488391780c8617ea2abd6c7fa"
+      },
+      "selected_function": {
+        "path": "design/A02_E8_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "6e02e8573c24eb879c0d6d18c399e2ea5b95872cb1c7c335f653ee747be64a6f"
+      },
+      "blueprint": {
+        "path": "design/A02_E8_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "6e02e8573c24eb879c0d6d18c399e2ea5b95872cb1c7c335f653ee747be64a6f",
+        "record_semantic_sha256": "1f31618167cc33c297f6d658e9d6369a68dacf58fbbc7d40a041592f15cd9011",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/7",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-009",
+      "order": 18,
+      "subact": "A02-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/17",
+        "line_at_read_snapshot": 303,
+        "relevant_core_sha256": "5c3a9c1d96e5a68ead4a34abcaf6b0738911aeeafb9b5d799b78b85e778c039b"
+      },
+      "selected_function": {
+        "path": "design/A02_E9_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "673382aeda069daf205e72ff49012fa1dd94b780c2547dbcd7208e304d633c11"
+      },
+      "blueprint": {
+        "path": "design/A02_E9_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "673382aeda069daf205e72ff49012fa1dd94b780c2547dbcd7208e304d633c11",
+        "record_semantic_sha256": "7dade3101b04dd4b992daba8476cda64b67f385c6eb0cb48e15c93acaab93fdf",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/8",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A02-EF-010",
+      "order": 19,
+      "subact": "A02-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/18",
+        "line_at_read_snapshot": 313,
+        "relevant_core_sha256": "87c54232f9c59d708015805d556913a3c43e0f195da3c7334412253ba4f4a9b8"
+      },
+      "selected_function": {
+        "path": "design/A02_E10_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "2bf0e115af5b10ba8fbb613fc0dc569aeffa1c6de53cd505b03b16721a73942e"
+      },
+      "blueprint": {
+        "path": "design/A02_E10_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "2bf0e115af5b10ba8fbb613fc0dc569aeffa1c6de53cd505b03b16721a73942e",
+        "record_semantic_sha256": "d0431331527c57b42691303fdacc94c34d67aa73a48de2214a47867978b20026",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/9",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A03-EF-001",
+      "order": 20,
+      "subact": "A03-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/19",
+        "line_at_read_snapshot": 323,
+        "relevant_core_sha256": "b1b5a91875dbedec16dd770dfc7825be1e4c7b7755ac08642904f176e710098b"
+      },
+      "selected_function": {
+        "path": "design/A03_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "ad00a71895123d40cef8dfb5cfc5f545fa814c3347b40990b7dd4050377e5a91"
+      },
+      "blueprint": {
+        "path": "design/A03_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "ad00a71895123d40cef8dfb5cfc5f545fa814c3347b40990b7dd4050377e5a91",
+        "record_semantic_sha256": "c6b70d2c2546a734f6f8c325d28d957da08f6384da6554690547c081e32e394f",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/10",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A03-EF-002",
+      "order": 21,
+      "subact": "A03-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/20",
+        "line_at_read_snapshot": 333,
+        "relevant_core_sha256": "cb9b45860a052c6a7217e6f7658f3de97ee21398cf1ba64de374e6b071c6ed2f"
+      },
+      "selected_function": {
+        "path": "design/A03_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed"
+      },
+      "blueprint": {
+        "path": "design/A03_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed",
+        "record_semantic_sha256": "27c9cbdce92d62a33128738ba7ce87427934c9f2da9f06a35d7febab1e301c74",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/11",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A03-EF-003",
+      "order": 22,
+      "subact": "A03-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/21",
+        "line_at_read_snapshot": 343,
+        "relevant_core_sha256": "c68931e209f2785f4500b42205cdf21579970b1378248a2448e808e125052e03"
+      },
+      "selected_function": {
+        "path": "design/A03_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea"
+      },
+      "blueprint": {
+        "path": "design/A03_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea",
+        "record_semantic_sha256": "4630d9aa3b9ec591d5e592dda1bffdc03b3a19e0515aa8bcbb57e9e291817f5f",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/12",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A04-EF-001",
+      "order": 23,
+      "subact": "A04-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/22",
+        "line_at_read_snapshot": 353,
+        "relevant_core_sha256": "ee9d2ae61cb39daa39f0d2d38717956ab12ba1aec7358757effa828e1ddef59b"
+      },
+      "selected_function": {
+        "path": "design/A04_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "8bcddf517b6d776b9d87adfd06290fd9cd4a6cc365b0d8b0daed6556f4f299a3"
+      },
+      "blueprint": {
+        "path": "design/A04_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "8bcddf517b6d776b9d87adfd06290fd9cd4a6cc365b0d8b0daed6556f4f299a3",
+        "record_semantic_sha256": "6c0484ab0c5d38e0b0e536b1ca49d6fbccd64add5feb412935fc814b105ce4da",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/13",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A04-EF-002",
+      "order": 24,
+      "subact": "A04-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/23",
+        "line_at_read_snapshot": 363,
+        "relevant_core_sha256": "9cf36fbc9596d473982f18b4134b1d6a0d8d15887981a1d6de5d1015f7bfa746"
+      },
+      "selected_function": {
+        "path": "design/A04_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "97bd5c06306a2744920ef7c40615674564bd693ed72947be591e6b7801e156c2"
+      },
+      "blueprint": {
+        "path": "design/A04_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "97bd5c06306a2744920ef7c40615674564bd693ed72947be591e6b7801e156c2",
+        "record_semantic_sha256": "ba99b8b1a3390a4b8639fa2fde18c5d005eb0566cd887722070db74d9c782efa",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/14",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A04-EF-003",
+      "order": 25,
+      "subact": "A04-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/24",
+        "line_at_read_snapshot": 373,
+        "relevant_core_sha256": "cbeac2665995176ce31edac7a940d7596f79c242d3391fed565c7f0e2813b78c"
+      },
+      "selected_function": {
+        "path": "design/A04_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678"
+      },
+      "blueprint": {
+        "path": "design/A04_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+        "record_semantic_sha256": "e397c01b74d3ff91d8718fc82327cf755e0e2887bb054ccd98eb53a6b77966cd",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/15",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A04-EF-004",
+      "order": 26,
+      "subact": "A04-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/25",
+        "line_at_read_snapshot": 383,
+        "relevant_core_sha256": "979b6ef1b11715c31fc86975de227dfd8bff838e1e99a67623cc5308881b070e"
+      },
+      "selected_function": {
+        "path": "design/A04_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "3c41c07d73bf7fe0b659eef5c88b83079d1f007bd3a024dcd714a9d6a92309af"
+      },
+      "blueprint": {
+        "path": "design/A04_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "3c41c07d73bf7fe0b659eef5c88b83079d1f007bd3a024dcd714a9d6a92309af",
+        "record_semantic_sha256": "0a2069ab0a6272f5573697bf067f33ee40a95fcef8083f3cf27159b2c947bffd",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/16",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A04-EF-005",
+      "order": 27,
+      "subact": "A04-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/26",
+        "line_at_read_snapshot": 393,
+        "relevant_core_sha256": "fd2cb718e35db8b25cd01e6de94ff95df25c1bcd99dd11d71e27065d635f0c65"
+      },
+      "selected_function": {
+        "path": "design/A04_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944"
+      },
+      "blueprint": {
+        "path": "design/A04_E5_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944",
+        "record_semantic_sha256": "3197027ef40c6cb6982841d3813b92e59a89ed846eac153a99f9545f4629bcc3",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/17",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A05-EF-001",
+      "order": 28,
+      "subact": "A05-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/27",
+        "line_at_read_snapshot": 403,
+        "relevant_core_sha256": "87cfebbffd8047a2d4654e307de3ed55a661d5f8579b3c653cae526f7039844e"
+      },
+      "selected_function": {
+        "path": "design/A05_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "1d98fc889b4038fe71d5b09af8b676ded7d8a06629b3bd9cddee7e18dd3e54ae"
+      },
+      "blueprint": {
+        "path": "design/A05_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "1d98fc889b4038fe71d5b09af8b676ded7d8a06629b3bd9cddee7e18dd3e54ae",
+        "record_semantic_sha256": "d3729ecacaa5b74adce16765df2fe6ff2c8f80d867f0029d7274772ab4a25cd1",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/18",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A05-EF-002",
+      "order": 29,
+      "subact": "A05-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/28",
+        "line_at_read_snapshot": 413,
+        "relevant_core_sha256": "07361140a1784a5256f73562126d094a38b6229a7eaeca40164f1e523e7a5061"
+      },
+      "selected_function": {
+        "path": "design/A05_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "3ba94dc258a88e5cd7b227d4476762f8db4cb69197bc4812ca7d1b091d866601"
+      },
+      "blueprint": {
+        "path": "design/A05_E2_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "3ba94dc258a88e5cd7b227d4476762f8db4cb69197bc4812ca7d1b091d866601",
+        "record_semantic_sha256": "9d834bcc7122a6d872a778a926763876469359d93ed6b7dee7e61a423cfada24",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/19",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A05-EF-003",
+      "order": 30,
+      "subact": "A05-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/29",
+        "line_at_read_snapshot": 423,
+        "relevant_core_sha256": "08d7023c0765b3b32296a1b66a33f87256c3d7cd1926102b31b8bb515df855e3"
+      },
+      "selected_function": {
+        "path": "design/A05_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "0522ed9207a50939c8f5e27cc14f206fd5f008c01ea1506a97ca1cc565e41e4b"
+      },
+      "blueprint": {
+        "path": "design/A05_E3_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "0522ed9207a50939c8f5e27cc14f206fd5f008c01ea1506a97ca1cc565e41e4b",
+        "record_semantic_sha256": "cf5a076bb5c81c7276f2d6542d0b6bed98174acd74fec06fc5d2ae57d79aa2f4",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/20",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A05-EF-004",
+      "order": 31,
+      "subact": "A05-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/30",
+        "line_at_read_snapshot": 433,
+        "relevant_core_sha256": "e9110c8ffc7644e95ec297910ce504a04f33ef8ffc06e9923db3bbbda54d1478"
+      },
+      "selected_function": {
+        "path": "design/A05_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454"
+      },
+      "blueprint": {
+        "path": "design/A05_E4_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/local_blueprint",
+        "current_source_sha256": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454",
+        "record_semantic_sha256": "2b73e8c2821d23d7db393cde1a2bd872631620960513e776bdd8e9312cb6e153",
+        "reference_kind": "EXISTING_EMBEDDED_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A02_A05_EMBEDDED_BLUEPRINT_CURRENT_CORE_CHI_REVIEW_2026_10_08.json",
+        "json_pointer": "/function_reviews/21",
+        "current_review_sha256": "5489540b09a2959452b2e677406cef3e9b10e6c66ce2f3f58d2d8766dc2b05c9",
+        "scope": "A02 10 + A03 3 + A04 5 + A05 4 existing embedded Blueprints only; no copied Blueprint/source or new event"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+        "record_status": "ACTUAL_VERIFIED",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A06-EF-001",
+      "order": 32,
+      "subact": "A06-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/31",
+        "line_at_read_snapshot": 443,
+        "relevant_core_sha256": "98d0912627282187749927d0addf9867060bd579ed4d9b8ac21ac1634aeaacae"
+      },
+      "selected_function": {
+        "path": "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9"
+      },
+      "blueprint": {
+        "path": "design/A06_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/",
+        "current_source_sha256": "80ae9cd6dccdac4fbd820f08fd89863018d444548f5eac861d2fe6bc92894a53",
+        "record_semantic_sha256": "600ff24c78bb2bfb306b3bd4f993aa3981141be70fff4a43e0e2318e637163e2",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/checks",
+        "current_review_sha256": "c32ae5e1921a872caf240498d131647f19690fe7d0edfe059edd054548e49cbf",
+        "scope": "CURRENT_CANON_PATH_REVISION_CORE_STATE_AND_INFORMATION_BOUNDARY_FOR_EXISTING_LOCAL_FUNCTION_ONLY"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PHYSICAL_UNVERIFIED_PENDING_INDEPENDENT_COMPARISON",
+        "record_status": "PHYSICAL_UNVERIFIED_PENDING_INDEPENDENT_COMPARISON",
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": false,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A06-EF-002",
+      "order": 33,
+      "subact": "A06-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/32",
+        "line_at_read_snapshot": 454,
+        "relevant_core_sha256": "dd4757a583f59f8b44af7c57de866fa6241d942036c9386a0d41c45a789595a2"
+      },
+      "selected_function": {
+        "path": "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/0",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "5869ca733753a1cb12110c2c144213da11159c97990611a64fa41f313763f03b",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/0",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A06-EF-003",
+      "order": 34,
+      "subact": "A06-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/33",
+        "line_at_read_snapshot": 465,
+        "relevant_core_sha256": "bcca983b7e009d757acba22ca8a095512401c859a1f75a2a129000107c3c3954"
+      },
+      "selected_function": {
+        "path": "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/1",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "76a67d30e7d864ffa3710e7aaa9649e65a541604f85ed05ed6784a802a6b5460",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/1",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A06-EF-004",
+      "order": 35,
+      "subact": "A06-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/34",
+        "line_at_read_snapshot": 476,
+        "relevant_core_sha256": "e6eaf6f0faaa963f465b33fbbd6edf7f57456262fd6cd8f24e551d57f3af158a"
+      },
+      "selected_function": {
+        "path": "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/3",
+        "current_source_sha256": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/2",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "91d593d100203c333b622dec66add5ab3eccac9868b10a79afc477e1fb68e0d1",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/2",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A06-EF-005",
+      "order": 36,
+      "subact": "A06-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/35",
+        "line_at_read_snapshot": 487,
+        "relevant_core_sha256": "180bb6c4d5a8124eb955ca8553d409a548cc708dc8e8b61887d747a4cc7f5539"
+      },
+      "selected_function": {
+        "path": "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/4",
+        "current_source_sha256": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/3",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "d678f36571fb16fcedf575f8f5b1d696451d2bb6203dbcca9cebb664a999fb01",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/3",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A07-EF-001",
+      "order": 37,
+      "subact": "A07-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/36",
+        "line_at_read_snapshot": 498,
+        "relevant_core_sha256": "37b833049fbd9c2463a45f73da4b0225c0bb1401f8ea3104c75b5a463115e62b"
+      },
+      "selected_function": {
+        "path": "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/4",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "c2a5d8a5174fb839f99edd03199940be643fc71445b8bb035b65d4ecc63deb36",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/4",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A07-EF-002",
+      "order": 38,
+      "subact": "A07-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/37",
+        "line_at_read_snapshot": 509,
+        "relevant_core_sha256": "b8e6760b07ac76406bb11f1f740bda59c73c12adb4d04fe0671493c737c94cfc"
+      },
+      "selected_function": {
+        "path": "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/5",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "ed226e3a529b95554fa8c4eb9623423fdc588fff82eb0994b71344fe63416ae9",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/5",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A07-EF-003",
+      "order": 39,
+      "subact": "A07-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/38",
+        "line_at_read_snapshot": 520,
+        "relevant_core_sha256": "f3a3a79f881d99bc33eb90f44cbd333dbda60057ca98276cce19e33186a10426"
+      },
+      "selected_function": {
+        "path": "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/6",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "e4d9b1c84c6c4125ae66a35b94bdc5f4e2b8b4137ee24219ce2c457c303c9ea8",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/6",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A08-EF-001",
+      "order": 40,
+      "subact": "A08-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/39",
+        "line_at_read_snapshot": 531,
+        "relevant_core_sha256": "bb811dac6df8454a84a7b15c889903d724366e3b71cda25d5ba56972feb20441"
+      },
+      "selected_function": {
+        "path": "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/7",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "e8b15bf37f7d0967e79ab24d9dc1de17d2f5df5894f1601b5787679640c14ce2",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/7",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A08-EF-002",
+      "order": 41,
+      "subact": "A08-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/40",
+        "line_at_read_snapshot": 542,
+        "relevant_core_sha256": "0f1d1645f9c179a7ac7fa5003f8bb7e0137ec4efe5e2d47ca84816ae14f59a28"
+      },
+      "selected_function": {
+        "path": "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/8",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "ac5c23b67a82f4b71afdfd47b0ce25aee89da876b6601f829f089134bd15100f",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/8",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A08-EF-003",
+      "order": 42,
+      "subact": "A08-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/41",
+        "line_at_read_snapshot": 553,
+        "relevant_core_sha256": "4d8633bc1e637d79fdae1db054ab4d245b41274f091d6e8923b59b6d7e9f6309"
+      },
+      "selected_function": {
+        "path": "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/9",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "fa9372bec2965d693a1200e63670ebaad2cb65138224942388b6c2d9af069718",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/9",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A09-EF-001",
+      "order": 43,
+      "subact": "A09-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/42",
+        "line_at_read_snapshot": 564,
+        "relevant_core_sha256": "824981e0e45c07248a22fcbf1ff5df4fbdcea8654531942714889a2c96388ee4"
+      },
+      "selected_function": {
+        "path": "design/A09_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "0a0e4cf2c3f41fd16131f8cf43310ab44ae4ec1b26d7361f128889f14b4eaf58"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/10",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "2af009c9dea0bb0c6010044ef11eef925740204280d979eb96e748f7532b5cd2",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/10",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A09-EF-002",
+      "order": 44,
+      "subact": "A09-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/43",
+        "line_at_read_snapshot": 574,
+        "relevant_core_sha256": "05a27772bb2a72d12a890ae7be1a3359ebab942ae8dd754be864c8353a3e61da"
+      },
+      "selected_function": {
+        "path": "design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "038b0227a74c7abbb94061776f9cf5c0cc33841bd6de3d5694ffdb6f7341b3be"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/11",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "2cf7291ccb388d617bc12b2e076310272ff17a24edb81e1cd93aa46b79047a1b",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/11",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A09-EF-003",
+      "order": 45,
+      "subact": "A09-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/44",
+        "line_at_read_snapshot": 586,
+        "relevant_core_sha256": "55bbfa092c0ed7704973e122fea0627275abbcd7cb39d8ea4a8ecd7f86aa738c"
+      },
+      "selected_function": {
+        "path": "design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "038b0227a74c7abbb94061776f9cf5c0cc33841bd6de3d5694ffdb6f7341b3be"
+      },
+      "blueprint": {
+        "path": "design/A06_A09_REMAINING_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/12",
+        "current_source_sha256": "3f9df0820e40c927c69b840a05c5163162c214b59558a915b0da0051513cfba8",
+        "record_semantic_sha256": "e038c89b5bdcbdcf30ef28ef158d12b72ee0f1742b833c2df283c2d4c788b647",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A06_A09_REMAINING_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/12",
+        "current_review_sha256": "bd19a355d55b4a1f3669f3f0c948469a989e4dd194c1be71fe388cdb361d6fc6",
+        "scope": "CURRENT_CANON_SOURCE_PATH_POINTER_REVISION_CORE_STATE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTIONS"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A10-EF-001",
+      "order": 46,
+      "subact": "A10-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/45",
+        "line_at_read_snapshot": 598,
+        "relevant_core_sha256": "3863e5222ce6c6ae8f38c8151759fdf3f6f44f6e61ee118d43820fb3ab1257da"
+      },
+      "selected_function": {
+        "path": "design/A10_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "78f109d927d07e111f06a9bcb277cd0d7ecdfb867a184c6761f2dfe2d433eaf8"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/0",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "df658e6ca6064efef9c0f5aa9ffff15a69edf8ccbe26c5a6bd313990af0dafdd",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/0",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A10-EF-002",
+      "order": 47,
+      "subact": "A10-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/46",
+        "line_at_read_snapshot": 610,
+        "relevant_core_sha256": "16e06fc4d518f95f1776cceef3e79e0c16b5c9aaebaf2f13d8f28f1ba8ab96a5"
+      },
+      "selected_function": {
+        "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/1",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "3daa13c66df3fcfa31c8119b01a786b015884f0e41ec9d80264804aba463e4f0",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/1",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A10-EF-003",
+      "order": 48,
+      "subact": "A10-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/47",
+        "line_at_read_snapshot": 622,
+        "relevant_core_sha256": "92b3a700696dac8440244197cc81caf228eb18714ef975ed874a8f914b1acf04"
+      },
+      "selected_function": {
+        "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/2",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "25fe9a0ab41430b3fc43e245c881890ec162801732e1932bf8bb65b3e1110700",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/2",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A11-EF-001",
+      "order": 49,
+      "subact": "A11-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/48",
+        "line_at_read_snapshot": 634,
+        "relevant_core_sha256": "8fc79b535759f0fc8fab0bf4429c942647163c435c5f78ce88c8d00097e38756"
+      },
+      "selected_function": {
+        "path": "design/A11_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": "/",
+        "current_source_sha256": "4666a5265eb7286a9570c4f4c826154eb79b50b2c59b15377cd3d29e420b3d69"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/3",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "161e9aeebb607ff9062ae7698ceb3400756cbbfeafb114c9539088396d5a00e5",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/3",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A11-EF-002",
+      "order": 50,
+      "subact": "A11-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/49",
+        "line_at_read_snapshot": 645,
+        "relevant_core_sha256": "4eadd9f82466a9a56f81f514b2e515c02cae7a27de1906515297bd647b342f10"
+      },
+      "selected_function": {
+        "path": "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/4",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "0d1ebe77afc10e04059f7133647b1f1764dfa466c0fa91bd382ddf8ef6b4a60a",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/4",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A11-EF-003",
+      "order": 51,
+      "subact": "A11-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/50",
+        "line_at_read_snapshot": 659,
+        "relevant_core_sha256": "920f718228daeee7859f79d6aefce75e5465f9dbce38c5dfd0c9d27a885d0d53"
+      },
+      "selected_function": {
+        "path": "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/5",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "1dfa7bbbc381bc6fa8c5a15aba9636b8bc3bccbaf055ca02b1cfe7839c8e8507",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/5",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A12-EF-001",
+      "order": 52,
+      "subact": "A12-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/51",
+        "line_at_read_snapshot": 673,
+        "relevant_core_sha256": "ea906ef1e5b1c9bfc79e25e2f89838c4a7a28eb37b68a17c7392b0ad1d140c14"
+      },
+      "selected_function": {
+        "path": "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/6",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "7210d3d031e5f9134ce420cf4c082c4cacac2f4a446f6be6e320b32df216d784",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/6",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A12-EF-002",
+      "order": 53,
+      "subact": "A12-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/52",
+        "line_at_read_snapshot": 687,
+        "relevant_core_sha256": "92c15b6383b3b8e12a26e5b5fdc5e7a47a8752d647a32cd22a148d41860e4ebb"
+      },
+      "selected_function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/7",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "699ef5bc95950254d4cf36320c7f4357588b86ea7d86a972075f4bf099104aee",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/7",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A12-EF-003",
+      "order": 54,
+      "subact": "A12-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/53",
+        "line_at_read_snapshot": 701,
+        "relevant_core_sha256": "e45e26ce4213cb7c6142b1b1c1de9312b93971b3105b3fe2e9e1d0f905a5e46d"
+      },
+      "selected_function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/8",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "6c8d4d8d0537571fabfe33eb4adce383f615a2beee9ab47998c6174a44585485",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/8",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A13-EF-001",
+      "order": 55,
+      "subact": "A13-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/54",
+        "line_at_read_snapshot": 715,
+        "relevant_core_sha256": "e915cb0814f4efd00c75a8b78b7cff8e66352db8c5c5afeb3d081514301dede6"
+      },
+      "selected_function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/9",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "c5eb30ab40848672c38f6224f235459945e67194b4f97364560fe58c7a382b63",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/9",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A13-EF-002",
+      "order": 56,
+      "subact": "A13-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/55",
+        "line_at_read_snapshot": 729,
+        "relevant_core_sha256": "980bba77a3c9915d7ee8be6d54da27c8353edad83956d23111c282cbfd3043ec"
+      },
+      "selected_function": {
+        "path": "design/A13_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "0f79ee52cf8697b85e2a562dac7b4c04cd159b81a21fdca9a1dd0da33320b6fe"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/10",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "f80a529d5afafc257b8eaed323a0d370b3f624e3420b216a55d05bbf8ca4da8b",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/10",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A13-EF-003",
+      "order": 57,
+      "subact": "A13-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/56",
+        "line_at_read_snapshot": 743,
+        "relevant_core_sha256": "65f9322a48c81ea203aecfdb0490edd3493ec4d0b6893b8c86e40aa55d2f2911"
+      },
+      "selected_function": {
+        "path": "design/A13_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "0f79ee52cf8697b85e2a562dac7b4c04cd159b81a21fdca9a1dd0da33320b6fe"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/11",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "2464895be1721f9fe544b2272ac7cd8586ffd7e181f15b65642835e522d9dbc6",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/11",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A14-EF-001",
+      "order": 58,
+      "subact": "A14-S1",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/57",
+        "line_at_read_snapshot": 757,
+        "relevant_core_sha256": "76e6325dff16245a32143240ea89cb83c928b12acd99da5793ccfeb30d0b24e9"
+      },
+      "selected_function": {
+        "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "current_source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/12",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "0c975875b1332277c02bc5ec8f4a89f5eb5f8df1935d8de9831afc28540c15b3",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/12",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A14-EF-002",
+      "order": 59,
+      "subact": "A14-S2",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/58",
+        "line_at_read_snapshot": 771,
+        "relevant_core_sha256": "eb649fb978686378a2b6724e5b54d73b3928059662956f733f287c95f6120b2c"
+      },
+      "selected_function": {
+        "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "current_source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/13",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "2f497fba8fb17ce5395e731563bb30a5bb462ac66f706e68d5126d798319adaf",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/13",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    },
+    {
+      "function_id": "A14-EF-003",
+      "order": 60,
+      "subact": "A14-S3",
+      "current_register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/59",
+        "line_at_read_snapshot": 785,
+        "relevant_core_sha256": "7341ab86399b4e336ced9905295eedaeb1110256848bd5df4c6b921efecbb63f"
+      },
+      "selected_function": {
+        "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "current_source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+      },
+      "blueprint": {
+        "path": "design/A10_A14_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json",
+        "json_pointer": "/records/14",
+        "current_source_sha256": "eb06cd19e9f30d4b5927f65251b9c9ef2398a7417c657dd19706400e94c9071b",
+        "record_semantic_sha256": "d14c1d49846f7f9db068e58aea25343efc4d8fda73fc61ad26de814783d42203",
+        "reference_kind": "NEW_LOCAL_BLUEPRINT_REFERENCE"
+      },
+      "qualified_status": "ACTUAL_VERIFIED",
+      "qualification": {
+        "review_path": "reviews/A10_A14_LOCAL_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/verified_source_records/14",
+        "current_review_sha256": "7a2c4b3c47f8eed4439eb83f35cc0cf44b9ab1b7c7a83fb185892feb1edca1f1",
+        "scope": "CURRENT_CANON_PATH_POINTER_REVISION_CORE_STATE_AND_ACCESS_OF_EXISTING_SELECTED_LOCAL_PRACTICE_FUNCTIONS_NOT_FUTURE_HISTORICAL_OUTCOMES"
+      },
+      "original_generation_flags_preserved": {
+        "parent_status": "PENDING_INDEPENDENT_BLUEPRINT_COMPARISON_NOT_ACTUAL_VERIFIED",
+        "record_status": null,
+        "parent_independent_review_completed": null,
+        "parent_this_blueprint_independent_review_completed": null,
+        "record_ACTUAL_VERIFIED_promoted_by_writer": null
+      },
+      "individual_scene_pov_verified": false,
+      "scope": "CURRENT_SOURCE_PATH_REVISION_CORE_AND_INFORMATION_ACCESS_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+      "Blueprint_source_referenceable_under_scope": true,
+      "actual_Pack_compilation_authorized": false
+    }
+  ],
+  "same_trial_W_supplement": {
+    "function_id": "A01-EF-002",
+    "blueprint_path": "design/A01_REMAINING_VERIFIED_BLUEPRINT_BUNDLE_2026_10_08.json",
+    "json_pointer": "/remaining_blueprints/0",
+    "semantic_sha256": "5775fb83cb8eadd74231f14202e656e5aa5d1c74c9b18aefba76ecc9703a4d04",
+    "qualified_status": "ACTUAL_VERIFIED",
+    "qualifying_review": "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+    "review_sha256": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+    "original_generation_status_preserved": "PHYSICAL_UNVERIFIED_PENDING_ROOT_INDEPENDENT_REVIEW",
+    "new_function_or_event": false
+  },
+  "counts": {
+    "qualified_functions": 60,
+    "function_orders": 60,
+    "covered_subacts": 42,
+    "existing_blueprint_references": 31,
+    "new_local_blueprint_references": 29,
+    "same_trial_supplements": 1,
+    "blueprint_bodies_copied": 0,
+    "new_events_functions_or_dialogue": 0
+  },
+  "exception_report": [],
+  "currentness_policy": "Immutable evidence/review pins plus each producer's relevant current Canon/register projection. Historical complete SHA/commits remain in the referenced accepted sources. Unrelated central progress appends are not new currentness gates.",
+  "scope_limits": {
+    "register_independent_review_completed": false,
+    "parent_pending_flags_rewritten": false,
+    "individual_scene_POV_lock_certified": false,
+    "whole_Act_history_or_G13_complete": false,
+    "final_published_allocation_locked": false,
+    "whole_g14_complete": false,
+    "actual_context_packs": 0,
+    "manuscript_allowed": false,
+    "new_author_lock": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  },
+  "next_dependency": "Whole Act/historical exits and final publication allocation remain prerequisites to actual Context Pack compilation; local Blueprint qualification alone does not open them."
+}
