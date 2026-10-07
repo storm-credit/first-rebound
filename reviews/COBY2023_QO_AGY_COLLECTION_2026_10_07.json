@@ -1,0 +1,81 @@
+{
+  "tool": "Antigravity",
+  "scope": "ORIGINAL_COBY2023_QO_LIST_ONLY_NOT_ALTERNATE_ISSUANCE",
+  "source_url": "https://www.nba.com/news/2023-free-agency-options-and-qualifying-offers",
+  "prompt_sha256": "341e6a7278495cc40fcd0b3842375e6bc5514ec5fee4973899eaa9cb74535fef",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 40.104,
+    "process_budget_seconds": 45,
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "46d21cd7-be8e-4ddf-9a2a-6e33296a1c9e",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"url\": \"https://www.nba.com/news/2023-free-agency-options-and-qualifying-offers\",\n  \"article_update_date\": \"2023-06-30T16:48:16Z\",\n  \"Coby_restricted_listed\": true,\n  \"actual_body_read\": true,\n  \"locator\": \"Qualifying offers -> Issued (restricted free agents) -> Coby White (CHI)\",\n  \"access_status\": \"SUCCESS\"\n}\n```\n",
+      "duration_seconds": 28.9535485,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 23,
+        "tool_output_sha256": "fa76922ddda4b56584eecb133192b5b00b1c597226646db9f939eb7177cf8425"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "c8eb486c950ffff99ae9e3e8cb719433b7901b2cb9a70cd4ca1ab27e344ae5d2",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"url\": \"https://www.nba.com/news/2023-free-agency-options-and-qualifying-offers\",\n  \"article_update_date\": \"2023-06-30T16:48:16Z\",\n  \"Coby_restricted_listed\": true,\n  \"actual_body_read\": true,\n  \"locator\": \"Qualifying offers -> Issued (restricted free agents) -> Coby White (CHI)\",\n  \"access_status\": \"SUCCESS\"\n}\n```\n",
+      "char_count": 329,
+      "sha256": "3271e078f5defb5e467c8581f2bb30307d3dfd7ef91fe20701b4e18262b29789",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "usable_answer_recovered": true,
+  "primary_body_bytes_independently_certified": false,
+  "root_direct_web_already_observed_original_QO_list": true,
+  "whole_gate_certified": false,
+  "settings_changed": false,
+  "root_quality_disposition": {
+    "original_Coby_QO_classification_matches_direct_NBA_web": true,
+    "direct_reference": "NBA2023 article UpdatedJune30,2023; Qualifying offers > Issued > Coby White(CHI)",
+    "article_second_precision_or_UTC_zone_verified": false,
+    "AGY_body_read_is_self_report_with_tool_trace_not_raw_byte_certificate": true,
+    "new_independent_primary_source_count": 0,
+    "alternate_Chicago_QO_or_re_signing_selected_by_this_log": false
+  }
+}

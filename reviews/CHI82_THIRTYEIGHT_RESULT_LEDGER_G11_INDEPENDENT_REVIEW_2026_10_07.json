@@ -1,0 +1,42 @@
+{
+  "id": "CHI82_THIRTYEIGHT_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "scope": "Current 38 selected fictional regulation results joined to the physical 82-game Chicago calendar and delegated Chicago health selection; no other full-season certification.",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "545ba0ee6dedb853469ffef6a7ae1c4bc1fe6f5b8e2f69b4351a93af92a538f1",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "58982a8dc42173ac2e3e5a4f89605cf20bdf49688b7d9885541e65c379116cd7",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "30e104a4f60e8b3c9d96835de1e4f13412c3a6b3057bd1a95606d55653fd0e25"
+  },
+  "direct_checks": {
+    "all_parent_source_pins_current": true,
+    "physical_calendar_dates_teams_82_exact": true,
+    "delegated_CHI_state_82_exact": true,
+    "named_result_source_review_winner_join": "38 of 38 exact source/date/home/away/state/winner/review pointers",
+    "group_counts": "DET2 NOP1 TOR4 NYK4 UTA1 BOS3 PHI4 BKN3 DAL2 GSW2 LAC2 LAL2 POR2 DEN2 IND4",
+    "selected": 38,
+    "CHI_wins": 19,
+    "opponent_wins": 19,
+    "remaining": 44,
+    "remaining_is_exact_calendar_order_complement": true,
+    "next_game_id": "0022100271",
+    "next_date": "2021-11-24",
+    "previous_32_review_retained_as_immutable_main": "46ddea1133f44031207baabb4a791bbbe101c9a6",
+    "temporary_34_not_promoted_as_historical_review": true
+  },
+  "independent_counterexample": {
+    "mutation": "Returned IND first selected winner CHI to IND while source file and total dates remain unchanged",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Returned input differs from physical source: simulation/CHICAGO_INDIANA_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "current_check": "PASS",
+  "limits": {
+    "selected_scores_or_overtime": false,
+    "remaining_44_results_selected": false,
+    "whole_standings_or_2022_pick": false,
+    "actual_clinical_private_contract_or_game_receipts_certified": false,
+    "whole_macro3_G13_G14_G16_certified": false,
+    "manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_38_OF_82_WORKING_REGULATION_RESULTS"
+}

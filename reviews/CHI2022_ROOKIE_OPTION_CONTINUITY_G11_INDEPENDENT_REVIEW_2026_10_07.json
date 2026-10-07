@@ -1,0 +1,37 @@
+{
+  "id": "CHI2022_ROOKIE_OPTION_CONTINUITY_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "scope": "Two selected fictional Chicago rookie-option notices and preservation of current 15+2 registration and conservative FY22 cost family; dated 2021-22 Finals-end join remains pending.",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2022_rookie_option_continuity.py": "c4c1d713a1d1d80c23d147eba3d2b3a24cecfdfb895ee19fa96f2f7c0fbbf81e",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_CONTINUITY.json": "73be5f3fba98adef435a1c93f3e8aba43fcc2f1e4c81f4aa57a25199eedc5dfe",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_CONTINUITY.md": "8a33f7fa7fef98ca02baeeb550bef1fa5645009832e97cfd678c6f48e2dfd4de"
+  },
+  "direct_evidence": {
+    "primary_CBA_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "article_VIII_section_1_page": "PDF 292: two guaranteed seasons, third and fourth team options, respective post-first/post-second Season windows through October 31, and signed team notice including email",
+    "article_I_season_page": "PDF 32: NBA Season ends immediately after the last NBA Finals game, distinct from the June 30 Salary Cap Year end",
+    "parent_source_pins_current": true,
+    "selected_roster_exact_parent": true,
+    "selected_cost_family_exact_parent": true,
+    "LaMelo": "2020-21 first season, fictional #4, 2023-24 fourth-year second option; original UPC salary/protection retained",
+    "Duarte": "2021-22 first season, fictional #10, 2023-24 third-year first option; fourth option remains a later separate action",
+    "Coby_Wieskamp": "Coby 2022-23 option not repeated; Wieskamp non-rookie-scale contract not promoted to a first-round option"
+  },
+  "independent_counterexample": {
+    "mutation": "Returned selected notice changes LaMelo option_number from 2 to 1 while preserving player and date",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Named original year/pick/option changed"
+  },
+  "current_check": "PASS",
+  "limitations": {
+    "actual_alternate_Finals_end_date_joined": false,
+    "actual_notice_receipt_certified": false,
+    "exact_option_salary_or_new_bonus_selected": false,
+    "2023_extension_or_full_contract_ledger_certified": false,
+    "clinical_or_private_records_certified": false,
+    "whole_G13_G14_or_manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_BOUNDED_CONDITIONAL_OPTION_CONTINUITY"
+}
