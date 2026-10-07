@@ -1,0 +1,5120 @@
+{
+  "id": "NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN",
+  "baseline_main": "d6bd960568fce5687bd2843da6f51d0fe9c18d3c",
+  "status": "ROOT_SELECTED_ROUTINE_FIRST_RSC_AND_SLOTS_PENDING_INDEPENDENT_REVIEW",
+  "source_sha256": {
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json": "123d07df572ac4350e9528b3f0b913b3013ad4d51584c88a94e78051b9c7af19",
+    "reviews/NBA_2022_23_NPC_CONTRACT_PORTFOLIO_G11_INDEPENDENT_REVIEW_2026_10_08.json": "2cefc7d4e8d3af806975418e88e1c11cc6969a2b1e982b55cb32823fb02d8e05",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.json": "3c06967cf8c7171f815819efd3b4a71fb88ac77db3ae8798b34afeeeae93ce1c",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "tools/build_2022_npc_first_round_rsc_slot_join.py": "90d76602852304695b1c32dd737c0ccd90304cfe34e62bdb84294b561ec87135"
+  },
+  "hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF",
+  "primary_evidence": [
+    {
+      "id": "2017_CBA",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "read_scope": "Operative2022 rules: rookie exception, two guaranteed seasons/two separate options,120pct and hold replacement.",
+      "PDF_one_based_page_text_LF_sha256": {
+        "210": "6f155805eebeb105501cc90b1f27ff41e222d3413033bd952f010e9b4daa3c3a",
+        "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+        "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+        "295": "759d7300ca1b2e3539c96c7119b40eae99c77e6d7f4d23582fa890f9f3f2b3c0",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b"
+      }
+    },
+    {
+      "id": "2023_CBA_RETROSPECTIVE_SCALE_ONLY",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+      "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "read_scope": "Retrospective2022-23 numeric baseline only;2023 rules not applied to2022 signings.",
+      "PDF_one_based_page_text_LF_sha256": {
+        "32": "36dcc728a20e458fcbce59867c8005c9c97ee60a299e7b1de1608dd27ac67d07",
+        "631": "a299cb98e6f5465d546cfdff55b960b9d659275c4b4460109e01b06ecfb624c9"
+      }
+    },
+    {
+      "id": "2019_PUBLIC_BYLAWS_TEMPLATE",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "read_scope": "Public48-hour waiver template, not a receipt or absence-of-claim certificate.",
+      "PDF_one_based_page_text_LF_sha256": {
+        "76": "272d88bb34112f2f0e96f79e5dda9f0262e3e286194f8b713cfe9ab5bf7140ea"
+      }
+    }
+  ],
+  "selection_basis": "Existing delegated NPC contract/roster implementation; no new important protagonist direction.",
+  "scale_units": "Use the comma-formatted dollar values in official2022-23 numeric baseline; the PDF ($000S) heading does not justify multiplying these values. Cross-check pick18 original selected3191400 at120pct.",
+  "selected_first_RSCs": [
+    {
+      "pick": 1,
+      "player": "Chet Holmgren",
+      "owner": "OKC",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        9212600,
+        9673400,
+        10134000
+      ],
+      "base_first_three_years_dollars": [
+        11055120,
+        11608080,
+        12160800
+      ],
+      "year4_if_option_exercised_exact": "76673844/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "261/10",
+        "40"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 11055120,
+        "prior_apron_outstanding_RT100": 9212600,
+        "signed_normal_and_apron_salary": 11055120,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1842520,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 2,
+      "player": "Paolo Banchero",
+      "owner": "CLE",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        8242700,
+        8655000,
+        9067200
+      ],
+      "base_first_three_years_dollars": [
+        9891240,
+        10386000,
+        10880640
+      ],
+      "year4_if_option_exercised_exact": "343284192/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "131/5",
+        "81/2"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 9891240,
+        "prior_apron_outstanding_RT100": 8242700,
+        "signed_normal_and_apron_salary": 9891240,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1648540,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 3,
+      "player": "Jabari Smith",
+      "owner": "ORL",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        7402200,
+        7772100,
+        8142400
+      ],
+      "base_first_three_years_dollars": [
+        8882640,
+        9326520,
+        9770880
+      ],
+      "year4_if_option_exercised_exact": "308759808/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "132/5",
+        "206/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 8882640,
+        "prior_apron_outstanding_RT100": 7402200,
+        "signed_normal_and_apron_salary": 8882640,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1480440,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 4,
+      "player": "Jaden Ivey",
+      "owner": "WAS",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        6673700,
+        7007500,
+        7341300
+      ],
+      "base_first_three_years_dollars": [
+        8008440,
+        8409000,
+        8809560
+      ],
+      "year4_if_option_exercised_exact": "55720467/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "53/2",
+        "419/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 8008440,
+        "prior_apron_outstanding_RT100": 6673700,
+        "signed_normal_and_apron_salary": 8008440,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1334740,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 5,
+      "player": "Keegan Murray",
+      "owner": "DET",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        6043500,
+        6345400,
+        6647700
+      ],
+      "base_first_three_years_dollars": [
+        7252200,
+        7614480,
+        7977240
+      ],
+      "year4_if_option_exercised_exact": "252679077/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "267/10",
+        "213/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 7252200,
+        "prior_apron_outstanding_RT100": 6043500,
+        "signed_normal_and_apron_salary": 7252200,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1208700,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 6,
+      "player": "Bennedict Mathurin",
+      "owner": "CHA",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        5489000,
+        5763400,
+        6038100
+      ],
+      "base_first_three_years_dollars": [
+        6586800,
+        6916080,
+        7245720
+      ],
+      "year4_if_option_exercised_exact": "229689324/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "134/5",
+        "217/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 6586800,
+        "prior_apron_outstanding_RT100": 5489000,
+        "signed_normal_and_apron_salary": 6586800,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1097800,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 7,
+      "player": "Shaedon Sharpe",
+      "owner": "HOU",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        5010800,
+        5261500,
+        5511800
+      ],
+      "base_first_three_years_dollars": [
+        6012960,
+        6313800,
+        6614160
+      ],
+      "year4_if_option_exercised_exact": "41999916/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "27",
+        "441/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 6012960,
+        "prior_apron_outstanding_RT100": 5010800,
+        "signed_normal_and_apron_salary": 6012960,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 1002160,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 8,
+      "player": "Dyson Daniels",
+      "owner": "MIN",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        4590500,
+        4820100,
+        5049600
+      ],
+      "base_first_three_years_dollars": [
+        5508600,
+        5784120,
+        6059520
+      ],
+      "year4_if_option_exercised_exact": "192692736/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "136/5",
+        "224/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 5508600,
+        "prior_apron_outstanding_RT100": 4590500,
+        "signed_normal_and_apron_salary": 5508600,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 918100,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 9,
+      "player": "Jeremy Sochan",
+      "owner": "SAC",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        4219600,
+        4430800,
+        4641700
+      ],
+      "base_first_three_years_dollars": [
+        5063520,
+        5316960,
+        5570040
+      ],
+      "year4_if_option_exercised_exact": "177405774/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "137/5",
+        "91/2"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 5063520,
+        "prior_apron_outstanding_RT100": 4219600,
+        "signed_normal_and_apron_salary": 5063520,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 843920,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 10,
+      "player": "Jalen Duren",
+      "owner": "NOP",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        4008600,
+        4209000,
+        4409300
+      ],
+      "base_first_three_years_dollars": [
+        4810320,
+        5050800,
+        5291160
+      ],
+      "year4_if_option_exercised_exact": "6746229",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "55/2",
+        "231/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 4810320,
+        "prior_apron_outstanding_RT100": 4008600,
+        "signed_normal_and_apron_salary": 4810320,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 801720,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 11,
+      "player": "Jalen Williams",
+      "owner": "MEM",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        3808200,
+        3998700,
+        4189200
+      ],
+      "base_first_three_years_dollars": [
+        4569840,
+        4798440,
+        5027040
+      ],
+      "year4_if_option_exercised_exact": "166772052/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "327/10",
+        "469/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 4569840,
+        "prior_apron_outstanding_RT100": 3808200,
+        "signed_normal_and_apron_salary": 4569840,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 761640,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 12,
+      "player": "Ousmane Dieng",
+      "owner": "SAS",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        3617900,
+        3798900,
+        3979800
+      ],
+      "base_first_three_years_dollars": [
+        4341480,
+        4558680,
+        4775760
+      ],
+      "year4_if_option_exercised_exact": "164524932/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "189/5",
+        "238/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 4341480,
+        "prior_apron_outstanding_RT100": 3617900,
+        "signed_normal_and_apron_salary": 4341480,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 723580,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 13,
+      "player": "Mark Williams",
+      "owner": "NYK",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        3436900,
+        3608900,
+        3780700
+      ],
+      "base_first_three_years_dollars": [
+        4124280,
+        4330680,
+        4536840
+      ],
+      "year4_if_option_exercised_exact": "162078609/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "429/10",
+        "483/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 4124280,
+        "prior_apron_outstanding_RT100": 3436900,
+        "signed_normal_and_apron_salary": 4124280,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 687380,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 14,
+      "player": "Ochai Agbaji",
+      "owner": "TOR",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        3265300,
+        3428500,
+        3591900
+      ],
+      "base_first_three_years_dollars": [
+        3918360,
+        4114200,
+        4310280
+      ],
+      "year4_if_option_exercised_exact": "159588117/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "481/10",
+        "491/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 3918360,
+        "prior_apron_outstanding_RT100": 3265300,
+        "signed_normal_and_apron_salary": 3918360,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 653060,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 15,
+      "player": "A.J. Griffin",
+      "owner": "POR",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        3101700,
+        3256800,
+        3411900
+      ],
+      "base_first_three_years_dollars": [
+        3722040,
+        3908160,
+        4094280
+      ],
+      "year4_if_option_exercised_exact": "156913281/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "533/10",
+        "249/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 3722040,
+        "prior_apron_outstanding_RT100": 3101700,
+        "signed_normal_and_apron_salary": 3722040,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 620340,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 16,
+      "player": "Tari Eason",
+      "owner": "HOU",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2946800,
+        3094100,
+        3241600
+      ],
+      "base_first_three_years_dollars": [
+        3536160,
+        3712920,
+        3889920
+      ],
+      "year4_if_option_exercised_exact": "149178432/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "267/5",
+        "101/2"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 3536160,
+        "prior_apron_outstanding_RT100": 2946800,
+        "signed_normal_and_apron_salary": 3536160,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 589360,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 17,
+      "player": "Malaki Branham",
+      "owner": "GSW",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2799300,
+        2939300,
+        3079300
+      ],
+      "base_first_three_years_dollars": [
+        3359160,
+        3527160,
+        3695160
+      ],
+      "year4_if_option_exercised_exact": "141894144/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "268/5",
+        "256/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 3359160,
+        "prior_apron_outstanding_RT100": 2799300,
+        "signed_normal_and_apron_salary": 3359160,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 559860,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 19,
+      "player": "Dalen Terry",
+      "owner": "ATL",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2539700,
+        2666600,
+        2793900
+      ],
+      "base_first_three_years_dollars": [
+        3047640,
+        3199920,
+        3352680
+      ],
+      "year4_if_option_exercised_exact": "25815636/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "54",
+        "263/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 3047640,
+        "prior_apron_outstanding_RT100": 2539700,
+        "signed_normal_and_apron_salary": 3047640,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 507940,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 20,
+      "player": "Johnny Davis",
+      "owner": "IND",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2438000,
+        2559900,
+        2681600
+      ],
+      "base_first_three_years_dollars": [
+        2925600,
+        3071880,
+        3217920
+      ],
+      "year4_if_option_exercised_exact": "124050816/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "271/5",
+        "533/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2925600,
+        "prior_apron_outstanding_RT100": 2438000,
+        "signed_normal_and_apron_salary": 2925600,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 487600,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 21,
+      "player": "Nikola Jovic",
+      "owner": "DAL",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2340500,
+        2457600,
+        2574700
+      ],
+      "base_first_three_years_dollars": [
+        2808600,
+        2949120,
+        3089640
+      ],
+      "year4_if_option_exercised_exact": "123044913/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "593/10",
+        "541/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2808600,
+        "prior_apron_outstanding_RT100": 2340500,
+        "signed_normal_and_apron_salary": 2808600,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 468100,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 22,
+      "player": "Christian Braun",
+      "owner": "DEN",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2247000,
+        2359300,
+        2471600
+      ],
+      "base_first_three_years_dollars": [
+        2696400,
+        2831160,
+        2965920
+      ],
+      "year4_if_option_exercised_exact": "24394692/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "129/2",
+        "274/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2696400,
+        "prior_apron_outstanding_RT100": 2247000,
+        "signed_normal_and_apron_salary": 2696400,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 449400,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 23,
+      "player": "Jake LaRavia",
+      "owner": "MIA",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2157200,
+        2265200,
+        2372700
+      ],
+      "base_first_three_years_dollars": [
+        2588640,
+        2718240,
+        2847240
+      ],
+      "year4_if_option_exercised_exact": "120794157/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "697/10",
+        "111/2"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2588640,
+        "prior_apron_outstanding_RT100": 2157200,
+        "signed_normal_and_apron_salary": 2588640,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 431440,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 24,
+      "player": "MarJon Beauchamp",
+      "owner": "NOP",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        2071000,
+        2174500,
+        2278100
+      ],
+      "base_first_three_years_dollars": [
+        2485200,
+        2609400,
+        2733720
+      ],
+      "year4_if_option_exercised_exact": "119531907/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "749/10",
+        "281/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2485200,
+        "prior_apron_outstanding_RT100": 2071000,
+        "signed_normal_and_apron_salary": 2485200,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 414200,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 25,
+      "player": "Wendell Moore Jr.",
+      "owner": "OKC",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1987900,
+        2087200,
+        2186900
+      ],
+      "base_first_three_years_dollars": [
+        2385480,
+        2504640,
+        2624280
+      ],
+      "year4_if_option_exercised_exact": "118158207/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "801/10",
+        "569/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2385480,
+        "prior_apron_outstanding_RT100": 1987900,
+        "signed_normal_and_apron_salary": 2385480,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 397580,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 26,
+      "player": "TyTy Washington Jr.",
+      "owner": "OKC",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1922100,
+        2018100,
+        2114200
+      ],
+      "base_first_three_years_dollars": [
+        2306520,
+        2421720,
+        2537040
+      ],
+      "year4_if_option_exercised_exact": "114357078/25",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "803/10",
+        "288/5"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2306520,
+        "prior_apron_outstanding_RT100": 1922100,
+        "signed_normal_and_apron_salary": 2306520,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 384420,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 27,
+      "player": "Christian Koloko",
+      "owner": "BOS",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1866600,
+        1960000,
+        2053500
+      ],
+      "base_first_three_years_dollars": [
+        2239920,
+        2352000,
+        2464200
+      ],
+      "year4_if_option_exercised_exact": "22227084/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "402/5",
+        "583/10"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2239920,
+        "prior_apron_outstanding_RT100": 1866600,
+        "signed_normal_and_apron_salary": 2239920,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 373320,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 28,
+      "player": "Blake Wesley",
+      "owner": "PHI",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1855000,
+        1948100,
+        2040700
+      ],
+      "base_first_three_years_dollars": [
+        2226000,
+        2337720,
+        2448840
+      ],
+      "year4_if_option_exercised_exact": "22100781/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "161/2",
+        "59"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2226000,
+        "prior_apron_outstanding_RT100": 1855000,
+        "signed_normal_and_apron_salary": 2226000,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 371000,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 29,
+      "player": "Patrick Baldwin Jr.",
+      "owner": "MEM",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1841700,
+        1933700,
+        2025900
+      ],
+      "base_first_three_years_dollars": [
+        2210040,
+        2320440,
+        2431080
+      ],
+      "year4_if_option_exercised_exact": "21940497/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "161/2",
+        "60"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2210040,
+        "prior_apron_outstanding_RT100": 1841700,
+        "signed_normal_and_apron_salary": 2210040,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 368340,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    },
+    {
+      "pick": 30,
+      "player": "Peyton Watson",
+      "owner": "MIL",
+      "required_tender_date": "2022-07-07",
+      "RT100_then_separate_consensual_RSC120": true,
+      "signed_at": "2022-07-11T09:00:00-04:00",
+      "roster_class": "STANDARD",
+      "standard_slots_added": 1,
+      "law": "2017_VII6h_VIII1",
+      "first_season": "2022-23",
+      "guaranteed_capyears": [
+        2022,
+        2023
+      ],
+      "guaranteed_fiscal_obligation_through": "2024-06-30",
+      "service_end_not_inferred_from_fiscal_end": true,
+      "unexercised_option_capyears": [
+        2024,
+        2025
+      ],
+      "base_percent": 120,
+      "scale_values_dollars": [
+        1828300,
+        1919600,
+        2011300
+      ],
+      "base_first_three_years_dollars": [
+        2193960,
+        2303520,
+        2413560
+      ],
+      "year4_if_option_exercised_exact": "21782379/5",
+      "year4_NBA_rounding_certified": false,
+      "year4_and_QO_percent_increases": [
+        "161/2",
+        "60"
+      ],
+      "new_bonuses_loan_buyout": 0,
+      "first_two_base_protection_percent": 100,
+      "future_options_automatically_exercised": false,
+      "cap_hold_replacement": {
+        "prior_normal_unsigned_first": 2193960,
+        "prior_apron_outstanding_RT100": 1828300,
+        "signed_normal_and_apron_salary": 2193960,
+        "normal_delta_signed_minus_same_claim_hold": 0,
+        "apron_delta_signed_minus_RT": 365660,
+        "same_claim_unsigned_hold_removed_once": true,
+        "waived_incumbent_liabilities_subtracted_as_cash_saving": false
+      },
+      "fictional_consent_and_legal_participation_selected": true,
+      "actual_receipt_or_real_player_consent_certified": false,
+      "full82_minutes_starts_awards_or_statistics_selected": false
+    }
+  ],
+  "selected_zero_budget_reserve_clearances": [
+    {
+      "player": "Tony Snell",
+      "owner_before_clearance": "ATL",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "ATL:Tony Snell",
+      "original_contract_fields": {
+        "player": "Tony Snell",
+        "route": "NEW_OWN_FA_MINIMUM",
+        "new_contract": "oneSeason applicable2021legalMinimum(YOS) UPC",
+        "old_Gamma_FAclaims_preserved": true,
+        "new_bonus": 0,
+        "options": 0,
+        "full_standard_protection": true,
+        "actual_price_or_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Carsen Edwards",
+      "owner_before_clearance": "BOS",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "BOS:Carsen Edwards",
+      "original_contract_fields": {
+        "player": "Carsen Edwards",
+        "route": "VII6a_EXISTING",
+        "new_UPC": false,
+        "old_Γ_preserved": true,
+        "valid_current_term_to_Apr6": true,
+        "actual_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Damyean Dotson",
+      "owner_before_clearance": "CLE",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "CLE:Damyean Dotson",
+      "original_contract_fields": {
+        "player": "Damyean Dotson",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Bol Bol",
+      "owner_before_clearance": "DEN",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "DEN:Bol Bol",
+      "original_contract_fields": {
+        "player": "Bol Bol",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Rodney McGruder",
+      "owner_before_clearance": "DET",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "DET:Rodney McGruder",
+      "original_contract_fields": {
+        "kind": "STANDARD_MINIMUM",
+        "years": 1,
+        "salary_each_year": "APPLICABLE_LEGAL_2021_SIGNED_SCALE_AT_PLAYER_YOS",
+        "each_year_upper": 3000000,
+        "bonus": 0,
+        "options": 0,
+        "guarantee": "FULL_STANDARD_PROTECTION",
+        "consent": "HYPOTHETICAL_LAWFUL_PLAYER_TEAM_ACCEPTANCE"
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Kent Bazemore",
+      "owner_before_clearance": "GSW",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "GSW:Kent Bazemore",
+      "original_contract_fields": {
+        "player": "Kent Bazemore",
+        "route": "VII6i_MINIMUM",
+        "seasons": 1,
+        "salary": "signed2021LegalMinimum(YOS)",
+        "new_bonus": 0,
+        "full_standard_protection": true,
+        "old_Gamma_preserved": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Avery Bradley",
+      "owner_before_clearance": "HOU",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "HOU:Avery Bradley",
+      "original_contract_fields": {
+        "player": "Avery Bradley",
+        "route": "valid original team option exercise",
+        "original_salary_term_and_Gamma_kept": true,
+        "operative_original_deadline_notice_selected": true,
+        "actual_notice_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Khyri Thomas",
+      "owner_before_clearance": "HOU",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "HOU:Khyri Thomas",
+      "original_contract_fields": {
+        "player": "Khyri Thomas",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "second_round_not_RSC": false
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Aaron Holiday",
+      "owner_before_clearance": "IND",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "IND:Aaron Holiday",
+      "original_contract_fields": {
+        "player": "Aaron Holiday",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+        "actual_option_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Jontay Porter",
+      "owner_before_clearance": "MEM",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "MEM:Jontay Porter",
+      "original_contract_fields": {
+        "player": "Jontay Porter",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+        "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "John Konchar",
+      "owner_before_clearance": "MEM",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "MEM:John Konchar",
+      "original_contract_fields": {
+        "player": "John Konchar",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+        "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Mamadi Diakite",
+      "owner_before_clearance": "MIL",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "MIL:Mamadi Diakite",
+      "original_contract_fields": {
+        "player": "Mamadi Diakite",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "currentJrueApril4_originalextension_carry_notnewPO": false,
+        "originalGiannisDec2020extension_allGamma_preserved": false,
+        "ElijahROS_multiyearoriginal_uncertainty_carried_notnewQO": false
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Jake Layman",
+      "owner_before_clearance": "MIN",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "MIN:Jake Layman",
+      "original_contract_fields": {
+        "player": "Jake Layman",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "Rival2020first2guaranteed_notsecondyearoption": false,
+        "actual_option_receipt": null,
+        "new_extension_trade_or_actualreceipts": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Didi Louzada",
+      "owner_before_clearance": "NOP",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "NOP:Didi Louzada",
+      "original_contract_fields": {
+        "player": "Didi Louzada",
+        "route": "VII6b_PRIOR_TEAM_VALID_ORDINARY_QO",
+        "QO_salary_function": "OtherRFA: componentwise1.25×priorSalary; if minimumPlus exceeds priorQO, legalMin(YOS1,2021)+200000 base and zeroQObonuses (XI1civ).",
+        "starter_state": "NOT_TWO_OR_THREE_YOS_STARTER_BRANCH",
+        "pick": 35,
+        "componentwise_QO_rule": {
+          "article": "XI1c(iv)",
+          "draft_class": 2019,
+          "pick": 35,
+          "YOS": 1,
+          "ordinary_components": "PriorSalaryComponents*5/4",
+          "minimum_plus_if_greater": "MinimumAnnualSalary(YOS1,2021)+200000_base_only",
+          "minimum_plus_bonuses": 0,
+          "two_or_three_YOS_starter_override_applies": false
+        },
+        "team_signed_and_timely_delivered_in_operative2021_window": true,
+        "withdrawn_or_rescinded": false,
+        "acceptance_datetime_ET": "2021-08-06T12:02:00",
+        "acceptance_before_applicable_QO_cutoff": true,
+        "known_disability_requires_disclosure_and_team_consent_if_applicable": true,
+        "ordinary_QO_only_not_MaximumQO": true,
+        "QO_base_fully_protected_and_payment_paragraph3": true,
+        "old_QO_component_entitlement_and_II7_maximum_preserved": true,
+        "new_UPC": true,
+        "current_term_covers_2021_10_22": true,
+        "actual_component_dollars": null,
+        "actual_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Wes Iwundu",
+      "owner_before_clearance": "NOP",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "NOP:Wes Iwundu",
+      "original_contract_fields": {
+        "player": "Wes Iwundu",
+        "route": "VII6a_EXISTING_LAWFUL_CONTRACT_CARRY",
+        "new_UPC": false,
+        "current_term_covers_2021_10_22": true,
+        "salary_components": "Original lawful current-year base/allocatedbonus/likely/unlikely/protection Γ unchanged.",
+        "actual_component_dollars": null,
+        "actual_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Frank Ntilikina",
+      "owner_before_clearance": "NYK",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "NYK:Frank Ntilikina",
+      "original_contract_fields": {
+        "player": "Frank Ntilikina",
+        "route": "VII6b_VALID_OWN_ORDINARY_RSC_QO",
+        "new_UPC": true,
+        "original_draft_class": 2017,
+        "original_pick": 8,
+        "QO_function": {
+          "ordinary": "originalFourthYearSalaryComponents*(1+applicablePick8_QOincrease)",
+          "nonstarter": "lesser original package vs pick15_120percent_scale_QO_base_only",
+          "anchor_rank": 15,
+          "anchor_fraction": "6/5",
+          "anchor_bonuses": 0
+        },
+        "timely_team_signed_delivery": "2021-07-31",
+        "accepted_ET": "2021-08-06T12:02:00",
+        "unwithdrawn": true,
+        "valid_current_term_to_2022_03_28": true,
+        "actual_dollars": null,
+        "actual_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Charlie Brown Jr",
+      "owner_before_clearance": "OKC",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "OKC:Charlie Brown Jr",
+      "original_contract_fields": {
+        "player": "Charlie Brown Jr",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "KembaAP1existing_originalterm_and_bonuswaiver_sixmonth_descendants_retained": false,
+        "no_originalfutureSGAextension_orFavorsOKCorNYKbuyout": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Ty Jerome",
+      "owner_before_clearance": "OKC",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "OKC:Ty Jerome",
+      "original_contract_fields": {
+        "player": "Ty Jerome",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "KembaAP1existing_originalterm_and_bonuswaiver_sixmonth_descendants_retained": false,
+        "no_originalfutureSGAextension_orFavorsOKCorNYKbuyout": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Ignas Brazdeikis",
+      "owner_before_clearance": "ORL",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "ORL:Ignas Brazdeikis",
+      "original_contract_fields": {
+        "player": "Ignas Brazdeikis",
+        "route": "NEW_OWN_FA_MINIMUM",
+        "prior_applicable_ordinary_QO": {
+          "ordinary": "max(5/4*originalPriorSalary,applicable2021OneSeasonMinimum+200000)",
+          "starter": false,
+          "starter_if_qualifies": "greater original ordinary and pick21RSC100percent ordinaryQO including permitted anchor bonuses",
+          "starter_threshold_function": "41GS or2000min in priorSeason OR mean two priorSeasons; not observed future stats",
+          "actual_prior_salary": null,
+          "actual_starter_status": null,
+          "actual_tender_or_acceptance": null
+        },
+        "new_contract": "voluntary oneSeason lawfulMinimum(YOS) UPC; player may agree after validQO; not QO accepted below required amount",
+        "old_Gamma_QO_FAclaims_preserved": true,
+        "new_bonus": 0,
+        "full_standard_protection": true,
+        "actual_price_or_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "George Hill",
+      "owner_before_clearance": "PHI",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "PHI:George Hill",
+      "original_contract_fields": {
+        "player": "George Hill",
+        "route": "VII6a_EXISTING",
+        "new_UPC": false,
+        "old_Gamma_preserved": true,
+        "valid_current_term_to_March7": true,
+        "actual_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Harry Giles III",
+      "owner_before_clearance": "POR",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "POR:Harry Giles III",
+      "original_contract_fields": {
+        "player": "Harry Giles III",
+        "route": "VII6i_MINIMUM",
+        "seasons": 1,
+        "salary": "signed2021LegalMinimum(YOS)",
+        "new_bonus": 0,
+        "full_standard_protection": true,
+        "old_Gamma_preserved": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Robert Woodard II",
+      "owner_before_clearance": "SAC",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "SAC:Robert Woodard II",
+      "original_contract_fields": {
+        "player": "Robert Woodard II",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "Haliburtonfirst2guaranteed_notsecondyearoption": false,
+        "Fox2020originalextension_carried_no_newagreement": false,
+        "actual_option_receipt": null
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "DaQuan Jeffries",
+      "owner_before_clearance": "SAS",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "SAS:DaQuan Jeffries",
+      "original_contract_fields": {
+        "player": "DaQuan Jeffries",
+        "route": "OWN_FA_ONE_YEAR_MINIMUM_IF_EXPIRED_OR_VALID_ORIGINAL_OPTION_CONTINUATION",
+        "selected_new_UPC_if_expired": {
+          "exception": "VII6f_MINIMUM",
+          "one_year": true,
+          "base_function": "legal2021minimum(YOS)",
+          "bonus": 0,
+          "options": 0,
+          "full_standard_protection": true
+        },
+        "Jeffries2020SAC_toHOU_toSAS_oldoption_andordinarynonRSCQO_max125pluslikely_vs_minplus200k_preserved": true,
+        "actual_original_option_or_price": null,
+        "all_old_Gamma_preserved": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Sam Dekker",
+      "owner_before_clearance": "TOR",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "TOR:Sam Dekker",
+      "original_contract_fields": {
+        "form": "ONE_YEAR_FA_APPLICABLE_YOS_MINIMUM_FOREIGN_RELEASE_CONDITION",
+        "salary_function": "minimum_2021_22(YOS_Dekker)",
+        "screen_ceiling": 3000000
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    },
+    {
+      "player": "Anthony Gill",
+      "owner_before_clearance": "WAS",
+      "notice_at": "2022-07-08T09:00:00-04:00",
+      "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+      "claim_window_elapsed_hours": 48,
+      "fictional_no_claim_selected": true,
+      "new_owner_or_assignment": null,
+      "original_contract_row_id": "WAS:Anthony Gill",
+      "original_contract_fields": {
+        "player": "Anthony Gill",
+        "route": "RETAIN_CURRENT_UPC",
+        "all_original_Gamma_preserved": true,
+        "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+        "actual_option_receipt": null,
+        "no_new_originalBealGaffordextension_orWestbrooktrade": true
+      },
+      "all_original_Gamma_reserved": true,
+      "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+      "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+      "remaining_guaranteed_future_salary_reserved": true,
+      "cash_buyout_stretch_setoff_or_refund_selected": false,
+      "exact_protection_or_cash_payment_certified": false,
+      "actual_waiver_receipt_or_no_claim_certified": false,
+      "old_all_template_positive_regulation_seconds": 0
+    }
+  ],
+  "team_registration": {
+    "ATL": {
+      "standard": [
+        "Bogdan Bogdanovic",
+        "Bruno Fernando",
+        "Cam Reddish",
+        "Clint Capela",
+        "Danilo Gallinari",
+        "De'Andre Hunter",
+        "Jalen Johnson",
+        "John Collins",
+        "Kevin Huerter",
+        "Kris Dunn",
+        "Lou Williams",
+        "Onyeka Okongwu",
+        "Solomon Hill",
+        "Trae Young",
+        "Dalen Terry"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Bogdan Bogdanovic",
+        "Bruno Fernando",
+        "Cam Reddish",
+        "Clint Capela",
+        "Danilo Gallinari",
+        "De'Andre Hunter",
+        "Jalen Johnson",
+        "John Collins",
+        "Kevin Huerter",
+        "Kris Dunn",
+        "Lou Williams",
+        "Onyeka Okongwu",
+        "Solomon Hill",
+        "Tony Snell",
+        "Trae Young"
+      ],
+      "cleared_reserves": [
+        "Tony Snell"
+      ],
+      "first_RSC_players": [
+        "Dalen Terry"
+      ],
+      "first_RSC_picks": [
+        19
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "ATL:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/ATL:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Bogdan Bogdanovic": 1680,
+            "Cam Reddish": 1200,
+            "Clint Capela": 1800,
+            "Danilo Gallinari": 960,
+            "De'Andre Hunter": 1680,
+            "Jalen Johnson": 360,
+            "John Collins": 1800,
+            "Kevin Huerter": 1560,
+            "Lou Williams": 720,
+            "Onyeka Okongwu": 600,
+            "Trae Young": 2040
+          },
+          "nominal_active": [
+            "Bogdan Bogdanovic",
+            "Cam Reddish",
+            "Clint Capela",
+            "Danilo Gallinari",
+            "De'Andre Hunter",
+            "Jalen Johnson",
+            "John Collins",
+            "Kevin Huerter",
+            "Lou Williams",
+            "Onyeka Okongwu",
+            "Trae Young",
+            "Bruno Fernando"
+          ],
+          "nominal_inactive": [
+            "Kris Dunn",
+            "Solomon Hill",
+            "Dalen Terry"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "BKN": {
+      "standard": [
+        "Alize Johnson",
+        "Blake Griffin",
+        "Bruce Brown",
+        "Cameron Thomas",
+        "DeAndre Jordan",
+        "James Harden",
+        "Jeff Green",
+        "Joe Harris",
+        "Kevin Durant",
+        "Kyrie Irving",
+        "Landry Shamet",
+        "Nicolas Claxton",
+        "Spencer Dinwiddie",
+        "Timothe Luwawu-Cabarrot",
+        "Tyler Johnson"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Alize Johnson",
+        "Blake Griffin",
+        "Bruce Brown",
+        "Cameron Thomas",
+        "DeAndre Jordan",
+        "James Harden",
+        "Jeff Green",
+        "Joe Harris",
+        "Kevin Durant",
+        "Kyrie Irving",
+        "Landry Shamet",
+        "Nicolas Claxton",
+        "Spencer Dinwiddie",
+        "Timothe Luwawu-Cabarrot",
+        "Tyler Johnson"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [
+        {
+          "source_template": "BKN:IRVING_INSTITUTIONAL_OUT",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/BKN:IRVING_INSTITUTIONAL_OUT",
+          "unchanged_positive_player_seconds": {
+            "Blake Griffin": 1200,
+            "Bruce Brown": 1080,
+            "DeAndre Jordan": 840,
+            "James Harden": 1920,
+            "Jeff Green": 1080,
+            "Joe Harris": 1800,
+            "Kevin Durant": 2040,
+            "Landry Shamet": 1800,
+            "Nicolas Claxton": 1680,
+            "Spencer Dinwiddie": 960
+          },
+          "nominal_active": [
+            "Blake Griffin",
+            "Bruce Brown",
+            "DeAndre Jordan",
+            "James Harden",
+            "Jeff Green",
+            "Joe Harris",
+            "Kevin Durant",
+            "Landry Shamet",
+            "Nicolas Claxton",
+            "Spencer Dinwiddie",
+            "Alize Johnson",
+            "Cameron Thomas"
+          ],
+          "nominal_inactive": [
+            "Kyrie Irving",
+            "Timothe Luwawu-Cabarrot",
+            "Tyler Johnson"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        },
+        {
+          "source_template": "BKN:IRVING_AWAY_RETURN",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/BKN:IRVING_AWAY_RETURN",
+          "unchanged_positive_player_seconds": {
+            "Blake Griffin": 1200,
+            "Bruce Brown": 1080,
+            "DeAndre Jordan": 840,
+            "James Harden": 1920,
+            "Jeff Green": 1080,
+            "Joe Harris": 1800,
+            "Kevin Durant": 2040,
+            "Kyrie Irving": 1920,
+            "Landry Shamet": 840,
+            "Nicolas Claxton": 1680
+          },
+          "nominal_active": [
+            "Blake Griffin",
+            "Bruce Brown",
+            "DeAndre Jordan",
+            "James Harden",
+            "Jeff Green",
+            "Joe Harris",
+            "Kevin Durant",
+            "Kyrie Irving",
+            "Landry Shamet",
+            "Nicolas Claxton",
+            "Alize Johnson",
+            "Cameron Thomas"
+          ],
+          "nominal_inactive": [
+            "Spencer Dinwiddie",
+            "Timothe Luwawu-Cabarrot",
+            "Tyler Johnson"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "BOS": {
+      "standard": [
+        "Aaron Nesmith",
+        "Al Horford",
+        "Evan Fournier",
+        "Grant Williams",
+        "Jabari Parker",
+        "Jaylen Brown",
+        "Jayson Tatum",
+        "Marcus Smart",
+        "Moses Brown",
+        "Payton Pritchard",
+        "Robert Williams III",
+        "Romeo Langford",
+        "Semi Ojeleye",
+        "Tristan Thompson",
+        "Christian Koloko"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Aaron Nesmith",
+        "Al Horford",
+        "Carsen Edwards",
+        "Evan Fournier",
+        "Grant Williams",
+        "Jabari Parker",
+        "Jaylen Brown",
+        "Jayson Tatum",
+        "Marcus Smart",
+        "Moses Brown",
+        "Payton Pritchard",
+        "Robert Williams III",
+        "Romeo Langford",
+        "Semi Ojeleye",
+        "Tristan Thompson"
+      ],
+      "cleared_reserves": [
+        "Carsen Edwards"
+      ],
+      "first_RSC_players": [
+        "Christian Koloko"
+      ],
+      "first_RSC_picks": [
+        27
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "BOS:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/BOS:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Aaron Nesmith": 600,
+            "Al Horford": 1800,
+            "Evan Fournier": 1320,
+            "Grant Williams": 1200,
+            "Jabari Parker": 240,
+            "Jaylen Brown": 1920,
+            "Jayson Tatum": 2160,
+            "Marcus Smart": 1920,
+            "Payton Pritchard": 960,
+            "Robert Williams III": 1680,
+            "Romeo Langford": 600
+          },
+          "nominal_active": [
+            "Aaron Nesmith",
+            "Al Horford",
+            "Evan Fournier",
+            "Grant Williams",
+            "Jabari Parker",
+            "Jaylen Brown",
+            "Jayson Tatum",
+            "Marcus Smart",
+            "Payton Pritchard",
+            "Robert Williams III",
+            "Romeo Langford",
+            "Moses Brown"
+          ],
+          "nominal_inactive": [
+            "Semi Ojeleye",
+            "Tristan Thompson",
+            "Christian Koloko"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "CHA": {
+      "standard": [
+        "Anthony Edwards",
+        "Bismack Biyombo",
+        "Cade Cunningham",
+        "Cody Martin",
+        "Cody Zeller",
+        "Devonte' Graham",
+        "Gordon Hayward",
+        "Jalen McDaniels",
+        "Malik Monk",
+        "Miles Bridges",
+        "Nick Richards",
+        "P.J. Washington",
+        "Terry Rozier",
+        "Vernon Carey Jr.",
+        "Bennedict Mathurin"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Anthony Edwards",
+        "Bismack Biyombo",
+        "Cade Cunningham",
+        "Cody Martin",
+        "Cody Zeller",
+        "Devonte' Graham",
+        "Gordon Hayward",
+        "Jalen McDaniels",
+        "Malik Monk",
+        "Miles Bridges",
+        "Nick Richards",
+        "P.J. Washington",
+        "Terry Rozier",
+        "Vernon Carey Jr."
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [
+        "Bennedict Mathurin"
+      ],
+      "first_RSC_picks": [
+        6
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "CHA:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/CHA:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Anthony Edwards": 1920,
+            "Bismack Biyombo": 720,
+            "Cade Cunningham": 1680,
+            "Cody Zeller": 1560,
+            "Devonte' Graham": 840,
+            "Gordon Hayward": 1800,
+            "Jalen McDaniels": 840,
+            "Malik Monk": 480,
+            "Miles Bridges": 1560,
+            "P.J. Washington": 1440,
+            "Terry Rozier": 1560
+          },
+          "nominal_active": [
+            "Anthony Edwards",
+            "Bismack Biyombo",
+            "Cade Cunningham",
+            "Cody Zeller",
+            "Devonte' Graham",
+            "Gordon Hayward",
+            "Jalen McDaniels",
+            "Malik Monk",
+            "Miles Bridges",
+            "P.J. Washington",
+            "Terry Rozier",
+            "Cody Martin"
+          ],
+          "nominal_inactive": [
+            "Nick Richards",
+            "Vernon Carey Jr.",
+            "Bennedict Mathurin"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "CHI": {
+      "standard": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "LaMelo Ball",
+        "Coby White",
+        "Chris Duarte",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Tony Bradley",
+        "Denzel Valentine",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Thaddeus Young",
+        "Tomas Satoransky",
+        "Walker Kessler"
+      ],
+      "TW": [
+        "Devon Dotson",
+        "Tyler Cook"
+      ],
+      "source_standard": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "LaMelo Ball",
+        "Coby White",
+        "Chris Duarte",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Tony Bradley",
+        "Denzel Valentine",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Thaddeus Young",
+        "Tomas Satoransky",
+        "Walker Kessler"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "CLE": {
+      "standard": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Dylan Windler",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Mfiondu Kabengele",
+        "Taurean Prince",
+        "Paolo Banchero"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Damyean Dotson",
+        "Darius Garland",
+        "Dean Wade",
+        "Dylan Windler",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Mfiondu Kabengele",
+        "Taurean Prince"
+      ],
+      "cleared_reserves": [
+        "Damyean Dotson"
+      ],
+      "first_RSC_players": [
+        "Paolo Banchero"
+      ],
+      "first_RSC_picks": [
+        2
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "CLE:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/CLE:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Cedi Osman": 1080,
+            "Collin Sexton": 1800,
+            "Darius Garland": 1800,
+            "Dean Wade": 600,
+            "Isaac Okoro": 1440,
+            "JaVale McGee": 720,
+            "Jarrett Allen": 1800,
+            "Jonathan Kuminga": 840,
+            "Kevin Love": 1440,
+            "Larry Nance Jr.": 1680,
+            "Taurean Prince": 1200
+          },
+          "nominal_active": [
+            "Cedi Osman",
+            "Collin Sexton",
+            "Darius Garland",
+            "Dean Wade",
+            "Isaac Okoro",
+            "JaVale McGee",
+            "Jarrett Allen",
+            "Jonathan Kuminga",
+            "Kevin Love",
+            "Larry Nance Jr.",
+            "Taurean Prince",
+            "Dylan Windler"
+          ],
+          "nominal_inactive": [
+            "Lamar Stevens",
+            "Mfiondu Kabengele",
+            "Paolo Banchero"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "DAL": {
+      "standard": [
+        "Boban Marjanovic",
+        "Dorian Finney-Smith",
+        "Dwight Powell",
+        "Jalen Brunson",
+        "Josh Green",
+        "Josh Richardson",
+        "Kristaps Porzingis",
+        "Luka Doncic",
+        "Maxi Kleber",
+        "Nicolo Melli",
+        "R.J. Hampton",
+        "Tim Hardaway Jr.",
+        "Trey Burke",
+        "Willie Cauley-Stein",
+        "Nikola Jovic"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Boban Marjanovic",
+        "Dorian Finney-Smith",
+        "Dwight Powell",
+        "Jalen Brunson",
+        "Josh Green",
+        "Josh Richardson",
+        "Kristaps Porzingis",
+        "Luka Doncic",
+        "Maxi Kleber",
+        "Nicolo Melli",
+        "R.J. Hampton",
+        "Tim Hardaway Jr.",
+        "Trey Burke",
+        "Willie Cauley-Stein"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [
+        "Nikola Jovic"
+      ],
+      "first_RSC_picks": [
+        21
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "DAL:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/DAL:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Dorian Finney-Smith": 1920,
+            "Dwight Powell": 1320,
+            "Jalen Brunson": 1560,
+            "Josh Green": 480,
+            "Josh Richardson": 1320,
+            "Kristaps Porzingis": 1920,
+            "Luka Doncic": 2040,
+            "Maxi Kleber": 1320,
+            "R.J. Hampton": 360,
+            "Tim Hardaway Jr.": 1800,
+            "Willie Cauley-Stein": 360
+          },
+          "nominal_active": [
+            "Dorian Finney-Smith",
+            "Dwight Powell",
+            "Jalen Brunson",
+            "Josh Green",
+            "Josh Richardson",
+            "Kristaps Porzingis",
+            "Luka Doncic",
+            "Maxi Kleber",
+            "R.J. Hampton",
+            "Tim Hardaway Jr.",
+            "Willie Cauley-Stein",
+            "Boban Marjanovic"
+          ],
+          "nominal_inactive": [
+            "Nicolo Melli",
+            "Trey Burke",
+            "Nikola Jovic"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "DEN": {
+      "standard": [
+        "Aaron Gordon",
+        "Austin Rivers",
+        "Facundo Campazzo",
+        "Isaiah Hartenstein",
+        "JaMychal Green",
+        "Jamal Murray",
+        "Michael Porter Jr.",
+        "Monte Morris",
+        "Nahshon Hyland",
+        "Nikola Jokic",
+        "PJ Dozier",
+        "Saddiq Bey",
+        "Vlatko Cancar",
+        "Will Barton",
+        "Christian Braun"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Aaron Gordon",
+        "Austin Rivers",
+        "Bol Bol",
+        "Facundo Campazzo",
+        "Isaiah Hartenstein",
+        "JaMychal Green",
+        "Jamal Murray",
+        "Michael Porter Jr.",
+        "Monte Morris",
+        "Nahshon Hyland",
+        "Nikola Jokic",
+        "PJ Dozier",
+        "Saddiq Bey",
+        "Vlatko Cancar",
+        "Will Barton"
+      ],
+      "cleared_reserves": [
+        "Bol Bol"
+      ],
+      "first_RSC_players": [
+        "Christian Braun"
+      ],
+      "first_RSC_picks": [
+        22
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "DEN:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/DEN:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Aaron Gordon": 1800,
+            "Austin Rivers": 1080,
+            "Facundo Campazzo": 1440,
+            "Isaiah Hartenstein": 720,
+            "JaMychal Green": 840,
+            "Michael Porter Jr.": 1920,
+            "Monte Morris": 1560,
+            "Nikola Jokic": 2040,
+            "PJ Dozier": 240,
+            "Saddiq Bey": 960,
+            "Will Barton": 1800
+          },
+          "nominal_active": [
+            "Aaron Gordon",
+            "Austin Rivers",
+            "Facundo Campazzo",
+            "Isaiah Hartenstein",
+            "JaMychal Green",
+            "Michael Porter Jr.",
+            "Monte Morris",
+            "Nikola Jokic",
+            "PJ Dozier",
+            "Saddiq Bey",
+            "Will Barton",
+            "Jamal Murray"
+          ],
+          "nominal_inactive": [
+            "Nahshon Hyland",
+            "Vlatko Cancar",
+            "Christian Braun"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "DET": {
+      "standard": [
+        "Cory Joseph",
+        "Frank Jackson",
+        "Hamidou Diallo",
+        "Isaiah Livers",
+        "Isaiah Stewart",
+        "Jalen Suggs",
+        "Jerami Grant",
+        "Josh Jackson",
+        "Kelly Olynyk",
+        "Kira Lewis Jr.",
+        "Mason Plumlee",
+        "Patrick Williams",
+        "Saben Lee",
+        "Trey Lyles",
+        "Keegan Murray"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Cory Joseph",
+        "Frank Jackson",
+        "Hamidou Diallo",
+        "Isaiah Livers",
+        "Isaiah Stewart",
+        "Jalen Suggs",
+        "Jerami Grant",
+        "Josh Jackson",
+        "Kelly Olynyk",
+        "Kira Lewis Jr.",
+        "Mason Plumlee",
+        "Patrick Williams",
+        "Rodney McGruder",
+        "Saben Lee",
+        "Trey Lyles"
+      ],
+      "cleared_reserves": [
+        "Rodney McGruder"
+      ],
+      "first_RSC_players": [
+        "Keegan Murray"
+      ],
+      "first_RSC_picks": [
+        5
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "DET:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/DET:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          },
+          "nominal_active": [
+            "Cory Joseph",
+            "Hamidou Diallo",
+            "Isaiah Stewart",
+            "Jalen Suggs",
+            "Jerami Grant",
+            "Josh Jackson",
+            "Kelly Olynyk",
+            "Kira Lewis Jr.",
+            "Mason Plumlee",
+            "Patrick Williams",
+            "Frank Jackson",
+            "Isaiah Livers"
+          ],
+          "nominal_inactive": [
+            "Saben Lee",
+            "Trey Lyles",
+            "Keegan Murray"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "GSW": {
+      "standard": [
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Franz Wagner",
+        "Gary Payton II",
+        "James Bouknight",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Stephen Curry",
+        "Malaki Branham"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Franz Wagner",
+        "Gary Payton II",
+        "James Bouknight",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kent Bazemore",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Stephen Curry"
+      ],
+      "cleared_reserves": [
+        "Kent Bazemore"
+      ],
+      "first_RSC_players": [
+        "Malaki Branham"
+      ],
+      "first_RSC_picks": [
+        17
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "GSW:REHAB_OUT",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/GSW:REHAB_OUT",
+          "unchanged_positive_player_seconds": {
+            "Andrew Wiggins": 1920,
+            "Damion Lee": 1080,
+            "Draymond Green": 1920,
+            "Franz Wagner": 720,
+            "Gary Payton II": 720,
+            "James Bouknight": 480,
+            "Jordan Poole": 1680,
+            "Juan Toscano-Anderson": 960,
+            "Kelly Oubre Jr.": 1440,
+            "Kevon Looney": 1440,
+            "Stephen Curry": 2040
+          },
+          "nominal_active": [
+            "Andrew Wiggins",
+            "Damion Lee",
+            "Draymond Green",
+            "Franz Wagner",
+            "Gary Payton II",
+            "James Bouknight",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kelly Oubre Jr.",
+            "Kevon Looney",
+            "Stephen Curry",
+            "Eric Paschall"
+          ],
+          "nominal_inactive": [
+            "James Wiseman",
+            "Klay Thompson",
+            "Malaki Branham"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        },
+        {
+          "source_template": "GSW:KLAY_WORKING_RETURN",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/GSW:KLAY_WORKING_RETURN",
+          "unchanged_positive_player_seconds": {
+            "Andrew Wiggins": 1920,
+            "Damion Lee": 600,
+            "Draymond Green": 1920,
+            "Franz Wagner": 720,
+            "Gary Payton II": 480,
+            "James Bouknight": 240,
+            "Jordan Poole": 1680,
+            "Juan Toscano-Anderson": 960,
+            "Kelly Oubre Jr.": 1200,
+            "Kevon Looney": 1440,
+            "Klay Thompson": 1200,
+            "Stephen Curry": 2040
+          },
+          "nominal_active": [
+            "Andrew Wiggins",
+            "Damion Lee",
+            "Draymond Green",
+            "Franz Wagner",
+            "Gary Payton II",
+            "James Bouknight",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kelly Oubre Jr.",
+            "Kevon Looney",
+            "Klay Thompson",
+            "Stephen Curry"
+          ],
+          "nominal_inactive": [
+            "Eric Paschall",
+            "James Wiseman",
+            "Malaki Branham"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "HOU": {
+      "standard": [
+        "Alperen Sengun",
+        "Christian Wood",
+        "D.J. Augustin",
+        "Danuel House Jr.",
+        "David Nwaba",
+        "Eric Gordon",
+        "Jae'Sean Tate",
+        "Jalen Green",
+        "John Wall",
+        "Josh Christopher",
+        "KJ Martin",
+        "Kevin Porter Jr",
+        "Usman Garuba",
+        "Shaedon Sharpe",
+        "Tari Eason"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Alperen Sengun",
+        "Avery Bradley",
+        "Christian Wood",
+        "D.J. Augustin",
+        "Danuel House Jr.",
+        "David Nwaba",
+        "Eric Gordon",
+        "Jae'Sean Tate",
+        "Jalen Green",
+        "John Wall",
+        "Josh Christopher",
+        "KJ Martin",
+        "Kevin Porter Jr",
+        "Khyri Thomas",
+        "Usman Garuba"
+      ],
+      "cleared_reserves": [
+        "Avery Bradley",
+        "Khyri Thomas"
+      ],
+      "first_RSC_players": [
+        "Shaedon Sharpe",
+        "Tari Eason"
+      ],
+      "first_RSC_picks": [
+        7,
+        16
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "HOU:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/HOU:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Alperen Sengun": 960,
+            "Christian Wood": 1920,
+            "D.J. Augustin": 1200,
+            "Danuel House Jr.": 1200,
+            "David Nwaba": 600,
+            "Eric Gordon": 1440,
+            "Jae'Sean Tate": 1800,
+            "Jalen Green": 1440,
+            "John Wall": 1680,
+            "KJ Martin": 480,
+            "Kevin Porter Jr": 1680
+          },
+          "nominal_active": [
+            "Alperen Sengun",
+            "Christian Wood",
+            "D.J. Augustin",
+            "Danuel House Jr.",
+            "David Nwaba",
+            "Eric Gordon",
+            "Jae'Sean Tate",
+            "Jalen Green",
+            "John Wall",
+            "KJ Martin",
+            "Kevin Porter Jr",
+            "Josh Christopher"
+          ],
+          "nominal_inactive": [
+            "Usman Garuba",
+            "Shaedon Sharpe",
+            "Tari Eason"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "IND": {
+      "standard": [
+        "Caris LeVert",
+        "Domantas Sabonis",
+        "Doug McDermott",
+        "Edmond Sumner",
+        "Goga Bitadze",
+        "Jeremy Lamb",
+        "Justin Holiday",
+        "Kelan Martin",
+        "Malcolm Brogdon",
+        "Myles Turner",
+        "Oshae Brissett",
+        "T.J. McConnell",
+        "T.J. Warren",
+        "Trey Murphy",
+        "Johnny Davis"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Aaron Holiday",
+        "Caris LeVert",
+        "Domantas Sabonis",
+        "Doug McDermott",
+        "Edmond Sumner",
+        "Goga Bitadze",
+        "Jeremy Lamb",
+        "Justin Holiday",
+        "Kelan Martin",
+        "Malcolm Brogdon",
+        "Myles Turner",
+        "Oshae Brissett",
+        "T.J. McConnell",
+        "T.J. Warren",
+        "Trey Murphy"
+      ],
+      "cleared_reserves": [
+        "Aaron Holiday"
+      ],
+      "first_RSC_players": [
+        "Johnny Davis"
+      ],
+      "first_RSC_picks": [
+        20
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "IND:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/IND:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Caris LeVert": 1920,
+            "Domantas Sabonis": 2040,
+            "Doug McDermott": 1320,
+            "Edmond Sumner": 480,
+            "Goga Bitadze": 840,
+            "Jeremy Lamb": 840,
+            "Justin Holiday": 1560,
+            "Malcolm Brogdon": 1920,
+            "Myles Turner": 1800,
+            "Oshae Brissett": 360,
+            "T.J. McConnell": 1320
+          },
+          "nominal_active": [
+            "Caris LeVert",
+            "Domantas Sabonis",
+            "Doug McDermott",
+            "Edmond Sumner",
+            "Goga Bitadze",
+            "Jeremy Lamb",
+            "Justin Holiday",
+            "Malcolm Brogdon",
+            "Myles Turner",
+            "Oshae Brissett",
+            "T.J. McConnell",
+            "Kelan Martin"
+          ],
+          "nominal_inactive": [
+            "T.J. Warren",
+            "Trey Murphy",
+            "Johnny Davis"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "LAC": {
+      "standard": [
+        "Daniel Oturu",
+        "DeMarcus Cousins",
+        "Ivica Zubac",
+        "Kawhi Leonard",
+        "Keon Johnson",
+        "Luke Kennard",
+        "Marcus Morris Sr.",
+        "Nicolas Batum",
+        "Patrick Beverley",
+        "Patrick Patterson",
+        "Paul George",
+        "Rajon Rondo",
+        "Reggie Jackson",
+        "Serge Ibaka",
+        "Terance Mann"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Daniel Oturu",
+        "DeMarcus Cousins",
+        "Ivica Zubac",
+        "Kawhi Leonard",
+        "Keon Johnson",
+        "Luke Kennard",
+        "Marcus Morris Sr.",
+        "Nicolas Batum",
+        "Patrick Beverley",
+        "Patrick Patterson",
+        "Paul George",
+        "Rajon Rondo",
+        "Reggie Jackson",
+        "Serge Ibaka",
+        "Terance Mann"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [
+        {
+          "source_template": "LAC:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/LAC:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Ivica Zubac": 1560,
+            "Kawhi Leonard": 2040,
+            "Luke Kennard": 1200,
+            "Marcus Morris Sr.": 1680,
+            "Nicolas Batum": 960,
+            "Patrick Beverley": 1080,
+            "Paul George": 2040,
+            "Rajon Rondo": 720,
+            "Reggie Jackson": 1680,
+            "Serge Ibaka": 600,
+            "Terance Mann": 840
+          },
+          "nominal_active": [
+            "Ivica Zubac",
+            "Kawhi Leonard",
+            "Luke Kennard",
+            "Marcus Morris Sr.",
+            "Nicolas Batum",
+            "Patrick Beverley",
+            "Paul George",
+            "Rajon Rondo",
+            "Reggie Jackson",
+            "Serge Ibaka",
+            "Terance Mann",
+            "Daniel Oturu"
+          ],
+          "nominal_inactive": [
+            "DeMarcus Cousins",
+            "Keon Johnson",
+            "Patrick Patterson"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "LAL": {
+      "standard": [
+        "Alfonzo McKinnie",
+        "Andre Drummond",
+        "Anthony Davis",
+        "Ben McLemore",
+        "Dennis Schroder",
+        "Jared Butler",
+        "Jared Dudley",
+        "Kentavious Caldwell-Pope",
+        "Kyle Kuzma",
+        "LeBron James",
+        "Marc Gasol",
+        "Montrezl Harrell",
+        "Talen Horton-Tucker",
+        "Wesley Matthews"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Alfonzo McKinnie",
+        "Andre Drummond",
+        "Anthony Davis",
+        "Ben McLemore",
+        "Dennis Schroder",
+        "Jared Butler",
+        "Jared Dudley",
+        "Kentavious Caldwell-Pope",
+        "Kyle Kuzma",
+        "LeBron James",
+        "Marc Gasol",
+        "Montrezl Harrell",
+        "Talen Horton-Tucker",
+        "Wesley Matthews"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [
+        {
+          "source_template": "LAL:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/LAL:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Andre Drummond": 840,
+            "Anthony Davis": 2040,
+            "Dennis Schroder": 1800,
+            "Kentavious Caldwell-Pope": 1680,
+            "Kyle Kuzma": 2040,
+            "LeBron James": 2040,
+            "Marc Gasol": 840,
+            "Montrezl Harrell": 1200,
+            "Talen Horton-Tucker": 1200,
+            "Wesley Matthews": 720
+          },
+          "nominal_active": [
+            "Andre Drummond",
+            "Anthony Davis",
+            "Dennis Schroder",
+            "Kentavious Caldwell-Pope",
+            "Kyle Kuzma",
+            "LeBron James",
+            "Marc Gasol",
+            "Montrezl Harrell",
+            "Talen Horton-Tucker",
+            "Wesley Matthews",
+            "Alfonzo McKinnie",
+            "Ben McLemore"
+          ],
+          "nominal_inactive": [
+            "Jared Butler",
+            "Jared Dudley"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "MEM": {
+      "standard": [
+        "Brandon Clarke",
+        "De'Anthony Melton",
+        "Desmond Bane",
+        "Dillon Brooks",
+        "Grayson Allen",
+        "Ja Morant",
+        "Jaren Jackson Jr.",
+        "Jonas Valanciunas",
+        "Justise Winslow",
+        "Kyle Anderson",
+        "Tyus Jones",
+        "Xavier Tillman Sr.",
+        "Ziaire Williams",
+        "Jalen Williams",
+        "Patrick Baldwin Jr."
+      ],
+      "TW": [],
+      "source_standard": [
+        "Brandon Clarke",
+        "De'Anthony Melton",
+        "Desmond Bane",
+        "Dillon Brooks",
+        "Grayson Allen",
+        "Ja Morant",
+        "Jaren Jackson Jr.",
+        "John Konchar",
+        "Jonas Valanciunas",
+        "Jontay Porter",
+        "Justise Winslow",
+        "Kyle Anderson",
+        "Tyus Jones",
+        "Xavier Tillman Sr.",
+        "Ziaire Williams"
+      ],
+      "cleared_reserves": [
+        "Jontay Porter",
+        "John Konchar"
+      ],
+      "first_RSC_players": [
+        "Jalen Williams",
+        "Patrick Baldwin Jr."
+      ],
+      "first_RSC_picks": [
+        11,
+        29
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "MEM:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/MEM:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Brandon Clarke": 1440,
+            "De'Anthony Melton": 1080,
+            "Desmond Bane": 1440,
+            "Dillon Brooks": 1920,
+            "Ja Morant": 1920,
+            "Jaren Jackson Jr.": 1680,
+            "Jonas Valanciunas": 1800,
+            "Justise Winslow": 240,
+            "Kyle Anderson": 1440,
+            "Tyus Jones": 720,
+            "Xavier Tillman Sr.": 720
+          },
+          "nominal_active": [
+            "Brandon Clarke",
+            "De'Anthony Melton",
+            "Desmond Bane",
+            "Dillon Brooks",
+            "Ja Morant",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas",
+            "Justise Winslow",
+            "Kyle Anderson",
+            "Tyus Jones",
+            "Xavier Tillman Sr.",
+            "Grayson Allen"
+          ],
+          "nominal_inactive": [
+            "Ziaire Williams",
+            "Jalen Williams",
+            "Patrick Baldwin Jr."
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "MIA": {
+      "standard": [
+        "Bam Adebayo",
+        "Dewayne Dedmon",
+        "Duncan Robinson",
+        "Gabe Vincent",
+        "Jimmy Butler",
+        "KZ Okpala",
+        "Kyle Lowry",
+        "Markieff Morris",
+        "Max Strus",
+        "Omer Yurtseven",
+        "P.J. Tucker",
+        "Tyler Herro",
+        "Udonis Haslem",
+        "Victor Oladipo",
+        "Jake LaRavia"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Bam Adebayo",
+        "Dewayne Dedmon",
+        "Duncan Robinson",
+        "Gabe Vincent",
+        "Jimmy Butler",
+        "KZ Okpala",
+        "Kyle Lowry",
+        "Markieff Morris",
+        "Max Strus",
+        "Omer Yurtseven",
+        "P.J. Tucker",
+        "Tyler Herro",
+        "Udonis Haslem",
+        "Victor Oladipo"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [
+        "Jake LaRavia"
+      ],
+      "first_RSC_picks": [
+        23
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "MIA:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/MIA:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Bam Adebayo": 2040,
+            "Dewayne Dedmon": 840,
+            "Duncan Robinson": 1560,
+            "Gabe Vincent": 1080,
+            "Jimmy Butler": 2040,
+            "Kyle Lowry": 1800,
+            "Markieff Morris": 840,
+            "Max Strus": 840,
+            "P.J. Tucker": 1560,
+            "Tyler Herro": 1800
+          },
+          "nominal_active": [
+            "Bam Adebayo",
+            "Dewayne Dedmon",
+            "Duncan Robinson",
+            "Gabe Vincent",
+            "Jimmy Butler",
+            "Kyle Lowry",
+            "Markieff Morris",
+            "Max Strus",
+            "P.J. Tucker",
+            "Tyler Herro",
+            "KZ Okpala",
+            "Omer Yurtseven"
+          ],
+          "nominal_inactive": [
+            "Udonis Haslem",
+            "Victor Oladipo",
+            "Jake LaRavia"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "MIL": {
+      "standard": [
+        "Bobby Portis",
+        "Brook Lopez",
+        "Bryn Forbes",
+        "Donte DiVincenzo",
+        "Elijah Bryant",
+        "Giannis Antetokounmpo",
+        "Jeff Teague",
+        "Jordan Nwora",
+        "Jrue Holiday",
+        "Kai Jones",
+        "Khris Middleton",
+        "Pat Connaughton",
+        "Sam Merrill",
+        "Thanasis Antetokounmpo",
+        "Peyton Watson"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Bobby Portis",
+        "Brook Lopez",
+        "Bryn Forbes",
+        "Donte DiVincenzo",
+        "Elijah Bryant",
+        "Giannis Antetokounmpo",
+        "Jeff Teague",
+        "Jordan Nwora",
+        "Jrue Holiday",
+        "Kai Jones",
+        "Khris Middleton",
+        "Mamadi Diakite",
+        "Pat Connaughton",
+        "Sam Merrill",
+        "Thanasis Antetokounmpo"
+      ],
+      "cleared_reserves": [
+        "Mamadi Diakite"
+      ],
+      "first_RSC_players": [
+        "Peyton Watson"
+      ],
+      "first_RSC_picks": [
+        30
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "MIL:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/MIL:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Bobby Portis": 1200,
+            "Brook Lopez": 1560,
+            "Bryn Forbes": 840,
+            "Donte DiVincenzo": 1560,
+            "Elijah Bryant": 360,
+            "Giannis Antetokounmpo": 2040,
+            "Jeff Teague": 600,
+            "Jordan Nwora": 720,
+            "Jrue Holiday": 1920,
+            "Khris Middleton": 1920,
+            "Pat Connaughton": 1320,
+            "Thanasis Antetokounmpo": 360
+          },
+          "nominal_active": [
+            "Bobby Portis",
+            "Brook Lopez",
+            "Bryn Forbes",
+            "Donte DiVincenzo",
+            "Elijah Bryant",
+            "Giannis Antetokounmpo",
+            "Jeff Teague",
+            "Jordan Nwora",
+            "Jrue Holiday",
+            "Khris Middleton",
+            "Pat Connaughton",
+            "Thanasis Antetokounmpo"
+          ],
+          "nominal_inactive": [
+            "Kai Jones",
+            "Sam Merrill",
+            "Peyton Watson"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "MIN": {
+      "standard": [
+        "D'Angelo Russell",
+        "Ed Davis",
+        "Fictional Rival",
+        "Jaden McDaniels",
+        "Jarred Vanderbilt",
+        "Jarrett Culver",
+        "Jaylen Nowell",
+        "Jordan McLaughlin",
+        "Josh Okogie",
+        "Juancho Hernangomez",
+        "Karl-Anthony Towns",
+        "Malik Beasley",
+        "Naz Reid",
+        "Ricky Rubio",
+        "Dyson Daniels"
+      ],
+      "TW": [],
+      "source_standard": [
+        "D'Angelo Russell",
+        "Ed Davis",
+        "Fictional Rival",
+        "Jaden McDaniels",
+        "Jake Layman",
+        "Jarred Vanderbilt",
+        "Jarrett Culver",
+        "Jaylen Nowell",
+        "Jordan McLaughlin",
+        "Josh Okogie",
+        "Juancho Hernangomez",
+        "Karl-Anthony Towns",
+        "Malik Beasley",
+        "Naz Reid",
+        "Ricky Rubio"
+      ],
+      "cleared_reserves": [
+        "Jake Layman"
+      ],
+      "first_RSC_players": [
+        "Dyson Daniels"
+      ],
+      "first_RSC_picks": [
+        8
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "MIN:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/MIN:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "D'Angelo Russell": 1800,
+            "Ed Davis": 240,
+            "Fictional Rival": 1920,
+            "Jaden McDaniels": 1800,
+            "Jarred Vanderbilt": 1320,
+            "Josh Okogie": 840,
+            "Juancho Hernangomez": 1320,
+            "Karl-Anthony Towns": 2040,
+            "Malik Beasley": 1440,
+            "Naz Reid": 600,
+            "Ricky Rubio": 1080
+          },
+          "nominal_active": [
+            "D'Angelo Russell",
+            "Ed Davis",
+            "Fictional Rival",
+            "Jaden McDaniels",
+            "Jarred Vanderbilt",
+            "Josh Okogie",
+            "Juancho Hernangomez",
+            "Karl-Anthony Towns",
+            "Malik Beasley",
+            "Naz Reid",
+            "Ricky Rubio",
+            "Jarrett Culver"
+          ],
+          "nominal_inactive": [
+            "Jaylen Nowell",
+            "Jordan McLaughlin",
+            "Dyson Daniels"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "NOP": {
+      "standard": [
+        "Brandon Ingram",
+        "Eric Bledsoe",
+        "Jaxson Hayes",
+        "Josh Hart",
+        "Killian Hayes",
+        "Lonzo Ball",
+        "Moses Moody",
+        "Naji Marshall",
+        "Nickeil Alexander-Walker",
+        "Steven Adams",
+        "Wenyen Gabriel",
+        "Willy Hernangomez",
+        "Zion Williamson",
+        "Jalen Duren",
+        "MarJon Beauchamp"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Brandon Ingram",
+        "Didi Louzada",
+        "Eric Bledsoe",
+        "Jaxson Hayes",
+        "Josh Hart",
+        "Killian Hayes",
+        "Lonzo Ball",
+        "Moses Moody",
+        "Naji Marshall",
+        "Nickeil Alexander-Walker",
+        "Steven Adams",
+        "Wenyen Gabriel",
+        "Wes Iwundu",
+        "Willy Hernangomez",
+        "Zion Williamson"
+      ],
+      "cleared_reserves": [
+        "Didi Louzada",
+        "Wes Iwundu"
+      ],
+      "first_RSC_players": [
+        "Jalen Duren",
+        "MarJon Beauchamp"
+      ],
+      "first_RSC_picks": [
+        10,
+        24
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "NOP:ZION_OUT",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/NOP:ZION_OUT",
+          "unchanged_positive_player_seconds": {
+            "Brandon Ingram": 1920,
+            "Eric Bledsoe": 1440,
+            "Jaxson Hayes": 720,
+            "Josh Hart": 1440,
+            "Killian Hayes": 1200,
+            "Lonzo Ball": 1680,
+            "Moses Moody": 480,
+            "Naji Marshall": 1440,
+            "Nickeil Alexander-Walker": 960,
+            "Steven Adams": 1680,
+            "Wenyen Gabriel": 960,
+            "Willy Hernangomez": 480
+          },
+          "nominal_active": [
+            "Brandon Ingram",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Moses Moody",
+            "Naji Marshall",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Wenyen Gabriel",
+            "Willy Hernangomez"
+          ],
+          "nominal_inactive": [
+            "Zion Williamson",
+            "Jalen Duren",
+            "MarJon Beauchamp"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        },
+        {
+          "source_template": "NOP:ZION_WORKING_RETURN",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/NOP:ZION_WORKING_RETURN",
+          "unchanged_positive_player_seconds": {
+            "Brandon Ingram": 2040,
+            "Eric Bledsoe": 1320,
+            "Jaxson Hayes": 840,
+            "Josh Hart": 1560,
+            "Killian Hayes": 600,
+            "Lonzo Ball": 1920,
+            "Moses Moody": 480,
+            "Nickeil Alexander-Walker": 1440,
+            "Steven Adams": 1680,
+            "Willy Hernangomez": 840,
+            "Zion Williamson": 1680
+          },
+          "nominal_active": [
+            "Brandon Ingram",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Moses Moody",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Willy Hernangomez",
+            "Zion Williamson",
+            "Naji Marshall"
+          ],
+          "nominal_inactive": [
+            "Wenyen Gabriel",
+            "Jalen Duren",
+            "MarJon Beauchamp"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "NYK": {
+      "standard": [
+        "Alec Burks",
+        "Ayo Dosunmu",
+        "Derrick Rose",
+        "Elfrid Payton",
+        "Immanuel Quickley",
+        "Julius Randle",
+        "Kevin Knox II",
+        "Mitchell Robinson",
+        "Nerlens Noel",
+        "Obi Toppin",
+        "Quentin Grimes",
+        "RJ Barrett",
+        "Reggie Bullock",
+        "Taj Gibson",
+        "Mark Williams"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Alec Burks",
+        "Ayo Dosunmu",
+        "Derrick Rose",
+        "Elfrid Payton",
+        "Frank Ntilikina",
+        "Immanuel Quickley",
+        "Julius Randle",
+        "Kevin Knox II",
+        "Mitchell Robinson",
+        "Nerlens Noel",
+        "Obi Toppin",
+        "Quentin Grimes",
+        "RJ Barrett",
+        "Reggie Bullock",
+        "Taj Gibson"
+      ],
+      "cleared_reserves": [
+        "Frank Ntilikina"
+      ],
+      "first_RSC_players": [
+        "Mark Williams"
+      ],
+      "first_RSC_picks": [
+        13
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "NYK:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/NYK:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Alec Burks": 1200,
+            "Derrick Rose": 1440,
+            "Elfrid Payton": 1200,
+            "Immanuel Quickley": 1320,
+            "Julius Randle": 2040,
+            "Mitchell Robinson": 1680,
+            "Nerlens Noel": 840,
+            "Obi Toppin": 840,
+            "RJ Barrett": 1920,
+            "Reggie Bullock": 1560,
+            "Taj Gibson": 360
+          },
+          "nominal_active": [
+            "Alec Burks",
+            "Derrick Rose",
+            "Elfrid Payton",
+            "Immanuel Quickley",
+            "Julius Randle",
+            "Mitchell Robinson",
+            "Nerlens Noel",
+            "Obi Toppin",
+            "RJ Barrett",
+            "Reggie Bullock",
+            "Taj Gibson",
+            "Ayo Dosunmu"
+          ],
+          "nominal_inactive": [
+            "Kevin Knox II",
+            "Quentin Grimes",
+            "Mark Williams"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "OKC": {
+      "standard": [
+        "Aleksej Pokusevski",
+        "Darius Bazley",
+        "Gabriel Deck",
+        "Isaiah Roby",
+        "Kemba Walker",
+        "Kenrich Williams",
+        "Luguentz Dort",
+        "Mike Muscala",
+        "Scottie Barnes",
+        "Shai Gilgeous-Alexander",
+        "Theo Maledon",
+        "Tre Mann",
+        "Chet Holmgren",
+        "Wendell Moore Jr.",
+        "TyTy Washington Jr."
+      ],
+      "TW": [],
+      "source_standard": [
+        "Aleksej Pokusevski",
+        "Charlie Brown Jr",
+        "Darius Bazley",
+        "Gabriel Deck",
+        "Isaiah Roby",
+        "Kemba Walker",
+        "Kenrich Williams",
+        "Luguentz Dort",
+        "Mike Muscala",
+        "Scottie Barnes",
+        "Shai Gilgeous-Alexander",
+        "Theo Maledon",
+        "Tre Mann",
+        "Ty Jerome"
+      ],
+      "cleared_reserves": [
+        "Charlie Brown Jr",
+        "Ty Jerome"
+      ],
+      "first_RSC_players": [
+        "Chet Holmgren",
+        "Wendell Moore Jr.",
+        "TyTy Washington Jr."
+      ],
+      "first_RSC_picks": [
+        1,
+        25,
+        26
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "OKC:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/OKC:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Aleksej Pokusevski": 1080,
+            "Darius Bazley": 1440,
+            "Gabriel Deck": 360,
+            "Isaiah Roby": 1200,
+            "Kemba Walker": 1440,
+            "Kenrich Williams": 1080,
+            "Luguentz Dort": 2040,
+            "Mike Muscala": 1440,
+            "Scottie Barnes": 1680,
+            "Shai Gilgeous-Alexander": 1920,
+            "Theo Maledon": 360,
+            "Tre Mann": 360
+          },
+          "nominal_active": [
+            "Aleksej Pokusevski",
+            "Darius Bazley",
+            "Gabriel Deck",
+            "Isaiah Roby",
+            "Kemba Walker",
+            "Kenrich Williams",
+            "Luguentz Dort",
+            "Mike Muscala",
+            "Scottie Barnes",
+            "Shai Gilgeous-Alexander",
+            "Theo Maledon",
+            "Tre Mann"
+          ],
+          "nominal_inactive": [
+            "Chet Holmgren",
+            "Wendell Moore Jr.",
+            "TyTy Washington Jr."
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "ORL": {
+      "standard": [
+        "Al-Farouq Aminu",
+        "Chuma Okeke",
+        "Cole Anthony",
+        "Dwayne Bacon",
+        "Evan Mobley",
+        "Gary Harris",
+        "Jonathan Isaac",
+        "Markelle Fultz",
+        "Michael Carter-Williams",
+        "Mo Bamba",
+        "Moritz Wagner",
+        "Nikola Vucevic",
+        "Terrence Ross",
+        "Zeke Nnaji",
+        "Jabari Smith"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Al-Farouq Aminu",
+        "Chuma Okeke",
+        "Cole Anthony",
+        "Dwayne Bacon",
+        "Evan Mobley",
+        "Gary Harris",
+        "Ignas Brazdeikis",
+        "Jonathan Isaac",
+        "Markelle Fultz",
+        "Michael Carter-Williams",
+        "Mo Bamba",
+        "Moritz Wagner",
+        "Nikola Vucevic",
+        "Terrence Ross",
+        "Zeke Nnaji"
+      ],
+      "cleared_reserves": [
+        "Ignas Brazdeikis"
+      ],
+      "first_RSC_players": [
+        "Jabari Smith"
+      ],
+      "first_RSC_picks": [
+        3
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "ORL:BASE_ABSENT",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/ORL:BASE_ABSENT",
+          "unchanged_positive_player_seconds": {
+            "Al-Farouq Aminu": 720,
+            "Chuma Okeke": 1680,
+            "Cole Anthony": 1920,
+            "Dwayne Bacon": 480,
+            "Evan Mobley": 1680,
+            "Gary Harris": 1680,
+            "Michael Carter-Williams": 1200,
+            "Mo Bamba": 960,
+            "Nikola Vucevic": 1920,
+            "Terrence Ross": 1800,
+            "Zeke Nnaji": 360
+          },
+          "nominal_active": [
+            "Al-Farouq Aminu",
+            "Chuma Okeke",
+            "Cole Anthony",
+            "Dwayne Bacon",
+            "Evan Mobley",
+            "Gary Harris",
+            "Michael Carter-Williams",
+            "Mo Bamba",
+            "Nikola Vucevic",
+            "Terrence Ross",
+            "Zeke Nnaji",
+            "Jonathan Isaac"
+          ],
+          "nominal_inactive": [
+            "Markelle Fultz",
+            "Moritz Wagner",
+            "Jabari Smith"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        },
+        {
+          "source_template": "ORL:RECOVERY",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/ORL:RECOVERY",
+          "unchanged_positive_player_seconds": {
+            "Chuma Okeke": 1680,
+            "Cole Anthony": 1440,
+            "Evan Mobley": 1680,
+            "Gary Harris": 1680,
+            "Jonathan Isaac": 1200,
+            "Markelle Fultz": 1200,
+            "Michael Carter-Williams": 840,
+            "Mo Bamba": 960,
+            "Nikola Vucevic": 1920,
+            "Terrence Ross": 1800
+          },
+          "nominal_active": [
+            "Chuma Okeke",
+            "Cole Anthony",
+            "Evan Mobley",
+            "Gary Harris",
+            "Jonathan Isaac",
+            "Markelle Fultz",
+            "Michael Carter-Williams",
+            "Mo Bamba",
+            "Nikola Vucevic",
+            "Terrence Ross",
+            "Al-Farouq Aminu",
+            "Dwayne Bacon"
+          ],
+          "nominal_inactive": [
+            "Moritz Wagner",
+            "Zeke Nnaji",
+            "Jabari Smith"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "PHI": {
+      "standard": [
+        "Ben Simmons",
+        "Danny Green",
+        "Dwight Howard",
+        "Furkan Korkmaz",
+        "Isaiah Joe",
+        "Jaden Springer",
+        "Joel Embiid",
+        "Matisse Thybulle",
+        "Mike Scott",
+        "Paul Reed",
+        "Seth Curry",
+        "Shake Milton",
+        "Tobias Harris",
+        "Tyrese Maxey",
+        "Blake Wesley"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Ben Simmons",
+        "Danny Green",
+        "Dwight Howard",
+        "Furkan Korkmaz",
+        "George Hill",
+        "Isaiah Joe",
+        "Jaden Springer",
+        "Joel Embiid",
+        "Matisse Thybulle",
+        "Mike Scott",
+        "Paul Reed",
+        "Seth Curry",
+        "Shake Milton",
+        "Tobias Harris",
+        "Tyrese Maxey"
+      ],
+      "cleared_reserves": [
+        "George Hill"
+      ],
+      "first_RSC_players": [
+        "Blake Wesley"
+      ],
+      "first_RSC_picks": [
+        28
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "PHI:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/PHI:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Ben Simmons": 1920,
+            "Danny Green": 1440,
+            "Dwight Howard": 840,
+            "Furkan Korkmaz": 840,
+            "Joel Embiid": 2040,
+            "Matisse Thybulle": 960,
+            "Mike Scott": 240,
+            "Seth Curry": 1800,
+            "Shake Milton": 1080,
+            "Tobias Harris": 1920,
+            "Tyrese Maxey": 1320
+          },
+          "nominal_active": [
+            "Ben Simmons",
+            "Danny Green",
+            "Dwight Howard",
+            "Furkan Korkmaz",
+            "Joel Embiid",
+            "Matisse Thybulle",
+            "Mike Scott",
+            "Seth Curry",
+            "Shake Milton",
+            "Tobias Harris",
+            "Tyrese Maxey",
+            "Isaiah Joe"
+          ],
+          "nominal_inactive": [
+            "Jaden Springer",
+            "Paul Reed",
+            "Blake Wesley"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "PHX": {
+      "standard": [
+        "Abdel Nader",
+        "Cameron Johnson",
+        "Cameron Payne",
+        "Chris Paul",
+        "Dario Saric",
+        "Deandre Ayton",
+        "Devin Booker",
+        "E'Twaun Moore",
+        "Frank Kaminsky",
+        "Isaiah Jackson",
+        "Jae Crowder",
+        "Jalen Smith",
+        "Jevon Carter",
+        "Mikal Bridges",
+        "Torrey Craig"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Abdel Nader",
+        "Cameron Johnson",
+        "Cameron Payne",
+        "Chris Paul",
+        "Dario Saric",
+        "Deandre Ayton",
+        "Devin Booker",
+        "E'Twaun Moore",
+        "Frank Kaminsky",
+        "Isaiah Jackson",
+        "Jae Crowder",
+        "Jalen Smith",
+        "Jevon Carter",
+        "Mikal Bridges",
+        "Torrey Craig"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [
+        {
+          "source_template": "PHX:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/PHX:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Abdel Nader": 720,
+            "Cameron Johnson": 1200,
+            "Cameron Payne": 1200,
+            "Chris Paul": 1920,
+            "Dario Saric": 840,
+            "Deandre Ayton": 1920,
+            "Devin Booker": 2160,
+            "E'Twaun Moore": 240,
+            "Frank Kaminsky": 120,
+            "Jae Crowder": 1680,
+            "Jevon Carter": 480,
+            "Mikal Bridges": 1920
+          },
+          "nominal_active": [
+            "Abdel Nader",
+            "Cameron Johnson",
+            "Cameron Payne",
+            "Chris Paul",
+            "Dario Saric",
+            "Deandre Ayton",
+            "Devin Booker",
+            "E'Twaun Moore",
+            "Frank Kaminsky",
+            "Jae Crowder",
+            "Jevon Carter",
+            "Mikal Bridges"
+          ],
+          "nominal_inactive": [
+            "Isaiah Jackson",
+            "Jalen Smith",
+            "Torrey Craig"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "POR": {
+      "standard": [
+        "Anfernee Simons",
+        "CJ Elleby",
+        "CJ McCollum",
+        "Carmelo Anthony",
+        "Damian Lillard",
+        "Derrick Jones Jr.",
+        "Enes Kanter",
+        "Jacob Evans",
+        "Jusuf Nurkic",
+        "Nassir Little",
+        "Robert Covington",
+        "Rodney Hood",
+        "Rondae Hollis-Jefferson",
+        "Zach Collins",
+        "A.J. Griffin"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Anfernee Simons",
+        "CJ Elleby",
+        "CJ McCollum",
+        "Carmelo Anthony",
+        "Damian Lillard",
+        "Derrick Jones Jr.",
+        "Enes Kanter",
+        "Harry Giles III",
+        "Jacob Evans",
+        "Jusuf Nurkic",
+        "Nassir Little",
+        "Robert Covington",
+        "Rodney Hood",
+        "Rondae Hollis-Jefferson",
+        "Zach Collins"
+      ],
+      "cleared_reserves": [
+        "Harry Giles III"
+      ],
+      "first_RSC_players": [
+        "A.J. Griffin"
+      ],
+      "first_RSC_picks": [
+        15
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "POR:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/POR:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Anfernee Simons": 1200,
+            "CJ McCollum": 2040,
+            "Carmelo Anthony": 1200,
+            "Damian Lillard": 2040,
+            "Derrick Jones Jr.": 1320,
+            "Enes Kanter": 960,
+            "Jacob Evans": 360,
+            "Jusuf Nurkic": 1800,
+            "Nassir Little": 480,
+            "Robert Covington": 1800,
+            "Rodney Hood": 1200
+          },
+          "nominal_active": [
+            "Anfernee Simons",
+            "CJ McCollum",
+            "Carmelo Anthony",
+            "Damian Lillard",
+            "Derrick Jones Jr.",
+            "Enes Kanter",
+            "Jacob Evans",
+            "Jusuf Nurkic",
+            "Nassir Little",
+            "Robert Covington",
+            "Rodney Hood",
+            "CJ Elleby"
+          ],
+          "nominal_inactive": [
+            "Rondae Hollis-Jefferson",
+            "Zach Collins",
+            "A.J. Griffin"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "SAC": {
+      "standard": [
+        "Buddy Hield",
+        "Chimezie Metu",
+        "Damian Jones",
+        "Davion Mitchell",
+        "De'Aaron Fox",
+        "Delon Wright",
+        "Harrison Barnes",
+        "Hassan Whiteside",
+        "Jahmi'us Ramsey",
+        "Marvin Bagley III",
+        "Maurice Harkless",
+        "Richaun Holmes",
+        "Terence Davis",
+        "Tyrese Haliburton",
+        "Jeremy Sochan"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Buddy Hield",
+        "Chimezie Metu",
+        "Damian Jones",
+        "Davion Mitchell",
+        "De'Aaron Fox",
+        "Delon Wright",
+        "Harrison Barnes",
+        "Hassan Whiteside",
+        "Jahmi'us Ramsey",
+        "Marvin Bagley III",
+        "Maurice Harkless",
+        "Richaun Holmes",
+        "Robert Woodard II",
+        "Terence Davis",
+        "Tyrese Haliburton"
+      ],
+      "cleared_reserves": [
+        "Robert Woodard II"
+      ],
+      "first_RSC_players": [
+        "Jeremy Sochan"
+      ],
+      "first_RSC_picks": [
+        9
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "SAC:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/SAC:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Buddy Hield": 1680,
+            "Chimezie Metu": 840,
+            "Damian Jones": 240,
+            "Davion Mitchell": 240,
+            "De'Aaron Fox": 1920,
+            "Harrison Barnes": 1800,
+            "Hassan Whiteside": 840,
+            "Marvin Bagley III": 1440,
+            "Maurice Harkless": 1200,
+            "Richaun Holmes": 1800,
+            "Terence Davis": 480,
+            "Tyrese Haliburton": 1920
+          },
+          "nominal_active": [
+            "Buddy Hield",
+            "Chimezie Metu",
+            "Damian Jones",
+            "Davion Mitchell",
+            "De'Aaron Fox",
+            "Harrison Barnes",
+            "Hassan Whiteside",
+            "Marvin Bagley III",
+            "Maurice Harkless",
+            "Richaun Holmes",
+            "Terence Davis",
+            "Tyrese Haliburton"
+          ],
+          "nominal_inactive": [
+            "Delon Wright",
+            "Jahmi'us Ramsey",
+            "Jeremy Sochan"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "SAS": {
+      "standard": [
+        "DeMar DeRozan",
+        "Dejounte Murray",
+        "Derrick White",
+        "Devin Vassell",
+        "Drew Eubanks",
+        "Gorgui Dieng",
+        "Jakob Poeltl",
+        "Joshua Primo",
+        "Keldon Johnson",
+        "Lonnie Walker IV",
+        "Luka Samanic",
+        "Patty Mills",
+        "Rudy Gay",
+        "Tre Jones",
+        "Ousmane Dieng"
+      ],
+      "TW": [],
+      "source_standard": [
+        "DaQuan Jeffries",
+        "DeMar DeRozan",
+        "Dejounte Murray",
+        "Derrick White",
+        "Devin Vassell",
+        "Drew Eubanks",
+        "Gorgui Dieng",
+        "Jakob Poeltl",
+        "Joshua Primo",
+        "Keldon Johnson",
+        "Lonnie Walker IV",
+        "Luka Samanic",
+        "Patty Mills",
+        "Rudy Gay",
+        "Tre Jones"
+      ],
+      "cleared_reserves": [
+        "DaQuan Jeffries"
+      ],
+      "first_RSC_players": [
+        "Ousmane Dieng"
+      ],
+      "first_RSC_picks": [
+        12
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "SAS:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/SAS:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "DeMar DeRozan": 2040,
+            "Dejounte Murray": 1920,
+            "Derrick White": 1920,
+            "Devin Vassell": 960,
+            "Drew Eubanks": 840,
+            "Gorgui Dieng": 240,
+            "Jakob Poeltl": 1800,
+            "Keldon Johnson": 1800,
+            "Lonnie Walker IV": 1440,
+            "Patty Mills": 240,
+            "Rudy Gay": 720,
+            "Tre Jones": 480
+          },
+          "nominal_active": [
+            "DeMar DeRozan",
+            "Dejounte Murray",
+            "Derrick White",
+            "Devin Vassell",
+            "Drew Eubanks",
+            "Gorgui Dieng",
+            "Jakob Poeltl",
+            "Keldon Johnson",
+            "Lonnie Walker IV",
+            "Patty Mills",
+            "Rudy Gay",
+            "Tre Jones"
+          ],
+          "nominal_inactive": [
+            "Joshua Primo",
+            "Luka Samanic",
+            "Ousmane Dieng"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "TOR": {
+      "standard": [
+        "Aron Baynes",
+        "Chris Boucher",
+        "Dalano Banton",
+        "Fred VanVleet",
+        "Goran Dragic",
+        "Josh Giddey",
+        "Khem Birch",
+        "Malachi Flynn",
+        "Norman Powell",
+        "OG Anunoby",
+        "Pascal Siakam",
+        "Precious Achiuwa",
+        "Svi Mykhailiuk",
+        "Yuta Watanabe",
+        "Ochai Agbaji"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Aron Baynes",
+        "Chris Boucher",
+        "Dalano Banton",
+        "Fred VanVleet",
+        "Goran Dragic",
+        "Josh Giddey",
+        "Khem Birch",
+        "Malachi Flynn",
+        "Norman Powell",
+        "OG Anunoby",
+        "Pascal Siakam",
+        "Precious Achiuwa",
+        "Sam Dekker",
+        "Svi Mykhailiuk",
+        "Yuta Watanabe"
+      ],
+      "cleared_reserves": [
+        "Sam Dekker"
+      ],
+      "first_RSC_players": [
+        "Ochai Agbaji"
+      ],
+      "first_RSC_picks": [
+        14
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "TOR:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/TOR:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Chris Boucher": 1200,
+            "Fred VanVleet": 1920,
+            "Goran Dragic": 720,
+            "Josh Giddey": 1200,
+            "Khem Birch": 1440,
+            "Norman Powell": 1920,
+            "OG Anunoby": 2400,
+            "Pascal Siakam": 1920,
+            "Precious Achiuwa": 960,
+            "Svi Mykhailiuk": 480,
+            "Yuta Watanabe": 240
+          },
+          "nominal_active": [
+            "Chris Boucher",
+            "Fred VanVleet",
+            "Goran Dragic",
+            "Josh Giddey",
+            "Khem Birch",
+            "Norman Powell",
+            "OG Anunoby",
+            "Pascal Siakam",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Yuta Watanabe",
+            "Aron Baynes"
+          ],
+          "nominal_inactive": [
+            "Dalano Banton",
+            "Malachi Flynn",
+            "Ochai Agbaji"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "UTA": {
+      "standard": [
+        "Bojan Bogdanovic",
+        "Derrick Favors",
+        "Donovan Mitchell",
+        "Elijah Hughes",
+        "Ersan Ilyasova",
+        "Georges Niang",
+        "JT Thor",
+        "Joe Ingles",
+        "Jordan Clarkson",
+        "Juwan Morgan",
+        "Mike Conley",
+        "Miye Oni",
+        "Royce O'Neale",
+        "Rudy Gobert",
+        "Udoka Azubuike"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Bojan Bogdanovic",
+        "Derrick Favors",
+        "Donovan Mitchell",
+        "Elijah Hughes",
+        "Ersan Ilyasova",
+        "Georges Niang",
+        "JT Thor",
+        "Joe Ingles",
+        "Jordan Clarkson",
+        "Juwan Morgan",
+        "Mike Conley",
+        "Miye Oni",
+        "Royce O'Neale",
+        "Rudy Gobert",
+        "Udoka Azubuike"
+      ],
+      "cleared_reserves": [],
+      "first_RSC_players": [],
+      "first_RSC_picks": [],
+      "nominal_template_carriers": [
+        {
+          "source_template": "UTA:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/UTA:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Bojan Bogdanovic": 1920,
+            "Derrick Favors": 840,
+            "Donovan Mitchell": 2040,
+            "Ersan Ilyasova": 240,
+            "Georges Niang": 840,
+            "Joe Ingles": 1440,
+            "Jordan Clarkson": 1560,
+            "Mike Conley": 1800,
+            "Royce O'Neale": 1800,
+            "Rudy Gobert": 1920
+          },
+          "nominal_active": [
+            "Bojan Bogdanovic",
+            "Derrick Favors",
+            "Donovan Mitchell",
+            "Ersan Ilyasova",
+            "Georges Niang",
+            "Joe Ingles",
+            "Jordan Clarkson",
+            "Mike Conley",
+            "Royce O'Neale",
+            "Rudy Gobert",
+            "Elijah Hughes",
+            "JT Thor"
+          ],
+          "nominal_inactive": [
+            "Juwan Morgan",
+            "Miye Oni",
+            "Udoka Azubuike"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    },
+    "WAS": {
+      "standard": [
+        "Alex Len",
+        "Bradley Beal",
+        "Corey Kispert",
+        "Daniel Gafford",
+        "Davis Bertans",
+        "Deni Avdija",
+        "Gary Trent Jr.",
+        "Ish Smith",
+        "Raul Neto",
+        "Robin Lopez",
+        "Rui Hachimura",
+        "Russell Westbrook",
+        "Thomas Bryant",
+        "Troy Brown Jr.",
+        "Jaden Ivey"
+      ],
+      "TW": [],
+      "source_standard": [
+        "Alex Len",
+        "Anthony Gill",
+        "Bradley Beal",
+        "Corey Kispert",
+        "Daniel Gafford",
+        "Davis Bertans",
+        "Deni Avdija",
+        "Gary Trent Jr.",
+        "Ish Smith",
+        "Raul Neto",
+        "Robin Lopez",
+        "Rui Hachimura",
+        "Russell Westbrook",
+        "Thomas Bryant",
+        "Troy Brown Jr."
+      ],
+      "cleared_reserves": [
+        "Anthony Gill"
+      ],
+      "first_RSC_players": [
+        "Jaden Ivey"
+      ],
+      "first_RSC_picks": [
+        4
+      ],
+      "nominal_template_carriers": [
+        {
+          "source_template": "WAS:NORMAL",
+          "source_clock_pointer": "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_role_templates/WAS:NORMAL",
+          "unchanged_positive_player_seconds": {
+            "Alex Len": 480,
+            "Bradley Beal": 1920,
+            "Corey Kispert": 600,
+            "Daniel Gafford": 1440,
+            "Davis Bertans": 1080,
+            "Deni Avdija": 1440,
+            "Gary Trent Jr.": 1680,
+            "Raul Neto": 840,
+            "Robin Lopez": 960,
+            "Rui Hachimura": 1560,
+            "Russell Westbrook": 2040,
+            "Troy Brown Jr.": 360
+          },
+          "nominal_active": [
+            "Alex Len",
+            "Bradley Beal",
+            "Corey Kispert",
+            "Daniel Gafford",
+            "Davis Bertans",
+            "Deni Avdija",
+            "Gary Trent Jr.",
+            "Raul Neto",
+            "Robin Lopez",
+            "Rui Hachimura",
+            "Russell Westbrook",
+            "Troy Brown Jr."
+          ],
+          "nominal_inactive": [
+            "Ish Smith",
+            "Thomas Bryant",
+            "Jaden Ivey"
+          ],
+          "new_rookie_positive_minutes_selected": false,
+          "old_FY21_health_or_winners_admitted_as_FY22": false
+        }
+      ],
+      "calendar_dates_unchanged": true,
+      "roster_effective_from": "2022-07-11T09:00:00-04:00",
+      "rookie_participation_or_health_selected": false
+    }
+  },
+  "summary": {
+    "NPC_first_RSCs": 29,
+    "all_first_RSCs_including_CHI": 30,
+    "NPC_zero_budget_reserve_clearances": 25,
+    "existing_empty_STD_slots_used": 4,
+    "all_live_STD": 449,
+    "NPC_live_STD": 434,
+    "all_live_TW": 2,
+    "all_unique_live_owners": 451,
+    "first_year_new_RSC_salary_total": 130757160,
+    "normal_first_claim_hold_replacement_delta_total": 0,
+    "apron_signed_minus_existing_RT_delta_total": 21792860,
+    "unchanged_old_positive_template_carriers": 33,
+    "new_rookie_participation_or_complete_games_selected": 0,
+    "NPC_second_round_rights_remaining": 29
+  },
+  "remaining_finite_inputs": [
+    "Chosen rookie positive role/minute/availability/productivity and recompiled paired48/240 clocks/results",
+    "Credible core renewal price family for applicable expiry cases; a legal minimum sensitivity is not market plausibility PASS",
+    "Full normal/apron original Gamma and six-cost family; protected waiver obligations never a cash saving",
+    "Second-round timed tender/acceptance or other lawful route and post2023draft rights/costs"
+  ],
+  "bounds": {
+    "whole_FY22_23_cost_health_or_results_complete": false,
+    "independent_review_completed": false,
+    "old_FY21_results_or_health_automatically_reused": false,
+    "actual_player_consent_or_private_receipts_certified": false,
+    "CHI_Kessler_Ellis_R1_and_H22_changed": false,
+    "new_franchise_MVP_title_count_or_ending_change": false,
+    "N23": null,
+    "A23": null,
+    "whole_macro3_G13_G14_complete": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "actual_context_packs": 0,
+  "manuscript_allowed": false
+}

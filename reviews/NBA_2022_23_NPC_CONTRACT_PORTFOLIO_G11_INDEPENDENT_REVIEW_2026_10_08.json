@@ -1,0 +1,75 @@
+{
+  "id": "NBA_2022_23_NPC_CONTRACT_PORTFOLIO_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_SOURCE_BOUND_CONDITIONAL_NPC_CONTRACT_AND_ROSTER_FUNCTIONS",
+  "source_sha256": {
+    "tools/build_2022_23_npc_contract_portfolio.py": "2777bb2de2983804bcf29833bab17ed5e860799a1ea199d9e754a911c631ca07",
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json": "123d07df572ac4350e9528b3f0b913b3013ad4d51584c88a94e78051b9c7af19",
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.md": "0fbb58a0876e2f4d0b176f5d5961351a5e48836ac36cecd5564b0e3e9a76d369"
+  },
+  "source_hash_method": "UTF8 BOM strip; CRLF/CR to LF",
+  "direct_checks": {
+    "original_named_NPC_contract_rows": 442,
+    "joined_NPC_contract_rows": 442,
+    "original_selected_NPC_2022_draft_rights": 58,
+    "joined_rights": 58,
+    "explicit_2021_year2_carry_rows": 74,
+    "one_season_expiry_rows": 55,
+    "last_option_year_rows": 17,
+    "TW_endpoint_ports": 12,
+    "status_dependent_group_rows": 284,
+    "constructed_resolution_cases": 1022,
+    "teams": 30,
+    "candidate_NPC_standard_names": 430,
+    "CHI_existing_selected_standard_two_way": [
+      15,
+      2
+    ],
+    "NPC_draft_UPCs_selected": 0,
+    "NPC_2022_23_team_date_keys": 2378,
+    "all30_team_date_keys": 2460,
+    "source_calendar_games": 1230,
+    "new_N23_or_A23_selected": false
+  },
+  "independent_actual_return_controls": [
+    {
+      "id": "original_owner_return_changed",
+      "target": "inputs returned first NPC prior_owner=CHI, physical audit unchanged",
+      "rejected": true,
+      "diagnostic": "Input object differs from pinned physical source"
+    },
+    {
+      "id": "renewal_bonus_return_changed",
+      "target": "resolve_contract returned new_bonuses=1 for source-approved no-bonus minimum",
+      "rejected": true,
+      "diagnostic": "assert_resolution rejected returned contract form"
+    },
+    {
+      "id": "unknown_cost_zeroed",
+      "target": "team_functions returned BOS new_N23=0",
+      "rejected": true,
+      "diagnostic": "Future unknown cost zeroed"
+    },
+    {
+      "id": "draft_rights_UPC_prepayment",
+      "target": "rights_rows returned first right new_UPC_selected=true",
+      "rejected": true,
+      "diagnostic": "Rights converted to registration"
+    }
+  ],
+  "meaning_and_limits": {
+    "explicit_year2_support_is_same_original_UPC_fact": true,
+    "public_under_contract_classification_is_same_original_UPC_proof": false,
+    "status_dependent_same_owner_legal_forms_are_fictional_conditional_families": true,
+    "important_player_minimum_form_is_market_price_or_assent_certification": false,
+    "unknown_original_endpoint_296_is_typed_source_fact_not_private_receipt_gate": true,
+    "first_RSC29_slot_and_signed_UPC_join_complete": false,
+    "all_NPC_FY22_original_term_facts_closed": false,
+    "NPC_health_role_state_or_2022_23_results_selected": false,
+    "all_six_cost_categories_or_normal_apron_upper_completed": false,
+    "actual_private_contract_receipt_medical_or_acceptance_certified": false,
+    "whole_macro3_or_G13_G14_complete": false,
+    "writer_self_tests_counted_as_independent": false
+  },
+  "review_note": "Direct physical audit rows, frozen producer/output hashes, 30-team date and rights cardinalities, and four returned-object mutations support the conditional same-owner function family. 74 explicit Year2 rows have current-period support; the other status branches remain named fictional legal-form functions with original Gamma and option/FA rights preserved. No observed actual UPC, market agreement, 2022–23 health/result, or whole-cost certificate is inferred."
+}

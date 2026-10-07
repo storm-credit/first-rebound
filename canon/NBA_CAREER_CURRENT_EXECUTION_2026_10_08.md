@@ -1,5 +1,7 @@
 # NBA 커리어 현행 실행 인계 — 2026-10-08
 
+2026-10-08 [2022–23 전역 정규·신인·계약 가족 채택](../reviews/NPC_ROLLOVER_ROOKIES_GLOBAL_REGULAR_AND_CORE_ADOPTION_REVIEW_2026_10_08.md): PR498main 보존. 원NPC442/58권리·29RSC/25방출/빈4칸·원보호채무를 독립 검문했다. 새신인28양수/Chet0·MilesUPC0/CHA빈STD·448STD2TW450소유,1230/2460/CHI82=46–36·29,780양팀48/240구간과 전역승패를 검문 후 현행 인계에 채택했다. 코어11가격/91끝점·7qualified Bird/3원PO carry/1미서명 선택은 sameclaim minimum·hold 한번 교체이며 전체비용/현실수락 인증이 아니다. Coby82가상1476분/비선발0/OT0을 기존QO 입력에 연결. AGY37.960초두URL답(독립본문인증0)·NLM19.280초등록/60.322초분석답·Claude28.825초blind답/인과·빈슬롯 문구 보완. 2023순위/PO/픽/후속계약·wholecost/장기커리어·전체G13/G14 미완료. 49기능/31경로/미경로11/source98·Pack0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래는 이전 이력이다.
+
 2026-10-08 [통계/QO·동일 날짜 결합·A01 관측 채택](../reviews/STAT_QO_DISPATCH_AND_A01_LITERAL_ADOPTION_REVIEW_2026_10_08.md): Coby STAT23_A의 원58/0/1044와 H22 조건부82/0/1476·가상OT0을 독립검문 후 현행 입력으로 채택했다. 비선발QO 상단7,744,602/own9,942,120은 가격·발행·수락이 아니다. 원하한/GSnull과 unordered coverage는 불변. 새82일/29상대 dispatcher의 상대혼동FALSE_PASS를 수리하고 A01 같은체험 준비·과시시간비용의 독립관측을98원천 현행기능표에 연결했다. 결과0/82·49기능/31경로/미경로11·Pack0·전체G13/G14 미완료.
 2026-10-08 [전체PO 채택](../simulation/NBA_2022_SELECTED_FULL_POSTSEASON.md)과 [새 H22 역할](../simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.md): 독립 검문 후15시리즈93가상경기/MIL4–3UTA/6월20말단을 기존 시즌 위임으로 채택했다. 원CHI7경기·드래프트·가격 함수를 보존하고 원10월1일 두 옵션 통지를6월21일–10월31일 창에 연결했다. 새H22/82작업날짜/12STD active·240분 역할·Kessler12분을 채택했으며 2022–23 결과는0/82이다. BKN OUT은 가상 구단 nomination으로 사용하며3/24 이후 실제NYC법금지 지속으로 읽지 않는다. 정확 비용/GP·GS·OT·접수 인증과 중요Utah재건·주인공MVP/우승수 잠금은 추가하지 않았다.
 

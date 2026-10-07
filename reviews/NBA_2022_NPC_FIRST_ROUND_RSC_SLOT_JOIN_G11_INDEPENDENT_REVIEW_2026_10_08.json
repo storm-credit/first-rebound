@@ -1,0 +1,91 @@
+{
+  "id": "NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_29_FICTIONAL_RSC_AND_25_NAMED_CLEARANCES",
+  "source_sha256": {
+    "tools/build_2022_npc_first_round_rsc_slot_join.py": "90d76602852304695b1c32dd737c0ccd90304cfe34e62bdb84294b561ec87135",
+    "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.json": "9e72b7b6f277d62a1462eae93548903278631a155698ec39fcfef82fae200933",
+    "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.md": "57b807645bf22ffb1ba91571b6aed754853d643735e880bcc35a0ec5fdc641a7"
+  },
+  "source_hash_method": "UTF8 BOM strip; CRLF/CR to LF",
+  "primary_physical_checks": {
+    "2017_CBA_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "2023_CBA_retrospective_scale_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "2023_PDF_page631_pick18_first_year_base_dollars": 2659500,
+    "2023_PDF_ExhibitB_heading_thousands_but_cell_is_full_dollars": true,
+    "operative_2022_contract_law_from_2017_CBA": true,
+    "pick18_reference_120pct_dollars": 3191400,
+    "published_2022_scale_not_multiplied_by_1000": true
+  },
+  "direct_arithmetic_and_ownership": {
+    "NPC_first_round_picks_exactly_1_to_30_except_CHI18": true,
+    "NPC_rights_owner_player_pairs_unique": 29,
+    "same_claim_first_salary_total_dollars": 130757160,
+    "same_claim_normal_unsigned_hold_to_signed_delta_dollars": 0,
+    "apron_RT100_to_signed120_delta_dollars": 21792860,
+    "existing_empty_NPC_slots_used": 4,
+    "named_zero_positive_clearances": 25,
+    "post_join_NPC_STD": 434,
+    "post_join_all_STD": 449,
+    "post_join_TW": 2,
+    "post_join_unique_registered": 451,
+    "unchanged_old_positive_template_carriers": 33,
+    "CHI_Kessler_Ellis_roster_unchanged": true,
+    "Jamal_Murray_and_other_named_high_future_core_not_cleared": true,
+    "waiver_notice_clearance_sign_times": [
+      "2022-07-08T09:00:00-04:00",
+      "2022-07-10T09:00:00-04:00",
+      "2022-07-11T09:00:00-04:00"
+    ]
+  },
+  "independent_actual_return_controls": [
+    {
+      "id": "wrong_holder",
+      "target": "contract returned CHI owner for an NPC right",
+      "result": "REJECTED"
+    },
+    {
+      "id": "future_option_autoexercise",
+      "target": "contract returned future options automatically exercised",
+      "result": "REJECTED"
+    },
+    {
+      "id": "normal_hold_doublecount",
+      "target": "contract returned normal signed salary as added atop same-claim unsigned hold",
+      "result": "REJECTED"
+    },
+    {
+      "id": "waiver_original_Gamma_deleted",
+      "target": "waiver returned original Gamma not reserved",
+      "result": "REJECTED"
+    },
+    {
+      "id": "waiver_48h_shrunk",
+      "target": "waiver returned claim deadline July9 instead of July10",
+      "result": "REJECTED"
+    },
+    {
+      "id": "roster_duplicate_slot",
+      "target": "roster_plan returned same standard player in two roster slots",
+      "result": "REJECTED"
+    },
+    {
+      "id": "roster_positive_core_removed",
+      "target": "roster_plan replaced positive Aaron Gordon with zero-budget Jamal Murray",
+      "result": "REJECTED"
+    }
+  ],
+  "scope_limits": {
+    "fictional_RSC_contract_and_standard_registration_selected": true,
+    "all_first_two_RSC_years_guaranteed_and_later_two_options_unexercised": true,
+    "old_Gamma_and_selected_new_protected_waiver_liabilities_preserved_as_functions": true,
+    "exact_original_Gamma_or_actual_cash_receipts_certified": false,
+    "all29_rookie_positive_minutes_or_games_selected": false,
+    "NPC_second_round_29_rights_consumed": false,
+    "whole_normal_apron_six_cost_or_FY22_health_results_complete": false,
+    "actual_player_consent_or_waiver_receipt_certified": false,
+    "whole_macro3_G13_G14_complete": false,
+    "writer_self_tests_counted_as_independent": false
+  },
+  "review_note": "Four of five physical empty NPC standard slots are usable because LAL holds no selected first-round right. OKC uses its one empty slot plus two named clearances. All 25 clearances come from zero-positive 2021–22 templates, without treating zero minutes as permission to erase future protection or live-player costs. The source model remains a selected fictional legal family, not a real signed-paper or whole-season certificate."
+}
