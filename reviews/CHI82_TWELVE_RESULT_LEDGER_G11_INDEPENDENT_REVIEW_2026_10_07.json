@@ -1,0 +1,33 @@
+{
+  "schema": "CHI82_TWELVE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_TWELVE_SOURCE_BOUND_WORKING_WINNERS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "c02b77d81ff870854528d1314ea02d04489e944dc6b51bbb02432dfc50255d3c",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "29ec9087c5d829d8c3f7ca5af6f4c8e3abc83560b752298d38cbd4247d2e0c80",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "8e8d3eb12afe04e79c9a5ee17c0c47c3631a2a27a6b995b702553f1109c9b991"
+  },
+  "independent_direct_join": {
+    "distinct_source_groups": ["DET2", "NOP1", "TOR4", "NYK4", "UTA1"],
+    "calendar_original_keys": 82,
+    "selected_distinct_game_ids": 12,
+    "selected_chi_working_wins": 7,
+    "selected_opponent_working_wins": 5,
+    "unselected_distinct_game_ids": 70,
+    "calendar_order_date_home_away_opponent_and_selected_chi_state_match": true,
+    "selected_source_winner_and_path_pointers_match_physical_group_outputs": true,
+    "remaining_ids_equal_calendar_complement": true,
+    "next_unselected_game_id": "0022100098",
+    "next_unselected_date": "2021-11-01",
+    "next_unselected_opponent": "BOS"
+  },
+  "actual_mutation_control": {
+    "mutation": "Patched ledger read() to return NYK first selected_regulation_winner=NYK while leaving physical NYK source unchanged",
+    "outcome": "REJECTED",
+    "reason": "Returned input differs from physical source: simulation/CHICAGO_NEW_YORK_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "history": "The earlier seven-result review is retained as its own historical artifact and was not reused as a proof for five added games.",
+  "scope_limit": "Twelve chosen fictional regulation winners only. Remaining 70 games, scores, overtime, whole-season standings, later pick, and private medical or contract receipts are not certified.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "UTA_KEEPER_SELECTED_RESULT_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_ONE_SOURCE_BOUND_WORKING_RESULT_AFTER_ROLE_ORDER_REPAIR",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_uta_2021_keeper_and_chicago_selected_result.py": "def07d588c90319963d592e98ce092cd638f2637adc38ba3c6423b1533af818d",
+    "simulation/CHICAGO_UTAH_2021_SELECTED_KEEPER_RESULT.json": "0e2bb3a05a9e562872dcdb411f061693d55d8bfa408a9f8c7927a1a65eb8fc77",
+    "simulation/CHICAGO_UTAH_2021_SELECTED_KEEPER_RESULT.md": "bb624e1670d3073e89dd339c0cd628c2af46f9f7c173c79fb817adb8e8c68cb7"
+  },
+  "independent_sources": {
+    "raw_2017_cba_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "cba_pages_directly_checked": [54, 55, 74, 75, 222, 223, 292],
+    "nba_2021_player_movement_url": "https://www.nba.com/news/nba-player-movement-2021",
+    "nba_2021_trade_tracker_url": "https://www.nba.com/news/2021-offseason-trade-tracker",
+    "historical_vs_selected": "Original Favors-to-OKC asset trade, Niang-to-PHI, Morgan-to-BOS and original rookie draft swap are treated as historical counterfactual inputs, not automatically executed in the selected Utah keeper family.",
+    "october_30_gamebook_body_independently_read": false
+  },
+  "independent_checks": {
+    "selected_standard_and_two_way_slots": [15, 0],
+    "contract_family": "Ten original current contracts retained; Conley three-year and Niang two-year own full-Bird flat-base lawful q families; Morgan and Ilyasova one-year minimum families; DB1 JT Thor #30 first-round scale contract. Brantley and Forrest unaccepted QOs do not create new two-way contracts.",
+    "price_and_cost_boundary": "Legal q functions and original protection/bonus liabilities are retained; actual q, receipts and whole normal/apron team salary remain unverified. No original Favors trade assets or Butler/Aldama draft swap are imported.",
+    "game_id": "0022100083",
+    "calendar_date": "2021-10-30",
+    "home_away": ["CHI", "UTA"],
+    "selected_chicago_state": "COBY_OUT",
+    "paired_elapsed_seconds": 2880,
+    "player_seconds_per_team": 14400,
+    "uta_positive_players": 10,
+    "direct_recalculation": "Per-segment five unique positions, quarter boundaries and team/player seconds matched saved vectors; exact selected-ratings fractions independently recomputed the CHI-minus-UTA impact.",
+    "chi_minus_uta_impact_per100": -0.12447567832915771,
+    "working_winner": "UTA"
+  },
+  "actual_constructor_control": {
+    "mutation": "Swapped different UTA five-man position maps at blocks 6 and 8 within the second quarter, preserving starters, each player and role total, 2,880-second game and winner",
+    "before_repair": "FALSE_PASS",
+    "after_repair": "REJECTED: Returned chosen role chronology differs from fixed selection",
+    "repair_scope": "The selected 24-block chronology is now compared to a fixed sequence digest. Legal and result values did not change."
+  },
+  "scope_limit": "One selected fictional lawful-contract and regulation-winner family. No historical 2021-10-30 score/health, exact salaries, private contracts, OKC descendants, remaining Utah games or full 82-game season certified.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}

@@ -1,0 +1,4108 @@
+{
+  "id": "CHICAGO_NEW_YORK_2021_22_SELECTED_KEEPER_RESULTS",
+  "baseline_main": "f4e1ec1ecdf93509e8e7868f800ad04d8aafcafa",
+  "status": "SELECTED_NAMED_LAWFUL_FAMILY_AND_FOUR_REGULATION_RESULTS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_22_COMMON_26_OPPONENT_CAPACITY.json": "a0ecb8e362e51344ca2cc2de53ff0713901bc4d50432a5efef621641fd0c00b7",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json": "51b24c8a6bc1eb703568adced46b3ffa15845e85e8da10da1242bddf941df960",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/NBA_2021_22_REGULAR_BASELINE.csv": "92869bc987896a4172c5e54e3684d2604c5c24d828e9bcf3cc27af30ebc83644",
+    "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json": "66c1c862a179648aa72dd81ff13a07345b36889043995ecb583ae57019618c80",
+    "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e",
+    "tools/build_nyk_2021_keeper_and_chicago_selected_results.py": "61eb21ed98b1c4020bce85062db5bb7b988de9ba9cf213116b52f54575d9b397"
+  },
+  "hash_convention": "repository BOMstrip+LF; external raw bytes unchanged",
+  "primary_support": {
+    "CBA_raw": {
+      "url": "https://nbpa.com/upload/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "normalized_fitz_page_text_sha256": {
+        "26": "ff6b36ecd67bcbc1491e464ebce0d85a5d4d07db36c82da1d0cc4ec32d32044a",
+        "29": "a7376434286a88c8b534c773c4dbf184c21df8a8a52c22718221ce39e9a08e75",
+        "30": "9cf0f5b23523777c69220fc109f59a6b42dc1550c90082e39b48748f53a03338",
+        "31": "d157a3547a4a9b336ce312fe2159e06efe4f46c61050cdb1d324082b4c6a8ecd",
+        "54": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1",
+        "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+        "58": "6bfe75ec156ef879964d4f79660a3f4041a3a8f81a22ef2297c0590a6e4a3ba7",
+        "71": "a8b6bd830a9e8b4af6a5bc4821503c0f4750e004adb79b1d2ee7338ba3048256",
+        "72": "bca485c8a46c2f4b660da1d79e8034bcfccff15d704180bdd6e88dc3d7428759",
+        "74": "c69d78fdd64deded34b2062e3bf3bcb3b5ffd2a028801bafcdf1d50cf120ad63",
+        "75": "48c080a84ba9322dd6cd1b0d8c9c82c8f235ad70a3aa464cbcafc1611250b6a4",
+        "208": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3",
+        "209": "3a47b881e3d34ff50f7ad32a38792702ac43e77a9aa9383b5433ceba6bc84859",
+        "210": "6f155805eebeb105501cc90b1f27ff41e222d3413033bd952f010e9b4daa3c3a",
+        "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+        "222": "d25729bf91cc0a46cde01aa9ed484798091eea9fe3a7ceaa061aaa13fde84403",
+        "223": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b",
+        "224": "88bfd31d8dd7393b272a8bdfdc55da36a34f60aa87ae297f4435be53549bbe1c",
+        "227": "1aceebad4fd3a98adadad8826e9af895d99d22705feb712ad9b7c71277640fa2",
+        "228": "29dbab5b2ece11f0ab356048dddec4eb3004cd670669a248b530340a9ecaba96",
+        "232": "38b400763b01a29678eaecbb413e01a318ca8460bf29ce7d884e6f0f140239b0",
+        "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+        "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+        "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+        "292": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed",
+        "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+        "309": "ba011dec802ed61094fc829d512e2a72a36fd846babe77969193140d7d5243a0",
+        "310": "6a860dfdb714499e550301e89b6cfb1527ce800299384df3fc55c384648f1b94",
+        "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+        "315": "586c77e4bc0cea3d215b9f378aa5949bb74c2b718c1d64d5661f01b6dbccca0f",
+        "317": "06c7ee2b8e250bdd71d2985d31eeb2c8559e1e0bad85f0899f791f2dca4603c6",
+        "318": "92258d361d590eba557d56ab7ba01e1ff58af80806f4f61dd38d4eddc34bac25",
+        "561": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+      }
+    },
+    "frozen_movement_raw": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "named_original_events_not_automatically_executed": [
+        {
+          "Transaction_Type": "Waive",
+          "TRANSACTION_DATE": "2021-10-03T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks waived guard Luca Vildoza.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1630492.0,
+          "PLAYER_SLUG": "luca-vildoza",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Waive 1043626"
+        },
+        {
+          "Transaction_Type": "Waive",
+          "TRANSACTION_DATE": "2021-07-31T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks waived center Norvel Pelle.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203658.0,
+          "PLAYER_SLUG": "norvel-pelle",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Waive 1041603"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-05-06T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed guard Luca Vildoza to a Rest-of-Season Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1630492.0,
+          "PLAYER_SLUG": "luca-vildoza",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1039869"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-05-03T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed guard Jared Harper to a Two-Way Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1629607.0,
+          "PLAYER_SLUG": "jared-harper",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1039777"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-04-22T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed center Norvel Pelle to a Rest-of-Season Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203658.0,
+          "PLAYER_SLUG": "norvel-pelle",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1039459"
+        },
+        {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2021-02-08T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks received guard Derrick Rose from Detroit Pistons.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 201565.0,
+          "PLAYER_SLUG": "derrick-rose",
+          "Additional_Sort": 1610612765.0,
+          "GroupSort": "Trade 2020056"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-01-07T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed forward Taj Gibson to a Rest-of-Season Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 201959.0,
+          "PLAYER_SLUG": "taj-gibson",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1035618"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-29T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed guard Elfrid Payton to a Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203901.0,
+          "PLAYER_SLUG": "elfrid-payton",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033534"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-29T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks re-signed guard Theo Pinson to a Two-Way Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1629033.0,
+          "PLAYER_SLUG": "theo-pinson",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033535"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-25T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed center Nerlens Noel to a Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203457.0,
+          "PLAYER_SLUG": "nerlens-noel",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033366"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-23T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks re-signed guard Jared Harper to a Two-Way Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1629607.0,
+          "PLAYER_SLUG": "jared-harper",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033247"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-22T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed guard Alec Burks to a Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 202692.0,
+          "PLAYER_SLUG": "alec-burks",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033185"
+        },
+        {
+          "Transaction_Type": "Waive",
+          "TRANSACTION_DATE": "2020-11-19T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks waived forward Taj Gibson.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 201959.0,
+          "PLAYER_SLUG": "taj-gibson",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Waive 1032225"
+        },
+        {
+          "Transaction_Type": "Waive",
+          "TRANSACTION_DATE": "2020-11-19T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks waived guard Elfrid Payton.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203901.0,
+          "PLAYER_SLUG": "elfrid-payton",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Waive 1032226"
+        },
+        {
+          "Transaction_Type": "AwardOnWaivers",
+          "TRANSACTION_DATE": "2020-06-26T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks claimed guard Theo Pinson off waivers.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1629033.0,
+          "PLAYER_SLUG": "theo-pinson",
+          "Additional_Sort": 0.0,
+          "GroupSort": "AwardedOnWaivers 1032013"
+        },
+        {
+          "Transaction_Type": "AwardOnWaivers",
+          "TRANSACTION_DATE": "2020-06-25T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks claimed guard Jared Harper off waivers.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 1629607.0,
+          "PLAYER_SLUG": "jared-harper",
+          "Additional_Sort": 0.0,
+          "GroupSort": "AwardedOnWaivers 1030944"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-16T00:00:00",
+          "TRANSACTION_DESCRIPTION": "New York Knicks signed guard Reggie Bullock Jr. to a Contract.",
+          "TEAM_ID": 1610612752.0,
+          "TEAM_SLUG": "knicks",
+          "PLAYER_ID": 203493.0,
+          "PLAYER_SLUG": "reggie-bullock-jr",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1019175"
+        }
+      ]
+    },
+    "TW_eligibility_family": {
+      "new_season": "2021-22",
+      "same_NYK_TW_cap_years_including_new": [
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "same_team_years_maximum": 3,
+      "one_year_no_option_before_January15": true,
+      "original_waiver_claims_and_2020_2021_TW_signings_are_provenance_not_new_receipts": true,
+      "2021_operatively_amended_cash_function_not_original_45day_or_50000_protection_imported": true,
+      "TW_players_not_nominated_for_NBA_active_service_in_four_selected_plans": true
+    },
+    "NBA_RFA": {
+      "url": "https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nop-rfa-20261007\\NBA2021_RFA.html",
+      "raw_sha256": "c3791cc30b1a1eec3422778868a56a24b702fe2c42ce9ffe9cc2a42719b33611",
+      "original_Frank_QO_not_issued": true,
+      "original_Harper_Pinson_TW_unrestricted": true,
+      "fictional_2021_tender_not_historical_certificate": true
+    },
+    "web_observation_projection": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\web_observed_facts.json",
+      "raw_capture_sha256": "c89781a4303af04da8844c8807f8b1709f08ed6781e43ba0a12c34a40d52bef4",
+      "projection": {
+        "capture_type": "HUMAN_READABLE_FACT_PROJECTION_FROM_WEB_TOOL_NOT_ORIGINAL_HTTP_BYTES",
+        "observed_at": "2026-10-07",
+        "source_body_raw_certified": false,
+        "sources": [
+          {
+            "url": "https://www.nba.com/draft/2021/team-profiles/new-york-knicks",
+            "retrieval": "web.run open direct rendered text; main directHTTP403 separate",
+            "body_locator": "2021 Draft Profile / Under Contract / Free Agents",
+            "observed_contracts": [
+              "RJ Barrett",
+              "Norvel Pelle",
+              "Immanuel Quickley",
+              "Luca Vildoza",
+              "Kevin Knox",
+              "Julius Randle",
+              "Obi Toppin"
+            ],
+            "observed_UFA": [
+              "Alec Burks",
+              "Elfrid Payton",
+              "Derrick Rose",
+              "Reggie Bullock",
+              "Taj Gibson",
+              "Nerlens Noel"
+            ],
+            "observed_RFA": [
+              "Jared Harper",
+              "Frank Ntilikina",
+              "Theo Pinson"
+            ],
+            "observed_team_option": "Mitchell Robinson",
+            "originaldraft_and_honors_not_imported": true
+          },
+          {
+            "url": "https://www.nba.com/news/new-york-knicks-reggie-bullock-marcus-morris-official-release",
+            "retrieval": "web.run open direct rendered text",
+            "observed_Bullock_signing": "2019-07-16",
+            "reported_exact_contract_terms": null
+          },
+          {
+            "url": "https://www.nba.com/pistons/features/pistons-free-agent-recap-turning-cap-exceptions-exceptional-results",
+            "retrieval": "web.run search indexed team-journalist body; open iframe-only",
+            "observed_Rose_2019_two_year_contract_report": true,
+            "reported_contract_total": 15000000,
+            "report_not_private_contract_certificate": true
+          },
+          {
+            "url": "https://www.nba.com/knicks/knicks-waive-luca-vildoza",
+            "retrieval": "web.run search indexed official body; open iframe-only",
+            "observed_original_waiver": "2021-10-03",
+            "original_signed_date": "2021-05-06",
+            "real_counterfactual_waiver_certified": false
+          }
+        ]
+      },
+      "original_HTTP_body_certified": false
+    },
+    "two_season_flat_minimum_nonempty_support": {
+      "ExhibitC_PDF561_pairs": [
+        [
+          7,
+          1974159,
+          2211794
+        ],
+        [
+          8,
+          2106470,
+          2222803
+        ],
+        [
+          9,
+          2116955,
+          2445085
+        ],
+        [
+          10,
+          2328652,
+          2445085
+        ]
+      ],
+      "ratio_below_120_percent_with_large_rounding_margin": true,
+      "common_signed_year_scale_factor_cancels": true,
+      "q120percent_minimum_is_existence_example_not_selected_price": true,
+      "admitted_veteran_YOS_at_least7": true
+    },
+    "failed_direct_HTTP": [
+      {
+        "name": "profile2021",
+        "url": "https://www.nba.com/draft/2021/team-profiles/new-york-knicks",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\profile2021.html",
+        "HTTP": 403,
+        "bytes": 429,
+        "raw_sha256": "4ecc20ab7ec085347e1ed725d5f0bee5624206d1da50a14acf8a2f069abb5b00"
+      },
+      {
+        "name": "bullock2019",
+        "url": "https://www.nba.com/news/new-york-knicks-reggie-bullock-marcus-morris-official-release",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\bullock2019.html",
+        "HTTP": 403,
+        "bytes": 467,
+        "raw_sha256": "4b0d6bcefbce8d4933e9e5b40a9f8675ac0a9ca48ff28979fec65a0a8e60f748"
+      },
+      {
+        "name": "rose2019",
+        "url": "https://www.nba.com/pistons/features/pistons-free-agent-recap-turning-cap-exceptions-exceptional-results",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\rose2019.html",
+        "HTTP": 403,
+        "bytes": 489,
+        "raw_sha256": "c677e4c8f7201048efaf019a876ab385634be243eabfd1c134ae9270e495d41b"
+      },
+      {
+        "name": "vildoza_waiver",
+        "url": "https://www.nba.com/knicks/knicks-waive-luca-vildoza",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\vildoza_waiver.html",
+        "HTTP": 403,
+        "bytes": 413,
+        "raw_sha256": "f558aac877ce671337373532ae10b712daa873e887d8a53906685c6ceb6294e8"
+      },
+      {
+        "name": "movement2020",
+        "url": "https://www.nba.com/news/nba-player-movement-2020-offseason",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\movement2020.html",
+        "HTTP": 403,
+        "bytes": 424,
+        "raw_sha256": "50e7461949649761f094fdd4f7d9c37207bfe92a35b3634d0062d00eb4da3a0d"
+      }
+    ],
+    "failed_bodies_counted_as_primary_content": 0
+  },
+  "selected_policy": {
+    "named_route": "NYK_KEEPERS_WITH_TWO_EXISTING_DB1_ROOKIE_UPCS",
+    "Frank_QO_issued_fictionally": "2021-07-31",
+    "QO_accepted_fictionally_ET": "2021-08-06T12:02:00",
+    "new_UPCs_and_TWs_start_ET": "2021-08-06T12:02:00_ORDERED",
+    "new_NTMLE_BAE_incoming_SandT": false,
+    "new_counterparty_trade": false,
+    "actual_dollars_or_receipts_selected": false,
+    "old_waived_protection_deleted": false,
+    "positive11_NYK_operationally_available_at_four_dates": true,
+    "all_unused_zero_minute_clinical_status": null,
+    "new_canonical_author_lock": false
+  },
+  "lawful_live_contract_family": [
+    {
+      "player": "Immanuel Quickley",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Julius Randle",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Kevin Knox II",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Mitchell Robinson",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Obi Toppin",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "RJ Barrett",
+      "route": "VII6a_EXISTING_LAWFUL_CARRY",
+      "new_UPC": false,
+      "valid_current_term_to_2022_03_28": true,
+      "original_salary_protection_allocated_bonus_likely_unlikely_Γ_preserved": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Derrick Rose",
+      "route": "VII6b_EARLY_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b3",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(7/4*priorRegularSalary,21/20*priorAveragePlayerSalary))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Reggie Bullock",
+      "route": "VII6b_EARLY_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b3",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(7/4*priorRegularSalary,21/20*priorAveragePlayerSalary))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Alec Burks",
+      "route": "VII6b_NON_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b2",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(6/5*priorRegularSalary,6/5*currentLegalMinimum))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0,
+        "if_early_eligible": "VII4d2 written limited renunciation of Early exception only; deemed NonQualifying. No full player renunciation."
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Elfrid Payton",
+      "route": "VII6b_NON_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b2",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(6/5*priorRegularSalary,6/5*currentLegalMinimum))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0,
+        "if_early_eligible": "VII4d2 written limited renunciation of Early exception only; deemed NonQualifying. No full player renunciation."
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Nerlens Noel",
+      "route": "VII6b_NON_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b2",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(6/5*priorRegularSalary,6/5*currentLegalMinimum))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0,
+        "if_early_eligible": "VII4d2 written limited renunciation of Early exception only; deemed NonQualifying. No full player renunciation."
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Taj Gibson",
+      "route": "VII6b_NON_BIRD",
+      "new_UPC": true,
+      "price_function": {
+        "article": "VII6b2",
+        "nonoption_seasons": 2,
+        "first_base_floor": "max(legalMin(YOS,2021),signed2021MinimumYear2(YOS+1))",
+        "first_base_ceiling": "min(II7maximum,max(6/5*priorRegularSalary,6/5*currentLegalMinimum))",
+        "second_base": "first_base",
+        "new_likely": 0,
+        "new_unlikely": 0,
+        "new_allocated_bonus": 0,
+        "if_early_eligible": "VII4d2 written limited renunciation of Early exception only; deemed NonQualifying. No full player renunciation."
+      },
+      "q_is_consensual_parameter_in_legal_interval_not_minimum_selected": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Frank Ntilikina",
+      "route": "VII6b_VALID_OWN_ORDINARY_RSC_QO",
+      "new_UPC": true,
+      "original_draft_class": 2017,
+      "original_pick": 8,
+      "QO_function": {
+        "ordinary": "originalFourthYearSalaryComponents*(1+applicablePick8_QOincrease)",
+        "nonstarter": "lesser original package vs pick15_120percent_scale_QO_base_only",
+        "anchor_rank": 15,
+        "anchor_fraction": "6/5",
+        "anchor_bonuses": 0
+      },
+      "timely_team_signed_delivery": "2021-07-31",
+      "accepted_ET": "2021-08-06T12:02:00",
+      "unwithdrawn": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Quentin Grimes",
+      "route": "VII6h_VIII1_ROOKIE_SCALE",
+      "new_UPC": true,
+      "pick": 20,
+      "holder": "NYK",
+      "component_scale_interval": [
+        "4/5",
+        "6/5"
+      ],
+      "minimum_base_protection_fraction": "4/5",
+      "salary_plus_unlikely_ceiling": "6/5",
+      "guaranteed_seasons": 2,
+      "option_seasons": 2,
+      "valid_first_RT_inside_operative_W21_before_UPC": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    },
+    {
+      "player": "Ayo Dosunmu",
+      "route": "VII6h_VIII1_ROOKIE_SCALE",
+      "new_UPC": true,
+      "pick": 23,
+      "holder": "NYK",
+      "component_scale_interval": [
+        "4/5",
+        "6/5"
+      ],
+      "minimum_base_protection_fraction": "4/5",
+      "salary_plus_unlikely_ceiling": "6/5",
+      "guaranteed_seasons": 2,
+      "option_seasons": 2,
+      "valid_first_RT_inside_operative_W21_before_UPC": true,
+      "valid_current_term_to_2022_03_28": true,
+      "actual_dollars": null,
+      "actual_receipt": null
+    }
+  ],
+  "original_class_history_and_selected_price": {
+    "Rose": "2019 DET signing→2021 NYK trade; two preceding contract seasons through trade, I1u; do not assign fullBird3 from older MIN season.",
+    "Bullock": "2019 NYK signing plus continued2020–21; I1u two-season original-compatible family.",
+    "Burks_Noel": "2020 original NYK first signings support NonQualifying branch.",
+    "Payton_Gibson": "2020 waiver/newsign separate from2019 contract. If I1u still gives Early eligibility in a realization, limited VII4d2 notice makes chosen NB route valid; no unsupported assertion waiver alone resets allBird rights.",
+    "all_q": "q remains max(currentlegalMin,signed2021Year2legalMin)≤q≤named cap-exception ceiling, bonus-free new2-season flat base, full standard protection and lawful paragraph3 payment/consensualUPC; no exactcent or forcedminimum and no real-market acceptance assertion.",
+    "all_prior_Γ": "Past/current obligations and allocated old bonuses preserved in applicable salary-cap years; new UPC bonus0 is a fictional negotiated term, not a claim originalbonuses0."
+  },
+  "dated_registration_family": {
+    "old_S2_STD": [
+      "Alec Burks",
+      "Derrick Rose",
+      "Elfrid Payton",
+      "Frank Ntilikina",
+      "Immanuel Quickley",
+      "Julius Randle",
+      "Kevin Knox II",
+      "Luca Vildoza",
+      "Mitchell Robinson",
+      "Nerlens Noel",
+      "Norvel Pelle",
+      "Obi Toppin",
+      "RJ Barrett",
+      "Reggie Bullock",
+      "Taj Gibson"
+    ],
+    "selected_exit_or_nonassignment_waiver": [
+      "Norvel Pelle",
+      "Luca Vildoza"
+    ],
+    "waiver_datetime_if_live_ET": "2021-08-06T12:01:30_BEFORE_ROOKIE_UPCs",
+    "both_original_current_protected_charges_fully_retained": true,
+    "original_waiver_dates_are_positive_sources_not_fictional_receipts": true,
+    "Mitchell_Robinson_option": "valid exercise in operative2021 contractual notice window beforeUPCsequence",
+    "Barrett_Knox_old_RSC_options": "valid prior operative2020 options preserved; October2021 futureoptions not automatically copied",
+    "Randle": "existing2021–22 contract/protection preserved; originalAug2021 futureextension not imported",
+    "selected_start_after_valid_expiries_options_exits": {
+      "standard_existing": [
+        "Immanuel Quickley",
+        "Julius Randle",
+        "Kevin Knox II",
+        "Mitchell Robinson",
+        "Obi Toppin",
+        "RJ Barrett"
+      ],
+      "STD": 6,
+      "TW": 0
+    },
+    "new_UPC_order": [
+      "Quentin Grimes",
+      "Ayo Dosunmu",
+      "Derrick Rose",
+      "Reggie Bullock",
+      "Alec Burks",
+      "Elfrid Payton",
+      "Nerlens Noel",
+      "Taj Gibson",
+      "Frank Ntilikina"
+    ],
+    "final_STD": 15,
+    "final_TW": 2,
+    "offseason_including_TW_maximum_used": 17,
+    "no_future_roster_absence_certified": true
+  },
+  "draft_and_TW_family": {
+    "signed_RSCs": [
+      {
+        "pick": 20,
+        "player": "Quentin Grimes",
+        "holder": "NYK"
+      },
+      {
+        "pick": 23,
+        "player": "Ayo Dosunmu",
+        "holder": "NYK"
+      }
+    ],
+    "unsigned2R": [
+      {
+        "pick": 32,
+        "player": "Rokas Jokubaitis",
+        "holder": "NYK",
+        "UPC": false,
+        "STD": false,
+        "valid_first_RT": "team-signed oneSeason/legalMinYOS0 delivery inside operativeW21, beforeOct15, acceptanceUntilAtLeastOct15; selectedunaccepted",
+        "foreign_or_college_newfacts": "X5/X6 reopens; no perpetual rights, actualNonNBAnotice/date/foreignlawcertificate null"
+      },
+      {
+        "pick": 57,
+        "player": "Balsa Koprivica",
+        "holder": "NYK",
+        "UPC": false,
+        "STD": false,
+        "valid_first_RT": "team-signed oneSeason/legalMinYOS0 delivery inside operativeW21, beforeOct15, acceptanceUntilAtLeastOct15; selectedunaccepted",
+        "foreign_or_college_newfacts": "X5/X6 reopens; no perpetual rights, actualNonNBAnotice/date/foreignlawcertificate null"
+      }
+    ],
+    "new_TW_contracts": [
+      {
+        "player": "Jared Harper",
+        "admitted_YOS": 2,
+        "YOS_less_than_four": true,
+        "stated_seasons": 1,
+        "option": false,
+        "same_NYK_TW_salary_cap_year_count_including_new": 3,
+        "new_bonus_deferred_compensation_loan_advance": 0,
+        "NBAcash": "2021 applicable TwoWay salary function; not TeamSalary0 compensation0",
+        "prior_unaccepted_QO": false,
+        "new_QO_not_issued_family": true,
+        "standard_UPC": false,
+        "actual_receipt": null
+      },
+      {
+        "player": "Theo Pinson",
+        "admitted_YOS": 3,
+        "YOS_less_than_four": true,
+        "stated_seasons": 1,
+        "option": false,
+        "same_NYK_TW_salary_cap_year_count_including_new": 3,
+        "new_bonus_deferred_compensation_loan_advance": 0,
+        "NBAcash": "2021 applicable TwoWay salary function; not TeamSalary0 compensation0",
+        "prior_unaccepted_QO": false,
+        "new_QO_not_issued_family": true,
+        "standard_UPC": false,
+        "actual_receipt": null
+      }
+    ],
+    "rookie_development": "RSCs signed and practice/bench eligibility admitted; Grimes0active/Ayo0inactive only these four coach plans, not a career-wide zero-minute lock. Future role changes remain callable input.",
+    "future2022_RT_boundary": "Reopen at SubsequentDraft/newnotice; four requested games all before that boundary."
+  },
+  "six_cost_categories": {
+    "live": "Retained6 original current-year salary/protection/allocated/likely/unlikely Γ plus 9 valid newlysignedUPCs; TW actualcash separately, CBA TeamSalary treatment preserved.",
+    "waived_former": "Pelle/Vildoza current originalprotectedcharges fully kept; all earlier waived/former salary-year obligations and existingstretch Γ untouched.",
+    "FA_holds": "Originalstilloutstanding named/unselected FA claims held until statutory UPC replacement; signed15 oldgenericFAhold not doublecounted; TW no-QO priorFA amount kept untilTW signing; apron distinct.",
+    "draft_unsigned": "FirstRSC120% unsignedhold only until signedUPC; two2RT legalminimum/youngfloor retained in applicablenormal/apron. No30+30 unnecessary reserve and nounsignedfutureUPC.",
+    "unused_exceptions": "All inherited unusedTPE/MLE/BAE amounts preserved perVII6m2 and statutoryapronadjustments; nofullrenounce or arbitrary0 selected.",
+    "incomplete": "max(0,12−lawfulcapcount)*legalYOS0minimum at eachprefix; unrenouncedFA/unsigned1R counts retained, finalSTD15 gives0 bycount."
+  },
+  "cap_admissibility": {
+    "existing6_VII6a": true,
+    "valid_own_Veteran6_VII6b": true,
+    "valid_own_QO1_VII6b": true,
+    "RSC2_VII6h": true,
+    "new2021_NTMLE_BAE_incoming_SandT_trigger_count": 0,
+    "whole_private_normal_apron_total": null,
+    "scope": "Validoriginal Γ with I1 class or explicit limitedEarly→NB action, validtender and playerconsensualq interval; eachNPCUPC fits its namedCBAexception at every family point. No caproom/apron finance assumed from nulltotal.",
+    "actual_no_other_trigger_or_private_absence_certified": false
+  },
+  "dated_intervening_reported_event_controls": [
+    {
+      "GroupSort": "Signing 1055248",
+      "date": "2022-03-18",
+      "type": "Signing",
+      "player_slug": "feron-hunt",
+      "reported_description": "New York Knicks signed forward Feron Hunt to a Two-Way Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1055243",
+      "date": "2022-03-17",
+      "type": "Waive",
+      "player_slug": "luka-samanic",
+      "reported_description": "New York Knicks waived forward Luka Samanic.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1053658",
+      "date": "2022-02-13",
+      "type": "Signing",
+      "player_slug": "ryan-arcidiacono",
+      "reported_description": "New York Knicks signed guard Ryan Arcidiacono to a Rest-of-Season Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1051953",
+      "date": "2022-01-19",
+      "type": "Signing",
+      "player_slug": "ryan-arcidiacono",
+      "reported_description": "New York Knicks signed guard Ryan Arcidiacono to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1051972",
+      "date": "2022-01-19",
+      "type": "Waive",
+      "player_slug": "solomon-hill",
+      "reported_description": "New York Knicks waived forward Solomon Hill.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021085",
+      "date": "2022-01-13",
+      "type": "Trade",
+      "player_slug": "cam-reddish",
+      "reported_description": "New York Knicks received forward Cam Reddish from Atlanta Hawks.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021085",
+      "date": "2022-01-13",
+      "type": "Trade",
+      "player_slug": "solomon-hill",
+      "reported_description": "New York Knicks received forward Solomon Hill from Atlanta Hawks.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021085",
+      "date": "2022-01-13",
+      "type": "Trade",
+      "player_slug": "",
+      "reported_description": "New York Knicks received draft consideration from Atlanta Hawks.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1050593",
+      "date": "2022-01-06",
+      "type": "Signing",
+      "player_slug": "ryan-arcidiacono",
+      "reported_description": "New York Knicks signed guard Ryan Arcidiacono to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1050574",
+      "date": "2022-01-05",
+      "type": "Waive",
+      "player_slug": "denzel-valentine",
+      "reported_description": "New York Knicks waived guard Denzel Valentine.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1050295",
+      "date": "2022-01-03",
+      "type": "Signing",
+      "player_slug": "ryan-arcidiacono",
+      "reported_description": "New York Knicks signed guard Ryan Arcidiacono to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021078",
+      "date": "2022-01-03",
+      "type": "Trade",
+      "player_slug": "denzel-valentine",
+      "reported_description": "New York Knicks received guard Denzel Valentine from Cleveland Cavaliers.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1050572",
+      "date": "2022-01-03",
+      "type": "Waive",
+      "player_slug": "wayne-selden",
+      "reported_description": "New York Knicks waived guard Wayne Selden.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1049798",
+      "date": "2021-12-31",
+      "type": "Signing",
+      "player_slug": "damyean-dotson",
+      "reported_description": "New York Knicks signed guard Damyean Dotson to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1049799",
+      "date": "2021-12-31",
+      "type": "Signing",
+      "player_slug": "matt-mooney",
+      "reported_description": "New York Knicks signed guard Matt Mooney to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1049110",
+      "date": "2021-12-23",
+      "type": "Signing",
+      "player_slug": "danuel-house-jr",
+      "reported_description": "New York Knicks signed forward Danuel House Jr. to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1048871",
+      "date": "2021-12-21",
+      "type": "Signing",
+      "player_slug": "matt-mooney",
+      "reported_description": "New York Knicks signed guard Matt Mooney to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1048876",
+      "date": "2021-12-21",
+      "type": "Signing",
+      "player_slug": "damyean-dotson",
+      "reported_description": "New York Knicks signed guard Damyean Dotson to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1048683",
+      "date": "2021-12-18",
+      "type": "Signing",
+      "player_slug": "tyler-hall",
+      "reported_description": "New York Knicks signed guard Tyler Hall to a 10-Day Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1044749",
+      "date": "2021-10-16",
+      "type": "Signing",
+      "player_slug": "luka-samanic",
+      "reported_description": "New York Knicks signed forward Luka Samanic to a Two-Way Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044669",
+      "date": "2021-10-16",
+      "type": "Waive",
+      "player_slug": "brandon-goodwin",
+      "reported_description": "New York Knicks waived guard Brandon Goodwin.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044670",
+      "date": "2021-10-16",
+      "type": "Waive",
+      "player_slug": "brandon-knight",
+      "reported_description": "New York Knicks waived guard Brandon Knight.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044671",
+      "date": "2021-10-16",
+      "type": "Waive",
+      "player_slug": "aamir-simms",
+      "reported_description": "New York Knicks waived forward Aamir Simms.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044672",
+      "date": "2021-10-16",
+      "type": "Waive",
+      "player_slug": "mj-walker",
+      "reported_description": "New York Knicks waived guard MJ Walker.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044425",
+      "date": "2021-10-14",
+      "type": "Waive",
+      "player_slug": "dwayne-bacon",
+      "reported_description": "New York Knicks waived guard Dwayne Bacon.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044426",
+      "date": "2021-10-14",
+      "type": "Waive",
+      "player_slug": "myles-powell",
+      "reported_description": "New York Knicks waived guard Myles Powell.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1044142",
+      "date": "2021-10-12",
+      "type": "Waive",
+      "player_slug": "tyler-hall",
+      "reported_description": "New York Knicks waived guard Tyler Hall.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Waive 1043626",
+      "date": "2021-10-03",
+      "type": "Waive",
+      "player_slug": "luca-vildoza",
+      "reported_description": "New York Knicks waived guard Luca Vildoza.",
+      "working_disposition": "ORIGINAL_POSITIVE_WAIVER_ANCHOR_SEPARATE_FICTIONAL_WAIVER_SELECTED",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1043104",
+      "date": "2021-08-26",
+      "type": "Signing",
+      "player_slug": "julius-randle",
+      "reported_description": "New York Knicks re-signed forward Julius Randle to a Veteran Extension.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042992",
+      "date": "2021-08-17",
+      "type": "Signing",
+      "player_slug": "alec-burks",
+      "reported_description": "New York Knicks signed guard Alec Burks to a Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042994",
+      "date": "2021-08-17",
+      "type": "Signing",
+      "player_slug": "derrick-rose",
+      "reported_description": "New York Knicks re-signed guard Derrick Rose to a Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042995",
+      "date": "2021-08-17",
+      "type": "Signing",
+      "player_slug": "taj-gibson",
+      "reported_description": "New York Knicks signed forward Taj Gibson to a Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021017",
+      "date": "2021-08-17",
+      "type": "Trade",
+      "player_slug": "evan-fournier",
+      "reported_description": "New York Knicks received guard Evan Fournier from Boston Celtics.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Trade 2021017",
+      "date": "2021-08-17",
+      "type": "Trade",
+      "player_slug": "",
+      "reported_description": "New York Knicks received draft consideration from Boston Celtics.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042891",
+      "date": "2021-08-10",
+      "type": "Signing",
+      "player_slug": "kemba-walker",
+      "reported_description": "New York Knicks signed guard Kemba Walker to a Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042865",
+      "date": "2021-08-09",
+      "type": "Signing",
+      "player_slug": "nerlens-noel",
+      "reported_description": "New York Knicks re-signed center Nerlens Noel to a Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    },
+    {
+      "GroupSort": "Signing 1042798",
+      "date": "2021-08-08",
+      "type": "Signing",
+      "player_slug": "jericho-sims",
+      "reported_description": "New York Knicks re-signed center Jericho Sims to a Two-Way Contract.",
+      "working_disposition": "ORIGINAL_REPORT_NOT_APPLIED_TO_SELECTED_KEEPER_FAMILY",
+      "actual_execution_or_absence_certified": false
+    }
+  ],
+  "four_date_working_contract_interval": "2021-10-28 through2022-03-28: explicitlyselectedretention/validliveUPC dates, nointerveningKnox/Randleextension/Fournier/Kemba/hardshipNPCtransaction adopted; originalreports independently enumerated, not proof ofactualabsence.",
+  "selected_NYK_role_blocks": [
+    {
+      "start_second": 0,
+      "end_second": 120,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 120,
+      "end_second": 240,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 240,
+      "end_second": 360,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 360,
+      "end_second": 480,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 480,
+      "end_second": 600,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 600,
+      "end_second": 720,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 720,
+      "end_second": 840,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 840,
+      "end_second": 960,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 960,
+      "end_second": 1080,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 1080,
+      "end_second": 1200,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 1200,
+      "end_second": 1320,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Immanuel Quickley",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 1320,
+      "end_second": 1440,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Obi Toppin",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 1440,
+      "end_second": 1560,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 1560,
+      "end_second": 1680,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Obi Toppin",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 1680,
+      "end_second": 1800,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 1800,
+      "end_second": 1920,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Obi Toppin",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 1920,
+      "end_second": 2040,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Immanuel Quickley",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 2040,
+      "end_second": 2160,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Obi Toppin",
+        "C": "Taj Gibson"
+      }
+    },
+    {
+      "start_second": 2160,
+      "end_second": 2280,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Julius Randle",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 2280,
+      "end_second": 2400,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Immanuel Quickley",
+        "SF": "Alec Burks",
+        "PF": "Obi Toppin",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 2400,
+      "end_second": 2520,
+      "seconds": 120,
+      "positions": {
+        "PG": "Immanuel Quickley",
+        "SG": "RJ Barrett",
+        "SF": "Reggie Bullock",
+        "PF": "Julius Randle",
+        "C": "Taj Gibson"
+      }
+    },
+    {
+      "start_second": 2520,
+      "end_second": 2640,
+      "seconds": 120,
+      "positions": {
+        "PG": "Derrick Rose",
+        "SG": "Alec Burks",
+        "SF": "RJ Barrett",
+        "PF": "Obi Toppin",
+        "C": "Mitchell Robinson"
+      }
+    },
+    {
+      "start_second": 2640,
+      "end_second": 2760,
+      "seconds": 120,
+      "positions": {
+        "PG": "Immanuel Quickley",
+        "SG": "RJ Barrett",
+        "SF": "Alec Burks",
+        "PF": "Julius Randle",
+        "C": "Nerlens Noel"
+      }
+    },
+    {
+      "start_second": 2760,
+      "end_second": 2880,
+      "seconds": 120,
+      "positions": {
+        "PG": "Elfrid Payton",
+        "SG": "Immanuel Quickley",
+        "SF": "Reggie Bullock",
+        "PF": "Obi Toppin",
+        "C": "Taj Gibson"
+      }
+    }
+  ],
+  "selected_NYK_role_minutes": {
+    "PG": {
+      "Elfrid Payton": 20,
+      "Derrick Rose": 24,
+      "Immanuel Quickley": 4
+    },
+    "SG": {
+      "RJ Barrett": 14,
+      "Immanuel Quickley": 18,
+      "Alec Burks": 16
+    },
+    "SF": {
+      "RJ Barrett": 18,
+      "Reggie Bullock": 26,
+      "Alec Burks": 4
+    },
+    "PF": {
+      "Julius Randle": 34,
+      "Obi Toppin": 14
+    },
+    "C": {
+      "Mitchell Robinson": 28,
+      "Nerlens Noel": 14,
+      "Taj Gibson": 6
+    }
+  },
+  "role_selection": "Routine coach selection replaces conditional uniform fixture, usual Payton/Barrett/Bullock/Randle/Robinson starters and source-compatible roles; four-date positive11 availability selected, not actual clinical proof.",
+  "historical_old_uniform_role_input": {
+    "metadata_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nyk-keeper-20261007\\pre_plausible_role_metadata.json",
+    "current": false
+  },
+  "selected_ratings": {
+    "Alec Burks": {
+      "effective_rating": 0.3230479267635972,
+      "exact_fraction": "5999/18570",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Alec Burks",
+        "reported_bpm": 0.7,
+        "archive_minutes": 857,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Carter": {
+      "effective_rating": -0.61875,
+      "exact_fraction": "-99/160",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Wendell Carter Jr.",
+        "reported_bpm": -1.4,
+        "archive_minutes": 792,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Caruso": {
+      "effective_rating": -0.2453900709219858,
+      "exact_fraction": "-173/705",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Alex Caruso",
+        "reported_bpm": -0.6,
+        "archive_minutes": 692,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Chris Duarte": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_FICTIONAL_ROOKIE_PRIOR_NOT_OBSERVED_NBA_RATING",
+      "provenance": {
+        "comparators_effective": {
+          "Devin Vassell": -0.07585350713842334,
+          "Aaron Nesmith": -1.1594614809274495,
+          "Josh Green": -1.1140065146579805,
+          "Saddiq Bey": -0.3498249124562281,
+          "Desmond Bane": -0.6358078602620088
+        },
+        "selected_statistic": "median",
+        "working_admissible_comparison_range": [
+          -1.1594614809274495,
+          -0.07585350713842334
+        ],
+        "Duarte_box_input": "D21A",
+        "not_college_BPM_or_NBA_translation_fit": true
+      }
+    },
+    "Denzel Valentine": {
+      "effective_rating": -1.0038394415357765,
+      "exact_fraction": "-2876/2865",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Denzel Valentine",
+        "reported_bpm": -2.4,
+        "archive_minutes": 719,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Derrick Rose": {
+      "effective_rating": 0.18513853904282115,
+      "exact_fraction": "147/794",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Derrick Rose",
+        "reported_bpm": 0.5,
+        "archive_minutes": 588,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Elfrid Payton": {
+      "effective_rating": -1.4984984984984986,
+      "exact_fraction": "-499/333",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Elfrid Payton",
+        "reported_bpm": -3.0,
+        "archive_minutes": 998,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Immanuel Quickley": {
+      "effective_rating": 0.6662034463590883,
+      "exact_fraction": "2397/3598",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Immanuel Quickley",
+        "reported_bpm": 1.5,
+        "archive_minutes": 799,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Julius Randle": {
+      "effective_rating": 2.5632683658170916,
+      "exact_fraction": "17097/6670",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Julius Randle",
+        "reported_bpm": 4.1,
+        "archive_minutes": 1668,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaMelo_pick4": {
+      "effective_rating": 1.4580496780128795,
+      "exact_fraction": "15849/10870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "LaMelo Ball",
+        "reported_bpm": 2.7,
+        "archive_minutes": 1174,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaVine": {
+      "effective_rating": 2.5320095313741064,
+      "exact_fraction": "15939/6295",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Zach LaVine",
+        "reported_bpm": 4.2,
+        "archive_minutes": 1518,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Markkanen": {
+      "effective_rating": 0.24518036664695447,
+      "exact_fraction": "2073/8455",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Lauri Markkanen",
+        "reported_bpm": 0.6,
+        "archive_minutes": 691,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Mitchell Robinson": {
+      "effective_rating": 0.4124593716143012,
+      "exact_fraction": "3807/9230",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Mitchell Robinson",
+        "reported_bpm": 0.9,
+        "archive_minutes": 846,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Nerlens Noel": {
+      "effective_rating": 0.2794871794871795,
+      "exact_fraction": "109/390",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Nerlens Noel",
+        "reported_bpm": 0.6,
+        "archive_minutes": 872,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Obi Toppin": {
+      "effective_rating": -0.7932203389830509,
+      "exact_fraction": "-234/295",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Obi Toppin",
+        "reported_bpm": -2.7,
+        "archive_minutes": 416,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Protagonist": {
+      "effective_rating": -0.5,
+      "exact_fraction": "-1/2",
+      "classification": "SELECTED_FICTIONAL_PRODUCTIVITY_PARAMETER",
+      "provenance": {
+        "prior_BASE": -1.2,
+        "selected_increment": 0.7,
+        "growth_input": "P21A",
+        "not_a_box_to_BPM_fit": true,
+        "existing_LOW_HIGH_stress_bounds": [
+          -3.0,
+          0.3
+        ]
+      }
+    },
+    "RJ Barrett": {
+      "effective_rating": -0.9071146245059288,
+      "exact_fraction": "-459/506",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "RJ Barrett",
+        "reported_bpm": -1.5,
+        "archive_minutes": 1530,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Reggie Bullock": {
+      "effective_rating": -0.6759001440230437,
+      "exact_fraction": "-14079/20830",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Reggie Bullock",
+        "reported_bpm": -1.3,
+        "archive_minutes": 1083,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Satoransky": {
+      "effective_rating": 0.04189424753050552,
+      "exact_fraction": "721/17210",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tomas Satoransky",
+        "reported_bpm": 0.1,
+        "archive_minutes": 721,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Taj Gibson": {
+      "effective_rating": -0.2990990990990991,
+      "exact_fraction": "-166/555",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Taj Gibson",
+        "reported_bpm": -1.2,
+        "archive_minutes": 332,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Tony Bradley": {
+      "effective_rating": 0.6912975912975913,
+      "exact_fraction": "8897/12870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tony Bradley",
+        "reported_bpm": 3.1,
+        "archive_minutes": 287,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Young": {
+      "effective_rating": 1.8749746707193515,
+      "exact_fraction": "9253/4935",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Thaddeus Young",
+        "reported_bpm": 3.8,
+        "archive_minutes": 974,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Coby": {
+      "effective_rating": -2.018204911092295,
+      "exact_fraction": "-4767/2362",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Coby White",
+        "reported_bpm": -3.5,
+        "archive_minutes": 1362,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    }
+  },
+  "selected_games": [
+    {
+      "game_id": "0022100067",
+      "date": "2021-10-28",
+      "home": "CHI",
+      "away": "NYK",
+      "CHI_state": "COBY_OUT",
+      "selected_NYK_date_nomination": {
+        "standard": [
+          "Alec Burks",
+          "Ayo Dosunmu",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Frank Ntilikina",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Kevin Knox II",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "TW": [
+          "Jared Harper",
+          "Theo Pinson"
+        ],
+        "active": [
+          "Alec Burks",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "inactive": [
+          "Ayo Dosunmu",
+          "Frank Ntilikina",
+          "Kevin Knox II"
+        ],
+        "unavailable": [],
+        "positive11_working_availability_selected": true,
+        "zero_minute_clinical_status": null,
+        "actual_NBA_active_or_medical_certificate": false
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Alec Burks",
+            "PF": "Obi Toppin",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Alec Burks",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "NYK": {
+          "Alec Burks": 1200,
+          "Derrick Rose": 1440,
+          "Elfrid Payton": 1200,
+          "Immanuel Quickley": 1320,
+          "Julius Randle": 2040,
+          "Mitchell Robinson": 1680,
+          "Nerlens Noel": 840,
+          "Obi Toppin": 840,
+          "RJ Barrett": 1920,
+          "Reggie Bullock": 1560,
+          "Taj Gibson": 360
+        }
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.7527426172614042,
+        "NYK": 0.8063092835184482
+      },
+      "home_effect_CHI_direction_per100": 2,
+      "back_to_back_model": {
+        "CHI": false,
+        "NYK": false
+      },
+      "fatigue_effect_CHI_direction_per100": 0.0,
+      "exact_CHI_minus_NYK_impact_fraction": "584692012715665894183983025782492504043357339/148157073303736890400465059979453019069723520",
+      "CHI_minus_NYK_impact_per100": 3.9464333337429562,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null,
+      "classification": "DELEGATED_FICTIONAL_REGULATION_WINNER_NOT_ACTUAL_GAME"
+    },
+    {
+      "game_id": "0022100250",
+      "date": "2021-11-21",
+      "home": "CHI",
+      "away": "NYK",
+      "CHI_state": "NORMAL",
+      "selected_NYK_date_nomination": {
+        "standard": [
+          "Alec Burks",
+          "Ayo Dosunmu",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Frank Ntilikina",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Kevin Knox II",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "TW": [
+          "Jared Harper",
+          "Theo Pinson"
+        ],
+        "active": [
+          "Alec Burks",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "inactive": [
+          "Ayo Dosunmu",
+          "Frank Ntilikina",
+          "Kevin Knox II"
+        ],
+        "unavailable": [],
+        "positive11_working_availability_selected": true,
+        "zero_minute_clinical_status": null,
+        "actual_NBA_active_or_medical_certificate": false
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Alec Burks",
+            "PF": "Obi Toppin",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Alec Burks",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "NYK": {
+          "Alec Burks": 1200,
+          "Derrick Rose": 1440,
+          "Elfrid Payton": 1200,
+          "Immanuel Quickley": 1320,
+          "Julius Randle": 2040,
+          "Mitchell Robinson": 1680,
+          "Nerlens Noel": 840,
+          "Obi Toppin": 840,
+          "RJ Barrett": 1920,
+          "Reggie Bullock": 1560,
+          "Taj Gibson": 360
+        }
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "NYK": 0.8063092835184482
+      },
+      "home_effect_CHI_direction_per100": 2,
+      "back_to_back_model": {
+        "CHI": false,
+        "NYK": true
+      },
+      "fatigue_effect_CHI_direction_per100": 0.5,
+      "exact_CHI_minus_NYK_impact_fraction": "2048396399545581468139514597759361091813337/532301941741265937443374988472348097633920",
+      "CHI_minus_NYK_impact_per100": 3.8481850974371197,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null,
+      "classification": "DELEGATED_FICTIONAL_REGULATION_WINNER_NOT_ACTUAL_GAME"
+    },
+    {
+      "game_id": "0022100328",
+      "date": "2021-12-02",
+      "home": "NYK",
+      "away": "CHI",
+      "CHI_state": "COBY_OUT",
+      "selected_NYK_date_nomination": {
+        "standard": [
+          "Alec Burks",
+          "Ayo Dosunmu",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Frank Ntilikina",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Kevin Knox II",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "TW": [
+          "Jared Harper",
+          "Theo Pinson"
+        ],
+        "active": [
+          "Alec Burks",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "inactive": [
+          "Ayo Dosunmu",
+          "Frank Ntilikina",
+          "Kevin Knox II"
+        ],
+        "unavailable": [],
+        "positive11_working_availability_selected": true,
+        "zero_minute_clinical_status": null,
+        "actual_NBA_active_or_medical_certificate": false
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Alec Burks",
+            "PF": "Obi Toppin",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Alec Burks",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "NYK": {
+          "Alec Burks": 1200,
+          "Derrick Rose": 1440,
+          "Elfrid Payton": 1200,
+          "Immanuel Quickley": 1320,
+          "Julius Randle": 2040,
+          "Mitchell Robinson": 1680,
+          "Nerlens Noel": 840,
+          "Obi Toppin": 840,
+          "RJ Barrett": 1920,
+          "Reggie Bullock": 1560,
+          "Taj Gibson": 360
+        }
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.7527426172614042,
+        "NYK": 0.8063092835184482
+      },
+      "home_effect_CHI_direction_per100": -2,
+      "back_to_back_model": {
+        "CHI": false,
+        "NYK": false
+      },
+      "fatigue_effect_CHI_direction_per100": 0.0,
+      "exact_CHI_minus_NYK_impact_fraction": "-7936280499281667417877214135319572235536741/148157073303736890400465059979453019069723520",
+      "CHI_minus_NYK_impact_per100": -0.053566666257043934,
+      "selected_regulation_winner": "NYK",
+      "score": null,
+      "overtime_selection": null,
+      "classification": "DELEGATED_FICTIONAL_REGULATION_WINNER_NOT_ACTUAL_GAME"
+    },
+    {
+      "game_id": "0022101126",
+      "date": "2022-03-28",
+      "home": "NYK",
+      "away": "CHI",
+      "CHI_state": "NORMAL",
+      "selected_NYK_date_nomination": {
+        "standard": [
+          "Alec Burks",
+          "Ayo Dosunmu",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Frank Ntilikina",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Kevin Knox II",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "TW": [
+          "Jared Harper",
+          "Theo Pinson"
+        ],
+        "active": [
+          "Alec Burks",
+          "Derrick Rose",
+          "Elfrid Payton",
+          "Immanuel Quickley",
+          "Julius Randle",
+          "Mitchell Robinson",
+          "Nerlens Noel",
+          "Obi Toppin",
+          "Quentin Grimes",
+          "RJ Barrett",
+          "Reggie Bullock",
+          "Taj Gibson"
+        ],
+        "inactive": [
+          "Ayo Dosunmu",
+          "Frank Ntilikina",
+          "Kevin Knox II"
+        ],
+        "unavailable": [],
+        "positive11_working_availability_selected": true,
+        "zero_minute_clinical_status": null,
+        "actual_NBA_active_or_medical_certificate": false
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Immanuel Quickley",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Julius Randle",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Alec Burks",
+            "PF": "Obi Toppin",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Reggie Bullock",
+            "PF": "Julius Randle",
+            "C": "Taj Gibson"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Derrick Rose",
+            "SG": "Alec Burks",
+            "SF": "RJ Barrett",
+            "PF": "Obi Toppin",
+            "C": "Mitchell Robinson"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Immanuel Quickley",
+            "SG": "RJ Barrett",
+            "SF": "Alec Burks",
+            "PF": "Julius Randle",
+            "C": "Nerlens Noel"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NYK": {
+            "PG": "Elfrid Payton",
+            "SG": "Immanuel Quickley",
+            "SF": "Reggie Bullock",
+            "PF": "Obi Toppin",
+            "C": "Taj Gibson"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "NYK": {
+          "Alec Burks": 1200,
+          "Derrick Rose": 1440,
+          "Elfrid Payton": 1200,
+          "Immanuel Quickley": 1320,
+          "Julius Randle": 2040,
+          "Mitchell Robinson": 1680,
+          "Nerlens Noel": 840,
+          "Obi Toppin": 840,
+          "RJ Barrett": 1920,
+          "Reggie Bullock": 1560,
+          "Taj Gibson": 360
+        }
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "NYK": 0.8063092835184482
+      },
+      "home_effect_CHI_direction_per100": -2,
+      "back_to_back_model": {
+        "CHI": false,
+        "NYK": true
+      },
+      "fatigue_effect_CHI_direction_per100": 0.5,
+      "exact_CHI_minus_NYK_impact_fraction": "-80811367419482281633985356130031298722343/532301941741265937443374988472348097633920",
+      "CHI_minus_NYK_impact_per100": -0.15181490256288033,
+      "selected_regulation_winner": "NYK",
+      "score": null,
+      "overtime_selection": null,
+      "classification": "DELEGATED_FICTIONAL_REGULATION_WINNER_NOT_ACTUAL_GAME"
+    }
+  ],
+  "butterfly_handoff": [
+    "Payton notPHX, Bullock/Ntilikina notDAL: revise their subsequentNPCfamily before thoseleagueeffects are consumed.",
+    "NoKembaNYK buyout/signing copied from selectedOKCAP1; noFournierBOS→NYK SandT/2023pick/cash inherited.",
+    "NooriginalNYKdraft19/21/58 transactions; currentselected20/23/32/57 holders unchanged.",
+    "NoKnoxATL/CamReddishSolomonHillNYK orCHAconditional1R expenditure automatically executed; olderHolddigest preserved."
+  ],
+  "summary": {
+    "selected_games": 4,
+    "CHI_wins": 2,
+    "NYK_wins": 2,
+    "STD": 15,
+    "TW": 2,
+    "active": 12,
+    "positive_NYK": 11,
+    "new_UPCs": 9,
+    "new_TW_UPCs": 2,
+    "removed_zero_STD": 2,
+    "signed_existing_draft1R": 2,
+    "unsigned2R": 2,
+    "paired_elapsed_seconds_each": 2880,
+    "team_player_seconds_each": 14400,
+    "typed_reported_event_rows": 37,
+    "whole82_results_certified": false
+  },
+  "remaining_ports": {
+    "next_chronological_unjoined_key": "0022100083",
+    "opponent": "UTA",
+    "date": "2021-10-30",
+    "requires": "Use selectedsourceparent and newnamedlawfulUTA interval beforeownregulationwinner; no firstseasonhistoryautomaticclone.",
+    "whole2022_standings_picks_and_future_contract_choices": false
+  },
+  "certification": {
+    "selected_fictional_lawful_NPC_family": true,
+    "selected_working_positive_availability_and_result": true,
+    "independent_review_completed": false,
+    "actual_contract_medical_receipt_or_exactprice": false,
+    "wholeprivate_teamcost": false,
+    "new_important_author_lock": false,
+    "whole82_macro3": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false
+  }
+}
