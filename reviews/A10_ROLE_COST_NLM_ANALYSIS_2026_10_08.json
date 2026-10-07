@@ -1,0 +1,76 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "6153835f-1689-4533-98d0-6001b83780d8"
+  ],
+  "question_sha256": "8e12dd367c6c851c3b517d4ce54a8f60da488352e30b84a47fd8cec58aabfde9",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 103.504,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "|구분|조건부 가상모델 비용|NBA 경기·자격 미완료 입력|\n|---|---|---|\n|**A10-S1**|직접창조 실패(6→2초)/재시도(3→5초)[1]|game_id/일자/상대 null, 첫 옵션 미검문[2, 3]|\n|**S2**|LaVine 온볼 3초 양보(P 수비)[4]|GAME1/NOM1 및 감독 선택 미완료[3]|\n|**S3**|Jaquez 배분 시 베테랑·벤치 분 삭감[5]|QUAL1 미완료, 우승·Finals 자격 null[3, 6]|\n\n**오독 지적 문구**: **\"2024–25 미래 역할과 2026 첫 Finals/2027 MVP/2028 우승 추천을 여기서 승인하지 않는다\"**[3]며 연습을 실제 성공·우승 자격으로 읽는 것을 배제합니다[3, 5].",
+      "question": "지정 사본만 읽고 400자 이내 표로 A10-S1 직접창조 실패/재시도, S2 LaVine 잔류 클로징 비용, S3 베테랑/벤치 비용과 각 NBA game/자격의 미완료 입력을 분리. 연습8초·24블록240분을 실제NBA성공/전체시즌/우승 자격으로 읽은 문구가 있으면1개지적. suppliedfictionalmodel 분석이며 원문/임상/실제경기인증 금지. 조건부와 실제선택/검문을 구분.",
+      "conversation_id": "78a52ce5-fef8-4068-8452-8ccbb1c36bcd",
+      "sources_used": [
+        "6153835f-1689-4533-98d0-6001b83780d8"
+      ],
+      "citations": {
+        "1": "6153835f-1689-4533-98d0-6001b83780d8",
+        "2": "6153835f-1689-4533-98d0-6001b83780d8",
+        "3": "6153835f-1689-4533-98d0-6001b83780d8",
+        "4": "6153835f-1689-4533-98d0-6001b83780d8",
+        "5": "6153835f-1689-4533-98d0-6001b83780d8",
+        "6": "6153835f-1689-4533-98d0-6001b83780d8"
+      },
+      "references": [
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 1,
+          "cited_text_sha256": "af9739de32d0779669d7873eae97f82521a32ec3c7d828e621a19ef4d7b0a897",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 2,
+          "cited_text_sha256": "3b7cc4d08ad80859ec38281c7831b974779ffced03a6b7d520f008c712c0c49e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 3,
+          "cited_text_sha256": "3deda9bb1c8b229a266f2d72b297fde75936b9aee4bc9cdbbc53e823564bb45a",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 4,
+          "cited_text_sha256": "fad0b5f5c848be9405d51ff3ce02322f8bd0a35b4426e94668052a8bf1cf76f0",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 5,
+          "cited_text_sha256": "6ece88c869b452b6d941c9e755399b45560827a7e0d87d999f0a7302cc36ead2",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6153835f-1689-4533-98d0-6001b83780d8",
+          "citation_number": 6,
+          "cited_text_sha256": "bd7ad28fad6f72ca6702c8e50fcdcc9b8c3bbe35bd51457ada8b15bd77bd635f",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

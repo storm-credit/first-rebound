@@ -1,0 +1,95 @@
+{
+  "tool": "Antigravity",
+  "scope": "OFFICIAL_HISTORICAL_SCHEDULE_COLLECTION_ONLY_NOT_FICTIONAL_NPC_CURRENT_OWNERSHIP",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 44.305,
+    "budget_seconds": 110,
+    "stdout_sha256": "3e5ddb2788f8839edd6c148e7ae7faba123c89ece8107d900f82d99e00effb7c",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "e6425b9b-d315-4182-9c73-d36ddff3837e",
+      "status": "SUCCESS",
+      "response": "**BODY_READ**\n\nOfficial source verification:\n- **Game Matchup**: Chicago Bulls at New Orleans Pelicans\n- **Date**: October 23, 2024 (`startDate: 2024-10-23T20:00:00-04:00`)\n- **Game ID**: `0022400069`\n- **Official URL**: [https://www.nba.com/game/chi-vs-nop-0022400069](https://www.nba.com/game/chi-vs-nop-0022400069)\n\nConfirmed via official NBA.com schema/metadata (`SportsEvent` JSON-LD payload identifying away team Chicago Bulls, home team New Orleans Pelicans, event date `2024-10-23`, and game ID `0022400069`).\n",
+      "duration_seconds": 36.2508932,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "47cc2dad1226698cc772bcd1754a791f8eee8bb1482f813b97b4f270ead7a069"
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "ERROR",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "3e5ddb2788f8839edd6c148e7ae7faba123c89ece8107d900f82d99e00effb7c",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "**BODY_READ**\n\nOfficial source verification:\n- **Game Matchup**: Chicago Bulls at New Orleans Pelicans\n- **Date**: October 23, 2024 (`startDate: 2024-10-23T20:00:00-04:00`)\n- **Game ID**: `0022400069`\n- **Official URL**: [https://www.nba.com/game/chi-vs-nop-0022400069](https://www.nba.com/game/chi-vs-nop-0022400069)\n\nConfirmed via official NBA.com schema/metadata (`SportsEvent` JSON-LD payload identifying away team Chicago Bulls, home team New Orleans Pelicans, event date `2024-10-23`, and game ID `0022400069`).\n",
+      "char_count": 518,
+      "sha256": "19e28676d8f8ba034e2be455940214b5844f8ea8228b3ac750d11ca77b66a38c",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_body_independently_certified_by_this_wrapper": false,
+  "prompt_sha256": "3777f3ac0aa87da8be5d2da3573ab8167f66c327491ed61dbcf6271c7cac4d95",
+  "persistent_auth_settings_changed": false
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "A06_BLUEPRINT_ROOT_INDEPENDENT_REVIEW_V1",
+  "independent_review_completed": true,
+  "reviewer": "ROOT_INDEPENDENT_FROM_G11_WRITER",
+  "verdict": "SOURCE_BOUND_LOCAL_A06_EF001_BLUEPRINT_ACCEPTED",
+  "qualified_blueprint_status": "ACTUAL_VERIFIED",
+  "qualified_scope": "CURRENT_CANON_PATH_REVISION_CORE_STATE_AND_INFORMATION_BOUNDARY_FOR_EXISTING_LOCAL_FUNCTION_ONLY",
+  "source_sha256": {
+    "tools/build_a06_local_blueprint_bundle.py": "28d7e13f05e41753b3e4ecb69a750114965174f49db44deb8a91fc80b5bc8a2d",
+    "design/A06_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.json": "80ae9cd6dccdac4fbd820f08fd89863018d444548f5eac861d2fe6bc92894a53",
+    "design/A06_LOCAL_BLUEPRINT_BUNDLE_2026_10_08.md": "72da6e4f8c13c0fc5e852db8b9e4846d42fcdd050ae2212acc126180f783d491",
+    "design/G13_VERIFIED_BLUEPRINT_FINITE_BUILD_QUEUE_2026_10_08.json": "2a318281c77158687ced14a5cf6ad5c07243079189b2631a3f5db048279af84d",
+    "design/G13_VERIFIED_BLUEPRINT_FINITE_BUILD_QUEUE_2026_10_08.md": "041146239750eed90a8b85e069fcb99f6e34a6e60ea271c89d449d8039e62369"
+  },
+  "source_generation_pending_flags_preserved_as_history": true,
+  "new_author_lock": false,
+  "new_episode_functions": 0,
+  "checks": {
+    "source_fields_and_two_beat_order_exact": true,
+    "A05_exact_exit_to_A06_entry": true,
+    "current_role_and_career_anchor_projection_match": true,
+    "historical_commit_source_SHAs_verified": true,
+    "stable_source_pins_current": true,
+    "reviewed_queue_count": 36,
+    "embedded_existing_count": 22,
+    "embedded22_current_authority_fully_recertified_by_this_review": false,
+    "later_actual_blueprint_gaps": 13
+  },
+  "independent_counterexamples": [
+    {
+      "case": "historical_SHA_corruption",
+      "final_result": "REJECTED",
+      "diagnostic": [
+        "Historical snapshot does not match committed file: canon/STORY_BIBLE.md"
+      ],
+      "initial_result": "FALSE_PASS"
+    },
+    {
+      "case": "unearned_POV",
+      "final_result": "REJECTED",
+      "diagnostic": [
+        ""
+      ],
+      "initial_result": "REJECTED"
+    },
+    {
+      "case": "whole_G13_promotion",
+      "final_result": "REJECTED",
+      "diagnostic": [
+        ""
+      ],
+      "initial_result": "REJECTED"
+    }
+  ],
+  "repair_scope": "Validate preserved historical snapshot against actual git committed file hashes; do not reinterpret a caller-supplied snapshot as its own expected evidence. Current relevant Canon projections remain mandatory.",
+  "information_boundary": {
+    "global_style_direction": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "individual_scene_pov_verified": false,
+    "protagonist_may_access": [
+      "본인에게 전달된 역할 설명",
+      "허용된 코트·영상 관측",
+      "자기 운반·이양·다음 위치 행동"
+    ],
+    "no_access_without_new_witness": [
+      "동료·코치의 비공개 속마음",
+      "프런트 내부 평가",
+      "미래 선발·분·효율·득점·승리"
+    ],
+    "exact_dialogue": null,
+    "exact_game_or_training_date": null
+  },
+  "limits": {
+    "individual_scene_POV_verified": false,
+    "exact_calendar_or_private_clinical_certified": false,
+    "NBA_success_or_teammate_scoring_certified": false,
+    "whole_Act_G13_G14_complete": false,
+    "actual_context_packs": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  },
+  "next": "13 remaining source-bound local Blueprints; later Act exits and global function/history lock before actual Pack generation"
+}

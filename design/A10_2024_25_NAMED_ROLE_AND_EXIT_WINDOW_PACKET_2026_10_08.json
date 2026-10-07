@@ -1,0 +1,1758 @@
+{
+  "schema": "A10_NAMED_ROLE_AND_EXIT_WINDOW_PACKET_V1",
+  "status": "PREPARED_FINITE_COACH_AND_PRACTICE_CANDIDATES_WITH_EXPLICIT_NBA_AND_QUALIFICATION_PORTS",
+  "baseline_main": "d17c4d46a44856906119dfffeab476f803aa086b",
+  "source_sha256": {
+    "control/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.json": "a61af318fd1e365fcd127b6eaf88118ea6c50a02a57a43246746e80e21b79eb0",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A10_E1_FINAL_EPISODE_FUNCTION.json": "78f109d927d07e111f06a9bcb277cd0d7ecdfb867a184c6761f2dfe2d433eaf8",
+    "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95",
+    "design/A10_LIMITED_CREATION_CLOSING_WORKING_FAMILY_2026_10_07.json": "caabcd6b0341d090a0a0144f52a52f8ad45424e987940a30797fa1ace957c45a",
+    "research/CHICAGO_2024_25_A10_NAMED_ROLE_WINDOW_COST_FAMILY_2026_10_08.json": "af4f3b340841251a50646fb05aeefcc415e95c4fc07b3c2e02e3f9af8bb14bb1",
+    "canon/DELEGATED_CHICAGO_2024_A10_ROUTINE_RENEWAL_SELECTION_2026_10_08.json": "a6e9c297f5377dea04ece760a9a6ff259572dd465b78498b7d76cafdf7ab7c25",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "reviews/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION_DEN_INDEPENDENT_REVIEW_2026_10_08.json": "9d3485811fe67139896f322b52ae699c7bf418d53029e6035a4438a5fcf517c3",
+    "reviews/A10_E1_FINAL_EPISODE_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "109cd23a60515d59d07c5b38f41f1a4fc3f2cfac89d889c6bb1648cd32cfbf6e",
+    "reviews/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "ab99e06a18d6e41d83e52d1be309c79b2e515fa91b201d426ffa2c10de714567"
+  },
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_meaning": {
+    "original_A10_CP2_act": {
+      "id": "A10",
+      "window": "2024–25",
+      "title": "마지막 다섯 분",
+      "planned_units": 70,
+      "allocation_start": 513,
+      "allocation_end": 582,
+      "category": "NBA",
+      "question": "공격 첫 선택지가 될 준비가 됐는가",
+      "choice": "짧은 자가 창조와 더 나은 다음 선택을 결합",
+      "cost": "LaVine과 클로징 권한·수비 부담",
+      "exit_state": "최우선 코어 후보, 우승 자격 시험",
+      "methods": [
+        "BACKWARDS_PLOTTING",
+        "PLANT_AND_PAYOFF"
+      ],
+      "NBA_content_allocation": {
+        "regular": 32,
+        "postseason": 26,
+        "offseason": 12,
+        "national_team": 0
+      },
+      "status": "CP2_PROVISIONAL_NOT_EPISODE_OUTLINE"
+    },
+    "original_three_subact_exit_requirements": [
+      {
+        "id": "A10-S1",
+        "act": "A10",
+        "source_cp2_status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "entry": "전환이 막히면 주도권 반납",
+        "choice": "전환이 막혀도 즉시 공을 반납하는 데 그치지 않고 늦은 시계에서 가능한 짧은 자가 창조를 시험한다",
+        "cost": "짧은 자가 창조 반복",
+        "source_cp2_exit": "첫 선택지의 공격 증거",
+        "local_function_witness": [
+          {
+            "id": "A10-EF-001",
+            "path": "design/A10_E1_FINAL_EPISODE_FUNCTION.json",
+            "record_pointer": "",
+            "local_exact_exit": "짧은 직접 공격과 중단할 조건을 시험하지만 첫 옵션 지위와 효율은 별도 증명이 필요하다",
+            "reviewed_register": true
+          }
+        ],
+        "local_route_state": "CURRENT_REGISTER_REVIEWED",
+        "bounded_exit_support": "FUNCTION_ROUTE_PRESENT_EXIT_MEANING_NOT_YET_JOINED",
+        "exit_handoff": {
+          "local_exact_exit": "짧은 직접 공격과 중단할 조건을 시험하지만 첫 옵션 지위와 효율은 별도 증명이 필요하다",
+          "next_subact_or_integration": "A10-S2",
+          "exact_cp2_entry_equivalence_claimed": false
+        },
+        "missing_finite_action_for_whole_exit": [
+          "If claiming first-option NBA performance, join the failed short creation and retry to one authorized future game role rather than counting the practice design as an NBA season."
+        ],
+        "local_design_route_complete_if_root_accepts_A14": true,
+        "actual_historical_exit_certified_by_this_audit": false
+      },
+      {
+        "id": "A10-S2",
+        "act": "A10",
+        "source_cp2_status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "entry": "승계를 기존 간판 퇴장으로 읽음",
+        "choice": "LaVine의 퇴장을 전제로 자기 승계를 요구하지 않고 관측된 강점에 따라 클로징 역할을 조정할 근거를 제시한다",
+        "cost": "클로징 권한 재배분",
+        "source_cp2_exit": "공동 에이스에서 최우선 코어로",
+        "local_function_witness": [
+          {
+            "id": "A10-EF-002",
+            "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+            "record_pointer": "/functions/0",
+            "local_exact_exit": "공격 확장과 수비 책임을 함께 시험하지만 혼자 동료의 모든 부담을 지우는 해법은 갖지 못한다",
+            "reviewed_register": true
+          }
+        ],
+        "local_route_state": "CURRENT_REGISTER_REVIEWED",
+        "bounded_exit_support": "FUNCTION_ROUTE_PRESENT_EXIT_MEANING_NOT_YET_JOINED",
+        "exit_handoff": {
+          "local_exact_exit": "공격 확장과 수비 책임을 함께 시험하지만 혼자 동료의 모든 부담을 지우는 해법은 갖지 못한다",
+          "next_subact_or_integration": "A10-S3",
+          "exact_cp2_entry_equivalence_claimed": false
+        },
+        "missing_finite_action_for_whole_exit": [
+          "Show one lawful coach role allocation with LaVine still present and a visible loss of closing/on-ball time; no LaVine departure premise."
+        ],
+        "local_design_route_complete_if_root_accepts_A14": true,
+        "actual_historical_exit_certified_by_this_audit": false
+      },
+      {
+        "id": "A10-S3",
+        "act": "A10",
+        "source_cp2_status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+        "entry": "1옵션 성립을 우승으로 오인",
+        "choice": "첫 선택지의 공격이 통해도 우승을 선언하지 않고 베테랑·벤치가 지불하는 역할 비용을 다음 보강 과제로 남긴다",
+        "cost": "베테랑·벤치 역할 비용",
+        "source_cp2_exit": "첫 우승창의 미완성",
+        "local_function_witness": [
+          {
+            "id": "A10-EF-003",
+            "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+            "record_pointer": "/functions/1",
+            "local_exact_exit": "자기 공격과 동료 기능의 공백을 함께 다음 준비에 가져가지만 우승 자격·최우선 권한·팀 결과는 확정되지 않는다",
+            "reviewed_register": true
+          }
+        ],
+        "local_route_state": "CURRENT_REGISTER_REVIEWED",
+        "bounded_exit_support": "FUNCTION_ROUTE_PRESENT_EXIT_MEANING_NOT_YET_JOINED",
+        "exit_handoff": {
+          "local_exact_exit": "자기 공격과 동료 기능의 공백을 함께 다음 준비에 가져가지만 우승 자격·최우선 권한·팀 결과는 확정되지 않는다",
+          "next_subact_or_integration": "A11-S1",
+          "exact_cp2_entry_equivalence_claimed": false
+        },
+        "missing_finite_action_for_whole_exit": [
+          "To claim a championship-eligible Act exit, choose a source-supported team/series window and veteran/bench cost. A successful local rehearsal alone grants no title or berth."
+        ],
+        "local_design_route_complete_if_root_accepts_A14": true,
+        "actual_historical_exit_certified_by_this_audit": false
+      }
+    ],
+    "original_Act_boundary": {
+      "id": "A10",
+      "source_cp2_choice": "짧은 자가 창조와 더 나은 다음 선택을 결합",
+      "source_cp2_cost": "LaVine과 클로징 권한·수비 부담",
+      "source_cp2_exit": "최우선 코어 후보, 우승 자격 시험",
+      "registered_or_pending_function_ids": [
+        "A10-EF-001",
+        "A10-EF-002",
+        "A10-EF-003"
+      ],
+      "subact_routes": 3,
+      "boundary_assessment": "THREE_LOCAL_DESIGNS_REGISTERED_ACT_PERFORMANCE_HOLD",
+      "bounded_evidence_or_limit": "Short creation, closing-role coexistence and veteran-cost rehearsal are chosen local designs, not selected 2024–25 NBA first-option or title eligibility.",
+      "finite_remaining_act_exit_action": "One lawful future team-role/game window with visible shared closing cost, then a separately selected qualification route if claiming the full Act exit.",
+      "act_historical_exit_certified_by_this_audit": false
+    },
+    "audit_historical_structure_preserved": {
+      "acts": 14,
+      "subacts": 42,
+      "old_audit_function_count_is_not_current_count": true
+    },
+    "current_selected_contracts": {
+      "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+      "selected_form": "Y24_KEEP5_MINIMUM",
+      "live10": [
+        {
+          "player": "Lauri Markkanen",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 21080000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Alex Caruso",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 9890000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Wendell Carter Jr.",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 11950000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Protagonist",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 25520000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Zach LaVine",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 43031940,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Coby White",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 12000000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Chris Duarte",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 6133005,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Walker Kessler",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 3510480,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "LaMelo Ball",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": "C24/4 or3*C24/10 onlylawfulHigherMax",
+          "C24": 140588000,
+          "first_extension_year": true,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2028,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Jaime Jaquez Jr.",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": "6/5*S23(16,2)",
+          "rookie_signing_scale_year": 2023,
+          "minimum": "M_2023_signing_scale(serviceYOS1,Year2)",
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        }
+      ],
+      "new_minimum5": [
+        {
+          "player": "Thaddeus Young",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 10,
+          "credited_service_condition": ">=10",
+          "salary": "M24(10,Year1)",
+          "YOS10_plus_uses10_scale": true,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(10,Year1)",
+          "normal_fullcash_upper": "M24(10,Year1)",
+          "apron_fullcash_upper": "M24(10,Year1)"
+        },
+        {
+          "player": "Javonte Green",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 5,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(5,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(5,Year1)",
+          "normal_fullcash_upper": "M24(5,Year1)",
+          "apron_fullcash_upper": "M24(5,Year1)"
+        },
+        {
+          "player": "Joe Wieskamp",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 3,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(3,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(3,Year1)",
+          "normal_fullcash_upper": "M24(3,Year1)",
+          "apron_fullcash_upper": "M24(3,Year1)"
+        },
+        {
+          "player": "Denzel Valentine",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 8,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(8,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(8,Year1)",
+          "normal_fullcash_upper": "M24(8,Year1)",
+          "apron_fullcash_upper": "M24(8,Year1)"
+        },
+        {
+          "player": "Tomas Satoransky",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 8,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(8,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(8,Year1)",
+          "normal_fullcash_upper": "M24(8,Year1)",
+          "apron_fullcash_upper": "M24(8,Year1)"
+        }
+      ],
+      "STD": 15,
+      "TW": 0,
+      "cost_family": {
+        "base_fixed8_upper": 133115425,
+        "LM24_ordinary_reference_not_award_selection": 35147000,
+        "LM24_ordinary_or_lawful_HigherMax": "35147000 or42176400 onlyII7lawfulqualification; awardoutcome notselected",
+        "Jaquez_Year2": "6/5*S23(16,2)",
+        "five_new_minimum_cash": "M24(10)+M24(5)+M24(3)+2*M24(8)",
+        "normal_apron_fullcash_outer": "133115425+LM24+6/5*S23(16,2)+M24(10)+M24(5)+M24(3)+2*M24(8)+R24+D24_N_or_A",
+        "before_renewal_normal_FA_outer": "Young max150/190%*8m<=15.2m subjectmax/min; four expiredminimum FAholds countednonreimbursedcurrentminimum<=fullM24; Dotson/Cook completedTW FAhold M24(0) each untilvalidrenounce",
+        "before_renewal_apron_FA": "UFAholds excluded; old QO expiredOct2_2023 doesnotdeleteFA/ROFR; no newQO/MaximumQO/OfferSheet/FRN selected in candidateframe",
+        "R24_interval": [
+          0,
+          16371000
+        ],
+        "R24_original_scope": "Preserve original valid stretch allocation inside admitted public inventory; ordinary13 salary endpoints alreadyexpired; no newFY24settlement/resolution/stretch selected; not all private absence proof",
+        "D24_N_and_A": "Nonnegative typedcurrent2024unsigneddraft/RT claim port if existingownedrights; unknownnot0, no2024newUPC orrosterslot chosen",
+        "D24_actual_amount": null,
+        "unused_exceptions_after_selected_renunciation": 0,
+        "zero_is_actual_original_owed_payment": false,
+        "Tax": "Actual Tax has finalregular audit/adjustments; fullplayercashplusR24 is conservative componentouter, FA/RT notcash",
+        "new_salary_cash": "NewcandidatefivepositiveM24 cash; expired8m/oldminimum notnewFY24Salary but oldpaymentobligations preserved in correct year/frame",
+        "new_hardcap_trigger": false,
+        "over_apron_is_automatic_illegality": false,
+        "whole_actual_private_FY24_ledger": false
+      },
+      "valid_original_Gamma_R24_and_D24_preserved": true
+    },
+    "prior_selected_private_functions": {
+      "first": {
+        "path": "design/A10_E1_FINAL_EPISODE_FUNCTION.json",
+        "id": "A10-EF-001",
+        "exit": "짧은 직접 공격과 중단할 조건을 시험하지만 첫 옵션 지위와 효율은 별도 증명이 필요하다",
+        "failure_remaining_seconds": 2,
+        "retry_remaining_seconds": 5,
+        "NBA_game": false
+      },
+      "next": [
+        {
+          "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json#/functions/0",
+          "id": "A10-EF-002",
+          "exit": "공격 확장과 수비 책임을 함께 시험하지만 혼자 동료의 모든 부담을 지우는 해법은 갖지 못한다"
+        },
+        {
+          "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json#/functions/1",
+          "id": "A10-EF-003",
+          "exit": "자기 공격과 동료 기능의 공백을 함께 다음 준비에 가져가지만 우승 자격·최우선 권한·팀 결과는 확정되지 않는다"
+        }
+      ]
+    },
+    "pending_flags_in_original_generation_are_historical": true
+  },
+  "role_candidates": [
+    {
+      "id": "A_CONTINUITY_JAQUEZ4",
+      "classification": "NEW_FICTIONAL_ROUTINE_COACH_ROLE_CANDIDATE_NOT_SELECTED",
+      "player_minutes": {
+        "LaMelo Ball": 32,
+        "Zach LaVine": 32,
+        "Protagonist": 34,
+        "Lauri Markkanen": 32,
+        "Wendell Carter Jr.": 28,
+        "Chris Duarte": 14,
+        "Walker Kessler": 16,
+        "Alex Caruso": 20,
+        "Coby White": 16,
+        "Thaddeus Young": 12,
+        "Jaime Jaquez Jr.": 4
+      },
+      "position_minutes": {
+        "PG": {
+          "LaMelo Ball": 32,
+          "Alex Caruso": 12,
+          "Coby White": 4
+        },
+        "SG": {
+          "Zach LaVine": 32,
+          "Coby White": 12,
+          "Alex Caruso": 4
+        },
+        "SF": {
+          "Protagonist": 26,
+          "Chris Duarte": 14,
+          "Alex Caruso": 4,
+          "Jaime Jaquez Jr.": 4
+        },
+        "PF": {
+          "Lauri Markkanen": 32,
+          "Protagonist": 8,
+          "Thaddeus Young": 8
+        },
+        "C": {
+          "Wendell Carter Jr.": 28,
+          "Walker Kessler": 16,
+          "Thaddeus Young": 4
+        }
+      },
+      "blocks": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "quarter": 2,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "quarter": 2,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "quarter": 3,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "quarter": 3,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "quarter": 3,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Alex Caruso",
+            "PF": "Thaddeus Young",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "quarter": 4,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Alex Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "quarter": 4,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "quarter": 4,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Alex Caruso",
+            "PF": "Protagonist",
+            "C": "Thaddeus Young"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        }
+      ],
+      "clock_digest": "e10f2abd532b8386c0555ffb1590b58a6c10933c7e5e470e046c649ecacc9793",
+      "standard_membership_source": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json#/execution/post_signature_named_STD",
+      "nomination_candidate": {
+        "active": [
+          "LaMelo Ball",
+          "Zach LaVine",
+          "Protagonist",
+          "Lauri Markkanen",
+          "Wendell Carter Jr.",
+          "Chris Duarte",
+          "Walker Kessler",
+          "Alex Caruso",
+          "Coby White",
+          "Thaddeus Young",
+          "Jaime Jaquez Jr.",
+          "Joe Wieskamp"
+        ],
+        "inactive": [
+          "Javonte Green",
+          "Denzel Valentine",
+          "Tomas Satoransky"
+        ],
+        "positive11": [
+          "LaMelo Ball",
+          "Zach LaVine",
+          "Protagonist",
+          "Lauri Markkanen",
+          "Wendell Carter Jr.",
+          "Chris Duarte",
+          "Walker Kessler",
+          "Alex Caruso",
+          "Coby White",
+          "Thaddeus Young",
+          "Jaime Jaquez Jr."
+        ],
+        "inactive_is_clinical_absence": false,
+        "zero_minute_active_is_unavailable": false,
+        "routine_availability_condition": "Named fifteen admitted healthy/available for this chosen hypothetical window, with twelve active; no actual clinical certificate or season-wide health inference."
+      },
+      "verification": {
+        "seconds": 2880,
+        "player_seconds": 14400,
+        "positions_each_seconds": {
+          "PG": 2880,
+          "SG": 2880,
+          "SF": 2880,
+          "PF": 2880,
+          "C": 2880
+        },
+        "unique_five_in_all_24_blocks": true,
+        "quarter_boundary_crossings": 0,
+        "opening_and_closing_core5": true,
+        "source_registered15_only": true,
+        "actual_NBA_game": false,
+        "historical_OT_or_future_productivity_inherited": false
+      }
+    },
+    {
+      "id": "B_DEVELOPMENT_JAQUEZ20_RECOMMENDED",
+      "classification": "NEW_FICTIONAL_ROUTINE_COACH_ROLE_CANDIDATE_NOT_SELECTED",
+      "player_minutes": {
+        "LaMelo Ball": 30,
+        "Zach LaVine": 30,
+        "Protagonist": 34,
+        "Lauri Markkanen": 30,
+        "Wendell Carter Jr.": 28,
+        "Jaime Jaquez Jr.": 20,
+        "Walker Kessler": 14,
+        "Alex Caruso": 20,
+        "Chris Duarte": 10,
+        "Coby White": 14,
+        "Thaddeus Young": 10
+      },
+      "position_minutes": {
+        "PG": {
+          "LaMelo Ball": 30,
+          "Alex Caruso": 12,
+          "Coby White": 6
+        },
+        "SG": {
+          "Zach LaVine": 30,
+          "Coby White": 8,
+          "Alex Caruso": 8,
+          "Jaime Jaquez Jr.": 2
+        },
+        "SF": {
+          "Protagonist": 20,
+          "Jaime Jaquez Jr.": 18,
+          "Chris Duarte": 10
+        },
+        "PF": {
+          "Lauri Markkanen": 30,
+          "Protagonist": 14,
+          "Thaddeus Young": 4
+        },
+        "C": {
+          "Wendell Carter Jr.": 28,
+          "Walker Kessler": 14,
+          "Thaddeus Young": 6
+        }
+      },
+      "blocks": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "quarter": 1,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "quarter": 2,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "quarter": 2,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "quarter": 2,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "quarter": 3,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "quarter": 3,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "quarter": 3,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "quarter": 3,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "quarter": 4,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Wendell Carter Jr."
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "quarter": 4,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "quarter": 4,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Jaime Jaquez Jr.",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Walker Kessler"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Thaddeus Young"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "quarter": 4,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          }
+        }
+      ],
+      "clock_digest": "2b023cd447461ca86600a131029c4c4a5a77a2e7b8a4aa787276352cbf47376b",
+      "standard_membership_source": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json#/execution/post_signature_named_STD",
+      "nomination_candidate": {
+        "active": [
+          "LaMelo Ball",
+          "Zach LaVine",
+          "Protagonist",
+          "Lauri Markkanen",
+          "Wendell Carter Jr.",
+          "Jaime Jaquez Jr.",
+          "Walker Kessler",
+          "Alex Caruso",
+          "Chris Duarte",
+          "Coby White",
+          "Thaddeus Young",
+          "Joe Wieskamp"
+        ],
+        "inactive": [
+          "Javonte Green",
+          "Denzel Valentine",
+          "Tomas Satoransky"
+        ],
+        "positive11": [
+          "LaMelo Ball",
+          "Zach LaVine",
+          "Protagonist",
+          "Lauri Markkanen",
+          "Wendell Carter Jr.",
+          "Jaime Jaquez Jr.",
+          "Walker Kessler",
+          "Alex Caruso",
+          "Chris Duarte",
+          "Coby White",
+          "Thaddeus Young"
+        ],
+        "inactive_is_clinical_absence": false,
+        "zero_minute_active_is_unavailable": false,
+        "routine_availability_condition": "Named fifteen admitted healthy/available for this chosen hypothetical window, with twelve active; no actual clinical certificate or season-wide health inference."
+      },
+      "verification": {
+        "seconds": 2880,
+        "player_seconds": 14400,
+        "positions_each_seconds": {
+          "PG": 2880,
+          "SG": 2880,
+          "SF": 2880,
+          "PF": 2880,
+          "C": 2880
+        },
+        "unique_five_in_all_24_blocks": true,
+        "quarter_boundary_crossings": 0,
+        "opening_and_closing_core5": true,
+        "source_registered15_only": true,
+        "actual_NBA_game": false,
+        "historical_OT_or_future_productivity_inherited": false
+      }
+    }
+  ],
+  "recommendation": {
+    "role": "B_DEVELOPMENT_JAQUEZ20_RECOMMENDED",
+    "selected": false,
+    "reason": "Jaquez twenty-minute development and a retained core closing five; distribute sixteen minutes of visible incumbent opportunity cost instead of making his second-year role a permanent four-minute reserve. No new contract or core departure.",
+    "B_minus_A_player_minutes": {
+      "LaMelo Ball": -2,
+      "Zach LaVine": -2,
+      "Protagonist": 0,
+      "Lauri Markkanen": -2,
+      "Wendell Carter Jr.": 0,
+      "Chris Duarte": -4,
+      "Walker Kessler": -2,
+      "Alex Caruso": 0,
+      "Coby White": -2,
+      "Thaddeus Young": -2,
+      "Jaime Jaquez Jr.": 16
+    },
+    "same_protagonist_minutes": 34,
+    "same_Caruso_minutes": 20,
+    "same_Carter_minutes": 28,
+    "total_difference": 0,
+    "classification": "NEW_COACH_CANDIDATE_NOT_EMPIRICAL_OPTIMALITY_OR_PERMANENT_FIRST_OPTION"
+  },
+  "paired_private_task_capacity": [
+    {
+      "id": "S1_FAILURE8",
+      "capacity_source_pointer": null,
+      "clock_type": "INDEPENDENT_PRIVATE_PRACTICE_TASK_CLOCK_NOT_THREE_CONSECUTIVE_NBA_POSSESSIONS",
+      "start_second": 0,
+      "end_second": 8,
+      "attack_positions": {
+        "PG": "LaMelo Ball",
+        "SG": "Zach LaVine",
+        "SF": "Protagonist",
+        "PF": "Lauri Markkanen",
+        "C": "Wendell Carter Jr."
+      },
+      "counter_positions": {
+        "PG": "Alex Caruso",
+        "SG": "Coby White",
+        "SF": "Chris Duarte",
+        "PF": "Thaddeus Young",
+        "C": "Walker Kessler"
+      },
+      "attack_player_seconds": {
+        "LaMelo Ball": 8,
+        "Zach LaVine": 8,
+        "Protagonist": 8,
+        "Lauri Markkanen": 8,
+        "Wendell Carter Jr.": 8
+      },
+      "counter_player_seconds": {
+        "Alex Caruso": 8,
+        "Coby White": 8,
+        "Chris Duarte": 8,
+        "Thaddeus Young": 8,
+        "Walker Kessler": 8
+      },
+      "attack_total": 40,
+      "counter_total": 40,
+      "NBA_opponent_owner_claim": false
+    },
+    {
+      "id": "S1_RETRY8",
+      "capacity_source_pointer": null,
+      "clock_type": "INDEPENDENT_PRIVATE_PRACTICE_TASK_CLOCK_NOT_THREE_CONSECUTIVE_NBA_POSSESSIONS",
+      "start_second": 0,
+      "end_second": 8,
+      "attack_positions": {
+        "PG": "LaMelo Ball",
+        "SG": "Zach LaVine",
+        "SF": "Protagonist",
+        "PF": "Lauri Markkanen",
+        "C": "Wendell Carter Jr."
+      },
+      "counter_positions": {
+        "PG": "Alex Caruso",
+        "SG": "Coby White",
+        "SF": "Chris Duarte",
+        "PF": "Thaddeus Young",
+        "C": "Walker Kessler"
+      },
+      "attack_player_seconds": {
+        "LaMelo Ball": 8,
+        "Zach LaVine": 8,
+        "Protagonist": 8,
+        "Lauri Markkanen": 8,
+        "Wendell Carter Jr.": 8
+      },
+      "counter_player_seconds": {
+        "Alex Caruso": 8,
+        "Coby White": 8,
+        "Chris Duarte": 8,
+        "Thaddeus Young": 8,
+        "Walker Kessler": 8
+      },
+      "attack_total": 40,
+      "counter_total": 40,
+      "NBA_opponent_owner_claim": false
+    },
+    {
+      "id": "S3_WEAKSIDE_COMPARISON8",
+      "capacity_source_pointer": "#/role_candidates/1/blocks/14",
+      "clock_type": "INDEPENDENT_PRIVATE_PRACTICE_TASK_CLOCK_NOT_THREE_CONSECUTIVE_NBA_POSSESSIONS",
+      "start_second": 0,
+      "end_second": 8,
+      "attack_positions": {
+        "PG": "Alex Caruso",
+        "SG": "Coby White",
+        "SF": "Chris Duarte",
+        "PF": "Protagonist",
+        "C": "Wendell Carter Jr."
+      },
+      "counter_positions": {
+        "PG": "LaMelo Ball",
+        "SG": "Zach LaVine",
+        "SF": "Jaime Jaquez Jr.",
+        "PF": "Lauri Markkanen",
+        "C": "Walker Kessler"
+      },
+      "attack_player_seconds": {
+        "Alex Caruso": 8,
+        "Coby White": 8,
+        "Chris Duarte": 8,
+        "Protagonist": 8,
+        "Wendell Carter Jr.": 8
+      },
+      "counter_player_seconds": {
+        "LaMelo Ball": 8,
+        "Zach LaVine": 8,
+        "Jaime Jaquez Jr.": 8,
+        "Lauri Markkanen": 8,
+        "Walker Kessler": 8
+      },
+      "attack_total": 40,
+      "counter_total": 40,
+      "NBA_opponent_owner_claim": false
+    }
+  ],
+  "limited_failure_and_retry": {
+    "source": "design/A10_E1_FINAL_EPISODE_FUNCTION.json#/beats",
+    "classification": "SOURCE_SELECTED_PRIVATE_FAILURE_RETRY_PRESERVED_NAMES_BOUND_AS_NEW_CANDIDATE",
+    "same_core_five_and_counter_five": true,
+    "new_named_side_receiver_candidate": "Zach LaVine",
+    "source_previously_named_receiver": false,
+    "failure": {
+      "task_seconds": 8,
+      "P_time_to_handoff": 6,
+      "receiver_remaining_seconds": 2,
+      "help_foot_path_closed": true
+    },
+    "retry": {
+      "same_task_seconds": 8,
+      "P_time_to_handoff": 3,
+      "receiver_remaining_seconds": 5,
+      "same_help_foot_read_earlier": true
+    },
+    "receiver_time_gained_seconds": 3,
+    "source_shot_points_winner_or_private_evaluation_added": false,
+    "same_original_rep_is_not_an_extra_NBA_game": true
+  },
+  "shared_closing_and_bench_cost": {
+    "classification": "EXPLICIT_NEW_NAMED_PRIVATE_COMPARISON_CANDIDATE_NOT_EXISTING_NBA_OBSERVATION",
+    "same_closing_core_five": {
+      "PG": "LaMelo Ball",
+      "SG": "Zach LaVine",
+      "SF": "Protagonist",
+      "PF": "Lauri Markkanen",
+      "C": "Wendell Carter Jr."
+    },
+    "eight_second_on_ball_comparisons": [
+      {
+        "id": "LV_DIRECT_REFERENCE",
+        "seconds": {
+          "Zach LaVine": 8,
+          "Protagonist": 0,
+          "LaMelo Ball": 0
+        }
+      },
+      {
+        "id": "P_LIMITED_RETRY_THEN_LV",
+        "seconds": {
+          "Zach LaVine": 5,
+          "Protagonist": 3,
+          "LaMelo Ball": 0
+        }
+      },
+      {
+        "id": "MELO_FIRST_CARRY_REFERENCE",
+        "seconds": {
+          "Zach LaVine": 5,
+          "Protagonist": 0,
+          "LaMelo Ball": 3
+        }
+      }
+    ],
+    "P_does_not_take_LaVine_roster_contract_or_all_closing_shots": true,
+    "weakside_trial": {
+      "source": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json#/functions/1/beats",
+      "P_late_first_step_named_compensator_candidate": "Chris Duarte",
+      "observable_cost": "Duarte leaves his specified connection line for one additional help step; P gives up one more attack repetition to rehearse earlier weakside placement.",
+      "counter_cutter_candidate": "Jaime Jaquez Jr.",
+      "P_and_Duarte_same_side_capacity_pointer": "#/role_candidates/1/blocks/14",
+      "same_ten_players_are_separate_from_S1_core5_task": true,
+      "corrected_task": "Earlier P placement permits Duarte to remain on the original connection line only if Duarte independently reads that no additional help is required and Jaquez chooses the specified cut timing/path that P can cover. It does not ensure that result.",
+      "successful_stop_shot_score_or_season_bench_quality_certified": false,
+      "actor_conditions": {
+        "Protagonist": "Uses the sacrificed attack repetition to choose earlier weakside placement and cover the specified cut lane.",
+        "Chris Duarte": "Makes his own read of Jaquez and the help lane; stays only if he judges the earlier P coverage sufficient, otherwise may still take the extra help step.",
+        "Jaime Jaquez Jr.": "As independent counter-cutter chooses the prescribed path/timing; a faster, changed or rejected cut may again demand Duarte help and is not declared stopped."
+      },
+      "counter_cutter_action_guaranteed_by_P": false,
+      "Duarte_staying_guaranteed_by_P": false
+    },
+    "bench_development_cost": {
+      "Jaquez_SF_minutes_B": 18,
+      "Jaquez_SG_minutes_B": 2,
+      "Duarte_minutes_lost_vs_A": 4,
+      "Young_minutes_lost_vs_A": 2,
+      "Kessler_minutes_lost_vs_A": 2,
+      "Coby_minutes_lost_vs_A": 2,
+      "LV_Melo_Mark_minutes_lost_each_vs_A": 2,
+      "all_original_salary_and_protection_unchanged": true
+    },
+    "independent_counterfactual_comparisons": [
+      {
+        "id": "CF_LV8_TO_P3_LV5",
+        "reference_id": "LV_DIRECT_REFERENCE",
+        "reference_seconds": {
+          "Zach LaVine": 8,
+          "Protagonist": 0,
+          "LaMelo Ball": 0
+        },
+        "comparison_id": "P_LIMITED_RETRY_THEN_LV",
+        "comparison_seconds": {
+          "Zach LaVine": 5,
+          "Protagonist": 3,
+          "LaMelo Ball": 0
+        },
+        "delta_seconds": {
+          "Zach LaVine": -3,
+          "Protagonist": 3,
+          "LaMelo Ball": 0
+        },
+        "loser": "Zach LaVine",
+        "gainer": "Protagonist",
+        "cost_seconds": 3,
+        "LaMelo_cost_seconds": 0,
+        "same_game_possession_selected": false
+      },
+      {
+        "id": "CF_MELO3_LV5_TO_P3_LV5",
+        "reference_id": "MELO_FIRST_CARRY_REFERENCE",
+        "reference_seconds": {
+          "Zach LaVine": 5,
+          "Protagonist": 0,
+          "LaMelo Ball": 3
+        },
+        "comparison_id": "P_LIMITED_RETRY_THEN_LV",
+        "comparison_seconds": {
+          "Zach LaVine": 5,
+          "Protagonist": 3,
+          "LaMelo Ball": 0
+        },
+        "delta_seconds": {
+          "Zach LaVine": 0,
+          "Protagonist": 3,
+          "LaMelo Ball": -3
+        },
+        "loser": "LaMelo Ball",
+        "gainer": "Protagonist",
+        "cost_seconds": 3,
+        "LaVine_cost_seconds": 0,
+        "same_game_possession_selected": false
+      }
+    ],
+    "counterfactual_costs_additive": false,
+    "combined_same_possession_cost_seconds": null,
+    "comparison_scope": "Two different counterfactual baselines share one proposed P3/LV5 outcome. Neither comparison is a second observed cost in that possession; do not charge3+3 as6 seconds."
+  },
+  "qualification_route_comparison": [
+    {
+      "id": "Q0_PRIVATE_TASK_ONLY",
+      "selected": false,
+      "exclusive_scope": "only named private tasks and coach plan",
+      "S1_and_S2_local_evidence_supported": true,
+      "full_S1_first_option_NBA_evidence": false,
+      "full_S2_priority": false,
+      "full_S3_title_eligibility": false,
+      "next_minimal_input": "GAME1 and NOM1 if NBA role/first-option performance claim is pursued",
+      "recommendation": "fallback only while no game port is bound"
+    },
+    {
+      "id": "Q1_ONE_REGULAR_GAME_SAMPLE",
+      "selected": false,
+      "exclusive_scope": "one source-bound regular-game role and same bounded failed creation/retry with visible teammate cost; qualification unclaimed",
+      "needs": [
+        "GAME1",
+        "NOM1"
+      ],
+      "S1_and_S2_NBA_local_evidence_if_executed": true,
+      "season_first_option_efficiency_or_all_games": false,
+      "full_S3_title_eligibility": false,
+      "full_A10_exit": false,
+      "recommendation": "recommended minimum next execution; no Finals/MVP/year decision required"
+    },
+    {
+      "id": "Q2_QUALIFIED_FIRST_WINDOW_INCOMPLETE",
+      "selected": false,
+      "exclusive_scope": "Q1 plus a separately chosen source-supported qualification/series window with veteran/bench cost and an incomplete first title window",
+      "needs": [
+        "GAME1",
+        "NOM1",
+        "QUAL1"
+      ],
+      "full_A10_exit_if_explicitly_supported_and_reviewed": true,
+      "actual_qualification_result_selected": false,
+      "Finals_berth_title_MVP_year_selected": false,
+      "existing_future_MIN_final_or_championship_automatically_adopted": false,
+      "recommendation": "candidate full-exit route; do not replace qualification with a regular late window"
+    }
+  ],
+  "finite_ports": [
+    {
+      "id": "GAME1",
+      "needed_for": "NBA first-option or closing-role claim, beyond private training",
+      "game_id": null,
+      "date": null,
+      "date_family": "one chosen regular date in selected FY24 service window after July7 2024",
+      "immutable_official_calendar_pointer": null,
+      "opponent_team": null,
+      "opponent_named_five": null,
+      "opponent_current_contract_owner_active_availability_capacity_binding": null,
+      "status": "TYPED_ONE_GAME_PORT_NOT_WHOLE_LEAGUE_GATE"
+    },
+    {
+      "id": "NOM1",
+      "needed_for": "execute recommended coach/health window",
+      "role_candidate": "B_DEVELOPMENT_JAQUEZ20_RECOMMENDED",
+      "root_routine_coach_availability_selection_record": null,
+      "scope": "only the chosen window; scoring, clinical facts and first-option season efficiency remain uncertified"
+    },
+    {
+      "id": "QUAL1",
+      "needed_for": "full A10 championship-eligible exit only",
+      "qualification_or_series_window": null,
+      "status": "SEPARATE_CANDIDATE_NOT_IMPLIED_BY_REGULAR_OR_PRACTICE_SAMPLE",
+      "no_full_17season_or_all_private_ledger_prerequisite": true
+    }
+  ],
+  "certification": {
+    "arithmetic_capacity_constructed": true,
+    "selected_2024_contract_family_consumed": true,
+    "new_role_nominations_or_game_calls_selected": false,
+    "actual_NBA_schedule_date_opponent_health_stats_or_coach_eval_certified": false,
+    "game_first_option_efficiency_or_season_result_certified": false,
+    "whole_A10_S1_complete": false,
+    "whole_A10_S2_complete": false,
+    "whole_A10_S3_complete": false,
+    "whole_A10_complete": false,
+    "whole_G13_complete": false,
+    "whole_macro4_complete": false,
+    "new_title_MVP_franchise_change_or_author_lock": false,
+    "whole_private_ledger_absence_certified": false,
+    "independent_packet_review_completed": false,
+    "manuscript_allowed": false
+  },
+  "verification": {
+    "two_plans": 2,
+    "blocks_per_plan": 24,
+    "combined_block_count": 48,
+    "each_plan_role_seconds": 2880,
+    "each_plan_player_seconds": 14400,
+    "positive_players_per_plan": 11,
+    "active_per_plan": 12,
+    "inactive_per_plan": 3,
+    "source_registered_players": 15,
+    "private_paired_8second_tasks": 3,
+    "each_private_side_player_seconds": 40,
+    "all_source_pins_current": true,
+    "source_failure_retry_exact_2_and_5_seconds": true,
+    "negative_constructor_tests": 0,
+    "reason_no_constructor_tests": "Static packet has no producer; arithmetic/source projections checked directly. No invented executable or independent controls.",
+    "limited_semantic_repair": {
+      "basis": "Claude source-blind result projection from original7c00ff...; original answer/input snapshot kept unchanged",
+      "changes": [
+        "Duarte own-read and Jaquez chosen cut predicates",
+        "two non-additive counterfactual on-ball ledgers"
+      ],
+      "clock_minutes_salary_names_or_results_changed": false,
+      "external_source_collection_repeated": false
+    }
+  },
+  "project_progress": [
+    {
+      "group": 1,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 2,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 3,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 4,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 5,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 6,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 7,
+      "state": "INCOMPLETE"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript_count": 0
+}
