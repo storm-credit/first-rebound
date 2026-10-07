@@ -1,0 +1,96 @@
+{
+  "id": "NBA_2023_SELECTED_FULL_POSTSEASON_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_FICTIONAL_FIFTEEN_SERIES_AFTER_SOURCE_RETURN_REPAIR",
+  "source_hash_method": "SHA256 UTF8 BOM strip and CRLF/CR normalized to LF",
+  "source_sha256": {
+    "tools/build_2023_selected_full_postseason.py": "5aa856dcb9588d33e257e23b29d32696badc370e923e349a41b63f4cc93581f5",
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json": "ecc876c91d1008285b944fd9b7e7213a1c3e54b94d0a2fea84cd82b2f7cb0407",
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.md": "cd67af15a4bfad6c40d491c2d22c1502146550727b4165168ff3ddfee2a1e3d9"
+  },
+  "primary_direct_reads": [
+    {
+      "url": "https://www.nba.com/news/2023-nba-playoffs-schedule",
+      "scope": "published 2023 playoff window only; selected game dates are fictional"
+    },
+    {
+      "url": "https://pr.nba.com/nba-playoff-seeding-changes/",
+      "scope": "home-court head-to-head and division criterion"
+    },
+    {
+      "url": "https://pr.nba.com/nba-finals-format-change-2014/",
+      "scope": "best-of-seven 2-2-1-1-1 format with extra day between games six and seven"
+    },
+    {
+      "url": "https://www.nba.com/game/mia-vs-den-0042200405/box-score",
+      "scope": "original 2023 June 12 last Finals observed; not a deadline for selected June 16 fiction"
+    }
+  ],
+  "raw_capture_controls": {
+    "metadata_SHA256": {
+      "sources.json": "1757d3ee0b2ae88aad8a68ff75f1086aa297642f4a3389859046abe209aabff7",
+      "extra_sources.json": "42e6069cd62cf5e9c7732b74d13137d2f938424f06a5d7bdebc4d29b1c35ab6b"
+    },
+    "four_HTTP200_raw_body_sha256_verified": true,
+    "direct_body_terms_confirmed": true
+  },
+  "direct_checks": {
+    "prior_playin_qualifiers": 16,
+    "series_by_round": {
+      "R1": 8,
+      "R2": 4,
+      "CF": 2,
+      "F": 1
+    },
+    "selected_games": 93,
+    "simultaneous_segments": 2161,
+    "team_date_rows": 186,
+    "same_team_date_conflicts": 0,
+    "all_series_end_at_four_wins_with_no_post_clinch_game": true,
+    "every_game_each_side_regulation_seconds": 2880,
+    "every_game_each_side_player_seconds": 14400,
+    "all_qualified_templates_match_selected_global_roles": true,
+    "all_active_players_standard_and_no_two_way_participants": true,
+    "selected_core_execution_object_matches_physical_parent": true,
+    "CHI_R1_MIL_wins": {
+      "MIL": 4,
+      "CHI": 0
+    },
+    "selected_final": {
+      "winner": "MIL",
+      "loser": "UTA",
+      "wins": {
+        "MIL": 4,
+        "UTA": 3
+      },
+      "date": "2023-06-16"
+    },
+    "Chet_OKC_and_Miles_CHA_not_qualified_for_postseason": true,
+    "regular_global_and_playin_results_unchanged": true,
+    "actual_NBA_scores_game_ids_or_2023_winner_imported": false,
+    "all_93_games_2_2_1_1_1_home_pattern": true,
+    "all_round_dependencies_finish_before_next_round": true
+  },
+  "actual_independent_mutation_controls": [
+    {
+      "case": "CORE James Harden returned all_original_Gamma_preserved true to false",
+      "initial": "FALSE_PASS",
+      "repaired": "REJECTED",
+      "diagnostic": "Returned consumed source differs from physical source canon/DELEGATED_2022_23_NPC_CORE_CONTRACT_EXECUTION_2026_10_08.json"
+    },
+    {
+      "case": "returned game selected_winner replaced with selected_loser",
+      "result": "REJECTED",
+      "diagnostic": "Returned new postseason outcome arithmetic"
+    }
+  ],
+  "scope_limits": {
+    "working_93_fictional_regulation_games_selected": true,
+    "real_NBA_2023_postseason_results_or_actual_clinical_receipts_certified": false,
+    "whole_six_category_team_cost_certified": false,
+    "new_protagonist_title_MVP_or_ending_changed": false,
+    "2023_draft_control_selected": false,
+    "whole_macro3_G13_G14_complete": false,
+    "writer_self_tests_counted_as_independent": false
+  }
+}

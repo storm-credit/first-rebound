@@ -1,0 +1,74 @@
+{
+  "id": "CHI_2023_FIRST_ROUND_SLOT_DEN_INDEPENDENT_REVIEW",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_SELECTED_FICTIONAL_CHICAGO_NONLOTTERY_ORIGIN_SLOT_16",
+  "source_sha256": {
+    "tools/build_chicago_2023_first_round_slot.py": "bcd243ad698b7e4acf17b11798fdd1fc23770b4a26203ae05af2b6dbe324519b",
+    "research/CHICAGO_2023_FIRST_ROUND_SLOT_16_2026_10_08.json": "abbcdaaa6ff14d277f88d47fa600320fc6458ec4b057e5a7b73b414b6fbabf30",
+    "research/CHICAGO_2023_FIRST_ROUND_SLOT_16_2026_10_08.md": "f24e53e33e5c1825fd59e834a17289bee9b72653f69519e4bdcd85d0c9554d1a",
+    "research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.json": "b139af4af09a48dd1c9e345d17d05fc8e38f4cb021193f32bc3a09ed537f49e3",
+    "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json": "cecefbc4fbca8378cacdae2f77129f26644244529d11eb216072a8fba8d224a9",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "reviews/CHI_2023_CLAIMS_AND_PLAYIN_G11_INDEPENDENT_REVIEW_2026_10_08.json": "334fd06189cbb7dfc72d3e60ef0473065dc8d96fd5797851ba2deb7331807355"
+  },
+  "direct_primary_rule": {
+    "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+    "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+    "PDF1based": 86,
+    "printed_page": 77,
+    "section": "7.02(a)(iii)",
+    "page_text_utf8_sha256": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+    "direct_body_read": true,
+    "current_FAQ_not_independently_recollected_or_original_2023_certified": true
+  },
+  "direct_derivation": {
+    "qualified_origins": 16,
+    "CHI_record": {
+      "wins": 46,
+      "losses": 36
+    },
+    "lesser_qualified": [
+      {
+        "origin": "NOP",
+        "wins": 40,
+        "losses": 42
+      }
+    ],
+    "other_fourteen_qualified_minimum_wins": 49,
+    "CHI_qualified_ties": [],
+    "slot": 16,
+    "holder": "CHI",
+    "lottery_or_full_postseason_required_for_this_slot": false
+  },
+  "actual_independent_counterexample": {
+    "site": "read(CLAIMS) returned first claim",
+    "mutation": {
+      "origin": [
+        "CHI",
+        "LAL"
+      ],
+      "round": [
+        1,
+        2
+      ]
+    },
+    "physical_bytes_unchanged": true,
+    "before_fix": "BUILD_FALSE_PASS_SLOT16",
+    "after_fix": "REJECTED",
+    "rejection": "Returned named input differs from reviewed physical record research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.json",
+    "caller_repair": "Independent physical JSON comparison for reviewed peer and each consumed source"
+  },
+  "saved_equals_current_build": true,
+  "writer_controls_counted_as_independent": 0,
+  "scope": {
+    "working_fictional_rank_not_actual_2023_NBA_rank": true,
+    "draftee_RSC_price_N23_A23_selected": false,
+    "null_is_zero": false,
+    "all60_control_or_whole_macro3_certified": false,
+    "manuscript_allowed": false,
+    "gate": "CLOSED"
+  },
+  "unfinished_macro_groups": 5,
+  "unfinished_through_6": 4,
+  "freeze": "v0.30 PARTIAL"
+}

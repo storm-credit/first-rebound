@@ -1,0 +1,148 @@
+{
+  "id": "CHI_2023_NAMED_CLAIMS_AND_COST_PORTS",
+  "baseline_main": "241821ba24936ee788320844822af5a3f32ef69c",
+  "status": "AUTHOR_DELEGATED_FICTIONAL_PRIOR_CLAIM_PRESERVATION_SELECTED",
+  "source_sha256": {
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "research/BKN_WAS_2021_P1_NAMED_RIGHTS_BRIDGE_2026_10_07.json": "fb5803cf261ca7f0f81bf20413276df997de492c007886410d984dc6fcc024d0",
+    "research/CHICAGO_2021_THREE_ORIGINAL_TRADES_DOWNSTREAM_2026_10_07.json": "28cb75e82a8a0bb47309a5babb1daac0ae30dcdbb07d7218546c8bfe1327cdea",
+    "simulation/NBA_2022_PUBLIC_CONTROL_EXECUTION_FAMILY.json": "86ac9e85b06a607363f5c7a6bd6fac29a8a5dbd89fff803e2a440897afd3337c",
+    "tools/build_chicago_2023_named_draft_claims.py": "13d236dfab8e72088968c49c020cdf87f00e422a2c87162b39f99d1cc5a845b8"
+  },
+  "historical_primary": [
+    {
+      "id": "PORTER2019",
+      "url": "https://www.nba.com/news/bulls-trade-wizards-porter-official-release",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-p1-rights-20261007\\PORTER2019.html",
+      "raw_sha256": "0d512510507dbd81cadb1de4d1864e037b3dc9de9011012c822f47a6b68a9653",
+      "http_status": 200,
+      "classification": "PRIMARY_ORIGINAL_OFFICIAL_RELEASE_SERIALIZED_BODY_DIRECT_READ",
+      "publication_date_as_stored": "2019-02-07T05:10:54Z",
+      "locator": "props.pageProps.article.contentText, opening transaction paragraph",
+      "observed_summary": "Porter 교환의 CHI발 2023 보호된 2라운드 청구.",
+      "observed_field_UTF8_sha256": "a32c9d3a64fb5bd507ed9eb9ca107e2d1f34c28eab9e014a9dea8c096f46375d",
+      "browser_readable_shell_is_not_body": false,
+      "full_private_terms_certified": false,
+      "current_consumer_body_read": true
+    },
+    {
+      "id": "SATO2019",
+      "url": "https://www.nba.com/wizards/wizards-acquire-draft-pick-chicago",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-p1-rights-20261007\\SATO2019.html",
+      "raw_sha256": "cbef465b9bb70f78c70985257ce29718210978f028f3cbaf462f79b769973a4d",
+      "http_status": 200,
+      "classification": "PRIMARY_ORIGINAL_OFFICIAL_RELEASE_SERIALIZED_BODY_DIRECT_READ",
+      "publication_date_as_stored": "2019-07-07T14:49:00Z",
+      "locator": "props.pageProps.pageObject.contentStructured[0].text",
+      "observed_summary": "이전2023 청구의 보호제거, 별도2022 swap.",
+      "observed_field_UTF8_sha256": "2e46b0baa7287b699674b73f5b9e8ad6d00837efdbe0004d11ccddc42198e58d",
+      "browser_readable_shell_is_not_body": true,
+      "full_private_terms_certified": false,
+      "current_consumer_body_read": true
+    }
+  ],
+  "classification": {
+    "FACT": "Public 2019 protected transfer and removal of protection.",
+    "INFERENCE": "Omitted original deals cannot create their outgoing or incoming pick edges.",
+    "FICTION_DESIGN_SELECTED": "Named prior claim and no intervening transfer family carried into the selected 2023 world.",
+    "AUTHOR_LOCKED": "M1 Markkanen retention; A growth core; F5 omission remain unchanged."
+  },
+  "selected_preservation_family": {
+    "dated_window_end": "2023-06-22",
+    "CHI_own_first_no_new_transfer": true,
+    "CHI_prior_second_WAS_no_new_transfer": true,
+    "no_new_unreported_claim_created": true,
+    "public_history_is_not_alternative_private_ledger_certification": true
+  },
+  "named_claims": [
+    {
+      "id": "CHI_2023_1R",
+      "origin": "CHI",
+      "year": 2023,
+      "round": 1,
+      "selected_holder": "CHI",
+      "basis": "Original Chicago first retained; Vucevic outgoing edge omitted; selected no intervening transfer family.",
+      "historical_ORL_11_copied": false,
+      "selected_draft_position": null,
+      "position_domain": "NONLOTTERY_IF_QUALIFIED_ELSE_LOTTERY_DRAW",
+      "new_STD_rookie_reservation": 1
+    },
+    {
+      "id": "CHI_2023_2R",
+      "origin": "CHI",
+      "year": 2023,
+      "round": 2,
+      "selected_holder": "WAS",
+      "public_prior_holder": "WAS",
+      "protection": "REMOVED_2019_07_07",
+      "basis": "New explicitly selected prior-claim preservation family from public Porter/Satoransky releases; omitted P1 does not forward the claim to LAL.",
+      "P1_candidate_E1_E2_selected": false,
+      "historical_later_rank_copied": false,
+      "new_CHI_STD_rookie_reservation": 0
+    },
+    {
+      "id": "DEN_2023_2R_TO_CHI_ORIGINAL_MARKKANEN",
+      "origin": "DEN",
+      "year": 2023,
+      "round": 2,
+      "selected_CHI_receipt": false,
+      "basis": "M1 retains Markkanen in Chicago; the original three-team Markkanen transaction is absent.",
+      "F5_DEN_CLE_transfer_executed": false,
+      "DEN_final_holder_certified": false,
+      "independent_prior_claims_unrelated_to_omitted_trades_preserved": true,
+      "new_CHI_STD_rookie_reservation": 0
+    }
+  ],
+  "Chicago_cost_and_slot_ports": {
+    "CHI_own_retained_first": 1,
+    "CHI_own_second_available": 0,
+    "CHI_incoming_DEN_second": 0,
+    "CHI_new_rookie_STD_slots": 1,
+    "CHI_2023_drafted_second_rounders": 0,
+    "N23": {
+      "kind": "POSITIVE_FIRST_ROUND_HOLD_OR_SALARY_FUNCTION",
+      "value": null,
+      "null_is_zero": false
+    },
+    "A23": {
+      "kind": "POSITIVE_FIRST_ROUND_APRON_CHARGE_FUNCTION",
+      "value": null,
+      "null_is_zero": false
+    },
+    "first_rank_draftee_and_RSC_price_selected": false,
+    "all_original_Gamma_and_other_costs_preserved": true
+  },
+  "sanction_causality": {
+    "all_original_Markkanen_trade_edges_copied": false,
+    "original_next_available_second_penalty_primary": "https://pr.nba.com/bulls-heat-penalties-free-agency/",
+    "historical_original_Lonzo_contact_edge_copied": false,
+    "new_fiction_lawful_contact_family": true,
+    "no_historical_penalty_is_not_new_Chicago_asset": true,
+    "all_NBA_2023_forfeitures_or_60_picks_certified": false
+  },
+  "other_historical_crosschecks": [
+    {
+      "url": "https://www.nba.com/news/cavs-acquire-lauri-markkanen-from-bulls-in-3-team-trade",
+      "root_web_body_read": true,
+      "fact_summary": "Original Markkanen transaction included a Denver-origin 2023 second for Chicago.",
+      "raw_response_archived": false
+    }
+  ],
+  "remaining": [
+    "First-round rank and draftee selection after 2023 postseason/draw; positive N23/A23 price join.",
+    "Global 2023 origin/control portfolio and any other Denver prior claims are outside this Chicago consumer."
+  ],
+  "certification": {
+    "named_fictional_CHI_draft_asset_and_slot_scope_complete": true,
+    "actual_private_asset_ledger_certified": false,
+    "draft_price_and_total_cost_complete": false,
+    "whole_cost_certified": false,
+    "whole_career_complete": false,
+    "manuscript_allowed": false,
+    "gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  }
+}

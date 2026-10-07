@@ -1,0 +1,178 @@
+{
+  "tool": "Antigravity",
+  "scope": "PUBLIC_2019_NAMED_CLAIM_COLLECTION_ATTEMPT",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 70.994,
+    "budget_seconds": 110,
+    "stdout_sha256": "0f3b9167c93b2c9f7136e136ee94e056badc7be6dabaa4ce7d02380ca8892b5d",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "b52b600d-673a-415d-b5cd-ec14c22630c5",
+      "status": "SUCCESS",
+      "response": "- **https://www.nba.com/wizards/wizards-acquire-draft-pick-chicago** : **UNVERIFIED** (Client-rendered JS shell / incomplete body returned).\n- **https://www.nba.com/news/bulls-trade-wizards-porter-official-release** : **BODY_READ**\n\n**Official Details & Transfer Distinction:**\nPer the Bulls release, Chicago traded Bobby Portis, Jabari Parker, and a protected 2023 second-round pick to Washington for Otto Porter Jr. (February 6–7, 2019). The 2023 asset is an outgoing Chicago second-rounder transfer (contingent/protected); it is an outright pick transfer rather than a 2022 draft swap right, which involves no pick transfer and pertains to a different draft year with distinct execution mechanics.\n",
+      "duration_seconds": 62.7090536,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 3,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 3,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 5,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 5,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "1d702aaa7bbee9b4af31a8468bf644325845de52e2021d5e6d8a0d07b5bfef42"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "64acc926e1221e2bc540b2dacf663b454d6a677a4426a1930318afff44451015"
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "1d702aaa7bbee9b4af31a8468bf644325845de52e2021d5e6d8a0d07b5bfef42"
+      },
+      {
+        "step_index": 10,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 10,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "1d702aaa7bbee9b4af31a8468bf644325845de52e2021d5e6d8a0d07b5bfef42"
+      },
+      {
+        "step_index": 12,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 12,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "64acc926e1221e2bc540b2dacf663b454d6a677a4426a1930318afff44451015"
+      },
+      {
+        "step_index": 14,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 14,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 16,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 16,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 18,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 18,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "0f3b9167c93b2c9f7136e136ee94e056badc7be6dabaa4ce7d02380ca8892b5d",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "- **https://www.nba.com/wizards/wizards-acquire-draft-pick-chicago** : **UNVERIFIED** (Client-rendered JS shell / incomplete body returned).\n- **https://www.nba.com/news/bulls-trade-wizards-porter-official-release** : **BODY_READ**\n\n**Official Details & Transfer Distinction:**\nPer the Bulls release, Chicago traded Bobby Portis, Jabari Parker, and a protected 2023 second-round pick to Washington for Otto Porter Jr. (February 6–7, 2019). The 2023 asset is an outgoing Chicago second-rounder transfer (contingent/protected); it is an outright pick transfer rather than a 2022 draft swap right, which involves no pick transfer and pertains to a different draft year with distinct execution mechanics.\n",
+      "char_count": 701,
+      "sha256": "36aa03b843a8e189202e33c99b2e7d9966b5697381aa0184da144f8d88485cdb",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_body_independently_certified": false,
+  "persistent_auth_settings_changed": false
+}

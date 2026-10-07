@@ -1,0 +1,53 @@
+{
+  "id": "CHI_2023_CONTRACT_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "INDEPENDENTLY_ACCEPTED_BOUNDED_CONTRACT_WINDOW_AND_FOLLOWUP_FAMILY",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF-8 BOM stripped where present; CRLF normalized to LF; SHA-256",
+  "source_sha256": {
+    "tools/build_chicago_2023_24_existing_contract_window.py": "9af9056e8656df84c894b7ede00d91d0f3ef0c92c867089f1cb5ff2f400f7b8b",
+    "simulation/CHICAGO_2023_24_EXISTING_NAMED_CONTRACT_WINDOW.json": "cf65846136975dd8b7f301505ad7fa06b564837f7962a607681632b84489d092",
+    "simulation/CHICAGO_2023_24_EXISTING_NAMED_CONTRACT_WINDOW.md": "3e292a5ad9a01634ad04a1f80a9806f06e01a41e9ca8a4f53fa9f8dc8cedcf02",
+    "research/CHICAGO_2023_FOLLOWUP_FINITE_ACTIONS_2026_10_08.json": "542457d0b30ec2991faf0efa6c92a050dcd9120dfd929473ed29b90b7155f383",
+    "research/CHICAGO_2023_FOLLOWUP_FINITE_ACTIONS_2026_10_08.md": "971782c79aa12117d281a8a9ba6212edf49ea8ab04f847583300a1a59b93633d"
+  },
+  "direct_checks": [
+    "Current producer --check returned current=true and errors=[]. Writer self-tests were not counted as independent controls.",
+    "Source 2022 registration has 15 standard and 2 two-way; July 2023 partition directly recomputed as 9 live standard, 6 expired standard, 0 live two-way, 2 expired two-way.",
+    "The nine named live FY23 all-component upper amounts sum to USD 132,051,061: 19,720,000+9,460,000+9,835,881+4,810,200+13,050,000+23,760,000+40,064,220+8,000,000+3,350,760.",
+    "June 29 2017 ordinary QO deadline, 2023 three-year Full Bird minimum term, two-way service exception, and following-business-day rule checked against cached physical 2017/2023 CBA PDF pages 315, 78, 339, and 584 respectively. July 2023 public cap context checked against NBA release; no private contract receipt inferred.",
+    "Coby USD 12 million x3 Full Bird route is a proposal; QO issue, acceptance, actual UPC, and price assent remain false. Dotson fourth Chicago two-way year is excluded; Cook YOS3/YOS4 treated conditionally. LaMelo extension and later rookie option notices remain candidates or timing windows.",
+    "A 14-standard named candidate plus one first-round standard slot is a capacity family, not a 16th signed player. Bradley expired contract/hold and all source Gamma obligations persist. N23/A23 are typed null; conditional first-round rank 16 is a port, not this output's selected draftee or whole FY23 cost.",
+    "The revised finite-action roadmap labels step 6 as writing specification/Context Pack unfinished and step 7 as integration/independent/final approval CLOSED; contract arithmetic and selected authority fields are unchanged."
+  ],
+  "independent_negative_controls": [
+    {
+      "mutation": "Returned STAT Coby selected_starter false to true",
+      "result": "REJECTED",
+      "reason": "Source semantic objects differ from pinned source"
+    },
+    {
+      "mutation": "Returned protagonist last_selected_fiscal_year_end 2026-06-30 to 2024-06-30",
+      "result": "REJECTED",
+      "reason": "Named contract period assertion"
+    },
+    {
+      "mutation": "Cost function called with N23=None and otherwise numeric inputs",
+      "result": "REJECTED",
+      "reason": "Typed monetary inputs cannot be null-as-zero"
+    },
+    {
+      "mutation": "Returned Dotson new_CHI_TW_2023_allowed false to true",
+      "result": "REJECTED",
+      "reason": "Two-way year/eligibility assertion"
+    }
+  ],
+  "limits": {
+    "whole_FY23_cost_or_registration": false,
+    "market_acceptance_or_private_receipt": false,
+    "first_round_player_or_signed_UPC": false,
+    "whole_macro3_or_G13_G14": false,
+    "manuscript": false
+  },
+  "remaining_finite_join": "Root may select a legal routine renewal family and join the separately selected first-round slot, Cook credited service, N23/A23/R23 and retained FA holds before a whole-cost claim. These are bounded joins, not a new human approval or private-record gate.",
+  "additional_substantive_defects": []
+}

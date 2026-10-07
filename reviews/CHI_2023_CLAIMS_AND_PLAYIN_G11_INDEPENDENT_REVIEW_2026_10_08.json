@@ -1,0 +1,125 @@
+{
+  "id": "CHI_2023_CLAIMS_AND_PLAYIN_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_AFTER_TWO_SOURCE_RETURN_REPAIRS",
+  "source_hash_method": "SHA256 UTF8 BOM strip and CRLF/CR normalized to LF",
+  "source_sha256": {
+    "tools/build_chicago_2023_named_draft_claims.py": "13d236dfab8e72088968c49c020cdf87f00e422a2c87162b39f99d1cc5a845b8",
+    "research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.json": "b139af4af09a48dd1c9e345d17d05fc8e38f4cb021193f32bc3a09ed537f49e3",
+    "research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.md": "d365ae697bb33ddaacaaa2575fdb16ef8da95ba7d57701fee24b1f85af01f656",
+    "tools/build_2022_23_standings_and_2023_playin.py": "36c8e3fa3e8c77120adf41c6727f7c52a0d0450e77f494df31265256bbaccb12",
+    "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json": "cecefbc4fbca8378cacdae2f77129f26644244529d11eb216072a8fba8d224a9",
+    "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.md": "7e9a70fc7d4e2e339a9fde13eac936fcf3ede2da1650ee378284417a9f6d5ea2",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889"
+  },
+  "primary_evidence": [
+    {
+      "url": "https://www.nba.com/news/bulls-trade-wizards-porter-official-release",
+      "local_raw_sha256": "0d512510507dbd81cadb1de4d1864e037b3dc9de9011012c822f47a6b68a9653",
+      "observed_field_sha256": "a32c9d3a64fb5bd507ed9eb9ca107e2d1f34c28eab9e014a9dea8c096f46375d",
+      "finding": "2019 Porter transfer included protected Chicago 2023 second to Washington; raw and parsed article field checked"
+    },
+    {
+      "url": "https://www.nba.com/wizards/wizards-acquire-draft-pick-chicago",
+      "local_raw_sha256": "cbef465b9bb70f78c70985257ce29718210978f028f3cbaf462f79b769973a4d",
+      "observed_field_sha256": "2e46b0baa7287b699674b73f5b9e8ad6d00837efdbe0004d11ccddc42198e58d",
+      "finding": "2019 Satoransky transaction removed protection on Chicago 2023 second owed Washington; raw and parsed field checked"
+    },
+    {
+      "url": "https://pr.nba.com/bulls-heat-penalties-free-agency/",
+      "finding": "2021 historical Bulls/Heat next-available-second sanction; omission of selected historical contact does not mint a new asset"
+    },
+    {
+      "url": "https://www.nba.com/news/cavs-acquire-lauri-markkanen-from-bulls-in-3-team-trade",
+      "finding": "Original Markkanen three-team deal supplied Denver-origin 2023 second to Chicago, but selected M1 retained Markkanen and omitted that deal"
+    }
+  ],
+  "claims_direct_checks": {
+    "selected_authority_M1_A_F5_and_P1_omission": "physical pinned source meanings read; first retained, protected second WAS, incoming Denver second absent under selected fictional prior-preservation family",
+    "CHI_own_2023_first": 1,
+    "CHI_own_2023_second_available": 0,
+    "CHI_incoming_DEN_second": 0,
+    "new_standard_rookie_slot_reservation": 1,
+    "N23_and_A23_positive_unpriced": true,
+    "sanction_absence_creates_asset": false,
+    "actual_private_asset_ledger_or_whole_team_cost_certified": false
+  },
+  "standings_playin_direct_checks": {
+    "global_rows_independently_recounted": 1230,
+    "teams_with_82_regular_dates": 30,
+    "Chicago_record": [
+      46,
+      36
+    ],
+    "DEN_LAL_head_to_head": [
+      2,
+      2
+    ],
+    "DEN_LAL_western_conference_records": {
+      "DEN": "41/52",
+      "LAL": "40/52"
+    },
+    "CHA_WAS_final_regular_seed_domain": [
+      12,
+      13
+    ],
+    "played_fictional_playin_winners": [
+      "MIA",
+      "TOR",
+      "CHI",
+      "GSW",
+      "POR",
+      "NOP"
+    ],
+    "six_playin_regulation_games_recomputed_as_exact_Fraction": true,
+    "each_game_two_teams_2880_seconds_and_14400_player_seconds": true,
+    "same_selected_team_templates_Gamma_and_Chicago_H22_role_family": true,
+    "qualifiers_and_lottery_origins": [
+      16,
+      14
+    ],
+    "Chicago_playoff_seed_and_opponent": [
+      8,
+      "MIL",
+      1
+    ],
+    "actual_NBA_scores_game_ids_postseason_series_selected": false
+  },
+  "actual_independent_mutation_controls": [
+    {
+      "case": "claims returned own second holder WAS to CHI",
+      "result": "REJECTED",
+      "diagnostic": "Prior second forwarded/returned incorrectly"
+    },
+    {
+      "case": "playin game returned winner replaced by loser",
+      "result": "REJECTED",
+      "diagnostic": "Returned selected winner changed"
+    },
+    {
+      "case": "Satoransky primary return observed_summary reversed while physical article remained unchanged",
+      "initial": "FALSE_PASS",
+      "after_root_repair": "REJECTED",
+      "diagnostic": "Returned primary metadata differs from pinned physical record"
+    },
+    {
+      "case": "M1 authority source return selected.route reversed while physical source remained M1",
+      "initial": "FALSE_PASS",
+      "after_root_repair": "REJECTED",
+      "diagnostic": "Returned authority/source differs from pinned physical records"
+    }
+  ],
+  "currentness": {
+    "claims_check_passed": true,
+    "standings_playin_check_passed": true
+  },
+  "scope_limits": {
+    "named_claims_selected_in_fiction": true,
+    "all_2023_assets_or_60_draft_controls_complete": false,
+    "Chicago_first_rank_price_or_total_cost_complete": false,
+    "CHA_WAS_regular_seed_order_complete": false,
+    "actual_clinical_contract_reception_or_historical_NBA_results_certified": false,
+    "whole_G13_G14_or_manuscript_allowed": false,
+    "writer_self_tests_counted_as_independent": false
+  }
+}
