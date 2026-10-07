@@ -1,0 +1,1410 @@
+{
+  "id": "TORONTO_2021_10_25_NAMED_OPERATING_INPUT_BANK",
+  "schema_version": 1,
+  "status": "FINITE_NAMED_INPUT_COMPARISON_COMPLETE_PATHS_UNSELECTED_WHOLE_COST_HOLD",
+  "baseline_main": "51ab52af234c67ec1f34fe4dade717ba2bad9561",
+  "source_hash_method": "SHA256_UTF8_BOM_STRIPPED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "research/NBA_2021_FULL_DRAFT_WORKING_BOARD_2026_10_07.json": "90099928f9133c4087ee7871939ce58216d183bd186f5ebd3575a56c2348eeed",
+    "simulation/NBA_2021_FULL_DRAFT_COMPARISON_INPUTS.json": "ab916ca4b1805be8b780532a744c975dd0c63d56f9c9411310d3848f27508b8f",
+    "simulation/NBA_2021_FULL_DRAFT_COMPARISON.md": "758e4d741788976aae5149904cd88016cf35a5618d1bfd2eeb5c792e7088ee51",
+    "research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json": "b06b071a0bf77bbff05d01d8adfa62472b4c3b90cca8aa2373ced9034712899a",
+    "research/BKN_WAS_2021_PRE_JORDAN_NAMED_EXECUTION_FAMILY_2026_10_07.json": "a0e9ede786047a43abac4d21785b68ae55190e3d768096618ed010147906017b",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183"
+  },
+  "target": {
+    "date": "2021-10-25",
+    "game_id": "0022100046",
+    "home": "TOR",
+    "away": "CHI",
+    "source_calendar": "simulation/CHICAGO_2021_22_CALENDAR.csv",
+    "original_score_and_OT_not_selected_as_alternate_result": true
+  },
+  "seed_binding": {
+    "phase": "REGULAR",
+    "event_id": "2021-05-16_TOR_IND",
+    "date": "2021-05-16",
+    "team": "TOR",
+    "state_id": "TOR:53a7a612da5d115b",
+    "minute_source": {
+      "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+      "pointer": "team_games:event_id=2021-05-16_TOR_IND;team=TOR"
+    },
+    "positive_membership_covered": true,
+    "unresolved_gap_ids": [],
+    "modeled_absent_source_names": [],
+    "working_named_hardship_families": [],
+    "working_named_hardship_capacity": 0,
+    "actual_hardship_medical_or_league_approval_certified": false
+  },
+  "seed_roster_state": {
+    "team": "TOR",
+    "players": [
+      {
+        "player": "Aron Baynes",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Chris Boucher",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "DeAndre' Bembry",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Freddie Gillespie",
+        "contract_class": "STANDARD",
+        "source_origin": "FEED:5320",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Fred VanVleet",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Jalen Harris",
+        "contract_class": "TWO_WAY",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Khem Birch",
+        "contract_class": "STANDARD",
+        "source_origin": "FEED:5371",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Kyle Lowry",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Malachi Flynn",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Norman Powell",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "OG Anunoby",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Pascal Siakam",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Paul Watson",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Stanley Johnson",
+        "contract_class": "STANDARD",
+        "source_origin": "OPENING_PDF",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      },
+      {
+        "player": "Yuta Watanabe",
+        "contract_class": "STANDARD",
+        "source_origin": "FEED:5350",
+        "working_expiry_inclusive": null,
+        "medical_status": null
+      }
+    ],
+    "standard_count": 14,
+    "two_way_count": 1,
+    "actual_registration_certified": false
+  },
+  "DB1_conditional_TOR_draft_ports": [
+    {
+      "pick": 8,
+      "round": 1,
+      "origin": "TOR",
+      "frozen_before_optional_offseason_holder": "TOR",
+      "conditional_holder_at_selection": "TOR",
+      "selecting_team": "TOR",
+      "conditional_final_draft_rights_holder": "TOR",
+      "player": "Josh Giddey",
+      "prior_selected_player_count": 7,
+      "available_when_selected_in_this_board": true,
+      "remaining_comparison_candidates": [
+        "Josh Giddey",
+        "Moses Moody",
+        "Alperen Sengun",
+        "Davion Mitchell",
+        "James Bouknight"
+      ],
+      "public_identity_evidence": {
+        "observed_prospect_name": "Josh Giddey",
+        "locator": "2021prospects NAME table webline188",
+        "source": "https://www.nba.com/draft/2021/prospects",
+        "observed_age_explicitly_excluded_from_2021_inputs": true,
+        "school_status_measurements_not_used_as_counterfactual_biography": true
+      },
+      "name_alias_used": null,
+      "candidate_legal_participation_condition": true,
+      "actual_counterfactual_eligibility_or_medical_certified": false,
+      "original_G7_reasoning_source": "simulation/NBA_2021_FULL_DRAFT_COMPARISON.md",
+      "new_author_lock": false,
+      "new_NBA_contract_or_tender": false,
+      "execution_class": "UNSELECTED_OTHER_DRAFTEE_CANDIDATE",
+      "conditional_asset_event": null
+    },
+    {
+      "pick": 46,
+      "round": 2,
+      "origin": "MEM",
+      "frozen_before_optional_offseason_holder": "TOR",
+      "conditional_holder_at_selection": "TOR",
+      "selecting_team": "TOR",
+      "conditional_final_draft_rights_holder": "TOR",
+      "player": "Dalano Banton",
+      "prior_selected_player_count": 45,
+      "available_when_selected_in_this_board": true,
+      "remaining_comparison_candidates": [
+        "Dalano Banton",
+        "David Johnson",
+        "Sam Hauser",
+        "Joel Ayayi",
+        "Austin Reaves"
+      ],
+      "public_identity_evidence": {
+        "observed_prospect_name": "Dalano Banton",
+        "locator": "2021prospects NAME table webline165",
+        "source": "https://www.nba.com/draft/2021/prospects",
+        "observed_age_explicitly_excluded_from_2021_inputs": true,
+        "school_status_measurements_not_used_as_counterfactual_biography": true
+      },
+      "name_alias_used": null,
+      "candidate_legal_participation_condition": true,
+      "actual_counterfactual_eligibility_or_medical_certified": false,
+      "original_G7_reasoning_source": "simulation/NBA_2021_FULL_DRAFT_COMPARISON.md",
+      "new_author_lock": false,
+      "new_NBA_contract_or_tender": false,
+      "execution_class": "UNSELECTED_OTHER_DRAFTEE_CANDIDATE",
+      "conditional_asset_event": null
+    },
+    {
+      "pick": 48,
+      "round": 2,
+      "origin": "GSW",
+      "frozen_before_optional_offseason_holder": "TOR",
+      "conditional_holder_at_selection": "TOR",
+      "selecting_team": "TOR",
+      "conditional_final_draft_rights_holder": "TOR",
+      "player": "Sam Hauser",
+      "prior_selected_player_count": 47,
+      "available_when_selected_in_this_board": true,
+      "remaining_comparison_candidates": [
+        "Sam Hauser",
+        "David Johnson",
+        "Austin Reaves",
+        "Aaron Wiggins",
+        "Joel Ayayi"
+      ],
+      "public_identity_evidence": {
+        "observed_prospect_name": "Sam Hauser",
+        "locator": "2021prospects NAME table webline193",
+        "source": "https://www.nba.com/draft/2021/prospects",
+        "observed_age_explicitly_excluded_from_2021_inputs": true,
+        "school_status_measurements_not_used_as_counterfactual_biography": true
+      },
+      "name_alias_used": null,
+      "candidate_legal_participation_condition": true,
+      "actual_counterfactual_eligibility_or_medical_certified": false,
+      "original_G7_reasoning_source": "simulation/NBA_2021_FULL_DRAFT_COMPARISON.md",
+      "new_author_lock": false,
+      "new_NBA_contract_or_tender": false,
+      "execution_class": "UNSELECTED_OTHER_DRAFTEE_CANDIDATE",
+      "conditional_asset_event": null
+    }
+  ],
+  "live_original_contract_ports": [
+    {
+      "name": "Pascal Siakam",
+      "slug": "pascal-siakam",
+      "contract_signing_date_reported": "2019-10-21",
+      "full_contract_terminal_season_endpoint": "2024-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 33003936,
+      "historical_contract_row": [
+        "2021-22 Max",
+        "",
+        "",
+        "$33,003,936",
+        "$33,003,936 (+8%)",
+        "$33,003,936",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/pascal-siakam",
+      "raw_sha256": "372b84103fa51a76767ad9fc51fcbe97a3b66aae5b5d52b30a5ddb47fd813bbf",
+      "scope_note": "ordinary live extension; future max adjustment/bonuses retain source family",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Fred VanVleet",
+      "slug": "fred-vanvleet",
+      "contract_signing_date_reported": "2020-11-24",
+      "full_contract_terminal_season_endpoint": "2024-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 19675926,
+      "historical_contract_row": [
+        "2021-22",
+        "",
+        "",
+        "$19,675,926",
+        "$19,675,926 (-7%)",
+        "$19,675,926",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/fred-vanvleet",
+      "raw_sha256": "93dff41c54f3145e3189f83f2a92b9f12871612f135a35b8aea6cba9ae346d3d",
+      "scope_note": "2023–24 player option is future, not exercised here",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "OG Anunoby",
+      "slug": "og-anunoby",
+      "contract_signing_date_reported": "2020-12-21",
+      "full_contract_terminal_season_endpoint": "2025-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 16071429,
+      "historical_contract_row": [
+        "2021-22",
+        "",
+        "",
+        "$16,071,429",
+        "$16,071,429",
+        "$16,071,429",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/og-anunoby",
+      "raw_sha256": "fcbdfd3ee307c97429ca332a4f5c41f6713823597673dcf19a5e8a7e7face45d",
+      "scope_note": "ordinary four-year extension; vendor designated label is not a legal five-year classification",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Malachi Flynn",
+      "slug": "malachi-flynn",
+      "contract_signing_date_reported": "2020-11-27",
+      "full_contract_terminal_season_endpoint": "2024-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 2048040,
+      "historical_contract_row": [
+        "2021-22",
+        "",
+        "",
+        "$2,048,040",
+        "$1,706,700 (-13%)",
+        "$1,706,700",
+        "$341,340",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/malachi-flynn",
+      "raw_sha256": "71301378a96442c31b8dd05e36d33c07a082cd4e35ab32f08fe2b061a10e039c",
+      "scope_note": "year2 live; year3 option October19 affects 2022–23 only",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Chris Boucher",
+      "slug": "chris-boucher",
+      "contract_signing_date_reported": "2020-11-25",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 7020000,
+      "historical_contract_row": [
+        "2021-22",
+        "",
+        "",
+        "$7,020,000",
+        "$7,020,000 (+8%)",
+        "$7,020,000 (0→7.02M)",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/chris-boucher",
+      "raw_sha256": "654810447a5b81600d8ed59cf21a8c664659621c8d7c3194cab70bd0b494dd89",
+      "scope_note": "non-guaranteed year2, not a team option; protection/waiver action needs separate model",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Aron Baynes",
+      "slug": "aron-baynes",
+      "contract_signing_date_reported": "2020-11-24",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 7350000,
+      "historical_contract_row": [
+        "2021-22 W",
+        "",
+        "",
+        "$7,350,000",
+        "$7,350,000 (+5%)",
+        "$0",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/aron-baynes",
+      "raw_sha256": "eabf0eed4f79c7a32a481347f34cd7a0a01728041cfce51fa9ac3eb6469b8ea6",
+      "scope_note": "non-guaranteed year2, not a team option; historical August4 waiver not automatically inherited",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "DeAndre' Bembry",
+      "slug": "deandre-bembry",
+      "contract_signing_date_reported": "2020-11-25",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 1977011,
+      "historical_contract_row": [
+        "2021-22 W",
+        "",
+        "",
+        "$1,977,011",
+        "$1,977,011 (+14%)",
+        "$0",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/deandre-bembry",
+      "raw_sha256": "5a694d483f8891ccf22fd324eacaa7365a68d61b22d5d1cd06fae7436fea5d5b",
+      "scope_note": "non-guaranteed year2; historical August3 waiver/new BKN UPC cannot coexist with retained TOR UPC",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Paul Watson",
+      "slug": "paul-watson-jr",
+      "contract_signing_date_reported": "2020-12-19",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 1701593,
+      "historical_contract_row": [
+        "2021-22 W",
+        "",
+        "",
+        "$1,701,593",
+        "$1,701,593 (+18%)",
+        "$0",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/paul-watson-jr",
+      "raw_sha256": "dbcdb0ca025ef5b41fa7f795550ed104dfe4f43a2909b638b8875c04dea2814d",
+      "scope_note": "vendor signing December19 vs official announcement December20; historical August3 waiver/OKC TW not automatic",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Freddie Gillespie",
+      "slug": "freddie-gillespie",
+      "contract_signing_date_reported": "2021-04-28",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 1517981,
+      "historical_contract_row": [
+        "2021-22 W",
+        "",
+        "",
+        "$1,517,981",
+        "$1,517,981 (+1199%)",
+        "$50,000 (0→50.0k)",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/freddie-gillespie",
+      "raw_sha256": "b85495b0b2a70d832ef72af22b3bd3c7488baae31c983059df3be5d70eec4550",
+      "scope_note": "partial protection reported50k; historical October13 waiver is different from T0 retention",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    },
+    {
+      "name": "Yuta Watanabe",
+      "slug": "yuta-watanabe",
+      "contract_signing_date_reported": "2021-04-19",
+      "full_contract_terminal_season_endpoint": "2022-06-30",
+      "current_2021_22_contract_year_live_without_new_signature": true,
+      "reported_current_cap_hit": 1762796,
+      "historical_contract_row": [
+        "2021-22",
+        "",
+        "",
+        "$1,762,796",
+        "$1,762,796 (+448%)",
+        "$1,762,796 (0→375k) (375k→1.76M)",
+        "$0",
+        "$0"
+      ],
+      "row_locator": "Season2021–22 row in original TOR multi-year contract table; matched CapHit, not current latest contract",
+      "source_url": "https://www.salaryswish.com/players/yuta-watanabe",
+      "raw_sha256": "80f48fcaf297d36253918dea409bec7252868c34a872e3821235e58146e85128",
+      "scope_note": "standard conversion, year2 protection stages; not generic team option",
+      "actual_protection_assignment_bonus_or_private_complete_salary_certified": false
+    }
+  ],
+  "expired_option_and_new_contract_ports": [
+    {
+      "name": "Norman Powell",
+      "type": "TOR_RETAINED_PLAYER_OPTION_OR_FULL_BIRD_UFA",
+      "old_PO_2021_22_reported": 11615328,
+      "original_contract_signing": "2017-09-25",
+      "candidate_choices": [
+        "P0 exercise retained original PO before applicable deadline",
+        "P1 decline PO then valid Toronto full Bird new agreement from August6"
+      ],
+      "selection": null,
+      "historical_POR_PO_decline_or_five_year_90m_NOT_TOR_fact": true
+    },
+    {
+      "name": "Kyle Lowry",
+      "type": "TOR_FULL_BIRD_UFA_OR_UNSELECTED_MIA_SIGN_AND_TRADE",
+      "old_endpoint": "2021-06-30",
+      "old_reported_cap": 30500000,
+      "ordinary_FA_hold_reported": 39344900,
+      "historical_MIA_26984128_first_year_NOT_selected": true,
+      "selection": null
+    },
+    {
+      "name": "Khem Birch",
+      "type": "TOR_ONE_PRIOR_SEASON_NON_BIRD_OR_MINIMUM_OR_FUNDED_NTMLE",
+      "old_endpoint": "2021-06-30",
+      "prior_ORL_waiver_resets_Bird_clock": true,
+      "reported_historical_6350000_three_year_NTMLE_not_adopted": true,
+      "NTMLE_aggregate_and_whole_apron_required_if_used": true,
+      "full_Bird_not_available_from_one_TOR_season": true,
+      "selection": null
+    },
+    {
+      "name": "Stanley Johnson",
+      "type": "EXPIRED_UFA_NOT_IN_EITHER_SELECTED_ROSTER",
+      "old_endpoint": "2021-06-30",
+      "ordinary_FA_charge_requires_sign_elsewhere_or_valid_renounce_not_automatic_zero": true
+    },
+    {
+      "name": "Jalen Harris",
+      "type": "FIRST_YEAR_DISQUALIFICATION_NOT_ORDINARY_RFA",
+      "historical_official_action_date": "2021-07-01",
+      "original_fact": "First-year player dismissed; eligible to apply after one year.",
+      "working_adoption": null,
+      "UPC_null_subject_to_CBA_exception_not_cash_or_stipend_zero": true,
+      "reinstatement_after_one_year_is_not_automatic": true,
+      "not_in_T0_or_T1_TW_slot": true,
+      "clinical_fact_or_treatment_certified": false
+    },
+    {
+      "name": "Josh Giddey",
+      "type": "DB1_NUMBER8_DRAFT_ROOKIE_RSC",
+      "rights_holder_conditional": "TOR",
+      "source_foreign_club_active_roster_release_date": "2021-05-17",
+      "release_is_not_certified_total_foreign_contract_termination": true,
+      "required_steps": [
+        "valid Toronto draft right and season-specific required tender",
+        "lawful release/expiry/party-approved NBA availability of any surviving foreign obligation",
+        "ordinary RSC80–120 plus applicable minimum and full bonus/currentcharge family"
+      ],
+      "NBA_UPC": null
+    },
+    {
+      "name": "Dalano Banton",
+      "type": "DB1_NUMBER46_SECOND_ROUND_STANDARD_MINIMUM_CANDIDATE",
+      "rights_holder_conditional": "TOR",
+      "required_steps": [
+        "valid season-specific second-round tender/acceptance or negotiated UPC under Toronto exclusive rights",
+        "1–2year lawful minimum form or independently funded exception"
+      ],
+      "historical_announced_TOR_multiyear_is_comparator_not_exact_candidate_salary": true,
+      "NBA_UPC": null
+    },
+    {
+      "name": "Sam Hauser",
+      "type": "DB1_NUMBER48_DRAFT_ROOKIE_TWO_WAY_CANDIDATE",
+      "rights_holder_conditional": "TOR",
+      "modeled_YOS": 0,
+      "required_steps": [
+        "Toronto exclusive right/tender lawfully resolved into consented1yearTW",
+        "II11 eligibility/nooption/no fourthYOS; no historical Boston UDFA status copied"
+      ],
+      "historical_BOS_TW_NOT_TOR_contract": true,
+      "NBA_UPC": null
+    },
+    {
+      "name": "Justin Champagnie",
+      "type": "UNSELECTED_UDFA_ONE_YEAR_TWO_WAY_CANDIDATE",
+      "modeled_YOS": 0,
+      "required_steps": [
+        "eligible actual participant in declared draft family remains undrafted and unencumbered",
+        "consensual Toronto1yearTW under modified2021rules"
+      ],
+      "historical_TOR_Aug7_announcement_comparator": true,
+      "NBA_UPC": null
+    },
+    {
+      "name": "Goran Dragic",
+      "type": "UNSELECTED_MIA_TEAM_OPTION_THEN_ASSIGNMENT_IN_T1",
+      "reported_current_salary": 19440000,
+      "historical_TO_used_date_reported": "2021-08-01",
+      "candidate_effective_exercise_and_assignment": null,
+      "future_year_rookie_or_PO_not_confused": true
+    },
+    {
+      "name": "Precious Achiuwa",
+      "type": "UNSELECTED_MIA_LIVE_SECOND_ROOKIE_YEAR_ASSIGNMENT_IN_T1",
+      "reported_current_cap": 2711280,
+      "reported_base": 2511280,
+      "reported_likely_bonus": 200000,
+      "full_incoming_bonus_and_matching_required": true,
+      "future_year3_option_not_currentyear_condition": true
+    },
+    {
+      "name": "Svi Mykhailiuk",
+      "type": "NEW_NON_PRIOR_FREE_AGENT_MINIMUM_CANDIDATE_T1",
+      "possible_term": "1–2years; second-year PO only when lawful candidate expressly agreed",
+      "actual_historical_2022_PO_not_selected": true,
+      "NBA_UPC": null
+    },
+    {
+      "name": "Sam Dekker",
+      "type": "NEW_NON_PRIOR_FREE_AGENT_MINIMUM_CANDIDATE_T1",
+      "foreign_NBA_impediment_lawful_resolution_condition": true,
+      "actual_TOR_350000_protection_and_Nov6waiver_NOT_copied": true,
+      "NBA_UPC": null
+    },
+    {
+      "name": "Isaac Bonga",
+      "type": "ALTERED_WAS_UNSIGNED_RIGHTS_TO_TOR_CANDIDATE_T1",
+      "modeled_NBA_YOS": 0,
+      "historical_TOR_3YOS_row_not_applied": true,
+      "NBA_UPC": null
+    }
+  ],
+  "Bonga_finite_rights_boundary": {
+    "prior_reviewed_window_end": "2021-05-18",
+    "source_reviewed_family": "research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json",
+    "2021_natural_Subsequent_Draft_subject_to_X5": true,
+    "original_Frankfurt_four_year_report_is_not_exact_expiry_or_professional_classification_certificate": true,
+    "after_Subsequent_status": null,
+    "new_foreign_contract_created": false,
+    "admissible_inputs": [
+      "X5-survivingWASright: valid annualTender and actual applicable availability/impediment relation",
+      "X6 Subsequent process: valid annualTender/eligibility under original early-entry rule subjectX5",
+      "lawfully lapsed right: resulting reentry/free-agent pool must remain consistent with conditional DB1board"
+    ],
+    "implementation_actions_if_WAS_right_survives": [
+      "X7 lawful TOR acquisition of existing draft right: same but no greater right; transaction consideration still candidate",
+      "X4(f) timely withdrawal of outstanding Tender with player written agreement where needed, or X4(g) express written renunciation outside acceptance period; then lawful RookieFA contract"
+    ],
+    "foreign_condition": "Any surviving original obligation must be lawfully ended/released or NBA assignment authorized by all required parties; no inferred expiry/no invented overseas extension.",
+    "whole_rights_to_TOR_at_Oct25_certified": false,
+    "minimum_contract_start_YOS": 0,
+    "apron_draft_rookie_vs_rookie_FA_classification_depends_on_chosen_legal_action": true
+  },
+  "operating_paths": {
+    "T0": {
+      "status": "UNSELECTED_RETENTION_INPUT_FAMILY",
+      "standard": [
+        "Pascal Siakam",
+        "Fred VanVleet",
+        "OG Anunoby",
+        "Malachi Flynn",
+        "Chris Boucher",
+        "Aron Baynes",
+        "DeAndre' Bembry",
+        "Paul Watson",
+        "Freddie Gillespie",
+        "Yuta Watanabe",
+        "Norman Powell",
+        "Kyle Lowry",
+        "Khem Birch",
+        "Josh Giddey",
+        "Dalano Banton"
+      ],
+      "two_way": [
+        "Sam Hauser",
+        "Justin Champagnie"
+      ],
+      "STD_count": 15,
+      "TW_count": 2,
+      "required_actions": [
+        "do not adopt Baynes/Bembry/Watson/Gillespie historical waivers",
+        "PowellP0orP1; LowryBird and Birch lawful selected new agreement if no live contract",
+        "DB1 Giddey/Banton legal standard contracts; Hauser/Champagnie legal TW"
+      ],
+      "cross_team_conflicts": [
+        "Bembry original BKN new UPC is unavailable if same TOR UPC retained",
+        "Watson original OKC TW is unavailable while same TOR standard retained"
+      ]
+    },
+    "T1": {
+      "status": "UNSELECTED_LOWRY_SIGN_AND_TRADE_INPUT_FAMILY",
+      "standard": [
+        "Pascal Siakam",
+        "Fred VanVleet",
+        "OG Anunoby",
+        "Malachi Flynn",
+        "Chris Boucher",
+        "Yuta Watanabe",
+        "Norman Powell",
+        "Khem Birch",
+        "Josh Giddey",
+        "Dalano Banton",
+        "Goran Dragic",
+        "Precious Achiuwa",
+        "Svi Mykhailiuk",
+        "Sam Dekker",
+        "Isaac Bonga"
+      ],
+      "two_way": [
+        "Sam Hauser",
+        "Justin Champagnie"
+      ],
+      "STD_count": 15,
+      "TW_count": 2,
+      "required_actions": [
+        "four named lawful releases Baynes/Bembry/Watson/Gillespie before closed17 roster; protection/carry charges persist",
+        "Lowry S&T to MIA+Dragic/Precious incoming complete atom with receivingMIA hardcap/costs/consents",
+        "Powell/Birch and DB1 rookie contracts; Svi/Dekker legal minimum new agreements",
+        "Bonga prior window→Subsequent/X5→valid TOR right or lawful RookieFA bridge"
+      ],
+      "whole_atom_and_whole_cost_verified": false
+    },
+    "both": {
+      "selected_path": null,
+      "new_author_lock": false,
+      "observed_contracts_are_not_new_selected_consent": true,
+      "minimum_does_not_mean_minimum_exact_salary_selected": true
+    }
+  },
+  "NBA_legal_requirements": {
+    "2021_negotiations_begin_ET": "2021-08-02T18:00",
+    "2021_FA_signings_begin_ET": "2021-08-06T12:01",
+    "2021_regular_season_begins": "2021-10-19",
+    "standard_max": 15,
+    "two_way_max": 2,
+    "ordinary_game_active_min": 12,
+    "2021_game_active_max": 15,
+    "game_bench_min": 8,
+    "TW_regular_active_game_max": 50,
+    "TW_pay_modified_2021": "50%0YOSannualminimum",
+    "TW_January15_signing_cutoff_applies_2021_22": false,
+    "TW_2017_45day_rule_applied_here": false,
+    "new_minimum_UPC_max_years": 2,
+    "new_minimum_bonuses_permitted": false,
+    "TW_excluded_from_TeamSalary_VII4j": true,
+    "Giddey_unsigned_first100percent_hold_beforeRSC_and_apron_required_tender_after_condition_distinguished": true,
+    "current_roster_not_ordinary_hold_zero_proof": true,
+    "healthy_or_active_15_NBA_certification": false,
+    "inactive_requirements": "XXIX2 applies separately, including TW placement adjustment; default safe model12standard active/3standard inactive and TWnot placed unless properly nominated."
+  },
+  "whole_cost_boundary": {
+    "T0_live10_reported_cap_partial_sum": 92128712,
+    "partial_sum_is_complete_upper": false,
+    "whole_normal_TeamSalary_upper": null,
+    "whole_apron_TeamSalary_upper": null,
+    "named_required_categories": [
+      "LIVE10 full currentSalary/bonuses/protection plus retainedPowell currentPO or newBird and exactcandidate incoming ifT1",
+      "new Lowry/Powell/Birch standard salary and GiddeyRSC/Bantonminimum; Svi/Dekker/Bonga inT1",
+      "T1 four release protections/legacydead/camp cost family with positive source periods, not waiverzero",
+      "Harris invalidatedUPC/possible permitted stipend/grievance and future reinstatement boundary",
+      "expiredFA holds/QOifapplicable/unsignedTender rights; no hold elimination inferred from roster omission",
+      "2021 annual exception eligibility/unuseddeemedcharges/use/valid renunciation; chosenNTMLE triggers wholeapron gate"
+    ],
+    "NTMLE_or_BAE_or_receiving_S_and_T_triggers_need_whole_applicable_apron_test": true,
+    "T1_TOR_ordinary_incoming_Dragic_Precious_does_not_alone_trigger_receiving_S_and_T_hardcap": true,
+    "T1_MIA_receiving_Lowry_S_and_T_does_trigger": true,
+    "Bird_plus_legalminimum_alone_is_not_new_hardcap": true,
+    "unreported_new_future_resolution_not_mandatory_family_member": true,
+    "actual_private_zero_or_exactcent_certificate": false
+  },
+  "handoff_role_function_interface": {
+    "function_kind": "TOR_NAMED_ROSTER_CAPACITY_CONDITIONAL_FAMILY",
+    "target_key": [
+      "0022100046",
+      "2021-10-25",
+      "TOR",
+      "CHI"
+    ],
+    "input_parameters": [
+      "path T0orT1 unselected",
+      "PowellPOorBirdform; Lowry/Birch agreementmechanism",
+      "GiddeyRSC/Bantonstandard/HauserTW draftbridge",
+      "T1_lowry_atom/4releases/Bonga_rights_bridge",
+      "perplayer availability/registerednomination under continuing delegation",
+      "new team240minute regularorOT source-correct role function"
+    ],
+    "mandatory_outputs": [
+      "exactSTD15TW2 names and identity consistency with all other teams",
+      "positiveplayers contained in lawful registered family",
+      "12–15workingactive/bench8; TW50active limit",
+      "5unique onfloor perblock and240regminutes/OTbudgetifselected",
+      "fullchargefamily separate from partial92128712"
+    ],
+    "existing_2020_21_minutes_carried_forward": false,
+    "function_implemented_here": false,
+    "new_opponent_functions_are_parent_next_scope_27_not_completed_by_input_bank": true,
+    "exact_opponent_minutes_results_or_health_selected": false
+  },
+  "source_evidence": {
+    "raw_attempts_and_successes": [
+      {
+        "id": "raptors-sign-banton",
+        "url": "https://www.nba.com/raptors/raptors-sign-banton",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-sign-banton.html",
+        "raw_sha256": "ee535d4c652533ec0836d66270ae3de735b5370e0ca11e51c7fbd3cc70cd44f0",
+        "bytes": 404,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "raptors-sign-baynes",
+        "url": "https://www.nba.com/raptors/raptors-sign-baynes",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-sign-baynes.html",
+        "raw_sha256": "7bb98ec98c12c92da65610fcfd01d6d8ee61719864a1b3eb1f61fd120255a32d",
+        "bytes": 404,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "raptors-re-sign-boucher",
+        "url": "https://www.nba.com/raptors/raptors-re-sign-boucher",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-re-sign-boucher.html",
+        "raw_sha256": "68bce3cc953279dfa09ff4e971b34156382d29925e7555c4a9fdfc3950e28543",
+        "bytes": 412,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "raptors-sign-watson-watanabe",
+        "url": "https://www.nba.com/raptors/raptors-sign-watson-watanabe",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-sign-watson-watanabe.html",
+        "raw_sha256": "a8febf764ad2593bf4051d20239b888e746a2fc17925f088d884e3b2a536c5ee",
+        "bytes": 417,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "raptors-sign-bonga",
+        "url": "https://www.nba.com/raptors/raptors-sign-bonga",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-sign-bonga.html",
+        "raw_sha256": "adf682ad1eb9c2535af1df634a6c3237e299648461979912cbb57554abb089df",
+        "bytes": 403,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "raptors-re-sign-birch",
+        "url": "https://www.nba.com/raptors/raptors-re-sign-birch",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\raptors-re-sign-birch.html",
+        "raw_sha256": "1af79bf3a92db541a0688e15c054115f28a29f6ad8be2d8783a5c4b958c7f2dc",
+        "bytes": 410,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "HARRIS",
+        "url": "https://official.nba.com/torontos-jalen-harris-dismissed-and-disqualified-from-the-nba-for-violation/",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\HARRIS.html",
+        "raw_sha256": "48f7587dda98f9d2c94f0ad561b1e54575e802ab831d7cd32e912d216d6d9545",
+        "bytes": 425,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "DRAFTPROFILE",
+        "url": "https://www.nba.com/draft/2021/team-profiles/toronto-raptors",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\DRAFTPROFILE.html",
+        "raw_sha256": "782ba3ed0e703d6646d0fa8f8455b82611bf6412ad99afd8e3439b1943e7fbd1",
+        "bytes": 425,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "CHAMPAGNIE",
+        "url": "https://www.nba.com/raptors/raptors-sign-wainright-champagnie",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\CHAMPAGNIE.html",
+        "raw_sha256": "c0dd60bfe07f803e824305ba599ba7dac15cd671c8977cfcea3add104ab10fdd",
+        "bytes": 422,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "GILLESPIE",
+        "url": "https://www.nba.com/raptors/news/raptors-waive-gillespie-and-perry",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\GILLESPIE.html",
+        "raw_sha256": "fd6bf28d7d1292d3f43207d51e136e08861f5ede1750390d2af69525319748ae",
+        "bytes": 435,
+        "next_data": false,
+        "adopted_provider_body": false,
+        "role": "FAILED_PRIMARY_BODY_ATTEMPT"
+      },
+      {
+        "id": "SS_pascal-siakam",
+        "url": "https://www.salaryswish.com/players/pascal-siakam",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_pascal-siakam.html",
+        "raw_sha256": "372b84103fa51a76767ad9fc51fcbe97a3b66aae5b5d52b30a5ddb47fd813bbf",
+        "bytes": 106961,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_fred-vanvleet",
+        "url": "https://www.salaryswish.com/players/fred-vanvleet",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_fred-vanvleet.html",
+        "raw_sha256": "93dff41c54f3145e3189f83f2a92b9f12871612f135a35b8aea6cba9ae346d3d",
+        "bytes": 117624,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_og-anunoby",
+        "url": "https://www.salaryswish.com/players/og-anunoby",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_og-anunoby.html",
+        "raw_sha256": "fcbdfd3ee307c97429ca332a4f5c41f6713823597673dcf19a5e8a7e7face45d",
+        "bytes": 106885,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_malachi-flynn",
+        "url": "https://www.salaryswish.com/players/malachi-flynn",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_malachi-flynn.html",
+        "raw_sha256": "71301378a96442c31b8dd05e36d33c07a082cd4e35ab32f08fe2b061a10e039c",
+        "bytes": 105339,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_chris-boucher",
+        "url": "https://www.salaryswish.com/players/chris-boucher",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_chris-boucher.html",
+        "raw_sha256": "654810447a5b81600d8ed59cf21a8c664659621c8d7c3194cab70bd0b494dd89",
+        "bytes": 129186,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_aron-baynes",
+        "url": "https://www.salaryswish.com/players/aron-baynes",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_aron-baynes.html",
+        "raw_sha256": "eabf0eed4f79c7a32a481347f34cd7a0a01728041cfce51fa9ac3eb6469b8ea6",
+        "bytes": 119190,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_deandre-bembry",
+        "url": "https://www.salaryswish.com/players/deandre-bembry",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_deandre-bembry.html",
+        "raw_sha256": "5a694d483f8891ccf22fd324eacaa7365a68d61b22d5d1cd06fae7436fea5d5b",
+        "bytes": 114602,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_paul-watson",
+        "url": "https://www.salaryswish.com/players/paul-watson",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_paul-watson.html",
+        "raw_sha256": "24413809092f83d4adce46cd308d216b021a945c43998291aa4ca3c8e09e15b5",
+        "bytes": 81159,
+        "adopted_provider_body": false,
+        "role": "HTTP200_PLAYER_NOT_FOUND_NOT_CONTRACT_EVIDENCE"
+      },
+      {
+        "id": "SS_freddie-gillespie",
+        "url": "https://www.salaryswish.com/players/freddie-gillespie",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_freddie-gillespie.html",
+        "raw_sha256": "b85495b0b2a70d832ef72af22b3bd3c7488baae31c983059df3be5d70eec4550",
+        "bytes": 120128,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_yuta-watanabe",
+        "url": "https://www.salaryswish.com/players/yuta-watanabe",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_yuta-watanabe.html",
+        "raw_sha256": "80f48fcaf297d36253918dea409bec7252868c34a872e3821235e58146e85128",
+        "bytes": 121699,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_norman-powell",
+        "url": "https://www.salaryswish.com/players/norman-powell",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_norman-powell.html",
+        "raw_sha256": "c69fff94db4171bfb54a494ca1f66ed2a8347742ee4d29da66205e426cf021e1",
+        "bytes": 110889,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_khem-birch",
+        "url": "https://www.salaryswish.com/players/khem-birch",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_khem-birch.html",
+        "raw_sha256": "1968ef1010cfc9563c5d5d1bd216414b37827bcdd7249b893e5d71d74625c9c2",
+        "bytes": 120966,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_kyle-lowry",
+        "url": "https://www.salaryswish.com/players/kyle-lowry",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_kyle-lowry.html",
+        "raw_sha256": "6bec8fb618503b7bf06b4df01ab60db22a698a6693efe0a8844cd2b747d57e40",
+        "bytes": 140745,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_sam-hauser",
+        "url": "https://www.salaryswish.com/players/sam-hauser",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_sam-hauser.html",
+        "raw_sha256": "38cd1d97c66264b12fd7f214de2d3ffdef37058fe471019bb7bc1fca3828adaa",
+        "bytes": 110734,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_justin-champagnie",
+        "url": "https://www.salaryswish.com/players/justin-champagnie",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_justin-champagnie.html",
+        "raw_sha256": "ab1dee2c8404bb57b1dd304918713658f97f2ec2dde7c67cf5fa8295af7d2ffa",
+        "bytes": 132065,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "svi-mykhailiuk",
+        "url": "https://www.salaryswish.com/players/svi-mykhailiuk",
+        "http_status": 200,
+        "raw_sha256": "24413809092f83d4adce46cd308d216b021a945c43998291aa4ca3c8e09e15b5",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\svi-mykhailiuk.html",
+        "bytes": 81159,
+        "adopted_provider_body": false,
+        "role": "HTTP200_PLAYER_NOT_FOUND_NOT_CONTRACT_EVIDENCE"
+      },
+      {
+        "id": "sam-dekker",
+        "url": "https://www.salaryswish.com/players/sam-dekker",
+        "http_status": 200,
+        "raw_sha256": "696d93cf2b713f54b9e63b7ad5c62da732e4b6d858966557fef79c434c90c5d9",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\sam-dekker.html",
+        "bytes": 93405,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "isaac-bonga",
+        "url": "https://www.salaryswish.com/players/isaac-bonga",
+        "http_status": 200,
+        "raw_sha256": "268f7443c2a4a03c0493161bfd1739af7bf3714dd4cd5cbb7cdf4b0d9300d628",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\isaac-bonga.html",
+        "bytes": 98936,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "goran-dragic",
+        "url": "https://www.salaryswish.com/players/goran-dragic",
+        "http_status": 200,
+        "raw_sha256": "d5b06f1944ee505de917453118bae3bd9c93242dfaecb4b305161e7791f6a363",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\goran-dragic.html",
+        "bytes": 130237,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "precious-achiuwa",
+        "url": "https://www.salaryswish.com/players/precious-achiuwa",
+        "http_status": 200,
+        "raw_sha256": "2d81394654d1afb10dc0259fa84fc9c5f92fb55d395f8b2801aa4625a3f53f9e",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\precious-achiuwa.html",
+        "bytes": 117684,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "GIDDEY_CLUB",
+        "url": "https://www.adelaide36ers.com/news/josh-giddey-released-from-adelaide-36ers-active-playing-roster-as-club-supports-his-next-step",
+        "http_status": 200,
+        "raw_sha256": "519e2f8eb4f937b24819e0f8cfd469624ce701b9692297c7a5fee824b3b64991",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\GIDDEY_CLUB.html",
+        "bytes": 147609,
+        "adopted_provider_body": true,
+        "role": "OFFICIAL_FOREIGN_PROVIDER"
+      },
+      {
+        "id": "GIDDEY_NBL",
+        "url": "https://www.nbl.com.au/news/josh-giddey-to-prepare-for-nba-draft",
+        "http_status": 200,
+        "raw_sha256": "57541d90d3603bc23035b5accc8ad0ce18e777f67e4a5598d125d9b7f0f40c04",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\GIDDEY_NBL.html",
+        "bytes": 254304,
+        "adopted_provider_body": true,
+        "role": "OFFICIAL_FOREIGN_PROVIDER"
+      },
+      {
+        "id": "SS_paul-watson-jr",
+        "url": "https://www.salaryswish.com/players/paul-watson-jr",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_paul-watson-jr.html",
+        "raw_sha256": "dbcdb0ca025ef5b41fa7f795550ed104dfe4f43a2909b638b8875c04dea2814d",
+        "bytes": 127908,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      },
+      {
+        "id": "SS_sviatoslav-mykhailiuk",
+        "url": "https://www.salaryswish.com/players/sviatoslav-mykhailiuk",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-tor2021-inputbank-20261007\\SS_sviatoslav-mykhailiuk.html",
+        "raw_sha256": "0865300e84783f73ef64146a36184bd54c3af668fe8529b7dec0daeff54d91db",
+        "bytes": 120895,
+        "adopted_provider_body": true,
+        "role": "SECONDARY_VENDOR_CONTRACT_ROWS"
+      }
+    ],
+    "CBA": {
+      "url": "https://nbpa.com/cba",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "PDF_pages": {
+        "minimum_start_year": [
+          {
+            "PDF_1based": 54,
+            "printed_page": 32,
+            "text_sha256": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1"
+          },
+          {
+            "PDF_1based": 55,
+            "printed_page": 33,
+            "text_sha256": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da"
+          }
+        ],
+        "two_way_original_term_eligibility": [
+          {
+            "PDF_1based": 74,
+            "printed_page": 52,
+            "text_sha256": "c69d78fdd64deded34b2062e3bf3bcb3b5ffd2a028801bafcdf1d50cf120ad63"
+          },
+          {
+            "PDF_1based": 75,
+            "printed_page": 53,
+            "text_sha256": "48c080a84ba9322dd6cd1b0d8c9c82c8f235ad70a3aa464cbcafc1611250b6a4"
+          }
+        ],
+        "FA_and_unsigned_holds": [
+          {
+            "PDF_1based": 208,
+            "printed_page": 186,
+            "text_sha256": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3"
+          },
+          {
+            "PDF_1based": 209,
+            "printed_page": 187,
+            "text_sha256": "3a47b881e3d34ff50f7ad32a38792702ac43e77a9aa9383b5433ceba6bc84859"
+          },
+          {
+            "PDF_1based": 216,
+            "printed_page": 194,
+            "text_sha256": "dfbea7597d0b3913e9da06ffcd40ce135e257074cc3223b34230175b8084ade2"
+          }
+        ],
+        "Bird_raises_exceptions": [
+          {
+            "PDF_1based": 218,
+            "printed_page": 196,
+            "text_sha256": "f79ff7838664c65a9a960fc9a05537aca47b7acb38e92c969f31e766f55af50a"
+          },
+          {
+            "PDF_1based": 219,
+            "printed_page": 197,
+            "text_sha256": "5870b7d8f06d7d96b448339e4c667086271e1409018b9ae9b103d8b5546469be"
+          },
+          {
+            "PDF_1based": 222,
+            "printed_page": 200,
+            "text_sha256": "d25729bf91cc0a46cde01aa9ed484798091eea9fe3a7ceaa061aaa13fde84403"
+          },
+          {
+            "PDF_1based": 223,
+            "printed_page": 201,
+            "text_sha256": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b"
+          },
+          {
+            "PDF_1based": 228,
+            "printed_page": 206,
+            "text_sha256": "29dbab5b2ece11f0ab356048dddec4eb3004cd670669a248b530340a9ecaba96"
+          },
+          {
+            "PDF_1based": 229,
+            "printed_page": 207,
+            "text_sha256": "9730d33141c80d8cfdc81e91e7bafe26b38f1a403591affd3ccc9c3e1b2dacbe"
+          },
+          {
+            "PDF_1based": 232,
+            "printed_page": 210,
+            "text_sha256": "38b400763b01a29678eaecbb413e01a318ca8460bf29ce7d884e6f0f140239b0"
+          },
+          {
+            "PDF_1based": 233,
+            "printed_page": 211,
+            "text_sha256": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3"
+          },
+          {
+            "PDF_1based": 238,
+            "printed_page": 216,
+            "text_sha256": "92603cc01664d2b6026c8190a8661c6c6b56588f4a74b29d3adebf53bd7bfd89"
+          },
+          {
+            "PDF_1based": 239,
+            "printed_page": 217,
+            "text_sha256": "8cbbebad974fe1b8e78cca0ec11c99b04d22dc0ef34a7282dac2b81721bc5918"
+          },
+          {
+            "PDF_1based": 240,
+            "printed_page": 218,
+            "text_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+          },
+          {
+            "PDF_1based": 241,
+            "printed_page": 219,
+            "text_sha256": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60"
+          }
+        ],
+        "sign_and_trade": [
+          {
+            "PDF_1based": 254,
+            "printed_page": 232,
+            "text_sha256": "ff59fbc69a921ae3d87511f82fd59541017c8ab589720f530d3f3bcad9e595bb"
+          }
+        ],
+        "rookie_scale": [
+          {
+            "PDF_1based": 292,
+            "printed_page": 270,
+            "text_sha256": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed"
+          },
+          {
+            "PDF_1based": 294,
+            "printed_page": 272,
+            "text_sha256": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b"
+          }
+        ],
+        "draft_foreign_rights": [
+          {
+            "PDF_1based": 303,
+            "printed_page": 281,
+            "text_sha256": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b"
+          },
+          {
+            "PDF_1based": 304,
+            "printed_page": 282,
+            "text_sha256": "fbc88aa3499f45d41bb440f5636d862a7aa2d49b34e3fcb76a5f8283d4f3a5aa"
+          },
+          {
+            "PDF_1based": 305,
+            "printed_page": 283,
+            "text_sha256": "a12359b0cd2c0327071aca49dc0c63115c2f5cc348f50eab907018979e97f52f"
+          },
+          {
+            "PDF_1based": 306,
+            "printed_page": 284,
+            "text_sha256": "35526e06761a7915a78dfe618ed22758764ce982bfe01cb934f3aa21e4955439"
+          },
+          {
+            "PDF_1based": 307,
+            "printed_page": 285,
+            "text_sha256": "29564957e50f2db83ae0817e9b644cc5ed30a017b1a8b40244bf3a9f8cc32e41"
+          }
+        ],
+        "active_and_offseason": [
+          {
+            "PDF_1based": 412,
+            "printed_page": 390,
+            "text_sha256": "401ce674b03b72e257e4586c33b3434fadf7807606711189f153b9790a1b8b25"
+          }
+        ],
+        "first_year_disqualification": [
+          {
+            "PDF_1based": 464,
+            "printed_page": 442,
+            "text_sha256": "f28a76a5d9f77f2a241eb30b0094240cf1346b092600e5ccb5282269d75a04f8"
+          },
+          {
+            "PDF_1based": 476,
+            "printed_page": 454,
+            "text_sha256": "b96f259de10e19c8d6bfa431d2bc6bf00fda0d749b53f71d580618d9a9d80472"
+          },
+          {
+            "PDF_1based": 477,
+            "printed_page": 455,
+            "text_sha256": "062058ca96a035a423838f2deef3a8c1379559d4a3a4e81efa9d4e76e25799ac"
+          },
+          {
+            "PDF_1based": 478,
+            "printed_page": 456,
+            "text_sha256": "c7408703c0aee0a59e32d2beafefc5573243d508449f9b88dec374c98e54f998"
+          }
+        ]
+      }
+    },
+    "new_primary_foreign_scope": {
+      "GIDDEY_CLUB": "May17 active roster release to prepare draft; not entire contract discharge.",
+      "GIDDEY_NBL": "May17 club/league support preparation; no signed NBA UPC or foreign transfer-fee certificate."
+    },
+    "primary_web_observations": [
+      {
+        "id": "NBA2021RULE",
+        "url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+        "date": "2021-07-27",
+        "scope": "Direct web body lines19–23 and34–36: dates/TW50/flatpay/max15+2; providerHTML not required as source-copy certificate.",
+        "provider_raw_sha256": null
+      },
+      {
+        "id": "HARRIS_OFFICIAL",
+        "url": "https://official.nba.com/torontos-jalen-harris-dismissed-and-disqualified-from-the-nba-for-violation/",
+        "date": "2021-07-01",
+        "scope": "Direct web body lines4–7 firstyear dismissal/one-year application; no published testing/treatment.",
+        "provider_raw_sha256": null
+      },
+      {
+        "id": "WATSON_WATANABE",
+        "url": "https://www.nba.com/raptors/raptors-sign-watson-watanabe",
+        "date": "2020-12-20",
+        "scope": "Indexed official opening: Watsonstandard/WatanabeTW; termsundisclosed. Direct403 not original body recovery."
+      },
+      {
+        "id": "YUTA_STANDARD",
+        "url": "https://www.nba.com/raptors/raptors-sign-watanabe-standard-nba-contract",
+        "date": "2021-04-19",
+        "scope": "Indexed official opening: standard conversion; termsundisclosed. No private conditions."
+      },
+      {
+        "id": "CHAMPAGNIE",
+        "url": "https://www.nba.com/raptors/raptors-sign-wainright-champagnie",
+        "date": "2021-08-07",
+        "scope": "Indexed official opening: ChampagnieTW; termsundisclosed."
+      },
+      {
+        "id": "GILLESPIE_WAIVER",
+        "url": "https://www.nba.com/raptors/news/raptors-waive-gillespie-and-perry",
+        "date": "2021-10-13",
+        "scope": "Indexed official opening: Gillespie/Perry waived; no remaining protectionzero proof."
+      }
+    ],
+    "reused_Bonga_foreign_report": {
+      "url": "https://www.frankfurt-skyliners.de/news-service/details/fraport-skyliners-verpflichten-nachwuchs-nationalspieler-isaac-bonga/",
+      "date": "2016-06-03",
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-cha-was-roster-20261007/BONGA_SKYLINERS_2016.html",
+      "raw_sha256": "74c318db2fb9996e51be7efd40f97fdd309caa9e25ee1ddf73960bd9b05a5983",
+      "scope": "Four-year development report; no exactNBAout/fullprofessional-law/expiration certificate."
+    },
+    "TOR_2021_22_media_guide_recovered": false,
+    "provider_403_and_200_notfound_adopted": false
+  },
+  "static_verification": {
+    "TOR_last_seed_key_exact": true,
+    "DB1_named3_exact": true,
+    "each_path_unique_STD15_TW2": true,
+    "reported_live10_sum_checked": true,
+    "all_repository_normalized_pins_and_raw_bytes_checked": true,
+    "new_constructor_negative_tests": 0,
+    "new_external_CLI_runs": 0,
+    "whole_cost_or_actual_registration_test_PASS": false
+  },
+  "authority": {
+    "path_selected": false,
+    "new_transaction_direction_selected": false,
+    "new_contract_price_selected": false,
+    "new_draft_author_lock": false,
+    "whole_TOR_cost_certified": false,
+    "whole_2021_22_season_certified": false,
+    "actual_registration_certified": false,
+    "actual_medical_certified": false,
+    "actual_foreign_permission_certified": false,
+    "macro3_complete": false,
+    "REGISTER_promoted": false,
+    "independent_review_completed": false,
+    "manuscript_allowed": false
+  },
+  "freeze": "v0.30 PARTIAL / CLOSED"
+}

@@ -1,0 +1,70 @@
+{
+  "tool": "Antigravity",
+  "scope": "NEW_COBY_BULLS_ARTICLE_BODY_COLLECTION_AFTER_DIRECT_FETCH_LIMIT",
+  "source_url": "https://www.nba.com/bulls/news/coby-white-and-patrick-williams-injury-updates",
+  "status": "RETURNED",
+  "exit_code": 0,
+  "elapsed_seconds": 34.573,
+  "process_budget_seconds": 85,
+  "parser_path": "tools/parse_antigravity_stream.py",
+  "parser_sha256": "249d6e07faec3f20190eaff9f9550a33e60035a7cb276977311caa0d38b980ec",
+  "prompt_sha256": "7c603be45bf9400bd14d9d8e724730391967abd4f2e3d1d76f7535aef8c23c27",
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "87cdd66f-683b-40b6-83ca-10cdb1b6ae9c",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"actual_body_read\": false,\n  \"access_status\": \"ACCESS_HOLD\",\n  \"source_url\": \"https://www.nba.com/bulls/news/coby-white-and-patrick-williams-injury-updates\",\n  \"publication_date\": null,\n  \"Coby_surgery_date_if_present\": null,\n  \"expected_return_window_if_present\": null,\n  \"quoted_english_words\": null,\n  \"bounded_body_locator\": null,\n  \"november_15_clearance_stated\": null\n}\n```\n",
+      "duration_seconds": 22.2434507,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "d145175fcb584505b594e124214ee4ccac0c7e7a06703fa269ed4b0b0c60e41c"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "b44ef3398119cf0eeb064b88fd9ddfdd5cdb3ba31b912108395bda91430bb025",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"actual_body_read\": false,\n  \"access_status\": \"ACCESS_HOLD\",\n  \"source_url\": \"https://www.nba.com/bulls/news/coby-white-and-patrick-williams-injury-updates\",\n  \"publication_date\": null,\n  \"Coby_surgery_date_if_present\": null,\n  \"expected_return_window_if_present\": null,\n  \"quoted_english_words\": null,\n  \"bounded_body_locator\": null,\n  \"november_15_clearance_stated\": null\n}\n```\n",
+      "char_count": 392,
+      "sha256": "ddc9e64be0ea15770f5759cb1c3c312bb4b398015aaca0191d97429c3f18d2fd",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "actual_agy_body_bytes_independently_verified": false,
+  "root_primary_or_clinical_clearance_certified": false,
+  "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+  "raw_logs_retained": false
+}

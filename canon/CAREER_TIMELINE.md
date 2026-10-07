@@ -1,5 +1,9 @@
 # Career Timeline Canon v1.1
 
+## 2026-10-07 최신 가용성 선택
+
+[새 위임 선택 H21](DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json)에 따라 2021–22 Chicago의 82일 M1 작업 상태를 NORMAL58/COBY_OUT24로 연결했다. 11/15·17·19의 실제 제한 출전 관측과 별개로 가상 결장을 3경기 연장하고 11/21부터 NORMAL을 사용한다. 이는 기존 위임으로 기록한 새 가용성 설계이며 H00 복사·임상 인증이 아니다. 양수 선수의 가상 가용성을 채택하되 상대 명단/건강·전체 양팀 시계·승패/OT·전체 시즌 GP/GS 및 후속 계약은 별도 실행이 남는다. 아래 날짜별 HOLD 문구는 당시 이력이며 이 선택 범위만 최신 기록을 따른다. 실제 Context Pack 작성 시 이 선택의 원행과 미완 조건을 함께 인계하며 게이트는 CLOSED다.
+
 - 상태: `PARTIAL_CANON / NBA_ASCENSION_DIRECTION_LOCKED / CHICAGO_LANDING_REOPENED / COMMERCIAL_RELATIONSHIP_FOUNDATION_COMPLETE / NATIONAL_TEAM_MILITARY_FOUNDATION_COMPLETE`
 - 선택: `O-09 A-REFINED + VILLANOVA_NCAA_SPLIT`
 - 원고 게이트: `CLOSED`
