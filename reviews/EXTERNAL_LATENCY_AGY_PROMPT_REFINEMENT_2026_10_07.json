@@ -1,0 +1,47 @@
+{
+  "tool": "Antigravity",
+  "scope": "PROMPT_REFINEMENT_SERVICE_RESPONSE_NOT_OFFICIAL_COLLECTION",
+  "reason": "Earlier 55-second process limits do not establish permanent service failure; one different short no-tool task and 120/140-second bound.",
+  "prompt_sha256": "9d7a3eb317c1daa62266696c2ffc104430c53e7e821392e1a8d15357b47ba247",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 25.105,
+    "process_budget_seconds": 140,
+    "stdout_bytes": 690,
+    "stderr_bytes": 78,
+    "stdout_sha256": "a6bc6f70a6ee82577238764c83ada5ec3b8ebf6b2d84d761f6c6cf8148a4764c",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "terminal_status": "SUCCESS",
+    "answer": "1. **Art. II, Sec. 4(g) (Stretch Provision)**: 웨이버 공시 시점별 당해 시즌 및 잔여 시즌 보장액의 균등 분할 지급(스트레치) 적용 요건\n2. **Art. VII, Sec. 7(d) (Set-Off)**: 미보장/보장 급여 잔액에 대한 차기 계약 급여 공제(상계) 산출 기준\n3. **Exhibit 2 (Contract Termination)**: 웨이버 클레임 미발생 시 구단 잔여 급여 지급 의무 및 48시간 클리어 규정\n"
+  },
+  "usable_answer_recovered": true,
+  "official_body_collected": false,
+  "raw_logs_retained": false,
+  "global_settings_changed": false,
+  "new_login_performed": false,
+  "manuscript_allowed": false,
+  "whole_gate_or_primary_source_certified": false,
+  "root_quality_disposition": {
+    "status": "SERVICE_RESPONSE_CONFIRMED_DOMAIN_LOCATORS_REJECTED",
+    "reason": "Returned answer is not collected evidence. The claimed II4(g) stretch locator is wrong: II4(k) governs payment rescheduling, VII7(d)(5) governs optional cap reattribution. Claimed VII7(d) Set-Off label is wrong; the actual source refers set-off to XXVII. Do not adopt these locator claims.",
+    "corrected_prompt_checklist": [
+      "Applicable CBA/version and executed/extended contract boundary.",
+      "Actual waiver request date and current vs post-current contract years; distinguish cash rescheduling II4(k) from cap election VII7(d)(5).",
+      "Salary/protection/option inputs and express election/remaining claims; an expired family does not establish absence of later obligations."
+    ],
+    "official_collection_or_source_correctness_certified": false,
+    "primary_source": {
+      "raw_cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-was-rights-tw-20261007\\2011_CBA.pdf",
+      "raw_sha256": "239e7b41fad3637fef1dde926ec1cd3df4e86c41f798ec515d1ffb3246d61fbb",
+      "PDF1based_text_LF_sha256": {
+        "41": "7931da8640ea24e6bddaa2b1c5b22705b29b6b2e829775b3c020504e9c4902fb",
+        "46": "84012f07bdeb9d6a17b5ac6b10dadb3df28b29532f14243e66dd63a324774fcf",
+        "47": "7cbd334ff36427a8b321d66206548aa322f6caf130b43560e2e4aab84b511d17",
+        "48": "cc9942312e908e1bea812830a2ea2b4eedfa31616f3ed949b95407b02ddf6c71",
+        "191": "e3b4bf0a516aadad92dd5628b4f86d5e92760d8e907d9b5534ece99b8515bca0",
+        "192": "0ef04939529e2a1b922f4ff085d407c7e07cc22860f722b0fbb6103ff26b25fa"
+      }
+    }
+  }
+}
