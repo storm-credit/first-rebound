@@ -1,0 +1,205 @@
+{
+  "schema": "A09_2023_JOINT_ATTEMPT_INSTITUTIONAL_BRIDGE_V1",
+  "status": "CONDITIONAL_B1_B2_FAMILY_PREPARED_NOT_SELECTED",
+  "purpose": "선택된 2023 공동 도전을 실제 A09-S2 훈련과 A09-S3 Chicago 복귀에 연결할 유한 기관 실행안",
+  "existing_author_locked_foundation": [
+    "2023 공동 대표팀 도전",
+    "주인공 Chicago",
+    "라이벌 Minnesota"
+  ],
+  "evidence_classes": {
+    "fact": "OCA 원역사 12인·7위와 9/26–10/6 농구 일정, 구단별 2023 캠프 공지",
+    "inference": "참가 기간이 겹치는 두 구단의 준비 손실은 같은 날짜·같은 비용으로 취급할 수 없다",
+    "fictional_design_family": "최종 12인·각 구단의 한정 참가 허용·위험 보장·이동·복귀를 하나의 조건부 기관 경로로 결합",
+    "new_author_lock": false
+  },
+  "calendar_fact_frame": {
+    "asian_games_basketball_public_schedule": "2023-09-26 through 2023-10-06; 대체세계 한국의 마지막 경기 날짜는 아직 미선택",
+    "chicago_actual_2023": "10/2 Media Day, 10/3 Nashville camp opening and that week's training, 10/8 first preseason game",
+    "minnesota_actual_2023": "9/29 first practice; 9/30 and 10/1 local practices; 10/1–8 Abu Dhabi travel period; 10/10–12 local practices",
+    "application_limit": "원역사 구단 공지는 대체세계 라이벌의 명단·해외 원정·실제 결장 사실을 자동 확정하지 않는다",
+    "old_general_oct3_note": "research/NATIONAL_TEAM_MILITARY_SCHEDULE.md:60의 다수 팀 10/3 일반 기준은 유지하되 Minnesota 개인 비용에는 구단별 9/29 기준을 적용"
+  },
+  "b1_conditional_sequence": [
+    {
+      "step": "B1-1",
+      "authority": "한국 대표팀 선발권자",
+      "required_selected_outcome": "두 선수가 최종 12인에 포함되고 원역사 12인 중 서로 다른 2명의 자리가 대체되는 대체세계 명단",
+      "currently_selected": false,
+      "limit": "누가 빠지는지·전 경기 분·메달은 R09 미선택; 원역사 12인에 두 선수를 단순 추가하지 않음"
+    },
+    {
+      "step": "B1-2",
+      "authority": "Chicago 구단",
+      "required_selected_outcome": "주인공의 대표팀 합류·대회 참가·Chicago 캠프 결장 구간을 한정 허용",
+      "currently_selected": false,
+      "limit": "에이전트 요청이나 선수 희망은 구단 허가가 아님"
+    },
+    {
+      "step": "B1-3",
+      "authority": "Minnesota 구단",
+      "required_selected_outcome": "라이벌의 대표팀 합류·대회 참가·9/29 시작 캠프 및 Abu Dhabi 구간과의 충돌을 별도 한정 허용",
+      "currently_selected": false,
+      "limit": "Chicago의 허가를 Minnesota에 전용하지 않으며 실제 원정 명단을 소급 확정하지 않음"
+    },
+    {
+      "step": "B1-4",
+      "authority": "대표팀 운영·보장 담당자와 각 구단의 적법한 담당자",
+      "required_selected_outcome": "두 선수에게 적용되는 참가기간 위험 보장·당시 건강 참가조건 및 귀환 시 인계 범위를 합의",
+      "currently_selected": false,
+      "limit": "보험증권·진단서의 실제 사본을 서사 설계의 별도 필수 인증으로 요구하지 않음; FIBA 일반 규정을 아시안게임 자동 release로 해석하지 않음"
+    },
+    {
+      "step": "B1-5",
+      "authority": "대표팀 운영자와 감독",
+      "required_selected_outcome": "정해진 참가 범위 안에서 이동·캠프 접근·주인공과 라이벌 각각의 역할 전달",
+      "currently_selected": false,
+      "limit": "정확 항공편·사생활 의료기록·대표팀 선발 이유·경기 결과는 미선택"
+    }
+  ],
+  "b2_conditional_sequence": [
+    {
+      "step": "B2-1",
+      "trigger": "대체세계 한국의 마지막 참가 경기가 끝남",
+      "required_selected_outcome": "주인공과 라이벌의 각 구단 복귀 가능 시간·경로를 별도로 정함",
+      "currently_selected": false,
+      "limit": "원역사 10/6 종료를 대체세계 종료일로 복사하지 않음; 메달·병역은 복귀 선행조건 아님"
+    },
+    {
+      "step": "B2-2",
+      "authority": "Chicago 구단 감독·훈련 담당",
+      "required_selected_outcome": "주인공에게 빠진 캠프 과제와 허용된 팀 반복·부하 범위를 전달",
+      "currently_selected": false,
+      "limit": "참가만으로 출전분·선발·완전 건강·구단 신뢰를 보상하지 않음"
+    },
+    {
+      "step": "B2-3",
+      "authority": "Minnesota 구단 담당",
+      "required_selected_outcome": "라이벌의 별도 복귀·훈련 접근 범위를 처리",
+      "currently_selected": false,
+      "limit": "원역사 Abu Dhabi 참가나 복귀 후 역할을 자동 부여하지 않음"
+    }
+  ],
+  "finite_unlock_for_a09": {
+    "a09_s2_requires": [
+      "B1-1 최종12인·역할",
+      "B1-2 Chicago 허용",
+      "B1-3 Minnesota 허용",
+      "B1-4 보장·참가조건",
+      "B1-5 실제 합류·훈련 접근"
+    ],
+    "a09_s3_requires": [
+      "A09-S2 조건부 수행",
+      "B2-1 실제 참가 종료와 이동",
+      "B2-2 Chicago 복귀 과제·훈련허용"
+    ],
+    "minimum_selection_package": "R09 명단 자리 2개와 참가기간·두 구단 각각의 허용·보장/참가조건·대표팀 역할·마지막 경기 분기·Chicago 복귀 과제를 한 묶음의 대체세계 기관 실행으로 선택하면 A09-S2/S3의 국소 행동을 실제 연속 기능으로 검토할 수 있다. 사적 실물 서류의 전수 회수는 요구하지 않는다.",
+    "still_separate": [
+      "대회 경기별 12인 분·상대·결과",
+      "메달·병역",
+      "NBA 복귀 후 시즌 건강·출전분·승패"
+    ]
+  },
+  "cost_and_causality": [
+    "주인공은 Chicago 10/2 Media Day·10/3 Nashville 이후와 겹치는 실제 선택 참가일만큼 팀 준비·개인 공격 연습을 놓친다",
+    "라이벌은 Minnesota 9/29 연습 시작과 10/1–8 해외 일정의 충돌을 별도 부담한다. 각 구단이 허용한 결장은 복귀 역할 보증이 아니다",
+    "원역사 OCA 12인 중 2명의 자리와 출전 기회가 영향을 받으므로 명단·경기별 분을 R09에서 재배분한다"
+  ],
+  "legal_scope_limit": "2023 NBA CBA Article XXIII Section 3(c)는 특정 off-season 국제 FIBA 대회 Basketball Event 분류 예외를 말하지만 Asian Games를 지명하지 않는다. 이 조항만으로 2023 아시안게임 자동 구단 release를 결론내지 않는다. UPC Exhibit A §2에는 NBA camp·practice 서비스가 포함된다.",
+  "primary_sources": [
+    {
+      "id": "OCA_SCHEDULE",
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/zh/results/basketball/daily-schedule.htm",
+      "locator": "9/26–10/6 날짜 목록",
+      "body_access": "official indexed page"
+    },
+    {
+      "id": "OCA_KOR_ROSTER",
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/en/results/basketball/athlete-profile-nbkbmteam5-kor1-republic-of-korea.htm",
+      "locator": "lines 64–93 original 12 and seventh",
+      "body_access": "official page"
+    },
+    {
+      "id": "OCA_MEN_SUMMARY",
+      "url": "https://www.ocagames.com/HZ_Info/AG2022-/resAG2022-/pdf/AG2022-/BKB/AG2022-_BKB_C76A_BKBMTEAM5-------------------------.pdf",
+      "locator": "PDF 6 October tournament summary: KOR/JPN rank 7/8 and KOR seventh",
+      "body_access": "official PDF raw downloaded and text extracted"
+    },
+    {
+      "id": "MIN_CAMP",
+      "url": "https://www.nba.com/timberwolves/news/timberwolves-announce-training-camp-roster-and-information-3",
+      "locator": "2023-09-28 article; 2023 Training Camp Schedule table",
+      "body_access": "official indexed article; direct page iframe/access denied, byte hash not claimed"
+    },
+    {
+      "id": "CHI_CAMP",
+      "url": "https://www.nba.com/bulls/news/next-stop-nashville-bulls-prepare-for-training-camp-in-the-music-city",
+      "locator": "2023-09-27 article; Monday Media Day, Tuesday Nashville camp, Oct 8 opener",
+      "body_access": "official indexed article; direct page iframe/access denied, byte hash not claimed"
+    },
+    {
+      "id": "NBA_2023_CBA",
+      "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+      "locator": "PDF printed pp. 409–412 Article XXIII §3 and Exhibit A p. A-1 §2; 2023 Asian Games classification not resolved",
+      "body_access": "official CBA original PDF text viewed"
+    }
+  ],
+  "raw_cache_outside_repository": [
+    {
+      "source_id": "OCA_SCHEDULE",
+      "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/oca_calendar.html",
+      "bytes": 73650,
+      "sha256": "81f12a36020a5848c2df47fc40582b5e272c2333bb74228523318571e4fc5d00",
+      "limit": "HTML body is a calendar shell; displayed 9/26–10/6 dates were verified in official indexed page, not this raw file"
+    },
+    {
+      "source_id": "OCA_KOR_ROSTER",
+      "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/oca_kor.html",
+      "bytes": 70226,
+      "sha256": "3ff38fdce56fd7d911dc926637926b960503de89216b97f461a038e6e8fa18af"
+    },
+    {
+      "source_id": "OCA_MEN_SUMMARY",
+      "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/oca_men_tournament_summary.pdf",
+      "bytes": 679704,
+      "sha256": "9417ce5df8f07d421b1827ff22a8bd25f320a01a819f524c491db4a8abaa22de"
+    },
+    {
+      "source_id": "NBA_2023_CBA",
+      "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/nba_cba_2023.pdf",
+      "bytes": 2850534,
+      "sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "pdf_page_locators": [
+        436,
+        585
+      ]
+    }
+  ],
+  "raw_cache_limit": "MIN_CAMP/CHI_CAMP direct HTTP returns Access Denied or iframe shell; do not hash those shell responses as article evidence. Their official indexed body was read but original byte SHA is unavailable.",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "control/NATIONAL_TEAM_MILITARY_SCOPE_GATE.md": "340688b0459a22338688d2ad63d78b2ad64e6e8a877b3a73dea70c7fa233a3ef",
+    "research/NATIONAL_TEAM_MILITARY_SCHEDULE.md": "bee0cfdc5ed10ba25446add13857e49f34275842586a8946ae1b45e8285c3217",
+    "design/NATIONAL_TEAM_MILITARY_OPTIONS.md": "16f8c5eed09af671e82523d3f21796337a588ffc094aeb9ee4c968e3e9cd0407",
+    "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "canon/PROJECT_FREEZE.md": "71bbfb1177c846e754e41f8217f49c760421dfd77b63d06af6aaa9d1aa3de1cc",
+    "design/A09_E1_FINAL_EPISODE_FUNCTION.json": "0a0e4cf2c3f41fd16131f8cf43310ab44ae4ec1b26d7361f128889f14b4eaf58",
+    "design/A09_S2_S3_CONDITIONAL_FINAL_FUNCTIONS_2026_10_07.json": "d7279b3ecdb71421904c399080ec4d7bad11f7c933e5cd7710221ab86421697d",
+    "design/A09_2023_24_CONDITIONAL_FUNCTIONS.json": "63a5ecf564c222541cf2a4179aaf203b42f7948971fc31b54813974873110a38",
+    "design/A09_A14_LATER_FUNCTION_SPINE_2026_10_07.json": "83c80cdeb81b1cf59b108bf3378db723ceb46b4a7fbdb111030a887f698f8442"
+  },
+  "selected_institutional_bridge": false,
+  "registered_final_function_increment": 0,
+  "actual_national_team_participation_or_return_certified": false,
+  "actual_private_letters_or_clinical_files_required": false,
+  "medal_military_or_tournament_result_selected": false,
+  "whole_g13_complete": false,
+  "actual_context_packs": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "independent_review": {
+    "completed": true,
+    "basis": "Root directly checked9repo pins/4raw hashes, OCA final-summary PDF and indexed12roster,2023CBA PDF436/585, and separately read indexed official MIN/CHI camp bodies. Rawcalendar shell and42MBguide withoutcamp locator not adopted as body evidence.",
+    "scope": "Conditional5B1+3B2 institutional sequence only; no actual release, participation, result, medal/military or finalfunction adoption."
+  }
+}
