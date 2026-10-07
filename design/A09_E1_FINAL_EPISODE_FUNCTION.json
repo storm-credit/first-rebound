@@ -1,0 +1,62 @@
+{
+  "schema": "A09_E1_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "independent_review_completed": true,
+  "episode_function_id": "A09-EF-001",
+  "global_function_order": 43,
+  "planned_allocation_slot": 443,
+  "primary_subact": "A09-S1",
+  "source_conditional_functions": [
+    "A09-CF01"
+  ],
+  "previous_function": {
+    "id": "A08-EF-003",
+    "path": "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+    "exact_full_exit": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다"
+  },
+  "entry_state": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다",
+  "single_function": "공동 대표팀 도전에서 본인이 할 준비와 기관 허가를 구분한다",
+  "unit_choice": "에이전트와 자신에게 전달된 구단·대표팀 안내에서 준비 일정과 요청 자료를 확인하고 자신이 제출할 수 있는 자료와 역할 준비를 먼저 하려 한다",
+  "direct_present_cost": "Chicago에서 자기 공격 개발을 더 반복할 시간 일부를 자료 준비와 대표팀 역할 파악에 쓴다",
+  "beats": [
+    {
+      "id": "A09-P1",
+      "action": "자신에게 전달된 Chicago 준비 일정과 대표팀 안내를 따로 읽고, 가상 에이전트에게 자신이 제출할 자료와 구단 허가·보험의 별도 담당권한을 묻는다.",
+      "classification": "SELECTED_FICTIONAL_AUTHORITY_QUESTION"
+    },
+    {
+      "id": "A09-P2",
+      "action": "주인공은 자신에게 전달된 구단·대표팀 일정 안내를 구분하고 가상 에이전트에게 자기 제출자료와 허가·보험 담당권한을 묻는다. 공격 개인훈련 한 구간을 자료정리와 대표팀 역할 파악에 쓴다.",
+      "classification": "SELECTED_FICTIONAL_OWN_PREPARATION_AND_TIME_COST"
+    },
+    {
+      "id": "A09-P3",
+      "action": "자기 제출자료 목록과 두 기관에 남은 질문을 실제로 정리해 전달한다. 명단·구단 허가·보험·이동은 여전히 성립하지 않는다.",
+      "classification": "OBSERVED_OWN_DOCUMENT_LIST_NOT_INSTITUTIONAL_APPROVAL"
+    }
+  ],
+  "exit_state": "공동 도전을 위해 자신이 할 준비를 시작하지만 명단·허가·보험·실제 이동은 아직 성립하지 않는다",
+  "source_cp2_exit": "참가 자체가 비용 있는 선택",
+  "full_A09_S1_institutional_participation_exit_certified": false,
+  "national_team_roster_permission_insurance_travel_or_medal_certified": false,
+  "military_status_certified": false,
+  "whole_A09_complete": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "published_episode_number": null,
+  "manuscript_word_count": null,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "new_author_lock": false,
+  "design_gate": "CLOSED",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_a09_e1_final_episode_function.py": "ff6aee4ae17c4a1d075cfafacba7181091db8ae5b55a11f65d15c71dba2c7c52",
+    "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07",
+    "design/A09_A14_LOCAL_ROUTINE_BATCH_2026_10_07.json": "34b146d68364dde7692adc4631c889f563add7d67149a2963cbc423799206e8b",
+    "design/A09_A14_BOUNDED_FUNCTION_PREPARATION_2026_10_07.json": "37a998e317e111861dc7dc903e3978717097f8b032f2ac4bbf2847cf9d4ca315",
+    "design/A09_2023_24_CONDITIONAL_FUNCTIONS.json": "63a5ecf564c222541cf2a4179aaf203b42f7948971fc31b54813974873110a38",
+    "control/NATIONAL_TEAM_MILITARY_SCOPE_GATE.md": "340688b0459a22338688d2ad63d78b2ad64e6e8a877b3a73dea70c7fa233a3ef"
+  }
+}

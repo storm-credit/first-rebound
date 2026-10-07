@@ -1,0 +1,220 @@
+{
+  "schema": "A07_A08_SUBACT_EXIT_AUDIT_V1",
+  "status": "INDEPENDENTLY_REVIEWED_SOURCE_CRITERIA_EXIT_AUDIT",
+  "independent_review_completed": true,
+  "counts": {
+    "subact_exits_audited": 6,
+    "local_function_actions_observed": 6,
+    "subact_source_criteria_bounded_pass": 1,
+    "subact_source_criteria_specific_hold": 5,
+    "act_exits_audited": 2,
+    "act_source_exit_pass": 0,
+    "act_specific_hold": 2,
+    "registered_local_functions_reused": 6,
+    "new_episode_functions_added": 0,
+    "planned_A07_A08_slots": 120,
+    "planned_slots_are_mandatory_new_events": false
+  },
+  "subact_exit_rows": [
+    {
+      "subact_id": "A07-S1",
+      "cp2_entry_state": "G1A의 이름 있는 15자리 후보와 10인 정상 배분",
+      "cp2_choice": "R21A를 기본 비교로 두고 코치에게 제한 공격 역할을 요청한다",
+      "cp2_cost": "Satoransky·Green 등 고정 분이 없는 선수의 기회를 공짜로 약속하지 못함",
+      "cp2_exit_state": "정상 조합과 예외 조건을 구분한 역할 제안",
+      "evidence_function_ids": [
+        "A07-EF-001"
+      ],
+      "evidence_paths": [
+        "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "주인공은 M1의 동료 역할 비용을 함께 보인 제한 엘보 시험을 가상 코치에게서 허용받고 캐치·반환의 준비를 수행했다. 공식 경기 호출·출전분·공격 성공은 아직 얻지 않았다.",
+      "observed_action_cost_authority_reason": "M1 정상/COBY_OUT의 역할 비용을 명시해 좁은 엘보 과제를 요청했고 가상 코치가 실제 허용 훈련의 과제를 맡겼다.",
+      "bounded_not_claimed": "특정 날짜 출전·양팀 분·실제 경기 공격 호출은 미인증.",
+      "specific_gap": null,
+      "exit_audit_result": "PASS_BOUNDED_OPERATING_EXIT",
+      "cp2_success_criteria": [
+        "15자리 후보·240분·중복 없는 5인 조합 연결",
+        "감독의 교대 권한과 선수의 요청을 구분"
+      ],
+      "source_criteria_bounded_pass": true,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    },
+    {
+      "subact_id": "A07-S2",
+      "cp2_entry_state": "훈련에서 준비한 엘보 공격을 제한 매치업에 적용할 조건",
+      "cp2_choice": "짧게 공격할 창이 닫히면 LaMelo 또는 LaVine에게 반환하고 다시 공간을 만든다",
+      "cp2_cost": "망설인 시간만큼 동료에게 늦은 시계가 넘어가고 슛 기회가 줄어듦",
+      "cp2_exit_state": "통하는 조건과 중단할 조건이 구별된 엘보 카운터 표본",
+      "evidence_function_ids": [
+        "A07-EF-002"
+      ],
+      "evidence_paths": [
+        "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "허용된 가상 라이브 팀 훈련에서 안쪽 유지 수비 앞 짧은 공격의 닫힌 창과 캐치 전 조기 도움 앞 늦은 반환을 각각 보았고, 다음 좁은 재시도에서 빠른 반환·재배치를 직접 수행했다. 득점·실제 경기 효율·항상 맞는 엘보 카운터는 아직 증명되지 않았다.",
+      "observed_action_cost_authority_reason": "안쪽 유지 수비의 닫힌 창과 캐치 전 조기 도움 앞 늦은 반환 실패를 다른 훈련 조건에서 직접 보았고 다음 좁은 재시도에 빠른 반환·재배치를 수행했다.",
+      "bounded_not_claimed": "NBA 실경기 효율·득점·모든 수비 조건에서의 숙련은 미인증.",
+      "specific_gap": "CP2의 캐치 위치·도움 방향·반환 경로와 함께 기록할 후속 슛 결과가 없고, LaMelo/LaVine 중 실제 반환 수신자도 특정되지 않았다.",
+      "exit_audit_result": "BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD",
+      "cp2_success_criteria": [
+        "캐치 위치·도움 방향·반환 경로·후속 슛을 함께 기록",
+        "득점 성공과 올바른 선택을 분리"
+      ],
+      "source_criteria_bounded_pass": false,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    },
+    {
+      "subact_id": "A07-S3",
+      "cp2_entry_state": "엘보 공격의 성공과 실패가 함께 남은 조건부 표본",
+      "cp2_choice": "좋은 경기만 고르지 않은 자료로 역할 확대를 요구하고 가격 협상은 에이전트에게 맡긴다",
+      "cp2_cost": "실패와 효율 변동을 공개한 채 자신의 가격 기대를 조정할 수 있어야 함",
+      "cp2_exit_state": "2022 역할 평가와 E2 협상에 넘길 조건부 자료 기준",
+      "evidence_function_ids": [
+        "A07-EF-003"
+      ],
+      "evidence_paths": [
+        "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "짧은 공격·반환의 조건과 남은 약점을 2022 역할 평가에 넘기지만 계약 가격·공동 에이스 권한은 아직 얻지 않는다",
+      "observed_action_cost_authority_reason": "실패 영상과 수정 시도를 함께 코치에게 제시하고 가상 에이전트에게 좋은/막힌 역할 자료를 건네는 선택과 과시 기회 비용이 보인다.",
+      "bounded_not_claimed": "시장 평점·협상 가격·계약 수락·프런트 동의는 미인증.",
+      "specific_gap": "좋은 경기만 고르지 않은 실제 출전·상대 대응/효율 변동의 역할 평가 자료는 아직 없다. 연습 영상의 실패만으로 시즌 평가를 대체하지 않는다.",
+      "exit_audit_result": "BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD",
+      "cp2_success_criteria": [
+        "상대가 바꾼 수비에 따른 성공/실패를 함께 평가",
+        "32분 조합을 시즌 기록이나 QO 충족으로 환산하지 않음"
+      ],
+      "source_criteria_bounded_pass": false,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    },
+    {
+      "subact_id": "A08-S1",
+      "cp2_entry_state": "E2·CX1·LaVine 재계약을 함께 비교하는 조건부 예산",
+      "cp2_choice": "E2 자기 비용을 남긴 채 G8 RT1과 대체 정책의 명단/기능 손실을 함께 검토한다",
+      "cp2_cost": "계약 지위를 높이면서 이전 벤치 깊이와 자기 공격권을 모두 보장받을 수 없음",
+      "cp2_exit_state": "선수의 요구와 프런트의 계약 권한이 구분된 코어 유지 제안",
+      "evidence_function_ids": [
+        "A08-EF-001"
+      ],
+      "evidence_paths": [
+        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "자기 역할 요구를 필요한 동료 기능과 함께 제안하지만 계약과 코어 유지의 결과는 아직 얻지 않는다",
+      "observed_action_cost_authority_reason": "자기 요구와 연결·외곽·센터 기능의 동일 예산 비용을 한 자료로 만들어 가상 에이전트에게 질문했다. 선수의 제안과 프런트 결정권을 구분한다.",
+      "bounded_not_claimed": "에이전트 전달은 프런트 수락이나 정확 E2 가격·다른 선수 서명과 다르다.",
+      "specific_gap": "CP2의 G8 RT1 유지/방출 대체정책별 새 자리·잔여 급여 비용은 E40의 가시 제안에 아직 연결되지 않았다. 기존 공개비용 모형을 조인하면 되며 사적 영수증은 요구하지 않는다.",
+      "exit_audit_result": "BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD",
+      "cp2_success_criteria": [
+        "G8 유지/방출 정책의 새 자리와 잔여 급여 비용 연결",
+        "동료의 할인 동의나 계약 체결을 임의로 가정하지 않음"
+      ],
+      "source_criteria_bounded_pass": false,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    },
+    {
+      "subact_id": "A08-S2",
+      "cp2_entry_state": "A07의 캐치 후 반환이 첫 패스길을 닫는 수비에 제한됨",
+      "cp2_choice": "정해 둔 패스에 공을 밀어 넣지 않고 짧은 드리블로 각도를 바꾸거나 안전하게 재전개한다",
+      "cp2_cost": "턴오버·드리블 압박·동료의 재배치 반복과 공격 시간",
+      "cp2_exit_state": "압박 속 라이브 패스의 사용/중단 조건을 가진 표본",
+      "evidence_function_ids": [
+        "A08-EF-002"
+      ],
+      "evidence_paths": [
+        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "허용된 가상 훈련에서 첫 반환 차단 앞 늦은 각도 오류, 열린 수신자에게 짧게 내보낸 수정 시도와 다른 닫힌 길의 안전 재전개를 직접 수행했다. 원 A08-CF03의 실제 NBA 경기 시험은 미실행이고 압박 속 정확성·턴오버·상시 사용권은 아직 미증명이다.",
+      "observed_action_cost_authority_reason": "첫 반환 차단 가상 팀훈련의 늦은 각도 오류·열린 수신자에게 수정 전달·다른 닫힌 길의 안전 재전개는 직접 수행했다.",
+      "bounded_not_claimed": "원 CF03의 NBA 실경기 시험, 실제 압박 속 정확성·턴오버·사용/중단 반복 표본은 인증하지 않는다.",
+      "specific_gap": "허용된 실제 경기의 첫 반환 차단 시험과 그 오류에 근거한 사용·중단 조건은 아직 없다.",
+      "exit_audit_result": "HOLD_ACTUAL_GAME_TRIAL_FOR_FULL_CP2_EXIT",
+      "cp2_success_criteria": [
+        "캐치 직후 반환과 드리블 유지 후 패스를 다른 표본으로 분류",
+        "성공 패스뿐 아니라 공격 지연·턴오버·실패 뒤 복귀 책임 확인"
+      ],
+      "source_criteria_bounded_pass": false,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    },
+    {
+      "subact_id": "A08-S3",
+      "cp2_entry_state": "주인공·LaVine·LaMelo의 공격 강점과 중단 조건이 구별된 상태",
+      "cp2_choice": "자신의 우위가 남으면 끝까지 맡고 동료의 우위가 크면 공을 보낸 뒤 리바운드와 재관여 위치를 확보한다",
+      "cp2_cost": "주인공과 LaMelo 모두 특정 포제션의 점유를 내려놓는 비용; 실패 책임은 남음",
+      "cp2_exit_state": "경기별 공격 권한과 준비 책임을 함께 가지는 공동 에이스 후보",
+      "evidence_function_ids": [
+        "A08-EF-003"
+      ],
+      "evidence_paths": [
+        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json"
+      ],
+      "last_exact_exit": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다",
+      "observed_action_cost_authority_reason": "허용된 가상 팀훈련에서 자기 짧은 창을 시험하고 동료 우위가 보인 다른 흐름에서는 공을 넘긴 뒤 재관여 위치로 움직였다.",
+      "bounded_not_claimed": "경기별 공격 권한·공동 에이스 지정·동료 마무리·클로징 배분을 관측하지 않았다.",
+      "specific_gap": "실제 맡은 경기 역할 안의 선택·재관여와 감독의 경기별 권한은 아직 없다.",
+      "exit_audit_result": "HOLD_GAME_ROLE_FOR_FULL_CP2_EXIT",
+      "cp2_success_criteria": [
+        "주인공이 끝내는 경우와 LaMelo/LaVine이 끝내는 경우 모두 조건을 설명",
+        "P3의 상호 비용을 남기되 2028 수취인/득점은 아직 잠그지 않음"
+      ],
+      "source_criteria_bounded_pass": false,
+      "local_function_action_observed": true,
+      "whole_historical_season_or_NBA_game_certified": false
+    }
+  ],
+  "act_exit_rows": [
+    {
+      "act_id": "A07",
+      "cp2_choice": "엘보 카운터를 실제 압박에서 시험",
+      "cp2_cost": "효율 변동·기존 베테랑의 분",
+      "cp2_exit_state": "첫 장기 계약 협상 표본",
+      "evidence_function_ids": [
+        "A07-EF-001",
+        "A07-EF-002",
+        "A07-EF-003"
+      ],
+      "last_exact_exit": "짧은 공격·반환의 조건과 남은 약점을 2022 역할 평가에 넘기지만 계약 가격·공동 에이스 권한은 아직 얻지 않는다",
+      "functional_exit_audit_result": "BOUNDED_AGENT_HANDOFF_OBSERVED_ACT_EXIT_HOLD",
+      "observed_reason": "동료 기회 비용을 보인 제한 과제→두 수비 조건의 실패/재시도→실패까지 포함해 에이전트에게 넘긴 표본은 첫 장기 계약 협상의 자기 자료로 성립한다.",
+      "specific_gap": "원 A07 Act 비용의 실전 효율 변동과 S3의 실제 출전/상대 대응 자료가 없어 첫 장기계약 협상의 전체 표본으로 확정할 수 없다. 82경기 전체 건강이나 사적 협상 접수증을 새 전제로 요구하지 않는다.",
+      "bounded_not_claimed": "협상 결과·정확 계약 가격·시장 평가·시즌 승패는 인증하지 않는다."
+    },
+    {
+      "act_id": "A08",
+      "cp2_choice": "E2 협상과 동료 자원의 동시 비용 수용",
+      "cp2_cost": "싼 계약 신화·무제한 전력 보강",
+      "cp2_exit_state": "공동 에이스 권한과 예산 책임",
+      "evidence_function_ids": [
+        "A08-EF-001",
+        "A08-EF-002",
+        "A08-EF-003"
+      ],
+      "last_exact_exit": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다",
+      "functional_exit_audit_result": "HOLD_CONTRACT_AND_GAME_AUTHORITY",
+      "observed_reason": "역할/동료 기능의 예산 질문과 훈련의 첫 반환 차단·이양 후 재관여는 직접 보인다.",
+      "specific_gap": "E2 기관 결정·예산 책임과 NBA 실경기 사용/중단 및 경기별 공동 공격 권한이 아직 선택·관측되지 않았다.",
+      "bounded_not_claimed": "연습 수행을 계약 수락·실제 경기 배분·공동 에이스 지위로 읽지 않는다."
+    }
+  ],
+  "a07_to_a08_exact_handoff": "짧은 공격·반환의 조건과 남은 약점을 2022 역할 평가에 넘기지만 계약 가격·공동 에이스 권한은 아직 얻지 않는다",
+  "whole_A07_and_A08_historical_seasons_complete": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "new_author_lock": false,
+  "design_gate": "CLOSED",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_a07_a08_subact_exit_audit.py": "8fd3a0a69351ce98bb827dd46dad4a11dc1083e1c5022042b5629e264f856273",
+    "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e",
+    "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+  }
+}
