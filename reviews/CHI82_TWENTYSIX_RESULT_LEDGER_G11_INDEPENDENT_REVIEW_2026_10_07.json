@@ -1,0 +1,84 @@
+{
+  "id": "CHI82_TWENTYSIX_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewed_artifact": "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "4870fc218e10a3315b28cd2f61d8744fe3669f903f628f6ac043432a2707dbad",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "bc9a64f7c3f0eed827e8c927bdee621d09f3d1c52470f34abd9b9ca1a50d3d80",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "be5359c9f3fc65eba4fc9a3c061de0aa8f1e34740316de6ffe8d171d89ae6e7c"
+  },
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_NARROW_26_OF_82_SELECTED_REGULATION_RESULT_LEDGER",
+  "direct_join": {
+    "group_counts": {
+      "DET": 2,
+      "NOP": 1,
+      "TOR": 4,
+      "NYK": 4,
+      "UTA": 1,
+      "BOS": 3,
+      "PHI": 4,
+      "BKN": 3,
+      "DAL": 2,
+      "GSW": 2
+    },
+    "distinct_selected_keys": 26,
+    "physical_calendar_keys": 82,
+    "selected_CHI_wins": 12,
+    "selected_opponent_wins": 14,
+    "remaining_keys": 56,
+    "next_game_id": "0022100198",
+    "next_date": "2021-11-14"
+  },
+  "direct_checks": [
+    "Compared all 82 source calendar dates/home/away/opponents and delegated Chicago health states to ledger rows. All 26 selected winners and source/review pointers match immutable DET2 and nine reviewed result groups.",
+    "The ordered complement has 56 null result rows and matches remaining_game_ids; next is LAC 0022100198 on Nov 14.",
+    "Historical 7/12/15/19/22/24 reviews remain separate immutable main snapshots.",
+    "Returned GSW Jan14 winner CHI to GSW with physical result JSON unchanged was rejected."
+  ],
+  "actual_negative_control": {
+    "mutation": "Patch read(GSW selected JSON) returned Jan14 winner CHI→GSW while physical bytes stay fixed",
+    "result": "REJECTED",
+    "exception": "Returned input differs from physical source: simulation/CHICAGO_GOLDEN_STATE_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "historical_review_snapshots": [
+    {
+      "path": "reviews/CHI82_SELECTED_RESULTS_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "f4e1ec1ecdf93509e8e7868f800ad04d8aafcafa",
+      "selected_results_at_that_revision": 7
+    },
+    {
+      "path": "reviews/CHI82_TWELVE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "372ea5577230f22ac07d6d5f2a268f883918f837",
+      "selected_results_at_that_revision": 12
+    },
+    {
+      "path": "reviews/CHI82_FIFTEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "759ae823c184e9a48c47435151fe8bd4aa3a1c90",
+      "selected_results_at_that_revision": 15
+    },
+    {
+      "path": "reviews/CHI82_NINETEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "4fa062ddabbe97403700544b87d95bb6f8560e0d",
+      "selected_results_at_that_revision": 19
+    },
+    {
+      "path": "reviews/CHI82_TWENTYTWO_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "309e6560b5c7edb519c30f652989c4d45ff005fc",
+      "selected_results_at_that_revision": 22
+    },
+    {
+      "path": "reviews/CHI82_TWENTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "d111ddb9a0246345b1c04784404c829bf3202576",
+      "selected_results_at_that_revision": 24
+    }
+  ],
+  "boundaries": {
+    "fictional_regulation_result_only": true,
+    "score_overtime_final_standings_certified": false,
+    "whole_82_results": false,
+    "private_health_contract_game_receipt_certified": false,
+    "whole_macro3_G13_G14_G16_certified": false,
+    "manuscript_allowed": false
+  }
+}

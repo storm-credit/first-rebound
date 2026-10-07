@@ -1,0 +1,58 @@
+{
+  "id": "NBA_2022_23_PUBLISHED_CALENDAR_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_PUBLISHED_SCHEDULE_INPUT_SCOPE_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_nba_2022_23_published_calendar.py": "2c9152e013f3371da56d671f4f6a18f052ba240359a244ae2d083a8b561156f0",
+    "simulation/NBA_2022_23_PUBLISHED_CALENDAR.csv": "2ae22464127e12926b1da3a69346590d8c4a9269dd2e06ae6675339692fb19d2",
+    "simulation/CHICAGO_2022_23_PUBLISHED_CALENDAR.csv": "bd78708fb1d58e4decede3723bd14829863d395366d30d202565e3c7f7729f4b",
+    "simulation/NBA_2022_23_PUBLISHED_CALENDAR_PROVENANCE.json": "b0ed4235d17653b1272636f8197cb9eca3daacc1e279a157376f9ae227496e78",
+    "simulation/NBA_2022_23_PUBLISHED_CALENDAR_PROVENANCE.md": "1f198ff19c27f4ba7bcb8839f48e6b15af004fbca0622c8d15c3e561256d4dfd"
+  },
+  "primary_raw_sha256": {
+    "league_bydate.pdf": "f98d5b6273d3c7793a74b356f1fceba1f1a47656572b2825645bf5794ac9ef81",
+    "league_byteam.pdf": "e7d774794df47fe54887ff9505471ebed12f1a740a692ecc6096fb104ac927ad",
+    "CHI_printable.pdf": "e6a1cd1ce797c88896871b6df0fb98588464be269a5a25a164b5f8e3ff48194a"
+  },
+  "independent_evidence": [
+    {
+      "check": "raw page count and SHA",
+      "result": "23 date pages, 30 team pages, 1 Chicago printable page; all three raw SHA values match provenance and physical cache"
+    },
+    {
+      "check": "independent line-walker extraction from date PDF",
+      "result": "1230 distinct ordered rows match league CSV game number, published date, nominal home and away on every row"
+    },
+    {
+      "check": "independent line-walker extraction from team PDF",
+      "result": "2460 team rows, 30 teams x 82 unique ordinals; every source tuple joins league CSV twice, 41 home and 41 away per team"
+    },
+    {
+      "check": "Chicago source comparison",
+      "result": "82 Chicago CSV rows equal ordinal-sorted Chicago page of team PDF; printable page visually corroborates Oct 19 Miami away, Jan 19 Paris versus Detroit, and Apr 9 Detroit home; printable page was not machine certified for all 82"
+    },
+    {
+      "check": "saved artifact currentness",
+      "result": "python tools/build_nba_2022_23_published_calendar.py --check PASS"
+    }
+  ],
+  "independent_negative_controls": [
+    {
+      "mutation": "returned date-PDF first game printed date 2022-10-18 to 2022-10-19 while weekday remains Tuesday",
+      "result": "REJECTED Printed weekday/date mismatch"
+    },
+    {
+      "mutation": "returned team-PDF Chicago game 1 Miami away to Orlando away",
+      "result": "REJECTED Independent team/date/home/away disagreement"
+    }
+  ],
+  "scope_limits": [
+    "Published game number and PUBLISHED_2022 key are not actual NBA game IDs.",
+    "These PDFs are scheduled publication, not certification of actual played dates, venues, scores, or adoption into the alternate 2022-23 season.",
+    "No fictional health, roster, result, or whole macro gate is certified by this review."
+  ],
+  "files_modified": [
+    "reviews/NBA_2022_23_PUBLISHED_CALENDAR_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+  ]
+}
