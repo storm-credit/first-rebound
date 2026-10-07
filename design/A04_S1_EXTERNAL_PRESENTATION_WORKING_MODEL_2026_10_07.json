@@ -1,0 +1,67 @@
+{
+  "schema": "A04_S1_EXTERNAL_PRESENTATION_WORKING_MODEL_V1",
+  "status": "SELECTED_ROUTINE_EXTERNAL_PRESENTATION_INDEPENDENTLY_REVIEWED",
+  "independent_review_completed": true,
+  "scope": "One bounded external presentation action after private coached preparation; not an extra mandatory episode or official NBA evaluation",
+  "previous_function": {
+    "id": "A04-EF-003",
+    "path": "design/A04_E3_FINAL_EPISODE_FUNCTION.json",
+    "exact_full_exit": "주인공은 허용된 가상 개인 지도 훈련에서 코너 캐치 슛을 시도했으나 성공률은 기록하지 않았다. 짧은 한 드리블 뒤 다음 자가 창조가 막혀 가까운 동료에게 공을 늦게 연결한 첫 한계를 지도자가 직접 지적했다. 그는 다음 한 번의 시도에서 같은 정지 지점을 만나자 미리 확인한 가까운 동료에게 단순 패스를 건넸다. 이 국소 수정 행동은 보였지만 실제 수비 상대·경기·구단 평가·공식 측정·정확 지명 순번에서의 성공은 증명되지 않았다."
+  },
+  "original_cp2": {
+    "choice": "신체 측정으로 순번을 단정하지 않고 준비한 기술의 가능한 범위와 한계를 평가에 내놓는다",
+    "cost": "불확실한 평가 수용",
+    "exit_state": "보여줄 기술 표본 명확화",
+    "old_measurement_certainty_entry_not_inherited": true
+  },
+  "fictional_authority": {
+    "observer": "가상 독립 사전 드래프트 평가 상담자",
+    "outside_previous_private_coached_session": true,
+    "NBA_club_or_Combine_official": false,
+    "authorized_scope": "선수가 스스로 가져온 역할·공격 한계 자료와 짧은 비공식 동작 시연을 보고 질문한다",
+    "official_board_medical_or_contract_authority": false
+  },
+  "single_function": "준비한 좁은 역할 증거와 공격 한계를 외부 관찰자에게 함께 제시한다",
+  "operating_actions": [
+    {
+      "id": "P1",
+      "action": "주인공은 자신의 Texas Tech 역할 관측과 우승팀 소속 사실을 나누고, 코너 캐치 뒤 한 드리블이 막힌 지점 및 측정 수치가 빈 항목을 같은 요약에 둔다.",
+      "evidence_scope": "기존 E1–E3 개인 관측·공개 역사; 새 공식 수치 아님"
+    },
+    {
+      "id": "P2",
+      "action": "비공식 외부 상담자는 그 요약을 받고 허용된 짧은 코너 한 드리블→가까운 동료 연결 시도를 직접 본다. 주인공은 성공 장면만 고르지 않고 다음 자가 창조가 아직 검증되지 않았다고 설명한다.",
+      "evidence_scope": "가상 외부 제시·수령·관측; 구단 평가 또는 실전 결과 아님"
+    },
+    {
+      "id": "P3",
+      "action": "상담자는 실제 구단 순번이나 의료 판정을 내리지 않고, 이번 제시에서 확인 가능한 좁은 역할과 여전히 미답인 개인 공격을 분리해 되묻는다.",
+      "evidence_scope": "상담자의 공개된 질문만; 사적 판단·점수·공식 피드백 아님"
+    }
+  ],
+  "choice": "신체 장점이나 우승 맥락만 내세우지 않고 역할 증거와 공격 한계를 함께 외부에 제시한다",
+  "direct_cost": "약점 노출을 감수하고 자신에게 유리한 장면만 고를 수 있는 홍보 기회를 줄인다",
+  "bounded_exit": "준비한 기술 표본과 미증명 공격의 경계가 외부 관찰자에게 실제 제시되었다. 받은 것은 질문뿐이고 구단 평가·초청·순번 약속은 아니다.",
+  "resolves_prior_audit_gap_only_if_selected_and_reviewed": "원 선택의 평가에 내놓는 행위 미관측",
+  "new_final_episode_functions": 0,
+  "published_episode_or_extra_slot_required": false,
+  "official_Combine_invitation_or_measurement": false,
+  "NBA_club_submission_or_grade": false,
+  "medical_clearance_or_exact_pick_certified": false,
+  "Chicago_2018_direction_changed": false,
+  "new_author_lock": false,
+  "whole_A04_Act_complete": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "source_hash_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_a04_s1_external_presentation_working_model.py": "0f62d722dcbfba94b51c94ba385b9c4a2c58ee97e82d874b95df99b903e48bdb",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A04_S1_PREPARATION_EXIT_AUDIT_2026_10_07.json": "cefedaee3d8a6df81b7d35f0ae47f66b31041788d48acaf6cef1816fe348da81"
+  }
+}

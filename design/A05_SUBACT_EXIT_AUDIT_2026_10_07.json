@@ -1,0 +1,136 @@
+{
+  "schema": "A05_SUBACT_EXIT_AUDIT_V1",
+  "status": "INDEPENDENT_REPOSITORY_SCOPE_AUDIT",
+  "scope": "A05 S1-S3 CP2 provisional exits versus four current A05 local final function records; no new episode or whole-G13 promotion; R4/E4 limited-trust revision independently reviewed",
+  "counts": {
+    "subact_exits_audited": 3,
+    "subact_bounded_pass": 3,
+    "subact_specific_hold": 0,
+    "act_exits_audited": 1,
+    "act_bounded_pass": 0,
+    "registered_local_functions_reused": 4,
+    "new_episode_functions_added": 0,
+    "planned_A05_slots": 92,
+    "planned_slots_are_mandatory_new_events": false,
+    "subact_review_pending": 0,
+    "act_specific_missing_bounded_witnesses": 1
+  },
+  "subact_exit_rows": [
+    {
+      "subact_id": "A05-S1",
+      "cp2_entry_state": "밤샘 뒤 준비를 가볍게 봄",
+      "cp2_choice": "밤샘 뒤 준비 부족을 외부 핑계로 돌리지 않고 놓친 로테이션 기회의 원인을 자기 준비에서 찾는다",
+      "cp2_cost": "외부 핑계로 평가를 보호할 여지와 회복 준비에 쓰는 추가 시간",
+      "cp2_exit_state": "핑계 없이 준비 결과를 감당",
+      "evidence_function_ids": [
+        "A05-EF-001",
+        "A05-EF-002"
+      ],
+      "evidence_paths": [
+        "design/A05_E1_FINAL_EPISODE_FUNCTION.json",
+        "design/A05_E2_FINAL_EPISODE_FUNCTION.json"
+      ],
+      "last_exact_exit": "주인공은 밤샘 게임 뒤 수면을 미루고 영상·컨디셔닝 체크인에 늦어 이미 예정된 NBA 로테이션 시험 기회 한 번을 잃었다. 자기 준비 실패를 짧게 설명하고 다음 의무의 수면·영상·컨디셔닝 순서를 스스로 맞춰 보았지만, 지나간 기회는 돌아오지 않았다. 게임을 없애거나 자기관리 문제가 완치된 것도 아니다.",
+      "observed_action_cost_authority_reason": "E1의 역할 수행/위치 오차와 E2의 밤샘·체크인 지각·예정 로테이션 시험 1회 상실·다음 준비 순서 자기 조정이 선택과 직접 비용을 관측시킨다.",
+      "bounded_not_claimed": "기회 복구, 전체 생활 완치, 구체 경기·분·점수는 관측되지 않는다.",
+      "specific_gap": null,
+      "exit_audit_result": "PASS_BOUNDED_CP2_FUNCTIONAL_EXIT",
+      "original_provisional_entry_adopted_as_character_belief": false
+    },
+    {
+      "subact_id": "A05-S2",
+      "cp2_entry_state": "배정을 징계와 혼동",
+      "cp2_choice": "assignment를 계약 신분 변경이나 단순 징계로 취급하지 않고 다른 환경의 개발 과제를 수행한다",
+      "cp2_cost": "NBA와 다른 환경 적응",
+      "cp2_exit_state": "assignment와 신분을 분리",
+      "evidence_function_ids": [
+        "A05-EF-003"
+      ],
+      "evidence_paths": [
+        "design/A05_E3_FINAL_EPISODE_FUNCTION.json"
+      ],
+      "last_exact_exit": "주인공은 Chicago NBA 계약 신분을 유지한 별도 Windy City 개발창에서 스크린 뒤 수비 위치와 세컨드사이드 판단의 지연을 허용된 영상과 직접 시도로 대조했다. 이후 기존 루키 역할선 안에서 별도 복귀 기회가 마련되는 가상 운영 조건에서 같은 수비 복귀·리바운드·단순 연결을 다시 시도했고, NBA 속도에서의 위치 오차는 여전히 다음 준비 과제로 남았다. 배정은 앞선 지각의 징계가 아니고, 정확 배정·복귀일과 G League·NBA 개인 박스 및 새 선발 권리는 확정하지 않았다.",
+      "observed_action_cost_authority_reason": "E3는 Windy City 개발 배정과 NBA 계약 신분을 분리하고 별도 환경 적응, 수비 위치 영상 대조와 직접 재시험을 관측시킨다. NBA 재시험은 별도 복귀 기회가 마련되는 가상 운영 조건이다.",
+      "bounded_not_claimed": "원 CP2의 징계 혼동을 과거 실제 믿음으로 상속하지 않는다. 정확 배정·복귀일, 실전 박스, 사적 구단 결정은 관측되지 않는다.",
+      "specific_gap": null,
+      "exit_audit_result": "PASS_BOUNDED_CP2_FUNCTIONAL_EXIT",
+      "original_provisional_entry_adopted_as_character_belief": false
+    },
+    {
+      "subact_id": "A05-S3",
+      "cp2_entry_state": "왼손으로 몰리면 공격 종료",
+      "cp2_choice": "왼손을 막히면 공격을 끝내는 습관 대신 직선 돌파와 다음 패스의 좁은 대응을 반복한다",
+      "cp2_cost": "약한 손 반복·실패",
+      "cp2_exit_state": "직선 돌파와 다음 패스의 제한적 신뢰",
+      "evidence_function_ids": [
+        "A05-EF-004"
+      ],
+      "evidence_paths": [
+        "design/A05_E4_FINAL_EPISODE_FUNCTION.json"
+      ],
+      "last_exact_exit": "2019–20 주인공은 익숙한 손의 공격을 고집하다 약한 손 쪽 첫 벽에서 다음 전진이 막히는 지점을 직접 겪었다. 이후 허용된 비교 가능한 두 번의 역할 반복에서 약한 손으로 짧게 직선 운반하다 첫 벽 앞에서 Coby 또는 Satoransky에게 일찍 공을 넘겼고, 받는 가드가 두 번 모두 공을 확보하는 것을 직접 봤다. 다음 허용 역할 창에도 같은 한정 운반·조기 이양 과제가 전달되어 그 선택을 다시 맡는다. 이 좁은 반복 근거는 직선 전진과 다음 패스의 제한적 신뢰에만 해당하며, 슛·득점·실전 점유 결과, 두 번째 도움수비 해결, 전체 로테이션 신뢰, 주공격 창조자·1차 PG 권한을 인증하지 않는다.",
+      "observed_action_cost_authority_reason": "E4 수정안은 비교 가능한 허용 역할 반복 두 번의 첫 벽 조기 이양과 수령 가드의 공 확보, 다음 기존 역할선의 한정 과제 재배정을 가상 운영 관측으로 추가했다. 이전 단일 시도보다 제한적 신뢰의 직접 근거가 생겼다.",
+      "bounded_not_claimed": "수비 돌파·슛·득점·두 번째 도움 해결·전체 로테이션 신뢰·실제 경기 박스·사적 코치 내면은 인증하지 않는다.",
+      "specific_gap": null,
+      "exit_audit_result": "PASS_BOUNDED_CP2_FUNCTIONAL_EXIT_AFTER_INDEPENDENT_R4_REVIEW",
+      "original_provisional_entry_adopted_as_character_belief": false,
+      "proposed_limited_trust_witness": {
+        "comparable_first_wall_handoffs_observed": 2,
+        "receiving_guard_secures_ball_each_time": true,
+        "next_narrow_task_reassigned_in_fictional_role_window": true,
+        "official_game_or_private_receipt_certified": false,
+        "made_shot_or_second_help_solution_certified": false,
+        "whole_rotation_trust_certified": false
+      },
+      "independent_review_completed": true
+    }
+  ],
+  "act_exit_row": {
+    "act_id": "A05",
+    "cp2_choice": "자기관리 재발의 기회를 잃고 반복 준비",
+    "cp2_cost": "NBA 출전 기회·편한 생활",
+    "cp2_exit_state": "로테이션과 약한 손·직선 공격 신뢰",
+    "evidence_function_ids": [
+      "A05-EF-001",
+      "A05-EF-002",
+      "A05-EF-003",
+      "A05-EF-004"
+    ],
+    "functional_exit_audit_result": "HOLD_ONE_BOUNDED_ROLE_EXECUTION_WITNESS",
+    "specific_gap": "기존 2019–20 역할선의 다음 한정 과제가 전달된 뒤, 수비 복귀·박스아웃·단순 연결 중 맡은 좁은 역할을 실제 한 번 수행하여 연결되는 국소 관측이 아직 없다. 이 수행 한 건이면 전체 로테이션 무오류나 팀 내면평가 없이 Act 운영 출구를 재판정할 수 있다.",
+    "not_a_new_gate": "새 공식 경기·개인 박스·정확 날짜·비공개 복귀 허가를 필수 신규 입력으로 요구하지 않는다.",
+    "bounded_completion_path": "같은 기존 역할 창에서 과제 수락→수비 위치/박스아웃→가드에게 단순 연결 중 하나의 제한적 수행을 직접 관측한다. 개인 득점·분·승패·공식박스·새선발·사적 코치수령증빙 불요."
+  },
+  "a05_to_a06_handoff": {
+    "status": "NOT_CERTIFIED_BY_THIS_AUDIT",
+    "boundary": "A06 LaMelo·LaVine 사용권이나 2020–21 결과는 A05 기능 네 개에서 선지급되지 않는다."
+  },
+  "notebooklm_one_source_analysis": {
+    "path": "reviews/A05_NLM_SOURCE_ANALYSIS_2026_10_07.json",
+    "analysis_success": false,
+    "status": "PROCESS_TIMEOUT",
+    "used_as_corroboration": false
+  },
+  "source_hash_method": "LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A05_EARLY_NBA_OPERATING_BATCH_2026_10_07.json": "dc2d1bb240aec5c589e1a1ab9b2372ecb058cf921b7bb669a612c21c9ca4e107",
+    "reviews/A05_NLM_SOURCE_ANALYSIS_2026_10_07.json": "cc03b5279004b8c3f0b1f11e07668f89756f8305e76db7730a8874cdc3239921",
+    "design/A05_E1_FINAL_EPISODE_FUNCTION.json": "ae4c357b1b13c47feb70977c07b6aa862075c35d9797ddefd606a0ae7cee0abe",
+    "design/A05_E2_FINAL_EPISODE_FUNCTION.json": "2c0f4d8eec41ba329ec3703886e92c38c190329e53ece3dfd210ead08e1760f8",
+    "design/A05_E3_FINAL_EPISODE_FUNCTION.json": "66fa66a2ea4adeaead5247cca9278611532f21300a329cbc42a6c9a44a277dc6",
+    "design/A05_E4_FINAL_EPISODE_FUNCTION.json": "a0a055f1f57342dfe562db477f923c190f561d76da25746a344df8fdded146c7"
+  },
+  "limits": {
+    "whole_A05_Act_complete": false,
+    "whole_g13_complete": false,
+    "whole_g14_complete": false,
+    "actual_context_packs": 0,
+    "new_author_lock": false,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "actual_private_NBA_receipt_certified": false,
+    "official_individual_game_box_certified": false
+  }
+}
