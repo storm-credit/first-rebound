@@ -1,0 +1,60 @@
+{
+  "scope": "INDEPENDENT_COMMON_DISPATCHER_CONSUMED_FIELD_AND_CLOCK_REVIEW",
+  "baseline_main": "51ab52af234c67ec1f34fe4dade717ba2bad9561",
+  "calendar_keys_checked": 82,
+  "capacity_clock_checks": [
+    {
+      "id": "DET::NORMAL__A_garza_two_way_retained",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    },
+    {
+      "id": "DET::NORMAL__B_lyles_not_signed",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    },
+    {
+      "id": "DET::COBY_OUT__A_garza_two_way_retained",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    },
+    {
+      "id": "DET::COBY_OUT__B_lyles_not_signed",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    },
+    {
+      "id": "NOP::NORMAL__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    },
+    {
+      "id": "NOP::COBY_OUT__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+      "seconds": 2880,
+      "player_seconds_each": 14400,
+      "primitive_and_returned_ticks_equal": true
+    }
+  ],
+  "missing_team_ports_preserved": 27,
+  "actual_executable_selected_dates": 0,
+  "negative_control": {
+    "mutation": "PG/SG swapped in one returned segment; membership, positive players and player seconds unchanged",
+    "rejected": true,
+    "reason": "Returned clock differs from primitive source block"
+  },
+  "source_sha256": {
+    "tools/build_chicago_2021_22_opponent_capacity_dispatcher.py": "7737524c3e5c457d102de1f324bcc7db0ac3aadcd1eb6520d311f2535ec21f95",
+    "simulation/CHICAGO_2021_22_OPPONENT_CAPACITY_DISPATCHER.json": "e1659c32a53b2ad200b759ed88d7cabde2dfe50474569e9b7860a43497b2dfa5",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/CHICAGO_DETROIT_2021_OPENING_PAIRED_REGULATION_CARRIER.json": "45f204a0f213ea51b9de0a1d0ae47b50568a8d990d339822d9cd49a6ca274a00",
+    "simulation/CHICAGO_NEW_ORLEANS_2021_SECOND_PAIRED_REGULATION_CARRIER.json": "bbb3288f239d5a181be19e0f2ac615c4acb46b13f7d11eecfa1d90990b3cbc8e",
+    "simulation/CHICAGO_2021_22_PAIRED_INPUTS.json": "db727ddc89e354da7603c2563aaa4b58d9b543e124b0c4bd9de9df45d7ea9c6f"
+  },
+  "all_opponent_functions_or_results_certified": false
+}
