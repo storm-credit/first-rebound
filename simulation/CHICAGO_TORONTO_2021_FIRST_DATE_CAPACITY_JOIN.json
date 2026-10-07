@@ -1,0 +1,4968 @@
+{
+  "id": "CHICAGO_TORONTO_2021_FIRST_DATE_CAPACITY_JOIN",
+  "baseline_main": "e174ec1d30f11f8b786ae92cb249f8f0522ee017",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_22_OPPONENT_CAPACITY_DISPATCHER.json": "e1659c32a53b2ad200b759ed88d7cabde2dfe50474569e9b7860a43497b2dfa5",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json": "51b24c8a6bc1eb703568adced46b3ffa15845e85e8da10da1242bddf941df960",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/TORONTO_2021_NAMED_ROSTER_CAPACITY_CONDITIONAL_FAMILY.json": "ef43ee3052540099aa33263dbe5688ca8a1231df61a6291e432894d2b61541dd",
+    "reviews/TOR_FOUR_ROLE_INDEPENDENT_REVIEW_2026_10_07.json": "7a8e50dae09067033b4757b4b599ea73e572ca8a5be33d3cb4aa44dbc1331214",
+    "tools/build_chicago_toronto_2021_capacity_join.py": "6b4b83043c6fefa321cd278c5c3500e6c9790ebcf6727434b1dfd0a79fbaebea"
+  },
+  "status": "SOURCE_BOUND_82_KEY_HEALTH_JOIN_WITH_FOUR_FIRST_TOR_CONDITIONAL_PAIRED_CLOCKS",
+  "dispatcher_rows": [
+    {
+      "game_number": 1,
+      "game_id": "0022100004",
+      "candidate_date": "2021-10-20",
+      "home": "DET",
+      "away": "CHI",
+      "opponent": "DET",
+      "status": "SOURCE_REVIEWED_ORIGINAL_DATE_CONDITIONAL_CAPACITY",
+      "capacity_ids": [
+        "DET::NORMAL__A_garza_two_way_retained",
+        "DET::NORMAL__B_lyles_not_signed",
+        "DET::COBY_OUT__A_garza_two_way_retained",
+        "DET::COBY_OUT__B_lyles_not_signed"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022100004;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DET",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": true,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/0",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 2,
+      "game_id": "0022100022",
+      "candidate_date": "2021-10-22",
+      "home": "CHI",
+      "away": "NOP",
+      "opponent": "NOP",
+      "status": "SOURCE_REVIEWED_ORIGINAL_DATE_CONDITIONAL_CAPACITY",
+      "capacity_ids": [
+        "NOP::NORMAL__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+        "NOP::COBY_OUT__NOP_ZION0_CONDITIONAL_RETAINED_CORE"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022100022;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NOP",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": true,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/1",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 3,
+      "game_id": "0022100030",
+      "candidate_date": "2021-10-23",
+      "home": "CHI",
+      "away": "DET",
+      "opponent": "DET",
+      "status": "CAPACITY_REUSE_CANDIDATE_DATED_INTERVAL_HOLD",
+      "capacity_ids": [
+        "DET::NORMAL__A_garza_two_way_retained",
+        "DET::NORMAL__B_lyles_not_signed",
+        "DET::COBY_OUT__A_garza_two_way_retained",
+        "DET::COBY_OUT__B_lyles_not_signed"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022100030;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DET",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "DATED_SOURCE_INTERVAL_UNIMPLEMENTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/2",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 4,
+      "game_id": "0022100046",
+      "candidate_date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "opponent": "TOR",
+      "status": "CONDITIONAL_TOR_FUNCTION_AVAILABLE_DATED_OPERATING_HOLD",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100046;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.TOR",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "TOR_PATH_COST_AND_DATE_AVAILABILITY_NOT_SELECTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/3",
+      "conditional_paired_clock_ids": [
+        "0022100046__T0__SIAKAM_AVAILABLE",
+        "0022100046__T0__SIAKAM_UNAVAILABLE",
+        "0022100046__T1__SIAKAM_AVAILABLE",
+        "0022100046__T1__SIAKAM_UNAVAILABLE"
+      ]
+    },
+    {
+      "game_number": 5,
+      "game_id": "0022100067",
+      "candidate_date": "2021-10-28",
+      "home": "CHI",
+      "away": "NYK",
+      "opponent": "NYK",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100067;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NYK",
+      "missing_port_id": "OPPONENT_INPUT::NYK",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/4",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 6,
+      "game_id": "0022100083",
+      "candidate_date": "2021-10-30",
+      "home": "CHI",
+      "away": "UTA",
+      "opponent": "UTA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100083;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.UTA",
+      "missing_port_id": "OPPONENT_INPUT::UTA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/5",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 7,
+      "game_id": "0022100098",
+      "candidate_date": "2021-11-01",
+      "home": "BOS",
+      "away": "CHI",
+      "opponent": "BOS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100098;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BOS",
+      "missing_port_id": "OPPONENT_INPUT::BOS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/6",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 8,
+      "game_id": "0022100111",
+      "candidate_date": "2021-11-03",
+      "home": "PHI",
+      "away": "CHI",
+      "opponent": "PHI",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100111;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHI",
+      "missing_port_id": "OPPONENT_INPUT::PHI",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/7",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 9,
+      "game_id": "0022100135",
+      "candidate_date": "2021-11-06",
+      "home": "CHI",
+      "away": "PHI",
+      "opponent": "PHI",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100135;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHI",
+      "missing_port_id": "OPPONENT_INPUT::PHI",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/8",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 10,
+      "game_id": "0022100148",
+      "candidate_date": "2021-11-08",
+      "home": "CHI",
+      "away": "BKN",
+      "opponent": "BKN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100148;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BKN",
+      "missing_port_id": "OPPONENT_INPUT::BKN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/9",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 11,
+      "game_id": "0022100163",
+      "candidate_date": "2021-11-10",
+      "home": "CHI",
+      "away": "DAL",
+      "opponent": "DAL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100163;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DAL",
+      "missing_port_id": "OPPONENT_INPUT::DAL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/10",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 12,
+      "game_id": "0022100183",
+      "candidate_date": "2021-11-12",
+      "home": "GSW",
+      "away": "CHI",
+      "opponent": "GSW",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100183;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.GSW",
+      "missing_port_id": "OPPONENT_INPUT::GSW",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/11",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 13,
+      "game_id": "0022100198",
+      "candidate_date": "2021-11-14",
+      "home": "LAC",
+      "away": "CHI",
+      "opponent": "LAC",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100198;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.LAC",
+      "missing_port_id": "OPPONENT_INPUT::LAC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/12",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 14,
+      "game_id": "0022100209",
+      "candidate_date": "2021-11-15",
+      "home": "LAL",
+      "away": "CHI",
+      "opponent": "LAL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100209;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.LAL",
+      "missing_port_id": "OPPONENT_INPUT::LAL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/13",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 15,
+      "game_id": "0022100223",
+      "candidate_date": "2021-11-17",
+      "home": "POR",
+      "away": "CHI",
+      "opponent": "POR",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100223;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.POR",
+      "missing_port_id": "OPPONENT_INPUT::POR",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/14",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 16,
+      "game_id": "0022100236",
+      "candidate_date": "2021-11-19",
+      "home": "DEN",
+      "away": "CHI",
+      "opponent": "DEN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100236;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DEN",
+      "missing_port_id": "OPPONENT_INPUT::DEN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/15",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 17,
+      "game_id": "0022100250",
+      "candidate_date": "2021-11-21",
+      "home": "CHI",
+      "away": "NYK",
+      "opponent": "NYK",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100250;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NYK",
+      "missing_port_id": "OPPONENT_INPUT::NYK",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/16",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 18,
+      "game_id": "0022100257",
+      "candidate_date": "2021-11-22",
+      "home": "CHI",
+      "away": "IND",
+      "opponent": "IND",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100257;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.IND",
+      "missing_port_id": "OPPONENT_INPUT::IND",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/17",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 19,
+      "game_id": "0022100271",
+      "candidate_date": "2021-11-24",
+      "home": "HOU",
+      "away": "CHI",
+      "opponent": "HOU",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100271;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.HOU",
+      "missing_port_id": "OPPONENT_INPUT::HOU",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/18",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 20,
+      "game_id": "0022100283",
+      "candidate_date": "2021-11-26",
+      "home": "ORL",
+      "away": "CHI",
+      "opponent": "ORL",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100283;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ORL",
+      "missing_port_id": "OPPONENT_INPUT::ORL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/19",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 21,
+      "game_id": "0022100296",
+      "candidate_date": "2021-11-27",
+      "home": "CHI",
+      "away": "MIA",
+      "opponent": "MIA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100296;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIA",
+      "missing_port_id": "OPPONENT_INPUT::MIA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/20",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 22,
+      "game_id": "0022100307",
+      "candidate_date": "2021-11-29",
+      "home": "CHI",
+      "away": "CHA",
+      "opponent": "CHA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100307;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CHA",
+      "missing_port_id": "OPPONENT_INPUT::CHA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/21",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 23,
+      "game_id": "0022100328",
+      "candidate_date": "2021-12-02",
+      "home": "NYK",
+      "away": "CHI",
+      "opponent": "NYK",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100328;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NYK",
+      "missing_port_id": "OPPONENT_INPUT::NYK",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/22",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 24,
+      "game_id": "0022100343",
+      "candidate_date": "2021-12-04",
+      "home": "BKN",
+      "away": "CHI",
+      "opponent": "BKN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100343;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BKN",
+      "missing_port_id": "OPPONENT_INPUT::BKN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/23",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 25,
+      "game_id": "0022100357",
+      "candidate_date": "2021-12-06",
+      "home": "CHI",
+      "away": "DEN",
+      "opponent": "DEN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100357;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DEN",
+      "missing_port_id": "OPPONENT_INPUT::DEN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/24",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 26,
+      "game_id": "0022100367",
+      "candidate_date": "2021-12-08",
+      "home": "CLE",
+      "away": "CHI",
+      "opponent": "CLE",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100367;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CLE",
+      "missing_port_id": "OPPONENT_INPUT::CLE",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/25",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 27,
+      "game_id": "0022100394",
+      "candidate_date": "2021-12-11",
+      "home": "MIA",
+      "away": "CHI",
+      "opponent": "MIA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100394;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIA",
+      "missing_port_id": "OPPONENT_INPUT::MIA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/26",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 28,
+      "game_id": "0022100448",
+      "candidate_date": "2021-12-19",
+      "home": "CHI",
+      "away": "LAL",
+      "opponent": "LAL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100448;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.LAL",
+      "missing_port_id": "OPPONENT_INPUT::LAL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/27",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 29,
+      "game_id": "0022100459",
+      "candidate_date": "2021-12-20",
+      "home": "CHI",
+      "away": "HOU",
+      "opponent": "HOU",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100459;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.HOU",
+      "missing_port_id": "OPPONENT_INPUT::HOU",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/28",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 30,
+      "game_id": "0022100499",
+      "candidate_date": "2021-12-26",
+      "home": "CHI",
+      "away": "IND",
+      "opponent": "IND",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100499;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.IND",
+      "missing_port_id": "OPPONENT_INPUT::IND",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/29",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 31,
+      "game_id": "0022100502",
+      "candidate_date": "2021-12-27",
+      "home": "ATL",
+      "away": "CHI",
+      "opponent": "ATL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100502;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ATL",
+      "missing_port_id": "OPPONENT_INPUT::ATL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/30",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 32,
+      "game_id": "0022100519",
+      "candidate_date": "2021-12-29",
+      "home": "CHI",
+      "away": "ATL",
+      "opponent": "ATL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100519;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ATL",
+      "missing_port_id": "OPPONENT_INPUT::ATL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/31",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 33,
+      "game_id": "0022100530",
+      "candidate_date": "2021-12-31",
+      "home": "IND",
+      "away": "CHI",
+      "opponent": "IND",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100530;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.IND",
+      "missing_port_id": "OPPONENT_INPUT::IND",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/32",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 34,
+      "game_id": "0022100541",
+      "candidate_date": "2022-01-01",
+      "home": "WAS",
+      "away": "CHI",
+      "opponent": "WAS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100541;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.WAS",
+      "missing_port_id": "OPPONENT_INPUT::WAS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/33",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 35,
+      "game_id": "0022100555",
+      "candidate_date": "2022-01-03",
+      "home": "CHI",
+      "away": "ORL",
+      "opponent": "ORL",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100555;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ORL",
+      "missing_port_id": "OPPONENT_INPUT::ORL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/34",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 36,
+      "game_id": "0022100585",
+      "candidate_date": "2022-01-07",
+      "home": "CHI",
+      "away": "WAS",
+      "opponent": "WAS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100585;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.WAS",
+      "missing_port_id": "OPPONENT_INPUT::WAS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/35",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 37,
+      "game_id": "0022100603",
+      "candidate_date": "2022-01-09",
+      "home": "DAL",
+      "away": "CHI",
+      "opponent": "DAL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100603;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DAL",
+      "missing_port_id": "OPPONENT_INPUT::DAL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/36",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 38,
+      "game_id": "0022100415",
+      "candidate_date": "2022-01-11",
+      "home": "CHI",
+      "away": "DET",
+      "opponent": "DET",
+      "status": "CAPACITY_REUSE_CANDIDATE_DATED_INTERVAL_HOLD",
+      "capacity_ids": [
+        "DET::NORMAL__A_garza_two_way_retained",
+        "DET::NORMAL__B_lyles_not_signed",
+        "DET::COBY_OUT__A_garza_two_way_retained",
+        "DET::COBY_OUT__B_lyles_not_signed"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022100415;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DET",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "DATED_SOURCE_INTERVAL_UNIMPLEMENTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/37",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 39,
+      "game_id": "0022100625",
+      "candidate_date": "2022-01-12",
+      "home": "CHI",
+      "away": "BKN",
+      "opponent": "BKN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100625;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BKN",
+      "missing_port_id": "OPPONENT_INPUT::BKN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/38",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 40,
+      "game_id": "0022100637",
+      "candidate_date": "2022-01-14",
+      "home": "CHI",
+      "away": "GSW",
+      "opponent": "GSW",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100637;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.GSW",
+      "missing_port_id": "OPPONENT_INPUT::GSW",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/39",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 41,
+      "game_id": "0022100647",
+      "candidate_date": "2022-01-15",
+      "home": "BOS",
+      "away": "CHI",
+      "opponent": "BOS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100647;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BOS",
+      "missing_port_id": "OPPONENT_INPUT::BOS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/40",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 42,
+      "game_id": "0022100658",
+      "candidate_date": "2022-01-17",
+      "home": "MEM",
+      "away": "CHI",
+      "opponent": "MEM",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100658;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MEM",
+      "missing_port_id": "OPPONENT_INPUT::MEM",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/41",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 43,
+      "game_id": "0022100673",
+      "candidate_date": "2022-01-19",
+      "home": "CHI",
+      "away": "CLE",
+      "opponent": "CLE",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100673;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CLE",
+      "missing_port_id": "OPPONENT_INPUT::CLE",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/42",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 44,
+      "game_id": "0022100690",
+      "candidate_date": "2022-01-21",
+      "home": "MIL",
+      "away": "CHI",
+      "opponent": "MIL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100690;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIL",
+      "missing_port_id": "OPPONENT_INPUT::MIL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/43",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 45,
+      "game_id": "0022100701",
+      "candidate_date": "2022-01-23",
+      "home": "ORL",
+      "away": "CHI",
+      "opponent": "ORL",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100701;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ORL",
+      "missing_port_id": "OPPONENT_INPUT::ORL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/44",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 46,
+      "game_id": "0022100730",
+      "candidate_date": "2022-01-24",
+      "home": "OKC",
+      "away": "CHI",
+      "opponent": "OKC",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100730;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.OKC",
+      "missing_port_id": "OPPONENT_INPUT::OKC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/45",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 47,
+      "game_id": "0022100472",
+      "candidate_date": "2022-01-26",
+      "home": "CHI",
+      "away": "TOR",
+      "opponent": "TOR",
+      "status": "CONDITIONAL_TOR_FUNCTION_AVAILABLE_DATED_OPERATING_HOLD",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100472;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.TOR",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "TOR_PATH_COST_AND_DATE_AVAILABILITY_NOT_SELECTED",
+        "TOR_FIRST_DATE_PAIR_NOT_EXTENDED_TO_THIS_DATE"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/46",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 48,
+      "game_id": "0022100742",
+      "candidate_date": "2022-01-28",
+      "home": "SAS",
+      "away": "CHI",
+      "opponent": "SAS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100742;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.SAS",
+      "missing_port_id": "OPPONENT_INPUT::SAS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/47",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 49,
+      "game_id": "0022100753",
+      "candidate_date": "2022-01-30",
+      "home": "CHI",
+      "away": "POR",
+      "opponent": "POR",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100753;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.POR",
+      "missing_port_id": "OPPONENT_INPUT::POR",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/48",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 50,
+      "game_id": "0022100769",
+      "candidate_date": "2022-02-01",
+      "home": "CHI",
+      "away": "ORL",
+      "opponent": "ORL",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100769;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ORL",
+      "missing_port_id": "OPPONENT_INPUT::ORL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/49",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 51,
+      "game_id": "0022100430",
+      "candidate_date": "2022-02-03",
+      "home": "TOR",
+      "away": "CHI",
+      "opponent": "TOR",
+      "status": "CONDITIONAL_TOR_FUNCTION_AVAILABLE_DATED_OPERATING_HOLD",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100430;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.TOR",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "TOR_PATH_COST_AND_DATE_AVAILABILITY_NOT_SELECTED",
+        "TOR_FIRST_DATE_PAIR_NOT_EXTENDED_TO_THIS_DATE"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 1,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/50",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 52,
+      "game_id": "0022100789",
+      "candidate_date": "2022-02-04",
+      "home": "IND",
+      "away": "CHI",
+      "opponent": "IND",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100789;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.IND",
+      "missing_port_id": "OPPONENT_INPUT::IND",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/51",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 53,
+      "game_id": "0022100802",
+      "candidate_date": "2022-02-06",
+      "home": "CHI",
+      "away": "PHI",
+      "opponent": "PHI",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100802;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHI",
+      "missing_port_id": "OPPONENT_INPUT::PHI",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/52",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 54,
+      "game_id": "0022100812",
+      "candidate_date": "2022-02-07",
+      "home": "CHI",
+      "away": "PHX",
+      "opponent": "PHX",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100812;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHX",
+      "missing_port_id": "OPPONENT_INPUT::PHX",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/53",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 55,
+      "game_id": "0022100826",
+      "candidate_date": "2022-02-09",
+      "home": "CHA",
+      "away": "CHI",
+      "opponent": "CHA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100826;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CHA",
+      "missing_port_id": "OPPONENT_INPUT::CHA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/54",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 56,
+      "game_id": "0022100843",
+      "candidate_date": "2022-02-11",
+      "home": "CHI",
+      "away": "MIN",
+      "opponent": "MIN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100843;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIN",
+      "missing_port_id": "OPPONENT_INPUT::MIN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/55",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 57,
+      "game_id": "0022100852",
+      "candidate_date": "2022-02-12",
+      "home": "CHI",
+      "away": "OKC",
+      "opponent": "OKC",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100852;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.OKC",
+      "missing_port_id": "OPPONENT_INPUT::OKC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/56",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 58,
+      "game_id": "0022100861",
+      "candidate_date": "2022-02-14",
+      "home": "CHI",
+      "away": "SAS",
+      "opponent": "SAS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100861;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.SAS",
+      "missing_port_id": "OPPONENT_INPUT::SAS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/57",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 59,
+      "game_id": "0022100878",
+      "candidate_date": "2022-02-16",
+      "home": "CHI",
+      "away": "SAC",
+      "opponent": "SAC",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100878;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.SAC",
+      "missing_port_id": "OPPONENT_INPUT::SAC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/58",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 60,
+      "game_id": "0022100891",
+      "candidate_date": "2022-02-24",
+      "home": "CHI",
+      "away": "ATL",
+      "opponent": "ATL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100891;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ATL",
+      "missing_port_id": "OPPONENT_INPUT::ATL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/59",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 61,
+      "game_id": "0022100909",
+      "candidate_date": "2022-02-26",
+      "home": "CHI",
+      "away": "MEM",
+      "opponent": "MEM",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100909;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MEM",
+      "missing_port_id": "OPPONENT_INPUT::MEM",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/60",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 62,
+      "game_id": "0022100922",
+      "candidate_date": "2022-02-28",
+      "home": "MIA",
+      "away": "CHI",
+      "opponent": "MIA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100922;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIA",
+      "missing_port_id": "OPPONENT_INPUT::MIA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/61",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 63,
+      "game_id": "0022100710",
+      "candidate_date": "2022-03-03",
+      "home": "ATL",
+      "away": "CHI",
+      "opponent": "ATL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100710;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.ATL",
+      "missing_port_id": "OPPONENT_INPUT::ATL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/62",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 64,
+      "game_id": "0022100949",
+      "candidate_date": "2022-03-04",
+      "home": "CHI",
+      "away": "MIL",
+      "opponent": "MIL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100949;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIL",
+      "missing_port_id": "OPPONENT_INPUT::MIL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/63",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 65,
+      "game_id": "0022100969",
+      "candidate_date": "2022-03-07",
+      "home": "PHI",
+      "away": "CHI",
+      "opponent": "PHI",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022100969;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHI",
+      "missing_port_id": "OPPONENT_INPUT::PHI",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/64",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 66,
+      "game_id": "0022100982",
+      "candidate_date": "2022-03-09",
+      "home": "DET",
+      "away": "CHI",
+      "opponent": "DET",
+      "status": "CAPACITY_REUSE_CANDIDATE_DATED_INTERVAL_HOLD",
+      "capacity_ids": [
+        "DET::NORMAL__A_garza_two_way_retained",
+        "DET::NORMAL__B_lyles_not_signed",
+        "DET::COBY_OUT__A_garza_two_way_retained",
+        "DET::COBY_OUT__B_lyles_not_signed"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022100982;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.DET",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "DATED_SOURCE_INTERVAL_UNIMPLEMENTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/65",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 67,
+      "game_id": "0022101006",
+      "candidate_date": "2022-03-12",
+      "home": "CHI",
+      "away": "CLE",
+      "opponent": "CLE",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101006;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CLE",
+      "missing_port_id": "OPPONENT_INPUT::CLE",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/66",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 68,
+      "game_id": "0022101026",
+      "candidate_date": "2022-03-14",
+      "home": "SAC",
+      "away": "CHI",
+      "opponent": "SAC",
+      "status": "PARTIAL_STENCIL_NEEDS_FULL_OPPONENT_INPUT",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101026;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.SAC",
+      "missing_port_id": "OPPONENT_INPUT::SAC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/67",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 69,
+      "game_id": "0022101041",
+      "candidate_date": "2022-03-16",
+      "home": "UTA",
+      "away": "CHI",
+      "opponent": "UTA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101041;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.UTA",
+      "missing_port_id": "OPPONENT_INPUT::UTA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/68",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 70,
+      "game_id": "0022101056",
+      "candidate_date": "2022-03-18",
+      "home": "PHX",
+      "away": "CHI",
+      "opponent": "PHX",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101056;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.PHX",
+      "missing_port_id": "OPPONENT_INPUT::PHX",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/69",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 71,
+      "game_id": "0022101076",
+      "candidate_date": "2022-03-21",
+      "home": "CHI",
+      "away": "TOR",
+      "opponent": "TOR",
+      "status": "CONDITIONAL_TOR_FUNCTION_AVAILABLE_DATED_OPERATING_HOLD",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101076;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.TOR",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "TOR_PATH_COST_AND_DATE_AVAILABILITY_NOT_SELECTED",
+        "TOR_FIRST_DATE_PAIR_NOT_EXTENDED_TO_THIS_DATE"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/70",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 72,
+      "game_id": "0022101082",
+      "candidate_date": "2022-03-22",
+      "home": "MIL",
+      "away": "CHI",
+      "opponent": "MIL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101082;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIL",
+      "missing_port_id": "OPPONENT_INPUT::MIL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/71",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 73,
+      "game_id": "0022101098",
+      "candidate_date": "2022-03-24",
+      "home": "NOP",
+      "away": "CHI",
+      "opponent": "NOP",
+      "status": "CAPACITY_REUSE_CANDIDATE_DATED_INTERVAL_HOLD",
+      "capacity_ids": [
+        "NOP::NORMAL__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+        "NOP::COBY_OUT__NOP_ZION0_CONDITIONAL_RETAINED_CORE"
+      ],
+      "CHI_source_pointer": "rows:game_id=0022101098;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NOP",
+      "missing_port_id": null,
+      "conditional_capacity_source_available": true,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "DATED_SOURCE_INTERVAL_UNIMPLEMENTED"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/72",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 74,
+      "game_id": "0022101110",
+      "candidate_date": "2022-03-26",
+      "home": "CLE",
+      "away": "CHI",
+      "opponent": "CLE",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101110;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CLE",
+      "missing_port_id": "OPPONENT_INPUT::CLE",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/73",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 75,
+      "game_id": "0022101126",
+      "candidate_date": "2022-03-28",
+      "home": "NYK",
+      "away": "CHI",
+      "opponent": "NYK",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101126;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.NYK",
+      "missing_port_id": "OPPONENT_INPUT::NYK",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/74",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 76,
+      "game_id": "0022101132",
+      "candidate_date": "2022-03-29",
+      "home": "WAS",
+      "away": "CHI",
+      "opponent": "WAS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101132;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.WAS",
+      "missing_port_id": "OPPONENT_INPUT::WAS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/75",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 77,
+      "game_id": "0022101149",
+      "candidate_date": "2022-03-31",
+      "home": "CHI",
+      "away": "LAC",
+      "opponent": "LAC",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101149;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.LAC",
+      "missing_port_id": "OPPONENT_INPUT::LAC",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 1,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/76",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 78,
+      "game_id": "0022101164",
+      "candidate_date": "2022-04-02",
+      "home": "CHI",
+      "away": "MIA",
+      "opponent": "MIA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101164;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIA",
+      "missing_port_id": "OPPONENT_INPUT::MIA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/77",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 79,
+      "game_id": "0022101183",
+      "candidate_date": "2022-04-05",
+      "home": "CHI",
+      "away": "MIL",
+      "opponent": "MIL",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101183;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIL",
+      "missing_port_id": "OPPONENT_INPUT::MIL",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/78",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 80,
+      "game_id": "0022101193",
+      "candidate_date": "2022-04-06",
+      "home": "CHI",
+      "away": "BOS",
+      "opponent": "BOS",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101193;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.BOS",
+      "missing_port_id": "OPPONENT_INPUT::BOS",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/79",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 81,
+      "game_id": "0022101208",
+      "candidate_date": "2022-04-08",
+      "home": "CHI",
+      "away": "CHA",
+      "opponent": "CHA",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101208;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.CHA",
+      "missing_port_id": "OPPONENT_INPUT::CHA",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "NORMAL",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/80",
+      "conditional_paired_clock_ids": []
+    },
+    {
+      "game_number": 82,
+      "game_id": "0022101224",
+      "candidate_date": "2022-04-10",
+      "home": "MIN",
+      "away": "CHI",
+      "opponent": "MIN",
+      "status": "MISSING_OPPONENT_FUNCTION",
+      "capacity_ids": [],
+      "CHI_source_pointer": "rows:game_id=0022101224;state=NORMAL|COBY_OUT",
+      "CHI_source": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+      "opponent_team_input_pointer": "teams.MIN",
+      "missing_port_id": "OPPONENT_INPUT::MIN",
+      "conditional_capacity_source_available": false,
+      "applicable_dated_operating_interval": null,
+      "original_pair_source_date_binding_verified": false,
+      "dated_operating_interval_implementation_completed": false,
+      "source_interval_proven_for_requested_date": false,
+      "interval_is_a_conditional_proposal_not_executed_contract": true,
+      "remaining_HOLD": [
+        "OPERATING_AND_AVAILABILITY_NOT_ADOPTED",
+        "FULL_OPPONENT_FUNCTION_MISSING"
+      ],
+      "executable_selected_date": false,
+      "source_historical_OT_diagnostic": 0,
+      "new_OT_selected": false,
+      "score": null,
+      "winner": null,
+      "new_author_lock": false,
+      "selected_CHI_state": "COBY_OUT",
+      "CHI_authority_source": "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json",
+      "selected_CHI_health_pointer": "/selected_dates/81",
+      "conditional_paired_clock_ids": []
+    }
+  ],
+  "TOR_first_date_pairs": [
+    {
+      "id": "0022100046__T0__SIAKAM_AVAILABLE",
+      "game_id": "0022100046",
+      "date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "CHI_selected_state": "COBY_OUT",
+      "TOR_path": "T0",
+      "TOR_availability_parameter": "SIAKAM_AVAILABLE",
+      "source_pointers": {
+        "CHI": "/rows/7",
+        "TOR": "/rows/0",
+        "CHI_health": "/selected_dates/3"
+      },
+      "chronological_CHI_order": "ROOT_ROUTINE_COACHING_ORDER_OF_EXISTING_BLOCKS_WITH_QUARTER_BOUNDARIES",
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ]
+        },
+        "TOR": {
+          "standard": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Malachi Flynn",
+            "Chris Boucher",
+            "Aron Baynes",
+            "DeAndre' Bembry",
+            "Paul Watson",
+            "Freddie Gillespie",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Kyle Lowry",
+            "Khem Birch",
+            "Josh Giddey",
+            "Dalano Banton"
+          ],
+          "two_way": [
+            "Sam Hauser",
+            "Justin Champagnie"
+          ],
+          "active": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Chris Boucher",
+            "Aron Baynes",
+            "DeAndre' Bembry",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Kyle Lowry",
+            "Khem Birch",
+            "Josh Giddey",
+            "Malachi Flynn"
+          ],
+          "inactive": [
+            "Paul Watson",
+            "Freddie Gillespie",
+            "Dalano Banton"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 240,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 480,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "Josh Giddey",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1440,
+          "seconds": 240,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "Josh Giddey",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2880,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "TOR": {
+          "Aron Baynes": 720,
+          "Chris Boucher": 1200,
+          "DeAndre' Bembry": 480,
+          "Fred VanVleet": 1920,
+          "Josh Giddey": 1200,
+          "Khem Birch": 1680,
+          "Kyle Lowry": 1440,
+          "Norman Powell": 1680,
+          "OG Anunoby": 1920,
+          "Pascal Siakam": 1920,
+          "Yuta Watanabe": 240
+        }
+      },
+      "elapsed_seconds": 2880,
+      "combined_player_seconds": 28800,
+      "required_TOR_legal_and_economic_inputs": [
+        "do not adopt Baynes/Bembry/Watson/Gillespie historical waivers",
+        "PowellP0orP1; LowryBird and Birch lawful selected new agreement if no live contract",
+        "DB1 Giddey/Banton legal standard contracts; Hauser/Champagnie legal TW"
+      ],
+      "CHI_date_state_selected": true,
+      "TOR_date_state_or_contract_path_selected": false,
+      "actual_registration_or_clinical_certified": false,
+      "winner": null,
+      "score": null,
+      "OT_selected": false,
+      "whole_game_or_season_complete": false
+    },
+    {
+      "id": "0022100046__T0__SIAKAM_UNAVAILABLE",
+      "game_id": "0022100046",
+      "date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "CHI_selected_state": "COBY_OUT",
+      "TOR_path": "T0",
+      "TOR_availability_parameter": "SIAKAM_UNAVAILABLE",
+      "source_pointers": {
+        "CHI": "/rows/7",
+        "TOR": "/rows/1",
+        "CHI_health": "/selected_dates/3"
+      },
+      "chronological_CHI_order": "ROOT_ROUTINE_COACHING_ORDER_OF_EXISTING_BLOCKS_WITH_QUARTER_BOUNDARIES",
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ]
+        },
+        "TOR": {
+          "standard": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Malachi Flynn",
+            "Chris Boucher",
+            "Aron Baynes",
+            "DeAndre' Bembry",
+            "Paul Watson",
+            "Freddie Gillespie",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Kyle Lowry",
+            "Khem Birch",
+            "Josh Giddey",
+            "Dalano Banton"
+          ],
+          "two_way": [
+            "Sam Hauser",
+            "Justin Champagnie"
+          ],
+          "active": [
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Chris Boucher",
+            "Aron Baynes",
+            "DeAndre' Bembry",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Kyle Lowry",
+            "Khem Birch",
+            "Josh Giddey",
+            "Malachi Flynn",
+            "Paul Watson"
+          ],
+          "inactive": [
+            "Pascal Siakam",
+            "Freddie Gillespie",
+            "Dalano Banton"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 240,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 480,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1440,
+          "seconds": 240,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "DeAndre' Bembry",
+              "PF": "Chris Boucher",
+              "C": "Aron Baynes"
+            }
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2880,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Kyle Lowry",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "TOR": {
+          "Aron Baynes": 720,
+          "Chris Boucher": 2160,
+          "DeAndre' Bembry": 480,
+          "Fred VanVleet": 1920,
+          "Josh Giddey": 1200,
+          "Khem Birch": 1680,
+          "Kyle Lowry": 1440,
+          "Norman Powell": 1680,
+          "OG Anunoby": 1920,
+          "Yuta Watanabe": 1200
+        }
+      },
+      "elapsed_seconds": 2880,
+      "combined_player_seconds": 28800,
+      "required_TOR_legal_and_economic_inputs": [
+        "do not adopt Baynes/Bembry/Watson/Gillespie historical waivers",
+        "PowellP0orP1; LowryBird and Birch lawful selected new agreement if no live contract",
+        "DB1 Giddey/Banton legal standard contracts; Hauser/Champagnie legal TW"
+      ],
+      "CHI_date_state_selected": true,
+      "TOR_date_state_or_contract_path_selected": false,
+      "actual_registration_or_clinical_certified": false,
+      "winner": null,
+      "score": null,
+      "OT_selected": false,
+      "whole_game_or_season_complete": false
+    },
+    {
+      "id": "0022100046__T1__SIAKAM_AVAILABLE",
+      "game_id": "0022100046",
+      "date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "CHI_selected_state": "COBY_OUT",
+      "TOR_path": "T1",
+      "TOR_availability_parameter": "SIAKAM_AVAILABLE",
+      "source_pointers": {
+        "CHI": "/rows/7",
+        "TOR": "/rows/2",
+        "CHI_health": "/selected_dates/3"
+      },
+      "chronological_CHI_order": "ROOT_ROUTINE_COACHING_ORDER_OF_EXISTING_BLOCKS_WITH_QUARTER_BOUNDARIES",
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ]
+        },
+        "TOR": {
+          "standard": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Malachi Flynn",
+            "Chris Boucher",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Khem Birch",
+            "Josh Giddey",
+            "Dalano Banton",
+            "Goran Dragic",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Sam Dekker",
+            "Isaac Bonga"
+          ],
+          "two_way": [
+            "Sam Hauser",
+            "Justin Champagnie"
+          ],
+          "active": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Chris Boucher",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Khem Birch",
+            "Josh Giddey",
+            "Goran Dragic",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Malachi Flynn"
+          ],
+          "inactive": [
+            "Dalano Banton",
+            "Sam Dekker",
+            "Isaac Bonga"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 240,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 480,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1440,
+          "seconds": 240,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2880,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Pascal Siakam",
+              "C": "Khem Birch"
+            }
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "TOR": {
+          "Chris Boucher": 1200,
+          "Fred VanVleet": 1920,
+          "Goran Dragic": 720,
+          "Josh Giddey": 1200,
+          "Khem Birch": 1440,
+          "Norman Powell": 1920,
+          "OG Anunoby": 2400,
+          "Pascal Siakam": 1920,
+          "Precious Achiuwa": 960,
+          "Svi Mykhailiuk": 480,
+          "Yuta Watanabe": 240
+        }
+      },
+      "elapsed_seconds": 2880,
+      "combined_player_seconds": 28800,
+      "required_TOR_legal_and_economic_inputs": [
+        "four named lawful releases Baynes/Bembry/Watson/Gillespie before closed17 roster; protection/carry charges persist",
+        "Lowry S&T to MIA+Dragic/Precious incoming complete atom with receivingMIA hardcap/costs/consents",
+        "Powell/Birch and DB1 rookie contracts; Svi/Dekker legal minimum new agreements",
+        "Bonga prior window→Subsequent/X5→valid TOR right or lawful RookieFA bridge"
+      ],
+      "CHI_date_state_selected": true,
+      "TOR_date_state_or_contract_path_selected": false,
+      "actual_registration_or_clinical_certified": false,
+      "winner": null,
+      "score": null,
+      "OT_selected": false,
+      "whole_game_or_season_complete": false
+    },
+    {
+      "id": "0022100046__T1__SIAKAM_UNAVAILABLE",
+      "game_id": "0022100046",
+      "date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "CHI_selected_state": "COBY_OUT",
+      "TOR_path": "T1",
+      "TOR_availability_parameter": "SIAKAM_UNAVAILABLE",
+      "source_pointers": {
+        "CHI": "/rows/7",
+        "TOR": "/rows/3",
+        "CHI_health": "/selected_dates/3"
+      },
+      "chronological_CHI_order": "ROOT_ROUTINE_COACHING_ORDER_OF_EXISTING_BLOCKS_WITH_QUARTER_BOUNDARIES",
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ]
+        },
+        "TOR": {
+          "standard": [
+            "Pascal Siakam",
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Malachi Flynn",
+            "Chris Boucher",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Khem Birch",
+            "Josh Giddey",
+            "Dalano Banton",
+            "Goran Dragic",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Sam Dekker",
+            "Isaac Bonga"
+          ],
+          "two_way": [
+            "Sam Hauser",
+            "Justin Champagnie"
+          ],
+          "active": [
+            "Fred VanVleet",
+            "OG Anunoby",
+            "Chris Boucher",
+            "Yuta Watanabe",
+            "Norman Powell",
+            "Khem Birch",
+            "Josh Giddey",
+            "Goran Dragic",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Malachi Flynn",
+            "Dalano Banton"
+          ],
+          "inactive": [
+            "Pascal Siakam",
+            "Sam Dekker",
+            "Isaac Bonga"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 240,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 480,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1440,
+          "seconds": 240,
+          "quarter": 2,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Caruso",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Fred VanVleet",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Denzel Valentine",
+              "SF": "Protagonist",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Carter"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "LaMelo_pick4",
+              "SG": "Caruso",
+              "SF": "Chris Duarte",
+              "PF": "Protagonist",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Josh Giddey",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Chris Boucher",
+              "C": "Khem Birch"
+            }
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Goran Dragic",
+              "SG": "Svi Mykhailiuk",
+              "SF": "Josh Giddey",
+              "PF": "Chris Boucher",
+              "C": "Precious Achiuwa"
+            }
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Satoransky",
+              "SG": "LaVine",
+              "SF": "Protagonist",
+              "PF": "Young",
+              "C": "Tony Bradley"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Chris Boucher"
+            }
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2880,
+          "seconds": 240,
+          "quarter": 4,
+          "positions": {
+            "CHI": {
+              "PG": "Caruso",
+              "SG": "LaVine",
+              "SF": "Chris Duarte",
+              "PF": "Markkanen",
+              "C": "Young"
+            },
+            "TOR": {
+              "PG": "Fred VanVleet",
+              "SG": "Norman Powell",
+              "SF": "OG Anunoby",
+              "PF": "Yuta Watanabe",
+              "C": "Khem Birch"
+            }
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "TOR": {
+          "Chris Boucher": 2160,
+          "Fred VanVleet": 1920,
+          "Goran Dragic": 720,
+          "Josh Giddey": 1200,
+          "Khem Birch": 1440,
+          "Norman Powell": 1920,
+          "OG Anunoby": 2400,
+          "Precious Achiuwa": 960,
+          "Svi Mykhailiuk": 480,
+          "Yuta Watanabe": 1200
+        }
+      },
+      "elapsed_seconds": 2880,
+      "combined_player_seconds": 28800,
+      "required_TOR_legal_and_economic_inputs": [
+        "four named lawful releases Baynes/Bembry/Watson/Gillespie before closed17 roster; protection/carry charges persist",
+        "Lowry S&T to MIA+Dragic/Precious incoming complete atom with receivingMIA hardcap/costs/consents",
+        "Powell/Birch and DB1 rookie contracts; Svi/Dekker legal minimum new agreements",
+        "Bonga prior window→Subsequent/X5→valid TOR right or lawful RookieFA bridge"
+      ],
+      "CHI_date_state_selected": true,
+      "TOR_date_state_or_contract_path_selected": false,
+      "actual_registration_or_clinical_certified": false,
+      "winner": null,
+      "score": null,
+      "OT_selected": false,
+      "whole_game_or_season_complete": false
+    }
+  ],
+  "missing_opponent_ports": [
+    "ATL",
+    "BKN",
+    "BOS",
+    "CHA",
+    "CLE",
+    "DAL",
+    "DEN",
+    "GSW",
+    "HOU",
+    "IND",
+    "LAC",
+    "LAL",
+    "MEM",
+    "MIA",
+    "MIL",
+    "MIN",
+    "NYK",
+    "OKC",
+    "ORL",
+    "PHI",
+    "PHX",
+    "POR",
+    "SAC",
+    "SAS",
+    "UTA",
+    "WAS"
+  ],
+  "summary": {
+    "calendar_keys": 82,
+    "CHI_selected_states": {
+      "COBY_OUT": 24,
+      "NORMAL": 58
+    },
+    "new_TOR_role_function": 1,
+    "remaining_function_ports": 26,
+    "remaining_function_date_keys": 72,
+    "TOR_source_date_pairs": 4,
+    "TOR_later_date_pairs_created": 0,
+    "new_selected_game_results": 0
+  },
+  "authority": {
+    "TOR_frozen_proposal_flags_describe_generation_state": true,
+    "independent_conditional_capacity_review": "reviews/TOR_FOUR_ROLE_INDEPENDENT_REVIEW_2026_10_07.json",
+    "Lowry_direction_price_cost_health_or_game_result_selected": false,
+    "whole_macro3_or_G16_certified": false,
+    "manuscript_allowed": false
+  },
+  "consumer_api": "dispatch(game_id, root=ROOT): exact 82-key selected-CHI row and first-date conditional TOR pairs; unchanged DET/NOP capacities remain in frozen COMMON."
+}

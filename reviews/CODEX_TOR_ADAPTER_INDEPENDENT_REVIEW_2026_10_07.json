@@ -1,0 +1,27 @@
+{
+  "id": "CODEX_TOR_ADAPTER_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewer": "/root/den_pick_full_branch",
+  "review_mode": "Result and physical source files; no previous review verdicts read; read-only",
+  "source_sha256": {
+    "simulation/CHICAGO_TORONTO_2021_FIRST_DATE_CAPACITY_JOIN.json": "af5a4fd7d374964ed83371a32d2e838c62138e3077c57bb583262b3dcc86a57e",
+    "tools/build_chicago_toronto_2021_capacity_join.py": "6b4b83043c6fefa321cd278c5c3500e6c9790ebcf6727434b1dfd0a79fbaebea"
+  },
+  "direct_checks": [
+    "Four returned clocks match primitive CHI/TOR positions and integer source budgets",
+    "82 calendar IDs/date/home/away and selected Chicago health exactly joined",
+    "26 remaining function ports/72 dates directly counted",
+    "DET/NOP original dispatcher fields retained",
+    "TOR other3 dates have no pair and operating interval remains false",
+    "Actual clinical/contract/score/OT not promoted"
+  ],
+  "initial_actionable_defects": 1,
+  "initial_defect": "Patched paired() return swapping first TOR PG/SG preserved player totals and was accepted by build/validate.",
+  "repair": "Caller assert_joint_source reconstructs primitive source intervals and checks each returned position/quarter/budget after paired().",
+  "same_constructor_fault_injection_after_repair_rejected": true,
+  "rejection": "Returned role differs from physical source position",
+  "repair_check_elapsed_seconds": 0.588,
+  "final_additional_actionable_defects": 0,
+  "accepted_scope": "First TOR date four conditional capacities and common selected-CHI join; no TOR legal path/health/date/result selection.",
+  "accepted_ancestor_full_constructors_repeated": 0,
+  "whole_G16_certified": false
+}

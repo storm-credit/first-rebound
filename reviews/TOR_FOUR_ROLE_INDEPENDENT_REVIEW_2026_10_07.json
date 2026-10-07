@@ -1,0 +1,50 @@
+{
+  "id": "TOR_FOUR_ROLE_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewers": [
+    "/root/g11_access",
+    "/root"
+  ],
+  "source_sha256": {
+    "simulation/TORONTO_2021_NAMED_ROSTER_CAPACITY_CONDITIONAL_FAMILY.json": "ef43ee3052540099aa33263dbe5688ca8a1231df61a6291e432894d2b61541dd",
+    "tools/build_toronto_2021_named_roster_capacity.py": "19e86fb10c5d5b9cc766e620ff96e833108f8f1f1b43918ad2bb395b92d5cc2c",
+    "research/TORONTO_2021_10_25_NAMED_OPERATING_INPUT_BANK_2026_10_07.json": "7b6cba6e74044f3b52a79fa966498bca1771294c8bf109bb2213e712210c7096"
+  },
+  "g11_source_and_semantic_review": "Exact bank membership; role/creator eligibility; 4 x 240 minutes; active nominee checks; Siakam unavailable insert rejected by source/active guard. No actionable internal defect.",
+  "root_separate_direct_checks": [
+    {
+      "path": "T0",
+      "state": "SIAKAM_AVAILABLE",
+      "elapsed_seconds": 2880,
+      "player_seconds": 14400,
+      "active": 12,
+      "Siakam_seconds": 1920
+    },
+    {
+      "path": "T0",
+      "state": "SIAKAM_UNAVAILABLE",
+      "elapsed_seconds": 2880,
+      "player_seconds": 14400,
+      "active": 12,
+      "Siakam_seconds": 0
+    },
+    {
+      "path": "T1",
+      "state": "SIAKAM_AVAILABLE",
+      "elapsed_seconds": 2880,
+      "player_seconds": 14400,
+      "active": 12,
+      "Siakam_seconds": 1920
+    },
+    {
+      "path": "T1",
+      "state": "SIAKAM_UNAVAILABLE",
+      "elapsed_seconds": 2880,
+      "player_seconds": 14400,
+      "active": 12,
+      "Siakam_seconds": 0
+    }
+  ],
+  "independent_direct_checks_pass": true,
+  "accepted_scope": "Four conditional role capacities, not selected Lowry/economic/date/clinical/score execution.",
+  "whole_G16_certified": false
+}
