@@ -1,0 +1,77 @@
+{
+  "schema": "A04_S2_S3_OPERATING_EXIT_AUDIT_V1",
+  "status": "DIRECTIONAL_OPERATING_EXITS_PASS_FORMAL_EXECUTION_NOT_CERTIFIED",
+  "scope": "EXISTING_APPROVED_CHICAGO_AND_AG_DIRECTION_WITH_A04_EF004_EF005_ONLY",
+  "source_authority": {
+    "Chicago_first_round_rookie_scale_direction": "AUTHOR_APPROVED_CAREER_TIMELINE",
+    "2018_Asian_Games_nonparticipation": "AUTHOR_APPROVED_CAREER_TIMELINE",
+    "exact_pick_or_formal_UPC": "UNSELECTED",
+    "original_CP2_status": "PROVISIONAL_FUNCTION_PACKET"
+  },
+  "original_CP2": [
+    {
+      "id": "A04-S2",
+      "entry_state": "Chicago 입단을 즉시 주전으로 읽음",
+      "choice": "Chicago 입단을 주전 약속으로 읽지 않고 구단이 요구하는 개발 과제부터 확인한다",
+      "cost": "시장 경쟁",
+      "exit_state": "팀과 선수의 상호 투자",
+      "institutional_constraint": "정확 순번·하류 보드·rookie 계약 HOLD",
+      "provisional_entry_inherited_as_observed": false
+    },
+    {
+      "id": "A04-S3",
+      "entry_state": "프로 계약을 보상으로만 읽음",
+      "choice": "표준계약의 보상만 보지 않고 기존 2018 개발 일정과 대표팀 불참 방향의 비용을 받아들인다",
+      "cost": "구단 일정과 대표팀 불참",
+      "exit_state": "2018 개발 일정에 남음",
+      "institutional_constraint": "정확 순번·하류 보드·rookie 계약 HOLD",
+      "provisional_entry_inherited_as_observed": false
+    }
+  ],
+  "A04_S2_comparison": {
+    "function_path": "design/A04_E4_FINAL_EPISODE_FUNCTION.json",
+    "input_exact_previous_E3_exit": true,
+    "observed_local_action": "Conditional Chicago-side fictional preparation contact, questions about contract/development categories, and separation of the representative's explanation from unresolved formal club/player acts.",
+    "directional_operating_exit": "The approved Chicago first-round direction supplies a future team-side investment path, and E4 shows the player's informed preparation. It does not certify an actual UPC, rookie roster receipt, starter promise or exact pick.",
+    "directional_operating_exit_met": true,
+    "original_literal_formal_mutual_investment_executed": false,
+    "remaining_precise_gap": "Formal Chicago/player contract execution and exact draft/downstream order remain unselected. Neither is a new precondition for the bounded contact function or the approved direction."
+  },
+  "A04_S3_comparison": {
+    "function_path": "design/A04_E5_FINAL_EPISODE_FUNCTION.json",
+    "input_exact_previous_E4_exit": true,
+    "observed_local_action": "The protagonist allocates the 2018 summer toward Chicago rookie development and does not pursue a Korean Asian Games path, then retains basic role/schedule questions and offensive/self-management gaps.",
+    "directional_operating_exit": "The approved Chicago summer-development and Asian Games nonparticipation direction aligns with E5's visible time choice. A guaranteed Korean roster place was never held or surrendered.",
+    "directional_operating_exit_met": true,
+    "exact_club_development_dates_or_attendance_receipts_certified": false,
+    "remaining_precise_gap": "Exact club calendar, formal player registration and first NBA participation remain downstream institutional or season questions, not requirements to recognize this bounded summer choice."
+  },
+  "handoff": {
+    "E4_exact_entry_equals_E3_exit": true,
+    "E5_exact_entry_equals_E4_exit": true,
+    "E4_does_not_preexecute_CF06": true,
+    "next_A05_S1_executed_here": false
+  },
+  "promotion_boundary": {
+    "new_episode_functions_created_here": 0,
+    "whole_A04_S2_or_S3_promoted_by_this_audit": false,
+    "whole_A04_Act_complete": false,
+    "whole_g13_complete": false,
+    "whole_g14_complete": false,
+    "actual_context_packs": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "new_author_lock": false
+  },
+  "source_sha_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+    "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json": "c163c04bc4a1de50df1774082c32b62a50568e1e7374c3e034676b338f921a65",
+    "design/A04_E4_FINAL_EPISODE_FUNCTION.json": "3c41c07d73bf7fe0b659eef5c88b83079d1f007bd3a024dcd714a9d6a92309af",
+    "design/A04_E5_FINAL_EPISODE_FUNCTION.json": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944",
+    "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "design/CHICAGO_FRANCHISE_REOPEN.md": "6bbdbabd9c79f2249e8d9b8f2711d7aa2a61acf975bf71302ec1809b56af6d99"
+  }
+}

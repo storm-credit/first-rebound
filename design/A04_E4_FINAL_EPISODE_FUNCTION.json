@@ -1,0 +1,154 @@
+{
+  "schema": "A04_E4_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_CONDITIONAL_CHICAGO_CONTACT_NOT_FULL_A04",
+  "episode_function_id": "A04-EF-004",
+  "act": "A04",
+  "primary_subact": "A04-S2",
+  "source_conditional_function": "A04-CF05",
+  "final_function_order": 26,
+  "planned_allocation_slot": 148,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "a01_locally_assigned_function_slots": 9,
+    "a02_planned_slots": 54,
+    "a02_locally_assigned_function_slots": 10,
+    "a03_planned_slots": 54,
+    "a03_locally_assigned_function_slots": 3,
+    "a04_planned_slots": 12,
+    "a04_locally_assigned_function_slots": 4,
+    "a04_remaining_planned_slots": 8,
+    "total_local_functions_through_this": 26,
+    "unassigned_plan_slots_are_not_mandatory_new_events": true,
+    "allocation_is_final_published_episode_count": false,
+    "A04_slot_per_subact_uniform_distribution_certified": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "previous_function": {
+    "id": "A04-EF-003",
+    "source_path": "design/A04_E3_FINAL_EPISODE_FUNCTION.json",
+    "exact_full_exit": "주인공은 허용된 가상 개인 지도 훈련에서 코너 캐치 슛을 시도했으나 성공률은 기록하지 않았다. 짧은 한 드리블 뒤 다음 자가 창조가 막혀 가까운 동료에게 공을 늦게 연결한 첫 한계를 지도자가 직접 지적했다. 그는 다음 한 번의 시도에서 같은 정지 지점을 만나자 미리 확인한 가까운 동료에게 단순 패스를 건넸다. 이 국소 수정 행동은 보였지만 실제 수비 상대·경기·구단 평가·공식 측정·정확 지명 순번에서의 성공은 증명되지 않았다."
+  },
+  "local_blueprint": {
+    "schema": "A04_CF05_CONTACT_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_FICTIONAL_PREPARATION_CONTACT_NOT_UPC_OR_ROSTER_RECEIPT",
+    "entry_state": "주인공은 허용된 가상 개인 지도 훈련에서 코너 캐치 슛을 시도했으나 성공률은 기록하지 않았다. 짧은 한 드리블 뒤 다음 자가 창조가 막혀 가까운 동료에게 공을 늦게 연결한 첫 한계를 지도자가 직접 지적했다. 그는 다음 한 번의 시도에서 같은 정지 지점을 만나자 미리 확인한 가까운 동료에게 단순 패스를 건넸다. 이 국소 수정 행동은 보였지만 실제 수비 상대·경기·구단 평가·공식 측정·정확 지명 순번에서의 성공은 증명되지 않았다.",
+    "single_function": "Chicago 방향의 가상 준비 연락에서 계약·개발 질문과 아직 확인되지 않은 기관 항목을 분리한다",
+    "unit_choice": "Chicago 쪽 연락과 가상 에이전트의 설명에서 자신이 준비할 계약·개발 과제를 묻고 1라운드 표준계약 방향의 입단 준비를 이어 가려 한다",
+    "direct_present_cost": "He uses time otherwise free for rest or personal activity to ask and record unresolved contract/development categories.",
+    "exit_state": "주인공은 앞선 개인 훈련의 좁은 수정 행동을 구단의 비공개 평가로 착각하지 않았다. 승인된 Chicago 1라운드 진입 방향 뒤의 가상 준비 연락에서 계약 서류·검사·구단 개발 과제 중 누가 확인해야 할 항목인지 묻고, 이름 없는 대리인의 일반 설명과 아직 기관이 확정하지 않은 세부를 나누었다. 그는 쉬거나 개인 활동에 쓸 시간을 이 미확인 항목 정리에 썼지만, 정확 지명 순번·실제 서명·의료 적합·주전 권한은 얻지 못했다.",
+    "beats": [
+      {
+        "id": "C0",
+        "classification": "EXISTING_LANDING_DIRECTION_CONDITIONAL_BRIDGE",
+        "action": "Place the fictional preparation exchange after the already approved Chicago first-round landing direction has become publicly knowable in the alternate story. Leave the exact pick, draft call, date, agent identity and signed UPC unspecified.",
+        "observable_result": "The protagonist can ask about onboarding and developmental preparation without gaining access to a private board or automatically becoming a starter.",
+        "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+      },
+      {
+        "id": "C1",
+        "classification": "BOUNDED_FICTIONAL_CONTACT_AND_QUESTION",
+        "action": "Through an unnamed fictional representative, he receives a Chicago-side general preparation contact and asks which first-round contract documents, medical/eligibility checks and rookie development steps still require authorized confirmation.",
+        "observable_result": "The contact identifies categories to verify; no person supplies a final salary, medical clearance, roster place or guaranteed offensive role.",
+        "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+      },
+      {
+        "id": "C2",
+        "classification": "DISTINGUISH_EXPLANATION_FROM_INSTITUTIONAL_EXECUTION",
+        "action": "The fictional representative separates the general first-round rookie-scale form and team development expectation from unsigned details and makes a short unanswered checklist for formal club/player processes.",
+        "observable_result": "He has an explanation and his own follow-up questions, not a signed contract, verified calendar, medical approval or a club promise of starting.",
+        "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+      }
+    ]
+  },
+  "single_function": "Chicago 방향의 가상 준비 연락에서 계약·개발 질문과 아직 확인되지 않은 기관 항목을 분리한다",
+  "entry_state": "주인공은 허용된 가상 개인 지도 훈련에서 코너 캐치 슛을 시도했으나 성공률은 기록하지 않았다. 짧은 한 드리블 뒤 다음 자가 창조가 막혀 가까운 동료에게 공을 늦게 연결한 첫 한계를 지도자가 직접 지적했다. 그는 다음 한 번의 시도에서 같은 정지 지점을 만나자 미리 확인한 가까운 동료에게 단순 패스를 건넸다. 이 국소 수정 행동은 보였지만 실제 수비 상대·경기·구단 평가·공식 측정·정확 지명 순번에서의 성공은 증명되지 않았다.",
+  "unit_choice": "Chicago 쪽 연락과 가상 에이전트의 설명에서 자신이 준비할 계약·개발 과제를 묻고 1라운드 표준계약 방향의 입단 준비를 이어 가려 한다",
+  "exit_state": "주인공은 앞선 개인 훈련의 좁은 수정 행동을 구단의 비공개 평가로 착각하지 않았다. 승인된 Chicago 1라운드 진입 방향 뒤의 가상 준비 연락에서 계약 서류·검사·구단 개발 과제 중 누가 확인해야 할 항목인지 묻고, 이름 없는 대리인의 일반 설명과 아직 기관이 확정하지 않은 세부를 나누었다. 그는 쉬거나 개인 활동에 쓸 시간을 이 미확인 항목 정리에 썼지만, 정확 지명 순번·실제 서명·의료 적합·주전 권한은 얻지 못했다.",
+  "direct_present_cost": "He uses time otherwise free for rest or personal activity to ask and record unresolved contract/development categories.",
+  "reader_question_at_end": "설명과 미확인 항목을 나눈 뒤 그는 제한된 여름 시간을 어디에 쓸 것인가",
+  "internal_order": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "beats": [
+    {
+      "id": "C0",
+      "classification": "EXISTING_LANDING_DIRECTION_CONDITIONAL_BRIDGE",
+      "action": "Place the fictional preparation exchange after the already approved Chicago first-round landing direction has become publicly knowable in the alternate story. Leave the exact pick, draft call, date, agent identity and signed UPC unspecified.",
+      "observable_result": "The protagonist can ask about onboarding and developmental preparation without gaining access to a private board or automatically becoming a starter.",
+      "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+    },
+    {
+      "id": "C1",
+      "classification": "BOUNDED_FICTIONAL_CONTACT_AND_QUESTION",
+      "action": "Through an unnamed fictional representative, he receives a Chicago-side general preparation contact and asks which first-round contract documents, medical/eligibility checks and rookie development steps still require authorized confirmation.",
+      "observable_result": "The contact identifies categories to verify; no person supplies a final salary, medical clearance, roster place or guaranteed offensive role.",
+      "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+    },
+    {
+      "id": "C2",
+      "classification": "DISTINGUISH_EXPLANATION_FROM_INSTITUTIONAL_EXECUTION",
+      "action": "The fictional representative separates the general first-round rookie-scale form and team development expectation from unsigned details and makes a short unanswered checklist for formal club/player processes.",
+      "observable_result": "He has an explanation and his own follow-up questions, not a signed contract, verified calendar, medical approval or a club promise of starting.",
+      "source_path": "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json"
+    }
+  ],
+  "next_unit": {
+    "id": "A04-CF06",
+    "status": "SUMMER_TIME_CHOICE_CONDITIONAL_NOT_EXECUTED",
+    "Asian_Games_nonparticipation_choice_prepaid_by_E4": false,
+    "guaranteed_national_team_place_claimed": false
+  },
+  "conditional_public_landing_bridge": {
+    "approved_Chicago_first_round_direction": true,
+    "exact_pick_draft_call_words_and_date_certified": false,
+    "official_UPC_or_roster_receipt_certified": false
+  },
+  "original_CP2_S2_immediate_starter_belief_inherited_as_observed": false,
+  "information_access": {
+    "pov": "PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "may_know": [
+      "자기가 받은 가상 준비 안내의 일반 범주",
+      "대리인에게 한 질문과 미확인 서류·개발 항목"
+    ],
+    "cannot_know": [
+      "Chicago의 비공개 보드·정확 22순위",
+      "공식 서명·의료·로스터 수락이 끝났다는 증명",
+      "실존 인물의 발언·주전 약속"
+    ],
+    "real_scout_or_executive_dialogue": null
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED means current source-bound fictional information contact, not an actual NBA transaction or contract receipt.",
+    "CF06 summer decision remains unperformed; the combined working model’s final exit is not the E4 exit.",
+    "Approved Chicago first-round direction does not select the exact pick or formal draft-call and signing details."
+  ],
+  "whole_A04_S2_exit_certified": false,
+  "whole_A04_act_exit_certified": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a04_e4_final_episode_function.py": "ce6a001b3fc6a741fdb5bd3fed9d3662e9814db0d241e2c4e3b9b8b8cfaa7176",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+    "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json": "c163c04bc4a1de50df1774082c32b62a50568e1e7374c3e034676b338f921a65",
+    "design/A04_DRAFT_CONDITIONAL_FUNCTIONS.json": "1427edd30d9602f1de651d58fb9b877b5cef92bb3edd8bd8630de4876461d2e6",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/ACT_MAP.md": "e3a5e3a8c9fd711718a0063435f6b9e5bf4d59d7010e234f08a8dad985964a68"
+  }
+}

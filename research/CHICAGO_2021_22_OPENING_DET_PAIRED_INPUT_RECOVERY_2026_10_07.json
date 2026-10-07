@@ -1,0 +1,832 @@
+{
+  "id": "CHICAGO_2021_22_OPENING_DET_PAIRED_INPUT_RECOVERY",
+  "status": "INDEPENDENTLY_REVIEWED_STATIC_RECOVERY_NOT_EXECUTION",
+  "baseline_main": "16167cf4f6f2da50cbb1c054b948f9efedee3ddc",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md": "9df0d5192ed799cbd4b688331628e113e4d03d7aa0ee159cc9ea9a7dcd86f9ce",
+    "simulation/2020_DRAFT_KIRA_LEWIS_RELANDING_BOARD.md": "6fed47dea68dcaf4d187b3e6d9a238205ca95d39a5b0330d77b51c60d3d7c16f",
+    "simulation/2020_DRAFT_ISAIAH_STEWART_RELANDING_BOARD.md": "eb1f92743ccb156fa5dc34a4e861d9e9ef2c391711d013152539df334612be03",
+    "research/NBA_2021_FULL_DRAFT_WORKING_BOARD_2026_10_07.json": "90099928f9133c4087ee7871939ce58216d183bd186f5ebd3575a56c2348eeed",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "tools/build_chicago_2021_22_m1_dated_working_minutes.py": "fe26befaf33d0da47a5614021ec2ed7f403e5f087ecf1acdc0e63e91fd2e9e1b",
+    "simulation/CHICAGO_2021_22_PAIRED_INPUTS.json": "db727ddc89e354da7603c2563aaa4b58d9b543e124b0c4bd9de9df45d7ea9c6f",
+    "simulation/CHICAGO_2021_22_PAIRED_REVIEW.json": "de6140d8aaab2c34cf276ec9d7bbe720d9d406f5d802e5680e1d5e24c2e4d3c5",
+    "research/CHICAGO_2021_22_PAIRED_SOURCES.json": "1ad92abc76d9b3cc8aa37d73c228bdab274fe8784dc099aa6a6e023450206524",
+    "simulation/CHICAGO_2021_22_OPPONENT_PRIORS.json": "a14bdb98c41ec481bd7af4c5a1f33e32bcd2bd49ea7907fba8b6b329f3fd60ca",
+    "simulation/CHICAGO_2021_22_G15B_STRESS.json": "56cbde7e16507a9ae925dcb39252af509b056345202b70965019a651f99abe3c",
+    "research/O15G15AC_PLUMLEE_2021_DRAFT_ASSET_COLLISION.md": "a277318ea0c1c1f2efe62314dcbdefcaef0e7b13ba5b1fa27b53846002c74240",
+    "research/O15G15AD_PLUMLEE_OLYNYK_CAP_AND_DATE_BRIDGE.md": "cbcec0dde7a0d1460b2a74c4301874db99de5616f270b307b9d8ccf9a860e43c",
+    "research/O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.json": "eb90c8275ad5f3e57146fc3981f1739c9e0a23e687e3c5d2331e1117ac41a672",
+    "research/O15G15AG_DETROIT_2021_OPENING_GAMEBOOK.json": "647fda2a1bb07009ca4de723437f2ba2aa0e96e12573f8332a81c37c2eed2cd5",
+    "research/O15G15AJ_DETROIT_AUG6_NAMED_SALARY_LEDGER.json": "60d2affe397313d19b8f3f5450db9308dc6bab98864ca725e1f73c30cc5f71bb",
+    "research/O15G15AL_DETROIT_PRE_OLYNYK_ROSTER_CHARGE_SEQUENCE.json": "cd0d31fced740134f94f34d1a6ce7b24c1205ce9360be3ae61e2d4abf43253b2",
+    "research/O15G15AQ_DETROIT_LEE_CAP_ROOM_AND_NONBIRD_ROUTE.json": "6b4806825d623e445f17a093239800a8f49f7841266244129818275681a622fa",
+    "research/O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.json": "9f75d9af0af324303dc670249b023f69005dd3fb2624edf7322c4e2791469ac5",
+    "research/O15G15AU_DETROIT_AUG6_CONSIDERATION_LEDGER.md": "cf96e40e2683d0375d11f9eeea016238c65e4a4072ac5e0ecf3b64276351390a",
+    "simulation/O15G15BM_DETROIT_OPENING_SLOT_OPTIONS.json": "ba7ae4604a90c715130f96a127fcbe7616f4fd6430068fc3742729b1761a2ed9",
+    "research/O15G15BM_DETROIT_OPENING_SLOT_TWO_NAMED_OPTIONS.md": "9bef308ed89ff7e4899bc0ffc3179305f61066e67c2a0df844ce0f6c84304d47",
+    "research/O15G15BO_DETROIT_GARZA_BAGLEY_SLOT_BRIDGE.md": "b5d4186615c3dfe3f0e06c50def047c9bd2f4e66855953c4f9949db7ea7e8fb6",
+    "research/TWO_WAY_2021_22_RULE_PERIOD_EVIDENCE.json": "e615d2cce356be8db1b0e65eb174b718789a4650a459c1ec2f69118be1cb1e26",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "simulation/NBA_2020_21_APPROVED_TRANSACTION_EXECUTION_BRIDGE.json": "51755e614cd9827c7f60c0c07ef75851f1b20cdfdfb13348db7c512e84dcb968"
+  },
+  "hash_convention": "UTF8 BOM stripped; CRLF/CR to LF",
+  "game": {
+    "game_id": "0022100004",
+    "candidate_date": "2021-10-20",
+    "home": "DET",
+    "away": "CHI",
+    "same_observed_calendar_is_hypothesis": true,
+    "score": null,
+    "winner": null,
+    "health_selected": false
+  },
+  "authority": {
+    "2020_author_locked_landing": {
+      "Patrick Williams": {
+        "pick": 7,
+        "team": "DET"
+      },
+      "Kira Lewis Jr.": {
+        "pick": 16,
+        "team": "DET"
+      },
+      "Isaiah Stewart": {
+        "pick": 19,
+        "team": "DET"
+      }
+    },
+    "2021_DB1_DET_unselected_candidates": [
+      {
+        "pick": 5,
+        "player": "Jalen Suggs",
+        "conditional_final_draft_rights_holder": "DET",
+        "new_author_lock": false,
+        "new_NBA_contract_or_tender": false
+      },
+      {
+        "pick": 37,
+        "player": "Santi Aldama",
+        "conditional_final_draft_rights_holder": "DET",
+        "new_author_lock": false,
+        "new_NBA_contract_or_tender": false
+      },
+      {
+        "pick": 38,
+        "player": "Isaiah Livers",
+        "conditional_final_draft_rights_holder": "DET",
+        "new_author_lock": false,
+        "new_NBA_contract_or_tender": false
+      },
+      {
+        "pick": 53,
+        "player": "Luka Garza",
+        "conditional_final_draft_rights_holder": "DET",
+        "new_author_lock": false,
+        "new_NBA_contract_or_tender": false
+      }
+    ],
+    "Suggs_landing_year": 2021,
+    "Suggs_2020_landing_claim": false,
+    "new_pick_or_transaction_or_author_lock": false
+  },
+  "source_provenance": {
+    "fresh_primary_collection_count": 0,
+    "historical_gamebook_original_url": "https://statsdmz.nba.com/pdfs/20211020/20211020_CHIDET_book.pdf",
+    "original_primary_body_reopened_in_this_leaf": false,
+    "gamebook_SCOPE": "original_history_final_box_names_not_contract_registry",
+    "existing_repository_primary_observations_are_prior_sources_not_new_raw_retrieval": true,
+    "existing_secondary_salary_screens_are_named_candidates_not_official_ledger": true
+  },
+  "regulation_pair_comparison": {
+    "CHI_current_M1_NORMAL": {
+      "player_minutes": {
+        "Carter": 28,
+        "Caruso": 18,
+        "Chris Duarte": 14,
+        "Coby": 18,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 32,
+        "Protagonist": 32,
+        "Tony Bradley": 12,
+        "Young": 20
+      },
+      "position_minutes": {
+        "PG": {
+          "LaMelo_pick4": 32,
+          "Coby": 10,
+          "Caruso": 6
+        },
+        "SG": {
+          "LaVine": 34,
+          "Coby": 8,
+          "Caruso": 6
+        },
+        "SF": {
+          "Protagonist": 28,
+          "Caruso": 6,
+          "Chris Duarte": 14
+        },
+        "PF": {
+          "Markkanen": 32,
+          "Protagonist": 4,
+          "Young": 12
+        },
+        "C": {
+          "Carter": 28,
+          "Young": 8,
+          "Tony Bradley": 12
+        }
+      },
+      "unordered_blocks": 11,
+      "active_standard_nominees": [
+        "LaVine",
+        "LaMelo_pick4",
+        "Coby",
+        "Carter",
+        "Young",
+        "Protagonist",
+        "Chris Duarte",
+        "Caruso",
+        "Markkanen",
+        "Tony Bradley",
+        "Satoransky",
+        "Green"
+      ],
+      "STD_slots": 15,
+      "TW_slots": 2,
+      "normal_state_selected_for_this_date": false
+    },
+    "DET_existing_G14_candidate": {
+      "player_minutes": {
+        "Cory Joseph": 24,
+        "Hamidou Diallo": 20,
+        "Isaiah Stewart": 24,
+        "Jalen Suggs": 24,
+        "Jerami Grant": 30,
+        "Josh Jackson": 24,
+        "Kelly Olynyk": 18,
+        "Kira Lewis Jr.": 24,
+        "Mason Plumlee": 24,
+        "Patrick Williams": 28
+      },
+      "position_minutes": {
+        "PG": {
+          "Kira Lewis Jr.": 24,
+          "Cory Joseph": 24
+        },
+        "SG": {
+          "Jalen Suggs": 24,
+          "Josh Jackson": 16,
+          "Hamidou Diallo": 8
+        },
+        "SF": {
+          "Patrick Williams": 28,
+          "Josh Jackson": 8,
+          "Hamidou Diallo": 12
+        },
+        "PF": {
+          "Jerami Grant": 30,
+          "Kelly Olynyk": 18
+        },
+        "C": {
+          "Isaiah Stewart": 24,
+          "Mason Plumlee": 24
+        }
+      },
+      "unordered_regulation_blocks": [
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 6,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 12,
+          "positions": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 14,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "minutes": 4,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "minutes": 2,
+          "positions": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "required_creator_any_of": [
+        "Kira Lewis Jr.",
+        "Cory Joseph",
+        "Jalen Suggs"
+      ],
+      "full_registration_or_medical_cleared": false,
+      "state_selected": false
+    },
+    "team_minutes_each": 240,
+    "pair_team_minutes": 480,
+    "joint_substitution_chronology_or_possessions_constructed": false,
+    "OT_or_fullgame_selected": false,
+    "legacy_CHI_G14_Mark28_Caruso22_not_reused": true,
+    "actual_productivity_or_result_inherited": false
+  },
+  "opening_roster_recovery": {
+    "same_other_events_standard_candidate": [
+      "Patrick Williams",
+      "Josh Jackson",
+      "Kira Lewis Jr.",
+      "Jerami Grant",
+      "Isaiah Stewart",
+      "Kelly Olynyk",
+      "Trey Lyles",
+      "Saben Lee",
+      "Cory Joseph",
+      "Rodney McGruder",
+      "Frank Jackson",
+      "Jalen Suggs",
+      "Isaiah Livers",
+      "Mason Plumlee",
+      "Hamidou Diallo",
+      "Luka Garza"
+    ],
+    "conditional_standard_counts": [
+      16,
+      17,
+      16,
+      15,
+      16
+    ],
+    "TW_historical_counterpart": [
+      "Jamorko Pickett",
+      "Chris Smith"
+    ],
+    "full_same_other_events_standard_slots": 16,
+    "limit": 15,
+    "named_slot_candidates": [
+      {
+        "id": "A_garza_two_way_retained",
+        "standard_candidate": [
+          "Patrick Williams",
+          "Josh Jackson",
+          "Kira Lewis Jr.",
+          "Jerami Grant",
+          "Isaiah Stewart",
+          "Kelly Olynyk",
+          "Trey Lyles",
+          "Saben Lee",
+          "Cory Joseph",
+          "Rodney McGruder",
+          "Frank Jackson",
+          "Jalen Suggs",
+          "Isaiah Livers",
+          "Mason Plumlee",
+          "Hamidou Diallo"
+        ],
+        "two_way_candidate": [
+          "Luka Garza",
+          "Chris Smith"
+        ],
+        "positive_G14_preserved": true,
+        "slot_only_pass": true,
+        "complete_contract_or_cost_family_pass": false,
+        "selected": false
+      },
+      {
+        "id": "B_lyles_not_signed",
+        "standard_candidate": [
+          "Patrick Williams",
+          "Josh Jackson",
+          "Kira Lewis Jr.",
+          "Jerami Grant",
+          "Isaiah Stewart",
+          "Kelly Olynyk",
+          "Saben Lee",
+          "Cory Joseph",
+          "Rodney McGruder",
+          "Frank Jackson",
+          "Jalen Suggs",
+          "Isaiah Livers",
+          "Mason Plumlee",
+          "Hamidou Diallo",
+          "Luka Garza"
+        ],
+        "two_way_candidate": [
+          "Jamorko Pickett",
+          "Chris Smith"
+        ],
+        "positive_G14_preserved": true,
+        "slot_only_pass": true,
+        "complete_contract_or_cost_family_pass": false,
+        "selected": false
+      }
+    ],
+    "A_next_review_priority_only": "Garza TW retention preserves all ten G14 positive players and the later Lyles identity; no automatic selection or legal-family completion.",
+    "Aldama37_rights_not_automatically_NBA_contract_or_17th_standard": true,
+    "unreported_Aldama_contract_or_tender": null,
+    "original_TW_50_active_limit_scope": "Opening rule only; later exception exists, exact implementation date not filled; future annual active count not needed for this single candidate comparison."
+  },
+  "transaction_asset_boundary": {
+    "original_Plumlee_trade": {
+      "DET_sends": [
+        "Mason Plumlee",
+        "2021#37 JT Thor rights"
+      ],
+      "CHA_sends": [
+        "2021#57 Balsa Koprivica rights"
+      ],
+      "portable_to_DB1": false
+    },
+    "DB1_conflicts": {
+      "2021#30": "JT Thor UTA candidate",
+      "2021#37": "Santi Aldama DET candidate",
+      "2021#57": "Balsa Koprivica NYK candidate"
+    },
+    "Plumlee_retention_P0B_is_unselected_condition": true,
+    "no_inferred_approved_Plumlee_trade_omission": true,
+    "Charlotte_replacement_center_or_return_asset_auto_assigned": false,
+    "historical_Nets_Jordan_events_are_conditional_after_same_players_preserved": true
+  },
+  "named_cost_recovery": {
+    "Plumlee_retained_untraded_salary_candidate": 8137500,
+    "Plumlee_traded_display_cap_9248333_not_used": true,
+    "cap": 112414000,
+    "Olynyk_first_year_candidate": 12195122,
+    "pre_Olynyk_named_salary_candidate": 100052228,
+    "pre_Olynyk_room_candidate": 12361772,
+    "post_Olynyk_room_candidate": 166650,
+    "different_deadmoney_source_delta": 203571,
+    "different_deadmoney_source_post_Olynyk_margin": -36921,
+    "not_included_in_old_screen": [
+      "unidentified free-agent cap holds or rights not proven renounced",
+      "McGruder waiver effective time and any outstanding contract charge",
+      "contract incentives, other cap charges, exceptions and actual signing order",
+      "Joseph new August 10 room MLE contract"
+    ],
+    "salary_free_exit_cases_existing_not_selected": {
+      "none": {
+        "outgoing": [],
+        "after_exit_room": 12361772,
+        "after_exit_count": 12,
+        "after_olynyk_room": 166650,
+        "after_lee_room": -397157,
+        "after_lyles_room": -2897157,
+        "after_frank_room": -3957807
+      },
+      "sekou_only": {
+        "outgoing": [
+          "Sekou Doumbouya"
+        ],
+        "after_exit_room": 15050194,
+        "after_exit_count": 11,
+        "after_olynyk_room": 3780330,
+        "after_lee_room": 3216523,
+        "after_lyles_room": 716523,
+        "after_frank_room": -344127
+      },
+      "okafor_only": {
+        "outgoing": [
+          "Jahlil Okafor"
+        ],
+        "after_exit_room": 13566537,
+        "after_exit_count": 11,
+        "after_olynyk_room": 2296673,
+        "after_lee_room": 1732866,
+        "after_lyles_room": -767134,
+        "after_frank_room": -1827784
+      },
+      "sekou_and_okafor": {
+        "outgoing": [
+          "Sekou Doumbouya",
+          "Jahlil Okafor"
+        ],
+        "after_exit_room": 16254959,
+        "after_exit_count": 10,
+        "after_olynyk_room": 4985095,
+        "after_lee_room": 4421288,
+        "after_lyles_room": 2846546,
+        "after_frank_room": 1785896
+      }
+    },
+    "historical_Sept4_Jordan_trade_not_Aug6_salary_free_exit": {
+      "date": "2021-09-04",
+      "outgoing": [
+        "Sekou Doumbouya",
+        "Jahlil Okafor"
+      ],
+      "incoming": "DeAndre Jordan",
+      "incoming_first_year_salary_candidate": 9881598,
+      "later_buyout_dead_cap_2021_22_candidate": 7875533,
+      "gross_trade_salary_increase_candidate": 4137895,
+      "salary_increase_after_later_buyout_candidate": 2131830,
+      "august_6_execution": "NOT_ESTABLISHED"
+    },
+    "complete_public_cost_family_supported": false,
+    "private_receipt_or_ledger_required_to_continue": false
+  },
+  "productivity_recovery": {
+    "cutoff": "2021-10-19",
+    "preexisting_Suggs24_min_sensitivity": {
+      "fg3a": {
+        "min": 2.111385229315445,
+        "max": 3.1653712219380834
+      },
+      "fga": {
+        "min": 8.201541837094021,
+        "max": 9.962602981085087
+      },
+      "fta": {
+        "min": 1.808846229806059,
+        "max": 2.28497402120029
+      },
+      "tov": {
+        "min": 1.6922399709389855,
+        "max": 2.039327726831902
+      }
+    },
+    "joint_predictive_prior_or_confidence_interval": false,
+    "policy_B14D_existing_three_FTA_budget_HOLD": true,
+    "original_FGA_FTA_score_budget_automatically_adopted": false,
+    "existing_G14_HOLD_not_removed_by_stress_ratios": true
+  },
+  "next_finite_unit": {
+    "name": "DET_OPENING_P0B_NAMED_OPERATING_FAMILY",
+    "entry": "Preserve existing conditional G14 ten positive identities; explicitly keep DB1 draft/Plumlee retention as candidates.",
+    "items": [
+      "Join the selected May16 DET 15STD/2TW carrier into the Aug6 candidate: carry Joseph/Diallo/P7/K16/Stewart19 from approved working events, model outgoing/expired Wayne Ellington/Dennis Smith Jr/Tyler Cook/Sirvydis with continuing financial obligations preserved, and model FrankJackson/Lee TW-to-STD transitions without duplicate CHI Cook registration.",
+      "Construct opening fifteen STD plus two TW candidate A from the named sixteen, with Garza standard conversion omitted and Pickett separate admitted non-NBA/other-team path. Nominate legal active sizes without turning zero-minute reserves into injuries.",
+      "Resolve one continuous Aug6 cost route through Olynyk/Lee/Lyles/Frank/Joseph. Use legal guaranteed-charge intervals, outstanding holds, renunciation and signed-agreement charges as modeled variables; test an actual recipient/return bundle if a salary exit is used. Existing screen 166650 is not a whole upper-bound certificate.",
+      "Carry DB1 Aldama/Livers/Garza rights separately from NBA UPC/tender costs; no automatic original Thor/Koprivica transaction or new draft choice.",
+      "Only after a lawful source-supported family, connect normal DET minutes with current CHI M1 and a selected productivity/impact method; no historical 88:94 result copied."
+    ],
+    "not_new_required_gates": [
+      "No actual private trade receipt, clinical diagnosis of every zero-minute reserve or unpublished ledger certificate is required for a routine fictional family.",
+      "No automatic need to finalize all sixty draft choices before this conditional paired input can be constructed."
+    ]
+  },
+  "verification": {
+    "source_pins": 27,
+    "CHI_normal_blocks": 11,
+    "DET_blocks": 9,
+    "DET_positive_players": 10,
+    "DET_position_minutes_each": 48,
+    "DET_total_minutes": 240,
+    "pair_total_minutes": 480,
+    "conditional_count_sequence_checked": [
+      16,
+      17,
+      16,
+      15,
+      16
+    ],
+    "two_slot_candidates_each_15STD_2TW_and_positive_preserved": true,
+    "cap_screen_arithmetic_directly_checked": true,
+    "static_artifact_constructor_negative_controls": null,
+    "independent_review_completed": true
+  },
+  "scope": {
+    "new_author_lock": false,
+    "working_direction_selection": false,
+    "actual_registration_or_medical_certified": false,
+    "whole_cost_or_2021_22_season_complete": false,
+    "macro2_reopened": false,
+    "whole_macro3_complete": false,
+    "REGISTER_or_gate_changed": false,
+    "manuscript_written": 0
+  },
+  "progress": {
+    "unfinished_major_groups": 5,
+    "freeze": "v0.30 PARTIAL",
+    "design_manuscript_gates": "CLOSED",
+    "actual_Context_Packs": 0,
+    "seven_rows": [
+      {
+        "number": 1,
+        "group": "2020 드래프트 연쇄",
+        "state": "완료"
+      },
+      {
+        "number": 2,
+        "group": "Chicago 2020–21",
+        "state": "S2 완료"
+      },
+      {
+        "number": 3,
+        "group": "2021–23 거래·계약",
+        "state": "M1 82날짜 조건부 carrier 독립수용; 첫 DET 입력·명단·비용 경계 복구"
+      },
+      {
+        "number": 4,
+        "group": "장기 커리어",
+        "state": "후속 시즌 입력 대기"
+      },
+      {
+        "number": 5,
+        "group": "결말·전체 구조",
+        "state": "전체 기능표 미완료"
+      },
+      {
+        "number": 6,
+        "group": "집필 규격·Context Pack",
+        "state": "현행 기능 등록기 참조; 실제 Pack0"
+      },
+      {
+        "number": 7,
+        "group": "통합·독립·작가 승인",
+        "state": "최종 CLOSED"
+      }
+    ]
+  },
+  "preceding_selected_season_join": {
+    "source": "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+    "last_game_binding": {
+      "phase": "REGULAR",
+      "event_id": "2021-05-16_DET_MIA",
+      "date": "2021-05-16",
+      "team": "DET",
+      "state_id": "DET:7f5f42178b812a01",
+      "minute_source": {
+        "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+        "pointer": "team_games:event_id=2021-05-16_DET_MIA;team=DET"
+      },
+      "positive_membership_covered": true,
+      "unresolved_gap_ids": [],
+      "modeled_absent_source_names": [],
+      "working_named_hardship_families": [],
+      "working_named_hardship_capacity": 0,
+      "actual_hardship_medical_or_league_approval_certified": false
+    },
+    "last_working_roster": {
+      "team": "DET",
+      "players": [
+        {
+          "player": "Cory Joseph",
+          "contract_class": "STANDARD",
+          "source_origin": "FEED:5468",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Deividas Sirvydis",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Dennis Smith Jr",
+          "contract_class": "STANDARD",
+          "source_origin": "FEED:5546",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Frank Jackson",
+          "contract_class": "TWO_WAY",
+          "source_origin": "FEED:5587",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Hamidou Diallo",
+          "contract_class": "STANDARD",
+          "source_origin": "FEED:5505",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Isaiah Stewart",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Jahlil Okafor",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Jerami Grant",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Josh Jackson",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Kira Lewis Jr.",
+          "contract_class": "STANDARD",
+          "source_origin": "APPROVED_TEAM_LANDING_WORKING_STANDARD_FAMILY",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Mason Plumlee",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Patrick Williams",
+          "contract_class": "STANDARD",
+          "source_origin": "APPROVED_TEAM_LANDING_WORKING_STANDARD_FAMILY",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Rodney McGruder",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Saben Lee",
+          "contract_class": "TWO_WAY",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Sekou Doumbouya",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Tyler Cook",
+          "contract_class": "STANDARD",
+          "source_origin": "FEED:5387",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        },
+        {
+          "player": "Wayne Ellington",
+          "contract_class": "STANDARD",
+          "source_origin": "OPENING_PDF",
+          "working_expiry_inclusive": null,
+          "medical_status": null
+        }
+      ],
+      "standard_count": 15,
+      "two_way_count": 2,
+      "actual_registration_certified": false
+    },
+    "retained_original_event_carries": [
+      {
+        "id": "FEED:5587",
+        "date": "2020-12-27",
+        "player": "Frank Jackson",
+        "type": "Signing",
+        "origin": null,
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5546",
+        "date": "2021-02-08",
+        "player": "Dennis Smith Jr",
+        "type": "Trade",
+        "origin": "NYK",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5515",
+        "date": "2021-03-05",
+        "player": "Blake Griffin",
+        "type": "Waive",
+        "origin": null,
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5505",
+        "date": "2021-03-13",
+        "player": "Hamidou Diallo",
+        "type": "Trade",
+        "origin": "OKC",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5497",
+        "date": "2021-03-18",
+        "player": "Tyler Cook",
+        "type": "Signing",
+        "origin": null,
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5468",
+        "date": "2021-03-25",
+        "player": "Cory Joseph",
+        "type": "Trade",
+        "origin": "SAC",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5407",
+        "date": "2021-03-28",
+        "player": "Tyler Cook",
+        "type": "Signing",
+        "origin": null,
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      },
+      {
+        "id": "FEED:5387",
+        "date": "2021-04-07",
+        "player": "Tyler Cook",
+        "type": "Signing",
+        "origin": null,
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY"
+      }
+    ],
+    "Joseph_and_Diallo_not_new_free_acquisitions": true,
+    "T1_T2_T4_F4_F5_C2_no_DET_actor_change_in_approved_deadline_events": true,
+    "May16_full_roster_not_automatically_carried_through_2021_FA": true,
+    "zero_minutes_not_churn_or_health_proof": true,
+    "May_TW_FrankJackson_SabenLee_to_standard_requires_2021_contract_family": true,
+    "TylerCook_CHI_2021_TW_and_2021_DET_departure_need_operative_family_not_dual_registration": true,
+    "new_completed_macro2_evidence_not_reopened": true
+  }
+}

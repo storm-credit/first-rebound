@@ -1,0 +1,345 @@
+{
+  "id": "LAVINE_2022_CONTRACT_CANDIDATE_FAMILY_2026_10_07",
+  "status": "INDEPENDENTLY_REVIEWED_EXISTING_5YEAR_CONSENSUAL_FORM_NOT_SELECTED",
+  "source_main_snapshot": "d0474a0cd15c4fea9b8041270e36ae20df969d67",
+  "source_sha256": {
+    "simulation/CHICAGO_LONG_CORE_CBA_INPUTS.json": "7985e65cb5e184356aead888d4f016aca187dd2dd3185ea6de76527a6937fe0c",
+    "research/CHICAGO_LONG_CORE_CBA_SOURCES.json": "071c15eef691277c76075b933b655b2e12e3a46dc6d3061816f51dec568bbdf2",
+    "simulation/CHICAGO_2021_23_CONTINUATION_INPUTS.json": "5632957e5e0a02f2d6f241900a3bef2c5790a8993c3494986e383ca3cbff1be3",
+    "research/CHICAGO_2021_23_CONTINUATION_SOURCES.json": "4dc3cfb7416174c0fea5c2710e9915a729d362dc553f216f4e9c861b373e9db3",
+    "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312",
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "tools/build_lavine_2022_contract_candidate_family.py": "24d963b1038eeb773d268710121e334b5aeb3c6d3b959ae582aa61ffac611dc9"
+  },
+  "hash_convention": "UTF8 BOM stripped; CRLF/CR toLF",
+  "raw_body_observations": [
+    {
+      "id": "SS_LAVINE_REUSED",
+      "url": "https://www.salaryswish.com/players/zach-lavine",
+      "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-chi-2021-retained-zach-lavine-20261007.html",
+      "raw_sha256": "1525dc4eeff64c5b25ab04b327dd78f2a3b96493f11e6efb1fd31a1faec0bb0a",
+      "classification": "SECONDARY_CONTRACT_HISTORY_BODY_DIRECT_READ; CURRENT_2026_CAP_NOT_2022_BASE",
+      "bytes": 108099,
+      "locator": "2022 veteran table Base Salary column, not Cap Hit or later option-used/trade-payment fields"
+    },
+    {
+      "id": "NBA_CAP2022_REUSED",
+      "url": "https://pr.nba.com/nba-salary-cap-2022-23-season/",
+      "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-chi-core2022-20261007/NBA_CAP2022.html",
+      "raw_sha256": "2e76093cfc91b6257f18cddd25441090118f36bd8a942259fbc340438ff5e57f",
+      "classification": "PRIMARY_NBA_RELEASE_DIRECT_BODY_READ",
+      "bytes": 109871,
+      "locator": "NBA official June30 release opening two paragraphs"
+    }
+  ],
+  "failed_direct_source_attempt": {
+    "url": "https://www.nba.com/bulls/news/bulls-re-sign-zach-lavine",
+    "http_status": 403,
+    "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-lavine-contract-20261007/BULLS_LAVINE2022.html",
+    "raw_sha256": "81a811c1a63a9bee30d009e3e3e854009f6f339a0ed8a39b061f0781fa1862a7",
+    "bytes": 425,
+    "body_used": false,
+    "repeat_attempts": 0,
+    "web_search_original_body_recovered": true,
+    "web_direct_open_rendered_original_body": false,
+    "classification": "FAILED_DIRECT_HTTP; SEARCH_INDEX_ORIGINAL_TEAM_BODY_SEPARATE"
+  },
+  "CBA2017": {
+    "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "directly_read_pages": [
+      {
+        "PDF_1based": 29,
+        "fitz_text_LF_sha256": "a7376434286a88c8b534c773c4dbf184c21df8a8a52c22718221ce39e9a08e75"
+      },
+      {
+        "PDF_1based": 30,
+        "fitz_text_LF_sha256": "9cf0f5b23523777c69220fc109f59a6b42dc1550c90082e39b48748f53a03338"
+      },
+      {
+        "PDF_1based": 36,
+        "fitz_text_LF_sha256": "244e483d771ac95d2d374b516df666b1240f5247c19626078a286e9eea94e72f"
+      },
+      {
+        "PDF_1based": 37,
+        "fitz_text_LF_sha256": "cd01561759af94b5ad04ac98f7b254cd1cf4711bb79f6998d98a023e11f2abc3"
+      },
+      {
+        "PDF_1based": 38,
+        "fitz_text_LF_sha256": "52e0bafa27ed1f4c5b46c905e9befb0db55dfcce06292cf72ee51d26dc9fa858"
+      },
+      {
+        "PDF_1based": 40,
+        "fitz_text_LF_sha256": "584555730729e81afefe1b1487a7b7a2709ee485f73b3174db07ffd9159e8a83"
+      },
+      {
+        "PDF_1based": 44,
+        "fitz_text_LF_sha256": "e2c4bf9ae6db49e3c4abb66bb7d5239f8bf2eab03b3ca94a4f46dc781506b485"
+      },
+      {
+        "PDF_1based": 54,
+        "fitz_text_LF_sha256": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1"
+      },
+      {
+        "PDF_1based": 55,
+        "fitz_text_LF_sha256": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da"
+      },
+      {
+        "PDF_1based": 57,
+        "fitz_text_LF_sha256": "a7aad971c53c9aeba55c6a8d5957bae0c64010395a433063c3cf44a303bc133b"
+      },
+      {
+        "PDF_1based": 58,
+        "fitz_text_LF_sha256": "6bfe75ec156ef879964d4f79660a3f4041a3a8f81a22ef2297c0590a6e4a3ba7"
+      },
+      {
+        "PDF_1based": 64,
+        "fitz_text_LF_sha256": "74a99ce5afa7d4672100e15df16f8098edf759c2eef0a3c3dcf496c9b185476d"
+      },
+      {
+        "PDF_1based": 65,
+        "fitz_text_LF_sha256": "17ffeef7fdace31f8ac74cf053239e733fc0a7c19b45801b45eaee4844726a58"
+      },
+      {
+        "PDF_1based": 193,
+        "fitz_text_LF_sha256": "8c437e14a675f6f2b28bb1189740ef8261d041ea083ea33e5f10e190bffb83a5"
+      },
+      {
+        "PDF_1based": 194,
+        "fitz_text_LF_sha256": "141eb4d0abaa56d2357d1dec91283af8d197a3528faf7d9694ada7b1c118705f"
+      },
+      {
+        "PDF_1based": 195,
+        "fitz_text_LF_sha256": "8ce565fd891b322be0b6dccd1d006abc5a511d7789b72ac473511cb3b4e9420a"
+      },
+      {
+        "PDF_1based": 196,
+        "fitz_text_LF_sha256": "92250ecfb704d18d7648ed34c6da776be8be30706397799b0cbbe4b7ee264e96"
+      },
+      {
+        "PDF_1based": 206,
+        "fitz_text_LF_sha256": "e5c736cb6aae51bff5515753ed23070ec8e3079f47d7f966e3a3e5b40b54fb62"
+      },
+      {
+        "PDF_1based": 208,
+        "fitz_text_LF_sha256": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3"
+      },
+      {
+        "PDF_1based": 218,
+        "fitz_text_LF_sha256": "f79ff7838664c65a9a960fc9a05537aca47b7acb38e92c969f31e766f55af50a"
+      },
+      {
+        "PDF_1based": 219,
+        "fitz_text_LF_sha256": "5870b7d8f06d7d96b448339e4c667086271e1409018b9ae9b103d8b5546469be"
+      },
+      {
+        "PDF_1based": 223,
+        "fitz_text_LF_sha256": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b"
+      },
+      {
+        "PDF_1based": 240,
+        "fitz_text_LF_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+      },
+      {
+        "PDF_1based": 241,
+        "fitz_text_LF_sha256": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60"
+      },
+      {
+        "PDF_1based": 252,
+        "fitz_text_LF_sha256": "b086e518697b5b94795c341b154279e6734b22f61c6157d51ab05a4f668aaab0"
+      },
+      {
+        "PDF_1based": 253,
+        "fitz_text_LF_sha256": "f35be5e4b1e7af94779ab9e72256c06ea86c5cfb17f0076aa159ada72badff9a"
+      },
+      {
+        "PDF_1based": 257,
+        "fitz_text_LF_sha256": "5a79f52213189917ce0aa27e3135dfbfb6ec320f2d71467b850d81b89208a6b1"
+      },
+      {
+        "PDF_1based": 299,
+        "fitz_text_LF_sha256": "1c24a5478462697177a9daca0be1935caa3f5207256b5b487f234dea4357748e"
+      },
+      {
+        "PDF_1based": 334,
+        "fitz_text_LF_sha256": "ba8a1c35001f959a29bb419bfa0b6b00aabbe6890122a906f190b359e8dc9a39"
+      },
+      {
+        "PDF_1based": 335,
+        "fitz_text_LF_sha256": "8b894197d51fdd6f46bb6c9fa2fb7dfffb8db34a2f7be1180c29c65abac83420"
+      },
+      {
+        "PDF_1based": 336,
+        "fitz_text_LF_sha256": "4cfeb29b32641cde36e895b261686379093eb431f79223d7ceed6120a31a062f"
+      },
+      {
+        "PDF_1based": 398,
+        "fitz_text_LF_sha256": "7b73db6a8ee98227cf0afc6c7606242f303360c729a3f621b15dc09b6a0a9354"
+      },
+      {
+        "PDF_1based": 399,
+        "fitz_text_LF_sha256": "374510c0f0ffb64c519463645283ebf4ef66d65ec47442142c35af2fe2842d30"
+      },
+      {
+        "PDF_1based": 561,
+        "fitz_text_LF_sha256": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+      }
+    ]
+  },
+  "classification": {
+    "historical_fact": "Bulls July7 2022 re-signing announcement; published team terms undisclosed. Only short indexed team-body paraphrase used; directHTTP403 retained separately.",
+    "secondary_report": "SalarySwish five-year base/Player2026 option/Bird/history are reference reports, not source of alternate consent.",
+    "existing_candidate": "Long-core five-year schedule preserved; 2026 opt-out plus18% new-offer branch remains a separate unselected consequential possibility.",
+    "new_lawful_form_candidate": "Mutually negotiated direct Chicago fullBird four stated years plus one unconditional player option, full skill/injury protection and XII2a(A); zero signing/performance/promotion/international bonus proposed, original Ex4 rate left in permitted0..15% family.",
+    "author_locked_here": false
+  },
+  "terms_candidate": {
+    "mechanism": "NEW_DIRECT_FULL_BIRD_WITH_PRIOR_CHICAGO_NOT_EXTENSION_OR_SIGN_AND_TRADE",
+    "signing_candidate_ET": "2022-07-07T12:00:00-04:00",
+    "first_contract_cap_year": 2022,
+    "last_stated_term_cap_year": 2025,
+    "one_player_option_cap_year": 2026,
+    "salary": [
+      37096500,
+      40064220,
+      43031940,
+      45999660,
+      48967380
+    ],
+    "regular_salary_equals_base": true,
+    "skill_and_injury_protection_percent": 100,
+    "other_standard_CBA_protection_conditions_preserved": true,
+    "option_termination_protection": "XII2a_A; OPTION_PROTECTION_AS_IF_EXERCISED_IF_TEAM_TERMINATES_BEFORE_EXERCISE",
+    "option_exercisable_once": true,
+    "option_individually_conditioned": false,
+    "contractual_option_notice_deadline": "2026-06-29",
+    "option_exercise_selected": null,
+    "option_notice_actual": null,
+    "ETO": false,
+    "team_option": false,
+    "signing_bonus": 0,
+    "performance_bonus": 0,
+    "physical_condition_academic_or_extra_promotion_bonus": 0,
+    "loan_or_international_payment": 0,
+    "trade_Exhibit4_rate_family": [
+      "0",
+      "3/20"
+    ],
+    "actual_trade_Exhibit4_rate": null,
+    "new_contract_or_amount_selected": false,
+    "actual_consents_and_receipts": null
+  },
+  "admitted_inputs": {
+    "prior_team": "CHI",
+    "prior_contract_expiry": "2022-06-30",
+    "prior_salary_reference": 19500000,
+    "credit_YOS_range": [
+      7,
+      9
+    ],
+    "reference_YOS": 8,
+    "reference_YOS_is_actual_new_world_credit_certified": false,
+    "required_service_credit": "I1(iiii): credited Active/Inactive day, no disqualifying withholding/disapproved contract; by June30. No actualfuturemedicalreceipt gate.",
+    "Bird_condition": "Three preceding covered seasons under Chicago contracts without a disqualifying free-agent team change; approved retention plus no-new-move contract family. If changed, five-year8% prior-team form reopens.",
+    "actual_2021_22_services_or_full82_results_certified": false,
+    "actual_Bird_status_receipt_certified": false
+  },
+  "legal_checks": {
+    "first_salary_max": 37096500,
+    "first_salary_max_expression": "max(30%123655000,105%19500000);7<=YOS<10; ordinarymaximum, no designated35% award assumption",
+    "annual_raise": 2967720,
+    "raise_base": "8% of first Regular Salary, not8% compounding",
+    "term_including_option": 5,
+    "minimum_all5_seasons_conservative_comparison_ceiling": 3487033,
+    "minimum_comparison_scope": "2017ExC largest Year1..5 cell10+ scaled by signing2022cap/2017cap,+10 presentation guard; far below agreed base. Exactrounding notcertified; II5/II6 legalconformity remains.",
+    "Bird_signing_open_ET": "2022-07-06T12:01:00-04:00",
+    "calendar_primary_moratorium_ends_ET": "2022-07-06T12:00:00-04:00",
+    "candidate_after_both_boundaries": true,
+    "regular_FA_trade_no_earlier_than": "2022-12-15",
+    "if_above_cap_immediately_after_Bird_signing_and_raise_over120pct_trade_no_earlier_than": "2023-01-15",
+    "above_cap_at_signing_is_selected": false,
+    "trade_test_scope": "VII8d2/3 first eligible date only, not actualassignment/matching or laterlegalcost certificate. OrdinaryBird retention alone is not an NTMLE/BAE/S&T hardcap trigger; wholeFY22portfolio not certified."
+  },
+  "FY22_named_cost_states": {
+    "before_new_agreement_if_unrenounced_UFA": {
+      "generic_FA_amount_reference_report": 29250000,
+      "VII4d1i_150pct_or190pct_public_domain": [
+        29250000,
+        37050000
+      ],
+      "generic_FA_amount_safe_upper": 37050000,
+      "apron_UFA_hold_component": 0,
+      "apron_basis": "VII6m3D excludes UFA amount only; prior accrued/other obligations are not erased.",
+      "estimated_average_threshold_and_actual_hold_selected": false
+    },
+    "after_new_agreement_or_execution_in_candidate_family": {
+      "current_salary_new_contract": 37096500,
+      "new_signing_performance_or_other_bonus": 0,
+      "new_assignment_bonus_at_direct_retention": 0,
+      "generic_and_apron_new_contract_component": 37096500,
+      "prior_accrued_cost_or_other_portfolio_cost": null,
+      "whole_team_salary_or_apron_pass": false
+    },
+    "generic_increment_from_reference_150pct_hold": 7846500,
+    "generic_increment_from190pct_hold": 46500
+  },
+  "option_cost_branches": [
+    {
+      "id": "EXERCISE_2026_PO",
+      "condition": "Player voluntarily gives valid exercise notice by contractdeadline; no earliertermination/assignment changes; future applicableCBA still checked.",
+      "stated4_base": 166192320,
+      "option_base_2026": 48967380,
+      "full5_base": 215159700,
+      "actual_exercise_or_notice": null,
+      "future_FY26_total_cap_or_apron_certified": false
+    },
+    {
+      "id": "DECLINE_2026_PO",
+      "condition": "Player timely does not exercise under applicable notice rules; contract remained alive through fourthyear and no earliertermination; new2026contract entirely separate.",
+      "stated4_base": 166192320,
+      "option_base_under_this_live_UPC": 0,
+      "new2026contract_salary": null,
+      "FA_hold_or_other_FY26_cost": null,
+      "existing_UPC_expiry_if_option_not_exercised": "2026-06-30",
+      "actual_decline_or_new18pct_acceptance": null,
+      "zero_UPC_base_is_zero_team_salary": false
+    }
+  ],
+  "trade_bonus_family": {
+    "rate_closed_interval": [
+      "0",
+      "3/20"
+    ],
+    "rate_actual": null,
+    "first_trade_only": true,
+    "unexercised_option_excluded_from_remaining_base": true,
+    "initial_unearned_stated4_fullannual_outer_bound": "24928848",
+    "if_option_exercised_and_all5_unearned_fullannual_outer_bound": "32273955",
+    "outer_bounds_are_actual_payment_or_cap_allocation": false,
+    "at_assignment": "Need earned/protected remainder, currentmax II7f and VII3b/XXIV2 legalallocation; futureapplicableCBA and fullcounterparty costs reopen. No laterhistorical$1500000/$1500000 inheritance.",
+    "rate0_member_is_automatically_selected": false,
+    "new_signing_no_assignment_charge_from_this_new_contract": true,
+    "prior_contract_accrued_obligations_are_erased": false
+  },
+  "remaining_named_inputs": [
+    "Chicago retention amount/term is still candidate; no re-signing consent or newauthorlock selected.",
+    "Combine LaVine with Carter/protagonist/otherFY22 obligations and completecost/roster, rather than adding only37.0965m to a partialledger.",
+    "Choose futurePO exercise or decline/newoffer only at a consequential decision; do not apply18% haircut now.",
+    "Future2023+ rulechanges/assignment/max-adjustedGamma/optionnotice procedures require dated followup, not this2022 signingform."
+  ],
+  "certification": {
+    "independent_review_completed": true,
+    "selected_contract": null,
+    "actual_player_team_consent": null,
+    "actual_private_terms_or_cents": false,
+    "actual2026_option_exercise": null,
+    "whole_FY22_cost": false,
+    "whole_macro3_complete": false,
+    "new_author_lock": false,
+    "central_or_REGISTER_promotion": false,
+    "manuscript_written": 0
+  }
+}
