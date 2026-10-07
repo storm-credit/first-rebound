@@ -1,0 +1,603 @@
+{
+  "id": "NBA_2022_LEAGUE_TITLE_DECISION_PACKET",
+  "baseline_main": "ee0ff822aa127f8263cc69e03ba2a7184053e22e",
+  "status": "TWO_COMPLETE_COMPARABLE_NPC_TITLE_CANDIDATES_ROOT_AUTHORITY_DISPOSITION_PENDING",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json": "d39733d89f7c668dee203df6da03ee9c5fcee1e4f0dee6e0296cc2114f2c2714",
+    "simulation/DEN_LAL_2021_DELEGATED_SERIES.json": "81332e263b01ef86f5b3c0abea408a89bc926ae36cc7eb4f30d2877fbd1b0354",
+    "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json": "dc1d47563f8381a4b1bd98409f198e8df088ce782622071e22556e8f0c7a7cdb",
+    "design/NBA_2022_FULL_POSTSEASON_CANDIDATE.json": "dcefe931a0f82e3733f577cc47a314cc66ad9162a9988d15d7514302424023f5",
+    "reviews/NBA_2022_FULL_POSTSEASON_CANDIDATE_G11_INDEPENDENT_REVIEW_2026_10_08.json": "c4f528cf0526e0277e78dc0ac49e107aa122e9dabce83b860c4c1dcdd5df5f59",
+    "research/NBA_2022_CANDIDATE_FINALS_OPTION_JOIN_2026_10_08.json": "8f253cd314203e281a206027ef4e4031f13144df4b8642331f86ff6c9c69ee18",
+    "simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json": "09d7c6613b3710a04600f567340e963d3a3d863851bafd1a8213618dee14ea39",
+    "research/NBA_2022_FULL_DRAFT_WORKING_BOARD_2026_10_08.json": "3bdad52ebaacda5abb23b9908b8ed3a9b85cfaa09d838819a959cd024a58e940",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "tools/build_2022_league_title_decision_packet.py": "cdb8c4eaef3ea9abd19ac97eff6ec9b2fcf4b8e461cc37c35f9cad1170eb0b8f"
+  },
+  "authority_audit": {
+    "classification": "ROOT_SCOPE_DISPOSITION_REQUIRED_BEFORE_ADOPTION_NOT_A_NEW_HUMAN_APPROVAL_REQUEST",
+    "positive_existing_delegation_evidence": [
+      {
+        "source": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+        "meaning": "Delegated health/season/style continues after the original H00/K1/L2 snapshot; routine qualified NPC family choices need no repeat permission."
+      },
+      {
+        "source": "canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json",
+        "meaning": "2021 bracket/draw is a later delegated selection; by itself it explicitly does not select series outcomes."
+      },
+      {
+        "source": "simulation/DEN_LAL_2021_DELEGATED_SERIES.json",
+        "meaning": "Later delegated local series LAL4-2DEN adds modeled availability; no downstream title or private certification inferred."
+      },
+      {
+        "source": "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json",
+        "meaning": "A complete 15-series delegated result source explicitly chose MIL4-2PHX championship as a design anchor. This is actual NPC champion-selection precedent, not a bracket-only inference."
+      }
+    ],
+    "contrary_or_boundary_evidence": [
+      {
+        "source": "AGENTS.md",
+        "meaning": "Consequential choices include championships and league butterfly effects; franchise/core/MVP/long-ending changes cannot be self-approved."
+      },
+      {
+        "source": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+        "meaning": "Delegation does not automatically decide franchise moves, important core trades, title-count/long-ending changes, awards or final manuscript gate."
+      },
+      {
+        "source": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+        "meaning": "The Oct2 not-certified list includes exact title counts; this is its snapshot scope, not a categorical ban on later delegated result designs."
+      }
+    ],
+    "substantive_findings": {
+      "technical_unselected_flag_alone_is_new_author_permission_rule": false,
+      "new_Chicago_franchise_core_MVP_year_or_protagonist_title_count_change_identified": false,
+      "new_NPC_2022_title_is_material_league_history_change": true,
+      "NPC_title_precedent_supports_root_delegated_result_selection_after_review": true,
+      "both_options_preserve_Chicago_elimination_contracts_and_draft_controls": true,
+      "root_final_interpretation_required": true,
+      "human_approval_newly_proven_mandatory_for_all_NPC_champions": false,
+      "Utah_rebuild_or_other_important_franchise_transaction_automatically_authorized": false
+    },
+    "recommendation": "Root may use the existing delegated-season precedent to adopt P22A as an NPC derived result if no concrete approved long-term direction conflicts. Do not add a blanket human-title gate from generation flags. If an actual approved franchise/title-count/ending collision is identified, retain that consequential promotion for the author with this packet; continue independent work without a new question here.",
+    "root_disposition_recorded": false,
+    "author_decision_requested_or_inferred": false
+  },
+  "options": [
+    {
+      "id": "P22A",
+      "status": "UNSELECTED_COMPARABLE_CANDIDATE",
+      "candidate_champion": "MIL",
+      "candidate_Finals_end": "2022-06-20",
+      "candidate_Finals_wins": {
+        "MIL": 4,
+        "UTA": 3
+      },
+      "Finals_games": [
+        {
+          "id": "ALT2022:NBA:F:1:G1",
+          "date": "2022-06-06",
+          "game_number": 1,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G2",
+          "date": "2022-06-08",
+          "game_number": 2,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G3",
+          "date": "2022-06-11",
+          "game_number": 3,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G4",
+          "date": "2022-06-13",
+          "game_number": 4,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G5",
+          "date": "2022-06-15",
+          "game_number": 5,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G6",
+          "date": "2022-06-18",
+          "game_number": 6,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G7",
+          "date": "2022-06-20",
+          "game_number": 7,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        }
+      ],
+      "single_game_overlay": null,
+      "unchanged_first_fourteen_series_digest": "b13bd812f0027f4575dba947c76bd0631505ad42438feedc968b12f0cb6362a9",
+      "roster_role_clock_template_pool_digest": "faa4f6b3c732c33d68ea2d38094d5d726439e7af3e58b4823eb7e709da32bf66",
+      "new_contract_salary_Tender_UPC_trade_or_clinical_selection": false,
+      "root_or_author_adopted": false,
+      "protagonist_title_MVP_or_franchise_direction_changed": false
+    },
+    {
+      "id": "P22B",
+      "status": "UNSELECTED_COMPARABLE_CANDIDATE",
+      "candidate_champion": "UTA",
+      "candidate_Finals_end": "2022-06-20",
+      "candidate_Finals_wins": {
+        "MIL": 3,
+        "UTA": 4
+      },
+      "Finals_games": [
+        {
+          "id": "ALT2022:NBA:F:1:G1",
+          "date": "2022-06-06",
+          "game_number": 1,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G2",
+          "date": "2022-06-08",
+          "game_number": 2,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G3",
+          "date": "2022-06-11",
+          "game_number": 3,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G4",
+          "date": "2022-06-13",
+          "game_number": 4,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G5",
+          "date": "2022-06-15",
+          "game_number": 5,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "MIL",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G6",
+          "date": "2022-06-18",
+          "game_number": 6,
+          "home": "UTA",
+          "away": "MIL",
+          "team_template_keys": {
+            "UTA": "UTA:NORMAL",
+            "MIL": "MIL:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "UTA": "741624935848248982471100461/152058999802970416734186840",
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "33951162101690582049752754632740390758408354408097/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false
+        },
+        {
+          "id": "ALT2022:NBA:F:1:G7",
+          "date": "2022-06-20",
+          "game_number": 7,
+          "home": "MIL",
+          "away": "UTA",
+          "team_template_keys": {
+            "MIL": "MIL:NORMAL",
+            "UTA": "UTA:NORMAL"
+          },
+          "weighted_BPM_fraction": {
+            "MIL": "73205643920593601076508394297/14801614493599791266969376960",
+            "UTA": "741624935848248982471100461/152058999802970416734186840"
+          },
+          "home_advantage_fraction": "2",
+          "back_to_back_fatigue_fraction": "0",
+          "exact_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+          "candidate_regulation_winner": "UTA",
+          "score": null,
+          "overtime": null,
+          "physical_NBA_game_id": null,
+          "historical_winner_used": false,
+          "actual_registration_clinical_or_receipt_certified": false,
+          "candidate_tactical_overlay": {
+            "applies_only_to": "ALT2022:NBA:F:1:G7",
+            "date": "2022-06-20",
+            "recipient_team": "UTA",
+            "classification": "EXPLICIT_FICTIONAL_ONE_GAME_TEAM_TACTICAL_EXECUTION_PARAMETER_NOT_PLAYER_GROWTH_OR_OBSERVED_BPM",
+            "team_impact_delta_fraction": "9/4",
+            "base_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+            "adjusted_home_proxy_margin": "-3189230542096816284167065217168241737565238488817/17578246605482151866048965380326942297624637668160",
+            "threshold_for_UTA_win": "delta > 36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+            "threshold_decimal_diagnostic": 2.0685694731861264,
+            "numerical_minimum_positive_delta_exists": false,
+            "reason": "A candidate improvement in Utah screening/roll spacing and matchup execution on one final game. This term illustrates a possible result choice; no calibrated probability or measured effect claimed.",
+            "base_BPM_inputs_player_seconds_positions_registration_unchanged": true,
+            "new_score_overtime_contact_injury_or_bonus_trigger_certified": false
+          }
+        }
+      ],
+      "single_game_overlay": {
+        "applies_only_to": "ALT2022:NBA:F:1:G7",
+        "date": "2022-06-20",
+        "recipient_team": "UTA",
+        "classification": "EXPLICIT_FICTIONAL_ONE_GAME_TEAM_TACTICAL_EXECUTION_PARAMETER_NOT_PLAYER_GROWTH_OR_OBSERVED_BPM",
+        "team_impact_delta_fraction": "9/4",
+        "base_home_proxy_margin": "36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+        "adjusted_home_proxy_margin": "-3189230542096816284167065217168241737565238488817/17578246605482151866048965380326942297624637668160",
+        "threshold_for_UTA_win": "delta > 36361824320238025414443106888567378432090196264543/17578246605482151866048965380326942297624637668160",
+        "threshold_decimal_diagnostic": 2.0685694731861264,
+        "numerical_minimum_positive_delta_exists": false,
+        "reason": "A candidate improvement in Utah screening/roll spacing and matchup execution on one final game. This term illustrates a possible result choice; no calibrated probability or measured effect claimed.",
+        "base_BPM_inputs_player_seconds_positions_registration_unchanged": true,
+        "new_score_overtime_contact_injury_or_bonus_trigger_certified": false
+      },
+      "unchanged_first_fourteen_series_digest": "b13bd812f0027f4575dba947c76bd0631505ad42438feedc968b12f0cb6362a9",
+      "roster_role_clock_template_pool_digest": "faa4f6b3c732c33d68ea2d38094d5d726439e7af3e58b4823eb7e709da32bf66",
+      "new_contract_salary_Tender_UPC_trade_or_clinical_selection": false,
+      "root_or_author_adopted": false,
+      "protagonist_title_MVP_or_franchise_direction_changed": false
+    }
+  ],
+  "recommended_option": "P22A",
+  "reason": "Retain one pre-existing fixed BPM/EB/home2 model and all computed games; P22B adds a declared, uncalibrated G7 tactical term only. Neither option can automatically supply Utah rebuild motivation, lawful return assets or future team rosters.",
+  "primary_historical_reference_provenance": {
+    "capture_directory": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-title2022-20261008",
+    "raw_or_web_capture_sha256": {
+      "jazz.html": "be470d6521a2d053a211156219652cd037df4e24b3b57ca1e61e70606ac6f06b",
+      "release_shell_observation.json": "d0f0cc6c76f7aea31e0e375212dc5d84ac6b170a5349ec4e0a311d4e30110683",
+      "sources.json": "6f8a1577e736a0c4148ef01f7637036eaf5c3e2b90cc4fe52dd2957e8cabaa07",
+      "tracker_web_observation.json": "da63203a164a73d2ed0e3616fedd8eb2a5554f8da24560c07b584b2499478455",
+      "wolves.html": "b09b44732adb543881df0e8b196805cf1192b17e0d3017738e9098f441025bd2",
+      "wolves_web_observation.json": "adf67ab11876d2dff6759148407bd674c7b6ed883461b055587d4aa5c43d8a81"
+    },
+    "direct_HTTP_failed_attempts": {
+      "wolves": {
+        "url": "https://www.nba.com/timberwolves/news/minnesota-timberwolves-acquire-center-rudy-gobert-from-utah-jazz",
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-title2022-20261008\\wolves.html",
+        "http_status": 403,
+        "bytes": 487,
+        "raw_sha256": "b09b44732adb543881df0e8b196805cf1192b17e0d3017738e9098f441025bd2",
+        "adopted_raw_body": false
+      },
+      "jazz": {
+        "url": "https://www.nba.com/jazz/news/utah-jazz-acquire-agbaji-markkanen-sexton-and-future-draft-assets",
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-title2022-20261008\\jazz.html",
+        "http_status": 403,
+        "bytes": 484,
+        "raw_sha256": "be470d6521a2d053a211156219652cd037df4e24b3b57ca1e61e70606ac6f06b",
+        "adopted_raw_body": false
+      }
+    },
+    "web_tool_body_observations_used_not_raw_NBA_bytes": true,
+    "official_release_open_was_iframe_only": {
+      "Cavaliers": "https://www.nba.com/cavaliers/news/releases-mitchell-trade-220903",
+      "Jazz": "https://www.nba.com/jazz/news/utah-jazz-acquire-agbaji-markkanen-sexton-and-future-draft-assets",
+      "body_certified": false
+    },
+    "historical_events_only": [
+      {
+        "date": "2022-07-06",
+        "source": "https://www.nba.com/timberwolves/news/minnesota-timberwolves-acquire-center-rudy-gobert-from-utah-jazz",
+        "scope": "Official team indexed body; NBA original event, not alternate execution",
+        "to_MIN": "Rudy Gobert",
+        "to_UTA_players_or_rights": [
+          "Patrick Beverley",
+          "Malik Beasley",
+          "Jarred Vanderbilt",
+          "Leandro Bolmaro",
+          "Walker Kessler"
+        ],
+        "MIN_first_years": [
+          2023,
+          2025,
+          2027,
+          2029
+        ],
+        "swap_year": 2026,
+        "exact_protection_clause_certified_here": false
+      },
+      {
+        "date": "2022-09-03",
+        "source": "https://www.nba.com/news/2022-offseason-trade-tracker",
+        "scope": "NBA official tracker web body corresponding entry; header date is not the event date",
+        "to_CLE": "Donovan Mitchell",
+        "to_UTA_players": [
+          "Collin Sexton",
+          "Lauri Markkanen",
+          "Ochai Agbaji"
+        ],
+        "CLE_first_years": [
+          2025,
+          2027,
+          2029
+        ],
+        "swap_years": [
+          2026,
+          2028
+        ],
+        "exact_guarantees_bonus_or_protection_certified_here": false
+      }
+    ]
+  },
+  "named_butterfly_ports": [
+    {
+      "event": "Original Gobert-to-MIN exchange",
+      "already_changed_input": "Kessler is current CHI18 working board candidate, not MIN historical22. MIN rival/roles and current rights also differ.",
+      "effect_A": "A finalist Utah season requires an explicit franchise decision and admissible return package before any rebuild.",
+      "effect_B": "A Utah championship increases a plausible retention incentive, but does not legally prohibit or logically prove any trade.",
+      "auto_import_in_either": false
+    },
+    {
+      "event": "Original Mitchell-to-CLE exchange",
+      "already_changed_input": "Markkanen remains approved Chicago core; he is not a CLE-owned return asset. Agbaji/NBA2022 players are candidate rights only until selected.",
+      "effect_A": "Original Markkanen/Sexton/Agbaji bundle cannot be copied as alternate chain.",
+      "effect_B": "Same asset collision; Utah title is an additional motivation issue, not a new matching exception.",
+      "auto_import_in_either": false
+    },
+    {
+      "event": "MIL championship core",
+      "effect_A": "Adds this NPC league title in a candidate history only; current roster/UPCs remain unchanged.",
+      "effect_B": "MIL loses only FinalsG7; no automatic coaching dismissal, new salary, MVP or star move.",
+      "auto_import_in_either": false
+    }
+  ],
+  "preservation": {
+    "existing_first_fourteen_series_and_CHI_PHI_seven": true,
+    "same_16_STD_rosters_active_and_source_role_clocks_240": true,
+    "2021_22_1230_records_seeds_playin": true,
+    "selected_2022_draw_origin_rank_holder_table": true,
+    "Chicago_18_and_57_board_comparisons": true,
+    "existing_original_salary_Gamma_and_current_core": true,
+    "Finals_both_end_June20_and_option_open_June21": true,
+    "two_original_Oct1_notices_timely_conditional": true,
+    "new_price_trade_Tender_UPC_or_option_exercise": false,
+    "original_contract_salary_and_bonus_functions_preserved_not_identical_realized_payments": true,
+    "title_contingent_original_Gamma_payoff": "If an original championship bonus exists, evaluate its preserved function against the eventual chosen title; no bonus term, unknown component or realized payment is zeroed. Existing universal upper remains its source bound, not proof of equal actual payouts."
+  },
+  "macro_effects": {
+    "3": "Candidate2022closeout endpoint/title; 2022-23/2023 inputs and named Utah transaction ports remain separate.",
+    "4": "No protagonist title-count/MVP/franchise-ending lock; future opponents/core incentives need causal choices before consumption.",
+    "5": "Use title as conditional league background only; no new function/episode or automatic narrative result.",
+    "6": "Context Pack cannot assert the NPC title or Utah rebuild as canon until the current choice is adopted; Pack0 stays."
+  },
+  "certification": {
+    "independent_review_completed": false,
+    "root_adoption_recorded": false,
+    "author_locked": false,
+    "calibrated_probability_or_actual_score_clinical_private_receipt": false,
+    "whole_macro3_G13_G16_or_manuscript": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}

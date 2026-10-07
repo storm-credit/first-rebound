@@ -1,0 +1,45 @@
+{
+  "id": "NBA_2022_CANDIDATE_FINALS_OPTION_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_TWO_ADDITIONAL_CONDITIONAL_DATE_WITNESSES_NOT_OPTION_EXECUTION",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_2022_candidate_finals_option_join.py": "775bf02d7a91589b1e1eb50503c619006fce169e7d4bbed60b708a33269e16ff",
+    "research/NBA_2022_CANDIDATE_FINALS_OPTION_JOIN_2026_10_08.json": "8f253cd314203e281a206027ef4e4031f13144df4b8642331f86ff6c9c69ee18",
+    "research/NBA_2022_CANDIDATE_FINALS_OPTION_JOIN_2026_10_08.md": "3776c7d63be9c536a61045065c120162d60649b9fab99798126b7c74f54ba76f",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.json": "e506efd28a54ceb61e34a8dfc107fb82236f783700f3aa610cd68ff4d62ba2cc",
+    "design/NBA_2022_FULL_POSTSEASON_CANDIDATE.json": "dcefe931a0f82e3733f577cc47a314cc66ad9162a9988d15d7514302424023f5"
+  },
+  "currentness": {"producer_check": true, "saved_validate_errors": [], "markdown_matches_render": true, "four_source_and_peer_pins_current": true},
+  "direct_primary_check": {
+    "2017_CBA_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "PDF_1based_pages_read": [32, 292],
+    "PDF32_season_ends_after_last_Finals_game": true,
+    "PDF292_first_Season_third_option_second_Season_fourth_option_and_October31": true,
+    "PDF292_team_signed_email_method": true,
+    "October31_2022_weekday": "Monday"
+  },
+  "join_and_date_checks": {
+    "old_eight_witnesses_exactly_preserved": true,
+    "old_four_possible_Finals_endings": ["2022-06-10", "2022-06-13", "2022-06-16", "2022-06-19"],
+    "parent_notices_roster_and_historical_cost_snapshot_exactly_preserved": true,
+    "candidate_Finals_last_game_unselected": "2022-06-20",
+    "conditional_window_start": "2022-06-21",
+    "preserved_notice_date": "2022-10-01",
+    "deadline": "2022-10-31",
+    "days_after_open": 102,
+    "days_before_deadline": 30,
+    "LaMelo_fourth_option_preceding_original_UPC_Season": 2,
+    "Duarte_third_option_preceding_original_UPC_Season": 1,
+    "new_conditional_witnesses": 2,
+    "new_price_contract_or_registration_effect": 0
+  },
+  "independent_negative_controls": [
+    {"case": "returned old WINDOW source changes LaMelo parent notice date to November 1", "result": "REJECTED: Returned source differs from independent physical simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.json"},
+    {"case": "returned ninth witness moves opening date to October 2", "result": "REJECTED: Returned option window changed"},
+    {"case": "returned ninth witness labels LaMelo preceding original UPC Season zero instead of second", "result": "REJECTED: Wrong first/second Season basis"},
+    {"case": "returned ninth witness marks candidate Finals endpoint currently selected", "result": "REJECTED: Candidate/price/receipt promoted"}
+  ],
+  "scope_limits": ["The June 20 Finals endpoint, champion, and title remain unselected; this join does not choose the NBA Season end or replace the four previously published possible endings.", "The ten inequalities are date witnesses, not proof of actual NBA exercise or receipt of either notice.", "Original LaMelo and Duarte UPCs, option salary function, protection and Gamma, roster 15 plus 2, and cost snapshot are preserved; the snapshot is not a fresh whole-cost certificate after rookie repricing.", "No new extension, fourth Duarte option, price, contract, author lock, whole macro3/G13/G16, Context Pack, or manuscript is certified."],
+  "writer_central_or_git_files_modified": false
+}
