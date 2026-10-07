@@ -1,0 +1,48 @@
+{
+  "id": "CHICAGO_2026_LAVINE_PLAYER_OPTION_G11_REVIEW_2026_10_08",
+  "status": "ACCEPTED_BOUNDED_UNSELECTED_LAVINE_2026_PLAYER_OPTION_BRANCH_FAMILY",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "research/CHICAGO_2026_LAVINE_PLAYER_OPTION_PACKET_2026_10_08.json": "3611b84dcdd1452a44ad11f169aadb0d45e78137237fb530bae0a54ebea9782c",
+    "research/CHICAGO_2026_LAVINE_PLAYER_OPTION_PACKET_2026_10_08.md": "259cb68850670c18fd126e997865a111646fe8650e75c1976b0884a79fafcfc4"
+  },
+  "checks": [
+    {
+      "scope": "physical sources and original UPC",
+      "result": "PASS",
+      "evidence": "All four repository source pins match physical LF-normalized files and all four contract/named15/rollover JSON pointers resolve to Zach LaVine on CHI. Original selected 2022 terms and candidate terms match: four stated cap years 2022–25, one 2026 player option, protected A form, no separate new year-six UPC. 2017 and 2023 CBA raw PDFs and all listed 3+17 page-text SHAs match. Cached NBA 2026 release raw HTML and article-body SHA match; official article is reused only for current cap/calendar context."
+    },
+    {
+      "scope": "original contract and salary arithmetic",
+      "result": "PASS",
+      "evidence": "Five base entries are $37,096,500/$40,064,220/$43,031,940/$45,999,660/$48,967,380. Four stated base total $166,192,320; five-year total if option effective $215,159,700; Year5–Year4 $2,967,720. Original Exhibit 4 trade rate remains 0..15% with actual rate null, original protection and attributed Gamma not erased."
+    },
+    {
+      "scope": "notice law and date",
+      "result": "PASS_CONDITIONAL",
+      "evidence": "Direct 2023 CBA Article XII §4 states ordinary Option deadline June29 at 5 pm ET; §5 directs NBA to supply NBPA copies within two business days of NBA receipt from team. 2017 original XII2(A) protection and fixed, noncontingent player right remain. Monday June29 2026 16:00 signed player notice, 16:05 lawful Chicago receipt and 16:10 NBA handoff are only an admitted fictional lawful-channel candidate before 17:00. The original UPC must allow the notice channel or receive concurrent compliant writing. XII5 does not deem player email sent; XI QO email rule is not imported. NBA-to-NBPA July1 illustration and actual receipts remain distinct."
+    },
+    {
+      "scope": "exercise versus nonexercise and six costs",
+      "result": "PASS_TYPED",
+      "evidence": "A recommendation would continue the same UPC with 2026 Year5 $48,967,380 base once, new UPC0, STD delta0, TW0 and no parallel same-player ordinary FA hold. B would have zero option base without zeroing prior liabilities; conditional service-completed ordinary UFA hold uses 150/190% full prior Salary Gamma and lawful clipping, not rookie 250/300%; ordinary FA face is excluded in isolated apron while original allocated liabilities persist. Plain prior-base comparison is $68,999,490/$87,399,354 before Gamma and clips. Six cost categories preserve other rights, original A protection, exceptions, floor and current-year triggers; 2021 hard cap is not carried to 2026."
+    },
+    {
+      "scope": "status and MD consistency",
+      "result": "PASS",
+      "evidence": "MD and JSON agree on $48,967,380, June29 17:00 ET, two distinct branches and no automatic email deemed-sent rule. Both branch selected flags false; actual notice, assent, filing, payment and Finals outcome null or false. Whole FY26 cost/15 players, MVP/title/health/franchise outcome, Pack/manuscript remain unselected."
+    }
+  ],
+  "tests": {
+    "static_constructor_calls": 0,
+    "static_mutation_trials": 0,
+    "writer_checks_counted_as_independent": 0,
+    "physical_pin_page_pointer_and_arithmetic_checks": "PASS"
+  },
+  "limitations": [
+    "The A exercise path and B nonexercise path are reviewed candidate families, not actual or selected option decisions.",
+    "Exercise depends on an effective original UPC, player-authorized timely valid notice and lawful receipt; no real private addressee or filing is certified."
+  ],
+  "blockers": []
+}

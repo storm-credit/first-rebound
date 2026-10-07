@@ -1,0 +1,329 @@
+{
+  "id": "G13_A10_CURRENT_EXIT_INPUT_JOIN_2026_10_08",
+  "status": "CURRENT_SOURCE_BOUND_BOUNDED_A10_EXIT_SUPPORT_JOIN_ROOT_WHOLE_ACT_DISPOSITION_NOT_RECORDED",
+  "classification": "CURRENT_SIBLING_TO_IMMUTABLE_OLD_EXIT_OVERLAY_NOT_NEW_GAME_OR_AUTHORITY_SELECTION",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json": "7d494400fb2e8f22f90510ef5d915408e2a8e20a26c6b975a690aea0ead46c00",
+    "design/A10_2024_25_CONDITIONAL_FUNCTIONS.json": "5cc22b948e12f37581d354e3fa9b508522d0c87968bbd9fc3892b8bacaafa437",
+    "design/A10_E1_FINAL_EPISODE_FUNCTION.json": "78f109d927d07e111f06a9bcb277cd0d7ecdfb867a184c6761f2dfe2d433eaf8",
+    "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95",
+    "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json": "def711fd705443c7e7bcce53996e2d825b99ae973e42b211b0e3385033d57bd9",
+    "reviews/A10_E1_FINAL_EPISODE_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "109cd23a60515d59d07c5b38f41f1a4fc3f2cfac89d889c6bb1648cd32cfbf6e",
+    "reviews/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "ab99e06a18d6e41d83e52d1be309c79b2e515fa91b201d426ffa2c10de714567",
+    "canon/DELEGATED_A10_GAME1_ROLE_WINDOW_SELECTION_2026_10_08.json": "3ae631359abb2358e22fe6242310fc038593b28e668cde432a0988e5b35923e2",
+    "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json": "a622e5b28b22da05f3aa4e20348f3bc50e34ea95ba62c59424ccc16718241c0d",
+    "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json": "59854742520a71a59a09b3116cdb3128993e68b96f88239cfb9d2c1633e7bc9d",
+    "canon/DELEGATED_A10_QUAL1_COST_WINDOW_SELECTION_2026_10_08.json": "668bf587ed008e9aeb96d73e062a053bbab6e009b18e77b6b8634dd5c4b37006",
+    "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json": "b5823d2774e4cc912696d7a785c34818ef9d1bea8272cab0e23a63cf054fd030",
+    "reviews/A10_QUAL1_SELECTED_COST_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json": "c04c1ca7013c2a436116a7588f68666df7de00545923c8c5b5c0323f4307c9dd"
+  },
+  "source_scope": {
+    "acts": [
+      "A10"
+    ],
+    "subacts": 3,
+    "registered_functions": 3,
+    "new_source_events_executed": 0,
+    "ancestor_constructor_runs": 0,
+    "static_constructor_tests": 0,
+    "prior_review_scopes": [
+      {
+        "path": "reviews/A10_E1_FINAL_EPISODE_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": ""
+      },
+      {
+        "path": "reviews/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": ""
+      },
+      {
+        "path": "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/scope"
+      },
+      {
+        "path": "reviews/A10_QUAL1_SELECTED_COST_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "/acceptance_scope"
+      }
+    ]
+  },
+  "original_Act": {
+    "source": {
+      "path": "design/CP2_ACT_SUBACT_PACKET.json",
+      "json_pointer": "/acts/9"
+    },
+    "window": "2024–25",
+    "choice": "짧은 자가 창조와 더 나은 다음 선택을 결합",
+    "cost": "LaVine과 클로징 권한·수비 부담",
+    "exit": "최우선 코어 후보, 우승 자격 시험",
+    "question": "공격 첫 선택지가 될 준비가 됐는가",
+    "provisional70_plan_slots_are_not70_new_events": true
+  },
+  "historical_overlay": {
+    "source": {
+      "path": "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json",
+      "json_pointer": "/act_boundaries/9"
+    },
+    "old_status": "SELECTED_2024_GAME1_TWO_WINDOWS_BOUNDED_S1_S2_SUPPORT_QUALIFICATION_HOLD",
+    "old_QUAL1_HOLD_kept_in_original_file": true,
+    "current_QUAL1_support_provided_in_new_sibling_only": true,
+    "other13_Acts_and_39_subact_rows_changed": false
+  },
+  "subact_rows": [
+    {
+      "id": "A10-S1",
+      "source_cp2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/27"
+      },
+      "original_choice": "전환이 막혀도 즉시 공을 반납하는 데 그치지 않고 늦은 시계에서 가능한 짧은 자가 창조를 시험한다",
+      "original_cost": "짧은 자가 창조 반복",
+      "original_exit": "첫 선택지의 공격 증거",
+      "historical_overlay_row": {
+        "path": "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json",
+        "json_pointer": "/subact_exit_rows/27"
+      },
+      "historical_support_label": "SELECTED_2024_10_23_GAME1_TWO_WINDOW_BOUNDED_FAILURE_RETRY",
+      "registered_function": {
+        "path": "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/45"
+      },
+      "literal_function_source": {
+        "path": "design/A10_E1_FINAL_EPISODE_FUNCTION.json",
+        "json_pointer": ""
+      },
+      "exact_function_entry": "협력에서 필요한 자기 역할과 NBA 카운터의 제한 시험을 다음 연차로 가져가지만 개인 기술·몸 관리·관계 과제는 남는다",
+      "exact_function_exit": "짧은 직접 공격과 중단할 조건을 시험하지만 첫 옵션 지위와 효율은 별도 증명이 필요하다",
+      "current_supported_bounded_function_exit": true,
+      "new_registered_functions": 0,
+      "root_whole_Act_adoption_recorded_by_this_join": false,
+      "current_evidence": [
+        {
+          "path": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+          "json_pointer": "/selected_windows/0"
+        },
+        {
+          "path": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+          "json_pointer": "/selected_windows/1"
+        },
+        {
+          "path": "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "/scope"
+        },
+        {
+          "path": "reviews/A10_E1_FINAL_EPISODE_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": ""
+        }
+      ],
+      "support_interpretation": "First-choice attack evidence is a failed limited try and earlier handoff/receiver response under the selected task. This supports the exact bounded EF001 exit; it does not certify first-option efficiency or permanent coach priority.",
+      "observed_fiction": {
+        "game_id": "0022400069",
+        "date": "2024-10-23",
+        "failure_P6_LV2": true,
+        "retry_P3_LV5": true,
+        "LaVine_independent_reentry_receipt_required": true
+      },
+      "new_local_action_required_for_literal_function_exit": false
+    },
+    {
+      "id": "A10-S2",
+      "source_cp2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/28"
+      },
+      "original_choice": "LaVine의 퇴장을 전제로 자기 승계를 요구하지 않고 관측된 강점에 따라 클로징 역할을 조정할 근거를 제시한다",
+      "original_cost": "클로징 권한 재배분",
+      "original_exit": "공동 에이스에서 최우선 코어로",
+      "historical_overlay_row": {
+        "path": "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json",
+        "json_pointer": "/subact_exit_rows/28"
+      },
+      "historical_support_label": "SELECTED_GAME1_BOUNDED_SHARED_CLOSING_COST_SUPPORTED",
+      "registered_function": {
+        "path": "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/46"
+      },
+      "literal_function_source": {
+        "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+        "json_pointer": "/functions/0"
+      },
+      "exact_function_entry": "짧은 직접 공격과 중단할 조건을 시험하지만 첫 옵션 지위와 효율은 별도 증명이 필요하다",
+      "exact_function_exit": "공격 확장과 수비 책임을 함께 시험하지만 혼자 동료의 모든 부담을 지우는 해법은 갖지 못한다",
+      "current_supported_bounded_function_exit": true,
+      "new_registered_functions": 0,
+      "root_whole_Act_adoption_recorded_by_this_join": false,
+      "current_evidence": [
+        {
+          "path": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+          "json_pointer": "/onball_counterfactuals/0"
+        },
+        {
+          "path": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+          "json_pointer": "/selected_actual_cost_comparison"
+        },
+        {
+          "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+          "json_pointer": "/functions/0/beats"
+        },
+        {
+          "path": "reviews/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "/mutual_role_cost_observed_including_LaMelo_one_carry_segment"
+        }
+      ],
+      "support_interpretation": "LaVine remains in the same closing five. Selected LV8 -> P3/LV5 gives LV-3/P+3/Melo0. Earlier private task also supplies defensive return and the separate LaMelo carry segment. Neither baseline is added to the other; permanent priority is not assigned.",
+      "counterfactual_costs_additive": false,
+      "permanent_first_option_or_LaVine_demoted": false,
+      "new_local_action_required_for_literal_function_exit": false
+    },
+    {
+      "id": "A10-S3",
+      "source_cp2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/29"
+      },
+      "original_choice": "첫 선택지의 공격이 통해도 우승을 선언하지 않고 베테랑·벤치가 지불하는 역할 비용을 다음 보강 과제로 남긴다",
+      "original_cost": "베테랑·벤치 역할 비용",
+      "original_exit": "첫 우승창의 미완성",
+      "historical_overlay_row": {
+        "path": "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json",
+        "json_pointer": "/subact_exit_rows/29"
+      },
+      "historical_support_label": "LOCAL_FUNCTION_ROUTE_QUAL1_UNSELECTED",
+      "registered_function": {
+        "path": "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/47"
+      },
+      "literal_function_source": {
+        "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+        "json_pointer": "/functions/1"
+      },
+      "exact_function_entry": "공격 확장과 수비 책임을 함께 시험하지만 혼자 동료의 모든 부담을 지우는 해법은 갖지 못한다",
+      "exact_function_exit": "자기 공격과 동료 기능의 공백을 함께 다음 준비에 가져가지만 우승 자격·최우선 권한·팀 결과는 확정되지 않는다",
+      "current_supported_bounded_function_exit": true,
+      "new_registered_functions": 0,
+      "root_whole_Act_adoption_recorded_by_this_join": false,
+      "current_evidence": [
+        {
+          "path": "canon/DELEGATED_A10_QUAL1_COST_WINDOW_SELECTION_2026_10_08.json",
+          "json_pointer": "/selected_route"
+        },
+        {
+          "path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+          "json_pointer": "/qualification"
+        },
+        {
+          "path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+          "json_pointer": "/selected_observations/0"
+        },
+        {
+          "path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+          "json_pointer": "/selected_observations/1"
+        },
+        {
+          "path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+          "json_pointer": "/bench_and_veteran_costs"
+        },
+        {
+          "path": "reviews/A10_QUAL1_SELECTED_COST_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "/acceptance_scope"
+        },
+        {
+          "path": "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json",
+          "json_pointer": "/functions/1/beats"
+        }
+      ],
+      "support_interpretation": "The later admitted CHI6/PHI3 qualification and two legal series-date cost trials resolve old QUAL1-unselected locally. G1 Duarte covers visible Thybulle cutter after delayed P help; G2 earlier P help plus independent Duarte read and the same cutter condition preserves the connection. This is eligibility tested with a remaining team task, not a series win/title or proven attack efficiency.",
+      "historical_QUAL1_unselected_label_superseded_in_current_scope": true,
+      "qualification_missing_now": false,
+      "qualification_is_setting_admission_not_82_derived": true,
+      "counter_actor_read_not_reduced_to_P_position": true,
+      "series_winner": null,
+      "full_game_score": null,
+      "new_local_action_required_for_literal_function_exit": false
+    }
+  ],
+  "current_selected_input_scope": {
+    "GAME1_two_failure_retry_windows": {
+      "path": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+      "json_pointer": "/execution"
+    },
+    "QUAL1_setting_and_two_cost_windows": {
+      "path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+      "json_pointer": "/execution"
+    },
+    "source_qualification_setting": {
+      "path": "canon/DELEGATED_A10_QUAL1_COST_WINDOW_SELECTION_2026_10_08.json",
+      "json_pointer": "/East_order"
+    },
+    "clinical_or_actual_private_receipt_certified": false,
+    "unknown_cost_upper_replaced_with_zero": false,
+    "all_original_Gamma_and_current_six_cost_domains_preserved_by_reference": true,
+    "new_scores_results_or_productivity_coefficients": 0
+  },
+  "Act_support_assessment": {
+    "bounded_first_choice_attack_evidence_supported": true,
+    "LaVine_present_shared_closing_cost_and_defensive_return_supported": true,
+    "title_eligibility_trial_with_named_series_cost_supported": true,
+    "qualified_setting_is_not_actual_full_playoffs": true,
+    "priority_core_CANDIDATE_supported_not_permanent_status_certified": true,
+    "literal_registered_function_exits_supported": 3,
+    "literal_CP2_choice_cost_bounded_support_rows": 3,
+    "mandatory_new_local_actions_for_registered_literal_exits": 0,
+    "missing_qualification_ports": 0,
+    "formal_Act_closure_is_root_disposition_not_inferred_from_source_false_flags": true,
+    "whole_A10_closed_by_this_join": false,
+    "full_first_option_efficiency_proven": false,
+    "full_series_result_selected": false
+  },
+  "one_optional_specific_handoff_candidate": {
+    "id": "A10_EXIT_HANDOFF1",
+    "status": "CANDIDATE_NOT_SELECTED_NOT_NEW_MANDATORY_G13_GATE",
+    "source_rule": {
+      "path": "design/A10_2024_25_CONDITIONAL_FUNCTIONS.json",
+      "json_pointer": "/functions/3/choice"
+    },
+    "source_next_dependency": {
+      "path": "design/A10_2024_25_CONDITIONAL_FUNCTIONS.json",
+      "json_pointer": "/functions/3/next_dependency"
+    },
+    "purpose": "If root wants an explicit Act-to-A11 execution handoff of the NEW 2025 series observations, select one permitted post-G2 team review/task explanation, rather than rerunning the season or the existing trials.",
+    "earliest_basis": "After selected QUAL1_A_G2 2025-04-21 1688 seconds; no new event assigned within the unobserved game remainder.",
+    "candidate_period": "Post-G2 allowed private team review before the already selected series service family ends 2025-05-03; exact meeting date/time remains unselected.",
+    "named_participants": [
+      "Protagonist",
+      "Chris Duarte",
+      "CHI coach in existing delegated role"
+    ],
+    "action_and_visible_response": [
+      "P describes only visible delayed help, Duarte covering movement and changed receiving line from selected G1/G2 to the coach; no hidden motives or score claim.",
+      "Coach permits one next-task weakside-read/connection repeat under the same role responsibility; Duarte supplies his own cutoff read. No new priority ranking, contract, shot result or game winner."
+    ],
+    "direct_cost": "P chooses the connection/help review instead of another own-scoring showcase repetition; the already observed Duarte covering effort is acknowledged without duplicating his minutes or inventing an extra salary charge.",
+    "exit": "Selected evidence is handed to the next preparation task while team weaknesses remain; no title declaration.",
+    "new_occurrence_selected": false,
+    "coach_private_evaluation_or_future_decision_known": false,
+    "if_root_adopts_existing_bounded_CF04_exit_without_new_handoff_candidate_required": false
+  },
+  "limits": {
+    "whole_A10_complete": false,
+    "whole_G13_or_macro4_complete": false,
+    "actual_2024_25_82_game_results_or_2025_all_series_certified": false,
+    "new_title_MVP_core_franchise_retirement_coordinate_selected": false,
+    "original_function_information_nulls_filled": false,
+    "new_final_allocation_POV_Pack_authority": false,
+    "Pack_count": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  },
+  "verification": {
+    "direct_current_source_and_pointer_checks_completed": true,
+    "source_pins": 14,
+    "existing_supported_functions_not_recalculated": true,
+    "source_aliases_deep_copied": true,
+    "fresh_physical_before_save": true,
+    "independent_review_of_this_join_completed": false,
+    "static_constructor_tests": 0
+  },
+  "next_finite_disposition": "Root may adopt the current sibling as bounded A10 choice/cost/eligibility support. If stronger explicit 2025-to-next-preparation handoff is required, choose only HANDOFF1; full efficiency, title/82/all15series/private-ledger are not added requirements."
+}
