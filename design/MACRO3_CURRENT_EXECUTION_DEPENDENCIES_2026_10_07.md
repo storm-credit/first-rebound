@@ -1,5 +1,7 @@
 # 3번 현재 실행 의존성 — 2021–23 거래·계약
 
+**후속 보충:** PR454 main 이후 [주인공4계약/날짜별 함수/E3 검문](../reviews/PROTAGONIST_CONTRACT_M1_CARRIER_AND_A04_E3_REVIEW_2026_10_07.md)이 최신이다. [주인공 E1–E4](../research/PROTAGONIST_2022_CONTRACT_CANDIDATE_FAMILY_2026_10_07.md)는 기존 금액/방식의 독립 수용 후보이며 추천·수락·선택은 별도다. [82키 입력지도](CHICAGO_2021_22_FINITE_IMPLEMENTATION_MAP_2026_10_07.md)와 [NORMAL/COBY_OUT 함수](../simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.md)의 조건부164행/1,804블록을 독립 수용했다. 규정시간48/240만이며 실제 날짜 상태·다른 복합 결장·상대82팀·impact/결과·새OT는 남는다. 미래 계약 미선택을 현재의 역할함수 작성의 영구 장애로 읽지 않는다. 현행 기능25/미완료큰묶음5/6번까지4이며 아래24·23·22 계수는 이전 복구 이력이다.
+
 **현재 보충:** PR453 main과 [Carter/QO/E2 검문](../reviews/CARTER_QO_AND_A04_E2_REVIEW_2026_10_07.md)이 우선한다. 나머지58을 포함한 [60행 보드](../research/NBA_2021_FULL_DRAFT_WORKING_BOARD_2026_10_07.md)의 조건부 준비는 독립 수용됐으며, 중요 #16 방향·나머지58 정본 선택·UPC/Tender 실행은 남는다. [2022 코어 carry](../research/CHICAGO_2022_23_APPROVED_CORE_CONTRACT_EXECUTION_2026_10_07.md), [Carter4안](../research/CARTER_2021_EXTENSION_CANDIDATE_FAMILY_2026_10_07.md), [ordinary QO 함수](../research/CHICAGO_2022_ROOKIE_RFA_QO_FAMILY_2026_10_07.md)는 독립 수용된 조건부 입력이다. QO 상단17,201,063으로 사전예약44,626,437을 좁혔지만 새 계약·X·전체 FY22·다음 두 시즌 결과는 미완료다. 누적기능24/미완료큰묶음5/6번까지4가 현재 계수이며 아래 PR451/22 등은 최초 작성시점 이력이다. 다음은 주인공4계약 후보와Chicago82일 명명된 입력·결과의 유한 구현이다.
 
 기준은 PR451 `main e1076617f72be15f72e6289d8af553481736e59e`와 이번 Simonović 후속 후보다. 이 문서는 기존 파일의 읽기 복구와 다음 처리 순서만 기록한다. 새 거래 방향·작가 잠금·REGISTER 승격·전체 3번 종료는 없다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 실제 Pack0·원고0을 유지한다.

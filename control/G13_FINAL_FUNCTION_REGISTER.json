@@ -11,20 +11,21 @@
     "design/A03_E2_FINAL_EPISODE_FUNCTION.json",
     "design/A03_E3_FINAL_EPISODE_FUNCTION.json",
     "design/A04_E1_FINAL_EPISODE_FUNCTION.json",
-    "design/A04_E2_FINAL_EPISODE_FUNCTION.json"
+    "design/A04_E2_FINAL_EPISODE_FUNCTION.json",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json"
   ],
   "counts": {
-    "registered_local_functions": 24,
+    "registered_local_functions": 25,
     "per_act": {
       "A01": 9,
       "A02": 10,
       "A03": 3,
-      "A04": 2
+      "A04": 3
     },
     "subacts_with_verified_local_function_route": 10,
     "subacts_without_verified_local_function_route": 32,
     "planned_allocation_slots": 780,
-    "unassigned_planned_slots": 756,
+    "unassigned_planned_slots": 755,
     "planned_slots_are_mandatory_new_events": false,
     "final_published_episode_count": null
   },
@@ -268,6 +269,16 @@
       "subact": "A04-S1",
       "exact_entry": "주인공은 Texas Tech전의 좁은 수비·박스아웃 기여와 우승팀 소속 사실을 자기 공격 완성의 증명으로 합치지 않았다. 그는 허용된 개인 준비에서 코너 캐치 뒤 한 드리블 공격을 시도하고 다음 자가 창조가 막히는 지점을 함께 기록해, 평가에 제시할 역할 증거와 아직 시험받아야 할 공격 과제를 분리했다. 구단의 비공개 판단·공식 측정·정확 순번은 여전히 미확인이다.",
       "exact_exit": "주인공은 앞서 나눈 역할 증거와 미검증 공격 과제 옆에 점프·직선 가속·측면 이동의 빈 측정 항목을 놓고, 허용된 개인 시간에서 간단한 출발·방향전환을 숫자 없이 예행했다. 자기 폭발력과 덜 안정적인 측면 회복은 직접 느꼈지만, 정식 Combine 수치·의료 판정·구단 평가·정확 지명 순번은 얻지 못했다. 그 준비에 쓴 시간만큼 코너 한 드리블 과제의 추가 반복은 줄었다."
+    },
+    {
+      "id": "A04-EF-003",
+      "path": "design/A04_E3_FINAL_EPISODE_FUNCTION.json",
+      "order": 25,
+      "planned_slot": 147,
+      "act": "A04",
+      "subact": "A04-S1",
+      "exact_entry": "주인공은 앞서 나눈 역할 증거와 미검증 공격 과제 옆에 점프·직선 가속·측면 이동의 빈 측정 항목을 놓고, 허용된 개인 시간에서 간단한 출발·방향전환을 숫자 없이 예행했다. 자기 폭발력과 덜 안정적인 측면 회복은 직접 느꼈지만, 정식 Combine 수치·의료 판정·구단 평가·정확 지명 순번은 얻지 못했다. 그 준비에 쓴 시간만큼 코너 한 드리블 과제의 추가 반복은 줄었다.",
+      "exact_exit": "주인공은 허용된 가상 개인 지도 훈련에서 코너 캐치 슛을 시도했으나 성공률은 기록하지 않았다. 짧은 한 드리블 뒤 다음 자가 창조가 막혀 가까운 동료에게 공을 늦게 연결한 첫 한계를 지도자가 직접 지적했다. 그는 다음 한 번의 시도에서 같은 정지 지점을 만나자 미리 확인한 가까운 동료에게 단순 패스를 건넸다. 이 국소 수정 행동은 보였지만 실제 수비 상대·경기·구단 평가·공식 측정·정확 지명 순번에서의 성공은 증명되지 않았다."
     }
   ],
   "historical_comparison_rule": "The preserved CP2/first-six audit snapshot remains19. This cumulative registry explicitly validates that prefix and the reviewed A03 extension, and is the current local assignment count. Whole exits and history locks are separate gates.",
@@ -276,6 +287,7 @@
   "a03_e2_to_e3_exact_local_handoff_verified": true,
   "a03_e3_to_a04_e1_handoff_with_public_history_verified": true,
   "a04_e1_to_e2_personal_preparation_handoff_verified": true,
+  "a04_e2_to_e3_single_coached_workout_handoff_verified": true,
   "whole_subact_or_act_exit_promoted_by_this_register": false,
   "whole_g13_complete": false,
   "whole_g14_complete": false,
@@ -286,7 +298,7 @@
   "author_locked": false,
   "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
   "source_rev_sha256": {
-    "tools/build_g13_final_function_register.py": "7ffbd40992ad57dd2dcd4f6adf2ea158912b5a32178483ad0a9d56199de2112a",
+    "tools/build_g13_final_function_register.py": "0f01919d6a91e76a2cb0b5e2052049a1f99bce25d26108914fe5e12e1b241d78",
     "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
     "tools/build_cp2_design_packets.py": "3a1ea35989e5d5e755f6a80bd719e46c637895d8194ea3f0e01aabdd4c8b23e1",
     "tools/build_a03_e1_final_episode_function.py": "e8b9f10bdc4856911d1cb5febbabc9dc3b9cff336a77aa0ed404669f304ed181",
@@ -294,6 +306,7 @@
     "tools/build_a03_e3_final_episode_function.py": "71e91c87d451a082b745058e8e070e91cd7c872820f038ac793591bbcd2ef2e5",
     "tools/build_a04_e1_final_episode_function.py": "07efadf10caa75d659cfeb1bd6e7f056aaa22491c90c1e6ee38b4a2c20e05ba0",
     "tools/build_a04_e2_final_episode_function.py": "77e58c0c4ef4d86d862ccef86924cc3a0559d3942216e99d2f970369ddac5bd2",
+    "tools/build_a04_e3_final_episode_function.py": "fd14dc9efc6db1832c2c30378fd560991058cb385b7a767c4d533d3127ca2a56",
     "design/A01_E1_FINAL_EPISODE_FUNCTION.json": "9c15706717053a274f254ada476c027ea619858e6cd4ae80d8d8b422b789405e",
     "design/A01_E2_FINAL_EPISODE_FUNCTION.json": "306dd7810fda0395dc722ab953ebac9ef1e4cf3db0cc4a9dc0266a8a2b2e5285",
     "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "edbccc96f145274f4dfcfc2bbaebdce1477b0f3f3426a5420848aadfde1f4911",
@@ -317,6 +330,7 @@
     "design/A03_E2_FINAL_EPISODE_FUNCTION.json": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed",
     "design/A03_E3_FINAL_EPISODE_FUNCTION.json": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea",
     "design/A04_E1_FINAL_EPISODE_FUNCTION.json": "8bcddf517b6d776b9d87adfd06290fd9cd4a6cc365b0d8b0daed6556f4f299a3",
-    "design/A04_E2_FINAL_EPISODE_FUNCTION.json": "97bd5c06306a2744920ef7c40615674564bd693ed72947be591e6b7801e156c2"
+    "design/A04_E2_FINAL_EPISODE_FUNCTION.json": "97bd5c06306a2744920ef7c40615674564bd693ed72947be591e6b7801e156c2",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678"
   }
 }
