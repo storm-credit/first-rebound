@@ -1,0 +1,24 @@
+{
+  "id": "LAC_T4_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_NARROW_T4_OWNER_CORRECTION",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_lac_2021_keeper_and_chicago_selected_results.py": "8a3e7bedf018f26fb1a0112c06f44064b90d7b450672fca7fab14cad7ea9c9f8",
+    "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json": "e771fbe025fd8833c2418f2de89cd8fbd03cf4cd68f66051b20ab2a96416f143",
+    "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.md": "46c1dc0a229ac41d793f35fe9e002207a251e4a417d1a0c3dfd31c4d4eec5a24",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798"
+  },
+  "original_authority": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json approved.T4: Norman Powell remains with Toronto and Rodney Hood remains with Portland",
+  "independent_diff_check": "Compared corrected JSON to preceding committed version. After excluding baseline_main, source_sha256, and butterfly_handoff, every field is identical. Two game IDs, player seconds, roles, exact margins and winners are unchanged. Corrected handoff and MD now state Powell TOR/Hood POR, with direct T4 source pin and explicit assertion.",
+  "currentness": "Saved --check PASS.",
+  "independent_negative_control": {
+    "mutation": "both returned T4 source and returned direct parser changed approved.T4 to Powell POR/Hood TOR while physical bytes stayed pinned, bypassing only the object-equality comparison",
+    "result": "REJECTED ValueError Author T4 owners changed"
+  },
+  "historical_review_preserved": "reviews/LAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json is left untouched as prior main history; this record reviews only the owner correction.",
+  "limits": [
+    "No new LAC transaction, player contract, medical clearance, score, overtime or season outcome was selected.",
+    "This correction does not itself update the cumulative result ledger; root owns the downstream source pin and peer pointer."
+  ]
+}
