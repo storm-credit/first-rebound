@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-08 [3번 유한 계약·cap·픽 종료](../reviews/MACRO3_FINITE_CLOSEOUT_AND_J16_ADOPTION_2026_10_08.md): PR501main 보존. 원7명·2021hardcap/2022후속/2023sixcost·J16권리→Tender→RSC15STD·LM1/원Γ/holdonce/후년의무를 독립검문하여 3번 완료. 정확사적장부/센트·전역60후손·미래커리어 인증0. AGY29.842/NLM등록16.819·분석62.567/Claude18.416초 신규답회수·표현한정 및 실제위험거부 확인. 다음4번 A10계약·역할창 계속. 60기능/42경로/미경로0·전체막/Pack0은미완료. 미완료4/6번까지3·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래는이전이력이다.
+
 2026-10-08 [2023 계약·추첨·60기능 현행 채택](../reviews/2023_CONTRACT_DRAW_AND_WHOLE_ACT_CONTINUATION_ADOPTION_2026_10_08.md): PR500main 보존. 루틴 날짜별 계약/비용6종·LaMelo LM1·MEM/ORL/CHA/CLE추첨·CHI16 Jaquez 선택을 기록·검문했다. 60기능/42소막 경로/미경로0/source116·A06/A08/A09 현시즌 인계 수용. 원정본/57기능·보호채무 보존. 전체막의 미래 역사·최종회차·G13/G14/Pack0은 미완료. 원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·GoalACTIVE·일정등록0. 아래는 이전이력이다.
 
 2026-10-08 [2023 PO·CHI16번·8기능 채택](../reviews/NBA_2023_POSTSEASON_DRAFT_AND_EIGHT_FUNCTION_ADOPTION_REVIEW_2026_10_08.md): PR499main 보존.30순위/6playin/16PO14lottery·CHI8→MIL1,15시리즈93가상경기/2161동시구간/충돌0·CHI0–4/MIL4–3UTA/가상6월16일을독립검문. 명명보존가족CHI1R1/2R0·자체16번/STD예약1·N23/A23양수미가격/null≠0. 원49불변→57기능/39경로/미경로3/source111·계획미배정723은사건의무아님. AGY70.994/NLM21.468·112.372/Claude19.126초답회수·문구/caller/인물연속성수리. 2023 계약창 독립검문/루틴 가상선택 Coby12m×3+법정최소4·14STD+신인예약1 완료, 날짜별 비용소비자·신인/전역픽·장기커리어·전체G13/G14미완료. Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·GoalACTIVE·일정등록0. 아래는 이전이력이다.
@@ -172,19 +174,19 @@
 
 2026-10-04 [A08 라이브 패스 검수](../reviews/A08_LIVEPASS_REVIEW_2026_10_04.md): 기존2022–23의60슬롯/3소막과A07인계에5인과후보를 연결했다. 실제관측 오류만수정·공개급여 기반전달설명 접근명확화·상태/해시/null/MD/11링크PASS·제한Codex검문. NLM53.651초응답/요약경계누락교정·Claude세션한도8.475초오류는통과아님. 현행7행표를구판누적표와분리해동기화했다. 최종회차0·실제Pack0·법적12HOLD/F0/5 A0/3 K0/4·미완료6·G11규격완료·PARTIAL/CLOSED·원고0.
 
-## 현행 전체 7행 진행표 — 2026-10-08 PR500 이후
+## 현행 전체 7행 진행표 — 2026-10-08 3번 종료·4번 연속 진행
 
 | 번호 | 전체 작업 | 현행 상태·남은 핵심 |
 |---|---|---|
 | 1 | 2020 드래프트 연쇄 | 완료·기존 승인 보존 |
 | 2 | Chicago 2020–21 | S2 유한 시즌 완료·1174경기/2348팀·법적12/F5/A3/K4 |
-| 3 | 2021–23 거래·계약 | 2021–22·2022–23 스포츠 결과 완료. 2023 루틴 계약/비용 가족·LaMelo LM1·원점 추첨 검문 완료. Jaquez 선택·원래 계약/cap/픽 종료조건 최종 대조 진행 |
-| 4 | 두 선수 장기 커리어 | A10 이후 역할·재자격·Finals·후기 계약·은퇴 좌표 미완료 |
+| 3 | 2021–23 거래·계약 | 완료: 원7명 경로·시간순 계약/cap/픽의 합법 가상 가족. J16 RT→RSC15STD·LM1·원보호채무·같은hold 교체 검문. 실제 사적 접수/정확센트 인증과 구분 |
+| 4 | 두 선수 장기 커리어 | 진행: A10 2024–25 계약·역할 창; 이후 재자격·Finals·후기 계약·은퇴 좌표 남음 |
 | 5 | 결말·전체 구조 | 60기능/42소막 경로/미경로0·14막 유한 출구 감사. 미래막 전체 출구·최종 회차 배치 미완료 |
 | 6 | 집필 규격·Context Pack | 독서110/110·S1규격 완료. 전체G13/검증Blueprint 뒤 Pack생성·검문 남음·실제Pack0 |
 | 7 | 통합·독립·작가 승인 | 전체G15/G16/G17 미완료·최종OPEN 미승인 |
 
-**미완료 큰 묶음5개 / 6번까지4개.** 계획780칸의 미배정720은 추가 사건 의무가 아니다. v0.30 PARTIAL·설계/원고CLOSED·원고0. 완료 시점의 다음 작업은 [현행 큐](../control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md)를 따른다. 백분율·예상시간은 계산하지 않는다.
+**미완료 큰 묶음4개 / 6번까지3개.** 780계획칸 중 미배정720은 추가 사건 의무가 아니다. v0.30 PARTIAL·설계/원고CLOSED·원고0. [현행 큐](../control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md)의 완료 시점부터 다음 작업을 계속한다. 백분율·예상시간은 계산하지 않는다.
 
 2026-10-04 [A07·M1·S2 검수](../reviews/A07_M1_S2_REVIEW_2026_10_04.md): 2021–22의6인과후보·60슬롯/3소막을 보존하고 승인M1정상일 배분을11개5인 조합48/240분으로검산했다. S2필수분기 양쪽삭제/중복/proof누락/group/type변조 falsePASS를 수리했다. 실제12HOLD/F0/5 A0/3 K0/4불변. CF04오류가능성→CF05실제관측조건 수리·M1음성8PASS·NLM두응답/Claude제한blind회수·성과보증요구/LaMelo미선택오독기각. A01의12/A02의10/A03의3/A04의6/A05의8/A06의8/A07의6후보, 최종기능0·실제Pack0·G11규격완료보존·미완료6·PARTIAL/CLOSED·원고0.
 
@@ -327,7 +329,7 @@ O-15F12: 전반18접촉의 조건부 분 입력과6개 72경기 경로 연결을
 |---:|---|---|
 | 1 | 2020 Draft 연쇄 마감 | **COMPLETE — 1~60순위와 Riller 미지명 시장 진입 AUTHOR_LOCKED; 정확 계약은 다음 원장으로 분리** |
 | 2 | Chicago 2020-21 시즌 원장 | **COMPLETE — 현행 S2 유한 실행: 법적12/12·F5/5·A3/3·K4/4·1174경기/2348팀행.** [시즌 종료 검문](../reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md)을 우선한다. 실제 사적 접수/임상 인증은 범위밖이며 이전 K1/L2 추천·season false 표기는 이력이다 |
-| 3 | 2021~23 거래·계약 연쇄 | Vučević·DeRozan·Lonzo Ball·Caruso·Markkanen·LaVine 및 주인공 계약·cap·픽 자산을 시간순 검산 |
+| 3 | 2021~23 거래·계약 연쇄 | Vučević·DeRozan·Lonzo Ball·Caruso·Markkanen·LaVine 및 주인공 계약·cap·픽 자산을 시간순 검산 — **COMPLETE, source-supported 합법 가상 가족** [유한종료](../canon/MACRO3_2021_23_FINITE_CLOSEOUT_2026_10_08.json)·[독립검문](../reviews/MACRO3_2021_23_SELECTED_DATED_EXIT_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08.json) 우선. 정확사적접수/센트 인증·후손全60UPCs/이후시즌은 범위밖 |
 | 4 | 두 선수 장기 커리어 | 주인공의 단계적 프랜차이즈 승계와 라이벌 Minnesota 경로, 수상·우승·부상은 선행 시즌 결과 뒤 조건부 확정 |
 | 5 | 결말·전체 구조 | 14막/42소막·60국소기능/42경로/미경로0/source116. [현행등록](../control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.md)·[유한출구감사](../control/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.md) 수용. 전체미래막 역사·최종회차배치/G13 미완료. 미배정720은 새사건 의무 아님 |
 | 6 | 집필 규격·Context Pack | G11독서110/110·S1규격 완료. 60기능/42경로·설계샘플2/실제Pack0. 전체G13/역사잠금/검증Blueprint 뒤 CLOSED/manuscript_allowed:false로 집필 전 Pack 생성·검문. 원고0 |
