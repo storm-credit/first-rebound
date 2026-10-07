@@ -23,6 +23,9 @@ import build_a02_e4_final_episode_function as a02_e4_function
 import build_a02_e5_final_episode_function as a02_e5_function
 import build_a02_e6_final_episode_function as a02_e6_function
 import build_a02_e7_final_episode_function as a02_e7_function
+import build_a02_e8_final_episode_function as a02_e8_function
+import build_a02_e9_final_episode_function as a02_e9_function
+import build_a02_e10_final_episode_function as a02_e10_function
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_COMMIT = '171b46b'
@@ -58,7 +61,10 @@ def validate_final_functions(structure, root=ROOT):
              str(a02_e4_function.OUTPUT).replace('\\', '/'): a02_e4_function.validate,
              str(a02_e5_function.OUTPUT).replace('\\', '/'): a02_e5_function.validate,
              str(a02_e6_function.OUTPUT).replace('\\', '/'): a02_e6_function.validate,
-             str(a02_e7_function.OUTPUT).replace('\\', '/'): a02_e7_function.validate}
+             str(a02_e7_function.OUTPUT).replace('\\', '/'): a02_e7_function.validate,
+             str(a02_e8_function.OUTPUT).replace('\\', '/'): a02_e8_function.validate,
+             str(a02_e9_function.OUTPUT).replace('\\', '/'): a02_e9_function.validate,
+             str(a02_e10_function.OUTPUT).replace('\\', '/'): a02_e10_function.validate}
     for path in paths:
         if path not in known:
             errors.append('unreviewed final function path: ' + str(path))
@@ -186,15 +192,15 @@ def make_samples(root=ROOT):
           'canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json',
           'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json',
           'canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json'],
-         [dict(claim='CHI 31–41은 위임 선택된 K1 설계 목표이며 전체 실행은 HOLD', status='AUTHOR_MODELED_DESIGN',
+         [dict(claim='CHI 31–41은 위임 선택 K1의 S2 유한 실행 결과이며 실제 박스 인증은 아님', status='AUTHOR_MODELED_DESIGN',
                source_paths=['simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json', 'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json']),
-          dict(claim='L2 WAS 승리/IND 패배는 위임 선택된 사건이며 정확 박스는 HOLD', status='AUTHOR_MODELED_DESIGN',
+          dict(claim='L2 WAS 승리/IND 패배는 위임 선택의 S2 유한 실행이며 실제 박스 인증은 아님', status='AUTHOR_MODELED_DESIGN',
                source_paths=['simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json', 'canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json']),
           dict(claim='사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번',
                status='AUTHOR_MODELED_DESIGN',
                source_paths=['simulation/NBA_2021_PROVISIONAL_DRAFT.json', 'canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json'])],
          ['K1', 'L2', 'M_DRAW'], '사실 검증자',
-         ['F4 Hall 5/9 재계약 생략·F5 McGee 거래 및 Cleveland Varejão 5월 복귀계약 생략은 작가 선택; 정확 건강·등록·charge는 미검증',
+         ['F4 Hall 5/9 재계약 생략·F5 McGee 거래 및 Cleveland Varejão 5월 복귀계약 생략은 작가 선택; S2 유한 건강·명단·법적범위 실행 완료/실제 임상·접수·사적charge는 미인증',
           'Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님',
           'G1A 여름 주 경로 선택도 2020–21 결과나 Caruso 계약 실행의 소급 증거가 아님',
           '전체 60픽의 현재 소유 구단과 선수 지명']),

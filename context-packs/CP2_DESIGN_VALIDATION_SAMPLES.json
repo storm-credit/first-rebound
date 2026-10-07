@@ -23,13 +23,13 @@
       "reader_expected_question": "같은 공으로 세 코어가 성장할 수 있는가",
       "do_not_explain_device": true,
       "allowed_facts": [
-        "CHI 31–41은 위임 선택된 K1 설계 목표이며 전체 실행은 HOLD",
-        "L2 WAS 승리/IND 패배는 위임 선택된 사건이며 정확 박스는 HOLD",
+        "CHI 31–41은 위임 선택 K1의 S2 유한 실행 결과이며 실제 박스 인증은 아님",
+        "L2 WAS 승리/IND 패배는 위임 선택의 S2 유한 실행이며 실제 박스 인증은 아님",
         "사전 게시 뒤 첫 추첨에서 CHI10·39, MIN7·36 원소유 순번"
       ],
       "fact_evidence": [
         {
-          "claim": "CHI 31–41은 위임 선택된 K1 설계 목표이며 전체 실행은 HOLD",
+          "claim": "CHI 31–41은 위임 선택 K1의 S2 유한 실행 결과이며 실제 박스 인증은 아님",
           "status": "AUTHOR_MODELED_DESIGN",
           "source_paths": [
             "simulation/CHICAGO_2020_21_SEASON_RECOMMENDATION.json",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "claim": "L2 WAS 승리/IND 패배는 위임 선택된 사건이며 정확 박스는 HOLD",
+          "claim": "L2 WAS 승리/IND 패배는 위임 선택의 S2 유한 실행이며 실제 박스 인증은 아님",
           "status": "AUTHOR_MODELED_DESIGN",
           "source_paths": [
             "simulation/CHICAGO_2020_21_EXECUTION_CLOSEOUT.json",
@@ -84,7 +84,7 @@
       "basketball_constraints": "K1/L2 조건·정확 실행 미완료",
       "promises_to_pay": [],
       "hold_fields": [
-        "F4 Hall 5/9 재계약 생략·F5 McGee 거래 및 Cleveland Varejão 5월 복귀계약 생략은 작가 선택; 정확 건강·등록·charge는 미검증",
+        "F4 Hall 5/9 재계약 생략·F5 McGee 거래 및 Cleveland Varejão 5월 복귀계약 생략은 작가 선택; S2 유한 건강·명단·법적범위 실행 완료/실제 임상·접수·사적charge는 미인증",
         "Markkanen M1은 2021 여름 후행 선택이며 2020–21 결과의 소급 증거가 아님",
         "G1A 여름 주 경로 선택도 2020–21 결과나 Caruso 계약 실행의 소급 증거가 아님",
         "전체 60픽의 현재 소유 구단과 선수 지명"
@@ -159,12 +159,12 @@
         "canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json"
       ],
       "source_content_sha256": {
-        "canon/PROJECT_FREEZE.md": "ca655bc6094c1282fc4de871d857b72cc401ad9b74d5b01b02cc0e0358253555",
+        "canon/PROJECT_FREEZE.md": "71bbfb1177c846e754e41f8217f49c760421dfd77b63d06af6aaa9d1aa3de1cc",
         "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
-        "control/DESIGN_GATE.md": "41904889a30161fb2e24a961c3b27b089e65eee1dd7c694aabb808d31e9cc88c",
+        "control/DESIGN_GATE.md": "818190e69f651d3f48f10617133a48971fabec18ce8dd369f677592bed10fbd6",
         "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
         "control/CHICAGO_2020_21_D1_S2_PROTOCOL.md": "18d92122c7dcc1e1fb91129aea342f16eb6f03875f3a5cf063c51d8b9f90f7c0",
-        "design/CP2_ACT_SUBACT_PACKET.json": "e9bd41da0372f54388980436bc2303d3c06e03e96efaea489f5ac73aec4fb7eb",
+        "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "ab3b82c912b9c8c452ae36507adcdfb4991ed9ded4933cdf5d9b63dbd1089234",
         "research/STYLE_REFERENCE_ACCESS.md": "bfbf399590595da8ecf344143975476e42c451e5e00c005a511267a444b8b2dc",
@@ -357,12 +357,12 @@
         "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json"
       ],
       "source_content_sha256": {
-        "canon/PROJECT_FREEZE.md": "ca655bc6094c1282fc4de871d857b72cc401ad9b74d5b01b02cc0e0358253555",
+        "canon/PROJECT_FREEZE.md": "71bbfb1177c846e754e41f8217f49c760421dfd77b63d06af6aaa9d1aa3de1cc",
         "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
-        "control/DESIGN_GATE.md": "41904889a30161fb2e24a961c3b27b089e65eee1dd7c694aabb808d31e9cc88c",
+        "control/DESIGN_GATE.md": "818190e69f651d3f48f10617133a48971fabec18ce8dd369f677592bed10fbd6",
         "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
         "control/CHICAGO_2020_21_D1_S2_PROTOCOL.md": "18d92122c7dcc1e1fb91129aea342f16eb6f03875f3a5cf063c51d8b9f90f7c0",
-        "design/CP2_ACT_SUBACT_PACKET.json": "e9bd41da0372f54388980436bc2303d3c06e03e96efaea489f5ac73aec4fb7eb",
+        "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
         "design/CP2_PROMISE_LEDGER.json": "91fbb1bddca519cab9dc1eb9c7cae35f9c759925fd1171c2e41db3c9c83f31c4",
         "design/HOUSE_STYLE_FOUNDATION.md": "ab3b82c912b9c8c452ae36507adcdfb4991ed9ded4933cdf5d9b63dbd1089234",
         "research/STYLE_REFERENCE_ACCESS.md": "bfbf399590595da8ecf344143975476e42c451e5e00c005a511267a444b8b2dc",

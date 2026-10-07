@@ -421,8 +421,8 @@
   "model_gates": [
     {
       "id": "A1",
-      "state": "HEALTH_MODEL_SELECTED_FULL_CALENDAR_HOLD",
-      "scope": "Positive health/minutes and all regular/L2 workingclock orders complete. Full dated membership2348/2348 now verified by new rosterbridge, but named slot/exception/retention path gaps remain; no private medical/receipt prerequisite. AllFlegal5/5 complete; remaining hold is execution domain.",
+      "state": "FINITE_SELECTED_EXECUTION_PASS",
+      "scope": "Complete finite registered availability, 12..15 nominal active selection, bench8 and working coach clock domains independently reviewed; real clinical/active filing remain uncertified.",
       "working_dated_coach_plan": {
         "path": "simulation/NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.json",
         "games_applied": 88,
@@ -443,7 +443,10 @@
         "simulation/NBA_2020_21_REGULAR_WORKING_CHRONOLOGY.json",
         "simulation/NBA_2021_L2_WORKING_CHRONOLOGY.json",
         "simulation/NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.json",
-        "reviews/REGULAR_L2_CHRONOLOGY_AND_ROSTER_REVIEW_2026_10_07.md"
+        "reviews/REGULAR_L2_CHRONOLOGY_AND_ROSTER_REVIEW_2026_10_07.md",
+        "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+        "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+        "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
       ],
       "preserved_previous_working_dated_coach_plan": {
         "path": "simulation/DEN_LAL_2021_DATED_COACH_PLAN.json",
@@ -452,25 +455,31 @@
         "source_review": "reviews/D1_DATED_EXECUTION_FOLLOWUP_REVIEW_2026_10_07.md"
       },
       "completed_working_subscope": {
-        "status": "MODEL_MINUTE_AVAILABILITY_RESULT_SUBSCOPES_COMPLETE_FORMAL_EXECUTION_HOLD",
-        "source": "simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json",
-        "regular_games": 1080,
-        "regular_team_games": 2160,
-        "playin_games": 6,
-        "playin_team_games": 12,
-        "playoff_games": 88,
-        "formal_gate_closed": false,
+        "status": "FINITE_S2_EXECUTION_COMPLETE",
+        "source": "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+        "review": "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md",
+        "formal_gate_closed": true,
         "actual_medical_or_registration_certified": false,
-        "review": "reviews/REGULAR_L2_CHRONOLOGY_AND_ROSTER_REVIEW_2026_10_07.md",
-        "regular_working_order_team_plans": 2160,
-        "playin_working_order_team_plans": 12,
-        "roster_candidates_only": true
+        "roster_candidates_only": false
       }
     },
     {
       "id": "A2",
-      "state": "EXECUTION_HOLD",
-      "scope": "Approved8dated assignment/retention/omission events independently reviewed. Final dated roster path gaps remain; original directions not reopened and actual consent/private terms not inferred."
+      "state": "FINITE_SELECTED_EXECUTION_PASS",
+      "scope": "Complete approved dated transaction/omission and roster/result execution joins under unchanged twelve public legal proofs; actual private terms/consent/future delivery not certified.",
+      "supporting_execution_evidence": [
+        "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+        "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+        "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
+      ],
+      "completed_working_subscope": {
+        "status": "FINITE_S2_EXECUTION_COMPLETE",
+        "source": "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+        "review": "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md",
+        "formal_gate_closed": true,
+        "actual_medical_or_registration_certified": false,
+        "roster_candidates_only": false
+      }
     },
     {
       "id": "A3",
@@ -507,10 +516,11 @@
         "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.md",
         "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md",
         "reviews/F5_FOUR_SOURCE_BRANCH_COMPLETION_REVIEW_2026_10_07.json",
-        "reviews/F5_FOUR_SOURCE_BRANCH_INDEPENDENT_AUDIT_2026_10_07.md"
+        "reviews/F5_FOUR_SOURCE_BRANCH_INDEPENDENT_AUDIT_2026_10_07.md",
+        "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
       ],
       "completed_working_subscope": {
-        "status": "FINITE_A3_RESULT_AND_PICK_EXECUTION_COMPLETE_OTHER_MODELS_HOLD",
+        "status": "FINITE_S2_EXECUTION_COMPLETE",
         "source": "simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json",
         "regular_games": 1080,
         "regular_team_games": 2160,
@@ -522,13 +532,18 @@
         "review": "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md",
         "regular_working_order_team_plans": 2160,
         "playin_working_order_team_plans": 12,
-        "roster_candidates_only": true
+        "roster_candidates_only": false
       },
       "execution_review": "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
     }
   ],
-  "k_closed": [],
-  "season_selected": false,
+  "k_closed": [
+    "K_HEALTH",
+    "K_REGISTRATION",
+    "K_TRANSACTIONS",
+    "K_METHOD_EVENTS"
+  ],
+  "season_selected": true,
   "manuscript_allowed": false,
   "delegated_design_authority": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
   "completed_model_subscope_reference": "simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json",
@@ -537,9 +552,9 @@
     "model_execution": [
       {
         "id": "A1",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "authority_evidence": [
           "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
           "canon/CHICAGO_2020_21_CP2_APPROVAL.json",
@@ -547,15 +562,17 @@
           "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json"
         ],
         "execution_evidence": [
-          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json"
+          "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "Full dated registration/execution path gaps remain; existing completed subscopes preserved"
+        "scope": "Complete finite registered availability, 12..15 nominal active selection, bench8 and working coach clock domains independently reviewed; real clinical/active filing remain uncertified."
       },
       {
         "id": "A2",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "authority_evidence": [
           "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
           "canon/CHICAGO_2020_21_CP2_APPROVAL.json",
@@ -563,9 +580,11 @@
           "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json"
         ],
         "execution_evidence": [
-          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json"
+          "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "Full dated registration/execution path gaps remain; existing completed subscopes preserved"
+        "scope": "Complete approved dated transaction/omission and roster/result execution joins under unchanged twelve public legal proofs; actual private terms/consent/future delivery not certified."
       },
       {
         "id": "A3",
@@ -583,7 +602,8 @@
           "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.md",
           "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md",
           "reviews/F5_FOUR_SOURCE_BRANCH_COMPLETION_REVIEW_2026_10_07.json",
-          "reviews/F5_FOUR_SOURCE_BRANCH_INDEPENDENT_AUDIT_2026_10_07.md"
+          "reviews/F5_FOUR_SOURCE_BRANCH_INDEPENDENT_AUDIT_2026_10_07.md",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
         "scope": "Complete selected-result and frozen-season origin/control settlement; optional macro3 events separate"
       }
@@ -591,50 +611,63 @@
     "k_bundles": [
       {
         "id": "K_HEALTH",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "evidence": [
-          "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
+          "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "All three A prerequisites not yet complete"
+        "scope": "Full registered selected health/availability and coach domain; nominal registration and clinical unknown remain distinct."
       },
       {
         "id": "K_REGISTRATION",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "evidence": [
-          "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
+          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+          "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+          "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "All three A prerequisites not yet complete"
+        "scope": "All dated15+2 roster states and working12..15 game-active nominations, zero unresolved membership/slot/selected-absence conflicts."
       },
       {
         "id": "K_TRANSACTIONS",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "evidence": [
-          "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
+          "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+          "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "All three A prerequisites not yet complete"
+        "scope": "All approved dated movements/retentions/omissions and full preserved public legal family, no new trade or actual private certificate."
       },
       {
         "id": "K_METHOD_EVENTS",
-        "verdict": "HOLD",
-        "complete_domain": false,
-        "source_verified": false,
+        "verdict": "PASS",
+        "complete_domain": true,
+        "source_verified": true,
         "evidence": [
-          "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
+          "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.json",
+          "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+          "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+          "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+          "simulation/NBA_2020_21_REGULAR_WORKING_CHRONOLOGY.json",
+          "simulation/NBA_2021_L2_WORKING_CHRONOLOGY.json",
+          "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
         ],
-        "scope": "All three A prerequisites not yet complete"
+        "scope": "Complete1174 finite result/method events and sixty frozen origin/control rows with active15/early-exit repairs; no optional macro3 event promoted."
       }
     ],
     "season_execution": {
       "season": "2020-21",
-      "verdict": "HOLD",
-      "complete_domain": false,
-      "source_verified": false,
+      "verdict": "PASS",
+      "complete_domain": true,
+      "source_verified": true,
       "authority_evidence": [
         "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
         "canon/CHICAGO_2020_21_CP2_APPROVAL.json",
@@ -642,9 +675,15 @@
         "simulation/NBA_2021_DELEGATED_PLAYOFF_RESULTS.json"
       ],
       "execution_evidence": [
-        "reviews/A3_FINITE_RESULT_AND_PICK_EXECUTION_REVIEW_2026_10_07.md"
+        "simulation/NBA_2020_21_HEALTH_COACH_EXECUTION_FAMILY.json",
+        "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+        "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.json",
+        "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+        "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md"
       ],
-      "scope": "A1/A2 and allK closure pending"
+      "scope": "S2 finite fictional2020-21 execution complete; actual boxes/clinical/privatefinancial/receipt and optional macro3 future execution remain uncertified."
     }
-  }
+  },
+  "finite_s2_execution_review": "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md",
+  "actual_private_medical_financial_or_league_receipt_certified": false
 }

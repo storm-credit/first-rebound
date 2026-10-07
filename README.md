@@ -1,5 +1,7 @@
 # first-rebound
 
+2026-10-07: [S2 유한2020–21 종료](reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md) — F5/5·A3/3·K4/4·시즌true, 남은큰묶음5. 승인 M1/G1A의3번 정확구현을계속한다. 실제임상/사적계약인증·원고허가가아니며 freeze/설계/원고CLOSED를유지한다.
+
 - 정식 제목: `HOLD — 시대 선택 뒤 확정`
 - 태그라인 후보: **처음 배운 것은 리바운드였다**
 - 장르: 회귀·시스템·빙의 없는 현실 역사 농구 성장 웹소설
@@ -10,7 +12,7 @@
 
 설계서·설계도·세계 모델·고증 원장·인과 시뮬레이션·Act/Sub-Act·회차 기능표·Context Pack·독립 검수가 모두 통과되어 `control/DESIGN_GATE.md`가 `OPEN`으로 바뀌기 전에는 프롤로그와 1화를 포함한 어떠한 원고도 작성하지 않는다.
 
-현재 국소 G13 완료는 [E1](design/A01_E1_FINAL_EPISODE_FUNCTION.md)·[E2](design/A01_E2_FINAL_EPISODE_FUNCTION.md)·[E3](design/A01_E3_FINAL_EPISODE_FUNCTION.md)·[E4](design/A01_E4_FINAL_EPISODE_FUNCTION.md)·[E5](design/A01_E5_FINAL_EPISODE_FUNCTION.md)·[E6](design/A01_E6_FINAL_EPISODE_FUNCTION.md)·[E7](design/A01_E7_FINAL_EPISODE_FUNCTION.md)·[E8](design/A01_E8_FINAL_EPISODE_FUNCTION.md)·[E9](design/A01_E9_FINAL_EPISODE_FUNCTION.md)·[A02 E1](design/A02_E1_FINAL_EPISODE_FUNCTION.md)·[A02 E2](design/A02_E2_FINAL_EPISODE_FUNCTION.md)·[A02 E3](design/A02_E3_FINAL_EPISODE_FUNCTION.md)·[A02 E4](design/A02_E4_FINAL_EPISODE_FUNCTION.md)·[A02 E5](design/A02_E5_FINAL_EPISODE_FUNCTION.md)·[A02 E6](design/A02_E6_FINAL_EPISODE_FUNCTION.md)·[A02 E7](design/A02_E7_FINAL_EPISODE_FUNCTION.md) 16개다. 전체 G13/역사 잠금은 미완료이며 실제 Context Pack 0개, 원고 0이다. 전체 780 계획 배분 중 16slot을 배정했고 764slot은 미배정이다. 이는 공개 회차수 확정이나 집필 허가가 아니다.
+현재 국소 G13 완료는 [E1](design/A01_E1_FINAL_EPISODE_FUNCTION.md)·[E2](design/A01_E2_FINAL_EPISODE_FUNCTION.md)·[E3](design/A01_E3_FINAL_EPISODE_FUNCTION.md)·[E4](design/A01_E4_FINAL_EPISODE_FUNCTION.md)·[E5](design/A01_E5_FINAL_EPISODE_FUNCTION.md)·[E6](design/A01_E6_FINAL_EPISODE_FUNCTION.md)·[E7](design/A01_E7_FINAL_EPISODE_FUNCTION.md)·[E8](design/A01_E8_FINAL_EPISODE_FUNCTION.md)·[E9](design/A01_E9_FINAL_EPISODE_FUNCTION.md)·[A02 E1](design/A02_E1_FINAL_EPISODE_FUNCTION.md)·[A02 E2](design/A02_E2_FINAL_EPISODE_FUNCTION.md)·[A02 E3](design/A02_E3_FINAL_EPISODE_FUNCTION.md)·[A02 E4](design/A02_E4_FINAL_EPISODE_FUNCTION.md)·[A02 E5](design/A02_E5_FINAL_EPISODE_FUNCTION.md)·[A02 E6](design/A02_E6_FINAL_EPISODE_FUNCTION.md)·[A02 E7](design/A02_E7_FINAL_EPISODE_FUNCTION.md)·[A02 E8](design/A02_E8_FINAL_EPISODE_FUNCTION.md)·[A02 E9](design/A02_E9_FINAL_EPISODE_FUNCTION.md)·[A02 E10](design/A02_E10_FINAL_EPISODE_FUNCTION.md) 19개다. 전체 G13/역사 잠금은 미완료이며 실제 Context Pack 0개, 원고 0이다. 전체 780 계획 배분 중 19slot을 배정했고 761slot은 미배정이다. 이는 공개 회차수 확정이나 집필 허가가 아니다.
 
 ## 현재 고정된 중심
 

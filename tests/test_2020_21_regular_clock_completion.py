@@ -22,8 +22,9 @@ class RegularClockTests(unittest.TestCase):
 
     def test_complete_working_input(self):
         module.validate(self.data)
-        self.assertEqual(self.data["summary"]["existing_source_lineup_witnesses"], 107)
-        self.assertEqual(self.data["summary"]["constructed_existence_witnesses"], 2053)
+        self.assertEqual(self.data["summary"]["existing_source_lineup_witnesses"], 105)
+        self.assertEqual(self.data["summary"]["constructed_existence_witnesses"], 2055)
+        self.assertEqual(self.data["summary"]["working_active_limit_corrections"], 4)
         self.assertEqual(self.data["summary"]["winner_changes_from_selected_overlay"], 0)
         for path, checksum in self.data["source_sha256"].items():
             self.assertEqual(checksum, module.sha(path))
@@ -86,6 +87,22 @@ class RegularClockTests(unittest.TestCase):
             mutation(altered["team_games"][0])
             with self.assertRaises(AssertionError):
                 module.validate(altered)
+
+    def test_active_limit_repair_keeps_raw_overlay_and_rejects_unreviewed_reassignment(self):
+        source = json.loads((ROOT / "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json").read_text(encoding="utf-8"))
+        self.assertEqual(sum(bool(r.get("lineup_witness")) and not r.get("f5_scope_completion")
+                             for r in source["team_games"]), 107)
+        affected = [r for r in self.data["team_games"] if r["working_active_limit_correction"]]
+        self.assertEqual(len(affected), 4)
+        self.assertTrue(all(sum(s > 0 for s in r["player_seconds"].values()) == 15 for r in affected))
+        altered = copy.deepcopy(self.data)
+        row = next(r for r in altered["team_games"] if r["working_active_limit_correction"])
+        donor = next(p for p,s in row["player_seconds"].items() if s == 0)
+        receiver = next(p for p,s in row["player_seconds"].items() if s > 1 and p not in row["starters"])
+        row["player_seconds"][donor] += 1
+        row["player_seconds"][receiver] -= 1
+        with self.assertRaises(AssertionError):
+            module.validate(altered)
 
 
 if __name__ == "__main__":

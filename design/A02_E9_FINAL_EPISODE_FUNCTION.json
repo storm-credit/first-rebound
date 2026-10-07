@@ -1,0 +1,243 @@
+{
+  "schema": "A02_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A02-EF-009",
+  "act": "A02",
+  "primary_subact": "A02-S3",
+  "source_conditional_function": "A02-CF09",
+  "final_function_order": 18,
+  "planned_allocation_slot": 45,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "a01_locally_assigned_function_slots": 9,
+    "a01_unassigned_planned_slots": 27,
+    "a01_unassigned_slots_require_27_new_events_before_this": false,
+    "a02_planned_slots": 54,
+    "a02_assigned_function_slots_through_this": 9,
+    "a02_remaining_planned_slots": 45,
+    "total_local_functions_through_this": 18,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "previous_function": {
+    "id": "A02-EF-008",
+    "path": "design/A02_E8_FINAL_EPISODE_FUNCTION.json",
+    "exact_full_exit": "주인공은 학교 측 추천 자료가 보내졌어도 학업담당의 예비 영어·수학·과학 빈칸 계획을 별도 의무로 받아들였다. 추가 개인훈련·게임에 쓸 수 있던 허용 시간을 줄여 스터디홀 과제와 별도 시험 읽기 연습을 실제 수행했지만, 개별 과목 이수·학점·점수·NCAA 자격·대학 입학은 아직 확정되지 않았다."
+  },
+  "local_blueprint": {
+    "schema": "A02_CF09_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_STUDENT_CHECKLIST_AND_SCHOOL_PROCESS_REPLY_NOT_FINAL_CERTIFICATION",
+    "entry_state": "주인공은 학교 측 추천 자료가 보내졌어도 학업담당의 예비 영어·수학·과학 빈칸 계획을 별도 의무로 받아들였다. 추가 개인훈련·게임에 쓸 수 있던 허용 시간을 줄여 스터디홀 과제와 별도 시험 읽기 연습을 실제 수행했지만, 개별 과목 이수·학점·점수·NCAA 자격·대학 입학은 아직 확정되지 않았다.",
+    "single_function": "실제로 공부한 시간을 공식 학점·졸업·NCAA 확인과 혼동하지 않고, 학생 자신이 준비할 이전 학적·시험·현재 과목 자료의 목록을 정리해 학교 학업담당에게 발급·제출·확인 주체와 기한 범주를 직접 묻는다",
+    "authority_map": {
+      "student_prepares_request_and_tracks_reply": true,
+      "fictional_prep_academic_office_answers_school_process_only": true,
+      "prep_coach_issues_final_transcript_or_eligibility": false,
+      "school_final_transcript_or_diploma_issued_here": false,
+      "NCAA_eligibility_center_certified_here": false,
+      "Villanova_admission_or_compliance_decision_here": false,
+      "prior_E7_college_receipt_or_reply_inferred": false
+    },
+    "unit_choice": "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다",
+    "exit_state": "주인공은 실제 학습 행동과 공식 자격 판정이 다름을 인정해 이전 학적·현재 과목·시험의 확인 목록을 만들고 학교 학업담당에게 발급·제출·추적 주체를 물었다. 자신이 준비할 항목과 학교·NCAA·대학이 훗날 처리할 답변을 구분했지만 최종 성적표·졸업 증빙·자격·입학 결과는 아직 확인하지 못했다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "D1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "주인공은 게임이나 추가 훈련에 쓸 수 있는 허용 시간 일부를 써서 이미 보유하거나 요청해야 할 이전 학교 학적, 프렙 현재 과목, 시험 결과의 범주를 나눠 적고 아직 받지 못한 공식 자료는 미확인으로 표시한다",
+        "observable_result": "학생 자신이 준비·질문할 목록과 미확인 항목은 보이지만 어떤 공식 성적표·졸업장·NCAA 결과도 발급되거나 통과하지 않았다",
+        "choice_options": [
+          "감독 추천과 자기가 공부한 시간을 최종 자격으로 여긴다",
+          "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다"
+        ],
+        "selected_choice": "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다",
+        "not_claimed": "정확 과목/점수·서류 발급·졸업·NCAA 판정",
+        "source_path": "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json",
+        "source_step": "D1",
+        "author_locked": false
+      },
+      {
+        "id": "D2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "주인공은 그 목록을 학교 학업담당에게 보여 주고, 누가 마지막 프렙 성적표와 졸업 증빙을 내며 학생은 어떤 이전 기록과 시험 결과를 언제 확인해야 하는지 묻는다. 담당자는 학교가 처리할 발급·제출과 학생이 계속 추적할 미확인 항목의 구분만 알려 준다",
+        "observable_result": "주인공은 자신 몫의 준비와 학교·인증기관이 나중에 내려야 할 답변을 구분한다. 정확 날짜, 발급 완료, 대학 판정은 아직 없다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "감독의 학업 인증·공식 NCAA 합격·Villanova 입학승인",
+        "source_path": "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json",
+        "source_step": "D2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "A02 E8 study-time full exit < D1 student status checklist < D2 school academic-office process reply < final school/NCAA/college decisions not executed"
+    ],
+    "direct_present_cost": "추가 개인훈련이나 게임에 쓸 수 있는 허용 시간 일부를, 아직 없는 성적·졸업·시험 확인 항목을 드러내는 목록과 학교 담당자 문의에 쓴다. 이미 받은 오퍼나 자격을 잃는 사건은 만들지 않는다.",
+    "reader_question_at_end": "준비한 질문과 자료가 실제 학교 증빙·인증·대학의 제한 역할 경로로 언제 이어질 것인가",
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "자신이 만든 미확인 자료 목록",
+        "학교 학업담당에게 직접 들은 발급·제출 절차 구분",
+        "자신이 쓴 시간과 남은 질문"
+      ],
+      "not_available_without_access": [
+        "학교 최종 졸업 판정",
+        "NCAA Eligibility Center 내부 판단",
+        "Villanova 입학·compliance 비공개 결정",
+        "아직 받지 않은 공식 성적표"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "unassigned_details": {
+      "fictional_school_or_staff_name": null,
+      "exact_submission_or_reply_date": null,
+      "individual_course_or_credit_values": null,
+      "grades_or_test_score": null,
+      "issued_document_number_or_copy": null,
+      "college_reply_or_decision": null
+    },
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a02_e9_final_episode_function.py": "6dc0ab44f3810e6373860e508d7347215b13595d35a33a2f994a24bebc6f417f",
+      "design/A02_E8_FINAL_EPISODE_FUNCTION.json": "6e02e8573c24eb879c0d6d18c399e2ea5b95872cb1c7c335f653ee747be64a6f",
+      "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json": "048d9479c31cbc256ed2dadc1f10e164deb68f2c57674e479210477304bb9778",
+      "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+      "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+      "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+      "research/TIMELINE_ELIGIBILITY_LEDGER.md": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+      "canon/PROJECT_FREEZE.md": "71bbfb1177c846e754e41f8217f49c760421dfd77b63d06af6aaa9d1aa3de1cc",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "final_school_or_NCAA_decision_certified": false,
+    "whole_A02_S3_exit_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "실제로 공부한 시간을 공식 학점·졸업·NCAA 확인과 혼동하지 않고, 학생 자신이 준비할 이전 학적·시험·현재 과목 자료의 목록을 정리해 학교 학업담당에게 발급·제출·확인 주체와 기한 범주를 직접 묻는다",
+  "entry_state": "주인공은 학교 측 추천 자료가 보내졌어도 학업담당의 예비 영어·수학·과학 빈칸 계획을 별도 의무로 받아들였다. 추가 개인훈련·게임에 쓸 수 있던 허용 시간을 줄여 스터디홀 과제와 별도 시험 읽기 연습을 실제 수행했지만, 개별 과목 이수·학점·점수·NCAA 자격·대학 입학은 아직 확정되지 않았다.",
+  "unit_choice": "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다",
+  "exit_state": "주인공은 실제 학습 행동과 공식 자격 판정이 다름을 인정해 이전 학적·현재 과목·시험의 확인 목록을 만들고 학교 학업담당에게 발급·제출·추적 주체를 물었다. 자신이 준비할 항목과 학교·NCAA·대학이 훗날 처리할 답변을 구분했지만 최종 성적표·졸업 증빙·자격·입학 결과는 아직 확인하지 못했다.",
+  "direct_present_cost": "추가 개인훈련이나 게임에 쓸 수 있는 허용 시간 일부를, 아직 없는 성적·졸업·시험 확인 항목을 드러내는 목록과 학교 담당자 문의에 쓴다. 이미 받은 오퍼나 자격을 잃는 사건은 만들지 않는다.",
+  "reader_question_at_end": "준비한 질문과 자료가 실제 학교 증빙·인증·대학의 제한 역할 경로로 언제 이어질 것인가",
+  "internal_order": [
+    "D1",
+    "D2"
+  ],
+  "beats": [
+    {
+      "id": "D1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "주인공은 게임이나 추가 훈련에 쓸 수 있는 허용 시간 일부를 써서 이미 보유하거나 요청해야 할 이전 학교 학적, 프렙 현재 과목, 시험 결과의 범주를 나눠 적고 아직 받지 못한 공식 자료는 미확인으로 표시한다",
+      "observable_result": "학생 자신이 준비·질문할 목록과 미확인 항목은 보이지만 어떤 공식 성적표·졸업장·NCAA 결과도 발급되거나 통과하지 않았다",
+      "choice_options": [
+        "감독 추천과 자기가 공부한 시간을 최종 자격으로 여긴다",
+        "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다"
+      ],
+      "selected_choice": "이전 학교기록·현재 학사·시험의 제출 상태를 직접 확인할 목록을 만든다",
+      "not_claimed": "정확 과목/점수·서류 발급·졸업·NCAA 판정",
+      "source_path": "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json",
+      "source_step": "D1",
+      "author_locked": false
+    },
+    {
+      "id": "D2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "주인공은 그 목록을 학교 학업담당에게 보여 주고, 누가 마지막 프렙 성적표와 졸업 증빙을 내며 학생은 어떤 이전 기록과 시험 결과를 언제 확인해야 하는지 묻는다. 담당자는 학교가 처리할 발급·제출과 학생이 계속 추적할 미확인 항목의 구분만 알려 준다",
+      "observable_result": "주인공은 자신 몫의 준비와 학교·인증기관이 나중에 내려야 할 답변을 구분한다. 정확 날짜, 발급 완료, 대학 판정은 아직 없다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "감독의 학업 인증·공식 NCAA 합격·Villanova 입학승인",
+      "source_path": "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json",
+      "source_step": "D2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A02-CF10",
+    "candidate_subact": "A02-S3",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_entry_non_authoritative_summary": "자신의 준비와 학교·인증 기관이 처리해야 할 답변을 구분해 대학 절차를 이어 간다",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "주인공은 실제 학습 행동과 공식 자격 판정이 다름을 인정해 이전 학적·현재 과목·시험의 확인 목록을 만들고 학교 학업담당에게 발급·제출·추적 주체를 물었다. 자신이 준비할 항목과 학교·NCAA·대학이 훗날 처리할 답변을 구분했지만 최종 성적표·졸업 증빙·자격·입학 결과는 아직 확인하지 못했다.",
+    "candidate_is_executed_here": false,
+    "offer_admission_or_college_role_verified_here": false
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "자신이 만든 미확인 자료 목록",
+      "학교 학업담당에게 직접 들은 발급·제출 절차 구분",
+      "자신이 쓴 시간과 남은 질문"
+    ],
+    "not_available_without_access": [
+      "학교 최종 졸업 판정",
+      "NCAA Eligibility Center 내부 판단",
+      "Villanova 입학·compliance 비공개 결정",
+      "아직 받지 않은 공식 성적표"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "authority_map": {
+    "student_prepares_request_and_tracks_reply": true,
+    "fictional_prep_academic_office_answers_school_process_only": true,
+    "prep_coach_issues_final_transcript_or_eligibility": false,
+    "school_final_transcript_or_diploma_issued_here": false,
+    "NCAA_eligibility_center_certified_here": false,
+    "Villanova_admission_or_compliance_decision_here": false,
+    "prior_E7_college_receipt_or_reply_inferred": false
+  },
+  "unassigned_details": {
+    "fictional_school_or_staff_name": null,
+    "exact_submission_or_reply_date": null,
+    "individual_course_or_credit_values": null,
+    "grades_or_test_score": null,
+    "issued_document_number_or_copy": null,
+    "college_reply_or_decision": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a02_e9_final_episode_function.py": "6dc0ab44f3810e6373860e508d7347215b13595d35a33a2f994a24bebc6f417f",
+    "design/A02_E8_FINAL_EPISODE_FUNCTION.json": "6e02e8573c24eb879c0d6d18c399e2ea5b95872cb1c7c335f653ee747be64a6f",
+    "design/A02_CF09_OFFICIAL_CHECK_PREPARATION_WORKING_MODEL_2026_10_07.json": "048d9479c31cbc256ed2dadc1f10e164deb68f2c57674e479210477304bb9778",
+    "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+    "research/TIMELINE_ELIGIBILITY_LEDGER.md": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+    "canon/PROJECT_FREEZE.md": "71bbfb1177c846e754e41f8217f49c760421dfd77b63d06af6aaa9d1aa3de1cc",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED authenticates source-current student checklist and school process reply, not issuance of a transcript or diploma.",
+    "The prep coach cannot certify credits or NCAA eligibility; NCAA and Villanova decisions remain with their own authorities.",
+    "Exact deadlines, individual grades, SAT point score and official documents remain unselected.",
+    "CF10 college path, the whole A02-S3 exit and G13 remain unexecuted or unverified."
+  ],
+  "whole_A01_act_exit_certified": false,
+  "whole_A02_S1_exit_certified": false,
+  "whole_A02_S2_exit_certified": false,
+  "whole_A02_S3_exit_certified": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}

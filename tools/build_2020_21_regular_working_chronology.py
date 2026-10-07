@@ -160,7 +160,7 @@ def build(source: dict | None = None, verify_source: bool = True) -> dict:
         if existing:
             preserved_stats.append(row_stats)
         plans.append(plan)
-    assert len(plans) == 2160 and len(preserved) == len(preserved_stats) == 107
+    assert len(plans) == 2160 and len(preserved) == len(preserved_stats) == source["summary"]["existing_source_lineup_witnesses"]
     counts = Counter(r["game_duration_seconds"] for r in rows)
     return {
         "schema": "COMPACT_REGULAR_WORKING_CHRONOLOGY_V1",
@@ -203,7 +203,7 @@ def build(source: dict | None = None, verify_source: bool = True) -> dict:
         "medical_certified": False, "actual_active_lists_certified": False,
         "legal_execution_cleared": False, "season_selected": False,
         "new_final_episode_or_context_pack": False, "manuscript_allowed": False,
-        "limits": ["107 existing unordered source witnesses remain unchanged; their original first lineup need not match source starters, and their new working order is separate",
+        "limits": ["Raw107 original source witnesses stay in the upstream overlay;105 are transported unchanged and2 have explicit active-limit replacements; their original first lineup need not match source starters, and their new working order is separate",
                    "180-second blocks limit representation; a player can continue across adjacent blocks or period breaks",
                    "modeled_available and zero-player unknown health inherit source without new clearance",
                    "no score, foul, timeout, possession, dead-ball, opponent-matchup or medical event is invented",
@@ -229,7 +229,7 @@ def validate(data: dict, source: dict | None = None, expected: dict | None = Non
     rows = source["team_games"]
     assert data["player_dictionary"] == sorted({p for row in rows for p in row["player_seconds"]})
     preserved = set(data["preserved_existing_source_row_indexes"])
-    assert len(preserved) == len(data["preserved_existing_source_row_indexes"]) == 107
+    assert len(preserved) == len(data["preserved_existing_source_row_indexes"]) == source["summary"]["existing_source_lineup_witnesses"]
     for i in preserved:
         assert type(i) is int and 0 <= i < len(rows)
         assert rows[i]["lineup_witness_kind"] == "EXISTING_SOURCE_SEGMENTS_ORDER_NOT_CHRONOLOGY"
@@ -255,7 +255,7 @@ def markdown(data: dict) -> str:
 [시계 입력](NBA_2020_21_REGULAR_CLOCK_COMPLETION.json)의 분·선발·건강·승패를 바꾸지 않는다.
 전체 {s['new_working_chronological_team_plans']}팀의 새 순서를 작업 감독 모델로 채택했다.
 기존 {s['preserved_existing_witnesses']}개 증인은 원순서·초를 그대로 참조한다. 그 배열을
-실제 교대 순서로 인증하지 않았다. 이107행의 새 작업 순서는 별도로 파생한 선택이며
+실제 교대 순서로 인증하지 않았다. 이{s['preserved_existing_witnesses']}행의 새 작업 순서는 별도로 파생한 선택이며
 원증인을 수정하거나 그 순서를 자동 채택한 것이 아니다.
 
 ## 순서 정책과 가능성
@@ -274,7 +274,7 @@ def markdown(data: dict) -> str:
 - 개인 초 전원 원벡터와1e-5초 허용오차 안에서 일치하고 팀합계는 경기 길이의5배다.
   관측된 최대 선수합 산술 오차는{s['maximum_player_total_arithmetic_residual_seconds']:.12g}초다.
   원벡터를 정수 반올림하지 않으며 원천6개 최소 초 보정만 재사용한다.
-- 기존107행에도 같은 정책의 새 순서를 별도로 만들었고, 모두 원선발로180초 시작한다.
+- 기존{s['preserved_existing_witnesses']}행에도 같은 정책의 새 순서를 별도로 만들었고, 모두 원선발로180초 시작한다.
   원분의 소수값도 그대로 사용하며 정수 반올림이나 새 분배를 하지 않는다.
 - 최대 블록 {s['maximum_block_seconds']:g}초, 관측된 최대 연속 선수 배치
   {s['maximum_continuous_player_assignment_seconds']:g}초. 연속 선수 stint 상한은 미선택이다.
