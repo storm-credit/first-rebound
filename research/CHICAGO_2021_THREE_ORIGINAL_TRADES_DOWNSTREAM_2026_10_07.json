@@ -1,0 +1,141 @@
+{
+  "schema": "CHI_2021_M1A_THREE_OMITTED_ORIGINAL_TRADES_DOWNSTREAM_V1",
+  "status": "THREE_OMITTED_ORIGINAL_TRADES_SOURCE_BOUND_ASSET_AND_ROLE_EFFECTS_SELECTED",
+  "source_sha256": {
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312",
+    "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.json": "3e35fd2abfeb32e2bc5b66b7796f843ca117359be1a419d037844d29177a26d8",
+    "research/O15G8G_M1_2021_23_DEPENDENCY_CHAIN.md": "df5476deaeab6c067323b355ee526b572b6b3a471e35439ad0615baf00b180ae"
+  },
+  "source_hash_method": "UTF8_LF_SHA256",
+  "self_sha256": "0c7c13da0dc2038b1c97c6467a898d37bacf1acb2c349d377208a797e2a7ab50",
+  "official_historical_reports": {
+    "VUCEVIC": {
+      "description": "The Chicago Bulls have acquired center Nikola Vučević (KNEE-coal-uh VOOCH-uh-vitch) and forward Al-Farouq Aminu (al-fah-ruke ah-ME-new) from the Orlando Magic in exchange for forward Otto Porter Jr. and center Wendell Carter Jr., as well as two first-round picks with certain lottery position protections.",
+      "published_utc": "2021-03-25T22:12:00Z",
+      "body_locator": "script[type=application/ld+json].description",
+      "source_url": "https://www.nba.com/bulls/news/bulls-acquire-all-star-nikola-vucevic-and-al-farouq-aminu-trade-magic",
+      "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-bulls-three-departures-20261007\\VUCEVIC.html",
+      "raw_sha256": "78d75cab45c05afa369842921e9c3f742473c2e2e99792a0f729f99abfac7753"
+    },
+    "LONZO": {
+      "description": "The Chicago Bulls have acquired guard Lonzo Ball from the New Orleans Pelicans in a sign-and-trade agreement. Chicago traded Garrett Temple (also via sign-and-trade), Tomas Satoransky, a 2024 second-round Draft pick and cash considerations to New Orleans as part of the deal.",
+      "published_utc": "2021-08-09T02:00:00Z",
+      "body_locator": "script[type=application/ld+json].description",
+      "source_url": "https://www.nba.com/bulls/news/bulls-acquire-lonzo-ball",
+      "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-bulls-three-departures-20261007\\LONZO.html",
+      "raw_sha256": "9f7eb171ea1878d8b018a08abfbcd0a3c53f39617bfd306508035c5c605336d3"
+    },
+    "DEROZAN": {
+      "description": "The Chicago Bulls have acquired DeMar DeRozan from the San Antonio Spurs in a sign-and-trade agreement. Chicago traded Thaddeus Young, Al-Farouq Aminu, a protected first-round Draft pick and two second-round draft picks to San Antonio as part of the deal. In accordance with team policy, terms of the contract were not disclosed.",
+      "published_utc": "2021-08-11T17:02:00Z",
+      "body_locator": "script[type=application/ld+json].description",
+      "source_url": "https://www.nba.com/bulls/news/bulls-acquire-demar-derozan",
+      "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-bulls-three-departures-20261007\\DEROZAN.html",
+      "raw_sha256": "caa57a5024bb4f0bbb0f9232f1c155049fd28b93066abe22e0b9b4b8234e4329"
+    },
+    "SANCTION": {
+      "body_locator": "official release text",
+      "original_2021_penalty_reason": "Lonzo Ball early free-agency discussions",
+      "original_next_available_2R_forfeited": true,
+      "source_url": "https://pr.nba.com/bulls-heat-penalties-free-agency/",
+      "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-bulls-three-departures-20261007\\SANCTION.html",
+      "raw_sha256": "82b5313e5ea4dbd06e9462fbbaa49d3a3f798f6868019a37f341fb94a41b6b19"
+    }
+  },
+  "selected_predecessors": {
+    "M1_G1A_direction": true,
+    "S2_control_CHI_10_39": true,
+    "T1_60_working_draft": true,
+    "Chicago_A_working_standard": 15,
+    "Chicago_A_working_two_way": 2
+  },
+  "transaction_effects": [
+    {
+      "id": "ORL_CHI_VUCEVIC_AMINU_2021_03",
+      "historical_report": "ORL sends Vučević/Aminu; CHI sends Porter/Carter/protected firsts x2",
+      "selected_original_transaction_executed": false,
+      "selected_CHI_effect": [
+        "Carter remains in approved 2021 A 15",
+        "2021 CHI original-control pick #10 and #39 remain through selected T1; no Orlando transfer edge",
+        "Porter not assumed on August 2021 roster without a new contract"
+      ],
+      "counterparty_effect": "Orlando pre-trade Vučević/Aminu control continues in fictional March window; later Orlando contract/roster path must be dated separately",
+      "asset_nontransfer": [
+        "CHI_to_ORL_2021_protected_1R",
+        "CHI_to_ORL_later_protected_1R"
+      ],
+      "later_exact_pick_owner_certified": false,
+      "other_NBA_transaction_or_contract_selected": false
+    },
+    {
+      "id": "NOP_CHI_LONZO_2021_08",
+      "historical_report": "CHI sends Temple via S&T, Satoransky, 2024 second and cash to NOP for Lonzo via S&T",
+      "selected_original_transaction_executed": false,
+      "selected_CHI_effect": [
+        "Satoransky remains in approved A 15",
+        "No Lonzo in approved A 15",
+        "Temple absent from A 15; no new retained Temple contract is inferred"
+      ],
+      "counterparty_effect": "No original Chicago→NOP package; Lonzo's alternate RFA/signing route remains typed",
+      "asset_nontransfer": [
+        "CHI_to_NOP_2024_2R_in_original_deal",
+        "CHI_to_NOP_cash_in_original_deal"
+      ],
+      "later_exact_pick_owner_certified": false,
+      "historical_tampering_penalty_carried_into_fiction": false,
+      "alternate_2023_2R_free_of_any_sanction_or_transfer_certified": false
+    },
+    {
+      "id": "SAS_CHI_DEROZAN_2021_08",
+      "historical_report": "CHI sends Young/Aminu/protected first/two seconds to SAS for DeRozan via S&T",
+      "selected_original_transaction_executed": false,
+      "selected_CHI_effect": [
+        "Young remains in approved A 15",
+        "No Aminu or DeRozan in approved A 15",
+        "No original protected first/two seconds transferred by this deal"
+      ],
+      "counterparty_effect": "San Antonio cannot use Young acquired through this omitted Chicago deal for the original 2022 Toronto Young exchange; DeRozan's alternate free-agent path is typed",
+      "asset_nontransfer": [
+        "CHI_to_SAS_protected_1R_in_original_deal",
+        "CHI_to_SAS_two_2R_in_original_deal"
+      ],
+      "later_exact_pick_owner_certified": false,
+      "original_SAS_to_TOR_Young_trade_automatically_copied": false
+    }
+  ],
+  "Chicago_approved_working_roster_relevant": [
+    "Carter",
+    "Caruso",
+    "LaMelo_pick4",
+    "LaVine",
+    "Markkanen",
+    "Satoransky",
+    "Young"
+  ],
+  "named_descendant_boundary": {
+    "Young_to_SAS_then_TOR_original_chain": "NOT_COPIED_WITHOUT_SAS_OWNERSHIP",
+    "Markkanen_to_CLE_then_Mitchell_original_consideration": "NOT_COPIED_M1_RETAINS_MARKKANEN_CHI",
+    "Lonzo_early_talk_sanction": "ORIGINAL_FACT_ONLY_ALTERNATE_INVESTIGATION_AND_PICK_OWNER_UNSELECTED",
+    "2023_or_later_exact_pick_rights": "TYPED_AFTER_OTHER_MOVES_AND_SANCTIONS"
+  },
+  "finite_remaining": [
+    "Orlando later Vučević/Aminu roster and contract interval from no March Chicago transfer, including own-draft #3/#33 working T1 rights; do not invent their destination or re-signing.",
+    "New Orleans Lonzo alternate RFA/signing/roster route and original 2024 second/cash nontransfer; the original tampering cause is absent but the alternate 2023 second-round asset requires its own ownership/sanction ledger.",
+    "San Antonio DeRozan alternate UFA route and Young absence for original 2022 Toronto exchange/#20 consideration; Chicago retained Young/Satoransky contract-year expiry must be dated independently.",
+    "2021–23 league results, player minutes and later pick dispositions are outside this three-transaction asset/role packet."
+  ],
+  "limits": {
+    "original_Mitchell_consideration_imported": false,
+    "three_original_transactions_selected": false,
+    "new_author_lock": false,
+    "whole_macro3_complete": false,
+    "BOS_OKC_HOU_or_29_team_book_complete": false,
+    "actual_private_acceptance_or_receipt_certified": false,
+    "manuscript_allowed": false
+  },
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL"
+}

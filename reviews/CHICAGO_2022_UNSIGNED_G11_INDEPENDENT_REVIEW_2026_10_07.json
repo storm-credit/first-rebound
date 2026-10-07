@@ -1,0 +1,56 @@
+{
+  "id": "CHI2022_UNSIGNED_G11_INDEPENDENT_REVIEW",
+  "reviewer": "g11_access independent from den writer",
+  "recorded_by": "root from direct peer report, no root re-run of peer tests claimed",
+  "input_normalized_sha256": {
+    "tools/build_chicago_2022_unsigned_draft_execution_family.py": "ba47bd184ed5e89d3e0df24442eeb615d070397da3131a8924d58cd13d6bc7e7",
+    "research/CHICAGO_2022_UNSIGNED_DRAFT_EXECUTION_FAMILY_2026_10_07.json": "7c2ea95557f96a9156709aabb8574fcaea8993831aed5f2f6cc626be6829bafd",
+    "research/CHICAGO_2022_UNSIGNED_DRAFT_EXECUTION_FAMILY_2026_10_07.md": "c3c992869e8d9768bd04679443e7c75b0e5e21614d84ea542ee5ca6f7d6ebdee"
+  },
+  "direct_CBA_pdf_pages": [
+    30,
+    210,
+    241,
+    293,
+    294,
+    295,
+    303
+  ],
+  "new_official_raw_calendar_sources_read": 2,
+  "calendar_dates": {
+    "opening": "2022-10-18",
+    "following_draft": "2023-06-22"
+  },
+  "source_scope": "Required Tender legal form/window and normal/apron unsigned rules, conservative reservations. No private receipt, actualdraftee, early-entry/foreign participant or followingdraft transition certification.",
+  "retained_slots": {
+    "standard": 15,
+    "two_way": 2,
+    "new_UPCs": 0
+  },
+  "conservative_reservations": {
+    "normal": 13096000,
+    "apron": 14734000,
+    "team_normal_upper": 170845541,
+    "team_apron_upper": 172483541,
+    "new_delta": 0
+  },
+  "actual_returned_mutations": [
+    {
+      "mutation": "tender_delivered_in_selected_function=false at2022October18 firstport",
+      "result": "REJECT",
+      "guard": "Returned tender state changed"
+    },
+    {
+      "mutation": "normal_reserved_upper=0",
+      "result": "REJECT",
+      "guard": "Returned normal/apron reservation changed"
+    }
+  ],
+  "accepted_scope": "Conditional selected tender/unaccepted-function+Simonovicoverlay only. Rank/claim/participants and2023drafttransition remain finite unfilled inputs.",
+  "substantive_defects_found": 0,
+  "generation_pending_metadata_superseded_by_this_limited_review": true,
+  "whole_macro3_or_G16_certified": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}
