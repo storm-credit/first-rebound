@@ -1,0 +1,85 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "2ae9852b-04c6-4942-9554-4273f9263f9e"
+  ],
+  "question_sha256": "c4d65e2fef0ac5c912917a9b54ac523c394391d7a0ff46ab2de4bcba243f23b8",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 77.546,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. 텍스트 타임라인 분석\n\n지정 사본에 명시된 신인 두 후보(Walker Kessler, Keon Ellis)의 절차적 텍스트 타임라인은 다음과 같습니다 [1, 2].\n\n* **CHI18 Walker Kessler (1라운드 #18) 타임라인**:\n  * **July 8 (7/8)**: Stanley Johnson 또는 Tony Bradley에 대한 비양도 waiver 절차 착수 및 후보 통지가 이루어집니다 [1].\n  * **July 10 (7/10)**: 타 구단 청구가 없는 정상 48시간(48h) waiver 청구 창이 만료되어 무조건 방출(clearance) 및 15→14STD 상태가 충족됩니다 [1].\n  * **July 11 (7/11)**: 별도 합의를 통해 신인 예외(2017 CBA VIII.1 / VII.6(h))를 적용한 1라운드 신인 계약(RSC)을 체결하여 14→15STD를 복원합니다 [1, 3].\n* **CHI57 Keon Ellis (2라운드 #57) 타임라인**:\n  * **August 25 (8/25)**: 2017 CBA I.1(ddd)의 적법한 전달 방식을 통해 구단 서명이 완료된 1시즌 최소 급여 Required Tender를 공식 제공합니다 [2].\n  * **October 15 (10/15)**: 전달된 텐더에 대한 공식 수락 창이 열려 있는 상태에서 기한을 맞이하는 **‘미수락 후보(unaccepted candidate)’**로 고정됩니다 [2].\n\n---\n\n### 2. 명단 슬롯·예약 교체 간 구조적 모순 검토 (최대 1개)\n\n본 문서에서 다루는 네 가지 핵심 축(두 명 자리, 15STD+2TW 명단 제한, 보호급여 예약, 일회 예약 교체) 사이의 유일한 구조적 긴장 및 모순 봉합 지점은 **‘두 명의 신인 후보 대비 물리적 슬롯의 비대칭성’**입니다 [1, 2].\n\n1. **명단 슬롯의 한계와 충돌 (모순 발생 지점)**:\n   * 팀은 이미 **15STD + 2TW(Devon Dotson, Tyler Cook)** 정원이 완전히 채워진 상태입니다 [1, 2].\n   * waiver 절차(15→14→15STD)를 통해 생성되는 명명된 공석(named slot)은 **단 1개**뿐이며, 이 자리는 Kessler에게 전적으로 배정됩니다 [1].\n   * 따라서 두 번째 신인인 Ellis에게 배정할 수 있는 여유 슬롯(STD 또는 TW)은 물리적으로 존재하지 않습니다 [2].\n2. **사본의 구조적 봉합 (모순의 통제)**:\n   * 사본은 Ellis를 활성 로스터에 등록하지 않고 **“새 자리 0(STD 0 / TW 0)”**으로 규정하여 충돌을 회피합니다 [2].\n   * Ellis의 텐더 수락이나 신규 TW 계약 체결은 별도의 명명된 슬롯(named slot) 없이는 실행하지 않는 것으로 제한하며, 기존 2TW 인원(Dotson/Cook)을 온전히 유지합니다 [2].\n3. **보호급여 예약 및 일회 교체 계산의 정합성**:\n   * **보호급여 예약(Dead Money)**: 방출 대상인 Stanley Johnson(\\$2,351,532) 또는 Tony Bradley(\\$2,036,328)의 2년 차 급여는 전액 원보호 \\\\(\\Gamma\\\\) 범위 상단으로 장부에 잔류하며, 신규 15인 상단과 합산 시 양 경로 모두 동일한 \\$144,569,941로 정합성을 유지합니다 [4, 5]. 기존 상단에 포함되어 있던 방출 급여는 중복 가산되지 않습니다 [5].\n   * **일회 예약 교체(One-time Replacement)**: 기존 1라운드 픽 캡홀드 예약(\\$11,060,000)을 Kessler의 신규 RSC 첫해 급여(\\$3,191,400)로 1회 대체함에 따라 예약 상단이 정확히 \\$7,868,600 축소(normal 162,976,941 / apron 164,614,941)됩니다 [5]. Ellis 및 Marko Simonović의 2라운드 기존 예약(\\$16,371,000 legacy 포함)은 훼손 없이 유지됩니다 [5].\n\n---\n\n### 3. 검증 원칙 및 경계 조건 점검\n\n* **가상 후보 vs 실제 사건 치환 금지**:\n  * 본 문서는 검문 상태를 그대로 반영한 가상 절차 후보일 뿐이며 [1], 시카고의 실제 Dalen Terry 계약, 유타의 실제 Walker Kessler #22 계약, 새크라멘토 등의 실제 Keon Ellis 투웨이 계약을 일체 복사하거나 치환하지 않습니다 [1].\n* **예약 감소 ≠ 실제 현금(cash) 절감**:\n  * 1라운드 예약 교체로 인한 \\$7,868,600의 상단 축소는 계산적 상한의 대체일 뿐, 실제 장부상의 비용이나 구단의 현금이 7.87m 절감되었다는 사실로 해석하지 않습니다 [5].\n* **Price / \\\\(\\Gamma\\\\) 상단 ≠ private actual cents**:\n  * 방출 선수의 Year 2 전액 예약 및 신인 급여 상단은 제도적 상한치(\\\\(\\Gamma\\\\))일 뿐이며, 실제 100% 보장률에 따른 현금 지급 확정 사실이 아닙니다 [4]. 또한 2022 기준표의 정확한 반올림 알고리즘 미회수 상태이므로 사적 센트(private actual cents) 인증은 명백히 `false`입니다 [6].\n* **RT 미수락 ≠ 실제 거절**:\n  * Ellis의 10월 15일 창 기준 텐더 미수락은 절차상 수락 창이 만료되지 않았거나 집행되지 않은 미선택 후보 상태를 의미할 뿐, 선수가 구단의 제안을 공식 거부·거절했다는 역사적 사실이 아닙니다 [2].\n* **\\\\(N23 / A23\\text{ null} \\neq 0\\\\)**:\n  * 2023 드래프트 지명권 및 권리 변수(\\\\(N23 / A23\\\\))의 `null` 표기는 수치 '0'을 의미하는 것이 아니며, 이후 전체 숫자 상단이나 시즌 결과를 인증하지 않는 미할당/미인스턴스화 상태를 뜻합니다 [2].\n* **독립 검문 부재 및 원고 없음**:\n  * 기존 후보 보드의 검문 상태는 JSON 데이터를 그대로 판독했을 뿐 독립적인 법적 검문을 새로 인증하지 않았습니다 [1].\n  * 집필 및 통합 상태는 `v0.30 PARTIAL`이며, 생성된 본문 텍스트는 전혀 없는 **‘원고 0’** 상태이자 대그룹 7(통합·독립·작가 승인)은 **‘미완료·CLOSED’**로 잠겨 있습니다 [2].",
+      "question": "지정사본만분석. 7/8waiver통지→48h미청구만료→7/11KesslerRSC 및 8/25EllisRT→10/15미수락창의 텍스트타임라인, 두명자리/15STD2TW/보호급여예약/일회예약교체 간 모순최대1개. 현재후보를실제사건으로바꾸지말고 oldGamma비용삭제·예약감소를실제cash절감으로바꾸지말것. price/Γ상단≠privateactualcents, RT미수락≠실제거절, N23/A23null≠0. 법적독립검문/원고없음.",
+      "conversation_id": "878602ac-5575-4e27-8489-d635c4621587",
+      "sources_used": [
+        "2ae9852b-04c6-4942-9554-4273f9263f9e"
+      ],
+      "citations": {
+        "1": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+        "2": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+        "3": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+        "4": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+        "5": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+        "6": "2ae9852b-04c6-4942-9554-4273f9263f9e"
+      },
+      "references": [
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 1,
+          "cited_text_sha256": "914b57e1514b1914c800f1a9563fe7731b514386f1631744805bdef7656bdc62",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 2,
+          "cited_text_sha256": "5dd205a27df297007be64d10fb219c7567d12bfdeb287aa345c1380fffcce12b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 3,
+          "cited_text_sha256": "0951ec6df762322a72da074f3cccf1af2c8b589008d4072ea69294e467e694b5",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 4,
+          "cited_text_sha256": "b14aaddcef155ab2beb6f12253899c490927b235fb8aae9c533b7527c494c054",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 5,
+          "cited_text_sha256": "5e014df45f59c25f1b9abb06070de8182e9e791210566742139a792de0acd40b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "2ae9852b-04c6-4942-9554-4273f9263f9e",
+          "citation_number": 6,
+          "cited_text_sha256": "e1968a100ce21d678637348178016d32ba96f27c17f313d3ee8bdf707c17e86d",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "timeline_and_reserved_cost_analysis_accepted": true,
+    "unconditional_clearance_wording_rejected": "Requires conforming notice distribution, complete48h and no claims; selected fiction supplies conditions, actual receipt uncertified",
+    "two_draft_rights_with_one_UPC_is_contradiction": false,
+    "rights_and_registered_contract_are_distinct": true,
+    "source_snapshot_is_candidate_not_later_root_selected_leaf": true,
+    "legacy16371000_is_existing_stretch_not_two_second_round_reserves": true,
+    "legal_independent_source_verification_or_whole_G16_certified": false
+  }
+}

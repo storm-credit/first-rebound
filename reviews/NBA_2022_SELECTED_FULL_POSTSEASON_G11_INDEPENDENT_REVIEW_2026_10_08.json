@@ -1,0 +1,58 @@
+{
+  "id": "NBA_2022_SELECTED_FULL_POSTSEASON_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "review_date": "2026-10-08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_DELEGATED_P22A_SELECTED_FICTIONAL_POSTSEASON_AND_CONDITIONAL_NOTICE_APPLICATION",
+  "source_hash_method": "UTF8_BOM_STRIP_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_2022_selected_full_postseason.py": "832d63768d96ad93a27ee3eb435bac241fa1ff0c9d1fd015325b86cb861bc500",
+    "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json": "b571c7645e006df1d63ead19e46343b4234034f10a9883539f52e0f9f7c7ff10",
+    "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.md": "a38c63679b4760a01abe01bdebaecc5d3b8a07fa7958239e60bb8757b07ca157",
+    "canon/DELEGATED_2022_NPC_POSTSEASON_DECISION_2026_10_08.json": "d2c1a9217694210e3ac797ee58190d8f4192db5d927983cb9575dd1a2b698cee"
+  },
+  "direct_checks": {
+    "saved_check": "C:/Python314/python.exe -B tools/build_2022_selected_full_postseason.py --check returned current true",
+    "all_ten_parent_physical_pins_match_including_current_title_packet_peer": true,
+    "selected_series": 15,
+    "selected_games": 93,
+    "selected_team_dates": 186,
+    "source_candidate_full_series_and_each_winner_exact": true,
+    "existing_CHI_PHI_series_count": 1,
+    "existing_CHI_PHI_seven_games_and_April_30_elimination_preserved": true,
+    "selected_champion": "MIL",
+    "selected_runner_up": "UTA",
+    "selected_Finals_wins": "MIL 4, UTA 3",
+    "selected_Finals_last_date": "2022-06-20",
+    "same_registration_and_2880_second_14400_player_second_positive_standard_only_roles_checked_by_caller": true,
+    "BKN_eight_game_operational_interpretations_checked": "4 fictional team-role OUT and 4 lawful-host-conditional US road RETURN; existing post-March-24 regular-season OUT label is also clarified in the new decision canon as fictional nomination history without rewriting prior regular results; actual vaccination, Nets policy, and NYC continuing ban not certified",
+    "NYC_primary_scope": "Official Emergency Executive Order 62, March 24 2022, sections 3(d)(3)(iv) and 3(e), exempts professional athletes entering for regular employment from the referenced workplace vaccination order. Consumer identifies its five-day term and leaves later extensions unverified; BKN OUT is a distinct fictional team role choice.",
+    "option_join": "Existing LaMelo fourth-year and Duarte third-year October 1 notices: selected June 20 Season endpoint, June 21 opening, October 31 deadline; 102 days after opening and 30 before deadline. Original eight conditional witnesses unchanged; actual notice receipts null.",
+    "scope": "2021-22 UPCs, original Gamma and bonus functions retained. Original 1230 regular results, draw and first Chicago series unchanged. The separately selected Chicago Kessler/Ellis rookie canon is preserved but this consumer creates no additional UPC or price. Utah rebuild, protagonist title count, MVP, private receipts, G13/G14, Pack and manuscript not certified. New decision fields separately hold whole_macro3_complete=false, manuscript_allowed=false and design_gate=CLOSED."
+  },
+  "independent_return_mutations": [
+    {
+      "target": "load(PO).series[-1].candidate_winner MIL to UTA",
+      "result": "REJECTED: Returned source differs from physical parse"
+    },
+    {
+      "target": "select_series(Finals).last selected_regulation_winner MIL to UTA",
+      "result": "REJECTED: Returned selected winner differs from P22A"
+    },
+    {
+      "target": "participation(BKN fictional OUT).real_NYC_legal_ban false to true",
+      "result": "REJECTED by assert_series"
+    },
+    {
+      "target": "option_join().actual_notice_receipt null to CONFIRMED",
+      "result": "REJECTED by assert_option"
+    }
+  ],
+  "limits": {
+    "original_candidate_packet_stays_unselected_generation_snapshot": true,
+    "root_delegated_selection_is_separate_current_decision_record": true,
+    "EO62_later_extensions_verified": false,
+    "real_NBA_or_private_result_certified": false,
+    "whole_macro3_or_story_complete": false,
+    "files_changed_outside_this_review": false
+  }
+}

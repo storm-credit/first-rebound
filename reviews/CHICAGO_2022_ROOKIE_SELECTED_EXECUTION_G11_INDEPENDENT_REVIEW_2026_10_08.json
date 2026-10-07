@@ -1,0 +1,63 @@
+{
+  "id": "CHICAGO_2022_ROOKIE_SELECTED_EXECUTION_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "HISTORICAL_PRE_CLARIFICATION_REVIEW; SEMANTIC_TESTS_VALID_BUT_NOT_CURRENT_SOURCE_CERTIFICATION",
+  "input_version_state": "HISTORICAL_PRE_CLARIFICATION",
+  "current_source_certified": false,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "reviewed_sha256": {
+    "tools/build_chicago_2022_rookie_selected_execution.py": "75e189acccbef5041aeef6229050bbfedf46a3899776ae9144d0a5a51938fc6f",
+    "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.json": "523dc20589e1a253e034508e8a05f5243fafdb2ed4003f26fc2057dffb358f12",
+    "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.md": "514d2af23eceb1767e87d5c407749fba75d16a2a627579b63f40ebdf00f61500"
+  },
+  "currentness": {"producer_check": true, "saved_json_equals_rebuilt": true, "markdown_matches_render": true, "seven_physical_input_pins_plus_self_current": true, "three_parent_independent_reviews_current": true},
+  "selected_draft_and_rights": {
+    "sixty_rows_preserve_original_candidate_rank_identity_holder_and_participation": true,
+    "Chicago_pick_18": "Walker Kessler",
+    "Chicago_pick_57": "Keon Ellis",
+    "fictional_PS22_participation_selected": true,
+    "other_NPC_new_UPCs_or_Tenders_generated": 0,
+    "actual_private_participation_papers_or_physical_NBA_draft_certified": false
+  },
+  "waiver_contract_and_roster": {
+    "waived_name": "Stanley Johnson",
+    "notice_distribution": "2022-07-08T09:00:00-04:00 Friday",
+    "unclaimed_waiver_expiry": "2022-07-10T09:00:00-04:00 Sunday",
+    "full_waiver_hours": 48,
+    "weekend_included_under_2019_Bylaws_5_04": true,
+    "separate_120_percent_RSC_assent": "2022-07-11T09:00:00-04:00 Monday",
+    "source_incumbent_contract_objects_except_Stanley_identical": 16,
+    "standard_roster_path": [15, 14, 15],
+    "selected_roster": {"STD": 15, "TW": 2, "claims": 17},
+    "Kessler_current_holder_and_class": ["CHI", "STANDARD"],
+    "Kessler_salary_cap_years_guaranteed": [2022, 2023],
+    "Kessler_third_and_fourth_team_option_years_unexercised": [2024, 2025],
+    "original_100_percent_Required_Tender_accepted": false,
+    "actual_waiver_UPC_or_consent_receipt_certified": false,
+    "Ellis_August25_to_October15_tender_selected_as_unaccepted_fiction": true,
+    "Ellis_new_STD_or_TW": 0,
+    "Ellis_real_player_refusal_or_foreign_contract_absence_certified": false
+  },
+  "financial_checks": {
+    "live_15_upper": 142218409,
+    "Stanley_original_protection_upper_separately_reserved": 2351532,
+    "live_plus_old_waived_upper": 144569941,
+    "legacy_stretch_upper_preserved": 16371000,
+    "other_unsigned_normal_and_apron_preserved": [2036000, 3674000],
+    "old_first_reservation_removed_once": 11060000,
+    "new_first_year_RSC_reference": 3191400,
+    "refined_normal_and_apron_upper_before_D23": [162976941, 164614941],
+    "actual_cash_saving_or_exact_Gamma_certified": false,
+    "N23_A23_post_D23_total": null,
+    "new_RSC_hardcap_trigger": false
+  },
+  "independent_returned_mutations": [
+    {"case": "returned source board changes pick-18 Chicago holder to Utah", "result": "REJECTED: Returned source differs from independent physical parse research/NBA_2022_FULL_DRAFT_WORKING_BOARD_2026_10_08.json"},
+    {"case": "returned selected Kessler contract changes holder CHI to UTA", "result": "REJECTED at guard_roster"},
+    {"case": "returned Stanley old protected-cost upper becomes zero", "result": "REJECTED at guard_execution"},
+    {"case": "returned future N23 null becomes zero", "result": "REJECTED at guard_execution"},
+    {"case": "returned Ellis rights path certifies actual player refusal or foreign-contract absence", "result": "REJECTED at guard_execution"}
+  ],
+  "scope_limits": ["This is a selected fictional routine implementation under existing Chicago direction; root canonical adoption and historical real NBA draft or contract certification remain false.", "The waived amount is a retained conservative protection upper, not a certified exact cash obligation or saving.", "The first two RSC Seasons are modeled guaranteed and the third/fourth options remain unexercised; service end is not inferred from fiscal obligation end.", "No core change, title, MVP, future price, whole 2022–23 result or cost, macro3 completion, Context Pack, or manuscript is inferred."],
+  "writer_central_or_git_files_modified": false
+}

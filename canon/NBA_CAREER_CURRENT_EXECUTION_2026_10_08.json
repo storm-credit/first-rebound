@@ -21,7 +21,16 @@
     "reviews/CHICAGO_PHI_2022_FIRST_ROUND_G11_INDEPENDENT_REVIEW_2026_10_08.json": "5a2ad16de4af768591030ad4cb5a7dd0f052cca8962054ccb15c5136fb3f5679",
     "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json": "21e860056c2654d5e4837911dac39e7f45f4d26388d353bc57594afefcecf1f4",
     "reviews/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json": "fe12a16eb1a4abcb3a78fe1258ab8bcec3e702e58ec5710ee8ab71160f2539a2",
-    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d"
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/DELEGATED_2022_DRAFT_AND_CHICAGO_ROOKIE_DECISION_2026_10_08.json": "a32dfc265a7250bc89df366c14b43444645438675674f4be66feda2b6a053eba",
+    "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.json": "3c06967cf8c7171f815819efd3b4a71fb88ac77db3ae8798b34afeeeae93ce1c",
+    "reviews/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION_CLARIFICATION_G11_REVIEW_2026_10_08.json": "064d20ad1326183154c2e803f1e0bf6c5dcd2594df1c24ceebc169b84508d46b",
+    "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json": "b571c7645e006df1d63ead19e46343b4234034f10a9883539f52e0f9f7c7ff10",
+    "reviews/NBA_2022_SELECTED_FULL_POSTSEASON_G11_INDEPENDENT_REVIEW_2026_10_08.json": "471ae1d1129f008edf9a352f1d30390e99e09877fc6b822892d374b69aed9f4e",
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json": "c0650dbb07b75cc1523bf7ccc7f658576ac5b9a8784f1e80cc97178897703170",
+    "reviews/CHICAGO_2022_23_SELECTED_DATED_ROLES_G11_INDEPENDENT_REVIEW_2026_10_08.json": "bf867086e367fc90bf851c00cce2ac620e968b32c4a3ebc390a2e36b39a4e4e0",
+    "canon/DELEGATED_2022_NPC_POSTSEASON_DECISION_2026_10_08.json": "d2c1a9217694210e3ac797ee58190d8f4192db5d927983cb9575dd1a2b698cee",
+    "canon/DELEGATED_CHICAGO_2022_23_HEALTH_ROLES_2026_10_08.json": "bf7bfdc1d64072196c1ec293c18c3410d722f67dd1a9014ef3d789999762bddf"
   },
   "parent_canons_preserved": true,
   "NBA_2021_22": {
@@ -61,12 +70,31 @@
       "source": "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json",
       "not_added_to_regular_QO_MIN": true
     },
-    "Coby_fictional_postseason_return_from": "2022-04-16"
+    "Coby_fictional_postseason_return_from": "2022-04-16",
+    "selected_full_league_postseason": {
+      "source": "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json",
+      "independent_review": "reviews/NBA_2022_SELECTED_FULL_POSTSEASON_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+      "classification": "AUTHOR_DELEGATED_FICTIONAL_SEASON_RESULTS_NOT_ACTUAL_NBA_HISTORY",
+      "series": 15,
+      "games": 93,
+      "NPC_champion": "MIL",
+      "runner_up": "UTA",
+      "Finals": "4–3",
+      "last_Finals_date": "2022-06-20",
+      "CHI_PHI_original_seven_games_preserved": true,
+      "actual_scores_OT_private_stats_or_receipts_certified": false,
+      "important_Utah_rebuild_or_protagonist_titlecount_change_selected": false
+    }
   },
   "FY2022": {
     "original_two_rookie_option_notices_unchanged": true,
     "timing_join_all_four_Finals_endings": true,
-    "exact_Finals_last_game_or_champion": null,
+    "exact_Finals_last_game_or_champion": {
+      "selected_fictional_last_game": "2022-06-20",
+      "NPC_champion": "MIL",
+      "source": "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json",
+      "actual_historical_fact": false
+    },
     "CHI_own_first_rank_domain": [
       17,
       18
@@ -113,7 +141,7 @@
       },
       "all_three_original_claims_conserved_not_added_or_deleted": true
     },
-    "lottery_draw_tie_draw_final_holder_new_draftee": "Working draw/final public-family ranks selected in overlay; new draftees/Tender/UPC still unselected. Original domain/composite functions above preserved as source family.",
+    "lottery_draw_tie_draw_final_holder_new_draftee": "Reviewed working60 ranks and identities selected by delegated routine execution; Chicago18 Kessler RSC/R1 and57 Ellis unacceptedRT now adopted. Other58 new UP Cs/tenders remain outside this selection.",
     "selected_working_draw_and_rights": {
       "source": "simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json",
       "CHI_first_origin_rank": [
@@ -134,7 +162,34 @@
       "TW": 2,
       "N23": null,
       "A23": null,
-      "whole_2022_23_results_or_cost_certified": false
+      "whole_2022_23_results_or_cost_certified": false,
+      "role": "Preserved historical17-contract source family; latest roster/substituted first reserve is the selected_rookie_execution sibling."
+    },
+    "selected_rookie_execution": {
+      "source": "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.json",
+      "canonical_adoption": "canon/DELEGATED_2022_DRAFT_AND_CHICAGO_ROOKIE_DECISION_2026_10_08.json",
+      "independent_review": "reviews/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION_CLARIFICATION_G11_REVIEW_2026_10_08.json",
+      "STD": 15,
+      "TW": 2,
+      "registered_contracts": 17,
+      "Kessler_first_year_base": 3191400,
+      "Stanley_salary_upper_retained": 2351532,
+      "Ellis_added_slots": 0,
+      "normal_family_upper_before_D23": 162976941,
+      "apron_family_upper_before_D23": 164614941,
+      "N23": null,
+      "A23": null,
+      "actual_NBA_receipt_or_private_cents_certified": false
+    },
+    "selected_existing_option_notice_application": {
+      "source": "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json#/selected_option_notice_application",
+      "notices": 2,
+      "opening": "2022-06-21",
+      "notice": "2022-10-01",
+      "deadline": "2022-10-31",
+      "new_option_exercise_or_new_salary_selection": false,
+      "actual_delivery_receipts_certified": false,
+      "old_four_endings_eight_witnesses_preserved_as_source_family": true
     }
   },
   "parent_health_direction_and_source_roles_preserved": true,
@@ -155,5 +210,37 @@
     "real_official_GP_GS_minutes_and_QO_receipts_certified": false,
     "prior_E2_CX1_price_roster_and_obligations_unchanged": true,
     "Coby_2023_starter_branch": "UNDETERMINED; prior1044is thirdyear lowerbound"
-  }
+  },
+  "NBA_2022_23": {
+    "source": "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json",
+    "independent_review": "reviews/CHICAGO_2022_23_SELECTED_DATED_ROLES_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+    "canonical_health_role_adoption": "canon/DELEGATED_CHICAGO_2022_23_HEALTH_ROLES_2026_10_08.json",
+    "H22": "NORMAL_NO_NEW_SUSTAINED_MAJOR_ABSENCE_IN_SELECTED_FICTION",
+    "published_working_dates": 82,
+    "role_dates_selected": 82,
+    "STD_registered": 15,
+    "TW_registered": 2,
+    "STD_active": 12,
+    "STD_inactive": 3,
+    "TW_active": 0,
+    "Kessler_C_minutes": 12,
+    "Kessler_fiction_BPM": -1,
+    "Kessler_sensitivity_range": [
+      -3,
+      1
+    ],
+    "results_selected": 0,
+    "Coby_regulation_exposure_lower_bound": 1476,
+    "Coby_total_minutes_official_GP_GS_or_QO_branch": null,
+    "all_actual_medical_registration_receipts_and_box_stats_certified": false,
+    "N23": null,
+    "A23": null,
+    "whole_season_complete": false
+  },
+  "remaining_finite_execution": [
+    "2022–23 NPC roster/contract rollover and paired dated roles/results",
+    "2023 follow-up transactions, draft/rights, cap/CBA and QO/extension inputs",
+    "Long career through retirement; complete42 SubAct function exits",
+    "Validated pre-manuscript Context Pack and final integration"
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "CHICAGO_2022_23_SELECTED_DATED_ROLES_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "review_date": "2026-10-08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_AUTHOR_DELEGATED_82_WORKING_DATE_H22_AND_ROLE_SELECTION_NOT_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIP_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2022_23_selected_dated_roles.py": "0f9cb463cab433282499ca20b82796391900f6cc930d5a10565f3e0b0ee5fb3a",
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json": "c0650dbb07b75cc1523bf7ccc7f658576ac5b9a8784f1e80cc97178897703170",
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.md": "0d53577fac71b7b9ef1270fe65b1aae8aae813ec8acafe1e00ab0a8cb4a10cd9",
+    "canon/DELEGATED_CHICAGO_2022_23_HEALTH_ROLES_2026_10_08.json": "bf7bfdc1d64072196c1ec293c18c3410d722f67dd1a9014ef3d789999762bddf"
+  },
+  "direct_checks": {
+    "saved_validate": [],
+    "markdown_current": true,
+    "upstream_physical_source_pins": 4,
+    "source_family_pending_snapshot_preserved": true,
+    "reviewed_rookie_registry_and_H22_adoption_separate": true,
+    "unique_published_calendar_keys": 82,
+    "selected_working_date_rows": 82,
+    "selected_role_template_blocks": 26,
+    "registration": "15 STANDARD + 2 TWO_WAY; 12 active STANDARD, 3 inactive STANDARD, 0 active TWO_WAY",
+    "selected_template_player_minutes_sum": 240,
+    "Coby_working_regulation_minutes_per_date": 18,
+    "Kessler_working_regulation_minutes_per_date": 12,
+    "Kessler_fictional_BPM_point_and_range": "-1 within [-3, 1]",
+    "Coby_fourth_year_if_all_82_regulation_minutes": 1476,
+    "Coby_under_2000_total_or_nonstarter_QO_inferred": false,
+    "results_and_overtime_selected": 0,
+    "N23_and_A23_selected": false,
+    "actual_health_GP_GS_or_private_receipts_certified": false
+  },
+  "independent_return_mutations": [
+    {
+      "target": "selected_template(): Kessler +1 minute and Bradley -1 minute, total 240 unchanged",
+      "result": "REJECTED: Selected template differs from reviewed source plus explicit root adoption"
+    },
+    {
+      "target": "selected_rows(): first published date result null to CHI win",
+      "result": "REJECTED: Selected date row differs from source clock/date and allowed adoption delta"
+    },
+    {
+      "target": "decision(): Coby 2023 ordinary QO starter branch false to true",
+      "result": "REJECTED by assert_decision"
+    }
+  ],
+  "limits": {
+    "working_minutes_are_not_official_credited_minutes": true,
+    "all_82_results_and_OT_unselected": true,
+    "opponent_family_and_postseason_unselected": true,
+    "whole_2022_23_or_macro3_certified": false,
+    "files_changed_outside_this_review": false
+  }
+}

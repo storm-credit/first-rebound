@@ -1,0 +1,78 @@
+{
+  "tool": "Antigravity",
+  "scope": "LOCAL_OFFICIAL_PDF_EXCERPT_COLLECTION_AFTER_WEB_UNVERIFIED",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 26.108,
+    "process_budget_seconds": 150,
+    "stdout_sha256": "a26a923fa0b1cd7336786c23b8f5fd21347e1dd3c64d3fd3347f9f34a1d5a4e1",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "ce553aad-69b1-4754-a8ed-326e3d9763a8",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"body_read\": true,\n  \"pick_18_baseline\": {\n    \"year_1_salary\": 2659500,\n    \"year_2_salary\": 2792300,\n    \"year_3_option_salary\": 2925400,\n    \"year_4_option_pct_increase\": \"53.8%\"\n  },\n  \"anchored_to_2022_23_by_I1iii\": true,\n  \"locators\": {\n    \"exhibit_b_baseline_scale\": \"PDF631\",\n    \"article_I_section_1_iii\": \"PDF32\"\n  }\n}\n```\n",
+      "duration_seconds": 15.6745231,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "f2b89a0eb9ca45e31f52162eab733e02399d2c9a85da2a86ff97052e9f90538b"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "a26a923fa0b1cd7336786c23b8f5fd21347e1dd3c64d3fd3347f9f34a1d5a4e1",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"body_read\": true,\n  \"pick_18_baseline\": {\n    \"year_1_salary\": 2659500,\n    \"year_2_salary\": 2792300,\n    \"year_3_option_salary\": 2925400,\n    \"year_4_option_pct_increase\": \"53.8%\"\n  },\n  \"anchored_to_2022_23_by_I1iii\": true,\n  \"locators\": {\n    \"exhibit_b_baseline_scale\": \"PDF631\",\n    \"article_I_section_1_iii\": \"PDF32\"\n  }\n}\n```\n",
+      "char_count": 346,
+      "sha256": "0d4b548fae9d6dfb74ce176f8b4a2acbefb7f6b3500a20672514f6323b184f40",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+  "primary_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+  "derived_excerpt_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-497-primary-excerpts\\2022-baseline-scale.txt",
+  "derived_excerpt_normalized_sha256": "71752692175474d25a411c9928b934acd2f1ad85d4433c15b0f73e6a794dd54b",
+  "session_only_added_directory": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-497-primary-excerpts",
+  "persistent_auth_or_settings_changed": false,
+  "whole_gate_certified": false,
+  "root_adjudication": {
+    "answer_recovered": true,
+    "body_read_is_tool_self_report": true,
+    "only_captured_view_file_output_characters": 21,
+    "actual_tool_body_or_error_text_not_retained": true,
+    "independent_primary_body_read_certified": false,
+    "independent_primary_collection_success": false,
+    "numeric_answer_matches_Codex_direct_official_PDF_read": true,
+    "supplied_excerpt_is_not_independent_new_source_collection": true,
+    "persistent_auth_settings_changed": false,
+    "disposition": "RESPONSE_RECOVERED_SOURCE_READ_UNVERIFIED; not a reason to hold already independently validated repository work",
+    "diagnostic_followup": "reviews/CHICAGO_2022_ROOKIE_AGY_FILE_READ_DIAGNOSTIC_2026_10_08.json",
+    "captured21chars_later_identified_as_success_summary": "266 lines, 4531 bytes",
+    "tool_failure_was_not_observed": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "NBA_2022_FULL_POSTSEASON_CANDIDATE_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_UNSELECTED_FINITE_POSTSEASON_CANDIDATE",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_2022_full_postseason_candidate.py": "c45e3b83a892e0c11c98f8170a30d15c9bb750a91422fa2fd78f45e20b0320fc",
+    "design/NBA_2022_FULL_POSTSEASON_CANDIDATE.json": "dcefe931a0f82e3733f577cc47a314cc66ad9162a9988d15d7514302424023f5",
+    "design/NBA_2022_FULL_POSTSEASON_CANDIDATE.md": "265606db54acaf247e59749a0c095c9b6be2414db77a9c71588a0772a7becedd"
+  },
+  "currentness": {"producer_check": true, "saved_validate_errors": [], "markdown_matches_render": true, "five_source_pins_current": true},
+  "independent_join_and_arithmetic": {
+    "qualified_teams": 16,
+    "series": 15,
+    "candidate_games": 93,
+    "games_by_round": {"R1": 47, "R2": 25, "CF": 14, "Finals": 7},
+    "source_role_templates": 17,
+    "each_template_48_minute_5_unique_positions_and_240_player_minutes": true,
+    "all_active_players_source_standard_registered": true,
+    "BKN_home_NYC_TOR_out_and_other_US_away_conditional_return": true,
+    "selected_CHI_PHI_full_source_object_unchanged": true,
+    "selected_CHI_PHI_seven_dates_and_winners_unchanged": true,
+    "CHI_elimination_date": "2022-04-30",
+    "candidate_champion_unselected": "MIL",
+    "candidate_Finals_last_date_unselected": "2022-06-20",
+    "all_game_scores_OT_and_physical_NBA_ID_null": true,
+    "historical_winner_or_actual_clinical_receipt_imported": false
+  },
+  "independent_negative_controls": [
+    {"case": "returned SEED load changes EAST seed-seven CHI to OKC", "result": "REJECTED: Returned source differs from independent physical parse simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.json"},
+    {"case": "returned game changes home team's role key to BKN institutional-out key", "result": "REJECTED: Returned source role/availability altered"},
+    {"case": "returned game reverses computed winner", "result": "REJECTED: Returned candidate result arithmetic altered"},
+    {"case": "saved candidate changes championship_author_locked to true", "result": "REJECTED: Saved candidate differs from physical source-bound reconstruction"}
+  ],
+  "scope_limits": [
+    "Only CHI–PHI is a previously selected fictional series; the other fourteen series, their calendar and availability continuation, and the championship remain candidates.",
+    "The candidate Finals date does not choose an NBA Season end or any of the eight option-notice windows.",
+    "The same 2021–22 contract and protected cost families are carried as an explicit candidate condition, without certifying actual contracts, medical status, venue receipts, or every private league obligation.",
+    "No new NBA result, score, overtime, title, MVP, author lock, whole macro3, G13/G16, Context Pack, or manuscript is certified."
+  ],
+  "writer_central_or_git_files_modified": false
+}

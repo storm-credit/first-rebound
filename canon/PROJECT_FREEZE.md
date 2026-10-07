@@ -1,5 +1,7 @@
 # Project Freeze v0.30
 
+2026-10-08 [신인·전체PO·H22 채택](../reviews/ROOKIE_FULL_POSTSEASON_AND_2022_23_ROLE_ADOPTION_REVIEW_2026_10_08.md): PR496main 이어 루틴60명 작업지명/CHI18Kessler R1·57Ellis미수락RT,현행15STD2TW·원Stanley급여상단보존·D23前normal162,976,941/apron164,614,941을 독립검문 후 채택했다. 15PO시리즈93가상경기/MIL4–3UTA/6월20말단·원두10월1일통지창을 기존위임으로 선택했다. CHI7/정규1230·52–30/원드래프트·가격함수 불변. 새2022–23 H22/역할82날짜·Kessler12분/BPM−1은 채택,결과0/82·Coby1476하한과공식GP_GS/QO판정 구분. NYC법금지 지속 오독을 새가상nomination설명으로 수리했다. AGY26.108초답/24.230초파일도구진단·NLM19.245초등록/77.546초답·Claude53.273초답 회수와독립원문수집인증을 구분. 현행49기능/31경로/미경로11/source84/Pack0·미완료큰묶음5/6번까지4·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래 수치와미선택 flags는 이전이력이며 이 최신 검문과현행인계를 우선한다.
+
 2026-10-07 [S2 유한 시즌 종료·A02 E8–E10 검문](../reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md): active15 네 작업분 수리/승패변경0·전2348팀의12–15명 명목active와 벤치8·H00초기영구이탈2·승인거래8을 독립 검문했다. 법적12/12·F5/5·A3/3·K4/4·S2시즌true로2번을종료하고3번M1/G1A 정확구현을계속한다. 실제임상/사적금융/접수/미래전달미인증·국소기능19/전체미배정761(A01 27·A02 44)·실제Pack0·원고0·미완료큰묶음5·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.
 
 2026-10-07 [전체 유한 명단·A02 E5–E7 검문](../reviews/FULL_FINITE_ROSTER_AND_A02_E5_E7_REVIEW_2026_10_07.md): GSW option3/NY 방출 및 CHA/WAS의 명명된 routine 계약·권리 가족을 독립 검문해 전체2348/2348 명단/슬롯 공백0을 연결했다. Terry4YOS/Bonga 연간 tender 누락 constructor 반례2종을 수리했다. 분/승패 변경0·국소기능16/전체미배정764(A01 27·A02 47). 법적12/12·F5/5·A1/3·K0/4·시즌false·실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.

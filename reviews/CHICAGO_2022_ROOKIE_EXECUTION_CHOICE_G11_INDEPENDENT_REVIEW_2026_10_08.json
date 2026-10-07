@@ -1,0 +1,51 @@
+{
+  "id": "CHICAGO_2022_ROOKIE_EXECUTION_CHOICE_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_TWO_UNSELECTED_LEGAL_AND_COST_CANDIDATES_AFTER_RETURN_GUARD_REPAIR",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_chicago_2022_rookie_execution_choice.py": "30891f33eabf83f177a51b3c5c101a1672e19d200e3c2876e31ef1f3857db459",
+    "design/CHICAGO_2022_ROOKIE_EXECUTION_CHOICE.json": "e5f46f2af0aeff3a624247708210b7f951c3340cfbdbddcfd1781a8818bc9c93",
+    "design/CHICAGO_2022_ROOKIE_EXECUTION_CHOICE.md": "66ce9342b3952764c9883b3a38dbf50936973922fe2f3ac4e44a067aab022c16"
+  },
+  "physical_primary_sources": {
+    "2017_CBA_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "2023_CBA_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "2019_bylaws_raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+    "locators_read": ["2017 CBA PDF292: two Seasons plus distinct third and fourth team options", "2017 CBA PDF294: Rookie Scale Salary plus Unlikely Bonus 120 percent ceiling and first two plus first option at least 80 percent Current Base Compensation", "2017 CBA PDF303–304: Required Tender first and second round windows and Subsequent Draft boundary", "2023 CBA PDF32 and Exhibit B PDF631: retrospective 2022–23 pick-18 baseline 2,659,500 / 2,792,300 / 2,925,400 and 53.8 percent fourth-year option", "2019 Bylaws PDF76: full 48-hour waiver claim period"],
+    "2023_CBA_used_as_operative_2022_law": false,
+    "original_2022_NBA_scale_or_exact_rounding_certified": false
+  },
+  "currentness": {"producer_check": true, "saved_validate_errors": [], "markdown_matches_render": true, "four_repo_input_pins_current": true},
+  "financial_and_roster_checks": {
+    "source_board_Chicago_picks": [18, 57],
+    "source_board_candidates": ["Walker Kessler", "Keon Ellis"],
+    "source_board_independent_flag_fabricated": false,
+    "route_count": 2,
+    "outgoing_players": ["Stanley Johnson", "Tony Bradley"],
+    "standard_roster_path_each": [15, 14, 15],
+    "two_way_roster_each": 2,
+    "new_Keon_standard_or_two_way_slots": 0,
+    "waiver_sequence": "Conditional July 8 conforming notice, full 48-hour unclaimed period ending July 10, separate consensual July 11 rookie-scale candidate; actual notice, claim absence, and clearance not certified.",
+    "route_R1_live_upper_and_full_old_waived_upper": [142218409, 2351532],
+    "route_R2_live_upper_and_full_old_waived_upper": [142533613, 2036328],
+    "live_plus_old_waived_upper_each": 144569941,
+    "rookie_year1_120percent_reference_price": 3191400,
+    "original_first_reserve_removed_once": 11060000,
+    "refined_normal_and_apron_public_family_upper_before_D23": [162976941, 164614941],
+    "difference_from_original_conservative_reserve_upper": -7868600,
+    "actual_cash_saving_or_exact_protection_certified": false,
+    "N23_A23_and_whole_later_cost": null,
+    "Ellis_candidate_tender": "August 25 one-Season minimum form, open through October 15, unaccepted; no actual player refusal or statutory cap-charge certification"
+  },
+  "independent_controls": [
+    {"case": "returned source input changes board pick 18 player to Dalen Terry", "result": "REJECTED: Source objects differ from pinned physical documents"},
+    {"case": "returned route removes Stanley full waived-charge upper", "result": "REJECTED at assert_routes"},
+    {"case": "returned route adds Stanley as a sixteenth standard player", "result": "REJECTED at assert_routes"},
+    {"case": "returned Ellis tender adds a third two-way slot", "result": "REJECTED at assert_ellis"},
+    {"case": "returned route promotes protection upper to actual exact guarantee", "initial_result": "FALSE_PASS", "after_writer_repair": "REJECTED: Preserved full protection upper is not an actual exact guarantee certificate"},
+    {"case": "returned Ellis tender promotes unaccepted reserve to actual statutory charge", "initial_result": "FALSE_PASS", "after_writer_repair": "REJECTED: Unaccepted RT overreserve is not an actual statutory charge"}
+  ],
+  "selection_and_authority_limits": ["R1 and R2 remain unselected working candidates; neither a release nor a new UPC has occurred.", "The 2023 CBA supplies retrospective dollar-scale evidence only; the operative 2022 contract and tender rules are the 2017 CBA.", "The waived protection is preserved as a conservative upper cost; the actual guarantee, salary cents, consent, waiver clearance, and tender receipt are not certified.", "Ellis has no new standard or two-way contract; next-Draft rights are not automatically retained.", "No whole FY22 numeric charge after D23, completed roster budget, author lock, Context Pack, manuscript, or central registration is inferred."],
+  "writer_central_or_git_files_modified_by_peer": false
+}
