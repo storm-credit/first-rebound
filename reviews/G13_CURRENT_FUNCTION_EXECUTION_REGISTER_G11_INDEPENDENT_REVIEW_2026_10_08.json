@@ -1,0 +1,66 @@
+{
+  "id": "G13_CURRENT_FUNCTION_EXECUTION_REGISTER_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "INDEPENDENTLY_REVIEWED_NARROW_CURRENT_REGISTER_SCOPE",
+  "independent_review_completed": true,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_g13_current_function_execution_register.py": "e3ed29def492f7dc3a81b5b0dc88cfc2ca6c50d3ca4c2542a88a1a58a5a3857e",
+    "control/G13_CURRENT_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "6671a0492e88bd9d9db8ac499df265616581d78a467542437f4db6626ca1ec85",
+    "control/G13_CURRENT_FUNCTION_EXECUTION_REGISTER_2026_10_08.md": "0ed511cfea611d94cb21c07e56d58e114ed6f50ad8e7cf01b40eaf835e178db5",
+    "control/G13_FINAL_FUNCTION_REGISTER.json": "fcfc543010aad2e4122425192ed7f2c7dc5929fde3697d907056512d07ce21be",
+    "design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json": "038b0227a74c7abbb94061776f9cf5c0cc33841bd6de3d5694ffdb6f7341b3be",
+    "reviews/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "189ade62411d767eb618414bb8818eeba006824ab6fa418370016db2a8c36ff5",
+    "canon/CAREER_TIMELINE.md": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696"
+  },
+  "direct_checks": {
+    "producer_saved_currentness": "python -B tools/build_g13_current_function_execution_register.py --check: current true",
+    "old_43_rows_exact_JSON_objects": true,
+    "old_register_physical_sha_fixed": true,
+    "old_53_direct_source_pins_checked_by_consumer": true,
+    "old_43_physical_id_order_slot_subact_entry_exit_checked_by_consumer": true,
+    "old_ancestor_generator_full_currentness_certified": false,
+    "first_new_exact_handoff_from_A09_EF_001": true,
+    "second_new_exact_handoff_from_A09_EF_002": true,
+    "new_two_local_functions": ["A09-EF-002", "A09-EF-003"],
+    "new_planned_slots": [444, 445],
+    "new_subacts": ["A09-S2", "A09-S3"],
+    "CAREER_H21_addition_separated_from_complete_old_body": true,
+    "recovered_original_CAREER_SHA256": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "A09_public_tournament_game_performance_selected": false,
+    "current_counts": {
+      "registered_local_functions": 45,
+      "subacts_with_verified_local_function_route": 27,
+      "subacts_without_verified_local_function_route": 15,
+      "unassigned_planned_slots": 735,
+      "source_pin_count_including_consumer": 63
+    }
+  },
+  "actual_returned_semantic_mutations": [
+    {
+      "id": "new_function_entry_reversal",
+      "injection": "load(NEW).functions[0].entry_state says roster and public participation already secured",
+      "result": "REJECTED: Returned object differs from physical design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json"
+    },
+    {
+      "id": "historical_first_function_exit_reversal",
+      "injection": "load(OLD).functions[0].exact_exit says all season achievements attained",
+      "result": "REJECTED: Returned object differs from physical control/G13_FINAL_FUNCTION_REGISTER.json"
+    },
+    {
+      "id": "public_tournament_promotion",
+      "injection": "load(NEW).institutional_execution.public_tournament_game_performance_selected=true",
+      "result": "REJECTED: Returned object differs from physical design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json"
+    }
+  ],
+  "scope": {
+    "fictional_private_joint_training_and_separate_club_return_local_functions_only": true,
+    "public_tournament_legal_classification_or_game_performance_certified": false,
+    "medal_military_or_entire_2023_24_season_certified": false,
+    "planned_735_slots_are_new_event_obligation": false,
+    "whole_g13_or_g14_complete": false,
+    "actual_context_packs": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  },
+  "verdict": "ACCEPT_CURRENT_45_LOCAL_FUNCTION_CONSUMER_WITH_HISTORICAL_43_PRESERVED_AND_ANCESTOR_CURRENTNESS_LIMIT_EXPLICIT"
+}

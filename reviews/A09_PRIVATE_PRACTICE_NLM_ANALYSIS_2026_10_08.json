@@ -1,0 +1,70 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "fcfa3c65-2267-47b3-8ab1-8914a02bf016"
+  ],
+  "question_sha256": "a71707a37709d2896b9a8d797d219c4f6fb38a67bee933f889342ac4f200e1ac",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 60.792,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 1. 4노드 텍스트 타임라인\n\n* **E1**: 기존 후보의 선행 이력이자 조상 지문 드리프트 감사 대상으로 보존되며, 게이트 CLOSED 및 실제 원고·등록 증분 0인 상태에서 root 소유로 관리됩니다 [1].\n* **공동비공개훈련실패·수정 (9/26~10/6)**: 가상 한정 대표팀 비공개 훈련 중 추일승 감독의 과제 하에 라이벌의 첫 이점 창출 후 주인공이 허훈에게 연결했으나, 스크린 후 다음 위치 선정이 늦어져 반환 통로가 닫히는 실패가 발생합니다 [2, 3]. 이후 훈련 영상 확인 및 감독 질문을 거쳐 스크린 뒤 다음 위치를 선점해 열린 반환 통로를 확보하는 1회 수정을 거칩니다 [3].\n* **10월 9 복귀**: 10월 6일 비공개 훈련 창 종료 후 양 선수의 별도 귀환이 배치되어, 10월 9일까지 각 소속 구단(Chicago 주인공, Minnesota 라이벌) 소재지로 이동을 완료하고 복귀합니다 [2].\n* **구단한정재시험 (10/10 이후)**: Chicago 복귀 후 허용된 팀 반복 훈련에서 공 운반 담당 동료와의 연결을 통해 미드포스트 짧은 발 위치를 시험하며, 수비가 닫히자 무리한 슛 대신 공을 반환함으로써 1회의 재시험 한계와 남은 하프코트 과제를 확인합니다 [2, 4].\n\n---\n\n### 2. 인물역할관계 3개\n\n1. **주인공 – Minnesota 라이벌**: 가상세계 모델에서 원역사 2인(변준형, 양홍석) 대신 최종 12인에 포함된 비공개 공동훈련 파트너로, 라이벌이 만든 첫 이점을 바탕으로 주인공이 개인 공격 기회를 내려놓고 연계를 시험하는 상호 협력 관계입니다 [2, 3].\n2. **주인공 – 추일승 감독**: 가상 과제 전달 및 지도 관계입니다. 감독은 이동 및 비공개 훈련 접근과 한정 과제를 부여하며, 주인공은 위치 선정 오류 후 영상을 대조해 감독에게 질문하고 수정 동작을 재시도합니다 [2, 3].\n3. **주인공 – 허훈**: 비공개 훈련 내 볼 전개 및 피드백 연계 동료입니다. 주인공이 넘긴 공을 받아 다음 방향으로 전개하며, 주인공의 스크린 후 이동 타이밍에 따라 반환 통로가 차단되거나 열리는 협력 지점을 형성합니다 [3].\n\n---\n\n### 3. 사실 / 가상선택 / 공개대회 미선택 경계의 모순 (최대 1개)\n\n* **가상 구단 허용·비용 설정과 공개 적법성 미증명 간의 경계 모순**: 비공개 훈련 및 가상 보장 한도는 선택 모델로 도입되었으나, 2023 CBA(Article XXIII §3) 승인 요건 및 국제 대회 예외 적용 여부가 미확인되어 9월 26일~10월 6일 기간의 적법성은 증명되지 않습니다 [1, 2]. 그럼에도 공개 대회 경기 출전·상대·결과·메달을 일체 선택하지 않은 상태에서, 비용 상한의 종료 시점(10/6)만을 차용하고 구단 원역사 일정 충돌 손실을 비용 비교에 반영하는 경계상의 규정적 미증명 모순이 존재합니다 [1, 2].\n\n---\n\n🎯 이 분석 내용을 바탕으로 비공개 훈련 단계별 관측 결과(S2/S3)와 구단 복귀 후 과제를 정리한 구조화된 비교표를 작성해 드릴까요?",
+      "question": "지정사본만분석. E1→공동비공개훈련실패·수정→10월9복귀→구단한정재시험의 4노드 텍스트타임라인과 인물역할관계 3개, 사실/가상선택/공개대회 미선택 경계의 모순 최대1개를 짧게 반환. 공개대회참가·합법성·금메달·병역을 발생사실로 바꾸지 말 것. 실제서류없음을 가상훈련미선택으로 바꾸지 말 것. 추가출처나원고없음.",
+      "conversation_id": "18bdaa86-c5e5-47e2-8738-8fbc481bd96d",
+      "sources_used": [
+        "fcfa3c65-2267-47b3-8ab1-8914a02bf016"
+      ],
+      "citations": {
+        "1": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+        "2": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+        "3": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+        "4": "fcfa3c65-2267-47b3-8ab1-8914a02bf016"
+      },
+      "references": [
+        {
+          "source_id": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+          "citation_number": 1,
+          "cited_text_sha256": "c87e57add1f5deb44b8c6a8d2aa82cc2f7a58d60794b62e96ce4ecf7bc6b48e7",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+          "citation_number": 2,
+          "cited_text_sha256": "bf64c6a00d3a5693cc3a738aadd5e0a7ebb9dece1fb54d859ef87264b9fec631",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+          "citation_number": 3,
+          "cited_text_sha256": "6f2349c9cbf6bf0da3bff22771570f3ebe8ed43d9a008b19f82ea7ae2fa755d1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "fcfa3c65-2267-47b3-8ab1-8914a02bf016",
+          "citation_number": 4,
+          "cited_text_sha256": "f6e33869a6f8c74cb42fd79138bdaa07bbcefae71b6f758004d5f0560bc7a496",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "accepted": "Private practice failure/correction, two distinct clubs, Oct9 return and limited club retrial timeline/three actor relationships match frozen copy.",
+    "E1_node_not_accepted": "Answer substitutes administrative ancestor/hash metadata for actual E1 functional entry; use selected pack function[0].entry_state and original E1.exit_state unchanged.",
+    "alleged_public_event_contradiction_not_accepted": "XXIII3 general public BasketballEvent deadline/FIBA exception remains unselected. These two local functions explicitly select nonpublic authorized practice and return only; no public game performed. Oct6 is a cost-bound private-window choice, not certification of public-game legality or event result. A separate full-national-result/legal consumer remains pending.",
+    "answer_and_source_references_preserved": true,
+    "source_is_derived_copy_not_independent_primary": true,
+    "whole_G16": false
+  }
+}
