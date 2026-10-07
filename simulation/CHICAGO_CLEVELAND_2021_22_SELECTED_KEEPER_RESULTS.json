@@ -1,0 +1,3206 @@
+{
+  "id": "CHICAGO_CLEVELAND_2021_22_SELECTED_KEEPER_RESULTS",
+  "baseline_main": "d111ddb9a0246345b1c04784404c829bf3202576",
+  "status": "SELECTED_NAMED_LAWFUL_NPC_FAMILY_FOUR_RESULTS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_22_COMMON_26_OPPONENT_CAPACITY.json": "a0ecb8e362e51344ca2cc2de53ff0713901bc4d50432a5efef621641fd0c00b7",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json": "51b24c8a6bc1eb703568adced46b3ffa15845e85e8da10da1242bddf941df960",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/NBA_2021_22_REGULAR_BASELINE.csv": "92869bc987896a4172c5e54e3684d2604c5c24d828e9bcf3cc27af30ebc83644",
+    "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json": "66c1c862a179648aa72dd81ff13a07345b36889043995ecb583ae57019618c80",
+    "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e",
+    "tools/build_nyk_2021_keeper_and_chicago_selected_results.py": "61eb21ed98b1c4020bce85062db5bb7b988de9ba9cf213116b52f54575d9b397",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "tools/build_cle_2021_keeper_and_chicago_selected_results.py": "10a7361eaf49235cc5ab98515696c99ebceabd96eecf3de34eea8a64fd8327b8"
+  },
+  "primary_support": {
+    "CBA": {
+      "url": "https://nbpa.com/upload/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "normalized_fitz_page_sha256": {
+        "26": "ff6b36ecd67bcbc1491e464ebce0d85a5d4d07db36c82da1d0cc4ec32d32044a",
+        "29": "a7376434286a88c8b534c773c4dbf184c21df8a8a52c22718221ce39e9a08e75",
+        "30": "9cf0f5b23523777c69220fc109f59a6b42dc1550c90082e39b48748f53a03338",
+        "54": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1",
+        "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+        "58": "6bfe75ec156ef879964d4f79660a3f4041a3a8f81a22ef2297c0590a6e4a3ba7",
+        "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+        "222": "d25729bf91cc0a46cde01aa9ed484798091eea9fe3a7ceaa061aaa13fde84403",
+        "223": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b",
+        "224": "88bfd31d8dd7393b272a8bdfdc55da36a34f60aa87ae297f4435be53549bbe1c",
+        "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+        "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+        "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+        "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+        "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+        "312": "3ae615e57f3f6f2841dfe1e84da6ff8c2f81e0ed0a623bc572a2ca42bed5a727",
+        "313": "54e8c9a7575c279e4dd2c829c433ccfa4288ccb134fe77d8488563fb4477e3b6",
+        "314": "00bed2e48a3c10dcce6f1db6dbac242567f56871c932915d12918c9df6ad9bd3",
+        "317": "06c7ee2b8e250bdd71d2985d31eeb2c8559e1e0bad85f0899f791f2dca4603c6",
+        "318": "92258d361d590eba557d56ab7ba01e1ff58af80806f4f61dd38d4eddc34bac25",
+        "332": "09e71fd0bc9d672d23c97d542e60cfe3e146a560c7877c5a50d61d4dee791d07",
+        "333": "7cc2afe0a54d6663e09b54b0c6ea7dddc5e528299232b0fb2929db6836cd44db",
+        "334": "ba8a1c35001f959a29bb419bfa0b6b00aabbe6890122a906f190b359e8dc9a39",
+        "561": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+      }
+    },
+    "NBA_original_feed": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "named_rows": [
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-05-01T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers signed center Mfiondu Kabengele to a Rest-of-Season Contract.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 1629662.0,
+          "PLAYER_SLUG": "mfiondu-kabengele",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1039683"
+        },
+        {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2021-01-16T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers received center Jarrett Allen from Brooklyn Nets.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 1628386.0,
+          "PLAYER_SLUG": "jarrett-allen",
+          "Additional_Sort": 1610612751.0,
+          "GroupSort": "Trade 2020053"
+        },
+        {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2021-01-14T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers received forward Taurean Prince from Brooklyn Nets.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 1627752.0,
+          "PLAYER_SLUG": "taurean-prince",
+          "Additional_Sort": 1610612751.0,
+          "GroupSort": "Trade 2020052"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2020-11-24T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers signed guard Matthew Dellavedova to a Contract.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 203521.0,
+          "PLAYER_SLUG": "matthew-dellavedova",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1033353"
+        },
+        {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2020-11-23T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers received center JaVale McGee from Los Angeles Lakers.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 201580.0,
+          "PLAYER_SLUG": "javale-mcgee",
+          "Additional_Sort": 1610612747.0,
+          "GroupSort": "Trade 2020007"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2018-10-15T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Cleveland Cavaliers re-signed forward Larry Nance Jr. to a Rookie Scale Extension.",
+          "TEAM_ID": 1610612739.0,
+          "TEAM_SLUG": "cavaliers",
+          "PLAYER_ID": 1626204.0,
+          "PLAYER_SLUG": "larry-nance-jr",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1006569"
+        }
+      ]
+    },
+    "NBA_profile_web_observation_not_raw_body": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-cle-keeper-20261007\\observed_profile.json",
+      "raw_sha256": "ac973040d60d974b97ef0c274f3b8cedd5d19e6d5b6438d6d56496c33fe3a3a0",
+      "projection": {
+        "url": "https://www.nba.com/draft/2021/team-profiles/cleveland-cavaliers",
+        "observation": "DIRECT_WEB_BODY_2026_10_07_turn2255view0_lines181_204",
+        "original_contract_classes": {
+          "under_contract": [
+            "Damyean Dotson",
+            "Darius Garland",
+            "Collin Sexton",
+            "Dylan Windler",
+            "Isaac Okoro",
+            "Cedi Osman",
+            "Taurean Prince",
+            "Lamar Stevens",
+            "Mfiondu Kabengele",
+            "Kevin Love",
+            "Larry Nance Jr.",
+            "Dean Wade"
+          ],
+          "UFA": [
+            "Matthew Dellavedova"
+          ],
+          "RFA": [
+            "Jeremiah Martin",
+            "Brodric Thomas",
+            "Jarrett Allen"
+          ],
+          "PO": [
+            "Isaiah Hartenstein"
+          ]
+        },
+        "original_HartensteinCLE_not_selected_F5McGeeCLE": true,
+        "original_Mobley3_not_selectedKuminga6": true,
+        "status": 403,
+        "raw_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-cle-keeper-20261007\\profile.http",
+        "raw_sha256": "b09caa94a6bce5dcc2c5b14917c6db607de566525991fdf4ec0ce711198f43d0",
+        "raw_body_adopted": false
+      }
+    }
+  },
+  "selected_policy": {
+    "new_FA_UPCs_ET": "2021-08-06T12:02:00_ORDERED",
+    "new_trade": false,
+    "new_NTMLE_BAE_ROOMMLE_incoming_SandT": false,
+    "Dellavedova": "originalexpiry/no newNBAUPC, all earnedGamma/FAclaims preserved; no realMelbourne signing certificate",
+    "TW": "If original TWlive, lawful nonassignmentwaiver bySep30/full currentprotectedGamma kept; ifexpired, applicable STANDARD/TWQO consecutiveSameTeam/term/service eligibility timelyoperative2021 unaccepted/unextendedOct1 FRN/FAclaims retained. No newUPC or inferred exactterm.",
+    "availability": "11positive operationalavailable on4selecteddates; Love/Nanceworkingrecovery, Sexton no changedcontactkneeinjury selected; not actualclinical/positiveCOVID/wholeyearhealthcertification. zeroreserveclinicalnull.",
+    "whole_private_or_actual_receipts": false
+  },
+  "lawful_contract_family": [
+    {
+      "player": "Cedi Osman",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Collin Sexton",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Damyean Dotson",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Darius Garland",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Dean Wade",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Dylan Windler",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Isaac Okoro",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Kevin Love",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Lamar Stevens",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Larry Nance Jr.",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Mfiondu Kabengele",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": true
+    },
+    {
+      "player": "Taurean Prince",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "Kabengele_ROS_multiyear_original_uncertainty_preserved": false
+    },
+    {
+      "player": "Jarrett Allen",
+      "route": "NEW_OWN_FA",
+      "price_function": {
+        "route": "VII6b2_FULL_BIRD",
+        "nonoption_seasons": 3,
+        "first_base_function": "q in [15000000,20000000] intersect [legalMinimum,II7maximum]",
+        "later_base": "same q",
+        "new_bonus": 0,
+        "full_standard_protection": true,
+        "actual_price": null,
+        "actual_acceptance": null,
+        "continuous2017BKNcontract_transferredJan2021CLE_notnewservice": true
+      },
+      "applicable_prior_QO": {
+        "ordinary": "original4thRSCsalary*(1+operative2017pick22QOincrease)",
+        "starter_if_qualifies": "max(originalOrdinary,pick21RSC100percentQO_with_permitted_anchorBonuses)",
+        "nonstarter": "lesser(originalOrdinary,pick15RSC120percentQO_with_permitted_anchorBonuses)",
+        "starter_function": "41GS or2000min priorSeason OR mean two priorSeasons, not actualfuturestats",
+        "actual_status_or_price": null
+      },
+      "new_contract_years": 4,
+      "old_Gamma_QO_FAclaims_preserved": true
+    },
+    {
+      "player": "JaVale McGee",
+      "route": "NEW_OWN_FA_MINIMUM",
+      "new_contract": "oneSeason applicable2021legalMinimum(YOS) UPC",
+      "old_Gamma_FAclaims_preserved": true,
+      "new_bonus": 0,
+      "options": 0,
+      "full_standard_protection": true,
+      "actual_price_or_receipt": null
+    },
+    {
+      "player": "Jonathan Kuminga",
+      "route": "VII6h_VIII1_RSC",
+      "pick": 6,
+      "holder": "CLE",
+      "component_scale": [
+        "4/5",
+        "6/5"
+      ],
+      "salary_including_unlikely_ceiling": "6/5",
+      "base_and_protection_floor": "4/5",
+      "guaranteed": 2,
+      "options": 2,
+      "valid_first_RT_before_UPC": true,
+      "actual_price": null
+    }
+  ],
+  "selected_registration": {
+    "standard": [
+      "Cedi Osman",
+      "Collin Sexton",
+      "Damyean Dotson",
+      "Darius Garland",
+      "Dean Wade",
+      "Dylan Windler",
+      "Isaac Okoro",
+      "JaVale McGee",
+      "Jarrett Allen",
+      "Jonathan Kuminga",
+      "Kevin Love",
+      "Lamar Stevens",
+      "Larry Nance Jr.",
+      "Mfiondu Kabengele",
+      "Taurean Prince"
+    ],
+    "TW": [],
+    "STD": 15,
+    "TW_count": 0,
+    "active": [
+      "Cedi Osman",
+      "Collin Sexton",
+      "Darius Garland",
+      "Dean Wade",
+      "Isaac Okoro",
+      "JaVale McGee",
+      "Jarrett Allen",
+      "Jonathan Kuminga",
+      "Kevin Love",
+      "Lamar Stevens",
+      "Larry Nance Jr.",
+      "Taurean Prince"
+    ],
+    "inactive": [
+      "Damyean Dotson",
+      "Dylan Windler",
+      "Mfiondu Kabengele"
+    ],
+    "zero_minutes_not_clinical_absence": true,
+    "all_original_waived_camp_stretch_FA_unsigned_exception_Gamma_retained": true
+  },
+  "selected_role_minutes": {
+    "PG": {
+      "Darius Garland": 30,
+      "Collin Sexton": 18
+    },
+    "SG": {
+      "Collin Sexton": 12,
+      "Isaac Okoro": 24,
+      "Cedi Osman": 12
+    },
+    "SF": {
+      "Taurean Prince": 20,
+      "Cedi Osman": 6,
+      "Jonathan Kuminga": 14,
+      "Larry Nance Jr.": 8
+    },
+    "PF": {
+      "Larry Nance Jr.": 20,
+      "Kevin Love": 18,
+      "Dean Wade": 10
+    },
+    "C": {
+      "Jarrett Allen": 30,
+      "JaVale McGee": 12,
+      "Kevin Love": 6
+    }
+  },
+  "selected_role_blocks": [
+    {
+      "start_second": 0,
+      "end_second": 120,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 120,
+      "end_second": 240,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Isaac Okoro",
+        "SF": "Taurean Prince",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 240,
+      "end_second": 360,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Isaac Okoro",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 360,
+      "end_second": 480,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Isaac Okoro",
+        "SF": "Jonathan Kuminga",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 480,
+      "end_second": 600,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Isaac Okoro",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 600,
+      "end_second": 720,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Isaac Okoro",
+        "SF": "Jonathan Kuminga",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 720,
+      "end_second": 840,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 840,
+      "end_second": 960,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Cedi Osman",
+        "SF": "Jonathan Kuminga",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 960,
+      "end_second": 1080,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 1080,
+      "end_second": 1200,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Cedi Osman",
+        "SF": "Jonathan Kuminga",
+        "PF": "Dean Wade",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 1200,
+      "end_second": 1320,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Larry Nance Jr.",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 1320,
+      "end_second": 1440,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 1440,
+      "end_second": 1560,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Cedi Osman",
+        "SF": "Jonathan Kuminga",
+        "PF": "Dean Wade",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 1560,
+      "end_second": 1680,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Cedi Osman",
+        "PF": "Kevin Love",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 1680,
+      "end_second": 1800,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Larry Nance Jr.",
+        "PF": "Dean Wade",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 1800,
+      "end_second": 1920,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Cedi Osman",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 1920,
+      "end_second": 2040,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Cedi Osman",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 2040,
+      "end_second": 2160,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Jonathan Kuminga",
+        "PF": "Larry Nance Jr.",
+        "C": "Kevin Love"
+      }
+    },
+    {
+      "start_second": 2160,
+      "end_second": 2280,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Cedi Osman",
+        "SF": "Larry Nance Jr.",
+        "PF": "Dean Wade",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 2280,
+      "end_second": 2400,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Taurean Prince",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 2400,
+      "end_second": 2520,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Cedi Osman",
+        "PF": "Larry Nance Jr.",
+        "C": "Kevin Love"
+      }
+    },
+    {
+      "start_second": 2520,
+      "end_second": 2640,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Cedi Osman",
+        "SF": "Jonathan Kuminga",
+        "PF": "Dean Wade",
+        "C": "JaVale McGee"
+      }
+    },
+    {
+      "start_second": 2640,
+      "end_second": 2760,
+      "seconds": 120,
+      "positions": {
+        "PG": "Collin Sexton",
+        "SG": "Isaac Okoro",
+        "SF": "Larry Nance Jr.",
+        "PF": "Kevin Love",
+        "C": "Jarrett Allen"
+      }
+    },
+    {
+      "start_second": 2760,
+      "end_second": 2880,
+      "seconds": 120,
+      "positions": {
+        "PG": "Darius Garland",
+        "SG": "Collin Sexton",
+        "SF": "Taurean Prince",
+        "PF": "Larry Nance Jr.",
+        "C": "Kevin Love"
+      }
+    }
+  ],
+  "selected_ratings": {
+    "Carter": {
+      "effective_rating": -0.61875,
+      "exact_fraction": "-99/160",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Wendell Carter Jr.",
+        "reported_bpm": -1.4,
+        "archive_minutes": 792,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Caruso": {
+      "effective_rating": -0.2453900709219858,
+      "exact_fraction": "-173/705",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Alex Caruso",
+        "reported_bpm": -0.6,
+        "archive_minutes": 692,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Cedi Osman": {
+      "effective_rating": -1.2444872412132884,
+      "exact_fraction": "-12924/10385",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Cedi Osman",
+        "reported_bpm": -2.4,
+        "archive_minutes": 1077,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Chris Duarte": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_FICTIONAL_ROOKIE_PRIOR_NOT_OBSERVED_NBA_RATING",
+      "provenance": {
+        "comparators_effective": {
+          "Devin Vassell": -0.07585350713842334,
+          "Aaron Nesmith": -1.1594614809274495,
+          "Josh Green": -1.1140065146579805,
+          "Saddiq Bey": -0.3498249124562281,
+          "Desmond Bane": -0.6358078602620088
+        },
+        "selected_statistic": "median",
+        "working_admissible_comparison_range": [
+          -1.1594614809274495,
+          -0.07585350713842334
+        ],
+        "Duarte_box_input": "D21A",
+        "not_college_BPM_or_NBA_translation_fit": true
+      }
+    },
+    "Collin Sexton": {
+      "effective_rating": -0.23072365636902242,
+      "exact_fraction": "-2726/11815",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Collin Sexton",
+        "reported_bpm": -0.4,
+        "archive_minutes": 1363,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Darius Garland": {
+      "effective_rating": -1.288888888888889,
+      "exact_fraction": "-58/45",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Darius Garland",
+        "reported_bpm": -2.4,
+        "archive_minutes": 1160,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Dean Wade": {
+      "effective_rating": -0.15940054495912806,
+      "exact_fraction": "-117/734",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Dean Wade",
+        "reported_bpm": -0.5,
+        "archive_minutes": 468,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Denzel Valentine": {
+      "effective_rating": -1.0038394415357765,
+      "exact_fraction": "-2876/2865",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Denzel Valentine",
+        "reported_bpm": -2.4,
+        "archive_minutes": 719,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Isaac Okoro": {
+      "effective_rating": -2.67422497785651,
+      "exact_fraction": "-15096/5645",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Isaac Okoro",
+        "reported_bpm": -4.8,
+        "archive_minutes": 1258,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "JaVale McGee": {
+      "effective_rating": -0.2677312042581504,
+      "exact_fraction": "-2012/7515",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "JaVale McGee",
+        "reported_bpm": -0.8,
+        "archive_minutes": 503,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Jarrett Allen": {
+      "effective_rating": 1.2116801437556155,
+      "exact_fraction": "6743/5565",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Jarrett Allen",
+        "reported_bpm": 2.2,
+        "archive_minutes": 1226,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Kevin Love": {
+      "effective_rating": -0.20831758034026465,
+      "exact_fraction": "-551/2645",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Kevin Love",
+        "reported_bpm": -3.8,
+        "archive_minutes": 58,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaMelo_pick4": {
+      "effective_rating": 1.4580496780128795,
+      "exact_fraction": "15849/10870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "LaMelo Ball",
+        "reported_bpm": 2.7,
+        "archive_minutes": 1174,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaVine": {
+      "effective_rating": 2.5320095313741064,
+      "exact_fraction": "15939/6295",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Zach LaVine",
+        "reported_bpm": 4.2,
+        "archive_minutes": 1518,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Larry Nance Jr.": {
+      "effective_rating": 0.4706193753308629,
+      "exact_fraction": "889/1889",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Larry Nance Jr.",
+        "reported_bpm": 1.0,
+        "archive_minutes": 889,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Markkanen": {
+      "effective_rating": 0.24518036664695447,
+      "exact_fraction": "2073/8455",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Lauri Markkanen",
+        "reported_bpm": 0.6,
+        "archive_minutes": 691,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Protagonist": {
+      "effective_rating": -0.5,
+      "exact_fraction": "-1/2",
+      "classification": "SELECTED_FICTIONAL_PRODUCTIVITY_PARAMETER",
+      "provenance": {
+        "prior_BASE": -1.2,
+        "selected_increment": 0.7,
+        "growth_input": "P21A",
+        "not_a_box_to_BPM_fit": true,
+        "existing_LOW_HIGH_stress_bounds": [
+          -3.0,
+          0.3
+        ]
+      }
+    },
+    "Satoransky": {
+      "effective_rating": 0.04189424753050552,
+      "exact_fraction": "721/17210",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tomas Satoransky",
+        "reported_bpm": 0.1,
+        "archive_minutes": 721,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Taurean Prince": {
+      "effective_rating": -0.8419753086419753,
+      "exact_fraction": "-341/405",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Taurean Prince",
+        "reported_bpm": -2.2,
+        "archive_minutes": 620,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Tony Bradley": {
+      "effective_rating": 0.6912975912975913,
+      "exact_fraction": "8897/12870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tony Bradley",
+        "reported_bpm": 3.1,
+        "archive_minutes": 287,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Young": {
+      "effective_rating": 1.8749746707193515,
+      "exact_fraction": "9253/4935",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Thaddeus Young",
+        "reported_bpm": 3.8,
+        "archive_minutes": 974,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Jonathan Kuminga": {
+      "exact_fraction": "-728/1145",
+      "method": "SELECTED_FICTIONAL_CONSERVATIVE_ROOKIE_PRIOR_EXISTING_DUARTE_SUGGS_FAMILY",
+      "historical_BPM": null,
+      "observed_minutes": null,
+      "fictional_working_coefficient_selected": true,
+      "source_boundary": "Existing conservative working rookie coefficient, not realized2021/22 productivity or originalGSWdraftteam"
+    },
+    "Coby": {
+      "effective_rating": -2.018204911092295,
+      "exact_fraction": "-4767/2362",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Coby White",
+        "reported_bpm": -3.5,
+        "archive_minutes": 1362,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    }
+  },
+  "selected_games": [
+    {
+      "game_id": "0022100367",
+      "date": "2021-12-08",
+      "home": "CLE",
+      "away": "CHI",
+      "CHI_state": "COBY_OUT",
+      "CLE_active": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Taurean Prince"
+      ],
+      "CLE_inactive": [
+        "Damyean Dotson",
+        "Dylan Windler",
+        "Mfiondu Kabengele"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Jonathan Kuminga",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Denzel Valentine": 480,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Satoransky": 600,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "CLE": {
+          "Cedi Osman": 1080,
+          "Collin Sexton": 1800,
+          "Darius Garland": 1800,
+          "Dean Wade": 600,
+          "Isaac Okoro": 1440,
+          "JaVale McGee": 720,
+          "Jarrett Allen": 1800,
+          "Jonathan Kuminga": 840,
+          "Kevin Love": 1440,
+          "Larry Nance Jr.": 1680,
+          "Taurean Prince": 1200
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.7527426172614042,
+        "CLE": -2.4622920289909005
+      },
+      "home_effect_CHI_per100": -2,
+      "back_to_back": {
+        "CHI": false,
+        "CLE": false
+      },
+      "fatigue_effect_CHI_per100": 0.0,
+      "exact_CHI_minus_CLE_impact_fraction": "321852698555529073899189398330094513749844531407/100108625246295775799959905470954234548341068160",
+      "CHI_minus_CLE_impact_per100": 3.2150346462523047,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    },
+    {
+      "game_id": "0022100673",
+      "date": "2022-01-19",
+      "home": "CHI",
+      "away": "CLE",
+      "CHI_state": "NORMAL",
+      "CLE_active": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Taurean Prince"
+      ],
+      "CLE_inactive": [
+        "Damyean Dotson",
+        "Dylan Windler",
+        "Mfiondu Kabengele"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Jonathan Kuminga",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "CLE": {
+          "Cedi Osman": 1080,
+          "Collin Sexton": 1800,
+          "Darius Garland": 1800,
+          "Dean Wade": 600,
+          "Isaac Okoro": 1440,
+          "JaVale McGee": 720,
+          "Jarrett Allen": 1800,
+          "Jonathan Kuminga": 840,
+          "Kevin Love": 1440,
+          "Larry Nance Jr.": 1680,
+          "Taurean Prince": 1200
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "CLE": -2.4622920289909005
+      },
+      "home_effect_CHI_per100": 2,
+      "back_to_back": {
+        "CHI": false,
+        "CLE": false
+      },
+      "fatigue_effect_CHI_per100": 0.0,
+      "exact_CHI_minus_CLE_impact_fraction": "2379875692714336917920462099370010614006561301/359672436930541756192377645899276114889951360",
+      "CHI_minus_CLE_impact_per100": 6.616786409946468,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    },
+    {
+      "game_id": "0022101006",
+      "date": "2022-03-12",
+      "home": "CHI",
+      "away": "CLE",
+      "CHI_state": "NORMAL",
+      "CLE_active": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Taurean Prince"
+      ],
+      "CLE_inactive": [
+        "Damyean Dotson",
+        "Dylan Windler",
+        "Mfiondu Kabengele"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Jonathan Kuminga",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "CLE": {
+          "Cedi Osman": 1080,
+          "Collin Sexton": 1800,
+          "Darius Garland": 1800,
+          "Dean Wade": 600,
+          "Isaac Okoro": 1440,
+          "JaVale McGee": 720,
+          "Jarrett Allen": 1800,
+          "Jonathan Kuminga": 840,
+          "Kevin Love": 1440,
+          "Larry Nance Jr.": 1680,
+          "Taurean Prince": 1200
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "CLE": -2.4622920289909005
+      },
+      "home_effect_CHI_per100": 2,
+      "back_to_back": {
+        "CHI": false,
+        "CLE": true
+      },
+      "fatigue_effect_CHI_per100": 0.5,
+      "exact_CHI_minus_CLE_impact_fraction": "2559711911179607796016650922319648671451536981/359672436930541756192377645899276114889951360",
+      "CHI_minus_CLE_impact_per100": 7.116786409946468,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    },
+    {
+      "game_id": "0022101110",
+      "date": "2022-03-26",
+      "home": "CLE",
+      "away": "CHI",
+      "CHI_state": "NORMAL",
+      "CLE_active": [
+        "Cedi Osman",
+        "Collin Sexton",
+        "Darius Garland",
+        "Dean Wade",
+        "Isaac Okoro",
+        "JaVale McGee",
+        "Jarrett Allen",
+        "Jonathan Kuminga",
+        "Kevin Love",
+        "Lamar Stevens",
+        "Larry Nance Jr.",
+        "Taurean Prince"
+      ],
+      "CLE_inactive": [
+        "Damyean Dotson",
+        "Dylan Windler",
+        "Mfiondu Kabengele"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Isaac Okoro",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Jonathan Kuminga",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Cedi Osman",
+            "SF": "Larry Nance Jr.",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Cedi Osman",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Cedi Osman",
+            "SF": "Jonathan Kuminga",
+            "PF": "Dean Wade",
+            "C": "JaVale McGee"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Collin Sexton",
+            "SG": "Isaac Okoro",
+            "SF": "Larry Nance Jr.",
+            "PF": "Kevin Love",
+            "C": "Jarrett Allen"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "CLE": {
+            "PG": "Darius Garland",
+            "SG": "Collin Sexton",
+            "SF": "Taurean Prince",
+            "PF": "Larry Nance Jr.",
+            "C": "Kevin Love"
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "CLE": {
+          "Cedi Osman": 1080,
+          "Collin Sexton": 1800,
+          "Darius Garland": 1800,
+          "Dean Wade": 600,
+          "Isaac Okoro": 1440,
+          "JaVale McGee": 720,
+          "Jarrett Allen": 1800,
+          "Jonathan Kuminga": 840,
+          "Kevin Love": 1440,
+          "Larry Nance Jr.": 1680,
+          "Taurean Prince": 1200
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "CLE": -2.4622920289909005
+      },
+      "home_effect_CHI_per100": -2,
+      "back_to_back": {
+        "CHI": false,
+        "CLE": false
+      },
+      "fatigue_effect_CHI_per100": 0.0,
+      "exact_CHI_minus_CLE_impact_fraction": "941185944992169893150951515772906154446755861/359672436930541756192377645899276114889951360",
+      "CHI_minus_CLE_impact_per100": 2.616786409946468,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    }
+  ],
+  "interval": "Only Dec8/Jan19/Mar12/Mar26 retainedfamily; no automaticFebLeVertdeal or originalknee/protocol/calendar imported",
+  "butterfly_handoff": [
+    "ApprovedF5omission McGeeCLE/HartensteinDEN preserved; originalPHX McGeesigning no duplicate. Kuminga6CLE notMobley3CLE; Mobley3ORLselected.",
+    "Allen2017BKNsamecontract→Jan2021CLE transfer qualifiesFullBird3; ordinaryRSCQO/latepickstarter21/nonstarter15 functions preserved before separate4yearUPC.",
+    "No originalMarkkanenCHI→CLE/NanceCLE→POR/PrinceMIN/RubioMIN→CLE or FebLeVertIND→CLE copied; currentM1MarkCHI/retainedCLEactors unchanged.",
+    "Dellavedovaexpiry/noUPC, nooriginalMelbourne orVarejaoC2signing copied; originalKabengele termuncertainty/Gamma retained.",
+    "Love/Nancerecovery/Sextonnewcontactnotselected operationmodel notrealdiagnosis or actualknee injurydisproved."
+  ],
+  "summary": {
+    "selected_games": 4,
+    "CHI_wins": 4,
+    "CLE_wins": 0,
+    "STD": 15,
+    "TW": 0,
+    "active_each": 12,
+    "positive_each": 11,
+    "blocks_each": 24,
+    "clock_seconds_each": 2880,
+    "team_player_seconds_each": 14400
+  },
+  "certification": {
+    "selected_fictional_lawful_NPC_family": true,
+    "selected_dated_working_health_and_results": true,
+    "independent_review_completed": false,
+    "actual_private_receipts_medical_or_exact_price_certified": false,
+    "whole_private_teamcost": false,
+    "new_author_lock": false,
+    "whole82_or_macro3": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false
+  }
+}

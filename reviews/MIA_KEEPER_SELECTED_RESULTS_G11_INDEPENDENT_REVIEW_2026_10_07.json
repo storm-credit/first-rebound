@@ -1,0 +1,40 @@
+{
+  "id": "MIA_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_MIAMI_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_mia_2021_keeper_and_chicago_selected_results.py": "5616b5da87d601ecc6816a1a1b0b3ed2741665abaaccb1367b3496f9925c52ae",
+    "simulation/CHICAGO_MIAMI_2021_22_SELECTED_KEEPER_RESULTS.json": "5864b0a89f674f89a2fe081be3529fb69d4081e1b6938a27c36289f509e1fd8f",
+    "simulation/CHICAGO_MIAMI_2021_22_SELECTED_KEEPER_RESULTS.md": "87698d6aaa54c2e3055bc9fbfc84ce344745ea3ecd9738975efa2f722dafc2f0",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "research/TORONTO_MIAMI_2021_SELECTED_ATOM_LEGAL_BRIDGE_2026_10_07.json": "719b2ff19583d6373a2c165988c9fc55b298fce3728dc8763df2d3f327357278"
+  },
+  "direct_source_join": "The selected Lowry-to-Miami/Dragic-and-Precious-to-Toronto atom is consumed once. Its 14 named Miami standard players equal the 14 selected public contract rows; its two-way players are Caleb Martin and Marcus Garrett and neither is activated for the four dates. The existing reviewed cost family retains adjusted TeamSalary 136439559, apron 143002000 and conditional public-family slack 6562441. No new contract delta or second transaction is selected here; unknown original or earned Gamma is not set to zero.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Miami_player_seconds_each": 14400,
+    "positive_Miami_players": 10,
+    "active_each": 12,
+    "registration": "14 standard plus 2 two-way; Oladipo and Okpala inactive, both two-way players unactivated",
+    "independent_exact_fraction_recalculation": "For every date, weighted player ratings, home effect and back-to-back effect reproduce the stored exact margin; score and overtime remain null.",
+    "results": [
+      {"game_id": "0022100296", "date": "2021-11-27", "winner": "CHI", "CHI_margin_per100": 2.3167837793538752},
+      {"game_id": "0022100394", "date": "2021-12-11", "winner": "MIA", "CHI_margin_per100": -0.5849679843402885},
+      {"game_id": "0022100922", "date": "2022-02-28", "winner": "MIA", "CHI_margin_per100": -1.1832162206461248},
+      {"game_id": "0022101164", "date": "2022-04-02", "winner": "CHI", "CHI_margin_per100": 2.8167837793538752}
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned [] for the current JSON and MD.",
+  "independent_negative_control": {
+    "mutation": "Both returned Miami atom loader objects replaced standard Markieff Morris with two-way Caleb Martin, leaving the physical file bytes and category counts untouched.",
+    "result": "REJECTED ValueError Reviewed named roster source changed"
+  },
+  "limits": [
+    "Four selected Miami health and coaching states are fictional; historical thumb, contact or protocol absences are not copied or certified.",
+    "Conditional public cost slack is not a proof of every private Miami obligation, actual contract receipt, full season, score or overtime.",
+    "This review does not independently certify the earlier Miami apron closure, whose source hash and bounded scope are reused."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLE_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_CLEVELAND_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_cle_2021_keeper_and_chicago_selected_results.py": "10a7361eaf49235cc5ab98515696c99ebceabd96eecf3de34eea8a64fd8327b8",
+    "simulation/CHICAGO_CLEVELAND_2021_22_SELECTED_KEEPER_RESULTS.json": "57c3f5255d1970638aa1cf575e5c526c58de9fb9a5ba2198347e33a100ff499b",
+    "simulation/CHICAGO_CLEVELAND_2021_22_SELECTED_KEEPER_RESULTS.md": "334847cfc1e422fd013c0ea406792e446db7a8697d44f79bfe543f7a12f48296",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea"
+  },
+  "source_and_contract_scope": "The selected F5 source keeps JaVale McGee in Cleveland and Isaiah Hartenstein in Denver, so no later Phoenix McGee UPC is imported. Dellavedova exits without a new Cleveland UPC; selected Kuminga #6 RSC replaces him. The 15 standard names include retained McGee, not Hartenstein or selected Orlando Mobley. Allen's prior Brooklyn rookie contract continued through the January 2021 Cleveland trade, so the modeled four-year own Full Bird price family is separate from the prior ordinary/starter/nonstarter QO functions. Exact signed price, receipt, starter test and private Gamma remain unselected.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Cleveland_player_seconds_each": 14400,
+    "positive_Cleveland_players": 11,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; Dotson, Windler and Kabengele inactive without clinical inference",
+    "exact_fraction_recalculation": "For all four dates, weighted player ratings plus home and back-to-back effects reproduce the saved exact margin. Kuminga uses the existing selected conservative rookie prior -728/1145, not a historical 2021-22 BPM.",
+    "results": [
+      {"game_id": "0022100367", "date": "2021-12-08", "winner": "CHI", "CHI_margin_per100": 3.2150346462523047},
+      {"game_id": "0022100673", "date": "2022-01-19", "winner": "CHI", "CHI_margin_per100": 6.616786409946468},
+      {"game_id": "0022101006", "date": "2022-03-12", "winner": "CHI", "CHI_margin_per100": 7.116786409946468},
+      {"game_id": "0022101110", "date": "2022-03-26", "winner": "CHI", "CHI_margin_per100": 2.616786409946468}
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned [] for the current JSON and MD.",
+  "independent_negative_control": {
+    "mutation": "Both returned F5 loader objects reversed the approved omitted McGee/Hartenstein trade while the pinned physical source remained unchanged.",
+    "result": "REJECTED ValueError Approved omitted F5 direction changed"
+  },
+  "limits": [
+    "Selected Love/Nance recovery and Sexton availability are fictional operational states, not actual clinical findings.",
+    "No future Markkanen, Prince, Nance, Rubio or LeVert transaction, actual price, score, overtime or rest-of-season result is certified."
+  ]
+}
