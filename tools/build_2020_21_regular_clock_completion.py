@@ -119,7 +119,7 @@ def build() -> dict:
     selected.validate(source)
     assert source["method"] == "BPM_MAR25_EB" and not source["raptor_mixed"]
     assert len(source["team_games"]) == 2160 and len(source["regular_season_games"]) == 1080
-    assert not source["unresolved_games"] and source["overlay_team_games"] == 60
+    assert not source["unresolved_games"] and source["overlay_team_games"] == 64
     games = deepcopy(source["regular_season_games"])
     by_game = {g["event_id"]: g for g in games}
     assert len(by_game) == 1080
@@ -199,7 +199,12 @@ def build() -> dict:
         row["zero_player_health"] = {p: None for p, n in row["player_seconds"].items() if n <= 1e-7}
         row["working_total_seconds"] = 5 * duration
         row["working_clock_exact"] = True
-        if row["lineup_witness"]:
+        if row.get('f5_scope_completion'):
+            # A new F5 completion witness is not one of the old 107 segments.
+            row["lineup_witness"] = construct_witness(row["player_seconds"], duration)
+            row["lineup_witness_kind"] = "CONSTRUCTED_UNIFORM_MATROID_EXISTENCE_ONLY"
+            constructed_witness_count += 1
+        elif row["lineup_witness"]:
             assert not gap
             check_witness(row["player_seconds"], duration, row["lineup_witness"])
             row["lineup_witness_kind"] = "EXISTING_SOURCE_SEGMENTS_ORDER_NOT_CHRONOLOGY"

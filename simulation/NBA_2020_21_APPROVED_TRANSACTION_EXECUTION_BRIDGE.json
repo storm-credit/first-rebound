@@ -1,0 +1,294 @@
+{
+  "schema": "APPROVED_TRANSACTION_EXECUTION_BRIDGE_V1",
+  "status": "APPROVED_DIRECTION_DATED_WORKING_EXECUTION_SUBSCOPE",
+  "source_rev_sha256": {
+    "tools/build_2020_21_approved_transaction_execution_bridge.py": "d98ef6b3d168e20505d8a95fb54a6117ef8b4b3feb92fb377f42f486c7dab80f",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+    "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json": "c0166bba7a0874aa08dfa88e7d00c0f0d0e237ca2090459ddd6167cf1353c5ea",
+    "canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json": "f78897dc76bff7dc183c977c9fa8971109f53bf53d1f18d88f837f687f5e3a41",
+    "simulation/CHICAGO_2021_THEIS_GREEN_TRANSACTION_LEDGER.csv": "7212274dd08490e62dce0bfdc3c42def4526eacdb06eec0dc64518cc7c06d8d9",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "research/CHI_F1_MATCHING_EXISTENCE_WITNESS_2026_10_07.json": "3445fc974748036ae0d7cb8a58a850396f42df20e8c621c77cb435310a9b343a",
+    "research/DEN_PUBLISHED_RIGHTS_TRANSITION_WITNESS_2026_10_07.json": "1191f799df2d5be72292966423d54832a25b7f7fbfbe4b86e8e83bda128e1a73",
+    "control/CHICAGO_2020_21_D1_S2_PROTOCOL.md": "18d92122c7dcc1e1fb91129aea342f16eb6f03875f3a5cf063c51d8b9f90f7c0"
+  },
+  "legal_projection_sha256": "93fe86ffc52657f2282ba0d39474ea0a608e8f22c58a2affe63e2a169024a6f2",
+  "events": [
+    {
+      "id": "F1_FIVE_PLAYER_ATOMIC",
+      "date": "2021-03-25",
+      "kind": "ASSIGNMENT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json",
+      "legal_family_ids": [
+        "CHI_TEAM_SALARY",
+        "CHI_MATCHING_RULE",
+        "BOS_COMPLETE_COST"
+      ],
+      "movements": [
+        {
+          "player": "Daniel Gafford",
+          "from": "CHI",
+          "to": "WAS"
+        },
+        {
+          "player": "Luke Kornet",
+          "from": "CHI",
+          "to": "BOS"
+        },
+        {
+          "player": "Moritz Wagner",
+          "from": "WAS",
+          "to": "BOS"
+        },
+        {
+          "player": "Daniel Theis",
+          "from": "BOS",
+          "to": "CHI"
+        },
+        {
+          "player": "Javonte Green",
+          "from": "BOS",
+          "to": "CHI"
+        }
+      ],
+      "retained": {
+        "Troy Brown Jr.": "WAS",
+        "Gary Trent Jr.": "WAS"
+      },
+      "omitted_events": [],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {
+        "CHI": 0,
+        "WAS": 0,
+        "BOS": 0
+      },
+      "atomic_group": "DEADLINE_2021_03_25_PRESERVED_LAWFUL_IMPLEMENTATION"
+    },
+    {
+      "id": "F2_FOURNIER",
+      "date": "2021-03-25",
+      "kind": "ASSIGNMENT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+      "legal_family_ids": [
+        "BOS_TPE_AND_PICKS",
+        "BOS_COMPLETE_COST",
+        "ORL_F2_COMPLETE_COST"
+      ],
+      "movements": [
+        {
+          "player": "Evan Fournier",
+          "from": "ORL",
+          "to": "BOS"
+        }
+      ],
+      "retained": {},
+      "omitted_events": [],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {
+        "ORL": -1,
+        "BOS": 1
+      },
+      "atomic_group": "DEADLINE_2021_03_25_PRESERVED_LAWFUL_IMPLEMENTATION"
+    },
+    {
+      "id": "F3_GORDON",
+      "date": "2021-03-25",
+      "kind": "ASSIGNMENT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+      "legal_family_ids": [
+        "DEN_GORDON_PICKS_AND_CHARGE",
+        "DEN_COMPLETE_COST",
+        "ORL_COMPLETE_COST"
+      ],
+      "movements": [
+        {
+          "player": "Gary Harris",
+          "from": "DEN",
+          "to": "ORL"
+        },
+        {
+          "player": "Zeke Nnaji",
+          "from": "DEN",
+          "to": "ORL"
+        },
+        {
+          "player": "Aaron Gordon",
+          "from": "ORL",
+          "to": "DEN"
+        },
+        {
+          "player": "Gary Clark",
+          "from": "ORL",
+          "to": "DEN"
+        }
+      ],
+      "retained": {},
+      "omitted_events": [],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {
+        "DEN": 0,
+        "ORL": 0
+      },
+      "atomic_group": "DEADLINE_2021_03_25_PRESERVED_LAWFUL_IMPLEMENTATION"
+    },
+    {
+      "id": "T2_VUCEVIC_NO_TRADE",
+      "date": "2021-03-25",
+      "kind": "RETAIN",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+      "legal_family_ids": [
+        "CHI_TEAM_SALARY",
+        "ORL_COMPLETE_COST"
+      ],
+      "movements": [],
+      "retained": {
+        "Nikola Vucevic": "ORL",
+        "Al-Farouq Aminu": "ORL",
+        "Wendell Carter Jr.": "CHI",
+        "Otto Porter Jr.": "CHI"
+      },
+      "omitted_events": [
+        "Historical CHI-ORL Vucevic assignment and its two first-round obligations"
+      ],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {},
+      "atomic_group": null
+    },
+    {
+      "id": "T4_POWELL_HOOD_RETAIN",
+      "date": "2021-03-25",
+      "kind": "RETAIN",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+      "legal_family_ids": [],
+      "movements": [],
+      "retained": {
+        "Norman Powell": "TOR",
+        "Rodney Hood": "POR",
+        "Gary Trent Jr.": "WAS"
+      },
+      "omitted_events": [
+        "Historical POR-TOR Powell/Hood/Trent assignment"
+      ],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {},
+      "atomic_group": null
+    },
+    {
+      "id": "F5_MCGEE_NO_TRADE",
+      "date": "2021-03-25",
+      "kind": "OMIT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json",
+      "legal_family_ids": [
+        "DEN_F5_COMPLETE_COST",
+        "CLE_COMPLETE_COST",
+        "DEN_CLE_DATED_REGISTRATION"
+      ],
+      "movements": [],
+      "retained": {
+        "JaVale McGee": "CLE",
+        "Isaiah Hartenstein": "DEN"
+      },
+      "omitted_events": [
+        "McGee/Hartenstein assignment",
+        "DEN conditional2023 second toCLE",
+        "DEN2027 second toCLE"
+      ],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {},
+      "atomic_group": null
+    },
+    {
+      "id": "C2_VAREJAO_NO_RETURN",
+      "date": "2021-05-04",
+      "kind": "OMIT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json",
+      "legal_family_ids": [
+        "CLE_COMPLETE_COST",
+        "DEN_CLE_DATED_REGISTRATION"
+      ],
+      "movements": [],
+      "retained": {},
+      "omitted_events": [
+        "2021-05-04 Anderson Varejao return contract",
+        "2021-05-14 Anderson Varejao follow-up contract"
+      ],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {},
+      "atomic_group": null
+    },
+    {
+      "id": "F4_HALL_NO_RESIGN",
+      "date": "2021-05-09",
+      "kind": "OMIT",
+      "classification": "FICTIONAL_WORKING_EXECUTION",
+      "authority": "canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json",
+      "legal_family_ids": [
+        "ORL_COMPLETE_COST",
+        "ORL_DATED_REGISTRATION"
+      ],
+      "movements": [],
+      "retained": {},
+      "omitted_events": [
+        "2021-05-09 Donta Hall re-signing"
+      ],
+      "actual_world_receipt_certified": false,
+      "actual_private_terms_selected": null,
+      "standard_slot_delta": {},
+      "atomic_group": null
+    }
+  ],
+  "execution_design": {
+    "same_approved_atomic_moves_applied": true,
+    "public_cost_and_matching_witnesses_reused": true,
+    "financial_implementation": "Reference the lawful implementation within the accepted whole public family; do not choose unsupported bonus cents or certify real consent.",
+    "all_public_picks_and_prior_burdens_preserved_as_same_objects": true,
+    "Gordon_protection_resolution_family": "research/DEN_PUBLISHED_RIGHTS_TRANSITION_WITNESS_2026_10_07.json",
+    "Fournier_named_rights_family": "research/BOS_NAMED_RIGHTS_ASSIGNMENT_WITNESS_2026_10_06.json",
+    "F5_new_pick_claims_created": false,
+    "Hall_April_contracts_and_appearances_preserved": true,
+    "all_other_lawful_baseline_contract_events_preserved": true,
+    "after_waiver_restriction": {
+      "rule": "VII7(d)(3): old contract extension/renegotiation not before later of six months or otherwise eligible date",
+      "trade_date": "2021-03-25",
+      "six_month_floor": "2021-09-25",
+      "affected_candidate_contracts": [
+        "Theis",
+        "Green",
+        "Gafford"
+      ],
+      "whole_2021_contract_execution_certified": false,
+      "ordinary_new_FA_contract_is_not_automatically_old_contract_extension": true
+    }
+  },
+  "remaining_whole_A2_connections": [
+    "Full dated registration/member join",
+    "WAS Bonga rights-to-standard and opening Trent slot",
+    "WAS Homesley final signing slot",
+    "GSW Hutchison exact landing/operating branch",
+    "2021 finite origin/control pick settlement"
+  ],
+  "authority": {
+    "new_author_lock": false,
+    "whole_A2_complete": false,
+    "whole_K_complete": false,
+    "actual_trade_call_or_consent_certified": false,
+    "actual_financial_terms": null,
+    "actual_future_pick_outputs": null,
+    "season_selected": false,
+    "manuscript_allowed": false
+  }
+}

@@ -47,7 +47,9 @@ def build(root=ROOT):
     selected = load(root, working.OUTPUT)
     candidates = load(root, 'design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json')
     story = (root / 'canon/STORY_BIBLE.md').read_text(encoding='utf-8-sig')
-    assert not e3.validate(previous, root=root), 'third function source is stale'
+    # The CF builder validates the same full predecessor; do not traverse it twice.
+    # Independent loader patches must not substitute a different predecessor.
+    assert previous == working.load(root, e3.OUTPUT), 'predecessor input differs from CF validation input'
     assert not working.validate(selected, root=root), 'CF07 selected design source is stale'
     assert previous['episode_function_id'] == 'A01-EF-003'
     assert (previous['final_function_order'], previous['planned_allocation_slot']) == (3, 3)

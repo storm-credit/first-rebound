@@ -39,7 +39,9 @@ def build(root=ROOT):
     previous = load(root, e8.OUTPUT)
     selected = load(root, working.OUTPUT)
     packet = load(root, 'design/CP2_ACT_SUBACT_PACKET.json')
-    assert not e8.validate(previous, root=root), 'E8 source-current function is stale'
+    # The CF builder validates the same full predecessor; do not traverse it twice.
+    # Independent loader patches must not substitute a different predecessor.
+    assert previous == working.load(root, e8.OUTPUT), 'predecessor input differs from CF validation input'
     assert not working.validate(selected, root=root), 'CF12 selected source is stale'
     assert previous['episode_function_id'] == 'A01-EF-008'
     assert (previous['final_function_order'], previous['planned_allocation_slot']) == (8, 8)

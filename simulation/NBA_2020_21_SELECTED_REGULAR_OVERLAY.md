@@ -12,7 +12,8 @@
 | F4 Hall5/9 재계약 생략 | 5 | 5 | HALL_FIVE_GAME_LOAD_SCREEN의 candidate_minutes(단위초) |
 | F5 McGee 거래 생략 | 25 | 23 | FINAL859 벡터에 Denver McGee→Hartenstein, Cleveland Hartenstein→McGee |
 | C2 Varejão 복귀 생략 | 5 | 5 | C2_COMPLETE_WORKING_MINUTES의 전체 벡터 |
-| 최종 고유 팀 경기 | 62−2 | 60 | 고유 경기58개 |
+| F5 기존 화면 밖 E/CHI_POST 네 분기 | 4 | 4 | 기본 전체 벡터의 거래 후 선수만 잔류 상대 선수로 치환 |
+| 최종 고유 팀 경기 | 66−2 | 64 | 고유 경기62개 |
 
 F4는 더 보수적인 [후속5경기 부담 벡터](ORLANDO_2020_21_HALL_FIVE_GAME_LOAD_SCREEN.json)를 기존 위임 아래 감독·건강 작업 모델로 선택했다. 최초 감도 화면은 수정하지 않았다. Bamba의 원역사 양의 출전3경기에서 추가분0을 유지하지만 이 원분 상단이 새 세계의 의료적 허가라는 뜻은 아니다. Vucevic·Wagner·Nnaji의 새 분 역시 감독 모델이다.
 
@@ -20,9 +21,13 @@ C2의5/5·5/7 전체 벡터에는 이전 F5 Hartenstein 제거분이 이미 포�
 
 각 치환은 실명5인조 증인으로 전체 선수초와 공통 clock을 맞춘다. Denver11행은 원증인의 McGee 이름을 Hartenstein으로 바꾸며 실제 분은 보존한다. 선발도 F5의 candidate_starters로 치환하고 J1/F4/C2의 명시된 선발을 연결한다. 제거 선수가 선발에 남지 않으며 선발5명·양수 분·해당5인조180초 이상의 증인을 검문한다. Cleveland14행의 저장된 조건부 증인 및 C2새5행의 증인을 연결한다. 선형계획 증인의 존재는 실제 감독 판단·효율·의료·등록 접수 증명이 아니다. 전체2160행의 교체 순서를 생성하거나 인증하지 않았다.
 
+## F5 범위 누락 네 행 수리
+
+2026-10-07 후속 전수명단 검문에서 FINAL859 화면 밖 네 행이 과거 실제 거래 선수를 유지한 오류를 찾았다. DEN 4/9 SAS전579초·4/28 NOP전691초는 McGee→Hartenstein, CLE 4/17 CHI전962초·4/21 CHI전973초는 Hartenstein→McGee로 수리했다. 원역사 기본자료는 바꾸지 않고 작업 입력의 해당 선수만 치환한다. 나머지2156팀 벡터·모든 선발/팀시계·기존107증인은 보존했다. 새 네 증인은 `CONSTRUCTED_UNIFORM_MATROID_EXISTENCE_ONLY`이며 과거 관측 증인으로 인증하지 않는다. 1080승패·순위 변경0이다. [전후 전수 검문](../reviews/F5_FOUR_SOURCE_BRANCH_COMPLETION_REVIEW_2026_10_07.json)과 [재현기](../tools/audit_2020_21_f5_source_branch_completion.py)는 네 행 중 하나라도 과거 거래 선수를 복원하면 거부한다.
+
 ## 1080경기 승패를 한 평점법으로 다시 계산
 
-[단일 점수차 결합 도구](../tools/audit_2020_21_selected_margin_join.py)가1008개의 비시카고 표현과72개의 시카고 표현에 J1을 반영한1080경기 기준 상수·미확인 평점 계수를 제공한다. 그 위에 J1을 제외한33개 팀의 **완성 벡터 차이**를 적용한다. `cc.form`의 선수초 효과와 기존0.5 B2B 양수 delta 부하 항을 함께 계산하고, 공유 Fictional Rival 평점1.0252302025782687과 같은 BPM 실증 스트레스 범위를 전 시즌에 사용한다. 미확인 평점은0으로 채우지 않는다.
+[단일 점수차 결합 도구](../tools/audit_2020_21_selected_margin_join.py)가1008개의 비시카고 표현과72개의 시카고 표현에 J1을 반영한1080경기 기준 상수·미확인 평점 계수를 제공한다. 그 위에 J1을 제외한37개 팀의 **완성 벡터 차이**를 적용한다. `cc.form`의 선수초 효과와 기존0.5 B2B 양수 delta 부하 항을 함께 계산하고, 공유 Fictional Rival 평점1.0252302025782687과 같은 BPM 실증 스트레스 범위를 전 시즌에 사용한다. 미확인 평점은0으로 채우지 않는다.
 
 시카고 상대 경기의 추가 피로는 기존 `UPSTREAM_CHI_ONLY` 계산 범위를 보존한다. 그외 경기는 해당 팀의 B2B 여부에 따라 노출 차이를 계산한다. RAPTOR 결과를 섞지 않는다. 기존 화면의 구간을 단순히 더한 결과를 새 검산으로 부르지 않는다.
 

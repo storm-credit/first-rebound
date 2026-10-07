@@ -1,0 +1,158 @@
+{
+  "schema": "A01_SOURCE_VALIDATION_DAG_PERFORMANCE_AUDIT_V1",
+  "status": "BOUNDED_DAG_DUPLICATION_FIX_CURRENT_E9_ACCEPTED_ROOT_INTEGRATION_PENDING",
+  "date_local": "2026-10-07",
+  "baseline_main": "75a1d526e78ef53fbf3e72fa7cad8899a57debf9",
+  "scope": "Six A01 E4–E9 build paths; no canonical story, result, choice, gate or central ledger changes",
+  "changed_builders": [
+    "tools/build_a01_e4_final_episode_function.py",
+    "tools/build_a01_e5_final_episode_function.py",
+    "tools/build_a01_e6_final_episode_function.py",
+    "tools/build_a01_e7_final_episode_function.py",
+    "tools/build_a01_e8_final_episode_function.py",
+    "tools/build_a01_e9_final_episode_function.py"
+  ],
+  "mechanism": {
+    "before": "E_n validates E_(n-1) directly and validates CF, whose build validates E_(n-1) again; doubling repeated ancestors",
+    "after": "Keep CF.validate(selected) and its full ancestor validation. Replace only redundant direct predecessor.validate with full-object previous == working.load(root,predecessor.OUTPUT).",
+    "unchanged": [
+      "Full source reconstruction",
+      "All source hashes",
+      "Original validate(data)==build(root) equality",
+      "Full predecessor body validation through CF",
+      "Failure propagation"
+    ],
+    "cache_added": false,
+    "mtime_based_shortcut": false,
+    "source_hash_checks_skipped": false
+  },
+  "benchmarks": [
+    {
+      "kind": "DIRECT_ORIGINAL_PERSISTED_INPUT_E9_BUILD",
+      "elapsed_seconds": 3.410378900007345,
+      "build_validate_calls": 1147,
+      "build_valid": true,
+      "E1_E2_E3_each_build_calls": 64,
+      "trial_build_calls": 160,
+      "followup_build_calls": 96
+    },
+    {
+      "kind": "OPTIMIZED_IN_MEMORY_DERIVED_METADATA_REPRODUCTION_E9_BUILD",
+      "elapsed_seconds": 0.13992089999374002,
+      "build_validate_calls": 39,
+      "build_valid": true,
+      "persisted_derived_files": 0
+    },
+    {
+      "kind": "DIRECT_CURRENT_PERSISTED_INPUT_E9_BUILD_AFTER_ROOT_REFRESH",
+      "elapsed_seconds": 0.09646410000277683,
+      "build_validate_calls": 39,
+      "build_valid": true,
+      "persisted_artifact_exact_match": true,
+      "E1_E2_E3_each_build_calls": 1,
+      "trial_build_calls": 3,
+      "followup_build_calls": 2
+    }
+  ],
+  "measurement_limits": [
+    "Single bounded runs with Python sys.setprofile call counting, not a repeated benchmark distribution",
+    "Prototype post run used in-memory regenerated JSON metadata; final run uses real persisted inputs",
+    "Import time excluded; operating-system cache state not controlled",
+    "These measurements do not certify total CP2 suite latency or all future validators"
+  ],
+  "semantic_projection_audit": {
+    "rebuilt_in_memory_modules": [
+      "build_a01_e4_final_episode_function",
+      "build_a01_cf08_team_preparation_working_model",
+      "build_a01_e5_final_episode_function",
+      "build_a01_cf09_game_priority_working_model",
+      "build_a01_e6_final_episode_function",
+      "build_a01_cf10_prep_comparison_working_model",
+      "build_a01_e7_final_episode_function",
+      "build_a01_cf11_academic_transfer_working_model",
+      "build_a01_e8_final_episode_function",
+      "build_a01_cf12_move_intent_working_model",
+      "build_a01_e9_final_episode_function"
+    ],
+    "artifacts": [
+      "design/A01_E4_FINAL_EPISODE_FUNCTION.json",
+      "design/A01_CF08_TEAM_PREPARATION_WORKING_MODEL_2026_10_07.json",
+      "design/A01_E5_FINAL_EPISODE_FUNCTION.json",
+      "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json",
+      "design/A01_E6_FINAL_EPISODE_FUNCTION.json",
+      "design/A01_CF10_PREP_COMPARISON_WORKING_MODEL_2026_10_07.json",
+      "design/A01_E7_FINAL_EPISODE_FUNCTION.json",
+      "design/A01_CF11_ACADEMIC_TRANSFER_WORKING_MODEL_2026_10_07.json",
+      "design/A01_E8_FINAL_EPISODE_FUNCTION.json",
+      "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json",
+      "design/A01_E9_FINAL_EPISODE_FUNCTION.json"
+    ],
+    "count": 11,
+    "excluded_metadata_keys": [
+      "source_rev_sha256",
+      "source_sha256"
+    ],
+    "all_other_recursive_fields_identical_to_prior_saved_artifacts": true,
+    "persisted_derived_files_by_this_agent": 0
+  },
+  "negative_controls": [
+    {
+      "id": "OWNED_OUTPUT_EXIT_MUTATION_E4_TO_E9",
+      "count": 6,
+      "result": "REJECTED",
+      "scope": "All six final output bodies changed under otherwise valid source metadata"
+    },
+    {
+      "id": "INDEPENDENT_PREDECESSOR_LOADER_NON_ENTRY_FIELD",
+      "count": 1,
+      "result": "REJECTED",
+      "mutation": "Only final builder load changes E3.whole_g13_complete while exit_state stays unchanged",
+      "observed_error": "source construction: predecessor input differs from CF validation input"
+    },
+    {
+      "id": "SHARED_FRESH_HASH_UPSTREAM_WRONG_EXIT",
+      "count": 1,
+      "result": "REJECTED",
+      "mutation": "Both readers see the same modified E3.exit_state and its newly calculated raw source hash",
+      "observed_error": "source construction: CF07 selected design source is stale"
+    }
+  ],
+  "safe_integration_rule": {
+    "required": "CF.build must load and validate the exact previous final artifact; equality of two reads alone does not supply its validation",
+    "A02_E1": "CF01.build validates E9, so same duplication fix is applicable; g11 owns file",
+    "A02_E2": "CF02.build validates CF01, not final E1; keep E1.validate. No permission to remove it from this pattern.",
+    "root_refresh": "Root refreshes dependent source-only metadata in topological order once after stable edits; root reported persisted ancestor refresh8.758s/core3 unchanged; this agent directly confirms current persisted E9 exact reconstruction",
+    "root_refresh_report_is_independent_measurement_by_this_agent": false
+  },
+  "source_sha256": {
+    "tools/build_a01_e4_final_episode_function.py": "26c1f725cab46b5fa8c63c13184a8adcb88d222a5bb6a570645f57bd95fb5425",
+    "tools/build_a01_e5_final_episode_function.py": "d2aef8f579d51e230fc221da53e5a523c0b3d830b2d70342bc936b1daea59515",
+    "tools/build_a01_e6_final_episode_function.py": "9a3facac931aeba3ba2596c48d99840c3d0f487d2046bd6bd4bbb39b44fd6b97",
+    "tools/build_a01_e7_final_episode_function.py": "7568e8cf3e7112def0beb92f9c580f5198148d772a4e85528c1cfac66c20dda8",
+    "tools/build_a01_e8_final_episode_function.py": "a243c0f5c4c3879af8fbe46365037c572c5dbd3684e1392e703e8fff1604cfc8",
+    "tools/build_a01_e9_final_episode_function.py": "f5bf4782fa13e80e87e7af15465b905fb2e05bd5dd8ac45419059deaa6ba9bca",
+    "design/A01_E4_FINAL_EPISODE_FUNCTION.json": "ad926520b41079238a3d78e3a9a8c16201ab4aa1991d504cdd140797d13d9150",
+    "design/A01_CF08_TEAM_PREPARATION_WORKING_MODEL_2026_10_07.json": "2c750cfb7cee290edc20f50cf0fd41eb9a8a776e8a8408161216d35fbf500d99",
+    "design/A01_E5_FINAL_EPISODE_FUNCTION.json": "3365a5d505f2cbe3d8442734dd81d482d78be150d3bea86e8ee42d12341f5e49",
+    "design/A01_CF09_GAME_PRIORITY_WORKING_MODEL_2026_10_07.json": "54f4f506b78029a2a40b6d6611bdb05baeecf425ae643a009f1200c1d56217d6",
+    "design/A01_E6_FINAL_EPISODE_FUNCTION.json": "9c5fa104822a364f76dbb53b85150d8122ec1c9383891437589d12675d4beaf3",
+    "design/A01_CF10_PREP_COMPARISON_WORKING_MODEL_2026_10_07.json": "941d9b20f933a1723f272d2062cf1197bcd9190f9cb798ce1c90fe88c5631e67",
+    "design/A01_E7_FINAL_EPISODE_FUNCTION.json": "a175ea987cf76456fe3bd5c2bc1c467b7a77ec214f950efc7f609e0df68953fe",
+    "design/A01_CF11_ACADEMIC_TRANSFER_WORKING_MODEL_2026_10_07.json": "81da52ddfff3519a8ba51adf24536de9a1c07d9a836774ced672250ab2e8231c",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "6f634222229b26ae316f27fcc4322dd6a06745a23fe65d33c4f3e8c6b9b991de",
+    "design/A01_CF12_MOVE_INTENT_WORKING_MODEL_2026_10_07.json": "64ba1f65bb3c97423b540ca16570aeb37a5636671b20ec809c771deed1a7dc4a",
+    "design/A01_E9_FINAL_EPISODE_FUNCTION.json": "748b5e628b5433fd10e1b5d060571a082775d78a53eb7c038842df3ac62f62b7"
+  },
+  "source_hash_convention": "UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "scope_limits": {
+    "new_utility_cache_files_created": 0,
+    "new_author_selection": false,
+    "central_ledger_or_cp2_edits_by_this_agent": false,
+    "staging_or_commit_by_this_agent": false,
+    "closing_witness_written": false,
+    "whole_G13_completed": false,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  }
+}

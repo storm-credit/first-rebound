@@ -44,7 +44,9 @@ def build(root=ROOT):
     previous = load(root, e5.OUTPUT)
     selected = load(root, working.OUTPUT)
     candidates = load(root, 'design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json')
-    assert not e5.validate(previous, root=root), 'fifth function source is stale'
+    # The CF builder validates the same full predecessor; do not traverse it twice.
+    # Independent loader patches must not substitute a different predecessor.
+    assert previous == working.load(root, e5.OUTPUT), 'predecessor input differs from CF validation input'
     assert not working.validate(selected, root=root), 'CF09 selected routine source is stale'
     assert previous['episode_function_id'] == 'A01-EF-005'
     assert (previous['final_function_order'], previous['planned_allocation_slot']) == (5, 5)

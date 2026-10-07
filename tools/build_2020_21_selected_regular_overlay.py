@@ -101,6 +101,42 @@ def authority_rules(authority,followups,c2_direction):
         raise ValueError('approved C2 omission route required')
 
 
+def complete_f5_source_branches(base_rows, overlays):
+    """Cover omitted-trade donors outside the old FINAL859-only screen.
+
+    Four selected E/CHI_POST vectors still carried the historical trade.
+    Keep their complete vectors, starters and clock; substitute only the
+    retained counterpart under the already delegated minute model.
+    """
+    from build_2020_21_regular_clock_completion import construct_witness
+    missing={}
+    for row in base_rows:
+        if row['date']<'2021-03-25' or row['team'] not in ('DEN','CLE'):continue
+        key=row['event_id'],row['team']
+        current=overlays.get(key,row)
+        donor,receiver=('JaVale McGee','Isaiah Hartenstein') if row['team']=='DEN' else ('Isaiah Hartenstein','JaVale McGee')
+        if current['player_seconds'].get(donor,0)<=1e-7:continue
+        if key in overlays:raise ValueError('existing full overlay contradicts F5 omission')
+        vector=deepcopy(row['player_seconds']);seconds=vector.pop(donor)
+        if receiver in vector or donor in row['starters']:
+            raise ValueError('F5 uncovered branch requires separate full-vector/start selection')
+        vector[receiver]=seconds
+        duration=row['game_duration_seconds'];starters=row['starters']
+        residual={p:n-(180 if p in starters else 0) for p,n in vector.items()}
+        if min(residual.values())<0:raise ValueError('F5 source starters lack starting-clock capacity')
+        witness=[dict(players=list(starters),seconds=180)]+construct_witness(residual,duration-180)
+        item=make_overlay(row['event_id'],row['team'],vector,witness,duration,
+            dict(path=BASE,operation='F5_RETAINED_COUNTERPART_UNCOVERED_SOURCE_BRANCH',
+                 original_branch_source=deepcopy(row['source'])),[donor],starters)
+        item['f5_scope_completion']=dict(original_donor=donor,retained_counterpart=receiver,seconds=seconds,
+            original_full_vector=row['player_seconds'],classification='AUTHOR_DELEGATED_WORKING_MODEL_NOT_MEDICAL_PROOF')
+        item['overlay_stage']='F5_SCOPE_COMPLETION';missing[key]=item
+    expected={('2021-04-09_DEN_SAS','DEN'),('2021-04-28_DEN_NOP','DEN'),
+              ('2021-04-17_CHI_CLE','CLE'),('2021-04-21_CLE_CHI','CLE')}
+    if set(missing)!=expected:raise ValueError('F5 uncovered source-branch domain changed; review named branches')
+    return missing
+
+
 def build():
     base=read(BASE);base_check.validate_against_sources(base)
     if base['source_sha256']!={p:sha(p) for p in base['source_sha256']}:
@@ -148,8 +184,10 @@ def build():
         add(make_overlay(b['event_id'],'CLE',b['alternate_seconds'],b['lineup_witness'],
             b['game_duration_seconds'],dict(path=C2,operation=b['overlay_operation']),b['removed_players'],b['starters']),
             'C2',replace=b['prior_f5_same_team_override_replaced'])
-    if len(overlays)!=60 or len({e for e,t in overlays})!=58 or len(history)!=2:
-        raise ValueError('60-team/58-game/2-complete-replacement coverage')
+    completion=complete_f5_source_branches(base['team_games'],overlays)
+    overlays.update(completion)
+    if len(overlays)!=64 or len({e for e,t in overlays})!=62 or len(history)!=2:
+        raise ValueError('64-team/62-game/2-complete-replacement coverage')
     team_rows=deepcopy(base['team_games']);baseline={(b['event_id'],b['team']):b for b in base['team_games']}
     if not set(overlays)<=set(baseline):raise ValueError('overlay outside single-policy base')
     for row in team_rows:
@@ -170,7 +208,7 @@ def build():
         row['availability_classification']='AUTHOR_DELEGATED_POSITIVE_MINUTE_WORKING_MODEL'
         row.update(actual_active_list_certified=False,medical_certified=False,legal_registration_cleared=False)
     final={(b['event_id'],b['team']):b for b in team_rows}
-    # The margin join contains J1 already. Add only the 33 other complete-team
+    # The margin join contains J1 already. Add only the 37 other complete-team
     # changes, measured from the un-overlaid base vector, once per team.
     margins=margin_join.build();margin_rows={x['event_id']:x for x in margins['rows']}
     if len(margin_rows)!=1080:raise ValueError('complete single BPM margin input required')
@@ -188,6 +226,7 @@ def build():
     b2b={(t,d):i>0 and (date.fromisoformat(d)-date.fromisoformat(ds[i-1])).days==1
          for t,days in dates.items() for ds in [sorted(days)] for i,d in enumerate(ds)}
     extra_by_game=defaultdict(list)
+    completion_branches=policy.load()[2]
     for key,overlay in sorted(overlays.items()):
         if overlay['overlay_stage']=='J1':continue
         gid,team=key;old=baseline[key]['player_seconds'];new=final[key]['player_seconds']
@@ -195,7 +234,11 @@ def build():
                 if abs(new.get(p,0)-old.get(p,0))>1e-7}
         effect,terms=policy.cc.form(change,ratings,{})
         source_profile='OBSERVED_HELD' if team=='CLE' else 'LOW_MINUTES'
-        actual=source_rows[gid,team,source_profile]['actual_seconds']
+        if key in completion:
+            branch=completion_branches[gid,team,'LOW_MINUTES']
+            if branch['alternate_seconds']!=old:raise ValueError('F5 completion base differs from actual source branch')
+            actual=branch['actual_seconds']
+        else:actual=source_rows[gid,team,source_profile]['actual_seconds']
         old_delta={p:old.get(p,0)-actual.get(p,0) for p in set(old)|set(actual)}
         new_delta={p:new.get(p,0)-actual.get(p,0) for p in set(new)|set(actual)}
         incremental_penalty=(.5*(sum(max(0,n) for n in new_delta.values())-
@@ -209,7 +252,7 @@ def build():
             moved_seconds=change,effect=effect,unknown_terms=terms,home_sign=sign,
             incremental_workload_penalty=incremental_penalty,b2b=b2b[team,games_by_id[gid]['date']],
             fatigue_enabled=fatigue_enabled,fatigue_scope='BOTH_TEAMS_B2B' if fatigue_enabled else 'UPSTREAM_CHI_ONLY'))
-    if sum(map(len,extra_by_game.values()))!=33:raise ValueError('J1 excluded from 33 additional team shocks')
+    if sum(map(len,extra_by_game.values()))!=37:raise ValueError('J1 excluded from 37 additional team shocks')
     games=[];joint=[]
     for original in base['regular_season_games']:
         gid=original['event_id'];source=margin_rows[gid];constant=source['home_margin_constant']
@@ -251,7 +294,8 @@ def build():
         overlay_sources={stage:path for stage,path in [('J1',J1),('F4',F4),('F5',F5),('C2',C2)]},
         complete_replacement_history=history,source_clock_gaps_retained=[dict(event_id=r['event_id'],
             team=r['team'],gap_seconds=r['normalization_delta_seconds']) for r in team_rows if r['normalization_delta_seconds']],
-        additional_team_effects=33,joint_cha_cle_checks=joint,overlay_team_games=60,overlay_games=58,
+        additional_team_effects=37,joint_cha_cle_checks=joint,overlay_team_games=64,overlay_games=62,
+        f5_source_branch_completions=[dict(event_id=e,team=t,**b['f5_scope_completion']) for (e,t),b in sorted(completion.items())],
         full_recomputed_regular_games=1080,total_team_games=2160,
         unresolved_games=unresolved,changed_winner_games=changes,recomputed_team_wins=dict(sorted(wins.items())),
         fatigue_policy='RETAINED_0_5_B2B_POSITIVE_DELTA_EXPOSURE_WITH_UPSTREAM_CHI_ONLY_SCOPE',
