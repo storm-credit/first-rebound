@@ -1,0 +1,54 @@
+{
+  "id": "NBA_2023_DRAFT_ORIGIN_ORDER_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "INDEPENDENTLY_ACCEPTED_UNADOPTED_ORIGIN_AND_LOTTERY_CANDIDATE",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF-8 BOM removed, line endings normalized LF, SHA-256",
+  "source_sha256": {
+    "tools/build_2023_draft_origin_order.py": "08fc4ff594318c14ee6c4e1bf1d192b69f77ee5382b62141f0485dc94c4a77eb",
+    "simulation/NBA_2023_DRAFT_ORIGIN_ORDER.json": "e51f36a83e8961aa2d81cd342cce812f91353427cb26999e9bb0cd56275d4320",
+    "simulation/NBA_2023_DRAFT_ORIGIN_ORDER.md": "03062beca9cc10b370b786a2c9076d8af7b7bcb02c3eae0fba7555c1922d0ef4"
+  },
+  "primary_direct_evidence": {
+    "Bylaws_2019_raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+    "Bylaws_pdf_pages_1based": [
+      85,
+      86,
+      87
+    ],
+    "official_2023_release_url": "https://pr.nba.com/ties-broken-for-order-of-selection-in-nba-draft-2023-presented-by-state-farm/",
+    "official_2023_release_observed": "April 17 release explicitly identifies May 16 lottery, first four by lottery, positions 5–14 by inverse regular record, and separate second-round list; its actual teams/order were not imported.",
+    "failed_http_captures_separate_from_body": 4
+  },
+  "direct_recomputation": {
+    "physical_inputs": "Six saved source pins matched; raw Bylaws PDF and page text SHA-256 matched; four HTTP403 caches were checked as failures, not adopted official bodies.",
+    "regular_and_qualification": "1,230 global rows independently counted into 30 teams at 82 games; 16 playoff and 14 lottery origins partition all teams.",
+    "inverse_record_and_weights": "Fictional 14-win CHA/WAS share original inverse-record positions 4–5, 125+105=230 assigned combinations, or 115 each. Five two-team record-tie buckets produce 2^5=32 permutations; 14 weights sum 1,000.",
+    "lottery_trace": "All 25 SHA256 counter events regenerated from the preannounced candidate seed; five distinct-ball attempts include one repeat-ORL discard and yield MEM, ORL, CHA, CLE. This is deterministic fictional mapping and not a physical NBA draw claim.",
+    "probability": "Independent subset dynamic program gives 1,001 four-ball combinations with one unassigned; 14P4=24,024 ordered top-four paths, 32 tie states, 768,768 factored joint states, exact total mass 1 and saved position marginals. Candidate conditional path probability 207/1,398,250; with all tie states 207/44,744,000.",
+    "origins_and_ties": "Both rounds contain each of 30 origins once. Second-round same-record ordering independently reversed the candidate actual first-round rank after lottery, including CHA/WAS and MIL/UTA; Chicago first origin remains 16, WAS-held Chicago second origin candidate rank 46.",
+    "rights_scope": "All 60 potential origin rows have public holder null, sanction false, and UPC/Tender false. Named Chicago claims are distinct source ports; original real 58-pick outcomes and forfeitures were not copied."
+  },
+  "independent_returned_semantic_controls": [
+    {
+      "mutation": "Return consumed Chicago second claim holder CHI instead of WAS",
+      "result": "REJECTED: Returned consumed physical input changed"
+    },
+    {
+      "mutation": "Swap returned 72-win MIL/UTA second-round ranks while keeping the first-round candidate",
+      "result": "REJECTED: Returned origin/order/rights scope altered"
+    },
+    {
+      "mutation": "Return top-four candidate conditional probability 1",
+      "result": "REJECTED: Returned joint probability/scope changed"
+    }
+  ],
+  "limits": {
+    "fictional_draw_selected_or_canon_adopted": false,
+    "all60_public_holders_or_sanctions_certified": false,
+    "real_2023_draw_or_draftees_copied": false,
+    "UPC_or_Tender_selected": false,
+    "whole_macro3": false,
+    "manuscript": false
+  },
+  "additional_substantive_defects": []
+}

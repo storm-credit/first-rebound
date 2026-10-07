@@ -1,0 +1,539 @@
+{
+  "id": "CHICAGO_2023_ROOKIE_CANDIDATE_FAMILY",
+  "status": "THREE_SOURCE_SUPPORTED_CONDITIONAL_CHOICES_PENDING_SELECTION_AND_PEER_REVIEW",
+  "baseline_source_checkpoint": "PR499 241821ba; source-current immutable later leaves consumed without baseline rewriting",
+  "source_sha256": {
+    "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+    "research/CHICAGO_2023_FIRST_ROUND_SLOT_16_2026_10_08.json": "abbcdaaa6ff14d277f88d47fa600320fc6458ec4b057e5a7b73b414b6fbabf30",
+    "research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.json": "b139af4af09a48dd1c9e345d17d05fc8e38f4cb021193f32bc3a09ed537f49e3",
+    "simulation/NBA_2023_DRAFT_ORIGIN_ORDER.json": "e51f36a83e8961aa2d81cd342cce812f91353427cb26999e9bb0cd56275d4320",
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json": "c0650dbb07b75cc1523bf7ccc7f658576ac5b9a8784f1e80cc97178897703170",
+    "research/MACRO3_2023_CBA_BOUNDARY_PRIMARY_SOURCES_2026_10_07.json": "59b03c494187eb29177640806ae97427a837abff38bf4516f588758fc87a0112",
+    "canon/DELEGATED_2023_DRAFT_ORIGIN_DRAW_DECISION_2026_10_08.json": "6df7f62328263c0b3864e2d4a05cb4a5b56edbd332d5d31556627c6b421d9292",
+    "reviews/CHI_2023_SELECTED_ROUTINE_EXECUTION_G11_INDEPENDENT_REVIEW_2026_10_08.json": "e9bfc3699dd2da3c4cfd6871e05f1b729748674018e617f098f3e5138065f169",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "research/NBA_2022_FULL_DRAFT_WORKING_BOARD_2026_10_08.json": "3bdad52ebaacda5abb23b9908b8ed3a9b85cfaa09d838819a959cd024a58e940",
+    "canon/DELEGATED_2022_DRAFT_AND_CHICAGO_ROOKIE_DECISION_2026_10_08.json": "a32dfc265a7250bc89df366c14b43444645438675674f4be66feda2b6a053eba",
+    "tools/build_chicago_2023_rookie_candidate_family.py": "e719b6775be3ed91b7e116339b36314c74a1e218aea4299e74031dfa5742c305"
+  },
+  "primary_support": {
+    "CBA": {
+      "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+      "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+      "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "page_text_sha256": {
+        "31": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52",
+        "32": "36dcc728a20e458fcbce59867c8005c9c97ee60a299e7b1de1608dd27ac67d07",
+        "33": "397f25af16b982f0ab5a0199789aab9c9b9e577fe0fd3b010fdb0f5fc3012d5e",
+        "90": "b3ddf20fa2f483cb332e7f79736d759c0dae4905b25f26e860e691fc0b734d65",
+        "243": "dbbd018d9ac268a74a2783409b3dbd6c67f4e2bd433c75fe6d61b61f9bb56238",
+        "263": "b59e862b18edab17257a4144a81756f2cc4ee22353962f1eeb889decf825fb3d",
+        "314": "ba6cbb014b01eeff2e41de886f7caf82a583aafa57b3f7e1fce8d89c77fe6cbe",
+        "316": "911b6ee4c99c608bd22675715b0732d96528ce0b81cca4a35e22df051d8d2303",
+        "317": "52dc9099c112651e81d03ad5a18743fe012760f205d4c636ee065e2931234a6b",
+        "323": "58d024e3f6fff5c433d7e8839302c940c891131ba1afe29f5cbc983c87971a8d",
+        "631": "a299cb98e6f5465d546cfdff55b960b9d659275c4b4460109e01b06ecfb624c9"
+      },
+      "extraction": "PyMuPDF page.get_text() UTF8, raw extracted text; no LF normalization for page text"
+    },
+    "college_raw": [
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\UCLA.raw",
+        "url": "https://uclabruins.com/news/2023/06/22/jaquez-jr-bailey-clark-selected-in-2023-nba-draft",
+        "raw_sha256": "eebea48632b886bb9dae8c93f4ec1d46bdc87f1f9297d4477f501fde02ee7b89",
+        "HTTP_status": 200,
+        "body_directly_read": true,
+        "fact_scope": "college season and historical draft; not future NBA productivity"
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\SCU_bio.raw",
+        "url": "https://santaclarabroncos.com/sports/mens-basketball/roster/brandin-podziemski/7673",
+        "raw_sha256": "a0f68e0555c1ce4ff6dad6c2b08b146546adcb0dc7f9ae299cf6bf630a53752b",
+        "HTTP_status": 200,
+        "body_directly_read": true,
+        "fact_scope": "college season and historical draft; not future NBA productivity"
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\IOWA.raw",
+        "url": "https://hawkeyesports.com/news/2023/06/22/kris-murray-picked-23rd-by-portland-trail-blazers",
+        "raw_sha256": "42b36f7cc18765b8c945d4bc76ddf1446c70c53ae788c8bd4c37234d52ca6f44",
+        "HTTP_status": 200,
+        "body_directly_read": true,
+        "fact_scope": "college season and historical draft; not future NBA productivity"
+      }
+    ],
+    "failed_raw_not_body": [
+      {
+        "id": "jaquez",
+        "url": "https://www.nba.com/draft/2023/prospects/jaime-jaquez-jr",
+        "HTTP_status": 403,
+        "raw_sha256": "77e82cd8137c559659062c16721c6ef9116003f5508816141661ceacf2d77eff",
+        "bytes": 421,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\jaquez.raw",
+        "raw_body_adopted": false,
+        "body_evidence": false
+      },
+      {
+        "id": "podziemski",
+        "url": "https://www.nba.com/draft/2023/prospects/brandin-podziemski",
+        "HTTP_status": 403,
+        "raw_sha256": "d5746fd0be539e91fedbc6879fc7d8c7e87308aee5c725a8aabb1c0ce11dced5",
+        "bytes": 420,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\podziemski.raw",
+        "raw_body_adopted": false,
+        "body_evidence": false
+      },
+      {
+        "id": "murray",
+        "url": "https://www.nba.com/draft/2023/prospects/kris-murray",
+        "HTTP_status": 403,
+        "raw_sha256": "1c706641f203342d52ff2262ef262040d8aad459716a12471d614b557b4fc03d",
+        "bytes": 413,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\murray.raw",
+        "raw_body_adopted": false,
+        "body_evidence": false
+      },
+      {
+        "id": "SCU",
+        "url": "https://santaclarabroncos.com/news/2023/6/22/mens-basketball-brandin-podziemski-selected-19th-overall-by-golden-state-warriors.aspx",
+        "HTTP_status": 404,
+        "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\SCU.raw",
+        "raw_body_adopted": false,
+        "body_evidence": false
+      },
+      {
+        "id": "NBA_draft_order",
+        "url": "https://www.nba.com/news/2023-nba-draft-order",
+        "HTTP_status": 403,
+        "raw_sha256": "932cf0305c7befc09f71accd2ad2c911d33c84fbb7198a839de09d6c44a1cba7",
+        "bytes": 406,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-2023-rookie-20261008\\NBA_draft_order.raw",
+        "raw_body_adopted": false,
+        "body_evidence": false
+      }
+    ],
+    "NBA_draft_web_observation": {
+      "url": "https://www.nba.com/news/2023-nba-draft-order",
+      "observation": "NBA indexed result: Jaquez MIA18; Podziemski GSW19; Murray POR23.",
+      "indexed_text_observed": true,
+      "HTTP_raw_body_certified": false,
+      "actual_2023_order_is_fictional_first15_authority": false
+    },
+    "source_disagreement": {
+      "Kris_Murray_college_PPG": "Iowa 20.2; NBA prospect profile 20.7. Iowa primary adopted; no silent reconciliation."
+    }
+  },
+  "source_refresh_record": {
+    "old_ROUTINE_pin": "b78a8217f32f28db00364534cbaa1cdc98d76e9cf391ce773ea7af706ad89661",
+    "old_pin_check": "REJECTED_STALE_BEFORE_FIRST_SUCCESSFUL_GENERATION",
+    "new_generation_input": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+    "root_frozen_reviewed_input_acknowledged": true,
+    "old_failed_output_certified_current": false
+  },
+  "source_join": {
+    "July7_named_STD14": [
+      "Lauri Markkanen",
+      "Alex Caruso",
+      "LaMelo Ball",
+      "Coby White",
+      "Chris Duarte",
+      "Javonte Green",
+      "Joe Wieskamp",
+      "Denzel Valentine",
+      "Wendell Carter Jr.",
+      "Protagonist",
+      "Zach LaVine",
+      "Thaddeus Young",
+      "Tomas Satoransky",
+      "Walker Kessler"
+    ],
+    "live9_plus_routine5": true,
+    "TW": 0,
+    "CHI_owned_first": 16,
+    "CHI_owned_second_count": 0,
+    "2023_origin_draw_selected_by_separate_root_record": true,
+    "CHI16_independently_derived_without_whole_draw": true,
+    "origin_candidate_generation_status_rewritten": false,
+    "whole_2023_holders_forfeitures_draftees_certified": false,
+    "prior_selected_2021_and_2022_boards_checked": 120,
+    "candidate_prior_draft_duplicate_count": 0,
+    "source_routine_candidate_false_flags_are_generation_history": true
+  },
+  "candidate_rows": [
+    {
+      "id": "J16",
+      "player": "Jaime Jaquez Jr.",
+      "position": "SG/SF",
+      "college": "UCLA",
+      "college_stage": "senior",
+      "historical_pick": 18,
+      "historical_team": "MIA",
+      "college_2022_23": {
+        "GP": 37,
+        "PPG": "17.8",
+        "RPG": "8.2"
+      },
+      "evidence": "UCLA.raw",
+      "recommended": true,
+      "fit_inference": "4년 대학 경험을 가진 보조 윙. 주인공의 볼 점유·리더십을 대체하지 않는 벤치 연결 역할을 권고한다.",
+      "growth_limit": "수비 적응과 외곽 정확도는 새 NBA 성장 입력. 실제 2023–24 성과·수상은 사용하지 않는다.",
+      "minute_delta_comparison_only": {
+        "Jaime Jaquez Jr.": 6,
+        "Chris Duarte": -2,
+        "Thaddeus Young": -4
+      },
+      "opportunity_cost": "Duarte/Young/Green/Valentine 윙 기회를 일부 사용. Duarte의 성장 서사를 없애는 주전 교체는 이 후보에 없다.",
+      "original_team_port": "MIA #18은 Jaquez를 재지명할 수 없음. 새 대체 후보/계약/분/성과는 별도 후손이며 자동 보상자산 없음."
+    },
+    {
+      "id": "P16",
+      "player": "Brandin Podziemski",
+      "position": "PG/SG",
+      "college": "Santa Clara",
+      "college_stage": "sophomore",
+      "historical_pick": 19,
+      "historical_team": "GSW",
+      "college_2022_23": {
+        "GP": 32,
+        "PPG": "19.9",
+        "RPG": "8.8",
+        "APG": "3.7",
+        "three_point_percent": "43.8"
+      },
+      "evidence": "SCU_bio.raw",
+      "recommended": false,
+      "fit_inference": "슈팅·리바운드가 있는 보조 가드. LaMelo/Coby/Caruso와 역할이 겹쳐 세 후보 중 분 배치 비용이 크다.",
+      "growth_limit": "대학 성공을 NBA 생산성으로 환산하지 않음. NBA 첫해 평점과 출장량은 미선택.",
+      "minute_delta_comparison_only": {
+        "Brandin Podziemski": 6,
+        "Coby White": -4,
+        "Tomas Satoransky": -2
+      },
+      "opportunity_cost": "Coby 재계약 후 벤치 성장 분을 일부 줄임. Caruso18/LaMelo 주전 방향은 유지한다.",
+      "original_team_port": "GSW #19 새 지명자 포트. 실제 Podziemski 신인 계약·이후 트레이드 가치/분을 GSW에 남겨둘 수 없음."
+    },
+    {
+      "id": "M16",
+      "player": "Kris Murray",
+      "position": "SF/PF",
+      "college": "Iowa",
+      "college_stage": "junior",
+      "historical_pick": 23,
+      "historical_team": "POR",
+      "college_2022_23": {
+        "PPG": "20.2",
+        "RPG": "7.9"
+      },
+      "evidence": "IOWA.raw",
+      "recommended": false,
+      "fit_inference": "벤치 포워드·Mark 휴식 구간 보완. 포지션 여유는 있으나 윙 연결보다 Young의 PF 기회를 더 사용한다.",
+      "growth_limit": "대학 득점량은 NBA 득점/즉시전력 인증이 아니다. 신인 NBA 평점·성장은 미선택.",
+      "minute_delta_comparison_only": {
+        "Kris Murray": 6,
+        "Thaddeus Young": -6
+      },
+      "opportunity_cost": "Mark32 유지, Young 보조 포워드 분 감소. 형제의 원 NBA 소속·지명순서를 선택 세계에 이식하지 않음.",
+      "original_team_port": "POR #23 새 후보 포트. 실제 Murray 계약/양수 분 및 이후 거래는 그대로 복사하지 않음."
+    }
+  ],
+  "execution_families": [
+    {
+      "choice": "J16",
+      "player": "Jaime Jaquez Jr.",
+      "candidate_holder": "CHI",
+      "selection_number": 16,
+      "admitted_conditions": [
+        "2023 eligible participant under applicable Article X; timely early entry/nonwithdrawal if needed",
+        "not selected in preceding15; CHI retains own first right at selection",
+        "lawful fictional player/CHI assent to conforming RSC; no prior incompatible UPC",
+        "lawful NBA-prepared S23 and minimum table supplied to evaluate(); alpha in nonempty domain"
+      ],
+      "first15_not_yet_selected": true,
+      "historical_rank_does_not_prove_counterfactual_availability": true,
+      "events": [
+        {
+          "order": 1,
+          "date": "2023-06-22",
+          "event": "CONDITIONAL_CHI16_DRAFT_SELECTION",
+          "STD": null,
+          "TW": null,
+          "registration_delta": 0,
+          "drafted_rights": 1,
+          "new_UPC": false,
+          "FY23_July7_projection_STD": 14,
+          "projection_is_June22_current_registration": false,
+          "prior_service_registration_reference": "ROUTINE June28 original_service_contracts_before_July1; nine is forward-fiscal, not current registration",
+          "actual_registration_certified": false
+        },
+        {
+          "order": 2,
+          "date": "2023-07-07",
+          "event": "TEAM_SIGNED_VALID_REQUIRED_TENDER_DELIVERY",
+          "STD": 14,
+          "TW": 0,
+          "offer_acceptance_end": "at least first day of 2023-24 Regular Season",
+          "deadline_condition": "July7 precedes July15 (and any applicable business-day adjustment)",
+          "Salary_function": "same scale_family, alpha=max(4/5,max_y M_y/S_y), including year4 linkage; no new bonuses",
+          "actual_delivery": null
+        },
+        {
+          "order": 3,
+          "date": "2023-07-07T12:00:00-04:00",
+          "event": "FICTIONAL_RSC_SIGNING_AFTER_TENDER",
+          "STD": 15,
+          "TW": 0,
+          "new_UPC": true,
+          "original_14_Gamma_and_R23_preserved": true,
+          "same_unsigned_claim_replaced_once": true,
+          "actual_assent_receipt": null
+        }
+      ],
+      "new_salary_function": {
+        "selection_number": 16,
+        "first_Season": "2023-24",
+        "prepared_exact_table_or_rounding_certified": false,
+        "S23": "NBA-prepared positive first-three-year S23(16,y), y=1..3, I1(hhh)/(iii); S23(16,4)=S23(16,3)*767/500 derived reference, not independent table price",
+        "alpha_domain": "[max(4/5, max_y M_y/S23(16,y)), 6/5], subject to nonempty lawful prepared scale",
+        "current_base_y1_y2_y3": "alpha*S23(16,y); full base protection; zero new bonuses/signing bonus/loan",
+        "year4": "base3*767/500 (53.4% increase); Exhibit B #16/PDF631 and VIII1(c)(iii); unchanged non-payment terms",
+        "guaranteed_Seasons": 2,
+        "team_option_Seasons": [
+          3,
+          4
+        ],
+        "future_options_exercised": false,
+        "third_option_window": "day after last day of first Season through immediately following Oct31; XLII2 adjustment",
+        "fourth_option_window": "day after last day of second Season through immediately following Oct31; XLII2 adjustment",
+        "normal_unsigned_hold": "6/5*S23(16,1)",
+        "signed_normal_and_apron": "alpha*S23(16,1), same claim replaced once",
+        "unused_RSC_hold_or_old_first_RT_double_count": false,
+        "new_hardcap_trigger": false,
+        "mechanism": "2023 VII6(h) Rookie Scale Exception",
+        "actual_salary_cents": null
+      },
+      "registration_delta": 1,
+      "core_minutes_comparison_preserved": {
+        "Protagonist": 32,
+        "Lauri Markkanen": 32,
+        "Alex Caruso": 18
+      },
+      "source_H22_role_is_not_new_FY24_role_selection": true,
+      "new_FY24_health_minutes_results_selected": false,
+      "selected": false,
+      "author_locked": false,
+      "trade_or_cash_transfer_proposed": false
+    },
+    {
+      "choice": "P16",
+      "player": "Brandin Podziemski",
+      "candidate_holder": "CHI",
+      "selection_number": 16,
+      "admitted_conditions": [
+        "2023 eligible participant under applicable Article X; timely early entry/nonwithdrawal if needed",
+        "not selected in preceding15; CHI retains own first right at selection",
+        "lawful fictional player/CHI assent to conforming RSC; no prior incompatible UPC",
+        "lawful NBA-prepared S23 and minimum table supplied to evaluate(); alpha in nonempty domain"
+      ],
+      "first15_not_yet_selected": true,
+      "historical_rank_does_not_prove_counterfactual_availability": true,
+      "events": [
+        {
+          "order": 1,
+          "date": "2023-06-22",
+          "event": "CONDITIONAL_CHI16_DRAFT_SELECTION",
+          "STD": null,
+          "TW": null,
+          "registration_delta": 0,
+          "drafted_rights": 1,
+          "new_UPC": false,
+          "FY23_July7_projection_STD": 14,
+          "projection_is_June22_current_registration": false,
+          "prior_service_registration_reference": "ROUTINE June28 original_service_contracts_before_July1; nine is forward-fiscal, not current registration",
+          "actual_registration_certified": false
+        },
+        {
+          "order": 2,
+          "date": "2023-07-07",
+          "event": "TEAM_SIGNED_VALID_REQUIRED_TENDER_DELIVERY",
+          "STD": 14,
+          "TW": 0,
+          "offer_acceptance_end": "at least first day of 2023-24 Regular Season",
+          "deadline_condition": "July7 precedes July15 (and any applicable business-day adjustment)",
+          "Salary_function": "same scale_family, alpha=max(4/5,max_y M_y/S_y), including year4 linkage; no new bonuses",
+          "actual_delivery": null
+        },
+        {
+          "order": 3,
+          "date": "2023-07-07T12:00:00-04:00",
+          "event": "FICTIONAL_RSC_SIGNING_AFTER_TENDER",
+          "STD": 15,
+          "TW": 0,
+          "new_UPC": true,
+          "original_14_Gamma_and_R23_preserved": true,
+          "same_unsigned_claim_replaced_once": true,
+          "actual_assent_receipt": null
+        }
+      ],
+      "new_salary_function": {
+        "selection_number": 16,
+        "first_Season": "2023-24",
+        "prepared_exact_table_or_rounding_certified": false,
+        "S23": "NBA-prepared positive first-three-year S23(16,y), y=1..3, I1(hhh)/(iii); S23(16,4)=S23(16,3)*767/500 derived reference, not independent table price",
+        "alpha_domain": "[max(4/5, max_y M_y/S23(16,y)), 6/5], subject to nonempty lawful prepared scale",
+        "current_base_y1_y2_y3": "alpha*S23(16,y); full base protection; zero new bonuses/signing bonus/loan",
+        "year4": "base3*767/500 (53.4% increase); Exhibit B #16/PDF631 and VIII1(c)(iii); unchanged non-payment terms",
+        "guaranteed_Seasons": 2,
+        "team_option_Seasons": [
+          3,
+          4
+        ],
+        "future_options_exercised": false,
+        "third_option_window": "day after last day of first Season through immediately following Oct31; XLII2 adjustment",
+        "fourth_option_window": "day after last day of second Season through immediately following Oct31; XLII2 adjustment",
+        "normal_unsigned_hold": "6/5*S23(16,1)",
+        "signed_normal_and_apron": "alpha*S23(16,1), same claim replaced once",
+        "unused_RSC_hold_or_old_first_RT_double_count": false,
+        "new_hardcap_trigger": false,
+        "mechanism": "2023 VII6(h) Rookie Scale Exception",
+        "actual_salary_cents": null
+      },
+      "registration_delta": 1,
+      "core_minutes_comparison_preserved": {
+        "Protagonist": 32,
+        "Lauri Markkanen": 32,
+        "Alex Caruso": 18
+      },
+      "source_H22_role_is_not_new_FY24_role_selection": true,
+      "new_FY24_health_minutes_results_selected": false,
+      "selected": false,
+      "author_locked": false,
+      "trade_or_cash_transfer_proposed": false
+    },
+    {
+      "choice": "M16",
+      "player": "Kris Murray",
+      "candidate_holder": "CHI",
+      "selection_number": 16,
+      "admitted_conditions": [
+        "2023 eligible participant under applicable Article X; timely early entry/nonwithdrawal if needed",
+        "not selected in preceding15; CHI retains own first right at selection",
+        "lawful fictional player/CHI assent to conforming RSC; no prior incompatible UPC",
+        "lawful NBA-prepared S23 and minimum table supplied to evaluate(); alpha in nonempty domain"
+      ],
+      "first15_not_yet_selected": true,
+      "historical_rank_does_not_prove_counterfactual_availability": true,
+      "events": [
+        {
+          "order": 1,
+          "date": "2023-06-22",
+          "event": "CONDITIONAL_CHI16_DRAFT_SELECTION",
+          "STD": null,
+          "TW": null,
+          "registration_delta": 0,
+          "drafted_rights": 1,
+          "new_UPC": false,
+          "FY23_July7_projection_STD": 14,
+          "projection_is_June22_current_registration": false,
+          "prior_service_registration_reference": "ROUTINE June28 original_service_contracts_before_July1; nine is forward-fiscal, not current registration",
+          "actual_registration_certified": false
+        },
+        {
+          "order": 2,
+          "date": "2023-07-07",
+          "event": "TEAM_SIGNED_VALID_REQUIRED_TENDER_DELIVERY",
+          "STD": 14,
+          "TW": 0,
+          "offer_acceptance_end": "at least first day of 2023-24 Regular Season",
+          "deadline_condition": "July7 precedes July15 (and any applicable business-day adjustment)",
+          "Salary_function": "same scale_family, alpha=max(4/5,max_y M_y/S_y), including year4 linkage; no new bonuses",
+          "actual_delivery": null
+        },
+        {
+          "order": 3,
+          "date": "2023-07-07T12:00:00-04:00",
+          "event": "FICTIONAL_RSC_SIGNING_AFTER_TENDER",
+          "STD": 15,
+          "TW": 0,
+          "new_UPC": true,
+          "original_14_Gamma_and_R23_preserved": true,
+          "same_unsigned_claim_replaced_once": true,
+          "actual_assent_receipt": null
+        }
+      ],
+      "new_salary_function": {
+        "selection_number": 16,
+        "first_Season": "2023-24",
+        "prepared_exact_table_or_rounding_certified": false,
+        "S23": "NBA-prepared positive first-three-year S23(16,y), y=1..3, I1(hhh)/(iii); S23(16,4)=S23(16,3)*767/500 derived reference, not independent table price",
+        "alpha_domain": "[max(4/5, max_y M_y/S23(16,y)), 6/5], subject to nonempty lawful prepared scale",
+        "current_base_y1_y2_y3": "alpha*S23(16,y); full base protection; zero new bonuses/signing bonus/loan",
+        "year4": "base3*767/500 (53.4% increase); Exhibit B #16/PDF631 and VIII1(c)(iii); unchanged non-payment terms",
+        "guaranteed_Seasons": 2,
+        "team_option_Seasons": [
+          3,
+          4
+        ],
+        "future_options_exercised": false,
+        "third_option_window": "day after last day of first Season through immediately following Oct31; XLII2 adjustment",
+        "fourth_option_window": "day after last day of second Season through immediately following Oct31; XLII2 adjustment",
+        "normal_unsigned_hold": "6/5*S23(16,1)",
+        "signed_normal_and_apron": "alpha*S23(16,1), same claim replaced once",
+        "unused_RSC_hold_or_old_first_RT_double_count": false,
+        "new_hardcap_trigger": false,
+        "mechanism": "2023 VII6(h) Rookie Scale Exception",
+        "actual_salary_cents": null
+      },
+      "registration_delta": 1,
+      "core_minutes_comparison_preserved": {
+        "Protagonist": 32,
+        "Lauri Markkanen": 32,
+        "Alex Caruso": 18
+      },
+      "source_H22_role_is_not_new_FY24_role_selection": true,
+      "new_FY24_health_minutes_results_selected": false,
+      "selected": false,
+      "author_locked": false,
+      "trade_or_cash_transfer_proposed": false
+    }
+  ],
+  "recommendation": {
+    "choice": "J16",
+    "selected": false,
+    "reason": "보조 윙 경험을 우선하며 주인공/Mark/Caruso 분을 보호. Podziemski는 재계약 Coby와 가드 혼잡, Murray는 Young PF 기회 비용."
+  },
+  "cost_join": {
+    "source_conditional_base_before_R23_rookie_FRN": 157912834,
+    "R23_interval": [
+      0,
+      16371000
+    ],
+    "normal_unsigned": "157912834 + R23 + 1.2*S23(16,1), plus separately applicable FRN changes",
+    "signed_normal_apron": "157912834 + R23 + alpha*S23(16,1), plus separately applicable FRN changes",
+    "all_other_named_FA_QO_holds_and_Gamma_preserved": true,
+    "additional_original_team_trade_compensation": null,
+    "prepared_S23_exact_cents": null,
+    "whole_FY23_cost_certified": false,
+    "renounce_is_not_protected_cash_deletion": true
+  },
+  "remaining_finite_inputs": [
+    "root routine rookie choice after peer; not franchise/MVP/title/core/military change",
+    "preceding15 selection must leave chosen player available; no whole60 rights certification prerequisite for CHI16",
+    "lawful prepared S23(16) and minimum inputs for exact numeric cost; not required for symbolic family comparison",
+    "new FY24 position/240-minute/availability carrier; old H22 includes expired Bradley and is not copied",
+    "MIA18/GSW19/POR23 replacement selection and downstream economics only for the chosen original team"
+  ],
+  "certification": {
+    "candidate_lawful_function_prepared": true,
+    "rookie_draft_or_UPC_selected": false,
+    "actual_participation_paper": false,
+    "actual_contract_salary_assent_or_league_receipt": false,
+    "independent_review_completed": false,
+    "military_or_protagonist_core_changed": false,
+    "whole_macro3_complete": false,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "Pack_count": 0
+  }
+}
