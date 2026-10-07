@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-07 [거래가격·공개상단·후반기능 검문](../reviews/PRICE_PUBLIC_ENVELOPE_AND_LATER_SPINE_REVIEW_2026_10_07.md): PR465 main 뒤 P1 가격3경로를 비교하고 H00 Din건강 오독을 막았다. WAS13원가족 공동stretch 상단과 가격동의를 분리해192행 반복확장을 끝냈다. 후반6막/18소막/27CF는 Claude 지적2를 반영해 준비≠막출구·최소3막 실제상호비용을 복구했다. AGY수집30.683초 빈최종답/성공0, NLM등록15.513초·분석58.609초답회수, Claude68.399초반증회수. 중요방향·캠프/복귀·전체시즌 미선택, 등록43/source53·Pack0·원고0·미완료큰묶음5/6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.
+
 2026-10-07 [WAS원계약·P1권리·A09·외부응답 검문](../reviews/WAS_LEGACY_P1_RIGHTS_A09_AND_EXTERNAL_RESPONSE_REVIEW_2026_10_07.md): PR463 main 뒤 WAS13명원계약/192행을검문해보호0·July/Aug최종연도stretch누락을막고Booth/Anderson원자료반환혼동을수리했다. 전체E상단/P1은미선택. P1 CHI2023·MEM/WAS2024두공백의명명carry후보와870배분을독립검문하되원역사→대체선행원장자동승격0. A09S2/S3두구체행동가족은합류/복귀조건false·최종등록증분0이다. AGY25.105초/Claude41.019초/NLM55.452초답회수,AGY공식수집31.05초답회수지만본문UNVERIFIED·조항기억오류기각을분리했다. 긴한정실행은동일livehandle관측/독립작업병행으로수리. 등록43/source53·Pack0·원고0·미완료큰묶음5·6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.
 
 2026-10-07 [수비변화·마무리조건·WAS목록 검문](../reviews/CHANGED_DEFENSE_FINISH_CONDITIONS_AND_WAS_INVENTORY_REVIEW_2026_10_07.md): PR462 main 뒤 A07 기존2+새수비2의 혼합4표본·각80초/240분을 조건부채택했다. A08 누락된즉시캐치반환을추가해5창100초와두마무리조건/상호비용을원기준대로분리했다. 출구감사한정관측1+조건부지원5/기준작성공백0과전체A08실행·계약·권한HOLD3/두막HOLD2를구별하며A07한정협상표본지원1을기록했다. WAS2011CBA·TW/QO/Bonga날짜/계약원문24행과반환결함2수리후독립거부. AGY/Claude/NLM분석timeout·NLM수입성공을정확기록했다. 등록43/source53·Pack0·원고0불변. 미완료큰묶음5·6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.

@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-07 [거래가격·공개상단·후반기능 검문](reviews/PRICE_PUBLIC_ENVELOPE_AND_LATER_SPINE_REVIEW_2026_10_07.md): PR465 main 뒤 P1 가격3경로를 비교하고 H00 Din건강 오독을 막았다. WAS13원가족 공동stretch 상단과 가격동의를 분리해192행 반복확장을 끝냈다. 후반6막/18소막/27CF는 Claude 지적2를 반영해 준비≠막출구·최소3막 실제상호비용을 복구했다. AGY수집30.683초 빈최종답/성공0, NLM등록15.513초·분석58.609초답회수, Claude68.399초반증회수. 중요방향·캠프/복귀·전체시즌 미선택, 등록43/source53·Pack0·원고0·미완료큰묶음5/6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.
+
 2026-10-07 자동 진행 지침 정합화: PR464 `main aee211df3623b27f936b6ae394b2bfec41bc0411` 반영 뒤 [실행 지침](control/ORCHESTRATOR_WORKFLOW.md)의 중단 조건을 해당 항목의 승격 보류로 구체화했다. AGENTS.md의 추가 질문·예약 없이 독립 작업 계속 지시를 적용한다. 현재 P1 가격/역할 개연성, WAS 미보고 비용의 유한 검증 범위, A09→A14 후반 기능 연결을 병행한다. 도구 응답 대기와 미선택 조건을 전체 자동 중단으로 취급하지 않으며 실제 성립 전 승격도 하지 않는다. 등록43/source53·Pack0·원고0·v0.30 PARTIAL·CLOSED·미완료 큰 묶음5/6번까지4는 유지한다.
 
 2026-10-07 [WAS원계약·P1권리·A09·외부응답 검문](reviews/WAS_LEGACY_P1_RIGHTS_A09_AND_EXTERNAL_RESPONSE_REVIEW_2026_10_07.md): PR463 main 뒤 WAS13명원계약/192행을검문해보호0·July/Aug최종연도stretch누락을막고Booth/Anderson원자료반환혼동을수리했다. 전체E상단/P1은미선택. P1 CHI2023·MEM/WAS2024두공백의명명carry후보와870배분을독립검문하되원역사→대체선행원장자동승격0. A09S2/S3두구체행동가족은합류/복귀조건false·최종등록증분0이다. AGY25.105초/Claude41.019초/NLM55.452초답회수,AGY공식수집31.05초답회수지만본문UNVERIFIED·조항기억오류기각을분리했다. 긴한정실행은동일livehandle관측/독립작업병행으로수리. 등록43/source53·Pack0·원고0·미완료큰묶음5·6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.
