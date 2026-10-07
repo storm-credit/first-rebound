@@ -1,0 +1,1724 @@
+{
+  "id": "NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS",
+  "baseline_main": "d74ffd6efcdb18a07285a23ea7a59a014400c32b",
+  "status": "SELECTED_WORKING_SEEDS_SIX_PLAYIN_RESULTS_AND_TYPED2022_CHI_RIGHTS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "tools/build_2021_22_global_selected_regular_results.py": "98d0ad39c771cf75724e37d9f85bdd1450bc393bcf1ddc6d627d757efec01b61",
+    "research/NBA_2022_STANDINGS_AND_DRAFT_PRIMARY_OBSERVATIONS_2026_10_07.json": "165e240a765ac07d98253b348654022978ef7e034c90bcfbd874694cd19dfda6",
+    "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json": "bf8087a89af09a817c0a3eb5d4df906a906575a56016c873912db00eccdca9db",
+    "tools/build_2021_22_standings_playin_and_2022_rights.py": "00a94e07ed06cfcab5a5ec2669bd8f9aa036de3169e78af152552d405dc17a1d"
+  },
+  "primary_provenance": {
+    "id": "NBA_2022_STANDINGS_AND_DRAFT_PRIMARY_OBSERVATIONS",
+    "observation_date": "2026-10-07",
+    "classification": "DIRECT_WEB_PRIMARY_BODY_OBSERVATION_NOT_ORIGINAL_RAW_BYTES",
+    "source_observations": [
+      {
+        "id": "TIE_PDF",
+        "url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+        "publication_year": 2017,
+        "web_reference": "turn2278view1",
+        "pages_read": [
+          1,
+          2
+        ],
+        "locator": "page1 criteria and playoff procedures; page2 restart example",
+        "adopted_scope": "first four criteria, division-winner first resolution and partial-tie restart; not 2022 eligibility10 rule",
+        "original_raw_bytes_collected": false
+      },
+      {
+        "id": "TIE_2022",
+        "url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+        "web_reference": "turn2277search0",
+        "channel": "INDEXED_PRIMARY_BODY_OBSERVATION",
+        "direct_open": "INTERNAL_ERROR",
+        "adopted_scope": "ordering crosscheck only; direct2017 PDF is operative first-four rule evidence",
+        "original_raw_bytes_collected": false
+      },
+      {
+        "id": "PLAYIN_APPROVAL",
+        "url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+        "publication_date": "2021-07-27",
+        "web_reference": "turn2281view0",
+        "locator": "lines14–16 and32–36",
+        "adopted_scope": "2021–22 7–10 format, April12–15, up to15active/15STD2TW",
+        "original_raw_bytes_collected": false
+      },
+      {
+        "id": "PLAYIN_CALENDAR",
+        "url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+        "web_reference": "turn2281view1",
+        "locator": "lines164–184",
+        "adopted_scope": "Apr12 seven-eight; Apr13 nine-ten; Apr15 final. Historical actors/results excluded.",
+        "original_raw_bytes_collected": false
+      },
+      {
+        "id": "DRAFT_CALENDAR",
+        "url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+        "web_reference": "turn2281view2",
+        "locator": "lines159–184",
+        "adopted_scope": "May17 lottery; June23 draft; draft record ties drawn; lottery top4 drawn. No historical draw reused.",
+        "original_raw_bytes_collected": false
+      },
+      {
+        "id": "BYLAWS2019_DRAFT_ORDER",
+        "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019-1.pdf",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-2019-bylaws.pdf",
+        "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+        "PDF1based_text_sha256": {
+          "85": "312b5df737e0460a3671e61291f403b9488ee32827d938cebea87867f3bf0239",
+          "86": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+          "87": "43197a4945acf5176d9335d2ff911f7c516a1db82e623c4ca53bb264fc094e20"
+        },
+        "locator": "Article7.02(a)-(c), printed76–78/PDF85–87",
+        "adopted_scope": "2022origin order functions and tiedsecond reverse firstorder; no actual drawing reused",
+        "original_raw_bytes_collected": true
+      }
+    ],
+    "rule_projection": {
+      "two_way_first_four": [
+        "head_to_head",
+        "division_winner",
+        "same_division_record",
+        "conference_record"
+      ],
+      "multi_way_first_four": [
+        "division_winner",
+        "head_to_head_group",
+        "same_division_record",
+        "conference_record"
+      ],
+      "division_winners_resolved_first": true,
+      "partial_groups_restart_using_group_size": true,
+      "later_point_differential_or_drawing_not_needed_for_current_seed_tie": true
+    },
+    "calendar_projection": {
+      "regular_end": "2022-04-10",
+      "seven_eight": "2022-04-12",
+      "nine_ten": "2022-04-13",
+      "final": "2022-04-15",
+      "playoffs_begin": "2022-04-16",
+      "lottery": "2022-05-17",
+      "draft": "2022-06-23"
+    },
+    "failed_direct_HTTP_downloads": [
+      {
+        "id": "tiebreak2017.pdf",
+        "url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+        "final_url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+        "HTTP": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\tiebreak2017.pdf",
+        "raw_sha256": "ade4b4925ec6db6f579e40eff2f396ba6e1bd67e3c4bfec06d4fd0f93cb864e1",
+        "bytes": 425,
+        "captured_utc": "2026-10-07T14:35:23.987053+00:00",
+        "body_adopted": false
+      },
+      {
+        "id": "playin_approval.html",
+        "url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+        "final_url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+        "HTTP": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\playin_approval.html",
+        "raw_sha256": "712e21067e4e104101470929e3189ec8bd65015ff4f655ce9d1b1a6450e9a92e",
+        "bytes": 425,
+        "captured_utc": "2026-10-07T14:35:23.908817+00:00",
+        "body_adopted": false
+      },
+      {
+        "id": "playin_schedule.html",
+        "url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+        "final_url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+        "HTTP": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\playin_schedule.html",
+        "raw_sha256": "fd52540b5816ad3adee5b227d8167232398d0ac00263c596b28cd98387b27de2",
+        "bytes": 430,
+        "captured_utc": "2026-10-07T14:35:23.897824+00:00",
+        "body_adopted": false
+      },
+      {
+        "id": "draft_order_release.html",
+        "url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+        "final_url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+        "HTTP": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\draft_order_release.html",
+        "raw_sha256": "a84af23aa8175128f5bbcb257185ce05be34ef43ea2db992a9c58c34951436fb",
+        "bytes": 441,
+        "captured_utc": "2026-10-07T14:35:23.900123+00:00",
+        "body_adopted": false
+      },
+      {
+        "id": "standings2022.html",
+        "url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+        "final_url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+        "HTTP": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\standings2022.html",
+        "raw_sha256": "d2ca7ba31993c092689384ee0cec6490c161f316a915ed0dc9bbaa676243c577",
+        "bytes": 379,
+        "captured_utc": "2026-10-07T14:35:23.888777+00:00",
+        "body_adopted": false
+      }
+    ],
+    "failed_bytes_are_not_adopted_body": true,
+    "original_raw_SHA_not_fabricated": true,
+    "observed_claims_are_not_actual_alternate_results": true,
+    "quotes_words": 0,
+    "draft_order_projection": {
+      "nonlottery_first_inverse_regular_record": true,
+      "second_allteams_inverse_regular_record": true,
+      "record_ties_drawn_not_playoff_tiebreak": true,
+      "second_tied_order_reverse_first_tied_order": true
+    }
+  },
+  "selected_policy": {
+    "new_playin_lawful_contract_and_operational_family": "Extend retained live/selected legalUPC/allGamma/no-new-event family April11–15 within salaryyear2021–22. Source generation April10 endpoint remains historical scope, not silently rewritten.",
+    "CHI_playin_state": "COBY_OUT continues source lastApr10 operational absence; new five-day delegated working health choice, no medical claim or return invented.",
+    "others": "Use last regular selected role/active family. All active participants STANDARD; no TW postseason activation/newUPC.",
+    "method": "Same March25 EB/BPM+home2+B2Bhalf. New scores/OT absent. Not probability calibration or actual future ability.",
+    "second_round_tied_order_reverse_first": true,
+    "independent_second_round_draw": false,
+    "draft_tie_draw_selected": false,
+    "lottery_draw_selected": false,
+    "all2022_control60_certified": false,
+    "exact_Chicago_second_swap_exercise_selected": false,
+    "new_author_lock_or_title": false
+  },
+  "conference_seeds": {
+    "EAST": [
+      {
+        "seed": 1,
+        "team": "MIL",
+        "wins": 73,
+        "losses": 9
+      },
+      {
+        "seed": 2,
+        "team": "PHI",
+        "wins": 65,
+        "losses": 17
+      },
+      {
+        "seed": 3,
+        "team": "BOS",
+        "wins": 64,
+        "losses": 18
+      },
+      {
+        "seed": 4,
+        "team": "BKN",
+        "wins": 63,
+        "losses": 19
+      },
+      {
+        "seed": 5,
+        "team": "IND",
+        "wins": 55,
+        "losses": 27
+      },
+      {
+        "seed": 6,
+        "team": "ATL",
+        "wins": 54,
+        "losses": 28
+      },
+      {
+        "seed": 7,
+        "team": "CHI",
+        "wins": 52,
+        "losses": 30
+      },
+      {
+        "seed": 8,
+        "team": "MIA",
+        "wins": 44,
+        "losses": 38
+      },
+      {
+        "seed": 9,
+        "team": "TOR",
+        "wins": 43,
+        "losses": 39
+      },
+      {
+        "seed": 10,
+        "team": "NYK",
+        "wins": 41,
+        "losses": 41
+      },
+      {
+        "seed": 11,
+        "team": "WAS",
+        "wins": 15,
+        "losses": 67
+      },
+      {
+        "seed": 12,
+        "team": "CLE",
+        "wins": 14,
+        "losses": 68
+      },
+      {
+        "seed": 13,
+        "team": "CHA",
+        "wins": 13,
+        "losses": 69
+      },
+      {
+        "seed": 14,
+        "team": "ORL",
+        "wins": 12,
+        "losses": 70
+      },
+      {
+        "seed": 15,
+        "team": "DET",
+        "wins": 10,
+        "losses": 72
+      }
+    ],
+    "WEST": [
+      {
+        "seed": 1,
+        "team": "UTA",
+        "wins": 71,
+        "losses": 11
+      },
+      {
+        "seed": 2,
+        "team": "LAC",
+        "wins": 64,
+        "losses": 18
+      },
+      {
+        "seed": 3,
+        "team": "PHX",
+        "wins": 64,
+        "losses": 18
+      },
+      {
+        "seed": 4,
+        "team": "LAL",
+        "wins": 64,
+        "losses": 18
+      },
+      {
+        "seed": 5,
+        "team": "DEN",
+        "wins": 62,
+        "losses": 20
+      },
+      {
+        "seed": 6,
+        "team": "DAL",
+        "wins": 56,
+        "losses": 26
+      },
+      {
+        "seed": 7,
+        "team": "GSW",
+        "wins": 52,
+        "losses": 30
+      },
+      {
+        "seed": 8,
+        "team": "POR",
+        "wins": 33,
+        "losses": 49
+      },
+      {
+        "seed": 9,
+        "team": "SAS",
+        "wins": 29,
+        "losses": 53
+      },
+      {
+        "seed": 10,
+        "team": "MEM",
+        "wins": 24,
+        "losses": 58
+      },
+      {
+        "seed": 11,
+        "team": "NOP",
+        "wins": 23,
+        "losses": 59
+      },
+      {
+        "seed": 12,
+        "team": "SAC",
+        "wins": 22,
+        "losses": 60
+      },
+      {
+        "seed": 13,
+        "team": "MIN",
+        "wins": 21,
+        "losses": 61
+      },
+      {
+        "seed": 14,
+        "team": "HOU",
+        "wins": 20,
+        "losses": 62
+      },
+      {
+        "seed": 15,
+        "team": "OKC",
+        "wins": 7,
+        "losses": 75
+      }
+    ]
+  },
+  "division_winners": [
+    "PHI",
+    "MIL",
+    "ATL",
+    "UTA",
+    "LAC",
+    "DAL"
+  ],
+  "tiebreak_trace": [
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "arity": 3,
+      "criterion": "division_winner",
+      "values": {
+        "LAC": "0",
+        "LAL": "0",
+        "PHX": "0"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "arity": 3,
+      "criterion": "head_to_head_group",
+      "values": {
+        "LAC": "1/2",
+        "LAL": "1/2",
+        "PHX": "1/2"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "arity": 3,
+      "criterion": "same_division_record",
+      "values": {
+        "LAC": "11/16",
+        "LAL": "5/8",
+        "PHX": "5/8"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "head_to_head",
+      "values": {
+        "LAL": "1/2",
+        "PHX": "1/2"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "division_winner",
+      "values": {
+        "LAL": "0",
+        "PHX": "0"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "same_division_record",
+      "values": {
+        "LAL": "5/8",
+        "PHX": "5/8"
+      }
+    },
+    {
+      "scope": "DIVISION:Pacific",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "conference_record",
+      "values": {
+        "LAL": "41/52",
+        "PHX": "21/26"
+      }
+    },
+    {
+      "scope": "WEST",
+      "group": [
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "arity": 3,
+      "criterion": "division_winner",
+      "values": {
+        "LAC": "1",
+        "LAL": "0",
+        "PHX": "0"
+      }
+    },
+    {
+      "scope": "WEST",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "head_to_head",
+      "values": {
+        "LAL": "1/2",
+        "PHX": "1/2"
+      }
+    },
+    {
+      "scope": "WEST",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "division_winner",
+      "values": {
+        "LAL": "0",
+        "PHX": "0"
+      }
+    },
+    {
+      "scope": "WEST",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "same_division_record",
+      "values": {
+        "LAL": "5/8",
+        "PHX": "5/8"
+      }
+    },
+    {
+      "scope": "WEST",
+      "group": [
+        "LAL",
+        "PHX"
+      ],
+      "arity": 2,
+      "criterion": "conference_record",
+      "values": {
+        "LAL": "41/52",
+        "PHX": "21/26"
+      }
+    }
+  ],
+  "playin_games": [
+    {
+      "id": "EAST:78",
+      "date": "2022-04-12",
+      "home": "CHI",
+      "away": "MIA",
+      "team_models": {
+        "CHI": {
+          "template": "CHI:COBY_OUT",
+          "active": [
+            "Carter",
+            "Caruso",
+            "Chris Duarte",
+            "Denzel Valentine",
+            "Green",
+            "LaMelo_pick4",
+            "LaVine",
+            "Markkanen",
+            "Protagonist",
+            "Satoransky",
+            "Tony Bradley",
+            "Young"
+          ],
+          "positive_player_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Denzel Valentine": 480,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Satoransky": 600,
+            "Tony Bradley": 720,
+            "Young": 1200
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "MIA": {
+          "template": "MIA:NORMAL",
+          "active": [
+            "Bam Adebayo",
+            "Dewayne Dedmon",
+            "Duncan Robinson",
+            "Gabe Vincent",
+            "Jimmy Butler",
+            "Kyle Lowry",
+            "Markieff Morris",
+            "Max Strus",
+            "Omer Yurtseven",
+            "P.J. Tucker",
+            "Tyler Herro",
+            "Udonis Haslem"
+          ],
+          "positive_player_seconds": {
+            "Bam Adebayo": 2040,
+            "Dewayne Dedmon": 840,
+            "Duncan Robinson": 1560,
+            "Gabe Vincent": 1080,
+            "Jimmy Butler": 2040,
+            "Kyle Lowry": 1800,
+            "Markieff Morris": 840,
+            "Max Strus": 840,
+            "P.J. Tucker": 1560,
+            "Tyler Herro": 1800
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "91166104111118648593652207888176954866388616363773/26695534241867801910852486447995289007308651722880",
+      "winner": "CHI",
+      "loser": "MIA",
+      "back_to_back": {
+        "CHI": false,
+        "MIA": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    },
+    {
+      "id": "EAST:910",
+      "date": "2022-04-13",
+      "home": "TOR",
+      "away": "NYK",
+      "team_models": {
+        "TOR": {
+          "template": "TOR:NORMAL",
+          "active": [
+            "Chris Boucher",
+            "Fred VanVleet",
+            "Goran Dragic",
+            "Josh Giddey",
+            "Khem Birch",
+            "Malachi Flynn",
+            "Norman Powell",
+            "OG Anunoby",
+            "Pascal Siakam",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Yuta Watanabe"
+          ],
+          "positive_player_seconds": {
+            "Chris Boucher": 1200,
+            "Fred VanVleet": 1920,
+            "Goran Dragic": 720,
+            "Josh Giddey": 1200,
+            "Khem Birch": 1440,
+            "Norman Powell": 1920,
+            "OG Anunoby": 2400,
+            "Pascal Siakam": 1920,
+            "Precious Achiuwa": 960,
+            "Svi Mykhailiuk": 480,
+            "Yuta Watanabe": 240
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "NYK": {
+          "template": "NYK:NORMAL",
+          "active": [
+            "Alec Burks",
+            "Derrick Rose",
+            "Elfrid Payton",
+            "Immanuel Quickley",
+            "Julius Randle",
+            "Mitchell Robinson",
+            "Nerlens Noel",
+            "Obi Toppin",
+            "Quentin Grimes",
+            "RJ Barrett",
+            "Reggie Bullock",
+            "Taj Gibson"
+          ],
+          "positive_player_seconds": {
+            "Alec Burks": 1200,
+            "Derrick Rose": 1440,
+            "Elfrid Payton": 1200,
+            "Immanuel Quickley": 1320,
+            "Julius Randle": 2040,
+            "Mitchell Robinson": 1680,
+            "Nerlens Noel": 840,
+            "Obi Toppin": 840,
+            "RJ Barrett": 1920,
+            "Reggie Bullock": 1560,
+            "Taj Gibson": 360
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "13897672567476102286288539167172272637969871961/6630548897529578042628690689970232654777556565",
+      "winner": "TOR",
+      "loser": "NYK",
+      "back_to_back": {
+        "TOR": false,
+        "NYK": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    },
+    {
+      "id": "EAST:FINAL",
+      "date": "2022-04-15",
+      "home": "MIA",
+      "away": "TOR",
+      "team_models": {
+        "MIA": {
+          "template": "MIA:NORMAL",
+          "active": [
+            "Bam Adebayo",
+            "Dewayne Dedmon",
+            "Duncan Robinson",
+            "Gabe Vincent",
+            "Jimmy Butler",
+            "Kyle Lowry",
+            "Markieff Morris",
+            "Max Strus",
+            "Omer Yurtseven",
+            "P.J. Tucker",
+            "Tyler Herro",
+            "Udonis Haslem"
+          ],
+          "positive_player_seconds": {
+            "Bam Adebayo": 2040,
+            "Dewayne Dedmon": 840,
+            "Duncan Robinson": 1560,
+            "Gabe Vincent": 1080,
+            "Jimmy Butler": 2040,
+            "Kyle Lowry": 1800,
+            "Markieff Morris": 840,
+            "Max Strus": 840,
+            "P.J. Tucker": 1560,
+            "Tyler Herro": 1800
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "TOR": {
+          "template": "TOR:NORMAL",
+          "active": [
+            "Chris Boucher",
+            "Fred VanVleet",
+            "Goran Dragic",
+            "Josh Giddey",
+            "Khem Birch",
+            "Malachi Flynn",
+            "Norman Powell",
+            "OG Anunoby",
+            "Pascal Siakam",
+            "Precious Achiuwa",
+            "Svi Mykhailiuk",
+            "Yuta Watanabe"
+          ],
+          "positive_player_seconds": {
+            "Chris Boucher": 1200,
+            "Fred VanVleet": 1920,
+            "Goran Dragic": 720,
+            "Josh Giddey": 1200,
+            "Khem Birch": 1440,
+            "Norman Powell": 1920,
+            "OG Anunoby": 2400,
+            "Pascal Siakam": 1920,
+            "Precious Achiuwa": 960,
+            "Svi Mykhailiuk": 480,
+            "Yuta Watanabe": 240
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "100875808354961605201064602924297956672109930658282933657/41420718001077348281225013585623087980402182448687345260",
+      "winner": "MIA",
+      "loser": "TOR",
+      "back_to_back": {
+        "MIA": false,
+        "TOR": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    },
+    {
+      "id": "WEST:78",
+      "date": "2022-04-12",
+      "home": "GSW",
+      "away": "POR",
+      "team_models": {
+        "GSW": {
+          "template": "GSW:KLAY_WORKING_RETURN",
+          "active": [
+            "Andrew Wiggins",
+            "Damion Lee",
+            "Draymond Green",
+            "Franz Wagner",
+            "Gary Payton II",
+            "James Bouknight",
+            "Jordan Poole",
+            "Juan Toscano-Anderson",
+            "Kelly Oubre Jr.",
+            "Kevon Looney",
+            "Klay Thompson",
+            "Stephen Curry"
+          ],
+          "positive_player_seconds": {
+            "Andrew Wiggins": 1920,
+            "Damion Lee": 600,
+            "Draymond Green": 1920,
+            "Franz Wagner": 720,
+            "Gary Payton II": 480,
+            "James Bouknight": 240,
+            "Jordan Poole": 1680,
+            "Juan Toscano-Anderson": 960,
+            "Kelly Oubre Jr.": 1200,
+            "Kevon Looney": 1440,
+            "Klay Thompson": 1200,
+            "Stephen Curry": 2040
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "POR": {
+          "template": "POR:NORMAL",
+          "active": [
+            "Anfernee Simons",
+            "CJ Elleby",
+            "CJ McCollum",
+            "Carmelo Anthony",
+            "Damian Lillard",
+            "Derrick Jones Jr.",
+            "Enes Kanter",
+            "Jacob Evans",
+            "Jusuf Nurkic",
+            "Nassir Little",
+            "Robert Covington",
+            "Rodney Hood"
+          ],
+          "positive_player_seconds": {
+            "Anfernee Simons": 1200,
+            "CJ McCollum": 2040,
+            "Carmelo Anthony": 1200,
+            "Damian Lillard": 2040,
+            "Derrick Jones Jr.": 1320,
+            "Enes Kanter": 960,
+            "Jacob Evans": 360,
+            "Jusuf Nurkic": 1800,
+            "Nassir Little": 480,
+            "Robert Covington": 1800,
+            "Rodney Hood": 1200
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "1169192825524645722318022489137176718343540713190073/317676807437308936659983802327983204930481469950720",
+      "winner": "GSW",
+      "loser": "POR",
+      "back_to_back": {
+        "GSW": false,
+        "POR": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    },
+    {
+      "id": "WEST:910",
+      "date": "2022-04-13",
+      "home": "SAS",
+      "away": "MEM",
+      "team_models": {
+        "SAS": {
+          "template": "SAS:NORMAL",
+          "active": [
+            "DeMar DeRozan",
+            "Dejounte Murray",
+            "Derrick White",
+            "Devin Vassell",
+            "Drew Eubanks",
+            "Gorgui Dieng",
+            "Jakob Poeltl",
+            "Keldon Johnson",
+            "Lonnie Walker IV",
+            "Patty Mills",
+            "Rudy Gay",
+            "Tre Jones"
+          ],
+          "positive_player_seconds": {
+            "DeMar DeRozan": 2040,
+            "Dejounte Murray": 1920,
+            "Derrick White": 1920,
+            "Devin Vassell": 960,
+            "Drew Eubanks": 840,
+            "Gorgui Dieng": 240,
+            "Jakob Poeltl": 1800,
+            "Keldon Johnson": 1800,
+            "Lonnie Walker IV": 1440,
+            "Patty Mills": 240,
+            "Rudy Gay": 720,
+            "Tre Jones": 480
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "MEM": {
+          "template": "MEM:NORMAL",
+          "active": [
+            "Brandon Clarke",
+            "De'Anthony Melton",
+            "Desmond Bane",
+            "Dillon Brooks",
+            "Ja Morant",
+            "Jaren Jackson Jr.",
+            "Jonas Valanciunas",
+            "Justise Winslow",
+            "Kyle Anderson",
+            "Tyus Jones",
+            "Xavier Tillman Sr.",
+            "Ziaire Williams"
+          ],
+          "positive_player_seconds": {
+            "Brandon Clarke": 1440,
+            "De'Anthony Melton": 1080,
+            "Desmond Bane": 1440,
+            "Dillon Brooks": 1920,
+            "Ja Morant": 1920,
+            "Jaren Jackson Jr.": 1680,
+            "Jonas Valanciunas": 1800,
+            "Justise Winslow": 240,
+            "Kyle Anderson": 1440,
+            "Tyus Jones": 720,
+            "Xavier Tillman Sr.": 720
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "707967084333455629572212378945703764390863/295422765397330707253275283456972987666320",
+      "winner": "SAS",
+      "loser": "MEM",
+      "back_to_back": {
+        "SAS": false,
+        "MEM": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    },
+    {
+      "id": "WEST:FINAL",
+      "date": "2022-04-15",
+      "home": "POR",
+      "away": "SAS",
+      "team_models": {
+        "POR": {
+          "template": "POR:NORMAL",
+          "active": [
+            "Anfernee Simons",
+            "CJ Elleby",
+            "CJ McCollum",
+            "Carmelo Anthony",
+            "Damian Lillard",
+            "Derrick Jones Jr.",
+            "Enes Kanter",
+            "Jacob Evans",
+            "Jusuf Nurkic",
+            "Nassir Little",
+            "Robert Covington",
+            "Rodney Hood"
+          ],
+          "positive_player_seconds": {
+            "Anfernee Simons": 1200,
+            "CJ McCollum": 2040,
+            "Carmelo Anthony": 1200,
+            "Damian Lillard": 2040,
+            "Derrick Jones Jr.": 1320,
+            "Enes Kanter": 960,
+            "Jacob Evans": 360,
+            "Jusuf Nurkic": 1800,
+            "Nassir Little": 480,
+            "Robert Covington": 1800,
+            "Rodney Hood": 1200
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        },
+        "SAS": {
+          "template": "SAS:NORMAL",
+          "active": [
+            "DeMar DeRozan",
+            "Dejounte Murray",
+            "Derrick White",
+            "Devin Vassell",
+            "Drew Eubanks",
+            "Gorgui Dieng",
+            "Jakob Poeltl",
+            "Keldon Johnson",
+            "Lonnie Walker IV",
+            "Patty Mills",
+            "Rudy Gay",
+            "Tre Jones"
+          ],
+          "positive_player_seconds": {
+            "DeMar DeRozan": 2040,
+            "Dejounte Murray": 1920,
+            "Derrick White": 1920,
+            "Devin Vassell": 960,
+            "Drew Eubanks": 840,
+            "Gorgui Dieng": 240,
+            "Jakob Poeltl": 1800,
+            "Keldon Johnson": 1800,
+            "Lonnie Walker IV": 1440,
+            "Patty Mills": 240,
+            "Rudy Gay": 720,
+            "Tre Jones": 480
+          },
+          "new_operational_continuation_selected": true,
+          "actual_medical_receipt": false
+        }
+      },
+      "exact_home_margin": "354017540623016666134192919460751376466786557/134191296660716049296885925872991221559118080",
+      "winner": "POR",
+      "loser": "SAS",
+      "back_to_back": {
+        "POR": false,
+        "SAS": false
+      },
+      "score": null,
+      "overtime": null,
+      "actual_receipt": false
+    }
+  ],
+  "final_playoff_seeds": {
+    "EAST": [
+      {
+        "seed": 1,
+        "team": "MIL"
+      },
+      {
+        "seed": 2,
+        "team": "PHI"
+      },
+      {
+        "seed": 3,
+        "team": "BOS"
+      },
+      {
+        "seed": 4,
+        "team": "BKN"
+      },
+      {
+        "seed": 5,
+        "team": "IND"
+      },
+      {
+        "seed": 6,
+        "team": "ATL"
+      },
+      {
+        "seed": 7,
+        "team": "CHI"
+      },
+      {
+        "seed": 8,
+        "team": "MIA"
+      }
+    ],
+    "WEST": [
+      {
+        "seed": 1,
+        "team": "UTA"
+      },
+      {
+        "seed": 2,
+        "team": "LAC"
+      },
+      {
+        "seed": 3,
+        "team": "PHX"
+      },
+      {
+        "seed": 4,
+        "team": "LAL"
+      },
+      {
+        "seed": 5,
+        "team": "DEN"
+      },
+      {
+        "seed": 6,
+        "team": "DAL"
+      },
+      {
+        "seed": 7,
+        "team": "GSW"
+      },
+      {
+        "seed": 8,
+        "team": "POR"
+      }
+    ]
+  },
+  "nonplayoff_lottery_origins": [
+    "OKC",
+    "DET",
+    "ORL",
+    "CHA",
+    "CLE",
+    "WAS",
+    "HOU",
+    "MIN",
+    "SAC",
+    "NOP",
+    "MEM",
+    "SAS",
+    "NYK",
+    "TOR"
+  ],
+  "first_round_nonlottery_origin_buckets": [
+    {
+      "wins": 33,
+      "origins": [
+        "POR"
+      ],
+      "possible_pre_draw_ranks": [
+        15
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 44,
+      "origins": [
+        "MIA"
+      ],
+      "possible_pre_draw_ranks": [
+        16
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 52,
+      "origins": [
+        "CHI",
+        "GSW"
+      ],
+      "possible_pre_draw_ranks": [
+        17,
+        18
+      ],
+      "same_record_draft_drawing_required": true,
+      "first_round_tie_order_parameter_reference": "FIRST_TIE_52",
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 54,
+      "origins": [
+        "ATL"
+      ],
+      "possible_pre_draw_ranks": [
+        19
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 55,
+      "origins": [
+        "IND"
+      ],
+      "possible_pre_draw_ranks": [
+        20
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 56,
+      "origins": [
+        "DAL"
+      ],
+      "possible_pre_draw_ranks": [
+        21
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 62,
+      "origins": [
+        "DEN"
+      ],
+      "possible_pre_draw_ranks": [
+        22
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 63,
+      "origins": [
+        "BKN"
+      ],
+      "possible_pre_draw_ranks": [
+        23
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 64,
+      "origins": [
+        "BOS",
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "possible_pre_draw_ranks": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "same_record_draft_drawing_required": true,
+      "first_round_tie_order_parameter_reference": "FIRST_TIE_64",
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 65,
+      "origins": [
+        "PHI"
+      ],
+      "possible_pre_draw_ranks": [
+        28
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 71,
+      "origins": [
+        "UTA"
+      ],
+      "possible_pre_draw_ranks": [
+        29
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 73,
+      "origins": [
+        "MIL"
+      ],
+      "possible_pre_draw_ranks": [
+        30
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    }
+  ],
+  "second_round_origin_buckets": [
+    {
+      "wins": 7,
+      "origins": [
+        "OKC"
+      ],
+      "possible_pre_draw_ranks": [
+        31
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 10,
+      "origins": [
+        "DET"
+      ],
+      "possible_pre_draw_ranks": [
+        32
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 12,
+      "origins": [
+        "ORL"
+      ],
+      "possible_pre_draw_ranks": [
+        33
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 13,
+      "origins": [
+        "CHA"
+      ],
+      "possible_pre_draw_ranks": [
+        34
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 14,
+      "origins": [
+        "CLE"
+      ],
+      "possible_pre_draw_ranks": [
+        35
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 15,
+      "origins": [
+        "WAS"
+      ],
+      "possible_pre_draw_ranks": [
+        36
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 20,
+      "origins": [
+        "HOU"
+      ],
+      "possible_pre_draw_ranks": [
+        37
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 21,
+      "origins": [
+        "MIN"
+      ],
+      "possible_pre_draw_ranks": [
+        38
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 22,
+      "origins": [
+        "SAC"
+      ],
+      "possible_pre_draw_ranks": [
+        39
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 23,
+      "origins": [
+        "NOP"
+      ],
+      "possible_pre_draw_ranks": [
+        40
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 24,
+      "origins": [
+        "MEM"
+      ],
+      "possible_pre_draw_ranks": [
+        41
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 29,
+      "origins": [
+        "SAS"
+      ],
+      "possible_pre_draw_ranks": [
+        42
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 33,
+      "origins": [
+        "POR"
+      ],
+      "possible_pre_draw_ranks": [
+        43
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 41,
+      "origins": [
+        "NYK"
+      ],
+      "possible_pre_draw_ranks": [
+        44
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 43,
+      "origins": [
+        "TOR"
+      ],
+      "possible_pre_draw_ranks": [
+        45
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 44,
+      "origins": [
+        "MIA"
+      ],
+      "possible_pre_draw_ranks": [
+        46
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 52,
+      "origins": [
+        "CHI",
+        "GSW"
+      ],
+      "possible_pre_draw_ranks": [
+        47,
+        48
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": "FIRST_TIE_52",
+      "second_round_tied_order_is_reverse_first": true,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 54,
+      "origins": [
+        "ATL"
+      ],
+      "possible_pre_draw_ranks": [
+        49
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 55,
+      "origins": [
+        "IND"
+      ],
+      "possible_pre_draw_ranks": [
+        50
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 56,
+      "origins": [
+        "DAL"
+      ],
+      "possible_pre_draw_ranks": [
+        51
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 62,
+      "origins": [
+        "DEN"
+      ],
+      "possible_pre_draw_ranks": [
+        52
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 63,
+      "origins": [
+        "BKN"
+      ],
+      "possible_pre_draw_ranks": [
+        53
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 64,
+      "origins": [
+        "BOS",
+        "LAC",
+        "LAL",
+        "PHX"
+      ],
+      "possible_pre_draw_ranks": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": "FIRST_TIE_64",
+      "second_round_tied_order_is_reverse_first": true,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 65,
+      "origins": [
+        "PHI"
+      ],
+      "possible_pre_draw_ranks": [
+        58
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 71,
+      "origins": [
+        "UTA"
+      ],
+      "possible_pre_draw_ranks": [
+        59
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    },
+    {
+      "wins": 73,
+      "origins": [
+        "MIL"
+      ],
+      "possible_pre_draw_ranks": [
+        60
+      ],
+      "same_record_draft_drawing_required": false,
+      "first_round_tie_order_parameter_reference": null,
+      "second_round_tied_order_is_reverse_first": false,
+      "independent_second_round_draw": false
+    }
+  ],
+  "Chicago_2022_rights": {
+    "CHI_first": {
+      "origin": "CHI",
+      "holder_before_new_offseason_assignment": "CHI",
+      "qualified_for_playoffs": true,
+      "pick_rank_domain": [
+        17,
+        18
+      ],
+      "exact_rank": null,
+      "same_record_peer": "GSW",
+      "coupled_first_second_rank_pairs": [
+        [
+          17,
+          48
+        ],
+        [
+          18,
+          47
+        ]
+      ],
+      "new_pick_assignment": false
+    },
+    "CHI_second": {
+      "count": 1,
+      "origin_domains": {
+        "CHI": [
+          47,
+          48
+        ],
+        "DET": [
+          32
+        ],
+        "LAL": [
+          54,
+          55,
+          56,
+          57
+        ]
+      },
+      "original_2018_CHI_DET_exchange_preserved": true,
+      "original_2019_LAL_comparison_exchange_preserved": true,
+      "comparison_function": "If applicableWASexchange exercised, compare LAL against more favorableCHI/DET; otherwise preserve post2018 right. Existingpriority/eligibility limits unchanged.",
+      "second_tied_order_reverse_first": true,
+      "independent_second_draw": false,
+      "exact_exercise_flags": null,
+      "exact_final_origin_rank_holder": null,
+      "all_three_original_claims_conserved_not_added_or_deleted": true
+    },
+    "lottery_top4": "Four distinct draws among the14 modeled nonplayoff origins; exact draw unselected, original2022ORL/OKC/HOU/SAC order not copied.",
+    "full60_current_control_claim_map": "Remaining named portfolio consumer; originalhistorical2022holders not blindly copied."
+  },
+  "summary": {
+    "regular_games": 1230,
+    "conference_seed_rows": 30,
+    "division_winners": 6,
+    "playin_games": 6,
+    "playoff_qualifiers": 16,
+    "lottery_origins": 14,
+    "Chicago_first_rank_domain": [
+      17,
+      18
+    ],
+    "lottery_draw_selected": false,
+    "draft_tie_draw_selected": false
+  },
+  "model_limit": "Fixed productivity without variance produces high/low records. Not observed historical records, calibrated probability, realism forecast, MVP or title selection.",
+  "remaining_finite_inputs": [
+    "2022 four-lottery-draw and tied-record first-round order selection; second-round tied order is its reverse, never an independent draw; do not apply playoffH2H to draft ties.",
+    "Source-supported named existing2022 rights-control obligations beyondChicago; exact composite exercise if needed for named newdraftee, preserve allcounterpart claims.",
+    "2022 playoffs and two laterseason consumers; no unrelated private whole-ledger or absentreceipt gate."
+  ],
+  "certification": {
+    "selected_legal_fictional_playin_family": true,
+    "independent_review_completed": false,
+    "actual_private_medical_receipts_or_contracts_certified": false,
+    "full2022origin60_control60_executed": false,
+    "new_draftee_Tender_UPC_or_author_lock": false,
+    "whole_macro3_or_manuscript": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}

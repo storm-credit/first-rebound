@@ -1,0 +1,54 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "40efdede-d221-4f8b-b7ed-8e5523d21814"
+  ],
+  "question_sha256": "2111ced25a01656c0605aca952093c7c0ac83deb737b8139065a8369d353668e",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 76.962,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "### 4노드 텍스트 타임라인 분석\n\n* **[노드 1] Finals G4~7 종료일**: 2022-06-10(G4), 2022-06-13(G5), 2022-06-16(G6), 2022-06-19(G7) [1].\n* **[노드 2] 다음날 창 시작**: 2022-06-11(G4), 2022-06-14(G5), 2022-06-17(G6), 2022-06-20(G7) [1].\n* **[노드 3] 두 선수 October 1 통지**: 2022-10-01 (LaMelo Ball 4년차 옵션 및 Chris Duarte 3년차 옵션의 원 통지일) [1, 2].\n* **[노드 4] October 31 마감**: 2022-10-31 [1, 2].\n\n**관계 분석**: Finals G4부터 G7까지의 어느 종료일이 적용되더라도, 종료일 다음날부터 시작하여 October 31 마감일까지 이어지는 허용 창(Window) 내에 두 선수의 October 1 통지가 안정적으로 포함되어 날짜 조건이 완결(닫힘)됩니다 [2].\n\n---\n\n### 8개 날짜 증인과 미선택 항목의 구분\n\n* **8개 날짜 증인**:\n  * 두 선수(LaMelo Ball의 fourth 옵션, Chris Duarte의 third 옵션)의 통지 2건과 네 가지 Finals 종료일(G4, G5, G6, G7)의 조합으로 도출된 **총 8개 행의 검문 날짜 세트**입니다 [1, 2].\n  * 공식 발표 일정을 2022 가상 시즌 달력으로 일상 채택하여, 시리즈 길이에 관계없이 유효 기간 내에 10월 1일 통지가 성립함을 증명하는 달력상 조건 검문입니다 [1, 2].\n* **실제 통지 영수증 / 우승팀 / 2023 연장 미선택**:\n  * **실제 통지 영수증 미선택**: 실제 사건의 부재 상태이며, 실제 사적 통지나 물리적 통지 영수증을 확인하거나 선택한 것이 아닙니다 [1, 2].\n  * **우승팀 미선택**: 특정 우승팀, 특정 시리즈 길이, 최종 확정 경기 날짜를 선택하지 않은 상태로도 날짜 조건이 성립합니다 [2].\n  * **2023 연장 미선택**: 신규 UPC, 가격 변동, 옵션 행사는 0건이며, Chris Duarte의 fourth 옵션 및 LaMelo Ball의 계약 연장(2023 연장), 두 시즌 결산은 본 검문에 포함되지 않는 별도의 후속 작업으로 분리되어 있습니다 [1].\n\n---\n\n### 사본 내 모순 여부\n\n* **없음**: 사본 내 제시된 8개 행의 일정표와 서술 간의 충돌이나 모순은 존재하지 않습니다 [1, 2].\n\n🔍 사본에 명시된 불변 요소(원 UPC 성분, 15STD2TW, FY22 전체 비용)나 후속으로 남겨진 항목의 상세 기준에 대해서도 이어서 확인해 드릴 수 있습니다.",
+      "question": "지정된사본만사용. Finals G4~7 종료일→다음날창시작→두선수October1통지→October31마감 관계를 짧은4노드텍스트타임라인으로분석. 8개날짜증인과실제통지영수증/우승팀/2023연장 미선택을 구분하라. 사본의 모순이있으면1개,없으면없음. 다른source와추론추가금지.",
+      "conversation_id": "4833a796-0892-4306-abc2-210a7e13f6fa",
+      "sources_used": [
+        "40efdede-d221-4f8b-b7ed-8e5523d21814"
+      ],
+      "citations": {
+        "1": "40efdede-d221-4f8b-b7ed-8e5523d21814",
+        "2": "40efdede-d221-4f8b-b7ed-8e5523d21814"
+      },
+      "references": [
+        {
+          "source_id": "40efdede-d221-4f8b-b7ed-8e5523d21814",
+          "citation_number": 1,
+          "cited_text_sha256": "9791f3b604819207e3e8e5b9bddbcd7bfed17dda049b241a3723ce597719c231",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "40efdede-d221-4f8b-b7ed-8e5523d21814",
+          "citation_number": 2,
+          "cited_text_sha256": "4b57b076f7846c681f1230c3eadd0e7d8266978aed7c229628cfb76cf0d72561",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "input_snapshot_commit": "51d0605f5f041576c1267031ab1328f398419c08",
+  "input_normalized_sha256": {
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.md": "b09c54ad62b61b144f0c1164bb7ddd97cb86cb07bc9540618b9f0f01efd60173"
+  },
+  "declared_import_reference": "reviews/CHI2022_OPTION_WINDOW_NLM_REGISTRATION_2026_10_07.json",
+  "root_scope_annotation": "Timeline/eight timing witnesses recovered from one derived copy. No independent CBA evidence; reject answer wording that treats unverified receipt as actual event absence."
+}
