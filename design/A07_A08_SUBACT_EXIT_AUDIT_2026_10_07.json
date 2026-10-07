@@ -2,14 +2,16 @@
   "schema": "A07_A08_SUBACT_EXIT_AUDIT_V1",
   "status": "INDEPENDENTLY_REVIEWED_SOURCE_CRITERIA_EXIT_AUDIT",
   "independent_review_completed": true,
-  "independent_review_basis": "g11 separately read original CP2 A07-S2/A08-S1 criteria and current source families. Conditional game/cost criteria pass with 3 remaining criteria and 2 act HOLDs; no dependency cycle. Actual loader-return MISS-to-MADE and RT4 Valentine protected2193930-to-zero mutations rejected. Author self-tests are not counted as independent checks.",
+  "independent_review_basis": "g11 separately read original CP2 and all current defense/call/RT sources. One bounded observation and five conditional criterion supports, zero new criterion-writing gaps, three full A08 execution/contract/authority HOLDs and two whole Act HOLDs were verified; conditional A07 first-contract sample support is not whole season completion. No dependency cycle. Actual loader-return CD1 failed-decision-to-success and S3 condition-explanation-to-actual-finishes mutations rejected. Author self-tests are not independent checks.",
   "counts": {
     "subact_exits_audited": 6,
     "local_function_actions_observed": 6,
-    "subact_source_criteria_bounded_pass": 3,
-    "subact_source_criteria_conditional_family_pass": 2,
+    "subact_source_criteria_bounded_pass": 6,
+    "subact_source_criteria_conditional_family_pass": 5,
     "full_irreversible_contract_event_hold": 1,
-    "subact_source_criteria_specific_hold": 3,
+    "subact_source_criteria_specific_hold": 0,
+    "whole_subact_execution_or_authority_hold": 3,
+    "act_conditional_first_contract_sample_supported": 1,
     "act_exits_audited": 2,
     "act_source_exit_pass": 0,
     "act_specific_hold": 2,
@@ -43,6 +45,7 @@
       "source_criteria_bounded_pass": true,
       "source_criteria_conditional_family_only": false,
       "full_irreversible_contract_event_hold": false,
+      "whole_subact_execution_or_authority_hold": false,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     },
@@ -71,6 +74,7 @@
       "source_criteria_bounded_pass": true,
       "source_criteria_conditional_family_only": true,
       "full_irreversible_contract_event_hold": false,
+      "whole_subact_execution_or_authority_hold": false,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     },
@@ -84,20 +88,23 @@
         "A07-EF-003"
       ],
       "evidence_paths": [
-        "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json"
+        "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "design/A07_CHANGED_DEFENSE_ROLE_EVALUATION_2026_10_07.json",
+        "design/A07_OPENING_GAME_ELBOW_OBSERVATION_FAMILY_2026_10_07.json"
       ],
       "last_exact_exit": "짧은 공격·반환의 조건과 남은 약점을 2022 역할 평가에 넘기지만 계약 가격·공동 에이스 권한은 아직 얻지 않는다",
-      "observed_action_cost_authority_reason": "실패 영상과 수정 시도를 함께 코치에게 제시하고 가상 에이전트에게 좋은/막힌 역할 자료를 건네는 선택과 과시 기회 비용이 보인다.",
-      "bounded_not_claimed": "시장 평점·협상 가격·계약 수락·프런트 동의는 미인증.",
-      "specific_gap": "좋은 경기만 고르지 않은 실제 출전·상대 대응/효율 변동의 역할 평가 자료는 아직 없다. 연습 영상의 실패만으로 시즌 평가를 대체하지 않는다.",
-      "exit_audit_result": "BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD",
+      "observed_action_cost_authority_reason": "원 조기도움2와 새 안쪽유지/늦은도움2를 분리하고 국소판단 2적절/2실패를 모두 에이전트의 자기자료에 남긴다. 기존 두MISS와 새슛null, 원240/480분·M1동료 분기회비용을 보존한다.",
+      "bounded_not_claimed": "전체 시즌 효율·실제 베테랑 DNP·시장가격/협상수락은 인증하지 않는다.",
+      "specific_gap": null,
+      "exit_audit_result": "PASS_CONDITIONAL_CHANGED_DEFENSE_COMPARISON_CRITERIA",
       "cp2_success_criteria": [
         "상대가 바꾼 수비에 따른 성공/실패를 함께 평가",
         "32분 조합을 시즌 기록이나 QO 충족으로 환산하지 않음"
       ],
-      "source_criteria_bounded_pass": false,
-      "source_criteria_conditional_family_only": false,
+      "source_criteria_bounded_pass": true,
+      "source_criteria_conditional_family_only": true,
       "full_irreversible_contract_event_hold": false,
+      "whole_subact_execution_or_authority_hold": false,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     },
@@ -126,6 +133,7 @@
       "source_criteria_bounded_pass": true,
       "source_criteria_conditional_family_only": true,
       "full_irreversible_contract_event_hold": true,
+      "whole_subact_execution_or_authority_hold": true,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     },
@@ -139,20 +147,22 @@
         "A08-EF-002"
       ],
       "evidence_paths": [
-        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json"
+        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "design/A08_CONDITIONAL_GAME_CALL_FAMILY_2026_10_07.json"
       ],
       "last_exact_exit": "허용된 가상 훈련에서 첫 반환 차단 앞 늦은 각도 오류, 열린 수신자에게 짧게 내보낸 수정 시도와 다른 닫힌 길의 안전 재전개를 직접 수행했다. 원 A08-CF03의 실제 NBA 경기 시험은 미실행이고 압박 속 정확성·턴오버·상시 사용권은 아직 미증명이다.",
-      "observed_action_cost_authority_reason": "첫 반환 차단 가상 팀훈련의 늦은 각도 오류·열린 수신자에게 수정 전달·다른 닫힌 길의 안전 재전개는 직접 수행했다.",
-      "bounded_not_claimed": "원 CF03의 NBA 실경기 시험, 실제 압박 속 정확성·턴오버·사용/중단 반복 표본은 인증하지 않는다.",
-      "specific_gap": "허용된 실제 경기의 첫 반환 차단 시험과 그 오류에 근거한 사용·중단 조건은 아직 없다.",
-      "exit_audit_result": "HOLD_ACTUAL_GAME_TRIAL_FOR_FULL_CP2_EXIT",
+      "observed_action_cost_authority_reason": "새5창 중 즉시캐치반환·드리블뒤막힌길TO/복귀·드리블뒤별도열린길재전개를 다른 조건부 표본으로 분류한다. 팀14,400초 수학적 용량은 실제 계약/명단/교대벡터가 아니다.",
+      "bounded_not_claimed": "조건부 비교만 지원하며 실제 실전 실행·전체 소막은HOLD다.",
+      "specific_gap": "선택된 적법2022계약/양측가용10인/실제창배치가 미완료. 82경기 건강이나 사적 접수증을 추가 요구하지 않는다.",
+      "exit_audit_result": "PASS_CONDITIONAL_COMPARISON_DESIGN_ACTUAL_GAME_EXIT_HOLD",
       "cp2_success_criteria": [
         "캐치 직후 반환과 드리블 유지 후 패스를 다른 표본으로 분류",
         "성공 패스뿐 아니라 공격 지연·턴오버·실패 뒤 복귀 책임 확인"
       ],
-      "source_criteria_bounded_pass": false,
-      "source_criteria_conditional_family_only": false,
+      "source_criteria_bounded_pass": true,
+      "source_criteria_conditional_family_only": true,
       "full_irreversible_contract_event_hold": false,
+      "whole_subact_execution_or_authority_hold": true,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     },
@@ -166,20 +176,22 @@
         "A08-EF-003"
       ],
       "evidence_paths": [
-        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json"
+        "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json",
+        "design/A08_CONDITIONAL_GAME_CALL_FAMILY_2026_10_07.json"
       ],
       "last_exact_exit": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다",
-      "observed_action_cost_authority_reason": "허용된 가상 팀훈련에서 자기 짧은 창을 시험하고 동료 우위가 보인 다른 흐름에서는 공을 넘긴 뒤 재관여 위치로 움직였다.",
-      "bounded_not_claimed": "경기별 공격 권한·공동 에이스 지정·동료 마무리·클로징 배분을 관측하지 않았다.",
-      "specific_gap": "실제 맡은 경기 역할 안의 선택·재관여와 감독의 경기별 권한은 아직 없다.",
-      "exit_audit_result": "HOLD_GAME_ROLE_FOR_FULL_CP2_EXIT",
+      "observed_action_cost_authority_reason": "자기 짧은길 계속개방/동료의 더빠른열린길이라는 두마무리 조건을 설명하고 각자의 점유포기/다음판단/실패책임을 남긴다. 원 기준은 설명이며 양쪽 실제마무리 결과를 새 필수게이트로 넣지 않는다.",
+      "bounded_not_claimed": "실제마무리·경기별공동에이스/클로징 권한·2028수신/득점은 미확정이다.",
+      "specific_gap": "전체소막의 경기별권한과 준비책임은 미선택. 조건설명 지원과 전체출구HOLD를 구별한다.",
+      "exit_audit_result": "PASS_BOUNDED_FINISH_CONDITION_EXPLANATION_GAME_AUTHORITY_HOLD",
       "cp2_success_criteria": [
         "주인공이 끝내는 경우와 LaMelo/LaVine이 끝내는 경우 모두 조건을 설명",
         "P3의 상호 비용을 남기되 2028 수취인/득점은 아직 잠그지 않음"
       ],
-      "source_criteria_bounded_pass": false,
-      "source_criteria_conditional_family_only": false,
+      "source_criteria_bounded_pass": true,
+      "source_criteria_conditional_family_only": true,
       "full_irreversible_contract_event_hold": false,
+      "whole_subact_execution_or_authority_hold": true,
       "local_function_action_observed": true,
       "whole_historical_season_or_NBA_game_certified": false
     }
@@ -196,9 +208,9 @@
         "A07-EF-003"
       ],
       "last_exact_exit": "짧은 공격·반환의 조건과 남은 약점을 2022 역할 평가에 넘기지만 계약 가격·공동 에이스 권한은 아직 얻지 않는다",
-      "functional_exit_audit_result": "BOUNDED_AGENT_HANDOFF_OBSERVED_ACT_EXIT_HOLD",
+      "functional_exit_audit_result": "PASS_CONDITIONAL_FIRST_CONTRACT_SAMPLE_WHOLE_SEASON_HOLD",
       "observed_reason": "동료 기회 비용을 보인 제한 과제→두 수비 조건의 실패/재시도→실패까지 포함해 에이전트에게 넘긴 표본은 첫 장기 계약 협상의 자기 자료로 성립한다.",
-      "specific_gap": "원 A07 Act 비용의 실전 효율 변동과 S3의 실제 출전/상대 대응 자료가 없어 첫 장기계약 협상의 전체 표본으로 확정할 수 없다. 82경기 전체 건강이나 사적 협상 접수증을 새 전제로 요구하지 않는다.",
+      "specific_gap": "원 Act의 실제압박 시험/효율변동은 한정4표본의 늦은시계·국소판단 성공/실패로, 베테랑분은 M1 정상/예외 배분의 조건부 기회비용으로 기록한다. 자기자료 전달을 채택해 첫 협상의 한정표본을 지원한다. 전체시즌/실제계약·명단 확정은 별도이고, 시장가격·수락·82실적을 원 표본출구의 새 요구로 만들지 않는다.",
       "bounded_not_claimed": "협상 결과·정확 계약 가격·시장 평가·시즌 승패는 인증하지 않는다."
     },
     {
@@ -214,7 +226,7 @@
       "last_exact_exit": "자기 공격과 이양 뒤 재관여를 함께 시험하는 준비를 다음 연차로 가져가지만 공동 에이스 지위·마무리 권한·팀 성과는 미정이다",
       "functional_exit_audit_result": "HOLD_CONTRACT_AND_GAME_AUTHORITY",
       "observed_reason": "역할/동료 기능의 예산 질문과 훈련의 첫 반환 차단·이양 후 재관여는 직접 보인다.",
-      "specific_gap": "E2 기관 결정·예산 책임과 NBA 실경기 사용/중단 및 경기별 공동 공격 권한이 아직 선택·관측되지 않았다.",
+      "specific_gap": "E2 기관 결정·예산 책임과 실제 적법2022경기 배치/경기별공동공격권한은 미선택이다. 새5창 조건부사용/중단 및 두마무리 조건설명은 지원하며 이를 다시 미작성 공백으로 세지 않는다.",
       "bounded_not_claimed": "연습 수행을 계약 수락·실제 경기 배분·공동 에이스 지위로 읽지 않는다."
     }
   ],
@@ -229,7 +241,11 @@
   "design_gate": "CLOSED",
   "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
   "source_sha256": {
-    "tools/build_a07_a08_subact_exit_audit.py": "aa511803b320ee9ea0939940df175c9860d42d5e46810363e311875f87fc3b24",
+    "design/A07_CHANGED_DEFENSE_ROLE_EVALUATION_2026_10_07.json": "a41e21e63bb83f8434e624c3609c89c7e758a3062143ab7314ac01252d1428df",
+    "tools/build_a07_changed_defense_role_evaluation.py": "80b47ba15faf5e80cca08d5bbd29397dc4e8d1d87b19ad43ba46cae27ea1feac",
+    "design/A08_CONDITIONAL_GAME_CALL_FAMILY_2026_10_07.json": "4fa439c8330e42cd06d5e305b5226e4a540ff23c1f25b263b0afa5cea4a1a6a4",
+    "tools/build_a08_conditional_game_call_family.py": "33738411ee4c045f09df98db92d3f9b50b1b978b2fefddf7fd54ead999cb80e0",
+    "tools/build_a07_a08_subact_exit_audit.py": "7fcd486d40767e3736181872e984c828d75dc4cb8b29a6bc0aad6bbb1ccee0c8",
     "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e",
     "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07",
     "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",

@@ -9,6 +9,8 @@ import build_a07_finite_function_batch as a07_builder
 import build_a08_finite_function_batch as a08_builder
 import build_a07_opening_game_elbow_observation_family as game_builder
 import build_a08_s1_current_rt_cost_slot_family as rt_builder
+import build_a07_changed_defense_role_evaluation as defense_builder
+import build_a08_conditional_game_call_family as call_builder
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,7 +21,9 @@ CP2 = 'design/CP2_ACT_SUBACT_PACKET.json'
 OUTPUT = Path('design/A07_A08_SUBACT_EXIT_AUDIT_2026_10_07.json')
 GAME = game_builder.OUT
 RT = str(rt_builder.OUTPUT).replace('\\', '/')
-SOURCES = (SELF, A07, A08, CP2, GAME, game_builder.SELF, RT, str(rt_builder.SELF).replace('\\', '/'))
+DEFENSE = defense_builder.OUT
+CALLS = call_builder.OUT
+SOURCES = (DEFENSE, defense_builder.SELF, CALLS, call_builder.SELF, SELF, A07, A08, CP2, GAME, game_builder.SELF, RT, str(rt_builder.SELF).replace('\\', '/'))
 CP2_SUCCESS_CRITERIA_SHA = 'b205b4d8eb3ff7e956ec8c2ce2fbb9018b0969bde4a9fb033ff295f1df53e902'
 
 
@@ -64,6 +68,19 @@ def build(root=ROOT):
     assert rt['fictional_agent_handoff']['same_E40_proposal_material']
     assert rt['RT_policy_selected'] is None and not rt['actual_FY22_roster_or_tax_bill_certified']
 
+    defense, calls = load(root, DEFENSE), load(root, CALLS)
+    assert defense == defense_builder.build()
+    assert calls == call_builder.build()
+    assert defense['certification']['independent_review_completed']
+    assert defense['root_working_selection']['two_new_coach_calls_and_own_mixed_record_transfer_selected']
+    assert calls['certification']['independent_review_completed']
+    assert calls['certification']['root_conditional_working_design_selection']
+    assert len(calls['bounded_game_calls']) == 5
+    assert calls['cp2_contract']['S2_catch_immediate_vs_dribble_then_pass_comparison_modeled']
+    assert calls['cp2_contract']['S3_source_success_criteria_condition_explanation_bounded_pass']
+    assert not calls['cp2_contract']['S3_whole_subact_exit_or_game_authority_complete']
+    assert not calls['certification']['E2_contract_price_or_acceptance_selected']
+
     specifications = [
         ('A07-S1', ['A07-EF-001'], 'PASS_BOUNDED_OPERATING_EXIT',
          'M1 정상/COBY_OUT의 역할 비용을 명시해 좁은 엘보 과제를 요청했고 가상 코치가 실제 허용 훈련의 과제를 맡겼다.',
@@ -89,6 +106,21 @@ def build(root=ROOT):
          '경기별 공격 권한·공동 에이스 지정·동료 마무리·클로징 배분을 관측하지 않았다.',
          '실제 맡은 경기 역할 안의 선택·재관여와 감독의 경기별 권한은 아직 없다.'),
     ]
+    updates = {
+        'A07-S3': ('PASS_CONDITIONAL_CHANGED_DEFENSE_COMPARISON_CRITERIA',
+                   '원 조기도움2와 새 안쪽유지/늦은도움2를 분리하고 국소판단 2적절/2실패를 모두 에이전트의 자기자료에 남긴다. 기존 두MISS와 새슛null, 원240/480분·M1동료 분기회비용을 보존한다.',
+                   '전체 시즌 효율·실제 베테랑 DNP·시장가격/협상수락은 인증하지 않는다.', None),
+        'A08-S2': ('PASS_CONDITIONAL_COMPARISON_DESIGN_ACTUAL_GAME_EXIT_HOLD',
+                   '새5창 중 즉시캐치반환·드리블뒤막힌길TO/복귀·드리블뒤별도열린길재전개를 다른 조건부 표본으로 분류한다. 팀14,400초 수학적 용량은 실제 계약/명단/교대벡터가 아니다.',
+                   '조건부 비교만 지원하며 실제 실전 실행·전체 소막은HOLD다.',
+                   '선택된 적법2022계약/양측가용10인/실제창배치가 미완료. 82경기 건강이나 사적 접수증을 추가 요구하지 않는다.'),
+        'A08-S3': ('PASS_BOUNDED_FINISH_CONDITION_EXPLANATION_GAME_AUTHORITY_HOLD',
+                   '자기 짧은길 계속개방/동료의 더빠른열린길이라는 두마무리 조건을 설명하고 각자의 점유포기/다음판단/실패책임을 남긴다. 원 기준은 설명이며 양쪽 실제마무리 결과를 새 필수게이트로 넣지 않는다.',
+                   '실제마무리·경기별공동에이스/클로징 권한·2028수신/득점은 미확정이다.',
+                   '전체소막의 경기별권한과 준비책임은 미선택. 조건설명 지원과 전체출구HOLD를 구별한다.'),
+    }
+    specifications = [(sid, ids, *updates[sid]) if sid in updates else row
+                      for row in specifications for sid, ids in [row[:2]]]
     rows = []
     for sid, ids, result, reason, bounded_not_claimed, gap in specifications:
         source = sub[sid]
@@ -98,15 +130,16 @@ def build(root=ROOT):
             'subact_id': sid, 'cp2_entry_state': source['entry_state'],
             'cp2_choice': source['choice'], 'cp2_cost': source['cost'],
             'cp2_exit_state': source['exit_state'], 'evidence_function_ids': ids,
-            'evidence_paths': [A07 if sid.startswith('A07') else A08] + ([GAME] if sid == 'A07-S2' else [RT] if sid == 'A08-S1' else []),
+            'evidence_paths': [A07 if sid.startswith('A07') else A08] + ([GAME] if sid == 'A07-S2' else [DEFENSE, GAME] if sid == 'A07-S3' else [RT] if sid == 'A08-S1' else [CALLS] if sid in ('A08-S2', 'A08-S3') else []),
             'last_exact_exit': last['exit_state'],
             'observed_action_cost_authority_reason': reason,
             'bounded_not_claimed': bounded_not_claimed,
             'specific_gap': gap, 'exit_audit_result': result,
             'cp2_success_criteria': source.get('success_criteria', []),
-            'source_criteria_bounded_pass': sid in ('A07-S1', 'A07-S2', 'A08-S1'),
-            'source_criteria_conditional_family_only': sid in ('A07-S2', 'A08-S1'),
+            'source_criteria_bounded_pass': sid in ('A07-S1', 'A07-S2', 'A07-S3', 'A08-S1', 'A08-S2', 'A08-S3'),
+            'source_criteria_conditional_family_only': sid in ('A07-S2', 'A07-S3', 'A08-S1', 'A08-S2', 'A08-S3'),
             'full_irreversible_contract_event_hold': sid == 'A08-S1',
+            'whole_subact_execution_or_authority_hold': sid in ('A08-S1', 'A08-S2', 'A08-S3'),
             'local_function_action_observed': True,
             'whole_historical_season_or_NBA_game_certified': False,
         })
@@ -116,9 +149,9 @@ def build(root=ROOT):
             'cp2_cost': act['A07']['cost'], 'cp2_exit_state': act['A07']['exit_state'],
             'evidence_function_ids': [f'A07-EF-{i:03d}' for i in range(1, 4)],
             'last_exact_exit': f['A07-EF-003']['exit_state'],
-            'functional_exit_audit_result': 'BOUNDED_AGENT_HANDOFF_OBSERVED_ACT_EXIT_HOLD',
+            'functional_exit_audit_result': 'PASS_CONDITIONAL_FIRST_CONTRACT_SAMPLE_WHOLE_SEASON_HOLD',
             'observed_reason': '동료 기회 비용을 보인 제한 과제→두 수비 조건의 실패/재시도→실패까지 포함해 에이전트에게 넘긴 표본은 첫 장기 계약 협상의 자기 자료로 성립한다.',
-            'specific_gap': '원 A07 Act 비용의 실전 효율 변동과 S3의 실제 출전/상대 대응 자료가 없어 첫 장기계약 협상의 전체 표본으로 확정할 수 없다. 82경기 전체 건강이나 사적 협상 접수증을 새 전제로 요구하지 않는다.',
+            'specific_gap': '원 Act의 실제압박 시험/효율변동은 한정4표본의 늦은시계·국소판단 성공/실패로, 베테랑분은 M1 정상/예외 배분의 조건부 기회비용으로 기록한다. 자기자료 전달을 채택해 첫 협상의 한정표본을 지원한다. 전체시즌/실제계약·명단 확정은 별도이고, 시장가격·수락·82실적을 원 표본출구의 새 요구로 만들지 않는다.',
             'bounded_not_claimed': '협상 결과·정확 계약 가격·시장 평가·시즌 승패는 인증하지 않는다.',
         },
         {
@@ -128,7 +161,7 @@ def build(root=ROOT):
             'last_exact_exit': f['A08-EF-003']['exit_state'],
             'functional_exit_audit_result': 'HOLD_CONTRACT_AND_GAME_AUTHORITY',
             'observed_reason': '역할/동료 기능의 예산 질문과 훈련의 첫 반환 차단·이양 후 재관여는 직접 보인다.',
-            'specific_gap': 'E2 기관 결정·예산 책임과 NBA 실경기 사용/중단 및 경기별 공동 공격 권한이 아직 선택·관측되지 않았다.',
+            'specific_gap': 'E2 기관 결정·예산 책임과 실제 적법2022경기 배치/경기별공동공격권한은 미선택이다. 새5창 조건부사용/중단 및 두마무리 조건설명은 지원하며 이를 다시 미작성 공백으로 세지 않는다.',
             'bounded_not_claimed': '연습 수행을 계약 수락·실제 경기 배분·공동 에이스 지위로 읽지 않는다.',
         },
     ]
@@ -136,12 +169,12 @@ def build(root=ROOT):
         'schema': 'A07_A08_SUBACT_EXIT_AUDIT_V1',
         'status': 'INDEPENDENTLY_REVIEWED_SOURCE_CRITERIA_EXIT_AUDIT',
         'independent_review_completed': True,
-        'independent_review_basis': 'g11 separately read original CP2 A07-S2/A08-S1 criteria and current source families. Conditional game/cost criteria pass with 3 remaining criteria and 2 act HOLDs; no dependency cycle. Actual loader-return MISS-to-MADE and RT4 Valentine protected2193930-to-zero mutations rejected. Author self-tests are not counted as independent checks.',
+        'independent_review_basis': 'g11 separately read original CP2 and all current defense/call/RT sources. One bounded observation and five conditional criterion supports, zero new criterion-writing gaps, three full A08 execution/contract/authority HOLDs and two whole Act HOLDs were verified; conditional A07 first-contract sample support is not whole season completion. No dependency cycle. Actual loader-return CD1 failed-decision-to-success and S3 condition-explanation-to-actual-finishes mutations rejected. Author self-tests are not independent checks.',
         'counts': {'subact_exits_audited': 6, 'local_function_actions_observed': 6,
-                   'subact_source_criteria_bounded_pass': 3,
-                   'subact_source_criteria_conditional_family_pass': 2,
+                   'subact_source_criteria_bounded_pass': 6,
+                   'subact_source_criteria_conditional_family_pass': 5,
                    'full_irreversible_contract_event_hold': 1,
-                   'subact_source_criteria_specific_hold': 3, 'act_exits_audited': 2,
+                   'subact_source_criteria_specific_hold': 0, 'whole_subact_execution_or_authority_hold': 3, 'act_conditional_first_contract_sample_supported': 1, 'act_exits_audited': 2,
                    'act_source_exit_pass': 0, 'act_specific_hold': 2,
                    'registered_local_functions_reused': 6,
                    'new_episode_functions_added': 0,
@@ -160,7 +193,7 @@ def build(root=ROOT):
 
 def render(data):
     lines = ['# A07·A08 소막·막 출구 한정 감사', '',
-             '기존6기능을 보존한다. 원성공기준의 한정관측1개와 조건부 설계 비교2개를 수용하고 남은기준3개는HOLD다. 조건부 두개는 개막40초의 두플레이 설계와 현재RT 비용연결이다. A08-S1 실제E2 예산사용/기관결정은 여전히HOLD이며 두막/전체시즌·계약 결과를 확정하지 않는다. 새등록기능0.', '',
+             '기존6기능을 보존한다. 원성공기준의 한정관측1개와 조건부 설계지원5개를 구별한다. 추가 기준작성 공백0, A08 계약·실행·권한의 전체소막HOLD3, 두막의 실제시즌/계약HOLD2다. A07 첫협상의 한정4표본 출구지원1을 별도 기록하며 전체시즌 실적/시장수락으로 승격하지 않는다. 새등록기능0.', '',
              '|소막|판정|관측 근거|정확 남은 공백|', '|---|---|---|---|']
     for row in data['subact_exit_rows']:
         lines.append('|{}|{}|{}|{}|'.format(row['subact_id'], row['exit_audit_result'],
@@ -170,8 +203,8 @@ def render(data):
     for row in data['act_exit_rows']:
         lines.append('|{}|{}|{}|'.format(row['act_id'], row['functional_exit_audit_result'],
                                        row['specific_gap'] or row['bounded_not_claimed']))
-    lines += ['', 'A07은 실패를 포함한 연습자료와 별도 조건부 개막 두관측을 구분한다. 두슛은 모두실패이며 이를 시즌효율/출전평가로 확장하지 않는다. '
-              'A08 G8의 현재비용 연결은 종료했지만 E2 기관결정과 라이브패스 실경기/경기별역할은 훈련이나 비용표로 대체되지 않는다.',
+    lines += ['', 'A07은 실패를 포함한 연습자료와 별도 조건부 개막 두관측을 구분한다. 기존두슛은MISS/새두슛은null, 국소판단은2적절/2실패다. 한정자료를 전체시즌효율/실제출전 집계로 확장하지 않는다. '
+              'A08 G8의 현재비용 연결은 종료했지만 E2 기관결정/적법실경기 실행/경기별권한은 별도다. 새5창 조건부비교·마무리조건설명을 훈련이나 계약완료로 잘못 읽지 않는다.',
               '', '82경기 건강·사적 영수증을 새로운 전제 게이트로 추가하지 않는다. '
               '전체 G13/G14·실제 Pack·원고는 미완료이며 설계·원고 게이트는 `CLOSED`다.', '']
     return '\n'.join(lines)
@@ -195,7 +228,7 @@ def main():
         (ROOT / OUTPUT.with_suffix('.md')).write_text(render(data), encoding='utf-8')
     if args.check:
         saved = load(ROOT, OUTPUT)
-        errors = validate(saved)
+        errors = [] if saved == data else ['exit audit differs from fresh source-bound build']
         if (ROOT / OUTPUT.with_suffix('.md')).read_text(encoding='utf-8') != render(saved):
             errors.append('Markdown differs')
         print(json.dumps({'current': not errors, 'errors': errors,
