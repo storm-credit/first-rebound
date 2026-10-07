@@ -1,0 +1,54 @@
+{
+  "id": "BKN_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewed_artifact": "simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.json",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_bkn_2021_keeper_and_chicago_selected_results.py": "1ef6b8cad0a15ab2a0e0d915dcda5385a69ccbec6b9c6e180ccfc7970be506b2",
+    "simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.json": "b29b621991a541396e952d2cdbbceda1a9025bbc9bc79598b8da3c735ae5743a",
+    "simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.md": "bfa73d0cbae4b6c5230821dd2ddfbc65b9828a8d42cdee913517a3ddc6342f86"
+  },
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_NARROW_SELECTED_BKN_NPC_FAMILY_AND_THREE_WORKING_RESULTS",
+  "direct_sources": [
+    {
+      "url": "https://www.nba.com/nets/news/2021/10/12/brooklyn-nets-statement",
+      "scope": "Nets team no-part-time policy beginning Oct12, not medical status"
+    },
+    {
+      "url": "https://www.nba.com/news/brooklyn-nets-to-allow-kyrie-irving-to-rejoin-road-games",
+      "scope": "Dec17 decision reported Dec18 for road participation, not home exception"
+    },
+    {
+      "url": "https://www.nyc.gov/assets/counseltothemayor/downloads/Key-to-NYC-FAQ.pdf?g6jb9lmflcf=",
+      "scope": "Dec20 FAQ printed p5: NYC home players regardless residence; nonresident visiting competition exception"
+    },
+    {
+      "url": "https://web.archive.org/web/20220106014725if_/https://www.chicago.gov/content/dam/city/sites/covid/health-orders/Health%20Order%202021-2_12-30-21_FINAL.pdf",
+      "raw_cache": "C:/Users/Storm Credit/AppData/Local/Temp/fr-bkn-keeper-20261007/CHI2021_2_archived.pdf",
+      "raw_sha256": "34b6dfbb87f65b54b6e5ddd0e77cf2c210d06fc722857e2f347ae283ea0f3903",
+      "scope": "Original Dec30 order effective Jan3 p3 section5(3) nonresident pro athlete for employment competition; Jan26 revision not used"
+    },
+    {
+      "url": "https://www.nba.com/game/bkn-vs-chi-0022100625",
+      "scope": "Historical Jan12 road appearance corroborates venue access, not selected-world clinical/score fact"
+    }
+  ],
+  "direct_checks": [
+    "Direct physical original Chicago PDF SHA and p3 section5(3)/p4 issuance compared; NYC FAQ legal distinction and Nets Oct12/Dec17 team policies kept separate.",
+    "15 named STANDARD/0 TW; each of three selected dates active12, positive10, 24 two-minute BKN blocks, 2880 clock seconds and 14400 player seconds, five distinct positions in chosen state. Kyrie 0 on Nov8/Dec4 and 1920 seconds on Jan12 Chicago away only.",
+    "Direct calendar/CHI delegated health join for game IDs 0022100148, 0022100343, 0022100625. Independent Fraction recomputation from selected BPM fractions, clocks, home and fatigue matched exact three margins and winners CHI/BKN/BKN.",
+    "Public contract family retains 8 current UPCs; Brown/Dinwiddie own Bird two-year offer intervals and Jeff Green taxpayer MLE two-year first 4.8–5.2m interval within 5.89m limit. Current Γ, holds, protected prior obligations and omitted historical P1/Jordan moves remain distinct; no private receipt/whole salary certificate."
+  ],
+  "actual_negative_control": {
+    "pre_repair": "Patch only physical(det.BPM) returned Nic Claxton bpm 2.8→20.8, leave CSV bytes unchanged: build and validate(build) falsely passed and selected rating changed.",
+    "repair": "Caller independently parses physical CSV/JSON and compares the returned object to actual physical content.",
+    "post_repair": "Same mutation rejected with ValueError: Returned physical source differs simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv. Saved unpatched validate=[] after regeneration."
+  },
+  "boundaries": {
+    "historical_2022_01_12_actual_score_imported": false,
+    "fictional_vaccination_or_mental_health_or_clinical_certified": false,
+    "exact_private_contracts_or_whole_BKN_team_salary_certified": false,
+    "whole82_or_macro3_complete": false,
+    "manuscript_allowed": false
+  }
+}
