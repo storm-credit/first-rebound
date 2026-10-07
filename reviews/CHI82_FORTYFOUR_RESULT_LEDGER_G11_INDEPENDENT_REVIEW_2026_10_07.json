@@ -4,8 +4,8 @@
   "scope": "Current 44 selected fictional regulation results joined to the physical 82-game Chicago calendar and delegated Chicago health selection.",
   "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
   "source_sha256": {
-    "tools/build_chicago_2021_22_selected_results_ledger.py": "1d41e5217864554698a733f4addc53f320007ff68df2d723d29de2adfe0f45a3",
-    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "c09bd8bad9e6f501a46035d362664be9a2fc9fa304c1949998e75f88e656b615",
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "1ba7bb4836ba6692783c626134b99178fb365b2bbef2b26fc515582c8c18fb4c",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "0ac0d12545163fe09cd95ce45c8e43ee58600c2b7d079ecf97c8ba106d3033dd",
     "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "f93955b83f25eb9390d3aad1ec713daeb3c9bf31db24fd152b20192b3c5112c6"
   },
   "direct_checks": {
@@ -15,6 +15,7 @@
     "named_result_source_date_state_winner_join": "44 of 44 exact",
     "ORL_four_exact_review_pointers": true,
     "HOU_two_exact_review_pointers": true,
+    "LAL_two_corrected_owner_review_pointers": "Both LAL dates point to reviews/LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json and preserve winners LAL then CHI",
     "selected": 44,
     "CHI_wins": 25,
     "opponent_wins": 19,
@@ -30,6 +31,10 @@
     "mutation": "Returned ORL first winner CHI to ORL while physical source file and date remain unchanged",
     "result": "REJECTED_BY_BUILD",
     "reason": "Returned input differs from physical source: simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "current_repin_counterexample": {
+    "mutation": "Returned corrected LAL first winner was flipped to CHI without changing physical source bytes",
+    "result": "REJECTED ValueError Returned input differs from physical source: simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json"
   },
   "current_check": "PASS",
   "limitations": {

@@ -1,6 +1,6 @@
 {
   "id": "CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS",
-  "baseline_main": "d111ddb9a0246345b1c04784404c829bf3202576",
+  "baseline_main": "afa1f68ac6916993d037e214be85378ccf4f7559",
   "status": "SELECTED_NAMED_LAWFUL_NPC_FAMILY_TWO_RESULTS_INDEPENDENT_REVIEW_PENDING",
   "source_sha256": {
     "simulation/NBA_2021_22_COMMON_26_OPPONENT_CAPACITY.json": "a0ecb8e362e51344ca2cc2de53ff0713901bc4d50432a5efef621641fd0c00b7",
@@ -16,7 +16,8 @@
     "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e",
     "tools/build_nyk_2021_keeper_and_chicago_selected_results.py": "61eb21ed98b1c4020bce85062db5bb7b988de9ba9cf213116b52f54575d9b397",
     "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312",
-    "tools/build_lal_2021_keeper_and_chicago_selected_results.py": "8e0c1f5f0866d60aad61320cd920884dcc997257723187bf65de3ad7567a9776"
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "tools/build_lal_2021_keeper_and_chicago_selected_results.py": "e68e661c5c5d111f34b374ada1a4f297d6747cd0c5d024d88c5fb4c9ecb1c625"
   },
   "primary_support": {
     "CBA": {
@@ -172,7 +173,8 @@
     "new_trade": false,
     "new_NTMLE_BAE_ROOMMLE_incoming_SandT": false,
     "Caruso": "original LAL expiry then already selected CHI A UPC; no LAL newUPC, all old earnedGamma/FAcharge retained until lawful signedelsewhere adjustment",
-    "Dudley": "original expiry, no newUPC; earnedGamma/FAclaims retained, no actual retirement forced",
+    "Dudley": "original expiry then separate voluntary legal minimum1 UPC as reserve; original earnedGamma/FAclaims preserved; actual retirement not forced",
+    "Markieff": "Already selected Miami UPC from current parent family; no new LAL UPC; all original earnedGamma and FA claims preserved until lawful signedelsewhere adjustment",
     "TW": "If original TWlive, lawful nonassignmentwaiver bySep30/full currentprotectedGamma kept; ifexpired, applicable STANDARD/TWQO including consecutive2sameTeam rule timelyoperative2021, unaccepted/unextendedOct1, FRN/FAclaims kept. No newUPC or inferred exactterm.",
     "LeBron_AD": "separate selected operational availability on bothdates; original injury/COVID/postponement not cloned, clinical clearance not certified",
     "whole_private_or_actual_receipts": false
@@ -279,7 +281,7 @@
       "old_Gamma_preserved": true
     },
     {
-      "player": "Markieff Morris",
+      "player": "Jared Dudley",
       "route": "VII6i_MINIMUM",
       "seasons": 1,
       "salary": "signed2021LegalMinimum(YOS)",
@@ -312,11 +314,11 @@
       "Ben McLemore",
       "Dennis Schroder",
       "Jared Butler",
+      "Jared Dudley",
       "Kentavious Caldwell-Pope",
       "Kyle Kuzma",
       "LeBron James",
       "Marc Gasol",
-      "Markieff Morris",
       "Montrezl Harrell",
       "Talen Horton-Tucker",
       "Wesley Matthews"
@@ -325,6 +327,7 @@
     "STD": 14,
     "TW_count": 0,
     "active": [
+      "Alfonzo McKinnie",
       "Andre Drummond",
       "Anthony Davis",
       "Dennis Schroder",
@@ -333,14 +336,13 @@
       "Kyle Kuzma",
       "LeBron James",
       "Marc Gasol",
-      "Markieff Morris",
       "Montrezl Harrell",
       "Talen Horton-Tucker",
       "Wesley Matthews"
     ],
     "inactive": [
-      "Alfonzo McKinnie",
-      "Ben McLemore"
+      "Ben McLemore",
+      "Jared Dudley"
     ],
     "zero_minutes_not_clinical_absence": true,
     "all_original_waived_camp_stretch_FA_unsigned_exception_Gamma_retained": true
@@ -363,8 +365,7 @@
     "PF": {
       "Anthony Davis": 22,
       "Montrezl Harrell": 12,
-      "Markieff Morris": 10,
-      "Kyle Kuzma": 4
+      "Kyle Kuzma": 14
     },
     "C": {
       "Marc Gasol": 14,
@@ -442,8 +443,8 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "LeBron James",
-        "PF": "Anthony Davis",
-        "C": "Marc Gasol"
+        "PF": "Kyle Kuzma",
+        "C": "Anthony Davis"
       }
     },
     {
@@ -454,8 +455,8 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "Kyle Kuzma",
-        "PF": "Montrezl Harrell",
-        "C": "Anthony Davis"
+        "PF": "Anthony Davis",
+        "C": "Marc Gasol"
       }
     },
     {
@@ -466,8 +467,8 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "LeBron James",
-        "PF": "Anthony Davis",
-        "C": "Andre Drummond"
+        "PF": "Kyle Kuzma",
+        "C": "Anthony Davis"
       }
     },
     {
@@ -478,8 +479,8 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "Kyle Kuzma",
-        "PF": "Markieff Morris",
-        "C": "Anthony Davis"
+        "PF": "Montrezl Harrell",
+        "C": "Andre Drummond"
       }
     },
     {
@@ -490,8 +491,8 @@
         "PG": "Dennis Schroder",
         "SG": "Wesley Matthews",
         "SF": "LeBron James",
-        "PF": "Montrezl Harrell",
-        "C": "Anthony Davis"
+        "PF": "Anthony Davis",
+        "C": "Marc Gasol"
       }
     },
     {
@@ -502,8 +503,8 @@
         "PG": "Talen Horton-Tucker",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "Kyle Kuzma",
-        "PF": "Anthony Davis",
-        "C": "Marc Gasol"
+        "PF": "Montrezl Harrell",
+        "C": "Anthony Davis"
       }
     },
     {
@@ -514,7 +515,7 @@
         "PG": "Dennis Schroder",
         "SG": "Wesley Matthews",
         "SF": "LeBron James",
-        "PF": "Markieff Morris",
+        "PF": "Kyle Kuzma",
         "C": "Montrezl Harrell"
       }
     },
@@ -526,7 +527,7 @@
         "PG": "Talen Horton-Tucker",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "Kyle Kuzma",
-        "PF": "Montrezl Harrell",
+        "PF": "Anthony Davis",
         "C": "Andre Drummond"
       }
     },
@@ -538,8 +539,8 @@
         "PG": "Dennis Schroder",
         "SG": "Talen Horton-Tucker",
         "SF": "LeBron James",
-        "PF": "Anthony Davis",
-        "C": "Marc Gasol"
+        "PF": "Kyle Kuzma",
+        "C": "Anthony Davis"
       }
     },
     {
@@ -550,8 +551,8 @@
         "PG": "Talen Horton-Tucker",
         "SG": "Wesley Matthews",
         "SF": "Kyle Kuzma",
-        "PF": "Markieff Morris",
-        "C": "Anthony Davis"
+        "PF": "Montrezl Harrell",
+        "C": "Marc Gasol"
       }
     },
     {
@@ -562,8 +563,8 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "LeBron James",
-        "PF": "Montrezl Harrell",
-        "C": "Andre Drummond"
+        "PF": "Anthony Davis",
+        "C": "Montrezl Harrell"
       }
     },
     {
@@ -574,8 +575,8 @@
         "PG": "LeBron James",
         "SG": "Talen Horton-Tucker",
         "SF": "Kyle Kuzma",
-        "PF": "Anthony Davis",
-        "C": "Montrezl Harrell"
+        "PF": "Montrezl Harrell",
+        "C": "Andre Drummond"
       }
     },
     {
@@ -598,7 +599,7 @@
         "PG": "Dennis Schroder",
         "SG": "Kentavious Caldwell-Pope",
         "SF": "Kyle Kuzma",
-        "PF": "Markieff Morris",
+        "PF": "Anthony Davis",
         "C": "Marc Gasol"
       }
     },
@@ -658,7 +659,7 @@
         "PG": "Dennis Schroder",
         "SG": "Talen Horton-Tucker",
         "SF": "LeBron James",
-        "PF": "Markieff Morris",
+        "PF": "Kyle Kuzma",
         "C": "Montrezl Harrell"
       }
     }
@@ -829,18 +830,6 @@
         "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
       }
     },
-    "Markieff Morris": {
-      "effective_rating": -0.99402460456942,
-      "exact_fraction": "-2828/2845",
-      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
-      "provenance": {
-        "archive_player": "Markieff Morris",
-        "reported_bpm": -2.4,
-        "archive_minutes": 707,
-        "observed_through": "2021-03-25",
-        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
-      }
-    },
     "Markkanen": {
       "effective_rating": 0.24518036664695447,
       "exact_fraction": "2073/8455",
@@ -961,6 +950,7 @@
       "away": "CHI",
       "CHI_state": "COBY_OUT",
       "LAL_active": [
+        "Alfonzo McKinnie",
         "Andre Drummond",
         "Anthony Davis",
         "Dennis Schroder",
@@ -969,14 +959,13 @@
         "Kyle Kuzma",
         "LeBron James",
         "Marc Gasol",
-        "Markieff Morris",
         "Montrezl Harrell",
         "Talen Horton-Tucker",
         "Wesley Matthews"
       ],
       "LAL_inactive": [
-        "Alfonzo McKinnie",
-        "Ben McLemore"
+        "Ben McLemore",
+        "Jared Dudley"
       ],
       "simultaneous_segments": [
         {
@@ -1075,8 +1064,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1095,8 +1084,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Montrezl Harrell",
-            "C": "Anthony Davis"
+            "PF": "Anthony Davis",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1115,8 +1104,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Andre Drummond"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1135,8 +1124,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
-            "C": "Anthony Davis"
+            "PF": "Montrezl Harrell",
+            "C": "Andre Drummond"
           }
         },
         {
@@ -1155,8 +1144,8 @@
             "PG": "Dennis Schroder",
             "SG": "Wesley Matthews",
             "SF": "LeBron James",
-            "PF": "Montrezl Harrell",
-            "C": "Anthony Davis"
+            "PF": "Anthony Davis",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1175,8 +1164,8 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Montrezl Harrell",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1195,7 +1184,7 @@
             "PG": "Dennis Schroder",
             "SG": "Wesley Matthews",
             "SF": "LeBron James",
-            "PF": "Markieff Morris",
+            "PF": "Kyle Kuzma",
             "C": "Montrezl Harrell"
           }
         },
@@ -1215,7 +1204,7 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Montrezl Harrell",
+            "PF": "Anthony Davis",
             "C": "Andre Drummond"
           }
         },
@@ -1235,8 +1224,8 @@
             "PG": "Dennis Schroder",
             "SG": "Talen Horton-Tucker",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1255,8 +1244,8 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Wesley Matthews",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
-            "C": "Anthony Davis"
+            "PF": "Montrezl Harrell",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1275,8 +1264,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Montrezl Harrell",
-            "C": "Andre Drummond"
+            "PF": "Anthony Davis",
+            "C": "Montrezl Harrell"
           }
         },
         {
@@ -1295,8 +1284,8 @@
             "PG": "LeBron James",
             "SG": "Talen Horton-Tucker",
             "SF": "Kyle Kuzma",
-            "PF": "Anthony Davis",
-            "C": "Montrezl Harrell"
+            "PF": "Montrezl Harrell",
+            "C": "Andre Drummond"
           }
         },
         {
@@ -1335,7 +1324,7 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
+            "PF": "Anthony Davis",
             "C": "Marc Gasol"
           }
         },
@@ -1435,7 +1424,7 @@
             "PG": "Dennis Schroder",
             "SG": "Talen Horton-Tucker",
             "SF": "LeBron James",
-            "PF": "Markieff Morris",
+            "PF": "Kyle Kuzma",
             "C": "Montrezl Harrell"
           }
         }
@@ -1459,10 +1448,9 @@
           "Anthony Davis": 2040,
           "Dennis Schroder": 1800,
           "Kentavious Caldwell-Pope": 1680,
-          "Kyle Kuzma": 1440,
+          "Kyle Kuzma": 2040,
           "LeBron James": 2040,
           "Marc Gasol": 840,
-          "Markieff Morris": 600,
           "Montrezl Harrell": 1200,
           "Talen Horton-Tucker": 1200,
           "Wesley Matthews": 720
@@ -1470,7 +1458,7 @@
       },
       "team_BPM_per100": {
         "CHI": 2.7527426172614042,
-        "LAL": 3.547120124520287
+        "LAL": 3.6407447100958077
       },
       "home_effect_CHI_per100": -2,
       "back_to_back": {
@@ -1478,8 +1466,8 @@
         "LAL": true
       },
       "fatigue_effect_CHI_per100": 0.0,
-      "exact_CHI_minus_LAL_impact_fraction": "-2915412761594237189614849773895195703707744794271/1043313852198188775875426925723654003910519793280",
-      "CHI_minus_LAL_impact_per100": -2.794377507258883,
+      "exact_CHI_minus_LAL_impact_fraction": "-5295417554712640514150784596438739371974208519/1833592007378187655317094772800797897909525120",
+      "CHI_minus_LAL_impact_per100": -2.8880020928344035,
       "selected_regulation_winner": "LAL",
       "score": null,
       "overtime_selection": null
@@ -1491,6 +1479,7 @@
       "away": "LAL",
       "CHI_state": "NORMAL",
       "LAL_active": [
+        "Alfonzo McKinnie",
         "Andre Drummond",
         "Anthony Davis",
         "Dennis Schroder",
@@ -1499,14 +1488,13 @@
         "Kyle Kuzma",
         "LeBron James",
         "Marc Gasol",
-        "Markieff Morris",
         "Montrezl Harrell",
         "Talen Horton-Tucker",
         "Wesley Matthews"
       ],
       "LAL_inactive": [
-        "Alfonzo McKinnie",
-        "Ben McLemore"
+        "Ben McLemore",
+        "Jared Dudley"
       ],
       "simultaneous_segments": [
         {
@@ -1605,8 +1593,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1625,8 +1613,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Montrezl Harrell",
-            "C": "Anthony Davis"
+            "PF": "Anthony Davis",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1645,8 +1633,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Andre Drummond"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1665,8 +1653,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
-            "C": "Anthony Davis"
+            "PF": "Montrezl Harrell",
+            "C": "Andre Drummond"
           }
         },
         {
@@ -1685,8 +1673,8 @@
             "PG": "Dennis Schroder",
             "SG": "Wesley Matthews",
             "SF": "LeBron James",
-            "PF": "Montrezl Harrell",
-            "C": "Anthony Davis"
+            "PF": "Anthony Davis",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1705,8 +1693,8 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Montrezl Harrell",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1725,7 +1713,7 @@
             "PG": "Dennis Schroder",
             "SG": "Wesley Matthews",
             "SF": "LeBron James",
-            "PF": "Markieff Morris",
+            "PF": "Kyle Kuzma",
             "C": "Montrezl Harrell"
           }
         },
@@ -1745,7 +1733,7 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Montrezl Harrell",
+            "PF": "Anthony Davis",
             "C": "Andre Drummond"
           }
         },
@@ -1765,8 +1753,8 @@
             "PG": "Dennis Schroder",
             "SG": "Talen Horton-Tucker",
             "SF": "LeBron James",
-            "PF": "Anthony Davis",
-            "C": "Marc Gasol"
+            "PF": "Kyle Kuzma",
+            "C": "Anthony Davis"
           }
         },
         {
@@ -1785,8 +1773,8 @@
             "PG": "Talen Horton-Tucker",
             "SG": "Wesley Matthews",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
-            "C": "Anthony Davis"
+            "PF": "Montrezl Harrell",
+            "C": "Marc Gasol"
           }
         },
         {
@@ -1805,8 +1793,8 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "LeBron James",
-            "PF": "Montrezl Harrell",
-            "C": "Andre Drummond"
+            "PF": "Anthony Davis",
+            "C": "Montrezl Harrell"
           }
         },
         {
@@ -1825,8 +1813,8 @@
             "PG": "LeBron James",
             "SG": "Talen Horton-Tucker",
             "SF": "Kyle Kuzma",
-            "PF": "Anthony Davis",
-            "C": "Montrezl Harrell"
+            "PF": "Montrezl Harrell",
+            "C": "Andre Drummond"
           }
         },
         {
@@ -1865,7 +1853,7 @@
             "PG": "Dennis Schroder",
             "SG": "Kentavious Caldwell-Pope",
             "SF": "Kyle Kuzma",
-            "PF": "Markieff Morris",
+            "PF": "Anthony Davis",
             "C": "Marc Gasol"
           }
         },
@@ -1965,7 +1953,7 @@
             "PG": "Dennis Schroder",
             "SG": "Talen Horton-Tucker",
             "SF": "LeBron James",
-            "PF": "Markieff Morris",
+            "PF": "Kyle Kuzma",
             "C": "Montrezl Harrell"
           }
         }
@@ -1988,10 +1976,9 @@
           "Anthony Davis": 2040,
           "Dennis Schroder": 1800,
           "Kentavious Caldwell-Pope": 1680,
-          "Kyle Kuzma": 1440,
+          "Kyle Kuzma": 2040,
           "LeBron James": 2040,
           "Marc Gasol": 840,
-          "Markieff Morris": 600,
           "Montrezl Harrell": 1200,
           "Talen Horton-Tucker": 1200,
           "Wesley Matthews": 720
@@ -1999,7 +1986,7 @@
       },
       "team_BPM_per100": {
         "CHI": 2.154494380955568,
-        "LAL": 3.547120124520287
+        "LAL": 3.6407447100958077
       },
       "home_effect_CHI_per100": 2,
       "back_to_back": {
@@ -2007,8 +1994,8 @@
         "LAL": false
       },
       "fatigue_effect_CHI_per100": 0.0,
-      "exact_CHI_minus_LAL_impact_fraction": "2276706324765710742116103561977137316781655291/3748440604196576762897740566271391522091818880",
-      "CHI_minus_LAL_impact_per100": 0.6073742564352809,
+      "exact_CHI_minus_LAL_impact_fraction": "3384464194452289288658227030123136935928579/6587769075916655119328190801882937648667520",
+      "CHI_minus_LAL_impact_per100": 0.5137496708597604,
       "selected_regulation_winner": "CHI",
       "score": null,
       "overtime_selection": null
@@ -2016,6 +2003,7 @@
   ],
   "interval": "Only selected Nov15/Dec19 dates; no Westbrook/LAL-WAS trade or original COVID/injury cascade imported",
   "butterfly_handoff": [
+    "Markieff already selected MIA, no new LAL UPC. Dudley ownFA min1 modeled separately to preserve14STD; MorrisPF10 moved to retained KuzmaPF14/total34.",
     "Caruso already CHI A/18min; no duplicate LAL newUPC or positive role.",
     "Butler22 direct selected right→RSC, no IsaiahJackson22 original Westbrook chain.",
     "No SchroderBOS, Harrell/KCP/KuzmaWAS orGasolMEM assignment copied.",
@@ -2029,7 +2017,7 @@
     "STD": 14,
     "TW": 0,
     "active_each": 12,
-    "positive_each": 11,
+    "positive_each": 10,
     "blocks_each": 24,
     "clock_seconds_each": 2880,
     "team_player_seconds_each": 14400

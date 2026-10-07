@@ -9,6 +9,16 @@
 
 Houston의 UTF-8 profile을 기본 Windows cp949로 읽던 실제 실패를 명시 UTF-8로 수정했다. 일반 Python `--check`에서 같은 실패가 사라졌고 역할·계약·승자는 바뀌지 않았다. 분 합계가 같은 역할블록 순서 변조도 거부했다.
 
+## 반영 전 발견한 중복 계약 수리
+
+Miami의 먼저 선택된14UPC 중 Markieff Morris와 기존 Lakers 새 minimum UPC가 중복이었다. [LAL 현재안](../simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.md)은 Markieff의 새 LAL UPC를 제거하고 원 earnedΓ/FA 권리를 보존한다. PF10분은 기존 Kuzma에게 재배정하여 Kuzma34·팀240분을 유지한다. 기존 ownFA Dudley는 별도 자발적 minimum1 UPC의0분 reserve로 선택해14STD를 유지한다. 실제 은퇴/코치행·사적가격을 복사하거나 인증하지 않는다. active12/양수10, Nov15 LAL/Dec19 CHI 승자는 그대로이고 마진은−2.8880020928/+0.5137496709로 재계산했다.
+
+[새 소유주 수리 검문](LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json)은 Miami source/명명UPC·역할·분수 산술과 반환 Morris 삭제 반례를 직접 검문했다. 소비된 selected keeper STD/TW·NYK·Miami atom·Chicago A의 교차소유 대조에서 잔여중복0이다. 아직 소비하지 않은 전체NBA 계약을 검문했다고 주장하지 않는다. 옛 LAL fullpeer는 main 이력으로 보존하고 현재44 원장만 새source/peer로 연결한다.
+
+## 2023 계약 입력 병행
+
+[Coby2023 원 입력](../research/COBY_2023_QO_PRIMARY_INPUT_2026_10_07.md)은 기존 NBA 작성2019CBA101 미러 PDF29의30순위 전체와2017 원 CBA XI1(c)을 직접 재사용했다. Coby2019 #7의 자기 component QO와 nonstarter rank15 anchor를 구분하며2018 Carter/P 표나 late-pick rank9를 복사하지 않았다. 기본급/likely/unlikely·두시즌 official starter 통계를 별도 입력으로 남긴다. 실제발행/서명/사적센트/반올림/독립검문/전체FY23 완료0이며 원자료를 읽은 것만 기록한다.
+
 ## 결과 연결과 범위
 
 [현재 원장](../simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md)은 이전38+ORL4+HOU2=**44/82·CHI25/상대19·잔여38**, 다음 **MIA0022100296/2021-11-27**이다. [44경기 별도 검문](CHI82_FORTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json)은 원82달력·위임건강·명명source/peer/winner/date와38키 여집합을 직접 대조한다. 38 원장 peer는 이전 merge 이력에 보존한다.
