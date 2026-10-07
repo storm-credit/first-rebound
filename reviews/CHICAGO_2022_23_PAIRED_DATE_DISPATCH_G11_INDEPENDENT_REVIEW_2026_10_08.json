@@ -1,0 +1,57 @@
+{
+  "schema": "CHICAGO_2022_23_PAIRED_DATE_DISPATCH_G11_INDEPENDENT_REVIEW_V1",
+  "date": "2026-10-08",
+  "classification": "BOUNDED_SOURCE_AND_DISPATCH_REVIEW",
+  "source_hash_method": "UTF-8 BOM stripped, CRLF/CR normalized to LF, SHA-256",
+  "source_sha256": {
+    "tools/build_2022_23_chicago_paired_dispatch.py": "722344a21468603275a8289429a8683378c5fdcc30eb1d4e9287d6a44075db78",
+    "simulation/CHICAGO_2022_23_PAIRED_DATE_DISPATCH.json": "cf9cbe4ee5528657e3aa896c05aa4bcbe7949ee39c5996276718d13b8e3b1658",
+    "simulation/CHICAGO_2022_23_PAIRED_DATE_DISPATCH.md": "dd320646fd1b414e56adb8314795816f409ce26b3e5862f03c5d9bd1b734b850"
+  },
+  "input_source_sha256": {
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json": "c0650dbb07b75cc1523bf7ccc7f658576ac5b9a8784f1e80cc97178897703170",
+    "reviews/CHICAGO_2022_23_SELECTED_DATED_ROLES_G11_INDEPENDENT_REVIEW_2026_10_08.json": "bf867086e367fc90bf851c00cce2ac620e968b32c4a3ebc390a2e36b39a4e4e0",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "simulation/CHICAGO_2022_23_PUBLISHED_CALENDAR.csv": "bd78708fb1d58e4decede3723bd14829863d395366d30d202565e3c7f7729f4b",
+    "simulation/NBA_2022_23_PUBLISHED_CALENDAR_PROVENANCE.json": "b0ed4235d17653b1272636f8197cb9eca3daacc1e279a157376f9ae227496e78",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "tools/build_2022_23_chicago_paired_dispatch.py": "722344a21468603275a8289429a8683378c5fdcc30eb1d4e9287d6a44075db78"
+  },
+  "physical_join": {
+    "calendar_rows": 82,
+    "selected_Chicago_dated_rows": 82,
+    "matched_date_key_home_away_opponent_rows": 82,
+    "selected_Chicago_role_pointer_rows": 82,
+    "opponent_teams": 29,
+    "home_dates": 41,
+    "away_dates": 41,
+    "opponent_fixture_counts_sum": 82,
+    "old_2021_22_terms_automatically_admitted": 0,
+    "paired_clocks": 0,
+    "paired_results": 0,
+    "post_D23_price_required_for_regular_dates": 0
+  },
+  "actual_independent_negative_controls": [
+    {
+      "mutation": "dates(s) returns TOR/NOP opponent swapped for PUBLISHED_2022_0141/PUBLISHED_2022_0166 while physical CSV and selected Chicago rows remain unchanged",
+      "before_repair": "FALSE_PASS at build, reported to root",
+      "after_repair": "REJECTED: Returned calendar differs from physical CSV"
+    },
+    {
+      "mutation": "dispatch returned row5 old_2021_22_result_copied true",
+      "after_repair": "REJECTED: AssertionError"
+    },
+    {
+      "mutation": "dispatch returned row5 selected_Chicago_date_pointer points to dated_rows/3 rather than /4",
+      "after_repair": "REJECTED: AssertionError"
+    }
+  ],
+  "direct_current_check": "producer --check exit 0; JSON parsed and joined independently",
+  "scope": "Source-pinned 82 selected Chicago dates and 29 typed opponent input ports only. Future FY22 NPC contract, availability, clock, productivity, paired outcomes, OT, actual box and 2023 draft prices remain unselected. Physical source proof is not private registration or clinical certification.",
+  "independent_review_completed": true,
+  "whole_2022_23_results_complete": false,
+  "whole_G13_G14_complete": false,
+  "actual_context_packs": 0,
+  "manuscript_allowed": false,
+  "files_modified_other_than_this_review": false
+}

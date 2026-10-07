@@ -1,0 +1,75 @@
+{
+  "id": "CHICAGO_2023_STAT23_A_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_SELECTED_FICTIONAL_STAT_CREDIT_AND_NONSTARTER_QO_INPUT",
+  "hash_method": "UTF8 BOM strip; CRLF/CR to LF",
+  "source_sha256": {
+    "tools/build_chicago_2023_selected_stat_credit_and_qo.py": "db1f3c8c61b21b375dfad70db83a858d18fcfa388d34cdd03364fbe78149961a",
+    "simulation/CHICAGO_2023_SELECTED_STAT_CREDIT_AND_QO.json": "142a9033d9c69b7ed96e176418fc32a7cabfd10f31188928528b22033e3a4d10",
+    "simulation/CHICAGO_2023_SELECTED_STAT_CREDIT_AND_QO.md": "7cf9b787ac8977014f84007ba89f8e4718e6c199bcf571fac874c0543292006c",
+    "canon/DELEGATED_CHICAGO_2023_STAT_CREDIT_MODEL_2026_10_08.json": "6d0fdca24c4c02a84f38e332051caa15b7eb2ccd20fbfd0936785654aec655d9"
+  },
+  "direct_physical_checks": {
+    "H21_selected_CHI_dates": 82,
+    "H21_Coby_positive_date_count": 58,
+    "H21_Coby_regulation_minutes": 1044,
+    "H21_original_M1_blocks_unordered": true,
+    "H21_new_fictional_starting_nomination_separate_from_original_clock": true,
+    "H22_selected_date_rows": 82,
+    "H22_Coby_conditional_regulation_minutes": 1476,
+    "H22_ordered_first_five": [
+      "LaMelo Ball",
+      "Zach LaVine",
+      "Protagonist",
+      "Lauri Markkanen",
+      "Wendell Carter Jr."
+    ],
+    "H22_Coby_first_five": false,
+    "H22_selected_results_count": 0,
+    "Coby_fictional_GS_year3_year4": [
+      0,
+      0
+    ],
+    "Coby_starter_OR_arms_all_false": true,
+    "fictional_OT_selected_per_game": 0,
+    "2023_Oct1_Sunday_general_window_adjusted_to_Oct2_Monday": true
+  },
+  "primary_rule_checks": [
+    "2017 CBA physical PDF pages310-311: four Starter Criteria OR arms and lesser nonstarter QO branch",
+    "2017 CBA physical PDF page314: official NBA statistics condition, not satisfied by inherited unordered M1 coverage",
+    "2017 CBA physical PDF page315: ordinary QO June29 issue limit",
+    "2023 CBA physical PDF pages344 and584: post July1 acceptance and following business day rule",
+    "2019 rookie-scale source: original pick7 components and pick15 base-only anchor retained"
+  ],
+  "independent_actual_mutation_controls": [
+    {
+      "id": "returned_H21_Coby_minutes_changed",
+      "target": "sources returned first CHI global dated row Coby seconds=9999",
+      "result": "REJECTED",
+      "diagnostic": "Dated year3 counts differ from selected template"
+    },
+    {
+      "id": "returned_starting_nomination_changed",
+      "target": "exposures returned H21 starting nomination LaVine to Coby",
+      "result": "REJECTED",
+      "diagnostic": "Returned starting witness differs from source budgets and selected nomination"
+    },
+    {
+      "id": "returned_H22_actual_participation_certified",
+      "target": "stat_row returned actual_future_all82_participations_observed_or_executed=true",
+      "result": "REJECTED",
+      "diagnostic": "Returned dated credit differs from source participation/model; no false GP82 certification"
+    }
+  ],
+  "scope_limits": {
+    "actual_NBA_GP_GS_minutes_certified": false,
+    "H22_GP82_observed_or_all_games_executed": false,
+    "H22_results_completed": false,
+    "QO_issued_delivered_or_accepted": false,
+    "exact_contract_price_selected": false,
+    "clinical_or_private_receipt_required_for_selected_fictional_model": false,
+    "whole_macro3_or_G13_complete": false,
+    "writer_self_tests_counted_as_independent": false
+  },
+  "review_note": "H21 58/1044 are selected fictional regulation participation credits. The H21 unordered M1 and paired coverage do not prove official starts; the new same-budget nomination is a separate fictional witness. H22 82/1476 is a selected policy projection with results and future participation still unexecuted. Four CBA OR arms are false for selected fictional 0/0 starts and 1044+1476 minutes; future changes require recalculation. No new exact price or receipt gate."
+}
