@@ -1,0 +1,1656 @@
+{
+  "id": "CHICAGO_2021_22_SELECTED_RESULTS_LEDGER",
+  "baseline_main": "560e507db94f2d52c1fb56eeaccc62bb1675e726",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.json": "5a6da17a8d98d0fd991a0f9286380b71dbc1c6a3ae714a7f66ce58b51379ff74",
+    "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json": "333f5bd496ed59260d21e26bb42615b13cb0a11560409a798c9f905cfe66dac6",
+    "reviews/TOR4_BPM_INDEPENDENT_REVIEW_2026_10_07.json": "3d3f84715e9fe67c4bc796356f8f01039bd86acc70ba88dc5936ae356f1a4a69",
+    "simulation/CHICAGO_NEW_ORLEANS_2021_SELECTED_KEEPER_RESULT.json": "d1975077c8879807d63763d77d58a2d89f8b481ec6c2964f0a6a9bf7a96138fd",
+    "reviews/NOP_KEEPER_SELECTED_RESULT_G11_INDEPENDENT_REVIEW_2026_10_07.json": "b146d0b98603e5d965a8b8e7bab3eb1bb3428f1e5b8c406a48940890e82c5670",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "reviews/MIA_SELECTED_APRON_ROOT_INDEPENDENT_REVIEW_2026_10_07.json": "164f0b4f5ab72f40a003840d6c7a7a3d4998f58002a37d699abd51585d5f6d39",
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "01a85f6ab8cc859b92e13af3393fafcfc1346f635bca4df082325fdd78eee7b0"
+  },
+  "rows": [
+    {
+      "game_id": "0022100004",
+      "date": "2021-10-20",
+      "home": "DET",
+      "away": "CHI",
+      "opponent": "DET",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json",
+        "review": "reviews/DET2_SELECTED_BPM_ROOT_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100022",
+      "date": "2021-10-22",
+      "home": "CHI",
+      "away": "NOP",
+      "opponent": "NOP",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_NEW_ORLEANS_2021_SELECTED_KEEPER_RESULT.json",
+        "review": "reviews/NOP_KEEPER_SELECTED_RESULT_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100030",
+      "date": "2021-10-23",
+      "home": "CHI",
+      "away": "DET",
+      "opponent": "DET",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json",
+        "review": "reviews/DET2_SELECTED_BPM_ROOT_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100046",
+      "date": "2021-10-25",
+      "home": "TOR",
+      "away": "CHI",
+      "opponent": "TOR",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": {
+        "winner": "TOR",
+        "source": "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json",
+        "review": "reviews/TOR4_BPM_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100067",
+      "date": "2021-10-28",
+      "home": "CHI",
+      "away": "NYK",
+      "opponent": "NYK",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100083",
+      "date": "2021-10-30",
+      "home": "CHI",
+      "away": "UTA",
+      "opponent": "UTA",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100098",
+      "date": "2021-11-01",
+      "home": "BOS",
+      "away": "CHI",
+      "opponent": "BOS",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100111",
+      "date": "2021-11-03",
+      "home": "PHI",
+      "away": "CHI",
+      "opponent": "PHI",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100135",
+      "date": "2021-11-06",
+      "home": "CHI",
+      "away": "PHI",
+      "opponent": "PHI",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100148",
+      "date": "2021-11-08",
+      "home": "CHI",
+      "away": "BKN",
+      "opponent": "BKN",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100163",
+      "date": "2021-11-10",
+      "home": "CHI",
+      "away": "DAL",
+      "opponent": "DAL",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100183",
+      "date": "2021-11-12",
+      "home": "GSW",
+      "away": "CHI",
+      "opponent": "GSW",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100198",
+      "date": "2021-11-14",
+      "home": "LAC",
+      "away": "CHI",
+      "opponent": "LAC",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100209",
+      "date": "2021-11-15",
+      "home": "LAL",
+      "away": "CHI",
+      "opponent": "LAL",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100223",
+      "date": "2021-11-17",
+      "home": "POR",
+      "away": "CHI",
+      "opponent": "POR",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100236",
+      "date": "2021-11-19",
+      "home": "DEN",
+      "away": "CHI",
+      "opponent": "DEN",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100250",
+      "date": "2021-11-21",
+      "home": "CHI",
+      "away": "NYK",
+      "opponent": "NYK",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100257",
+      "date": "2021-11-22",
+      "home": "CHI",
+      "away": "IND",
+      "opponent": "IND",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100271",
+      "date": "2021-11-24",
+      "home": "HOU",
+      "away": "CHI",
+      "opponent": "HOU",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100283",
+      "date": "2021-11-26",
+      "home": "ORL",
+      "away": "CHI",
+      "opponent": "ORL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100296",
+      "date": "2021-11-27",
+      "home": "CHI",
+      "away": "MIA",
+      "opponent": "MIA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100307",
+      "date": "2021-11-29",
+      "home": "CHI",
+      "away": "CHA",
+      "opponent": "CHA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100328",
+      "date": "2021-12-02",
+      "home": "NYK",
+      "away": "CHI",
+      "opponent": "NYK",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100343",
+      "date": "2021-12-04",
+      "home": "BKN",
+      "away": "CHI",
+      "opponent": "BKN",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100357",
+      "date": "2021-12-06",
+      "home": "CHI",
+      "away": "DEN",
+      "opponent": "DEN",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100367",
+      "date": "2021-12-08",
+      "home": "CLE",
+      "away": "CHI",
+      "opponent": "CLE",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100394",
+      "date": "2021-12-11",
+      "home": "MIA",
+      "away": "CHI",
+      "opponent": "MIA",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100448",
+      "date": "2021-12-19",
+      "home": "CHI",
+      "away": "LAL",
+      "opponent": "LAL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100459",
+      "date": "2021-12-20",
+      "home": "CHI",
+      "away": "HOU",
+      "opponent": "HOU",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100499",
+      "date": "2021-12-26",
+      "home": "CHI",
+      "away": "IND",
+      "opponent": "IND",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100502",
+      "date": "2021-12-27",
+      "home": "ATL",
+      "away": "CHI",
+      "opponent": "ATL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100519",
+      "date": "2021-12-29",
+      "home": "CHI",
+      "away": "ATL",
+      "opponent": "ATL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100530",
+      "date": "2021-12-31",
+      "home": "IND",
+      "away": "CHI",
+      "opponent": "IND",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100541",
+      "date": "2022-01-01",
+      "home": "WAS",
+      "away": "CHI",
+      "opponent": "WAS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100555",
+      "date": "2022-01-03",
+      "home": "CHI",
+      "away": "ORL",
+      "opponent": "ORL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100585",
+      "date": "2022-01-07",
+      "home": "CHI",
+      "away": "WAS",
+      "opponent": "WAS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100603",
+      "date": "2022-01-09",
+      "home": "DAL",
+      "away": "CHI",
+      "opponent": "DAL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100415",
+      "date": "2022-01-11",
+      "home": "CHI",
+      "away": "DET",
+      "opponent": "DET",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_OPERATING_AND_AVAILABILITY_INTERVAL",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100625",
+      "date": "2022-01-12",
+      "home": "CHI",
+      "away": "BKN",
+      "opponent": "BKN",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100637",
+      "date": "2022-01-14",
+      "home": "CHI",
+      "away": "GSW",
+      "opponent": "GSW",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100647",
+      "date": "2022-01-15",
+      "home": "BOS",
+      "away": "CHI",
+      "opponent": "BOS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100658",
+      "date": "2022-01-17",
+      "home": "MEM",
+      "away": "CHI",
+      "opponent": "MEM",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100673",
+      "date": "2022-01-19",
+      "home": "CHI",
+      "away": "CLE",
+      "opponent": "CLE",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100690",
+      "date": "2022-01-21",
+      "home": "MIL",
+      "away": "CHI",
+      "opponent": "MIL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100701",
+      "date": "2022-01-23",
+      "home": "ORL",
+      "away": "CHI",
+      "opponent": "ORL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100730",
+      "date": "2022-01-24",
+      "home": "OKC",
+      "away": "CHI",
+      "opponent": "OKC",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100472",
+      "date": "2022-01-26",
+      "home": "CHI",
+      "away": "TOR",
+      "opponent": "TOR",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json",
+        "review": "reviews/TOR4_BPM_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100742",
+      "date": "2022-01-28",
+      "home": "SAS",
+      "away": "CHI",
+      "opponent": "SAS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100753",
+      "date": "2022-01-30",
+      "home": "CHI",
+      "away": "POR",
+      "opponent": "POR",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100769",
+      "date": "2022-02-01",
+      "home": "CHI",
+      "away": "ORL",
+      "opponent": "ORL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100430",
+      "date": "2022-02-03",
+      "home": "TOR",
+      "away": "CHI",
+      "opponent": "TOR",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": {
+        "winner": "TOR",
+        "source": "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json",
+        "review": "reviews/TOR4_BPM_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100789",
+      "date": "2022-02-04",
+      "home": "IND",
+      "away": "CHI",
+      "opponent": "IND",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100802",
+      "date": "2022-02-06",
+      "home": "CHI",
+      "away": "PHI",
+      "opponent": "PHI",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100812",
+      "date": "2022-02-07",
+      "home": "CHI",
+      "away": "PHX",
+      "opponent": "PHX",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100826",
+      "date": "2022-02-09",
+      "home": "CHA",
+      "away": "CHI",
+      "opponent": "CHA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100843",
+      "date": "2022-02-11",
+      "home": "CHI",
+      "away": "MIN",
+      "opponent": "MIN",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100852",
+      "date": "2022-02-12",
+      "home": "CHI",
+      "away": "OKC",
+      "opponent": "OKC",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100861",
+      "date": "2022-02-14",
+      "home": "CHI",
+      "away": "SAS",
+      "opponent": "SAS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100878",
+      "date": "2022-02-16",
+      "home": "CHI",
+      "away": "SAC",
+      "opponent": "SAC",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": [
+        "S14A_D_SABONIS_FOUR_TEAM_DIRECTION_UNSELECTED"
+      ]
+    },
+    {
+      "game_id": "0022100891",
+      "date": "2022-02-24",
+      "home": "CHI",
+      "away": "ATL",
+      "opponent": "ATL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100909",
+      "date": "2022-02-26",
+      "home": "CHI",
+      "away": "MEM",
+      "opponent": "MEM",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100922",
+      "date": "2022-02-28",
+      "home": "MIA",
+      "away": "CHI",
+      "opponent": "MIA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100710",
+      "date": "2022-03-03",
+      "home": "ATL",
+      "away": "CHI",
+      "opponent": "ATL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100949",
+      "date": "2022-03-04",
+      "home": "CHI",
+      "away": "MIL",
+      "opponent": "MIL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100969",
+      "date": "2022-03-07",
+      "home": "PHI",
+      "away": "CHI",
+      "opponent": "PHI",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022100982",
+      "date": "2022-03-09",
+      "home": "DET",
+      "away": "CHI",
+      "opponent": "DET",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_OPERATING_AND_AVAILABILITY_INTERVAL",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101006",
+      "date": "2022-03-12",
+      "home": "CHI",
+      "away": "CLE",
+      "opponent": "CLE",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101026",
+      "date": "2022-03-14",
+      "home": "SAC",
+      "away": "CHI",
+      "opponent": "SAC",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": [
+        "S14A_D_SABONIS_FOUR_TEAM_DIRECTION_UNSELECTED"
+      ]
+    },
+    {
+      "game_id": "0022101041",
+      "date": "2022-03-16",
+      "home": "UTA",
+      "away": "CHI",
+      "opponent": "UTA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101056",
+      "date": "2022-03-18",
+      "home": "PHX",
+      "away": "CHI",
+      "opponent": "PHX",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101076",
+      "date": "2022-03-21",
+      "home": "CHI",
+      "away": "TOR",
+      "opponent": "TOR",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json",
+        "review": "reviews/TOR4_BPM_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101082",
+      "date": "2022-03-22",
+      "home": "MIL",
+      "away": "CHI",
+      "opponent": "MIL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101098",
+      "date": "2022-03-24",
+      "home": "NOP",
+      "away": "CHI",
+      "opponent": "NOP",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_OPERATING_AND_AVAILABILITY_INTERVAL",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101110",
+      "date": "2022-03-26",
+      "home": "CLE",
+      "away": "CHI",
+      "opponent": "CLE",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101126",
+      "date": "2022-03-28",
+      "home": "NYK",
+      "away": "CHI",
+      "opponent": "NYK",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101132",
+      "date": "2022-03-29",
+      "home": "WAS",
+      "away": "CHI",
+      "opponent": "WAS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101149",
+      "date": "2022-03-31",
+      "home": "CHI",
+      "away": "LAC",
+      "opponent": "LAC",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101164",
+      "date": "2022-04-02",
+      "home": "CHI",
+      "away": "MIA",
+      "opponent": "MIA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101183",
+      "date": "2022-04-05",
+      "home": "CHI",
+      "away": "MIL",
+      "opponent": "MIL",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101193",
+      "date": "2022-04-06",
+      "home": "CHI",
+      "away": "BOS",
+      "opponent": "BOS",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101208",
+      "date": "2022-04-08",
+      "home": "CHI",
+      "away": "CHA",
+      "opponent": "CHA",
+      "selected_CHI_state": "NORMAL",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    },
+    {
+      "game_id": "0022101224",
+      "date": "2022-04-10",
+      "home": "MIN",
+      "away": "CHI",
+      "opponent": "MIN",
+      "selected_CHI_state": "COBY_OUT",
+      "working_regulation_result": null,
+      "score": null,
+      "overtime_selection": null,
+      "actual_medical_private_contract_or_game_receipt_certified": false,
+      "remaining_inputs": [
+        "NAMED_LEGAL_OPERATING_INTERVAL",
+        "OPPONENT_AVAILABILITY_SELECTION",
+        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
+        "RESULT_AND_OT_SELECTION"
+      ],
+      "unresolved_membership_and_branch_flags": []
+    }
+  ],
+  "summary": {
+    "calendar_keys": 82,
+    "independently_reviewed_fictional_regulation_results": 7,
+    "CHI_working_wins": 5,
+    "opponent_working_wins": 2,
+    "remaining_keys": 75,
+    "next_game_id": "0022100067",
+    "next_date": "2021-10-28"
+  },
+  "remaining_game_ids": [
+    "0022100067",
+    "0022100083",
+    "0022100098",
+    "0022100111",
+    "0022100135",
+    "0022100148",
+    "0022100163",
+    "0022100183",
+    "0022100198",
+    "0022100209",
+    "0022100223",
+    "0022100236",
+    "0022100250",
+    "0022100257",
+    "0022100271",
+    "0022100283",
+    "0022100296",
+    "0022100307",
+    "0022100328",
+    "0022100343",
+    "0022100357",
+    "0022100367",
+    "0022100394",
+    "0022100448",
+    "0022100459",
+    "0022100499",
+    "0022100502",
+    "0022100519",
+    "0022100530",
+    "0022100541",
+    "0022100555",
+    "0022100585",
+    "0022100603",
+    "0022100415",
+    "0022100625",
+    "0022100637",
+    "0022100647",
+    "0022100658",
+    "0022100673",
+    "0022100690",
+    "0022100701",
+    "0022100730",
+    "0022100742",
+    "0022100753",
+    "0022100769",
+    "0022100789",
+    "0022100802",
+    "0022100812",
+    "0022100826",
+    "0022100843",
+    "0022100852",
+    "0022100861",
+    "0022100878",
+    "0022100891",
+    "0022100909",
+    "0022100922",
+    "0022100710",
+    "0022100949",
+    "0022100969",
+    "0022100982",
+    "0022101006",
+    "0022101026",
+    "0022101041",
+    "0022101056",
+    "0022101082",
+    "0022101098",
+    "0022101110",
+    "0022101126",
+    "0022101132",
+    "0022101149",
+    "0022101164",
+    "0022101183",
+    "0022101193",
+    "0022101208",
+    "0022101224"
+  ],
+  "scope": "Only consumed selected named lawful families and dated roles. No final scores/OT/probability, full standings/2022pick, calibrated individual growth or historical/private certification. Frozen predecessor pending flags remain history.",
+  "whole_macro3_G13_G14_G16_certified": false,
+  "manuscript_allowed": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED"
+}
