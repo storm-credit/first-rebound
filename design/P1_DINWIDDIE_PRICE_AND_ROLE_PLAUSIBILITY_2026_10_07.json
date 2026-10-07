@@ -1,0 +1,261 @@
+{
+  "id": "P1_DINWIDDIE_PRICE_AND_ROLE_PLAUSIBILITY",
+  "baseline_main": "aee211df3623b27f936b6ae394b2bfec41bc0411",
+  "status": "FINITE_COMPARISON_READY_CONSEQUENTIAL_DIRECTION_NOT_SELECTED",
+  "format": "STATIC_ANALYTICAL_PACKET_NO_GENERATOR_TESTS",
+  "source_sha256": {
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "research/EAST_2021_PLAYOFF_COACH_INPUTS_2026_10_07.json": "ee9e61621fbe908722b772cf53e1c1f49ca6f3c83563aaa0ea4e8448c8f88992",
+    "research/BKN_WAS_2021_PRE_JORDAN_NAMED_EXECUTION_FAMILY_2026_10_07.json": "a0e9ede786047a43abac4d21785b68ae55190e3d768096618ed010147906017b",
+    "research/WASHINGTON_2021_LEGACY_CLEANUP_COST_FAMILY_2026_10_07.json": "a0377ff1afc8929bca3dd5ce362ec6a630a0114241316748eff003d445f72e4b",
+    "research/BKN_WAS_2021_P1_NAMED_RIGHTS_BRIDGE_2026_10_07.json": "fb5803cf261ca7f0f81bf20413276df997de492c007886410d984dc6fcc024d0",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce"
+  },
+  "hash_convention": "REPOSITORY_UTF8_BOM_STRIPPED_LF; EXTERNAL_RAW_BYTES",
+  "sources": [
+    {
+      "id": "NBA_DIN_PRICE",
+      "url": "https://www.nba.com/news/spencer-dinwiddie-trade-wizards-nets-spurs",
+      "final_url": "https://www.nba.com/news/spencer-dinwiddie-trade-wizards-nets-spurs",
+      "http_status": 200,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-dinwiddie-price-20261007\\NBA_DIN_PRICE.html",
+      "raw_sha256": "aa2e949d6b07bc7b0df307edecfcde0cf8fc7dbfcb2102e547d35644f1b24c65",
+      "bytes": 308618,
+      "stored_publication_UTC": "2021-08-04T22:11:55Z",
+      "stored_update_UTC": null,
+      "actual_private_contract_certified": false,
+      "classification": "NBA_NEWS_REPORTED_CONTRACT_HEADLINE_NOT_TEAM_DISCLOSED_UPC",
+      "locator": "props.pageProps.article.contentText opening paragraph",
+      "observed_summary": "당시 보도 headline3년62m; 전액보장 기본급 인증 아님.",
+      "read_field_UTF8_sha256": "5dc8357f120d4c8fe7dea623cdbe0b0629ceb81ed832224a227fda569f386553"
+    },
+    {
+      "id": "NETO2021",
+      "url": "https://www.nba.com/wizards/wizards-re-sign-neto",
+      "final_url": "https://www.nba.com/wizards/wizards-re-sign-neto",
+      "http_status": 200,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-dinwiddie-price-20261007\\NETO2021.html",
+      "raw_sha256": "da00719150c478bcb96c0ddf51a1bdc206a59382e72286c5cdb1b4ce5ecacf4c",
+      "bytes": 103550,
+      "stored_publication_UTC": "2021-08-07T14:43:01Z",
+      "stored_update_UTC": null,
+      "actual_private_contract_certified": false,
+      "classification": "ORIGINAL_OFFICIAL_TEAM_RELEASE",
+      "locator": "props.pageProps.pageObject.contentStructured[0] terms undisclosed, [2] GM role quotation",
+      "observed_summary": "Neto 재계약·보조/임시선발 역할, 계약terms비공개.",
+      "read_field_UTF8_sha256": "ca9f7f973f116a4421051cd5273b0df4862c5bdf33ca4e0a892e9ed0860703d6",
+      "read_field_hash_scope": "contentStructured text fields joined by LF in source order"
+    },
+    {
+      "bytes": 138262,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-bkn-was-prefix-20261007\\spencer-dinwiddie.html",
+      "final_url": "https://www.salaryswish.com/players/spencer-dinwiddie",
+      "id": "spencer-dinwiddie",
+      "raw_sha256": "f34ebd9ce56aef575f51e9347a03d79708e153a120feabfbf6cba28d97791158",
+      "source_tier": "SECONDARY_CONTRACT_REPORT",
+      "status": 200,
+      "url": "https://www.salaryswish.com/players/spencer-dinwiddie",
+      "body_adopted": true,
+      "not_adopted_reason": null,
+      "classification": "SECONDARY_CURRENT_VENDOR_ORIGINAL_YEAR_CONTRACT_REPORT",
+      "reused": true,
+      "locator": "BKN original extension2021-22 option row; WAS2021-22/2022-23/2023-24 reported rows",
+      "observed_summary": "원 PO12.302496m; WAS 기본17.142857/18/18.857143m·첫 likely0/unlikely2.571428m.",
+      "original_signing_guarantee_schedule_certified": false,
+      "future_guarantee_change_not_original_fact": true
+    },
+    {
+      "id": "WAS_ORIGINAL2021_HEALTH",
+      "url": "https://www.nba.com/wizards/washington-acquires-six-players-five-team-trade",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-p1-rights-20261007\\WAS2021.html",
+      "raw_sha256": "2b819cbeed092e4588b4e9b951a06479f5d098f9917f4a0921e6ffb331f1419d",
+      "classification": "ORIGINAL_TEAM_REPORTED_HISTORICAL_HEALTH",
+      "locator": "props.pageProps.pageObject.contentStructured[4].text",
+      "stored_publication_UTC": "2021-08-07T00:47:00Z",
+      "observed_summary": "ACL뒤3경기와6월활동허가의 원역사 설명.",
+      "read_field_UTF8_sha256": "6148a5ba176efaf19104eb6e6d9efe816d3975fe1441f65b11ff17690eb4a20f",
+      "alternate_medical_clearance_certified": false,
+      "reused": true
+    }
+  ],
+  "premises": {
+    "H00_scope_exact": "Lakers Davis Feb14 aggravation and 30-game absence; LeBron Mar20 partial exit and existing 20+6 absence/return calendar",
+    "H00_selects_Dinwiddie_healthy": false,
+    "existing_BKN_playoff_Dinwiddie_absent_preserved": true,
+    "new_2021_22_medical_selection": false,
+    "healthy_sensitivity_is_not_selected_history": true
+  },
+  "price_comparators": {
+    "reported_option_not_exercised": 12302496,
+    "reported_first_base": 17142857,
+    "reported_three_base_schedule": [
+      17142857,
+      18000000,
+      18857143
+    ],
+    "base_total": 54000000,
+    "headline_reported_total_NOT_guaranteed_base": 62000000,
+    "first_reported_likely": 0,
+    "first_reported_unlikely": 2571428,
+    "candidate_legal_r_range": [
+      3000000,
+      8451384
+    ],
+    "reported_worst_ceiling_before_E": 7197769,
+    "ceiling_as_fraction_of_first_base": "7197769/17142857",
+    "ceiling_as_fraction_of_unexercised_option": "7197769/12302496",
+    "TPE_as_fraction_of_first_base": "8451384/17142857",
+    "low_three_year_contract_agreement_economically_supported": false,
+    "player_exact_reservation_price_known": false
+  },
+  "routes": [
+    {
+      "id": "R1",
+      "direction": "RETAIN_WESTBROOK",
+      "class": "CONSEQUENTIAL_UNSELECTED",
+      "named_standard_candidate": [
+        "Bradley Beal",
+        "Davis Bertans",
+        "Thomas Bryant",
+        "Rui Hachimura",
+        "Deni Avdija",
+        "Daniel Gafford",
+        "Troy Brown Jr.",
+        "Anthony Gill",
+        "Gary Trent Jr.",
+        "Corey Kispert",
+        "Russell Westbrook"
+      ],
+      "unimplemented_standard_slots": 4,
+      "guard_role_minutes": {
+        "Russell Westbrook": 32,
+        "Bradley Beal": 34,
+        "Gary Trent Jr.": 20,
+        "Troy Brown Jr.": 10
+      },
+      "Dinwiddie_next_team": null,
+      "cost_note": "Existing44.211146m salary and incumbent usage retained; E1/E2 arrivals not copied."
+    },
+    {
+      "id": "R2",
+      "direction": "E1_ONLY_LOW_COST_GUARD",
+      "class": "CONSEQUENTIAL_UNSELECTED",
+      "named_standard_candidate": [
+        "Bradley Beal",
+        "Davis Bertans",
+        "Thomas Bryant",
+        "Rui Hachimura",
+        "Deni Avdija",
+        "Daniel Gafford",
+        "Troy Brown Jr.",
+        "Anthony Gill",
+        "Kentavious Caldwell-Pope",
+        "Kyle Kuzma",
+        "Montrezl Harrell",
+        "Gary Trent Jr.",
+        "Raul Neto",
+        "Corey Kispert",
+        "Jared Butler"
+      ],
+      "STD_count_if_minimum_offer_accepted": 15,
+      "Neto_new_offer": "ONE_YEAR_LEGAL_MINIMUM_CONDITIONAL_CANDIDATE",
+      "Neto_cash_screen_upper_not_agreed_salary": 2650000,
+      "guard_role_minutes": {
+        "Raul Neto": 26,
+        "Jared Butler": 10,
+        "Bradley Beal": 32,
+        "Gary Trent Jr.": 18,
+        "Troy Brown Jr.": 10
+      },
+      "Neto_original_terms_disclosed": false,
+      "new_full_240_minute_or_82_game_model": false,
+      "Dinwiddie_compensation_legs_automatically_preserved": false,
+      "BKN_DET_Jordan_repricing_dependency": true
+    },
+    {
+      "id": "R3",
+      "direction": "MARKET_PRICE_DINWIDDIE_REPACKAGE_HARRELL",
+      "class": "CONSEQUENTIAL_UNSELECTED",
+      "named_standard_candidate_before_new_center": [
+        "Bradley Beal",
+        "Davis Bertans",
+        "Thomas Bryant",
+        "Rui Hachimura",
+        "Deni Avdija",
+        "Daniel Gafford",
+        "Troy Brown Jr.",
+        "Anthony Gill",
+        "Kentavious Caldwell-Pope",
+        "Kyle Kuzma",
+        "Gary Trent Jr.",
+        "Spencer Dinwiddie",
+        "Corey Kispert",
+        "Jared Butler"
+      ],
+      "additional_minimum_center_required_for_15_STD": 1,
+      "new_center_identity": null,
+      "first_base_comparison_not_selected_salary": 17142857,
+      "Harrell_reported_current_salary": 9720900,
+      "Harrell_BKN_acceptance": null,
+      "guard_role_minutes": {
+        "Spencer Dinwiddie": 30,
+        "Jared Butler": 6,
+        "Bradley Beal": 34,
+        "Gary Trent Jr.": 20,
+        "Troy Brown Jr.": 6
+      },
+      "all_party_matching_BYC_bonus_and_roster_revalidation_required": true,
+      "BKN_pre_Jordan_if_Harrell_added_STD": 15,
+      "BKN_post_existing_Jordan_two_incoming_STD": 16,
+      "BKN_additional_slot_action_before_regular_15_STD_required": 1,
+      "offseason_16_STD_not_automatically_illegal": true,
+      "original_salary_obligation_erased": false,
+      "BKN_additional_slot_action_selected": false
+    }
+  ],
+  "diagnostic_arithmetic": {
+    "reported_worst_apron_before_Din": 135804231,
+    "first_comparator_exceeds_TPE_by": 8691473,
+    "first_comparator_exceeds_reported_worst_apron_space_by": 9945088,
+    "market_price_old_portfolio_apron_excess_before_E": 9945088,
+    "Harrell_repack_with_minimum_apron_floor1669178_excess_before_E": 1893366,
+    "Harrell_repack_with_fullcash2650000_reserved_excess_before_E": 2874188,
+    "these_are_reported_template_screens_not_actual_illegality": true,
+    "E_actual_upper": null
+  },
+  "role_scope": {
+    "96_minutes_is_two_guard_positions_illustration_only": true,
+    "actual_dated_240_minutes": false,
+    "position_tactical_certification": false,
+    "reserve_zero_is_not_injury": true,
+    "future_results_health_or_boxes_selected": false
+  },
+  "finite_exit": {
+    "historical_and_alternate_scope_compared": true,
+    "price_role_and_dependency_comparison_complete": true,
+    "decision_packet_ready": true,
+    "route_economic_risk_removed_by_legal_witness": false,
+    "next_dependent_choice": [
+      "Westbrook retained versus separated",
+      "If separated, low-cost guard versus market-price Dinwiddie package"
+    ],
+    "all_routes_selected": false,
+    "private_receipts_or_clinical_results_are_not_new_gate": true
+  },
+  "authority": {
+    "P1_selected": false,
+    "new_contract_price_selected": false,
+    "new_franchise_route_selected": false,
+    "Chicago_M1_A_unchanged": true,
+    "actual_private_contract_or_consent_certified": false,
+    "whole_P1_or_WAS_cost_PASS": false,
+    "macro3_complete": false,
+    "central_or_REGISTER_changed": false,
+    "independent_review_completed": true,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "unfinished_major_groups": 5,
+    "independent_review_basis": "g11 directly read4official/vendor raw sources and7repo pins; independently checked reported PO/base/headline distinctions, H00 scope, three96-minute budgets, roster counts, incoming-TPE/apron differences andBKN16STDcondition. No factual or arithmetic defect; consent/wholecost/route unselected."
+  }
+}

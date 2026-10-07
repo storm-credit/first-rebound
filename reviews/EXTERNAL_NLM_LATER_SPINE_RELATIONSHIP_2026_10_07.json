@@ -1,0 +1,50 @@
+{
+  "tool": "NotebookLM",
+  "scope": "ONE_FROZEN_LATER_SPINE_RELATIONSHIP_ANALYSIS_NOT_INDEPENDENT_PRIMARY_EVIDENCE",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "d1b15d91-62f5-4369-8386-3c03034c2955"
+  ],
+  "uploaded_input_sha256": "81ce10dc8dbfe5f1c3d177c1b8a0d318010e3585481e9390be8f858959677aad",
+  "question_sha256": "90927d35e2d6d75329c8baf5de3f759a218b407fdb0c7177958fb2ab070a59de",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 58.609,
+    "process_budget_seconds": 210,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**결말 동료의 최소 세 막 신뢰**는 원장에 준비된 위치 목록이 존재한다는 사실만으로는 성립하지 않으며, 최소 세 막에 걸쳐 **실제 상호행동과 비용이 축적**되어야 할 뿐만 아니라 **마지막 포제션에서 해당 동료가 더 유리한 위치에 있음이 실제로 관측**되는 조건까지 이어져야 하기 때문입니다 [1, 2].",
+      "question": "이 지정 사본에서 결말 동료의 최소 세 막 신뢰가 준비 위치 목록만으로 성립하지 않는 이유를 한 문장으로, 선행 실제 상호행동·비용과 마지막 위치 조건을 이어 설명해줘. 상태/검문 완료를 근거로 쓰지 마.",
+      "conversation_id": "80f2e90a-fdb0-46c9-b761-80389a4c79ac",
+      "sources_used": [
+        "d1b15d91-62f5-4369-8386-3c03034c2955"
+      ],
+      "citations": {
+        "1": "d1b15d91-62f5-4369-8386-3c03034c2955",
+        "2": "d1b15d91-62f5-4369-8386-3c03034c2955"
+      },
+      "references": [
+        {
+          "source_id": "d1b15d91-62f5-4369-8386-3c03034c2955",
+          "citation_number": 1,
+          "cited_text_sha256": "ff450bcb00088e7694ca56aa048e4e53b621d0e4fb45740bc88e786be649cfed",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "d1b15d91-62f5-4369-8386-3c03034c2955",
+          "citation_number": 2,
+          "cited_text_sha256": "d6935478da4de75256359285ae97f14c337160dcfe6d88d8c226ec4b5fe7c0db",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "usable_answer_recovered": true,
+  "whole_gate_or_primary_source_certified": false,
+  "manuscript_allowed": false,
+  "raw_logs_retained": false,
+  "root_quality_disposition": "MATCHED_ONLY_UPLOADED_DERIVED_SOURCE: REALIZED_MUTUAL_COST_IN_AT_LEAST3ACTS_PLUS_LAST_POSSESSION_ADVANTAGE_REQUIRED; NO_NEW_CANON_OR_INDEPENDENT_PRIMARY_PROOF"
+}
