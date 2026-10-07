@@ -1,0 +1,50 @@
+{
+  "id": "TOR_FIRST_DATE_JOIN_ROOT_REVIEW_2026_10_07",
+  "source_sha256": {
+    "simulation/CHICAGO_TORONTO_2021_FIRST_DATE_CAPACITY_JOIN.json": "af5a4fd7d374964ed83371a32d2e838c62138e3077c57bb583262b3dcc86a57e",
+    "tools/build_chicago_toronto_2021_capacity_join.py": "6b4b83043c6fefa321cd278c5c3500e6c9790ebcf6727434b1dfd0a79fbaebea"
+  },
+  "direct_source_calendar_rows": 82,
+  "conditional_pair_checks": [
+    {
+      "path": "T0",
+      "availability": "SIAKAM_AVAILABLE",
+      "segments": 17,
+      "elapsed": 2880,
+      "source_exact_each_segment": true,
+      "each_team_player_seconds": 14400
+    },
+    {
+      "path": "T0",
+      "availability": "SIAKAM_UNAVAILABLE",
+      "segments": 17,
+      "elapsed": 2880,
+      "source_exact_each_segment": true,
+      "each_team_player_seconds": 14400
+    },
+    {
+      "path": "T1",
+      "availability": "SIAKAM_AVAILABLE",
+      "segments": 17,
+      "elapsed": 2880,
+      "source_exact_each_segment": true,
+      "each_team_player_seconds": 14400
+    },
+    {
+      "path": "T1",
+      "availability": "SIAKAM_UNAVAILABLE",
+      "segments": 17,
+      "elapsed": 2880,
+      "source_exact_each_segment": true,
+      "each_team_player_seconds": 14400
+    }
+  ],
+  "role_swap_preserving_player_totals_rejected": true,
+  "selected_CHI_state_swap_rejected": true,
+  "remaining_function_ports": 26,
+  "remaining_function_date_keys": 72,
+  "accepted_ancestor_constructor_repeats": 0,
+  "independent_previous_TOR_role_review": "reviews/TOR_FOUR_ROLE_INDEPENDENT_REVIEW_2026_10_07.json",
+  "new_TOR_contract_health_or_result_selection": false,
+  "whole_G16_certified": false
+}

@@ -1,0 +1,87 @@
+{
+  "status": "OWNED_PROCESS_TIMEOUT",
+  "exit_code": 1,
+  "elapsed_seconds": 55.08,
+  "process_budget_seconds": 55,
+  "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+  "raw_logs_retained": false,
+  "tool": "Antigravity",
+  "scope": "NEW_2021_SECOND_ROUND_OPERATIVE_TENDER_WINDOW_SOURCE_COLLECTION",
+  "prompt_sha256": "282d761c1eff3585d66e7e9c763d086bb7ed93cc3d1f1ac5f352153a5c27df1a",
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "5191cbb8-0052-4d6e-bdf2-9331fd8a730e",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"found_official_body\": false,\n  \"exact_source_url\": null,\n  \"date\": null,\n  \"operative_2021_window\": null,\n  \"quoted_english_words\": null,\n  \"body_locator\": \"ACCESS_HOLD\"\n}\n```\n",
+      "duration_seconds": 46.0990134,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "9f3e1734a1b4cb17823855920000b1013f7aa6ff6d3b54a6403ec003683229ea",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"found_official_body\": false,\n  \"exact_source_url\": null,\n  \"date\": null,\n  \"operative_2021_window\": null,\n  \"quoted_english_words\": null,\n  \"body_locator\": \"ACCESS_HOLD\"\n}\n```\n",
+      "char_count": 189,
+      "sha256": "5d92a1a4d86033c93d053b092d976da550edb5400cb70dc9f44f9f23e52e0d12",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "actual_body_bytes_or_window_independently_verified": false
+}
