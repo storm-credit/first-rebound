@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-08 [Game1 역할 관측·현행 막출구 인계](../reviews/A10_GAME1_ROLE_WINDOW_AND_CURRENT_ACT_EXIT_ADOPTION_2026_10_08.md): PR504main·1–3완료·Blueprint60보존. 공식2024Oct23CHI@NOP0022400069의명명조건부합법가족/원Γ·4옵션·floor와12경로수리후 당일13/2·court5bench8·2개서로다른8초창P6/LV2실패→P3/LV5공동이양만 실행·독립검문. 원240분/미가격/null승패·첫옵션효율·QUAL1미선택·전체A10false. 원42/14막출구60기능현행대조·A06/A08/A09한정증인재사용·다음연차소급완료0. 새외부CLI NOT_RUN·PR504이력보존. 중요한후기좌표HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
+
 2026-10-08 [60 Blueprint·역할 비용 회수 인계](../reviews/BLUEPRINT60_ROLE_COST_AND_COORDINATE_CONTINUATION_ADOPTION_2026_10_08.md): PR503main·1–3완료 보존. 60함수/42소막 Blueprint의 기존31·새29·W보충1·원천/포인터/부모이력·독립5검문 연결을 총괄수용. B/Jaquez20·24블록240분 루틴역할 선택, Claude 실제2귀속결함수리·각8초/delta0 재검문. AGY44.305/NLM등록19.928·분석103.504/Claude25.065초 신규회수, 첫ClaudeWindows206 stdin수리·사본이력보존·전체G16인증0. 장기LC3안 비교준비/미선택HOLD·한경기NPC/가용/관측 계속. 전체역사/막출구·최종회차/G13/G14/Pack0 미완료·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래는 이전이력이다.
 
 2026-10-08 [A10 2024 루틴 갱신 인계](../reviews/A10_SELECTED_RENEWAL_CONTINUATION_ADOPTION_2026_10_08.md): PR502main·3번완료 보존. 선택된 July7 새minimum5를 4날짜상태/15STD0TW·FAhold 보존→유효cleanup→동일claim한번교체로 독립검문. 양수M/S·원Γ/R24/D24·LM1 수상조건 보존, 실제접수/센트/건강/게임·전체A10 인증0. 저장전source/반환alias 위험 수리·동일반례거부. 새외부CLI NOT_RUN·원J16 회수이력 보존. 다음4번 감독역할·게임/자격창 및5–6번 누락Blueprint 계속. 미완료4/6번까지3·Pack0·원고0·v0.30 PARTIAL·CLOSED·GoalACTIVE·일정등록0. 아래는 이전이력이다.

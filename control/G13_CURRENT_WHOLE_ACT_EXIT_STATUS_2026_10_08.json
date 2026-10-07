@@ -1,0 +1,857 @@
+{
+  "id": "G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08",
+  "classification": "CURRENT_60_FUNCTION_42_SUBACT_ACT_EXIT_OVERLAY_NOT_NEW_CANON",
+  "status": "CURRENT_SOURCE_BOUND_EXIT_STATUS_NOT_WHOLE_G13_CERTIFICATION",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "historical_snapshot_commit": "e0551d71f2b17a77df46b1502294adf5441c555d",
+  "source_sha256_at_review": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+    "control/G13_CURRENT_BLUEPRINT_AUTHORITY_REGISTER_2026_10_08.json": "8fa294fd2ab8acfb25c2f730f6e93127d5465cfa520b3f5f0336395ec25082f4",
+    "control/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.json": "a61af318fd1e365fcd127b6eaf88118ea6c50a02a57a43246746e80e21b79eb0",
+    "design/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_2026_10_08.json": "e34d8e164403795750625757387b007f0fc66bf83b06cba5b50914b11e884dc5",
+    "reviews/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08.json": "e258721056e5a3cc8ac7409878cb1cb0699065031cd0d560ee603966d350afdc",
+    "design/A07_A08_SUBACT_EXIT_AUDIT_2026_10_07.json": "f34d81cd0644439c5fcf2c9faedf323f443f4ba170e9e0dbaf4b317165ce25ba",
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json": "ecc876c91d1008285b944fd9b7e7213a1c3e54b94d0a2fea84cd82b2f7cb0407",
+    "canon/DELEGATED_A10_2024_25_NAMED_ROLE_PLAN_SELECTION_2026_10_08.json": "723bcfddae88fb4ed5e265db15a4f53542229c677a634370603f637604ddabda",
+    "research/A10_2024_25_GAME1_NAMED_INPUTS_2026_10_08.json": "3934ed7610e478ea087234d87165d26bf824810862cf4f10a15bffc7c7fadfae",
+    "design/ENDING_THEME.md": "929807f42a2d1ed0f8229ecf5bb1f2e3f00642732cbaa590cbce630fae0c34f3",
+    "canon/DELEGATED_A10_GAME1_ROLE_WINDOW_SELECTION_2026_10_08.json": "3ae631359abb2358e22fe6242310fc038593b28e668cde432a0988e5b35923e2",
+    "tools/build_a10_game1_selected_role_window.py": "ad4adf09cbd0ae3ec8c6e6abb48562788055c0cf615ceb6564a31a4b97115ce3",
+    "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json": "a622e5b28b22da05f3aa4e20348f3bc50e34ea95ba62c59424ccc16718241c0d",
+    "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.md": "ba24b588e073fe53ea5d53b7b6c759893b3291e0c825b6dcd1099c772e932da1",
+    "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json": "59854742520a71a59a09b3116cdb3128993e68b96f88239cfb9d2c1633e7bc9d"
+  },
+  "source_scope": "Current 60/42 registered function routes; prior 57/39 audit remains immutable history. Relevant source projections, not unrelated central progress text, determine this dated overlay.",
+  "counts": {
+    "registered_local_functions": 60,
+    "covered_subacts": 42,
+    "acts": 14,
+    "unrouted_subacts": 0,
+    "planned_allocation_slots": 780,
+    "unassigned_planned_slots": 720,
+    "mandatory_new_events_from_unassigned_slots": 0,
+    "actual_context_packs": 0,
+    "manuscript_count": 0
+  },
+  "subact_exit_rows": [
+    {
+      "id": "A01-S1",
+      "act": "A01",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/0",
+      "current_function_ids": [
+        "A01-EF-001",
+        "A01-EF-002"
+      ],
+      "source_cp2_exit": "참여와 회피가 분리됨",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action; preserve accepted literal witness and historical audit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A01-S2",
+      "act": "A01",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/1",
+      "current_function_ids": [
+        "A01-EF-003",
+        "A01-EF-004",
+        "A01-EF-005",
+        "A01-EF-006"
+      ],
+      "source_cp2_exit": "재능 밖 의무를 처음 인식",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action; preserve accepted literal witness and historical audit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A01-S3",
+      "act": "A01",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/2",
+      "current_function_ids": [
+        "A01-EF-007",
+        "A01-EF-008",
+        "A01-EF-009"
+      ],
+      "source_cp2_exit": "외부 환경 선택의 주체가 됨",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action; preserve accepted literal witness and historical audit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A02-S1",
+      "act": "A02",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/3",
+      "current_function_ids": [
+        "A02-EF-001",
+        "A02-EF-002",
+        "A02-EF-003"
+      ],
+      "source_cp2_exit": "소속 자격을 책임짐",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action for the prep-to-college functional exit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A02-S2",
+      "act": "A02",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/4",
+      "current_function_ids": [
+        "A02-EF-004",
+        "A02-EF-005",
+        "A02-EF-006"
+      ],
+      "source_cp2_exit": "새 역할의 반복 과제",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action for the prep-to-college functional exit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A02-S3",
+      "act": "A02",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/5",
+      "current_function_ids": [
+        "A02-EF-007",
+        "A02-EF-008",
+        "A02-EF-009",
+        "A02-EF-010"
+      ],
+      "source_cp2_exit": "Villanova 입학/역할 경로 연결",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "No new local action for the prep-to-college functional exit.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A03-S1",
+      "act": "A03",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/6",
+      "current_function_ids": [
+        "A03-EF-001"
+      ],
+      "source_cp2_exit": "제한된 역할을 수락",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use accepted teammate reassignment and assessment bridge; no new box score.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A03-S2",
+      "act": "A03",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/7",
+      "current_function_ids": [
+        "A03-EF-002"
+      ],
+      "source_cp2_exit": "동료가 맡기는 수비 기능",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use accepted teammate reassignment and assessment bridge; no new box score.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A03-S3",
+      "act": "A03",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/8",
+      "current_function_ids": [
+        "A03-EF-003"
+      ],
+      "source_cp2_exit": "NCAA 우승 기능과 프로 평가를 분리",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use accepted teammate reassignment and assessment bridge; no new box score.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A04-S1",
+      "act": "A04",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/9",
+      "current_function_ids": [
+        "A04-EF-001",
+        "A04-EF-002",
+        "A04-EF-003"
+      ],
+      "source_cp2_exit": "보여줄 기술 표본 명확화",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use approved Chicago institutional responsibility bridge; exact pick/receipt remains separate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A04-S2",
+      "act": "A04",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/10",
+      "current_function_ids": [
+        "A04-EF-004"
+      ],
+      "source_cp2_exit": "팀과 선수의 상호 투자",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use approved Chicago institutional responsibility bridge; exact pick/receipt remains separate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A04-S3",
+      "act": "A04",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/11",
+      "current_function_ids": [
+        "A04-EF-005"
+      ],
+      "source_cp2_exit": "2018 개발 일정에 남음",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_EXIT",
+      "remaining_finite_action_for_whole_act": "Use approved Chicago institutional responsibility bridge; exact pick/receipt remains separate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A05-S1",
+      "act": "A05",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/12",
+      "current_function_ids": [
+        "A05-EF-001",
+        "A05-EF-002"
+      ],
+      "source_cp2_exit": "핑계 없이 준비 결과를 감당",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_OPERATING_EXIT",
+      "remaining_finite_action_for_whole_act": "Use limited rotation trust and repeated role sample; no full-season minute certificate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A05-S2",
+      "act": "A05",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/13",
+      "current_function_ids": [
+        "A05-EF-003"
+      ],
+      "source_cp2_exit": "assignment와 신분을 분리",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_OPERATING_EXIT",
+      "remaining_finite_action_for_whole_act": "Use limited rotation trust and repeated role sample; no full-season minute certificate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A05-S3",
+      "act": "A05",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/14",
+      "current_function_ids": [
+        "A05-EF-004"
+      ],
+      "source_cp2_exit": "직선 돌파와 다음 패스의 제한적 신뢰",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_BOUNDED_OPERATING_EXIT",
+      "remaining_finite_action_for_whole_act": "Use limited rotation trust and repeated role sample; no full-season minute certificate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A06-S1",
+      "act": "A06",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/15",
+      "current_function_ids": [
+        "A06-EF-001",
+        "A06-EF-002"
+      ],
+      "source_cp2_exit": "각자 시작하는 공격을 구분",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_SEASON_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "K1/L2 loss, F1 five-player movement and #10/#39 selected ownership joined; do not reopen as unselected.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A06-S2",
+      "act": "A06",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/16",
+      "current_function_ids": [
+        "A06-EF-003"
+      ],
+      "source_cp2_exit": "Theis/Green A의 승인 범위 유지",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_SEASON_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "K1/L2 loss, F1 five-player movement and #10/#39 selected ownership joined; do not reopen as unselected.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A06-S3",
+      "act": "A06",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/17",
+      "current_function_ids": [
+        "A06-EF-004",
+        "A06-EF-005"
+      ],
+      "source_cp2_exit": "진출 여부와 분리된 개인 수행 표본을 다음 훈련과 에이전트의 계약 평가에 넘김",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_SEASON_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "K1/L2 loss, F1 five-player movement and #10/#39 selected ownership joined; do not reopen as unselected.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A07-S1",
+      "act": "A07",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/18",
+      "current_function_ids": [
+        "A07-EF-001"
+      ],
+      "source_cp2_exit": "정상 조합과 예외 조건을 구분한 역할 제안",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_CONDITIONAL_CRITERION_SUPPORT",
+      "remaining_finite_action_for_whole_act": "Four pressure/role samples support source criterion; a new contract acceptance is not a criterion.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A07-S2",
+      "act": "A07",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/19",
+      "current_function_ids": [
+        "A07-EF-002"
+      ],
+      "source_cp2_exit": "통하는 조건과 중단할 조건이 구별된 엘보 카운터 표본",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_CONDITIONAL_CRITERION_SUPPORT",
+      "remaining_finite_action_for_whole_act": "Four pressure/role samples support source criterion; a new contract acceptance is not a criterion.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A07-S3",
+      "act": "A07",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/20",
+      "current_function_ids": [
+        "A07-EF-003"
+      ],
+      "source_cp2_exit": "2022 역할 평가와 E2 협상에 넘길 조건부 자료 기준",
+      "local_route_registered": true,
+      "current_exit_support": "PRIOR_CONDITIONAL_CRITERION_SUPPORT",
+      "remaining_finite_action_for_whole_act": "Four pressure/role samples support source criterion; a new contract acceptance is not a criterion.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A08-S1",
+      "act": "A08",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/21",
+      "current_function_ids": [
+        "A08-EF-001"
+      ],
+      "source_cp2_exit": "선수의 요구와 프런트의 계약 권한이 구분된 코어 유지 제안",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_E2_AND_FIVE_CALL_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "None for contract proposal/accepted cost link; if claiming whole Act authority, integrate only selected seasonal budget responsibility, not new private receipts.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A08-S2",
+      "act": "A08",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/22",
+      "current_function_ids": [
+        "A08-EF-002"
+      ],
+      "source_cp2_exit": "압박 속 라이브 패스의 사용/중단 조건을 가진 표본",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_E2_AND_FIVE_CALL_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "None for bounded catch-return/dribble/safe-redeploy comparison; actual whole-game status remains separate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A08-S3",
+      "act": "A08",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/23",
+      "current_function_ids": [
+        "A08-EF-003"
+      ],
+      "source_cp2_exit": "경기별 공격 권한과 준비 책임을 함께 가지는 공동 에이스 후보",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_SELECTED_E2_AND_FIVE_CALL_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "One later lawful coach role observation only if claiming sustained shared authority beyond the existing five calls.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A09-S1",
+      "act": "A09",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/24",
+      "current_function_ids": [
+        "A09-EF-001"
+      ],
+      "source_cp2_exit": "참가 자체가 비용 있는 선택",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_PRIVATE_COOPERATION_AND_RETURN_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "None for selected private access; Article XXIII public-event classification only for a claim of public tournament play.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A09-S2",
+      "act": "A09",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/25",
+      "current_function_ids": [
+        "A09-EF-002"
+      ],
+      "source_cp2_exit": "협력의 범위와 실패 후 관계",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_PRIVATE_COOPERATION_AND_RETURN_BOUNDED_JOIN",
+      "remaining_finite_action_for_whole_act": "None for bounded private two-player error/retry; complete reconciliation is not required.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A09-S3",
+      "act": "A09",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/26",
+      "current_function_ids": [
+        "A09-EF-003"
+      ],
+      "source_cp2_exit": "다음 시즌 별도 증명 필요",
+      "local_route_registered": true,
+      "current_exit_support": "CURRENT_2023_RETURN_TEAM_PRACTICE_BOUNDED_WITNESS",
+      "remaining_finite_action_for_whole_act": "None for the CP2 team-practice cost/return handoff: registered A09-EF-003 S3-1..3 observes allowed Chicago team repetition and return after private practice. A 2023–24 NBA game result remains uncertified, but is not an added CP2-S3 exit gate.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A10-S1",
+      "act": "A10",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/27",
+      "current_function_ids": [
+        "A10-EF-001"
+      ],
+      "source_cp2_exit": "첫 선택지의 공격 증거",
+      "local_route_registered": true,
+      "current_exit_support": "SELECTED_2024_10_23_GAME1_TWO_WINDOW_BOUNDED_FAILURE_RETRY",
+      "remaining_finite_action_for_whole_act": "Two admitted eight-second Q4 windows show first creation failure and earlier P3/LV5 handoff with receiver response. First-option status, score, efficiency and whole game remain open; no repeat of this local trial required.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A10-S2",
+      "act": "A10",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/28",
+      "current_function_ids": [
+        "A10-EF-002"
+      ],
+      "source_cp2_exit": "공동 에이스에서 최우선 코어로",
+      "local_route_registered": true,
+      "current_exit_support": "SELECTED_GAME1_BOUNDED_SHARED_CLOSING_COST_SUPPORTED",
+      "remaining_finite_action_for_whole_act": "None for the original local S2 choice/cost: same LaVine-present closing five and LV8 reference→P3/LV5 direct three-second redistribution plus selected failure/retry support bounded shared-role and defensive-return responsibility. No permanent first-option authority or better efficiency is inferred.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A10-S3",
+      "act": "A10",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/29",
+      "current_function_ids": [
+        "A10-EF-003"
+      ],
+      "source_cp2_exit": "첫 우승창의 미완성",
+      "local_route_registered": true,
+      "current_exit_support": "LOCAL_FUNCTION_ROUTE_QUAL1_UNSELECTED",
+      "remaining_finite_action_for_whole_act": "QUAL1 lawful qualification/series window remains separate. Game1 two windows do not select title eligibility or a whole result.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A11-S1",
+      "act": "A11",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/30",
+      "current_function_ids": [
+        "A11-EF-001"
+      ],
+      "source_cp2_exit": "무볼 재배치로 영향 유지",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "One 2025–26 role/health season window if claiming sustained league impact.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A11-S2",
+      "act": "A11",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/31",
+      "current_function_ids": [
+        "A11-EF-002"
+      ],
+      "source_cp2_exit": "두 팀의 비용 구조가 충돌",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Specific legal series opponent and teammate-help cost.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A11-S3",
+      "act": "A11",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/32",
+      "current_function_ids": [
+        "A11-EF-003"
+      ],
+      "source_cp2_exit": "다음 계약·훈련의 원인 회수",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Select MIN first-Finals-loss candidate only with bracket/series and follow-on correction.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A12-S1",
+      "act": "A12",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/33",
+      "current_function_ids": [
+        "A12-EF-001"
+      ],
+      "source_cp2_exit": "유지할 사람과 기능을 구분",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Post-2025 Markkanen and post-2026 protagonist/core contract choice with lawful team cost.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A12-S2",
+      "act": "A12",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/34",
+      "current_function_ids": [
+        "A12-EF-002"
+      ],
+      "source_cp2_exit": "속도와 책임의 분산",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "One selected team-role observation showing distributed possession and bench cost.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A12-S3",
+      "act": "A12",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/35",
+      "current_function_ids": [
+        "A12-EF-003"
+      ],
+      "source_cp2_exit": "재대결을 선지급하지 않음",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Chosen requalification/rematch bracket and renewed preparation response.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A13-S1",
+      "act": "A13",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/36",
+      "current_function_ids": [
+        "A13-EF-001"
+      ],
+      "source_cp2_exit": "정답을 알아도 막기 어려운 공격",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Selected future Finals and receiver access for final possession.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A13-S2",
+      "act": "A13",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/37",
+      "current_function_ids": [
+        "A13-EF-002"
+      ],
+      "source_cp2_exit": "동료를 포함한 최종 대응",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Same future opponent coverage and available teammate position.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A13-S3",
+      "act": "A13",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/38",
+      "current_function_ids": [
+        "A13-EF-003"
+      ],
+      "source_cp2_exit": "수비→리바운드→전진→패스→동료 득점",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Execute locked A13-CF04: defense→rebound→advance→better teammate basket/CHI win.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A14-S1",
+      "act": "A14",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/39",
+      "current_function_ids": [
+        "A14-EF-001"
+      ],
+      "source_cp2_exit": "유산이 개인 기록과 분리",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Only after locked win: observe output sharing without awarding an extra title.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A14-S2",
+      "act": "A14",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/40",
+      "current_function_ids": [
+        "A14-EF-002"
+      ],
+      "source_cp2_exit": "짧은 시간의 판단과 준비",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Lawful late-career smaller role/contract window; do not infer date or diagnosis.",
+      "actual_historical_exit_certified": false
+    },
+    {
+      "id": "A14-S3",
+      "act": "A14",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/41",
+      "current_function_ids": [
+        "A14-EF-003"
+      ],
+      "source_cp2_exit": "후배의 준비 행동이 남음",
+      "local_route_registered": true,
+      "current_exit_support": "REGISTERED_LOCAL_FUNCTION_ONLY",
+      "remaining_finite_action_for_whole_act": "Select Chicago retirement coordinate and audit successor independent preparation; no successor career guarantee.",
+      "actual_historical_exit_certified": false
+    }
+  ],
+  "act_boundaries": [
+    {
+      "id": "A01",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/0",
+      "source_choice": "개인 과시 대신 팀의 가장 낮은 일을 받아들임",
+      "source_cost": "즉시 인정·자유시간",
+      "source_act_exit": "팀에 다시 나올 이유를 얻음",
+      "three_subacts": [
+        "A01-S1",
+        "A01-S2",
+        "A01-S3"
+      ],
+      "current_boundary_status": "BOUNDED_PRIOR_EXIT_ACCEPTED",
+      "narrow_remaining_port": "None; preserve current literal-cost overlay and original audit.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A02",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/1",
+      "source_choice": "빅맨 지위를 버리고 윙 기술·학사 책임을 배움",
+      "source_cost": "익숙한 서열·주전 지위",
+      "source_act_exit": "프렙 졸업과 NCAA 진입 근거",
+      "three_subacts": [
+        "A02-S1",
+        "A02-S2",
+        "A02-S3"
+      ],
+      "current_boundary_status": "BOUNDED_PRIOR_EXIT_ACCEPTED",
+      "narrow_remaining_port": "None for prep graduation/NCAA entry basis; later college registration is separate.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A03",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/2",
+      "source_choice": "기여할 수 있는 좁은 역할을 반복",
+      "source_cost": "개인 쇼케이스·출전 불만",
+      "source_act_exit": "대학 소속과 드래프트 평가 자료",
+      "three_subacts": [
+        "A03-S1",
+        "A03-S2",
+        "A03-S3"
+      ],
+      "current_boundary_status": "BOUNDED_PRIOR_EXIT_ACCEPTED",
+      "narrow_remaining_port": "None; narrow teammate reassignment/assessment bridge accepted.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A04",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/3",
+      "source_choice": "과장된 공격 완성도 대신 성장 증거 제시",
+      "source_cost": "지명 순번 불확실성",
+      "source_act_exit": "Chicago의 계약·개발 책임",
+      "three_subacts": [
+        "A04-S1",
+        "A04-S2",
+        "A04-S3"
+      ],
+      "current_boundary_status": "BOUNDED_PRIOR_EXIT_ACCEPTED",
+      "narrow_remaining_port": "None; Chicago contract/development responsibility bridge accepted without exact pick.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A05",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/4",
+      "source_choice": "자기관리 재발의 기회를 잃고 반복 준비",
+      "source_cost": "NBA 출전 기회·편한 생활",
+      "source_act_exit": "로테이션과 약한 손·직선 공격 신뢰",
+      "three_subacts": [
+        "A05-S1",
+        "A05-S2",
+        "A05-S3"
+      ],
+      "current_boundary_status": "BOUNDED_OPERATING_EXIT_ACCEPTED",
+      "narrow_remaining_port": "None for limited role trust; full rotation/season is not inferred.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A06",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/5",
+      "source_choice": "LaMelo의 창조와 LaVine의 득점을 살림",
+      "source_cost": "온볼 기회와 빠른 승리 욕망",
+      "source_act_exit": "K1/L2 잠정 탈락·2021 #10/#39",
+      "three_subacts": [
+        "A06-S1",
+        "A06-S2",
+        "A06-S3"
+      ],
+      "current_boundary_status": "CURRENT_SELECTED_SEASON_EXIT_BOUNDED",
+      "narrow_remaining_port": "None for K1/L2–#10/#39 route; any later NBA role is next Act.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A07",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/6",
+      "source_choice": "엘보 카운터를 실제 압박에서 시험",
+      "source_cost": "효율 변동·기존 베테랑의 분",
+      "source_act_exit": "첫 장기 계약 협상 표본",
+      "three_subacts": [
+        "A07-S1",
+        "A07-S2",
+        "A07-S3"
+      ],
+      "current_boundary_status": "CONDITIONAL_FIRST_CONTRACT_SAMPLE_SUPPORTED",
+      "narrow_remaining_port": "None for source sample; no market acceptance to add.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A08",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/7",
+      "source_choice": "E2 협상과 동료 자원의 동시 비용 수용",
+      "source_cost": "싼 계약 신화·무제한 전력 보강",
+      "source_act_exit": "공동 에이스 권한과 예산 책임",
+      "three_subacts": [
+        "A08-S1",
+        "A08-S2",
+        "A08-S3"
+      ],
+      "current_boundary_status": "BOUNDED_SELECTED_COST_AND_CALLS_SUPPORTED_WHOLE_AUTHORITY_HOLD",
+      "narrow_remaining_port": "One further admitted coach-role/cost window only if source whole Act means sustained co-ace authority; five Oct19 calls are not permanent status.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A09",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/8",
+      "source_choice": "대표팀에서 제한적 권한 공유",
+      "source_cost": "보험·허가·캠프와 개인 훈련 시간",
+      "source_act_exit": "완전 화해 없는 협력·다음 시즌 부하",
+      "three_subacts": [
+        "A09-S1",
+        "A09-S2",
+        "A09-S3"
+      ],
+      "current_boundary_status": "BOUNDED_PRIVATE_COOPERATION_AND_2023_CHICAGO_TEAM_RETURN_SUPPORTED",
+      "narrow_remaining_port": "None for original CP2 cooperation/return-practice cost: A09-EF-003 supplies the 2023 allowed Chicago load and observed return. Future 2023–24 NBA game performance is still unselected but not a new prerequisite for this bounded source exit; public tournament, medal and military stay separate.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A10",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/9",
+      "source_choice": "짧은 자가 창조와 더 나은 다음 선택을 결합",
+      "source_cost": "LaVine과 클로징 권한·수비 부담",
+      "source_act_exit": "최우선 코어 후보, 우승 자격 시험",
+      "three_subacts": [
+        "A10-S1",
+        "A10-S2",
+        "A10-S3"
+      ],
+      "current_boundary_status": "SELECTED_2024_GAME1_TWO_WINDOWS_BOUNDED_S1_S2_SUPPORT_QUALIFICATION_HOLD",
+      "narrow_remaining_port": "Only separate QUAL1 qualification/series route for title eligibility. Game1 two windows support bounded S1/S2 failure/retry and LaVine three-second role cost; full score, permanent first-option efficiency or season result are not added prerequisites.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A11",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/10",
+      "source_choice": "공격·수비 출력과 동료 선택을 분담",
+      "source_cost": "리그 최고 평가와 시리즈 패배의 간극",
+      "source_act_exit": "MIN과 첫 파이널 패배 후보·구조적 결함 노출",
+      "three_subacts": [
+        "A11-S1",
+        "A11-S2",
+        "A11-S3"
+      ],
+      "current_boundary_status": "LOCAL_DESIGN_ONLY_FIRST_FINALS_LOSS_HOLD",
+      "narrow_remaining_port": "2025–26 role season and selected MIN Finals-loss bracket/result if chosen.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A12",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/11",
+      "source_choice": "LaMelo·LaVine·주인공 비용을 함께 감당",
+      "source_cost": "벤치 깊이·역할·새 계약",
+      "source_act_exit": "개인 증명과 팀 실패를 분리, 재대결 자격 재획득",
+      "three_subacts": [
+        "A12-S1",
+        "A12-S2",
+        "A12-S3"
+      ],
+      "current_boundary_status": "LOCAL_DESIGN_ONLY_CONTRACT_REMATCH_HOLD",
+      "narrow_remaining_port": "Named post-2025/26 contracts/bench cost plus selected requalification.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A13",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/12",
+      "source_choice": "수비 리바운드 뒤 유리한 동료의 득점을 만듦",
+      "source_cost": "자기 슛의 영광·패스 실패 책임",
+      "source_act_exit": "CHI–MIN 재대결 승리와 주제 회수 후보",
+      "three_subacts": [
+        "A13-S1",
+        "A13-S2",
+        "A13-S3"
+      ],
+      "current_boundary_status": "LOCAL_DESIGN_ONLY_LOCKED_FINAL_HOLD",
+      "narrow_remaining_port": "Future Finals coordinate and locked A13-CF04 winning possession execution.",
+      "whole_historical_act_exit_certified": false
+    },
+    {
+      "id": "A14",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/acts/13",
+      "source_choice": "분·계약·폭발력 감소를 받아들임",
+      "source_cost": "지위와 마지막 계약 규모",
+      "source_act_exit": "원클럽 은퇴·후배가 이어받는 준비 습관",
+      "three_subacts": [
+        "A14-S1",
+        "A14-S2",
+        "A14-S3"
+      ],
+      "current_boundary_status": "LOCAL_DESIGN_ONLY_RETIREMENT_HOLD",
+      "narrow_remaining_port": "Post-win late-career role/contract contraction and exact one-club retirement coordinate.",
+      "whole_historical_act_exit_certified": false
+    }
+  ],
+  "already_closed_bounded_joins": {
+    "A06": "Selected K1/L2 1174 games/2348 team games, F1 movement and 2021 #10/#39 handoff accepted; not reopened.",
+    "A08": "Selected E2 cost and Oct19 2022 MIA five limited fictional calls occupying 100 seconds, no new team seconds; permanent co-ace not certified.",
+    "A09": "Selected 2023 private access and EF003 Chicago allowed team-practice return/load are bounded CP2 cooperation/return witnesses; 2024 Game1 cannot retroactively certify 2023–24 NBA results.",
+    "A10": "Selected 2024-10-23 CHI@NOP admitted lawful 13-active family and Q4 2848–56 failure, 2872–80 earlier handoff, 8 seconds each side with40 team-player seconds. These are fictional observations, not whole-game score or QUAL1.",
+    "A10_independent_review": "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json#/scope (two selected windows only; whole game/QUAL1 false)"
+  },
+  "final_episode_allocation_port": {
+    "current_inputs": [
+      "42 original CP2 subact exits/14 Act exits",
+      "60 reviewed local functions and their exact entry/exit/slot",
+      "60 current Blueprint authority references",
+      "accepted bounded joins and current selected season windows"
+    ],
+    "next_finite_work": [
+      "Resolve only Act-level narrow ports above; A10 Game1 already supports bounded S1/S2 in two selected windows, so next is QUAL1 qualification/series only. A11–A14 consequential coordinates remain candidate.",
+      "Root decides final chapter/episode allocation from verified function order and Act boundaries; choose count and pacing without treating 780 plan slots as required scenes.",
+      "Build finite G14 Context Packs only after approved final allocation/source access/POV/revision and Act exit scope; Pack count currently zero."
+    ],
+    "final_allocation_selected": false,
+    "new_episodes_created": 0
+  },
+  "limits": {
+    "whole_G13_complete": false,
+    "whole_G14_complete": false,
+    "public_A09_game_or_medal_selected": false,
+    "A11_A14_future_titles_MVP_retirement_selected": false,
+    "actual_historical_performance_or_private_receipts_certified": false,
+    "new_author_lock": false,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "A10_Game1_two_bounded_windows_selected_and_executed_in_admitted_fiction": true,
+    "A10_whole_game_score_winner_first_option_efficiency_or_QUAL1_selected": false,
+    "A09_2023_return_team_practice_bounded_witness_selected": true,
+    "A09_2023_24_NBA_game_performance_selected": false,
+    "A10_Game1_two_window_independent_review_completed": true
+  },
+  "selected_history_boundary": {
+    "2023_CHI_postseason": "MIL 4–0 CHI, East R1, last 2023-04-21; old H2 2023 R2 target is historical recommendation only",
+    "2024_25_A10": "B_DEVELOPMENT_JAQUEZ20 plan plus 2024-10-23 CHI@NOP two admitted Q4 fictional role windows selected/executed; whole game winner, score, first-option efficiency, QUAL1 and 2024–25 season result remain unselected.",
+    "2023_A09": "Private joint practice and 2023 Chicago allowed team-practice return/load selected locally; 2023–24 NBA game performance, public tournament performance/medal/military unselected. The 2024 Game1 is later and does not backdate this return."
+  }
+}
