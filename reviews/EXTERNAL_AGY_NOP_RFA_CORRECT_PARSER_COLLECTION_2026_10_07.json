@@ -1,0 +1,84 @@
+{
+  "tool": "Antigravity",
+  "scope": "NOP_PRIMARY_RFA_COLLECTION_USING_EXISTING_REPOSITORY_PARSER",
+  "url": "https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers",
+  "reason": "The firstnewstream caller incorrectly used type events; existing tools/parse_antigravity_stream.py already handles event/result. Fixedkeywordprobe proved terminal.response. Firstcall rawwasdiscarded; one properlyparsedcollection after invocation repair, not repeatedemptyservice conclusion.",
+  "parser_repository_path": "tools/parse_antigravity_stream.py",
+  "parser_sha256": "249d6e07faec3f20190eaff9f9550a33e60035a7cb276977311caa0d38b980ec",
+  "prompt_sha256": "028d2a06f5ad54cb16db48af619073fb8799571b61a1caa9283651b3d6c19835",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 35.779,
+    "process_budget_seconds": 85,
+    "parsed": {
+      "output_format": "stream-json",
+      "terminal_count": 1,
+      "terminal": {
+        "conversation_id": "5ee5e2e5-2305-4cd8-9a46-e913b8ba97c9",
+        "status": "SUCCESS",
+        "response": "```json\n{\n  \"url\": \"https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers\",\n  \"three_name_restricted_classification\": {\n    \"LonzoBall\": true,\n    \"JoshHart\": true,\n    \"DidiLouzada\": true\n  },\n  \"actual_body_read\": true,\n  \"collection_method\": \"read_url_content\",\n  \"bounded_locator\": \"articleBody: Qualifying offers -> Issued (restricted free agents) & Team options -> Declined footnote (**)\",\n  \"QuoteEnglish\": \"Pelicans issued him a qualifying offer\",\n  \"Koreanparaphrase100chars\": \"공식 본문상 론조 볼과 조쉬 하트는 QO 제시로, 디디 로자다는 팀 옵션 거절 후 QO 제시로 3명 모두 RFA로 분류됨.\"\n}\n```\n",
+        "duration_seconds": 25.5466184,
+        "num_turns": 1
+      },
+      "response_recovered": true,
+      "tool_steps": [
+        {
+          "step_index": 2,
+          "state": "ACTIVE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 2,
+          "state": "DONE",
+          "tool_name": "read_url_content",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "ACTIVE",
+          "tool_name": "view_file",
+          "tool_output_present": false
+        },
+        {
+          "step_index": 4,
+          "state": "DONE",
+          "tool_name": "view_file",
+          "tool_output_present": true,
+          "tool_output_kind": "string",
+          "tool_output_char_count": 23,
+          "tool_output_sha256": "b8cc5dc1da823fcce2171dda2783b551746dbec9d498b3386e2f4f915507d2b3"
+        }
+      ],
+      "malformed_line_count": 0,
+      "stdout_sha256": "21330c73e952346dfd66be5cb4cf46bce4520c19c6ae604bb742b46acfdcc596",
+      "raw_logs_retained": false,
+      "evidence_verification": "NOT_AUTOMATIC",
+      "partial_agent_response": {
+        "text": "```json\n{\n  \"url\": \"https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers\",\n  \"three_name_restricted_classification\": {\n    \"LonzoBall\": true,\n    \"JoshHart\": true,\n    \"DidiLouzada\": true\n  },\n  \"actual_body_read\": true,\n  \"collection_method\": \"read_url_content\",\n  \"bounded_locator\": \"articleBody: Qualifying offers -> Issued (restricted free agents) & Team options -> Declined footnote (**)\",\n  \"QuoteEnglish\": \"Pelicans issued him a qualifying offer\",\n  \"Koreanparaphrase100chars\": \"공식 본문상 론조 볼과 조쉬 하트는 QO 제시로, 디디 로자다는 팀 옵션 거절 후 QO 제시로 3명 모두 RFA로 분류됨.\"\n}\n```\n",
+        "char_count": 581,
+        "sha256": "a3a44123daf241b625d7f9d2ecc8496dac0204dd2d38639f2a858c68f8ed624a",
+        "truncated": false,
+        "available": true,
+        "terminal_response_certified": false,
+        "source_evidence_certified": false
+      }
+    },
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "usable_answer_recovered": true,
+  "official_body_collected": false,
+  "root_quality_disposition": {
+    "classification_answers_matched_direct_raw_source": true,
+    "accepted_scope": "Only the three official2021RFA classifications; noQOamount, acceptance, counterfactualcontract or historicalmedical adoption.",
+    "root_direct_source_raw_sha256": "c3791cc30b1a1eec3422778868a56a24b702fe2c42ce9ffe9cc2a42719b33611",
+    "actual_agy_body_bytes_verified": false,
+    "all_MCP_server_communication_certified": false,
+    "file_tool_parameters_or_read_target_certified": false,
+    "parser_fault_scope": "Temporary caller used wrongeventshape; existingrepositoryparser alreadycorrect. First discardedraw response remainsunrecoverable, not provenemptyservice reply."
+  },
+  "raw_logs_retained": false,
+  "global_settings_changed": false,
+  "manuscript_allowed": false
+}

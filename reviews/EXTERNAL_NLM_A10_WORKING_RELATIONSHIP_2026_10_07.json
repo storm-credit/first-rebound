@@ -1,0 +1,55 @@
+{
+  "tool": "NotebookLM",
+  "scope": "A10_TWO_PARTY_ACTION_COST_RELATIONSHIP_ONLY_NOT_PRIMARY_SOURCE",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "6e220d93-1370-4d18-b888-7f157a06d3e8"
+  ],
+  "uploaded_input_sha256": "0d26afa6355683e6d1f25686f6308b3e5cb80fe3b6f0ba51496bed0c5609f138",
+  "question_sha256": "87e41dbcabf01ee7cae75e2df4e9122bd8a2d464984d9d05b90bc3cab699dee8",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 58.684,
+    "process_budget_seconds": 210,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "W2에서 주인공은 패스를 받아 이양 후 수비로 복귀하며 **슛 기회**를 쓰고, LaMelo는 **공 시간**을 내주는 선택과 기회비용 행동만 직접 관측됩니다 [1]. 이 국소 상호비용은 단일 훈련 표본에 불과해 **공식 클로징 권한** 배정이나 실전 역할 재배분으로 이어지지 못합니다 [1, 2]. 또한 **P3 세막신뢰**가 요구하는 최소 세 막에 걸친 양방향 행동 누적을 입증하지 못하기 때문입니다 [2].",
+      "question": "지정사본 W2의 주인공과LaMelo 선택/기회비용/직접관측을 연결하고, 그 국소상호비용이 전체A10 클로징권한과P3세막신뢰를 아직 충족하지 못하는 이유를 한국어250자이내로 설명해줘. 완료상태/검문표시를 근거로쓰지말고 행동의 인과관계만 분석해. 새로운 득점/수락/결과는 만들지마.",
+      "conversation_id": "959394f5-1f6f-405c-b359-0aef666eb8dc",
+      "sources_used": [
+        "6e220d93-1370-4d18-b888-7f157a06d3e8"
+      ],
+      "citations": {
+        "1": "6e220d93-1370-4d18-b888-7f157a06d3e8",
+        "2": "6e220d93-1370-4d18-b888-7f157a06d3e8"
+      },
+      "references": [
+        {
+          "source_id": "6e220d93-1370-4d18-b888-7f157a06d3e8",
+          "citation_number": 1,
+          "cited_text_sha256": "4d3cb99d673a84d458ef8c042dd0d52a379c64db2a2e1685713ef6d073a4614b",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "6e220d93-1370-4d18-b888-7f157a06d3e8",
+          "citation_number": 2,
+          "cited_text_sha256": "2f786d4622d643e51e14d668ddcfc2dce4ac5108d3cfc027a71426e6cf8f02a4",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "usable_answer_recovered": true,
+  "whole_gate_or_primary_source_certified": false,
+  "manuscript_allowed": false,
+  "raw_logs_retained": false,
+  "root_quality_disposition": {
+    "accepted": "W2 explicit two-party shot/balltime/defense opportunity-cost relationship and noncertification of wholeclosingauthority/P3threeActproof.",
+    "frozen_source_sha_and_single_source_ids_matched": true,
+    "independent_primary_verification": false,
+    "whole_gate_promotion": false
+  }
+}
