@@ -1,0 +1,100 @@
+{
+  "id": "NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_SELECTED_SEEDS_SIX_FICTIONAL_PLAYIN_RESULTS_AND_TYPED_2022_CHICAGO_RIGHTS_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_2021_22_standings_playin_and_2022_rights.py": "00a94e07ed06cfcab5a5ec2669bd8f9aa036de3169e78af152552d405dc17a1d",
+    "simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.json": "139c1d6a90d1bd7ee672020af96e03bf6767599637902c329b1e772fdfcf63d9",
+    "simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.md": "f9bc446597e280c13660dddf072587b13e8b5e1ef01c0b268bf438b13d75e5c9",
+    "research/NBA_2022_STANDINGS_AND_DRAFT_PRIMARY_OBSERVATIONS_2026_10_07.json": "165e240a765ac07d98253b348654022978ef7e034c90bcfbd874694cd19dfda6",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8"
+  },
+  "primary_source_check": {
+    "2017_NBA_tiebreak_pdf": "Direct official two-page text confirms first four two-/multi-team criteria, division-winner preliminary resolution and partial multi-team restart; indexed official 2021-22 standings text corroborates the operative early criteria.",
+    "2021_NBA_playin_approval": "Direct official body confirms 7-10 format, Apr 12-15, Apr 10 regular close, Apr 16 playoffs and 15-standard/2-two-way contract plus 15-active ceilings.",
+    "2022_NBA_playin_schedule": "Direct official body confirms Apr 12 seven-eight, Apr 13 nine-ten, Apr 15 final game dates; real actors/scores were not imported.",
+    "2022_NBA_draft_release": "Direct official body confirms May 17 lottery, Jun 23 draft, four lottery draws and inverse-record remaining lottery order.",
+    "2019_NBA_bylaws": "Physical cached PDF raw SHA and pages 85-87 extracted-text SHA agree with source manifest; Article 7.02(c) ties second-round order to inverse of the first-round tie drawing.",
+    "HTTP_403_cached_failures_adopted_as_source_body": false
+  },
+  "independent_standings_check": {
+    "global_team_records_used": 30,
+    "seed_rows": 30,
+    "only_equal_record_seed_group": "WEST LAC/LAL/PHX 64 wins",
+    "three_way_head_to_head_each": "1/2",
+    "Pacific_division_record_LAC": "11/16",
+    "Pacific_division_record_PHX_and_LAL": "5/8",
+    "division_winner_LAC": true,
+    "partial_group_restarted_as_two_way_PHX_LAL": true,
+    "Western_conference_record_PHX": "42/52",
+    "Western_conference_record_LAL": "41/52",
+    "resolved_West_2_to_4": [
+      "LAC",
+      "PHX",
+      "LAL"
+    ]
+  },
+  "playin_and_rights_check": {
+    "six_working_winners": [
+      "CHI",
+      "TOR",
+      "MIA",
+      "GSW",
+      "SAS",
+      "POR"
+    ],
+    "exact_Fraction_margin_and_source_role_errors": 0,
+    "qualified_playoff_teams": 16,
+    "nonplayoff_lottery_origins": 14,
+    "first_nonlottery_origin_count": 16,
+    "second_round_origin_count": 30,
+    "Chicago_first_origin_rank_domain": [
+      17,
+      18
+    ],
+    "Chicago_second_origin_rank_domain": [
+      47,
+      48
+    ],
+    "coupled_first_second_pairs": [
+      [
+        17,
+        48
+      ],
+      [
+        18,
+        47
+      ]
+    ],
+    "DET_second_origin_rank_domain": [
+      32
+    ],
+    "LAL_second_origin_rank_domain": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "lottery_or_same_record_draft_draw_selected": false,
+    "Chicago_composite_second_exercise_or_final_holder_selected": false
+  },
+  "currentness": {
+    "saved_validate_errors": [],
+    "markdown_equals_producer_render": true
+  },
+  "independent_negative_controls": [
+    {
+      "mutation": "Swapped returned Phoenix/Lakers West seed 3/4 after ranking while keeping source rows and trace.",
+      "result": "REJECTED AssertionError: Returned partial tie/restart changed"
+    },
+    {
+      "mutation": "Patched both physical and direct returned global-result loaders to change Chicago wins from 52 to 51 without changing frozen source bytes.",
+      "result": "REJECTED AssertionError: Returned source changed: simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json"
+    }
+  ],
+  "limits": [
+    "Play-in health/participation and six winners are a selected fictional continuation of reviewed regular-season roles, not actual medical/contract receipts or historical play-in results.",
+    "No actual 2022 lottery draw, tied-record drawing, Chicago second-right exercise, full 60-origin ownership, new draftee, exact score, playoff outcome, title, whole Macro 3 or manuscript permission is certified."
+  ]
+}

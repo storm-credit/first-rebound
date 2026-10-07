@@ -1,0 +1,161 @@
+{
+  "id": "NBA_2022_STANDINGS_AND_DRAFT_PRIMARY_OBSERVATIONS",
+  "observation_date": "2026-10-07",
+  "classification": "DIRECT_WEB_PRIMARY_BODY_OBSERVATION_NOT_ORIGINAL_RAW_BYTES",
+  "source_observations": [
+    {
+      "id": "TIE_PDF",
+      "url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+      "publication_year": 2017,
+      "web_reference": "turn2278view1",
+      "pages_read": [
+        1,
+        2
+      ],
+      "locator": "page1 criteria and playoff procedures; page2 restart example",
+      "adopted_scope": "first four criteria, division-winner first resolution and partial-tie restart; not 2022 eligibility10 rule",
+      "original_raw_bytes_collected": false
+    },
+    {
+      "id": "TIE_2022",
+      "url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+      "web_reference": "turn2277search0",
+      "channel": "INDEXED_PRIMARY_BODY_OBSERVATION",
+      "direct_open": "INTERNAL_ERROR",
+      "adopted_scope": "ordering crosscheck only; direct2017 PDF is operative first-four rule evidence",
+      "original_raw_bytes_collected": false
+    },
+    {
+      "id": "PLAYIN_APPROVAL",
+      "url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+      "publication_date": "2021-07-27",
+      "web_reference": "turn2281view0",
+      "locator": "lines14–16 and32–36",
+      "adopted_scope": "2021–22 7–10 format, April12–15, up to15active/15STD2TW",
+      "original_raw_bytes_collected": false
+    },
+    {
+      "id": "PLAYIN_CALENDAR",
+      "url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+      "web_reference": "turn2281view1",
+      "locator": "lines164–184",
+      "adopted_scope": "Apr12 seven-eight; Apr13 nine-ten; Apr15 final. Historical actors/results excluded.",
+      "original_raw_bytes_collected": false
+    },
+    {
+      "id": "DRAFT_CALENDAR",
+      "url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+      "web_reference": "turn2281view2",
+      "locator": "lines159–184",
+      "adopted_scope": "May17 lottery; June23 draft; draft record ties drawn; lottery top4 drawn. No historical draw reused.",
+      "original_raw_bytes_collected": false
+    },
+    {
+      "id": "BYLAWS2019_DRAFT_ORDER",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019-1.pdf",
+      "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "PDF1based_text_sha256": {
+        "85": "312b5df737e0460a3671e61291f403b9488ee32827d938cebea87867f3bf0239",
+        "86": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+        "87": "43197a4945acf5176d9335d2ff911f7c516a1db82e623c4ca53bb264fc094e20"
+      },
+      "locator": "Article7.02(a)-(c), printed76–78/PDF85–87",
+      "adopted_scope": "2022origin order functions and tiedsecond reverse firstorder; no actual drawing reused",
+      "original_raw_bytes_collected": true
+    }
+  ],
+  "rule_projection": {
+    "two_way_first_four": [
+      "head_to_head",
+      "division_winner",
+      "same_division_record",
+      "conference_record"
+    ],
+    "multi_way_first_four": [
+      "division_winner",
+      "head_to_head_group",
+      "same_division_record",
+      "conference_record"
+    ],
+    "division_winners_resolved_first": true,
+    "partial_groups_restart_using_group_size": true,
+    "later_point_differential_or_drawing_not_needed_for_current_seed_tie": true
+  },
+  "calendar_projection": {
+    "regular_end": "2022-04-10",
+    "seven_eight": "2022-04-12",
+    "nine_ten": "2022-04-13",
+    "final": "2022-04-15",
+    "playoffs_begin": "2022-04-16",
+    "lottery": "2022-05-17",
+    "draft": "2022-06-23"
+  },
+  "failed_direct_HTTP_downloads": [
+    {
+      "id": "tiebreak2017.pdf",
+      "url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+      "final_url": "https://ak-static-int.nba.com/wp-content/uploads/sites/2/2017/06/NBA_Tiebreaker_Procedures.pdf",
+      "HTTP": 403,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\tiebreak2017.pdf",
+      "raw_sha256": "ade4b4925ec6db6f579e40eff2f396ba6e1bd67e3c4bfec06d4fd0f93cb864e1",
+      "bytes": 425,
+      "captured_utc": "2026-10-07T14:35:23.987053+00:00",
+      "body_adopted": false
+    },
+    {
+      "id": "playin_approval.html",
+      "url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+      "final_url": "https://pr.nba.com/nba-board-of-governors-play-in-roster-rules-2021-22-season/",
+      "HTTP": 403,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\playin_approval.html",
+      "raw_sha256": "712e21067e4e104101470929e3189ec8bd65015ff4f655ce9d1b1a6450e9a92e",
+      "bytes": 425,
+      "captured_utc": "2026-10-07T14:35:23.908817+00:00",
+      "body_adopted": false
+    },
+    {
+      "id": "playin_schedule.html",
+      "url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+      "final_url": "https://www.nba.com/news/2022-nba-play-in-tournament-schedule",
+      "HTTP": 403,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\playin_schedule.html",
+      "raw_sha256": "fd52540b5816ad3adee5b227d8167232398d0ac00263c596b28cd98387b27de2",
+      "bytes": 430,
+      "captured_utc": "2026-10-07T14:35:23.897824+00:00",
+      "body_adopted": false
+    },
+    {
+      "id": "draft_order_release.html",
+      "url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+      "final_url": "https://www.nba.com/news/nba-draft-2022-ties-broken-official-release",
+      "HTTP": 403,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\draft_order_release.html",
+      "raw_sha256": "a84af23aa8175128f5bbcb257185ce05be34ef43ea2db992a9c58c34951436fb",
+      "bytes": 441,
+      "captured_utc": "2026-10-07T14:35:23.900123+00:00",
+      "body_adopted": false
+    },
+    {
+      "id": "standings2022.html",
+      "url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+      "final_url": "https://www.nba.com/standings?Season=2021-22&Section=calendar",
+      "HTTP": 403,
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-global-standings-20261007\\standings2022.html",
+      "raw_sha256": "d2ca7ba31993c092689384ee0cec6490c161f316a915ed0dc9bbaa676243c577",
+      "bytes": 379,
+      "captured_utc": "2026-10-07T14:35:23.888777+00:00",
+      "body_adopted": false
+    }
+  ],
+  "failed_bytes_are_not_adopted_body": true,
+  "original_raw_SHA_not_fabricated": true,
+  "observed_claims_are_not_actual_alternate_results": true,
+  "quotes_words": 0,
+  "draft_order_projection": {
+    "nonlottery_first_inverse_regular_record": true,
+    "second_allteams_inverse_regular_record": true,
+    "record_ties_drawn_not_playoff_tiebreak": true,
+    "second_tied_order_reverse_first_tied_order": true
+  }
+}
