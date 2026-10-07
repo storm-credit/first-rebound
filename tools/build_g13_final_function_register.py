@@ -8,6 +8,7 @@ from pathlib import Path
 import build_cp2_design_packets as base_builder
 import build_a03_e1_final_episode_function as a03
 import build_a03_e2_final_episode_function as a03_e2
+import build_a03_e3_final_episode_function as a03_e3
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = Path('control/G13_FINAL_FUNCTION_REGISTER.json')
@@ -15,6 +16,7 @@ MARKDOWN = OUTPUT.with_suffix('.md')
 BASE = 'design/CP2_ACT_SUBACT_PACKET.json'
 EXTENSION = str(a03.OUTPUT).replace('\\', '/')
 SECOND_EXTENSION = str(a03_e2.OUTPUT).replace('\\', '/')
+THIRD_EXTENSION = str(a03_e3.OUTPUT).replace('\\', '/')
 
 def read(root, path):
     return json.loads((root / path).read_text(encoding='utf-8-sig'))
@@ -47,12 +49,20 @@ def build(root=ROOT):
     assert second['previous_function']['exact_full_exit'] == second['entry_state'] == extra['exit_state']
     assert second['next_unit']['id'] == 'A03-F03'
     assert second['next_unit']['Texas_Tech_result_or_exact_box_prepaid'] is False
-    all_records = old + [extra, second]
-    paths = base['final_episode_function_paths'] + [EXTENSION, SECOND_EXTENSION]
-    assert len(paths) == len(set(paths)) == 21
-    assert [d['final_function_order'] for d in all_records] == list(range(1,22))
+    third = read(root, THIRD_EXTENSION)
+    assert not a03_e3.validate(third, root=root), 'third function source-currentness failed'
+    assert third['episode_function_id'] == 'A03-EF-003'
+    assert third['final_function_order'] == 22 and third['planned_allocation_slot'] == 93
+    assert third['status'] == 'FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE'
+    assert third['previous_function']['id'] == second['episode_function_id']
+    assert third['previous_function']['exact_full_exit'] == third['entry_state'] == second['exit_state']
+    assert third['whole_g13_complete'] is False and third['manuscript_allowed'] is False
+    all_records = old + [extra, second, third]
+    paths = base['final_episode_function_paths'] + [EXTENSION, SECOND_EXTENSION, THIRD_EXTENSION]
+    assert len(paths) == len(set(paths)) == 22
+    assert [d['final_function_order'] for d in all_records] == list(range(1,23))
     slots = [d['planned_allocation_slot'] for d in all_records]
-    assert len(slots) == len(set(slots)) == 21
+    assert len(slots) == len(set(slots)) == 22
     subacts = {s['id']: s for s in base['subacts']}
     acts = {a['id']: a for a in base['acts']}
     rows=[]
@@ -67,24 +77,26 @@ def build(root=ROOT):
                      'exact_exit':d['exit_state']})
         assert isinstance(rows[-1]['exact_entry'],str) and rows[-1]['exact_entry']
     per_act=dict(Counter(d['act'] for d in rows))
-    assert per_act == {'A01':9,'A02':10,'A03':2}
+    assert per_act == {'A01':9,'A02':10,'A03':3}
     source_paths=['tools/build_g13_final_function_register.py',BASE,
                   'tools/build_cp2_design_packets.py','tools/build_a03_e1_final_episode_function.py',
-                  'tools/build_a03_e2_final_episode_function.py',*paths]
+                  'tools/build_a03_e2_final_episode_function.py',
+                  'tools/build_a03_e3_final_episode_function.py',*paths]
     return {
         'schema':'G13_CUMULATIVE_FINAL_FUNCTION_REGISTER_V1',
         'status':'SOURCE_CURRENT_LOCAL_FUNCTIONS_NOT_WHOLE_G13',
         'base_snapshot':{'path':BASE,'registered_functions':19,'preserved_without_edit':True},
-        'extension_function_paths':[EXTENSION, SECOND_EXTENSION],
-        'counts':{'registered_local_functions':21,'per_act':per_act,
+        'extension_function_paths':[EXTENSION, SECOND_EXTENSION, THIRD_EXTENSION],
+        'counts':{'registered_local_functions':22,'per_act':per_act,
                   'subacts_with_verified_local_function_route':len({d['subact'] for d in rows}),
                   'subacts_without_verified_local_function_route':42-len({d['subact'] for d in rows}),
-                  'planned_allocation_slots':780,'unassigned_planned_slots':759,
+                  'planned_allocation_slots':780,'unassigned_planned_slots':758,
                   'planned_slots_are_mandatory_new_events':False,'final_published_episode_count':None},
         'functions':rows,
         'historical_comparison_rule':'The preserved CP2/first-six audit snapshot remains19. This cumulative registry explicitly validates that prefix and the reviewed A03 extension, and is the current local assignment count. Whole exits and history locks are separate gates.',
         'a02_to_a03_exact_local_handoff_verified':True,
         'a03_e1_to_e2_exact_local_handoff_verified':True,
+        'a03_e2_to_e3_exact_local_handoff_verified':True,
         'whole_subact_or_act_exit_promoted_by_this_register':False,
         'whole_g13_complete':False,'whole_g14_complete':False,'actual_context_packs':0,
         'manuscript_count':0,'manuscript_allowed':False,'design_gate':'CLOSED','author_locked':False,
@@ -94,11 +106,12 @@ def build(root=ROOT):
 
 def render(d):
     lines=['# G13 현재 국소 기능 누적 등록', '',
-           '원 CP2의19개 등록 스냅샷을 보존하고 해당 producer19개와 A03의 새 기능 producer2개를 실제 검문하여 현재 누적21개를 연결한다. 전체 G13 완료나 출판21회차 확정이 아니다.', '',
-           '- 현재 배정: A01 9·A02 10·A03 2, 합계21. 기능 경로가 있는 소막8·없는 소막34.',
+           '원 CP2의19개 등록 스냅샷을 보존하고 해당 producer19개와 A03의 새 기능 producer3개를 실제 검문하여 현재 누적22개를 연결한다. 전체 G13 완료나 출판22회차 확정이 아니다.', '',
+           '- 현재 배정: A01 9·A02 10·A03 3, 합계22. 기능 경로가 있는 소막9·없는 소막33.',
            '- 원19개의 순서·계획slot·파일을 보존한다. A03-EF-001은 전역 순서20/계획slot91이며, 앞 막의 미사용 계획slot을 새 사건으로 채울 의무는 없다.',
            '- A02 E10 정확출구→별도 여름I3→가상 대학등록/연습 접근→A03 첫 연습/영상/좁은과제 선택을 연결했다. 공식경기·주전·분·신뢰·소막전체출구를 선지급하지 않는다.',
-           '- A03 E1 정확출구→E2 다음 허용 연습의 두 박스아웃과 동료 공 확보를 연결한다. E2는 전역순서21/계획slot92이며 소막별 균등배정이나 실제 경기 기록을 뜻하지 않는다. F03 Texas Tech는 별도 역사·분 검문 전 미실행이다.',
+           '- A03 E1 정확출구→E2 다음 허용 연습의 두 박스아웃과 동료 공 확보를 연결한다. E2는 전역순서21/계획slot92이며 소막별 균등배정이나 실제 경기 기록을 뜻하지 않는다.',
+           '- E2 정확출구→E3 Texas Tech의 검토된 가상11분 창·맡은 수비 선택·동료 공 확보 한 번을 연결한다. 전역순서22/계획slot93이다. 실제 포제션·대체 박스/점수·3월25일 우승·후속 프로평가는 인증하지 않는다.',
            '- 원 CP2/첫6 감사의19 계수는 과거 스냅샷이다. 현재 누적 계수는 이 등록기를 참조한다. 전체 역사·출구·Context Pack 게이트는 별도로 남는다.', '',
            '| 순서 | 기능 | 막/소막 | 계획slot |','|---|---|---|---|']
     lines += [f"| {r['order']} | {r['id']} | {r['act']}/{r['subact']} | {r['planned_slot']} |" for r in d['functions']]

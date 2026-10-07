@@ -8,19 +8,20 @@
   },
   "extension_function_paths": [
     "design/A03_E1_FINAL_EPISODE_FUNCTION.json",
-    "design/A03_E2_FINAL_EPISODE_FUNCTION.json"
+    "design/A03_E2_FINAL_EPISODE_FUNCTION.json",
+    "design/A03_E3_FINAL_EPISODE_FUNCTION.json"
   ],
   "counts": {
-    "registered_local_functions": 21,
+    "registered_local_functions": 22,
     "per_act": {
       "A01": 9,
       "A02": 10,
-      "A03": 2
+      "A03": 3
     },
-    "subacts_with_verified_local_function_route": 8,
-    "subacts_without_verified_local_function_route": 34,
+    "subacts_with_verified_local_function_route": 9,
+    "subacts_without_verified_local_function_route": 33,
     "planned_allocation_slots": 780,
-    "unassigned_planned_slots": 759,
+    "unassigned_planned_slots": 758,
     "planned_slots_are_mandatory_new_events": false,
     "final_published_episode_count": null
   },
@@ -234,11 +235,22 @@
       "subact": "A03-S2",
       "exact_entry": "주인공은 허용된 연습 영상에서 자신이 도움 위치로 늦게 움직여 동료가 빈 공간을 메운 모습을 확인했다. 그는 출전 분을 요구하는 대신 다음 허용 훈련의 좁은 도움 위치·동료 연결 과제를 맡겠다고 선택하고, 이번 연습의 영상 검토·다음 과제 확인 시간을 자기 과시 대신 쓴다. 다음 역할 훈련의 수행·반복 성공·동료 신뢰·공식 출전은 아직 관측되지 않았다.",
       "exact_exit": "다음 허용 수비 훈련에서 주인공은 맡은 도움 위치를 확인한 뒤 두 번의 공 궤적마다 자기 리바운드를 쫓기보다 가까운 상대의 진로를 막아 동료가 공을 확보하게 했다. 같은 연습의 두 관측은 맡은 역할을 반복할 수 있다는 국소 근거지만, 실전 신뢰·출전 분 상승·기술 숙련·시즌 전체의 안정성은 아직 확인되지 않았다."
+    },
+    {
+      "id": "A03-EF-003",
+      "path": "design/A03_E3_FINAL_EPISODE_FUNCTION.json",
+      "order": 22,
+      "planned_slot": 93,
+      "act": "A03",
+      "subact": "A03-S3",
+      "exact_entry": "다음 허용 수비 훈련에서 주인공은 맡은 도움 위치를 확인한 뒤 두 번의 공 궤적마다 자기 리바운드를 쫓기보다 가까운 상대의 진로를 막아 동료가 공을 확보하게 했다. 같은 연습의 두 관측은 맡은 역할을 반복할 수 있다는 국소 근거지만, 실전 신뢰·출전 분 상승·기술 숙련·시즌 전체의 안정성은 아직 확인되지 않았다.",
+      "exact_exit": "주인공은 Texas Tech전의 가상 11분 창에서 추가 개인 공격 기회를 요구하기보다 맡은 스위치 연결과 가까운 상대 박스아웃을 먼저 택했다. 한 동료가 공을 확보하는 국소 결과를 직접 봤지만, 공식 리바운드·실제 포제션·경기 전체 공로와 NBA용 자기 공격 능력은 아직 인증되지 않았다. 이전 두 훈련 관측이 이 선택의 자동 성공을 보증한 것은 아니다."
     }
   ],
   "historical_comparison_rule": "The preserved CP2/first-six audit snapshot remains19. This cumulative registry explicitly validates that prefix and the reviewed A03 extension, and is the current local assignment count. Whole exits and history locks are separate gates.",
   "a02_to_a03_exact_local_handoff_verified": true,
   "a03_e1_to_e2_exact_local_handoff_verified": true,
+  "a03_e2_to_e3_exact_local_handoff_verified": true,
   "whole_subact_or_act_exit_promoted_by_this_register": false,
   "whole_g13_complete": false,
   "whole_g14_complete": false,
@@ -249,11 +261,12 @@
   "author_locked": false,
   "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
   "source_rev_sha256": {
-    "tools/build_g13_final_function_register.py": "4a7d3ae342c81f80df45ef1c5c03043baa9c8dcdaecd63fa599ae7530768d8ad",
+    "tools/build_g13_final_function_register.py": "d95ca34013953c80b12d8bec513f957842ce5900a900d8dcc45253e4064ff822",
     "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
     "tools/build_cp2_design_packets.py": "3a1ea35989e5d5e755f6a80bd719e46c637895d8194ea3f0e01aabdd4c8b23e1",
     "tools/build_a03_e1_final_episode_function.py": "e8b9f10bdc4856911d1cb5febbabc9dc3b9cff336a77aa0ed404669f304ed181",
     "tools/build_a03_e2_final_episode_function.py": "3808feb738202c0832febc7b86f8c2dc9b85f9d9f513a2a43ae6779608601684",
+    "tools/build_a03_e3_final_episode_function.py": "71e91c87d451a082b745058e8e070e91cd7c872820f038ac793591bbcd2ef2e5",
     "design/A01_E1_FINAL_EPISODE_FUNCTION.json": "9c15706717053a274f254ada476c027ea619858e6cd4ae80d8d8b422b789405e",
     "design/A01_E2_FINAL_EPISODE_FUNCTION.json": "306dd7810fda0395dc722ab953ebac9ef1e4cf3db0cc4a9dc0266a8a2b2e5285",
     "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "edbccc96f145274f4dfcfc2bbaebdce1477b0f3f3426a5420848aadfde1f4911",
@@ -274,6 +287,7 @@
     "design/A02_E9_FINAL_EPISODE_FUNCTION.json": "673382aeda069daf205e72ff49012fa1dd94b780c2547dbcd7208e304d633c11",
     "design/A02_E10_FINAL_EPISODE_FUNCTION.json": "2bf0e115af5b10ba8fbb613fc0dc569aeffa1c6de53cd505b03b16721a73942e",
     "design/A03_E1_FINAL_EPISODE_FUNCTION.json": "ad00a71895123d40cef8dfb5cfc5f545fa814c3347b40990b7dd4050377e5a91",
-    "design/A03_E2_FINAL_EPISODE_FUNCTION.json": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed"
+    "design/A03_E2_FINAL_EPISODE_FUNCTION.json": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed",
+    "design/A03_E3_FINAL_EPISODE_FUNCTION.json": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea"
   }
 }

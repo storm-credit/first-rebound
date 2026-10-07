@@ -1,0 +1,60 @@
+# 3번 현재 실행 의존성 — 2021–23 거래·계약
+
+기준은 PR451 `main e1076617f72be15f72e6289d8af553481736e59e`와 이번 Simonović 후속 후보다. 이 문서는 기존 파일의 읽기 복구와 다음 처리 순서만 기록한다. 새 거래 방향·작가 잠금·REGISTER 승격·전체 3번 종료는 없다. `PROJECT_FREEZE v0.30 PARTIAL`, 설계/원고 `CLOSED`, 실제 Pack0·원고0을 유지한다.
+
+## 1. 권위별 현재 범위
+
+| 구분 | 실제 현재 내용 | 다음 단계에 넘기는 범위 |
+|---|---|---|
+| 작가확정 방향 | [M1](../canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json): Markkanen Chicago 4년 완전보장 제안·수락의 작품 사건, 제안 연봉 17/18.36/19.72/21.08m. [A](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json): Caruso·성장 코어, Green 재계약 추구, Young/Satoransky 계약연도 유지, Theis FA 이탈 | M1/A 재승인 없이 구현한다. Lonzo/DeRozan Chicago S&T 및 Markkanen Cleveland행은 비선택 대안이며 섞지 않는다. |
+| 완료된 선행 실행 | [S2 종료](../reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md), [결과·픽 실행](../simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.md): 법적12/12·F5/5·A3/3·K4/4, 1174경기/2348팀, 2021 origin/control60 | 2번의 완료를 다시 열지 않는다. 실제 사적 금융/임상/접수 인증과 다른 S2 유한 가상 실행의 완료다. |
+| 검문된 일상 구현 | [SQ1](../simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.md): Chicago #10 Duarte/#39 Wieskamp 작업 지명, 8/6~8/12 서명·권리 정리 순서, 최종 표준15/TW2. [전체 비용](../research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.md): 6범주×60계약 입력×10상태=600, 상단128,914,775/apron 여유14,087,225 | 공개 보존 계약 family와 명시된 가상 합법 조건 안에서 수용됐다. 실제 선수 서류·정확 사적 급여 인증 또는 리그 전체 지명 완료로 읽지 않는다. |
+| 검문된 중요 방향의 법적 준비 | [#16 3팀/9양도 후보](../research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.md), [OKC 전체 비용](../research/OKC_2021_AP1_FULL_COST_FAMILY_2026_10_07.md), [비용 연결](../research/NBA_2021_PICK16_COST_CLOSURE_BRIDGE_2026_10_07.md) | 비용·matching·원 보호청구의 검문은 준비 완료다. AP1/SG16 방향 선택을 대신하지 않는다. |
+| 권리 존속 범위 | [Simonović 8/12 수용](../research/SIMONOVIC_2021_RIGHTS_RETENTION_2026_10_07.md), [새 2021–22 후속 후보](../research/SIMONOVIC_2021_22_RIGHTS_CONTINUATION_2026_10_07.md) | 전자는 SQ1 8/12까지 독립 수용. 후자는 새 적법 해외계약/동의·성실 협상·Tender 조건의 NBA CBA 2022-06-30 창 충분조건을 독립 수용했다. 실제 해외 합의/금액/만료는 null, 새 중요 해외 방향의 정본 잠금0. |
+
+**사실**은 원 NBA 발표·CBA·보존된 공개 계약표의 관측 범위다. 비용 상한/분기 충분조건은 **추론**, 아직 미선택 거래와 해외 합의는 **후보**, M1/A와 기존 지명·S2 선택은 **작가확정**이다. 일상 작업 모델의 선택·독립 수용을 새로운 장기 작가 잠금과 혼동하지 않는다.
+
+## 2. 이미 끝난 비용 검문과 아직 미선택인 방향
+
+[M1 author bridge](../simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json)의 2021 부분합108,171,174/조건부 여유34,830,826은 최초 비교 이력이다. 이제 같은 여름의 600상태 전체 공개 비용 family는 별도 수용됐으므로 이 부분합의 `unknown`을 반복 수집하는 새 완료 gate를 만들지 않는다. 반대로 2021 전체 비용 수용을 2022–23에도 자동 복사하지 않는다. bridge의 2022 부분합148,806,968/단순 tax 여유1,460,032는 여전히 비교 예산이다.
+
+[#16 방향 비교](NBA_2021_PICK16_AP1_SG16_DIRECTION_DECISION_PACKET_2026_10_07.md)의 T1(AP1+SG16), T2(AP1만), T3(둘 다 생략)는 미선택이다. T1 권고·법적 준비 완료만으로 Walker/Horford/Brown/Sengun 소속과 DET/WAS 청구권을 정본화하지 않는다. 특히 완료된 시즌에 원역사 June18을 소급하지 않는다. 선택된 경우의 후보 날짜는 July28/29이며 August3 새 capyear 이후로 옮기면 그 날짜의 급여·면제 가족을 다시 적용한다.
+
+Simonović 후속은 기존 계약의 무조건 갱신이 아니다. 새 후보는 올바른 해외 당사자의 적법 합의, September2 서명/새 효력 통지 조건, 원 notice 보존, July1→September1 조건 충족 시 적법 B21까지 Tender 및 필요 W22를 명시한다. 268 active 시계 중43은 원말단만으로 June30을 넘고225는 X5d 추가기간의 보수 하한을 사용한다. 하한2022-07-29는 capyear 끝2022-06-30보다29일 뒤다. 실제 정확 e+1/만료일, 모든 외국법 입력의 실현 가능성, 2022–23 무기한 권리 보유는 인증하지 않는다. August12는 감도창이며 새 필수 완료 문턱이 아니다.
+
+## 3. 남은 유한 실행 항목
+
+| 항목 | 현재 입력·권위 | 실제 남은 결과 |
+|---|---|---|
+| 2021 전체 draft58 | [G7 60픽 비교](../simulation/NBA_2021_FULL_DRAFT_COMPARISON.md), SQ1 Chicago 두 작업 지명, S2 control60 | 나머지58 지명 후보의 한 보드 실행 연결. #16 방향에 맞는 소유 오버레이·Sengun 가용성·원 지명권 양도·신인 UPC/Tender/등록을 분리한다. 앞선 지명에서 Sengun이 사라지면 SG16을 같은 선수로 통과시키지 않는다. |
+| FY22 핵심 계약 실행 | [2021–23 sequence](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE.md), [입력](../simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE_INPUTS.json) | 2021 가을 Carter 연장, Coby/LaMelo 옵션과 주인공 2022 RFA 준비를 날짜별로 구현. 2022–23 재정·서명·옵션·15+2 명단 전체를 별도 연도로 연결한다. FY22를 2021 여름 비용표의 무조건 연장으로 쓰지 않는다. |
+| Carter CX1~CX4 | 4년50m CX1 권고, 40m/60m/2022RFA 비교 | 기존 성장 코어 안의 구체 제안·수락 작품 모델과 legal family/기한을 연결한다. 원 Orlando 계약을 Chicago 수락 사실로 복사하지 않는다. 승인 방향을 바꾸는 이탈/중요 코어 교체라면 비교안까지 준비하고 승격을 보류한다. |
+| 주인공 E1~E4/QO | [계약 4안](../simulation/CHICAGO_2021_23_CONTINUATION.md): E2 직접 Bird RFA 4년98.56m 권고 예산 | 2018 순번/rookie 급여의 인정된 구간·2021–22 분/선발·starter criteria·QO·RFA 권리와 새 제안의 기간/연봉/보장/순서를 연결한다. E2 권고를 작가 금액 잠금으로 읽지 않는다. 정확 한 금액 선택 없이 합법 구간의 구현을 검문할 수 있다. |
+| LaVine 2022 | [장기 core CBA](../simulation/CHICAGO_LONG_CORE_CBA.md): 공개5년 구조 비교 | Chicago 잔류 제안·수락 모델, 실제연도 max 자격/선수옵션·후년 비용을 같은 FY22 장부에 넣는다. 후대 trade kicker나 2026 옵션 행사 사실을 잔류 후보에 복사하지 않는다. 새로운 프랜차이즈 이탈 방향은 별도 중요 선택이다. |
+| 기타 FY22 실명 | Young/Satoransky 만료, Stanley/Green·Bradley 옵션, Valentine/Wieskamp·TW; RT1~RT4 비교 | 유지/만료/옵션/새 계약의 실명과 날짜·기간·잔액·FA/미서명 차지를 연결한다. 미지정200만 교체 예비비를 실제 선수·charge로 인증하지 않는다. 등록/경제 family의 유한 구현을 작성한다. |
+| 2021–22 분·건강·결과 | [M1 정상일 역할](../simulation/CHICAGO_2021_M1_ROLE_WITNESS.md), [role plan](../simulation/CHICAGO_2021_22_ROLE_PLAN.md), [세 경기 paired](../simulation/CHICAGO_2021_22_PAIRED_REVIEW.md) | M1 Markkanen32/Caruso18의 정상일 증인을 실제 날짜·양측 등록/가용·240분/연장/교대·결과 모델에 연결한다. 구 R21A Mark28/Caruso22를 새 M1 분으로 혼용하지 않는다. 기존 세 경기/역할 스트레스는 전체 시즌이 아니다. [기록된 위임 선택](../canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json)은 2020–21 H00/K1/L2와 S1 문체이며, 2021–22 새 건강·성적·우승을 그 파일의 확정으로 복사하지 않는다. 새 날짜별 routine 모델·비교 후보 준비는 계속한다. |
+| 2022–23·2023 파급 | M1 때문에 CLE가 Markkanen을 원형 Mitchell 대가로 보유하지 않음; Coby RFA·LaMelo 연장 후보·2023 CBA 경계 | CLE/UTA Mitchell 대체 경로, 2022 draft/등록/급여·리그 결과, Coby/Wieskamp/Green/Bradley·LaMelo 옵션·연장을 연결한다. 원형 Mitchell/Gobert 거래·원역사 성과는 자동 복사하지 않는다. 중요한 행선지/코어 변경은 준비된 비교 후보로 남긴다. |
+
+## 4. 지금부터의 처리 순서와 3번 종료 조건
+
+1. 새 Simonović 후속 후보의 원문·보수 하한·Tender 조건 독립 검문을 회수했다. June30 이후는 새 연도 사건으로 재개방한다. 실제 외국 원문/receipt 전체를 새 무한 gate로 만들지 않는다.
+2. #16 중요 방향이 미선택인 동안 Chicago 승인 코어의 FY22 계약·옵션 후보와 다른58 지명 보드/소유 연결을 준비한다. T1/T2/T3를 자동 승인하지 않으며 독립 구현을 계속한다.
+3. Carter 연장/옵션→2021–22 전체 날짜별 양측 분·등록·가용·경기 결과→그 표본의 주인공 QO/RFA→LaVine/주인공/베테랑 FY22 계약·전체 비용 순으로 연결한다. 기존 건강·시즌·문체 선택의 재승인을 요구하지 않는다. 기존 선택의 연도/범위를 보존하고, 새 중요한 건강·시즌·우승 경로는 비교 후보로 준비한다. 선택된 방향 안의 루틴 계약 구현과 중요한 이탈·우승 경로 변경을 구분한다.
+4. 2022–23 시즌과 2023 계약/CBA를 이어 처리하고 Chicago 변경이 다른 팀의 선수 소유·분·급여·픽·플레이오프에 미친 named delta를 연결한다. 비용의 세금선 초과를 자동 불법으로 읽지 않으며 새 hardcap 발동 행위를 그해 기준으로 검사한다.
+5. [원 macro3 closeout](CHICAGO_2021_23_MACRO3_CLOSEOUT.md)의 다섯 종료 행—2021 지명·자산 / 2021 여름 Chicago / DeRozan·Lonzo·Vučević 파급 / 2022 계약 / 2023 후속—을 이 실행 결과로 대조한다. 루틴 가상 수락/권리·비용의 source-supported S2 가족을 검문한다. 모든 현실 사적 동의·장부의 인증이나 아직 범위 밖인 정확 미래 픽 전달을 추가 종료의무로 확대하지 않는다. 원 문서의 F0/A0/K0·잠정순번·미완료6은 그 작성 시점의 이력이며 현재 main의 S2 완료·control60·미완료5가 우선한다.
+
+현재 남은 것은 **명명된 후속 실행**이다. 전체3번을 닫으려면 계약·등록/권리·비용·분·결과와 named 나비효과가 같은 선택 경로로 연결되어야 한다. 기존 한정 PASS를 재검문할 사건이 없으면 반복하지 않는다. 새 사건/입력의 실제 의미와 법적·서사 영향은 해당 단위에서 검문한다. 이 문서는 새 전역 gate나 조사 프로젝트를 만들지 않는다.
+
+## 전체 7행
+
+| 번호 | 작업 | 현재 상태 |
+|---|---|---|
+| 1 | 2020 드래프트 연쇄 | 완료 |
+| 2 | Chicago 2020–21 | S2 유한 가상 실행 완료 |
+| 3 | 2021–23 거래·계약 | M1/A 여름 비용 수용·#16 법적 준비·후속 권리 후보; FY22/두 시즌/리그 파급 미완료 |
+| 4 | 주인공·라이벌 장기 커리어 | 후속 계약·시즌과 연결 미완료 |
+| 5 | 결말·전체 구조 | 누적22 국소 기능, 전체 기능/회차·역사 연결 미완료 |
+| 6 | 집필 규격·Context Pack | 독서110·문체 규격 완료, 전체 기능/실제Pack0 |
+| 7 | 통합·독립 검수·작가 승인 | 전체 G15/G16/G17 미완료 |
+
+**미완료 큰 묶음5개.** 날짜 예약·완료율·ETA는 생성하지 않는다. Freeze v0.30 PARTIAL·설계/원고 CLOSED·원고0.
