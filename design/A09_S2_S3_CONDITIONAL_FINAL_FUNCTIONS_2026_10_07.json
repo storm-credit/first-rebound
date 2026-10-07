@@ -1,0 +1,124 @@
+{
+  "schema": "A09_S2_S3_CONDITIONAL_FINAL_FUNCTIONS_V1",
+  "status": "CONDITIONAL_FUNCTION_FAMILY_NOT_REGISTERABLE_UNTIL_INSTITUTIONAL_BRIDGES",
+  "independent_review_completed": true,
+  "independent_review_basis": "Root read original CF02-05, CP2 institutional constraints, selected joint-attempt gate and E1 exact exit. Both entry bridges remain unselected, institution-dependent actions remain hypothetical and final-register increment stays zero. Source-bound check passed; this does not certify participation, return, medal, military status or whole subact exit.",
+  "functions": [
+    {
+      "proposed_episode_function_id": "A09-EF-002",
+      "proposed_global_function_order": 44,
+      "planned_allocation_slot": 444,
+      "primary_subact": "A09-S2",
+      "source_conditional_functions": [
+        "A09-CF02",
+        "A09-CF03"
+      ],
+      "previous_function": {
+        "id": "A09-EF-001",
+        "path": "design/A09_E1_FINAL_EPISODE_FUNCTION.json",
+        "exact_full_exit": "공동 도전을 위해 자신이 할 준비를 시작하지만 명단·허가·보험·실제 이동은 아직 성립하지 않는다"
+      },
+      "entry_state": "공동 도전을 위해 자신이 할 준비를 시작하지만 명단·허가·보험·실제 이동은 아직 성립하지 않는다",
+      "single_function": "조건부 공동 훈련에서 맡은 권한을 나누어 시험하고 자신의 어긋남을 한 번 고친다",
+      "institutional_prerequisite": "실제 대표팀 합류, 구단 허가·보험, 훈련 참여와 역할 전달이 별도로 성립한 경우에만 이 가상 국소 수행을 배치한다",
+      "conditional_entry_gate": "A09-CF01 이후 실제 합류·훈련허용·역할전달이 별도 선택되기 전에는 A09-S2 국소 수행이 발생하지 않는다",
+      "selected_institutional_bridge": false,
+      "institutional_prerequisite_executed_or_certified": false,
+      "unit_choice": "자신에게 전달된 역할 안에서 라이벌이 실제 만든 이점과 동료 위치를 보고 공을 보낼지 짧게 공격할지 시험하며 공을 넘긴 뒤에는 스크린·리바운드·다음 위치를 준비하려 한다",
+      "direct_present_cost": "자기 방식으로 모든 공격을 시작하거나 득점을 더 시도할 기회를 일부 내려놓고 동료의 전개에 맞춰 움직이는 데 몸과 시간을 쓴다 이후 그 시간에 자기 공격만 더 시험해 평가를 만회할 기회를 줄이고 불편한 자기 수행을 다시 보며 수정된 공동 역할을 반복한다",
+      "beats": [
+        {
+          "id": "A09-S2-P1",
+          "action": "전달받은 제한 역할 안에서 라이벌의 실제 첫 이점과 가까운 동료 위치를 확인한다. 자기 공격을 더 가져갈 수 있어도 공을 연결하고 스크린 뒤 다음 위치를 찾는다.",
+          "scope": "SELECTED_FICTIONAL_CONDITIONAL_TRAINING_ACTION"
+        },
+        {
+          "id": "A09-S2-P2",
+          "action": "한 번의 같은 허용 훈련에서 자신이 공을 넘긴 뒤 다음 위치를 늦게 잡아 연결이 끊기는 모습을 직접 본다. 타인의 심리나 승패를 해석하지 않는다.",
+          "scope": "SELECTED_FICTIONAL_OWN_ERROR_OBSERVATION"
+        },
+        {
+          "id": "A09-S2-P3",
+          "action": "허용된 영상과 받은 지시에서 자기 위치 오류를 대조하고 감독에게 다음 위치를 확인해 묻는다. 같은 제한 과제에서 공을 다시 연결한 뒤 이번에는 다음 위치로 먼저 이동한다.",
+          "scope": "SELECTED_FICTIONAL_BOUNDED_RETRY_NOT_RELATION_RESOLUTION"
+        }
+      ],
+      "exit_state": "자기 오류를 수정하려는 협력 행동을 남기지만 라이벌의 변화·완전 화해와 대회 결과는 여전히 별개다",
+      "cp2_exit_target": "협력의 범위와 실패 후 관계",
+      "whole_subact_exit_certified": false,
+      "next_conditional_function": "A09-CF04"
+    },
+    {
+      "proposed_episode_function_id": "A09-EF-003",
+      "proposed_global_function_order": 45,
+      "planned_allocation_slot": 445,
+      "primary_subact": "A09-S3",
+      "source_conditional_functions": [
+        "A09-CF04",
+        "A09-CF05"
+      ],
+      "previous_function": {
+        "id": "A09-EF-002",
+        "path": "design/A09_S2_S3_CONDITIONAL_FINAL_FUNCTIONS_2026_10_07.json",
+        "exact_full_exit": "자기 오류를 수정하려는 협력 행동을 남기지만 라이벌의 변화·완전 화해와 대회 결과는 여전히 별개다"
+      },
+      "entry_state": "자기 오류를 수정하려는 협력 행동을 남기지만 라이벌의 변화·완전 화해와 대회 결과는 여전히 별개다",
+      "single_function": "Chicago 복귀 준비를 대표팀 성과와 구분해 다시 배정하고 제한된 미드포스트 과제를 시험한다",
+      "institutional_prerequisite": "대표팀 참가와 Chicago 복귀, 구단이 전달한 훈련 일정·허용 범위가 실제 성립한 경우에만 이 가상 국소 수행을 배치한다",
+      "conditional_entry_gate": "A09-S2 가상 수행만으로 실제 대표팀 참가·이동·Chicago 복귀가 성립하지 않으며 그 별도 선택 전에는 A09-S3 국소 수행이 발생하지 않는다",
+      "selected_institutional_bridge": false,
+      "institutional_prerequisite_executed_or_certified": false,
+      "unit_choice": "자신에게 실제 전달된 복귀 일정·훈련 과제와 참가 중 놓친 팀 준비가 있다면 그 내용을 확인하고 허용된 팀 반복에 먼저 시간을 배정하려 한다 이어서 허용된 반복에서 미드포스트의 짧은 발동작과 수비 위치에 따른 공격·반환을 준비하고 실제 시험에서는 관측한 공간이 닫히면 기존 연결로 돌아가려 한다",
+      "direct_present_cost": "개인 공격의 새 동작을 더 늘리거나 게임을 즐길 시간 일부를 Chicago 조합·역할의 재확인에 쓴다 이후 익숙한 전환 강점을 더 확대할 연습 기회 일부를 정렬된 수비 앞의 불편한 발동작·공 유지 반복에 쓴다",
+      "beats": [
+        {
+          "id": "A09-S3-P1",
+          "action": "전달받은 Chicago 훈련 과제와 실제 놓친 준비 항목을 대조해 개인 신기술 시간을 줄이고 팀의 허용된 연결 반복 한 구간에 배정한다.",
+          "scope": "SELECTED_FICTIONAL_CONDITIONAL_RETURN_PREPARATION"
+        },
+        {
+          "id": "A09-S3-P2",
+          "action": "별도로 허용된 미드포스트 반복에서 짧은 발위치와 공 보유를 시도한다. 정렬된 수비 앞 공격 길이 닫히면 공을 기존 팀 연결로 반환한다.",
+          "scope": "SELECTED_FICTIONAL_BOUNDED_SKILL_TRIAL"
+        },
+        {
+          "id": "A09-S3-P3",
+          "action": "반환 선택과 팀 연결은 관측하지만 개인 공격 완성이나 실제 NBA 경기 효율은 이 한 구간에서 알 수 없다고 남긴다.",
+          "scope": "OBSERVED_LOCAL_BOUNDARY"
+        }
+      ],
+      "exit_state": "협력에서 필요한 자기 역할과 NBA 카운터의 제한 시험을 다음 연차로 가져가지만 개인 기술·몸 관리·관계 과제는 남는다",
+      "cp2_exit_target": "다음 시즌 별도 증명 필요",
+      "whole_subact_exit_certified": false,
+      "next_conditional_function": "A10-S1"
+    }
+  ],
+  "local_function_route_prepared": true,
+  "selected_institutional_bridge": false,
+  "registered_final_function_count_increment": 0,
+  "institutional_participation_or_return_executed": false,
+  "national_team_roster_permission_insurance_travel_or_medal_certified": false,
+  "military_status_certified": false,
+  "actual_nba_game_minutes_score_or_efficiency_certified": false,
+  "rival_reconciliation_or_team_win_certified": false,
+  "skill_mastery_or_major_growth_certified": false,
+  "whole_A09_complete": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "published_episode_number": null,
+  "manuscript_word_count": null,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "new_author_lock": false,
+  "design_gate": "CLOSED",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_a09_s2_s3_conditional_final_functions.py": "ff0af7824587ca33e87002f052c30acc50666bb62698948322acf73404c8225b",
+    "design/A09_E1_FINAL_EPISODE_FUNCTION.json": "0a0e4cf2c3f41fd16131f8cf43310ab44ae4ec1b26d7361f128889f14b4eaf58",
+    "design/A09_A14_BOUNDED_FUNCTION_PREPARATION_2026_10_07.json": "37a998e317e111861dc7dc903e3978717097f8b032f2ac4bbf2847cf9d4ca315",
+    "design/A09_2023_24_CONDITIONAL_FUNCTIONS.json": "63a5ecf564c222541cf2a4179aaf203b42f7948971fc31b54813974873110a38",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/NATIONAL_TEAM_MILITARY_SCOPE_GATE.md": "340688b0459a22338688d2ad63d78b2ad64e6e8a877b3a73dea70c7fa233a3ef"
+  }
+}

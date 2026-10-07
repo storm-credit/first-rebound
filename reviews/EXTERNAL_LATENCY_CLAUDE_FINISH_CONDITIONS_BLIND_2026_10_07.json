@@ -1,0 +1,36 @@
+{
+  "tool": "Claude",
+  "scope": "NEW_SHORT_FINISH_CONDITION_SOURCE_BLIND_REBUTTAL",
+  "reason": "One smaller new input with 140-second bound, no upstream verdict supplied.",
+  "prior_verdicts_supplied": false,
+  "prompt_sha256": "2c96b0dba4b052542861f1839d205aa746fbdb57483a962d20f8d66b8504b6a3",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 41.019,
+    "process_budget_seconds": 140,
+    "stdout_bytes": 2273,
+    "stderr_bytes": 0,
+    "stdout_sha256": "56ebad74a220df014e0133ee303beee0e3916b83fb9215b347bbb2ae0fd7e0b2",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "answer": "**비약 1개 — 2번 사례의 \"턴오버 뒤 복귀\"를 같은 20초 창 안에 둔 점.**\n\n턴오버는 소유권 전환이므로 복귀는 별개 사건이다. 한 창에 묶으면 조건 설명이 아니라 실제 경기 권한(복귀 역할 보유)을 선취한 사실 주장이 된다. 나머지(마무리 양쪽 조건, 100초 용량, 실제 득점 미선택)는 설명 층위에서 일관된다. 교정: 복귀를 별 창으로 분리하거나 `HOLD`.",
+    "is_error": false
+  },
+  "usable_answer_recovered": true,
+  "raw_logs_retained": false,
+  "global_settings_changed": false,
+  "new_login_performed": false,
+  "manuscript_allowed": false,
+  "whole_gate_or_primary_source_certified": false,
+  "root_rebuttal_disposition": {
+    "status": "REVIEWED_NOT_AN_ACTUAL_CLOCK_OR_AUTHORITY_CONTRADICTION",
+    "issue": "Claude says turnover and recovery cannot share a20-second window and would certify actual defensive authority.",
+    "source_bound_response": "The actual G1 conditional coach permission includes transition-defense responsibility if the pass fails. The result is only an own recovery attempt, not completed recovery, opponent score or whole game authority. A continuous game-clock window can contain a change of possession without resetting every player reservation; team assignments remain conditional. The short blind prompt omitted that specific coach-permission field. No rule requires two separate windows for the two bounded actions.",
+    "source_sha256": {
+      "design/A08_CONDITIONAL_GAME_CALL_FAMILY_2026_10_07.json": "4fa439c8330e42cd06d5e305b5226e4a540ff23c1f25b263b0afa5cea4a1a6a4"
+    },
+    "missing_prompt_detail_acknowledged": true,
+    "completed_recovery_or_whole_NBA_defense_certified": false,
+    "whole_gate_PASS": false
+  }
+}

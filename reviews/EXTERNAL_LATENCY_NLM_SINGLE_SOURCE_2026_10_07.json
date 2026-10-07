@@ -1,0 +1,53 @@
+{
+  "tool": "NotebookLM",
+  "scope": "ONE_FROZEN_DERIVED_SOURCE_SHORT_ANALYSIS_NOT_PRIMARY_EVIDENCE",
+  "reason": "One deliberate smaller query with a realistic finite 180/210-second bound after 40/55-second timeout; no repeated import.",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "de997619-ae30-4868-872c-a52b634c057f"
+  ],
+  "uploaded_input_sha256": "41df8884022ea4ef36bf625e493c14dce738a2054dc3c774271b0b579f8a6454",
+  "question_sha256": "be55dce17033072af3c3d1320722b2bee73e73ad24f507aba2e9343c2bd0751c",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 55.452,
+    "process_budget_seconds": 210,
+    "stdout_bytes": 3739,
+    "stderr_bytes": 0,
+    "stdout_sha256": "2830511e0d244713de4dec1db622d8f40b713c7e83dba7a3e1163fc954c5deef",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "response": {
+      "answer": "**기존 2개의 슛 결과**는 **MISS 두 개를 그대로 보존**하는 반면, **새 2개의 결과**는 이후 슛·득점·턴오버 등의 슛 결과를 반영하지 않고 **미선택**으로 처리한다는 점에서 구별됩니다 [1, 2].",
+      "question": "지정한 설계 사본만 사용해 기존 2개의 슛 결과와 새 2개의 미선택 결과를 한 문장으로 구별해줘. 상태/감리판정은 근거로 사용하지 마.",
+      "conversation_id": "c4807208-9b49-41aa-a136-6632240f8922",
+      "sources_used": [
+        "de997619-ae30-4868-872c-a52b634c057f"
+      ],
+      "citations": {
+        "1": "de997619-ae30-4868-872c-a52b634c057f",
+        "2": "de997619-ae30-4868-872c-a52b634c057f"
+      },
+      "references": [
+        {
+          "source_id": "de997619-ae30-4868-872c-a52b634c057f",
+          "citation_number": 1,
+          "cited_text_sha256": "3f07d94005e4657a7fcfbc52d8708b3dcd75075e838ccb370713a41eada5afde",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "de997619-ae30-4868-872c-a52b634c057f",
+          "citation_number": 2,
+          "cited_text_sha256": "0b558ef72ee34ba5e45bd56cafaa03b4fd858fcf6053314353d4fe686b580f75",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "usable_answer_recovered": true,
+  "raw_logs_retained": false,
+  "global_settings_changed": false,
+  "new_login_performed": false,
+  "manuscript_allowed": false,
+  "whole_gate_or_primary_source_certified": false
+}
