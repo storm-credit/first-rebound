@@ -1,0 +1,55 @@
+{
+  "id": "CHI2022_OPTION_WINDOW_JOIN_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_EIGHT_FINITE_TIMELINESS_WITNESSES_UNDER_SELECTED_NO_RESCHEDULING_CALENDAR",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2022_rookie_option_window_join.py": "54abd1f305ffe38806b1a7357d7d0b5a0a1a6a5faeaf937c187ce5b2a4e14c20",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.json": "e506efd28a54ceb61e34a8dfc107fb82236f783700f3aa610cd68ff4d62ba2cc",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.md": "b09c54ad62b61b144f0c1164bb7ddd97cb86cb07bc9540618b9f0f01efd60173",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_CONTINUITY.json": "73be5f3fba98adef435a1c93f3e8aba43fcc2f1e4c81f4aa57a25199eedc5dfe",
+    "research/FINALS_2022_PUBLISHED_DATE_WINDOW_2026_10_07.json": "8fdf5f89c1e476ab9c1818713910b32f0c21cd0c79987222b27b08693adc45cd"
+  },
+  "primary_CBA_check": {
+    "raw_bytes_sha_matches_declared": true,
+    "PDF_page32_Season_ends_after_last_Finals_game_text_sha_and_clause_match": true,
+    "PDF_page292_option_day_after_Season_end_October31_signed_email_rule_text_sha_and_clauses_match": true
+  },
+  "independent_date_check": {
+    "conditional_possible_final_games": [
+      "2022-06-10",
+      "2022-06-13",
+      "2022-06-16",
+      "2022-06-19"
+    ],
+    "selected_Chicago_notices": [
+      "LaMelo Ball fourth 2023-24 option 2022-10-01",
+      "Chris Duarte third 2023-24 option 2022-10-01"
+    ],
+    "pairwise_timely_witnesses": 8,
+    "date_or_window_errors": 0,
+    "latest_possible_open": "2022-06-20",
+    "notice_day": "2022-10-01",
+    "deadline": "2022-10-31"
+  },
+  "parent_preservation": {
+    "both_parent_notices_exact": true,
+    "roster_exact": true,
+    "cost_family_exact": true,
+    "new_salary_or_registration_slot": 0
+  },
+  "currentness": {
+    "source_pins_stale": 0,
+    "fresh_build_equals_saved_JSON": true,
+    "MD_equals_producer_render": true
+  },
+  "independent_negative_control": {
+    "mutation": "Changed a returned parent option notice date from October 1 to November 1 while physical parent JSON stayed fixed.",
+    "result": "REJECTED ValueError: Returned input differs from physical source: simulation/CHICAGO_2022_ROOKIE_OPTION_CONTINUITY.json"
+  },
+  "limits": [
+    "Calendar dates are a selected fictional no-rescheduling use of primary published schedule; specific series length, winner, participants and alternate last game remain unselected.",
+    "Original modeled signed-email action is preserved; actual receipt and private or medical records remain uncertified.",
+    "Dated timeliness closure does not select 2023 extension, Duarte fourth option, full FY23 contracts, whole Macro 3 or manuscript permission."
+  ]
+}

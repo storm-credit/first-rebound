@@ -1,0 +1,25 @@
+{
+  "tool": "Claude",
+  "scope": "RESULT_ONLY_OPTION_TIMING_BLIND_NOT_PRIMARY_LEGAL_AUDIT",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 18.587,
+    "process_budget_seconds": 45,
+    "stdout_sha256": "9c56758bc66d61311ef628b6cc07a74a48b5f7e5235ad7a28fe43e65e95ac36b",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw_logs_retained": false
+  },
+  "input_normalized_sha256": {
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.json": "e506efd28a54ceb61e34a8dfc107fb82236f783700f3aa610cd68ff4d62ba2cc"
+  },
+  "prompt_sha256": "9f587a901b50c129ca37c62ac7750b15f2e114378ea205d5b834551da5cb961c",
+  "input_supplied": "Classification/calendar/eight witnesses/join/boundaries only; previous reviews and recommendations absent",
+  "temporary_safe_mode": true,
+  "persistent_authentication_or_settings_changed": false,
+  "answer": "```json\n{\n  \"verdict\": \"TIMELINESS_JOIN_SOUND_SCOPE_LABELS_UNVERIFIED\",\n  \"holds\": \"All four possible Season endings (Jun 10/13/16/19) yield windows opening well before 2022-10-01, so both notices are timely under every branch; champion, participants, and specific last game are correctly left null and are not needed.\",\n  \"issues\": [\n    {\n      \"type\": \"TIMING_RULE_SCOPE\",\n      \"detail\": \"Supplied rule covers options after the first/second Season, but witnesses carry option_season_number 4 (Ball) and 3 (Duarte). Either a later-option window rule is needed or the season numbering is mislabeled; the Oct-31 close is asserted, not derived.\"\n    },\n    {\n      \"type\": \"ROSTER_SCOPE\",\n      \"detail\": \"Artifact frames these as Chicago notices while naming players whose real 2022 UPC rights sat elsewhere. That reassignment is selected fiction, not primary fact, and the artifact does not mark it as such.\"\n    }\n  ],\n  \"unverified_primary\": [\"published_dates\", \"actual_notice_receipts\", \"actual_alternate_Season_end\"],\n  \"selected_fiction\": [\"calendar_adoption\", \"Chicago attribution of both UPCs\", \"conditional_games\"],\n  \"recommendation\": \"Label the Chicago attribution as selected fiction and cite the governing later-option window provision; no other change.\"\n}\n```",
+  "answer_recovered": true,
+  "is_error": false,
+  "independent_primary_sources": 0,
+  "whole_G16_certified": false
+}
