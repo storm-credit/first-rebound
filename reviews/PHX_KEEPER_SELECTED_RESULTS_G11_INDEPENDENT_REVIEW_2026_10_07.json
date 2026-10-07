@@ -1,0 +1,46 @@
+{
+  "id": "PHX_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_PHOENIX_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_phx_2021_keeper_and_chicago_selected_results.py": "d16a87c96e442372a5f4f38b862ea931e10a32cc4fb0ce64b701b3f9e3526f62",
+    "simulation/CHICAGO_PHOENIX_2021_22_SELECTED_KEEPER_RESULTS.json": "25967455666a7e956ece57ab741d41c91359c028c6c96cac109261592028e2d0",
+    "simulation/CHICAGO_PHOENIX_2021_22_SELECTED_KEEPER_RESULTS.md": "bd67d991ddaf17602e9b036bdf44911a3dc4e8cb4e15f841556c70ad50a02416"
+  },
+  "source_and_contract_scope": "Selected PHX retains Jevon Carter and has no Landry Shamet acquisition; current selected BKN does not register Carter, and selected CLE owns McGee. Langston Galloway original expiry/new PHX UPC zero opens #29 Isaiah Jackson RSC slot, with original #29 Sharpe/BKN move unimported. Paul 2021 original player option carries 2018 contract through Houston/OKC/Phoenix trades rather than copying an original 2021 extension. Nader Full Bird three-year and Payne Early Bird two-year lawful families, minimum own free agents, old Gamma/FA claims and one two-way form remain conditioned; exact signed prices and private receipts stay null.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Phoenix_player_seconds_each": 14400,
+    "positive_Phoenix_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, one two-way",
+    "exact_fraction_recalculation": "Recomputed both saved exact Chicago-minus-Phoenix fractions from named exact rating fractions, player seconds and home/fatigue effects.",
+    "results": [
+      {
+        "game_id": "0022100812",
+        "date": "2022-02-07",
+        "winner": "CHI",
+        "CHI_margin_per100": 0.5185864780367379
+      },
+      {
+        "game_id": "0022101056",
+        "date": "2022-03-18",
+        "winner": "PHX",
+        "CHI_margin_per100": -2.9814135219632623
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; 24 role blocks reproduce all 12 positive Phoenix player seconds and both dates use Chicago NORMAL state.",
+  "independent_negative_control": {
+    "mutation": "Inserted Jevon Carter in both returned BKN selected standard-registration objects while unchanged physical source keeps him in PHX.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "limits": [
+    "Saric recovery and Paul availability are fictional working health choices, not imported ACL/finger/protocol or clinical facts.",
+    "NBA profile was web-observed; cached direct URL returned HTTP 403 and is not accepted as body evidence.",
+    "No actual signed price, whole private cost, score, overtime, remaining season or macro completion is certified."
+  ]
+}

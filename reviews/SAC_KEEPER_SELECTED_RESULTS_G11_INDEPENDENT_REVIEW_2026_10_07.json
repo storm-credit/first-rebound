@@ -1,0 +1,45 @@
+{
+  "id": "SAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_SACRAMENTO_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_sac_2021_keeper_and_chicago_selected_results.py": "d5a8a84fc1c1f229d0843ef6eadff959866d4586822bfe9d8c84bcaeb2be99a0",
+    "simulation/CHICAGO_SACRAMENTO_2021_22_SELECTED_KEEPER_RESULTS.json": "9c16ce17d02ea5f4e7e4f308b8626e0c55f91e7e0e996ebda43d828bfb5d58cb",
+    "simulation/CHICAGO_SACRAMENTO_2021_22_SELECTED_KEEPER_RESULTS.md": "0a4d2804c24f60314c270e852d09ac376081da960754cb26863bc3fc49de347c"
+  },
+  "source_and_contract_scope": "Sacramento retains Tyrese Haliburton, Buddy Hield and Marvin Bagley. Selected Indiana still owns Sabonis/Lamb/Holiday, Detroit owns Lyles, and Utah has not taken Whiteside; original 2022 trade atoms are not copied. Conditional nonassignment waiver of Justin James retains all protected Gamma/FA claims and opens #11 Davion Mitchell RSC; #41 Neemias Queta remains unsigned first tender. Holmes and Terence Davis own Early Bird two-year families, Harkless/Whiteside own minimum. Kyle Guy original two-way contract term type is unobserved: two consecutive one-year contracts would yield standard QO, a qualifying single two-year form would permit two-way QO; neither is asserted as historical fact or accepted UPC. King remains a conditioned two-way, with exact private costs and receipts uncertified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Sacramento_player_seconds_each": 14400,
+    "positive_Sacramento_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, one two-way; #41 unsigned",
+    "exact_fraction_recalculation": "Both saved exact Chicago-minus-Sacramento fractions recomputed from named exact rating fractions weighted by seconds plus home/fatigue effects.",
+    "results": [
+      {
+        "game_id": "0022100878",
+        "date": "2022-02-16",
+        "winner": "CHI",
+        "CHI_margin_per100": 4.864242285035298
+      },
+      {
+        "game_id": "0022101026",
+        "date": "2022-03-14",
+        "winner": "CHI",
+        "CHI_margin_per100": 0.8642422850352984
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; role checker reproduced all 12 positive Sacramento player seconds; both dates use Chicago NORMAL state.",
+  "independent_negative_control": {
+    "mutation": "Removed Sabonis from both returned selected Indiana standard-registration source objects while physical Indiana input retained him.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/CHICAGO_INDIANA_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "limits": [
+    "No original Sabonis/Haliburton exchange, real injury/protocol event, actual signed price, score/overtime, other Sacramento game or whole-season certification is inferred.",
+    "The NBA profile was observed as web text; cached direct HTTP 403 response is not adopted as source body."
+  ]
+}

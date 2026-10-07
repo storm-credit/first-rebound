@@ -1,0 +1,44 @@
+{
+  "id": "CHI82_COMPLETE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_EIGHTY_TWO_NAMED_SELECTED_FICTIONAL_REGULATION_WINNER_JOINS_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "95624751aae0ce9ace9ce384c40193d76bd8b36addea305c3e7b695279553186",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "388515d0ddac42b6caa3263c7601d917b6c32c3e8a9fc7ccca2d647cf24f5f78",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "a9b00931f8f75add486c3c5c760e0f3a90f04650f88603f79f705ba12e925a99",
+    "reviews/OKC_TOR_SVI_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json": "d3c7584d34360d37593312811f205439968aa8b4d31896813ace423344ff016a"
+  },
+  "physical_join": {
+    "Chicago_calendar_rows": 82,
+    "delegated_health_rows": 82,
+    "unique_game_ids": 82,
+    "reviewed_named_source_groups": 32,
+    "source_game_results_joined": 82,
+    "calendar_date_home_away_opponent_mismatches": 0,
+    "health_date_home_away_selected_state_mismatches": 0,
+    "source_game_date_home_away_state_winner_mismatches": 0,
+    "missing_review_pointers": 0,
+    "non_null_score_or_overtime_rows": 0,
+    "new_medical_private_or_receipt_certificates": 0
+  },
+  "summary": {
+    "fictional_regulation_results": 82,
+    "Chicago_wins": 52,
+    "opponent_wins": 30,
+    "remaining_keys": 0,
+    "next_game_id": null,
+    "next_date": null,
+    "previous_review_history_records": 15
+  },
+  "corrected_OKC_provenance": "Both OKC game rows point to reviews/OKC_TOR_SVI_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json; earlier 72/82 and old OKC reviews remain immutable history.",
+  "currentness": "Physical saved JSON equals one fresh source-bound ledger build; Markdown equals producer rendering.",
+  "independent_negative_control": {
+    "mutation": "Altered the returned later New Orleans selected_regulation_winner for its March 24 game, leaving the physical selected-result file unchanged.",
+    "result": "REJECTED ValueError: Returned input differs from physical source: simulation/CHICAGO_NEW_ORLEANS_2022_LATER_SELECTED_KEEPER_RESULT.json"
+  },
+  "limits": [
+    "82 named Chicago regulation winners are selected working fiction; this review does not certify final scores, overtime, league standings, remaining 1148 games, playoff results, 2022 draft pick, medical status, private contracts or entire season closure.",
+    "Design gate remains CLOSED and manuscript permission remains false."
+  ]
+}

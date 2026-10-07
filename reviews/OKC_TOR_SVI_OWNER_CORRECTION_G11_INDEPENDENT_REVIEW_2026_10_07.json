@@ -1,0 +1,47 @@
+{
+  "id": "OKC_TOR_SVI_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_NARROW_SVI_OWNER_CORRECTION_FOR_TWO_ALREADY_SELECTED_OKC_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_okc_2021_keeper_and_chicago_selected_results.py": "8e9437bb992cb789adc9dd65a77b350f3f16100f4850d6f987746f19f756b55e",
+    "simulation/CHICAGO_OKLAHOMA_CITY_2021_22_SELECTED_KEEPER_RESULTS.json": "6bd6b3a9aecfb2f24175b33c9e5868a490212b34234cb5872495a538620b99f3",
+    "simulation/CHICAGO_OKLAHOMA_CITY_2021_22_SELECTED_KEEPER_RESULTS.md": "e63c7427d578d4ead3dab4d053bf3517356e17f74aefbfb8f5837268229016ce",
+    "simulation/TORONTO_2021_SELECTED_T1_OPERATING_FAMILY_2026_10_07.json": "676cb350acdd632dfc0a0b4cc82d8f1d085b243f21fe511caeb11bcc2b993118"
+  },
+  "previous_review_preserved_as_history": "reviews/OKC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+  "direct_owner_check": {
+    "selected_Toronto_standard_contains_Svi_Mykhailiuk": true,
+    "new_Oklahoma_City_Svi_UPC": false,
+    "Oklahoma_City_standard": 14,
+    "Oklahoma_City_two_way": 0,
+    "Oklahoma_City_active": 12,
+    "Oklahoma_City_inactive": [
+      "Charlie Brown Jr",
+      "Ty Jerome"
+    ],
+    "original_Oklahoma_City_Svi_QO_Full_Bird_FA_protected_Gamma_claims_retained": true,
+    "new_private_receipt_or_exact_price_certified": false
+  },
+  "unchanged_results": [
+    {
+      "game_id": "0022100730",
+      "winner": "CHI",
+      "CHI_margin_per100": 2.820351479906451
+    },
+    {
+      "game_id": "0022100852",
+      "winner": "CHI",
+      "CHI_margin_per100": 7.320351479906451
+    }
+  ],
+  "role_scope": "Svi has zero positive OKC role seconds; current saved producer validate returned empty errors, 12 positive/active players and both prior regulation winners/margins remain unchanged. The count change is one avoided duplicate new UPC, not a newly observed medical absence or signed transaction receipt.",
+  "independent_negative_control": {
+    "mutation": "Patched both returned physical and direct Toronto source objects to remove Svi Mykhailiuk from selected_roster.standard, leaving physical source bytes unchanged.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/TORONTO_2021_SELECTED_T1_OPERATING_FAMILY_2026_10_07.json"
+  },
+  "limits": [
+    "This corrects the named selected contract owner only; Toronto-Miami legal family and non-OKC dates are outside this review.",
+    "No exact OKC price, private six-category cost, clinical status, actual receipt, score or whole 82-game season certified."
+  ]
+}
