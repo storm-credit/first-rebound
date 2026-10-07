@@ -1,0 +1,665 @@
+{
+  "id": "CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY",
+  "baseline_main": "1e02e5458f7d6191fbeeae5eeaf526cacde866d5",
+  "status": "SOURCE_SUPPORTED_SAME_CHICAGO_CONSENSUAL_CANDIDATES_REVIEW_PENDING",
+  "source_sha256": {
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json": "21e860056c2654d5e4837911dac39e7f45f4d26388d353bc57594afefcecf1f4",
+    "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "tools/build_chicago_2025_markkanen_routine_renewal_cost_family.py": "777db941a2ddc857196ec5e96895ea5c505c23927c305beced3be0bbd3219a7f"
+  },
+  "primary": {
+    "raw_sources": [
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+        "sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+        "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+        "source_kind": "OFFICIAL_NBPA_PDF_REUSED",
+        "id": "CBA2023",
+        "bytes": 2850534,
+        "adopted_body": true
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-markkanen-2025-renewal-20261008\\NBA_CAP2025.html",
+        "sha256": "8b20484615b529dbcb0b6e6ba3f08997db4b2cdd259d8ffb4d9ed44f75320988",
+        "url": "https://pr.nba.com/nba-salary-cap-2025-26-season/",
+        "source_kind": "OFFICIAL_DIRECT_PROVIDER_RAW_HTTP200",
+        "id": "NBA_CAP2025",
+        "bytes": 109914,
+        "adopted_body": true
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-markkanen-2025-renewal-20261008\\NBA_MARK_IDENTITY.html",
+        "sha256": "a178c240a92276fa167bc496dc82396931d90b9574915ae94647ca8d7dda3383",
+        "url": "https://www.nba.com/player/1628374/lauri-markkanen",
+        "source_kind": "OFFICIAL_DIRECT_PROVIDER_RAW_HTTP200",
+        "id": "NBA_MARK_IDENTITY",
+        "bytes": 375276,
+        "adopted_body": true
+      }
+    ],
+    "CBA_pages_directly_read": [
+      {
+        "pdf_page": 29,
+        "text_sha256": "51adc90d5cf76f61c80346ee0d8275f53870b0af2e622d43d8e18e96f1b8768f"
+      },
+      {
+        "pdf_page": 30,
+        "text_sha256": "fb8a5f15dd0c766cdb373c0535a71ea36d4ed96a46106a36a6774dc28742a429"
+      },
+      {
+        "pdf_page": 31,
+        "text_sha256": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52"
+      },
+      {
+        "pdf_page": 33,
+        "text_sha256": "397f25af16b982f0ab5a0199789aab9c9b9e577fe0fd3b010fdb0f5fc3012d5e"
+      },
+      {
+        "pdf_page": 37,
+        "text_sha256": "b6bb7c88266158f4be0c1118ce0523057218d1f5c0422304f404fe3df61adfcd"
+      },
+      {
+        "pdf_page": 39,
+        "text_sha256": "bf8d1060b154dd48d9533b7e33601dce2bf69d9c583863b4c1b9a74c8addd319"
+      },
+      {
+        "pdf_page": 40,
+        "text_sha256": "0b9cb0202700be2519404170ab0b4287b534fa2b2e6350cc012a4011d3ebcb7a"
+      },
+      {
+        "pdf_page": 47,
+        "text_sha256": "64c29e97826b68ae5d1c991ed21a989d896b8ad7c6a6d11cb16332f52118e1b7"
+      },
+      {
+        "pdf_page": 50,
+        "text_sha256": "d2d3053300a4ca707b05b18429e006683fb1f87943b72d934bffec2b3fb3345b"
+      },
+      {
+        "pdf_page": 57,
+        "text_sha256": "ffac47dda5504cb4f3055fbf983e08e59255ece054c36c8507b497066e226dd0"
+      },
+      {
+        "pdf_page": 58,
+        "text_sha256": "baeea9999ef9d320408ad5714b7c743944ddaaac84eb7f0f8dd191cd6be87921"
+      },
+      {
+        "pdf_page": 60,
+        "text_sha256": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b"
+      },
+      {
+        "pdf_page": 61,
+        "text_sha256": "5fef2298ad1156ebe3e3fe2b922cdf9c2b99e143153ea9e08171808b6230a8e9"
+      },
+      {
+        "pdf_page": 210,
+        "text_sha256": "51ee1bb8eb26216488f7dd4ef8a82edde1a0b89df4ae4850e16454b200de8715"
+      },
+      {
+        "pdf_page": 211,
+        "text_sha256": "75790dcb58ccfe4b37e2fa83b35690e50c643c084d6d55e1e359dedfc2295c03"
+      },
+      {
+        "pdf_page": 214,
+        "text_sha256": "e6c0b186ade730ba06c28f93dd80af284601bcbc091601fd4641b35729693a57"
+      },
+      {
+        "pdf_page": 215,
+        "text_sha256": "446ea99ef827b851e3fde4138921d15a07f3a8d78f4fb8903fdf4fa03f14dd13"
+      },
+      {
+        "pdf_page": 222,
+        "text_sha256": "2757fd36981c6564f49efff9ced2f383584f1a4c07a2a182f3fbf4947974bc11"
+      },
+      {
+        "pdf_page": 240,
+        "text_sha256": "1712263b1347992499d49e999935d6eb6dee0dd493850ff7f1f08284f7d04862"
+      },
+      {
+        "pdf_page": 241,
+        "text_sha256": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9"
+      },
+      {
+        "pdf_page": 242,
+        "text_sha256": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b"
+      },
+      {
+        "pdf_page": 243,
+        "text_sha256": "dbbd018d9ac268a74a2783409b3dbd6c67f4e2bd433c75fe6d61b61f9bb56238"
+      },
+      {
+        "pdf_page": 251,
+        "text_sha256": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1"
+      },
+      {
+        "pdf_page": 255,
+        "text_sha256": "1d13b211bee94e0c95de5faaa63b5754c7470d9e8ff520043d8ee4f651f59620"
+      },
+      {
+        "pdf_page": 272,
+        "text_sha256": "df690e7bbb754f22d0126e67d754fac6f198eb047f4c3c1613c888bfba31a555"
+      },
+      {
+        "pdf_page": 319,
+        "text_sha256": "6640ea05858483ed302458cb0db48a3ba5bdcd4bda4a75ded8b34212bceabeac"
+      },
+      {
+        "pdf_page": 343,
+        "text_sha256": "4e9e3d70f8098c531813df6e6d43e0cd9a7fa5aa628d353f5cee70ac3238c098"
+      },
+      {
+        "pdf_page": 360,
+        "text_sha256": "d4f33383c6d18bcf719d102674fdd817b04739ee12fd172fb040cc7f069e5466"
+      },
+      {
+        "pdf_page": 453,
+        "text_sha256": "9da339767ac6d4e7bd545030bfda4e31576058d367a326c9ec6459575a56fcc9"
+      },
+      {
+        "pdf_page": 454,
+        "text_sha256": "426c49f712e6b0dd1064f80a6fdd259269440b31cc2d3011c1a34ff542ab76eb"
+      },
+      {
+        "pdf_page": 632,
+        "text_sha256": "165c16335e87e8a9ab8e07b79f8c179da5f679cc556a9ac4b44dd53ee462d70b"
+      }
+    ],
+    "source_scope": "Primary rules and published league amounts; hypothetical UPC forms, not NBA receipt, exact private cents, or market acceptance",
+    "profile_use": "Birthdate 1997-05-22 and 2017 draft only; current Utah, experience 9, and 2024 Utah extension are not transferred"
+  },
+  "official_2025": {
+    "cap": 154647000,
+    "tax": 187895000,
+    "first_apron": 195945000,
+    "second_apron": 207824000,
+    "published_minimum_team_salary": 139182000,
+    "NTMLE": 14104000,
+    "TMLE": 5685000,
+    "RoomMLE": 8781000,
+    "moratorium_end_ET": "2025-07-06T12:00:00",
+    "candidate_signing_ET": "2025-07-07T12:02:00"
+  },
+  "M1_preserved": {
+    "seasons": [
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "salary_schedule": [
+      17000000,
+      18360000,
+      19720000,
+      21080000
+    ],
+    "total": 76160000,
+    "last_fiscal_end": "2025-06-30",
+    "fiscal_end_is_exact_service_end": false,
+    "original_Gamma_preserved": true,
+    "prior_new_M1_bonus_additions": 0,
+    "new_2024_Utah_extension_copied": false
+  },
+  "admitted_input_family": {
+    "team": "CHI",
+    "player": "Lauri Markkanen",
+    "YOS": 8,
+    "service_seasons": [
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "service_condition": "Each of the eight named Seasons has at least one qualifying NBA Active/Inactive day; no withholding>30day, disapproved-UPC, or unsigned outstanding-QO exception; actual clinical results/stat totals not required",
+    "own_Bird_three_seasons": [
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "Bird_condition": "Preserved selected M1 CHI UPC covers all three preceding Seasons and same team; no rights renunciation/assignment/termination inserted; services rendered within lawful family",
+    "old_UPC_completion_condition": "Final 2024-25 covered NBA Season/service term completed before new valid UPC; fiscal June30 is not substituted for service expiry",
+    "minimum_condition": "Each salary >= applicable 2025 signing-year eight-YOS Minimum Annual Salary Scale column for that contract year, pursuant to II6 and I1(jj)",
+    "minimum_unrounded_design_reference": [
+      "406504640259/123655",
+      "426829740822/123655",
+      "447155305326/123655",
+      "467480715183/123655",
+      "69686567199/17665"
+    ],
+    "minimum_reference_is_published_official_adjusted_table": false,
+    "minimum_exact_statutory_rounding_certified": false,
+    "consensual_UPC_condition": "Both parties voluntarily agree to one lawful Exhibit1 salary schedule and Exhibit2 protection; no actual consent/payment/filing asserted",
+    "other_STD_capacity_condition": "Other operative ordinary STD <=14 when Mark signs; no replacement of another live contract or protected cash by metadata",
+    "other_TW_capacity_condition": "Other roster/TW rules applicable independently; this proposal creates zero TW or conversions",
+    "future_assignment_condition": "Any later assignment separately satisfies VII8 waiting-period/Bird raise conditions, matching and apron restrictions; no automatic trade approval/date"
+  },
+  "candidates": [
+    {
+      "id": "M25A",
+      "team": "CHI",
+      "player": "Lauri Markkanen",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_OR_SIGN_AND_TRADE",
+      "first_salary_cap_percent_design_scenario": 20,
+      "years": 3,
+      "salary_capyear_start": 2025,
+      "salary_by_capyear": {
+        "2025": 30929400,
+        "2026": 30929400,
+        "2027": 30929400
+      },
+      "total_regular_salary": 92788200,
+      "annual_raise_percent_of_first_salary": 0,
+      "compound_raise": false,
+      "protection_lack_of_skill_and_injury_or_illness_percent": 100,
+      "protection_subject_to_standard_CBA_Exhibit2_conditions": true,
+      "death_protection_selected": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "option": null,
+      "ETO": null,
+      "actual_player_team_consent": null,
+      "selected": false,
+      "first_normal_apron_salary_equal": 30929400,
+      "first_salary_delta_from_M1_last_year": 9849400,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "new_automatic_hardcap_trigger": false,
+      "agreement_is_economically_predicted": false
+    },
+    {
+      "id": "M25B",
+      "team": "CHI",
+      "player": "Lauri Markkanen",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_OR_SIGN_AND_TRADE",
+      "first_salary_cap_percent_design_scenario": 25,
+      "years": 4,
+      "salary_capyear_start": 2025,
+      "salary_by_capyear": {
+        "2025": 38661750,
+        "2026": 41754690,
+        "2027": 44847630,
+        "2028": 47940570
+      },
+      "total_regular_salary": 173204640,
+      "annual_raise_percent_of_first_salary": 8,
+      "compound_raise": false,
+      "protection_lack_of_skill_and_injury_or_illness_percent": 100,
+      "protection_subject_to_standard_CBA_Exhibit2_conditions": true,
+      "death_protection_selected": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "option": null,
+      "ETO": null,
+      "actual_player_team_consent": null,
+      "selected": false,
+      "first_normal_apron_salary_equal": 38661750,
+      "first_salary_delta_from_M1_last_year": 17581750,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "new_automatic_hardcap_trigger": false,
+      "agreement_is_economically_predicted": false
+    },
+    {
+      "id": "M25C",
+      "team": "CHI",
+      "player": "Lauri Markkanen",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_OR_SIGN_AND_TRADE",
+      "first_salary_cap_percent_design_scenario": 30,
+      "years": 5,
+      "salary_capyear_start": 2025,
+      "salary_by_capyear": {
+        "2025": 46394100,
+        "2026": 50105628,
+        "2027": 53817156,
+        "2028": 57528684,
+        "2029": 61240212
+      },
+      "total_regular_salary": 269085780,
+      "annual_raise_percent_of_first_salary": 8,
+      "compound_raise": false,
+      "protection_lack_of_skill_and_injury_or_illness_percent": 100,
+      "protection_subject_to_standard_CBA_Exhibit2_conditions": true,
+      "death_protection_selected": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "option": null,
+      "ETO": null,
+      "actual_player_team_consent": null,
+      "selected": false,
+      "first_normal_apron_salary_equal": 46394100,
+      "first_salary_delta_from_M1_last_year": 25314100,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "new_automatic_hardcap_trigger": false,
+      "agreement_is_economically_predicted": false
+    }
+  ],
+  "recommendation": {
+    "candidate_id": "M25B",
+    "status": "PLANNING_RECOMMENDATION_NOT_SELECTION",
+    "reason": "Middle scenario and four-year form preserves growth core while displaying greater annual and term cost than M25A; M25C supplies an ordinary-maximum sensitivity. No discount or market acceptance inferred"
+  },
+  "cost_family": {
+    "prior_salary_for_max_and_FA_hold": 21080000,
+    "ordinary_max": 46394100,
+    "higher_max_35_percent_port": {
+      "amount": 54126450,
+      "required": "Eight/nine YOS, original-team/permitted early-trade history, Higher Max Criteria at signing",
+      "criteria_selected": false,
+      "used_by_these_forms": false
+    },
+    "FA_hold_cases": [
+      {
+        "condition": "Prior Salary >= FY24 Estimated Average Player Salary",
+        "normal": 31620000,
+        "apron": 0
+      },
+      {
+        "condition": "Prior Salary < FY24 Estimated Average Player Salary",
+        "normal": 40052000,
+        "apron": 0
+      }
+    ],
+    "FA_hold_case_selection": null,
+    "hold_formula": "max(unreimbursed applicable minimum, min(applicable maximum, multiplier * prior Salary)); figures assume the legal minimum <= 31,620,000",
+    "FA_hold_removed_only_by": "New valid same-team UPC, other-team signing, or valid renunciation; this Bird route does not renounce Markkanen before signing",
+    "hold_once_replacement": "On proposed July7 valid UPC: normal subtract exactly the chosen Markkanen FA hold and add new Salary once; apron add new Salary once, no prior UFA hold included",
+    "six_categories": [
+      {
+        "id": "LIVE25",
+        "normal": "L25 + selected-form first Salary",
+        "apron": "A_live25 + selected-form first Salary",
+        "scope": "Mark new bonuses 0 are proposed terms; other retained UPC and all original Gamma obligations survive"
+      },
+      {
+        "id": "OLD_GAMMA25",
+        "normal": "R25_normal",
+        "apron": "R25_apron",
+        "scope": "Original named residual/grievance/waiver obligations and their lawful fiscal attribution; R24 ceiling is not silently certified for FY25"
+      },
+      {
+        "id": "FA_QO_FRN25",
+        "normal": "Other_FA25 + Mark hold before UPC; Other_FA25 only after replacement",
+        "apron": "Other_QO_FRN25; Mark ordinary UFA hold excluded",
+        "scope": "Eight-YOS veteran finishing non-RSC: no Mark QO/ROFR manufactured; other players rights remain"
+      },
+      {
+        "id": "DRAFT25",
+        "normal": "N25",
+        "apron": "A25",
+        "scope": "Unsigned first-round 120% hold vs applicable Required Tender/apron; second-round reservation is not an automatic statutory charge or UPC"
+      },
+      {
+        "id": "EXCEPTIONS25",
+        "normal": "E25 as lawfully included until used/expired/validly renounced",
+        "apron": "No unused-exception face amount; transaction/signed-player charges still included",
+        "scope": "Own Bird does not spend MLE; no blanket exception renunciation selected here"
+      },
+      {
+        "id": "ROSTER_FLOOR_TAX_CASH25",
+        "normal": "Applicable incomplete-roster/floor or other deemed-Salary adjustments",
+        "apron": "Applicable law-specific adjustments",
+        "scope": "Official floor139182000 is the published value; Tax is not Salary, and cash payment timing is not a new capyear charge"
+      }
+    ],
+    "typed_other_inputs": {
+      "L25": null,
+      "A_live25": null,
+      "R25_normal": null,
+      "R25_apron": null,
+      "Other_FA25": null,
+      "Other_QO_FRN25": null,
+      "N25": null,
+      "A25": null,
+      "E25": null
+    },
+    "whole_FY25_normal_upper": null,
+    "whole_FY25_apron_upper": null,
+    "whole_FY25_tax_bill": null,
+    "actual_fullcash_receipt": null,
+    "new_regular_cash_obligation_by_form_is_known": true,
+    "hardcap_condition": "Own Bird renewal alone is absent from VII2(e) transaction-trigger table; any other current/prior post-season trigger and its applicable apron must still be respected",
+    "apron_excess_alone_is_illegal": false,
+    "team_floor_compliance_certified": false
+  },
+  "claim_transition_witness": [
+    {
+      "route_id": "M25A",
+      "prior_ge_average": true,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25A",
+        "signed": false,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 31620000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25A",
+        "signed": true,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 30929400,
+        "apron_Mark_claim_only": 30929400,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 30929400
+      },
+      "normal_delta": -690600,
+      "apron_delta": 30929400,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    },
+    {
+      "route_id": "M25A",
+      "prior_ge_average": false,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25A",
+        "signed": false,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 40052000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25A",
+        "signed": true,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 30929400,
+        "apron_Mark_claim_only": 30929400,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 30929400
+      },
+      "normal_delta": -9122600,
+      "apron_delta": 30929400,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    },
+    {
+      "route_id": "M25B",
+      "prior_ge_average": true,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25B",
+        "signed": false,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 31620000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25B",
+        "signed": true,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 38661750,
+        "apron_Mark_claim_only": 38661750,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 38661750
+      },
+      "normal_delta": 7041750,
+      "apron_delta": 38661750,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    },
+    {
+      "route_id": "M25B",
+      "prior_ge_average": false,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25B",
+        "signed": false,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 40052000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25B",
+        "signed": true,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 38661750,
+        "apron_Mark_claim_only": 38661750,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 38661750
+      },
+      "normal_delta": -1390250,
+      "apron_delta": 38661750,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    },
+    {
+      "route_id": "M25C",
+      "prior_ge_average": true,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25C",
+        "signed": false,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 31620000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25C",
+        "signed": true,
+        "prior_ge_average": true,
+        "normal_Mark_claim_only": 46394100,
+        "apron_Mark_claim_only": 46394100,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 46394100
+      },
+      "normal_delta": 14774100,
+      "apron_delta": 46394100,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    },
+    {
+      "route_id": "M25C",
+      "prior_ge_average": false,
+      "zero_Gamma_is_arithmetic_basis_not_selected_absence": true,
+      "before": {
+        "route_id": "M25C",
+        "signed": false,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 40052000,
+        "apron_Mark_claim_only": 0,
+        "new_STD": 0,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 0
+      },
+      "after": {
+        "route_id": "M25C",
+        "signed": true,
+        "prior_ge_average": false,
+        "normal_Mark_claim_only": 46394100,
+        "apron_Mark_claim_only": 46394100,
+        "new_STD": 1,
+        "new_TW": 0,
+        "old_Gamma_carried": 0,
+        "unpriced_team_components_included": false,
+        "new_base_salary_obligation": 46394100
+      },
+      "normal_delta": 6342100,
+      "apron_delta": 46394100,
+      "for_every_preserved_Gamma": "Add the same lawful fiscal-attributed original Gamma amount to both sides; it cancels from delta and is never erased"
+    }
+  ],
+  "dated_transition": [
+    {
+      "date": "2025-06-30",
+      "Mark_new_STD": 0,
+      "new_salary": 0,
+      "cost_scope": "Last M1 year plus old Gamma; no June retrospective renewal"
+    },
+    {
+      "date": "2025-07-01",
+      "Mark_new_STD": 0,
+      "new_salary": 0,
+      "cost_scope": "Ordinary UFA hold retained in normal; excluded from apron; own Bird remains"
+    },
+    {
+      "date": "2025-07-07",
+      "Mark_new_STD": 1,
+      "new_salary": "chosen unselected scenario first Salary only if candidate agreement executed",
+      "cost_scope": "One Mark UPC replaces one Mark normal FA hold, apron receives Salary once; no double charge"
+    },
+    {
+      "date": "2026-06-30",
+      "Mark_new_STD": 1,
+      "new_salary": "same first-year selected-form obligation, no new cash event inferred",
+      "cost_scope": "Next FY26 schedule and any option/assignment require their own operative inputs"
+    }
+  ],
+  "certification": {
+    "independent_review_completed": false,
+    "selected_form": null,
+    "actual_private_cents": false,
+    "actual_player_consent": false,
+    "actual_NBA_receipt": false,
+    "actual_market_agreement_predicted": false,
+    "whole_FY25_team_cost": false,
+    "whole_career_or_A10_performance": false,
+    "new_franchise_MVP_title_retirement_choice": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript_allowed": false
+}

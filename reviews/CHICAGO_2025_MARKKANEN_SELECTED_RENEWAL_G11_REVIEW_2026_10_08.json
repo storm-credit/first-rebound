@@ -1,0 +1,67 @@
+{
+  "id": "CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_G11_REVIEW_2026_10_08",
+  "verdict": "ACCEPTED_SINGLE_PLAYER_SELECTED_FICTIONAL_UPC_AND_HOLD_ONCE_TRANSITION",
+  "independent_review_completed": true,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "canon/DELEGATED_CHICAGO_2025_MARKKANEN_RENEWAL_SELECTION_2026_10_08.json": "7ab5904c47b36f87a96824accfb884cff7795e82d877502233d7b449331f49b4",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.md": "627d9cc3eef4a321544021ccf92c5636be4c4d70cb15bed08dd9ad3b8a5ca110"
+  },
+  "upstream_source_sha256": {
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.json": "5c4cf3f32e4fcec302c347e10a61e008f750e1a76826446a8df7b3e527615d7a",
+    "reviews/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_G11_INDEPENDENT_REVIEW_2026_10_08.json": "3cf07a752e9848de628813c111297dbc7effdeb4f12e97832d41dadbc053e336"
+  },
+  "checks": {
+    "all_selection_and_execution_source_sha256_match_physical": true,
+    "selected_canon_M25B_equals_reviewed_family_M25B_except_selected_flag": true,
+    "selected_service_Bird_minimum_old_UPC_other_STD_conditions_preserved": true,
+    "selected_salary_by_capyear": {
+      "2025": 38661750,
+      "2026": 41754690,
+      "2027": 44847630,
+      "2028": 47940570
+    },
+    "four_year_regular_salary_sum": 173204640,
+    "linear_raise_eight_percent_of_first": true,
+    "fictional_agreement_after_official_moratorium": true,
+    "both_estimated_average_branches_remain_unselected": true,
+    "pre_UPC_normal_holds": [
+      31620000,
+      40052000
+    ],
+    "post_UPC_normal_and_apron_salary_once": 38661750,
+    "normal_claim_deltas": [
+      7041750,
+      -1390250
+    ],
+    "apron_claim_delta_both": 38661750,
+    "same_G25_attributed_retained_before_after": true,
+    "six_category_expressions_equal_reviewed_family": true,
+    "prior_M1_2024_salary_not_renewed_by_metadata": true,
+    "MD_scope_and_amounts_match_JSON": true
+  },
+  "independent_in_memory_mutation_controls": {
+    "Gamma_after_renamed_zero": "REJECT",
+    "OLD_GAMMA25_normal_zero": "REJECT",
+    "second_hold_branch_delta_zero": "REJECT",
+    "meaning": "These are direct review comparisons on copies of the static output; no separate producer or runtime consumer was claimed."
+  },
+  "scope_limits": {
+    "selected_fictional_one_player_UPC": true,
+    "FY25_full_STD15_or_day_nomination_certified": false,
+    "whole_FY25_normal_apron_tax_cash_upper_certified": false,
+    "real_player_team_consent_or_NBA_receipt": false,
+    "prior_estimated_average_branch_selected": false,
+    "old_Gamma_zero_or_removed": false,
+    "future_A10_performance_title_or_franchise_outcome_selected": false,
+    "actual_context_packs": 0,
+    "manuscript_count": 0,
+    "design_gate": "CLOSED"
+  },
+  "remaining_typed_ports": [
+    "Other operative STD count ≤14 at new Mark UPC signature; full roster 15 and day nomination remain unproved.",
+    "FY25 other live salary, residual Γ, FA/QO/FRN, draft, exceptions, roster floor and tax inputs remain separate.",
+    "No actual market assent, filing, private cash schedule, or whole-team cost is certified."
+  ]
+}

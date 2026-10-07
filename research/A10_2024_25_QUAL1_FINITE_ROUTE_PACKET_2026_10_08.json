@@ -1,0 +1,2419 @@
+{
+  "id": "A10_2024_25_QUAL1_FINITE_ROUTE_PACKET_2026_10_08",
+  "baseline_main": "1e02e5458f7d6191fbeeae5eeaf526cacde866d5",
+  "classification": "THREE_UNSELECTED_QUALIFICATION_ROUTES_WITH_ONE_SOURCE_BOUND_CAPACITY_PROPOSAL",
+  "source_sha256": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95",
+    "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json": "7d494400fb2e8f22f90510ef5d915408e2a8e20a26c6b975a690aea0ead46c00",
+    "canon/DELEGATED_A10_2024_25_NAMED_ROLE_PLAN_SELECTION_2026_10_08.json": "723bcfddae88fb4ed5e265db15a4f53542229c677a634370603f637604ddabda",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json": "a622e5b28b22da05f3aa4e20348f3bc50e34ea95ba62c59424ccc16718241c0d",
+    "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json": "59854742520a71a59a09b3116cdb3128993e68b96f88239cfb9d2c1633e7bc9d",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json": "123d07df572ac4350e9528b3f0b913b3013ad4d51584c88a94e78051b9c7af19",
+    "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.json": "9e72b7b6f277d62a1462eae93548903278631a155698ec39fcfef82fae200933",
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json": "ecc876c91d1008285b944fd9b7e7213a1c3e54b94d0a2fea84cd82b2f7cb0407",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "research/A10_2024_25_GAME1_NAMED_INPUTS_2026_10_08.json": "3934ed7610e478ea087234d87165d26bf824810862cf4f10a15bffc7c7fadfae"
+  },
+  "original_requirement": {
+    "CP2": {
+      "id": "A10-S3",
+      "parent_act": "A10",
+      "window": "2024–25",
+      "title": "강한 팀의 약점",
+      "entry_state": "1옵션 성립을 우승으로 오인",
+      "goal": "공격 첫 선택지가 될 준비가 됐는가",
+      "pressure": "상대 시리즈별 표적",
+      "choice": "첫 선택지의 공격이 통해도 우승을 선언하지 않고 베테랑·벤치가 지불하는 역할 비용을 다음 보강 과제로 남긴다",
+      "cost": "베테랑·벤치 역할 비용",
+      "exit_state": "첫 우승창의 미완성",
+      "primary_device": "PLANT_AND_PAYOFF",
+      "secondary_device": null,
+      "institutional_constraint": "미래 시즌·코어 계약·정확 가용성 HOLD",
+      "relationship_in_play": "LaMelo·LaVine·라이벌 및 해당 시즌 코어",
+      "research_dependencies": [
+        "control/DESIGN_GATE.md",
+        "canon/CAREER_TIMELINE.md",
+        "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+        "design/ENDING_THEME.md"
+      ],
+      "status": "CP2_PROVISIONAL_FUNCTION_ONLY",
+      "manuscript_allowed": false,
+      "scenario_references": [],
+      "historical_events_touched": [],
+      "history_audit_status": "SOURCE_LINKED_NOT_ALL_DATES_AUDITED",
+      "time_and_place": {
+        "window": "2024–25",
+        "place_scope": "Chicago·Minnesota 및 해당 시즌 원정 — 정확 대진/일정 HOLD"
+      },
+      "basketball_question": "공격 첫 선택지가 될 준비가 됐는가",
+      "irreversible_choice": "주인공의 성장은 동료의 비용을 없애지 않으며 첫 우승창도 실제 우승으로 채택하지 않는다",
+      "continuity_checks": [
+        "연표의 학년·NBA 연차와 충돌하지 않음",
+        "직전 종료 상태를 기본 출발 조건으로 재검토",
+        "접촉 경기/계약의 조건부 값을 실제 확정값으로 승격하지 않음",
+        "해당 인물의 팀·권한·가용성은 관련 원장 우선"
+      ]
+    },
+    "current_exit_row": {
+      "id": "A10-S3",
+      "act": "A10",
+      "source_cp2_pointer": "design/CP2_ACT_SUBACT_PACKET.json#/subacts/29",
+      "current_function_ids": [
+        "A10-EF-003"
+      ],
+      "source_cp2_exit": "첫 우승창의 미완성",
+      "local_route_registered": true,
+      "current_exit_support": "LOCAL_FUNCTION_ROUTE_QUAL1_UNSELECTED",
+      "remaining_finite_action_for_whole_act": "QUAL1 lawful qualification/series window remains separate. Game1 two windows do not select title eligibility or a whole result.",
+      "actual_historical_exit_certified": false
+    },
+    "registered_local_exact_exit": "자기 공격과 동료 기능의 공백을 함께 다음 준비에 가져가지만 우승 자격·최우선 권한·팀 결과는 확정되지 않는다",
+    "minimum_exit_interpretation": "Root-selected lawful playoff qualification + one named first-round team/series context + directly observable veteran/bench burden and correction limit. Losing the first series can still expose an incomplete first title window; champion/MVP not necessary.",
+    "regular_game_or_private_trial_alone_is_title_eligibility": false
+  },
+  "primary": {
+    "web_observations": [
+      {
+        "id": "NBA2024season",
+        "url": "https://www.nba.com/news/2024-25-nba-regular-season-schedule",
+        "observation": "Regular ends 2025-04-13; Play-In 04-15..18; playoffs begin 04-19.",
+        "locator": "Official release August20,2024; web open body lines187–189",
+        "adopted_scope": "Dates only; no seeds/winners/rosters",
+        "raw_HTTP_body_certified": false
+      },
+      {
+        "id": "NBA2025calendar",
+        "url": "https://www.nba.com/news/2025-nba-playoffs-schedule",
+        "observation": "2025 Play-In dates: 7/8 April15; 9/10 April16; last seed April18.",
+        "locator": "Web open body lines331–353",
+        "adopted_scope": "Dates only, published historical results excluded",
+        "raw_HTTP_body_certified": false
+      },
+      {
+        "id": "NBApermanentPlayIn",
+        "url": "https://www.nba.com/news/nba-adopts-play-in-tournament-on-full-time-basis",
+        "observation": "7/8 winner→7; 9/10 winner vs7/8 loser→8.",
+        "locator": "Web open body lines174–178; NBA-hosted AP report",
+        "adopted_scope": "Format only",
+        "raw_HTTP_body_certified": false
+      },
+      {
+        "id": "NBAofficialRuleAdoption",
+        "url": "https://www.nba.com/news/nba-board-of-governors-approves-heightened-penalty-for-transition-take-foul",
+        "observation": "Board adopted existing Play-In format permanently; conference places7–10 fill seeds7/8.",
+        "locator": "Official release July13,2022 lines179,200–203",
+        "adopted_scope": "Rule continuity; 2023 dates not reused",
+        "raw_HTTP_body_certified": false
+      }
+    ],
+    "web_observation_cache": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\web_observations.json",
+    "web_observation_sha256": "75b60eb1d918735eb2ad6f908bc6213040336cda1b672eab9d83a26ffb7090b2",
+    "failed_HTTP_captures": [
+      {
+        "id": "NBA2025calendar",
+        "url": "https://www.nba.com/news/2025-nba-playoffs-schedule",
+        "http_status": 403,
+        "bytes": 412,
+        "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\NBA2025calendar.html",
+        "raw_sha256": "b6be1d282b29900367c27abbd3b6d09e0157739048a64747e2a80a79dbf6c7df",
+        "adopted_body": false,
+        "text_mode": null,
+        "text_path": null,
+        "text_sha256": null
+      },
+      {
+        "id": "NBApermanentPlayIn",
+        "url": "https://www.nba.com/news/nba-adopts-play-in-tournament-on-full-time-basis",
+        "http_status": 403,
+        "bytes": 454,
+        "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\NBApermanentPlayIn.html",
+        "raw_sha256": "62434549ef2b3f45945b4040e6873a8e14b2ce532024a638d91916b8476bdce2",
+        "adopted_body": false,
+        "text_mode": null,
+        "text_path": null,
+        "text_sha256": null
+      },
+      {
+        "id": "NBA2025format",
+        "url": "https://www.nba.com/playoffs/2025/play-in-tournament",
+        "http_status": 403,
+        "bytes": 413,
+        "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\NBA2025format.html",
+        "raw_sha256": "7c7a8bb06b031e2e7b56c7fc0c4afa1279f2386941c664a52a101bf9322c4916",
+        "adopted_body": false,
+        "text_mode": null,
+        "text_path": null,
+        "text_sha256": null
+      },
+      {
+        "id": "NBA2024season",
+        "url": "https://www.nba.com/news/2024-25-nba-regular-season-schedule",
+        "http_status": 403,
+        "bytes": 429,
+        "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\NBA2024season.html",
+        "raw_sha256": "8daaea3bfb43701004c7b38bd4f0b10afe5862a363498e9948da3f053276ad63",
+        "adopted_body": false,
+        "text_mode": null,
+        "text_path": null,
+        "text_sha256": null
+      }
+    ],
+    "official_calendar_bounds": {
+      "regular_end": "2025-04-13",
+      "playin_7_8": "2025-04-15",
+      "playin_9_10": "2025-04-16",
+      "last_seed": "2025-04-18",
+      "playoffs_start": "2025-04-19"
+    },
+    "historical_2025_seed_winner_roster_score_adopted": false,
+    "CBA2023": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+      "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "page_projections": [
+        {
+          "physical_pdf_page": 31,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p31.txt",
+          "text_sha256": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52"
+        },
+        {
+          "physical_pdf_page": 194,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p194.txt",
+          "text_sha256": "bdf21a71765df11c4a4b4861ef92aca86458336f3b9b9428f625714b6f270488"
+        },
+        {
+          "physical_pdf_page": 200,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p200.txt",
+          "text_sha256": "e95cd4b4dda8de26232c19c03a8c1eec5aabf2d7775969a33adfcec1beff05f5"
+        },
+        {
+          "physical_pdf_page": 201,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p201.txt",
+          "text_sha256": "8cae204670e874a449fa5973874d4d7589301f2b9a0218c6fb21905cac7e7167"
+        },
+        {
+          "physical_pdf_page": 202,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p202.txt",
+          "text_sha256": "15ad73ebc36eb4c5ef29b7688118cf57d0dade1d07f3a753c8f05276614f58f1"
+        },
+        {
+          "physical_pdf_page": 208,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p208.txt",
+          "text_sha256": "99e6925031f9949cad8c7d252a1db0e5f877b8d30309720ad47c3c2e7c27e33d"
+        },
+        {
+          "physical_pdf_page": 209,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p209.txt",
+          "text_sha256": "31d3c91d512db206227f6eb1e9f3bf986ac7621c7ac6e6d64136ca667c6919ea"
+        },
+        {
+          "physical_pdf_page": 210,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p210.txt",
+          "text_sha256": "51ee1bb8eb26216488f7dd4ef8a82edde1a0b89df4ae4850e16454b200de8715"
+        },
+        {
+          "physical_pdf_page": 211,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p211.txt",
+          "text_sha256": "75790dcb58ccfe4b37e2fa83b35690e50c643c084d6d55e1e359dedfc2295c03"
+        },
+        {
+          "physical_pdf_page": 240,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p240.txt",
+          "text_sha256": "1712263b1347992499d49e999935d6eb6dee0dd493850ff7f1f08284f7d04862"
+        },
+        {
+          "physical_pdf_page": 241,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p241.txt",
+          "text_sha256": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9"
+        },
+        {
+          "physical_pdf_page": 242,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p242.txt",
+          "text_sha256": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b"
+        },
+        {
+          "physical_pdf_page": 243,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p243.txt",
+          "text_sha256": "dbbd018d9ac268a74a2783409b3dbd6c67f4e2bd433c75fe6d61b61f9bb56238"
+        },
+        {
+          "physical_pdf_page": 245,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p245.txt",
+          "text_sha256": "f3f1554cd846a35608b940967df3f6aada92a5438b794bb33e6521a6ffc53507"
+        },
+        {
+          "physical_pdf_page": 251,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p251.txt",
+          "text_sha256": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1"
+        },
+        {
+          "physical_pdf_page": 254,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p254.txt",
+          "text_sha256": "232e7ea17ba657d9a66a3f936939bc97be6b714ab9f026605206ac2b741d378f"
+        },
+        {
+          "physical_pdf_page": 255,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p255.txt",
+          "text_sha256": "1d13b211bee94e0c95de5faaa63b5754c7470d9e8ff520043d8ee4f651f59620"
+        },
+        {
+          "physical_pdf_page": 256,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p256.txt",
+          "text_sha256": "96e212d5d083e389e983310cc57f8469ff1b67febabd99218722ca625500ea05"
+        },
+        {
+          "physical_pdf_page": 264,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p264.txt",
+          "text_sha256": "9b4242c837bbe6b53804f1a980ed0fe2f4782c21059ea15f186cf0a1bc0b4e65"
+        },
+        {
+          "physical_pdf_page": 272,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p272.txt",
+          "text_sha256": "df690e7bbb754f22d0126e67d754fac6f198eb047f4c3c1613c888bfba31a555"
+        },
+        {
+          "physical_pdf_page": 273,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p273.txt",
+          "text_sha256": "35270e0e192b0bf13ce57fc847fdcd54222c40c6918d889e81066d92bd69c26b"
+        },
+        {
+          "physical_pdf_page": 274,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p274.txt",
+          "text_sha256": "7dd22f044e505ca9d9756372b0e1da76a061ca0cf57400b90f4fe64c5612cd20"
+        },
+        {
+          "physical_pdf_page": 278,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p278.txt",
+          "text_sha256": "dc738d7f6a8dee8d0e29b0ce69004c11bb8e2e08d5ef083a3f200e1804308437"
+        },
+        {
+          "physical_pdf_page": 279,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p279.txt",
+          "text_sha256": "1976738ebfe58681dc6d6df4a422614e925dca94bfc097f623cd6fa9cd0b624d"
+        },
+        {
+          "physical_pdf_page": 281,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p281.txt",
+          "text_sha256": "5e23785c1ddc1d8985f3f4235dee7d4de019f948664f4126d3efd0a8b65bba54"
+        },
+        {
+          "physical_pdf_page": 316,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p316.txt",
+          "text_sha256": "911b6ee4c99c608bd22675715b0732d96528ce0b81cca4a35e22df051d8d2303"
+        },
+        {
+          "physical_pdf_page": 317,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p317.txt",
+          "text_sha256": "52dc9099c112651e81d03ad5a18743fe012760f205d4c636ee065e2931234a6b"
+        },
+        {
+          "physical_pdf_page": 453,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p453.txt",
+          "text_sha256": "9da339767ac6d4e7bd545030bfda4e31576058d367a326c9ec6459575a56fcc9"
+        },
+        {
+          "physical_pdf_page": 454,
+          "text_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-den-a10-qual1-20261008\\CBA2023_p454.txt",
+          "text_sha256": "426c49f712e6b0dd1064f80a6fdd259269440b31cc2d3011c1a34ff542ab76eb"
+        }
+      ],
+      "new_directly_read_pages": [
+        194,
+        200,
+        201,
+        202,
+        241,
+        242,
+        254,
+        255,
+        256,
+        453
+      ],
+      "other_page_projections_not_new_independent_reviews": true
+    }
+  },
+  "routes": [
+    {
+      "id": "QUAL1_A_DIRECT6_PHI3_RECOMMENDED",
+      "classification": "CANDIDATE_NOT_SELECTED",
+      "CHI_regular_conference_rank": 6,
+      "CHI_playoff_seed": 6,
+      "first_round_opponent": "PHI",
+      "opponent_playoff_seed": 3,
+      "qualification_method": "DIRECT_TOP6",
+      "qualification_date": "2025-04-13",
+      "playin_games": [],
+      "series_window": [
+        {
+          "id": "QUAL1_A_G1",
+          "date": "2025-04-19",
+          "host": "PHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": false
+        },
+        {
+          "id": "QUAL1_A_G2",
+          "date": "2025-04-21",
+          "host": "PHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": false
+        },
+        {
+          "id": "QUAL1_A_G3",
+          "date": "2025-04-24",
+          "host": "CHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": false
+        },
+        {
+          "id": "QUAL1_A_G4",
+          "date": "2025-04-26",
+          "host": "CHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": false
+        },
+        {
+          "id": "QUAL1_A_G5",
+          "date": "2025-04-29",
+          "host": "PHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": true
+        },
+        {
+          "id": "QUAL1_A_G6",
+          "date": "2025-05-01",
+          "host": "CHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": true
+        },
+        {
+          "id": "QUAL1_A_G7",
+          "date": "2025-05-03",
+          "host": "PHI",
+          "NBA_actual_game_id": null,
+          "date_is_fictional_except_official_start_bound": true,
+          "if_needed": true
+        }
+      ],
+      "new_NPC_FY24_families_needed": [
+        "PHI"
+      ],
+      "root_routine_recommendation": "Explicit fictional qualification/first-round admission + narrow PHI same-owner service/notice family + proposed two-team13availability and candidateclock. No title/MVP/score selection.",
+      "why_recommended": "One opponent family, direct eligibility, existing source role includes actual selected2022rookieWesley and a veteran/bench mix; opportunity costs can be observed without electing a champion."
+    },
+    {
+      "id": "QUAL1_B_REGULAR7_PLAYIN7_MIL2",
+      "classification": "CANDIDATE_NOT_SELECTED",
+      "CHI_regular_conference_rank": 7,
+      "CHI_playoff_seed": 7,
+      "first_round_opponent": "MIL",
+      "opponent_playoff_seed": 2,
+      "qualification_method": "WIN_7_8",
+      "qualification_date": "2025-04-15",
+      "playin_games": [
+        {
+          "date": "2025-04-15",
+          "home": "CHI",
+          "away": "ATL",
+          "regular_ranks": [
+            7,
+            8
+          ],
+          "candidate_required_winner": "CHI",
+          "result_selected": false,
+          "NBA_actual_game_id": null
+        }
+      ],
+      "series_first_game_date": "2025-04-19",
+      "new_NPC_FY24_families_needed": [
+        "ATL",
+        "MIL"
+      ],
+      "tradeoff": "Extra law/availability and a selected single-game outcome before series; stronger immediate fatigue/call-cost context, but no smaller ownership scope."
+    },
+    {
+      "id": "QUAL1_C_REGULAR9_PLAYIN8_MIL1",
+      "classification": "CANDIDATE_NOT_SELECTED",
+      "CHI_regular_conference_rank": 9,
+      "CHI_playoff_seed": 8,
+      "first_round_opponent": "MIL",
+      "opponent_playoff_seed": 1,
+      "qualification_method": "WIN_9_10_THEN_WIN_LAST_SEED",
+      "qualification_date": "2025-04-18",
+      "playin_games": [
+        {
+          "date": "2025-04-16",
+          "home": "CHI",
+          "away": "ORL",
+          "regular_ranks": [
+            9,
+            10
+          ],
+          "candidate_required_winner": "CHI",
+          "result_selected": false,
+          "NBA_actual_game_id": null
+        },
+        {
+          "date": "2025-04-18",
+          "home": "ATL",
+          "away": "CHI",
+          "regular_ranks": [
+            8,
+            9
+          ],
+          "candidate_required_winner": "CHI",
+          "ATL_7_8_loss_required": true,
+          "result_selected": false,
+          "NBA_actual_game_id": null
+        }
+      ],
+      "series_first_game_date": "2025-04-19",
+      "new_NPC_FY24_families_needed": [
+        "PHI",
+        "ORL",
+        "ATL",
+        "MIL"
+      ],
+      "tradeoff": "Two elimination games and only one day before first round. Nomination/load/third opponent inputs greater; not required merely to satisfy S3.",
+      "supporting_7_8_game": {
+        "date": "2025-04-15",
+        "home": "PHI",
+        "away": "ATL",
+        "regular_ranks": [
+          7,
+          8
+        ],
+        "candidate_required_winner": "PHI",
+        "result_selected": false,
+        "NBA_actual_game_id": null
+      }
+    }
+  ],
+  "recommended_route": "QUAL1_A_DIRECT6_PHI3_RECOMMENDED",
+  "selection_record": null,
+  "qualification_port": {
+    "type": "ROOT_SELECTED_FICTIONAL_CONFERENCE_QUALIFICATION_CERTIFICATE",
+    "selected": false,
+    "assertion_needed": "CHI regularrank6 and PHIrank3 in one consistent fictional East qualification/order certificate at April13; or explicit admitted qualification as a bounded setting choice with whole regular-season execution false. Do not label a chosenrank as already calculated82wins.",
+    "CHI_82_game_results_required_by_local_exit": false,
+    "full_1230_or_all30_private_ledgers_required": false,
+    "if_claiming_model_derived_rank": "Supply finite selected season/result/standing boundary input, no historicalrank or alphabetical tie substitute. Two placeholderseeds alone are not an executed qualification certificate.",
+    "NPC_first_round_bracket_pair": [
+      3,
+      6
+    ],
+    "NOP_West_first_round_reuse_legal": false,
+    "playoff_qualification_is_not_calibrated_title_chance": true,
+    "A_candidate_full_East_order": [
+      {
+        "rank": 1,
+        "team": "MIL",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 2,
+        "team": "BOS",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 3,
+        "team": "PHI",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 4,
+        "team": "NYK",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 5,
+        "team": "CLE",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 6,
+        "team": "CHI",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 7,
+        "team": "MIA",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 8,
+        "team": "ATL",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 9,
+        "team": "ORL",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 10,
+        "team": "TOR",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 11,
+        "team": "IND",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 12,
+        "team": "BKN",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 13,
+        "team": "DET",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 14,
+        "team": "WAS",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      },
+      {
+        "rank": 15,
+        "team": "CHA",
+        "win_loss": null,
+        "fictional_setting_candidate": true
+      }
+    ],
+    "A_East_order_selected": false,
+    "order_model_derived_or_historical": false,
+    "order_alone_certifies_other_team_contracts_games_or_2025_draft": false
+  },
+  "recommended_series_source_inputs": {
+    "period": [
+      "2025-04-19",
+      "2025-05-03"
+    ],
+    "period_is_new_candidate_not_FY22_FY23_medical_extension": true,
+    "CHI_contract_source": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json#/execution",
+    "CHI_contract_claims": {
+      "live10": [
+        {
+          "player": "Lauri Markkanen",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 21080000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Alex Caruso",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 9890000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Wendell Carter Jr.",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 11950000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Protagonist",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 25520000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Zach LaVine",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 43031940,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Coby White",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 12000000,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2025,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Chris Duarte",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 6133005,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Walker Kessler",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": 3510480,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "LaMelo Ball",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": "C24/4 or3*C24/10 onlylawfulHigherMax",
+          "C24": 140588000,
+          "first_extension_year": true,
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2028,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        },
+        {
+          "player": "Jaime Jaquez Jr.",
+          "holder": "CHI",
+          "STD": 1,
+          "TW": 0,
+          "salary_capyear": 2024,
+          "annual_component_upper": "6/5*S23(16,2)",
+          "rookie_signing_scale_year": 2023,
+          "minimum": "M_2023_signing_scale(serviceYOS1,Year2)",
+          "source_cents_are_actual_private": false,
+          "original_Gamma_and_protection_preserved": true,
+          "new_assignment": false,
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+          "future_option_exercise_selected": false
+        }
+      ],
+      "selected_new_contracts5": [
+        {
+          "player": "Thaddeus Young",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 10,
+          "credited_service_condition": ">=10",
+          "salary": "M24(10,Year1)",
+          "YOS10_plus_uses10_scale": true,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(10,Year1)",
+          "normal_fullcash_upper": "M24(10,Year1)",
+          "apron_fullcash_upper": "M24(10,Year1)"
+        },
+        {
+          "player": "Javonte Green",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 5,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(5,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(5,Year1)",
+          "normal_fullcash_upper": "M24(5,Year1)",
+          "apron_fullcash_upper": "M24(5,Year1)"
+        },
+        {
+          "player": "Joe Wieskamp",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 3,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(3,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(3,Year1)",
+          "normal_fullcash_upper": "M24(3,Year1)",
+          "apron_fullcash_upper": "M24(3,Year1)"
+        },
+        {
+          "player": "Denzel Valentine",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 8,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(8,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(8,Year1)",
+          "normal_fullcash_upper": "M24(8,Year1)",
+          "apron_fullcash_upper": "M24(8,Year1)"
+        },
+        {
+          "player": "Tomas Satoransky",
+          "holder": "CHI",
+          "expired_salary_capyear": 2023,
+          "last_fiscal_end": "2025-06-30",
+          "expiry_is_service_completion_family_not_real_receipt": true,
+          "candidate_date": "2024-07-07",
+          "mechanism": "VII6i_ONE_SEASON_MINIMUM_EXCEPTION",
+          "minimum_scale_YOS_bucket": 8,
+          "credited_service_condition": "Preserved FY23 renderedservice family advances prior creditedYOS byone; noactualclinicalservice certificate",
+          "salary": "M24(8,Year1)",
+          "YOS10_plus_uses10_scale": false,
+          "STD_added": 1,
+          "TW_added": 0,
+          "years": 1,
+          "all_bonuses": 0,
+          "protection": "FULL_SKILL_INJURY",
+          "options": [],
+          "same_claim_FA_hold_replaced_once": true,
+          "old_Gamma_and_accrued_obligations_preserved": true,
+          "fictional_consent_if_candidate_adopted": true,
+          "adopted_new_contract": true,
+          "actual_assent_or_receipt": null,
+          "no_same_regular_season_highsalary_waiver_buyout": true,
+          "selected_fictional_agreement": true,
+          "effective_date": "2024-07-07",
+          "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+          "last_salary_capyear_start": 2024,
+          "fiscal_end_is_exact_service_term": false,
+          "new_player_fullcash": "M24(8,Year1)",
+          "normal_fullcash_upper": "M24(8,Year1)",
+          "apron_fullcash_upper": "M24(8,Year1)"
+        }
+      ],
+      "post_signature_named_STD": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Denzel Valentine",
+        "Tomas Satoransky"
+      ],
+      "dated_states": [
+        {
+          "date": "2024-07-01",
+          "within_selected_model_order": 0,
+          "event": "FY24_ROLLOVER_FA_HOLDS_PRESERVED",
+          "STD": 10,
+          "TW_UPC": 0,
+          "named_STD": [
+            "Lauri Markkanen",
+            "Alex Caruso",
+            "Wendell Carter Jr.",
+            "Protagonist",
+            "Zach LaVine",
+            "Coby White",
+            "Chris Duarte",
+            "Walker Kessler",
+            "LaMelo Ball",
+            "Jaime Jaquez Jr."
+          ],
+          "five_expired_UPCs_automatically_renewed": false,
+          "five_UFA_claims_replaced_by_new_UPCs": false,
+          "Dotson_Cook_FA_right_renunciation_effective": false,
+          "unused_FY24_exception_renunciation_effective": false,
+          "normal_cost_function": "133115425+LM24+6/5*S23(16,2)+H24_five_UFA+R24+D24_N+2*M24(0)+E24_unused",
+          "apron_fullcash_outer_function": "133115425+LM24+6/5*S23(16,2)+R24+D24_A",
+          "new_five_player_fullcash": 0,
+          "old_Gamma_accrued_pay_and_R24_preserved": true,
+          "draft_D24_ports_retained": true,
+          "same_claim_UFA_and_new_salary_both_added": false,
+          "model_order_is_actual_signature_time": false,
+          "actual_assent_notice_receipt": null
+        },
+        {
+          "date": "2024-07-07",
+          "within_selected_model_order": 1,
+          "event": "BEFORE_SELECTED_RENEWALS_AND_RENUNCIATIONS",
+          "STD": 10,
+          "TW_UPC": 0,
+          "named_STD": [
+            "Lauri Markkanen",
+            "Alex Caruso",
+            "Wendell Carter Jr.",
+            "Protagonist",
+            "Zach LaVine",
+            "Coby White",
+            "Chris Duarte",
+            "Walker Kessler",
+            "LaMelo Ball",
+            "Jaime Jaquez Jr."
+          ],
+          "five_expired_UPCs_automatically_renewed": false,
+          "five_UFA_claims_replaced_by_new_UPCs": false,
+          "Dotson_Cook_FA_right_renunciation_effective": false,
+          "unused_FY24_exception_renunciation_effective": false,
+          "normal_cost_function": "133115425+LM24+6/5*S23(16,2)+H24_five_UFA+R24+D24_N+2*M24(0)+E24_unused",
+          "apron_fullcash_outer_function": "133115425+LM24+6/5*S23(16,2)+R24+D24_A",
+          "new_five_player_fullcash": 0,
+          "old_Gamma_accrued_pay_and_R24_preserved": true,
+          "draft_D24_ports_retained": true,
+          "same_claim_UFA_and_new_salary_both_added": false,
+          "model_order_is_actual_signature_time": false,
+          "actual_assent_notice_receipt": null
+        },
+        {
+          "date": "2024-07-07",
+          "within_selected_model_order": 2,
+          "event": "AFTER_SELECTED_RIGHTS_AND_UNUSED_EXCEPTION_RENUNCIATIONS",
+          "STD": 10,
+          "TW_UPC": 0,
+          "named_STD": [
+            "Lauri Markkanen",
+            "Alex Caruso",
+            "Wendell Carter Jr.",
+            "Protagonist",
+            "Zach LaVine",
+            "Coby White",
+            "Chris Duarte",
+            "Walker Kessler",
+            "LaMelo Ball",
+            "Jaime Jaquez Jr."
+          ],
+          "five_expired_UPCs_automatically_renewed": false,
+          "five_UFA_claims_replaced_by_new_UPCs": false,
+          "Dotson_Cook_FA_right_renunciation_effective": true,
+          "unused_FY24_exception_renunciation_effective": true,
+          "normal_cost_function": "133115425+LM24+6/5*S23(16,2)+H24_five_UFA+R24+D24_N",
+          "apron_fullcash_outer_function": "133115425+LM24+6/5*S23(16,2)+R24+D24_A",
+          "new_five_player_fullcash": 0,
+          "old_Gamma_accrued_pay_and_R24_preserved": true,
+          "draft_D24_ports_retained": true,
+          "same_claim_UFA_and_new_salary_both_added": false,
+          "model_order_is_actual_signature_time": false,
+          "actual_assent_notice_receipt": null
+        },
+        {
+          "date": "2024-07-07",
+          "within_selected_model_order": 3,
+          "event": "AFTER_FIVE_SELECTED_NEW_MINIMUM_UPCS",
+          "STD": 15,
+          "TW_UPC": 0,
+          "named_STD": [
+            "Lauri Markkanen",
+            "Alex Caruso",
+            "Wendell Carter Jr.",
+            "Protagonist",
+            "Zach LaVine",
+            "Coby White",
+            "Chris Duarte",
+            "Walker Kessler",
+            "LaMelo Ball",
+            "Jaime Jaquez Jr.",
+            "Thaddeus Young",
+            "Javonte Green",
+            "Joe Wieskamp",
+            "Denzel Valentine",
+            "Tomas Satoransky"
+          ],
+          "five_expired_UPCs_automatically_renewed": false,
+          "five_UFA_claims_replaced_by_new_UPCs": true,
+          "Dotson_Cook_FA_right_renunciation_effective": true,
+          "unused_FY24_exception_renunciation_effective": true,
+          "normal_cost_function": "133115425+LM24+6/5*S23(16,2)+M24(10)+M24(5)+M24(3)+2*M24(8)+R24+D24_N",
+          "apron_fullcash_outer_function": "133115425+LM24+6/5*S23(16,2)+M24(10)+M24(5)+M24(3)+2*M24(8)+R24+D24_A",
+          "new_five_player_fullcash": "M24(10)+M24(5)+M24(3)+2*M24(8)",
+          "old_Gamma_accrued_pay_and_R24_preserved": true,
+          "draft_D24_ports_retained": true,
+          "same_claim_UFA_and_new_salary_both_added": false,
+          "model_order_is_actual_signature_time": false,
+          "actual_assent_notice_receipt": null
+        }
+      ],
+      "cost_family": {
+        "base_fixed8_upper": 133115425,
+        "LM24_ordinary_reference_not_award_selection": 35147000,
+        "LM24_ordinary_or_lawful_HigherMax": "35147000 or42176400 onlyII7lawfulqualification; awardoutcome notselected",
+        "Jaquez_Year2": "6/5*S23(16,2)",
+        "five_new_minimum_cash": "M24(10)+M24(5)+M24(3)+2*M24(8)",
+        "normal_apron_fullcash_outer": "133115425+LM24+6/5*S23(16,2)+M24(10)+M24(5)+M24(3)+2*M24(8)+R24+D24_N_or_A",
+        "before_renewal_normal_FA_outer": "Young max150/190%*8m<=15.2m subjectmax/min; four expiredminimum FAholds countednonreimbursedcurrentminimum<=fullM24; Dotson/Cook completedTW FAhold M24(0) each untilvalidrenounce",
+        "before_renewal_apron_FA": "UFAholds excluded; old QO expiredOct2_2023 doesnotdeleteFA/ROFR; no newQO/MaximumQO/OfferSheet/FRN selected in candidateframe",
+        "R24_interval": [
+          0,
+          16371000
+        ],
+        "R24_original_scope": "Preserve original valid stretch allocation inside admitted public inventory; ordinary13 salary endpoints alreadyexpired; no newFY24settlement/resolution/stretch selected; not all private absence proof",
+        "D24_N_and_A": "Nonnegative typedcurrent2024unsigneddraft/RT claim port if existingownedrights; unknownnot0, no2024newUPC orrosterslot chosen",
+        "D24_actual_amount": null,
+        "unused_exceptions_after_selected_renunciation": 0,
+        "zero_is_actual_original_owed_payment": false,
+        "Tax": "Actual Tax has finalregular audit/adjustments; fullplayercashplusR24 is conservative componentouter, FA/RT notcash",
+        "new_salary_cash": "NewcandidatefivepositiveM24 cash; expired8m/oldminimum notnewFY24Salary but oldpaymentobligations preserved in correct year/frame",
+        "new_hardcap_trigger": false,
+        "over_apron_is_automatic_illegality": false,
+        "whole_actual_private_FY24_ledger": false
+      }
+    },
+    "PHI_previous_named_registration_source": "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.json#/team_registration/PHI",
+    "PHI_standard15": [
+      "Ben Simmons",
+      "Danny Green",
+      "Dwight Howard",
+      "Furkan Korkmaz",
+      "Isaiah Joe",
+      "Jaden Springer",
+      "Joel Embiid",
+      "Matisse Thybulle",
+      "Mike Scott",
+      "Paul Reed",
+      "Seth Curry",
+      "Shake Milton",
+      "Tobias Harris",
+      "Tyrese Maxey",
+      "Blake Wesley"
+    ],
+    "PHI_zero_TW": true,
+    "PHI_FY24_contract_functions": [
+      {
+        "player": "Ben Simmons",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/318",
+        "source_row_id": "PHI:Ben Simmons",
+        "original_contract_fields": {
+          "player": "Ben Simmons",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Danny Green",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/319",
+        "source_row_id": "PHI:Danny Green",
+        "original_contract_fields": {
+          "player": "Danny Green",
+          "route": "VII6b3_EARLY_BIRD",
+          "new_UPC": true,
+          "price_function": {
+            "route": "VII6b3_EARLY_BIRD",
+            "seasons": 2,
+            "nonoption_seasons": 2,
+            "first_base_floor": "max(legalMin2021(YOS),signed2021Year2Min(YOS+1))",
+            "first_base_ceiling": "min(II7max,max(7/4*priorRegularSalary,21/20*priorAveragePlayerSalary))",
+            "later_base": "same_first_base",
+            "new_bonus": 0,
+            "full_standard_protection": true
+          },
+          "old_Gamma_preserved": true,
+          "actual_price": null,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Dwight Howard",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/320",
+        "source_row_id": "PHI:Dwight Howard",
+        "original_contract_fields": {
+          "player": "Dwight Howard",
+          "route": "VII6i_MINIMUM",
+          "term": 1,
+          "salary": "applicable2021Minimum(YOS)",
+          "new_bonus": 0,
+          "full_standard_protection": true,
+          "old_Gamma_preserved": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Furkan Korkmaz",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/321",
+        "source_row_id": "PHI:Furkan Korkmaz",
+        "original_contract_fields": {
+          "player": "Furkan Korkmaz",
+          "route": "VII6b1_FULL_BIRD",
+          "new_UPC": true,
+          "price_function": {
+            "route": "VII6b1_FULL_BIRD",
+            "seasons": 2,
+            "nonoption_seasons": 2,
+            "first_base_floor": "max(legalMin2021(YOS),signed2021Year2Min(YOS+1))",
+            "first_base_ceiling": "ArticleII7_applicable_first_year_maximum",
+            "later_base": "same_first_base",
+            "new_bonus": 0,
+            "full_standard_protection": true,
+            "VII6m4_current_applicability": "No:2021FA follows2019nonRSCstandardcontract, notsecond/thirdseasonofRSC. Original2019postoptioncontractceiling retained in oldGamma."
+          },
+          "old_Gamma_preserved": true,
+          "actual_price": null,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Isaiah Joe",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/323",
+        "source_row_id": "PHI:Isaiah Joe",
+        "original_contract_fields": {
+          "player": "Isaiah Joe",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Jaden Springer",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/324",
+        "source_row_id": "PHI:Jaden Springer",
+        "original_contract_fields": {
+          "player": "Jaden Springer",
+          "route": "VII6h_VIII1_RSC",
+          "pick": 28,
+          "holder": "PHI",
+          "component_scale": [
+            "4/5",
+            "6/5"
+          ],
+          "salary_including_unlikely_ceiling": "6/5",
+          "base_and_protection_floor": "4/5",
+          "guaranteed": 2,
+          "options": 2,
+          "valid_first_RT_before_UPC": true,
+          "actual_price": null,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "2021 RSC Year4 ONLY with lawful team-signed personal fourth-option2023notice; original alpha/allGamma retained",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "notice_proposal": "2023-10-01",
+        "window_start_condition": "day after2023FinalsJune16",
+        "window_deadline": "2023-10-31",
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Joel Embiid",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/325",
+        "source_row_id": "PHI:Joel Embiid",
+        "original_contract_fields": {
+          "player": "Joel Embiid",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Matisse Thybulle",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/326",
+        "source_row_id": "PHI:Matisse Thybulle",
+        "original_contract_fields": {
+          "player": "Matisse Thybulle",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Mike Scott",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/327",
+        "source_row_id": "PHI:Mike Scott",
+        "original_contract_fields": {
+          "player": "Mike Scott",
+          "route": "VII6i_MINIMUM",
+          "term": 1,
+          "salary": "applicable2021Minimum(YOS)",
+          "new_bonus": 0,
+          "full_standard_protection": true,
+          "old_Gamma_preserved": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Paul Reed",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/328",
+        "source_row_id": "PHI:Paul Reed",
+        "original_contract_fields": {
+          "player": "Paul Reed",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Seth Curry",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/329",
+        "source_row_id": "PHI:Seth Curry",
+        "original_contract_fields": {
+          "player": "Seth Curry",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Shake Milton",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/330",
+        "source_row_id": "PHI:Shake Milton",
+        "original_contract_fields": {
+          "player": "Shake Milton",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Tobias Harris",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/331",
+        "source_row_id": "PHI:Tobias Harris",
+        "original_contract_fields": {
+          "player": "Tobias Harris",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Tyrese Maxey",
+        "source_pointer": "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json#/NPC_contract_rows/332",
+        "source_row_id": "PHI:Tyrese Maxey",
+        "original_contract_fields": {
+          "player": "Tyrese Maxey",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "old_Gamma_preserved": true,
+        "FY24_route": "Piecewise: original valid live UPC/valid option carry; otherwise legally ended original→same-owner lawful 2023 continuity UPC if needed→distinct lawful2024 new UPC after expiry. Never simultaneous overlapping new salary claims.",
+        "qualified_Bird_price": "Only if three preceding same-owner standard seasons/no intervening renunciation; maxII7/raise8%/protection+bonus domain preserved",
+        "nonqualified_price": "Applicable NonBird/EarlyBird if their service predicates hold, or one/two-season legal minimum II6/VII6i with bonus0. No all-core cheap-minimum market certification.",
+        "actual_original_term_status": null,
+        "new_fictional_agreement_selected": false,
+        "exact_price": null,
+        "actual_receipt": null,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      },
+      {
+        "player": "Blake Wesley",
+        "source_pointer": "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.json#/team_registration/PHI",
+        "source_row_id": "PHI:Blake Wesley",
+        "old_Gamma_preserved": true,
+        "FY24_route": "2022 RSC Year3 ONLY with original team-signed personal option notice in its lawful 2023 period; original alpha/source scale retained",
+        "notice_proposal": "2023-10-01",
+        "window_start_condition": "day after selected2023FinalsJune16",
+        "window_deadline": "2023-10-31",
+        "actual_receipt": null,
+        "year4_FY25_notice_not_required_for_this_FY24_series": true,
+        "service_window": [
+          "2025-04-19",
+          "2025-05-03"
+        ],
+        "window_is_candidate_not_confirmed_original_UPC": true
+      }
+    ],
+    "PHI_2022_unclaimed_Hill_waiver_Gamma": [
+      {
+        "player": "George Hill",
+        "owner_before_clearance": "PHI",
+        "notice_at": "2022-07-08T09:00:00-04:00",
+        "claim_deadline_at": "2022-07-10T09:00:00-04:00",
+        "claim_window_elapsed_hours": 48,
+        "fictional_no_claim_selected": true,
+        "new_owner_or_assignment": null,
+        "original_contract_row_id": "PHI:George Hill",
+        "original_contract_fields": {
+          "player": "George Hill",
+          "route": "VII6a_EXISTING",
+          "new_UPC": false,
+          "old_Gamma_preserved": true,
+          "valid_current_term_to_March7": true,
+          "actual_receipt": null
+        },
+        "all_original_Gamma_reserved": true,
+        "all_new_July7_renewal_or_option_protected_liabilities_reserved": true,
+        "protected_salary_reservation_function": "All original Gamma plus full protected Salary/bonuses of any selected July7 minimum renewal or existing timely option. Live-to-dead reclassification does not cancel them.",
+        "remaining_guaranteed_future_salary_reserved": true,
+        "cash_buyout_stretch_setoff_or_refund_selected": false,
+        "exact_protection_or_cash_payment_certified": false,
+        "actual_waiver_receipt_or_no_claim_certified": false,
+        "old_all_template_positive_regulation_seconds": 0
+      }
+    ],
+    "future_2023_2024_new_draft_rights": "Typed rights/valid tenders only unless separately admitted; no automatic PaulGeorge2024/Hardenhistoricaltrade, no automatic replacement of selectedSpringer/Wesley",
+    "new_signings_or_valid_option_receipts_certified": false,
+    "NPC_q_cash_bonus_and_residual_upper": null,
+    "unknown_price_or_full_Gamma_deleted": false,
+    "minimum_price_is_market_agreement": false,
+    "each_service_predicate_must_cover_series_dates": true,
+    "CHI_service_boundary": "Each existing FY24 covered_fiscal_window/service_window_condition must include each proposed April19..May3 date; fiscal year is not proof of a private service endpoint. July2025 next salary/options remain unselected.",
+    "PHI_other_2023_2024_rights_are_not_silent_new_UPCs": true,
+    "PHI_service_price_and_notice_domain": {
+      "live": "Unchanged original UPC valid throughout April19-May3, all original protection and bonuses carried.",
+      "expired": "After lawful expiry, same-owner2023 continuity UPC if needed then separate2024 UPC. No intervening assignment/renunciation in admitted qualifying Bird branch; actual original term remains unknown.",
+      "full_Bird": "Three preceding standard Seasons; first-year II7 maximum; at most8% noncompound annual change; all current/future Gamma reserved.",
+      "Early_Bird": "VII6b3 applicable salary/average ceiling and floor; at least2nonoptionSeasons.",
+      "Non_Bird": "Applicable VII6b2 only; never automatically fullBird.",
+      "minimum": "II6/VII6i signing-year minimum by YOS, at most2Seasons, bonus0, legal later-year schedule and protection.",
+      "new_signing_clock": "After original expiry and appropriate summer moratorium, BEFORE start of last Regular Game. VII5(e)(2), PDF254 generally bars new UPC thereafter throughJune30; no midseries signing patch.",
+      "RSC_notices": "Springer2021 fourth/Wesley2022 third: individual signed proposal2023Oct1 within selected2023FinalsJun16+1..Oct31. Preserve original alpha/scale.",
+      "other_options": "Original actor/deadline/valid notice required only in live-option branch. Unselected future options not exercised implicitly.",
+      "FY24_function_selected": false,
+      "actual_prices_receipts": null
+    },
+    "PHI_six_cost_category_function": {
+      "live_registered": "Original carry or lawful new Salary once, with signing/likely/unlikely allocations. Exceptions are signing routes, not missingcost0.",
+      "waived_former": "Hill protected dead Salary + all source-preserved formerGamma; expiry/renounce does not erase promises.",
+      "camp_prior": "Named public obligations Camp24>=0; any new identified contract/resolution reopens namedrow, not all-ledger gate.",
+      "unsigned_rights_tenders": "Springer/Wesley RSC once; other2023/24 unsigned rights and outstandingTenders typed D24normal/D24apron. No16thSTD or assumed0.",
+      "FA_QO": "VII4(d) hold/QO/FirstRT before same-claim replacement/valid renunciation; VII2(e)(1), PDF210-211 governs apron-specific FA/QO/unsigned/exception treatment. VII6(n)(3) RSC declined-option same-team component ceiling remains a separate applicable branch, not the general apron definition.",
+      "exceptions_incomplete": "VII6n2 unused exceptions until validwrittenrenounce/expiry; cleanup AFTER needed same-owner rights used. 15 admittedSTD => incomplete0, holds notSTD.",
+      "normal_formula": "Live24+WaivedGamma24+Camp24+D24normal+FA24normal+UnusedEx24normal+Incomplete24+MTSgap24",
+      "apron_formula": "Operative VII2(e)(1), PDF210-211 adjusted sum including applicable bonus/dead/camp/tender/FA components; unused exceptions excluded by the apron definition, not claimed expired.",
+      "whole_cost_upper": null,
+      "actual_cash_paid": null,
+      "all_unreported_private_absence_certified": false
+    },
+    "PHI_floor_and_trigger_conditions": {
+      "cap24": 140588000,
+      "MTS_source": "2023CBA VII2a4i/PDF194; VII2c/PDF200-202",
+      "MTS_inputs": "Typed MTS_opening24 and MTS_current24 under actual operative definitions; ordinary FA/unusedexception inflated holds not floorproof.",
+      "sufficient_subfamily": "Admit valid current Base/carry/new salary functions with MTS_opening24>=126529200 and current>=opening MTS threshold. This is a lawful candidate parameter condition, not actual full-ledger or exact-price certification.",
+      "if_below_floor": "Preserve VII2c statutory nonnegative gap/payment and applicable next-day threshold restoration functions; unknown not0, no inventedpaidcash.",
+      "MTSgap_formula": "max(0,126529200-min(MTS_current24,MTS_opening24))",
+      "MTS_payment_function": "VII2c2 difference when MTS Payment TeamSalary below minimum; cash payment actualnull",
+      "signing_trigger_policy": "Carry/Bird/minimum/RSC validoptions only; no newassignment/S&T/NTMLE/BAE selected. Source-identified prior FY24 hardcap/apron trigger H24 remains named conditional constraint; no old2021hardcap inherited.",
+      "triggered_branch": "If H24 true, adjusted six-category ApronSalary must satisfy relevant operative threshold/restrictions. Unknown upper is a typed branch constraint, not certificate or globalstop.",
+      "nontriggered_branch": "High salary or negative apron margin alone does not declare illegality; applicable second-apron transaction restrictions remain.",
+      "whole_private_budget_certified": false,
+      "published_minimum_team_salary24": 126529000,
+      "law_derived_minimum_team_salary24": 126529200,
+      "law_derived_classification": "DESIGN_CALCULATED VII2(a)(4)(i): 90%*140588000; not actual private cents certification",
+      "published_display_is_not_legal_threshold": true
+    }
+  },
+  "proposed_registration_and_availability": {
+    "CHI": {
+      "standard": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Denzel Valentine",
+        "Tomas Satoransky"
+      ],
+      "TW": [],
+      "active": [
+        "LaMelo Ball",
+        "Zach LaVine",
+        "Protagonist",
+        "Lauri Markkanen",
+        "Wendell Carter Jr.",
+        "Jaime Jaquez Jr.",
+        "Walker Kessler",
+        "Alex Caruso",
+        "Chris Duarte",
+        "Coby White",
+        "Thaddeus Young",
+        "Joe Wieskamp",
+        "Javonte Green"
+      ],
+      "inactive": [
+        "Denzel Valentine",
+        "Tomas Satoransky"
+      ]
+    },
+    "PHI": {
+      "standard": [
+        "Ben Simmons",
+        "Danny Green",
+        "Dwight Howard",
+        "Furkan Korkmaz",
+        "Isaiah Joe",
+        "Jaden Springer",
+        "Joel Embiid",
+        "Matisse Thybulle",
+        "Mike Scott",
+        "Paul Reed",
+        "Seth Curry",
+        "Shake Milton",
+        "Tobias Harris",
+        "Tyrese Maxey",
+        "Blake Wesley"
+      ],
+      "TW": [],
+      "active": [
+        "Ben Simmons",
+        "Blake Wesley",
+        "Danny Green",
+        "Dwight Howard",
+        "Furkan Korkmaz",
+        "Joel Embiid",
+        "Matisse Thybulle",
+        "Mike Scott",
+        "Seth Curry",
+        "Shake Milton",
+        "Tobias Harris",
+        "Tyrese Maxey",
+        "Isaiah Joe"
+      ],
+      "inactive": [
+        "Jaden Springer",
+        "Paul Reed"
+      ]
+    },
+    "available_equals_active_candidate": true,
+    "active_each": 13,
+    "court5_plus_off_court8": true,
+    "no_TW_postseason_players": true,
+    "new_fictional_health_selection_required": true,
+    "prior_GAME1_and_FY23_availability_not_automatically_carried": true,
+    "clinical_facts_certified": false
+  },
+  "capacity_proposal": {
+    "source_CHI_clock": "canon/DELEGATED_A10_2024_25_NAMED_ROLE_PLAN_SELECTION_2026_10_08.json#/selected_ordered_role_capacity",
+    "source_PHI_clock": "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_team_templates/PHI/blocks",
+    "CHI_player_seconds": {
+      "LaMelo Ball": 1800,
+      "Zach LaVine": 1800,
+      "Protagonist": 2040,
+      "Lauri Markkanen": 1800,
+      "Wendell Carter Jr.": 1680,
+      "Jaime Jaquez Jr.": 1200,
+      "Walker Kessler": 840,
+      "Alex Caruso": 1200,
+      "Chris Duarte": 600,
+      "Coby White": 840,
+      "Thaddeus Young": 600
+    },
+    "PHI_player_seconds": {
+      "Ben Simmons": 1920,
+      "Seth Curry": 1800,
+      "Danny Green": 1440,
+      "Tobias Harris": 1920,
+      "Joel Embiid": 2040,
+      "Blake Wesley": 720,
+      "Matisse Thybulle": 960,
+      "Tyrese Maxey": 960,
+      "Shake Milton": 720,
+      "Dwight Howard": 840,
+      "Furkan Korkmaz": 840,
+      "Mike Scott": 240
+    },
+    "CHI_minutes": {
+      "LaMelo Ball": 30,
+      "Zach LaVine": 30,
+      "Protagonist": 34,
+      "Lauri Markkanen": 30,
+      "Wendell Carter Jr.": 28,
+      "Jaime Jaquez Jr.": 20,
+      "Walker Kessler": 14,
+      "Alex Caruso": 20,
+      "Chris Duarte": 10,
+      "Coby White": 14,
+      "Thaddeus Young": 10
+    },
+    "PHI_minutes": {
+      "Ben Simmons": 32,
+      "Seth Curry": 30,
+      "Danny Green": 24,
+      "Tobias Harris": 32,
+      "Joel Embiid": 34,
+      "Blake Wesley": 12,
+      "Matisse Thybulle": 16,
+      "Tyrese Maxey": 16,
+      "Shake Milton": 12,
+      "Dwight Howard": 14,
+      "Furkan Korkmaz": 14,
+      "Mike Scott": 4
+    },
+    "paired_segments": [
+      {
+        "start_second": 0,
+        "end_second": 120,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 120,
+        "end_second": 240,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 240,
+        "end_second": 360,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 360,
+        "end_second": 480,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 480,
+        "end_second": 600,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 600,
+        "end_second": 720,
+        "quarter": 1,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 720,
+        "end_second": 840,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 840,
+        "end_second": 960,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 960,
+        "end_second": 1080,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Zach LaVine",
+          "SF": "Chris Duarte",
+          "PF": "Protagonist",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Seth Curry",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1080,
+        "end_second": 1200,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1200,
+        "end_second": 1320,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Coby White",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Danny Green",
+          "PF": "Ben Simmons",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1320,
+        "end_second": 1440,
+        "quarter": 2,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Alex Caruso",
+          "SF": "Chris Duarte",
+          "PF": "Protagonist",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1440,
+        "end_second": 1560,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Protagonist",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Danny Green",
+          "PF": "Ben Simmons",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1560,
+        "end_second": 1680,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Alex Caruso",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Seth Curry",
+          "SF": "Furkan Korkmaz",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1680,
+        "end_second": 1800,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Coby White",
+          "SF": "Chris Duarte",
+          "PF": "Protagonist",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Matisse Thybulle",
+          "PF": "Ben Simmons",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1800,
+        "end_second": 1920,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "Coby White",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Lauri Markkanen",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Furkan Korkmaz",
+          "SF": "Danny Green",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 1920,
+        "end_second": 2040,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Alex Caruso",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Thaddeus Young"
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Furkan Korkmaz",
+          "PF": "Ben Simmons",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2040,
+        "end_second": 2160,
+        "quarter": 3,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Coby White",
+          "SF": "Chris Duarte",
+          "PF": "Protagonist",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2160,
+        "end_second": 2280,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "Coby White",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Protagonist",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Furkan Korkmaz",
+          "SF": "Danny Green",
+          "PF": "Mike Scott",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2280,
+        "end_second": 2400,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Alex Caruso",
+          "SF": "Protagonist",
+          "PF": "Thaddeus Young",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Furkan Korkmaz",
+          "PF": "Ben Simmons",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2400,
+        "end_second": 2520,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "Alex Caruso",
+          "SG": "Coby White",
+          "SF": "Chris Duarte",
+          "PF": "Lauri Markkanen",
+          "C": "Thaddeus Young"
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2520,
+        "end_second": 2640,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "Coby White",
+          "SG": "Jaime Jaquez Jr.",
+          "SF": "Protagonist",
+          "PF": "Thaddeus Young",
+          "C": "Walker Kessler"
+        },
+        "PHI_positions": {
+          "PG": "Ben Simmons",
+          "SG": "Furkan Korkmaz",
+          "SF": "Danny Green",
+          "PF": "Mike Scott",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2640,
+        "end_second": 2760,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Jaime Jaquez Jr.",
+          "PF": "Protagonist",
+          "C": "Thaddeus Young"
+        },
+        "PHI_positions": {
+          "PG": "Blake Wesley",
+          "SG": "Seth Curry",
+          "SF": "Furkan Korkmaz",
+          "PF": "Ben Simmons",
+          "C": "Dwight Howard"
+        },
+        "team_player_seconds_each": 600
+      },
+      {
+        "start_second": 2760,
+        "end_second": 2880,
+        "quarter": 4,
+        "CHI_positions": {
+          "PG": "LaMelo Ball",
+          "SG": "Zach LaVine",
+          "SF": "Protagonist",
+          "PF": "Lauri Markkanen",
+          "C": "Wendell Carter Jr."
+        },
+        "PHI_positions": {
+          "PG": "Tyrese Maxey",
+          "SG": "Shake Milton",
+          "SF": "Matisse Thybulle",
+          "PF": "Tobias Harris",
+          "C": "Joel Embiid"
+        },
+        "team_player_seconds_each": 600
+      }
+    ],
+    "regulation_seconds": 2880,
+    "each_team_player_seconds": 14400,
+    "zero_OT_policy": "New fictional series assumption if selected; old0OTnotrealNBAfact",
+    "source_clock_as_FY24_actual_execution_certified": false
+  },
+  "S3_cost_observation_proposal": {
+    "new_series_window_only_no_GAME1_repeat": true,
+    "first_trial": {
+      "game": "QUAL1_A_G1",
+      "date": "2025-04-19",
+      "start_second": 1680,
+      "end_second": 1688,
+      "CHI_positions": {
+        "PG": "Alex Caruso",
+        "SG": "Coby White",
+        "SF": "Chris Duarte",
+        "PF": "Protagonist",
+        "C": "Wendell Carter Jr."
+      },
+      "PHI_positions": {
+        "PG": "Tyrese Maxey",
+        "SG": "Shake Milton",
+        "SF": "Matisse Thybulle",
+        "PF": "Ben Simmons",
+        "C": "Dwight Howard"
+      },
+      "team_player_seconds_each": 40,
+      "candidate_observation": "P weakside first step delayed after own attack; Duarte leaves originalconnection to cover Thybulle cutter. Requires visible cutterpath+ownDuarte read, not mindreading or inferredscore.",
+      "selected": false
+    },
+    "correction_trial": {
+      "game": "QUAL1_A_G2",
+      "date": "2025-04-21",
+      "start_second": 1680,
+      "end_second": 1688,
+      "candidate_observation": "Same lawful10players/positions. P earlier help+ownDuarte read+sameThybulle cutoff condition let Duarte stay connection. Not caused by P earlierposition alone.",
+      "same_position_and_budget_as_first": true,
+      "team_player_seconds_each": 40,
+      "selected": false
+    },
+    "bench_and_veteran_costs": {
+      "CHI_B_vs_A_Jaquez_minutes": 16,
+      "CHI_B_vs_A_Duarte_minutes": -4,
+      "CHI_B_vs_A_Coby_Young_Kessler_minutes_each": -2,
+      "CHI_B_vs_A_LaVine_LaMelo_Mark_minutes_each": -2,
+      "total_minute_delta": 0,
+      "conditional_source_costs_not_second_contract_payment": true,
+      "PHI_Wesley12_source_donors": {
+        "Shake Milton": 6,
+        "Tyrese Maxey": 6
+      },
+      "P_direct_attack_repetition_forgone": "One finite role-correction trial; no season efficiency improvement certified",
+      "additional_Duarte_covering_labor_observation": null
+    },
+    "series_win_shot_score_stops_or_individual_efficiency_selected": false,
+    "limited_loss_route_allowed": "A first-round loss may retain actual contenderqualification while making weaknesses visible; do not invent new titlecount.",
+    "new_rating_growth_or_MVP_parameter_selected": false
+  },
+  "exact_next_inputs": [
+    {
+      "id": "Q_SEED",
+      "needed": "Root choose one route and explicit fictional qualification/order certificate; state scope is bounded setting admission or actualmodel results."
+    },
+    {
+      "id": "Q_PHI_SERVICE",
+      "needed": "Resolve proposed sameowner lawful piecewise FY24 function/valid Springer fourth and Wesley third notices as admitted fictional family; retain existingHilldeadGamma and allcarry liabilities, no wholeprivateabsence proof."
+    },
+    {
+      "id": "Q_DAY",
+      "needed": "New both-team13availability throughout named firstserieswindow, role/fullpair0OTfiction/active ownership; candidateclock can be chosen after contractdomainreview."
+    },
+    {
+      "id": "Q_OBSERVATION",
+      "needed": "Select two distinct series-day8second burdens/correction with actorpredicates and finite attackopportunity cost. Winner/seriescount optional unless narrative claims result."
+    }
+  ],
+  "verification": {
+    "source_current": true,
+    "static_source_projection_and_fullpair_checked": true,
+    "position_seconds_each": 2880,
+    "team_player_seconds_each": 14400,
+    "unique_standard_each": 15,
+    "active_each": 13,
+    "paired_segment_count": 24,
+    "same_team_source_pointer_and_contract_ID_checked": true,
+    "constructor_negative_tests_run": 0,
+    "independent_review_completed": false,
+    "mirror_or_ancestor_constructor_runs": 0,
+    "qualification_or_observation_executed": false,
+    "floor_precision_counterexample": {
+      "MTS_current24": 126529100,
+      "MTS_opening24": 126529100,
+      "law_derived_gap": 100,
+      "published_display_gap_not_used": 0,
+      "classification": "STATIC_LEGAL_FORMULA_RECALCULATION_NOT_CONSTRUCTOR_TEST"
+    }
+  },
+  "boundaries": {
+    "Chicago_2025_title_MVP_selected": false,
+    "MIN_2026_Finals_or_LC1_required_for_initial_QUAL1": false,
+    "whole_A10_S3_exit_complete": false,
+    "whole_2024_25_season_selected": false,
+    "full_private_cash_ledger_or_actual_NBA_certificate": false,
+    "unknown_D24_R24_is_zero": false,
+    "manuscript_allowed": false,
+    "new_author_lock": false
+  },
+  "progress": [
+    {
+      "group": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 4,
+      "status": "INCOMPLETE"
+    },
+    {
+      "group": 5,
+      "status": "INCOMPLETE"
+    },
+    {
+      "group": 6,
+      "status": "INCOMPLETE"
+    },
+    {
+      "group": 7,
+      "status": "INCOMPLETE"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "remaining_whole_A10_minimum_ports": {
+    "QUAL1": "Admitted qualification setting + lawful dated series + bounded veteran/bench cost observation.",
+    "S1": "Accepted Game1 failure/retry preserved; qualification does not prove permanent first-option or NBA efficiency.",
+    "S2": "LaVine-present local cost supported; qualification does not claim permanent priority.",
+    "whole_A10_automatically_complete_after_QUAL1": false,
+    "full_season_or_title_required_for_bounded_exit": false
+  }
+}

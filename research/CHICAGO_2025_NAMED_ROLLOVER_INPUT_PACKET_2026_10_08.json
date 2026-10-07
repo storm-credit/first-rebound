@@ -1,0 +1,401 @@
+{
+  "id": "CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08",
+  "classification": "FINITE_2025_CHI_NAMED_ROLLOVER_AND_SIX_COST_INPUT_NOT_2025_ROSTER_CERTIFICATE",
+  "baseline": "PR505 main plus branch-current Markkanen selected fictional UPC",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "canon/DELEGATED_CHICAGO_2025_MARKKANEN_RENEWAL_SELECTION_2026_10_08.json": "7ab5904c47b36f87a96824accfb884cff7795e82d877502233d7b449331f49b4",
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.json": "5c4cf3f32e4fcec302c347e10a61e008f750e1a76826446a8df7b3e527615d7a",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "simulation/CHICAGO_2023_SELECTED_ROOKIE_EXECUTION.json": "61979a4edc201e314cf7e523393fbe3131f8d3eec547b530ede260729a791511",
+    "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.json": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d"
+  },
+  "source_scope": "Only the 2024 selected named ten plus five, 2025 selected Markkanen, selected rookie/extension terms, and their immediate 2025 rollover ports; not an entire 2025 league or private roster ledger.",
+  "rows": [
+    {
+      "player": "Lauri Markkanen",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_NEW_2025_UPC_CONDITIONAL_LAWFUL_FAMILY",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/0"
+      },
+      "finite_port": "M25B selected one-player fictional agreement; all other FY25 slots and costs remain typed.",
+      "selected_2025_UPC": true,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Alex Caruso",
+      "FY24_slot": "STD",
+      "FY25_class": "2024_LAST_SELECTED_SALARY_YEAR_NEW_2025_UPC_OR_RIGHTS_ACTION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/1"
+      },
+      "finite_port": "Caruso: conditional own-Bird UFA/FA hold and separate valid renewal or other disposition.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Wendell Carter Jr.",
+      "FY24_slot": "STD",
+      "FY25_class": "CARRY_PREVIOUS_UPC_IF_OPERATIVE_SERVICE",
+      "old_last_selected_salary_capyear": 2025,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/2"
+      },
+      "finite_port": "Existing selected UPC salary and Gamma carry; current FY25 amount requires source term join.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": true,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Protagonist",
+      "FY24_slot": "STD",
+      "FY25_class": "CARRY_PREVIOUS_UPC_IF_OPERATIVE_SERVICE",
+      "old_last_selected_salary_capyear": 2025,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/3"
+      },
+      "finite_port": "Existing selected UPC salary and Gamma carry; current FY25 amount requires source term join.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": true,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Zach LaVine",
+      "FY24_slot": "STD",
+      "FY25_class": "CARRY_PREVIOUS_UPC_IF_OPERATIVE_SERVICE",
+      "old_last_selected_salary_capyear": 2025,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/4"
+      },
+      "finite_port": "Existing selected UPC salary and Gamma carry; current FY25 amount requires source term join.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": true,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Coby White",
+      "FY24_slot": "STD",
+      "FY25_class": "CARRY_PREVIOUS_UPC_IF_OPERATIVE_SERVICE",
+      "old_last_selected_salary_capyear": 2025,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/5"
+      },
+      "finite_port": "Existing selected UPC salary and Gamma carry; current FY25 amount requires source term join.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": true,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Chris Duarte",
+      "FY24_slot": "STD",
+      "FY25_class": "2024_LAST_SELECTED_SALARY_YEAR_NEW_2025_UPC_OR_RIGHTS_ACTION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/6"
+      },
+      "finite_port": "Duarte: rookie-scale fourth year ends; timely 2025 QO/right choice and new UPC are separate, no automatic carry.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Walker Kessler",
+      "FY24_slot": "STD",
+      "FY25_class": "TEAM_OPTION_FOR_YEAR4_2025_NOT_EXERCISED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/7"
+      },
+      "finite_port": "2023-24 second rookie season end → lawful notice by 2024-10-31 for 2025-26 fourth Year; if not exercised, no automatic 2025 STD.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "LaMelo Ball",
+      "FY24_slot": "STD",
+      "FY25_class": "CARRY_PREVIOUS_UPC_IF_OPERATIVE_SERVICE",
+      "old_last_selected_salary_capyear": 2028,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/8"
+      },
+      "finite_port": "Existing selected UPC salary and Gamma carry; current FY25 amount requires source term join.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": true,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Jaime Jaquez Jr.",
+      "FY24_slot": "STD",
+      "FY25_class": "TEAM_OPTION_FOR_YEAR3_2025_NOT_EXERCISED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/9"
+      },
+      "finite_port": "2023-24 first rookie season end → lawful notice by 2024-10-31 for 2025-26 third Year; if not exercised, no automatic 2025 STD.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Thaddeus Young",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_2024_ONE_YEAR_MINIMUM_EXPIRES_NEW_2025_DECISION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/selected_new_contracts5/0"
+      },
+      "finite_port": "If qualifying FY24 service is rendered, compare old M24(10,Year1) with candidate M25(10,Year1); do not auto-reissue old UPC, remove accrued Gamma, or treat unconfirmed YOS as actual.",
+      "candidate_minimum_2025_YOS_bucket_if_service": 10,
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Javonte Green",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_2024_ONE_YEAR_MINIMUM_EXPIRES_NEW_2025_DECISION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/selected_new_contracts5/1"
+      },
+      "finite_port": "If qualifying FY24 service is rendered, compare old M24(5,Year1) with candidate M25(6,Year1); do not auto-reissue old UPC, remove accrued Gamma, or treat unconfirmed YOS as actual.",
+      "candidate_minimum_2025_YOS_bucket_if_service": 6,
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Joe Wieskamp",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_2024_ONE_YEAR_MINIMUM_EXPIRES_NEW_2025_DECISION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/selected_new_contracts5/2"
+      },
+      "finite_port": "If qualifying FY24 service is rendered, compare old M24(3,Year1) with candidate M25(4,Year1); do not auto-reissue old UPC, remove accrued Gamma, or treat unconfirmed YOS as actual.",
+      "candidate_minimum_2025_YOS_bucket_if_service": 4,
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Denzel Valentine",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_2024_ONE_YEAR_MINIMUM_EXPIRES_NEW_2025_DECISION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/selected_new_contracts5/3"
+      },
+      "finite_port": "If qualifying FY24 service is rendered, compare old M24(8,Year1) with candidate M25(9,Year1); do not auto-reissue old UPC, remove accrued Gamma, or treat unconfirmed YOS as actual.",
+      "candidate_minimum_2025_YOS_bucket_if_service": 9,
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    {
+      "player": "Tomas Satoransky",
+      "FY24_slot": "STD",
+      "FY25_class": "SELECTED_2024_ONE_YEAR_MINIMUM_EXPIRES_NEW_2025_DECISION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/selected_new_contracts5/4"
+      },
+      "finite_port": "If qualifying FY24 service is rendered, compare old M24(8,Year1) with candidate M25(9,Year1); do not auto-reissue old UPC, remove accrued Gamma, or treat unconfirmed YOS as actual.",
+      "candidate_minimum_2025_YOS_bucket_if_service": 9,
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    }
+  ],
+  "counts": {
+    "source_FY24_STD": 15,
+    "new_2025_Markkanen_UPC_selected": 1,
+    "prior_UPCs_with_selected_2025_salary_year": 5,
+    "rookie_2025_options_not_yet_exercised": 2,
+    "FY24_expiring_Caruso_Duarte_and_five_minimum": 7,
+    "known_new_2025_STD_from_selected_Mark_only": 1,
+    "possible_named_2025_STD_if_all_prior_and_options_and_seven_reagree": 15,
+    "actual_2025_STD15_certified": false,
+    "2024_or_2025_new_rookie_UPCs_inserted": 0
+  },
+  "option_ports": [
+    {
+      "player": "Walker Kessler",
+      "source_contract_pointer": {
+        "path": "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json",
+        "json_pointer": "/selected_contracts"
+      },
+      "prior_option_witness": {
+        "path": "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json",
+        "json_pointer": "/selected_FY24_option_notices/1"
+      },
+      "next_team_option": "2025-26 Year4",
+      "notice_window": "After 2023-24 second Season through 2024-10-31 subject to operative 2023 CBA; current selected notice0",
+      "new_STD_on_exercise": 0,
+      "2025_salary": "RSC2022_Kessler_Year4_if_lawful_notice",
+      "actual_notice_receipt": null
+    },
+    {
+      "player": "Jaime Jaquez Jr.",
+      "source_contract_pointer": {
+        "path": "simulation/CHICAGO_2023_SELECTED_ROOKIE_EXECUTION.json",
+        "json_pointer": "/selected_contract"
+      },
+      "next_team_option": "2025-26 Year3",
+      "notice_window": "After 2023-24 first Season through 2024-10-31 subject to operative 2023 CBA; current selected notice0",
+      "new_STD_on_exercise": 0,
+      "2025_salary": "6/5*S23(16,3) if lawful notice/minimum",
+      "actual_notice_receipt": null
+    }
+  ],
+  "expired_rights_ports": [
+    {
+      "player": "Alex Caruso",
+      "2025_action": "Conditional UFA own-Bird hold vs new lawful UPC/renunciation/other-team signing; no 2021 NTMLE term copied as 2025 live",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/1"
+      }
+    },
+    {
+      "player": "Chris Duarte",
+      "2025_action": "2021 rookie fourth Year completed; issue/decline timely 2025 QO and select RFA/new UPC/other lawful route; QO not automatically issued",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/6"
+      }
+    }
+  ],
+  "minimum_comparison": {
+    "source_FY24_minimum_YOS_buckets": [
+      10,
+      5,
+      3,
+      8,
+      8
+    ],
+    "conditional_FY25_YOS_buckets_if_qualifying_service": [
+      10,
+      6,
+      4,
+      9,
+      9
+    ],
+    "old_salary_family": "M24(10)+M24(5)+M24(3)+2*M24(8)",
+    "new_2025_candidate_family": "M25(10)+M25(6)+M25(4)+2*M25(9)",
+    "actual_2025_signed_contracts": 0,
+    "actual_2025_scale_rounding_or_service_certified": false,
+    "source_pointer": {
+      "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+      "json_pointer": "/execution/selected_new_contracts5"
+    }
+  },
+  "2025_unsigned_rights_and_draft_ports": {
+    "current_2024_draft_rights_charge": "D24_N/D24_A typed source; any selected 2024 UPC must be joined before claiming a 2025 live seat",
+    "source_pointer": {
+      "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+      "json_pointer": "/execution/cost_family/D24_N_and_A"
+    },
+    "future_2025_unsigned_first_round_normal": "N25 conditional if legally owned and unsigned",
+    "future_2025_required_tender_apron": "A25 conditional if legally applicable",
+    "2025_first_or_second_identity_and_holder_selected": false,
+    "2025_second_round_reserve_is_statutory_charge": false,
+    "source_2025_pointer": {
+      "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+      "json_pointer": "/six_cost_categories/3"
+    }
+  },
+  "six_cost_category_join": [
+    {
+      "id": "LIVE25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/0"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    },
+    {
+      "id": "OLD_GAMMA25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/1"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    },
+    {
+      "id": "FA_QO_FRN25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/2"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    },
+    {
+      "id": "DRAFT25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/3"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    },
+    {
+      "id": "EXCEPTIONS25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/4"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    },
+    {
+      "id": "ROSTER_FLOOR_TAX_CASH25",
+      "source_pointer": {
+        "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/six_cost_categories/5"
+      },
+      "status": "TYPED_FY25_OTHER_COMPONENTS_NOT_ZERO"
+    }
+  ],
+  "FY25_named_normal_formula": "Existing5_salary25 + Mark_M25B_2025(38,661,750) + lawful_Kessler_Jaquez_options_if_exercised + separately_selected_new_Caruso_Duarte_min5_salary_or_FA_QO_holds + R25_normal + N25 + E25 + other_deemed",
+  "FY25_named_apron_formula": "Existing5_apron25 + Mark_M25B_2025(38,661,750) + lawful_Kessler_Jaquez_options_if_exercised + separately_selected_new_salaries_and_applicable_QO_FRN/RT + R25_apron + A25 + lawful_deemed",
+  "bounded_selection_sequence": [
+    "Verify 2024 rookie option notices within each lawful window before treating 2025 Kessler/Jaquez as live.",
+    "Carry the five existing selected salary-year contracts and one selected M25B Mark UPC under their operative service/cost conditions.",
+    "Choose finite Caruso/Duarte rights or new contract routes and any of the five new minimums; replace each same-player hold once, retain old Gamma.",
+    "Join actual selected 2024/2025 draft rights or UPCs and other FY25 six-category inputs before 15-STD or whole-cost certification."
+  ],
+  "limits": {
+    "additional_2025_author_contract_decisions_selected": false,
+    "actual_NBA_registration_15_STD": false,
+    "whole_FY25_normal_apron_tax_cash_upper": null,
+    "all_private_Gamma_absence_certified": false,
+    "new_franchise_title_MVP_retirement_choice": false,
+    "G13_G14_complete": false,
+    "actual_context_packs": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  }
+}
