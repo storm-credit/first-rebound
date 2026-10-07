@@ -3,17 +3,14 @@
 **전체 일정은 연결했으며 명단 실행 공백은 HOLD다.** 원NBA 등록 인증·새 재정 선택·최종시즌 확정이 아니다.
 
 - 기존1174경기/2348팀/30팀 분·승패·건강 입력을 참조한다. 벡터나 결과 재계산0.
-- 개막 원PDF4쪽+고정NBA 이동 feed의 선수 사건281개, 명단상태374개와 기존 승인 원본문 해제 보완3건을 재현했다.
+- 개막 원PDF4쪽+고정NBA 이동 feed의 선수 사건281개, 명단상태373개와 기존 승인 원본문 해제 보완3건을 재현했다.
 - 기존 양수분 선수 소속이 포함되는 팀경기2348, 빠지는 팀경기0.
 - 소속 포함은 금융·수락·정확 리그접수 증명이 아니다. 명단 초과/변경 경로가 남으면 실행 완료로 세지 않는다. 원feed 날짜만으로 임시 초과나 hardship를 실제위법으로 판정하지 않는다.
-- 승인 드래프트 착지와F1–F5 변경만 적용했다. Bonga/Homesley/Hutchison/Riller를 임의삭제하거나 계약하지 않는다.
+- 승인 드래프트 착지/F1–F5와 아래 명명된 routine 등록 가족만 적용했다. Bonga/Homesley/Hutchison/Riller의 미선택 경로는 남긴다.
 
 | 남은 유한 관측 | 관측수 | 최초 | 마지막 |
 |---|---:|---|---|
 | STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:CHA: | 29 | 2021-03-26 | 2021-05-16 |
-| STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:CLE: | 4 | 2021-01-11 | 2021-01-20 |
-| STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:HOU: | 6 | 2021-05-07 | 2021-05-16 |
-| STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:SAC: | 1 | 2021-03-25 | 2021-03-25 |
 | STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:WAS: | 58 | 2020-12-23 | 2021-05-18 |
 | GSW_HUTCHISON_OPERATION_UNSELECTED | — | — | — |
 | WAS_BONGA_RIGHTS_TO_STANDARD_UNSELECTED | — | — | — |
@@ -31,6 +28,10 @@ ORL/CLE/DEN의 이미 검문된 등록 증인을 재구성하고 원feed에 빠�
 ## 확인된 명명 예외와 작업 적용
 
 Memphis 구단 2022–23 가이드 PDF136/인쇄134는 Tim Frazier의2021-01-04 hardship 계약과1/14만료를 직접 명시한다. 당시 구단1/4원발표의보존본문도읽었다. 이명명된2021예외를작업family로보존해해당5경기일의일반16명을단순위법/미공표부재게이트로취급하지않는다. 원실제의료조건·리그접수·예비0진단인증은false다.
+CLE는 Fedor1/11 원 hardship 보도와 공개 SalarySwish의 해당 계약1/14종료를 연결한 작업 가족이다.1/14까지 명단을 유지하고 이후 종료한다. II9(e), PDF70/인쇄48의 서면 통지·보상 부속서 지급 경로를 작업 선택하며 잔여 보상을 지우지 않는다. 실제 통지·지급·원계약 정확 waiver·의료 승인 인증이나 다른10일계약 단축 규칙을 만들지 않는다.
+HOU는 Thomas5/7–13, Oliver5/10–16, Reynolds5/14–16의 명명된 hardship 작업 가족을 보존한다. 원 기자 Feigen의 Oliver·Reynolds hardship 본문과 Berman의5/14서명 원 트윗을 직접 읽었고, Thomas의5/14 standard 이동과 Reynolds hardship는 당시 긍정 보도와 연결한다. 실제 부상·접수·정확 급여는 선택하지 않는다.
+SAC는 양수분0인 Parker/Kabengele의 해제를 당시3/25최종 긍정 보도에 맞춰 기존3/25 incoming 전 작업 순서로 둔다. 원feed3/26해제와 구단가이드3/26인수 관측을 보존한다. 거래를 마감 뒤3/26으로 옮기지 않으며 급여 부채를 지우지 않는다. 구단 원 보도문 직접 회수는 미완이며 당시 보고를 공식 본문 직접 인증으로 계수하지 않는다.
+[유한 원자료·선택 및 한계](../research/NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_2026_10_07.md)는 별도 독립검문 대상이다.
 
 ## 다음 실제 실행
 

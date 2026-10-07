@@ -17,6 +17,7 @@ import re
 import unicodedata
 
 from pypdf import PdfReader
+from bs4 import BeautifulSoup
 import build_2020_21_regular_clock_completion as clock
 import build_2021_l2_working_minutes as playin
 import build_2021_all_playoff_coach_plans as playoff
@@ -37,6 +38,7 @@ MAP = 'control/AUTHORITY_MAP.md'
 DIRECTION = 'canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json'
 F45 = 'canon/CHICAGO_2020_21_F4_F5_FOLLOWUP_DECISION.json'
 C2 = 'canon/CLEVELAND_2021_VAREJAO_C2_DECISION.json'
+FINITE = 'research/NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_2026_10_07.json'
 CASCADE = 'simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md'
 DRAFT = ['simulation/2020_DRAFT_' + x + '_RELANDING_BOARD.md' for x in
          ('PATRICK_WILLIAMS','KILLIAN_HAYES','KIRA_LEWIS','ISAIAH_STEWART',
@@ -53,12 +55,20 @@ SOURCES += ['research/DEN_LAL_2021_COACH_PLAN_SOURCE_BRIDGE.json',
             'tools/build_2021_l2_working_minutes.py',
             'tools/build_2021_all_playoff_coach_plans.py']
 SOURCES += ['research/ORLANDO_REGISTRATION_LEGAL_DOMAIN_2026_10_05.json','research/DEN_CLE_REGISTRATION_LEGAL_DOMAIN_2026_10_05.json','research/ORLANDO_PUBLIC_EVENT_COVERAGE_2026_10_05.json','tools/build_orlando_registration_legal_domain.py','tools/build_den_cle_registration_domain.py']
+SOURCES += [FINITE,FINITE.replace('.json','.md')]
 RAW = {
  'opening': ('fr-den-lal-opening-20261006.pdf','75a981d64c87de34f7d7896f3a0b1e695b1ed0a3c0e8d4b6638cef71c489ffa0','https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/goduke.com/documents/2020/12/22/2020_21_Opening_Day_Rosters_12_22_20.pdf?timestamp=20201222074936'),
  'movement': ('fr-nba-player-movement-2026-10-04.json','3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a','https://stats.nba.com/js/data/playermovement/NBA_Player_Movement.json'),
  'cba2017': ('fr-2017-cba.pdf','66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a','https://nbpa.com/cba')}
 RAW['tw2021'] = ('fr-shams-twoway20210311-oembed.json','048b552f91bc67e7f8084dbd06b0a62cad014a167a457166c70400dfd3c3a44d','https://publish.twitter.com/oembed?url=https://twitter.com/ShamsCharania/status/1370149027786932228&omit_script=true')
 RAW['mem_hardship_guide']=('fr-roster-execution-source-20261007/MEM_GUIDE.pdf','036f34540f0086be21662033dc37727550fe8809f44b364cdbc8f74906235f9c','https://s3.grizzliesapp.com/assets/media_guides/MG_22-23_Media_Guide_FullBook.pdf')
+RAW.update({
+ 'cle_fedor_hardship':('fr-roster-execution-source-20261007/CLE_FEDOR_JAN11_OEMBED.json','07c0264c9e6cdb7236089204a5e4fcad5652672e5ef70b64b315b79573220563','https://twitter.com/ChrisFedor/status/1348641725934395392'),
+ 'cle_ferrell_reported_end':('fr-roster-execution-source-20261007/CLE_FERRELL_SS.html','5f3e3a0e3ecd29f4d8a6d53314f2cba6b27b29d52343e769cd164bc3302c8eef','https://www.salaryswish.com/players/yogi-ferrell'),
+ 'sac_march25_release_report':('fr-roster-execution-source-20261007/SAC_MAR25_HR.html','ea9088611a05b9ecfd4702a400214e34c743301d50b2071d8dfae422b688023b','https://www.hoopsrumors.com/2021/03/kings-expected-to-waive-jabari-parker.html'),
+ 'sac_retrospective_guide':('fr-roster-execution-source-20261007/SAC_GUIDE_2021_22.pdf','61613ab4d5d6868e406c0bae84d7f376256b96f4c5bd9e95012c20186a7132a5','https://cdn.nba.com/teams/uploads/sites/1610612758/2022/07/kings_media_guide_2021-22_FINAL.pdf'),
+ 'hou_reynolds_original_signing':('fr-roster-execution-source-20261007/HOU_REYNOLDS_BERMAN_MAY14_OEMBED.json','15816664a534f66b8edf92b4f5080d2fa0c99c960fdbd48688d11ceebc3a1103','https://twitter.com/MarkBermanFox26/status/1393237820727250945'),
+ 'hou_reynolds_dated_report':('fr-roster-execution-source-20261007/HOU_REYNOLDS_HR.html','64ff987ed6ce82c7d35cc4b9aa1d7afcfc387bd420bf4b9d0e4b78a457edd9e1','https://www.hoopsrumors.com/2021/05/cameron-reynolds-to-sign-with-rockets.html')})
 TEAM_IDS = {2737:'ATL',2738:'BOS',2739:'CLE',2740:'NOP',2741:'CHI',2742:'DAL',2743:'DEN',2744:'GSW',2745:'HOU',2746:'LAC',2747:'LAL',2748:'MIA',2749:'MIL',2750:'MIN',2751:'BKN',2752:'NYK',2753:'ORL',2754:'IND',2755:'PHI',2756:'PHX',2757:'POR',2758:'SAC',2759:'SAS',2760:'OKC',2761:'TOR',2762:'UTA',2763:'MEM',2764:'WAS',2765:'DET',2766:'CHA'}
 PDF_HEADERS = [
  ['ATLANTA','BOSTON','BROOKLYN','CHARLOTTE','CHICAGO'],
@@ -173,10 +183,61 @@ def adjust_event(e):
     return e
 
 def expiry_for(e,regular_dates):
+    if e['team']=='CLE'and norm(e['player'])==norm('Yogi Ferrell')and e['date']=='2021-01-11':
+        return '2021-01-14' # Positive public end model, not a generic ten-day shortening.
     if not e['ten_day']:return None
     third=[d for d in regular_dates[e['team']]if d>=e['date']]
     end=(date.fromisoformat(e['date'])+timedelta(days=9)).isoformat()
     return max(end,third[2]if len(third)>=3 else end)
+
+def finite_working_sources():
+    """Positive named public families; never certify private medical/receipt facts."""
+    pack=read(FINITE);records={r['id']:r for r in pack['source_records']}
+    fedor=json.loads((TEMP/RAW['cle_fedor_hardship'][0]).read_text())['html']
+    if 'Yogi Ferrell'not in fedor or'hardship exception'not in fedor or'January 11, 2021'not in fedor:
+        raise ValueError('CLE named hardship source changed')
+    cle=BeautifulSoup((TEMP/RAW['cle_ferrell_reported_end'][0]).read_text(),'html.parser').get_text(' ',strip=True)
+    if not re.search(r'Signing Team\s*:\s*CLE.*?Signing Date\s*:\s*January 11, 2021.*?CONTRACT EXPIRES:\s*Jan 14, 2021',cle):
+        raise ValueError('CLE reported contract end source changed')
+    sac=BeautifulSoup((TEMP/RAW['sac_march25_release_report'][0]).read_text(),'html.parser').select_one('.entry-content')
+    if sac is None:raise ValueError('SAC positive release body missing')
+    sac_text=sac.get_text(' ',strip=True)
+    if 'Kabengele has officially been released'not in sac_text or'Kings have officially waived Parker'not in sac_text:
+        raise ValueError('SAC positive release statements changed')
+    guide_text=PdfReader(TEMP/RAW['sac_retrospective_guide'][0]).pages[276].extract_text()
+    if digest(guide_text.encode())!='c07fa2f3cdf3602701b6d85e83a50bd12c5f13c72d2d14b02f54bd955d14c0a4':
+        raise ValueError('SAC guide page changed')
+    berman=json.loads((TEMP/RAW['hou_reynolds_original_signing'][0]).read_text())['html']
+    if 'Cam Reynolds for the final two games'not in berman or'May 14, 2021'not in berman:
+        raise ValueError('HOU original named signing report changed')
+    hou=BeautifulSoup((TEMP/RAW['hou_reynolds_dated_report'][0]).read_text(),'html.parser').select_one('.entry-content')
+    if hou is None or'completed using the hardship exception'not in hou.get_text(' ',strip=True):
+        raise ValueError('HOU Reynolds positive hardship report changed')
+    # These two original beat articles were directly read through web. Their
+    # separate HTTP challenge bodies are never passed off as original raw text.
+    web_pins={
+      'HOU_FEIGEN_2021_05_29':('https://www.houstonchronicle.com/texas-sports-nation/rockets/article/Rockets-roster-review-Cameron-Oliver-16207723.php','2021-05-29','Feigen reports the season ended with nineteen roster players including two hardship additions, and identifies Oliver as a hardship signing.'),
+      'HOU_REYNOLDS_FEIGEN_MAY30':('https://www.houstonchronicle.com/texas-sports-nation/rockets/article/2020-21-Rockets-roster-review-Cam-Reynolds-16207786.php','2021-05-30','Feigen reports Reynolds signed for the final days through hardship, and the season ended with two hardship additions.')}
+    for rid,(url,day,claim)in web_pins.items():
+        r=records[rid]
+        if (r['url'],r['source_date'],r['paraphrase'],r['body_recovered'],r['raw_body_cache_recovered'])!=(url,day,claim,True,False):
+            raise ValueError('original web report semantic source changed '+rid)
+    selections=pack['working_implementation_selections']
+    termination=PdfReader(TEMP/RAW['cba2017'][0]).pages[69].extract_text()
+    if 'providing written notice to the player'not in termination or'paying only such sums'not in termination:
+        raise ValueError('ten-day written-notice source changed')
+    rule=pack['primary_termination_rule']
+    if rule['article']!='II9(e)'or rule['pdf_page']!=70 or rule['page_text_sha256']!=digest(termination.encode())or rule['whole_2020_amended_rules_certified']:
+        raise ValueError('termination rule scope changed')
+    if selections['CLE_FERRELL']!={'standard_roster_end_inclusive':'2021-01-14','hardship_dates_inclusive':['2021-01-11','2021-01-14'],'end_is_working_public_contract_model_not_actual_waiver_certificate':True,'remaining_salary_erased':False,'working_written_termination_notice_selected':True,'contract_exhibit_sums_preserved_not_zeroed':True,'actual_notice_or_payment_certified':False}:
+        raise ValueError('CLE working family changed')
+    if selections['HOU_HARDSHIP']!={'named_intervals':[{'player':'Khyri Thomas','from':'2021-05-07','to':'2021-05-13'},{'player':'Cameron Oliver','from':'2021-05-10','to':'2021-05-16'},{'player':'Cameron Reynolds','from':'2021-05-14','to':'2021-05-16'}],'medical_prerequisites_certified':False,'actual_league_approval_certified':False,'new_contract_money_selected':False}:
+        raise ValueError('HOU working family changed')
+    if selections['SAC_ATOMIC_RELEASES']!={'players':['Jabari Parker','Mfiondu Kabengele'],'feed_date_preserved':'2021-03-26','contemporaneous_report_date':'2021-03-25','working_roster_release_date':'2021-03-25','ordering':'RELEASE_BOTH_BEFORE_EXISTING_MARCH25_INCOMING_ASSIGNMENTS','guide_march26_is_trade_execution_date':False,'trade_deadline_execution_shifted':False,'reported_financial_obligations_erased':False,'actual_receipt_clock':None}:
+        raise ValueError('SAC atomic family changed')
+    if pack['authority_limits']['new_financial_terms_selected']or pack['authority_limits']['actual_registration_certified']:
+        raise ValueError('finite source family authority changed')
+    return selections
 
 def build():
     raw={}
@@ -186,6 +247,7 @@ def build():
         raw[key]={'url':url,'cache_path':str(TEMP/fn),'raw_sha256':pinned,'bytes':len(b),'new_collection':False}
     text=PdfReader(TEMP/RAW['cba2017'][0]).pages[68].extract_text()
     if 'encompassing three (3)'not in text or 'ten (10) days'not in text:raise ValueError('10day source changed')
+    finite=finite_working_sources()
     games=input_models();historical,locators=opening();roster=deepcopy(historical)
     authority=(ROOT/MAP).read_text(encoding='utf-8-sig')
     for term in ('Wiseman→Edwards→LaMelo AUTHOR_LOCKED','Hayes New Orleans 13 AUTHOR_LOCKED','Bey 22 AUTHOR_LOCKED','Nnaji 24 AUTHOR_LOCKED','Hampton Dallas 31 AUTHOR_LOCKED','Charlotte Terry 32 AUTHOR_LOCKED'):
@@ -220,6 +282,16 @@ def build():
         raise ValueError('original ORL release semantic source changed')
     for e in supplemental:
         events.append(dict(id='ORL_COMPLEMENT:'+e['original_source_id'],date=e['date'],type='Waive',team='ORL',player=e['player'],origin=None,contract_class='STANDARD',ten_day=False,source_row=None,source_row_sha256=None,source_path='research/ORLANDO_PUBLIC_EVENT_COVERAGE_2026_10_05.json',source_event=e,classification='PRESERVED_POSITIVE_ORIGINAL_TEAM_RELEASE',actual_execution_certified=False,omitted_by_approved_direction=False))
+    sac_releases=[]
+    for e in events:
+        if e['team']=='SAC'and e['type']=='Waive'and e['date']=='2021-03-26'and norm(e['player'])in map(norm,finite['SAC_ATOMIC_RELEASES']['players']):
+            if any(g['team']=='SAC'and g['date']=='2021-03-25'and any(norm(n)==norm(e['player'])and s>0 for n,s in g['seconds'].items())for g in games):
+                raise ValueError('SAC atomic release conflicts with preserved positive minutes')
+            e['original_feed_reported_date']=e['date'];e['date']='2021-03-25'
+            e['classification']='ROUTINE_FICTIONAL_ATOMIC_RELEASE_ORDER_WITH_POSITIVE_MARCH25_PUBLIC_REPORT'
+            e['working_family_source']=FINITE;e['financial_obligations_erased']=False
+            e['actual_receipt_clock']=None;sac_releases.append(e['player'])
+    if set(sac_releases)!=set(finite['SAC_ATOMIC_RELEASES']['players']):raise ValueError('SAC finite release source events changed')
     events.sort(key=lambda e:(e['date'],0 if e['type']=='Waive'else 1,e['source_row']if e['source_row']is not None else -1))
     regular_dates={t:sorted({g['date']for g in games if g['phase']=='REGULAR'and g['team']==t})for t in roster}
     tw=json.loads((TEMP/RAW['tw2021'][0]).read_text(encoding='utf-8-sig'))
@@ -294,10 +366,16 @@ def build():
             # postseason eligibility. Do not import another season's TW ban.
         for n in g['starters']:
             if g['seconds'].get(n,0)<=0:raise ValueError('source starter nonpositive')
-        hardship=None
+        hardships=[]
         if t=='MEM'and'2021-01-04'<=day<'2021-01-14'and norm('Tim Frazier')in v:
-            hardship='MEM_FRAZIER_JAN04_POSITIVE_HARDSHIP_CANDIDATE_CARRY'
-        if states[sid]['standard_count']>15 and not(hardship and states[sid]['standard_count']==16):
+            hardships.append('MEM_FRAZIER_JAN04_POSITIVE_HARDSHIP_CANDIDATE_CARRY')
+        if t=='CLE'and'2021-01-11'<=day<='2021-01-14'and norm('Yogi Ferrell')in v:
+            hardships.append('CLE_FERRELL_JAN11_POSITIVE_HARDSHIP_REPORTED_END_WORKING_FAMILY')
+        if t=='HOU':
+            for h in finite['HOU_HARDSHIP']['named_intervals']:
+                if h['from']<=day<=h['to']and norm(h['player'])in v:
+                    hardships.append('HOU_'+norm(h['player']).upper()+'_NAMED_HARDSHIP_WORKING_FAMILY')
+        if states[sid]['standard_count']>15+len(hardships):
             unresolved.append(gap('STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION',t,day,detail=states[sid]['standard_count']))
         if states[sid]['two_way_count']>2:unresolved.append(gap('TW_COUNT_ABOVE2',t,day,detail=states[sid]['two_way_count']))
         if t=='GSW':unresolved.append('GSW_HUTCHISON_OPERATION_UNSELECTED')
@@ -307,7 +385,8 @@ def build():
           'minute_source':{'path':g['source'],'pointer':g['pointer']},
           'positive_membership_covered':not any(x.startswith('POSITIVE_')for x in unresolved),
           'unresolved_gap_ids':sorted(set(unresolved)),
-          'modeled_absent_source_names':g['absent'],'working_named_hardship_family':hardship})
+          'modeled_absent_source_names':g['absent'],'working_named_hardship_families':hardships,
+          'working_named_hardship_capacity':len(hardships),'actual_hardship_medical_or_league_approval_certified':False})
     gaps=[{'id':key,'kind':key.split(':')[0],'occurrences':len(rows),'first_date':min(r['date']for r in rows),'last_date':max(r['date']for r in rows),'observations':rows}for key,rows in sorted(issues.items())]
     for key,description in [('GSW_HUTCHISON_OPERATION_UNSELECTED','G1/G2/G3 original-direction implementation remains unselected; historical GSW roster is only a candidate.'),('WAS_BONGA_RIGHTS_TO_STANDARD_UNSELECTED','Bonga44 rights/stash vs current positive NBA family needs a finite standard-contract bridge; no automatic removal.'),('WAS_HOMESLEY_SIGNING_UNSELECTED','May15 Homesley signing and retained Brown/Trent require a selected roster implementation; do not automatically omit.'),('CHA_RILLER_UDFA_CONTRACT_CARRY_UNSELECTED','Approved Riller UDFA status does not select original Charlotte two-way contract.')]:
         gaps.append({'id':key,'kind':'NAMED_CANDIDATE_EXECUTION_GAP','description':description,'actual_financial_or_destination_selection':None})
@@ -332,6 +411,9 @@ def build():
         'TW_2021_postseason_source':'TW_20210311_PRIMARY_REPORT in research/DEN_LAL_2021_COACH_PLAN_SOURCE_BRIDGE.json; original report, not full amended CBA',
         'name_aliases':{'Enes Freedom':'Enes Kanter','Xavier Tillman Sr.':'Xavier Tillman','Cam Reynolds':'Cameron Reynolds','Nicolas Claxton':'Nic Claxton','KJ Martin':'Kenyon Martin Jr.'},
         'JTA_boundary_dates':{'opening_PDF':'2020-12-22 row not printed','feed':'2020-12-21','existing_official_guide':'2020-12-22','exact_time':None},
+        'finite_roster_implementation_source':FINITE,'SAC_trade_deadline_assignment_shifted':False,
+        'SAC_guide_march26_is_exact_trade_execution_date':False,'SAC_release_date_source_disagreement_preserved':True,
+        'CLE_reported_Jan14_end_not_generic_ten_day_shortening':True,
         'unknown_private_event_absence_required':False,'unsupported_contract_or_waiver_selection_added':False},
       'scope':{'complete_schedule_index':True,'complete_supplied_public_30team_candidate_reconstruction':True,'all_positive_membership_complete':covered==2348,
         'complete_financial_execution':False,'working_roster_execution_complete':False,'actual_registration_certified':False,
@@ -340,6 +422,7 @@ def build():
       'upstream_validation':['regular validate + full source reconstruction','L2 full source reconstruction','playoff full source reconstruction','accepted ORL and DEN-CLE registration witness full reconstruction'],
       'named_hardship_source_and_working_application':{'MEM_FRAZIER_JAN04':{'source_raw_id':'mem_hardship_guide','pdf_page':136,'printed_page':134,'page_text_sha256':digest(mem_text.encode()),'positive_original_fact':'Team guide states Frazier January4 signing under hardship roster rules, January14 expiry.','contemporaneous_original_body_observation':{'url':'https://web.archive.org/web/20210106234526/https://www.nba.com/grizzlies/news/memphis-grizzlies-sign-tim-frazier-210104','date':'2021-01-04','locator':'heading134/date138/paragraph140 in directly read web extraction','raw_sha256':None,'original_body_read':True},'working_application':'Preserve this named 2021 hardship implementation family under existing delegated health/season design; not source-date count illegality or actual receipt/medical certification.','working_inclusive_dates':['2021-01-04','2021-01-13'],'actual_medical_prerequisites_certified':False,'reserve_zero_diagnosis':None,'actual_league_approval_certified':False}},
       'accepted_registration_reuse':{'ORL_release_complements':[list(x)for x in expected_release],'scope':'Positive original release events and season-specific legal domain reused; no actual receipt/medical certificate or private absence requirement added','source_rules':accepted_orl['contemporaneous_public_rules']} ,
+      'finite_working_implementation_selections':finite,
       'CBA_locator':{'article':'II9(a)','pdf_page':69,'printed_page':47,'text_sha256':digest(text.encode())}}
 
 def validate(data,expected=None):
@@ -353,7 +436,7 @@ def markdown(d):
       f"- 개막 원PDF4쪽+고정NBA 이동 feed의 선수 사건{s['public_player_events']}개, 명단상태{s['distinct_roster_states']}개와 기존 승인 원본문 해제 보완{s['accepted_original_release_complements']}건을 재현했다.",
       f"- 기존 양수분 선수 소속이 포함되는 팀경기{s['positive_membership_covered_team_games']}, 빠지는 팀경기{s['positive_membership_gap_team_games']}.",
       '- 소속 포함은 금융·수락·정확 리그접수 증명이 아니다. 명단 초과/변경 경로가 남으면 실행 완료로 세지 않는다. 원feed 날짜만으로 임시 초과나 hardship를 실제위법으로 판정하지 않는다.',
-      '- 승인 드래프트 착지와F1–F5 변경만 적용했다. Bonga/Homesley/Hutchison/Riller를 임의삭제하거나 계약하지 않는다.',
+      '- 승인 드래프트 착지/F1–F5와 아래 명명된 routine 등록 가족만 적용했다. Bonga/Homesley/Hutchison/Riller의 미선택 경로는 남긴다.',
       '', '| 남은 유한 관측 | 관측수 | 최초 | 마지막 |','|---|---:|---|---|']
     for x in d['named_gaps']:
         lines.append(f"| {x['id']} | {x.get('occurrences','—')} | {x.get('first_date','—')} | {x.get('last_date','—')} |")
@@ -365,6 +448,10 @@ def markdown(d):
       '가상 사건을 보존할 수 있다는 인과 모형과 실제 계약·당일 접수의 사실 인증을 구별한다. 모든 비공개 해제부재나 실제 의료기록을 새필수조건으로 요구하지 않는다.',
       '', '## 확인된 명명 예외와 작업 적용', '',
       'Memphis 구단 2022–23 가이드 PDF136/인쇄134는 Tim Frazier의2021-01-04 hardship 계약과1/14만료를 직접 명시한다. 당시 구단1/4원발표의보존본문도읽었다. 이명명된2021예외를작업family로보존해해당5경기일의일반16명을단순위법/미공표부재게이트로취급하지않는다. 원실제의료조건·리그접수·예비0진단인증은false다.',
+      'CLE는 Fedor1/11 원 hardship 보도와 공개 SalarySwish의 해당 계약1/14종료를 연결한 작업 가족이다.1/14까지 명단을 유지하고 이후 종료한다. II9(e), PDF70/인쇄48의 서면 통지·보상 부속서 지급 경로를 작업 선택하며 잔여 보상을 지우지 않는다. 실제 통지·지급·원계약 정확 waiver·의료 승인 인증이나 다른10일계약 단축 규칙을 만들지 않는다.',
+      'HOU는 Thomas5/7–13, Oliver5/10–16, Reynolds5/14–16의 명명된 hardship 작업 가족을 보존한다. 원 기자 Feigen의 Oliver·Reynolds hardship 본문과 Berman의5/14서명 원 트윗을 직접 읽었고, Thomas의5/14 standard 이동과 Reynolds hardship는 당시 긍정 보도와 연결한다. 실제 부상·접수·정확 급여는 선택하지 않는다.',
+      'SAC는 양수분0인 Parker/Kabengele의 해제를 당시3/25최종 긍정 보도에 맞춰 기존3/25 incoming 전 작업 순서로 둔다. 원feed3/26해제와 구단가이드3/26인수 관측을 보존한다. 거래를 마감 뒤3/26으로 옮기지 않으며 급여 부채를 지우지 않는다. 구단 원 보도문 직접 회수는 미완이며 당시 보고를 공식 본문 직접 인증으로 계수하지 않는다.',
+      '[유한 원자료·선택 및 한계](../research/NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_2026_10_07.md)는 별도 독립검문 대상이다.',
       '', '## 다음 실제 실행','',
       'named_gaps의 각 선수/날짜에 이미 존재하는 구단 원문·계약기간·승인델타를 연결한다. 공백은 새 임의계약으로 채우지 않고 원자료의 누락/날짜 차이와 미선택 대체 경로를 구분한다.',
       '전체membership와자리/법적family 실행이 검문된 뒤 S2 closing_witness를 별도 판정한다. 이번파일A/K·원장·시즌승격0, v0.30 PARTIAL·설계/원고 CLOSED·원고0.',
@@ -379,12 +466,27 @@ def self_test(expected):
       ('false_complete',lambda x:x['scope'].__setitem__('working_roster_execution_complete',True)),
       ('erase_gap',lambda x:x['named_gaps'].pop()),
       ('fake_raw_hash',lambda x:x['raw_sources']['movement'].__setitem__('raw_sha256','0'*64))]
+    tests += [('late_trade_selection',lambda x:x['event_policy'].__setitem__('SAC_trade_deadline_assignment_shifted',True)),
+      ('hardship_medical_certificate',lambda x:x['team_game_bindings'][0].__setitem__('actual_hardship_medical_or_league_approval_certified',True))]
     for label,mutate in tests:
         x=deepcopy(expected);mutate(x)
         try:validate(x,expected)
         except ValueError:continue
         raise ValueError('false pass '+label)
-    return len(tests)
+    from unittest.mock import patch
+    original_read=read
+    for label,mutate in [('new_exact_financial_choice',lambda x:x['authority_limits'].__setitem__('new_financial_terms_selected',True)),
+                         ('SAC_late_assignment',lambda x:x['working_implementation_selections']['SAC_ATOMIC_RELEASES'].__setitem__('trade_deadline_execution_shifted',True)),
+                         ('arbitrary_hardship_capacity',lambda x:x['working_implementation_selections']['HOU_HARDSHIP']['named_intervals'].append({'player':'Unsupported Player','from':'2021-05-01','to':'2021-05-31'}))]:
+        def altered(p):
+            x=original_read(p)
+            if p==FINITE:mutate(x)
+            return x
+        with patch(__name__+'.read',side_effect=altered):
+            try:finite_working_sources()
+            except ValueError:continue
+            raise ValueError('source semantic false pass '+label)
+    return len(tests)+3
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--write',action='store_true');ap.add_argument('--check',action='store_true');ap.add_argument('--self-test',action='store_true');a=ap.parse_args()

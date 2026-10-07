@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-07 [유한 명단·A02 E3/E4 검문](../reviews/FINITE_ROSTER_AND_A02_E3_E4_REVIEW_2026_10_07.md): CLE/HOU/SAC의 명명된 가상 실행을 원자료/법적 경계에 연결하여 슬롯 공백은 CHA/WAS2팀군·별도 계약경로4건으로 줄었다. membership2348/2348·분/승패 변경0. E3의 하루 우선순위와 E4의 코너 복귀 실패를 등록해국소기능13/전체미배정767(A01미배정27·A02미배정50)이다. 법적12/12·F5/5·A1/3·K0/4·시즌false·실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.
+
 2026-10-07 [F5 전체분기 수리·A3 실행·A02 진입](../reviews/F5_A3_AND_A02_CONTINUATION_REVIEW_2026_10_07.md): 누락F5 네벡터를수리해1080승패변경0/2156타벡터불변을독립검문했다. 결과1174→순위/진출/15시리즈→origin/control60의 A3실행을종료하여 법적12/12·F5/5·A1/3·K0/4·시즌false다. A01계획미배정27은새사건의무가아니며 별도가상F1–F6 뒤 A02 E1/E2를등록해국소기능11/전체미배정769다. 조상중복검문만줄이고원천/의미검문을보존한다. 실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.
 
 2026-10-07 [DEN 공개법적·E8/E9 통합 검문](../reviews/DEN_PUBLIC_LEGAL_AND_E8_E9_REVIEW_2026_10_07.md): DEN 공개 보호·전환·종료 규칙의3자산분기를 원자료·독립 재검문·Claude반증 수리 후 수용했다. 법적12PASS/0HOLD·F5/5, A0/3·K0/4·최종시즌false를 구분한다. E8 국내기록/미국권한 질문분리와 E9 기존프렙 준비의사를 등록하여 국소기능9/A01잔여27/전체미배정771이다. 정확private계약/동의/미래는null·과거private전체증명의기각은보존한다. 실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전배치 이력이다.
@@ -101,7 +103,7 @@ last_reviewed: 2026-09-12
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_11 / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_13 / FINAL_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
