@@ -1,0 +1,114 @@
+{
+  "tool": "Antigravity",
+  "scope": "PRIMARY_2023_CBA_PUBLIC_EVENT_LIMIT_AND_FIBA_EXCEPTION_COLLECTION_ONLY",
+  "source_url": "https://nbpa.com/cba",
+  "prompt_sha256": "773eabb6c428bd55324b6756b51488687a536dffbb7c4d909dfae4e1ef2fcede",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 132.255,
+    "process_budget_seconds": 150,
+    "print_timeout_seconds": 120,
+    "stdout_sha256": "d3c0e0d9a7c65b70810eece38291c47020ec09cdba88411250c519b0760f722a",
+    "stderr_sha256": "8e71b48256aa9bc45b5f7ba74e842195331fd1751950767951f3b2a9494b07d2",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "a09329dd-7d18-4fe4-9470-90fdd5724ac6",
+      "status": "SUCCESS",
+      "response": "",
+      "duration_seconds": 44.8436273,
+      "num_turns": 1
+    },
+    "response_recovered": false,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "dc94e0fe9f2173d40bbc4423dac91ba2d139ddab9b059039bafbacb3cad60a29"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 19,
+        "tool_output_sha256": "cac72786a6c2e559a2043abca502e0f78cf9b7cf7b63d581444140e472e735a8"
+      },
+      {
+        "step_index": 10,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 10,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "d3c0e0d9a7c65b70810eece38291c47020ec09cdba88411250c519b0760f722a",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "",
+      "char_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "truncated": false,
+      "available": false,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": false,
+  "primary_body_bytes_independently_certified": false,
+  "Asian_Games_legal_classification_selected": false,
+  "whole_gate_certified": false,
+  "persistent_auth_or_settings_changed": false
+}

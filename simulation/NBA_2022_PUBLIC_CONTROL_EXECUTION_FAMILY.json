@@ -1,0 +1,1554 @@
+{
+  "id": "NBA_2022_PUBLIC_CONTROL_EXECUTION_FAMILY",
+  "baseline_main": "f943e0983b4e3df96d452a61e0402a3a7877dada",
+  "status": "SIXTY_PUBLIC_NAMED_CONTROL_FUNCTIONS_ROUTINE_WORKING_FAMILY_PREPARED_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2022_NAMED_ASSET_CONTROL_MAP.json": "ca1be50a889fa8aa1ad47cc696d64c7bfc00cc7ebd77b2bdf9ede815ca88d4f2",
+    "research/NBA_2022_PRIOR_FIRST_CLAIM_REFINEMENT_2026_10_08.json": "0af7a125c8441129c0fd6f2aed242109bd2bca72ad44959ca65c2977c18f541b",
+    "simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.json": "139c1d6a90d1bd7ee672020af96e03bf6767599637902c329b1e772fdfcf63d9",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json": "bf8087a89af09a817c0a3eb5d4df906a906575a56016c873912db00eccdca9db",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "simulation/CHICAGO_MILWAUKEE_2021_22_SELECTED_KEEPER_RESULTS.json": "fcb8298501701dc21bef9199ffac2d10456384f808ffe2a8b4222cd9e7b0e583",
+    "simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.csv": "5a80a0dab1573afe65d50f85a5620fecc75c327ccea651cbd0bcadf1208f957d",
+    "tools/build_2022_public_control_execution_family.py": "42e5bd033e174a161587ef3ac6d82bf37946e64a6f759b1bceaa047db423785b"
+  },
+  "hash_convention": "Repository BOMstrip CRLF/CR→LF UTF8; raw bytes unchanged",
+  "raw_provenance": [
+    {
+      "id": "BULLS",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-bulls-guide.pdf",
+      "url": "https://chibullsdigital.com/mediaGuide/2022_ChicagoBulls_MG_NBA_HI.pdf",
+      "raw_sha256": "113bf68ccc0d5b891f3bbc942a96f2c32b96caa6d3438299ebe92fc3ffebfe9e",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        398,
+        400
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "398": "dc89371176e3ae7bc1602fecfb5147dad5a907c98fbf9cdae53b2d9a3b16bcbf",
+        "400": "bd6bf7f87ca5df902503b297f72f196a8f8285e1129f8121e46858807af4a0f9"
+      }
+    },
+    {
+      "id": "ORL",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\orlando-magic-media-guide-2022-23.pdf",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612753/2022/11/orlando-magic-media-guide-2022-23.pdf",
+      "raw_sha256": "63550e97068a14cbd60d8b461d1f15c0bb898652c9813fdbfa113509f5a8f92c",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        116
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "116": "c01762d7bb5a177b745c03163e177f1560ac9c946dc1a8cf6144e9dd63a4de67"
+      }
+    },
+    {
+      "id": "ATL2018",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-control2022-20261007\\hawks2018.pdf",
+      "url": "https://atlantahawkspr.wordpress.com/wp-content/uploads/2018/05/atlanta-hawks-2018-nba-draft-lottery-fact-sheet.pdf",
+      "raw_sha256": "e269c7a00691037c4cadf63782718102a28bd0b8dd8722458c37988bea3e891a",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        2
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "2": "fba387f14c4fa282527edf56716364ef2e0ecf78ef63e72a4faecb69cec23df5"
+      }
+    },
+    {
+      "id": "ATL2020",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-control2022-20261007\\hawks_2020_fact_sheet.pdf",
+      "url": "https://atlantahawkspr.wordpress.com/wp-content/uploads/2020/08/atlanta-hawks-2020-nba-draft-lottery-fact-sheet.pdf",
+      "raw_sha256": "ef82b33affc3c0243129d40f10c06a95cadd4ae2d6e254094aeb0de82f4e59cf",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        2
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "2": "9acbdee26d714d5f736249ee0a1c5c0336646a16064bf885888a66c73e91be81"
+      }
+    },
+    {
+      "id": "CLE",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-control2022-20261007\\cle2022.pdf",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612739/2022/10/04-season.pdf",
+      "raw_sha256": "505fc2b82cf6fa44006d76380a0c8314c335265fd85a0c7cd29ff2a4097e364c",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        7
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "7": "80557b50b9de1cd31134e336f7c28e274b98f0636d857cfcc388073048c726a2"
+      }
+    },
+    {
+      "id": "GSW",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-control2022-20261007\\gsw2022.pdf",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612744/2022/10/Golden_State_Warriors_2022_23_Media_Guide.pdf",
+      "raw_sha256": "322a7a509a8f2f9da01f8e6c70f185c855cae9b9c20aa5e201672ebdca3fa45b",
+      "classification": "OFFICIAL_TEAM_PDF",
+      "PDF_pages_1_based": [
+        457,
+        458
+      ],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "457": "3a8475224b2f2624af212d0e4d6adeb9277aae3c6d3e131f598c6d56eb71829a",
+        "458": "217a23bc9543b473e95a6e54db58374a6f05c55ef8bdf277c8e3df9aff8b2069"
+      }
+    },
+    {
+      "id": "BI_CHI",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-bi-cap-20210422.html",
+      "url": "https://web.archive.org/web/20210422012709id_/http://www.basketballinsiders.com/chicago-bulls-team-salary/",
+      "raw_sha256": "332a9ea81c3f01a934b31d61c2a57ea8a287c9cb1956741545c97b09ccdfb985",
+      "classification": "ORIGINAL_JOURNALIST_PUBLISHED_RESEARCH_NOT_TEAM_CONTRACT_CERT",
+      "PDF_pages_1_based": [],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "HTML": "5e31c7aa5c1ceb5195e4aa89de18fd2b66f27819b81fbf089398d01d5ec83607"
+      }
+    },
+    {
+      "id": "BI_DEN",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-denver-cost-2026-10-06\\BI_DEN_archive.html",
+      "url": "https://web.archive.org/web/20210422002709id_/https://www.basketballinsiders.com/denver-nuggets-team-salary/",
+      "raw_sha256": "d6a41cd3209a62c428578ea14c7acc1fe7338df4c206bf871b8e4de41b5af942",
+      "classification": "ORIGINAL_JOURNALIST_PUBLISHED_RESEARCH_NOT_TEAM_CONTRACT_CERT",
+      "PDF_pages_1_based": [],
+      "extraction": "PyMuPDF get_text() UTF8; HTML BeautifulSoup get_text space strip; clause matching collapses whitespace only",
+      "extracted_text_sha256": {
+        "HTML": "a60eef08f6fcfd8fecad570fcb36237210769ad4bacf81b1450b304d8dbbaa31"
+      }
+    }
+  ],
+  "web_body_observations": [
+    {
+      "id": "OLADIPO_REPORT",
+      "url": "https://www.miamiherald.com/sports/spt-columns-blogs/barry-jackson/article251588273.html",
+      "date": "2021-06-01",
+      "channel": "ORIGINAL_REPORTER_BODY_READ",
+      "ref": "turn2332view1",
+      "facts": "MIA lottery protected; HOU two best HOU/BKN/MIA; MIA worst. Protected fallback DEN/PHI lesser second to HOU.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "OLADIPO_ORIGINAL_REPORT",
+      "url": "https://www.espn.com/nba/story/_/id/31135332/houston-rockets-trade-victor-oladipo-miami-heat-source-says",
+      "date": "2021-03-25",
+      "channel": "ORIGINAL_REPORTER_INDEXED_BODY_READ",
+      "ref": "turn2330search5",
+      "facts": "Oladipo/Olynyk/Bradley; first swap. S2 separately preserves the three-player event.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "IND_LINK_REPORT",
+      "url": "https://www.thescore.com/nba/news/2054177",
+      "date": "2020-11-18",
+      "channel": "SECONDARY_REPORT_OF_MAGIC_ANNOUNCEMENT_NUMERIC_TEMPLATE",
+      "ref": "turn2332view2",
+      "facts": "IND second to ORL the year after IND conveys to BKN; BKN 45–60 protection until 2023.",
+      "raw_body_adopted": false,
+      "exact_original_contract_certified": false
+    },
+    {
+      "id": "IND_CURRENT_TEAM",
+      "url": "https://www.nba.com/pacers/news/pacers-enter-2022-nba-draft-lottery-eyes-top-pick",
+      "date": "2022-04",
+      "channel": "INDEXED_TEAM_BODY_READ_NORMAL_OPEN_IFRAME",
+      "ref": "turn2335search0",
+      "facts": "Original current IND second owed ORL via MIL; original ranks not transported.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "TILLMAN_COMPLETED",
+      "url": "https://www.nba.com/news/2020-nba-draft-trade-tracker",
+      "date": "2020-11-19",
+      "channel": "INDEXED_NBA_TRANSACTION_TRACKER_READ",
+      "ref": "turn2323search6",
+      "facts": "Tillman rights to MEM; Woodard rights and 2022 second to SAC.",
+      "raw_body_adopted": false,
+      "separate_team_release_HTTP403_not_adopted": true
+    },
+    {
+      "id": "ENNIS_COMPLETED",
+      "url": "https://www.nba.com/pistons/news/detroit-pistons-acquire-forward-james-ennis-iii",
+      "date": "2018-02-08",
+      "channel": "INDEXED_TEAM_BODY_READ",
+      "ref": "turn2315search4",
+      "facts": "Ennis to DET; Brice Johnson and 2022 second to MEM. Composite identity supported by BI_CHI.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "CLARKSON_COMPLETED",
+      "url": "https://www.nba.com/cavaliers/news/features/exum-trade-191224",
+      "date": "2019-12-24",
+      "channel": "TEAM_BODY_READ",
+      "ref": "turn2336search1",
+      "facts": "Clarkson to UTA; Exum and SAS2022/GSW2023 seconds to CLE.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "HUGHES_COMPLETED",
+      "url": "https://www.nba.com/pelicans/pelicans-complete-trade-jazz-nba-draft-2020-elijah-hughes",
+      "date": "2020-11-19",
+      "channel": "INDEXED_TEAM_BODY_READ",
+      "ref": "turn2316search0",
+      "facts": "Hughes rights to UTA for UTA2022 second to NOP.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "CLE_ATL_NOP_SECONDARY_CROSS_CHECK",
+      "url": "https://www.basketball-reference.com/teams/NOP/2020_transactions.html",
+      "date": "2019-07-06",
+      "channel": "SECONDARY_TRANSACTION_CROSS_CHECK",
+      "ref": "turn2339search4",
+      "facts": "ATL transfers CLE conditional first family to NOP. T1 separately preserves NOP2021 second.",
+      "raw_body_adopted": false,
+      "nominal_team_release_unread": "https://www.nba.com/pelicans/pelicans-acquire-rights-alexander-walker-hayes-silva"
+    },
+    {
+      "id": "CLE_NAMED_FIRST_REPORT",
+      "url": "https://www.nba.com/news/busy-night-reported-trades-early-nba-draft",
+      "date": "2019-06-21",
+      "channel": "ORIGINAL_AP_REPORT_ON_NBA_INDEXED_BODY_READ",
+      "ref": "turn2342search4",
+      "facts": "ATL sends protected Cleveland2020 first to NOP.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "ATL_NOP_COMPLETED_PUBLIC_FAMILY",
+      "url": "https://www.nba.com/pelicans/news/clone-pelicans-news-around-web-7-5-2019",
+      "date": "2019-07-08",
+      "channel": "INDEXED_TEAM_COMPLETED_AND_SIGNING_BODY_READ",
+      "ref": "turn2342search1",
+      "facts": "Completed July6 ATL trade includes future first to NOP; specific Cleveland identity from original AP report.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "FREE_AGENCY_2020_CLOCK",
+      "url": "https://www.nba.com/news/nba-board-of-governors-approves-adjustments-to-collective-bargaining-agreement",
+      "date": "2020-11-11",
+      "channel": "INDEXED_NBA_OFFICIAL_RELEASE_BODY_READ",
+      "ref": "turn2341search2",
+      "facts": "Negotiations Nov20 18ET; signing Nov22 12:01ET.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "FREE_AGENCY_2021_CLOCK",
+      "url": "https://pr.nba.com/nba-salary-cap-for-2021-22-season-set-at-112-414-million/",
+      "date": "2021-08-02",
+      "channel": "NBA_COMMUNICATIONS_OFFICIAL_RELEASE_BODY_READ",
+      "ref": "turn2341search6",
+      "facts": "Negotiations Aug2 18ET; moratorium ends Aug6 noonET.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "MIL_PENALTY",
+      "url": "https://www.nba.com/news/nba-imposes-penalty-on-bucks-for-early-free-agency-discussions",
+      "date": "2020-12-21",
+      "channel": "INDEXED_NBA_BODY_READ",
+      "ref": "turn2323search5",
+      "facts": "Original MIL2022 second rescinded for Bogdanovic early discussions; no completed player contract needed.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "CHI_MIA_PENALTY",
+      "url": "https://www.nba.com/news/chicago-bulls-miami-heat-free-agency-violations",
+      "date": "2021-12-01",
+      "channel": "INDEXED_NBA_BODY_READ_IN_UPSTREAM_MAP",
+      "facts": "Original CHI/MIA next-available seconds rescinded for early Lonzo/Lowry discussions.",
+      "raw_body_adopted": false
+    }
+  ],
+  "failed_collection_log": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-control2022-20261007\\remaining_prefix_collection.json",
+  "failed_HTTP403_or_timeout_bodies_adopted": false,
+  "policy": {
+    "preserved_public_prior_assignment_family_selected": true,
+    "exercise_beneficial_existing_swaps": true,
+    "new_2022_offseason_or_deadline_trade": false,
+    "MIL_Bogdanovic_early_contact_selected": false,
+    "CHI_Lonzo_early_contact_selected": false,
+    "MIA_Lowry_early_contact_selected": false,
+    "2020_free_agent_talks_not_before_ET": "2020-11-20T18:00:00",
+    "2021_free_agent_talks_not_before_ET": "2021-08-02T18:00:00",
+    "fictional_permitted_contacts_only": true,
+    "actual_past_contact_absence_certified": false,
+    "actual_discipline_absence_certified": false,
+    "original_MIL_PHI_forfeitures_automatically_copied": false,
+    "player_or_UPC_or_Tender_selection": false
+  },
+  "positive_and_omission_dependencies": {
+    "S2_Oladipo_completed_working_player_atom": [
+      {
+        "id": "FEED:5455",
+        "player": "Kelly Olynyk",
+        "from": "MIA",
+        "to": "HOU",
+        "date": "2021-03-25",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY",
+        "row_sha256": "954750967a8d46cfea3094bfbc3c318cfda3160df99d673a9823310e6168c4f9"
+      },
+      {
+        "id": "FEED:5456",
+        "player": "Avery Bradley",
+        "from": "MIA",
+        "to": "HOU",
+        "date": "2021-03-25",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY",
+        "row_sha256": "6d9a321b6b74c8810bfa232f64470b0a1523acba7b26c17786c47c0ca247a1ce"
+      },
+      {
+        "id": "FEED:5458",
+        "player": "Victor Oladipo",
+        "from": "HOU",
+        "to": "MIA",
+        "date": "2021-03-25",
+        "classification": "PUBLIC_ORIGINAL_DATE_EVENT_WORKING_CARRY",
+        "row_sha256": "b3515913fac8114331fd76c33714e7f5972004d42ed0efb836027f994939d73b"
+      }
+    ],
+    "IND2021_second_to_BKN": {
+      "pick": 43,
+      "year": 2021
+    },
+    "CLE2020_retained_first": 5,
+    "CLE2021_second_to_NOP_preserved": true,
+    "CHI_route": "G1A_PLUS_M1",
+    "nonselected_original_deadline_atoms": [
+      "NOP/MEM JV+Graham",
+      "CLE/MIN Rubio",
+      "CLE/IND LeVert",
+      "BKN/DET Jordan",
+      "DAL/WAS Porzingis",
+      "PHX/IND JalenSmith",
+      "UTA/MEM Aldama/Butler",
+      "UTA/POR Ingles",
+      "CHI/SAS DeRozan",
+      "WAS/SAS Dinwiddie-fiveway",
+      "TOR/SAS Dragic/Young",
+      "PHI/BKN Harden/Simmons",
+      "BOS/SAS White/Richardson/Langford"
+    ]
+  },
+  "sixty_origin_control_functions": [
+    {
+      "id": "ATL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "ATL",
+      "current_public_family_holder": "ATL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        19
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "BKN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "BKN",
+      "current_public_family_holder": "MIA",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        23
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "BOS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "BOS",
+      "current_public_family_holder": "BOS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CHA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CHA",
+      "current_public_family_holder": "CHA",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CHI_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CHI",
+      "current_public_family_holder": "CHI",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        17,
+        18
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CLE_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CLE",
+      "current_public_family_holder": "CLE",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DAL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DAL",
+      "current_public_family_holder": "DAL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        21
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DEN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DEN",
+      "current_public_family_holder": "DEN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        22
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DET_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DET",
+      "current_public_family_holder": "DET",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "GSW_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "GSW",
+      "current_public_family_holder": "GSW",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        17,
+        18
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "HOU_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "HOU",
+      "current_public_family_holder": "HOU",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "IND_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "IND",
+      "current_public_family_holder": "IND",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        20
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "LAC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "LAC",
+      "current_public_family_holder": "OKC",
+      "rule": "PRESERVED_PG_OR_HARDEN_PRIOR_FIRST",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "LAL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "LAL",
+      "current_public_family_holder": "NOP",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MEM_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MEM",
+      "current_public_family_holder": "MEM",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIA",
+      "current_public_family_holder": "HOU",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        16
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIL",
+      "current_public_family_holder": "MIL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        30
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIN",
+      "current_public_family_holder": "MIN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "NOP_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "NOP",
+      "current_public_family_holder": "NOP",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "NYK_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "NYK",
+      "current_public_family_holder": "NYK",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        13,
+        14
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "OKC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "OKC",
+      "current_public_family_holder": "OKC",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "ORL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "ORL",
+      "current_public_family_holder": "ORL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "PHI_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "PHI",
+      "current_public_family_holder": "PHI",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        28
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "PHX_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "PHX",
+      "current_public_family_holder": "OKC",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "POR_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "POR",
+      "current_public_family_holder": "POR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        15
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "SAC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "SAC",
+      "current_public_family_holder": "SAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "SAS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "SAS",
+      "current_public_family_holder": "SAS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        14
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "TOR_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "TOR",
+      "current_public_family_holder": "TOR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        14
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "UTA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "UTA",
+      "current_public_family_holder": "MEM",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        29
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "WAS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "WAS",
+      "current_public_family_holder": "WAS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "ATL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "ATL",
+      "current_public_family_holder": "ATL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        49
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "BKN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "BKN",
+      "current_public_family_holder": "BKN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        53
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "BOS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "BOS",
+      "current_public_family_holder": "BOS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CHA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CHA",
+      "current_public_family_holder": "CHA",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        34
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CHI_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CHI",
+      "current_public_family_holder": "SAC",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        47,
+        48
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "CLE_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CLE",
+      "current_public_family_holder": "NOP",
+      "rule": "KORVER2020_TOP10_NONCONVEY_THEN_TWO_SECONDS_JV_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        35
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DAL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DAL",
+      "current_public_family_holder": "DAL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        51
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DEN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DEN",
+      "current_public_family_holder": "MIN",
+      "rule": "CHANDLER_BUTLER_BOL_SECOND_COMPOSITE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        52
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "DET_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DET",
+      "current_public_family_holder": "WAS",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        32
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "GSW_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "GSW",
+      "current_public_family_holder": "GSW",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        47,
+        48
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "HOU_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "HOU",
+      "current_public_family_holder": "CLE",
+      "rule": "PRIOR_KNIGHT_SHUMPERT_CLAIM_LEVERT_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        37
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "IND_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "IND",
+      "current_public_family_holder": "ORL",
+      "rule": "PRIOR2021_BKN_DELIVERY_THEN_BROGDON_ORL_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        50
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "LAC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "LAC",
+      "current_public_family_holder": "LAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "LAL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "LAL",
+      "current_public_family_holder": "CHI",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MEM_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MEM",
+      "current_public_family_holder": "MEM",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        41
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIA",
+      "current_public_family_holder": "IND",
+      "rule": "PRIOR_OKPALA_CLAIM_LEVERT_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        46
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIL",
+      "current_public_family_holder": "MIL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        60
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "MIN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIN",
+      "current_public_family_holder": "MIN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        38
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "NOP_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "NOP",
+      "current_public_family_holder": "NOP",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        40
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "NYK_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "NYK",
+      "current_public_family_holder": "NYK",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        44
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "OKC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "OKC",
+      "current_public_family_holder": "OKC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        31
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "ORL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "ORL",
+      "current_public_family_holder": "ORL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        33
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "PHI_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "PHI",
+      "current_public_family_holder": "MIA",
+      "rule": "CHANDLER_BUTLER_BOL_SECOND_COMPOSITE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        58
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "PHX_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "PHX",
+      "current_public_family_holder": "PHX",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "POR_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "POR",
+      "current_public_family_holder": "POR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        43
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "SAC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "SAC",
+      "current_public_family_holder": "SAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        39
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "SAS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "SAS",
+      "current_public_family_holder": "CLE",
+      "rule": "DIAW_THEN_CLARKSON_PRIOR_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        42
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "TOR_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "TOR",
+      "current_public_family_holder": "GSW",
+      "rule": "BURKS_GRIII_PRIOR_SECOND_CHA_TOP54_NOT_CONVEYED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        45
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "UTA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "UTA",
+      "current_public_family_holder": "NOP",
+      "rule": "HUGHES2020_PRIOR_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        59
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    },
+    {
+      "id": "WAS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "WAS",
+      "current_public_family_holder": "CLE",
+      "rule": "PRIOR_HILL_DELLAVEDOVA_CLAIM_RUBIO_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "rank_domain": [
+        36
+      ],
+      "exact_rank": null,
+      "callable": "allocation_family(rank_parameters, pinned_sources)"
+    }
+  ],
+  "joint_groups": [
+    {
+      "id": "CHI_DET_LAL",
+      "origins": [
+        "CHI",
+        "DET",
+        "LAL"
+      ],
+      "holders_by_origin": {
+        "CHI": "SAC",
+        "DET": "WAS",
+        "LAL": "CHI"
+      },
+      "existing_beneficial_options_exercised_as_working_family": true
+    },
+    {
+      "id": "DEN_PHI",
+      "origins": [
+        "DEN",
+        "PHI"
+      ],
+      "holders_by_origin": {
+        "DEN": "MIN",
+        "PHI": "MIA"
+      },
+      "MIA_lottery_fallback_to_HOU_not_triggered": true
+    },
+    {
+      "id": "HOU_BKN_MIA_FIRST",
+      "origins": [
+        "HOU",
+        "BKN",
+        "MIA"
+      ],
+      "holders_by_origin": {
+        "HOU": "HOU",
+        "BKN": "MIA",
+        "MIA": "HOU"
+      },
+      "source_S2_three_player_atom_preserved": true
+    }
+  ],
+  "source_map_identity_candidates_superseded": [
+    {
+      "origin": "MIA",
+      "round": 1,
+      "reason": "Positive preserved Oladipo swap; MIA16/BKN23."
+    },
+    {
+      "origin": "CLE",
+      "round": 2,
+      "reason": "Positive original Korver first conversion; CLE2020locked5 and JV atom omission."
+    }
+  ],
+  "sanction_causality": {
+    "historical_2022_forfeited_origin_claims": [
+      "MIL_R2",
+      "PHI_R2_MIA_HELD"
+    ],
+    "selected_lawful_contact_family_no_forfeiture": true,
+    "this_is_fictional_timing_choice_not_actual_absence_certification": true,
+    "CHI_Lonzo_cause_not_selected": true,
+    "new_evidence_of_preserved_illegal_contact_reopens_relevant_claim": true
+  },
+  "summary": {
+    "origin_functions": 60,
+    "first_functions": 30,
+    "second_functions": 30,
+    "coupled_tie_inputs_checked": 48,
+    "allocation_cells_checked": 2880,
+    "current_holder_invariant_origins": 60,
+    "CHI_first_claims": 1,
+    "CHI_second_claims": 1,
+    "holder_counts": {
+      "ATL": 2,
+      "BKN": 1,
+      "BOS": 2,
+      "CHA": 2,
+      "CHI": 2,
+      "CLE": 4,
+      "DAL": 2,
+      "DEN": 1,
+      "DET": 1,
+      "GSW": 3,
+      "HOU": 2,
+      "IND": 2,
+      "LAC": 1,
+      "MEM": 3,
+      "MIA": 2,
+      "MIL": 2,
+      "MIN": 3,
+      "NOP": 5,
+      "NYK": 2,
+      "OKC": 4,
+      "ORL": 3,
+      "PHI": 1,
+      "PHX": 1,
+      "POR": 2,
+      "SAC": 3,
+      "SAS": 1,
+      "TOR": 1,
+      "WAS": 2
+    },
+    "exact_draws_selected": 0,
+    "players_selected": 0,
+    "UPC_or_Tender_selected": 0
+  },
+  "scope": {
+    "whole_sixty_public_control_function_candidate_complete": true,
+    "published_original_family_plus_explicit_lawful_fictional_conditions": true,
+    "every_unreported_private_claim_absent_certified": false,
+    "full_private_contract_AST_equivalence_certified": false,
+    "exact_2022_lottery_or_tie_draw_selected": false,
+    "source_numeric_IND_link_is_reported_template_not_original_contract_cert": true,
+    "future_2023_2027_rank_delivery_acceptance_certified": false,
+    "new_author_lock": false,
+    "root_adoption_of_this_new_family_recorded": false,
+    "independent_review_completed": false,
+    "whole_macro3": false,
+    "season_winners_or_health_modified": false
+  },
+  "remaining_finite_consumers": [
+    "Select recorded working lottery/top4 and first-tie draws, then evaluate coupled second order; holders here are invariant in current domains.",
+    "New2022draftee/participation/Tender/UPC uses are separate; no forced sixty signed rookies.",
+    "2022–23 result/postseason and2023entitlements remain separate macro3 exit inputs."
+  ],
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript": false
+}

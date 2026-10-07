@@ -1,0 +1,57 @@
+{
+  "independent_review_completed": true,
+  "classification": "EXACT_PRIOR_45_PRESERVED_A10_LOCAL_FUNCTION_46_ACCEPTED_WHOLE_G13_G14_FALSE",
+  "reviewer": "g11_access independent physical join and returned semantic mutation review",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_g13_a10_function_execution_register.py": "6c35df0c52b46e8250b2af81f92c99648a36d9d9bf6c8e0becca62dcfe076a9d",
+    "control/G13_A10_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "32680a5b29052ac3d6e3c267ad1acb9ede37f4741c0180fbe71cd22035cc634d",
+    "control/G13_A10_FUNCTION_EXECUTION_REGISTER_2026_10_08.md": "183a5348a1d590b9b83183d03630a05fbba0cf33bee4e04072ca3261743f130b",
+    "control/G13_CURRENT_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "6671a0492e88bd9d9db8ac499df265616581d78a467542437f4db6626ca1ec85",
+    "reviews/G13_CURRENT_FUNCTION_EXECUTION_REGISTER_G11_INDEPENDENT_REVIEW_2026_10_08.json": "c5077f3f4231f0b8778711db896c22be9ca9dbc6af273715c038e06c3736c9e7",
+    "design/A10_E1_FINAL_EPISODE_FUNCTION.json": "78f109d927d07e111f06a9bcb277cd0d7ecdfb867a184c6761f2dfe2d433eaf8",
+    "reviews/A10_E1_FINAL_EPISODE_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "109cd23a60515d59d07c5b38f41f1a4fc3f2cfac89d889c6bb1648cd32cfbf6e"
+  },
+  "current_check_passed": true,
+  "saved_rebuild_equal": true,
+  "prior_45_full_rows_and_53_direct_pins_preserved": true,
+  "counts": {
+    "registered_local_functions": 46,
+    "routed_subacts": 28,
+    "unrouted_subacts": 14,
+    "unassigned_planned_slots": 734,
+    "source_pins": 71
+  },
+  "new_function": {
+    "id": "A10-EF-001",
+    "order": 46,
+    "planned_slot": 513,
+    "subact": "A10-S1",
+    "exact_entry_matches_prior45_exit": true,
+    "exact_exit_matches_reviewed_output": true
+  },
+  "pre_repair_false_passes_observed": [
+    "returned BASE first function exit reversal",
+    "returned NEW A10 exit to first-option and title achieved"
+  ],
+  "repaired_returned_semantic_controls": [
+    {
+      "mutation": "BASE old first exit",
+      "rejected": true,
+      "error": "Returned consumer object differs from physical control/G13_CURRENT_FUNCTION_EXECUTION_REGISTER_2026_10_08.json"
+    },
+    {
+      "mutation": "NEW A10 exit",
+      "rejected": true,
+      "error": "Returned consumer object differs from physical design/A10_E1_FINAL_EPISODE_FUNCTION.json"
+    }
+  ],
+  "scope_boundaries": {
+    "whole_g13_complete": false,
+    "whole_g14_complete": false,
+    "manuscript_allowed": false,
+    "first_option_or_title_certified": false,
+    "public_2023_game_certified": false
+  },
+  "limits": "This peer checks the new consumer and exact preserved 45-row snapshot. It does not revalidate the full older ancestor generator DAG or certify whole A10/2024–25 season."
+}
