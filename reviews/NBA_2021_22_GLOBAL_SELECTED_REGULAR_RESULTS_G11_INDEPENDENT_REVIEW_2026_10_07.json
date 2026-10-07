@@ -1,0 +1,72 @@
+{
+  "id": "NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_SELECTED_FICTIONAL_1230_REGULATION_RESULT_FAMILY_WITH_NAMED_DATE_MODELS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_2021_22_global_selected_regular_results.py": "98d0ad39c771cf75724e37d9f85bdd1450bc393bcf1ddc6d627d757efec01b61",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.md": "82c64365efa5b3ae0d26185dfda11d8adf4f1c4cd7e9bffafb4251455d1554f7",
+    "simulation/NBA_2021_22_REGULAR_BASELINE.csv": "92869bc987896a4172c5e54e3684d2604c5c24d828e9bcf3cc27af30ebc83644",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "388515d0ddac42b6caa3263c7601d917b6c32c3e8a9fc7ccca2d647cf24f5f78",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32"
+  },
+  "currentness": {
+    "producer_source_pins": 41,
+    "stale_pins": 0,
+    "saved_validate_errors": [],
+    "markdown_equals_producer_render": true
+  },
+  "independent_direct_recalculation": {
+    "physical_baseline_unique_game_ids": 1230,
+    "team_date_views": 2460,
+    "teams": 30,
+    "played_per_team": 82,
+    "shared_role_templates": 35,
+    "each_template_elapsed_seconds": 2880,
+    "each_template_player_seconds": 14400,
+    "five_distinct_positions_every_block": true,
+    "clock_or_named_owner_errors": 0,
+    "standard_named_owners": 445,
+    "two_way_named_owners": 14,
+    "duplicate_named_owners": 0,
+    "exact_Fraction_weighted_BPM_home_two_point_and_halfpoint_b2b_errors": 0,
+    "original_CHI_winners_identical": 82,
+    "Chicago_selected_wins": 52,
+    "Chicago_selected_losses": 30,
+    "league_total_wins": 1230,
+    "league_total_losses": 1230,
+    "non_CHI_result_rows": 1148,
+    "score_or_overtime_imported_rows": 0,
+    "historical_result_field_read_for_selection": false
+  },
+  "state_transitions": {
+    "CHI_NORMAL": 58,
+    "CHI_COBY_OUT": 24,
+    "GSW_REHAB_OUT": 41,
+    "GSW_KLAY_WORKING_RETURN": 41,
+    "ORL_BASE_ABSENT": 47,
+    "ORL_RECOVERY": 35,
+    "NOP_ZION_OUT": 72,
+    "NOP_ZION_WORKING_RETURN": 10,
+    "BKN_IRVING_INSTITUTIONAL_OUT": 58,
+    "BKN_IRVING_AWAY_RETURN": 24,
+    "BKN_NYK_TOR_host_out_rows": 4,
+    "state_date_rule_mismatches": 0
+  },
+  "independent_negative_controls": [
+    {
+      "mutation": "Changed a returned Brooklyn selected source winner in both physical and direct loaders without changing frozen source bytes.",
+      "result": "REJECTED AssertionError: Returned physical source meaning changed: simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.json"
+    },
+    {
+      "mutation": "Inserted an exact score into one returned non-Chicago selected game.",
+      "result": "REJECTED AssertionError: Actual score/OT/receipt promoted"
+    }
+  ],
+  "limits": [
+    "All 1,230 selected regulation winners are delegated fictional model outputs. Coincident matches with historical winners do not imply historical winner import.",
+    "BKN road availability and other returns are selected fictional institutional/health states; actual venue access, clinical status and private receipts remain uncertified.",
+    "Standings tie-breaks, play-in/playoff, 2022 draft control, actual scores and overtime, whole Macro 3/4/6, Context Packs and manuscript permission remain outside this review."
+  ]
+}
