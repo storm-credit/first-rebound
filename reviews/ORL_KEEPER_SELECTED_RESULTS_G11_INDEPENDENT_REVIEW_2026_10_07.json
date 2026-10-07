@@ -1,0 +1,48 @@
+{
+  "id": "ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_orl_2021_keeper_and_chicago_selected_results.py": "fadb813ffb25ce56759d3c6dedcd54641c762fb46c8bf0a441d83fc54c2b13e1",
+    "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json": "0b028cd28271954dc78c547475f128457cc9194d08797787e7fcd4ebf619c147",
+    "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.md": "af44d1de7ba7350f7036ca0aadf3aab84e1f38c846cd7b6b06134a8fe080da72"
+  },
+  "source_scope": {
+    "current_parent_pins": "All source hashes match physical files",
+    "original_NBA_profile": "Original Orlando 2021 profile names the original incumbents and Brazdeikis restricted/Moritz unrestricted/Ennis unrestricted; original Suggs/Franz/Preston rights do not replace selected T1 Mobley #3 and Herbert Jones #33",
+    "selected_rights": "Mobley #3 separate Chicago-alternate Orlando RSC, Herbert #33 valid unsigned second-round tender; Carter Chicago, Vucevic/Aminu/Nnaji Orlando, Hampton Dallas, Fournier Boston maintained",
+    "contract_route": "15 STD, 0 TW: original live UPCs and Gamma preserved, Ennis expiry without new UPC, Brazdeikis applicable ordinary QO then separate voluntary minimum UPC, Moritz minimum UPC, Bamba original option condition and Fultz/Isaac December 2020 extensions carried",
+    "health_boundary": "BASE_ABSENT Fultz/Isaac zero in Nov26/Jan3; RECOVERY modeled Fultz20/Isaac20 in Jan23/Feb1, without historical return-date or clinical certification"
+  },
+  "direct_recomputation": {
+    "role_blocks_per_state": 24,
+    "clock_seconds_per_state": 2880,
+    "ORL_player_seconds_per_state": 14400,
+    "five_unique_on_court_per_block": true,
+    "active_each": 12,
+    "positive_BASE_ABSENT": 11,
+    "positive_RECOVERY": 10,
+    "selected_results": [
+      {"game_id": "0022100283", "ORL_state": "BASE_ABSENT", "winner": "CHI", "CHI_margin_per100": 2.817642363863132},
+      {"game_id": "0022100555", "ORL_state": "BASE_ABSENT", "winner": "CHI", "CHI_margin_per100": 7.317642363863132},
+      {"game_id": "0022100701", "ORL_state": "RECOVERY", "winner": "CHI", "CHI_margin_per100": 1.8955351009314618},
+      {"game_id": "0022100769", "ORL_state": "RECOVERY", "winner": "CHI", "CHI_margin_per100": 5.895535100931462}
+    ],
+    "fractional_margin_matches_source": true
+  },
+  "independent_counterexample": {
+    "mutation": "Returned RECOVERY blocks 0 and 3 swap positions, keeping Fultz/Cole total seconds unchanged",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Selected chronology changed"
+  },
+  "current_check": "PASS",
+  "limitations": {
+    "actual_private_contract_receipts_or_exact_price": false,
+    "actual_Fultz_Isaac_medical_status_or_return_date": false,
+    "neutral_Isaac_prior_is_historical_zero_ability": false,
+    "whole_private_teamcost_or_82_results": false,
+    "score_or_overtime_selected": false,
+    "manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_KEEPER_RESULTS"
+}

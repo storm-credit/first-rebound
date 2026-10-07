@@ -1,0 +1,51 @@
+{
+  "id": "HOU_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_hou_2021_keeper_and_chicago_selected_results.py": "9459ab0f3cc7661173bc9a74ec5a875551d8d01789cec2b0c078c281628d548f",
+    "simulation/CHICAGO_HOUSTON_2021_22_SELECTED_KEEPER_RESULTS.json": "b2ba4278dc1d6e25961ee9fa10d3dd0b0afd55d563088660b55f449c2badca0d",
+    "simulation/CHICAGO_HOUSTON_2021_22_SELECTED_KEEPER_RESULTS.md": "2a7854e24b769a50e91883f9d7d58fe3e13c9ee101004be365010314ab76a7f0"
+  },
+  "source_scope": {
+    "current_parent_pins": "All normalized parent source hashes match physical files",
+    "original_NBA_profile": "Nine named original under-contract Rockets, Bradley team option and Olynyk/Exum/Brown/Wilson/Nwaba free agency distinguished from selected alternate rights",
+    "selected_rights": "Olynyk already assigned to selected DET family and removed from HOU live roster; T1 Green #2, Sengun #16, Garuba #21 and Christopher #24 retained as separate fictional rookie-scale contracts",
+    "contract_route": "15 STD, 0 TW: nine live contracts, Bradley original option, Nwaba voluntary legal minimum and four selected rookie contracts; all prior earned Gamma/FA/QO/FRN costs retained symbolically",
+    "price_scope": "Green/Sengun existing statutory scale functions and Garuba/Christopher new 120-percent statutory functions remain distinct from reported-reference cents and actual private UPC",
+    "health_scope": "Wall 28-minute cooperative role is a fictional availability selection, not import of actual mutual-sit policy or clinical status"
+  },
+  "direct_recomputation": {
+    "role_blocks": 24,
+    "clock_seconds": 2880,
+    "HOU_player_seconds": 14400,
+    "five_unique_on_court_per_block": true,
+    "active": 12,
+    "positive_players": 11,
+    "selected_results": [
+      {"game_id": "0022100271", "date": "2021-11-24", "winner": "CHI", "CHI_margin_per100": 1.5894431250882963},
+      {"game_id": "0022100459", "date": "2021-12-20", "winner": "CHI", "CHI_margin_per100": 5.089443125088296}
+    ],
+    "fractional_margin_matches_source": true
+  },
+  "independent_counterexample": {
+    "mutation": "Returned selected role blocks 0 and 3 swap positions with each player's total seconds unchanged",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Selected chronology changed"
+  },
+  "portability_defect_and_repair": {
+    "observed_before_repair": "Plain Windows Python --check raised UnicodeDecodeError because observed_profile.json was read using default cp949",
+    "owner_repair": "Profile observation is read with explicit UTF-8 encoding",
+    "plain_Windows_check_after_repair": "PASS",
+    "output_roles_margins_and_policy_unchanged": true
+  },
+  "current_check": "PASS",
+  "limitations": {
+    "actual_private_contract_receipts_or_exact_price": false,
+    "actual_medical_or_player_acceptance_certified": false,
+    "whole_private_teamcost_or_82_results": false,
+    "score_or_overtime_selected": false,
+    "manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_KEEPER_RESULTS_AFTER_UTF8_REPAIR"
+}

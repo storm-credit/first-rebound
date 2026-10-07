@@ -1,0 +1,48 @@
+{
+  "id": "CHI82_FORTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "scope": "Current 44 selected fictional regulation results joined to the physical 82-game Chicago calendar and delegated Chicago health selection.",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "1ba7bb4836ba6692783c626134b99178fb365b2bbef2b26fc515582c8c18fb4c",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "0ac0d12545163fe09cd95ce45c8e43ee58600c2b7d079ecf97c8ba106d3033dd",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "f93955b83f25eb9390d3aad1ec713daeb3c9bf31db24fd152b20192b3c5112c6"
+  },
+  "direct_checks": {
+    "all_parent_source_pins_current": true,
+    "physical_calendar_date_home_away_82_exact": true,
+    "delegated_CHI_health_state_82_exact": true,
+    "named_result_source_date_state_winner_join": "44 of 44 exact",
+    "ORL_four_exact_review_pointers": true,
+    "HOU_two_exact_review_pointers": true,
+    "LAL_two_corrected_owner_review_pointers": "Both LAL dates point to reviews/LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json and preserve winners LAL then CHI",
+    "selected": 44,
+    "CHI_wins": 25,
+    "opponent_wins": 19,
+    "remaining": 38,
+    "remaining_is_exact_calendar_order_complement": true,
+    "next_game_id": "0022100296",
+    "next_date": "2021-11-27",
+    "previous_38_review_retained_as_immutable_main": "afa1f68ac6916993d037e214be85378ccf4f7559",
+    "temporary_42_not_promoted_as_historical_review": true,
+    "all_scores_OT_and_actual_medical_private_certification_unselected": true
+  },
+  "independent_counterexample": {
+    "mutation": "Returned ORL first winner CHI to ORL while physical source file and date remain unchanged",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Returned input differs from physical source: simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "current_repin_counterexample": {
+    "mutation": "Returned corrected LAL first winner was flipped to CHI without changing physical source bytes",
+    "result": "REJECTED ValueError Returned input differs from physical source: simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "current_check": "PASS",
+  "limitations": {
+    "remaining_38_results_selected": false,
+    "whole_standings_or_2022_pick": false,
+    "actual_clinical_private_contract_or_game_receipts_certified": false,
+    "whole_macro3_G13_G14_G16_certified": false,
+    "manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_44_OF_82_WORKING_REGULATION_RESULTS"
+}

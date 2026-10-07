@@ -1,6 +1,6 @@
 {
   "id": "CHICAGO_2021_22_SELECTED_RESULTS_LEDGER",
-  "baseline_main": "46ddea1133f44031207baabb4a791bbbe101c9a6",
+  "baseline_main": "afa1f68ac6916993d037e214be85378ccf4f7559",
   "source_sha256": {
     "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.json": "5a6da17a8d98d0fd991a0f9286380b71dbc1c6a3ae714a7f66ce58b51379ff74",
     "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json": "333f5bd496ed59260d21e26bb42615b13cb0a11560409a798c9f905cfe66dac6",
@@ -24,8 +24,7 @@
     "simulation/CHICAGO_GOLDEN_STATE_2021_22_SELECTED_KEEPER_RESULTS.json": "6fdb37fda8b1b2f22fb17287f61af22d12039bcb8b65449550e6c0188a06cb3f",
     "reviews/GSW_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "716fb80c5096dd04415ab4658f0a2c0133d6b77fddb42cc8e8b75354a8aca869",
     "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json": "e771fbe025fd8833c2418f2de89cd8fbd03cf4cd68f66051b20ab2a96416f143",
-    "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json": "92155abf3558befceabac5ca83dcaeb8024a2d72ddc1924912b3b72e7828aa9c",
-    "reviews/LAL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "b9d6a6f3c79b881aad797a584327ca925398e63d3b99000abfdf7b540aa8d54a",
+    "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json": "69ba2ac011cfcb9b8e5a8230f5109109265825cdcd7192786007aa65eb908595",
     "reviews/LAC_T4_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json": "3d3f2a3b289bcdc7fecfcf76d1378daacd29fe8ed1fc15f5918280f61959c95f",
     "simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json": "f3fb709734752810c1b79db46e3bfac2cb6109ceb83105038fef5684a49cbd92",
     "reviews/POR_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "ccd9ce1b8a5807e8700e05a683c208cd7876800b0b3a904deb4cd2c988bd2808",
@@ -33,7 +32,12 @@
     "reviews/DEN_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "baeff0b15a61f523fdb14d1632b9a148afdb20af52a23c9c3ffefe31b37ee443",
     "simulation/CHICAGO_INDIANA_2021_22_SELECTED_KEEPER_RESULTS.json": "9e8358e08c41fd7cd99da99dc73618a6d1ed3d92a2de017fbc8aabf70d61965c",
     "reviews/IND_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "d81359aed38b40ebdbe44ed3d2b2746d3388e1b38ca0bb0cb91f033fa1b7be14",
-    "tools/build_chicago_2021_22_selected_results_ledger.py": "545ba0ee6dedb853469ffef6a7ae1c4bc1fe6f5b8e2f69b4351a93af92a538f1"
+    "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json": "0b028cd28271954dc78c547475f128457cc9194d08797787e7fcd4ebf619c147",
+    "reviews/ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "f54f5cb5fb79075243f9c0a503ea0a0d5e86123f5180597eb43856a8653e3bd7",
+    "simulation/CHICAGO_HOUSTON_2021_22_SELECTED_KEEPER_RESULTS.json": "b2ba4278dc1d6e25961ee9fa10d3dd0b0afd55d563088660b55f449c2badca0d",
+    "reviews/HOU_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "073c28fc800dd5d8c5a4b648cc0ff257874d42954eee06d765ecaec68981fda4",
+    "reviews/LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json": "bc8d8e182bb20950d3e0420487dc2936e092e8563a25eb4b0a5a72c026faac30",
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "1ba7bb4836ba6692783c626134b99178fb365b2bbef2b26fc515582c8c18fb4c"
   },
   "rows": [
     {
@@ -280,7 +284,7 @@
       "working_regulation_result": {
         "winner": "LAL",
         "source": "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json",
-        "review": "reviews/LAL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+        "review": "reviews/LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json"
       },
       "score": null,
       "overtime_selection": null,
@@ -367,16 +371,15 @@
       "away": "CHI",
       "opponent": "HOU",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_HOUSTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/HOU_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -386,16 +389,15 @@
       "away": "CHI",
       "opponent": "ORL",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -538,7 +540,7 @@
       "working_regulation_result": {
         "winner": "CHI",
         "source": "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json",
-        "review": "reviews/LAL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+        "review": "reviews/LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json"
       },
       "score": null,
       "overtime_selection": null,
@@ -553,16 +555,15 @@
       "away": "HOU",
       "opponent": "HOU",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_HOUSTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/HOU_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -665,16 +666,15 @@
       "away": "ORL",
       "opponent": "ORL",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -849,16 +849,15 @@
       "away": "CHI",
       "opponent": "ORL",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -942,16 +941,15 @@
       "away": "ORL",
       "opponent": "ORL",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_ORLANDO_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/ORL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -1557,34 +1555,28 @@
   ],
   "summary": {
     "calendar_keys": 82,
-    "independently_reviewed_fictional_regulation_results": 38,
-    "CHI_working_wins": 19,
+    "independently_reviewed_fictional_regulation_results": 44,
+    "CHI_working_wins": 25,
     "opponent_working_wins": 19,
-    "remaining_keys": 44,
-    "next_game_id": "0022100271",
-    "next_date": "2021-11-24"
+    "remaining_keys": 38,
+    "next_game_id": "0022100296",
+    "next_date": "2021-11-27"
   },
   "remaining_game_ids": [
-    "0022100271",
-    "0022100283",
     "0022100296",
     "0022100307",
     "0022100367",
     "0022100394",
-    "0022100459",
     "0022100502",
     "0022100519",
     "0022100541",
-    "0022100555",
     "0022100585",
     "0022100415",
     "0022100658",
     "0022100673",
     "0022100690",
-    "0022100701",
     "0022100730",
     "0022100742",
-    "0022100769",
     "0022100812",
     "0022100826",
     "0022100843",
@@ -1660,6 +1652,11 @@
       "path": "reviews/CHI82_THIRTYTWO_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
       "immutable_main": "46ddea1133f44031207baabb4a791bbbe101c9a6",
       "selected_results_at_that_revision": 32
+    },
+    {
+      "path": "reviews/CHI82_THIRTYEIGHT_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "afa1f68ac6916993d037e214be85378ccf4f7559",
+      "selected_results_at_that_revision": 38
     }
   ],
   "scope": "Only consumed selected named lawful families and dated roles. No final scores/OT/probability, full standings/2022pick, calibrated individual growth or historical/private certification. Frozen predecessor pending flags remain history.",

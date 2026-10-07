@@ -1,0 +1,26 @@
+{
+  "id": "LAL_MIA_MORRIS_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_NARROW_CROSS_OWNER_AND_TWO_RESULT_CORRECTION",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_lal_2021_keeper_and_chicago_selected_results.py": "e68e661c5c5d111f34b374ada1a4f297d6747cd0c5d024d88c5fb4c9ecb1c625",
+    "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json": "69ba2ac011cfcb9b8e5a8230f5109109265825cdcd7192786007aa65eb908595",
+    "simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.md": "b89df01eb50b4ec4132beabb3a5d3d49f246aae8c4f2e1d62330b2284bf3f83b",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "research/TORONTO_MIAMI_2021_SELECTED_ATOM_LEGAL_BRIDGE_2026_10_07.json": "719b2ff19583d6373a2c165988c9fc55b298fce3728dc8763df2d3f327357278",
+    "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312"
+  },
+  "physical_owner_check": "Miami selected apron family has Markieff Morris among its 14 public contract rows; the selected TOR/MIA atom assigns him to Miami standard. Corrected LAL standard has 14 names, omits Markieff and Caruso, and adds own FA Jared Dudley as a modeled legal one-year minimum reserve. Chicago A keeps Caruso. Cross-owner join of the currently selected keeper standard/TW lists, NYK contract and two-way family, Miami atom 14+2, and Chicago A 15+2 yields zero cross-team names after same-team source duplicates are collapsed; the Caleb CHA-to-MIA two-way handoff is reviewed separately.",
+  "dated_role_and_result_check": "Twenty-four consecutive 120-second blocks use five distinct Lakers at each instant, 2880 seconds of game clock and 14400 player-seconds. Kuzma now has 34 minutes, including 14 at PF; Markieff and Dudley have zero positive minutes. Ten players have positive minutes, Butler and McKinnie complete the 12 active, and Dudley and McLemore are inactive. The two selected exact margins are -2.8880020928344035 on Nov 15 and +0.5137496708597604 on Dec 19; LAL then CHI win. Prior committed margins were -2.794377507258883 and +0.6073742564352809, so neither prior margin is silently reused.",
+  "currentness": "Saved producer validate returned []; source-bound --check and exact clock calculations agree with the current JSON and MD.",
+  "independent_negative_control": {
+    "mutation": "Returned physical Miami selected-apron object removed Markieff Morris while the pinned file bytes remained unchanged.",
+    "result": "REJECTED ValueError Returned physical source differs research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json"
+  },
+  "historical_review_preserved": "Existing LAL keeper full review on prior main is untouched; this record covers the ownership correction and its two recalculated margins.",
+  "limits": [
+    "No historical Miami or Lakers UPC receipt, exact private cost, medical fact, score, overtime or remaining season result is certified.",
+    "The cumulative selected-results ledger still requires its LAL source and peer pointer refresh; root owns that update."
+  ]
+}
