@@ -1,0 +1,48 @@
+{
+  "id": "IND_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_ind_2021_keeper_and_chicago_selected_results.py": "bea90d8ace0b44b5c5e59c5d8f64a9af774808f70332d26f434a1680e3b25260",
+    "simulation/CHICAGO_INDIANA_2021_22_SELECTED_KEEPER_RESULTS.json": "9e8358e08c41fd7cd99da99dc73618a6d1ed3d92a2de017fbc8aabf70d61965c",
+    "simulation/CHICAGO_INDIANA_2021_22_SELECTED_KEEPER_RESULTS.md": "253db05cd8a788adfb71b225f163ad56fa0fba0ab70f03297fb998d758ccf014"
+  },
+  "source_scope": {
+    "current_parent_pins": "13 of 13 normalized source hashes match physical files",
+    "original_profile": "NBA Indiana 2021 draft profile: 11 named incumbents, McConnell and McDermott UFA, Sumner team option, Sampson UFA; original Duarte #13 and Isaiah Jackson/Mamukelashvili trade do not overwrite selected T1 rights",
+    "selected_T1": "Trey Murphy #15 Indiana RSC, Aaron Wiggins #54 and Sandro Mamukelashvili #60 unsigned second-round tender family; Chris Duarte remains Chicago",
+    "contract_route": "15 STD, 0 TW: 11 retained original UPCs, Sumner original option, McDermott three-season own Full Bird, McConnell two-season own Early Bird, Murphy separate RSC; unreported Gamma and actual acceptance remain open",
+    "Brissett_term_conflict": "Frozen feed rest-of-season and official development-team multiyear description are kept distinct; no exact new salary or 2022 option receipt certified",
+    "date_scope": "Nov 22, Dec 26, Dec 31 and Feb 4 only; no Feb 8 Sabonis/LeVert transfer chain imported"
+  },
+  "direct_recomputation": {
+    "role_blocks": 24,
+    "clock_seconds": 2880,
+    "IND_player_seconds": 14400,
+    "five_unique_on_court_per_block": true,
+    "positive_players": 11,
+    "active": 12,
+    "selected_results": [
+      {"game_id": "0022100257", "CHI_state": "NORMAL", "winner": "CHI", "CHI_margin_per100": 1.2560875846575843},
+      {"game_id": "0022100499", "CHI_state": "NORMAL", "winner": "CHI", "CHI_margin_per100": 1.7560875846575843},
+      {"game_id": "0022100530", "CHI_state": "NORMAL", "winner": "IND", "CHI_margin_per100": -2.243912415342416},
+      {"game_id": "0022100789", "CHI_state": "COBY_OUT", "winner": "IND", "CHI_margin_per100": -2.1456641790365794}
+    ],
+    "fractional_margin_matches_source": true
+  },
+  "independent_counterexample": {
+    "mutation": "Returned selected role positions at blocks 0 and 3 swapped while each player's total seconds stayed constant",
+    "result": "REJECTED_BY_BUILD",
+    "reason": "Selected chronology changed"
+  },
+  "current_check": "PASS",
+  "limitations": {
+    "actual_price_or_acceptance_receipt_certified": false,
+    "actual_medical_condition_certified": false,
+    "Brissett_neutral_prior_is_historical_zero_ability": false,
+    "whole_team_private_cost_or_82_results": false,
+    "score_or_overtime_selected": false,
+    "manuscript_allowed": false
+  },
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_KEEPER_RESULTS"
+}

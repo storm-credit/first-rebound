@@ -1,0 +1,37 @@
+{
+  "id": "DEN_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATED_WORKING_RESULTS_AND_APPROVED_T1_F5_NAMED_FAMILY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_den_2021_keeper_and_chicago_selected_results.py": "fad7f6f7222406c2ffcd858c9344de5b92207a39837727e0cb14942d0ff9e458",
+    "simulation/CHICAGO_DENVER_2021_22_SELECTED_KEEPER_RESULTS.json": "a6c4a8fd934c3da9e0b78b767b33193ba8a922d85ed58071c5eec5afebd7f01d",
+    "simulation/CHICAGO_DENVER_2021_22_SELECTED_KEEPER_RESULTS.md": "d6d5084fe3fab82d9470aeb0b334f9295ae799f0f01b02ab7aa54c9e5fe20a77"
+  },
+  "independent_evidence": [
+    {
+      "area": "approved actor and draft ownership",
+      "result": "Original NBA 2021 DEN profile includes Nnaji/McGee and Barton/Green PO, but approved T1 GordonDEN/NnajiORL and F5 omission keep HartensteinDEN/McGeeCLE. Selected board pick26 Nahshon Hyland is separately used for fictional DEN RSC; no original draft/other transaction automatically certified."
+    },
+    {
+      "area": "contract and health scope",
+      "result": "Ten live, Barton/JaMychal Green/Hartenstein original PO conditional exercise, Rivers own legal minimum, Hyland26 2+2 RSC, Millsap expiry no new UPC; 15STD0TW and old Gamma preserved. S2 DEN six-playoff Murray modeled absence carried to two working dates, with Barton/PJ separate operational recovery; original medical diagnosis/clearance is not certified."
+    },
+    {
+      "area": "minutes/results",
+      "result": "12 active/11 positive, 24 two-minute five-unique blocks, 2880 seconds/14400 player-seconds each team on both dates. Independent exact fraction recalc Nov19 DEN winner, CHI margin -2.111216270635162; Dec6 CHI winner +1.3887837293648382."
+    },
+    {
+      "area": "currentness",
+      "result": "Saved --check PASS."
+    }
+  ],
+  "independent_negative_control": {
+    "mutation": "returned role blocks 1 and 2 positions swapped, preserving player minute totals",
+    "result": "REJECTED ValueError Selected chronology changed"
+  },
+  "limits": [
+    "No actual clinical facts, exact contracts, private ledger, score or overtime certified.",
+    "Only two fictional regulation winners, not entire 82 games or macro completion."
+  ]
+}
