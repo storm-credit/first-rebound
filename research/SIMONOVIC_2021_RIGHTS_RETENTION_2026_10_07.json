@@ -1,0 +1,1776 @@
+{
+  "id": "SIMONOVIC_2021_RIGHTS_RETENTION_2026_10_07",
+  "schema": "FINITE_SECOND_ROUND_NONNBA_RIGHTS_FAMILY_V1",
+  "status": "SOURCE_SUPPORTED_WORKING_RETENTION_FAMILY_INDEPENDENTLY_REVIEWED",
+  "baseline_main": "db1a59ec55fcacf7bbbb042bb1b460ca5600fbad",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312",
+    "tools/build_2021_approved_a_draft_signing_execution.py": "2e5c63ae32cc3897e1117c895687c047ed4fb1256e4addf888330697dc70c304",
+    "research/O15G15BC_SIMONOVIC_DRAFT_RIGHTS_CLOCK.md": "27c44d66451c909f4e36de21ffcc7b26ff48ceac01678e3387914a0ed0cb523a",
+    "research/O15G15BD_SIMONOVIC_EARLY_ENTRY_2021_DRAFT_CLOCK.md": "aa92337c1a39144fd2a3a7423c39f24a144a2916700c1a34dae84191bbeae011",
+    "research/O15G15BE_SIMONOVIC_OLIMPIJA_MEGA_LOAN_CHAIN.md": "c7cdcc51e813cc9187af26b752f2f175205bdfb4b3d1db305e0abc7aa6cb5d6b",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "tools/build_simonovic_2021_rights_retention.py": "fc0a341e94ebb280285859995107ec2ba2d7f94d5cc3a7ded032130ba881e83d"
+  },
+  "source_hash_method": "UTF8BOMstripped;CRLF/CRtoLF",
+  "raw_sources": [
+    {
+      "id": "NBA_DRAFT2020",
+      "url": "https://www.nba.com/news/2020-nba-draft-results-picks-1-60",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\NBA_DRAFT2020.html",
+      "raw_sha256": "2689c6aa77ae0dc0da32fdb85381b5bcbdfdc301738316b14c54269c1d6a8fcc",
+      "bytes": 333435,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "BeautifulSoup HTML text",
+      "normalized_extracted_text_sha256": "1790dbb3a9ebf94036569939c2bbecf47105481d766da366e19fdba8105bf69a"
+    },
+    {
+      "id": "NBA_EARLY2020",
+      "url": "https://pr.nba.com/twenty-three-early-entry-candidates-withdraw-from-nba-draft-2020-presented-by-state-farm/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\NBA_EARLY2020.html",
+      "raw_sha256": "e88f043cb1c448122361df6ba76495f66f5bad80874833f4a9a90a0721ae36bc",
+      "bytes": 132740,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "BeautifulSoup HTML text",
+      "normalized_extracted_text_sha256": "ff25bf22bc7fdf40a4ce1ed9da8cb8910c625736da3da6f80faa2fa717c716f9"
+    },
+    {
+      "id": "BULLS_SIGN2021",
+      "url": "https://www.nba.com/bulls/news/bulls-sign-rookies-dosunmu-and-simonovic",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\BULLS_SIGN2021.html",
+      "raw_sha256": "f9194554db5d943ded3e7a41b3eff7f0f1aabafbcce635d5075f03818c849fc6",
+      "bytes": 103197,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "HTML __NEXT_DATA__ contentStructured text fields; not iframe shell",
+      "normalized_extracted_text_sha256": "5d859b2ac121fddee533e5908c01cad6b5f244877126d900d8a6903f469739ac"
+    },
+    {
+      "id": "NBA_CBA2020",
+      "url": "https://pr.nba.com/nba-nbpa-2020-21-season/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\NBA_CBA2020.html",
+      "raw_sha256": "1c52c58a661108b42f00374e51971d2c244e89a29a143fbb8a6151d1a2329e94",
+      "bytes": 110970,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "BeautifulSoup HTML text",
+      "normalized_extracted_text_sha256": "b9110f89a67dc7a7b54186df9313984aef3a8193abefd9729a5fd2a0bd68e1cc"
+    },
+    {
+      "id": "ABA_DRAFT_LOAN",
+      "url": "https://www.aba-liga.com/news/44140",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\ABA_DRAFT_LOAN.html",
+      "raw_sha256": "4a9d8044ce5fdaeeb93e5d350e3e505045c277927ca4976c03319c01fc2eaca8",
+      "bytes": 54824,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "BeautifulSoup HTML text",
+      "normalized_extracted_text_sha256": "dd7c728b89c456e6a8f50040143c517ba5bd794a5ddb60d5c97843877510568c"
+    },
+    {
+      "id": "ABA_2018_CONTRACT",
+      "url": "https://www.aba-liga.com/news/40325",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-simonovic-20261007\\ABA_2018_CONTRACT.html",
+      "raw_sha256": "6cec9763e746987c0bc64d62e21503dbb123074f1210ce511a4b0365c2d763b3",
+      "bytes": 56857,
+      "classification": "PRIMARY_CLUB_LEAGUE_OR_NBA_PUBLIC_BODY",
+      "extraction": "BeautifulSoup HTML text",
+      "normalized_extracted_text_sha256": "7a5ae7c09d9ad60a5e4f82d57092f5315bbaf5bf3047a213941c922e13e30836"
+    },
+    {
+      "id": "CBA2017",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "bytes": 2176412,
+      "classification": "PRIMARY_OFFICIAL_CBA",
+      "extraction": "PyMuPDF page.get_text();LF normalized",
+      "pdf_page_one_based_normalized_text_sha256": {
+        "30": "9cf0f5b23523777c69220fc109f59a6b42dc1550c90082e39b48748f53a03338",
+        "31": "d157a3547a4a9b336ce312fe2159e06efe4f46c61050cdb1d324082b4c6a8ecd",
+        "32": "4acec95a4c21f903be8bb00a9de529fdd248808e356226328902d8b8c8bae6e1",
+        "252": "b086e518697b5b94795c341b154279e6734b22f61c6157d51ab05a4f668aaab0",
+        "301": "387fbc0e833697c6b2e0aa2cca4847d43adb7ba12d049c03bf07df87a94b4ae3",
+        "302": "58ce155c73a691aca9c45c73c55c6e404235f04ba958ea57aab2d633a6c8edf3",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+        "304": "fbc88aa3499f45d41bb440f5636d862a7aa2d49b34e3fcb76a5f8283d4f3a5aa",
+        "305": "a12359b0cd2c0327071aca49dc0c63115c2f5cc348f50eab907018979e97f52f",
+        "306": "35526e06761a7915a78dfe618ed22758764ce982bfe01cb934f3aa21e4955439",
+        "307": "29564957e50f2db83ae0817e9b644cc5ed30a017b1a8b40244bf3a9f8cc32e41",
+        "308": "d88901cd3e5b905d60f24f47db0e77761e2bde9285b9f5f9126493e36c3bcddf"
+      }
+    }
+  ],
+  "source_facts": {
+    "2020_initial_round_pick_holder": [
+      2,
+      44,
+      "CHI"
+    ],
+    "2020_international_early_entry_birth_year": 1999,
+    "2018_source": "ABA original multi-annual Petrol Olimpija contract report; exact years/entity succession not recovered",
+    "2020_source": "ABA draft-date Mega loan report",
+    "2021_Bulls_source": "Original NBA signing announcement also confirms continued2020–21 Mega career, including June11 event. It does not release contract terms.",
+    "actual2021NBAactivation_not_copied": true,
+    "actual_foreign_contract_end_or_notice_or_tender": null,
+    "2020_public_calendar_adjustments_do_not_publish_tender_deadline": true
+  },
+  "working_policy": {
+    "initial_draft": "2020-11-18",
+    "initial_round": 2,
+    "initial_pick": 44,
+    "rights_holder": "CHI",
+    "birth_year": 1999,
+    "international_early_entry": true,
+    "natural_eligibility_draft_year": 2021,
+    "existing_NonNBA_contract_covers_part_of_2020_21_NBA_Season": true,
+    "professional_compensation_above_living_stipend_in_admitted_contract_family": true,
+    "actual_original_foreign_compensation_or_exact_end_date": null,
+    "Petrol_Cedevita_legal_entity_identity_automatically_equated": false,
+    "new_NonNBA_signings_from_initial_draft_through_scope_end": 0,
+    "new_foreign_extension_or_loan_reexecution_selected": false,
+    "intercollegiate_basketball_after_initial_draft": false,
+    "initial_Required_Tender": {
+      "fictional_procedural_implementation": "Offer compliant team-signed one-Season Standard UPC at statutory minimum under ArticleI1(ddd), delivered personally to player/representative in the operative2020 tender window; player does not accept.",
+      "operative_delivery_window_parameter": "W20 from applicable NBA/NBPA adjusted calendar; a nonempty legal tender window, exact endpoints not recovered",
+      "submission_selection_function": "choose first admissible delivery date d in W20; no historical d asserted",
+      "operative_acceptance_deadline_parameter": "A20 from applicable adjusted RequiredTender rules",
+      "offer_acceptance_time": "At least A20; no shortened player acceptance window",
+      "team_signed": true,
+      "personally_delivered_to_player_or_representative_in_window": true,
+      "offer_term_seasons": 1,
+      "minimum_salary": "then applicable statutory MinimumAnnualSalary for0NBA YOS",
+      "extra_bonus_or_option_added": false,
+      "player_accepted": false,
+      "tender_withdrawn": false,
+      "NBA_exclusive_rights_expressly_renounced": false,
+      "actual_window_endpoints_or_delivery_date": null,
+      "actual_league_receipt_certified": false
+    },
+    "NBA_UPC_executed_through_scope_end": false,
+    "new_NBA_trade_or_draft_rights_assignment_selected": false,
+    "no_new_rights_renunciation_or_agreed_tender_withdrawal_in_working_path": true,
+    "2021_annual_tender_if_due_by_scope_end": "Supply same valid one-Season minimum offer within applicable annual operative window; unaccepted. No guessed modified deadline.",
+    "future_2021_Sept_notice_or_tender_automatically_completed": false,
+    "family_scope_end": "2021-08-12",
+    "forever_rights_certified": false,
+    "post_Aug12_overseas_contract_or_NBA_registration_selected": false
+  },
+  "quantifier": {
+    "preserved_external_inputs": "All admitted original NonNBA contract durations/availability dates and institutional operative tender windows consistent with the positive sources and rules.",
+    "constructed_implementation": "For each admissible window choose compliant team tender delivery; retain unaccepted/no withdrawal/no renunciation/no newNonNBA signing throughAug12.",
+    "required_window_is_a_rule_input_not_a_private_receipt": "Exact adjusted2020 calendar not recovered; the family constructs a compliant offer under the applicable operative rule, not a historical submission claim.",
+    "lawful_tender_family_existence_is_not_actual_submission": true
+  },
+  "rights_clock": {
+    "initial_draft": "2020-11-18",
+    "scope_end": "2021-08-12",
+    "natural_international_22_year_draft": "2021-07-29",
+    "X5_nonNBA_season_condition_supported_in_preserved_public_family": true,
+    "immediate_notice_cells": [
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-18",
+        "X5a_one_year_expiry": "2021-11-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-19",
+        "X5a_one_year_expiry": "2021-11-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-20",
+        "X5a_one_year_expiry": "2021-11-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-21",
+        "X5a_one_year_expiry": "2021-11-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-22",
+        "X5a_one_year_expiry": "2021-11-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-23",
+        "X5a_one_year_expiry": "2021-11-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-24",
+        "X5a_one_year_expiry": "2021-11-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-25",
+        "X5a_one_year_expiry": "2021-11-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-26",
+        "X5a_one_year_expiry": "2021-11-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-27",
+        "X5a_one_year_expiry": "2021-11-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-28",
+        "X5a_one_year_expiry": "2021-11-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-29",
+        "X5a_one_year_expiry": "2021-11-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-11-30",
+        "X5a_one_year_expiry": "2021-11-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-01",
+        "X5a_one_year_expiry": "2021-12-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-02",
+        "X5a_one_year_expiry": "2021-12-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-03",
+        "X5a_one_year_expiry": "2021-12-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-04",
+        "X5a_one_year_expiry": "2021-12-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-05",
+        "X5a_one_year_expiry": "2021-12-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-06",
+        "X5a_one_year_expiry": "2021-12-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-07",
+        "X5a_one_year_expiry": "2021-12-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-08",
+        "X5a_one_year_expiry": "2021-12-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-09",
+        "X5a_one_year_expiry": "2021-12-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-10",
+        "X5a_one_year_expiry": "2021-12-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-11",
+        "X5a_one_year_expiry": "2021-12-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-12",
+        "X5a_one_year_expiry": "2021-12-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-13",
+        "X5a_one_year_expiry": "2021-12-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-14",
+        "X5a_one_year_expiry": "2021-12-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-15",
+        "X5a_one_year_expiry": "2021-12-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-16",
+        "X5a_one_year_expiry": "2021-12-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-17",
+        "X5a_one_year_expiry": "2021-12-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-18",
+        "X5a_one_year_expiry": "2021-12-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-19",
+        "X5a_one_year_expiry": "2021-12-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-20",
+        "X5a_one_year_expiry": "2021-12-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-21",
+        "X5a_one_year_expiry": "2021-12-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-22",
+        "X5a_one_year_expiry": "2021-12-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-23",
+        "X5a_one_year_expiry": "2021-12-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-24",
+        "X5a_one_year_expiry": "2021-12-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-25",
+        "X5a_one_year_expiry": "2021-12-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-26",
+        "X5a_one_year_expiry": "2021-12-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-27",
+        "X5a_one_year_expiry": "2021-12-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-28",
+        "X5a_one_year_expiry": "2021-12-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-29",
+        "X5a_one_year_expiry": "2021-12-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-30",
+        "X5a_one_year_expiry": "2021-12-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2020-12-31",
+        "X5a_one_year_expiry": "2021-12-31",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-01",
+        "X5a_one_year_expiry": "2022-01-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-02",
+        "X5a_one_year_expiry": "2022-01-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-03",
+        "X5a_one_year_expiry": "2022-01-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-04",
+        "X5a_one_year_expiry": "2022-01-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-05",
+        "X5a_one_year_expiry": "2022-01-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-06",
+        "X5a_one_year_expiry": "2022-01-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-07",
+        "X5a_one_year_expiry": "2022-01-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-08",
+        "X5a_one_year_expiry": "2022-01-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-09",
+        "X5a_one_year_expiry": "2022-01-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-10",
+        "X5a_one_year_expiry": "2022-01-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-11",
+        "X5a_one_year_expiry": "2022-01-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-12",
+        "X5a_one_year_expiry": "2022-01-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-13",
+        "X5a_one_year_expiry": "2022-01-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-14",
+        "X5a_one_year_expiry": "2022-01-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-15",
+        "X5a_one_year_expiry": "2022-01-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-16",
+        "X5a_one_year_expiry": "2022-01-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-17",
+        "X5a_one_year_expiry": "2022-01-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-18",
+        "X5a_one_year_expiry": "2022-01-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-19",
+        "X5a_one_year_expiry": "2022-01-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-20",
+        "X5a_one_year_expiry": "2022-01-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-21",
+        "X5a_one_year_expiry": "2022-01-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-22",
+        "X5a_one_year_expiry": "2022-01-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-23",
+        "X5a_one_year_expiry": "2022-01-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-24",
+        "X5a_one_year_expiry": "2022-01-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-25",
+        "X5a_one_year_expiry": "2022-01-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-26",
+        "X5a_one_year_expiry": "2022-01-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-27",
+        "X5a_one_year_expiry": "2022-01-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-28",
+        "X5a_one_year_expiry": "2022-01-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-29",
+        "X5a_one_year_expiry": "2022-01-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-30",
+        "X5a_one_year_expiry": "2022-01-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-01-31",
+        "X5a_one_year_expiry": "2022-01-31",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-01",
+        "X5a_one_year_expiry": "2022-02-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-02",
+        "X5a_one_year_expiry": "2022-02-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-03",
+        "X5a_one_year_expiry": "2022-02-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-04",
+        "X5a_one_year_expiry": "2022-02-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-05",
+        "X5a_one_year_expiry": "2022-02-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-06",
+        "X5a_one_year_expiry": "2022-02-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-07",
+        "X5a_one_year_expiry": "2022-02-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-08",
+        "X5a_one_year_expiry": "2022-02-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-09",
+        "X5a_one_year_expiry": "2022-02-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-10",
+        "X5a_one_year_expiry": "2022-02-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-11",
+        "X5a_one_year_expiry": "2022-02-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-12",
+        "X5a_one_year_expiry": "2022-02-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-13",
+        "X5a_one_year_expiry": "2022-02-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-14",
+        "X5a_one_year_expiry": "2022-02-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-15",
+        "X5a_one_year_expiry": "2022-02-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-16",
+        "X5a_one_year_expiry": "2022-02-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-17",
+        "X5a_one_year_expiry": "2022-02-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-18",
+        "X5a_one_year_expiry": "2022-02-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-19",
+        "X5a_one_year_expiry": "2022-02-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-20",
+        "X5a_one_year_expiry": "2022-02-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-21",
+        "X5a_one_year_expiry": "2022-02-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-22",
+        "X5a_one_year_expiry": "2022-02-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-23",
+        "X5a_one_year_expiry": "2022-02-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-24",
+        "X5a_one_year_expiry": "2022-02-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-25",
+        "X5a_one_year_expiry": "2022-02-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-26",
+        "X5a_one_year_expiry": "2022-02-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-27",
+        "X5a_one_year_expiry": "2022-02-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-02-28",
+        "X5a_one_year_expiry": "2022-02-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-01",
+        "X5a_one_year_expiry": "2022-03-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-02",
+        "X5a_one_year_expiry": "2022-03-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-03",
+        "X5a_one_year_expiry": "2022-03-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-04",
+        "X5a_one_year_expiry": "2022-03-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-05",
+        "X5a_one_year_expiry": "2022-03-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-06",
+        "X5a_one_year_expiry": "2022-03-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-07",
+        "X5a_one_year_expiry": "2022-03-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-08",
+        "X5a_one_year_expiry": "2022-03-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-09",
+        "X5a_one_year_expiry": "2022-03-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-10",
+        "X5a_one_year_expiry": "2022-03-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-11",
+        "X5a_one_year_expiry": "2022-03-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-12",
+        "X5a_one_year_expiry": "2022-03-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-13",
+        "X5a_one_year_expiry": "2022-03-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-14",
+        "X5a_one_year_expiry": "2022-03-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-15",
+        "X5a_one_year_expiry": "2022-03-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-16",
+        "X5a_one_year_expiry": "2022-03-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-17",
+        "X5a_one_year_expiry": "2022-03-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-18",
+        "X5a_one_year_expiry": "2022-03-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-19",
+        "X5a_one_year_expiry": "2022-03-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-20",
+        "X5a_one_year_expiry": "2022-03-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-21",
+        "X5a_one_year_expiry": "2022-03-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-22",
+        "X5a_one_year_expiry": "2022-03-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-23",
+        "X5a_one_year_expiry": "2022-03-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-24",
+        "X5a_one_year_expiry": "2022-03-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-25",
+        "X5a_one_year_expiry": "2022-03-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-26",
+        "X5a_one_year_expiry": "2022-03-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-27",
+        "X5a_one_year_expiry": "2022-03-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-28",
+        "X5a_one_year_expiry": "2022-03-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-29",
+        "X5a_one_year_expiry": "2022-03-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-30",
+        "X5a_one_year_expiry": "2022-03-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-03-31",
+        "X5a_one_year_expiry": "2022-03-31",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-01",
+        "X5a_one_year_expiry": "2022-04-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-02",
+        "X5a_one_year_expiry": "2022-04-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-03",
+        "X5a_one_year_expiry": "2022-04-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-04",
+        "X5a_one_year_expiry": "2022-04-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-05",
+        "X5a_one_year_expiry": "2022-04-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-06",
+        "X5a_one_year_expiry": "2022-04-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-07",
+        "X5a_one_year_expiry": "2022-04-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-08",
+        "X5a_one_year_expiry": "2022-04-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-09",
+        "X5a_one_year_expiry": "2022-04-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-10",
+        "X5a_one_year_expiry": "2022-04-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-11",
+        "X5a_one_year_expiry": "2022-04-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-12",
+        "X5a_one_year_expiry": "2022-04-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-13",
+        "X5a_one_year_expiry": "2022-04-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-14",
+        "X5a_one_year_expiry": "2022-04-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-15",
+        "X5a_one_year_expiry": "2022-04-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-16",
+        "X5a_one_year_expiry": "2022-04-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-17",
+        "X5a_one_year_expiry": "2022-04-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-18",
+        "X5a_one_year_expiry": "2022-04-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-19",
+        "X5a_one_year_expiry": "2022-04-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-20",
+        "X5a_one_year_expiry": "2022-04-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-21",
+        "X5a_one_year_expiry": "2022-04-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-22",
+        "X5a_one_year_expiry": "2022-04-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-23",
+        "X5a_one_year_expiry": "2022-04-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-24",
+        "X5a_one_year_expiry": "2022-04-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-25",
+        "X5a_one_year_expiry": "2022-04-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-26",
+        "X5a_one_year_expiry": "2022-04-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-27",
+        "X5a_one_year_expiry": "2022-04-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-28",
+        "X5a_one_year_expiry": "2022-04-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-29",
+        "X5a_one_year_expiry": "2022-04-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-04-30",
+        "X5a_one_year_expiry": "2022-04-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-01",
+        "X5a_one_year_expiry": "2022-05-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-02",
+        "X5a_one_year_expiry": "2022-05-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-03",
+        "X5a_one_year_expiry": "2022-05-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-04",
+        "X5a_one_year_expiry": "2022-05-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-05",
+        "X5a_one_year_expiry": "2022-05-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-06",
+        "X5a_one_year_expiry": "2022-05-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-07",
+        "X5a_one_year_expiry": "2022-05-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-08",
+        "X5a_one_year_expiry": "2022-05-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-09",
+        "X5a_one_year_expiry": "2022-05-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-10",
+        "X5a_one_year_expiry": "2022-05-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-11",
+        "X5a_one_year_expiry": "2022-05-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-12",
+        "X5a_one_year_expiry": "2022-05-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-13",
+        "X5a_one_year_expiry": "2022-05-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-14",
+        "X5a_one_year_expiry": "2022-05-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-15",
+        "X5a_one_year_expiry": "2022-05-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-16",
+        "X5a_one_year_expiry": "2022-05-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-17",
+        "X5a_one_year_expiry": "2022-05-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-18",
+        "X5a_one_year_expiry": "2022-05-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-19",
+        "X5a_one_year_expiry": "2022-05-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-20",
+        "X5a_one_year_expiry": "2022-05-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-21",
+        "X5a_one_year_expiry": "2022-05-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-22",
+        "X5a_one_year_expiry": "2022-05-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-23",
+        "X5a_one_year_expiry": "2022-05-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-24",
+        "X5a_one_year_expiry": "2022-05-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-25",
+        "X5a_one_year_expiry": "2022-05-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-26",
+        "X5a_one_year_expiry": "2022-05-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-27",
+        "X5a_one_year_expiry": "2022-05-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-28",
+        "X5a_one_year_expiry": "2022-05-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-29",
+        "X5a_one_year_expiry": "2022-05-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-30",
+        "X5a_one_year_expiry": "2022-05-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-05-31",
+        "X5a_one_year_expiry": "2022-05-31",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-01",
+        "X5a_one_year_expiry": "2022-06-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-02",
+        "X5a_one_year_expiry": "2022-06-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-03",
+        "X5a_one_year_expiry": "2022-06-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-04",
+        "X5a_one_year_expiry": "2022-06-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-05",
+        "X5a_one_year_expiry": "2022-06-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-06",
+        "X5a_one_year_expiry": "2022-06-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-07",
+        "X5a_one_year_expiry": "2022-06-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-08",
+        "X5a_one_year_expiry": "2022-06-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-09",
+        "X5a_one_year_expiry": "2022-06-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-10",
+        "X5a_one_year_expiry": "2022-06-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-11",
+        "X5a_one_year_expiry": "2022-06-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-12",
+        "X5a_one_year_expiry": "2022-06-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-13",
+        "X5a_one_year_expiry": "2022-06-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-14",
+        "X5a_one_year_expiry": "2022-06-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-15",
+        "X5a_one_year_expiry": "2022-06-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-16",
+        "X5a_one_year_expiry": "2022-06-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-17",
+        "X5a_one_year_expiry": "2022-06-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-18",
+        "X5a_one_year_expiry": "2022-06-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-19",
+        "X5a_one_year_expiry": "2022-06-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-20",
+        "X5a_one_year_expiry": "2022-06-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-21",
+        "X5a_one_year_expiry": "2022-06-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-22",
+        "X5a_one_year_expiry": "2022-06-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-23",
+        "X5a_one_year_expiry": "2022-06-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-24",
+        "X5a_one_year_expiry": "2022-06-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-25",
+        "X5a_one_year_expiry": "2022-06-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-26",
+        "X5a_one_year_expiry": "2022-06-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-27",
+        "X5a_one_year_expiry": "2022-06-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-28",
+        "X5a_one_year_expiry": "2022-06-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-29",
+        "X5a_one_year_expiry": "2022-06-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-06-30",
+        "X5a_one_year_expiry": "2022-06-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-01",
+        "X5a_one_year_expiry": "2022-07-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-02",
+        "X5a_one_year_expiry": "2022-07-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-03",
+        "X5a_one_year_expiry": "2022-07-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-04",
+        "X5a_one_year_expiry": "2022-07-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-05",
+        "X5a_one_year_expiry": "2022-07-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-06",
+        "X5a_one_year_expiry": "2022-07-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-07",
+        "X5a_one_year_expiry": "2022-07-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-08",
+        "X5a_one_year_expiry": "2022-07-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-09",
+        "X5a_one_year_expiry": "2022-07-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-10",
+        "X5a_one_year_expiry": "2022-07-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-11",
+        "X5a_one_year_expiry": "2022-07-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-12",
+        "X5a_one_year_expiry": "2022-07-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-13",
+        "X5a_one_year_expiry": "2022-07-13",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-14",
+        "X5a_one_year_expiry": "2022-07-14",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-15",
+        "X5a_one_year_expiry": "2022-07-15",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-16",
+        "X5a_one_year_expiry": "2022-07-16",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-17",
+        "X5a_one_year_expiry": "2022-07-17",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-18",
+        "X5a_one_year_expiry": "2022-07-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-19",
+        "X5a_one_year_expiry": "2022-07-19",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-20",
+        "X5a_one_year_expiry": "2022-07-20",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-21",
+        "X5a_one_year_expiry": "2022-07-21",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-22",
+        "X5a_one_year_expiry": "2022-07-22",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-23",
+        "X5a_one_year_expiry": "2022-07-23",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-24",
+        "X5a_one_year_expiry": "2022-07-24",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-25",
+        "X5a_one_year_expiry": "2022-07-25",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-26",
+        "X5a_one_year_expiry": "2022-07-26",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-27",
+        "X5a_one_year_expiry": "2022-07-27",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-28",
+        "X5a_one_year_expiry": "2022-07-28",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-29",
+        "X5a_one_year_expiry": "2022-07-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-30",
+        "X5a_one_year_expiry": "2022-07-30",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-07-31",
+        "X5a_one_year_expiry": "2022-07-31",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-01",
+        "X5a_one_year_expiry": "2022-08-01",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-02",
+        "X5a_one_year_expiry": "2022-08-02",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-03",
+        "X5a_one_year_expiry": "2022-08-03",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-04",
+        "X5a_one_year_expiry": "2022-08-04",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-05",
+        "X5a_one_year_expiry": "2022-08-05",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-06",
+        "X5a_one_year_expiry": "2022-08-06",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-07",
+        "X5a_one_year_expiry": "2022-08-07",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-08",
+        "X5a_one_year_expiry": "2022-08-08",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-09",
+        "X5a_one_year_expiry": "2022-08-09",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-10",
+        "X5a_one_year_expiry": "2022-08-10",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-11",
+        "X5a_one_year_expiry": "2022-08-11",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_effective_immediate_notice_date": "2021-08-12",
+        "X5a_one_year_expiry": "2022-08-12",
+        "rights_period_has_not_ended_at_scope_end": true
+      }
+    ],
+    "next_season_notice_draft_cells": [
+      {
+        "hypothetical_X5a2_applicable_draft_date": "2020-11-18",
+        "X5a_one_year_expiry": "2021-11-18",
+        "rights_period_has_not_ended_at_scope_end": true
+      },
+      {
+        "hypothetical_X5a2_applicable_draft_date": "2021-07-29",
+        "X5a_one_year_expiry": "2022-07-29",
+        "rights_period_has_not_ended_at_scope_end": true
+      }
+    ],
+    "no_effective_notice_branch": "One-year availability clock has not begun; only the bounded Aug12 outcome is certified in this working family.",
+    "earliest_possible_X5a_expiry": "2021-11-18",
+    "scope_end_precedes_earliest_expiry_by_days": 98,
+    "X6_natural2021_does_not_delete_active_X5_period": "X6(a) subject to5; X6(c) NonNBA signing never shortens early-entry exclusive period. Natural2021 is retained as the ordinary fallback, not misreported as automatic FA.",
+    "X5e_early_FA_guard": "No new NonNBA signing after initial draft throughAug12 in this working path, so the conjunctive newSigning+bonaFideEffort+tenderFailure trigger is absent. No inference about actual private signing history.",
+    "X4f_g_early_FA_guards": "No agreed tender withdrawal and no express rights renunciation are selected; they would reopen immediately.",
+    "X5b_c_July_notice": "Any qualifyingJuly1 availability notice with actualSeptember1 freedom requires tender bySept10 to extend; both September checkpoints are outside this Aug12 certificate.",
+    "fallback_ordinary_X4_X6_without_qualified_NonNBA": {
+      "July29_2021_subsequent_draft_or_FA_may_apply": true,
+      "covered_by_this_family": false
+    },
+    "whole2021_22_rights_window_certified": false,
+    "indefinite_exclusivity_certified": false
+  },
+  "roster_and_cost": {
+    "through": "2021-08-12",
+    "source_working_standard_players": [
+      {
+        "player": "LaVine",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 19500000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "LaMelo_pick4",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 7422000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Coby",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 5837760,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Carter",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 6920027,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Young",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 14190000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Satoransky",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": 10000000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Protagonist",
+        "classification": "RETAINED_EXISTING_CONTRACT_FAMILY",
+        "first_year_proposal_or_retained_reference": null,
+        "first_year_interval_from_existing_model": [
+          2392564,
+          4915857
+        ],
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Chris Duarte",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 4373040,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Green",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 1669178,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Caruso",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 8600000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Markkanen",
+        "classification": "ALREADY_AUTHOR_SELECTED_M1",
+        "first_year_proposal_or_retained_reference": 17000000,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Joe Wieskamp",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 925258,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Tony Bradley",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 1789256,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Stanley Johnson",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 2089448,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      },
+      {
+        "player": "Denzel Valentine",
+        "classification": "AUTHOR_MODELED_ROUTINE_A_IMPLEMENTATION",
+        "first_year_proposal_or_retained_reference": 1939350,
+        "first_year_interval_from_existing_model": null,
+        "new_exact_author_lock": false,
+        "actual_signed_contract": null,
+        "actual_player_acceptance_or_league_receipt": null
+      }
+    ],
+    "source_working_two_way_players": [
+      {
+        "player": "Devon Dotson",
+        "type": "TWO_WAY",
+        "classification": "AUTHOR_MODELED_ROUTINE_EXISTING_HISTORICAL_TYPE",
+        "working_signing_date": "2021-08-13",
+        "working_term_seasons": 1,
+        "flat_salary_rule_usd": 462629,
+        "entering_YOS_eligibility_family": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "exact_actual_YOS_certificate": null,
+        "regular_active_game_limit": 50,
+        "active_games_selected": null,
+        "standard_conversion": null,
+        "actual_acceptance": null
+      },
+      {
+        "player": "Tyler Cook",
+        "type": "TWO_WAY",
+        "classification": "AUTHOR_MODELED_ROUTINE_EXISTING_HISTORICAL_TYPE",
+        "working_signing_date": "2021-08-13",
+        "working_term_seasons": 1,
+        "flat_salary_rule_usd": 462629,
+        "entering_YOS_eligibility_family": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "exact_actual_YOS_certificate": null,
+        "regular_active_game_limit": 50,
+        "active_games_selected": null,
+        "standard_conversion": null,
+        "actual_acceptance": null
+      }
+    ],
+    "standard_contract_count_preserved": 15,
+    "two_way_count_preserved": 2,
+    "new_Simonovic_NBA_UPC": false,
+    "new_NBA_salary_charge_usd": 0,
+    "why_zero": "Only unsigned second-round negotiating rights and unaccepted tender; no player-executed NBA UPC. Does not imply foreign compensation0.",
+    "foreign_pay_or_buyout_amount_certified": false,
+    "NBA_buyout_or_foreign_compensation_payment_selected": false,
+    "actual_registered_roster_or_medical_certified": false
+  },
+  "assignment_and_acceptance_boundary": {
+    "rights_transfer_selected": false,
+    "X7_same_but_no_greater_rights_if_later_assigned": true,
+    "unsigned_rights_assignment_has_no_30day_rookie_contract_wait": true,
+    "if_NBA_UPC_accepted": "Reopen SQ1 slot/budget; 16th standard contract is not automatically accepted into the selected regular-season15. VII8(d)(i)30day trade wait then applies to signed Draft Rookie, not to this unsigned claim.",
+    "actual2021signing_fact_does_not_certify_prior_exclusive_clock": true
+  },
+  "post_scope_reopen": [
+    "Aug13 or any change to noNBA UPC/noNonNBA signing/withdrawal/renunciation working path.",
+    "QualifiedSeptember1 availability with timelySeptember10 tender; validate actual applicable annual calendar before modelling continuation.",
+    "EarliestNov18 one-year endpoint: newNonNBA contract/bona-fide negotiation/tender under5(d)-(f), subsequent draft orFA outcome separately.",
+    "Foreign contract end does not alone erase NBA exclusive rights; effective written availability notice and5(g)delivery controls the clock.",
+    "No automatic future extension/overseas team/term/2022NBAactivation chosen."
+  ],
+  "summary": {
+    "rights_holder": "CHI",
+    "origin_year": 2020,
+    "origin_pick": 44,
+    "scope_start": "2020-11-18",
+    "scope_end": "2021-08-12",
+    "immediate_notice_dates_checked": 268,
+    "next_season_draft_clock_examples": 2,
+    "standard_count_before_after": [
+      15,
+      15
+    ],
+    "two_way_count_before_after": [
+      2,
+      2
+    ],
+    "constructed_finite_retention_family_supported": true,
+    "actual_Tender_or_rights_certificate": false,
+    "new_NBA_contracts": 0,
+    "new_foreign_contracts": 0,
+    "whole_future_rights_PASS": false
+  },
+  "authority": {
+    "routine_candidate_within_SQ1_noNBAactivation": true,
+    "new_long_term_choice_selected": false,
+    "new_author_lock": false,
+    "actual_foreign_or_NBA_consents_certified": false,
+    "macro3_complete": false,
+    "new_REGISTER_or_central_promotion": false
+  },
+  "independent_review_completed": true,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "actual_context_packs": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false
+}
