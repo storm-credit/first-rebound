@@ -1,0 +1,54 @@
+{
+  "id": "T1_SELECTED_DRAFT_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewer": "Codex independent agent den_pick_full_branch",
+  "mode": "READ_ONLY_SOURCE_FIRST_INDEPENDENT_REPLAY",
+  "source_sha256": {
+    "research/NBA_2021_PICK16_T1_OPERATING_FAMILY_2026_10_07.json": "ba20c3378be3fa2ed9883b3990d315f8b889455ab0bc429a8cee4ec99fb4d128",
+    "tools/build_2021_t1_selected_draft_execution.py": "57b49dea5beaced0c4f22ef3f20e7ce4097277933f37976a810638f38690e912",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306"
+  },
+  "direct_replay": {
+    "working_choices": 60,
+    "atomic_trade_events": 2,
+    "asset_edges": 9,
+    "chronological_events": 62,
+    "unique_players": 60,
+    "final_typed_objects": 67,
+    "saved_owner_inventory_equal": true,
+    "prior_CHI_choices": 2,
+    "new_NPC_choices": 58,
+    "PS21_legal_conditions_preserved": true,
+    "UPCs_and_Tenders": 0,
+    "elapsed_seconds": 0.48
+  },
+  "actual_return_mutations": [
+    {
+      "field": "pick",
+      "result": "CALLER_SOURCE_ROW_REJECT"
+    },
+    {
+      "field": "player",
+      "value": "Alperen Sengun",
+      "result": "CALLER_SOURCE_ROW_REJECT"
+    },
+    {
+      "field": "new_NBA_UPC_or_RequiredTender",
+      "value": true,
+      "result": "CALLER_CONTRACT_PROMOTION_REJECT"
+    },
+    {
+      "field": "T1 child event",
+      "result": "PHYSICAL_SOURCE_EQUALITY_REJECT"
+    },
+    {
+      "field": "T1 predecessor owner",
+      "result": "PHYSICAL_SOURCE_EQUALITY_REJECT"
+    }
+  ],
+  "guard_scope": "Last two mutations are physical-source guards, not overcounted as atomic owner guard injections.",
+  "verdict": "ACCEPT_SOURCE_BOUND_ROUTINE_DRAFT_MODEL_EXECUTION",
+  "new_defects": 0,
+  "ancestor_constructors_repeated": 0,
+  "whole_macro3_or_G16_certified": false,
+  "new_capyear_contracts_or_actual_receipts_certified": false
+}

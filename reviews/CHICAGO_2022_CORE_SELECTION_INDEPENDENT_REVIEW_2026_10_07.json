@@ -1,0 +1,75 @@
+{
+  "id": "CHICAGO_2022_CORE_SELECTION_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewer": "Codex independent agent den_pick_full_branch",
+  "mode": "READ_ONLY_SOURCE_FIRST",
+  "source_sha256": {
+    "tools/build_chicago_2022_core_retention_selected_family.py": "f3a74518358be26e879fcfb8b37c1f44533d69e409ce15b5435a992b181b1cf9",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7"
+  },
+  "authority_audit": "reviews/MACRO3_FINITE_EXIT_AND_CORE_ROUTINE_AUTHORITY_AUDIT_2026_10_07.md",
+  "direct_checks": {
+    "all_physical_named_contract_rows": 17,
+    "STD": 15,
+    "TW": 2,
+    "chronological_events": 11,
+    "July7_prefixes": [
+      [
+        12,
+        0
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        15,
+        2
+      ]
+    ],
+    "live_normal_and_apron": 141378541,
+    "old_stretch_preserved": 16371000,
+    "unsigned_reservation_normal": 13096000,
+    "unsigned_reservation_apron": 14734000,
+    "normal_sum": 170845541,
+    "apron_sum": 172483541,
+    "elapsed_seconds": 0.59
+  },
+  "actual_return_injections": [
+    {
+      "mutation": "P normal upper +100000",
+      "result": "CALLER_REJECT"
+    },
+    {
+      "mutation": "TW fullcash Actual payment zero",
+      "result": "CALLER_REJECT"
+    },
+    {
+      "mutation": "actualreceipt true",
+      "result": "CALLER_REJECT"
+    }
+  ],
+  "repair": {
+    "field_before": "no_prior_incorporation_absence_certified:true",
+    "risk": "Ambiguous label could read as prior exception-incorporation absence certified",
+    "field_after": "actual_prior_incorporation_absence_certified:false",
+    "root_checked_physical_saved_value": true
+  },
+  "verdict": "ACCEPT_ROUTINE_LEGAL_FICTIONAL_IMPLEMENTATION_WITH_NAMED_JULY7_COST_BOUND",
+  "future_PO_exercise_selected": false,
+  "actual_private_receipts_certified": false,
+  "new_author_lock": false,
+  "whole_FY22_macro3_or_G16_certified": false,
+  "ancestor_constructors_repeated": 0
+}

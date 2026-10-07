@@ -1,0 +1,182 @@
+{
+  "schema": "PICK16_T1_REVIEWABLE_ROUTINE_OPERATING_FAMILY_V1",
+  "status": "ROOT_REVIEWABLE_T1_ROUTINE_DIRECTION_NOT_CANON_OR_ACTUAL_RECEIPT",
+  "source_hash_method": "UTF8_LF_SHA256",
+  "source_sha256": {
+    "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json": "86b9989daa20eced72106c25b14fb8d8b3b32d201132a0b87ba466b0ce51fba0",
+    "research/NBA_2021_PICK16_COST_CLOSURE_BRIDGE_2026_10_07.json": "e1a9809fabcf4a63b703479df8eeb0fc9db615670e23a24f5f61f707003c37b1",
+    "research/OKC_2021_AP1_FULL_COST_FAMILY_2026_10_07.json": "0f1b2c384be7043f6bacecf336d925a2905bc1ca8a07b7089ba350d481b8acb0",
+    "research/NBA_2021_FULL_DRAFT_WORKING_BOARD_2026_10_07.json": "90099928f9133c4087ee7871939ce58216d183bd186f5ebd3575a56c2348eeed",
+    "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.json": "3e35fd2abfeb32e2bc5b66b7796f843ca117359be1a419d037844d29177a26d8",
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "design/NBA_2021_PICK16_AP1_SG16_DIRECTION_DECISION_PACKET_2026_10_07.md": "4c39cb640c607accda1fd0063c5f28c93e6ed654e21ff52c92734429fff4a839"
+  },
+  "self_sha256": "445b76d136e90d01f529d50c16bad5cb8da6783ecd96a1b29c87cd2c7ebf7bfa",
+  "authority": {
+    "approved_Chicago_M1_A_preserved": true,
+    "frozen_macro2_S2_preserved": true,
+    "new_human_question_required_by_unselected_label_alone": false,
+    "root_routine_selection_recorded_by_this_file": false,
+    "new_author_lock": false,
+    "macro3_whole_complete": false,
+    "manuscript_allowed": false
+  },
+  "working_order": [
+    {
+      "date": "2021-07-28",
+      "step": "AP1",
+      "atomic_edges": [
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Kemba Walker",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Al Horford",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Moses Brown",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "CURRENT_FIRST_SELECTION",
+          "asset": "BOS_2021_16",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "EARLIER_BOS_MEM_2025_2R",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "LATEST_OKC_WAS_EARLIER_DAL_MIA_2023_2R",
+          "from": "OKC",
+          "to": "BOS"
+        }
+      ],
+      "predecessor": "frozen BOS #16 and BOS/OKC current contracts and conditional seconds",
+      "old_salary_cap_year": "2020-21"
+    },
+    {
+      "date": "2021-07-29",
+      "step": "SELECT16",
+      "selector": "OKC",
+      "player": "Alperen Sengun",
+      "candidate_board_available": true,
+      "other_58_author_selected": false,
+      "selection_actual_receipt_certified": false
+    },
+    {
+      "date": "2021-07-29",
+      "step": "SG16",
+      "atomic_edges": [
+        {
+          "event": "SG16",
+          "kind": "UNSIGNED_DRAFT_RIGHTS",
+          "asset": "BOS_2021_16:Alperen Sengun",
+          "from": "OKC",
+          "to": "HOU"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "DET_FIRST_OR_2027_SECOND",
+          "from": "HOU",
+          "to": "OKC"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "WAS_FIRST_OR_2026_2027_SECONDS",
+          "from": "HOU",
+          "to": "OKC"
+        }
+      ],
+      "predecessor": "OKC selected #16; no new rookie UPC or outstanding RequiredFirstTender",
+      "old_salary_cap_year": "2020-21"
+    }
+  ],
+  "after_candidate": {
+    "BOS": {
+      "incoming_contracts": [
+        "Al Horford",
+        "Moses Brown"
+      ],
+      "outgoing_contract": "Kemba Walker",
+      "rights_from_OKC": "LATEST_OKC_WAS_EARLIER_DAL_MIA_2023_2R"
+    },
+    "OKC": {
+      "incoming_contract": "Kemba Walker",
+      "incoming_claims": [
+        "EARLIER_BOS_MEM_2025_2R",
+        "DET_FIRST_OR_2027_SECOND",
+        "WAS_FIRST_OR_2026_2027_SECONDS"
+      ],
+      "outgoing_contracts": [
+        "Al Horford",
+        "Moses Brown"
+      ],
+      "selected16_rights_outgoing_to_HOU": true
+    },
+    "HOU": {
+      "incoming_unsigned_rights": "BOS_2021_16:Alperen Sengun",
+      "outgoing_preserved_claims": [
+        "DET_FIRST_OR_2027_SECOND",
+        "WAS_FIRST_OR_2026_2027_SECONDS"
+      ],
+      "new_UPC_or_tender_at_atomic_instant": false
+    }
+  },
+  "public_cost_family": {
+    "apron_usd": 138928000,
+    "BOS_upper_after_AP1_usd": 133457706,
+    "BOS_margin_usd": 5470294,
+    "OKC_upper_after_AP1_usd": 134956131,
+    "OKC_margin_usd": 3971869,
+    "HOU_SG16_unsigned_rights_apron_delta_usd": 0,
+    "Brown_future_protection_q_interval_usd": [
+      423280,
+      1701593
+    ],
+    "bonus_waivers": "CONSENSUAL_IF_APPLICABLE_NOT_ACTUAL_RECEIPT",
+    "future_tender_or_UPC_reopens_cost": true,
+    "Aug3_new_cap_year_auto_carry": false
+  },
+  "candidate_board_scope": {
+    "control_rows": 60,
+    "pick16_board_available": true,
+    "other_58_draftees_author_selected": false,
+    "actual_counterfactual_participation_certified": false,
+    "other_58_player_duplicate_count_in_candidate_board": 0
+  },
+  "collision_review": {
+    "approved_CHI_asset_edge_conflict": false,
+    "approved_M1_A_role_or_salary_modified": false,
+    "macro2_June18_retroactivity": false,
+    "NBA_opponent_future_rights_and_roles_changed": true,
+    "later_BOS_OKC_HOU_contract_roster_and_pick_descendants_required": true
+  },
+  "exact_remaining_inputs": [
+    "Root's routine T1 direction selection and conditional DB1 predecessor-draftee choice; candidate board availability is not actual draft/consent.",
+    "Player/club consent and exact Brown q/bonus waiver if an actual contract execution is modeled; public cost upper is a fictional lawful family, not receipt proof.",
+    "After August 3, new-year rookie tender/UPC, BOS/OKC/HOU roster/finance and protected-pick descendants require a separate dated continuation."
+  ],
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL"
+}

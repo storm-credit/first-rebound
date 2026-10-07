@@ -1,0 +1,33 @@
+{
+  "id": "PICK16_T1_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewer": "Codex independent agent den_pick_full_branch",
+  "mode": "READ_ONLY_SOURCE_FIRST",
+  "source_sha256": {
+    "tools/build_2021_pick16_t1_operating_family.py": "445b76d136e90d01f529d50c16bad5cb8da6783ecd96a1b29c87cd2c7ebf7bfa",
+    "research/NBA_2021_PICK16_T1_OPERATING_FAMILY_2026_10_07.json": "ba20c3378be3fa2ed9883b3990d315f8b889455ab0bc429a8cee4ec99fb4d128"
+  },
+  "direct_checks": {
+    "ordered_board_rows": 60,
+    "S2_holders_preserved": 59,
+    "changed_current_holder": "#16 BOS→OKC→HOU",
+    "prior_CHI_working_choices_preserved": 2,
+    "apron_margins_USD": {
+      "BOS": 5470294,
+      "OKC": 3971869
+    },
+    "Brown_whole_protection_interval": [
+      423280,
+      1701593
+    ]
+  },
+  "actual_defect": {
+    "injection": "AP1 child event changed to SG16 after checked source returned",
+    "initial_result": "FALSE_PASS because tuple projection discarded child event",
+    "repair": "Explicit child event equality to parent event in build",
+    "same_injection_after_repair": "REJECTED: Atomic child event differs from parent event identity"
+  },
+  "verdict": "ACCEPT_REPAIRED_FINITE_CANDIDATE_FOR_ROUTINE_SELECTION",
+  "ancestor_constructors_repeated": 0,
+  "whole_G16_certified": false,
+  "actual_private_acceptance_or_legal_receipt_certified": false
+}
