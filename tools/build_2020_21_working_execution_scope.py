@@ -11,6 +11,9 @@ import build_2020_21_regular_working_chronology as regular_order
 import build_2021_l2_working_chronology as playin_order
 import build_2021_l2_nonplayoff_roster_scope as roster_check
 import check_chicago_d1_s2 as s2_check
+import build_2020_21_dated_roster_execution_bridge as full_roster
+import build_2020_21_health_coach_execution_family as health_family
+import build_2020_21_transaction_execution_closure_witness as transaction_family
 
 ROOT = Path(__file__).resolve().parents[1]
 REGULAR = 'simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json'
@@ -23,7 +26,8 @@ REGISTER = 'control/CHICAGO_2020_21_D1_S2_REGISTER.json'
 OUT = 'simulation/NBA_2020_21_WORKING_EXECUTION_SCOPE.json'
 
 def build():
-    formal = s2_check.evaluate(common.read(REGISTER))
+    register=common.read(REGISTER)
+    formal = s2_check.evaluate(register)
     regular, playin, playoff = (common.read(p) for p in (REGULAR,PLAYIN,PLAYOFF))
     regular_check.validate_against_sources(regular)
     if playin != playin_check.build():
@@ -33,6 +37,14 @@ def build():
     regular_order.validate(regular_chronology,source=regular)
     playin_order.validate(playin_chronology)
     roster_check.validate(roster)
+    dated=common.read(full_roster.OUT);assert not full_roster.validate(dated), 'dated roster bridge stale'
+    if formal['season_selected']:
+        health=common.read(health_family.OUT)
+        assert not health_family.validate(health), 'health/nomination family stale'
+        assert health['scope']['independent_review_complete'] is True
+        transactions=common.read(transaction_family.OUT)
+        assert not transaction_family.validate(transactions), 'transaction family stale'
+        assert transactions['status']=='FINITE_A2_K_TRANSACTION_EXECUTION_INDEPENDENTLY_REVIEWED'
     phases = []
     player_dates = defaultdict(list)
     team_dates = defaultdict(list)
@@ -64,8 +76,8 @@ def build():
         raise ValueError('phase coverage incomplete')
     if any(len(v)!=1 for v in team_dates.values()) or any(len(v)!=1 for v in player_dates.values()):
         raise ValueError('team or positive player scheduled twice on same date')
-    return dict(status='WORKING_MINUTE_AVAILABILITY_RESULT_SUBSCOPES_COMPLETE_FORMAL_SEASON_HOLD',
-        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF,REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER,REGISTER)},
+    return dict(status='S2_FINITE_2020_21_EXECUTION_CLOSED' if formal['season_selected'] else 'WORKING_MINUTE_AVAILABILITY_RESULT_SUBSCOPES_COMPLETE_FORMAL_SEASON_HOLD',
+        source_sha256={p:common.sha(p) for p in (REGULAR,PLAYIN,PLAYOFF,REGULAR_ORDER,PLAYIN_ORDER,PLAYIN_ROSTER,full_roster.OUT,health_family.OUT,transaction_family.OUT,REGISTER)},
         authority=common.AUTH,phase_games={'REGULAR':1080,'PLAYIN':6,'PLAYOFF':88},
         phase_team_rows=dict(rows),positive_modeled_player_dates=dict(positive),
         total_games=1174,total_team_games=len(phases),same_date_team_collisions=0,
@@ -76,7 +88,9 @@ def build():
         regular_working_chronology_complete=True,
         regular_working_order_team_plans=regular_chronology['summary']['new_working_chronological_team_plans'],
         regular_working_order_blocks=regular_chronology['summary']['blocks'],
-        original_regular_107_witnesses_preserved=True,
+        original_regular_107_witnesses_preserved_in_raw_overlay=True,
+        original_regular_witnesses_transported=regular['summary']['existing_source_lineup_witnesses'],
+        regular_active_limit_corrections=regular['summary']['working_active_limit_corrections'],
         playin_six_dated_minute_availability_result_models_complete=True,
         playin_first_round_pairs_verified=playin['playoff_first_round_pairs_verified'],
         playin_qualifier_changes=playin['playoff_qualifiers_changed'],
@@ -85,13 +99,14 @@ def build():
         playin_working_order_blocks=playin_chronology['assignment_blocks'],
         playin_nonplayoff_roster_candidates=roster['working_team_roster_candidates'],
         playin_nonplayoff_candidate_player_dates=sum(len(r['entries']) for r in roster['dated_team_rosters']),
-        playin_nonplayoff_registration_conflicts=['WAS_HOMESLEY_16TH_STANDARD','GSW_HUTCHISON_PATH'],
+        playin_nonplayoff_registration_conflicts=[g['id'] for g in dated['named_gaps']],
+        dated_registration_working_complete=dated['scope']['working_roster_execution_complete'],
         playoff_eighty_eight_working_coach_health_result_models_complete=True,
         scope_completed='Positive rotation availability, complete minute budgets/existence witnesses, all regular/play-in working clock orders and chosen result continuity.',
         scopes_not_certified=['Regular/play-in positional matchups and actual dead-ball substitutions',
-            'All registered/reserve-player health and final four non-playoff play-in roster registration',
+            'Real clinical status of unused reserves; selected working availability is separate from medical truth',
             'Actual boxes/scores and future optional offseason rights delivery; finite season origin/control reviewed separately',
-            'Remaining fictional dated roster/transaction execution; actual acceptance/private financial terms not certified'],
+            'Actual acceptance/private financial terms and future optional offseason choices not certified'],
         formal_gate_prerequisite_register=REGISTER,
         pending_legal_rows=[key for key, verdict in formal['legal_fields'].items() if verdict != 'LEGAL_BOUND_PASS'],
         completed_legal_rows=sum(v == 'LEGAL_BOUND_PASS' for v in formal['legal_fields'].values()),
@@ -102,7 +117,9 @@ def build():
         formal_a_k_season_depends_on_all_f_legal=True,
         completed_subscope_does_not_clear_missing_law=True,
         medical_certified=False,actual_registration_certified=False,
-        full_legal_execution_cleared=False,season_selected=False,manuscript_allowed=False)
+        full_private_financial_execution_certified=False,
+        finite_s2_execution_cleared=formal['season_selected'],k_closed=register['k_closed'],
+        season_selected=formal['season_selected'],manuscript_allowed=False)
 
 def markdown(d):
     return f"""# 2020–21 완료한 작업 모델 범위와 최종 게이트
@@ -122,15 +139,15 @@ J1 27팀 효과는 기존 점수차에 이미 한 번 연결되어 있다. F4 5 
 따라서 **27+37=64팀·고유62경기**다. 같은CHA–CLE경기 양팀 겹침2와 C2–F5 같은팀의 별도 전벡터 대체2를 구분한다.
 
 정규시즌2160팀·{d['regular_working_order_blocks']}블록과 플레이인12팀·{d['playin_working_order_blocks']}블록에
-별도 작업용 시계 순서를 선택했다. 기존107원증인은 보존하고 새107순서를 따로 만들었다.
+별도 작업용 시계 순서를 선택했다. 원107구간증인은 raw overlay에 보존하며 현재{d['original_regular_witnesses_transported']}개를 그대로 운반했다. active15의 네 작업 분 보정과 구간증인2 교체를 명시한다.
 선발·개인초·쿼터/연장 경계를 대조했으며 실제dead-ball 교대·전술·휴식 상한 인증은 아니다.
-네 비플레이오프팀은6팀-날짜/102선수칸의15+2후보로 대조했다. WAS Homesley16명과 GSW Hutchison경로가 미선택이다.
-최종등록·전체 예비선수 건강·남은 날짜별 거래 실행은 따로 남는다. A3의 유한 시즌 origin/control 결산은 별도 검문으로 통과했다.
+네 비플레이오프팀은6팀-날짜/102선수칸의15+2후보로 대조했다. 이전 WAS Homesley/GSW Hutchison 후보 공백은 검문된 전체 날짜별 명단 실행 가족에서 해소됐다.
+명단 실행은 완료했으며 등록 선수의 실제 임상 상태와 가상 건강·거래 종료 인증은 구분한다. A3의 유한 시즌 origin/control 결산은 별도 검문으로 통과했다.
 실제 계약 수락·비공개 재무·의료는 인증하지 않으며 이를 가상 설계의 새 필수 원본 요건으로 추가하지 않는다.
 
 공식A/K/시즌 집계는 [S2 검사기](../tools/check_chicago_d1_s2.py)의 모든F법적 선행조건을 따른다.
-현재 법적{d['completed_legal_rows']}PASS/{len(d['pending_legal_rows'])}HOLD({', '.join(d['pending_legal_rows'])}), F법적{d['completed_f_legal_groups']}/5·A{d['completed_a_execution']}/3·K0/4·시즌false다.
-법적 통과와 전체 거래/명단/건강 실행은 구분하며 정확 금융 선택/미래픽조건을 사실로 채우지 않는다. 미완료 큰묶음6·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
+현재 법적{d['completed_legal_rows']}PASS/{len(d['pending_legal_rows'])}HOLD({', '.join(d['pending_legal_rows'])}), F법적{d['completed_f_legal_groups']}/5·A{d['completed_a_execution']}/3·K{len(d['k_closed'])}/4·시즌{str(d['season_selected']).lower()}다.
+법적 통과와 전체 거래/명단/건강 실행은 구분하며 정확 금융 선택/미래픽조건을 사실로 채우지 않는다. 미완료 큰묶음{5 if d['season_selected'] else 6}·v0.30 PARTIAL·설계/원고 CLOSED·원고0.
 
 [정규시즌](NBA_2020_21_REGULAR_CLOCK_COMPLETION.md) · [플레이인](NBA_2021_L2_WORKING_MINUTE_MODELS.md) · [플레이오프](NBA_2021_ALL_DATED_PLAYOFF_COACH_PLANS.md)
 [기계 범위표](NBA_2020_21_WORKING_EXECUTION_SCOPE.json)

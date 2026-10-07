@@ -256,7 +256,7 @@ def build():
                      'actual_active_list_or_medical_certified':False})
     # Minimal legal active-list implementation: positive TW games active; no invented reserve illness.
     twchecks={}
-    for n,expected in [('Tyrell Terry',45),('Nate Darling',18)]:
+    for n,expected in [('Tyrell Terry',45),('Nate Darling',16)]:
         regular=positive_dates[('CHA',n,'REGULAR')];post=positive_dates[('CHA',n,'PLAYIN')]+positive_dates[('CHA',n,'PLAYOFF')]
         assert regular==expected and regular<=50 and post==0, ('season specific TW domain',n,regular,post)
         twchecks[n]={'regular_positive_games':regular,'working_regular_active_games':regular,'conservative_2020_regular_game_limit':50,
@@ -305,7 +305,7 @@ def render(d):
       '- 2020 코로나 조정 tender의 정확 날짜는 미회수다. 해당 연도 허용 창 안의 실행을 가상 절차로 선택하며 2017 날짜를 복사하지 않는다. 2021 Subsequent Draft 이후 권리/계약은 미선택이다. Trent·Brown과 Homesley의 공개 다년 표준계약 가족은 보존한다.',
       '- Bell: Jan23 명명된 hardship 가족을 보존하고 Jan31 공개 해제 전까지 여분 1명을 허용한다. Apr14–23의 보존된 10일 계약은 선택된 명단의 15인 범위 안이다. 실제 의료·통지·지급·리그 접수 인증은 아니다.',
       f"- 두 팀 {d['summary']['team_games']}개 팀 경기의 양수 참가자와 기존 분은 모두 보존된다. 남은 두 팀 슬롯 충돌0, 전체 30팀 완료는 별도다.",
-      '- Terry 정규45경기, Darling18경기만 작업 active로 둔다. NBA의 2020–21 공식 50경기 상한 이내이며 두 선수의 L2·플레이오프 양수 참가0. 제로 분에 의료 상태를 붙이지 않는다.','',
+      '- Terry 정규45경기, Darling16경기만 작업 active로 둔다. NBA의 2020–21 공식 50경기 상한 이내이며 두 선수의 L2·플레이오프 양수 참가0. 제로 분에 의료 상태를 붙이지 않는다.','',
       '## 직접 회수 원자료','',
       '- [Frankfurt 2016-06-03 원계약 발표](https://www.frankfurt-skyliners.de/news-service/details/fraport-skyliners-verpflichten-nachwuchs-nationalspieler-isaac-bonga/), [NBA 2018 조기 참가 원목록 PDF5](https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2018/04/2018-Early-Entry-Candidates.pdf). 개발계약이라는 표현만으로 CBA 전문계약 보수 정의를 확정하지 않는다.',
       '- [Woj Jan23 원보도](https://twitter.com/wojespn/status/1352961450294259712), [Katz hardship 사용 원보도](https://twitter.com/FredKatz/status/1355694544889786375), [Bell 해제 원보도](https://twitter.com/FredKatz/status/1355692134670729217). oEmbed 원본문과 raw SHA를 보존한다.',

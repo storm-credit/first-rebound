@@ -1,7 +1,7 @@
 """Complete six source clock gaps and construct conditional five-player witnesses.
 
-Only six one-to-three-second adjustments are new author working choices. All
-other player seconds and 107 existing lineup witnesses are preserved.
+Six clock corrections and four game-active-limit reassignments are explicit
+working choices. Raw input vectors and raw107 witnesses remain in SOURCE.
 """
 
 from __future__ import annotations
@@ -24,7 +24,14 @@ PRE = "simulation/CHICAGO_2020_21_PREDEADLINE_PAIRED_OBSERVATIONS.csv"
 BPM = "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv"
 OUT = ROOT / "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json"
 MD = ROOT / "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.md"
-SOURCES = (SOURCE, PRE, BPM)
+SOURCES = (SOURCE, PRE, BPM, "tools/build_2020_21_regular_clock_completion.py")
+ACTIVE_LIMIT_REASSIGNMENTS = {
+    ("2021-03-13_CHA_TOR", "CHA"): ("Nate Darling", "Caleb Martin"),
+    ("2021-03-30_WAS_CHA", "CHA"): ("Nate Darling", "Cody Martin"),
+    ("2021-04-01_BKN_CHA", "CHA"): ("Caleb Martin", "Cody Martin"),
+    ("2021-05-11_MEM_DAL", "DAL"): ("JJ Redick", "Tim Hardaway Jr."),
+}
+ACTIVE_LIMIT_SOURCE = "https://www.nba.com/news/teams-allowed-to-carry-15-players-on-active-roster-for-2020-21-season"
 TOL = 1e-5
 
 
@@ -135,6 +142,7 @@ def build() -> dict:
     actual = _actual_pre()
     ratings = _ratings()
     corrections = []
+    active_corrections = []
     effects = defaultdict(list)
     original_witness_count = 0
     constructed_witness_count = 0
@@ -193,13 +201,42 @@ def build() -> dict:
             effects[row["event_id"]].append(item)
         else:
             row["working_clock_correction"] = None
+        row["working_active_limit_correction"] = None
+        if key in ACTIVE_LIMIT_REASSIGNMENTS:
+            outgoing, receiver = ACTIVE_LIMIT_REASSIGNMENTS[key]
+            raw_vector = row["player_seconds"].copy()
+            assert not gap and len([n for n in raw_vector.values() if n > 1e-7]) == 16
+            assert outgoing not in row["starters"] and raw_vector[outgoing] > 0 and raw_vector[receiver] > 0
+            amount = raw_vector[outgoing]
+            row["player_seconds"][outgoing] = 0
+            row["player_seconds"][receiver] += amount
+            assert row["player_seconds"][receiver] <= duration
+            current = by_game[row["event_id"]]
+            # All four affected dates are not back-to-back. No fatigue
+            # exposure baseline or new medical status is inferred.
+            assert not b2b[(row["team"],row["date"])]
+            change = {outgoing:-amount,receiver:amount}
+            effect, unknown = selected.policy.cc.form(change,ratings,{})
+            sign = 1 if row["team"] == current["home"] else -1
+            item = {"event_id":row["event_id"],"date":row["date"],"team":row["team"],
+                "outgoing_zero_player":outgoing,"receiver":receiver,"reassigned_seconds":amount,
+                "raw_player_vector":raw_vector,"working_player_vector":row["player_seconds"].copy(),
+                "classification":"ROUTINE_DELEGATED_WORKING_COACH_ACTIVE_LIMIT_CORRECTION",
+                "historical_or_injury_certified":False,"actual_active_list_certified":False,
+                "bpm_effect":effect,"unknown_coefficients":unknown,"home_sign":sign,
+                "b2b":False,"incremental_fatigue_penalty":0.0,
+                "source_rule":ACTIVE_LIMIT_SOURCE,"rule_locator":"2020-12-18 article body, game-night active13 to15",
+                "effect_scope":"GAME_ACTIVE_LIMIT_REASSIGNMENT"}
+            row["working_active_limit_correction"] = deepcopy(item)
+            active_corrections.append(item);effects[row["event_id"]].append(item)
+        assert len([n for n in row["player_seconds"].values() if n > 1e-7]) <= 15, ("active15",key)
         assert same(sum(row["player_seconds"].values()), 5 * duration)
         assert max(row["player_seconds"].values()) <= duration + TOL
         row["modeled_available"] = sorted(p for p, n in row["player_seconds"].items() if n > 1e-7)
         row["zero_player_health"] = {p: None for p, n in row["player_seconds"].items() if n <= 1e-7}
         row["working_total_seconds"] = 5 * duration
         row["working_clock_exact"] = True
-        if row.get('f5_scope_completion'):
+        if row.get('f5_scope_completion') or row['working_active_limit_correction']:
             # A new F5 completion witness is not one of the old 107 segments.
             row["lineup_witness"] = construct_witness(row["player_seconds"], duration)
             row["lineup_witness_kind"] = "CONSTRUCTED_UNIFORM_MATROID_EXISTENCE_ONLY"
@@ -218,7 +255,8 @@ def build() -> dict:
         row["medical_certified"] = False
         row["actual_active_list_certified"] = False
     assert len(corrections) == len(expected_gaps) == 6
-    assert original_witness_count == 107 and constructed_witness_count == 2053
+    assert original_witness_count == 105 and constructed_witness_count == 2055
+    assert len(active_corrections) == 4
     assert len(team_rows) == 2160
 
     for game in games:
@@ -238,7 +276,8 @@ def build() -> dict:
         game["home_margin_band"] = band
         game["direction"] = direction
         game["winner"] = winner
-        game["clock_correction_effects"] = added
+        game["clock_correction_effects"] = [i for i in added if i.get("effect_scope") != "GAME_ACTIVE_LIMIT_REASSIGNMENT"]
+        game["active_limit_correction_effects"] = [i for i in added if i.get("effect_scope") == "GAME_ACTIVE_LIMIT_REASSIGNMENT"]
         game["winner_recomputed_after_clock_correction"] = True
     wins = Counter(g["winner"] for g in games)
     assert len(games) == 1080 and sum(wins.values()) == 1080
@@ -248,13 +287,17 @@ def build() -> dict:
             "source_sha256": {p: sha(p) for p in SOURCES},
             "policy": source["policy"], "method": "BPM_MAR25_EB", "raptor_mixed": False,
             "team_games": team_rows, "regular_season_games": games,
-            "clock_corrections": corrections,
+            "clock_corrections": corrections, "active_limit_corrections":active_corrections,
             "summary": {"games": 1080, "team_games": 2160, "source_clock_gaps": 6,
-                        "working_clock_corrections": 6, "existing_source_lineup_witnesses": original_witness_count,
+                        "working_clock_corrections": 6, "working_active_limit_corrections":4,
+                        "maximum_positive_participants":max(len(r["modeled_available"]) for r in team_rows),
+                        "original_source_witnesses_retained_in_raw_source":107,
+                        "prior_working_witnesses_replaced_due_to_active_limit":2,
+                        "existing_source_lineup_witnesses": original_witness_count,
                         "constructed_existence_witnesses": constructed_witness_count,
                         "wins_chicago": wins["CHI"], "wins_minnesota": wins["MIN"],
                         "winner_changes_from_selected_overlay": 0},
-            "scope": "Six minimal source-clock choices plus existence witnesses; no real substitution sequence, tactical role, roster, medical, or legal certification.",
+            "scope": "Six minimal source-clock choices and four explicit active15 reassignments plus existence witnesses; no real substitution sequence, tactical role, roster, medical, or legal certification.",
             "source_player_vectors_modified": False,
             "working_player_vectors_selected": True,
             "whole_health_complete": False, "full_roster_registration_complete": False,
@@ -297,11 +340,19 @@ def validate(data: dict) -> None:
             assert {p: n for p, n in row["player_seconds"].items() if p != who} == {
                 p: n for p, n in raw["player_seconds"].items() if p != who}
         else:
-            assert row["player_seconds"] == raw["player_seconds"]
+            active = row.get("working_active_limit_correction")
+            if active:
+                outgoing,receiver=ACTIVE_LIMIT_REASSIGNMENTS[key]
+                assert active["raw_player_vector"]==raw["player_seconds"]
+                rebuilt=raw["player_seconds"].copy();rebuilt[receiver]+=rebuilt[outgoing];rebuilt[outgoing]=0
+                assert row["player_seconds"]==rebuilt and active["working_player_vector"]==rebuilt
+            else:
+                assert key not in ACTIVE_LIMIT_REASSIGNMENTS and row["player_seconds"] == raw["player_seconds"]
         if row["lineup_witness_kind"] == "EXISTING_SOURCE_SEGMENTS_ORDER_NOT_CHRONOLOGY":
             assert row["lineup_witness"] == raw["lineup_witness"]
         assert same(sum(row["player_seconds"].values()), 5 * row["game_duration_seconds"])
         assert max(row["player_seconds"].values()) <= row["game_duration_seconds"] + TOL
+        assert len(row["modeled_available"])<=15
         assert row["modeled_available"] == sorted(p for p, n in row["player_seconds"].items() if n > 1e-7)
         assert row["zero_player_health"] == {p: None for p, n in row["player_seconds"].items() if n <= 1e-7}
         check_witness(row["player_seconds"], row["game_duration_seconds"], row["lineup_witness"])
@@ -313,8 +364,8 @@ def validate(data: dict) -> None:
         witness_modes[row["lineup_witness_kind"]] += 1
     assert keys == {(event, team) for event, game in games.items()
                     for team in (game["home"], game["away"])}
-    assert witness_modes == {"EXISTING_SOURCE_SEGMENTS_ORDER_NOT_CHRONOLOGY": 107,
-                             "CONSTRUCTED_UNIFORM_MATROID_EXISTENCE_ONLY": 2053}
+    assert witness_modes == {"EXISTING_SOURCE_SEGMENTS_ORDER_NOT_CHRONOLOGY": 105,
+                             "CONSTRUCTED_UNIFORM_MATROID_EXISTENCE_ONLY": 2055}
     assert sum(g["winner"] == "CHI" for g in data["regular_season_games"]) == 31
     assert sum(g["winner"] == "MIN" for g in data["regular_season_games"]) == 24
 
@@ -334,12 +385,19 @@ def markdown(data: dict) -> str:
     return f"""# 2020–21 정규시즌 시계·5인조 작업 입력
 
 상태: `{data['status']}`. 선택된 BPM 1,080경기와 2,160팀을 소비하여
-기존 원천의 6개 초 차이만 새 작업 모델로 최소 보정했다. 원천 선수 초는
+기존 원천의 6개 초 차이와 활성 상한을 넘긴 네 행을 새 작업 모델로 보정했다. 원천 선수 초는
 `{SOURCE}`에 그대로 남아 있으며 이 파일에는 보정 전 값·원천 주소·선택규칙을 함께 남겼다.
 
 |날짜|팀|선택 선수|초 보정|BPM 효과|적용 피로 벌점|
 |---|---|---|---:|---:|---:|
 {table}
+
+추가 [당시 NBA 경기 활성 명단 상한15](https://www.nba.com/news/teams-allowed-to-carry-15-players-on-active-roster-for-2020-21-season)에 맞춰
+CHA3/13 Darling→Caleb Martin214초, CHA3/30 Darling→Cody Martin27.692307692307722초,
+CHA4/1 Caleb Martin→Cody Martin24초, DAL5/11 Redick→Hardaway127초를 재배정했다.
+각각 16명→15명, 선발/팀합계/다른2156팀 벡터는 보존한다. 제로 분은 새 부상 판정이 아니다.
+네 경기 모두 back-to-back가 아니며 BPM/미평점 계수 변경을 반영한 승패 방향은 유지한다.
+이 중 이전 구간증인2개는 새 벡터용으로 교체하고 원107배열은 SOURCE에 보존한다.
 
 모든 팀의 합계는 경기 길이의 5배, 개인 초는 경기 길이 이하이다. 기존
 {s['existing_source_lineup_witnesses']}개 5인조 구간은 원천 그대로 검증해 재사용했고,
