@@ -7,13 +7,14 @@
     "subact_bounded_pass": 3,
     "subact_specific_hold": 0,
     "act_exits_audited": 1,
-    "act_bounded_pass": 0,
+    "act_bounded_pass": 1,
     "registered_local_functions_reused": 4,
     "new_episode_functions_added": 0,
     "planned_A05_slots": 92,
     "planned_slots_are_mandatory_new_events": false,
     "subact_review_pending": 0,
-    "act_specific_missing_bounded_witnesses": 1
+    "act_specific_missing_bounded_witnesses": 0,
+    "act_review_pending_bounded_witnesses": 0
   },
   "subact_exit_rows": [
     {
@@ -68,7 +69,7 @@
       "evidence_paths": [
         "design/A05_E4_FINAL_EPISODE_FUNCTION.json"
       ],
-      "last_exact_exit": "2019–20 주인공은 익숙한 손의 공격을 고집하다 약한 손 쪽 첫 벽에서 다음 전진이 막히는 지점을 직접 겪었다. 이후 허용된 비교 가능한 두 번의 역할 반복에서 약한 손으로 짧게 직선 운반하다 첫 벽 앞에서 Coby 또는 Satoransky에게 일찍 공을 넘겼고, 받는 가드가 두 번 모두 공을 확보하는 것을 직접 봤다. 다음 허용 역할 창에도 같은 한정 운반·조기 이양 과제가 전달되어 그 선택을 다시 맡는다. 이 좁은 반복 근거는 직선 전진과 다음 패스의 제한적 신뢰에만 해당하며, 슛·득점·실전 점유 결과, 두 번째 도움수비 해결, 전체 로테이션 신뢰, 주공격 창조자·1차 PG 권한을 인증하지 않는다.",
+      "last_exact_exit": "2019–20 주인공은 익숙한 손의 공격을 고집하다 약한 손 쪽 첫 벽에서 다음 전진이 막히는 지점을 직접 겪었다. 이후 허용된 비교 가능한 두 번의 역할 반복에서 약한 손으로 짧게 직선 운반하다 첫 벽 앞에서 Coby 또는 Satoransky에게 일찍 공을 넘겼고, 받는 가드가 두 번 모두 공을 확보하는 것을 직접 봤다. 다음 허용 역할 창에도 같은 한정 운반·조기 이양 과제가 전달되었고, 그 창 안에서 맡은 수비 통로로 복귀해 가까운 상대와 바스켓 사이를 박스아웃한 뒤 동료가 확보한 공을 가드에게 단순 연결했다. 이 좁은 수행 근거는 맡길 수 있는 한정 로테이션과 첫 벽의 직선 전진·다음 패스에만 해당하며, 개인 리바운드·슛·득점·실전 점유 결과, 두 번째 도움수비 해결, 전체 로테이션 무오류, 주공격 창조자·1차 PG 권한을 인증하지 않는다.",
       "observed_action_cost_authority_reason": "E4 수정안은 비교 가능한 허용 역할 반복 두 번의 첫 벽 조기 이양과 수령 가드의 공 확보, 다음 기존 역할선의 한정 과제 재배정을 가상 운영 관측으로 추가했다. 이전 단일 시도보다 제한적 신뢰의 직접 근거가 생겼다.",
       "bounded_not_claimed": "수비 돌파·슛·득점·두 번째 도움 해결·전체 로테이션 신뢰·실제 경기 박스·사적 코치 내면은 인증하지 않는다.",
       "specific_gap": null,
@@ -82,7 +83,8 @@
         "made_shot_or_second_help_solution_certified": false,
         "whole_rotation_trust_certified": false
       },
-      "independent_review_completed": true
+      "independent_review_completed": true,
+      "additional_R4_role_sequence_review_pending": false
     }
   ],
   "act_exit_row": {
@@ -96,10 +98,11 @@
       "A05-EF-003",
       "A05-EF-004"
     ],
-    "functional_exit_audit_result": "HOLD_ONE_BOUNDED_ROLE_EXECUTION_WITNESS",
-    "specific_gap": "기존 2019–20 역할선의 다음 한정 과제가 전달된 뒤, 수비 복귀·박스아웃·단순 연결 중 맡은 좁은 역할을 실제 한 번 수행하여 연결되는 국소 관측이 아직 없다. 이 수행 한 건이면 전체 로테이션 무오류나 팀 내면평가 없이 Act 운영 출구를 재판정할 수 있다.",
+    "functional_exit_audit_result": "PASS_BOUNDED_A05_ACT_OPERATING_EXIT",
+    "specific_gap": null,
     "not_a_new_gate": "새 공식 경기·개인 박스·정확 날짜·비공개 복귀 허가를 필수 신규 입력으로 요구하지 않는다.",
-    "bounded_completion_path": "같은 기존 역할 창에서 과제 수락→수비 위치/박스아웃→가드에게 단순 연결 중 하나의 제한적 수행을 직접 관측한다. 개인 득점·분·승패·공식박스·새선발·사적 코치수령증빙 불요."
+    "bounded_completion_path": "검문 완료: E1 좁은 수비 역할 선택, E3 조건부 복귀 재시도, E4 두 첫벽 조기패스 공 확보와 같은 다음 허용 역할 창의 수비 통로 복귀·박스아웃·가드 단순 연결 관측. 전체 로테이션 무오류·개인 박스·사적 수령증빙을 인증하지 않는다.",
+    "bounded_pass_scope": "기존 역할선 안의 한정 맡길 수 있음과 약한 손 직선 전진·다음 패스의 제한적 신뢰. 팀 전체 내면평가나 모든 실전 포제션의 안정성은 아니다."
   },
   "a05_to_a06_handoff": {
     "status": "NOT_CERTIFIED_BY_THIS_AUDIT",
@@ -114,12 +117,12 @@
   "source_hash_method": "LF_NORMALIZED_SHA256",
   "source_sha256": {
     "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
-    "design/A05_EARLY_NBA_OPERATING_BATCH_2026_10_07.json": "dc2d1bb240aec5c589e1a1ab9b2372ecb058cf921b7bb669a612c21c9ca4e107",
+    "design/A05_EARLY_NBA_OPERATING_BATCH_2026_10_07.json": "dec0a0e935a9f62e1fcddb40ea87b23919ebcdc19e78603648ac311f1ac801e3",
     "reviews/A05_NLM_SOURCE_ANALYSIS_2026_10_07.json": "cc03b5279004b8c3f0b1f11e07668f89756f8305e76db7730a8874cdc3239921",
-    "design/A05_E1_FINAL_EPISODE_FUNCTION.json": "ae4c357b1b13c47feb70977c07b6aa862075c35d9797ddefd606a0ae7cee0abe",
-    "design/A05_E2_FINAL_EPISODE_FUNCTION.json": "2c0f4d8eec41ba329ec3703886e92c38c190329e53ece3dfd210ead08e1760f8",
-    "design/A05_E3_FINAL_EPISODE_FUNCTION.json": "66fa66a2ea4adeaead5247cca9278611532f21300a329cbc42a6c9a44a277dc6",
-    "design/A05_E4_FINAL_EPISODE_FUNCTION.json": "a0a055f1f57342dfe562db477f923c190f561d76da25746a344df8fdded146c7"
+    "design/A05_E1_FINAL_EPISODE_FUNCTION.json": "1d98fc889b4038fe71d5b09af8b676ded7d8a06629b3bd9cddee7e18dd3e54ae",
+    "design/A05_E2_FINAL_EPISODE_FUNCTION.json": "3ba94dc258a88e5cd7b227d4476762f8db4cb69197bc4812ca7d1b091d866601",
+    "design/A05_E3_FINAL_EPISODE_FUNCTION.json": "0522ed9207a50939c8f5e27cc14f206fd5f008c01ea1506a97ca1cc565e41e4b",
+    "design/A05_E4_FINAL_EPISODE_FUNCTION.json": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454"
   },
   "limits": {
     "whole_A05_Act_complete": false,

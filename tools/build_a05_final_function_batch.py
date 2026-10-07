@@ -54,7 +54,7 @@ FUNCTIONS = (
     },
     {
         'single_function': '2019–20 약한 손 첫 벽에서 조기 이양을 두 번 관측하고 같은 좁은 과제를 다시 맡는다',
-        'exit_state': '2019–20 주인공은 익숙한 손의 공격을 고집하다 약한 손 쪽 첫 벽에서 다음 전진이 막히는 지점을 직접 겪었다. 이후 허용된 비교 가능한 두 번의 역할 반복에서 약한 손으로 짧게 직선 운반하다 첫 벽 앞에서 Coby 또는 Satoransky에게 일찍 공을 넘겼고, 받는 가드가 두 번 모두 공을 확보하는 것을 직접 봤다. 다음 허용 역할 창에도 같은 한정 운반·조기 이양 과제가 전달되어 그 선택을 다시 맡는다. 이 좁은 반복 근거는 직선 전진과 다음 패스의 제한적 신뢰에만 해당하며, 슛·득점·실전 점유 결과, 두 번째 도움수비 해결, 전체 로테이션 신뢰, 주공격 창조자·1차 PG 권한을 인증하지 않는다.',
+        'exit_state': '2019–20 주인공은 익숙한 손의 공격을 고집하다 약한 손 쪽 첫 벽에서 다음 전진이 막히는 지점을 직접 겪었다. 이후 허용된 비교 가능한 두 번의 역할 반복에서 약한 손으로 짧게 직선 운반하다 첫 벽 앞에서 Coby 또는 Satoransky에게 일찍 공을 넘겼고, 받는 가드가 두 번 모두 공을 확보하는 것을 직접 봤다. 다음 허용 역할 창에도 같은 한정 운반·조기 이양 과제가 전달되었고, 그 창 안에서 맡은 수비 통로로 복귀해 가까운 상대와 바스켓 사이를 박스아웃한 뒤 동료가 확보한 공을 가드에게 단순 연결했다. 이 좁은 수행 근거는 맡길 수 있는 한정 로테이션과 첫 벽의 직선 전진·다음 패스에만 해당하며, 개인 리바운드·슛·득점·실전 점유 결과, 두 번째 도움수비 해결, 전체 로테이션 무오류, 주공격 창조자·1차 PG 권한을 인증하지 않는다.',
         'reader_question': 'LaMelo가 합류한 뒤 더 좁아진 공격 시작권에서 공 없는 다음 위치를 만들 수 있을까',
         'next_id': 'A06-S1',
     },
@@ -71,6 +71,7 @@ def build(root=ROOT):
     assert selected['status'] == 'SELECTED_ROUTINE_FOUR_FUNCTIONAL_GROUPS_INDEPENDENTLY_REVIEWED'
     assert selected['independent_review_completed'] is True
     assert selected['R4_extension_independent_review_completed'] is True
+    assert selected['R4_role_sequence_independent_review_completed'] is True
     assert selected['previous_exact_A04_E5_exit'] == previous['exit_state']
     assert [row['id'] for row in selected['route_groups']] == ['R1','R2','R3','R4']
     assert [row['season_scope'] for row in selected['route_groups']] == ['2018-19']*3+['2019-20']
@@ -114,6 +115,8 @@ def build(root=ROOT):
                 'official_game_or_private_receipt_certified': False,
                 'made_shot_or_second_help_solution_certified': False,
                 'whole_rotation_trust_certified': False,
+                'next_assigned_role_sequence_directly_observed': True,
+                'new_game_or_official_personal_box_from_sequence': False,
             }
         prior = previous if index == 1 else built[-1]
         prior_path = PREVIOUS if index == 1 else str(OUTPUTS[index-2]).replace('\\', '/')
@@ -232,7 +235,7 @@ def render(data):
         '', f"- 정확 출구: {data['exit_state']}",
         f"- 다음 독자 질문: {data['reader_question_at_end']}",
         '- 날짜·상대·개인 득점·분·승패·실존 코치 사적 발언은 새로 확정하지 않는다. R3의 복귀는 기존 루키 역할선 안의 **별도 가상 운영 조건**이며 개발 반복의 자동 보상이 아니다.',
-        '- 전체 A05-S1/S2/S3·Act·G13/G14·실제 Pack·원고는 미완료이고 설계/원고 게이트 `CLOSED`다.', '',
+        '- A05-S1/S2/S3·Act의 한정 운영 출구는 별도 감사로 판정한다. 전체 G13/G14·정확 개인 경기기록·실제 Pack·원고는 미완료이고 설계/원고 게이트 `CLOSED`다.', '',
     ]
     return '\n'.join(lines)
 

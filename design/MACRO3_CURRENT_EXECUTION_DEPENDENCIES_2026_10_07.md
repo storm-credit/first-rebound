@@ -1,5 +1,7 @@
 # 3번 현재 실행 의존성 — 2021–23 거래·계약
 
+2026-10-07 [베테랑·DET 공개X·A06 검문](../reviews/VETERAN_DET_COST_AND_A06_REVIEW_2026_10_07.md): PR457 main 뒤 Young/Sato12계약/36상태/192셀/5940결합과 DET 초기 공개X5,361,732를 독립 수용했다. 실제 minimum 비용 변조1건과 CP2 의미반전2건을 수리했다. A05 역할 수행 관측을 보완하고 A06 다섯 기능을 묶어 현재36(A019·A0210·A033·A045·A054·A065)/source45/경로18·없는24/미배정744(사건의무 아님)를 검문했다. A03/A04 감사5PASS1HOLD·별도 기관책임 관측HOLD를 구분한다. Claude 국소blind53.71초 회수·두 지적 처리, 새 AGY/NLM NOT_RUN·이전 실패 성공이월0. 전체FY22·DET/BKN·중요방향·전체G13/G14는 미완료. 미완료큰묶음5·6번까지4·실제Pack0·원고0·v0.30 PARTIAL·설계/원고CLOSED. 아래31 등은 이전시점 이력이다.
+
 **최신 실행:** PR456 main 이후 [FY22 조합·DET 연속 비용·A05 검문](../reviews/FY22_MATRIX_DET_OPERATING_AND_A05_REVIEW_2026_10_07.md)이 우선한다. 16정책/165계약분기/660상태와 DET 두명단/36상태를 독립 수용하고 보너스·상단 내림 오류를 수리했다. Chicago13STD 뒤 남은2칸/Young·Satoransky 후속급여·rookie/TW·전체비용, DET 초기X 공개상단/DET-BKN 공동자산·비용/A-B 중요선택과 시즌 결과는 남는다. LaVine/Carter/주인공 새계약은 미선택이다. A05 네 기능 등록 뒤 현재31/경로15·없는27, A04 외부제시/S3 한정 신뢰가 관측되었다. 도구 timeout·본문UNVERIFIED는 PASS로 이월하지 않는다. 미완료큰묶음5·6번까지4·Pack0·원고0·CLOSED. 아래27 등은 이력이다.
 
 **최신 보충:** PR455 main 뒤 [LaVine·DET·연락/여름 검문](../reviews/LAVINE_DET_AND_A04_CONTACT_SUMMER_REVIEW_2026_10_07.md)이 우선한다. LaVine 기존5년 fullBird·마지막 선수옵션 법적 후보는 독립 수용됐으며 실제 계약 선택/후대 보너스/2026 행사/전체FY22는 미확정이다. [첫 DET 입력](../research/CHICAGO_2021_22_OPENING_DET_PAIRED_INPUT_RECOVERY_2026_10_07.md)은 currentM1과 상대240분·완료 시즌 명단을 연결했다. 개막 표준16→15와 Olynyk/Lee/Lyles/Frank/Joseph 연속 비용은 다음 유한 구현이다. 명단 두 후보의 자리 통과를 전체 비용 PASS로 읽지 않는다. 기능27/경로12·없는30, 미완료큰묶음5/6번까지4이며 아래25/24 등은 이력이다. 다음 Chicago FY22 계약조합·실명 나머지 명단과 A05 루키기 기능 묶음을 병행한다.
