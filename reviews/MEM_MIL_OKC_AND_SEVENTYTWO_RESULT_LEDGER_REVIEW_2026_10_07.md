@@ -14,7 +14,7 @@
 
 [Coby2023 ordinary QO 함수](../research/COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07.md)는 원2019 표와2017 CBA를 직접 읽고 이미 검문된 순수 성분 함수를 재사용한다. 두 starter/nonstarter 분기·8개 모서리 표시 증인과 전체 연속 성분 가족, 보수 비용 상한9,942,120/7,744,602를 [독립 원문/산술 검문](COBY2023_QO_FUNCTION_G11_INDEPENDENT_REVIEW_2026_10_07.json)했다. 기존 2022 Carter/P 표나 현재 예산 상한을 실제 Coby 센트로 복사하지 않았다. regulation 분·unordered 첫블록·active명단을 공식 credited totals/starts로 인증하지 않으며, 발행·수락·branch선택·전체FY23은 미선택이다. June29의2017법과 July1 새 CBA를 분리한다.
 
-이번 묶음의 새 Antigravity/NotebookLM/Claude 호출은 NOT_RUN이다. PR489 실제 사본 등록/세 timeout을 새 상대 분석 성공으로 이월하지 않는다. 당시64경기 JSON/MD 입력은 PR489 head `9c4ea392cf3872ebd8b9c8f60e616108e3470975`의 불변 사본으로 연결했으며 기존 응답·해시를 바꾸지 않았다.
+이번 묶음의 새 Antigravity/NotebookLM 호출은 NOT_RUN이다. Claude의 기존 시간초과 원인을 확인한 것은 아니며, 설치 CLI help에서 확인한 일시적 safe-mode·tools 비활성·짧은 결과물 지시로 [새 source-blind 검수](CHI72_CLAUDE_SAFE_MODE_SOURCE_BLIND_2026_10_07.json)를 실행해11.304초/exit0 답을 회수했다. prior 검문/원자료는 제공하지 않아 편집상 우려2개만 수용했다: 72개 정규시간 선택의 CHI45승과 미선택10은 전체모델 승수45–55라는 조건부 범위이며 seed/lottery 확정값이 아니다; 점수차/SRS/마지막 점수차 tie-break/OT 통계는 null인 원점수·연장으로 만들 수 없다. 범위를 원장/후속보고에 명시하고 점수차 지표를 임의 BPM값으로 채우지 않는다. 원자료 독립검증/전체G16 완료0·영구설정/인증변경0. PR489 실제 사본 등록/세 timeout을 새 상대 분석 성공으로 이월하지 않는다. 당시64경기 JSON/MD 입력은 PR489 head `9c4ea392cf3872ebd8b9c8f60e616108e3470975`의 불변 사본으로 연결했으며 기존 응답·해시를 바꾸지 않았다.
 
 다음은 남은10경기, 전역순위/2022픽, 두 대체시즌과2023후속의 기존 유한 종료 조건이다. 전체 비공개 장부를 새 관문으로 늘리지 않는다.
 

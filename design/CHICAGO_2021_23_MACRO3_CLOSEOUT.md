@@ -1,6 +1,6 @@
 # 3번 2021–23 거래·계약 연쇄 — 조건부 실행과 종료 경계
 
-2026-10-07 [MEM·MIL·OKC·72경기 원장](../reviews/MEM_MIL_OKC_AND_SEVENTYTWO_RESULT_LEDGER_REVIEW_2026_10_07.md): PR489 main64와 기존 승인·명명 소유를 보존. MEM2/MIL4/OKC2의 권리·등록·240분·날짜별 승자를 독립 검문해72/82·CHI45/상대27·잔여10·다음0022100742/2022-01-28. 임시66/70 main승격0. Coby2023 두branch 성분 함수를 원2019표·2017CBA/분수로 독립 검문; 발행·수락·starter선택0·정규시간 분을 공식총분으로 인증0. 신규CLI NOT_RUN·PR489 원64입력 불변commit 연결·전체순위/픽/두시즌/2023후속 미완료·기능43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·목표ACTIVE. 아래는 이전 이력이다.
+2026-10-07 [MEM·MIL·OKC·72경기 원장](../reviews/MEM_MIL_OKC_AND_SEVENTYTWO_RESULT_LEDGER_REVIEW_2026_10_07.md): PR489 main64와 기존 승인·명명 소유를 보존. MEM2/MIL4/OKC2의 권리·등록·240분·날짜별 승자를 독립 검문해72/82·CHI45/상대27·잔여10·다음0022100742/2022-01-28. 임시66/70 main승격0. Coby2023 두branch 성분 함수를 원2019표·2017CBA/분수로 독립 검문; 발행·수락·starter선택0·정규시간 분을 공식총분으로 인증0. 새AGY/NLM NOT_RUN·Claude 일시safe-mode로11.304초 편집맹점2 회수(원자료/G16인증0): 45–55승 조건부범위와 null점수차/OT 경계 보존·PR489 원64입력 불변commit 연결·전체순위/픽/두시즌/2023후속 미완료·기능43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·목표ACTIVE. 아래는 이전 이력이다.
 
 2026-10-02 최신 권위: [위임 후속 선택](../canon/DELEGATED_2021_BRACKET_DRAW_DECISION.json)으로 기존 K1/L2 첫 라운드 대진과 사전등록 첫 추첨의 원소유 순번을 설계 경로로 채택했다. 재추첨/seed 탐색0. Chicago 원소유10·39 및 NOP 스왑 미행사를 선택한다. 아래 미선택/잠정 문구는 원계산 이력이며 전체 픽 소유권·법적 실행·플레이오프 시리즈 결과는 여전히 HOLD다.
 
