@@ -1,0 +1,94 @@
+{
+  "schema": "NBA_2022_23_EXPLICIT_NPC_AVAILABILITY_OVERLAY_V1",
+  "status": "AUTHOR_DELEGATED_DESIGN_SELECTION_PENDING_INDEPENDENT_JOIN_REVIEW",
+  "authority": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+  "source_normalized_sha256": {
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json": "123d07df572ac4350e9528b3f0b913b3013ad4d51584c88a94e78051b9c7af19",
+    "simulation/NBA_2022_NPC_FIRST_ROUND_RSC_SLOT_JOIN.json": "9e72b7b6f277d62a1462eae93548903278631a155698ec39fcfef82fae200933"
+  },
+  "scope": "Two named historical-anchor selections for the fictional 2022–23 regular season; no wholesale actual injury calendar copy.",
+  "historical_facts": [
+    {
+      "player": "Chet Holmgren",
+      "classification": "FACT",
+      "summary": "Foot injury prevented his 2022–23 NBA debut.",
+      "url": "https://www.nba.com/news/chet-holmgren-suffers-foot-injury",
+      "source_body_read": true,
+      "web_locator": "August30,2022 update, body175–194",
+      "raw_http_body_archived": false,
+      "primary_team_statement_url": "https://www.nba.com/thunder/news/holmgren-220825",
+      "primary_team_statement_body_read": false
+    },
+    {
+      "player": "Miles Bridges",
+      "classification": "FACT",
+      "summary": "The April14,2023 league release reports no NBA contract and no games played in 2022–23. The subsequent suspension is a separate dated event.",
+      "url": "https://www.nba.com/news/nba-suspends-miles-bridges-for-30-games-without-pay",
+      "source_body_read": true,
+      "web_locator": "Official release April14,2023, body179–181",
+      "raw_http_body_archived": false
+    }
+  ],
+  "selected_fictional_events": [
+    {
+      "player": "Chet Holmgren",
+      "owner": "OKC",
+      "classification": "AUTHOR_DELEGATED_DESIGN_SELECTION",
+      "selection": "SEASON_OUT_WITH_RSC_PRESERVED",
+      "period": [
+        "2022-10-18",
+        "2023-04-09"
+      ],
+      "positive_seconds_each_game": 0,
+      "active_nomination": false,
+      "standard_registration_retained": true,
+      "rookie_contract_and_protected_salary_retained": true,
+      "cause_reasoning": "He remains with OKC; changed draft position alone supplies no cause to erase the independent offseason injury. Explicitly retain this availability anchor.",
+      "unselected_alternative": "Healthy 24-minute rookie role requires explicit alternate offseason cause; remains sensitivity only.",
+      "actual_counterfactual_clinical_certificate": false
+    },
+    {
+      "player": "Miles Bridges",
+      "rights_owner": "CHA",
+      "classification": "AUTHOR_DELEGATED_DESIGN_SELECTION",
+      "selection": "NO_NEW_UPC_RIGHTS_ONLY",
+      "period": [
+        "2022-07-07",
+        "2023-04-09"
+      ],
+      "positive_seconds_each_game": 0,
+      "active_nomination": false,
+      "new_standard_UPC": false,
+      "standard_registration_delta": -1,
+      "economic_rule": "Preserve original obligations, applicable FA/QO rights and outstanding cap hold function; no fictional signing or zero-cost waiver.",
+      "cause_reasoning": "Explicit same-owner institutional non-contract selection. Does not retroactively apply April2023 discipline to October2022.",
+      "unselected_alternative": "Renewal-price proposal remains sensitivity, not accepted contract.",
+      "actual_counterfactual_private_receipts_certified": false,
+      "fictional_institutional_causal_anchor": {
+        "event_date": "2022-06-27",
+        "classification": "AUTHOR_DELEGATED_DESIGN_SELECTION_WITH_PUBLIC_HISTORICAL_ANCHOR",
+        "selection": "Retain the independent off-court incident and resulting unresolved institutional contract decision; CHA and the player sign no new UPC during the selected season.",
+        "historical_basis": "The official release dates the incident June27,2022 and the plea November3,2022.",
+        "causal_scope": "Off-court event is not erased by basketball roster changes; no new scene, criminal finding or actual counterfactual investigation is asserted. The later NBA disciplinary decision is not the October eligibility rule."
+      },
+      "registration_rule": "Leave the vacated standard slot open. Redistribute positive game minutes to existing registered eligible players; do not sign a replacement and do not count a cap hold as a roster slot."
+    }
+  ],
+  "join_rules": [
+    "Remove Miles from returned CHA standard roster and all positive/active clocks; leave the standard slot open and redistribute his game minutes only to existing eligible named registered players.",
+    "Keep Chet as inactive standard player, redistribute the proposed rookie minutes to eligible existing OKC roles.",
+    "Recheck each game 48 minutes, each team 240 minutes, active12–15, standard<=15 and unique ownership.",
+    "Recompute all 1230 model winners from joined roles; do not reuse the preliminary all-rookies-missed winners.",
+    "Preserve immutable 2021–22 results, prior source portfolios and rookie-RSC snapshots."
+  ],
+  "boundaries": {
+    "whole_real_history_verified": false,
+    "whole_NPC_health_selected": false,
+    "whole_team_salary_exact": false,
+    "season_results_selected_here": false,
+    "manuscript_written": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  }
+}

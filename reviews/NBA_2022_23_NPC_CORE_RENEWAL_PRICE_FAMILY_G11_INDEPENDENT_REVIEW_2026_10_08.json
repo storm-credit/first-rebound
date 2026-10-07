@@ -1,0 +1,67 @@
+{
+  "id": "NBA_2022_23_NPC_CORE_RENEWAL_PRICE_FAMILY_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_CONDITIONAL_ELEVEN_CORE_PRICE_FUNCTIONS",
+  "source_sha256": {
+    "tools/build_2022_23_npc_core_renewal_price_family.py": "50185b8c42519c43d571b4004af75ea9803f08a2266246eed6309dcd7979c303",
+    "research/NBA_2022_23_NPC_CORE_RENEWAL_PRICE_FAMILY.json": "9e0a6be7d5efb13724f76adf5aee30cd6ab2b376f486d3b15a8bf6dcd1507a1d",
+    "research/NBA_2022_23_NPC_CORE_RENEWAL_PRICE_FAMILY.md": "0a3e33bf75d69862f2c234787290abfcd1c2455332d63ee4df9910ba9c35392e"
+  },
+  "source_hash_method": "UTF8 BOM strip; CRLF/CR to LF",
+  "direct_checks": {
+    "named_core": 11,
+    "endpoint_function_checks": 91,
+    "new_price_agreements_selected": 0,
+    "Miles_Bridges_new_UPC_recommended": false,
+    "full_Bird_three_season_service_is_condition_not_private_certificate": true,
+    "2017_CBA_raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "2017_CBA_PDF29_Bird_trade_continuity_read": true,
+    "2017_CBA_PDF57_59_II7_greater_of_cap_percent_or_105pct_prior_read": true,
+    "2017_CBA_PDF285_tax_brackets_read": true,
+    "cap_2022_23_dollars": 123655000,
+    "tax_level_2022_23_dollars": 150267000,
+    "normal_apron_tax_other_team_baselines": null,
+    "N23_A23": null
+  },
+  "independent_actual_return_controls": [
+    {
+      "id": "returned_original_owner_changed",
+      "target": "inputs core original owner BKN to CHI",
+      "result": "REJECTED",
+      "diagnostic": "Returned core source meaning changed"
+    },
+    {
+      "id": "returned_future_option_automatically_exercised",
+      "target": "resolve future_option_exercise true",
+      "result": "REJECTED"
+    },
+    {
+      "id": "returned_extra_minimum_UPC",
+      "target": "resolve extra_minimum_UPC_added true",
+      "result": "REJECTED"
+    },
+    {
+      "id": "returned_original_Gamma_deleted",
+      "target": "resolve all_original_Gamma_preserved false",
+      "result": "REJECTED"
+    },
+    {
+      "id": "returned_current_new_charge_zero",
+      "target": "resolve normal_current_new_charge zero",
+      "result": "REJECTED"
+    }
+  ],
+  "scope_limits": {
+    "price_intervals_are_economic_recommendations_not_accepted_market_prices": true,
+    "expired_player_own_Bird_price_replaces_same_claim_minimum_form": true,
+    "live_UPC_or_valid_option_is_preserved_until_lawful_expiry_decline": true,
+    "prior_actual_salary_and_possible_105pct_ceiling_not_assumed_zero": true,
+    "no_extra_minimum_contract_or_slot_from_replacement": true,
+    "original_Gamma_and_FA_QO_holds_preserved": true,
+    "Miles_no_UPC_overlay_unchanged": true,
+    "whole_team_six_cost_or_tax_and_cap_certificate": false,
+    "real_notice_consent_or_private_receipt_certified": false,
+    "writer_self_tests_counted_as_independent": false
+  },
+  "review_note": "Eleven original rows are source-bound by a fixed semantic digest and physical HTML/PDF evidence. The endpoint family computes proposals under named Bird/option conditions; 91 checks are function endpoints, not 91 signed deals. The recommendation interval is a subset below the cap-percent ceiling and does not remove the II7 105-percent-prior branch. Same-player expired minimum and new Bird price cannot both be charged as live UPCs. Miles remains rights/hold only in the selected overlay."
+}

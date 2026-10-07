@@ -1,0 +1,87 @@
+{
+  "id": "NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "BOUNDED_ACCEPTED_FICTIONAL_1230_REGULATION_RESULTS",
+  "source_sha256": {
+    "tools/build_2022_23_global_selected_regular_results.py": "24063a8d870493758a102c5c1307303078e13480b7585cdf79ca64fb0494f93a",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.md": "5e6d4b56fe3c189679ee39ad08e1577814ff461a8db4158e4d84af012d4bc2ff"
+  },
+  "source_hash_method": "UTF8 BOM strip; CRLF/CR to LF",
+  "official_source_crosscheck": [
+    {
+      "url": "https://www.nba.com/news/chet-holmgren-suffers-foot-injury",
+      "locator": "2022-08-30 body lines164-175",
+      "fact": "Chet 2022-23 season out after foot injury",
+      "fiction_scope": "OKC RSC and protected salary retained, chosen zero participation; no alternate-world clinical certificate"
+    },
+    {
+      "url": "https://www.nba.com/news/nba-suspends-miles-bridges-for-30-games-without-pay",
+      "locator": "2023-04-14 body lines174-179",
+      "fact": "No 2022-23 NBA contract or games; April discipline later",
+      "fiction_scope": "CHA no-new-UPC rights/hold selection; June27 institutional causal anchor preserved, no retroactive April legal ban"
+    }
+  ],
+  "overlay_normalized_sha256": "3bcb132b62595cef8490933d462b2c841ab3737777877cb4e687c8c60412a80b",
+  "direct_physical_checks": {
+    "published_games_and_selected_results": 1230,
+    "named_team_date_keys": 2460,
+    "teams_each_82_dates": 30,
+    "Chicago_dated_rows_equal_H22_calendar_keys": 82,
+    "paired_five_position_segments_checked": 29780,
+    "every_game_both_teams_regulation_seconds": 2880,
+    "every_game_both_team_player_seconds": 14400,
+    "model_wins_and_losses_each": 1230,
+    "CHI_wins_losses": [
+      46,
+      36
+    ],
+    "unique_registered_players": 450,
+    "registered_standard_two_way": [
+      448,
+      2
+    ],
+    "NPC_signed_first_RSCs": 29,
+    "NPC_positive_first_rookies": 28,
+    "Chet_OKC_registered_but_inactive_zero_seconds": true,
+    "Miles_CHA_new_UPC_and_standard_registration_absent": true,
+    "CHA_standard_roster_count": 14,
+    "actual_NBA_game_ids_scores_or_results_imported": false
+  },
+  "independent_actual_return_controls": [
+    {
+      "id": "returned_calendar_date_changed",
+      "target": "load returned one published calendar date changed",
+      "result": "REJECTED",
+      "diagnostic": "Returned physical source differs"
+    },
+    {
+      "id": "returned_Chet_rookie_clock",
+      "target": "apply_first_admission returned Chet in selected OKC segment",
+      "result": "REJECTED",
+      "diagnostic": "Returned admitted rookie chronology/development changed"
+    },
+    {
+      "id": "returned_Miles_obligation_erasure",
+      "target": "apply_first_admission returned CHA Miles rights/obligation economic_rule zero",
+      "result": "REJECTED",
+      "diagnostic": "Returned Miles obligations/role interpretation altered"
+    },
+    {
+      "id": "returned_winner_reversed",
+      "target": "result_row returned loser as winner",
+      "result": "REJECTED",
+      "diagnostic": "Returned winner changed"
+    }
+  ],
+  "scope_limits": {
+    "model_1230_regulation_winners_selected": true,
+    "actual_NBA_2022_23_winners_or_scores_certified": false,
+    "whole_FY23_six_cost_or_core_market_acceptance_certified": false,
+    "actual_private_contract_clinical_receipts_certified": false,
+    "MVP_title_standings_tiebreak_or_2023_draft_control_selected": false,
+    "whole_macro3_G13_G14_complete": false,
+    "writer_self_controls_counted_as_independent": false
+  },
+  "review_note": "The two named availability decisions are separately selected fictional inputs. The official Chet and Miles articles support bounded historical anchors, while the selected OKC/CHA registration and minute treatment remains model execution. Published calendar keys, H22 Chicago date join, 29,780 paired segments, all 30*82 team dates, positive rookie count and 1,230 model winners were recalculated independently from frozen physical outputs; no old 2021–22 winner was imported."
+}
