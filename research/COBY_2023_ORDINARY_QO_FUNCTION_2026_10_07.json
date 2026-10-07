@@ -1,0 +1,444 @@
+{
+  "id": "COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07",
+  "status": "DEFINED_TWO_BRANCH_COMPONENT_FUNCTION_NOT_EXECUTED",
+  "baseline_main": "5d8b057f057f7611531868296035d20b9b449729",
+  "source_sha256": {
+    "research/COBY_2023_QO_PRIMARY_INPUT_2026_10_07.json": "ee2c866fb0a098c1d09f43f2288b9df27f0d20db2c4630e99353fba95612eb2e",
+    "tools/build_chicago_2022_rookie_rfa_qo_family.py": "8ec5d15b04069d300f5b7bd5a70459f757c23a297ca966145045689d66a8cc2b",
+    "tools/build_coby_2023_ordinary_qo_function.py": "ca95155db10345675254231c8b3bd2b53a5b9e70bbaaa000ffe947b3628a41da"
+  },
+  "primary_support": {
+    "canon_Coby_2019_CHI_pick": 7,
+    "original_rookie_scale_2019_salary_cap_year": true,
+    "scale_units_original_USD_thousands_converted_to_USD": true,
+    "relevant_rows": {
+      "7": [
+        4422600,
+        4643900,
+        4864800,
+        270,
+        341
+      ],
+      "15": [
+        2737600,
+        2874500,
+        3011400,
+        533,
+        398
+      ]
+    },
+    "NBA_authored_scale_mirror": {
+      "url": "https://nyc3.digitaloceanspaces.com/sportsarchive-documents/prod/63f2840a2a9ad/2019-20-CBA-101-October-2019.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2019-cba101-arc.pdf",
+      "raw_sha256": "58b6b5b1889cc795c2112ef9a76421ac45977930d045de5b77b1c56b0e403a9c",
+      "host_is_NBA_official": false,
+      "cover_page": 1,
+      "table_page": 29,
+      "table_normalized_fitz_sha256": "d67376e9c5202a863da00699f9468fdb744afa133a79866c770639311a52a728",
+      "all_30_rows_read": true
+    },
+    "2017_CBA": {
+      "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "normalized_fitz_page_sha256": {
+        "310": "6a860dfdb714499e550301e89b6cfb1527ce800299384df3fc55c384648f1b94",
+        "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+        "314": "00bed2e48a3c10dcce6f1db6dbac242567f56871c932915d12918c9df6ad9bd3",
+        "315": "586c77e4bc0cea3d215b9f378aa5949bb74c2b718c1d64d5661f01b6dbccca0f",
+        "317": "06c7ee2b8e250bdd71d2985d31eeb2c8559e1e0bad85f0899f791f2dca4603c6",
+        "318": "92258d361d590eba557d56ab7ba01e1ff58af80806f4f61dd38d4eddc34bac25"
+      }
+    },
+    "collection": "REUSED_TWO_VERIFIED_PRIMARY_CACHES_NEW_DOWNLOAD_ZERO"
+  },
+  "policy": {
+    "player": "Coby White",
+    "team": "CHI",
+    "original_salary_cap_year": "2019-20",
+    "original_pick": 7,
+    "ordinary_issue_deadline": "2023-06-29",
+    "applicable_issue_law": "2017_CBA",
+    "acceptance_open_through": "2023-10-01",
+    "original_third_year_component_family": "80pct base floor; nonnegative likely/unlikely; total<=120pct original2019scale; original terms retained",
+    "fourth_year_components": "each third-year component times1.270",
+    "own_QO_components": "each fourth-year component times1.341",
+    "nonstarter": "Lesser legal whole offer: own components or original2019 rank15 at120pct base only; no elementwise bonus cancellation",
+    "starter": "Own pick7 components; rank9 rule for later picks does not apply",
+    "QO_is_FAhold": false,
+    "original_2018_or_actual_2023_salary_copied": false
+  },
+  "rational_function_corner_witnesses": [
+    {
+      "starter": false,
+      "corner": "BASE80",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)(B)_LESSER_OWN_COMPONENT_OFFER_OR_PICK15_BASE_ONLY",
+        "own_components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "anchor_base_only": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "charge_upper_exact_rational": {
+          "numerator": 4142547468,
+          "denominator": 625
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": false,
+      "corner": "BASE120",
+      "third_year_components": [
+        {
+          "numerator": 5837760,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)(B)_LESSER_OWN_COMPONENT_OFFER_OR_PICK15_BASE_ONLY",
+        "own_components": [
+          {
+            "numerator": 6213821202,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "anchor_base_only": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "charge_upper_exact_rational": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": false,
+      "corner": "BASE80_LIKELY40",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 1945920,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)(B)_LESSER_OWN_COMPONENT_OFFER_OR_PICK15_BASE_ONLY",
+        "own_components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 2071273734,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "anchor_base_only": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "charge_upper_exact_rational": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": false,
+      "corner": "BASE80_UNLIKELY40",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1945920,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)(B)_LESSER_OWN_COMPONENT_OFFER_OR_PICK15_BASE_ONLY",
+        "own_components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 2071273734,
+            "denominator": 625
+          }
+        ],
+        "anchor_base_only": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "charge_upper_exact_rational": {
+          "numerator": 48403752957,
+          "denominator": 6250
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": true,
+      "corner": "BASE80",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)_OWN_FOURTH_YEAR_THREE_COMPONENTS",
+        "components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "charge_upper_exact_rational": {
+          "numerator": 4142547468,
+          "denominator": 625
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": true,
+      "corner": "BASE120",
+      "third_year_components": [
+        {
+          "numerator": 5837760,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)_OWN_FOURTH_YEAR_THREE_COMPONENTS",
+        "components": [
+          {
+            "numerator": 6213821202,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "charge_upper_exact_rational": {
+          "numerator": 6213821202,
+          "denominator": 625
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": true,
+      "corner": "BASE80_LIKELY40",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 1945920,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)_OWN_FOURTH_YEAR_THREE_COMPONENTS",
+        "components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 2071273734,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "charge_upper_exact_rational": {
+          "numerator": 6213821202,
+          "denominator": 625
+        },
+        "final_UPC_components_selected": false
+      }
+    },
+    {
+      "starter": true,
+      "corner": "BASE80_UNLIKELY40",
+      "third_year_components": [
+        {
+          "numerator": 3891840,
+          "denominator": 1
+        },
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1945920,
+          "denominator": 1
+        }
+      ],
+      "ordinary_QO": {
+        "rule": "XI1c(ii)_OWN_FOURTH_YEAR_THREE_COMPONENTS",
+        "components": [
+          {
+            "numerator": 4142547468,
+            "denominator": 625
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 2071273734,
+            "denominator": 625
+          }
+        ],
+        "charge_upper_exact_rational": {
+          "numerator": 6213821202,
+          "denominator": 625
+        },
+        "final_UPC_components_selected": false
+      }
+    }
+  ],
+  "continuous_family_coverage": "Exact scalar multiplication across the admitted three-component simplex; corners display boundary witnesses. Lesser whole-package alternatives retained.",
+  "conservative_integer_USD_cost_screens": {
+    "starter_own": 9942120,
+    "nonstarter": 7744602,
+    "all_branches": 9942120,
+    "not_actual_NBA_rounding_or_contract_cents": true
+  },
+  "credited_statistics_interface": {
+    "regular_seasons": [
+      "2021-22",
+      "2022-23"
+    ],
+    "starter": "GS4>=41 OR MIN4>=2000 OR GS3+GS4>=82 OR MIN3+MIN4>=4000",
+    "regulation_only_minutes_are_not_full_credited_totals": true,
+    "first_unordered_lineup_is_not_official_game_start": true,
+    "postseason_not_counted": true,
+    "alternate_credited_totals": null
+  },
+  "handoff": [
+    "Join two chosen regular-season credited totals, including any separately chosen OT and explicit starts. Existing regulation results alone do not certify CBA statistics.",
+    "Issue valid fictional ordinary one-year fully protected base QO byJune29 under2017law, retain original bonus/rights; issuance is not acceptance.",
+    "Join offer/acceptance or Bird re-signing and normal/apron/FA/QO/FRN costs in named FY23 roster; July1 newCBA does not retroactively alter June29."
+  ],
+  "certification": {
+    "starter_branch_selected": false,
+    "QO_issued": false,
+    "player_acceptance_selected": false,
+    "exact_contract_or_rounding_certified": false,
+    "independent_review_completed": false,
+    "whole_FY23_or_macro3": false,
+    "new_author_lock": false,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MEM_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_MEMPHIS_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_mem_2021_keeper_and_chicago_selected_results.py": "f4b89097f0dab1ea5ba0cd1c8e0562d5209a5026af39bce4f9100482e601e0b5",
+    "simulation/CHICAGO_MEMPHIS_2021_22_SELECTED_KEEPER_RESULTS.json": "074e8cf4ddd60fcd1f3752985626f654bad5e9fa326e2f0f07f1923ab069de1c",
+    "simulation/CHICAGO_MEMPHIS_2021_22_SELECTED_KEEPER_RESULTS.md": "33e9314a449a5f9818ec72c8909a891805d7c6f03bba86217da1bb9188779e21"
+  },
+  "source_and_contract_scope": "Selected #17 Ziaire Williams MEM RSC replaces expired Tim Frazier UPC; #49 Filip Petrusev remains unsigned second-round tender, not an active standard contract. Jonas Valanciunas stays MEM and the selected NOP keeper retains Adams/Bledsoe; original Valanciunas/Adams trade, Grayson Allen MIL move, Aldama MEM trade and later JJJ extension are not imported. Selected 15 standard/2 two-way includes Sean McDermott in the two-way branch, not standard merely from original NBA profile listing. Existing protections, earned Gamma, rights and conditioned own-option/TW forms remain; exact signed prices, actual receipts, whole private cost and clinical facts are not certified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Memphis_player_seconds_each": 14400,
+    "positive_Memphis_players": 11,
+    "active_each": 12,
+    "registration": "15 standard, 2 two-way; #49 unsigned and excluded from standard registration",
+    "exact_fraction_recalculation": "Independently recomputed both team BPM weighted by exact player seconds, plus Chicago home and fatigue effects, from saved rating fractions. Both saved exact margin fractions match.",
+    "results": [
+      {
+        "game_id": "0022100658",
+        "date": "2022-01-17",
+        "winner": "CHI",
+        "CHI_margin_per100": 0.716067378966059
+      },
+      {
+        "game_id": "0022100909",
+        "date": "2022-02-26",
+        "winner": "CHI",
+        "CHI_margin_per100": 4.716067378966059
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned [] with current three physical files; role-block checker reproduced each named player second vector. Both dates use selected Chicago NORMAL availability.",
+  "independent_negative_control": {
+    "mutation": "Changed MEM #17 Ziaire Williams to Trey Murphy III in both returned selected-draft loader objects while physical file bytes and SHAs stayed fixed.",
+    "result": "REJECTED ValueError: Returned consumed source semantic differs from reviewed physical source"
+  },
+  "limits": [
+    "March-25 Jaren Jackson Jr. archive BPM is missing; fictional n=0 neutral prior is not historical skill or clinical zero. Brooks/Jackson positive availability is a fictional recovery choice.",
+    "The NBA profile was observed through web text; direct cached URL returned HTTP 403 and was not treated as body evidence.",
+    "No selected actual score, overtime, later game, whole-season or macro completion is certified."
+  ]
+}

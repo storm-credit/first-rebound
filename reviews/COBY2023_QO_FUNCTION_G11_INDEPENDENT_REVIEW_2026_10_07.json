@@ -1,0 +1,31 @@
+{
+  "id": "COBY2023_QO_FUNCTION_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_BRANCH_COMPONENT_FUNCTION_UNEXECUTED",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_coby_2023_ordinary_qo_function.py": "ca95155db10345675254231c8b3bd2b53a5b9e70bbaaa000ffe947b3628a41da",
+    "research/COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07.json": "5ee4c26f87c4e63b6cc812aff14382f2d1b522242707b5f65064b357f0522c54",
+    "research/COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07.md": "efe4c6340cf18d51582e323cd5c864cda03f8aa9b63b325e323304dc921b8321"
+  },
+  "primary_source_check": "Locally reopened the NBA-authored October 2019 CBA 101 PDF mirror (raw SHA 58b6b5b1...) page 29; pick 7 row is $4,422,600/$4,643,900/$4,864,800 with fourth-year +27.0% and QO +34.1%; pick 15 is $2,737,600/$2,874,500/$3,011,400 with +53.3%/+39.8%. Locally reopened 2017 CBA raw SHA 66d620eb... pages 310-311, 315, 317-318: three distinct QO monetary components, top-14 nonstarter lesser entire offer, official starter criteria, June 29 issuance and October 1 acceptance. Source host is a mirror, not an official NBA web host; document identifies NBA authorship.",
+  "direct_arithmetic": {
+    "starter_pick7_full_120pct_exact_rational": "6213821202/625",
+    "nonstarter_pick15_120pct_base_only_exact_rational": "48403752957/6250",
+    "saved_conservative_integer_cost_screens": {
+      "starter_own": 9942120,
+      "nonstarter": 7744602
+    },
+    "interpretation": "Screens bound possible whole-dollar component rounding; they are not actual NBA rounding or a signed UPC price. All eight saved corner witnesses represent four component-simplex corners under both branches; the continuous function is not reduced to eight offers."
+  },
+  "credited_statistics_interface_check": "Fourth-year 41 starts and 2000 credited minutes each trigger starter; 40 starts with 1999 minutes does not, and two-year 82 starts or 4000 minutes trigger. Fractional starts and 83 starts in a season are actually rejected. Regulation-only modeled minutes, unordered first role blocks and active registration do not certify official credited totals or starter branch.",
+  "currentness": "Fresh build exactly equals saved JSON and rendered Markdown. Raw 2019 PDF and 2017 CBA page hashes were rechecked by the producer; no ancestor generator was rerun.",
+  "independent_negative_control": {
+    "mutation": "Changed returned primary input pick-7 third-year amount by $1 while leaving the pinned source file and raw PDFs unchanged.",
+    "result": "REJECTED ValueError: Returned primary differs from physical source"
+  },
+  "scope_limits": [
+    "The 2023 ordinary QO is a defined 2017-law family: no QO issuance, player acceptance, starter branch or original bonus component is selected.",
+    "June 29 2017-law issue deadline and July 1 later CBA boundary are separated; exact 2023 UPC, FA hold, full FY23 book and macro completion remain unverified."
+  ]
+}

@@ -1,0 +1,2077 @@
+{
+  "id": "CHICAGO_MEMPHIS_2021_22_SELECTED_KEEPER_RESULTS",
+  "baseline_main": "d111ddb9a0246345b1c04784404c829bf3202576",
+  "status": "SELECTED_NAMED_LAWFUL_NPC_FAMILY_TWO_RESULTS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_22_COMMON_26_OPPONENT_CAPACITY.json": "a0ecb8e362e51344ca2cc2de53ff0713901bc4d50432a5efef621641fd0c00b7",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json": "51b24c8a6bc1eb703568adced46b3ffa15845e85e8da10da1242bddf941df960",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/NBA_2021_22_REGULAR_BASELINE.csv": "92869bc987896a4172c5e54e3684d2604c5c24d828e9bcf3cc27af30ebc83644",
+    "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json": "66c1c862a179648aa72dd81ff13a07345b36889043995ecb583ae57019618c80",
+    "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e",
+    "tools/build_nyk_2021_keeper_and_chicago_selected_results.py": "61eb21ed98b1c4020bce85062db5bb7b988de9ba9cf213116b52f54575d9b397",
+    "tools/build_mem_2021_keeper_and_chicago_selected_results.py": "f4b89097f0dab1ea5ba0cd1c8e0562d5209a5026af39bce4f9100482e601e0b5"
+  },
+  "primary_support": {
+    "CBA": {
+      "url": "https://nbpa.com/upload/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "normalized_fitz_page_sha256": {
+        "26": "ff6b36ecd67bcbc1491e464ebce0d85a5d4d07db36c82da1d0cc4ec32d32044a",
+        "29": "a7376434286a88c8b534c773c4dbf184c21df8a8a52c22718221ce39e9a08e75",
+        "30": "9cf0f5b23523777c69220fc109f59a6b42dc1550c90082e39b48748f53a03338",
+        "54": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1",
+        "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+        "58": "6bfe75ec156ef879964d4f79660a3f4041a3a8f81a22ef2297c0590a6e4a3ba7",
+        "74": "c69d78fdd64deded34b2062e3bf3bcb3b5ffd2a028801bafcdf1d50cf120ad63",
+        "75": "48c080a84ba9322dd6cd1b0d8c9c82c8f235ad70a3aa464cbcafc1611250b6a4",
+        "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+        "222": "d25729bf91cc0a46cde01aa9ed484798091eea9fe3a7ceaa061aaa13fde84403",
+        "223": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b",
+        "224": "88bfd31d8dd7393b272a8bdfdc55da36a34f60aa87ae297f4435be53549bbe1c",
+        "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+        "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+        "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+        "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+        "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+        "312": "3ae615e57f3f6f2841dfe1e84da6ff8c2f81e0ed0a623bc572a2ca42bed5a727",
+        "313": "54e8c9a7575c279e4dd2c829c433ccfa4288ccb134fe77d8488563fb4477e3b6",
+        "314": "00bed2e48a3c10dcce6f1db6dbac242567f56871c932915d12918c9df6ad9bd3",
+        "317": "06c7ee2b8e250bdd71d2985d31eeb2c8559e1e0bad85f0899f791f2dca4603c6",
+        "318": "92258d361d590eba557d56ab7ba01e1ff58af80806f4f61dd38d4eddc34bac25",
+        "332": "09e71fd0bc9d672d23c97d542e60cfe3e146a560c7877c5a50d61d4dee791d07",
+        "333": "7cc2afe0a54d6663e09b54b0c6ea7dddc5e528299232b0fb2929db6836cd44db",
+        "334": "ba8a1c35001f959a29bb419bfa0b6b00aabbe6890122a906f190b359e8dc9a39",
+        "561": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+      }
+    },
+    "NBA_original_feed": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "named_rows": [
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2021-04-24T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Memphis Grizzlies signed guard Tim Frazier to a Rest-of-Season Contract.",
+          "TEAM_ID": 1610612763.0,
+          "TEAM_SLUG": "grizzlies",
+          "PLAYER_ID": 204025.0,
+          "PLAYER_SLUG": "tim-frazier",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1039533"
+        },
+        {
+          "Transaction_Type": "Trade",
+          "TRANSACTION_DATE": "2020-02-06T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Memphis Grizzlies received forward Justise Winslow from Miami Heat.",
+          "TEAM_ID": 1610612763.0,
+          "TEAM_SLUG": "grizzlies",
+          "PLAYER_ID": 1626159.0,
+          "PLAYER_SLUG": "justise-winslow",
+          "Additional_Sort": 1610612748.0,
+          "GroupSort": "Trade 2019100"
+        },
+        {
+          "Transaction_Type": "Signing",
+          "TRANSACTION_DATE": "2019-07-11T00:00:00",
+          "TRANSACTION_DESCRIPTION": "Memphis Grizzlies re-signed center Jonas Valanciunas to a Contract.",
+          "TEAM_ID": 1610612763.0,
+          "TEAM_SLUG": "grizzlies",
+          "PLAYER_ID": 202685.0,
+          "PLAYER_SLUG": "jonas-valanciunas",
+          "Additional_Sort": 0.0,
+          "GroupSort": "Signing 1019117"
+        }
+      ]
+    },
+    "NBA_profile_web_observation_not_raw_body": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-mem-keeper-20261007\\observed_profile.json",
+      "raw_sha256": "d7d9c1e2d81098c96924a265dc03af3fd58f8be6c09fc2803597295016015151",
+      "projection": {
+        "url": "https://www.nba.com/draft/2021/team-profiles/memphis-grizzlies",
+        "web_reference": "turn2259view0",
+        "observed_fields": {
+          "under_contract": [
+            "Grayson Allen",
+            "Desmond Bane",
+            "Tyus Jones",
+            "John Konchar",
+            "De’Anthony Melton",
+            "Ja Morant",
+            "Kyle Anderson",
+            "Dillon Brooks",
+            "Brandon Clarke",
+            "Sean McDermott",
+            "Xavier Tillman",
+            "Jaren Jackson Jr.",
+            "Jontay Porter",
+            "Jonas Valanciunas"
+          ],
+          "UFA": [
+            "Tim Frazier"
+          ],
+          "RFA": [
+            "Killian Tillie"
+          ],
+          "TO": [
+            "Justise Winslow"
+          ],
+          "original_draft": [
+            "Trey Murphy17",
+            "BJ Boston51",
+            "ZiaireNOP10 trade",
+            "AldamaUTA30/Butler40 plus2future2R"
+          ]
+        },
+        "scope": "OriginalNBA classification only. SeanMcDermott sourceS2TW notstandard byprofilepositionlisting. OriginalNOPMEM/JonasNOP/AdamsBledsoeMEM anddrafttrades not adopted.",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-mem-keeper-20261007\\profile.http",
+        "status": 403,
+        "raw_sha256": "2b06cc3f9e5af4680cfc3ff65e782a7f7b7bbe4ac0c5b67f8e1ba8a9c86727d5",
+        "raw_body_adopted": false
+      }
+    }
+  },
+  "selected_policy": {
+    "new_RSC_ET": "2021-08-06T12:02:00_ORDERED",
+    "new_trade": false,
+    "new_NTMLE_BAE_ROOMMLE_incoming_SandT": false,
+    "Frazier": "expiry/newUPC0; alloldearned protected/FAclaims preserved, no laterORL hardshipcopy",
+    "TW": "KillianTillie/SeanMcDermott originalTWlive retained fullGamma OR expiredownFA eligibleoperative2021newoneSeasonTW/nooption lawfulagreedUPC afterapplicableQO handling; oldTWprotection/FAfloor/FRN preserved. OperativeQO standardvsTW determined bypriorform/currentYOS, no false50kstandardQO; 0NBAactivations/conversions at2dates.",
+    "availability": "11positive available2dates includingBrooks/JJJ selectedfictioncontact-recovery, no copiedrealCOVID/ankleorJaavailability; zerobenchclinicalnull.",
+    "whole_private_or_actual_receipts": false
+  },
+  "lawful_contract_family": [
+    {
+      "player": "Brandon Clarke",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "De'Anthony Melton",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Desmond Bane",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Dillon Brooks",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Grayson Allen",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Ja Morant",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Jaren Jackson Jr.",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": true,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "John Konchar",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Jonas Valanciunas",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Jontay Porter",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": true
+    },
+    {
+      "player": "Kyle Anderson",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Tyus Jones",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Xavier Tillman Sr.",
+      "route": "RETAIN_CURRENT_UPC",
+      "all_original_Gamma_preserved": true,
+      "operative_original_RSC_prior_option_validly_exercised_if_needed": false,
+      "actual_option_receipt": null,
+      "no_originalnewJJJextension_orAllenMIL_orJVNOPtrade": true,
+      "Jontay_retainedfullOriginalProtection_notpresumedwaived_ornewUPC": false
+    },
+    {
+      "player": "Justise Winslow",
+      "route": "valid original team option exercise",
+      "original_salary_term_and_Gamma_kept": true,
+      "operative_original_deadline_notice_selected": true,
+      "actual_notice_receipt": null
+    },
+    {
+      "player": "Ziaire Williams",
+      "route": "VII6h_VIII1_RSC",
+      "pick": 17,
+      "holder": "MEM",
+      "component_scale": [
+        "4/5",
+        "6/5"
+      ],
+      "salary_including_unlikely_ceiling": "6/5",
+      "base_and_protection_floor": "4/5",
+      "guaranteed": 2,
+      "options": 2,
+      "valid_first_RT_before_UPC": true,
+      "actual_price": null
+    }
+  ],
+  "selected_registration": {
+    "standard": [
+      "Brandon Clarke",
+      "De'Anthony Melton",
+      "Desmond Bane",
+      "Dillon Brooks",
+      "Grayson Allen",
+      "Ja Morant",
+      "Jaren Jackson Jr.",
+      "John Konchar",
+      "Jonas Valanciunas",
+      "Jontay Porter",
+      "Justise Winslow",
+      "Kyle Anderson",
+      "Tyus Jones",
+      "Xavier Tillman Sr.",
+      "Ziaire Williams"
+    ],
+    "TW": [
+      "Killian Tillie",
+      "Sean McDermott"
+    ],
+    "STD": 15,
+    "TW_count": 2,
+    "TW_NBAactivations": 0,
+    "TW_form_function": "KillianTillie/SeanMcDermott originalTWlive retained fullGamma OR expiredownFA eligibleoperative2021newoneSeasonTW/nooption lawfulagreedUPC afterapplicableQO handling; oldTWprotection/FAfloor/FRN preserved. OperativeQO standardvsTW determined bypriorform/currentYOS, no false50kstandardQO; 0NBAactivations/conversions at2dates.",
+    "active": [
+      "Brandon Clarke",
+      "De'Anthony Melton",
+      "Desmond Bane",
+      "Dillon Brooks",
+      "Ja Morant",
+      "Jaren Jackson Jr.",
+      "Jonas Valanciunas",
+      "Justise Winslow",
+      "Kyle Anderson",
+      "Tyus Jones",
+      "Xavier Tillman Sr.",
+      "Ziaire Williams"
+    ],
+    "inactive": [
+      "Grayson Allen",
+      "John Konchar",
+      "Jontay Porter"
+    ],
+    "zero_minutes_not_clinical_absence": true,
+    "all_original_waived_camp_stretch_FA_unsigned_exception_Gamma_retained": true
+  },
+  "selected_role_minutes": {
+    "PG": {
+      "Ja Morant": 32,
+      "Tyus Jones": 12,
+      "De'Anthony Melton": 4
+    },
+    "SG": {
+      "Dillon Brooks": 22,
+      "Desmond Bane": 24,
+      "De'Anthony Melton": 2
+    },
+    "SF": {
+      "Dillon Brooks": 10,
+      "Kyle Anderson": 22,
+      "De'Anthony Melton": 12,
+      "Justise Winslow": 4
+    },
+    "PF": {
+      "Jaren Jackson Jr.": 28,
+      "Brandon Clarke": 18,
+      "Kyle Anderson": 2
+    },
+    "C": {
+      "Jonas Valanciunas": 30,
+      "Xavier Tillman Sr.": 12,
+      "Brandon Clarke": 6
+    }
+  },
+  "selected_role_blocks": [
+    {
+      "start_second": 0,
+      "end_second": 120,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Dillon Brooks",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 120,
+      "end_second": 240,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 240,
+      "end_second": 360,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 360,
+      "end_second": 480,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 480,
+      "end_second": 600,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 600,
+      "end_second": 720,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 720,
+      "end_second": 840,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "De'Anthony Melton",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 840,
+      "end_second": 960,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 960,
+      "end_second": 1080,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "De'Anthony Melton",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 1080,
+      "end_second": 1200,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 1200,
+      "end_second": 1320,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "De'Anthony Melton",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Xavier Tillman Sr."
+      }
+    },
+    {
+      "start_second": 1320,
+      "end_second": 1440,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Desmond Bane",
+        "SF": "Dillon Brooks",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 1440,
+      "end_second": 1560,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Xavier Tillman Sr."
+      }
+    },
+    {
+      "start_second": 1560,
+      "end_second": 1680,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Desmond Bane",
+        "SF": "De'Anthony Melton",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 1680,
+      "end_second": 1800,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Xavier Tillman Sr."
+      }
+    },
+    {
+      "start_second": 1800,
+      "end_second": 1920,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Desmond Bane",
+        "SF": "Dillon Brooks",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 1920,
+      "end_second": 2040,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Dillon Brooks",
+        "SF": "De'Anthony Melton",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Brandon Clarke"
+      }
+    },
+    {
+      "start_second": 2040,
+      "end_second": 2160,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Desmond Bane",
+        "SF": "Dillon Brooks",
+        "PF": "Brandon Clarke",
+        "C": "Xavier Tillman Sr."
+      }
+    },
+    {
+      "start_second": 2160,
+      "end_second": 2280,
+      "seconds": 120,
+      "positions": {
+        "PG": "De'Anthony Melton",
+        "SG": "Dillon Brooks",
+        "SF": "Justise Winslow",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Brandon Clarke"
+      }
+    },
+    {
+      "start_second": 2280,
+      "end_second": 2400,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "Desmond Bane",
+        "SF": "Kyle Anderson",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 2400,
+      "end_second": 2520,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Dillon Brooks",
+        "SF": "De'Anthony Melton",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Xavier Tillman Sr."
+      }
+    },
+    {
+      "start_second": 2520,
+      "end_second": 2640,
+      "seconds": 120,
+      "positions": {
+        "PG": "De'Anthony Melton",
+        "SG": "Desmond Bane",
+        "SF": "Dillon Brooks",
+        "PF": "Brandon Clarke",
+        "C": "Jonas Valanciunas"
+      }
+    },
+    {
+      "start_second": 2640,
+      "end_second": 2760,
+      "seconds": 120,
+      "positions": {
+        "PG": "Ja Morant",
+        "SG": "De'Anthony Melton",
+        "SF": "Kyle Anderson",
+        "PF": "Jaren Jackson Jr.",
+        "C": "Brandon Clarke"
+      }
+    },
+    {
+      "start_second": 2760,
+      "end_second": 2880,
+      "seconds": 120,
+      "positions": {
+        "PG": "Tyus Jones",
+        "SG": "Dillon Brooks",
+        "SF": "Justise Winslow",
+        "PF": "Kyle Anderson",
+        "C": "Xavier Tillman Sr."
+      }
+    }
+  ],
+  "selected_ratings": {
+    "Brandon Clarke": {
+      "effective_rating": 0.5329896907216495,
+      "exact_fraction": "517/970",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Brandon Clarke",
+        "reported_bpm": 1.1,
+        "archive_minutes": 940,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Carter": {
+      "effective_rating": -0.61875,
+      "exact_fraction": "-99/160",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Wendell Carter Jr.",
+        "reported_bpm": -1.4,
+        "archive_minutes": 792,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Caruso": {
+      "effective_rating": -0.2453900709219858,
+      "exact_fraction": "-173/705",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Alex Caruso",
+        "reported_bpm": -0.6,
+        "archive_minutes": 692,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Chris Duarte": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_FICTIONAL_ROOKIE_PRIOR_NOT_OBSERVED_NBA_RATING",
+      "provenance": {
+        "comparators_effective": {
+          "Devin Vassell": -0.07585350713842334,
+          "Aaron Nesmith": -1.1594614809274495,
+          "Josh Green": -1.1140065146579805,
+          "Saddiq Bey": -0.3498249124562281,
+          "Desmond Bane": -0.6358078602620088
+        },
+        "selected_statistic": "median",
+        "working_admissible_comparison_range": [
+          -1.1594614809274495,
+          -0.07585350713842334
+        ],
+        "Duarte_box_input": "D21A",
+        "not_college_BPM_or_NBA_translation_fit": true
+      }
+    },
+    "De'Anthony Melton": {
+      "effective_rating": 1.4968253968253968,
+      "exact_fraction": "943/630",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "De'Anthony Melton",
+        "reported_bpm": 4.1,
+        "archive_minutes": 575,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Desmond Bane": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Desmond Bane",
+        "reported_bpm": -1.4,
+        "archive_minutes": 832,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Dillon Brooks": {
+      "effective_rating": -2.367298578199052,
+      "exact_fraction": "-999/422",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Dillon Brooks",
+        "reported_bpm": -4.5,
+        "archive_minutes": 1110,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Ja Morant": {
+      "effective_rating": -0.3568627450980392,
+      "exact_fraction": "-91/255",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Ja Morant",
+        "reported_bpm": -0.7,
+        "archive_minutes": 1040,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Jonas Valanciunas": {
+      "effective_rating": 0.4488721804511278,
+      "exact_fraction": "597/1330",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Jonas Valanciunas",
+        "reported_bpm": 0.9,
+        "archive_minutes": 995,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Justise Winslow": {
+      "effective_rating": -1.4961508852963818,
+      "exact_fraction": "-3887/2598",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Justise Winslow",
+        "reported_bpm": -6.5,
+        "archive_minutes": 299,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Kyle Anderson": {
+      "effective_rating": 1.2355167394468705,
+      "exact_fraction": "4244/3435",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Kyle Anderson",
+        "reported_bpm": 2.4,
+        "archive_minutes": 1061,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaMelo_pick4": {
+      "effective_rating": 1.4580496780128795,
+      "exact_fraction": "15849/10870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "LaMelo Ball",
+        "reported_bpm": 2.7,
+        "archive_minutes": 1174,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaVine": {
+      "effective_rating": 2.5320095313741064,
+      "exact_fraction": "15939/6295",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Zach LaVine",
+        "reported_bpm": 4.2,
+        "archive_minutes": 1518,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Markkanen": {
+      "effective_rating": 0.24518036664695447,
+      "exact_fraction": "2073/8455",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Lauri Markkanen",
+        "reported_bpm": 0.6,
+        "archive_minutes": 691,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Protagonist": {
+      "effective_rating": -0.5,
+      "exact_fraction": "-1/2",
+      "classification": "SELECTED_FICTIONAL_PRODUCTIVITY_PARAMETER",
+      "provenance": {
+        "prior_BASE": -1.2,
+        "selected_increment": 0.7,
+        "growth_input": "P21A",
+        "not_a_box_to_BPM_fit": true,
+        "existing_LOW_HIGH_stress_bounds": [
+          -3.0,
+          0.3
+        ]
+      }
+    },
+    "Tony Bradley": {
+      "effective_rating": 0.6912975912975913,
+      "exact_fraction": "8897/12870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tony Bradley",
+        "reported_bpm": 3.1,
+        "archive_minutes": 287,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Tyus Jones": {
+      "effective_rating": 0.22572682391662097,
+      "exact_fraction": "823/3646",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tyus Jones",
+        "reported_bpm": 0.5,
+        "archive_minutes": 823,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Young": {
+      "effective_rating": 1.8749746707193515,
+      "exact_fraction": "9253/4935",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Thaddeus Young",
+        "reported_bpm": 3.8,
+        "archive_minutes": 974,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Jaren Jackson Jr.": {
+      "exact_fraction": "0",
+      "effective_rating": 0.0,
+      "classification": "SELECTED_FICTIONAL_EB_NEUTRAL_PRIOR_LIMIT_N0",
+      "provenance": {
+        "March25_snapshot_row_missing": true,
+        "observed_minutes": null,
+        "not_historical_career_BPM0_or_actual_skill0": true,
+        "selected_working_limit": "No positive pre-cutoff observation enters EB; choose neutral EB n0 limit, not later2021/22 observed stats."
+      }
+    },
+    "Xavier Tillman Sr.": {
+      "effective_rating": -0.3416873449131514,
+      "exact_fraction": "-1377/4030",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Xavier Tillman",
+        "reported_bpm": -0.9,
+        "archive_minutes": 612,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Ziaire Williams": {
+      "exact_fraction": "-728/1145",
+      "method": "SELECTED_FICTIONAL_CONSERVATIVE_ROOKIE_PRIOR_EXISTING_DUARTE_SUGGS_FAMILY",
+      "historical_BPM": null,
+      "observed_minutes": null,
+      "fictional_working_coefficient_selected": true,
+      "source_boundary": "Existing conservative working rookie coefficient, not realized2021/22 productivity or originalGSWdraftteam"
+    },
+    "Coby": {
+      "effective_rating": -2.018204911092295,
+      "exact_fraction": "-4767/2362",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Coby White",
+        "reported_bpm": -3.5,
+        "archive_minutes": 1362,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    }
+  },
+  "selected_games": [
+    {
+      "game_id": "0022100658",
+      "date": "2022-01-17",
+      "home": "MEM",
+      "away": "CHI",
+      "CHI_state": "NORMAL",
+      "MEM_active": [
+        "Brandon Clarke",
+        "De'Anthony Melton",
+        "Desmond Bane",
+        "Dillon Brooks",
+        "Ja Morant",
+        "Jaren Jackson Jr.",
+        "Jonas Valanciunas",
+        "Justise Winslow",
+        "Kyle Anderson",
+        "Tyus Jones",
+        "Xavier Tillman Sr.",
+        "Ziaire Williams"
+      ],
+      "MEM_inactive": [
+        "Grayson Allen",
+        "John Konchar",
+        "Jontay Porter"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "De'Anthony Melton",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "De'Anthony Melton",
+            "SG": "Dillon Brooks",
+            "SF": "Justise Winslow",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "De'Anthony Melton",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "De'Anthony Melton",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Dillon Brooks",
+            "SF": "Justise Winslow",
+            "PF": "Kyle Anderson",
+            "C": "Xavier Tillman Sr."
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "MEM": {
+          "Brandon Clarke": 1440,
+          "De'Anthony Melton": 1080,
+          "Desmond Bane": 1440,
+          "Dillon Brooks": 1920,
+          "Ja Morant": 1920,
+          "Jaren Jackson Jr.": 1680,
+          "Jonas Valanciunas": 1800,
+          "Justise Winslow": 240,
+          "Kyle Anderson": 1440,
+          "Tyus Jones": 720,
+          "Xavier Tillman Sr.": 720
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "MEM": -0.561572998010491
+      },
+      "home_effect_CHI_per100": -2,
+      "back_to_back": {
+        "CHI": false,
+        "MEM": false
+      },
+      "fatigue_effect_CHI_per100": 0.0,
+      "exact_CHI_minus_MEM_impact_fraction": "22978381000918441256556296266284023/32089691104344523712171512843952512",
+      "CHI_minus_MEM_impact_per100": 0.716067378966059,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    },
+    {
+      "game_id": "0022100909",
+      "date": "2022-02-26",
+      "home": "CHI",
+      "away": "MEM",
+      "CHI_state": "NORMAL",
+      "MEM_active": [
+        "Brandon Clarke",
+        "De'Anthony Melton",
+        "Desmond Bane",
+        "Dillon Brooks",
+        "Ja Morant",
+        "Jaren Jackson Jr.",
+        "Jonas Valanciunas",
+        "Justise Winslow",
+        "Kyle Anderson",
+        "Tyus Jones",
+        "Xavier Tillman Sr.",
+        "Ziaire Williams"
+      ],
+      "MEM_inactive": [
+        "Grayson Allen",
+        "John Konchar",
+        "Jontay Porter"
+      ],
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 240,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 240,
+          "end_second": 360,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 360,
+          "end_second": 480,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 600,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 600,
+          "end_second": 720,
+          "seconds": 120,
+          "quarter": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1200,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1200,
+          "end_second": 1320,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1320,
+          "end_second": 1440,
+          "seconds": 120,
+          "quarter": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "De'Anthony Melton",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2040,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2040,
+          "end_second": 2160,
+          "seconds": 120,
+          "quarter": 3,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2280,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "De'Anthony Melton",
+            "SG": "Dillon Brooks",
+            "SF": "Justise Winslow",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2280,
+          "end_second": 2400,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "Desmond Bane",
+            "SF": "Kyle Anderson",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Dillon Brooks",
+            "SF": "De'Anthony Melton",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Xavier Tillman Sr."
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "De'Anthony Melton",
+            "SG": "Desmond Bane",
+            "SF": "Dillon Brooks",
+            "PF": "Brandon Clarke",
+            "C": "Jonas Valanciunas"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Ja Morant",
+            "SG": "De'Anthony Melton",
+            "SF": "Kyle Anderson",
+            "PF": "Jaren Jackson Jr.",
+            "C": "Brandon Clarke"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "MEM": {
+            "PG": "Tyus Jones",
+            "SG": "Dillon Brooks",
+            "SF": "Justise Winslow",
+            "PF": "Kyle Anderson",
+            "C": "Xavier Tillman Sr."
+          }
+        }
+      ],
+      "player_seconds": {
+        "CHI": {
+          "Carter": 1680,
+          "Caruso": 1080,
+          "Chris Duarte": 840,
+          "Coby": 1080,
+          "LaMelo_pick4": 1920,
+          "LaVine": 2040,
+          "Markkanen": 1920,
+          "Protagonist": 1920,
+          "Tony Bradley": 720,
+          "Young": 1200
+        },
+        "MEM": {
+          "Brandon Clarke": 1440,
+          "De'Anthony Melton": 1080,
+          "Desmond Bane": 1440,
+          "Dillon Brooks": 1920,
+          "Ja Morant": 1920,
+          "Jaren Jackson Jr.": 1680,
+          "Jonas Valanciunas": 1800,
+          "Justise Winslow": 240,
+          "Kyle Anderson": 1440,
+          "Tyus Jones": 720,
+          "Xavier Tillman Sr.": 720
+        }
+      },
+      "team_BPM_per100": {
+        "CHI": 2.154494380955568,
+        "MEM": -0.561572998010491
+      },
+      "home_effect_CHI_per100": 2,
+      "back_to_back": {
+        "CHI": false,
+        "MEM": false
+      },
+      "fatigue_effect_CHI_per100": 0.0,
+      "exact_CHI_minus_MEM_impact_fraction": "151337145418296536105242347642094071/32089691104344523712171512843952512",
+      "CHI_minus_MEM_impact_per100": 4.716067378966059,
+      "selected_regulation_winner": "CHI",
+      "score": null,
+      "overtime_selection": null
+    }
+  ],
+  "interval": "Only Jan17/Feb26 same namedfamily; no originalJVtoNOP/AdamsBledsoeMEM/AllenMIL/WinslowLAC/JJJextension/SantiMEM atoms imported",
+  "butterfly_handoff": [
+    "Ziaire17MEM RSC replacesTimFrazierexpiry/newUPC0, Filip49MEMunsignedRT; original10Ziaire/30Aldama/40Butler/51BJ trades notcopied.",
+    "JV2019liveMEM preserved and NOPkeeper retainsAdams/Bledsoe; no automaticdoubleownership orfuture2R/burden cancellation.",
+    "GraysonAllen originalRSC operativeoption preserved/noMILtrade, WinslowvalidoriginalTO retained/fullGamma, Jontaycurrentprotection preserved.",
+    "TWsourceMcDermott isnotstandard simplybecauseNBAprofileundercontract listsF; currentTWcarry orlawfulownoneSeasonnewTW conditionalform only.",
+    "Brooks/JJJworkingrecovery positive2dates, no originalJaabsence/COVID/clincert."
+  ],
+  "unsigned2R": [
+    {
+      "pick": 49,
+      "player": "Filip Petrusev",
+      "holder": "MEM",
+      "UPC": false,
+      "STD": false,
+      "valid_first_RT": "team-signed oneSeason/legalMinYOS0 delivery inside operativeW21, beforeOct15, acceptanceUntilAtLeastOct15; selectedunaccepted",
+      "cost": "outstandingRequiredTender minimum/youngFAfloor normal-apron reservation retained, not new liveSTD",
+      "foreign_or_college_newfacts": "X5/X6 reopens; no perpetualrights or actualforeignlawcertificate"
+    }
+  ],
+  "summary": {
+    "selected_games": 2,
+    "CHI_wins": 2,
+    "MEM_wins": 0,
+    "STD": 15,
+    "TW": 2,
+    "active_each": 12,
+    "positive_each": 11,
+    "blocks_each": 24,
+    "clock_seconds_each": 2880,
+    "team_player_seconds_each": 14400
+  },
+  "certification": {
+    "selected_fictional_lawful_NPC_family": true,
+    "selected_dated_working_health_and_results": true,
+    "independent_review_completed": false,
+    "actual_private_receipts_medical_or_exact_price_certified": false,
+    "whole_private_teamcost": false,
+    "new_author_lock": false,
+    "whole82_or_macro3": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false
+  }
+}

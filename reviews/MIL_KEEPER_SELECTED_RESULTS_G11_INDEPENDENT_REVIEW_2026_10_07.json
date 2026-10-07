@@ -1,0 +1,58 @@
+{
+  "id": "MIL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_MILWAUKEE_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_mil_2021_keeper_and_chicago_selected_results.py": "af645074d5f6e145e9792bfffc7263f3f6306f8573cfc6cc3145dc49ccf16a33",
+    "simulation/CHICAGO_MILWAUKEE_2021_22_SELECTED_KEEPER_RESULTS.json": "fcb8298501701dc21bef9199ffac2d10456384f808ffe2a8b4222cd9e7b0e583",
+    "simulation/CHICAGO_MILWAUKEE_2021_22_SELECTED_KEEPER_RESULTS.md": "425689d4b82e8b578147bab2f1246c6ab78c59dcd636c713914ed320a6a50a83"
+  },
+  "source_and_contract_scope": "Selected #31 Kai Jones MIL is a two-season lawful second-round minimum UPC replacing expired P.J. Tucker MIL slot; selected Miami atom separately holds Tucker, with original owed Gamma and FA claims retained. No original Allen MEM-to-MIL or later Hood/Donte/Ibaka transactions imported. Portis and Forbes original player options are conditioned exercises, Thanasis 2019 MIL two-season tenure supports Early Bird 2-year q2-3m lawful intersection, Jeff Teague own minimum 1-year. Jrue April 2021 and Giannis December 2020 extensions are existing live obligations rather than invented new 2021 option/price; Justin Jackson four-YOS standard QO is distinct from a two-way QO. Exact signed prices, private receipts and total private six-category cost remain uncertified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Milwaukee_player_seconds_each": 14400,
+    "positive_Milwaukee_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; second-round unsigned tenders excluded",
+    "exact_fraction_recalculation": "Independently recomputed each weighted team rating from exact rating fractions and player seconds, then Chicago home/fatigue effects; all four saved exact Chicago-minus-Milwaukee fractions match.",
+    "results": [
+      {
+        "game_id": "0022100690",
+        "date": "2022-01-21",
+        "winner": "MIL",
+        "CHI_margin_per100": -4.791293387821121
+      },
+      {
+        "game_id": "0022100949",
+        "date": "2022-03-04",
+        "winner": "MIL",
+        "CHI_margin_per100": -1.2912933878211204
+      },
+      {
+        "game_id": "0022101082",
+        "date": "2022-03-22",
+        "winner": "MIL",
+        "CHI_margin_per100": -5.291293387821121
+      },
+      {
+        "game_id": "0022101183",
+        "date": "2022-04-05",
+        "winner": "MIL",
+        "CHI_margin_per100": -0.7912933878211202
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; role-block checker independently reproduced the 12 positive player seconds. Four dates and Chicago NORMAL states are selected working inputs.",
+  "independent_negative_control": {
+    "mutation": "Changed the selected Miami atom returned by both source loaders so new_standard held Grayson Allen instead of P.J. Tucker, leaving physical file bytes unchanged.",
+    "result": "REJECTED ValueError: Returned consumed source semantic differs from reviewed physical source"
+  },
+  "limits": [
+    "Brook Lopez and Donte DiVincenzo positive availability is a fictional working recovery, not actual clinical evidence. Missing March-25 Elijah Bryant BPM receives a fictional newcomer prior, not a historical ability claim.",
+    "The NBA profile is a web-body observation; direct cached URL returned HTTP 403 and is not treated as body evidence.",
+    "No score, overtime, other Milwaukee game, whole season or macro completion is certified."
+  ]
+}

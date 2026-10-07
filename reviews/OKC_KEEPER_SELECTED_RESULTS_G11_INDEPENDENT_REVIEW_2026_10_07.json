@@ -1,0 +1,46 @@
+{
+  "id": "OKC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_OKLAHOMA_CITY_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_okc_2021_keeper_and_chicago_selected_results.py": "71e40aafde7a2a33d4631a4a2838e4ecd20d959ca1e8a5a9e1bf74e07d8be33c",
+    "simulation/CHICAGO_OKLAHOMA_CITY_2021_22_SELECTED_KEEPER_RESULTS.json": "bd7e973fad1557d35f4f1ea5b68757460e05b96abafe43aa523a52d73383de79",
+    "simulation/CHICAGO_OKLAHOMA_CITY_2021_22_SELECTED_KEEPER_RESULTS.md": "c507f6812ea260c795db592e1e4208761ab372c00255d2c5d928bdfcad5108f3"
+  },
+  "source_and_contract_scope": "Selected AP1 July 28 old-cap-year asset transfer places Kemba Walker in OKC and Horford/Moses Brown in BOS once, with no original June 18 backdating, later Kemba buyout or automatic 2021-22 hard-cap carry. Tony Bradley original OKC UPC expires and selected Chicago owner remains separate. #4 Scottie Barnes and #18 Tre Mann are OKC first-round RSC families; corresponding original Giddey/Jokubaitis/McBride/Aaron Wiggins and NYK second-round exchange are not imported. Seed count goes 15 minus Horford/Moses plus Kemba =14; Bradley expiry =13; two RSC entrants =15 standard. Svi Full Bird and Muscala Early Bird lawful new price families retain old Gamma/FA claims; exact signed price and receipts are null.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Oklahoma_City_player_seconds_each": 14400,
+    "positive_Oklahoma_City_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; unsigned second-round tenders excluded",
+    "exact_fraction_recalculation": "Independently summed exact rating fractions weighted by selected player seconds for both teams, plus Chicago home/fatigue effects. Both saved exact Chicago-minus-OKC fractions match.",
+    "results": [
+      {
+        "game_id": "0022100730",
+        "date": "2022-01-24",
+        "winner": "CHI",
+        "CHI_margin_per100": 2.820351479906451
+      },
+      {
+        "game_id": "0022100852",
+        "date": "2022-02-12",
+        "winner": "CHI",
+        "CHI_margin_per100": 7.320351479906451
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; its named role checker reproduced all 12 positive player seconds; both dates use selected Chicago NORMAL state.",
+  "independent_negative_control": {
+    "mutation": "Changed OKC #4 Scottie Barnes to original Josh Giddey in both returned selected-draft loader objects while physical source bytes stayed fixed.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json"
+  },
+  "limits": [
+    "March-25 Gabriel Deck row is absent because his original NBA signing came April 10; selected conservative newcomer prior is fictional, not measured historical ability.",
+    "Kemba/SGA positive availability is modeled cooperation/recovery, not historical buyout, medical or protocol fact.",
+    "No actual price, private six-category team cost, score, overtime, other OKC game or whole-season completion is certified."
+  ]
+}
