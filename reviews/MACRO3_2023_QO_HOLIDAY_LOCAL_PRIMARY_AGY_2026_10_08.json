@@ -1,0 +1,69 @@
+{
+  "tool": "Antigravity",
+  "scope": "SUPPLIED_OFFICIAL_PRIMARY_EXCERPT_READ_NOT_INDEPENDENT_NEW_SOURCE_ACQUISITION",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 26.31,
+    "budget_seconds": 110,
+    "raw_logs_retained": false,
+    "stdout_sha256": "581bcaf5417625b3547c1293fd95161669bb49141cc240f3e97a3ebfba9f29c3",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "6d30bb81-cd0e-45b9-8f0f-aeb97cb9e20a",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"qo_deadline_rule\": \"Player must be given until October 1 following issuance to accept\",\n  \"qo_locator\": \"Article XI, Section 4(c)(i), PDF 344 (p. 320)\",\n  \"holiday_adjustment_rule\": \"Deadlines falling on a Saturday, Sunday, or Federal Holiday deemed to fall on the following business day\",\n  \"holiday_locator\": \"Article XLII, Section 2, PDF 584 (p. 560)\",\n  \"sunday_2023_oct_1_extends_to_monday_oct_2\": true,\n  \"source_file\": \"C:/Users/Storm Credit/AppData/Local/Temp/fr-498-primary-excerpts/2023-QO-holiday.txt\",\n  \"source_status\": \"BODY_READ\"\n}\n```\n",
+      "duration_seconds": 13.3071621,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 20,
+        "tool_output_sha256": "25bd88c7e4fd115107280cdb03dfff3d892d9a6504ae46d99ca37dd02c2c019e"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "581bcaf5417625b3547c1293fd95161669bb49141cc240f3e97a3ebfba9f29c3",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"qo_deadline_rule\": \"Player must be given until October 1 following issuance to accept\",\n  \"qo_locator\": \"Article XI, Section 4(c)(i), PDF 344 (p. 320)\",\n  \"holiday_adjustment_rule\": \"Deadlines falling on a Saturday, Sunday, or Federal Holiday deemed to fall on the following business day\",\n  \"holiday_locator\": \"Article XLII, Section 2, PDF 584 (p. 560)\",\n  \"sunday_2023_oct_1_extends_to_monday_oct_2\": true,\n  \"source_file\": \"C:/Users/Storm Credit/AppData/Local/Temp/fr-498-primary-excerpts/2023-QO-holiday.txt\",\n  \"source_status\": \"BODY_READ\"\n}\n```\n",
+      "char_count": 564,
+      "sha256": "f23091602d893a35b4158630089b02ecf6312be00bee292d9940a4e321c894e6",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+  "primary_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+  "supplied_excerpt_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-498-primary-excerpts\\2023-QO-holiday.txt",
+  "supplied_excerpt_sha256": "6a04210bef19069b1f2a1caf236829239151c3d9c6b936f930e00409bc047a13",
+  "source_body_independently_certified": false,
+  "persistent_auth_settings_changed": false,
+  "root_adjudication": {
+    "answer_matches_Codex_direct_primary_PDF344_and584": true,
+    "2023Oct1_Sunday_to_Oct2_Monday_general_deadline": true,
+    "actual_QO_issue_acceptance_or_receipt_certified": false,
+    "source_body_read_is_tool_self_report": true,
+    "supplied_excerpt_not_independent_new_source_collection": true
+  }
+}

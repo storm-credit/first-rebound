@@ -1,0 +1,70 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e"
+  ],
+  "question_sha256": "cf69147ad29b54db09fa30aff8bdd51a4d102f3738060481cb4ff08ab9090385",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 62.476,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "- **원 31경로 미PASS 이유**: 국소 기능 경로만 확인되었을 뿐 막 전체 출구(Act exit)와 기관·시즌 결과 대조가 자동 통과되지 않기 때문입니다 [1, 2].\n- **독립 진행 가능 소막**: 경로 없는 11개 중 **A11-S2**, **A12-S1**(및 루틴 설계 가능한 A13-S1)입니다 [3, 4].\n- **Pack 미입력 3요소**: 실제 Pack 생성 전 잠겨야 할 **전체 기능표**, **역사 원장**, **ACTUAL_VERIFIED Blueprint**입니다 [4].",
+      "question": "지정사본만 분석. 원31경로가whole출구PASS가아닌이유와11미경로중독립진행가능소막, G14 Pack의현재미입력3개를300자내로추출. 731미배정을새731사건/Pack의무로만들지말고원고OPEN요구를선행으로만들지말것. 후보를승인/실역사로인증하지말것.",
+      "conversation_id": "f094f0b9-ebaf-4770-8f18-407831c458b4",
+      "sources_used": [
+        "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e"
+      ],
+      "citations": {
+        "1": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+        "2": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+        "3": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+        "4": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e"
+      },
+      "references": [
+        {
+          "source_id": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+          "citation_number": 1,
+          "cited_text_sha256": "3d83296da82e26848059bac105ed1b0e04255b15271f7d1fe38d848b2c32a408",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+          "citation_number": 2,
+          "cited_text_sha256": "a29d846a6124a3eb9561109bd93cec55e0760dad18535a74d69df06d873430f1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+          "citation_number": 3,
+          "cited_text_sha256": "1bc8ecd54c5f12b52c2a5cd98d8cc7832b0b2218add70af058d58e90badd16e4",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "b82e5fe4-4cbe-4540-9a07-bf0cd6c7e31e",
+          "citation_number": 4,
+          "cited_text_sha256": "342f92417251a453c5ddcc69c80940ea8e5b7174b78648048fe7d31c0456d46b",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "analysis_answer_recovered": true,
+    "31routes_not_31wholeActExits_correct": true,
+    "independent_possible_A11S2_A12S1_A13S1_correct_scope": true,
+    "Pack_three_missing_fields_correct": true,
+    "source_is_derived_audit_not_primary_history_or_new_independent_verification": true,
+    "source_snapshot_at_import_preserved": true
+  }
+}

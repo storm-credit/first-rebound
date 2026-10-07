@@ -1,0 +1,50 @@
+{
+  "schema": "G13_A01_LITERAL_WITNESS_REGISTER_G11_INDEPENDENT_REVIEW_V1",
+  "date": "2026-10-08",
+  "classification": "CURRENT_REGISTER_CONSUMER_REVIEW_NOT_REVIEW_OF_OWN_WITNESS",
+  "source_hash_method": "UTF-8 BOM stripped, CRLF/CR normalized LF, SHA-256",
+  "source_sha256": {
+    "tools/build_g13_a01_literal_witness_execution_register.py": "6385b02185284fd68d7c101e4855d169c744527b68346986f65ff57e0326bdc7",
+    "control/G13_A01_LITERAL_WITNESS_EXECUTION_REGISTER_2026_10_08.json": "8cffdcab62a153964f519c96954307e4d6579c58c81991493facdf2d947b8d93",
+    "control/G13_A01_LITERAL_WITNESS_EXECUTION_REGISTER_2026_10_08.md": "f11ea3055c839ec383717b354b3834a62f1b7a648ab3f1b429f4f3680805db14"
+  },
+  "source_pin_count": 98,
+  "direct_checks": {
+    "original_49_function_rows_full_object_equal": true,
+    "historical_register_preserved_full_object_equal": true,
+    "all_prior_source_pins_unchanged": true,
+    "all_98_current_physical_pins_match": true,
+    "one_overlay_target": "A01-EF-002",
+    "original_e2_entry_and_exit_exact": true,
+    "selected_order": "T1<W<T2",
+    "root_peer_literal_bounded_support_consumed": true,
+    "root_peer_old_hold_preserved": true,
+    "registered_functions": 49,
+    "routed_subacts": 31,
+    "unrouted_subacts": 11,
+    "unassigned_plan_slots": 731,
+    "whole_A01_Act_exit_certified": false,
+    "whole_G13_G14_certified": false,
+    "actual_context_packs": 0,
+    "manuscript_allowed": false
+  },
+  "actual_independent_returned_mutations": [
+    {
+      "case": "sources() peer literal_scoped_choice_cost_exit_supported true→false",
+      "result": "REJECTED returned source differs from physical root peer"
+    },
+    {
+      "case": "sources() BASE A01-EF-002 exact_exit→official team registration and rival victory",
+      "result": "REJECTED returned source differs from physical 49-register"
+    },
+    {
+      "case": "sources() OVERLAY selected order T1,W,T2→T1,T2,W",
+      "result": "REJECTED returned source differs from physical selected overlay"
+    }
+  ],
+  "writer_self_tests_or_root_A01_peer_mutations_counted_as_this_review": 0,
+  "producer_check": "--check exit0",
+  "scope": "This review confirms the new G13 consumer preserves the 49 historical rows and transmits the already independent root acceptance of one bounded literal A01-S1 choice/cost witness. It does not independently judge the witness, close whole A01, or certify G13/G14.",
+  "independent_review_completed": true,
+  "files_modified_other_than_this_review": false
+}

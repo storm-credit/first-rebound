@@ -1,0 +1,362 @@
+{
+  "id": "CHICAGO_2023_STAT_QO_AND_CBA_FINITE_PORTS_2026_10_08",
+  "baseline_main": "31e424c1662f5fa03c2a27c9d0b3a88f8c420a78",
+  "classification": "SOURCE_BOUND_STATIC_FINITE_IMPLEMENTATION_PORTS_NOT_STAT_OR_CONTRACT_ADOPTION",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
+    "research/COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07.json": "5ee4c26f87c4e63b6cc812aff14382f2d1b522242707b5f65064b357f0522c54",
+    "research/COBY_2023_QO_PRIMARY_INPUT_2026_10_07.json": "ee2c866fb0a098c1d09f43f2288b9df27f0d20db2c4630e99353fba95612eb2e",
+    "simulation/CHICAGO_2022_23_SELECTED_DATED_ROLES.json": "c0650dbb07b75cc1523bf7ccc7f658576ac5b9a8784f1e80cc97178897703170",
+    "canon/DELEGATED_CHICAGO_2022_23_HEALTH_ROLES_2026_10_08.json": "bf7bfdc1d64072196c1ec293c18c3410d722f67dd1a9014ef3d789999762bddf",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "research/MACRO3_2023_CBA_BOUNDARY_BRIDGE_2026_10_07.json": "404fde08b9d5fc9168b64f082c57a4ed6dff14711cf4d5990839267dc8a878f4",
+    "research/MACRO3_2023_CBA_BOUNDARY_PRIMARY_SOURCES_2026_10_07.json": "59b03c494187eb29177640806ae97427a837abff38bf4516f588758fc87a0112",
+    "simulation/CHICAGO_LONG_CORE_CBA_INPUTS.json": "7985e65cb5e184356aead888d4f016aca187dd2dd3185ea6de76527a6937fe0c",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.json": "e506efd28a54ceb61e34a8dfc107fb82236f783700f3aa610cd68ff4d62ba2cc",
+    "simulation/NBA_2022_SELECTED_FULL_POSTSEASON.json": "b571c7645e006df1d63ead19e46343b4234034f10a9883539f52e0f9f7c7ff10",
+    "tools/build_coby_2023_ordinary_qo_function.py": "ca95155db10345675254231c8b3bd2b53a5b9e70bbaaa000ffe947b3628a41da",
+    "reviews/CHICAGO_2022_23_SELECTED_DATED_ROLES_G11_INDEPENDENT_REVIEW_2026_10_08.json": "bf867086e367fc90bf851c00cce2ac620e968b32c4a3ebc390a2e36b39a4e4e0"
+  },
+  "source_hash_method": "UTF8_BOM_STRIP_CRLF_CR_TO_LF",
+  "primary_direct_reads": [
+    {
+      "id": "2017_CBA",
+      "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "directly_read_PDF_one_based_pages": [
+        245,
+        246,
+        310,
+        311,
+        314,
+        315,
+        317,
+        318,
+        512
+      ],
+      "extract_method": "PyMuPDF Page.get_text; CRLF/CR to LF; UTF8 SHA256",
+      "current_fitz_text_LF_sha256": {
+        "245": "6fa97d581aa4064261497aaab07abd94b25a62e94c817216403edfe3db1196b6",
+        "246": "22d6f787b3be5c03db5754e3894600f2a737c1714da6bef0085fa980bf8ad551",
+        "310": "6a860dfdb714499e550301e89b6cfb1527ce800299384df3fc55c384648f1b94",
+        "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+        "314": "00bed2e48a3c10dcce6f1db6dbac242567f56871c932915d12918c9df6ad9bd3",
+        "315": "586c77e4bc0cea3d215b9f378aa5949bb74c2b718c1d64d5661f01b6dbccca0f",
+        "317": "06c7ee2b8e250bdd71d2985d31eeb2c8559e1e0bad85f0899f791f2dca4603c6",
+        "318": "92258d361d590eba557d56ab7ba01e1ff58af80806f4f61dd38d4eddc34bac25",
+        "512": "b46a13f5078c2e6c34a3c71b12c8fd31aa9e0092f3896b3db0d1d0530e260e0d"
+      },
+      "prior_manifest_pypdf_text_hash_not_equated_with_fitz_hash": false
+    },
+    {
+      "id": "2023_CBA",
+      "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+      "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+      "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "directly_read_PDF_one_based_pages": [
+        60,
+        62,
+        64,
+        65,
+        278,
+        344,
+        584
+      ],
+      "extract_method": "PyMuPDF Page.get_text; CRLF/CR to LF; UTF8 SHA256",
+      "current_fitz_text_LF_sha256": {
+        "60": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b",
+        "62": "3db9d56a3686c83e2674099030810c1f3e2117275e4f34f878c20fe690457222",
+        "64": "36e44353ac250fa6b7ba68ff39473bdd51939af5e193ef5592e739ae467770f3",
+        "65": "891a6d363296ffc37f73f84e8b8702ecca6cdf72bbe2603d73203edaeafb033d",
+        "278": "dc738d7f6a8dee8d0e29b0ce69004c11bb8e2e08d5ef083a3f200e1804308437",
+        "344": "b09429bbf425b60e4e78eb7ce9c60a37d5f48862793595be83d9a8e8e2211d31",
+        "584": "a5d03da401cb51cc9e53ddb9823cd490a13e7edd809346310fbd0d457941d711"
+      },
+      "prior_manifest_pypdf_text_hash_not_equated_with_fitz_hash": true
+    },
+    {
+      "id": "NBPA_CBA_PAGE",
+      "url": "https://nbpa.com/cba",
+      "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\nbpa.html",
+      "raw_sha256": "f2720875df41b5bc8e571193235824c51899eb639c5f19cfba4d58cdde3af3f7",
+      "direct_body_boundary_read": true
+    }
+  ],
+  "authority_disposition": {
+    "source_authority": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+    "existing_selected_precedent": "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json#/routine_selection",
+    "fictional_credited_stats_can_be_selected_as_routine_season_implementation": true,
+    "actual_NBA_box_paper_required_before_fictional_stat_function": false,
+    "source_Official_NBA_statistics_constraint_in_fiction": "Use the internally selected NBA regular-game credited-stat record consistently with selected participation/starts/minutes; the novel model is not a certificate of real NBA records.",
+    "technical_unselected_or_real_cert_false_is_new_human_permission_barrier": false,
+    "no_new_health_price_award_title_or_franchise_choice_inferred": true,
+    "future_GP_credit_and_stats_wrapper_still_require_an_explicit_model_selection": true,
+    "root_adoption_of_new_stats_here": false
+  },
+  "physical_exposure": {
+    "Coby_2019_CHI_pick": 7,
+    "third_RSC_season": "2021-22",
+    "fourth_RSC_season": "2022-23",
+    "third_year_82_selected_game_keys": 82,
+    "third_year_positive_game_count": 58,
+    "third_year_selected_regulation_minutes": 1044,
+    "fourth_year_H22_adopted_date_keys": 82,
+    "fourth_year_positive_planned_game_count": 82,
+    "fourth_year_regulation_minutes": 1476,
+    "third_year_OT_or_credited_starts_claimed_actual": false,
+    "fourth_year_existing_named_starter_nominations": [
+      "LaMelo Ball",
+      "Zach LaVine",
+      "Protagonist",
+      "Lauri Markkanen",
+      "Wendell Carter Jr."
+    ],
+    "Coby_in_H22_starters": false,
+    "fourth_year_current_results_selected": 0,
+    "fourth_year_current_OT_selected": 0,
+    "fourth_year_results_null_all82_verified": true,
+    "fourth_year_actual_credited_GP_GS_or_total_minutes_certified": false,
+    "source_H22_roles_are_current_selection_not_old_pending_candidate_flag": true
+  },
+  "lower_bound_function": {
+    "starter": "GS4>=41 OR MIN4>=2000 OR GS3+GS4>=82 OR MIN3+MIN4>=4000",
+    "MIN3": "1044 + delta3",
+    "MIN4": "1476 + delta4",
+    "delta3_delta4": "Nonnegative separately chosen credited OT or added regular minutes; no cap implied by regulation lower bound",
+    "fourth_year_increment_needed_for_2000": 524,
+    "combined_increment_needed_for_mean_2000": 1480,
+    "nonstarter_requires": "GS4<41 AND GS3+GS4<82 AND delta4<524 AND delta3+delta4<1480",
+    "GP82_is_not_GS82": true,
+    "postseason_minutes_excluded": true,
+    "1476_lower_bound_does_not_prove_under2000": true,
+    "P2022_difference": "P MIN4 lower bound2624 already proves one OR arm for any nonnegative added minutes; Coby requires upper/exact additional-minute and starts inputs to exclude every OR arm."
+  },
+  "candidate_stat_routes": [
+    {
+      "id": "STAT23_A_ZERO_OT_BENCH",
+      "status": "REVIEWABLE_ROUTINE_MODEL_NOT_YET_SELECTED",
+      "proposal": "Adopt regular-only no-OT fictional games and consistent explicit bench nominations/credited participation for Coby; preserve all existing source minutes and H22.",
+      "third_year": {
+        "GP": 58,
+        "GS": 0,
+        "MIN": 1044
+      },
+      "fourth_year": {
+        "GP": 82,
+        "GS": 0,
+        "MIN": 1476
+      },
+      "combined_minutes": 2520,
+      "mean_minutes": 1260,
+      "mean_starts": 0,
+      "starter": false,
+      "supports_no_OT_games_lawfully": true,
+      "rule_claim": "A regular game need not have an overtime period; stats credit chosen positive regular participation and selected starts. This proposal does not set any winner/score.",
+      "adoption_guard": "If either year later receives selected extra minutes/changed starting nominations, reevaluate the pure function and dependent QO before promotion.",
+      "GP82_is_conditional_on_all82_selected_participations_executed": true,
+      "all82_results_selected_by_this_route": false,
+      "actual_NBA_box_or_medical_certified": false
+    },
+    {
+      "id": "STAT23_B_KEEP_TYPED_EXTRA_PORTS",
+      "status": "PRESERVED_OPEN_FUNCTION_NO_NEW_GAME_MODEL_SELECTION",
+      "proposal": "Carry delta3/delta4 and exact credited GS3/GS4 as finite typed stat ports. Evaluate either branch when an explicit model supplies them; retain own-component upper until then.",
+      "starter": null,
+      "private_receipt_wait_required": false,
+      "whole82_winner_model_completion_certified": false
+    }
+  ],
+  "Coby_QO_function": {
+    "source": "research/COBY_2023_ORDINARY_QO_FUNCTION_2026_10_07.json",
+    "third_year_scale2019_pick7": [
+      4422600,
+      4643900,
+      4864800,
+      270,
+      341
+    ],
+    "original_components": "Keep admitted 80-120pct original third-year base/likely/unlikely simplex. Fourth-year eachcomponent ×1.270, own QO each ×1.341.",
+    "starter": "Own pick7 complete component offer; do not substitute rank9",
+    "nonstarter": "Lesser whole lawful offer: own components OR original2019 pick15 at120pct base-only. No componentwise cancellation.",
+    "starter_sufficient_cost_upper": 9942120,
+    "nonstarter_sufficient_cost_upper": 7744602,
+    "upper_difference": 2197518,
+    "exact_original_UPC_components_or_NBA_rounding_certified": false,
+    "ordinary_QO_not_MaximumQO_FAhold_or_signed_UPC": true,
+    "issuance_window": "Day following last Season under second option through2023June29, 2017 XI4(a)(i); actual2023Finals last day is a typed endpoint, not presumedJune30.",
+    "minimum_open_acceptance_through": "2023-10-01",
+    "nominal_Oct1_weekday": "Sunday",
+    "general_deadline_rule_projection": "2023-10-02 Monday under XLII2, absent specific override; Oct1 in the old function is a sufficient minimum/nominal label, not proof of the terminal deadline.",
+    "new_2023_XI4c_controls": "Oct1 nominal acceptance, July13 withdrawal cutoff; later written-player-consent withdrawal, unaccepted expiry leaves FirstRefusal; actual notice/acceptance not selected here.",
+    "issuance_and_player_acceptance_selected": false
+  },
+  "CBA_transition_and_extension_ports": {
+    "old_2017_through": "2023-06-30",
+    "new_2023_from": "2023-07-01",
+    "June29_QO_amount_and_issue_law": "2017_CBA",
+    "old_vs_new_rookie_extension_clock": "2017 VII7b PDF245-246 and2023 VII7b PDF278 share12:01ET last Moratorium day through18ET day before second-option Regular Season begins; not a newly enlarged deadline merely because CBA changed.",
+    "reference_2023_moratorium_end": "2023-07-06T12:00:00-04:00",
+    "reference_rookie_extension_opens": "2023-07-06T12:01:00-04:00",
+    "calendar_close_function": "date(first_regular_day_2023_24)-1day at18:00ET; sourceOct24 is boundary-test input, not chosen calendar.",
+    "LaMelo_existing_fourth_option_notice": {
+      "player": "LaMelo Ball",
+      "date": "2022-10-01",
+      "added_season": "2023-24",
+      "original_UPC_first_season": "2020-21",
+      "actual_notice_receipt": null
+    },
+    "LaMelo_eligibility": "Second option is selected exercised in the lawful fictional family; qualifying-veteran continuity still bound to retained Chicago UPC/services family. No real institutional certificate claimed.",
+    "LM1_source_recommendation": {
+      "id": "LM1",
+      "first_season": 2024,
+      "years": 5,
+      "initial_cap_percent": 25,
+      "higher_max_cap_percent_if_qualified": 30,
+      "annual_raise_percent": 8,
+      "cost": "5년 장기 책임·조건 달성 시30% 지급 조항·2029 만료",
+      "recommended": true
+    },
+    "LM1_contract_selected": false,
+    "LM1_salary_function": "For C=chosen first-extended-year2024-25 cap and a lawful agreed p in25..30pct, firstB=p*C, years2..5=B*(1+0.08*k), total5.8B. This is noncompound; no chosen2024cap or honors.",
+    "LM1_25pct_total_coefficient": "29/20 * C",
+    "LM1_30pct_total_coefficient": "87/50 * C",
+    "HigherMax_condition": "II7(a),(c),(d): qualifying AllNBA/DPOY preceding season or2of3, orMVP1of3, and properly agreed already-qualified/conditional-fourth-year clause. AllStar alone is insufficient.",
+    "2022_23_65_game_award_rule_retroactive": false,
+    "Carter_CX1_2023_QO_not_due_live_extension": "Selected term runs2022-23 through2025-26; FY23 salary13,050,000 remains a carry, not fresh RFA/QO.",
+    "Protagonist_E2_2023_QO_not_due_live_UPC": "Selected4year Chicago term ends2026June30; FY23 base23,760,000 is currentcarry, not reopenedRFA.",
+    "LaVine_FY23_base_carry": 40064220,
+    "LaVine_2026_player_option_exercised_here": false
+  },
+  "finite_next_consumers": [
+    {
+      "id": "S23_STATS",
+      "inputs": [
+        "explicit model choice delta3/delta4 or0OT",
+        "Coby third/fourth credited starter count",
+        "per-date credited positive participation"
+      ],
+      "available_now": "17pinned sources and existing selected starter/role minutes; no real box prerequisite",
+      "output": "Coby pure starter boolean and source-compatible QO component family",
+      "does_not_close": "82winner/result/standings/title"
+    },
+    {
+      "id": "S23_RESULTS",
+      "inputs": [
+        "29opponent dated rollover roles/availability",
+        "incumbentproductivity ports",
+        "same selected result method"
+      ],
+      "available_now": "CHI82 H22 template selected; opponentworker handles its finite rollover",
+      "output": "actual chosen82 fictional winners and downstream standings",
+      "current_completed_results": 0
+    },
+    {
+      "id": "Q23_ISSUE_SIGN",
+      "inputs": [
+        "selected2023 NBASeason endpoint beforeJune29",
+        "valid fictional ordinaryQO issuing/tender branch",
+        "noacceptance/acceptance orBirdsigned mechanism",
+        "normal/apron/FAhold/FirstRefusal effect"
+      ],
+      "output": "dated FY23 contract/rights carrier",
+      "new_real_receipt_gate": false
+    },
+    {
+      "id": "LM23_EXTEND",
+      "inputs": [
+        "chosen2023-24 firstregularday",
+        "LM1/2/3/4 disposition underexisting core direction",
+        "lawful agreed conditionalpercent/honors family and current2024cap parameter",
+        "currentbonus/protection/priceterms and datedcost"
+      ],
+      "output": "valid2023-extensionfunction and futurecontractcost",
+      "important_price_award_MVP_or_longending_selected_here": false
+    }
+  ],
+  "verification": {
+    "physical_source_pins_checked": 17,
+    "source_H22_dates": 82,
+    "source_regular_CHI_dates": 82,
+    "source_year3_positive58_checked": true,
+    "stat_boundary_evaluations": [
+      {
+        "id": "ZERO_OT_BENCH_PROJECTION",
+        "GS3": 0,
+        "GS4": 0,
+        "MIN3": 1044,
+        "MIN4": 1476,
+        "starter": false,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      },
+      {
+        "id": "FOURTH_MIN_ONE_BELOW",
+        "GS3": 0,
+        "GS4": 0,
+        "MIN3": 1044,
+        "MIN4": 1999,
+        "starter": false,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      },
+      {
+        "id": "FOURTH_MIN_THRESHOLD",
+        "GS3": 0,
+        "GS4": 0,
+        "MIN3": 1044,
+        "MIN4": 2000,
+        "starter": true,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      },
+      {
+        "id": "MEAN_MIN_THRESHOLD_WITH_FOURTH_BELOW",
+        "GS3": 0,
+        "GS4": 0,
+        "MIN3": 2524,
+        "MIN4": 1476,
+        "starter": true,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      },
+      {
+        "id": "FOURTH_STARTS_THRESHOLD",
+        "GS3": 0,
+        "GS4": 41,
+        "MIN3": 1044,
+        "MIN4": 1476,
+        "starter": true,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      },
+      {
+        "id": "MEAN_STARTS_THRESHOLD",
+        "GS3": 42,
+        "GS4": 40,
+        "MIN3": 1044,
+        "MIN4": 1476,
+        "starter": true,
+        "method": "Independent arithmetic compared with existing pure starter_test; no builder invoked"
+      }
+    ],
+    "ancestor_constructor_runs": 0,
+    "new_builder_or_constructor_negative_tests_invented": 0,
+    "new_external_downloads": 0,
+    "new_source_peer_review_completed": false,
+    "static_currentness_snapshot": "Hashes read directly at creation; source mutation requires re-evaluation, not automatic semantic promotion."
+  },
+  "certification": {
+    "stat_route_adopted": false,
+    "Coby_starter_selected": false,
+    "QO_issued_or_accepted": false,
+    "LaMelo_extension_or_honors_selected": false,
+    "all82_2022_23_results_completed": false,
+    "actual_GP_GS_box_contract_clinical_private_receipts_certified": false,
+    "whole_macro3_or_manuscript": false,
+    "author_locked": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript_allowed": false
+}
