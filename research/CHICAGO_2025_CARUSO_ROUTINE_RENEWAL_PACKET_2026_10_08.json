@@ -1,0 +1,602 @@
+{
+  "id": "CHICAGO_2025_CARUSO_ROUTINE_RENEWAL_PACKET_2026_10_08",
+  "status": "SOURCE_SUPPORTED_SAME_CHICAGO_THREE_CONSENSUAL_CANDIDATES_REVIEW_PENDING",
+  "baseline_main": "1e02e5458f7d6191fbeeae5eeaf526cacde866d5",
+  "branch_snapshot_scope": "PR506-preparation branch-current selected Markkanen and QUAL1 preparation, not yet represented as mergedmain.",
+  "source_sha256": {
+    "research/CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json": "f728fc6b7891422c0ce204bf61aa60a8fa7c21331bd4ade904017b78a057b006",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07",
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.json": "5c4cf3f32e4fcec302c347e10a61e008f750e1a76826446a8df7b3e527615d7a"
+  },
+  "hash_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_revision": {
+    "rollover_previous_LF_SHA": "c304b6fbf3b2f7b27c109481d1cee3c855cbf555bb6110758be4ba6cdee86bbb",
+    "current_rollover_LF_SHA": "f728fc6b7891422c0ce204bf61aa60a8fa7c21331bd4ade904017b78a057b006",
+    "owner_change": "Root corrected Kessler/Jaquez option finite_port chronology only; consumed Caruso row equality directly confirmed.",
+    "consumed_Caruso_row": {
+      "player": "Alex Caruso",
+      "FY24_slot": "STD",
+      "FY25_class": "2024_LAST_SELECTED_SALARY_YEAR_NEW_2025_UPC_OR_RIGHTS_ACTION_REQUIRED",
+      "old_last_selected_salary_capyear": 2024,
+      "source_row": {
+        "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/execution/live10/1"
+      },
+      "finite_port": "Caruso: conditional own-Bird UFA/FA hold and separate valid renewal or other disposition.",
+      "selected_2025_UPC": false,
+      "existing_prior_UPC_carry": false,
+      "actual_2025_NBA_registration_certified": false
+    },
+    "consumed_row_semantic_sha256": "f2199239d412bc62d2154b9d8b8764aa149817cf9b8a013b302c920ad55f333c"
+  },
+  "approved_direction": {
+    "source": "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json#/selected",
+    "route": "G1A_PLUS_M1",
+    "growth_core_and_same_CHI_preserved": true,
+    "historical_not_approved_flags_are_not_new_author_reapproval_requirement": true,
+    "new_price_lock": false
+  },
+  "prior_contract": {
+    "source": "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json#/routine_implementation/new_contracts/Caruso",
+    "original_schedule": [
+      8600000,
+      9030000,
+      9460000,
+      9890000
+    ],
+    "total_regular_salary": 36980000,
+    "last_salary_capyear": 2024,
+    "last_regular_reference": 9890000,
+    "FY24_source_row": {
+      "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+      "json_pointer": "/execution/live10/1",
+      "body": {
+        "player": "Alex Caruso",
+        "holder": "CHI",
+        "STD": 1,
+        "TW": 0,
+        "salary_capyear": 2024,
+        "annual_component_upper": 9890000,
+        "source_cents_are_actual_private": false,
+        "original_Gamma_and_protection_preserved": true,
+        "new_assignment": false,
+        "FY24_covered_fiscal_window": "2024-07-01..2025-06-30",
+        "last_currently_guaranteed_or_exercised_salary_capyear": 2024,
+        "fiscal_end_is_exact_service_term": false,
+        "service_window_condition": "Preserved operative UPC/service family with no selected assignment/termination; actual future rendering not certified",
+        "future_option_exercise_selected": false
+      }
+    },
+    "fiscal_end": "2025-06-30",
+    "fiscal_end_is_exact_service_expiry": false,
+    "original_protection_Gamma_and_accrued_cash_preserved": true,
+    "2021_NTMLE_is_new_2025_exception": false,
+    "automatically_FY25_live": false
+  },
+  "primary": {
+    "reused_raw_sources": [
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+        "sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+        "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+        "source_kind": "OFFICIAL_NBPA_PDF_REUSED",
+        "id": "CBA2023",
+        "bytes": 2850534,
+        "adopted_body": true
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-markkanen-2025-renewal-20261008\\NBA_CAP2025.html",
+        "sha256": "8b20484615b529dbcb0b6e6ba3f08997db4b2cdd259d8ffb4d9ed44f75320988",
+        "url": "https://pr.nba.com/nba-salary-cap-2025-26-season/",
+        "source_kind": "OFFICIAL_DIRECT_PROVIDER_RAW_HTTP200",
+        "id": "NBA_CAP2025",
+        "bytes": 109914,
+        "adopted_body": true
+      }
+    ],
+    "actual_raw_SHA_checked": true,
+    "reused_direct_body_page_hashes": [
+      {
+        "physical_pdf_page": 29,
+        "text_sha256": "51adc90d5cf76f61c80346ee0d8275f53870b0af2e622d43d8e18e96f1b8768f"
+      },
+      {
+        "physical_pdf_page": 30,
+        "text_sha256": "fb8a5f15dd0c766cdb373c0535a71ea36d4ed96a46106a36a6774dc28742a429"
+      },
+      {
+        "physical_pdf_page": 31,
+        "text_sha256": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52"
+      },
+      {
+        "physical_pdf_page": 37,
+        "text_sha256": "b6bb7c88266158f4be0c1118ce0523057218d1f5c0422304f404fe3df61adfcd"
+      },
+      {
+        "physical_pdf_page": 40,
+        "text_sha256": "0b9cb0202700be2519404170ab0b4287b534fa2b2e6350cc012a4011d3ebcb7a"
+      },
+      {
+        "physical_pdf_page": 47,
+        "text_sha256": "64c29e97826b68ae5d1c991ed21a989d896b8ad7c6a6d11cb16332f52118e1b7"
+      },
+      {
+        "physical_pdf_page": 50,
+        "text_sha256": "d2d3053300a4ca707b05b18429e006683fb1f87943b72d934bffec2b3fb3345b"
+      },
+      {
+        "physical_pdf_page": 57,
+        "text_sha256": "ffac47dda5504cb4f3055fbf983e08e59255ece054c36c8507b497066e226dd0"
+      },
+      {
+        "physical_pdf_page": 58,
+        "text_sha256": "baeea9999ef9d320408ad5714b7c743944ddaaac84eb7f0f8dd191cd6be87921"
+      },
+      {
+        "physical_pdf_page": 60,
+        "text_sha256": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b"
+      },
+      {
+        "physical_pdf_page": 61,
+        "text_sha256": "5fef2298ad1156ebe3e3fe2b922cdf9c2b99e143153ea9e08171808b6230a8e9"
+      },
+      {
+        "physical_pdf_page": 210,
+        "text_sha256": "51ee1bb8eb26216488f7dd4ef8a82edde1a0b89df4ae4850e16454b200de8715"
+      },
+      {
+        "physical_pdf_page": 211,
+        "text_sha256": "75790dcb58ccfe4b37e2fa83b35690e50c643c084d6d55e1e359dedfc2295c03"
+      },
+      {
+        "physical_pdf_page": 214,
+        "text_sha256": "e6c0b186ade730ba06c28f93dd80af284601bcbc091601fd4641b35729693a57"
+      },
+      {
+        "physical_pdf_page": 215,
+        "text_sha256": "446ea99ef827b851e3fde4138921d15a07f3a8d78f4fb8903fdf4fa03f14dd13"
+      },
+      {
+        "physical_pdf_page": 240,
+        "text_sha256": "1712263b1347992499d49e999935d6eb6dee0dd493850ff7f1f08284f7d04862"
+      },
+      {
+        "physical_pdf_page": 241,
+        "text_sha256": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9"
+      },
+      {
+        "physical_pdf_page": 242,
+        "text_sha256": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b"
+      },
+      {
+        "physical_pdf_page": 251,
+        "text_sha256": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1"
+      },
+      {
+        "physical_pdf_page": 255,
+        "text_sha256": "1d13b211bee94e0c95de5faaa63b5754c7470d9e8ff520043d8ee4f651f59620"
+      },
+      {
+        "physical_pdf_page": 319,
+        "text_sha256": "6640ea05858483ed302458cb0db48a3ba5bdcd4bda4a75ded8b34212bceabeac"
+      },
+      {
+        "physical_pdf_page": 632,
+        "text_sha256": "165c16335e87e8a9ab8e07b79f8c179da5f679cc556a9ac4b44dd53ee462d70b"
+      },
+      {
+        "physical_pdf_page": 222,
+        "text_sha256": "2757fd36981c6564f49efff9ced2f383584f1a4c07a2a182f3fbf4947974bc11"
+      }
+    ],
+    "new_CBA_download_count": 0,
+    "repeated_31page_recollection": false,
+    "market_comparator": {
+      "url": "https://www.nba.com/news/alex-caruso-thunder-extension",
+      "body_read_locator": "Headline/body177-179",
+      "classification": "NBA_HOSTED_REPORTED_PRICE_NOT_OUR_UPC",
+      "observation": "NBA.com reports December2024 OKC four-year $81m extension; comparator only.",
+      "provider_HTTP_HTML_raw_certified": false,
+      "reported_total": 81000000,
+      "reported_years": 4,
+      "actual_OKC_assignment_schedule_guarantee_or_awards_copied": false
+    },
+    "identity_age_observation": {
+      "url": "https://www.nba.com/player/1627936/alex-caruso",
+      "actual_web_body_read": true,
+      "locator": "Birthdate lines170-172",
+      "birthdate": "1994-02-28",
+      "adopted_scope": "Birthdate only; currentteam, 9YOS, health, statistics and awards not transferred.",
+      "provider_HTTP_HTML_raw_certified": false
+    }
+  },
+  "official_2025": {
+    "cap": 154647000,
+    "tax": 187895000,
+    "first_apron": 195945000,
+    "second_apron": 207824000,
+    "published_minimum_team_salary": 139182000,
+    "NTMLE": 14104000,
+    "TMLE": 5685000,
+    "RoomMLE": 8781000
+  },
+  "admitted_legal_family": {
+    "YOS": 8,
+    "service_seasons": [
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "service_condition": "I1(iiii): each named Regular Season at least one qualifying NBA Active/Inactive day; no disapproved UPC, >30day withholding, or extended outstanding-QO unsigned exception. Fictional qualifying-service family, not clinical/stat certificate.",
+    "Bird_preceding_standard_seasons": [
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "Bird_condition": "Preserved Chicago original UPC/services cover three preceding Seasons; no intervening assignment/termination/renunciation inserted. I1(yy)/VII6(b)(1).",
+    "old_term_completion": "Original final covered Season/service term completed before new valid UPC. FiscalJune30 is not exactserviceexpiry.",
+    "veteran_UFA": "Completed ordinary non-RSC UPC, eightYOS: no Caruso QO/ROFR invented.",
+    "consensual_form": "Both parties voluntarily agree lawful Exhibit1/2 newUPC; actual filing/consent/payment null.",
+    "other_operative_STD_max_at_signing": 14,
+    "new_STD": 1,
+    "new_TW": 0,
+    "per_game_health_role_or_nomination_selected": false
+  },
+  "price_law": {
+    "first_year_max": "max(30%*C25,105%*P24_Gamma) under II7(a)(ii), including Unlikely",
+    "ordinary_P24_9890000_reference_max": 46394100,
+    "HigherMax_award_route_used": false,
+    "own_Bird_max_term_years": 5,
+    "term_source": "IX1/PDF319",
+    "annual_change": "VII5(a)(2)/PDF251: each change <=8% of FIRST Salary, not compound",
+    "minimum": "II6/I1(jj): 2025 SIGNING-YEAR M25(YOS8,Year_j) columns for all contract years, not new signing in each latercapyear",
+    "ExC8_baseline": [
+      2628597,
+      2760026,
+      2891458,
+      3022889
+    ],
+    "unrounded_design_minimum_reference": [
+      "406504640259/123655",
+      "426829740822/123655",
+      "447155305326/123655",
+      "467480715183/123655"
+    ],
+    "published_adjusted_minimum_table_certified": false,
+    "exact_statutory_rounding_certified": false,
+    "minimum_screen": "Candidate each year exceeds unrounded reference ceil+2 by >10m. Operative lawful domain still requires applicable minimum; proxy not exact official cents.",
+    "bonus": "New proposed additions0; original applicable Gamma allocations kept separately. 15%Unlikely is not universal all-bonus bound.",
+    "protection": "100%lack-of-skill/injury-illness eachyear subject II4/Ex2; not all termination immunity or continued employment guarantee.",
+    "over38": {
+      "source": "VII3(a)(2)/PDF222",
+      "thirty_eighth_birthday": "2032-02-28",
+      "last_candidate_salary_capyear": 2028,
+      "last_candidate_fiscal_end": "2029-06-30",
+      "all_candidate_covered_years_end_before_age38": true,
+      "over38_deferred_allocation_needed_in_these_forms": false,
+      "scope": "No actual future playing services or clinical outcome follows from age arithmetic."
+    }
+  },
+  "candidates": [
+    {
+      "id": "C25A",
+      "status": "CANDIDATE_NOT_SELECTED",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_NOT_SIGN_AND_TRADE",
+      "team": "CHI",
+      "player": "Alex Caruso",
+      "first_salary_fraction_C25": "1/10",
+      "salary_by_capyear": {
+        "2025": 15464700,
+        "2026": 15464700,
+        "2027": 15464700
+      },
+      "first_regular_salary": 15464700,
+      "years": 3,
+      "total_regular_salary": 46394100,
+      "annual_change_fraction_of_first_salary": "0",
+      "compound": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "bonus0_is_private_absence_certificate": false,
+      "skill_injury_illness_protection_percent_each": [
+        100,
+        100,
+        100
+      ],
+      "CBA_II4_Exhibit2_conditions_preserved": true,
+      "death_protection_selected": false,
+      "options": [],
+      "ETO": null,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "actual_player_team_consent_receipt": null,
+      "fictional_agreement_selected": false,
+      "role_minutes_or_future_performance_guaranteed": false
+    },
+    {
+      "id": "C25B",
+      "status": "CANDIDATE_NOT_SELECTED",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_NOT_SIGN_AND_TRADE",
+      "team": "CHI",
+      "player": "Alex Caruso",
+      "first_salary_fraction_C25": "1/8",
+      "salary_by_capyear": {
+        "2025": 19330875,
+        "2026": 20877345,
+        "2027": 22423815,
+        "2028": 23970285
+      },
+      "first_regular_salary": 19330875,
+      "years": 4,
+      "total_regular_salary": 86602320,
+      "annual_change_fraction_of_first_salary": "2/25",
+      "compound": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "bonus0_is_private_absence_certificate": false,
+      "skill_injury_illness_protection_percent_each": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "CBA_II4_Exhibit2_conditions_preserved": true,
+      "death_protection_selected": false,
+      "options": [],
+      "ETO": null,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "actual_player_team_consent_receipt": null,
+      "fictional_agreement_selected": false,
+      "role_minutes_or_future_performance_guaranteed": false
+    },
+    {
+      "id": "C25C",
+      "status": "CANDIDATE_NOT_SELECTED",
+      "mechanism": "OWN_FULL_BIRD_NEW_UPC_NOT_EXTENSION_NOT_SIGN_AND_TRADE",
+      "team": "CHI",
+      "player": "Alex Caruso",
+      "first_salary_fraction_C25": "1/8",
+      "salary_by_capyear": {
+        "2025": 19330875,
+        "2026": 17784405,
+        "2027": 16237935
+      },
+      "first_regular_salary": 19330875,
+      "years": 3,
+      "total_regular_salary": 53353215,
+      "annual_change_fraction_of_first_salary": "-2/25",
+      "compound": false,
+      "new_signing_likely_unlikely_trade_promotional_loan_buyout_additions": 0,
+      "bonus0_is_private_absence_certificate": false,
+      "skill_injury_illness_protection_percent_each": [
+        100,
+        100,
+        100
+      ],
+      "CBA_II4_Exhibit2_conditions_preserved": true,
+      "death_protection_selected": false,
+      "options": [],
+      "ETO": null,
+      "new_STD": 1,
+      "new_TW": 0,
+      "original_Gamma_preserved": true,
+      "actual_player_team_consent_receipt": null,
+      "fictional_agreement_selected": false,
+      "role_minutes_or_future_performance_guaranteed": false
+    }
+  ],
+  "recommended_candidate": "C25B",
+  "recommendation_selected": false,
+  "economic_disposition": {
+    "C25A": "Short flat budget; lower total security/compensation requires voluntary preference. Legality is not inferred loyalty discount or guaranteed agreement.",
+    "C25B": "Recommend protected4year retention with increasing cash; higher later guarantee and roster opportunity cost. Future performance/health not promised.",
+    "C25C": "Declining3year cash reduces later carry, but earlier reopening and lower security are substantive player costs.",
+    "market_assent_or_discount_predicted": false,
+    "reported_OKC_terms_actual_assignment_or_first_salary_transferred": false,
+    "new_player_role_minute_or_franchise_core_change_selected": false
+  },
+  "candidate_dates": [
+    {
+      "date": "2025-07-01",
+      "state": "OldUPC completed only if service condition; ownBird UFAhold retained, oldaccruedGamma preserved",
+      "Caruso_live_STD_from_old": 0,
+      "normal": "H_Caruso(P24_Gamma)",
+      "apron_ordinary_UFA": 0
+    },
+    {
+      "candidate_ET": "2025-07-07T12:02:00",
+      "moratorium_end_ET": "2025-07-06T12:00:00",
+      "new_Bird_allowed_after_ET": "2025-07-06T12:01:00",
+      "state": "If route adopted, valid ownBird newUPC replaces sameclaim hold once",
+      "new_STD": 1,
+      "new_TW": 0,
+      "actual_signed_receipt": null
+    }
+  ],
+  "hold_and_cost": {
+    "P24_Gamma": "VII4(d)(8): final regularSalary + applicable signing allocation + actually-earned Incentive; original no-new-additions family9.89m is reference, not privateallabsence.",
+    "normal_H_formula": "max(unreimbursed applicable minimum,min(applicable maximum,(150% if P24>=FY24EstimatedAverage else190%)*P24_Gamma))",
+    "reference_holds": [
+      {
+        "prior_ge_estimated_average": true,
+        "normal": 14835000,
+        "apron_ordinary_UFA": 0
+      },
+      {
+        "prior_ge_estimated_average": false,
+        "normal": 18791000,
+        "apron_ordinary_UFA": 0
+      }
+    ],
+    "average_actual_value": null,
+    "average_branch_selected": false,
+    "hold_removal_only": "Valid same-teamUPC, other-team signing or validrenunciation. This Bird proposal does not renounce Caruso before signing.",
+    "reference_transitions": [
+      {
+        "route": "C25A",
+        "prior_ge_estimated_average": true,
+        "normal_reference_hold": 14835000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 15464700,
+        "normal_component_delta": 629700,
+        "apron_regular_component_delta": 15464700,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      },
+      {
+        "route": "C25A",
+        "prior_ge_estimated_average": false,
+        "normal_reference_hold": 18791000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 15464700,
+        "normal_component_delta": -3326300,
+        "apron_regular_component_delta": 15464700,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      },
+      {
+        "route": "C25B",
+        "prior_ge_estimated_average": true,
+        "normal_reference_hold": 14835000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 19330875,
+        "normal_component_delta": 4495875,
+        "apron_regular_component_delta": 19330875,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      },
+      {
+        "route": "C25B",
+        "prior_ge_estimated_average": false,
+        "normal_reference_hold": 18791000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 19330875,
+        "normal_component_delta": 539875,
+        "apron_regular_component_delta": 19330875,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      },
+      {
+        "route": "C25C",
+        "prior_ge_estimated_average": true,
+        "normal_reference_hold": 14835000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 19330875,
+        "normal_component_delta": 4495875,
+        "apron_regular_component_delta": 19330875,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      },
+      {
+        "route": "C25C",
+        "prior_ge_estimated_average": false,
+        "normal_reference_hold": 18791000,
+        "apron_ordinary_UFA_hold": 0,
+        "new_regular_salary": 19330875,
+        "normal_component_delta": 539875,
+        "apron_regular_component_delta": 19330875,
+        "hold_replaced_once": true,
+        "old_Gamma_deleted": false
+      }
+    ],
+    "six_categories": [
+      {
+        "id": "LIVE25",
+        "normal": "L25_excluding_Caruso + F(route)",
+        "apron": "A_live25_excluding_Caruso + F(route)",
+        "scope": "Existing selected Mark M25B and other operative UPCs once; old Caruso9.89m not FY25 new Salary; all relevant current allocations preserved."
+      },
+      {
+        "id": "OLD_GAMMA25",
+        "normal": "R25_normal_preserved",
+        "apron": "R25_apron_preserved",
+        "scope": "Named protected/waiver/grievance/accrued obligations in correct years; no expiry deletion or automatic carry of R24 ceiling; delayed payment not necessarily new Salary."
+      },
+      {
+        "id": "FA_QO_FRN25",
+        "normal": "Other_FA25 + H_Caruso(P24_Gamma) before signing; Other_FA25 after signing",
+        "apron": "Other_applicable_QO_FRN25; Caruso ordinary UFA hold excluded",
+        "scope": "No manufactured Caruso QO/ROFR; other rights and applicable notices unchanged. Hold is not cash or a slot."
+      },
+      {
+        "id": "DRAFT25",
+        "normal": "N25 + applicable owned prior rights",
+        "apron": "A25 + applicable Required Tender/other adjustments",
+        "scope": "Unselected rookie/UPC input unknown not0; second-round reserve not automatically statutory Salary or STD."
+      },
+      {
+        "id": "EXCEPTIONS25",
+        "normal": "E25 legally included until used/expired/valid renunciation",
+        "apron": "Unused exception face excluded; resulting signed-player/transaction charges retained",
+        "scope": "Own Bird does not spend MLE; no blanket renunciation or old exception carry selected."
+      },
+      {
+        "id": "ROSTER_FLOOR_TAX_CASH25",
+        "normal": "Applicable I25_incomplete + MTS/deemed-Salary adjustments",
+        "apron": "Applicable law-specific adjustments",
+        "scope": "Other_STD<=14 permits newSTD1. Dated minimum registration/active separate. Tax/fullcash not Salary; MTS inputs not ordinary FAhold face."
+      }
+    ],
+    "typed_other_inputs": {
+      "L25_excluding_Caruso": null,
+      "A_live25_excluding_Caruso": null,
+      "R25_normal_preserved": null,
+      "R25_apron_preserved": null,
+      "Other_FA25": null,
+      "Other_applicable_QO_FRN25": null,
+      "N25": null,
+      "A25": null,
+      "E25": null,
+      "I25": null,
+      "MTS25_opening": null,
+      "MTS25_current": null,
+      "other_current_apron_trigger": null
+    },
+    "unknown_is_zero": false,
+    "whole_FY25_normal_apron_tax_cash_upper": null,
+    "actual_cash_paid": null,
+    "new_Bird_hardcap_trigger": false,
+    "other_constraints": "Any valid current FY25 transaction-triggered apron and other restriction remains; old2021hardcap not inherited. Apron excess alone not automatic illegality.",
+    "previous_Mark_M25B_double_added": false,
+    "future_assignment": "Separately review applicable VII8 waiting/Bird-raise, matching and apron conditions; no automatic Dec15/Jan15 date or trade permission.",
+    "published_floor_display": 139182000,
+    "law_90percent_cap_floor_reference": 139182300,
+    "whole_team_floor_certified": false
+  },
+  "verification": {
+    "source6_current": true,
+    "Caruso_source_row_directly_equal_after_rollover_revision": true,
+    "raw2_SHA_checked": true,
+    "three_schedule_totals_recomputed": [
+      46394100,
+      86602320,
+      53353215
+    ],
+    "six_hold_transitions_recomputed": true,
+    "first_max_annual_change_term_and_minimum_reference_checks": true,
+    "static_constructor_negative_tests_run": 0,
+    "writer_checks_counted_as_independent": 0,
+    "independent_review_completed": false
+  },
+  "finite_exit": {
+    "one_player_legal_form_price_comparison_ready": true,
+    "next": "Peer legal/source check and root one-route adoption; new dated consumer then replaces hold once and adds one STD conditional on capacity. Other named FY25 contracts/options/rights remain typed, not a private-ledger waiting gate.",
+    "whole_FY25_registration_cost_season_complete": false,
+    "actual_cents_consent_NBA_receipt_certified": false,
+    "new_franchise_MVP_title_retirement_choice": false,
+    "Pack_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "unfinished_major_groups": 4,
+    "unfinished_through_group6": 3
+  }
+}

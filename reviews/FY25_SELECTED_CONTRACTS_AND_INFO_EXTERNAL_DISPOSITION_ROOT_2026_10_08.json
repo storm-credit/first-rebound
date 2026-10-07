@@ -1,0 +1,68 @@
+{
+  "id": "FY25_SELECTED_CONTRACTS_AND_INFO_EXTERNAL_DISPOSITION_ROOT_2026_10_08",
+  "baseline_main": "6f769cfb8ed5274f14cdd2a22d4d1dbabf95ce47",
+  "classification": "ROOT_ADJUDICATION_OF_ACTUAL_EXTERNAL_ANSWERS_NOT_GLOBAL_VERIFICATION",
+  "source_sha256": {
+    "reviews/FY25_SELECTED_CONTRACTS_AND_INFO_NLM_REGISTRATION_2026_10_08.json": "36a4d76917d45814968f890735d3c896673c4c986e783467331fed09b8597603",
+    "reviews/FY25_SELECTED_CONTRACTS_AND_INFO_NLM_ANALYSIS_2026_10_08.json": "06b347607d87db85105dd21d5f5d27b92d65e005929c8265b043a5b91472342f",
+    "reviews/FY25_SELECTED_CONTRACTS_AND_INFO_CLAUDE_SOURCE_BLIND_2026_10_08.json": "9804395c59f126f89fb6ae8d19244ed23c727fbc8d22abf131f421d475677bf7",
+    "reviews/CHICAGO_FY25_CARUSO_AND_ROOKIE_SELECTED_CONSUMERS_G11_REVIEW_2026_10_08.json": "d4a400d230d114fe54c8fa37415535ba63af759a80c31c0544d261c8675b36a4",
+    "reviews/G13_NULL_INFORMATION_BOUNDARY_ACCEPTED_INPUT_ROOT_REVIEW_2026_10_08.json": "01f2361249ab73b2f02ff335fa111b64abc0a014aa4b27c2d4dedd22145c2334"
+  },
+  "NotebookLM": {
+    "registration_elapsed_seconds": 19.021,
+    "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+    "analysis_elapsed_seconds": 51.845,
+    "source_ids_match": true,
+    "uploaded_snapshot_SHA_checked": true,
+    "answer_recovered": true,
+    "adopted_scope": "Supplied-copy analysis distinguishes selected fictional contracts/conditional original-RSC notices and observation/transmission/inference/HOLD. Does not verify linked bodies, actual receipt, source hashes or whole project."
+  },
+  "Claude": {
+    "elapsed_seconds": 35.791,
+    "answer_recovered": true,
+    "reported_defects": 1,
+    "adopted_substantive_defects": 0,
+    "disposition": "REJECT_WRONG_CBA_PLAYER_CLASS_AND_MULTIPLIERS",
+    "actual_claim": "Claude asserted 190%/300% for a non-RSC qualifying veteran and called current150%/190% reference holds wrong.",
+    "direct_primary_countercheck": {
+      "official_CBA_url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+      "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+      "raw_SHA256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "physical_pages_read": [
+        241,
+        242
+      ],
+      "page_text_SHA256": {
+        "241": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9",
+        "242": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b"
+      },
+      "VII4d1i": "Ordinary Qualifying Veteran FA other than second rookie option year:150% when prior Salary>=estimated average,190% when below.",
+      "VII4d1ii": "Second Rookie Scale Option Year class:250%/300%, not Claude190%/300%. Caruso original2021 four-year non-RSC is not this class.",
+      "VII4d4_d5_d8": "Applicable minimum/maximum clips and prior-Salary component definition still preserved by H_Caruso(P24_Gamma).",
+      "consumer_arithmetic_recomputed": [
+        {
+          "hold": 14835000,
+          "new_salary": 19330875,
+          "delta": 4495875
+        },
+        {
+          "hold": 18791000,
+          "new_salary": 19330875,
+          "delta": 539875
+        }
+      ]
+    },
+    "response_and_projection_not_rewritten": true,
+    "previous_peer_verdicts_supplied_to_Claude": false
+  },
+  "Antigravity": {
+    "fresh_run": "NOT_RUN_THIS_FINITE_ADOPTION",
+    "reason": "No new primary source collection needed. Existing PR506 official2025 cap response and directly byte-checked CBA/cap raw bodies reused; no old answer relabeled a new run.",
+    "prior_record": "reviews/MARKKANEN_2025_CAP_PRIMARY_AGY_2026_10_08.json"
+  },
+  "whole_G16_or_private_NBA_certified": false,
+  "actual_Packs": 0,
+  "manuscript": 0,
+  "design_gate": "CLOSED"
+}

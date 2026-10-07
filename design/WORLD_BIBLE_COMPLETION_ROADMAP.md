@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-08 [FY25 Caruso·신인 옵션·정보11 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADOPTION_2026_10_08.md): PR506 main 다음 작업. 1–3번 완료 보존. Caruso C25B 4년 $86,602,320과 조건부 원 RSC 통지 2건 선택·독립 검문 완료. 기존 Gamma·동일 hold 한 번 교체·신규 슬롯을 구분한다. 정보 경계 11개 준비와 실제 pointer/지식 시계를 수용하고 원 null·개별 HOLD·POV/Pack 미승격을 보존했다. FY25 계약 입력 9개, 남은 갱신 6건(Duarte1+minimum5). NLM/Claude 새 답 회수; Claude의 hold 지적은 CBA 비RSC150%/190% 원문 대조로 기각했다. 전체 커리어·최종 배치·G13/G14 미완료. 남은 큰 묶음4개, 6번까지3개. v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전 이력이다.
+
 2026-10-08 [QUAL1・2025 갱신・배치 입력 인계](../reviews/QUAL1_MARKKANEN_AND_ALLOCATION_CONTINUATION_ADOPTION_2026_10_08.md): PR505 main 다음 작업. 1–3번 완료 보존. 가상 CHI6/PHI3 자격 및 별도 G1/G2 역할 비용 관측을 선택・독립 검문했고, M25B 가상 4년 갱신・동일 hold 한 번 교체・원 Γ 보존을 실행했다. FY25 5기존/1선택/2옵션/7만료를 분리했다. 60기능 배치 입력의 null 정보 대상 11건을 HOLD로 수리. AGY/NLM/Claude 새 답 회수와 사본 이력 보존. 전체 커리어・최종 회차・G13/G14・Pack은 미완료. 남은 큰 묶음 4개, 6번까지 3개. v0.30 PARTIAL・CLOSED・Pack0・원고0・Goal ACTIVE・일정0. 아래는 이전 이력이다.
 
 2026-10-08 [Game1 역할 관측·현행 막출구 인계](../reviews/A10_GAME1_ROLE_WINDOW_AND_CURRENT_ACT_EXIT_ADOPTION_2026_10_08.md): PR504main·1–3완료·Blueprint60보존. 공식2024Oct23CHI@NOP0022400069의명명조건부합법가족/원Γ·4옵션·floor와12경로수리후 당일13/2·court5bench8·2개서로다른8초창P6/LV2실패→P3/LV5공동이양만 실행·독립검문. 원240분/미가격/null승패·첫옵션효율·QUAL1미선택·전체A10false. 원42/14막출구60기능현행대조·A06/A08/A09한정증인재사용·다음연차소급완료0. 새외부CLI NOT_RUN·PR504이력보존. 중요한후기좌표HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
@@ -189,9 +191,9 @@
 | 1 | 2020 드래프트 연쇄 | 완료·기존 승인 보존 |
 | 2 | Chicago 2020–21 | S2 유한 시즌 완료·1174경기/2348팀·법적12/F5/A3/K4 |
 | 3 | 2021–23 거래·계약 | 완료: 원7명 경로·시간순 계약/cap/픽의 합법 가상 가족. J16 RT→RSC15STD·LM1·원보호채무·같은hold 교체 검문. 실제 사적 접수/정확센트 인증과 구분 |
-| 4 | 두 선수 장기 커리어 | 진행: A10 2024–25 계약·역할 창; 이후 재자격·Finals·후기 계약·은퇴 좌표 남음 |
+| 4 | 두 선수 장기 커리어 | 진행: 2025 Mark·Caruso 갱신과 신인 옵션2 선택·검문. Duarte·minimum5·후기 계약/연차/은퇴 좌표 남음 |
 | 5 | 결말·전체 구조 | 60기능/42소막 경로/미경로0·14막 유한 출구 감사. 미래막 전체 출구·최종 회차 배치 미완료 |
-| 6 | 집필 규격·Context Pack | 독서110/110·S1규격 완료. 전체G13/검증Blueprint 뒤 Pack생성·검문 남음·실제Pack0 |
+| 6 | 집필 규격·Context Pack | 독서110/110·S1규격 완료. 정보경계11 준비 수용; 전체G13 조건과 Pack생성·검문 남음·실제Pack0 |
 | 7 | 통합·독립·작가 승인 | 전체G15/G16/G17 미완료·최종OPEN 미승인 |
 
 **미완료 큰 묶음4개 / 6번까지3개.** 780계획칸 중 미배정720은 추가 사건 의무가 아니다. v0.30 PARTIAL·설계/원고CLOSED·원고0. [현행 큐](../control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md)의 완료 시점부터 다음 작업을 계속한다. 백분율·예상시간은 계산하지 않는다.

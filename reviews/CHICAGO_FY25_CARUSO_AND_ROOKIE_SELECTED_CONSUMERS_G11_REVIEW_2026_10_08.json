@@ -1,0 +1,88 @@
+{
+  "id": "CHICAGO_FY25_CARUSO_AND_ROOKIE_SELECTED_CONSUMERS_G11_REVIEW_2026_10_08",
+  "reviewer": "g11_access",
+  "date": "2026-10-08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_BOUNDED_FICTIONAL_CARUSO_UPC_AND_TWO_CONDITIONAL_RSC_NOTICES",
+  "source_hash_method": "UTF8_BOM_strip_LF_normalized_SHA256",
+  "source_sha256": {
+    "canon/DELEGATED_CHICAGO_2025_CARUSO_RENEWAL_SELECTION_2026_10_08.json": "6cf611fee9bedb0756b7a55c8a9d3d0a22553ea8454600221e312da057461f5e",
+    "simulation/CHICAGO_2025_CARUSO_SELECTED_RENEWAL_EXECUTION.json": "c0e3bfff663f5df7eb62159f5785e327cfe2e8c2b30b00da1ee7f43ee83737bf",
+    "simulation/CHICAGO_2025_CARUSO_SELECTED_RENEWAL_EXECUTION.md": "2685ecf2f3bc7f7a8aebddf0a2ffbce1895fe88dc64a5161a5fd774cf12be685",
+    "canon/DELEGATED_CHICAGO_FY25_ROOKIE_OPTION_NOTICE_SELECTION_2026_10_08.json": "92ec31c65c57657eda813fa759107a9cafc8dc007d878903b18dca5936a3b756",
+    "simulation/CHICAGO_FY25_SELECTED_ROOKIE_OPTION_NOTICES.json": "fbe99060a851e3a4d3a6ff2dce3c09813391b78a2a3bf4388db6adacb65ba3de",
+    "simulation/CHICAGO_FY25_SELECTED_ROOKIE_OPTION_NOTICES.md": "5738fcbecca5cefa2678fe4ee234e314dbb47fe27223f8c076c648e879a80d6d"
+  },
+  "all_four_selected_source_pin_maps_current": true,
+  "caruso_review": {
+    "selected_form": "C25B own-Full-Bird new Chicago UPC, not extension or sign-and-trade",
+    "fictional_agreement_date": "2025-07-07T12:04:00-04:00",
+    "source_candidate_to_selection_changes_only": [
+      "status candidate→selected",
+      "fictional_agreement_selected false→true"
+    ],
+    "selected_design_equals_consumer_UPC": true,
+    "salary_by_capyear": {
+      "2025": 19330875,
+      "2026": 20877345,
+      "2027": 22423815,
+      "2028": 23970285
+    },
+    "total_regular_salary": 86602320,
+    "eight_percent_linear_increment_each_year": 1546470,
+    "other_operative_STD_at_signing_max": 14,
+    "normal_reference_hold_two_unselected_average_branches": [
+      14835000,
+      18791000
+    ],
+    "normal_reference_salary_deltas": [
+      4495875,
+      539875
+    ],
+    "operative_delta": "19,330,875 - H_Caruso(P24_Gamma), preserving applicable min/max clips and original attributable Gamma",
+    "same_player_hold_added_with_salary": false,
+    "original_Gamma_deleted": false,
+    "six_cost_categories_equal_parent": true,
+    "new_STD": 1,
+    "whole_FY25_roster_cost_certified": false,
+    "actual_player_consent_or_NBA_receipt": false
+  },
+  "rookie_notice_review": {
+    "selected_conditional_calendar_family": "E24<2024-10-01; original covered Season completed; conforming team-signed email October 1 inside E24+1..October31",
+    "actual_E24_or_Finals_winner_selected": false,
+    "selected_notice_count": 2,
+    "named_years": [
+      {
+        "player": "Walker Kessler",
+        "trigger": "2023-24 second Season",
+        "continued_year": "2025 Year4",
+        "ratio": "769/500",
+        "rational": "134977956/25",
+        "upper_reference_not_rounding": 5399119
+      },
+      {
+        "player": "Jaime Jaquez Jr.",
+        "trigger": "2023-24 first Season",
+        "continued_year": "2025 Year3",
+        "salary_function": "6/5*S23(16,3)",
+        "2026_Year4_exercised_here": false
+      }
+    ],
+    "selected_rows_keep_all_original_source_fields_except_selection_metadata": true,
+    "consumer_salary_function_equals_selected_notice": true,
+    "new_UPC_STD_TW": 0,
+    "existing_RSC_live_salary_once_no_same_player_FA_hold": true,
+    "six_cost_categories_equal_parent": true,
+    "actual_delivery_receipts": [
+      null,
+      null
+    ],
+    "exact_rounding_or_wholecost_certified": false
+  },
+  "review_method": "Static consumer: physical source JSON/MD and source SHA maps read directly; independent deep-copy comparison to parent candidate, calendar and arithmetic checks. No constructor exists; no returned-helper mutation tests claimed.",
+  "constructor_negative_tests_run": 0,
+  "writer_tests_counted_as_independent": 0,
+  "remaining_defects": [],
+  "owner_repair_required": false,
+  "limits": "Actual receipt, exact original Gamma/price cents, concrete 2024 Finals end date, full FY25 roster/cost/health/results, whole Act and manuscript remain unselected."
+}

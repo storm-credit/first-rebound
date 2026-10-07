@@ -45,3 +45,7 @@
 ## QUAL1·M25B 실행 이후
 
 [자격·두 관측](../simulation/A10_QUAL1_SELECTED_COST_WINDOW.json)과 [M25B](../simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json)의 새 선택/실행/독립 검문을 회수했다. 원 PR505 막출구는 당시 스냅샷으로 보존하며, 현행은 [이번 인계](../reviews/QUAL1_MARKKANEN_AND_ALLOCATION_CONTINUATION_ADOPTION_2026_10_08.md)와 [FY25 만료·옵션 입력](../research/CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json)을 우선한다. 다음은 Caruso 및 만료 7건·신인 옵션 2건의 유한 처리와 null 정보 경계 11건이다. 중요 장기좌표 승격은 HOLD, 독립 작업 계속. 전체 A10/미래 커리어·G13/G14·Pack 완료를 대신 선포하지 않는다. Goal ACTIVE·일정 0·Pack 0·원고 0·CLOSED.
+
+## Caruso·두 신인·정보11 수용 이후
+
+PR506 다음 [현행 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADOPTION_2026_10_08.md)를 따른다. 선택 Caruso C25B와 두 적법 조건부 신인 통지는 독립 검문 완료다. [정보11 수용 링크](G13_NULL_INFORMATION_BOUNDARY_ACCEPTED_INPUT_2026_10_08.json)는 사전 정보 준비이며 개인 narrative HOLD·원null·Pack0을 유지한다. 완료한 비교/검문을 반복하지 않는다. 다음은 **Duarte RFA1 + 만료 minimum5 =6개 입력**, 원Gamma/unsignedrights/비용6종의 유한 FY25 결합이다. 작성자의 원문 준비와 독립 검문자가 완료하면 followup_task로 다음 소비자 검문을 바로 시작한다. 장기 주요 좌표에 의존하는 승격만 HOLD. Goal ACTIVE·일정0·CLOSED.
