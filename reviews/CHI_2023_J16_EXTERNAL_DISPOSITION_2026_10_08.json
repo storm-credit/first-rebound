@@ -1,0 +1,71 @@
+{
+  "id": "CHI_2023_J16_EXTERNAL_DISPOSITION_2026_10_08",
+  "source_sha256": {
+    "reviews/CHI_2023_J16_PRIMARY_AGY_2026_10_08.json": "a113218181fcea9caffb3a782ef5d633868ccc826019f5eb6c20987ed88472d2",
+    "reviews/CHI_2023_J16_NLM_REGISTRATION_2026_10_08.json": "9d9776b4196bb2fb055d671e489e536e8b2211f1c2f1ddcdb7d28692557b1aec",
+    "reviews/CHI_2023_J16_NLM_ANALYSIS_2026_10_08.json": "22d862e5f59c9ee60290d08e1c632da47610de5c23702156f674c3c8e58a0f1b",
+    "reviews/CHI_2023_J16_CLAUDE_SOURCE_BLIND_2026_10_08.json": "6f97f492bbacb3dd5f97de532b13609a726fa86a22aad98199ff61cb9ddd3568",
+    "simulation/CHICAGO_2023_SELECTED_ROOKIE_EXECUTION.json": "61979a4edc201e314cf7e523393fbe3131f8d3eec547b530ede260729a791511",
+    "tools/build_chicago_2023_selected_rookie_execution.py": "f949407f7982d35837868f9b6ce995e31158f8b738db3f488c3cc7e7439b98c0",
+    "reviews/CHI_2023_SELECTED_ROOKIE_EXECUTION_G11_INDEPENDENT_REVIEW_2026_10_08.json": "2cec63e86be97c86429667a1907312c59833e6d374b5cfc4617491abe337ee6c"
+  },
+  "new_actual_cli_runs": {
+    "AGY_seconds": 29.842,
+    "NLM_registration_seconds": 16.819,
+    "NLM_analysis_seconds": 62.349,
+    "Claude_seconds": 18.416
+  },
+  "roles": {
+    "AGY": "Historical Jaquez UCLA/MIA18 source collection only; answered BODY_READ, independent raw source body remains separate",
+    "NotebookLM": "One frozen selected-fiction source temporal/cost relation analysis, not primary facts or independent CBA proof",
+    "Claude": "Result only rebuttal, previous peer verdicts excluded",
+    "ROOT": "Compare allegations to physical contract/evaluate source and execute exact suspected risk controls"
+  },
+  "AGY_disposition": {
+    "historical_participation_and_MIA18_agrees_with_direct_NBA_UCLA_body": true,
+    "fictional_CHI16_inferred_from_original_MIA18": false,
+    "AGY_full_tool_body_independently_certified": false
+  },
+  "NotebookLM_disposition": {
+    "accepted": "14STD RT offer to separate signed15STD; normal same-claim replacement0, apron positive conditional delta and year4 linkage",
+    "bounded_correction": "Its June22 Normal/Apron delta0 table cannot certify zero current charges. Only rights/UPC delta0 and no new player cash are selected; June22 current registration/cost uncertified, FY23 forward normal1.2S remains positive.",
+    "supplied_source_analysis_is_independent_history": false
+  },
+  "Claude_disposition": [
+    {
+      "claim": "Year4 minimum untested",
+      "result": "PRESENTATION_AMBIGUITY_CLARIFIED_WITHOUT_NEW_LEGAL_DEFECT",
+      "evidence": "base_functions[3] and evaluate require derived S4=S3*767/500. All four M_y/S_y enter max and alpha<=6/5. Therefore M4<=6/5*S3*767/500. This means1.8408*S3, not1.8408*6/5*S3; reviewer proposed arithmetic multiplied the120percent factor twice."
+    },
+    {
+      "claim": "Uncapped RT alpha and negative apron delta",
+      "result": "REJECTED_AGAINST_ACTUAL_TYPED_DOMAIN_GUARD",
+      "evidence": "evaluate has explicit assert alpha<=6/5 before computing delta. The admitted price family is constrained, not arbitrary positive minima; impossible minimum is rejected, not certified legal."
+    }
+  ],
+  "explicit_contract_domain": {
+    "S4": "S3*767/500",
+    "M4_bound": "M4<=6/5*S3*767/500",
+    "RT_alpha": "max(4/5,max(M_y/S_y for y1..4)); admissible only if <=6/5",
+    "apron_delta": "(6/5-alpha_RT)*S1>=0 for the admitted domain",
+    "actual_NBA_prepared_cents_certified": false
+  },
+  "actual_specific_risk_controls": [
+    {
+      "case": "YEAR4_UNLINKED_SCALE",
+      "result": "REJECTED",
+      "diagnostic": "Year4 scale reference must preserve source53.4% linkage"
+    },
+    {
+      "case": "YEAR4_MINIMUM_EXCEEDS_120_PERCENT",
+      "result": "REJECTED",
+      "diagnostic": "No lawful120percent RSC below statutory minimum"
+    }
+  ],
+  "synthetic_positive_math_example_is_actual_scale": false,
+  "frozen_parent_sources_rewritten": false,
+  "whole_macro3_or_G16_or_G14_complete_by_external_answer": false,
+  "manuscript_allowed": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED"
+}

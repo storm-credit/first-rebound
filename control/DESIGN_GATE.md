@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-08 [3번 유한 계약·cap·픽 종료](../reviews/MACRO3_FINITE_CLOSEOUT_AND_J16_ADOPTION_2026_10_08.md): PR501main 보존. 원7명·2021hardcap/2022후속/2023sixcost·J16권리→Tender→RSC15STD·LM1/원Γ/holdonce/후년의무를 독립검문하여 3번 완료. 정확사적장부/센트·전역60후손·미래커리어 인증0. AGY29.842/NLM등록16.819·분석62.567/Claude18.416초 신규답회수·표현한정 및 실제위험거부 확인. 다음4번 A10계약·역할창 계속. 60기능/42경로/미경로0·전체막/Pack0은미완료. 미완료4/6번까지3·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래는이전이력이다.
+
 2026-10-08 [2023 계약·추첨·60기능 현행 채택](../reviews/2023_CONTRACT_DRAW_AND_WHOLE_ACT_CONTINUATION_ADOPTION_2026_10_08.md): PR500main 보존. 루틴 날짜별 계약/비용6종·LaMelo LM1·MEM/ORL/CHA/CLE추첨·CHI16 Jaquez 선택을 기록·검문했다. 60기능/42소막 경로/미경로0/source116·A06/A08/A09 현시즌 인계 수용. 원정본/57기능·보호채무 보존. 전체막의 미래 역사·최종회차·G13/G14/Pack0은 미완료. 원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·GoalACTIVE·일정등록0. 아래는 이전이력이다.
 
 2026-10-08 [2023 PO·CHI16번·8기능 채택](../reviews/NBA_2023_POSTSEASON_DRAFT_AND_EIGHT_FUNCTION_ADOPTION_REVIEW_2026_10_08.md): PR499main 보존.30순위/6playin/16PO14lottery·CHI8→MIL1,15시리즈93가상경기/2161동시구간/충돌0·CHI0–4/MIL4–3UTA/가상6월16일을독립검문. 명명보존가족CHI1R1/2R0·자체16번/STD예약1·N23/A23양수미가격/null≠0. 원49불변→57기능/39경로/미경로3/source111·계획미배정723은사건의무아님. AGY70.994/NLM21.468·112.372/Claude19.126초답회수·문구/caller/인물연속성수리. 2023 계약창 독립검문/루틴 가상선택 Coby12m×3+법정최소4·14STD+신인예약1 완료, 날짜별 비용소비자·신인/전역픽·장기커리어·전체G13/G14미완료. Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·GoalACTIVE·일정등록0. 아래는 이전이력이다.
@@ -117,7 +119,7 @@ last_reviewed: 2026-09-12
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / NBA81.54_PERCENT / EPISODE_OUTLINES_0 / VERIFIED_FINAL_FUNCTIONS_19 / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / VERIFIED_LOCAL_FUNCTIONS_60 / ROUTED_SUBACTS_42 / UNROUTED_0 / WHOLE_ACT_HISTORY_AND_FINAL_ALLOCATION_HOLD |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
