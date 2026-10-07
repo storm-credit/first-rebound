@@ -1,0 +1,26 @@
+{
+  "tool": "Claude",
+  "scope": "LIMITED_RESULT_ONLY_EDITORIAL_BLIND_WITH_TEMPORARY_SAFE_MODE",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 11.304,
+    "process_budget_seconds": 55,
+    "stdout_sha256": "d016d56f4eb41d4e3e8cdf7ddc4ad0752383a6dffa2c177647e1819703592193",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw_logs_retained": false
+  },
+  "invocation_config": "safe-mode temporarily disables hooks/plugins/MCP/customizations; authentication unchanged; no persistent setting edit",
+  "prompt_sha256": "411e116dea0afadbaa8e47dc530fbe6438cff25af53690197f8841a88511a770",
+  "input_normalized_sha256": {
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "92192d0edbf36f14f066a8ed261a9edddbacb2acd771ccbe66c6a395330f90e5"
+  },
+  "input_snapshot_commit": "d3cfdfc",
+  "input_supplied": "Summary and method/scope only; full source tables, prior reports and author recommendation not supplied.",
+  "answer": "```json\n{\n  \"scope\": \"result-only critique; fictional Chicago single club; manuscript closed\",\n  \"basis\": \"72/82 regulation winners (45 CHI / 27 opp), 10 unknown, scores and OT null\",\n  \"risks\": [\n    {\n      \"id\": \"R1\",\n      \"name\": \"Win total not yet a standing\",\n      \"detail\": \"45 known CHI wins plus 10 unknown games bound the record to 45-37 through 55-27. Any closeout must publish the range, not a point total, and must not let a provisional figure propagate into seed, tiebreak, or lottery order.\"\n    },\n    {\n      \"id\": \"R2\",\n      \"name\": \"Null scores block derived metrics\",\n      \"detail\": \"With original scores and OT null, point differential, SRS, margin-based tiebreakers, and OT-split records are unavailable. Closeout should mark these fields undefined rather than impute from the BPM/EB model, whose minutes are verified only on consumed dates.\"\n    }\n  ],\n  \"status\": \"standings, draft, full-season unfinished\"\n}\n```",
+  "answer_recovered": true,
+  "is_error": false,
+  "prior_timeout_cause_established": false,
+  "independent_primary_source_count": 0,
+  "whole_G16_certified": false
+}

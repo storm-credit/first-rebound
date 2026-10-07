@@ -1,0 +1,49 @@
+{
+  "id": "CHI82_SEVENTYTWO_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_72_OF_82_SELECTED_FICTIONAL_REGULATION_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "3697eeb0f7f413888d6fb37a4b41f9639fcf105d5c88bee95e5af1c35413d870",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "92192d0edbf36f14f066a8ed261a9edddbacb2acd771ccbe66c6a395330f90e5",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "f1ce12ed26b27a71c39695efc5b8de4534ceecb94caaa7305b7b1a8b194a7a99",
+    "reviews/MEM_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "bc28c4f26c39427775974365368235e3ef4cd4874740481b7dca7219b2ba4a81",
+    "reviews/MIL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "e9ebfe0dbe17329bc108f5d233f24062679905119af550538241c3407f401df8",
+    "reviews/OKC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "1b6b65acd12bf0c380300fdb4b44f34d4b0602626b83bfa03171d94599cb3d00"
+  },
+  "direct_checks": {
+    "source_bound_saved_reconstruction": "Saved ledger equals one fresh source-bound build and Markdown render; current source/review fingerprints agree.",
+    "physical_calendar_and_health": "All 82 unique game IDs preserve exact dated predecessor home, away, opponent and selected Chicago health state.",
+    "new_results": "Memphis 2, Milwaukee 4 and Oklahoma City 2 each match physical source game ID, date, home/away, Chicago state, winner and current independent peer pointer.",
+    "selected_named_result_source_review_groups": 26,
+    "selected": 72,
+    "Chicago_working_wins": 45,
+    "opponent_working_wins": 27,
+    "remaining": 10,
+    "remaining_is_exact_calendar_order_complement": true,
+    "remaining_game_ids": [
+      "0022100742",
+      "0022100812",
+      "0022100843",
+      "0022100861",
+      "0022100878",
+      "0022101026",
+      "0022101041",
+      "0022101056",
+      "0022101098",
+      "0022101224"
+    ],
+    "next_game_id": "0022100742",
+    "next_date": "2022-01-28",
+    "previous_64_review_preserved_as_immutable_main": "5d8b057f057f7611531868296035d20b9b449729",
+    "temporary_66_and_70_not_promoted_as_historical_reviews": true
+  },
+  "independent_negative_control": {
+    "mutation": "Returned Memphis first selected winner changed from Chicago to Memphis while physical source JSON, date and pinned SHA stayed unchanged.",
+    "result": "REJECTED ValueError: Returned input differs from physical source: simulation/CHICAGO_MEMPHIS_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "limits": [
+    "Ten regulation results, final score/overtime, full standings and later draft pick remain unselected.",
+    "No real medical/contract receipts, entire private cost, whole macro3/G13/G14/G16 certification or manuscript authorization is inferred."
+  ]
+}
