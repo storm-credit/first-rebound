@@ -1,0 +1,67 @@
+{
+  "schema": "A03_CF01_ROLE_RESPONSE_WORKING_MODEL_V1",
+  "status": "SELECTED_ROUTINE_ROLE_RESPONSE_INDEPENDENTLY_REVIEWED",
+  "independent_review_completed": true,
+  "review_scope": "ONE_FILM_OBSERVATION_AND_ONE_LIMITED_ROLE_CHOICE_ONLY",
+  "scope": "A03_S1_FIRST_FAILURE_FILM_RESPONSE_AND_BOUNDED_TASK_CHOICE_ONLY",
+  "evidence_classes": {
+    "prior_registration_and_failure": "VALIDATED_FICTIONAL_DESIGN",
+    "V1_V2": "NEW_ROUTINE_FICTIONAL_DESIGN_SELECTION",
+    "real_college_film_or_coach_grade": "NOT_CERTIFIED"
+  },
+  "prior_exact_entry_trial_exit": "대학의 첫 허용된 제한 수비 연습에서 주인공은 공을 먼저 보느라 맡은 약한 쪽 도움 위치로 늦게 움직였고, 동료가 빈 공간을 메워야 했다. 그는 자기 과제의 가시적 결함만 확인했으며 출전 분·동료 신뢰·다음 훈련의 수정 성공은 아직 얻지 못했다. 여름 I3의 자격·컴플라이언스 완료는 유지되고, 학기 전체 학업 수행은 이 연습으로 증명되지 않는다.",
+  "prior_selected_I3_full_qualifier_retained": true,
+  "response": [
+    {
+      "id": "V1",
+      "source_event": "A03-R1 first supervised practice failure",
+      "authorized_access": "Protagonist sees only the permitted team-practice clip showing his late help-position move and the teammate covering that space.",
+      "observable_action": "He identifies the assigned help-space cue he missed in his own movement.",
+      "not_accessed": "Private coach grading, teammates’ inner thoughts, actual 2017 Villanova film or a real-game possession."
+    },
+    {
+      "id": "V2",
+      "source_event": "V1 observed own late cue",
+      "choice": "He accepts a bounded next supervised reserve-forward task: check the agreed help-space cue and preserve the connection with the teammate before chasing his own showcase.",
+      "direct_present_cost": "He uses the permitted practice debrief and task-assignment time on his visible mistake and next limited task instead of seeking a personal showcase; existing academic duties continue.",
+      "observed_result": "The task is accepted, but the next repetition, teammate trust and game minutes have not yet been observed.",
+      "new_punishment_injury_or_school_cost_event": false
+    }
+  ],
+  "selected_design_exit_state": "주인공은 허용된 연습 영상에서 자신이 도움 위치로 늦게 움직여 동료가 빈 공간을 메운 모습을 확인했다. 그는 출전 분을 요구하는 대신 다음 허용 훈련의 좁은 도움 위치·동료 연결 과제를 맡겠다고 선택하고, 이번 연습의 영상 검토·다음 과제 확인 시간을 자기 과시 대신 쓴다. 다음 역할 훈련의 수행·반복 성공·동료 신뢰·공식 출전은 아직 관측되지 않았다.",
+  "CP2_S1_bounded_exit_candidate_supported": true,
+  "CP2_S1_whole_exit_or_final_episode_function_certified": false,
+  "next_candidate": {
+    "id": "A03-F02",
+    "status": "CONDITIONAL_NOT_EXECUTED",
+    "causal_need": "Repeat the accepted role in an observed permitted opportunity before teammates can rely on it.",
+    "repeat_success_or_minutes_increase_prepayment": false
+  },
+  "limits": {
+    "formal_college_game_or_box_score_claimed": false,
+    "real_2017_college_practice_or_private_film_certified": false,
+    "existing_I3_certification_revoked": false,
+    "new_roster_counter_or_starter_guarantee": false,
+    "new_representative_games": 0,
+    "A03_three_representative_function_cap_changed": false,
+    "A03_S2_trust_or_repeated_success_completed": false,
+    "academic_work_completed_by_film": false,
+    "new_academic_life_cost_event_added": false,
+    "whole_college_season_completed": false
+  },
+  "author_locked": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a03_cf01_role_response_working_model.py": "c148b9752f9f82569c7b39a70a0a2c59ff91d985accb2a481ea2d39719a9e3f0",
+    "design/A03_COLLEGE_ENTRY_WORKING_MODEL_2026_10_07.json": "36116352321939b36af0a8d1c6903ac74d61fa4f5849efe89b4921f478959d91",
+    "design/A03_CONDITIONAL_EPISODE_FUNCTIONS.json": "36c282f64e4fb2ba629ebffc367763d16a659653284c2747c88979aa84bb13b2",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/COLLEGE_ARC_SCOPE_GATE.md": "917fa965f9d6f4e0c639db154f54baa3dd22bc83dbf0aa1bf6990bdce01e0406"
+  }
+}
