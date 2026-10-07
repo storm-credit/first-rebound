@@ -1,0 +1,24 @@
+{
+  "id": "CHA_MIA_CALEB_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_NARROW_CALEB_OWNER_CORRECTION_WITH_THREE_RESULTS_UNCHANGED",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_cha_2021_keeper_and_chicago_selected_results.py": "d1561ac6b5db6b334ad9b4fe7f0891d8ef4cd5faa1858e87ff3c643e2823601c",
+    "simulation/CHICAGO_CHARLOTTE_2021_22_SELECTED_KEEPER_RESULTS.json": "2bd7be0084130c019d53b875591fdf07e55773ef3536f6c2e9b329c68c7e2b4a",
+    "simulation/CHICAGO_CHARLOTTE_2021_22_SELECTED_KEEPER_RESULTS.md": "90c1728e57060bf19c6388f5731254203cea0dc831d4b0cbd5446cbc144f8df2",
+    "research/TORONTO_MIAMI_2021_SELECTED_ATOM_LEGAL_BRIDGE_2026_10_07.json": "719b2ff19583d6373a2c165988c9fc55b298fce3728dc8763df2d3f327357278"
+  },
+  "direct_owner_check": "The already selected Miami atom places Caleb Martin and Marcus Garrett in its two-way list. Corrected Charlotte standard list excludes Caleb and carries 14 names, with Cody Martin and Vernon Carey Jr. inactive. Charlotte models Caleb's prior nonassignment waiver as cleared before Miami's selected two-way agreement, preserves original protected salary, bonuses, earned Gamma and FA claims, and selects no new stretch, setoff or assignment; the actual waiver receipt is null.",
+  "direct_clock_and_result_check": "The corrected role has 24 consecutive two-minute blocks, five distinct Charlotte players each block, 2880 game seconds, 14400 team player-seconds, 11 positive players and 12 active. The three existing Chicago wins remain at +6.666478652203041, +2.66647865220304 and +7.166478652203041 per 100 on Nov 29, Feb 9 and Apr 8, respectively. The prior peer's 15-standard classification is historical and does not describe this corrected 14-standard selected family.",
+  "currentness": "Saved producer validate returned [] with the current corrected JSON and MD.",
+  "independent_negative_control": {
+    "mutation": "Returned selected Miami atom removed Caleb Martin from its two-way list while pinned physical bytes were unchanged.",
+    "result": "REJECTED ValueError Returned physical source differs research/TORONTO_MIAMI_2021_SELECTED_ATOM_LEGAL_BRIDGE_2026_10_07.json"
+  },
+  "prior_review_preserved": "reviews/CHA_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json remains unchanged and must not be used as the current source pin after the Caleb correction.",
+  "limits": [
+    "No real waiver receipt, Miami or Charlotte private contract amount, actual clinical fact, score, overtime or other Charlotte result is certified.",
+    "This review does not itself select a cumulative Chicago result ledger entry; root owns that join."
+  ]
+}

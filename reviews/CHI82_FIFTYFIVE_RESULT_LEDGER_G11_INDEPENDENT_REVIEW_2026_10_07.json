@@ -1,0 +1,39 @@
+{
+  "id": "CHI82_FIFTYFIVE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_55_OF_82_SELECTED_FICTIONAL_REGULATION_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "c7d0cbd4dc262df26d7dd5539dcf802fca5dfe141c295c33c4edfdc46c9ae55b",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "43114db9da8dd0ea1f39a3b4bb5c1be2a717e828a81a774f8a640bb1f1d710af",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "5740ceef0d916b710f2e90c7e752badfcab165de5f7c35cbccbace88cabd4739",
+    "reviews/CHA_MIA_CALEB_OWNER_CORRECTION_G11_INDEPENDENT_REVIEW_2026_10_07.json": "744a2461e4455e788acd5baf13c2f0b2f07dd62f6febe658ba51a39ce417a146",
+    "reviews/MIA_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "e9a563b4217a4d3e9c6f534f0058e9203f8dcf47d6fc3a2bfa910ac381afbae4",
+    "reviews/CLE_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "1e86e5066f30c6278c3aa06cd4159b9e6bb2e2aeeacebb5629f687edae0ca5d0"
+  },
+  "direct_checks": {
+    "source_bound_saved_reconstruction": "Saved ledger equals fresh build; all current parent hashes and peer pointers match.",
+    "physical_calendar_and_health": "All 82 game IDs are unique and retain the exact physical predecessor date, home, away and selected Chicago health state.",
+    "new_results": "Charlotte 3, Miami 4 and Cleveland 4 each match their selected source game ID, date, home/away, Chicago state and winner, with exact current correction or new peer pointers.",
+    "selected_named_result_source_review_groups": 20,
+    "selected": 55,
+    "Chicago_working_wins": 34,
+    "opponent_working_wins": 21,
+    "remaining": 27,
+    "remaining_is_exact_calendar_order_complement": true,
+    "next_game_id": "0022100502",
+    "next_date": "2021-12-27",
+    "cross_owner_scope": "Current selected keeper standard/two-way lists plus NYK named contract/two-way family, Miami selected atom 14+2 and Chicago A 15+2 yield no different-team ownership overlap after duplicate same-team source representations are collapsed. Markieff is Miami, Caleb is Miami two-way, Caruso is Chicago, McGee and Kuminga are Cleveland.",
+    "previous_44_review_preserved_as_immutable_main": "5ee051c02c364eae950d390cc7611b3ef8c4a88a",
+    "temporary_47_and_51_not_promoted_as_historical_reviews": true
+  },
+  "independent_negative_control": {
+    "mutation": "Returned Miami first selected winner was flipped from Chicago to Miami while the reviewed physical source and date stayed unchanged.",
+    "result": "REJECTED ValueError Returned input differs from physical source: simulation/CHICAGO_MIAMI_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "limits": [
+    "The remaining 27 winners, full standings, draft pick and any score or overtime are not selected.",
+    "Named owner comparison is limited to consumed selected inputs; it does not certify all NBA contracts, medical facts or private cost accounts.",
+    "Whole macro3, G13, G14, G16 and manuscript permission remain false."
+  ]
+}
