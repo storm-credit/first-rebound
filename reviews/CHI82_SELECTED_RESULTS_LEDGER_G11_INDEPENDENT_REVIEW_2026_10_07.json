@@ -1,0 +1,31 @@
+{
+  "schema": "CHI82_SELECTED_RESULTS_LEDGER_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_SEVEN_SOURCE_BOUND_WORKING_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "01a85f6ab8cc859b92e13af3393fafcfc1346f635bca4df082325fdd78eee7b0",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "67dd2114a30d53b670bcbb7bea6a14a477606ef50040b6f5f09ac9d68c0349c0",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "c401789222d73ceeed2fa96c50dcdd5f67565454b856117d0c6251f40b477782"
+  },
+  "independent_join": {
+    "source_groups": ["DET_HANDOFF_2", "TOR_BPM_4", "NOP_KEEPER_1"],
+    "calendar_original_keys": 82,
+    "selected_distinct_game_ids": 7,
+    "selected_game_ids_in_calendar_order": ["0022100004", "0022100022", "0022100030", "0022100046", "0022100472", "0022100430", "0022101076"],
+    "selected_chi_working_wins": 5,
+    "selected_opponent_working_wins": 2,
+    "remaining_distinct_game_ids": 75,
+    "remaining_ids_equal_calendar_complement": true,
+    "calendar_date_home_away_and_chi_state_equal_physical_inputs": true,
+    "next_unselected_game_id": "0022100067",
+    "next_unselected_date": "2021-10-28"
+  },
+  "actual_mutation_control": {
+    "mutation": "Patched ledger read() to return TOR first selected_regulation_winner=CHI while leaving the physical TOR result unchanged",
+    "outcome": "REJECTED",
+    "reason": "Returned input differs from physical source: simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json"
+  },
+  "scope": "Seven source-bound fictional regulation winners only. The other 75 games, scores, overtime, whole-season result, later pick, and private health or contract facts are not certified by this ledger review.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}

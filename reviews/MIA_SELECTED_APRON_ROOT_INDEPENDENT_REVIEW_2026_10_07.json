@@ -1,0 +1,47 @@
+{
+  "id": "MIA_SELECTED_APRON_ROOT_INDEPENDENT_REVIEW",
+  "reviewer": "root distinct from g11 writer; root repaired two helper-return component defects",
+  "input_normalized_sha256": {
+    "tools/build_miami_2021_selected_apron_closure.py": "08d7e7fe1a100f4f574a5afdc05e4d0e4475abd72f2f96c67923dce22e044a90",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.md": "ecd809f752ccbf0995558dab4be96f37daf1698428a183946c13180a20a19a9a"
+  },
+  "direct_public_row_and_CBA_scope": {
+    "current_named_standard_players": 14,
+    "external_raw_source_files": 21,
+    "prior_named_bonus_bound": 424050,
+    "current_reported_cap_sum": 131044862,
+    "Ryan_Anderson_conservative": 5214584,
+    "Yurtseven_apron_uplift": 180113,
+    "selected_adjusted_sum": 136439559,
+    "apron": 143002000,
+    "selected_slack": 6562441
+  },
+  "before_guard_injection": [
+    {
+      "mutation": "Herro_current_likely_bonus_deleted_cap_unchanged",
+      "result": "FALSE_PASS"
+    },
+    {
+      "mutation": "Bam_prior_earned_bonus_bound_deleted",
+      "result": "FALSE_PASS"
+    }
+  ],
+  "after_caller_repair_same_injection": [
+    {
+      "mutation": "Herro_current_likely_bonus_deleted_cap_unchanged",
+      "result": "REJECT",
+      "guard": "Returned named cap/bonus differs from physical public row: Tyler Herro"
+    },
+    {
+      "mutation": "Bam_prior_earned_bonus_bound_deleted",
+      "result": "REJECT",
+      "guard": "Returned prior earned-cost bound differs from reviewed source: Bam Adebayo"
+    }
+  ],
+  "portability_repair": "Repository parent pin now UTF8 LF SHA; external bytes remain raw. Raw parent fde06e10 and normalized719b2ff1 are same source content, not independent evidence.",
+  "verdict": "ACCEPT_SELECTED_FICTIONAL_REPORTED_TERMS_APRON_FAMILY_WITH_PRESERVED_PRIOR_YEAR_LIABILITIES",
+  "actual_private_Gamma_or_NBA_receipt_certified": false,
+  "whole_macro3_or_G16_certified": false,
+  "manuscript_allowed": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "TOR4_BPM_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_FOUR_WORKING_WINNERS_WITH_SOURCE_BOUND_CLOCK_REPAIR",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_toronto_2021_22_selected_bpm_results.py": "54600658a217b87be98ee26276e70a241ed7cc49002fd2d2ee825a2e8cc9e871",
+    "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json": "333f5bd496ed59260d21e26bb42615b13cb0a11560409a798c9f905cfe66dac6",
+    "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.md": "db9a1cb327ba0b9673fd840a10a33e7dff70043e8f5d5344952ccaf0c856f5f6"
+  },
+  "probe_hash_method": "RAW_BYTES_SHA256",
+  "reviewed_tool_sha256_at_probe": "5b6c856cbad1a20de76543ee462d71a180056cd4f5e3fe830a9efdc2b1f39db7",
+  "reviewed_output_sha256_at_probe": "6b948ecf7d2d29f76bbb8dc4a3cdd69419b673f8245a40aa0789b45fd547006a",
+  "consumed_miami_selected_apron_json_sha256": "ac15d9b0e36556e977b266c3d18757a21632308fd83c0daee4d578df787c7841",
+  "consumed_miami_selected_apron_json_sha256_method": "RAW_BYTES_SHA256",
+  "consumed_miami_selected_apron_json_normalized_sha256": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+  "independent_numeric_checks": {
+    "source": "CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv, NBA_2021_22_REGULAR_BASELINE.csv, saved TOR4 individual seconds",
+    "method": "Separately recomputed 5-rookie median, each player's prior BPM * archive minutes/(minutes+1000), 2880-second weighted team values, home +/-2, previous-calendar-day back-to-back +/-0.5",
+    "game_ids_in_order": ["0022100046", "0022100472", "0022100430", "0022101076"],
+    "selected_winners_recomputed": ["TOR", "CHI", "TOR", "CHI"],
+    "saved_exact_margins_and_winners_match": true,
+    "source_result_score_or_OT_imported": false
+  },
+  "actual_mutation_controls": [
+    {
+      "mutation": "sources() returned archive first row observed_through=2021-11-01",
+      "outcome": "REJECTED",
+      "reason": "Returned source differs from physical source: simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv"
+    },
+    {
+      "mutation": "selected_chi_clock() returned 2021-10-25 positions with the two 120-second blocks at indices 2 and 3 interchanged, preserving all player totals and winner",
+      "outcome": "REJECTED_AFTER_REPAIR",
+      "reason": "Returned CHI positions/order differs from physical selected block sequence",
+      "repair_scope": "Current producer compares returned positions at every second of the selected 2880-second physical block order. It still models a working sequence, not actual historical rotation."
+    }
+  ],
+  "legal_or_health_claim": "NOT_REVIEWED_HERE; separate Miami apron and Toronto role source reviews",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}
