@@ -1,0 +1,119 @@
+{
+  "id": "MACRO3_2023_CBA_BOUNDARY_DEN_INDEPENDENT_REVIEW",
+  "reviewer": "den_pick_full_branch",
+  "baseline_main": "15e0e1f2edcc9862b096cc190b752aecbe3aca31",
+  "verdict": "ACCEPTED_NARROW_DATED_LEGAL_CONSUMERS_AFTER_TWO_ACTUAL_RETURNED_FAULT_REPAIRS",
+  "reviewed_source_sha256": {
+    "tools/build_macro3_2023_cba_boundary_bridge.py": "61b8eff8078e0c20a808431b41424286df10ca401ede4f2c4fb8caedbde758d4",
+    "research/MACRO3_2023_CBA_BOUNDARY_BRIDGE_2026_10_07.json": "404fde08b9d5fc9168b64f082c57a4ed6dff14711cf4d5990839267dc8a878f4",
+    "research/MACRO3_2023_CBA_BOUNDARY_BRIDGE_2026_10_07.md": "e293e97598bfcb5cd8fd5a42c0595a3d4dfe554a4ccd1dc97973c86cf76cf2f1",
+    "research/MACRO3_2023_CBA_BOUNDARY_PRIMARY_SOURCES_2026_10_07.json": "59b03c494187eb29177640806ae97427a837abff38bf4516f588758fc87a0112",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "research/SIMONOVIC_2022_23_SELECTED_RIGHTS_FAMILY_2026_10_07.json": "c404fc401f6c30809ed5098663dd2b277b1c4cb7844d15c697991460f1290ac4",
+    "tools/build_chicago_long_core_cba.py": "415d5bc239e590a30e46f8cfd5dca2149c2b7f1df25d6bb25aef8f681c4fc693",
+    "simulation/CHICAGO_LONG_CORE_CBA_INPUTS.json": "7985e65cb5e184356aead888d4f016aca187dd2dd3185ea6de76527a6937fe0c"
+  },
+  "hash_method": "Repository UTF8 BOM stripped LF; primary raw bytes and pypdf text separately",
+  "direct_primary_evidence": {
+    "CBA_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+    "CBA_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "manifest_pages_directly_read_and_hashed": [
+      60,
+      62,
+      64,
+      65,
+      89,
+      90,
+      211,
+      212,
+      214,
+      215,
+      219,
+      220,
+      270,
+      278,
+      456
+    ],
+    "all15_page_hashes_matched": true,
+    "supplemental_direct_raise_rule_pages": {
+      "251": "0e903ec55edbca655e7bfbdc6864458880390e7751330e31bb7744205e45dd40",
+      "252": "af84ba5783ab1ba62e9349fb66c34eb2b90651b75189ff82bb61219648b83b9b"
+    },
+    "NBPA_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\nbpa.html",
+    "NBPA_raw_sha256": "f2720875df41b5bc8e571193235824c51899eb639c5f19cfba4d58cdde3af3f7",
+    "NBPA_effective_boundary_body_directly_read": true,
+    "NBA_announcement": {
+      "url": "https://pr.nba.com/nba-salary-cap-for-2023-24-season-set-at-136-021-million/",
+      "reading": "Independent web open of official release paragraphs on June30 negotiation18ET/July6noon and cap/tax/aprons",
+      "original_direct_HTTP403_not_successful_body": true,
+      "provider_HTML_bytes_certified": false
+    }
+  },
+  "accepted_semantics": [
+    "2017 operative throughJune30; new2023 fromJuly1. CobyJune29 QO is an old2017 consumer, not recomputed automatically.",
+    "Moratorium endJuly6noon is distinct from VII7b1 rookieextension opening12:01. October24 is an explicit test parameter, not adopted calendar.",
+    "II7c/d first-extended2024 cap25/30 and HigherMax input are conditional references, not honors/contract selections; VII5a3 raises use initial extended salary, not compound increments.",
+    "VII2e5 exempts2023-24 F-J currentyear; VII2e2ii preserves relevant post-regular nextyear restriction. New2024 rules are not retroactive.",
+    "Newsecondroundexception requires heldright/draftrookie/noexistingUPC; test does not sign an actual contract.",
+    "2024+ frozenpick and2023-24 general65-game eligibility are not applied to earlier2022-23 awards. No awards or futurepick ordinals selected."
+  ],
+  "actual_independent_faults": [
+    {
+      "id": "LM_SAME_TOTAL_YEAR2_PLUS100000_YEAR3_MINUS100000",
+      "before_repair": "patched return -> build succeeded and validate(bad)==[]",
+      "before_repair_snapshot_sha256": null,
+      "before_hash_unavailable_reason": "Exact counterexample observed before repair; final hash captured after root repair, not misattributed to former code.",
+      "after_repair_rejected": true,
+      "after_repair_message": "Returned LM1 salary schedule loses first-year-based annual raises"
+    },
+    {
+      "id": "H_POST_REGULAR_2024_NEXT_YEAR_SECOND_TO_NONE",
+      "before_repair": "patched return -> build succeeded and validate(bad)==[]",
+      "before_repair_snapshot_sha256": null,
+      "before_hash_unavailable_reason": "Exact counterexample observed before repair; final hash captured after root repair, not misattributed to former code.",
+      "after_repair_rejected": true,
+      "after_repair_message": "Returned table loses dated current/next-year CBA restriction"
+    }
+  ],
+  "original_writer_controls_counted_as_independent": false,
+  "whole_ancestor_constructor_runs": 0,
+  "remaining_finite_inputs": [
+    "Bind actual selected2021-22 and2022-23 results/rosters/availability consumed by contract triggers.",
+    "Coby exactscale/starter branch and valid2017 June29 QO, plus later current signing/cost family.",
+    "LaMelo second-option/QualifyingVeteran, actual selected extension mechanism and supplied first-extended cap/honors inputs.",
+    "Source-selected2022/2023 rights and operation-specific apron events. Existing prepared law functions are not a new permission gate."
+  ],
+  "actual_contracts_selected_by_this_bridge": 0,
+  "whole_macro3_or_G16_certified": false,
+  "actual_private_receipts_or_consents_certified": false,
+  "core_or_GATE_modified": false,
+  "freeze": "v0.30 PARTIAL",
+  "gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript_count": 0,
+  "root_found_additional_edge": {
+    "id": "SECOND_ROUND_EXCEPTION_JULY1_NOON_BEFORE_1201",
+    "discovered_by": "root",
+    "independent_verification_only": [
+      {
+        "at_ET": "2023-07-01T12:00:00",
+        "allowed": false
+      },
+      {
+        "at_ET": "2023-07-01T12:01:00",
+        "allowed": true
+      }
+    ],
+    "primary_rule": "2023CBA II15b; PDF89 b-opening plusPDF90 b(iii)",
+    "not_counted_as_original_independent_falsePASS": true,
+    "prior_two_repaired_faults_not_rerun": true
+  },
+  "old_Claude_record_boundary": {
+    "input_JSON_sha256": "1e24c6fb4d899c196b600177061cefa35a2bad0766bea7642c9f3d85a53e5361",
+    "owned_timeout_seconds_reported_by_root": 55.074,
+    "answers": 0,
+    "is_PASS": false,
+    "is_current_head_review": false,
+    "actual_run_independently_repeated": false
+  }
+}

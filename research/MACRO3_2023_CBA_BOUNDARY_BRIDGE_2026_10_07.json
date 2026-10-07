@@ -1,0 +1,256 @@
+{
+  "id": "MACRO3_2023_CBA_BOUNDARY_BRIDGE",
+  "baseline_main": "15e0e1f2edcc9862b096cc190b752aecbe3aca31",
+  "classification": "PRIMARY_SOURCE_DATED_LEGAL_APPLICABILITY_AND_CONDITIONAL_CONSUMER_FUNCTIONS",
+  "source_sha256": {
+    "research/MACRO3_2023_CBA_BOUNDARY_PRIMARY_SOURCES_2026_10_07.json": "59b03c494187eb29177640806ae97427a837abff38bf4516f588758fc87a0112",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "research/SIMONOVIC_2022_23_SELECTED_RIGHTS_FAMILY_2026_10_07.json": "c404fc401f6c30809ed5098663dd2b277b1c4cb7844d15c697991460f1290ac4",
+    "tools/build_chicago_long_core_cba.py": "415d5bc239e590a30e46f8cfd5dca2149c2b7f1df25d6bb25aef8f681c4fc693",
+    "simulation/CHICAGO_LONG_CORE_CBA_INPUTS.json": "7985e65cb5e184356aead888d4f016aca187dd2dd3185ea6de76527a6937fe0c",
+    "tools/build_macro3_2023_cba_boundary_bridge.py": "61b8eff8078e0c20a808431b41424286df10ca401ede4f2c4fb8caedbde758d4"
+  },
+  "facts": {
+    "2017_through": "2023-06-30",
+    "2023_from": "2023-07-01",
+    "NBA_announcement": {
+      "url": "https://pr.nba.com/nba-salary-cap-for-2023-24-season-set-at-136-021-million/",
+      "access": "WEB_ATTRIBUTED_BODY_READ_DIRECT_HTTP403",
+      "raw_body_bytes_certified": false,
+      "published": "2023-06-30",
+      "reference_only": {
+        "cap": 136021000,
+        "tax": 165294000,
+        "first_apron": 172346000,
+        "second_apron": 182794000
+      },
+      "free_agency_negotiation_start_ET": "2023-06-30T18:00:00",
+      "moratorium_end_ET": "2023-07-06T12:00:00",
+      "fictional_cap_or_private_contract_certified": false
+    },
+    "rookie_extension_opens_ET": "2023-07-06T12:01:00",
+    "rookie_extension_deadline": "18:00 ET on day before first regular day of second option year; caller must bind actual chosen season calendar",
+    "source_pdf_pages": [
+      60,
+      62,
+      64,
+      65,
+      89,
+      90,
+      211,
+      212,
+      214,
+      215,
+      219,
+      220,
+      270,
+      278,
+      456
+    ]
+  },
+  "contract_boundary_tests": [
+    {
+      "at_ET": "2023-06-29T12:00:00",
+      "operative": "2017_OPERATIVE"
+    },
+    {
+      "at_ET": "2023-06-30T23:59:59",
+      "operative": "2017_OPERATIVE"
+    },
+    {
+      "at_ET": "2023-07-01T00:00:00",
+      "operative": "2023_OPERATIVE"
+    }
+  ],
+  "extension_boundary_tests": [
+    {
+      "at_ET": "2023-07-06T12:00:00",
+      "allowed": false,
+      "first_regular_day_test_parameter": "2023-10-24"
+    },
+    {
+      "at_ET": "2023-07-06T12:01:00",
+      "allowed": true,
+      "first_regular_day_test_parameter": "2023-10-24"
+    },
+    {
+      "at_ET": "2023-10-23T18:00:00",
+      "allowed": true,
+      "first_regular_day_test_parameter": "2023-10-24"
+    },
+    {
+      "at_ET": "2023-10-23T18:00:01",
+      "allowed": false,
+      "first_regular_day_test_parameter": "2023-10-24"
+    }
+  ],
+  "apron_table_dated_tests": [
+    {
+      "at_ET": "2023-06-30T18:00:00",
+      "row": "H",
+      "after_salary_year_regular": true,
+      "rules": {
+        "status": "2017_CONSUMER_REQUIRED_NOT_2023_TABLE",
+        "current": null,
+        "next_year": null
+      }
+    },
+    {
+      "at_ET": "2023-07-06T12:01:00",
+      "row": "H",
+      "after_salary_year_regular": false,
+      "rules": {
+        "status": "APRON_TABLE_SCOPE_ONLY",
+        "current": null,
+        "next_year": null
+      }
+    },
+    {
+      "at_ET": "2024-06-23T12:00:00",
+      "row": "H",
+      "after_salary_year_regular": true,
+      "rules": {
+        "status": "APRON_TABLE_SCOPE_ONLY",
+        "current": null,
+        "next_year": "second"
+      }
+    },
+    {
+      "at_ET": "2024-07-06T12:01:00",
+      "row": "H",
+      "after_salary_year_regular": false,
+      "rules": {
+        "status": "APRON_TABLE_SCOPE_ONLY",
+        "current": "second",
+        "next_year": null
+      }
+    },
+    {
+      "at_ET": "2024-07-06T12:01:00",
+      "row": "G",
+      "after_salary_year_regular": false,
+      "rules": {
+        "status": "TRANSITION_TPE_ENDED_REQUIRES_OTHER_ROUTE",
+        "current": null,
+        "next_year": null
+      }
+    }
+  ],
+  "LaMelo_LM1_conditional_reference": [
+    {
+      "Higher_Max_parameter": false,
+      "percent": 25,
+      "reference_salary_by_year": [
+        35147000,
+        37958760,
+        40770520,
+        43582280,
+        46394040
+      ],
+      "sum": 203852600,
+      "cap_year_used": "2024-25_FIRST_EXTENDED_YEAR",
+      "actual_qualification_or_mutual_consent_certified": false,
+      "contract_selected": false
+    },
+    {
+      "Higher_Max_parameter": true,
+      "percent": 30,
+      "reference_salary_by_year": [
+        42176400,
+        45550512,
+        48924624,
+        52298736,
+        55672848
+      ],
+      "sum": 244623120,
+      "cap_year_used": "2024-25_FIRST_EXTENDED_YEAR",
+      "actual_qualification_or_mutual_consent_certified": false,
+      "contract_selected": false
+    }
+  ],
+  "LaMelo_higher_max_requirement": "II7(a),(c),(d): All-NBA or DPOY immediately prior or 2 of prior3; MVP1 of prior3. Contract mechanism depends on already-qualified status vs fourth-RSC-year conditional clause. All-Star alone is insufficient; no award, cap or contract chosen.",
+  "Coby_handoff": {
+    "QO_issue_by_2023_June29_under_2017_XI4": "UNEXECUTED: exact rookie-scale/YOS/starter tests and valid tender must be consumed from dated selected season",
+    "negotiation_before_moratorium_is_not_signed_UPC": true,
+    "July6_after_moratorium_retention_offer": "UNEXECUTED: lawful current signing mechanism/consent/current six-costs and membership still needed",
+    "QO_automatically_recomputed_by_2023_rules": false
+  },
+  "second_round_exception_tests": [
+    {
+      "case": "2022_NEW_RIGHT",
+      "allowed": false
+    },
+    {
+      "case": "2023_JULY1_NOON_BEFORE_WINDOW",
+      "allowed": false
+    },
+    {
+      "case": "2023_DRAFT_ROOKIE_WITH_RIGHT",
+      "allowed": true
+    },
+    {
+      "case": "WIESKAMP_ALREADY_NBA_CONTRACTED",
+      "allowed": false
+    }
+  ],
+  "awards_tests": [
+    {
+      "season_start_year": 2022,
+      "rules": {
+        "status": "65_GAME_RULE_NOT_APPLICABLE",
+        "count": null,
+        "result_selected": false
+      }
+    },
+    {
+      "season_start_year": 2023,
+      "rules": {
+        "status": "STANDARD_NOT_MET_EXCEPTION_OR_REVIEW_UNRESOLVED",
+        "count": 64,
+        "standard_met": false,
+        "injury_exception_met": false,
+        "challenge_approved": false,
+        "result_selected": false,
+        "actual_health_certified": false
+      }
+    }
+  ],
+  "frozen_pick_tests": [
+    {
+      "salary_year_start": 2023,
+      "rules": {
+        "status": "RULE_NOT_YET_ACTIVE",
+        "pick_year": null
+      }
+    },
+    {
+      "salary_year_start": 2024,
+      "rules": {
+        "status": "FROZEN_PENDING_CHRONOLOGICAL_INPUT",
+        "pick_year": 2032,
+        "first_unknown_season_start_year": 2025,
+        "exact_pick_number": null
+      }
+    }
+  ],
+  "preserved_FY22": {
+    "standard": 15,
+    "two_way": 2,
+    "apron_public_family_upper": 172483541,
+    "new_2023_rules_retroactively_applied": false,
+    "Simonovic_selected_overlay_retained": true,
+    "old_private_receipts_certified": false
+  },
+  "remaining_finite_inputs": [
+    "2021-22/2022-23 actual selected result model and consumed rosters/availability.",
+    "Coby QO exact admitted-scale/starter tests; signing family and FY23 named six-costs.",
+    "LaMelo fourth-option eligibility and exact chosen2023 extension; first-extended-year cap and qualifying honors not auto-historical.",
+    "2022/2023 selected draft and later assets; relevant operation-specific 2023/2024 apron tests."
+  ],
+  "new_contract_or_author_season_selections": 0,
+  "whole_macro3_complete": false,
+  "whole_G16_complete": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}
