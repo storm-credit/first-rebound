@@ -1,0 +1,1554 @@
+{
+  "id": "NBA_2022_NAMED_ASSET_CONTROL_MAP",
+  "baseline_main": "d74ffd6efcdb18a07285a23ea7a59a014400c32b",
+  "status": "SIXTY_SOURCE_BOUND_ORIGIN_PORTS_NAMED_PUBLIC_CONTROL_REPLAY_NOT_FINAL_ALLOCATION",
+  "source_sha256": {
+    "simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.json": "139c1d6a90d1bd7ee672020af96e03bf6767599637902c329b1e772fdfcf63d9",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json": "bf8087a89af09a817c0a3eb5d4df906a906575a56016c873912db00eccdca9db",
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "simulation/CHICAGO_NEW_ORLEANS_2021_SELECTED_KEEPER_RESULT.json": "d1975077c8879807d63763d77d58a2d89f8b481ec6c2964f0a6a9bf7a96138fd",
+    "simulation/CHICAGO_BROOKLYN_2021_22_SELECTED_KEEPER_RESULTS.json": "b29b621991a541396e952d2cdbbceda1a9025bbc9bc79598b8da3c735ae5743a",
+    "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json": "86b9989daa20eced72106c25b14fb8d8b3b32d201132a0b87ba466b0ce51fba0",
+    "tools/build_2022_named_asset_control_map.py": "a5f8abe7bf921bf1ae2185842ad93a79c94fc847a7c4943f9235fb5ca2d71fa8"
+  },
+  "primary_observations": [
+    {
+      "id": "NBA_APR18_ORDER",
+      "url": "https://api-hub.nba.com/news/nba-draft-2022-ties-broken-official-release",
+      "date": "2022-04-18",
+      "channel": "INDEXED_OFFICIAL_BODY_READ",
+      "web_ref": "turn2286search3",
+      "scope": "Origin/holder and forfeiture contrasts only; original ranks/results not transported.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_PG2019",
+      "url": "https://www.nba.com/thunder/news/acquisitions-190710",
+      "date": "2019-07-10",
+      "channel": "INDEXED_TEAM_BODY_READ_OPEN_IFRAME",
+      "web_ref": "turn2288search8",
+      "scope": "LAC2022 first toOKC unprotected.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_HARDEN2021",
+      "url": "https://www.nba.com/rockets/rockets-complete-three-team-trade",
+      "date": "2021-01-13",
+      "channel": "INDEXED_TEAM_BODY_READ_OPEN_IFRAME",
+      "web_ref": "turn2288search6",
+      "scope": "BKN2022 first toHOU; MIL2022 also acquired, subject to later Tucker return.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_TUCKER_RETURN",
+      "url": "https://www.nba.com/bucks/news/milwaukee-bucks-acquire-pj-tucker-and-rodions-kurucs-houston-rockets",
+      "date": "2021-03-19",
+      "channel": "INDEXED_TEAM_BODY_READ",
+      "web_ref": "turn2289search0",
+      "scope": "MIL2022 first returned toMIL; do not stop its chain at the January Harden event.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_MIL_PENALTY",
+      "url": "https://www.nba.com/news/nba-imposes-penalty-on-bucks-for-early-free-agency-discussions",
+      "date": "2020-12-21",
+      "channel": "INDEXED_OFFICIAL_BODY_READ",
+      "web_ref": "turn2291search0",
+      "scope": "Original Bogdanovic-timing sanction rescinds MIL2022 second. No selected-world causal determination.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_CHI_MIA_PENALTY",
+      "url": "https://www.nba.com/news/chicago-bulls-miami-heat-free-agency-violations",
+      "date": "2021-12-01",
+      "channel": "INDEXED_OFFICIAL_BODY_READ",
+      "web_ref": "turn2289search3",
+      "scope": "Next available second for CHI Lonzo and MIA Lowry discussions, not both original2022 own-origin seconds.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_LEVERT2022",
+      "url": "https://www.nba.com/news/cavaliers-pacers-caris-levert-ricky-rubio-trade",
+      "date": "2022-02-07",
+      "channel": "INDEXED_NBA_BODY_READ",
+      "web_ref": "turn2291search1",
+      "scope": "HOU2022 second CLE→IND and MIA2022 second IND→CLE belong to the unselected Rubio/LeVert event.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_AD2019",
+      "url": "https://www.nba.com/lakers/releases/190706-lakers-acquire-davis",
+      "date": "2019-07-06",
+      "channel": "INDEXED_TEAM_BODY_READ",
+      "web_ref": "turn2287search5",
+      "scope": "Completed prior AD asset family; exact first deferral predicate must remain condition-bearing.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_CP2020",
+      "url": "https://www.nba.com/news/reports-thunder-agree-to-trade-chris-paul-to-suns",
+      "date": "2020-11-16",
+      "channel": "INDEXED_NBA_BODY_READ",
+      "web_ref": "turn2287search4",
+      "scope": "Named PHX2022 first toOKC. Exact protection not recovered from this observation.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_CONLEY2019",
+      "url": "https://www.nba.com/news/report-grizzlies-trade-conley-jazz",
+      "date": "2019-06-19",
+      "channel": "INDEXED_NBA_REPORT_BODY_READ",
+      "web_ref": "turn2287search0",
+      "scope": "UTA prior2020/21 first conditional convey and later first; not actual alternate prior settlement.",
+      "raw_body_adopted": false
+    },
+    {
+      "id": "NBA_OKC2018",
+      "url": "https://www.nba.com/thunder/news/acquisitions-180725",
+      "date": "2018-07-25",
+      "channel": "INDEXED_TEAM_BODY_READ",
+      "web_ref": "turn2287search1",
+      "scope": "Named protected OKC2022 first toATL; exact fallback preserved as a condition port.",
+      "raw_body_adopted": false
+    }
+  ],
+  "direct_HTTP_failed_bytes_metadata": "C:/Users/Storm Credit/AppData/Local/Temp/fr-control2022-20261007/sources.json",
+  "failed403_bodies_adopted": false,
+  "typed_control_rows": [
+    {
+      "id": "ATL_2022_R1",
+      "origin": "ATL",
+      "round": 1,
+      "origin_rank_domain": [
+        19
+      ],
+      "historical_public_holder_contrast": "ATL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "ATL",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "BKN_2022_R1",
+      "origin": "BKN",
+      "round": 1,
+      "origin_rank_domain": [
+        23
+      ],
+      "historical_public_holder_contrast": "HOU",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_UNPROTECTED_PRIOR_FIRST",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_holder": "HOU",
+      "source": "NBA_HARDEN2021"
+    },
+    {
+      "id": "BOS_2022_R1",
+      "origin": "BOS",
+      "round": 1,
+      "origin_rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "historical_public_holder_contrast": "SAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER",
+      "required_input": "Replay prior public own-first family, retaining any existing burden; do not add the omitted outgoing atom.",
+      "all_hidden_claim_absence_required": false,
+      "keeper_holder": "BOS",
+      "omitted_event_reason": "White/Richardson/Langford event not selected."
+    },
+    {
+      "id": "CHA_2022_R1",
+      "origin": "CHA",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "historical_public_holder_contrast": "CHA",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "CHA",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "CHI_2022_R1",
+      "origin": "CHI",
+      "round": 1,
+      "origin_rank_domain": [
+        17,
+        18
+      ],
+      "historical_public_holder_contrast": "CHI",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_CHI_RETAINED_OWN_FIRST",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "CHI",
+      "source": "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "supported_holder": "CHI"
+    },
+    {
+      "id": "CLE_2022_R1",
+      "origin": "CLE",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "historical_public_holder_contrast": "CLE",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER",
+      "required_input": "Replay prior public own-first family, retaining any existing burden; do not add the omitted outgoing atom.",
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "CLE",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "keeper_holder": "CLE",
+      "omitted_event_reason": "Rubio/LeVert event not selected."
+    },
+    {
+      "id": "DAL_2022_R1",
+      "origin": "DAL",
+      "round": 1,
+      "origin_rank_domain": [
+        21
+      ],
+      "historical_public_holder_contrast": "DAL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "DAL",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "DEN_2022_R1",
+      "origin": "DEN",
+      "round": 1,
+      "origin_rank_domain": [
+        22
+      ],
+      "historical_public_holder_contrast": "DEN",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "DEN",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "DET_2022_R1",
+      "origin": "DET",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "historical_public_holder_contrast": "DET",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_T1_PROTECTED_FIRST",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "DET",
+      "source": "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "claim_holder": "OKC",
+      "current_underlying_pick_retained_by": "DET",
+      "protection2022": "1–16",
+      "protection_source": "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json#/conditional_return_claims/0/first_protection_by_year/2022"
+    },
+    {
+      "id": "GSW_2022_R1",
+      "origin": "GSW",
+      "round": 1,
+      "origin_rank_domain": [
+        17,
+        18
+      ],
+      "historical_public_holder_contrast": "GSW",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "GSW",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "HOU_2022_R1",
+      "origin": "HOU",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "historical_public_holder_contrast": "HOU",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "HOU",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "IND_2022_R1",
+      "origin": "IND",
+      "round": 1,
+      "origin_rank_domain": [
+        20
+      ],
+      "historical_public_holder_contrast": "IND",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "IND",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "LAC_2022_R1",
+      "origin": "LAC",
+      "round": 1,
+      "origin_rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "historical_public_holder_contrast": "OKC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_UNPROTECTED_PRIOR_FIRST",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_holder": "OKC",
+      "source": "NBA_PG2019"
+    },
+    {
+      "id": "LAL_2022_R1",
+      "origin": "LAL",
+      "round": 1,
+      "origin_rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "historical_public_holder_contrast": "NOP",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_PRIOR_PROTECTION_OR_ROLLOVER",
+      "required_input": "Preserved prior contract2022 protection/rollover allocation predicate plus prior2020/21 settlement where applicable. Exact numeric source still a finite input, not private full-ledger evidence.",
+      "all_hidden_claim_absence_required": false,
+      "claim_holder": "NOP",
+      "source": "NBA_AD2019"
+    },
+    {
+      "id": "MEM_2022_R1",
+      "origin": "MEM",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12,
+        13,
+        14
+      ],
+      "historical_public_holder_contrast": "MEM",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MEM",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "MIA_2022_R1",
+      "origin": "MIA",
+      "round": 1,
+      "origin_rank_domain": [
+        16
+      ],
+      "historical_public_holder_contrast": "MIA",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MIA",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "MIL_2022_R1",
+      "origin": "MIL",
+      "round": 1,
+      "origin_rank_domain": [
+        30
+      ],
+      "historical_public_holder_contrast": "MIL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_PRIOR_FIRST_RETURN",
+      "required_input": "Bind completedMarch19 common S2Tucker atomic return; January MIL→HOU is not the terminal holder.",
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MIL",
+      "source": "NBA_TUCKER_RETURN",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "keeper_holder": "MIL"
+    },
+    {
+      "id": "MIN_2022_R1",
+      "origin": "MIN",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "historical_public_holder_contrast": "MIN",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MIN",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "NOP_2022_R1",
+      "origin": "NOP",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "historical_public_holder_contrast": "CHA",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER",
+      "required_input": "Replay prior public own-first family, retaining any existing burden; do not add the omitted outgoing atom.",
+      "all_hidden_claim_absence_required": false,
+      "keeper_holder": "NOP",
+      "omitted_event_reason": "Graham and Adams/Bledsoe/JV optional atoms not selected."
+    },
+    {
+      "id": "NYK_2022_R1",
+      "origin": "NYK",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        13,
+        14
+      ],
+      "historical_public_holder_contrast": "NYK",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "NYK",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "OKC_2022_R1",
+      "origin": "OKC",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "historical_public_holder_contrast": "OKC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_PRIOR_PROTECTION_OR_ROLLOVER",
+      "required_input": "Preserved prior contract2022 protection/rollover allocation predicate plus prior2020/21 settlement where applicable. Exact numeric source still a finite input, not private full-ledger evidence.",
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "OKC",
+      "source": "NBA_OKC2018",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "claim_holder": "ATL"
+    },
+    {
+      "id": "ORL_2022_R1",
+      "origin": "ORL",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "historical_public_holder_contrast": "ORL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "ORL",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "PHI_2022_R1",
+      "origin": "PHI",
+      "round": 1,
+      "origin_rank_domain": [
+        28
+      ],
+      "historical_public_holder_contrast": "PHI",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER",
+      "required_input": "Replay prior public own-first family, retaining any existing burden; do not add the omitted outgoing atom.",
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "PHI",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification.",
+      "keeper_holder": "PHI",
+      "omitted_event_reason": "Harden/Simmons event not selected."
+    },
+    {
+      "id": "PHX_2022_R1",
+      "origin": "PHX",
+      "round": 1,
+      "origin_rank_domain": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "historical_public_holder_contrast": "OKC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_PRIOR_PROTECTION_OR_ROLLOVER",
+      "required_input": "Preserved prior contract2022 protection/rollover allocation predicate plus prior2020/21 settlement where applicable. Exact numeric source still a finite input, not private full-ledger evidence.",
+      "all_hidden_claim_absence_required": false,
+      "claim_holder": "OKC",
+      "source": "NBA_CP2020"
+    },
+    {
+      "id": "POR_2022_R1",
+      "origin": "POR",
+      "round": 1,
+      "origin_rank_domain": [
+        15
+      ],
+      "historical_public_holder_contrast": "POR",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "POR",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "SAC_2022_R1",
+      "origin": "SAC",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "historical_public_holder_contrast": "SAC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "SAC",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "SAS_2022_R1",
+      "origin": "SAS",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        14
+      ],
+      "historical_public_holder_contrast": "SAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "SAS",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "TOR_2022_R1",
+      "origin": "TOR",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        14
+      ],
+      "historical_public_holder_contrast": "SAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER",
+      "required_input": "Replay prior public own-first family, retaining any existing burden; do not add the omitted outgoing atom.",
+      "all_hidden_claim_absence_required": false,
+      "keeper_holder": "TOR",
+      "omitted_event_reason": "Young staysCHI; Dragic/Young event not selected."
+    },
+    {
+      "id": "UTA_2022_R1",
+      "origin": "UTA",
+      "round": 1,
+      "origin_rank_domain": [
+        29
+      ],
+      "historical_public_holder_contrast": "MEM",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "NAMED_PRIOR_PROTECTION_OR_ROLLOVER",
+      "required_input": "Preserved prior contract2022 protection/rollover allocation predicate plus prior2020/21 settlement where applicable. Exact numeric source still a finite input, not private full-ledger evidence.",
+      "all_hidden_claim_absence_required": false,
+      "claim_holder": "MEM",
+      "source": "NBA_CONLEY2019"
+    },
+    {
+      "id": "WAS_2022_R1",
+      "origin": "WAS",
+      "round": 1,
+      "origin_rank_domain": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "historical_public_holder_contrast": "WAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "WAS",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "ATL_2022_R2",
+      "origin": "ATL",
+      "round": 2,
+      "origin_rank_domain": [
+        49
+      ],
+      "historical_public_holder_contrast": "ATL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "ATL",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "BKN_2022_R2",
+      "origin": "BKN",
+      "round": 2,
+      "origin_rank_domain": [
+        53
+      ],
+      "historical_public_holder_contrast": "DET",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "JORDAN_ATOM_NOT_SELECTED",
+      "required_input": "Preserve prior own2R template; do not transport originalDETrecipient from the unselectedJordan cash+fourclaims atom.",
+      "all_hidden_claim_absence_required": false,
+      "keeper_holder": "BKN"
+    },
+    {
+      "id": "BOS_2022_R2",
+      "origin": "BOS",
+      "round": 2,
+      "origin_rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "historical_public_holder_contrast": "BOS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "BOS",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "CHA_2022_R2",
+      "origin": "CHA",
+      "round": 2,
+      "origin_rank_domain": [
+        34
+      ],
+      "historical_public_holder_contrast": "CHA",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "CHA",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "CHI_2022_R2",
+      "origin": "CHI",
+      "round": 2,
+      "origin_rank_domain": [
+        47,
+        48
+      ],
+      "historical_public_holder_contrast": "SAC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "JOINT_THREE_ORIGIN_COMPOSITE_CLAIM",
+      "required_input": "Original2018 exchange then2019 LALcomparison exercise/priority and both counterpart residual claims. Never add three Chicago picks.",
+      "all_hidden_claim_absence_required": false,
+      "joint_group": "CHI_DET_LAL2018_2019",
+      "source": "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json"
+    },
+    {
+      "id": "CLE_2022_R2",
+      "origin": "CLE",
+      "round": 2,
+      "origin_rank_domain": [
+        35
+      ],
+      "historical_public_holder_contrast": "CLE",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "CLE",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "DAL_2022_R2",
+      "origin": "DAL",
+      "round": 2,
+      "origin_rank_domain": [
+        51
+      ],
+      "historical_public_holder_contrast": "WAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PORZINGIS_ATOM_NOT_SELECTED",
+      "required_input": "Preserve existing prior2Rconditions; do not copy originalWASrecipient from unselectedKP/Dinwiddie atom.",
+      "all_hidden_claim_absence_required": false,
+      "keeper_holder": "DAL"
+    },
+    {
+      "id": "DEN_2022_R2",
+      "origin": "DEN",
+      "round": 2,
+      "origin_rank_domain": [
+        52
+      ],
+      "historical_public_holder_contrast": "MIN",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "DET_2022_R2",
+      "origin": "DET",
+      "round": 2,
+      "origin_rank_domain": [
+        32
+      ],
+      "historical_public_holder_contrast": "TOR",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "JOINT_THREE_ORIGIN_COMPOSITE_CLAIM",
+      "required_input": "Original2018 exchange then2019 LALcomparison exercise/priority and both counterpart residual claims. Never add three Chicago picks.",
+      "all_hidden_claim_absence_required": false,
+      "joint_group": "CHI_DET_LAL2018_2019",
+      "source": "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json"
+    },
+    {
+      "id": "GSW_2022_R2",
+      "origin": "GSW",
+      "round": 2,
+      "origin_rank_domain": [
+        47,
+        48
+      ],
+      "historical_public_holder_contrast": "GSW",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "GSW",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "HOU_2022_R2",
+      "origin": "HOU",
+      "round": 2,
+      "origin_rank_domain": [
+        37
+      ],
+      "historical_public_holder_contrast": "IND",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "LEVERT_ATOM_NOT_SELECTED",
+      "required_input": "Bind actual earlier named priorclaim and retain conditions; no CLE/INDLeVert swap copied.",
+      "all_hidden_claim_absence_required": false,
+      "prefix_holder": "CLE",
+      "source": "NBA_LEVERT2022"
+    },
+    {
+      "id": "IND_2022_R2",
+      "origin": "IND",
+      "round": 2,
+      "origin_rank_domain": [
+        50
+      ],
+      "historical_public_holder_contrast": "ORL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "LAC_2022_R2",
+      "origin": "LAC",
+      "round": 2,
+      "origin_rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "historical_public_holder_contrast": "LAC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "LAC",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "LAL_2022_R2",
+      "origin": "LAL",
+      "round": 2,
+      "origin_rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "historical_public_holder_contrast": "SAS",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "JOINT_THREE_ORIGIN_COMPOSITE_CLAIM",
+      "required_input": "Original2018 exchange then2019 LALcomparison exercise/priority and both counterpart residual claims. Never add three Chicago picks.",
+      "all_hidden_claim_absence_required": false,
+      "joint_group": "CHI_DET_LAL2018_2019",
+      "source": "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json"
+    },
+    {
+      "id": "MEM_2022_R2",
+      "origin": "MEM",
+      "round": 2,
+      "origin_rank_domain": [
+        41
+      ],
+      "historical_public_holder_contrast": "POR",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "MIA_2022_R2",
+      "origin": "MIA",
+      "round": 2,
+      "origin_rank_domain": [
+        46
+      ],
+      "historical_public_holder_contrast": "CLE",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "LEVERT_ATOM_NOT_SELECTED",
+      "required_input": "Bind actual earlier named priorclaim and retain conditions; no CLE/INDLeVert swap copied.",
+      "all_hidden_claim_absence_required": false,
+      "prefix_holder": "IND",
+      "source": "NBA_LEVERT2022"
+    },
+    {
+      "id": "MIL_2022_R2",
+      "origin": "MIL",
+      "round": 2,
+      "origin_rank_domain": [
+        60
+      ],
+      "historical_public_holder_contrast": "FORFEITED",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "ORIGINAL_SANCTION_CAUSAL_PORT",
+      "required_input": "Determine whether originalDec2020 Bogdanovic early-contact cause is preserved in selectedS2; do not invent an actual disciplinary receipt or copy it from a player-freeagency endpoint.",
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MIL",
+      "source": "NBA_MIL_PENALTY",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "MIN_2022_R2",
+      "origin": "MIN",
+      "round": 2,
+      "origin_rank_domain": [
+        38
+      ],
+      "historical_public_holder_contrast": "MIN",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "MIN",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "NOP_2022_R2",
+      "origin": "NOP",
+      "round": 2,
+      "origin_rank_domain": [
+        40
+      ],
+      "historical_public_holder_contrast": "NOP",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "NOP",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "NYK_2022_R2",
+      "origin": "NYK",
+      "round": 2,
+      "origin_rank_domain": [
+        44
+      ],
+      "historical_public_holder_contrast": "NYK",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "NYK",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "OKC_2022_R2",
+      "origin": "OKC",
+      "round": 2,
+      "origin_rank_domain": [
+        31
+      ],
+      "historical_public_holder_contrast": "OKC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "OKC",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "ORL_2022_R2",
+      "origin": "ORL",
+      "round": 2,
+      "origin_rank_domain": [
+        33
+      ],
+      "historical_public_holder_contrast": "ORL",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "ORL",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "PHI_2022_R2",
+      "origin": "PHI",
+      "round": 2,
+      "origin_rank_domain": [
+        58
+      ],
+      "historical_public_holder_contrast": "MIA_FORFEITED",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "MIA_NEXT_AVAILABLE_SANCTION_CAUSAL_PORT",
+      "required_input": "Bind PHI→DEN→MIA earlier claim and selectedMIA lawful negotiation timing; originalLowry sanction not automatically repeated.",
+      "all_hidden_claim_absence_required": false,
+      "source": "NBA_CHI_MIA_PENALTY"
+    },
+    {
+      "id": "PHX_2022_R2",
+      "origin": "PHX",
+      "round": 2,
+      "origin_rank_domain": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "historical_public_holder_contrast": "IND",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "POR_2022_R2",
+      "origin": "POR",
+      "round": 2,
+      "origin_rank_domain": [
+        43
+      ],
+      "historical_public_holder_contrast": "POR",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "POR",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "SAC_2022_R2",
+      "origin": "SAC",
+      "round": 2,
+      "origin_rank_domain": [
+        39
+      ],
+      "historical_public_holder_contrast": "SAC",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY",
+      "required_input": null,
+      "all_hidden_claim_absence_required": false,
+      "supported_candidate_holder": "SAC",
+      "source": "NBA_APR18_ORDER",
+      "admitted_family": "Retain positive public own-origin allocation template; no incompatible selected prior claim or new assignment. Candidate template, not actual private portfolio certification."
+    },
+    {
+      "id": "SAS_2022_R2",
+      "origin": "SAS",
+      "round": 2,
+      "origin_rank_domain": [
+        42
+      ],
+      "historical_public_holder_contrast": "CLE",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "TOR_2022_R2",
+      "origin": "TOR",
+      "round": 2,
+      "origin_rank_domain": [
+        45
+      ],
+      "historical_public_holder_contrast": "GSW",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "UTA_2022_R2",
+      "origin": "UTA",
+      "round": 2,
+      "origin_rank_domain": [
+        59
+      ],
+      "historical_public_holder_contrast": "NOP",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT",
+      "required_input": "Adopt preserved named prior claim and evaluate its2022 allocation at chosen rank; no new offseason/deadline asset move.",
+      "all_hidden_claim_absence_required": false
+    },
+    {
+      "id": "WAS_2022_R2",
+      "origin": "WAS",
+      "round": 2,
+      "origin_rank_domain": [
+        36
+      ],
+      "historical_public_holder_contrast": "MIN",
+      "final_selected_holder": null,
+      "exact_rank": null,
+      "player": null,
+      "UPC_or_Tender_selected": false,
+      "historical_holder_automatically_copied": false,
+      "control_kind": "RUBIO_ATOM_NOT_SELECTED",
+      "required_input": "Bind original priorWASclaim heldCLE before unselectedRubio→CLE2021 event; keeperRubioMIN cannot support originalMINreceipt.",
+      "all_hidden_claim_absence_required": false,
+      "prefix_holder": "CLE"
+    }
+  ],
+  "coupled_draft_ties": {
+    "first_second_CHI": [
+      [
+        17,
+        48
+      ],
+      [
+        18,
+        47
+      ]
+    ],
+    "second_tied_reverse_first": true,
+    "independent_second_draw": false
+  },
+  "Chicago_economic_ports": {
+    "first_count": 1,
+    "composite_second_count": 1,
+    "separate_three_origins_not_three_Chicago_picks": true,
+    "first_rank": [
+      17,
+      18
+    ],
+    "composite_origin_domains": {
+      "CHI": [
+        47,
+        48
+      ],
+      "DET": [
+        32
+      ],
+      "LAL": [
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    "exact_composite_counterpart_allocation": null
+  },
+  "discipline_scope": {
+    "original_2022_missing_origins": [
+      "MIL",
+      "PHI"
+    ],
+    "original_MIA_forfeited_claim_origin": "PHI",
+    "original_CHI_penalty": "next_available_second_not_direct2022own_origin",
+    "selected_CHI_Lonzo_trade": false,
+    "selected_MIA_or_MIL_actual_illegal_contact_or_discipline": null,
+    "alternative_pick_count_58_or_60_selected": false
+  },
+  "summary": {
+    "origin_ports": 60,
+    "first_origin_ports": 30,
+    "second_origin_ports": 30,
+    "exact_first_rank_selected": 0,
+    "named_supported_nonidentity_first_holders": 2,
+    "resolved_CHI_own_first_and_DET_protected_retention": 2,
+    "control_kind_counts": {
+      "IDENTITY_PUBLIC_TEMPLATE_ROUTINE_FAMILY": 29,
+      "NAMED_UNPROTECTED_PRIOR_FIRST": 2,
+      "SELECTED_KEEPER_REJECTS_LATER_HISTORICAL_TRANSFER": 5,
+      "SELECTED_CHI_RETAINED_OWN_FIRST": 1,
+      "SELECTED_T1_PROTECTED_FIRST": 1,
+      "NAMED_PRIOR_PROTECTION_OR_ROLLOVER": 4,
+      "NAMED_PRIOR_FIRST_RETURN": 1,
+      "JORDAN_ATOM_NOT_SELECTED": 1,
+      "JOINT_THREE_ORIGIN_COMPOSITE_CLAIM": 3,
+      "PORZINGIS_ATOM_NOT_SELECTED": 1,
+      "PRESERVED_PUBLIC_TEMPLATE_REPLAY_PORT": 7,
+      "LEVERT_ATOM_NOT_SELECTED": 2,
+      "ORIGINAL_SANCTION_CAUSAL_PORT": 1,
+      "MIA_NEXT_AVAILABLE_SANCTION_CAUSAL_PORT": 1,
+      "RUBIO_ATOM_NOT_SELECTED": 1
+    },
+    "remaining_typed_control_ports": 27
+  },
+  "remaining_finite_inputs": {
+    "rank_parameters": "Four distinct lottery winners and record-tie1R order (2R reverse); no originalORL/OKC/HOU/SAC or draftees copied.",
+    "protection_ports": [
+      "UTA2022priorConley",
+      "PHX2022priorPaul",
+      "LAL2022priorAD",
+      "OKC2022priorSchroder"
+    ],
+    "joint_exchange_port": "CHI/DET/LAL2018–2019 precise sourcefunction and all counterpart claims",
+    "prefix_second_ports": [
+      "HOUpriorCLE",
+      "MIApriorIND",
+      "WASpriorCLE",
+      "INDpriorORL",
+      "SASpriorCLE",
+      "DENpriorMIN",
+      "TORpriorGSW",
+      "UTApriorNOP",
+      "MEMbeforeBagley",
+      "PHXpriorIND"
+    ],
+    "discipline_ports": [
+      "MILoriginalDec2020cause",
+      "MIAselectedlawfulLowrytiming/PHIclaim"
+    ],
+    "all_pending_ids": [
+      "BOS_2022_R1",
+      "CLE_2022_R1",
+      "LAL_2022_R1",
+      "MIL_2022_R1",
+      "NOP_2022_R1",
+      "OKC_2022_R1",
+      "PHI_2022_R1",
+      "PHX_2022_R1",
+      "TOR_2022_R1",
+      "UTA_2022_R1",
+      "BKN_2022_R2",
+      "CHI_2022_R2",
+      "DAL_2022_R2",
+      "DEN_2022_R2",
+      "DET_2022_R2",
+      "HOU_2022_R2",
+      "IND_2022_R2",
+      "LAL_2022_R2",
+      "MEM_2022_R2",
+      "MIA_2022_R2",
+      "MIL_2022_R2",
+      "PHI_2022_R2",
+      "PHX_2022_R2",
+      "SAS_2022_R2",
+      "TOR_2022_R2",
+      "UTA_2022_R2",
+      "WAS_2022_R2"
+    ],
+    "port_count_is_not_new_author_approval_count": true,
+    "identity_template_family_is_routine_candidate_not_permanent_private_HOLD": true
+  },
+  "certification": {
+    "sixty_origin_rank_functions_constructed": true,
+    "sixty_final_holders_or_complete_prior_claim_functions_certified": false,
+    "existing_public_named_claims_deleted": false,
+    "private_all_ledger_or_receipt_required": false,
+    "new_asset_trade_or_draw_selected": false,
+    "independent_review_completed": false,
+    "whole_macro3": false,
+    "manuscript": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED"
+}
