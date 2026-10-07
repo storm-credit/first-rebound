@@ -1,0 +1,246 @@
+{
+  "schema": "A02_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A02-EF-004",
+  "act": "A02",
+  "primary_subact": "A02-S2",
+  "source_conditional_function": "A02-CF04",
+  "final_function_order": 13,
+  "planned_allocation_slot": 40,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "a01_locally_assigned_function_slots": 9,
+    "a01_unassigned_planned_slots": 27,
+    "a01_unassigned_slots_require_27_new_events_before_this": false,
+    "a02_planned_slots": 54,
+    "a02_assigned_function_slots_through_this": 4,
+    "a02_remaining_planned_slots": 50,
+    "total_local_functions_through_this": 13,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "previous_function": {
+    "id": "A02-EF-003",
+    "path": "design/A02_E3_FINAL_EPISODE_FUNCTION.json",
+    "exact_full_exit": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다."
+  },
+  "local_blueprint": {
+    "schema": "A02_CF04_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_LOCAL_FICTIONAL_PRACTICE_NOT_ACTUAL_GAME_OR_SKILL_MASTERY",
+    "entry_state": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다.",
+    "single_function": "생활 순서를 한 번 맞춘 뒤에도 익숙한 골밑 우선 수행만으로는 맡은 코너와 페인트 도움 사이의 복귀 과제를 채우지 못함을, 감독이 따로 허용한 좁은 훈련에서 직접 확인한다",
+    "bounded_drill_setup": {
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "coach_instruction": "약측 코너의 선수를 맡아, 공을 가진 선수가 안으로 들어올 때 페인트 도움 위치를 보되 코너로 패스가 돌아가면 자기 담당 쪽으로 복귀하는 한 과제",
+      "practice_ball_and_opponents": "이름·학교·실제 기록을 정하지 않은 가상 훈련 전달자와 코너 담당 상대",
+      "paint_help_is_always_wrong": false,
+      "official_game_or_measured_defensive_result": false
+    },
+    "session_authority": {
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "separate_coach_permission_for_this_supervised_practice": true,
+      "prior_E3_one_day_permission_automatically_extended": false,
+      "official_team_roster_or_game_permission": false,
+      "school_attendance_or_academic_eligibility_certified": false
+    },
+    "unit_choice": "익숙한 골밑 우선 접근을 한 번 더 쓴다",
+    "exit_state": "주인공은 생활 순서를 한 번 고쳤지만, 따로 허용된 분업 훈련에서 약측 코너 담당을 맡고도 익숙한 골밑 우선 접근을 되풀이해 공이 코너로 돌아올 때 복귀가 두 번 늦었다. 새 역할의 위치·판단 과제가 드러났을 뿐, 윙 기본 수행이나 실제 경기 결과는 아직 없다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "B1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "감독이 별도로 허용한 분업 훈련에서 약측 코너를 맡은 주인공은 공이 안으로 들어오자 익숙한 골밑 우선 위치에 오래 남는다. 공이 코너로 돌아가도 자기 담당 쪽으로 늦게 복귀한다",
+        "observable_result": "코너 패스를 받은 훈련 상대와 자기 복귀 위치 사이 간격이 남는 것을 직접 본다. 문제는 도움 자체가 아니라 이 과제에서의 복귀 타이밍이다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "공식 팀 경기·특정 상대·기술 숙련·과거 C2 실패의 소급 단정",
+        "source_path": "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json",
+        "source_step": "B1",
+        "author_locked": false
+      },
+      {
+        "id": "B2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "주인공은 같은 제한 과제에서 익숙한 골밑 우선 접근을 한 번 더 쓰고, 코너 쪽으로 공이 되돌아간 뒤에야 맡은 위치로 움직인다",
+        "observable_result": "두 번째에도 담당 코너와 자기 사이 복귀 간격이 남는다. 이 시도의 실패는 새 윙 과제의 수행이나 실제 게임 패배를 증명하지 않는다",
+        "choice_options": [
+          "코너 담당 위치와 복귀 시간을 먼저 의식하며 다른 방법을 시험한다",
+          "익숙한 골밑 우선 접근을 한 번 더 쓴다"
+        ],
+        "selected_choice": "익숙한 골밑 우선 접근을 한 번 더 쓴다",
+        "not_claimed": "실제 수비 경기 결과·동료의 비공개 평가·부상·완성된 포지션 변경",
+        "source_path": "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json",
+        "source_step": "B2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "A02 E3 full exit < separately permitted CF04 practice < B1 mismatch < B2 familiar retry and observable mismatch < CF05 still unexecuted"
+    ],
+    "direct_present_cost": "허용된 그 훈련 기회와 주의가 익숙한 골밑 우선 시도에 쓰여 새 윙 과제에 바로 투입하지 못한다. 생활 기회 상실이나 징계는 추가하지 않는다.",
+    "reader_question_at_end": "익숙한 골밑 위치의 보상을 내려놓고 어떤 윙 기본 과제를 반복할 것인가",
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "감독이 자기에게 허용한 코너·도움·복귀 과제",
+        "자기가 먼저 택한 골밑 위치",
+        "훈련 공이 코너로 돌아올 때 직접 보이는 복귀 간격"
+      ],
+      "not_available_without_access": [
+        "감독·동료의 내면 평가",
+        "공식 팀 선발 판단",
+        "미래 경기 성과",
+        "비공개 학교 판단"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "unassigned_details": {
+      "fictional_school_or_staff_name": null,
+      "exact_date": null,
+      "practice_counterpart_identity": null,
+      "training_drill_name": null,
+      "score_or_minutes": null,
+      "roster_or_game_status": null
+    },
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a02_e4_final_episode_function.py": "2196dd2e4d2d57747c23d02a8c7c803d5b4656a3e059f293e61dc64f19886c8e",
+      "design/A02_E3_FINAL_EPISODE_FUNCTION.json": "d4aeb7dea590408fe9ad0a7f97ffb82f262f1e3499f0236ff77ebdaf879dd6de",
+      "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json": "8a18b01e1d06b5f0304cc4eb6d83563b09546ab0e0c177bd739a96463e21aaf0",
+      "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+      "design/CP2_ACT_SUBACT_PACKET.json": "3ab77c26019e5231bd8349b25cccf6f3dd85b2799d8dbba2e1569967055c66f1",
+      "canon/TALENT_BQ_MODEL.md": "6e531de37c3005f714fc33b76d264363f671196703d5490e987f9b7e5c4120e6",
+      "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+      "canon/PROJECT_FREEZE.md": "762528cdde79df1e77b97be1c4c537f39d603cc8b3eb48e4f2d726fc574051f5",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "prior_E3_session_permission_extended": false,
+    "wing_repetition_or_game_result_certified": false,
+    "whole_A02_S2_exit_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "생활 순서를 한 번 맞춘 뒤에도 익숙한 골밑 우선 수행만으로는 맡은 코너와 페인트 도움 사이의 복귀 과제를 채우지 못함을, 감독이 따로 허용한 좁은 훈련에서 직접 확인한다",
+  "entry_state": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다.",
+  "unit_choice": "익숙한 골밑 우선 접근을 한 번 더 쓴다",
+  "exit_state": "주인공은 생활 순서를 한 번 고쳤지만, 따로 허용된 분업 훈련에서 약측 코너 담당을 맡고도 익숙한 골밑 우선 접근을 되풀이해 공이 코너로 돌아올 때 복귀가 두 번 늦었다. 새 역할의 위치·판단 과제가 드러났을 뿐, 윙 기본 수행이나 실제 경기 결과는 아직 없다.",
+  "direct_present_cost": "허용된 그 훈련 기회와 주의가 익숙한 골밑 우선 시도에 쓰여 새 윙 과제에 바로 투입하지 못한다. 생활 기회 상실이나 징계는 추가하지 않는다.",
+  "reader_question_at_end": "익숙한 골밑 위치의 보상을 내려놓고 어떤 윙 기본 과제를 반복할 것인가",
+  "internal_order": [
+    "B1",
+    "B2"
+  ],
+  "beats": [
+    {
+      "id": "B1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "감독이 별도로 허용한 분업 훈련에서 약측 코너를 맡은 주인공은 공이 안으로 들어오자 익숙한 골밑 우선 위치에 오래 남는다. 공이 코너로 돌아가도 자기 담당 쪽으로 늦게 복귀한다",
+      "observable_result": "코너 패스를 받은 훈련 상대와 자기 복귀 위치 사이 간격이 남는 것을 직접 본다. 문제는 도움 자체가 아니라 이 과제에서의 복귀 타이밍이다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "공식 팀 경기·특정 상대·기술 숙련·과거 C2 실패의 소급 단정",
+      "source_path": "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json",
+      "source_step": "B1",
+      "author_locked": false
+    },
+    {
+      "id": "B2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "주인공은 같은 제한 과제에서 익숙한 골밑 우선 접근을 한 번 더 쓰고, 코너 쪽으로 공이 되돌아간 뒤에야 맡은 위치로 움직인다",
+      "observable_result": "두 번째에도 담당 코너와 자기 사이 복귀 간격이 남는다. 이 시도의 실패는 새 윙 과제의 수행이나 실제 게임 패배를 증명하지 않는다",
+      "choice_options": [
+        "코너 담당 위치와 복귀 시간을 먼저 의식하며 다른 방법을 시험한다",
+        "익숙한 골밑 우선 접근을 한 번 더 쓴다"
+      ],
+      "selected_choice": "익숙한 골밑 우선 접근을 한 번 더 쓴다",
+      "not_claimed": "실제 수비 경기 결과·동료의 비공개 평가·부상·완성된 포지션 변경",
+      "source_path": "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json",
+      "source_step": "B2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A02-CF05",
+    "candidate_subact": "A02-S2",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_entry_non_authoritative_summary": "몸의 우위로 버티기보다 다른 역할을 배워야 할 문제가 드러난다",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "주인공은 생활 순서를 한 번 고쳤지만, 따로 허용된 분업 훈련에서 약측 코너 담당을 맡고도 익숙한 골밑 우선 접근을 되풀이해 공이 코너로 돌아올 때 복귀가 두 번 늦었다. 새 역할의 위치·판단 과제가 드러났을 뿐, 윙 기본 수행이나 실제 경기 결과는 아직 없다.",
+    "candidate_is_executed_here": false,
+    "wing_repetition_or_success_verified_here": false
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "감독이 자기에게 허용한 코너·도움·복귀 과제",
+      "자기가 먼저 택한 골밑 위치",
+      "훈련 공이 코너로 돌아올 때 직접 보이는 복귀 간격"
+    ],
+    "not_available_without_access": [
+      "감독·동료의 내면 평가",
+      "공식 팀 선발 판단",
+      "미래 경기 성과",
+      "비공개 학교 판단"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "session_authority": {
+    "classification": "ROUTINE_FICTIONAL_DESIGN",
+    "separate_coach_permission_for_this_supervised_practice": true,
+    "prior_E3_one_day_permission_automatically_extended": false,
+    "official_team_roster_or_game_permission": false,
+    "school_attendance_or_academic_eligibility_certified": false
+  },
+  "unassigned_details": {
+    "fictional_school_or_staff_name": null,
+    "exact_date": null,
+    "practice_counterpart_identity": null,
+    "training_drill_name": null,
+    "score_or_minutes": null,
+    "roster_or_game_status": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a02_e4_final_episode_function.py": "2196dd2e4d2d57747c23d02a8c7c803d5b4656a3e059f293e61dc64f19886c8e",
+    "design/A02_E3_FINAL_EPISODE_FUNCTION.json": "d4aeb7dea590408fe9ad0a7f97ffb82f262f1e3499f0236ff77ebdaf879dd6de",
+    "design/A02_CF04_SMALL_BIG_FAILURE_WORKING_MODEL_2026_10_07.json": "8a18b01e1d06b5f0304cc4eb6d83563b09546ab0e0c177bd739a96463e21aaf0",
+    "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+    "design/CP2_ACT_SUBACT_PACKET.json": "3ab77c26019e5231bd8349b25cccf6f3dd85b2799d8dbba2e1569967055c66f1",
+    "canon/TALENT_BQ_MODEL.md": "6e531de37c3005f714fc33b76d264363f671196703d5490e987f9b7e5c4120e6",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+    "canon/PROJECT_FREEZE.md": "762528cdde79df1e77b97be1c4c537f39d603cc8b3eb48e4f2d726fc574051f5",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED authenticates source-current local fictional practice, not an actual roster, game or school case.",
+    "E3’s one-day permission does not carry over; CF04 requires a separate bounded fictional coach-supervised practice permission.",
+    "A weak-side corner late return is visible twice in this drill; paint help itself is not always wrong and the failure is not retrojected to C2.",
+    "CF05 wing fundamentals, game proof, qualification and the entire A02-S2 exit remain unexecuted or unverified."
+  ],
+  "whole_A01_act_exit_certified": false,
+  "whole_A02_S1_exit_certified": false,
+  "whole_A02_S2_exit_certified": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}

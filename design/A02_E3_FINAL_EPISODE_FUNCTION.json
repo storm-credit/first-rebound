@@ -1,0 +1,247 @@
+{
+  "schema": "A02_FINAL_EPISODE_FUNCTION_V1",
+  "status": "FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE",
+  "authority_scope": "ONE_G13_FUNCTION_ONLY_NOT_FULL_G13_OR_AUTHOR_LOCK",
+  "episode_function_id": "A02-EF-003",
+  "act": "A02",
+  "primary_subact": "A02-S1",
+  "source_conditional_function": "A02-CF03",
+  "final_function_order": 12,
+  "planned_allocation_slot": 39,
+  "published_episode_number": null,
+  "published_episode_title": null,
+  "manuscript_word_count": null,
+  "slot_accounting": {
+    "a01_planned_slots": 36,
+    "a01_locally_assigned_function_slots": 9,
+    "a01_unassigned_planned_slots": 27,
+    "a01_unassigned_slots_require_27_new_events_before_this": false,
+    "a02_planned_slots": 54,
+    "a02_assigned_function_slots_through_this": 3,
+    "a02_remaining_planned_slots": 51,
+    "total_local_functions_through_this": 12,
+    "allocation_is_final_published_episode_count": false
+  },
+  "final_episode_functions_completed_this_record": 1,
+  "previous_function": {
+    "id": "A02-EF-002",
+    "path": "design/A02_E2_FINAL_EPISODE_FUNCTION.json",
+    "exact_full_exit": "주인공은 게임을 더 이어 가며 수면·다음 의무를 미뤄, 스스로 요청한 학업 지원 시간 한 번에 정시로 참여하지 못했다. 그 기회는 지나갔고 다음 의무를 먼저 지키는 습관은 아직 생기지 않았다."
+  },
+  "local_blueprint": {
+    "schema": "A02_CF03_LOCAL_BLUEPRINT_V1",
+    "status": "ACTUAL_VERIFIED",
+    "authority_scope": "SOURCE_CURRENT_LOCAL_FICTIONAL_DESIGN_NOT_HABIT_CURE_OR_ACTUAL_SCHOOL_RECORD",
+    "entry_state": "주인공은 게임을 더 이어 가며 수면·다음 의무를 미뤄, 스스로 요청한 학업 지원 시간 한 번에 정시로 참여하지 못했다. 그 기회는 지나갔고 다음 의무를 먼저 지키는 습관은 아직 생기지 않았다.",
+    "prior_lost_help_window_restored": false,
+    "single_function": "지나간 도움 시간을 지우지 않은 채, 다음 허용 하루에는 스스로 기상·의무 스터디홀·허용된 기본 훈련을 먼저 맞추고 남은 시간에만 게임한다",
+    "unit_choice": "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다",
+    "exit_state": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다.",
+    "beat_count": 2,
+    "beats": [
+      {
+        "id": "P1",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "주인공이 다음 허용 하루의 학교 안내에 있는 의무 스터디홀과 감독 허용 기본 훈련 범위를 확인하고, 그날은 다른 사람의 기상 확인을 기다리지 않고 스스로 일어난다",
+        "observable_result": "자기에게 열린 그날의 의무와 시작 순서를 직접 인지한다",
+        "choice_options": null,
+        "selected_choice": null,
+        "not_claimed": "실제 학교 출석기록·종일 생활 규율 완성·공식 팀 등록",
+        "source_path": "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json",
+        "source_step": "P1",
+        "author_locked": false
+      },
+      {
+        "id": "P2",
+        "classification": "ROUTINE_FICTIONAL_DESIGN",
+        "action": "그날의 의무 스터디홀과 감독이 허용한 기본 훈련을 각각 마친 뒤 남는 시간이 있을 때 게임을 시작한다",
+        "observable_result": "한 번의 학교·훈련 의무 우선 행동은 보이지만 CF02에서 놓친 도움 시간은 돌아오지 않는다",
+        "choice_options": [
+          "게임을 먼저 시작하고 의무를 다시 미룬다",
+          "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다"
+        ],
+        "selected_choice": "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다",
+        "not_claimed": "반복 습관 정착·학점 충족·기술 숙련·경기 출전·게임 취미 폐기",
+        "source_path": "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json",
+        "source_step": "P2",
+        "author_locked": false
+      }
+    ],
+    "partial_order": [
+      "CF02 full exit < P1 self-wake and read permitted day obligations < both study hall and supervised basic practice < optional game in remaining time; school block order unassigned"
+    ],
+    "direct_present_cost": "즉시 게임을 시작하고 계속할 자유를 그날의 의무가 끝날 때까지 줄인다. 이미 놓친 한 번의 도움 시간은 보상으로 되돌리지 않는다.",
+    "reader_question_at_end": "자기 시간의 한 번 순서 변경이 프렙에서 필요한 농구 위치·판단 기술까지 채울 수 있는가",
+    "institutional_day_path": {
+      "fictional_prep_study_hall_required_in_school_type": true,
+      "fictional_coach_supervised_basic_practice_access_working_selection": true,
+      "team_roster_or_game_authorization_certified": false,
+      "study_hall_or_practice_exact_clock_selected": false,
+      "school_authority_discards_CF02_missed_help_window": false
+    },
+    "information_access": {
+      "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+      "protagonist_may_know": [
+        "스스로 본 학교 일정",
+        "감독에게 허용받은 해당 기본 훈련 범위",
+        "자신의 기상·참여·게임 시작 순서"
+      ],
+      "not_available_without_access": [
+        "비공개 학업 판단",
+        "감독의 내면 평가",
+        "실제 NCAA 자격",
+        "경기 출전·미래 능력"
+      ],
+      "individual_scene_pov_verified": false,
+      "exact_dialogue": null
+    },
+    "institutional_limits": {
+      "fictional_adviser_controls_study_support_not_NCAA_certificate": true,
+      "fictional_coach_grants_one_supervised_skill_session_not_roster_or_game": true,
+      "individual_attendance_or_grade_certified": false,
+      "team_registration_or_minutes_certified": false,
+      "NCAA_full_qualifier_or_graduation_certified": false,
+      "actual_real_prep_or_student_case_certified": false
+    },
+    "unassigned_details": {
+      "fictional_school_or_staff_name": null,
+      "exact_block_times_or_date": null,
+      "course_or_training_drill": null,
+      "one_day_game_minutes": null,
+      "attendance_or_grade_record": null,
+      "roster_or_game_status": null
+    },
+    "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+    "source_rev_sha256": {
+      "tools/build_a02_e3_final_episode_function.py": "8d299c1ff561eaf289799d556ddf1333d78e75d113ee2bd7014d97ca01d45ab0",
+      "design/A02_E2_FINAL_EPISODE_FUNCTION.json": "004d706117dd7e71e2c1ec1d21a4d1d382e2f70e79a033a85cf31e838fba9bbb",
+      "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json": "9411e69b7045fd4e4e43f08946e07153ca0ce416c6334b849207000d606e1331",
+      "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+      "design/CP2_ACT_SUBACT_PACKET.json": "3ab77c26019e5231bd8349b25cccf6f3dd85b2799d8dbba2e1569967055c66f1",
+      "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+      "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+      "canon/PROJECT_FREEZE.md": "762528cdde79df1e77b97be1c4c537f39d603cc8b3eb48e4f2d726fc574051f5",
+      "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+    },
+    "long_term_habit_or_qualifier_certified": false,
+    "whole_A02_S1_exit_certified": false,
+    "author_locked": false,
+    "manuscript_allowed": false
+  },
+  "single_function": "지나간 도움 시간을 지우지 않은 채, 다음 허용 하루에는 스스로 기상·의무 스터디홀·허용된 기본 훈련을 먼저 맞추고 남은 시간에만 게임한다",
+  "entry_state": "주인공은 게임을 더 이어 가며 수면·다음 의무를 미뤄, 스스로 요청한 학업 지원 시간 한 번에 정시로 참여하지 못했다. 그 기회는 지나갔고 다음 의무를 먼저 지키는 습관은 아직 생기지 않았다.",
+  "unit_choice": "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다",
+  "exit_state": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다.",
+  "prior_lost_help_window_restored": false,
+  "direct_present_cost": "즉시 게임을 시작하고 계속할 자유를 그날의 의무가 끝날 때까지 줄인다. 이미 놓친 한 번의 도움 시간은 보상으로 되돌리지 않는다.",
+  "reader_question_at_end": "자기 시간의 한 번 순서 변경이 프렙에서 필요한 농구 위치·판단 기술까지 채울 수 있는가",
+  "internal_order": [
+    "P1",
+    "P2"
+  ],
+  "beats": [
+    {
+      "id": "P1",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "주인공이 다음 허용 하루의 학교 안내에 있는 의무 스터디홀과 감독 허용 기본 훈련 범위를 확인하고, 그날은 다른 사람의 기상 확인을 기다리지 않고 스스로 일어난다",
+      "observable_result": "자기에게 열린 그날의 의무와 시작 순서를 직접 인지한다",
+      "choice_options": null,
+      "selected_choice": null,
+      "not_claimed": "실제 학교 출석기록·종일 생활 규율 완성·공식 팀 등록",
+      "source_path": "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json",
+      "source_step": "P1",
+      "author_locked": false
+    },
+    {
+      "id": "P2",
+      "classification": "ROUTINE_FICTIONAL_DESIGN",
+      "action": "그날의 의무 스터디홀과 감독이 허용한 기본 훈련을 각각 마친 뒤 남는 시간이 있을 때 게임을 시작한다",
+      "observable_result": "한 번의 학교·훈련 의무 우선 행동은 보이지만 CF02에서 놓친 도움 시간은 돌아오지 않는다",
+      "choice_options": [
+        "게임을 먼저 시작하고 의무를 다시 미룬다",
+        "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다"
+      ],
+      "selected_choice": "스터디홀과 허용 기본 훈련을 먼저 하고 남은 시간에 게임한다",
+      "not_claimed": "반복 습관 정착·학점 충족·기술 숙련·경기 출전·게임 취미 폐기",
+      "source_path": "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json",
+      "source_step": "P2",
+      "author_locked": false
+    }
+  ],
+  "next_unit": {
+    "candidate_id": "A02-CF04",
+    "candidate_subact": "A02-S2",
+    "candidate_status": "CONDITIONAL_CAUSAL_FUNCTION_UNIT_NOT_EPISODE",
+    "candidate_entry_non_authoritative_summary": "다음 출전·졸업 기회를 보존하려고 자기 시간을 조절하는 행동이 생긴다",
+    "candidate_summary_is_exact_or_verified_projection": false,
+    "exact_full_entry_if_next_unit_selected": "주인공은 앞서 잃은 학업 도움 시간을 되돌리지 못한 채, 다음 허용 하루에는 스스로 일어나 의무 스터디홀과 허용 기본 훈련을 먼저 맞춘 다음 남는 시간에만 게임했다. 이 한 번의 선택은 장기 습관·학업 자격·농구 수행 완성을 증명하지 않는다.",
+    "candidate_is_executed_here": false,
+    "basketball_position_performance_verified_here": false
+  },
+  "information_access": {
+    "style": "S1_PROTAGONIST_CLOSE_THIRD_SELECTED_GLOBALLY",
+    "protagonist_may_know": [
+      "스스로 본 학교 일정",
+      "감독에게 허용받은 해당 기본 훈련 범위",
+      "자신의 기상·참여·게임 시작 순서"
+    ],
+    "not_available_without_access": [
+      "비공개 학업 판단",
+      "감독의 내면 평가",
+      "실제 NCAA 자격",
+      "경기 출전·미래 능력"
+    ],
+    "individual_scene_pov_verified": false,
+    "exact_dialogue": null
+  },
+  "institutional_limits": {
+    "fictional_adviser_controls_study_support_not_NCAA_certificate": true,
+    "fictional_coach_grants_one_supervised_skill_session_not_roster_or_game": true,
+    "individual_attendance_or_grade_certified": false,
+    "team_registration_or_minutes_certified": false,
+    "NCAA_full_qualifier_or_graduation_certified": false,
+    "actual_real_prep_or_student_case_certified": false
+  },
+  "unassigned_details": {
+    "fictional_school_or_staff_name": null,
+    "exact_block_times_or_date": null,
+    "course_or_training_drill": null,
+    "one_day_game_minutes": null,
+    "attendance_or_grade_record": null,
+    "roster_or_game_status": null
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "tools/build_a02_e3_final_episode_function.py": "8d299c1ff561eaf289799d556ddf1333d78e75d113ee2bd7014d97ca01d45ab0",
+    "design/A02_E2_FINAL_EPISODE_FUNCTION.json": "004d706117dd7e71e2c1ec1d21a4d1d382e2f70e79a033a85cf31e838fba9bbb",
+    "design/A02_CF03_ONE_DAY_PRIORITY_WORKING_MODEL_2026_10_07.json": "9411e69b7045fd4e4e43f08946e07153ca0ce416c6334b849207000d606e1331",
+    "design/A02_PREP_CONDITIONAL_FUNCTIONS.json": "c0694bc51ba9a5113e078c4a3b3158045384097ba1dcb1630b5b0b065f0d71f1",
+    "design/CP2_ACT_SUBACT_PACKET.json": "3ab77c26019e5231bd8349b25cccf6f3dd85b2799d8dbba2e1569967055c66f1",
+    "canon/CHARACTER_RESPONSIBILITY_ARC.md": "6cf722df3c56c2063cc5d6268b8813a956031b88e91059ebd05d01eb9468acfb",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+    "canon/PROJECT_FREEZE.md": "762528cdde79df1e77b97be1c4c537f39d603cc8b3eb48e4f2d726fc574051f5",
+    "C:/Users/Storm Credit/Desktop/Novel/novel-writing-skills/skills/writing/SKILL.md": "04599ed159bb2d5a28ae24e58815606a37f9e263d184315b47b826e7c1c8aa57"
+  },
+  "verification_limits": [
+    "ACTUAL_VERIFIED authenticates one source-current fictional day, not a real attendance or eligibility record.",
+    "The CF02 missed help time remains lost; this unit changes only one later day’s sequence.",
+    "Required study hall and coach-permitted basic work precede optional gaming, without fixing their mutual clock order.",
+    "One day does not certify sustained habit change, credits, graduation, NCAA qualification or basketball position skill.",
+    "CF04 small-big-man performance candidate is not executed and A02-S1 whole exit is not certified."
+  ],
+  "whole_A01_act_exit_certified": false,
+  "whole_A02_S1_exit_certified": false,
+  "whole_g13_complete": false,
+  "whole_g14_complete": false,
+  "actual_context_packs": 0,
+  "g15_complete": false,
+  "g16_complete": false,
+  "g17_complete": false,
+  "author_locked": false,
+  "new_author_decisions": 0,
+  "manuscript_count": 0,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED"
+}

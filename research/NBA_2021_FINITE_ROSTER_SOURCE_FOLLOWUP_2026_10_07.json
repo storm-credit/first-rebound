@@ -1,0 +1,268 @@
+{
+  "schema": "NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_V1",
+  "status": "FINITE_PUBLIC_SOURCE_FAMILIES_WITH_ROUTINE_WORKING_IMPLEMENTATION_SELECTED_REVIEW_PENDING",
+  "collection_date": "2026-10-07",
+  "bridge_snapshot_frozen": false,
+  "bridge_source": "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json",
+  "source_records": [
+    {
+      "id": "CLE_FEDOR_2021_01_11",
+      "role": "ORIGINAL_BEAT_REPORTER_OEMBED_BODY",
+      "url": "https://twitter.com/ChrisFedor/status/1348641725934395392",
+      "retrieval_url": "https://publish.twitter.com/oembed?url=https://twitter.com/ChrisFedor/status/1348641725934395392&omit_script=true",
+      "body_recovered": true,
+      "source_date": "2021-01-11",
+      "locator": "html p and tweet dated footer",
+      "paraphrase": "Fedor reports Cleveland signed Ferrell for ten days using hardship, after the league approved the submitted injury case.",
+      "original_historical_claim_not_alternate_world_medical_certificate": true,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/CLE_FEDOR_JAN11_OEMBED.json",
+      "raw_sha256": "07c0264c9e6cdb7236089204a5e4fcad5652672e5ef70b64b315b79573220563",
+      "bytes": 1034,
+      "bounded_working_application": "The named hardship supports January11–14 working carry. A separately positive public January14 end model bounds the roster end, without certifying actual waiver/medical approval."
+    },
+    {
+      "id": "SAC_OFFICIAL_2021_22_GUIDE_P277",
+      "role": "OFFICIAL_TEAM_RETROSPECTIVE_TRANSACTIONS",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612758/2022/07/kings_media_guide_2021-22_FINAL.pdf",
+      "body_recovered": true,
+      "document_season": "2021–22",
+      "pdf_pages": 378,
+      "pdf_page": 277,
+      "printed_page": 277,
+      "locator": "KINGS YEARLY TRANSACTIONS; March 22 and March 26, 2021 rows",
+      "paraphrase": "The guide dates Kabengele acquisition March 22, and the Harkless/Silva, Davis and Wright acquisitions March 26. The shown March rows contain no Parker or Kabengele release.",
+      "observed_omission_is_not_absence_proof": true,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/SAC_GUIDE_2021_22.pdf",
+      "raw_sha256": "61613ab4d5d6868e406c0bae84d7f376256b96f4c5bd9e95012c20186a7132a5",
+      "bytes": 16392847,
+      "page_text_sha256": "c07fa2f3cdf3602701b6d85e83a50bd12c5f13c72d2d14b02f54bd955d14c0a4",
+      "page_text_cache": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/SAC_GUIDE_2021_22_P277.txt",
+      "date_conflict": {
+        "feed_acquisition_date": "2021-03-25",
+        "guide_acquisition_date": "2021-03-26",
+        "actual_receipt_clock": null
+      },
+      "bounded_working_application": "The guide is a retrospective date observation. A separate contemporaneous positive March25 release report supports the chosen same-day working atomic roster order; no late trade execution is selected."
+    },
+    {
+      "id": "HOU_FEIGEN_2021_05_29",
+      "role": "ORIGINAL_BEAT_REPORTER_ARTICLE_DIRECT_WEB_BODY",
+      "url": "https://www.houstonchronicle.com/texas-sports-nation/rockets/article/Rockets-roster-review-Cameron-Oliver-16207723.php",
+      "body_recovered": true,
+      "source_date": "2021-05-29",
+      "locator": "article title/date; web direct lines105 and127",
+      "paraphrase": "Feigen reports the season ended with nineteen roster players including two hardship additions, and identifies Oliver as a hardship signing.",
+      "raw_body_cache_recovered": false,
+      "raw_body_sha256": null,
+      "separate_http_attempt": {
+        "status": 200,
+        "actual_article_body": false,
+        "classification": "CHALLENGE_PAGE_ONLY",
+        "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_FEIGEN_MAY29.html",
+        "raw_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+        "bytes": 3038
+      },
+      "bounded_working_application": "This original report supports a named late-season two-hardship roster family. It does not identify every exact exception transition or certify alternate-world injury/approval."
+    },
+    {
+      "id": "HOU_THOMAS_2021_05_07_PRIMARY_POINTER",
+      "role": "OFFICIAL_TWEET_ID_RECOVERED_BODY_NOT_RECOVERED",
+      "url": "https://twitter.com/HoustonRockets/status/1390773594486153217",
+      "locator": "t.co/iRT7BrapBm redirected to exact official tweet id",
+      "body_recovered": false,
+      "source_date_from_syndication": "2021-05-07",
+      "secondary_body_url": "https://www.inkl.com/news/rockets-officially-sign-khryi-thomas-via-nba-hardship-exception",
+      "secondary_body_observed": true,
+      "secondary_body_scope": "Ben DuBose/USA Today syndication directly shows team tweet identifying Thomas ten-day hardship signing; the original tweet itself was not recovered.",
+      "raw_primary_attempt": {
+        "status": 404,
+        "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_THOMAS_MAY7_TWITTER_OEMBED.json",
+        "raw_sha256": "b4056ca07cbe8a3c71d16206c45c9d5515c74912647eb67100390f95a8a88600",
+        "bytes": 3656
+      },
+      "official_release_pointer": "https://www.nba.com/rockets/news/rockets-sign-khyri-thomas-10-day-contract",
+      "official_release_attempt": {
+        "status": 403,
+        "body_recovered": false,
+        "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_THOMAS_ACTUAL_URL.html",
+        "raw_sha256": "0ba56a202fbd0d12ec6d70479b5ec79b0835e1148fd8b2be69b49f72ed36a4fc",
+        "bytes": 451
+      },
+      "primary_body_certification": false
+    },
+    {
+      "id": "CLE_FERRELL_SS_JAN14_END",
+      "role": "SECONDARY_POSITIVE_CONTRACT_EXPIRY_MODEL",
+      "url": "https://www.salaryswish.com/players/yogi-ferrell",
+      "body_recovered": true,
+      "locator": "CLE contract dated January11,2021; subsequent CONTRACT EXPIRES Jan14,2021",
+      "paraphrase": "The Cleveland hardship contract entry positively reports a January14,2021 end.",
+      "raw_salary_values_adopted": false,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/CLE_FERRELL_SS.html",
+      "raw_sha256": "5f3e3a0e3ecd29f4d8a6d53314f2cba6b27b29d52343e769cd164bc3302c8eef",
+      "bytes": 139929
+    },
+    {
+      "id": "HOU_REYNOLDS_BERMAN_MAY14",
+      "role": "ORIGINAL_BEAT_REPORTER_OEMBED_BODY",
+      "url": "https://twitter.com/MarkBermanFox26/status/1393237820727250945",
+      "body_recovered": true,
+      "source_date": "2021-05-14",
+      "locator": "html p and tweet dated footer",
+      "paraphrase": "Berman reports Reynolds signing for Houston’s final two games.",
+      "hardship_report_in_this_body": false,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_REYNOLDS_BERMAN_MAY14_OEMBED.json",
+      "raw_sha256": "15816664a534f66b8edf92b4f5080d2fa0c99c960fdbd48688d11ceebc3a1103",
+      "bytes": 782
+    },
+    {
+      "id": "HOU_REYNOLDS_FEIGEN_MAY30",
+      "role": "ORIGINAL_BEAT_REPORTER_ARTICLE_DIRECT_WEB_BODY",
+      "url": "https://www.houstonchronicle.com/texas-sports-nation/rockets/article/2020-21-Rockets-roster-review-Cam-Reynolds-16207786.php",
+      "body_recovered": true,
+      "source_date": "2021-05-30",
+      "locator": "title/date; direct web lines70 and91",
+      "paraphrase": "Feigen reports Reynolds signed for the final days through hardship, and the season ended with two hardship additions.",
+      "raw_body_sha256": null,
+      "raw_body_cache_recovered": false
+    },
+    {
+      "id": "HOU_REYNOLDS_HR_MAY14",
+      "role": "DATED_SECONDARY_REPORT_LINKING_ORIGINAL_RELEASE",
+      "url": "https://www.hoopsrumors.com/2021/05/cameron-reynolds-to-sign-with-rockets.html",
+      "body_recovered": true,
+      "source_date": "2021-05-14",
+      "locator": "article first two updates/official release link",
+      "paraphrase": "The dated report identifies the official Reynolds hardship signing and Thomas moving into Jeffries’ vacated standard slot.",
+      "original_release_url": "https://www.nba.com/rockets/news/rockets-announce-roster-transactions",
+      "original_release_body_recovered": false,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_REYNOLDS_HR.html",
+      "raw_sha256": "64ff987ed6ce82c7d35cc4b9aa1d7afcfc387bd420bf4b9d0e4b78a457edd9e1",
+      "bytes": 62671
+    },
+    {
+      "id": "SAC_MAR25_RELEASE_REPORT",
+      "role": "DATED_SECONDARY_REPORT_POSITIVE_OFFICIAL_RELEASES",
+      "url": "https://www.hoopsrumors.com/2021/03/kings-expected-to-waive-jabari-parker.html",
+      "body_recovered": true,
+      "source_date": "2021-03-25",
+      "locator": "entry-content first two final updates, 9:33pm Kabengele and8:23pm Parker; exact official links",
+      "paraphrase": "The March25 report states both Kings releases are official and links their corresponding Sacramento acquisition releases.",
+      "original_release_body_recovered": false,
+      "original_release_urls": [
+        "https://www.nba.com/kings/news/kings-acquire-terence-davis",
+        "https://www.nba.com/kings/news/kings-acquire-maurice-harkless-and-chris-silva"
+      ],
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/SAC_MAR25_HR.html",
+      "raw_sha256": "ea9088611a05b9ecfd4702a400214e34c743301d50b2071d8dfae422b688023b",
+      "bytes": 94924
+    }
+  ],
+  "rejected_or_unadopted_inputs": [
+    {
+      "id": "HOU_MUTABLE_GUIDE_INDEX_MISMATCH",
+      "url": "https://d26dmzpiksq0q.cloudfront.net/shared/game-notes/rockets-media-guide.pdf",
+      "indexed_claim": "Search presented 2025–26 timeline including 2021 hardship entries",
+      "actual_pdf": "2026 preseason guide,65pages; actual recovered text does not contain hardship",
+      "used_as_positive_2021_body": false,
+      "cache_path": "C:/Users/STORMC~1/AppData/Local/Temp/fr-roster-execution-source-20261007/HOU_GUIDE.pdf",
+      "raw_sha256": "623eb0d6ac1a4641e0b66e458648ff16f10d0cf2676742286e232e195f05066a",
+      "bytes": 4821390
+    },
+    {
+      "id": "CLE_CURRENT_OFFICIAL_BODY_EMPTY",
+      "url": "https://www.nba.com/cavaliers/releases/allen-prince-trade-210114",
+      "body_recovered": false,
+      "web_result": "title/iframe only; not a recovered early-termination passage"
+    },
+    {
+      "id": "SAC_CURRENT_RELEASES_BODY_EMPTY",
+      "urls": [
+        "https://www.nba.com/kings/news/kings-acquire-terence-davis",
+        "https://www.nba.com/kings/news/kings-acquire-maurice-harkless-and-chris-silva"
+      ],
+      "body_recovered": false,
+      "dated_secondary_link_scope": "HoopsRumors March25 original article links the corresponding official releases; current official body not recovered.",
+      "absence_certification": false
+    }
+  ],
+  "next_finite_gaps": {
+    "CLE": "Use positive Jan11 named hardship plus reported Jan14 end as a date-only working end, preserving salary and all existing positive minutes.",
+    "HOU": "Carry Thomas May7–13, Oliver May10–16, Reynolds May14–16 named hardship families, replacing Thomas’ hardship slot after his separate standard signing.",
+    "SAC": "Preserve feed March25 assignments; use the contemporaneous positive March25 release reports to place zero-minute Parker/Kabengele roster releases immediately before incoming assignments. Guide March26 remains a reported publication/administrative-date observation, not a late trade selection."
+  },
+  "authority_limits": {
+    "new_working_execution_selected": true,
+    "new_financial_terms_selected": false,
+    "actual_medical_clearance": null,
+    "actual_registration_certified": false,
+    "missing_source_equals_zero": false,
+    "private_all_history_absence_required": false,
+    "new_A1_A2_K_PASS": false,
+    "season_certified": false,
+    "manuscript_allowed": false,
+    "central_register_changed": false
+  },
+  "working_implementation_selections": {
+    "authority": "Existing delegated routine fictional execution; source-backed named contract families, not actual medical or league acceptance certification",
+    "CLE_FERRELL": {
+      "standard_roster_end_inclusive": "2021-01-14",
+      "hardship_dates_inclusive": [
+        "2021-01-11",
+        "2021-01-14"
+      ],
+      "end_is_working_public_contract_model_not_actual_waiver_certificate": true,
+      "remaining_salary_erased": false,
+      "working_written_termination_notice_selected": true,
+      "contract_exhibit_sums_preserved_not_zeroed": true,
+      "actual_notice_or_payment_certified": false
+    },
+    "HOU_HARDSHIP": {
+      "named_intervals": [
+        {
+          "player": "Khyri Thomas",
+          "from": "2021-05-07",
+          "to": "2021-05-13"
+        },
+        {
+          "player": "Cameron Oliver",
+          "from": "2021-05-10",
+          "to": "2021-05-16"
+        },
+        {
+          "player": "Cameron Reynolds",
+          "from": "2021-05-14",
+          "to": "2021-05-16"
+        }
+      ],
+      "medical_prerequisites_certified": false,
+      "actual_league_approval_certified": false,
+      "new_contract_money_selected": false
+    },
+    "SAC_ATOMIC_RELEASES": {
+      "players": [
+        "Jabari Parker",
+        "Mfiondu Kabengele"
+      ],
+      "feed_date_preserved": "2021-03-26",
+      "contemporaneous_report_date": "2021-03-25",
+      "working_roster_release_date": "2021-03-25",
+      "ordering": "RELEASE_BOTH_BEFORE_EXISTING_MARCH25_INCOMING_ASSIGNMENTS",
+      "guide_march26_is_trade_execution_date": false,
+      "trade_deadline_execution_shifted": false,
+      "reported_financial_obligations_erased": false,
+      "actual_receipt_clock": null
+    }
+  },
+  "primary_termination_rule": {
+    "raw_source_url": "https://nbpa.com/cba",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "article": "II9(e)",
+    "pdf_page": 70,
+    "printed_page": 48,
+    "page_text_sha256": "dd783e9f7f0912a41a2dc4b23a9d67f214a5874a6804221a5673f8f79c6f941f",
+    "paraphrase": "A ten-day contract can be terminated through written notice, paying the sums provided in its compensation exhibit.",
+    "whole_2020_amended_rules_certified": false,
+    "ordinary_II9d_last_regular_game_limit_is_not_automatically_ignored_for_unreported_contracts": true
+  }
+}
