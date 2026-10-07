@@ -1,0 +1,98 @@
+{
+  "independent_review_completed": true,
+  "classification": "SELECTED_17_CONTRACT_FY22_WINDOW_AND_D23_TYPED_COST_PORT_ACCEPTED_WHOLE_2022_23_UNCERTIFIED",
+  "reviewer": "g11_access independent physical source, fiscal window, CBA component, returned semantic review",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_chicago_2022_23_named_contract_window.py": "feaa5533388271cae57f1dec0cdc372f42d16128ff2980652247ea3cde4f8de0",
+    "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json": "21e860056c2654d5e4837911dac39e7f45f4d26388d353bc57594afefcecf1f4",
+    "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.md": "8b0af1600b6c53e011820417825604739464a3cb953c92ba9fe2c7f920c96fac"
+  },
+  "current_check_passed": true,
+  "saved_rebuild_equal": true,
+  "physical_source_pins": 11,
+  "primary_CBA": {
+    "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "selected_page_text_sha256": {
+      "32": "4acec95a4c21f903be8bb00a9de529fdd248808e356226328902d8b8c8bae6e1",
+      "75": "48c080a84ba9322dd6cd1b0d8c9c82c8f235ad70a3aa464cbcafc1611250b6a4",
+      "210": "6f155805eebeb105501cc90b1f27ff41e222d3413033bd952f010e9b4daa3c3a",
+      "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+      "292": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed",
+      "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+      "304": "fbc88aa3499f45d41bb440f5636d862a7aa2d49b34e3fcb76a5f8283d4f3a5aa",
+      "305": "a12359b0cd2c0327071aca49dc0c63115c2f5cc348f50eab907018979e97f52f",
+      "306": "35526e06761a7915a78dfe618ed22758764ce982bfe01cb934f3aa21e4955439",
+      "307": "29564957e50f2db83ae0817e9b644cc5ed30a017b1a8b40244bf3a9f8cc32e41",
+      "310": "6a860dfdb714499e550301e89b6cfb1527ce800299384df3fc55c384648f1b94",
+      "311": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744",
+      "314": "00bed2e48a3c10dcce6f1db6dbac242567f56871c932915d12918c9df6ad9bd3",
+      "315": "586c77e4bc0cea3d215b9f378aa5949bb74c2b718c1d64d5661f01b6dbccca0f"
+    },
+    "scope": "Same salary cap year/Season distinct, TW three-year/standard conversion, first-round immediate cap hold and apron RT branch, options/QO conditional."
+  },
+  "selected_implementation": {
+    "named_contracts": 17,
+    "standard": 15,
+    "two_way": 2,
+    "FY22_fiscal_window": "2022-07-01..2023-06-30",
+    "all_17_fiscal_end_derived_from_selected_last_capyear": true,
+    "LaMelo_Duarte_Oct1_options_current_year_cost_change": 0,
+    "Marko_selected_one_year_end": "2023-08-14",
+    "unsigned_CHI_first_round_domain": [
+      17,
+      18
+    ],
+    "unsigned_LAL_origin_second_domain": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "new_rookie_UPC": 0
+  },
+  "cost": {
+    "live15_upper": 141378541,
+    "legacy_stretch_upper": 16371000,
+    "old_normal_reservation": 13096000,
+    "old_apron_reservation": 14734000,
+    "normal_preserved_public_family_upper_before_D23": 170845541,
+    "apron_preserved_public_family_upper_before_D23": 172483541,
+    "N23": null,
+    "A23": null,
+    "after_D23_numeric_upper_certified": false
+  },
+  "prior_false_pass": "Before repair, returned Protagonist last_selected_fiscal_year_end changed from 2026-06-30 to 2023-06-30 passed build(). Repaired caller now rejects it.",
+  "independent_semantic_controls": [
+    {
+      "mutation": "returned CORE selected player identity reversal",
+      "rejected": true,
+      "error": "Source objects differ from pinned physical inputs"
+    },
+    {
+      "mutation": "returned Protagonist fiscal end 2026 to 2023",
+      "rejected": true,
+      "error": "Contract fiscal endpoint changed"
+    },
+    {
+      "mutation": "returned new D23 normal charge null to zero",
+      "rejected": true,
+      "error": ""
+    },
+    {
+      "mutation": "returned TW standard conversion prepaid",
+      "rejected": true,
+      "error": ""
+    }
+  ],
+  "scope_boundaries": {
+    "exact_private_Gamma_or_payment_receipt_certified": false,
+    "2023_new_first_draft_hold_zero_assumed": false,
+    "TW_NBA_playoff_use_without_conversion": false,
+    "LaVine_PO_exercise_selected": false,
+    "whole_2022_23_season_or_macro3_complete": false,
+    "new_author_lock_or_manuscript": false
+  },
+  "limits": "The 17 current contract windows are a selected source-supported continuation. Fiscal June30 labels are not UPC service end dates. Existing 2022 rank domains are not yet narrowed by the later selected fictional draw 18/57. N23/A23 must be supplied when a new 2023 first-round selection or outstanding Required Tender occurs; this is not whole FY22 Team Salary or actual tax legality."
+}

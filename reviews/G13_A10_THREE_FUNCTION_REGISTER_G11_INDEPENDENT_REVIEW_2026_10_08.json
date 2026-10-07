@@ -1,0 +1,67 @@
+{
+  "independent_review_completed": true,
+  "classification": "PRIOR_46_EXACT_PRESERVED_AND_TWO_BOUNDED_A10_LOCAL_FUNCTIONS_ACCEPTED_WHOLE_GATES_FALSE",
+  "reviewer": "g11_access independent physical register and returned semantic mutation review",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_g13_a10_three_function_register.py": "318df45fbfe42cccc6bb249dcb9e2ed0404267626fbfde051a72bc04c82878d0",
+    "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json": "def711fd705443c7e7bcce53996e2d825b99ae973e42b211b0e3385033d57bd9",
+    "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.md": "84f532c8ba96a1fa2c635528d5ad0e604baa357f68cf6b57ecb6cafd1b5fc7db",
+    "control/G13_A10_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "32680a5b29052ac3d6e3c267ad1acb9ede37f4741c0180fbe71cd22035cc634d",
+    "reviews/G13_A10_FUNCTION_EXECUTION_REGISTER_G11_INDEPENDENT_REVIEW_2026_10_08.json": "487c81bfc98207bbc7e1ff0578b21f9500bb215a028d5714ee77b733d68feaa0",
+    "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95",
+    "reviews/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "ab99e06a18d6e41d83e52d1be309c79b2e515fa91b201d426ffa2c10de714567"
+  },
+  "current_check_passed": true,
+  "saved_rebuild_equal": true,
+  "prior_46_full_rows_and_source_pins_preserved": true,
+  "counts": {
+    "registered_local_functions": 48,
+    "routed_subacts": 30,
+    "unrouted_subacts": 12,
+    "unassigned_planned_slots": 732,
+    "source_pins": 77
+  },
+  "handoffs": [
+    {
+      "id": "A10-EF-002",
+      "order": 47,
+      "planned_slot": 514,
+      "exact_entry_matches_previous_exit": true,
+      "exact_exit_matches_reviewed_function": true
+    },
+    {
+      "id": "A10-EF-003",
+      "order": 48,
+      "planned_slot": 515,
+      "exact_entry_matches_previous_exit": true,
+      "exact_exit_matches_reviewed_function": true
+    }
+  ],
+  "returned_semantic_controls": [
+    {
+      "mutation": "prior46 first function exit reversal",
+      "rejected": true,
+      "error": "Returned object differs from physical control/G13_A10_FUNCTION_EXECUTION_REGISTER_2026_10_08.json"
+    },
+    {
+      "mutation": "new EF47 exit reversal",
+      "rejected": true,
+      "error": "Returned object differs from physical design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json"
+    },
+    {
+      "mutation": "new packet whole-title flag promotion",
+      "rejected": true,
+      "error": "Returned object differs from physical design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json"
+    }
+  ],
+  "scope_boundaries": {
+    "whole_A10_complete": false,
+    "whole_g13_complete": false,
+    "whole_g14_complete": false,
+    "manuscript_allowed": false,
+    "2024_25_NBA_game_or_closing_authority_certified": false,
+    "2023_public_tournament_game_certified": false
+  },
+  "limits": "This checks the new consumer and the immutable 46-row snapshot. It does not revalidate the older ancestor DAG or certify the full CP2 A10 S2/S3 exits."
+}

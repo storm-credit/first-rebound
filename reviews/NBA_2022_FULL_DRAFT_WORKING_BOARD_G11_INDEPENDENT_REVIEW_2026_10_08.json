@@ -1,0 +1,32 @@
+{
+  "id": "NBA_2022_FULL_DRAFT_WORKING_BOARD_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_UNSELECTED_SOURCE_BOUND_60_ROW_WORKING_CANDIDATE",
+  "source_hash_method": "UTF8_BOM_STRIP_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_2022_full_draft_working_board.py": "0c1459a180bcf19be6fb964bdbec4852c05e1b5518a0e9ce12d9ddb4fbbd571a",
+    "research/NBA_2022_FULL_DRAFT_WORKING_BOARD_2026_10_08.json": "3bdad52ebaacda5abb23b9908b8ed3a9b85cfaa09d838819a959cd024a58e940",
+    "research/NBA_2022_FULL_DRAFT_WORKING_BOARD_2026_10_08.md": "183cbcfd438434dcb340cae056af621fc5f47bd902c37511b341accb979823c3"
+  },
+  "physical_primary_and_observation_checks": {
+    "official_initial_pdf": {"path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-draft2022-board-20261008/initial.pdf", "bytes": 126634, "raw_sha256": "30c19c0b058a5a4fba976bdc73523dbb4b68810572ca98e84723a223ebdb6815", "pages": 5, "initial_entries": 283, "college": 247, "international": 36},
+    "serialized_official_web_observations": {"final_head_raw_sha256": "c9c1d58a371fbbfc14b2f69a8acbaca97aeab96527044119670a110faf618b18", "final_tail_raw_sha256": "df5cd91a80c16aa553f5010b28d3975de2ca6efd63624e44f0febb2d3f670f8e", "draft_order_raw_sha256": "e977c12c13aa1d46db93ca404574ff216f0e31742c7f5283358e5a76ecce4363", "prospects_raw_sha256": "e07945a527711bd0d1ac4646e5abc3b15ca2683ed0bdcaf23ffc800b0b1a8e9c", "final_entries": 149, "withdrawn": 24, "actual_2022_draftee_identities_used_without_order": 58, "original_HTML_bytes_certified": false},
+    "current_source_reconstruction": "saved_validate=[] and --check current=true"
+  },
+  "board_checks": {
+    "rows": 60, "unique_players": 60, "rounds": [30, 30],
+    "eligibility_routes": {"timely_early_entry": 46, "international_timely_early_entry": 11, "professional_ignite_automatic_conditional": 3},
+    "additional_official_prospect_and_final_entry_names": ["Keon Ellis", "Justin Lewis"],
+    "working_Chicago_entitlements": {"18": "CHI origin; CHI holder; Walker Kessler", "57": "LAL origin; CHI holder; Keon Ellis"},
+    "prior_2021_draft_or_459_existing_owner_reuse": 0,
+    "original_2022_order_team_trade_imported": false,
+    "new_UPC_or_RequiredTender": 0,
+    "board_selected": false
+  },
+  "independent_mutations": [
+    {"case": "returned DRAW source changes pick 18 holder CHI to LAL without changing physical JSON", "stage": "build", "result": "REJECTED: Returned source differs from physical simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json"},
+    {"case": "returned board row 18 changes new_NBA_UPC_or_RequiredTender to true", "stage": "build", "result": "REJECTED: Returned candidate differs from source rank/identity/eligibility/authority"}
+  ],
+  "scope_limits": ["The 60 rows are draft candidates, not exercised picks or completed contracts.", "The three Ignite routes are conditional fictional paid-service eligibility; actual private papers and compensation were not certified.", "The historical 58 names and schools do not carry historical pick order, team, trades, forfeiture, or later NBA outcomes.", "Chicago 15 standard plus 2 two-way slots remain unchanged; selecting a first-round UPC later requires a named legal slot and cost consumer.", "No author lock, full FY22 cost, whole macro3, G13/G14, or manuscript completion is inferred."],
+  "files_modified_outside_this_review": false
+}

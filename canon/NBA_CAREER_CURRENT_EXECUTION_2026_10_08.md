@@ -1,16 +1,18 @@
 # NBA 커리어 현행 실행 인계 — 2026-10-08
 
-[원 커리어 연표](CAREER_TIMELINE.md)·[Story Bible](STORY_BIBLE.md)은 보존한다. 이 인계는 최신 수용된 **가상 작업 입력**을 함께 읽기 위한 추가 정본 자료이며 새작가잠금/미확인 값을 확정하지 않는다. 과거 연표의 해당 실행 미완 표시는 당시 시점으로 읽는다.
+[원 커리어 연표](CAREER_TIMELINE.md)·[Story Bible](STORY_BIBLE.md)은 보존한다. 최신 독립검문을 마친 가상 작업 선택은 [위임 결정 기록](DELEGATED_2022_DRAW_AND_CHICAGO_FIRST_ROUND_DECISION_2026_10_08.json)에 추가했다. 실제 역사·가상 선택·후속 후보·작가잠금을 분리한다. 원자료의 미선택/독립검문전 표시는 생성 당시의 상태이며 이 인계가 최신 수용 범위다.
 
 | 구간 | 현행 입력 | 남은 것 |
 |---|---|---|
-|2021–22 정규|[전역1230/CHI82](../simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.md), CHI52–30·동부7|실제점수/OT/박스/공식starts 미선택|
-|2022 플레이인|[4/12 홈 MIA 작업승리](../simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.md), PO7seed·1라운드PHI|시리즈결과·우승 미선택|
-|2022 옵션|[LaMelo4th/Duarte3rd 원통지 날짜join](../simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.md) 8창 수용|특정Finals마지막날/영수증 미확인|
-|2022 Draft|CHI own1R17↔own2R48 또는18↔47; 복합2R은 원조건함수 보존|draw/최종holder/새신인/Tender·UPC 미선택|
+|2021–22 정규|[전역1230/CHI82](../simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.md), CHI52–30·동부7|공식 박스/starts·OT 미선택|
+|2022 플레이인|[4/12 홈 MIA 작업승리](../simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.md), PO7|원 COBY_OUT 유지|
+|2022 첫 시리즈|[PHI4–3/7경기](../simulation/CHICAGO_PHI_2022_FIRST_ROUND.md), CHI4월30탈락·Coby4월16 정상역할 가상선택|다른14시리즈·우승/리그Season종료일 미선택|
+|2022 옵션/QO|[원옵션 날짜join](../simulation/CHICAGO_2022_ROOKIE_OPTION_WINDOW_JOIN.md)·[정규2624분 QO](../simulation/PROTAGONIST_2022_QO_STARTER_JOIN.md)|실제 GP/GS/OT·QO영수증 미인증|
+|2022 Draft|[전체60순번](../simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.md)·CHI first18/second LAL57·CHI ownsecond47→SAC|신인 지명·Tender/UPC는 별도 후보/계약 검문 대기|
+|2022–23 계약|[기존17계약 기간](../simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.md), 15STD2TW·원 E2/CX1/비용 보존|신규 신인 슬롯·분배/결과·2023 draft N23/A23·후속 재계약 미선택|
 
-모델 정규시간 출전 증인은 Protagonist82일/2624분, Coby58일/1044분이다. 이는 selected role clocks만 합산했으며 실제 GP/GS·미선택 OT·전체공식credited totals를 인증하지 않는다. 첫unordered block을 starter로 바꾸지 않는다. CBA starter분기 확정은 이 인계 자체가 하지 않는다.
+주인공 정규시간2624분과 선택 PO224분은 분리한다. PO분을 regular QO MIN에 더하지 않는다. Coby 정규58일/1044분·play-in OUT은 보존하며 4월16일부터의 정상역할은 새 위임 가상 선택이다. 실제 임상승인·공식 전체 통계를 인증하지 않는다.
 
-원Chicago 잔류·단계별 상승·라이벌 관계·승인M1/A·원급여/보호/명단을 변경하지 않았다. 고정평점 기록을 NBA관측/승률예측/MVP/title잠금으로 이월하지 않는다. 향후 실제 ContextPack에는 이 입력과 원canon 및 미완조건을 같이 넘긴다. 실제Pack0·원고0·v0.30 PARTIAL·설계/원고 CLOSED·미완료5/6번까지4.
+Chicago4월30탈락을 NBA전체 Season 종료일로 바꾸지 않는다. 기존 Finals G4–7의8옵션 창과 June29 QO/July7 E2·CX1 가격은 유지한다. 2023 신규 draft비용 N23/A23=null을 0으로 대체하거나 기존170,845,541/172,483,541을 이후 전체 비용 인증으로 쓰지 않는다.
 
-[별도 주인공2022 QO 연결](../simulation/PROTAGONIST_2022_QO_STARTER_JOIN.md)은 선택된 정규시간을 가상NBA통계에 계상하는 가족 아래4년차2,000분 분기를 닫았다. 실제NBA기록·QO영수증을 인증하지 않으며 Coby2023 starter는 미정이다. 기존E2/CX1·가격/15+2/원비용 불변.
+기존 Chicago 잔류·단계적 상승·M1/A와 핵심선수 가격/보호의무를 유지한다. 실제Pack0·원고0·v0.30 PARTIAL·CLOSED·미완료큰묶음5/6번까지4.
