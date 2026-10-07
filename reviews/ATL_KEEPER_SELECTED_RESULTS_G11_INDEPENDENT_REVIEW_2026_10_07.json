@@ -1,0 +1,37 @@
+{
+  "id": "ATL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_FOUR_DATE_SELECTED_FICTIONAL_ATLANTA_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_atl_2021_keeper_and_chicago_selected_results.py": "8cfd729b4c870936056be307f00feb716e460ac431b3cad6297bdc12e95bfea2",
+    "simulation/CHICAGO_ATLANTA_2021_22_SELECTED_KEEPER_RESULTS.json": "cbba94c48498e68506c257e8b05116b6d8210acd64bda29063d20875b015d19c",
+    "simulation/CHICAGO_ATLANTA_2021_22_SELECTED_KEEPER_RESULTS.md": "c03462703fb1e46988d58b54bbf49442426a4a619a6fdd6319d65d0bbcc4cec6"
+  },
+  "source_and_contract_scope": "The selected draft source places Jalen Johnson #19 with Atlanta and Sharife Cooper #47 in a separate unsigned tender family; original #20/#48 and a later 2022 profile paragraph are not imported. Goodwin's prior UPC ends without a new Atlanta UPC, while Dunn's original player option remains a conditioned exercise. Collins's own Full Bird five-year q20–25m legal price family is kept distinct from the prior ordinary/nonstarter RSC QO functions. Lou Williams, Tony Snell and Solomon Hill are modeled as one-year own minimum contracts; old earned Gamma and FA claims remain. Actual signed prices, notice receipts and entire private team cost are not certified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Atlanta_player_seconds_each": 14400,
+    "positive_Atlanta_players": 11,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; Jalen has six working minutes, while Sharife is unsigned and not on the standard roster",
+    "exact_fraction_recalculation": "Each weighted team BPM, home adjustment and back-to-back adjustment reproduces the saved exact Chicago-minus-Atlanta fraction; the Jalen coefficient is a selected conservative rookie prior, not measured 2021-22 performance.",
+    "results": [
+      {"game_id": "0022100502", "date": "2021-12-27", "winner": "ATL", "CHI_margin_per100": -2.5645202105612483},
+      {"game_id": "0022100519", "date": "2021-12-29", "winner": "CHI", "CHI_margin_per100": 1.9354797894387514},
+      {"game_id": "0022100891", "date": "2022-02-24", "winner": "CHI", "CHI_margin_per100": 1.9354797894387514},
+      {"game_id": "0022100710", "date": "2022-03-03", "winner": "ATL", "CHI_margin_per100": -2.0645202105612483}
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned [] for the current JSON and MD; all four dates and Chicago health states come from the selected physical calendar.",
+  "independent_negative_control": {
+    "mutation": "Both returned selected-draft loader objects changed Atlanta's #19 Jalen Johnson row to an original #20 player while physical source bytes remained fixed.",
+    "result": "REJECTED ValueError Selected firstRSC rights changed"
+  },
+  "limits": [
+    "Selected Hunter/Reddish recovery and Okongwu availability are fictional operating states, not historical clinical or protocol facts.",
+    "No original Reddish-to-New-York or Dunn/Bruno-to-Boston trade, later extension, score, overtime or remaining 2021-22 Atlanta result is imported."
+  ]
+}

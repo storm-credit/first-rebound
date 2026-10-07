@@ -1,0 +1,28 @@
+{
+  "id": "FINALS_2022_PUBLISHED_DATE_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_PUBLISHED_SCHEDULE_AS_CONDITIONAL_DATE_WINDOW_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "research/FINALS_2022_PUBLISHED_DATE_WINDOW_2026_10_07.json": "8fdf5f89c1e476ab9c1818713910b32f0c21cd0c79987222b27b08693adc45cd",
+    "research/FINALS_2022_PUBLISHED_DATE_WINDOW_2026_10_07.md": "405b4f71a615cb1af33564352a9e06adadf4613791093cb873acc687a07444e1"
+  },
+  "direct_primary_web_observation": [
+    {
+      "url": "https://www.nba.com/news/play-in-tournament-returns-for-2021-22-season",
+      "locator": "2021-07-27 official release, key dates lines 188-190",
+      "observed": "Finals begin 2022-06-02; Game 7 2022-06-19 only if necessary"
+    },
+    {
+      "url": "https://espnpressroom.com/press-release/2022-nba-finals-presented-by-youtubetv-exclusively-on-abc-golden-state-warriors-vs-boston-celtics-starts-june-2/",
+      "locator": "2022-05-31 official broadcaster date/game table lines 32-40",
+      "observed": "Games 1-7 scheduled June 2,5,8,10,13,16,19; games 5-7 explicitly if necessary"
+    }
+  ],
+  "inference_check": "For an adopted, non-rescheduled published schedule, a best-of-seven series ends at Game 4-7 on June 10, 13, 16 or 19. All are before October 1. This is a bounded conditional calendar inference, not an observed alternate-series end.",
+  "scope_limits": [
+    "Web bodies were directly observed; the leaf does not retain raw HTML bytes or source-body SHA.",
+    "No alternate calendar, participant, winner, series length, actual ending date or complete option notice join is selected.",
+    "Actual historical Golden State championship is not imported into the alternate world."
+  ]
+}

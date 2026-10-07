@@ -1,0 +1,37 @@
+{
+  "id": "CHI82_SIXTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_64_OF_82_SELECTED_FICTIONAL_REGULATION_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "0e6b2888743daf94a3d22c71838c2be035d411800cf95f2d1060cbf5ce46d26e",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "7c3b7a6cc6ebdfe11ac5cff15e08e4d4543863bf16225cbec29cdfb8a364410c",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "9465e664789e8c5a296ee971c13c71bf93170493ee04c2b0260c5de9f1b48d18",
+    "reviews/ATL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "8bc6bcc342514f368b9003483faa60115edc877589b13519d2913cca77c92dbf",
+    "reviews/WAS_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "a775fbb8a511d8c368a4bf1ba3784e93aca7be41249cd44fed7bb56eee293295",
+    "reviews/DET_LATER_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "c1ff3508e29e806b61d6c34ef2d44642bc6d0d12b315657485bf5f6ec863a22a"
+  },
+  "direct_checks": {
+    "source_bound_saved_reconstruction": "Saved ledger equals fresh build; all current parent source hashes and review pointers match.",
+    "physical_calendar_and_health": "All 82 game IDs are unique and retain the exact predecessor date, home, away and selected Chicago health state.",
+    "new_results": "Atlanta 4, Washington 3 and later Detroit 2 each match source game ID, date, home/away, Chicago state and winner, with their current independent peer pointers.",
+    "selected_named_result_source_review_groups": 23,
+    "selected": 64,
+    "Chicago_working_wins": 41,
+    "opponent_working_wins": 23,
+    "remaining": 18,
+    "remaining_is_exact_calendar_order_complement": true,
+    "next_game_id": "0022100658",
+    "next_date": "2022-01-17",
+    "previous_55_review_preserved_as_immutable_main": "5ee051c02c364eae950d390cc7611b3ef8c4a88a",
+    "temporary_59_and_62_not_promoted_as_historical_reviews": true
+  },
+  "independent_negative_control": {
+    "mutation": "Returned later-Detroit first winner was flipped from Chicago to Detroit while physical source and date stayed unchanged.",
+    "result": "REJECTED ValueError Returned input differs from physical source: simulation/CHICAGO_DETROIT_2022_LATER_SELECTED_KEEPER_RESULTS.json"
+  },
+  "limits": [
+    "The remaining 18 results, full standings, draft pick, scores and overtime remain unselected.",
+    "No real medical, contract receipt, entire private cost or whole macro3/G13/G14/G16 certification is inferred; manuscript remains closed."
+  ]
+}

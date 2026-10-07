@@ -1,0 +1,36 @@
+{
+  "id": "DET_LATER_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_LATER_SELECTED_FICTIONAL_DETROIT_RESULTS_AFTER_ROLE_GUARD_REPAIR",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_det_2022_later_keeper_and_chicago_selected_results.py": "4b61d143a7c21e10c48d16aaf529bc56f453b43133d6f3441ac21025db2cadc9",
+    "simulation/CHICAGO_DETROIT_2022_LATER_SELECTED_KEEPER_RESULTS.json": "e36230ee245762be758b81991d1f5d1f1136103ae01e5eee0dd5e7c318cc00fb",
+    "simulation/CHICAGO_DETROIT_2022_LATER_SELECTED_KEEPER_RESULTS.md": "6e06809b68758055b0226b2de2365ead434b3a691824b3bdd73e388b45ca04e6"
+  },
+  "source_scope": "The existing selected Detroit 15-standard/2-two-way roster and dated role sequence are reused for Jan 11 and Mar 9, without a new contract or trade. The reviewed public family remains q in [3000000,7000040], X in [0,5361732], six cost categories and full Sekou/Okafor 5743703 charge. Aldama #37 stays unsigned with an operative tender window not shorter than Oct 15; current modeled nonacceptance does not certify perpetual draft rights. Suggs #5, Livers #38 and Garza #53 retain distinct source classes. Original Grant/Bagley/Jordan transactions and actual injury chronology are not imported.",
+  "direct_clock_and_result_check": {
+    "source_role_blocks_after_adjacent_compression": 9,
+    "clock_seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Detroit_player_seconds_each": 14400,
+    "positive_Detroit_players": 10,
+    "active_each": 12,
+    "registration": "15 standard and 2 two-way, no new two-way NBA activation",
+    "exact_fraction_recalculation": "Weighted ratings plus home and back-to-back effects reproduce both stored exact fractions.",
+    "results": [
+      {"game_id": "0022100415", "date": "2022-01-11", "winner": "CHI", "CHI_margin_per100": 8.010278428172999},
+      {"game_id": "0022100982", "date": "2022-03-09", "winner": "CHI", "CHI_margin_per100": 3.5102784281729984}
+    ]
+  },
+  "currentness": "After the chronology guard repair, saved producer validate returned [] and the current JSON and MD match source-bound reconstruction.",
+  "independent_counterexample_and_repair": {
+    "original_false_pass": "Both returned loader objects swapped Detroit positions between two 120-second source segments 0 and 7. Total player minutes, roster, physical source SHA and winners were unchanged, but the prior constructor accepted an altered first five-player block.",
+    "retest_same_mutation": "REJECTED ValueError Returned frozen role semantic differs from reviewed source",
+    "repair_scope": "The caller compares the full returned source-role meaning to the fixed reviewed physical chronology; no new player minutes, score or opponent outcome was selected."
+  },
+  "limits": [
+    "The two later selected operational health states are fictional and do not certify Grant/Olynyk clinical recovery or a whole Detroit season.",
+    "This review does not redo the earlier two Detroit date or six-category financial ancestry audits; it verifies their consumed current inputs and the new two-date result join."
+  ]
+}
