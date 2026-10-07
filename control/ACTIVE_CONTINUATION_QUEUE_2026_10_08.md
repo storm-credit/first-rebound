@@ -57,3 +57,7 @@ PR506 다음 [현행 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADO
 ## FY26 Jaquez·Kessler 선택 이후
 
 [현행 인계](../reviews/FY26_ROLLOVER_JAQUEZ_KESSLER_CONTINUATION_ADOPTION_2026_10_08.md)가 PR508 다음 기준이다. [원FY26 이월](../research/CHICAGO_2026_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json)4/9/2는 생성시점이고 [Jaquez 원Year4](../simulation/CHICAGO_FY26_JAQUEZ_SELECTED_OPTION_NOTICE.json)와 [Kessler K26A](../simulation/CHICAGO_2026_KESSLER_SELECTED_RENEWAL_EXECUTION.json)의 별도선택·독립검문을 연결한다. 입력 구성요소6, 만료8+LaVinePO1=남은9포트; 아직 같은날짜 FY26 15명 전체등록/wholecost/시즌 인증0. 다음 P/Carter/Coby+minimum5갱신·LaVinePO를 계속한다. 실제외부 AGY답·NLM최초timeout/같은source재시험답·Claude2원문기각 이력 보존. 중요좌표 dependent HOLD·Pack0·CLOSED·Goal ACTIVE·일정0.
+
+## FY26 명명15 종료·유한 출구 우선
+
+[현행 인계](../reviews/FY26_NINE_NAMED15_AND_FINITE_SCOPE_CONTINUATION_ADOPTION_2026_10_08.md): FY26 선택9와같은날짜15명계약입력 결합·독립검문 완료, 남은계약포트0. 전체실등록/cost/시즌은false. [범위감사](../reviews/FINITE_4_TO_6_COMPLETION_DEPENDENCY_AUDIT_2026_10_08.json) 기준으로 자동진행은다음연도minimum반복보다원A10후행QUAL1/역할 current출구와실제4–6필수상호비용·정보/배치에우선한다. A10원한정기능출구는이번수용으로완료이며이를다시준비하지않는다. 다음은A08조건부해석·독립정보/배치와A11–14후기좌표종속이다. Reserved후기좌표의종속승격HOLD보존, 독립작업계속. NLM새답·Claude첫timeout/짧은답·AGY기존cap재사용을구분. GoalACTIVE·일정0·CLOSED·Pack0·원고0.

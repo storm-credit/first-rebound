@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-08 [FY26 남은9·명명15·유한범위 인계](../reviews/FY26_NINE_NAMED15_AND_FINITE_SCOPE_CONTINUATION_ADOPTION_2026_10_08.md): PR509 main 이후 UFA3/min5/LV기존PO 선택과명명15 조건부계약입력을 독립·root검문. 남은계약9→0, 기존UPC6+새9/15STD0TW·원Gamma/6비용·현실/wholecost시즌false 보존. NLM새답·Claude첫timeout/짧은답·AGY기존cap재사용 분리. A10 원한정기능출구3/3도후행증거·독립/root검문으로수용. 다음은A08조건부해석·A11–14좌표종속·정보/배치이며미래연차minimum반복을추가종료요건으로삼지않는다. Reserved후기좌표종속HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
+
 2026-10-08 [FY26 이월·Jaquez·Kessler 인계](../reviews/FY26_ROLLOVER_JAQUEZ_KESSLER_CONTINUATION_ADOPTION_2026_10_08.md): PR508 main 다음.1–3/FY25 15입력 완료 보존. FY26 원15의4존속/9권리/2옵션 검문, Jaquez Oct1 원Year4와 Kessler K26A4년53.76m·timelyQO/holdonce 선택·독립검문. 구성요소6/남은8만료+PO1=9포트, 전체등록·Gamma정확값·wholecost·시즌 인증0. AGY답, NLM최초timeout 후 동일source짧은답, Claude2지적의 CBA원문기각 기록. 후기 좌표/전체G13/G14 미완료·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전이력이다.
 
 2026-10-08 [FY25 갱신6·명명15 계약 입력 인계](../reviews/FY25_NAMED15_AND_RENEWAL_CONTINUATION_ADOPTION_2026_10_08.md): PR507 main 다음 작업. 1–3번 완료 보존. Duarte D25A$12m×3·timely-QO와 minimum5 1년 법정급여 선택·독립검문, 현금/환급Salary·같은hold/QO한번·원Gamma를 보존했다. carry5 FY25 연차와 같은 날짜7→15명의 유효 가족·명의/용량/소스를 결합·검문했다. 신규갱신6의 남은입력0이며 정확 사적센트·전체tax/cash·시즌·현실등록은 별도다. 다음 FY26 만료/옵션·cap자료·후기 연차를 계속한다. 전체커리어/배치/G13/G14 미완료, 미완료4/6번까지3. v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전이력이다.

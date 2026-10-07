@@ -1,0 +1,43 @@
+{
+  "id": "G13_A10_CURRENT_EXIT_INPUT_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "ACCEPTED_BOUNDED_SOURCE_JOIN_NOT_WHOLE_ACT_CLOSURE",
+  "independent_review_completed": true,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "control\\G13_A10_CURRENT_EXIT_INPUT_JOIN_2026_10_08.json": "1a8e91759844799ef054e026103bdff748950bac2d77d61ecc1d17168e106212",
+    "control\\G13_A10_CURRENT_EXIT_INPUT_JOIN_2026_10_08.md": "cbab8b0088e9982a095cf05ac75b34b4e39eb642e9954c8ed3a926431d3d5f60"
+  },
+  "physical_current_source_pins_checked": 14,
+  "direct_checks": [
+    {
+      "scope": "A10-S1/S2/S3 original CP2 and registered literal exits",
+      "result": "PASS",
+      "evidence": "Three ordered CP2 rows 27–29 each match original choice, cost and exit; each literal EF entry/exit matches its direct function body."
+    },
+    {
+      "scope": "original A10 Act exit without stronger invented gates",
+      "result": "PASS_BOUNDED",
+      "evidence": "CP2 A10 asks for short self-creation plus better next choice, costs LaVine closing authority and defensive load, and exits as priority-core candidate with title-eligibility trial. GAME1 failure/retry and shared LV/P clock show bounded choice and cost; QUAL1 admitted CHI6/PHI3 with two named trials supports eligibility trial. Original text does not require permanent first-option efficiency, an 82-game result, a selected series winner, or HANDOFF1 as a new prerequisite."
+    },
+    {
+      "scope": "selected bounded observations",
+      "result": "PASS",
+      "evidence": "GAME1 gives failed P6/LV2 then P3/LV5 retry; S2 keeps LaVine present with LV8→LV5, P+3 and Melo0; QUAL1 is CHI6/PHI3 admitted setting with two distinct dated cutter/help cost windows, not a selected series winner or full 82-game efficiency."
+    },
+    {
+      "scope": "mandatory vs optional handoff",
+      "result": "PASS",
+      "evidence": "All three literal exits have bounded support with zero new mandatory local actions. HANDOFF1 remains candidate and new_occurrence_selected=false."
+    },
+    {
+      "scope": "limits",
+      "result": "PASS",
+      "evidence": "Whole A10, permanent first-option efficiency, full series result, new title/MVP, Pack and manuscript remain false."
+    }
+  ],
+  "independent_constructor_or_mutation_tests_executed": 0,
+  "writer_self_tests_counted_as_independent": 0,
+  "acceptance_scope": "May inform root whole-Act disposition with bounded A10 evidence. It is not a whole-Act or historical certification.",
+  "blockers_for_bounded_source_join": [],
+  "remaining_root_disposition": "Root separately decides whole A10 against original Act exit; HANDOFF1 is optional and not a prerequisite invented by this review."
+}
