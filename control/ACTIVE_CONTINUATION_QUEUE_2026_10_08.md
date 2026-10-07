@@ -37,3 +37,7 @@
 ## 60 Blueprint와 역할 비용 회수 인계
 
 [60 국소 권위 연결](G13_CURRENT_BLUEPRINT_AUTHORITY_REGISTER_2026_10_08.json)을 총괄 독립 검문 후 수용했다. 기존31·새29·W1 완료, 실제Pack0이며 이전 누락Blueprint 큐는 작성 당시 이력이다. 현행 다음 작업은 A10 한 경기의 명명 NPC UPC/옵션·가용성·실패/재시도 관측이다. [장기 중요 좌표](../design/LONG_CAREER_MAJOR_COORDINATE_CURRENT_DECISION_PACKET_2026_10_08.json)는 준비된 후보3안으로 유지하고 해당 승격만 HOLD; 원고/OPEN은 별도 명시 승인 단계다. 이전 종료된 에이전트에 다음일을 시작할 때 followup_task를 사용하고, CLI process 실패는 기록·최소수리 후 회수한다. 일정등록0.
+
+## Game1 두 역할 관측 실행 인계
+
+[2024Game1](../simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json)의admitted조건부합법가족·당일13/2·두8초창 실패/공동이양을 독립검문후인계했다. 전체게임/첫옵션효율/QUAL1미완료. [현행막출구](G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json)를소비하고이전57/39/root대기감사는이력으로보존한다. A09의원복귀팀훈련관측은재사용,2024년으로2023–24성과소급인증0. 다음은중요후기좌표와무관한최종배치/자격의유한입력준비·전체G13역사출구잠금이며제목선택만으로끝난것처럼세지않는다. GoalACTIVE·일정0·Pack0·원고0·CLOSED.

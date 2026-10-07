@@ -1,7 +1,7 @@
 {
   "id": "NBA_CAREER_CURRENT_EXECUTION_2026_10_08",
   "observed_local_date": "2026-10-08",
-  "baseline_main": "09dbc31cd4caf52ff401ec7153727ba3c45c42dd",
+  "baseline_main": "e0551d71f2b17a77df46b1502294adf5441c555d",
   "classification": "CURRENT_ACCEPTED_WORKING_FICTIONAL_EXECUTION_OVERLAY_NOT_NEW_AUTHOR_LOCK",
   "source_sha256": {
     "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
@@ -76,7 +76,7 @@
     "research/CHICAGO_2023_ROOKIE_CANDIDATE_FAMILY_2026_10_08.json": "aff589693b19e632ed8528a789a15ed81c362b002081060c79ebba53d506f1e9",
     "canon/DELEGATED_CHICAGO_2023_ROOKIE_DESIGN_SELECTION_2026_10_08.json": "760a89713400eb4e52de67139d7b708fce1df14d5ad694a4908299b3b49b70ba",
     "design/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_2026_10_08.json": "e34d8e164403795750625757387b007f0fc66bf83b06cba5b50914b11e884dc5",
-    "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md": "8ed09ec2b4ee03be94f60d827c0943e89f220f813b70ac6414dfa759b5b59a03",
+    "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md": "ce317ed170ceb11aefc0f9ac10e835803523ec329ab57a03e1ef6117fb6abf20",
     "reviews/A14_S1_S2_S3_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "29d65180e16607c719eec6e2f777ac6d32ede319bb1a7a2fb55cd1e4aaa987b6",
     "reviews/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "cb4dbcbb89186683f5991efc6542a388e54d143e73c4416280f602f39565769e",
     "reviews/CHI_2023_SELECTED_ROUTINE_EXECUTION_G11_INDEPENDENT_REVIEW_2026_10_08.json": "e9bfc3699dd2da3c4cfd6871e05f1b729748674018e617f098f3e5138065f169",
@@ -103,7 +103,14 @@
     "reviews/A10_NAMED_ROLE_PACKET_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "09f30ab4a6deec4efd0d4abfd5149903e916790abca488fdc845601a3193052a",
     "reviews/A10_ROLE_EXTERNAL_OUTPUT_DISPOSITION_ROOT_2026_10_08.json": "5d79aafb1ba7b354a6b41ab61d5074de71b21ac5549c5de7f949bb01120a6948",
     "design/LONG_CAREER_MAJOR_COORDINATE_CURRENT_DECISION_PACKET_2026_10_08.json": "4c24a70472700fde3da589c44897281a8d70f7c8f41f838c115815df62667468",
-    "reviews/LONG_CAREER_CURRENT_COORDINATE_PACKET_ROOT_REVIEW_2026_10_08.json": "3b256ea8aa226fc25c4d358cf7dccc1710d4f5d0f1d020755abcc50f6bb78f3a"
+    "reviews/LONG_CAREER_CURRENT_COORDINATE_PACKET_ROOT_REVIEW_2026_10_08.json": "3b256ea8aa226fc25c4d358cf7dccc1710d4f5d0f1d020755abcc50f6bb78f3a",
+    "research/A10_2024_25_GAME1_NAMED_INPUTS_2026_10_08.json": "3934ed7610e478ea087234d87165d26bf824810862cf4f10a15bffc7c7fadfae",
+    "reviews/A10_GAME1_NAMED_INPUTS_CHI_INDEPENDENT_REVIEW_2026_10_08.json": "5722d2011549e61020549e89ca6c29b4f67aa97bd10a57793c1b5bc5aa443cc9",
+    "canon/DELEGATED_A10_GAME1_ROLE_WINDOW_SELECTION_2026_10_08.json": "3ae631359abb2358e22fe6242310fc038593b28e668cde432a0988e5b35923e2",
+    "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json": "a622e5b28b22da05f3aa4e20348f3bc50e34ea95ba62c59424ccc16718241c0d",
+    "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json": "59854742520a71a59a09b3116cdb3128993e68b96f88239cfb9d2c1633e7bc9d",
+    "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json": "7d494400fb2e8f22f90510ef5d915408e2a8e20a26c6b975a690aea0ead46c00",
+    "reviews/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_ROOT_REVIEW_2026_10_08.json": "7236ba5bef3cda03729a60bdf3de6dd71da6ed306ac6b062eb54830f631c8574"
   },
   "parent_canons_preserved": true,
   "NBA_2021_22": {
@@ -654,6 +661,20 @@
       "regulation_player_minutes": 240,
       "actual_game_or_health_certified": false,
       "next": "single named GAME1 NPC contracts/option notices/day availability and separate failure/retry observations"
+    },
+    "Game1_role_window": {
+      "source": "simulation/A10_GAME1_SELECTED_ROLE_WINDOW.json",
+      "independent_review": "reviews/A10_GAME1_SELECTED_ROLE_WINDOW_CHI_INDEPENDENT_REVIEW_2026_10_08.json",
+      "selected_game_id": "0022400069",
+      "date": "2024-10-23",
+      "lawful_admitted_contract_function_not_private_certificate": true,
+      "active_per_team": 13,
+      "selected_independent_role_windows": 2,
+      "each_team_player_seconds_per_window": 40,
+      "earlier_joint_handoff_completed": true,
+      "whole_game_winner_or_score": null,
+      "first_option_efficiency_or_QUAL1_complete": false,
+      "whole_A10_complete": false
     }
   },
   "current_local_Blueprint_authority": {
@@ -676,5 +697,15 @@
     "selected_option": null,
     "dependent_promotion": "HOLD_AUTHOR_CONSEQUENTIAL_COORDINATE_SELECTION",
     "independent_GAME1_work_continues": true
+  },
+  "current_whole_Act_exit_overlay": {
+    "source": "control/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_2026_10_08.json",
+    "independent_review": "reviews/G13_CURRENT_WHOLE_ACT_EXIT_STATUS_ROOT_REVIEW_2026_10_08.json",
+    "subacts": 42,
+    "acts": 14,
+    "source_functions": 60,
+    "already_accepted_bounded_joins_not_reopened": true,
+    "whole_historical_Act_or_final_allocation_complete": false,
+    "actual_Pack_compilation_authorized": false
   }
 }
