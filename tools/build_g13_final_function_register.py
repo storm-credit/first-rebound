@@ -16,6 +16,8 @@ import build_a04_e4_final_episode_function as a04_e4
 import build_a04_e5_final_episode_function as a04_e5
 import build_a05_final_function_batch as a05_batch
 import build_a06_2020_21_finite_function_batch as a06_batch
+import build_a07_finite_function_batch as a07_batch
+import build_a08_finite_function_batch as a08_batch
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = Path('control/G13_FINAL_FUNCTION_REGISTER.json')
@@ -143,12 +145,30 @@ def build(root=ROOT):
     assert all(a06_records[i]['entry_state'] == a06_records[i-1]['exit_state'] for i in range(1,5))
     all_records = old + [extra, second, third, fourth, fifth, sixth, seventh, eighth] + a05_records + a06_records
     extension_paths = [EXTENSION, SECOND_EXTENSION, THIRD_EXTENSION, FOURTH_EXTENSION, FIFTH_EXTENSION, SIXTH_EXTENSION, SEVENTH_EXTENSION, EIGHTH_EXTENSION] + a05_paths + [a06_path]*5
+    for builder, act, first_order, first_slot in [(a07_batch,'A07',37,323),(a08_batch,'A08',40,383)]:
+        path = str(builder.OUTPUT).replace('\\', '/')
+        batch = read(root, path)
+        assert not builder.validate(batch, root=root), f'{act} batch must be source-current'
+        assert batch['status'] == 'THREE_LOCAL_FINAL_FUNCTIONS_INDEPENDENTLY_REVIEWED'
+        assert batch['independent_review_completed'] is True and len(batch['functions']) == 3
+        assert batch['previous_function']['id'] == all_records[-1]['episode_function_id']
+        assert batch['previous_function']['exact_full_exit'] == all_records[-1]['exit_state']
+        for i, row in enumerate(batch['functions']):
+            assert row['id'] == f'{act}-EF-{i+1:03}'
+            assert row['global_function_order'] == first_order+i
+            assert row['planned_allocation_slot'] == first_slot+i
+            assert row['status'] == 'FINAL_EPISODE_FUNCTION_LOCAL_COMPLETE'
+            assert row['entry_state'] == all_records[-1]['exit_state']
+            all_records.append(dict(row, episode_function_id=row['id'], final_function_order=row['global_function_order'],
+                                    act=act, whole_g13_complete=batch['whole_g13_complete'],
+                                    manuscript_allowed=batch['manuscript_allowed'], batch_record_pointer=f'/functions/{i}'))
+            extension_paths.append(path)
     paths = base['final_episode_function_paths'] + extension_paths
-    assert len(paths) == 36 and len(set(paths)) == 32
-    assert len({(p,d.get('batch_record_pointer','')) for p,d in zip(paths,all_records)}) == 36
-    assert [d['final_function_order'] for d in all_records] == list(range(1,37))
+    assert len(paths) == 42 and len(set(paths)) == 34
+    assert len({(p,d.get('batch_record_pointer','')) for p,d in zip(paths,all_records)}) == 42
+    assert [d['final_function_order'] for d in all_records] == list(range(1,43))
     slots = [d['planned_allocation_slot'] for d in all_records]
-    assert len(slots) == len(set(slots)) == 36
+    assert len(slots) == len(set(slots)) == 42
     subacts = {s['id']: s for s in base['subacts']}
     acts = {a['id']: a for a in base['acts']}
     rows=[]
@@ -164,7 +184,7 @@ def build(root=ROOT):
         if 'batch_record_pointer' in d: rows[-1]['record_pointer']=d['batch_record_pointer']
         assert isinstance(rows[-1]['exact_entry'],str) and rows[-1]['exact_entry']
     per_act=dict(Counter(d['act'] for d in rows))
-    assert per_act == {'A01':9,'A02':10,'A03':3,'A04':5,'A05':4,'A06':5}
+    assert per_act == {'A01':9,'A02':10,'A03':3,'A04':5,'A05':4,'A06':5,'A07':3,'A08':3}
     source_paths=['tools/build_g13_final_function_register.py',BASE,
                   'tools/build_cp2_design_packets.py','tools/build_a03_e1_final_episode_function.py',
                   'tools/build_a03_e2_final_episode_function.py',
@@ -174,17 +194,18 @@ def build(root=ROOT):
                   'tools/build_a04_e3_final_episode_function.py',
                   'tools/build_a04_e4_final_episode_function.py',
                   'tools/build_a04_e5_final_episode_function.py',
-                  'tools/build_a05_final_function_batch.py','tools/build_a06_2020_21_finite_function_batch.py',*paths]
+                  'tools/build_a05_final_function_batch.py','tools/build_a06_2020_21_finite_function_batch.py',
+                  'tools/build_a07_finite_function_batch.py','tools/build_a08_finite_function_batch.py',*paths]
     source_paths=list(dict.fromkeys(source_paths))
     return {
         'schema':'G13_CUMULATIVE_FINAL_FUNCTION_REGISTER_V1',
         'status':'SOURCE_CURRENT_LOCAL_FUNCTIONS_NOT_WHOLE_G13',
         'base_snapshot':{'path':BASE,'registered_functions':19,'preserved_without_edit':True},
         'extension_function_paths':extension_paths,
-        'counts':{'registered_local_functions':36,'per_act':per_act,
+        'counts':{'registered_local_functions':42,'per_act':per_act,
                   'subacts_with_verified_local_function_route':len({d['subact'] for d in rows}),
                   'subacts_without_verified_local_function_route':42-len({d['subact'] for d in rows}),
-                  'planned_allocation_slots':780,'unassigned_planned_slots':744,
+                  'planned_allocation_slots':780,'unassigned_planned_slots':738,
                   'planned_slots_are_mandatory_new_events':False,'final_published_episode_count':None},
         'functions':rows,
         'historical_comparison_rule':'The preserved CP2/first-six audit snapshot remains19. This cumulative registry explicitly validates that prefix and the reviewed A03 extension, and is the current local assignment count. Whole exits and history locks are separate gates.',
@@ -198,7 +219,10 @@ def build(root=ROOT):
         'a04_e4_to_e5_approved_summer_choice_handoff_verified':True,
         'a04_e5_to_a05_four_function_batch_handoff_verified':True,
         'a05_e4_to_a06_five_function_batch_handoff_verified':True,
-        'batch_record_resolution':'For a row with record_pointer, read its path then apply JSON Pointer to select that specific function; five records share one batch file.',
+        'a06_e5_to_a07_three_function_batch_handoff_verified':True,
+        'a07_e3_to_a08_three_function_batch_handoff_verified':True,
+        'a08_practice_route_does_not_certify_CF03_NBA_trial_or_whole_S2':True,
+        'batch_record_resolution':'For a row with record_pointer, read its path then apply JSON Pointer to select that specific function; A06/A07/A08 each have multiple distinct records in one batch file.',
         'whole_subact_or_act_exit_promoted_by_this_register':False,
         'whole_g13_complete':False,'whole_g14_complete':False,'actual_context_packs':0,
         'manuscript_count':0,'manuscript_allowed':False,'design_gate':'CLOSED','author_locked':False,
@@ -208,8 +232,8 @@ def build(root=ROOT):
 
 def render(d):
     lines=['# G13 현재 국소 기능 누적 등록', '',
-           '원 CP2의19개 등록 스냅샷을 보존하고 A03/A04의8개 producer·A05/A06 일괄 producer를 실제 검문하여 현재 누적36개를 연결한다. 전체 G13 완료나 출판36회차 확정이 아니다.', '',
-           '- 현재 배정: A01 9·A02 10·A03 3·A04 5·A05 4·A06 5, 합계36. 기능 경로가 있는 소막18·없는 소막24. A06 다섯 기능은 한 파일과 각각의 JSON Pointer로 구분한다.',
+           '원 CP2의19개 등록 스냅샷을 보존하고 A03/A04의8개 producer·A05~A08 일괄 producer를 실제 검문하여 현재 누적42개를 연결한다. 전체 G13 완료나 출판42회차 확정이 아니다.', '',
+           '- 현재 배정: A01 9·A02 10·A03 3·A04 5·A05 4·A06 5·A07 3·A08 3, 합계42. 기능 경로가 있는 소막24·없는 소막18. A06/A07/A08 기능은 파일과 각각의 JSON Pointer로 구분한다.',
            '- 원19개의 순서·계획slot·파일을 보존한다. A03-EF-001은 전역 순서20/계획slot91이며, 앞 막의 미사용 계획slot을 새 사건으로 채울 의무는 없다.',
            '- A02 E10 정확출구→별도 여름I3→가상 대학등록/연습 접근→A03 첫 연습/영상/좁은과제 선택을 연결했다. 공식경기·주전·분·신뢰·소막전체출구를 선지급하지 않는다.',
            '- A03 E1 정확출구→E2 다음 허용 연습의 두 박스아웃과 동료 공 확보를 연결한다. E2는 전역순서21/계획slot92이며 소막별 균등배정이나 실제 경기 기록을 뜻하지 않는다.',
@@ -221,6 +245,8 @@ def render(d):
            '- E4 정확출구→E5 Chicago 준비를 택하는 승인된 여름 시간 선택을 연결한다. 전역순서27/계획slot149이며 이미 얻은 국가대표 자리를 포기한 사건이 아니다. A05 역할·분·성과는 미실행이다.',
            '- A04 E5 정확출구→A05의 네 기능군 R1 역할시도·R2 단 한 번의 밤샘/기회상실/다음준비·R3 별도 개발과 조건부 NBA 재시험·R4 2년차 약한손/조기이양을 연결한다. 전역순서28–31/계획slot157–160이다. 기존8인과를 네 기능으로 묶으며 새 날짜·개인분·경기결과·전체A05 출구를 확정하지 않는다.',
            '- A05 E4 정확출구→A06의 시작권/무볼·전진/숏롤 첫패스·Theis/Green 과제·선택된WAS승·IND패/다음과제 다섯 기능을 연결한다. 전역순서32–36/계획slot249–253이다. S2 시즌 실행을 재사용하며 개인 박스·임상·다음여름 계약·기술 완성을 선지급하지 않는다.',
+           '- A06 E5 정확출구→A07 좁은 엘보 훈련 허용·두 수비 도착 조건의 실패/수정·좋은 표본과 실패를 함께 에이전트에게 넘기는 세 기능37–39/계획slot323–325를 연결한다. M1 조건부164행의 역할을 보존하며 날짜별 경기·효율·계약 답은 인증하지 않는다.',
+           '- A07 E3 정확출구→A08 개인요구/동료 기능비용 질문·가상 훈련의 첫 반환 차단/안전재전개·이양 뒤 재관여 세 기능40–42/계획slot383–385를 연결한다. CF03 실제 NBA 시험/전체S2 및 계약·공동 에이스/전체Act는 HOLD로 남긴다.',
            '- 원 CP2/첫6 감사의19 계수는 과거 스냅샷이다. 현재 누적 계수는 이 등록기를 참조한다. 전체 역사·출구·Context Pack 게이트는 별도로 남는다.', '',
            '| 순서 | 기능 | 막/소막 | 계획slot |','|---|---|---|---|']
     lines += [f"| {r['order']} | {r['id']} | {r['act']}/{r['subact']} | {r['planned_slot']} |" for r in d['functions']]
