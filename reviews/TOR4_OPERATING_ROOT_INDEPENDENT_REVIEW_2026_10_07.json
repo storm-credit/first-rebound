@@ -1,0 +1,34 @@
+{
+  "id": "TOR4_OPERATING_ROOT_INDEPENDENT_REVIEW",
+  "reviewer": "root distinct from g11 writer; root repaired caller after direct failures",
+  "input_normalized_sha256": {
+    "tools/build_toronto_2021_selected_t1_operating_family.py": "26548a7bf5e94d80cd6bb7801a8c7f573328bde32248bb18f3400d1dd2c2fb6c",
+    "simulation/TORONTO_2021_SELECTED_T1_OPERATING_FAMILY_2026_10_07.json": "676cb350acdd632dfc0a0b4cc82d8f1d085b243f21fe511caeb11bcc2b993118",
+    "simulation/TORONTO_2021_SELECTED_T1_OPERATING_FAMILY_2026_10_07.md": "fc11204dba72dd84d798a8dac518ecad4152410ab05e56f9d3e7c9da5ea04540"
+  },
+  "direct_checks": {
+    "calendar_dates": 4,
+    "positive_players": 11,
+    "regulation_seconds": 2880,
+    "team_player_seconds": 14400,
+    "conditional_public_cost_screen": 145895320,
+    "Bonga_unresolved_rights_excluded_and_zero_minute_Baynes_retained": true
+  },
+  "actual_returned_helper_false_PASS_before_repair": 2,
+  "same_injections_after_repair": [
+    {
+      "mutation": "Positive role Dragic changed to departed Lowry while total seconds preserved",
+      "result": "REJECT",
+      "guard": "Returned positive role or actor differs from physical T1 capacity"
+    },
+    {
+      "mutation": "Retained category minus1m and incoming plus1m while whole total preserved",
+      "result": "REJECT",
+      "guard": "Returned named category or subtotal differs from physical public sources: live_original_contract_public_cap_points"
+    }
+  ],
+  "verdict": "ACCEPT_CONDITIONAL_NAMED_ROLE_AND_PUBLIC_SCREEN_ONLY",
+  "TOR_MIA_joint_legal_complete": false,
+  "whole_macro3_or_G16_certified": false,
+  "manuscript_allowed": false
+}

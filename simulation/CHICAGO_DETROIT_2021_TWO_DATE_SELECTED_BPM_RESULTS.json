@@ -1,0 +1,1007 @@
+{
+  "id": "CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS",
+  "baseline_main": "15e0e1f2edcc9862b096cc190b752aecbe3aca31",
+  "status": "TWO_REGULATION_WINNER_MODELS_SELECTED_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_WORKING_EXECUTION.json": "fc44fe1b28318c2004529fc68a3b3d6b090f9b3a100265ca5e9517c0da3676b3",
+    "simulation/DET_TWO_DATE_ROLE_ADOPTION_2026_10_07.json": "8accb225b9414266cb3c7303643a85cae99751495d4d22933e675d15106a6c7e",
+    "simulation/DET_ROUTINE_OPERATING_FAMILY_SELECTION_2026_10_07.json": "9f9c307f33975de3b3c05734e41f8401cad0439f0446f7bc87aa21d8c7752dc2",
+    "research/DETROIT_2021_A_ROUTINE_OPERATING_EXECUTION_FAMILY_2026_10_07.json": "855371610d0f2b776b773bdf2ff02f27a43684b6c1407b1d54f698c6e0f093ef",
+    "canon/DELEGATED_2021_22_CHICAGO_AVAILABILITY_DECISION_2026_10_07.json": "51b24c8a6bc1eb703568adced46b3ffa15845e85e8da10da1242bddf941df960",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/NBA_2021_22_REGULAR_BASELINE.csv": "92869bc987896a4172c5e54e3684d2604c5c24d828e9bcf3cc27af30ebc83644",
+    "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_IMPACT_PRIORS.csv": "0c5680d6d9ff4f3b38ab157697b2f625c96b8a751fbe0bcb28bb153b4c763dfa",
+    "simulation/CHICAGO_2021_22_GROWTH_INPUTS.json": "f961daae39a7dc6083ab20439edf7efed7a8cab9930eacc98854c2ad5416c5c3",
+    "simulation/CHICAGO_2021_22_GROWTH_CANDIDATES.json": "e51bd8eac3cfa9446c4e67787b836b3e184ce306b766636045249184d9682822",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "tools/crosscheck_chicago_2020_21_impact.py": "59f99be94ffeaef9854f586b1516fe79f106eb6aa4487947fdee3d8068485819",
+    "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e"
+  },
+  "hash_convention": "UTF8 BOM stripped; CRLF/CR to LF; existing raw caches unchanged",
+  "authority": {
+    "classification": "AUTHOR_DELEGATED_DESIGN_SELECTION",
+    "delegation_source": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+    "continuation_scope_source": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+    "author_locked": false,
+    "root_review_required_before_integrated_promotion": true
+  },
+  "selected_policy": {
+    "method": "BPM_MAR25_EB",
+    "shrinkage_minutes": 1000,
+    "denominator_seconds": 2880,
+    "selected_growth_pair": [
+      "P21A",
+      "D21A"
+    ],
+    "protagonist_prior_BASE": -1.2,
+    "protagonist_working_growth_increment": 0.7,
+    "protagonist_selected_effective_rating": -0.5,
+    "rookie_prior_rule": "MEDIAN_FIVE_EXISTING_PREOPENING_ROOKIE_COMPARATORS",
+    "home_effect_per100_working": 2.0,
+    "back_to_back_penalty_per100_working": 0.5,
+    "interaction_adjustment_working": 0.0,
+    "overtime_used": false,
+    "historical_scores_used_in_calculation": false,
+    "whole_season_selected": false
+  },
+  "player_ratings": {
+    "Carter": {
+      "effective_rating": -0.61875,
+      "exact_fraction": "-99/160",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Wendell Carter Jr.",
+        "reported_bpm": -1.4,
+        "archive_minutes": 792,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Caruso": {
+      "effective_rating": -0.2453900709219858,
+      "exact_fraction": "-173/705",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Alex Caruso",
+        "reported_bpm": -0.6,
+        "archive_minutes": 692,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Chris Duarte": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_FICTIONAL_ROOKIE_PRIOR_NOT_OBSERVED_NBA_RATING",
+      "provenance": {
+        "comparators_effective": {
+          "Devin Vassell": -0.07585350713842334,
+          "Aaron Nesmith": -1.1594614809274495,
+          "Josh Green": -1.1140065146579805,
+          "Saddiq Bey": -0.3498249124562281,
+          "Desmond Bane": -0.6358078602620088
+        },
+        "selected_statistic": "median",
+        "working_admissible_comparison_range": [
+          -1.1594614809274495,
+          -0.07585350713842334
+        ],
+        "Duarte_box_input": "D21A",
+        "not_college_BPM_or_NBA_translation_fit": true
+      }
+    },
+    "Cory Joseph": {
+      "effective_rating": -1.7967078189300412,
+      "exact_fraction": "-2183/1215",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Cory Joseph",
+        "reported_bpm": -3.7,
+        "archive_minutes": 944,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Denzel Valentine": {
+      "effective_rating": -1.0038394415357765,
+      "exact_fraction": "-2876/2865",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Denzel Valentine",
+        "reported_bpm": -2.4,
+        "archive_minutes": 719,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Hamidou Diallo": {
+      "effective_rating": -0.7346394094264622,
+      "exact_fraction": "-12937/17610",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Hamidou Diallo",
+        "reported_bpm": -1.7,
+        "archive_minutes": 761,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Isaiah Stewart": {
+      "effective_rating": -0.6148065058889512,
+      "exact_fraction": "-5481/8915",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Isaiah Stewart",
+        "reported_bpm": -1.4,
+        "archive_minutes": 783,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Jalen Suggs": {
+      "effective_rating": -0.6358078602620088,
+      "exact_fraction": "-728/1145",
+      "classification": "SELECTED_FICTIONAL_ROOKIE_PRIOR_NOT_OBSERVED_NBA_RATING",
+      "provenance": {
+        "comparators_effective": {
+          "Devin Vassell": -0.07585350713842334,
+          "Aaron Nesmith": -1.1594614809274495,
+          "Josh Green": -1.1140065146579805,
+          "Saddiq Bey": -0.3498249124562281,
+          "Desmond Bane": -0.6358078602620088
+        },
+        "selected_statistic": "median",
+        "working_admissible_comparison_range": [
+          -1.1594614809274495,
+          -0.07585350713842334
+        ],
+        "Duarte_box_input": null,
+        "not_college_BPM_or_NBA_translation_fit": true
+      }
+    },
+    "Jerami Grant": {
+      "effective_rating": 0.763253509496284,
+      "exact_fraction": "9243/12110",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Jerami Grant",
+        "reported_bpm": 1.3,
+        "archive_minutes": 1422,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Josh Jackson": {
+      "effective_rating": -1.3287455561198578,
+      "exact_fraction": "-26163/19690",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Josh Jackson",
+        "reported_bpm": -2.7,
+        "archive_minutes": 969,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Kelly Olynyk": {
+      "effective_rating": -0.4827538247566064,
+      "exact_fraction": "-3471/7190",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Kelly Olynyk",
+        "reported_bpm": -0.9,
+        "archive_minutes": 1157,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Kira Lewis Jr.": {
+      "effective_rating": -0.9445396145610279,
+      "exact_fraction": "-4411/4670",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Kira Lewis Jr.",
+        "reported_bpm": -3.3,
+        "archive_minutes": 401,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaMelo_pick4": {
+      "effective_rating": 1.4580496780128795,
+      "exact_fraction": "15849/10870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "LaMelo Ball",
+        "reported_bpm": 2.7,
+        "archive_minutes": 1174,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "LaVine": {
+      "effective_rating": 2.5320095313741064,
+      "exact_fraction": "15939/6295",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Zach LaVine",
+        "reported_bpm": 4.2,
+        "archive_minutes": 1518,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Markkanen": {
+      "effective_rating": 0.24518036664695447,
+      "exact_fraction": "2073/8455",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Lauri Markkanen",
+        "reported_bpm": 0.6,
+        "archive_minutes": 691,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Mason Plumlee": {
+      "effective_rating": 0.8505854800936768,
+      "exact_fraction": "1816/2135",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Mason Plumlee",
+        "reported_bpm": 1.6,
+        "archive_minutes": 1135,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Patrick Williams": {
+      "effective_rating": -1.904012767897857,
+      "exact_fraction": "-8351/4386",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Patrick Williams",
+        "reported_bpm": -3.5,
+        "archive_minutes": 1193,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Protagonist": {
+      "effective_rating": -0.5,
+      "exact_fraction": "-1/2",
+      "classification": "SELECTED_FICTIONAL_PRODUCTIVITY_PARAMETER",
+      "provenance": {
+        "prior_BASE": -1.2,
+        "selected_increment": 0.7,
+        "growth_input": "P21A",
+        "not_a_box_to_BPM_fit": true,
+        "existing_LOW_HIGH_stress_bounds": [
+          -3.0,
+          0.3
+        ]
+      }
+    },
+    "Satoransky": {
+      "effective_rating": 0.04189424753050552,
+      "exact_fraction": "721/17210",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tomas Satoransky",
+        "reported_bpm": 0.1,
+        "archive_minutes": 721,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Tony Bradley": {
+      "effective_rating": 0.6912975912975913,
+      "exact_fraction": "8897/12870",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Tony Bradley",
+        "reported_bpm": 3.1,
+        "archive_minutes": 287,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    },
+    "Young": {
+      "effective_rating": 1.8749746707193515,
+      "exact_fraction": "9253/4935",
+      "classification": "SELECTED_ALTERNATE_HISTORY_PROXY_FROM_PREOPENING_HISTORICAL_OBSERVATION",
+      "provenance": {
+        "archive_player": "Thaddeus Young",
+        "reported_bpm": 3.8,
+        "archive_minutes": 974,
+        "observed_through": "2021-03-25",
+        "reported_metric_is_not_primary_league_medical_or_alternate_ability_fact": true
+      }
+    }
+  },
+  "selected_growth_productivity": {
+    "P21A": {
+      "per36": {
+        "pts": 18.0,
+        "reb": 9.8,
+        "ast": 3.6,
+        "stl": 1.7,
+        "blk": 1.0,
+        "tov": 2.6,
+        "pf": 3.2,
+        "fta": 4.2,
+        "ftm": 3.192,
+        "fg3a": 3.8,
+        "fg3m": 1.292,
+        "fga": 14.368216216216213,
+        "fgm": 6.757999999999999,
+        "ts_proxy": 0.555,
+        "shot_ending_proxy": 18.816216216216215
+      },
+      "role_expected": {
+        "pts": 16.0,
+        "reb": 8.711111111111112,
+        "ast": 3.2,
+        "stl": 1.511111111111111,
+        "blk": 0.8888888888888888,
+        "tov": 2.3111111111111113,
+        "pf": 2.8444444444444446,
+        "fta": 3.7333333333333334,
+        "ftm": 2.8373333333333335,
+        "fg3a": 3.3777777777777778,
+        "fg3m": 1.1484444444444444,
+        "fga": 12.771747747747746,
+        "fgm": 6.007111111111111,
+        "shot_ending_proxy": 16.725525525525526
+      },
+      "classification": "CREATIVE_ASSUMPTION_NOT_OBSERVED",
+      "scope": "Selected working productivity at these two dates only; not a derived BPM rating or actual box"
+    },
+    "D21A": {
+      "per36": {
+        "reb": 4.383314543404736,
+        "ast": 2.3803833145434043,
+        "stl": 1.2926719278466743,
+        "blk": 0.34092446448703495,
+        "tov": 2.634047350620068,
+        "pf": 2.922209695603157,
+        "fg3a": 5.552198421645998,
+        "fta": 2.2444193912063133,
+        "fg3m": 1.9710304396843292,
+        "ftm": 1.7730913190529876,
+        "fga": 10.649830890642615,
+        "fgm": 4.468870349492672,
+        "pts": 12.68186245772266,
+        "ts_proxy": 0.5448764002622658,
+        "shot_ending_proxy": 14.27142277339346
+      },
+      "role_expected": {
+        "reb": 1.704622322435175,
+        "ast": 0.925704622322435,
+        "stl": 0.5027057497181511,
+        "blk": 0.1325817361894025,
+        "tov": 1.0243517474633597,
+        "pf": 1.1364148816234498,
+        "fg3a": 2.1591882750845546,
+        "fta": 0.8728297632468995,
+        "fg3m": 0.766511837655017,
+        "ftm": 0.6895355129650507,
+        "fga": 4.141600901916572,
+        "fgm": 1.7378940248027057,
+        "pts": 4.931835400225479,
+        "shot_ending_proxy": 5.549997745208568
+      },
+      "classification": "HAND_SET_COLLEGE_TRANSLATION_NOT_NBA_OBSERVATION",
+      "scope": "Selected working productivity at these two dates only; not a derived BPM rating or actual box"
+    }
+  },
+  "rows": [
+    {
+      "game_id": "0022100004",
+      "date": "2021-10-20",
+      "home": "DET",
+      "away": "CHI",
+      "CHI_state": "COBY_OUT",
+      "role_source_pointer": "/rows/0",
+      "player_contribution_ledger": {
+        "CHI": [
+          {
+            "player": "Carter",
+            "seconds": 1680,
+            "effective_rating": -0.61875,
+            "contribution_per100": -0.3609375
+          },
+          {
+            "player": "Caruso",
+            "seconds": 1080,
+            "effective_rating": -0.2453900709219858,
+            "contribution_per100": -0.09202127659574467
+          },
+          {
+            "player": "Chris Duarte",
+            "seconds": 840,
+            "effective_rating": -0.6358078602620088,
+            "contribution_per100": -0.18544395924308588
+          },
+          {
+            "player": "Denzel Valentine",
+            "seconds": 480,
+            "effective_rating": -1.0038394415357765,
+            "contribution_per100": -0.1673065735892961
+          },
+          {
+            "player": "LaMelo_pick4",
+            "seconds": 1920,
+            "effective_rating": 1.4580496780128795,
+            "contribution_per100": 0.972033118675253
+          },
+          {
+            "player": "LaVine",
+            "seconds": 2040,
+            "effective_rating": 2.5320095313741064,
+            "contribution_per100": 1.793506751389992
+          },
+          {
+            "player": "Markkanen",
+            "seconds": 1920,
+            "effective_rating": 0.24518036664695447,
+            "contribution_per100": 0.16345357776463632
+          },
+          {
+            "player": "Protagonist",
+            "seconds": 1920,
+            "effective_rating": -0.5,
+            "contribution_per100": -0.3333333333333333
+          },
+          {
+            "player": "Satoransky",
+            "seconds": 600,
+            "effective_rating": 0.04189424753050552,
+            "contribution_per100": 0.008727968235521983
+          },
+          {
+            "player": "Tony Bradley",
+            "seconds": 720,
+            "effective_rating": 0.6912975912975913,
+            "contribution_per100": 0.17282439782439782
+          },
+          {
+            "player": "Young",
+            "seconds": 1200,
+            "effective_rating": 1.8749746707193515,
+            "contribution_per100": 0.7812394461330632
+          }
+        ],
+        "DET": [
+          {
+            "player": "Cory Joseph",
+            "seconds": 1440,
+            "effective_rating": -1.7967078189300412,
+            "contribution_per100": -0.8983539094650206
+          },
+          {
+            "player": "Hamidou Diallo",
+            "seconds": 1200,
+            "effective_rating": -0.7346394094264622,
+            "contribution_per100": -0.3060997539276926
+          },
+          {
+            "player": "Isaiah Stewart",
+            "seconds": 1440,
+            "effective_rating": -0.6148065058889512,
+            "contribution_per100": -0.3074032529444756
+          },
+          {
+            "player": "Jalen Suggs",
+            "seconds": 1440,
+            "effective_rating": -0.6358078602620088,
+            "contribution_per100": -0.3179039301310044
+          },
+          {
+            "player": "Jerami Grant",
+            "seconds": 1800,
+            "effective_rating": 0.763253509496284,
+            "contribution_per100": 0.47703344343517756
+          },
+          {
+            "player": "Josh Jackson",
+            "seconds": 1440,
+            "effective_rating": -1.3287455561198578,
+            "contribution_per100": -0.6643727780599289
+          },
+          {
+            "player": "Kelly Olynyk",
+            "seconds": 1080,
+            "effective_rating": -0.4827538247566064,
+            "contribution_per100": -0.1810326842837274
+          },
+          {
+            "player": "Kira Lewis Jr.",
+            "seconds": 1440,
+            "effective_rating": -0.9445396145610279,
+            "contribution_per100": -0.47226980728051393
+          },
+          {
+            "player": "Mason Plumlee",
+            "seconds": 1440,
+            "effective_rating": 0.8505854800936768,
+            "contribution_per100": 0.4252927400468384
+          },
+          {
+            "player": "Patrick Williams",
+            "seconds": 1680,
+            "effective_rating": -1.904012767897857,
+            "contribution_per100": -1.110674114607083
+          }
+        ]
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.7527426172614042,
+        "DET": -3.3557840472174307
+      },
+      "home_effect_in_CHI_direction_per100": -2.0,
+      "back_to_back_schedule_model": {
+        "CHI": false,
+        "DET": false
+      },
+      "fatigue_effect_in_CHI_direction_per100": 0.0,
+      "CHI_minus_DET_regulation_impact_per100": 4.108526664478835,
+      "exact_impact_fraction": "363024901322251919620688892177228135685432426703/88358901126494574430588047948006426271128493440",
+      "selected_regulation_winner": "CHI",
+      "classification": "AUTHOR_DELEGATED_SELECTED_FICTIONAL_REGULATION_WINNER_MODEL",
+      "score": null,
+      "overtime_selection": null,
+      "actual_clinical_certificate": false,
+      "historical_score_diagnostic_only": {
+        "home_pts": 88,
+        "away_pts": 94,
+        "historical_inferred_OT": 0,
+        "used_to_decide_winner": false
+      },
+      "source_bound_nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ],
+          "unavailable_condition": [
+            "Coby"
+          ],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Denzel Valentine": 480,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Satoransky": 600,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Trey Lyles",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo"
+          ],
+          "two_way": [
+            "Luka Garza",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Trey Lyles",
+            "Saben Lee"
+          ],
+          "inactive": [
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Isaiah Livers"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "positive_availability_is_selected_working_model": true,
+      "active_nomination_is_selected_working_model": true,
+      "source_role_clock_seconds": 2880,
+      "each_team_player_seconds": 14400
+    },
+    {
+      "game_id": "0022100030",
+      "date": "2021-10-23",
+      "home": "CHI",
+      "away": "DET",
+      "CHI_state": "COBY_OUT",
+      "role_source_pointer": "/rows/1",
+      "player_contribution_ledger": {
+        "CHI": [
+          {
+            "player": "Carter",
+            "seconds": 1680,
+            "effective_rating": -0.61875,
+            "contribution_per100": -0.3609375
+          },
+          {
+            "player": "Caruso",
+            "seconds": 1080,
+            "effective_rating": -0.2453900709219858,
+            "contribution_per100": -0.09202127659574467
+          },
+          {
+            "player": "Chris Duarte",
+            "seconds": 840,
+            "effective_rating": -0.6358078602620088,
+            "contribution_per100": -0.18544395924308588
+          },
+          {
+            "player": "Denzel Valentine",
+            "seconds": 480,
+            "effective_rating": -1.0038394415357765,
+            "contribution_per100": -0.1673065735892961
+          },
+          {
+            "player": "LaMelo_pick4",
+            "seconds": 1920,
+            "effective_rating": 1.4580496780128795,
+            "contribution_per100": 0.972033118675253
+          },
+          {
+            "player": "LaVine",
+            "seconds": 2040,
+            "effective_rating": 2.5320095313741064,
+            "contribution_per100": 1.793506751389992
+          },
+          {
+            "player": "Markkanen",
+            "seconds": 1920,
+            "effective_rating": 0.24518036664695447,
+            "contribution_per100": 0.16345357776463632
+          },
+          {
+            "player": "Protagonist",
+            "seconds": 1920,
+            "effective_rating": -0.5,
+            "contribution_per100": -0.3333333333333333
+          },
+          {
+            "player": "Satoransky",
+            "seconds": 600,
+            "effective_rating": 0.04189424753050552,
+            "contribution_per100": 0.008727968235521983
+          },
+          {
+            "player": "Tony Bradley",
+            "seconds": 720,
+            "effective_rating": 0.6912975912975913,
+            "contribution_per100": 0.17282439782439782
+          },
+          {
+            "player": "Young",
+            "seconds": 1200,
+            "effective_rating": 1.8749746707193515,
+            "contribution_per100": 0.7812394461330632
+          }
+        ],
+        "DET": [
+          {
+            "player": "Cory Joseph",
+            "seconds": 1440,
+            "effective_rating": -1.7967078189300412,
+            "contribution_per100": -0.8983539094650206
+          },
+          {
+            "player": "Hamidou Diallo",
+            "seconds": 1200,
+            "effective_rating": -0.7346394094264622,
+            "contribution_per100": -0.3060997539276926
+          },
+          {
+            "player": "Isaiah Stewart",
+            "seconds": 1440,
+            "effective_rating": -0.6148065058889512,
+            "contribution_per100": -0.3074032529444756
+          },
+          {
+            "player": "Jalen Suggs",
+            "seconds": 1440,
+            "effective_rating": -0.6358078602620088,
+            "contribution_per100": -0.3179039301310044
+          },
+          {
+            "player": "Jerami Grant",
+            "seconds": 1800,
+            "effective_rating": 0.763253509496284,
+            "contribution_per100": 0.47703344343517756
+          },
+          {
+            "player": "Josh Jackson",
+            "seconds": 1440,
+            "effective_rating": -1.3287455561198578,
+            "contribution_per100": -0.6643727780599289
+          },
+          {
+            "player": "Kelly Olynyk",
+            "seconds": 1080,
+            "effective_rating": -0.4827538247566064,
+            "contribution_per100": -0.1810326842837274
+          },
+          {
+            "player": "Kira Lewis Jr.",
+            "seconds": 1440,
+            "effective_rating": -0.9445396145610279,
+            "contribution_per100": -0.47226980728051393
+          },
+          {
+            "player": "Mason Plumlee",
+            "seconds": 1440,
+            "effective_rating": 0.8505854800936768,
+            "contribution_per100": 0.4252927400468384
+          },
+          {
+            "player": "Patrick Williams",
+            "seconds": 1680,
+            "effective_rating": -1.904012767897857,
+            "contribution_per100": -1.110674114607083
+          }
+        ]
+      },
+      "team_weighted_BPM_per100": {
+        "CHI": 2.7527426172614042,
+        "DET": -3.3557840472174307
+      },
+      "home_effect_in_CHI_direction_per100": 2.0,
+      "back_to_back_schedule_model": {
+        "CHI": true,
+        "DET": false
+      },
+      "fatigue_effect_in_CHI_direction_per100": -0.5,
+      "CHI_minus_DET_regulation_impact_per100": 7.608526664478835,
+      "exact_impact_fraction": "672281055264982930127747059995250627634382153743/88358901126494574430588047948006426271128493440",
+      "selected_regulation_winner": "CHI",
+      "classification": "AUTHOR_DELEGATED_SELECTED_FICTIONAL_REGULATION_WINNER_MODEL",
+      "score": null,
+      "overtime_selection": null,
+      "actual_clinical_certificate": false,
+      "historical_score_diagnostic_only": {
+        "home_pts": 97,
+        "away_pts": 82,
+        "historical_inferred_OT": 0,
+        "used_to_decide_winner": false
+      },
+      "source_bound_nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ],
+          "unavailable_condition": [
+            "Coby"
+          ],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Denzel Valentine": 480,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Satoransky": 600,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Trey Lyles",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo"
+          ],
+          "two_way": [
+            "Luka Garza",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Trey Lyles",
+            "Saben Lee"
+          ],
+          "inactive": [
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Isaiah Livers"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "positive_availability_is_selected_working_model": true,
+      "active_nomination_is_selected_working_model": true,
+      "source_role_clock_seconds": 2880,
+      "each_team_player_seconds": 14400
+    }
+  ],
+  "method_limits": [
+    "Absolute additive lineup BPM and home effect are selected working approximations, not the original 2020 delta-to-historical-margin model.",
+    "Historical March25 priors precede October opening but arise in another team/history; using them here is a fictional proxy selection.",
+    "Protagonist +0.7 improvement and rookie median are explicit productivity parameters, not a fitted NCAA-to-NBA conversion.",
+    "No possession count, exact score, interaction fitting, probabilistic accuracy or overtime is certified."
+  ],
+  "remaining_consumer_ports": {
+    "remaining_CHI_dates": 80,
+    "next_date_key": "0022100022",
+    "next_date": "2021-10-22",
+    "next_opponent": "NOP",
+    "requirements_for_next_result": [
+      "Consume current selected CHI date state and reviewed admitted NOP paired role/operating family.",
+      "Bind each positive-player preopening BPM or explicit fictional prior; supply source-current nominations/availability.",
+      "Select date-specific single-method regulation result; OT only if separately modeled."
+    ],
+    "whole82_results_standings_pick_entitlement": "NOT_CERTIFIED"
+  },
+  "summary": {
+    "selected_games": 2,
+    "CHI_model_wins": 2,
+    "DET_model_wins": 0,
+    "positive_rating_inputs": 21,
+    "rating_methods": 1,
+    "RAPTOR_used": false,
+    "historical_score_inheritance": false,
+    "remaining_CHI_games": 80
+  },
+  "certification": {
+    "source_fields_and_returned_model_guarded": true,
+    "independent_review_completed": false,
+    "actual_games_or_scores_certified": false,
+    "actual_medical_or_private_contract_receipts_certified": false,
+    "full82_results_standings_picks_certified": false,
+    "MVP_title_or_long_ending_selected": false,
+    "whole_macro3_completed": false,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED"
+  }
+}
