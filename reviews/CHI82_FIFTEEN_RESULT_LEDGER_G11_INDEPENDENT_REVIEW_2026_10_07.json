@@ -1,0 +1,29 @@
+{
+  "schema": "CHI82_FIFTEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_FIFTEEN_SOURCE_BOUND_WORKING_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "741be19a4d5374ad6728625bb2c130a0d2fc64a96c2d3ef7b04347b89eb3b171",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "568711a51a5fa8c16691485c75ec6d4e0543d9a859f99e95ced26e8ab2476618",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "3fca3ddd1e2f4fcf21b50ef147ee99065601b4062613780779164bbc692d2a30"
+  },
+  "independent_checks": {
+    "selected_source_groups": {"DET": 2, "NOP": 1, "TOR": 4, "NYK": 4, "UTA": 1, "BOS": 3},
+    "selected_results": 15,
+    "chicago_working_wins": 7,
+    "opponent_working_wins": 8,
+    "remaining_keys": 67,
+    "next_calendar_port": {"game_id": "0022100111", "date": "2021-11-03", "opponent": "PHI"},
+    "direct_join": "Independently joined DET rows from the predecessor handoff and physical TOR, NOP, NYK, UTA and BOS selected outputs. All 82 calendar keys, original order, dates, home/away, opponent, selected Chicago health state, chosen winner, source and review pointers match the saved ledger. Remaining keys equal precisely the rows without a selected result; selected score and overtime remain null.",
+    "fresh_builder_matches_saved_json": true,
+    "historical_seven_and_twelve_review_records_modified": false
+  },
+  "actual_returned_source_control": {
+    "mutation": "Changed the first BOS winner in the returned read() object while keeping the physical BOS JSON and its hash unchanged.",
+    "result": "REJECTED: Returned input differs from physical source: simulation/CHICAGO_BOSTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+    "writer_tests_counted_as_independent": false
+  },
+  "scope_limit": "Fifteen reviewed fictional regulation-result rows; the remaining 67 need their own named opponent families. No score, overtime, full standings, draft outcome, private contract or medical certification, whole season, G13/G14/G16 completion or manuscript authorization is inferred.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}
