@@ -1,0 +1,2376 @@
+{
+  "id": "CHICAGO_DETROIT_2021_OPENING_PAIRED_REGULATION_CARRIER",
+  "status": "INDEPENDENTLY_REVIEWED_CONDITIONAL_FULL_REGULATION_PAIR",
+  "baseline_main": "6eaa251fb53c93e6a9534c907369e806f56329e7",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "research/DETROIT_2021_OPENING_NAMED_OPERATING_FAMILY_2026_10_07.json": "7490b1a46a744088980c115680140383615a2e6ec92901e1fdd901c326861be0",
+    "research/CHICAGO_2021_22_OPENING_DET_PAIRED_INPUT_RECOVERY_2026_10_07.json": "e731ab02a83e1135137da08a5384afbc077111cddb5a7d6ad8a4ba8f921e9f70",
+    "simulation/CHICAGO_2021_22_PAIRED_INPUTS.json": "db727ddc89e354da7603c2563aaa4b58d9b543e124b0c4bd9de9df45d7ea9c6f",
+    "simulation/CHICAGO_2021_22_ROLE_PLAN_INPUTS.json": "0b8f9e4ac212596d0966f82f7f8317f7a7c86645a239a5a73587dd121f77e171",
+    "design/A07_OPENING_GAME_ELBOW_OBSERVATION_FAMILY_2026_10_07.json": "f72d2ea63ebde3bdb0d9b0cfc2d28d4b35250e74d1160811c1cb6fc60ffe192e",
+    "design/A07_CHANGED_DEFENSE_ROLE_EVALUATION_2026_10_07.json": "a41e21e63bb83f8434e624c3609c89c7e758a3062143ab7314ac01252d1428df",
+    "tools/build_chicago_2021_22_m1_dated_working_minutes.py": "fe26befaf33d0da47a5614021ec2ed7f403e5f087ecf1acdc0e63e91fd2e9e1b",
+    "tools/build_detroit_2021_opening_named_operating_family.py": "ff635732271be6c65959a4d60e5f8f72deb79eba01fe1fb1c69532d000375fe9",
+    "tools/build_a07_opening_game_elbow_observation_family.py": "100bc7986b25f15db3a8a12fdf2dc90b38715471d6fd4a889026f4312838e2da",
+    "tools/build_a07_changed_defense_role_evaluation.py": "80b47ba15faf5e80cca08d5bbd29397dc4e8d1d87b19ad43ba46cae27ea1feac",
+    "tools/build_chicago_detroit_2021_opening_paired_regulation_carrier.py": "36b7133ca424839def97ccbcc51718377bcb0c5fad7ef74791a5788f93cba0d6"
+  },
+  "hash_convention": "Repository UTF8 BOMstrip, CRLF/CR to LF",
+  "game": {
+    "game_id": "0022100004",
+    "date": "2021-10-20",
+    "home": "DET",
+    "away": "CHI"
+  },
+  "policy": {
+    "clock_order": "Original unordered witness list order is a NEW routine candidate order; quarter cuts inserted without changing lineups or seconds.",
+    "quantifier": "For each of two CHI availability states and two DET roster alternatives, if named contract/availability/active conditions hold, one simultaneous regulation clock exists.",
+    "state_or_DET_direction_selected": false,
+    "OT_selected": false,
+    "regulation_only": true,
+    "zero_minutes_are_clinical_absence": false,
+    "actual_receipt_or_medical_certified": false
+  },
+  "conditional_acquisition_and_availability": {
+    "CHI": "Retain reviewed SQ1 15STD2TW and lawful A/M1 family. NORMAL or Coby-out is a conditional input; no dated health adoption. Mark32/Caruso18/P32 retained.",
+    "DET": "2020 Williams7/Kira16/Stewart19 approved; 2021 Suggs5/Livers38/Aldama37/Garza53 draft and applicable contracts remain candidates. Plumlee retention and Jordan joint prefix/return assets are conditional, not author locks.",
+    "A": "Garza TW/Smith TW, Lyles STD; slot and clock capacity only. Named cap-route A still lacks a completed continuous cost route.",
+    "B": "Lyles unsigned, Garza STD, Pickett/Smith TW; reviewed minimum/roomMLE/Bird/q and DET/BKN cost families support narrower candidate routes, not selection or whole-party execution.",
+    "active": "Source-nominated12STD active/3STD inactive and2TW separate in each team. All active nominees admitted operationally available; positive5 always active. Unused reserve clinical states null.",
+    "no_source_collection_repeated": true
+  },
+  "existing_four_play_clock_embeddings": [
+    {
+      "sample_id": "EG1_LATE_RETURN",
+      "start_second": 500,
+      "end_second": 520,
+      "seconds": 20,
+      "five_per_team": {
+        "CHI": [
+          "LaMelo_pick4",
+          "LaVine",
+          "Protagonist",
+          "Markkanen",
+          "Carter"
+        ],
+        "DET": [
+          "Kira Lewis Jr.",
+          "Josh Jackson",
+          "Patrick Williams",
+          "Jerami Grant",
+          "Isaiah Stewart"
+        ]
+      },
+      "within_existing_minutes_not_extra_seconds": true,
+      "absolute_placement_classification": "NEW_ROUTINE_CANDIDATE_CLOCK_NOT_HISTORICAL_FACT"
+    },
+    {
+      "sample_id": "EG2_EARLY_RETURN",
+      "start_second": 540,
+      "end_second": 560,
+      "seconds": 20,
+      "five_per_team": {
+        "CHI": [
+          "LaMelo_pick4",
+          "LaVine",
+          "Protagonist",
+          "Markkanen",
+          "Carter"
+        ],
+        "DET": [
+          "Kira Lewis Jr.",
+          "Josh Jackson",
+          "Patrick Williams",
+          "Jerami Grant",
+          "Isaiah Stewart"
+        ]
+      },
+      "within_existing_minutes_not_extra_seconds": true,
+      "absolute_placement_classification": "NEW_ROUTINE_CANDIDATE_CLOCK_NOT_HISTORICAL_FACT"
+    },
+    {
+      "sample_id": "CD1_INSIDE_STAY_FAILURE",
+      "start_second": 580,
+      "end_second": 600,
+      "seconds": 20,
+      "five_per_team": {
+        "CHI": [
+          "LaMelo_pick4",
+          "LaVine",
+          "Protagonist",
+          "Markkanen",
+          "Carter"
+        ],
+        "DET": [
+          "Kira Lewis Jr.",
+          "Josh Jackson",
+          "Patrick Williams",
+          "Jerami Grant",
+          "Isaiah Stewart"
+        ]
+      },
+      "within_existing_minutes_not_extra_seconds": true,
+      "absolute_placement_classification": "NEW_ROUTINE_CANDIDATE_CLOCK_NOT_HISTORICAL_FACT"
+    },
+    {
+      "sample_id": "CD2_DELAYED_HELP_STOP",
+      "start_second": 620,
+      "end_second": 640,
+      "seconds": 20,
+      "five_per_team": {
+        "CHI": [
+          "LaMelo_pick4",
+          "LaVine",
+          "Protagonist",
+          "Markkanen",
+          "Carter"
+        ],
+        "DET": [
+          "Kira Lewis Jr.",
+          "Josh Jackson",
+          "Patrick Williams",
+          "Jerami Grant",
+          "Isaiah Stewart"
+        ]
+      },
+      "within_existing_minutes_not_extra_seconds": true,
+      "absolute_placement_classification": "NEW_ROUTINE_CANDIDATE_CLOCK_NOT_HISTORICAL_FACT"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "NORMAL__A_garza_two_way_retained",
+      "CHI_state": "NORMAL",
+      "DET_roster_candidate": "A_garza_two_way_retained",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Satoransky",
+            "Green"
+          ],
+          "inactive": [
+            "Joe Wieskamp",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Coby": 1080,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Trey Lyles",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo"
+          ],
+          "two_way": [
+            "Luka Garza",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Trey Lyles",
+            "Saben Lee"
+          ],
+          "inactive": [
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Isaiah Livers"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 0,
+          "DET_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 480,
+          "seconds": 360,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 0,
+          "DET_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 0,
+          "DET_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 1,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 2,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 3,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 4,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 5,
+          "DET_block_index": 4,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 6,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 7,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 8,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 9,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 10,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 120,
+          "CHI_block_index": 10,
+          "DET_block_index": 7,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 120,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 10,
+          "DET_block_index": 8,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "elapsed_seconds": 2880,
+      "team_player_seconds": {
+        "CHI": 14400,
+        "DET": 14400
+      },
+      "score": null,
+      "winner": null,
+      "new_author_lock": false
+    },
+    {
+      "id": "NORMAL__B_lyles_not_signed",
+      "CHI_state": "NORMAL",
+      "DET_roster_candidate": "B_lyles_not_signed",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Satoransky",
+            "Green"
+          ],
+          "inactive": [
+            "Joe Wieskamp",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Coby": 1080,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Luka Garza"
+          ],
+          "two_way": [
+            "Jamorko Pickett",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Saben Lee",
+            "Rodney McGruder"
+          ],
+          "inactive": [
+            "Frank Jackson",
+            "Isaiah Livers",
+            "Luka Garza"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 0,
+          "DET_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 480,
+          "seconds": 360,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 0,
+          "DET_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 0,
+          "DET_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 1,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 2,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 3,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 4,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 5,
+          "DET_block_index": 4,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 6,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 7,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 8,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 9,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 10,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 120,
+          "CHI_block_index": 10,
+          "DET_block_index": 7,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 120,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 10,
+          "DET_block_index": 8,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "elapsed_seconds": 2880,
+      "team_player_seconds": {
+        "CHI": 14400,
+        "DET": 14400
+      },
+      "score": null,
+      "winner": null,
+      "new_author_lock": false
+    },
+    {
+      "id": "COBY_OUT__A_garza_two_way_retained",
+      "CHI_state": "COBY_OUT",
+      "DET_roster_candidate": "A_garza_two_way_retained",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ],
+          "unavailable_condition": [
+            "Coby"
+          ],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Denzel Valentine": 480,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Satoransky": 600,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Trey Lyles",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo"
+          ],
+          "two_way": [
+            "Luka Garza",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Trey Lyles",
+            "Saben Lee"
+          ],
+          "inactive": [
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Isaiah Livers"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 0,
+          "DET_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 480,
+          "seconds": 360,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 0,
+          "DET_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 0,
+          "DET_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 1,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 2,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 3,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 4,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 5,
+          "DET_block_index": 4,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 6,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 7,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 8,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 9,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 10,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 120,
+          "CHI_block_index": 10,
+          "DET_block_index": 7,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 120,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 10,
+          "DET_block_index": 8,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "elapsed_seconds": 2880,
+      "team_player_seconds": {
+        "CHI": 14400,
+        "DET": 14400
+      },
+      "score": null,
+      "winner": null,
+      "new_author_lock": false
+    },
+    {
+      "id": "COBY_OUT__B_lyles_not_signed",
+      "CHI_state": "COBY_OUT",
+      "DET_roster_candidate": "B_lyles_not_signed",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "two_way": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ],
+          "unavailable_condition": [
+            "Coby"
+          ],
+          "positive_seconds": {
+            "Carter": 1680,
+            "Caruso": 1080,
+            "Chris Duarte": 840,
+            "Denzel Valentine": 480,
+            "LaMelo_pick4": 1920,
+            "LaVine": 2040,
+            "Markkanen": 1920,
+            "Protagonist": 1920,
+            "Satoransky": 600,
+            "Tony Bradley": 720,
+            "Young": 1200
+          }
+        },
+        "DET": {
+          "standard": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Saben Lee",
+            "Cory Joseph",
+            "Rodney McGruder",
+            "Frank Jackson",
+            "Jalen Suggs",
+            "Isaiah Livers",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Luka Garza"
+          ],
+          "two_way": [
+            "Jamorko Pickett",
+            "Chris Smith"
+          ],
+          "active": [
+            "Patrick Williams",
+            "Josh Jackson",
+            "Kira Lewis Jr.",
+            "Jerami Grant",
+            "Isaiah Stewart",
+            "Kelly Olynyk",
+            "Cory Joseph",
+            "Jalen Suggs",
+            "Mason Plumlee",
+            "Hamidou Diallo",
+            "Saben Lee",
+            "Rodney McGruder"
+          ],
+          "inactive": [
+            "Frank Jackson",
+            "Isaiah Livers",
+            "Luka Garza"
+          ],
+          "unavailable_condition": [],
+          "positive_seconds": {
+            "Cory Joseph": 1440,
+            "Hamidou Diallo": 1200,
+            "Isaiah Stewart": 1440,
+            "Jalen Suggs": 1440,
+            "Jerami Grant": 1800,
+            "Josh Jackson": 1440,
+            "Kelly Olynyk": 1080,
+            "Kira Lewis Jr.": 1440,
+            "Mason Plumlee": 1440,
+            "Patrick Williams": 1680
+          }
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 120,
+          "seconds": 120,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 0,
+          "DET_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 120,
+          "end_second": 480,
+          "seconds": 360,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 0,
+          "DET_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Jalen Suggs",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 0,
+          "DET_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 1,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 2,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 3,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 4,
+          "DET_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Kira Lewis Jr.",
+            "SG": "Josh Jackson",
+            "SF": "Hamidou Diallo",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 600,
+          "CHI_block_index": 5,
+          "DET_block_index": 4,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 600,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 6,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 7,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 8,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 720,
+          "quarter_clock_end_seconds_remaining": 480,
+          "CHI_block_index": 9,
+          "DET_block_index": 5,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Jalen Suggs",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Mason Plumlee"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 480,
+          "quarter_clock_end_seconds_remaining": 360,
+          "CHI_block_index": 9,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2640,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 360,
+          "quarter_clock_end_seconds_remaining": 240,
+          "CHI_block_index": 10,
+          "DET_block_index": 6,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Jerami Grant",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2640,
+          "end_second": 2760,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 240,
+          "quarter_clock_end_seconds_remaining": 120,
+          "CHI_block_index": 10,
+          "DET_block_index": 7,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Patrick Williams",
+            "PF": "Kelly Olynyk",
+            "C": "Isaiah Stewart"
+          }
+        },
+        {
+          "start_second": 2760,
+          "end_second": 2880,
+          "seconds": 120,
+          "quarter": 4,
+          "quarter_clock_start_seconds_remaining": 120,
+          "quarter_clock_end_seconds_remaining": 0,
+          "CHI_block_index": 10,
+          "DET_block_index": 8,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "DET": {
+            "PG": "Cory Joseph",
+            "SG": "Hamidou Diallo",
+            "SF": "Josh Jackson",
+            "PF": "Jerami Grant",
+            "C": "Mason Plumlee"
+          }
+        }
+      ],
+      "elapsed_seconds": 2880,
+      "team_player_seconds": {
+        "CHI": 14400,
+        "DET": 14400
+      },
+      "score": null,
+      "winner": null,
+      "new_author_lock": false
+    }
+  ],
+  "summary": {
+    "game_keys": 1,
+    "conditional_combinations": 4,
+    "source_CHI_blocks_each": 11,
+    "source_DET_blocks_each": 9,
+    "simultaneous_segments_each": 17,
+    "regulation_seconds_each": 2880,
+    "team_player_seconds_each": 14400,
+    "pair_player_seconds_each": 28800,
+    "existing_play_seconds_embedded_not_added": 80,
+    "executed_state_or_direction_choices": 0,
+    "new_game_results": 0
+  },
+  "verification_scope": {
+    "upstream_CHI_13_source_digests_current": true,
+    "upstream_DET_12_source_digests_current": true,
+    "previous_82date_or_cost_case_constructors_repeated": false,
+    "fresh_primary_collection_count": 0,
+    "writer_source_join_is_independent_review": false
+  },
+  "remaining_named_inputs": [
+    "Choose dated CHI availability state and DET A/B/P0B acquisition path only within existing authority; not done here.",
+    "DET A continuous legal cost route remains incomplete; both alternatives here certify capacity conditional on lawful named contracts.",
+    "Before an executed opening result, join candidate prior draft/returned assets and changing counterpart rosters/costs in adopted scope.",
+    "Adopt regulation/OT game scope and productivity/result method separately. No historical overtime, box or winner inherited.",
+    "Other81 opponents/dates, full season/contract choices and later titles remain outside this one-game carrier."
+  ],
+  "certification": {
+    "simultaneous_regulation_capacity_constructed": true,
+    "independent_review_completed": true,
+    "independent_review_basis": "Root independently read source JSON without importing this producer; checked all2880-second arrays against original CHI11/DET9 blocks, positive player budgets, ownership and active nomination, four80-second embeddings and unselected conditions. Writer3 negative controls are not counted as independent review.",
+    "full_legal_acquisition_execution_certified": false,
+    "actual_registration_or_health_certified": false,
+    "whole_game_OT_or_result_selected": false,
+    "whole82_games_or_macro3_complete": false,
+    "new_author_lock": false,
+    "REGISTER_or_central_changed": false,
+    "actual_context_packs": 0,
+    "manuscript_written": 0
+  },
+  "progress": {
+    "unfinished_major_groups": 5,
+    "freeze": "v0.30 PARTIAL",
+    "design_manuscript_gates": "CLOSED",
+    "actual_Context_Packs": 0,
+    "seven_rows": [
+      {
+        "number": 1,
+        "group": "2020 드래프트 연쇄",
+        "state": "완료"
+      },
+      {
+        "number": 2,
+        "group": "Chicago 2020–21",
+        "state": "S2 완료"
+      },
+      {
+        "number": 3,
+        "group": "2021–23 거래·계약",
+        "state": "첫 CHI–DET 전체 정규 시계4조합 독립수용; 경로/건강/성과 미선택"
+      },
+      {
+        "number": 4,
+        "group": "장기 커리어",
+        "state": "후속 시즌 입력 대기"
+      },
+      {
+        "number": 5,
+        "group": "결말·전체 구조",
+        "state": "전체 기능표 미완료"
+      },
+      {
+        "number": 6,
+        "group": "집필 규격·Context Pack",
+        "state": "현행 기능 등록기 참조; 실제 Pack0"
+      },
+      {
+        "number": 7,
+        "group": "통합·독립·작가 승인",
+        "state": "최종 CLOSED"
+      }
+    ]
+  }
+}
