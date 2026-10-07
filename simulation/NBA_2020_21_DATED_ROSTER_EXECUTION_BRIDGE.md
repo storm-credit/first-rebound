@@ -6,16 +6,10 @@
 - 개막 원PDF4쪽+고정NBA 이동 feed의 선수 사건281개, 명단상태373개와 기존 승인 원본문 해제 보완3건을 재현했다.
 - 기존 양수분 선수 소속이 포함되는 팀경기2348, 빠지는 팀경기0.
 - 소속 포함은 금융·수락·정확 리그접수 증명이 아니다. 명단 초과/변경 경로가 남으면 실행 완료로 세지 않는다. 원feed 날짜만으로 임시 초과나 hardship를 실제위법으로 판정하지 않는다.
-- 승인 드래프트 착지/F1–F5와 아래 명명된 routine 등록 가족만 적용했다. Bonga/Homesley/Hutchison/Riller의 미선택 경로는 남긴다.
+- 승인 드래프트 방향/F1–F5와 독립 검문된 GSW 및 CHA/WAS의 명명된 routine 계약 가족을 적용했다. 남은 명단 슬롯/계약 경로는0이며 실제 접수·금융·의료 인증과는 별개다.
 
 | 남은 유한 관측 | 관측수 | 최초 | 마지막 |
 |---|---:|---|---|
-| STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:CHA: | 29 | 2021-03-26 | 2021-05-16 |
-| STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION:WAS: | 58 | 2020-12-23 | 2021-05-18 |
-| GSW_HUTCHISON_OPERATION_UNSELECTED | — | — | — |
-| WAS_BONGA_RIGHTS_TO_STANDARD_UNSELECTED | — | — | — |
-| WAS_HOMESLEY_SIGNING_UNSELECTED | — | — | — |
-| CHA_RILLER_UDFA_CONTRACT_CARRY_UNSELECTED | — | — | — |
 
 ## 자료·모델·미인증 구분
 
@@ -33,9 +27,9 @@ HOU는 Thomas5/7–13, Oliver5/10–16, Reynolds5/14–16의 명명된 hardship 
 SAC는 양수분0인 Parker/Kabengele의 해제를 당시3/25최종 긍정 보도에 맞춰 기존3/25 incoming 전 작업 순서로 둔다. 원feed3/26해제와 구단가이드3/26인수 관측을 보존한다. 거래를 마감 뒤3/26으로 옮기지 않으며 급여 부채를 지우지 않는다. 구단 원 보도문 직접 회수는 미완이며 당시 보고를 공식 본문 직접 인증으로 계수하지 않는다.
 [유한 원자료·선택 및 한계](../research/NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_2026_10_07.md)는 별도 독립검문 대상이다.
 
-## 다음 실제 실행
+## 다음 실행 검문
 
-named_gaps의 각 선수/날짜에 이미 존재하는 구단 원문·계약기간·승인델타를 연결한다. 공백은 새 임의계약으로 채우지 않고 원자료의 누락/날짜 차이와 미선택 대체 경로를 구분한다.
-전체membership와자리/법적family 실행이 검문된 뒤 S2 closing_witness를 별도 판정한다. 이번파일A/K·원장·시즌승격0, v0.30 PARTIAL·설계/원고 CLOSED·원고0.
+GSW 옵션3/MIN–NY/옵션4 미행사/보호 급여와 CHA Terry TW/Riller 미서명/WAS Bonga 유한tender/Homesley/Bell 가족을 별도 검문 모델에서 재구성했다. 관련 출전 분/승패 변경0, 명단 경로0공백이다. 예비 건강과 전체A/K의 종료는 별도로 판정한다.
+전체membership와유한자리/계약family 실행이 검문됐으며 S2 closing_witness를 별도 판정한다. 이번파일A/K·원장·시즌승격0, v0.30 PARTIAL·설계/원고 CLOSED·원고0.
 
 [기계 입력](NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json)
