@@ -1,0 +1,78 @@
+{
+  "id": "LAMELO_2023_SELECTED_EXTENSION_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "INDEPENDENTLY_ACCEPTED_BOUNDED_SELECTED_LM1_TYPED_EXTENSION",
+  "independent_review_completed": true,
+  "hash_method": "UTF8 BOM stripped, CRLF/CR converted to LF, SHA-256",
+  "source_sha256": {
+    "tools/build_lamelo_2023_selected_extension.py": "361744dc5be84e69710d17ca8caffeac6e6956162fd4acc5817dca11004dbf2e",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.json": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.md": "7a1f68a6180c1e8fe27629a0c416403487668c92dc4654301c46c38f74b6f423"
+  },
+  "physical_inputs_verified": {
+    "count": 7,
+    "all_current": true,
+    "source_pins": {
+      "canon/DELEGATED_LAMELO_2023_EXTENSION_DESIGN_SELECTION_2026_10_08.json": "577cda6c17d836413834a8254364bf13328a521e7b8558a9b70e47c4abcbbc64",
+      "simulation/CHICAGO_2023_24_EXISTING_NAMED_CONTRACT_WINDOW.json": "cf65846136975dd8b7f301505ad7fa06b564837f7962a607681632b84489d092",
+      "research/CHICAGO_2023_FOLLOWUP_FINITE_ACTIONS_2026_10_08.json": "542457d0b30ec2991faf0efa6c92a050dcd9120dfd929473ed29b90b7155f383",
+      "tools/build_chicago_2023_24_existing_contract_window.py": "9af9056e8656df84c894b7ede00d91d0f3ef0c92c867089f1cb5ff2f400f7b8b",
+      "reviews/CHI_2023_CONTRACT_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json": "d791ac98b6196a5ff8bf98e1ccd62e7868ec01019dd120cffc73ac323bf6bf3f",
+      "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+      "tools/build_lamelo_2023_selected_extension.py": "361744dc5be84e69710d17ca8caffeac6e6956162fd4acc5817dca11004dbf2e"
+    }
+  },
+  "primary_direct_check": {
+    "2023_CBA_raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "PDF_pages_directly_read_and_text_SHA_matched": [
+      30,
+      60,
+      62,
+      251,
+      278,
+      319
+    ],
+    "facts": "July 6 extension opening, Article II maximum/extended term, 8% first-year based raises, rookie extension window, aggregate six-season term"
+  },
+  "direct_checks": [
+    "Original 2020 Chicago pick4 rookie-scale contract has its exercised second option in capyear2023. Fictional July 7 12:01 ET signature follows the July 6 opening and adds five extended salary capyears 2024–2028 to one remaining original season, aggregate six under Article IX; original FY23 all-component upper9835881 is preserved.",
+    "Chosen LM1 protects all five extended seasons for skill/injury, has no options or bonuses, and adds FY23 Salary0/STD0. The same-owner service and prospective Qualifying Bird condition remain source bound; actual private assent or payment receipt is not claimed.",
+    "Ordinary branch annual C24 coefficients are 1/4,27/100,29/100,31/100,33/100; total29/20 C24. Legally qualified HigherMax branch coefficients are 3/10,81/250,87/250,93/250,99/250; total87/50 C24. Each following raise is 8% of the first extended salary, not compounding.",
+    "30% applies only after the Article II7 qualifying award and timing conditions. Neither a future MVP year/award nor the 2024 cap point is selected. Later trade would require its own VII8g matching/cap review, and this extension alone does not create a new hardcap transaction.",
+    "Future salary functions are player components, not full FY24 team normal/apron/tax costs or whole career certification."
+  ],
+  "independent_actual_return_mutations": [
+    {
+      "case": "source LM1 first salary changed to unconditional 30%",
+      "result": "REJECTED by physical source-object equality"
+    },
+    {
+      "case": "returned terms add USD1m FY23 Salary",
+      "result": "REJECTED by current-year no-extra-charge guard"
+    },
+    {
+      "case": "returned ordinary raise coefficients compound",
+      "result": "REJECTED by exact linear schedule guard"
+    },
+    {
+      "case": "returned terms allow automatic later trade without matching review",
+      "initial_result": "FALSE_PASS on writer 56995109",
+      "repaired_result": "REJECTED: Later trade requires its own VII8g matching and cap review"
+    },
+    {
+      "case": "returned primary raw CBA SHA changed to zero",
+      "initial_result": "FALSE_PASS on writer 56995109",
+      "repaired_result": "REJECTED: Returned primary identity differs from physical 2023 CBA"
+    }
+  ],
+  "saved_validate_current": true,
+  "limits": {
+    "actual_contract_receipt_or_historical_LaMelo_extension_certified": false,
+    "future_cap_or_HigherMax_award_outcome_selected": false,
+    "exact_future_salary_dollars_selected": false,
+    "FY24_whole_team_cost_complete": false,
+    "later_trade_authorized": false,
+    "franchise_MVP_year_title_count_or_ending_changed": false,
+    "whole_macro3_or_manuscript_complete": false
+  },
+  "additional_substantive_defects": []
+}

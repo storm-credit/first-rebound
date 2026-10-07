@@ -1,0 +1,42 @@
+{
+  "independent_review_completed": true,
+  "verdict": "SOURCE_BOUND_STRUCTURAL_EXIT_AUDIT_ACCEPTED_WITH_CURRENT60_ROUTE_JOIN",
+  "source_sha256": {
+    "control/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.json": "a61af318fd1e365fcd127b6eaf88118ea6c50a02a57a43246746e80e21b79eb0",
+    "control/G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.md": "9f5a027bf91c35998f4df25a446fe9760e36d0d492e86cb1e1221a0e8e203b77",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+  },
+  "direct_checked": {
+    "42_exact_CP2_rows": true,
+    "14_exact_CP2_act_boundaries": true,
+    "60_unique_exact_local_exit_witnesses": true,
+    "current_routes": 42,
+    "current_unrouted": 0,
+    "source57_checkpoint_is_historical_and_new60_join_is_this_review": true
+  },
+  "independent_mutation_controls": [
+    {
+      "case": "CP2_cost_erased",
+      "result": "REJECTED",
+      "diagnostic": "A01-S1 cost"
+    },
+    {
+      "case": "wrong_witness_exit",
+      "result": "REJECTED",
+      "diagnostic": "exact witness"
+    },
+    {
+      "case": "wholeG13_promoted",
+      "result": "REJECTED",
+      "diagnostic": "scope"
+    }
+  ],
+  "limits": {
+    "structural_routes_and_exit_audit": true,
+    "historical_long_career_or_all_act_exit_certification": false,
+    "whole_G13_G14": false,
+    "Pack_count": 0,
+    "manuscript_allowed": false
+  }
+}

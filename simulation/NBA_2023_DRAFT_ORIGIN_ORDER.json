@@ -1,0 +1,1745 @@
+{
+  "id": "NBA_2023_DRAFT_ORIGIN_ORDER",
+  "baseline_main": "241821ba24936ee788320844822af5a3f32ef69c",
+  "status": "DRAW_CANDIDATE_AND_SIXTY_ORIGIN_ORDERS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json": "cecefbc4fbca8378cacdae2f77129f26644244529d11eb216072a8fba8d224a9",
+    "research/CHICAGO_2023_FIRST_ROUND_SLOT_16_2026_10_08.json": "abbcdaaa6ff14d277f88d47fa600320fc6458ec4b057e5a7b73b414b6fbabf30",
+    "research/CHICAGO_2023_NAMED_DRAFT_CLAIMS_AND_COST_PORTS_2026_10_08.json": "b139af4af09a48dd1c9e345d17d05fc8e38f4cb021193f32bc3a09ed537f49e3",
+    "reviews/CHI_2023_FIRST_ROUND_SLOT_DEN_INDEPENDENT_REVIEW_2026_10_08.json": "6b5e50993b2d916c8fdc15fc9db389118fee19c1bacb4db3485103fa0e48c7e6",
+    "tools/build_2023_draft_origin_order.py": "08fc4ff594318c14ee6c4e1bf1d192b69f77ee5382b62141f0485dc94c4a77eb"
+  },
+  "primary_provenance": {
+    "Bylaws": {
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019-1.pdf",
+      "raw_cache": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "PDF1based_text_SHA256": {
+        "85": "312b5df737e0460a3671e61291f403b9488ee32827d938cebea87867f3bf0239",
+        "86": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+        "87": "43197a4945acf5176d9335d2ff911f7c516a1db82e623c4ca53bb264fc094e20"
+      },
+      "sections": "7.02(a)(b)(c)",
+      "direct_raw_and_text_read": true
+    },
+    "official_2023_web_observation": {
+      "url": "https://pr.nba.com/ties-broken-for-order-of-selection-in-nba-draft-2023-presented-by-state-farm/",
+      "release_date": "2023-04-17",
+      "direct_web_body_read": true,
+      "raw_body_acquired": false,
+      "locators": "paragraphs before first table; first14 odds table; second table lottery ties shown as conditional ranks",
+      "observed_top4_then_inverse_records_and_random_ties": true,
+      "historical_team_winners_owners_or_rank_order_consumed": false
+    },
+    "method_2023_official_indexed_observation": {
+      "url": "https://www.nba.com/pacers/news/explaining-the-nba-draft-lottery-what-are-the-pacers-chances-of-landing-the-1-pick",
+      "indexed_body_observed": true,
+      "normal_open": "IFRAME_ONLY",
+      "raw_body_acquired": false,
+      "facts": "14 balls;1001 four-ball combinations;1000 assigned;ties pool weights with drawing winner taking any odd remainder"
+    },
+    "failed_HTTP_captures": [
+      {
+        "id": "ties",
+        "url": "https://pr.nba.com/2023-nba-draft-tiebreakers/",
+        "HTTP_status": 403,
+        "raw_bytes": 425,
+        "raw_sha256": "60f24179bd88709f349db5289959be7a83f0da31237bcf2747fb3cbb8ab68a2e",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-draft-origin-20261008\\ties.raw",
+        "actual_body_adopted": false
+      },
+      {
+        "id": "method",
+        "url": "https://www.nba.com/pacers/news/explaining-the-nba-draft-lottery-what-are-the-pacers-chances-of-landing-the-1-pick",
+        "HTTP_status": 403,
+        "raw_bytes": 523,
+        "raw_sha256": "b8460eedf2114150a236ca4d12259c0b0a396184a1b4005a540086eff7225594",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-draft-origin-20261008\\method.raw",
+        "actual_body_adopted": false
+      },
+      {
+        "id": "official2023",
+        "url": "https://pr.nba.com/ties-broken-for-order-of-selection-in-nba-draft-2023-presented-by-state-farm/",
+        "HTTP_status": 403,
+        "raw_bytes": 425,
+        "raw_sha256": "36f16de88afb785cba9eb439f09da5846c5439fb8c96399b7f46194c6d36c92d",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-draft-origin-20261008\\official2023.raw",
+        "actual_body_adopted": false
+      },
+      {
+        "id": "mavs2023",
+        "url": "https://www.nba.com/mavs/lottery-primer",
+        "HTTP_status": 403,
+        "raw_bytes": 392,
+        "raw_sha256": "3404a246315a3e906aaaef2ddfa3865d0d6d3c602d443a01500860f270bdc4f1",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-draft-origin-20261008\\mavs2023.raw",
+        "actual_body_adopted": false
+      }
+    ],
+    "current_2026_explainer_is_original_2023_evidence": false
+  },
+  "candidate_policy": {
+    "seed": "first-rebound|2023-draft-origin|candidate-v1|2026-10-08",
+    "seed_announced_before_first_execution": true,
+    "fictional_tie_date": "2023-04-17",
+    "fictional_lottery_date": "2023-05-16",
+    "candidate_only_root_adoption_before_canon_required": true,
+    "algorithm": "SHA256(seed|counter), modulo rejection, Fisher-Yates tie permutations,4 distinct balls/attempt,discard unassigned/repeated origin",
+    "lexicographic_combination_mapping_is_new_fiction": true,
+    "outcome_fitting_rerolls": 0
+  },
+  "selected_regular_records_preserved": {
+    "ATL": {
+      "wins": 50,
+      "losses": 32
+    },
+    "BKN": {
+      "wins": 71,
+      "losses": 11
+    },
+    "BOS": {
+      "wins": 60,
+      "losses": 22
+    },
+    "CHA": {
+      "wins": 14,
+      "losses": 68
+    },
+    "CHI": {
+      "wins": 46,
+      "losses": 36
+    },
+    "CLE": {
+      "wins": 12,
+      "losses": 70
+    },
+    "DAL": {
+      "wins": 52,
+      "losses": 30
+    },
+    "DEN": {
+      "wins": 63,
+      "losses": 19
+    },
+    "DET": {
+      "wins": 7,
+      "losses": 75
+    },
+    "GSW": {
+      "wins": 50,
+      "losses": 32
+    },
+    "HOU": {
+      "wins": 17,
+      "losses": 65
+    },
+    "IND": {
+      "wins": 52,
+      "losses": 30
+    },
+    "LAC": {
+      "wins": 67,
+      "losses": 15
+    },
+    "LAL": {
+      "wins": 63,
+      "losses": 19
+    },
+    "MEM": {
+      "wins": 21,
+      "losses": 61
+    },
+    "MIA": {
+      "wins": 49,
+      "losses": 33
+    },
+    "MIL": {
+      "wins": 72,
+      "losses": 10
+    },
+    "MIN": {
+      "wins": 23,
+      "losses": 59
+    },
+    "NOP": {
+      "wins": 40,
+      "losses": 42
+    },
+    "NYK": {
+      "wins": 38,
+      "losses": 44
+    },
+    "OKC": {
+      "wins": 8,
+      "losses": 74
+    },
+    "ORL": {
+      "wins": 15,
+      "losses": 67
+    },
+    "PHI": {
+      "wins": 68,
+      "losses": 14
+    },
+    "PHX": {
+      "wins": 62,
+      "losses": 20
+    },
+    "POR": {
+      "wins": 34,
+      "losses": 48
+    },
+    "SAC": {
+      "wins": 22,
+      "losses": 60
+    },
+    "SAS": {
+      "wins": 25,
+      "losses": 57
+    },
+    "TOR": {
+      "wins": 43,
+      "losses": 39
+    },
+    "UTA": {
+      "wins": 72,
+      "losses": 10
+    },
+    "WAS": {
+      "wins": 14,
+      "losses": 68
+    }
+  },
+  "playoff_origins": [
+    "ATL",
+    "BKN",
+    "BOS",
+    "CHI",
+    "DAL",
+    "DEN",
+    "GSW",
+    "IND",
+    "LAC",
+    "LAL",
+    "MIA",
+    "MIL",
+    "NOP",
+    "PHI",
+    "PHX",
+    "UTA"
+  ],
+  "lottery_origins": [
+    "CHA",
+    "CLE",
+    "DET",
+    "HOU",
+    "MEM",
+    "MIN",
+    "NYK",
+    "OKC",
+    "ORL",
+    "POR",
+    "SAC",
+    "SAS",
+    "TOR",
+    "WAS"
+  ],
+  "inverse_record_buckets": [
+    {
+      "wins": 7,
+      "origins": [
+        "DET"
+      ]
+    },
+    {
+      "wins": 8,
+      "origins": [
+        "OKC"
+      ]
+    },
+    {
+      "wins": 12,
+      "origins": [
+        "CLE"
+      ]
+    },
+    {
+      "wins": 14,
+      "origins": [
+        "CHA",
+        "WAS"
+      ]
+    },
+    {
+      "wins": 15,
+      "origins": [
+        "ORL"
+      ]
+    },
+    {
+      "wins": 17,
+      "origins": [
+        "HOU"
+      ]
+    },
+    {
+      "wins": 21,
+      "origins": [
+        "MEM"
+      ]
+    },
+    {
+      "wins": 22,
+      "origins": [
+        "SAC"
+      ]
+    },
+    {
+      "wins": 23,
+      "origins": [
+        "MIN"
+      ]
+    },
+    {
+      "wins": 25,
+      "origins": [
+        "SAS"
+      ]
+    },
+    {
+      "wins": 34,
+      "origins": [
+        "POR"
+      ]
+    },
+    {
+      "wins": 38,
+      "origins": [
+        "NYK"
+      ]
+    },
+    {
+      "wins": 40,
+      "origins": [
+        "NOP"
+      ]
+    },
+    {
+      "wins": 43,
+      "origins": [
+        "TOR"
+      ]
+    },
+    {
+      "wins": 46,
+      "origins": [
+        "CHI"
+      ]
+    },
+    {
+      "wins": 49,
+      "origins": [
+        "MIA"
+      ]
+    },
+    {
+      "wins": 50,
+      "origins": [
+        "ATL",
+        "GSW"
+      ]
+    },
+    {
+      "wins": 52,
+      "origins": [
+        "DAL",
+        "IND"
+      ]
+    },
+    {
+      "wins": 60,
+      "origins": [
+        "BOS"
+      ]
+    },
+    {
+      "wins": 62,
+      "origins": [
+        "PHX"
+      ]
+    },
+    {
+      "wins": 63,
+      "origins": [
+        "DEN",
+        "LAL"
+      ]
+    },
+    {
+      "wins": 67,
+      "origins": [
+        "LAC"
+      ]
+    },
+    {
+      "wins": 68,
+      "origins": [
+        "PHI"
+      ]
+    },
+    {
+      "wins": 71,
+      "origins": [
+        "BKN"
+      ]
+    },
+    {
+      "wins": 72,
+      "origins": [
+        "MIL",
+        "UTA"
+      ]
+    }
+  ],
+  "lottery_joint_distribution": {
+    "representation": "EXACT_FACTORIZED_FULL_JOINT_NOT_ONE_DRAW_ESTIMATE",
+    "all_distinct_ordered_top4_paths": 24024,
+    "tie_permutation_states": 32,
+    "full_joint_states": 768768,
+    "joint_probability_formula": "(product over tied record buckets 1/|bucket|!) * product_{i=1..4} weight(t_i)/(1000-sum_{j<i}weight(t_j)); weights determined by pooled odds + tie permutation",
+    "top4_probability_mass_fraction": "1",
+    "tie_probability_mass_fraction": "1",
+    "candidate_top4_probability_conditional_on_ties": "207/1398250",
+    "candidate_complete_ties_and_top4_probability": "207/44744000",
+    "top4_position_marginals_conditioned_on_drawn_tie_weight_allocation": {
+      "DET": [
+        "7/50",
+        "193609203513999422203/1443414436258436992350",
+        "18913963691185757790074435407847566445123002974558988637/148441645994452698531006115864747563184433603238770758800",
+        "35401527002916794902085636494404607153693938048597253120246381052058671/295906503043654140672991011805842700278740077562055335207119239026590200"
+      ],
+      "OKC": [
+        "7/50",
+        "193609203513999422203/1443414436258436992350",
+        "18913963691185757790074435407847566445123002974558988637/148441645994452698531006115864747563184433603238770758800",
+        "35401527002916794902085636494404607153693938048597253120246381052058671/295906503043654140672991011805842700278740077562055335207119239026590200"
+      ],
+      "CLE": [
+        "7/50",
+        "193609203513999422203/1443414436258436992350",
+        "18913963691185757790074435407847566445123002974558988637/148441645994452698531006115864747563184433603238770758800",
+        "35401527002916794902085636494404607153693938048597253120246381052058671/295906503043654140672991011805842700278740077562055335207119239026590200"
+      ],
+      "WAS": [
+        "23/200",
+        "4605678691883350759919/40415604215236235785800",
+        "20320154078622068637212837338931099674639625390144494279/180711569036725024298616141052736163876701777855894836800",
+        "9379602449277408320110796109098194043393258938313043486751266003739/85075506947949615050029687135400412566204681103917804524724770945860"
+      ],
+      "CHA": [
+        "23/200",
+        "4605678691883350759919/40415604215236235785800",
+        "20320154078622068637212837338931099674639625390144494279/180711569036725024298616141052736163876701777855894836800",
+        "9379602449277408320110796109098194043393258938313043486751266003739/85075506947949615050029687135400412566204681103917804524724770945860"
+      ],
+      "ORL": [
+        "9/100",
+        "15886145169343313881/172716257330069383700",
+        "2505828718225509919434890040101068308215961573143/26648100345936220394719591622242642314218678431200",
+        "18797606312830015787528604477873590639643460755394768779291916886361679/195597795905022160275219956347769361959766553955353512500493293990434800"
+      ],
+      "HOU": [
+        "3/40",
+        "5678943814542555829/72820908495921145560",
+        "4697022208318326300800995292116125841088434966051/57750443046866144622358377383452186770715863746880",
+        "34911318495813700033390570669208212030654541502373480685238230524591/410260292663153405528161067652620354255444509975819901471715405850080"
+      ],
+      "MEM": [
+        "3/50",
+        "4544830392759315149/71658872722050063450",
+        "753155610474808194583459001872891603063862569647897287/11173027117862031072226266785518633788075647555606401200",
+        "9085184449293609878101606880657664129882061356982992530813468108497/125994253120777310505531452715383144887541395555619668275537388879935"
+      ],
+      "SAC": [
+        "9/200",
+        "1136039919144179783/23511113563255518200",
+        "148129817580708345277577035018959911218243989445643669/2833242050337202153284370309620267054644949482403259200",
+        "2363635342989479724778257788757341429169496409202337720174699291504813757/41391502810362766378240776916362578057793676148552116376065927059052779600"
+      ],
+      "MIN": [
+        "3/100",
+        "2270678245837832749/69442618926522741900",
+        "150165636670732228953533334056219435258850726555518567/4173058321129192328180894823506959607594518966551788400",
+        "129383420567061339955299361982561924592965038531604851588891965082661154443/3228537219208295777502780599476281088507906739587065077333142310606116808800"
+      ],
+      "SAS": [
+        "1/50",
+        "31768797757600592329/1443414436258436992350",
+        "285845951935321050041060071840223967728937298120655803/11675185640013133592326323719699246542595901378330284400",
+        "44555963146093636760700009277323115155952768547091244875327321729199064113/1614268609604147888751390299738140544253953369793532538666571155303058404400"
+      ],
+      "POR": [
+        "3/200",
+        "1134153783144472949/68385117115458943800",
+        "68153807527096614451860262905274280812050983565257131/3674947911445336479989541329984908726051406623064174400",
+        "1860246927013597774624541250598261227040102089997112459340890696716406033/88453074498857418561720016424007701055011143550330550063921707139893611200"
+      ],
+      "NYK": [
+        "1/100",
+        "6801952527805278341/612357639624791451300",
+        "6860353052732649311671736746832588376163274127985453/549493136944034315027521317320588546954540043718347600",
+        "45973033334360475330030675701429706261532400941930332140741776026024753089/3228537219208295777502780599476281088507906739587065077333142310606116808800"
+      ],
+      "TOR": [
+        "1/200",
+        "1133116372397301247/203093488518775054200",
+        "131637606807297883357701252296270487019512909942722933/20886261747963193763156639418155436025950456737113473600",
+        "8088167002098063886311696933404989643115621356553972126054896890751951/1118883111837912243113075931199542917521367783603210908796791651570305600"
+      ]
+    },
+    "remaining_first_order_function": "top4 then undrawn inverse-record origins in drawn tie priority",
+    "second_order_function": "all30 inverse-record; each same-record bucket reverses its ACTUAL candidate first-round selection order",
+    "physical_NBA_rng_or_combination_mapping_certified": false
+  },
+  "drawing_candidate": {
+    "rng": [
+      {
+        "counter": 0,
+        "label": "TIE_14_1",
+        "n": 2,
+        "digest": "5fe456483c8d419b4fd09a39fcbb53e4226a08cce25096138076ca571671c6da",
+        "accepted": true,
+        "value": 0
+      },
+      {
+        "counter": 1,
+        "label": "TIE_50_1",
+        "n": 2,
+        "digest": "3ce527dd1498f8871200631797d456c801a2e4cab4f6af3965610b489109921f",
+        "accepted": true,
+        "value": 1
+      },
+      {
+        "counter": 2,
+        "label": "TIE_52_1",
+        "n": 2,
+        "digest": "a7b79d48757442928207a8cf9326d9e52044633fcb6c7c75d121c4098eca87b7",
+        "accepted": true,
+        "value": 1
+      },
+      {
+        "counter": 3,
+        "label": "TIE_63_1",
+        "n": 2,
+        "digest": "5a2b19f1d3fa03bc11428523c9d3afbfa8dbb6e462565f1ddda05e2f182ab8e6",
+        "accepted": true,
+        "value": 0
+      },
+      {
+        "counter": 4,
+        "label": "TIE_72_1",
+        "n": 2,
+        "digest": "a013530ca473ac0ba35921945d6aa4474112cbfab05d19abea3a33918d014f52",
+        "accepted": true,
+        "value": 0
+      },
+      {
+        "counter": 5,
+        "label": "BALL_0_0",
+        "n": 14,
+        "digest": "2f2da3047ea47f01547191c15424a8562fa99c4c674046e945f3760d549454a8",
+        "accepted": true,
+        "value": 4
+      },
+      {
+        "counter": 6,
+        "label": "BALL_0_1",
+        "n": 13,
+        "digest": "cfc8d45dbb5d275d40de167298150ea59dc33cf2a2f01e09c699a0cf7b9be974",
+        "accepted": true,
+        "value": 6
+      },
+      {
+        "counter": 7,
+        "label": "BALL_0_2",
+        "n": 12,
+        "digest": "b8df024ca5f02463c283c4b404c3ace26f7855147399bb95ad4559153c0f16cd",
+        "accepted": true,
+        "value": 5
+      },
+      {
+        "counter": 8,
+        "label": "BALL_0_3",
+        "n": 11,
+        "digest": "3407a1439cd2885e86d0e1cba3ebb659578d8a798c5b2ff344a45f0ee7d567ce",
+        "accepted": true,
+        "value": 6
+      },
+      {
+        "counter": 9,
+        "label": "BALL_1_0",
+        "n": 14,
+        "digest": "0a90a0d946e5b034ef7785bfacb70bb88bb6c632fd3451aa63430225b61e63a4",
+        "accepted": true,
+        "value": 12
+      },
+      {
+        "counter": 10,
+        "label": "BALL_1_1",
+        "n": 13,
+        "digest": "2e5c593ab4264d40c64396577388847ce5e4414d31c8f65816baa395812deb74",
+        "accepted": true,
+        "value": 12
+      },
+      {
+        "counter": 11,
+        "label": "BALL_1_2",
+        "n": 12,
+        "digest": "a5108b2f029ca4e0a88167d1bb2f49711c41d6df99ee1afe9bc0f01580a435bb",
+        "accepted": true,
+        "value": 11
+      },
+      {
+        "counter": 12,
+        "label": "BALL_1_3",
+        "n": 11,
+        "digest": "de93956fd33d6a8f8676ce196d499bf07bbc2e0d29701c4fba83b6c1ad45bab8",
+        "accepted": true,
+        "value": 2
+      },
+      {
+        "counter": 13,
+        "label": "BALL_2_0",
+        "n": 14,
+        "digest": "7d4ea8973e924317bfb86b5f49ecd7a16ebf371d582530bbcff0cdc7275aecf5",
+        "accepted": true,
+        "value": 3
+      },
+      {
+        "counter": 14,
+        "label": "BALL_2_1",
+        "n": 13,
+        "digest": "80d64d06ac33f4829fef973b1db17c598342117d11fd7e5837f628b5226bc7f9",
+        "accepted": true,
+        "value": 10
+      },
+      {
+        "counter": 15,
+        "label": "BALL_2_2",
+        "n": 12,
+        "digest": "6bc8283ca714a048c30d2af65ffefad8eb9b2cbdf79f1ec3d7b3b8be65b5e8f8",
+        "accepted": true,
+        "value": 4
+      },
+      {
+        "counter": 16,
+        "label": "BALL_2_3",
+        "n": 11,
+        "digest": "0289e08b75f059c1dd8c5f6d86edac93111701ff37f740663ae2d4fe64693e22",
+        "accepted": true,
+        "value": 4
+      },
+      {
+        "counter": 17,
+        "label": "BALL_3_0",
+        "n": 14,
+        "digest": "b5953ac9d4e31f92829387f5f503714ca588345240993552f5460fedff861b50",
+        "accepted": true,
+        "value": 2
+      },
+      {
+        "counter": 18,
+        "label": "BALL_3_1",
+        "n": 13,
+        "digest": "7a56393cf527551ee5e7c4424bdcc68dcb2d4b1a361d0791802547492a8d1289",
+        "accepted": true,
+        "value": 8
+      },
+      {
+        "counter": 19,
+        "label": "BALL_3_2",
+        "n": 12,
+        "digest": "9454238dc784a00dbd893e8e8a456183dc1b366342e761ce84d7b8a49eae75e3",
+        "accepted": true,
+        "value": 3
+      },
+      {
+        "counter": 20,
+        "label": "BALL_3_3",
+        "n": 11,
+        "digest": "8a5043c232b1b952d6e2a5a18e73064906e3487272514fff905ff0021c84ef92",
+        "accepted": true,
+        "value": 5
+      },
+      {
+        "counter": 21,
+        "label": "BALL_4_0",
+        "n": 14,
+        "digest": "fa3ceb71e908ab301cd19a3d76f7fbcdbbb794bb40c8ff65f32ab79528f4a02c",
+        "accepted": true,
+        "value": 2
+      },
+      {
+        "counter": 22,
+        "label": "BALL_4_1",
+        "n": 13,
+        "digest": "8a578d7cbb0faf338a7bc95a6e7cd1807f0133a8707e7f6c1c5df2379966c0e2",
+        "accepted": true,
+        "value": 5
+      },
+      {
+        "counter": 23,
+        "label": "BALL_4_2",
+        "n": 12,
+        "digest": "ff4d91b9b43e7b3374fe1b8ded1554b2e83fedbae18567afddb07d45d5642495",
+        "accepted": true,
+        "value": 1
+      },
+      {
+        "counter": 24,
+        "label": "BALL_4_3",
+        "n": 11,
+        "digest": "b99577eda327485510fe06f4c1407440d2f1a7b3b1854b653d2df75d945668ae",
+        "accepted": true,
+        "value": 10
+      }
+    ],
+    "ties": [
+      {
+        "wins": 14,
+        "origins_before": [
+          "CHA",
+          "WAS"
+        ],
+        "prelottery_first_tie_order": [
+          "WAS",
+          "CHA"
+        ],
+        "steps": [
+          {
+            "i": 1,
+            "j": 0
+          }
+        ]
+      },
+      {
+        "wins": 50,
+        "origins_before": [
+          "ATL",
+          "GSW"
+        ],
+        "prelottery_first_tie_order": [
+          "ATL",
+          "GSW"
+        ],
+        "steps": [
+          {
+            "i": 1,
+            "j": 1
+          }
+        ]
+      },
+      {
+        "wins": 52,
+        "origins_before": [
+          "DAL",
+          "IND"
+        ],
+        "prelottery_first_tie_order": [
+          "DAL",
+          "IND"
+        ],
+        "steps": [
+          {
+            "i": 1,
+            "j": 1
+          }
+        ]
+      },
+      {
+        "wins": 63,
+        "origins_before": [
+          "DEN",
+          "LAL"
+        ],
+        "prelottery_first_tie_order": [
+          "LAL",
+          "DEN"
+        ],
+        "steps": [
+          {
+            "i": 1,
+            "j": 0
+          }
+        ]
+      },
+      {
+        "wins": 72,
+        "origins_before": [
+          "MIL",
+          "UTA"
+        ],
+        "prelottery_first_tie_order": [
+          "UTA",
+          "MIL"
+        ],
+        "steps": [
+          {
+            "i": 1,
+            "j": 0
+          }
+        ]
+      }
+    ],
+    "prelottery_orders": {
+      "7": [
+        "DET"
+      ],
+      "8": [
+        "OKC"
+      ],
+      "12": [
+        "CLE"
+      ],
+      "14": [
+        "WAS",
+        "CHA"
+      ],
+      "15": [
+        "ORL"
+      ],
+      "17": [
+        "HOU"
+      ],
+      "21": [
+        "MEM"
+      ],
+      "22": [
+        "SAC"
+      ],
+      "23": [
+        "MIN"
+      ],
+      "25": [
+        "SAS"
+      ],
+      "34": [
+        "POR"
+      ],
+      "38": [
+        "NYK"
+      ],
+      "40": [
+        "NOP"
+      ],
+      "43": [
+        "TOR"
+      ],
+      "46": [
+        "CHI"
+      ],
+      "49": [
+        "MIA"
+      ],
+      "50": [
+        "ATL",
+        "GSW"
+      ],
+      "52": [
+        "DAL",
+        "IND"
+      ],
+      "60": [
+        "BOS"
+      ],
+      "62": [
+        "PHX"
+      ],
+      "63": [
+        "LAL",
+        "DEN"
+      ],
+      "67": [
+        "LAC"
+      ],
+      "68": [
+        "PHI"
+      ],
+      "71": [
+        "BKN"
+      ],
+      "72": [
+        "UTA",
+        "MIL"
+      ]
+    },
+    "inverse_record_lottery_order": [
+      "DET",
+      "OKC",
+      "CLE",
+      "WAS",
+      "CHA",
+      "ORL",
+      "HOU",
+      "MEM",
+      "SAC",
+      "MIN",
+      "SAS",
+      "POR",
+      "NYK",
+      "TOR"
+    ],
+    "assigned_weights": {
+      "DET": 140,
+      "OKC": 140,
+      "CLE": 140,
+      "WAS": 115,
+      "CHA": 115,
+      "ORL": 90,
+      "HOU": 75,
+      "MEM": 60,
+      "SAC": 45,
+      "MIN": 30,
+      "SAS": 20,
+      "POR": 15,
+      "NYK": 10,
+      "TOR": 5
+    },
+    "pooled_weights": [
+      {
+        "wins": 7,
+        "origins_in_drawn_tie_order": [
+          "DET"
+        ],
+        "nominal_inverse_record_weights": [
+          140
+        ],
+        "pooled_combinations": 140,
+        "equal_base": 140,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 8,
+        "origins_in_drawn_tie_order": [
+          "OKC"
+        ],
+        "nominal_inverse_record_weights": [
+          140
+        ],
+        "pooled_combinations": 140,
+        "equal_base": 140,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 12,
+        "origins_in_drawn_tie_order": [
+          "CLE"
+        ],
+        "nominal_inverse_record_weights": [
+          140
+        ],
+        "pooled_combinations": 140,
+        "equal_base": 140,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 14,
+        "origins_in_drawn_tie_order": [
+          "WAS",
+          "CHA"
+        ],
+        "nominal_inverse_record_weights": [
+          125,
+          105
+        ],
+        "pooled_combinations": 230,
+        "equal_base": 115,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 15,
+        "origins_in_drawn_tie_order": [
+          "ORL"
+        ],
+        "nominal_inverse_record_weights": [
+          90
+        ],
+        "pooled_combinations": 90,
+        "equal_base": 90,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 17,
+        "origins_in_drawn_tie_order": [
+          "HOU"
+        ],
+        "nominal_inverse_record_weights": [
+          75
+        ],
+        "pooled_combinations": 75,
+        "equal_base": 75,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 21,
+        "origins_in_drawn_tie_order": [
+          "MEM"
+        ],
+        "nominal_inverse_record_weights": [
+          60
+        ],
+        "pooled_combinations": 60,
+        "equal_base": 60,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 22,
+        "origins_in_drawn_tie_order": [
+          "SAC"
+        ],
+        "nominal_inverse_record_weights": [
+          45
+        ],
+        "pooled_combinations": 45,
+        "equal_base": 45,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 23,
+        "origins_in_drawn_tie_order": [
+          "MIN"
+        ],
+        "nominal_inverse_record_weights": [
+          30
+        ],
+        "pooled_combinations": 30,
+        "equal_base": 30,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 25,
+        "origins_in_drawn_tie_order": [
+          "SAS"
+        ],
+        "nominal_inverse_record_weights": [
+          20
+        ],
+        "pooled_combinations": 20,
+        "equal_base": 20,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 34,
+        "origins_in_drawn_tie_order": [
+          "POR"
+        ],
+        "nominal_inverse_record_weights": [
+          15
+        ],
+        "pooled_combinations": 15,
+        "equal_base": 15,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 38,
+        "origins_in_drawn_tie_order": [
+          "NYK"
+        ],
+        "nominal_inverse_record_weights": [
+          10
+        ],
+        "pooled_combinations": 10,
+        "equal_base": 10,
+        "odd_remainder_awarded_in_draw_order": 0
+      },
+      {
+        "wins": 43,
+        "origins_in_drawn_tie_order": [
+          "TOR"
+        ],
+        "nominal_inverse_record_weights": [
+          5
+        ],
+        "pooled_combinations": 5,
+        "equal_base": 5,
+        "odd_remainder_awarded_in_draw_order": 0
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 0,
+        "target_rank": 1,
+        "ordered_balls": [
+          5,
+          8,
+          7,
+          10
+        ],
+        "combination": [
+          5,
+          7,
+          8,
+          10
+        ],
+        "index0": 820,
+        "origin": "MEM",
+        "accepted": true,
+        "discard": null
+      },
+      {
+        "attempt": 1,
+        "target_rank": 2,
+        "ordered_balls": [
+          13,
+          14,
+          12,
+          3
+        ],
+        "combination": [
+          3,
+          12,
+          13,
+          14
+        ],
+        "index0": 670,
+        "origin": "ORL",
+        "accepted": true,
+        "discard": null
+      },
+      {
+        "attempt": 2,
+        "target_rank": 3,
+        "ordered_balls": [
+          4,
+          12,
+          6,
+          7
+        ],
+        "combination": [
+          4,
+          6,
+          7,
+          12
+        ],
+        "index0": 711,
+        "origin": "ORL",
+        "accepted": false,
+        "discard": "ALREADY_WON"
+      },
+      {
+        "attempt": 3,
+        "target_rank": 3,
+        "ordered_balls": [
+          3,
+          10,
+          5,
+          8
+        ],
+        "combination": [
+          3,
+          5,
+          8,
+          10
+        ],
+        "index0": 567,
+        "origin": "CHA",
+        "accepted": true,
+        "discard": null
+      },
+      {
+        "attempt": 4,
+        "target_rank": 4,
+        "ordered_balls": [
+          3,
+          7,
+          2,
+          14
+        ],
+        "combination": [
+          2,
+          3,
+          7,
+          14
+        ],
+        "index0": 319,
+        "origin": "CLE",
+        "accepted": true,
+        "discard": null
+      }
+    ],
+    "top4": [
+      "MEM",
+      "ORL",
+      "CHA",
+      "CLE"
+    ],
+    "first14": [
+      "MEM",
+      "ORL",
+      "CHA",
+      "CLE",
+      "DET",
+      "OKC",
+      "WAS",
+      "HOU",
+      "SAC",
+      "MIN",
+      "SAS",
+      "POR",
+      "NYK",
+      "TOR"
+    ]
+  },
+  "potential_sixty_origin_orders": [
+    {
+      "round": 1,
+      "origin": "MEM",
+      "potential_origin_rank": 1,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "ORL",
+      "potential_origin_rank": 2,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "CHA",
+      "potential_origin_rank": 3,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "CLE",
+      "potential_origin_rank": 4,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "DET",
+      "potential_origin_rank": 5,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "OKC",
+      "potential_origin_rank": 6,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "WAS",
+      "potential_origin_rank": 7,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "HOU",
+      "potential_origin_rank": 8,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "SAC",
+      "potential_origin_rank": 9,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "MIN",
+      "potential_origin_rank": 10,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "SAS",
+      "potential_origin_rank": 11,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "POR",
+      "potential_origin_rank": 12,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "NYK",
+      "potential_origin_rank": 13,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "TOR",
+      "potential_origin_rank": 14,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "NOP",
+      "potential_origin_rank": 15,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "CHI",
+      "potential_origin_rank": 16,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "MIA",
+      "potential_origin_rank": 17,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "ATL",
+      "potential_origin_rank": 18,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "GSW",
+      "potential_origin_rank": 19,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "DAL",
+      "potential_origin_rank": 20,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "IND",
+      "potential_origin_rank": 21,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "BOS",
+      "potential_origin_rank": 22,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "PHX",
+      "potential_origin_rank": 23,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "LAL",
+      "potential_origin_rank": 24,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "DEN",
+      "potential_origin_rank": 25,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "LAC",
+      "potential_origin_rank": 26,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "PHI",
+      "potential_origin_rank": 27,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "BKN",
+      "potential_origin_rank": 28,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "UTA",
+      "potential_origin_rank": 29,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 1,
+      "origin": "MIL",
+      "potential_origin_rank": 30,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "DET",
+      "potential_origin_rank": 31,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "OKC",
+      "potential_origin_rank": 32,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "CLE",
+      "potential_origin_rank": 33,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "WAS",
+      "potential_origin_rank": 34,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "CHA",
+      "potential_origin_rank": 35,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "ORL",
+      "potential_origin_rank": 36,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "HOU",
+      "potential_origin_rank": 37,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "MEM",
+      "potential_origin_rank": 38,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "SAC",
+      "potential_origin_rank": 39,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "MIN",
+      "potential_origin_rank": 40,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "SAS",
+      "potential_origin_rank": 41,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "POR",
+      "potential_origin_rank": 42,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "NYK",
+      "potential_origin_rank": 43,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "NOP",
+      "potential_origin_rank": 44,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "TOR",
+      "potential_origin_rank": 45,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "CHI",
+      "potential_origin_rank": 46,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "MIA",
+      "potential_origin_rank": 47,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "GSW",
+      "potential_origin_rank": 48,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "ATL",
+      "potential_origin_rank": 49,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "IND",
+      "potential_origin_rank": 50,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "DAL",
+      "potential_origin_rank": 51,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "BOS",
+      "potential_origin_rank": 52,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "PHX",
+      "potential_origin_rank": 53,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "DEN",
+      "potential_origin_rank": 54,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "LAL",
+      "potential_origin_rank": 55,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "LAC",
+      "potential_origin_rank": 56,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "PHI",
+      "potential_origin_rank": 57,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "BKN",
+      "potential_origin_rank": 58,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "MIL",
+      "potential_origin_rank": 59,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    },
+    {
+      "round": 2,
+      "origin": "UTA",
+      "potential_origin_rank": 60,
+      "public_holder": null,
+      "sanction_or_forfeiture_applied": false,
+      "draftee_UPC_Tender_selected": false
+    }
+  ],
+  "known_Chicago_claim_ports": [
+    {
+      "id": "CHI_2023_1R",
+      "origin": "CHI",
+      "year": 2023,
+      "round": 1,
+      "selected_holder": "CHI",
+      "basis": "Original Chicago first retained; Vucevic outgoing edge omitted; selected no intervening transfer family.",
+      "historical_ORL_11_copied": false,
+      "selected_draft_position": null,
+      "position_domain": "NONLOTTERY_IF_QUALIFIED_ELSE_LOTTERY_DRAW",
+      "new_STD_rookie_reservation": 1,
+      "candidate_origin_rank": 16,
+      "new_2023_draw_canon_adoption": false
+    },
+    {
+      "id": "CHI_2023_2R",
+      "origin": "CHI",
+      "year": 2023,
+      "round": 2,
+      "selected_holder": "WAS",
+      "public_prior_holder": "WAS",
+      "protection": "REMOVED_2019_07_07",
+      "basis": "New explicitly selected prior-claim preservation family from public Porter/Satoransky releases; omitted P1 does not forward the claim to LAL.",
+      "P1_candidate_E1_E2_selected": false,
+      "historical_later_rank_copied": false,
+      "new_CHI_STD_rookie_reservation": 0,
+      "candidate_origin_rank": 46,
+      "new_2023_draw_canon_adoption": false
+    }
+  ],
+  "summary": {
+    "first_origins": 30,
+    "second_origins": 30,
+    "lottery_origins": 14,
+    "playoff_origins": 16,
+    "tie_buckets": 5,
+    "candidate_top4": [
+      "MEM",
+      "ORL",
+      "CHA",
+      "CLE"
+    ],
+    "CHI_first_origin_rank": 16,
+    "CHI_second_origin_rank_to_WAS": 46,
+    "actual_2023_draw_results_copied": 0
+  },
+  "certification": {
+    "origin_and_probability_functions_complete": true,
+    "candidate_draw_executed_for_review": true,
+    "fictional_draw_selected_or_canon_adopted": false,
+    "independent_review_completed": false,
+    "all60_public_holders_or_sanctions_certified": false,
+    "actual_NBA_2023_draw_certified": false,
+    "draftee_UPC_Tender_selected": false,
+    "title_MVP_core_or_season_results_changed": false,
+    "whole_macro3_complete": false,
+    "manuscript_allowed": false
+  },
+  "remaining_named_ports": [
+    "Root review/adoption of candidate draw; does not condition known CHI16 on unrelated lottery adoption.",
+    "Public holder/conditional prior-right/sanction functions for each actually consumed non-CHI claim; no assumed actual 58-pick forfeitures.",
+    "CHI16 draftee/price and WAS-owned CHI second are separate downstream consumers."
+  ],
+  "unfinished_macro_groups": 5,
+  "unfinished_through_6": 4,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0
+}
