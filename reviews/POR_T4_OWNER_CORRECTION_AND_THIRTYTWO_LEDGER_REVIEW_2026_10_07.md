@@ -20,7 +20,7 @@
 
 ## 다음 및 전체 진행
 
-DEN에서 기존F5 Hartenstein DEN/McGee CLE와 Gordon/Nnaji ORL, 새Hyland26 권리·명단·두날짜 건강/역할을 연결한다. 동시에 FY22 코어/FY23 예정일정에서 후속 역할·2022 옵션/2023 자격·계약 입력을 준비한다. 두 대체시즌의 순위/픽·2023 후속은 미완료다.
+DEN에서 기존F5 Hartenstein DEN/McGee CLE와 T1 Gordon DEN·Harris/Nnaji ORL, 새Hyland26 권리·명단·두날짜 건강/역할을 연결한다. 동시에 FY22 코어/FY23 예정일정에서 후속 역할·2022 옵션/2023 자격·계약 입력을 준비한다. 두 대체시즌의 순위/픽·2023 후속은 미완료다.
 
 | 번호 | 작업 | 현재 |
 |---|---|---|
