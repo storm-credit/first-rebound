@@ -1,0 +1,46 @@
+{
+  "id": "CHICAGO_2025_DUARTE_AND_FIVE_MINIMUM_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "ACCEPTED_BOUNDED_CANDIDATE_FAMILIES",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_AND_LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "research/CHICAGO_2025_DUARTE_RFA_RENEWAL_PACKET_2026_10_08.json": "f44152b5fa4516ba331f6090fc30d608630b391d7e2e1171a59022268ae33487",
+    "research/CHICAGO_2025_DUARTE_RFA_RENEWAL_PACKET_2026_10_08.md": "92b9f9d60f4e0c1d9b2de7fe5cf02f1127ca20546e58b1d36e2eafa4265d59e5",
+    "research/CHICAGO_2025_FIVE_MINIMUM_RENEWAL_PACKET_2026_10_08.json": "19d715d4dcd34545caefd47e39cc37573dd4e77580eb3e79545214962fa3c934",
+    "research/CHICAGO_2025_FIVE_MINIMUM_RENEWAL_PACKET_2026_10_08.md": "74676359fa4f531f134edaae18f6657a98b5a90e0f6aa2c75a67c84de37072d7"
+  },
+  "independent_checks": [
+    {
+      "scope": "physical_sources",
+      "result": "PASS",
+      "evidence": "Duarte 7 and minimum 5 repo source pins match current physical files; cached official 2023 CBA, official NBA cap body, and Duarte 2017 CBA raw hashes match. Direct fitz page text hashes match Duarte CBA2023 pages 241/251/319/336–338/342/344–346 and minimum pages 33–34/57–58/234–235/241–242/244–245/264/343. NBA 2025 cap raw supports C25=154647000."
+    },
+    {
+      "scope": "Duarte ownership and QO",
+      "result": "PASS",
+      "evidence": "Eight JSON pointers physically resolve, including CHI pick10 2021 RSC, FY2022/23/24 salary and option, 2024 live contract, and 2025 expiry port. Original 2021 pick10 fourth-year 27.5%/QO36.2% retained; 2023 new-pick10 46.2% excluded. Independent reference 6133005*1.362=8353152.81. Starter ninth-pick120% and nonstarter lesser complete own/15th packages use positive S21 scale ports; GS/MIN and QO issue remain unselected. CBA2023 XI1e/4a direct pages 336–338/342 support scope."
+    },
+    {
+      "scope": "Duarte Bird proposal, holds and obligations",
+      "result": "PASS",
+      "evidence": "D25A/B/C sum independently to 36000000/67200000/20000000; 8% first-year linear changes and cap25% 38661750 ceiling respected. Six normal reference deltas recompute exactly from 250% or 300% of 6133005 reference and selected first salary; actual P24 Gamma and estimated-average branch remain symbolic. Other live salaries, old Gamma, QO/FRN, draft, exceptions and roster/tax categories remain separate and same claim is replaced once. All three proposals and consent/QO remain false/null."
+    },
+    {
+      "scope": "five named minimum candidates",
+      "result": "PASS",
+      "evidence": "Each FY24 selected-contract and 2025 rollover JSON pointer physically resolves to the same named player. Conditional YOS buckets are Young10, Green6, Wieskamp4, Valentine9, Satoransky9; one credited FY24 service year is conditional, not 82 appearances. CBA2023 Article IV6h physical page125 supports one-year >=3YOS reimbursement of full player cash minus 2YOS amount, paid by League fund after Season; two-year alternative does not auto-qualify. PDF pages 241–242 support unreimbursed current minimum FA hold. Five contracts, prices and receipts remain unselected."
+    },
+    {
+      "scope": "minimum arithmetic screen",
+      "result": "PASS",
+      "evidence": "Exact Fraction cap-ratio calculations match five per-YOS references and conditional ceil+4 upper values under stated annual-rounding-error <=1 premise. Five full-cash conditional upper sums 15577624; five reimbursable Team Salary upper 5*2296279=11481395. The annual rounding premise and operative prepared minimum table are unverified, so these are conditional screens only, while M25(y,1) is the legal function. Existing Gamma and other five cost categories remain typed and no complete FY25 cost is certified."
+    }
+  ],
+  "limitations": [
+    "Static packets only: independent constructor or mutation tests performed 0; writer checks counted 0.",
+    "No actual QO issuance, player acceptance, 2025 minimum-table exact cents, full league private receipts, season health or complete 15-player FY25 roster certified.",
+    "The repeated sentence Young remains10+ bucket in four non-Young minimum service-condition strings is a minor editorial template carryover; each row’s named YOS bucket and arithmetic are correct."
+  ],
+  "blockers": [],
+  "recommendation": "Accept both as bounded candidate inputs; keep selected UPC, QO issue, service credit and full FY25 cost false until their distinct downstream choices and inputs."
+}

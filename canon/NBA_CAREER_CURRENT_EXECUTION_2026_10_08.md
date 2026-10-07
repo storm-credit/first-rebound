@@ -1,5 +1,7 @@
 # NBA 커리어 현행 실행 인계 — 2026-10-08
 
+2026-10-08 [FY25 갱신6·명명15 계약 입력 인계](../reviews/FY25_NAMED15_AND_RENEWAL_CONTINUATION_ADOPTION_2026_10_08.md): PR507 main 다음 작업. 1–3번 완료 보존. Duarte D25A$12m×3·timely-QO와 minimum5 1년 법정급여 선택·독립검문, 현금/환급Salary·같은hold/QO한번·원Gamma를 보존했다. carry5 FY25 연차와 같은 날짜7→15명의 유효 가족·명의/용량/소스를 결합·검문했다. 신규갱신6의 남은입력0이며 정확 사적센트·전체tax/cash·시즌·현실등록은 별도다. 다음 FY26 만료/옵션·cap자료·후기 연차를 계속한다. 전체커리어/배치/G13/G14 미완료, 미완료4/6번까지3. v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전이력이다.
+
 2026-10-08 [FY25 Caruso·신인 옵션·정보11 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADOPTION_2026_10_08.md): PR506 main 다음 작업. 1–3번 완료 보존. Caruso C25B 4년 $86,602,320과 조건부 원 RSC 통지 2건 선택·독립 검문 완료. 기존 Gamma·동일 hold 한 번 교체·신규 슬롯을 구분한다. 정보 경계 11개 준비와 실제 pointer/지식 시계를 수용하고 원 null·개별 HOLD·POV/Pack 미승격을 보존했다. FY25 계약 입력 9개, 남은 갱신 6건(Duarte1+minimum5). NLM/Claude 새 답 회수; Claude의 hold 지적은 CBA 비RSC150%/190% 원문 대조로 기각했다. 전체 커리어·최종 배치·G13/G14 미완료. 남은 큰 묶음4개, 6번까지3개. v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전 이력이다.
 
 2026-10-08 [QUAL1・2025 갱신・배치 입력 인계](../reviews/QUAL1_MARKKANEN_AND_ALLOCATION_CONTINUATION_ADOPTION_2026_10_08.md): PR505 main 다음 작업. 1–3번 완료 보존. 가상 CHI6/PHI3 자격 및 별도 G1/G2 역할 비용 관측을 선택・독립 검문했고, M25B 가상 4년 갱신・동일 hold 한 번 교체・원 Γ 보존을 실행했다. FY25 5기존/1선택/2옵션/7만료를 분리했다. 60기능 배치 입력의 null 정보 대상 11건을 HOLD로 수리. AGY/NLM/Claude 새 답 회수와 사본 이력 보존. 전체 커리어・최종 회차・G13/G14・Pack은 미완료. 남은 큰 묶음 4개, 6번까지 3개. v0.30 PARTIAL・CLOSED・Pack0・원고0・Goal ACTIVE・일정0. 아래는 이전 이력이다.
