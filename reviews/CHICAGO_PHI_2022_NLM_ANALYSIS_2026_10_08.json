@@ -1,0 +1,55 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "222da483-a9f4-4ab0-9357-9a4df38bd2ae"
+  ],
+  "question_sha256": "83845c8a0b2567ee4d16177fb690b2e9cab1561fe4b044f1f78d29874e12382b",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 50.859,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "**CHI-PHI 2022 가상 1라운드 7경기 타임라인**\n\n* **1경기 (2022-04-16, PHI 홈)**: PHI 승 [1]\n* **2경기 (2022-04-18, PHI 홈)**: PHI 승 [1]\n* **3경기 (2022-04-21, CHI 홈)**: CHI 승 [1]\n* **4경기 (2022-04-23, CHI 홈)**: CHI 승 [1]\n* **5경기 (2022-04-25, PHI 홈)**: PHI 승 [1]\n* **6경기 (2022-04-28, CHI 홈)**: CHI 승 [1]\n* **7경기 (2022-04-30, PHI 홈)**: PHI 승 → **최종 PHI 4–3 승리, CHI 4월 30일 탈락 확정** [1, 2]\n\n---\n\n**계약 / 건강 가상 선택 / 시즌 말 경계 사이의 모순**\n\n* **건강 가상 수치와 계약·임상 경계 간의 불일치**: 가상 모델상 **Coby OUT 조건의 BPM 합산 수치가 더 높게 산출됨에도 불구하고**, 이것이 실제 임상적 우위나 경기 대응력을 증명하지 못하여 시카고는 NORMAL(정상 역할)을 선택해야 하는 수치 모델과 건강 해석 간의 괴리가 발생합니다 [1, 2]. 아울러 플레이오프에서 **224분을 소화했음에도 시즌 말 계약 규정상 정규시즌 QO 기준(2,624분)에는 일절 합산되지 않고 차단**되어, June 29 QO 및 기존 계약 구조에 아무런 영향을 주지 못하는 경계 간 단절이 존재합니다 [1].\n\n---\n\n**경계 조건 및 미확정 사항 확인**\n\n* **시즌 종료 범위**: 시카고(CHI)의 4월 30일 탈락은 **해당 팀의 플레이오프 탈락일 뿐이며, NBA 전체 시즌 종료나 리그 우승 결정이 아닙니다** (남은 14개 시리즈 및 리그 최종 우승자는 별도 미완료 상태) [1, 2].\n* **출전 시간 비합산**: 주인공의 플레이오프 출전 시간(224분)은 **정규시즌 QO 기준(2,624분)에 합산되지 않으며**, 기존 계약 기준(E2/CX1, June 29 QO, July 7 등)을 변경하지 않습니다 [1].\n* **미확정 및 검증 한계**: 공식 박스스코어, 실제 임상 건강/복귀 여부, 파이널 결과, 2022년 신인 및 후속 시즌(2022–23/2023) 내용은 모두 **미확정·미완료** 상태이며, 독립적인 법적 원문 검증 전 단계(원고 0)의 고정 생산성 모델 결과입니다 [1, 2].\n\n---\n\n🏀 혹시 이 가상 7경기 시리즈의 구체적인 홈/원정 배분(2-2-1-1-1)이나 8개 파라미터 가족별 세부 결과 비교가 더 필요하신가요?",
+      "question": "지정사본만 분석. CHI-PHI 시리즈 가상7경기·PHI4-3·CHI4월30탈락의 짧은 텍스트 타임라인 및 계약/건강가상선택/시즌말경계 사이 모순 최대1개 반환. CHI 탈락을 NBA전체Season종료나 우승결정으로 바꾸지 말것. PO분을 정규QO분에 합치지 말것. 공식box/건강/Finals/추후신인은 미확정. 법적독립원문검증을 주장하지 말것. 원고없음.",
+      "conversation_id": "21b8bdfe-0ab7-452e-8e4b-084f511aecb2",
+      "sources_used": [
+        "222da483-a9f4-4ab0-9357-9a4df38bd2ae"
+      ],
+      "citations": {
+        "1": "222da483-a9f4-4ab0-9357-9a4df38bd2ae",
+        "2": "222da483-a9f4-4ab0-9357-9a4df38bd2ae"
+      },
+      "references": [
+        {
+          "source_id": "222da483-a9f4-4ab0-9357-9a4df38bd2ae",
+          "citation_number": 1,
+          "cited_text_sha256": "4a70ffcdec0ab7f789e84463ccafa07fe73482dc360e1dbbdc76fc8aaf7f96ff",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "222da483-a9f4-4ab0-9357-9a4df38bd2ae",
+          "citation_number": 2,
+          "cited_text_sha256": "ab4b462a3af5a20f06e14672773ac872467e7e6855530feb6f234566624856b1",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true,
+  "root_adjudication": {
+    "accepted": "Seven fictional dates/home/winners, PHI4–3, CHI April30 elimination distinct from NBA league Season end, regular2624/PO224 separation match uploaded snapshot.",
+    "alleged_contradiction_rejected": "OUT higher fixed BPM is not a clinical/causal diagnosis; NORMAL was an explicit fictional development choice. Excluding playoff minutes from regular QO tests is a legal scope distinction, not a contradiction or influence failure. The answer does not establish independent CBA verification.",
+    "must_choose_normal_rejected": "The selected pack compares eight families and selects NORMAL; the model does not legally or clinically force that selection.",
+    "source_copy_and_answer_preserved": true,
+    "primary_evidence_or_whole_G16_certified": false
+  }
+}

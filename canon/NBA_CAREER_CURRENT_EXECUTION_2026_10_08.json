@@ -1,7 +1,7 @@
 {
   "id": "NBA_CAREER_CURRENT_EXECUTION_2026_10_08",
   "observed_local_date": "2026-10-08",
-  "baseline_main": "d74ffd6efcdb18a07285a23ea7a59a014400c32b",
+  "baseline_main": "bebabcf65be6af0d73d39b5a290249de52952397",
   "classification": "CURRENT_ACCEPTED_WORKING_FICTIONAL_EXECUTION_OVERLAY_NOT_NEW_AUTHOR_LOCK",
   "source_sha256": {
     "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
@@ -13,7 +13,15 @@
     "canon/CAREER_TIMELINE.md": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
     "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
     "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
-    "reviews/PROTAGONIST_2022_QO_STARTER_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08.json": "3e92d0b95af2a435741d779c49fb9dcc1fe695bd682ff66add4c109b202caaee"
+    "reviews/PROTAGONIST_2022_QO_STARTER_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08.json": "3e92d0b95af2a435741d779c49fb9dcc1fe695bd682ff66add4c109b202caaee",
+    "canon/DELEGATED_2022_DRAW_AND_CHICAGO_FIRST_ROUND_DECISION_2026_10_08.json": "f36a27e337f481e9d29ef03485d994a5bba07afb7e65e46de28cfb97ea437363",
+    "simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json": "09d7c6613b3710a04600f567340e963d3a3d863851bafd1a8213618dee14ea39",
+    "reviews/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL_G11_INDEPENDENT_REVIEW_2026_10_08.json": "af8f1687e1f321ef3fcea8d9035758500088378ef435c2c45c6bf2a5c7eb2219",
+    "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json": "a167d96c64fa790250908a5a071f3abe355be2d951fa47bbb7f9a928c464202b",
+    "reviews/CHICAGO_PHI_2022_FIRST_ROUND_G11_INDEPENDENT_REVIEW_2026_10_08.json": "5a2ad16de4af768591030ad4cb5a7dd0f052cca8962054ccb15c5136fb3f5679",
+    "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json": "21e860056c2654d5e4837911dac39e7f45f4d26388d353bc57594afefcecf1f4",
+    "reviews/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json": "fe12a16eb1a4abcb3a78fe1258ab8bcec3e702e58ec5710ee8ab71160f2539a2",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d"
   },
   "parent_canons_preserved": true,
   "NBA_2021_22": {
@@ -25,7 +33,15 @@
     "playoff_seed": 7,
     "selected_playin": "2022-04-12 HOME_MIA_WORKING_REGULATION_WIN",
     "first_round_opponent": "PHI",
-    "first_round_result": null,
+    "first_round_result": {
+      "selected_fictional_winner": "PHI",
+      "CHI_wins": 3,
+      "PHI_wins": 4,
+      "games": 7,
+      "CHI_elimination_date": "2022-04-30",
+      "league_Season_end_not_inferred": true,
+      "source": "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json"
+    },
     "modeled_regulation_minutes_only": {
       "Protagonist": {
         "positive_regulation_model_dates": 82,
@@ -39,7 +55,13 @@
       }
     },
     "full_points_boxes_official_starts_OT": null,
-    "full_season_final_author_lock": false
+    "full_season_final_author_lock": false,
+    "selected_playoff_regulation_minutes_only": {
+      "Protagonist": 224,
+      "source": "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json",
+      "not_added_to_regular_QO_MIN": true
+    },
+    "Coby_fictional_postseason_return_from": "2022-04-16"
   },
   "FY2022": {
     "original_two_rookie_option_notices_unchanged": true,
@@ -82,10 +104,38 @@
       "second_tied_order_reverse_first": true,
       "independent_second_draw": false,
       "exact_exercise_flags": null,
-      "exact_final_origin_rank_holder": null,
+      "exact_final_origin_rank_holder": {
+        "origin": "LAL",
+        "overall_rank": 57,
+        "holder": "CHI",
+        "working_public_family_only": true,
+        "source": "simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json"
+      },
       "all_three_original_claims_conserved_not_added_or_deleted": true
     },
-    "lottery_draw_tie_draw_final_holder_new_draftee": null
+    "lottery_draw_tie_draw_final_holder_new_draftee": "Working draw/final public-family ranks selected in overlay; new draftees/Tender/UPC still unselected. Original domain/composite functions above preserved as source family.",
+    "selected_working_draw_and_rights": {
+      "source": "simulation/NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL.json",
+      "CHI_first_origin_rank": [
+        "CHI",
+        18
+      ],
+      "CHI_second_origin_overall_rank": [
+        "LAL",
+        57
+      ],
+      "CHI_own_second_rank_47_holder": "SAC",
+      "physical_NBA_draw_or_new_UPC_certified": false
+    },
+    "existing_2022_23_contract_window": {
+      "source": "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json",
+      "review": "reviews/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+      "STD": 15,
+      "TW": 2,
+      "N23": null,
+      "A23": null,
+      "whole_2022_23_results_or_cost_certified": false
+    }
   },
   "parent_health_direction_and_source_roles_preserved": true,
   "model_is_historical_medical_private_stat_certificate": false,

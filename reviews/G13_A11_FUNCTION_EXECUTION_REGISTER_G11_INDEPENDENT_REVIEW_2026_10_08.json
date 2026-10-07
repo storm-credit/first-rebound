@@ -1,0 +1,35 @@
+{
+  "id": "G13_A11_FUNCTION_EXECUTION_REGISTER_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_CURRENT_49_FUNCTION_REGISTER_WITH_BOUNDED_A11_ROUTE",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_g13_a11_function_execution_register.py": "6f88661fd00ba77fac28b72f37b80a9ca676b7220e054370e08a539d429009a5",
+    "control/G13_A11_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "cc7a6eccd7574e1dfe42d20bea92cee30c3e0c8c6ed609d3844025065e456b27",
+    "control/G13_A11_FUNCTION_EXECUTION_REGISTER_2026_10_08.md": "ce3f9a14944749a676cd86aa668415a4c78a43456e08a816d4347a192ec4db04",
+    "control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json": "def711fd705443c7e7bcce53996e2d825b99ae973e42b211b0e3385033d57bd9"
+  },
+  "currentness": {"producer_check": true, "saved_json_equals_rebuilt": true, "markdown_equals_render": true, "returned_source_objects_match_independent_physical_parses": true},
+  "join_checks": {
+    "prior_48_function_rows_identical": true,
+    "prior_77_source_pins_identical": true,
+    "source_pins_after_addition": 84,
+    "new_id": "A11-EF-001",
+    "new_order": 49,
+    "new_subact": "A11-S1",
+    "new_planned_slot": 583,
+    "new_entry_equals_A10_EF_003_exact_exit_and_A11_function_entry": true,
+    "new_exit_equals_reviewed_A11_function_exit": true,
+    "registered_local_functions": 49,
+    "subacts_with_verified_local_function_route": 31,
+    "subacts_without_verified_local_function_route": 11,
+    "unassigned_planned_slots": 731,
+    "unassigned_slots_are_not_mandatory_new_events": true
+  },
+  "independent_returned_source_mutations": [
+    {"case": "BASE load changes original function 48 A10-EF-003 exact_exit to already-certified title", "result": "REJECTED: Returned object differs from physical control/G13_A10_THREE_FUNCTION_REGISTER_2026_10_08.json"},
+    {"case": "NEW load changes A11 function whole_g13_complete to true", "result": "REJECTED: Returned object differs from physical design/A11_E1_FINAL_EPISODE_FUNCTION.json"}
+  ],
+  "scope_limits": ["The added route is one bounded private practice failure and correction, not sustained A11-S1 impact or an NBA season result.", "Whole A11, G13, and G14 remain false; Context Pack and manuscript counts remain zero.", "2025–26 roster and health, MVP year, Finals result, and contracts remain unselected; no actual private receipt is required by this local function."],
+  "writer_central_or_git_files_modified": false
+}

@@ -1,0 +1,1347 @@
+{
+  "id": "NBA_2022_SELECTED_WORKING_DRAW_AND_CONTROL",
+  "baseline_main": "bebabcf65be6af0d73d39b5a290249de52952397",
+  "status": "SELECTED_FICTIONAL_DRAW_AND_SIXTY_EXACT_WORKING_RANKS_INDEPENDENT_REVIEW_PENDING",
+  "source_sha256": {
+    "simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json": "93264d2dff86a58ad10ca6975315c6c2167961f94f2517b6f5f79fa3113f2af8",
+    "simulation/NBA_2021_22_STANDINGS_PLAYIN_AND_2022_RIGHTS.json": "139c1d6a90d1bd7ee672020af96e03bf6767599637902c329b1e772fdfcf63d9",
+    "simulation/NBA_2022_PUBLIC_CONTROL_EXECUTION_FAMILY.json": "86ac9e85b06a607363f5c7a6bd6fac29a8a5dbd89fff803e2a440897afd3337c",
+    "research/NBA_2022_STANDINGS_AND_DRAFT_PRIMARY_OBSERVATIONS_2026_10_07.json": "165e240a765ac07d98253b348654022978ef7e034c90bcfbd874694cd19dfda6",
+    "tools/build_2022_public_control_execution_family.py": "42e5bd033e174a161587ef3ac6d82bf37946e64a6f759b1bceaa047db423785b",
+    "simulation/NBA_2022_NAMED_ASSET_CONTROL_MAP.json": "ca1be50a889fa8aa1ad47cc696d64c7bfc00cc7ebd77b2bdf9ede815ca88d4f2",
+    "research/NBA_2022_PRIOR_FIRST_CLAIM_REFINEMENT_2026_10_08.json": "0af7a125c8441129c0fd6f2aed242109bd2bca72ad44959ca65c2977c18f541b",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "research/CHICAGO_2022_NAMED_DRAFT_RIGHTS_COST_REFINEMENT_2026_10_07.json": "bf8087a89af09a817c0a3eb5d4df906a906575a56016c873912db00eccdca9db",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "research/MIAMI_2021_SELECTED_APRON_CLOSURE_2026_10_07.json": "3007e4a2407a02e97998826c3cb8ee352ac2a75353b3c8c5822c16aa55fdbb48",
+    "simulation/CHICAGO_MILWAUKEE_2021_22_SELECTED_KEEPER_RESULTS.json": "fcb8298501701dc21bef9199ffac2d10456384f808ffe2a8b4222cd9e7b0e583",
+    "simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.csv": "5a80a0dab1573afe65d50f85a5620fecc75c327ccea651cbd0bcadf1208f957d",
+    "tools/build_2022_selected_working_draw_and_control.py": "a9b2d28bad8e11823599285d2e97cc34142ce6e5271b95cca54a55665d6d969e"
+  },
+  "primary_provenance": {
+    "official_raw": {
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019-1.pdf",
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "PDF_1based_text_sha256": {
+        "85": "312b5df737e0460a3671e61291f403b9488ee32827d938cebea87867f3bf0239",
+        "86": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+        "87": "43197a4945acf5176d9335d2ff911f7c516a1db82e623c4ca53bb264fc094e20"
+      },
+      "extraction": "PyMuPDF get_text() UTF8",
+      "scope": "7.02(a) 14 odds/top4/remainder;7.02(b)(c) inverse records and reverse ties"
+    },
+    "direct_primary_web_observations": [
+      {
+        "url": "https://pr.nba.com/2022-nba-draft-tiebreakers/",
+        "date": "2022-04-18",
+        "web_reference": "turn2347view0",
+        "locator": "lines14,26,31–46",
+        "scope": "2022 14 probabilities, random tie order, top4 and undrawn order; historical teams/results not copied",
+        "raw_body_adopted": false
+      },
+      {
+        "url": "https://www.nba.com/wizards/nba-draft-lottery-2022-everything-you-need-know-about-wizards-odds",
+        "web_reference": "turn2344search1",
+        "scope": "2022 four-ball combinations and repeated-team rejection",
+        "raw_body_adopted": false,
+        "normal_open": "IFRAME_ONLY"
+      },
+      {
+        "url": "https://www.nba.com/pacers/news/how-the-nba-draft-lottery-works",
+        "web_reference": "turn2344search0",
+        "scope": "2022 1000 assigned combinations and one unassigned",
+        "raw_body_adopted": false,
+        "normal_open": "IFRAME_ONLY"
+      },
+      {
+        "url": "https://www.nba.com/hawks/features/hawks-lottery-odds-explained",
+        "date": "2019",
+        "web_reference": "turn2348search1",
+        "scope": "Lottery ties pool odds; current lottery records have no ties so branch not executed",
+        "raw_body_adopted": false
+      }
+    ],
+    "failed_direct_HTTP_metadata": "C:/Users/Storm Credit/AppData/Local/Temp/fr-draw2022-20261008/metadata.json",
+    "failed_odds_HTTP_metadata": "C:/Users/Storm Credit/AppData/Local/Temp/fr-draw2022-20261008/official_odds.metadata.json",
+    "HTTP403_adopted_as_body": false
+  },
+  "selection": {
+    "authority": "Existing delegated season-result/routine simulation scope; root adoption after independent review",
+    "public_seed": "first-rebound|2022-draft|routine-v1|2026-10-08",
+    "seed_announcement_before_first_execution": true,
+    "seed_sha256": "6797d4d5b043149d24a5432e2931521cdd2e8735fa0db22a4b0b22ea0c9460de",
+    "algorithm": "SHA256(seed|decimal counter);256-bit modulo rejection; Fisher-Yates ties; four sequential balls without replacement; return all14 after attempt",
+    "selected_draw_date": "2022-05-17",
+    "fictional_combination_assignment": "Lexicographic combinations; contiguous inverse-record weighted team slots; final11/12/13/14 unassigned",
+    "official_physical_NBA_combination_mapping_copied": false,
+    "unassigned_combo_choice_is_fictional_isomorphic_mapping": true,
+    "reroll_to_fit_outcome": false,
+    "source_probability_not_estimated_by_this_one_draw": true,
+    "lottery_tie_averaging_rule_checked_but_no_current_tie": true
+  },
+  "lottery_probability_inputs": [
+    {
+      "inverse_record_rank": 1,
+      "origin": "OKC",
+      "selected_wins": 7,
+      "assigned_combinations": 140,
+      "first_pick_probability_fraction": "7/50"
+    },
+    {
+      "inverse_record_rank": 2,
+      "origin": "DET",
+      "selected_wins": 10,
+      "assigned_combinations": 140,
+      "first_pick_probability_fraction": "7/50"
+    },
+    {
+      "inverse_record_rank": 3,
+      "origin": "ORL",
+      "selected_wins": 12,
+      "assigned_combinations": 140,
+      "first_pick_probability_fraction": "7/50"
+    },
+    {
+      "inverse_record_rank": 4,
+      "origin": "CHA",
+      "selected_wins": 13,
+      "assigned_combinations": 125,
+      "first_pick_probability_fraction": "1/8"
+    },
+    {
+      "inverse_record_rank": 5,
+      "origin": "CLE",
+      "selected_wins": 14,
+      "assigned_combinations": 105,
+      "first_pick_probability_fraction": "21/200"
+    },
+    {
+      "inverse_record_rank": 6,
+      "origin": "WAS",
+      "selected_wins": 15,
+      "assigned_combinations": 90,
+      "first_pick_probability_fraction": "9/100"
+    },
+    {
+      "inverse_record_rank": 7,
+      "origin": "HOU",
+      "selected_wins": 20,
+      "assigned_combinations": 75,
+      "first_pick_probability_fraction": "3/40"
+    },
+    {
+      "inverse_record_rank": 8,
+      "origin": "MIN",
+      "selected_wins": 21,
+      "assigned_combinations": 60,
+      "first_pick_probability_fraction": "3/50"
+    },
+    {
+      "inverse_record_rank": 9,
+      "origin": "SAC",
+      "selected_wins": 22,
+      "assigned_combinations": 45,
+      "first_pick_probability_fraction": "9/200"
+    },
+    {
+      "inverse_record_rank": 10,
+      "origin": "NOP",
+      "selected_wins": 23,
+      "assigned_combinations": 30,
+      "first_pick_probability_fraction": "3/100"
+    },
+    {
+      "inverse_record_rank": 11,
+      "origin": "MEM",
+      "selected_wins": 24,
+      "assigned_combinations": 20,
+      "first_pick_probability_fraction": "1/50"
+    },
+    {
+      "inverse_record_rank": 12,
+      "origin": "SAS",
+      "selected_wins": 29,
+      "assigned_combinations": 15,
+      "first_pick_probability_fraction": "3/200"
+    },
+    {
+      "inverse_record_rank": 13,
+      "origin": "NYK",
+      "selected_wins": 41,
+      "assigned_combinations": 10,
+      "first_pick_probability_fraction": "1/100"
+    },
+    {
+      "inverse_record_rank": 14,
+      "origin": "TOR",
+      "selected_wins": 43,
+      "assigned_combinations": 5,
+      "first_pick_probability_fraction": "1/200"
+    }
+  ],
+  "drawing_trace": {
+    "rng_events": [
+      {
+        "counter": 0,
+        "label": "TIE_52_1",
+        "n": 2,
+        "digest": "84c0b1eab6e4276eb62b497c32aa9bcdea0f8407861a6b07612288e62c7061ec",
+        "accepted_unbiased_integer": true,
+        "value": 0
+      },
+      {
+        "counter": 1,
+        "label": "TIE_64_3",
+        "n": 4,
+        "digest": "f2161f4c70dc37b5ea29306ca9b774f31f2f0461bb6da9045e4262f48b5ee244",
+        "accepted_unbiased_integer": true,
+        "value": 0
+      },
+      {
+        "counter": 2,
+        "label": "TIE_64_2",
+        "n": 3,
+        "digest": "8e5721c6d996f110ff5851f90b5463e1d3f0d83814579f4128b88e76db7e6165",
+        "accepted_unbiased_integer": true,
+        "value": 0
+      },
+      {
+        "counter": 3,
+        "label": "TIE_64_1",
+        "n": 2,
+        "digest": "da7abdf1bec638d665746619ab9ba6cc8c1d631b60728307d59007a83789b459",
+        "accepted_unbiased_integer": true,
+        "value": 1
+      },
+      {
+        "counter": 4,
+        "label": "LOTTERY_0_0",
+        "n": 14,
+        "digest": "ca3ac44b4b079fb295c418996516ebabcd23e61c0c12049b1b0d4961d7640077",
+        "accepted_unbiased_integer": true,
+        "value": 1
+      },
+      {
+        "counter": 5,
+        "label": "LOTTERY_0_1",
+        "n": 13,
+        "digest": "a93705726261713cbc5a91de50bcf38df8c451ee4a2ebcb221fe62e145a874f7",
+        "accepted_unbiased_integer": true,
+        "value": 0
+      },
+      {
+        "counter": 6,
+        "label": "LOTTERY_0_2",
+        "n": 12,
+        "digest": "01fc800aae9b60f30858cc8742932a04d4a7ceb7f14fb6bfadd47d0810c946fb",
+        "accepted_unbiased_integer": true,
+        "value": 7
+      },
+      {
+        "counter": 7,
+        "label": "LOTTERY_0_3",
+        "n": 11,
+        "digest": "579d9c95c15a7c310e5d837ea42e6baa34e05c85b2e4d784452f8f62a07a0382",
+        "accepted_unbiased_integer": true,
+        "value": 5
+      },
+      {
+        "counter": 8,
+        "label": "LOTTERY_1_0",
+        "n": 14,
+        "digest": "63408f76d42194743de9edf5816b345b0f60e45a542dcf0ef7e7e6751c83bd65",
+        "accepted_unbiased_integer": true,
+        "value": 5
+      },
+      {
+        "counter": 9,
+        "label": "LOTTERY_1_1",
+        "n": 13,
+        "digest": "39b36949f3b77b55c9ce806885a33f15d878e263ef2d7e92e1d7c74a74492226",
+        "accepted_unbiased_integer": true,
+        "value": 12
+      },
+      {
+        "counter": 10,
+        "label": "LOTTERY_1_2",
+        "n": 12,
+        "digest": "36f580462977082f0f8073a3de214b26a55c0b9055623189c121b30b3a0500e9",
+        "accepted_unbiased_integer": true,
+        "value": 9
+      },
+      {
+        "counter": 11,
+        "label": "LOTTERY_1_3",
+        "n": 11,
+        "digest": "7a8e17bbcbd81744fe382173f29551b9d4fc3f675c1e142329c1155f4cfa0324",
+        "accepted_unbiased_integer": true,
+        "value": 2
+      },
+      {
+        "counter": 12,
+        "label": "LOTTERY_2_0",
+        "n": 14,
+        "digest": "cf97b9c3f65867b2ac2b0549e451ebbe4130882904b39800ca3ea36ccea05385",
+        "accepted_unbiased_integer": true,
+        "value": 3
+      },
+      {
+        "counter": 13,
+        "label": "LOTTERY_2_1",
+        "n": 13,
+        "digest": "554da0e0affd5c52a04c68ed439e31ae50d5fb6803b79283fb9d4196c7dbbedc",
+        "accepted_unbiased_integer": true,
+        "value": 1
+      },
+      {
+        "counter": 14,
+        "label": "LOTTERY_2_2",
+        "n": 12,
+        "digest": "7511bdbe45e82c32ad3ca6ee06501655113019f56b1d3df6d1c6ead12d553382",
+        "accepted_unbiased_integer": true,
+        "value": 2
+      },
+      {
+        "counter": 15,
+        "label": "LOTTERY_2_3",
+        "n": 11,
+        "digest": "ea08ac959615d7c75bd11c1d91a931bcf36960286d832b6c1223597377f19d89",
+        "accepted_unbiased_integer": true,
+        "value": 5
+      },
+      {
+        "counter": 16,
+        "label": "LOTTERY_3_0",
+        "n": 14,
+        "digest": "6b6d3257db7ddba071c765a927dc53e96478508cb28f6967062fc367adc4ee35",
+        "accepted_unbiased_integer": true,
+        "value": 9
+      },
+      {
+        "counter": 17,
+        "label": "LOTTERY_3_1",
+        "n": 13,
+        "digest": "8485a429170c824dd0ab565fe3b4e3233f98f51da63906b1c68c95e532deebf7",
+        "accepted_unbiased_integer": true,
+        "value": 3
+      },
+      {
+        "counter": 18,
+        "label": "LOTTERY_3_2",
+        "n": 12,
+        "digest": "da7ed77fb9f3eaeb27bad9f773a6695032a69a1664739a3f78cb121cdb4b3654",
+        "accepted_unbiased_integer": true,
+        "value": 4
+      },
+      {
+        "counter": 19,
+        "label": "LOTTERY_3_3",
+        "n": 11,
+        "digest": "4553e12b8b7f150f4df4645c4c6089e50e88ee083ac5e8f4ddeb1cd9538b095a",
+        "accepted_unbiased_integer": true,
+        "value": 5
+      }
+    ],
+    "ties": [
+      {
+        "id": "FIRST_TIE_52",
+        "fictional_date": "2022-04-18",
+        "origins_before": [
+          "CHI",
+          "GSW"
+        ],
+        "first_order": [
+          "GSW",
+          "CHI"
+        ],
+        "fisher_yates_steps": [
+          {
+            "i": 1,
+            "j": 0
+          }
+        ]
+      },
+      {
+        "id": "FIRST_TIE_64",
+        "fictional_date": "2022-04-18",
+        "origins_before": [
+          "BOS",
+          "LAC",
+          "LAL",
+          "PHX"
+        ],
+        "first_order": [
+          "LAL",
+          "LAC",
+          "PHX",
+          "BOS"
+        ],
+        "fisher_yates_steps": [
+          {
+            "i": 3,
+            "j": 0
+          },
+          {
+            "i": 2,
+            "j": 0
+          },
+          {
+            "i": 1,
+            "j": 1
+          }
+        ]
+      }
+    ],
+    "lottery_attempts": [
+      {
+        "attempt": 0,
+        "target_pick": 1,
+        "ordered_balls": [
+          2,
+          1,
+          10,
+          8
+        ],
+        "available_list_indices": [
+          1,
+          0,
+          7,
+          5
+        ],
+        "combination": [
+          1,
+          2,
+          8,
+          10
+        ],
+        "combination_index0": 46,
+        "assigned_origin": "OKC",
+        "accepted_new_origin": true,
+        "discard_reason": null
+      },
+      {
+        "attempt": 1,
+        "target_pick": 2,
+        "ordered_balls": [
+          6,
+          14,
+          11,
+          3
+        ],
+        "available_list_indices": [
+          5,
+          12,
+          9,
+          2
+        ],
+        "combination": [
+          3,
+          6,
+          11,
+          14
+        ],
+        "combination_index0": 611,
+        "assigned_origin": "CLE",
+        "accepted_new_origin": true,
+        "discard_reason": null
+      },
+      {
+        "attempt": 2,
+        "target_pick": 3,
+        "ordered_balls": [
+          4,
+          2,
+          5,
+          9
+        ],
+        "available_list_indices": [
+          3,
+          1,
+          2,
+          5
+        ],
+        "combination": [
+          2,
+          4,
+          5,
+          9
+        ],
+        "combination_index0": 344,
+        "assigned_origin": "ORL",
+        "accepted_new_origin": true,
+        "discard_reason": null
+      },
+      {
+        "attempt": 3,
+        "target_pick": 4,
+        "ordered_balls": [
+          10,
+          4,
+          6,
+          8
+        ],
+        "available_list_indices": [
+          9,
+          3,
+          4,
+          5
+        ],
+        "combination": [
+          4,
+          6,
+          8,
+          10
+        ],
+        "combination_index0": 715,
+        "assigned_origin": "WAS",
+        "accepted_new_origin": true,
+        "discard_reason": null
+      }
+    ],
+    "lottery_top4": [
+      "OKC",
+      "CLE",
+      "ORL",
+      "WAS"
+    ],
+    "lottery_first14": [
+      "OKC",
+      "CLE",
+      "ORL",
+      "WAS",
+      "DET",
+      "CHA",
+      "HOU",
+      "MIN",
+      "SAC",
+      "NOP",
+      "MEM",
+      "SAS",
+      "NYK",
+      "TOR"
+    ]
+  },
+  "top4_order_event_probability_fraction": "3087/6655325",
+  "tie_joint_order_probability_fraction": "1/48",
+  "probability_of_hypothetical_independent_seed_stream_not_physical_rng_certified": true,
+  "exact_sixty_rank_and_holder_rows": [
+    {
+      "id": "OKC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "OKC",
+      "current_public_family_holder": "OKC",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 1,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CLE_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CLE",
+      "current_public_family_holder": "CLE",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 2,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "ORL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "ORL",
+      "current_public_family_holder": "ORL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 3,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "WAS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "WAS",
+      "current_public_family_holder": "WAS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 4,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DET_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DET",
+      "current_public_family_holder": "DET",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 5,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CHA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CHA",
+      "current_public_family_holder": "CHA",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 6,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "HOU_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "HOU",
+      "current_public_family_holder": "HOU",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 7,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIN",
+      "current_public_family_holder": "MIN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 8,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "SAC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "SAC",
+      "current_public_family_holder": "SAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 9,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "NOP_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "NOP",
+      "current_public_family_holder": "NOP",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 10,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MEM_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MEM",
+      "current_public_family_holder": "MEM",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 11,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "SAS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "SAS",
+      "current_public_family_holder": "SAS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 12,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "NYK_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "NYK",
+      "current_public_family_holder": "NYK",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 13,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "TOR_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "TOR",
+      "current_public_family_holder": "TOR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 14,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "POR_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "POR",
+      "current_public_family_holder": "POR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 15,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIA",
+      "current_public_family_holder": "HOU",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 16,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "GSW_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "GSW",
+      "current_public_family_holder": "GSW",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 17,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CHI_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "CHI",
+      "current_public_family_holder": "CHI",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 18,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "ATL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "ATL",
+      "current_public_family_holder": "ATL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 19,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "IND_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "IND",
+      "current_public_family_holder": "IND",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 20,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DAL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DAL",
+      "current_public_family_holder": "DAL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 21,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DEN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "DEN",
+      "current_public_family_holder": "DEN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 22,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "BKN_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "BKN",
+      "current_public_family_holder": "MIA",
+      "rule": "PRESERVED_OLADIPO_JOINT_FIRST_SWAP",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 23,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "LAL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "LAL",
+      "current_public_family_holder": "NOP",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 24,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "LAC_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "LAC",
+      "current_public_family_holder": "OKC",
+      "rule": "PRESERVED_PG_OR_HARDEN_PRIOR_FIRST",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 25,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "PHX_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "PHX",
+      "current_public_family_holder": "OKC",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 26,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "BOS_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "BOS",
+      "current_public_family_holder": "BOS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 27,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "PHI_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "PHI",
+      "current_public_family_holder": "PHI",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 28,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "UTA_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "UTA",
+      "current_public_family_holder": "MEM",
+      "rule": "REVIEWED_PRIOR_FIRST_CURRENT_DOMAIN_FUNCTION",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 29,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIL_2022_R1",
+      "year": 2022,
+      "round": 1,
+      "origin": "MIL",
+      "current_public_family_holder": "MIL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 30,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "OKC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "OKC",
+      "current_public_family_holder": "OKC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 31,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DET_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DET",
+      "current_public_family_holder": "WAS",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 32,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "ORL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "ORL",
+      "current_public_family_holder": "ORL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 33,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CHA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CHA",
+      "current_public_family_holder": "CHA",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 34,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CLE_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CLE",
+      "current_public_family_holder": "NOP",
+      "rule": "KORVER2020_TOP10_NONCONVEY_THEN_TWO_SECONDS_JV_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 35,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "WAS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "WAS",
+      "current_public_family_holder": "CLE",
+      "rule": "PRIOR_HILL_DELLAVEDOVA_CLAIM_RUBIO_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 36,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "HOU_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "HOU",
+      "current_public_family_holder": "CLE",
+      "rule": "PRIOR_KNIGHT_SHUMPERT_CLAIM_LEVERT_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 37,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIN",
+      "current_public_family_holder": "MIN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 38,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "SAC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "SAC",
+      "current_public_family_holder": "SAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 39,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "NOP_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "NOP",
+      "current_public_family_holder": "NOP",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 40,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MEM_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MEM",
+      "current_public_family_holder": "MEM",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 41,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "SAS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "SAS",
+      "current_public_family_holder": "CLE",
+      "rule": "DIAW_THEN_CLARKSON_PRIOR_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 42,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "POR_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "POR",
+      "current_public_family_holder": "POR",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 43,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "NYK_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "NYK",
+      "current_public_family_holder": "NYK",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 44,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "TOR_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "TOR",
+      "current_public_family_holder": "GSW",
+      "rule": "BURKS_GRIII_PRIOR_SECOND_CHA_TOP54_NOT_CONVEYED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 45,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIA",
+      "current_public_family_holder": "IND",
+      "rule": "PRIOR_OKPALA_CLAIM_LEVERT_NOT_EXECUTED",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 46,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "CHI_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "CHI",
+      "current_public_family_holder": "SAC",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 47,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "GSW_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "GSW",
+      "current_public_family_holder": "GSW",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 48,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "ATL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "ATL",
+      "current_public_family_holder": "ATL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 49,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "IND_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "IND",
+      "current_public_family_holder": "ORL",
+      "rule": "PRIOR2021_BKN_DELIVERY_THEN_BROGDON_ORL_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 50,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DAL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DAL",
+      "current_public_family_holder": "DAL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 51,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "DEN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "DEN",
+      "current_public_family_holder": "MIN",
+      "rule": "CHANDLER_BUTLER_BOL_SECOND_COMPOSITE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 52,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "BKN_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "BKN",
+      "current_public_family_holder": "BKN",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 53,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "BOS_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "BOS",
+      "current_public_family_holder": "BOS",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 54,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "PHX_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "PHX",
+      "current_public_family_holder": "PHX",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 55,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "LAC_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "LAC",
+      "current_public_family_holder": "LAC",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 56,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "LAL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "LAL",
+      "current_public_family_holder": "CHI",
+      "rule": "NELSON_ENNIS_TILLMAN_SATORANSKY_JOINT_EXERCISE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 57,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "PHI_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "PHI",
+      "current_public_family_holder": "MIA",
+      "rule": "CHANDLER_BUTLER_BOL_SECOND_COMPOSITE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 58,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "UTA_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "UTA",
+      "current_public_family_holder": "NOP",
+      "rule": "HUGHES2020_PRIOR_SECOND",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 59,
+      "physical_NBA_rank_certified": false
+    },
+    {
+      "id": "MIL_2022_R2",
+      "year": 2022,
+      "round": 2,
+      "origin": "MIL",
+      "current_public_family_holder": "MIL",
+      "rule": "PRESERVED_POSITIVE_OWN_ORIGIN_PUBLIC_TEMPLATE",
+      "player": null,
+      "new_UPC_or_Tender": false,
+      "actual_private_control_certified": false,
+      "working_exact_rank": 60,
+      "physical_NBA_rank_certified": false
+    }
+  ],
+  "summary": {
+    "origin_rows": 60,
+    "ranks_unique_each_round": 30,
+    "lottery_origins": 14,
+    "top4_selected": [
+      "OKC",
+      "CLE",
+      "ORL",
+      "WAS"
+    ],
+    "lottery_attempts": 4,
+    "tie_groups": 2,
+    "CHI_working_owned_ranks": [
+      18,
+      57
+    ],
+    "new_draftees_UPCs_Tenders": 0
+  },
+  "scope": {
+    "fictional_working_draw_selected": true,
+    "root_adoption_recorded": false,
+    "independent_review_completed": false,
+    "actual_2022_NBA_draw_or_historical_draft_certified": false,
+    "future_rank_or_private_acceptance_certified": false,
+    "new_author_lock": false,
+    "title_MVP_or_season_winners_modified": false,
+    "whole_macro3": false
+  },
+  "remaining_finite_inputs": [
+    "2022 draftee/legal participation choices and any required new Tender function use; no forced60UPCs.",
+    "2021–22 postseason and2022–23/2023 implementation remain separate."
+  ],
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "Pack_count": 0,
+  "manuscript": false
+}

@@ -1,0 +1,108 @@
+{
+  "tool": "Antigravity",
+  "scope": "OFFICIAL_LOTTERY_METHOD_COLLECTION_ONLY",
+  "source_url": "https://pr.nba.com/2022-nba-draft-tiebreakers/",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 55.479,
+    "process_budget_seconds": 150,
+    "stdout_sha256": "b24d22cb1e594aa64b49b7f0202285c807c98a927acd3bfe609ed78544341025",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "safe_error_categories": [],
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "c87af1ca-a6f7-4e50-95dd-ed43a049bc94",
+      "status": "SUCCESS",
+      "response": "```json\n{\n  \"body_read\": false,\n  \"status\": \"UNVERIFIED\"\n}\n```\n",
+      "duration_seconds": 43.6895015,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "f2ff2b52abfb31140035d0bbbf636303f51e9c8c78169c4fcc12d3ea7e88cc3f"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "f2ff2b52abfb31140035d0bbbf636303f51e9c8c78169c4fcc12d3ea7e88cc3f"
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "search_web",
+        "tool_output_present": false
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "b24d22cb1e594aa64b49b7f0202285c807c98a927acd3bfe609ed78544341025",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "```json\n{\n  \"body_read\": false,\n  \"status\": \"UNVERIFIED\"\n}\n```\n",
+      "char_count": 63,
+      "sha256": "14beeca636cf9f062e51ce4631760dbd6f74a805975a24a8c7363fec8b441d16",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "primary_body_bytes_independently_certified": false,
+  "persistent_auth_or_settings_changed": false,
+  "whole_gate_certified": false,
+  "root_adjudication": {
+    "terminal_answer_recovered": true,
+    "primary_collection_success": false,
+    "primary_body_read_reported": false,
+    "returned_status": "UNVERIFIED",
+    "source_evidence_count": 0,
+    "direct_repository_primary_checks_continue": true
+  }
+}

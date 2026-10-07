@@ -1,0 +1,121 @@
+{
+  "independent_review_completed": true,
+  "classification": "DELEGATED_FICTIONAL_CHI_PHI_FIRST_ROUND_LOCAL_SELECTION_ACCEPTED_OTHER_FOURTEEN_SERIES_UNSELECTED",
+  "reviewer": "g11_access source/template/clock/Fraction/returned-semantic independent review",
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_chicago_phi_2022_first_round.py": "cc91eb42ab6796335c01d4b72dc1e12b3761e02314445baeb901f9f5e34b970d",
+    "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json": "a167d96c64fa790250908a5a071f3abe355be2d951fa47bbb7f9a928c464202b",
+    "simulation/CHICAGO_PHI_2022_FIRST_ROUND.md": "5682827b9f6876be30774df188f6b283e66b7f2765810f9d1d37229062bcccb2"
+  },
+  "current_check_passed": true,
+  "saved_rebuild_equal": true,
+  "physical_input_scope": {
+    "selected_regular_games": 1230,
+    "CHI_regular_wins": 52,
+    "PHI_regular_wins": 65,
+    "EAST_seeds": {
+      "PHI": 2,
+      "CHI": 7
+    },
+    "same_2021_22_registration_templates_reused": true,
+    "old_UPC_Gamma_or_waiver_changes": false
+  },
+  "selected_series": {
+    "fictional_dates": [
+      "2022-04-16",
+      "2022-04-18",
+      "2022-04-21",
+      "2022-04-23",
+      "2022-04-25",
+      "2022-04-28",
+      "2022-04-30"
+    ],
+    "home_pattern": [
+      "PHI",
+      "PHI",
+      "CHI",
+      "CHI",
+      "PHI",
+      "CHI",
+      "PHI"
+    ],
+    "winner_pattern": [
+      "PHI",
+      "PHI",
+      "CHI",
+      "CHI",
+      "PHI",
+      "CHI",
+      "PHI"
+    ],
+    "PHI_wins": 4,
+    "CHI_wins": 3,
+    "PHI_home_advantage_fraction": "2",
+    "each_game_each_team_regulation_minutes": 240,
+    "first_series_only": true
+  },
+  "role_clock": {
+    "CHI_Protagonist_positive_seconds_per_game": 1920,
+    "additional_seven_game_minutes": 224,
+    "regular_QO_2624_lower_bound_unchanged": true,
+    "standard_only_active": true
+  },
+  "comparison": {
+    "families": 8,
+    "CHI_state": [
+      "NORMAL",
+      "COBY_OUT"
+    ],
+    "home_advantage": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "PHI_series_winner_all_eight": true,
+    "game_count_family_range": [
+      4,
+      7
+    ]
+  },
+  "primary_2017_CBA_season_definition": {
+    "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "pdf_1based_page": 32,
+    "page_text_sha256": "4acec95a4c21f903be8bb00a9de529fdd248808e356226328902d8b8c8bae6e1",
+    "rule_scope": "NBA Season runs from first training camp day until immediately after last NBA Finals game. Chicago April30 elimination does not end league Season or accelerate option/QO calendar."
+  },
+  "pre_repair_false_pass": "Returned selected team_model allowed TW Devon Dotson into standard while parent builder passed; fixed assert_series rejects same control.",
+  "independent_semantic_controls": [
+    {
+      "mutation": "returned global original game winner reversal",
+      "rejected": true,
+      "error": "Returned source differs from physical simulation/NBA_2021_22_GLOBAL_SELECTED_REGULAR_RESULTS.json"
+    },
+    {
+      "mutation": "returned CHI TW Devon Dotson promoted into standard",
+      "rejected": true,
+      "error": "Returned series template/STD/TW/clock altered"
+    },
+    {
+      "mutation": "returned G1 winner PHI to CHI",
+      "rejected": true,
+      "error": "Returned series calendar/winner/arithmetic altered"
+    },
+    {
+      "mutation": "returned G1 fictional date shifted",
+      "rejected": true,
+      "error": "Returned series calendar/winner/arithmetic altered"
+    }
+  ],
+  "scope_boundaries": {
+    "actual_NBA_score_or_game_id_certified": false,
+    "actual_clinical_clearance_or_private_receipt_certified": false,
+    "MVP_year_or_title_count_selected": false,
+    "remaining_fourteen_series_or_champion_selected": false,
+    "root_adoption_recorded": false,
+    "whole_macro3_G13_G14_or_manuscript": false
+  },
+  "limits": "This validates the bounded fictional first-series selection with frozen regular source productivity and roles. It does not certify forecast accuracy, historical playoff attendance, new contracts, medical records, or the remaining bracket."
+}
