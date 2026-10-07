@@ -1,0 +1,59 @@
+{
+  "schema": "ALLOCATION_INDEX_AND_CAP_EXTERNAL_DISPOSITION_ROOT_V1",
+  "status": "OUTPUTS_RECOVERED_ONE_ACTUAL_SCOPE_DEFECT_REPAIRED",
+  "source_sha256": {
+    "reviews/MARKKANEN_2025_CAP_PRIMARY_AGY_2026_10_08.json": "bba48b625d05f98920183e095e0f32f16127d7a25084f1dfd37724821b62776a",
+    "reviews/G13_ALLOCATION_INDEX_NLM_REGISTRATION_2026_10_08.json": "3bd392bb5aada81272190b8ac8bbc62a3f393409a4a0dba8ff9065c6f9e3a212",
+    "reviews/G13_ALLOCATION_INDEX_NLM_ANALYSIS_2026_10_08.json": "6d7da8ce6775f7dc6c0d7a2d45c72e29994b860ae69b59edf3692bc1516448c2",
+    "reviews/G13_ALLOCATION_INDEX_CLAUDE_SOURCE_BLIND_2026_10_08.json": "11a77f3f286c95c5d4d8311a67d20296d5571fef01e9ebd2307787ce861aac81",
+    "control/G13_FINAL_ALLOCATION_INPUT_INDEX_2026_10_08.json": "b2a8fb837c0d88557691afd49be32ca03f7753b22d781c6fdeebe7dd947fd02a",
+    "reviews/G13_FINAL_ALLOCATION_INPUT_INDEX_ROOT_REVIEW_2026_10_08.json": "7227c8955a03cc8dffc6cb2c4ca250a233c9ac7f6b40428ca026b5b01cfc99d9"
+  },
+  "AGY": {
+    "answer_recovered": true,
+    "elapsed_seconds": 37.166,
+    "primary_cap_numbers_are_collection_answer_not_independent_body_bytes_certificate": true,
+    "model_claimed_BODY_READ": true,
+    "read_url_view_file_steps_do_not_certify_whole_cap_or_contract": true,
+    "contract_or_MCP_communication_certified": false
+  },
+  "NotebookLM": {
+    "source_id": "f06a86b3-6110-48dd-a7af-7112da41d5d3",
+    "registered_seconds": 28.871,
+    "analysis_seconds": 56.228,
+    "uploaded_pre_repair_LF_sha256": "3fc401d7c1837d3f47bdc859dd9354baceeb208755d7d1bf4e9f33de9c2a2972",
+    "raw_CRLF_matches_retained_snapshot": true,
+    "pre_repair_snapshot_preserved_not_repinned_to_current": true,
+    "accepted": "Pointer index preparation is distinct from final allocation, individualPOV, wholeAct historical exits and Pack. 780plannedslots are not mandatory780events.",
+    "target_bodies_and_revisions_independently_verified": false
+  },
+  "Claude": {
+    "seconds": 17.36,
+    "prior_verdicts_and_source_bodies_omitted": true,
+    "pre_repair_result_projection_preserved": true,
+    "findings": [
+      {
+        "id": "A05_SELF_ANCHOR",
+        "disposition": "MISSING_CONTEXT_IN_RESULT_PROJECTION_NOT_PROVEN_AUTHORITY_DEFECT",
+        "evidence": "Existing separate authority register already pins current file digest and independent qualification. Root directly compared both. Added explicit per-row external review/digest pointers for future readers; no downgrade of historical qualification."
+      },
+      {
+        "id": "A14_NULL_INFORMATION_POINTER",
+        "disposition": "ACCEPTED_REAL_SCOPE_DEFECT_REPAIRED",
+        "evidence": "A14 target is null, and all eleven null information targets now state HOLD and non_null=false. Root verified actual values and rejected the same null-to-verified mutation."
+      }
+    ],
+    "new_Claude_repair_rerun_claimed": false,
+    "whole_G16_certified": false
+  },
+  "root_checks": {
+    "physical_reference_occurrences_after_repair": 903,
+    "source_pins": 56,
+    "independent_negative_controls_rejected": 5,
+    "Pack_or_individualPOV_or_final_allocation_promoted": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "actual_Packs": 0,
+  "manuscript": 0
+}

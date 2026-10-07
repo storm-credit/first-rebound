@@ -1,5 +1,7 @@
 # NBA 커리어 현행 실행 인계 — 2026-10-08
 
+2026-10-08 [QUAL1・2025 갱신・배치 입력 인계](../reviews/QUAL1_MARKKANEN_AND_ALLOCATION_CONTINUATION_ADOPTION_2026_10_08.md): PR505 main 다음 작업. 1–3번 완료 보존. 가상 CHI6/PHI3 자격 및 별도 G1/G2 역할 비용 관측을 선택・독립 검문했고, M25B 가상 4년 갱신・동일 hold 한 번 교체・원 Γ 보존을 실행했다. FY25 5기존/1선택/2옵션/7만료를 분리했다. 60기능 배치 입력의 null 정보 대상 11건을 HOLD로 수리. AGY/NLM/Claude 새 답 회수와 사본 이력 보존. 전체 커리어・최종 회차・G13/G14・Pack은 미완료. 남은 큰 묶음 4개, 6번까지 3개. v0.30 PARTIAL・CLOSED・Pack0・원고0・Goal ACTIVE・일정0. 아래는 이전 이력이다.
+
 2026-10-08 [Game1 역할 관측·현행 막출구 인계](../reviews/A10_GAME1_ROLE_WINDOW_AND_CURRENT_ACT_EXIT_ADOPTION_2026_10_08.md): PR504main·1–3완료·Blueprint60보존. 공식2024Oct23CHI@NOP0022400069의명명조건부합법가족/원Γ·4옵션·floor와12경로수리후 당일13/2·court5bench8·2개서로다른8초창P6/LV2실패→P3/LV5공동이양만 실행·독립검문. 원240분/미가격/null승패·첫옵션효율·QUAL1미선택·전체A10false. 원42/14막출구60기능현행대조·A06/A08/A09한정증인재사용·다음연차소급완료0. 새외부CLI NOT_RUN·PR504이력보존. 중요한후기좌표HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
 
 2026-10-08 [60 Blueprint·역할 비용 회수 인계](../reviews/BLUEPRINT60_ROLE_COST_AND_COORDINATE_CONTINUATION_ADOPTION_2026_10_08.md): PR503main·1–3완료 보존. 60함수/42소막 Blueprint의 기존31·새29·W보충1·원천/포인터/부모이력·독립5검문 연결을 총괄수용. B/Jaquez20·24블록240분 루틴역할 선택, Claude 실제2귀속결함수리·각8초/delta0 재검문. AGY44.305/NLM등록19.928·분석103.504/Claude25.065초 신규회수, 첫ClaudeWindows206 stdin수리·사본이력보존·전체G16인증0. 장기LC3안 비교준비/미선택HOLD·한경기NPC/가용/관측 계속. 전체역사/막출구·최종회차/G13/G14/Pack0 미완료·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·원고0·GoalACTIVE·일정등록0. 아래는 이전이력이다.

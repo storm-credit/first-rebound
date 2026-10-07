@@ -1,0 +1,98 @@
+{
+  "tool": "Antigravity",
+  "scope": "OFFICIAL_CAP_CALENDAR_COLLECTION_ONLY",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 37.166,
+    "budget_seconds": 110,
+    "stdout_sha256": "155f4aa8a5713027833b4dfb64b27394f1a60b81fc7e978d208572fb28cb9ade",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "b533e1c1-fbc2-4f69-886d-eb33096ee414",
+      "status": "SUCCESS",
+      "response": "**Status:** `BODY_READ`  \n**Supporting URL:** https://www.nba.com/news/nba-salary-cap-set-2025-26-season (Distinction: Extracted directly from official release article body / LD+JSON text, not a search snippet).\n\n* **Salary Cap:** $154.647 million\n* **Tax Level:** $187.895 million\n* **First Apron:** $195.945 million\n* **Second Apron:** $207.824 million\n* **Moratorium End:** Sunday, July 6 at noon ET (went into effect 12:01 a.m. ET Tuesday, July 1).\n",
+      "duration_seconds": 27.6419934,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "fd26f1eb816e9527909b46e011b54dcbdd629218361e9a5bd65295c31d7a8a81"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "5392d096d34c9e2ed1f39c76c46616221ac0086a06fadc2751cbcdf13aecaf78"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "155f4aa8a5713027833b4dfb64b27394f1a60b81fc7e978d208572fb28cb9ade",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "**Status:** `BODY_READ`  \n**Supporting URL:** https://www.nba.com/news/nba-salary-cap-set-2025-26-season (Distinction: Extracted directly from official release article body / LD+JSON text, not a search snippet).\n\n* **Salary Cap:** $154.647 million\n* **Tax Level:** $187.895 million\n* **First Apron:** $195.945 million\n* **Second Apron:** $207.824 million\n* **Moratorium End:** Sunday, July 6 at noon ET (went into effect 12:01 a.m. ET Tuesday, July 1).\n",
+      "char_count": 453,
+      "sha256": "3acc3a4622781c2b7160def0b8813316b984be73ac69cbf22f693b9ae0715a1d",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": true,
+  "prompt_sha256": "025f959e9d3d6d39fcde45347ffdfa77af7bd53ba73d459d622e879f230e63d6",
+  "primary_body_independently_certified_by_wrapper": false,
+  "persistent_auth_settings_changed": false
+}

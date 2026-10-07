@@ -1,0 +1,101 @@
+{
+  "id": "CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "verdict": "ACCEPTED_SOURCE_SUPPORTED_CONDITIONAL_PRICE_AND_NAMED_CLAIM_FAMILY",
+  "independent_review_completed": true,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_sha256": {
+    "tools/build_chicago_2025_markkanen_routine_renewal_cost_family.py": "777db941a2ddc857196ec5e96895ea5c505c23927c305beced3be0bbd3219a7f",
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.json": "5c4cf3f32e4fcec302c347e10a61e008f750e1a76826446a8df7b3e527615d7a",
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.md": "3a13f2e93ececc421932c487826b4b317814465f17df05f6d9dca1467d249398"
+  },
+  "source_pin_checks": {
+    "repo_pins": {
+      "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+      "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+      "simulation/CHICAGO_2022_23_NAMED_CONTRACT_WINDOW.json": "21e860056c2654d5e4837911dac39e7f45f4d26388d353bc57594afefcecf1f4",
+      "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+      "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+      "tools/build_chicago_2025_markkanen_routine_renewal_cost_family.py": "777db941a2ddc857196ec5e96895ea5c505c23927c305beced3be0bbd3219a7f"
+    },
+    "raw_cba_pdf_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "raw_nba_cap_html_sha256": "8b20484615b529dbcb0b6e6ba3f08997db4b2cdd259d8ffb4d9ed44f75320988",
+    "raw_nba_identity_html_sha256": "a178c240a92276fa167bc496dc82396931d90b9574915ae94647ca8d7dda3383",
+    "physical_raw_hashes_match": true,
+    "CBA_page_text_hashes_match": true,
+    "saved_validate_empty": true,
+    "saved_equals_current_build": true,
+    "MD_same_content_generation_checked_by_writer_only": true
+  },
+  "primary_scope": {
+    "official_cap_url": "https://pr.nba.com/nba-salary-cap-2025-26-season/",
+    "official_cba_url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+    "cap_tax_apron_minimum_team_salary": [
+      154647000,
+      187895000,
+      195945000,
+      207824000,
+      139182000
+    ],
+    "CBA_locators": {
+      "PDF37": "Years of Service active/inactive qualifying day and exclusions",
+      "PDF60-61": "II7 ordinary eight-YOS 30 percent maximum; separate 35 percent Higher Max path",
+      "PDF241-242": "VII4d own Bird 150/190 percent prior salary FA holds and prior salary caveats",
+      "PDF251": "VII5a2 own Bird maximum eight percent first salary linear raises",
+      "PDF255": "VII6b prior team Qualifying Veteran FA exception",
+      "PDF214-215": "VII2e transaction hard cap triggers; own Bird renewal absent"
+    }
+  },
+  "independent_arithmetic": {
+    "prior_M1_last_salary_usd": 21080000,
+    "prior_M1_sum_usd": 76160000,
+    "candidate_forms": [
+      {
+        "id": "M25A",
+        "first_usd": 30929400,
+        "years": 3,
+        "salary_sum_usd": 92788200,
+        "linear_raise_percent_of_first": 0
+      },
+      {
+        "id": "M25B",
+        "first_usd": 38661750,
+        "years": 4,
+        "salary_sum_usd": 173204640,
+        "linear_raise_percent_of_first": 8
+      },
+      {
+        "id": "M25C",
+        "first_usd": 46394100,
+        "years": 5,
+        "salary_sum_usd": 269085780,
+        "linear_raise_percent_of_first": 8
+      }
+    ],
+    "ordinary_eight_YOS_max_usd": 46394100,
+    "hold_ge_average_usd": 31620000,
+    "hold_below_average_usd": 40052000,
+    "same_Gamma_must_be_carried_before_and_after": true
+  },
+  "actual_negative_control": {
+    "pre_repair_input": "Monkeypatch costs() returned OLD_GAMMA25.normal=\"0\" and apron=\"0\" while preserving the category ID.",
+    "pre_repair_observed": "build() produced altered output and validate(bad)==[], a false pass.",
+    "repair_owner": "chi_salary_domain",
+    "post_repair_observed": "The same mutation raises AssertionError: Named six-category charge expressions changed or erased.",
+    "writer_self_controls_counted_as_independent": 0
+  },
+  "scope_limits": {
+    "M25B_recommended_but_selected": false,
+    "fictional_player_team_consent_selected": false,
+    "whole_FY25_roster_cost_certified": false,
+    "actual_private_cents_receipt_market_acceptance": false,
+    "old_Gamma_absence_inferred": false,
+    "future_assignment_or_higher_max_selected": false,
+    "A10_performance_MVP_title_retirement_selected": false,
+    "G13_G14_or_manuscript_complete": false
+  },
+  "remaining_typed_inputs": [
+    "Other operative STD count must be at most 14 at candidate signature.",
+    "Any selected same-team form must use lawful eight-YOS and own-Bird service, completed old UPC, minimum scale, and voluntary agreement.",
+    "Other FY25 named live salary, residual Gamma, rights, draft, exception and floor/tax inputs remain typed; no whole-team cost certification."
+  ]
+}
