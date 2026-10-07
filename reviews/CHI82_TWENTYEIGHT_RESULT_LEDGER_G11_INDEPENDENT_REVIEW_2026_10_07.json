@@ -1,0 +1,38 @@
+{
+  "id": "CHI82_TWENTYEIGHT_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_CURRENT_SELECTED_28_OF_82_JOIN_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "cc728204d47433de253335ca58435a3a0e9361d5ec08b70cf602ded35ded2d01",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "92fc6e5ae709670c6371a9b0e22016b71a63c863f7c7c532d5ee4151ff560964",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "95e1fa6d31e6d41139622a5aaeb0dbf6897d865d90ccb333585969f2c93a6791"
+  },
+  "independent_checks": [
+    {
+      "check": "physical calendar and health selection",
+      "result": "All 82 saved rows match original handoff physical game_id/date/home/away/selected_CHI_state in order."
+    },
+    {
+      "check": "reviewed result groups",
+      "result": "Original reviewed DET2 plus TOR4,NOP1,NYK4,UTA1,BOS3,PHI4,BKN3,DAL2,GSW2,LAC2 yield 28 unique physical keys; each winner and result/review pointer matches the corresponding current group record."
+    },
+    {
+      "check": "complement and counts",
+      "result": "CHI13/opponent15, 54 unique remaining keys exactly complement selected28; next 0022100209, 2021-11-15, LAL. Score/OT/private receipt fields stay null/false on all 82."
+    },
+    {
+      "check": "currentness",
+      "result": "Saved --check PASS."
+    }
+  ],
+  "independent_negative_control": {
+    "mutation": "returned LAC result source first winner flipped without changing physical JSON",
+    "result": "REJECTED Returned input differs from physical source: simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "history_preserved": "Prior 26-result peer remains tied to immutable main cb5be945889b868f98dc95c3d9329648db831d03; no reinterpretation as current review.",
+  "scope_limits": [
+    "28 fictional regulation outcomes only, no final scores, overtime, standings, 2022 pick, or full 82 result.",
+    "No actual medical, private contract, or played-game certification; whole macro/G13/G14/G16 and manuscript gates remain false."
+  ]
+}

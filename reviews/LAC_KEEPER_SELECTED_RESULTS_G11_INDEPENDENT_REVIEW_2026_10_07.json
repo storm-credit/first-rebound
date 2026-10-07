@@ -1,0 +1,41 @@
+{
+  "id": "LAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATED_WORKING_RESULTS_AND_NAMED_CONDITIONAL_LAWFUL_FAMILY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_lac_2021_keeper_and_chicago_selected_results.py": "f6a6ca09bb11378d78d48b8dbfe8ce9774b83b3725e05f9338db4f4b5bdc56a0",
+    "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json": "cd6d4324f40c0bb11c9f4e067b95ed72b4cffd61950592f262807f8970ed121a",
+    "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.md": "80f6448ab4d95ca0672c407102d05a41b4569e5b1ce65bbb2dbe7827c686994a"
+  },
+  "independent_evidence": [
+    {
+      "area": "original roster and rights",
+      "result": "Original NBA LAC team profile live eight/UFA four/options two/RFA Coffey separated from selected Keon Johnson at LAC pick25; no original Grimes25 to Keon21/Preston33 trade imported."
+    },
+    {
+      "area": "contract family",
+      "result": "8 retained current UPC, Kawhi/Ibaka original option exercise, Jackson own Early Bird two nonoption seasons after 2020 LAC ROS and new UPC, Batum/Patterson/Cousins one-year legal minimum, Keon25 2+2 RSC. Direct 2017 CBA PDF pp223–224 Early Bird and p294 RSC 80–120% inspected; original Gamma and unsigned rights retained; actual price/receipt null."
+    },
+    {
+      "area": "dated roles and arithmetic",
+      "result": "Both dates 15STD/0TW, 12 active/11 positive, 24 two-minute five-unique blocks, 2880 game seconds/14400 player-seconds; usual Jackson/George/Kawhi/Morris/Zubac opening five. Exact rating fractions and player seconds independently recalculate Nov14 CHI margin -2.7101006015263174 LAC winner and Mar31 +0.19165116216784617 CHI winner."
+    },
+    {
+      "area": "scope",
+      "result": "Kawhi prior S2 19x36 minute fictional availability remains distinct from original injury; separate selected Nov14/Mar31 working availability. Original March31 overtime not copied; scores and overtime null; whole 82/whole cost/private health false."
+    },
+    {
+      "area": "currentness",
+      "result": "saved --check PASS"
+    }
+  ],
+  "independent_negative_control": {
+    "mutation": "returned role_blocks positions for two different blocks 6 and 8 swapped without changing total player minutes",
+    "result": "REJECTED ValueError Selected chronology changed"
+  },
+  "limits": [
+    "Named lawful family is conditional on valid options, nonassignment waivers or expiry, legal minimum and Early Bird price functions; no exact contract receipts or complete private cap certification.",
+    "Selected single BPM regulation winners only for two games; no score, actual medical clearance, season result or later transactions."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "CHICAGO_2021_22_SELECTED_RESULTS_LEDGER",
-  "baseline_main": "d111ddb9a0246345b1c04784404c829bf3202576",
+  "baseline_main": "cb5be945889b868f98dc95c3d9329648db831d03",
   "source_sha256": {
     "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.json": "5a6da17a8d98d0fd991a0f9286380b71dbc1c6a3ae714a7f66ce58b51379ff74",
     "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json": "333f5bd496ed59260d21e26bb42615b13cb0a11560409a798c9f905cfe66dac6",
@@ -23,7 +23,9 @@
     "reviews/DAL_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "0e9ae7f6b6cf8fa3c22361e69489af9a897c32947dd2b9d2934b041540955096",
     "simulation/CHICAGO_GOLDEN_STATE_2021_22_SELECTED_KEEPER_RESULTS.json": "6fdb37fda8b1b2f22fb17287f61af22d12039bcb8b65449550e6c0188a06cb3f",
     "reviews/GSW_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "716fb80c5096dd04415ab4658f0a2c0133d6b77fddb42cc8e8b75354a8aca869",
-    "tools/build_chicago_2021_22_selected_results_ledger.py": "4870fc218e10a3315b28cd2f61d8744fe3669f903f628f6ac043432a2707dbad"
+    "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json": "cd6d4324f40c0bb11c9f4e067b95ed72b4cffd61950592f262807f8970ed121a",
+    "reviews/LAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "309a8f9a6f0d4dd28dd0d39787ebb6357220ca62601ec9a8b100f091339eb61c",
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "cc728204d47433de253335ca58435a3a0e9361d5ec08b70cf602ded35ded2d01"
   },
   "rows": [
     {
@@ -249,16 +251,15 @@
       "away": "CHI",
       "opponent": "LAC",
       "selected_CHI_state": "COBY_OUT",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "LAC",
+        "source": "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/LAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -1450,16 +1451,15 @@
       "away": "LAC",
       "opponent": "LAC",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_CLIPPERS_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/LAC_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -1559,15 +1559,14 @@
   ],
   "summary": {
     "calendar_keys": 82,
-    "independently_reviewed_fictional_regulation_results": 26,
-    "CHI_working_wins": 12,
-    "opponent_working_wins": 14,
-    "remaining_keys": 56,
-    "next_game_id": "0022100198",
-    "next_date": "2021-11-14"
+    "independently_reviewed_fictional_regulation_results": 28,
+    "CHI_working_wins": 13,
+    "opponent_working_wins": 15,
+    "remaining_keys": 54,
+    "next_game_id": "0022100209",
+    "next_date": "2021-11-15"
   },
   "remaining_game_ids": [
-    "0022100198",
     "0022100209",
     "0022100223",
     "0022100236",
@@ -1618,7 +1617,6 @@
     "0022101098",
     "0022101110",
     "0022101132",
-    "0022101149",
     "0022101164",
     "0022101183",
     "0022101208",
@@ -1654,6 +1652,11 @@
       "path": "reviews/CHI82_TWENTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
       "immutable_main": "d111ddb9a0246345b1c04784404c829bf3202576",
       "selected_results_at_that_revision": 24
+    },
+    {
+      "path": "reviews/CHI82_TWENTYSIX_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "cb5be945889b868f98dc95c3d9329648db831d03",
+      "selected_results_at_that_revision": 26
     }
   ],
   "scope": "Only consumed selected named lawful families and dated roles. No final scores/OT/probability, full standings/2022pick, calibrated individual growth or historical/private certification. Frozen predecessor pending flags remain history.",
