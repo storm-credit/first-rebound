@@ -1,0 +1,275 @@
+{
+  "id": "CHICAGO_2021_SIGNED_MINIMUM_YEAR2_NUMERIC_REFINEMENT_2026_10_07",
+  "status": "PUBLIC_TABLE_NUMERIC_REFINEMENT_COMPLETE_LEGAL_ROUNDING_UNCERTIFIED",
+  "source_main_snapshot": "5fa8b1ec50fbbeccd8dd8308cfd7c81518c03ffc",
+  "source_sha256": {
+    "research/CHICAGO_2022_23_APPROVED_CORE_CONTRACT_EXECUTION_2026_10_07.json": "2cc7aeaeaef530f1c3fac5846348792c3d516eb1479af1ce56617deb2e7cb2b5",
+    "tools/build_chicago_2022_23_approved_core_contract_execution.py": "edfd73eab1d8617517447edd3093eb2647376e503263b5360890d87cfcc93c05",
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json": "86b9989daa20eced72106c25b14fb8d8b3b32d201132a0b87ba466b0ce51fba0"
+  },
+  "source_hash_method": "UTF8 BOM stripped; CRLF/CR to LF",
+  "scope": "Only five 2021-signed two-year minimum contracts Year2 in2022-23; no new2022 contract scale, no whole-cost or author financial selection.",
+  "sources": {
+    "official_rule": {
+      "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "pages": [
+        {
+          "PDF_1based": 54,
+          "printed": "32",
+          "fitz_text_LF_sha256": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1"
+        },
+        {
+          "PDF_1based": 55,
+          "printed": "33",
+          "fitz_text_LF_sha256": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da"
+        },
+        {
+          "PDF_1based": 561,
+          "printed": "C-1",
+          "fitz_text_LF_sha256": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+        }
+      ],
+      "paraphrase": "II6a keeps the scale for the contract first season; annual scale adjusts with cap, and II6d amends a too-low salary upward using that applicable scale. ExC supplies the YOS/contract-year cells.",
+      "rounding_algorithm_or_official2021_table_recovered": false
+    },
+    "official_cap_inputs": [
+      {
+        "id": "NBA_CAP2017",
+        "url": "https://pr.nba.com/nba-salary-cap-2017-18-season/",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\NBA_CAP2017.html",
+        "http_status": 200,
+        "raw_sha256": "267f33461fe7709d3d47d49ee708e96b8e7f5e7230971a8833e67a1ffd1157a3",
+        "bytes": 109930
+      },
+      {
+        "id": "CALENDAR_CAP",
+        "url": "https://pr.nba.com/nba-salary-cap-for-2021-22-season-set-at-112-414-million/",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\CALENDAR_CAP.html",
+        "raw_sha256": "0e070a33da4b25b142bd27d402d3ffea9d224cec0dab3f090d8e36fd20299abe",
+        "bytes": 110102,
+        "classification": "PRIMARY_NBA_RELEASE",
+        "extraction": "BeautifulSoup full HTML text; historical contract table only",
+        "normalized_extracted_text_sha256": "9f6996ed0416fc7b624d0d5b07548372ba5ae8bc3cd9c772bad0839953f8c712"
+      }
+    ],
+    "new_retrievals": [
+      {
+        "id": "salaryswish_minimum",
+        "url": "https://www.salaryswish.com/minimum-salary-faq",
+        "final_url": "https://www.salaryswish.com/minimum-salary-faq",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-minimum-year2-20261007\\salaryswish_minimum.html",
+        "bytes": 107249,
+        "raw_sha256": "0c808010bd97008e17d7b59c2a610270bc528e7f3f04b48f12a8ec6ceb70eefe"
+      },
+      {
+        "id": "realgm_minimum",
+        "url": "https://basketball.realgm.com/nba/info",
+        "final_url": "https://basketball.realgm.com/nba/info",
+        "http_status": 403,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-minimum-year2-20261007\\realgm_minimum.html",
+        "bytes": 5457,
+        "raw_sha256": "a25e92576460e9e582407ac83985106f6f589ee8b7c12b6c7d1af954bbadcead"
+      },
+      {
+        "id": "hoopsrumors_2021minimum",
+        "url": "https://www.hoopsrumors.com/2021/08/nba-minimum-salaries-for-2021-22.html",
+        "final_url": "https://www.hoopsrumors.com/2021/08/nba-minimum-salaries-for-2021-22.html",
+        "http_status": 200,
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-minimum-year2-20261007\\hoopsrumors_2021minimum.html",
+        "bytes": 71484,
+        "raw_sha256": "e293e8e6be1e05be4f33cf8983feece21885da20d11fef9ff7f7483f2fb2aae4"
+      }
+    ],
+    "salaryswish_locator": {
+      "classification": "ORIGINAL_VENDOR_PUBLISHED_HISTORICAL_TABLE_NOT_NBA_OFFICIAL_SCALE",
+      "last_updated": "Jul 10, 2026",
+      "DOM": "div[data-cba=2017][data-year=2022] labels2021-22; table#tbl_cba_2017 > tbody#cba_2022; targetYOS row; td[2] zero-based Year2",
+      "web_observed_lines": {
+        "1YOS": 264,
+        "3YOS": 266,
+        "5YOS": 268,
+        "6YOS": 269,
+        "7YOS": 270
+      },
+      "table_cells_are_reported_integer_points": true
+    },
+    "HR_locator": {
+      "classification": "CONTEMPORANEOUS_ORIGINAL_AUTHOR_ANALYSIS_SECONDARY_TO_NBA_LEGAL_SCALE_CORROBORATION_ONLY",
+      "published_time": "2021-08-05T09:29:28-05:00",
+      "DOM": "second HTML table, Experience column=first-season YOS;2022/23 column=Year2 next-year YOS; target rows0/2/4/5/6",
+      "web_open_failed_internal_error_but_direct_HTTP200_body_read": true
+    }
+  },
+  "rows": [
+    {
+      "player": "Green",
+      "first_season": "2021-22",
+      "applied_credited_2022_23_YOS": 3,
+      "contract_year": 2,
+      "2017_ExC_Year2_usd": 1600520,
+      "salaryswish_reported_Year2_usd": 1815677,
+      "contemporaneous_HR_reported_2022_23_usd": 1815677,
+      "HR_entering_2021_22_experience_row": 2,
+      "unrounded_direct_ratio_proxy": {
+        "numerator": 179920855280,
+        "denominator": 99093
+      },
+      "floor_ceil_interval_usd": [
+        1815676,
+        1815677
+      ],
+      "reported_value_within_proxy_interval": true,
+      "old_ceil_plus10_screen_usd": 1815687,
+      "proposed_conditional_refined_upper_usd": 1815677,
+      "actual_statutory_exact_cents_certified": false,
+      "actual_private_contract_certified": false
+    },
+    {
+      "player": "Joe Wieskamp",
+      "first_season": "2021-22",
+      "applied_credited_2022_23_YOS": 1,
+      "contract_year": 2,
+      "2017_ExC_Year2_usd": 1378242,
+      "salaryswish_reported_Year2_usd": 1563518,
+      "contemporaneous_HR_reported_2022_23_usd": 1563518,
+      "HR_entering_2021_22_experience_row": 0,
+      "unrounded_direct_ratio_proxy": {
+        "numerator": 51644565396,
+        "denominator": 33031
+      },
+      "floor_ceil_interval_usd": [
+        1563518,
+        1563519
+      ],
+      "reported_value_within_proxy_interval": true,
+      "old_ceil_plus10_screen_usd": 1563529,
+      "proposed_conditional_refined_upper_usd": 1563519,
+      "actual_statutory_exact_cents_certified": false,
+      "actual_private_contract_certified": false
+    },
+    {
+      "player": "Tony Bradley",
+      "first_season": "2021-22",
+      "applied_credited_2022_23_YOS": 5,
+      "contract_year": 2,
+      "2017_ExC_Year2_usd": 1795015,
+      "salaryswish_reported_Year2_usd": 2036318,
+      "contemporaneous_HR_reported_2022_23_usd": 2036318,
+      "HR_entering_2021_22_experience_row": 4,
+      "unrounded_direct_ratio_proxy": {
+        "numerator": 201784816210,
+        "denominator": 99093
+      },
+      "floor_ceil_interval_usd": [
+        2036317,
+        2036318
+      ],
+      "reported_value_within_proxy_interval": true,
+      "old_ceil_plus10_screen_usd": 2036328,
+      "proposed_conditional_refined_upper_usd": 2036318,
+      "actual_statutory_exact_cents_certified": false,
+      "actual_private_contract_certified": false
+    },
+    {
+      "player": "Stanley Johnson",
+      "first_season": "2021-22",
+      "applied_credited_2022_23_YOS": 7,
+      "contract_year": 2,
+      "2017_ExC_Year2_usd": 2072867,
+      "salaryswish_reported_Year2_usd": 2351521,
+      "contemporaneous_HR_reported_2022_23_usd": 2351521,
+      "HR_entering_2021_22_experience_row": 6,
+      "unrounded_direct_ratio_proxy": {
+        "numerator": 233019270938,
+        "denominator": 99093
+      },
+      "floor_ceil_interval_usd": [
+        2351521,
+        2351522
+      ],
+      "reported_value_within_proxy_interval": true,
+      "old_ceil_plus10_screen_usd": 2351532,
+      "proposed_conditional_refined_upper_usd": 2351522,
+      "actual_statutory_exact_cents_certified": false,
+      "actual_private_contract_certified": false
+    },
+    {
+      "player": "Denzel Valentine",
+      "first_season": "2021-22",
+      "applied_credited_2022_23_YOS": 6,
+      "contract_year": 2,
+      "2017_ExC_Year2_usd": 1933941,
+      "salaryswish_reported_Year2_usd": 2193920,
+      "contemporaneous_HR_reported_2022_23_usd": 2193920,
+      "HR_entering_2021_22_experience_row": 5,
+      "unrounded_direct_ratio_proxy": {
+        "numerator": 72467347858,
+        "denominator": 33031
+      },
+      "floor_ceil_interval_usd": [
+        2193919,
+        2193920
+      ],
+      "reported_value_within_proxy_interval": true,
+      "old_ceil_plus10_screen_usd": 2193930,
+      "proposed_conditional_refined_upper_usd": 2193920,
+      "actual_statutory_exact_cents_certified": false,
+      "actual_private_contract_certified": false
+    }
+  ],
+  "conditional_screen_proposal": {
+    "recommendation": "If the publicly reported five-cell minimum family and the stated floor/ceil numeric condition are adopted, replace ceil+10 with ceil. Do not call this a recovered NBA legal rounding algorithm.",
+    "condition": "The actual applicable2021 signing-year Year2 statutory table L belongs to the displayed floor/ceil interval. Both independently published reported points satisfy this; the CBA excerpt alone does not certify that official rounding cannot depart from direct-ratio floor/ceil.",
+    "minimum5_reported_point_sum": 9960954,
+    "minimum5_refined_upper_sum": 9960956,
+    "old_core_screen": 57132041,
+    "refined_conditional_core_screen": 57131991,
+    "refined_conditional_pre_new_contract_screen": 139703092,
+    "refined_conditional_X_allowance": 17278908,
+    "reported_point_core_reference_only": 57131989,
+    "reported_point_pre_new_contract_reference_only": 139703090,
+    "reported_point_X_reference_only": 17278910,
+    "remaining_X_selected_or_certified": false,
+    "old_core_artifact_changed": false
+  },
+  "retrieval_scope": {
+    "NBA_NBPA_exact2021_22_table_and_rounding_targeted_searches": [
+      "site:cdn.nba.com \"2021-22\" \"1,815,677\"",
+      "site:nbpa.com \"1,563,518\"",
+      "site:cdn.nba.com \"2021-22\" \"Minimum Annual Salary Scale\""
+    ],
+    "result": "No results in these three targeted queries. Earlier CBA101 query returned2018-19 only; no2021-22 official table inspected. This is a recovery limit, not proof no official table exists.",
+    "bounded_direct_requests": 3,
+    "same_download_retries": 0,
+    "private_contract_or_receipt_added_as_gate": false
+  },
+  "non_equivalent_later_contracts": {
+    "Joe_Wieskamp": "Historical2021 TW then2022 new standard is not our proposed2021 two-year standard. No later individual Wieskamp salary copied.",
+    "Green_Bradley": "Their later public individual rows may corroborate when same start/year applies, but no extra fetch or exact negotiation certification was needed for this five-cell table screen.",
+    "Stanley_Valentine": "Changed-world2021 two-year implementation remains distinct from historical subsequent waiver/new-contract paths."
+  },
+  "verification": {
+    "raw3_byte_SHA_and_sizes_checked": true,
+    "official_cap2_raw_SHA_and_body_checked": true,
+    "CBA_raw_and3_page_text_SHA_checked": true,
+    "SS2021_label_and5_exact_cells_checked": true,
+    "HR_firstseason_YOS_shift_and5_cells_checked": true,
+    "all5_reported_points_in_direct_ratio_floor_ceil": true,
+    "independent_review_completed": false
+  },
+  "authority_boundaries": {
+    "NBA_official_exact2021_minimum_table_recovered": false,
+    "legal_rounding_algorithm_recovered": false,
+    "actual_contract_cents_certified": false,
+    "new_financial_or_author_choice": false,
+    "private_receipt_gate": false,
+    "whole2022_cost_PASS": false,
+    "macro3_complete": false,
+    "REGISTER_promotion": false,
+    "manuscript_allowed": false
+  }
+}

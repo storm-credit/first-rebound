@@ -1,0 +1,133 @@
+{
+  "id": "MACRO3_AGY_DIAGNOSTIC_2026_10_07",
+  "scope": "LIVE_CLI_HELP_AND_PRESERVED_TIMEOUT_HELPER_ONLY_NOT_SOURCE_COLLECTION",
+  "observed_at_UTC": "2026-10-07 02:45:12 UTC",
+  "baseline_main": "5fa8b1ec50fbbeccd8dd8308cfd7c81518c03ffc",
+  "cli_path": "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+  "live_help_observations": [
+    {
+      "command": [
+        "agy.exe",
+        "--help"
+      ],
+      "working_directory": "C:/Users/Storm Credit/AppData/Local/Temp",
+      "exit_code": 0,
+      "elapsed_seconds": 0.3582254,
+      "observed_print_flags": [
+        "--mode accept-edits|plan",
+        "--print",
+        "--print-timeout",
+        "--output-format text|json|stream-json",
+        "--json-schema",
+        "--disable-slash-commands",
+        "--sandbox"
+      ],
+      "one_invocation_no_MCP_option_advertised": false,
+      "help_scope": "Current top-level advertised options; does not prove there is no undocumented or future isolation method."
+    },
+    {
+      "command": [
+        "agy.exe",
+        "help",
+        "mcp"
+      ],
+      "exit_code": 0,
+      "advertised_subcommands": [
+        "add",
+        "remove",
+        "list",
+        "enable",
+        "disable"
+      ],
+      "single_call_MCP_isolation_advertised": false,
+      "MCP_config_was_not_read_or_mutated": true
+    }
+  ],
+  "preserved_helper": {
+    "path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-macro3-agy-collection-20261007.py",
+    "raw_sha256": "2621508c3e65d6e8cc2b49cee34560b31884907ba072d8d1d7be2d34320e3908",
+    "raw_bytes": 3060,
+    "directly_read": true,
+    "reexecuted": false,
+    "mode": "plan",
+    "output_format": "json",
+    "print_timeout": "35s",
+    "outer_timeout_seconds": 45,
+    "prompt_URL_count": 3,
+    "model_explicitly_pinned": false,
+    "stdin": "DEVNULL",
+    "temporary_cwd": true,
+    "listed_argument_names_recognized_by_current_help": true,
+    "unsupported_argument_error_observed": false,
+    "successful_argument_parsing_in_old_call_certified": false,
+    "prompt_forbids_external_MCPs": "Textual instruction only, no process-level switch. It cannot establish MCP startup or invocation was disabled.",
+    "timeout_capture_defect": "TimeoutExpired branch discards partial stdout/stderr and saves only timeout/status/duration/null response. No startup/step/failure location survives in this record.",
+    "log_output_policy": "No account/token/auth/session logs were opened or printed; helper source is task code only."
+  },
+  "prior_record_facts": {
+    "timeout_record": "reviews/MACRO3_AGY_RULE_COLLECTION_2026_10_07.json",
+    "result": "PROCESS_TIMEOUT",
+    "elapsed_seconds": 45.076,
+    "response": null,
+    "source_body_tool_trace_certified": false,
+    "prior_transport_record": "reviews/ANTIGRAVITY_RECOVERY_DIAGNOSIS_2026_10_07.json",
+    "prior_model_listing_returned": true,
+    "prior_pinned_model": "gemini-3.8-flash-low",
+    "prior_cli_version_observed": "1.3.0",
+    "prior_no_tool_test_returned_AGY_OK": true,
+    "prior_no_tool_test_elapsed_seconds": 25.72,
+    "these_service_or_version_observations_reexecuted_in_this_diagnostic": false,
+    "prior_success_does_not_certify_new_URL_body_or_MCP_transport": true
+  },
+  "source_sha256": {
+    "reviews/MACRO3_AGY_RULE_COLLECTION_2026_10_07.json": "0c6d53c44e556d6cc3f05474a2c5d791f8c40b5056432144c80e73605fb3219c",
+    "reviews/ANTIGRAVITY_RECOVERY_DIAGNOSIS_2026_10_07.json": "a3b7edf6cb473eed8ab026e4f51de7bd46e5209cb455cfccece55ad3101438e7"
+  },
+  "source_hash_method": "Repository UTF8BOMstrip CRLF/CRtoLF; temphelper rawbytes separately pinned.",
+  "findings": {
+    "confirmed": "Absolute executable starts and recognizes current help. Preserved invocation uses advertised options, a three-URL question, inner35s/outer45s timeout, no explicit model. Its timeout record has no partial step evidence.",
+    "not_confirmed": [
+      "Which model the old default selected",
+      "Whether AGY initialized or recursively invoked Codex/NotebookLM MCP",
+      "Whether an MCP startup handshake consumed the deadline",
+      "Whether source web retrieval, model reasoning, plan lifecycle or process shutdown caused delay",
+      "Whether the35s inner deadline includes all startup time",
+      "Current account/auth state or live model service"
+    ],
+    "argument_error_supported": false,
+    "MCP_startup_as_cause_proven": false,
+    "universal_root_cause_claimed": false,
+    "private_receipts_or_auth_change_required": false
+  },
+  "bounded_fresh_cap_collection": {
+    "proposed_primary_URL": "https://pr.nba.com/nba-salary-cap-2022-23-season/",
+    "maximum_if_supported_seconds": 35,
+    "attempts": 0,
+    "status": "NOT_RUN_NO_ADVERTISED_SINGLE_CALL_MCP_ISOLATION_OPTION",
+    "reason": "The authorized fresh test was conditional on an official per-invocation no-MCP option. Current help only exposes configuration mutations and terminal sandbox/slash controls, so it does not satisfy that condition.",
+    "new_source_body_or_final_response_recovered": false,
+    "new_independent_source_count": 0,
+    "same_command_retry_or_time_extension": false
+  },
+  "avoided_workarounds": [
+    "Global mcp disable/enable",
+    "Editing MCP settings or agent profiles",
+    "Login/auth refresh or new installation",
+    "Changing other project sessions",
+    "Guessing unsupported --no-mcp/--mcp-config/--allowed-tools flags",
+    "Repeating the old three-URL command or silently increasing timeout"
+  ],
+  "scope_boundaries": {
+    "configuration_login_or_accounts_changed": false,
+    "private_logs_read_or_retained": false,
+    "current_model_list_run": false,
+    "actual_MCP_transport_certified": false,
+    "Antigravity_new_body_collection_success": false,
+    "whole_G16_or_macro3_certified": false,
+    "workflow_blocked_on_CLI_recovery": false,
+    "central_or_REGISTER_changed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "manuscript_allowed": false
+  }
+}
