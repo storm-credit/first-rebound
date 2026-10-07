@@ -1,0 +1,65 @@
+{
+  "id": "MACRO3_AGY_STREAM_RESPONSE_RECOVERY_2026_10_07",
+  "scope": "ONE_DELIBERATE_STREAM_PARSER_RECOVERY_NOT_AUTOMATIC_EVIDENCE",
+  "baseline_main": "16167cf4f6f2da50cbb1c054b948f9efedee3ddc",
+  "first_probe_record": "reviews/MACRO3_AGY_STREAM_OBSERVABILITY_PROBE_2026_10_07.json",
+  "retry_reason": "First probe counted type but CLI envelopes use event; root read existing parser and made one bounded recovery call. First raw output was not retained and cannot be reconstructed.",
+  "parser_source": "tools/parse_antigravity_stream.py",
+  "parser_normalized_sha256": "249d6e07faec3f20190eaff9f9550a33e60035a7cb276977311caa0d38b980ec",
+  "url": "https://pr.nba.com/nba-salary-cap-2022-23-season/",
+  "prompt_sha256": "ccd3d30487988b46396b87c4e8705ab10970868e26d167bd8c95233e7ee04d85",
+  "model": "gemini-3.8-flash-low",
+  "mode": "plan",
+  "internal_timeout_seconds": 45,
+  "external_timeout_seconds": 55,
+  "MCP_isolation_proven": false,
+  "global_configuration_changed": false,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 30.991,
+    "stdout_bytes": 7984,
+    "stderr_bytes": 78,
+    "stdout_sha256": "07dcf8900a2dbf0b6a9fd14753327b4daf7df4941186518ec0930211d05ad750",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459",
+    "event_counts": {
+      "init": 1,
+      "step_update": 22,
+      "result": 1
+    },
+    "terminal_count": 1,
+    "terminal_status": "SUCCESS",
+    "terminal_response_recovered": true,
+    "terminal_char_count": 417,
+    "partial_agent_char_count": 417,
+    "partial_agent_available": true,
+    "terminal_markers": {
+      "known_2022_cap_numeric_marker_present": false,
+      "known_2022_tax_numeric_marker_present": false,
+      "requested_source_URL_present": true,
+      "BODY_READ_string_present": false,
+      "UNVERIFIED_string_present": true
+    },
+    "partial_markers": {
+      "known_2022_cap_numeric_marker_present": false,
+      "known_2022_tax_numeric_marker_present": false,
+      "requested_source_URL_present": true,
+      "BODY_READ_string_present": false,
+      "UNVERIFIED_string_present": true
+    },
+    "tool_step_count": 6,
+    "tool_states": {
+      "ACTIVE": 3,
+      "DONE": 3,
+      "ERROR": 0,
+      "PENDING": 0
+    },
+    "tool_output_metadata_count": 2,
+    "malformed_line_count": 0,
+    "raw_payloads_and_account_identifiers_retained_or_printed": false
+  },
+  "source_body_tool_trace_independently_certified": false,
+  "model_numeric_markers_are_not_source_reads": true,
+  "whole_macro3_or_G16_certified": false,
+  "manuscript_allowed": false
+}
