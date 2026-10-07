@@ -1,0 +1,652 @@
+{
+  "id": "DETROIT_2021_OPENING_NAMED_OPERATING_FAMILY",
+  "status": "INDEPENDENTLY_REVIEWED_FINITE_CANDIDATE_PATHS_WHOLE_PUBLIC_COST_AND_DIRECTION_UNSELECTED",
+  "baseline_main": "ae8cc87d1f35e86c6c52a68dfa5766422bb137a3",
+  "source_sha256": {
+    "research/CHICAGO_2021_22_OPENING_DET_PAIRED_INPUT_RECOVERY_2026_10_07.json": "e731ab02a83e1135137da08a5384afbc077111cddb5a7d6ad8a4ba8f921e9f70",
+    "research/O15G15AF_DETROIT_NAMED_ROSTER_TO_OPENING_GATE.json": "eb90c8275ad5f3e57146fc3981f1739c9e0a23e687e3c5d2331e1117ac41a672",
+    "simulation/O15G15BM_DETROIT_OPENING_SLOT_OPTIONS.json": "ba7ae4604a90c715130f96a127fcbe7616f4fd6430068fc3742729b1761a2ed9",
+    "research/O15G15AL_DETROIT_PRE_OLYNYK_ROSTER_CHARGE_SEQUENCE.json": "cd0d31fced740134f94f34d1a6ce7b24c1205ce9360be3ae61e2d4abf43253b2",
+    "research/O15G15AQ_DETROIT_LEE_CAP_ROOM_AND_NONBIRD_ROUTE.json": "6b4806825d623e445f17a093239800a8f49f7841266244129818275681a622fa",
+    "research/O15G15AR_DETROIT_NAMED_EXIT_AND_ROSTER_CHARGE.json": "9f75d9af0af324303dc670249b023f69005dd3fb2624edf7322c4e2791469ac5",
+    "simulation/CHICAGO_2021_22_PAIRED_INPUTS.json": "db727ddc89e354da7603c2563aaa4b58d9b543e124b0c4bd9de9df45d7ea9c6f",
+    "research/O15G15AK_DETROIT_AUG6_RIGHTS_AND_WAIVER_TIMING.md": "9c306fe85a0e85181cc6330dc06de36ea90db1a349caeca9ca72b04a7a8cb6ce",
+    "research/O15G15AO_DETROIT_DISCLOSED_AGREEMENT_CAP_TIMING.md": "87e71f8ceb114521ae92f143724bfa5873178d2b4c6ead145717c05164292c93",
+    "research/O15G15BM_DETROIT_OPENING_SLOT_TWO_NAMED_OPTIONS.md": "9bef308ed89ff7e4899bc0ffc3179305f61066e67c2a0df844ce0f6c84304d47",
+    "research/TWO_WAY_2021_22_RULE_PERIOD_EVIDENCE.json": "e615d2cce356be8db1b0e65eb174b718789a4650a459c1ec2f69118be1cb1e26",
+    "tools/build_detroit_2021_opening_named_operating_family.py": "ff635732271be6c65959a4d60e5f8f72deb79eba01fe1fb1c69532d000375fe9"
+  },
+  "hash_convention": "UTF8 BOM stripped CRLF/CR toLF",
+  "rules": {
+    "CBA": {
+      "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "PDF_1based_fitz_text_sha256": {
+        "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+        "54": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1",
+        "206": "e5c736cb6aae51bff5515753ed23070ec8e3079f47d7f966e3a3e5b40b54fb62",
+        "207": "d12be4b76bccaf8c4fe8885928e866f81e677074d930fcb1c96713ebd91ae0a0",
+        "208": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3",
+        "209": "3a47b881e3d34ff50f7ad32a38792702ac43e77a9aa9383b5433ceba6bc84859",
+        "210": "6f155805eebeb105501cc90b1f27ff41e222d3413033bd952f010e9b4daa3c3a",
+        "211": "46763c8e87cdec7f91f16a94c91342403a137bdfcf10a6397ea5e3c8dfc61c1e",
+        "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+        "213": "6ef8b2bb13c92f6112753e380f98c48c4472b5a8d8db9695f8fc5cd73a9cbf44",
+        "223": "1036fb9ce58b602830b3dbd04ef902a09de8922f94671a2ba98a01e451919f3b",
+        "231": "04cd2a6414e59b50589d2d4cf8a71f5f011d793b6ac7e7c1cfd4328401dcb5b1",
+        "232": "38b400763b01a29678eaecbb413e01a318ca8460bf29ce7d884e6f0f140239b0",
+        "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+        "238": "92603cc01664d2b6026c8190a8661c6c6b56588f4a74b29d3adebf53bd7bfd89",
+        "239": "8cbbebad974fe1b8e78cca0ec11c99b04d22dc0ef34a7282dac2b81721bc5918",
+        "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+        "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+        "249": "8c960b7a0da244e0efa39669c6e79ff5929ceabb8240c920cc9ede5cfa1ad468",
+        "250": "73349e6eeedc8c0687d0df8258e5b4fc3affaabf3586f5fedbda1a618d1fb399",
+        "303": "4495fa6281a8f9f34fa3241fc8e4cdf540a62109090d0bbc324ffe7bdd0f677b",
+        "304": "fbc88aa3499f45d41bb440f5636d862a7aa2d49b34e3fcb76a5f8283d4f3a5aa",
+        "412": "401ce674b03b72e257e4586c33b3434fadf7807606711189f153b9790a1b8b25"
+      }
+    },
+    "minimum_table": {
+      "url": "https://www.hoopsrumors.com/2021/08/nba-minimum-salaries-for-2021-22.html",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-minimum-year2-20261007\\hoopsrumors_2021minimum.html",
+      "raw_sha256": "e293e8e6be1e05be4f33cf8983feece21885da20d11fef9ff7f7483f2fb2aae4",
+      "class": "REUSED_SECONDARY_TABLE_NOT_PRIMARY_STATUTORY_ROUNDING",
+      "signed2021_max_table_Year1_2_3": [
+        2641691,
+        2773776,
+        2905862
+      ],
+      "admitted_rounding_screen_upper_each": 3000000,
+      "actual_minimum_cents_certified": false
+    },
+    "rule_connections": [
+      "VII6(g): room MLE maximum2 seasons, 5% increases; no later NTMLE/BAE/taxMLE.",
+      "VII6(i): minimum salary exception exact applicable minimum,1 or2years,no bonuses; it is not a3-year minimum exception.",
+      "VII4 and II13: retain valid pending QO/holds, include notified agreements, distinguish waiver clearance and protected residue.",
+      "VII6(h)/VIII1: Suggs unsigned1R hold can be replaced by candidate rookie salary no larger than preserved120% hold.",
+      "VII6(b)/I1: Diallo Bird path requires admitted prior-team/continuous service identity; no real acceptance certificate.",
+      "X4: Aldama required tender/unsigned2R costs are a separate explicit variable, not a free standard slot.",
+      "XXIX1–3 +2021opening rule: selected12STD active/3inactive and2TW separate at opening."
+    ]
+  },
+  "policy": {
+    "selected": false,
+    "branch": "B_NO_LYLES_AND_MINIMUM_EXCEPTION_REPLACEMENTS",
+    "new_Lyles_agreement_or_contract": false,
+    "NBA_first_tender_Aldama_must_be_accounted_separately": true,
+    "Aldama_valid_tender_delivery_within_operative_window_and_not_accepted_at_opening": true,
+    "room_MLE_for_Joseph_only": 4910000,
+    "room_MLE_years": 2,
+    "room_MLE_raise_percent": 5,
+    "NTMLE_or_BAE_combined_with_roomMLE": false,
+    "new_minimum_exception_years": 2,
+    "new_minimum_exception_bonus": 0,
+    "new_Olynyk_years": 3,
+    "new_Olynyk_bonus": 0,
+    "new_Olynyk_raise_percent": 5,
+    "new_Olynyk_base_lower_candidate": 3000000,
+    "legacy_2020_rookie_base_reduction": false,
+    "original_unreported_costs_set_zero": false,
+    "whole_source_supported_cost_family_pass": false,
+    "actual_acceptance": false
+  },
+  "opening_game": {
+    "game_id": "0022100004",
+    "candidate_date": "2021-10-20",
+    "home": "DET",
+    "away": "CHI",
+    "same_observed_calendar_is_hypothesis": true,
+    "score": null,
+    "winner": null,
+    "health_selected": false
+  },
+  "roster_candidates": [
+    {
+      "id": "A_garza_two_way_retained",
+      "standard_candidate": [
+        "Patrick Williams",
+        "Josh Jackson",
+        "Kira Lewis Jr.",
+        "Jerami Grant",
+        "Isaiah Stewart",
+        "Kelly Olynyk",
+        "Trey Lyles",
+        "Saben Lee",
+        "Cory Joseph",
+        "Rodney McGruder",
+        "Frank Jackson",
+        "Jalen Suggs",
+        "Isaiah Livers",
+        "Mason Plumlee",
+        "Hamidou Diallo"
+      ],
+      "two_way_candidate": [
+        "Luka Garza",
+        "Chris Smith"
+      ],
+      "working_active_standard_12": [
+        "Patrick Williams",
+        "Josh Jackson",
+        "Kira Lewis Jr.",
+        "Jerami Grant",
+        "Isaiah Stewart",
+        "Kelly Olynyk",
+        "Cory Joseph",
+        "Jalen Suggs",
+        "Mason Plumlee",
+        "Hamidou Diallo",
+        "Trey Lyles",
+        "Saben Lee"
+      ],
+      "working_inactive_standard_3": [
+        "Rodney McGruder",
+        "Frank Jackson",
+        "Isaiah Livers"
+      ],
+      "positive_10_preserved": true,
+      "zero_active_minute_clinical_status": null,
+      "actual_active_medical_or_registration_certified": false,
+      "selected": false
+    },
+    {
+      "id": "B_lyles_not_signed",
+      "standard_candidate": [
+        "Patrick Williams",
+        "Josh Jackson",
+        "Kira Lewis Jr.",
+        "Jerami Grant",
+        "Isaiah Stewart",
+        "Kelly Olynyk",
+        "Saben Lee",
+        "Cory Joseph",
+        "Rodney McGruder",
+        "Frank Jackson",
+        "Jalen Suggs",
+        "Isaiah Livers",
+        "Mason Plumlee",
+        "Hamidou Diallo",
+        "Luka Garza"
+      ],
+      "two_way_candidate": [
+        "Jamorko Pickett",
+        "Chris Smith"
+      ],
+      "working_active_standard_12": [
+        "Patrick Williams",
+        "Josh Jackson",
+        "Kira Lewis Jr.",
+        "Jerami Grant",
+        "Isaiah Stewart",
+        "Kelly Olynyk",
+        "Cory Joseph",
+        "Jalen Suggs",
+        "Mason Plumlee",
+        "Hamidou Diallo",
+        "Saben Lee",
+        "Rodney McGruder"
+      ],
+      "working_inactive_standard_3": [
+        "Frank Jackson",
+        "Isaiah Livers",
+        "Luka Garza"
+      ],
+      "positive_10_preserved": true,
+      "zero_active_minute_clinical_status": null,
+      "actual_active_medical_or_registration_certified": false,
+      "selected": false
+    }
+  ],
+  "named_cap_route_A": {
+    "Garza_TW_retained_Lyles_preserved": true,
+    "original_all_cap_room_after_Olynyk_Lee_Lyles_Frank": -3957807,
+    "extra_deadmoney_source_delta": 203571,
+    "same_route_room_deficit_with_that_delta": 4161378,
+    "named_salary_free_exit_counterparties_selected": false,
+    "September_Jordan_not_an_August_salary_free_exit": true,
+    "new_2020_rookie_salary_reduction": false,
+    "complete_path_closed": false
+  },
+  "named_cap_route_B": {
+    "Lyles_no_agreement_no_signature": true,
+    "existing_alternative_not_new_author_lock": true,
+    "new_minimum_contracts": [
+      "Saben Lee",
+      "Frank Jackson",
+      "Isaiah Livers",
+      "Rodney McGruder",
+      "Luka Garza"
+    ],
+    "Olynyk_offer_function": "q in [3000000, min(12195122,12361772-X)]",
+    "q_nonempty_iff_X_leq": 9361772,
+    "X_definition": "All lawful residual initial cap charges in excess of preserved named100052228 AFTER effective named waiver/renunciation: original performance/protection, additional oldpay/settlements, remaining FA/offer/tender/exception/incomplete-roster charges and any changed notified agreements. X is not certified bounded orzero.",
+    "X_actual_or_public_inventory_upper": null,
+    "Olynyk_room_at_old_reported_q_requires_X_leq": 166650,
+    "reported_deadmoney_source_sensitivity_requires_q_reduction": 36921,
+    "q_is_new_consensual_offer_not_real_originalterms": true,
+    "pending_original_earned_or_protected_money_removed": false,
+    "source_supported_whole_cost_family_pass": false,
+    "cases": [
+      {
+        "uncertified_residual_X_usd": 0,
+        "Olynyk_offer_q_upper_usd": 12195122,
+        "Olynyk_three_year5percent_schedule_exact_dollar_fractions": [
+          "12195122",
+          "128048781/10",
+          "67073171/5"
+        ],
+        "Olynyk_three_year5percent_schedule_upper": [
+          12195122,
+          12804879,
+          13414635
+        ],
+        "integer_schedule_is_upper_display_not_agreed_salary": true,
+        "states": [
+          {
+            "event": "Before Olynyk agreement/contract after effective named waivers/renunciations",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 100052228,
+            "basis": "NAMED_BASE_PLUS_UNCERTIFIED_RESIDUAL_X"
+          },
+          {
+            "event": "Olynyk new three-year5% offer q",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 112247350,
+            "delta_upper": 12195122,
+            "method": "CAP_ROOM; no Lyles agreement or cost yet/ever in this branch"
+          },
+          {
+            "event": "Lee two-year minimum: replace retained925258 FA amount",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 114322092,
+            "delta_upper": 2074742,
+            "method": "MINIMUM_EXCEPTION; no old3-year cap-room contract copied"
+          },
+          {
+            "event": "Frank two-year minimum: replace retained1939350 QO charge",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 115382742,
+            "delta_upper": 1060650,
+            "method": "MINIMUM_EXCEPTION; exact minimum function, not arbitrary3m base"
+          },
+          {
+            "event": "Livers new two-year minimum",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118382742,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; original42 money not copied into candidate38"
+          },
+          {
+            "event": "Suggs candidate NBA rookie-scale contract replaces existing6592920 unsigned hold at no higher cost",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118382742,
+            "delta_upper": 0,
+            "method": "ROOKIE_EXCEPTION; candidate pick5 admission and UPC consent, neither selected as fact"
+          },
+          {
+            "event": "Joseph roomMLE two-year, first4910000; preserve old2400000 residue already in base",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 123292742,
+            "delta_upper": 4910000,
+            "method": "ROOM_MLE, no combined NTMLE/BAE"
+          },
+          {
+            "event": "McGruder one-year minimum after effective old waiver",
+            "date_hypothesis": "2021-08-11",
+            "team_salary_upper": 126292742,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; full salary upper, reimbursement not subtracted from this screen"
+          },
+          {
+            "event": "Diallo two-year Bird offer5200000 replaces retained2079826 QO",
+            "date_hypothesis": "2021-08-19",
+            "team_salary_upper": 129412916,
+            "delta_upper": 3120174,
+            "method": "BIRD_CONDITIONAL_CONTINUOUS_PRIOR_TEAM_SERVICE; bonus0 newoffer"
+          },
+          {
+            "event": "Aldama separate valid outstanding RequiredTender reservation",
+            "date_hypothesis": "2021-09-01 IF within operative2021 tender window",
+            "team_salary_upper": 132412916,
+            "delta_upper": 3000000,
+            "method": "LEGAL_MINIMUM_TENDER_FUNCTION; completed team-signed valid tender and nonacceptance are candidate conditions, no16thUPC; no actual modifieddeadline/receipt claim"
+          },
+          {
+            "event": "Nets/Jordan assignment: remove Sekou+Okafor and add full Jordan9881598",
+            "date_hypothesis": "2021-09-04",
+            "team_salary_upper": 136550811,
+            "delta_upper": 4137895,
+            "method": "PRESERVED_NAMED_PLAYERS_CANDIDATE; bothmatching andsource-supportedwholepartybudgets still require reviewedcarrier"
+          },
+          {
+            "event": "Garza two-year standard minimum conversion",
+            "date_hypothesis": "2021-09-24",
+            "team_salary_upper": 139550811,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; branchB keeps original conversion direction as candidate"
+          }
+        ],
+        "selected": false,
+        "all_legal_minimum_functions_screened_at3000000_not_chosen_salary": true,
+        "full_apron_pass": false
+      },
+      {
+        "uncertified_residual_X_usd": 203571,
+        "Olynyk_offer_q_upper_usd": 12158201,
+        "Olynyk_three_year5percent_schedule_exact_dollar_fractions": [
+          "12158201",
+          "255322221/20",
+          "133740211/10"
+        ],
+        "Olynyk_three_year5percent_schedule_upper": [
+          12158201,
+          12766112,
+          13374022
+        ],
+        "integer_schedule_is_upper_display_not_agreed_salary": true,
+        "states": [
+          {
+            "event": "Before Olynyk agreement/contract after effective named waivers/renunciations",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 100255799,
+            "basis": "NAMED_BASE_PLUS_UNCERTIFIED_RESIDUAL_X"
+          },
+          {
+            "event": "Olynyk new three-year5% offer q",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 112414000,
+            "delta_upper": 12158201,
+            "method": "CAP_ROOM; no Lyles agreement or cost yet/ever in this branch"
+          },
+          {
+            "event": "Lee two-year minimum: replace retained925258 FA amount",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 114488742,
+            "delta_upper": 2074742,
+            "method": "MINIMUM_EXCEPTION; no old3-year cap-room contract copied"
+          },
+          {
+            "event": "Frank two-year minimum: replace retained1939350 QO charge",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 115549392,
+            "delta_upper": 1060650,
+            "method": "MINIMUM_EXCEPTION; exact minimum function, not arbitrary3m base"
+          },
+          {
+            "event": "Livers new two-year minimum",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118549392,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; original42 money not copied into candidate38"
+          },
+          {
+            "event": "Suggs candidate NBA rookie-scale contract replaces existing6592920 unsigned hold at no higher cost",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118549392,
+            "delta_upper": 0,
+            "method": "ROOKIE_EXCEPTION; candidate pick5 admission and UPC consent, neither selected as fact"
+          },
+          {
+            "event": "Joseph roomMLE two-year, first4910000; preserve old2400000 residue already in base",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 123459392,
+            "delta_upper": 4910000,
+            "method": "ROOM_MLE, no combined NTMLE/BAE"
+          },
+          {
+            "event": "McGruder one-year minimum after effective old waiver",
+            "date_hypothesis": "2021-08-11",
+            "team_salary_upper": 126459392,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; full salary upper, reimbursement not subtracted from this screen"
+          },
+          {
+            "event": "Diallo two-year Bird offer5200000 replaces retained2079826 QO",
+            "date_hypothesis": "2021-08-19",
+            "team_salary_upper": 129579566,
+            "delta_upper": 3120174,
+            "method": "BIRD_CONDITIONAL_CONTINUOUS_PRIOR_TEAM_SERVICE; bonus0 newoffer"
+          },
+          {
+            "event": "Aldama separate valid outstanding RequiredTender reservation",
+            "date_hypothesis": "2021-09-01 IF within operative2021 tender window",
+            "team_salary_upper": 132579566,
+            "delta_upper": 3000000,
+            "method": "LEGAL_MINIMUM_TENDER_FUNCTION; completed team-signed valid tender and nonacceptance are candidate conditions, no16thUPC; no actual modifieddeadline/receipt claim"
+          },
+          {
+            "event": "Nets/Jordan assignment: remove Sekou+Okafor and add full Jordan9881598",
+            "date_hypothesis": "2021-09-04",
+            "team_salary_upper": 136717461,
+            "delta_upper": 4137895,
+            "method": "PRESERVED_NAMED_PLAYERS_CANDIDATE; bothmatching andsource-supportedwholepartybudgets still require reviewedcarrier"
+          },
+          {
+            "event": "Garza two-year standard minimum conversion",
+            "date_hypothesis": "2021-09-24",
+            "team_salary_upper": 139717461,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; branchB keeps original conversion direction as candidate"
+          }
+        ],
+        "selected": false,
+        "all_legal_minimum_functions_screened_at3000000_not_chosen_salary": true,
+        "full_apron_pass": false
+      },
+      {
+        "uncertified_residual_X_usd": 9361772,
+        "Olynyk_offer_q_upper_usd": 3000000,
+        "Olynyk_three_year5percent_schedule_exact_dollar_fractions": [
+          "3000000",
+          "3150000",
+          "3300000"
+        ],
+        "Olynyk_three_year5percent_schedule_upper": [
+          3000000,
+          3150000,
+          3300000
+        ],
+        "integer_schedule_is_upper_display_not_agreed_salary": true,
+        "states": [
+          {
+            "event": "Before Olynyk agreement/contract after effective named waivers/renunciations",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 109414000,
+            "basis": "NAMED_BASE_PLUS_UNCERTIFIED_RESIDUAL_X"
+          },
+          {
+            "event": "Olynyk new three-year5% offer q",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 112414000,
+            "delta_upper": 3000000,
+            "method": "CAP_ROOM; no Lyles agreement or cost yet/ever in this branch"
+          },
+          {
+            "event": "Lee two-year minimum: replace retained925258 FA amount",
+            "date_hypothesis": "2021-08-09",
+            "team_salary_upper": 114488742,
+            "delta_upper": 2074742,
+            "method": "MINIMUM_EXCEPTION; no old3-year cap-room contract copied"
+          },
+          {
+            "event": "Frank two-year minimum: replace retained1939350 QO charge",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 115549392,
+            "delta_upper": 1060650,
+            "method": "MINIMUM_EXCEPTION; exact minimum function, not arbitrary3m base"
+          },
+          {
+            "event": "Livers new two-year minimum",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118549392,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; original42 money not copied into candidate38"
+          },
+          {
+            "event": "Suggs candidate NBA rookie-scale contract replaces existing6592920 unsigned hold at no higher cost",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 118549392,
+            "delta_upper": 0,
+            "method": "ROOKIE_EXCEPTION; candidate pick5 admission and UPC consent, neither selected as fact"
+          },
+          {
+            "event": "Joseph roomMLE two-year, first4910000; preserve old2400000 residue already in base",
+            "date_hypothesis": "2021-08-10",
+            "team_salary_upper": 123459392,
+            "delta_upper": 4910000,
+            "method": "ROOM_MLE, no combined NTMLE/BAE"
+          },
+          {
+            "event": "McGruder one-year minimum after effective old waiver",
+            "date_hypothesis": "2021-08-11",
+            "team_salary_upper": 126459392,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; full salary upper, reimbursement not subtracted from this screen"
+          },
+          {
+            "event": "Diallo two-year Bird offer5200000 replaces retained2079826 QO",
+            "date_hypothesis": "2021-08-19",
+            "team_salary_upper": 129579566,
+            "delta_upper": 3120174,
+            "method": "BIRD_CONDITIONAL_CONTINUOUS_PRIOR_TEAM_SERVICE; bonus0 newoffer"
+          },
+          {
+            "event": "Aldama separate valid outstanding RequiredTender reservation",
+            "date_hypothesis": "2021-09-01 IF within operative2021 tender window",
+            "team_salary_upper": 132579566,
+            "delta_upper": 3000000,
+            "method": "LEGAL_MINIMUM_TENDER_FUNCTION; completed team-signed valid tender and nonacceptance are candidate conditions, no16thUPC; no actual modifieddeadline/receipt claim"
+          },
+          {
+            "event": "Nets/Jordan assignment: remove Sekou+Okafor and add full Jordan9881598",
+            "date_hypothesis": "2021-09-04",
+            "team_salary_upper": 136717461,
+            "delta_upper": 4137895,
+            "method": "PRESERVED_NAMED_PLAYERS_CANDIDATE; bothmatching andsource-supportedwholepartybudgets still require reviewedcarrier"
+          },
+          {
+            "event": "Garza two-year standard minimum conversion",
+            "date_hypothesis": "2021-09-24",
+            "team_salary_upper": 139717461,
+            "delta_upper": 3000000,
+            "method": "MINIMUM_EXCEPTION; branchB keeps original conversion direction as candidate"
+          }
+        ],
+        "selected": false,
+        "all_legal_minimum_functions_screened_at3000000_not_chosen_salary": true,
+        "full_apron_pass": false
+      }
+    ],
+    "post_3m_each_minimum_screen_max": 139717461,
+    "2021_apron_comparison_only": {
+      "apron": 143002000,
+      "preliminary_margin": 3284539,
+      "hardcap_trigger_not_invented_by_roomMLE": true,
+      "whole_apron_adjusted_cost_still_unverified": true
+    }
+  },
+  "joint_event_and_descendant_boundaries": {
+    "Nets_Jordan_all_four_seconds_and_cash_required": "Original named2022/2024WAS/2025GSW/2027conditionalseconds+cash, no exactownership/cashterm replacement here; verify against DB1/Westbrookchanged actors before adoption.",
+    "BKN_2021_draft_asset_chain_not_assumed_same": true,
+    "DET_Nets_raw_matching_base_conditions": {
+      "DET_outgoing": 5743703,
+      "DET_nontax_limit": 10743703,
+      "Jordan_base_incoming": 9881598,
+      "DET_base_margin": 862105,
+      "BKN_tax_outgoing": 9881598,
+      "BKN_base_incoming": 5743703,
+      "performance_protection_bonus_family_waiver_and_6month_guards_not_yet_closed": true
+    },
+    "Jordan_waiver_full_cost_preserved": 9881598,
+    "actual_Nets_trade_receipt_or_private_budget_required": false,
+    "Lyles_future2022_Bagley_bundle_no_longer_portable_in_B": true,
+    "Pickett_TW_in_B_is_candidate_not_foreverrights": true,
+    "Garza_DNP_or_Smith_knee_not_imported_health": true,
+    "Aldama_unaccepted_tender_not_NBA_UPC_or_free_cost": true
+  },
+  "positive_minutes": {
+    "Cory Joseph": 24,
+    "Hamidou Diallo": 20,
+    "Isaiah Stewart": 24,
+    "Jalen Suggs": 24,
+    "Jerami Grant": 30,
+    "Josh Jackson": 24,
+    "Kelly Olynyk": 18,
+    "Kira Lewis Jr.": 24,
+    "Mason Plumlee": 24,
+    "Patrick Williams": 28
+  },
+  "unchanged_chicago_minutes": {
+    "Carter": 28,
+    "Caruso": 18,
+    "Chris Duarte": 14,
+    "Coby": 18,
+    "LaMelo_pick4": 32,
+    "LaVine": 34,
+    "Markkanen": 32,
+    "Protagonist": 32,
+    "Tony Bradley": 12,
+    "Young": 20
+  },
+  "actual_next_finite_inputs": [
+    "Public DET priorordinary/camp endpoints and legal carry/stretch bounds needed to bound initialX; no unpublishedledger certificate required.",
+    "Candidate minimum functions legal cents/floor type:3m is a conservative admitted upper rather than a chosen NBA minimum salary.",
+    "Review continuous renunciation/waiver q and original retained protectedmoney; preserve QOcharges until accepted replacement.",
+    "Complete DET/BKN currentpublic cost/matching/fullreturnedasset jointfamily or compare a separate legal Jordan path; cannot call an unreviewed source-preservation assumption a PASS.",
+    "Authorcomparison of A versus B: B changes Lyles futuretrade and nominal Olynyk/Lee/Frank/Livers/Garza contracts, so do not promote from arithmetic alone."
+  ],
+  "certification": {
+    "independent_review_completed": true,
+    "whole_source_supported_cost_family_pass": false,
+    "actual_registration_or_acceptance": false,
+    "new_author_lock": false,
+    "health_or_result_selected": false,
+    "whole2021_22_or_macro3_complete": false,
+    "REGISTER_changed": false,
+    "manuscript_written": 0
+  },
+  "progress": {
+    "unfinished_major_groups": 5,
+    "freeze": "v0.30 PARTIAL",
+    "design_manuscript_gates": "CLOSED",
+    "actual_Context_Packs": 0,
+    "seven_rows": [
+      {
+        "number": 1,
+        "group": "2020 드래프트 연쇄",
+        "state": "완료"
+      },
+      {
+        "number": 2,
+        "group": "Chicago 2020–21",
+        "state": "S2 완료"
+      },
+      {
+        "number": 3,
+        "group": "2021–23 거래·계약",
+        "state": "M1 82날짜 조건부 carrier 독립수용; 첫 DET 입력·명단·비용 경계 복구"
+      },
+      {
+        "number": 4,
+        "group": "장기 커리어",
+        "state": "후속 시즌 입력 대기"
+      },
+      {
+        "number": 5,
+        "group": "결말·전체 구조",
+        "state": "전체 기능표 미완료"
+      },
+      {
+        "number": 6,
+        "group": "집필 규격·Context Pack",
+        "state": "현행 기능 등록기 참조; 실제 Pack0"
+      },
+      {
+        "number": 7,
+        "group": "통합·독립·작가 승인",
+        "state": "최종 CLOSED"
+      }
+    ]
+  }
+}
