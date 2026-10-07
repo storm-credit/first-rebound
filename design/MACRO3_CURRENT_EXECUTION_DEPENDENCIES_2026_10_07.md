@@ -1,5 +1,7 @@
 # 3번 현재 실행 의존성 — 2021–23 거래·계약
 
+2026-10-07 [POR·T4 소유주 수리·32경기 원장](../reviews/POR_T4_OWNER_CORRECTION_AND_THIRTYTWO_LEDGER_REVIEW_2026_10_07.md): PR484 main 뒤 LAC인계의PowellPOR 오류를 승인T4 PowellTOR/HoodPOR로수리·원pin/명시가드·두loader반환반례거부·원2승자/마진/명단불변을 검문했다. 옛LACfullpeer는main이력보존, 현행source/peer만수리. POR15STD0TW/원 Γ·Evans POR37/Bird·옵션을연결하고 Nov17/Jan30 CHI 작업승리·각240분24시계·순서변조거부 독립검문. 이전30+POR2=32/82·CHI16/상대16·잔여50·다음DEN0022100236/11-19. 실제임상/가격/원후속거래/전체순위픽 인증0·FY23예정 입력보존. 신규CLI NOT_RUN·기능43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·목표ACTIVE. 아래는이전이력이다.
+
 2026-10-07 [LAL Caruso 소유·30경기 원장](../reviews/LAL_CARUSO_OWNERSHIP_AND_THIRTY_RESULT_LEDGER_REVIEW_2026_10_07.md): PR483 main 뒤 Chicago A Caruso를 LAL 새계약/역할에서 제외하고 DB1 Butler22RSC·Schroder FullBird3/THT EarlyBird2·원 보호비용/권리의14STD0TW를 연결했다. Nov15 LAL/Dec19 CHI 작업승리·active12/11양수240분/24시계·블록순서 반환반례거부 독립검문. 이전28+LAL2=30/82·CHI14/상대16·잔여52·다음 POR0022100223/11-17. 원Westbrook/Gasol/Schroder거래·임상/영수증/점수OT/전체순위픽 인증0. FY23 예정일정 보존·대체 채택/결과 미선택. 신규 외부CLI NOT_RUN·기능43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·목표ACTIVE. 아래는 이전 이력이다.
 
 2026-10-07 [LAC 두 날짜·28경기 원장](../reviews/LAC_KEEPER_AND_TWENTYEIGHT_RESULT_LEDGER_REVIEW_2026_10_07.md): PR482 main 뒤 LAC15STD0TW/Jackson EarlyBird2/Keon25RSC/원 보호비용·TW 권리를 보존하고 Kawhi의 두 날짜 가용을 명시적 가상 선택으로 연결했다. Nov14 LAC/Mar31 CHI 작업승리·각240분/24시계·블록순서 반환변조거부를 독립 검문. 이전26+LAC2=28/82·CHI13/상대15·잔여54·다음 LAL0022100209/11-15. 원ACL/원거래/실제OT/전체 순위·픽 인증0. FY23 공식 예정 입력은 보존·대체 채택/결과 미선택. 신규 외부CLI NOT_RUN·기능43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED·목표ACTIVE. 아래는 이전 이력이다.

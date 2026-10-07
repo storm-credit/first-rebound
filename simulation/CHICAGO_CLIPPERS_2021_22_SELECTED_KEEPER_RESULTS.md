@@ -17,7 +17,7 @@ usual5 Jackson/George/Kawhi/Morris/Zubac. Jackson28/George34/Kawhi34/Morris28/Zu
 
 S2선택W4/W5/W7의19경기 Kawhi36분가용prior를보존하며이번두날짜가상operational가용을별도선택. 실제JuneACL/Georgeelbow/Ibakaback/원2022전체부재를상속하지않으며원역사부상사실을삭제하지않는다. 모든oldGamma·미서명·FAhold·TPE·camp/dead/stretch/incomplete비용함수는남는다. 새hardcaptrigger없음, 원2020hardcap은2021새capyear에자동소급0.
 
-원Bledsoe/MEM/MIN·IbakaMIL·Powell/CovingtonLAC·WinslowPOR·Grimes/Prestontrade자동복사0. 단일March25EB/BPM·홈2·연전.5, score/OTnull. Mar31원역사OT1은별도관측이고우리48분regulation결과에자동추가하지않는다.
+승인T4 PowellTOR/HoodPOR를 원권위로 직접 확인한다. 원Bledsoe/MEM/MIN·IbakaMIL·Powell/CovingtonLAC·WinslowPOR·Grimes/Prestontrade자동복사0. 단일March25EB/BPM·홈2·연전.5, score/OTnull. Mar31원역사OT1은별도관측이고우리48분regulation결과에자동추가하지않는다.
 
 ## 7행 진행
 

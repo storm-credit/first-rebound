@@ -1,0 +1,42 @@
+{
+  "id": "CHI82_THIRTYTWO_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_CURRENT_SELECTED_32_OF_82_JOIN_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "9e6d8ff9d2fa4d0b635ed277788d8c585cc7527479178687a04e85c10f961038",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "c6cef88eccaad59fea1b5ae46b4b00c92a4a6123401d656df41ce78d9b2c27e9",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "fc87e38f8ee88342516b3ec1e0161f43685eb69048e0bdacbee3341e90a52735"
+  },
+  "independent_checks": [
+    {
+      "check": "calendar and health",
+      "result": "Current 82 rows exactly retain original handoff game_id/date/home/away/selected_CHI_state in order."
+    },
+    {
+      "check": "group outcomes and pointers",
+      "result": "Original DET2 plus current TOR4/NOP1/NYK4/UTA1/BOS3/PHI4/BKN3/DAL2/GSW2/LAC2/LAL2/POR2 yield 32 unique physical game keys; every saved winner and source/review pointer equals its current group result. LAC uses corrected T4 source and new correction peer; old LAC full review remains historical."
+    },
+    {
+      "check": "counts/complement",
+      "result": "CHI16/opponent16; remaining50 exactly complement the 32 selected keys; next DEN 0022100236 on 2021-11-19. All 82 score/OT null and actual medical/private/game receipt false."
+    },
+    {
+      "check": "LAC outcome preservation",
+      "result": "Corrected LAC source changed T4 owner statement/pin only; its two game winners and margins remain those accepted in prior review; 30-to-32 increment is POR2."
+    },
+    {
+      "check": "currentness",
+      "result": "Saved --check PASS."
+    }
+  ],
+  "independent_negative_control": {
+    "mutation": "returned POR first selected winner switched to POR without changing physical source JSON",
+    "result": "REJECTED Returned input differs from physical source: simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "history_preserved": "Prior 30-result peer remains tied to immutable main 8b8e451fd4d30804bb27f4ae820953be84ddbb6a.",
+  "scope_limits": [
+    "32 fictional regulation results only; no scores/OT/full82 standings/draft pick.",
+    "No private, medical, actual played-game, whole macro or manuscript certification."
+  ]
+}
