@@ -49,3 +49,7 @@
 ## Caruso·두 신인·정보11 수용 이후
 
 PR506 다음 [현행 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADOPTION_2026_10_08.md)를 따른다. 선택 Caruso C25B와 두 적법 조건부 신인 통지는 독립 검문 완료다. [정보11 수용 링크](G13_NULL_INFORMATION_BOUNDARY_ACCEPTED_INPUT_2026_10_08.json)는 사전 정보 준비이며 개인 narrative HOLD·원null·Pack0을 유지한다. 완료한 비교/검문을 반복하지 않는다. 다음은 **Duarte RFA1 + 만료 minimum5 =6개 입력**, 원Gamma/unsignedrights/비용6종의 유한 FY25 결합이다. 작성자의 원문 준비와 독립 검문자가 완료하면 followup_task로 다음 소비자 검문을 바로 시작한다. 장기 주요 좌표에 의존하는 승격만 HOLD. Goal ACTIVE·일정0·CLOSED.
+
+## FY25 명명15 계약 입력 이후
+
+[현행 인계](../reviews/FY25_NAMED15_AND_RENEWAL_CONTINUATION_ADOPTION_2026_10_08.md)를 따른다. 원입력의 남은갱신6(Duarte1+minimum5)은 선택·독립검문 완료이며 [carry5](../research/CHICAGO_2025_FIVE_LIVE_CARRY_INPUT_PACKET_2026_10_08.json)와 [동일날짜15명](../simulation/CHICAGO_2025_NAMED15_CONTRACT_JOIN_2026_10_08.json)으로 연결했다. 원후보·과거9/남은6 표시는 생성 이력이다. 다음은 FY26 **만료/RFA·PO·신인 통지**의 명명 입력과 공식 cap/CBA 원문 판정, 후속 역할·원유한 Act 출구다. 실제receipt/임상/원Gamma정확값/전체시즌을 로컬계약 종료의새게이트로 추가하지 않는다. 중요 장기좌표 승격만 HOLD·개별POV/Pack0·CLOSED·Goal ACTIVE·일정0.

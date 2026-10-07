@@ -1,0 +1,543 @@
+{
+  "id": "CHICAGO_2025_DUARTE_RFA_RENEWAL_PACKET_2026_10_08",
+  "status": "CANDIDATE_FINITE_LEGAL_COMPARISON_REVIEW_PENDING_NOT_SELECTED",
+  "baseline_main": "6f769cfb8ed5274f14cdd2a22d4d1dbabf95ce47",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json": "11140e49baa665f18e267fa6419efa238302250b724fa51cfd3262b010b4a312",
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json": "e7d0f4b15bc06c7cd16a38d158b38a78871fb7372d412639e33bb20c31d225a7",
+    "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json": "9a4f6db21d6ad50e2c6d6897f1c2dedbdf440cee89bae47019f4bd131f341790",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "research/CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json": "f728fc6b7891422c0ce204bf61aa60a8fa7c21331bd4ade904017b78a057b006",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07"
+  },
+  "hash_convention": "Repository normalized LF UTF8 withoutBOM; externalraw byteSHA",
+  "source_locators": [
+    {
+      "path": "simulation/CHICAGO_2021_APPROVED_A_DRAFT_SIGNING_EXECUTION.json",
+      "pointer": "/draft_rows/9",
+      "claim": "CounterfactualChicago2021pick10"
+    },
+    {
+      "path": "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json",
+      "pointer": "/routine_implementation/new_contracts/Chris Duarte",
+      "claim": "4373040 ceiling/newbonusadditions0 workingproposal"
+    },
+    {
+      "path": "simulation/CHICAGO_2022_CORE_RETENTION_SELECTED_FAMILY.json",
+      "pointer": "/selected_contracts/4/source_row",
+      "claim": "2022 Year2 4591680"
+    },
+    {
+      "path": "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json",
+      "pointer": "/named_contracts_and_rights/4",
+      "claim": "2023 Year3 4810200"
+    },
+    {
+      "path": "simulation/CHICAGO_2023_SELECTED_ROUTINE_EXECUTION.json",
+      "pointer": "/selected_FY24_option_notices/0",
+      "claim": "Oct1,2023 notice→FY24 6133005"
+    },
+    {
+      "path": "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json",
+      "pointer": "/execution/live10/6",
+      "claim": "Last exercised2024salary capyear"
+    },
+    {
+      "path": "research/CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json",
+      "pointer": "/expired_rights_ports/1",
+      "claim": "DuarteRFA2025typedexpiry"
+    },
+    {
+      "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+      "pointer": "/",
+      "claim": "SelectedMarkM25B retainedcontext, nootherpriceadoption"
+    }
+  ],
+  "approved_direction": "Developmentgrowthcore sameChicago retained; proposedprice/QO/OfferSheet/ROFR unselected.",
+  "prior_contract": {
+    "pick": 10,
+    "model_RSC_signing": "2021-08-06",
+    "salary_capyears": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "regular_schedule": [
+      4373040,
+      4591680,
+      4810200,
+      6133005
+    ],
+    "last_fiscal_end": "2025-06-30",
+    "exact_service_expiry": null,
+    "original_Gamma_preserved": true,
+    "actual_IND13_or_historical_salary_copied": false
+  },
+  "primary": {
+    "reused_raw_sources": [
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+        "sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+        "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+        "source_kind": "OFFICIAL_NBPA_PDF_REUSED",
+        "id": "CBA2023",
+        "bytes": 2850534,
+        "adopted_body": true
+      },
+      {
+        "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-markkanen-2025-renewal-20261008\\NBA_CAP2025.html",
+        "sha256": "8b20484615b529dbcb0b6e6ba3f08997db4b2cdd259d8ffb4d9ed44f75320988",
+        "url": "https://pr.nba.com/nba-salary-cap-2025-26-season/",
+        "source_kind": "OFFICIAL_DIRECT_PROVIDER_RAW_HTTP200",
+        "id": "NBA_CAP2025",
+        "bytes": 109914,
+        "adopted_body": true
+      },
+      {
+        "id": "CBA2017",
+        "path": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-cba-matching-2026-10-04/2017_NBA_CBA.pdf",
+        "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+        "sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+        "adopted_body": true
+      }
+    ],
+    "CBA2023_page_text_SHA": {
+      "29": "51adc90d5cf76f61c80346ee0d8275f53870b0af2e622d43d8e18e96f1b8768f",
+      "30": "fb8a5f15dd0c766cdb373c0535a71ea36d4ed96a46106a36a6774dc28742a429",
+      "31": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52",
+      "37": "b6bb7c88266158f4be0c1118ce0523057218d1f5c0422304f404fe3df61adfcd",
+      "40": "0b9cb0202700be2519404170ab0b4287b534fa2b2e6350cc012a4011d3ebcb7a",
+      "47": "64c29e97826b68ae5d1c991ed21a989d896b8ad7c6a6d11cb16332f52118e1b7",
+      "50": "d2d3053300a4ca707b05b18429e006683fb1f87943b72d934bffec2b3fb3345b",
+      "57": "ffac47dda5504cb4f3055fbf983e08e59255ece054c36c8507b497066e226dd0",
+      "58": "baeea9999ef9d320408ad5714b7c743944ddaaac84eb7f0f8dd191cd6be87921",
+      "60": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b",
+      "210": "51ee1bb8eb26216488f7dd4ef8a82edde1a0b89df4ae4850e16454b200de8715",
+      "211": "75790dcb58ccfe4b37e2fa83b35690e50c643c084d6d55e1e359dedfc2295c03",
+      "214": "e6c0b186ade730ba06c28f93dd80af284601bcbc091601fd4641b35729693a57",
+      "215": "446ea99ef827b851e3fde4138921d15a07f3a8d78f4fb8903fdf4fa03f14dd13",
+      "240": "1712263b1347992499d49e999935d6eb6dee0dd493850ff7f1f08284f7d04862",
+      "241": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9",
+      "242": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b",
+      "243": "dbbd018d9ac268a74a2783409b3dbd6c67f4e2bd433c75fe6d61b61f9bb56238",
+      "251": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1",
+      "254": "232e7ea17ba657d9a66a3f936939bc97be6b714ab9f026605206ac2b741d378f",
+      "255": "1d13b211bee94e0c95de5faaa63b5754c7470d9e8ff520043d8ee4f651f59620",
+      "319": "6640ea05858483ed302458cb0db48a3ba5bdcd4bda4a75ded8b34212bceabeac",
+      "336": "41d3882731c4beed1cad4a801f6f1a9078c4cb303087c02cd7716b56e34db634",
+      "337": "7186830add09296468128f022c144221ef5d1bee7d6de78ca981f1c031a9ecd3",
+      "338": "f5268f3bd0bb72deef46ff513f7f1a78f092237e2ed3a87ca7798ffdcd736c0d",
+      "339": "364f09cdd159489c545270532569826715384b7d674590d7dbee2e6669a1ce01",
+      "340": "df7960edbe2c91bd7aaf854d41f1a65a63ff8ee49c06c2bd6b454a2b7161154b",
+      "341": "0ee46299a9163e16719c61ed3151535e8202623913679438dca4eae1136cad67",
+      "342": "6b4b6d20bc58f458dce0df19b28255779719e8717cb7ec60492e4a0b0e1bbf8c",
+      "343": "4e9e3d70f8098c531813df6e6d43e0cd9a7fa5aa628d353f5cee70ac3238c098",
+      "344": "b09429bbf425b60e4e78eb7ce9c60a37d5f48862793595be83d9a8e8e2211d31",
+      "345": "aef9ef0640f730c853076b9553779e3e2c6a3b6050df362ed0ccc493c32c4588",
+      "346": "a594b64d15709749be46deee65703da8a70b18cc6dfd6f62546104f1edb7c304",
+      "632": "165c16335e87e8a9ab8e07b79f8c179da5f679cc556a9ac4b44dd53ee462d70b"
+    },
+    "CBA2017_page_text_SHA": {
+      "31": "d157a3547a4a9b336ce312fe2159e06efe4f46c61050cdb1d324082b4c6a8ecd",
+      "558": "65a57c3be731ed320bb1f2461a3c191cbeb7c02fcfa310a0925d85f3290a1557"
+    },
+    "new_direct_RFA_pages": [
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346
+    ],
+    "otherpages_reused_prior_actual_direct_reads": true,
+    "new_download_count": 0,
+    "unadopted_cache_failure": "PriorORL NBA2020CBA101 cache FileDataError, noobjectsfound; not adopted/repeateddownload.",
+    "identity_observation": {
+      "url": "https://www.nba.com/player/1630537/chris-duarte",
+      "actual_body_read": true,
+      "birthdate": "1997-06-13",
+      "scope": "Birthdateonly; currentIND13/3YOS/box/waiver/health notcopied",
+      "provider_full_HTML_raw_certified": false
+    }
+  },
+  "official_2025": {
+    "cap": 154647000,
+    "tax": 187895000,
+    "first_apron": 195945000,
+    "second_apron": 207824000,
+    "published_minimum_team_salary": 139182000,
+    "NTMLE": 14104000,
+    "TMLE": 5685000,
+    "RoomMLE": 8781000
+  },
+  "admitted_service_family": {
+    "creditedYOS": 4,
+    "seasons": [
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "condition": "I1(iiii): at leastone qualifyingActive/Inactive RegularSeasonday each; no disapprovedUPC,>30dayservicewithholding or extendedQOunsigned exception. Fictionalservicefamily, notprivateclinical/statcert.",
+    "Bird_preceding_seasons": [
+      "2022-23",
+      "2023-24",
+      "2024-25"
+    ],
+    "sameChicago_validservice_unrenounced": true,
+    "other_operative_STD_max_at_signing": 14,
+    "new_STD": 1,
+    "new_TW": 0
+  },
+  "QO_and_ROFR_family": {
+    "applicable_scale": "2021-22 signing-year Rookie Salary Scale; XI1(e)(ii) uses the scale applicable to this RSC, not2023 newrookie scale.",
+    "primary_percent_basis": "2017CBA I1(hhh)/(iii) PDF31 and ExB1 PDF558: percentages remain for each applicable original scale.",
+    "percentages": {
+      "pick10_fourth_year": 27.5,
+      "pick10_QO": 36.2,
+      "pick9_fourth_year": 27.4,
+      "pick9_QO": 35.5,
+      "pick15_fourth_year": 53.3,
+      "pick15_QO": 39.8
+    },
+    "2023_pick10_new_QO46_2_percent_copied": false,
+    "starter_predicate": "(GS23+GS24)/2>=41 OR (MIN23+MIN24)/2>=2000 OR GS24>=41 OR MIN24>=2000; RegularSeason official/selected statistics, GP alone notcriterion.",
+    "stat_ports": {
+      "GP23": null,
+      "GS23": null,
+      "MIN23": null,
+      "GP24": null,
+      "GS24": null,
+      "MIN24": null
+    },
+    "starter_selected": null,
+    "X24_Gamma": "(Salary excluding Incentive, Likely, Unlikely) of original fourthyear. Preserve admitted components; no blanket privatebonus0 certification.",
+    "own_reference_package": {
+      "Salary_excluding_Incentive": "835315281/100",
+      "Likely": 0,
+      "Unlikely": 0,
+      "scope": "Original modeled no-new-bonus reference only, not final both-branch QO/exactactualcents."
+    },
+    "positive_scale_ports": {
+      "S21_9_Year3": null,
+      "S21_15_Year3": null
+    },
+    "numeric_port_disposition": "Primary2021 comparator dollars9/15 not recovered by finitelookup. Positive applicable legal-scale functions, not0 or2023dollars; issuance refinement only, not full82/private gate to define Birdproposals.",
+    "branches": [
+      {
+        "starter": true,
+        "package": "(6/5*S21_9_Year3*637/500*271/200,0,0)",
+        "scope": "Pick10 outsidefirst9: ninth120% Base-only REPLACES own10, not max(own,ninth)."
+      },
+      {
+        "starter": false,
+        "package": "lesser_of_complete_packages(681/500*X24_Gamma,(6/5*S21_15_Year3*1533/1000*699/500,0,0))",
+        "scope": "Pick10 in1..14: lesser-of package, not fabricated elementwise minimum UPC."
+      }
+    ],
+    "law_form": "XI1(e) PDF336,340-341: team-signed one-year UPC, valid personal/email-with-NBPA-copy/permittedmail delivery,100%skill/injury Base protection/Paragraph3payment, other unchanged allowable prior terms.",
+    "issue_window": "XI4(a)(i) PDF342: day following final secondOptionSeason through2025June29 17:00ET; actual finalservicecompletion required, fiscalJune30 notexactserviceend.",
+    "candidate_issue_ET": "2025-06-29T16:00:00 if finalSeason completed earlier; not selected/deliveredactual.",
+    "acceptance": "June QO may be accepted from receipt under VII5(e)(4)(i)/PDF254 exception, separate from moratorium-limited newBird signing.",
+    "QO_acceptance_end": "2025-10-01 default openperiod; nowithdrawal/extension selected. Periodexpiry does not delete ordinaryFAhold/ROFR. XI4(c)/5(a) nextJune timely newQO conditional, notforeverautomatic.",
+    "no_timely_QO": "UFA July1 underXI4(a); ownBird is not erased merely by noQO. No realnotice absence certification.",
+    "Maximum_QO_selected": false,
+    "OfferSheet_selected": false,
+    "FirstRefusal_exercise_selected": false,
+    "actual_issue": null,
+    "actual_offer_sheet_or_acceptance": null,
+    "ROFR_exists_only_with_valid_timely_QO": true,
+    "Arenas_1_2YOS_rule_used": false
+  },
+  "price_law": {
+    "first_max": "max(25%*C25,105%*II7 priorSalary_Gamma), SalaryplusUnlikely, II7(a)(i)/PDF60",
+    "ordinary_cap_max_reference": 38661750,
+    "prior105pct_reference_fraction": "25758621/4",
+    "HigherMax": "FourYOS+lawfulawardcriteria may allow30%fromPriorTeam; predicate/award/price unselected, unnecessary for these below25%forms.",
+    "ownBird_term_max": 5,
+    "annualchange": "8%FIRST Salary/RegularSalary, linear notcompound VII5(a)(2)/PDF251",
+    "minimum": "2025signing-year M25(4YOS,contractYear_j), notnewsigningminimum eachlateryear; operativeexactlawfultablecondition remains.",
+    "ExCbaseline_YOS4": [
+      1968175,
+      2066585,
+      2164993,
+      2263403
+    ],
+    "unrounded_minimum_proxy": [
+      "60874471845/24731",
+      "63918234099/24731",
+      "334809672471/123655",
+      "350028483741/123655"
+    ],
+    "ceil_plus2_screen": [
+      2461467,
+      2584542,
+      2707614,
+      2830689
+    ],
+    "exact_published_adjusted_scale_or_rounding_certified": false,
+    "all_three_forms_above_min_proxy": true,
+    "over38": "Lastcandidatefiscal2029June30 before38thbirthday2035June13; noOver38deferredallocation intheseforms.",
+    "newbonus0_is_proposal_not_private_Gamma_absence": true
+  },
+  "candidates": [
+    {
+      "id": "D25A",
+      "classification": "CANDIDATE_CONSENSUAL_SAME_CHICAGO_BIRD_NEW_UPC",
+      "salary_capyears": [
+        2025,
+        2026,
+        2027
+      ],
+      "regular_salary_schedule": [
+        12000000,
+        12000000,
+        12000000
+      ],
+      "total_regular_salary": 36000000,
+      "annual_change_is_first_salary_linear": true,
+      "raises_compounded": false,
+      "protection": "100% Base Compensation for lack of skill and injury/illness with standard II4/Ex2 conditions, no negotiated extra limitations; not all-cause employment immunity",
+      "new_signing_performance_trade_promotional_loan_or_buyout_bonus_additions": 0,
+      "options": null,
+      "ETO": null,
+      "explanation": "권고: 개발 코어 연속성을 유지하고4년안보다 총노출을 낮춤",
+      "selected": false,
+      "actual_acceptance": null
+    },
+    {
+      "id": "D25B",
+      "classification": "CANDIDATE_CONSENSUAL_SAME_CHICAGO_BIRD_NEW_UPC",
+      "salary_capyears": [
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "regular_salary_schedule": [
+        15000000,
+        16200000,
+        17400000,
+        18600000
+      ],
+      "total_regular_salary": 67200000,
+      "annual_change_is_first_salary_linear": true,
+      "raises_compounded": false,
+      "protection": "100% Base Compensation for lack of skill and injury/illness with standard II4/Ex2 conditions, no negotiated extra limitations; not all-cause employment immunity",
+      "new_signing_performance_trade_promotional_loan_or_buyout_bonus_additions": 0,
+      "options": null,
+      "ETO": null,
+      "explanation": "개발 평가가 더 높은4년 노출 후보; 실제 성공/수상 선지급0",
+      "selected": false,
+      "actual_acceptance": null
+    },
+    {
+      "id": "D25C",
+      "classification": "CANDIDATE_CONSENSUAL_SAME_CHICAGO_BIRD_NEW_UPC",
+      "salary_capyears": [
+        2025,
+        2026
+      ],
+      "regular_salary_schedule": [
+        10000000,
+        10000000
+      ],
+      "total_regular_salary": 20000000,
+      "annual_change_is_first_salary_linear": true,
+      "raises_compounded": false,
+      "protection": "100% Base Compensation for lack of skill and injury/illness with standard II4/Ex2 conditions, no negotiated extra limitations; not all-cause employment immunity",
+      "new_signing_performance_trade_promotional_loan_or_buyout_bonus_additions": 0,
+      "options": null,
+      "ETO": null,
+      "explanation": "낮은2년노출/이른 후속 협상; 할인 수락 미인증",
+      "selected": false,
+      "actual_acceptance": null
+    }
+  ],
+  "recommended_candidate": "D25A",
+  "recommendation_selected": false,
+  "economic_disposition": "D25A $12m*3 balancedcontinuouscoreproposal; D25B moredevelopmentvaluation/longerexposure; D25C lower/shortersensitivity. Legalform notrealmarketacceptance; noassertedstarresults/newexternaloffers/discountconsent.",
+  "candidate_dates": [
+    {
+      "date": "2025-07-01",
+      "state": "CompletedRSC→RFAifvalidtimelyQOelseUFA; Bird/FAholdkept, oldUPCSTD0."
+    },
+    {
+      "candidate_ET": "2025-07-07T12:02:00",
+      "newBird_allowed_after_ET": "2025-07-06T12:01:00",
+      "state": "IfadoptedvalidconsensualBirdUPC replaces ownhold/QO once, originalGamma preserved, newSTD1."
+    },
+    {
+      "date": "2025-10-01",
+      "state": "UnacceptedQO defaultperiodend, noautodeletionFAhold/ROFR; noextension/withdrawalselected."
+    }
+  ],
+  "hold_and_cost": {
+    "priorSalary_Gamma": "VII4(d)(8) regular+signingallocation+actuallyearnedIncentive; reference isnotprivateallabsence.",
+    "normal_H": "Clip250%P24 if>=EstimatedAverage24 else300%P24 betweenlawfloor/max; secondRSCoption VII4(d)(1)(ii)/(5), not150/190.",
+    "reference_holds": [
+      {
+        "prior_ge_average": true,
+        "normal_fraction": "30665025/2",
+        "apron_ordinaryFAface": 0
+      },
+      {
+        "prior_ge_average": false,
+        "normal_fraction": "18399015",
+        "apron_ordinaryFAface": 0
+      }
+    ],
+    "EstimatedAverage24": null,
+    "average_branch_selected": null,
+    "reference_transitions": [
+      {
+        "route": "D25A",
+        "prior_ge_estimated_average": true,
+        "FA_reference_fraction": "30665025/2",
+        "new_regular_salary": 12000000,
+        "normal_delta_fraction": "-6665025/2",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      },
+      {
+        "route": "D25A",
+        "prior_ge_estimated_average": false,
+        "FA_reference_fraction": "18399015",
+        "new_regular_salary": 12000000,
+        "normal_delta_fraction": "-6399015",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      },
+      {
+        "route": "D25B",
+        "prior_ge_estimated_average": true,
+        "FA_reference_fraction": "30665025/2",
+        "new_regular_salary": 15000000,
+        "normal_delta_fraction": "-665025/2",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      },
+      {
+        "route": "D25B",
+        "prior_ge_estimated_average": false,
+        "FA_reference_fraction": "18399015",
+        "new_regular_salary": 15000000,
+        "normal_delta_fraction": "-3399015",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      },
+      {
+        "route": "D25C",
+        "prior_ge_estimated_average": true,
+        "FA_reference_fraction": "30665025/2",
+        "new_regular_salary": 10000000,
+        "normal_delta_fraction": "-10665025/2",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      },
+      {
+        "route": "D25C",
+        "prior_ge_estimated_average": false,
+        "FA_reference_fraction": "18399015",
+        "new_regular_salary": 10000000,
+        "normal_delta_fraction": "-8399015",
+        "apron_delta": "newfirstSalary - validoutstandingQO Salary+Unlikely / applicableFRNcharge",
+        "hold_replaced_once": true
+      }
+    ],
+    "six_categories": [
+      {
+        "id": "LIVE25",
+        "normal": "L25_excluding_Duarte + F(route) + applicableallocations",
+        "apron": "A_live25_excluding_Duarte + F(route) + applicableallocations",
+        "scope": "OtherselectedUPCs once, MarkM25B unchanged; oldDuarte6.133005m not freshFY25 salary; no parallel minimumUPC."
+      },
+      {
+        "id": "OLD_GAMMA25",
+        "normal": "R25_normal_preserved",
+        "apron": "R25_apron_preserved",
+        "scope": "Named protected/waiver/grievance/accrued original allocations kept in correctyears. No originalGamma deletion or automaticR24ceiling inheritance; payment delay not inherently newSalary."
+      },
+      {
+        "id": "FA_QO_FRN25",
+        "normal": "OtherFA25 + max(H_Duarte(P24_Gamma),validoutstandingQO Salary,validMaximumQO Salary,validFRN Salary)",
+        "apron": "OtherapplicableQO_FRN25 + validDuarteoutstandingQO Salary+Unlikely / lawFRNadjustments; ordinaryFAface excluded",
+        "scope": "Atvalidsame-teamUPC sameownhold/QOcharge replacedONCE. MaxQO/OfferSheet/FRN events unselected, not privateabsencefact."
+      },
+      {
+        "id": "DRAFT25",
+        "normal": "N25 + applicableownedunsignedrights",
+        "apron": "A25 + applicableRTadjustments",
+        "scope": "Newrookiecash/rights positive typed, unknownnot0. NewSTD fits otheroperativeSTD<=14."
+      },
+      {
+        "id": "EXCEPTIONS25",
+        "normal": "E25 included until lawfuluse/expiry/validrenounce",
+        "apron": "Unusedexceptionface excluded; signedSalary retained",
+        "scope": "OwnBird spendsnoMLE and alone triggersnoapronhardcap; othertriggers remain."
+      },
+      {
+        "id": "ROSTER_FLOOR_TAX_CASH25",
+        "normal": "Applicable incomplete/MTS/deemedSalary",
+        "apron": "Law-specific adjustments",
+        "scope": "NewSTD1/TW0, minregistered/active separate. FAhold notcash orregisteredslot; tax/fullcash null. Negativeapron screen not automaticunlawfulBird."
+      }
+    ],
+    "typed_other_inputs": {
+      "L25_excluding_Duarte": null,
+      "A_live25_excluding_Duarte": null,
+      "R25_normal": null,
+      "R25_apron": null,
+      "OtherFA25": null,
+      "OtherQO_FRN25": null,
+      "N25": null,
+      "A25": null,
+      "E25": null,
+      "I25": null,
+      "MTS": null,
+      "total_tax": null,
+      "fullcash": null,
+      "wholeFY25normalupper": null,
+      "wholeFY25apronupper": null
+    }
+  },
+  "verification": {
+    "source7_current": true,
+    "raw3_SHA_checked": true,
+    "schedule_totals": [
+      36000000,
+      67200000,
+      20000000
+    ],
+    "min_max_term_linear_8percent_checks": true,
+    "two_QO_cases_symbolic_not_stats_selected": true,
+    "six_reference_hold_transitions_recomputed": true,
+    "primary_2021_comparator_dollar_rows_recovered": false,
+    "static_constructor_tests": 0,
+    "writer_checks_as_independent": 0,
+    "independent_review_completed": false
+  },
+  "finite_exit": {
+    "lawful_routine_comparison_ready": true,
+    "next": "Independentpeer thenroot price/QOdesignselection; positiveS21comparators refineissuance only, nofull82/privategate.",
+    "actual_QO_issue": null,
+    "actual_offer_sheet": null,
+    "actual_ROFR_exercise": null,
+    "actual_UPC_acceptance": null,
+    "author_price_selection": null,
+    "wholeFY25cost_certified": false,
+    "wholecareer_or_award_result": false,
+    "Pack_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "unfinished_groups": 4,
+    "unfinished_through6": 3
+  }
+}
