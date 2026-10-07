@@ -1,0 +1,47 @@
+{
+  "id": "DET2_SELECTED_BPM_ROOT_INDEPENDENT_REVIEW",
+  "reviewer": "root distinct from den writer",
+  "input_normalized_sha256": {
+    "tools/build_chicago_detroit_2021_two_date_selected_bpm_results.py": "ebe05a0c9b886cee62cf00c82ba0c69b72778e24ca621d1028f3e58544524e6e",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json": "66c1c862a179648aa72dd81ff13a07345b36889043995ecb583ae57019618c80",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.md": "c293931bfae898cf0b5b073706aa68ecff71a3cd1240b777e7de9bc63e98de77"
+  },
+  "direct_named_ratings": 21,
+  "direct_games": [
+    {
+      "game_id": "0022100004",
+      "direct_rebuilt_margin": "363024901322251919620688892177228135685432426703/88358901126494574430588047948006426271128493440",
+      "margin_float": 4.108526664478835,
+      "winner": "CHI"
+    },
+    {
+      "game_id": "0022100030",
+      "direct_rebuilt_margin": "672281055264982930127747059995250627634382153743/88358901126494574430588047948006426271128493440",
+      "margin_float": 7.608526664478835,
+      "winner": "CHI"
+    }
+  ],
+  "working_novice_rating_exact": "-728/1145",
+  "returned_counterexamples": [
+    {
+      "mutation": "BPM observed_through2021Nov1 samepinnedsource",
+      "result": "REJECT",
+      "guard": "Returned source differs from physical field binding: simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv"
+    },
+    {
+      "mutation": "selected_game unselectedOT true",
+      "result": "REJECT",
+      "guard": "Returned selected result differs from source clock/rating/calendar"
+    }
+  ],
+  "selected_productivity_and_result_scope": "Delegated fictional two-game regulation model only. Not calibratedscore, award, actualmedical, whole82, standings or2022pick. Priors are preopening observations used as fictional proxies; ±home/0.5fatigue/P+0.7 explicitlyfictional assumptions.",
+  "accepted_two_model_winners": [
+    "CHI",
+    "CHI"
+  ],
+  "whole_macro3_or_G16_certified": false,
+  "frozen_generation_pending_superseded_within_this_scope": true,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}

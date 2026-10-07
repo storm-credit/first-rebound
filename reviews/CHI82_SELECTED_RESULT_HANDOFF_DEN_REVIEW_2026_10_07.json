@@ -1,0 +1,31 @@
+{
+  "id": "CHI82_SELECTED_RESULT_HANDOFF_DEN_REVIEW_2026_10_07",
+  "verdict": "ACCEPT_TWO_SELECTED_REGULATION_RESULTS_AND_T1_PRECURSOR_FLAG_HANDOFF",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_result_handoff.py": "6e324187df50810f38355eafdc3da534b775f9a15371ac86b12a6d65779b9ec2",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.json": "5a6da17a8d98d0fd991a0f9286380b71dbc1c6a3ae714a7f66ce58b51379ff74",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.md": "ba377c5e501c3523ff78247d5c49fac1961a7e1d4468f01e403d5a92d1f6a739",
+    "simulation/CHICAGO_2021_22_CURRENT_OPPONENT_EXECUTION_INDEX.json": "6f232ef81c0e3be5d84e8dba5b9fe68b08dc55b00a743b7c8ab4ebf53a00cfa3",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json": "66c1c862a179648aa72dd81ff13a07345b36889043995ecb583ae57019618c80",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183"
+  },
+  "direct_checks": {
+    "calendar82_exact_identity_order": true,
+    "two_selected_winners_exact_from_source": true,
+    "remaining80_next_NOP0022100022": true,
+    "T1_sixty_unique_legal_candidate_participants_no_UPC_or_Tender": true,
+    "BOS_OKC_HOU_only_precursor_resolution": true,
+    "actual_receipt_certificate_false_all82": true,
+    "full_season_result_certified": false
+  },
+  "actual_independent_returned_loader_mutation": {
+    "label": "DET_WINNER_CHI_TO_DET_WITH_UNCHANGED_PHYSICAL_SOURCE",
+    "result": "REJECT",
+    "message": "Loader differs from physical source: simulation/CHICAGO_DETROIT_2021_TWO_DATE_SELECTED_BPM_RESULTS.json"
+  },
+  "ancestor_constructors_run": 0,
+  "external_tools_run": 0,
+  "owner_files_changed": 0,
+  "limits": "Does not independently certify the ancestor cost/calibration family or other80 results. Preserves source selection versus historical receipt distinction."
+}
