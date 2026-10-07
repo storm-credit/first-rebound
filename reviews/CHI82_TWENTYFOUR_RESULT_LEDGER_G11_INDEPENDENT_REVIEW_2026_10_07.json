@@ -1,0 +1,78 @@
+{
+  "id": "CHI82_TWENTYFOUR_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "reviewed_artifact": "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "7799b6386d817308a74ad79499c21b14e408af1b6bbab133b90bee8e13a09cd0",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "8f29bd7dae2c0e6328d5e2b831de4b52968c911a14c8d58062185c6909a5ecd1",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "5df2c4660fd638dc457934fcf2a7171da830000f589b357cbd5832a49115abab"
+  },
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_NARROW_24_OF_82_SELECTED_REGULATION_RESULT_LEDGER",
+  "direct_join": {
+    "group_counts": {
+      "DET": 2,
+      "NOP": 1,
+      "TOR": 4,
+      "NYK": 4,
+      "UTA": 1,
+      "BOS": 3,
+      "PHI": 4,
+      "BKN": 3,
+      "DAL": 2
+    },
+    "distinct_selected_keys": 24,
+    "physical_calendar_keys": 82,
+    "selected_CHI_wins": 11,
+    "selected_opponent_wins": 13,
+    "remaining_keys": 58,
+    "next_game_id": "0022100183",
+    "next_date": "2021-11-12"
+  },
+  "direct_checks": [
+    "Each of 82 rows was compared against the physical original calendar and delegated Chicago health date/state. The 24 unique result triples match immutable DET2 plus reviewed NOP/TOR/NYK/UTA/BOS/PHI/BKN/DAL selected source records and review pointers.",
+    "The ordered complement contains 58 null result rows, equal to remaining_game_ids; GSW 0022100183 on Nov12 is first. CHI/opponent winners recompute to 11/13.",
+    "Historical 7/12/15/19/22 review snapshots remain separate immutable main revisions. This review adds only the current 24-result join.",
+    "Returned DAL Jan9 winner DAL→CHI with physical DAL source bytes untouched is rejected."
+  ],
+  "actual_negative_control": {
+    "mutation": "Patch read(DAL selected JSON) returned second-game winner DAL→CHI while file remains unchanged",
+    "result": "REJECTED",
+    "exception": "Returned input differs from physical source: simulation/CHICAGO_DALLAS_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "historical_review_snapshots": [
+    {
+      "path": "reviews/CHI82_SELECTED_RESULTS_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "f4e1ec1ecdf93509e8e7868f800ad04d8aafcafa",
+      "selected_results_at_that_revision": 7
+    },
+    {
+      "path": "reviews/CHI82_TWELVE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "372ea5577230f22ac07d6d5f2a268f883918f837",
+      "selected_results_at_that_revision": 12
+    },
+    {
+      "path": "reviews/CHI82_FIFTEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "759ae823c184e9a48c47435151fe8bd4aa3a1c90",
+      "selected_results_at_that_revision": 15
+    },
+    {
+      "path": "reviews/CHI82_NINETEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "4fa062ddabbe97403700544b87d95bb6f8560e0d",
+      "selected_results_at_that_revision": 19
+    },
+    {
+      "path": "reviews/CHI82_TWENTYTWO_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "309e6560b5c7edb519c30f652989c4d45ff005fc",
+      "selected_results_at_that_revision": 22
+    }
+  ],
+  "boundaries": {
+    "fictional_regulation_result_only": true,
+    "score_overtime_or_final_standings_certified": false,
+    "whole_82_results": false,
+    "private_health_contract_or_game_receipt_certified": false,
+    "whole_macro3_G13_G14_G16_certified": false,
+    "manuscript_allowed": false
+  }
+}
