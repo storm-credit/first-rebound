@@ -1,0 +1,37 @@
+{
+  "schema": "PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_FOUR_SOURCE_BOUND_WORKING_RESULTS_AFTER_NEXT_PORT_REPAIR",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_phi_2021_keeper_and_chicago_selected_results.py": "549a0fa285840b1a377a81228f7511d11fdcca22039e1f9801909452f7b13ccd",
+    "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json": "84b8e1126086dc68da0fec8f4c462dd0a4be74941deacf6ea687c201b0ed1206",
+    "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.md": "6b1a9e36d09bd053bdebd9491531a355173da3653b51f299ce1f8c231dcb7005"
+  },
+  "independent_primary_crosscheck": {
+    "nba_2021_draft_profile": "https://www.nba.com/draft/2021/team-profiles/philadelphia-76ers",
+    "profile_scope": "The 2021 profile distinguishes then-current contracts from the unrestricted free-agent Green, Korkmaz, Scott and Howard paths. Alternate DB1 Springer #28 and Bassey #50 rights remain separate from original Bassey #53 and from a signed NBA UPC.",
+    "danny_green_2019_contract": "https://www.nba.com/news/danny-green-sign-lakers",
+    "danny_green_2021_return": "https://www.nba.com/news/danny-green-re-signs-with-76ers",
+    "furkan_korkmaz_2019_return": "https://www.nba.com/news/furkan-korkmaz-reportedly-returning-76ers",
+    "historical_november_3_game": "https://www.nba.com/game/chi-vs-phi-0022100111",
+    "historical_simmons_incident": "https://www.nba.com/news/ben-simmons-suspended-1-game",
+    "source_vs_fiction": "Original 2021 Simmons holdout and specific Nov 3 absences are historical observations, not copied into the selected alternate. The selected coach, teammate and Simmons role agreement plus four-date working availability is an explicit fictional NPC choice; no mental-health or clinical diagnosis is certified."
+  },
+  "independent_checks": {
+    "contract_family": "Ten continuing contracts, Green two-season Early Bird after a 2019 Lakers contract and trades, Korkmaz two-season full Bird after continuous Philadelphia service and a 2019 non-rookie-scale standard contract, Howard and Scott one-year minimum families, and Springer #28 rookie-scale family yield 15 standard and zero two-way. Actual salary points and private receipts remain null. The old rookie-scale declined-option price limit is not projected onto Korkmaz's 2021 new standard contract.",
+    "registration_and_roles": "Twelve active nominees including zero-minute Springer; eleven positive players. Independently summed the chosen position minutes to Embiid 34, Harris 32, Simmons 32, Curry 30, Green 24, Maxey 22, Milton 18, Thybulle 16, Korkmaz 14, Howard 14 and Scott 4, totaling 240. Each 24 two-minute role block has five distinct players; the four saved paired games have 2,880 elapsed seconds and 14,400 player seconds for each team.",
+    "result_recalculation": "Independently recomputed all four CHI-minus-PHI impacts from the saved exact player-rating fractions, selected player seconds, home effect and fatigue effect; each saved regulation winner follows the sign.",
+    "working_winners": ["PHI", "CHI", "CHI", "PHI"],
+    "source_dated_ids": ["0022100111", "0022100135", "0022100802", "0022100969"],
+    "next_unselected_port": {"game_id": "0022100148", "date": "2021-11-08", "opponent": "BKN"},
+    "saved_current_check": true
+  },
+  "actual_counterexamples": {
+    "first_found": "Before repair, remaining_ports.next_chronological_key named the already selected Nov 6 PHI game 0022100135. The author repaired it by joining the prior 15 and new four unique keys against the physical 82-date calendar; the first remaining key is Nov 8 BKN 0022100148.",
+    "final_returned_mutation": "Changing the returned Korkmaz 2021 price function to claim a perpetual declined rookie-scale ceiling was REJECTED with Returned FAclass/pricefunction altered.",
+    "writer_self_tests_counted_as_independent": false
+  },
+  "scope_limit": "Four selected fictional PHI keeper and regulation-result rows only. No historical 2021-22 score or health, original holdout cause, private contract point, whole Philadelphia cap certificate, remaining opponent outcomes, whole 82-game season or manuscript authorization is certified.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}
