@@ -1,0 +1,75 @@
+{
+  "id": "PROTAGONIST_2022_QO_STARTER_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "scope": "Independent physical Chicago 82-game regular-clock and 2017 CBA starter-criteria join; working-fiction branch only.",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_FICTIONAL_CREDITED_STAT_STARTER_BRANCH_ONLY_AFTER_SOURCE_GUARD_REPAIR",
+  "source_hash_method": "UTF-8 BOM stripped, CRLF/CR normalized to LF, SHA-256",
+  "source_sha256": {
+    "tools/build_protagonist_2022_qo_starter_join.py": "c6d46c817a98e47e4d8fbf98fa8810d73dc6c6422b16a486444f6d50ddd307a1",
+    "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
+    "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.md": "6bb5800aed6deb0dc8f40a95c7875ac389f8ff45cdf3fb01188ae6dfbfc3b5b3"
+  },
+  "five_parent_pins_current": true,
+  "normal_reconstruction": {
+    "saved_validate_errors": [],
+    "fresh_build_equals_saved": true,
+    "markdown_equals_renderer": true
+  },
+  "independent_physical_arithmetic": {
+    "Chicago_games": 82,
+    "health_states": {"NORMAL": 58, "COBY_OUT": 24},
+    "all_Chicago_clock_templates_cover_regulation_0_to_2880_seconds": true,
+    "all_team_date_vectors_match_five_position_block_counts": true,
+    "Protagonist_each_game_seconds": 1920,
+    "Protagonist_total_regular_seconds": 157440,
+    "Protagonist_total_regular_minutes": 2624,
+    "above_fourth_year_2000_minute_threshold": 624,
+    "Coby_model_regular_minutes": 1044
+  },
+  "CBA_direct_source": {
+    "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "physical_cache": "C:/Users/Storm Credit/AppData/Local/Temp/first-rebound-cba-matching-2026-10-04/2017_NBA_CBA.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "PDF_pages_310_311_314_text_sha256_all_current": true,
+    "rule": "Article XI 1(c)(ii)(A): fourth rookie-scale season regular-season minutes at least 2,000 is an independent Starter Criteria alternative; Article XI 1(c)(v): Official NBA statistics determine it.",
+    "application": "The authorized fictional model credits the physically selected regulation minutes to its NBA statistics, with additional credited minutes nonnegative. No exact starts or overtime are needed for this one fictional branch."
+  },
+  "contract_scope": {
+    "Protagonist_original_RSC_cap_year": "2018-19",
+    "fourth_RSC_season": "2021-22",
+    "original_pick_domain": "16-30; exact pick unselected",
+    "starter_QO_component": "Rank-nine 120% base only, no likely or unlikely bonus, across all fifteen pick-domain cases",
+    "rank_nine_rational_legal_input": "19803251559/2500",
+    "conservative_single_component_screen_usd": 7921302,
+    "actual_rounded_USD_contract_amount_certified": false,
+    "selected_working_June29_QO_then_unaccepted_July7_E2_preserved": true,
+    "Carter_CX1_new_QO_added": false,
+    "Coby_2021_22_year": "third RSC year",
+    "Coby_nonstarter_inferred_from_1044_lower_bound": false
+  },
+  "repaired_false_pass_history": [
+    {
+      "mutation": "Returned selected core carrier June 29 action says no protagonist qualifying offer, while physical parent SHA is unchanged",
+      "before_repair": "FALSE_PASS",
+      "after_repair": "REJECTED: Returned source differs from physical frozen input"
+    },
+    {
+      "mutation": "Returned selected core carrier October 1 action changes Coby fourth-year option to third-year option",
+      "before_repair": "FALSE_PASS",
+      "after_repair": "REJECTED: Returned source differs from physical frozen input"
+    }
+  ],
+  "additional_independent_control": {
+    "mutation": "Returned global Chicago date subtracts sixty protagonist seconds without changing the physical source",
+    "result": "REJECTED: Returned source differs from physical frozen input"
+  },
+  "external_blind_feedback_interpretation": "Reading working_starter_branch_closed=true as a real-world NBA official-stat certificate, or reading Coby nonstarter_from_lower_bound_inferred=false as a negative nonstarter finding, conflicts with the explicit fictional classification and actual-certification false fields. These are scope-reading errors, not a legal arithmetic reversal.",
+  "limits": {
+    "real_official_GP_GS_or_credited_total_certified": false,
+    "actual_medical_or_QO_receipt_certified": false,
+    "new_price_or_exact_original_pick_locked": false,
+    "Coby_fourth_year_starter_or_nonstarter_selected": false,
+    "whole_macro3_G13_G14_or_manuscript": false
+  },
+  "files_modified_outside_this_review": false
+}

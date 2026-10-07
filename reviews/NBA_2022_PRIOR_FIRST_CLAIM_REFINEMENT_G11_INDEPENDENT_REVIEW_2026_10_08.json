@@ -1,0 +1,93 @@
+{
+  "id": "NBA_2022_PRIOR_FIRST_CLAIM_REFINEMENT_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "baseline_main": "d74ffd6efcdb18a07285a23ea7a59a014400c32b",
+  "scope": "Four source-supported 2022 prior first-round claim functions across fourteen current rank cells; read-only independent review.",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_CONDITIONAL_CURRENT_RANK_ALLOCATION_FAMILY_ONLY",
+  "source_hash_method": "Repository UTF-8 BOM stripped and CRLF/CR normalized to LF; raw cache bytes hashed without normalization.",
+  "source_sha256": {
+    "tools/build_2022_prior_first_claim_refinement.py": "feb54cbb75a744264a1613d1ea8c42d7f73d3c1a5d5f2be20f46d80023cf0e8a",
+    "research/NBA_2022_PRIOR_FIRST_CLAIM_REFINEMENT_2026_10_08.json": "0af7a125c8441129c0fd6f2aed242109bd2bca72ad44959ca65c2977c18f541b",
+    "research/NBA_2022_PRIOR_FIRST_CLAIM_REFINEMENT_2026_10_08.md": "bf8c1f52fa5b43bec6557aab89204606796cdf4f62f6e195c1f1c5aa5ddcb84e"
+  },
+  "physical_parent_pins_current": true,
+  "normal_reconstruction": {
+    "saved_validate_errors": [],
+    "fresh_build_equals_saved": true,
+    "markdown_equals_renderer": true
+  },
+  "physical_raw_evidence": {
+    "cache_directory": "C:/Users/Storm Credit/AppData/Local/Temp/fr-control2022-20261007",
+    "phoenix_shams_oembed.raw": "9613295bf3b008bd72c6c9583a58ca34155b5970ef1037d140c3521b8d121bd7",
+    "uta_cobb_oembed.raw": "cec1dc92a9e3f48253a0aee6399dc9defed10a9a767b9f67f8b4be9d81056138",
+    "hawks_2020_fact_sheet.pdf": "ef82b33affc3c0243129d40f10c06a95cadd4ae2d6e254094aeb0de82f4e59cf",
+    "hawks_pdf_page_2_text_sha256": "9acbdee26d714d5f736249ee0a1c5c0336646a16064bf885888a66c73e91be81",
+    "interpretation": "The two X oEmbed files preserve original reporter disclosures, not team contracts. The Atlanta team PDF directly states Oklahoma City 2022 top-14 protection and 2024/2025 second-round fallback."
+  },
+  "direct_rank_cell_audit": [
+    {
+      "origin": "PHX",
+      "current_rank_domain": [24, 25, 26, 27],
+      "2022_protection": "1-12",
+      "current_holder_in_all_cells": "OKC",
+      "cell_count": 4
+    },
+    {
+      "origin": "UTA",
+      "current_rank_domain": [29],
+      "prior_original_2020_origin_rank": 23,
+      "prior_selected_2021_origin_rank": 30,
+      "2020_2021_convey_interval": "8-14",
+      "2022_protection": "1-6",
+      "current_holder_in_all_cells": "MEM",
+      "cell_count": 1,
+      "boundary": "The admitted 2020 public exchange includes the Utah-origin 23rd pick before its later Minnesota landing; this is a selected working family, not a new full 2020 origin audit."
+    },
+    {
+      "origin": "OKC",
+      "current_rank_domain": [1, 2, 3, 4, 5],
+      "2022_protection": "1-14",
+      "underlying_holder_in_all_cells": "OKC",
+      "conditional_claim_holder": "ATL",
+      "cell_count": 5
+    },
+    {
+      "origin": "LAL",
+      "current_rank_domain": [24, 25, 26, 27],
+      "selected_2021_origin_rank": 22,
+      "reported_2021_threshold_variants": [7, 8],
+      "2021_nonconvey_under_both_variants": true,
+      "2022_after_nonconvey": "UNPROTECTED_TO_NOP",
+      "current_holder_in_all_cells": "NOP",
+      "cell_count": 4,
+      "boundary": "The conflicting reporter/template 2021 threshold is preserved as unresolved; neither 7 nor 8 changes the modeled rank-22 nonconveyance."
+    }
+  ],
+  "totals": {
+    "named_first_functions": 4,
+    "current_rank_cells": 14,
+    "invariant_current_holder_origins": 4,
+    "exact_2022_rank_or_player_selected": 0
+  },
+  "independent_constructor_controls": [
+    {
+      "mutation": "Replace admitted Utah-origin 2020 rank 23 with 12, which would already convey in the preserved 8-14 prior interval",
+      "result": "REJECTED",
+      "error": "Prior UTA claim already conveyed"
+    },
+    {
+      "mutation": "Replace selected Lakers 2021 origin rank 22 with disputed boundary rank 8 while still claiming variant-independent nonconveyance",
+      "result": "REJECTED",
+      "error": "LAL variant prior branch not invariant"
+    }
+  ],
+  "limitations": {
+    "original_reporter_disclosure_is_private_contract_certificate": false,
+    "2022_lottery_or_tiebreak_draw_selected": false,
+    "future_2023_2027_delivery_or_fallback_selected": false,
+    "other_fifty_six_first_or_second_control_ports_closed": false,
+    "final_sixty_holder_map_certified": false,
+    "whole_macro3_certified": false
+  },
+  "files_modified_outside_this_review": false
+}

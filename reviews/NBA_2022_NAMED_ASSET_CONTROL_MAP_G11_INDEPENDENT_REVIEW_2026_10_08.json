@@ -1,0 +1,65 @@
+{
+  "id": "NBA_2022_NAMED_ASSET_CONTROL_MAP_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "baseline_main": "d74ffd6efcdb18a07285a23ea7a59a014400c32b",
+  "scope": "Independent read-only review of the frozen sixty-origin input map; no final holder, lottery, draft, contract, or discipline selection.",
+  "independent_review_completed": true,
+  "verdict": "ACCEPTED_AS_SOURCE_BOUND_FINITE_CONTROL_INPUT_MAP_ONLY",
+  "source_hash_method": "UTF-8 BOM stripped, CRLF/CR normalized to LF, SHA-256",
+  "source_sha256": {
+    "tools/build_2022_named_asset_control_map.py": "a5f8abe7bf921bf1ae2185842ad93a79c94fc847a7c4943f9235fb5ca2d71fa8",
+    "simulation/NBA_2022_NAMED_ASSET_CONTROL_MAP.json": "ca1be50a889fa8aa1ad47cc696d64c7bfc00cc7ebd77b2bdf9ede815ca88d4f2",
+    "simulation/NBA_2022_NAMED_ASSET_CONTROL_MAP.md": "bea2b144a5912a04599735b6eca0c2d3f382af3b55e7f72880c54d01f7f3a6b6"
+  },
+  "seven_parent_pins_physically_current": true,
+  "normal_reconstruction": {
+    "saved_validate_errors": [],
+    "saved_equals_fresh_build": true,
+    "markdown_equals_renderer": true
+  },
+  "independent_counts": {
+    "distinct_origin_rows": 60,
+    "distinct_origins": 30,
+    "first_round_origins": 30,
+    "second_round_origins": 30,
+    "identity_public_template_candidates": 29,
+    "named_unprotected_prior_first_claims": 2,
+    "selected_CHI_own_first_and_DET_protected_underlying": 2,
+    "remaining_typed_control_ports": 27,
+    "exact_first_ranks_selected": 0,
+    "final_holders_certified": 0
+  },
+  "source_specific_findings": [
+    "The selected standings seed gives CHI own first [17,18] and its linked second [48,47]; the second is one composite claim with CHI/DET/LAL origin domains, not three Chicago picks. The map retains the same domains and reverse tie relation.",
+    "The selected T1 asset ledger puts the protected DET first claim with OKC while the DET underlying 2022 pick remains DET in its modeled rank domain [1,6]; the preserved 2022 protection is 1-16. Conditional future conveyance is not selected.",
+    "BKN first to HOU and LAC first to OKC are named prior claims. MIL first returns to MIL via the March 2021 Tucker event; the January Harden snapshot is not its terminal holder.",
+    "Original missing 2022 second origins are MIL and PHI. The original Chicago and Miami timing penalties apply to each team's next available second; the selected world's cause, receipt, and resulting forfeiture remain unselected. Historical later trades omitted from this world do not move BOS/TOR/NOP/PHI/CLE firsts or BKN/DAL/HOU/MIA/WAS seconds.",
+    "The remaining 27 are finite typed prior-claim, protection, composite-exchange, and sanction-causation inputs. They are not 27 new author approvals or a demand for a complete private asset ledger."
+  ],
+  "public_observation_scope": {
+    "official_original_MIL_penalty_body_directly_read": "https://www.nba.com/news/nba-imposes-penalty-on-bucks-for-early-free-agency-discussions",
+    "official_original_CHI_MIA_penalty_body_directly_read": "https://www.nba.com/news/chicago-bulls-miami-heat-free-agency-violations",
+    "original_2022_order_api_open_result": "HTTP 461 in this review; its existing indexed official observation remains a contrast, not byte-certified source content",
+    "four_direct_HTTP_403_bodies_adopted": false
+  },
+  "independent_constructor_controls": [
+    {
+      "mutation": "Return DET first with current_underlying_pick_retained_by=OKC while keeping the rank domain and conditional claim",
+      "result": "REJECTED",
+      "error": "Returned control port differs from fixed source-supported mapping"
+    },
+    {
+      "mutation": "Return CHI second as THREE_SEPARATE_CHICAGO_PICKS instead of one coupled three-origin claim",
+      "result": "REJECTED",
+      "error": "Returned control port differs from fixed source-supported mapping"
+    }
+  ],
+  "limits": {
+    "historical_holders_automatically_copied": false,
+    "exact_lottery_draw_or_pick_rank_selected": false,
+    "final_60_asset_allocations_certified": false,
+    "new_2022_draftees_or_UPC_or_tender_selected": false,
+    "selected_world_illegal_contact_or_sanction_certified": false,
+    "whole_macro3_certified": false
+  },
+  "files_modified_outside_this_review": false
+}

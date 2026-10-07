@@ -12,3 +12,5 @@
 모델 정규시간 출전 증인은 Protagonist82일/2624분, Coby58일/1044분이다. 이는 selected role clocks만 합산했으며 실제 GP/GS·미선택 OT·전체공식credited totals를 인증하지 않는다. 첫unordered block을 starter로 바꾸지 않는다. CBA starter분기 확정은 이 인계 자체가 하지 않는다.
 
 원Chicago 잔류·단계별 상승·라이벌 관계·승인M1/A·원급여/보호/명단을 변경하지 않았다. 고정평점 기록을 NBA관측/승률예측/MVP/title잠금으로 이월하지 않는다. 향후 실제 ContextPack에는 이 입력과 원canon 및 미완조건을 같이 넘긴다. 실제Pack0·원고0·v0.30 PARTIAL·설계/원고 CLOSED·미완료5/6번까지4.
+
+[별도 주인공2022 QO 연결](../simulation/PROTAGONIST_2022_QO_STARTER_JOIN.md)은 선택된 정규시간을 가상NBA통계에 계상하는 가족 아래4년차2,000분 분기를 닫았다. 실제NBA기록·QO영수증을 인증하지 않으며 Coby2023 starter는 미정이다. 기존E2/CX1·가격/15+2/원비용 불변.
