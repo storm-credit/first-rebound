@@ -53,3 +53,7 @@ PR506 다음 [현행 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADO
 ## FY25 명명15 계약 입력 이후
 
 [현행 인계](../reviews/FY25_NAMED15_AND_RENEWAL_CONTINUATION_ADOPTION_2026_10_08.md)를 따른다. 원입력의 남은갱신6(Duarte1+minimum5)은 선택·독립검문 완료이며 [carry5](../research/CHICAGO_2025_FIVE_LIVE_CARRY_INPUT_PACKET_2026_10_08.json)와 [동일날짜15명](../simulation/CHICAGO_2025_NAMED15_CONTRACT_JOIN_2026_10_08.json)으로 연결했다. 원후보·과거9/남은6 표시는 생성 이력이다. 다음은 FY26 **만료/RFA·PO·신인 통지**의 명명 입력과 공식 cap/CBA 원문 판정, 후속 역할·원유한 Act 출구다. 실제receipt/임상/원Gamma정확값/전체시즌을 로컬계약 종료의새게이트로 추가하지 않는다. 중요 장기좌표 승격만 HOLD·개별POV/Pack0·CLOSED·Goal ACTIVE·일정0.
+
+## FY26 Jaquez·Kessler 선택 이후
+
+[현행 인계](../reviews/FY26_ROLLOVER_JAQUEZ_KESSLER_CONTINUATION_ADOPTION_2026_10_08.md)가 PR508 다음 기준이다. [원FY26 이월](../research/CHICAGO_2026_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json)4/9/2는 생성시점이고 [Jaquez 원Year4](../simulation/CHICAGO_FY26_JAQUEZ_SELECTED_OPTION_NOTICE.json)와 [Kessler K26A](../simulation/CHICAGO_2026_KESSLER_SELECTED_RENEWAL_EXECUTION.json)의 별도선택·독립검문을 연결한다. 입력 구성요소6, 만료8+LaVinePO1=남은9포트; 아직 같은날짜 FY26 15명 전체등록/wholecost/시즌 인증0. 다음 P/Carter/Coby+minimum5갱신·LaVinePO를 계속한다. 실제외부 AGY답·NLM최초timeout/같은source재시험답·Claude2원문기각 이력 보존. 중요좌표 dependent HOLD·Pack0·CLOSED·Goal ACTIVE·일정0.

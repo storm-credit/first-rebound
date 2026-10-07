@@ -1,0 +1,45 @@
+{
+  "id": "CHICAGO_2026_NAMED_ROLLOVER_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "ACCEPTED_BOUNDED_FY26_NAMED_INPUT_PREPARATION",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIP_LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "research/CHICAGO_2026_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json": "2423e220ac6d2a842251338479336b50c8f68edf631433264761f3b1898eeb5f",
+    "research/CHICAGO_2026_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.md": "9b4e9e4b19d638141c54411368828f0addd12a3d7bc3e6729333c0b90f4401ae",
+    "reviews/NBA_2026_CAP_PRIMARY_AGY_2026_10_08.json": "515b8ac06ca853d8282a56a3480502dd0d93986480bac47db6e841200a738ded"
+  },
+  "checks": [
+    {
+      "scope": "physical sources and primary provenance",
+      "result": "PASS",
+      "evidence": "All 11 repository source pins current. Official NBA Communications fetched ?output=1 HTML physical raw SHA e8e014a9c516d9fee0d494a3d17a412c933f536e43d74b96436fd9727099faef and article text SHA453cf3dd7df148ebd01b0528ce3a2a4f3c529f11db3e2e99a16b57418478e009 match; direct body contains cap $164.961m, tax $200.428m, aprons $209.015m/$221.686m, display floor $148.465m. 2023 CBA physical raw and all listed page-text hashes match. Failed direct 403 captures are not treated as article body."
+    },
+    {
+      "scope": "AGY vs direct raw",
+      "result": "PASS",
+      "evidence": "AGY one attempt returned exit0/one terminal response with matching reported public levels. Its wrapper explicitly says primary_raw_independently_verified_by_AGY_wrapper=false and raw logs not retained; separate direct official HTTP200 body is the source-byte evidence. AGY result is not promoted to independent raw certification."
+    },
+    {
+      "scope": "15 identity and classification",
+      "result": "PASS",
+      "evidence": "Fifteen distinct CHI players exactly follow frozen FY25 named15 source pointers. Classes are 4 live original UPCs (Markkanen, Caruso, Duarte, LaMelo), 8 ordinary completed-service UFA ports plus Kessler original Year4 QO rights port, and 2 unselected options (LaVine 2026 PO, Jaquez 2025 notice for 2026 Year4). No expired 2025 minimum or veteran contract is auto-renewed into FY26 STD; no new option, notice or new UPC selected."
+    },
+    {
+      "scope": "live year and option pointers",
+      "result": "PASS",
+      "evidence": "Mark FY26 $41,754,690, Caruso $20,877,345 and Duarte $12,000,000 directly equal source UPC Year2/Year3 fields; fixed sum $74,632,035. LaMelo extension Year3 uses original C24 $140,588,000 with noncompound 29/100=$40,770,520 ordinary or legally qualified 87/250=$48,924,624 HigherMax; totals $115,402,555/$123,556,659. LaVine 2026 PO $48,967,380 pointer resolves but exercise false; Jaquez new Year4 notice/source 2023 RSC remains unselected; Kessler Year4 QO/official starter-stat inputs remain open. Fiscal June30 is not used as exact service-end certificate."
+    },
+    {
+      "scope": "FY26 cost and closure boundary",
+      "result": "PASS",
+      "evidence": "Six typed categories retain R26 original Gamma/waiver/accrual and all applicable FA/QO/FRN, unsigned rights N26/A26, exceptions and floor/tax/cash adjustments; typed unknowns are not zero. Public display floor $148,465,000 differs from exact 90% cap arithmetic $148,464,900 by $100. Four live base is not whole FY26 cost/registration, and no health, season, award, actual receipt or manuscript status is promoted."
+    }
+  ],
+  "limitations": [
+    "Static packet: independent constructor or return mutation tests performed 0, and writer tests counted 0.",
+    "2026 official individual minimum table, future valid service/option/QO actions, HigherMax award condition, original Gamma cents, complete fifteen-player roster and whole FY26 six-category ledger remain unresolved.",
+    "Web tool could not open the official URL during this review; the independently hashed cached HTTP200 article body supplies the direct source evidence."
+  ],
+  "blockers": [],
+  "recommendation": "Accept the 4-live/9-rights/2-option FY26 starting input; preserve each future action as a finite separate selection and do not infer full FY26 team registration or cost."
+}
