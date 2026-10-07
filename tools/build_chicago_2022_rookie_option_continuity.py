@@ -100,4 +100,3 @@ def main():
         for f,t in out.items():need(text(ROOT/f)==t,'Option artifact stale: '+f)
     print(json.dumps({'working_notices':2,'new_UPC_slots':0,'whole_2023_contracts':False,'Season_end_join':'PENDING_EXPLICIT_FINALS_DATE_CONSTRAINT'}))
 if __name__=='__main__':main()
-
