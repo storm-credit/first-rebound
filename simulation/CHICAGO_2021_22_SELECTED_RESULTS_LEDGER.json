@@ -1,6 +1,6 @@
 {
   "id": "CHICAGO_2021_22_SELECTED_RESULTS_LEDGER",
-  "baseline_main": "372ea5577230f22ac07d6d5f2a268f883918f837",
+  "baseline_main": "759ae823c184e9a48c47435151fe8bd4aa3a1c90",
   "source_sha256": {
     "simulation/CHICAGO_2021_22_SELECTED_RESULT_HANDOFF_2026_10_07.json": "5a6da17a8d98d0fd991a0f9286380b71dbc1c6a3ae714a7f66ce58b51379ff74",
     "simulation/CHICAGO_TORONTO_2021_22_SELECTED_BPM_RESULTS_2026_10_07.json": "333f5bd496ed59260d21e26bb42615b13cb0a11560409a798c9f905cfe66dac6",
@@ -15,7 +15,9 @@
     "reviews/UTA_KEEPER_SELECTED_RESULT_G11_INDEPENDENT_REVIEW_2026_10_07.json": "1285d84cfa2a78ac593298cc22bd636cf0bceba727a17a72138a98fad68fa4a3",
     "simulation/CHICAGO_BOSTON_2021_22_SELECTED_KEEPER_RESULTS.json": "62dc644588257b0330e14aee478f6d4e37b1a127addadbfeb0415113199f23c1",
     "reviews/BOS_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "22f54b8990ad0da4dce72594fa53ccb7ee2c0817cdca245789ca7f5850f60cb7",
-    "tools/build_chicago_2021_22_selected_results_ledger.py": "741be19a4d5374ad6728625bb2c130a0d2fc64a96c2d3ef7b04347b89eb3b171"
+    "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json": "84b8e1126086dc68da0fec8f4c462dd0a4be74941deacf6ea687c201b0ed1206",
+    "reviews/PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json": "0ae5e8bd3dc3e4a03c5fea2c35695f9791257478346906a946c37d67dae05351",
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "106e664572239fd752f835a5b8aa99de8d58d5d29f21ae2c8cc2a6d66b6c094c"
   },
   "rows": [
     {
@@ -151,16 +153,15 @@
       "away": "CHI",
       "opponent": "PHI",
       "selected_CHI_state": "COBY_OUT",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "PHI",
+        "source": "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -170,16 +171,15 @@
       "away": "PHI",
       "opponent": "PHI",
       "selected_CHI_state": "COBY_OUT",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -999,16 +999,15 @@
       "away": "PHI",
       "opponent": "PHI",
       "selected_CHI_state": "COBY_OUT",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "CHI",
+        "source": "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -1229,16 +1228,15 @@
       "away": "CHI",
       "opponent": "PHI",
       "selected_CHI_state": "NORMAL",
-      "working_regulation_result": null,
+      "working_regulation_result": {
+        "winner": "PHI",
+        "source": "simulation/CHICAGO_PHILADELPHIA_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "review": "reviews/PHI_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07.json"
+      },
       "score": null,
       "overtime_selection": null,
       "actual_medical_private_contract_or_game_receipt_certified": false,
-      "remaining_inputs": [
-        "NAMED_LEGAL_OPERATING_INTERVAL",
-        "OPPONENT_AVAILABILITY_SELECTION",
-        "BILATERAL_CLOCK_FOR_SELECTED_OPERATING_FAMILY",
-        "RESULT_AND_OT_SELECTION"
-      ],
+      "remaining_inputs": [],
       "unresolved_membership_and_branch_flags": []
     },
     {
@@ -1562,16 +1560,14 @@
   ],
   "summary": {
     "calendar_keys": 82,
-    "independently_reviewed_fictional_regulation_results": 15,
-    "CHI_working_wins": 7,
-    "opponent_working_wins": 8,
-    "remaining_keys": 67,
-    "next_game_id": "0022100111",
-    "next_date": "2021-11-03"
+    "independently_reviewed_fictional_regulation_results": 19,
+    "CHI_working_wins": 9,
+    "opponent_working_wins": 10,
+    "remaining_keys": 63,
+    "next_game_id": "0022100148",
+    "next_date": "2021-11-08"
   },
   "remaining_game_ids": [
-    "0022100111",
-    "0022100135",
     "0022100148",
     "0022100163",
     "0022100183",
@@ -1610,7 +1606,6 @@
     "0022100753",
     "0022100769",
     "0022100789",
-    "0022100802",
     "0022100812",
     "0022100826",
     "0022100843",
@@ -1622,7 +1617,6 @@
     "0022100922",
     "0022100710",
     "0022100949",
-    "0022100969",
     "0022100982",
     "0022101006",
     "0022101026",
@@ -1648,6 +1642,11 @@
       "path": "reviews/CHI82_TWELVE_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
       "immutable_main": "372ea5577230f22ac07d6d5f2a268f883918f837",
       "selected_results_at_that_revision": 12
+    },
+    {
+      "path": "reviews/CHI82_FIFTEEN_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07.json",
+      "immutable_main": "759ae823c184e9a48c47435151fe8bd4aa3a1c90",
+      "selected_results_at_that_revision": 15
     }
   ],
   "scope": "Only consumed selected named lawful families and dated roles. No final scores/OT/probability, full standings/2022pick, calibrated individual growth or historical/private certification. Frozen predecessor pending flags remain history.",
