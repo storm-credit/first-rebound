@@ -1,0 +1,40 @@
+{
+  "schema": "NYK_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_FOUR_SOURCE_BOUND_WORKING_RESULTS_AFTER_QO_AND_ROLE_REPAIRS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF_SHA256",
+  "source_sha256": {
+    "tools/build_nyk_2021_keeper_and_chicago_selected_results.py": "61eb21ed98b1c4020bce85062db5bb7b988de9ba9cf213116b52f54575d9b397",
+    "simulation/CHICAGO_NEW_YORK_2021_22_SELECTED_KEEPER_RESULTS.json": "4ad346a5f58bbf125c7378cd6ac5fc1f347a8a5bfccb2ed70f6fe9df0bf6831f",
+    "simulation/CHICAGO_NEW_YORK_2021_22_SELECTED_KEEPER_RESULTS.md": "5ff3a4532643ecc5af7869bc2708ae2fa0d96a7f1d4cb23c6d78306b9622c432"
+  },
+  "independent_source_observations": {
+    "official_2021_10_28_gamebook_url": "https://statsdmz.nba.com/pdfs/20211028/20211028_NYKCHI_book.pdf",
+    "gamebook_scope": "Historical roster and score only; historical minutes, health and 104-103 result were not imported into the fictional four-game family.",
+    "nba_2021_draft_profile_url": "https://www.nba.com/draft/2021/team-profiles/new-york-knicks",
+    "nba_2021_movement_url": "https://www.nba.com/news/nba-player-movement-2021",
+    "selected_world_draft_rights": ["NYK Grimes #20", "NYK Ayo Dosunmu #23", "NYK Jokubaitis #32 unsigned", "NYK Koprivica #57 unsigned"],
+    "original_history_mcbride_and_sims_contracts_not_inherited": true,
+    "raw_2017_cba_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "cba_pages_directly_checked": [54, 55, 74, 75, 222, 223, 292],
+    "frank_original_2021_no_qualifying_offer_vs_fictional_timely_own_qo_separated": true
+  },
+  "independent_checks": {
+    "lawful_family_membership": "Six existing standard continuations plus six named veteran exception contracts, Frank's fictional own QO acceptance, and two selected draft first-round rookie contracts: 15 standard. Harper and Pinson use separate one-year two-way families: 2 two-way.",
+    "pricing_boundary": "Veteran q is an admitted CBA exception interval with signed-year Year-2 minimum floor, not actual agreed dollars; original protection and allocated bonus liabilities remain. Frank's QO formula and rookie holders are source-bound after repair.",
+    "calendar_and_clock": "All four IDs match original 82-row calendar date/home/away; each paired CHI and NYK regulation vector totals 14,400 player-seconds over 2,880 elapsed seconds. Independent per-segment five-unique positions, quarter boundaries, 11 positive NYK players and exact selected-ratings Fraction recomputation matched each saved impact fraction and winner.",
+    "selected_game_ids": ["0022100067", "0022100250", "0022100328", "0022101126"],
+    "selected_chi_wins": 2,
+    "selected_nyk_wins": 2,
+    "selected_chi_minus_nyk_impact_per100": [3.9464333337429562, 3.8481850974371197, -0.053566666257043934, -0.15181490256288033],
+    "winner_signs_match_saved_chi_minus_nyk_margins": true
+  },
+  "actual_constructor_control": {
+    "mutation": "Replaced returned Frank Ntilikina QO_function.ordinary with UNLIMITED while retaining names, counts, dates and source bytes",
+    "before_repair": "FALSE_PASS",
+    "after_repair": "REJECTED: Frank QO authority/calendar changed",
+    "repair_scope": "The returned entire ordinary/nonstarter/anchor QO function is compared to a fixed source-supported meaning. This control was rerun after the QO repair, before the later role revision; the role revision was separately checked through direct final-clock and rating arithmetic. A subsequent chronology digest guard changed code/source pins without altering any of the four reviewed margins or winners."
+  },
+  "scope_limit": "Selected fictional contract/role and four regulation-winner family. No actual private UPC, exact cash q, whole normal/apron ledger, original 2021-22 score/health, remaining NYK dates or whole 82-game season is certified.",
+  "independent_review_completed": true,
+  "manuscript_allowed": false
+}
