@@ -1,0 +1,132 @@
+{
+  "schema": "PICK16_REVIEWED_FINANCIAL_INPUT_CLOSURE_BRIDGE_V1",
+  "status": "INDEPENDENTLY_REVIEWED_FINANCIAL_INPUT_CLOSURE_BRIDGE",
+  "source_rev_sha256": {
+    "tools/build_2021_pick16_cost_closure_bridge.py": "9bcf5c6e78cdd65d74c2e6554e1576e1a0d0c4692e08a422503f3134107f44cf",
+    "tools/build_2021_bos_okc_hou_pick16_working_execution.py": "5570436100daf99fedd5f38f8a114dc558c7b40bfa365b60512cccbbf6ee9a47",
+    "research/NBA_2021_PICK16_BOS_OKC_HOU_WORKING_EXECUTION_2026_10_07.json": "86b9989daa20eced72106c25b14fb8d8b3b32d201132a0b87ba466b0ce51fba0",
+    "tools/build_okc_2021_ap1_full_cost_family.py": "275d83de8c72b741a261a541f1e9455c1a5e24b849497271e75667776e02968d",
+    "research/OKC_2021_AP1_FULL_COST_FAMILY_2026_10_07.json": "0f1b2c384be7043f6bacecf336d925a2905bc1ca8a07b7089ba350d481b8acb0"
+  },
+  "scope": "SAME_OLD_YEAR_PUBLIC_CATEGORY_FAMILY_AND_PROPOSED_CONSENTING_IMPLEMENTATION_ONLY",
+  "public_family_AP1_remaining_OKC_budget_gap_closed": true,
+  "prior_AP1_null_is_preserved_historical_snapshot": true,
+  "candidate_events": [
+    {
+      "id": "AP1",
+      "date": "2021-07-28",
+      "atomic": true,
+      "edges": [
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Kemba Walker",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Al Horford",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Moses Brown",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "CURRENT_FIRST_SELECTION",
+          "asset": "BOS_2021_16",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "EARLIER_BOS_MEM_2025_2R",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "LATEST_OKC_WAS_EARLIER_DAL_MIA_2023_2R",
+          "from": "OKC",
+          "to": "BOS"
+        }
+      ]
+    },
+    {
+      "id": "SG16",
+      "date": "2021-07-29",
+      "atomic": true,
+      "requires_available_draftee": "Alperen Sengun",
+      "rights_selected_but_unsigned_in_this_candidate": true,
+      "edges": [
+        {
+          "event": "SG16",
+          "kind": "UNSIGNED_DRAFT_RIGHTS",
+          "asset": "BOS_2021_16:Alperen Sengun",
+          "from": "OKC",
+          "to": "HOU"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "DET_FIRST_OR_2027_SECOND",
+          "from": "HOU",
+          "to": "OKC"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "WAS_FIRST_OR_2026_2027_SECONDS",
+          "from": "HOU",
+          "to": "OKC"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "cap_year": "2020-21",
+    "apron_usd": 138928000,
+    "BOS_after_AP1_upper_usd": 133457706,
+    "BOS_apron_margin_usd": 5470294,
+    "OKC_before_AP1_upper_usd": 129697595,
+    "OKC_after_AP1_upper_usd": 134956131,
+    "OKC_apron_margin_usd": 3971869,
+    "HOU_unsigned_rights_apron_delta_usd": 0,
+    "HOU_scope": "At the modeled atomic SG16 instant after selection and before any new #16 RequiredFirstTender, no executed UPC or outstanding tender is acquired; preexisting DET/WAS claims change holder. The ordinary unsigned first-round hold is distinct and excluded from apron by VII6(m)(3)(ii)(E), which includes outstanding RequiredTenders. For any valid preserved prior HOU budget this restricted event leaves apron cost invariant. Later tender/UPC issuance reopens cost. No actual HOU whole-ledger certificate is claimed.",
+    "HOU_SG16_working_instant_before_first_RequiredTender": true,
+    "HOU_new_RequiredFirstTender_outstanding_at_SG16": false,
+    "HOU_required_tender_absence_is_routine_candidate_not_actual_receipt_claim": true
+  },
+  "matching_and_asset_evidence": {
+    "three_actors_nine_edges_and_control60": true,
+    "Brown_q_min_usd": 423280,
+    "Brown_q_max_usd": 1701593,
+    "all_existing_bonus_branches_use_proposed_consensual_waivers": true,
+    "extension_renegotiation_limits_preserved": true,
+    "future_protected_DET_WAS_claims_unchanged": true,
+    "no_new_2028_obligation_created": true
+  },
+  "remaining": [
+    "AP1/SG16 material author direction remains unselected.",
+    "Sengun must remain available at16 after the preceding draft selections; the other58 selections are not promoted by this bridge.",
+    "No actual contract consent, q, waiver, league filing, future claim delivery or cents is certified.",
+    "A new outstanding #16 RequiredTender, Aug3 new-year budgets, executed rookie UPCs and 2021–23 future events require their own implementation."
+  ],
+  "independent_review_completed": true,
+  "author_selected": false,
+  "canon_promoted": false,
+  "macro3_complete": false,
+  "whole_actual_legal_or_registration_certified": false,
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL"
+}
