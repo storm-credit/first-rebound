@@ -190,6 +190,7 @@ def build(root=ROOT):
                 'He tries his familiar strong-hand route, is pushed toward the weak-hand side and reaches a first defensive wall without proving a finish.',
                 'In two comparable permitted 2019-20 role repetitions he carries straight with the weak hand toward the first wall and passes early to Coby or Satoransky before holding for a second self-created move; the receiving guard secures the ball both times, without a shot or scoring result.',
                 'An authorized fictional team instruction gives him the same bounded carry-to-early-pass task at the next permitted role opportunity; this is a narrow observable repeat assignment, not an official game box, starting role, private coach thought, or guarantee of a successful possession.',
+                'Within that same next permitted role opportunity he also recovers to his assigned defensive lane, places himself between a nearby opponent and the basket for one box-out, and makes a simple outlet connection to a guard after a teammate secures the ball; no personal rebound, stop, score, date, or new game is inferred.',
             ],
             'cost': [EXPECTED['A05-CF07']['direct_cost'], EXPECTED['A05-CF08']['direct_cost']],
             'bounded_exit': EXPECTED['A05-CF08']['changed_state'],
@@ -203,6 +204,8 @@ def build(root=ROOT):
                 'official_game_or_private_receipt_certified': False,
                 'made_shot_or_second_help_solution_certified': False,
                 'whole_rotation_trust_certified': False,
+                'next_assigned_role_sequence_directly_observed': True,
+                'new_game_or_official_personal_box_from_sequence': False,
             },
         },
     ]
@@ -213,6 +216,7 @@ def build(root=ROOT):
         'status': 'SELECTED_ROUTINE_FOUR_FUNCTIONAL_GROUPS_INDEPENDENTLY_REVIEWED',
         'independent_review_completed': True,
         'R4_extension_independent_review_completed': True,
+        'R4_role_sequence_independent_review_completed': True,
         'scope': 'FOUR_FINITE_OPERATING_GROUPS_SPANNING_EIGHT_EXISTING_CAUSAL_CANDIDATES_NOT_FINAL_EPISODES',
         'previous_exact_A04_E5_exit': previous['exit_state'],
         'original_A05_entry_projection': candidates['entry_from']['changed_state'],
@@ -272,7 +276,7 @@ def render(data):
         '', '- R2의 기회 상실은 한 번만 발생하며 다음 준비가 그 기회를 복원하지 않는다. R3의 Windy City 배정은 별도 개발 경로다.',
         '- R3의 복귀 재시험은 실제 복귀가 별도로 정해질 때만 적용한다. R4는 2019–20 약한 손/첫 벽 과제이며 신인년으로 앞당기지 않는다.',
         '- 실존 코치 내면·정확 경기/상대/분·G League 박스·주인공 새 부상·2020–21 완성 기술은 인증하지 않는다.',
-        '- 최종 회차 기능0·대표 경기0·전체 A05/G13/G14·실제 Pack·원고 미완료, 설계/원고 게이트 `CLOSED`.', '',
+        '- S1–S3 및 A05 Act의 **한정 운영 출구**는 국소 관측 감사에서 판정한다. 전체 G13/G14·정확 개인 경기기록·실제 Pack·원고는 미완료, 설계/원고 게이트는 `CLOSED`다.', '',
     ]
     return '\n'.join(lines)
 
@@ -295,6 +299,7 @@ def self_test(data, root=ROOT):
         ('new game claimed', lambda x: x['historical_and_authority_limits'].update(new_NBA_or_G_League_game_created=True)),
         ('limited handoffs erased', lambda x: x['route_groups'][3]['limited_trust_operating_witness'].update(comparable_first_wall_handoffs_observed=0)),
         ('second help silently solved', lambda x: x['route_groups'][3]['limited_trust_operating_witness'].update(made_shot_or_second_help_solution_certified=True)),
+        ('next role sequence erased', lambda x: x['route_groups'][3]['limited_trust_operating_witness'].update(next_assigned_role_sequence_directly_observed=False)),
     ]
     for name, mutation in cases:
         changed = copy.deepcopy(data)

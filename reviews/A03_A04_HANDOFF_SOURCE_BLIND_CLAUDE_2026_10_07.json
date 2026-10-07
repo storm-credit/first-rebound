@@ -1,0 +1,40 @@
+{
+  "scope": "A03_TO_A04_NEW_RETROSPECTIVE_HANDOFF_SOURCE_BLIND_NOT_WHOLE_G16",
+  "prompt_sha256": "6495f3cafaeea24fab8815856ca9ebd8f11c0027b4ab9bb8af05b95fd31015a6",
+  "input_snapshots_before_launch": {
+    "design/A03_E1_FINAL_EPISODE_FUNCTION.json": "ad00a71895123d40cef8dfb5cfc5f545fa814c3347b40990b7dd4050377e5a91",
+    "design/A03_E2_FINAL_EPISODE_FUNCTION.json": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed",
+    "design/A03_E3_FINAL_EPISODE_FUNCTION.json": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea",
+    "design/A03_POST_TOURNAMENT_HISTORY_BRIDGE_2026_10_07.json": "ab1c6de7955e21652fb7a6f5baf42a09e74b042d84d08800642121a554c71de2",
+    "design/A04_S1_EXTERNAL_PRESENTATION_WORKING_MODEL_2026_10_07.json": "4e3278d83b1973c0bc1446b786b94052543fadb9690ec69acd94976c1697c305"
+  },
+  "prior_verdicts_supplied": false,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 53.71,
+    "is_error": false,
+    "answer": "**편집 검토 결과: 2건**\n\n**결함 1 — 지식 접근(출처 없는 관측)**\n단위: `later_external_presentation.P1`\nP1은 evidence_scope를 \"기존 E1–E3 개인 관측\"으로 선언하지만, \"코너 캐치 뒤 한 드리블이 막힌 지점\"은 E1–E3 어디에도 선행 근거가 없습니다. EF-001은 도움 위치, EF-002는 박스아웃, EF-003은 스위치 연결이며 모두 자기 공격 시도를 관측한 장면이 아닙니다. 즉 P1에서 주인공이 자기 공격 한계를 \"자신의 관측\"으로 제시할 자격이 아직 생성되지 않았습니다.\n누락된 관측 행동: 허용된 연습 중 한 번, 주인공이 코너에서 공을 받아 한 드리블을 시도했다가 상대에게 진로가 막혀 공을 동료에게 되돌리는 장면을, 허용 영상 또는 현장에서 본인이 직접 확인하는 단일 반복.\n\n**결함 2 — 시간 순서(앵커 없음)**\n단위: `A03-EF-001`, `A03-EF-002`\nEF-003은 \"이전 두 훈련 관측\"이라고 명시해 선행을 주장하지만, EF-001·EF-002에는 날짜나 2018-03-25 이전임을 고정하는 앵커가 전혀 없습니다. 반면 EF-003은 날짜가 박힌 Texas Tech 경기 창에 묶여 있어, 순서가 본문 주장에만 의존합니다.\n누락된 관측 행동: EF-001·EF-002 각각의 exit에, 해당 연습이 Texas Tech전보다 앞선 허용 세션임을 나타내는 관측 가능한 표식(예: 그 연습 종료 시 다음 과제 확인과 함께 \"아직 지역 결승 전\"임이 드러나는 일정 확인) 한 번.\n\n**결함으로 보지 않은 항목**\n각 exit의 미관측 선언, 11분 창의 가상 성격, 상담자의 무권한 범위, MOP·실전 공로 비이전은 불변조건과 일관되며 사적 영수증이나 40경기 시뮬레이션을 요구하지 않습니다.",
+    "answer_chars": 892,
+    "raw_logs_retained": false
+  },
+  "whole_G16_certified": false,
+  "manuscript_allowed": false,
+  "root_adjudication": [
+    {
+      "id": 1,
+      "result": "SOURCE_ATTRIBUTION_AMBIGUITY_REPAIRED_NOT_MISSING_ATTACK_SCENE",
+      "reason": "Prompt supplied A03 E1-E3, while external P1 meant A04 E1-E3. Actual pinned A04-EF-003 already observes corner one-dribble stoppage and simple pass. Producer scope now names A04-EF-001~003; no redundant attack scene added."
+    },
+    {
+      "id": 2,
+      "result": "EXISTING_PARTIAL_ORDER_EXPLICIT_NO_NEW_DATE_OR_SCENE",
+      "reason": "College cleared entry precedes E1; E2 exact entry matches E1 exit; E3 exact entry matches E2 exit and anchors March25. Current bounded exit audit explicitly records this ordered chain. Missing exact practice dates do not prove a contradiction."
+    }
+  ],
+  "source_pin_at_adjudication": {
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+    "design/A04_S1_EXTERNAL_PRESENTATION_WORKING_MODEL_2026_10_07.json": "ad57b1222bffed2ed7e051753b38c1651d57a1616ab5cbfe3b6abf3000113313",
+    "design/A03_A04_BOUNDED_EXIT_AUDIT_2026_10_07.json": "54d276ebaa7aa0415fdc6e2cb3eb4183bf925d085f695b742c1f636c079097dc"
+  }
+}
