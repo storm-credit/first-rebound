@@ -1,0 +1,1235 @@
+{
+  "id": "CHICAGO_NEW_ORLEANS_2021_SECOND_PAIRED_REGULATION_CARRIER",
+  "status": "INDEPENDENTLY_REVIEWED_NAMED_OPERATING_PROPOSAL_AND_CONDITIONAL_PAIR",
+  "baseline_main": "820f3df",
+  "source_sha256": {
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/CHICAGO_2021_22_CALENDAR.csv": "c59ea19a5515d64ed03cae8e0481847b6572d4087bbcefef15896bb7a2489183",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "research/NBA_2021_FULL_DRAFT_WORKING_BOARD_2026_10_07.json": "90099928f9133c4087ee7871939ce58216d183bd186f5ebd3575a56c2348eeed",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "simulation/CHICAGO_2021_22_ROLE_PLAN_INPUTS.json": "0b8f9e4ac212596d0966f82f7f8317f7a7c86645a239a5a73587dd121f77e171",
+    "tools/build_chicago_2021_22_m1_dated_working_minutes.py": "fe26befaf33d0da47a5614021ec2ed7f403e5f087ecf1acdc0e63e91fd2e9e1b",
+    "tools/build_chicago_new_orleans_2021_second_paired_regulation_carrier.py": "b13325483fe9a09f05028ec298f88e20c9a7b74e6b502a4ee5de7693755c79d1"
+  },
+  "hash_convention": "Repository BOMstrip, CRLF/CR to LF; external raw bytes unchanged",
+  "game": {
+    "game_id": "0022100022",
+    "game_number": 2,
+    "date": "2021-10-22",
+    "home": "CHI",
+    "away": "NOP"
+  },
+  "calendar_class": "SAME_OBSERVED_KEY_IS_WORKING_HYPOTHESIS_NOT_RESULT_ADOPTION",
+  "raw_sources": {
+    "NBA_RFA": {
+      "url": "https://www.nba.com/news/2021-free-agency-options-and-qualifying-offers",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nop-rfa-20261007\\NBA2021_RFA.html",
+      "raw_sha256": "c3791cc30b1a1eec3422778868a56a24b702fe2c42ce9ffe9cc2a42719b33611",
+      "locator": "__NEXT_DATA__.props.pageProps.article.contentText: Aug1 issuedRFA list and Louzada** footnote",
+      "observed_scope": "Ball/Hart issuedQO; Louzada optiondeclined+issuedQO. No money, acceptance or counterfactual contract certified."
+    },
+    "official_guide": {
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612740/2023/10/Pelicans-2324-Media-Guide.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-nop-paired-20261007\\pelicans2324.pdf",
+      "raw_sha256": "10102132eb90c4a8cebdcf8bbbffad5a2c541cf254b0592baf2cad3d1c42d6a0",
+      "PDF_1based": 148,
+      "printed_page": 147,
+      "fitz_text_sha256": "fba71fcb93c0dc1d5adab12c6304581b120381e39fc99dedcc51687cf8aa0cb1",
+      "observed_scope": "Historical Aug16 Willy/Louzada and Aug19 Hart renewals; Aug7 asset event and Oct12 Gabriel waiver. These are comparison facts, not candidate acceptances."
+    },
+    "web_observations_without_adopted_raw": [
+      {
+        "url": "https://www.nba.com/draft/2021/team-profiles/new-orleans-pelicans",
+        "observation": "Primary indexed body distinguishes contracted players and pending free agents; original Kira substituted by approved Killian in working roster.",
+        "direct_HTTP_status": 403,
+        "raw_cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-nop-paired-20261007\\roster_profile.raw",
+        "raw_sha256": "09694c20b7e55daff6a3d8caf452a2e2f8e5d73faefbcbfb8e949d82c280b309",
+        "raw_body_adopted": false
+      },
+      {
+        "url": "https://www.nba.com/news/zion-williamson-foot-to-be-reevaluated-in-2-weeks",
+        "observation": "Oct14 club executive announcement: opening availability restricted. Counterfactual clinical state is not inferred.",
+        "direct_HTTP_status": 403,
+        "raw_cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-chi-nop-paired-20261007\\zion.raw",
+        "raw_sha256": "472a8b3e0c491acd7288e60b5a6092e9cb5a133b24dd8d50ae6fefac41cc1e44",
+        "raw_body_adopted": false
+      }
+    ],
+    "fresh_successful_official_PDFs": 1,
+    "reused_root_RFA_raws": 1,
+    "new_league_medical_or_receipt_certificate": false
+  },
+  "classification": {
+    "fact": "Existing approved2020 Killian NOP landing and S2 May16 working roster; original2021 RFA/renewals/transactions only as public comparator facts.",
+    "candidate": "No optionalNOP summertrades, lawful conditional renewals+Moody9 UPC, new coach minutes/ordered6blocks and Zion0 operational state; no author lock.",
+    "inference": "If all named live-contract, availability and active conditions hold, this simultaneous regulation capacity exists."
+  },
+  "NOP_named_proposal": {
+    "standard_candidate": [
+      "Brandon Ingram",
+      "Didi Louzada",
+      "Eric Bledsoe",
+      "Jaxson Hayes",
+      "Josh Hart",
+      "Killian Hayes",
+      "Lonzo Ball",
+      "Naji Marshall",
+      "Nickeil Alexander-Walker",
+      "Steven Adams",
+      "Wenyen Gabriel",
+      "Wes Iwundu",
+      "Willy Hernangomez",
+      "Zion Williamson",
+      "Moses Moody"
+    ],
+    "two_way_candidate": [],
+    "active_standard_12": [
+      "Brandon Ingram",
+      "Eric Bledsoe",
+      "Jaxson Hayes",
+      "Josh Hart",
+      "Killian Hayes",
+      "Lonzo Ball",
+      "Naji Marshall",
+      "Nickeil Alexander-Walker",
+      "Steven Adams",
+      "Wenyen Gabriel",
+      "Willy Hernangomez",
+      "Moses Moody"
+    ],
+    "inactive_standard_3": [
+      "Didi Louzada",
+      "Wes Iwundu",
+      "Zion Williamson"
+    ],
+    "positive_player_seconds": {
+      "Brandon Ingram": 1920,
+      "Eric Bledsoe": 1440,
+      "Jaxson Hayes": 720,
+      "Josh Hart": 1440,
+      "Killian Hayes": 1200,
+      "Lonzo Ball": 1680,
+      "Moses Moody": 480,
+      "Naji Marshall": 1440,
+      "Nickeil Alexander-Walker": 960,
+      "Steven Adams": 1680,
+      "Wenyen Gabriel": 960,
+      "Willy Hernangomez": 480
+    },
+    "position_minutes": {
+      "PG": {
+        "Lonzo Ball": 28,
+        "Killian Hayes": 20
+      },
+      "SG": {
+        "Eric Bledsoe": 24,
+        "Nickeil Alexander-Walker": 16,
+        "Moses Moody": 8
+      },
+      "SF": {
+        "Brandon Ingram": 32,
+        "Josh Hart": 16
+      },
+      "PF": {
+        "Josh Hart": 8,
+        "Naji Marshall": 24,
+        "Wenyen Gabriel": 16
+      },
+      "C": {
+        "Steven Adams": 28,
+        "Jaxson Hayes": 12,
+        "Willy Hernangomez": 8
+      }
+    },
+    "ordered_working_blocks": [
+      {
+        "minutes": 8,
+        "positions": {
+          "PG": "Lonzo Ball",
+          "SG": "Eric Bledsoe",
+          "SF": "Brandon Ingram",
+          "PF": "Josh Hart",
+          "C": "Steven Adams"
+        }
+      },
+      {
+        "minutes": 16,
+        "positions": {
+          "PG": "Lonzo Ball",
+          "SG": "Eric Bledsoe",
+          "SF": "Brandon Ingram",
+          "PF": "Naji Marshall",
+          "C": "Steven Adams"
+        }
+      },
+      {
+        "minutes": 4,
+        "positions": {
+          "PG": "Lonzo Ball",
+          "SG": "Nickeil Alexander-Walker",
+          "SF": "Brandon Ingram",
+          "PF": "Naji Marshall",
+          "C": "Steven Adams"
+        }
+      },
+      {
+        "minutes": 4,
+        "positions": {
+          "PG": "Killian Hayes",
+          "SG": "Nickeil Alexander-Walker",
+          "SF": "Brandon Ingram",
+          "PF": "Naji Marshall",
+          "C": "Jaxson Hayes"
+        }
+      },
+      {
+        "minutes": 8,
+        "positions": {
+          "PG": "Killian Hayes",
+          "SG": "Nickeil Alexander-Walker",
+          "SF": "Josh Hart",
+          "PF": "Wenyen Gabriel",
+          "C": "Jaxson Hayes"
+        }
+      },
+      {
+        "minutes": 8,
+        "positions": {
+          "PG": "Killian Hayes",
+          "SG": "Moses Moody",
+          "SF": "Josh Hart",
+          "PF": "Wenyen Gabriel",
+          "C": "Willy Hernangomez"
+        }
+      }
+    ],
+    "operational_unavailable_condition": [
+      "Zion Williamson"
+    ],
+    "unused_reserve_clinical_status": null,
+    "proposed_operating_family": "NOP_RETAINED_CORE_NO_OPTIONAL_SUMMER_TRADES_PLUS_CONDITIONAL_MOODY9_UPC",
+    "selected": false,
+    "actual_medical_or_registration_certified": false,
+    "dated_contract_conditions": [
+      {
+        "players": [
+          "Lonzo Ball",
+          "Josh Hart",
+          "Didi Louzada"
+        ],
+        "condition": "Valid2021 required QO where applicable, not withdrawn or rescinded; consensually accept applicable legal one-year QO before its operative acceptance cutoff and Oct22. For Louzada no expired option silently carried. QO numbers/actual receipts/acceptance remain null.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "Willy Hernangomez"
+        ],
+        "condition": "New lawful minimum-exception contract1or2years/bonus0, valid consent before Oct22; original Aug16 newcontract is fact, its exact terms not copied. No 2020expired salary carried as live UPC.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "Moses Moody"
+        ],
+        "condition": "Only if unselected DB1 pick9 and NOP ownership are implemented: valid rookie-scale UPC80–120% as applicable with consent before game. Salary/guarantee/bonus inputs remain parameters and no amount is certified.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "Wenyen Gabriel"
+        ],
+        "condition": "Carry lawful existing 2021–22 contracted identity subject to live-term/guarantee control; no Oct12 waiver in this candidate. This is an unselected routine roster alternative, not erasure of original reported waiver/dead money.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "Steven Adams",
+          "Eric Bledsoe",
+          "Wes Iwundu"
+        ],
+        "condition": "No optional Aug7 MEM/CHA multi-party transaction in this proposal. Retain existing live contracts and all original obligations; no counterparty acceptance or matching capacity inferred.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "Nickeil Alexander-Walker",
+          "Jaxson Hayes",
+          "Zion Williamson",
+          "Killian Hayes",
+          "Brandon Ingram",
+          "Naji Marshall"
+        ],
+        "condition": "Each retained UPC must actually cover2021–22 within this candidate. Required2019rookie Year3 option notices must be validly exercised in the preceding operative window; Oct2021 fourthyear notices concern2022–23, not permission for this game. Killian valid2020 rookie secondyear family is preserved without importing historical Kira contract cents.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      },
+      {
+        "players": [
+          "James Johnson",
+          "James Nunnally"
+        ],
+        "condition": "Old terms expire; no newNOP UPC/TW signed before this game. Old FA/QO/RT/settlement charges and rights are not zeroed by roster exclusion. Nunnally priorTW is not automatically renewed.",
+        "actual_acceptance": null,
+        "new_author_lock": false
+      }
+    ],
+    "unaccepted_second_round_rights": [
+      {
+        "pick": 34,
+        "player": "Kessler Edwards",
+        "holder": "NOP",
+        "UPC_selected": false,
+        "valid_RT_and_cost_family_still_required": true
+      },
+      {
+        "pick": 40,
+        "player": "Miles McBride",
+        "holder": "NOP",
+        "UPC_selected": false,
+        "valid_RT_and_cost_family_still_required": true
+      },
+      {
+        "pick": 42,
+        "player": "Greg Brown",
+        "holder": "NOP",
+        "UPC_selected": false,
+        "valid_RT_and_cost_family_still_required": true
+      },
+      {
+        "pick": 52,
+        "player": "Jericho Sims",
+        "holder": "NOP",
+        "UPC_selected": false,
+        "valid_RT_and_cost_family_still_required": true
+      }
+    ],
+    "counterfactual_new_Ball_to_CHI_or_Graham_to_NOP_or_Valanciunas_to_NOP": false,
+    "whole_cost_upper": null,
+    "whole_legal_operating_family_pass": false
+  },
+  "witnesses": [
+    {
+      "id": "NORMAL__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+      "CHI_state": "NORMAL",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "TW": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Satoransky",
+            "Green"
+          ],
+          "inactive": [
+            "Joe Wieskamp",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "unavailable": []
+        },
+        "NOP": {
+          "standard": [
+            "Brandon Ingram",
+            "Didi Louzada",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Naji Marshall",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Wenyen Gabriel",
+            "Wes Iwundu",
+            "Willy Hernangomez",
+            "Zion Williamson",
+            "Moses Moody"
+          ],
+          "TW": [],
+          "active": [
+            "Brandon Ingram",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Naji Marshall",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Wenyen Gabriel",
+            "Willy Hernangomez",
+            "Moses Moody"
+          ],
+          "inactive": [
+            "Didi Louzada",
+            "Wes Iwundu",
+            "Zion Williamson"
+          ],
+          "unavailable": [
+            "Zion Williamson"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 480,
+          "seconds": 480,
+          "quarter": 1,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 240,
+          "CHI_block_index": 0,
+          "NOP_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Josh Hart",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "clock_start_remaining": 240,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 0,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 600,
+          "CHI_block_index": 1,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 600,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 2,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 3,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 4,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 600,
+          "CHI_block_index": 5,
+          "NOP_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Coby",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 600,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 6,
+          "NOP_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 7,
+          "NOP_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 240,
+          "CHI_block_index": 8,
+          "NOP_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "clock_start_remaining": 240,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 9,
+          "NOP_block_index": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 9,
+          "NOP_block_index": 4,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 9,
+          "NOP_block_index": 5,
+          "CHI": {
+            "PG": "Coby",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Moses Moody",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Willy Hernangomez"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2880,
+          "seconds": 360,
+          "quarter": 4,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 10,
+          "NOP_block_index": 5,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Moses Moody",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Willy Hernangomez"
+          }
+        }
+      ],
+      "regulation_elapsed_seconds": 2880,
+      "player_seconds_each": {
+        "CHI": 14400,
+        "NOP": 14400
+      },
+      "score": null,
+      "winner": null,
+      "OT_selected": false
+    },
+    {
+      "id": "COBY_OUT__NOP_ZION0_CONDITIONAL_RETAINED_CORE",
+      "CHI_state": "COBY_OUT",
+      "selected_for_date": false,
+      "nominations": {
+        "CHI": {
+          "standard": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Coby",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Green",
+            "Caruso",
+            "Markkanen",
+            "Joe Wieskamp",
+            "Tony Bradley",
+            "Stanley Johnson",
+            "Denzel Valentine"
+          ],
+          "TW": [
+            "Devon Dotson",
+            "Tyler Cook"
+          ],
+          "active": [
+            "LaVine",
+            "LaMelo_pick4",
+            "Carter",
+            "Young",
+            "Satoransky",
+            "Protagonist",
+            "Chris Duarte",
+            "Caruso",
+            "Markkanen",
+            "Tony Bradley",
+            "Denzel Valentine",
+            "Green"
+          ],
+          "inactive": [
+            "Coby",
+            "Joe Wieskamp",
+            "Stanley Johnson"
+          ],
+          "unavailable": [
+            "Coby"
+          ]
+        },
+        "NOP": {
+          "standard": [
+            "Brandon Ingram",
+            "Didi Louzada",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Naji Marshall",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Wenyen Gabriel",
+            "Wes Iwundu",
+            "Willy Hernangomez",
+            "Zion Williamson",
+            "Moses Moody"
+          ],
+          "TW": [],
+          "active": [
+            "Brandon Ingram",
+            "Eric Bledsoe",
+            "Jaxson Hayes",
+            "Josh Hart",
+            "Killian Hayes",
+            "Lonzo Ball",
+            "Naji Marshall",
+            "Nickeil Alexander-Walker",
+            "Steven Adams",
+            "Wenyen Gabriel",
+            "Willy Hernangomez",
+            "Moses Moody"
+          ],
+          "inactive": [
+            "Didi Louzada",
+            "Wes Iwundu",
+            "Zion Williamson"
+          ],
+          "unavailable": [
+            "Zion Williamson"
+          ]
+        }
+      },
+      "simultaneous_segments": [
+        {
+          "start_second": 0,
+          "end_second": 480,
+          "seconds": 480,
+          "quarter": 1,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 240,
+          "CHI_block_index": 0,
+          "NOP_block_index": 0,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Josh Hart",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 480,
+          "end_second": 720,
+          "seconds": 240,
+          "quarter": 1,
+          "clock_start_remaining": 240,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 0,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 720,
+          "end_second": 840,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 600,
+          "CHI_block_index": 1,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 840,
+          "end_second": 960,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 600,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 2,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 960,
+          "end_second": 1080,
+          "seconds": 120,
+          "quarter": 2,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 3,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1080,
+          "end_second": 1440,
+          "seconds": 360,
+          "quarter": 2,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 4,
+          "NOP_block_index": 1,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Caruso",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Eric Bledsoe",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1440,
+          "end_second": 1560,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 600,
+          "CHI_block_index": 5,
+          "NOP_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Denzel Valentine",
+            "SF": "Protagonist",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1560,
+          "end_second": 1680,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 600,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 6,
+          "NOP_block_index": 2,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Lonzo Ball",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Steven Adams"
+          }
+        },
+        {
+          "start_second": 1680,
+          "end_second": 1800,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 7,
+          "NOP_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Carter"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 1800,
+          "end_second": 1920,
+          "seconds": 120,
+          "quarter": 3,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 240,
+          "CHI_block_index": 8,
+          "NOP_block_index": 3,
+          "CHI": {
+            "PG": "LaMelo_pick4",
+            "SG": "Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Young"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Brandon Ingram",
+            "PF": "Naji Marshall",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 1920,
+          "end_second": 2160,
+          "seconds": 240,
+          "quarter": 3,
+          "clock_start_remaining": 240,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 9,
+          "NOP_block_index": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 2160,
+          "end_second": 2400,
+          "seconds": 240,
+          "quarter": 4,
+          "clock_start_remaining": 720,
+          "clock_end_remaining": 480,
+          "CHI_block_index": 9,
+          "NOP_block_index": 4,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Nickeil Alexander-Walker",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Jaxson Hayes"
+          }
+        },
+        {
+          "start_second": 2400,
+          "end_second": 2520,
+          "seconds": 120,
+          "quarter": 4,
+          "clock_start_remaining": 480,
+          "clock_end_remaining": 360,
+          "CHI_block_index": 9,
+          "NOP_block_index": 5,
+          "CHI": {
+            "PG": "Satoransky",
+            "SG": "LaVine",
+            "SF": "Protagonist",
+            "PF": "Young",
+            "C": "Tony Bradley"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Moses Moody",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Willy Hernangomez"
+          }
+        },
+        {
+          "start_second": 2520,
+          "end_second": 2880,
+          "seconds": 360,
+          "quarter": 4,
+          "clock_start_remaining": 360,
+          "clock_end_remaining": 0,
+          "CHI_block_index": 10,
+          "NOP_block_index": 5,
+          "CHI": {
+            "PG": "Caruso",
+            "SG": "LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Markkanen",
+            "C": "Young"
+          },
+          "NOP": {
+            "PG": "Killian Hayes",
+            "SG": "Moses Moody",
+            "SF": "Josh Hart",
+            "PF": "Wenyen Gabriel",
+            "C": "Willy Hernangomez"
+          }
+        }
+      ],
+      "regulation_elapsed_seconds": 2880,
+      "player_seconds_each": {
+        "CHI": 14400,
+        "NOP": 14400
+      },
+      "score": null,
+      "winner": null,
+      "OT_selected": false
+    }
+  ],
+  "summary": {
+    "game_keys": 1,
+    "CHI_states": 2,
+    "NOP_new_ordered_blocks": 6,
+    "NOP_positive_players": 12,
+    "NOP_STD": 15,
+    "NOP_TW": 0,
+    "active_standard_each": 12,
+    "inactive_standard_each": 3,
+    "simultaneous_segments_each": 14,
+    "regulation_seconds": 2880,
+    "player_seconds_each": 14400,
+    "pair_player_seconds": 28800,
+    "Markkanen_minutes": 32,
+    "Caruso_minutes": 18,
+    "Protagonist_minutes": 32,
+    "new_selected_date_states": 0,
+    "new_scores_or_winners": 0
+  },
+  "remaining_named_inputs": [
+    "NOP retained-core versus optionalMEM/CHA/Ball otherdestination paths are still alternatives, not selected transactions.",
+    "Lawful live2021 UPC/QO acceptance for Ball/Hart/Louzada, Willy newminimum and Moody conditionalrookie; consent and exactmoney remain input conditions.",
+    "NOP wholepublic sixcategory costs including oldFA/waiver/TPE/2R tender charges not bounded here; noprivate wholeledger evidence gate added.",
+    "A different Zion/other availability state requires a new explicit minute/nomination witness; no historical injury or contact outcome automatically inherited.",
+    "Result method, scoring/OT choice and remaining80 games still separate. DET carrier not copied as NOP minutes."
+  ],
+  "certification": {
+    "independent_review_completed": true,
+    "independent_review_basis": "Root independent fr-root-nop-468.py imported no producer: all2880-second arrays matched CHI11 and NOP6 source blocks, player budgets/active/ownership, S2May16STD15 minusJamesJohnson plusMoody, unsigned2R4 and falsecost/health/result conditions. Root directly matched raw2SHA and officialguidePDF148 Aug16/19 renewals, Aug7/8 transfers and Oct12Gabrielwaiver against candidate separation. Only conditional rotation capacity accepted; writer3controls are not independent review.",
+    "simultaneous_conditional_capacity_constructed": true,
+    "whole_legal_roster_cost_family_pass": false,
+    "actual_contract_acceptance_medical_or_registration": false,
+    "dated_NBA_acquisition_health_OT_or_result_selected": false,
+    "new_author_lock": false,
+    "whole2021_22_or_macro3_complete": false,
+    "central_or_REGISTER_changed": false,
+    "actual_context_packs": 0,
+    "manuscript_written": 0
+  }
+}

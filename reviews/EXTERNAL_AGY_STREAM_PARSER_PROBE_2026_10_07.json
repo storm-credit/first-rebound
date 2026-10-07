@@ -1,0 +1,106 @@
+{
+  "tool": "Antigravity",
+  "scope": "STREAM_EVENT_PARSER_FORMAT_DIAGNOSTIC_ONLY",
+  "source_evidence_not_collected": true,
+  "reason": "Firststream collection revealed event/result shape, discardedraw cannot be reparsed. One new fixed-keyword no-tool probe identifies usable fieldpaths; not restart based on waitingtimeout.",
+  "prompt_sha256": "973e13031fee04b05bfe6ded72f65fe5f86769b597945830dd64367a8d19413c",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 20.365,
+    "process_budget_seconds": 50,
+    "event_shapes": [
+      {
+        "event": "init",
+        "keys": [
+          "event",
+          "conversation_id",
+          "init"
+        ]
+      },
+      {
+        "event": "step_update",
+        "keys": [
+          "event",
+          "step_update"
+        ]
+      },
+      {
+        "event": "step_update",
+        "keys": [
+          "event",
+          "step_update"
+        ]
+      },
+      {
+        "event": "step_update",
+        "keys": [
+          "event",
+          "step_update"
+        ]
+      },
+      {
+        "event": "step_update",
+        "keys": [
+          "event",
+          "step_update"
+        ]
+      },
+      {
+        "event": "result",
+        "keys": [
+          "event",
+          "result"
+        ]
+      }
+    ],
+    "distinct_key_paths": [
+      "$.conversation_id",
+      "$.event",
+      "$.init",
+      "$.init.cwd",
+      "$.init.model",
+      "$.init.permission_mode",
+      "$.init.tools",
+      "$.result",
+      "$.result.conversation_id",
+      "$.result.duration_seconds",
+      "$.result.num_turns",
+      "$.result.response",
+      "$.result.status",
+      "$.result.usage",
+      "$.result.usage.cache_read_tokens",
+      "$.result.usage.input_tokens",
+      "$.result.usage.output_tokens",
+      "$.result.usage.thinking_tokens",
+      "$.result.usage.total_tokens",
+      "$.step_update",
+      "$.step_update.conversation_id",
+      "$.step_update.duration_seconds",
+      "$.step_update.state",
+      "$.step_update.step_index",
+      "$.step_update.step_type",
+      "$.step_update.text_delta",
+      "$.step_update.usage",
+      "$.step_update.usage.cache_read_tokens",
+      "$.step_update.usage.input_tokens",
+      "$.step_update.usage.output_tokens",
+      "$.step_update.usage.thinking_tokens",
+      "$.step_update.usage.total_tokens"
+    ],
+    "keyword_locations": [
+      {
+        "path": "$.result.response",
+        "exact_keyword_reply": true,
+        "characters": 21
+      }
+    ],
+    "stdout_sha256": "5ad5781cf931178c455dcceca97cc6390853236f210c72d78f346fce95ab981c",
+    "stderr_sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  "keyword_recovered": true,
+  "independent_primary_collection_PASS": false,
+  "raw_logs_retained": false,
+  "global_settings_changed": false,
+  "manuscript_allowed": false
+}
