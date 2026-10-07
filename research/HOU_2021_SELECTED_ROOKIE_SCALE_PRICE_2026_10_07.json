@@ -1,0 +1,156 @@
+{
+  "schema": "HOU_2021_SELECTED_RSC_REFERENCE_PRICE_AND_STATUTORY_FUNCTION_V2",
+  "status": "TWO_SELECTED_RSC_STATUTORY_FUNCTIONS_WITH_REPORTED_REFERENCE_POINTS_NO_NUMERIC_UPC_CERTIFICATION",
+  "source_sha256": {
+    "research/BOS_OKC_HOU_2021_POST_T1_OPENING_INTERVALS_2026_10_07.json": "fc5a00f3268da6de99fe0b5d695e776ac8e3935090dfa4c54f5b086112f5aea6"
+  },
+  "source_hash_method": "UTF8_LF_SHA256",
+  "self_sha256": "8851de3cec35d7b75708b3a609eb9849ec440428441e3cbd10fe71a59eca4213",
+  "raw_sources": {
+    "NBA_CAP_2017": {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-hou-rsc-price-20261007\\NBA_CAP_2017.html",
+      "raw_sha256": "67e1c0e1126f3fcbced41896a26ee28d7dd14123cba36a9c6a19dd56017526a5",
+      "url": "https://www.nba.com/news/nba-salary-cap-set-2017-18-season-99093-million"
+    },
+    "NBA_CAP_2021": {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-hou-rsc-price-20261007\\NBA_CAP_2021.html",
+      "raw_sha256": "9e2a73e5ca9b588bb58a662f5fc8b7f6fd00096b8efde6f40c65d9119c865082",
+      "url": "https://www.nba.com/news/salary-cap-set-at-112-4-million-for-2021-22-season"
+    },
+    "HOOPS_RUMORS_REPORT": {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-hou-rsc-price-20261007\\HOOPS_RUMORS_2021_ROOKIE_SCALE.html",
+      "raw_sha256": "65e23ec684ad4e37567eb731b298c62a0999d335eae2fd2a4046e9434b73ea49",
+      "url": "https://www.hoopsrumors.com/2021/08/rookie-scale-salaries-for-2021-nba-first-round-picks.html"
+    },
+    "CBA_2017": {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "url": "https://official.nba.com/2017-nba-collective-bargaining-agreement/"
+    }
+  },
+  "CBA_pdf_page_text_sha256": {
+    "31": "b432874781695f94a2c94244a203ce8bcb5e6ba2ad5a08984a32e12ade038af3",
+    "294": "17a15e17207724b7bd9314d9fd2276e8a52d3460d6c062e5641d4fb682a900f7",
+    "296": "9a75832d9909847ff025943fbfd9edb11b962fb43922715e72e1874b3e309296",
+    "297": "0d08812db4e42f2895a45a905ed8fe4f626368e7c1c2d50e3c4d91ded19b8f3f",
+    "559": "48bb5add7364d332c1ffd051b5b89ba9f5ef769995048125a7cfd80c5c810037"
+  },
+  "CBA_page_text_method": "pdftotext_-layout_single_page_UTF8_LF_strip_final_formfeed",
+  "formula": "2017 Exhibit B-2 baseline x 1.45 (2019-20 uplift) x official 2021-22 cap / official 2017-18 cap; 2020-21 and 2021-22 annual changes telescope before unpublished rounding",
+  "formula_cap_usd": {
+    "2017-18": 99093000,
+    "2021-22": 112414000
+  },
+  "unpublished_annual_rounding_not_claimed_exact": true,
+  "statutory_salary_policy": "1.2*operative_legal_2021_RSC_scale(pick,contract_year); fourth year if exercised follows Article VIII Section 1 option raise",
+  "operative_official_2021_scale_table_physically_loaded": false,
+  "reported_point_vs_unrounded_CBA_formula_is_similarity_not_legal_ceiling_proof": true,
+  "players": [
+    {
+      "pick": 2,
+      "player": "Jalen Green",
+      "team": "HOU",
+      "reported_source_type": "SECONDARY_PUBLIC_2021_PRICE_TABLE_NOT_LEAGUE_UPC",
+      "CBA_Exhibit_B2_2017_baseline_usd": [
+        4555500,
+        4783300,
+        5011100
+      ],
+      "CBA_Exhibit_B2_fourth_option_raise_percent": "26.200",
+      "2021_scale_100_percent_inferred_from_report_usd": [
+        7493400,
+        7868200,
+        8242900
+      ],
+      "independent_CBA_cap_formula_unrounded_distance_usd": [
+        "44.205",
+        "42.461",
+        "29.128"
+      ],
+      "reference_reported_120_percent_proposal_usd_by_season": {
+        "2021-22": 8992080,
+        "2022-23": 9441840,
+        "2023-24_if_third_option_exercised": 9891480,
+        "2024-25_if_fourth_option_exercised": 12483048
+      },
+      "selected_statutory_salary_function": {
+        "2021-22": "1.2*operative_2021_RSC_scale(pick_2,year_1)",
+        "2022-23": "1.2*operative_2021_RSC_scale(pick_2,year_2)",
+        "2023-24_if_third_option_exercised": "1.2*operative_2021_RSC_scale(pick_2,year_3)",
+        "2024-25_if_fourth_option_exercised": "1.2*operative_2021_RSC_scale(pick_2,year_3)*(1+0.262)"
+      },
+      "actual_selected_salary_usd_certified": null,
+      "reference_first_two_seasons_usd": 18433920,
+      "third_option_exercised_now": false,
+      "fourth_option_exercised_now": false,
+      "reference_four_year_if_both_options_later_exercised_usd": 40808448,
+      "reported_point_matches_unrounded_formula_within_50_usd_not_legal_upper_proof": true,
+      "operative_league_scale_or_exact_rounding_certified": false,
+      "actual_private_contract_certified": false
+    },
+    {
+      "pick": 16,
+      "player": "Alperen Sengun",
+      "team": "HOU",
+      "reported_source_type": "SECONDARY_PUBLIC_2021_PRICE_TABLE_NOT_LEAGUE_UPC",
+      "CBA_Exhibit_B2_2017_baseline_usd": [
+        1628600,
+        1710000,
+        1791500
+      ],
+      "CBA_Exhibit_B2_fourth_option_raise_percent": "53.400",
+      "2021_scale_100_percent_inferred_from_report_usd": [
+        2678900,
+        2812800,
+        2946900
+      ],
+      "independent_CBA_cap_formula_unrounded_distance_usd": [
+        "20.697",
+        "17.384",
+        "21.437"
+      ],
+      "reference_reported_120_percent_proposal_usd_by_season": {
+        "2021-22": 3214680,
+        "2022-23": 3375360,
+        "2023-24_if_third_option_exercised": 3536280,
+        "2024-25_if_fourth_option_exercised": 5424654
+      },
+      "selected_statutory_salary_function": {
+        "2021-22": "1.2*operative_2021_RSC_scale(pick_16,year_1)",
+        "2022-23": "1.2*operative_2021_RSC_scale(pick_16,year_2)",
+        "2023-24_if_third_option_exercised": "1.2*operative_2021_RSC_scale(pick_16,year_3)",
+        "2024-25_if_fourth_option_exercised": "1.2*operative_2021_RSC_scale(pick_16,year_3)*(1+0.534)"
+      },
+      "actual_selected_salary_usd_certified": null,
+      "reference_first_two_seasons_usd": 6590040,
+      "third_option_exercised_now": false,
+      "fourth_option_exercised_now": false,
+      "reference_four_year_if_both_options_later_exercised_usd": 15550974,
+      "reported_point_matches_unrounded_formula_within_50_usd_not_legal_upper_proof": true,
+      "operative_league_scale_or_exact_rounding_certified": false,
+      "actual_private_contract_certified": false
+    }
+  ],
+  "combined_reference_reported_120_percent_proposal_usd": {
+    "2021-22": 12206760,
+    "2022-23": 12817200,
+    "2023-24_if_both_third_options_exercised": 13427760,
+    "2024-25_if_both_fourth_options_exercised": 17907702
+  },
+  "combined_reference_first_two_seasons_usd": 25023960,
+  "combined_reference_four_year_if_both_options_later_exercised_usd": 56359422,
+  "option_years_not_live_liabilities_now": true,
+  "unchanged_parent_scope": {
+    "named_new_RSC_events": 2,
+    "unexecuted_reported_rows": 80,
+    "BOS_OKC_HOU_full_interval_legal_complete": false,
+    "HOU_whole_six_category_team_cost_complete": false,
+    "regular_season_15_plus_2_complete": false,
+    "actual_contract_paper_or_medical_certified": false,
+    "whole_2021_22_season_complete": false,
+    "new_author_lock": false,
+    "manuscript_allowed": false
+  },
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL"
+}
