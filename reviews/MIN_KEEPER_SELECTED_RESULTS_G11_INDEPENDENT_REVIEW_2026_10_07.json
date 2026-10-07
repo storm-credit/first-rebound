@@ -1,0 +1,47 @@
+{
+  "id": "MIN_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_MINNESOTA_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_min_2021_keeper_and_chicago_selected_results.py": "a0a17c2b7bd4876b6a5438e711f88a81b24a619e15adb6dec595200c2646841f",
+    "simulation/CHICAGO_MINNESOTA_2021_22_SELECTED_KEEPER_RESULTS.json": "64e4cd9abddc2005fc06f621a24c9583eb51b4b99a9f9aa8f9d9a38b79e5fde9",
+    "simulation/CHICAGO_MINNESOTA_2021_22_SELECTED_KEEPER_RESULTS.md": "a68a836ccfed6a2870da8ea7b609a602aae00d1a538de54e9fc7616631f4681b"
+  },
+  "source_and_contract_scope": "The already selected fictional Minnesota rival replaces the original Anthony Edwards draft path; the original AUTHOR_PACKET R1 BPM_MAR25_EB reported comparison point 1.0252302025782687 is carried as an exact decimal fraction to these two dates, without claiming a real NBA player, future production or new MVP growth. Original seed14 gains Jordan McLaughlin as an own one-year standard minimum UPC after two same-team one-year two-way seasons; the prior standard QO/FA floor remains conditioned and is not a 50k two-way QO. Jarred Vanderbilt DEN-to-MIN service continuity supports a Full Bird three-year q3-5m family; Ed Davis own minimum. Ricky Rubio remains MIN and is absent from selected CLE, while Patrick Beverley stays LAC and is absent from MIN. Actual prices, notices and whole private cost remain unverified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Minnesota_player_seconds_each": 14400,
+    "positive_Minnesota_players": 11,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; zero-minute Culver active is not a medical absence claim",
+    "exact_fraction_recalculation": "Independently recomputed both exact Chicago-minus-Minnesota fractions from saved player rating fractions and seconds, then home/fatigue effects. Rival decimal point and current SG32 working role are separate from earlier 28-minute role.",
+    "results": [
+      {
+        "game_id": "0022100843",
+        "date": "2022-02-11",
+        "Chicago_state": "NORMAL",
+        "winner": "CHI",
+        "CHI_margin_per100": 5.021553135244284
+      },
+      {
+        "game_id": "0022101224",
+        "date": "2022-04-10",
+        "Chicago_state": "COBY_OUT",
+        "winner": "CHI",
+        "CHI_margin_per100": 1.6198013715501203
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; named role checker reproduced 11 positive player seconds and both dates match delegated Chicago states.",
+  "independent_negative_control": {
+    "mutation": "In both returned source loaders raised AUTHOR_PACKET R1 BPM_MAR25_EB effective_rating by 0.1 while pinned physical source bytes remained unchanged.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/CHICAGO_2020_21_AUTHOR_PACKET.json"
+  },
+  "limits": [
+    "The fictional rival coefficient is a carried design comparison number, not real Anthony Edwards 2021-22 stats, a new award or medical fact.",
+    "No exact contract price, score/overtime, additional MIN dates, whole season or macro completion is certified."
+  ]
+}

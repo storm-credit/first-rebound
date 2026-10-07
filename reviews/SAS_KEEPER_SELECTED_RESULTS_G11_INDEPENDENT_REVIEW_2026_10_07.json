@@ -1,0 +1,45 @@
+{
+  "id": "SAS_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_TWO_DATE_SELECTED_FICTIONAL_SAN_ANTONIO_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_sas_2021_keeper_and_chicago_selected_results.py": "2355206b2d3e1ef626254fb64303e6087fbe88e6972d2829a32fc7ba9621137e",
+    "simulation/CHICAGO_SAN_ANTONIO_2021_22_SELECTED_KEEPER_RESULTS.json": "8a855d70fb97195e77caaca8062e093b7de2c9d2217c79c701fb4de1fd4fd14f",
+    "simulation/CHICAGO_SAN_ANTONIO_2021_22_SELECTED_KEEPER_RESULTS.md": "aecf25b2daa4f2c6fb334e3c598151de9e0970f910b03103f324b7a63a9c8b62"
+  },
+  "source_and_contract_scope": "Selected Chicago Young/Satoransky core stays, so San Antonio retains DeMar DeRozan on its own Full Bird five-year q20-25m family rather than importing the original Chicago sign-and-trade. Patty Mills and Rudy Gay own Bird three-year families preserve prior service and old Gamma; selected BKN and UTA registrations do not contain them. Trey Lyles original SAS expiry/new UPC zero is separated from current DET owner. Selected #13 Joshua Primo is an RSC entrant while #44 BJ Boston remains unsigned tender; original draft placements are not imported. Derrick White December 2020 extension stays live, without original later Boston exchange. Exact signed price, institution receipt and whole private cost remain unverified.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "San_Antonio_player_seconds_each": 14400,
+    "positive_San_Antonio_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; #44 unsigned",
+    "exact_fraction_recalculation": "Both exact Chicago-minus-San Antonio fractions recomputed from saved exact per-player rating fractions, player seconds, home and fatigue effects.",
+    "results": [
+      {
+        "game_id": "0022100742",
+        "date": "2022-01-28",
+        "winner": "CHI",
+        "CHI_margin_per100": 0.3196133230937201
+      },
+      {
+        "game_id": "0022100861",
+        "date": "2022-02-14",
+        "winner": "CHI",
+        "CHI_margin_per100": 4.31961332309372
+      }
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned []; role-block checker reproduced the 12 named positive player seconds and both dates use selected Chicago NORMAL health.",
+  "independent_negative_control": {
+    "mutation": "Added Rudy Gay to the returned Utah dated standard registration in both physical and direct loaders while leaving actual UTA source bytes unchanged.",
+    "result": "REJECTED ValueError: Returned physical/source semantic differs simulation/CHICAGO_UTAH_2021_SELECTED_KEEPER_RESULT.json"
+  },
+  "limits": [
+    "The original profile was web-observed; an incorrect-slug empty shell and HTTP 403 raw response were not body evidence.",
+    "Actual White trade, clinical history, score/overtime, remaining season and whole macro certification are not inferred."
+  ]
+}
