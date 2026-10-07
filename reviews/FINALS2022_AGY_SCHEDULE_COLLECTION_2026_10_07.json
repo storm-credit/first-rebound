@@ -1,0 +1,87 @@
+{
+  "tool": "Antigravity",
+  "scope": "ORIGINAL_BROADCAST_SCHEDULE_NOT_ALTERNATE_RESULT",
+  "source_url": "https://espnpressroom.com/press-release/2022-nba-finals-presented-by-youtubetv-exclusively-on-abc-golden-state-warriors-vs-boston-celtics-starts-june-2/",
+  "prompt_sha256": "4a4e14e5dbcb5171b53af2373bc2dad3b328ebc65fb19c9721f2a286978fbac1",
+  "result": {
+    "status": "OWNED_PROCESS_TIMEOUT",
+    "exit_code": 1,
+    "elapsed_seconds": 45.203,
+    "process_budget_seconds": 45,
+    "stdout_sha256": "c88602a5a4399038ab0b47fdc6c7b6452b82894a2c35a4d0f4b00da55befaa1f",
+    "stderr_sha256": "dfe584ff6a663eef6bd23cbf55c153b40494c3f343673c54eea9ba66f8445060",
+    "raw_logs_retained": false
+  },
+  "parsed": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "4aa73747-f504-4b08-9cf3-2ec15c262ef0",
+      "status": "SUCCESS",
+      "response": "",
+      "duration_seconds": 34.659289,
+      "num_turns": 1
+    },
+    "response_recovered": false,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "7c36bf31b2bc670de66719783385fc49caefaa30ff23f46d482773ff0baee4ae"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "7c36bf31b2bc670de66719783385fc49caefaa30ff23f46d482773ff0baee4ae"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "c88602a5a4399038ab0b47fdc6c7b6452b82894a2c35a4d0f4b00da55befaa1f",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "",
+      "char_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "truncated": false,
+      "available": false,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "answer_recovered": false,
+  "primary_body_bytes_independently_certified": false,
+  "whole_gate_certified": false
+}

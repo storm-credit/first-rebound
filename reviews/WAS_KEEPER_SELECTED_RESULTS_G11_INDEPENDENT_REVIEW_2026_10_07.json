@@ -1,0 +1,36 @@
+{
+  "id": "WAS_KEEPER_SELECTED_RESULTS_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_THREE_DATE_SELECTED_FICTIONAL_WASHINGTON_KEEPER_RESULTS",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_was_2021_keeper_and_chicago_selected_results.py": "64c85a49ede8e74114c009c076ae0f519ef54c495c0483828511bcbe6f7c2cef",
+    "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+    "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.md": "cb4778f887343f901606c54bc740368c5ed857a34e17a0ab3067e828a55f9479"
+  },
+  "source_and_contract_scope": "The selected Washington source preserves Gary Trent Jr. and Troy Brown Jr. on Washington rather than copying later actual transfers. Homesley leaves by a modeled nonassignment waiver before Kispert #12 RSC, with original protected salary, bonus and earned Gamma retained. Trent's trade-only three-season service supports an own Full Bird legal q10–14m family and a separate nonrookie QO function; Ish Smith's two prior Washington seasons support a distinct two-year Early Bird q5–7m function. Bonga's selected X6 development branch has no NBA UPC and does not create perpetual rights. The source keeps Mathews's STANDARD QO separate from Winston's TWO_WAY QO and their FA reservations. No exact signed price, waiver receipt or private absence certificate is inferred.",
+  "direct_clock_and_result_check": {
+    "role_blocks_each": 24,
+    "seconds_each": 2880,
+    "five_distinct_players_each_block": true,
+    "Washington_player_seconds_each": 14400,
+    "positive_Washington_players": 12,
+    "active_each": 12,
+    "registration": "15 standard, zero two-way; Bryant, Gill and Ish have zero selected minutes without clinical inference",
+    "exact_fraction_recalculation": "Weighted named ratings plus home and back-to-back terms reproduce each saved exact Chicago-minus-Washington margin.",
+    "results": [
+      {"game_id": "0022100541", "date": "2022-01-01", "winner": "CHI", "CHI_margin_per100": 1.369482048750678},
+      {"game_id": "0022100585", "date": "2022-01-07", "winner": "CHI", "CHI_margin_per100": 5.869482048750678},
+      {"game_id": "0022101132", "date": "2022-03-29", "winner": "CHI", "CHI_margin_per100": 1.369482048750678}
+    ]
+  },
+  "currentness": "Saved source-bound producer validate returned [] for the current JSON and MD.",
+  "independent_negative_control": {
+    "mutation": "Both returned inventory loader objects changed Mathews's next qualifying-offer kind from STANDARD to TWO_WAY while physical source bytes remained unchanged.",
+    "result": "REJECTED ValueError Selected Bonga/Mathews/Winston ancestor meaning changed"
+  },
+  "limits": [
+    "Original P1, Westbrook-to-Lakers, Porzingis-to-Washington and other later actual transfers are not imported.",
+    "Selected Bryant absence and Rui/Beal availability are fictional date models, not medical, psychological or protocol certifications; no score, overtime or remaining season result is selected."
+  ]
+}
