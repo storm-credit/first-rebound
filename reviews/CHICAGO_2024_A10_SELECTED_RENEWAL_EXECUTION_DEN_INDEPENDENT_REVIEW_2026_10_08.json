@@ -1,0 +1,93 @@
+{
+  "schema": "A10_SELECTED_RENEWAL_DEN_INDEPENDENT_REVIEW_V1",
+  "status": "INDEPENDENTLY_ACCEPTED_SELECTED_FICTIONAL_DATED_CONTRACT_FAMILY",
+  "independent_review_completed": true,
+  "reviewer": "den_pick_full_branch",
+  "source_sha256": {
+    "tools/build_chicago_2024_a10_selected_renewal_execution.py": "526df66f923d7e8a5970d2caec835ed4c9c62e8371147586c85ce4d7f28a171f",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.md": "f4e068e0de9a98f9c4b00b5033fc47f6afff293e1506c22e8e6a5868b679b07f"
+  },
+  "consumed_source_sha256": {
+    "canon/DELEGATED_CHICAGO_2024_A10_ROUTINE_RENEWAL_SELECTION_2026_10_08.json": "a6e9c297f5377dea04ece760a9a6ff259572dd465b78498b7d76cafdf7ab7c25",
+    "research/CHICAGO_2024_25_A10_NAMED_ROLE_WINDOW_COST_FAMILY_2026_10_08.json": "af4f3b340841251a50646fb05aeefcc415e95c4fc07b3c2e02e3f9af8bb14bb1",
+    "tools/build_chicago_2024_25_a10_named_role_window_cost_family.py": "ab4de10e3efed840495cf42327b112cb613bf3f2b6baa9b4685c0755058dc16f",
+    "reviews/CHICAGO_2024_25_A10_NAMED_ROLE_WINDOW_COST_FAMILY_DEN_INDEPENDENT_REVIEW_2026_10_08.json": "036e340011ef12f3f2fc00a6690dde7fcf8ada5f7aa944ddb3c5b1b34fe00f93"
+  },
+  "read_scope": {
+    "producer_full_code": true,
+    "four_dated_states": true,
+    "live10_plus_selected5": true,
+    "STD": 15,
+    "TW_UPC": 0,
+    "original_family_primary_review": "reviews/CHICAGO_2024_25_A10_NAMED_ROLE_WINDOW_COST_FAMILY_DEN_INDEPENDENT_REVIEW_2026_10_08.json",
+    "primary_reread_or_whole_ancestor_reaudit_claimed": false
+  },
+  "direct_semantic_findings": [
+    "July1 and July7 pre-cleanup preserve five expired UFA claims, completed-TW claims and unused annual exceptions.",
+    "July7 cleanup removes only selected claims/exceptions; five selected minimum UP Cs each replace the same FA claim once.",
+    "Original live contracts/protection, R24 interval, positive minimum functions, D24_N/A typed unknown, contingent lawful HigherMax and tax/cash distinction remain preserved."
+  ],
+  "actual_independent_return_probe": {
+    "site": "construct after original return",
+    "mutation": "source live10[0] and returned live10[0] original_Gamma_and_protection_preserved True to False simultaneously",
+    "historical_initial_build": "ACCEPTED",
+    "historical_initial_validate": "REJECTED by fresh physical payload validation",
+    "initial_build_plus_validate_false_PASS": false,
+    "material_risk": "CLI writes build result before validate; build-only alias corruption could be persisted.",
+    "repair": "After construct, recheck source against fresh physical and check returned payload against independent fresh physical.",
+    "final_build": "REJECTED",
+    "final_reason": "Returned selection/family differs from physical input",
+    "independent_fault_sites": 1,
+    "writer_self_controls_counted_as_independent": 0
+  },
+  "currentness": {
+    "three_final_LF_pins_match": true,
+    "all_four_pinned_inputs_match": true,
+    "saved_SELF_pin_matches": true,
+    "Markdown_matches_saved_output": true,
+    "full_ancestor_constructors_repeated_for_review": false
+  },
+  "qualification": {
+    "selected_fictional_contract_and_cleanup_complete": true,
+    "actual_cents_notice_receipt_payment_health_certified": false,
+    "A10_role_game_or_performance_selected_by_review": false,
+    "HigherMax_award_selected": false,
+    "whole_FY24_actual_ledger_or_career_complete": false,
+    "whole_A10_complete": false,
+    "new_author_lock": false,
+    "manuscript_allowed": false
+  },
+  "project_progress": [
+    {
+      "group": 1,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 2,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 3,
+      "state": "COMPLETE"
+    },
+    {
+      "group": 4,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 5,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 6,
+      "state": "INCOMPLETE"
+    },
+    {
+      "group": 7,
+      "state": "INCOMPLETE"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3
+}

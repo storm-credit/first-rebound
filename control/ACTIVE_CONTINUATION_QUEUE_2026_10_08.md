@@ -29,3 +29,7 @@
 60개 기능과 42개 국소 경로는 전체 커리어·전체막·Context Pack의 완료를 뜻하지 않는다. 계획 780칸 중 미배정칸은 같은 수의 추가 사건 의무가 아니다. 공개 대회·사적 임상·17시즌 전 경기 검사를 국소 출구마다 새 요건으로 추가하지 않는다. 원래 종료 조건은 [현행 로드맵](../design/WORLD_BIBLE_COMPLETION_ROADMAP.md)과 [유한 출구 감사](G13_WHOLE_ACT_EXIT_FINITE_AUDIT_2026_10_08.md)를 따른다.
 
 전체 미완료 큰 묶음 4개 / 6번까지 3개. PROJECT_FREEZE **v0.30 PARTIAL**, 설계·원고 **CLOSED**, 실제 Context Pack 0, 원고 0. 실행 중 Goal은 ACTIVE이며 이 문서는 주기 일정이 아니다.
+
+## A10 선택 갱신 실행 인계
+
+[2024 루틴 갱신](../simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json)을 독립 검문 후 인계했다. 다음은 명명된 A10 감독 역할·동료 closing/on-ball 비용·게임/자격 창이다. 계약 소비기 완료를 전체 커리어 완료로 읽지 않는다. 병행 작업은 기존 embedded Blueprint 재사용과 실제 누락 A06 Blueprint 및 A01 후속 준비 overlay 검문이다. 원고/실제Pack0·CLOSED를 유지한다.
