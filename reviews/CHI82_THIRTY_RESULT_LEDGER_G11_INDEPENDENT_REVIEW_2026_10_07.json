@@ -1,0 +1,38 @@
+{
+  "id": "CHI82_THIRTY_RESULT_LEDGER_G11_INDEPENDENT_REVIEW_2026_10_07",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_CURRENT_SELECTED_30_OF_82_JOIN_ONLY",
+  "source_hash_method": "UTF8_BOM_STRIPPED_LF_SHA256",
+  "source_sha256": {
+    "tools/build_chicago_2021_22_selected_results_ledger.py": "53bcb9fa9f045d10a40fdcf0ecc41cc2e1fb8c2c7e6a11b044c72c95de1f04cc",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "2f5af59ea7ce5d0a6a8843d63ac1e62f3e85a89582b9a5c3381b5a37f731cd73",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.md": "22d474ee19d8b742d152aad6f31f8006cea14e99e8e70aeee8503f978ba64038"
+  },
+  "independent_checks": [
+    {
+      "check": "physical calendar and delegated health",
+      "result": "All 82 result rows preserve physical handoff game_id/date/home/away/selected_CHI_state in order."
+    },
+    {
+      "check": "12 named groups",
+      "result": "Original DET2 plus TOR4/NOP1/NYK4/UTA1/BOS3/PHI4/BKN3/DAL2/GSW2/LAC2/LAL2 produce 30 unique keys; every winner and source/review pointer equals the current named group record."
+    },
+    {
+      "check": "complement and scope",
+      "result": "CHI14/opponents16, 52 remaining unique IDs exactly complement selected30; next POR game 0022100223 on 2021-11-17. All 82 score/OT null and actual medical/private/game receipt flag false."
+    },
+    {
+      "check": "saved artifact",
+      "result": "--check PASS."
+    }
+  ],
+  "independent_negative_control": {
+    "mutation": "returned LAL first selected winner flipped to CHI without changing physical source JSON",
+    "result": "REJECTED Returned input differs from physical source: simulation/CHICAGO_LAKERS_2021_22_SELECTED_KEEPER_RESULTS.json"
+  },
+  "history_preserved": "Prior 28-result review belongs to immutable main 7dea5ff6165cbf7b00cbee6651f94d2c194bacfd, not a current rewrite.",
+  "scope_limits": [
+    "Only 30 fictional regulation winners; no scores/overtime/full 82/standings/draft pick.",
+    "Whole macro G13/G14/G16, actual private/medical and manuscript remain false."
+  ]
+}
