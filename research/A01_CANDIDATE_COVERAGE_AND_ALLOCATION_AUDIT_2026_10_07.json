@@ -1,0 +1,143 @@
+{
+  "schema": "A01_CANDIDATE_COVERAGE_AND_ALLOCATION_AUDIT_V1",
+  "status": "SOURCE_SCOPED_COVERAGE_AUDIT_NOT_WHOLE_ACT_COMPLETION",
+  "baseline_main": "75a1d526e78ef53fbf3e72fa7cad8899a57debf9",
+  "candidate_source": "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json",
+  "candidate_count": 12,
+  "verified_local_function_paths": [
+    "design/A01_E1_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E2_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E3_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E4_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E5_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E6_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E7_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json",
+    "design/A01_E9_FINAL_EPISODE_FUNCTION.json"
+  ],
+  "candidate_projection": [
+    {
+      "candidate_id": "A01-CF01",
+      "function_ids": [
+        "A01-EF-001"
+      ],
+      "scope": "교실 회피와 관중석 진입"
+    },
+    {
+      "candidate_id": "A01-CF02",
+      "function_ids": [
+        "A01-EF-001",
+        "A01-EF-002"
+      ],
+      "scope": "조건부 제안은 E1, 수락과 실제 첫 체험 진입은 E2"
+    },
+    {
+      "candidate_id": "A01-CF03",
+      "function_ids": [
+        "A01-EF-002"
+      ],
+      "scope": "첫 훈련과 재능의 현재 한계"
+    },
+    {
+      "candidate_id": "A01-CF04",
+      "function_ids": [
+        "A01-EF-002"
+      ],
+      "scope": "동갑 라이벌에게 첫 완패"
+    },
+    {
+      "candidate_id": "A01-CF05",
+      "function_ids": [
+        "A01-EF-003"
+      ],
+      "scope": "패배 뒤 다음 허용 훈련에 복귀"
+    },
+    {
+      "candidate_id": "A01-CF06",
+      "function_ids": [
+        "A01-EF-003"
+      ],
+      "scope": "리바운드·아웃렛·동료 득점의 첫 기여"
+    },
+    {
+      "candidate_id": "A01-CF07",
+      "function_ids": [
+        "A01-EF-004"
+      ],
+      "scope": "기본 위치 학습의 첫 관측 실패와 수정 시도, 숙련 미완"
+    },
+    {
+      "candidate_id": "A01-CF08",
+      "function_ids": [
+        "A01-EF-005"
+      ],
+      "scope": "맡은 공 준비 시간의 한 번 이행"
+    },
+    {
+      "candidate_id": "A01-CF09",
+      "function_ids": [
+        "A01-EF-006"
+      ],
+      "scope": "게임의 즉시 보상보다 이번 맡은 준비 우선"
+    },
+    {
+      "candidate_id": "A01-CF10",
+      "function_ids": [
+        "A01-EF-007"
+      ],
+      "scope": "미국 대회 구조와 자기 미완 수행의 한 기회 비교"
+    },
+    {
+      "candidate_id": "A01-CF11",
+      "function_ids": [
+        "A01-EF-008"
+      ],
+      "scope": "국내 기록 담당 권한 문의와 미국권한 미답 분리"
+    },
+    {
+      "candidate_id": "A01-CF12",
+      "function_ids": [
+        "A01-EF-009"
+      ],
+      "scope": "기존 프렙 방향을 준비할 의사를 국내 감독에게 밝힘"
+    }
+  ],
+  "allocation_interpretation": {
+    "a01_planned_slots": 36,
+    "verified_local_functions": 9,
+    "unassigned_planned_slots": 27,
+    "thirty_six_independent_function_obligation": false,
+    "source_statement": "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.md §36슬롯과 12개 인과 기능을 구분한다",
+    "published_episode_count_certified": false,
+    "one_conditional_unit_equals_one_episode": false,
+    "cp2_validator_requires_slot_uniqueness": true,
+    "cp2_validator_requires_all_36_slots_filled_before_A02": false,
+    "cp2_validator_requires_function_order_contiguous": true
+  },
+  "limits": {
+    "all_twelve_candidate_actions_scoped_to_local_functions": true,
+    "whole_A01_act_or_each_subact_exit_certified": false,
+    "whole_G13_complete": false,
+    "A02_first_local_function_counted_here": false,
+    "actual_context_packs": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  },
+  "source_rev_convention": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "source_rev_sha256": {
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.json": "25138342ff7503de33c502d080002ee2057200521cb2a00d629d53914965447a",
+    "design/A01_CONDITIONAL_EPISODE_FUNCTIONS.md": "c0103f42f3861e66f0207a0b0e72ef9265be28232bcf3fe1ef20333554e6192c",
+    "design/CP2_ACT_SUBACT_PACKET.json": "3114d80d3fedcde78edf55038a5e6dda86f50e52f47a8d848c098daea6c00982",
+    "tools/build_cp2_design_packets.py": "66df95fdaeb61fff4f6596958b283aa66cf7f51a415c17b6f8c534a66da51c84",
+    "design/A01_E1_FINAL_EPISODE_FUNCTION.json": "340f98b148440fe60575b62be34d51185ae82eda85b1674048ef9d9e4c450159",
+    "design/A01_E2_FINAL_EPISODE_FUNCTION.json": "ac9e6350f678e9417a30f47a88c0c6c6dd43e661f3b59b63246f7e46e540865d",
+    "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "f7712af045c846cc3b9ae6748cf3d3a79f30919217051e6ef086d5209e0addb5",
+    "design/A01_E4_FINAL_EPISODE_FUNCTION.json": "ad926520b41079238a3d78e3a9a8c16201ab4aa1991d504cdd140797d13d9150",
+    "design/A01_E5_FINAL_EPISODE_FUNCTION.json": "3365a5d505f2cbe3d8442734dd81d482d78be150d3bea86e8ee42d12341f5e49",
+    "design/A01_E6_FINAL_EPISODE_FUNCTION.json": "9c5fa104822a364f76dbb53b85150d8122ec1c9383891437589d12675d4beaf3",
+    "design/A01_E7_FINAL_EPISODE_FUNCTION.json": "a175ea987cf76456fe3bd5c2bc1c467b7a77ec214f950efc7f609e0df68953fe",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "6f634222229b26ae316f27fcc4322dd6a06745a23fe65d33c4f3e8c6b9b991de",
+    "design/A01_E9_FINAL_EPISODE_FUNCTION.json": "748b5e628b5433fd10e1b5d060571a082775d78a53eb7c038842df3ac62f62b7"
+  }
+}

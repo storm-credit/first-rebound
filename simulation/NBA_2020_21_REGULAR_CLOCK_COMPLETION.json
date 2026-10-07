@@ -3,7 +3,7 @@
   "source": "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json",
   "source_hash_method": "SHA256_UTF8_LF_NORMALIZED",
   "source_sha256": {
-    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "15a5f3c96aedcb9eccc7093fea5f50c44ab514a0164fcfae89314632473f1358",
+    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400",
     "simulation/CHICAGO_2020_21_PREDEADLINE_PAIRED_OBSERVATIONS.csv": "b5558fb491c70d9cc1c26089023d1f3a7f70c63a7c80fc31f87e31c4eced980e",
     "simulation/CHICAGO_2020_21_BPM_MAR25_SNAPSHOT.csv": "1d1455f7f4ddd73ef46e3ce16752b558c392ed2d284434acd295ca6659e937ef"
   },
@@ -254785,28 +254785,32 @@
       "player_seconds": {
         "Aaron Gordon": 1871,
         "Facundo Campazzo": 1386,
-        "JaVale McGee": 579,
         "Michael Porter Jr.": 1886,
         "Monte Morris": 1529,
         "Nikola Jokic": 2301,
         "PJ Dozier": 960,
         "Paul Millsap": 1008,
         "Saddiq Bey": 1200,
-        "Will Barton": 1680
+        "Will Barton": 1680,
+        "Isaiah Hartenstein": 579
       },
       "game_duration_seconds": 2880,
       "source": {
-        "path": "simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json",
-        "pointer": "LOW_MINUTES branch event_id=2021-04-09_DEN_SAS;team=DEN",
-        "stage": "E",
-        "source_profile": "LOW_MINUTES"
+        "path": "simulation/NBA_2020_21_K1_BASE_INPUT_JOIN.json",
+        "operation": "F5_RETAINED_COUNTERPART_UNCOVERED_SOURCE_BRANCH",
+        "original_branch_source": {
+          "path": "simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json",
+          "pointer": "LOW_MINUTES branch event_id=2021-04-09_DEN_SAS;team=DEN",
+          "stage": "E",
+          "source_profile": "LOW_MINUTES"
+        }
       },
       "raw_total_seconds": 14400,
       "required_total_seconds": 14400,
       "normalization_delta_seconds": 0,
       "normalization_applied": false,
       "solver_float_residual_seconds": 0,
-      "clock_status": "EXACT",
+      "clock_status": "EXACT_AUTHOR_WORKING_OVERLAY",
       "starters": [
         "Aaron Gordon",
         "Facundo Campazzo",
@@ -254839,7 +254843,7 @@
           "players": [
             "Aaron Gordon",
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Michael Porter Jr.",
             "Saddiq Bey"
           ],
@@ -254848,7 +254852,7 @@
         {
           "players": [
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "PJ Dozier",
             "Paul Millsap",
             "Will Barton"
@@ -254858,7 +254862,7 @@
         {
           "players": [
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Monte Morris",
             "Paul Millsap",
             "Will Barton"
@@ -254868,7 +254872,7 @@
         {
           "players": [
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Michael Porter Jr.",
             "Paul Millsap",
             "Saddiq Bey"
@@ -254878,7 +254882,7 @@
         {
           "players": [
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Michael Porter Jr.",
             "Monte Morris",
             "Saddiq Bey"
@@ -254888,7 +254892,7 @@
         {
           "players": [
             "Facundo Campazzo",
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Monte Morris",
             "Paul Millsap",
             "Saddiq Bey"
@@ -254896,11 +254900,34 @@
           "seconds": 1.0
         }
       ],
-      "overlay_applied": false,
+      "removed_players": [
+        "JaVale McGee"
+      ],
+      "starters_classification": "EXPLICIT_AUTHOR_WORKING_STARTING_FIVE_NOT_OBSERVED_ALTERNATE_LINEUP",
+      "f5_scope_completion": {
+        "original_donor": "JaVale McGee",
+        "retained_counterpart": "Isaiah Hartenstein",
+        "seconds": 579,
+        "original_full_vector": {
+          "Aaron Gordon": 1871,
+          "Facundo Campazzo": 1386,
+          "JaVale McGee": 579,
+          "Michael Porter Jr.": 1886,
+          "Monte Morris": 1529,
+          "Nikola Jokic": 2301,
+          "PJ Dozier": 960,
+          "Paul Millsap": 1008,
+          "Saddiq Bey": 1200,
+          "Will Barton": 1680
+        },
+        "classification": "AUTHOR_DELEGATED_WORKING_MODEL_NOT_MEDICAL_PROOF"
+      },
+      "overlay_stage": "F5_SCOPE_COMPLETION",
+      "overlay_applied": true,
       "modeled_available": [
         "Aaron Gordon",
         "Facundo Campazzo",
-        "JaVale McGee",
+        "Isaiah Hartenstein",
         "Michael Porter Jr.",
         "Monte Morris",
         "Nikola Jokic",
@@ -277439,26 +277466,30 @@
         "Collin Sexton": 2083,
         "Darius Garland": 2409,
         "Isaac Okoro": 1883,
-        "Isaiah Hartenstein": 962,
         "Jarrett Allen": 1918,
         "Kevin Love": 1806,
         "Larry Nance Jr.": 1623,
         "Matthew Dellavedova": 641,
-        "Taurean Prince": 1075
+        "Taurean Prince": 1075,
+        "JaVale McGee": 962
       },
       "game_duration_seconds": 2880,
       "source": {
-        "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_IMPACT.json",
-        "pointer": "LOW_MINUTES branch event_id=2021-04-17_CHI_CLE;team=CLE",
-        "stage": "CHI_POST",
-        "source_profile": "LOW_MINUTES"
+        "path": "simulation/NBA_2020_21_K1_BASE_INPUT_JOIN.json",
+        "operation": "F5_RETAINED_COUNTERPART_UNCOVERED_SOURCE_BRANCH",
+        "original_branch_source": {
+          "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_IMPACT.json",
+          "pointer": "LOW_MINUTES branch event_id=2021-04-17_CHI_CLE;team=CLE",
+          "stage": "CHI_POST",
+          "source_profile": "LOW_MINUTES"
+        }
       },
       "raw_total_seconds": 14400,
       "required_total_seconds": 14400,
       "normalization_delta_seconds": 0,
       "normalization_applied": false,
       "solver_float_residual_seconds": 0,
-      "clock_status": "EXACT",
+      "clock_status": "EXACT_AUTHOR_WORKING_OVERLAY",
       "starters": [
         "Collin Sexton",
         "Darius Garland",
@@ -277481,7 +277512,7 @@
           "players": [
             "Collin Sexton",
             "Darius Garland",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Larry Nance Jr.",
             "Taurean Prince"
           ],
@@ -277511,7 +277542,7 @@
           "players": [
             "Darius Garland",
             "Isaac Okoro",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Larry Nance Jr.",
             "Taurean Prince"
           ],
@@ -277521,7 +277552,7 @@
           "players": [
             "Darius Garland",
             "Isaac Okoro",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Kevin Love",
             "Larry Nance Jr."
           ],
@@ -277548,12 +277579,34 @@
           "seconds": 1.0
         }
       ],
-      "overlay_applied": false,
+      "removed_players": [
+        "Isaiah Hartenstein"
+      ],
+      "starters_classification": "EXPLICIT_AUTHOR_WORKING_STARTING_FIVE_NOT_OBSERVED_ALTERNATE_LINEUP",
+      "f5_scope_completion": {
+        "original_donor": "Isaiah Hartenstein",
+        "retained_counterpart": "JaVale McGee",
+        "seconds": 962,
+        "original_full_vector": {
+          "Collin Sexton": 2083,
+          "Darius Garland": 2409,
+          "Isaac Okoro": 1883,
+          "Isaiah Hartenstein": 962,
+          "Jarrett Allen": 1918,
+          "Kevin Love": 1806,
+          "Larry Nance Jr.": 1623,
+          "Matthew Dellavedova": 641,
+          "Taurean Prince": 1075
+        },
+        "classification": "AUTHOR_DELEGATED_WORKING_MODEL_NOT_MEDICAL_PROOF"
+      },
+      "overlay_stage": "F5_SCOPE_COMPLETION",
+      "overlay_applied": true,
       "modeled_available": [
         "Collin Sexton",
         "Darius Garland",
         "Isaac Okoro",
-        "Isaiah Hartenstein",
+        "JaVale McGee",
         "Jarrett Allen",
         "Kevin Love",
         "Larry Nance Jr.",
@@ -286692,28 +286745,32 @@
         "Darius Garland": 1767,
         "Dean Wade": 626,
         "Isaac Okoro": 1660,
-        "Isaiah Hartenstein": 973,
         "Jarrett Allen": 1728,
         "Kevin Love": 1542,
         "Lamar Stevens": 179,
         "Larry Nance Jr.": 1309,
         "Matthew Dellavedova": 1107,
         "Mfiondu Kabengele": 173,
-        "Taurean Prince": 1282
+        "Taurean Prince": 1282,
+        "JaVale McGee": 973
       },
       "game_duration_seconds": 2880,
       "source": {
-        "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_IMPACT.json",
-        "pointer": "LOW_MINUTES branch event_id=2021-04-21_CLE_CHI;team=CLE",
-        "stage": "CHI_POST",
-        "source_profile": "LOW_MINUTES"
+        "path": "simulation/NBA_2020_21_K1_BASE_INPUT_JOIN.json",
+        "operation": "F5_RETAINED_COUNTERPART_UNCOVERED_SOURCE_BRANCH",
+        "original_branch_source": {
+          "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_PAIRED_IMPACT.json",
+          "pointer": "LOW_MINUTES branch event_id=2021-04-21_CLE_CHI;team=CLE",
+          "stage": "CHI_POST",
+          "source_profile": "LOW_MINUTES"
+        }
       },
       "raw_total_seconds": 14400,
       "required_total_seconds": 14400,
       "normalization_delta_seconds": 0,
       "normalization_applied": false,
       "solver_float_residual_seconds": 0,
-      "clock_status": "EXACT",
+      "clock_status": "EXACT_AUTHOR_WORKING_OVERLAY",
       "starters": [
         "Collin Sexton",
         "Darius Garland",
@@ -286735,7 +286792,7 @@
         {
           "players": [
             "Dean Wade",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Larry Nance Jr.",
             "Matthew Dellavedova",
             "Taurean Prince"
@@ -286745,7 +286802,7 @@
         {
           "players": [
             "Collin Sexton",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Larry Nance Jr.",
             "Matthew Dellavedova",
             "Taurean Prince"
@@ -286815,7 +286872,7 @@
         {
           "players": [
             "Isaac Okoro",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Jarrett Allen",
             "Larry Nance Jr.",
             "Taurean Prince"
@@ -286826,7 +286883,7 @@
           "players": [
             "Darius Garland",
             "Isaac Okoro",
-            "Isaiah Hartenstein",
+            "JaVale McGee",
             "Larry Nance Jr.",
             "Taurean Prince"
           ],
@@ -286853,14 +286910,40 @@
           "seconds": 1.0
         }
       ],
-      "overlay_applied": false,
+      "removed_players": [
+        "Isaiah Hartenstein"
+      ],
+      "starters_classification": "EXPLICIT_AUTHOR_WORKING_STARTING_FIVE_NOT_OBSERVED_ALTERNATE_LINEUP",
+      "f5_scope_completion": {
+        "original_donor": "Isaiah Hartenstein",
+        "retained_counterpart": "JaVale McGee",
+        "seconds": 973,
+        "original_full_vector": {
+          "Brodric Thomas": 173,
+          "Collin Sexton": 1881,
+          "Darius Garland": 1767,
+          "Dean Wade": 626,
+          "Isaac Okoro": 1660,
+          "Isaiah Hartenstein": 973,
+          "Jarrett Allen": 1728,
+          "Kevin Love": 1542,
+          "Lamar Stevens": 179,
+          "Larry Nance Jr.": 1309,
+          "Matthew Dellavedova": 1107,
+          "Mfiondu Kabengele": 173,
+          "Taurean Prince": 1282
+        },
+        "classification": "AUTHOR_DELEGATED_WORKING_MODEL_NOT_MEDICAL_PROOF"
+      },
+      "overlay_stage": "F5_SCOPE_COMPLETION",
+      "overlay_applied": true,
       "modeled_available": [
         "Brodric Thomas",
         "Collin Sexton",
         "Darius Garland",
         "Dean Wade",
         "Isaac Okoro",
-        "Isaiah Hartenstein",
+        "JaVale McGee",
         "Jarrett Allen",
         "Kevin Love",
         "Lamar Stevens",
@@ -306339,27 +306422,31 @@
         "Aaron Gordon": 1742,
         "Austin Rivers": 1588,
         "Facundo Campazzo": 2175,
-        "JaVale McGee": 691,
         "Michael Porter Jr.": 2369,
         "Nikola Jokic": 2189,
         "PJ Dozier": 960,
         "Paul Millsap": 1126,
         "Saddiq Bey": 1200,
-        "Shaquille Harrison": 360
+        "Shaquille Harrison": 360,
+        "Isaiah Hartenstein": 691
       },
       "game_duration_seconds": 2880,
       "source": {
-        "path": "simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json",
-        "pointer": "LOW_MINUTES branch event_id=2021-04-28_DEN_NOP;team=DEN",
-        "stage": "E",
-        "source_profile": "LOW_MINUTES"
+        "path": "simulation/NBA_2020_21_K1_BASE_INPUT_JOIN.json",
+        "operation": "F5_RETAINED_COUNTERPART_UNCOVERED_SOURCE_BRANCH",
+        "original_branch_source": {
+          "path": "simulation/NBA_2020_21_FINAL_CLOSE_PAIRED_IMPACT.json",
+          "pointer": "LOW_MINUTES branch event_id=2021-04-28_DEN_NOP;team=DEN",
+          "stage": "E",
+          "source_profile": "LOW_MINUTES"
+        }
       },
       "raw_total_seconds": 14400,
       "required_total_seconds": 14400,
       "normalization_delta_seconds": 0,
       "normalization_applied": false,
       "solver_float_residual_seconds": 0,
-      "clock_status": "EXACT",
+      "clock_status": "EXACT_AUTHOR_WORKING_OVERLAY",
       "starters": [
         "Aaron Gordon",
         "Facundo Campazzo",
@@ -306380,7 +306467,7 @@
         },
         {
           "players": [
-            "JaVale McGee",
+            "Isaiah Hartenstein",
             "Michael Porter Jr.",
             "PJ Dozier",
             "Paul Millsap",
@@ -306459,12 +306546,35 @@
           "seconds": 2.0
         }
       ],
-      "overlay_applied": false,
+      "removed_players": [
+        "JaVale McGee"
+      ],
+      "starters_classification": "EXPLICIT_AUTHOR_WORKING_STARTING_FIVE_NOT_OBSERVED_ALTERNATE_LINEUP",
+      "f5_scope_completion": {
+        "original_donor": "JaVale McGee",
+        "retained_counterpart": "Isaiah Hartenstein",
+        "seconds": 691,
+        "original_full_vector": {
+          "Aaron Gordon": 1742,
+          "Austin Rivers": 1588,
+          "Facundo Campazzo": 2175,
+          "JaVale McGee": 691,
+          "Michael Porter Jr.": 2369,
+          "Nikola Jokic": 2189,
+          "PJ Dozier": 960,
+          "Paul Millsap": 1126,
+          "Saddiq Bey": 1200,
+          "Shaquille Harrison": 360
+        },
+        "classification": "AUTHOR_DELEGATED_WORKING_MODEL_NOT_MEDICAL_PROOF"
+      },
+      "overlay_stage": "F5_SCOPE_COMPLETION",
+      "overlay_applied": true,
       "modeled_available": [
         "Aaron Gordon",
         "Austin Rivers",
         "Facundo Campazzo",
-        "JaVale McGee",
+        "Isaiah Hartenstein",
         "Michael Porter Jr.",
         "Nikola Jokic",
         "PJ Dozier",
@@ -381680,14 +381790,30 @@
       },
       "initial_k1_winner": "DEN",
       "method": "BPM_MAR25_EB",
-      "home_margin_constant": 1.97009665,
+      "home_margin_constant": 1.8390645972292312,
       "unknown_coefficients": {},
       "home_margin_band": [
-        1.97009665,
-        1.97009665
+        1.8390646,
+        1.8390646
       ],
       "j1_applied": false,
-      "non_j1_team_effects": [],
+      "non_j1_team_effects": [
+        {
+          "team": "DEN",
+          "overlay_stage": "F5_SCOPE_COMPLETION",
+          "moved_seconds": {
+            "Isaiah Hartenstein": 579,
+            "JaVale McGee": -579
+          },
+          "effect": -0.1310320527707687,
+          "unknown_terms": {},
+          "home_sign": 1,
+          "incremental_workload_penalty": 0.0,
+          "b2b": false,
+          "fatigue_enabled": true,
+          "fatigue_scope": "BOTH_TEAMS_B2B"
+        }
+      ],
       "direction": "HOME",
       "winner_recomputed": true,
       "winner_changed_from_initial": false,
@@ -383719,14 +383845,30 @@
       },
       "initial_k1_winner": "CHI",
       "method": "BPM_MAR25_EB",
-      "home_margin_constant": 7.29543288,
+      "home_margin_constant": 7.077725047935268,
       "unknown_coefficients": {},
       "home_margin_band": [
-        7.29543288,
-        7.29543288
+        7.07772505,
+        7.07772505
       ],
       "j1_applied": false,
-      "non_j1_team_effects": [],
+      "non_j1_team_effects": [
+        {
+          "team": "CLE",
+          "overlay_stage": "F5_SCOPE_COMPLETION",
+          "moved_seconds": {
+            "Isaiah Hartenstein": -962,
+            "JaVale McGee": 962
+          },
+          "effect": 0.21770783206473143,
+          "unknown_terms": {},
+          "home_sign": -1,
+          "incremental_workload_penalty": 0.0,
+          "b2b": false,
+          "fatigue_enabled": false,
+          "fatigue_scope": "UPSTREAM_CHI_ONLY"
+        }
+      ],
       "direction": "HOME",
       "winner_recomputed": true,
       "winner_changed_from_initial": false,
@@ -384524,14 +384666,30 @@
       },
       "initial_k1_winner": "CLE",
       "method": "BPM_MAR25_EB",
-      "home_margin_constant": 17.82320278,
+      "home_margin_constant": 18.043399994759856,
       "unknown_coefficients": {},
       "home_margin_band": [
-        17.82320278,
-        17.82320278
+        18.04339999,
+        18.04339999
       ],
       "j1_applied": false,
-      "non_j1_team_effects": [],
+      "non_j1_team_effects": [
+        {
+          "team": "CLE",
+          "overlay_stage": "F5_SCOPE_COMPLETION",
+          "moved_seconds": {
+            "Isaiah Hartenstein": -973,
+            "JaVale McGee": 973
+          },
+          "effect": 0.22019721475985832,
+          "unknown_terms": {},
+          "home_sign": 1,
+          "incremental_workload_penalty": 0.0,
+          "b2b": false,
+          "fatigue_enabled": false,
+          "fatigue_scope": "UPSTREAM_CHI_ONLY"
+        }
+      ],
       "direction": "HOME",
       "winner_recomputed": true,
       "winner_changed_from_initial": false,
@@ -386295,14 +386453,30 @@
       },
       "initial_k1_winner": "DEN",
       "method": "BPM_MAR25_EB",
-      "home_margin_constant": 2.36629287,
+      "home_margin_constant": 2.209914375242485,
       "unknown_coefficients": {},
       "home_margin_band": [
-        2.36629287,
-        2.36629287
+        2.20991438,
+        2.20991438
       ],
       "j1_applied": false,
-      "non_j1_team_effects": [],
+      "non_j1_team_effects": [
+        {
+          "team": "DEN",
+          "overlay_stage": "F5_SCOPE_COMPLETION",
+          "moved_seconds": {
+            "Isaiah Hartenstein": 691,
+            "JaVale McGee": -691
+          },
+          "effect": -0.15637849475751497,
+          "unknown_terms": {},
+          "home_sign": 1,
+          "incremental_workload_penalty": 0.0,
+          "b2b": false,
+          "fatigue_enabled": true,
+          "fatigue_scope": "BOTH_TEAMS_B2B"
+        }
+      ],
       "direction": "HOME",
       "winner_recomputed": true,
       "winner_changed_from_initial": false,
