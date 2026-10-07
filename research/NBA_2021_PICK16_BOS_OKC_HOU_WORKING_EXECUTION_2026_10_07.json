@@ -1,0 +1,2225 @@
+{
+  "schema": "PICK16_COMPLETE_ACTOR_WORKING_CHAIN_V1",
+  "status": "INDEPENDENTLY_REVIEWED_WORKING_CANDIDATE",
+  "baseline_main": "6f5ec1afe5c06ff711e08a265a9b5002c4265118",
+  "source_sha256": {
+    "simulation/NBA_2020_21_RESULT_AND_PICK_EXECUTION_BRIDGE.json": "3e35fd2abfeb32e2bc5b66b7796f843ca117359be1a419d037844d29177a26d8",
+    "simulation/NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json": "cfa2f49bb82baa49b2298d90c97cd7fd8075e91380424d40bfd44772d8228a2b",
+    "simulation/NBA_2021_DRAFT_ASSET_INPUTS.json": "a2ab7bbb933a62d091ac43d72bea2888704c937c287b1c4103c16b412b7ad3e2",
+    "simulation/NBA_2021_DRAFT_ASSETS.json": "eb1f204a56ffea45a3153b1067954e96331f35cba5910651b1e18d724a8dcaeb",
+    "simulation/NBA_2021_FIRST_ROUND_CONTINUATION_INPUTS.json": "77c4fedd24bdbef4fdaa67be660adb2bffb36e2d252e7bdf2ecb7c3f694d94a1",
+    "simulation/NBA_2021_FULL_DRAFT_COMPARISON.json": "31e524c981a07240c835150e7db1d753191c92e205a03bc5207208aca07dbb8f",
+    "research/BOSTON_APRON_COMPONENT_BOUND_2026_10_05.json": "e8280ee188c16b1ce118706d6c205ad8a214004372372b82c674b9f6942e8bc0",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "tools/build_2021_bos_okc_hou_pick16_working_execution.py": "5570436100daf99fedd5f38f8a114dc558c7b40bfa365b60512cccbbf6ee9a47"
+  },
+  "source_hash_method": "UTF8 BOM stripped; CRLF/CR to LF",
+  "raw_sources": [
+    {
+      "id": "OKC_KEMBA",
+      "url": "https://www.nba.com/thunder/news/release-walker-210618",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\OKC_KEMBA.html",
+      "raw_sha256": "d41cda1e682ec217cd27ff843c986599fb5bc5fc59e5bf472a17fde27e3c4c6e",
+      "bytes": 100874,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "HTML __NEXT_DATA__: recursive contentStructured; HTML tags removed",
+      "normalized_extracted_text_sha256": "2e5f3cb4211d9bf64c24f4ec5c4039d34727d051e730d2bafafaf27eedadfadc"
+    },
+    {
+      "id": "OKC_SG16",
+      "url": "https://www.nba.com/thunder/news/giddey-mann-robinson-earl-wiggins-210730",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\OKC_SG16.html",
+      "raw_sha256": "b51fd692fda32ddbd01695eafdd80dc55ac2efab30c7b3217631cb85fb0a4236",
+      "bytes": 100701,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "HTML __NEXT_DATA__: recursive contentStructured; HTML tags removed",
+      "normalized_extracted_text_sha256": "a4583ae0a7e366984bc5961c09bd6423cfed0fb9b8aedd219350a9195da0eccb"
+    },
+    {
+      "id": "HOU_SG16",
+      "url": "https://www.nba.com/rockets/news/rockets-acquire-four-players-2021-nba-draft",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\HOU_SG16.html",
+      "raw_sha256": "cbfe21d38c0b193102d9e01fa8608d53b593ffdec65d177a2f68fc425b8178d3",
+      "bytes": 106849,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "HTML __NEXT_DATA__: recursive contentStructured; HTML tags removed",
+      "normalized_extracted_text_sha256": "f190cd673dc63332d8803225a6684157187ddf9678e2e51f58881103989d6f4c"
+    },
+    {
+      "id": "HOU_WOOD",
+      "url": "https://www.nba.com/rockets/news/rockets-acquire-christian-wood",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\HOU_WOOD.html",
+      "raw_sha256": "3e963955e9e192ded639abb0eae680c3edc579fc2f676de409d9106a85977cad",
+      "bytes": 97126,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "HTML __NEXT_DATA__: recursive contentStructured; HTML tags removed",
+      "normalized_extracted_text_sha256": "132074d03ecbec344df55e3c7d042c8dc410218d8940a6782a90c8375431d942"
+    },
+    {
+      "id": "HOU_WALL",
+      "url": "https://www.nba.com/rockets/news/rockets-acquire-five-time-all-star-john-wall",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\HOU_WALL.html",
+      "raw_sha256": "11948cef5133057d19530a2fa3c2e47a4309e03ea0bbfbfcd369f7f2786b0a71",
+      "bytes": 95666,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "HTML __NEXT_DATA__: recursive contentStructured; HTML tags removed",
+      "normalized_extracted_text_sha256": "7a7c6210aa3ad21c7f8cd956cac0146681b1d32f74472fccf01cae4d3e7dd410"
+    },
+    {
+      "id": "BROWN_STANDARD",
+      "url": "https://www.nba.com/news/thunder-sign-moses-brown-to-multiyear-contract",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\BROWN_STANDARD.html",
+      "raw_sha256": "26fa8b416491702268e929bd54f91626643a029f2a078c344fc742de336cdd15",
+      "bytes": 307238,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "d4c7c3c2871507d01e7a14c7752a5b83a182fad5684a2f7fc2e23d61223461ad"
+    },
+    {
+      "id": "HORFORD_SALARY",
+      "url": "https://www.salaryswish.com/players/al-horford",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\HORFORD_SALARY.html",
+      "raw_sha256": "df0233292c839b7495adb866a52944bb67cfd7c04865500caf0dff6668fcce1e",
+      "bytes": 131617,
+      "classification": "PUBLIC_ORIGINAL_CONTRACT_REPORTING_NOT_CLUB_CERTIFICATE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "0a124f00ae1d115c4e2717dfc2e4700ffda386f88082c724369e2944eeff12aa"
+    },
+    {
+      "id": "BROWN_SALARY",
+      "url": "https://www.salaryswish.com/players/moses-brown",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\BROWN_SALARY.html",
+      "raw_sha256": "284f60e7833866bbd545cd75bac708cfbd9ab2b6110dea3f97ef36a117356658",
+      "bytes": 194128,
+      "classification": "PUBLIC_ORIGINAL_CONTRACT_REPORTING_NOT_CLUB_CERTIFICATE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "7540ecbbabf4c223c30a800561a04fbd38e37ab058df89cd6887a2e4012e7774"
+    },
+    {
+      "id": "WALKER_SALARY",
+      "url": "https://www.salaryswish.com/players/kemba-walker",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\WALKER_SALARY.html",
+      "raw_sha256": "ac7ce97eb94239bdf7fe2e6d62dd21e05a0373cd6b885b9e4738d2d6c8d0cd6a",
+      "bytes": 122746,
+      "classification": "PUBLIC_ORIGINAL_CONTRACT_REPORTING_NOT_CLUB_CERTIFICATE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "06e8d3b58807b9b8ec00c03837c5ff4cb42a31f4b6018bfaf16508305fe04762"
+    },
+    {
+      "id": "CALENDAR_CAP",
+      "url": "https://pr.nba.com/nba-salary-cap-for-2021-22-season-set-at-112-414-million/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\CALENDAR_CAP.html",
+      "raw_sha256": "0e070a33da4b25b142bd27d402d3ffea9d224cec0dab3f090d8e36fd20299abe",
+      "bytes": 110102,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "9f6996ed0416fc7b624d0d5b07548372ba5ae8bc3cd9c772bad0839953f8c712"
+    },
+    {
+      "id": "CALENDAR_DRAFT",
+      "url": "https://pr.nba.com/2021-nba-draft-combine-lottery-dates/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-pick16-20261007\\CALENDAR_DRAFT.html",
+      "raw_sha256": "69f5e3e2fb89e2220aeeecbc43db520ac0565ddb81278bdac32280aca296335e",
+      "bytes": 110307,
+      "classification": "PRIMARY_NBA_RELEASE",
+      "extraction": "BeautifulSoup full HTML text; historical contract table only",
+      "normalized_extracted_text_sha256": "234c88cad2ad937122823ace956c443a31610e1a7a05addae4fd51722928626f"
+    },
+    {
+      "id": "CBA",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "bytes": 2176412,
+      "classification": "PRIMARY_OFFICIAL_PDF",
+      "extraction": "PyMuPDF page.get_text(); newline normalized",
+      "pages": [
+        {
+          "pdf_page_one_based": 37,
+          "normalized_fitz_text_sha256": "cd01561759af94b5ad04ac98f7b254cd1cf4711bb79f6998d98a023e11f2abc3"
+        },
+        {
+          "pdf_page_one_based": 40,
+          "normalized_fitz_text_sha256": "584555730729e81afefe1b1487a7b7a2709ee485f73b3174db07ffd9159e8a83"
+        },
+        {
+          "pdf_page_one_based": 49,
+          "normalized_fitz_text_sha256": "72f1c1527b46fb2b0bbdc5b3e695353bf679361d9c73ed195fedf941234c8f70"
+        },
+        {
+          "pdf_page_one_based": 53,
+          "normalized_fitz_text_sha256": "2aebae57fe14f87b9fd31dedd453763956781495a794f71cd65a5eb24bb83581"
+        },
+        {
+          "pdf_page_one_based": 64,
+          "normalized_fitz_text_sha256": "74a99ce5afa7d4672100e15df16f8098edf759c2eef0a3c3dcf496c9b185476d"
+        },
+        {
+          "pdf_page_one_based": 65,
+          "normalized_fitz_text_sha256": "17ffeef7fdace31f8ac74cf053239e733fc0a7c19b45801b45eaee4844726a58"
+        },
+        {
+          "pdf_page_one_based": 233,
+          "normalized_fitz_text_sha256": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3"
+        },
+        {
+          "pdf_page_one_based": 234,
+          "normalized_fitz_text_sha256": "6c47932b11835e0215ef806fdaf1ef3107d9b8c7dac0a3e208d179f14070f3c5"
+        },
+        {
+          "pdf_page_one_based": 236,
+          "normalized_fitz_text_sha256": "aa61f44487ea58bea1c27f04b6bac740acc3e8f86cb9edc47e18d8871986724d"
+        },
+        {
+          "pdf_page_one_based": 240,
+          "normalized_fitz_text_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+        },
+        {
+          "pdf_page_one_based": 241,
+          "normalized_fitz_text_sha256": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60"
+        },
+        {
+          "pdf_page_one_based": 248,
+          "normalized_fitz_text_sha256": "c722bdea14fa56c16772c7f070c15a40313f9afa91cf7f998176c7c93bd737c9"
+        },
+        {
+          "pdf_page_one_based": 252,
+          "normalized_fitz_text_sha256": "b086e518697b5b94795c341b154279e6734b22f61c6157d51ab05a4f668aaab0"
+        },
+        {
+          "pdf_page_one_based": 286,
+          "normalized_fitz_text_sha256": "4f56817f8f2df1a8158267dbe16e84e9d3ecd2650e4675a70ad485defe7a3966"
+        },
+        {
+          "pdf_page_one_based": 398,
+          "normalized_fitz_text_sha256": "7b73db6a8ee98227cf0afc6c7606242f303360c729a3f621b15dc09b6a0a9354"
+        },
+        {
+          "pdf_page_one_based": 399,
+          "normalized_fitz_text_sha256": "374510c0f0ffb64c519463645283ebf4ef66d65ec47442142c35af2fe2842d30"
+        },
+        {
+          "pdf_page_one_based": 412,
+          "normalized_fitz_text_sha256": "401ce674b03b72e257e4586c33b3434fadf7807606711189f153b9790a1b8b25"
+        }
+      ]
+    },
+    {
+      "id": "BYLAWS",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2019/09/NBA-Constitution-By-Laws-September-2019.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_sha256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "bytes": 429999,
+      "classification": "PRIMARY_OFFICIAL_PDF",
+      "extraction": "PyMuPDF page.get_text(); newline normalized",
+      "pages": [
+        {
+          "pdf_page_one_based": 72,
+          "normalized_fitz_text_sha256": "ef19074adc8ecd241678bdfd7491e34ca9474a5a9dace14e21cd094c20868dfb"
+        },
+        {
+          "pdf_page_one_based": 73,
+          "normalized_fitz_text_sha256": "3a96ca0b66b93f2bb06a84971c70768a2d4982e15765d03f1e72268cb9df53c2"
+        },
+        {
+          "pdf_page_one_based": 87,
+          "normalized_fitz_text_sha256": "43197a4945acf5176d9335d2ff911f7c516a1db82e623c4ca53bb264fc094e20"
+        }
+      ]
+    },
+    {
+      "id": "OKC_GUIDE",
+      "url": "https://okcthunder.com/web-includes/ThunderMediaGuide2021-22.pdf",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-den-primary-2026-10-07\\OKC_2122.pdf",
+      "raw_sha256": "94848cbdf59427f2dcd04db56bc6f924be88787ec4c5f252d917d7b378524564",
+      "bytes": 10293879,
+      "classification": "PRIMARY_OFFICIAL_PDF",
+      "extraction": "PyMuPDF page.get_text(); newline normalized",
+      "pages": [
+        {
+          "pdf_page_one_based": 49,
+          "normalized_fitz_text_sha256": "5470e5735b2a95fcb0c6d5a2d49f81d029f50f97666786bfef078534361041c7"
+        }
+      ]
+    }
+  ],
+  "authority": {
+    "new_author_lock": false,
+    "long_term_trade_direction_selected": false,
+    "exact_financial_cents_selected": false,
+    "actual_contract_amendment_or_consent_certified": false,
+    "all_58_remaining_draftees_selected": false,
+    "macro2_reopened": false,
+    "macro3_complete": false,
+    "whole_financial_or_registration_clearance": false,
+    "new_REGISTER_promotion": false
+  },
+  "classification": {
+    "completed_2021_06_18_and_2021_07_29_announcements": "FACT_ORIGINAL_HISTORY_ONLY",
+    "new_dates_amendments_roster_carry": "EXPLICIT_WORKING_CANDIDATE",
+    "future_ranks_delivery_options": "NOT_SELECTED"
+  },
+  "calendar": {
+    "AP1_working_date": "2021-07-28",
+    "SG16_working_date": "2021-07-29",
+    "salary_cap_year": "2020-21",
+    "cap_usd": 109140000,
+    "apron_usd": 138928000,
+    "new_salary_cap_year_start": "2021-08-03",
+    "original_AP1_announcement_date": "2021-06-18",
+    "actual_execution_time": null,
+    "source_date_not_copied_into_macro2": true,
+    "July_carry_assumption": "No intervening optional contracts; expired named hardship contracts removed from roster but not cost. All three last modeled games precede July28.",
+    "later_date_alternative": "After Aug3 requires new-year Salary/budget/q recalculation; not certified by this old-year model."
+  },
+  "events": [
+    {
+      "id": "AP1",
+      "date": "2021-07-28",
+      "atomic": true,
+      "edges": [
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Kemba Walker",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Al Horford",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "STANDARD_CONTRACT",
+          "asset": "Moses Brown",
+          "from": "OKC",
+          "to": "BOS"
+        },
+        {
+          "event": "AP1",
+          "kind": "CURRENT_FIRST_SELECTION",
+          "asset": "BOS_2021_16",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "EARLIER_BOS_MEM_2025_2R",
+          "from": "BOS",
+          "to": "OKC"
+        },
+        {
+          "event": "AP1",
+          "kind": "CONDITIONAL_SECOND_CLAIM",
+          "asset": "LATEST_OKC_WAS_EARLIER_DAL_MIA_2023_2R",
+          "from": "OKC",
+          "to": "BOS"
+        }
+      ]
+    },
+    {
+      "id": "SG16",
+      "date": "2021-07-29",
+      "atomic": true,
+      "requires_available_draftee": "Alperen Sengun",
+      "rights_selected_but_unsigned_in_this_candidate": true,
+      "edges": [
+        {
+          "event": "SG16",
+          "kind": "UNSIGNED_DRAFT_RIGHTS",
+          "asset": "BOS_2021_16:Alperen Sengun",
+          "from": "OKC",
+          "to": "HOU"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "DET_FIRST_OR_2027_SECOND",
+          "from": "HOU",
+          "to": "OKC"
+        },
+        {
+          "event": "SG16",
+          "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+          "asset": "WAS_FIRST_OR_2026_2027_SECONDS",
+          "from": "HOU",
+          "to": "OKC"
+        }
+      ]
+    }
+  ],
+  "proposed_matching_implementation": {
+    "Brown_existing_current_salary_usd": 1250000,
+    "Brown_next_year_base_usd": 1701593,
+    "Brown_existing_current_protection_percent": 100,
+    "Brown_actual_next_year_protected_credit_usd": null,
+    "Brown_agreed_next_year_protection_family_usd": [
+      423280,
+      1701593
+    ],
+    "Brown_amendment": "II3(g) Exhibit2 lack-of-skill AND injury/illness protection-only increase. Retain prior greater protection, base salary, term, options and existing later conditional guarantees; no new salary/extension/bonus. All consenting implementations in this interval support matching.",
+    "Brown_protection_category_percent_upper": 100,
+    "Walker_existing_trade_bonus_percent": 15,
+    "Walker_completed_2020_21_seasons_YOS": 10,
+    "Walker_old_year_35percent_cap_max_usd": 38199000,
+    "Walker_no_waiver_current_bonus_headroom_upper_usd": 3819900,
+    "Walker_voluntary_full_trade_bonus_waiver_proposed": true,
+    "actual_Walker_waiver": null,
+    "Walker_current_matching_salary_if_proposal_accepted_usd": 34379100,
+    "Walker_no_extension_or_renegotiation_before": "2022-01-28",
+    "Walker_extension_restriction": "Later of 6months and first otherwise eligible date; no automatic extension on Jan28.",
+    "Horford_current_salary_usd": 27500000,
+    "Horford_next_year_fully_protected_public_salary_usd": 27000000,
+    "Horford_new_trade_bonus_for_old_2019_contract": 0,
+    "Horford_bonus_reason": "XXIV2(a)(i): prior PHI→OKC assignment already occurred (guide Dec8); no new extension assumed, no repeat bonus.",
+    "Brown_bonus_public_reported_baseline_usd": 0,
+    "actual_Brown_trade_bonus_certified": false,
+    "Brown_voluntary_full_existing_trade_bonus_waiver_if_any_proposed": true,
+    "Brown_actual_original_trade_bonus_amount": null,
+    "Brown_waiver_reason": "Do not select original unknown bonus0: VII7(d)(3) agreed full waiver if the existing contract contains a bonus; absent-bonus branch has nothing to waive. Candidate matching/current apron then use original public base/cap without additional earned assignment bonus.",
+    "Brown_no_extension_or_renegotiation_before": "2022-01-28",
+    "Brown_extension_restriction": "Any waiver branch retains later of 6months and first otherwise eligible date; no automatic extension on Jan28. No-extension working path also preserves the zero-bonus branch.",
+    "Brown_future_or_unreported_bonus_not_automatically_selected": true,
+    "all_matching_cases": [
+      {
+        "Brown_next_year_protected_credit_usd": 423280,
+        "OKC_ordinary_capacity_usd": 36037500,
+        "OKC_conservative_postseason_credit_usd": 27423280,
+        "OKC_conservative_capacity_usd": 34379100,
+        "OKC_conservative_margin_usd": 0,
+        "BOS_capacity_usd": 43073875,
+        "BOS_incoming_public_base_usd": 28750000,
+        "BOS_base_matching_margin_usd": 14323875
+      },
+      {
+        "Brown_next_year_protected_credit_usd": 1250000,
+        "OKC_ordinary_capacity_usd": 36037500,
+        "OKC_conservative_postseason_credit_usd": 28250000,
+        "OKC_conservative_capacity_usd": 35412500,
+        "OKC_conservative_margin_usd": 1033400,
+        "BOS_capacity_usd": 43073875,
+        "BOS_incoming_public_base_usd": 28750000,
+        "BOS_base_matching_margin_usd": 14323875
+      },
+      {
+        "Brown_next_year_protected_credit_usd": 1701593,
+        "OKC_ordinary_capacity_usd": 36037500,
+        "OKC_conservative_postseason_credit_usd": 28250000,
+        "OKC_conservative_capacity_usd": 35412500,
+        "OKC_conservative_margin_usd": 1033400,
+        "BOS_capacity_usd": 43073875,
+        "BOS_incoming_public_base_usd": 28750000,
+        "BOS_base_matching_margin_usd": 14323875
+      }
+    ],
+    "proof": "125%+100000 is available at either tax status. Conservative outgoing Horford27m+min(Brown1.25m,q); monotone in q, minimum423280 gives exactly Walker34,379,100. Ordinary current-credit regime also passes.",
+    "unmodified_zero_credit_counterexample": {
+      "Brown_next_credit_usd": 0,
+      "OKC_capacity_usd": 33850000,
+      "Walker_incoming_usd": 34379100,
+      "shortfall_usd": 529100,
+      "not_evidence_actual_trade_illegal": true
+    },
+    "aggregation_dates": {
+      "Brown_signed_standard": "2021-03-28",
+      "Brown_three_month_wait_ends": "2021-06-28",
+      "Horford_prior_acquired_guide_date": "2020-12-08",
+      "Horford_two_month_wait_ends": "2021-02-08",
+      "Walker_prior_contract_2019_07_assignment": true
+    },
+    "cash_or_signing_bonus_added": false,
+    "new_player_option_exercise_selected": false
+  },
+  "cost_boundary": {
+    "BOS_preserved_old_year_carry_upper_usd": 138716242,
+    "Brown_young_FA_apron_floor_two_YOS_usd": 1620564,
+    "BOS_candidate_after_AP1_upper_usd": 133457706,
+    "BOS_candidate_after_AP1_apron_margin_usd": 5470294,
+    "BOS_scope": "New July preserved public contract-cost carry family only; ordinary unsigned pick/FA holds excluded from apron per VII6m3, RFA tender could require separate input if newly chosen.",
+    "OKC_old_year_whole_apron_upper_usd": null,
+    "OKC_cost_delta_public_base_usd": 5629100,
+    "OKC_cost_delta_if_outgoing_Brown_young_FA_floor_usd": 5258536,
+    "OKC_pretrade_apron_sufficient_upper_usd": 133669464,
+    "OKC_hardcap_not_assumed_absent": true,
+    "remaining_finite_financial_input": "Whole old-year OKC apron-adjusted retained live/dead cost bound, including Brown/Deck/CharlieBrown contract exception and all performance components. Matching does not fill this budget.",
+    "HOU_SG16_current_contract_salary_delta_usd": 0,
+    "HOU_new_signed_rookie_contract": false,
+    "future_guarantee_cost_q_interval_usd": [
+      423280,
+      1701593
+    ],
+    "future_year_whole_team_budget_certified": false,
+    "whole_3_team_cost_PASS": false
+  },
+  "dated_working_rosters": {
+    "BOS": {
+      "source_last_game_date": "2021-06-01",
+      "source_state_id": "BOS:2023a73bb65a518f",
+      "carry_before_AP1": [
+        {
+          "player": "Aaron Nesmith",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Carsen Edwards",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Evan Fournier",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Grant Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jabari Parker",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Brown",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jayson Tatum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kemba Walker",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luke Kornet",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Marcus Smart",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Payton Pritchard",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Robert Williams III",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Romeo Langford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Semi Ojeleye",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tacko Fall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tremont Waters",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tristan Thompson",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "source_total_including_original_hardships": 17,
+      "new_intervening_contracts_assumed": false,
+      "conditional_after_AP1": [
+        {
+          "player": "Aaron Nesmith",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Carsen Edwards",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Evan Fournier",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Grant Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jabari Parker",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Brown",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jayson Tatum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luke Kornet",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Marcus Smart",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Payton Pritchard",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Robert Williams III",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Romeo Langford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Semi Ojeleye",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tacko Fall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tremont Waters",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tristan Thompson",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Al Horford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Moses Brown",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "conditional_after_SG16": [
+        {
+          "player": "Aaron Nesmith",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Carsen Edwards",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Evan Fournier",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Grant Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jabari Parker",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Brown",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jayson Tatum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luke Kornet",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Marcus Smart",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Payton Pritchard",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Robert Williams III",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Romeo Langford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Semi Ojeleye",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tacko Fall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tremont Waters",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Tristan Thompson",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Al Horford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Moses Brown",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "count_including_two_way_after_AP1": 18,
+      "candidate_draft_rights_not_signed_contract": true
+    },
+    "OKC": {
+      "source_last_game_date": "2021-05-16",
+      "source_state_id": "OKC:f80afe368779a436",
+      "carry_before_AP1": [
+        {
+          "player": "Aleksej Pokusevski",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Al Horford",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Charlie Brown Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Darius Bazley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Gabriel Deck",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Isaiah Roby",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Hoard",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Josh Hall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Kenrich Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luguentz Dort",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Mike Muscala",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Moses Brown",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Svi Mykhailiuk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Theo Maledon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tony Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Ty Jerome",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "source_total_including_original_hardships": 17,
+      "new_intervening_contracts_assumed": false,
+      "conditional_after_AP1": [
+        {
+          "player": "Aleksej Pokusevski",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Charlie Brown Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Darius Bazley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Gabriel Deck",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Isaiah Roby",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Hoard",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Josh Hall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Kenrich Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luguentz Dort",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Mike Muscala",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Svi Mykhailiuk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Theo Maledon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tony Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Ty Jerome",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kemba Walker",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "conditional_after_SG16": [
+        {
+          "player": "Aleksej Pokusevski",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Charlie Brown Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Darius Bazley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Gabriel Deck",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Isaiah Roby",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jaylen Hoard",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Josh Hall",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Kenrich Williams",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Luguentz Dort",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Mike Muscala",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Svi Mykhailiuk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Theo Maledon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Tony Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Ty Jerome",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kemba Walker",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "count_including_two_way_after_AP1": 16,
+      "candidate_draft_rights_not_signed_contract": true
+    },
+    "HOU": {
+      "source_last_game_date": "2021-05-16",
+      "source_state_id": "HOU:0a5e8b8fc00023d7",
+      "carry_before_AP1": [
+        {
+          "player": "Anthony Lamb",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Armoni Brooks",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Avery Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Christian Wood",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Dante Exum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Danuel House Jr.",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "David Nwaba",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Augustin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Wilson",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Eric Gordon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jae'Sean Tate",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "John Wall",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kelly Olynyk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "KJ Martin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kevin Porter Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Khyri Thomas",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Sterling Brown",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "source_total_including_original_hardships": 19,
+      "new_intervening_contracts_assumed": false,
+      "conditional_after_AP1": [
+        {
+          "player": "Anthony Lamb",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Armoni Brooks",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Avery Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Christian Wood",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Dante Exum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Danuel House Jr.",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "David Nwaba",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Augustin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Wilson",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Eric Gordon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jae'Sean Tate",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "John Wall",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kelly Olynyk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "KJ Martin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kevin Porter Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Khyri Thomas",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Sterling Brown",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "conditional_after_SG16": [
+        {
+          "player": "Anthony Lamb",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Armoni Brooks",
+          "contract_class": "TWO_WAY"
+        },
+        {
+          "player": "Avery Bradley",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Christian Wood",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Dante Exum",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Danuel House Jr.",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "David Nwaba",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Augustin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "D.J. Wilson",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Eric Gordon",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Jae'Sean Tate",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "John Wall",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kelly Olynyk",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "KJ Martin",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Kevin Porter Jr",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Khyri Thomas",
+          "contract_class": "STANDARD"
+        },
+        {
+          "player": "Sterling Brown",
+          "contract_class": "STANDARD"
+        }
+      ],
+      "count_including_two_way_after_AP1": 17,
+      "candidate_draft_rights_not_signed_contract": true
+    }
+  },
+  "expired_hardship_contracts": [
+    {
+      "team": "HOU",
+      "player": "Cameron Oliver",
+      "working_expiry_inclusive": "2021-05-19",
+      "dead_cost_not_removed": true
+    },
+    {
+      "team": "HOU",
+      "player": "Cameron Reynolds",
+      "working_expiry_inclusive": "2021-05-23",
+      "dead_cost_not_removed": true
+    }
+  ],
+  "draft_control_candidate_rows": [
+    {
+      "pick": 1,
+      "round": 1,
+      "origin": "CHA",
+      "frozen_macro2_holder": "CHA",
+      "conditional_after_AP1_holder": "CHA",
+      "conditional_after_SG16_holder": "CHA",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 2,
+      "round": 1,
+      "origin": "HOU",
+      "frozen_macro2_holder": "HOU",
+      "conditional_after_AP1_holder": "HOU",
+      "conditional_after_SG16_holder": "HOU",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 3,
+      "round": 1,
+      "origin": "ORL",
+      "frozen_macro2_holder": "ORL",
+      "conditional_after_AP1_holder": "ORL",
+      "conditional_after_SG16_holder": "ORL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 4,
+      "round": 1,
+      "origin": "OKC",
+      "frozen_macro2_holder": "OKC",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "OKC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 5,
+      "round": 1,
+      "origin": "DET",
+      "frozen_macro2_holder": "DET",
+      "conditional_after_AP1_holder": "DET",
+      "conditional_after_SG16_holder": "DET",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 6,
+      "round": 1,
+      "origin": "CLE",
+      "frozen_macro2_holder": "CLE",
+      "conditional_after_AP1_holder": "CLE",
+      "conditional_after_SG16_holder": "CLE",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 7,
+      "round": 1,
+      "origin": "MIN",
+      "frozen_macro2_holder": "GSW",
+      "conditional_after_AP1_holder": "GSW",
+      "conditional_after_SG16_holder": "GSW",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 8,
+      "round": 1,
+      "origin": "TOR",
+      "frozen_macro2_holder": "TOR",
+      "conditional_after_AP1_holder": "TOR",
+      "conditional_after_SG16_holder": "TOR",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 9,
+      "round": 1,
+      "origin": "NOP",
+      "frozen_macro2_holder": "NOP",
+      "conditional_after_AP1_holder": "NOP",
+      "conditional_after_SG16_holder": "NOP",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 10,
+      "round": 1,
+      "origin": "CHI",
+      "frozen_macro2_holder": "CHI",
+      "conditional_after_AP1_holder": "CHI",
+      "conditional_after_SG16_holder": "CHI",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 11,
+      "round": 1,
+      "origin": "SAC",
+      "frozen_macro2_holder": "SAC",
+      "conditional_after_AP1_holder": "SAC",
+      "conditional_after_SG16_holder": "SAC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 12,
+      "round": 1,
+      "origin": "WAS",
+      "frozen_macro2_holder": "WAS",
+      "conditional_after_AP1_holder": "WAS",
+      "conditional_after_SG16_holder": "WAS",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 13,
+      "round": 1,
+      "origin": "SAS",
+      "frozen_macro2_holder": "SAS",
+      "conditional_after_AP1_holder": "SAS",
+      "conditional_after_SG16_holder": "SAS",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 14,
+      "round": 1,
+      "origin": "GSW",
+      "frozen_macro2_holder": "GSW",
+      "conditional_after_AP1_holder": "GSW",
+      "conditional_after_SG16_holder": "GSW",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 15,
+      "round": 1,
+      "origin": "IND",
+      "frozen_macro2_holder": "IND",
+      "conditional_after_AP1_holder": "IND",
+      "conditional_after_SG16_holder": "IND",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 16,
+      "round": 1,
+      "origin": "BOS",
+      "frozen_macro2_holder": "BOS",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "HOU",
+      "draftee": "Alperen Sengun",
+      "working_trade_candidate_only": true,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 17,
+      "round": 1,
+      "origin": "MEM",
+      "frozen_macro2_holder": "MEM",
+      "conditional_after_AP1_holder": "MEM",
+      "conditional_after_SG16_holder": "MEM",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 18,
+      "round": 1,
+      "origin": "MIA",
+      "frozen_macro2_holder": "OKC",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "OKC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 19,
+      "round": 1,
+      "origin": "ATL",
+      "frozen_macro2_holder": "ATL",
+      "conditional_after_AP1_holder": "ATL",
+      "conditional_after_SG16_holder": "ATL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 20,
+      "round": 1,
+      "origin": "NYK",
+      "frozen_macro2_holder": "NYK",
+      "conditional_after_AP1_holder": "NYK",
+      "conditional_after_SG16_holder": "NYK",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 21,
+      "round": 1,
+      "origin": "POR",
+      "frozen_macro2_holder": "HOU",
+      "conditional_after_AP1_holder": "HOU",
+      "conditional_after_SG16_holder": "HOU",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 22,
+      "round": 1,
+      "origin": "LAL",
+      "frozen_macro2_holder": "LAL",
+      "conditional_after_AP1_holder": "LAL",
+      "conditional_after_SG16_holder": "LAL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 23,
+      "round": 1,
+      "origin": "DAL",
+      "frozen_macro2_holder": "NYK",
+      "conditional_after_AP1_holder": "NYK",
+      "conditional_after_SG16_holder": "NYK",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 24,
+      "round": 1,
+      "origin": "MIL",
+      "frozen_macro2_holder": "HOU",
+      "conditional_after_AP1_holder": "HOU",
+      "conditional_after_SG16_holder": "HOU",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 25,
+      "round": 1,
+      "origin": "LAC",
+      "frozen_macro2_holder": "LAC",
+      "conditional_after_AP1_holder": "LAC",
+      "conditional_after_SG16_holder": "LAC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 26,
+      "round": 1,
+      "origin": "DEN",
+      "frozen_macro2_holder": "DEN",
+      "conditional_after_AP1_holder": "DEN",
+      "conditional_after_SG16_holder": "DEN",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 27,
+      "round": 1,
+      "origin": "BKN",
+      "frozen_macro2_holder": "BKN",
+      "conditional_after_AP1_holder": "BKN",
+      "conditional_after_SG16_holder": "BKN",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 28,
+      "round": 1,
+      "origin": "PHI",
+      "frozen_macro2_holder": "PHI",
+      "conditional_after_AP1_holder": "PHI",
+      "conditional_after_SG16_holder": "PHI",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 29,
+      "round": 1,
+      "origin": "PHX",
+      "frozen_macro2_holder": "PHX",
+      "conditional_after_AP1_holder": "PHX",
+      "conditional_after_SG16_holder": "PHX",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 30,
+      "round": 1,
+      "origin": "UTA",
+      "frozen_macro2_holder": "UTA",
+      "conditional_after_AP1_holder": "UTA",
+      "conditional_after_SG16_holder": "UTA",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 31,
+      "round": 2,
+      "origin": "HOU",
+      "frozen_macro2_holder": "MIL",
+      "conditional_after_AP1_holder": "MIL",
+      "conditional_after_SG16_holder": "MIL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 32,
+      "round": 2,
+      "origin": "DET",
+      "frozen_macro2_holder": "NYK",
+      "conditional_after_AP1_holder": "NYK",
+      "conditional_after_SG16_holder": "NYK",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 33,
+      "round": 2,
+      "origin": "ORL",
+      "frozen_macro2_holder": "ORL",
+      "conditional_after_AP1_holder": "ORL",
+      "conditional_after_SG16_holder": "ORL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 34,
+      "round": 2,
+      "origin": "CLE",
+      "frozen_macro2_holder": "NOP",
+      "conditional_after_AP1_holder": "NOP",
+      "conditional_after_SG16_holder": "NOP",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 35,
+      "round": 2,
+      "origin": "OKC",
+      "frozen_macro2_holder": "OKC",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "OKC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 36,
+      "round": 2,
+      "origin": "MIN",
+      "frozen_macro2_holder": "OKC",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "OKC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 37,
+      "round": 2,
+      "origin": "TOR",
+      "frozen_macro2_holder": "DET",
+      "conditional_after_AP1_holder": "DET",
+      "conditional_after_SG16_holder": "DET",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 38,
+      "round": 2,
+      "origin": "CHA",
+      "frozen_macro2_holder": "DET",
+      "conditional_after_AP1_holder": "DET",
+      "conditional_after_SG16_holder": "DET",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 39,
+      "round": 2,
+      "origin": "CHI",
+      "frozen_macro2_holder": "CHI",
+      "conditional_after_AP1_holder": "CHI",
+      "conditional_after_SG16_holder": "CHI",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 40,
+      "round": 2,
+      "origin": "NOP",
+      "frozen_macro2_holder": "NOP",
+      "conditional_after_AP1_holder": "NOP",
+      "conditional_after_SG16_holder": "NOP",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 41,
+      "round": 2,
+      "origin": "SAC",
+      "frozen_macro2_holder": "SAC",
+      "conditional_after_AP1_holder": "SAC",
+      "conditional_after_SG16_holder": "SAC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 42,
+      "round": 2,
+      "origin": "WAS",
+      "frozen_macro2_holder": "NOP",
+      "conditional_after_AP1_holder": "NOP",
+      "conditional_after_SG16_holder": "NOP",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 43,
+      "round": 2,
+      "origin": "IND",
+      "frozen_macro2_holder": "BKN",
+      "conditional_after_AP1_holder": "BKN",
+      "conditional_after_SG16_holder": "BKN",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 44,
+      "round": 2,
+      "origin": "SAS",
+      "frozen_macro2_holder": "SAS",
+      "conditional_after_AP1_holder": "SAS",
+      "conditional_after_SG16_holder": "SAS",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 45,
+      "round": 2,
+      "origin": "BOS",
+      "frozen_macro2_holder": "BOS",
+      "conditional_after_AP1_holder": "BOS",
+      "conditional_after_SG16_holder": "BOS",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 46,
+      "round": 2,
+      "origin": "MEM",
+      "frozen_macro2_holder": "TOR",
+      "conditional_after_AP1_holder": "TOR",
+      "conditional_after_SG16_holder": "TOR",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 47,
+      "round": 2,
+      "origin": "MIA",
+      "frozen_macro2_holder": "ATL",
+      "conditional_after_AP1_holder": "ATL",
+      "conditional_after_SG16_holder": "ATL",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 48,
+      "round": 2,
+      "origin": "GSW",
+      "frozen_macro2_holder": "TOR",
+      "conditional_after_AP1_holder": "TOR",
+      "conditional_after_SG16_holder": "TOR",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 49,
+      "round": 2,
+      "origin": "POR",
+      "frozen_macro2_holder": "MEM",
+      "conditional_after_AP1_holder": "MEM",
+      "conditional_after_SG16_holder": "MEM",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 50,
+      "round": 2,
+      "origin": "NYK",
+      "frozen_macro2_holder": "PHI",
+      "conditional_after_AP1_holder": "PHI",
+      "conditional_after_SG16_holder": "PHI",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 51,
+      "round": 2,
+      "origin": "ATL",
+      "frozen_macro2_holder": "BKN",
+      "conditional_after_AP1_holder": "BKN",
+      "conditional_after_SG16_holder": "BKN",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 52,
+      "round": 2,
+      "origin": "DAL",
+      "frozen_macro2_holder": "NOP",
+      "conditional_after_AP1_holder": "NOP",
+      "conditional_after_SG16_holder": "NOP",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 53,
+      "round": 2,
+      "origin": "LAL",
+      "frozen_macro2_holder": "DET",
+      "conditional_after_AP1_holder": "DET",
+      "conditional_after_SG16_holder": "DET",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 54,
+      "round": 2,
+      "origin": "MIL",
+      "frozen_macro2_holder": "IND",
+      "conditional_after_AP1_holder": "IND",
+      "conditional_after_SG16_holder": "IND",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 55,
+      "round": 2,
+      "origin": "DEN",
+      "frozen_macro2_holder": "OKC",
+      "conditional_after_AP1_holder": "OKC",
+      "conditional_after_SG16_holder": "OKC",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 56,
+      "round": 2,
+      "origin": "LAC",
+      "frozen_macro2_holder": "CHA",
+      "conditional_after_AP1_holder": "CHA",
+      "conditional_after_SG16_holder": "CHA",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 57,
+      "round": 2,
+      "origin": "PHI",
+      "frozen_macro2_holder": "NYK",
+      "conditional_after_AP1_holder": "NYK",
+      "conditional_after_SG16_holder": "NYK",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 58,
+      "round": 2,
+      "origin": "BKN",
+      "frozen_macro2_holder": "CHA",
+      "conditional_after_AP1_holder": "CHA",
+      "conditional_after_SG16_holder": "CHA",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 59,
+      "round": 2,
+      "origin": "PHX",
+      "frozen_macro2_holder": "BKN",
+      "conditional_after_AP1_holder": "BKN",
+      "conditional_after_SG16_holder": "BKN",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    },
+    {
+      "pick": 60,
+      "round": 2,
+      "origin": "UTA",
+      "frozen_macro2_holder": "IND",
+      "conditional_after_AP1_holder": "IND",
+      "conditional_after_SG16_holder": "IND",
+      "draftee": null,
+      "working_trade_candidate_only": false,
+      "new_draft_author_lock": false
+    }
+  ],
+  "conditional_return_claims": [
+    {
+      "origin": "DET",
+      "first_protection_by_year": {
+        "2022": 16,
+        "2023": 18,
+        "2024": 18,
+        "2025": 13,
+        "2026": 11,
+        "2027": 9
+      },
+      "if_never_conveys": [
+        {
+          "year": 2027,
+          "round": 2,
+          "origin": "DET"
+        }
+      ],
+      "claim_holder_before": "HOU",
+      "conditional_claim_holder_after": "OKC",
+      "current_underlying_future_pick_owner": null,
+      "actual_future_conveyance": null,
+      "source": "simulation/NBA_2021_FIRST_ROUND_CONTINUATION_INPUTS.json",
+      "classification": "EXISTING_PUBLIC_REPORTED_CONDITIONAL_TEMPLATE_PRESERVED_NOT_PRIVATE_TERMS_CERTIFICATE"
+    },
+    {
+      "origin": "WAS",
+      "first_protection_by_year": {
+        "2023": 14,
+        "2024": 12,
+        "2025": 10,
+        "2026": 8
+      },
+      "if_never_conveys": [
+        {
+          "year": 2026,
+          "round": 2,
+          "origin": "WAS"
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "origin": "WAS"
+        }
+      ],
+      "claim_holder_before": "HOU",
+      "conditional_claim_holder_after": "OKC",
+      "current_underlying_future_pick_owner": null,
+      "actual_future_conveyance": null,
+      "source": "simulation/NBA_2021_FIRST_ROUND_CONTINUATION_INPUTS.json",
+      "classification": "EXISTING_PUBLIC_REPORTED_CONDITIONAL_TEMPLATE_PRESERVED_NOT_PRIVATE_TERMS_CERTIFICATE"
+    }
+  ],
+  "conditional_second_claims": {
+    "BOS_MEM_2025": {
+      "origin_pair": [
+        "BOS",
+        "MEM"
+      ],
+      "ORL_preserved_claim": "later=max",
+      "candidate_OKC_transferred_claim": "earlier=min",
+      "rank_order_examples_not_actual_future": [
+        {
+          "BOS_2025_pick": 31,
+          "MEM_2025_pick": 60,
+          "candidate_OKC_earlier": 31,
+          "preserved_ORL_later": 60
+        },
+        {
+          "BOS_2025_pick": 60,
+          "MEM_2025_pick": 31,
+          "candidate_OKC_earlier": 31,
+          "preserved_ORL_later": 60
+        }
+      ],
+      "BOS2027_ORL_claim_unchanged": true
+    },
+    "OKC_2023": {
+      "source_components": [
+        "OKC_2023_2R",
+        "WAS_2023_2R",
+        "EARLIER_DAL_MIA_2023_2R"
+      ],
+      "candidate_BOS_claim": "latest=max(OKC,WAS,min(DAL,MIA))",
+      "rank_order_examples_not_actual_future": [
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 32,
+            "DAL": 33,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 32,
+            "DAL": 34,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 33,
+            "DAL": 32,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 33,
+            "DAL": 34,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 34,
+            "DAL": 32,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 31,
+            "WAS": 34,
+            "DAL": 33,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 31,
+            "DAL": 33,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 31,
+            "DAL": 34,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 33,
+            "DAL": 31,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 33,
+            "DAL": 34,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 34,
+            "DAL": 31,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 32,
+            "WAS": 34,
+            "DAL": 33,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 31,
+            "DAL": 32,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 31,
+            "DAL": 34,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 32,
+            "DAL": 31,
+            "MIA": 34
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 32,
+            "DAL": 34,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 33,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 34,
+            "DAL": 31,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            33,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 33,
+            "WAS": 34,
+            "DAL": 32,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            33,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 31,
+            "DAL": 32,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 31,
+            "DAL": 33,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            31,
+            32
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 32,
+            "DAL": 31,
+            "MIA": 33
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 32,
+            "DAL": 33,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            32,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 33,
+            "DAL": 31,
+            "MIA": 32
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            33,
+            31
+          ]
+        },
+        {
+          "rank_order_only_example": {
+            "OKC": 34,
+            "WAS": 33,
+            "DAL": 32,
+            "MIA": 31
+          },
+          "candidate_BOS_latest": 34,
+          "preserved_OKC_other_two": [
+            33,
+            31
+          ]
+        }
+      ],
+      "primary_source_connection": "Thunder release least favorable of3; official guide49 positively records WAS and best(DAL,MIA) acquisitions."
+    }
+  },
+  "asset_law_boundary": {
+    "current_2021_first_origin_unchanged": "BOS",
+    "new_own_future_first_obligations_created": false,
+    "DET_WAS_original_obligations_modified": false,
+    "HOU_only_assigns_preexisting_acquired_claims": true,
+    "Stepien_relation": "Preserve preexisting DET/WAS future allocation branches; holder substitution HOU→OKC creates no new origin obligation. AP1 current BOS first transfer must retain BOS2022 own first in the working family; source is the completed original bundle and preserved BOS future-first inventory.",
+    "BOS2022_first_retained_candidate_requirement": true,
+    "current_selection_then_draft_rights_treatment": true,
+    "latest_named_future_pick_year": 2027,
+    "conservative_pre_2021_draft_latest_year": 2027,
+    "horizon_provenance": "Preserve the named original DET/WAS claim families actually acquired in2020 and reassigned in2021, including2027 second endpoints; no2028 obligation is created. Bylaws7.03 is Stepien, not an express seven-year horizon clause in the cached edition.",
+    "future_exact_ranks_or_receipts_required": false,
+    "actual_full_private_terms_certified": false,
+    "protections_unchanged_source_templates": true,
+    "original_transactions_completed_anchor_not_alt_consent": true
+  },
+  "summary": {
+    "actors": 3,
+    "working_events": 2,
+    "named_asset_or_contract_edges": 9,
+    "conditional_control_matches_G7": 60,
+    "all_remaining_58_draft_selections": 0,
+    "2025_complement_order_examples": 2,
+    "2023_order_examples": 24,
+    "whole_cost_named_gap_count": 1,
+    "whole_trade_family_legal_clearance": false
+  },
+  "independent_review_completed": true,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false,
+  "remaining_major_groups_snapshot": 5,
+  "final_episode_functions_snapshot": 19
+}

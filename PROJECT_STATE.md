@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-07 [Chicago2021 전체 비용·#16 후보·A03 첫 기능 검문](reviews/MACRO3_CHICAGO_FULL_COST_PICK16_AND_A03_E1_REVIEW_2026_10_07.md): 승인된M1/A의 공개보존family 6범주/600상태 전체비용을 독립검문해 apron상단128,914,775/여유14,087,225로 종료했다. #16 전체3팀9양도·60권리 후보는 독립수용했으나 OKC전체비용1입력·AP1/SG16방향선택·Simonović권리기간·2022–23실행은 남는다. [현재G13누적등록](control/G13_FINAL_FUNCTION_REGISTER.md)은 원CP2의19개스냅샷을 보존하고 A03등록/첫연습/영상/좁은과제의사 기능을 추가해20개(A019·A0210·A031), 경로7소막/없는35로 검문한다. 첫6소막의 원CP2비교5PASS/1HOLD와 별도운영비교6PASS를 구분한다. 2번S2완료·전체미완료큰묶음5·실제Pack0·원고0·v0.30 PARTIAL·설계/원고CLOSED다. 실제사적계약/접수/개인NCAA기록·전체macro3/G13/G14/G16/G17을 인증하지 않는다. 아래19/첫6감사 전 계수는 해당시점 이력이다.
+
 2026-10-07 [S2 유한 시즌 종료·A02 E8–E10 검문](reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md): active15 네 작업분 수리/승패변경0·전2348팀의12–15명 명목active와 벤치8·H00초기영구이탈2·승인거래8을 독립 검문했다. 법적12/12·F5/5·A3/3·K4/4·S2시즌true로2번을종료하고3번M1/G1A 정확구현을계속한다. 실제임상/사적금융/접수/미래전달미인증·국소기능19/전체미배정761(A01 27·A02 44)·실제Pack0·원고0·미완료큰묶음5·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.
 
 2026-10-07 [전체 유한 명단·A02 E5–E7 검문](reviews/FULL_FINITE_ROSTER_AND_A02_E5_E7_REVIEW_2026_10_07.md): GSW option3/NY 방출 및 CHA/WAS의 명명된 routine 계약·권리 가족을 독립 검문해 전체2348/2348 명단/슬롯 공백0을 연결했다. Terry4YOS/Bonga 연간 tender 누락 constructor 반례2종을 수리했다. 분/승패 변경0·국소기능16/전체미배정764(A01 27·A02 47). 법적12/12·F5/5·A1/3·K0/4·시즌false·실제Pack0·원고0·미완료큰묶음6·v0.30 PARTIAL·설계/원고CLOSED. 아래는 이전이력이다.
