@@ -20,6 +20,9 @@ import build_a02_e1_final_episode_function as a02_e1_function
 import build_a02_e2_final_episode_function as a02_e2_function
 import build_a02_e3_final_episode_function as a02_e3_function
 import build_a02_e4_final_episode_function as a02_e4_function
+import build_a02_e5_final_episode_function as a02_e5_function
+import build_a02_e6_final_episode_function as a02_e6_function
+import build_a02_e7_final_episode_function as a02_e7_function
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_COMMIT = '171b46b'
@@ -52,7 +55,10 @@ def validate_final_functions(structure, root=ROOT):
              str(a02_e1_function.OUTPUT).replace('\\', '/'): a02_e1_function.validate,
              str(a02_e2_function.OUTPUT).replace('\\', '/'): a02_e2_function.validate,
              str(a02_e3_function.OUTPUT).replace('\\', '/'): a02_e3_function.validate,
-             str(a02_e4_function.OUTPUT).replace('\\', '/'): a02_e4_function.validate}
+             str(a02_e4_function.OUTPUT).replace('\\', '/'): a02_e4_function.validate,
+             str(a02_e5_function.OUTPUT).replace('\\', '/'): a02_e5_function.validate,
+             str(a02_e6_function.OUTPUT).replace('\\', '/'): a02_e6_function.validate,
+             str(a02_e7_function.OUTPUT).replace('\\', '/'): a02_e7_function.validate}
     for path in paths:
         if path not in known:
             errors.append('unreviewed final function path: ' + str(path))

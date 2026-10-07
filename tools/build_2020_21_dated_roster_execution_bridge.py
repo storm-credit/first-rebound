@@ -50,6 +50,7 @@ SOURCES = [REG,L2,POST,NON,AUTH,MAP,DIRECTION,F45,C2,CASCADE,
            'research/GSW_G1_REMAINING_APRON_COSTS_2026_10_07.json',
            'research/EAST_2021_PLAYOFF_COACH_INPUTS_2026_10_07.json',
            'research/WEST_2021_PLAYOFF_COACH_INPUTS_2026_10_07.json',SELF] + DRAFT
+SOURCES += ['simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json','tools/build_gsw_g1_option3_ny_working_execution.py','research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json','tools/build_cha_was_finite_roster_working_family.py']
 SOURCES += ['research/DEN_LAL_2021_COACH_PLAN_SOURCE_BRIDGE.json',
             'tools/build_2020_21_regular_clock_completion.py',
             'tools/build_2021_l2_working_minutes.py',
@@ -239,6 +240,24 @@ def finite_working_sources():
         raise ValueError('finite source family authority changed')
     return selections
 
+def selected_roster_carriers():
+    # Lazy consumer: CHA/WAS imports only this producer's source helpers,
+    # never this output/build. No output dependency cycle is introduced.
+    import build_gsw_g1_option3_ny_working_execution as gsw
+    import build_cha_was_finite_roster_working_family as cw
+    g=read(gsw.OUT);gsw.validate(g)
+    c=read(cw.OUT)
+    if cw.validate(c):raise ValueError('CHA/WAS reviewed carrier stale')
+    if g['status']!='SELECTED_ROUTINE_G1_OPTION3_NY_EXECUTION_FAMILY_INDEPENDENT_REVIEWED' or not g['authority']['root_working_selection'] or not g['independent_review_complete']:
+        raise ValueError('GSW operating selection is not independently reviewed')
+    if c['status']!='ROUTINE_FICTIONAL_ROSTER_FAMILIES_SELECTED_INDEPENDENT_REVIEWED' or not c['scope']['independent_review_completed']:
+        raise ValueError('CHA/WAS operating selection is not independently reviewed')
+    if c['summary']['team_games']!=145 or c['summary']['slot_limit_gaps'] or c['summary']['positive_membership_gaps'] or c['summary']['model_vectors_changed']:
+        raise ValueError('CHA/WAS source domain changed')
+    if g['authority']['landing_author_locked'] or c['scope']['new_author_locks']:
+        raise ValueError('routine carrier changed author authority')
+    return g,c
+
 def build():
     raw={}
     for key,(fn,pinned,url)in RAW.items():
@@ -248,6 +267,9 @@ def build():
     text=PdfReader(TEMP/RAW['cba2017'][0]).pages[68].extract_text()
     if 'encompassing three (3)'not in text or 'ten (10) days'not in text:raise ValueError('10day source changed')
     finite=finite_working_sources()
+    gsw,cw=selected_roster_carriers()
+    gsw_source='simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json'
+    cw_source='research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json'
     games=input_models();historical,locators=opening();roster=deepcopy(historical)
     authority=(ROOT/MAP).read_text(encoding='utf-8-sig')
     for term in ('Wiseman→Edwards→LaMelo AUTHOR_LOCKED','Hayes New Orleans 13 AUTHOR_LOCKED','Bey 22 AUTHOR_LOCKED','Nnaji 24 AUTHOR_LOCKED','Hampton Dallas 31 AUTHOR_LOCKED','Charlotte Terry 32 AUTHOR_LOCKED'):
@@ -260,6 +282,14 @@ def build():
     c2=read(C2)['selected']
     if c2['route']!='C2_VAREJAO_NO_RETURN_SIGNING'or c2['event_direction']!='Cleveland does not sign Anderson Varejao on 2021-05-04 or execute the 2021-05-14 follow-up contract in the alternate 2020-21 season.':raise ValueError('C2 direction changed')
     initial_deltas=approved_roster_delta(roster)
+    # Contract kinds were unselected in the earlier working reconstruction.
+    # This consumes explicit reviewed finite families, not absence in a feed.
+    for team,player in [('CHA','Grant Riller'),('WAS','Isaac Bonga')]:
+        old=roster[team].pop(norm(player))
+        initial_deltas.append({'id':'REVIEWED_UNSIGNED:'+norm(player),'team':team,'player':player,'previous_class':old['class'],'working_NBA_contract':None,'source':cw_source,'actual_contract_or_tender_delivery_certified':False})
+    roster['CHA'][norm('Tyrell Terry')]['class']='TWO_WAY'
+    roster['CHA'][norm('Tyrell Terry')]['origin']='REVIEWED_CHA32_ONE_SEASON_TW_FAMILY'
+    initial_deltas.append({'id':'REVIEWED_CONTRACT_KIND:TERRY','team':'CHA','player':'Tyrell Terry','working_class':'TWO_WAY','source':cw_source,'author_locked_contract_changed':False})
     initial={t:deepcopy(v)for t,v in roster.items()}
     feed=json.loads((TEMP/RAW['movement'][0]).read_text(encoding='utf-8-sig'))['NBA_Player_Movement']['rows']
     final_date=max(g['date']for g in games)
@@ -282,6 +312,8 @@ def build():
         raise ValueError('original ORL release semantic source changed')
     for e in supplemental:
         events.append(dict(id='ORL_COMPLEMENT:'+e['original_source_id'],date=e['date'],type='Waive',team='ORL',player=e['player'],origin=None,contract_class='STANDARD',ten_day=False,source_row=None,source_row_sha256=None,source_path='research/ORLANDO_PUBLIC_EVENT_COVERAGE_2026_10_05.json',source_event=e,classification='PRESERVED_POSITIVE_ORIGINAL_TEAM_RELEASE',actual_execution_certified=False,omitted_by_approved_direction=False))
+    bell=cw['selection']['WAS_BELL_JAN']
+    events.append(dict(id='WAS_BELL_POSITIVE_EARLY_RELEASE',date=bell['working_release_date'],type='Waive',team='WAS',player='Jordan Bell',origin=None,contract_class='STANDARD',ten_day=False,source_row=None,source_row_sha256=None,source_path=cw_source,classification='REVIEWED_WORKING_WRITTEN_TEN_DAY_RELEASE_FROM_POSITIVE_ORIGINAL_REPORT',financial_obligations_erased=False,actual_execution_certified=False,omitted_by_approved_direction=False))
     sac_releases=[]
     for e in events:
         if e['team']=='SAC'and e['type']=='Waive'and e['date']=='2021-03-26'and norm(e['player'])in map(norm,finite['SAC_ATOMIC_RELEASES']['players']):
@@ -375,12 +407,11 @@ def build():
             for h in finite['HOU_HARDSHIP']['named_intervals']:
                 if h['from']<=day<=h['to']and norm(h['player'])in v:
                     hardships.append('HOU_'+norm(h['player']).upper()+'_NAMED_HARDSHIP_WORKING_FAMILY')
+        if t=='WAS'and bell['working_from']<=day<=bell['working_through_before_reported_release']and norm('Jordan Bell')in v:
+            hardships.append('WAS_BELL_JAN23_REVIEWED_NAMED_HARDSHIP_WORKING_FAMILY')
         if states[sid]['standard_count']>15+len(hardships):
             unresolved.append(gap('STANDARD_COUNT_ABOVE15_NO_POSITIVE_EXCEPTION',t,day,detail=states[sid]['standard_count']))
         if states[sid]['two_way_count']>2:unresolved.append(gap('TW_COUNT_ABOVE2',t,day,detail=states[sid]['two_way_count']))
-        if t=='GSW':unresolved.append('GSW_HUTCHISON_OPERATION_UNSELECTED')
-        if t=='WAS':unresolved.append('WAS_BONGA_RIGHTS_TO_STANDARD_UNSELECTED')
-        if t=='CHA':unresolved.append('CHA_RILLER_UDFA_CONTRACT_CARRY_UNSELECTED')
         bindings.append({'phase':g['phase'],'event_id':g['event_id'],'date':day,'team':t,'state_id':sid,
           'minute_source':{'path':g['source'],'pointer':g['pointer']},
           'positive_membership_covered':not any(x.startswith('POSITIVE_')for x in unresolved),
@@ -388,12 +419,11 @@ def build():
           'modeled_absent_source_names':g['absent'],'working_named_hardship_families':hardships,
           'working_named_hardship_capacity':len(hardships),'actual_hardship_medical_or_league_approval_certified':False})
     gaps=[{'id':key,'kind':key.split(':')[0],'occurrences':len(rows),'first_date':min(r['date']for r in rows),'last_date':max(r['date']for r in rows),'observations':rows}for key,rows in sorted(issues.items())]
-    for key,description in [('GSW_HUTCHISON_OPERATION_UNSELECTED','G1/G2/G3 original-direction implementation remains unselected; historical GSW roster is only a candidate.'),('WAS_BONGA_RIGHTS_TO_STANDARD_UNSELECTED','Bonga44 rights/stash vs current positive NBA family needs a finite standard-contract bridge; no automatic removal.'),('WAS_HOMESLEY_SIGNING_UNSELECTED','May15 Homesley signing and retained Brown/Trent require a selected roster implementation; do not automatically omit.'),('CHA_RILLER_UDFA_CONTRACT_CARRY_UNSELECTED','Approved Riller UDFA status does not select original Charlotte two-way contract.')]:
-        gaps.append({'id':key,'kind':'NAMED_CANDIDATE_EXECUTION_GAP','description':description,'actual_financial_or_destination_selection':None})
     covered=sum(b['positive_membership_covered']for b in bindings)
-    return {'schema_version':1,'status':'FULL_1174_SCHEDULE_PUBLIC_ROSTER_BRIDGE_AUDITED_NAMED_EXECUTION_GAPS_HOLD',
+    return {'schema_version':1,'status':'FULL_1174_FINITE_SELECTED_DATED_ROSTER_EXECUTION_COMPLETE' if covered==2348 and not gaps else 'DATED_ROSTER_EXECUTION_GAPS_HOLD',
       'baseline_main':'75a1d526e78ef53fbf3e72fa7cad8899a57debf9','source_hash_method':'UTF8_BOM_STRIPPED_CRLF_CR_NORMALIZED_LF',
       'source_sha256':{p:sha(p)for p in SOURCES},'raw_sources':raw,'authority':AUTH,
+      'selected_finite_carriers':{'GSW':{'path':gsw_source,'sha256':sha(gsw_source),'working_family_selected':True,'exact_landing_author_locked':False},'CHA_WAS':{'path':cw_source,'sha256':sha(cw_source),'working_family_selected':True,'NBA_contract_or_medical_actual_certificate':False}},
       'opening_source_locators':locators,'historical_opening':historical,'opening_working_delta':initial_deltas,
       'working_initial_rosters':initial,'initial_state_ids':initial_state_ids,'dated_events':executed,'working_interval_end_events':expiry_events,
       'roster_states':states,'team_game_bindings':bindings,'named_gaps':gaps,
@@ -416,7 +446,7 @@ def build():
         'CLE_reported_Jan14_end_not_generic_ten_day_shortening':True,
         'unknown_private_event_absence_required':False,'unsupported_contract_or_waiver_selection_added':False},
       'scope':{'complete_schedule_index':True,'complete_supplied_public_30team_candidate_reconstruction':True,'all_positive_membership_complete':covered==2348,
-        'complete_financial_execution':False,'working_roster_execution_complete':False,'actual_registration_certified':False,
+        'complete_financial_execution':False,'working_roster_execution_complete':covered==2348 and not gaps and all(not b['unresolved_gap_ids']for b in bindings),'actual_registration_certified':False,
         'medical_certified':False,'A1_A2_A3_promoted':False,'K_closed':[],'season_selected':False,'manuscript_allowed':False,
         'new_author_locked_choice':False,'new_source_collection':True},
       'upstream_validation':['regular validate + full source reconstruction','L2 full source reconstruction','playoff full source reconstruction','accepted ORL and DEN-CLE registration witness full reconstruction'],
@@ -436,7 +466,7 @@ def markdown(d):
       f"- 개막 원PDF4쪽+고정NBA 이동 feed의 선수 사건{s['public_player_events']}개, 명단상태{s['distinct_roster_states']}개와 기존 승인 원본문 해제 보완{s['accepted_original_release_complements']}건을 재현했다.",
       f"- 기존 양수분 선수 소속이 포함되는 팀경기{s['positive_membership_covered_team_games']}, 빠지는 팀경기{s['positive_membership_gap_team_games']}.",
       '- 소속 포함은 금융·수락·정확 리그접수 증명이 아니다. 명단 초과/변경 경로가 남으면 실행 완료로 세지 않는다. 원feed 날짜만으로 임시 초과나 hardship를 실제위법으로 판정하지 않는다.',
-      '- 승인 드래프트 착지/F1–F5와 아래 명명된 routine 등록 가족만 적용했다. Bonga/Homesley/Hutchison/Riller의 미선택 경로는 남긴다.',
+      '- 승인 드래프트 방향/F1–F5와 독립 검문된 GSW 및 CHA/WAS의 명명된 routine 계약 가족을 적용했다. 남은 명단 슬롯/계약 경로는0이며 실제 접수·금융·의료 인증과는 별개다.',
       '', '| 남은 유한 관측 | 관측수 | 최초 | 마지막 |','|---|---:|---|---|']
     for x in d['named_gaps']:
         lines.append(f"| {x['id']} | {x.get('occurrences','—')} | {x.get('first_date','—')} | {x.get('last_date','—')} |")
@@ -452,9 +482,9 @@ def markdown(d):
       'HOU는 Thomas5/7–13, Oliver5/10–16, Reynolds5/14–16의 명명된 hardship 작업 가족을 보존한다. 원 기자 Feigen의 Oliver·Reynolds hardship 본문과 Berman의5/14서명 원 트윗을 직접 읽었고, Thomas의5/14 standard 이동과 Reynolds hardship는 당시 긍정 보도와 연결한다. 실제 부상·접수·정확 급여는 선택하지 않는다.',
       'SAC는 양수분0인 Parker/Kabengele의 해제를 당시3/25최종 긍정 보도에 맞춰 기존3/25 incoming 전 작업 순서로 둔다. 원feed3/26해제와 구단가이드3/26인수 관측을 보존한다. 거래를 마감 뒤3/26으로 옮기지 않으며 급여 부채를 지우지 않는다. 구단 원 보도문 직접 회수는 미완이며 당시 보고를 공식 본문 직접 인증으로 계수하지 않는다.',
       '[유한 원자료·선택 및 한계](../research/NBA_2021_FINITE_ROSTER_SOURCE_FOLLOWUP_2026_10_07.md)는 별도 독립검문 대상이다.',
-      '', '## 다음 실제 실행','',
-      'named_gaps의 각 선수/날짜에 이미 존재하는 구단 원문·계약기간·승인델타를 연결한다. 공백은 새 임의계약으로 채우지 않고 원자료의 누락/날짜 차이와 미선택 대체 경로를 구분한다.',
-      '전체membership와자리/법적family 실행이 검문된 뒤 S2 closing_witness를 별도 판정한다. 이번파일A/K·원장·시즌승격0, v0.30 PARTIAL·설계/원고 CLOSED·원고0.',
+      '', '## 다음 실행 검문','',
+      'GSW 옵션3/MIN–NY/옵션4 미행사/보호 급여와 CHA Terry TW/Riller 미서명/WAS Bonga 유한tender/Homesley/Bell 가족을 별도 검문 모델에서 재구성했다. 관련 출전 분/승패 변경0, 명단 경로0공백이다. 예비 건강과 전체A/K의 종료는 별도로 판정한다.',
+      '전체membership와유한자리/계약family 실행이 검문됐으며 S2 closing_witness를 별도 판정한다. 이번파일A/K·원장·시즌승격0, v0.30 PARTIAL·설계/원고 CLOSED·원고0.',
       '', '[기계 입력](NBA_2020_21_DATED_ROSTER_EXECUTION_BRIDGE.json)','']
     return '\n'.join(lines)
 
@@ -463,8 +493,8 @@ def self_test(expected):
       ('reserve_injury',lambda x:x['event_policy'].__setitem__('reserve_zero_health','INJURED')),
       ('drop_game',lambda x:x['team_game_bindings'].pop()),
       ('change_member_same_count',lambda x:x['roster_states'][next(iter(x['roster_states']))]['players'][0].__setitem__('player','Unsupported Player')),
-      ('false_complete',lambda x:x['scope'].__setitem__('working_roster_execution_complete',True)),
-      ('erase_gap',lambda x:x['named_gaps'].pop()),
+      ('false_financial_complete',lambda x:x['scope'].__setitem__('complete_financial_execution',True)),
+      ('invent_gap',lambda x:x['named_gaps'].append({'id':'UNSUPPORTED_GAP'})),
       ('fake_raw_hash',lambda x:x['raw_sources']['movement'].__setitem__('raw_sha256','0'*64))]
     tests += [('late_trade_selection',lambda x:x['event_policy'].__setitem__('SAC_trade_deadline_assignment_shifted',True)),
       ('hardship_medical_certificate',lambda x:x['team_game_bindings'][0].__setitem__('actual_hardship_medical_or_league_approval_certified',True))]

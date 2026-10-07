@@ -1,0 +1,692 @@
+{
+  "status": "SELECTED_ROUTINE_G1_OPTION3_NY_EXECUTION_FAMILY_INDEPENDENT_REVIEWED",
+  "baseline_main": "75a1d526e78ef53fbf3e72fa7cad8899a57debf9",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF; external raw unchanged",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "control/AUTHORITY_MAP.md": "693ee88e93614a1bcaa470747f7986d267b6a35ec3bffd95aaff5e6467eaf4c1",
+    "simulation/GSW_HUTCHISON_2018_2021_OPERATING_CANDIDATES.json": "8bf812b411ce61592d7221f91954479f596062cf7b501ca78292ebf9ce5e6a99",
+    "research/GSW_G1_DATED_MATCHING_AND_HARDCAP_SCOPE_2026_10_07.json": "4cbff2683a696271321637564b61c2563e17eb10757e1ffeb6691876a28bbf7e",
+    "research/GSW_G1_REMAINING_APRON_COSTS_2026_10_07.json": "917c0985ae77c71c28ffa4fedaf85da8f0c9c6d3a9f835cc4db34105b17574f0",
+    "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json": "a37f3a300f134422b4312d2d9c04ec34a687bb05ed59ccd68e27b9914a5540ea",
+    "simulation/NBA_2021_L2_WORKING_MINUTE_MODELS.json": "4800f7cc8696017d86c82020466d09330d1fde78d584bc0e7c447b7f87bdb495",
+    "simulation/NBA_2021_L2_NONPLAYOFF_ROSTER_SCOPE.json": "c471fdb71b1729c28d3cbce3d9cd150beb794b820d16510a745e0f4140ca7400",
+    "tools/build_gsw_g1_option3_ny_working_execution.py": "4c23e9440c05b30f5ffee930d7d95dc6c0edbae44397c33c27f8c85f01f3c3a5"
+  },
+  "raw_sources": {
+    "EVANS": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-followthrough-20261007\\EVANS_CONTRACT.html",
+      "raw_sha256": "d92d03b42b0e291b93f90f8aa4a6d50bd80d5d1897ae6b074d70b0c2efea99af",
+      "adopted": true
+    },
+    "DAVIS": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-followthrough-20261007\\DAVIS_CONTRACT.html",
+      "raw_sha256": "e84b00438ed646575a478f1e45c75fc3ece84eca371325478c652b94554d9cfb",
+      "adopted": true
+    },
+    "SPELLMAN": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-matching-20261007\\SPELLMAN.html",
+      "raw_sha256": "21a830fae7ad38ec82a81ac8b575ce500f45a8861e30a03281bd6062db92342d",
+      "adopted": true
+    },
+    "NBA_FEED": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-nba-player-movement-2026-10-04.json",
+      "raw_sha256": "3d9d7a6dd7ccd39ddfdd1799a26ef9901b44682d85a26f05239b468a8ae92e3a",
+      "adopted": true
+    },
+    "CBA": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "adopted": true
+    },
+    "GSW_GUIDE": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-hutchison-20261007\\GSW_2324.pdf",
+      "raw_sha256": "1f229c48c478e78079a7c47ba1b9e0baa69f7867a1cfa8ff9c8185bca12dfd45",
+      "adopted": true
+    },
+    "MIN_RELEASE_FAILED": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-followthrough-20261007\\MIN_DAVIS_RELEASE.html",
+      "raw_sha256": "4180868531f8f9fbabc405468e7824aebabe4221c83983384d4e5d0d4807ae66",
+      "adopted": false
+    },
+    "MIN_GUIDE": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-g1-followthrough-20261007\\MIN_2020_21_GUIDE.pdf",
+      "raw_sha256": "ac89b1241bf211c9ebed75c56a60f19a0e12c3aca516e827d960a596bf64568f",
+      "adopted": true
+    },
+    "NBA_SCALE_2018": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-hutchison-20261007\\NBA_2018_19_CBA101.pdf",
+      "raw_sha256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "adopted": true
+    }
+  },
+  "CBA_pdf_page_text_sha256": {
+    "27": "b6fea4240f50597097936a1c22b5fc91f6c33599d44eebf7a6bed5d54ea52ed7",
+    "35": "a75d7cc2bd0f48a0a4e381dc3faf95b6c888438ddc38b082f35541f8cdcfc681",
+    "54": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1",
+    "55": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da",
+    "184": "8e1c1158caecf10d13b485124d59ca033aa62907dad5e71fdba9ff8a4b2b9ce8",
+    "185": "7abd30ae817f2c1696f79a77e10363d1fcc029375eaa94258b9be618f910fc2c",
+    "202": "3cdcf2dc3dc546b38f3be65b24c055f3c5da17d9a062f2a7472c30ffe6c82e12",
+    "206": "e5c736cb6aae51bff5515753ed23070ec8e3079f47d7f966e3a3e5b40b54fb62",
+    "208": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3",
+    "212": "fef14022ff9875a4a6a9b609792ea7b005bedfaca3a4bc489925b0e0ea87a82a",
+    "233": "236194df68b0f343933e4b25e48bef4c80d2bbfba11006a87e9585687aae7ba3",
+    "234": "6c47932b11835e0215ef806fdaf1ef3107d9b8c7dac0a3e208d179f14070f3c5",
+    "240": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65",
+    "241": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60",
+    "252": "b086e518697b5b94795c341b154279e6734b22f61c6157d51ab05a4f668aaab0",
+    "254": "ff59fbc69a921ae3d87511f82fd59541017c8ab589720f530d3f3bcad9e595bb",
+    "292": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed",
+    "294": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b",
+    "295": "759d7300ca1b2e3539c96c7119b40eae99c77e6d7f4d23582fa890f9f3f2b3c0"
+  },
+  "page_text_method": "PyMuPDF get_text(), LF normalized UTF8",
+  "NBA_2018_scale_pdf_page_text_sha256": {
+    "29": "a5adfd15fce5920cc6aa7aaa427cc48d9c755d4d5919943023c2dbcf49b23fde",
+    "30": "52927cac77e2d529b4b6d9c1bc31b5f9bad4284763eccd07ab11f3b081e32be9"
+  },
+  "historical_sources": {
+    "MIN_NY_trade": [
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2020-11-24T00:00:00",
+        "TRANSACTION_DESCRIPTION": "Minnesota Timberwolves received center Ed Davis from New York Knicks.",
+        "TEAM_ID": 1610612750.0,
+        "TEAM_SLUG": "timberwolves",
+        "PLAYER_ID": 202334.0,
+        "PLAYER_SLUG": "ed-davis",
+        "Additional_Sort": 1610612752.0,
+        "GroupSort": "Trade 2020010"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2020-11-24T00:00:00",
+        "TRANSACTION_DESCRIPTION": "New York Knicks received forward Omari Spellman from Minnesota Timberwolves.",
+        "TEAM_ID": 1610612752.0,
+        "TEAM_SLUG": "knicks",
+        "PLAYER_ID": 1629016.0,
+        "PLAYER_SLUG": "omari-spellman",
+        "Additional_Sort": 1610612750.0,
+        "GroupSort": "Trade 2020010"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2020-11-24T00:00:00",
+        "TRANSACTION_DESCRIPTION": "New York Knicks received guard Jacob Evans from Minnesota Timberwolves.",
+        "TEAM_ID": 1610612752.0,
+        "TEAM_SLUG": "knicks",
+        "PLAYER_ID": 1628980.0,
+        "PLAYER_SLUG": "jacob-evans",
+        "Additional_Sort": 1610612750.0,
+        "GroupSort": "Trade 2020010"
+      },
+      {
+        "Transaction_Type": "Trade",
+        "TRANSACTION_DATE": "2020-11-24T00:00:00",
+        "TRANSACTION_DESCRIPTION": "New York Knicks received draft consideration from Minnesota Timberwolves.",
+        "TEAM_ID": 1610612752.0,
+        "TEAM_SLUG": "knicks",
+        "PLAYER_ID": 0.0,
+        "PLAYER_SLUG": "",
+        "Additional_Sort": 1610612750.0,
+        "GroupSort": "Trade 2020010"
+      }
+    ],
+    "NY_Evans_waiver": [
+      {
+        "Transaction_Type": "Waive",
+        "TRANSACTION_DATE": "2020-12-09T00:00:00",
+        "TRANSACTION_DESCRIPTION": "New York Knicks waived guard Jacob Evans.",
+        "TEAM_ID": 1610612752.0,
+        "TEAM_SLUG": "knicks",
+        "PLAYER_ID": 1628980.0,
+        "PLAYER_SLUG": "jacob-evans",
+        "Additional_Sort": 0.0,
+        "GroupSort": "Waive 1033884"
+      }
+    ],
+    "MIN_release_web_search_verified_url": "https://www.nba.com/timberwolves/news/minnesota-timberwolves-acquire-ed-davis-new-york",
+    "MIN_release_raw_http403_not_evidence": true,
+    "MIN_guide": {
+      "url": "https://cdn.wolveslynx.com/timberwolves/communications/guides/2020-21_Wolves-MediaGuide.pdf",
+      "PDF_page": 228,
+      "text_sha256_LF": "1ab5c90fc91030d43fd3d42ab4b00ff93fa2a97a358256c0d1b977760d11cacf",
+      "MIN_2026_second_original_outgoing_named_claim": true,
+      "2024_second_Rubio_event_not_same_object": true,
+      "future_2026_protection_or_delivery_selected": null,
+      "all_private_claims_absence_certified": false
+    }
+  },
+  "original_contract_observations": {
+    "Evans_year1": [
+      "2018-19",
+      "",
+      "",
+      "$1,644,240",
+      "$1,644,240",
+      "$1,644,240",
+      "$0",
+      "$0"
+    ],
+    "Evans_year2": [
+      "2019-20",
+      "",
+      "",
+      "$1,925,890",
+      "$1,925,880 (+17%)",
+      "$1,925,880",
+      "$0",
+      "$0"
+    ],
+    "Evans_year3": [
+      "2020-21 W",
+      "Team",
+      "Yes (Oct 31, 2019)",
+      "$2,017,320",
+      "$2,017,320 (+6%)",
+      "$2,017,320",
+      "$0",
+      "$0"
+    ],
+    "Spellman_year3": [
+      "2020-21 W",
+      "Team",
+      "Yes (Oct 31, 2019)",
+      "$1,988,280",
+      "$1,988,280 (+6%)",
+      "$1,988,280",
+      "$0",
+      "$0"
+    ],
+    "Davis_current": [
+      "2020-21",
+      "",
+      "",
+      "$5,005,350",
+      "$5,005,350 (+5%)",
+      "$50,053,500",
+      "$0",
+      "$0"
+    ],
+    "Davis_protected_50053500_rejected_as_malformed": true,
+    "Evans_year2_cap_base_difference_10_not_copied": true,
+    "publisher_inputs_are_not_league_contract_memos": true
+  },
+  "authority": {
+    "classification": "ROOT_SELECTED_ROUTINE_OPERATING_FAMILY_WITHIN_CONDITIONAL_GSW28_WORKING_LANDING",
+    "root_working_selection": true,
+    "selection_basis": "Parent explicit selection after independent Codex source/semantic review, 2026-10-07; AGENTS autonomous routine implementation",
+    "landing_author_locked": false,
+    "exact_landing_HOLD_preserved": true,
+    "recommendation_author_locked": false,
+    "new_financial_cent_selected": null,
+    "actual_H_contract_or_waiver_certified": false,
+    "root_adoption_required_for_operating_model": false,
+    "consequential_direction_changed": false
+  },
+  "operating_events": [
+    {
+      "event": "2018_START_ROOKIE_CONTRACT",
+      "season": "2018-19",
+      "pick": 28,
+      "exact_date": null,
+      "two_guaranteed_seasons": true,
+      "no_extra_incentive_signing_or_assignment_bonus_in_constructed_family": true
+    },
+    {
+      "event": "THIRD_OPTION_EXERCISE",
+      "model_deadline": "2019-10-31",
+      "exact_notice_time": null,
+      "actual_exercise_certified": false
+    },
+    {
+      "event": "G1_MIN_TRADE",
+      "working_date": "2020-02-06",
+      "outgoing": [
+        "D'Angelo Russell",
+        "Omari Spellman",
+        "Chandler Hutchison"
+      ],
+      "incoming_GSW": [
+        "Andrew Wiggins"
+      ],
+      "existing_named_2021_first_second_objects_unchanged": true,
+      "actual_acceptance": null
+    },
+    {
+      "event": "MIN_NY_DAVIS_TRADE",
+      "working_date": "2020-11-24",
+      "MIN_outgoing": [
+        "Chandler Hutchison",
+        "Omari Spellman",
+        "MIN_2026_2R_named_original_claim"
+      ],
+      "MIN_incoming": [
+        "Ed Davis"
+      ],
+      "actual_acceptance": null
+    },
+    {
+      "event": "NY_WORKING_WAIVER",
+      "working_date": "2020-12-09",
+      "waiver_completion_exact_time": null,
+      "working_completion_condition": "cleared before 2020-12-22 opening; modeled routine administrative trace, not actual receipt",
+      "fourth_option_exercised": false,
+      "fourth_option_nonexercise_is_explicit_working_decision_not_automatic_historical_copy": true,
+      "fourth_option_2020_adjusted_deadline_exact": null,
+      "full_current_protected_salary_retained": true,
+      "future_unexercised_option_paid": false,
+      "stretch": false,
+      "new_setoff_or_claimant": null,
+      "postwaiver_FA_class": "I1(cc)(iii) waived Veteran, not I1(hhhh) completed-contract Veteran Free Agent; VII4(a)(2) VFA hold does not replace or add to full current dead charge",
+      "NY_FA_rights_renunciation_required_for_this_waiver": false,
+      "actual_renunciation_notice": null
+    }
+  ],
+  "constructed_financial_family": {
+    "years1_2": "max((4/5)*S_y, applicable II6 minimum_y) <= H_y <= min((6/5)*S_y, E_y_base, E_y_cap); same lawful original #28/2018-start scale",
+    "years1_2_cap_comparison_upper": [
+      1644240,
+      1925880
+    ],
+    "year3_H_interval": [
+      1936000,
+      2017320
+    ],
+    "year3_exact_H_salary": null,
+    "year3_floor_support": "Original same-pick same-start fully protected no-incentive E3 is a valid 120% reference; H3 may equal E3, so family nonempty without invented operative scale rounding.",
+    "year3_scale_public_source": "NBA CBA1012018 PDF29 #28 thirdyear display1681.1 in $000s; conservative magnitude1m–2m as in prior reviewed matching model;80%upper1.6m<familylower1.936m; exact operative dollar rounding null",
+    "minimum_player_salary": "II6 PDF54/55 applies independently of rookie80%; years1/2 intersect applicable minimum, not all80%contracts lawful. Same-start/YOS original E supplies a legal nonempty endpoint. NBA2018 CBA101 PDF30 YOS0–2 published floors below1.936m, so selected year3 matching floor is above the applicable minimum.",
+    "not_all_80_to_120_percent_year3_contracts_certified": true,
+    "all_current_protection": true,
+    "H_extra_bonus": 0,
+    "zero_bonus_is_constructed_contract_not_actual_absence_cert": true,
+    "NY_current_dead_charge_interval": [
+      1936000,
+      2017320
+    ],
+    "original_NY_observed_full_current_dead_row": [
+      "2020-21",
+      "",
+      "$2,017,320",
+      "$2,017,320"
+    ],
+    "NY_dead_charge_zero": false,
+    "future_year4_option_charge": 0,
+    "private_common_cost_Gamma_preserved_not_set_zero": true,
+    "cap_transport_relation": "For each existing feasible original common-cost realization Gamma(t), replace live/dead original E component with H<=E; Gamma+H<=Gamma+E. Before G1, GSW current cost cannot rise; G1 unchanged incoming/public actions; afterward GSW H charge absent. MIN H live current component and NY full protected dead component likewise cannot rise. This scalar cost relation does not assert all arbitrary Gamma are feasible or actual bonus outcomes unchanged.",
+    "original_feasible_realization_anchor": "Official GSW guide completed original 2018 #28 signing /2019 Russell S&T /2020 G1 plus NBA completed MIN-NY and NY waiver; preserve named common events and current cost components, not actual H facts.",
+    "whole_counterfactual_private_financial_trace_certified": false,
+    "public_cost_residual_X_value": null,
+    "existing_GSW_B_intervals_and_X_thresholds_not_discarded": true,
+    "GSW_existing_deadmoney_preserved": "Livingston and Chriss etc untouched; new H waiver does not erase NY protected charge"
+  },
+  "matching_Nov24": {
+    "universal_tax125_used_no_MIN_tax_assumption": true,
+    "MIN_incoming_Davis": 5005350,
+    "Spellman_outgoing": 1988280,
+    "H3_lower": 1936000,
+    "H3_upper": 2017320,
+    "MIN_limit_at_lower": 5005350,
+    "MIN_limit_at_upper": 5107000,
+    "MIN_slack_interval": [
+      0,
+      101650
+    ],
+    "NY_outgoing_Davis": 5005350,
+    "NY_incoming_upper": 4005600,
+    "NY_limit": 6356687.5,
+    "NY_slack_lower": 2351087.5,
+    "both_contracts_MIN_since_Feb6_more_than_two_months": true,
+    "NY_Davis_recent_acquisition_not_aggregated_with_other_outgoing_contract": true,
+    "prior_G1_matching_reused_source": "research/GSW_G1_DATED_MATCHING_AND_HARDCAP_SCOPE_2026_10_07.json"
+  },
+  "minute_and_roster_effects": {
+    "regular_team_games_read": 2160,
+    "positive_Hutchison_rows": [],
+    "MIN_Ed_Davis_positive_games_preserved": [
+      "2020-12-26_UTA_MIN",
+      "2020-12-27_LAL_MIN",
+      "2020-12-29_LAC_MIN",
+      "2021-01-01_MIN_WAS",
+      "2021-01-03_MIN_DEN",
+      "2021-01-05_DEN_MIN",
+      "2021-01-07_POR_MIN",
+      "2021-01-10_MIN_SAS",
+      "2021-01-18_ATL_MIN",
+      "2021-01-20_MIN_ORL",
+      "2021-01-22_MIN_ATL",
+      "2021-01-23_MIN_NOP",
+      "2021-01-25_GSW_MIN",
+      "2021-01-27_GSW_MIN",
+      "2021-01-29_MIN_PHI",
+      "2021-01-31_MIN_CLE",
+      "2021-02-01_CLE_MIN",
+      "2021-02-06_OKC_MIN",
+      "2021-02-08_DAL_MIN",
+      "2021-04-13_MIN_BKN",
+      "2021-04-14_MIN_MIL",
+      "2021-04-18_LAC_MIN",
+      "2021-05-09_ORL_MIN"
+    ],
+    "GSW_L2_objects": {
+      "2021-05-19_POR_GSW": {
+        "player_seconds": {
+          "Andrew Wiggins": 2227,
+          "Draymond Green": 2272,
+          "Jordan Poole": 1493,
+          "Juan Toscano-Anderson": 1610,
+          "Kent Bazemore": 1640,
+          "Kevon Looney": 1870,
+          "Mychal Mulder": 891,
+          "Stephen Curry": 2397
+        },
+        "starters": [
+          "Andrew Wiggins",
+          "Draymond Green",
+          "Kent Bazemore",
+          "Kevon Looney",
+          "Stephen Curry"
+        ],
+        "witness": [
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Kent Bazemore",
+              "Kevon Looney",
+              "Stephen Curry"
+            ],
+            "seconds": 1270.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Stephen Curry"
+            ],
+            "seconds": 719.0
+          },
+          {
+            "players": [
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kevon Looney",
+              "Mychal Mulder",
+              "Stephen Curry"
+            ],
+            "seconds": 408.0
+          },
+          {
+            "players": [
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Mychal Mulder"
+            ],
+            "seconds": 245.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Kevon Looney",
+              "Mychal Mulder"
+            ],
+            "seconds": 117.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kevon Looney",
+              "Mychal Mulder"
+            ],
+            "seconds": 75.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Mychal Mulder"
+            ],
+            "seconds": 38.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Mychal Mulder"
+            ],
+            "seconds": 8.0
+          }
+        ],
+        "modeled_absent": [],
+        "zero_health": {},
+        "source": {
+          "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+          "event_id": "2021-05-16_GSW_MEM",
+          "team": "GSW"
+        },
+        "source_full_roster_included": false,
+        "modeled_available": [
+          "Andrew Wiggins",
+          "Draymond Green",
+          "Jordan Poole",
+          "Juan Toscano-Anderson",
+          "Kent Bazemore",
+          "Kevon Looney",
+          "Mychal Mulder",
+          "Stephen Curry"
+        ],
+        "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+        "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+        "no_new_contact_injury_selected": true,
+        "recovery_or_medical_certificate": false,
+        "actual_active_list_certified": false,
+        "legal_registration_cleared": false,
+        "actual_substitution_order_certified": false,
+        "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+      },
+      "2021-05-21_GSW_MEM": {
+        "player_seconds": {
+          "Andrew Wiggins": 2227,
+          "Draymond Green": 2272,
+          "Jordan Poole": 1493,
+          "Juan Toscano-Anderson": 1610,
+          "Kent Bazemore": 1640,
+          "Kevon Looney": 1870,
+          "Mychal Mulder": 891,
+          "Stephen Curry": 2397
+        },
+        "starters": [
+          "Andrew Wiggins",
+          "Draymond Green",
+          "Kent Bazemore",
+          "Kevon Looney",
+          "Stephen Curry"
+        ],
+        "witness": [
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Kent Bazemore",
+              "Kevon Looney",
+              "Stephen Curry"
+            ],
+            "seconds": 1270.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Stephen Curry"
+            ],
+            "seconds": 719.0
+          },
+          {
+            "players": [
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kevon Looney",
+              "Mychal Mulder",
+              "Stephen Curry"
+            ],
+            "seconds": 408.0
+          },
+          {
+            "players": [
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Mychal Mulder"
+            ],
+            "seconds": 245.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Kevon Looney",
+              "Mychal Mulder"
+            ],
+            "seconds": 117.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kevon Looney",
+              "Mychal Mulder"
+            ],
+            "seconds": 75.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Draymond Green",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Mychal Mulder"
+            ],
+            "seconds": 38.0
+          },
+          {
+            "players": [
+              "Andrew Wiggins",
+              "Jordan Poole",
+              "Juan Toscano-Anderson",
+              "Kent Bazemore",
+              "Mychal Mulder"
+            ],
+            "seconds": 8.0
+          }
+        ],
+        "modeled_absent": [],
+        "zero_health": {},
+        "source": {
+          "path": "simulation/NBA_2020_21_REGULAR_CLOCK_COMPLETION.json",
+          "event_id": "2021-05-16_GSW_MEM",
+          "team": "GSW"
+        },
+        "source_full_roster_included": false,
+        "modeled_available": [
+          "Andrew Wiggins",
+          "Draymond Green",
+          "Jordan Poole",
+          "Juan Toscano-Anderson",
+          "Kent Bazemore",
+          "Kevon Looney",
+          "Mychal Mulder",
+          "Stephen Curry"
+        ],
+        "author_selection": "NEW_L2_DATE_WORKING_AVAILABILITY_AND_MINUTE_ALLOCATION",
+        "selection_reason": "Reuse selected rotation as a new dated author model, not a claim of observed play-in minutes.",
+        "no_new_contact_injury_selected": true,
+        "recovery_or_medical_certificate": false,
+        "actual_active_list_certified": false,
+        "legal_registration_cleared": false,
+        "actual_substitution_order_certified": false,
+        "lineup_scope": "UNORDERED_FIVE_PLAYER_EXISTENCE_NOT_TACTICAL_OR_COACH_CHRONOLOGY"
+      }
+    },
+    "GSW_May_standard": [
+      "Alen Smailagic",
+      "Andrew Wiggins",
+      "Damion Lee",
+      "Draymond Green",
+      "Eric Paschall",
+      "Gary Payton II",
+      "James Wiseman",
+      "Jordan Poole",
+      "Juan Toscano-Anderson",
+      "Kelly Oubre Jr.",
+      "Kent Bazemore",
+      "Kevon Looney",
+      "Klay Thompson",
+      "Mychal Mulder",
+      "Stephen Curry"
+    ],
+    "GSW_May_two_way": [
+      "Jordan Bell",
+      "Nico Mannion"
+    ],
+    "GSW_May_standard_count": 15,
+    "GSW_May_two_way_count": 2,
+    "regular_or_L2_vectors_changed": 0,
+    "new_H_health_certificate": null,
+    "Portland_Jacob_Evans_not_this_outgoing_actor": true,
+    "full_actual_registration_certified": false
+  },
+  "rejected_N3_nonexercise_expiry": {
+    "reason": "Removing H outgoing current salary can prevent MIN acquisition of Ed Davis; 23 selected positive Davis games require a live downstream trade bridge. Do not automatically copy expired H to NY waiver.",
+    "permanent_permission_barrier": false
+  },
+  "scope": {
+    "whole_legal_PASS_added": 0,
+    "REGISTER_changed": false,
+    "source_supported_operating_family_valid_for_review": true,
+    "all_other_team_financial_history_certified": false,
+    "minimum_team_salary_shortfall_automatic_erasure": false,
+    "minimum_team_salary_rule_obligation_preserved_not_spending_exemption": true,
+    "actual_consent": null,
+    "actual_cents": null,
+    "actual_landing": null,
+    "season_recomputed": false,
+    "manuscript_count": 0,
+    "actual_Pack_count": 0,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_gate": "CLOSED"
+  },
+  "independent_review_complete": true,
+  "independent_review": {
+    "reviewer": "/root/chi_salary_domain",
+    "scope": "whole public operating family, not actual whole private financial trace",
+    "direct_sources": "raw6 SHA; MINguide228; NBA2018 scale29/30; CBA12pages",
+    "output_mutations_rejected": [
+      "restore_year4_charge",
+      "change_MIN2026_to2024"
+    ],
+    "substantial_remaining_defect": 0,
+    "root_independent_endpoint_neighbor_and_three_output_controls_accepted": true,
+    "Claude_analysis_completed": false,
+    "whole_G16_closed": false
+  }
+}
