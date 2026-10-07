@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-07 [유한 상대·후반 경로·권리 연표 검문](reviews/FINITE_OPPONENT_ROUTES_AND_RIGHTS_CALENDAR_REVIEW_2026_10_07.md): PR468 main 뒤29팀seed/82키/DB1상대권리58/원feed1034행을 독립 대조하고 남은80=재사용4+부분6+25팀70으로 묶었다. 미작성상대함수27은 실행완료가 아니다. 후반미경로17/후보26의 원CP2 출구를 대조하고 A10준비/별도루틴·A14은퇴/후배목표·A09B2불필요의존성을 수리했다. 새Codex결과단독blind에서 추가결함0/전체G16미인증. Simonovic공통July29,2022와 조건부June23,2023/June30까지7일부족을 분리하고 전체FY23존속HOLD. 새AGY/NLM/Claude CLI NOT_RUN. 등록43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED. 다음TOR명명계약/공통입력기와 중요결과 의존성을 계속하며 아래는 이전이력이다.
+
 2026-10-07 [NOP·FY22名단·A10 검문](reviews/NOP_NAMED_FY22_JOIN_AND_A10_REVIEW_2026_10_07.md): PR467 main 뒤 두번째CHI–NOP2조합·14구간·48/240분과 FY22한날짜15STD2TW를 독립 대조했다. 미선택TW표준QO예약6m만제외해normal170,845,541/apron172,483,541·원stretch/권리유지. A10세조건부상호비용관측은 전체클로징/P3세막신뢰/대표팀진입을 확정하지 않는다. AGY올바른기존파서수집35.779초답회수·직접RFA3분류일치/AGY본문바이트미인증, NLM등록8.709초·분석58.684초답회수. 등록43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED. 다음은5·6번의유한기능/Pack인계공백을 종료기준으로 감사하며 아래는 이전이력이다.
 
 2026-10-07 [동시 시계·R3·대표팀 기관 연결](reviews/PAIRED_REGULATION_R3_AND_NATIONAL_BRIDGE_REVIEW_2026_10_07.md): PR466 main 뒤 CHI–DET 첫경기4조합×17구간·48/240분과 기존80초 포함을 초별 독립검문했다. R3동시3팀 매칭·CBA19쪽/7핀 및 후속재양도 날짜 누락을 수리, 전체비용/수락/방향미선택 보존. A09 B1/B2 기관8단계·두구단별 캠프비용을 원문/색인본문에 연결했다. Claude75.935초답회수·기각1/시간범위수용1과상시예약기각을 분리. 새AGY/NLM NOT_RUN·등록43/source53·Pack0·원고0·미완료5/6번까지4·v0.30 PARTIAL·CLOSED. 아래는 이전이력이다.
