@@ -7,6 +7,8 @@ from pathlib import Path
 
 import build_a07_finite_function_batch as a07_builder
 import build_a08_finite_function_batch as a08_builder
+import build_a07_opening_game_elbow_observation_family as game_builder
+import build_a08_s1_current_rt_cost_slot_family as rt_builder
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,7 +17,9 @@ A07 = str(a07_builder.OUTPUT).replace('\\', '/')
 A08 = str(a08_builder.OUTPUT).replace('\\', '/')
 CP2 = 'design/CP2_ACT_SUBACT_PACKET.json'
 OUTPUT = Path('design/A07_A08_SUBACT_EXIT_AUDIT_2026_10_07.json')
-SOURCES = (SELF, A07, A08, CP2)
+GAME = game_builder.OUT
+RT = str(rt_builder.OUTPUT).replace('\\', '/')
+SOURCES = (SELF, A07, A08, CP2, GAME, game_builder.SELF, RT, str(rt_builder.SELF).replace('\\', '/'))
 CP2_SUCCESS_CRITERIA_SHA = 'b205b4d8eb3ff7e956ec8c2ce2fbb9018b0969bde4a9fb033ff295f1df53e902'
 
 
@@ -48,23 +52,34 @@ def build(root=ROOT):
     criteria_raw = json.dumps(criteria_rows, ensure_ascii=False, sort_keys=True,
                               separators=(',', ':')).encode('utf-8')
     assert hashlib.sha256(criteria_raw).hexdigest() == CP2_SUCCESS_CRITERIA_SHA
+    game, rt = load(root, GAME), load(root, RT)
+    assert not game_builder.validate(game)
+    assert game['certification']['independent_review_completed']
+    assert game['root_working_selection']['two_calls_and_own_observation_route_selected']
+    assert not game['root_working_selection']['whole_game_or_season_historical_lock']
+    assert len(game['new_modeled_game_observations']) == 2
+    assert rt == rt_builder.build(root)
+    assert rt['independent_review_completed'] and len(rt['formula_rows']) == 192
+    assert rt['summary']['current_policy_cell_rows'] == 768
+    assert rt['fictional_agent_handoff']['same_E40_proposal_material']
+    assert rt['RT_policy_selected'] is None and not rt['actual_FY22_roster_or_tax_bill_certified']
 
     specifications = [
         ('A07-S1', ['A07-EF-001'], 'PASS_BOUNDED_OPERATING_EXIT',
          'M1 정상/COBY_OUT의 역할 비용을 명시해 좁은 엘보 과제를 요청했고 가상 코치가 실제 허용 훈련의 과제를 맡겼다.',
          '특정 날짜 출전·양팀 분·실제 경기 공격 호출은 미인증.', None),
-        ('A07-S2', ['A07-EF-002'], 'BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD',
-         '안쪽 유지 수비의 닫힌 창과 캐치 전 조기 도움 앞 늦은 반환 실패를 다른 훈련 조건에서 직접 보았고 다음 좁은 재시도에 빠른 반환·재배치를 수행했다.',
+        ('A07-S2', ['A07-EF-002'], 'PASS_CONDITIONAL_BOUNDED_GAME_SAMPLE_CRITERIA',
+         '기존 연습 뒤 개막CHI–DET 공통5인가용·적법명단 조건의 가상 두호출을 설계로 채택했다. 오른엘보/강한쪽조기도움/LaMelo반환/2초·7초 후속슛 모두MISS를 함께 기록하고 빠른 판단을 득점성공과 분리했다. 원240/480분은 보존한다.',
          'NBA 실경기 효율·득점·모든 수비 조건에서의 숙련은 미인증.',
-         'CP2의 캐치 위치·도움 방향·반환 경로와 함께 기록할 후속 슛 결과가 없고, LaMelo/LaVine 중 실제 반환 수신자도 특정되지 않았다.'),
+         None),
         ('A07-S3', ['A07-EF-003'], 'BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD',
          '실패 영상과 수정 시도를 함께 코치에게 제시하고 가상 에이전트에게 좋은/막힌 역할 자료를 건네는 선택과 과시 기회 비용이 보인다.',
          '시장 평점·협상 가격·계약 수락·프런트 동의는 미인증.',
          '좋은 경기만 고르지 않은 실제 출전·상대 대응/효율 변동의 역할 평가 자료는 아직 없다. 연습 영상의 실패만으로 시즌 평가를 대체하지 않는다.'),
-        ('A08-S1', ['A08-EF-001'], 'BOUNDED_ACTION_OBSERVED_CP2_CRITERIA_HOLD',
-         '자기 요구와 연결·외곽·센터 기능의 동일 예산 비용을 한 자료로 만들어 가상 에이전트에게 질문했다. 선수의 제안과 프런트 결정권을 구분한다.',
+        ('A08-S1', ['A08-EF-001'], 'PASS_CONDITIONAL_COST_LINK_CRITERIA_CONTRACT_EVENT_HOLD',
+         'E40과 같은 자료에 현재192×4 동일6범주의RT1–RT4 자리/잔여비용 함수를 연결해 가상 에이전트가 접수했다. Bradley H_B와 Valentine 보호비용을 보존하고 동료할인/새UPC/프런트수락을 가정하지 않았다.',
          '에이전트 전달은 프런트 수락이나 정확 E2 가격·다른 선수 서명과 다르다.',
-         'CP2의 G8 RT1 유지/방출 대체정책별 새 자리·잔여 급여 비용은 E40의 가시 제안에 아직 연결되지 않았다. 기존 공개비용 모형을 조인하면 되며 사적 영수증은 요구하지 않는다.'),
+         '성공기준의 조건부 비용 연결은 종료했다. 원 irreversible_choice의 실제 자기계약 예산 사용·E2 기관 결정은 미선택이며 전체 소막 확정은 HOLD다.'),
         ('A08-S2', ['A08-EF-002'], 'HOLD_ACTUAL_GAME_TRIAL_FOR_FULL_CP2_EXIT',
          '첫 반환 차단 가상 팀훈련의 늦은 각도 오류·열린 수신자에게 수정 전달·다른 닫힌 길의 안전 재전개는 직접 수행했다.',
          '원 CF03의 NBA 실경기 시험, 실제 압박 속 정확성·턴오버·사용/중단 반복 표본은 인증하지 않는다.',
@@ -83,13 +98,15 @@ def build(root=ROOT):
             'subact_id': sid, 'cp2_entry_state': source['entry_state'],
             'cp2_choice': source['choice'], 'cp2_cost': source['cost'],
             'cp2_exit_state': source['exit_state'], 'evidence_function_ids': ids,
-            'evidence_paths': [A07 if sid.startswith('A07') else A08],
+            'evidence_paths': [A07 if sid.startswith('A07') else A08] + ([GAME] if sid == 'A07-S2' else [RT] if sid == 'A08-S1' else []),
             'last_exact_exit': last['exit_state'],
             'observed_action_cost_authority_reason': reason,
             'bounded_not_claimed': bounded_not_claimed,
             'specific_gap': gap, 'exit_audit_result': result,
             'cp2_success_criteria': source.get('success_criteria', []),
-            'source_criteria_bounded_pass': gap is None,
+            'source_criteria_bounded_pass': sid in ('A07-S1', 'A07-S2', 'A08-S1'),
+            'source_criteria_conditional_family_only': sid in ('A07-S2', 'A08-S1'),
+            'full_irreversible_contract_event_hold': sid == 'A08-S1',
             'local_function_action_observed': True,
             'whole_historical_season_or_NBA_game_certified': False,
         })
@@ -119,9 +136,12 @@ def build(root=ROOT):
         'schema': 'A07_A08_SUBACT_EXIT_AUDIT_V1',
         'status': 'INDEPENDENTLY_REVIEWED_SOURCE_CRITERIA_EXIT_AUDIT',
         'independent_review_completed': True,
+        'independent_review_basis': 'g11 separately read original CP2 A07-S2/A08-S1 criteria and current source families. Conditional game/cost criteria pass with 3 remaining criteria and 2 act HOLDs; no dependency cycle. Actual loader-return MISS-to-MADE and RT4 Valentine protected2193930-to-zero mutations rejected. Author self-tests are not counted as independent checks.',
         'counts': {'subact_exits_audited': 6, 'local_function_actions_observed': 6,
-                   'subact_source_criteria_bounded_pass': 1,
-                   'subact_source_criteria_specific_hold': 5, 'act_exits_audited': 2,
+                   'subact_source_criteria_bounded_pass': 3,
+                   'subact_source_criteria_conditional_family_pass': 2,
+                   'full_irreversible_contract_event_hold': 1,
+                   'subact_source_criteria_specific_hold': 3, 'act_exits_audited': 2,
                    'act_source_exit_pass': 0, 'act_specific_hold': 2,
                    'registered_local_functions_reused': 6,
                    'new_episode_functions_added': 0,
@@ -140,7 +160,7 @@ def build(root=ROOT):
 
 def render(data):
     lines = ['# A07·A08 소막·막 출구 한정 감사', '',
-             '검토 대상: 기존 국소 기능 6개의 행동은 모두 관측되었다. 원 CP2 성공 기준까지 충족한 소막은 1개이며 나머지 5개와 두 막 출구는 구체 공백이 있다. 새 회차·경기·계약 결과를 만들지 않는다.', '',
+             '기존6기능을 보존한다. 원성공기준의 한정관측1개와 조건부 설계 비교2개를 수용하고 남은기준3개는HOLD다. 조건부 두개는 개막40초의 두플레이 설계와 현재RT 비용연결이다. A08-S1 실제E2 예산사용/기관결정은 여전히HOLD이며 두막/전체시즌·계약 결과를 확정하지 않는다. 새등록기능0.', '',
              '|소막|판정|관측 근거|정확 남은 공백|', '|---|---|---|---|']
     for row in data['subact_exit_rows']:
         lines.append('|{}|{}|{}|{}|'.format(row['subact_id'], row['exit_audit_result'],
@@ -150,8 +170,8 @@ def render(data):
     for row in data['act_exit_rows']:
         lines.append('|{}|{}|{}|'.format(row['act_id'], row['functional_exit_audit_result'],
                                        row['specific_gap'] or row['bounded_not_claimed']))
-    lines += ['', 'A07은 에이전트에게 실패를 포함한 연습 자료를 전달했다. 이것만으로 실전 효율 변동·실제 출전 자료가 포함된 첫 협상 표본을 완성하지는 않는다. '
-              'A08의 G8 비용 비교, 실경기 라이브 패스 시험·경기별 역할·E2 기관 결정도 훈련 행동으로 대체되지 않는다.',
+    lines += ['', 'A07은 실패를 포함한 연습자료와 별도 조건부 개막 두관측을 구분한다. 두슛은 모두실패이며 이를 시즌효율/출전평가로 확장하지 않는다. '
+              'A08 G8의 현재비용 연결은 종료했지만 E2 기관결정과 라이브패스 실경기/경기별역할은 훈련이나 비용표로 대체되지 않는다.',
               '', '82경기 건강·사적 영수증을 새로운 전제 게이트로 추가하지 않는다. '
               '전체 G13/G14·실제 Pack·원고는 미완료이며 설계·원고 게이트는 `CLOSED`다.', '']
     return '\n'.join(lines)

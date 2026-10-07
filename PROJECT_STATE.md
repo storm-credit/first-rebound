@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-07 [명명잔여비용·조건부출구 검문](reviews/NAMED_REMAINING_COST_AND_CONDITIONAL_EXIT_REVIEW_2026_10_07.md): PR461 main 뒤 두minimum예약의576행에서normal3,964,000/apron2,326,000을 좁히고 실제권리/RT미선택을 보존했다. WAS14raw/DOM·CBA독립검문과보호0/잘못된미래stretch반례거부로Pasecniks1,782,621예약·Miles원가족미래0의연도범위를 연결했다. 전체X상단/P1방향은HOLD다. 개막CHI–DET 공통5인 두20초 관측설계를한정채택하고240/480분을 보존했다. 원출구감사는한정관측1+조건부기준지원2/남은기준3·두막HOLD, A08-S1 E2기관/실제예산사용은별도HOLD다. 등록43/source53·미배정737불변. 새AGY/NLM/Claude NOT_RUN. 미완료큰묶음5·6번까지4·Pack0·원고0·v0.30 PARTIAL·CLOSED. 아래는 이전 이력이다.
+
 2026-10-07 [선행 비용·현재RT 인계 검문](reviews/PREFIX_COST_AND_CURRENT_RT_HANDOFF_REVIEW_2026_10_07.md): PR460 main 뒤 중복캠프 예약4,372,601을 제거하고 oldstretch16,371,000을 보존했다. A08-S1의 과거부분차액과 현재192×4 동일범주 정책함수를 분리하며 $1 최소계약/FA0YOS apron 오류를 수리했다. BKN/WAS 선행 후보의8명단/6비용셀·raw36/DOM22·독립원문을 검문하고 동일 Patty TMLE→NTMLE 반례거부를 확인했다. X/공동권리/P1 중요한 방향·계약 수락·전체시즌은 미확정. 등록43/source53/경로25·없는17/미배정737 불변, 새 외부분석NOT_RUN. 비용과 원CP2 출구의 실제남은 관측을 병행한다. 미완료큰묶음5·6번까지4·Pack0·원고0·v0.30 PARTIAL·CLOSED. 아래는 이전 이력이다.
 
 2026-10-07 [명명된2022권리·43번째기능 검문](reviews/NAMED_2022_RIGHTS_AND_FUNCTION43_REVIEW_2026_10_07.md): PR459 main 뒤 CHI 자체1R/복합2R의 공개 청구수를 운반해 FY22 과다예약407,740,000을 제거했다. 원3/7+SELF/24교환상위집합·192셀576상태/1492슬롯·독립반례거부를 수용했다. A09 자기자료·기관권한 질문을 기능43/계획443으로 등록, 대표팀 참가/금메달/병역 미인증 유지. 현재43/source53/경로25·없는17/미배정737(사건의무 아님). A07/A08의6행동 관측과 원출구기준1한정PASS/5HOLD·막2HOLD를 분리하고 CLI 동일검문3회→1회를 수리했다. 새 외부분석NOT_RUN/직전timeout 성공이월0. BKN/WAS 선행·잔여비용·G8 예산 연결을 계속한다. 미완료큰묶음5·6번까지4·Pack0·원고0·v0.30 PARTIAL·CLOSED. 아래42 등은 이전 이력이다.
