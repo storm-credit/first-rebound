@@ -1,0 +1,661 @@
+{
+  "id": "CHICAGO_2022_23_APPROVED_CORE_CONTRACT_EXECUTION_2026_10_07",
+  "schema": "APPROVED_CORE_CARRY_AND_NEXT_CAPYEAR_INPUT_SCREEN_V1",
+  "status": "INDEPENDENTLY_REVIEWED_PARTIAL_CORE_CARRY_AND_BOUNDED_COST_INPUTS",
+  "source_main_snapshot": "e1076617f72be15f72e6289d8af553481736e59e",
+  "source_sha256": {
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "tools/build_2021_chicago_a_full_cost_family.py": "de9a28dda0e26cf6fee95c889f910175355bc4b0ffb384f1b6662c8f08646574",
+    "canon/CHICAGO_2021_MARKKANEN_M1_DECISION.json": "253e4a4aa803cc493b0cb59715dd4eb74d4545abfe19a7161766fd7446cf9088",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "canon/CAREER_TIMELINE.md": "c6420cc02031b138103fe83dc02437dd209a3925d005e9a063855a66ee467eca",
+    "simulation/CHICAGO_2021_23_CONTRACT_SEQUENCE_INPUTS.json": "4b66d96a274fa4d31e41f6256192449e8b43a6dfc00e8f4e44f4cbd76e83bf78",
+    "simulation/CHICAGO_LONG_CORE_CBA_INPUTS.json": "7985e65cb5e184356aead888d4f016aca187dd2dd3185ea6de76527a6937fe0c",
+    "simulation/CHICAGO_2021_M1_AUTHOR_BRIDGE.json": "cdc9c0f5f751c09be48dce16e4471ef307fbacd649d3a1f08f7108ed8aa61b95",
+    "research/CHICAGO_2021_23_CONTINUATION_SOURCES.json": "4dc3cfb7416174c0fea5c2710e9915a729d362dc553f216f4e9c861b373e9db3",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "tools/build_chicago_2022_23_approved_core_contract_execution.py": "edfd73eab1d8617517447edd3093eb2647376e503263b5360890d87cfcc93c05"
+  },
+  "source_hash_method": "UTF8BOMstripped;CRLF/CRtoLF",
+  "raw_sources": [
+    {
+      "id": "NBA_CAP2022",
+      "url": "https://pr.nba.com/nba-salary-cap-2022-23-season/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\NBA_CAP2022.html",
+      "http_status": 200,
+      "raw_sha256": "2e76093cfc91b6257f18cddd25441090118f36bd8a942259fbc340438ff5e57f",
+      "bytes": 109871
+    },
+    {
+      "id": "NBA_CAP2017",
+      "url": "https://pr.nba.com/nba-salary-cap-2017-18-season/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\NBA_CAP2017.html",
+      "http_status": 200,
+      "raw_sha256": "267f33461fe7709d3d47d49ee708e96b8e7f5e7230971a8833e67a1ffd1157a3",
+      "bytes": 109930
+    },
+    {
+      "id": "NBA_CAP2018",
+      "url": "https://pr.nba.com/nba-salary-cap-2018-19-season/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\NBA_CAP2018.html",
+      "http_status": 200,
+      "raw_sha256": "333cc3f62b0ce070cf8aba907b07689237722cee2fccef6eedb97fe1738d6b84",
+      "bytes": 109846
+    },
+    {
+      "id": "COBY_OPTION2021",
+      "url": "https://www.nba.com/news/bulls-exercise-contract-options-on-coby-white-patrick-williams",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\COBY_OPTION2021.html",
+      "http_status": 200,
+      "raw_sha256": "ba75535908926b2b3bcca82db22efc6821df8799e55ce0afea4b65bb0f1e3697",
+      "bytes": 311845
+    },
+    {
+      "id": "ziaire-williams",
+      "url": "https://www.salaryswish.com/players/ziaire-williams",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\ziaire-williams.html",
+      "http_status": 200,
+      "raw_sha256": "4054c0f7dfa77fa45cf26c512d431e490f5d2975f4d32725756adc988cbd2076",
+      "bytes": 105832,
+      "rows": [
+        "2021-22 | $4,373,040 | $4,273,040 | $4,273,040 | $100,000 | $0",
+        "2022-23 | $4,591,680 | $4,491,680 (+5%) | $4,491,680 | $100,000 | $0"
+      ]
+    },
+    {
+      "id": "alex-caruso",
+      "url": "https://www.salaryswish.com/players/alex-caruso",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-chi-core2022-20261007\\alex-caruso.html",
+      "http_status": 200,
+      "raw_sha256": "ec0857bec1d1933e524efe62a298943dc001f12b86c8e1f78974200d21f913e3",
+      "bytes": 117408,
+      "rows": [
+        "2021-22 | $8,600,000 | $8,600,000 | $8,600,000 | $0 | $0",
+        "2022-23 | $9,030,000 | $9,030,000 (+5%) | $9,030,000 | $0 | $0"
+      ]
+    },
+    {
+      "id": "zach-lavine_2021_ROW",
+      "url": "https://www.salaryswish.com/players/zach-lavine",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-zach-lavine-20261007.html",
+      "raw_sha256": "1525dc4eeff64c5b25ab04b327dd78f2a3b96493f11e6efb1fd31a1faec0bb0a",
+      "bytes": 108099,
+      "http_status": 200,
+      "locator": "2021-22 contract row",
+      "observed_rows": [
+        "2021-22 | $19,500,000 | $19,500,000 | $19,500,000 | $0 | $0"
+      ],
+      "collected_date": "2026-10-07"
+    },
+    {
+      "id": "thaddeus-young_2021_ROW",
+      "url": "https://www.salaryswish.com/players/thaddeus-young",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-thaddeus-young-20261007.html",
+      "raw_sha256": "59113868938e938d8c78cc924891ae242dd407b2e35af2f833798b3f152a9b80",
+      "bytes": 124782,
+      "http_status": 200,
+      "locator": "2021-22 contract row",
+      "observed_rows": [
+        "2021-22 | $14,190,000 | $14,190,000 (+5%) | $14,190,000 | (6.00M→14.2M) | $0 | $1,000,000"
+      ],
+      "collected_date": "2026-10-07"
+    },
+    {
+      "id": "tomas-satoransky_2021_ROW",
+      "url": "https://www.salaryswish.com/players/tomas-satoransky",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-tomas-satoransky-20261007.html",
+      "raw_sha256": "786358ed1a147e00b7f835aea084308acf481828d1be8c642c0f63ccd9a624c5",
+      "bytes": 106652,
+      "http_status": 200,
+      "locator": "First original multiyear2021-22 row only; later2022 waiver/re-signing rows not adopted",
+      "observed_rows": [
+        "2021-22 | W | $10,000,000 | $10,000,000 | $10,000,000 | (5.00M→10.0M) | $0 | $0"
+      ],
+      "collected_date": "2026-10-07"
+    },
+    {
+      "id": "coby-white_2021_ROW",
+      "url": "https://www.salaryswish.com/players/coby-white",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-coby-white-20261007.html",
+      "raw_sha256": "4600598bfbaf257bda6d838af6cb3e1f2523eb71f3345f13ee292c2acff14736",
+      "bytes": 105601,
+      "http_status": 200,
+      "locator": "2021-22 contract row",
+      "observed_rows": [
+        "2021-22 | Team | Yes (Dec 19, 2020) | $5,837,760 | $5,837,760 (+5%) | $5,837,760 | (0→5.84M) | $0 | $0"
+      ],
+      "collected_date": "2026-10-07"
+    },
+    {
+      "id": "wendell-carterjr_2021_ROW",
+      "url": "https://www.salaryswish.com/players/wendell-carterjr",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-wendell-carterjr-20261007.html",
+      "raw_sha256": "6b9f1c5d557a1e6f48efde67eab01650acb76048d8ac4b22723ae56da573081f",
+      "bytes": 105566,
+      "http_status": 200,
+      "locator": "2021-22 contract row",
+      "observed_rows": [
+        "2021-22 | Team | Yes (Dec 19, 2020) | $6,920,027 | $6,920,027 (+33%) | $6,920,027 | (0→6.92M) | $0 | $0"
+      ],
+      "collected_date": "2026-10-07"
+    },
+    {
+      "id": "patrick-williams_2021_ROW",
+      "url": "https://www.salaryswish.com/players/patrick-williams",
+      "classification": "REUSED_VENDOR_HISTORICAL_INPUT_NOT_LEAGUE_LEDGER",
+      "cache_path": "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-chi-2021-retained-patrick-williams-20261007.html",
+      "raw_sha256": "d2e10fb00ca72aef97feca53b8ce5dc7f58464016a67068df72068abdfad84f4",
+      "bytes": 100132,
+      "http_status": 200,
+      "locator": "2021-22 contract row",
+      "observed_rows": [
+        "2021-22 | $7,422,000 | $7,422,000 (+5%) | $7,422,000 | $0 | $0"
+      ],
+      "collected_date": "2026-10-07"
+    }
+  ],
+  "primary_rule_evidence": {
+    "url": "https://cdn.nba.com/manage/2021/03/2017-NBA-Collective-Bargaining-Agreement.pdf",
+    "raw_cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-cba-matching-2026-10-04\\2017_NBA_CBA.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "pages": [
+      {
+        "PDF_1based": 54,
+        "fitz_text_LF_sha256": "b002f3d4c97245ae75d89d3e8d390574ee71de51c38cf25de405c67f622da9a1"
+      },
+      {
+        "PDF_1based": 55,
+        "fitz_text_LF_sha256": "ca2c17388d44346413fe2b288d5da395a02849cda5600738373b321cc1be80da"
+      },
+      {
+        "PDF_1based": 57,
+        "fitz_text_LF_sha256": "a7aad971c53c9aeba55c6a8d5957bae0c64010395a433063c3cf44a303bc133b"
+      },
+      {
+        "PDF_1based": 64,
+        "fitz_text_LF_sha256": "74a99ce5afa7d4672100e15df16f8098edf759c2eef0a3c3dcf496c9b185476d"
+      },
+      {
+        "PDF_1based": 65,
+        "fitz_text_LF_sha256": "17ffeef7fdace31f8ac74cf053239e733fc0a7c19b45801b45eaee4844726a58"
+      },
+      {
+        "PDF_1based": 208,
+        "fitz_text_LF_sha256": "6233d594134459740d61511b7f3ee62f00a60ae2388c387957bf26736af406c3"
+      },
+      {
+        "PDF_1based": 209,
+        "fitz_text_LF_sha256": "3a47b881e3d34ff50f7ad32a38792702ac43e77a9aa9383b5433ceba6bc84859"
+      },
+      {
+        "PDF_1based": 239,
+        "fitz_text_LF_sha256": "8cbbebad974fe1b8e78cca0ec11c99b04d22dc0ef34a7282dac2b81721bc5918"
+      },
+      {
+        "PDF_1based": 240,
+        "fitz_text_LF_sha256": "894e9af9d73b50ed7208a6188c8fa7990be625dfe863b85945ff20c57ae85a65"
+      },
+      {
+        "PDF_1based": 241,
+        "fitz_text_LF_sha256": "43236045b17a96dc3b0a2fc34452c83b383a4b6aacc623d961ec8cdb7ebb6f60"
+      },
+      {
+        "PDF_1based": 249,
+        "fitz_text_LF_sha256": "8c960b7a0da244e0efa39669c6e79ff5929ceabb8240c920cc9ede5cfa1ad468"
+      },
+      {
+        "PDF_1based": 250,
+        "fitz_text_LF_sha256": "73349e6eeedc8c0687d0df8258e5b4fc3affaabf3586f5fedbda1a618d1fb399"
+      },
+      {
+        "PDF_1based": 292,
+        "fitz_text_LF_sha256": "d151202c5842be9171b84af9abf62aa6c5f2e0621c9ecc1091fa4312d984fbed"
+      },
+      {
+        "PDF_1based": 293,
+        "fitz_text_LF_sha256": "c40ae37ee2223a2b35e626a7ec0b5c5f9b7ed10f70f6980e8c446c89d9df41df"
+      },
+      {
+        "PDF_1based": 294,
+        "fitz_text_LF_sha256": "0bf07b526efa465a4be3c22a10b85dcf364b763628c9cf73420f0a859c9b9f8b"
+      },
+      {
+        "PDF_1based": 310,
+        "fitz_text_LF_sha256": "6a860dfdb714499e550301e89b6cfb1527ce800299384df3fc55c384648f1b94"
+      },
+      {
+        "PDF_1based": 311,
+        "fitz_text_LF_sha256": "131c0a2e2c1fc7c49ef685119b2357d9a32c8aa51951fe8bc343b3c465ed9744"
+      },
+      {
+        "PDF_1based": 312,
+        "fitz_text_LF_sha256": "3ae615e57f3f6f2841dfe1e84da6ff8c2f81e0ed0a623bc572a2ca42bed5a727"
+      },
+      {
+        "PDF_1based": 559,
+        "fitz_text_LF_sha256": "48563d39eb566f3f3f6d1ad1e0f39a275bc8043fef806f7ae3f0521a3f523b75"
+      },
+      {
+        "PDF_1based": 560,
+        "fitz_text_LF_sha256": "10097562be061ff4659c6143cc2d787e913a4b94ddc55d9475057655ccabae88"
+      },
+      {
+        "PDF_1based": 561,
+        "fitz_text_LF_sha256": "7f13ec34eb63aa8d3ff7a74ed4ed1e9dba6ce50d7ad3b1f49edd8b09cd05f18e"
+      }
+    ],
+    "extraction": "PyMuPDF get_text default; UTF8;CRLF/CR normalizedLF; pagehash is extractedtext, not rawPDF",
+    "applicable_rules": "2017 CBA for2022–23. LONG_CORE_CBA_INPUTS references effective2023-07-01; its new second-apron and SecondRoundPickException are not applied here.",
+    "minimum": "II6a/d and ExC PDF561: contract signing-year scale, later credited YOS/Year2 and statutory upward amendment.",
+    "options": "VIII1a PDF292: signed notice during allowed post-season window throughOct31, moved to next business day forweekend/holiday; October1 working option realization is permitted, actual receiptnull.",
+    "FA_QO": "VII4d and XI1c: capholds differ from salary, QO and firstrefusal. Starter criteria depend on2021–22 actual authored stats still unselected.",
+    "apron": "VII6m3: excludes ordinary FAhold/unsigned1Rhold/unusedexception/emptyrosterhold, retains outstanding QO/FirstRefusal/RequiredFirstTender and youngFAfloor/Unlikely/grievance exposure.",
+    "stretch": "VII7d6 PDF249–250: prior admitted public stretched groupscreen may be carried as an annual conservative ceiling; no new unreported settlements/waivers are invented."
+  },
+  "retrieval_notes": [
+    {
+      "id": "NBA_CAP2022_initial_defaultUA_attempt",
+      "http_status": 403,
+      "cache_path": null,
+      "body_used": false,
+      "retry": "One MozillaUA retry yielded pinned200 body."
+    }
+  ],
+  "source_authority": {
+    "M1_direction_selected": true,
+    "A_growth_core_Caruso_direction_selected": true,
+    "Caruso_terms": "Reviewedadmitted2021routine implementation, not actualleague contract proof.",
+    "old_contract_sequence": "Conditionalcomparisons; not a producer of approved2022 existing salaries.",
+    "obsolete_ATL30_landing": "Rejectedhistory; currentChicago late1R exactpickHOLD. No new exact2018pick choice.",
+    "new_exact_author_lock": false
+  },
+  "calendar_and_rules": {
+    "capyear": [
+      "2022-07-01",
+      "2023-06-30"
+    ],
+    "CBA": "2017",
+    "official_cap": 123655000,
+    "official_tax": 150267000,
+    "official_NTMLE": 10490000,
+    "official_TMLE": 6479000,
+    "official_room_MLE": 5401000,
+    "official_capyear_effective_time": "2022-07-01 00:01 ET",
+    "official_FA_negotiation_start": "2022-06-30 18:00 ET",
+    "official_moratorium_end": "2022-07-06 12:00 ET",
+    "2021_NTMLE_hardcap_end": "2022-06-30",
+    "2022_hardcap_trigger_selected": false,
+    "apron_unrounded_primary_rule_proxy": {
+      "numerator": 8823531600000,
+      "denominator": 56207
+    },
+    "reported_secondary_apron_reference": 156983000,
+    "2022_NBA_PR_published_apron": false,
+    "conservative_conditional_apron_screen": 156982000,
+    "actual_rounding_or_secondary_reference_officially_certified": false,
+    "second_apron_or_new2023_second_round_exception_applied": false
+  },
+  "routine_carry_candidate": {
+    "classification": "SOURCE_SUPPORTED_ROUTINE_CARRY_CANDIDATE_WITHIN_M1_A_NOT_NEW_AUTHOR_LOCK",
+    "Coby_fourth_year_option": {
+      "exercise_candidate_date": "2021-10-01",
+      "signed_player_notice": true,
+      "actual_receipt_certified": false
+    },
+    "LaMelo_third_year_option": {
+      "exercise_candidate_date": "2021-10-01",
+      "signed_player_notice": true,
+      "actual_receipt_certified": false
+    },
+    "two_year_minimum_contracts": "Preserve the reviewed2021 two-year minimum family; for this carry realization add no unselected player/team option, new bonus, waiver, renegotiation or extension.",
+    "minimum_year2_scale": "2021–22 signing-year scale, credited YOS in2022–23, contractYear2 under II6; not the2022 new-contract Year1 scale.",
+    "Duarte": "Preserve120% rookie Salary+Unlikely ceiling at#10; no Ziaire100000 performance bonus or individual contract copied.",
+    "new_LaVine_Protagonist_Carter_Young_Satoransky_contract_selected": false,
+    "P2018_exact_pick_selected": false,
+    "P2018_team": "Chicago",
+    "P2018_pick_domain": [
+      16,
+      30
+    ],
+    "2021_NTMLE_hardcap_automatically_carried_into2022": false,
+    "new2022_hardcap_trigger_selected": false,
+    "actual_private_contracts_or_delivery_certified": false,
+    "whole2022_roster_selected": false,
+    "new_author_lock": false
+  },
+  "core_carry_rows": [
+    {
+      "player": "Markkanen",
+      "2022_23_screen_upper_usd": 18360000,
+      "source_type": "M1_AUTHOR_SELECTED",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Caruso",
+      "2022_23_screen_upper_usd": 9030000,
+      "source_type": "REVIEWED2021_ROUTINE_CARRY_PLUS_PUBLIC_ROOKIE_TEMPLATE",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "LaMelo Ball",
+      "2022_23_screen_upper_usd": 7775400,
+      "source_type": "REVIEWED2021_ROUTINE_CARRY_PLUS_PUBLIC_ROOKIE_TEMPLATE",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Coby White",
+      "2022_23_screen_upper_usd": 7413955,
+      "source_type": "REVIEWED2021_ROUTINE_CARRY_PLUS_PUBLIC_ROOKIE_TEMPLATE",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Chris Duarte",
+      "2022_23_screen_upper_usd": 4591680,
+      "source_type": "REVIEWED2021_ROUTINE_CARRY_PLUS_PUBLIC_ROOKIE_TEMPLATE",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Green",
+      "credited_2022_23_YOS": 3,
+      "contract_year": 2,
+      "contract_signing_scale_capyear": "2021-22",
+      "ExC2017Year2_usd": 1600520,
+      "unrounded_statutory_scale_proxy": {
+        "numerator": 179920855280,
+        "denominator": 99093
+      },
+      "integer_proxy_interval": [
+        1815676,
+        1815677
+      ],
+      "rounding_screen_allowance_usd": 10,
+      "2022_23_screen_upper_usd": 1815687,
+      "exact_NBA_rounding_algorithm_or_cents_certified": false,
+      "screen_condition": "Actual applicable official signing-year Year2 tableamount must lie at/below this widened numeric screen. Exact statutory table L remains symbolic, not replaced by a picked dollar.",
+      "statutory_salary": "L_2021_22(YOS=3,Year2); no new bonus. II6d automatically raises any too-low prior amount.",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Joe Wieskamp",
+      "credited_2022_23_YOS": 1,
+      "contract_year": 2,
+      "contract_signing_scale_capyear": "2021-22",
+      "ExC2017Year2_usd": 1378242,
+      "unrounded_statutory_scale_proxy": {
+        "numerator": 51644565396,
+        "denominator": 33031
+      },
+      "integer_proxy_interval": [
+        1563518,
+        1563519
+      ],
+      "rounding_screen_allowance_usd": 10,
+      "2022_23_screen_upper_usd": 1563529,
+      "exact_NBA_rounding_algorithm_or_cents_certified": false,
+      "screen_condition": "Actual applicable official signing-year Year2 tableamount must lie at/below this widened numeric screen. Exact statutory table L remains symbolic, not replaced by a picked dollar.",
+      "statutory_salary": "L_2021_22(YOS=1,Year2); no new bonus. II6d automatically raises any too-low prior amount.",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Tony Bradley",
+      "credited_2022_23_YOS": 5,
+      "contract_year": 2,
+      "contract_signing_scale_capyear": "2021-22",
+      "ExC2017Year2_usd": 1795015,
+      "unrounded_statutory_scale_proxy": {
+        "numerator": 201784816210,
+        "denominator": 99093
+      },
+      "integer_proxy_interval": [
+        2036317,
+        2036318
+      ],
+      "rounding_screen_allowance_usd": 10,
+      "2022_23_screen_upper_usd": 2036328,
+      "exact_NBA_rounding_algorithm_or_cents_certified": false,
+      "screen_condition": "Actual applicable official signing-year Year2 tableamount must lie at/below this widened numeric screen. Exact statutory table L remains symbolic, not replaced by a picked dollar.",
+      "statutory_salary": "L_2021_22(YOS=5,Year2); no new bonus. II6d automatically raises any too-low prior amount.",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Stanley Johnson",
+      "credited_2022_23_YOS": 7,
+      "contract_year": 2,
+      "contract_signing_scale_capyear": "2021-22",
+      "ExC2017Year2_usd": 2072867,
+      "unrounded_statutory_scale_proxy": {
+        "numerator": 233019270938,
+        "denominator": 99093
+      },
+      "integer_proxy_interval": [
+        2351521,
+        2351522
+      ],
+      "rounding_screen_allowance_usd": 10,
+      "2022_23_screen_upper_usd": 2351532,
+      "exact_NBA_rounding_algorithm_or_cents_certified": false,
+      "screen_condition": "Actual applicable official signing-year Year2 tableamount must lie at/below this widened numeric screen. Exact statutory table L remains symbolic, not replaced by a picked dollar.",
+      "statutory_salary": "L_2021_22(YOS=7,Year2); no new bonus. II6d automatically raises any too-low prior amount.",
+      "actual_contract_amount_certified": false
+    },
+    {
+      "player": "Denzel Valentine",
+      "credited_2022_23_YOS": 6,
+      "contract_year": 2,
+      "contract_signing_scale_capyear": "2021-22",
+      "ExC2017Year2_usd": 1933941,
+      "unrounded_statutory_scale_proxy": {
+        "numerator": 72467347858,
+        "denominator": 33031
+      },
+      "integer_proxy_interval": [
+        2193919,
+        2193920
+      ],
+      "rounding_screen_allowance_usd": 10,
+      "2022_23_screen_upper_usd": 2193930,
+      "exact_NBA_rounding_algorithm_or_cents_certified": false,
+      "screen_condition": "Actual applicable official signing-year Year2 tableamount must lie at/below this widened numeric screen. Exact statutory table L remains symbolic, not replaced by a picked dollar.",
+      "statutory_salary": "L_2021_22(YOS=6,Year2); no new bonus. II6d automatically raises any too-low prior amount.",
+      "actual_contract_amount_certified": false
+    }
+  ],
+  "expired_or_unselected_new_contract_inputs": [
+    {
+      "player": "LaVine",
+      "2021_22_prior_regular_salary": 19500000,
+      "existing2022_23_salary": null,
+      "original2022_max_contract_reference": 37096500,
+      "reference_not_carry_authority": true,
+      "new2022_route_selected": false,
+      "normal_Bird_FAhold_loose_upper": 37050000,
+      "hold_derivation": "1.9*19500000; conservative ordinary fullBird category maximum; actual average-salary branch not guessed. Normalhold is not an apron salary."
+    },
+    {
+      "player": "Protagonist",
+      "2018_pick_domain": [
+        16,
+        30
+      ],
+      "exact_pick": null,
+      "existing2022_23_salary": null,
+      "new2022_route_selected": false,
+      "old_candidates": [
+        "E1_2021_EXTENSION",
+        "E2_2022_DIRECT_BIRD",
+        "E3_2022_BIRD_MAX",
+        "E4_ONE_YEAR_QO"
+      ],
+      "candidate22m_not_selected": true,
+      "normal_FAhold": "min(2022MaximumSalary,max(rookie250or300percent*actualFourthYearSalary,applicableMinimum)); no ATL30 or Hutchison dollar substitution",
+      "outstanding_QO_or_FirstRefusal": null,
+      "rookie_starter_test_2021_22_selected": false
+    },
+    {
+      "player": "Wendell Carter Jr.",
+      "2021_22_prior_regular_salary": 6920027,
+      "existing2022_23_salary": null,
+      "new2022_route_selected": false,
+      "old_candidates": [
+        "CX1_50m",
+        "CX2_40m",
+        "CX3_60m",
+        "CX4_RFA"
+      ],
+      "original_ORL14_15m_extension_not_copied": true,
+      "normal_Bird_FAhold_loose_upper": 20760081,
+      "hold_derivation": "3*6920027 loose rookie-Bird upper; no2021 extension is selected. QO/StarterCriteria remain a function."
+    },
+    {
+      "player": "Thaddeus Young",
+      "2021_22_prior_regular_salary": 14190000,
+      "prior_performance_earned_interval": [
+        0,
+        1000000
+      ],
+      "existing2022_23_salary": null,
+      "new2022_route_selected": false,
+      "normal_Bird_FAhold_loose_upper": 28861000,
+      "hold_derivation": "1.9*(14190000+1000000); preserve uncertain earnedperformance rather than importing actual TOR8m contract."
+    },
+    {
+      "player": "Tomas Satoransky",
+      "2021_22_prior_regular_salary": 10000000,
+      "existing2022_23_salary": null,
+      "new2022_route_selected": false,
+      "normal_Bird_FAhold_loose_upper": 19000000,
+      "hold_derivation": "1.9*10000000 loose ordinaryBird upper; original2019three-year term ends. No laterwaiver/re-signing salary identity is copied."
+    }
+  ],
+  "QO_function": {
+    "teams": [
+      "Chicago"
+    ],
+    "eligible_candidates": [
+      "Protagonist",
+      "Wendell Carter Jr."
+    ],
+    "conditional_on_no2021_extension_and_timely_2022_QO": true,
+    "qualifying_offer_and_2021_22_stats_selected": false,
+    "deadline_or_receipt_certified": false,
+    "statutory_test": "XI1c: ownrookiefourthsalary*scaleQO%; pick16–30 starter⇒ninthpick120%; pick7nonstarter⇒min(ownQO,fifteenthpick120%). 41starts/2000minutes fourthyear or third/fourthmean; not inferred from2020–21 alone.",
+    "broad_screen_per_candidate": 30913750,
+    "screen_not_actual_QO_or_salary": "At/below25%cap only a loose rookiecohort cost screen. Exact QO must be computed from admitted rookie scale and2021–22 stats; screen does not select acceptance."
+  },
+  "six_category_next_year_map": [
+    {
+      "id": "C1_CURRENT_AND_ADDITIONS",
+      "carried_core_players": 10,
+      "new_expired_contract_paths": 5,
+      "new_contract_or_bonus_cost": "X_NEW>=0,unselected; cannot copyold148806968aggregate"
+    },
+    {
+      "id": "C2_FORMER_PLAYERS",
+      "admitted_prior_future_stretch_annual_screen": 16371000,
+      "past_camp_full_cash_overreserve": 4372601,
+      "ordinary_legacy_contracts": "Use reviewed13namedordinaryendpoints ending no later2020–21; term-end is not zero payment. Priorstretchscreen retained; no new unreported resolution selected.",
+      "new2021_22_waiver_or_settlement_selected": false,
+      "actual2022_dead_salary_or_camp_charge_certified": false
+    },
+    {
+      "id": "C3_FREE_AGENT_AMOUNTS",
+      "normal_cap": "RemainingBirdholds/youngFAfloors/QO/firstrefusal as rulefunctions until validrenounce/newcontract; expired salary not0 caphold.",
+      "apron": "NormalFAholdexcluded; greater outstanding QO/firstrefusal andyoungFAfloor included. Dotson/CookTW expiry/tender classification must be joined; no newstandardUPC selected."
+    },
+    {
+      "id": "C4_DRAFT_ROOKIES",
+      "2022_pick_control_or_selection_complete": false,
+      "normal_cap": "Unsigned1Rscalehold remains whereowned; no2021frozen60-to2022draftcopy.",
+      "apron": "Unsigned1Rholdexcluded; outstandingRequiredFirstTenderincluded. X_TENDER>=0 not silently0.",
+      "Simonovic": "PriorAug12+reviewpendingconditionalcontinuation candidate stays noNBAUPC throughJune30,2022. New2022–23NBAUPC/Tender/foreignwindow needs later join, not slot16 automatically."
+    },
+    {
+      "id": "C5_INCOMPLETE_ROSTER",
+      "offseason_carried_standard_players": 10,
+      "whole2022_standard15_selected": false,
+      "normal_cap": "Applicable minimum-roster capcharge below12 standard contracts; exactnewrookies/FA/contracts affect it.",
+      "apron": "Incomplete-roster capcharges excluded underVII6m3; this does not waive regularseason minimumregistered/active-list rules."
+    },
+    {
+      "id": "C6_UNUSED_EXCEPTIONS",
+      "2022_NTMLE_nominal": 10490000,
+      "2022_TMLE_nominal": 6479000,
+      "2022_ROOM_nominal": 5401000,
+      "normal_cap": "Preserve/lapse/renounce each legallyavailableexception underVII6m; availability cannot be inferred from just10core salaries.",
+      "apron": "Unusedexceptionexcluded; 2021CarusoNTMLEsalarycarries but expired2021unusedNTMLE/hardcap do not create2022trigger."
+    }
+  ],
+  "bounded_pre_new_contract_screen": {
+    "classification": "CONDITIONAL_ARITHMETIC_SUFFICIENT_TEST_NOT_WHOLE_COST_PASS",
+    "stage": "2022capyear opening with selected2021core carried, before optional new2022FA/rookieUPC transactions",
+    "core_numeric_screen": 57132041,
+    "prior_stretch_screen": 16371000,
+    "retained_past_camp_cash_overreserve": 4372601,
+    "two_RFA_QO_screen_reserve": 61827500,
+    "total_screen_before_remaining_X": 139703142,
+    "remaining_X": "All applicable tender/youngFAfloor/new2022contract/Unlikely/grievance/otherselectedcurrentcost increments not already reserved; X>=0, exactvalueunselected.",
+    "conditional_apron_sufficient_requirement": "X<=17278858 AND each actual statutoryyear2minimum<=its10-dollar widenedproxy screen, AND all admitted prior categories remain within preservedpublicfamily.",
+    "conditional_apron_margin_before_X": 17278858,
+    "normal_cap_or_tax_headroom_not_apron_margin": true,
+    "normal_cap_complete": false,
+    "whole_apron_complete": false,
+    "screen_rounding_condition_is_not_new_gate": "Exact official scale or independentlysupported tighter rounding can replace this provisionalscreen; it is not a demand for privatecontracts."
+  },
+  "summary": {
+    "approved_core_carry_rows": 10,
+    "carry_proxy_plus10_screen_usd": 57132041,
+    "expired_unselected_new_contract_paths": 5,
+    "six_categories_mapped": 6,
+    "raw_observations": 12,
+    "CBA_pages": 21,
+    "conditional_pre_new_contract_screen_usd": 139703142,
+    "conditional_apron_residual_X_usd": 17278858,
+    "partial_source_supported_execution_inputs_prepared": true,
+    "whole2022_23_cost_or_roster_closed": false,
+    "new_author_locks": 0,
+    "REGISTER_promotions": 0,
+    "macro3_complete": false
+  },
+  "next_named_inputs": [
+    {
+      "id": "CORE_LONGTERM_CHOICES",
+      "type": "IMPORTANT_UNSELECTED_DIRECTION",
+      "next": "ResolveP E1–E4/CarterCX1–4 andLaVine2022term/pay policy in concretecomparison; notautomaticroutineexistingcontracts."
+    },
+    {
+      "id": "2022_DRAFT_AND_TENDERS",
+      "type": "FINITE_PUBLIC_CONTROL_AND_CHOICE_JOIN",
+      "next": "Join2022origin/control/protections beforeUPC/RequiredFirstTender cost; leaveintegercentnewUPCchoice null."
+    },
+    {
+      "id": "TW_EXPIRY_AND_QO",
+      "type": "ROUTINE_LEGAL_CLASSIFICATION",
+      "next": "JoinDotson/Cook creditedYOS+one/two-yearTW tenure toXI1c standardvsTWQO; applicablefuturewindow thenroutinecandidate noactualreceiptgate."
+    },
+    {
+      "id": "MINIMUM_SCALE_ROUNDING",
+      "type": "PUBLIC_NUMERIC_REFINEMENT_NOT_PRIVATE_GATE",
+      "next": "Getpublished2021signing-yearYear2minimumtable or independentstandardrounding toreplace+10screen. Stanley2moldreserve is below2.351521mproxy."
+    },
+    {
+      "id": "NEXT_CAPYEAR_COST_FAMILY",
+      "type": "FOLLOWING_FINITE_PRODUCER",
+      "next": "Consumechosencontracts/draft/tender/FAevents into sixcategorydatedfamily; untilthenmissingX is retainedsymbolically."
+    }
+  ],
+  "scope": {
+    "actual_contract_receipts_consents_or_private_ledger_certified": false,
+    "2021_22_or2022_23_season_selected": false,
+    "wholemacro3": false,
+    "independent_review_completed": true,
+    "new_important_direction_selected": false
+  },
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "manuscript_allowed": false
+}
