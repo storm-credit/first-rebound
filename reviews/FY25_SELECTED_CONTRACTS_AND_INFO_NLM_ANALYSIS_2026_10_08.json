@@ -1,0 +1,83 @@
+{
+  "scope": "ONE_SPECIFIED_SOURCE_QUERY_NOT_INDEPENDENT_EVIDENCE",
+  "runner_script_sha256": "9d12fe7428125bcd0a3424b41c977ecb804e98d50b8ba2163b3688788aae7d83",
+  "python": "C:\\Python314\\python.exe",
+  "installed_cli_version": "0.11.5",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "source_ids": [
+    "3b4d607e-7029-4cb8-b923-af1934b3906c"
+  ],
+  "question_sha256": "759ea403f6c6e76b52b7e53dc95a13694156c405a13defbf57b4a3206fcc226d",
+  "query_budget_seconds": 120.0,
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 51.845,
+    "process_budget_seconds": 150.0,
+    "pipe_drain_complete": true,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_retained": false,
+    "response": {
+      "answer": "1. **Caruso 계약 및 산식**: C25B는 가상 설계로 실제 NBA 접수나 전체 비용 완료가 아닙니다 [1, 2]. Reference hold 교체 시 실제식은 `19,330,875 - H_Caruso(P24_Gamma)`이며, 기존 Gamma와 잔여 비용을 보존해 미확인 비용을 0으로 두지 않습니다 [2].\n\n2. **신인 옵션 통지**: Kessler(2년차 완료 후 Year4)와 Jaquez(1년차 완료 후 Year3) 통지는 E24<2024-10-01 조건부 가상 설계이며, 실제 접수나 구체 일자·전역 인증이 아닙니다 [3, 4].\n\n3. **11개 정보경계**: 허용 동작(관측), 과제 조건(전달), 과제 내 해석(추론)만 허용되며, 외부 사건·내심은 인물 지식 승격 없이 HOLD됩니다 [5, 6]. 이는 입력 준비일 뿐 POV/Pack 권한 승격이나 링크 본문 유효성 인증이 아니며 기존 HOLD가 유지됩니다 [5, 7].",
+      "question": "지정 사본만 분석해 500자 이내로 선택된 계약/조건부 통지와 실제 접수 인증/전역완료를 구분해라. Caruso hold reference와 P24_Gamma 실제식, Kessler/Jaquez 통지 연차 및 E24<Oct1 조건, 정보11개의 관측/전달/추론/HOLD를 최대3개 항목으로 비교하라. 가상 선택을 실역사로 올리지 말고 미확인 비용을0으로 놓지 말 것. 11경계 준비를 POV/Pack허가로 승격하지 말 것. 링크대상 본문은 제공되지 않았으므로 사실/소스지문 유효성은 인증하지 말 것. 명시된 조건이나HOLD를 새로운 작가승인 요구로 바꾸지 말 것.",
+      "conversation_id": "4842a37c-efc2-4b6f-b953-8f25b5aeab98",
+      "sources_used": [
+        "3b4d607e-7029-4cb8-b923-af1934b3906c"
+      ],
+      "citations": {
+        "1": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "2": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "3": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "4": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "5": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "6": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+        "7": "3b4d607e-7029-4cb8-b923-af1934b3906c"
+      },
+      "references": [
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 1,
+          "cited_text_sha256": "2f5ce9f38e487804ea622c12215cc586b01b5ac2f6bee8910b516ecb53597c63",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 2,
+          "cited_text_sha256": "ce2e0b820e2072cfd909bcbf3bf2a0ff9b912ba0121775d779465e5edbf098b1",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 3,
+          "cited_text_sha256": "58217ca0c61d20e7292f3eb34db4dda5b679ac0b646176cbfb2fd2fe7f6e7955",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 4,
+          "cited_text_sha256": "859bfa83c65368e71d5c849c125d0dc4a378aac60b482875f9308ff4898491c8",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 5,
+          "cited_text_sha256": "ed7822ad4bdd22e042bdcad5cf3483327a1ca9a27b360fa83ae8ef4bcc2b8d7c",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 6,
+          "cited_text_sha256": "f6220b01517649f36bc6af5518f7b8062065c22beeb1dc877e07de5794a0ce0e",
+          "cited_text_retained": false
+        },
+        {
+          "source_id": "3b4d607e-7029-4cb8-b923-af1934b3906c",
+          "citation_number": 7,
+          "cited_text_sha256": "9aba61e32f7a347864ad32843545f34930fb08d5a6aae5411ed0a4341ce4af38",
+          "cited_text_retained": false
+        }
+      ]
+    }
+  },
+  "analysis_success": true
+}

@@ -1,0 +1,99 @@
+{
+  "id": "CHICAGO_2025_CARUSO_ROUTINE_RENEWAL_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "reviewer": "g11_access",
+  "date": "2026-10-08",
+  "independent_review_completed": true,
+  "verdict": "ACCEPT_LIMITED_SOURCE_SUPPORTED_CARUSO_RENEWAL_COMPARISON_NOT_SELECTED",
+  "source_hash_method": "UTF8_BOM_strip_LF_normalized_SHA256",
+  "source_sha256": {
+    "research/CHICAGO_2025_CARUSO_ROUTINE_RENEWAL_PACKET_2026_10_08.json": "36e3498b04776f9be62689e3dc95b668398e6085cb3e253b37c0aa81dd28256c",
+    "research/CHICAGO_2025_CARUSO_ROUTINE_RENEWAL_PACKET_2026_10_08.md": "56836337ee39ecd60e581b2a7e7393412184f501adee7c3e58eb18d33cdc08a7",
+    "research/CHICAGO_2025_NAMED_ROLLOVER_INPUT_PACKET_2026_10_08.json": "f728fc6b7891422c0ce204bf61aa60a8fa7c21331bd4ade904017b78a057b006",
+    "canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json": "9e6a4510d5f3bc2a04e667d65ac88e476583ae9de98be213f3be98165548d0ce",
+    "research/CHICAGO_2021_A_FULL_COST_FAMILY_2026_10_07.json": "7244beff7a120c5ca246a04e72b61586f3cfbe245487d5fc6479f5245fd78d9f",
+    "simulation/CHICAGO_2024_A10_SELECTED_RENEWAL_EXECUTION.json": "ef48f0a1931037ec58ec59e53fde30baedddf8d96f13e2bc86120da2a7572cf5",
+    "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07",
+    "research/CHICAGO_2025_MARKKANEN_ROUTINE_RENEWAL_COST_FAMILY_2026_10_08.json": "5c4cf3f32e4fcec302c347e10a61e008f750e1a76826446a8df7b3e527615d7a"
+  },
+  "physical_primary_checks": {
+    "raw": {
+      "CBA2023": {
+        "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+        "matches_packet": true
+      },
+      "NBA_CAP2025": {
+        "raw_sha256": "8b20484615b529dbcb0b6e6ba3f08997db4b2cdd259d8ffb4d9ed44f75320988",
+        "matches_packet": true
+      }
+    },
+    "direct_PDF_page_text_SHA256": {
+      "60": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b",
+      "241": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9",
+      "251": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1",
+      "319": "6640ea05858483ed302458cb0db48a3ba5bdcd4bda4a75ded8b34212bceabeac"
+    },
+    "official_NBA_cap_web_body": "NBA Communications June 30 2025 release directly opened: cap154647000, tax187895000, first/second apron195945000/207824000 and minimum display139182000 agree.",
+    "NBA_OKC_comparator": "NBA.com reported 4-year $81m OKC extension directly opened; used only as reported alternate-history market comparator, not Caruso CHI UPC or its annual price."
+  },
+  "direct_review": {
+    "Caruso_rollover_row_and_semantic_digest_match": true,
+    "old_2021_schedule_matches_source": [
+      8600000,
+      9030000,
+      9460000,
+      9890000
+    ],
+    "old_fiscal_end_not_exact_service_expiry": true,
+    "2025_automatic_carry": false,
+    "eight_YOS_and_three_Chicago_Bird_seasons": "Conditional fictional service and same-owner family; actual games/receipts not certified.",
+    "max_first_salary": 46394100,
+    "higher_max_award_route_used": false,
+    "candidate_arithmetic": [
+      {
+        "candidate": "C25A",
+        "salary_sequence": [
+          15464700,
+          15464700,
+          15464700
+        ],
+        "sum": 46394100,
+        "largest_annual_change": 0
+      },
+      {
+        "candidate": "C25B",
+        "salary_sequence": [
+          19330875,
+          20877345,
+          22423815,
+          23970285
+        ],
+        "sum": 86602320,
+        "largest_annual_change": 1546470
+      },
+      {
+        "candidate": "C25C",
+        "salary_sequence": [
+          19330875,
+          17784405,
+          16237935
+        ],
+        "sum": 53353215,
+        "largest_annual_change": 1546470
+      }
+    ],
+    "candidate_count": 3,
+    "recommendation": "C25B, $19,330,875 first and $86,602,320 over four years; unselected.",
+    "hold_replacement": "Two P24_Gamma average branches: $14,835,000 or $18,791,000 normal hold, ordinary UFA apron hold zero; all six candidate/branch transitions recalculate with one replacement and old Gamma retained.",
+    "six_cost_categories": 6,
+    "new_STD_only_if_valid_new_UPC": 1,
+    "new_TW": 0,
+    "M25_minimum_and_exact_rounding": "unrounded design reference only; operative scale/minimum constraint and actual cents remain open.",
+    "full_FY25_roster_cost_private_or_market_acceptance_certified": false
+  },
+  "independent_constructor_mutation_tests_run": 0,
+  "static_negative_or_branch_checks": "All 3 schedules, six hold transitions and both average branches recomputed directly from current source objects; no producer or returned-helper mutation exists in this static packet.",
+  "writer_tests_counted_as_independent": 0,
+  "remaining_defects": [],
+  "owner_repair_required": false,
+  "finite_boundary": "Root may select one fictional consensual form inside this three-candidate legal family, then consume a separate selected UPC/hold-once carrier. Price acceptance, exact private Gamma and whole FY25 six-category total remain outside this packet."
+}

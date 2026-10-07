@@ -1,0 +1,112 @@
+{
+  "id": "CHICAGO_FY25_SELECTED_ROOKIE_OPTION_NOTICES",
+  "classification": "TWO_SELECTED_CONDITIONAL_ORIGINAL_RSC_OPTION_NOTICE_CONSUMER",
+  "baseline_main": "6f769cfb8ed5274f14cdd2a22d4d1dbabf95ce47",
+  "source_sha256": {
+    "research/CHICAGO_2024_NOTICE_FOR_FY25_ROOKIES_PACKET_2026_10_08.json": "5ef45dc271e29023106a650a40d953305cb3e94fdd49a94125403e8058301763",
+    "reviews/CHICAGO_FY25_ROOKIE_NOTICE_G11_INDEPENDENT_REVIEW_2026_10_08.json": "663e259dd0b47aec975bc82469a961caab0328e44ed48dbfb08f1faae5462050",
+    "canon/DELEGATED_CHICAGO_FY25_ROOKIE_OPTION_NOTICE_SELECTION_2026_10_08.json": "92ec31c65c57657eda813fa759107a9cafc8dc007d878903b18dca5936a3b756"
+  },
+  "selection_source": "canon/DELEGATED_CHICAGO_FY25_ROOKIE_OPTION_NOTICE_SELECTION_2026_10_08.json",
+  "admitted_calendar_family": "E24 is last 2023-24 NBA Finals game date; E24 < 2024-10-01. Original player-specific RSC covers the relevant completed Season. Conforming signed team email is transmitted 2024-10-01, within E24+1..2024-10-31.",
+  "selected_notice_date": "2024-10-01",
+  "E24_is_concrete_selected_date": false,
+  "notice_rows": [
+    {
+      "player": "Walker Kessler",
+      "holder": "CHI",
+      "original_pick": 18,
+      "original_RSC_pointer": "simulation/CHICAGO_2022_ROOKIE_SELECTED_EXECUTION.json#/working_execution/registered_contracts/16",
+      "completed_trigger_Season": "2023-24 second NBA Season",
+      "contract_year": 4,
+      "option_number": 2,
+      "salary_capyear": 2025,
+      "same_existing_RSC_continued_in_lawful_family": true,
+      "selected_notice_pointer": {
+        "path": "canon/DELEGATED_CHICAGO_FY25_ROOKIE_OPTION_NOTICE_SELECTION_2026_10_08.json",
+        "json_pointer": "/notices/0"
+      },
+      "salary_function": {
+        "original_scale_year": 2022,
+        "original_pick": 18,
+        "Year3_source_base": 3510480,
+        "Year4_percentage_increase": "53.8%",
+        "fixed_ratio": "769/500",
+        "exact_rational_function": "Year3Salary_excludingIncentives*769/500; each original likely/unlikely bonus also*769/500",
+        "selected_zero_bonuses_preserved": true,
+        "exact_arithmetic_reference": "134977956/25",
+        "conditional_whole_dollar_ceil_upper": 5399119,
+        "ceil_is_official_NBA_rounding_or_actual_cents": false,
+        "nonpayment_terms_and_protection_unchanged_from_Year3": true,
+        "applicable_minimum_constraint": "Preserve II6 statutory minimum/service adjustment and original RSC terms; no newly chosen alpha or bonus"
+      },
+      "new_UPC": 0,
+      "new_STD_slot": 0,
+      "new_TW": 0,
+      "FY25_live_salary_counted_once": true,
+      "old_same_player_FA_hold_added_with_live_salary": false,
+      "original_Gamma_protection_and_nonpayment_terms_preserved": true,
+      "actual_notice_receipt": null
+    },
+    {
+      "player": "Jaime Jaquez Jr.",
+      "holder": "CHI",
+      "original_pick": 16,
+      "original_RSC_pointer": "simulation/CHICAGO_2023_SELECTED_ROOKIE_EXECUTION.json#/selected_contract",
+      "completed_trigger_Season": "2023-24 first NBA Season",
+      "contract_year": 3,
+      "option_number": 1,
+      "salary_capyear": 2025,
+      "same_existing_RSC_continued_in_lawful_family": true,
+      "selected_notice_pointer": {
+        "path": "canon/DELEGATED_CHICAGO_FY25_ROOKIE_OPTION_NOTICE_SELECTION_2026_10_08.json",
+        "json_pointer": "/notices/1"
+      },
+      "salary_function": {
+        "original_scale_year": 2023,
+        "original_pick": 16,
+        "Year3_base_function": "6/5*S23(16,3)",
+        "first_option_scale_preserved_not_reset_to_2025_scale": true,
+        "ExhibitB_baseline_Year3_reference": 3241600,
+        "baseline_to_2023_prepared_scale_rule": "2023 CBA I1(iii): baseline*2023Cap/2022Cap; use prepared S23(16,3) with lawful statutory rounding/minimum, no fresh private cents certificate",
+        "actual_prepared_table_or_cents_certified": false,
+        "minimum_condition": "M23(credited_serviceYOS2,Year3)<=6/5*S23(16,3), statutory adjustments preserved",
+        "original_alpha": "6/5",
+        "original_bonus_and_protection_preserved": true,
+        "new_bonus_or_price": 0,
+        "next_Year4_percentage": "53.4%, ratio767/500 applies only separately exercised 2026 Year4; NOT this 2025 Year3 notice",
+        "2026_Year4_option_exercised_here": false
+      },
+      "new_UPC": 0,
+      "new_STD_slot": 0,
+      "new_TW": 0,
+      "FY25_live_salary_counted_once": true,
+      "old_same_player_FA_hold_added_with_live_salary": false,
+      "original_Gamma_protection_and_nonpayment_terms_preserved": true,
+      "actual_notice_receipt": null
+    }
+  ],
+  "six_cost_preservation": {
+    "LIVE25": "If validly exercised, same original option Salary counted once; no old hold plus live salary doublecharge",
+    "OLD_GAMMA25": "All accrued/current/former protection and other original commitments survive option preparation",
+    "FA_QO_FRN25": "No automatic renunciation/tender/QO elimination; if not exercised, applicable expired-RSC rights/price restrictions remain named future branches",
+    "DRAFT25": "Other unsigned first/second rights and N25/A25 typed unknown remain; current Kessler/Jaquez already UPC no new draft tender",
+    "EXCEPTIONS25": "Unused exception treatment/valid written cleanup remains separate selection; option alone not new hardcap trigger",
+    "ROSTER_FLOOR_TAX_CASH25": "Option adds zero STD/TW; no whole15 or floor/apron/tax/cash proof; othersevenrenewals remain unselected",
+    "whole_FY25_cost_upper": null,
+    "all_private_absence_certified": false
+  },
+  "source_generation_note": "Original six-cost note saying seven renewals unselected describes packet generation; current Mark and Caruso separate selected consumers supersede only those respective player decisions. No deletion of other costs or original RSC terms.",
+  "notice_effective_outside_date_service_or_conforming_delivery_conditions": false,
+  "actual_prepared_rounding_or_cents_certificate": false,
+  "Kessler_reference_rational": "134977956/25",
+  "Kessler_ceil_upper_reference_not_official_rounding": 5399119,
+  "Jaquez_Year3_function": "6/5*S23(16,3)",
+  "Jaquez_2026_Year4_exercised_here": false,
+  "new_STD_TW_UPC": 0,
+  "whole_FY25_STD15_or_cost_certified": false,
+  "independent_review_of_selected_consumer_completed": false,
+  "actual_Packs": 0,
+  "manuscript": 0,
+  "design_gate": "CLOSED"
+}
