@@ -1,0 +1,242 @@
+{
+  "id": "THREEPEAT_BY_2025_EPISODE_FUNCTION_REPAIR_INDEPENDENT_REVIEW_2026_10_09",
+  "status": "NEEDS_REPAIR_ONE_REMAINING_EDITORIAL_FUTURE_CLAUSE",
+  "reviewer": "lc1_final_payoff",
+  "original_producer": "lc1_late_contracts",
+  "repair_producer": "root",
+  "scope": "수리 생산자가 아닌 독립 검문자가 원·후행 두 세대의 의미 차이 및 전체40개 선택·대가·결과·다음 진입을 읽었다. 본인의 DEN case 수락 재검문은 아니다.",
+  "frozen_inputs": [
+    {
+      "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "LF_SHA256": "1603bf7bd631b2086eac0d231d2ae7b967eb3397663fc72c4c0007a6879c4f98"
+    },
+    {
+      "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.md",
+      "LF_SHA256": "8b79cd2e62eadc253ca435c37df15ee48cd99b1d02ef8b32d02da4ea6cbc0c89"
+    }
+  ],
+  "preserved_failure_generation": [
+    {
+      "path": "reviews/inputs/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_ORIGINAL_D0B1_2026_10_09.json",
+      "LF_SHA256": "d0b1e90e3e38f2f02564dc8b2462cb680a9cef5a832178c1e3052e41052dd867"
+    },
+    {
+      "path": "reviews/inputs/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_ORIGINAL_D0B1_2026_10_09.md",
+      "LF_SHA256": "0441f4b88660caf4314aa4d19c9a62d591ed53d033eee34888faba9389c230a8"
+    },
+    {
+      "path": "reviews/THREEPEAT_BY_2025_EPISODE_FUNCTION_INDEPENDENT_REVIEW_2026_10_09.json",
+      "LF_SHA256": "4d5c665c21fae7d4687246f9f71edaa5558b7f54f7c4473ba8f53c8280a7e8e3"
+    }
+  ],
+  "current_pins_not_old_input_hashes": true,
+  "changed_JSON_pointers": [
+    "/editorial_repair_receipt",
+    "/episode_rows/23/cost",
+    "/episode_rows/30/action",
+    "/episode_rows/30/choice",
+    "/episode_rows/30/cost",
+    "/episode_rows/30/next_entry",
+    "/episode_rows/30/result",
+    "/episode_rows/30/title",
+    "/model_metadata_boundary"
+  ],
+  "resolved_prior_findings": [
+    {
+      "id": "R1",
+      "status": "CLOSED_FOR_1603_INPUT",
+      "pointer": "/episode_rows/23/cost",
+      "evidence": "P에게 짧은 창조를 더 맡기면 LM과 LV의 같은 공격에서 첫 소유·마무리 기회 일부가 줄어든다. P는 공을 넘긴 뒤 다시 움직이고, LM의 시작 판단과 LV의 독립 마무리를 기다려야 한다.",
+      "reason": "모델의 중복 가산 금지는 별도 model_metadata_boundary로 이동했고, 대가는 LM/LV 기회 감소 및 P 재이동·동료 판단을 기다리는 비용으로 연결했다. 새 훈련·FG/USG 쿼터·화학 보너스를 만들지 않았다."
+    },
+    {
+      "id": "R2",
+      "status": "CLOSED_FOR_1603_INPUT",
+      "pointers": [
+        "/episode_rows/30/action",
+        "/episode_rows/30/choice",
+        "/episode_rows/30/cost",
+        "/episode_rows/30/result",
+        "/episode_rows/30/next_entry"
+      ],
+      "evidence": {
+        "action": "전달받은 Chicago 준비 일정과 공동 대표팀 도전 안내를 따로 읽고, 에이전트에게 자기 제출자료와 기관 허가·보험 담당권한을 묻는다. 자신의 자료 목록과 역할 준비를 먼저 정리해 전달하며 LM의 독립 계약·역할 준비도 존중한다.",
+        "choice": "공동 도전을 위해 자신이 준비할 자료와 역할을 먼저 맡되, 자기 우승이나 준비 완료를 구단·대표팀의 명단·허가·보험 승인으로 간주하지 않는다.",
+        "cost": "Chicago에서 자기 공격을 반복할 시간 일부를 자료 정리와 공동 역할 파악에 쓴다. 제출 뒤에도 기관 답을 기다려야 하며 그 시간을 개인 반복으로 되돌리지 못한다.",
+        "result": "자기 자료 목록과 두 기관에 남은 질문을 전달한다. 공적 명단·구단 허가·보험·실제 이동은 아직 성립하지 않는다. LM 계약과 후행 선택 J20/7월7일 Jaquez UPC는 소속·역할의 배경이며 Jaquez를6월 첫 우승 참여자로 넣지 않는다.",
+        "next_entry": "자기 준비와 기관 권한을 나눈 채 라이벌과의 사적 공동 준비를 수행한다. 그 비교만으로 공적 메달·병역 혜택을 얻지 않는다."
+      },
+      "reason": "원 A09-EF-001의 자기 자료·역할 준비와 시간 비용, 구단/대표팀 권한 미성립을 다시 연결했다. LM/J20은 배경으로 분리되며 owner31 및 146 연결, C01 미선택이 유지된다. 새 서류 회차를 추가하지 않았다."
+    }
+  ],
+  "required_findings": [
+    {
+      "id": "R3",
+      "priority": "MEDIUM",
+      "candidate_episode": 30,
+      "pointer": "/episode_rows/29/choice",
+      "MD_location": "후보30 선택 칸",
+      "observed_literal": "공동 기능으로 종료하고2025 마지막 수신자 장면을 먼저 소비하지 않는다.",
+      "reason": "2023 인물의 선택 칸에 2025 마지막 수신자 장면을 먼저 소비하지 않는다는 미래 서사 편집 지시가 남았다. P가 미래 payoff 설계를 아는 선택으로 실제 Blueprint에 소비하면 정보 경계가 깨진다.",
+      "minimum_repair": "같은 이미 선택된 UTA 사용창의 동료 시작·짧은 연결·각자 마무리를 분담하는 선택만 남기고, 2025 payoff 선소비 금지는 별도 편집 metadata에 둔다. 새 샷·경기·대진·동료 공로·회차를 선택할 필요가 없다."
+    }
+  ],
+  "whole_40_row_residual_check": {
+    "rows_read": 40,
+    "fields": [
+      "entry",
+      "action",
+      "choice",
+      "cost",
+      "result",
+      "next_entry"
+    ],
+    "remaining_required_count": 1,
+    "accepted_boundary": "기능 제안의 result/분류 안에 쓰인 가상 모델·선택 출처·미실행 한계는 편집 메타데이터다. 이를 실제 인물 지식으로 로드한 청사진은 생성되지 않았고 generic 정보 guard는 actual POV_LOCK를 주장하지 않는다. 미래 확정 결과를 인물이 아는 실제 선택으로 남긴 별도 잔류는 R3이다.",
+    "not_claimed": "원고·실제 씬의 시점/개인 지식 인증, 독자의 최종 체감 분량, 새2024–25 실행 완료"
+  },
+  "mechanical_results": {
+    "input_JSON_SHA": "1603bf7bd631b2086eac0d231d2ae7b967eb3397663fc72c4c0007a6879c4f98",
+    "input_MD_SHA": "8b79cd2e62eadc253ca435c37df15ee48cd99b1d02ef8b32d02da4ea6cbc0c89",
+    "direct_pins": 24,
+    "nested_pointer_refs": 367,
+    "pointer_source_files": 58,
+    "rows": 40,
+    "owned_functions": 57,
+    "archived_functions": 3,
+    "archive_ids": [
+      "A04-EF-002",
+      "A12-EF-001",
+      "A12-EF-003"
+    ],
+    "ledger_rows": 146,
+    "ledger_unique_compound_keys": 146,
+    "functions_set_complete": true,
+    "beats_set_complete": true,
+    "game_keys_unique": 26,
+    "promise_bidirectional_checks": 38,
+    "categories": {
+      "PRE_NBA": 9,
+      "NBA_DRAFT": 2,
+      "NBA": 28,
+      "NBA_EPILOGUE": 1
+    },
+    "failures": []
+  },
+  "preserved_invariants": {
+    "40_candidates": 40,
+    "N_locked": null,
+    "original57_plus3": true,
+    "146_compound_keys_preserved": true,
+    "26_games_unique": true,
+    "C01_selected": false,
+    "old2028_clock_shifted": false,
+    "new_training_or_event": 0,
+    "new_episode": 0,
+    "actual_Blueprint": 0,
+    "Pack": 0
+  },
+  "model_metadata_boundary_read": {
+    "2023_proxy_no_double_count": "총proxy에 이미 포함된 분업은 추가 보너스로 중복 더하지 않는다. 이는 연구 모델의 계산 규칙이며 인물의 장면 대가나 POV 지식이 아니다.",
+    "cost_reference": "기존 성장 입력의 core-only100 P30/LM40/LV20/Mark5/Carter5; 실제FGA/USG 할당이나 새 역할 선택으로 승격하지 않는다."
+  },
+  "repair_generation_receipt_read": {
+    "original_JSON_archive": "reviews/inputs/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_ORIGINAL_D0B1_2026_10_09.json",
+    "original_JSON_LF_SHA256": "d0b1e90e3e38f2f02564dc8b2462cb680a9cef5a832178c1e3052e41052dd867",
+    "original_MD_archive": "reviews/inputs/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_ORIGINAL_D0B1_2026_10_09.md",
+    "original_MD_LF_SHA256": "0441f4b88660caf4314aa4d19c9a62d591ed53d033eee34888faba9389c230a8",
+    "original_independent_review": {
+      "path": "reviews/THREEPEAT_BY_2025_EPISODE_FUNCTION_INDEPENDENT_REVIEW_2026_10_09.json",
+      "LF_SHA256": "4d5c665c21fae7d4687246f9f71edaa5558b7f54f7c4473ba8f53c8280a7e8e3"
+    },
+    "fixed_pointers": [
+      "/episode_rows/23/cost",
+      "/episode_rows/30/title",
+      "/episode_rows/30/action",
+      "/episode_rows/30/choice",
+      "/episode_rows/30/cost",
+      "/episode_rows/30/result",
+      "/episode_rows/30/next_entry"
+    ],
+    "original_function_owner_unchanged": "A09-EF-001 -> candidate31",
+    "candidate40_and_N_null_unchanged": true,
+    "new_event_training_or_document_only_episode": 0,
+    "new_actual_Blueprint_or_Pack": 0,
+    "classification": "EDITORIAL_SOURCE_FUNCTION_AND_CHARACTER_COST_REPAIR_PENDING_DIFFERENT_PRODUCER_REVIEW"
+  },
+  "gates": {
+    "PROJECT_FREEZE": "v0.30 PARTIAL",
+    "DESIGN_GATE": "CLOSED",
+    "MANUSCRIPT_GATE": "CLOSED",
+    "G13": false,
+    "G14": false,
+    "whole_history_LOCK": false,
+    "POV_LOCK": 0,
+    "manuscript": 0,
+    "schedules": 0
+  },
+  "seven_row_progress_scope": [
+    {
+      "number": 1,
+      "group": "2020 드래프트 연쇄",
+      "status": "기존 완료 포트 보존",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 2,
+      "group": "Chicago2020–21",
+      "status": "기존 완료 역할·WAS 생존·IND 탈락 포트 보존",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 3,
+      "group": "2021–23 거래·계약",
+      "status": "기존 완료 방향·가격 보존;후행2023 J20 선택 배경 연결",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 4,
+      "group": "현재 NBA 본편 커리어",
+      "status": "2023 첫 우승 현재 선택 소비;2024·2025 새 실행 미완료",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 5,
+      "group": "결말·전체 구조",
+      "status": "원 EP24/31 수리 충족; 후보30 미래 편집 지시의 한 문장 분리 필요, 최종 N 미확정",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 6,
+      "group": "집필 규격·Context Pack",
+      "status": "실제 회차 청사진·POV_LOCK·Pack0;기존 독서·문체 범위는 이번 작업에서 새 인증하지 않음",
+      "this_task_completion_claim": false
+    },
+    {
+      "number": 7,
+      "group": "통합·독립·작가 승인",
+      "status": "후행 통합·독립 수락·C01 및 실제 사용점 닫힘 미완료",
+      "this_task_completion_claim": false
+    }
+  ],
+  "remaining_count_scope": {
+    "groups_not_closed_by_this_output": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "group_count": 4,
+    "new2024_2025_function_candidates": 9,
+    "brief_epilogue_conformity_candidates": 1,
+    "actual_episode_blueprint_count": 0,
+    "completion_percentage_or_finish_date": null,
+    "group_counts_not_same_as_workload_or_episode_counts": true
+  },
+  "review_mutations": {
+    "producer_or_central_sources": 0,
+    "Git_stage_or_commit": 0,
+    "receipt_created": 1
+  },
+  "handoff": "원1603/8b79 입력과 본 영수증 보존 후 R3 문장만 수리하고 새 입력 SHA로 한정 재검문한다. 현재 영수증을 수리 후 세대의 PASS로 재명명하지 않는다."
+}
