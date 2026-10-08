@@ -1,0 +1,1501 @@
+{
+  "reviewer": "lc1_late_contracts; C05 independent of final_payoff producer. C02 was produced by this reviewer and is only a pinned consumed ancestor, never independently certified by this receipt.",
+  "date_local": "2026-10-09",
+  "source_hash_method": "SHA256_UTF8_LF; primary caches raw-byte SHA256",
+  "scope": "C05 routine fictional used development and result-contact implementation, not whole-world empirical proof or final writing authority.",
+  "sources": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md": "7a4eeac333610f3c8bf11c950e336df4bd4bc72f9f9e65cea65920c83b8e18b4",
+    "simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md": "e242907267c7e1a769df6a75a89aecd0112dde20ec51ae0312b9aa84deba2e70",
+    "simulation/CHICAGO_2018_19_OUTCOME_LEDGER.csv": "24d3bb974bb76b79e08d0ba053aad53dd4e4d7a7010dd6c230967573d2180027",
+    "simulation/CHICAGO_2018_19_ROBUSTNESS_LEDGER.csv": "ac28985d49cf3d912f1da49115a356f591f033a94dc8ebea5bcb92e3fe6f1f73",
+    "simulation/CHICAGO_2018_19_OUTCOME_MODEL.md": "b294beb0914120be1fb6e9d5747cd8706ddcfb951b1dea814835ffb1a3a360ba",
+    "simulation/CHICAGO_2018_19_OUTCOME_ROBUSTNESS.md": "e50773f51a9b162ac0915046243c3ee4bbd67796815d879c24d08f47056b835d",
+    "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md": "1338500f5977505f2ff1d6b1d1df12cebc059d9d7d7b90662ac9ddfa549e7384",
+    "simulation/CHICAGO_2019_COBY_WHITE_DRAFT_BOARD.md": "a26e45c974c0e5131d11ba79fb484f6277d98a37b8813923d83762f0d6273b9a",
+    "tools/verify_chicago_2018_19_ledger.mjs": "a1b186efae2ed41d261d62afd4e793936542dd7f3e27880ac48cdbea04beb1f7",
+    "tools/verify_chicago_2018_19_robustness.mjs": "43c43807a7ebec93d10153a1d41cbb8d34e293554b2d2a9920a3fe805ace5144",
+    "design/A05_E3_FINAL_EPISODE_FUNCTION.json": "0522ed9207a50939c8f5e27cc14f206fd5f008c01ea1506a97ca1cc565e41e4b",
+    "reviews/LC1_REMAINING_HISTORY_DEPENDENCY_CLOSEABILITY_AUDIT_2026_10_09.json": "c87d13c982ebbf6cf9288b5d264c7baee6f9a5f89e0a982662d282fd9af403f2",
+    "simulation/LC1_2018_CHI22_DRAFT_AND_USED_TRANSACTION_CASCADE_IMPLEMENTATION_2026_10_09.json": "6b8d681620d621d15476dc28fc3fc9287e21ff90f167aa0b4269bdaffbd2c468"
+  },
+  "primary_NBA_receipts": [
+    {
+      "id": "gsw_oct",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/game/gsw-vs-chi-0021800091/box-score",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\gsw_oct.html",
+      "raw_bytes": 502768,
+      "raw_sha256": "f08c9ae2605cadb9f210558f08f498b5fcc04e979679d41a304e675c2ee7bf6d",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021800091",
+      "actual_game_code": "20181029/GSWCHI",
+      "not_a_new_fictional_box": true
+    },
+    {
+      "id": "gsw_jan",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/game/chi-vs-gsw-0021800629/box-score",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\gsw_jan.html",
+      "raw_bytes": 494768,
+      "raw_sha256": "1437352481c0b6c9b1bf8f47277bea9fc764dcc8847dd572de1fa729fce81e78",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021800629",
+      "actual_game_code": "20190111/CHIGSW",
+      "not_a_new_fictional_box": true
+    },
+    {
+      "id": "por_jan",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/bulls/game/0021800615",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\por_jan.html",
+      "raw_bytes": 445308,
+      "raw_sha256": "5ff0948df1926f7a1085134a80c7e75ae47564f4200923c5e2724a45a4430552",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021800615",
+      "actual_game_code": "20190109/CHIPOR",
+      "not_a_new_fictional_box": true
+    },
+    {
+      "id": "por_mar",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/game/por-vs-chi-0021801117/box-score",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\por_mar.html",
+      "raw_bytes": 476802,
+      "raw_sha256": "dfddc94a136a5b0b4f567f9bd128ad6667fb9874e436b958534574ee521680d9",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021801117",
+      "actual_game_code": "20190327/PORCHI",
+      "not_a_new_fictional_box": true
+    },
+    {
+      "id": "lal_jan",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/game/chi-vs-lal-0021800656/box-score",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\lal_jan.html",
+      "raw_bytes": 513358,
+      "raw_sha256": "17a9c002ba0cd5cee8e319b36e98079c5bfabd20903fdb48249a131c938679ef",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021800656",
+      "actual_game_code": "20190115/CHILAL",
+      "not_a_new_fictional_box": true
+    },
+    {
+      "id": "lal_mar",
+      "publisher": "NBA",
+      "url": "https://www.nba.com/game/lal-vs-chi-0021801009/box-score",
+      "retrieval_date_local": "2026-10-09",
+      "actual_HTTP_success": true,
+      "local_raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c05\\lal_mar.html",
+      "raw_bytes": 485174,
+      "raw_sha256": "abbe0ad0e787ca98a7fddeb1e74af882a90d477d1d78833e1bb4dfa2cd4b6b2d",
+      "body_used": "__NEXT_DATA__.props.pageProps.game homeTeam/awayTeam score, players statistics.minutes, inactives",
+      "game_id": "0021801009",
+      "actual_game_code": "20190312/LALCHI",
+      "not_a_new_fictional_box": true
+    }
+  ],
+  "direct_source_validation": {
+    "producer_source_pins_checked": 16,
+    "pins_failed": 0,
+    "NBA_raw_caches_hash_and_bytes_checked": 6,
+    "NBA_game_id_code_score_and_complete_named_minute_maps_checked": 6,
+    "NBA_minutes_not_PBP_or_tracking": true,
+    "POR_renderer_Enes_Freedom_is_current_same_actor_label_not_2019_name_fact": true
+  },
+  "law": {
+    "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+    "raw_sha256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+    "PDF_zero_pages": [
+      500,
+      501
+    ],
+    "printed_pages": [
+      479,
+      480
+    ],
+    "independently_extracted_text_sha256": "e81f93c04632ff1cfd05cb7c40eaa54200c6b49c214435c769aa096237305ab7",
+    "locators": [
+      "XLI1(a)",
+      "XLI1(b)",
+      "XLI2(a)",
+      "XLI3",
+      "XLI4(a)"
+    ],
+    "finding": "0YOS standard NBA UPC may be assigned while NBAInactive and keeping UPC/CBA rights; in-person GL report starts and in-person NBA report ends. No punitive assignment. Written notice player/NBA/NBPA and 48-hour reporting. Ordinary reasonable travel reimbursed, relocation obligation applies over30days, housing perleaguepolicy. The selected short window claims no unnecessary relocation amount or private letter certificate.",
+    "clock_recalculation": {
+      "assignment_hours": 3.0,
+      "recall_hours": 32.0,
+      "flight_hours": 4.5,
+      "arrival_to_report_hours": 4.5
+    },
+    "rule_to_fiction_classification": "PUBLIC_RULE_SOURCE_VERIFIED / OPERATING_CLOCKS_SELECTED_FICTION; no real assent, letter, ticket, medical or cash amount certification"
+  },
+  "minute_and_result_reproduction": {
+    "NBA_selected_team_240_budgets": 12,
+    "GL_selected_team_240_budgets": 2,
+    "all_14_interval_witnesses": "Each lane covers0..2880, 5different actors at each interval, actor interval totals equal declared minutes, no same actor occupies two lanes simultaneously. Feasibility only, not actual positions/chemistry/observed rotation.",
+    "six_contacts": [
+      {
+        "date": "2018-10-29",
+        "opponent": "GSW",
+        "actor": "Chandler Hutchison",
+        "new_minutes": "10:00",
+        "changed_seconds": {
+          "Jacob Evans": -965,
+          "Alfonzo McKinnie": 365,
+          "Chandler Hutchison": 600
+        },
+        "DeltaR_recomputed": 0.525173611111111,
+        "outer_margin": [
+          -28.14333333,
+          -20.99666667
+        ]
+      },
+      {
+        "date": "2019-01-11",
+        "opponent": "GSW",
+        "actor": "Chandler Hutchison",
+        "new_minutes": "10:00",
+        "changed_seconds": {
+          "Alfonzo McKinnie": -600,
+          "Chandler Hutchison": 600
+        },
+        "DeltaR_recomputed": -0.3125,
+        "outer_margin": [
+          -39.75,
+          -33.75
+        ]
+      },
+      {
+        "date": "2019-01-09",
+        "opponent": "POR",
+        "actor": "Jacob Evans",
+        "new_minutes": "6:00",
+        "changed_seconds": {
+          "Nik Stauskas": -179,
+          "Jacob Evans": 360,
+          "Gary Trent Jr.": -181
+        },
+        "DeltaR_recomputed": -0.06215277777777778,
+        "outer_margin": [
+          -14.77916667,
+          -8.77916667
+        ]
+      },
+      {
+        "date": "2019-03-27",
+        "opponent": "POR",
+        "actor": "Jacob Evans",
+        "new_minutes": "6:00",
+        "changed_seconds": {
+          "Jacob Evans": 360,
+          "Jake Layman": -124,
+          "Gary Trent Jr.": -236
+        },
+        "DeltaR_recomputed": -0.04305555555555557,
+        "outer_margin": [
+          -22.62291667,
+          -15.822916670000001
+        ]
+      },
+      {
+        "date": "2019-01-15",
+        "opponent": "LAL",
+        "actor": "Gary Trent Jr.",
+        "new_minutes": "8:00",
+        "changed_seconds": {
+          "Gary Trent Jr.": 480,
+          "Svi Mykhailiuk": -480
+        },
+        "DeltaR_recomputed": 0.16666666666666669,
+        "outer_margin": [
+          -10.165729169999999,
+          -2.8398958299999997
+        ]
+      },
+      {
+        "date": "2019-03-12",
+        "opponent": "LAL",
+        "actor": "Gary Trent Jr.",
+        "new_minutes": "8:00",
+        "changed_seconds": {
+          "Josh Hart": -480,
+          "Gary Trent Jr.": 480
+        },
+        "DeltaR_recomputed": -0.08333333333333331,
+        "outer_margin": [
+          -18.904166670000002,
+          -12.15416667
+        ]
+      }
+    ],
+    "new_Hutch_Evans_Trent_roles": "H10/E6/T8 within consumedC02 six bound ports, service July2018 family valid on used dates. Removed Evans/Trent actors not left on oldclub; Bonga0/DNP never funds positive minutes. SviLALJan15 andHartLALMar12 precede their chosen later transfers.",
+    "33_donor_total_minutes": 476,
+    "33_donor_totals": {
+      "Wayne Selden": 137,
+      "Shaquille Harrison": 119,
+      "Antonio Blakeney": 61,
+      "Brandon Sampson": 35,
+      "Timothe Luwawu-Cabarrot": 73,
+      "Rawle Alkins": 27,
+      "JaKarr Sampson": 24
+    },
+    "33_donor_source_grade": "Preserved original verifier references; non-six dates not freshly primary-certified. Each debit<=6 and reference remainder>=6.",
+    "Mar12_Wayne_Selden_actual_and_after_debit": [
+      "13:52",
+      "9:52"
+    ],
+    "returned_4_minutes": "96:35",
+    "January_returned_3_minutes": "85:00",
+    "aggregate_equation": "894:37 - 96:35 + 476:00 = 1274:02; net realplayer debit379:25",
+    "CSV_P_GP": 73,
+    "GS_scope": "Existing selected11 starts preserved: original14 less Jan9/11/12 three assigned starts; no33 added starts. Source vector preservation, not new all73 starter certification.",
+    "sensitivity_recomputed": {
+      "bpm/low": 22,
+      "bpm/base": 22,
+      "bpm/high": 23,
+      "ert/low": 22,
+      "ert/base": 23,
+      "ert/high": 24
+    },
+    "selected_result": "BPM BASE22-60 as delegated fictional margin witness; coefficients exactly1, delta_R applied for6, selected exactscore null. Six losses stable at whole[-3,3] opponent-family bounds plus originalBPM LOW..HIGH.",
+    "outside_76": "Noadditionalopponentchange is a selected bounded-model convention, not empirical allchangedplayers/worldleague result verification.",
+    "original_Bernoulli_failure": "Historical -56 G027 can flip in old Bernoulli runner; preserved rejected model, never consumed for selected22-60.",
+    "Coby_join": "Existing AUTHOR_APPROVED LOTTERY7 / COBY_LOCKED remains;22..24 belowAtlanta29 preservesseed4/12.5%. No new lottery redraw or completed1-3 rank/price selection."
+  },
+  "GL_source_grades": {
+    "Jan11_official_url": "https://windycity.gleague.nba.com/news/3971",
+    "independent_web_retrieval": "TIMEOUT, no independent rawbody success; producer correctly attributes parent read124-101/Jan12 home19CT. This reviewer does not upgrade parent read to own successful receipt.",
+    "Jan12_official_url": "https://pr.nba.com/windy-citys-lemon-jr-suspended-and-fined/",
+    "independent_web_body_success": true,
+    "Jan12_official_supported": "Jan16 release states120-96loss onJan12 atSearsCentre; LemonJan18 penalty notP.",
+    "individual_minutes": "RealGM secondary exact URLs315869/315875 in input; auxiliary webbody retrieval credited producer only, direct403 retained. No official individual GLbox/PBP newly retrieved.",
+    "selected_GL": "26+26=52 is separate from NBA1274:02; six positive donors eachdate preserve240. GL local chosen neteffect[-3,3] keepsW/L [20,26]/[-27,-21], not new individual production facts.",
+    "no_unrelated_Lemon_discipline_inherited": true
+  },
+  "semantic_and_access": {
+    "source": "design/A05_E3_FINAL_EPISODE_FUNCTION.json",
+    "source_pointer": "/local_blueprint/beats",
+    "beats": [
+      "R3-1",
+      "R3-2",
+      "R3-3"
+    ],
+    "finding": "Development explanation heard by P preserves UPC; permitted team video and own repeated timing errors are available to P. He trades individual scoring opportunity for screen-recovery/rebound/simple-outlet work. In-person Jan14 recall enables Jan15 limited26:31 retest; timing error remains. December lost11:35 not restored, January85:00 returns to named receivers. No private opponent board/coach mind, no new weakhand drill or cure/prepaid success.",
+    "assignment_is_discipline": false,
+    "exact_personal_box_access_or_mastery_inferred": false
+  },
+  "preserved_limits": {
+    "design_gate": "CLOSED",
+    "manuscript_gate": "CLOSED",
+    "manuscript_count": 0,
+    "actual_context_packs": 0,
+    "wholehistory_LOCK": false,
+    "G08_complete": false,
+    "G13_complete": false,
+    "G14_complete": false,
+    "public_medal_military_selected": false,
+    "private_receipt_or_all82_new_gate_added": false,
+    "completed1_3_reselected": false,
+    "canon_or_producer_or_central_files_modified": 0,
+    "git_modified_by_reviewer": false
+  },
+  "tool_execution": {
+    "independent_Codex_python_PDF_HTML_CSV_and_formula": "EXECUTED",
+    "official_GL_web": "Jan12 success / Jan11 timeout honestly separated",
+    "Antigravity": "NOT_RUN_BY_THIS_REVIEWER",
+    "NotebookLM": "NOT_RUN_BY_THIS_REVIEWER",
+    "Claude": "NOT_RUN_BY_THIS_REVIEWER",
+    "producer_external_not_run_flags": "Preserved; this is not a fabricated external tool PASS"
+  },
+  "mechanical_checks": [
+    {
+      "check": "pin AGENTS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_OUTCOME_LEDGER.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_ROBUSTNESS_LEDGER.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_OUTCOME_MODEL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_OUTCOME_ROBUSTNESS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/CHICAGO_2019_COBY_WHITE_DRAFT_BOARD.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin tools/verify_chicago_2018_19_ledger.mjs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin tools/verify_chicago_2018_19_robustness.mjs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin design/A05_E3_FINAL_EPISODE_FUNCTION.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin reviews/LC1_REMAINING_HISTORY_DEPENDENCY_CLOSEABILITY_AUDIT_2026_10_09.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pin simulation/LC1_2018_CHI22_DRAFT_AND_USED_TRANSACTION_CASCADE_IMPLEMENTATION_2026_10_09.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw gsw_oct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game gsw_oct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw gsw_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game gsw_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw por_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game por_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw por_mar",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game por_mar",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw lal_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game lal_jan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw lal_mar",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game lal_mar",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2018-10-29 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 actual GSW",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2018-10-29 budget GSW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 score GSW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29GSW interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29GSW concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-11 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 actual GSW",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-11 budget GSW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 score GSW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11GSW interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11GSW concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-09 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 actual POR",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-09 budget POR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 score POR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09POR interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09POR concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-03-27 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 actual POR",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-03-27 budget POR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 score POR",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27POR interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27POR concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-15 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 actual LAL",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-01-15 budget LAL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 score LAL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15LAL interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15LAL concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 actual CHI",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-03-12 budget CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 score CHI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12CHI interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12CHI concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 actual LAL",
+      "pass": true,
+      "detail": {
+        "diff": {}
+      }
+    },
+    {
+      "check": "2019-03-12 budget LAL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 score LAL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12LAL interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12LAL concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 positive donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 proxy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 C02 port",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 marginjoin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 GL budgets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 GL donors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11GL interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11GL concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-12 GL budgets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-12 GL donors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-12GL interval actors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-12GL concurrency",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 exact P sum equals selectedaggregate",
+      "pass": false,
+      "detail": {
+        "GP": 73,
+        "seconds_from_82_rounded_decimals": 76438,
+        "original_Hutch_seconds": 53673
+      }
+    },
+    {
+      "check": "sensitivity",
+      "pass": true,
+      "detail": {
+        "bpm/low": 22,
+        "bpm/base": 22,
+        "bpm/high": 23,
+        "ert/low": 22,
+        "ert/base": 23,
+        "ert/high": 24
+      }
+    },
+    {
+      "check": "82 row CHI_2018_19_G001",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G002",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G003",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G004",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G005",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G006",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G007",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G008",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G009",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G010",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G011",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G012",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G013",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G014",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G015",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G016",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G017",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G018",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G019",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G020",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G021",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G022",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G023",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G024",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G025",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G026",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G027",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G028",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G029",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G030",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G031",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G032",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G033",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G034",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G035",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G036",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G037",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G038",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G039",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G040",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G041",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G042",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G043",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G044",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G045",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G046",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G047",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G048",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G049",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G050",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G051",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G052",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G053",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G054",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G055",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G056",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G057",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G058",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G059",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G060",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G061",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G062",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G063",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G064",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G065",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G066",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G067",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G068",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G069",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G070",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G071",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G072",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G073",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G074",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G075",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G076",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G077",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G078",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G079",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G080",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G081",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "82 row CHI_2018_19_G082",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2018-10-29 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-11 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-09 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-27 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-01-15 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "2019-03-12 outerloss",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "33 donor arithmetic",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "4 returned seconds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "aggregate algebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "legal clocks",
+      "pass": true,
+      "detail": {
+        "assignment_hours": 3.0,
+        "recall_hours": 32.0,
+        "flight_hours": 4.5,
+        "arrival_to_report_hours": 4.5
+      }
+    }
+  ],
+  "id": "LC1_CHICAGO_ROOKIE_USED_DEVELOPMENT_AND_RESULT_CONTACT_INDEPENDENT_REVIEW_2026_10_09",
+  "status": "NEEDS_REPAIR_FROZEN_7778_INPUT_NOT_ACCEPTED",
+  "input_snapshot_commit": "6e6d8f5898bf622d12fbbc1b6dca93ca50284346",
+  "input_files": {
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json": "7778b474aef76d1cd6ee1dce1a71707e809715fea175a0d0240a220d3fc4c3aa",
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.md": "170c89dcf23d278a01e730f77b68a6bfafcf47efc2dda62d47ecf334f4358b45"
+  },
+  "findings": [
+    {
+      "id": "C05-F01",
+      "severity": "MATERIAL_PRECISION_SCOPE_DEFECT",
+      "pointers": [
+        "/selected_NBA_line/minutes",
+        "/selected_NBA_line/original_Hutch_minutes",
+        "/selected_result_model/all82_rows/*/P_minutes",
+        "/producer_mechanical_checks/11"
+      ],
+      "source_pointers": [
+        "simulation/CHICAGO_2018_19_OUTCOME_LEDGER.csv: protagonist_minutes/hutchison_minutes",
+        "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md: aggregate equation"
+      ],
+      "independent_values": {
+        "GP": 73,
+        "seconds_from_82_rounded_decimals": 76438,
+        "original_Hutch_seconds": 53673
+      },
+      "difference_seconds": 4,
+      "finding": "Original82 rounded-decimal inputs yield P76438s=1273:58 andH53673s=894:33. Aggregate equation selectsP76442s=1274:02 fromH53677s=894:37. These cannot both be exact73game/82row sums; original input fails to distinguish proxy minute inputs from selected aggregate. No six contact or W/L defect follows from4seconds.",
+      "required_repair": "Keep original immutableCSV and aggregate selection. Explicitly identify originalCSV as resultproxy inputs, disclose4sec, expose selected exact P only for six already built primary-contact budgets and leave other unused exact pergame minute fields null. Do not invent new4sec donor events, change originalprices/results or certify exactall82."
+    }
+  ],
+  "independent_material_findings_count": 1,
+  "other_material_findings": [],
+  "scope_acceptance": false,
+  "not_retroactive_PASS": true
+}

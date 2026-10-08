@@ -52,9 +52,13 @@
 
 22–24승 범위는 기존 Atlanta29승보다 낮아 로터리4번 seed와 기존 선택된7순위 Coby 경로에 호환된다. 7순위/Coby/2020정본과 완료1–3은 재선택하지 않는다. 개인82박스와 사적 장부를 새 조건으로 만들지 않는다.
 
+## 4초 정밀도 경계
+
+원 CSV의 P분 합은 반올림1273:58이고 원 donor/vector 집계 선택은1274:02다. 이4초는 원 세대 내부 차이로 명시하며 새 사건·분 차감·donor로 메우지 않는다. JSON82행의 원 분은 `original_CSV_P_minutes_input`으로 보존한다. `selected_exact_P_minutes_used`는 공식 검문한 여섯 창만 값이 있고 나머지는 null이다. 전체exact82합 PASS를 주장하지 않으며 집계 선택과 근사 결과 모델의 수락 범위를 구분한다.
+
 ## 검문·한계
 
-- 생산자 구체 검산 23개 PASS. 독립 수락은 PENDING.
+- 생산자 구체 검산 24개 PASS. 독립 수락은 PENDING.
 - Antigravity/NotebookLM/Claude는 이 생산자가 실행하지 않았으며 PASS로 표시하지 않는다.
 - 국가대표 공적 금메달·병역 미선택, 전체G08/historyLOCK/G13/G14/actualBlueprint권한 false.
 - 공식 GL 개별 박스 미회수, 실제 private통지/의료/급여 영수증 인증0.
