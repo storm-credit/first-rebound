@@ -1,0 +1,1363 @@
+{
+  "id": "LC1_R09_CLAUDE_INDEPENDENT_REBUTTAL_2026_10_08",
+  "status": "TIMED_OUT",
+  "tool": "Claude CLI",
+  "scope": "CANDIDATE_PACKET_REASONING_REBUTTAL_NO_PRIMARY_TOOLS_NOT_G16",
+  "source_sha256": {
+    "research/LC1_R09_TOURNAMENT_AND_NM1_AUTHOR_OPTIONS_2026_10_08.json": "2279d9d66e31d50c9ca9c732aec674d0bf35dd83b61e602da3f87e417b5fd7ef"
+  },
+  "prompt_sha256": "349a436852335d8fbd2486118ad218163b54a54aa1498caf71e8044e8cbe8f4d",
+  "input_projection": {
+    "actual_2023_baseline": {
+      "final_roster_12": [
+        {
+          "name": "HA Yungi",
+          "korean": "하윤기",
+          "position": "C",
+          "birth": "1999-03-12",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "LEE Junghyun",
+          "korean": "이정현(1999)",
+          "position": "G",
+          "birth": "1999-04-14",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "HEO Hoon",
+          "korean": "허훈",
+          "position": "G",
+          "birth": "1995-08-16",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "BYEON Junhyeong",
+          "korean": "변준형",
+          "position": "G",
+          "birth": "1996-03-11",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "KIM Sunhyung",
+          "korean": "김선형",
+          "position": "G",
+          "birth": "1988-07-01",
+          "captain": true,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "LEE Woosuk",
+          "korean": "이우석",
+          "position": "F",
+          "birth": "1999-07-10",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "YANG Hongseok",
+          "korean": "양홍석",
+          "position": "F",
+          "birth": "1997-07-02",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "MOON Jeonghyeon",
+          "korean": "문정현",
+          "position": "F",
+          "birth": "2001-07-30",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "KIM Jongkyu",
+          "korean": "김종규",
+          "position": "C",
+          "birth": "1991-07-03",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "RA Guna",
+          "korean": "라건아",
+          "position": "C",
+          "birth": "1989-02-20",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "JEON Seonghyen",
+          "korean": "전성현",
+          "position": "G",
+          "birth": "1991-11-05",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        },
+        {
+          "name": "LEE Seounghyun",
+          "korean": "이승현",
+          "position": "C",
+          "birth": "1992-04-16",
+          "captain": false,
+          "classification": "FACT_2023_REAL_HISTORY"
+        }
+      ],
+      "coach": "CHOO Il Seung",
+      "assistant": "LEE Hunjae",
+      "groups": {
+        "A": [
+          {
+            "team": "IRI",
+            "wins": 3,
+            "losses": 0,
+            "rank": 1
+          },
+          {
+            "team": "KSA",
+            "wins": 2,
+            "losses": 1,
+            "rank": 2
+          },
+          {
+            "team": "KAZ",
+            "wins": 1,
+            "losses": 2,
+            "rank": 3
+          },
+          {
+            "team": "UAE",
+            "wins": 0,
+            "losses": 3,
+            "rank": 4
+          }
+        ],
+        "B": [
+          {
+            "team": "CHN",
+            "wins": 3,
+            "losses": 0,
+            "rank": 1
+          },
+          {
+            "team": "TPE",
+            "wins": 2,
+            "losses": 1,
+            "rank": 2
+          },
+          {
+            "team": "HKG",
+            "wins": 1,
+            "losses": 2,
+            "rank": 3
+          },
+          {
+            "team": "MGL",
+            "wins": 0,
+            "losses": 3,
+            "rank": 4
+          }
+        ],
+        "C": [
+          {
+            "team": "JOR",
+            "wins": 3,
+            "losses": 0,
+            "rank": 1
+          },
+          {
+            "team": "PHI",
+            "wins": 2,
+            "losses": 1,
+            "rank": 2
+          },
+          {
+            "team": "BRN",
+            "wins": 1,
+            "losses": 2,
+            "rank": 3
+          },
+          {
+            "team": "THA",
+            "wins": 0,
+            "losses": 3,
+            "rank": 4
+          }
+        ],
+        "D": [
+          {
+            "team": "JPN",
+            "wins": 3,
+            "losses": 0,
+            "rank": 1
+          },
+          {
+            "team": "KOR",
+            "wins": 2,
+            "losses": 1,
+            "rank": 2
+          },
+          {
+            "team": "QAT",
+            "wins": 1,
+            "losses": 2,
+            "rank": 3
+          },
+          {
+            "team": "INA",
+            "wins": 0,
+            "losses": 3,
+            "rank": 4
+          }
+        ]
+      },
+      "format": "4groups×4,roundrobin;group1stbyeQF;2nd/3rdcrossqualifier;fourquarters10min/noOTinallKoreagames",
+      "korea_games": [
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 6,
+          "date": "2023-09-26",
+          "start_time": "17:30",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "INA",
+          "phase": "Group D",
+          "venue": "ZJU",
+          "korea_points": 95,
+          "opponent_points": 55,
+          "result": "W",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 12000,
+          "published_minus_legal_seconds": 0,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 67
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 11,
+          "date": "2023-09-28",
+          "start_time": "13:30",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "QAT",
+          "phase": "Group D",
+          "venue": "HOC",
+          "korea_points": 76,
+          "opponent_points": 64,
+          "result": "W",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 11955,
+          "published_minus_legal_seconds": -45,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 66
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 17,
+          "date": "2023-09-30",
+          "start_time": "11:00",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "JPN",
+          "phase": "Group D",
+          "venue": "HOC",
+          "korea_points": 77,
+          "opponent_points": 83,
+          "result": "L",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 11920,
+          "published_minus_legal_seconds": -80,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 64
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 28,
+          "date": "2023-10-02",
+          "start_time": "20:00",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "BRN",
+          "phase": "Qualification to Quarterfinal",
+          "venue": "ZJU",
+          "korea_points": 88,
+          "opponent_points": 73,
+          "result": "W",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 12000,
+          "published_minus_legal_seconds": 0,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 41
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 30,
+          "date": "2023-10-03",
+          "start_time": "12:00",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "CHN",
+          "phase": "Quarterfinal",
+          "venue": "HOC",
+          "korea_points": 70,
+          "opponent_points": 84,
+          "result": "L",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 11910,
+          "published_minus_legal_seconds": -90,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 39
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 33,
+          "date": "2023-10-04",
+          "start_time": "16:00",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "IRI",
+          "phase": "Classification 5–8",
+          "venue": "ZJU",
+          "korea_points": 82,
+          "opponent_points": 89,
+          "result": "L",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 12001,
+          "published_minus_legal_seconds": 1,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 34
+        },
+        {
+          "classification": "FACT_2023_REAL_HISTORY",
+          "game": 37,
+          "date": "2023-10-06",
+          "start_time": "12:00",
+          "timezone": "Asia/Shanghai UTC+08",
+          "opponent": "JPN",
+          "phase": "Rank 7–8",
+          "venue": "ZJU",
+          "korea_points": 74,
+          "opponent_points": 55,
+          "result": "W",
+          "regulation_minutes": 40,
+          "periods": 4,
+          "period_minutes": 10,
+          "overtime_count": 0,
+          "legal_team_seconds": 12000,
+          "published_team_seconds": 12000,
+          "published_minus_legal_seconds": 0,
+          "source": "OCA_FULL_RESULTS_BOOK",
+          "physical_pdf_page": 32
+        }
+      ],
+      "knockout_and_classification": [
+        {
+          "date": "2023-10-02",
+          "game": 25,
+          "team1": "KSA",
+          "score1": 95,
+          "team2": "HKG",
+          "score2": 72,
+          "winner": "KSA",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-02",
+          "game": 26,
+          "team1": "TPE",
+          "score1": 83,
+          "team2": "KAZ",
+          "score2": 62,
+          "winner": "TPE",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-02",
+          "game": 27,
+          "team1": "PHI",
+          "score1": 80,
+          "team2": "QAT",
+          "score2": 41,
+          "winner": "PHI",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-02",
+          "game": 28,
+          "team1": "KOR",
+          "score1": 88,
+          "team2": "BRN",
+          "score2": 73,
+          "winner": "KOR",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-03",
+          "game": 29,
+          "team1": "IRI",
+          "score1": 83,
+          "team2": "PHI",
+          "score2": 84,
+          "winner": "PHI",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-03",
+          "game": 30,
+          "team1": "CHN",
+          "score1": 84,
+          "team2": "KOR",
+          "score2": 70,
+          "winner": "CHN",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-03",
+          "game": 31,
+          "team1": "JOR",
+          "score1": 76,
+          "team2": "KSA",
+          "score2": 57,
+          "winner": "JOR",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-03",
+          "game": 32,
+          "team1": "JPN",
+          "score1": 66,
+          "team2": "TPE",
+          "score2": 85,
+          "winner": "TPE",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-04",
+          "game": 33,
+          "team1": "IRI",
+          "score1": 89,
+          "team2": "KOR",
+          "score2": 82,
+          "winner": "IRI",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-04",
+          "game": 34,
+          "team1": "KSA",
+          "score1": 79,
+          "team2": "JPN",
+          "score2": 74,
+          "winner": "KSA",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-04",
+          "game": 35,
+          "team1": "JOR",
+          "score1": 90,
+          "team2": "TPE",
+          "score2": 71,
+          "winner": "JOR",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-04",
+          "game": 36,
+          "team1": "PHI",
+          "score1": 77,
+          "team2": "CHN",
+          "score2": 76,
+          "winner": "PHI",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-06",
+          "game": 37,
+          "team1": "KOR",
+          "score1": 74,
+          "team2": "JPN",
+          "score2": 55,
+          "winner": "KOR",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-06",
+          "game": 38,
+          "team1": "IRI",
+          "score1": 92,
+          "team2": "KSA",
+          "score2": 60,
+          "winner": "IRI",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-06",
+          "game": 39,
+          "team1": "CHN",
+          "score1": 101,
+          "team2": "TPE",
+          "score2": 73,
+          "winner": "CHN",
+          "classification": "FACT_REAL_HISTORY"
+        },
+        {
+          "date": "2023-10-06",
+          "game": 40,
+          "team1": "PHI",
+          "score1": 70,
+          "team2": "JOR",
+          "score2": 60,
+          "winner": "PHI",
+          "classification": "FACT_REAL_HISTORY"
+        }
+      ],
+      "final_ranking": [
+        "PHI",
+        "JOR",
+        "CHN",
+        "TPE",
+        "IRI",
+        "KSA",
+        "KOR",
+        "JPN"
+      ],
+      "published_minutes_limit": "Publishedindividualrows retained literally; source-minus-200min discrepancy exposed ratherthanpatched. Noactuallineup/playersecondsidentitycertificate. Cumulativeprofilepergameaverages are notindividualgameminutes."
+    },
+    "existing_author_design_preserved": {
+      "private_joint_training_and_return": true,
+      "selected_twelve_source": "design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json#/institutional_execution/selected_fictional_twelve",
+      "selected_two_replaced": [
+        "BYEON Junhyeong",
+        "YANG Hongseok"
+      ],
+      "displaced_opportunities": [
+        {
+          "player": "BYEON Junhyeong",
+          "selected_roster_loss_preserved": true,
+          "actual_minutes_lost": "103:00",
+          "published_seconds_lost": 6180,
+          "actual_game_opportunities": [
+            {
+              "date": "2023-09-26",
+              "opponent": "INA",
+              "phase": "Group D",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "11:12",
+              "published_seconds": 672,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-09-28",
+              "opponent": "QAT",
+              "phase": "Group D",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "8:17",
+              "published_seconds": 497,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-09-30",
+              "opponent": "JPN",
+              "phase": "Group D",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "DNP",
+              "published_seconds": 0,
+              "did_not_play": true
+            },
+            {
+              "date": "2023-10-02",
+              "opponent": "BRN",
+              "phase": "Qualification to Quarterfinal",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "17:02",
+              "published_seconds": 1022,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-03",
+              "opponent": "CHN",
+              "phase": "Quarterfinal",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "17:07",
+              "published_seconds": 1027,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-04",
+              "opponent": "IRI",
+              "phase": "Classification 5–8",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "30:33",
+              "published_seconds": 1833,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-06",
+              "opponent": "JPN",
+              "phase": "Rank 7–8",
+              "player": "BYEON Junhyeong",
+              "published_minutes": "18:49",
+              "published_seconds": 1129,
+              "did_not_play": false
+            }
+          ],
+          "role_loss": "변준형의 교체 볼 운반·허훈 부담 분담과 이란전 긴 출전 기회",
+          "not_assumed": "미선발 감정·발언·이후 커리어를 발명하지 않으며 DNP도 대표팀 등록·훈련 기회를 없던 것으로 취급하지 않는다"
+        },
+        {
+          "player": "YANG Hongseok",
+          "selected_roster_loss_preserved": true,
+          "actual_minutes_lost": "121:16",
+          "published_seconds_lost": 7276,
+          "actual_game_opportunities": [
+            {
+              "date": "2023-09-26",
+              "opponent": "INA",
+              "phase": "Group D",
+              "player": "YANG Hongseok",
+              "published_minutes": "24:27",
+              "published_seconds": 1467,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-09-28",
+              "opponent": "QAT",
+              "phase": "Group D",
+              "player": "YANG Hongseok",
+              "published_minutes": "24:44",
+              "published_seconds": 1484,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-09-30",
+              "opponent": "JPN",
+              "phase": "Group D",
+              "player": "YANG Hongseok",
+              "published_minutes": "9:15",
+              "published_seconds": 555,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-02",
+              "opponent": "BRN",
+              "phase": "Qualification to Quarterfinal",
+              "player": "YANG Hongseok",
+              "published_minutes": "32:32",
+              "published_seconds": 1952,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-03",
+              "opponent": "CHN",
+              "phase": "Quarterfinal",
+              "player": "YANG Hongseok",
+              "published_minutes": "30:18",
+              "published_seconds": 1818,
+              "did_not_play": false
+            },
+            {
+              "date": "2023-10-04",
+              "opponent": "IRI",
+              "phase": "Classification 5–8",
+              "player": "YANG Hongseok",
+              "published_minutes": "DNP",
+              "published_seconds": 0,
+              "did_not_play": true
+            },
+            {
+              "date": "2023-10-06",
+              "opponent": "JPN",
+              "phase": "Rank 7–8",
+              "player": "YANG Hongseok",
+              "published_minutes": "DNP",
+              "published_seconds": 0,
+              "did_not_play": true
+            }
+          ],
+          "role_loss": "양홍석의 윙 크기·리바운드·중국전 및 바레인전 장시간 책임",
+          "not_assumed": "미선발 감정·발언·이후 커리어를 발명하지 않으며 DNP도 대표팀 등록·훈련 기회를 없던 것으로 취급하지 않는다"
+        }
+      ],
+      "both_absent_2018": true,
+      "majorNBAcoords": "2027MVP;2028+2031CHI/FMVP;2028LMreceiver;2035CHIretirement",
+      "no_second_roster_choice_requested": true
+    },
+    "public_institutional_bridge": {
+      "status": "CANDIDATE_ROUTINE_EXECUTION_FOR_PUBLIC_MAJOR_OUTCOME_NOT_SELECTED",
+      "classification": "FICTIONAL_INSTITUTIONAL_IMPLEMENTATION_NOT_ACTUAL_NBA_OR_FIBA_LETTER",
+      "cba_reading": "§3(c) e.g. suppliesexamples, notclosedOlympics/WorldCup list. TechnicalFIBAapproval/referees/reporting supports2023institutionalconnection, but doesnotalone decideNBAcontractclass; §3(a)(i)ordinaryBasketballEventendsSep15.",
+      "finite_candidate": "NBA/FIBA, withNBPAagreementasneededforCBAexception, separatelyconfirmAG2023-onlypublic participationforbothnamedfictionalNBAplayers; twoClubswrittenconsent andNBAsatisfactorydisabilitycoverage; tournamentdatesSep26–Oct6;returnbyOct9;noNBAlogoautomaticuse. Dateboundary handledinexpresslimitedaccord, notsilentlywaivedbyClub.",
+      "precedent": "OfficialCavaliers2018indexedrecap recordsone-timeNBA/FIBAexception; no2018actorparticipationrewrite andnoautomatic2023carryover.",
+      "private_bridge_limit": "ExistingselectedSep26–Oct6privatetraining/campabsence andOct9return preserved. Publicgamecoverage/eventclass isadditionalroutineimplementationconditionalonmajorpublicroute, notnewauthorpermissionforeachstep.",
+      "risk_function": "Existingprivatebound nochange; publiceventcoverage separatelyrequires NBAacceptance ofamount protectingeachTeam, notmerecopyofUSD1milliontreatmentcap.",
+      "no_actual_private_certificate_gate": true,
+      "primary_scope_missing": "2023-specific NBA/FIBAcontractclass decisionnotrecovered. Usefinitefictionalaccord ratherthanhistoricalcertification."
+    },
+    "camp_opportunity_costs": {
+      "chi": [
+        "Oct2MediaDay",
+        "Oct3Nashvillecampandweekpreparation",
+        "Oct8firstpreseasonuntilreturn"
+      ],
+      "min": [
+        "Sep29firstpractice",
+        "Sep30/Oct1localpractice",
+        "Oct1–8AbuDhabiwindow"
+      ],
+      "candidate_public_travel": "Nameentryby2023Jul15underhandbook,orlawfullyacceptedwrittenchangebyTechnicalDelegatebeforeSep25_14CSTtechnicalmeeting;noaftermeetingchange. DepartureafterOct6lastparticipation;separateteamreturnbyOct9/limitedpracticefromOct10matchingexistingselectedprivateendpoint",
+      "route_datetime_limit": "Exactairline,policyprice,clinicalrecordnotnewgate; Oct6returnflightinstantandOct8NBAparticipationnotassumed",
+      "public_source_scope": "OriginalNBAclubcalendarsfrombridge;counterfactualpersonalabsence iscandidate,notactualrosterfact"
+    },
+    "counterfactual_branch_common": {
+      "status": "CANDIDATE_D1_NOT_SELECTED",
+      "korea_group3wins0losses": true,
+      "japan2wins1loss": true,
+      "qatar1win2loss": true,
+      "indonesia0wins3loss": true,
+      "displaced_bracket": [
+        "JPNtakesKORqualifier#28againstBRN,then#30CHN;KORtakesJPNbye#32againstTPE",
+        "ConditionalJPNbeatsBRNthenlosesCHN;TPElosesKORinsteadJPN;JORstillbeatsKSA;PHIstillbeatsIRIthenCHN;theuppersemiisJOR–KOR,notoriginalJOR–TPE",
+        "OnKORQFwin,5–8classificationIRI–JPNandKSA–TPE. Theirunusedscores/finalranksremaincandidateHOLD,notcopiedoriginalscores",
+        "GoldKOR–PHI;bronzeJOR–CHN afterKORsemiwin. IfKORsemi loses,PHI–JORgold remains andKOR–CHNbronzegame changesTPEopportunity."
+      ],
+      "no_day2_qualifier_for_Korea": true,
+      "actual_seven_games_not_repeated_as_selected_six": true,
+      "alternative_D2": "IfJapanlossretained,KORseven-gamerouteBRN→CHN→PHI→JORusesothersemibranch;notselectedinthispacket.",
+      "team_minutes_delta": -200
+    },
+    "author_options": [
+      {
+        "id": "NM1",
+        "status": "PREPARED_NOT_AUTHOR_SELECTED",
+        "medal_candidate": "GOLD",
+        "public_permission_candidate": "AG2023_ONLY_NBA_FIBA_NBPA_TWO_CLUB_ACCORD",
+        "final_roster_source": "EXISTING_SELECTED_A09_ROSTER_NOT_RECHOSEN",
+        "route": [
+          {
+            "date": "2023-09-26",
+            "opponent": "INA",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "low_load",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-28",
+            "opponent": "QAT",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-30",
+            "opponent": "JPN",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-03",
+            "opponent": "TPE",
+            "phase": "Quarterfinal #32",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-04",
+            "opponent": "JOR",
+            "phase": "Semi #35",
+            "result_candidate": "W",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-06",
+            "opponent": "PHI",
+            "phase": "Gold #40",
+            "result_candidate": "W",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          }
+        ],
+        "team_minutes": 1200,
+        "protagonist_minutes": 178,
+        "rival_minutes": 178,
+        "medical_or_result_fact_claim": false,
+        "qualifies_decree_68_11_1_5": true,
+        "military_route": "arts/sports admission plus34months/education/544hours/travel-permit implementation",
+        "nba_direction_fit": "conditional same17-season direction after finite duty calendar",
+        "choice_cost": "필리핀 금메달과 한국 원7위·일본 D1·대만 준결승 진출 기회가 바뀜; 34개월 내 교육/544시간과 두 구단 허가 비용",
+        "strength_uncertainty": "승률 미추정. 200분·NBA 경력만으로 우승을 인증하지 않는다. 동료/상대의 실제 명단·대회 책임을 다음 유한 경기 모델에서 소비해야 함.",
+        "gold_not_selected": true
+      },
+      {
+        "id": "NM2",
+        "status": "PREPARED_NOT_AUTHOR_SELECTED",
+        "medal_candidate": "SILVER",
+        "public_permission_candidate": "AG2023_ONLY_NBA_FIBA_NBPA_TWO_CLUB_ACCORD",
+        "final_roster_source": "EXISTING_SELECTED_A09_ROSTER_NOT_RECHOSEN",
+        "route": [
+          {
+            "date": "2023-09-26",
+            "opponent": "INA",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "low_load",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-28",
+            "opponent": "QAT",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-30",
+            "opponent": "JPN",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-03",
+            "opponent": "TPE",
+            "phase": "Quarterfinal #32",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-04",
+            "opponent": "JOR",
+            "phase": "Semi #35",
+            "result_candidate": "W",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-06",
+            "opponent": "PHI",
+            "phase": "Gold #40",
+            "result_candidate": "L",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          }
+        ],
+        "team_minutes": 1200,
+        "protagonist_minutes": 178,
+        "rival_minutes": 178,
+        "medical_or_result_fact_claim": false,
+        "qualifies_decree_68_11_1_5": false,
+        "military_route": "ordinary service; silver/bronze/fourth provide no Asian Games1st-category admission",
+        "nba_direction_fit": "does not support uninterrupted2024–2035 NBA under the presently recorded circumstances; retain approvedNBAcoordinates as targets, do not silently revoke them",
+        "choice_cost": "한국 원7위와 일본/대만 대진을 바꾸지만 해당 병역 편입 요건은 얻지 못함; NBA 복무 공백 필요",
+        "strength_uncertainty": "승률 미추정. 200분·NBA 경력만으로 우승을 인증하지 않는다. 동료/상대의 실제 명단·대회 책임을 다음 유한 경기 모델에서 소비해야 함.",
+        "gold_not_selected": true
+      },
+      {
+        "id": "NM3",
+        "status": "PREPARED_NOT_AUTHOR_SELECTED",
+        "medal_candidate": "BRONZE",
+        "public_permission_candidate": "AG2023_ONLY_NBA_FIBA_NBPA_TWO_CLUB_ACCORD",
+        "final_roster_source": "EXISTING_SELECTED_A09_ROSTER_NOT_RECHOSEN",
+        "route": [
+          {
+            "date": "2023-09-26",
+            "opponent": "INA",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "low_load",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-28",
+            "opponent": "QAT",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-30",
+            "opponent": "JPN",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-03",
+            "opponent": "TPE",
+            "phase": "Quarterfinal #32",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-04",
+            "opponent": "JOR",
+            "phase": "Semi #35",
+            "result_candidate": "L",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-06",
+            "opponent": "CHN",
+            "phase": "Bronze #39",
+            "result_candidate": "W",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          }
+        ],
+        "team_minutes": 1200,
+        "protagonist_minutes": 178,
+        "rival_minutes": 178,
+        "medical_or_result_fact_claim": false,
+        "qualifies_decree_68_11_1_5": false,
+        "military_route": "ordinary service; silver/bronze/fourth provide no Asian Games1st-category admission",
+        "nba_direction_fit": "does not support uninterrupted2024–2035 NBA under the presently recorded circumstances; retain approvedNBAcoordinates as targets, do not silently revoke them",
+        "choice_cost": "한국 원7위와 일본/대만 대진을 바꾸지만 해당 병역 편입 요건은 얻지 못함; NBA 복무 공백 필요",
+        "strength_uncertainty": "승률 미추정. 200분·NBA 경력만으로 우승을 인증하지 않는다. 동료/상대의 실제 명단·대회 책임을 다음 유한 경기 모델에서 소비해야 함.",
+        "gold_not_selected": true
+      },
+      {
+        "id": "NM4",
+        "status": "PREPARED_NOT_AUTHOR_SELECTED",
+        "medal_candidate": "FOURTH",
+        "public_permission_candidate": "AG2023_ONLY_NBA_FIBA_NBPA_TWO_CLUB_ACCORD",
+        "final_roster_source": "EXISTING_SELECTED_A09_ROSTER_NOT_RECHOSEN",
+        "route": [
+          {
+            "date": "2023-09-26",
+            "opponent": "INA",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "low_load",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-28",
+            "opponent": "QAT",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-09-30",
+            "opponent": "JPN",
+            "phase": "Group D",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-03",
+            "opponent": "TPE",
+            "phase": "Quarterfinal #32",
+            "result_candidate": "W",
+            "minutes_profile": "competitive",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-04",
+            "opponent": "JOR",
+            "phase": "Semi #35",
+            "result_candidate": "L",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          },
+          {
+            "date": "2023-10-06",
+            "opponent": "CHN",
+            "phase": "Bronze #39",
+            "result_candidate": "L",
+            "minutes_profile": "medal",
+            "classification": "CANDIDATE_ONLY"
+          }
+        ],
+        "team_minutes": 1200,
+        "protagonist_minutes": 178,
+        "rival_minutes": 178,
+        "medical_or_result_fact_claim": false,
+        "qualifies_decree_68_11_1_5": false,
+        "military_route": "ordinary service; silver/bronze/fourth provide no Asian Games1st-category admission",
+        "nba_direction_fit": "does not support uninterrupted2024–2035 NBA under the presently recorded circumstances; retain approvedNBAcoordinates as targets, do not silently revoke them",
+        "choice_cost": "한국 원7위와 일본/대만 대진을 바꾸지만 해당 병역 편입 요건은 얻지 못함; NBA 복무 공백 필요",
+        "strength_uncertainty": "승률 미추정. 200분·NBA 경력만으로 우승을 인증하지 않는다. 동료/상대의 실제 명단·대회 책임을 다음 유한 경기 모델에서 소비해야 함.",
+        "gold_not_selected": true
+      }
+    ],
+    "dated_2023_legal_findings": [
+      {
+        "id": "L1",
+        "classification": "FACT_DATED_RULE",
+        "source": "LAW_DECREE",
+        "locator": "§68-11(1)(5)",
+        "finding": "AsianGames1st is the relevant sports category; silver/bronze/fourth are not. Olympics top3 is a separate category. No separate game-appearance-only additional condition is stated in the retrieved2023paragraph;donotaddone.",
+        "not_proven": "Fictional gold or individualadmission notselected"
+      },
+      {
+        "id": "L2",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_ACT",
+          "LAW_DECREE",
+          "ARTS_RULE"
+        ],
+        "locator": "Act§33-7;Decree§68-11(2)/(3);Rule§5(2)",
+        "finding": "Qualified result proof and MCST recommendation lead to MMA eligibility/admission process. MCST notification14days;regionalMMA eligibilitycheckwithin3days afterrecommendationreceipt. Medal is not automatic completedservice."
+      },
+      {
+        "id": "L3",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_ACT",
+          "LAW_DECREE",
+          "ARTS_RULE"
+        ],
+        "locator": "Act§33-8;Decree§68-13;Rule§24(2)",
+        "finding": "34months start at actualadmission;educationcounts, lost/extendeddays do notdisappear. Withoutlostdays, sameadmissiondayminus1after34months iscandidateend."
+      },
+      {
+        "id": "L4",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_DECREE",
+          "ARTS_FIELD_ANNEX4"
+        ],
+        "locator": "§68-12;annex4sportsfields",
+        "finding": "Total544recognizedvolunteerhours;quarterminimum24;qualifiedactivities/bodies andapprovedplan/reporting. NBA professionalfield canfitannex4 category, but privateNBAclinic/remotehours are notautomaticallyrecognized."
+      },
+      {
+        "id": "L5",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_ACT",
+          "ARTS_RULE"
+        ],
+        "locator": "Act§55;Rule§8/17",
+        "finding": "Militaryeducationwithin1year ofadmission,periodstatutorilywithin60days;separatebasiceducationwithin3months andatmost3days;jobeducation also separate;annualopening andproperdelaymatter.",
+        "not_proven": "Exact2023/24artsathlete militarytraining classdate andlength not recovered;do notclaim3/4weeks frompresent-daygenericguidance"
+      },
+      {
+        "id": "L6",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_ACT",
+          "TRAVEL_RULE",
+          "TRAVEL_ANNEX_IMAGE_125776545"
+        ],
+        "locator": "Act§70;Travel§5/6;annex1item8",
+        "finding": "Servingartsathletesneedforeignpermit evenbefore25. Arts/sportsforeignactivityperiodfollowscentralagencyrecommendation. Deadline/extension andcompletedvolunteerconstraints apply; it isnotblanketNBAtravelpermission."
+      },
+      {
+        "id": "L7",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "TRAVEL_RULE",
+          "TRAVEL_ANNEX_IMAGE_125776543"
+        ],
+        "locator": "Travelannex1item6foreignemployment;§7",
+        "finding": "Ordinaryeligibleforeignemploymentpermit iswithin3years andup to27; NBAcontractalone notautomaticpermissionthrough2035. 1999rivalturns25in2024 and27in2026; generaldeadlineJan15oftheyearturning25whenalreadyabroad."
+      },
+      {
+        "id": "L8",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "TRAVEL_ANNEX_IMAGE_125776593",
+          "TRAVEL_ANNEX_IMAGE_125776595"
+        ],
+        "locator": "Travelannex3PR/emigration",
+        "finding": "Some genuineemigration/family/permanentresidence routesreach37withactualconditions; norecordedfictionalPR/familyfacts arepresent. Do notinventthem or useage36asautomaticpreviousNBAlegality."
+      },
+      {
+        "id": "L9",
+        "classification": "FACT_DATED_RULE",
+        "source": [
+          "LAW_ACT",
+          "LAW_DECREE"
+        ],
+        "locator": "Act§33-9/33-10/70(6);Decree§68-14",
+        "finding": "Fieldchange/warnings/missingorforgedhours/education omissionaffectservice;unfinished544canextendclockandrestrictforeignpermit. LawfulNBAavailabilitydependsonremainingduties ratherthanmedallabel."
+      }
+    ],
+    "arts_duty_candidate": {
+      "status": "CANDIDATE_NM1_ONLY_NOT_ADMISSION_FACT",
+      "classification": "FINITE_SERVICE_TIME_FAMILY",
+      "admission_date_witness": "2023-10-20",
+      "unextended_completion_date_witness": "2026-08-19",
+      "date_formula": "end=admission+34calendarmonths−1day+excluded_days+statutory_extension;educationcounts. Ifadmissionlater,allwindowsmove.",
+      "accepted_admission": false,
+      "military_education_window": {
+        "capacity_start": "2024-06-22",
+        "capacity_end_inclusive": "2024-08-20",
+        "capacity_days": 60,
+        "actual_order_or_duration_selected": false,
+        "condition": "MMAactualapprovedclasswithin1yearofadmission andwithinlaw60daybound;summerwindowcapacitynotassertedactualtraininglength",
+        "nba_cost": "NoNBApractice/gameclaiminsideactualclassinterval; offseasontrainingandpersonalworklost. Specific2024classnotyetrecovered; noall82medicalgate."
+      },
+      "basic_and_job_education": {
+        "basic_deadline_witness": "2024-01-19",
+        "basic_max_days": 3,
+        "job_required": true,
+        "candidate_plan": "Nov2023organizedbasic/jobeducationwithClubabsencearrangement;actualdatesandaffectedNBAusepointmustbeselectedwhenconsumed; donotdeclarezeroNBAgameslost"
+      },
+      "recognized_volunteer_planning_hours": [
+        {
+          "quarter": "2023Q4",
+          "hours": 24
+        },
+        {
+          "quarter": "2024Q1",
+          "hours": 48
+        },
+        {
+          "quarter": "2024Q2",
+          "hours": 48
+        },
+        {
+          "quarter": "2024Q3",
+          "hours": 48
+        },
+        {
+          "quarter": "2024Q4",
+          "hours": 48
+        },
+        {
+          "quarter": "2025Q1",
+          "hours": 48
+        },
+        {
+          "quarter": "2025Q2",
+          "hours": 48
+        },
+        {
+          "quarter": "2025Q3",
+          "hours": 48
+        },
+        {
+          "quarter": "2025Q4",
+          "hours": 48
+        },
+        {
+          "quarter": "2026Q1",
+          "hours": 48
+        },
+        {
+          "quarter": "2026Q2",
+          "hours": 48
+        },
+        {
+          "quarter": "2026Q3_until_Aug19",
+          "hours": 40
+        }
+      ],
+      "total_hours": 544,
+      "minimum_planned_active_quarter_hours": 24,
+      "volunteer_limit": "Eligibleinstitution/approvedactivity/supervision/recognition/reportingselectedroutineimplementation; noautomaticprivateNBAcliniccredit. Hourscompatiblecapacitynotcompletedrealreceipts.",
+      "reporting": "MCSTannualplanJan31,monthlyperformedhoursnextmonth20underdatedDecree;quarterrecordandremaininghoursvisible",
+      "foreign_service_guard": "at eachNBAtravelusepoint: properartsfieldservice AND activeMMAtravelpermitwithincentralagencyrecommendation AND noexclusion/revocation/unfinishedhours restriction",
+      "each_actor_independent": true
+    },
+    "ordinary_service_comparison": {
+      "status": "ILLUSTRATIVE_NON_GOLD_LEGAL_FAMILIES_NOT_SELECTED_OR_PRIVATE_ELIGIBILITY_FACT",
+      "duration_reference": "MMAcurrenthistoricalpolicy:army18monthsfrom2020-06-02;individualfitness/admission/actualdate notcertified",
+      "no_fabricated_exemption_or_PR": true,
+      "early_family": {
+        "entry_witness": "2024-07-01",
+        "nominal_18month_end_witness": "2025-12-31",
+        "excluded_NBA_windows": [
+          "all2024–25",
+          "2025–26untilactualdischarge/return"
+        ],
+        "later_return": "Jan2026earliestnominal;returnloads/UPC/teampermissionseparate",
+        "cost": "Touchesexisting2024/2025NBAselectedmaterial and2026rivaltitlebuild;cannotquietlyselfapproveitsrewrite"
+      },
+      "latest_age27_employment_family": {
+        "actor_birth_1999_limit_year": 2026,
+        "entry_witness": "2026-07-01",
+        "nominal_18month_end_witness": "2027-12-31",
+        "excluded_NBA_windows": [
+          "all2026–27",
+          "2027–28untilactualdischarge/return"
+        ],
+        "major_conflict": "Pcannotperformselected2027MVP72gamesduringordinaryfullservice;conditional2028titleafterreturnnotautomatic",
+        "date_scope": "Thesearecandidatecapacity dates,notcalluporder/guaranteedadmission/officiallastlegallyallowedday;youngerorolderactorageusesownDOB"
+      },
+      "timeline_function": "NBA_service_available(t)=0duringactualordinaryservice+requiredtravel;afterdischargerequiresreturnclearance/load/UPCwindow. ExistingUPCamountsnotrewritten;obligationsandnonbasketballserviceusepointHOLD.",
+      "years_2024_through_2035": [
+        {
+          "year": 2024,
+          "gold_family": "artsfieldNBA+permits+education/volunteeruntil34monthcompletion;completedreserveobligationsasapplicable",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2025,
+          "gold_family": "artsfieldNBA+permits+education/volunteeruntil34monthcompletion;completedreserveobligationsasapplicable",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2026,
+          "gold_family": "artsfieldNBA+permits+education/volunteeruntil34monthcompletion;completedreserveobligationsasapplicable",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2027,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2028,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2029,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2030,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2031,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2032,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2033,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2034,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        },
+        {
+          "year": 2035,
+          "gold_family": "afterlawfulcompletionNBAcontinuitystillsubjectordinaryreserve/travelrulesandUPC",
+          "non_gold_family": "early2024entryaffects2024/2025;age27entryaffects2026/2027;notuninterrupted"
+        }
+      ]
+    },
+    "remaining_use_points": [
+      {
+        "id": "U1",
+        "kind": "MAJOR_UNSELECTED",
+        "description": "Choosepublicresultpathgold/silver/bronze/fourth andassociatedlawfulmilitaryroute;noquestionissuedbythisagent"
+      },
+      {
+        "id": "U2",
+        "kind": "ROUTINE_FICTIONAL_INSTITUTION",
+        "description": "FiniteAG2023NBA/FIBA/Clubpermission/insuranceaccordandentrybeforetechnicalmeeting;nohistoricalprivatecertificategate"
+      },
+      {
+        "id": "U3",
+        "kind": "PRIMARY_NOT_RECOVERED_PRECISE_SCHEDULE",
+        "description": "Specific2023/24artsathleteannualmilitarytrainingclassdate/length;statutorywithin1year/60daycapacityretained,canbeexplicitfictionalroutinecalendarifmajorrouteadopted"
+      },
+      {
+        "id": "U4",
+        "kind": "NEXT_FINITE_GAME_DESIGN_AFTER_MAJOR_SELECTION",
+        "description": "Namedopponentrotation/possession+boxscore/game-dependentresponsibilityandresultwitnessforchosenroute;current200minclockvalidatesallocationonly,notgold"
+      },
+      {
+        "id": "U5",
+        "kind": "ROUTINE_FICTIONAL_LEGAL_EXECUTION",
+        "description": "EachactorMMAadmissiondate,recognized544hours/education/foreignpermitcalendar;currentdatedrulesareactualbodyfacts,butfictionaladministrationnotactualreceipt"
+      }
+    ],
+    "validation": {
+      "source_minutes_games": 7,
+      "roster_actual": 12,
+      "roster_selected": 12,
+      "removed": 2,
+      "new_public_participants_selected": 0,
+      "profiles": 3,
+      "profile_team_minutes": [
+        200,
+        200,
+        200
+      ],
+      "profile_shared_clock_blocks": 60,
+      "options": 4,
+      "option_games": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "option_total_minutes": [
+        1200,
+        1200,
+        1200,
+        1200
+      ],
+      "public_gold_selected": false,
+      "actual_MMA_admission_selected": false,
+      "whole_history_complete": false,
+      "future_legal_continuation": "2023bodydefinesdatedbaseline. Candidate2024–2035projectionassumeslawfulcontinuationofneededservice/permitfields;notcertificationofallfuturelegalamendments. Applyactualknownchangesatconsumedusepointwithoutprivate-allhistorygate.",
+      "actual_context_packs": 0,
+      "manuscript_allowed": false,
+      "design_gate": "CLOSED",
+      "freeze": "v0.30 PARTIAL",
+      "old_source_edits": 0,
+      "old_contract_health_rewrites": 0,
+      "additional_all82_gate": 0
+    }
+  },
+  "previous_reviews_supplied": false,
+  "call": {
+    "duration_seconds": 60.061,
+    "exit_code": 1,
+    "safe_mode": true,
+    "tool_access": false,
+    "stderr": "",
+    "stdout_unparsed": "",
+    "parse_error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "response": null,
+  "independent_primary_source_verification": false,
+  "author_choice_made": false,
+  "actual_Pack": 0,
+  "manuscript_allowed": false
+}
