@@ -1,0 +1,2265 @@
+{
+  "id": "A12_FY26_SELECTED_CORE_ROLE_AND_COST_INPUT_2026_10_08",
+  "status": "FROZEN_PREPARED_INPUT_PENDING_INDEPENDENT_REVIEW_AND_ROOT_COACH_SELECTION",
+  "classification": "ACCEPTED_CONTRACT_INPUT_WITH_TWO_NEW_UNSELECTED_FY26_ROLE_CANDIDATES",
+  "baseline_main": "2e630100bf98e83bff79f8e45314e70d9a0bde1c",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+    "control/G13_CURRENT_FOURTEEN_ACT_DISPOSITION_2026_10_08.json": "38beb37856c3812ed07fcff6f21f60a288c5d1fa89b98a912280a4e6ff9ad349",
+    "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0",
+    "reviews/CHICAGO_2026_NAMED15_CONTRACT_JOIN_G11_REVIEW_2026_10_08.json": "a25ceb23c71f3bfdbe32a77099fea1864b36e6d4c7e14cbdd06a465c83c763a8",
+    "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b",
+    "simulation/A11_F26_SELECTED_ROLE_COST_AND_VIDEO_HANDOFF_2026_10_08.json": "4b7701b8eb0d85f98b207817971e58b3e09879f6ff3446302083ef3e1a25117f",
+    "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79",
+    "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139",
+    "reviews/A11_S2_S3_A12_S1_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "b043a75e612bab25aac338071d2483c21a18efe47b95a8f11bfa316c5958d3fb",
+    "reviews/A12_S2_S3_A13_S1_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "322fb24c682afdfa981e7d1b9e3a5e8dc63d3514594b85ceb583ae6662b9eec5"
+  },
+  "historical_mutable_source_snapshots": {
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": {
+      "commit": "2e630100bf98e83bff79f8e45314e70d9a0bde1c",
+      "historical_full_file_LF_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+      "consumed_scope": "/functions/51..53",
+      "projection_sha256": "abd79624bc775db8540608e47c2ae52f1b6c5e62d0ce2fb486d8bf2edd822180",
+      "unrelated_later_progress_changes_do_not_revoke_this_historical_read": true
+    },
+    "control/G13_CURRENT_FOURTEEN_ACT_DISPOSITION_2026_10_08.json": {
+      "commit": "2e630100bf98e83bff79f8e45314e70d9a0bde1c",
+      "historical_full_file_LF_sha256": "38beb37856c3812ed07fcff6f21f60a288c5d1fa89b98a912280a4e6ff9ad349",
+      "consumed_scope": "/Act_current_dispositions/11",
+      "projection_sha256": "c957b4d286b43044c6977c9fbf183bc2c0baeef7c511bb4447e711c5cfad58c3",
+      "unrelated_later_progress_changes_do_not_revoke_this_historical_read": true
+    }
+  },
+  "source_policy": "Keep original generation flags and scoped historical sources; compare actual A12 literal/function projection. No whole mutable progress SHA loop or new canon/contract decision.",
+  "original_A12": {
+    "act_source": {
+      "path": "design/CP2_ACT_SUBACT_PACKET.json",
+      "json_pointer": "/acts/11",
+      "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+    },
+    "literal_choice": "LaMelo·LaVine·주인공 비용을 함께 감당",
+    "literal_cost": "벤치 깊이·역할·새 계약",
+    "literal_exit": "개인 증명과 팀 실패를 분리, 재대결 자격 재획득",
+    "subacts": [
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/33",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A12-S1",
+        "entry": "같은 동료를 같은 가격으로 묶으려 함",
+        "choice": "같은 동료 전원을 같은 가격으로 유지하겠다는 기대 대신 유지할 사람과 필요한 기능을 분리해 검토한다",
+        "cost": "벤치 깊이와 자기 조건",
+        "exit": "유지할 사람과 기능을 구분"
+      },
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/34",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A12-S2",
+        "entry": "개인 평가로 결함을 덮으려 함",
+        "choice": "개인 평가를 높이려고 불필요한 공 소유를 늘리지 않고 빠른 다음 선택과 동료의 책임 분담을 시험한다",
+        "cost": "불필요한 공 소유",
+        "exit": "속도와 책임의 분산"
+      },
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/35",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A12-S3",
+        "entry": "첫 파이널 다음도 자동 진출이라 봄",
+        "choice": "첫 파이널 후보를 다음 진출의 보장으로 읽지 않고 짧아진 우승 기회에서도 다시 준비한다",
+        "cost": "기다림·재준비",
+        "exit": "재대결을 선지급하지 않음"
+      }
+    ],
+    "no_original_exit_narrowing": true
+  },
+  "existing_qualified_functions": [
+    {
+      "id": "A12-EF-001",
+      "order": 52,
+      "planned_slot_not_published_episode": 648,
+      "register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/51",
+        "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+      },
+      "function": {
+        "path": "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "source_sha256": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79"
+      },
+      "qualified_independent_review": {
+        "path": "reviews/A11_S2_S3_A12_S1_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "",
+        "source_sha256": "b043a75e612bab25aac338071d2483c21a18efe47b95a8f11bfa316c5958d3fb"
+      },
+      "exact_entry": "무볼 관여와 도움 범위의 부족을 다음 역할 준비로 가져가지만 첫 파이널·MIN전 패배·다음 계약은 아직 성립하지 않는다",
+      "choice": "공개 급여 기반으로 실제 전달된 에이전트의 비교 설명에서 자신의 요구와 필요한 기능을 함께 질문하고 유지할 이름과 맡아야 할 역할을 구분해 설명하려 한다",
+      "cost": "개인 평가를 더 높일 반복 시간을 일부 줄여 자기 요구와 필요한 연결·수비 기능을 설명하는 자료를 준비한다",
+      "exact_exit": "자기 요구와 유지할 기능을 함께 설명하지만 새 계약·동료 감액·이적·벤치 구성이 합의되지는 않는다",
+      "CP2_exit": "유지할 사람과 기능을 구분",
+      "generation_pending_flags_preserved": {
+        "classification": "SELECTED_FICTIONAL_LOCAL_FUNCTION_DESIGN_PENDING_INDEPENDENT_REVIEW",
+        "independent_review_completed": false
+      },
+      "current_qualified_scope": "ACCEPTED_LOCAL_FICTIONAL_FUNCTION_NOT_WHOLE_ACT_HISTORY"
+    },
+    {
+      "id": "A12-EF-002",
+      "order": 53,
+      "planned_slot_not_published_episode": 676,
+      "register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/52",
+        "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+      },
+      "function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "qualified_independent_review": {
+        "path": "reviews/A12_S2_S3_A13_S1_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "",
+        "source_sha256": "322fb24c682afdfa981e7d1b9e3a5e8dc63d3514594b85ceb583ae6662b9eec5"
+      },
+      "exact_entry": "자기 요구와 유지할 기능을 함께 설명하지만 새 계약·동료 감액·이적·벤치 구성이 합의되지는 않는다",
+      "choice": "받은 세트와 직접 관측한 동료 움직임 안에서 빠르게 넘길 때와 잠시 위치를 바꿔 연결할 때를 구분하며 자기 속도를 조정해 보려 한다; 받은 역할 안에서 짧은 첫 연결과 다음 수비 위치를 먼저 준비하고 조합에서 관측된 부담을 코치에게 설명하며 허용된 단순 반복을 시험하려 한다",
+      "cost": "익숙한 자기 운반·슛 리듬을 더 반복할 기회를 줄이고 다른 속도에서 패스·재배치를 준비하는 데 시간을 쓴다; 자기 공격을 더 복잡하게 펼칠 기회를 일부 줄이고 다른 동료가 반복할 수 있는 연결·수비 준비에 몸과 시간을 쓴다",
+      "exact_exit": "다른 조합의 준비 부담을 나누는 행동을 시험하지만 벤치의 건강·숙련·전력 보강은 자동 해결되지 않는다",
+      "CP2_exit": "속도와 책임의 분산",
+      "generation_pending_flags_preserved": {
+        "classification": "SELECTED_FICTIONAL_LOCAL_FUNCTION_DESIGN_PENDING_INDEPENDENT_REVIEW",
+        "independent_review_completed": false
+      },
+      "current_qualified_scope": "ACCEPTED_LOCAL_FICTIONAL_FUNCTION_NOT_WHOLE_ACT_HISTORY"
+    },
+    {
+      "id": "A12-EF-003",
+      "order": 54,
+      "planned_slot_not_published_episode": 701,
+      "register": {
+        "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+        "json_pointer": "/functions/53",
+        "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+      },
+      "function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "qualified_independent_review": {
+        "path": "reviews/A12_S2_S3_A13_S1_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+        "json_pointer": "",
+        "source_sha256": "322fb24c682afdfa981e7d1b9e3a5e8dc63d3514594b85ceb583ae6662b9eec5"
+      },
+      "exact_entry": "다른 조합의 준비 부담을 나누는 행동을 시험하지만 벤치의 건강·숙련·전력 보강은 자동 해결되지 않는다",
+      "choice": "자기 수행과 실제 받은 피드백에서 다음에 반복할 연결·재배치 과제를 추려 허용된 다음 준비의 순서를 정하려 한다",
+      "cost": "그동안 반복한 자기 표본을 더 늘리거나 휴식에 쓸 시간 일부를 달라질 역할의 재준비에 쓴다",
+      "exact_exit": "동료별 속도와 조합 부담을 다음 준비로 가져가지만 파이널·재대결·MVP·새 계약을 선지급받지 않는다",
+      "CP2_exit": "재대결을 선지급하지 않음",
+      "generation_pending_flags_preserved": {
+        "classification": "SELECTED_FICTIONAL_LOCAL_FUNCTION_DESIGN_PENDING_INDEPENDENT_REVIEW",
+        "independent_review_completed": false
+      },
+      "current_qualified_scope": "ACCEPTED_LOCAL_FICTIONAL_FUNCTION_NOT_WHOLE_ACT_HISTORY"
+    }
+  ],
+  "accepted_FY26_service_family": {
+    "join": {
+      "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+      "json_pointer": "",
+      "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+    },
+    "independent_peer": {
+      "path": "reviews/CHICAGO_2026_NAMED15_CONTRACT_JOIN_G11_REVIEW_2026_10_08.json",
+      "json_pointer": "",
+      "source_sha256": "a25ceb23c71f3bfdbe32a77099fea1864b36e6d4c7e14cbdd06a465c83c763a8"
+    },
+    "first_available_named15_contract_timestamp_ET": "2026-07-07T12:18:00-04:00",
+    "service_domain": {
+      "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+      "json_pointer": "/admitted_intersection",
+      "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+    },
+    "service_domain_is_not_actual_private_certification": true,
+    "contract_rows15": [
+      {
+        "original_order": 0,
+        "player": "Lauri Markkanen",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "LIVE_EXISTING_2025_UPC_YEAR2",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/0",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPC/salary_by_capyear/2026",
+          "source_sha256": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2025_MARKKANEN_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/execution_scope",
+          "source_sha256": "fc0aaee92e0e6a9874de30f35d03c7fe51597e6372bf1625bffe31d9c34acb07"
+        },
+        "normal_salary_function": 41754690,
+        "apron_salary_function": 41754690,
+        "gross_player_cash_function": 41754690,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 1,
+        "player": "Alex Caruso",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "LIVE_EXISTING_2025_UPC_YEAR2",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/1",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2025_CARUSO_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPC/salary_by_capyear/2026",
+          "source_sha256": "c0e3bfff663f5df7eb62159f5785e327cfe2e8c2b30b00da1ee7f43ee83737bf"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2025_CARUSO_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/admitted_family",
+          "source_sha256": "c0e3bfff663f5df7eb62159f5785e327cfe2e8c2b30b00da1ee7f43ee83737bf"
+        },
+        "normal_salary_function": 20877345,
+        "apron_salary_function": 20877345,
+        "gross_player_cash_function": 20877345,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 2,
+        "player": "Wendell Carter Jr.",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_OWN_BIRD_WC26B",
+        "effective_ET": "2026-07-07T12:06:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/2",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPCs/1",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/original_domain_and_claim_links/1",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "normal_salary_function": 18000000,
+        "apron_salary_function": 18000000,
+        "gross_player_cash_function": 18000000,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 3,
+        "player": "Protagonist",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_OWN_BIRD_P26A",
+        "effective_ET": "2026-07-07T12:04:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/3",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPCs/0",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/original_domain_and_claim_links/0",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "normal_salary_function": "3/10*C26world",
+        "apron_salary_function": "3/10*C26world",
+        "gross_player_cash_function": "3/10*C26world",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 4,
+        "player": "Zach LaVine",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "EXERCISED_EXISTING_2022_UPC_YEAR5",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/4",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_LAVINE_SELECTED_PO_EXECUTION.json",
+          "json_pointer": "/option_year_cost_claim",
+          "source_sha256": "226d256d3e50dbaad535f6413af715e393ea435db2a2b978e4c499a8ed8c03d8"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_LAVINE_SELECTED_PO_EXECUTION.json",
+          "json_pointer": "/selected_notice_domain",
+          "source_sha256": "226d256d3e50dbaad535f6413af715e393ea435db2a2b978e4c499a8ed8c03d8"
+        },
+        "normal_salary_function": 48967380,
+        "apron_salary_function": 48967380,
+        "gross_player_cash_function": 48967380,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 5,
+        "player": "Coby White",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_OWN_BIRD_CW26B",
+        "effective_ET": "2026-07-07T12:08:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/5",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPCs/2",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/original_domain_and_claim_links/2",
+          "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+        },
+        "normal_salary_function": 20000000,
+        "apron_salary_function": 20000000,
+        "gross_player_cash_function": 20000000,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 6,
+        "player": "Chris Duarte",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "LIVE_EXISTING_2025_UPC_YEAR2",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/6",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2025_DUARTE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPC/salary_by_capyear/2026",
+          "source_sha256": "98ae3cee21d48dbe0e102bb4292990d8e99b3b2294748be3d98b66256aa611d0"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2025_DUARTE_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/admitted_service_Bird_min_max_domain",
+          "source_sha256": "98ae3cee21d48dbe0e102bb4292990d8e99b3b2294748be3d98b66256aa611d0"
+        },
+        "normal_salary_function": 12000000,
+        "apron_salary_function": 12000000,
+        "gross_player_cash_function": 12000000,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 7,
+        "player": "Walker Kessler",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_OWN_BIRD_K26A_NOT_QO_ACCEPTANCE",
+        "effective_ET": "2026-07-07T12:02:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/7",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_KESSLER_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_UPC",
+          "source_sha256": "644057c68912d9257eb38990f9bb473204b6277ed85a005d43ebef9fcd5e1f0b"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_KESSLER_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/admitted_service_Bird_min_max_capacity",
+          "source_sha256": "644057c68912d9257eb38990f9bb473204b6277ed85a005d43ebef9fcd5e1f0b"
+        },
+        "normal_salary_function": 12000000,
+        "apron_salary_function": 12000000,
+        "gross_player_cash_function": 12000000,
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 8,
+        "player": "LaMelo Ball",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "LIVE_EXISTING_LM1_EXTENSION_YEAR3",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/8",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/LAMELO_2023_SELECTED_EXTENSION.json",
+          "json_pointer": "/future_salary_branches",
+          "source_sha256": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d"
+        },
+        "legal_domain_source": {
+          "path": "simulation/LAMELO_2023_SELECTED_EXTENSION.json",
+          "json_pointer": "/legal_scope",
+          "source_sha256": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d"
+        },
+        "normal_salary_function": {
+          "ordinary": "29/100*C24_original",
+          "legal_HigherMax_only": "87/250*C24_original",
+          "HigherMax_selected": false
+        },
+        "apron_salary_function": {
+          "ordinary": "29/100*C24_original",
+          "legal_HigherMax_only": "87/250*C24_original",
+          "HigherMax_selected": false
+        },
+        "gross_player_cash_function": {
+          "ordinary": "29/100*C24_original",
+          "legal_HigherMax_only": "87/250*C24_original",
+          "HigherMax_selected": false
+        },
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 9,
+        "player": "Jaime Jaquez Jr.",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "EXERCISED_SAME_2023_RSC_YEAR4",
+        "effective_ET": "2026-07-07T00:00:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/9",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_FY26_JAQUEZ_SELECTED_OPTION_NOTICE.json",
+          "json_pointer": "/selected_notice",
+          "source_sha256": "a774cf7a04aff10660f2ff83539e85b749d0b6b32b159504e1971059bab49323"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_FY26_JAQUEZ_SELECTED_OPTION_NOTICE.json",
+          "json_pointer": "/admitted_calendar_service_delivery_family",
+          "source_sha256": "a774cf7a04aff10660f2ff83539e85b749d0b6b32b159504e1971059bab49323"
+        },
+        "normal_salary_function": "2301/1250*S23(16,3)",
+        "apron_salary_function": "2301/1250*S23(16,3)",
+        "gross_player_cash_function": "2301/1250*S23(16,3)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 10,
+        "player": "Thaddeus Young",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_ONE_SEASON_MIN26_A",
+        "effective_ET": "2026-07-07T12:10:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/10",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/operative_selected_contract_projections/0",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_contracts/0",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "normal_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "apron_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "gross_player_cash_function": "M26(10,1)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 11,
+        "player": "Javonte Green",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_ONE_SEASON_MIN26_A",
+        "effective_ET": "2026-07-07T12:12:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/11",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/operative_selected_contract_projections/1",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_contracts/1",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "normal_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "apron_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "gross_player_cash_function": "M26(7,1)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 12,
+        "player": "Joe Wieskamp",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_ONE_SEASON_MIN26_A",
+        "effective_ET": "2026-07-07T12:14:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/12",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/operative_selected_contract_projections/2",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_contracts/2",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "normal_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "apron_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "gross_player_cash_function": "M26(5,1)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 13,
+        "player": "Denzel Valentine",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_ONE_SEASON_MIN26_A",
+        "effective_ET": "2026-07-07T12:16:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/13",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/operative_selected_contract_projections/3",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_contracts/3",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "normal_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "apron_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "gross_player_cash_function": "M26(10,1)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      },
+      {
+        "original_order": 14,
+        "player": "Tomas Satoransky",
+        "owner": "CHI",
+        "registration_class": "STD",
+        "operative_STD": 1,
+        "TW": 0,
+        "kind": "SELECTED_NEW_ONE_SEASON_MIN26_A",
+        "effective_ET": "2026-07-07T12:18:00-04:00",
+        "accepted_join_row": {
+          "path": "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json",
+          "json_pointer": "/named15/14",
+          "source_sha256": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0"
+        },
+        "operative_contract_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/operative_selected_contract_projections/4",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "legal_domain_source": {
+          "path": "simulation/CHICAGO_2026_FIVE_MINIMUM_SELECTED_RENEWAL_EXECUTION.json",
+          "json_pointer": "/selected_contracts/4",
+          "source_sha256": "94613a454231fd78bf3c3b5dee646e26addc63f6101a0c391ff1d14947551440"
+        },
+        "normal_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "apron_salary_function": "M26(2,1) in common IV6(h)-eligible oneYear family",
+        "gross_player_cash_function": "M26(10,1)",
+        "fiscal_window": [
+          "2026-07-01",
+          "2027-06-30"
+        ],
+        "fiscal_end_is_service_end": false,
+        "original_Gamma_preserved": true,
+        "parallel_same_claim_hold": false,
+        "actual_receipt": null
+      }
+    ],
+    "registration": {
+      "existing_original_UPCs": 6,
+      "new_UPCs": 9,
+      "new_UPC_components": {
+        "Kessler": 1,
+        "ordinary_UFA_core3": 3,
+        "minimum5": 5
+      },
+      "selected_conditional_final_STD": 15,
+      "TW": 0,
+      "original_names_and_owner_order_preserved": true,
+      "actual_NBA_registered15_certified": false,
+      "active_or_game_nomination_selected": false
+    },
+    "salary_and_cash": {
+      "fixed_7_regular_base_subtotal": 173599415,
+      "L26_function": {
+        "ordinary": "29/100*C24_original",
+        "legally_qualified_HigherMax_only": "87/250*C24_original",
+        "HigherMax_selected": false
+      },
+      "J26_function": "2301/1250*S23(16,3)",
+      "after_final_newUPC_named_regular_Salary_function": "173599415+L26(C24_original)+3/10*C26world+2301/1250*S23(16,3)+5*M26(2,1)",
+      "qualified_minimum_reimbursement_condition": "5*M26(2,1) only inside source IV6(h) eligibleoneYear minimum family; full player cash remains eachownM26(y,1), actual refund notpaid/certified on signing.",
+      "after_final_named_gross_player_cash_function": "173599415+L26(C24_original)+3/10*C26world+2301/1250*S23(16,3)+3*M26(10,1)+M26(7,1)+M26(5,1)",
+      "minimum_refund_after_covered_Season_function": "3*M26(10,1)+M26(7,1)+M26(5,1)-5*M26(2,1) under admitted IV6(h), not immediate playercash reduction.",
+      "public_cap_reference_only": {
+        "observed_C26": 164961000,
+        "original_C24_reference": 140588000,
+        "P_reference": 49488300,
+        "LM_references": [
+          40770520,
+          48924624
+        ],
+        "subtotal_excluding_positive_J_and_minimums": [
+          263858235,
+          272012339
+        ],
+        "references_are_whole_numeric_salary_apron_tax_cash_or_worldcap_choice": false
+      },
+      "whole_normal_function": "Named regular Salary + unique_R26_N + unresolved_other_FA_QO_FRN26_N + N26_unsigned_draft + current_exception26_N + statutory_incomplete_or_MTS26_N; each original attributable obligation counted once.",
+      "whole_apron_function": "Named regular Salary + unique_R26_A + unresolved_other_QO_FRN26_A + A26_unsigned_RequiredTender + applicableVII2e_adjustments; ordinaryFA/unusedexception/incompletefaces lawexcluded, not original Gamma.",
+      "whole_gross_cash_function": "Named gross player compensation + unique original contractualcash/schedule + lawfulothercurrentcompensation; refund/tax timing separate.",
+      "R26_N": null,
+      "R26_A": null,
+      "N26": null,
+      "A26": null,
+      "exact_S23_Year3_or_M26_adjusted_table_private_cents_certified": false,
+      "whole_normal_numeric": null,
+      "whole_apron_numeric": null,
+      "whole_tax_numeric": null,
+      "whole_cash_numeric": null
+    },
+    "old_Gamma": {
+      "all_original_protection_accrued_payments_and_attribution_preserved": true,
+      "unique_obligation_pool": "R26_N/R26_A/grosscash aggregate each actual source obligation once, keyed by originalUPC/actor/period/type. Repeated preservation statements in rollover/candidate/selection/review are links to the same obligation, never additive monetary rows.",
+      "parent_Gamma_amounts_are_not_known_zero": true,
+      "same_Gamma_parent_arrays_automatically_summed": false,
+      "current_named15_salary_not_added_again_as_Gamma": true,
+      "incompatible_real_assignment_or_resolution_branch_requires_local_reopen": true
+    },
+    "six_costs": [
+      {
+        "id": "LIVE26",
+        "function": "15 named salary functions after lastsignature above; before eachsignature unsigned sourceclaims persist, no currentFY25annualbase copied asnewUPCs."
+      },
+      {
+        "id": "OLD_GAMMA26",
+        "normal": "Unique_R26_N once",
+        "apron": "Unique_R26_A once",
+        "cash": "Unique original contractualpayment schedule; no allobligations paid atsignature claim.",
+        "amount": null
+      },
+      {
+        "id": "FA_QO_FRN26",
+        "normal": "Nine sameplayer sourceclaims until eachvalidnewUPC once, then no parallel oldclaim; other inherited FA/QO/FRN rights remain.",
+        "apron": "Kessler outstandingQO+Unlikely before12:02; ordinaryUFAfaces excluded; other applicableclaims untouched.",
+        "QO_acceptance_MaximumQO_offerSheet_or_FRN_newselection": false
+      },
+      {
+        "id": "DRAFT26",
+        "normal": "N26 and inherited D24/D25/other liveunsigned-rights lawfunctions, nullnot0.",
+        "apron": "A26 and valid current outstandingRT adjustments, not unsignedRSCface.",
+        "N26": null,
+        "A26": null,
+        "extra_STD_required_at15_before_newUPC": true,
+        "no_all60_UPC_gate": true
+      },
+      {
+        "id": "EXCEPTIONS26",
+        "normal": "Current annual unusedexception amounts until lawfuluse/expiry/validrenounce; no presumedcleanup.",
+        "apron": "Unusedfaceexcluded under law; signed/transactioncharges remain.",
+        "these_new_ownBird_and_minimum_UPCs_new_automatic_hardcap": false,
+        "other_current_trigger_absence_certified": false,
+        "2021_hardcap_automatically_inherited": false
+      },
+      {
+        "id": "ROSTER_FLOOR_TAX_CASH26",
+        "normal": "Statutory capcount/incomplete/MTS/deemed salary rules apply separately; finalSTD15 is not totalSalary certification.",
+        "legal_floor_function": "9/10*C26world",
+        "published_real_floor_display": 148465000,
+        "realcap_90percent_arithmetic_reference": 148464900,
+        "whole_floor_tax_cash_certified": false
+      }
+    ],
+    "same_signature_cost_for_A32_B34": true,
+    "incremental_role_cost_normal_apron_cash": 0,
+    "LaMelo_C24_original_not_rebased": true,
+    "LaVine_original_2022_PO_not_replaced": true,
+    "world_cap_or_HigherMax_new_selection": false
+  },
+  "A11_to_A12_information_handoff": {
+    "source": {
+      "path": "simulation/A11_F26_SELECTED_ROLE_COST_AND_VIDEO_HANDOFF_2026_10_08.json",
+      "json_pointer": "/information_handoff",
+      "source_sha256": "4b7701b8eb0d85f98b207817971e58b3e09879f6ff3446302083ef3e1a25117f"
+    },
+    "accepted_event_order": [
+      {
+        "order": 0,
+        "event": "G1 assigned sharing sample occurs before later help cost."
+      },
+      {
+        "order": 1,
+        "event": "G4 help/rotation cost visible to P in court scope; teammates minds unknown."
+      },
+      {
+        "order": 2,
+        "event": "G6 re-entry error occurs; selected series ends MIN4–2."
+      },
+      {
+        "order": 3,
+        "event": "Next-day2026-06-17 authorized CHI coach/P/LaMelo/LaVine review only own3samples. P marks own early-help and re-entry error."
+      },
+      {
+        "order": 4,
+        "event": "Coach assigns later bounded practice preparation; P spends planned self-evaluation preparation time on help-distance and off-ball spacing correction."
+      },
+      {
+        "order": 5,
+        "event": "At2026July7 accepted P contract/role preparation, link adverse ownsample as motivation; legal price and roster remain separately sourced, not caused uniquely by this film."
+      }
+    ],
+    "own_recording_real_world": false,
+    "information_access": "P own action, visible teammates response, authorized own-game film and delivered coach task. No MIN private budget, rival mind, future outcome foreknowledge.",
+    "June17_2026_to_July7_2026_order": true,
+    "film_unique_cause_of_contract_price": false,
+    "old_EF52_entry_future_flags_are_generation_history_not_current_contract_reversal": true,
+    "old_local_training_observations_relabelled_as_Final_loss": false,
+    "new_FY26_trial_exact_date": null
+  },
+  "role_candidates": [
+    {
+      "id": "A32",
+      "status": "NEW_FY26_COACH_AND_AVAILABILITY_CANDIDATE_NOT_SELECTED",
+      "date": null,
+      "game_id": null,
+      "opponent": null,
+      "contract_family_time_domain": "After all selected July7_2026 UPC signatures, within their valid FY26 service terms; actual trial/game date unselected. July7 contract join is offseason, not a fabricated Regular Season game.",
+      "STD15": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Denzel Valentine",
+        "Tomas Satoransky"
+      ],
+      "TW": 0,
+      "active13_candidate": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Tomas Satoransky"
+      ],
+      "inactive2_candidate": [
+        "Joe Wieskamp",
+        "Denzel Valentine"
+      ],
+      "new_availability_input": {
+        "all_active13_available_for_bounded_window": "FICTIONAL_CANDIDATE_REQUIRES_ROOT_SELECTION",
+        "clinical_record": null,
+        "FY25_health_automatically_carried": false,
+        "authority": "Existing continuous health/season/coach routine delegation, offered for root selection; no new human approval gate or clinical inference."
+      },
+      "court5": 5,
+      "other_active_bench8": 8,
+      "positive11": [
+        "LaMelo Ball",
+        "Zach LaVine",
+        "Protagonist",
+        "Lauri Markkanen",
+        "Wendell Carter Jr.",
+        "Jaime Jaquez Jr.",
+        "Chris Duarte",
+        "Coby White",
+        "Walker Kessler",
+        "Alex Caruso",
+        "Thaddeus Young"
+      ],
+      "zero_minute_active2": [
+        "Javonte Green",
+        "Tomas Satoransky"
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "start_second": 0,
+          "end_second": 120,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/0/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 1,
+          "start_second": 120,
+          "end_second": 240,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/1/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 2,
+          "start_second": 240,
+          "end_second": 360,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/2/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 3,
+          "start_second": 360,
+          "end_second": 480,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/3/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 4,
+          "start_second": 480,
+          "end_second": 600,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/4/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 5,
+          "start_second": 600,
+          "end_second": 720,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/5/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 6,
+          "start_second": 720,
+          "end_second": 840,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/6/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 7,
+          "start_second": 840,
+          "end_second": 960,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/7/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 8,
+          "start_second": 960,
+          "end_second": 1080,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/8/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 9,
+          "start_second": 1080,
+          "end_second": 1200,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/9/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 10,
+          "start_second": 1200,
+          "end_second": 1320,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/10/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 11,
+          "start_second": 1320,
+          "end_second": 1440,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/11/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 12,
+          "start_second": 1440,
+          "end_second": 1560,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/12/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 13,
+          "start_second": 1560,
+          "end_second": 1680,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/13/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 14,
+          "start_second": 1680,
+          "end_second": 1800,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/14/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 15,
+          "start_second": 1800,
+          "end_second": 1920,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/15/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 16,
+          "start_second": 1920,
+          "end_second": 2040,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/16/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 17,
+          "start_second": 2040,
+          "end_second": 2160,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/17/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 18,
+          "start_second": 2160,
+          "end_second": 2280,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/18/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 19,
+          "start_second": 2280,
+          "end_second": 2400,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/19/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 20,
+          "start_second": 2400,
+          "end_second": 2520,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/20/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 21,
+          "start_second": 2520,
+          "end_second": 2640,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Jaime Jaquez Jr.",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/21/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 22,
+          "start_second": 2640,
+          "end_second": 2760,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/22/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 23,
+          "start_second": 2760,
+          "end_second": 2880,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/23/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        }
+      ],
+      "player_seconds": {
+        "LaMelo Ball": 1680,
+        "Zach LaVine": 1800,
+        "Protagonist": 1920,
+        "Lauri Markkanen": 1800,
+        "Wendell Carter Jr.": 1680,
+        "Jaime Jaquez Jr.": 1200,
+        "Chris Duarte": 720,
+        "Coby White": 960,
+        "Walker Kessler": 840,
+        "Alex Caruso": 1200,
+        "Thaddeus Young": 600
+      },
+      "player_minutes": {
+        "LaMelo Ball": 28,
+        "Zach LaVine": 30,
+        "Protagonist": 32,
+        "Lauri Markkanen": 30,
+        "Wendell Carter Jr.": 28,
+        "Jaime Jaquez Jr.": 20,
+        "Chris Duarte": 12,
+        "Coby White": 16,
+        "Walker Kessler": 14,
+        "Alex Caruso": 20,
+        "Thaddeus Young": 10
+      },
+      "position_seconds": {
+        "PG": 2880,
+        "SG": 2880,
+        "SF": 2880,
+        "PF": 2880,
+        "C": 2880
+      },
+      "regulation_seconds": 2880,
+      "player_seconds_total": 14400,
+      "player_minutes_total": 240,
+      "OT_selected": false,
+      "cost_delta_from_A32": {
+        "Protagonist_seconds": 0,
+        "Zach_LaVine_seconds": 0,
+        "other_player_seconds": 0,
+        "all_contract_salary_cash_Gamma_delta": 0
+      },
+      "minutes_do_not_measure_ball_possession_or_efficiency": true,
+      "core_function_constraints": {
+        "LaMelo": "Retain first creator/next-link responsibility and all original PG/SG assignments; 28minutes unchanged. No claim that coach must give him every possession.",
+        "LaVine": "Retain outside receiver/scoring preparation role; A32 30minutes or B34 28minutes. Do not replace his remaining role with P as sole scorer.",
+        "Protagonist": "Proposed extra B34 SG120seconds: short first link, off-ball reposition and assigned corner-return work within common5, not extra dribble/shot quota, title/award or certified faster performance.",
+        "new_role_success_already_observed": false,
+        "economic_paycut_to_fund_minutes": false
+      }
+    },
+    {
+      "id": "B34",
+      "status": "NEW_FY26_COACH_AND_AVAILABILITY_CANDIDATE_NOT_SELECTED",
+      "date": null,
+      "game_id": null,
+      "opponent": null,
+      "contract_family_time_domain": "After all selected July7_2026 UPC signatures, within their valid FY26 service terms; actual trial/game date unselected. July7 contract join is offseason, not a fabricated Regular Season game.",
+      "STD15": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Joe Wieskamp",
+        "Denzel Valentine",
+        "Tomas Satoransky"
+      ],
+      "TW": 0,
+      "active13_candidate": [
+        "Lauri Markkanen",
+        "Alex Caruso",
+        "Wendell Carter Jr.",
+        "Protagonist",
+        "Zach LaVine",
+        "Coby White",
+        "Chris Duarte",
+        "Walker Kessler",
+        "LaMelo Ball",
+        "Jaime Jaquez Jr.",
+        "Thaddeus Young",
+        "Javonte Green",
+        "Tomas Satoransky"
+      ],
+      "inactive2_candidate": [
+        "Joe Wieskamp",
+        "Denzel Valentine"
+      ],
+      "new_availability_input": {
+        "all_active13_available_for_bounded_window": "FICTIONAL_CANDIDATE_REQUIRES_ROOT_SELECTION",
+        "clinical_record": null,
+        "FY25_health_automatically_carried": false,
+        "authority": "Existing continuous health/season/coach routine delegation, offered for root selection; no new human approval gate or clinical inference."
+      },
+      "court5": 5,
+      "other_active_bench8": 8,
+      "positive11": [
+        "LaMelo Ball",
+        "Zach LaVine",
+        "Protagonist",
+        "Lauri Markkanen",
+        "Wendell Carter Jr.",
+        "Jaime Jaquez Jr.",
+        "Chris Duarte",
+        "Coby White",
+        "Walker Kessler",
+        "Alex Caruso",
+        "Thaddeus Young"
+      ],
+      "zero_minute_active2": [
+        "Javonte Green",
+        "Tomas Satoransky"
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "start_second": 0,
+          "end_second": 120,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/0/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 1,
+          "start_second": 120,
+          "end_second": 240,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Protagonist",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/1/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 2,
+          "start_second": 240,
+          "end_second": 360,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/2/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 3,
+          "start_second": 360,
+          "end_second": 480,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/3/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 4,
+          "start_second": 480,
+          "end_second": 600,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/4/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 5,
+          "start_second": 600,
+          "end_second": 720,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/5/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 6,
+          "start_second": 720,
+          "end_second": 840,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/6/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 7,
+          "start_second": 840,
+          "end_second": 960,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/7/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 8,
+          "start_second": 960,
+          "end_second": 1080,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/8/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 9,
+          "start_second": 1080,
+          "end_second": 1200,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/9/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 10,
+          "start_second": 1200,
+          "end_second": 1320,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/10/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 11,
+          "start_second": 1320,
+          "end_second": 1440,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/11/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 12,
+          "start_second": 1440,
+          "end_second": 1560,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/12/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 13,
+          "start_second": 1560,
+          "end_second": 1680,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/13/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 14,
+          "start_second": 1680,
+          "end_second": 1800,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/14/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 15,
+          "start_second": 1800,
+          "end_second": 1920,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Lauri Markkanen",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/15/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 16,
+          "start_second": 1920,
+          "end_second": 2040,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/16/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 17,
+          "start_second": 2040,
+          "end_second": 2160,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Protagonist",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/17/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 18,
+          "start_second": 2160,
+          "end_second": 2280,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/18/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 19,
+          "start_second": 2280,
+          "end_second": 2400,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Alex Caruso",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/19/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 20,
+          "start_second": 2400,
+          "end_second": 2520,
+          "positions": {
+            "PG": "Alex Caruso",
+            "SG": "Coby White",
+            "SF": "Chris Duarte",
+            "PF": "Lauri Markkanen",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/20/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 21,
+          "start_second": 2520,
+          "end_second": 2640,
+          "positions": {
+            "PG": "Coby White",
+            "SG": "Jaime Jaquez Jr.",
+            "SF": "Protagonist",
+            "PF": "Thaddeus Young",
+            "C": "Walker Kessler"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/21/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 22,
+          "start_second": 2640,
+          "end_second": 2760,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Jaime Jaquez Jr.",
+            "PF": "Protagonist",
+            "C": "Thaddeus Young"
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/22/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        },
+        {
+          "index": 23,
+          "start_second": 2760,
+          "end_second": 2880,
+          "positions": {
+            "PG": "LaMelo Ball",
+            "SG": "Zach LaVine",
+            "SF": "Protagonist",
+            "PF": "Lauri Markkanen",
+            "C": "Wendell Carter Jr."
+          },
+          "clock_grammar_source": {
+            "path": "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json",
+            "json_pointer": "/blocks/23/CHI",
+            "source_sha256": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b"
+          },
+          "new_FY26_coach_assignment_candidate": true,
+          "historical_stint": false
+        }
+      ],
+      "player_seconds": {
+        "LaMelo Ball": 1680,
+        "Zach LaVine": 1680,
+        "Protagonist": 2040,
+        "Lauri Markkanen": 1800,
+        "Wendell Carter Jr.": 1680,
+        "Jaime Jaquez Jr.": 1200,
+        "Chris Duarte": 720,
+        "Coby White": 960,
+        "Walker Kessler": 840,
+        "Alex Caruso": 1200,
+        "Thaddeus Young": 600
+      },
+      "player_minutes": {
+        "LaMelo Ball": 28,
+        "Zach LaVine": 28,
+        "Protagonist": 34,
+        "Lauri Markkanen": 30,
+        "Wendell Carter Jr.": 28,
+        "Jaime Jaquez Jr.": 20,
+        "Chris Duarte": 12,
+        "Coby White": 16,
+        "Walker Kessler": 14,
+        "Alex Caruso": 20,
+        "Thaddeus Young": 10
+      },
+      "position_seconds": {
+        "PG": 2880,
+        "SG": 2880,
+        "SF": 2880,
+        "PF": 2880,
+        "C": 2880
+      },
+      "regulation_seconds": 2880,
+      "player_seconds_total": 14400,
+      "player_minutes_total": 240,
+      "OT_selected": false,
+      "cost_delta_from_A32": {
+        "Protagonist_seconds": 120,
+        "Zach_LaVine_seconds": -120,
+        "other_player_seconds": 0,
+        "all_contract_salary_cash_Gamma_delta": 0
+      },
+      "minutes_do_not_measure_ball_possession_or_efficiency": true,
+      "explicit_patch": {
+        "source_candidate": "A32",
+        "block_index": 1,
+        "interval_seconds": [
+          120,
+          240
+        ],
+        "position": "SG",
+        "old_actor": "Zach LaVine",
+        "new_actor": "Protagonist",
+        "unchanged_blocks": 23,
+        "all_other_positions_unchanged": true,
+        "positive_bench8_minutes_unchanged": true,
+        "same_five_unique_actors_in_changed_block": true,
+        "patch_is_new_proposed_FY26_assignment_not_past_actual_stint": true
+      },
+      "core_function_constraints": {
+        "LaMelo": "Retain first creator/next-link responsibility and all original PG/SG assignments; 28minutes unchanged. No claim that coach must give him every possession.",
+        "LaVine": "Retain outside receiver/scoring preparation role; A32 30minutes or B34 28minutes. Do not replace his remaining role with P as sole scorer.",
+        "Protagonist": "Proposed extra B34 SG120seconds: short first link, off-ball reposition and assigned corner-return work within common5, not extra dribble/shot quota, title/award or certified faster performance.",
+        "new_role_success_already_observed": false,
+        "economic_paycut_to_fund_minutes": false
+      }
+    }
+  ],
+  "role_recommendation": {
+    "recommendation": "A32 baseline plus B34 bounded comparison for root choice; retain all same contracts and bench. B34 may test extra responsibility, but 34 minutes is not evidence of less ball holding or improvement.",
+    "selected_role": null,
+    "coach_authority_selected_for_FY26": false,
+    "new_FY26_health_selected": false,
+    "candidate_B34_shift_source": "New explicit routine coach proposal: block1 SG LV→P, 120 seconds; no observed stint or existing selection overwritten.",
+    "price_discount_or_core_departure_proposed": false,
+    "root_intended_comparison": "Root stated B34 is intended recommendation for comparison/peer then later separate adoption; this prepared file does not itself select B34.",
+    "P_extra_two_minutes_cost": "P accepts proposed 120seconds additional assigned link/return work and corresponding workload, while LV loses120seconds court opportunity. Rest/recovery and handling opportunity remain explicit tradeoffs; medical health, skill gain and efficiency not inferred."
+  },
+  "finite_ports": [
+    {
+      "id": "S1_NAME_VERSUS_FUNCTION",
+      "CP2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/33",
+        "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+      },
+      "accepted_local_function": {
+        "path": "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/2",
+        "source_sha256": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79"
+      },
+      "already_supported": "EF52 delivered public-condition agent explanation and own request/function distinction; current accepted Jul7 named15 supplies lawful selected contracts and unchanged core costs. No new salary concession.",
+      "next_finite_input": "Root chooses one FY26 coach role family, then assigns P a bounded own-film/current-contract comparison: retained person, next-link function, corner/help-return worker, and own demand in separate columns. Team/agent authority remains separate. This packet prepares input; it does not assert that this follow-up briefing has happened.",
+      "authority": "Coach allocates court work; P explains own request; agent may deliver public conditions, cannot approve teammate contracts or speak their minds. Accepted UPCs arise from their existing bilateral fictional selections.",
+      "cost": "Preparation time and allocation of existing bench work; B34 shifts two LV minutes to P rather than lowering LV pay or promising deeper bench.",
+      "selected_FY26_observation": false
+    },
+    {
+      "id": "S2_SPEED_AND_RESPONSIBILITY",
+      "CP2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/34",
+        "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+      },
+      "accepted_local_function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/0",
+        "source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "already_supported": "EF53 V1/V2 local two-combination observation, with short link, off-ball move and corner return. A32/B34 now provide named legal-service/capacity inputs.",
+      "next_finite_input": "After root coach/availability choice, use a bounded authorized two-combination task and inspect own extra carry versus short link and assigned corner return. Observe teammates visible stop/change-of-direction and next link; no scored basket or improved efficiency required or awarded by this packet.",
+      "authority": "Only delivered coach task/own action/visible response and authorized own film. More P minutes alone do not prove faster choices or lower possession.",
+      "cost": "Own dribble/shoot repetition and recovery time spent on passing/repositioning; B34 adds two workload minutes to P and removes two from LV, with bench unchanged.",
+      "selected_FY26_observation": false
+    },
+    {
+      "id": "S3_AND_WHOLE_ACT_ROUTE",
+      "CP2": {
+        "path": "design/CP2_ACT_SUBACT_PACKET.json",
+        "json_pointer": "/subacts/35",
+        "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+      },
+      "accepted_local_function": {
+        "path": "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+        "json_pointer": "/functions/1",
+        "source_sha256": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139"
+      },
+      "already_supported": "EF54 bounded feedback/retry and refusal to prepay a rematch; selected F26 loss/own film supplies motivation, not automatic next qualification.",
+      "next_finite_input": "A later separately selected bounded season/qualification route needed for original Act exit rematch qualification. Dates, scores, awards, Finals rematch and title remain unselected. No repeated nine-contract or all82/all30 private audit is required to choose a small role trial.",
+      "authority": "Existing season delegation may prepare a route; this packet does not select it.",
+      "cost": "Waiting/re-preparation remains.",
+      "selected_FY26_observation": false
+    }
+  ],
+  "port_counts": {
+    "existing_qualified_local_functions": 3,
+    "accepted_contract_rows": 15,
+    "new_role_candidates": 2,
+    "new_FY26_selection_observation_ports": 2,
+    "later_Act_route_port": 1,
+    "whole_Act_exit_completed_by_this_packet": 0
+  },
+  "primary_active_roster_rule": {
+    "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+    "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "physical_pdf_page": 453,
+    "printed_page": 429,
+    "text_sha256": "9da339767ac6d4e7bd545030bfda4e31576058d367a326c9ec6459575a56fcc9",
+    "section": "XXIX1–2",
+    "direct_read_result": "12–15 active, minimum8 bench for Regular Season; aggregate14/15 operative roster. Both new candidates nominate13 active, court5+other8, inactive2. July7 offseason contract list and later day nomination are separate.",
+    "actual_bench_availability_or_medical_record": null
+  },
+  "actual_static_checks": [
+    {
+      "check": "FY26 join12 and A11 film6 declared physical source pins",
+      "result": "PASS",
+      "declared_pin_comparisons": 18,
+      "unique_source_files": 18
+    },
+    {
+      "check": "FY26 join peer and two local function root peers source-pinned acceptance",
+      "result": "PASS"
+    },
+    {
+      "check": "15 exact CHI identities, operative contractual and FY25/FY26/admission pointers",
+      "result": "PASS",
+      "contract_rows": 15,
+      "resolved_pointers": 60
+    },
+    {
+      "check": "A12 EF52–54 exact register/source identity, entry/choice/cost/exit and handoff",
+      "result": "PASS",
+      "rows": 3
+    },
+    {
+      "check": "Two independent new candidate clock sums/unique court5/13+2 partition/unchanged bench and salary",
+      "result": "PASS",
+      "candidate_rows": 2,
+      "blocks": 48,
+      "position_cells": 240,
+      "minutes_each": 240,
+      "B34_single_changed_block": 1,
+      "A32_P_LM_LV_minutes": [
+        32,
+        28,
+        30
+      ],
+      "B34_P_LM_LV_minutes": [
+        34,
+        28,
+        28
+      ]
+    },
+    {
+      "check": "B34 explicit one-block SG patch: 23 unchanged blocks, four other positions and every bench actor unchanged; LM28/LV28 function constraints",
+      "result": "PASS",
+      "mutation_trials": 0
+    }
+  ],
+  "test_accounting": {
+    "constructor_mutations": 0,
+    "writer_checks_are_independent_peer": false,
+    "new_contract_producer_reruns": 0,
+    "new_external_source_searches": 0
+  },
+  "limits": {
+    "root_coach_or_health_choice_by_this_packet": false,
+    "actual_NBA_stints_scores_efficiency_awards_or_82_results": false,
+    "future_MVP_first_CHI_title_receiver_retirement_or_rematch_selected": false,
+    "whole_FY26_numeric_cost_or_private_receipts_certified": false,
+    "whole_A12_G13_G14": false,
+    "existing_contracts_or_function_beats_rewritten": false,
+    "actual_Context_Packs": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED"
+  },
+  "progress": [
+    {
+      "stage": 1,
+      "label": "2020 드래프트 연쇄",
+      "status": "완료"
+    },
+    {
+      "stage": 2,
+      "label": "2020–21 세계·시즌",
+      "status": "완료"
+    },
+    {
+      "stage": 3,
+      "label": "2021–23 계약·선택시즌",
+      "status": "완료"
+    },
+    {
+      "stage": 4,
+      "label": "장기 커리어·막 출구",
+      "status": "진행"
+    },
+    {
+      "stage": 5,
+      "label": "G13 사건·기능·최종배치",
+      "status": "미완료"
+    },
+    {
+      "stage": 6,
+      "label": "집필규격·Context Pack",
+      "status": "미완료"
+    },
+    {
+      "stage": 7,
+      "label": "통합·독립·최종승인",
+      "status": "CLOSED"
+    }
+  ],
+  "unfinished_stages": 4,
+  "through_stage6_unfinished": 3
+}

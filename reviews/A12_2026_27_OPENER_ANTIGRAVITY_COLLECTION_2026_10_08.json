@@ -1,0 +1,69 @@
+{
+  "tool": "Antigravity",
+  "scope": "READ_ONLY_OPENING_DATE_EXTRACTION",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 44.362,
+    "stdout_sha256": "c05acf31d68a3cc5e3a3c5ff2da500f0db374cac5c7a9aa5ddee59979a1128de",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "parsed_stream": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "20b376b2-cf46-4f00-8166-604f8e0fb3d2",
+      "status": "SUCCESS",
+      "response": "Body unavailable. Bulls 2026-27 regular-season opening date, opponent, and arena are unavailable.\n",
+      "duration_seconds": 31.9753294,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 21,
+        "tool_output_sha256": "3256cbf90ca240236ed2cfd4b5286fcfa5e9a0628899ce55a3ed93d89a4b62ee"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "c05acf31d68a3cc5e3a3c5ff2da500f0db374cac5c7a9aa5ddee59979a1128de",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "Body unavailable. Bulls 2026-27 regular-season opening date, opponent, and arena are unavailable.\n",
+      "char_count": 98,
+      "sha256": "a649e0474b5b4a86eabc3623f8877828a5e6765ee7c71d044f28554fac2cc187",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "raw_stream_local_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-a12-opener\\agy_stream.jsonl",
+  "same_primary_issuer_not_independent_evidence": true,
+  "all_MCP_servers_certified": false,
+  "actual_rosters_or_2026_champion_copied": false
+}
