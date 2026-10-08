@@ -1,0 +1,50 @@
+{
+  "url": "https://stats.nba.com/stats/leaguegamelog?Counter=0&DateFrom=&DateTo=&Direction=DESC&LeagueID=00&PlayerOrTeam=T&Season=2022-23&SeasonType=Regular%20Season&Sorter=DATE",
+  "source_kind": "OFFICIAL_PUBLIC_NBA_STATS_BATCH_CANDIDATE",
+  "purpose": "Historicalscore/resultvariance reference only; counterfactual residual not selected",
+  "HTTP_status": 200,
+  "body_obtained": true,
+  "at": "2026-10-09",
+  "timeout_seconds": 12,
+  "actual_residual_executed": false,
+  "raw_sha256": "391862ab046a01dcdb399075f8616b3364a6ceb86559adf473f77d2830a635d1",
+  "bytes": 390234,
+  "result_sets": [
+    {
+      "name": "LeagueGameLog",
+      "headers": [
+        "SEASON_ID",
+        "TEAM_ID",
+        "TEAM_ABBREVIATION",
+        "TEAM_NAME",
+        "GAME_ID",
+        "GAME_DATE",
+        "MATCHUP",
+        "WL",
+        "MIN",
+        "FGM",
+        "FGA",
+        "FG_PCT",
+        "FG3M",
+        "FG3A",
+        "FG3_PCT",
+        "FTM",
+        "FTA",
+        "FT_PCT",
+        "OREB",
+        "DREB",
+        "REB",
+        "AST",
+        "STL",
+        "BLK",
+        "TOV",
+        "PF",
+        "PTS",
+        "PLUS_MINUS",
+        "VIDEO_AVAILABLE"
+      ],
+      "rows": 2460
+    }
+  ],
+  "archive_note": "원취득시 실제잔차실행false 영수증 그대로; 후행작가가상B선택과 실제NBA원자료를 구분한다."
+}

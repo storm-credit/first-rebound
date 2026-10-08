@@ -1,0 +1,264 @@
+{
+  "id": "THREEPEAT_2023_PUBLIC_RESIDUAL_INDEPENDENT_REVIEW_2026_10_09",
+  "status": "PASS_SCOPED_CANDIDATE_COMPUTATION_AND_BOUNDARY_REVIEW_NOT_SELECTED",
+  "reviewer": "lc1_late_contracts",
+  "reviewed_UTC": "2026-10-08T18:49:15.419557+00:00",
+  "independent_review_completed": true,
+  "producer_files_edited": false,
+  "source_hash_method": "UTF8 text normalized LF without BOM; binary NBA/PDF use raw bytes",
+  "checked_input_sha256": {
+    "simulation/THREEPEAT_2023_PUBLIC_RESIDUAL_MODEL_CANDIDATES_2026_10_09.json": "704b23773a53d8b27cfae9191a907fd9f891e986bc5ab2a44e360f27920c0d52",
+    "simulation/THREEPEAT_2023_PUBLIC_RESIDUAL_MODEL_CANDIDATES_2026_10_09.md": "a66acd6e4b1a7fc1b108435a7f4e2faa23ff744d80791ecc11771cff1258e32a"
+  },
+  "checked_source_sha256": {
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "simulation/THREEPEAT_2023_ACCELERATED_GROWTH_AND_ROLE_DESIGN_2026_10_09.json": "bc7a979c6fff39ea0ee83458c75980f87ea5a03c361a9de7516a04be47097dc2",
+    "simulation/THREEPEAT_2023_ACCELERATED_GROWTH_AND_ROLE_DESIGN_2026_10_09.md": "24c796f36420a6cf0abb7731176b89547da3278bbb954eb50f566c15512079e6",
+    "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
+    "tools/build_2022_23_standings_and_2023_playin.py": "36c8e3fa3e8c77120adf41c6727f7c52a0d0450e77f494df31265256bbaccb12",
+    "simulation/NBA_2023_DRAFT_ORIGIN_ORDER.json": "e51f36a83e8961aa2d81cd342cce812f91353427cb26999e9bb0cd56275d4320",
+    "research/CHICAGO_2023_FIRST_ROUND_SLOT_16_2026_10_08.json": "abbcdaaa6ff14d277f88d47fa600320fc6458ec4b057e5a7b73b414b6fbabf30",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2"
+  },
+  "source_epoch_boundary": {
+    "growth_27_ancestor_pins": "Previously reviewed immutable Git7171245e06ff891b17bc2e87d1a01f1238d3650d; not represented here as current central-live hashes.",
+    "current_review": "This residual producer frozen704b generation and its eight listed inputs. No historic review retroactively repinned or promoted."
+  },
+  "method": "Direct raw NBA JSON decoding and exact Fraction recomputation; own paired records/two-team tie ratios and ordering. No producer constructor run or mutable inputs edited. Cached 2019 Bylaws physical86 independently extracted with PyMuPDF. No network retrieval claimed.",
+  "primary_observations": {
+    "NBA": {
+      "path": "Temp/fr-threepeat-2023-public-variance/leaguegamelog-response.bin",
+      "raw_SHA256": "391862ab046a01dcdb399075f8616b3364a6ceb86559adf473f77d2830a635d1",
+      "bytes": 390234,
+      "HTTP200": "Existing retrieval receipt only; no new request in this review.",
+      "metadata_path": "Temp/fr-threepeat-2023-public-variance/retrieval.json",
+      "metadata_raw_SHA256": "131bfbdce32912b09d00c476e11de02caeb821c642012b04c5e21287edf466cd",
+      "team_rows": 2460,
+      "paired_games": 1230,
+      "pair_checks": [
+        "exactly two opposing teams",
+        "same date and team MIN",
+        "opposing PLUS_MINUS equals PTS difference",
+        "one actual W and L per game"
+      ],
+      "regulation_pairs": 1151,
+      "OT_pairs": 79,
+      "actual_CHI_record": {
+        "wins": 40,
+        "losses": 42
+      },
+      "actual_CHI_regulation_games": 75,
+      "actual_CHI_OT_games": 7,
+      "MIN_is_team_aggregate_not_P_personal": true
+    },
+    "draft_rule": {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-2019-bylaws.pdf",
+      "raw_SHA256": "6accb3d9633e15e8559d13228c27ae7b3b0b81eac0894050b06256eea6da3464",
+      "physical_page": 86,
+      "printed_page": 77,
+      "page_text_utf8_SHA256": "b39fe3c49719251a389390384fe243b457b50716a1f456c7e34f8771d07093f0",
+      "actual_extract_checked": true,
+      "limited_support": "7.02(a)(iii) nonlottery inverse consolidated records, (b) second round inverse all records, (c) first-round draft ties use drawing. A 2019 source, not a newly obtained 2023 publication."
+    }
+  },
+  "reference_reproduction": {
+    "all30_regulation_counts_sums_and_exact_means_match": true,
+    "home_regulation_count": 1151,
+    "CHI_regulation_mean": "112/75",
+    "home_reference_fraction": "1744966634542207/672252716109975",
+    "uncentered75CHI_residual_mean_fraction": "-1698358392843487/9603610230142500",
+    "centered75_sum": "0",
+    "population_variance_fraction": "3758740381364440742235860541355750051/18076948572689545635851780025000000",
+    "population_SD": 14.41977897555075,
+    "different_observation": "Raw actual75 margin sample SD15.29473795162928 is a different statistic, not residual population SD.",
+    "fullseason_retrospective_reference_only": true,
+    "formal_home_not_identified_causal_geographical_home_effect": true
+  },
+  "common82_reproduction": {
+    "unique_GAME_ID_and_calendar_key_join": 82,
+    "date_home_away_opponent_match_raw_and_baseline": true,
+    "raw_index_and_baseline_pointer_match": true,
+    "phase_counts": {
+      "G23_EARLY": 36,
+      "G23_MIDDLE": 41,
+      "G23_LATE": 5
+    },
+    "exact_growth_proxy_and_unchanged_opponent_proxy_match": true,
+    "exact_home_and_B2B_effect_match": true,
+    "zero_variance_formula": "newCHIproxy - oldopponentproxy + CHIoriented originalhomeeffect + (opponentB2B-CHIB2B)/2",
+    "regulation75_exact_same_day_residual_matches": true,
+    "OT7_actual_regulation_margin_and_residuals_null": true,
+    "actual_OT_final_score_not_consumed": true,
+    "reference_home_intercept_not_added_again": true,
+    "growth_total_proxy_not_added_again_as_separate_shared_role_bonus": true
+  },
+  "deterministic_OT_reproduction": {
+    "B_draws": 7,
+    "pool": "75 actual CHI MIN240 rows sorted GAME_DATE then GAME_ID",
+    "hash_input": "FR_THREEPEAT_2023_OT_EMPIRICAL_V1|rawSHA|targetGAME_ID",
+    "algorithm": "SHA256 first8 bytes bigendian integer mod75; with replacement",
+    "all7_key_hash_integer_index_source_GAME_ID_and_exact_residual_match": true,
+    "pool_mean": "0",
+    "seven_draw_realized_mean_not_forced_zero": true,
+    "redraw_rescale_recenter_in_saved_algorithm": false,
+    "unobserved_search_history_certified": false
+  },
+  "candidate_reproduction": [
+    {
+      "id": "A_NEUTRAL_OT",
+      "classification": "UNSELECTED_FICTION_ASSUMPTION",
+      "exact_override_rows_checked": 82,
+      "CHI_record": {
+        "wins": 55,
+        "losses": 27
+      },
+      "regulation_reference_wins": 48,
+      "OT_reference_wins": 7,
+      "paired_baseline_winner_changes": 33,
+      "baseline_reused_nonCHI_games": 1148,
+      "total_games": 1230,
+      "teams": 30,
+      "GP_each": 82,
+      "league_wins": 1230,
+      "league_losses": 1230,
+      "paired_delta_sum": 0,
+      "all_records_match": true,
+      "all30_seed_rows_match": true,
+      "tie_trace_all_exact_ratio_values_match": true,
+      "division_winners_match": true,
+      "conditional_R1_opponent": "BOS",
+      "conditional_R1_home_court": "BOS",
+      "CHI_regular_seed": 5,
+      "CHI_own_first_origin": 21,
+      "WAS_held_CHI_second_unadjusted_overall_origin": 51,
+      "draft_rank_reason": "No CHI equal-record team; all strictly higher win teams are direct top6, so unrelated play-in/lottery outcomes cannot move this own slot. Inverse regular-record ranks are not championship finish ranks.",
+      "draft_final_number_after_forfeitures_certified": false,
+      "new_Jaquez_availability_or_acquisition_certified": false,
+      "actual_points_and_personal_health_stats_null": true,
+      "counterfactual_OT_periods": 0
+    },
+    {
+      "id": "B_EMPIRICAL_OT",
+      "classification": "UNSELECTED_FICTION_ASSUMPTION",
+      "exact_override_rows_checked": 82,
+      "CHI_record": {
+        "wins": 52,
+        "losses": 30
+      },
+      "regulation_reference_wins": 48,
+      "OT_reference_wins": 4,
+      "paired_baseline_winner_changes": 32,
+      "baseline_reused_nonCHI_games": 1148,
+      "total_games": 1230,
+      "teams": 30,
+      "GP_each": 82,
+      "league_wins": 1230,
+      "league_losses": 1230,
+      "paired_delta_sum": 0,
+      "all_records_match": true,
+      "all30_seed_rows_match": true,
+      "tie_trace_all_exact_ratio_values_match": true,
+      "division_winners_match": true,
+      "conditional_R1_opponent": "PHI",
+      "conditional_R1_home_court": "PHI",
+      "CHI_regular_seed": 6,
+      "CHI_own_first_origin": 20,
+      "WAS_held_CHI_second_unadjusted_overall_origin": 50,
+      "draft_rank_reason": "No CHI equal-record team; all strictly higher win teams are direct top6, so unrelated play-in/lottery outcomes cannot move this own slot. Inverse regular-record ranks are not championship finish ranks.",
+      "draft_final_number_after_forfeitures_certified": false,
+      "new_Jaquez_availability_or_acquisition_certified": false,
+      "actual_points_and_personal_health_stats_null": true,
+      "counterfactual_OT_periods": 0
+    }
+  ],
+  "material_findings": [],
+  "repair_required_for_reviewed_scope": false,
+  "model_assumptions_and_bias_disposition": [
+    {
+      "id": "L1",
+      "pointer": "/classification_boundary",
+      "risk": "Actual roster, injuries, trades, tactics, adaptation and measurement are mixed into residuals; same-day transfer to a changed roster is not exogenous causal noise.",
+      "disposition": "Already explicitly an author fiction assumption; keep it as selected model if adopted, not observed counterfactual.",
+      "material_computation_defect": false
+    },
+    {
+      "id": "L2",
+      "pointer": "/reference_estimation",
+      "risk": "Fullseason means and centered pool use future schedule observations and real CHI performance. They are retrospective reference information, not prospective estimation or P foreknowledge.",
+      "disposition": "Reference-only author access is explicit; no out-of-sample prediction or personal knowledge claim accepted.",
+      "material_computation_defect": false
+    },
+    {
+      "id": "L3",
+      "pointer": "/candidates/0/OT_policy",
+      "risk": "Neutral missing residual eliminates seven days of variability and strong CHI wins all seven; A can be favorable by missing-variance treatment.",
+      "disposition": "Accepted as a declared simple candidate, not neutral expected-outcome evidence.",
+      "material_computation_defect": false
+    },
+    {
+      "id": "L4",
+      "pointer": "/candidates/1/OT_policy",
+      "risk": "Unconditional regulation pool does not identify the distribution conditional on actual close/OT days, and actual OT day labels need not persist in the new world. Fixed hash is one reproducible realization, not seven independent observational samples.",
+      "disposition": "Producer acknowledges distribution-transfer assumption; B recommendation covers missing variation only. No causal/forecast PASS.",
+      "material_computation_defect": false
+    },
+    {
+      "id": "L5",
+      "pointer": "/comparison",
+      "risk": "One NBA-reference-point to one proxy-margin-unit is unfitted; other1148 fixed outcomes can create extreme NPC records. Coretotal proxies already include role effects.",
+      "disposition": "No extra home intercept/core bonus; scale1 is declared fiction. 30record coherence is not calibrated league realism.",
+      "material_computation_defect": false
+    },
+    {
+      "id": "L6",
+      "pointer": "/draft_and_tiebreak_source_limits",
+      "risk": "Old CHI16/Jaquez availability witness no longer proves acquisition at20/21; existing tie eligible10 source is a later crosscheck, not fresh2023 publication.",
+      "disposition": "Explicit existing finite downstream rights/scale port retained; no historical MIA18 guarantee, no new all82/private termination gate.",
+      "material_computation_defect": false
+    }
+  ],
+  "external_Claude_disposition": {
+    "path": "reviews/THREEPEAT_2023_CLAUDE_VARIANCE_REBUTTAL_2026_10_09.json",
+    "LF_SHA256": "32e2b3174a5b32b6d578550363559fe1e9b80b71f3f6a30a77083d6e11244541",
+    "actual_status": "NOT_COMPLETED",
+    "timed_out": true,
+    "timeout_seconds": 60,
+    "elapsed_seconds": 60.06454319995828,
+    "answer_empty": true,
+    "used_as_PASS_or_primary_evidence": false,
+    "external_rebuttal_completed": false
+  },
+  "scope_verdict": {
+    "accepted": "Exact arithmetic, official raw reference joins, deterministic declared residual model, reciprocal outcomes/standings/own-pick consequences, and honest classifications of both unselected candidates.",
+    "not_accepted_as_certificate": [
+      "out-of-sample forecast",
+      "causal identification of alternative-world residuals",
+      "true independent random day disturbances",
+      "personal performance/BPM/clinical history",
+      "series/title/MVP/FMVP results",
+      "new rookie rights or availability",
+      "whole league realism",
+      "current author/root adoption",
+      "whole history LOCK/G13/G14/Blueprint/Pack or group6 completion"
+    ],
+    "B_recommendation": "Reasonable narrow coverage recommendation because unknown seven OT-reference days retain variance; it is not evidence B predicts better or proves intended titles. Neither candidate selected by this independent review."
+  },
+  "gates_preserved": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "whole_selected_history_LOCK": false,
+    "G13_complete": false,
+    "G14_complete": false,
+    "actual_Blueprint_authority": false,
+    "actual_Pack": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "schedule_count": 0,
+    "all82personalboxes_privatecert_or1230research_newgate": false
+  },
+  "additional_gate_count": 0,
+  "write_scope": [
+    "reviews/THREEPEAT_2023_PUBLIC_RESIDUAL_INDEPENDENT_REVIEW_2026_10_09.json"
+  ],
+  "Git_stage_commit_push_changes": false
+}
