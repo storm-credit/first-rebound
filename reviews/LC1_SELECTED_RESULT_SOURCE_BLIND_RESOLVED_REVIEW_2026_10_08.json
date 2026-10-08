@@ -1,0 +1,371 @@
+{
+  "id": "LC1_SELECTED_RESULT_SOURCE_BLIND_RESOLVED_REVIEW_2026_10_08",
+  "status": "PASS_FINITE_CORRECTIONS_WITH_HASH_PINNED_SUPPLEMENT",
+  "classification": "INDEPENDENT_RECHECK_OF_TWO_ORIGINAL_FINDINGS_ONLY_NOT_WHOLE_WORLD_CERTIFICATION",
+  "reviewer": "original source-blind Codex reviewer",
+  "source_hash_method": "UTF8 BOM strip; CRLF/CR normalized LF; SHA256 UTF8 bytes",
+  "source_input_normalized_sha256": {
+    "simulation/LC1_SELECTED_AWARD_AND_TITLE_EXECUTION_2026_10_08.json": "e38e19f1a78c183d8197f4e0ab1586746100f7a4460fb476572badc761802e50",
+    "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json": "ce96e30a31e0b407533e500ff7d5e70b30e04f25cab5c89d4c644834ffba0fea",
+    "simulation/LC1_SELECTED_2028_FINAL_POSSESSION_AND_PROMISE_PAYOFF_2026_10_08.json": "c0137b9452ef54ee938ad1646a5bb97dd62cb422ebfd717b52fed1cd076b4a51",
+    "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json": "2de8aaba99c079de6c238af954492359e693022810cb3c4cc163a733a226148b"
+  },
+  "supplement_markdown_normalized_sha256": {
+    "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.md": "4b4f57f5d79de3e13d7ad389dc0db52e4cb5a1e2d9b320cdaaede9d4be80bfb1"
+  },
+  "supplement_markdown_content_used_for_verdict": false,
+  "previous_own_finding_snapshot": {
+    "path": "reviews/LC1_SELECTED_RESULT_SOURCE_BLIND_CODEX_REVIEW_2026_10_08.json",
+    "normalized_sha256": "cb85909113910301d1b191c85aff9dc9d5d2c700fac41a4ce1340506ff452576",
+    "original_status": "NEEDS_REPAIR",
+    "preserved": true
+  },
+  "other_reviewer_reports_read": false,
+  "root_recommendation_used_as_evidence": false,
+  "scope": {
+    "objective": "BLIND-LC1-01/02 두 실질 발견의 유한 보충 수정만 독립 재검문. 원본 세 결과와 보충 JSON을 직접 읽고 해당 값·포인터·수치·원문 CBA를 재현.",
+    "original_three_frozen_hashes_unchanged": true,
+    "original_inputs_not_rewritten": true,
+    "review_does_not_silently_replace_original": "원본만 소비하면 기존 발견은 남는다. 보충 SHA와 검수 SHA를 명시 채택한 current override 소비에서만 두 발견을 RESOLVED로 본다.",
+    "excluded": [
+      "전 역사 정본 및 14Act의 완료",
+      "전수 배분/allocation 감사",
+      "G16 인증",
+      "Context Pack 완성",
+      "all82/연간 공개·비공개15 프로젝트",
+      "현실 미래 규정/개인계약 동의/가격/임상 인증",
+      "2023 공적 대표팀·병역 또는 연속 NBA 적격성 HOLD 해제"
+    ]
+  },
+  "finding_dispositions": [
+    {
+      "id": "BLIND-LC1-01",
+      "disposition": "RESOLVED_WITH_HASH_PINNED_SUPPLEMENT",
+      "old_problem": "2029–2033 라이벌의 실명 동료 5명 행동에 2028 이후 서비스가 없었음.",
+      "repair_locations": [
+        {
+          "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+          "json_pointer": "/selected_coactor_UPCs"
+        },
+        {
+          "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+          "json_pointer": "/used_coactor_service_windows"
+        },
+        {
+          "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+          "json_pointer": "/exact_current_override_ports"
+        }
+      ],
+      "independent_result": "5명 최초 2028 own-Bird UPC + Dyson/Naz의 2031 갱신 2개로 총7개. 2029 Russell,2030 Towns,2031 McDaniels,2032 Dyson,2033 Reid의 소비 연도와 Rival 현재 UPC가 함께 살아 있다. Dyson/Naz는 2028–2031 3시즌 bridge 후 새UPC여서 2031 Bird 이전서비스가 끊기지 않는다. 기존 2026–28 기간 및 Gamma가 보존된다.",
+      "does_not_certify_whole_MIN_roster_or_gamebook": true
+    },
+    {
+      "id": "BLIND-LC1-02",
+      "disposition": "RESOLVED_WITH_HASH_PINNED_SUPPLEMENT",
+      "old_problem": "Minjun 첫 시작권 서술과 첫 블록 initiation 배정 불일치.",
+      "repair_locations": [
+        {
+          "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+          "json_pointer": "/exact_current_override_ports/5"
+        },
+        {
+          "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+          "json_pointer": "/successor_first_initiation_repair"
+        }
+      ],
+      "independent_result": "동일한 첫블록 court5에 기능 배열을 [perimeter1,wing2,frontcourt_or_smallball4,initiation,screen_rebound5]로 정확 교체. 명시적 actor mapping에서 Minjun=initiation, LaMelo=perimeter1/secondarycreator, Markkanen=4가 일치한다. P는 블록0 코트 밖에서 시작을 관찰한다. 기존 EF59 역할 전달 후 관찰 순서와 EF60 후배 자율 준비를 구별한다.",
+      "unchanged_quantities": [
+        "240 팀분/14400 선수초",
+        "모든 개인 분",
+        "첫 선발 구성원",
+        "계약·급여·소속",
+        "등록 기능·후배 연습 수"
+      ],
+      "first_block_minutes_not_new_onball_percentage_certificate": true
+    }
+  ],
+  "material_findings_remaining_in_repair_scope": [],
+  "checks_actually_run": {
+    "runner": "PowerShell login:false; C:/Python314/python.exe -B -X utf8",
+    "method": "실제 JSON/PDF 직접 읽기, Fraction 정확 유리수 계산, JSON-pointer old_value 일치, 원본 역할시계 합산",
+    "supplement_SHA_matches_frozen_request": true,
+    "markdown_SHA_matches_request": true,
+    "core_three_SHA_unchanged": true,
+    "exact_old_value_and_target_pointer_matches": 6,
+    "UPCs_checked": 7,
+    "minimum_fullterm_columns_checked": 15,
+    "named_coactor_used_year_joins_checked": 5,
+    "signature_holdonce_order_count": 7,
+    "UPC_checks": "id/연도/전체기간 급여/ExC[min(10,YOS+j−1),j]*Csign/123655000 최소열/양의 최소마진/ordinary firstmax/양의 unlikely 여유를 각각 Fraction으로 재계산. 25/30/35% 적합 YOS와 prior anchor YOS 증분 일치. 전7건 term<=3, 새옵션·bonus 없음. 이전 마지막 서비스 연도+1=새 signing capyear, 각 prior UPC id 및 MIN 소속 일치.",
+    "rights_and_holds": "2025–26 원서비스+2026–28 유지 및 후속 same-owner bridge를 선언하는 제한된 가상 family를 확인. own Bird 미포기·exclusive owner·서명/filing·이전서비스 완료 guard가 있고, 각 서명 전 own FAhold 하나→새급여 하나 순서로 일치한다. 원 보장·발생 cash/Gamma는 제거되지 않는다. 직접 미래서명 영수증으로 취급하지 않는다.",
+    "partial_cost_checks": "사용된 5연도마다 실제 known liveUPC 합계, 잔여STD 범위13–15/Active12–13, largest reserved count*coupled 10+ current minimum 하한<=.5C 상한, known+하한, .9C floor, known+.5C+.2C normal upper, MTS 양끝 floor deficit를 정확 재계산. signed/Gamma/FA/draft/exception/floor-tax-cash 분류가 원 귀속·독립 hardcap trigger guard를 보존한다. bound 밖 obligation은 소급삭제 대신 해당 거래HOLD. whole roster/실제 N_A_cash 증명은 하지 않는다.",
+    "role_patch_checks": "old functional_roles 원본 일치 및 새 actor mapping 일치. 원본 블록마다 5명·48분 연속 구간 합산, 개인분 선언값과 Counter 일치, 총240분. override는 역할 라벨만 바꿔 actor/time/contract 변동 없음."
+  },
+  "UPC_reproduction_rows": [
+    {
+      "UPC_id": "MIN:D'Angelo Russell:LC1_SERVICE_SUPPLEMENT:2028",
+      "signing_capyear": 2028,
+      "service_Seasons": [
+        "2028-29"
+      ],
+      "credited_YOS": 13,
+      "minimum_columns_reproduced": 1,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "pointer": "/selected_UPCs/20",
+        "UPC_id": "MIN:D'Angelo Russell:LC1:2026"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Karl-Anthony Towns:LC1_SERVICE_SUPPLEMENT:2028",
+      "signing_capyear": 2028,
+      "service_Seasons": [
+        "2028-29",
+        "2029-30"
+      ],
+      "credited_YOS": 13,
+      "minimum_columns_reproduced": 2,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "pointer": "/selected_UPCs/30",
+        "UPC_id": "MIN:Karl-Anthony Towns:LC1:2026"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Jaden McDaniels:LC1_SERVICE_SUPPLEMENT:2028",
+      "signing_capyear": 2028,
+      "service_Seasons": [
+        "2028-29",
+        "2029-30",
+        "2030-31"
+      ],
+      "credited_YOS": 8,
+      "minimum_columns_reproduced": 3,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "pointer": "/selected_UPCs/23",
+        "UPC_id": "MIN:Jaden McDaniels:LC1:2026"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Dyson Daniels:LC1_SERVICE_SUPPLEMENT:2028",
+      "signing_capyear": 2028,
+      "service_Seasons": [
+        "2028-29",
+        "2029-30",
+        "2030-31"
+      ],
+      "credited_YOS": 6,
+      "minimum_columns_reproduced": 3,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "pointer": "/selected_UPCs/34",
+        "UPC_id": "MIN:Dyson Daniels:LC1:2026"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Naz Reid:LC1_SERVICE_SUPPLEMENT:2028",
+      "signing_capyear": 2028,
+      "service_Seasons": [
+        "2028-29",
+        "2029-30",
+        "2030-31"
+      ],
+      "credited_YOS": 9,
+      "minimum_columns_reproduced": 3,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "pointer": "/selected_UPCs/32",
+        "UPC_id": "MIN:Naz Reid:LC1:2026"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Dyson Daniels:LC1_SERVICE_SUPPLEMENT:2031",
+      "signing_capyear": 2031,
+      "service_Seasons": [
+        "2031-32"
+      ],
+      "credited_YOS": 9,
+      "minimum_columns_reproduced": 1,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+        "pointer": "/selected_coactor_UPCs/3",
+        "UPC_id": "MIN:Dyson Daniels:LC1_SERVICE_SUPPLEMENT:2028"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    },
+    {
+      "UPC_id": "MIN:Naz Reid:LC1_SERVICE_SUPPLEMENT:2031",
+      "signing_capyear": 2031,
+      "service_Seasons": [
+        "2031-32",
+        "2032-33"
+      ],
+      "credited_YOS": 12,
+      "minimum_columns_reproduced": 2,
+      "regular_and_coupled_minimum_and_maximum_match": true,
+      "previous_UPC_anchor": {
+        "path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+        "pointer": "/selected_coactor_UPCs/4",
+        "UPC_id": "MIN:Naz Reid:LC1_SERVICE_SUPPLEMENT:2028"
+      },
+      "continuous_exclusive_MIN_rights_guard": true
+    }
+  ],
+  "used_window_reproduction_rows": [
+    {
+      "supplement_pointer": "/used_coactor_service_windows/0",
+      "NBASeason": "2028-29",
+      "named_pair": [
+        "Fictional Rival",
+        "D'Angelo Russell"
+      ],
+      "coactor_UPC": "MIN:D'Angelo Russell:LC1_SERVICE_SUPPLEMENT:2028",
+      "Rival_UPC": "MIN:Fictional Rival:LC1:2028",
+      "known_current_RegularSalary_exact": "5019598269/40",
+      "service_and_known_cost_and_residual_bounds_match": true
+    },
+    {
+      "supplement_pointer": "/used_coactor_service_windows/1",
+      "NBASeason": "2029-30",
+      "named_pair": [
+        "Fictional Rival",
+        "Karl-Anthony Towns"
+      ],
+      "coactor_UPC": "MIN:Karl-Anthony Towns:LC1_SERVICE_SUPPLEMENT:2028",
+      "Rival_UPC": "MIN:Fictional Rival:LC1:2028",
+      "known_current_RegularSalary_exact": "4437615861/40",
+      "service_and_known_cost_and_residual_bounds_match": true
+    },
+    {
+      "supplement_pointer": "/used_coactor_service_windows/2",
+      "NBASeason": "2030-31",
+      "named_pair": [
+        "Fictional Rival",
+        "Jaden McDaniels"
+      ],
+      "coactor_UPC": "MIN:Jaden McDaniels:LC1_SERVICE_SUPPLEMENT:2028",
+      "Rival_UPC": "MIN:Fictional Rival:LC1:2028",
+      "known_current_RegularSalary_exact": "1673199423/20",
+      "service_and_known_cost_and_residual_bounds_match": true
+    },
+    {
+      "supplement_pointer": "/used_coactor_service_windows/3",
+      "NBASeason": "2031-32",
+      "named_pair": [
+        "Fictional Rival",
+        "Dyson Daniels"
+      ],
+      "coactor_UPC": "MIN:Dyson Daniels:LC1_SERVICE_SUPPLEMENT:2031",
+      "Rival_UPC": "MIN:Fictional Rival:LC1:2028",
+      "known_current_RegularSalary_exact": "23307886205793/320000",
+      "service_and_known_cost_and_residual_bounds_match": true
+    },
+    {
+      "supplement_pointer": "/used_coactor_service_windows/4",
+      "NBASeason": "2032-33",
+      "named_pair": [
+        "Fictional Rival",
+        "Naz Reid"
+      ],
+      "coactor_UPC": "MIN:Naz Reid:LC1_SERVICE_SUPPLEMENT:2031",
+      "Rival_UPC": "MIN:Fictional Rival:LC1:2032",
+      "known_current_RegularSalary_exact": "92299281753357/1280000",
+      "service_and_known_cost_and_residual_bounds_match": true
+    }
+  ],
+  "primary_rule_check": {
+    "official_web_read": "https://nbpa.com/cba",
+    "web_read_support": "NBPA 현재 페이지는 2023 CBA의 2029–30 종료 및 2028–29 이후 opt-out 가능성을 안내한다. 미래 실규정의 고정 인증으로 보지 않음.",
+    "cached_primary_pdf": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+    "raw_sha256_recomputed": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "physical_pages_read": [
+      29,
+      31,
+      57,
+      58,
+      60,
+      61,
+      193,
+      194,
+      195,
+      200,
+      201,
+      202,
+      234,
+      240,
+      241,
+      242,
+      251,
+      255,
+      264,
+      566,
+      632
+    ],
+    "physical_page_text_LF_SHA256": {
+      "29": "7711b8694ade663d7468c24f0a60ad7afae252f52487e577b31d6a4856d4f149",
+      "31": "f2a9677496585aec7dfc1101ce86ba27d6c185817823d5497142bd324f461850",
+      "57": "24d710c4145189ebccdc47a4c41746b7449f542404bec1e7b3af3088091569ab",
+      "58": "1149acc2f349643adf0b4b00f52a201e3ae1f7df7b1f1a6ce0e4dff26433419b",
+      "60": "52d6057f8a3e1cfd3e326fe7f945d6ce22fe1a43736a9ce272356dcdfe991018",
+      "61": "c988b0da53f51b81a4264aa96d02c24ac227ad4e30cb8b24c81b122bc1a43a50",
+      "193": "5217815c901673c96c50520ff5f21fef1b26d1bb82ff2551c22c290d5a7afd00",
+      "194": "18ab2655c890b347db2da1a9b7786a2a958702ed760eb24b8bf4554b3e9ea62e",
+      "195": "d9b735a8fc4b89d10e9bc4c24ff2ed0bf6d6e975d834ac2a99c789dad2446bf7",
+      "200": "59d3bb73a5cd0082703fd8b748530a0a56c545f8ff12e2968e53d6a9e0b610be",
+      "201": "ff47193445bc796dabe46aa334de7ae94f43088a11ecf3ebb19eb822e1230ea7",
+      "202": "30434301a39469098f8e80bf62021e71ef3a3c8ae134deed4396217a653e69a7",
+      "234": "992bf57a164fc9a4ecc27071c2732fdf3dd220981ec9418a7ca0b710fe8eecf0",
+      "240": "20872ab9ce25405787fbaa8398b018e2c130ef83a99fa8696204719df535adc1",
+      "241": "4afabcae46afcbb5a9004d02e10d4aac200385cc029bec102ea7efddbe899841",
+      "242": "ed67262fbf68f1f17ddd507a20dadd5ce9609a81f84d38f64c263ed07d054314",
+      "251": "0e903ec55edbca655e7bfbdc6864458880390e7751330e31bb7744205e45dd40",
+      "255": "5740658077a3764b14785f3b77ed4ca374ef65ede76f26040b20f742fd3bbf27",
+      "264": "449c608ecc67595f346de23bbcd0e7b34c77d51987b0fde2778062a7a0339657",
+      "566": "c3677e12380685b6e8a968179a895bfea56f84cacb7ef92df42e8de8978b5a29",
+      "632": "6e99bfd851bfb3933e776cf7fa7db1b5e843814e2ce0cd40338fada42d37c412"
+    },
+    "provisions_consumed": [
+      "I(yy) qualifying veteran 이전3시즌",
+      "I(jj)/II6/ExC 최소급여 signing table 및 cap coupling",
+      "II7 YOS ordinary firstmax+unlikely",
+      "VII4 FAhold150/190/minmax 및 대체",
+      "VII5/VII6 Bird cap 예외/급여증감",
+      "VII2 90% floor·tax·MTS caphold/payment/end trueup",
+      "XXXIX 종료/opt notice"
+    ],
+    "future_law_qualification": "가상 LC1 2023 규정 연속성+mandatory successor conformity branch에서만 선택된 family를 평가. 2031+ 실제 CBA·가격·소속동의·임상은 미인증. 전체 family 존재는 각 guard를 만족하는 제한된 branch의 의미이며 한 witness로 모든 실제 미래 값을 강제하지 않음.",
+    "PDF_layout_render_not_run": "텍스트·수치 표 읽기와 파싱을 사용한 읽기 전용 확인; 새 PDF 생성/편집 없음."
+  },
+  "current_override_adoption_contract": {
+    "required_supplement_path": "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json",
+    "required_supplement_LF_SHA256": "2de8aaba99c079de6c238af954492359e693022810cb3c4cc163a733a226148b",
+    "override_ports": 6,
+    "this_review_SHA_to_be_pinned_by_root": true,
+    "producer_files_or_git_modified": false,
+    "original_NEEDS_REPAIR_snapshot_not_erased": true
+  },
+  "gates": {
+    "two_finite_finding_disposition": "RESOLVED_WITH_EXPLICIT_HASH_PINNED_CURRENT_OVERRIDE",
+    "original_major_LC1_author_coordinates": "PRESERVED",
+    "original_2023_NM_public_team_military_and_uninterrupted_NBA": "HOLD_UNCHANGED",
+    "whole_history_allocation_G16": "NOT_CERTIFIED",
+    "all82_annual15_new_gate": false,
+    "whole_G13_G14_ContextPack": "NOT_CERTIFIED",
+    "manuscript": "CLOSED",
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  },
+  "conclusion": "두 실제 NEEDS_REPAIR 발견 모두 지정 SHA의 유한 보충 current override를 채택하면 해소된다. 이번 수정 범위에서 잔존 material finding 없음. 원본 발견 기록과 공적 대표팀·병역/연속 NBA HOLD 및 전체 설계 미완성 경계는 유지한다."
+}
