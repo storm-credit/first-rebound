@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-08 [현행10막 한정지원·정보11 실제선택](../reviews/CURRENT_TEN_ACT_SUPPORT_AND_ELEVEN_LOCAL_ACCESS_CONTINUATION_ADOPTION_2026_10_08.md): PR510 이후 A08 원3소막/E2비용·허용5창 수용과 현재14막 분류 독립/root 검문. 한정지원10=prior5+selected2+conditional1+root2, 전체역사완료 아님. 기존S1 국소접근11·23비트 상대시계 실제선택·독립검문으로 같은승인/후보반복 제거. finalEpisode/date/후기실제scene11잠금0·미래출구A11–14/전체역사·최종배치/G13/G14 미완료. NLM새답·Claude2지적 원문범위/시간 판정·AGY기존자료재사용 분리. 다음A11 위임가능실패창 실행범위·실제누락처리. 미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
+
 2026-10-08 [FY26 남은9·명명15·유한범위 인계](../reviews/FY26_NINE_NAMED15_AND_FINITE_SCOPE_CONTINUATION_ADOPTION_2026_10_08.md): PR509 main 이후 UFA3/min5/LV기존PO 선택과명명15 조건부계약입력을 독립·root검문. 남은계약9→0, 기존UPC6+새9/15STD0TW·원Gamma/6비용·현실/wholecost시즌false 보존. NLM새답·Claude첫timeout/짧은답·AGY기존cap재사용 분리. A10 원한정기능출구3/3도후행증거·독립/root검문으로수용. 다음은A08조건부해석·A11–14좌표종속·정보/배치이며미래연차minimum반복을추가종료요건으로삼지않는다. Reserved후기좌표종속HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
 
 2026-10-08 [FY26 이월·Jaquez·Kessler 인계](../reviews/FY26_ROLLOVER_JAQUEZ_KESSLER_CONTINUATION_ADOPTION_2026_10_08.md): PR508 main 다음.1–3/FY25 15입력 완료 보존. FY26 원15의4존속/9권리/2옵션 검문, Jaquez Oct1 원Year4와 Kessler K26A4년53.76m·timelyQO/holdonce 선택·독립검문. 구성요소6/남은8만료+PO1=9포트, 전체등록·Gamma정확값·wholecost·시즌 인증0. AGY답, NLM최초timeout 후 동일source짧은답, Claude2지적의 CBA원문기각 기록. 후기 좌표/전체G13/G14 미완료·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·Goal ACTIVE·일정0. 아래는 이전이력이다.
@@ -197,9 +199,9 @@
 | 1 | 2020 드래프트 연쇄 | 완료·기존 승인 보존 |
 | 2 | Chicago 2020–21 | S2 유한 시즌 완료·1174경기/2348팀·법적12/F5/A3/K4 |
 | 3 | 2021–23 거래·계약 | 완료: 원7명 경로·시간순 계약/cap/픽의 합법 가상 가족. J16 RT→RSC15STD·LM1·원보호채무·같은hold 교체 검문. 실제 사적 접수/정확센트 인증과 구분 |
-| 4 | 두 선수 장기 커리어 | 진행: FY26 조건부명명15 계약입력·독립결합 완료, 남은계약포트0. A10한정기능출구 수용. 후기 주요좌표·남은유한막출구/상호비용 연결 남음 |
-| 5 | 결말·전체 구조 | 60기능/42소막 경로/미경로0·14막 유한 출구 감사. 미래막 전체 출구·최종 회차 배치 미완료 |
-| 6 | 집필 규격·Context Pack | 독서110/110·S1규격 완료. 정보경계11 준비 수용; 전체G13 조건과 Pack생성·검문 남음·실제Pack0 |
+| 4 | 두 선수 장기 커리어 | 진행: FY26 계약입력 완료. A08/A10 한정기능수용·현재10지원; A11–14 실제미래출구·주요좌표 남음 |
+| 5 | 결말·전체 구조 | 60기능/42소막·14막 현재분류/한정지원10. 미래4막 출구·전체역사·최종회차 배치 미완료 |
+| 6 | 집필 규격·Context Pack | 독서110/110·S1 완료, 국소접근11/상대시계 실제선택. 최종씬·G13/G14·실제Pack0 미완료 |
 | 7 | 통합·독립·작가 승인 | 전체G15/G16/G17 미완료·최종OPEN 미승인 |
 
 **미완료 큰 묶음4개 / 6번까지3개.** 780계획칸 중 미배정720은 추가 사건 의무가 아니다. v0.30 PARTIAL·설계/원고CLOSED·원고0. [현행 큐](../control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md)의 완료 시점부터 다음 작업을 계속한다. 백분율·예상시간은 계산하지 않는다.

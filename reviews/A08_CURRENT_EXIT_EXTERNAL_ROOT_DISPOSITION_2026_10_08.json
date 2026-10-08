@@ -1,0 +1,51 @@
+{
+  "id": "A08_CURRENT_EXIT_EXTERNAL_ROOT_DISPOSITION_2026_10_08",
+  "status": "BOUNDED_FUNCTIONAL_SUPPORT_RETAINED_WITH_TWO_SOURCE_BLIND_SCOPE_FINDINGS_RESOLVED",
+  "source_sha256": {
+    "control/G13_A08_CURRENT_EXIT_INPUT_JOIN_2026_10_08.json": "235973d774495ba829b3eac6588dbbeb075fa52af4bd389f8ffe93c202386ed9",
+    "reviews/A08_CURRENT_EXIT_NLM_REGISTRATION_2026_10_08.json": "c529a26bbeffa90f1e89ef2979626d2cbace1c3857cef767f6544cd08e3ea511",
+    "reviews/A08_CURRENT_EXIT_NLM_ANALYSIS_2026_10_08.json": "0db5f418cbe3123b7d27548d57c0b5feef95e309942fd195ae6e7569df5726e7",
+    "reviews/A08_CURRENT_EXIT_CLAUDE_SOURCE_BLIND_2026_10_08.json": "6d7c26d872b58fbee49e1bc255f0b8794885fdbee153cd6fa601ae16da6823a3",
+    "reviews/A08_CURRENT_LITERAL_EXIT_ROOT_DISPOSITION_2026_10_08.json": "d02c3b71ec23cd2a7d9f567afc45cd1897f1d775e7d8cab0053b5b8571dc963a",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_2026_10_08.json": "e34d8e164403795750625757387b007f0fc66bf83b06cba5b50914b11e884dc5"
+  },
+  "NLM": {
+    "analysis_success": true,
+    "answer": "**E2의 예산 책임**과 **5개 20초 코치 허용 창**(총 100초)은 ‘경기별 공동 에이스 후보’ 및 ‘자기/동료 마무리 조건 설명’을 직접 지원합니다 [1, 2]. \n\n원 기준은 영구 지정·상시 클로징권, 전체 시즌 및 실제 NBA 포제션 재인증을 요구하지 않으며 [1-3], 추가 반복 관측 요건도 없습니다 [1, 3]. 따라서 둘 사이에 실제 모순이나 근거 부족은 0입니다 [1, 4].",
+    "citations_are_same_uploaded_source": true,
+    "independent_primary_evidence_added": 0
+  },
+  "Claude": {
+    "answer_recovered": true,
+    "concrete_findings": 2,
+    "source_blind_primary_law_verified": false,
+    "adjudications": [
+      {
+        "finding": "Act held authority versus S3 candidate/undetermined permanent role",
+        "disposition": "NO_INTERNAL_CONTRADICTION_WITHIN_EXPLICIT_BOUNDED_SCOPE",
+        "direct_basis": "CP2 A08-S3 is per-game attack permission/preparation responsibility as a candidate; selected Oct19 G3A/G3B coach permissions instantiate that limited authority. Neither original S3 nor current root claims permanent designation or standing closing rights."
+      },
+      {
+        "finding": "S1 has no contract result versus later July7 UPC",
+        "disposition": "DISTINCT_SEQUENTIAL_SCOPES_NOT_RETROACTIVE_INFORMATION",
+        "direct_basis": "Original EF001/S1 no-result exit and B1/B2 dates=null are preserved. Separately selected July7 UPC and Oct19 calls are later current Act evidence; no dated contract result or knowledge was inserted into original S1."
+      }
+    ],
+    "independent_peer_direct_source_recheck_received": true
+  },
+  "Antigravity": {
+    "fresh_calls": 0,
+    "reason": "No new NBA primary fact collected; previously accepted CBA/contract/coach sources reused without new success count."
+  },
+  "root_scope": "Original bounded fictional functional Act exit, not permanent co-ace, historical whole Season, or G13/G14 closure. Two model observations prompted direct source recheck and explicit scope retention; model verdict alone is not certification.",
+  "limits": {
+    "new_event_or_contract_or_major_coordinate": false,
+    "original_sources_or_peer_pins_rewritten": false,
+    "whole_G16_certified": false,
+    "whole_G13_G14_complete": false,
+    "actual_Packs": 0,
+    "manuscript_count": 0,
+    "design_gate": "CLOSED"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "G13_CURRENT_FOURTEEN_ACT_DISPOSITION_G11_REVIEW_2026_10_08",
+  "status": "ACCEPTED_BOUNDED_FOURTEEN_ACT_CURRENT_DISPOSITION_NOT_WHOLE_HISTORY",
+  "independent_review_completed": true,
+  "source_hash_method": "SHA256_UTF8_BOM_REMOVED_CRLF_CR_TO_LF",
+  "reviewed_artifacts_sha256": {
+    "control\\G13_CURRENT_FOURTEEN_ACT_DISPOSITION_2026_10_08.json": "38beb37856c3812ed07fcff6f21f60a288c5d1fa89b98a912280a4e6ff9ad349",
+    "control\\G13_CURRENT_FOURTEEN_ACT_DISPOSITION_2026_10_08.md": "499e962da3a6081995d4868963fb153c1390cc07ca7840d4f955b332df5ae51c"
+  },
+  "direct_checks": [
+    {
+      "scope": "physical and literal source joins",
+      "result": "PASS",
+      "evidence": "80/80 physical source hashes; 14 CP2 Act choice/cost/exit, 42 CP2 SubAct choice/cost/exit, 60 distinct ordered registered function IDs all match current records."
+    },
+    {
+      "scope": "disposition categories",
+      "result": "PASS_BOUNDED",
+      "evidence": "5 prior accepted bounded + A06/A09 selected bounded2 + A07 conditional sample1 + root A08/A10 accepted literal2 = 10 with narrow support. A11–A14 remain four pending exits. Every Act row explicitly sets accepted_literal_exit_is_whole_historical_exit=false and sibling certifies zero whole historical Acts."
+    },
+    {
+      "scope": "A08/A10 root selection scope",
+      "result": "PASS",
+      "evidence": "Current root A08/A10 dispositions accept bounded original functional exits only; A08 additional sustained-status window and A10 optional HANDOFF1 remain nonmandatory. Their earlier parent pending flags are not rewritten, and other Acts are not auto-promoted."
+    },
+    {
+      "scope": "future contract reuse and real missing ports",
+      "result": "PASS_BOUNDED",
+      "evidence": "A11 FY25 and A12 FY26 named15 contract inputs are carried as conditional lawful date joins; repeated nine expiries/minimums are not imposed. A11–A14 still need chosen major career coordinates and necessary role/relationship/history, information access and final allocation. Unknown future fees and Gamma are not zeroed."
+    },
+    {
+      "scope": "G13/G14 original closure",
+      "result": "PASS",
+      "evidence": "Entire historical event ledger lock, final Act/SubAct/function allocation, verified Blueprint/current Canon and all final allocated Packs remain G14 prerequisites. The 60 functions do not equal 60 published episodes; 720 unassigned slots are not mandatory events. Pack0 and CLOSED persist."
+    }
+  ],
+  "independent_constructor_or_mutation_tests_executed": 0,
+  "writer_self_tests_counted_as_independent": 0,
+  "blockers_for_bounded_matrix": [],
+  "not_certified": [
+    "whole historical Act completion",
+    "A11–A14 future outcomes",
+    "selected final episode allocation",
+    "G13/G14 completion",
+    "actual Packs",
+    "manuscript permission"
+  ],
+  "rendering_href_scope_note": "Current14 MD line55 corrected the one Context Pack link from ../context-packs/README.md:9 to ../context-packs/README.md. Reverse replacement exactly reproduces the previously reviewed MD SHA; JSON, 80 source pins, criteria and bounded disposition are unchanged."
+}
