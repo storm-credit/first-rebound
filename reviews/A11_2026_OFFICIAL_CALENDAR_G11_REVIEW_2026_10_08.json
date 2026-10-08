@@ -1,0 +1,75 @@
+{
+  "id": "A11_2026_OFFICIAL_CALENDAR_G11_REVIEW_2026_10_08",
+  "status": "ACCEPTED_PRIMARY_CALENDAR_REFERENCE_ONLY",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_REMOVED_CRLF_CR_TO_LF_SHA256",
+  "reviewed_artifacts_sha256": {
+    "research/A11_2026_OFFICIAL_FINALS_CALENDAR_ANCHOR_2026_10_08.json": "594efa6d304fbcdd8ec21fc872d1f1f32db79985f33edbe0cb23aa0a98bb2db9",
+    "research/A11_2026_OFFICIAL_FINALS_CALENDAR_ANCHOR_2026_10_08.md": "f09ca432d23765234577d6c0920900b47b5f938358ce503d4278ed81c07524b7",
+    "research/A11_2026_OFFICIAL_FINALS_CALENDAR_DIRECT_COLLECTION_2026_10_08.json": "9d6ff19b96ed19e3304d628e5af5dc9932836c2266e3812a1a3225081ebc4b40",
+    "reviews/A11_2026_CALENDAR_ANTIGRAVITY_COLLECTION_2026_10_08.json": "d12a848f06837083f34caceedf42ca867f566369468fa0103060e1b5467a9fcc",
+    "reviews/A11_2026_CALENDAR_ANTIGRAVITY_RETRY_2026_10_08.json": "7ef4fe706a1a2f79d23fa70978255eaa69440322c789170213ab7d7289ca791d"
+  },
+  "physical_primary_checks": [
+    {
+      "label": "NBA_NEWS_SCHEDULE",
+      "HTTP": 200,
+      "raw_sha256_match": true,
+      "body_normalized_sha256_match": true
+    },
+    {
+      "label": "NBA_COMM_NOTES",
+      "HTTP": 200,
+      "raw_sha256_match": true,
+      "body_normalized_sha256_match": true
+    },
+    {
+      "label": "NBA_CAV_OFFICIAL_GUIDE",
+      "HTTP": 200,
+      "raw_sha256_match": true,
+      "body_normalized_sha256_match": null
+    },
+    {
+      "label": "NBA_PREVIEW_SCHEDULE",
+      "HTTP": 200,
+      "raw_sha256_match": true,
+      "body_normalized_sha256_match": true
+    }
+  ],
+  "direct_fact_checks": {
+    "preview_body_seven_game_date_pairs_and_ET2030": true,
+    "official_schedule_dates": [
+      "2026-06-03",
+      "2026-06-05",
+      "2026-06-08",
+      "2026-06-10",
+      "2026-06-13",
+      "2026-06-16",
+      "2026-06-19"
+    ],
+    "if_necessary_games": [
+      5,
+      6,
+      7
+    ],
+    "actual_NYK_SAS_4_to_1_completed_2026_06_13": true,
+    "actual_games_6_and_7_not_played": true,
+    "Cavaliers_official_PDF_page7_Game1_date_and_ET2030": true,
+    "CHI_MIN_fictional_game_date_or_score_selected_by_calendar": false,
+    "actual_NYK_SAS_roster_scores_awards_transferred_to_fiction": false
+  },
+  "tool_disposition": {
+    "first_AGY_exit2_response_recovered": false,
+    "retry_AGY_exit0_response_recovered": true,
+    "retry_elapsed_seconds": 50.261,
+    "retry_raw_stream_normalized_SHA_verified": true,
+    "AGY_same_NBA_article_new_independent_primary_count": 0,
+    "four_HTTP200_primary_captures_verified": true
+  },
+  "limits": {
+    "official_fact_is_alternate_world_event": false,
+    "F26_route_or_result_execution_complete": false,
+    "new_major_career_coordinates_selected": false,
+    "constructor_or_mutation_tests_run": 0
+  }
+}

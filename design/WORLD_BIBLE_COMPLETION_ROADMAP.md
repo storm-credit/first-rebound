@@ -1,5 +1,7 @@
 # World Bible Completion Roadmap
 
+2026-10-08 [A11 첫Finals 선행·6경기·공동시계 실제선택](../reviews/A11_SELECTED_RESULTS_AND_FINITE_PAIR_CONTINUATION_ADOPTION_2026_10_08.md): PR511다음 기존1–3보존. 새2024MIL준결승/2025PHIR1endpoint로 첫Finals선행미해소2→0, MIN4–2·6월16일 가상6경기/양팀13가용·480분·3개8초비용/허용영상인계를 실제선택·독립검문. 실제NBA NYK4–1SAS/6월13일과 예정G6를 구분. MIN15/route상태는 최신인계의 검문범위를 따르며 같은6날짜 조건부 합법pair결합·180service/144clock 검문 수용. 다음A12 계약/역할책임을 계속한다. AGY/NLM/Claude새답 회수·첫실패보존; wholeA11/역사/G13/G14/후기좌표/Pack0미완료·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.
+
 2026-10-08 [현행10막 한정지원·정보11 실제선택](../reviews/CURRENT_TEN_ACT_SUPPORT_AND_ELEVEN_LOCAL_ACCESS_CONTINUATION_ADOPTION_2026_10_08.md): PR510 이후 A08 원3소막/E2비용·허용5창 수용과 현재14막 분류 독립/root 검문. 한정지원10=prior5+selected2+conditional1+root2, 전체역사완료 아님. 기존S1 국소접근11·23비트 상대시계 실제선택·독립검문으로 같은승인/후보반복 제거. finalEpisode/date/후기실제scene11잠금0·미래출구A11–14/전체역사·최종배치/G13/G14 미완료. NLM새답·Claude2지적 원문범위/시간 판정·AGY기존자료재사용 분리. 다음A11 위임가능실패창 실행범위·실제누락처리. 미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
 
 2026-10-08 [FY26 남은9·명명15·유한범위 인계](../reviews/FY26_NINE_NAMED15_AND_FINITE_SCOPE_CONTINUATION_ADOPTION_2026_10_08.md): PR509 main 이후 UFA3/min5/LV기존PO 선택과명명15 조건부계약입력을 독립·root검문. 남은계약9→0, 기존UPC6+새9/15STD0TW·원Gamma/6비용·현실/wholecost시즌false 보존. NLM새답·Claude첫timeout/짧은답·AGY기존cap재사용 분리. A10 원한정기능출구3/3도후행증거·독립/root검문으로수용. 다음은A08조건부해석·A11–14좌표종속·정보/배치이며미래연차minimum반복을추가종료요건으로삼지않는다. Reserved후기좌표종속HOLD·독립작업계속·미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
@@ -199,7 +201,7 @@
 | 1 | 2020 드래프트 연쇄 | 완료·기존 승인 보존 |
 | 2 | Chicago 2020–21 | S2 유한 시즌 완료·1174경기/2348팀·법적12/F5/A3/K4 |
 | 3 | 2021–23 거래·계약 | 완료: 원7명 경로·시간순 계약/cap/픽의 합법 가상 가족. J16 RT→RSC15STD·LM1·원보호채무·같은hold 교체 검문. 실제 사적 접수/정확센트 인증과 구분 |
-| 4 | 두 선수 장기 커리어 | 진행: FY26 계약입력 완료. A08/A10 한정기능수용·현재10지원; A11–14 실제미래출구·주요좌표 남음 |
+| 4 | 두 선수 장기 커리어 | 진행: A11 첫Finals 선행7·MIN4–2/공동480·역할비용·법적pair결합 수용. A12–14/전체역사·주요좌표 남음 |
 | 5 | 결말·전체 구조 | 60기능/42소막·14막 현재분류/한정지원10. 미래4막 출구·전체역사·최종회차 배치 미완료 |
 | 6 | 집필 규격·Context Pack | 독서110/110·S1 완료, 국소접근11/상대시계 실제선택. 최종씬·G13/G14·실제Pack0 미완료 |
 | 7 | 통합·독립·작가 승인 | 전체G15/G16/G17 미완료·최종OPEN 미승인 |
