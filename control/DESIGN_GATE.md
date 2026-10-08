@@ -1,5 +1,9 @@
 # Design Gate
 
+2026-10-08 [LC1 유한 NBA 실행 채택](../reviews/LC1_CORE_CURRENT_ADOPTION_2026_10_08.md): 작가선택2027MVP·2028/2031우승/FMVP·LaMelo·2035CHI은퇴의45시리즈/79신규UPC/6사용창·2028마지막공격·28→16분/정확은퇴 조인 검문 완료. 원2023대표팀/병역R09 경로와 전체14/42역사·최종N·현재Blueprint는 별도잔여이며 유한NBA모델을 무중단전체경력 인증으로 승격하지 않는다. 실제Pack0·미완료4/6번까지3·v0.30 PARTIAL/CLOSED. 아래는 이전배치 이력.
+
+2026-10-08 [LC1 작가 선택 채택](../reviews/LC1_AUTHOR_SELECTION_CURRENT_ADOPTION_2026_10_08.md): 최신 인간 “네 제안대로 진행”으로 우승2028/2031·MVP2027·FMVP2028/2031·CHI–MIN2028·LaMelo·2035CHI원클럽은퇴 수락. 중요5좌표 미선택HOLD 해소, 정확날짜/상대/점수 구현은 위임. 기존완료1–3/2026첫패배/2027R2패/FY26계약 보존. 실제 경기·서비스·말년·전체역사/최종배치/G13/G14 검문 진행, Pack0·미완료4/6번까지3·v0.30 PARTIAL/CLOSED. 아래 미선택 문구는 이전 이력이다.
+
 2026-10-08 [결말 비용·말년 현재입력 검문](../reviews/FINAL_PAYOFF_AND_LATE_ROLE_CURRENT_INPUT_ADOPTION_2026_10_08.md): PR513다음 LM/LV 기존3막 상호비용·말년3계약가족·완료계약/공통2026Finals 비교를 검문 수용. P2029–30뒤2030/LM2028–29뒤2029·fiscal/service구분·미래법guard. AGY실제답/NLM분석 timeout뒤 회수/Claude반증·실제인포그래픽 시각검수 기록. 새사건/연습0·LC선택null·최종payoff/전체역사/최종배치/G13/G14·Pack0미완료·4묶음/6번까지3·v0.30 PARTIAL/CLOSED·일정0. 아래는 이전이력이다.
 
 2026-10-08 [A12 역할·짧은 봄 현재선택](../reviews/A12_ROLE_AND_SHORTER_SPRING_CONTINUATION_ADOPTION_2026_10_08.md): PR512다음 기존1–3/FY26계약15/A11첫Finals MIN4–2보존. B34 P34/LM28/LV28·원240분 역할template/13+2와 July8표·Nov4자기과제16초·2027CHI5 PHIR1승/MILR2패/선행MIL>NYK 및 패배후 자기영상 재준비를 실제 위임선택·독립검문 수용. 계약재작성0·원Γ/6비용·LM C24/LVPO보존. AGY본문unavailable/HTTP403·NLM/Claude새답과 원문반박 기록. 원A12재대결자격/A13–14주요좌표·전체역사/배치/G13/G14·Pack0남음·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.

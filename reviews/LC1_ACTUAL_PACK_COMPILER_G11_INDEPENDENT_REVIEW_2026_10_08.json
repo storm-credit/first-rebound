@@ -1,0 +1,105 @@
+{
+  "id": "LC1_ACTUAL_PACK_COMPILER_G11_INDEPENDENT_REVIEW_2026_10_08",
+  "status": "ACCEPTED_SCOPED_COMPILER_GATES_AFTER_TYPED_EXPORT_REMEDIATION",
+  "classification": "INDEPENDENT_CODE_REVIEW_NOT_REAL_STORY_PACK_OR_HISTORY_ACCEPTANCE",
+  "independent_review_completed": true,
+  "reviewed_artifacts_sha256": {
+    "tools/build_lc1_actual_context_packs.py": "c807fec0e5737539f9a9ed69a8359aaebead4477736d32d67bc8e1f37fde9b05",
+    "tests/test_lc1_actual_pack_gates.py": "81ff01e64c93c6dcdbaac88aa4ade7e1501fab21da46c3776f3e9ba71162794a"
+  },
+  "actual_test_run": {
+    "command": "C:/Python314/python.exe -B -X utf8 -m unittest discover -s tests -p test_lc1_actual_pack_gates.py -v",
+    "exit_code": 0,
+    "tests": 6,
+    "pass": 6,
+    "isolated_fixture_Packs_in_test": 42,
+    "fixture_NBA": 33,
+    "fixture_has_real_canon_authority": false,
+    "real_repository_Packs_created": 0,
+    "isolated_runtime_seconds": 0.422
+  },
+  "actual_preconditions_observed": {
+    "design/LC1_FINAL_EPISODE_ALLOCATION_2026_10_08.json": {
+      "exists": false,
+      "authority_acceptance_by_this_review": false
+    },
+    "canon/LC1_FULL_SELECTED_HISTORY_AND_ACT_EXIT_LOCK_2026_10_08.json": {
+      "exists": false,
+      "authority_acceptance_by_this_review": false
+    },
+    "control/LC1_FINAL_EPISODE_BLUEPRINT_AUTHORITY_2026_10_08.json": {
+      "exists": false,
+      "authority_acceptance_by_this_review": false
+    }
+  },
+  "scope": "Compiler supplied-state technical gates only. This review does not accept future selected history, actualepisodeBlueprint, whole14/42/60, actualG14 or manuscriptOPEN. The5tests exercise specified negative cases rather than prove semantic provenance or character knowledge.",
+  "confirmed_guards": [
+    "Supplied locked wholeoriginalhistory flag and14Act/42SubActset",
+    "CLOSED+v0.30PARTIAL+manuscriptfalse onthreecontrols",
+    "Digest of independent review and reviewedallocation/history/blueprints",
+    "ContiguousallNepisodes pluseverySubActallocationand75–85%NBA",
+    "Actual_verified individualBlueprint authority",
+    "Nonempty scenes/POV/access witnesses andknownindexes subsetwitnessedindexes",
+    "OBSERVED_EVENT event_order<=acquired_order<=scene_order",
+    "CANDIDATE/HOLD in fact_evidence refused",
+    "Current content SHA for everyloadedclaimsource",
+    "FACTprimary_provenance_verified flag andINFERENCEvisiblelabel flag",
+    "Output inventory/no silent overwritingchangedexistingPacks"
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "REQUIRED_FIX",
+      "path": "tools/build_lc1_actual_context_packs.py",
+      "area": "allowed_facts export",
+      "reproduction": "Change first isolated fixture claimstatus toINFERENCE, inference_label_visible=true, refreshreviewedinputs, compile_inputs. Accepted bareclaim appears in allowed_facts despite preservedfact_evidence INFERENCE.",
+      "observed_allowed_facts": [
+        "Inferred future teammate consent, explicitly unconfirmed"
+      ],
+      "risk": "Top-level allowed_facts strips epistemicstatus and can promote supplied inference/author-modeledchoice to fact in downstream prompt.",
+      "required_resolution": "Retain all knowledge as typed entries; reserveallowed_facts for factual/canonfunctionalstatus explicitly or use fullytypedallowed_knowledge export. Add targeted regression withtheverifiedINFERENCEinput.",
+      "resolution": "VERIFIED_RESOLVED_CURRENT_FILES",
+      "observed_remediated_export": {
+        "allowed_facts": [],
+        "allowed_knowledge_status": "INFERENCE",
+        "allowed_inferences_status": "INFERENCE"
+      },
+      "repeated_exact_probe_after_fix": true
+    }
+  ],
+  "boundary_observations": [
+    {
+      "area": "CURRENT_PLAN / EXPLICIT_INFERENCE",
+      "limit": "Compiler cannot know if a supplied primary flag/sourcebody or sceneaccessclaim is true. It treats reviewed authority as suppliedtrustedstate. Accesskindalone is no externalfact/clinical/private-consentcertificate."
+    },
+    {
+      "area": "Act/SubAct semantic completeness",
+      "limit": "Setsandwhole_original_scope_complete flag do not reproduceoriginal14/42/60/history audit. Actual独立 acceptancehashmustcome fromreview which reallyauditedwholeinputs."
+    },
+    {
+      "area": "hold_fields andotherBlueprintstructuredfields",
+      "limit": "Copied as restrictions/inputcontext; notintendedfactclaims. Any attemptedpromotionthere requiresindividualBlueprintreview, notthese5unitfixtures."
+    }
+  ],
+  "actual_story_completion_claim": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "Pack": 0,
+  "manuscript": 0,
+  "initial_reviewed_artifacts_sha256": {
+    "tools/build_lc1_actual_context_packs.py": "71b4fb3b1c69b3e6ad4a1b61c86cf98222ec3202878d8b216e06ca99329aab6d",
+    "tests/test_lc1_actual_pack_gates.py": "aa8ed1d9ddf3efa0ec80c7374a84cce6e60df99026ce2d6cef35214fa8479f2b"
+  },
+  "actual_test_run_initial": {
+    "command": "C:/Python314/python.exe -B -X utf8 -m unittest discover -s tests -p test_lc1_actual_pack_gates.py -v",
+    "exit_code": 0,
+    "tests": 5,
+    "pass": 5,
+    "isolated_fixture_Packs_in_test": 42,
+    "fixture_NBA": 33,
+    "fixture_has_real_canon_authority": false,
+    "real_repository_Packs_created": 0
+  },
+  "unresolved_required_finding_count": 0,
+  "current_inputs_not_independently_story_accepted": true
+}
