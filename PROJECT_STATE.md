@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-09 [현재9막 종료 지도 수락](reviews/THREEPEAT_NINE_ACT_EXIT_MAP_CURRENT_ADOPTION_2026_10_09.md): 현재9막+EPI/40권고기능 출구·정보취득/oldcompiler14·42 이행 지도 독립검문 수락. 원중앙9b immutable핀/후행PR529선택 우선; H01/02한정경로·코트 완료→H03–08 실작업6. 독서110/110·질적10/10/S1완료 보존·새재독/전17NBA시즌요구0. 다음C01달력·짧은후일담·9막역사/최종배치/Blueprint·Pack. 최종N/전체역사LOCK·actualPOV/Pack0·새개인상미선택. 미완료4(6번까지3)·v0.30PARTIAL/CLOSED·원고0·일정0. 아래는이전이력.
+
 2026-10-09 [삼연패 우승·마지막 공동코트 채택](reviews/THREEPEAT_2024_25_USED_TITLE_COURT_CURRENT_ADOPTION_2026_10_09.md): 2024DEN4–2/June20·2025MIN4–3/June22/CHI110–109·8시리즈49/32–17을 위임 가상결과로 선택, 새2024공동29블록/학습18초→2025LM독립최종득점·6East부분코트 연결 검문. 2023첫우승 유지/2025삼연패 본편종결·9막. 원UPC·Γ·June서비스/July분리·홈 ordering/NPC조건부 보존; whole시즌/임상/사적장부/개인상 인증0. AGY빈답·NLM등록성공/분석timeout·Claude429/답0 정직기록. 다음9막 역사/배치/Blueprint·Pack. 미완료4(6번까지3)·C01미선택·Nnull·v0.30 PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
 
 2026-10-09 [2024–25 배우 서비스·회전 준비 수락](reviews/THREEPEAT_2024_25_ACTOR_SERVICE_CURRENT_ADOPTION_2026_10_09.md): CHI두시즌15/J20·DEN15/240·MIN기존FY24_15/240 및공식14날짜를독립검문했다. 위임DEN2023 JokicBird5/벤치MIN8가족선택·원Γ/unknown보존·July2025UPC앞당김0. FY23CHI비교와FY24기존B분리. 다음공동코트·두우승대진·LM마지막시계. 완료1–3·미완료4(6번까지3)·Nnull·C01미선택·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는이전이력.
