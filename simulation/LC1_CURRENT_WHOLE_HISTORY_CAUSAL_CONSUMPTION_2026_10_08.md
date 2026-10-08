@@ -1,5 +1,7 @@
 # LC1 현재 전체 역사 인과 소비 준비 — 2026-10-08
 
+2026-10-09 독립 검문 수리: 현재 다음 진입은 다음 회차의 현재 entry로 소비한다(41소막+13막=54전이). 원111/BP의 EP83·EP96 미실행부정은 실제 선택된 2026패배·2028G5 이후 현재 entry로 따로 수리하고 원문을 보존한다. 기존 목록의 아직미실행 next_entry 문장은 JSON `inherited_inventory_next_entry_preserved`에 보존하며 현재 확정 사건을 부정하는 권위로 사용하지 않는다. 최초 입력과 NEEDS_REPAIR 영수증은 `08800acc90df705b6a401fc5acffb16eb107e557` 세대로 보존한다. 새 독립 재검문 전 전체역사/Pack 승격은 없다.
+
 상태: **PREPARED / 독립 인과 의미 검문 대기**. 기준 main `7f45038c81c86425dd65216f31aba06184755258`.
 
 원 인과 모델의 계산 순서로 54개 원문 항목과 14Act·42SubAct를 현재 111회/146개 원 장면에 연결했다. 원 baseline·evidence·status 전체를 JSON의 `original_inventory_row`에 그대로 보존했다. 목록 수와 포인터 검산은 전체 선택 역사 LOCK을 뜻하지 않는다.
