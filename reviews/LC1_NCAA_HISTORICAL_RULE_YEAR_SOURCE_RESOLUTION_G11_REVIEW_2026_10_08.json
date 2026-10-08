@@ -1,0 +1,377 @@
+{
+  "id": "LC1_NCAA_HISTORICAL_RULE_YEAR_SOURCE_RESOLUTION_G11_REVIEW_2026_10_08",
+  "status": "PASS_HISTORICAL_RULE_SOURCE_SCOPE_ONLY",
+  "reviewer": "independent Codex peer /root/lc1_late_contracts",
+  "producer": "root",
+  "review_date": "2026-10-08",
+  "baseline_main": "7f45038c81c86425dd65216f31aba06184755258",
+  "source_branch": "codex/lc1-full-history-causal-consumption",
+  "review_scope": "두 판의 실제 캐시 PDF 바이트와 독립 pypdf 추출에 근거한 7개 역사 규정 출처 행의 조항·발행연도·PDF/인쇄 위치·요약·source5핀 검문. 사건54행 전체 인과 및 개인 사례 실행 검문이 아니다.",
+  "input_SHA256_LF": {
+    "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+    "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.md": "784e707d2b594a0a9f5be38844c10731b5b096585472f14315d6eac1d43497b8"
+  },
+  "source_hash_method": "Repository UTF8 BOM removed/CRLF-CR toLF SHA256; downloadedPDF raw byteSHA separate.",
+  "input_generation_status_preserved": "HISTORICAL_PRIMARY_RULE_TEXT_RECOVERED_PENDING_INDEPENDENT_SCOPE_CHECK",
+  "input_generation_flags_or_prior_receipts_rewritten": false,
+  "source5_pins": [
+    {
+      "path": "research/TIMELINE_ELIGIBILITY_LEDGER.md",
+      "expected_LF_SHA256": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+      "actual_LF_SHA256": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+      "match": true
+    },
+    {
+      "path": "research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md",
+      "expected_LF_SHA256": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+      "actual_LF_SHA256": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+      "match": true
+    },
+    {
+      "path": "research/RIVAL_NCAA_SCHOOL_SELECTION.md",
+      "expected_LF_SHA256": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+      "actual_LF_SHA256": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+      "match": true
+    },
+    {
+      "path": "canon/CAREER_TIMELINE.md",
+      "expected_LF_SHA256": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+      "actual_LF_SHA256": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+      "match": true
+    },
+    {
+      "path": "canon/STORY_BIBLE.md",
+      "expected_LF_SHA256": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "actual_LF_SHA256": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+      "match": true
+    }
+  ],
+  "actual_primary_cache_verification": [
+    {
+      "source_index": 0,
+      "url": "https://ncaa.soutronglobal.net/Public/Default/en-US/DownloadImageFile.ashx?objectId=3865&ownerId=9176&ownerType=0",
+      "cached_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-ncaa-historical\\NCAA_Division_I_2017_18_manual.pdf",
+      "raw_SHA256": "7fd497954ea89e8d3db16713117158e2543549aea09a12950f2d5b7393776cac",
+      "bytes": 1888933,
+      "PDF_pages": 428,
+      "published_year": 2017,
+      "publication_month": "July",
+      "effective_date": "2017-08-01",
+      "legislative_actions_through": "2017-06-28",
+      "cover_and_imprint_independently_extracted": true,
+      "front_page_text_sha256": [
+        "57d81c3936843935d1d448772025ceb8e40a3a7205dd3db75af39f72fde3ebc4",
+        "783fb3fdeadb75b31ae7e0f48ed5fc2e65eb27649bef20becff782fe51d912f4"
+      ]
+    },
+    {
+      "source_index": 1,
+      "url": "https://iuhoosiers.com/documents/download/2018/9/28/2018_19_NCAA_D1_Manual.pdf",
+      "cached_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-ncaa-historical\\NCAA_Division_I_2018_19_manual.pdf",
+      "raw_SHA256": "b9c0749ebb2e1b377dd3de92fdce7cafdbe897656c2a18418d4ff7101dca08ad",
+      "bytes": 2671766,
+      "PDF_pages": 440,
+      "published_year": 2018,
+      "publication_month": "July",
+      "effective_date": "2018-08-01",
+      "legislative_actions_through": "2018-07-05",
+      "cover_and_imprint_independently_extracted": true,
+      "front_page_text_sha256": [
+        "40eb1c56fe496fdba64205b6ba2baff519eabe751c22e32b06c43754e42e1424",
+        "c7acdff6d4f4b689496b93c8e210016ad6316594263c18c5bd5c933b6e9d48fe"
+      ]
+    }
+  ],
+  "independent_extraction": {
+    "library": "pypdf",
+    "method": "PdfReader applied independently to two actual cache files; covers, imprint pages, every indicated rule page and counter supplementary pages actually read",
+    "producer_extracted_text_reused": false,
+    "required_rule_rows": 7,
+    "read_and_accepted_rule_rows": 7,
+    "primary_caches": 2,
+    "source5_pins_matched": 5,
+    "new_remote_fetch_claimed": false
+  },
+  "rule_row_reviews": [
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/0",
+      "id": "NCAA17-INITIAL",
+      "original_E": [
+        "E-003",
+        "E-018"
+      ],
+      "source_index": 0,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        174,
+        175,
+        176
+      ],
+      "printed_pages": [
+        163,
+        164,
+        165
+      ],
+      "bylaws": [
+        "14.3.1",
+        "14.3.1.1",
+        "14.3.1.1.3"
+      ],
+      "published_year_verified": 2017,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "dadc9208d4aa6f51687a4ebbf6f356d7503c01393686bba5028f4e2fbd7ced12",
+        "23e41eb41d666953a67ae5ec23b5bcc0a8af01a1fc06f2a40c54f0f0eed90045",
+        "3842a9b1f298888c1b9b6ed21ade8913a6f39664e9cd3f9c6ac5403db787e9f0"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "고교 졸업과 16핵심과목 및 당시 시험/GPA index, Eligibility Center 인증에 관한 qualifier 요건이 맞다. 같은 인용 페이지의 14.3.1.2는 academic redshirt의 첫해 경기 불가와 제한된 연습 조건을 따로 정한다.",
+      "supplementary_bylaws_on_already_cited_pages": [
+        "14.3.1.2"
+      ],
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/1",
+      "id": "NCAA17-MIXED",
+      "original_E": [
+        "E-004",
+        "E-005",
+        "E-019"
+      ],
+      "source_index": 0,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        175
+      ],
+      "printed_pages": [
+        164
+      ],
+      "bylaws": [
+        "14.3.1.1(a)",
+        "14.3.1.1(c)",
+        "14.3.1.1.1"
+      ],
+      "published_year_verified": 2017,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE_PLUS_SCOPED_APPLICATION",
+      "independent_extraction_text_sha256": [
+        "23e41eb41d666953a67ae5ec23b5bcc0a8af01a1fc06f2a40c54f0f0eed90045"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "14.3.1.1(a)는 공식 성적표를 고교가 직접 또는 대학 입학처를 통해 전달하는 경로를, (c)는 7번째 학기 이전 10과목 중 영어·수학·과학7을, 14.3.1.1.1은 전부 국제 학적에 의한 인증에만 (c) 예외를 정한다.",
+      "inference_disposition": "혼합 한국/미국 프렙 학적에 전부 국제 예외를 자동 적용하지 않는 보수적 판단은 조항에 부합하는 추론이다. 어떤 개인의 실제 적용 결정도 인증하지 않는다.",
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/2",
+      "id": "NCAA18-INITIAL",
+      "original_E": [
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-018",
+        "E-019"
+      ],
+      "source_index": 1,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        176,
+        177,
+        178
+      ],
+      "printed_pages": [
+        165,
+        166,
+        167
+      ],
+      "bylaws": [
+        "14.3.1",
+        "14.3.1.1",
+        "14.3.1.1.1",
+        "14.3.1.1.3"
+      ],
+      "published_year_verified": 2018,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "1d6836cc17e0146bdb2adb351753b0edca5de17a1b8e82e14984a063445f54b8",
+        "e8bfeea6e4153f8167610d558778755a55e4f949142f59474483af01965b50b9",
+        "5bbe988f416e5dff37dc091d95e7b654590ac2c7e44341ef5e9f651f60c379ce"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "2018–19 판에서도 해당 구조의 초기 자격·국제 학적 예외와 시험/GPA index를 해당 페이지에서 확인했다. 14.3.1.2의 qualifier/academic redshirt 차이도 같은 인용 페이지에 있다.",
+      "supplementary_bylaws_on_already_cited_pages": [
+        "14.3.1.2"
+      ],
+      "year_difference_preserved": "2018–19 시험 시행일 문구는 national/state/district를 포함하며 2017–18의 시험 시행일 표현과 완전히 동일하지 않다. 패킷의 같은 핵심과목·시험/GPA 표현을 공통 요건 구조로만 수락하고 모든 절차가 동일하다는 주장으로 확대하지 않는다.",
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/3",
+      "id": "NCAA18-CLOCK",
+      "original_E": [
+        "E-028"
+      ],
+      "source_index": 1,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        91
+      ],
+      "printed_pages": [
+        80
+      ],
+      "bylaws": [
+        "12.8.1",
+        "12.8.1.1"
+      ],
+      "published_year_verified": 2018,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "cc72b0d250eacdd7fc1b8e1fa706e87d511d569af705995fdd227ff674fb8adb"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "최초 정규 학기의 최소 전일제 등록과 그 학기 첫 수업 참석으로 5년 시계가 시작된다. 단순 0경기 재활/레드셔츠는 시계 정지 근거가 아니다.",
+      "exceptions_not_erased": "12.8.1의 군복무 등 예외 및 같은 페이지의 관련 예외를 부정하지 않는다. 어느 가상 인물에게 이 예외를 적용하거나 새 날짜를 선택하지 않는다.",
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/4",
+      "id": "NCAA18-NOCOMP",
+      "original_E": [
+        "E-028"
+      ],
+      "source_index": 1,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        94
+      ],
+      "printed_pages": [
+        83
+      ],
+      "bylaws": [
+        "12.8.3.1"
+      ],
+      "published_year_verified": 2018,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "c2843d5ec1041af54a6aa5242449dbf97f7ed6843586cfe753edbc19b24205af"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "12.8.3.1은 원칙적으로 출전 시간과 무관하게 대학 간 경기 참여를 시즌 사용으로 센다. 원문에 명시된 예외를 보존한 원칙 수준의 요약이다.",
+      "exceptions_not_erased": "같은 페이지의 예외 및 2018년 football의 4경기 예외를 농구 출전 허가로 전용하지 않는다. 0경기 재활과 별도 hardship을 혼동하지 않는다.",
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/5",
+      "id": "NCAA18-HARDSHIP",
+      "original_E": [
+        "E-028"
+      ],
+      "source_index": 1,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        97
+      ],
+      "printed_pages": [
+        86
+      ],
+      "bylaws": [
+        "12.8.4"
+      ],
+      "published_year_verified": 2018,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "e7927c4410df7f67ccc2917fbb058f2ae32d05576695f235f46d35b281d1ec9f"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "12.8.4는 추가 경기연도를 허용할 수 있는 별도 hardship 결정을 다룬다. 원문에는 부상/질병 발생 시점, 시즌 잔여 경기의 참가 불능, 팀 스포츠 제한 경기수(3경기 또는 30% 중 큰 수) 등이 있으며 12.8.4.1에서 결정 담당기관도 구분한다.",
+      "supplementary_bylaws_on_already_cited_pages": [
+        "12.8.4.1"
+      ],
+      "limits_preserved": "추가 경기연도는 5년 시계의 자동 연장과 동일한 개념이 아니다. 가상 인물의 임상 판정·hardship 승인·추가 경기연도를 생성하지 않는다.",
+      "individual_case_certified": false
+    },
+    {
+      "source_JSON_pointer": "/retrieved_rule_rows/6",
+      "id": "NCAA18-COUNTER",
+      "original_E": [
+        "E-034"
+      ],
+      "source_index": 1,
+      "PDF_page_numbering": "zero-based indexes; printed folio is distinct",
+      "PDF_page_indexes": [
+        228
+      ],
+      "printed_pages": [
+        217
+      ],
+      "bylaws": [
+        "15.5.5.1"
+      ],
+      "published_year_verified": 2018,
+      "clause_and_page_locator_verified": true,
+      "paraphrase_supported": true,
+      "classification_accepted": "FACT_HISTORICAL_RULE",
+      "independent_extraction_text_sha256": [
+        "4ecdd93d0c76afceafb4b318cc92a241f0f8f5a1ce015fad4e02fd1f76c810cb"
+      ],
+      "disposition": "PASS_HISTORICAL_RULE_SOURCE_SCOPE",
+      "verified_paraphrase": "15.5.5.1은 남자농구 기관별 total counters 상한을13으로 정한다. 레드셔츠라는 이유만으로 체육장학금 선수를 자동 제외하는 요약이 아니다.",
+      "independent_supplementary_source": [
+        {
+          "bylaw": "15.02.3",
+          "PDF_zero_index": 211,
+          "printed_page": 200,
+          "meaning": "Counter는 종목 재정보조 한도에 계상되는 기관 재정보조 수령자를 뜻한다."
+        },
+        {
+          "bylaw": "15.5.1(a)",
+          "PDF_zero_index": 222,
+          "printed_page": 211,
+          "meaning": "체육능력에 조금이라도 근거한 재정보조를 받는 선수는 수령 연도의 counter가 된다."
+        }
+      ],
+      "exception_limit": "15.5.1.2의 영구 참가불능과 같은 별도 조건을 일시 ACL 재활에 자동 적용하지 않는다. 실제 Gonzaga 장학금 장부나 가상 donor/counter 모델은 인증하지 않는다.",
+      "individual_case_certified": false
+    }
+  ],
+  "MD_consistency": "두 판/인쇄 위치/출처 공백만 해소/개인 사례 HOLD/새 사적 인증 종료요건 없음/CLOSED/Pack0의 MD 요약이 JSON과 일치한다.",
+  "findings": [],
+  "required_repairs": [],
+  "accepted_conclusion": "E-003/004/005/018/019/028/034의 당시 규정 원문 부족은 이 7행의 제한 범위에서 해소된다. 규정 사실과 개인 사례 적용 추론·선택·확정은 구분된다.",
+  "case_and_authority_limits": {
+    "personal_academic_GPA_course_test_or_Eligibility_Center_clearance_certified": false,
+    "fictional_counter_donor_and_aid_acquisition_model_certified": false,
+    "ACL_clinical_or_medical_hardship_decision_certified": false,
+    "A03_exact_calendar_or_full_scene_execution_certified": false,
+    "existing_Villanova_and_Gonzaga_or_ACL_direction_changed": false,
+    "new_private_receipt_or_certificate_completion_requirement_added": false,
+    "new_consequential_author_choice_made": false,
+    "public_medal_or_military_resolution_selected": false,
+    "whole_54_causal_semantics_review_completed_by_this_receipt": false,
+    "whole_G08_selected_history_complete": false,
+    "G11_individual_case_or_whole_completion_claimed": false,
+    "whole_G13_G14_complete": false,
+    "actual_Pack": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  },
+  "tool_disposition": {
+    "local_primary_cache_and_repository_read": "Actually performed independently; raw byte and LF source hashes checked.",
+    "Antigravity_NotebookLM_Claude": "No new calls by this narrow independent peer; producer historical tool receipts not copied as new execution.",
+    "remote_source_retrieval": "No new remote retrieval by this peer; accepting actual cached published manuals within the requested review scope."
+  },
+  "mutation_scope": "Only this new independent review JSON written; producer packet, ledger, canon, status,111 files and git untouched."
+}

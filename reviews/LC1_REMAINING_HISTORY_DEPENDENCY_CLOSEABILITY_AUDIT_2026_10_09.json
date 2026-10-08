@@ -1,0 +1,716 @@
+{
+  "id": "LC1_REMAINING_HISTORY_DEPENDENCY_CLOSEABILITY_AUDIT_2026_10_09",
+  "status": "AUDIT_COMPLETE_REMAINING_AUTHORITY_AND_IMPLEMENTATION_DEPENDENCIES_SEPARATED",
+  "reviewer": "independent Codex peer /root/lc1_late_contracts",
+  "date_local": "2026-10-09",
+  "baseline_main": "7f45038c81c86425dd65216f31aba06184755258",
+  "branch": "codex/lc1-full-history-causal-consumption",
+  "scope": "원14/42/G08 및 원1–6의 C01–C06 잔여 closeability 권위/인과 의미 감사. 새54/42 producer의 완료나 독립 의미 수락은 이 영수증의 범위가 아니다.",
+  "source_hash_method": "SHA256 UTF8 BOM removed CRLF/CR to LF; no historical source repinning",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "PROJECT_STATE.md": "9fd69aac2a6ee847fd5e4422b19e9640e6e1e8570ebd5c866a91ba298b4d3b6a",
+    "canon/PROJECT_FREEZE.md": "f703337ad822ebc298885d5d4310d91c5150825a921bbd8b187d7bff57e48eef",
+    "control/DESIGN_GATE.md": "ff2dd04636e042099264940af9c10977ff94945e6823e6960a32dd5049df8510",
+    "design/WORLD_BIBLE_COMPLETION_ROADMAP.md": "14b418ffee6144fa775639cdb57439af37c6301a4e15594e12484aa22359f19c",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
+    "canon/AUTHOR_CONFIRMED_LC1_LONG_CAREER_COORDINATES_2026_10_08.json": "581e4023b19089ada44a8c6f285119c4f13fe277d38af93962f4b3186db42ae7",
+    "canon/CAREER_TIMELINE.md": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/DRAFT_CAUSALITY_PROTOCOL.md": "537d290638c39356b092a905cce78d1b6e0fb76a43ca6e5fa580d4d2ca67882a",
+    "simulation/2018_DRAFT_22_60_REOPEN.md": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+    "simulation/2018_DRAFT_28_43_EVANS_CASCADE.md": "006be16c10213127352087409c52512dd18bc3d084a4bd1d0588c6ec50fb5bfb",
+    "simulation/2018_DRAFT_37_60_TRENT_CASCADE.md": "1b947c463247fd1c4bfd76cb80df63f2b82aca0cd319c3b7ea53840ea5694c24",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "research/2018_HUTCHISON_24_28_TEAM_BOARD.md": "2eced96d772c5d816f87580f05b0cfc3032469cf020bd5df3f85e9bbc2168a97",
+    "research/TIMELINE_ELIGIBILITY_LEDGER.md": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+    "research/COLLEGE_EXIT_PACKET.md": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+    "control/COLLEGE_ARC_SCOPE_GATE.md": "917fa965f9d6f4e0c639db154f54baa3dd22bc83dbf0aa1bf6990bdce01e0406",
+    "research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+    "research/RIVAL_NCAA_SCHOOL_SELECTION.md": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+    "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+    "reviews/LC1_NCAA_HISTORICAL_RULE_YEAR_SOURCE_RESOLUTION_G11_REVIEW_2026_10_08.json": "8ec480dd0f10f2ac6894510d87b3eea0aa28ea0b95cee62aa0804d9ab6df50f0",
+    "design/A03_POST_TOURNAMENT_HISTORY_BRIDGE_2026_10_07.json": "ab1c6de7955e21652fb7a6f5baf42a09e74b042d84d08800642121a554c71de2",
+    "design/A03_CF03_TOURNAMENT_ROLE_WORKING_MODEL_2026_10_07.json": "53d40c95ae5d9659dd4094bb829584b37df16f95965c85592ea81ed68cef1f74",
+    "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md": "7a4eeac333610f3c8bf11c950e336df4bd4bc72f9f9e65cea65920c83b8e18b4",
+    "simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md": "e242907267c7e1a769df6a75a89aecd0112dde20ec51ae0312b9aa84deba2e70",
+    "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+    "design/A04_E5_FINAL_EPISODE_FUNCTION.json": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944",
+    "design/A05_E4_FINAL_EPISODE_FUNCTION.json": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454",
+    "design/LC1_FULL_SELECTED_HISTORY_AND_ACT_EXIT_LOCK.json": "e4f61bbc57e1f009f41c90c92d1af9d303b5011a220e9d72bd8bd98ac7dac5b4",
+    "design/LC1_CURRENT_R09_PUBLIC_RESULT_AND_MILITARY_AUTHOR_OPTIONS_2026_10_08.json": "ad64a385ea078fb608316ac0fb6e6444e2f295a17b96c63a6a46ecb49264e597",
+    "research/LC1_R09_TOURNAMENT_AND_NM1_AUTHOR_OPTIONS_2026_10_08.json": "2279d9d66e31d50c9ca9c732aec674d0bf35dd83b61e602da3f87e417b5fd7ef",
+    "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md": "843b97ccd7851c8d47fe69fc695ab2530d9d9fcfbb9ed616a8acb28c6fb7aeff",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+    "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json": "2efec5f5e57c02accf5d5bed3ce364ef6f9eeddab55a05d631f1bc24d6b55307",
+    "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+    "simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json": "f3fb709734752810c1b79db46e3bfac2cb6109ceb83105038fef5684a49cbd92",
+    "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/MACRO3_2021_23_SELECTED_DATED_EXIT_JOIN.json": "9ec5e8f0214f2803591536e8658b1dc3a70368187a4a926d6ea63d43f2b0138c"
+  },
+  "live_producer_snapshot": {
+    "path": "simulation/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_2026_10_08.json",
+    "observed_LF_SHA256": "d54238984f5b1addafb93be1074ec795d3a2101b07f53b53756cc5d132e041d5",
+    "observed_status": "PREPARED_CURRENT54_AND_WHOLE14_42_CAUSAL_CONSUMPTION_PENDING_INDEPENDENT_MEANING_REVIEW",
+    "unresolved_fields_consumed": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06"
+    ],
+    "source_input_pending_and_mutable": true,
+    "receipt_does_not_freeze_or_accept_producer": true,
+    "C07_is_independent_peer_dependency_not_completed_by_this_audit": true
+  },
+  "authority_findings": [
+    {
+      "id": "AUTH1",
+      "judgment": "AGENTS 2026-10-02와 후행2026-10-07 범위해석은 건강·시즌·문체 및 같은방향 루틴구현 권한을 보존한다. H00/K1/L2/S1의 당시 구체모델이 이후위임종료일이 아니다. 같은허가 재질문하지 않음."
+    },
+    {
+      "id": "AUTH2",
+      "judgment": "S2는 정확사적장부만 가능한S0가 아니다. 해당법적영역 전체가 규칙을 만족하는 source-supported closed bound/complete branchwitness가 필요하며 null잔액을0 또는임의상한으로 바꾸는 것은 금지. 루틴가상서비스/학업/의료기능설계와 실제privatecertification은 구분."
+    },
+    {
+      "id": "AUTH3",
+      "judgment": "LC1 latest humanacceptance는 NBA5좌표를 해결했다. 원publicmedal/military는 명시적제외, 그 결과 dependentpromotion만 보류. 기존완료1–3/2020전체AUTHOR_LOCK/2019Coby/CHI·Villanova·Gonzaga/0경기재활을 재승인 또는 재기획하지 않음."
+    },
+    {
+      "id": "AUTH4",
+      "judgment": "원대학B완료 범위와 draftannual전수원장/변경지점심층은 동시에 보존한다. 전수원장 의무를 일부현재장면만으로 축소하지 않고, 그 반대로 모든연도all82/전체PBP/개별임상영수증을 새게이트로 증설하지 않음."
+    }
+  ],
+  "dependency_audits": [
+    {
+      "id": "C01",
+      "classification": "CONSEQUENTIAL_AUTHOR_SELECTION_BLOCKS_DEPENDENT_PROMOTION_ONLY",
+      "current_input_pointer": "/unresolved_fields/0",
+      "source_authority": [
+        {
+          "path": "canon/AUTHOR_CONFIRMED_LC1_LONG_CAREER_COORDINATES_2026_10_08.json",
+          "LF_SHA256": "581e4023b19089ada44a8c6f285119c4f13fe277d38af93962f4b3186db42ae7",
+          "json_pointer": "/authority/not_authorized_here"
+        },
+        {
+          "path": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+          "LF_SHA256": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+          "text_anchor": "## 권한을 넘어가는 항목"
+        },
+        {
+          "path": "design/LC1_CURRENT_R09_PUBLIC_RESULT_AND_MILITARY_AUTHOR_OPTIONS_2026_10_08.json",
+          "LF_SHA256": "ad64a385ea078fb608316ac0fb6e6444e2f295a17b96c63a6a46ecb49264e597",
+          "json_pointer": "/current_consequential_choice"
+        }
+      ],
+      "judgment": "공적 2023 AG 메달과 그에 따른 병역 법적 경로는 기존 건강·시즌·문체 위임 및 LC1 NBA5좌표 승인에서 명시적으로 제외된다. 이미 선택된 공동 도전/사적 협력은 금메달·병무청 편입이 아니다. 다음 중요한 작가 선택이 없으면 무중단2024–35·전체선택역사/actual권한/Pack 승격은 실제로 닫히지 않는다.",
+      "genuinely_blocked": [
+        "공적 메달의 selected_outcome",
+        "해당 결과에 의존하는 병역 경로 선택",
+        "기존 uninterrupted_career_condition을 충족한 전체14/42 역사 LOCK 및 무조건적2024–35연속NBA 인증",
+        "이 법적 인과를 요구하는 actual Blueprint/Context Pack 승격"
+      ],
+      "not_blocked": [
+        "이미 독립 검문된 유한 NBA 좌표·서비스·111회 조건부 준비",
+        "C02–C06의 승인 방향 내 법적/역할 구현",
+        "공적 참여 공동일정/보험/권한 비교와 국소 경기 가족 준비"
+      ],
+      "comparison_already_prepared": {
+        "path": "design/LC1_CURRENT_R09_PUBLIC_RESULT_AND_MILITARY_AUTHOR_OPTIONS_2026_10_08.json",
+        "LF_SHA256": "ad64a385ea078fb608316ac0fb6e6444e2f295a17b96c63a6a46ecb49264e597",
+        "json_pointer": "/author_options"
+      },
+      "remaining_material_after_selection": [
+        "기관별 두 선수의 참여권한·보험·기술회의 전 명단 진입을 날짜별 가상 합법 실행으로 연결; 실제 기관 사적 영수증 인증은 아님.",
+        "선택 경로의 상대별 분/포제션·결과 인과와 최종12인의 밀려난 두 선수 비용을 유한 창으로 구현. 비교 패킷의200분 배열만으로 메달을 증명하지 않음.",
+        "금메달 경로라면 각 선수의 별도 편입·교육·544시간·국외허가/훈련 창을 기존 구단 여름/캠프 일정에 연결. 법정 규칙은 실제 당시 원문, 구체 기관 처리 날짜는 명시적 가상 실행으로 구분.",
+        "일반 복무 경로라면 실제 필요한 NBA 공백과 승인 좌표 충돌을 드러내는 비교를 유지; 해외취업·NBA선수 신분으로 영구 연기/면제하지 않음."
+      ],
+      "next_source": {
+        "path": "research/LC1_R09_TOURNAMENT_AND_NM1_AUTHOR_OPTIONS_2026_10_08.json",
+        "LF_SHA256": "2279d9d66e31d50c9ca9c732aec674d0bf35dd83b61e602da3f87e417b5fd7ef",
+        "json_pointer": "/remaining_use_points"
+      },
+      "new_question_issued": false,
+      "selection_executed_here": false
+    },
+    {
+      "id": "C02",
+      "classification": "AUTONOMOUS_SAME_DIRECTION_IMPLEMENTATION_WITH_MANDATORY_DRAFT_CASCADE",
+      "current_input_pointer": "/unresolved_fields/1",
+      "source_authority": [
+        {
+          "path": "canon/CAREER_TIMELINE.md",
+          "LF_SHA256": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+          "text_anchor": "## 2018 NBA 진입"
+        },
+        {
+          "path": "simulation/DRAFT_CAUSALITY_PROTOCOL.md",
+          "LF_SHA256": "537d290638c39356b092a905cce78d1b6e0fb76a43ca6e5fa580d4d2ca67882a",
+          "text_anchor": "### 계산량 통제"
+        },
+        {
+          "path": "canon/AUTHOR_CONFIRMED_LC1_LONG_CAREER_COORDINATES_2026_10_08.json",
+          "LF_SHA256": "581e4023b19089ada44a8c6f285119c4f13fe277d38af93962f4b3186db42ae7",
+          "json_pointer": "/authority/routine_implementation_and_selected_lawful_same_direction_families"
+        }
+      ],
+      "judgment": "Chicago·원클럽·1라운드 표준계약은 이미 승인됐다. 정확22/Hutchison28/Evans37/Trent39의 candidate/HOLD는 생성 당시 미구현 상태이며 그 라벨만으로 새 인간 승인을 요구하지 않는다. 기존 동시대 비교를 사용해 같은 방향의 가상 팀 선택과 합법 계약/권리/분/거래 인과를 구현할 수 있다. 주인공의 팀 이동이나 완료한2020/1–3을 바꿔야 하는 구체적 충돌이 생긴 때에만 중요 선택 경계가 된다.",
+      "currently_available_comparisons": [
+        {
+          "path": "research/2018_HUTCHISON_24_28_TEAM_BOARD.md",
+          "LF_SHA256": "2eced96d772c5d816f87580f05b0cfc3032469cf020bd5df3f85e9bbc2168a97",
+          "text_anchor": "## 동시대 비교"
+        },
+        {
+          "path": "simulation/2018_DRAFT_22_60_REOPEN.md",
+          "LF_SHA256": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+          "text_anchor": "## 인과 분기 B — Golden State 28"
+        },
+        {
+          "path": "simulation/2018_DRAFT_28_43_EVANS_CASCADE.md",
+          "LF_SHA256": "006be16c10213127352087409c52512dd18bc3d084a4bd1d0588c6ec50fb5bfb",
+          "text_anchor": "## 29–43 순차 원장"
+        },
+        {
+          "path": "simulation/2018_DRAFT_37_60_TRENT_CASCADE.md",
+          "LF_SHA256": "1b947c463247fd1c4bfd76cb80df63f2b82aca0cd319c3b7ea53840ea5694c24",
+          "text_anchor": "## 1차 포획 판정"
+        }
+      ],
+      "candidate_description_not_selection": "기존 주 계산선은 P CHI22→Hutchison GSW28→Evans POR37→Trent LAL39→Bonga WAS44→Sanon 미지명/Olimpija이며 대안23/24/35,Evans42/43,Trent42/47 등이 기존 비교에 남아 있다. 이 audit는 어느 결과도 선택하지 않는다.",
+      "required_original_scope": [
+        "22–60 전체39픽 권리 행사팀·가용 선수·변경/유지 사유 전수 원장;1–21선행 및 Doncic–Young 유지",
+        "밀린 선수의 draft rights/표준·stash계약과 분 비용, 다음 거래에서 소실·생성된 자산의 연결",
+        "2019 Spellman–Jones,2019 AD의 Trent/Washington수용·Bonga/Sanon권리,2020 GSW–MIN 보조자산 가치,2021 CHI–WAS–BOS/TrentRFA/Powell부재 경계",
+        "이미 선택된2020 전체보드·2020–21/2021–23와의 호환성 조인; 완료 원본/가격함수/선택 결과 보존"
+      ],
+      "next_action": [
+        "기존 2018 보드를 source-current 행39개로 정규화하고 매 단계 available set/원보유·권리이전·팀별 비교를 기록한다. deep scan은 변화 지점만 수행한다.",
+        "우세 후보와 기존 대안을 함께 재검문한 뒤 총괄이 같은방향 루틴 AUTHOR_DELEGATED_DESIGN_SELECTION을 기록할 수 있다. 공개 워크아웃/팀철학 근거와 가상 내부판단을 구분한다.",
+        "P/Hutchison1R rookie-scale와 Evans/Trent2R non-scale, Bonga stash와 SanonNBArights없음 등을 당시2017CBA/공식 거래/계약 급여 출처에 연결한다. 원22가격을 다른 순번 가격으로 조용히 덮어쓰지 않는다.",
+        "후속 자산/분 가족은 이미 완료한 2020·macro2/3의 채택된 증인과 연결하고, 과거의 미완 당시 상태를 현재 미완으로 복원하지 않는다. 실제 충돌이면 새 조정 패킷에서 반례를 보고한다."
+      ],
+      "next_public_source_targets": [
+        "원문서에 연결된 NBA2018trade tracker/구단 지명·워크아웃 본문",
+        "당시2017CBA rookie-scale/2R계약 및 권리 조항",
+        "2019 AD/2020 GSW–MIN 공식 이동과 실제 계약·분 기준선,2021이미 채택된 변경 거래/Trent가격 가족"
+      ],
+      "private_proof_not_completion_gate": "실제 Lakers/Washington/GSW의 비공개 보드가 공개될 때까지 기다릴 필요는 없다. 사실을 주장하지 않고 동시대 공개 근거에 부합하는 가상 선택·불확실성·반증을 기록한다.",
+      "not_optional_due_to_no_current_scene": true,
+      "new_human_approval_required_from_HOLD_label_alone": false,
+      "selection_executed_here": false,
+      "existing_selected_2021_23_cascade_ports_to_match": [
+        {
+          "id": "C02-T4-AUTHOR",
+          "source": {
+            "path": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+            "LF_SHA256": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+            "json_pointers": [
+              "/approved/T4"
+            ]
+          },
+          "selected_current_state": "실제 작가 승인 T4: Norman Powell TOR 잔류, Rodney Hood POR 잔류.",
+          "required_2018_prequel_join": "2018 변경 경로가 Trent를 POR로 돌려 실제2021 Powell–Trent/Hood 거래를 복원해서는 안 된다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-F1-T4-CLOSED",
+          "source": {
+            "path": "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+            "LF_SHA256": "2efec5f5e57c02accf5d5bed3ce364ef6f9eeddab55a05d631f1bc24d6b55307",
+            "json_pointers": [
+              "/selected_execution/approved_event_links/0",
+              "/selected_execution/approved_event_links/4",
+              "/resolved_previous_A2_named_connections/1",
+              "/resolved_previous_A2_named_connections/3",
+              "/resolved_previous_A2_named_connections/4"
+            ]
+          },
+          "selected_current_state": "2021-03-25 선택 완료: Gafford CHI→WAS/Kornet CHI→BOS/Wagner WAS→BOS/Theis BOS→CHI/Green BOS→CHI; Brown·Trent WAS 보유. T4 Powell TOR/Hood POR/Trent WAS; 원 Powell/Trent/Hood 이동 생략. WAS44 finite tender, Bonga opening NBA표준계약0, GSW28 O3 조건 operating family 및 origin/control60 이미 소비됐다.",
+          "required_2018_prequel_join": "2019 AD 가상 자산과 Trent WAS 표준서비스·Bird 연속성, Brown 보유, Bonga stash/후속 X6가 이 완료 포트에 들어와야 한다. 원5인 거래/선택60 소속을 다시 바꾸지 않는다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-GSW28-O3",
+          "source": {
+            "path": "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json",
+            "LF_SHA256": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+            "json_pointers": [
+              "/authority",
+              "/operating_events/0",
+              "/operating_events/1",
+              "/operating_events/2",
+              "/operating_events/3",
+              "/operating_events/4",
+              "/constructed_financial_family"
+            ]
+          },
+          "selected_current_state": "기존 후기 채택은 conditional GSW28 operating family이며 exact landing AUTHOR_LOCK는 아직 false. 2018 RSC2 guaranteed→2019-10-31 third option→2020-02-06 Russell/Spellman/Hutchison MIN, Wiggins GSW; 원2021first/second 자산 그대로. 2020-11-24 Hutchison/Spellman/MIN2026_2R NY, Davis MIN→2020-12-09 NY working waiver/full protected charge/option4 비행사.",
+          "required_2018_prequel_join": "2018 GSW28 비교·실제 가상선택/요구tender/RSC·분→2019 option→2020 거래가 이 조건모델의 ancestor가 되도록 명시한다. 아직 conditional landing를 실제작가 직접선택/사적서명으로 오인하지 않는다. 기존 Γ·가격범위·waiver비용을 0으로 지우거나 새 실제계약 인증으로 승격하지 않는다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-POR37-CURRENT",
+          "source": {
+            "path": "simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json",
+            "LF_SHA256": "f3fb709734752810c1b79db46e3bfac2cb6109ceb83105038fef5684a49cbd92",
+            "json_pointers": [
+              "/selected_policy/JacobEvans",
+              "/selected_registration/standard",
+              "/selected_role_minutes",
+              "/butterfly_handoff"
+            ]
+          },
+          "selected_current_state": "POR named15에 Jacob Evans와 Hood, Trent/Powell 없음. Evans는 POR37 2R non-scale: 기존UPC live면 유지; 만료면 적시 applicableRFAQO+자체 합법 minimum1yrUPC, 원earned/protectedΓ 보존. Evans SG6; Hood SG8/SF12.",
+          "required_2018_prequel_join": "2018 Evans POR37 non-RSC 실제가상서비스→2021 current ownFA/retained family를 연결한다. GSW28 Evans 실제역사의 rookie-scale/NYwaiver를 복사하지 않는다. PowellPOR/CovingtonLAC 및 CJ/NanceNOP 실제Feb2022 연쇄는 이미 미수입; 이를 재삽입하지 않는다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-WAS39-44-CURRENT",
+          "source": {
+            "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+            "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+            "json_pointers": [
+              "/lawful_contract_family/9",
+              "/selected_policy/Bonga",
+              "/selected_registration/standard",
+              "/selected_role_minutes"
+            ]
+          },
+          "selected_current_state": "Trent WAS FULL_BIRD3 nonoption q[10m,14m]∩min/max, flat, full protection/oldΓQOclaims 보존; Brown WAS15, Bonga표준0. Bonga는 선택X6 nonprofessional-development/2021 noRedraft/RookieFA, foreverexclusive0. Trent SG16/SF12=28분.",
+          "required_2018_prequel_join": "2018 LAL39 Trent 3season non-scale UPC→2019 WAS assignment→2021 Bird/QO 조건을 공개권리법+가상선택으로 연결한다. 현재 family 문자열 original2018POR3seasons 및 secondround37은 원실제참조 라벨이며 현재 LAL39 서비스선택을 뜻하지 않는다. 후속 prequel packet에서 HISTORICAL_REFERENCE로 구분하고, 39도2R/noRSC/QO/Bird승계임을 명시해 가격함수/현WAS3season을 바꾸지 않는다. Bonga WAS44 stash/2018–21 nonprofessional branch→2021 noRedraft에 연결한다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-2021-AP1-SG16",
+          "source": {
+            "path": "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json",
+            "LF_SHA256": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+            "json_pointers": [
+              "/chosen_path",
+              "/selected_rows/15",
+              "/event_trace/17",
+              "/final_asset_ownership",
+              "/summary"
+            ]
+          },
+          "selected_current_state": "선택T1_AP1_AND_SG16: BOS origin16→AP1 OKC select Sengun→SG16 unsignedrights HOU. HOU DET_FIRST_OR_2027_SECOND/WAS_FIRST_OR_2026_2027_SECONDS→OKC. full60 alreadyselected; MIN7 Franz GSW/MIN36 Sharpe OKC, GSW14 Bouknight; CHI10 Duarte/39 Wieskamp.",
+          "required_2018_prequel_join": "GSW–MIN의 기존2021claim/원control→선택2021AP1/SG16 권리소유를 보존한다. 과거 G7 후보/HOU16 가정만으로 원 실제보드/직접HOU선택을 재복사하지 않는다. 2021sourceflag notwholemacro3complete는 그파일당시 범위이며 후행 완료를 재개방하는 것이 아니다.",
+          "current_outcome_reopened_here": false
+        },
+        {
+          "id": "C02-MACRO3-FINAL-BOUNDARY",
+          "source": {
+            "path": "simulation/MACRO3_2021_23_SELECTED_DATED_EXIT_JOIN.json",
+            "LF_SHA256": "9ec5e8f0214f2803591536e8658b1dc3a70368187a4a926d6ea63d43f2b0138c",
+            "json_pointers": [
+              "/Chicago_pick_claims",
+              "/selected_J16_contract",
+              "/selected_season_dependencies",
+              "/finite_original_macro3_dependency_join_complete"
+            ]
+          },
+          "selected_current_state": "macro3 selected completed: CHI2023_1R CHI/omittedVucevic; CHI2023_2R WAS protectionremoved2019-07-07/P1candidate notselected/noLALforward; MarkkanenM1 originalDEN2R→CHI없음. J16 Jaquez CHI2023-06-22→July7RSC. FY21 CHI52–30,Apr30_2022elim; FY22 CHI46–36 and existingleague/postseason selected families.",
+          "required_2018_prequel_join": "2018–19 원보유와 2019WAS/CHI 자산은 이 현재2023 claim과 호환돼야 한다. 선택한2020전체60/2021full60/후속J16·연간결과를 수정하거나 전31년82경기·미래계약센트새게이트를 추가하지 않는다.",
+          "current_outcome_reopened_here": false
+        }
+      ],
+      "compatibility_repair_vs_reapproval": "Trent 원POR37 historical-reference 라벨과 현재가상LAL39 service ancestor 구분은 source semantics 교정이다. 같은3season2R→WAS Bird 조건을 연결할 수 있으면 새 중요선택이 아니며 가격/팀/기완료 시즌 재선택이 아니다. 구체법적 반례로 이 연결이 불가능한 때에만 기존확정 침범 여부를 총괄에 보고한다."
+    },
+    {
+      "id": "C03",
+      "classification": "AUTONOMOUS_NCAA_CAPACITY_AND_ROLE_IMPLEMENTATION",
+      "current_input_pointer": "/unresolved_fields/2",
+      "source_authority": [
+        {
+          "path": "research/RIVAL_NCAA_SCHOOL_SELECTION.md",
+          "LF_SHA256": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+          "text_anchor": "## 결론"
+        },
+        {
+          "path": "research/RIVAL_NCAA_SCHOOL_SELECTION.md",
+          "LF_SHA256": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+          "text_anchor": "## 3. 입학·장학금 안전선"
+        },
+        {
+          "path": "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json",
+          "LF_SHA256": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+          "json_pointer": "/retrieved_rule_rows"
+        },
+        {
+          "path": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+          "LF_SHA256": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+          "text_anchor": "## 근거와 적용"
+        }
+      ],
+      "judgment": "Gonzaga 체육장학금 입학·2018–19 공식0경기 전통 레드셔츠·2019–20 선발SG/SF 외곽창조·WCC 정규/토너먼트 우승은 이미 선택된 방향이다. 합법13counter와 분/터치 donor, 대표Oregon/WCC창을 지정하는 동일 방향 구현은 자율 진전 가능하다. 실제 학적·의료영수증 미회수는 새 인간 승인/사적 증명 완료요건이 아니다.",
+      "required_implementation": [
+        "2018–19 Rival1counter의 명의/취득·유효 학업/입학/등록의 역할 분리와 전체<=13 용량",
+        "2019–20 Rival투입의 실명 가드/윙 분·시작권·터치 donor 및 실제 핵심 Ayayi/Kispert/Petrusev 역할 보존",
+        "시즌 가용/보상/WCC경로와 포스트시즌 취소의 연속 연결",
+        "Oregon대표감속/클로징 및 Saint Marys WCC결승 대표기능에서 바뀐 분/공격기회/기여·결과 인과"
+      ],
+      "next_action": [
+        "2018–19/2019–20 공식 로스터·모집/이적 공지와 공개 aid 근거를 먼저 목록화하고, 실제 공개 로스터 숫자를 private counter장부로 오인하지 않는다.",
+        "빈 적법자리를 입증하거나 원 한 counter 변경을 비교해 명명된 가상 취득/이탈 경로와 <=13 합동 가족을 선택한다. 원 선수의 학업장학금/walk-on을 근거 없이 체육장학금 면제로 재분류하지 않는다.",
+        "Gilder/Woolridge 및 Ayayi/Kispert/Petrusev 등 당시 선수의 기준 분·터치에서 역할 겹침을 비교한다. 어느 donor도 이 audit가 선택하지 않으며 공격·수비·볼 없는 역할을 함께 남긴다.",
+        "Oregon225분(원OT 기준)/WCC결승200분의 양팀 기준 박스를 읽고 선택가상가용/분·포제션 witness를 유한 대표창에 연결한다. 실제73–72/84–66·31–2/15–1을 Rival삽입 뒤 자동 확정하지 않는다.",
+        "2018입학 첫 전일제 수업의 relative/finite선택과 5년clock,0경기·무hardship 및 2019복귀의 가상 기능검사/부하를 연결한다. 실제 임상 판정/허가 문서를 요구하거나 출전0을 clock정지로 바꾸지 않는다."
+      ],
+      "next_public_source_targets": [
+        "gozags.com 2018–19와2019–20 official rosters/signings/transfers/seasonstats",
+        "Gonzaga Oregon 2019-11-28 공식box와 Saint Marys 2020-03-10 공식box/일정",
+        "복원된2018–19manual §15.5.5.1,§15.5.1(a),§15.02.3,§12.8.1/3/4 및 초기자격 조항"
+      ],
+      "private_proof_not_completion_gate": true,
+      "no_school_or_ACL_direction_reapproval_needed": true,
+      "cross_case_legal_repair_ref": "NCAA-CATEGORY-ENGLISH-4",
+      "actual_case_or_full_season_accepted_here": false,
+      "selection_executed_here": false
+    },
+    {
+      "id": "C04",
+      "classification": "REQUIRED_USED_ROLE_CAUSALITY_WITH_UNUSED_EXACT_SEASON_BOX_DETAILS_EXCLUDED",
+      "current_input_pointer": "/unresolved_fields/3",
+      "source_authority": [
+        {
+          "path": "control/COLLEGE_ARC_SCOPE_GATE.md",
+          "LF_SHA256": "917fa965f9d6f4e0c639db154f54baa3dd22bc83dbf0aa1bf6990bdce01e0406",
+          "text_anchor": "## 지금 확정하지 않는 것"
+        },
+        {
+          "path": "research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md",
+          "LF_SHA256": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+          "text_anchor": "### B안 분배 안전선"
+        },
+        {
+          "path": "design/A03_POST_TOURNAMENT_HISTORY_BRIDGE_2026_10_07.json",
+          "LF_SHA256": "ab1c6de7955e21652fb7a6f5baf42a09e74b042d84d08800642121a554c71de2",
+          "json_pointer": "/authority_split"
+        },
+        {
+          "path": "design/A03_CF03_TOURNAMENT_ROLE_WORKING_MODEL_2026_10_07.json",
+          "LF_SHA256": "53d40c95ae5d9659dd4094bb829584b37df16f95965c85592ea81ed68cef1f74",
+          "json_pointer": "/limits"
+        }
+      ],
+      "judgment": "대학 구간은 명시적으로 최소B범위 완료이며40경기 전체분/스탯·시즌 백과는 완료 요건으로 선택하지 않았다. 원8075와40경기는 실제 기준선이다. 현재 사용한 P한정역할과 우승 뒤의 A04평가 인과를 연결해야 하지만 모든 가상 개인박스/PBP를 새 종료게이트로 만들 수 없다.",
+      "genuinely_required": [
+        "현재 선정한 낮은사용 후순위 역할의 분/공로가 어디서 나오는지 보존 가능한 가족",
+        "이미 수락된 TexasTech11분 증인 재사용 및 당일200분/코어리바운드 공로 한계 유지",
+        "Kansas/Michigan 이후 팀 우승 소속과 개인NBA공격미완성의 인과 다리 및 정본 우승 방향",
+        "실제로 P의 정확 파이널 출전·개인스탯을 사용한다면 그 사용창만 명시적 가상 분/결과 증인"
+      ],
+      "not_original_completion_requirements_if_unused": [
+        "40경기 모든 가상 선수 박스/개인 점수·리바운드·효율",
+        "Kansas/Michigan의 미사용 P정확stint/초단위 개인박스",
+        "정본 낮은사용역할에 영향 없는 수업/기숙사/상대 백과",
+        "실제8075분이 모든 대체세계에도 같은OT로 고정된다는 인증"
+      ],
+      "next_action": [
+        "32–36GP/0GS/8.5–10.5MPG 및 시즌총275–380분 범위가 동시에 성립하는 합동 역할 가족을 기준 총분·후순위/코어 donor상한에 연결한다. 실제선수 전체 공로를 삭제하거나 분을 중복하지 않는다.",
+        "기존11분창은 다시 작성하지 않는다. A03→Kansas/Michigan우승→A04전환의 같은방향 가상 결과/정보취득을 후행소비로 연결하되 원 publicscore와 alternateproof를 구분한다.",
+        "현재 장면이 새로운 P파이널 공로를 요구하지 않으면 그 exactstint/box를 null/HOLD로 유지해도 된다. 사용하는 경우만 두 공식box와200분 국소교대를 연결한다."
+      ],
+      "next_public_source_targets": [
+        "Villanova2017–18 공식 seasonstats/roster와 선택된 역할 donor상한",
+        "Villanova Kansas2018-03-31/Michigan2018-04-02 officialboxes 및 DiVincenzo 공적 MOP기준",
+        "기존TexasTech source/witness의200분 및 제한 공로"
+      ],
+      "routine_implementation_can_continue": true,
+      "all40_or_fullPBP_new_gate_for_localAct": false,
+      "preserved_COLLEGE_ARC_SCOPE_COMPLETE": true,
+      "selection_executed_here": false
+    },
+    {
+      "id": "C05",
+      "classification": "AUTONOMOUS_DEVELOPMENT_AND_CONTACT_OUTCOME_IMPLEMENTATION_WITH_PROVISIONAL_LIMITS",
+      "current_input_pointer": "/unresolved_fields/4",
+      "source_authority": [
+        {
+          "path": "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md",
+          "LF_SHA256": "7a4eeac333610f3c8bf11c950e336df4bd4bc72f9f9e65cea65920c83b8e18b4",
+          "text_anchor": "## 맹점과 다음 실행"
+        },
+        {
+          "path": "simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md",
+          "LF_SHA256": "e242907267c7e1a769df6a75a89aecd0112dde20ec51ae0312b9aa84deba2e70",
+          "text_anchor": "## C. 선수별 순변화"
+        },
+        {
+          "path": "canon/STORY_BIBLE.md",
+          "LF_SHA256": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+          "text_anchor": "## 주인공 프로 전환"
+        },
+        {
+          "path": "simulation/DRAFT_CAUSALITY_PROTOCOL.md",
+          "LF_SHA256": "537d290638c39356b092a905cce78d1b6e0fb76a43ca6e5fa580d4d2ca67882a",
+          "text_anchor": "## 계산 사슬"
+        }
+      ],
+      "judgment": "CHI73GP/11GS/1274:02 및 실명receiver/donor는 provisional 역할선이다. 그 선을 개인득점/승패로 소급 승격하지 않는다. 계약신분을 유지한 별도 개발 배정 및 복귀의 한정 현재 기능은 이미 수락됐다. 명명배정/귀환의 날짜를 가상 운영 선택으로 확정할 수 있으며 실제 사적 call-up/assignment영수증은 새 종료요건이 아니다.",
+      "already_supported": [
+        "894:37 Hutchison기준+379:25타선수순차감=1274:02P",
+        "P없는4일 receiver96:35,후반33경기476분 실명donor",
+        "1월11Wisconsin/12Greensboro WindyCity홈개발 후보와 NBA1월9/11/12제외",
+        "표준계약·급여·recall권 유지,TW전환/roster자리vacate/징계workassignment금지"
+      ],
+      "required_if_current_promoted": [
+        "C02와 같은2018 P표준UPC/당시법/계약연차 joining",
+        "배정·귀환·여행/가용성을 NBA/GL양쪽 날짜에 중복 없이 명시적선택",
+        "선택한 GL2사용창의 donor와 실제 개발행동/정보취득·다음NBA한정복귀 causal link",
+        "원2019 Coby지명에 닿는 CHI승수/로터리/픽권리 입력의 보존 가능한 접촉 결과 가족"
+      ],
+      "optional_exact_details_if_not_claimed": [
+        "GL개인 exactbox/득점·승패",
+        "P73경기 모든개인득점/리바운드/온오프",
+        "지각 정확몇분·근거없는 벌금/급여삭감",
+        "기존한정복귀기능에 불필요한 새대표경기/선발권"
+      ],
+      "next_action": [
+        "원1월7–13 후보 창과 공개 홈경기/CHI원정 일정·2017CBA assignment규칙을 대조해 총괄이 배정/귀환운영을 명시적으로 선택한다. 예전본의 후보 상태는 보존한다.",
+        "26+26 GL분 후보를 당일 실명donor/양수출전 선수와 연결하고 NBA분 반환96:35를 동시에 소비한다. 실제기록을 P생산으로 복사하지 않는다.",
+        "1274:02는 유지한 채 기존 결과법의 같은날짜P/donor/receiver 생산성·부하 및 변경 접촉결과를 연결한다. 채택된 Coby2019·2020AUTHOR_LOCK·완료1–3을 새 모델로 조용히 덮어쓰지 말고 호환성 증인/한계를 기록한다.",
+        "GL/개인 박스를 사용하지 않는 장면은 한정 선택/비용/역할변화로 유지한다. 모든17시즌에 새all82/PBP/사적계약관측 gate를 복제하지 않는다."
+      ],
+      "next_public_source_targets": [
+        "Windy City 원2018–19공식 홈일정과 Wisconsin/Greensboro 1월11/12 box",
+        "CHI/Hutchison2018–19 official game logs 및 기존 reserve allocation",
+        "당시2017NBA–NBPA CBA assignment·정규UPC/권리 규정",
+        "원2019 Coby7 지명·당시CHI순위/로터리/픽지배권 기준과 이미선택된2020보드"
+      ],
+      "routine_implementation_can_continue": true,
+      "new_question_for_exact_assignment_dates_needed": false,
+      "selection_executed_here": false
+    },
+    {
+      "id": "C06",
+      "classification": "SPLIT_USED_DIRECTION_FROM_UNUSED_PRECISION_OR_PRIVATE_ACCESS",
+      "current_input_pointer": "/unresolved_fields/5",
+      "source_authority": [
+        {
+          "path": "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md",
+          "LF_SHA256": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+          "text_anchor": "## 결론"
+        },
+        {
+          "path": "research/COLLEGE_EXIT_PACKET.md",
+          "LF_SHA256": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+          "text_anchor": "## 6. 대학 범위 종료 판정"
+        },
+        {
+          "path": "design/A04_E5_FINAL_EPISODE_FUNCTION.json",
+          "LF_SHA256": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944",
+          "json_pointer": "/approved_direction_and_unselected_details"
+        },
+        {
+          "path": "design/A05_E4_FINAL_EPISODE_FUNCTION.json",
+          "LF_SHA256": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454",
+          "json_pointer": "/beats"
+        }
+      ],
+      "judgment": "C06全体を不要と判定하지 않는다. PUMA/adidas와 기관별학업/입학/등록의 기존 방향·행동 비용은 이미 사용되는 입력이며 유지해야 한다. 다만 현재 장면이 소비하지 않는 가격·정확시험점수·NLI날짜·광고촬영/발매·Kobe사적접근·Jordan/Shaq비밀권한은 현재 최종기능 완료 조건이 아니다.",
+      "field_dispositions": [
+        {
+          "field": "Kobeprivateaccess",
+          "classification": "CURRENT_SCENE_UNUSED_ACCESS_HOLD_NOT_NEW_EXIT_GATE",
+          "evidence": [
+            {
+              "path": "research/TIMELINE_ELIGIBILITY_LEDGER.md",
+              "LF_SHA256": "3975f04f7c9d6631140c1e1fd70b187b80a58f8a79b6c0207d9ea2aaadfa4763",
+              "text_anchor": "E-010"
+            },
+            {
+              "path": "design/A05_E4_FINAL_EPISODE_FUNCTION.json",
+              "LF_SHA256": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454",
+              "json_pointer": "/beats"
+            }
+          ],
+          "judgment": "2019짧은Kobe훈련 방향1회는 이전 선택이므로 삭제하지 않는다. 현재 A05-EF-004 R4-1..4는 약한손/조기이양/가상팀지시이며 Kobe초대/발언을 소비하지 않는다. E010의해당episode연결만으로Kobe행동이실행됐다고 보지 않는다. 실제이용시 날짜/초청자/장소·권한을 좁은 명시적 가상접근으로 선택하거나 공개기준선만 사용할 수 있으나 새로운 비밀제자/유언은 금지."
+        },
+        {
+          "field": "exactadmissionscores_offerNLI",
+          "classification": "EXACT_NUMERIC_PRECISION_UNUSED_BUT_INSTITUTIONAL_SEQUENCE_REQUIRED",
+          "evidence": [
+            {
+              "path": "research/COLLEGE_EXIT_PACKET.md",
+              "LF_SHA256": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+              "text_anchor": "## 4. SAT/ACT 네 안"
+            },
+            {
+              "path": "control/COLLEGE_ARC_SCOPE_GATE.md",
+              "LF_SHA256": "917fa965f9d6f4e0c639db154f54baa3dd22bc83dbf0aa1bf6990bdce01e0406",
+              "text_anchor": "## 대학 구간 완료에 필요한 최소 3개"
+            }
+          ],
+          "judgment": "정확 SAT한점수/개별NLI일은 사용 시점만 연다. fullqualifier·학업/athletics승인·입학/등록의 역할순서를 생략할 수는 없다. 후보GPA/시험/16과목 공동적법범주 증인은 자율 구현 가능하며 NCAA-CATEGORY-ENGLISH-4 교정은 필요."
+        },
+        {
+          "field": "shoecash_term_campaign_signing",
+          "classification": "USED_BRAND_DIRECTION_EXACT_COMMERCIAL_TERMS_UNUSED",
+          "evidence": [
+            {
+              "path": "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md",
+              "LF_SHA256": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+              "text_anchor": "### 주인공 계약 안전선"
+            },
+            {
+              "path": "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md",
+              "LF_SHA256": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+              "text_anchor": "### 라이벌 계약 안전선"
+            }
+          ],
+          "judgment": "PUMA/adidas 브랜드와 제한적투자/시장압력 방향은 유지한다. NCAA전유료NIL금지·프로전환뒤계약·신인시그니처금지의 시간순서는 필요하다. 현금/기간/실명촬영·PE발매를 현재 장면·재정에 쓰지 않으면 상세가격은 HOLD로 남길 수 있다. 실제브랜드사적계약서는 새 완료요건이 아니다."
+        },
+        {
+          "field": "Jordan_Shaqprivateauthority",
+          "classification": "CURRENT_UNUSED_NOT_REQUIRED_AND_ROLE_EXTRAPOLATION_FORBIDDEN",
+          "evidence": [
+            {
+              "path": "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md",
+              "LF_SHA256": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+              "text_anchor": "## 6. 실존 유명인 관계 예산"
+            }
+          ],
+          "judgment": "Jordan/Shaq의 기본 공개브랜드/방송기준선만 있으며 현재사적멘토나2018/2020서명권한은 선택되지 않았다. 이들의 사적권한을 만들어 종료하지 않는다. 필요없으면 출연하지 않는 원규칙 유지."
+        }
+      ],
+      "next_action": [
+        "현재111/원146장면이 실제 소비하는 각 상업/기관 주장만 source/시점/정보취득에 대조한다. unusedexactfields는 HOLD/미사용으로 남기며 전체 승인 방향 자체를 삭제하지 않는다.",
+        "현금·촬영일·Kobe접근을 다음 장면에서 실제로 소비할 때만 필요한 가상 합법 가족/권한·일정을 자율 구현하고 source fact와 구분한다."
+      ],
+      "new_human_approval_needed_for_unused_precision": false,
+      "selection_executed_here": false
+    }
+  ],
+  "concrete_same_direction_repair": {
+    "id": "NCAA-CATEGORY-ENGLISH-4",
+    "classification": "REAL_CATEGORY_WITNESS_DEFECT_IF_USED_NOT_NEW_AUTHOR_GATE",
+    "original_source": {
+      "path": "research/COLLEGE_EXIT_PACKET.md",
+      "LF_SHA256": "35eb39485818bbedb7d0b6d23b68c686fb18e0055151027309dbf9c45be692dd",
+      "text_anchor": "## 3. NCAA 핵심과목 범주표"
+    },
+    "historical_rule_source": {
+      "path": "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json",
+      "LF_SHA256": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+      "json_pointer": "/retrieved_rule_rows/0"
+    },
+    "rule_locator": "2017–18manual14.3.1.1(a),PDFindex175/printed164; independently read by preceding narrow NCAA review",
+    "actual_counterexample": "원영어 후보 한국2.0+프렙1.0–1.5=3.0–3.5 < 당시영어4년 최소. 총16가능 문구만으로 각필수영역을 만족하지 않는다.",
+    "disposition": "원표가 candidateunits/개인환산HOLD이므로 이미완료한A02기능/학교선택/대학B범위를무효화하지 않음. 다만 정확자격범주 합법가족으로 소비할 때 수리해야 함.",
+    "authorized_next_action": "새후행 같은방향 가상범주구현에서 영어누적>=4(한국2.0 인정가족이면 프렙영어>=2.0) 및 수학>=3/과학>=2/추가EMS>=1/사회>=2/추가핵심>=4,총16·7번째학기전10/7·GPA/당시SAT환산·졸업/기관권한을 함께 만족하는 비공집합 가족으로 교정. 과목별사적성적표·실제기관환산 결과나새학교방향을발명하지 않음.",
+    "repairs_executed_here": false,
+    "new_author_choice_or_private_certificate_requirement": false,
+    "implementation_assignment_note": "총괄이 English4년 교정 구현을 별도 final_payoff 패킷에 배정했다. 이 audit는 현 producer54/99핀이나 candidate 원문을 수정하지 않는다."
+  },
+  "original_annual_draft_and_scope_preservation": {
+    "source": {
+      "path": "simulation/CAUSALITY_MODEL.md",
+      "LF_SHA256": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+      "text_anchor": "## 연도별 드래프트·이적 운영 순서"
+    },
+    "source_detail": {
+      "path": "simulation/DRAFT_CAUSALITY_PROTOCOL.md",
+      "LF_SHA256": "537d290638c39356b092a905cce78d1b6e0fb76a43ca6e5fa580d4d2ca67882a",
+      "text_anchor": "### 계산량 통제"
+    },
+    "required": "2018이후 매년 실제기준선/선택앞해입력/픽원소유·보호·양도·teamboard·roster/downstream효과를 원장전수대조. 달라진 입력과 접촉 지점만 심층검토.",
+    "annual_control_or_original39pick_scope_reduced_here": false,
+    "current_finite_targets_equal_full_uninterrupted_career_claim": false,
+    "permitted_compact_implementation": "무변경은 같은입력/가용선수/권리 확인 근거로 짧게UNCHANGED. 변경선수는 명명 취득/계약·분·후속권리 조인. 실제공개역사와2030이후선택가상법/시장을분리. 미지명선수 삭제/실존위치 자동복원 금지.",
+    "no_new_gate": [
+      "31년all82강제검문",
+      "매후기연도새15minimum계약반복",
+      "전시즌개인박스/PBP",
+      "비공개구단보드/기관학적/clinical영수증 무한대기"
+    ],
+    "already_completed_prior_work_reopened": false
+  },
+  "conclusion": {
+    "new_consequential_author_selection_dependency_clusters": 1,
+    "cluster": "C01 publicmedal/military only within auditedC01–C06",
+    "autonomous_core_implementation_clusters": [
+      "C02",
+      "C03",
+      "C04_used_roles_only",
+      "C05"
+    ],
+    "unused_precision_and_access_details": "C06 has mixed subfields; preserve useddirection/institutionalguards and do not make unusedprecision exitgates.",
+    "C01_pending_is_not_a_reason_to_stop_other_authorized_work": true,
+    "no_selection_or_roster_replacement_executed_by_this_audit": true,
+    "completed54_or42_semantics_accepted": false
+  },
+  "recommended_next_sequence_without_new_question": [
+    "후행 NCAA 합법범주 영어4년 교정과 Gonzaga13counter·명명역할/대표2창 자료를 준비한다.",
+    "2018 22–60 보드와 원거래연쇄의39픽/권리/서비스 소비를 source-current화해 같은방향 루틴선택 준비와 독립검문을 진행한다.",
+    "기존 TexasTech 및 CHIreceiver/GL개발 한정증인을 재사용해 현재 실제사용창과 다음Act전환 인과를 연결한다.",
+    "원연도별 draftcontrol/완료1–3/2020AUTHOR_LOCK과 호환성을 검문하고, 현재 미사용 개인박스/상업정밀치·비밀접근은 HOLD로 보존한다.",
+    "C01 비교는 이미 준비된 경로를 보존하고 선택이 없는 dependentpromotion을 유지한다. 이 audit는 질문을 발행하지 않고 다른 작업을 계속할 수 있게 구분한다."
+  ],
+  "seven_group_progress_snapshot": [
+    {
+      "group": 1,
+      "name": "2020 드래프트 연쇄",
+      "status": "완료; 전체1–60 AUTHOR_LOCK 보존"
+    },
+    {
+      "group": 2,
+      "name": "Chicago 2020–21",
+      "status": "완료; 선택S2 유한실행의 원범위 보존"
+    },
+    {
+      "group": 3,
+      "name": "2021–23 거래·계약",
+      "status": "완료; 기존 유한가격/권리 가족 보존"
+    },
+    {
+      "group": 4,
+      "name": "주인공·라이벌 장기 커리어",
+      "status": "진행; LC1 유한NBA 좌표/서비스 검문 수락, 무중단전체역사 C01 등 잔여"
+    },
+    {
+      "group": 5,
+      "name": "결말·전체 구조",
+      "status": "진행;14/42/60·111/146 조건부준비 수락, whole선택역사/최종N·current권한 미LOCK"
+    },
+    {
+      "group": 6,
+      "name": "집필 규격·Context Pack",
+      "status": "진행; 기존 독서/규격 준비 보존, 실제Pack0·후행권한 미완료"
+    },
+    {
+      "group": 7,
+      "name": "통합·독립·작가 승인",
+      "status": "미완료;G13/G14/G17 전체승격 아님"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_major_groups_through6": 3,
+  "percentage_or_ETA_invented": false,
+  "limits": {
+    "whole_G08_complete": false,
+    "selectedhistory_LOCK": false,
+    "whole_G13_G14_complete": false,
+    "actual_Pack": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "new_author_choice": false,
+    "new_question_issued": false,
+    "schedule_created": false
+  },
+  "tools": {
+    "actual_read_only_repository_and_hash_audit": true,
+    "new_AGY_NLM_Claude_or_web_calls": "NOT_RUN; existing actual receipts remain historical independent sources",
+    "producer_and_central_or_git_mutation": false
+  },
+  "mutation_scope": "Only new owned review JSON written; producer54/42, prior inventory/reviews,111 proposal,ledger/central/canon/status/git untouched."
+}
