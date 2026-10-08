@@ -69,3 +69,7 @@ PR506 다음 [현행 인계](../reviews/FY25_CARUSO_ROOKIE_INFO_CONTINUATION_ADO
 ## A11 첫 Finals 실제 선택 이후
 
 [최신 인계](../reviews/A11_SELECTED_RESULTS_AND_FINITE_PAIR_CONTINUATION_ADOPTION_2026_10_08.md)가 PR511 다음 기준이다. 이전미해소2→0·첫주인공Finals목표와MIN4–2·공동480분/가용13·3개8초비용/영상취득을 실제 위임선택·독립검문했다. MIN15법적서비스·conference route·6날짜180service/144clock 결합을 수용했다. 다음 A12의 이미 선택된FY26 계약/역할책임·후기출구로 계속한다. 옛연습/후보flag rewrite0·리그최고평가/MVP/후기title/receiver/retirement 미선택·전체역사/G13/G14/Pack0·CLOSED·GoalACTIVE·일정0.
+
+## A12 역할·짧은 봄 현재 선택 이후
+
+[최신 인계](../reviews/A12_ROLE_AND_SHORTER_SPRING_CONTINUATION_ADOPTION_2026_10_08.md)가 PR512 다음 현재 지점이다. B34 역할·FY26새 가용 모델/원15계약과3개endpoint·자기영상 재준비를 독립 검문 수용했다. 원Act재대결자격·A13–14 주요좌표/전체역사·최종배치/G13/G14·Pack0 남음. 기존60/42/국소S1접근11과23비트 상대시계 재사용·samecontract/newpractice반복0·전체30/82 신규게이트0·CLOSED·GoalACTIVE·일정0.

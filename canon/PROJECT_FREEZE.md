@@ -1,5 +1,7 @@
 # Project Freeze v0.30
 
+2026-10-08 [A12 역할·짧은 봄 현재선택](../reviews/A12_ROLE_AND_SHORTER_SPRING_CONTINUATION_ADOPTION_2026_10_08.md): PR512다음 기존1–3/FY26계약15/A11첫Finals MIN4–2보존. B34 P34/LM28/LV28·원240분 역할template/13+2와 July8표·Nov4자기과제16초·2027CHI5 PHIR1승/MILR2패/선행MIL>NYK 및 패배후 자기영상 재준비를 실제 위임선택·독립검문 수용. 계약재작성0·원Γ/6비용·LM C24/LVPO보존. AGY본문unavailable/HTTP403·NLM/Claude새답과 원문반박 기록. 원A12재대결자격/A13–14주요좌표·전체역사/배치/G13/G14·Pack0남음·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.
+
 2026-10-08 [A11 첫Finals 선행·6경기·공동시계 실제선택](../reviews/A11_SELECTED_RESULTS_AND_FINITE_PAIR_CONTINUATION_ADOPTION_2026_10_08.md): PR511다음 기존1–3보존. 새2024MIL준결승/2025PHIR1endpoint로 첫Finals선행미해소2→0, MIN4–2·6월16일 가상6경기/양팀13가용·480분·3개8초비용/허용영상인계를 실제선택·독립검문. 실제NBA NYK4–1SAS/6월13일과 예정G6를 구분. MIN15/route상태는 최신인계의 검문범위를 따르며 같은6날짜 조건부 합법pair결합·180service/144clock 검문 수용. 다음A12 계약/역할책임을 계속한다. AGY/NLM/Claude새답 회수·첫실패보존; wholeA11/역사/G13/G14/후기좌표/Pack0미완료·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.
 
 2026-10-08 [현행10막 한정지원·정보11 실제선택](../reviews/CURRENT_TEN_ACT_SUPPORT_AND_ELEVEN_LOCAL_ACCESS_CONTINUATION_ADOPTION_2026_10_08.md): PR510 이후 A08 원3소막/E2비용·허용5창 수용과 현재14막 분류 독립/root 검문. 한정지원10=prior5+selected2+conditional1+root2, 전체역사완료 아님. 기존S1 국소접근11·23비트 상대시계 실제선택·독립검문으로 같은승인/후보반복 제거. finalEpisode/date/후기실제scene11잠금0·미래출구A11–14/전체역사·최종배치/G13/G14 미완료. NLM새답·Claude2지적 원문범위/시간 판정·AGY기존자료재사용 분리. 다음A11 위임가능실패창 실행범위·실제누락처리. 미완료4/6번까지3·v0.30 PARTIAL·CLOSED·Pack0·원고0·GoalACTIVE·일정0. 아래는이전이력이다.
