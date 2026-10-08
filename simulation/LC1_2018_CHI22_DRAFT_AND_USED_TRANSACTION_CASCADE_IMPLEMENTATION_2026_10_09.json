@@ -1,0 +1,2890 @@
+{
+  "id": "LC1_C02_2018_CHI22_DRAFT_AND_USED_TRANSACTION_CASCADE_IMPLEMENTATION_2026_10_09",
+  "date_local": "2026-10-09",
+  "status": "ROUTINE_FICTIONAL_IMPLEMENTATION_PREPARED_FOR_INDEPENDENT_REVIEW",
+  "baseline_main": "9d50ede72835987b8623611030c1e010d5397c48",
+  "branch": "codex/lc1-initial-pathway-cascade",
+  "source_hash_method": "UTF8_BOM_STRIPPED_CRLF_CR_TO_LF; externalrawunchanged",
+  "source_sha256": {
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "reviews/LC1_REMAINING_HISTORY_DEPENDENCY_CLOSEABILITY_AUDIT_2026_10_09.json": "c87d13c982ebbf6cf9288b5d264c7baee6f9a5f89e0a982662d282fd9af403f2",
+    "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+    "research/GSW_G1_DATED_MATCHING_AND_HARDCAP_SCOPE_2026_10_07.json": "4cbff2683a696271321637564b61c2563e17eb10757e1ffeb6691876a28bbf7e",
+    "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json": "2efec5f5e57c02accf5d5bed3ce364ef6f9eeddab55a05d631f1bc24d6b55307",
+    "research/CHI_F1_MATCHING_EXISTENCE_WITNESS_2026_10_07.json": "3445fc974748036ae0d7cb8a58a850396f42df20e8c621c77cb435310a9b343a",
+    "simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json": "f3fb709734752810c1b79db46e3bfac2cb6109ceb83105038fef5684a49cbd92",
+    "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+    "research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json": "b06b071a0bf77bbff05d01d8adfa62472b4c3b90cca8aa2373ced9034712899a",
+    "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+    "simulation/MACRO3_2021_23_SELECTED_DATED_EXIT_JOIN.json": "9ec5e8f0214f2803591536e8658b1dc3a70368187a4a926d6ea63d43f2b0138c",
+    "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "canon/AUTHOR_CONFIRMED_LC1_LONG_CAREER_COORDINATES_2026_10_08.json": "581e4023b19089ada44a8c6f285119c4f13fe277d38af93962f4b3186db42ae7",
+    "canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json": "e0d8ed1f82c494a3610a91c779eef5573737f9b818088c903786cb12afae7dc9",
+    "simulation/2018_DRAFT_22_60_REOPEN.md": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+    "simulation/2018_DRAFT_28_43_EVANS_CASCADE.md": "006be16c10213127352087409c52512dd18bc3d084a4bd1d0588c6ec50fb5bfb",
+    "simulation/2018_DRAFT_37_60_TRENT_CASCADE.md": "1b947c463247fd1c4bfd76cb80df63f2b82aca0cd319c3b7ea53840ea5694c24",
+    "research/2018_HUTCHISON_24_28_TEAM_BOARD.md": "2eced96d772c5d816f87580f05b0cfc3032469cf020bd5df3f85e9bbc2168a97",
+    "research/CHICAGO_2018_PICK22_PLAUSIBILITY.md": "943e236ef27f0adfa653c9e240a2249b0d1d08bbe1020b64ef85b5c60031143c",
+    "simulation/2021_WASHINGTON_CHICAGO_PORTLAND_TRANSACTION_CASCADE.md": "70c7b3b944cd745496e940a9336ac521513002fe2c170ad0782aeb626ed8fa37",
+    "simulation/CHICAGO_2019_COBY_WHITE_DRAFT_BOARD.md": "a26e45c974c0e5131d11ba79fb484f6277d98a37b8813923d83762f0d6273b9a",
+    "simulation/DRAFT_CAUSALITY_PROTOCOL.md": "537d290638c39356b092a905cce78d1b6e0fb76a43ca6e5fa580d4d2ca67882a",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "reviews/S2_FINITE_SEASON_CLOSURE_AND_A02_E8_E10_REVIEW_2026_10_07.md": "843b97ccd7851c8d47fe69fc695ab2530d9d9fcfbb9ed616a8acb28c6fb7aeff",
+    "reviews/MACRO3_FINITE_CLOSEOUT_AND_J16_ADOPTION_2026_10_08.md": "dae1f52779e8e0137ab03c30f094c3e14e3c83e5fa5508774a0b6342f44d4566"
+  },
+  "authority": {
+    "selection": "Parent expressly assigns same-direction C02implementation under existingNoQuestion/routine delegation; CHI1R and completeddownstreamhuman directions preserved.",
+    "human_individually_selected_22_28_37_39_44": false,
+    "private_board_verified": false,
+    "new_major_coordinates": 0,
+    "new_public_medal_or_military_selection": false,
+    "new_author_question": false,
+    "completed_groups1to3_price_or_result_reselected": false
+  },
+  "audit_immutable_generation": {
+    "audit_LF_SHA256": "c87d13c982ebbf6cf9288b5d264c7baee6f9a5f89e0a982662d282fd9af403f2",
+    "original54_snapshot_commit": "08800acc90df705b6a401fc5acffb16eb107e557",
+    "audit_oldinputsha_not_blind_repinned": true
+  },
+  "classification_legend": {
+    "PUBLIC_SOURCE_FACT_BASELINE": "Actual reported event/operative rule, notfictionalrealization.",
+    "INFERENCE": "Contemporary team/role interpretation.",
+    "ROUTINE_FICTIONAL_SELECTION": "Explicit same-directiondelegated design, notrealassent/privateboardreceipt.",
+    "AUTHOR_CONFIRMED_DIRECTION": "Existing human-approveddirection only.",
+    "UNUSED_CANDIDATE_OR_HOLD": "Unusedoriginalalternatives/precision unchanged."
+  },
+  "public_sources": [
+    {
+      "id": "NBA2018ORDER",
+      "url": "https://www.nba.com/news/2018-draft-order",
+      "published": "2018-05-16",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Official pre-draft owner baseline, not private boards.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "NBA2018TRADES",
+      "url": "https://www.nba.com/2018-draft-trade-tracker",
+      "published": "2018-06-22",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Draft trades34/37/38/41/43/52/54/56/60 and original future claims.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "PHIGUIDE",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612755/2023/10/Full_Media_Guide_23-24-1.pdf",
+      "published": "2023-24",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Historical2018 table: Bonga39 July6 andMilton54 June22 completion.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "LALGUIDE",
+      "url": "https://lalweb.blob.core.windows.net/public/lakers/media-relations/2022-23-Lakers-Media-Guide.pdf",
+      "published": "2022-23",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "PDF226–227/printed224–225: July6_2018Bonga andJuly6_2019AD transactions.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "PORWORKOUT",
+      "url": "https://www.nba.com/blazers/forwardcenter/players-three-and-d-potential-headline-second-draft-workout",
+      "published": "2018-06-02",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Evans workout and contemporaneous3&D evaluation.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "GUARDBOARD",
+      "url": "https://www.nba.com/da-big-board-guards-2018-draft",
+      "published": "2018",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Contemporary Evans/Trent guard range, not team secret order.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "LALSHOOTING",
+      "url": "https://www.nba.com/lakers/news/180605-lakers-draft-workouts",
+      "published": "2018-06-05",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Pre-draft Svi shooting evaluation; not retrospectiveNBA success.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "WASPLAN",
+      "url": "https://www.nba.com/wizards/wizards-plan-second-round-pick-issuf-sanon",
+      "published": "2018-06-22",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "International development/anonymous preferred players; doesnotnameBonga.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "KINGS37",
+      "url": "https://www.nba.com/kings/news/kings-acquire-two-future-second-round-draft-selections",
+      "published": "2018-06-21",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "37 costtwofuture2Rclaims+cash.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "CHA45",
+      "url": "https://cdn.nba.com/teams/uploads/sites/1610612766/2023/10/2023-24-Charlotte-Hornets-Media-Guide.pdf",
+      "published": "2023-24",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Diallo rights movedCHA->OKC July6_2018, notlegalJune21OKCowner.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "EARLY2018",
+      "url": "https://pr.nba.com/nba-draft-2018-withdrawal/",
+      "published": "2018-06",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Public remainingpoolBonga/Sanon/Evans/Trent; notfictionalPentry.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "CAP2018",
+      "url": "https://pr.nba.com/nba-salary-cap-2018-19-season/",
+      "published": "2018-06-30",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "C18=101869000,TMLE18=5337000.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "CHI19CLAIMS",
+      "url": "https://pr.nba.com/pelicans-win-nba-draft-lottery-2019-presented-by-state-farm/",
+      "published": "2019-05-14",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "ActualPHI34CHIorigin viaLAL;CHI38MEMorigin. Fictionalranksnotautomaticallycopied.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "CHI19HOLIDAY",
+      "url": "https://api-hub-uat.nba.com/news/release-bulls-complete-trade-grizzlies-justin-holiday",
+      "published": "2019-01-04",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Jan3HolidaytoMEM;MEM2019/2020seconds toCHI.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "CALDERON16",
+      "url": "https://www.nba.com/lakers/releases/160707calderonacquired?ls=recent_news",
+      "published": "2016-07-07",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "CHI->LALCalderon andtwofutureseconds,Majokrights->CHI.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "LAL2018CLAIMS",
+      "url": "https://www.nba.com/lakers/news/180514-lakers-draft-picks",
+      "published": "2018-05-14",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "CHI-origin2018/2019secondclaims from2016 trade.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "AD2019",
+      "url": "https://cdn-uat.nba.com/news/anthony-davis-lakers-release",
+      "published": "2019-07-07",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "OriginalAD package; guide executionJuly6 precedes publicationJuly7.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "WASAD2019",
+      "url": "https://www.nba.com/wizards/wizards-acquire-wagner-bonga-jones-lakers-trade",
+      "published": "2019-07-05 22:44 ET",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "Youngplayer rationale; postingtime notnewcompletiontime.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "SPELLMAN19",
+      "url": "https://www.nba.com/hawks/hawks-acquire-damian-jones-from-golden-state-warriors",
+      "published": "2019-07-08",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "SpellmanGSW/JonesATL+GSW2026second.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "PORTER19",
+      "url": "https://www.nba.com/news/bulls-trade-wizards-porter-official-release",
+      "published": "2019-02-07",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "PorterWASout/ParkerPortisin, notprivateTPEledger.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "SANONFEB20",
+      "url": "https://www.nba.com/2019-20-trade-tracker",
+      "published": "2020-02-06",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "OriginalMorris dealtradedSanonWAS->NYKrights.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    },
+    {
+      "id": "RIVERS20",
+      "url": "https://www.nba.com/knicks/front-office-news/knicks-sign-austin-rivers",
+      "published": "2020-11-27",
+      "classification": "PUBLIC_SOURCE_FACT_BASELINE",
+      "supported_use": "OriginalRiversS&T and3foreignrights forSanon; newmechanism separatelyselected.",
+      "collection": "WEB_SEARCH_RETURNED_BODY_OR_PRIMARY_PDF; freshfailuresseparatedbelow",
+      "private_board_or_assent_certified": false
+    }
+  ],
+  "actual_cached_receipts": [
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\LAL_GUIDE_2022_23.pdf",
+      "raw_SHA256": "8a9b6bd67b067d91150dbb761a50be578d827bde70a068822ad82c5520c96921",
+      "bytes": 16302060,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\BONGA_CONTRACT.html",
+      "raw_SHA256": "268f7443c2a4a03c0493161bfd1739af7bf3714dd4cd5cbb7cdf4b0d9300d628",
+      "bytes": 98936,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\CURRY_CONTRACT.html",
+      "raw_SHA256": "db5c2a3793c6cffe8fcb4067e4956292aad229f6b5b30e7921b68ee8d20b2486",
+      "bytes": 165860,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\RIVERS_CONTRACT.html",
+      "raw_SHA256": "8f938f2ca30d1e0f1f802146b75719b5b054957955708ac8b68b9ebf04e37251",
+      "bytes": 147613,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\AGY_COLLECTION.json",
+      "raw_SHA256": "4dd01cb67d411334807c345d00ee102c5d986a33aa5a39b3819e90c6cc9fb825",
+      "bytes": 1493,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\AGY_COLLECTION_CORRECTED.json",
+      "raw_SHA256": "08a206c61d7315728434ac9fb1713ea9fb9530034106ffbc3e81b73e5fda80e1",
+      "bytes": 2896,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\NLM_SOURCE_META.json",
+      "raw_SHA256": "23f11ac25c708b4aa7ff2268ab45f92b824a626a2830191ba50e05c1f875988a",
+      "bytes": 297,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\NLM_ANALYSIS.json",
+      "raw_SHA256": "af3bb004d74eb8c19df2603df60aee592d278ec35f00074a2bb35b08e2e088d4",
+      "bytes": 6093,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    },
+    {
+      "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\NBA_HISTORY_FETCH_META.json",
+      "raw_SHA256": "5eab79dc64b329f0379108907d56f65e40e3f2f939e0e3d062da17a9ed03cab6",
+      "bytes": 145,
+      "classification": "PUBLIC_REFERENCE_OR_TOOL_RECEIPT_NOT_PRIVATE_CERTIFICATE"
+    }
+  ],
+  "direct_legal_source_pages": {
+    "CBA2017": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2017-cba.pdf",
+      "raw_SHA256": "66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+      "pages": {
+        "29": "aa170044172160e61bbb3f0d059978e49a4afa7ea65e10a3010452d305afa732",
+        "30": "be6f25d7dbc1ad5a9dc160fcaedda891c50261b83b5482fe463b78b227b31a2b",
+        "54": "38ed2328d83b3253ff65a22f69a79f42883a65cfb231a4587a108c356b2d0f29",
+        "55": "ded173cb163d527f19e7cb1d03d275a80aefe8d28948a0686618fc8df86d5b43",
+        "56": "45bc1c571007c60a6dcc3bdef06dd38dc170f4e5970d78909ccc8e3599003101",
+        "217": "890eef3bcdc7eb80f61aedf2a5f385086d4badfb9fb7ca70a783b3f917430c1d",
+        "218": "0319f5a0ddabb1c7241b77b6276fe45fc96de58bd54d76d6c1dbbbd072cd29ca",
+        "223": "17dd742dc3b5d31872b7e7520c40e421dc51e2ba15f3426a5c6e3cd13a260640",
+        "229": "a2e2f4c32e012f98fec0b4aa664357f53279418505298b7d254c80b4aaf82f63",
+        "230": "4c5e91740b054c93bc73a8523d52e526e979e77ab8e0d2965b862f761d6a17b8",
+        "232": "64d29f4cb87b7d1bd83901c9cf3a772848f0818873cb2adef7d8da9f6f3a04a6",
+        "233": "b941a66a2e023c5ba2db9be61f70abcde7d4977b1caaf3ef03bbf90a4d71214e",
+        "234": "1610c3ce4d5d5602e43be0c5c46b61431bcbc69bf8fa578b78b68206d9a87dd6",
+        "292": "9faba32870ceb3f824ca98dddb63bbf21d33ef8f1b9b504c0914743fe2cb1bd6",
+        "293": "3fb441749d81c31c05d95943d533a5b760b1de3644c29e287474a5d0c18c90cd",
+        "294": "f41d061782a013e77f482d0741e7fce23a5eeec9d734c1a60c70c036a11ae67c",
+        "295": "a5a0f147b6fb350c5b639738535d7197c234ebb3091f137d2445dfafb851a225",
+        "303": "bafbe9c2e7014ad610a255d9b9da095a32aba68a8c7de9d7c2a5400dfe6f5992",
+        "304": "721cd92d17a77e599a8a2b536a19272a27f5dbe41862126af911fe244197ff8b",
+        "305": "e5cb70df68b37a27965cfaf7509dfb76305ef62fc79d14c971a3147f7a3de3da",
+        "306": "f1ae0934343c1bc0c2d2a4d6497c10542a048a57937ae4fb9fbc241fd2a3f0d8",
+        "307": "231c2aa077e9e7dbfeb3a205488ffaef8a09c9dc962c4d77ef07f3432fe6d0d5",
+        "309": "9f6d152a5a6dd77460bce2335c1205a6e33cc007bcfca2e49aeb1d3efd9dd70f",
+        "310": "d5f4ef3d01555b68dcb5886efb82d444226ff35d2770ff6fe232fc4cb54133c6",
+        "311": "4dc59a41000c03363630f1b73f410ee0bc47473bbf4efed3a903b8943bde9754",
+        "312": "45ae69c49f8d039262bd49a396a207b7b55111fb0d41069d5372562d7984eb07",
+        "313": "709d11c08bc18bc9f419424fd63e8ac37f15b8e9a5fcf78b326becb6d6a31131",
+        "314": "3eab07e3854c1e9c4237d3fa40c26104beb832fb672ab44447688e8685ef295a"
+      },
+      "method": "pypdf extract_text LF UTF8;physical1based,printedCBA=physical-22"
+    },
+    "SCALE2018": {
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\first-rebound-gsw-hutchison-20261007\\NBA_2018_19_CBA101.pdf",
+      "raw_SHA256": "c5ce40b61ae6287afaf173d067b6eb20eee72a58a9dc3d24552c1a424dafb213",
+      "pages": {
+        "29": "78d0ebf86ba1ceed78f2c552dd120fd85178415ce8df8a98b64c5bbaa8e478ea",
+        "30": "fa361c391b5b06a0408982732bbdc46b2b977ea3882b0d0d32c005786ed09370",
+        "10": "9693574fd3c0c40594d6827eaf6e8ddff7c39aa3e5d5d7af21c867d1ebfb640d"
+      },
+      "method": "pypdf extract_text LF UTF8;physical1based,printedCBA=physical-22"
+    }
+  },
+  "scope": {
+    "all_22_to_60_rows": 39,
+    "1_to_21_preserved": [
+      "Deandre Ayton",
+      "Marvin Bagley III",
+      "Luka Doncic",
+      "Jaren Jackson Jr.",
+      "Trae Young",
+      "Mo Bamba",
+      "Wendell Carter Jr.",
+      "Collin Sexton",
+      "Kevin Knox",
+      "Mikal Bridges",
+      "Shai Gilgeous-Alexander",
+      "Miles Bridges",
+      "Jerome Robinson",
+      "Michael Porter Jr.",
+      "Troy Brown Jr.",
+      "Zhaire Smith",
+      "Donte DiVincenzo",
+      "Lonnie Walker IV",
+      "Kevin Huerter",
+      "Josh Okogie",
+      "Grayson Allen"
+    ],
+    "annual_draft_control_not_reduced": true,
+    "original2020full60_and2021selected60_unchanged": true,
+    "new_all82_or_private_board_gate": 0,
+    "old54_111_central_canon_git_mutation": false
+  },
+  "draft_22_to_60_selected_rows": [
+    {
+      "pick": 22,
+      "round": 1,
+      "actual_baseline_actor": "Chandler Hutchison",
+      "selected_actor": "Protagonist",
+      "classification": "ROUTINE_FICTIONAL_SELECTION_CHANGED",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "CHI",
+      "decision_instructions_by": "CHI",
+      "rights_holder_at_selected_June21_end": "CHI",
+      "final_rights_destination": "CHI",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "CHI"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Protagonist",
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "CHI Carter7 safefrontcourt plusPwingdevelopment reach overHutchison.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "P22"
+    },
+    {
+      "pick": 23,
+      "round": 1,
+      "actual_baseline_actor": "Aaron Holiday",
+      "selected_actor": "Aaron Holiday",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "IND",
+      "decision_instructions_by": "IND",
+      "rights_holder_at_selected_June21_end": "IND",
+      "final_rights_destination": "IND",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "IND"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Holiday readyPG/Oladipocomplement; HutchisonwingnotPGneed.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 24,
+      "round": 1,
+      "actual_baseline_actor": "Anfernee Simons",
+      "selected_actor": "Anfernee Simons",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "POR",
+      "decision_instructions_by": "POR",
+      "rights_holder_at_selected_June21_end": "POR",
+      "final_rights_destination": "POR",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "POR"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Simons offensiveceiling/directworkouts beatmatureHutchison wing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 25,
+      "round": 1,
+      "actual_baseline_actor": "Moritz Wagner",
+      "selected_actor": "Moritz Wagner",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "LAL",
+      "decision_instructions_by": "LAL",
+      "rights_holder_at_selected_June21_end": "LAL",
+      "final_rights_destination": "LAL",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "LAL"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Wagner stretchbig; remainingHutchisonnotcenter.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 26,
+      "round": 1,
+      "actual_baseline_actor": "Landry Shamet",
+      "selected_actor": "Landry Shamet",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHI",
+      "decision_instructions_by": "PHI",
+      "rights_holder_at_selected_June21_end": "PHI",
+      "final_rights_destination": "PHI",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "PHI"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Shamet movementshooting; Hutchisondifferentrole.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 27,
+      "round": 1,
+      "actual_baseline_actor": "Robert Williams III",
+      "selected_actor": "Robert Williams III",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "BOS",
+      "decision_instructions_by": "BOS",
+      "rights_holder_at_selected_June21_end": "BOS",
+      "final_rights_destination": "BOS",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "BOS"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Williams rim/centerceiling, notremainingwing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 28,
+      "round": 1,
+      "actual_baseline_actor": "Jacob Evans",
+      "selected_actor": "Chandler Hutchison",
+      "classification": "ROUTINE_FICTIONAL_SELECTION_CHANGED",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "GSW",
+      "decision_instructions_by": "GSW",
+      "rights_holder_at_selected_June21_end": "GSW",
+      "final_rights_destination": "GSW",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "GSW"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Chandler Hutchison",
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Hutchison mature multipositiondefense/rebound/connect chosen; EvansactualGSWworkouts remaincounterevidence.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "H28"
+    },
+    {
+      "pick": 29,
+      "round": 1,
+      "actual_baseline_actor": "Dzanan Musa",
+      "selected_actor": "Dzanan Musa",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "BKN",
+      "decision_instructions_by": "BKN",
+      "rights_holder_at_selected_June21_end": "BKN",
+      "final_rights_destination": "BKN",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "BKN"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Musa internationaloffensivecreation kept overEvansconnector.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 30,
+      "round": 1,
+      "actual_baseline_actor": "Omari Spellman",
+      "selected_actor": "Omari Spellman",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "ATL",
+      "decision_instructions_by": "ATL",
+      "rights_holder_at_selected_June21_end": "ATL",
+      "final_rights_destination": "ATL",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "ATL"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Spellman shooting4/5 complementYoung/Huerter; Evansnotfrontcourt.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": true,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 31,
+      "round": 2,
+      "actual_baseline_actor": "Elie Okobo",
+      "selected_actor": "Elie Okobo",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHX",
+      "decision_instructions_by": "PHX",
+      "rights_holder_at_selected_June21_end": "PHX",
+      "final_rights_destination": "PHX",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "PHX"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Okobo primaryPG needoverEvanswing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 32,
+      "round": 2,
+      "actual_baseline_actor": "Jevon Carter",
+      "selected_actor": "Jevon Carter",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "MEM",
+      "decision_instructions_by": "MEM",
+      "rights_holder_at_selected_June21_end": "MEM",
+      "final_rights_destination": "MEM",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "MEM"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Carter POA/backupConley roleoverEvanswing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 33,
+      "round": 2,
+      "actual_baseline_actor": "Jalen Brunson",
+      "selected_actor": "Jalen Brunson",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "DAL",
+      "decision_instructions_by": "DAL",
+      "rights_holder_at_selected_June21_end": "DAL",
+      "final_rights_destination": "DAL",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "DAL"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Brunson readyPGoverEvansconnector.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 34,
+      "round": 2,
+      "actual_baseline_actor": "Devonte’ Graham",
+      "selected_actor": "Devonte’ Graham",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "ATL",
+      "decision_instructions_by": "CHA",
+      "rights_holder_at_selected_June21_end": "CHA",
+      "final_rights_destination": "CHA",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "ATL",
+        "CHA"
+      ],
+      "trade_consideration_objects": [
+        "CHA_2019_2R",
+        "CHA_2023_2R"
+      ],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "CHA originaltwosecondspaidforGrahamguard; Evansnotautomaticreplacement.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 35,
+      "round": 2,
+      "actual_baseline_actor": "Melvin Frazier Jr.",
+      "selected_actor": "Melvin Frazier Jr.",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "ORL",
+      "decision_instructions_by": "ORL",
+      "rights_holder_at_selected_June21_end": "ORL",
+      "final_rights_destination": "ORL",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "ORL"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Frazier lengthdevelopment chosen overEvansreadywing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 36,
+      "round": 2,
+      "actual_baseline_actor": "Mitchell Robinson",
+      "selected_actor": "Mitchell Robinson",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "NYK",
+      "decision_instructions_by": "NYK",
+      "rights_holder_at_selected_June21_end": "NYK",
+      "final_rights_destination": "NYK",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "NYK"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Robinson rimcenter notEvanswing.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 37,
+      "round": 2,
+      "actual_baseline_actor": "Gary Trent Jr.",
+      "selected_actor": "Jacob Evans",
+      "classification": "ROUTINE_FICTIONAL_SELECTION_CHANGED",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "SAC",
+      "decision_instructions_by": "POR",
+      "rights_holder_at_selected_June21_end": "POR",
+      "final_rights_destination": "POR",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "SAC",
+        "POR"
+      ],
+      "trade_consideration_objects": [
+        "ORIGINAL_TWO_POR_FUTURE_2R_CLAIMS",
+        "ORIGINAL_CASH_BUDGET_GUARD"
+      ],
+      "displaced_available_before_pick": [
+        "Jacob Evans",
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Evans slippedfirst-range/actualJune2PORworkout3&D overTrent; Trent40.2percentcollege3 remainscounterargument.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "E37"
+    },
+    {
+      "pick": 38,
+      "round": 2,
+      "actual_baseline_actor": "Khyri Thomas",
+      "selected_actor": "Khyri Thomas",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHI",
+      "decision_instructions_by": "DET",
+      "rights_holder_at_selected_June21_end": "DET",
+      "final_rights_destination": "DET",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "PHI",
+        "DET"
+      ],
+      "trade_consideration_objects": [
+        "ORIGINAL_TWO_DET_FUTURE_2R_CLAIMS"
+      ],
+      "displaced_available_before_pick": [
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "DET purchasedThomas higherguard preference; Trentdeclined.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 39,
+      "round": 2,
+      "actual_baseline_actor": "Isaac Bonga",
+      "selected_actor": "Gary Trent Jr.",
+      "classification": "ROUTINE_FICTIONAL_SELECTION_CHANGED",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHI",
+      "decision_instructions_by": "LAL",
+      "rights_holder_at_selected_June21_end": "PHI",
+      "final_rights_destination": "LAL",
+      "rights_completion_selected_date": "2018-07-06",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "PHI",
+        "LAL"
+      ],
+      "trade_consideration_objects": [
+        "CHI_ORIGIN_2019_2R_FROM_CALDERON16",
+        "ORIGINAL_LAL_CASH_BUDGET_GUARD"
+      ],
+      "displaced_available_before_pick": [
+        "Gary Trent Jr.",
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "LALshootingwingneed selectsTrent; contemporaryguardrange/pre-draftSvievaluation supportfiction, secretboardnotproved.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "T39"
+    },
+    {
+      "pick": 40,
+      "round": 2,
+      "actual_baseline_actor": "Rodions Kurucs",
+      "selected_actor": "Rodions Kurucs",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "BKN",
+      "decision_instructions_by": "BKN",
+      "rights_holder_at_selected_June21_end": "BKN",
+      "final_rights_destination": "BKN",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "BKN"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Kurucs internationalforwardkept overBongalongguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 41,
+      "round": 2,
+      "actual_baseline_actor": "Jarred Vanderbilt",
+      "selected_actor": "Jarred Vanderbilt",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "ORL",
+      "decision_instructions_by": "DEN",
+      "rights_holder_at_selected_June21_end": "ORL",
+      "final_rights_destination": "DEN",
+      "rights_completion_selected_date": "2018-06-22",
+      "completion_date_class": "ROUTINE_FICTIONAL_ADMIN_COMPLETION",
+      "rights_transfer_chain": [
+        "ORL",
+        "DEN"
+      ],
+      "trade_consideration_objects": [
+        "DEN_2018_43_RIGHTS",
+        "ORIGINAL_2019_COMPARISON_2R_CLAIM"
+      ],
+      "displaced_available_before_pick": [
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Vanderbilt reboundforward kept overBongaguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 42,
+      "round": 2,
+      "actual_baseline_actor": "Bruce Brown Jr.",
+      "selected_actor": "Bruce Brown Jr.",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "DET",
+      "decision_instructions_by": "DET",
+      "rights_holder_at_selected_June21_end": "DET",
+      "final_rights_destination": "DET",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "DET"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Brown defenseguard kept afterTrentcaptured39; Bongadevelopmentoffensedifferent.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 43,
+      "round": 2,
+      "actual_baseline_actor": "Justin Jackson",
+      "selected_actor": "Justin Jackson",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "DEN",
+      "decision_instructions_by": "ORL",
+      "rights_holder_at_selected_June21_end": "DEN",
+      "final_rights_destination": "ORL",
+      "rights_completion_selected_date": "2018-06-22",
+      "completion_date_class": "ROUTINE_FICTIONAL_ADMIN_COMPLETION",
+      "rights_transfer_chain": [
+        "DEN",
+        "ORL"
+      ],
+      "trade_consideration_objects": [
+        "ORL_2018_41_RIGHTS"
+      ],
+      "displaced_available_before_pick": [
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Jackson longforward kept overBongalonginitiator.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 44,
+      "round": 2,
+      "actual_baseline_actor": "Issuf Sanon",
+      "selected_actor": "Isaac Bonga",
+      "classification": "ROUTINE_FICTIONAL_SELECTION_CHANGED",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "WAS",
+      "decision_instructions_by": "WAS",
+      "rights_holder_at_selected_June21_end": "WAS",
+      "final_rights_destination": "WAS",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "WAS"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Isaac Bonga",
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "AvailableBonga internationaldevelopment selectedoverSanon; officialanonymouspreference neveridentifiedasBonga.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "B44"
+    },
+    {
+      "pick": 45,
+      "round": 2,
+      "actual_baseline_actor": "Hamidou Diallo",
+      "selected_actor": "Hamidou Diallo",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "BKN",
+      "decision_instructions_by": "CHA_FOR_OKC_PRECOMPLETION_BKN_TITLE",
+      "rights_holder_at_selected_June21_end": "BKN",
+      "final_rights_destination": "OKC",
+      "rights_completion_selected_date": "2018-07-06",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "BKN",
+        "CHA",
+        "OKC"
+      ],
+      "trade_consideration_objects": [
+        "BKN_CHA_ORIGINAL_HOWARD_MOZGOV_PACKAGE",
+        "CHA_OKC_ORIGINAL_2019_2R"
+      ],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Diallo athleticwing acquiredOKCinstructions; Sanonnotpreferredfunction.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 46,
+      "round": 2,
+      "actual_baseline_actor": "De’Anthony Melton",
+      "selected_actor": "De’Anthony Melton",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "HOU",
+      "decision_instructions_by": "HOU",
+      "rights_holder_at_selected_June21_end": "HOU",
+      "final_rights_destination": "HOU",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "HOU"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Melton guarddefense/anticipation keptoverSanon.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 47,
+      "round": 2,
+      "actual_baseline_actor": "Svi Mykhailiuk",
+      "selected_actor": "Svi Mykhailiuk",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "LAL",
+      "decision_instructions_by": "LAL",
+      "rights_holder_at_selected_June21_end": "LAL",
+      "final_rights_destination": "LAL",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "LAL"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Svi pre-draftshooting retained alongsideTrent; Sanonlessshootingproof.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 48,
+      "round": 2,
+      "actual_baseline_actor": "Keita Bates-Diop",
+      "selected_actor": "Keita Bates-Diop",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "MIN",
+      "decision_instructions_by": "MIN",
+      "rights_holder_at_selected_June21_end": "MIN",
+      "final_rights_destination": "MIN",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "MIN"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "BatesDiop readyforward retainedoverSanonguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 49,
+      "round": 2,
+      "actual_baseline_actor": "Chimezie Metu",
+      "selected_actor": "Chimezie Metu",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "SAS",
+      "decision_instructions_by": "SAS",
+      "rights_holder_at_selected_June21_end": "SAS",
+      "final_rights_destination": "SAS",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "SAS"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Metu frontcourtdevelopment retained; Sanoninternationalalternative declined.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 50,
+      "round": 2,
+      "actual_baseline_actor": "Alize Johnson",
+      "selected_actor": "Alize Johnson",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "IND",
+      "decision_instructions_by": "IND",
+      "rights_holder_at_selected_June21_end": "IND",
+      "final_rights_destination": "IND",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "IND"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "AlizeJohnson reboundforward retainedoverSanonguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 51,
+      "round": 2,
+      "actual_baseline_actor": "Tony Carr",
+      "selected_actor": "Tony Carr",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "NOP",
+      "decision_instructions_by": "NOP",
+      "rights_holder_at_selected_June21_end": "NOP",
+      "final_rights_destination": "NOP",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "NOP"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Carr scoringtwo-guardprofile retained; bothmaygoabroadnotinterchangeability.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 52,
+      "round": 2,
+      "actual_baseline_actor": "Vincent Edwards",
+      "selected_actor": "Vincent Edwards",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "UTA",
+      "decision_instructions_by": "HOU",
+      "rights_holder_at_selected_June21_end": "HOU",
+      "final_rights_destination": "HOU",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "ROUTINE_FICTIONAL_ADMIN_COMPLETION",
+      "rights_transfer_chain": [
+        "UTA",
+        "HOU"
+      ],
+      "trade_consideration_objects": [
+        "ORIGINAL_HOU_CASH_BUDGET_GUARD"
+      ],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "VincentEdwards shootingforward boughtforcash; Sanondifferentrole.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 53,
+      "round": 2,
+      "actual_baseline_actor": "Devon Hall",
+      "selected_actor": "Devon Hall",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "OKC",
+      "decision_instructions_by": "OKC",
+      "rights_holder_at_selected_June21_end": "OKC",
+      "final_rights_destination": "OKC",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "OKC"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "DevonHall matureguard/shooting retainedoverSanondevelopment.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 54,
+      "round": 2,
+      "actual_baseline_actor": "Shake Milton",
+      "selected_actor": "Shake Milton",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "DAL",
+      "decision_instructions_by": "PHI",
+      "rights_holder_at_selected_June21_end": "DAL",
+      "final_rights_destination": "PHI",
+      "rights_completion_selected_date": "2018-06-22",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "DAL",
+        "PHI"
+      ],
+      "trade_consideration_objects": [
+        "PHI_2018_56_RIGHTS",
+        "PHI_2018_60_RIGHTS"
+      ],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Milton longshootingguard acquirednamed3pickexchange; Sanonnotfreeextraasset.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 55,
+      "round": 2,
+      "actual_baseline_actor": "Arnoldas Kulboka",
+      "selected_actor": "Arnoldas Kulboka",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "CHA",
+      "decision_instructions_by": "CHA",
+      "rights_holder_at_selected_June21_end": "CHA",
+      "final_rights_destination": "CHA",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "CHA"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Kulboka internationalshootingwingkept; Sanoninternationalalternative declined.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 56,
+      "round": 2,
+      "actual_baseline_actor": "Ray Spalding",
+      "selected_actor": "Ray Spalding",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHI",
+      "decision_instructions_by": "DAL",
+      "rights_holder_at_selected_June21_end": "PHI",
+      "final_rights_destination": "DAL",
+      "rights_completion_selected_date": "2018-06-22",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "PHI",
+        "DAL"
+      ],
+      "trade_consideration_objects": [
+        "DAL_2018_54_RIGHTS"
+      ],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Spalding longbigkept afterswap54; Sanonnotfrontcourt.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 57,
+      "round": 2,
+      "actual_baseline_actor": "Kevin Hervey",
+      "selected_actor": "Kevin Hervey",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "OKC",
+      "decision_instructions_by": "OKC",
+      "rights_holder_at_selected_June21_end": "OKC",
+      "final_rights_destination": "OKC",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "OKC"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Hervey shootingforward retainedoverSanonguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 58,
+      "round": 2,
+      "actual_baseline_actor": "Thomas Welsh",
+      "selected_actor": "Thomas Welsh",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "DEN",
+      "decision_instructions_by": "DEN",
+      "rights_holder_at_selected_June21_end": "DEN",
+      "final_rights_destination": "DEN",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "DEN"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Welsh reboundcenter retainedoverSanonguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 59,
+      "round": 2,
+      "actual_baseline_actor": "George King",
+      "selected_actor": "George King",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHX",
+      "decision_instructions_by": "PHX",
+      "rights_holder_at_selected_June21_end": "PHX",
+      "final_rights_destination": "PHX",
+      "rights_completion_selected_date": "2018-06-21",
+      "completion_date_class": "NO_NEW_ASSIGNMENT",
+      "rights_transfer_chain": [
+        "PHX"
+      ],
+      "trade_consideration_objects": [],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "King maturewing retainedoverSanondevelopment.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    },
+    {
+      "pick": 60,
+      "round": 2,
+      "actual_baseline_actor": "Kostas Antetokounmpo",
+      "selected_actor": "Kostas Antetokounmpo",
+      "classification": "SELECTED_UNCHANGED_AT_CAUSAL_CONTACT",
+      "draft_selection_date": "2018-06-21",
+      "legal_rights_holder_at_selection": "PHI",
+      "decision_instructions_by": "DAL",
+      "rights_holder_at_selected_June21_end": "PHI",
+      "final_rights_destination": "DAL",
+      "rights_completion_selected_date": "2018-06-22",
+      "completion_date_class": "PUBLIC_PRIMARY_FIXED",
+      "rights_transfer_chain": [
+        "PHI",
+        "DAL"
+      ],
+      "trade_consideration_objects": [
+        "DAL_2018_54_RIGHTS"
+      ],
+      "displaced_available_before_pick": [
+        "Issuf Sanon"
+      ],
+      "2018_selection_reason": "Kostas longfrontcourtceiling retainedoverSanonguard.",
+      "no_future_NBA_success_used": true,
+      "draft_creates_NBA_UPC": false,
+      "RSC_if_signed": false,
+      "service_consumer": "UNCHANGED_SOURCE_IF_USED;noall39newUPCs"
+    }
+  ],
+  "sequential_pool_and_rights_check": {
+    "row_count": 39,
+    "unique_actors": 39,
+    "consecutive_picks": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "first21_repeat": [],
+    "Sanon_selected": false,
+    "remaining_actor": "Issuf Sanon",
+    "undrafted_status": "NBA RookieFA/EuropeOlimpijadirection; noNBAexclusiveDraftRight/UPC. EuropeanemploymentnotNBAtradedright."
+  },
+  "initial_player_evaluation_and_entry": {
+    "P22": {
+      "classification": "ROUTINE_FICTIONAL_CHI_1R_IMPLEMENTATION_NOT_ACTUAL_COMBINE_RECORD",
+      "birth_year": 1999,
+      "exact_DOB": null,
+      "entry": "Turns19incalendar2018; approvedUSprepgraduation2017oneNBAseasonremoved. Fictionalearly-entrynoticereceivedApril20beforeofficialApril22deadline; notclaimPintheactualpublishedNBApool.",
+      "entry_date_selected": "2018-04-20",
+      "evaluation_dates": [
+        "2018-05-17_FICTIONAL_P_COMBINE_INVITATION_AND_EVALUATION",
+        "2018-06-08_FICTIONAL_CHI_WORKOUT"
+      ],
+      "measurement_family_selected": {
+        "shoes_height_cm": [
+          202,
+          204
+        ],
+        "weight_kg": [
+          98,
+          102
+        ],
+        "wingspan_cm": [
+          215,
+          219
+        ],
+        "max_vertical_cm": [
+          101,
+          106
+        ],
+        "exact_cell": null,
+        "source_candidate_ranges_retained": true,
+        "actual_measurement_certificate": false
+      },
+      "athletic_pattern": "Exceptionaljump/repeatedjump/linearacceleration; lateralonlyworkable,handle/NBA3unfinished,noall-testsfirstorcompletedBQ.",
+      "college_evidence": "PreservedTexasTechshortswitch/boxout/one-passfilm; noNCAAtitle/MOPcorecreditstolen. Currentcollegefunctionsremainseparateconsumers,noall40/8075reopen.",
+      "workout_action": "CHIstaffobservewrongfirstscreenangle/crowdedone-dribbleattack; aftersecondinstructionPcorrectsweaksidepositionandreturnspromptpass. WingceilingafterCarter7fitsreach; nothiddenperfectscout.",
+      "access": "CHIstaffdirectobservation;player/agentknowsroleofferandpublicselection,noleaguewidesecretboards.",
+      "cost": "CHIforgoesreadyHutchisonforlow-productionproject; PgetsNBAstandardRSCclass,nofreeminutes/starter.",
+      "procedural_family": "FirstRSCtenderJuly7_2018beforeJuly15, workingUPCJuly10aftermoratoriumbeforecamp. ExistingselectedPprice/protection/bonus/optionsfunctionsretained,noexactnewcentprice.",
+      "clinical": "Operationaleligibilitychosenroutinefiction,nodiagnosisoractualclinicalclearancepapersinvented."
+    }
+  },
+  "initial_contract_and_service_families": {
+    "legal_rules": {
+      "firstRSC": "VIII1:2guaranteed+2teamoptions;80–120percentscaleincludingunlikelyintersectII6minimum;timelyoptions/protection,notclinicalfacts.",
+      "2R": "NoRSC;3yearUPCneedroom/TMLE,notVII6iminimumexceptionmax2seasons.",
+      "minimum": "II6a/d/f signing-cap-yearfulltermtable,YOSandcontract-yearcolumnsprogress;minimum-intendedstatutoryclausepreventsillegalordinaryraiseinterpretation.",
+      "tender": "I1ddd/X4afirstJuly15;2Rwithin2weeksbeforeSep5unlessalreadysigned;1seasonRTnotnegotiated3yearUPC.",
+      "Bird": "I1yy/VII6b1FullBirdthreeseasons/tradesonly;VII6b2NonQualifyingnotFullBird.",
+      "six_cost_categories": "Six separate categories: current TeamSalary/cap; tax salary; cash/protected commitments/reimbursement; unsigned1R capholds; unsigned2R tender/rights commitments; FA/QO hold costs. Retain all original residual Gamma. Superseded own claims counted once; tax/floor/cash not matching Salary."
+    },
+    "H28": {
+      "actor": "Chandler Hutchison",
+      "pick": 28,
+      "team": "GSW",
+      "classification": "EXACT_ROUTINE_LANDING_WITH_EXISTING_O3_FAMILY",
+      "tender_date": "2018-07-07",
+      "UPC_date": "2018-07-10",
+      "terms": {
+        "years1_2": "max((4/5)*S_y, applicable II6 minimum_y) <= H_y <= min((6/5)*S_y, E_y_base, E_y_cap); same lawful original #28/2018-start scale",
+        "years1_2_cap_comparison_upper": [
+          1644240,
+          1925880
+        ],
+        "year3_H_interval": [
+          1936000,
+          2017320
+        ],
+        "year3_exact_H_salary": null,
+        "year3_floor_support": "Original same-pick same-start fully protected no-incentive E3 is a valid 120% reference; H3 may equal E3, so family nonempty without invented operative scale rounding.",
+        "year3_scale_public_source": "NBA CBA1012018 PDF29 #28 thirdyear display1681.1 in $000s; conservative magnitude1m–2m as in prior reviewed matching model;80%upper1.6m<familylower1.936m; exact operative dollar rounding null",
+        "minimum_player_salary": "II6 PDF54/55 applies independently of rookie80%; years1/2 intersect applicable minimum, not all80%contracts lawful. Same-start/YOS original E supplies a legal nonempty endpoint. NBA2018 CBA101 PDF30 YOS0–2 published floors below1.936m, so selected year3 matching floor is above the applicable minimum.",
+        "not_all_80_to_120_percent_year3_contracts_certified": true,
+        "all_current_protection": true,
+        "H_extra_bonus": 0,
+        "zero_bonus_is_constructed_contract_not_actual_absence_cert": true,
+        "NY_current_dead_charge_interval": [
+          1936000,
+          2017320
+        ],
+        "original_NY_observed_full_current_dead_row": [
+          "2020-21",
+          "",
+          "$2,017,320",
+          "$2,017,320"
+        ],
+        "NY_dead_charge_zero": false,
+        "future_year4_option_charge": 0,
+        "private_common_cost_Gamma_preserved_not_set_zero": true,
+        "cap_transport_relation": "For each existing feasible original common-cost realization Gamma(t), replace live/dead original E component with H<=E; Gamma+H<=Gamma+E. Before G1, GSW current cost cannot rise; G1 unchanged incoming/public actions; afterward GSW H charge absent. MIN H live current component and NY full protected dead component likewise cannot rise. This scalar cost relation does not assert all arbitrary Gamma are feasible or actual bonus outcomes unchanged.",
+        "original_feasible_realization_anchor": "Official GSW guide completed original 2018 #28 signing /2019 Russell S&T /2020 G1 plus NBA completed MIN-NY and NY waiver; preserve named common events and current cost components, not actual H facts.",
+        "whole_counterfactual_private_financial_trace_certified": false,
+        "public_cost_residual_X_value": null,
+        "existing_GSW_B_intervals_and_X_thresholds_not_discarded": true,
+        "GSW_existing_deadmoney_preserved": "Livingston and Chriss etc untouched; new H waiver does not erase NY protected charge"
+      },
+      "third_option_working_notice": "2019-10-30",
+      "third_deadline": "2019-10-31",
+      "fourth": "RetainexistingO3explicitnonexerciseunder2020adjustedcalendar;dateunknownnottransplantolddeadline.",
+      "port": {
+        "path": "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json",
+        "LF_SHA256": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+        "json_pointer": "/operating_events"
+      },
+      "actual_assent_or_receipt": false
+    },
+    "E37": {
+      "actor": "Jacob Evans",
+      "pick": 37,
+      "team": "POR",
+      "UPC_date": "2018-07-06",
+      "term": "3nonoptionseasons2018-19..2020-21",
+      "salary_vector": [
+        838464,
+        1416852,
+        1663861
+      ],
+      "route": "VII6f partialTMLE",
+      "full_skill_injury_protection": true,
+      "new_bonus_option_international_payment": 0,
+      "TMLE_joint_capacity": {
+        "TMLE18": 5337000,
+        "Curry_reference_base": 2795000,
+        "Evans_first": 838464,
+        "sum": 3633464,
+        "other_MLE_interval": [
+          0,
+          1703536
+        ],
+        "guard": "Post-useTeamSalary>2018apron129817000;noBAE/NTMLE/RoomMLE/incomingS&Tsameyear. Allcurrentcostsholdonce.",
+        "nonempty_partial_witness": "At the exception budget level otherMLE851768 gives4485232<=5337000 and leaves851768. Above-apron scalar reference131000000>129817000 demonstrates only the eligibility inequality; it is not an independently summed actual POR15 payroll. Original feasible same-year POR first-salary/price family must satisfy actual common incumbent costs and the statedapron/exceptionguards; points outsideguards remainHOLD. Replacing original rookie2R minimum firstyear by Evans838464 introduces no higher firstcharge at a feasible original point."
+      },
+      "2021_branch": "EXPIRED_NEW_OWN_MINIMUM;oldUPCendsafter2020-21;timelyoperativeRFAQOthenexistingown1yearminimumUPC Aug6_2021; oldearned/protectedGammaunchanged.",
+      "keeper_port": {
+        "path": "simulation/CHICAGO_PORTLAND_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "f3fb709734752810c1b79db46e3bfac2cb6109ceb83105038fef5684a49cbd92",
+        "json_pointer": "/lawful_contract_family/14"
+      },
+      "no_GSW_RSC_or_NY_waiver_clone": true,
+      "actual_assent": false
+    },
+    "T39": {
+      "actor": "Gary Trent Jr.",
+      "pick": 39,
+      "PHI_to_LAL_right_date": "2018-07-06",
+      "UPC_date": "2018-07-10",
+      "term": "3nonoptionseasons2018-19..2020-21",
+      "salary_vector": [
+        838464,
+        1416852,
+        1663861
+      ],
+      "route": "VII5broom",
+      "room_transport": "OriginalfeasibleLALBonga2018roompoint>=1000000. NewTrent838464uses161536less; unsigned2Rholdsupplantedandnewbonus/payment0. PreservecommonGamma,butnotallunobservedGamma certified.",
+      "full_skill_injury_protection": true,
+      "new_bonus_option_international_payment": 0,
+      "assignment": "July6_2019 UPC LAL->WAS,noFA/release;2018LAL+2019WAS+2020WAScontinuousservice.",
+      "2021_keeper": "FullBirdb1,existingq[10000000,14000000]intersectminimum/max,flat3years/fullprotection/noaddedbonus. PriorordinaryQO/selectedstarterinputsunchanged; notrealToronto52m/POR2021Bird.",
+      "keeper_port": {
+        "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+        "json_pointer": "/lawful_contract_family/9"
+      },
+      "actual_assent": false
+    },
+    "B44": {
+      "actor": "Isaac Bonga",
+      "pick": 44,
+      "team": "WAS",
+      "route": "SameexistingX6nonprofessionaldevelopmentbranchselected;notactualFrankfurtpayclassification. Earlyentry1999natural2021Subsequent.",
+      "NBA_UPC": null,
+      "NBA_paidservice": 0,
+      "2018_RT_date": "2018-08-24",
+      "2019_RT_date": "2019-08-24",
+      "2020_RT": "Existingoperativeadjustedpermittedwindow,exactcalendarunknown;timelyfictionalprocedure,noSep5calendarcopy.",
+      "RT_terms": "OneNBAseason/applicableminimumYOS0/requiredacceptanceperiod;notaccepted/withdrawn,notguaranteedNBAcash. OriginalRT/proceduralGamma retained.",
+      "foreign_development": "ReportedFrankfurt2016fouryeardevelopmentfamilyretainedasfictionalX6;notnewprofessionalpay/availability/outclauseorprivatefact.",
+      "prior_port": {
+        "path": "research/CHA_WAS_FINITE_ROSTER_WORKING_FAMILY_2026_10_07.json",
+        "LF_SHA256": "b06b071a0bf77bbff05d01d8adfa62472b4c3b90cca8aa2373ced9034712899a",
+        "json_pointer": "/selection/WAS_BONGA"
+      },
+      "subsequent_port": {
+        "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+        "json_pointer": "/selected_policy/Bonga"
+      },
+      "2021_postdraft": "Existingselected60noBonga;July29no-redraft->RookieFA,noforeverWASexclusive rights.",
+      "prohibited": "NooriginalLAL/WASNBAUPCorSouthBayminutes;noSanontradeassetfiller."
+    },
+    "fullterm_minimum_rows": [
+      {
+        "UPC": "E37",
+        "player": "Jacob Evans",
+        "season": "2018-19",
+        "entering_YOS": 0,
+        "contract_year": 1,
+        "table_anchor": "2018-19",
+        "cell": "YOS0/Year1",
+        "base": 838464,
+        "minimum": 838464,
+        "protected": 838464,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "POR",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      },
+      {
+        "UPC": "E37",
+        "player": "Jacob Evans",
+        "season": "2019-20",
+        "entering_YOS": 1,
+        "contract_year": 2,
+        "table_anchor": "2018-19",
+        "cell": "YOS1/Year2",
+        "base": 1416852,
+        "minimum": 1416852,
+        "protected": 1416852,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "POR",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      },
+      {
+        "UPC": "E37",
+        "player": "Jacob Evans",
+        "season": "2020-21",
+        "entering_YOS": 2,
+        "contract_year": 3,
+        "table_anchor": "2018-19",
+        "cell": "YOS2/Year3",
+        "base": 1663861,
+        "minimum": 1663861,
+        "protected": 1663861,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "POR",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      },
+      {
+        "UPC": "T39",
+        "player": "Gary Trent Jr.",
+        "season": "2018-19",
+        "entering_YOS": 0,
+        "contract_year": 1,
+        "table_anchor": "2018-19",
+        "cell": "YOS0/Year1",
+        "base": 838464,
+        "minimum": 838464,
+        "protected": 838464,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "LAL",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      },
+      {
+        "UPC": "T39",
+        "player": "Gary Trent Jr.",
+        "season": "2019-20",
+        "entering_YOS": 1,
+        "contract_year": 2,
+        "table_anchor": "2018-19",
+        "cell": "YOS1/Year2",
+        "base": 1416852,
+        "minimum": 1416852,
+        "protected": 1416852,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "WAS",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      },
+      {
+        "UPC": "T39",
+        "player": "Gary Trent Jr.",
+        "season": "2020-21",
+        "entering_YOS": 2,
+        "contract_year": 3,
+        "table_anchor": "2018-19",
+        "cell": "YOS2/Year3",
+        "base": 1663861,
+        "minimum": 1663861,
+        "protected": 1663861,
+        "likely": 0,
+        "unlikely": 0,
+        "signing_bonus": 0,
+        "assignment_bonus": 0,
+        "international_payment": 0,
+        "team": "WAS",
+        "hold_once": "SignedUPCsupplantsownunsigned/tenderclaim,notdoublesamecash."
+      }
+    ],
+    "P22_price_boundary": "Current exact slot is a lawful first-round22 RSC ancestor of preserved typed price functions, intersected with operative22scale/II6minimum. No new signedcent chosen. Older conservative all-first-round floors are bounds, not actual P22 prices and not rewritten; already completed prices/results remain source-owned. PublicroundedNBA101cellsnotprivatecentcertificate."
+  },
+  "used_transaction_cascade": [
+    {
+      "id": "D39_RIGHTS_PURCHASE",
+      "date": "2018-07-06",
+      "class": "ROUTINE_FICTIONAL_RIGHTS_EXECUTION",
+      "right": "Trent39unsignedPHI->LAL",
+      "consideration": [
+        "CHI_ORIGIN_2019_2R_FROM_CALDERON16",
+        "originalcashwithinannualcashbudget"
+      ],
+      "salary_matching": 0,
+      "2019_join": "CHI-origin2019LAL->PHIclaimnotMEM-origin2019Holiday->CHIclaim. Publicactual34/38arebaseline,nofictionalrankcopied;preservedCoby7/Gafford38ports notchanged.",
+      "cash": "Originalcashsymbol/aggregatecashlimitpreserved,not0/notSalary."
+    },
+    {
+      "id": "AD2019_TRENT_WAS",
+      "date": "2019-07-06",
+      "class": "ROUTINE_FICTIONAL_ASSIGNMENT_WITH_EXISTING_DIRECTION",
+      "players": [
+        "AD NOP->LAL",
+        "Ball/Ingram/Hart LAL->NOP",
+        "Wagner/Trent/JemerrioJones LAL->WAS"
+      ],
+      "rights_cash": "PreserveHunter4unsignedLAL->NOP->ATLdirection,originaltwofirst/swap/cash/LAL2022second->WAS/WAScash->NOP asnamedconditionalobjects,nofutureconveyanceinvented.",
+      "Trent_current": "1416852equalsoriginalBongabase,2remainingseasons;ownTrentzeroaddedbonuschosen,notprivateoriginalabsencecert.",
+      "nominal_matching_witness": {
+        "Wagner": 2063520,
+        "Trent": 1416852,
+        "Jones": 1416852,
+        "WAS_trio": 4897224,
+        "Ball": 8719320,
+        "Ingram": 7265485,
+        "Hart": 1934160,
+        "LAL_all6_out": 22816189,
+        "LAL125plus100_limit": 28620236.25,
+        "AD_reference": 27093019,
+        "LAL_slack": 1527217.25,
+        "NOP_three_in": 17918965,
+        "NOP125plus100_limit": 33966273.75,
+        "scope": "Inheritedoriginalpublic/predecessorscreenmagnitudes,notallprivatebonus/protectionallocation certified.",
+        "Jones_salary_class": "LEGAL_MINIMUM_MODEL_WITNESS_NOT_FRESH_PUBLIC_PRICE_CERT",
+        "proper_salary_warning": "The all-six nominal base sum is not itself legal outgoing Salary when current compensation is unprotected. Existing protection/assignmentGamma and VII6j5 properSalaryguard control. Do not use nominalbase as certifiedprotectedoutgoing."
+      },
+      "selected_WAS_route": {
+        "mechanism": "PorterFeb6_2019partialnon-simTPE absorbsWagner+Trent;Jonesown2seasonminimumUPCviaVII6i. No3yearTrentminimumexception.",
+        "nominal_TPE_ancestry": {
+          "Porter_out": 26011913,
+          "Parker_in": 20000000,
+          "Portis_in": 2494346,
+          "remaining": 3517567,
+          "Wagner_Trent_upper_without_extra_bonus": 3480372,
+          "strict_margin_without100k": 37195,
+          "Porter_amount_class": "HISTORICAL_COMPARISON_NOMINAL_NOT_FRESH_TABLE_VERIFIED;properSalaryguardcontrols"
+        },
+        "validity": "PorterpartialTPEnotexpiredJuly6;oneTPEcontainsWagner+Trent,notcombinedRoom/TPE;Jonesoriginal2seasonminimumseparatelyeligible.",
+        "proper_conditional_guard": "E_Porter_remaining(originalGamma,prioruses)+100000 >= incomingProperSalaryWagner+1416852;alloriginaleligibleallocations/oldcosts/TPEpriorusesheldandthisinequalityenforced. LAL/NOPpropermatchingalsoenforcedwiththeirGamma. OutsideguardremainsHOLD,notallGammafinancialcert.",
+        "nonempty_witness": "Publishednominalremaining3517567 exceedsWagnerTrent3480372without100k. Positivecost/previoususepointsstillinside37195marginexist. ThisispartialcapacitywitnessnotactualleagueTPEreceipt.",
+        "private_assent_certified": false,
+        "LAL_protection_guard": "Same old applicableLALproperSalarymatchingfamily. At nominalother-five properout21399337, Joneseligiblecurrentprotection must be >=195078.20 to coverAD27093019 under125percent+100000; or oldlawfulroomfamily may apply. This guard is not an assertion that Joneswhole1416852was guaranteed. A currentprotected199000 legalreferencepoint would give27097921.25limit/slack4902.25; no actualprivateguarantee certificate.",
+        "LAL_exact_protected_reference": {
+          "other5": 21399337,
+          "Jones_reference_eligible_protection": 199000,
+          "outgoing": 21598337,
+          "limit125plus100": "27097921.25",
+          "AD": "27093019",
+          "slack": "4902.25",
+          "classification": "NONEMPTY_LAWFUL_MODEL_PROTECTION_WITNESS_NOT_ACTUAL_GUARANTEE_FACT"
+        }
+      },
+      "motive_cost": "WAS buysyoungshootingTrent/Wagner/Jones+second,givescash;LALlosesTrentshootingassetforAD. Identicalsalarynotidenticalvalue.",
+      "2019_Bonga_stash_not_in_UPCdeal": true
+    },
+    {
+      "id": "SPELLMAN_JONES_2019",
+      "date": "2019-07-08",
+      "class": "PRESERVED_USED_PUBLIC_BASELINE",
+      "players": [
+        "SpellmanATL->GSW",
+        "DamianJonesGSW->ATL"
+      ],
+      "claim": "OriginalGSW2026second->ATL,notMIN2026secondofO3;nofuturepickrank.",
+      "causal_test": "H28wingdoesnotreplaceSpellmanstretch4/5orremovehardcapreliefneed;knownactors/assetsavailable. OriginalsameUPCs/commonGamma/matchingfamily retained,notnewcentselection."
+    },
+    {
+      "id": "G1_GSW_MIN_2020",
+      "date": "2020-02-06",
+      "class": "CONSUME_EXISTING_SELECTED_O3",
+      "players": [
+        "Russell/Spellman/HutchisonGSW->MIN",
+        "WigginsMIN->GSW"
+      ],
+      "claims": "OriginalMIN2021firsttop3protection+secondtoGSW,existingselectedsettlement unchanged.",
+      "port": {
+        "path": "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json",
+        "LF_SHA256": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+        "json_pointer": "/operating_events/2"
+      },
+      "law_port": {
+        "path": "research/GSW_G1_DATED_MATCHING_AND_HARDCAP_SCOPE_2026_10_07.json",
+        "LF_SHA256": "4cbff2683a696271321637564b61c2563e17eb10757e1ffeb6691876a28bbf7e",
+        "json_pointer": "/observed_original_contract_inputs"
+      },
+      "numeric_named_sum": {
+        "Russell": 27285000,
+        "Wiggins": 27504630,
+        "Spellman": 1897800,
+        "H_out_floor": 800000,
+        "H_in_upper": 2400000,
+        "GSW_out_lower": 29982800,
+        "GSW125plus100": 37578500,
+        "GSW_in": 27504630,
+        "GSW_slack": 10073870,
+        "MIN125plus100": 34480787.5,
+        "MIN_in_upper": 31582800,
+        "MIN_slack": 2897987.5
+      },
+      "old_conservative_envelopes_preserved": {
+        "GSW_outlower": 29982800,
+        "GSW_limit": 37578500,
+        "GSW_slack": 10073870,
+        "MIN_inupper": 31582800,
+        "MIN_slack": 2897987.5
+      },
+      "envelope_note": "Allnumericentriesreproduceexistingdated2019-20matchingport. Spellman2019-20base1897800,notearlieryear1698840/1620480. Nooldfamilyreprice.",
+      "apron": "Original2019apron138928000/GammaB/Xthresholdsheld;H<=originalEcostcannotrise,notwholeprivatepayrollPASS.",
+      "value": "HutchisonnotEvansproductionclone;existingO3chosenfictionacceptancemodelretained.",
+      "exact_existing_matching_port": {
+        "h_pre_salary_lower": 800000.0,
+        "h_post_salary_plus_unlikely_upper": 2400000.0,
+        "russell_current_bonus_headroom": 0,
+        "wiggins_current_bonus_headroom": 0,
+        "spellman_second_assignment_current_bonus": 0,
+        "gsw_outgoing_lower": 29982800.0,
+        "gsw_incoming_upper": 27504630,
+        "gsw_sufficient_matching_limit": 37578500.0,
+        "gsw_min_matching_slack": 10073870.0,
+        "min_outgoing": 27504630,
+        "min_incoming_upper": 31582800.0,
+        "min_sufficient_matching_limit": 34480787.5,
+        "min_min_matching_slack": 2897987.5,
+        "gsw_trade_apron_delta_upper_if_other_costs_preserved": -2478170.0
+      }
+    },
+    {
+      "id": "SANON_REMOVED_MORRIS_PACKAGE",
+      "date": "2020-02-06",
+      "class": "NEW_FINITE_ROUTINE_RIGHTS_CORRECTION",
+      "players": [
+        "MarcusMorrisNYK->LAC",
+        "IsaiahThomasWAS->LAC",
+        "HarklessLAC->NYK",
+        "JeromeRobinsonLAC->WAS"
+      ],
+      "claims": [
+        "OriginalLAC2020first->NYK",
+        "Originalprotected2021LACfirstswap->NYK",
+        "OriginalDET2021second->NYK"
+      ],
+      "removed": "SanonWAS->NYKrightnevercreatedbyselecteddraft. NoBonga/newforeignfiller.",
+      "salary_transport": "Same4NBAUPCs/directions/properSalaryandGamma,matchesidenticalpointwiseoriginalfeasiblefamily. Removedunsignedforeignright=0Salary/noNBArostercharge;notallunobservedGammauniversalcert.",
+      "cost": "NYKlosesforeigndevelopmentasset;fictionalpartiesacceptsamecore/pickswithoutit.WASkeepsBonga44andgetsJerome. NoNBAminutes/resultsnewlychanged."
+    },
+    {
+      "id": "O3_MIN_NY_WAIVER",
+      "dates": [
+        "2020-11-24",
+        "2020-12-09"
+      ],
+      "class": "CONSUME_EXISTING_SELECTED_O3",
+      "players": [
+        "Hutchison/Spellman/MIN2026secondMIN->NYK",
+        "EdDavisNYK->MIN",
+        "NYKHutchisonwaiverclearedbeforeDec22"
+      ],
+      "matching": {
+        "universal_tax125_used_no_MIN_tax_assumption": true,
+        "MIN_incoming_Davis": 5005350,
+        "Spellman_outgoing": 1988280,
+        "H3_lower": 1936000,
+        "H3_upper": 2017320,
+        "MIN_limit_at_lower": 5005350,
+        "MIN_limit_at_upper": 5107000,
+        "MIN_slack_interval": [
+          0,
+          101650
+        ],
+        "NY_outgoing_Davis": 5005350,
+        "NY_incoming_upper": 4005600,
+        "NY_limit": 6356687.5,
+        "NY_slack_lower": 2351087.5,
+        "both_contracts_MIN_since_Feb6_more_than_two_months": true,
+        "NY_Davis_recent_acquisition_not_aggregated_with_other_outgoing_contract": true,
+        "prior_G1_matching_reused_source": "research/GSW_G1_DATED_MATCHING_AND_HARDCAP_SCOPE_2026_10_07.json"
+      },
+      "dead_current_protection": [
+        1936000,
+        2017320
+      ],
+      "future_unexercised_year4_charge": 0,
+      "stretch_setoff": false,
+      "port": {
+        "path": "simulation/GSW_G1_OPTION3_NY_WORKING_EXECUTION.json",
+        "LF_SHA256": "05933c0d976e9854c9b1bae4d5c36e7f4b50f05010940bb43f516a6157cd822f",
+        "json_pointer": "/operating_events/3"
+      },
+      "Gamma_retained_once": true,
+      "minutes_results_changed": 0
+    },
+    {
+      "id": "RIVERS_DIRECT_FA_NO_SANON",
+      "date": "2020-11-27",
+      "class": "NEW_FINITE_ROUTINE_SAME_SERVICE_MECHANISM",
+      "original": "SanonNYK->HOUforRiversS&T+Llull/Dragicevic/AxelHervellerights;Sanonnotavailable.",
+      "selected": "OriginalHOUoptiondecline/FAsequencepreserved;NYKdirectcaproom3yearUPC,samebase/protection/earnedbonusGamma;noHOUnewUPC/S&T.",
+      "rights_owners": {
+        "Llull": "HOU",
+        "Dragicevic": "HOU",
+        "AxelHervelle": "HOU",
+        "SanonNBA": null
+      },
+      "salary_reference": [
+        3500000,
+        3325000,
+        3150000
+      ],
+      "protection": "Originalfirstcurrent3500000protected,nexttwooriginalnonguaranteedbranches/conditionspreserved;notnewguarantees.",
+      "room_guard": "NYKbeforeRiversTeamSalary<=C2020-3500000-currentBonusGamma,allothercomponents/holdsaccountedonce. Sameoriginalincomingfirstcharge,validdirectroompointsretainexistingfutureNBAservice.",
+      "partial_nonempty_witness": {
+        "C2020": 109140000,
+        "room_before": 5000000,
+        "currentBonusGamma_interval": [
+          0,
+          1500000
+        ],
+        "not_all_old_Gamma_wholepayroll_certificate": true
+      },
+      "5percent_decreases": [
+        -175000,
+        -175000
+      ],
+      "fullterm_minimum": "2020anchoredtable:C20/C18=109140000/101869000;enteringYOS8,9,10contractcolumns1,2,3. Allmincellsbelowchosenreferencebase,seeexactrationalchecks.",
+      "cost": "NYKloses3foreignrights;HOUlosesSanoncounterassetandforegoesoriginalsmallS&TTPEbutkeeps3rights. NoincomingS&Ttriggerfromthisaction;otherhardcapnotdeleted.",
+      "subsequent_port": "ExistingRiversNYK->OKCtrade/waiver/DENservice unchanged,notnewfreeagentyearprice/guaranteeor82gamechoice.",
+      "new_NBA_minutes_results": 0,
+      "actual_assent": false
+    },
+    {
+      "id": "F1_2021_CHI_WAS_BOS",
+      "date": "2021-03-25",
+      "class": "EXISTING_SELECTED_FIVE_PLAYER",
+      "port": {
+        "path": "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+        "LF_SHA256": "2efec5f5e57c02accf5d5bed3ce364ef6f9eeddab55a05d631f1bc24d6b55307",
+        "json_pointer": "/selected_execution/approved_event_links/0"
+      },
+      "law_port": {
+        "path": "research/CHI_F1_MATCHING_EXISTENCE_WITNESS_2026_10_07.json",
+        "LF_SHA256": "3445fc974748036ae0d7cb8a58a850396f42df20e8c621c77cb435310a9b343a",
+        "json_pointer": "/topology"
+      },
+      "edges": [
+        {
+          "from": "CHI",
+          "to": "WAS",
+          "player": "Daniel Gafford"
+        },
+        {
+          "from": "CHI",
+          "to": "BOS",
+          "player": "Luke Kornet"
+        },
+        {
+          "from": "WAS",
+          "to": "BOS",
+          "player": "Moritz Wagner"
+        },
+        {
+          "from": "BOS",
+          "to": "CHI",
+          "player": "Daniel Theis"
+        },
+        {
+          "from": "BOS",
+          "to": "CHI",
+          "player": "Javonte Green"
+        }
+      ],
+      "retained": {
+        "Trent": "WAS",
+        "TroyBrown": "WAS"
+      },
+      "numeric": {
+        "CHI": {
+          "outgoing_lower_usd": "3767981",
+          "rule": "VII6(j)(1)(iii) full max/min; post-TeamSalary <= tax",
+          "post_team_salary_upper_usd": "132367326.15",
+          "tax_usd": "132627000",
+          "tax_margin_usd": "259673.85",
+          "matching_limit_usd": "6693966.75",
+          "incoming_base_usd": "6517981",
+          "external_gamma_intervals": {
+            "Theis": [
+              "0",
+              "750000"
+            ],
+            "Green": [
+              "0",
+              "227697.15"
+            ]
+          },
+          "algebra": {
+            "q": "max(0,gT+gG-175985.75)",
+            "qT": "min(gT,q)",
+            "qG": "q-qT",
+            "proof": "0<=qT<=gT, 0<=qG<=gG and gT+gG-q=min(gT+gG,175985.75)"
+          },
+          "incoming_after_candidate_waiver_upper_usd": "6693966.75",
+          "max_permissible_candidate_q_sum_usd": "801711.40",
+          "all_incentives_in_preserved_model": "Theis/Green reported likely/unlikely 0; full old-contract bonus intervals retained"
+        },
+        "BOS": {
+          "outgoing_lower_usd": "6517981",
+          "conservative_limit_usd": "8247476.25",
+          "incoming_full_upper_usd": "4749420",
+          "margin_usd": "3498056.25",
+          "Kornet_base_fullGamma_upper_usd": "2587500",
+          "Wagner_entire_rookie_upper_usd": "2161920",
+          "rule": "125%+100000 safe for over-cap taxpayer/non-taxpayer and below-cap VII6(j)(3)",
+          "candidate_waiver_reduces_BOS_outgoing_matching_salary": false,
+          "reason": "Outgoing uses pre-trade Salary; new assignment bonus and its waiver are post-assignment incoming effects",
+          "Hayward_TPE_usage_usd": 0,
+          "prior_four_cost_states": [
+            121899556,
+            120130995,
+            138716242,
+            138716242
+          ],
+          "maximum_prior_apron_usd": "138716242",
+          "apron_usd": "138928000",
+          "apron_margin_usd": "211758"
+        },
+        "WAS": {
+          "outgoing_Wagner_rookie_lower_usd": "1441280",
+          "conservative_limit_usd": "1901600",
+          "incoming_Gafford_current_base_usd": "1517981",
+          "performance_upper_in_preserved_model_usd": "0",
+          "external_Gafford_total_Gamma": "Any bonus permitted by XXIV2(a), including all protected/allocation/remaining-year possibilities; actual value null",
+          "candidate_qGafford": "entire eligible total trade bonus",
+          "post_assignment_current_bonus_after_candidate_waiver_usd": "0",
+          "proof": "VII7(d)(3) permits entire waiver. VII3(b) allocation of zero total bonus is zero in every year regardless of protection weights.",
+          "incoming_after_candidate_waiver_upper_usd": "1517981",
+          "margin_usd": "383619",
+          "rule": "125%+100000 is safe in all cap/tax classes, including below-cap VII6(j)(3); no new whole-WAS-cost certification",
+          "original_future_bonus_and_protection_actual_values": null,
+          "actual_assignment_bonus_zero_certified": false
+        }
+      },
+      "cost": "CHIlosesBrownreturnwhenHutchisonabsent;WASdoesnotgetHutchisonwhilekeepingBrown/Trent andgettingGafford.",
+      "Gamma_functions_retained_not_actual_consent": true,
+      "old_waiver_extension_floor": ">=max2021Sep25,otherwiseeligibledate;ordinarynewFA notoldextension."
+    },
+    {
+      "id": "T4_NO_POWELL_2021",
+      "date": "2021-03-25",
+      "class": "EXISTING_AUTHOR_DIRECTION_AND_EXECUTION",
+      "port": {
+        "path": "simulation/NBA_2020_21_TRANSACTION_EXECUTION_CLOSURE_WITNESS.json",
+        "LF_SHA256": "2efec5f5e57c02accf5d5bed3ce364ef6f9eeddab55a05d631f1bc24d6b55307",
+        "json_pointer": "/selected_execution/approved_event_links/4"
+      },
+      "author_port": {
+        "path": "canon/CHICAGO_2020_21_DIRECTION_APPROVAL.json",
+        "LF_SHA256": "ab996ffb9f9f6e4471ad473633af1529eb4928e3aa9a17b99642c591691c3798",
+        "json_pointer": "/approved/T4"
+      },
+      "actors": {
+        "Powell": "TOR",
+        "Hood": "POR",
+        "Trent": "WAS",
+        "Evans": "POR"
+      },
+      "no_free_clone": "EvansnotTrentbubblevalue;noHoodEvans/Simons/Littletrade,PORPowellBird/fiveyear2021UPC or2022PowellLAC/CJNOPpackage.",
+      "keeper_minutes": {
+        "EvansPOR_SG": 6,
+        "HoodPOR_SG": 8,
+        "HoodPOR_SF": 12,
+        "TrentWAS_SG": 16,
+        "TrentWAS_SF": 12,
+        "BrownWAS_SF": 6,
+        "BongaNBA": 0
+      },
+      "existingfull240/resultsunchanged": true
+    },
+    {
+      "id": "SG16_AND_MACRO3_USED_PORTS",
+      "date": "2021-07-29",
+      "class": "EXISTING_SELECTED_FULL60_AND_TRANSACTION",
+      "port": {
+        "path": "simulation/NBA_2021_T1_SELECTED_DRAFT_EXECUTION.json",
+        "LF_SHA256": "f8c78e99cce1b02a051c94339b550fdb52205d3988db8bbe69b780559c3bc306",
+        "json_pointer": "/chosen_path"
+      },
+      "event": {
+        "date": "2021-07-29",
+        "event": "SG16",
+        "atomic": true,
+        "edges": [
+          {
+            "event": "SG16",
+            "kind": "UNSIGNED_DRAFT_RIGHTS",
+            "asset": "BOS_2021_16:Alperen Sengun",
+            "from": "OKC",
+            "to": "HOU"
+          },
+          {
+            "event": "SG16",
+            "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+            "asset": "DET_FIRST_OR_2027_SECOND",
+            "from": "HOU",
+            "to": "OKC"
+          },
+          {
+            "event": "SG16",
+            "kind": "PRESERVED_CONDITIONAL_FIRST_CLAIM",
+            "asset": "WAS_FIRST_OR_2026_2027_SECONDS",
+            "from": "HOU",
+            "to": "OKC"
+          }
+        ],
+        "private_receipt_certified": false
+      },
+      "joins": "ExistingMINfirst7GSWFranz/top3nottriggered,GSW14Bouknight,MINsecond36SharpefinalOKC,CHI10Duarte39Wieskamp,WAS12Kispert. No2019–2021rankrecalculationorprotectedfutureconveyanceinvented.",
+      "Macro3": "ExistingcompleteddatedUPCs/yearprices/results/J16consumed,nounsignedSengunrightasHOUcourtserviceclaim.",
+      "exit_source": {
+        "path": "simulation/MACRO3_2021_23_SELECTED_DATED_EXIT_JOIN.json",
+        "LF_SHA256": "9ec5e8f0214f2803591536e8658b1dc3a70368187a4a926d6ea63d43f2b0138c"
+      }
+    }
+  ],
+  "new_public_price_reference_collection": {
+    "receipt_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\AD_TPE_PUBLIC_PRICES.json",
+    "raw_SHA256": "27425970fb0160370d9166bda5e7e992db5b5244f3db157796970357db56139e",
+    "player_rows": {
+      "moritz-wagner": {
+        "url": "https://www.salaryswish.com/players/moritz-wagner",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\MORITZ_WAGNER.html",
+        "raw_SHA256": "0d360a7cecc8f55d62e39713fff547cd727ff8b7a5fa4db367d32b39bbb7fe56",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "",
+            "",
+            "$1,762,080",
+            "$1,762,080",
+            "$1,762,080",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "",
+            "",
+            "$2,063,520",
+            "$2,063,520 (+17%)",
+            "$2,063,520",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "jemerrio-jones": {
+        "url": "https://www.salaryswish.com/players/jemerrio-jones",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\JEMERRIO_JONES.html",
+        "raw_SHA256": "fc18f9e189838055870eff11c8a031b345854390002515aeae96aea98630f121",
+        "http": 200,
+        "rows": []
+      },
+      "lonzo-ball": {
+        "url": "https://www.salaryswish.com/players/lonzo-ball",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\LONZO_BALL.html",
+        "raw_SHA256": "97c7a139a478aca76997af2615707eaeeffe82e5f2470362ae02751f978d49d8",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "",
+            "",
+            "$7,461,960",
+            "$7,461,960 (+19%)",
+            "$7,461,960",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "Team",
+            "Yes (Oct 16, 2018)",
+            "$8,719,320",
+            "$8,719,320 (+20%)",
+            "$8,719,320 (0→8.72M)",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "brandon-ingram": {
+        "url": "https://www.salaryswish.com/players/brandon-ingram",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\BRANDON_INGRAM.html",
+        "raw_SHA256": "c0058344b899eba3981ff862cc7bafa3948ded1723bf0faa004851a04942fa31",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "Team",
+            "Yes (Oct 24, 2017)",
+            "$5,757,120",
+            "$5,757,120 (+6%)",
+            "$5,757,120 (0→5.76M)",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "Team",
+            "Yes (Oct 16, 2018)",
+            "$7,265,485",
+            "$7,265,485 (+29%)",
+            "$7,265,485 (0→7.27M)",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "josh-hart": {
+        "url": "https://www.salaryswish.com/players/josh-hart",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\JOSH_HART.html",
+        "raw_SHA256": "be5402febb179175a216326d28234a3cc59a55fec0ec39dff7dd43ce646c596b",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "",
+            "",
+            "$1,655,160",
+            "$1,655,160 (+19%)",
+            "$1,655,160",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "Team",
+            "Yes (Oct 16, 2018)",
+            "$1,934,160",
+            "$1,934,160 (+20%)",
+            "$1,934,160 (0→1.93M)",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "anthony-davis": {
+        "url": "https://www.salaryswish.com/players/anthony-davis",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\ANTHONY_DAVIS.html",
+        "raw_SHA256": "dcb3e3c431a24c3197a221a5e52c7ebb99d5c5b26a4020ccdb133dfb8960ef8c",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19 Max",
+            "",
+            "",
+            "$25,434,263",
+            "$25,434,263 (+8%)",
+            "$25,434,263",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20 Max",
+            "",
+            "",
+            "$27,093,019",
+            "$27,093,019 (+8%)",
+            "$27,093,019",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "otto-porter": {
+        "url": "https://www.salaryswish.com/players/otto-porter",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\OTTO_PORTER.html",
+        "raw_SHA256": "24413809092f83d4adce46cd308d216b021a945c43998291aa4ca3c8e09e15b5",
+        "http": 200,
+        "rows": []
+      },
+      "jabari-parker": {
+        "url": "https://www.salaryswish.com/players/jabari-parker",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\JABARI_PARKER.html",
+        "raw_SHA256": "2e52d3a449354314ff24b908ca9a60d55d935f6773173f71207c91cfba3dae87",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "",
+            "",
+            "$20,000,000",
+            "$20,000,000",
+            "$20,000,000",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "Team",
+            "No (Jun 23, 2019)",
+            "$20,000,000",
+            "$20,000,000",
+            "$0",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "",
+            "",
+            "$6,500,000",
+            "$6,500,000",
+            "$6,500,000",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "bobby-portis": {
+        "url": "https://www.salaryswish.com/players/bobby-portis",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\BOBBY_PORTIS.html",
+        "raw_SHA256": "4c4b08a99ae1f300a2f3b3502bd73e1173868e5fdcf77a2d4fb7e85e41431f4c",
+        "http": 200,
+        "rows": [
+          [
+            "2018-19",
+            "Team",
+            "Yes (Oct 27, 2017)",
+            "$2,494,346",
+            "$2,494,346 (+70%)",
+            "$2,494,346 (0→2.49M)",
+            "$0",
+            "$0"
+          ],
+          [
+            "2019-20",
+            "",
+            "",
+            "$15,000,000",
+            "$15,000,000",
+            "$15,000,000",
+            "$0",
+            "$0"
+          ]
+        ]
+      },
+      "otto-porter-jr": {
+        "url": "https://www.salaryswish.com/players/otto-porter-jr",
+        "raw_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\OTTO_PORTER_JR.html",
+        "raw_SHA256": "24413809092f83d4adce46cd308d216b021a945c43998291aa4ca3c8e09e15b5",
+        "http": 200,
+        "rows": []
+      }
+    },
+    "class": "PUBLISHER_OWN_COMPILED_DATA_NOT_LEAGUE_CONTRACT_MEMO",
+    "dispositions": {
+      "Wagner_Ball_Ingram_Hart_AD_Parker_Portis": "Rowsreadandmatchednamedreferenceyears. Printedzero bonus notprivateabsencecertificate.",
+      "JemerrioJones": "FreshpageHTTP200butno2018/19or2019/20table;1416852islegal2018anchorYear2/YOS1minimumwitnessforpreserved2seasoncontract,notfreshpublisher-certifiedsalary.",
+      "OttoPorter": "BothfreshslugpagesHTTP200without2018salarytable. 26011913nominalmagnitudeispredecessorhistoricalcontractcomparison/legalreference,notnewfreshverifiedpublisherfact. TPEancestorultimatelyconditionalproperSalaryfunction,notactualprivateTPEbalance. These failed fresh pages do not erase predecessor nominal source; paired prior public contract magnitude remains a typed comparison. No anonymous private team ledger needed for finite partial family."
+    }
+  },
+  "semantic_descendant_overrides_without_source_edits": [
+    {
+      "source": {
+        "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+        "json_pointer": "/lawful_contract_family/9/price_function/route"
+      },
+      "old_literal": "VII6b2_FULL_BIRD",
+      "current": "VII6(b)(1) FullBirdLAL39->WASthreeseasons; b2NonQualifying,notFullBird. Sameq3yearterms retained.",
+      "price_reselection": false
+    },
+    {
+      "source": {
+        "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+        "json_pointer": "/lawful_contract_family/9/price_function/original2018POR3seasons_trades_only_do_not_break_Bird"
+      },
+      "old_literal": true,
+      "current": "HistoricalPOR37referenceonly,notselectedTrentteam. LAL2018/WAS2019/WAS2020trades-onlyservice suppliesBirdclock."
+    },
+    {
+      "source": {
+        "path": "simulation/CHICAGO_WASHINGTON_2021_22_SELECTED_KEEPER_RESULTS.json",
+        "LF_SHA256": "b6a69e452e3277ae92b4b535db5d7845046286e2548b70e829ae0874c87d505b",
+        "json_pointer": "/lawful_contract_family/9/applicable_prior_QO/rookie_scale_QO_anchor_not_applicable_to_2018secondround37"
+      },
+      "old_literal": true,
+      "current": "SelectedTrent2018secondround39 nonRSC; ordinaryQOfunctionunchanged, historical37notcurrentrightsowner."
+    }
+  ],
+  "displaced_actor_costs": [
+    {
+      "actor": "Hutchison",
+      "original": "CHI22",
+      "selected": "GSW28->MIN->NYKwaiver",
+      "salary_cost": "SixrankfirstRSCdrop,2guaranteed+optionsclasspreservedbutnotCHI22salary. CurrentNYKfullprotecteddeadcharge,notfutureunexercisedyear4.",
+      "role_cost": "NooriginalCHI52games894:37/2021WASdeadlinewingseat. PCHIminutesallocationseparateC05,notfreeHextraGSWminutes."
+    },
+    {
+      "actor": "Evans",
+      "original": "GSW28",
+      "selected": "POR37",
+      "salary_cost": "FirstRSC2+2lost;own3yearminimumstandardcontract,notGSWsalary/NYwaivercopied.",
+      "role_cost": "ExistingPORkeeperSG6;nofreeTrentbubble/Powellproduction."
+    },
+    {
+      "actor": "Trent",
+      "original": "POR37",
+      "selected": "LAL39->WAS",
+      "salary_cost": "OwnnewLALroomUPC/notoriginalcontractcopy,assignmentcontinuousBird;noTOR52mcontractcopy.",
+      "role_cost": "LosescandidatePORdevelopmentenvironment;WAS28keeperminutesselectednoPcoreminutesdonation;LALlosesshooterADcost."
+    },
+    {
+      "actor": "Bonga",
+      "original": "LAL39->WASNBA",
+      "selected": "WAS44X6development",
+      "salary_cost": "NoNBAUPC/guaranteedcash;RT/rightholdnotpaidservice,2021SubsequentRookieFA,noforeverrights.",
+      "role_cost": "NoSouthBay/CapitalCity/NBAoriginalminutes;developmentretainednotclinical/privatepayfact."
+    },
+    {
+      "actor": "Sanon",
+      "original": "WAS44->NYK->HOUrights",
+      "selected": "UndraftedEurope",
+      "salary_cost": "NoNBAexclusive/tender/RSCUPC;Europeanactorretained. NYK/HOU2020cannottradenonexistentasset.",
+      "role_cost": "OriginalstashhadnoNBAminutes,soassetlossratherthanfictionalNBArotationloss;twousededgescorrected."
+    }
+  ],
+  "old_candidates_and_unused_precision": {
+    "oldsource_mutation": false,
+    "archivedATL30": "Notconsumed;approvedCHI1Rcurrentdirection.",
+    "oldexactHOLD": "Historicalcandidategenerationpreserved. Newroutineimplementationiscurrentancestoronlyafterindependentreview/rootadoption,notretroactivehumanselection/privateproof.",
+    "alternatives_not_selected": [
+      "HutchisonIND/POR/BKN/ATL",
+      "EvansDET42/ORL43",
+      "TrentDET42/LAL47",
+      "SanonSAS49/CHA55/NOP51",
+      "PowellPORHoodEvans/Simons/Littletrade",
+      "BongaX5professionalavailabilitybranch"
+    ],
+    "unused": [
+      "ExactDOB/combinemeasurementcell",
+      "Actualprivateboard/leaguecashreceipt",
+      "Europeprofessionalpay/outclause",
+      "Unknownfutureprotectedconveyance"
+    ],
+    "mandatory_scope": "All39rows+actuallyusedSanon2020rightsnotomittedmerelybecauseactorhadnoNBAminutes."
+  },
+  "tool_execution_and_dispositions": {
+    "Antigravity": {
+      "exe": "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+      "first": "print-timeout120invaliddurationexit2/noevidence",
+      "corrected": "Actualmodeplan/streamjson/print-timeout120s/processdeadline140sec;55.045secexit0terminalSUCCESSemptyanswer/verifiedsourcebody0.",
+      "new_verified_bodies": 0,
+      "receipt": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\AGY_COLLECTION_CORRECTED.json",
+      "PASS_claimed": false
+    },
+    "NotebookLM": {
+      "CLI": "notebooklm0.11.5/boundedrunner120secquery150secprocess",
+      "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+      "source_id": "fb655448-b9dc-49ba-95ec-ff26ca9ed3f6",
+      "title": "fr-2017-cba.pdf",
+      "content_SHA256": "5b43e047a73d4508b28e8269b71d37593143a65fbf1c4edd36459b0d820cc0f3",
+      "actual_query_seconds": 104.087,
+      "exit": 0,
+      "disposition": "3year2Rroom/MLE andassignmentBirdclockanalyzed;wrongb2FullBirdinclpromptb2hintrejectedagainstdirectPDF223b1. Honestoriginalanswerkept.",
+      "assent_or_real_Trent_terms_certified": false,
+      "new_import_or_account_setting": false,
+      "receipt": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-lc1-c02-2018-20261009\\NLM_ANALYSIS.json"
+    },
+    "Codex": "DirectrawPDF/pypdfpages/39rows/rights/minimum/conditionalmatching/currentportsactualread;independentpeerpendingnotselfPASS.",
+    "Claude": "Notrunbythisproducer,nofalsecrossreviewclaim.",
+    "NBAstats": "Actual20.431secReadTimeout,webboardJSshellnotfreshfullresults. Boardusespreservedreviewedbaseline+primaryteam/tradehistory.",
+    "source_failures": "FreshMay23Trent/GSW2018/WASopen shells/403notverifiedbodies. Officialsearchreturnedbodyreadseparately. July/SepSviarticlesnotpre-draftcause."
+  },
+  "mechanical_checks": {
+    "full39sequentialunique": true,
+    "repeat_with_first21": false,
+    "Sanon_drafted": false,
+    "fullterm_2R_UPC_rows": 6,
+    "minimum_rows_pass": true,
+    "Evans_TMLE_remaining": 1703536,
+    "Trent_room_reduction": 161536,
+    "AD_trio_sum": 4897224,
+    "AD_WagnerTrent_TPE_use": 3480372,
+    "Rivers_minimum_fullterm_exact_floors": [
+      "236340596340/101869",
+      "249392867220/101869",
+      "287395851780/101869"
+    ],
+    "Rivers_minimum_pass": [
+      true,
+      true,
+      true
+    ],
+    "Rivers_decrease5percent": [
+      true,
+      true
+    ],
+    "G1_same_arithmetic_as_existing": true,
+    "MIN_NY_lower_exact": true,
+    "Sanon2020rights_edges_removed": 2,
+    "new_rights_counterasset_invented": 0,
+    "existing_2020_season_summary_preserved": {
+      "approved_events": 8,
+      "assignment_player_edges": 10,
+      "omitted_player_event_edges": 12,
+      "selected_games": 1174,
+      "selected_team_games": 2348,
+      "legal_fields_reused": 12,
+      "roster_named_gaps": 0,
+      "unjoined_result_or_roster_rows": 0,
+      "control_rows": 60,
+      "minutes_or_results_changed": 0
+    },
+    "Macro3oldq_prices_keeper240_results_changed": false,
+    "independent_review_pending": true,
+    "legal_guards_not_actual_private_receipts": true,
+    "source_pointer_errors": [],
+    "AD_Jones_protection_model_limit": "21598337*5/4+100000=27097921.25; >=27093019",
+    "six_C05_opponent_service_ports": 6,
+    "all39_final_rights_actor_unique": true
+  },
+  "remaining_and_reopen": {
+    "C02": "Parent-appointedindependentpeeractualsource/39rows/fullterm/portsreviewpending.",
+    "C01": "Publicmedal/militaryunselected;C02routinecannotselect;wholeunconditionalhistory/NBAcontinuous2024–35dependentHOLDnotmetadatahidden.",
+    "C03_C04_C05": "College13counter/usedbox/GLminutescauseseparate;C02notautopass.",
+    "local_reopen": "Changedright/foreignclassification/cashbudget/UPCbonus/oldTPEconsumptionviolatesguard->localrepair,nounendingprivateboard/all82newgate."
+  },
+  "seven_group_progress_snapshot": [
+    {
+      "group": 1,
+      "name": "2020 드래프트 연쇄",
+      "status": "완료; 전체1–60 AUTHOR_LOCK 보존"
+    },
+    {
+      "group": 2,
+      "name": "Chicago 2020–21",
+      "status": "완료; 선택S2 유한실행의 원범위 보존"
+    },
+    {
+      "group": 3,
+      "name": "2021–23 거래·계약",
+      "status": "완료; 기존 유한가격/권리 가족 보존"
+    },
+    {
+      "group": 4,
+      "name": "주인공·라이벌 장기 커리어",
+      "status": "진행; LC1 유한NBA 좌표/서비스 검문 수락, 무중단전체역사 C01 등 잔여"
+    },
+    {
+      "group": 5,
+      "name": "결말·전체 구조",
+      "status": "진행;14/42/60·111/146 조건부준비 수락, whole선택역사/최종N·current권한 미LOCK"
+    },
+    {
+      "group": 6,
+      "name": "집필 규격·Context Pack",
+      "status": "진행; 기존 독서/규격 준비 보존, 실제Pack0·후행권한 미완료"
+    },
+    {
+      "group": 7,
+      "name": "통합·독립·작가 승인",
+      "status": "미완료;G13/G14/G17 전체승격 아님"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_major_groups_through6": 3,
+  "limits": {
+    "wholehistory_LOCK": false,
+    "G08_complete": false,
+    "G13_G14_G17_promoted": false,
+    "actual_Pack": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "schedule": false,
+    "git_or_central_mutation": false
+  },
+  "2018_19_six_CHI_opponent_service_and_role_ports": {
+    "classification": "ROUTINE_FICTIONAL_BOUNDED_PORTS_FOR_C05_NOT_COMPLETED_OPPONENT_BOXES",
+    "old_CHI_only_result_model": "Doesnotcertifyallopponentchanges;parentC05mustjointlyconsumeopponentminutes/ratingports. NoactualNBAproxyproductionclaimed.",
+    "bounds_units": "Minutesperlistedrepresentativegame;noautomatic82gameGP/MPGornewseasonactorstatistics.",
+    "rows": [
+      {
+        "date": "2018-10-29",
+        "opponent": "GSW",
+        "actor": "Chandler Hutchison",
+        "service_UPC": "H28",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "reserveSF/PFdefense/rebound/connect",
+        "minutes_interval": [
+          0,
+          10
+        ],
+        "old_counterpart": "Jacob Evans",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      },
+      {
+        "date": "2019-01-11",
+        "opponent": "GSW",
+        "actor": "Chandler Hutchison",
+        "service_UPC": "H28",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "reserveSF/PFdefense/rebound/connect",
+        "minutes_interval": [
+          0,
+          10
+        ],
+        "old_counterpart": "Jacob Evans",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      },
+      {
+        "date": "2019-01-09",
+        "opponent": "POR",
+        "actor": "Jacob Evans",
+        "service_UPC": "E37",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "developmentSGdefense/connect",
+        "minutes_interval": [
+          0,
+          6
+        ],
+        "old_counterpart": "Gary Trent Jr.",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      },
+      {
+        "date": "2019-03-27",
+        "opponent": "POR",
+        "actor": "Jacob Evans",
+        "service_UPC": "E37",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "developmentSGdefense/connect",
+        "minutes_interval": [
+          0,
+          6
+        ],
+        "old_counterpart": "Gary Trent Jr.",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      },
+      {
+        "date": "2019-01-15",
+        "opponent": "LAL",
+        "actor": "Gary Trent Jr.",
+        "service_UPC": "T39",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "developmentSG/SFshooting",
+        "minutes_interval": [
+          0,
+          8
+        ],
+        "old_counterpart": "Isaac Bonga",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      },
+      {
+        "date": "2019-03-12",
+        "opponent": "LAL",
+        "actor": "Gary Trent Jr.",
+        "service_UPC": "T39",
+        "valid_dated_service": "2018JulyownUPC, sameclub onthisdate; noG1/ADassignmentyet",
+        "role": "developmentSG/SFshooting",
+        "minutes_interval": [
+          0,
+          8
+        ],
+        "old_counterpart": "Isaac Bonga",
+        "budget": "Oldcounterpartminutesreassignedonlyifpositiveandavailable; additionalnamedbenchwing/guarddonorsfromactualgamebudget. Positiveallplayerscombined240+actualOT, validactive/position blocks; neverfreeaddedactor minutes.",
+        "efficiency": "Noactualefficiencystatchosen. Underselectedcounterfactualproxyfamily netteamdifferencehasjointboundbelow; oldpublishedactorspriorsarebaselineinputsnotnewactorfacts.",
+        "box_source_and_actual_donor": "NOT_NEWLY_RETRIEVED_BY_C02_PRODUCER; C05producerassignedactual6gamebox/donorread",
+        "actual_minutes_selected": null,
+        "all82_private_gate_added": false
+      }
+    ],
+    "joint_proxy_family": {
+      "definition": "DeltaR_opponent=sum(newminutes_i*newBPM_i-oldminutes_i*oldBPM_i)/48 acrossallchangedactorsandnamedminute-donors; NBAboxpriorsareobservedbaseline only.",
+      "selected_DeltaR_interval": [
+        -3,
+        3
+      ],
+      "scope": "SixlistedCHIcontacts only. Withinmatching/minutes/activeguards, newactorfictionproxy/donorallocations must meetjointbound. Positiveandzeroshift referencepointsadmissible;actualempiricalimpactnotcertified.",
+      "source_algorithm": "C05mustuseitsoriginalcoefficient/marginmodelwith thisDeltaR,notassume3BPMmeans3points. NooutcomeorBPMforecastautomaticallyauthorlocked.",
+      "unselected": "ExactnewBPMcell/individualpoints/shotattempts/82fullseason/matchupwins. C02providesfinitelegalserviceandbudgetports, C05consumesandverifiesselectedlocalwitness."
+    },
+    "full39_draft_or_used_trade_scope_shrunk": false
+  }
+}

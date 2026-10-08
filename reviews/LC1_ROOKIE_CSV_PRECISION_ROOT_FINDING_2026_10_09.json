@@ -1,0 +1,32 @@
+{
+  "id": "LC1_ROOKIE_CSV_PRECISION_ROOT_FINDING_2026_10_09",
+  "status": "NEEDS_REPAIR_PRECISION_AUTHORITY_BOUNDARY_NOT_NEW_PLAYER_EVENT",
+  "reviewer": "Codex root independently recalculated CSV after producer notification",
+  "reviewed_artifacts_sha256": {
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json": "7778b474aef76d1cd6ee1dce1a71707e809715fea175a0d0240a220d3fc4c3aa",
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.md": "170c89dcf23d278a01e730f77b68a6bfafcf47efc2dda62d47ecf334f4358b45",
+    "simulation/CHICAGO_2018_19_OUTCOME_LEDGER.csv": "24d3bb974bb76b79e08d0ba053aad53dd4e4d7a7010dd6c230967573d2180027"
+  },
+  "calculation": {
+    "rows": 82,
+    "sum_original_decimal_minutes_times60": "76437.999900",
+    "sum_each_row_rounded_integer_seconds": 76438,
+    "original_vector_selected_aggregate_seconds": 76442,
+    "difference_seconds_decimal": "4.000100",
+    "difference_vs_per_row_rounded": 4
+  },
+  "material_findings_count": 1,
+  "material_findings": [
+    {
+      "id": "PRECISION_F1",
+      "severity": "material_claim_boundary",
+      "finding": "Original82 CSV proxy minutes sum1273:58, not the selected aggregate1274:02. They cannot be labeled an exact whole pergame reconstruction or exact season-line sum PASS.",
+      "required_repair": "Preserve original CSV and original aggregate lineage. Distinguish historical model input from selected exact used-game minutes; only six primary-retrieved used contacts exact, other unused pergame exact cells null. Explicit4second generation difference; no fabricated new donor event to force agreement."
+    }
+  ],
+  "scope": "Narrow precision finding, not an independent verdict on C05 assignment, contracts, six contacts or selected results.",
+  "whole_case_PASS": false,
+  "actual_Pack": 0,
+  "manuscript": 0,
+  "design_gate": "CLOSED"
+}
