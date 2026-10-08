@@ -1,0 +1,162 @@
+{
+  "id": "THREEPEAT_2024_25_SIX_EAST_USED_COURT_ROOT_INDEPENDENT_REVIEW_2026_10_09",
+  "reviewer": "root; different producer from lc1_final_payoff",
+  "status": "PASS_FINITE_GAME_SPECIFIC_CHI_CLOCK_AND_PARTIAL_EAST_ROLE_JOIN_ONLY",
+  "source_sha256": {
+    "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.json": "05ebe98c659a9494ccfead67e82973d19d10c2e90f4790d099b2c5155c4532a4",
+    "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.md": "fdf27c99ccb0947f8c33178bc913c9dc6d2f823d23ae63085a41d230fed99c6c"
+  },
+  "actual_checks": {
+    "pins": 6,
+    "typed_pointers": 60,
+    "games": [
+      {
+        "team": "ATL",
+        "date": "2024-04-20",
+        "exchanges": 0,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "LaMelo Ball": 1800,
+          "Zach LaVine": 1800,
+          "Protagonist": 2040,
+          "Lauri Markkanen": 1800,
+          "Wendell Carter Jr.": 1680,
+          "Jaime Jaquez Jr.": 1200,
+          "Thaddeus Young": 600,
+          "Alex Caruso": 1200,
+          "Walker Kessler": 840,
+          "Coby White": 840,
+          "Chris Duarte": 600
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      },
+      {
+        "team": "BOS",
+        "date": "2024-05-19",
+        "exchanges": 4,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "Coby White": 840,
+          "Jaime Jaquez Jr.": 1200,
+          "Protagonist": 2040,
+          "Thaddeus Young": 600,
+          "Walker Kessler": 840,
+          "LaMelo Ball": 1800,
+          "Zach LaVine": 1800,
+          "Lauri Markkanen": 1800,
+          "Wendell Carter Jr.": 1680,
+          "Alex Caruso": 1200,
+          "Chris Duarte": 600
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      },
+      {
+        "team": "MIL",
+        "date": "2024-06-01",
+        "exchanges": 4,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "Coby White": 840,
+          "Jaime Jaquez Jr.": 1200,
+          "Protagonist": 2040,
+          "Thaddeus Young": 600,
+          "Walker Kessler": 840,
+          "LaMelo Ball": 1800,
+          "Zach LaVine": 1800,
+          "Lauri Markkanen": 1800,
+          "Wendell Carter Jr.": 1680,
+          "Alex Caruso": 1200,
+          "Chris Duarte": 600
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      },
+      {
+        "team": "MIA",
+        "date": "2025-04-19",
+        "exchanges": 2,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "LaMelo Ball": 1800,
+          "Alex Caruso": 1200,
+          "Protagonist": 2040,
+          "Lauri Markkanen": 1800,
+          "Thaddeus Young": 600,
+          "Zach LaVine": 1800,
+          "Wendell Carter Jr.": 1680,
+          "Jaime Jaquez Jr.": 1200,
+          "Walker Kessler": 840,
+          "Chris Duarte": 600,
+          "Coby White": 840
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      },
+      {
+        "team": "BKN",
+        "date": "2025-05-15",
+        "exchanges": 3,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "LaMelo Ball": 1800,
+          "Zach LaVine": 1800,
+          "Jaime Jaquez Jr.": 1200,
+          "Protagonist": 2040,
+          "Thaddeus Young": 600,
+          "Lauri Markkanen": 1800,
+          "Wendell Carter Jr.": 1680,
+          "Walker Kessler": 840,
+          "Alex Caruso": 1200,
+          "Chris Duarte": 600,
+          "Coby White": 840
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      },
+      {
+        "team": "PHI",
+        "date": "2025-05-31",
+        "exchanges": 4,
+        "base_and_candidate_total_player_and_position_seconds_equal": true,
+        "wholeCHI_player_seconds": {
+          "Alex Caruso": 1200,
+          "Coby White": 840,
+          "Chris Duarte": 600,
+          "Lauri Markkanen": 1800,
+          "Thaddeus Young": 600,
+          "LaMelo Ball": 1800,
+          "Zach LaVine": 1800,
+          "Protagonist": 2040,
+          "Wendell Carter Jr.": 1680,
+          "Jaime Jaquez Jr.": 1200,
+          "Walker Kessler": 840
+        },
+        "used_joint_actor_seconds": 150,
+        "all10_used_actors_onfloor": true
+      }
+    ],
+    "atomic_swaps_replayed": 17,
+    "joint_partial_actor_seconds": 900
+  },
+  "semantic_read": [
+    "Only game-specific fifteen-second source-minute reallocation; original DEN/MIN Finals clock not altered. FullCHI per-player/per-position seconds held, but opponent only75 actorseconds each contact, not full240.",
+    "PG/SG/PF/C four swaps BOS/MIL, SG/C two MIA, SF/PF/C three BKN, PG/SG/SF/C four PHI. BKN P positional change applied atomically so final five unique. No liveball instant substitution; candidate legal deadball/restart family stated.",
+    "Thirty opponent visible choices/space/effort costs read. MIA Robinson short PF has explicit height/rebound cost; agedHorford/Lowry low movement role not fullgame clinical claim.",
+    "LM initiates and teammates choose own observed routes; counterpart defenders retain independent pressures and recovery costs. No exact made shot/box/series solecause or hidden-mind access assigned.",
+    "Ordinary scope receipt a585 is consumed as ancestry, not used in place of original source/clock reading. Original contracts/unknown endpoints/price/Gamma and no all15/all82 new gate retained."
+  ],
+  "material_findings": [],
+  "limits": [
+    "Candidate partial actions do not certify absolute spatial collision-free motion/referee receipt or scored possession.",
+    "Original legality/active roster and fictional availability remain explicit service-family conditions.",
+    "No clinical/fullteamprivatecost/world prediction/awards/C01/whole9Act/Pack certification."
+  ],
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript": "CLOSED",
+    "Pack": 0
+  }
+}

@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-09 [삼연패 우승·마지막 공동코트 채택](../reviews/THREEPEAT_2024_25_USED_TITLE_COURT_CURRENT_ADOPTION_2026_10_09.md): 2024DEN4–2/June20·2025MIN4–3/June22/CHI110–109·8시리즈49/32–17을 위임 가상결과로 선택, 새2024공동29블록/학습18초→2025LM독립최종득점·6East부분코트 연결 검문. 2023첫우승 유지/2025삼연패 본편종결·9막. 원UPC·Γ·June서비스/July분리·홈 ordering/NPC조건부 보존; whole시즌/임상/사적장부/개인상 인증0. AGY빈답·NLM등록성공/분석timeout·Claude429/답0 정직기록. 다음9막 역사/배치/Blueprint·Pack. 미완료4(6번까지3)·C01미선택·Nnull·v0.30 PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
+
 2026-10-09 [2024–25 배우 서비스·회전 준비 수락](../reviews/THREEPEAT_2024_25_ACTOR_SERVICE_CURRENT_ADOPTION_2026_10_09.md): CHI두시즌15/J20·DEN15/240·MIN기존FY24_15/240 및공식14날짜를독립검문했다. 위임DEN2023 JokicBird5/벤치MIN8가족선택·원Γ/unknown보존·July2025UPC앞당김0. FY23CHI비교와FY24기존B분리. 다음공동코트·두우승대진·LM마지막시계. 완료1–3·미완료4(6번까지3)·Nnull·C01미선택·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는이전이력.
 
 2026-10-09 [짧은 본편 기능 압축 수락](../reviews/THREEPEAT_BY_2025_FUNCTION_COMPRESSION_CURRENT_ADOPTION_2026_10_09.md): 9막의 본문39+후일담1 기능 후보를 독립 수락했다. 확정 회차 N은 null이다. 원111회 기본값을 해제하고 원60/146 처분·실패 두 세대를 보존, 인물 대가/공동 준비/미래 편집 지시 3곳 수리 후 required0. 2023 첫 우승 완료 유지; 다음2024–25 서비스·결말 시계·최종 배치/Blueprint·Pack. 완료1–3·미완료4(6번까지3)·C01미선택·v0.30 PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전 이력.

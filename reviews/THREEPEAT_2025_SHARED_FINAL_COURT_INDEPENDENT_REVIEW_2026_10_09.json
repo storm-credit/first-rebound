@@ -1,0 +1,663 @@
+{
+  "id": "THREEPEAT_2025_SHARED_FINAL_COURT_INDEPENDENT_REVIEW_2026_10_09",
+  "date": "2026-10-09",
+  "reviewer": "lc1_result_blind_review",
+  "status": "PASS_PREPARED_CONDITIONAL_SHARED_COURT_AND_LAST_ATTACK_ONLY",
+  "independent_of_target_producer": true,
+  "source_hash_method": "UTF8 BOM strip; CRLF/loneCR normalized LF; SHA256. Binary/HTML RAW bytes separately hashed.",
+  "reviewed_artifacts_sha256": {
+    "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+    "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.md": "0015f74a03fdf3fd2e3f1b2ece6bfc28b99cb0926962e19a16e4af4e08687787"
+  },
+  "source_sha256": {
+    "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a",
+    "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4",
+    "reviews/THREEPEAT_2024_25_CHI_SERVICE_ROLE_INDEPENDENT_REVIEW_2026_10_09.json": "a2e044f753774e68bc32fc03b5c067097477ec2e124f219fe4828de7ba67aa79",
+    "reviews/THREEPEAT_2025_MIN_SERVICE_ROTATION_AND_DATE_INDEPENDENT_REVIEW_2026_10_09.json": "cd00487450b615409c4c1f814faaedf31774a5fc1be8e18570937785b6c8ba3c",
+    "canon/DELEGATED_A10_2024_25_NAMED_ROLE_PLAN_SELECTION_2026_10_08.json": "723bcfddae88fb4ed5e265db15a4f53542229c677a634370603f637604ddabda",
+    "simulation/MINNESOTA_2025_26_A11_SELECTED_NAMED15_SERVICE_2026_10_08.json": "3191943b64e0508fe29ed55ff484aed36bdb33bec31bf79eadb759689ead50ed",
+    "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5",
+    "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
+    "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json": "a167d96c64fa790250908a5a071f3abe355be2d951fa47bbb7f9a928c464202b",
+    "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+    "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705"
+  },
+  "actual_typed_pointer_checks": [
+    {
+      "consumer_pointer": "/candidate_game/official_date_source",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/6",
+      "resolved": true,
+      "actual_LF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/0/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/0",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/0/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/0",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/1/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/1",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/1/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/1",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/2/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/2",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/2/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/2",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/3/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/3",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/3/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/3",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/4/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/4",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/4/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/4",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/5/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/5",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/5/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/5",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/6/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/6",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/6/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/6",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/7/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/7",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/7/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/7",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/8/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/8",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/8/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/8",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/9/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/9",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/9/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/9",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/10/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/10",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/10/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/10",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/11/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/11",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/11/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/11",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/12/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/12",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/12/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/12",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/13/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/13",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/13/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/13",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/14/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/14",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/14/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/14",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/15/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/15",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/15/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/15",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/16/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/16",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/16/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/16",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/17/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/17",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/17/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/17",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/18/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/18",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/18/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/18",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/19/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/19",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/19/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/19",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/20/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/20",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/20/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/20",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/21/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/21",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/21/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/21",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/22/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/22",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/22/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/22",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/23/consumed_source_blocks/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/role_windows/1/ordered_blocks/23",
+      "resolved": true,
+      "actual_LF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/joint_regulation_clock/blocks/23/consumed_source_blocks/MIN",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "/rotation/blocks/23",
+      "resolved": true,
+      "actual_LF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/learning_usepoint_and_information_boundaries/0/source",
+      "source_path": "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json",
+      "source_pointer": "/selected_series",
+      "resolved": true,
+      "actual_LF_SHA256": "a167d96c64fa790250908a5a071f3abe355be2d951fa47bbb7f9a928c464202b"
+    },
+    {
+      "consumer_pointer": "/learning_usepoint_and_information_boundaries/1/source",
+      "source_path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+      "source_pointer": "/selected_CHI_series_preparation/0/decisive_used_window",
+      "resolved": true,
+      "actual_LF_SHA256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705"
+    },
+    {
+      "consumer_pointer": "/learning_usepoint_and_information_boundaries/1/adoption_source",
+      "source_path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+      "source_pointer": "",
+      "resolved": true,
+      "actual_LF_SHA256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299"
+    }
+  ],
+  "actual_RAW_source_checks": [
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/NBA_2024_25_RULEBOOK_ARCHIVED_PRIMARY_DOCUMENT.pdf",
+      "RAW_SHA256": "7ffb5421fa4f49606efa43bb9a9c16843f1352287023b3296234165961a7afd7",
+      "bytes": 1653683
+    },
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/rule-no-5-scoring-and-timing.html",
+      "RAW_SHA256": "53bf9cc37248a5a272ff72e7113a288589a4abde3bb4481286bf5ee007847f38",
+      "bytes": 128698
+    },
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/rule-no-7-24-second-clock.html",
+      "RAW_SHA256": "a4bff233eddc6a96e7f864e061852ebe3d40fb3356300948eb318e9292f3192a",
+      "bytes": 122800
+    },
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/rule-no-10-violations-and-penalties.html",
+      "RAW_SHA256": "554c68a11e331ad8623c31b432b2ec394639b19615124d7787ccfc9db0b9a623",
+      "bytes": 133147
+    },
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/rule-no-12-fouls-and-penalties.html",
+      "RAW_SHA256": "dd2f0599d34f638ab708f4fae5db684617a8993b9b549db9a5692dea1c0a036e",
+      "bytes": 152649
+    },
+    {
+      "path": "Temp/fr-threepeat-2025-final-court-rules/rule-no-13-instant-replay.html",
+      "RAW_SHA256": "ba8dd1cf9ab0ce15c2fcaded28f59957e506e4e787e4934841a575a1f72056c8",
+      "bytes": 148020
+    }
+  ],
+  "material_findings": [],
+  "finding_statement": "현재 국소 공동코트·규칙·선택/POV 후보 범위 내 수정이 필요한 material 반례 없음. 후보 route/score/healthy coachcall의 현재 선택이나 전체 경기 인증은 아니다.",
+  "scope": {
+    "independent_target": "Other producer last-attack packet only.",
+    "source_consumption": "11 pins and 52 typed references actually resolved. Original service/role sources read directly; inherited review receipts are pinned provenance, not replacement proof.",
+    "own_producer_exclusion": "Own25352 shared-defense producer and old663b DEN clock are not independently certified or newly selected by this review.",
+    "not_certified": [
+      "2025G7 or CHI/MIN qualification",
+      "108–109 prior score or110–109 official result",
+      "48min actual player availability or prior47:36.4 box",
+      "Full-body collision geometry/referee viewing angles",
+      "Actual private clinical, contract receipt or ledger",
+      "Completed2024 learning chain",
+      "Personal awards or C01 medal/military",
+      "Whole history/G13/G14/Blueprint/Pack"
+    ]
+  },
+  "independent_reproduction": {
+    "pins": 11,
+    "typed_pointers": 52,
+    "source_blocks_exact": 48,
+    "joint_blocks": 24,
+    "endpoints": 25,
+    "team_actor_seconds": {
+      "CHI": 14400,
+      "MIN": 14400
+    },
+    "team_minutes": {
+      "CHI": 240,
+      "MIN": 240
+    },
+    "each_position_seconds": 2880,
+    "closing_ten_distinct": 10,
+    "P_minutes": 34,
+    "Jaquez_minutes": 20,
+    "active": {
+      "CHI": 12,
+      "MIN": 13
+    },
+    "positive_minute_actors": {
+      "CHI": 11,
+      "MIN": 12
+    },
+    "last_window_elapsed": [
+      2856.4,
+      2880
+    ],
+    "last_window_game_seconds": 23.6,
+    "new_CHI_backcourt_duration_upper": 5.0,
+    "CHI_point_lane_intervals": {
+      "P": [
+        [
+          10.808333333,
+          9.35,
+          1.458333333
+        ]
+      ],
+      "LM": [
+        [
+          2.8,
+          0.2,
+          2.6
+        ]
+      ]
+    },
+    "MIN_point_lane_intervals": {
+      "Rival": [
+        [
+          10.083333333,
+          9.1,
+          0.983333333
+        ],
+        [
+          4.4,
+          0.2,
+          4.2
+        ]
+      ],
+      "Russell": [
+        [
+          1.4,
+          0.2,
+          1.2
+        ]
+      ]
+    },
+    "pass_count": 5,
+    "pass_average_ball_m_per_s": [
+      9.8295045,
+      11.3414908,
+      6.4139483,
+      11.183762,
+      8.131968
+    ],
+    "maximum_segment_average_actor_m_per_s": 3.65404226970625,
+    "shot_horizontal_distance_m": 3.6994298,
+    "shot_height_at_1_1sec_m": 3.0480001,
+    "ring_plane_after_horn_seconds": 0.9,
+    "after_horn_game_minutes_added": 0,
+    "candidate_score_arithmetic": [
+      110,
+      109
+    ]
+  },
+  "semantic_checks": [
+    {
+      "pointer": "/finite_service_and_cost_join",
+      "result": "PASS_FINITE_SERVICE_CONDITION",
+      "evidence": "Both named15 rows and all current actors join FY24 service. CHI uses selected B quantities P34/J20; MIN uses14 original2024 UP chains plus Dyson Year3. June22 does not use July2025 terms. E24_25 must cover use date and precede next signing; fiscalJune30 is expressly not service-end evidence. Salary/hold consumed once and original Gamma/q/min/max/protection/unknown costs remain. Market acceptance and health are bounded fiction, not actual receipts."
+    },
+    {
+      "pointer": "/joint_regulation_clock",
+      "result": "PASS",
+      "evidence": "All48 source-position dictionaries match. Contiguous24 blocks cover0..2880, quarters/halves have boundaries, every block five unique each team, each position48min, each team240. Original individual seconds unchanged. Last23.6sec is inside last120sec closingcore with ten distinct named players. No substitution or in-flight extra minutes invented."
+    },
+    {
+      "pointer": "/geometry_and_flight_working_witness/ball_pass_working_paths",
+      "result": "PASS_MODEL_ONLY",
+      "evidence": "Independently interpolated sender/receiver at each release/catch. All five coordinates/durations/distances/speeds reproduce within rounding. No teleport or measured-real-player speed certificate. Sparse nominal route points do not assert all fullbody contact state."
+    },
+    {
+      "pointer": "/geometry_and_flight_working_witness",
+      "result": "PASS_CONDITIONAL_LEGAL_ROUTE",
+      "evidence": "Point-lane intervals independently recomputed: P1.4583sec and LM2.6sec, otherCHI0 after frontcourt. Rival long4.2sec interval guards P; after final pass at2.6 the unguarded remainder to release is2.4sec and no longer3. Russell1.2sec. Carter is outside lane and stationary screen/avoidance/no lateral-contact conditions are explicit. Actual referee/body-radius certificate is not claimed. LM gather0.8→steps0.6/0.4→release0.2 before floor return is permitted; lastfeet inside2pt."
+    },
+    {
+      "pointer": "/last_attack_candidate",
+      "result": "PASS_RULE_TIMING",
+      "evidence": "Incoming45.0newMIN possession leaves2.6SC at23.6; Rival releases22.7 with1.7SC then rim22.0. NewCHI control21.6 switches SCoff underRule7II(i); MIN offensive rebound would instead reset14 and abandon this ending. Frontcourt acquired within5sec<8 with no return. Legal teammate returns permit a renewed dribble."
+    },
+    {
+      "pointer": "/geometry_and_flight_working_witness/shot_flight",
+      "result": "PASS_WORKING_TRAJECTORY",
+      "evidence": "Using declared no-drag candidate,1.1sec reaches rim3.048m with3.69943m horizontal distance. Ring crossing0.9sec and illustrative net completion1.0sec after horn are consistent with0.2sec release. Net timing is expressly illustrative, not optical certification. Rule5 allows a timely in-flight shot to resolve after horn; scoring waits basket passage and official ruling."
+    },
+    {
+      "pointer": "/counterbranches_and_MIN_retaliation_rights",
+      "result": "PASS",
+      "evidence": "MIN shot made/offensive rebound/control/foul/deflection invalidate main route rather than force same result. Positive time on made basket stops last2min clock and grants MIN inbound/legal timeout. Rule13II(e) note(iii) preserves baseline inbound if successful shot airborne at horn and malfunction adds time. Late release/boundary/8sec invalidates points. Reviewable timely shot/2pt/boundary/SC/8sec are withinRule13II(a). This is not a throw-in beginning0.2sec, so catch/shoot minimum-time exception is not invoked."
+    },
+    {
+      "pointer": "/individual_choices_and_visible_costs",
+      "result": "PASS_PREPARATION_ONLY",
+      "evidence": "P owns rebound/advance/recirculation/final surrender, not LM basket. LM chooses firstdribble/return/relocation/finalshot and loss risk independently. Carter/Mark boxouts and Carter return/screen, LV weakside threat retain work and lost touches. Rival takes his own legal shot and recovers; MIN covers all five and Russell contests rather than conveniently fouls. Alternative outcomes retain agency."
+    },
+    {
+      "pointer": "/learning_usepoint_and_information_boundaries",
+      "result": "PASS_HOLD_BOUNDARY",
+      "evidence": "2022 PHI4–3 Apr30 loss and2023Apr29 G7 shortroll/LMreentry are directly supported bounded sources. No newly invented old turnover/shot or future2026/27 learning. 2024DEN source remains null/HOLD at this packet birth and cannot certify completed three-year learning until downstream current source is explicitly joined. P acquires observations at event clock; Carter/Rival inner reasoning is author design, not P clairvoyance. Nod occurs only after visible ruling/score/end."
+    },
+    {
+      "pointer": "/authority_and_classification",
+      "result": "PASS_CANDIDATE_BOUNDARY",
+      "evidence": "CandidateG7/home/qualification/3–3/pre-score/LM2pt/coachcall remain root choices. Dateanchor does not prove route. C01 and awards remain unselected; originalPHI2025loss is not consumed as currentthreepeat. No all82/1230/private or new practice/document episode gate. Whole completion/CLOSED remain false."
+    }
+  ],
+  "primary_document_actually_read": {
+    "author": "NBA",
+    "edition": "2024–25",
+    "RAW_SHA256": "7ffb5421fa4f49606efa43bb9a9c16843f1352287023b3296234165961a7afd7",
+    "hosting": "Thirdparty public archive of NBA-authored primary PDF, not NBA-server retrieval claimed.",
+    "physical_pages_read": [
+      1,
+      8,
+      9,
+      21,
+      22,
+      23,
+      28,
+      29,
+      35,
+      36,
+      37,
+      46,
+      50,
+      52,
+      53,
+      54
+    ],
+    "source_url": "https://nyc3.digitaloceanspaces.com/sportsarchive-documents/prod/68225f54476a4/2024-25-Official-NBA-Playing-Rules.pdf",
+    "official_HTML_corroboration_urls": [
+      "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "https://official.nba.com/rule-no-7-24-second-clock/",
+      "https://official.nba.com/rule-no-10-violations-and-penalties/",
+      "https://official.nba.com/rule-no-12-fouls-and-penalties/",
+      "https://official.nba.com/rule-no-13-instant-replay/"
+    ],
+    "live_HTML_not_historical_version_certificate": true
+  },
+  "verification": {
+    "Python_directread": "Pins/refs/48blockroles/240 each/geometry/pass/lane/trajectory recomputed; successful.",
+    "external_Claude_answer_used": false,
+    "external_AGY_NLM_PASS_claim": false,
+    "new_private_all82_gate": false,
+    "writes": "Only this assigned review; producer/central/Git unchanged."
+  },
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false,
+    "ACTUAL_VERIFIED": false,
+    "POV_LOCK": false,
+    "compiled_Context_Pack": false,
+    "G13_G14_authority_granted": false,
+    "C01_medal_military_selected": false,
+    "new_personal_awards_selected": false,
+    "new_schedule_created": false
+  },
+  "project_progress": [
+    {
+      "group": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "group": 4,
+      "status": "FINITE_PREPARATION_PENDING_ADOPTION"
+    },
+    {
+      "group": 5,
+      "status": "INCOMPLETE"
+    },
+    {
+      "group": 6,
+      "status": "INCOMPLETE_CLOSED_PACK0"
+    },
+    {
+      "group": 7,
+      "status": "INCOMPLETE"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3
+}
