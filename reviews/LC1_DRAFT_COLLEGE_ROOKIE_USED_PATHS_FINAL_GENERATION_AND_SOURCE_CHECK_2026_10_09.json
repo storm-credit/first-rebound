@@ -12,7 +12,7 @@
     "design/WORLD_BIBLE_COMPLETION_ROADMAP.md": "aaac7a05197a0d2bb39e7febf68a7757e67e571ed796e2c6014a2d4dbd31ecd9",
     "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md": "9a85a0912039ce3dd4e9cf1f154f8ed52f112e9b5a0d9e7d8f988207648c8f86",
     "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.md": "365d912a452d3033915f75319f54e51c7614ca8197869a4aa90a8d26d6553f14",
-    "reviews/LC1_DRAFT_COLLEGE_ROOKIE_USED_PATHS_ADOPTION_INDEPENDENT_REVIEW_2026_10_09.json": "4daf91f2fc04bf54b11568627a2dd7776fe4ef3e87fa7c313056fba8f82053cf"
+    "reviews/LC1_DRAFT_COLLEGE_ROOKIE_USED_PATHS_ADOPTION_INDEPENDENT_REVIEW_2026_10_09.json": "a40ab910047a6747be4d70f4f50f07f2c522d9a4be815701aa8b931cb5b7362c"
   },
   "case_source_generation_commit": "bc2d76dbde55fb22f01acdc65ad9e1764fb44b43",
   "case_source_pins_rehashed_in_immutable_git": 77,
@@ -46,5 +46,17 @@
   "design_gate": "CLOSED",
   "freeze": "v0.30 PARTIAL",
   "unfinished_major_groups": 4,
-  "unfinished_through6": 3
+  "unfinished_through6": 3,
+  "pre_freeze_review_sample_preserved": {
+    "immutable_commit": "5a4b501b8cec48b41c7e5d6e7725c2c180e9a608",
+    "peer_sample_SHA256": "4daf91f2fc04bf54b11568627a2dd7776fe4ef3e87fa7c313056fba8f82053cf",
+    "root_sample_SHA256": "a981e4a04c5f9b17072e52c6d3c22464a188326c09739726398f4d40830b63fe",
+    "final_peer_SHA256": "a40ab910047a6747be4d70f4f50f07f2c522d9a4be815701aa8b931cb5b7362c",
+    "final_peer_additions": [
+      "case_epoch_source_pin_total",
+      "PR518_prior_review_generation"
+    ],
+    "adoption_nine_input_bytes_or_verdict_changed": false,
+    "description": "Initial valid review sample preceded reviewer final freeze. The final frozen receipt adds explicit77casepins and priorreceiptSHAcheck; now current root receipt binds frozena40. Initial sample remains at5a4b501, not silently rewritten in history."
+  }
 }
