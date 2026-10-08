@@ -1,0 +1,79 @@
+{
+  "id": "THREEPEAT_2024_25_AGY_NATIVE_SOURCE_ATTEMPT_2026_10_09",
+  "classification": "ACTUAL_EXTERNAL_COLLECTION_ATTEMPT_NOT_SOURCE_CERTIFICATE",
+  "prompt": "Collect only primary official NBA URLs and short body evidence for 2024 Finals schedule (June6,9,12,14,17,20,23),2025 Finals schedule(June5,8,11,13,16,19,22), and NBA Rule7 shot clock off after defensive rebound when game clock<=24seconds. Use native web/URL reading only. Do not use RunCommand, terminal, local filesystem, Codex or NotebookLM MCP. If no native web tool is available, state unavailable honestly; do not invent successful retrieval. Reply with URL, observed body/date or unavailable. Existingcandidatefiction2025endinghas defensiveboard21.6sec and shotrelease0.2 beforehorn, not real NBA result.",
+  "attempt": {
+    "argv": [
+      "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+      "--print",
+      "--mode",
+      "plan",
+      "--disable-slash-commands",
+      "--print-timeout",
+      "25",
+      "--output-format",
+      "json",
+      "Collect only primary official NBA URLs and short body evidence for 2024 Finals schedule (June6,9,12,14,17,20,23),2025 Finals schedule(June5,8,11,13,16,19,22), and NBA Rule7 shot clock off after defensive rebound when game clock<=24seconds. Use native web/URL reading only. Do not use RunCommand, terminal, local filesystem, Codex or NotebookLM MCP. If no native web tool is available, state unavailable honestly; do not invent successful retrieval. Reply with URL, observed body/date or unavailable. Existingcandidatefiction2025endinghas defensiveboard21.6sec and shotrelease0.2 beforehorn, not real NBA result."
+    ],
+    "elapsed_seconds": 0.21,
+    "timeout": false,
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "Error: --print took \"--mode\" as its prompt, so the intended prompt was left as an argument and ignored.\nAttach the prompt to the flag (--print='your prompt') and move --mode elsewhere on the command line.\n"
+  },
+  "source_collection_accepted": false,
+  "different_recovery": "Native URL-only collection; no command tool permitted by prompt, no global permission bypass.",
+  "prior_recovery_attempts": [
+    {
+      "correction": "Attach prompt to --print as actual CLI error instructed; original parser failure preserved above.",
+      "argv": [
+        "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+        "--mode",
+        "plan",
+        "--disable-slash-commands",
+        "--print-timeout",
+        "25",
+        "--output-format",
+        "json",
+        "--print=Collect only primary official NBA URLs and short body evidence for 2024 Finals schedule (June6,9,12,14,17,20,23),2025 Finals schedule(June5,8,11,13,16,19,22), and NBA Rule7 shot clock off after defensive rebound when game clock<=24seconds. Use native web/URL reading only. Do not use RunCommand, terminal, local filesystem, Codex or NotebookLM MCP. If no native web tool is available, state unavailable honestly; do not invent successful retrieval. Reply with URL, observed body/date or unavailable. Existingcandidatefiction2025endinghas defensiveboard21.6sec and shotrelease0.2 beforehorn, not real NBA result."
+      ],
+      "elapsed_seconds": 0.207,
+      "timeout": false,
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "invalid value \"25\" for flag -print-timeout: time: missing unit in duration \"25\"\nUsage of agy.exe:\n  --add-dir                       Add a directory to the workspace (repeatable) (default [])\n  --agent                         Agent for the current CLI session\n  -c                              Short alias for --continue\n  --continue                      Continue the most recent conversation\n  --conversation                  Resume a previous conversation by ID\n  --dangerously-skip-permissions  Auto-approve all tool permission requests without prompting\n  --disable-slash-commands        Disable slash command and skill expansion in print mode\n  --effort                        Reasoning effort for the current CLI session (low|medium|high|xhigh|max)\n  -i                              Short alias for --prompt-interactive\n  --input-format                  Input format for print mode (text, stream-json). stream-json reads one NDJSON message per line from stdin and runs a turn for each; it requires --output-format stream-json (default text)\n  --json-schema                   Optional JSON schema string or path to a schema file to enforce structured output (for stream-json, only applicable to the final result)\n  --log-file                      Override CLI log file path\n  --mode                          Set the agent execution mode for this session (accept-edits, plan)\n  --model                         Model for the current CLI session\n  --new-project                   Create a new project for this session\n  --output-format                 Output format for print mode (text, json, stream-json) (default text)\n  -p                              Short alias for --print\n  --print                         Run a single prompt non-interactively and print the response\n  --print-timeout                 Optional time limit for print mode; 0 waits until the turn completes (default 0s)\n  --project                       Project ID or project name for the current CLI session\n  --prompt                        Alias for --print\n  --prompt-interactive            Run an initial prompt interactively and continue the session\n  --remote-control                Create a remote connection for the CLI session on start up\n  --sandbox                       Run in a sandbox with terminal restrictions enabled\n\nAvailable subcommands:\n  agent           List available agents\n  agents          List available agents\n  changelog       Show changelog and release notes\n  help            Show help for subcommands\n  install         Configure environment paths and shell settings\n  mcp             Manage MCP servers (add, remove, list, enable, disable)\n  mic-serve       Serve this machine's microphone to a CLI on another host\n  models          List available models\n  plugin          Manage plugins (install, uninstall, list, enable, disable)\n  plugins         Alias for plugin\n  remote-control  Manage the remote-control background daemon (start, status, stop)\n  update          Update CLI\n"
+    }
+  ],
+  "recovery_attempt": {
+    "correction": "Attach prompt to --print as actual CLI error instructed; original parser failure preserved above.",
+    "argv": [
+      "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+      "--mode",
+      "plan",
+      "--disable-slash-commands",
+      "--print-timeout",
+      "25s",
+      "--output-format",
+      "json",
+      "--print=Collect only primary official NBA URLs and short body evidence for 2024 Finals schedule (June6,9,12,14,17,20,23),2025 Finals schedule(June5,8,11,13,16,19,22), and NBA Rule7 shot clock off after defensive rebound when game clock<=24seconds. Use native web/URL reading only. Do not use RunCommand, terminal, local filesystem, Codex or NotebookLM MCP. If no native web tool is available, state unavailable honestly; do not invent successful retrieval. Reply with URL, observed body/date or unavailable. Existingcandidatefiction2025endinghas defensiveboard21.6sec and shotrelease0.2 beforehorn, not real NBA result."
+    ],
+    "elapsed_seconds": 33.625,
+    "timeout": false,
+    "exit_code": 0,
+    "stdout": "{\"conversation_id\":\"aaea7a42-c20d-48fe-bc86-ef02c3bb128c\",\"status\":\"SUCCESS\",\"response\":\"\",\"duration_seconds\":21.8739523,\"num_turns\":1,\"usage\":{\"input_tokens\":14651,\"output_tokens\":658,\"thinking_tokens\":514,\"cache_read_tokens\":0,\"total_tokens\":15309}}\n",
+    "stderr": "warning: --mode plan has no effect while slash command expansion is disabled.\n[agy] print timeout after 25s with turn in progress; returning partial output\n"
+  },
+  "status": "PRINT_TIMEOUT_PARTIAL_EMPTY_RESPONSE_NOT_RECOVERED",
+  "service_response": {
+    "conversation_id": "aaea7a42-c20d-48fe-bc86-ef02c3bb128c",
+    "reported_status": "SUCCESS",
+    "response_empty": true,
+    "reported_output_tokens": 658,
+    "terminal_source_urls_or_body": 0
+  },
+  "limits": [
+    "Exit0/reportedSUCCESS while stderr explicitly reports print timeout with turn in progress does not certify collection.",
+    "No terminal tool or actual source body returned. Prompt requested native web-only; no global permissions/auth settings changed.",
+    "Model response was empty; login failure is not established by this attempt."
+  ]
+}

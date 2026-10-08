@@ -1,0 +1,621 @@
+{
+  "id": "THREEPEAT_2024_25_MINIMUM_TITLE_ROUTE_INDEPENDENT_REVIEW_2026_10_09",
+  "date": "2026-10-09",
+  "reviewer": "lc1_result_blind_review",
+  "status": "PASS_PREPARED_CONDITIONAL_RESULT_GRAPH_AND_USED_DATES_ONLY",
+  "independent_of_title_route_producer": true,
+  "previous_reviews_used_as_substitute_for_sources": false,
+  "source_hash_method": "UTF8 BOM removed; CRLF/loneCR normalized to LF; SHA256. RAW binary caches separately hashed.",
+  "reviewed_artifacts_sha256": {
+    "simulation/THREEPEAT_2024_25_MINIMUM_USED_TITLE_ROUTE_PREPARATION_2026_10_09.json": "22b2f0bc113961a244b237bf04b90d557a6177ae135f6fc420a26989da8371bb",
+    "simulation/THREEPEAT_2024_25_MINIMUM_USED_TITLE_ROUTE_PREPARATION_2026_10_09.md": "ada8da34715e224676e391a41af12f96ed8ad52435a7db9b55b8ae5a2fa5a69c"
+  },
+  "source_sha256": {
+    "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
+    "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5",
+    "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+    "canon/DELEGATED_A11_PRIOR_NO_FINALS_ENDPOINTS_2026_10_08.json": "fed1f714d692903274e6677036a955fd476fbd7ffef5541d516860aab6acc767",
+    "simulation/LC1_SELECTED_AWARD_AND_TITLE_EXECUTION_2026_10_08.json": "e38e19f1a78c183d8197f4e0ab1586746100f7a4460fb476572badc761802e50",
+    "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a",
+    "simulation/THREEPEAT_2024_DEN_NAMED15_AND_USED_ROTATION_2026_10_09.json": "663b85eccf1d559327e896ca2ad0db111556e56ff2c2c9e277e640576e8d9480",
+    "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+  },
+  "actual_source_pointer_checks": [
+    {
+      "consumer_pointer": "/authority/selected_threepeat_target",
+      "source_path": "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json",
+      "source_pointer": "",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8"
+    },
+    {
+      "consumer_pointer": "/official_Finals_date_body_receipts/0/source",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/official_Finals_date_body_receipts/1/source",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/bracket_grammar_reference/source",
+      "source_path": "simulation/LC1_SELECTED_AWARD_AND_TITLE_EXECUTION_2026_10_08.json",
+      "source_pointer": "/selected_playoff_brackets",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "e38e19f1a78c183d8197f4e0ab1586746100f7a4460fb476572badc761802e50"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/0/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/0",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/1/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/1",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/2/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/2",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/3/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/3",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/4/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/4",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/CHI_used_series_candidates/3/games/5/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/5",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/last_candidate_game/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/0/scheduled_games/5",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/0/proposed_function_cost_ports/0/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/32",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/0/proposed_function_cost_ports/1/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/33",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/0/bounded_existing_service_preparations/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/season_service_rows",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/seasons/0/bounded_existing_service_preparations/Finals_opponent",
+      "source_path": "simulation/THREEPEAT_2024_DEN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "663b85eccf1d559327e896ca2ad0db111556e56ff2c2c9e277e640576e8d9480"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/0/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/0",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/1/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/1",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/2/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/2",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/3/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/3",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/4/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/4",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/5/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/5",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/CHI_used_series_candidates/3/games/6/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/6",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/last_candidate_game/official_date_anchor",
+      "source_path": "research/THREEPEAT_2024_25_OFFICIAL_FINALS_DATE_ANCHORS_2026_10_09.json",
+      "source_pointer": "/seasons/1/scheduled_games/6",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "917679cea3afe78995a9350a13a7409a2a82e112e0410a149f4cdc1d00d299b5"
+    },
+    {
+      "consumer_pointer": "/seasons/1/proposed_function_cost_ports/0/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/35",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/1/proposed_function_cost_ports/1/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/36",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/1/proposed_function_cost_ports/2/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/37",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/1/proposed_function_cost_ports/3/source",
+      "source_path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+      "source_pointer": "/episode_rows/38",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b"
+    },
+    {
+      "consumer_pointer": "/seasons/1/bounded_existing_service_preparations/CHI",
+      "source_path": "simulation/THREEPEAT_2024_25_CHI_SERVICE_AND_ROLE_JOIN_2026_10_09.json",
+      "source_pointer": "/season_service_rows",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "453863a86a35f392ff73edd534b8bb38062e92a9e0ec25be7401f71a82faa54a"
+    },
+    {
+      "consumer_pointer": "/seasons/1/bounded_existing_service_preparations/Finals_opponent",
+      "source_path": "simulation/THREEPEAT_2025_MIN_NAMED15_AND_USED_ROTATION_2026_10_09.json",
+      "source_pointer": "",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "41426fb5dddf559ca8efcbfa0ebcd09c769778e03cfd2f41e5cfe92fd72811f4"
+    },
+    {
+      "consumer_pointer": "/past_endpoint_disposition/0/source",
+      "source_path": "canon/DELEGATED_A11_PRIOR_NO_FINALS_ENDPOINTS_2026_10_08.json",
+      "source_pointer": "/selected_endpoints/0",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "fed1f714d692903274e6677036a955fd476fbd7ffef5541d516860aab6acc767"
+    },
+    {
+      "consumer_pointer": "/past_endpoint_disposition/1/source",
+      "source_path": "canon/DELEGATED_A11_PRIOR_NO_FINALS_ENDPOINTS_2026_10_08.json",
+      "source_pointer": "/selected_endpoints/1",
+      "resolved": true,
+      "actual_normalizedLF_SHA256": "fed1f714d692903274e6677036a955fd476fbd7ffef5541d516860aab6acc767"
+    }
+  ],
+  "inherited_unpinned_endpoint_reference_checks": [
+    {
+      "consumer_pointer": "/past_endpoint_disposition/1/original_endpoint_literal/qualification_source",
+      "source_path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+      "source_pointer": "/qualification",
+      "resolved": true
+    },
+    {
+      "consumer_pointer": "/past_endpoint_disposition/1/original_endpoint_literal/selected_cost_observations_source",
+      "source_path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+      "source_pointer": "/selected_observations",
+      "resolved": true
+    },
+    {
+      "consumer_pointer": "/past_endpoint_disposition/1/original_endpoint_literal/selected_series_period_source",
+      "source_path": "simulation/A10_QUAL1_SELECTED_COST_WINDOW.json",
+      "source_pointer": "/selected_series_period",
+      "resolved": true
+    }
+  ],
+  "material_findings": [],
+  "finding_statement": "현재 한정된 후보 결과 그래프·사용 날짜·출처 연결 범위 내 material 반례 없음. 필드/카운트만으로 전체 인과·코트·가용성 완료를 판정하지 않는다.",
+  "scope": {
+    "read_order": "Result graph first, then all pins, parents, dates, old endpoint literals, costs and authority.",
+    "accepted": "Candidate result graph/date/host/winner sequence prepared for delegated review and adoption.",
+    "not_accepted": [
+      "Actual NBA forecasts",
+      "Whole regular seasons/league",
+      "Six early-round opponents named service or full courts",
+      "Full postseason scenes/final possession",
+      "Personal awards/C01 public military route",
+      "Whole-history LOCK/G13/G14/Blueprint/Pack"
+    ],
+    "own_producer_boundary": "Own sharedcourt25352 and DENbench are not independently certified here. DEN is read only as a bounded input whose qualifications remain explicit."
+  },
+  "independent_reproduction": {
+    "conference_seed_orders": 4,
+    "unique_seeds_each": 8,
+    "qualification_nodes": 28,
+    "CHI_series": 8,
+    "CHI_games": 49,
+    "CHI_wins": 32,
+    "CHI_losses": 17,
+    "same_team_same_date_collisions_in_dated_rows": 0,
+    "both_teams_date_check": true,
+    "minimum_full_rest_between_dated_games": 1,
+    "round_full_rest": {
+      "2024": [
+        5,
+        2,
+        4
+      ],
+      "2025": [
+        4,
+        2,
+        4
+      ]
+    },
+    "latest_parent_deadline_to_child_full_rest": {
+      "2024": [
+        1,
+        2,
+        4
+      ],
+      "2025": [
+        1,
+        2,
+        4
+      ]
+    },
+    "series": [
+      {
+        "id": "TP2024_CHI_R1",
+        "teams": [
+          "CHI",
+          "ATL"
+        ],
+        "games": 5,
+        "wins": {
+          "CHI": 4,
+          "ATL": 1
+        },
+        "first_date": "2024-04-20",
+        "last_date": "2024-04-30",
+        "full_rest_days": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2024_CHI_R2",
+        "teams": [
+          "CHI",
+          "BOS"
+        ],
+        "games": 7,
+        "wins": {
+          "CHI": 4,
+          "BOS": 3
+        },
+        "first_date": "2024-05-06",
+        "last_date": "2024-05-19",
+        "full_rest_days": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2024_CHI_CF",
+        "teams": [
+          "CHI",
+          "MIL"
+        ],
+        "games": 6,
+        "wins": {
+          "MIL": 2,
+          "CHI": 4
+        },
+        "first_date": "2024-05-22",
+        "last_date": "2024-06-01",
+        "full_rest_days": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "higher_home_team": "MIL"
+      },
+      {
+        "id": "TP2024_CHI_FINALS",
+        "teams": [
+          "CHI",
+          "DEN"
+        ],
+        "games": 6,
+        "wins": {
+          "CHI": 4,
+          "DEN": 2
+        },
+        "first_date": "2024-06-06",
+        "last_date": "2024-06-20",
+        "full_rest_days": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2025_CHI_R1",
+        "teams": [
+          "CHI",
+          "MIA"
+        ],
+        "games": 5,
+        "wins": {
+          "CHI": 4,
+          "MIA": 1
+        },
+        "first_date": "2025-04-19",
+        "last_date": "2025-04-29",
+        "full_rest_days": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2025_CHI_R2",
+        "teams": [
+          "CHI",
+          "BKN"
+        ],
+        "games": 6,
+        "wins": {
+          "CHI": 4,
+          "BKN": 2
+        },
+        "first_date": "2025-05-04",
+        "last_date": "2025-05-15",
+        "full_rest_days": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2025_CHI_CF",
+        "teams": [
+          "CHI",
+          "PHI"
+        ],
+        "games": 7,
+        "wins": {
+          "CHI": 4,
+          "PHI": 3
+        },
+        "first_date": "2025-05-18",
+        "last_date": "2025-05-31",
+        "full_rest_days": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "higher_home_team": "CHI"
+      },
+      {
+        "id": "TP2025_CHI_FINALS",
+        "teams": [
+          "CHI",
+          "MIN"
+        ],
+        "games": 7,
+        "wins": {
+          "CHI": 4,
+          "MIN": 3
+        },
+        "first_date": "2025-06-05",
+        "last_date": "2025-06-22",
+        "full_rest_days": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ],
+        "higher_home_team": "CHI"
+      }
+    ]
+  },
+  "semantic_checks": [
+    {
+      "pointer": "/seasons/*/conferences",
+      "result": "PASS",
+      "evidence": "R1 exactly 1/8,4/5,2/7,3/6; every R2/CF partner equals its specific parent winner. No reseeding or double entry. DEN24 route MEM→MIN→UTA and MIN25 MEM→DEN→UTA are coherent fictional candidates, not actual qualifiers."
+    },
+    {
+      "pointer": "/seasons/*/CHI_used_series_candidates",
+      "result": "PASS",
+      "evidence": "Independent assertions reproduced all running wins, terminal records and strict first-fourth-win stop. Opponent counter-wins remain. Conference host derives lower seed; Finals host derives separate fictional CHI regular-win-percentage inequality. 2–2–1–1–1 makes 2024G6 DEN home and 2025G7 CHI home."
+    },
+    {
+      "pointer": "/seasons/*/conferences/*/series_nodes/*/qualified_by",
+      "result": "PASS_CONDITIONAL",
+      "evidence": "Deadlines are latest qualification conditions, not actual NPC dates. They leave >=1 full rest before each relevant used child; undated supporting rounds have room for a minimum four-win alternate-day series. Dated rows give both teams collision0/rest>=1. No actual undated travel/calendar/health certification is inferred."
+    },
+    {
+      "pointer": "/official_playoff_start_body_receipts",
+      "result": "PASS_DATE_ONLY",
+      "evidence": "Independently opened official NBA Communications bodies: Aug17_2023 regular end Apr14, PI Apr16–19, playoffs Apr20, Finals G1 Jun6; Aug15_2024 regular end Apr13, PI Apr15–18, playoffs Apr19, Finals G1 Jun5. Seed7/8 remain conditional post-Play-In endpoints."
+    },
+    {
+      "pointer": "/official_Finals_date_body_receipts",
+      "result": "PASS_DATE_ONLY",
+      "evidence": "Actual cached 2024 HTML Series schedule and physical page2 of 2025 official Pacers guide read/raw hashes checked. Date anchors match all Finals rows; G5–7 are conditional schedule facts, not played-game facts. Actual BOS/DAL/OKC/IND players, results and arenas are not transferred."
+    },
+    {
+      "pointer": "/past_endpoint_disposition",
+      "result": "PASS",
+      "evidence": "Both original_endpoint_literal objects equal fed1 selected_endpoints[0/1] exactly. MIL R2/PHI R1 losses remain history; exact series_wins null preserved. Old CHI6/PHI3 qualification does not override the proposed CHI1/PHI2."
+    },
+    {
+      "pointer": "/seasons/*/proposed_function_cost_ports",
+      "result": "PASS_PREPARATION_ONLY",
+      "evidence": "All six function_ids/choice/cost literal joins equal compression source. Yielded P first carry/finish and teammate space/decision costs remain functions, with named service/date/clock HOLD. Protagonist cannot know candidate futures/private minds/editorial Gamma. Old2028 16sec/108–107 not transferred."
+    },
+    {
+      "pointer": "/remaining_used_ports",
+      "result": "PASS_HOLD_BOUNDARY",
+      "evidence": "ATL/BOS/MIL/MIA/BKN/PHI remain team-policy-only with named court/service null and real roster auto carry false. CHI/DEN/MIN sources retain finite prepared limits. Unused nodes are not full NBA execution. C01 continuity, personal awards, actual scene success and whole completion remain unexecuted."
+    }
+  ],
+  "primary_sources_actually_read": [
+    {
+      "url": "https://pr.nba.com/2023-24-nba-regular-season-schedule/",
+      "method": "web.open body"
+    },
+    {
+      "url": "https://pr.nba.com/2024-25-nba-regular-season-schedule/",
+      "method": "web.open body"
+    },
+    {
+      "path": "Temp/fr-threepeat-2024-25-primary-calendar/NBA_2024_FINALS_SCHEDULE_PRIMARY_2026_10_09.html",
+      "raw_SHA256": "8e39304d1f719032d6a120698fc2c43482a0f0360bb27e86be94bb5b79bbf626",
+      "raw_bytes": 335256,
+      "section": "Series schedule"
+    },
+    {
+      "path": "Temp/fr-threepeat-2024-25-primary-calendar/NBA_2025_PACERS_FINALS_GUIDE_PRIMARY_2026_10_09.pdf",
+      "raw_SHA256": "51d98f3bc1659d296f50bf896b02cd886c53e50ce257b6c1fc8858aea476598b",
+      "raw_bytes": 4736875,
+      "physical_page": 2
+    }
+  ],
+  "validation_notes": {
+    "Python_assertions": "Final full graph/seed/host/stop/rest audit succeeded. Initial reviewer harness picked CHI as opponent when MIL was home; extraction corrected to team!=CHI and rerun succeeded. No producer defect or edit.",
+    "pinned_refs": 31,
+    "inherited_unpinned_refs": 3,
+    "inherited_refs_meaning": "Exact old endpoint refs resolve but are not claimed among 31 pinned current refs.",
+    "external_PASS_claim": false,
+    "new_all82_1230_private_gate": false
+  },
+  "context": {
+    "HEAD": "9b37325931ba2f5a4ea7fef88f0bf34962281b64",
+    "AGENTS_SHA256": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "source_or_central_git_mutation": false
+  },
+  "gates": {
+    "v0_30": "PARTIAL",
+    "design": "CLOSED",
+    "manuscript": "CLOSED",
+    "Pack": 0,
+    "manuscript_count": 0,
+    "schedules": 0,
+    "whole_history_LOCK": false,
+    "G13": false,
+    "G14": false,
+    "C01_selected": false,
+    "current_adoption_from_this_receipt": false
+  },
+  "project_progress": [
+    {
+      "group": 1,
+      "label": "2020 드래프트 연쇄",
+      "state": "기존 완료 유지"
+    },
+    {
+      "group": 2,
+      "label": "Chicago 2020–21",
+      "state": "기존 S2 유한 시즌 완료 유지"
+    },
+    {
+      "group": 3,
+      "label": "2021–23 거래·계약",
+      "state": "기존 완료와 2023 첫 우승 사용경로 유지"
+    },
+    {
+      "group": 4,
+      "label": "커리어·삼연패",
+      "state": "2024–25 경로·홈 순서·일정 후보 준비, 실제 코트 결합 남음"
+    },
+    {
+      "group": 5,
+      "label": "짧은 결말·전체 구조",
+      "state": "9막 기능 압축 후보 수용 범위 유지, 최종 회차·본문 권한 미완료"
+    },
+    {
+      "group": 6,
+      "label": "집필 규격·Context Pack",
+      "state": "자료 독서 완료, 실제 Blueprint·Pack 미완료"
+    },
+    {
+      "group": 7,
+      "label": "통합·독립·최종승인",
+      "state": "미완료·CLOSED"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3
+}
