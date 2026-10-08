@@ -1,0 +1,167 @@
+{
+  "id": "THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_REPAIR_INDEPENDENT_REVIEW_2026_10_09",
+  "status": "PASS_SCOPED_PREPARED_FIRST_TITLE_USED_ROUTE_REPAIR_NOT_ACTUAL_OR_FULL_POSTSEASON_CERTIFICATION",
+  "reviewer": "lc1_late_contracts",
+  "reviewed_UTC": "2026-10-08T18:54:44.262023+00:00",
+  "independent_review_completed": true,
+  "checked_input_sha256": {
+    "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+    "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.md": "dcffb11b3f563d4019ca299722bb9f3751431d1f82476b5bb65ad84ad952e5c5"
+  },
+  "checked_source_sha256": {
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json": "ecc876c91d1008285b944fd9b7e7213a1c3e54b94d0a2fea84cd82b2f7cb0407",
+    "simulation/THREEPEAT_2023_PUBLIC_RESIDUAL_MODEL_CANDIDATES_2026_10_09.json": "704b23773a53d8b27cfae9191a907fd9f891e986bc5ab2a44e360f27920c0d52",
+    "simulation/THREEPEAT_2023_ACCELERATED_GROWTH_AND_ROLE_DESIGN_2026_10_09.json": "bc7a979c6fff39ea0ee83458c75980f87ea5a03c361a9de7516a04be47097dc2",
+    "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2"
+  },
+  "failed_generation_preserved": {
+    "review_path": "reviews/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_INDEPENDENT_REVIEW_2026_10_09.json",
+    "LF_SHA256": "c7a3175c49c980f74deb2e8edf7d17a60013b553f2975980b7a0c3cf76aee0a0",
+    "status": "NEEDS_REPAIR",
+    "producer_original_SHA256": "361c0122d4775ad4462ef2319ec19059b53c664b348084874d9ea2e335c2a107",
+    "original_snapshot": "Temp/fr-threepeat-first-title-repair-20261009/producer-before-361c0122.json",
+    "old_review_retroactive_PASS_or_repin": false
+  },
+  "repair_dispositions": [
+    {
+      "id": "F1",
+      "pointer": "/selected_CHI_series_preparation/1/decisive_used_window/action_function",
+      "status": "RESOLVED",
+      "old_counterexample": "Caruso first-angle action falsely copied into2820–2880 core where absent.",
+      "new_action": "마지막60초는 LaMelo가 첫각도를 읽고 P가 패스후재진입한다. Carter가 림을지키고 LV가반대편마무리, Mark가코너출구를 제공한다. Caruso의 첫각도제한은 이마지막창의 현재행동으로 쓰지않고 앞선교대창의 시리즈전체대응으로 남긴다.",
+      "current_court": {
+        "PG": "LaMelo Ball",
+        "SG": "Zach LaVine",
+        "SF": "Protagonist",
+        "PF": "Lauri Markkanen",
+        "C": "Wendell Carter Jr."
+      },
+      "earlier_Caruso_window": [
+        2760,
+        2820
+      ],
+      "series_Caruso_team_answer_preserved": true,
+      "new_participant_or_minute_change": false,
+      "scope": "LaMelo/P/Carter/LV/Mark current actions are on court; Caruso explicitly earlier full-series credit. No claim of his presence in final60."
+    },
+    {
+      "id": "C1",
+      "pointer": "/limits/all11non_CHI_series_current_recomputed",
+      "status": "RESOLVED",
+      "new_value": false,
+      "reason": "15 total less four used CHI series equals11; whole-postseason completion still not asserted."
+    }
+  ],
+  "exact_repair_delta_check": {
+    "all_original_fields_other_than_named_action_and_limit_key_unchanged": true,
+    "added_repair_history_only": true,
+    "removing_history_reverting_action_and_limit_key_restores_original_object_exactly": true,
+    "all_six_input_pins_unchanged_and_reread": true,
+    "MD_hash_unchanged": true,
+    "role_clock_dates_winners_and_4series_costs_unchanged": true,
+    "old_all82_or_private_gate_added": false
+  },
+  "successful_checks": {
+    "6input_source_pins_match": true,
+    "five_team_player_seconds_each": 14400,
+    "five_unique_per_interval_active_STANDARD": true,
+    "all_existing_family_pointers_match": true,
+    "new_UPC_or_TW_positive_actor": false,
+    "CHI_postseason_P_minutes": 36,
+    "CHI_postseason_Duarte_minutes": 10,
+    "CHI_only_player_seconds_delta": {
+      "Protagonist": 240,
+      "Chris Duarte": -240
+    },
+    "CHI_other_player_minutes_unchanged": true,
+    "CHI_LM_and_Carter_closing_retime_net_minutes_zero": true,
+    "opponent_only_last60_role_replacements": true,
+    "opponent_minute_changes_costed": true,
+    "joint_clock_interval_counts": {
+      "R1": 35,
+      "R2": 36,
+      "CF": 34,
+      "F": 33
+    },
+    "series_counts": {
+      "R1": [
+        4,
+        3
+      ],
+      "R2": [
+        4,
+        2
+      ],
+      "CF": [
+        4,
+        3
+      ],
+      "F": [
+        4,
+        2
+      ]
+    },
+    "total_games": 26,
+    "CHI_postseason_record": [
+      16,
+      10
+    ],
+    "every_used_date_gap_at_least2days": true,
+    "first_date": "2023-04-15",
+    "clinch_date": "2023-06-15",
+    "within_existing_service_interval_through": "2023-06-16",
+    "home_pattern": "2–2–1–1–1 with higher seed PHI/BKN/MIL and UTA70wins>CHI52",
+    "CF_after_G5": [
+      2,
+      3
+    ],
+    "conditional_bracket": "PHI3/CHI6→BKN2→MIL1; UTA Western-finalist support branch with remaining wholeWest rebound explicitly pending",
+    "Jaquez_first_title_participation": false,
+    "scores_personal_boxes_awards": null,
+    "other_decisive_three_windows_named_action_actors_present": true,
+    "knowledge_access": "Joint court/public scoreboard; no coactor inner mind or future2024–25 results",
+    "five_team_regulation_seconds_each": 2880
+  },
+  "semantic_scope": {
+    "four_rounds_distinct_counters_and_shared_answers": true,
+    "PHI": "2022 failure recalled through second decision/LM reentry/LV opposite finish; three selected losses remain.",
+    "BKN": "Caruso earlier first-angle contribution/Carter rim help and LM start authority preserved; no P omnipotent defense. Final60 now actual core only.",
+    "MIL": "Giannis second drive/Brook drop/Jrue denial remain; CHI2–3 afterG5 and two recovery wins; LM/Mark/Carter independent contributions remain.",
+    "UTA": "Selected Utah Conley/Mitchell/Gobert core retained; five-actor joint solution. No historical ClevelandMitchell import or2025ending copied.",
+    "knowledge": "Observed co-court/public scoreboard only; future2024–25 and private coactor minds not granted.",
+    "selected_outcome_not_predictive_justification": true
+  },
+  "current_scope_verdict": {
+    "accepted": "Prepared revised CHI used26game/4series route, five named active STD source role families, reciprocal 48/240 joint clocks, legal service interval reuse, costs and bounded observable actions.",
+    "not_certified": [
+      "B regular candidate adoption by this review",
+      "realNBA basketball outcomes or predictiveBPM theorem",
+      "all11other_series or sixplayin exact reexecution",
+      "wholeWest LAL5/PHX4 ancestor bracket rebind completion",
+      "points/individual box/MVP/FMVP/medical or private contracts",
+      "Jaquez preJuly2023 service",
+      "fullhistoryLOCK/G13/G14/actualBlueprint/ContextPack or group6 completion"
+    ],
+    "remaining_prepared_dependency": "B52–30/E6 acceptance remains root current adoption. WholeWestern seed rebind and exact play-ins are explicitly outside this narrow prepared route; not hidden as already executed."
+  },
+  "material_findings_remaining": [],
+  "gates_preserved": {
+    "five_positive_active_STD_each_interval_checked": true,
+    "new_opponent_contract_family_or_Mitchell_trade": false,
+    "all_actual_public_or_private_medical_registration_statistics_certified": false,
+    "P_MVP_or_FMVP_year_selected": false,
+    "C01_public_medal_military_route_selected": null,
+    "full_history_Blueprint_authority": false,
+    "actual_Context_Pack": 0,
+    "manuscript_allowed": false,
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "all11non_CHI_series_current_recomputed": false
+  },
+  "write_scope": [
+    "reviews/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_REPAIR_INDEPENDENT_REVIEW_2026_10_09.json"
+  ],
+  "producer_central_Git_changes": false
+}
