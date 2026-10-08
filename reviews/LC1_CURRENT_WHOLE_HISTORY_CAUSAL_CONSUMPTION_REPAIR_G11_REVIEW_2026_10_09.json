@@ -1,0 +1,498 @@
+{
+  "id": "LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_REPAIR_G11_REVIEW_2026_10_09",
+  "reviewer": "lc1_result_blind_review; same independent reviewer of frozen failed generation and actual repair",
+  "reviewed_at_UTC": "2026-10-08T15:30:53.081954+00:00",
+  "status": "PASS_SCOPED_CURRENT_CAUSAL_PREPARATION_WITH_LIVE_HOLDS",
+  "classification": "Independent meaning and source-access/clock recheck of current54/14/42 preparation after root repair; no whole-history or final Blueprint promotion",
+  "hash_method": "SHA256 of UTF8 file bytes after CRLF/bareCR toLF only; no trimming/reserialization",
+  "reviewed_artifacts_sha256": {
+    "simulation/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_2026_10_08.json": "7f419dd5c269e7311389edb7c906cc3f1b18c32cebb9509bfd2e30b232f3bd87",
+    "simulation/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_2026_10_08.md": "b834ad9fc3d161f6f46a75f0a6815bec123f69bdf9a2f2fe918412c0a62b012d"
+  },
+  "actual_source_sha256": {
+    "canon/AUTHOR_CONFIRMED_LC1_LONG_CAREER_COORDINATES_2026_10_08.json": "581e4023b19089ada44a8c6f285119c4f13fe277d38af93962f4b3186db42ae7",
+    "canon/CAREER_TIMELINE.md": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+    "canon/LC1_CURRENT_CORRECTED_FINITE_EXECUTION_2026_10_08.json": "9724c7dbb035a6fc000a35c92a40e5a15fc911cbe0d39c89e0d64558acece177",
+    "canon/STORY_BIBLE.md": "9eb986c089c07007caedc40eabe03d6d798f77f7a09fbd37d57c4242af1421be",
+    "design/A01_A02_SUBACT_EXIT_AUDIT_2026_10_07.json": "f5c4375908ed849e2f577e7fdb0181707aba4609f759acd75a434deb0a8d8e89",
+    "design/A01_E1_FINAL_EPISODE_FUNCTION.json": "9c15706717053a274f254ada476c027ea619858e6cd4ae80d8d8b422b789405e",
+    "design/A01_E2_FINAL_EPISODE_FUNCTION.json": "306dd7810fda0395dc722ab953ebac9ef1e4cf3db0cc4a9dc0266a8a2b2e5285",
+    "design/A01_E2_LITERAL_COST_WITNESS_SELECTED_OVERLAY_2026_10_08.json": "20468d21275ff7136f38553c6b816a1828065738a010ab8bc42045f3d379049d",
+    "design/A01_E3_FINAL_EPISODE_FUNCTION.json": "edbccc96f145274f4dfcfc2bbaebdce1477b0f3f3426a5420848aadfde1f4911",
+    "design/A01_E4_FINAL_EPISODE_FUNCTION.json": "2223050467378df34763f5211d88eb82951e85acb18f1afee3cfb61b2998fecf",
+    "design/A01_E5_FINAL_EPISODE_FUNCTION.json": "7d8a1e11a978ebe049d0079606fb0a7140520efc892a76241627389711c4609f",
+    "design/A01_E6_FINAL_EPISODE_FUNCTION.json": "673bf62f660a6b71bb358752875df67f24204e34e36b4d0ce799fd6033c29feb",
+    "design/A01_E7_FINAL_EPISODE_FUNCTION.json": "9c3c23821264c7c27c9a786c375bd812e3131dac79175b1ba6144ab001b9c4f0",
+    "design/A01_E8_FINAL_EPISODE_FUNCTION.json": "e1eb6a51536dcb75f4c4a91cdc0504418b73140045dc5db790d89016c672b7ac",
+    "design/A01_E9_FINAL_EPISODE_FUNCTION.json": "23d4ab60ccac1b2ac2af855943ae6ca65b8e17f70ce7ea635a287043404b8455",
+    "design/A02_E10_FINAL_EPISODE_FUNCTION.json": "2bf0e115af5b10ba8fbb613fc0dc569aeffa1c6de53cd505b03b16721a73942e",
+    "design/A02_E1_FINAL_EPISODE_FUNCTION.json": "4e1b337204d9e8e772e4f1efabae1efac24eb688b40da6db06b6d51c10eaa51a",
+    "design/A02_E2_FINAL_EPISODE_FUNCTION.json": "df4254eca10598e6854cff5fcc63a4576b6f1f04eb5c1b9aa3eab9a7983a9f84",
+    "design/A02_E3_FINAL_EPISODE_FUNCTION.json": "6563f2fe70b455f7997a797ff3ce0b1294013630b5c3ebff314760d20db0f0f0",
+    "design/A02_E4_FINAL_EPISODE_FUNCTION.json": "422ae5de50ab77decf210f6ffc656c075f75c505e1cada397c6feeb986dcb196",
+    "design/A02_E5_FINAL_EPISODE_FUNCTION.json": "5b3668e86b34aa58aadcbb2b1fb2a1582b8172b901f9ab47fba3491cbd193477",
+    "design/A02_E6_FINAL_EPISODE_FUNCTION.json": "cebe71aebda62caeb13a7f1d0d87679ed81f46ac857adc292813c3c652c01eb2",
+    "design/A02_E7_FINAL_EPISODE_FUNCTION.json": "8acf5b1976baf3108fece2f978fdc3b834b10be52aab68e3bf68b4774a2bc0c8",
+    "design/A02_E8_FINAL_EPISODE_FUNCTION.json": "6e02e8573c24eb879c0d6d18c399e2ea5b95872cb1c7c335f653ee747be64a6f",
+    "design/A02_E9_FINAL_EPISODE_FUNCTION.json": "673382aeda069daf205e72ff49012fa1dd94b780c2547dbcd7208e304d633c11",
+    "design/A03_A04_FINITE_EXIT_BRIDGE_2026_10_07.json": "b777b61ec0dadc71bd30bf550b8f33aecae41e62e96a0fe456470b1e9a5576c7",
+    "design/A03_CF03_TOURNAMENT_ROLE_WORKING_MODEL_2026_10_07.json": "53d40c95ae5d9659dd4094bb829584b37df16f95965c85592ea81ed68cef1f74",
+    "design/A03_E1_FINAL_EPISODE_FUNCTION.json": "ad00a71895123d40cef8dfb5cfc5f545fa814c3347b40990b7dd4050377e5a91",
+    "design/A03_E2_FINAL_EPISODE_FUNCTION.json": "2c4a8da1f367495007430bf165ac10cecd39c68878deee9a1c87d2b290448bed",
+    "design/A03_E3_FINAL_EPISODE_FUNCTION.json": "898944603872d91b21b7f9222fd9a2ab187333e804a92813e44c381634a18cea",
+    "design/A03_POST_TOURNAMENT_HISTORY_BRIDGE_2026_10_07.json": "ab1c6de7955e21652fb7a6f5baf42a09e74b042d84d08800642121a554c71de2",
+    "design/A04_CF05_CF06_CONTACT_SUMMER_WORKING_MODEL_2026_10_07.json": "c163c04bc4a1de50df1774082c32b62a50568e1e7374c3e034676b338f921a65",
+    "design/A04_E1_FINAL_EPISODE_FUNCTION.json": "8bcddf517b6d776b9d87adfd06290fd9cd4a6cc365b0d8b0daed6556f4f299a3",
+    "design/A04_E2_FINAL_EPISODE_FUNCTION.json": "97bd5c06306a2744920ef7c40615674564bd693ed72947be591e6b7801e156c2",
+    "design/A04_E3_FINAL_EPISODE_FUNCTION.json": "4ddd1f2c8873ab54ce7503dba9dd66c85f2297df91b4eac5cba8113636afb678",
+    "design/A04_E4_FINAL_EPISODE_FUNCTION.json": "3c41c07d73bf7fe0b659eef5c88b83079d1f007bd3a024dcd714a9d6a92309af",
+    "design/A04_E5_FINAL_EPISODE_FUNCTION.json": "85438d54632f0c5dfb3e38dae4743d4cd6502273f7935b5aa35c6018cb24b944",
+    "design/A05_E1_FINAL_EPISODE_FUNCTION.json": "1d98fc889b4038fe71d5b09af8b676ded7d8a06629b3bd9cddee7e18dd3e54ae",
+    "design/A05_E2_FINAL_EPISODE_FUNCTION.json": "3ba94dc258a88e5cd7b227d4476762f8db4cb69197bc4812ca7d1b091d866601",
+    "design/A05_E3_FINAL_EPISODE_FUNCTION.json": "0522ed9207a50939c8f5e27cc14f206fd5f008c01ea1506a97ca1cc565e41e4b",
+    "design/A05_E4_FINAL_EPISODE_FUNCTION.json": "34e5eb8d93cbf487eff8d24ce2f3f7ababe625527f611f2e1631dd4e0130e454",
+    "design/A05_SUBACT_EXIT_AUDIT_2026_10_07.json": "956d5c48528db0b9ef8e2e4abf44a2bd48d2fc0aab465619a5a61bb50caa64ce",
+    "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9",
+    "design/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_2026_10_08.json": "e34d8e164403795750625757387b007f0fc66bf83b06cba5b50914b11e884dc5",
+    "design/A07_A08_SUBACT_EXIT_AUDIT_2026_10_07.json": "f34d81cd0644439c5fcf2c9faedf323f443f4ba170e9e0dbaf4b317165ce25ba",
+    "design/A07_CHANGED_DEFENSE_ROLE_EVALUATION_2026_10_07.json": "a41e21e63bb83f8434e624c3609c89c7e758a3062143ab7314ac01252d1428df",
+    "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e",
+    "design/A08_FINITE_FUNCTION_BATCH_2026_10_07.json": "b84f4d08ede9015934b6d91287c21588bee9443fbaa8bf9ae6d3b1804f8c3b07",
+    "design/A09_E1_FINAL_EPISODE_FUNCTION.json": "0a0e4cf2c3f41fd16131f8cf43310ab44ae4ec1b26d7361f128889f14b4eaf58",
+    "design/A09_JOINT_ATTEMPT_SELECTED_EXECUTION_2026_10_08.json": "038b0227a74c7abbb94061776f9cf5c0cc33841bd6de3d5694ffdb6f7341b3be",
+    "design/A10_E1_FINAL_EPISODE_FUNCTION.json": "78f109d927d07e111f06a9bcb277cd0d7ecdfb867a184c6761f2dfe2d433eaf8",
+    "design/A10_S2_S3_LOCAL_FUNCTION_SUPPORT_2026_10_08.json": "91e887856ce31873686d3e13c4f46de22ca88768f4142f94d0faf285d5fcec95",
+    "design/A11_E1_FINAL_EPISODE_FUNCTION.json": "4666a5265eb7286a9570c4f4c826154eb79b50b2c59b15377cd3d29e420b3d69",
+    "design/A11_S2_S3_A12_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "b964d64e7c595dda97bdcb2ebf61c43937e1ea9068be9bac6fb2a55700d89f79",
+    "design/A12_S2_S3_A13_S1_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "c835907cc5673dc427fec1e6adbdc27f994991177ed8449edfbb36999ff4a139",
+    "design/A13_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "0f79ee52cf8697b85e2a562dac7b4c04cd159b81a21fdca9a1dd0da33320b6fe",
+    "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a",
+    "design/LC1_FINAL_EPISODE_ALLOCATION_2026_10_08.json": "a6f605230533e0d8d05dce5d909c5c3c0f9630c8ad9c9a5fd5e282f7007d1eb8",
+    "design/LC1_FINAL_EPISODE_BLUEPRINTS_2026_10_08.json": "2d4046c79cf50cedf8fb7f800c90dab960dd5dc0bc3c319a3fdff030185de3b7",
+    "design/LC1_FULL_SELECTED_HISTORY_AND_ACT_EXIT_LOCK.json": "e4f61bbc57e1f009f41c90c92d1af9d303b5011a220e9d72bd8bd98ac7dac5b4",
+    "design/LC1_ORIGINAL_146_BEAT_TO_EPISODE_DISPOSITION_2026_10_08.json": "4d7528da111f855afc0a44fb390883893682d23b7380004a36f2b470f6a010de",
+    "design/LONG_CAREER_MAJOR_COORDINATE_CURRENT_DECISION_PACKET_2026_10_08.json": "4c24a70472700fde3da589c44897281a8d70f7c8f41f838c115815df62667468",
+    "design/RIVAL_2020_WEST_TEAM_DECISION_PACKET.md": "52c15921e907b0e4b4645ed31add7326cf68cde0dd60a2e82955556ab2ffd87e",
+    "research/A03_TEXAS_TECH_FICTIONAL_STINT_WITNESS_2026_10_07.json": "70604dfec73b8acede8cf7d030344a85fae86f85ebacc52476e5750ab0204ea1",
+    "research/A03_TEXAS_TECH_GAME_SOURCE_AND_INSERTION_2026_10_07.json": "8b108948d190e80a172a3af84453a081ed1232da706f4c92422df7138937cc34",
+    "research/CHICAGO_2018_PICK22_PLAUSIBILITY.md": "943e236ef27f0adfa653c9e240a2249b0d1d08bbe1020b64ef85b5c60031143c",
+    "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+    "research/RIVAL_INJURY_REDSHIRT_MODEL.md": "98f8f1ccfc86b09f99f0b18776badd0cf9e4d3dc9c90a5a9ab75e76a4826403d",
+    "research/RIVAL_NCAA_SCHOOL_SELECTION.md": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+    "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+    "research/VILLANOVA_ELIGIBILITY_ROTATION_MODEL.md": "23b107827562170fe9aa81f388b4152ee6af2bf8ce715fdcb648764e2557d9d3",
+    "reviews/A01_BLUEPRINT_BUNDLE_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "e22158cc3859c7e16f302f4b7df8cd7dbe3c3bd35be01b1fbab9737f8bed4bb3",
+    "reviews/A06_A08_A09_CURRENT_SEASON_EXIT_JOIN_G11_INDEPENDENT_REVIEW_2026_10_08.json": "e258721056e5a3cc8ac7409878cb1cb0699065031cd0d560ee603966d350afdc",
+    "reviews/A08_CURRENT_LITERAL_EXIT_ROOT_DISPOSITION_2026_10_08.json": "d02c3b71ec23cd2a7d9f567afc45cd1897f1d775e7d8cab0053b5b8571dc963a",
+    "reviews/A10_CURRENT_LITERAL_EXIT_ROOT_DISPOSITION_2026_10_08.json": "76f9341c04349665ca0dd389d6701e88d210aa85b2d6b11ead093954b419eb6c",
+    "reviews/LC1_111_EPISODE_ALLOCATION_AND_BLUEPRINTS_INDEPENDENT_SEMANTIC_REVIEW_2026_10_08.json": "c929bdf502c3cfbf50f2d5afa990443fc89c258ab369dc89d51d90b506fc21f9",
+    "reviews/LC1_126_EPISODE_ALLOCATION_AND_BLUEPRINTS_INDEPENDENT_SEMANTIC_REVIEW_2026_10_08.json": "2ac5da51ecc766eafda5c3ee1aa0075e6d388c7060955981cc570709adcd5585",
+    "reviews/LC1_173_EPISODE_ALLOCATION_AND_BLUEPRINTS_INDEPENDENT_SEMANTIC_REVIEW_2026_10_08.json": "da586f1e00f597f1593135be425ad9157e38e8e207de271fec2aa6c34e9f5f7b",
+    "reviews/LC1_NCAA_HISTORICAL_RULE_YEAR_SOURCE_RESOLUTION_G11_REVIEW_2026_10_08.json": "8ec480dd0f10f2ac6894510d87b3eea0aa28ea0b95cee62aa0804d9ab6df50f0",
+    "reviews/LC1_REJECTED_PROPOSAL_INPUT_PROVENANCE_2026_10_08.json": "730fc99d1d72b166809f6ef6e1a005b31801dd1d635697430bc25e9741e7aca9",
+    "simulation/2018_DRAFT_22_60_REOPEN.md": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+    "simulation/2020_DRAFT_GRANT_RILLER_FINAL_BOARD.md": "8122a7b9228c320b87ad4d81e752282f40100328185d0b238cafd3fca58099f8",
+    "simulation/2020_DRAFT_PATRICK_WILLIAMS_RELANDING_BOARD.md": "9df0d5192ed799cbd4b688331628e113e4d03d7aa0ee159cc9ea9a7dcd86f9ce",
+    "simulation/2020_DRAFT_TOP4_SEQUENTIAL_BOARD.md": "39073ff5e3f7ad86110454ae967e745a889e1875861a5a066a3897c7eb77b3cc",
+    "simulation/A11_F26_SELECTED_ROLE_COST_AND_VIDEO_HANDOFF_2026_10_08.json": "4b7701b8eb0d85f98b207817971e58b3e09879f6ff3446302083ef3e1a25117f",
+    "simulation/A11_F26_SELECTED_SIX_DATE_LAWFUL_PAIR_EXECUTION_2026_10_08.json": "2250d624c089d188381e80100833599a3fdd2176364e5eea72a645a3619a6426",
+    "simulation/A11_PRIOR_FIRST_FINALS_EXCLUSION_JOIN_2026_10_08.json": "9140b04822be1cf1e2cced59948a98d854b16cf6e6708cff7ef2bee51a500a84",
+    "simulation/A12_SELECTED_ROLE_COST_AND_SHORTER_SPRING_EXECUTION_2026_10_08.json": "be5c34464e611edb5edf8d4a74b0b55ba06b115123f4fc56e220bdff69a5e06f",
+    "simulation/CAUSALITY_MODEL.md": "00638830864e9503db4589464806cc0c4c0d94002b039a8bf661d96e6f6a7c45",
+    "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md": "7a4eeac333610f3c8bf11c950e336df4bd4bc72f9f9e65cea65920c83b8e18b4",
+    "simulation/CHICAGO_2018_19_RESERVE_RECEIVER_ALLOCATION.md": "e242907267c7e1a769df6a75a89aecd0112dde20ec51ae0312b9aa84deba2e70",
+    "simulation/CHICAGO_2020_PICK4_TEAM_BOARD.md": "9aeb1f2170ca761807c2b4eab97106546a3eebdead7bf6effadebe3b108b6da7",
+    "simulation/CHICAGO_2025_NAMED15_CONTRACT_JOIN_2026_10_08.json": "ad2540ad4ffc84e05dc1fa83ef1c31ee8f8c15435dea6f3e676406fe7ca5317c",
+    "simulation/CHICAGO_2026_NAMED15_CONTRACT_JOIN_2026_10_08.json": "44b36d01bee1439d7148e31381e04a8964920b42a80aa158ce2a054ab28fb8a0",
+    "simulation/CHICAGO_PHI_2022_FIRST_ROUND.json": "a167d96c64fa790250908a5a071f3abe355be2d951fa47bbb7f9a928c464202b",
+    "simulation/LC1_LATER_MIN_COACTOR_SERVICE_AND_SUCCESSOR_ROLE_SUPPLEMENT_2026_10_08.json": "2de8aaba99c079de6c238af954492359e693022810cb3c4cc163a733a226148b",
+    "simulation/LC1_SELECTED_2028_FINAL_POSSESSION_AND_PROMISE_PAYOFF_2026_10_08.json": "c0137b9452ef54ee938ad1646a5bb97dd62cb422ebfd717b52fed1cd076b4a51",
+    "simulation/LC1_SELECTED_AWARD_AND_TITLE_EXECUTION_2026_10_08.json": "e38e19f1a78c183d8197f4e0ab1586746100f7a4460fb476572badc761802e50",
+    "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json": "ce96e30a31e0b407533e500ff7d5e70b30e04f25cab5c89d4c644834ffba0fea"
+  },
+  "failed_generation_preservation": {
+    "actual_git_commit": "08800acc90df705b6a401fc5acffb16eb107e557",
+    "actual_git_reproductions": {
+      "simulation/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_2026_10_08.json": {
+        "actual_git_normalized_LF_SHA256": "d54238984f5b1addafb93be1074ec795d3a2101b07f53b53756cc5d132e041d5",
+        "current_full_raw_bytes_equal_to_archived": false
+      },
+      "simulation/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_2026_10_08.md": {
+        "actual_git_normalized_LF_SHA256": "41c5e515ab14e26333327a1308664cfef96533c4cd71805abea7391eb8230607",
+        "current_full_raw_bytes_equal_to_archived": false
+      },
+      "reviews/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_CONSUMPTION_G11_INDEPENDENT_REVIEW_2026_10_09.json": {
+        "actual_git_normalized_LF_SHA256": "7f1b67c61344bb9284df9f55ac8a2d61372d16b92e043e96a684eaefd36e5310",
+        "current_full_raw_bytes_equal_to_archived": true
+      },
+      "reviews/LC1_CURRENT_CAUSAL_CONSUMPTION_ROOT_SOURCE_STRUCTURE_CHECK_2026_10_09.json": {
+        "actual_git_normalized_LF_SHA256": "0bfa3d86bf99355ac76bab428014ae4ea0b81e7ee2f51047475e616ff89b0921",
+        "current_full_raw_bytes_equal_to_archived": true
+      },
+      "reviews/LC1_REMAINING_HISTORY_DEPENDENCY_CLOSEABILITY_AUDIT_2026_10_09.json": {
+        "actual_git_normalized_LF_SHA256": "c87d13c982ebbf6cf9288b5d264c7baee6f9a5f89e0a982662d282fd9af403f2",
+        "current_full_raw_bytes_equal_to_archived": true
+      }
+    },
+    "original_failure_status": "NEEDS_REPAIR",
+    "original_failure_receipt_unchanged": true,
+    "past_failure_not_recertified_as_PASS": true
+  },
+  "scope": {
+    "all54_original_raw_and_current_causal_rows_rechecked": true,
+    "all14Act_and42SubAct_transitions_rechecked": true,
+    "all111_original_action_cost_exit_and_current_entry_state_rechecked": true,
+    "all146_original_scene_bindings_preserved": true,
+    "all17season_scopes_and9724_sixports_preserved": true,
+    "physical_access_clock_of_two_repaired_entries_examined": true,
+    "original_G08_scope_not_reduced": true,
+    "no_new_all40_all82_annual15_private_certificate_or_author_selection_gate": true,
+    "review_accepts_preparation_only_not_entire_history_completion": true
+  },
+  "actual_delta": {
+    "actual_existing_value_changes": [
+      "/whole14Act_causal_consumption/10/downstream/next_entry",
+      "/whole42SubAct_causal_usepoints/32/downstream/next_entry",
+      "/whole42SubAct_causal_usepoints/37/downstream/next_entry"
+    ],
+    "existing_value_change_count": 3,
+    "added_field_count": 392,
+    "removed_field_count": 0,
+    "unchanged_original_scopes": [
+      "All54 historical_event_rows",
+      "All14/42 original scopes, actual causal parents, action/choice/cost/exit and original scene references",
+      "111 original entry_state/action/cost/exit objects; only added current_entry_state and provenance",
+      "17 season rows",
+      "9724 six guard replacements and2031G6summary correction",
+      "C01–C07 unresolved_fields andsourcegenerationverification flags",
+      "counts, source_sha256, scope_limits, author selections, gateflags"
+    ],
+    "downstream_repair": "All54 nonterminal links now carry exact current incoming state and authority; all56 rows retain old inventory next-entry literal, including2terminal null entries.",
+    "corrected_inherited111_episodes": [
+      83,
+      96
+    ],
+    "unmodified111_or_BP_not_direct_current_entry_authority_for_two_overrides": true
+  },
+  "finding_dispositions": [
+    {
+      "finding_id": "G11-CAUSAL-01",
+      "prior_status": "NEEDS_REPAIR",
+      "current_disposition": "RESOLVED_IN_CURRENT_PREPARATION",
+      "actual_current_authority": "/current_entry_projections_after_independent_review; overridden changed_action/current_entry_state; downstream/current_next_entry_authority",
+      "reproduced_EP83": {
+        "repair_pointer": "/current_entry_projections_after_independent_review/0",
+        "current_entry": "2026년 6월 16일 첫 파이널에서 MIN에 4–2로 패했다. 그 패배에서 드러난 무볼 관여와 도움 범위의 부족을 자신의 다음 역할·가격 질문으로 가져간다. 새 계약은 이 진입 상태에서 합의된 것이 아니다.",
+        "consumed_locations": [
+          "/whole42SubAct_causal_usepoints/32/downstream/next_entry",
+          "/whole42SubAct_causal_usepoints/33/changed_action/0/current_entry_state",
+          "/whole14Act_causal_consumption/10/downstream/next_entry"
+        ],
+        "old_literal_preserved_in_frozen_sources": [
+          "design/LC1_FINAL_EPISODE_ALLOCATION_2026_10_08.json#/episodes/82/entry_state",
+          "design/LC1_FINAL_EPISODE_BLUEPRINTS_2026_10_08.json#/blueprints/82/entry_state"
+        ],
+        "meaning": "Own completed firstFinals defeat and observed help/reentry failures can motivate next role/price question. New contract remains unagreed; no future MVP or privateotherperson thought enters this state.",
+        "clock_and_physical_access": "2026June16G6 CHIhome selectedMINwin at20:30ET, regulation2880seconds, Poperative ownservice andactive13. OwnG6error46:00–46:08 precedesseriesMIN4–2 completion; authorizedCHI ownG1/G4/G6reviewJune17 followsgame. FY26role/price reflection can occur afterthatreview and beforelatercontract outcome. It is no longer an incoming denial of the already completed loss.",
+        "clock_sources": [
+          {
+            "path": "simulation/A11_F26_SELECTED_SIX_DATE_LAWFUL_PAIR_EXECUTION_2026_10_08.json",
+            "pointers": [
+              "/selected_days/5",
+              "/conference_route_and_first"
+            ]
+          },
+          {
+            "path": "simulation/A11_F26_SELECTED_ROLE_COST_AND_VIDEO_HANDOFF_2026_10_08.json",
+            "pointers": [
+              "/selected_windows/2",
+              "/information_handoff/event_order"
+            ]
+          }
+        ]
+      },
+      "reproduced_EP96": {
+        "repair_pointer": "/current_entry_projections_after_independent_review/1",
+        "current_entry": "2028년 6월 14일 MIN 원정 G5에서 이긴 뒤 CHI 홈 G6로 이동했다. 달라진 대응에 맞춰 직접 해결과 동료에게 잇는 판단을 다시 적용할 준비를 한다. G6 결과·마지막 슛·FMVP는 아직 겪지 않았다.",
+        "consumed_locations": [
+          "/whole42SubAct_causal_usepoints/37/downstream/next_entry",
+          "/whole42SubAct_causal_usepoints/38/changed_action/0/current_entry_state"
+        ],
+        "old_literal_preserved_in_frozen_sources": [
+          "design/LC1_FINAL_EPISODE_ALLOCATION_2026_10_08.json#/episodes/95/entry_state",
+          "design/LC1_FINAL_EPISODE_BLUEPRINTS_2026_10_08.json#/blueprints/95/entry_state"
+        ],
+        "meaning": "Already completed MINroadG5 win andCHIhomeG6 travel are currentinputs. G6result/lastbasket/FMVP have not yet happened forP. Original B1directshortattempt/B2LaVinehandoff remain two bounded practice conditions, notG6lastrecipient reassignment.",
+        "clock_and_physical_access": "SelectedJune14 MING5 CHI113–106 precedesJune16 CHIhomeG6. EP95 already carries3–2lead andtravel; EP96 fitsaChicago privatepractice aftertravel/beforeG6, with originaldate-unspecified two condition tasks and activecurrentP/LaVine service. Exactflight/practice hour unselected; no same-moment cross-venue claim or additionalNBAgame minutes introduced. EP97current16secondfinalwindow andEP98visibleLMresponse/award remain later, separately selected sources.",
+        "clock_sources": [
+          {
+            "path": "simulation/LC1_SELECTED_AWARD_AND_TITLE_EXECUTION_2026_10_08.json",
+            "pointers": [
+              "/title_FMVP_execution/0/games/4",
+              "/title_FMVP_execution/0/games/5"
+            ]
+          },
+          {
+            "path": "design/A13_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+            "pointers": [
+              "/functions/1/fictional_setting",
+              "/functions/1/beats"
+            ]
+          },
+          {
+            "path": "simulation/LC1_SELECTED_2028_FINAL_POSSESSION_AND_PROMISE_PAYOFF_2026_10_08.json",
+            "pointers": [
+              "/final_window"
+            ]
+          }
+        ]
+      },
+      "no_changed_result_author_selection_scene_or_gametime": true
+    }
+  ],
+  "actual_reproductions": {
+    "all99_source_fullfile_LF_sha_match_actual": true,
+    "all54raw_inventory_objects_equal_to_original_source_and_failed_generation": true,
+    "all41SubAct_currentnextentry_equal_to_actual_next_changedaction_current_entry_state": true,
+    "all13Act_currentnextentry_equal_to_actual_first_incoming_current_entry_state": true,
+    "all54_current_next_entry_authority_matches_actual_incoming_episode_and_repair_or_frozen111_source": true,
+    "all56_original_inventory_nextentry_literals_preserved": true,
+    "all111original_source_fields_unchanged_from_failed_generation_and_frozen111": true,
+    "all111_current_entry_state_equal_to_frozen111_except_exacttwo_explicit_projections": true,
+    "all41_previous_exit_to_causal_parent_links_remain_equal": true,
+    "frozen111_BP_146_and9724_full_raw_bytes_equal_actualGit08800snapshot": true,
+    "all2658_json_path_pointer_references_resolve": true,
+    "pointer_errors": 0,
+    "hash_count_and_equal_text_alone_not_causal_completion": true
+  },
+  "semantic_recheck_summary": [
+    {
+      "area": "54 currentinput meaning",
+      "disposition": "SUPPORTED_FOR_PREPARATION_WITH_EXPLICIT_HOLDS",
+      "reason": "OldATL30/Erie/preNBA GL remainobsolete withno currentselectedoutcome. CHIfirstround direction andWindyCityboundeddevelopment distinct fromexact22/cascade/provisionalproduction. Actualrule axes constrainactions; chosenNBAresults remainfictional selections, notconvenient restoration ofrealNBAhistory."
+    },
+    {
+      "area": "opportunity cost and opponent independence",
+      "disposition": "SUPPORTED_FOR_PREPARATION",
+      "reason": "FiniteTexasTech11 donorclock, CHIprovisionaldonor/receiver separation, permanentlostsupport/NBAtry/seriesopportunities andteammate time remain. A11samepass/reentryfailure andLMreset/LVwaiting precede2028LMindependentwinner. 2031OKCtitle is distinct from2028payoff. P28→16/pay.10→.04 andMinjun8/David4/first-initiation assignment remainexact9724; successorfeet/boxout/firstpass isautonomous andRival retirement notforced."
+    },
+    {
+      "area": "Gonzaga/optionalcommercial/alternatebox unknowns",
+      "disposition": "HOLD_PRESERVED_NOT_NEW_COMPLETION_GATE",
+      "reason": "Gonzaga13counter andguardwingminute/touch donor remainunassigned; schoolselectiondoesnotgrant14thslot orfreecreationrights. AlternateOregon/WCCbox, Kansas/MichiganPstints andexactassignment dates are notfilledbycounts. UnusedKobeprivateaccess/NLI/testscore/endorsementterms/JordanShaqauthority notturnedintonewrequiredscenes."
+    },
+    {
+      "area": "POV and currententry",
+      "disposition": "SUPPORTED_AFTER_EXPLICIT_REPAIR",
+      "reason": "Completedown2026loss and2028G5result cannowenterPknowledge; futureG6recipientaction/award andprivatecoachteammateRivalthought do not. Originalpracticefailure/task limits remain distinctfromselectedgame result. LiteraloriginalEP83/96 entrydenials arehistoricalprovenance andcannotbe directcurrententryauthority."
+    },
+    {
+      "area": "national/military and final authority",
+      "disposition": "LIVE_HOLD",
+      "reason": "A09privatecooperation doesnotselect12publicroster/tournamentmedal/clearance. C01stillblocksunconditional2024–35continuity. FiveNBAauthorcoordinates preserved, noAGgoldretroapproval. All54/42preparationacceptance doesnotcompleteoriginalG08yearwisecomparisons orG13/G14/LOCK/ACTUALBlueprint/Pack."
+    }
+  ],
+  "related_prior_ambiguity_disposition": {
+    "pointers": [
+      "/whole42SubAct_causal_usepoints/35/downstream/next_entry",
+      "/whole14Act_causal_consumption/11/downstream/next_entry"
+    ],
+    "classification": "Existingfuture-award advance ban wording; notanothermaterialdenial",
+    "reason": "2027MVPcompleted event remainsexplicit inEP87/89, A12-S3transition andseasonrow; no actualawarderased. DuringfutureBlueprintissuance wordingmustbe readasfutureunearnedresults, withalreadyearned2027MVPretained. No newMVPselection orrepeatedapproval required."
+  },
+  "future_actual_Blueprint_consumption_boundary": {
+    "must_consume_currententry_overrides": [
+      "/current_entry_projections_after_independent_review/0",
+      "/current_entry_projections_after_independent_review/1"
+    ],
+    "must_consume_current_fields": "Use changed_action/current_entry_state and downstream/current_next_entry_authority alongside original scene/action/cost/access boundaries; old entry_state remains archivalsource literal.",
+    "old111_preparation_not_direct_final_Blueprint_authority": true,
+    "G13_G14_must_check_original_access_and_this_current_entry_precedence_when_issuing_actualBlueprint": true,
+    "actual_Blueprint_issued_by_this_review": false,
+    "scope_guard_not_new_author_question_or_newgate": true
+  },
+  "new_material_findings": [],
+  "current_scope_material_finding_count": 0,
+  "existing_live_holds": [
+    {
+      "id": "C01",
+      "kind": "UNSELECTED_PUBLIC_HISTORY_NM",
+      "affected_events": [
+        "HIST-2023-AG"
+      ],
+      "fields": [
+        "national12_two_displaced_players",
+        "permission_insurance_joint_NBA_schedule",
+        "selected_eachgame_bracket_medal",
+        "military_legal_path"
+      ],
+      "actual_current_value": null,
+      "blocks": "Unconditional2024–35 continuity and whole selected history/actualBlueprint/Pack; does not invalidate accepted private co-operation or finite NBA five targets.",
+      "source": {
+        "path": "design/LC1_FULL_SELECTED_HISTORY_AND_ACT_EXIT_LOCK.json",
+        "LF_SHA256": "e4f61bbc57e1f009f41c90c92d1af9d303b5011a220e9d72bd8bd98ac7dac5b4",
+        "json_pointer": "/NM_public_and_military_live_usepoint"
+      }
+    },
+    {
+      "id": "C02",
+      "kind": "UNSELECTED_EXACT_2018_DRAFT",
+      "affected_events": [
+        "E-002",
+        "E-016",
+        "E-035"
+      ],
+      "fields": [
+        "exactPpick",
+        "Hutchisonrelanding",
+        "22_to60_player_board_transaction_contract_path"
+      ],
+      "actual_current_value": null,
+      "source": {
+        "path": "simulation/2018_DRAFT_22_60_REOPEN.md",
+        "LF_SHA256": "f1781c1bd43cfcadf2fcce0cc6b0d63879315b5f55224e8cd639de7583754509",
+        "text_anchor": "확정 가능한 경계"
+      },
+      "existing_direction": "CHI first-round standardcontract/development responsibility retained, no Atl30 or CHI22 promotion"
+    },
+    {
+      "id": "C03",
+      "kind": "CURRENT_NCAA_COUNTER_AND_ROLE_DESIGN_UNASSIGNED",
+      "affected_events": [
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-018",
+        "E-019",
+        "E-028",
+        "E-031",
+        "E-032",
+        "E-033",
+        "E-034"
+      ],
+      "fields": [
+        "Gonzaga scholarshipdonor_within13",
+        "2019_20 guardwingminutes_touches_donor",
+        "alternate representativeOregon_WCCbox"
+      ],
+      "actual_current_value": null,
+      "source": {
+        "path": "research/RIVAL_NCAA_SCHOOL_SELECTION.md",
+        "LF_SHA256": "1844445e27b6eeda36df770bb39d352783d692b8657d63f7b235c3d18322ec99",
+        "text_anchor": "남은 HOLD"
+      },
+      "public_rule_text_now_available": {
+        "path": "research/LC1_NCAA_2017_2018_RULE_YEAR_SOURCE_RESOLUTION_2026_10_08.json",
+        "LF_SHA256": "079402ed6f99ed3f7307e6cd5294945c929b22abf01f9d038fa5de463c114dbb",
+        "json_pointer": ""
+      },
+      "private_proof_new_completion_gate": false
+    },
+    {
+      "id": "C04",
+      "kind": "FULL_COUNTERFACTUAL_BOX_OUTSIDE_ACCEPTED_FINITE_SCOPE",
+      "affected_events": [
+        "E-014",
+        "E-015",
+        "E-017",
+        "E-020",
+        "HIST-A03-OFFICIAL-2",
+        "HIST-A03-OFFICIAL-3"
+      ],
+      "fields": [
+        "whole40game8075minutesandplayerlines",
+        "Kansas_MichiganPstints_boxes"
+      ],
+      "actual_current_value": null,
+      "source": {
+        "path": "design/A03_POST_TOURNAMENT_HISTORY_BRIDGE_2026_10_07.json",
+        "LF_SHA256": "ab1c6de7955e21652fb7a6f5baf42a09e74b042d84d08800642121a554c71de2",
+        "json_pointer": "/limits"
+      },
+      "completedbounded11minute_localfunction_repeated": false,
+      "new_all40_or_fullPBPgate_for_localact_added": false
+    },
+    {
+      "id": "C05",
+      "kind": "ORIGINAL_PROVISIONAL_ROLE_NOT_EXACT_OUTCOME",
+      "affected_events": [
+        "E-009",
+        "E-036",
+        "E-038"
+      ],
+      "fields": [
+        "WindyCityassignmentreturnexactdates",
+        "GLplayerboxwin",
+        "2018_19Pexactproduction_outcomes_fromminutevector"
+      ],
+      "actual_current_value": null,
+      "source": {
+        "path": "simulation/CHICAGO_2018_19_PLAYER_GAME_DONOR_VECTOR.md",
+        "LF_SHA256": "7a4eeac333610f3c8bf11c950e336df4bd4bc72f9f9e65cea65920c83b8e18b4",
+        "text_anchor": "맹점과 다음 실행"
+      },
+      "latestCHIboundedfunction_supported": true,
+      "oldATLvector_not_used": true
+    },
+    {
+      "id": "C06",
+      "kind": "OPTIONAL_UNUSED_ACCESS_OR_COMMERCIAL_BRANCH",
+      "affected_events": [
+        "E-010",
+        "E-023",
+        "E-024",
+        "E-041",
+        "E-042",
+        "E-043"
+      ],
+      "fields": [
+        "Kobeprivateaccess",
+        "exactadmissionscores_offerNLI",
+        "shoecash_term_campaign_signing",
+        "Jordan_Shaqprivateauthority"
+      ],
+      "actual_current_value": null,
+      "source": {
+        "path": "research/SHOE_SPONSOR_MENTOR_ECOSYSTEM.md",
+        "LF_SHA256": "708d4eac19429ac14b01ca25346753e140d1da49a50bd70d4945d82801ca91a5",
+        "text_anchor": "whole cited source; retained status and limits"
+      },
+      "absent_information_not_required_new_scene": true
+    },
+    {
+      "id": "C07",
+      "kind": "PREPARED_HISTORY_MEANING_NOT_PEER_ACCEPTED",
+      "fields": [
+        "independent54_current_causality",
+        "42causal_parent_cost_exit_downstream_semantics"
+      ],
+      "actual_current_value": null,
+      "already_accepted_111_conditional_scope_source": {
+        "path": "reviews/LC1_111_EPISODE_ALLOCATION_AND_BLUEPRINTS_INDEPENDENT_SEMANTIC_REVIEW_2026_10_08.json",
+        "LF_SHA256": "c929bdf502c3cfbf50f2d5afa990443fc89c258ab369dc89d51d90b506fc21f9",
+        "json_pointer": ""
+      },
+      "whole_G08_G13_G14_stillfalse": true
+    }
+  ],
+  "gates": {
+    "whole_G08_complete": false,
+    "whole_G13_complete": false,
+    "whole_G14_complete": false,
+    "whole_history_LOCK": false,
+    "selectedhistory_LOCK": false,
+    "uninterrupted_entire_career_certified": false,
+    "final_N111_author_LOCK": false,
+    "actual_Blueprint_authority": false,
+    "actual_Pack": 0,
+    "manuscript_count": 0,
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "public_NM_author_selection": false,
+    "new_author_selection": false
+  },
+  "producer_birth_flags": "Frozenproducer still records independentrecheckpending and originalgeneration counts; thisseparate receipt provideslater scopedacceptance only, withoutrewritingbirthflags orpastfailedreceipt.",
+  "write_scope": "Only thisnew independentrepairreview; oldreview, producer, central andGit/stage untouched byreviewer",
+  "conclusion": "최초material1건의두반례는현재entry우선순위분리로해소됐다. 이번수리와그대로보존된54/14/42/111준비범위에서새material반례는없다. C01및기존미선택·미배정한계가남아전체역사LOCK/G08/G13/G14/ACTUALBlueprint/Pack권위는열리지않는다."
+}

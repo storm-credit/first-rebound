@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-09 [LC1 현재 전체역사 인과 준비 채택](reviews/LC1_CURRENT_WHOLE_HISTORY_CAUSAL_PREPARATION_ADOPTION_2026_10_09.md): 원54역사/14Act·42SubAct의111회 행동·비용·출구→다음진입 인과 준비를 독립 재검문 수락. 현재54전이·EP83/96 옛미실행부정 수리, 실패세대08800ac보존. 99소스/2835포인터·원146비트·17시즌 검산, NCAA2017/2018원문7규정/PDF독립검수. 정확2018지명/필수22–60연쇄·대학합법/역할 구현은 기존 위임으로 계속; 공적2023대표팀·병역은 별도미선택. 원111/전체역사/actual권한미LOCK·Pack0·원고0·미완료4/6번까지3·v0.30 PARTIAL/CLOSED·일정0. 이전PR516검문은immutable7f45038세대로 보존. 아래는 이전이력.
+
 2026-10-08 [LC1 전체역사·111회·대표팀 비교 준비 채택](reviews/LC1_HISTORY_EPISODE_AND_R09_PREPARATION_ADOPTION_2026_10_08.md): PR515 승인 NBA5좌표/현재보완 보존. 원14/42/60·54역사행/17시즌 목록 한정수락, 설명성15회 병합111/원146비트·개별Blueprint 준비 의미/접근 독립검문 수락. 최종N/전체선택역사/actual권한 미LOCK. R09 공식84분행·16결과/원문26·템플릿3과 네작가후보 검수 완료; 권고A금메달+NM1 의무는 미선택. Claude 새60초timeout 답0. 다음공적대표팀/병역 선택·법적/NBA공동일정이 기존후행역사/Pack선행. 원126/173 실패영수증 보존. 실제Pack0·원고0·미완료4/6번까지3·v0.30 PARTIAL/CLOSED·일정0. 아래는 이전이력.
 
 2026-10-08 [LC1 맹점 두 건 보완 채택](reviews/LC1_CURRENT_CORRECTED_FINITE_EXECUTION_ADOPTION_2026_10_08.md): 후기MIN 공동배우5사용창의7UPC/15연차 연결과 Minjun 첫 시작권 배열을 독립 재검문·총괄 검산. 기존 원본/79·196/6전체창 보존, 현재 신규합계86UPC/211열. 승인된 우승·MVP·마지막공격·은퇴 좌표 불변. 원대표팀/병역·전체14/42역사·원146비트/최종N·개별Blueprint 잔여, 실제Pack0·미완료4/6번까지3·v0.30 PARTIAL/CLOSED. 아래는 이전이력.
