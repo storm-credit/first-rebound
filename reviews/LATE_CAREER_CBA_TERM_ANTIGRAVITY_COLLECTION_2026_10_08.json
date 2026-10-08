@@ -1,0 +1,99 @@
+{
+  "tool": "Antigravity",
+  "scope": "CURRENT_CBA_TERM_EXTRACTION_NOT_FUTURE_LAW",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 51.374,
+    "stdout_sha256": "dbdb5aaa39e4ffa76f41da508cd810cc5b8416225010e9a9fa51e7a0165f6e13",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "parsed_stream": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "68d20ca1-7eaa-4658-a124-2ad87e276445",
+      "status": "SUCCESS",
+      "response": "Current CBA runs through the 2029-30 season; mutual early opt-out follows the 2028-29 season.\n",
+      "duration_seconds": 39.1471574,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "0f2f722173a3e0028aa8855074b374e109ccf94af6702ddd29552ab3167f1701"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "0f2f722173a3e0028aa8855074b374e109ccf94af6702ddd29552ab3167f1701"
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "0f2f722173a3e0028aa8855074b374e109ccf94af6702ddd29552ab3167f1701"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "dbdb5aaa39e4ffa76f41da508cd810cc5b8416225010e9a9fa51e7a0165f6e13",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "Current CBA runs through the 2029-30 season; mutual early opt-out follows the 2028-29 season.\n",
+      "char_count": 94,
+      "sha256": "4276bf2b4f9f5a3847cf08ea2d64b1da988cee0668635250c2b6f667d4f16d85",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "raw_stream_local_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-final-input-term\\agy_stream.jsonl",
+  "same_primary_not_extra_independent_evidence": true,
+  "all_MCP_verified": false,
+  "future_rule_or_major_coordinate_selected": false
+}
