@@ -1,0 +1,74 @@
+{
+  "id": "LC1_INHERITED_QUEUE_SOURCE_GENERATION_BOUNDARY_2026_10_08",
+  "status": "EXACT_HISTORICAL_SOURCE_REPRODUCED_CURRENT_QUEUE_SEPARATELY_REVIEWED",
+  "source_sha256": {
+    "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json": "6399d23d8036c6084b275229dd550dd365f72fb528f40166fb602589256d1dd9",
+    "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md": "92080927fd2ce6f50c619fefc26c44af20bff5d5fba8b635be7cf1f107922a9e",
+    "reviews/LC1_HISTORY_EPISODE_AND_R09_PREPARATION_ADOPTION_G11_INDEPENDENT_REVIEW_2026_10_08.json": "688144447656a4f1e83affa4d4453e9d09edc14770b7fbbe5d01d0185c597b3a"
+  },
+  "historical_source_boundary": {
+    "consumer": "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json",
+    "json_pointer": "/source_sha256/control~1ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+    "path": "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+    "SHA256": "c9bed3499f29245e1bc94dc062c063e92cfc51125d7d819cf82d2e9e72308eb1",
+    "commit": "4458fdea9569b37d9c74dbd7c3cd35266c4983fb",
+    "full_bytes_reproduced": true,
+    "classification": "INHERITED_GENERATION_SOURCE_NOT_CURRENT_QUEUE_SHA",
+    "exists_in_prior_main_canonical": true
+  },
+  "current_queue": {
+    "path": "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+    "SHA256": "92080927fd2ce6f50c619fefc26c44af20bff5d5fba8b635be7cf1f107922a9e",
+    "independently_reviewed_by": "reviews/LC1_HISTORY_EPISODE_AND_R09_PREPARATION_ADOPTION_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+    "interpretation": "Consume the current preparation overlay and latest central queue note, not the inherited source-generation hash as proof of the latest queue bytes."
+  },
+  "preservation": [
+    "Canonical inherited original source pin is retained as history; no blind repin.",
+    "New current preparation index and independent current projection review pin current inputs and current queue separately.",
+    "Original126/173 and prior root receipts are not relabeled or rewritten."
+  ],
+  "whole_G13_G14_complete": false,
+  "actual_Pack": 0,
+  "manuscript_allowed": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "independent_generation_boundary_check": {
+    "reviewer": "Codex independent root generation-boundary check",
+    "review_date": "2026-10-08",
+    "status": "PASS_EXACT_TWO_GENERATION_BOUNDARY",
+    "boundary_input_LF_sha256_before_this_field": "f897451d1a994033b9e57003fa7bb18fb00148c719dbf0185112f106b38b8b95",
+    "hash_convention": "UTF8 BOM removed and CRLF/bareCR normalized LF; git show yields actual full object bytes",
+    "historical_git_byte_checks": [
+      {
+        "commit": "4458fdea9569b37d9c74dbd7c3cd35266c4983fb",
+        "path": "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+        "raw_byte_count": 13651,
+        "normalized_LF_sha256": "c9bed3499f29245e1bc94dc062c063e92cfc51125d7d819cf82d2e9e72308eb1"
+      },
+      {
+        "commit": "4cb87f442c1a8b757725f83f8927fce949afc72b",
+        "path": "control/ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+        "raw_byte_count": 13651,
+        "normalized_LF_sha256": "c9bed3499f29245e1bc94dc062c063e92cfc51125d7d819cf82d2e9e72308eb1"
+      }
+    ],
+    "historical_full_raw_bytes_equal_between_commits": true,
+    "current_and_prior_main_canonical_inherited_queue_pins_equal_historical_digest": true,
+    "current_queue_actual_LF_sha256": "92080927fd2ce6f50c619fefc26c44af20bff5d5fba8b635be7cf1f107922a9e",
+    "current_queue_verified_against_own_preparation_receipt": {
+      "path": "reviews/LC1_HISTORY_EPISODE_AND_R09_PREPARATION_ADOPTION_G11_INDEPENDENT_REVIEW_2026_10_08.json",
+      "receipt_LF_sha256": "688144447656a4f1e83affa4d4453e9d09edc14770b7fbbe5d01d0185c597b3a",
+      "json_pointer": "/reviewed_artifacts_sha256/control~1ACTIVE_CONTINUATION_QUEUE_2026_10_08.md",
+      "pin_matches_current_queue": true
+    },
+    "historical_hash_used_to_certify_current_queue": false,
+    "current_queue_hash_differs_from_inherited_generation_hash": true,
+    "interpretation": "c9bed...는 두 지정 Git 세대의 옛 queue 실제 바이트를 재현하는 inherited source pin이다. 현재920809... queue는 기존 현재 projection 검수 영수증의 별도 reviewed_artifacts 핀과 실제 파일로 확인했다. 이 경계는 이전 실패 검수를 재인증하거나 옛 queue 핀을 현재 queue 검증으로 읽지 않는다.",
+    "mutation_scope": "This independent_generation_boundary_check field only; prior standalone PASS receipt, canonical, current index and other producer contents unchanged",
+    "stage_mutations": 0,
+    "git_mutations": 0,
+    "whole_history_or_G13_G14_promotion": false,
+    "actual_Pack": 0,
+    "design_gate": "CLOSED"
+  }
+}
