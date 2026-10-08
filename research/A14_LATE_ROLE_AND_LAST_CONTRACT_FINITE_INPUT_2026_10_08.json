@@ -1,0 +1,502 @@
+{
+  "id": "A14_LATE_ROLE_AND_LAST_CONTRACT_FINITE_INPUT_2026_10_08",
+  "status": "FROZEN_FINITE_INPUT_PREPARED_PENDING_INDEPENDENT_REVIEW_NO_LAST_CONTRACT_SELECTION",
+  "baseline_main": "82082145a0ab512c246bbcbf14c56f0c1ca3e844",
+  "source_hash_method": "UTF8_BOM_STRIP_LF_NORMALIZED_SHA256",
+  "source_sha256": {
+    "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.json": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d",
+    "design/CP2_ACT_SUBACT_PACKET.json": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9",
+    "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a",
+    "design/A13_A14_INDEPENDENT_CONTINUATION_BOUNDARY_2026_10_08.json": "c05580510f92e2ed10e5bc1167ee35094d909aa245916d3eafdcca8650022a5a",
+    "control/G13_ELEVEN_LOCAL_S1_ACCESS_SELECTED_EXECUTION_2026_10_08.json": "b21ed1e42bc9bdbb63eb013b4d0791b86025f4007c537c549396b9800af6733f",
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+    "reviews/A14_S1_S2_S3_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json": "29d65180e16607c719eec6e2f777ac6d32ede319bb1a7a2fb55cd1e4aaa987b6",
+    "canon/CAREER_TIMELINE.md": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+    "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json": "bb4b3d848717d2ccc8bac3635ff0b916c6d1e2bcf8ebf2f913ff6f21283a2f66",
+    "design/A14_2028_35_CONDITIONAL_FUNCTIONS.json": "9d6bb34cf5097381245610ed1ba7468b130877482f8d83de4f914a669627c454"
+  },
+  "historical_mutable_source_snapshots": {
+    "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json": {
+      "commit": "82082145a0ab512c246bbcbf14c56f0c1ca3e844",
+      "full_LF_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990",
+      "scope": "A14 rows and existing selected contracts; unrelated later progress does not alter this read"
+    },
+    "control/G13_ELEVEN_LOCAL_S1_ACCESS_SELECTED_EXECUTION_2026_10_08.json": {
+      "commit": "82082145a0ab512c246bbcbf14c56f0c1ca3e844",
+      "full_LF_sha256": "b21ed1e42bc9bdbb63eb013b4d0791b86025f4007c537c549396b9800af6733f",
+      "scope": "A14 rows and existing selected contracts; unrelated later progress does not alter this read"
+    },
+    "canon/CAREER_TIMELINE.md": {
+      "commit": "82082145a0ab512c246bbcbf14c56f0c1ca3e844",
+      "full_LF_sha256": "0373c6c2d9ce41aa4c162dba1aa47b315f4d0893049e758c5af6fceac6a87696",
+      "scope": "A14 rows and existing selected contracts; unrelated later progress does not alter this read"
+    }
+  },
+  "original_A14": {
+    "source": {
+      "path": "design/CP2_ACT_SUBACT_PACKET.json",
+      "json_pointer": "/acts/13",
+      "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+    },
+    "choice": "분·계약·폭발력 감소를 받아들임",
+    "cost": "지위와 마지막 계약 규모",
+    "exit": "원클럽 은퇴·후배가 이어받는 준비 습관",
+    "subacts": [
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/39",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A14-S1",
+        "choice": "미선택 다음 우승창 후보에서 공격 시작을 동료에게 넘길 구간을 시험하고 자신은 무볼의 마무리 위치와 준비 역할을 맡는다",
+        "cost": "일부 공격 시작권과 무볼 재관여의 준비 부담",
+        "exit": "유산이 개인 기록과 분리"
+      },
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/40",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A14-S2",
+        "choice": "줄어드는 분을 배신으로 단정하지 않고 짧은 시간에 수행할 판단·준비 역할을 선택한다",
+        "cost": "선발·계약 지위",
+        "exit": "짧은 시간의 판단과 준비"
+      },
+      {
+        "source": {
+          "path": "design/CP2_ACT_SUBACT_PACKET.json",
+          "json_pointer": "/subacts/41",
+          "source_sha256": "2b291bca588302cbb254fc3417652f7d7532c46d7094221cdcceac60619c9db9"
+        },
+        "id": "A14-S3",
+        "choice": "원클럽을 명예 목록으로 끝내지 않고 주도권을 넘긴 뒤 후배의 준비 행동이 남는 은퇴 기능을 검토한다",
+        "cost": "마지막 주도권",
+        "exit": "후배의 준비 행동이 남음"
+      }
+    ]
+  },
+  "reuse_inventory": {
+    "existing_qualified_local_functions": [
+      {
+        "id": "A14-EF-001",
+        "function": {
+          "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+          "json_pointer": "/functions/0",
+          "source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+        },
+        "register": {
+          "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+          "json_pointer": "/functions/57",
+          "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+        },
+        "qualified_root_peer": {
+          "path": "reviews/A14_S1_S2_S3_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "",
+          "source_sha256": "29d65180e16607c719eec6e2f777ac6d32ede319bb1a7a2fb55cd1e4aaa987b6"
+        },
+        "selected_access_and_relative_clock": {
+          "path": "control/G13_ELEVEN_LOCAL_S1_ACCESS_SELECTED_EXECUTION_2026_10_08.json",
+          "json_pointer": "/rows/8",
+          "source_sha256": "b21ed1e42bc9bdbb63eb013b4d0791b86025f4007c537c549396b9800af6733f"
+        },
+        "existing_beats": [
+          "S1-A",
+          "S1-B"
+        ],
+        "local_observable_exit": "위치와 짧은 연결로 부담을 나누는 시도를 남기지만 노화의 정도·동료 교체·두 번째 우승은 정해지지 않는다",
+        "scope_limit": "연습의 시작권 한 번과 무볼 준비 시간만 실제 가상비용으로 보인다. 미래 NBA 공격권·계약의 감소는 정하지 않는다.",
+        "new_local_beats_generated": 0
+      },
+      {
+        "id": "A14-EF-002",
+        "function": {
+          "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+          "json_pointer": "/functions/1",
+          "source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+        },
+        "register": {
+          "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+          "json_pointer": "/functions/58",
+          "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+        },
+        "qualified_root_peer": {
+          "path": "reviews/A14_S1_S2_S3_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "",
+          "source_sha256": "29d65180e16607c719eec6e2f777ac6d32ede319bb1a7a2fb55cd1e4aaa987b6"
+        },
+        "selected_access_and_relative_clock": {
+          "path": "control/G13_ELEVEN_LOCAL_S1_ACCESS_SELECTED_EXECUTION_2026_10_08.json",
+          "json_pointer": "/rows/9",
+          "source_sha256": "b21ed1e42bc9bdbb63eb013b4d0791b86025f4007c537c549396b9800af6733f"
+        },
+        "existing_beats": [
+          "S2-A",
+          "S2-B",
+          "S2-C"
+        ],
+        "local_observable_exit": "짧은 역할의 준비와 첫 선택을 수행하려는 기준을 남기지만 벤치 전환 날짜·분·계약은 미정이다",
+        "scope_limit": "개인 포스트·수비 표본과 짧은 과제의 준비 시간은 잃지만 원 CP2의 실제 선발·계약 지위 손실은 아직 관측되지 않는다.",
+        "new_local_beats_generated": 0
+      },
+      {
+        "id": "A14-EF-003",
+        "function": {
+          "path": "design/A14_S1_S2_S3_DELEGATED_FUNCTION_EXECUTION_2026_10_08.json",
+          "json_pointer": "/functions/2",
+          "source_sha256": "20539aa7a1d44234249b644fbfd1cfd8dc391839b89b3bd435e6d074f4f7206a"
+        },
+        "register": {
+          "path": "control/G13_A14_FUNCTION_EXECUTION_REGISTER_2026_10_08.json",
+          "json_pointer": "/functions/59",
+          "source_sha256": "a3ad1c502d0112b07a9b34579b78afa25641305ea660de0af22f5a5ae5d0b990"
+        },
+        "qualified_root_peer": {
+          "path": "reviews/A14_S1_S2_S3_FUNCTION_ROOT_INDEPENDENT_REVIEW_2026_10_08.json",
+          "json_pointer": "",
+          "source_sha256": "29d65180e16607c719eec6e2f777ac6d32ede319bb1a7a2fb55cd1e4aaa987b6"
+        },
+        "selected_access_and_relative_clock": {
+          "path": "control/G13_ELEVEN_LOCAL_S1_ACCESS_SELECTED_EXECUTION_2026_10_08.json",
+          "json_pointer": "/rows/10",
+          "source_sha256": "b21ed1e42bc9bdbb63eb013b4d0791b86025f4007c537c549396b9800af6733f"
+        },
+        "existing_beats": [
+          "S3-A",
+          "S3-B"
+        ],
+        "local_observable_exit": "주인공이 물러난 다음 반복에서 후배가 스스로 위치·첫 연결을 준비하는 표본이 남지만 Chicago 원클럽 은퇴의 정확 시점과 후속 경력은 미정이다",
+        "scope_limit": "연습 반복의 공과 통제권을 후배에게 넘긴다. 실제 마지막 선수 계약과 은퇴의 주도권 이양은 미실행이다.",
+        "new_local_beats_generated": 0
+      }
+    ],
+    "earlier_representative_role_last_contract_boundary": {
+      "path": "design/A13_A14_INDEPENDENT_CONTINUATION_BOUNDARY_2026_10_08.json",
+      "json_pointer": "/finite_remaining_domains/1",
+      "source_sha256": "c05580510f92e2ed10e5bc1167ee35094d909aa245916d3eafdcca8650022a5a"
+    },
+    "old_seventeen_season_late_role_proposals": {
+      "path": "design/CHICAGO_MINNESOTA_LONG_CAREER_PACKET.json",
+      "json_pointer": "/seasons",
+      "source_sha256": "bb4b3d848717d2ccc8bac3635ff0b916c6d1e2bcf8ebf2f913ff6f21283a2f66"
+    },
+    "old_A14_conditional_forms": {
+      "path": "design/A14_2028_35_CONDITIONAL_FUNCTIONS.json",
+      "json_pointer": "",
+      "source_sha256": "9d6bb34cf5097381245610ed1ba7468b130877482f8d83de4f914a669627c454"
+    },
+    "actual_last_UPC_year_price_prepared_elsewhere": false,
+    "existing_candidate_authority": "Long-career labels such as2031–35 shortcontract/bench/retirement are unselected suggestions, not selected UPCs or medical decline. No duplicate local clocks or successor beats."
+  },
+  "selected_contract_endpoints": {
+    "P26A": {
+      "source": {
+        "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+        "json_pointer": "/selected_UPCs/0",
+        "source_sha256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd"
+      },
+      "selected_capyears": [
+        2026,
+        2027,
+        2028,
+        2029
+      ],
+      "salary_functions": [
+        "3/10*C26",
+        "81/250*C26",
+        "87/250*C26",
+        "93/250*C26"
+      ],
+      "last_year4": "2029-30 NBASeason, Salary Cap Year beginning2029July1",
+      "last_fiscal_end": "2030-06-30",
+      "fiscal_date_is_exact_service_endpoint": false,
+      "first_possible_expired_followup_capyear": 2030,
+      "operative_previous_service_completion_required": true,
+      "new_2030_UPC_selected": false,
+      "original_options": [],
+      "full_existing_Gamma_and_protection_preserved": true,
+      "new_late_role_does_not_amend_salary": true
+    },
+    "LM1": {
+      "source": {
+        "path": "simulation/LAMELO_2023_SELECTED_EXTENSION.json",
+        "json_pointer": "/selected_terms",
+        "source_sha256": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d"
+      },
+      "original_capyears": [
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+      ],
+      "last_year5": "2028-29 NBASeason",
+      "last_fiscal_end": "2029-06-30",
+      "first_expired_followup_capyear": 2029,
+      "FY26_or_P2030_new_cap_rebase": false,
+      "later_LM_UPC_selected": false
+    },
+    "no_silent_whole_core_carry": "Beyond these named terms, currentFY26 named15 or health cannot simply be certified for a late window. Only actors actually used need lawful continuation; no fifteen-name annual renewal project added."
+  },
+  "primary_legal_baseline": {
+    "path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-cba-boundary-20261007\\cba2023.pdf",
+    "raw_sha256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+    "physical_page_text_sha256": {
+      "31": "f1cf878da1d9b554ff242e52975f67f0bda1127300045f04b5188ebd4e506b52",
+      "57": "ffac47dda5504cb4f3055fbf983e08e59255ece054c36c8507b497066e226dd0",
+      "58": "baeea9999ef9d320408ad5714b7c743944ddaaac84eb7f0f8dd191cd6be87921",
+      "60": "d2527b2a4e3848652305308ea38e1c97fedbb97fd34c93d5527df5864491f24b",
+      "61": "5fef2298ad1156ebe3e3fe2b922cdf9c2b99e143153ea9e08171808b6230a8e9",
+      "125": "5e8390c13021c8d957d7e0054a76d4708b9791ff38826c213d17183607a27b1e",
+      "222": "2757fd36981c6564f49efff9ced2f383584f1a4c07a2a182f3fbf4947974bc11",
+      "223": "296678bececc37fae1a6e809edab84f49663fe1b042b811c24add8e3591e6434",
+      "224": "dc3a83618263665710467bfae9d68c57e1e6aaa3e4debe35c014b1ee989812ec",
+      "234": "da1c1b7790fa3f3cb2c179480eb2027a182be99c0d9a5d2e6cb2fc2481ee258e",
+      "240": "1712263b1347992499d49e999935d6eb6dee0dd493850ff7f1f08284f7d04862",
+      "241": "ee2a3f22c495aa8d226353dda9013722cf188ebb2a12e2bd69de50ce7ac8bac9",
+      "242": "0311d26d906d460858db1f315c6cf989093478ccca08a25a5ebc3703386a4e6b",
+      "251": "54c7fce4b1bec13fa95072281f9c34b964da19fc0a17406f6f5f99d6a113d0f1",
+      "255": "1d13b211bee94e0c95de5faaa63b5754c7470d9e8ff520043d8ee4f651f59620",
+      "264": "9b4242c837bbe6b53804f1a980ed0fe2f4782c21059ea15f186cf0a1bc0b4e65",
+      "319": "6640ea05858483ed302458cb0db48a3ba5bdcd4bda4a75ded8b34212bceabeac",
+      "566": "141531764565c1e03509be92575457b622d8ac6d010e739eb0f7411fb6da48ec"
+    },
+    "read_pages_this_task": [
+      31,
+      57,
+      58,
+      60,
+      61,
+      125,
+      222,
+      223,
+      224,
+      234,
+      240,
+      241,
+      242,
+      251,
+      255,
+      264,
+      319,
+      566
+    ],
+    "law_is_current_baseline_not_future2030_actual_certification": true,
+    "CBA_term": {
+      "section": "XXXIX1–2/PDF566",
+      "ordinary_expiry": "2030-06-30",
+      "possible_early_end": "2029-06-30 with lawful opt notice by2028-10-15",
+      "termination_exercised_or_successor_rule_selected": null,
+      "future_execution_condition": "Use then-operative lawful rules/mandatoryconformity. Current cached2023 forms are comparison interfaces; no claim they automatically govern a2030/2033 last contract."
+    }
+  },
+  "common_lawful_form_domain": {
+    "ownBird": "Prior3Seasons played under sameCHI qualifying UPC/service and preserved unrenounced rights, I1yy/PDF31/VII6b/PDF255; P26A itself covers2027/28/29 if lawful services are rendered. No actual private proof gate.",
+    "YOS": "At future signature creditedYOS is a lawful input. 2018entry history suggests >=10 if required creditedservice rendered, not an automatic current count or new82stats obligation.",
+    "ordinary_max": "Under2023baseline and creditedYOS>=10: max(35% C_Y,105% priorSalary_II7_Gamma) bounds firstSalary+Unlikely, II7a(iii)/PDF61; 35% does not need futureMVP at10+YOS. IfcreditedYOS differs use II7 correct25/30 branch.",
+    "minimum": "Positive signingYear M_Y(YOS,j) eachSeason, II6/PDF57–58; deemed minimum/amendment conformity preserved; exact future statutory scale/cents null, not0.",
+    "raise_term": "OwnBird newUPC <=5Seasons includingoptions underIX1/PDF319; annual increase/decrease <=8% FIRST regularsalary and salary excludingincentive, each bonus own8% underVII5a2/PDF251. Proposed1/2flat forms use0raise, nooptions/newbonus0.",
+    "protection": "Candidate fullskill/injury/illness Base subject standardII4/Ex2; no allcause/deathimmunity and no originalGamma absence proof.",
+    "timing": "Valid newUPC only after prior covered service, allowed Moratorium end under then-operative law. No2030 actual date silently invented; extension is separate and not selected.",
+    "registration": "OtheroperativeSTD<=14 at newUPC thenPSTD1, TW0; if existingP UPC live its role can shrink without newsignature/slot/Salary reduction.",
+    "same_claim_hold": "Correct ordinaryUFA150/190 priorSalary/clamps before newUPC; replace this player claim once. Effective renounce would remove Bird and needs another lawfulsigningmechanism. No receipt/absence certification.",
+    "last_contract_label": "A1/2year candidate is not certified last career contract; aftercontract service/retirement remain unselected.",
+    "admitted_nonempty_price_domain_required": true,
+    "one_year_at_minimum_adjustment": "If LATE_BIRD1 x exactly equals statutory minimum with no bonuses and all eligible oneYear3+YOS conditions, apply same IV6h/VII3f deemed TeamSalary and afterSeason reimbursement as MIN1. Mechanism label Bird does not exempt the contract from statutory minimum Salary adjustment. Full playercash remains x. TwoYear form has no automatic oneYear adjustment."
+  },
+  "Over38_boundary": {
+    "source": "VII3a2/PDF222–224",
+    "birthday_source": {
+      "path": "canon/CAREER_TIMELINE.md",
+      "born_year": 1999,
+      "exact_birthdate": null,
+      "observed_source_line_scope": "1999 birthyear locked; exactbirthday HOLD"
+    },
+    "four_or_more_Seasons_condition": true,
+    "one_or_two_year_forms_trigger_Over38": false,
+    "P26A_2026_fourYear_age38_season": false,
+    "age38_in_calendar_year_if_locked1999": 2037,
+    "later_four_plus_term": "If chosen term includes a Season beginning after age38, inspect actualbirthday/October1 rule and applicablelaw; no birthday/medical facts inferred. Exact DOB needed only for an activated age-boundary branch.",
+    "exceptions_preserved": "Baseline prior-team qualifying player age35/36 four-or-fewer noallocation exception and fiveYear rule, birthdaymoratorium/October1 treatment retained, not blanket oldage illegality.",
+    "new_medical_decline_or_retirement_inferred": false,
+    "post2030_rule_guarantee": false
+  },
+  "last_contract_form_candidates": [
+    {
+      "id": "LATE_BIRD1",
+      "status": "CONDITIONAL_FORM_NOT_SELECTED_OR_MARKET_AGREEMENT",
+      "mechanism": "Direct own FullBird new UPC after prior services; not extension/amendment of P26A",
+      "term_seasons": 1,
+      "price": "x>0, M_Y(creditedYOS,1)<=x<=max(35% C_Y,105% priorSalary_II7_Gamma) if creditedYOS>=10 and reference2023rules remain operative; ifYOS differs use correct legal bracket",
+      "optional_contraction_subfamily": "Also require x<=prior_regular_salary_for_comparison and nonempty interval; this is a proposed lower annual/total exposure, not a forecast that P accepts a discount.",
+      "annual_schedule": [
+        "x"
+      ],
+      "newbonus": 0,
+      "options": [],
+      "fullcash": "x plus preserved original cash Gamma",
+      "minimum_reimbursement_automatic": false,
+      "role_or_retirement_result_from_contract": false
+    },
+    {
+      "id": "LATE_BIRD2",
+      "status": "CONDITIONAL_FORM_NOT_SELECTED_OR_MARKET_AGREEMENT",
+      "mechanism": "Direct own FullBird new UPC after prior services; not extension/amendment of P26A",
+      "term_seasons": 2,
+      "price": "x>0, all M_Y(creditedYOS,j)<=x, first x<=applicable II7 ordinary max; unrenounced three-prior-Season ownBird family and operative future conformity",
+      "optional_contraction_subfamily": "Flat2*x and x<=prior_regular_salary_for_comparison; actual prior reference and chosen role window must be named when selected. No perpetual cheap renewal rule.",
+      "annual_schedule": [
+        "x",
+        "x"
+      ],
+      "newbonus": 0,
+      "options": [],
+      "fullcash": "2*x plus preserved original cash Gamma",
+      "minimum_reimbursement_automatic": false,
+      "role_or_retirement_result_from_contract": false
+    },
+    {
+      "id": "LATE_MIN1",
+      "status": "LOW_PRICE_SENSITIVITY_FOR_A_LATE_ROLE_NOT_AUTOMATIC_2030_DOWNGRADE",
+      "mechanism": "Minimum Player Salary Exception new one-season UPC, if applicable successor rule admits same form",
+      "term_seasons": 1,
+      "price": "M_Y(creditedYOS,1)>0 under then operative signing-year scale; no published exact future cents invented",
+      "annual_schedule": [
+        "M_Y(creditedYOS,1)"
+      ],
+      "newbonus": 0,
+      "options": [],
+      "fullcash": "Full M_Y(creditedYOS,1); if eligible one-year3+YOS family, teamSalary M_Y(2,1) under2023baseline and reimbursement only afterSeason",
+      "minimum_reimbursement_automatic": false,
+      "role_or_retirement_result_from_contract": false
+    }
+  ],
+  "contraction_diagnostics_not_price_choice": {
+    "selected_P26A_regular_total_coefficient_C26": "168/125",
+    "selected_lastYear_regular_coefficient_C26": "93/250",
+    "if_oneYear_x_le_original_last_regular": "x<=93/250*C26 <168/125*C26, provided futureminimum/max intersection nonempty",
+    "if_twoYear_flat_x_le_original_last_regular": "2*x<=93/125*C26 <168/125*C26; smaller total term exposure only, not marketassent or recurringfuturecost certificate",
+    "future_C26_cap_rebase_or_new_x_selected": false,
+    "reference_only_original_total": 221707584,
+    "reference_only_original_lastyear": 61365492
+  },
+  "six_cost_categories": [
+    {
+      "id": "SIGNED_LATE",
+      "normal": "Chosen current UPC Salary plus applicable allocations; existing P26A commitments remain live for their own periods",
+      "apron": "Same chosen Salary with operative lawful adjustments, not a blanket full-team upper",
+      "cash": "Actual contractual fullBase under chosen form plus attributed cash; not signed payment receipt"
+    },
+    {
+      "id": "OLD_GAMMA_LATE",
+      "normal": "R_Y_N unique original protection/waiver/accrual/deferred/grievance attributed toY; unknown not0",
+      "apron": "R_Y_A unique original attribution; no blanketzero",
+      "cash": "Unique accrued original obligations preserved; amountnull"
+    },
+    {
+      "id": "FA_AND_RIGHTS_LATE",
+      "normal": "H_Y(P) priorSalary includes original relevant bonus components, correct150/190/clamps underbaseline until ownUPC/otherNBA/sign/validrenounce; once-only replacement",
+      "apron": "OrdinaryUFA face excluded under operative rule; attributed originalGamma/otherFRN/QO not silently dropped",
+      "cash": "Cap hold not same-year player cash; no manufactured P rookieQO/ROFR"
+    },
+    {
+      "id": "DRAFT_LATE",
+      "normal": "N_Y lawful named rights/RT/unsigned obligations when relevant",
+      "apron": "A_Y applicable requiredTender adjustments",
+      "cash": "Unknown/newdraftee UPC not automaticallyselected",
+      "values": null
+    },
+    {
+      "id": "EXCEPTION_LATE",
+      "normal": "Then-current annual exceptions until lawfuluse/expiry/validrenunciation; no annualsource2026 reissue forever",
+      "apron": "Unusedface rule and actual selected transactiontrigger separately; Bird/min alone do not automatically hardcap under2023baseline",
+      "cash": "Exceptionface not payment; no automatic wholebudgetclear"
+    },
+    {
+      "id": "ROSTER_FLOOR_TAX_CASH_LATE",
+      "normal": "STD before new signature<=14, newPSTD1; proper active/inactive/court whenrole isselected. Wholefloor/tax extra domains remain typed",
+      "apron": "Higherapron alone does not make ownBird/min signatureillegal; latertransactionconstraints/independenttrigger remain",
+      "cash": "Minimum1 fullplayercash and possibleafterSeason refund distinct; twoYearrefund never automatic",
+      "whole_numeric_cost": null
+    }
+  ],
+  "finite_ports": [
+    {
+      "id": "LATE_ROLE_REPRESENTATIVE_WINDOW",
+      "input_status": "READY_RULE_AND_EXISTING_TASK_REFERENCES_ROLE_SELECTION_PENDING",
+      "new_needed": "One later CHI coach-authorized representative window with legal named participants and new bounded availability. Specify prior selected role m_before and new role 0<m_after<m_before<=48, starting/initiation rights before and after, and where responsibility moves. A14 EF58/59 actions are reused, not regenerated.",
+      "possible_comparison_not_selected": {
+        "BENCH20": {
+          "P_minutes": 20,
+          "P_initial_starter": false
+        },
+        "SHORT16": {
+          "P_minutes": 16,
+          "P_initial_starter": false
+        },
+        "reference_only": "Selected FY26 B34 P34 can be a comparison anchor, not a claim P played34 minutes immediately before a later reduction. Freed14/18 comparison minutes require lawful receiving actors and unique same5 clock only when the window is chosen."
+      },
+      "actual_minute_loss_before_after": null,
+      "start_right_loss_before_after": null,
+      "status_change_before_after": null,
+      "clinical_reason": null,
+      "contract_guarantee_reduced_by_coach": false,
+      "new_contract_required_if_window_within_live_P26A_service": false,
+      "not_whole82_gate": true
+    },
+    {
+      "id": "LAST_UPC_SIZE_AND_SERVICE",
+      "input_status": "THREE_LAWFUL_BASELINE_FORMS_PREPARED_FUTURE_DATE_PRICE_NOT_SELECTED",
+      "new_needed": "Select later year/service and operative law branch only when this is placed as a real fictional contract event, choose one conforming mutual UPC form and a named comparison showing smaller term/annual/total compensation as required by original cost. Preserve all old Gamma and prior full protection; no current contract haircut.",
+      "signing_year": null,
+      "price": null,
+      "actual_last_contract_certified": false,
+      "linked_forms": [
+        "LATE_BIRD1",
+        "LATE_BIRD2",
+        "LATE_MIN1"
+      ],
+      "need_for_local_training_witness_already_accepted": false,
+      "price_selection_does_not_prove_minutes_or_retirement": true
+    },
+    {
+      "id": "ONE_CLUB_FINAL_HANDOFF",
+      "input_status": "LOCKED_FUNCTION_WITH_EXISTING_LOCAL_SUCCESSOR_TASK_REAL_CAREER_COORDINATE_PENDING",
+      "new_needed": "When final career placement is selected, connect end of player service/last on-court or player-control window to original EF60 successor autonomy and one-club end. Exact year, recipient identity, future job and medical aging are not selected here. Reuse existing successor task and access; no new title is necessary to prove that task.",
+      "exact_retirement": null,
+      "new_successor_task_generated": 0,
+      "locked_one_club_function_downgraded_to_unselected": false,
+      "actual_retirement_or_last_NBA_game_done": false
+    }
+  ],
+  "recommendation": "Reuse accepted local EF58–60/access now. When root chooses a late representative window, link minutes/starting-right/status before-after with one lawful existing-or-short-followup service form and preservedGamma. Prefer1/2year ownBird form comparison without pretending an immediate2030minimum downgrade; lastprice/year and actualretirement remain root futurechoices. Do not repeatannualminimum15 or localtask preparation.",
+  "verification": {
+    "physical_repo_pins_checked": 11,
+    "P_selected_years_salary_Gamma_checked": true,
+    "LM_original_years_and_separate_expiry_checked": true,
+    "A14three_functions_register_access_peer_checked": true,
+    "primary_raw_and_18_pages_direct_text_read": true,
+    "fraction_diagnostics_checked": true,
+    "new_local_clock_or_successor_task_generated": 0,
+    "static_constructor_tests": 0,
+    "writer_checks_counted_as_independent": 0,
+    "new_external_source_downloads": 0,
+    "independent_review_completed": false
+  },
+  "limits": {
+    "last_contract_year_price_selected": false,
+    "actual_late_minutes_start_status_medical_or_stats_certified": false,
+    "exact_retirement_or_late_championship_selected": false,
+    "late_opponent_30team_service_or_privateledger_certified": false,
+    "whole_A14_G13_G14_or_Pack": false,
+    "whole_future_year_cost_certified": false,
+    "manuscript_allowed": false,
+    "Pack": 0,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "unfinished_stages": 4,
+    "through_stage6_unfinished": 3
+  }
+}

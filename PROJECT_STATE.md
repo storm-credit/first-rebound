@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-08 [결말 비용·말년 현재입력 검문](reviews/FINAL_PAYOFF_AND_LATE_ROLE_CURRENT_INPUT_ADOPTION_2026_10_08.md): PR513다음 LM/LV 기존3막 상호비용·말년3계약가족·완료계약/공통2026Finals 비교를 검문 수용. P2029–30뒤2030/LM2028–29뒤2029·fiscal/service구분·미래법guard. AGY실제답/NLM분석 timeout뒤 회수/Claude반증·실제인포그래픽 시각검수 기록. 새사건/연습0·LC선택null·최종payoff/전체역사/최종배치/G13/G14·Pack0미완료·4묶음/6번까지3·v0.30 PARTIAL/CLOSED·일정0. 아래는 이전이력이다.
+
 2026-10-08 [A12 역할·짧은 봄 현재선택](reviews/A12_ROLE_AND_SHORTER_SPRING_CONTINUATION_ADOPTION_2026_10_08.md): PR512다음 기존1–3/FY26계약15/A11첫Finals MIN4–2보존. B34 P34/LM28/LV28·원240분 역할template/13+2와 July8표·Nov4자기과제16초·2027CHI5 PHIR1승/MILR2패/선행MIL>NYK 및 패배후 자기영상 재준비를 실제 위임선택·독립검문 수용. 계약재작성0·원Γ/6비용·LM C24/LVPO보존. AGY본문unavailable/HTTP403·NLM/Claude새답과 원문반박 기록. 원A12재대결자격/A13–14주요좌표·전체역사/배치/G13/G14·Pack0남음·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.
 
 2026-10-08 [A11 첫Finals 선행·6경기·공동시계 실제선택](reviews/A11_SELECTED_RESULTS_AND_FINITE_PAIR_CONTINUATION_ADOPTION_2026_10_08.md): PR511다음 기존1–3보존. 새2024MIL준결승/2025PHIR1endpoint로 첫Finals선행미해소2→0, MIN4–2·6월16일 가상6경기/양팀13가용·480분·3개8초비용/허용영상인계를 실제선택·독립검문. 실제NBA NYK4–1SAS/6월13일과 예정G6를 구분. MIN15/route상태는 최신인계의 검문범위를 따르며 같은6날짜 조건부 합법pair결합·180service/144clock 검문 수용. 다음A12 계약/역할책임을 계속한다. AGY/NLM/Claude새답 회수·첫실패보존; wholeA11/역사/G13/G14/후기좌표/Pack0미완료·4묶음/6번까지3·CLOSED·GoalACTIVE·일정0. 아래는이전이력이다.
