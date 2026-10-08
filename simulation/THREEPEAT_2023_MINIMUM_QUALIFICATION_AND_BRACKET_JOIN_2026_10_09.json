@@ -1,0 +1,5693 @@
+{
+  "id": "THREEPEAT_2023_MINIMUM_QUALIFICATION_AND_BRACKET_JOIN_2026_10_09",
+  "status": "MINIMUM_SUPPORT_FICTION_SELECTED_AND_PREPARED_CURRENT_TREE_JOIN_PENDING_INDEPENDENT_ADOPTION",
+  "current_main_at_preparation": "5e48c8f0ac32c50d151c0a680dba850a330ac81a",
+  "source_sha256": {
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json": "cecefbc4fbca8378cacdae2f77129f26644244529d11eb216072a8fba8d224a9",
+    "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json": "ecc876c91d1008285b944fd9b7e7213a1c3e54b94d0a2fea84cd82b2f7cb0407",
+    "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+    "simulation/THREEPEAT_2023_PUBLIC_RESIDUAL_MODEL_CANDIDATES_2026_10_09.json": "704b23773a53d8b27cfae9191a907fd9f891e986bc5ab2a44e360f27920c0d52",
+    "canon/DELEGATED_THREEPEAT_2023_RESIDUAL_REGULAR_SELECTION_2026_10_09.json": "2cf2a1002ed26bd8a82a4a2cc121316e49ee4bee7a904c31b49c64169f2b669a",
+    "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "simulation/NBA_2022_23_NPC_CONTRACT_PORTFOLIO.json": "123d07df572ac4350e9528b3f0b913b3013ad4d51584c88a94e78051b9c7af19",
+    "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c"
+  },
+  "source_hash_method": "UTF8BOM removed/CRLF,bareCR→LF SHA256; primaryraw bytes; resolvedJSON sortedkeys compact separators UTF8 nonewline",
+  "authority": {
+    "selected_B_source": "canon/DELEGATED_THREEPEAT_2023_RESIDUAL_REGULAR_SELECTION_2026_10_09.json",
+    "selected_4_CHI_source": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+    "B_record": [
+      52,
+      30
+    ],
+    "CHI_seed": 6,
+    "root_parent_delegated_support_scope": "Only6playin and11nonCHI supportresults/calendar/tree; current26CHI rows unchanged",
+    "producer_birth_notselected_orPREPARED_flags_do_not_reset_currentselection": true,
+    "new_currentauthority_beforeindependentadoption": false
+  },
+  "classification": {
+    "FACT": "ActualNBA format/calendar/homecourt publication",
+    "DELEGATED_FICTION": "Currentsupportresults andavailability/UPC/role continuity",
+    "not_fact_certificate": "Realmedical/privatecontracts/publicNBAactualresults/marketplausibility/wholehistory"
+  },
+  "primary_direct_reads": [
+    {
+      "url": "https://www.nba.com/playoffs/2023/play-in-tournament/schedule",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-standings-20261008\\playin.raw",
+      "raw_sha256": "7d99e5c1b9b17761aa517dfbfe6c1e54907354bc9577a457c9f2b223a933de73",
+      "actual_body_read": true,
+      "visible_body_text_SHA256": "982a36314c5c04c4c0c86d48be37021eefb2e6f869d277197f1b8be40ae1dbd0",
+      "scope": "Publiccalendar/format/homecourt; actualhistoricactor/results notcopied. HistoricalscheduleGame5 erroneousChicago8th label notconsumed."
+    },
+    {
+      "url": "https://pr.nba.com/transition-take-foul-nba-play-in-tournament-approval/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-standings-20261008\\permanent.raw",
+      "raw_sha256": "7d766dd1ea96c552e280e3393a08d19b473865dc710608ecf40a05f0b312d445",
+      "actual_body_read": true,
+      "visible_body_text_SHA256": "e5169c49c7af46ca9469ffb59e2423df7dd7db51a8aeb4e3e3c0903948080445",
+      "scope": "Publiccalendar/format/homecourt; actualhistoricactor/results notcopied. HistoricalscheduleGame5 erroneousChicago8th label notconsumed."
+    },
+    {
+      "url": "https://pr.nba.com/nba-playoff-seeding-changes/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-postseason-20261008\\homecourt.raw",
+      "raw_sha256": "522c4fe8cf907d68e73bef708105ef2b0a8714acc10071f370714dcf8f3d4036",
+      "actual_body_read": true,
+      "visible_body_text_SHA256": "282e4fe1bdd5aa8eb4f4768c633068b1a8f73e58e30523a8205f55a1d47460a0",
+      "scope": "Publiccalendar/format/homecourt; actualhistoricactor/results notcopied. HistoricalscheduleGame5 erroneousChicago8th label notconsumed."
+    },
+    {
+      "url": "https://pr.nba.com/nba-finals-format-change-2014/",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-2023-postseason-20261008\\format.raw",
+      "raw_sha256": "75318098952cac86ad70cdb7606a90c57f43ccb6cf3b9946efd31877d227a7e2",
+      "actual_body_read": true,
+      "visible_body_text_SHA256": "34a8d60a4155f20f823f7d7b45fdf08692b3f1474c14e8ee506632d7275e4eae",
+      "scope": "Publiccalendar/format/homecourt; actualhistoricactor/results notcopied. HistoricalscheduleGame5 erroneousChicago8th label notconsumed."
+    }
+  ],
+  "regular_seeds": {
+    "EAST": [
+      "MIL",
+      "BKN",
+      "PHI",
+      "BOS",
+      "IND",
+      "CHI",
+      "ATL",
+      "MIA",
+      "TOR",
+      "NYK"
+    ],
+    "WEST": [
+      "UTA",
+      "LAC",
+      "DEN",
+      "PHX",
+      "LAL",
+      "DAL",
+      "GSW",
+      "NOP",
+      "POR",
+      "SAS"
+    ]
+  },
+  "direct_qualifiers": {
+    "EAST": [
+      "MIL",
+      "BKN",
+      "PHI",
+      "BOS",
+      "IND",
+      "CHI"
+    ],
+    "WEST": [
+      "UTA",
+      "LAC",
+      "DEN",
+      "PHX",
+      "LAL",
+      "DAL"
+    ],
+    "CHI_notplayin": true
+  },
+  "selected_playin_games": [
+    {
+      "id": "CURRENT2023:E78",
+      "date": "2023-04-11",
+      "home": "ATL",
+      "away": "MIA",
+      "selected_winner": "ATL",
+      "selected_loser": "MIA",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/0/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/0",
+      "inherited_pair": [
+        "MIA",
+        "CHI"
+      ],
+      "inherited_winner": "MIA",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": false,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "ATL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL/blocks",
+          "MIA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "2015772d558fe90562949a8b888be3f23b4e644153285339c4236bca3438bb2e",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    },
+    {
+      "id": "CURRENT2023:E910",
+      "date": "2023-04-12",
+      "home": "TOR",
+      "away": "NYK",
+      "selected_winner": "TOR",
+      "selected_loser": "NYK",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1",
+      "inherited_pair": [
+        "TOR",
+        "NYK"
+      ],
+      "inherited_winner": "TOR",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": true,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "TOR": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR/blocks",
+          "NYK": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/NYK/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 24,
+        "resolved_joint_canonical_JSON_SHA256": "606ade68886540cdc854449c26064959d9f4db73000dca273472fea34611af7a",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    },
+    {
+      "id": "CURRENT2023:E8FINAL",
+      "date": "2023-04-14",
+      "home": "MIA",
+      "away": "TOR",
+      "selected_winner": "MIA",
+      "selected_loser": "TOR",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/2/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/2",
+      "inherited_pair": [
+        "CHI",
+        "TOR"
+      ],
+      "inherited_winner": "CHI",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": false,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "MIA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/blocks",
+          "TOR": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 23,
+        "resolved_joint_canonical_JSON_SHA256": "febfd27f51e2df62e1e6c172822a8546f761ae95e589d2e781853862fd8965a9",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    },
+    {
+      "id": "CURRENT2023:W78",
+      "date": "2023-04-11",
+      "home": "GSW",
+      "away": "NOP",
+      "selected_winner": "GSW",
+      "selected_loser": "NOP",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/3/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/3",
+      "inherited_pair": [
+        "GSW",
+        "NOP"
+      ],
+      "inherited_winner": "GSW",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": true,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "GSW": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW/blocks",
+          "NOP": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "1152b339f8d553798491568bc1097382e5df724f1319c627d8b1f62ba1bd827c",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    },
+    {
+      "id": "CURRENT2023:W910",
+      "date": "2023-04-12",
+      "home": "POR",
+      "away": "SAS",
+      "selected_winner": "POR",
+      "selected_loser": "SAS",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4",
+      "inherited_pair": [
+        "POR",
+        "SAS"
+      ],
+      "inherited_winner": "POR",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": true,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "POR": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR/blocks",
+          "SAS": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/SAS/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "82046763a94dc4b73d9bf2a1e38a10dc0b53b9254dcdc6572c3895a728fb003c",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    },
+    {
+      "id": "CURRENT2023:W8FINAL",
+      "date": "2023-04-14",
+      "home": "NOP",
+      "away": "POR",
+      "selected_winner": "NOP",
+      "selected_loser": "POR",
+      "source_calendar": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/5/date",
+      "inherited_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/5",
+      "inherited_pair": [
+        "NOP",
+        "POR"
+      ],
+      "inherited_winner": "NOP",
+      "selected_support_fiction": true,
+      "pair_andwinner_identical_to_old": true,
+      "score": null,
+      "OT": 0,
+      "proxy_margin_reused": false,
+      "joint_clock": {
+        "team_blocks_sources": {
+          "NOP": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/blocks",
+          "POR": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "38d643b7117c47634f85a62c0617fa57b85e4419ead2ad7b0f7c6d546912b2d9",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      }
+    }
+  ],
+  "final_qualified_seeds": {
+    "EAST": [
+      "MIL",
+      "BKN",
+      "PHI",
+      "BOS",
+      "IND",
+      "CHI",
+      "ATL",
+      "MIA"
+    ],
+    "WEST": [
+      "UTA",
+      "LAC",
+      "DEN",
+      "PHX",
+      "LAL",
+      "DAL",
+      "GSW",
+      "NOP"
+    ]
+  },
+  "selected_11_non_CHI_support_series": [
+    {
+      "id": "CURRENT2023:E_R1_18",
+      "conference": "EAST",
+      "round": "R1",
+      "teams": [
+        "MIL",
+        "MIA"
+      ],
+      "seeds": {
+        "MIL": 1,
+        "MIA": 8
+      },
+      "higher_home": "MIL",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "MIL": {
+          "wins": 70,
+          "losses": 12
+        },
+        "MIA": {
+          "wins": 47,
+          "losses": 35
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0",
+      "old_pair": [
+        "MIL",
+        "CHI"
+      ],
+      "old_higher_home": "MIL",
+      "old_winner": "MIL",
+      "old_wins": {
+        "MIL": 4,
+        "CHI": 0
+      },
+      "selected_winner": "MIL",
+      "wins": {
+        "MIL": 4,
+        "MIA": 0
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:E_R1_18:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "MIL",
+          "away": "MIA",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_18:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "MIL",
+          "away": "MIA",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_18:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "MIA",
+          "away": "MIL",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_18:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "MIA",
+          "away": "MIL",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "MIL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL/blocks",
+          "MIA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "9565d0fb93dc737af8d76f43a1e132f1740c8aafebb774ffb97efcf2e241d941",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": false,
+      "changedmatchup_4_0_is_explicit_support_design": true,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:E_R1_45",
+      "conference": "EAST",
+      "round": "R1",
+      "teams": [
+        "BOS",
+        "IND"
+      ],
+      "seeds": {
+        "BOS": 4,
+        "IND": 5
+      },
+      "higher_home": "BOS",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "BOS": {
+          "wins": 58,
+          "losses": 24
+        },
+        "IND": {
+          "wins": 53,
+          "losses": 29
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1",
+      "old_pair": [
+        "BOS",
+        "IND"
+      ],
+      "old_higher_home": "BOS",
+      "old_winner": "BOS",
+      "old_wins": {
+        "BOS": 4,
+        "IND": 3
+      },
+      "selected_winner": "BOS",
+      "wins": {
+        "BOS": 4,
+        "IND": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:E_R1_45:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "BOS",
+          "away": "IND",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "BOS",
+          "away": "IND",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "IND",
+          "away": "BOS",
+          "selected_winner": "IND",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "IND",
+          "away": "BOS",
+          "selected_winner": "IND",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G5",
+          "number": 5,
+          "date": "2023-04-23",
+          "home": "BOS",
+          "away": "IND",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G6",
+          "number": 6,
+          "date": "2023-04-25",
+          "home": "IND",
+          "away": "BOS",
+          "selected_winner": "IND",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_45:G7",
+          "number": 7,
+          "date": "2023-04-27",
+          "home": "BOS",
+          "away": "IND",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/1/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "BOS": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS/blocks",
+          "IND": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/IND/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 23,
+        "resolved_joint_canonical_JSON_SHA256": "13e412d589e9f9c0d24994a2ca5f9707e433b34e83e62e0523826188270aa77f",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:E_R1_27",
+      "conference": "EAST",
+      "round": "R1",
+      "teams": [
+        "BKN",
+        "ATL"
+      ],
+      "seeds": {
+        "BKN": 2,
+        "ATL": 7
+      },
+      "higher_home": "BKN",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "BKN": {
+          "wins": 68,
+          "losses": 14
+        },
+        "ATL": {
+          "wins": 50,
+          "losses": 32
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2",
+      "old_pair": [
+        "BKN",
+        "MIA"
+      ],
+      "old_higher_home": "BKN",
+      "old_winner": "BKN",
+      "old_wins": {
+        "BKN": 4,
+        "MIA": 0
+      },
+      "selected_winner": "BKN",
+      "wins": {
+        "BKN": 4,
+        "ATL": 0
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:E_R1_27:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "BKN",
+          "away": "ATL",
+          "selected_winner": "BKN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_27:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "BKN",
+          "away": "ATL",
+          "selected_winner": "BKN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_27:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "ATL",
+          "away": "BKN",
+          "selected_winner": "BKN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R1_27:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "ATL",
+          "away": "BKN",
+          "selected_winner": "BKN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "BKN": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BKN/blocks",
+          "ATL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 24,
+        "resolved_joint_canonical_JSON_SHA256": "5ea4cec7e48fc875ad721fe858a6743491dadf6812b0fe5ab90768bd76095095",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": false,
+      "changedmatchup_4_0_is_explicit_support_design": true,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:E_R2_TOP",
+      "conference": "EAST",
+      "round": "R2",
+      "teams": [
+        "MIL",
+        "BOS"
+      ],
+      "seeds": {
+        "MIL": 1,
+        "BOS": 4
+      },
+      "higher_home": "MIL",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "MIL": {
+          "wins": 70,
+          "losses": 12
+        },
+        "BOS": {
+          "wins": 58,
+          "losses": 24
+        }
+      },
+      "source_dependencies": [
+        "CURRENT2023:E_R1_18",
+        "CURRENT2023:E_R1_45"
+      ],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4",
+      "old_pair": [
+        "MIL",
+        "BOS"
+      ],
+      "old_higher_home": "MIL",
+      "old_winner": "MIL",
+      "old_wins": {
+        "MIL": 4,
+        "BOS": 3
+      },
+      "selected_winner": "MIL",
+      "wins": {
+        "MIL": 4,
+        "BOS": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:E_R2_TOP:G1",
+          "number": 1,
+          "date": "2023-04-30",
+          "home": "MIL",
+          "away": "BOS",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G2",
+          "number": 2,
+          "date": "2023-05-02",
+          "home": "MIL",
+          "away": "BOS",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G3",
+          "number": 3,
+          "date": "2023-05-04",
+          "home": "BOS",
+          "away": "MIL",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G4",
+          "number": 4,
+          "date": "2023-05-06",
+          "home": "BOS",
+          "away": "MIL",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G5",
+          "number": 5,
+          "date": "2023-05-08",
+          "home": "MIL",
+          "away": "BOS",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G6",
+          "number": 6,
+          "date": "2023-05-10",
+          "home": "BOS",
+          "away": "MIL",
+          "selected_winner": "BOS",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:E_R2_TOP:G7",
+          "number": 7,
+          "date": "2023-05-12",
+          "home": "MIL",
+          "away": "BOS",
+          "selected_winner": "MIL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/4/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "MIL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL/blocks",
+          "BOS": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "6b9c18899a1c2c29cb4db5db9c153e4d8b71ef0b856f827de6fbf8bc7b38c5a6",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R1_18",
+      "conference": "WEST",
+      "round": "R1",
+      "teams": [
+        "UTA",
+        "NOP"
+      ],
+      "seeds": {
+        "UTA": 1,
+        "NOP": 8
+      },
+      "higher_home": "UTA",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "UTA": {
+          "wins": 70,
+          "losses": 12
+        },
+        "NOP": {
+          "wins": 40,
+          "losses": 42
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/7",
+      "old_pair": [
+        "UTA",
+        "NOP"
+      ],
+      "old_higher_home": "UTA",
+      "old_winner": "UTA",
+      "old_wins": {
+        "UTA": 4,
+        "NOP": 0
+      },
+      "selected_winner": "UTA",
+      "wins": {
+        "UTA": 4,
+        "NOP": 0
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R1_18:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "UTA",
+          "away": "NOP",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/7/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_18:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "UTA",
+          "away": "NOP",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/7/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_18:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "NOP",
+          "away": "UTA",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/7/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_18:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "NOP",
+          "away": "UTA",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/7/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "UTA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/blocks",
+          "NOP": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 22,
+        "resolved_joint_canonical_JSON_SHA256": "304289eb341a71d827d106ca451e2c0e544d42f79e4b71f6b43a51c3bd612e72",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R1_45",
+      "conference": "WEST",
+      "round": "R1",
+      "teams": [
+        "PHX",
+        "LAL"
+      ],
+      "seeds": {
+        "PHX": 4,
+        "LAL": 5
+      },
+      "higher_home": "PHX",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "PHX": {
+          "wins": 63,
+          "losses": 19
+        },
+        "LAL": {
+          "wins": 62,
+          "losses": 20
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8",
+      "old_pair": [
+        "LAL",
+        "PHX"
+      ],
+      "old_higher_home": "LAL",
+      "old_winner": "LAL",
+      "old_wins": {
+        "LAL": 4,
+        "PHX": 3
+      },
+      "selected_winner": "LAL",
+      "wins": {
+        "PHX": 3,
+        "LAL": 4
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R1_45:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "PHX",
+          "away": "LAL",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "PHX",
+          "away": "LAL",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "LAL",
+          "away": "PHX",
+          "selected_winner": "PHX",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "LAL",
+          "away": "PHX",
+          "selected_winner": "PHX",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G5",
+          "number": 5,
+          "date": "2023-04-23",
+          "home": "PHX",
+          "away": "LAL",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G6",
+          "number": 6,
+          "date": "2023-04-25",
+          "home": "LAL",
+          "away": "PHX",
+          "selected_winner": "PHX",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_45:G7",
+          "number": 7,
+          "date": "2023-04-27",
+          "home": "PHX",
+          "away": "LAL",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "PHX": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHX/blocks",
+          "LAL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 23,
+        "resolved_joint_canonical_JSON_SHA256": "b38254e80e519a4a1739fa167a12328111cb71e66ab640589ec63bb9ce327d5b",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": true,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R1_27",
+      "conference": "WEST",
+      "round": "R1",
+      "teams": [
+        "LAC",
+        "GSW"
+      ],
+      "seeds": {
+        "LAC": 2,
+        "GSW": 7
+      },
+      "higher_home": "LAC",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "LAC": {
+          "wins": 67,
+          "losses": 15
+        },
+        "GSW": {
+          "wins": 50,
+          "losses": 32
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/9",
+      "old_pair": [
+        "LAC",
+        "GSW"
+      ],
+      "old_higher_home": "LAC",
+      "old_winner": "LAC",
+      "old_wins": {
+        "LAC": 4,
+        "GSW": 0
+      },
+      "selected_winner": "LAC",
+      "wins": {
+        "LAC": 4,
+        "GSW": 0
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R1_27:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "LAC",
+          "away": "GSW",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/9/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_27:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "LAC",
+          "away": "GSW",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/9/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_27:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "GSW",
+          "away": "LAC",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/9/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_27:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "GSW",
+          "away": "LAC",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/9/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "LAC": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/blocks",
+          "GSW": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 21,
+        "resolved_joint_canonical_JSON_SHA256": "3e14b944b46461168086dc9093f27facb3a95d4bebe5e693e551f560c43b1be6",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R1_36",
+      "conference": "WEST",
+      "round": "R1",
+      "teams": [
+        "DEN",
+        "DAL"
+      ],
+      "seeds": {
+        "DEN": 3,
+        "DAL": 6
+      },
+      "higher_home": "DEN",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "DEN": {
+          "wins": 63,
+          "losses": 19
+        },
+        "DAL": {
+          "wins": 51,
+          "losses": 31
+        }
+      },
+      "source_dependencies": [],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10",
+      "old_pair": [
+        "DEN",
+        "DAL"
+      ],
+      "old_higher_home": "DEN",
+      "old_winner": "DEN",
+      "old_wins": {
+        "DEN": 4,
+        "DAL": 3
+      },
+      "selected_winner": "DEN",
+      "wins": {
+        "DEN": 4,
+        "DAL": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R1_36:G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "DEN",
+          "away": "DAL",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "DEN",
+          "away": "DAL",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G3",
+          "number": 3,
+          "date": "2023-04-19",
+          "home": "DAL",
+          "away": "DEN",
+          "selected_winner": "DAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G4",
+          "number": 4,
+          "date": "2023-04-21",
+          "home": "DAL",
+          "away": "DEN",
+          "selected_winner": "DAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G5",
+          "number": 5,
+          "date": "2023-04-23",
+          "home": "DEN",
+          "away": "DAL",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G6",
+          "number": 6,
+          "date": "2023-04-25",
+          "home": "DAL",
+          "away": "DEN",
+          "selected_winner": "DAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R1_36:G7",
+          "number": 7,
+          "date": "2023-04-27",
+          "home": "DEN",
+          "away": "DAL",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/10/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "DEN": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN/blocks",
+          "DAL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DAL/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 24,
+        "resolved_joint_canonical_JSON_SHA256": "d34079c551e6a376742aba368f81e4c95e60dc464e630aeb6d2083f878bfed80",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R2_TOP",
+      "conference": "WEST",
+      "round": "R2",
+      "teams": [
+        "UTA",
+        "LAL"
+      ],
+      "seeds": {
+        "UTA": 1,
+        "LAL": 5
+      },
+      "higher_home": "UTA",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "UTA": {
+          "wins": 70,
+          "losses": 12
+        },
+        "LAL": {
+          "wins": 62,
+          "losses": 20
+        }
+      },
+      "source_dependencies": [
+        "CURRENT2023:W_R1_18",
+        "CURRENT2023:W_R1_45"
+      ],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11",
+      "old_pair": [
+        "UTA",
+        "LAL"
+      ],
+      "old_higher_home": "UTA",
+      "old_winner": "UTA",
+      "old_wins": {
+        "UTA": 4,
+        "LAL": 3
+      },
+      "selected_winner": "UTA",
+      "wins": {
+        "UTA": 4,
+        "LAL": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R2_TOP:G1",
+          "number": 1,
+          "date": "2023-04-30",
+          "home": "UTA",
+          "away": "LAL",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G2",
+          "number": 2,
+          "date": "2023-05-02",
+          "home": "UTA",
+          "away": "LAL",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G3",
+          "number": 3,
+          "date": "2023-05-04",
+          "home": "LAL",
+          "away": "UTA",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G4",
+          "number": 4,
+          "date": "2023-05-06",
+          "home": "LAL",
+          "away": "UTA",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G5",
+          "number": 5,
+          "date": "2023-05-08",
+          "home": "UTA",
+          "away": "LAL",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G6",
+          "number": 6,
+          "date": "2023-05-10",
+          "home": "LAL",
+          "away": "UTA",
+          "selected_winner": "LAL",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_TOP:G7",
+          "number": 7,
+          "date": "2023-05-12",
+          "home": "UTA",
+          "away": "LAL",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/11/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "UTA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/blocks",
+          "LAL": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 23,
+        "resolved_joint_canonical_JSON_SHA256": "753981dcc3d675ae99f8d648747fe178e7d0173dd3a072a3dfacb023bf59bb16",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_R2_BOTTOM",
+      "conference": "WEST",
+      "round": "R2",
+      "teams": [
+        "LAC",
+        "DEN"
+      ],
+      "seeds": {
+        "LAC": 2,
+        "DEN": 3
+      },
+      "higher_home": "LAC",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "LAC": {
+          "wins": 67,
+          "losses": 15
+        },
+        "DEN": {
+          "wins": 63,
+          "losses": 19
+        }
+      },
+      "source_dependencies": [
+        "CURRENT2023:W_R1_27",
+        "CURRENT2023:W_R1_36"
+      ],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12",
+      "old_pair": [
+        "LAC",
+        "DEN"
+      ],
+      "old_higher_home": "LAC",
+      "old_winner": "LAC",
+      "old_wins": {
+        "LAC": 4,
+        "DEN": 3
+      },
+      "selected_winner": "LAC",
+      "wins": {
+        "LAC": 4,
+        "DEN": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G1",
+          "number": 1,
+          "date": "2023-04-30",
+          "home": "LAC",
+          "away": "DEN",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G2",
+          "number": 2,
+          "date": "2023-05-02",
+          "home": "LAC",
+          "away": "DEN",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G3",
+          "number": 3,
+          "date": "2023-05-04",
+          "home": "DEN",
+          "away": "LAC",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G4",
+          "number": 4,
+          "date": "2023-05-06",
+          "home": "DEN",
+          "away": "LAC",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G5",
+          "number": 5,
+          "date": "2023-05-08",
+          "home": "LAC",
+          "away": "DEN",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G6",
+          "number": 6,
+          "date": "2023-05-10",
+          "home": "DEN",
+          "away": "LAC",
+          "selected_winner": "DEN",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_R2_BOTTOM:G7",
+          "number": 7,
+          "date": "2023-05-12",
+          "home": "LAC",
+          "away": "DEN",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/12/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "LAC": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/blocks",
+          "DEN": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 24,
+        "resolved_joint_canonical_JSON_SHA256": "b5dd751cf670266e66506e66991f28b92d3acb746cf8ed76856c350a6950c461",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    },
+    {
+      "id": "CURRENT2023:W_CF",
+      "conference": "WEST",
+      "round": "CF",
+      "teams": [
+        "UTA",
+        "LAC"
+      ],
+      "seeds": {
+        "UTA": 1,
+        "LAC": 2
+      },
+      "higher_home": "UTA",
+      "home_basis": "CurrentB betterconference seed andrecord; 2-2-1-1-1",
+      "records": {
+        "UTA": {
+          "wins": 70,
+          "losses": 12
+        },
+        "LAC": {
+          "wins": 67,
+          "losses": 15
+        }
+      },
+      "source_dependencies": [
+        "CURRENT2023:W_R2_TOP",
+        "CURRENT2023:W_R2_BOTTOM"
+      ],
+      "old_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13",
+      "old_pair": [
+        "UTA",
+        "LAC"
+      ],
+      "old_higher_home": "UTA",
+      "old_winner": "UTA",
+      "old_wins": {
+        "UTA": 4,
+        "LAC": 3
+      },
+      "selected_winner": "UTA",
+      "wins": {
+        "UTA": 4,
+        "LAC": 3
+      },
+      "games": [
+        {
+          "id": "CURRENT2023:W_CF:G1",
+          "number": 1,
+          "date": "2023-05-15",
+          "home": "UTA",
+          "away": "LAC",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/0",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G2",
+          "number": 2,
+          "date": "2023-05-17",
+          "home": "UTA",
+          "away": "LAC",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/1",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G3",
+          "number": 3,
+          "date": "2023-05-19",
+          "home": "LAC",
+          "away": "UTA",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/2",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G4",
+          "number": 4,
+          "date": "2023-05-21",
+          "home": "LAC",
+          "away": "UTA",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/3",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G5",
+          "number": 5,
+          "date": "2023-05-23",
+          "home": "UTA",
+          "away": "LAC",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/4",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G6",
+          "number": 6,
+          "date": "2023-05-25",
+          "home": "LAC",
+          "away": "UTA",
+          "selected_winner": "LAC",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/5",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        },
+        {
+          "id": "CURRENT2023:W_CF:G7",
+          "number": 7,
+          "date": "2023-05-27",
+          "home": "UTA",
+          "away": "LAC",
+          "selected_winner": "UTA",
+          "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/13/games/6",
+          "score": null,
+          "OT": 0,
+          "old_home_margin_not_consumed": true
+        }
+      ],
+      "joint_clock": {
+        "team_blocks_sources": {
+          "UTA": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/blocks",
+          "LAC": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/blocks"
+        },
+        "recipe": "Unionendpoints0..2880; uniquecontainingblockperteam; 5activeSTANDARD unique perteam/10unique actors",
+        "segments": 21,
+        "resolved_joint_canonical_JSON_SHA256": "b92612b8d97d8b399ec977129f3ae6e9a4518e2d08d3d1d8031ae1c103357268",
+        "each_team_player_seconds": 14400,
+        "literal_array_recopy": false
+      },
+      "record_andgamewinner_reuse": true,
+      "changedmatchup_4_0_is_explicit_support_design": false,
+      "home_reversal": false,
+      "proxy_prediction_executed": false,
+      "classification": "DELEGATED_MINIMUM_FICTION_SUPPORT_SELECTED_IN_PREPARATION"
+    }
+  ],
+  "already_selected_4_CHI_series_consumed": [
+    {
+      "id": "CURRENT2023:E_R1_36",
+      "conference": "EAST",
+      "round": "R1",
+      "teams": [
+        "CHI",
+        "PHI"
+      ],
+      "higher_home": "PHI",
+      "selected_winner": "CHI",
+      "wins": {
+        "CHI": 4,
+        "PHI": 3
+      },
+      "source_dependencies": [],
+      "authority": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json#/selected_series/0",
+      "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0",
+      "games": [
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G1",
+          "number": 1,
+          "date": "2023-04-15",
+          "home": "PHI",
+          "away": "CHI",
+          "selected_winner": "PHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/0"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G2",
+          "number": 2,
+          "date": "2023-04-17",
+          "home": "PHI",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/1"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G3",
+          "number": 3,
+          "date": "2023-04-20",
+          "home": "CHI",
+          "away": "PHI",
+          "selected_winner": "PHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/2"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G4",
+          "number": 4,
+          "date": "2023-04-22",
+          "home": "CHI",
+          "away": "PHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/3"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G5",
+          "number": 5,
+          "date": "2023-04-25",
+          "home": "PHI",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/4"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G6",
+          "number": 6,
+          "date": "2023-04-27",
+          "home": "CHI",
+          "away": "PHI",
+          "selected_winner": "PHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/5"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R1_G7",
+          "number": 7,
+          "date": "2023-04-29",
+          "home": "PHI",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/games/6"
+        }
+      ],
+      "joint_clock_source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/0/same_game_joint_clock_template",
+      "existing26CHI_selected_not_reselected": true
+    },
+    {
+      "id": "CURRENT2023:E_R2_BOTTOM",
+      "conference": "EAST",
+      "round": "R2",
+      "teams": [
+        "CHI",
+        "BKN"
+      ],
+      "higher_home": "BKN",
+      "selected_winner": "CHI",
+      "wins": {
+        "CHI": 4,
+        "BKN": 2
+      },
+      "source_dependencies": [
+        "CURRENT2023:E_R1_27",
+        "CURRENT2023:E_R1_36"
+      ],
+      "authority": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json#/selected_series/1",
+      "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1",
+      "games": [
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G1",
+          "number": 1,
+          "date": "2023-05-01",
+          "home": "BKN",
+          "away": "CHI",
+          "selected_winner": "BKN",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/0"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G2",
+          "number": 2,
+          "date": "2023-05-03",
+          "home": "BKN",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/1"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G3",
+          "number": 3,
+          "date": "2023-05-06",
+          "home": "CHI",
+          "away": "BKN",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/2"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G4",
+          "number": 4,
+          "date": "2023-05-08",
+          "home": "CHI",
+          "away": "BKN",
+          "selected_winner": "BKN",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/3"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G5",
+          "number": 5,
+          "date": "2023-05-10",
+          "home": "BKN",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/4"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_R2_G6",
+          "number": 6,
+          "date": "2023-05-12",
+          "home": "CHI",
+          "away": "BKN",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/games/5"
+        }
+      ],
+      "joint_clock_source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/1/same_game_joint_clock_template",
+      "existing26CHI_selected_not_reselected": true
+    },
+    {
+      "id": "CURRENT2023:E_CF",
+      "conference": "EAST",
+      "round": "CF",
+      "teams": [
+        "CHI",
+        "MIL"
+      ],
+      "higher_home": "MIL",
+      "selected_winner": "CHI",
+      "wins": {
+        "CHI": 4,
+        "MIL": 3
+      },
+      "source_dependencies": [
+        "CURRENT2023:E_R2_TOP",
+        "CURRENT2023:E_R2_BOTTOM"
+      ],
+      "authority": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json#/selected_series/2",
+      "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2",
+      "games": [
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G1",
+          "number": 1,
+          "date": "2023-05-14",
+          "home": "MIL",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/0"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G2",
+          "number": 2,
+          "date": "2023-05-16",
+          "home": "MIL",
+          "away": "CHI",
+          "selected_winner": "MIL",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/1"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G3",
+          "number": 3,
+          "date": "2023-05-19",
+          "home": "CHI",
+          "away": "MIL",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/2"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G4",
+          "number": 4,
+          "date": "2023-05-21",
+          "home": "CHI",
+          "away": "MIL",
+          "selected_winner": "MIL",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/3"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G5",
+          "number": 5,
+          "date": "2023-05-23",
+          "home": "MIL",
+          "away": "CHI",
+          "selected_winner": "MIL",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/4"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G6",
+          "number": 6,
+          "date": "2023-05-25",
+          "home": "CHI",
+          "away": "MIL",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/5"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_CF_G7",
+          "number": 7,
+          "date": "2023-05-27",
+          "home": "MIL",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/games/6"
+        }
+      ],
+      "joint_clock_source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/2/same_game_joint_clock_template",
+      "existing26CHI_selected_not_reselected": true
+    },
+    {
+      "id": "CURRENT2023:NBA_F",
+      "conference": "NBA",
+      "round": "F",
+      "teams": [
+        "CHI",
+        "UTA"
+      ],
+      "higher_home": "UTA",
+      "selected_winner": "CHI",
+      "wins": {
+        "CHI": 4,
+        "UTA": 2
+      },
+      "source_dependencies": [
+        "CURRENT2023:E_CF",
+        "CURRENT2023:W_CF"
+      ],
+      "authority": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json#/selected_series/3",
+      "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3",
+      "games": [
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G1",
+          "number": 1,
+          "date": "2023-06-01",
+          "home": "UTA",
+          "away": "CHI",
+          "selected_winner": "UTA",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/0"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G2",
+          "number": 2,
+          "date": "2023-06-04",
+          "home": "UTA",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/1"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G3",
+          "number": 3,
+          "date": "2023-06-07",
+          "home": "CHI",
+          "away": "UTA",
+          "selected_winner": "UTA",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/2"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G4",
+          "number": 4,
+          "date": "2023-06-09",
+          "home": "CHI",
+          "away": "UTA",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/3"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G5",
+          "number": 5,
+          "date": "2023-06-12",
+          "home": "UTA",
+          "away": "CHI",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/4"
+        },
+        {
+          "id": "ALT_REVISED_2023_CHI_F_G6",
+          "number": 6,
+          "date": "2023-06-15",
+          "home": "CHI",
+          "away": "UTA",
+          "selected_winner": "CHI",
+          "source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/games/5"
+        }
+      ],
+      "joint_clock_source": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json#/selected_CHI_series_preparation/3/same_game_joint_clock_template",
+      "existing26CHI_selected_not_reselected": true
+    }
+  ],
+  "same_family_catalog": [
+    {
+      "team": "ATL",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL",
+      "standard_count": 15,
+      "standard_names": [
+        "Bogdan Bogdanovic",
+        "Bruno Fernando",
+        "Cam Reddish",
+        "Clint Capela",
+        "Danilo Gallinari",
+        "De'Andre Hunter",
+        "Jalen Johnson",
+        "John Collins",
+        "Kevin Huerter",
+        "Kris Dunn",
+        "Lou Williams",
+        "Onyeka Okongwu",
+        "Solomon Hill",
+        "Trae Young",
+        "Dalen Terry"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL/blocks",
+      "canonical_blocks_SHA256": "0021975f6bbd60954d35123ad0bb2753f45ba2bbbf262d8ce6a1d9ab0b49ab12",
+      "player_seconds": {
+        "Bogdan Bogdanovic": 1680,
+        "Cam Reddish": 1200,
+        "Clint Capela": 1800,
+        "Dalen Terry": 720,
+        "Danilo Gallinari": 960,
+        "De'Andre Hunter": 1680,
+        "Jalen Johnson": 360,
+        "John Collins": 1800,
+        "Kevin Huerter": 840,
+        "Lou Williams": 720,
+        "Onyeka Okongwu": 600,
+        "Trae Young": 2040
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-21"
+      ],
+      "first_used_game": "2023-04-11",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "BKN",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BKN",
+      "standard_count": 15,
+      "standard_names": [
+        "Alize Johnson",
+        "Blake Griffin",
+        "Bruce Brown",
+        "Cameron Thomas",
+        "DeAndre Jordan",
+        "James Harden",
+        "Jeff Green",
+        "Joe Harris",
+        "Kevin Durant",
+        "Kyrie Irving",
+        "Landry Shamet",
+        "Nicolas Claxton",
+        "Spencer Dinwiddie",
+        "Timothe Luwawu-Cabarrot",
+        "Tyler Johnson"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BKN/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BKN/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BKN/blocks",
+      "canonical_blocks_SHA256": "46fd88875223aed4a51d4de0203f26148cb77f948ee5d6aafaf98c56db2c9fec",
+      "player_seconds": {
+        "Blake Griffin": 1200,
+        "Bruce Brown": 1080,
+        "DeAndre Jordan": 840,
+        "James Harden": 1920,
+        "Jeff Green": 1080,
+        "Joe Harris": 1800,
+        "Kevin Durant": 2040,
+        "Kyrie Irving": 1920,
+        "Landry Shamet": 840,
+        "Nicolas Claxton": 1680
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-12"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "BOS",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS",
+      "standard_count": 15,
+      "standard_names": [
+        "Aaron Nesmith",
+        "Al Horford",
+        "Evan Fournier",
+        "Grant Williams",
+        "Jabari Parker",
+        "Jaylen Brown",
+        "Jayson Tatum",
+        "Marcus Smart",
+        "Moses Brown",
+        "Payton Pritchard",
+        "Robert Williams III",
+        "Romeo Langford",
+        "Semi Ojeleye",
+        "Tristan Thompson",
+        "Christian Koloko"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/BOS/blocks",
+      "canonical_blocks_SHA256": "03e1e2b9e83142636dec5f78f206406864dc7656b5e68f6ba8760f50bc351519",
+      "player_seconds": {
+        "Aaron Nesmith": 600,
+        "Al Horford": 1080,
+        "Christian Koloko": 720,
+        "Evan Fournier": 1320,
+        "Grant Williams": 1200,
+        "Jabari Parker": 240,
+        "Jaylen Brown": 1920,
+        "Jayson Tatum": 2160,
+        "Marcus Smart": 1920,
+        "Payton Pritchard": 960,
+        "Robert Williams III": 1680,
+        "Romeo Langford": 600
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-12"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "DAL",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DAL",
+      "standard_count": 15,
+      "standard_names": [
+        "Boban Marjanovic",
+        "Dorian Finney-Smith",
+        "Dwight Powell",
+        "Jalen Brunson",
+        "Josh Green",
+        "Josh Richardson",
+        "Kristaps Porzingis",
+        "Luka Doncic",
+        "Maxi Kleber",
+        "Nicolo Melli",
+        "R.J. Hampton",
+        "Tim Hardaway Jr.",
+        "Trey Burke",
+        "Willie Cauley-Stein",
+        "Nikola Jovic"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DAL/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DAL/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DAL/blocks",
+      "canonical_blocks_SHA256": "1cbfcd21c258606b2b3e71dc56ca33c917d5e91f828330c7c05dbce6e3fa62fd",
+      "player_seconds": {
+        "Dorian Finney-Smith": 1920,
+        "Dwight Powell": 1320,
+        "Jalen Brunson": 1560,
+        "Josh Green": 480,
+        "Josh Richardson": 1320,
+        "Kristaps Porzingis": 1920,
+        "Luka Doncic": 2040,
+        "Maxi Kleber": 600,
+        "Nikola Jovic": 720,
+        "R.J. Hampton": 360,
+        "Tim Hardaway Jr.": 1800,
+        "Willie Cauley-Stein": 360
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-27"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "DEN",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN",
+      "standard_count": 15,
+      "standard_names": [
+        "Aaron Gordon",
+        "Austin Rivers",
+        "Facundo Campazzo",
+        "Isaiah Hartenstein",
+        "JaMychal Green",
+        "Jamal Murray",
+        "Michael Porter Jr.",
+        "Monte Morris",
+        "Nahshon Hyland",
+        "Nikola Jokic",
+        "PJ Dozier",
+        "Saddiq Bey",
+        "Vlatko Cancar",
+        "Will Barton",
+        "Christian Braun"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/DEN/blocks",
+      "canonical_blocks_SHA256": "83197bbb8eafd567a3662e009e455b6ff8656c9dd6b89b93fac6565685f367ab",
+      "player_seconds": {
+        "Aaron Gordon": 1800,
+        "Austin Rivers": 1080,
+        "Christian Braun": 720,
+        "Facundo Campazzo": 1440,
+        "Isaiah Hartenstein": 720,
+        "JaMychal Green": 840,
+        "Michael Porter Jr.": 1920,
+        "Monte Morris": 1560,
+        "Nikola Jokic": 2040,
+        "PJ Dozier": 240,
+        "Saddiq Bey": 240,
+        "Will Barton": 1800
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-12"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "GSW",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW",
+      "standard_count": 15,
+      "standard_names": [
+        "Andrew Wiggins",
+        "Damion Lee",
+        "Draymond Green",
+        "Eric Paschall",
+        "Franz Wagner",
+        "Gary Payton II",
+        "James Bouknight",
+        "James Wiseman",
+        "Jordan Poole",
+        "Juan Toscano-Anderson",
+        "Kelly Oubre Jr.",
+        "Kevon Looney",
+        "Klay Thompson",
+        "Stephen Curry",
+        "Malaki Branham"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/GSW/blocks",
+      "canonical_blocks_SHA256": "1794d82605c48646c3088184105955942aac40a67d0b713c9c2bb73b8b591c27",
+      "player_seconds": {
+        "Andrew Wiggins": 1920,
+        "Damion Lee": 480,
+        "Draymond Green": 1920,
+        "Franz Wagner": 720,
+        "Gary Payton II": 240,
+        "Jordan Poole": 1560,
+        "Juan Toscano-Anderson": 960,
+        "Kelly Oubre Jr.": 1200,
+        "Kevon Looney": 1440,
+        "Klay Thompson": 1200,
+        "Malaki Branham": 720,
+        "Stephen Curry": 2040
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-21"
+      ],
+      "first_used_game": "2023-04-11",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "IND",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/IND",
+      "standard_count": 15,
+      "standard_names": [
+        "Caris LeVert",
+        "Domantas Sabonis",
+        "Doug McDermott",
+        "Edmond Sumner",
+        "Goga Bitadze",
+        "Jeremy Lamb",
+        "Justin Holiday",
+        "Kelan Martin",
+        "Malcolm Brogdon",
+        "Myles Turner",
+        "Oshae Brissett",
+        "T.J. McConnell",
+        "T.J. Warren",
+        "Trey Murphy",
+        "Johnny Davis"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/IND/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/IND/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/IND/blocks",
+      "canonical_blocks_SHA256": "fee2ab6ee4c9e9f1fe5e4e3ad4d15046dc5ac1fa73b9f1fcd850fab6dc3d71e8",
+      "player_seconds": {
+        "Caris LeVert": 1920,
+        "Domantas Sabonis": 2040,
+        "Doug McDermott": 1320,
+        "Goga Bitadze": 840,
+        "Jeremy Lamb": 720,
+        "Johnny Davis": 720,
+        "Justin Holiday": 1560,
+        "Malcolm Brogdon": 1800,
+        "Myles Turner": 1800,
+        "Oshae Brissett": 360,
+        "T.J. McConnell": 1320
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-27"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "LAC",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC",
+      "standard_count": 15,
+      "standard_names": [
+        "Daniel Oturu",
+        "DeMarcus Cousins",
+        "Ivica Zubac",
+        "Kawhi Leonard",
+        "Keon Johnson",
+        "Luke Kennard",
+        "Marcus Morris Sr.",
+        "Nicolas Batum",
+        "Patrick Beverley",
+        "Patrick Patterson",
+        "Paul George",
+        "Rajon Rondo",
+        "Reggie Jackson",
+        "Serge Ibaka",
+        "Terance Mann"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAC/blocks",
+      "canonical_blocks_SHA256": "ca115e222ac4dc85173eabf059e1a263fc4ddb5c0e1f5b2d9658c6c20a40b931",
+      "player_seconds": {
+        "Ivica Zubac": 1560,
+        "Kawhi Leonard": 2040,
+        "Luke Kennard": 1200,
+        "Marcus Morris Sr.": 1680,
+        "Nicolas Batum": 960,
+        "Patrick Beverley": 1080,
+        "Paul George": 2040,
+        "Rajon Rondo": 720,
+        "Reggie Jackson": 1680,
+        "Serge Ibaka": 600,
+        "Terance Mann": 840
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-27"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "LAL",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL",
+      "standard_count": 14,
+      "standard_names": [
+        "Alfonzo McKinnie",
+        "Andre Drummond",
+        "Anthony Davis",
+        "Ben McLemore",
+        "Dennis Schroder",
+        "Jared Butler",
+        "Jared Dudley",
+        "Kentavious Caldwell-Pope",
+        "Kyle Kuzma",
+        "LeBron James",
+        "Marc Gasol",
+        "Montrezl Harrell",
+        "Talen Horton-Tucker",
+        "Wesley Matthews"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/LAL/blocks",
+      "canonical_blocks_SHA256": "f1877fb4ee0e99ece6e5f2c83c44c997f00b9f283ea24ff84bd0c4ad7e0132f9",
+      "player_seconds": {
+        "Andre Drummond": 840,
+        "Anthony Davis": 2040,
+        "Dennis Schroder": 1800,
+        "Kentavious Caldwell-Pope": 1680,
+        "Kyle Kuzma": 2040,
+        "LeBron James": 2040,
+        "Marc Gasol": 840,
+        "Montrezl Harrell": 1200,
+        "Talen Horton-Tucker": 1200,
+        "Wesley Matthews": 720
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-12"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "MIA",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA",
+      "standard_count": 15,
+      "standard_names": [
+        "Bam Adebayo",
+        "Dewayne Dedmon",
+        "Duncan Robinson",
+        "Gabe Vincent",
+        "Jimmy Butler",
+        "KZ Okpala",
+        "Kyle Lowry",
+        "Markieff Morris",
+        "Max Strus",
+        "Omer Yurtseven",
+        "P.J. Tucker",
+        "Tyler Herro",
+        "Udonis Haslem",
+        "Victor Oladipo",
+        "Jake LaRavia"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIA/blocks",
+      "canonical_blocks_SHA256": "d39c186306be5238f08c65f9f3e82656974439f6bddc7dc64fb75c6b634d8ca5",
+      "player_seconds": {
+        "Bam Adebayo": 2040,
+        "Dewayne Dedmon": 840,
+        "Duncan Robinson": 1560,
+        "Gabe Vincent": 1080,
+        "Jake LaRavia": 720,
+        "Jimmy Butler": 2040,
+        "Kyle Lowry": 1800,
+        "Markieff Morris": 120,
+        "Max Strus": 840,
+        "P.J. Tucker": 1560,
+        "Tyler Herro": 1800
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-21"
+      ],
+      "first_used_game": "2023-04-11",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "MIL",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL",
+      "standard_count": 15,
+      "standard_names": [
+        "Bobby Portis",
+        "Brook Lopez",
+        "Bryn Forbes",
+        "Donte DiVincenzo",
+        "Elijah Bryant",
+        "Giannis Antetokounmpo",
+        "Jeff Teague",
+        "Jordan Nwora",
+        "Jrue Holiday",
+        "Kai Jones",
+        "Khris Middleton",
+        "Pat Connaughton",
+        "Sam Merrill",
+        "Thanasis Antetokounmpo",
+        "Peyton Watson"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/MIL/blocks",
+      "canonical_blocks_SHA256": "798f71e66811bf131187acfebd48c302e4b3d515769ba84c498af0a2542078b2",
+      "player_seconds": {
+        "Bobby Portis": 1200,
+        "Brook Lopez": 1560,
+        "Bryn Forbes": 840,
+        "Donte DiVincenzo": 1560,
+        "Giannis Antetokounmpo": 2040,
+        "Jeff Teague": 600,
+        "Jordan Nwora": 600,
+        "Jrue Holiday": 1920,
+        "Khris Middleton": 1920,
+        "Pat Connaughton": 1080,
+        "Peyton Watson": 720,
+        "Thanasis Antetokounmpo": 360
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-05-27"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "NOP",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP",
+      "standard_count": 15,
+      "standard_names": [
+        "Brandon Ingram",
+        "Eric Bledsoe",
+        "Jaxson Hayes",
+        "Josh Hart",
+        "Killian Hayes",
+        "Lonzo Ball",
+        "Moses Moody",
+        "Naji Marshall",
+        "Nickeil Alexander-Walker",
+        "Steven Adams",
+        "Wenyen Gabriel",
+        "Willy Hernangomez",
+        "Zion Williamson",
+        "Jalen Duren",
+        "MarJon Beauchamp"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/NOP/blocks",
+      "canonical_blocks_SHA256": "2ef23e88d357002ba5f64efb16b7a4827fe7e49aecde2ec31f0a88e74b413b23",
+      "player_seconds": {
+        "Brandon Ingram": 2040,
+        "Eric Bledsoe": 1320,
+        "Jalen Duren": 720,
+        "Jaxson Hayes": 480,
+        "Josh Hart": 1560,
+        "Killian Hayes": 600,
+        "Lonzo Ball": 1920,
+        "MarJon Beauchamp": 720,
+        "Nickeil Alexander-Walker": 1200,
+        "Steven Adams": 1680,
+        "Willy Hernangomez": 480,
+        "Zion Williamson": 1680
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-21"
+      ],
+      "first_used_game": "2023-04-11",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "NYK",
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/NYK",
+      "standard_count": 15,
+      "standard_names": [
+        "Alec Burks",
+        "Ayo Dosunmu",
+        "Derrick Rose",
+        "Elfrid Payton",
+        "Immanuel Quickley",
+        "Julius Randle",
+        "Kevin Knox II",
+        "Mitchell Robinson",
+        "Nerlens Noel",
+        "Obi Toppin",
+        "Quentin Grimes",
+        "RJ Barrett",
+        "Reggie Bullock",
+        "Taj Gibson",
+        "Mark Williams"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/NYK/active",
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/NYK/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/NYK/blocks",
+      "canonical_blocks_SHA256": "221eb3a4f5167da3f16b7f87cd5dc73508bed10495fdb4ffe52339d60dcb5c61",
+      "player_seconds": {
+        "Elfrid Payton": 1200,
+        "RJ Barrett": 1920,
+        "Reggie Bullock": 1560,
+        "Julius Randle": 2040,
+        "Mitchell Robinson": 1680,
+        "Derrick Rose": 1440,
+        "Immanuel Quickley": 1320,
+        "Alec Burks": 1200,
+        "Mark Williams": 720,
+        "Obi Toppin": 840,
+        "Nerlens Noel": 480
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-12"
+      ],
+      "first_used_game": "2023-04-12",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "PHI",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHI",
+      "standard_count": 15,
+      "standard_names": [
+        "Ben Simmons",
+        "Danny Green",
+        "Dwight Howard",
+        "Furkan Korkmaz",
+        "Isaiah Joe",
+        "Jaden Springer",
+        "Joel Embiid",
+        "Matisse Thybulle",
+        "Mike Scott",
+        "Paul Reed",
+        "Seth Curry",
+        "Shake Milton",
+        "Tobias Harris",
+        "Tyrese Maxey",
+        "Blake Wesley"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHI/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHI/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHI/blocks",
+      "canonical_blocks_SHA256": "7c169a5f61bf507cb7f316713ecdbac4f31669ddd8fc516d32235e93c615d7e4",
+      "player_seconds": {
+        "Ben Simmons": 1920,
+        "Blake Wesley": 720,
+        "Danny Green": 1440,
+        "Dwight Howard": 840,
+        "Furkan Korkmaz": 840,
+        "Joel Embiid": 2040,
+        "Matisse Thybulle": 960,
+        "Mike Scott": 240,
+        "Seth Curry": 1800,
+        "Shake Milton": 720,
+        "Tobias Harris": 1920,
+        "Tyrese Maxey": 960
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-29"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "PHX",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHX",
+      "standard_count": 15,
+      "standard_names": [
+        "Abdel Nader",
+        "Cameron Johnson",
+        "Cameron Payne",
+        "Chris Paul",
+        "Dario Saric",
+        "Deandre Ayton",
+        "Devin Booker",
+        "E'Twaun Moore",
+        "Frank Kaminsky",
+        "Isaiah Jackson",
+        "Jae Crowder",
+        "Jalen Smith",
+        "Jevon Carter",
+        "Mikal Bridges",
+        "Torrey Craig"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHX/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHX/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/PHX/blocks",
+      "canonical_blocks_SHA256": "93c92a19e6ce7a29a89ebb499b35266082110dd691afbe7be28ef88e34bf6c72",
+      "player_seconds": {
+        "Abdel Nader": 720,
+        "Cameron Johnson": 1200,
+        "Cameron Payne": 1200,
+        "Chris Paul": 1920,
+        "Dario Saric": 840,
+        "Deandre Ayton": 1920,
+        "Devin Booker": 2160,
+        "E'Twaun Moore": 240,
+        "Frank Kaminsky": 120,
+        "Jae Crowder": 1680,
+        "Jevon Carter": 480,
+        "Mikal Bridges": 1920
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-27"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "POR",
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR",
+      "standard_count": 15,
+      "standard_names": [
+        "Anfernee Simons",
+        "CJ Elleby",
+        "CJ McCollum",
+        "Carmelo Anthony",
+        "Damian Lillard",
+        "Derrick Jones Jr.",
+        "Enes Kanter",
+        "Jacob Evans",
+        "Jusuf Nurkic",
+        "Nassir Little",
+        "Robert Covington",
+        "Rodney Hood",
+        "Rondae Hollis-Jefferson",
+        "Zach Collins",
+        "A.J. Griffin"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR/active",
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/POR/blocks",
+      "canonical_blocks_SHA256": "a3ce2ebd4bbf1b0e915cb7aeabe47f6387a1e70b81d294218f776c935192e7f8",
+      "player_seconds": {
+        "Damian Lillard": 2040,
+        "CJ McCollum": 2040,
+        "Derrick Jones Jr.": 1320,
+        "Robert Covington": 1800,
+        "Jusuf Nurkic": 1800,
+        "Carmelo Anthony": 1200,
+        "A.J. Griffin": 720,
+        "Enes Kanter": 960,
+        "Anfernee Simons": 1200,
+        "Rodney Hood": 960,
+        "Jacob Evans": 360
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-14"
+      ],
+      "first_used_game": "2023-04-12",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "SAS",
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/SAS",
+      "standard_count": 15,
+      "standard_names": [
+        "DeMar DeRozan",
+        "Dejounte Murray",
+        "Derrick White",
+        "Devin Vassell",
+        "Drew Eubanks",
+        "Gorgui Dieng",
+        "Jakob Poeltl",
+        "Joshua Primo",
+        "Keldon Johnson",
+        "Lonnie Walker IV",
+        "Luka Samanic",
+        "Patty Mills",
+        "Rudy Gay",
+        "Tre Jones",
+        "Ousmane Dieng"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/SAS/active",
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/SAS/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/4/team_models/SAS/blocks",
+      "canonical_blocks_SHA256": "94e97311625871100dac32c3ad729ad8f99d402cbe8f183a70469823a4455cc2",
+      "player_seconds": {
+        "Dejounte Murray": 1920,
+        "Derrick White": 1920,
+        "DeMar DeRozan": 2040,
+        "Keldon Johnson": 1800,
+        "Jakob Poeltl": 1800,
+        "Lonnie Walker IV": 1200,
+        "Ousmane Dieng": 720,
+        "Drew Eubanks": 840,
+        "Rudy Gay": 720,
+        "Tre Jones": 480,
+        "Devin Vassell": 480,
+        "Gorgui Dieng": 240,
+        "Patty Mills": 240
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-12"
+      ],
+      "first_used_game": "2023-04-12",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "TOR",
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR",
+      "standard_count": 15,
+      "standard_names": [
+        "Aron Baynes",
+        "Chris Boucher",
+        "Dalano Banton",
+        "Fred VanVleet",
+        "Goran Dragic",
+        "Josh Giddey",
+        "Khem Birch",
+        "Malachi Flynn",
+        "Norman Powell",
+        "OG Anunoby",
+        "Pascal Siakam",
+        "Precious Achiuwa",
+        "Svi Mykhailiuk",
+        "Yuta Watanabe",
+        "Ochai Agbaji"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR/active",
+        "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/1/team_models/TOR/blocks",
+      "canonical_blocks_SHA256": "f569dcc45162cee65e53f391c0d150596fee52798d6c7e713c7cd22544477506",
+      "player_seconds": {
+        "Fred VanVleet": 1920,
+        "Norman Powell": 1920,
+        "Ochai Agbaji": 720,
+        "Pascal Siakam": 1920,
+        "Khem Birch": 1440,
+        "OG Anunoby": 2160,
+        "Josh Giddey": 720,
+        "Precious Achiuwa": 960,
+        "Goran Dragic": 720,
+        "Chris Boucher": 1200,
+        "Svi Mykhailiuk": 480,
+        "Yuta Watanabe": 240
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-04-14"
+      ],
+      "first_used_game": "2023-04-12",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    },
+    {
+      "team": "UTA",
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA",
+      "standard_count": 15,
+      "standard_names": [
+        "Bojan Bogdanovic",
+        "Derrick Favors",
+        "Donovan Mitchell",
+        "Elijah Hughes",
+        "Ersan Ilyasova",
+        "Georges Niang",
+        "JT Thor",
+        "Joe Ingles",
+        "Jordan Clarkson",
+        "Juwan Morgan",
+        "Mike Conley",
+        "Miye Oni",
+        "Royce O'Neale",
+        "Rudy Gobert",
+        "Udoka Azubuike"
+      ],
+      "active_andinactive_sources": [
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/active",
+        "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/inactive"
+      ],
+      "blocks_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/UTA/blocks",
+      "canonical_blocks_SHA256": "219cdfb7482d9d2e020e2811af5a65670438c5c222a3c6f50df63a54da1b35d6",
+      "player_seconds": {
+        "Bojan Bogdanovic": 1920,
+        "Derrick Favors": 840,
+        "Donovan Mitchell": 2040,
+        "Ersan Ilyasova": 240,
+        "Georges Niang": 840,
+        "Joe Ingles": 1440,
+        "Jordan Clarkson": 1560,
+        "Mike Conley": 1800,
+        "Royce O'Neale": 1800,
+        "Rudy Gobert": 1920
+      },
+      "total_player_seconds": 14400,
+      "TW_positive_seconds": 0,
+      "current_selected_continuity_interval": [
+        "2023-04-10",
+        "2023-06-15"
+      ],
+      "first_used_game": "2023-04-15",
+      "sameUPC_owner_Gamma_preserved": true,
+      "new_transactions_UPC_waivers": false,
+      "actual_private_event_absence_medical_certified": false
+    }
+  ],
+  "ATL_playin_entry_bridge": {
+    "Apr9_regular_source": "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json#/shared_team_templates/ATL",
+    "oldPO_source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/postseason_team_templates/ATL",
+    "standard_blocks_identical": true,
+    "explicit_current_sameUPC_Gamma_interval": [
+      "2023-04-10",
+      "2023-04-21"
+    ],
+    "oldPO_Apr15_interval_alone_provesApr11": false,
+    "DalenTerry_Huerter720second_rolecost_preserved": true,
+    "newUPC_orretrocontract": false
+  },
+  "used_calendar_with_actual_date_rest": [
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:E78",
+      "date": "2023-04-11",
+      "home": "ATL",
+      "away": "MIA",
+      "rest": {
+        "ATL": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIA": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:W78",
+      "date": "2023-04-11",
+      "home": "GSW",
+      "away": "NOP",
+      "rest": {
+        "GSW": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "NOP": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:E910",
+      "date": "2023-04-12",
+      "home": "TOR",
+      "away": "NYK",
+      "rest": {
+        "TOR": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "NYK": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:W910",
+      "date": "2023-04-12",
+      "home": "POR",
+      "away": "SAS",
+      "rest": {
+        "POR": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "SAS": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:E8FINAL",
+      "date": "2023-04-14",
+      "home": "MIA",
+      "away": "TOR",
+      "rest": {
+        "MIA": {
+          "previous_game_date": "2023-04-11",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "TOR": {
+          "previous_game_date": "2023-04-12",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "PLAYIN",
+      "id": "CURRENT2023:W8FINAL",
+      "date": "2023-04-14",
+      "home": "NOP",
+      "away": "POR",
+      "rest": {
+        "NOP": {
+          "previous_game_date": "2023-04-11",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "POR": {
+          "previous_game_date": "2023-04-12",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G1",
+      "date": "2023-04-15",
+      "home": "PHI",
+      "away": "CHI",
+      "rest": {
+        "PHI": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_18",
+      "id": "CURRENT2023:E_R1_18:G1",
+      "date": "2023-04-15",
+      "home": "MIL",
+      "away": "MIA",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "MIA": {
+          "previous_game_date": "2023-04-14",
+          "date_gap_days": 1,
+          "full_calendar_days_off": 0,
+          "calendar_B2B": true
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_27",
+      "id": "CURRENT2023:E_R1_27:G1",
+      "date": "2023-04-15",
+      "home": "BKN",
+      "away": "ATL",
+      "rest": {
+        "BKN": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "ATL": {
+          "previous_game_date": "2023-04-11",
+          "date_gap_days": 4,
+          "full_calendar_days_off": 3,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G1",
+      "date": "2023-04-15",
+      "home": "BOS",
+      "away": "IND",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "IND": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_18",
+      "id": "CURRENT2023:W_R1_18:G1",
+      "date": "2023-04-15",
+      "home": "UTA",
+      "away": "NOP",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "NOP": {
+          "previous_game_date": "2023-04-14",
+          "date_gap_days": 1,
+          "full_calendar_days_off": 0,
+          "calendar_B2B": true
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_27",
+      "id": "CURRENT2023:W_R1_27:G1",
+      "date": "2023-04-15",
+      "home": "LAC",
+      "away": "GSW",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "GSW": {
+          "previous_game_date": "2023-04-11",
+          "date_gap_days": 4,
+          "full_calendar_days_off": 3,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G1",
+      "date": "2023-04-15",
+      "home": "DEN",
+      "away": "DAL",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "DAL": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G1",
+      "date": "2023-04-15",
+      "home": "PHX",
+      "away": "LAL",
+      "rest": {
+        "PHX": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-09",
+          "date_gap_days": 6,
+          "full_calendar_days_off": 5,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G2",
+      "date": "2023-04-17",
+      "home": "PHI",
+      "away": "CHI",
+      "rest": {
+        "PHI": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_18",
+      "id": "CURRENT2023:E_R1_18:G2",
+      "date": "2023-04-17",
+      "home": "MIL",
+      "away": "MIA",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIA": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_27",
+      "id": "CURRENT2023:E_R1_27:G2",
+      "date": "2023-04-17",
+      "home": "BKN",
+      "away": "ATL",
+      "rest": {
+        "BKN": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "ATL": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G2",
+      "date": "2023-04-17",
+      "home": "BOS",
+      "away": "IND",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "IND": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_18",
+      "id": "CURRENT2023:W_R1_18:G2",
+      "date": "2023-04-17",
+      "home": "UTA",
+      "away": "NOP",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "NOP": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_27",
+      "id": "CURRENT2023:W_R1_27:G2",
+      "date": "2023-04-17",
+      "home": "LAC",
+      "away": "GSW",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "GSW": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G2",
+      "date": "2023-04-17",
+      "home": "DEN",
+      "away": "DAL",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DAL": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G2",
+      "date": "2023-04-17",
+      "home": "PHX",
+      "away": "LAL",
+      "rest": {
+        "PHX": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_18",
+      "id": "CURRENT2023:E_R1_18:G3",
+      "date": "2023-04-19",
+      "home": "MIA",
+      "away": "MIL",
+      "rest": {
+        "MIA": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_27",
+      "id": "CURRENT2023:E_R1_27:G3",
+      "date": "2023-04-19",
+      "home": "ATL",
+      "away": "BKN",
+      "rest": {
+        "ATL": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BKN": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G3",
+      "date": "2023-04-19",
+      "home": "IND",
+      "away": "BOS",
+      "rest": {
+        "IND": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_18",
+      "id": "CURRENT2023:W_R1_18:G3",
+      "date": "2023-04-19",
+      "home": "NOP",
+      "away": "UTA",
+      "rest": {
+        "NOP": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_27",
+      "id": "CURRENT2023:W_R1_27:G3",
+      "date": "2023-04-19",
+      "home": "GSW",
+      "away": "LAC",
+      "rest": {
+        "GSW": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G3",
+      "date": "2023-04-19",
+      "home": "DAL",
+      "away": "DEN",
+      "rest": {
+        "DAL": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G3",
+      "date": "2023-04-19",
+      "home": "LAL",
+      "away": "PHX",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "PHX": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G3",
+      "date": "2023-04-20",
+      "home": "CHI",
+      "away": "PHI",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "PHI": {
+          "previous_game_date": "2023-04-17",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_18",
+      "id": "CURRENT2023:E_R1_18:G4",
+      "date": "2023-04-21",
+      "home": "MIA",
+      "away": "MIL",
+      "rest": {
+        "MIA": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_27",
+      "id": "CURRENT2023:E_R1_27:G4",
+      "date": "2023-04-21",
+      "home": "ATL",
+      "away": "BKN",
+      "rest": {
+        "ATL": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BKN": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G4",
+      "date": "2023-04-21",
+      "home": "IND",
+      "away": "BOS",
+      "rest": {
+        "IND": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_18",
+      "id": "CURRENT2023:W_R1_18:G4",
+      "date": "2023-04-21",
+      "home": "NOP",
+      "away": "UTA",
+      "rest": {
+        "NOP": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_27",
+      "id": "CURRENT2023:W_R1_27:G4",
+      "date": "2023-04-21",
+      "home": "GSW",
+      "away": "LAC",
+      "rest": {
+        "GSW": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G4",
+      "date": "2023-04-21",
+      "home": "DAL",
+      "away": "DEN",
+      "rest": {
+        "DAL": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G4",
+      "date": "2023-04-21",
+      "home": "LAL",
+      "away": "PHX",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "PHX": {
+          "previous_game_date": "2023-04-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G4",
+      "date": "2023-04-22",
+      "home": "CHI",
+      "away": "PHI",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-04-20",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "PHI": {
+          "previous_game_date": "2023-04-20",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G5",
+      "date": "2023-04-23",
+      "home": "BOS",
+      "away": "IND",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "IND": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G5",
+      "date": "2023-04-23",
+      "home": "DEN",
+      "away": "DAL",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DAL": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G5",
+      "date": "2023-04-23",
+      "home": "PHX",
+      "away": "LAL",
+      "rest": {
+        "PHX": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G5",
+      "date": "2023-04-25",
+      "home": "PHI",
+      "away": "CHI",
+      "rest": {
+        "PHI": {
+          "previous_game_date": "2023-04-22",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-04-22",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G6",
+      "date": "2023-04-25",
+      "home": "IND",
+      "away": "BOS",
+      "rest": {
+        "IND": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G6",
+      "date": "2023-04-25",
+      "home": "DAL",
+      "away": "DEN",
+      "rest": {
+        "DAL": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G6",
+      "date": "2023-04-25",
+      "home": "LAL",
+      "away": "PHX",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "PHX": {
+          "previous_game_date": "2023-04-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G6",
+      "date": "2023-04-27",
+      "home": "CHI",
+      "away": "PHI",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "PHI": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_45",
+      "id": "CURRENT2023:E_R1_45:G7",
+      "date": "2023-04-27",
+      "home": "BOS",
+      "away": "IND",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "IND": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_36",
+      "id": "CURRENT2023:W_R1_36:G7",
+      "date": "2023-04-27",
+      "home": "DEN",
+      "away": "DAL",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DAL": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:W_R1_45",
+      "id": "CURRENT2023:W_R1_45:G7",
+      "date": "2023-04-27",
+      "home": "PHX",
+      "away": "LAL",
+      "rest": {
+        "PHX": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R1",
+      "series_id": "CURRENT2023:E_R1_36",
+      "id": "ALT_REVISED_2023_CHI_R1_G7",
+      "date": "2023-04-29",
+      "home": "PHI",
+      "away": "CHI",
+      "rest": {
+        "PHI": {
+          "previous_game_date": "2023-04-27",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-04-27",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G1",
+      "date": "2023-04-30",
+      "home": "MIL",
+      "away": "BOS",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 9,
+          "full_calendar_days_off": 8,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-04-27",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G1",
+      "date": "2023-04-30",
+      "home": "LAC",
+      "away": "DEN",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 9,
+          "full_calendar_days_off": 8,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-04-27",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G1",
+      "date": "2023-04-30",
+      "home": "UTA",
+      "away": "LAL",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 9,
+          "full_calendar_days_off": 8,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-27",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G1",
+      "date": "2023-05-01",
+      "home": "BKN",
+      "away": "CHI",
+      "rest": {
+        "BKN": {
+          "previous_game_date": "2023-04-21",
+          "date_gap_days": 10,
+          "full_calendar_days_off": 9,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-04-29",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G2",
+      "date": "2023-05-02",
+      "home": "MIL",
+      "away": "BOS",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G2",
+      "date": "2023-05-02",
+      "home": "LAC",
+      "away": "DEN",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G2",
+      "date": "2023-05-02",
+      "home": "UTA",
+      "away": "LAL",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-04-30",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G2",
+      "date": "2023-05-03",
+      "home": "BKN",
+      "away": "CHI",
+      "rest": {
+        "BKN": {
+          "previous_game_date": "2023-05-01",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-01",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G3",
+      "date": "2023-05-04",
+      "home": "BOS",
+      "away": "MIL",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G3",
+      "date": "2023-05-04",
+      "home": "DEN",
+      "away": "LAC",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G3",
+      "date": "2023-05-04",
+      "home": "LAL",
+      "away": "UTA",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-02",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G3",
+      "date": "2023-05-06",
+      "home": "CHI",
+      "away": "BKN",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-03",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "BKN": {
+          "previous_game_date": "2023-05-03",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G4",
+      "date": "2023-05-06",
+      "home": "BOS",
+      "away": "MIL",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G4",
+      "date": "2023-05-06",
+      "home": "DEN",
+      "away": "LAC",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G4",
+      "date": "2023-05-06",
+      "home": "LAL",
+      "away": "UTA",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-04",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G4",
+      "date": "2023-05-08",
+      "home": "CHI",
+      "away": "BKN",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BKN": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G5",
+      "date": "2023-05-08",
+      "home": "MIL",
+      "away": "BOS",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G5",
+      "date": "2023-05-08",
+      "home": "LAC",
+      "away": "DEN",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G5",
+      "date": "2023-05-08",
+      "home": "UTA",
+      "away": "LAL",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-05-06",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G5",
+      "date": "2023-05-10",
+      "home": "BKN",
+      "away": "CHI",
+      "rest": {
+        "BKN": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G6",
+      "date": "2023-05-10",
+      "home": "BOS",
+      "away": "MIL",
+      "rest": {
+        "BOS": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G6",
+      "date": "2023-05-10",
+      "home": "DEN",
+      "away": "LAC",
+      "rest": {
+        "DEN": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G6",
+      "date": "2023-05-10",
+      "home": "LAL",
+      "away": "UTA",
+      "rest": {
+        "LAL": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-08",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_BOTTOM",
+      "id": "ALT_REVISED_2023_CHI_R2_G6",
+      "date": "2023-05-12",
+      "home": "CHI",
+      "away": "BKN",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BKN": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:E_R2_TOP",
+      "id": "CURRENT2023:E_R2_TOP:G7",
+      "date": "2023-05-12",
+      "home": "MIL",
+      "away": "BOS",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "BOS": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_BOTTOM",
+      "id": "CURRENT2023:W_R2_BOTTOM:G7",
+      "date": "2023-05-12",
+      "home": "LAC",
+      "away": "DEN",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "DEN": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "R2",
+      "series_id": "CURRENT2023:W_R2_TOP",
+      "id": "CURRENT2023:W_R2_TOP:G7",
+      "date": "2023-05-12",
+      "home": "UTA",
+      "away": "LAL",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAL": {
+          "previous_game_date": "2023-05-10",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G1",
+      "date": "2023-05-14",
+      "home": "MIL",
+      "away": "CHI",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-12",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-12",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G1",
+      "date": "2023-05-15",
+      "home": "UTA",
+      "away": "LAC",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-12",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-12",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G2",
+      "date": "2023-05-16",
+      "home": "MIL",
+      "away": "CHI",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-14",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-14",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G2",
+      "date": "2023-05-17",
+      "home": "UTA",
+      "away": "LAC",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-15",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G3",
+      "date": "2023-05-19",
+      "home": "CHI",
+      "away": "MIL",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-16",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-16",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G3",
+      "date": "2023-05-19",
+      "home": "LAC",
+      "away": "UTA",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-05-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-17",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G4",
+      "date": "2023-05-21",
+      "home": "CHI",
+      "away": "MIL",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G4",
+      "date": "2023-05-21",
+      "home": "LAC",
+      "away": "UTA",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-05-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-19",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G5",
+      "date": "2023-05-23",
+      "home": "MIL",
+      "away": "CHI",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G5",
+      "date": "2023-05-23",
+      "home": "UTA",
+      "away": "LAC",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-21",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G6",
+      "date": "2023-05-25",
+      "home": "CHI",
+      "away": "MIL",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-05-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "MIL": {
+          "previous_game_date": "2023-05-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G6",
+      "date": "2023-05-25",
+      "home": "LAC",
+      "away": "UTA",
+      "rest": {
+        "LAC": {
+          "previous_game_date": "2023-05-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-05-23",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:E_CF",
+      "id": "ALT_REVISED_2023_CHI_CF_G7",
+      "date": "2023-05-27",
+      "home": "MIL",
+      "away": "CHI",
+      "rest": {
+        "MIL": {
+          "previous_game_date": "2023-05-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "CF",
+      "series_id": "CURRENT2023:W_CF",
+      "id": "CURRENT2023:W_CF:G7",
+      "date": "2023-05-27",
+      "home": "UTA",
+      "away": "LAC",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "LAC": {
+          "previous_game_date": "2023-05-25",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G1",
+      "date": "2023-06-01",
+      "home": "UTA",
+      "away": "CHI",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-05-27",
+          "date_gap_days": 5,
+          "full_calendar_days_off": 4,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-05-27",
+          "date_gap_days": 5,
+          "full_calendar_days_off": 4,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G2",
+      "date": "2023-06-04",
+      "home": "UTA",
+      "away": "CHI",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-06-01",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-06-01",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G3",
+      "date": "2023-06-07",
+      "home": "CHI",
+      "away": "UTA",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-06-04",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-06-04",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G4",
+      "date": "2023-06-09",
+      "home": "CHI",
+      "away": "UTA",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-06-07",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-06-07",
+          "date_gap_days": 2,
+          "full_calendar_days_off": 1,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G5",
+      "date": "2023-06-12",
+      "home": "UTA",
+      "away": "CHI",
+      "rest": {
+        "UTA": {
+          "previous_game_date": "2023-06-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "CHI": {
+          "previous_game_date": "2023-06-09",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    },
+    {
+      "phase": "F",
+      "series_id": "CURRENT2023:NBA_F",
+      "id": "ALT_REVISED_2023_CHI_F_G6",
+      "date": "2023-06-15",
+      "home": "CHI",
+      "away": "UTA",
+      "rest": {
+        "CHI": {
+          "previous_game_date": "2023-06-12",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        },
+        "UTA": {
+          "previous_game_date": "2023-06-12",
+          "date_gap_days": 3,
+          "full_calendar_days_off": 2,
+          "calendar_B2B": false
+        }
+      }
+    }
+  ],
+  "exit_next_entry_bridges": [
+    {
+      "previous_series": "CURRENT2023:E_R1_18",
+      "same_winner_team": "MIL",
+      "clinch_date": "2023-04-21",
+      "next_series": "CURRENT2023:E_R2_TOP",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 9,
+      "days_off": 8,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_R1_45",
+      "same_winner_team": "BOS",
+      "clinch_date": "2023-04-27",
+      "next_series": "CURRENT2023:E_R2_TOP",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 3,
+      "days_off": 2,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R1_18",
+      "same_winner_team": "UTA",
+      "clinch_date": "2023-04-21",
+      "next_series": "CURRENT2023:W_R2_TOP",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 9,
+      "days_off": 8,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R1_45",
+      "same_winner_team": "LAL",
+      "clinch_date": "2023-04-27",
+      "next_series": "CURRENT2023:W_R2_TOP",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 3,
+      "days_off": 2,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R1_27",
+      "same_winner_team": "LAC",
+      "clinch_date": "2023-04-21",
+      "next_series": "CURRENT2023:W_R2_BOTTOM",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 9,
+      "days_off": 8,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R1_36",
+      "same_winner_team": "DEN",
+      "clinch_date": "2023-04-27",
+      "next_series": "CURRENT2023:W_R2_BOTTOM",
+      "next_first_date": "2023-04-30",
+      "date_gap_days": 3,
+      "days_off": 2,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R2_TOP",
+      "same_winner_team": "UTA",
+      "clinch_date": "2023-05-12",
+      "next_series": "CURRENT2023:W_CF",
+      "next_first_date": "2023-05-15",
+      "date_gap_days": 3,
+      "days_off": 2,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_R2_BOTTOM",
+      "same_winner_team": "LAC",
+      "clinch_date": "2023-05-12",
+      "next_series": "CURRENT2023:W_CF",
+      "next_first_date": "2023-05-15",
+      "date_gap_days": 3,
+      "days_off": 2,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_R1_27",
+      "same_winner_team": "BKN",
+      "clinch_date": "2023-04-21",
+      "next_series": "CURRENT2023:E_R2_BOTTOM",
+      "next_first_date": "2023-05-01",
+      "date_gap_days": 10,
+      "days_off": 9,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_R1_36",
+      "same_winner_team": "CHI",
+      "clinch_date": "2023-04-29",
+      "next_series": "CURRENT2023:E_R2_BOTTOM",
+      "next_first_date": "2023-05-01",
+      "date_gap_days": 2,
+      "days_off": 1,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_R2_TOP",
+      "same_winner_team": "MIL",
+      "clinch_date": "2023-05-12",
+      "next_series": "CURRENT2023:E_CF",
+      "next_first_date": "2023-05-14",
+      "date_gap_days": 2,
+      "days_off": 1,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_R2_BOTTOM",
+      "same_winner_team": "CHI",
+      "clinch_date": "2023-05-12",
+      "next_series": "CURRENT2023:E_CF",
+      "next_first_date": "2023-05-14",
+      "date_gap_days": 2,
+      "days_off": 1,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:E_CF",
+      "same_winner_team": "CHI",
+      "clinch_date": "2023-05-27",
+      "next_series": "CURRENT2023:NBA_F",
+      "next_first_date": "2023-06-01",
+      "date_gap_days": 5,
+      "days_off": 4,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    },
+    {
+      "previous_series": "CURRENT2023:W_CF",
+      "same_winner_team": "UTA",
+      "clinch_date": "2023-05-27",
+      "next_series": "CURRENT2023:NBA_F",
+      "next_first_date": "2023-06-01",
+      "date_gap_days": 5,
+      "days_off": 4,
+      "known_after_public_clinch_game_end": true,
+      "exact_endtime_selected": false
+    }
+  ],
+  "literal_generation_corrections": [
+    {
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/0",
+      "old_pair": [
+        "MIA",
+        "CHI"
+      ],
+      "current_pair": [
+        "ATL",
+        "MIA"
+      ],
+      "oldwinner": "MIA",
+      "currentwinner": "ATL"
+    },
+    {
+      "source": "simulation/NBA_2022_23_STANDINGS_AND_2023_PLAYIN.json#/playin_games/2",
+      "old_pair": [
+        "CHI",
+        "TOR"
+      ],
+      "current_pair": [
+        "MIA",
+        "TOR"
+      ],
+      "oldwinner": "CHI",
+      "currentwinner": "MIA"
+    },
+    {
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/0",
+      "old_pair": [
+        "MIL",
+        "CHI"
+      ],
+      "current_pair": [
+        "MIL",
+        "MIA"
+      ],
+      "old2023CHI_0_4_is_currenttruth": false
+    },
+    {
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/2",
+      "old_pair": [
+        "BKN",
+        "MIA"
+      ],
+      "current_pair": [
+        "BKN",
+        "ATL"
+      ]
+    },
+    {
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/series/8/higher_home",
+      "old": "LAL",
+      "current": "PHX",
+      "same_winner_sequence": [
+        "LAL",
+        "LAL",
+        "PHX",
+        "PHX",
+        "LAL",
+        "PHX",
+        "LAL"
+      ],
+      "currenthome_sequence": [
+        "PHX",
+        "PHX",
+        "LAL",
+        "LAL",
+        "PHX",
+        "LAL",
+        "PHX"
+      ],
+      "old_home_margin_not_reused": true
+    },
+    {
+      "source": "simulation/NBA_2023_SELECTED_FULL_POSTSEASON.json#/selected_policy/Fraction_March25_EB_zero_growth_home2_no_B2B",
+      "original_literal_preserved": true,
+      "current_calendar_B2B": [
+        {
+          "game": "CURRENT2023:E_R1_18:G1",
+          "team": "MIA",
+          "previous_date": "2023-04-14",
+          "date": "2023-04-15"
+        },
+        {
+          "game": "CURRENT2023:W_R1_18:G1",
+          "team": "NOP",
+          "previous_date": "2023-04-14",
+          "date": "2023-04-15"
+        }
+      ],
+      "old_no_B2B_claim_copied": false,
+      "cost": "MIA/NOP Apr15 G1 have0 daysoff/shortrecoverytravel; availability is explicitfiction, notphysiologycertificate; oldzeroB2B proxy discarded, supportwinner chosen"
+    }
+  ],
+  "winner_lineage": {
+    "UTA": [
+      "W_R1_18>NOP4_0",
+      "W_R2_TOP>LAL4_3",
+      "W_CF>LAC4_3",
+      "NBA_F<CHI2_4"
+    ],
+    "LAL": [
+      "W_R1_45>PHX4_3 lowerseed awaywins",
+      "W_R2_TOP<UTA3_4"
+    ],
+    "MIL": [
+      "E_R1_18>MIA4_0",
+      "E_R2_TOP>BOS4_3",
+      "E_CF<CHI3_4"
+    ],
+    "one_continuing_UPC_family_eachteam_nofreshcopy_eachround": true
+  },
+  "POV_and_qualification": [
+    "CHI E6 directqualification consumespublicregularstandings, notplayinwin. ATL/GSW7 afterApr11; MIA/NOP8 afterApr14. TOR/NYK/POR/SAS areeliminated exactlyonce.",
+    "Bracket nextopponent knownonlyafterbothpublicclinchgames finish; exactendtime/privateminds notinvented; authorgraph isnotplayerforeknowledge.",
+    "SameNPC roster/courtfamily continuing selectedavailability doesnotcertify privateclinic orhistoricalmedicalstate."
+  ],
+  "cost_preservation": {
+    "salary_year": "2022-23",
+    "new_UPC_trade_waiver_TW_activation_price": false,
+    "original_Gamma_oldprotectedpayments_FA_QO_rights": true,
+    "fixed2022CHIcore_CobyQO_LMownHigherMax_preserved": true,
+    "Jaquez_no2022_23titleminutes": true,
+    "LAL_source_STD14_preserved_noinvented15th": true,
+    "all_other_used_teams_STD15": true,
+    "actualprivateassent_orwholeNBAmarket_certified": false
+  },
+  "summary": {
+    "playin_games": 6,
+    "nonCHI_series": 11,
+    "nonCHI_games": 65,
+    "existingCHI_series": 4,
+    "existingCHI_games": 26,
+    "PO_series": 15,
+    "PO_games": 91,
+    "postregular_games": 97,
+    "champion": "CHI",
+    "runnerup": "UTA",
+    "last_Finals_date": "2023-06-15",
+    "scores_awards": null
+  },
+  "producer_checks": {
+    "all15tree_joins_exact": true,
+    "R1qualifiers_usedonce": true,
+    "west7winners_records_gamewinnercolumns_preserved": true,
+    "PHX4_LAL5_currenthome22111": true,
+    "no_same_team_same_day_booking": true,
+    "positive_dategaps": true,
+    "two_B2B_boundaries": [
+      {
+        "game": "CURRENT2023:E_R1_18:G1",
+        "team": "MIA",
+        "previous_date": "2023-04-14",
+        "date": "2023-04-15"
+      },
+      {
+        "game": "CURRENT2023:W_R1_18:G1",
+        "team": "NOP",
+        "previous_date": "2023-04-14",
+        "date": "2023-04-15"
+      }
+    ],
+    "NPC19_original5activeSTD_240min_clocks": true,
+    "17_newpair_endpointjoins_10uniqueactors": true,
+    "source10pins_unchanged": true,
+    "independentreview_claimed": false,
+    "central_source_Git_stage_edits": 0,
+    "existing4CHI_currentpair_clocks_read_validated": [
+      {
+        "source_pointer": "/selected_CHI_series_preparation/0/same_game_joint_clock_template",
+        "teams": [
+          "CHI",
+          "PHI"
+        ],
+        "joint_segment_count": 35,
+        "both_budgets_seconds": {
+          "CHI": 14400,
+          "PHI": 14400
+        },
+        "source_current_pointer_consumed_not_newindependentreview": true
+      },
+      {
+        "source_pointer": "/selected_CHI_series_preparation/1/same_game_joint_clock_template",
+        "teams": [
+          "CHI",
+          "BKN"
+        ],
+        "joint_segment_count": 36,
+        "both_budgets_seconds": {
+          "CHI": 14400,
+          "BKN": 14400
+        },
+        "source_current_pointer_consumed_not_newindependentreview": true
+      },
+      {
+        "source_pointer": "/selected_CHI_series_preparation/2/same_game_joint_clock_template",
+        "teams": [
+          "CHI",
+          "MIL"
+        ],
+        "joint_segment_count": 34,
+        "both_budgets_seconds": {
+          "CHI": 14400,
+          "MIL": 14400
+        },
+        "source_current_pointer_consumed_not_newindependentreview": true
+      },
+      {
+        "source_pointer": "/selected_CHI_series_preparation/3/same_game_joint_clock_template",
+        "teams": [
+          "CHI",
+          "UTA"
+        ],
+        "joint_segment_count": 33,
+        "both_budgets_seconds": {
+          "CHI": 14400,
+          "UTA": 14400
+        },
+        "source_current_pointer_consumed_not_newindependentreview": true
+      }
+    ]
+  },
+  "scope_limits": {
+    "minimum_tree_join_prepared": true,
+    "all15_actualNBAprivatehealth_market_fullclockcertified": false,
+    "all40_all82_privateboxes_newgate": false,
+    "wholehistory_G13_G14_complete": false,
+    "C01_public_medal_military": "UNSELECTED_HOLD"
+  },
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "wholehistory_LOCK": false,
+    "G13": false,
+    "G14": false,
+    "NM_route": null,
+    "public_medal": null,
+    "Pack": 0,
+    "manuscript_allowed": false,
+    "newmanuscript": 0
+  },
+  "project_progress": [
+    {
+      "group": 1,
+      "status": "완료 이력·2015–18 접근/대학/드래프트 보존"
+    },
+    {
+      "group": 2,
+      "status": "완료 이력·2018–21 팀/역할/가격/실패 보존"
+    },
+    {
+      "group": 3,
+      "status": "기존 완료 이력 보존·2022PHI패/고정계약 유지;2023성장/결과 사용점 수리 진행"
+    },
+    {
+      "group": 4,
+      "status": "2023–25 목표 선택·성장/역할 입력 생산;순위/대진/수상 실행 전"
+    },
+    {
+      "group": 5,
+      "status": "2025짧은 본편 기능 배치·새N 미산정"
+    },
+    {
+      "group": 6,
+      "status": "독서110/110 보존·새Blueprint/집필규격 검증 전·Pack0"
+    },
+    {
+      "group": 7,
+      "status": "통합·독립검수·최종승인 미완료"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "write_scope": [
+    "simulation/THREEPEAT_2023_MINIMUM_QUALIFICATION_AND_BRACKET_JOIN_2026_10_09.json",
+    "simulation/THREEPEAT_2023_MINIMUM_QUALIFICATION_AND_BRACKET_JOIN_2026_10_09.md"
+  ],
+  "regular_to_first_postregular_previous_date_source": {
+    "source": "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json#/rows",
+    "source_field": "published_date/home/away",
+    "last_by20_usedteams": {
+      "MIL": "2023-04-09",
+      "BKN": "2023-04-09",
+      "PHI": "2023-04-09",
+      "BOS": "2023-04-09",
+      "IND": "2023-04-09",
+      "CHI": "2023-04-09",
+      "ATL": "2023-04-09",
+      "MIA": "2023-04-09",
+      "TOR": "2023-04-09",
+      "NYK": "2023-04-09",
+      "UTA": "2023-04-09",
+      "LAC": "2023-04-09",
+      "DEN": "2023-04-09",
+      "PHX": "2023-04-09",
+      "LAL": "2023-04-09",
+      "DAL": "2023-04-09",
+      "GSW": "2023-04-09",
+      "NOP": "2023-04-09",
+      "POR": "2023-04-09",
+      "SAS": "2023-04-09"
+    },
+    "allApril9_reproduced_fromsource_calendar": true
+  }
+}
