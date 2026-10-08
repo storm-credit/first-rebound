@@ -1,0 +1,48 @@
+{
+  "id": "LC1_ANTIGRAVITY_RULE_COLLECTION_ROOT_DISPOSITION_2026_10_08",
+  "status": "COLLECTED_ANSWER_ACCEPTED_WITH_LOCATOR_AND_STALE_STATUS_CORRECTIONS",
+  "collector_actual_response": true,
+  "source_sha256": {
+    "reviews/LC1_FINAL_POSSESSION_ANTIGRAVITY_PRIMARY_COLLECTION_2026_10_08.json": "eff2f848d5faa6384e73110299787a2a9f96ed8bbd6f5b8e4545f8b3a392935c"
+  },
+  "collector_elapsed_seconds": 52.737,
+  "Codex_primary_body_directly_read_by_web": [
+    {
+      "url": "https://official.nba.com/rule-no-7-24-second-clock/",
+      "observed": "2026-10-08",
+      "locator": "Section II item9",
+      "paraphrase": "Following changed possession with24seconds or less left, the shotclock does not run, with the statedSectionIV-d exceptions. The selected uninterrupted10.8seconds rebound window does not invoke those exceptions."
+    },
+    {
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "observed": "2026-10-08",
+      "locator": "Section III item1a",
+      "paraphrase": "An attempt still in flight at period expiry may finish after the horn. The selectedLMrelease0.3sec precedesexpiry; selectedbasketafterhorn hasnooffensivetouch."
+    }
+  ],
+  "disposition": [
+    {
+      "claim": "Rebound10.8sec remaining/newpossession → shotclockoff",
+      "decision": "ACCEPT_SCOPED_SUBSTANCE_WITH_EXCEPTION_PRESERVED"
+    },
+    {
+      "claim": "AGY Rule7 SectionIIparagraphf/Application",
+      "decision": "REJECT_LOCATOR",
+      "correct": "Current officialpage SectionII StartingandStopping item9"
+    },
+    {
+      "claim": "AGY projectprogress says majorcoordinates unselected",
+      "decision": "REJECT_STALE_GOVERNANCE",
+      "correct": "Current humanacceptance recordedLC1 authorselection; collector cannot override it."
+    },
+    {
+      "claim": "AGY0.6sec example",
+      "decision": "LIMIT_TO_EXAMPLE",
+      "correct": "ActualselectedfictionLMrelease0.3sec, not0.6; bothprecedehorn, resultnotreplaced"
+    }
+  ],
+  "all_MCP_servers_or_future_NBA_rule_verified": false,
+  "whole_project_independent_review_or_Pack_complete": false,
+  "gate": "CLOSED",
+  "manuscript_allowed": false
+}
