@@ -1,0 +1,59 @@
+{
+  "id": "A11_FY25_SELECTED_SHARED_CLOCK_G11_REVIEW_2026_10_08",
+  "status": "ACCEPTED_SELECTED_ROUTINE_CLOCK_LEGAL_SERVICE_AND_RESULT_PENDING",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_REMOVED_CRLF_CR_TO_LF_SHA256",
+  "reviewed_artifacts_sha256": {
+    "canon/DELEGATED_A11_FY25_COACH_AND_AVAILABILITY_SELECTION_2026_10_08.json": "c7f260a1c504b59c81813b268fcc14049074d1911cb2e9a534d61604b350928a",
+    "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.json": "a8cb75023579aac5db6cef3e28eac5053a7e2b3e088c41596f85031c55586a8b",
+    "simulation/A11_FY25_SELECTED_SHARED_REGULATION_CLOCK_2026_10_08.md": "94d2881de4d5a7e720dc96a1060cc2e372dab062be7127da97997dbd3df7edbc"
+  },
+  "current_source_sha256": {
+    "research/MINNESOTA_2025_26_A11_NAMED_INPUT_PACKET_2026_10_08.json": "ed6c1c8bce3fcbc8c6a8802fca3b961492a787442e7385a56fee8049dbe1cedb",
+    "simulation/NBA_2022_23_GLOBAL_SELECTED_REGULAR_RESULTS.json": "8e2a778fe646de3c6070be7dd3acc64199fe2a7c813e780916e380b099fa3889",
+    "AGENTS.md": "67f21ebf14a0ec428196fe20077ad8eb1a4b3920b7983e900f8eae00577a53f2",
+    "reviews/MINNESOTA_2025_26_A11_NAMED_INPUT_G11_REVIEW_2026_10_08.json": "238c8bae7edb1b3a5aa0d47097b8d1b44acafc3bc23496369c6ab242b788c93d",
+    "canon/DELEGATED_A11_FY25_COACH_AND_AVAILABILITY_SELECTION_2026_10_08.json": "c7f260a1c504b59c81813b268fcc14049074d1911cb2e9a534d61604b350928a",
+    "research/A11_CHICAGO_FIRST_FINALS_AND_FY25_SERVICE_INPUT_2026_10_08.json": "163df5e6af26c8f2356a9a26c3f67ee37be4442560eca4f8a217ccce972ad1fa",
+    "reviews/A11_CHICAGO_FIRST_FINALS_AND_FY25_SERVICE_G11_REVIEW_2026_10_08.json": "c4aef3003df6f7db6f337ac9e3f6b520c137da5f5dba61fa271fc213a09e60b7",
+    "canon/DELEGATED_A11_F26_FIRST_FINALS_LOSS_SELECTION_2026_10_08.json": "e116780872c03d76d2569e184d7c40f1ed86402b52d9c93ddaea1b3c68e5c5a4",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d"
+  },
+  "normalization_audit": {
+    "original_MIN_source_block_count": 23,
+    "source_variable_length_block_120_to_360_seconds": true,
+    "normalization": "For each 120-second grid cell, select the unique source block containing its entire interval; copy its five positions, then apply the five normalized_grid_block_index patches.",
+    "all_24_normalized_cells_have_unique_source": true,
+    "five_patch_from_time_position_values_match": true,
+    "patched_result_equals_selected_MIN_blocks": true,
+    "initial_raw_array_index_discrepancy": "Reviewer initially indexed the 23 variable-length source block array with the 24-grid patch index and reported a mismatch. This was a reviewer reconstruction error, not a demonstrated false pass of the selected clock. Root then made normalization/index semantics explicit in the canon and repinned the consumer; same normalized reconstruction now passes.",
+    "health_or_minute_selection_changed_by_clarification": false
+  },
+  "direct_clock_checks": {
+    "CHI_B32_exact_from_prepared_source": true,
+    "MIN_ROLE_LOAD_exact_from_normalized_source_and_five_patches": true,
+    "shared_24_cells_120_seconds_each": true,
+    "five_unique_players_each_team_each_cell": true,
+    "five_positions_2880_seconds_each_team": true,
+    "player_seconds_per_team": 14400,
+    "both_player_seconds": 28800,
+    "both_regulation_player_minutes": 480,
+    "CHI_active13_inactive2_positive11": true,
+    "MIN_active13_inactive2_positive12": true,
+    "CHI_MIN_registration_names_disjoint": true,
+    "Protagonist_minutes": 32,
+    "Rival_minutes": 34,
+    "Towns_minutes": 36,
+    "Dyson_minutes": 14,
+    "Ed_Davis_minutes": 2,
+    "constructor_or_mutation_tests_run": 0
+  },
+  "scope": {
+    "fictional_coach_and_day_availability_selected": true,
+    "MIN_dated_lawful_service_or_new_contract_selected": false,
+    "Finals_dates_route_games_or_result_executed": false,
+    "old_medical_or_rating_stats_carried": false,
+    "whole_A11_or_G13_complete": false,
+    "new_private_receipt_required": false
+  }
+}

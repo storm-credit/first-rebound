@@ -1,0 +1,102 @@
+{
+  "id": "A11_F26_SELECTED_BOUNDED_ROUTE_G11_REVIEW_2026_10_08",
+  "status": "ACCEPTED_SCOPED_ROUTE_ENDPOINT_SELECTION",
+  "independent_review_completed": true,
+  "source_hash_method": "UTF8_BOM_STRIPPED_NORMALIZED_LF_SHA256",
+  "reviewed_artifacts_sha256": {
+    "canon/DELEGATED_A11_F26_CONFERENCE_ROUTE_SELECTION_2026_10_08.json": "bf995209aa2648a233f84d807b1ffd8a8840db63a64a0c4518c7117c7293e273",
+    "simulation/A11_F26_SELECTED_BOUNDED_ROUTE_2026_10_08.json": "0bcb4696dc7f308ee736f691a134cc238ebfcc8dfc577291b580db1856bbbc1b",
+    "simulation/A11_F26_SELECTED_BOUNDED_ROUTE_2026_10_08.md": "dc89552ed7ac9b8d5359ae55976339e05789d8d4dcf199c412803e224bfd8996"
+  },
+  "direct_source_pin_audit": {
+    "canon_source_pins": 10,
+    "consumer_source_pins": 11,
+    "physical_mismatches": []
+  },
+  "direct_checks": {
+    "conference_bracket": {
+      "EAST": {
+        "target_seed": 2,
+        "route": [
+          "MIA7",
+          "CLE3",
+          "NYK1"
+        ],
+        "R1_halves": [
+          [
+            1,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "WEST": {
+        "target_seed": 2,
+        "route": [
+          "LAL7",
+          "DEN3",
+          "SAS1"
+        ],
+        "R1_halves": [
+          [
+            1,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "selected_endpoint_count": 6,
+      "qualified_predecessor_records": 4,
+      "other_seed_assignments": "4/5/6/8 injective qualified same-conference slots, team identities and detailed game results unselected",
+      "detailed_predecessor_games_generated": 0
+    },
+    "Finals_consistency": {
+      "MIN_higher_crossconference_winning_percentage_named_condition": true,
+      "same_seed2_does_not_imply_equal_records": true,
+      "MIN_home_sequence_matches_existing_six_games": true,
+      "MIN_four_to_CHI_two_matches_existing_series": true,
+      "records_and_full82_derived": false
+    },
+    "displacement": {
+      "actual_NYK_2026_title_or_SAS_Finalist_retained": false,
+      "NYK_loses_ECF_to_CHI": true,
+      "SAS_loses_WCF_to_MIN": true,
+      "actual_Towns_NYK_assignment_copied": false,
+      "whole_2024_Towns_trade_atom_omission_required_in_future_MIN_service_consumer": true
+    },
+    "prior_first_join": {
+      "seven_prior_seasons_existing_source_retained": true,
+      "route_does_not_freshly_select_prior_five": true
+    },
+    "scope": {
+      "conference_series_dates_lengths_scores": null,
+      "MIN_operative_service_adoption": "PENDING_SEPARATE_CONSUMER",
+      "qualified_seed7_playin_if_applicable": "ADMITTED_CONDITION_NOT_DETAIL_EXECUTION",
+      "whole_A11_complete": false
+    }
+  },
+  "static_constructor_mutation_tests_run": 0,
+  "note_on_generation_history": "Consumer pending list mentions a Finals role-cost consumer already frozen and independently reviewed afterward; its generation-time pending wording is not treated as a new gate or as proof of full MIN lawful service."
+}

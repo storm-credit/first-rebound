@@ -1,0 +1,101 @@
+{
+  "tool": "Antigravity",
+  "scope": "READ_ONLY_OFFICIAL_CALENDAR_RETRY_NOT_FICTIONAL_SELECTION",
+  "first_terminal_exit2_retained": true,
+  "retry_changes": "--print-timeout duration 75s instead of bare 75; no permissions/auth/settings changed",
+  "result": {
+    "status": "RETURNED",
+    "exit_code": 0,
+    "elapsed_seconds": 50.261,
+    "stdout_sha256": "30d3c3cf02e88ae386c830ec643c754c7a34230f605ad3f04e6c81d938c5ddd4",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_diagnostic": null
+  },
+  "parsed_stream": {
+    "output_format": "stream-json",
+    "terminal_count": 1,
+    "terminal": {
+      "conversation_id": "3a1e5b91-e90e-4422-b433-6a0bd07d1b0f",
+      "status": "SUCCESS",
+      "response": "From the visible page body of the schedule article:\n\n* **Teams:** New York Knicks vs. San Antonio Spurs\n* **Winner:** New York Knicks (won 4-1)\n* **Tip-off / Dates:** Tipped off Wednesday, June 3, 2026.\n* **Game Results:**\n  * Game 1: Knicks 105, Spurs 95\n  * Game 2: Knicks 105, Spurs 104\n  * Game 3: Spurs 115, Knicks 111\n  * Game 4: Knicks 107, Spurs 106\n  * Game 5: Knicks 94, Spurs 90\n* **Unplayed Dates:** Games 6 and 7 were not listed/needed (scheduled only, unplayed).\n",
+      "duration_seconds": 38.7457671,
+      "num_turns": 1
+    },
+    "response_recovered": true,
+    "tool_steps": [
+      {
+        "step_index": 2,
+        "state": "ACTIVE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 2,
+        "state": "DONE",
+        "tool_name": "read_url_content",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 4,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "eb06a48578c8a7f4134767fec6b9e689b6402da0bbf24aa028be1c6615e0e38b"
+      },
+      {
+        "step_index": 6,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 6,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "eb06a48578c8a7f4134767fec6b9e689b6402da0bbf24aa028be1c6615e0e38b"
+      },
+      {
+        "step_index": 8,
+        "state": "ACTIVE",
+        "tool_name": "view_file",
+        "tool_output_present": false
+      },
+      {
+        "step_index": 8,
+        "state": "DONE",
+        "tool_name": "view_file",
+        "tool_output_present": true,
+        "tool_output_kind": "string",
+        "tool_output_char_count": 22,
+        "tool_output_sha256": "eb06a48578c8a7f4134767fec6b9e689b6402da0bbf24aa028be1c6615e0e38b"
+      }
+    ],
+    "malformed_line_count": 0,
+    "stdout_sha256": "30d3c3cf02e88ae386c830ec643c754c7a34230f605ad3f04e6c81d938c5ddd4",
+    "raw_logs_retained": false,
+    "evidence_verification": "NOT_AUTOMATIC",
+    "partial_agent_response": {
+      "text": "From the visible page body of the schedule article:\n\n* **Teams:** New York Knicks vs. San Antonio Spurs\n* **Winner:** New York Knicks (won 4-1)\n* **Tip-off / Dates:** Tipped off Wednesday, June 3, 2026.\n* **Game Results:**\n  * Game 1: Knicks 105, Spurs 95\n  * Game 2: Knicks 105, Spurs 104\n  * Game 3: Spurs 115, Knicks 111\n  * Game 4: Knicks 107, Spurs 106\n  * Game 5: Knicks 94, Spurs 90\n* **Unplayed Dates:** Games 6 and 7 were not listed/needed (scheduled only, unplayed).\n",
+      "char_count": 477,
+      "sha256": "ba9933aa0adc98764af373c04b85af40da21319826db0587236ee69c615eae37",
+      "truncated": false,
+      "available": true,
+      "terminal_response_certified": false,
+      "source_evidence_certified": false
+    }
+  },
+  "raw_stream_local_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-a11-2026-calendar\\AGY_retry_stream.jsonl",
+  "primary_body_requires_direct_verification": true,
+  "new_fictional_result_selected": false
+}
