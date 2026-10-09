@@ -96,3 +96,7 @@ integrity_status:
 ## Obsidian 연결
 
 팩은 `[[canon/PROJECT_FREEZE]]`, 인물 정본, 세계 규칙, Act/Sub-Act, 사건 원장을 링크한다. 역링크는 탐색용이며 권위 관계를 바꾸지 않는다.
+
+## 현재 9막 삼연패 생성기
+
+2026-10-09 현재 본편은 M01–M09와 짧은 EPI다. [현재 입력 계약](../control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md)과 `tools/build_threepeat_actual_context_packs.py`를 사용한다. 위의 기존 샘플·옛 구조 이력은 보존한다. 최종 N은 후보40과 별개이며 현재 범위·선택 역사·최종 배치·실제 개별 Blueprint 권위 네 입력과 독립 영수증이 필요하다. 기본은 검증만, `--write`는 검증된 실제 출력 생성, `--check`는 기존 출력 대조다. 현재 네 입력은 미발급이고 실제 Pack0·원고 CLOSED다.
