@@ -1,5 +1,7 @@
 # Act Map — CP2 조건부 전체 배분
 
+2026-10-09 현행9막 안내 — 현재 구조는 [9막 출구 지도](THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md)와 [현행 실행 정본](../canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.md)을 따른다. 아래14막·42소막·780슬롯은 이전 설계 이력이며 현재 회차 수나 기존 본문이 아니다. 최신 main의 후행 삼연패 선택을 우선한다. 이 안내는 회차 배치·본문·Actual·Pack 완료를 새로 선언하지 않는다.
+
 - 상태: `CP2_PROVISIONAL_STRUCTURE / FINAL_CANON_HOLD`.
 - 권위 데이터: [Act/Sub-Act JSON](CP2_ACT_SUBACT_PACKET.json). 내용은 사건 기능이며 원고·확정 회차 기능표가 아니다.
 - 종전 10행 골격을 [Chicago 장기 작업안](CHICAGO_MINNESOTA_LONG_CAREER_PACKET.md)에 맞춰 14 Act로 교체했다. 기존 정본의 성장 순서는 보존한다.
