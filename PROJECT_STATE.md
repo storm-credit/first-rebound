@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-09 [현재 본문 개고 요청 접수](reviews/MANUSCRIPT_REVISION_SOURCE_INTAKE_2026_10_09.md): Codex 검수·기존 본문 개고 직접 지시 기록, Claude 사용 금지. 확인한 저장소/작업 폴더에는 회차 본문 미발견·순서/최종범위 빈칸, 원고 위치 입력 대기. 옛14막/780 안내를 현재9막 참조와 구분. 본문 열람/개고/Actual·Pack 갱신0, 기존 완료1–3·미완료4(6번까지3)·전역freeze/gate 유지. 아래는 이전이력.
+
 2026-10-09 [C01 허가 대상 정정](reviews/THREEPEAT_C01_PERMIT_TYPE_CORRECTION_CURRENT_ADOPTION_2026_10_09.md): PR532 후기 육군18개월+취업허가 비교 준비 판정 철회. 원별표 사회복무/대체복무 소집 대상과 현역 구분, Jan1기간/Jan15마감 분리. 11월 후보는 시즌 날짜 요건만 검토·외국군/사회복무 ArticleV·급여/등록/YOS/Bird/복귀 HOLD·금메달 자동선택0. 원자료/peer/NLM 이력 보존, 수정4행 비교 독립 검문. 삼연패2023–25/9막/2035 유지·완료1–3/미완료4(6번까지3)·Nnull·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
 
 2026-10-09 [9막 Pack 생성기·공적 달력 수리 검수](reviews/THREEPEAT_CURRENT_PACK_SCHEMA_AND_C01_CALENDAR_CURRENT_ADOPTION_2026_10_09.md): 현재9막/EPI 생성기·스키마 구현 독립검문 수락, 최종4입력 미발급/실제Pack0. 초기f528/중간2b874실패보존→개별번호·scope/출처세대/FACT계획/중간진입출구4결함수리. C01국내272+국외272/68계획봉사와 교육·여행준비 검문, 체류지역충돌·2025도착창수리. 후기일반복무는3핏과직접충돌없으나계약HOLD·금메달자동선택0. NLM초기자료실제답회수/원전독립아님, AGY/Claude새실행0. 완료1–3·미완료4(6번까지3)·H03–08 6포트·Nnull·v0.30PARTIAL/CLOSED·원고0·일정0. 아래는 이전이력.

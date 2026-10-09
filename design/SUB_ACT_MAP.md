@@ -1,5 +1,7 @@
 # Sub-Act Map — CP2 42개 기능 단위
 
+2026-10-09 현행9막 안내 — 현재 구조는 [9막 출구 지도](THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md)와 [현행 실행 정본](../canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.md)을 따른다. 아래14막·42소막·780슬롯은 이전 설계 이력이며 현재 회차 수나 기존 본문이 아니다. 최신 main의 후행 삼연패 선택을 우선한다. 이 안내는 회차 배치·본문·Actual·Pack 완료를 새로 선언하지 않는다.
+
 - 상태: `PROVISIONAL_FUNCTION_PACKET / NOT_EPISODE_OUTLINE`.
 - A03의 기존 대표 기능 3개는 [대학 기능 패킷](A03_COLLEGE_REPRESENTATIVE_FUNCTIONS.md)으로 구체화했다. 정확 경기/분·54회차 기능표는 HOLD이며 후보 패킷이다.
 - [전체 필드 JSON](CP2_ACT_SUBACT_PACKET.json)의 각 단위는 시작 상태·목표·압력·선택·비용·종료 상태·장치·권한 의존성을 가진다. 원고 없음.
