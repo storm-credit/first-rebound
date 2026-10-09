@@ -1,0 +1,121 @@
+{
+  "id": "THREEPEAT_C01_EMPLOYMENT_PERMIT_TYPE_CORRECTION_ROOT_FINDINGS_2026_10_09",
+  "status": "PUBLISHED_COMPARATOR_LEGAL_TYPE_DEFECT_CONFIRMED",
+  "classification": "ROOT_PRIMARY_EVIDENCE_CORRECTION_NOT_AUTHOR_SELECTION",
+  "baseline_main": "21d4666c0cd008ae45f1fc23892b7af4ff8b2a3e",
+  "source_hash_method": "UTF8_BOM_REMOVED_CRLF_TO_LF_SHA256_FOR_REPOSITORY; RAW_BYTES_FOR_PRIMARY",
+  "published_inputs": [
+    {
+      "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+      "LF_SHA256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+      "source_snapshot_commit": "21d4666c0cd008ae45f1fc23892b7af4ff8b2a3e"
+    },
+    {
+      "path": "reviews/THREEPEAT_C01_USED_CALENDAR_INDEPENDENT_REVIEW_2026_10_09.json",
+      "LF_SHA256": "8842195b78d67c06ef8c30a1eb7ab3568d1bad08f37c7ba69cce979a51cc6edf",
+      "source_snapshot_commit": "21d4666c0cd008ae45f1fc23892b7af4ff8b2a3e"
+    },
+    {
+      "path": "research/THREEPEAT_C01_NOTEBOOKLM_CALENDAR_ANALYSIS_2026_10_09.json",
+      "LF_SHA256": "b22a5d71b08b516881e10296228ee4ed314d146079c183e6c5043320b916a371",
+      "source_snapshot_commit": "21d4666c0cd008ae45f1fc23892b7af4ff8b2a3e"
+    },
+    {
+      "path": "reviews/THREEPEAT_CURRENT_PACK_SCHEMA_AND_C01_CALENDAR_CURRENT_ADOPTION_2026_10_09.json",
+      "LF_SHA256": "55bb6a648322f1f2a77898422a6051642238d6b5a70e85c1307ab2e31cd22db8",
+      "source_snapshot_commit": "21d4666c0cd008ae45f1fc23892b7af4ff8b2a3e"
+    }
+  ],
+  "primary_evidence": [
+    {
+      "id": "ANNEX1_ITEM6A",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-ag2023-20261007\\law_travel_annex_image_125776543.bin",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=125776543",
+      "locator": "2023 annex1 item6(a); GIF decoded to root_annex_125776543.png and visually read",
+      "sha256_raw_bytes": "feb37d296ff83b6c9c6cd4443202ccc196dfd0693b479d02e90a368fcbba6154",
+      "bytes": 87588,
+      "root_actually_read": true
+    },
+    {
+      "id": "TRAVEL_RULE_SECTION7",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-ag2023-20261007\\law_travel_20230302_body.html",
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000220256",
+      "locator": "MMA1949 effective2023-03-02 section7(4),(6), body read",
+      "sha256_raw_bytes": "d64cf10fafd94341f2de3f7542f98975798cff5cd0a56567bd797808a21e07a0",
+      "bytes": 107037,
+      "root_actually_read": true
+    },
+    {
+      "id": "ACT_SECTION70",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-ag2023-20261007\\law_act_20221213_body.html",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=245995&efYd=20221213",
+      "locator": "Act19081 effective2022-12-13 section70(3), body read",
+      "sha256_raw_bytes": "d4bf552ca8ef8f520f72de2a1454dd100f0f80c3e3d44f00f67f021949cca934",
+      "bytes": 626444,
+      "root_actually_read": true
+    },
+    {
+      "id": "CBA2023_ARTICLE_V",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-ag2023-20261007\\nba_cba_2023.pdf",
+      "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+      "locator": "physical34 printed10 ArticleI(ooo); physical135 printed111 ArticleV1 read",
+      "sha256_raw_bytes": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+      "bytes": 2850534,
+      "root_actually_read": true
+    },
+    {
+      "id": "NBA2026_DATES",
+      "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-threepeat-c01-during-season-20261009\\nba_key_dates_2026_current.html",
+      "url": "https://www.nba.com/news/key-dates",
+      "locator": "JSON-LD articleBody; updated2026-10-06; Sept22 overseas camps,Sept29 general camps,Oct20 regular season",
+      "sha256_raw_bytes": "618cbe935e1b10ec890dae57b080f10e59f038acf7cc7836eee0c04bae3aa5d2",
+      "bytes": 397219,
+      "root_actually_read": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01_TYPED_PERMIT_SERVICE_JOIN",
+      "severity": "MATERIAL_CORRECTION",
+      "published_pointer": "/non_gold_ordinary_comparisons",
+      "claim_boundary": "item6(a) employment travel permission <=3years/<=27 is for social-service-callup or alternative-service-callup subjects; item6(b) separately covers industrial-skilled-worker employment. Active-duty Army classification is not listed in6(a).",
+      "disposition": "WITHDRAW_LEGAL_COMPARATOR_READINESS_OF_ARMY18_PLUS_ITEM6_JOIN",
+      "retained_truth": "Late Army nominal dates do not directly overlap selected2023-25 titles or2035 brief epilogue. Date nonoverlap does not establish permit eligibility.",
+      "repair": "Army18 requires separately supported active-duty travel-permit basis; social21/alternative36 require matching eligibility and duration. Actual grade/path not selected."
+    },
+    {
+      "id": "F02_DEADLINE_VS_PERIOD_START",
+      "severity": "CORRECTION",
+      "claim_boundary": "MMA1949 section7(4) permits preapproval from24; period begins Jan1 of year25. Act70(3) Jan15 is obtaining-permission deadline.",
+      "repair": "1999-born year25=2024: modeled Jan1_2024 start separate fromJan15_2024 administrative deadline. Actual permit issuance/expiry unknown."
+    },
+    {
+      "id": "F03_SEASON_AND_COMPENSATION_NOT_AUTOMATIC",
+      "severity": "CONDITIONAL_BOUNDARY",
+      "claim_boundary": "CBA Season begins NBA training camp. ArticleV1 during-Season military draft/active-reserve duty includes Team Active/Inactive list and compensation negotiated subjectAgreement.",
+      "repair": "Nov2_2026 is after bothSept22/29 camps andOct20 opening. Date premise only: no automatic foreign Army/civil social-service applicability, salary,registration,YOS,Bird,toll or return."
+    },
+    {
+      "id": "F04_PRIOR_DERIVED_REVIEW_LIMIT",
+      "severity": "REVIEW_SCOPE_CORRECTION",
+      "claim_boundary": "Published calendar review and NotebookLM derivative analysis predate this type finding.",
+      "repair": "Preserve original bytes/receipts. They do not certify corrected comparator. Old NotebookLM answer is not a new primary-law analysis."
+    }
+  ],
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_gate": "CLOSED",
+    "selected_medal": null,
+    "selected_military_path": null,
+    "actual_Pack": 0,
+    "manuscript_created": 0,
+    "schedules_created": 0
+  },
+  "checks": {
+    "original_inputs_modified": false,
+    "new_clinical_or_private_proof_gate": false,
+    "gold_selected_by_elimination": false,
+    "all_82_future_season_requirement_added": false
+  }
+}
