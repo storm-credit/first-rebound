@@ -138,6 +138,10 @@ class Sources:
 
     def read(self, ref):
         require(isinstance(ref, dict), 'Source reference must be an object')
+        unsupported_epochs = {'source_snapshot_commit', 'source_snapshot_commits',
+                              'snapshot_commit', 'source_epoch', 'epoch'}
+        require(not (unsupported_epochs & set(ref)),
+                'Snapshot/epoch source references are unsupported; never interpret declared history as live bytes')
         path = ref.get('path')
         actual = digest(safe_path(self.root, path))
         require(ref.get('source_sha256') == actual, f'Stale source: {path}')
@@ -253,6 +257,8 @@ def validate_access(bp, sources, choices):
         for ref in refs:
             sources.read(ref)
         if claim['status'] == 'FACT':
+            require(claim.get('temporal_kind') == 'OBSERVED_EVENT',
+                    'FACT cannot be CURRENT_PLAN or inferred knowledge')
             require(claim.get('primary_source_body_verified') is True, 'FACT has no verified primary body')
         if claim['status'] == 'INFERENCE':
             require(claim.get('inference_visible') is True, 'Inference must stay visible')
@@ -415,6 +421,8 @@ def compile_inputs(root):
         text(bp_doc.get('producer_id'), 'Blueprint producer')
         require(bp_doc['producer_id'] != review['reviewer_id'], 'Blueprint producer cannot review own bundle')
         require(isinstance(bp, dict) and bp.get('status') == 'ACTUAL_VERIFIED', 'Individual Blueprint is not actual verified')
+        require(integer(bp.get('episode')), 'Individual Blueprint episode must be an exact integer')
+        require(bp.get('scope_id') == scope_id, 'Individual Blueprint does not belong to current scope')
         gates(bp)
         for key in ('episode', 'unit_id', 'category', 'episode_function', 'action_choice', 'durable_cost',
                     'state_change', 'entry_state', 'exit_state_required',

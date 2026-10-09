@@ -2,6 +2,41 @@
   "id": "THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09",
   "schema": "finite_used_calendar_preparation_v1",
   "status": "PREPARED_CONDITIONAL_CANDIDATES_PENDING_ROOT_INDEPENDENT_REVIEW",
+  "repair_generation": {
+    "repaired_from_initial_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "initial_JSON_LF_SHA256": "da471bc8767a5b0e7b33037ae3fe71cf53ff9ad63c50a92160cce6929a613215",
+    "initial_MD_LF_SHA256": "fbc2bfc8b6e29b8e25db39e23b71c6dccb580e35a632544b8eda9123044be408",
+    "initial_failure_receipt": "reviews/THREEPEAT_C01_USED_CALENDAR_FIRST_FAILURE_2026_10_09.json@f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "initial_failure_status_preserved": "NEEDS_REPAIR_DECLARED_DOMESTIC_TRIP_VS_FOREIGN_SERVICE_LOCATION",
+    "repairs": [
+      {
+        "finding": "C01_CALENDAR_R1",
+        "pointer": "/gold_with_duties_candidate/candidate_volunteer_sessions/26",
+        "old_date": "2024-11-19",
+        "new_date": "2024-11-26",
+        "old_approval_deadline": "2024-11-09",
+        "new_approval_deadline": "2024-11-16",
+        "old_proof_deadline": "2024-11-29",
+        "new_proof_deadline": "2024-12-06",
+        "quantity_delta_hours": 0,
+        "foreign_after_Korea_departure": "Nov24departure→Nov25_09USreturncapacity→Nov26_09foreignlesson ≥24hours"
+      },
+      {
+        "finding": "JUNE22_ET_TO_KOREA_ARRIVAL_REST_BOUNDARY",
+        "domestic_dates_before": "2025-06-24..29",
+        "domestic_dates_after": "2025-06-25..30",
+        "trip_Korea_fullplanning_days_after": "2025-06-25..2025-07-01",
+        "Korea_US_departure_after": "2025-07-02",
+        "MCSTtravelpaper_after": "2025-06-22",
+        "quantity_delta_hours": 0,
+        "scope": "CandidateUSdepartureJun23_10ET afterNBArelease→KoreaarrivalJun24_20KST→Jun25_09start with13hoursbuffer/≥8hours sleep; itinerary conditional, no actualflight evidence."
+      }
+    ],
+    "source302c_pins_unchanged": true,
+    "new_medal_path_selection": false,
+    "initial_NLM_receipt": "research/THREEPEAT_C01_NOTEBOOKLM_CALENDAR_ANALYSIS_2026_10_09.json@f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "initial_NLM_scope": "Originalf528 derivative only; not a review of repairedcalendar. No new upload or oldPASSrepin."
+  },
   "classification": "DATED_PUBLIC_RULES_PLUS_UNSELECTED_FICTIONAL_CALENDAR_CAPACITY_NOT_ACTUAL_APPLICATION_OR_COMPLETION",
   "baseline_main": "302c9f6c28c368479b6c1a51e95c6988072badf6",
   "source_hash_method": "Git302c originalbytes normalizedCRLFtoLF SHA256; rawprimaryexactbytes separately",
@@ -584,7 +619,18 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2023-11-09T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2023-11-10T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2023-11-24T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2023-11-25T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2023-11-09",
+          "2023-11-25"
+        ]
       },
       {
         "id": "TRIP_2024_MILITARY_VOL",
@@ -595,7 +641,18 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2024-07-11T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2024-07-12T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2024-08-29T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2024-08-30T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2024-07-11",
+          "2024-08-30"
+        ]
       },
       {
         "id": "TRIP_2024_JOB_VOL",
@@ -606,18 +663,45 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2024-11-14T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2024-11-15T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2024-11-24T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2024-11-25T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2024-11-14",
+          "2024-11-25"
+        ]
       },
       {
         "id": "TRIP_2025_AFTER_TITLE_VOL",
-        "candidate_in_Korea_start_KST": "2025-06-24",
-        "candidate_in_Korea_end_KST": "2025-06-30",
-        "candidate_Korea_to_US_departure_KST": "2025-07-01",
-        "MCST_support_agency_to_MCST_documents_by": "2025-06-21",
+        "candidate_in_Korea_start_KST": "2025-06-25",
+        "candidate_in_Korea_end_KST": "2025-07-01",
+        "candidate_Korea_to_US_departure_KST": "2025-07-02",
+        "MCST_support_agency_to_MCST_documents_by": "2025-06-22",
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2025-06-23T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2025-06-24T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2025-07-02T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2025-07-03T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2025-06-23",
+          "2025-07-03"
+        ],
+        "last_NBA_use_before_departure": "CurrentJun22_2025G7 finalreview+clubrelease first; noactualinstantaneousgameend/flight claimed.",
+        "candidate_US_departure_after_final_game": "2025-06-23T10:00:00-04:00 conditionalobservedrelease",
+        "first_domestic_service": "2025-06-25T09:00:00+09:00 after13hourarrival/immigration/rest window",
+        "maximum_airport_and_transit_capacity_hours": 21,
+        "transit_capacity_is_actual_airline_elapsed_proof": false
       },
       {
         "id": "TRIP_2025_JOB_VOL",
@@ -628,7 +712,18 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2025-08-17T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2025-08-18T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2025-08-29T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2025-08-30T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2025-08-17",
+          "2025-08-30"
+        ]
       },
       {
         "id": "TRIP_2026_VOL",
@@ -639,7 +734,18 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2026-06-20T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2026-06-21T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2026-06-30T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2026-07-01T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2026-06-20",
+          "2026-07-01"
+        ]
       },
       {
         "id": "TRIP_2026_JOB_VOL",
@@ -650,7 +756,18 @@
         "MCST_recommendation_and_regional_MMA_permit": "Required before foreign departure; submission deadline is not approval",
         "candidate_US_departure_to_Korea": "At least2calendar-date planning buffer before Korea-start; actual flight/timezones/availability chosen only if this candidate is adopted",
         "NBA_cost": "Korea presence+internationaltravel unavailable for simultaneous NBApaidservice. November2023/24 local absence and donor/role/result impact need finite currentseason repair if consumed; nozero-game-loss claim. July2026P26A12:04ET signature/fieldproof needs location/assent access guard, not ordinary military absence.",
-        "actual_flight_permit_order": null
+        "actual_flight_permit_order": null,
+        "Korea_window_meaning": "Full available planning days; the prior evening is reserved for candidate arrival/immigration/rest, not foreign NBAservice.",
+        "candidate_US_to_Korea_departure_host_local": "2026-07-05T10:00:00",
+        "candidate_arrival_Korea_by_KST": "2026-07-06T20:00:00+09:00",
+        "candidate_immigration_and_rest_hours_before_first_activity": 13,
+        "candidate_Korea_to_US_departure_by_KST": "2026-07-17T09:00:00+09:00",
+        "candidate_US_return_available_by_host_local": "2026-07-18T09:00:00",
+        "flight_scope": "Explicit fictional itinerary capacity: USdeparture only after observedNBArelease, Koreaarrival by reservedprior20:00 then first09:00 ≥13hours immigration/rest capacity including≥8hours sleep; USreturn by followingday09:00. These are admission guards, not primary flight/speed or actual airline booking facts.",
+        "foreign_instruction_blocked_calendar_dates_inclusive": [
+          "2026-07-05",
+          "2026-07-18"
+        ]
       }
     ],
     "volunteer_quarters": [
@@ -1182,14 +1299,14 @@
       },
       {
         "id": "DUTY_SLOT_27",
-        "date_local": "2024-11-19",
+        "date_local": "2024-11-26",
         "venue_jurisdiction": "FOREIGN_HOST_CITY",
         "candidate_instruction_hours": 8,
         "start_local": "09:00",
         "end_local": "17:00",
         "NBA_training_or_paid_clinic_hours_counted": 0,
-        "candidate_plan_approval_deadline": "2024-11-09",
-        "candidate_proof_to_support_institution_deadline": "2024-11-29",
+        "candidate_plan_approval_deadline": "2024-11-16",
+        "candidate_proof_to_support_institution_deadline": "2024-12-06",
         "recognized_hours_actual": null,
         "completed_hours_actual": null,
         "foreign_document_translation_required": true,
@@ -1294,22 +1411,6 @@
       },
       {
         "id": "DUTY_SLOT_34",
-        "date_local": "2025-06-24",
-        "venue_jurisdiction": "KOREA_DOMESTIC",
-        "candidate_instruction_hours": 8,
-        "start_local": "09:00",
-        "end_local": "17:00",
-        "NBA_training_or_paid_clinic_hours_counted": 0,
-        "candidate_plan_approval_deadline": "2025-06-14",
-        "candidate_proof_to_support_institution_deadline": "2025-07-04",
-        "recognized_hours_actual": null,
-        "completed_hours_actual": null,
-        "foreign_document_translation_required": false,
-        "candidate_host": "MCST_PRE_DESIGNATED_ELIGIBLE_INSTITUTION_SYMBOLIC_NOT_APPROVAL_FACT",
-        "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
-      },
-      {
-        "id": "DUTY_SLOT_35",
         "date_local": "2025-06-25",
         "venue_jurisdiction": "KOREA_DOMESTIC",
         "candidate_instruction_hours": 8,
@@ -1325,7 +1426,7 @@
         "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
       },
       {
-        "id": "DUTY_SLOT_36",
+        "id": "DUTY_SLOT_35",
         "date_local": "2025-06-26",
         "venue_jurisdiction": "KOREA_DOMESTIC",
         "candidate_instruction_hours": 8,
@@ -1341,7 +1442,7 @@
         "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
       },
       {
-        "id": "DUTY_SLOT_37",
+        "id": "DUTY_SLOT_36",
         "date_local": "2025-06-27",
         "venue_jurisdiction": "KOREA_DOMESTIC",
         "candidate_instruction_hours": 8,
@@ -1357,7 +1458,7 @@
         "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
       },
       {
-        "id": "DUTY_SLOT_38",
+        "id": "DUTY_SLOT_37",
         "date_local": "2025-06-28",
         "venue_jurisdiction": "KOREA_DOMESTIC",
         "candidate_instruction_hours": 8,
@@ -1373,7 +1474,7 @@
         "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
       },
       {
-        "id": "DUTY_SLOT_39",
+        "id": "DUTY_SLOT_38",
         "date_local": "2025-06-29",
         "venue_jurisdiction": "KOREA_DOMESTIC",
         "candidate_instruction_hours": 8,
@@ -1382,6 +1483,22 @@
         "NBA_training_or_paid_clinic_hours_counted": 0,
         "candidate_plan_approval_deadline": "2025-06-19",
         "candidate_proof_to_support_institution_deadline": "2025-07-09",
+        "recognized_hours_actual": null,
+        "completed_hours_actual": null,
+        "foreign_document_translation_required": false,
+        "candidate_host": "MCST_PRE_DESIGNATED_ELIGIBLE_INSTITUTION_SYMBOLIC_NOT_APPROVAL_FACT",
+        "capacity_guard": "No simultaneous game/practice/travel/education; approved candidate local8instruction + actually allowed prep/travel <=12/day. If conflict relocate within same quarter in approved amended plan; this pool is not allNBA calendar certification."
+      },
+      {
+        "id": "DUTY_SLOT_39",
+        "date_local": "2025-06-30",
+        "venue_jurisdiction": "KOREA_DOMESTIC",
+        "candidate_instruction_hours": 8,
+        "start_local": "09:00",
+        "end_local": "17:00",
+        "NBA_training_or_paid_clinic_hours_counted": 0,
+        "candidate_plan_approval_deadline": "2025-06-20",
+        "candidate_proof_to_support_institution_deadline": "2025-07-10",
         "recognized_hours_actual": null,
         "completed_hours_actual": null,
         "foreign_document_translation_required": false,
@@ -2361,6 +2478,76 @@
     "each_actor_planned_total544": true,
     "domestic272_foreign272": true,
     "all12activequarter_plans_atleast24": true,
+    "all68_sessions_times7trip_region_flight_rest_pairs_checked": 476,
+    "declared_region_flight_rest_conflicts": 0,
+    "all_domestic_sessions_inside_Korea_trip": true,
+    "Nov26_foreign_after_Nov25_US_return_min_hours": 24,
+    "June25_first_activity_after_June24_20KST_arrival_capacity_hours": 13,
+    "trip_region_flight_rest_pair_checks": [
+      {
+        "trip_id": "TRIP_2023_BASIC_JOB_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2023-11-09",
+          "2023-11-25"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2024_MILITARY_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2024-07-11",
+          "2024-08-30"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2024_JOB_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2024-11-14",
+          "2024-11-25"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2025_AFTER_TITLE_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2025-06-23",
+          "2025-07-03"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2025_JOB_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2025-08-17",
+          "2025-08-30"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2026_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2026-06-20",
+          "2026-07-01"
+        ],
+        "conflicting_session_ids": []
+      },
+      {
+        "trip_id": "TRIP_2026_JOB_VOL",
+        "sessions_checked": 68,
+        "foreign_blocked_dates_inclusive": [
+          "2026-07-05",
+          "2026-07-18"
+        ],
+        "conflicting_session_ids": []
+      }
+    ],
     "all_candidate_sessions_before_nominal_end": true,
     "no_candidate_session_military_basic_job_overlap": true,
     "known_used_title_packet_playoff_dates_checked": 75,

@@ -1,0 +1,127 @@
+{
+  "id": "THREEPEAT_CURRENT_PACK_COMPILER_SECOND_FAILURE_2026_10_09",
+  "status": "NEEDS_REPAIR_ADDITIONAL_REQUIRED_EPISODE_STATE_STRUCTURE",
+  "date": "2026-10-09",
+  "reviewer": "Codex lc1_result_blind_review",
+  "scope": "One additional concrete structural counterexample requested by root; no repeated14 semantic attacks or expanded IO testing.",
+  "reviewed_artifacts_sha256": {
+    "tools/build_threepeat_actual_context_packs.py": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
+    "tests/test_threepeat_actual_pack_gates.py": "1d6d38b60521ea805059f913a07c6fad8c2013f77e6d9d644c56f7f9a5715621",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "4525dc3bb02c8cd06becf54835957ccb665cb7975e21816290ccdbdbc34695dd",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "d883396bf7061ba2551e16ca8fecfd54113373e59cff976129eb7f5ea83469f6"
+  },
+  "actual_counterexample": {
+    "compiler_sha256": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
+    "fixture_builder": "Existing producer fixture helper used only to construct isolated valid16 control; independent new mutation absent from frozen26 test methods",
+    "control": {
+      "N": 16,
+      "nba_percent": 75
+    },
+    "mutation": {
+      "episode": 6,
+      "unit_id": "M04",
+      "middle_of_same_unit": true,
+      "allocation_entry_state": null,
+      "allocation_exit_state_required": null,
+      "Blueprint_entry_state": null,
+      "Blueprint_exit_state_required": null
+    },
+    "review_pins_and_payload_refreshed": true,
+    "outcome": "ACCEPTED",
+    "pack_count": 16,
+    "actual_emitted_fields": {
+      "entry_state": null,
+      "exit_state_required": null
+    },
+    "real_repo_Pack_directory_exists": false
+  },
+  "required_findings": [
+    {
+      "id": "G11-TP-COMPILER-F04",
+      "severity": "MATERIAL_REQUIRED_REPAIR",
+      "classification": "ACTUAL_REPRODUCED_COUNTEREXAMPLE",
+      "path": "tools/build_threepeat_actual_context_packs.py",
+      "line": 439,
+      "source_pointers": [
+        "design/test_blueprints.json#/blueprints/5/entry_state",
+        "design/test_blueprints.json#/blueprints/5/exit_state_required",
+        "design/THREEPEAT_FINAL_EPISODE_ALLOCATION.json#/episodes/5/entry_state",
+        "design/THREEPEAT_FINAL_EPISODE_ALLOCATION.json#/episodes/5/exit_state_required"
+      ],
+      "observed": "Fresh16 synthetic control passes. Both episode6 M04 allocation and individual Blueprint required entry/exit fields become null with fresh exact review. compile_inputs still returns16 ACTUAL_VERIFIED_CURRENT_CONTEXT_PACK objects; sixth nested Blueprint contains both null.",
+      "mechanism": "Blueprint/allocation equality at430 passes None==None. Unit boundary check404–406 only requires first entry and last exit in each unit. Per-Blueprint mandatory text guard439–444 omits entry_state and exit_state_required. Middle episode therefore lacks both required story states.",
+      "minimum_repair": "Apply existing text() nonempty/nonwhitespace validation to entry_state and exit_state_required for every individual Blueprint. Equality already binds allocation to Blueprint. Keep meaningful valid control; reject this null case and equivalent blank text.",
+      "not_requested": "No new machine interpretation of adjacent natural-language state compatibility, new author approval, all82/private source gate or manuscript change."
+    }
+  ],
+  "material_findings_count": 1,
+  "first_failure_preserved": {
+    "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json",
+    "normalized_LF_SHA256": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19"
+  },
+  "previous_pass_generation_preserved": {
+    "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09.json",
+    "normalized_LF_SHA256": "68a1b993cc7eb29b02ab6fd1ed29772c049eb3702a7c07ae7e10aa0e8fafd798",
+    "file_edited": false,
+    "disposition": "Its bounded closure of original three repairs remains recorded. This subsequent structural counterexample prevents treating90df generation as final compiler acceptance; later repair needs separate generation evidence."
+  },
+  "execution_limit": "Producer fixture helper only supplies isolated valid16 data; independent mutation and actual result are separate from original26 test assertions. TemporaryDirectory removed after run. No synthetic authority becomes repository story authority.",
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false,
+    "actual_Pack": 0,
+    "manuscript": 0,
+    "final_N": null,
+    "whole_G13_G14": false,
+    "C01_selected": false,
+    "early_reward_selected": false,
+    "schedules": 0
+  },
+  "mutations": {
+    "assigned_review_only": true,
+    "source_or_code_or_central_or_original_receipt_edits": 0,
+    "Git_stage": 0,
+    "real_Pack_or_manuscript": 0
+  },
+  "project_progress": [
+    {
+      "number": 1,
+      "name": "2020 드래프트 연쇄",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 2,
+      "name": "Chicago2020–21",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 3,
+      "name": "2021–23 거래·계약",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 4,
+      "name": "NBA 本편 커리어",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "number": 5,
+      "name": "결말·구조",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "number": 6,
+      "name": "문체·Pack",
+      "status": "H08_REQUIRED_TEXT_STRUCTURE_REPAIR"
+    },
+    {
+      "number": 7,
+      "name": "통합·독립·작가 승인",
+      "status": "PENDING"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "actual_HEAD_at_write": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95"
+}

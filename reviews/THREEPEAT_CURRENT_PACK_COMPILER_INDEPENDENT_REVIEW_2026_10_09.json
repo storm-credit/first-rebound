@@ -1,0 +1,238 @@
+{
+  "id": "THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09",
+  "date": "2026-10-09",
+  "reviewer": "Codex lc1_result_blind_review",
+  "status": "PASS_SCOPED_REPAIRED_CURRENT_PACK_COMPILER_SUPPLIED_AUTHORITY_GATES",
+  "independent_code_review_completed": true,
+  "reviewed_artifacts_sha256": {
+    "tools/build_threepeat_actual_context_packs.py": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
+    "tests/test_threepeat_actual_pack_gates.py": "1d6d38b60521ea805059f913a07c6fad8c2013f77e6d9d644c56f7f9a5715621",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "4525dc3bb02c8cd06becf54835957ccb665cb7975e21816290ccdbdbc34695dd",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "d883396bf7061ba2551e16ca8fecfd54113373e59cff976129eb7f5ea83469f6"
+  },
+  "source_hash_method": "UTF8 BOM removed / CRLF and loneCR normalized LF / SHA256. Raw bytes and normalized digests distinguished.",
+  "scope": {
+    "accepted": "Current9Act/EPI compiler repair at supplied-authority/type/access/output boundary. Same previously ACCEPTED five variants were independently rerun using the independent16-episode synthetic valid control. Current missing inputs remain blocked.",
+    "not_certified": [
+      "Actual final N/allocation/current history LOCK or ACTUAL individual Blueprint issuance",
+      "Selection of C01 calendar, early reward, personal awards or actual guest/institution permission",
+      "Narrative prose-level meaning or individual private source truth from matching SHA",
+      "Whole history/G13/G14/G16, actual Pack, manuscript or gate opening"
+    ],
+    "source_generation_policy": "Direct compiler refs consume explicitly fixed current live bytes only. Unsupported snapshot/epoch declarations now fail explicitly. This PASS does not claim runtime Git snapshot reading; historical generations remain in immutable source/adoption receipts and are not repinned as current."
+  },
+  "initial_failed_generation": {
+    "commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "actual_git_show_original_four_sha256": {
+      "tools/build_threepeat_actual_context_packs.py": "8c586dec26c556c5d6ef6c0d08580037fe0aad6f21d9bc2ea8b3b63857cfda4b",
+      "tests/test_threepeat_actual_pack_gates.py": "645f4404d7e476eae757dadb07b8af20d035b357aca6acca9bdecd7fafaa8481",
+      "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "12842500b4a8147fa787c0c23a9361e8d7c17663eebc3332715a34680d7dbfd2",
+      "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "b1c718c052e80c3e4143e1eb822f6bae9434d96a26150fc25a7cb172da8bf4cd"
+    },
+    "first_failure": {
+      "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json",
+      "normalized_LF_SHA256": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19",
+      "git_snapshot_and_current_raw_bytes_equal": true,
+      "status": "NEEDS_REPAIR_INITIAL_FROZEN_GENERATION"
+    },
+    "prior_failure_overwritten_or_recertified_as_PASS": false
+  },
+  "independent_execution": {
+    "valid_control": {
+      "N": 16,
+      "nba_count": 13,
+      "nba_percent": 81.25,
+      "strict_excluded_draft_percent": 75
+    },
+    "same_five_previous_acceptance_variants": [
+      {
+        "name": "individual_blueprint_boolean_episode",
+        "outcome": "REJECTED",
+        "exception": "ValueError",
+        "message": "Individual Blueprint episode must be an exact integer"
+      },
+      {
+        "name": "individual_blueprint_float_episode",
+        "outcome": "REJECTED",
+        "exception": "ValueError",
+        "message": "Individual Blueprint episode must be an exact integer"
+      },
+      {
+        "name": "individual_blueprint_other_scope",
+        "outcome": "REJECTED",
+        "exception": "ValueError",
+        "message": "Individual Blueprint does not belong to current scope"
+      },
+      {
+        "name": "declared_git_snapshot_ignored",
+        "outcome": "REJECTED",
+        "exception": "ValueError",
+        "message": "Snapshot/epoch source references are unsupported; never interpret declared history as live bytes"
+      },
+      {
+        "name": "CURRENT_PLAN_typed_FACT",
+        "outcome": "REJECTED",
+        "exception": "ValueError",
+        "message": "FACT cannot be CURRENT_PLAN or inferred knowledge"
+      }
+    ],
+    "explicit_design_plan_control": "ACCEPTED_AS_AUTHOR_MODELED_DESIGN_NOT_FACT",
+    "isolated_full_output_control": {
+      "EP_files": 16,
+      "manifest_files": 1,
+      "check": "PASS",
+      "CLOSED": true,
+      "manuscript_allowed": false
+    },
+    "actual_repository_execution": [
+      {
+        "mode": [
+          "default"
+        ],
+        "actual_python_returncode": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json",
+        "actual_output_directory_exists": false
+      },
+      {
+        "mode": [
+          "--write"
+        ],
+        "actual_python_returncode": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json",
+        "actual_output_directory_exists": false
+      },
+      {
+        "mode": [
+          "--check"
+        ],
+        "actual_python_returncode": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json",
+        "actual_output_directory_exists": false
+      }
+    ],
+    "temp_fixture_removed": true
+  },
+  "same_fixture_contract": {
+    "independent_of_producer_factory": true,
+    "description": "Independent script rebuilds original16-control from first-failure review: own synthetic16 N, exact current units, selected NBA+Draft policy13/16, named synthetic C01 coveringM08/EPI and reward coveringM04, separate synthetic Blueprint writer/reviewer, source refs and detached authority payload. All fixtures are OS TemporaryDirectory and were removed.",
+    "mutations_refresh_exact_review_pins": true,
+    "all_fixture_content_is_not_story_authority": true,
+    "old_fixture_output_claim_not_reused_as_test_evidence": true
+  },
+  "finding_dispositions": [
+    {
+      "finding": "G11-TP-COMPILER-F01",
+      "status": "RESOLVED_AT_REPAIRED_GENERATION_ONLY",
+      "previous_variants": [
+        "individual_blueprint_boolean_episode",
+        "individual_blueprint_float_episode",
+        "individual_blueprint_other_scope"
+      ],
+      "actual_repair": "Exact integer individual Blueprint episode and equality of individual current scope_id now precede ordinary Blueprint/allocation equality. All three formerly accepted variants reject; control passes."
+    },
+    {
+      "finding": "G11-TP-COMPILER-F02",
+      "status": "RESOLVED_AT_REPAIRED_GENERATION_ONLY",
+      "previous_variant": "declared_git_snapshot_ignored",
+      "actual_repair": "Sources.read explicitly rejects source_snapshot_commit,source_snapshot_commits,snapshot_commit,source_epoch,epoch. Prior40-zero declared Git commit now rejects before reading live bytes. It does not silently accept a historical declaration or add a fake Git resolver."
+    },
+    {
+      "finding": "G11-TP-COMPILER-F03",
+      "status": "RESOLVED_AT_REPAIRED_GENERATION_ONLY",
+      "previous_variant": "CURRENT_PLAN_typed_FACT",
+      "actual_repair": "FACT requires OBSERVED_EVENT. Former FACT+CURRENT_PLAN with matched plan witness rejects. Same plan retained as AUTHOR_MODELED_DESIGN passes; publicly announced future schedule may be framed as an observed announcement, not future game already occurred."
+    }
+  ],
+  "producer_test_execution": {
+    "command": "C:/Python314/python.exe -B -X utf8 -m unittest discover -s tests -p test_threepeat_actual_pack_gates.py -v",
+    "actual_exit_code": 0,
+    "tests_run": 26,
+    "result": "OK",
+    "wall_time_seconds": 5.4113944,
+    "old_test_methods_preserved": 23,
+    "new_targeted_methods": 3,
+    "classification": "Actual rerun of producer26 tests. Separate evidence from independent16 control/five prior acceptance attacks.",
+    "coverage_retained": [
+      "C01/earlyreward unselected/HOLD and fake current LOCK blocked against actual selected source",
+      "finalN/old14units/candidate/OPEN/device constraints",
+      "owner/scene/clock/ghost/future-event and claim types",
+      "stale source/review/payload/source escape and UTF8 text locators",
+      "output entire preflight/collision/idempotent check and partial IO rollback"
+    ]
+  },
+  "required_findings": [],
+  "material_findings": [],
+  "required_source_edits": [],
+  "limits": [
+    "Acceptance is bounded to initial three repaired defects and earlier reviewed supplied-input guards; it is not a new sourceblind semantic validation of every story source.",
+    "26 producer tests exercise isolated temporary fixtures; valid synthetic data do not create real current authority or real Context Packs.",
+    "Compiler rejects unsupported declared historical epochs. A current accepted typed source/adoption bridge must be supplied when real future inputs consume historical provenance; old failed source SHA cannot simply be repinned to a current source.",
+    "Hashes and distinct producer/reviewer strings do not prove human identity, historical truth or fully forged author selections.",
+    "IO tests do not certify atomic behavior under arbitrary concurrent filesystem writers.",
+    "Existing finite current scope remains9 main units+brief EPI; no old14/42 replay, all82/1230/private certificate or new author choices introduced."
+  ],
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false,
+    "actual_Pack": 0,
+    "manuscript": 0,
+    "final_N": null,
+    "current_history_LOCK_issued": false,
+    "current_actual_Blueprint_or_POV_issued": false,
+    "C01_selection": null,
+    "early_reward_selection": null,
+    "personal_award_selection": null,
+    "whole_G13_G14": false,
+    "schedules": 0
+  },
+  "mutations": {
+    "assigned_review_only": true,
+    "producer_or_central_or_input_mutations": 0,
+    "Git_stage_mutations": 0,
+    "real_manuscript_or_Packs": 0
+  },
+  "project_progress": [
+    {
+      "number": 1,
+      "name": "2020 드래프트 연쇄",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 2,
+      "name": "Chicago2020–21",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 3,
+      "name": "2021–23 거래·계약",
+      "status": "COMPLETE"
+    },
+    {
+      "number": 4,
+      "name": "NBA 본편 커리어",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "number": 5,
+      "name": "결말·구조",
+      "status": "IN_PROGRESS_FINAL_N_NULL"
+    },
+    {
+      "number": 6,
+      "name": "집필 규격·Context Pack",
+      "status": "H08_CODE_REPAIR_SCOPED_ACCEPTED_REAL_INPUTS_AND_PACK_PENDING"
+    },
+    {
+      "number": 7,
+      "name": "통합·독립·작가 승인",
+      "status": "PENDING"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "observed_HEAD_at_receipt_write": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95"
+}

@@ -237,6 +237,37 @@ class CurrentPackGates(unittest.TestCase):
                 self.write(compiler.BLUEPRINT, self.authority)
                 self.reject('not Boolean or float')
 
+    def test_individual_blueprint_episode_and_scope_are_exact(self):
+        bp = self.blueprints[0]
+        for field, value, regex in [('episode', True, 'exact integer'),
+                                    ('episode', 1.0, 'exact integer'),
+                                    ('scope_id', 'LEGACY_OTHER_SCOPE', 'current scope')]:
+            with self.subTest(field=field, value=value):
+                bp['episode'] = 1
+                bp['scope_id'] = self.common['scope_id']
+                bp[field] = value
+                self.refresh()
+                self.reject(regex)
+
+    def test_declared_snapshot_is_rejected_instead_of_reading_live(self):
+        claim = self.blueprints[0]['claims'][0]
+        claim['test_preserve_native_text_refs'] = True
+        claim['source_refs'] = [{**self.ref('canon/test_selections.json', '/selected_design_targets'),
+                                 'source_snapshot_commit': '0' * 40}]
+        self.refresh()
+        self.reject('Snapshot/epoch source references are unsupported')
+
+    def test_current_plan_cannot_be_exported_as_fact(self):
+        claim = self.blueprints[0]['claims'][0]
+        witness = self.blueprints[0]['information_boundary']['access_witnesses'][0]
+        claim.update(status='FACT', primary_source_body_verified=True, temporal_kind='CURRENT_PLAN')
+        witness['knowledge_kind'] = 'CURRENT_PLAN'
+        self.refresh()
+        self.reject('FACT cannot be CURRENT_PLAN')
+        claim['status'] = 'AUTHOR_MODELED_DESIGN'
+        self.refresh()
+        compiler.compile_inputs(self.root)
+
     def test_candidate_open_gate_and_device_budget_fail_even_with_new_review(self):
         bp = self.blueprints[0]
         original = copy.deepcopy(bp)

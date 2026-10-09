@@ -1,6 +1,6 @@
 # 현재 삼연패 본편 Context Pack 입력 계약
 
-상태: **구현 완료·독립 코드 검수 대기**. 이 문서는 입력 형식을 정의하며 작품의 선택·최종 회차·청사진을 승인하지 않는다. 실제 Pack은 0개이며 원고와 설계 게이트는 CLOSED, freeze는 v0.30 PARTIAL이다.
+상태: **첫 독립 검수의 3개 결함 수리 완료·독립 재검수 대기**. 이 문서는 입력 형식을 정의하며 작품의 선택·최종 회차·청사진을 승인하지 않는다. 실제 Pack은 0개이며 원고와 설계 게이트는 CLOSED, freeze는 v0.30 PARTIAL이다. 최초 입력과 실패 영수증은 Git `f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95`에 보존되며 이 세대의 입력 해시를 새 세대의 현재 입력 핀으로 바꾸지 않는다.
 
 ## 1. 적용 범위와 실행
 
@@ -50,7 +50,7 @@
 
 ## 5. 실제 개별 청사진과 정보 접근
 
-권위 파일의 `episode_authorities`는 정확히 N개의 정수 회차와 `qualified_status=ACTUAL_VERIFIED`, 청사진 `path/source_sha256/json_pointer`를 가진다. 묶음 문서 상태는 `ACTUAL_VERIFIED_CURRENT_BLUEPRINT_BUNDLE`, 개별 객체는 `ACTUAL_VERIFIED`여야 한다. 후보와 문서상 검수 완료 플래그를 실제 개별 청사진으로 승격하지 않는다.
+권위 파일의 `episode_authorities`는 정확히 N개의 정수 회차와 `qualified_status=ACTUAL_VERIFIED`, 청사진 `path/source_sha256/json_pointer`를 가진다. 묶음 문서 상태는 `ACTUAL_VERIFIED_CURRENT_BLUEPRINT_BUNDLE`, 개별 객체는 `ACTUAL_VERIFIED`여야 한다. 개별 객체도 Boolean/float가 아닌 정확한 정수 `episode`와 현재와 같은 `scope_id`를 가져야 한다. 후보와 문서상 검수 완료 플래그를 실제 개별 청사진으로 승격하지 않는다.
 
 청사진에는 구체적인 `timeline_window`, `unit_question`, 1~2개 `primary_devices`, `setup_to_plant`, `payoff_to_consume`, `reader_question`, `relationship_state`, `physical_state`, `basketball_goal`, `forbidden_changes`가 필요하다. 실제 사용 미해소 종속은 `unresolved_used_dependencies=[]`가 되어야 한다. 이 문서가 새 학업 증서·개인 임상 기록·모든 NBA 박스의 현실 인증을 요구하지 않는다.
 
@@ -58,11 +58,13 @@
 
 각 witness는 존재하는 장면 ID, 그 장면 POV와 같은 owner, 같은 장면 시계, 획득 시계, 구체적 방법과 그 장면에 속한 claim 인덱스만 가진다. 관측 사건 시계 ≤ 획득 시계 ≤ 장면 시계다. CURRENT_PLAN과 EXPLICIT_INFERENCE는 관측 FACT가 아니며 주장과 witness의 temporal_kind가 같아야 한다. 모든 장면 지식은 witness가 뒷받침하고 모든 claim은 실제 장면에 사용된다. Boolean/NaN/Infinity 시계, 존재하지 않는 장면·다른 인물·다른 장면 claim을 붙인 witness는 거절한다.
 
-주장의 status는 CANON_FUNCTION/AUTHOR_MODELED_DESIGN/FACT/INFERENCE다. FACT는 `primary_source_body_verified=true`, INFERENCE는 `inference_visible=true`가 필요하고 모두 원 출처를 가진다. 이 표시는 공급된 자료와 검수 범위의 선언이며 컴파일러가 원문의 진실이나 인물의 사적 인지 사실을 별도로 인증한다는 뜻이 아니다.
+주장의 status는 CANON_FUNCTION/AUTHOR_MODELED_DESIGN/FACT/INFERENCE다. FACT는 temporal_kind가 OBSERVED_EVENT여야 하며 `primary_source_body_verified=true`, INFERENCE는 `inference_visible=true`가 필요하고 모두 원 출처를 가진다. CURRENT_PLAN을 FACT로 내보낼 수 없다. 공개된 향후 일정의 발표를 아는 사실은 관측한 발표 사건으로 표현하며 향후 경기가 이미 일어났다는 관측으로 바꾸지 않는다. 이 표시는 공급된 자료와 검수 범위의 선언이며 컴파일러가 원문의 진실이나 인물의 사적 인지 사실을 별도로 인증한다는 뜻이 아니다.
 
 ## 6. 원 출처와 독립 검수
 
 참조는 repository 내부 상대 경로·정규화 UTF8 LF SHA256을 사용한다. JSON의 루트 포인터는 빈 문자열이다. `/`는 빈 문자열 키, `~0`/`~1`만 허용하며 배열 인덱스는 0 또는 선행0 없는 양의 정수다. `-1`, `01`, `-`, 잘못된 tilde escape는 금지한다. 중복 JSON 키와 비유한 숫자도 거절한다.
+
+이번 컴파일러는 실제 현재 파일의 bytes만 읽는다. 직접 참조에 `source_snapshot_commit`, `source_snapshot_commits`, `snapshot_commit`, `source_epoch`, `epoch`를 선언하면 지원하지 않는 세대 참조로 명시적으로 거절한다. 이를 무시한 채 live 파일을 그 Git 세대의 자료라고 읽지 않는다. 과거 입력·실패·영수증의 세대 메타데이터는 보존하며, 실제 팩의 현재 typed claim은 해당 범위로 이미 채택된 고정 자료의 현재 핀을 소비한다. 원 자료 자체를 복제하거나 과거 검수 해시를 현재 승인 해시로 바꾸는 절차가 아니다.
 
 MD/CSV/UTF8 텍스트는 새 JSON 사본 없이 `format=UTF8_TEXT`, `json_pointer=""`, 명시적 `text_locator`로 읽는다. locator는 `WHOLE_TEXT` 또는 1부터 시작하는 정수 `LINE_RANGE`(start_line/end_line)다. 선택적으로 `expected_text`를 직접 대조한다. 텍스트 본문을 선택 권위의 JSON 객체로 해석하지 않는다. 선택·정책·범위 권위는 JSON 객체여야 한다. 원 PDF 등 binary는 기존 typed evidence receipt의 필요한 필드만 참조하며 raw PDF SHA를 UTF8 정규화 SHA와 혼동하지 않는다.
 
@@ -76,4 +78,4 @@ MD/CSV/UTF8 텍스트는 새 JSON 사본 없이 `format=UTF8_TEXT`, `json_pointe
 
 모든 입력을 먼저 검증하고 출력 전체를 preflight한다. 오래되거나 다른 내용의 기존 Pack·예상하지 않은 파일/디렉터리·경로 이탈을 발견하면 첫 새 파일도 쓰지 않는다. 파일은 exclusive create로 만들며 기존 같은 bytes는 재사용하고 덮어쓰지 않는다. 쓰기 도중 실패하면 이번 호출에서 막 생성한 파일을 제거한다. 시스템의 다른 프로세스와 모든 상황에서 원자적이라는 주장은 하지 않는다.
 
-현재 보호 테스트는 격리된 가변 N/9막, 선택 HOLD 세탁, 미사용 개인상과 HigherMax, 유한 출구 누락, 최종 N/정책/드래프트 분류, stale/producer review, 후보/OPEN/device, RFC6901, 시계·ghost witness, 원 MD/CSV, JSON 중복/overflow, 전체 출력 사전 대조와 부분 IO 복구를 다룬다. 실제 Pack/청사진/원고 생성이나 G13/G14 통과를 인증하지 않는다. 후행 총괄·독립 공격 검수가 끝나기 전에는 **독립 수락 0**이다.
+현재 보호 테스트 26개는 최초23개를 유지하고 개별 청사진 번호·범위, 명시된 지원하지 않는 세대, FACT+CURRENT_PLAN의 실제 실패 반례 3종을 추가한다. 기존 검수 범위는 격리된 가변 N/9막, 선택 HOLD 세탁, 미사용 개인상과 HigherMax, 유한 출구 누락, 최종 N/정책/드래프트 분류, stale/producer review, 후보/OPEN/device, RFC6901, 시계·ghost witness, 원 MD/CSV, JSON 중복/overflow, 전체 출력 사전 대조와 부분 IO 복구다. 실제 Pack/청사진/원고 생성이나 G13/G14 통과를 인증하지 않는다. 후행 총괄·독립 공격 재검수가 끝나기 전에는 **수리본 독립 수락 0**이다.

@@ -1,6 +1,6 @@
 {
   "id": "THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09",
-  "status": "IMPLEMENTED_INPUT_CONTRACT_PENDING_INDEPENDENT_CODE_REVIEW",
+  "status": "REPAIRED_INPUT_CONTRACT_PENDING_INDEPENDENT_CODE_RECHECK",
   "schema_kind": "EXECUTABLE_COMPILER_CONTRACT_DOCUMENT_NOT_AUTHORITY_OR_FORMAL_JSON_SCHEMA",
   "producer_id": "lc1_final_payoff",
   "baseline_main": "302c9f6",
@@ -19,8 +19,9 @@
     "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.json": "cea2ffe0958fb1532855ec31cd512ccaa8f240fbd2bac300775bd3c34703f937",
     "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md": "7ee473ab971180b5fbe831d4d933aa14a85462a24a2ef692c2790dd4fb4ae411",
     "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
-    "tools/build_threepeat_actual_context_packs.py": "8c586dec26c556c5d6ef6c0d08580037fe0aad6f21d9bc2ea8b3b63857cfda4b",
-    "tests/test_threepeat_actual_pack_gates.py": "645f4404d7e476eae757dadb07b8af20d035b357aca6acca9bdecd7fafaa8481"
+    "tools/build_threepeat_actual_context_packs.py": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
+    "tests/test_threepeat_actual_pack_gates.py": "1d6d38b60521ea805059f913a07c6fad8c2013f77e6d9d644c56f7f9a5715621",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19"
   },
   "current_scope": {
     "active_unit_ids": [
@@ -159,7 +160,15 @@
       "selected_authority_object": false
     },
     "binary": "기존 typed evidence receipt의 필요한 필드를 소비하며 binary를 UTF8 JSON 원문이라고 읽지 않는다.",
-    "every_actually_consumed_source_exact_review_pin_required": true
+    "every_actually_consumed_source_exact_review_pin_required": true,
+    "unsupported_direct_generation_markers": [
+      "source_snapshot_commit",
+      "source_snapshot_commits",
+      "snapshot_commit",
+      "source_epoch",
+      "epoch"
+    ],
+    "generation_policy": "직접 actual Pack 출처는 live 고정 bytes만 소비한다. 명시된 지원하지 않는 세대를 무시하지 않고 거절한다. 과거 입력/실패/검수 세대는 원자료에서 보존하며 현재 자료로 오인하지 않는다."
   },
   "category_policy_contract": {
     "minimum_percent": 75,
@@ -303,7 +312,9 @@
       2
     ],
     "unresolved_used_dependencies": [],
-    "claims_required": true
+    "claims_required": true,
+    "individual_episode_type": "type=int만; True/False/float는 allocation 값과 == 같아도 거절",
+    "individual_scope_id": "현재 네 입력과 동일한 scope_id 필수"
   },
   "information_access_contract": {
     "boundary_required_fields": [
@@ -345,7 +356,7 @@
       "FACT",
       "INFERENCE"
     ],
-    "FACT": "primary_source_body_verified=true 및 실제 핀된 source_refs",
+    "FACT": "temporal_kind=OBSERVED_EVENT 및 primary_source_body_verified=true/정확한 source_refs. CURRENT_PLAN은 FACT 불가.",
     "INFERENCE": "inference_visible=true; EXPLICIT_INFERENCE witness와 동일한 temporal_kind",
     "future_or_private_truth_certification": false
   },
@@ -378,7 +389,7 @@
   },
   "verification": {
     "command": "C:/Python314/python.exe -B -X utf8 -m unittest discover -s tests -p test_threepeat_actual_pack_gates.py -v",
-    "isolated_tests_passed": 23,
+    "isolated_tests_passed": 26,
     "test_fixture_scope": "TemporaryDirectory only; 실제 권위·원고·Pack 아님.",
     "default_current_validation_exit_code": 2,
     "default_block_reason": "Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json",
@@ -386,7 +397,8 @@
     "legacy_changed": false,
     "central_changed": false,
     "git_mutation": false,
-    "code_review_and_independent_attack_review_pending": true
+    "code_review_and_independent_attack_review_pending": true,
+    "repair_generation_independent_recheck_pending": true
   },
   "progress_rows": [
     {
@@ -417,7 +429,7 @@
     {
       "number": 6,
       "name": "집필 규격·Context Pack",
-      "status": "H08 컴파일러/스키마 구현·23 테스트 통과; 독립 코드 검수와 실제 입력·Pack 미완료"
+      "status": "H08 최초23개 보존·세결함 targeted수리/26 테스트 통과; 수리본 독립 재검수와 실제 입력·Pack 미완료"
     },
     {
       "number": 7,
@@ -430,5 +442,34 @@
     "through_group_6_major_groups": 3,
     "H08_independent_acceptance": 1,
     "actual_pack_count": 0
+  },
+  "repair_history": {
+    "preserved_initial_snapshot_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "first_failure_source": {
+      "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json",
+      "LF_SHA256": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19",
+      "source_snapshot_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95"
+    },
+    "initial_artifacts_sha256": {
+      "tools/build_threepeat_actual_context_packs.py": "8c586dec26c556c5d6ef6c0d08580037fe0aad6f21d9bc2ea8b3b63857cfda4b",
+      "tests/test_threepeat_actual_pack_gates.py": "645f4404d7e476eae757dadb07b8af20d035b357aca6acca9bdecd7fafaa8481",
+      "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "12842500b4a8147fa787c0c23a9361e8d7c17663eebc3332715a34680d7dbfd2",
+      "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "b1c718c052e80c3e4143e1eb822f6bae9434d96a26150fc25a7cb172da8bf4cd"
+    },
+    "repaired_findings": [
+      "G11-TP-COMPILER-F01",
+      "G11-TP-COMPILER-F02",
+      "G11-TP-COMPILER-F03"
+    ],
+    "targeted_repairs": [
+      "개별 청사진 episode 정확한 int 및 현재 scope_id 확인",
+      "직접 참조의 지원하지 않는 snapshot/epoch를 명시적으로 거절",
+      "FACT temporal_kind는 OBSERVED_EVENT만 허용; CURRENT_PLAN 금지"
+    ],
+    "old_review_input_hashes_rewritten_as_current": false,
+    "original_tests_preserved": 23,
+    "new_targeted_test_methods": 3,
+    "producer_tests_total": 26,
+    "independent_recheck_acceptance": false
   }
 }

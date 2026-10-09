@@ -1,0 +1,560 @@
+{
+  "id": "THREEPEAT_C01_USED_CALENDAR_INDEPENDENT_REVIEW_2026_10_09",
+  "status": "PASS_PREPARED_C01_USED_CALENDAR_REPAIR_AND_DATED_RULE_SCOPE_ONLY",
+  "reviewer_id": "lc1_final_payoff",
+  "independent_review_completed": true,
+  "review_role": "다른 생산자의 후보 달력·공적 규칙·계약 종속 범위를 직접 읽고 한정 의미/산술/시점 검문. 자신의 이전 route나 H08 구현의 전체 의미를 재수락하지 않는다.",
+  "reviewed_artifacts_sha256": {
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.md": "d7053a0adab28a973fc2055c77ec9226c3ca6bcaacf68a119dc2b8859bf18588",
+    "reviews/THREEPEAT_C01_CURRENT_SCOPE_ROOT_EVIDENCE_DELTA_2026_10_09.json": "0e979b4bb3e162bce04f4c688093341fe94c3db1710d19fd46f42e179efb2100",
+    "reviews/THREEPEAT_C01_USED_CALENDAR_FIRST_FAILURE_2026_10_09.json": "03f1305dcc66c17bdc273d6b1f0f848e1951fe69a4867dc2aea0ed44fb95d209"
+  },
+  "original_failure_preservation": {
+    "immutable_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "initial_JSON_LF_SHA256": "da471bc8767a5b0e7b33037ae3fe71cf53ff9ad63c50a92160cce6929a613215",
+    "initial_MD_LF_SHA256": "fbc2bfc8b6e29b8e25db39e23b71c6dccb580e35a632544b8eda9123044be408",
+    "first_failure_LF_SHA256": "03f1305dcc66c17bdc273d6b1f0f848e1951fe69a4867dc2aea0ed44fb95d209",
+    "first_failure_status_unchanged": "NEEDS_REPAIR_DECLARED_DOMESTIC_TRIP_VS_FOREIGN_SERVICE_LOCATION",
+    "old_failed_input_pins_are_current_input_pins": false
+  },
+  "required_findings": [],
+  "required_findings_count": 0,
+  "closed_initial_findings": [
+    {
+      "id": "C01_CALENDAR_R1",
+      "pointer": "/gold_with_duties_candidate/candidate_volunteer_sessions/26",
+      "related_pointer": "/gold_with_duties_candidate/domestic_trip_capacity/2",
+      "old_counterexample": "11월19일 국외8시간 활동이 11월16~23일 한국 체류와 충돌했다.",
+      "repaired_actual_values": {
+        "date_local": "2024-11-26",
+        "approval_deadline": "2024-11-16",
+        "proof_deadline": "2024-12-06",
+        "Korea_to_US_departure": "2024-11-24",
+        "candidate_US_available": "2024-11-25T09:00:00",
+        "foreign_activity": "2024-11-26T09:00:00"
+      },
+      "direct_candidate_rest_difference_hours": 24,
+      "all7_trips_reverse_foreign_location_and_flight_rest_checks_pass": true,
+      "hours_or_jurisdiction_count_changed": false
+    },
+    {
+      "id": "C01_CALENDAR_T1",
+      "classification": "원 실패 영수증의 미해소 시간 조건, 실제 항공편 부재로 자동 불가능을 판정한 finding이 아님",
+      "pointers": [
+        "/gold_with_duties_candidate/candidate_volunteer_sessions/33",
+        "/gold_with_duties_candidate/domestic_trip_capacity/3"
+      ],
+      "repaired_actual_values": {
+        "domestic_six_dates": [
+          "2025-06-25",
+          "2025-06-26",
+          "2025-06-27",
+          "2025-06-28",
+          "2025-06-29",
+          "2025-06-30"
+        ],
+        "Korea_fullplanning_days": [
+          "2025-06-25",
+          "2025-07-01"
+        ],
+        "foreign_departure_KST": "2025-07-02",
+        "travel_documents_by": "2025-06-22",
+        "US_departure_specific_ET": "2025-06-23T10:00:00-04:00 conditional observed NBA release",
+        "arrival_KST": "2025-06-24T20:00:00+09:00",
+        "first_activity_KST": "2025-06-25T09:00:00+09:00"
+      },
+      "offset_aware_candidate_transit_capacity_hours": 21,
+      "arrival_to_first_activity_capacity_hours": 13,
+      "sleep_ge8_is_fictional_admission_condition_not_actual_sleep_receipt": true,
+      "actual_Jun22_game_finish_club_release_flight_or_entry_certified": false,
+      "quantity_delta_hours": 0
+    }
+  ],
+  "mechanical_checks": {
+    "immutable_repo_pins": [
+      {
+        "path": "design/LC1_CURRENT_R09_PUBLIC_RESULT_AND_MILITARY_AUTHOR_OPTIONS_2026_10_08.json",
+        "LF_SHA256": "ad64a385ea078fb608316ac0fb6e6444e2f295a17b96c63a6a46ecb49264e597",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "research/LC1_R09_TOURNAMENT_AND_NM1_AUTHOR_OPTIONS_2026_10_08.json",
+        "LF_SHA256": "2279d9d66e31d50c9ca9c732aec674d0bf35dd83b61e602da3f87e417b5fd7ef",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json",
+        "LF_SHA256": "2a4c14307ebb593b27f5044a4dd02c7d9d7a08eceeb4c59715b0fdc36f081845",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+        "LF_SHA256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+        "LF_SHA256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+        "LF_SHA256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
+        "LF_SHA256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json",
+        "LF_SHA256": "52e51976877369b7a8b6b3d1a8430696607264c505aedde50463cd8210b91abd",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      },
+      {
+        "path": "simulation/LC1_SELECTED_LATE_SERVICE_ROLE_AND_RETIREMENT_EXECUTION_2026_10_08.json",
+        "LF_SHA256": "ce96e30a31e0b407533e500ff7d5e70b30e04f25cab5c89d4c644834ffba0fea",
+        "source_snapshot_commit": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+        "actual_match": true
+      }
+    ],
+    "source_refs_resolved": 31,
+    "source_epoch_used": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "current_live_central_drift_represented_as_failed_historical_pin": false,
+    "raw_primary_rehashes": [
+      {
+        "id": "CBA_2023",
+        "url": "https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/nba_cba_2023.pdf",
+        "raw_SHA256": "bf178ca0f2d64f9dfe6fde095d3ae43d576b12e19ce7a679618d632584f7ab32",
+        "bytes": 2850534,
+        "raw_match": true
+      },
+      {
+        "id": "LAW_ACT",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=245995&efYd=20221213&efYn=Y&chrClsCd=010202&ancYnChk=0",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_act_20221213_body.html",
+        "raw_SHA256": "d4bf552ca8ef8f520f72de2a1454dd100f0f80c3e3d44f00f67f021949cca934",
+        "bytes": 626444,
+        "raw_match": true
+      },
+      {
+        "id": "LAW_DECREE",
+        "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=249571&efYd=20230605&efYn=Y&chrClsCd=010202&ancYnChk=0",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_decree_20230605_body.html",
+        "raw_SHA256": "2dd2aa2a04ef200fed6d4dcc1090b97ee2bc0a487eb045c2d0849787e2db8f50",
+        "bytes": 1126474,
+        "raw_match": true
+      },
+      {
+        "id": "ARTS_RULE",
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000223738&admRulId=43457&joTpYn=Y&languageType=KO&chrClsCd=010202&prmlNo=1963&prmlYd=20230523&efYd=20230523",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_arts_20230523_body.html",
+        "raw_SHA256": "f42a606e168ea64980f9e14e5a328359c53d3eb415e7e692919c60da19a46c78",
+        "bytes": 91052,
+        "raw_match": true
+      },
+      {
+        "id": "TRAVEL_RULE",
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000220256&admRulId=36188&joTpYn=Y&languageType=KO&chrClsCd=010202&prmlNo=1949&prmlYd=20230302&efYd=20230302",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_travel_20230302_body.html",
+        "raw_SHA256": "d64cf10fafd94341f2de3f7542f98975798cff5cd0a56567bd797808a21e07a0",
+        "bytes": 107037,
+        "raw_match": true
+      },
+      {
+        "id": "ARTS_FIELD_ANNEX4",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=128484183&bylClsCd=200201",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_arts_annex4_20230523.pdf",
+        "raw_SHA256": "999542fe329ed6187d62a8d92f8fb8509b387f721fc2d084b2d42a56e7fc2a59",
+        "bytes": 50897,
+        "raw_match": true
+      },
+      {
+        "id": "TRAVEL_ANNEX_IMAGE_125776543",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=125776543",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_travel_annex_image_125776543.bin",
+        "raw_SHA256": "feb37d296ff83b6c9c6cd4443202ccc196dfd0693b479d02e90a368fcbba6154",
+        "bytes": 87588,
+        "raw_match": true
+      },
+      {
+        "id": "TRAVEL_ANNEX_IMAGE_125776545",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=125776545",
+        "cache_path": "C:/Users/Storm Credit/AppData/Local/Temp/fr-ag2023-20261007/law_travel_annex_image_125776545.bin",
+        "raw_SHA256": "2863b9b9c925acd96ea5365bffc6da2973f33e9eb1d48c9a52e874dcc2489bf8",
+        "bytes": 62690,
+        "raw_match": true
+      },
+      {
+        "id": "MCST_442_BODY",
+        "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000205096&admRulId=49428&joTpYn=Y&languageType=KO&chrClsCd=010202&prmlNo=442&prmlYd=20211014&efYd=20211014",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-threepeat-c01-20261009\\mcst_20211014_body.html",
+        "raw_SHA256": "74884c8115a3af62e07b22f40b5d56be8abfb6499cd4a848035d6a3c64e83df7",
+        "bytes": 48822,
+        "raw_match": true
+      },
+      {
+        "id": "MCST_442_HISTORY",
+        "url": "https://www.law.go.kr/LSW/admRulHstListR.do?admRulSeq=2100000205096",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-threepeat-c01-20261009\\mcst_history.html",
+        "raw_SHA256": "3cce376755c1167692160f5716b041d3373b766dfe10acd2395719b74b762254",
+        "bytes": 2414,
+        "raw_match": true
+      },
+      {
+        "id": "MMA_ARMY_CURRENT_RETROSPECTIVE",
+        "url": "https://www.mma.go.kr/eng/contents.do?mc=mma0000728",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-threepeat-c01-20261009\\mma_army_current.html",
+        "raw_SHA256": "8641891d66188a28c173ccefde1f7986b34d6434fd041eb6e49094d92bc30f82",
+        "bytes": 34801,
+        "raw_match": true
+      },
+      {
+        "id": "MMA_RESERVE_CURRENT_ONLY",
+        "url": "https://www.mma.go.kr/contents.do?mc=usr0000198",
+        "cache_path": "C:\\Users\\Storm Credit\\AppData\\Local\\Temp\\fr-threepeat-c01-20261009\\mma_reserve_current.html",
+        "raw_SHA256": "9bab315392b4a412fe540d3de2f8a66dbb39a6bb9f05e7d54cca021791ee8619",
+        "bytes": 179581,
+        "raw_match": true
+      }
+    ],
+    "raw_primary_count": 12,
+    "GIF_two_cached_render_pixel_identity_verified": true,
+    "sessions_per_actor": 68,
+    "unique_session_dates": 68,
+    "instruction_hours_each_session": 8,
+    "instruction_window_local": "09:00–17:00",
+    "P_and_Rival_each_separate_planned_total": 544,
+    "domestic_hours_each": 272,
+    "foreign_hours_each": 272,
+    "pooled_hours_between_P_and_Rival": false,
+    "quarter_rows": {
+      "2023Q4": {
+        "planned_hours": 24,
+        "domestic_hours": 24,
+        "sessions": 3
+      },
+      "2024Q1": {
+        "planned_hours": 48,
+        "foreign_hours": 48,
+        "sessions": 6
+      },
+      "2024Q2": {
+        "planned_hours": 48,
+        "foreign_hours": 48,
+        "sessions": 6
+      },
+      "2024Q3": {
+        "planned_hours": 48,
+        "domestic_hours": 48,
+        "sessions": 6
+      },
+      "2024Q4": {
+        "planned_hours": 48,
+        "domestic_hours": 16,
+        "sessions": 6,
+        "foreign_hours": 32
+      },
+      "2025Q1": {
+        "planned_hours": 48,
+        "foreign_hours": 48,
+        "sessions": 6
+      },
+      "2025Q2": {
+        "planned_hours": 48,
+        "domestic_hours": 48,
+        "sessions": 6
+      },
+      "2025Q3": {
+        "planned_hours": 48,
+        "domestic_hours": 48,
+        "sessions": 6
+      },
+      "2025Q4": {
+        "planned_hours": 48,
+        "foreign_hours": 48,
+        "sessions": 6
+      },
+      "2026Q1": {
+        "planned_hours": 48,
+        "foreign_hours": 48,
+        "sessions": 6
+      },
+      "2026Q2": {
+        "planned_hours": 48,
+        "domestic_hours": 48,
+        "sessions": 6
+      },
+      "2026Q3": {
+        "planned_hours": 40,
+        "domestic_hours": 40,
+        "sessions": 5
+      }
+    },
+    "quarters_checked": 12,
+    "every_active_quarter_planned_hours_at_least24": true,
+    "session_plan_approval_deadlines_checked": 68,
+    "session_plan_approval_offset_days": -10,
+    "session_proof_deadlines_checked": 68,
+    "session_proof_offset_days": 10,
+    "trip_outbound_document_deadlines_checked": 7,
+    "trip_document_offset_days": -10,
+    "domestic_session_inside_declared_Korea_capacity": true,
+    "session_times7trip_location_and_flight_rest_pair_checks": 476,
+    "declared_region_or_blocked_date_conflicts": [],
+    "education_slot_date_lengths_checked": 6,
+    "education_session_date_overlaps": [],
+    "first_basic_job_notice_offsets_days": 14,
+    "old_military_capacity_days_inclusive": 60,
+    "subwindow_days_inclusive": 21,
+    "military_21_days_is_actual_course_duration_or_legal_minimum": false,
+    "nominal_34month_completion_if_no_exclusion_extension": "2026-08-19",
+    "CHI_used_playoff_dates_checked": 75,
+    "CHI_playoff_dates_by_year": {
+      "2023": 26,
+      "2024": 24,
+      "2025": 25
+    },
+    "session_vs_known_CHI_used_playoff_date_overlaps": [],
+    "current_three_title_dates": [
+      "2023-06-15",
+      "2024-06-20",
+      "2025-06-22"
+    ],
+    "ordinary_early_2024_start_collides_with_title_2025": true,
+    "ordinary_late_2026_27_direct_title_date_conflict": false,
+    "actual_recognized_and_completed_hours_all_null": true,
+    "unchanged_source_pins_refs_primary_rules_and_contract_hold_sections": true
+  },
+  "direct_primary_body_reading": [
+    {
+      "source_id": "MCST_442_BODY",
+      "locators": [
+        "§7",
+        "§7-2",
+        "§8",
+        "§9/9-2/9-3",
+        "§10/11",
+        "§12/13",
+        "§16/18"
+      ],
+      "finding": "국외 인정272시간 상한·지정기관/사전승인·무보수와 인정비용·일 최대12시간·행위자와 기관별 기한을 원문에서 구분했다. 활동10일전 원칙은 계획의 승인 기준이며 모든68행의 approval_deadline이 이를 사용한다."
+    },
+    {
+      "source_id": "MCST_442_HISTORY",
+      "locator": "official history list five versions2021/2020/2017/2016/2015",
+      "finding": "공식 연혁의 최신2021-10-14판과 시행 부칙을 확인해2023 적용의 공개 근거를 뒷받침한다. 이를2035 실제 적용 법으로 연장하지 않는다."
+    },
+    {
+      "source_id": "LAW_ACT",
+      "locators": [
+        "§33-7/33-8",
+        "§55",
+        "§70"
+      ],
+      "finding": "추천·편입과34개월/군사교육 산입·60일 이내 상한·국외허가/25세해1월15일 및 연장신청을 구분한다. 금메달 자체는 복무 면제·공적 결과 선택이 아니다."
+    },
+    {
+      "source_id": "LAW_DECREE",
+      "locators": [
+        "§68-11",
+        "§68-12",
+        "§68-13/14",
+        "§68-20"
+      ],
+      "finding": "아시아경기대회1위의 추천 대상,544시간·분기24·기관 지정,문체부 연간Jan31/월별익월20,종료 전월10일/종료월1일처분/종료일교부,최초 기본·직무교육3개월/14일통지를 직접 확인했다."
+    },
+    {
+      "source_id": "ARTS_RULE",
+      "locators": [
+        "§8/10",
+        "§17",
+        "§24/25"
+      ],
+      "finding": "기본교육3일 이내·첫해 군사교육·월 단위 계산/실적등록의 실제 조문을 읽었다.2일직무·연1일직무·21일군사교육은 준비 용량으로 남고 공식 실제 수료 기간을 인증하지 않는다."
+    },
+    {
+      "source_id": "TRAVEL_RULE",
+      "locators": [
+        "§5/6/7",
+        "Annex1 items6/8"
+      ],
+      "finding": "예술체육요원은 별도 국외허가 대상이고 추천기간 조건이 필요하다. 비금 경로의 취업 허가3년/27세해 제한과25세해1월15일을 원문·실제 이미지로 확인했다.1999년생 후보가 무기한 NBA 연기를 얻었다는 판정은 하지 않는다."
+    },
+    {
+      "source_id": "ARTS_FIELD_ANNEX4",
+      "locator": "physical1 sports section and professional-team note",
+      "finding": "선발 종목 활동 및 허용된 프로 종목의 프로팀 근무 범주를 직접 읽었다.이는 개인별 등록/편입 승인 자체가 아니다."
+    },
+    {
+      "source_id": "MMA_ARMY_CURRENT_RETROSPECTIVE",
+      "locator": "cached official body 현역병(육군)복무기간",
+      "finding": "현재 안내의2020-06-02입영자부터18개월/기본5주 문구를 읽었다.2026 개인 입영명령/실제 최종복무기간의 과거 원전으로 주장하지 않는다."
+    },
+    {
+      "source_id": "MMA_RESERVE_CURRENT_ONLY",
+      "locator": "예비역 병·복무마친 보충역 / currentyear-dischargeyear / eighthyearDec31",
+      "finding": "2026완료→2034말,2027전역→2035말은 현재 규칙 유지 가정의 계산이다.2035 소집·민방위·국외허가 실제 상태는 미해소다."
+    },
+    {
+      "source_id": "CBA_2023",
+      "locators": [
+        "physical135 printed111 ArticleV1/2",
+        "physical37 printed13 ArticleI1(iiii)"
+      ],
+      "finding": "시즌 중 징집 또는 시즌 중 reserve active duty,Active/Inactive 및 협상 급여 조건을 직접 확인했다.비시즌Jul1 일반입영을 자동 적용하거나 실제급여0/전액·YOS2년차감·복무를 고의 서비스 거부로 자동 처리하지 않는다."
+    }
+  ],
+  "filing_actor_deadline_join": {
+    "activity_plan": "actor→management support, normally approved10daysbefore",
+    "activity_proof": "actor→management support within10daysafter; foreign translation",
+    "monthly_support": "management support→MCST nextmonth10",
+    "monthly_ministry": "MCST→MMA nextmonth20",
+    "annual_support": "management support→MCST Jan20",
+    "annual_ministry": "MCST annual operatingplan Jan31",
+    "foreign_departure_documents": "management support→MCST departureminus10; actual recommendation/MMAgrant separate",
+    "basic_and_job_education_notice": "each responsible authority→actor minus14"
+  },
+  "contract_and_epilogue_review": {
+    "P26A_source_pointer": "simulation/CHICAGO_2026_THREE_CORE_SELECTED_RENEWAL_EXECUTION.json#/selected_UPCs/0@302c",
+    "P26A_signature": "2026-07-07T12:04:00-04:00",
+    "late_ordinary_entry": "2026-07-01",
+    "entry_precedes_selected_signature": true,
+    "P26A_first_salary": "3/10*C26",
+    "P26A_years": 4,
+    "preserved_reference_total_USD": 221707584,
+    "contract_resolution": "CONTRACT_HOLD; 실제 NBA서비스와 계약서명/대리권·급여·FAhold·Bird/YOS·복귀 계약을 구분.원가격/Γ를 덮거나 새계약이 선택됐다고 하지 않는다.",
+    "P2030_2033_2034_old_YOS": [
+      12,
+      15,
+      16
+    ],
+    "old_YOS_reused_unqualified_or_mechanically_minus2": false,
+    "P_and_Rival_rejoin_independent": true,
+    "epilogue_order": [
+      "2035-06-18T23:00:00-04:00 NBAserviceend",
+      "2035-06-19T10:00:00-04:00 separately permitted voluntaryguest",
+      "2035-06-20T10:00:00-04:00 publicretirement"
+    ],
+    "UPC_legal_expiry_inferred_from_June18": false,
+    "club_guest_permission_substitutes_for_military_or_travel_permission": false,
+    "LM_prior_role_context_not_automatic_June19_presence": true,
+    "LaVine_no2035_service_imputed": true,
+    "old2027_MVP_restored": false
+  },
+  "unchanged_nonselection_and_limits": {
+    "original_four_public_options_remain_unselected": true,
+    "selected_medal": null,
+    "selected_military_path": null,
+    "selected_NM1": null,
+    "actual_admission": null,
+    "actual_recognized_hours": null,
+    "actual_completed_hours": null,
+    "actual_flight_or_state_travel_permit": null,
+    "full_C01_used_calendar_resolved": false,
+    "whole_current_season_availability_CERT": false,
+    "actual_new_choice_or_private_receipt_created_by_review": false,
+    "finite_remaining_ports": [
+      "C01-RESULT-PATH",
+      "C01-GOLD-CLASS-ABSENCE",
+      "C01-GOLD-544",
+      "C01-LATE-P26-RETURN",
+      "C01-2035"
+    ],
+    "real_regularseason_or_Rival_everygame_availability_checked": false,
+    "candidate_local_date_nonoverlap_is_actual_timezone_flight_game_health_proof": false,
+    "host_local_fields_without_offset": "7trip의 일반 host-local 계획 시각은 실제 출발도시/시차/클럽release가 선택될 때 결합할 조건이다.이번 정확21h 계산은 별도 명시된Jun23_10ET→Jun24_20KST만 사용했다.",
+    "candidate_awake_recovery_or_sleep_ge8_is_medical_certificate": false,
+    "military_class_21day_capacity_requires_actual_fictional_lawful_order_scope_if_adopted": true,
+    "unknown_positive_insurance_or_expense_Gamma_not_zeroed": true,
+    "new_all82_all15_all17seasons_or_private_institution_certificate_gate": false
+  },
+  "additional_tool_scope": {
+    "web_open_attempts": {
+      "MCST442body": "NOT_RECOVERED_THIS_WEB_TOOL",
+      "MCSThistory": "NOT_RECOVERED_THIS_WEB_TOOL",
+      "MMAarmy": "TIMEOUT_THIS_WEB_TOOL",
+      "MMAreserve": "TIMEOUT_THIS_WEB_TOOL"
+    },
+    "cache_primary_body_independently_read": true,
+    "cache_recovery_labeled_fresh_web_success": false,
+    "AGY_NLM_Claude_new_calls_by_reviewer": 0,
+    "initial_NLM_analysis": "원f528 세대의 MD1source 기반 생성 분석이다.수리된 날짜 재검문이나 독립 원전/계산PASS로 소비하지 않는다."
+  },
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript_allowed": false,
+    "actual_Pack": 0,
+    "manuscript_created": 0,
+    "whole_history_LOCK": false,
+    "final_N": null,
+    "Blueprint_LOCK": false,
+    "G13_G14_authority_granted": false,
+    "schedule_created": false
+  },
+  "mutations": {
+    "this_output_only": true,
+    "producer_calendar_changed_by_reviewer": false,
+    "H08_compiler_changed_during_this_final_calendar_review": false,
+    "central_changed": false,
+    "Git_or_stage_changed": false
+  },
+  "project_progress": [
+    {
+      "number": 1,
+      "name": "2020 드래프트 연쇄",
+      "status": "완료 유지"
+    },
+    {
+      "number": 2,
+      "name": "Chicago2020–21",
+      "status": "완료 유지"
+    },
+    {
+      "number": 3,
+      "name": "2021–23 거래·계약",
+      "status": "완료 유지"
+    },
+    {
+      "number": 4,
+      "name": "NBA 본편 커리어",
+      "status": "현재 삼연패 연결 진행·C01 미선택"
+    },
+    {
+      "number": 5,
+      "name": "결말·구조",
+      "status": "최종 N/현재history LOCK 미발급"
+    },
+    {
+      "number": 6,
+      "name": "집필 규격·Context Pack",
+      "status": "H08 수리본 독립재검수 대기·실제Pack0"
+    },
+    {
+      "number": 7,
+      "name": "통합·독립·작가 승인",
+      "status": "후행 통합 대기"
+    }
+  ],
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "acceptance_limit": "후보 준비본의 수리·날짜/수량·공개 규칙/미해소 계약과권한 분리 범위만 수락한다.메달/편입/실적/여행/복무/정규시즌 또는 전체설계의 선택이나 실제청사진/Pack 인증을 발급하지 않는다."
+}
