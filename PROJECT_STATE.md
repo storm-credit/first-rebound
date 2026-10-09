@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-09 [공용 조사 자료 농구 적용](design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.md): 네 지정 문서와 축구 audit·카드·시대/선택 출처 한계를 읽고 농구8카드/현행FC012–022 11기능에 관찰·원인 구별·중단/전환·동료 비용을 적용했다. 캐시NBA2024–25 원규칙 4쪽 해당조항 재열람; 새 AGY/NLM/Claude/독립검수0. 축구 효과/규칙 이식·새수상/분/승패 선택0, 기존본문 미발견·회차범위 대기·개고/Actual/Pack0. 완료1–3/미완료4(6번까지3), v0.30PARTIAL/CLOSED 유지. 아래는 이전이력.
+
 2026-10-09 [현재 본문 개고 요청 접수](reviews/MANUSCRIPT_REVISION_SOURCE_INTAKE_2026_10_09.md): Codex 검수·기존 본문 개고 직접 지시 기록, Claude 사용 금지. 확인한 저장소/작업 폴더에는 회차 본문 미발견·순서/최종범위 빈칸, 원고 위치 입력 대기. 옛14막/780 안내를 현재9막 참조와 구분. 본문 열람/개고/Actual·Pack 갱신0, 기존 완료1–3·미완료4(6번까지3)·전역freeze/gate 유지. 아래는 이전이력.
 
 2026-10-09 [C01 허가 대상 정정](reviews/THREEPEAT_C01_PERMIT_TYPE_CORRECTION_CURRENT_ADOPTION_2026_10_09.md): PR532 후기 육군18개월+취업허가 비교 준비 판정 철회. 원별표 사회복무/대체복무 소집 대상과 현역 구분, Jan1기간/Jan15마감 분리. 11월 후보는 시즌 날짜 요건만 검토·외국군/사회복무 ArticleV·급여/등록/YOS/Bird/복귀 HOLD·금메달 자동선택0. 원자료/peer/NLM 이력 보존, 수정4행 비교 독립 검문. 삼연패2023–25/9막/2035 유지·완료1–3/미완료4(6번까지3)·Nnull·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
