@@ -437,6 +437,7 @@ def compile_inputs(root):
         require(set(c for p in ids for c in port_map[p].get('consequential_choice_ids', [])) <= choices_here,
                 'Episode omits its used exit consequential choice')
         for key in ('episode_function', 'action_choice', 'durable_cost', 'state_change',
+                    'entry_state', 'exit_state_required',
                     'timeline_window', 'unit_question', 'setup_to_plant', 'payoff_to_consume',
                     'reader_question', 'relationship_state', 'physical_state', 'basketball_goal', 'forbidden_changes'):
             text(bp.get(key), f'Blueprint {key}')

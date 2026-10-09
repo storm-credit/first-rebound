@@ -19,9 +19,11 @@
     "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.json": "cea2ffe0958fb1532855ec31cd512ccaa8f240fbd2bac300775bd3c34703f937",
     "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md": "7ee473ab971180b5fbe831d4d933aa14a85462a24a2ef692c2790dd4fb4ae411",
     "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
-    "tools/build_threepeat_actual_context_packs.py": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
-    "tests/test_threepeat_actual_pack_gates.py": "1d6d38b60521ea805059f913a07c6fad8c2013f77e6d9d644c56f7f9a5715621",
-    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19"
+    "tools/build_threepeat_actual_context_packs.py": "0d12037eaaa41ac5b44c3fb81ba89f057aa4a64f46e5ba661f5facf920dd4b68",
+    "tests/test_threepeat_actual_pack_gates.py": "fc5ab6e7938ad21064d4823fcf8f750562a5a2c298b1587837702f2e19c800fb",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09.json": "68a1b993cc7eb29b02ab6fd1ed29772c049eb3702a7c07ae7e10aa0e8fafd798",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_SECOND_FAILURE_2026_10_09.json": "6dcbc72b73028f69528a4d51c0357253c676ba8b79cf3bf784f65d0d43aed3fd"
   },
   "current_scope": {
     "active_unit_ids": [
@@ -314,7 +316,8 @@
     "unresolved_used_dependencies": [],
     "claims_required": true,
     "individual_episode_type": "type=int만; True/False/float는 allocation 값과 == 같아도 거절",
-    "individual_scope_id": "현재 네 입력과 동일한 scope_id 필수"
+    "individual_scope_id": "현재 네 입력과 동일한 scope_id 필수",
+    "individual_entry_exit_text": "entry_state/exit_state_required는 모든 개별 회차에 비어 있지 않은 문자열; allocation과 같은 null/공백도 거절. 인접 자연어 동일 문자열 강제 없음."
   },
   "information_access_contract": {
     "boundary_required_fields": [
@@ -389,7 +392,7 @@
   },
   "verification": {
     "command": "C:/Python314/python.exe -B -X utf8 -m unittest discover -s tests -p test_threepeat_actual_pack_gates.py -v",
-    "isolated_tests_passed": 26,
+    "isolated_tests_passed": 27,
     "test_fixture_scope": "TemporaryDirectory only; 실제 권위·원고·Pack 아님.",
     "default_current_validation_exit_code": 2,
     "default_block_reason": "Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json",
@@ -429,7 +432,7 @@
     {
       "number": 6,
       "name": "집필 규격·Context Pack",
-      "status": "H08 최초23개 보존·세결함 targeted수리/26 테스트 통과; 수리본 독립 재검수와 실제 입력·Pack 미완료"
+      "status": "H08 최초26개 보존·중간회차 두 상태 필드 수리/27 테스트 통과; 최종 수리본 독립 재검수와 실제 입력·Pack 미완료"
     },
     {
       "number": 7,
@@ -459,17 +462,59 @@
     "repaired_findings": [
       "G11-TP-COMPILER-F01",
       "G11-TP-COMPILER-F02",
-      "G11-TP-COMPILER-F03"
+      "G11-TP-COMPILER-F03",
+      "G11-TP-COMPILER-F04"
     ],
     "targeted_repairs": [
       "개별 청사진 episode 정확한 int 및 현재 scope_id 확인",
       "직접 참조의 지원하지 않는 snapshot/epoch를 명시적으로 거절",
-      "FACT temporal_kind는 OBSERVED_EVENT만 허용; CURRENT_PLAN 금지"
+      "FACT temporal_kind는 OBSERVED_EVENT만 허용; CURRENT_PLAN 금지",
+      "모든 개별 회차 entry_state/exit_state_required nonempty text; 중간 회차 null·공백 거절"
     ],
     "old_review_input_hashes_rewritten_as_current": false,
     "original_tests_preserved": 23,
-    "new_targeted_test_methods": 3,
-    "producer_tests_total": 26,
-    "independent_recheck_acceptance": false
+    "new_targeted_test_methods": 4,
+    "producer_tests_total": 27,
+    "independent_recheck_acceptance": false,
+    "second_generation": {
+      "preserved_snapshot_commit": "2b874c47262c65f453e78a84921332801e30a9c6",
+      "previous_limited_acceptance": {
+        "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09.json",
+        "LF_SHA256": "68a1b993cc7eb29b02ab6fd1ed29772c049eb3702a7c07ae7e10aa0e8fafd798",
+        "consume_as_current_final_acceptance": false
+      },
+      "second_failure": {
+        "path": "reviews/THREEPEAT_CURRENT_PACK_COMPILER_SECOND_FAILURE_2026_10_09.json",
+        "LF_SHA256": "6dcbc72b73028f69528a4d51c0357253c676ba8b79cf3bf784f65d0d43aed3fd"
+      },
+      "artifacts_sha256": {
+        "tools/build_threepeat_actual_context_packs.py": "90df7c8ec7288aa476d88368783570f7fa2b02b57fc6e618ecdb34c9740f0628",
+        "tests/test_threepeat_actual_pack_gates.py": "1d6d38b60521ea805059f913a07c6fad8c2013f77e6d9d644c56f7f9a5715621",
+        "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "4525dc3bb02c8cd06becf54835957ccb665cb7975e21816290ccdbdbc34695dd",
+        "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "d883396bf7061ba2551e16ca8fecfd54113373e59cff976129eb7f5ea83469f6"
+      }
+    },
+    "first_repair_targeted_test_methods": 3,
+    "second_repair_targeted_test_methods": 1,
+    "second_repair_subtest_cases": 4,
+    "adjacent_natural_language_exact_equality_added": false
+  },
+  "source_content_snapshot_commits": {
+    "tools/build_lc1_actual_context_packs.py": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "tests/test_lc1_actual_pack_gates.py": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "context-packs/README.md": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.json": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "design/THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09.json": "2b874c47262c65f453e78a84921332801e30a9c6",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_SECOND_FAILURE_2026_10_09.json": "2b874c47262c65f453e78a84921332801e30a9c6",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95"
+  },
+  "source_epoch_policy": {
+    "historical_source_content_pins": "지정 source_content_snapshot_commits의 immutable Git bytes에만 대조; 현재 live 파일과 혼동하지 않는다.",
+    "repair_and_failure_receipts": "repair_history의 각 보존 커밋에서 원 입력과 영수증 세대를 유지한다. 원 수락 해시를 최종 현재 수락으로 쓰지 않는다.",
+    "current_code_and_tests": "해당 현재 파일의 정규화 UTF8/LF bytes를 핀한다.",
+    "runtime_direct_reference_snapshot_support": false,
+    "runtime_direct_reference_policy": "Sources.read의 실제 직접 참조는 현재 bytes만 읽고 명시 snapshot/epoch는 거절한다. 이 문서의 출생 근거 정책은 runtime 참조 지원이 아니다."
   }
 }

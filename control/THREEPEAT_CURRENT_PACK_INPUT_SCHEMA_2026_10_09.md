@@ -48,6 +48,8 @@
 
 각 최종 회차 행과 개별 청사진은 다음 값을 정확히 공유한다: `episode`, `unit_id`, `category`, `episode_function`, `action_choice`, `durable_cost`, `state_change`, `entry_state`, `exit_state_required`, `consumed_exit_port_ids`, `consequential_choice_ids`. 각 막의 첫 진입과 마지막 출구는 현재 역사와 같다. 최종 회차 전체의 포트 합집합이 요구 포트를 빠짐없이 소비해야 한다. 다른 막의 포트를 회차에 붙일 수 없다. 같은 포트의 내부 과정이 여러 회차에 걸칠 수 있으나 그 의미·밀도·인물 비용은 최종표의 독립 검수 대상이다.
 
+중간 회차도 `entry_state`와 `exit_state_required`가 비어 있지 않은 문자열이어야 한다. 서로 같은 null이나 공백을 회차표와 청사진에 넣어 비교를 통과시킬 수 없다. 인접 회차의 자연어 상태를 기계적으로 같은 문자열로 강제하지는 않는다.
+
 ## 5. 실제 개별 청사진과 정보 접근
 
 권위 파일의 `episode_authorities`는 정확히 N개의 정수 회차와 `qualified_status=ACTUAL_VERIFIED`, 청사진 `path/source_sha256/json_pointer`를 가진다. 묶음 문서 상태는 `ACTUAL_VERIFIED_CURRENT_BLUEPRINT_BUNDLE`, 개별 객체는 `ACTUAL_VERIFIED`여야 한다. 개별 객체도 Boolean/float가 아닌 정확한 정수 `episode`와 현재와 같은 `scope_id`를 가져야 한다. 후보와 문서상 검수 완료 플래그를 실제 개별 청사진으로 승격하지 않는다.
@@ -66,6 +68,8 @@
 
 이번 컴파일러는 실제 현재 파일의 bytes만 읽는다. 직접 참조에 `source_snapshot_commit`, `source_snapshot_commits`, `snapshot_commit`, `source_epoch`, `epoch`를 선언하면 지원하지 않는 세대 참조로 명시적으로 거절한다. 이를 무시한 채 live 파일을 그 Git 세대의 자료라고 읽지 않는다. 과거 입력·실패·영수증의 세대 메타데이터는 보존하며, 실제 팩의 현재 typed claim은 해당 범위로 이미 채택된 고정 자료의 현재 핀을 소비한다. 원 자료 자체를 복제하거나 과거 검수 해시를 현재 승인 해시로 바꾸는 절차가 아니다.
 
+이 스키마 문서의 기존 여섯 `source_content_sha256` 입력 핀은 `source_content_snapshot_commits`에 명시한 원 커밋 `302c9f6c28c368479b6c1a51e95c6988072badf6`의 보존 내용이다. README 등의 후행 변경을 이 역사 핀과 비교해 현재 파일 실패로 판정하지 않는다. `source_epoch_policy`는 문서 출생 근거와 수리 세대의 보존 정책이며, 컴파일러의 직접 입력 참조에서 과거 커밋 읽기를 지원한다는 뜻이 아니다.
+
 MD/CSV/UTF8 텍스트는 새 JSON 사본 없이 `format=UTF8_TEXT`, `json_pointer=""`, 명시적 `text_locator`로 읽는다. locator는 `WHOLE_TEXT` 또는 1부터 시작하는 정수 `LINE_RANGE`(start_line/end_line)다. 선택적으로 `expected_text`를 직접 대조한다. 텍스트 본문을 선택 권위의 JSON 객체로 해석하지 않는다. 선택·정책·범위 권위는 JSON 객체여야 한다. 원 PDF 등 binary는 기존 typed evidence receipt의 필요한 필드만 참조하며 raw PDF SHA를 UTF8 정규화 SHA와 혼동하지 않는다.
 
 독립 영수증은 `ACCEPTED_CURRENT_THREEPEAT_PACK_INPUTS`, `independent_review_completed=true`, 모든 입력·청사진·실제로 사용한 출처의 정확한 `reviewed_artifacts_sha256`, 공급된 `reviewer_id`를 제공한다. reviewer ID는 입력 및 청사진의 producer ID와 달라야 한다. 파일 digest는 사람의 신원을 암호학적으로 증명하지 않는다.
@@ -78,4 +82,6 @@ MD/CSV/UTF8 텍스트는 새 JSON 사본 없이 `format=UTF8_TEXT`, `json_pointe
 
 모든 입력을 먼저 검증하고 출력 전체를 preflight한다. 오래되거나 다른 내용의 기존 Pack·예상하지 않은 파일/디렉터리·경로 이탈을 발견하면 첫 새 파일도 쓰지 않는다. 파일은 exclusive create로 만들며 기존 같은 bytes는 재사용하고 덮어쓰지 않는다. 쓰기 도중 실패하면 이번 호출에서 막 생성한 파일을 제거한다. 시스템의 다른 프로세스와 모든 상황에서 원자적이라는 주장은 하지 않는다.
 
-현재 보호 테스트 26개는 최초23개를 유지하고 개별 청사진 번호·범위, 명시된 지원하지 않는 세대, FACT+CURRENT_PLAN의 실제 실패 반례 3종을 추가한다. 기존 검수 범위는 격리된 가변 N/9막, 선택 HOLD 세탁, 미사용 개인상과 HigherMax, 유한 출구 누락, 최종 N/정책/드래프트 분류, stale/producer review, 후보/OPEN/device, RFC6901, 시계·ghost witness, 원 MD/CSV, JSON 중복/overflow, 전체 출력 사전 대조와 부분 IO 복구다. 실제 Pack/청사진/원고 생성이나 G13/G14 통과를 인증하지 않는다. 후행 총괄·독립 공격 재검수가 끝나기 전에는 **수리본 독립 수락 0**이다.
+현재 보호 테스트 27개는 최초23개와 첫 수리의 3개를 유지하고 중간 회차 두 상태 필드의 null·공백 반례를 한 테스트의 네 경우로 추가한다. 기존 검수 범위는 격리된 가변 N/9막, 선택 HOLD 세탁, 미사용 개인상과 HigherMax, 유한 출구 누락, 최종 N/정책/드래프트 분류, stale/producer review, 후보/OPEN/device, RFC6901, 시계·ghost witness, 원 MD/CSV, JSON 중복/overflow, 전체 출력 사전 대조와 부분 IO 복구다. 실제 Pack/청사진/원고 생성이나 G13/G14 통과를 인증하지 않는다. 후행 총괄·독립 공격 재검수가 끝나기 전에는 **최종 수리본 독립 수락 0**이다.
+
+첫 수리본의 한정 수락 `68a1b993cc7eb29b02ab6fd1ed29772c049eb3702a7c07ae7e10aa0e8fafd798`과 후속 실패 `6dcbc72b73028f69528a4d51c0357253c676ba8b79cf3bf784f65d0d43aed3fd`는 커밋 `2b874c47262c65f453e78a84921332801e30a9c6`에 원 입력과 함께 보존되어 있다. 후속 F04 발견으로 앞 수락은 최종 현재 코드 수락으로 소비하지 않으며, 이번 수리는 중간 회차의 두 텍스트 필드에만 한정한다. 새 수락 영수증은 후행 독립 검수가 발급한다.

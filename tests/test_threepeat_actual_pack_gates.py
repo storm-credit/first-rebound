@@ -249,6 +249,20 @@ class CurrentPackGates(unittest.TestCase):
                 self.refresh()
                 self.reject(regex)
 
+    def test_middle_episode_entry_and_exit_cannot_be_null_or_blank(self):
+        # M04 has multiple episodes; index 4 is neither its first nor last.
+        index = 4
+        for field in ('entry_state', 'exit_state_required'):
+            original = self.episodes[index][field]
+            for value in (None, '   '):
+                with self.subTest(field=field, value=value):
+                    self.episodes[index][field] = value
+                    self.blueprints[index][field] = value
+                    self.refresh()
+                    self.reject('Blueprint ' + field)
+            self.episodes[index][field] = original
+            self.blueprints[index][field] = original
+
     def test_declared_snapshot_is_rejected_instead_of_reading_live(self):
         claim = self.blueprints[0]['claims'][0]
         claim['test_preserve_native_text_refs'] = True

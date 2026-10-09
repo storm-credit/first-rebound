@@ -1,0 +1,148 @@
+{
+  "id": "THREEPEAT_CURRENT_PACK_SCHEMA_AND_C01_CALENDAR_CURRENT_ADOPTION_2026_10_09",
+  "classification": "H08_IMPLEMENTATION_AND_UNSELECTED_H03_CALENDAR_PREPARATION_ACCEPTANCE_NOT_ACTUAL_PACK_OR_CHOICE",
+  "baseline_main": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+  "first_failed_generation_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+  "second_failed_generation_commit": "2b874c47262c65f453e78a84921332801e30a9c6",
+  "source_sha256": {
+    "tools/build_threepeat_actual_context_packs.py": "0d12037eaaa41ac5b44c3fb81ba89f057aa4a64f46e5ba661f5facf920dd4b68",
+    "tests/test_threepeat_actual_pack_gates.py": "fc5ab6e7938ad21064d4823fcf8f750562a5a2c298b1587837702f2e19c800fb",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.json": "c3e4d49bcb5bb46d0fb6846ed55c720e8ce7e6d9a0dc5d76b5d9c386d2c5812d",
+    "control/THREEPEAT_CURRENT_PACK_INPUT_SCHEMA_2026_10_09.md": "2ed0d5ac916bf2dc3ea48ecf46e7bf81e920815ba0345e00d3b49af941a91ffd",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_INDEPENDENT_REVIEW_2026_10_09.json": "24431c1820082f86a95338b29d6acf84b13ffde38bde45650973318eb1bbf89d",
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.md": "d7053a0adab28a973fc2055c77ec9226c3ca6bcaacf68a119dc2b8859bf18588",
+    "reviews/THREEPEAT_C01_USED_CALENDAR_INDEPENDENT_REVIEW_2026_10_09.json": "8842195b78d67c06ef8c30a1eb7ab3568d1bad08f37c7ba69cce979a51cc6edf",
+    "reviews/THREEPEAT_C01_USED_CALENDAR_FIRST_FAILURE_2026_10_09.json": "03f1305dcc66c17bdc273d6b1f0f848e1951fe69a4867dc2aea0ed44fb95d209",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_FIRST_FAILURE_2026_10_09.json": "7fc943cadabc88d1444270adfc4bb97147364e64bc6fd31e1992e12b2a9a9b19",
+    "reviews/THREEPEAT_CURRENT_PACK_COMPILER_SECOND_FAILURE_2026_10_09.json": "6dcbc72b73028f69528a4d51c0357253c676ba8b79cf3bf784f65d0d43aed3fd",
+    "reviews/THREEPEAT_C01_CURRENT_SCOPE_ROOT_EVIDENCE_DELTA_2026_10_09.json": "0e979b4bb3e162bce04f4c688093341fe94c3db1710d19fd46f42e179efb2100",
+    "research/THREEPEAT_C01_NOTEBOOKLM_CALENDAR_ANALYSIS_2026_10_09.json": "b22a5d71b08b516881e10296228ee4ed314d146079c183e6c5043320b916a371"
+  },
+  "source_hash_method": "UTF8 BOM removed CRLF/CR normalized to LF; raw primary bytes separately",
+  "root_execution_checks": {
+    "baseline_main": "302c9f6c28c368479b6c1a51e95c6988072badf6",
+    "producer_test_root_reproduction": {
+      "count": 27,
+      "exit_code": 0,
+      "isolated_TemporaryDirectory": true
+    },
+    "actual_repo_invocations": [
+      {
+        "flags": [],
+        "exit_code": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json\n"
+      },
+      {
+        "flags": [
+          "--write"
+        ],
+        "exit_code": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json\n"
+      },
+      {
+        "flags": [
+          "--check"
+        ],
+        "exit_code": 2,
+        "stdout": "",
+        "stderr": "Current pack generation blocked: Required current input is not issued: control/THREEPEAT_CURRENT_PACK_SCOPE_AUTHORITY.json\n"
+      }
+    ],
+    "actual_output_directory_exists": false,
+    "actual_Pack": 0,
+    "initial_test_count": 23,
+    "final_compiler_LF_sha256": "0d12037eaaa41ac5b44c3fb81ba89f057aa4a64f46e5ba661f5facf920dd4b68",
+    "four_final_authority_inputs_issued": 0
+  },
+  "root_calendar_checks": {
+    "immutable_pins": 10,
+    "pointers": 31,
+    "raw_primary_rehashes": 12,
+    "sessions": 68,
+    "planned_hours": {
+      "KOREA_DOMESTIC": 272,
+      "FOREIGN_HOST_CITY": 272
+    },
+    "quarter_totals": {
+      "2023Q4": 24,
+      "2024Q1": 48,
+      "2024Q2": 48,
+      "2024Q3": 48,
+      "2024Q4": 48,
+      "2025Q1": 48,
+      "2025Q2": 48,
+      "2025Q3": 48,
+      "2025Q4": 48,
+      "2026Q1": 48,
+      "2026Q2": 48,
+      "2026Q3": 40
+    },
+    "partial_last_quarter_name_normalized": true,
+    "education_nonoverlap": true,
+    "domestic_and_foreign_trip_join": true,
+    "known_used_PO_dates": 75,
+    "volunteer_PO_date_overlaps": 0,
+    "whole_NBA_calendar_certified": false,
+    "institution_approval": false,
+    "real_completed_hours": null,
+    "initial_failure_commit": "f528c1e0c7ebc1004c6da377d6e4ab7b9bc99a95",
+    "repaired_calendar_LF_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5"
+  },
+  "accepted_scope": {
+    "current_compiler_implementation": true,
+    "current_units": "M01-M09 plus brief EPI",
+    "candidate40_is_final_N": false,
+    "legacy14_42_compiler_preserved": true,
+    "actual_authority_files_issued": 0,
+    "unselected_medal_or_growth_source_not_laundered": true,
+    "unused_personal_awards_null_not_global_blocker": true,
+    "source_snapshot_declared_not_silently_ignored": true,
+    "FACT_not_CURRENT_PLAN": true,
+    "foreign_duty_location_repaired": true,
+    "planned_hours_each_actor": 544,
+    "domestic_hours_each_actor": 272,
+    "foreign_hours_each_actor": 272,
+    "planned_not_completed": true,
+    "ordinary_late_service_not_direct_threepeat_conflict": true,
+    "ordinary_late_contracts_accepted": false,
+    "old2027MVP_not_restored": true
+  },
+  "repairs": {
+    "compiler": "Individual Blueprint integer/scope, declared source epoch, FACT/plan boundary and every episode entry/exit text; both failed generations preserved",
+    "calendar": "Foreign session inside declared Korean trip and June2025 arrival/activity capacity repaired; initial failed generation preserved"
+  },
+  "tools": {
+    "Antigravity": "NOT_RERUN_PREVIOUS_COLLECTION_RESULT_PRESERVED",
+    "NotebookLM": "SOURCE_REGISTERED_ANALYSIS_RECOVERED_SCOPED",
+    "NotebookLM_scope": "One generated initial calendar source; five citations are not five independent originals; exact repaired calendar not reuploaded",
+    "Claude": "NOT_RERUN_PREVIOUS_ACCOUNT_SESSION_LIMIT429_NO_NEW_MODEL_OUTPUT",
+    "Codex": "Producer, separate independent counterexample reviews, root exact-byte/current-scope checks"
+  },
+  "C01_public_medal_military": null,
+  "early_growth_option": null,
+  "new_personal_awards_selected": 0,
+  "final_episode_N": null,
+  "current_history_or_actual_blueprint_LOCK_issued": false,
+  "remaining_work_ports": [
+    "H03 actual selected C01 used-calendar resolution",
+    "H04 C01 availability and actual EPI blueprint consumption",
+    "H05 current selected-history exits",
+    "H06 final episode allocation",
+    "H07 actual current blueprints",
+    "H08 supplied final-input integration and actual Context Packs"
+  ],
+  "remaining_work_port_count": 6,
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript": "CLOSED",
+    "actualPack": 0,
+    "manuscript_written": 0,
+    "schedule_created": 0
+  },
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3
+}
