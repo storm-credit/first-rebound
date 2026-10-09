@@ -1,5 +1,7 @@
 # Project Freeze v0.30
 
+2026-10-09 [C01 허가 대상 정정](../reviews/THREEPEAT_C01_PERMIT_TYPE_CORRECTION_CURRENT_ADOPTION_2026_10_09.md): PR532 후기 육군18개월+취업허가 비교 준비 판정 철회. 원별표 사회복무/대체복무 소집 대상과 현역 구분, Jan1기간/Jan15마감 분리. 11월 후보는 시즌 날짜 요건만 검토·외국군/사회복무 ArticleV·급여/등록/YOS/Bird/복귀 HOLD·금메달 자동선택0. 원자료/peer/NLM 이력 보존, 수정4행 비교 독립 검문. 삼연패2023–25/9막/2035 유지·완료1–3/미완료4(6번까지3)·Nnull·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
+
 2026-10-09 [9막 Pack 생성기·공적 달력 수리 검수](../reviews/THREEPEAT_CURRENT_PACK_SCHEMA_AND_C01_CALENDAR_CURRENT_ADOPTION_2026_10_09.md): 현재9막/EPI 생성기·스키마 구현 독립검문 수락, 최종4입력 미발급/실제Pack0. 초기f528/중간2b874실패보존→개별번호·scope/출처세대/FACT계획/중간진입출구4결함수리. C01국내272+국외272/68계획봉사와 교육·여행준비 검문, 체류지역충돌·2025도착창수리. 후기일반복무는3핏과직접충돌없으나계약HOLD·금메달자동선택0. NLM초기자료실제답회수/원전독립아님, AGY/Claude새실행0. 완료1–3·미완료4(6번까지3)·H03–08 6포트·Nnull·v0.30PARTIAL/CLOSED·원고0·일정0. 아래는 이전이력.
 
 2026-10-09 [초반 보상 검수·짧은 은퇴 후일담 연결](../reviews/THREEPEAT_EARLY_REWARD_AND_BRIEF_EPILOGUE_CURRENT_ADOPTION_2026_10_09.md): H04 역할·서비스/별도guest·공개은퇴 순서 준비 독립수락, C01 사용일 가용·실제Blueprint는후행. FC012–022 실전성취/외부인정 배치 결함과 A/B/C 미선택 후보 검수·B권고≠선택/새수상0. 전반43 입력을시즌평균으로오인하지않음. AGY응답/본문미확인·NLM실행영수증·Claude새답0 분리. 완료1–3·삼연패2023–25/9막 유지, 미완료4(6번까지3)·H03–08 6작업포트·Nnull·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.
