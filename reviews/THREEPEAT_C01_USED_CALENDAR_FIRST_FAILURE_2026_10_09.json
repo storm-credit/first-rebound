@@ -1,0 +1,72 @@
+{
+  "id": "THREEPEAT_C01_USED_CALENDAR_FIRST_FAILURE_2026_10_09",
+  "status": "NEEDS_REPAIR_DECLARED_DOMESTIC_TRIP_VS_FOREIGN_SERVICE_LOCATION",
+  "reviewer_id": "lc1_final_payoff",
+  "producer_role": "different calendar producer; review of supplied candidate calendar, not own H08 compiler",
+  "input_source_sha256": {
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json": "da471bc8767a5b0e7b33037ae3fe71cf53ff9ad63c50a92160cce6929a613215",
+    "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.md": "fbc2bfc8b6e29b8e25db39e23b71c6dccb580e35a632544b8eda9123044be408",
+    "reviews/THREEPEAT_C01_CURRENT_SCOPE_ROOT_EVIDENCE_DELTA_2026_10_09.json": "0e979b4bb3e162bce04f4c688093341fe94c3db1710d19fd46f42e179efb2100"
+  },
+  "input_generation": "Initial frozen da471/fbc2 calendar; no repaired bytes accepted yet.",
+  "required_findings": [
+    {
+      "id": "C01_CALENDAR_R1",
+      "severity": "MATERIAL_CURRENT_CANDIDATE_LOCATION_CONTRADICTION",
+      "input_pointer": "/gold_with_duties_candidate/candidate_volunteer_sessions/26",
+      "related_pointer": "/gold_with_duties_candidate/domestic_trip_capacity/2",
+      "facts_from_supplied_calendar": {
+        "session_id": "DUTY_SLOT_27",
+        "date_local": "2024-11-19",
+        "jurisdiction": "FOREIGN_HOST_CITY",
+        "local_instruction_window": [
+          "09:00",
+          "17:00"
+        ],
+        "instruction_hours": 8,
+        "trip_id": "TRIP_2024_JOB_VOL",
+        "declared_Korea_presence_start": "2024-11-16",
+        "declared_Korea_presence_end": "2024-11-23"
+      },
+      "finding": "배우가 한국 체류로 선언된 기간 중 같은 날짜에 국외 기관 직접 지도8시간을 소비한다. 실제 비행·허가를 미확정으로 둔 한계와 별개로 두 후보 입력이 충돌한다. 두 배우 공통 세션 풀 모두에 영향을 준다.",
+      "required_repair": "원입력과 실패 영수증의 Git checkpoint 이후 같은 2024Q4 내에 국외 세션을 한국 체류·교육·다른 사용 경기와 충돌하지 않는 날짜로 이동하고 해당 활동 승인/증빙 날짜도 다시 연결한다. 분기48시간/국내16·국외32/총544·국외272·각 배우별 산술과 미선택 상태는 보존한다. 새 회차·새 활동 수량·실제 허가 인증은 추가하지 않는다."
+    }
+  ],
+  "completed_checks_before_first_failure": {
+    "immutable_repo_pins": 10,
+    "source_refs_resolved": 31,
+    "raw_primary_rehashes": 12,
+    "sessions_per_actor": 68,
+    "planned_hours_per_actor": 544,
+    "planned_domestic_per_actor": 272,
+    "planned_foreign_per_actor": 272,
+    "quarters_with_planned_hours_ge24": 12,
+    "education_session_date_overlaps": 0,
+    "each_session_plan_approval_minus10_and_proof_plus10": true,
+    "domestic_sessions_inside_declared_domestic_trip": true,
+    "medal_or_military_selected": false
+  },
+  "review_scope_limit": "원문 조문·수량·이미 선택된 유한 일정의 후보 준비 검수. 실제 복무/활동 인정/여행 허가/전체 NBA 가용성 또는 C01 선택 수락이 아니다.",
+  "pending_checks": "현재 국외 세션과 선언된 국내 체류의 역방향 지리 검문에서 실패. 수리본의 동일 충돌, 75 사용 PO 날짜 및 실제 제출 주체/기한을 최종 영수증에서 다시 결합한다.",
+  "rejected_scope_excuse": "미확인 실제 항공·정규 경기 가용성의 한계는 후보가 자체 선언한 한국 체류와 국외 활동의 직접 모순을 해소하지 못한다.",
+  "producer_source_mutated": false,
+  "H08_compiler_mutated": false,
+  "central_or_Git_mutated": false,
+  "actualPack": 0,
+  "manuscript": 0,
+  "selected_C01": null,
+  "whole_history_LOCK": false,
+  "G13_G14_authority_granted": false,
+  "freeze": "v0.30 PARTIAL",
+  "design_gate": "CLOSED",
+  "required_findings_count": 1,
+  "additional_time_boundary_not_automatic_failure": {
+    "id": "C01_CALENDAR_T1",
+    "scope": "2025 G7 후 한국 체류·국내 첫8시간 활동 사이의 실제 사용 시간 정합",
+    "candidate_input": "2025-06-22 ET 선택된 G7/제3우승 이후, 한국 체류 시작 2025-06-24 및 첫 국내 활동 09:00–17:00 KST",
+    "classification": "UNRESOLVED_PLAN_TRAVEL_AND_RECOVERY_MARGIN_NOT_PROOF_OF_IMPOSSIBILITY_OR_PRIVATE_FLIGHT_GATE",
+    "finding": "현재 후보는 국제선 날짜 변경·경기 종료/출발/입국/기관 이동/휴식의 실제 선택 시계를 결합하지 않았다. G7의 정확 종료 시각과 항공편을 임의로 채워 자동 불가능 또는 가용으로 판정하지 않는다.",
+    "bounded_repair_direction": "같은 분기의 국내6회×8시간을 June25–30로 이동하고 한국 체류 June25–July1/미국 출국 July2의 후보로 준비하는 생산자 수리안을 재검문할 수 있다. 실제 허가·항공편 사적 증서를 새 게이트로 요구하지 않으며 선택 시에는 필요한 유한 시간창만 연결한다.",
+    "preserve": "국내48시간/2025Q2 총48시간과 전체544·국내272·국외272, 공적 결과·병역 미선택 상태 유지."
+  }
+}
