@@ -1,0 +1,66 @@
+{
+  "id": "THREEPEAT_EARLY_REWARD_NOTEBOOKLM_ANALYSIS_2026_10_09",
+  "classification": "SOURCE_CONNECTION_ANALYSIS_NOT_INDEPENDENT_PRIMARY_EVIDENCE",
+  "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+  "input_source": "design/THREEPEAT_EARLY_CAREER_REWARD_OPTION_PREPARATION_2026_10_09.md",
+  "input_sha256": "3cd78066ba917978476489e4b2f054d6a3b9c99d00dcda40603e3ff5f571bc15",
+  "new_author_selection": false,
+  "analysis_accepted": true,
+  "upload": {
+    "argv": [
+      "C:/Users/Storm Credit/AppData/Roaming/Python/Python314/Scripts/nlm.cmd",
+      "source",
+      "add",
+      "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+      "--file",
+      "C:\\Users\\STORMC~1\\AppData\\Local\\Temp\\fr-early-reward-nlm-input-20261009.txt",
+      "--title",
+      "FirstRebound early NBA reward OPTIONS UNSELECTED 2026-10-09",
+      "--json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 16.209,
+    "timeout": false,
+    "stdout": "{\r\n  \"source_type\": \"file\",\r\n  \"source_id\": \"506d76df-3421-4c3f-9dea-ed40af738e63\",\r\n  \"title\": \"FirstRebound early NBA reward OPTIONS UNSELECTED 2026-10-09\"\r\n}\r\n",
+    "stderr": ""
+  },
+  "source_id": "506d76df-3421-4c3f-9dea-ed40af738e63",
+  "query": {
+    "argv": [
+      "C:/Users/Storm Credit/AppData/Roaming/Python/Python314/Scripts/nlm.cmd",
+      "notebook",
+      "query",
+      "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+      "제공된 미선택 후보 자료 하나만 사용해서 2020 MIP와 2021 올스타의 평가 시점 혼동 위험 2개를 짧게 지적하세요. 미래 플레이오프를 과거 선정 근거로 쓰지 마세요. B를 선택 또는 수상 확정이라고 부르지 마세요. 원전 독립검증이라고 부르지 마세요.",
+      "--source-ids",
+      "506d76df-3421-4c3f-9dea-ed40af738e63",
+      "--new-conversation",
+      "--timeout",
+      "45",
+      "--json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 48.153,
+    "timeout": false,
+    "stdout": "{\r\n  \"answer\": \"1. **2020 MIP 평가 시점 혼동 위험**: 2020 MIP 평가는 **2020년 3월 11일까지의 경기**만을 반영하며 버블 경기는 평가 대상에서 제외되었습니다 [1]. 따라서 3월 11일 이후의 버블 경기나 시즌 전체 기록을 평가 근거로 포함하는 혼동 위험이 있습니다 [1].\\n\\n2. **2021 올스타 평가 시점 혼동 위험**: 2021 올스타 선정은 **2021년 2월 23일 선정일 이전 자료**만을 기준으로 삼습니다 [1]. 따라서 그 이후 시점인 3월 24일까지의 43경기 전체 평균이나 시즌 후반부 성적을 상반기 올스타 선정 근거로 소급하여 대입하는 혼동 위험이 있습니다 [1, 2].\\n\\n💡 미선택 후보 B에 포함된 4년차 All-NBA 경쟁의 포지션별 선정 조건도 함께 확인해 볼까요?\",\r\n  \"question\": \"제공된 미선택 후보 자료 하나만 사용해서 2020 MIP와 2021 올스타의 평가 시점 혼동 위험 2개를 짧게 지적하세요. 미래 플레이오프를 과거 선정 근거로 쓰지 마세요. B를 선택 또는 수상 확정이라고 부르지 마세요. 원전 독립검증이라고 부르지 마세요.\",\r\n  \"conversation_id\": \"c0662b23-e9af-437c-9f9d-4131cf8d9def\",\r\n  \"sources_used\": [\r\n    \"506d76df-3421-4c3f-9dea-ed40af738e63\"\r\n  ],\r\n  \"citations\": {\r\n    \"1\": \"506d76df-3421-4c3f-9dea-ed40af738e63\",\r\n    \"2\": \"506d76df-3421-4c3f-9dea-ed40af738e63\"\r\n  },\r\n  \"references\": [\r\n    {\r\n      \"source_id\": \"506d76df-3421-4c3f-9dea-ed40af738e63\",\r\n      \"citation_number\": 1,\r\n      \"cited_text\": \"2020MIP에는NBA2년차Dončić가3위였다. 평가는3월11일까지이며버블경기는제외됐다. 가능자격과주인공의실제선정근거는별개다. NBA MIP원전 . 올스타에는선정일까지자료만쓴다. 2021년2월23일선정에는그날이전자료만쓴다. 3월24일까지43경기전체평균도그대로쓸수없고, 시즌말플레이인승리나2022년4월PHI활약을상반기선정에소급하지않는다. 당시AllNBA는2가드·2포워드·1센터의정규시즌미디어선정이었다. 2022AllNBA원전 . 다음 구현 경계 결정의핵심은현재연결자수치를유지할지스타성장을앞당길지다. B/C라면신체능력을연차로자동완성하지않고약손→전환/숏롤→엘보→livepass의실전성취와오류비용을묶어수리한다. 수상·주간인정·득표·coach평가모두현재후보다. AllRookie/MIP/AllStar만으로계약HigherMax가발동하지않으며AllNBA/DPOY/MVP선택시는해당계약awardwindow를직접검토한다. 원계약가격·Γ·동료권리의자동변경은없다. 후보패킷만작성했다. 정본수상·성적승격0,작가질문0,원고/Pack0,게이트CLOSED.\"\r\n    },\r\n    {\r\n      \"source_id\": \"506d76df-3421-4c3f-9dea-ed40af738e63\",\r\n      \"citation_number\": 2,\r\n      \"cited_text\": \"AUTHOR OPTIONS UNSELECTED. NO NBA AWARD SELECTED. Source-based timing and contradictions analysis only. NBA 1~4년차 독자 보상 후보 — 미선택 현재 설계는 성장 실패·이양·다시 준비가 많고, 개인 공격 성취나 외부 인정을 독자가 실제로 확인할 사용점이 부족하다. 이는 배치 결함이며 매년 상을 하나씩 강제해야 한다는 뜻은 아니다. <cited_table>\",\r\n      \"cited_table\": {\r\n        \"num_columns\": 3,\r\n        \"rows\": [\r\n          [\r\n            \"연차\",\r\n            \"현재 선택된 역할/결과\",\r\n            \"성적의 정확한 범위\"\r\n          ],\r\n          [\r\n            \"2018–19\",\r\n            \"73GP·11GS·1,274:02 /17.45분\",\r\n            \"9.5득점/36은 prior. 개인 시즌 exact득점·신인상은 미선택.\"\r\n          ],\r\n          [\r\n            \"2019–20\",\r\n            \"65경기·18선발·1,395분 /21.46분\",\r\n            \"BASE 7.15점·5.37reb은 역할 환산 prior.\"\r\n          ],\r\n          [\r\n            \"2020–21\",\r\n            \"마감일 전43경기·43선발·1,219분\",\r\n            \"11.42점·7.72reb은 전반43경기 BASE이며 전체72경기 평균이 아님.\"\r\n          ],\r\n          [\r\n            \"2021–22\",\r\n            \"정규시간82날짜×32분=2,624분;52–30,PHI R1 3–4\",\r\n            \"공식전체GP·GS·OT·개인득점박스는별도. 현행M1 Mark32/Caruso18이며옛R21A28/22가아님.\"\r\n          ]\r\n        ]\r\n      }\r\n    }\r\n  ]\r\n}\r\n",
+    "stderr": ""
+  },
+  "status": "SOURCE_REGISTERED_ANALYSIS_RECOVERED_SCOPED",
+  "reviewed_analysis_scope": {
+    "accepted_findings": [
+      "2020 MIP cutoff March11; restart games excluded",
+      "2021 AllStar Feb23 selection; later43game average not retroactive evidence"
+    ],
+    "independent_original_sources_used": 0,
+    "generated_input_source_count": 1,
+    "citation_numbers_count": 2,
+    "distinct_cited_sources_count": 1,
+    "primary_fact_cross_check_by_codex": [
+      "https://pr.nba.com/ingram-1920-mip/",
+      "https://pr.nba.com/2021-nba-all-star-game-reserves/"
+    ],
+    "suggested_followup_question_not_sent_to_user": true,
+    "new_author_selection": false
+  },
+  "query_stdout_sha256": "dd2419b575881a4e384ae680e7a58812714745e336f9de1a263aea800fd19c8d"
+}

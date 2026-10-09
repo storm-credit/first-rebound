@@ -1,0 +1,787 @@
+{
+  "id": "THREEPEAT_EARLY_CAREER_REWARD_OPTION_PREPARATION_2026_10_09",
+  "status": "UNSELECTED_AUTHOR_RESPONSE_OPTION_PREPARATION",
+  "baseline_main": "47d3b97d31db096c642af8460fe32041402b7120",
+  "source_hash_method": "SHA256_UTF8_LF",
+  "source_sha256": {
+    "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json": "7b53829acb4a0e7621d9f731b61857593d84e1864d009200250151a443e6635a",
+    "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json": "db53757b1c30dcf3b14ecffb159044e2d78f23ee7ff83b414fa06a18dcd7a757",
+    "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md": "1338500f5977505f2ff1d6b1d1df12cebc059d9d7d7b90662ac9ddfa549e7384",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv": "97a618bd9617aa3d06f0f86bb4dc2612380231266444090c142b9ba95f3da344",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.md": "e73a074d6ff860c49c1159bc086a5e7a1951181ceb3602e476b80742d3984eab",
+    "simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md": "9aa1c04ab86165f9aa30b3e2b8508c29dbacdafbfe65355ae58a0fad7e25f093",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv": "b5296e9014698fdb1b658e1b3108aa5f8ffaff1eec9a57ea9f553fb0db3df95c",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_PRODUCTION_PRIORS.md": "58dbd81bc0154c93fc5b666f2bfd518f4a4a95008bfad209664694ed7f75d506",
+    "simulation/CHICAGO_2020_21_POSTDEADLINE_BOX_INPUTS.json": "4652109f35d218362b35143f74a67ae43fe93bc77a30fcd0e4054ecb79e3283f",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+    "simulation/CHICAGO_2021_22_PRESEASON_PRIORS.json": "f5870b7ca1a3acf6b65626a7ac2fd51bc7989cd8c8c1f9e0ff5ae2e3658156fd",
+    "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
+    "design/A05_EARLY_NBA_OPERATING_BATCH_2026_10_07.json": "dec0a0e935a9f62e1fcddb40ea87b23919ebcdc19e78603648ac311f1ac801e3",
+    "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d19ee7d3c59c914655e29c5c96aaa3a86c396339d28ae2acff937de1c7961c9",
+    "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json": "5d04630993f95e218ed95fba78ad505854999e7c0179d407964ffcebc1c91e0e",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.json": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d",
+    "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c",
+    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400"
+  },
+  "source_snapshot_commits": {
+    "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.md": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PLAYER_PRODUCTION_PRIORS.md": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2020_21_POSTDEADLINE_BOX_INPUTS.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2021_22_PRESEASON_PRIORS.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "design/A05_EARLY_NBA_OPERATING_BATCH_2026_10_07.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "design/A06_2020_21_FINITE_FUNCTION_BATCH_2026_10_07.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "design/A07_FINITE_FUNCTION_BATCH_2026_10_07.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/LAMELO_2023_SELECTED_EXTENSION.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json": "47d3b97d31db096c642af8460fe32041402b7120",
+    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "47d3b97d31db096c642af8460fe32041402b7120"
+  },
+  "authority": "NBA1–4년차독자보상부재라는최신사용자지적에대응한후보. root올루키→MIP경쟁→올스타→AllNBA경쟁은편집권고이며정본수상승인아님. 기존routine위임을새개인상/입력승격으로확대하지않음.",
+  "current_four_seasons": [
+    {
+      "NBA_year": 1,
+      "season": "2018-19",
+      "source": {
+        "path": "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json",
+        "LF_SHA256": "db53757b1c30dcf3b14ecffb159044e2d78f23ee7ff83b414fa06a18dcd7a757",
+        "json_pointer": "/selected_NBA_line",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "current_selected_role": {
+        "GP": 73,
+        "GS": 11,
+        "MIN": "1274:02",
+        "MPG_derived": 17.452511415525112
+      },
+      "stat_scope": "분역할aggregate선택. 원CSVproxy합1273:58과차4초보존, unused개별box정밀확정아님.",
+      "production_prior": {
+        "pts36": 9.5,
+        "reb36": 8.5,
+        "ast36": 1.7,
+        "TS": 0.5,
+        "three_p": 0.28,
+        "ppg_at_selected_role_illustration": 4.605523845763572
+      },
+      "prior_source": {
+        "path": "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md",
+        "LF_SHA256": "1338500f5977505f2ff1d6b1d1df12cebc059d9d7d7b90662ac9ddfa549e7384",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "selected_individual_award": null,
+      "failure": "늦은출석12월7일기회손실·NBA속도위치오차·약한손운반과첫벽",
+      "already_selected_achievement": "NBA복귀·제한역할73출전·11선발기회 및 직접본첫연결. 대형개인상/자기득점성취는선택없음."
+    },
+    {
+      "NBA_year": 2,
+      "season": "2019-20",
+      "source": {
+        "path": "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv",
+        "LF_SHA256": "97a618bd9617aa3d06f0f86bb4dc2612380231266444090c142b9ba95f3da344",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "current_selected_role": {
+        "GP": 65,
+        "GS": 18,
+        "MIN": 1395,
+        "MPG_derived": 21.46153846153846
+      },
+      "stat_scope": "정수분벡터와18선발선택;해당시즌개인exact박스아님",
+      "production_prior": {
+        "pts36": 12,
+        "reb36": 9,
+        "ast36": 2.2,
+        "TS": 0.53,
+        "usg": 0.15,
+        "ppg_role_prior": 7.153846153846154,
+        "rpg_role_prior": 5.365384615384615
+      },
+      "prior_source": {
+        "path": "simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md",
+        "LF_SHA256": "9aa1c04ab86165f9aa30b3e2b8508c29dbacdafbfe65355ae58a0fad7e25f093",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "selected_individual_award": null,
+      "failure": "약한손돌파에서첫벽·드라이브TOV/36 1.8→2.0비용·하프코트1차창조미완성",
+      "already_selected_achievement": "루키대비18선발/21.46분과약손·closeout짧은pass성장. MIP경쟁실행/외부득표없음."
+    },
+    {
+      "NBA_year": 3,
+      "season": "2020-21",
+      "source": {
+        "path": "simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv",
+        "LF_SHA256": "b5296e9014698fdb1b658e1b3108aa5f8ffaff1eec9a57ea9f553fb0db3df95c",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "current_selected_role": {
+        "predeadline_GP": 43,
+        "predeadline_GS": 43,
+        "predeadline_MIN": 1219,
+        "predeadline_MPG_derived": 28.348837209302324,
+        "postdeadline_29game_BASE_MIN_illustration": 870
+      },
+      "production_prior": {
+        "predeadline43_only_ppg": 11.42,
+        "predeadline43_only_rpg": 7.72,
+        "predeadline43_only_apg": 2.52,
+        "pts36": 14.5,
+        "reb36": 9.8,
+        "TS": 0.555,
+        "usg": 0.17
+      },
+      "stat_scope": "11.42/7.72=2020Dec23–2021Mar24の43경기BASE prior, full72평균아님. Post29 BASE기대박스도시나리오입력이며exact선수실적이아님.",
+      "post_source": {
+        "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_BOX_INPUTS.json",
+        "LF_SHA256": "4652109f35d218362b35143f74a67ae43fe93bc77a30fcd0e4054ecb79e3283f",
+        "json_pointer": "/player_budgets",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "existing_team_endpoint": "기완료31–41/첫playinWAS승→IND패 경로 보존안의선택범위;개인prior바뀌면원영향재검토필요",
+      "selected_team_regular_source": {
+        "path": "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json",
+        "LF_SHA256": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400",
+        "json_pointer": "/recomputed_team_wins/CHI",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "selected_individual_award": null,
+      "failure": "빠른수비/두번째읽기에서늦은첫pass,무볼이양뒤재관여부족",
+      "already_selected_achievement": "43선발역할·새조합·WAS원정큰무대승리경험. 단독결승득점/올스타실제선정은없음."
+    },
+    {
+      "NBA_year": 4,
+      "season": "2021-22",
+      "source": {
+        "path": "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json",
+        "LF_SHA256": "7b53829acb4a0e7621d9f731b61857593d84e1864d009200250151a443e6635a",
+        "json_pointer": "/NBA_2021_22",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "current_selected_role": {
+        "positive_regulation_dates": 82,
+        "regular_model_MIN": 2624,
+        "regular_model_minutes_per_date": 32,
+        "full_GP_GS_credited_total": null,
+        "regular_WL": [
+          52,
+          30
+        ],
+        "playin_seed": 7,
+        "CHI_PHI_R1": [
+          3,
+          4
+        ],
+        "PO_P_regulation_MIN": 224
+      },
+      "stat_scope": "82×32정규시간선택/PO7×32;공식GP·GS·OT·fullP득점박스미확정. 단순32분으로올스타/AllNBA선정증명안됨.",
+      "actual_M1_used_role_source": {
+        "path": "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json",
+        "LF_SHA256": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+        "json_pointer": "/selected_dates/0/selected_regulation_player_minutes",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "M1_normal": {
+        "Carter": 28,
+        "Caruso": 18,
+        "Chris Duarte": 14,
+        "Coby": 18,
+        "LaMelo_pick4": 32,
+        "LaVine": 34,
+        "Markkanen": 32,
+        "Protagonist": 32,
+        "Tony Bradley": 12,
+        "Young": 20
+      },
+      "M1_position_source": {
+        "path": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+        "LF_SHA256": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+        "json_pointer": "/rows/0/position_minutes",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "old_R21A_not_current": "Mark28/Caruso22옛가설을current로복사하지않음;currentMark32/Caruso18/P32,PG LM32·Coby10·Caruso6",
+      "preseason_P_box_prior": {
+        "player": "Protagonist",
+        "source_player": null,
+        "kind": "PROPOSED_ROSTER",
+        "normal_role_minutes": 32,
+        "status": "FICTIONAL_GROWTH_INPUT_HOLD",
+        "historical_prior": null,
+        "alternate_2021_22_per36": null
+      },
+      "selected_individual_award": null,
+      "failure": "엘보에빠른도움/늦은반환/자기공격창과가드반환선택충돌",
+      "already_selected_achievement": "52승팀·PHI7차전까지경쟁. 현FC020–022에서는실전개인공격성취/외부인정으로전환되는구체사용점부족."
+    }
+  ],
+  "current_layout_defects": [
+    {
+      "id": "EARLY_REWARD_ABSENCE",
+      "source": {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/11",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "range_current_candidates": [
+        "TP25-FC-012",
+        "TP25-FC-022"
+      ],
+      "concrete_rows": [
+        {
+          "id": "TP25-FC-012",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/11",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "한 걸음 늦은 NBA",
+          "current_result": "NBA 자리와 역할 성공은 별개임이 드러난다."
+        },
+        {
+          "id": "TP25-FC-013",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/12",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "돌아오지 않는12월7일",
+          "current_result": "자기관리 문제는 완치되지 않고 기회도 환불되지 않는다."
+        },
+        {
+          "id": "TP25-FC-014",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/13",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "개발 무대에서도 남는 오류",
+          "current_result": "별도 복귀는 실행되지만 NBA 속도의 위치 오차가 남는다. 모델 CSV1273:58과 선택 합1274:02를 개인 지식으로 읽지 않는다."
+        },
+        {
+          "id": "TP25-FC-015",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/14",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "첫 벽에서 넘기는 공",
+          "current_result": "두 수신자의 공 확보를 보는 한정 근거가 남는다. NCAA 취소는 라이벌의 사용 시즌·임상 건강을 환불하지 않는다."
+        },
+        {
+          "id": "TP25-FC-016",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/15",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "다섯 사람의 시작권",
+          "current_result": "동료에게 넘긴 뒤에도 몸으로 관여하지만 동료 성공·주전 권한은 얻지 않는다."
+        },
+        {
+          "id": "TP25-FC-017",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/16",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "운반과 숏롤은 다른 읽기",
+          "current_result": "빠른 수비와 두 번째 읽기는 미완성이다. LM/LV/Mark의 시작권을 혼자 대체하지 않는다."
+        },
+        {
+          "id": "TP25-FC-018",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/17",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "새 조합으로 살아남기",
+          "current_result": "선택된 Washington 승리는 다음 문턱 진입이다. 승리 전체를 자기 포제션 하나의 공로로 만들지 않는다."
+        },
+        {
+          "id": "TP25-FC-019",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/18",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "첫 승리 뒤의 탈락",
+          "current_result": "그 시즌은 끝난다. 제한 표본 전달은 새 계약·M1 권한을 선지급하지 않는다."
+        },
+        {
+          "id": "TP25-FC-020",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/19",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "한계를 포함한 엘보 요청",
+          "current_result": "허용된 시험은 생겼으나 공식 경기 성공·출전분을 받지 않았다."
+        },
+        {
+          "id": "TP25-FC-021",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/20",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "닫힌 공격과 늦은 반환",
+          "current_result": "한 수정 행동은 있지만 항상 맞는 카운터·득점 효율은 아니다. 정규52–30은 별도 선택 결과다."
+        },
+        {
+          "id": "TP25-FC-022",
+          "source": {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/21",
+            "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+          },
+          "title": "일곱 경기 뒤 남기는 실패",
+          "current_result": "2022년4월30일 탈락은 남는다. 계약과 공동 에이스는 이 자료만으로 결정되지 않는다."
+        }
+      ],
+      "finding": "11개현재클러스터가실패·이양·다시준비의비중이높고실전개인공격성취/공개인정이실제선택된사용점으로연결되지않음. 사용자지적은배치·성장보상결함이지매년필수수상의신규법칙아님."
+    }
+  ],
+  "NBA_authoritative_public_baselines": [
+    {
+      "id": "HAS21",
+      "url": "https://pr.nba.com/2021-nba-all-star-game-reserves/",
+      "publication_date": "2021-02-23",
+      "fact": "2021reserve선정은각conferencecoach2guards/3frontcourt/2any,자기팀선수투표금지. 역사적East에는LaVine첫선정·Randle·Tatum·Vucevic등. 대체세계그들의선정/박탈은자동0. P경쟁자료는Feb23이전만사용,Mar24전반43총계도선정일까지재단해야함."
+    },
+    {
+      "id": "HROY19",
+      "url": "https://pr.nba.com/voting-results-2018-19-nba-regular-season-awards/",
+      "publication_date": "2019-06-25",
+      "fact": "2019 신인상 수상 Luka Dončić, 2위TraeYoung, 3위DeandreAyton. 대체세계 승인 결과가 아니다."
+    },
+    {
+      "id": "HAR19",
+      "url": "https://pr.nba.com/2018-19-all-rookie-teams/",
+      "publication_date": "2019-05-21",
+      "fact": "All-Rookie는100명미디어가각팀5명씩포지션제한없이선정. 실세계secondteam SGA/Sexton/Shamet/Robinson/Huerter; 이명단의수상을자동박탈하지않는다. 벤치·낮은분자체는법적배제조건아님."
+    },
+    {
+      "id": "HMIP20",
+      "url": "https://pr.nba.com/ingram-1920-mip/",
+      "publication_date": "2020-08-31",
+      "fact": "MIP Ingram1위/Bam2위/Doncic3위. Doncic의NBA2년차후보실제존재. 2020평가는3월11일까지의정규경기이며버블seeding8경기는포함하지않음. Ingram평가구간24.3점6.3reb4.3ast/34.3분, 전시즌18.3점/33.8분; 통계문턱규칙이나P합격선아님."
+    },
+    {
+      "id": "HMIP21",
+      "url": "https://pr.nba.com/julius-randle-2020-21-kia-nba-most-improved-player/",
+      "publication_date": "2021-05-25",
+      "fact": "MIP Randle/2위Grant/3위PorterJr. Randle24.1점10.2reb6ast/37.6분71경기. P11.42점의43경기입력을이수상과자동동급으로보지않는다."
+    },
+    {
+      "id": "HMIP22",
+      "url": "https://www.nba.com/news/grizzlies-ja-morant-kia-nba-most-improved-player-2022",
+      "publication_date": "2022-04-25",
+      "fact": "2022 MIP는JaMorant. 실세계수상은새세계P의수상이나박탈선택이아니다."
+    },
+    {
+      "id": "HAS22",
+      "url": "https://www.nba.com/news/2022-all-star-reserves-announced",
+      "publication_date": "2022-02-03 announcement; page updated2022-02-10",
+      "fact": "2022역사적East reserve7에는LaVine이포함. 각conference headcoaches가reserves선정. 과거인물의수상을P에게자동이전하지않는다."
+    },
+    {
+      "id": "HAS22RULE",
+      "url": "https://www.nba.com/news/all-star-draft-explainer",
+      "publication_date": "2022-02-11 update",
+      "fact": "conference별coach가2guards/3frontcourt/2anyposition reserve선정. 2021/22상반기선정에선정일뒤playin/PO활약을소급증거로쓰지않는다."
+    },
+    {
+      "id": "HAN22",
+      "url": "https://pr.nba.com/2021-22-kia-all-nba-team/",
+      "publication_date": "2022-05-24",
+      "fact": "당시AllNBA는100명미디어·각팀2guards/2forwards/1center. Forward수상Giannis/Tatum, Durant/DeRozan, LeBron/Siakam. 현대positionless방식이나신규65경기규칙을2018–22에소급하지않는다."
+    }
+  ],
+  "public_source_method": "web official NBA/Communications/officialteam publications 실제search/open. 검색제목을실제발표일/본문과분리. 이생산자는AGY/NLM/Claude를실행하지않았으며독립외부PASS로세지않음. root의별도AGY응답UNVERIFIED기록은본공식본문확인과구분.",
+  "options": [
+    {
+      "id": "A",
+      "label": "현재 입력 보존·경기 성취와 외부 평가 보강",
+      "classification": "UNSELECTED_EDITORIAL_OPTION",
+      "preserve": "1–4분·기존prior·31–41/52–30·draft/UPC유지",
+      "yearly_rewards": [
+        "1년차기존복귀뒤수비리바운드/전환득점의한경기유한성취를실제행동과상대대가로추가;정확box·coach칭찬은새가상후보",
+        "2년차자기closeout득점과완주책임을한경기에서회수·상대가개선된약손을막으러오는관측;MIP표권후보는보장아님",
+        "3년차선발권·제한grab-and-go/숏롤호출의실전성공과한정공개평가후보. 올스타직접선정은현재입력으로증명없음",
+        "4년차엘보공격으로동료가돌려준공을본인이마무리하는유한성취→PHI실패에다음목표. 외부인정등급은한정후보"
+      ],
+      "award_policy": "AllRookie득표/secondteam검토가능하나분이낮아서법적불가능단정0;현재낮은득점prior에서강한선정추천은근거부족. 매년수상할당0",
+      "effect": "훈련·양보만의배치를고치지만스타성장지연이라는사용자불만을충분히해소하지못할가능성",
+      "impact_boundary": "개인경기귀속·성취를바꾸면팀score직접가감0,접촉포제션과제한impact만검산. 평균prior변경없음도단독결승승인새사실0"
+    },
+    {
+      "id": "B",
+      "label": "분을 가능한 보존하며 2~4년차 스타 성장·인정 경쟁 가속",
+      "classification": "UNSELECTED_RECOMMENDED_BALANCED_OPTION",
+      "preserve": "초기학교/드래프트CHI22·73GP11GS역할과가능한기존분,공동배우주권",
+      "illustrative_growth_targets_not_selected_stats": [
+        {
+          "year": 1,
+          "role_MPG_reference": 17.452511415525112,
+          "PPG_target_range": [
+            8,
+            10
+          ],
+          "implied_PTS36_range": [
+            16.50192302660841,
+            20.627403783260515
+          ],
+          "reward": "AllRookie secondteam 또는의미있는득표경쟁후보;ROY자동0"
+        },
+        {
+          "year": 2,
+          "role_MPG_reference": 21.46153846153846,
+          "PPG_target_range": [
+            12,
+            15
+          ],
+          "implied_PTS36_range": [
+            20.12903225806452,
+            25.161290322580648
+          ],
+          "reward": "MIP경쟁후보;Doncic2년차사례는가능성이지수상선점아님"
+        },
+        {
+          "year": 3,
+          "role_MPG_reference": 29.01388888888889,
+          "role_reference_classification": "ILLUSTRATIVE_PRE43_PLUS_POST29_BASE_MINUTES_ONLY_NOT_SELECTED_FULLSEASON_OFFICIAL_AVERAGE",
+          "PPG_target_range": [
+            17,
+            20
+          ],
+          "implied_PTS36_range": [
+            21.093346098611775,
+            24.81570129248444
+          ],
+          "reward": "올스타frontcourt reserve 경쟁후보. 선정일까지기록/동conference성적·역할로평가"
+        },
+        {
+          "year": 4,
+          "role_MPG_reference": 32,
+          "PPG_target_range": [
+            20,
+            23
+          ],
+          "implied_PTS36_range": [
+            22.5,
+            25.875
+          ],
+          "reward": "올스타첫선정/AllNBA득표경쟁중유한인정권고;AllNBA실제선정은별도비교"
+        }
+      ],
+      "growth_meaning": "수비리바운드만하는연결자→선택된조건에서득점창을끝내는두번째공격축. 1→2약손성공,2→3전환·숏롤/고정된짧은창,3→4엘보카운터·조기return후재관여의실전보상. 해당기술들은새prior/상대counter와함께직접구현필요,연도만앞당김0",
+      "coactor_cost": "LV1차득점·LM주PG는유지하되P슈팅/터치늘어난만큼둘과Coby/Mark의귀속을정확감산하거나동료전개차이를명시. 마지막자기공격을P가책임지는반복도포함;매번양보→칭찬으로대체0",
+      "changed_accepted_inputs": [
+        "rookiePTS36/TS/usage prior",
+        "year2PTS36/TS/USG15%·turnovers",
+        "year3pre/postproduction·USG17%·그에따른selectedimpact",
+        "year4fictionalboxprior/null에새값·엘보live공격role",
+        "2023growthbaseline/Psharedcoredoublecount검토"
+      ],
+      "required_finite_recheck": "개인growth를상향하면31–41/52–30을그대로사실처럼인증하지않고같은기존margin/paired영향소비부부터재평가. 끝점유지희망이면추가합법family를증명하고불성립이면결과/pickcascade수리범위명시. 새all82exactprivatebox게이트추가0",
+      "recommendation_reason": "독자보상을유한실전성취+공개인정경쟁으로앞당기면서신인ROY급정면재기획범위를줄인다. 사용자의빠른성장방향에맞는권고이지만수상/성적승격미실행"
+    },
+    {
+      "id": "C",
+      "label": "신인부터 ROY급 스타 경로로 전면 상향",
+      "classification": "UNSELECTED_HIGH_CHANGE_OPTION",
+      "illustrative_role_change": "신인73경기각27분을가정하면현재보다약697분추가(기존4초precision경계보존). 선발/터치/성적도변경이필요하고이27분은권고확정아님",
+      "award_competition": "Doncic/Young/Ayton의당시강점을상대로ROY실제경쟁을다시설계. 기존수상을그대로빼앗는선택0;매년MIP/AllStar/AllNBA할당0",
+      "scope": "새분donor/가용/5포지션240·2018–20score영향/2019Coby및2020LMdraft권리·개별캐릭터기술출발·RSC/2022E2조건까지확대",
+      "coactor_cost": "LaVine·Mark·Dunn·Coby등보호된분이나권한을몰래빼지않고필요변경명시. 2018Draft/NCAA고정경력과순간적으로완성형기술을부여하는충돌도검사",
+      "risk": "근본적초기경로수리가되어사용자의기완료반복금지와충돌할범위큼. 별도방향승격없이실행0"
+    }
+  ],
+  "editorial_recommendation": {
+    "option": "B",
+    "selected": false,
+    "award_sequence_is_target_candidates_not_promised_trophies": true,
+    "priority": "먼저연차별실전성취·터치/성적목표·동료대가선택을분명히하고그후외부인정후보강도비교. 40기능표의실패-only결과를승리/성취근거로수리할범위를제시.",
+    "each_year_forced_award": false
+  },
+  "decision_inputs_and_effects": {
+    "growth_speed": "기존9.5→12→14.5PTS36의낮은prior를유지할지스타급가속을채택할지가핵심. 분보존만으로능력/투표충족증명없음.",
+    "LaVine_LaMelo_authority": "LV득점·LM전개·P마무리/직접창조비중의정량터치/슛귀속대가와개별사실사용점을선택해야함. LM32/LV34등분보존도touch/usage중복은금지.",
+    "statistical_scope": "productionpriors≠selectedindividualbox≠officialNBAstats. 3년차pre43stat를full72stat로승격0. 4년차P32=공식32MPG/82GP/선발인증아님.",
+    "eligibility_vs_selection": "벤치/17.45분이AllRookie법적불가라는규칙0. MIP2년차불가라는규칙0. 투표후보의기술/실적/비교근거부족은선정불가자격과별개.",
+    "award_calendar": "2020MIP March11cutoff/버블제외. 2021AllStar는Feb23이전자료만. March24까지43경기평균도선정일까지별도분리해야하며뒤WASplayin승리불가. 2022AllStar는Feb3reserve결정일까지자료만,AprilPHI7차전불가. AllNBA는정규시즌평가이며PO패배를자동실격시키거나PO만으로승격하지않음.",
+    "contracts": {
+      "P2022_existing_selected_carrier": {
+        "path": "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json",
+        "LF_SHA256": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "P2022_QO_starter_MIN_OR_branch": {
+        "path": "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json",
+        "LF_SHA256": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
+        "json_pointer": "/routine_selection",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "E2_literal_mechanism_and_price": {
+        "source": {
+          "path": "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json",
+          "LF_SHA256": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c",
+          "json_pointer": "/selected_working_forms/Protagonist",
+          "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+        },
+        "mechanism": "DIRECT_FULL_BIRD_RFA_NEW_UPC_NOT_ROOKIE_EXTENSION",
+        "first_regular_salary": 22000000,
+        "schedule": [
+          22000000,
+          23760000,
+          25520000,
+          27280000
+        ],
+        "preserve_original_candidate_birth_flags": true,
+        "latest_parent_authority_not_inferred_from_birth_candidate": true,
+        "new_award_can_change_maximum_eligibility_not_force_negotiated_salary_upward": true
+      },
+      "effect": "P32×82=2624분은원starterQO MIN4>=2000의증인. 새분변경이면이조인만재검문. AllRookie/MIP/AllStar명칭자체로RSC가격/HigherMax자동상향0. AllNBA/DPOY/MVP를새로선택할때2017/2023해당awardwindow/계약원form/QO·FAhold·trade·6비용영향을직접확인하고원가격을몰래재가격하지않음.",
+      "LM1_branch_source": {
+        "path": "simulation/LAMELO_2023_SELECTED_EXTENSION.json",
+        "LF_SHA256": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d",
+        "json_pointer": "/selected_terms",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      "LM1_personal_award_outcome_preserved_unselected": true,
+      "threepeat_or_Paward_does_not_trigger_LM_HigherMax": true
+    },
+    "prior_result_and_draft_cascade": "기완료1–3은이패킷으로변경0. B/C상향시2018–22영향·선택시즌끝·draft/거래조상충돌을좁은소비부로검토;기존승수/픽을근거없이재확정0·전NBA새게이트0"
+  },
+  "yearly_failure_reward_nextgoal_candidates": [
+    {
+      "year": 1,
+      "repeated_failure": "늦은출석기회상실+NBA속도오차",
+      "new_reward_candidate": "복귀후한경기에서자기리바운드→전환마무리로상대의수비변경을이끌고종료역할을얻는사용점. exactbox/전광판승자/감독인정은후행가상선택",
+      "next_goal": "약손에서첫벽을스스로넘기거나짧게반환"
+    },
+    {
+      "year": 2,
+      "repeated_failure": "편한손/오래잡다TOV",
+      "new_reward_candidate": "약손closeout돌파를본인이득점으로끝내는실전대가있는창·외부개선평가. 선택B시MIP득표경쟁",
+      "next_goal": "선발책임·리바운드전진과하프코트첫연결분리"
+    },
+    {
+      "year": 3,
+      "repeated_failure": "반환시점늦음·동료길막음",
+      "new_reward_candidate": "선발기용+대표창직접공격성공과정규전반공개평가;상대수비가P를먼저막도록바뀐외형. 시즌말playin승리를상반기올스타근거로사용0",
+      "next_goal": "공없는재관여·엘보짧은카운터"
+    },
+    {
+      "year": 4,
+      "repeated_failure": "조기도움앞자기공격창손실",
+      "new_reward_candidate": "엘보짧은마무리와빠른return둘을다른실전창에서성공→본인득점권을반복해서맡음. 정규상반기인정후보와PHI7차전경쟁분리",
+      "next_goal": "2023압박속livepass/재관여·공동마무리로타이틀경로. 2023성장sourcebaseline함께수리"
+    }
+  ],
+  "verification": {
+    "rookie_derived_MPG": 17.452511415525112,
+    "year2_sum_seconds": 83700,
+    "year2_GS": 18,
+    "predeadline43_BASE_ppg_computed": 11.418281653746769,
+    "predeadline43_BASE_rpg_computed": 7.7171834625323,
+    "year4_selected_regulation_minutes": 2624,
+    "current_M1_not_old_R21A": true,
+    "all_proposed_PPGranges_are_unselected_not_forecasts": true,
+    "source_refs": [
+      {
+        "path": "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json",
+        "LF_SHA256": "db53757b1c30dcf3b14ecffb159044e2d78f23ee7ff83b414fa06a18dcd7a757",
+        "json_pointer": "/selected_NBA_line",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md",
+        "LF_SHA256": "1338500f5977505f2ff1d6b1d1df12cebc059d9d7d7b90662ac9ddfa549e7384",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv",
+        "LF_SHA256": "97a618bd9617aa3d06f0f86bb4dc2612380231266444090c142b9ba95f3da344",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2019_20_PLAYER_PRODUCTION_PRIORS.md",
+        "LF_SHA256": "9aa1c04ab86165f9aa30b3e2b8508c29dbacdafbfe65355ae58a0fad7e25f093",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv",
+        "LF_SHA256": "b5296e9014698fdb1b658e1b3108aa5f8ffaff1eec9a57ea9f553fb0db3df95c",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2020_21_POSTDEADLINE_BOX_INPUTS.json",
+        "LF_SHA256": "4652109f35d218362b35143f74a67ae43fe93bc77a30fcd0e4054ecb79e3283f",
+        "json_pointer": "/player_budgets",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json",
+        "LF_SHA256": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400",
+        "json_pointer": "/recomputed_team_wins/CHI",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.json",
+        "LF_SHA256": "7b53829acb4a0e7621d9f731b61857593d84e1864d009200250151a443e6635a",
+        "json_pointer": "/NBA_2021_22",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2021_22_DELEGATED_HEALTH_STATE_SELECTION.json",
+        "LF_SHA256": "274a35e163c7f6fd7f0d3e5494b3c46753aaf9900036676be935f17a9d538c32",
+        "json_pointer": "/selected_dates/0/selected_regulation_player_minutes",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2021_22_M1_DATED_WORKING_MINUTES.json",
+        "LF_SHA256": "73d51b630e9c9d4ec31b7e3952906165589bd8c49a48bb07c79bdc9ad02e8fca",
+        "json_pointer": "/rows/0/position_minutes",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/11",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/11",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/12",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/13",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/14",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/15",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/16",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/17",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/18",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/19",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/20",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "LF_SHA256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/21",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json",
+        "LF_SHA256": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c",
+        "json_pointer": "",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/PROTAGONIST_2022_QO_STARTER_JOIN.json",
+        "LF_SHA256": "dece52b96fa373af74e45674cc75ce888dbaca49c669c4b0aeeca02bad5f955f",
+        "json_pointer": "/routine_selection",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/CHICAGO_2022_SELECTED_CORE_CONTRACT_CARRIER.json",
+        "LF_SHA256": "cc586a6f801a1e61d60bd9eddbe0e8bfa57415963c2d0d76669683a690551d6c",
+        "json_pointer": "/selected_working_forms/Protagonist",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      },
+      {
+        "path": "simulation/LAMELO_2023_SELECTED_EXTENSION.json",
+        "LF_SHA256": "98f03115f8a71a7f2e0ac3f9376aae5f94647d62c8ce6d942b63881af629483d",
+        "json_pointer": "/selected_terms",
+        "source_snapshot_commit": "47d3b97d31db096c642af8460fe32041402b7120"
+      }
+    ],
+    "source_bytes_changed": false
+  },
+  "limits": {
+    "new_author_award_or_stats_lock": false,
+    "current_final_episode_N": null,
+    "wholeG13_G14_complete": false,
+    "actualPack": 0,
+    "manuscript": 0,
+    "design_gate": "CLOSED",
+    "manuscript_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "schedule": false
+  }
+}
