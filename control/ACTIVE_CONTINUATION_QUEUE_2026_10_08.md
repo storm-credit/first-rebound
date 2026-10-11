@@ -1,5 +1,7 @@
 # 완료 시점에 이어가는 현행 작업 큐
 
+2026-10-12 [B안 공동 영향·승패 소비부 연결](../simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12.md): 날짜별동료비용/47핀·821계수·12모델/336조합 재현, P+0.5/기회동료각−0.125의 명시적작업가정에서 모든기존경기방향보존. 실제평점/점수·수상인증아님·2년차정확기록미선택·인정/C01/최종배치·Blueprint/Pack남음. 새AGY/NLM/Claude/독립agent0·정부제도웹재확인·원고/Pack0·미완료4(6번까지3)·CLOSED.
+
 2026-10-12 [B안 전체 역할 입력 연결](../simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.md): 기존BASE/P21A 비득점5항목을292출전일 공격과 결합·8범위 재합계,2021선정전16.45/7.64/2.49·2022선정전20/8.71/3.20 기대입력. 자기FG 제외292어시스트 용량 필요조건 PASS; 실제박스/팀REB·AST귀속/수비영향·정확개인상은 별도. 원전/새AGY·NLM·Claude·독립agent0·Pack/원고0·미완료4(6번까지3)·CLOSED.
 
 2026-10-12 [B안 인정 경쟁·컨퍼런스 검산](../design/EARLY_REWARD_B_RECOGNITION_COMPARISON_2026_10_12.md): 고정미러1325관측/25비교·P4선정시점 재합계,3년차30/14–16·4년차50/33–17. 선택SAS DeRozan을 원CHI동부선발로 복사하는 오류 차단·네자리 후보/A권고≠확정. 정부2026금메달 명단/체육요원 제도 재확인·새수상/C01선택0·원고/Pack0·미완료4(6번까지3)·CLOSED. 새AGY/NLM/Claude/독립agent0.
