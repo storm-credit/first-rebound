@@ -1,0 +1,259 @@
+{
+  "id": "THREEPEAT_CURRENT_PROMISE_ACTOR_CONSUMPTION_2026_10_12",
+  "status": "SOURCE_JOINED_BLUEPRINT_CONSUMPTION_LOCAL_REPAIR_NOT_INDEPENDENT_ACCEPTANCE",
+  "producer_id": "root_codex",
+  "baseline_main": "69ad80916ee8681d42ba088cdc7d60a1e58c7265",
+  "input_source_sha256": {
+    "design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json": "0ca3aa318134a152a1c2de2175402818dece10e4e60186aa42dfe974df9e1972",
+    "design/THREEPEAT_51_PREPARED_EPISODE_BLUEPRINTS_2026_10_12.json": "c99a1a57540cb7405de64c3dbb93ee66c3c4380067927eef4c84003fbf2db595",
+    "design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.md": "9be597bde0399365be9790a1c821ea792525a7e59b5f1ef312940c90b03af76d",
+    "reviews/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12_CODEX_CHECK.json": "dc7e27b55e6ff8b57712687cf497ffa2de9eedf03c65ef0572c8c6fafd4a2d68",
+    "tools/build_threepeat_episode_density_allocation.py": "1c042e84b365bce1812f6e3ae5a6e422f3de104b7fc39d098109d8ce2e9948a8",
+    "design/THREEPEAT_CURRENT_USED_HISTORY_EXIT_JOIN_2026_10_12.json": "3760fc901b43d4224bec4191dd86ae2af45b380a04ba2753ebdde0e7093ae46f",
+    "design/THREEPEAT_CURRENT_USED_HISTORY_EXIT_JOIN_2026_10_12.md": "efcb4da1202077acd18310ed04d4e18a8cbceb5204e51df50b1d81180be7a113",
+    "reviews/THREEPEAT_CURRENT_USED_HISTORY_EXIT_JOIN_2026_10_12_CODEX_CHECK.json": "e19ac5ef17065398f3e2059613d52694cebefd31868c6fef6c5a366dd283e5d9",
+    "tools/build_threepeat_current_used_exit_join.py": "13f1030771d8e3dc9e7be185ce51daca9f55edee6b7876e99aaa778641913955"
+  },
+  "five_promise_role_links_consumed": 46,
+  "links_by_promise": {
+    "P1": 12,
+    "P5": 6,
+    "P2": 8,
+    "P4": 8,
+    "P3": 12
+  },
+  "promise_actors": [
+    {
+      "id": "P1",
+      "actor_scope": [
+        "Protagonist",
+        "LaMelo Ball"
+      ],
+      "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+      "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+      "source_refs": [
+        {
+          "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+          "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+          "json_pointer": "/selected_2025_last_attack"
+        },
+        {
+          "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+          "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+          "json_pointer": "/individual_choices_and_visible_costs/0"
+        }
+      ],
+      "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+      "own_attack_retained": true,
+      "new_coach_employment_selected": false
+    },
+    {
+      "id": "P2",
+      "actor_scope": [
+        "Protagonist",
+        "Minjun",
+        "David"
+      ],
+      "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+      "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+      "source_refs": [
+        {
+          "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+          "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+          "json_pointer": "/ordered_epilogue_ports/2"
+        }
+      ],
+      "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+      "own_attack_retained": true,
+      "new_coach_employment_selected": false
+    },
+    {
+      "id": "P3",
+      "actor_scope": [
+        "Protagonist",
+        "LaMelo Ball"
+      ],
+      "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+      "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+      "acknowledgment_participants": [
+        "LaMelo Ball",
+        "Protagonist"
+      ],
+      "source_refs": [
+        {
+          "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+          "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+          "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+        },
+        {
+          "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+          "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+          "json_pointer": "/selected_2025_last_attack"
+        }
+      ],
+      "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+      "own_attack_retained": true,
+      "new_coach_employment_selected": false
+    },
+    {
+      "id": "P4",
+      "actor_scope": [
+        "Protagonist",
+        "LM_and_other_independent_coactors",
+        "Minjun",
+        "David"
+      ],
+      "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+      "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+      "source_refs": [
+        {
+          "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+          "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+          "json_pointer": "/ordered_epilogue_ports"
+        },
+        {
+          "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+          "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+          "json_pointer": "/contract_award_and_cost_firewall"
+        }
+      ],
+      "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+      "own_attack_retained": true,
+      "new_coach_employment_selected": false
+    },
+    {
+      "id": "P5",
+      "actor_scope": [
+        "Protagonist",
+        "Fictional Rival"
+      ],
+      "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+      "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+      "acknowledgment_participants": [],
+      "source_refs": [
+        {
+          "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+          "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+          "json_pointer": "/individual_choices_and_visible_costs/5"
+        },
+        {
+          "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+          "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+          "json_pointer": "/last_attack_candidate/live_events"
+        },
+        {
+          "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+          "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+          "json_pointer": "/selected_2025_last_attack"
+        }
+      ],
+      "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+      "own_attack_retained": true,
+      "new_coach_employment_selected": false
+    }
+  ],
+  "repaired_design_boundaries": [
+    {
+      "id": "LM_P_ACK_PARTICIPANTS",
+      "repair": "Public valid-end acknowledgment belongs to LM/P. It is not evidence of Rival reconciliation or private recognition."
+    },
+    {
+      "id": "OWN_ATTACK_AND_FINAL_YIELD",
+      "repair": "B years1–4 own attack remains a genuine reward. Final situational handoff spends direct finish/control without permanent attack abandonment."
+    },
+    {
+      "id": "RIVAL_VALID_COMPETENCE",
+      "repair": "Current legal shot/recovery defense and P response support different-method respect. No added handshake, motives or reconciliation."
+    },
+    {
+      "id": "GUEST_NOT_COACH_JOB",
+      "repair": "Conditional June19 observed guest actions may serve preparation/finite-role promises. They do not create paid service, coach employment or C01 approval."
+    }
+  ],
+  "individualized_question_episode_ids": [
+    14,
+    16,
+    21,
+    26,
+    28,
+    36,
+    43,
+    44,
+    46,
+    50,
+    51
+  ],
+  "source_generation_boundary": "Character foundation is read without rewriting its older event-detail HOLDs. Selected current action/court/epilogue sources govern the current episode design. Original functions and source bytes preserved.",
+  "latest_question_check": {
+    "B_direction": "ALREADY_AUTHOR_SELECTED",
+    "manuscript": "AUTHOR_CONFIRMED_ABSENT",
+    "fact_sources_read_today": [
+      {
+        "url": "https://www.yna.co.kr/view/AKR20260920057400007",
+        "claim": "Reported 2026 Asian Games men basketball gold led by Lee Hyun-jung; final Japan67–57. Current case, not a 2023 result authority."
+      },
+      {
+        "url": "https://www.mma.go.kr/incheon/contents.do?mc=mma0000752",
+        "claim": "Asian Games first place is sports-service admission criterion."
+      },
+      {
+        "url": "https://www.mma.go.kr/contents.do?mc=mma0000758",
+        "claim": "Sports-field service34 months and special-skill public-service544 hours."
+      }
+    ],
+    "existing_2023_story_route": "RECOMMENDED_NOT_NEW_AUTHOR_MEDAL_OR_ADMISSION_LOCK",
+    "timing": "2023 falls after NBA years1–4; do not count it as the early B reward.",
+    "new_legal_claims_about_2023": false,
+    "new_medal_or_duty_selection": false
+  },
+  "counterexamples_rejected": [
+    "MIA_ENTRY_OMITTED",
+    "SAME_FINAL_CLOCK_REPLAY",
+    "LM_FUTURE_SCORE_AT_ENTRY",
+    "KNOWLEDGE_ACQUIRED_AFTER_USE",
+    "FALSE_FINAL_N_LOCK",
+    "FALSE_ACTUAL_BLUEPRINT",
+    "SEASON_TOTAL_AS_EARLY_KNOWLEDGE",
+    "MIA_RESULT_BEFORE_ENTRY",
+    "G7_KNOWN_AT_TWO_TWO",
+    "TITLE_BEFORE_JUNE6",
+    "LM_WIN_AT_RELEASE",
+    "RIVAL_MISS_KNOWN_BEFORE_RELEASE",
+    "RIVAL_NOD_AS_LM_ACK",
+    "YIELD_AS_PERMANENT_ATTACK_ABANDONMENT",
+    "GUEST_AS_NEW_COACH_EMPLOYMENT",
+    "COLLEGE_BEFORE_RECEIPT",
+    "NEXT_ENTRY_MISMATCH",
+    "C01_SILENTLY_RESOLVED",
+    "RIVAL_DEFENSE_AFTER_REBOUND",
+    "LM_WIN_KNOWN_AT_YIELD",
+    "FALSE_WHOLE_HISTORY_COMPLETE"
+  ],
+  "C01_used_calendar_hold_ports": [
+    "FC031",
+    "FC032",
+    "FC040"
+  ],
+  "final_episode_N": null,
+  "actual_Blueprint_count": 0,
+  "actual_Pack_count": 0,
+  "prose_count": 0,
+  "prose_payoff_verified": false,
+  "new_independent_review_completed": false,
+  "tools_this_pass": {
+    "Codex": "DIRECT_LOCAL_SOURCE_READ_REPAIR_CHECK",
+    "web": "LEE_CURRENT_CASE_AND_MMA_MECHANISM_READ",
+    "Antigravity": "NOT_RUN",
+    "NotebookLM": "NOT_RUN_CURRENT_GENERATION",
+    "Claude": "NOT_RUN",
+    "independent_agent": "NOT_RUN"
+  },
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3,
+  "next": "C01 current used-calendar/path and independent current-generation meaning/access acceptance; final N/category policy/individual authority and actual Pack compilation. Preserve CLOSED."
+}
