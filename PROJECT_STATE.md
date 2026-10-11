@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [Antigravity 회수·수집 진단](reviews/ANTIGRAVITY_NBA_OFFICIAL_READER_DIAGNOSTIC_2026_10_12.md): stream 최종답 회수 성공, 큰HTML 기사본문 실패를 실제artifact/HTTP로 구분; 작은공식API에서 올스타투표·선발·리저브 날짜3항목 회수/원문일치, 전체기사 미완료. [현재 종료조건 감사](reviews/CURRENT_MACRO4_7_COMPLETION_AUDIT_2026_10_12.md): B사용선택완료·C01미선택/현재독립수락/최종N·정책/권위4파일 부재·실제compiler종료2 확인. NLM/Claude/독립새실행0·새캐논0·원고/Pack0·미완료4(6번까지3)·v0.30PARTIAL/CLOSED.
+
 2026-10-12 [B안 작업 모델 사용 선택 연결](canon/EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12.md): 승인B/기존시즌위임으로292역할일·821영향행/12모델을원선택객체로발급,FC012–022/권고15–31의17회차와현재역사출구에직접연결. 기대입력≠실측박스/정확수상,2년차21–22범위·기존팀결과/계약·2023추가보너스0보존. 배치16핀·역사10핀/8반례 대조;B작업입력선택잔여해소,C01 FC031/032/040·현재독립수락/최종N/개별권위·Pack남음. 새AGY/NLM/Claude/독립0·원고/Pack0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
 
 2026-10-12 [다섯 약속 행위자·회차 소비 수리](reviews/THREEPEAT_CURRENT_PROMISE_ACTOR_CONSUMPTION_2026_10_12.json): 다섯약속46역할연결을51개별Blueprint에직접반영, P3고개교환LM↔P/P5라이벌역량·응답분리·B자기공격유지·별도guest≠코치직. 기초성격/현행코트·후일담15핀과42출구/10단위/9연결 갱신·배치15/출구6반례거부. 이현중2026금메달/MMA34개월·544시간실제웹확인;2023추천은1–4년차보상아님/금메달·C01자동선택0. C01 3출구·현재독립수락/최종N/ACTUAL 권위·Pack남음. 새AGY/NLM/Claude/독립0·원고/Pack0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
