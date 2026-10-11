@@ -172,15 +172,15 @@ def make():
                  'source_refs':[ref(LATE,'/selected_seasons/1/selected_used_series/3'),ref(LATE,'/selected_2024_DEN_first_defense'),ref(LAST,'/learning_usepoint_and_information_boundaries')],
                  'unresolved_used_dependencies':[], 'new_major_canon_choice':False},
                 {'unit_id':'M09','category':'NBA','function_ids':[f'FC{k:03}' for k in range(35,40)],
-                 'title':'마지막 공을 동료가 끝내다', 'timeline_window':'2025년6월22일G7 남은21.6초→릴리스0.2→혼·검토·공개 종료',
-                 'entry_state':'라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.',
-                 'action_choice':'리바운드→전진→닫힌 직접 공격→첫이양·반환→재참여→최종LM 이양을 하나의현재 시계에서 잇는다. LM이 자기 판단으로 끝낸다.',
+                 'title':'마지막 공을 동료가 끝내다', 'timeline_window':'2025년6월22일G7 MIN점유23.6초→CHI리바운드21.6초→릴리스0.2→혼·검토·공개 종료',
+                 'entry_state':'현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.',
+                 'action_choice':'현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.',
                  'durable_cost':'P의 최종 슛·통제권 포기, LM의독립 슛 책임, LV/Mark/Carter의 무볼·박스아웃·중간소유 비용을 각각 남긴다.',
                  'state_change':'LM유효2점의검토 뒤공개CHI110–109MIN/시리즈4–3/삼연패. P결승득점0·새개인상0.',
                  'source_refs':[ref(BASE,f'/individual_function_designs/{k-1}') for k in range(35,40)]+[ref(LATE,'/selected_2025_last_attack'),ref(LAST,'/individual_choices_and_visible_costs')],
                  'unresolved_used_dependencies':[], 'new_major_canon_choice':False},
             ]
-            edits.append({'operation':'MERGE','function_ids':[f'FC{k:03}' for k in range(35,40)],'old_rows':5,'new_rows':1,'reason':'같은21.6초 시계의다섯 기능이다. 이양·마무리 결과를 여러 회의새사건처럼 반복하지 않는다.'})
+            edits.append({'operation':'MERGE','function_ids':[f'FC{k:03}' for k in range(35,40)],'old_rows':5,'new_rows':1,'reason':'최종회차에겹쳐쓰이는다섯기능이다. 라이벌수비는선택된MIN23.6초부터, CHI점유는21.6초부터다. 각기능을독립된새점유나여러회차의새사건으로반복하지않는다.'})
             edits.append({'operation':'RESTORE_SELECTED_TRANSITION','added_rows':2,'reason':'이미 선택된2025 East 진입과G7 이전 지식 경계를 보강한다. 새 승패·기관 판정·훈련을 만들지 않는다.'})
         parts=SPLITS.get(i)
         if parts:
@@ -232,7 +232,7 @@ def make():
       46:[('2024-06-06 elapsed2770','Carter리바운드/새24초; 미래18초끝·점수 미취득'),('2024-06-06 elapsed2772','Carter선택전진패스와P수신'),('2024-06-06 elapsed2775','P이양·LM수신/독립시작·SC19'),('2024-06-06 elapsed2778','P오른쪽레인비움; 동료이동 보이는 범위만'),('2024-06-06 elapsed2788','진행중/슛·점수 미배정; June20우승 미취득')],
       47:[('2024-06-20 DEN G6 completed','별도종료4–2/우승 확인; June6첫소유포기비용기억,개인상 미부여')],
       49:[('2025-06-19 Finals G6 completed','3–3; 끝난2022/23·June6_2024 자기경험만'),('2025-06-22 G7 before final possession','현재받은역할; Rival미래실패·LM미래득점·최종수신 확정 미취득')],
-      50:[('2025-06-22 remaining21.6 rebound','CHI108–109MIN·P수비리바운드·SCoff'),('2025-06-22 remaining16.6 frontcourt','실제전진·보이는수비·닫힌직접공격만'),('2025-06-22 firstfeed return reentry finalpass','LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음'),('2025-06-22 remaining0.2 release','LM자기릴리스 관찰; 유효2점·최종승리 미확정'),('2025-06-22 horn and valid-shot review completed','유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인'),('2025-06-22 public end and visible nod','상호보이는고개행동만; 동료의속마음·미래보증 미취득')],
+      50:[('2025-06-22 remaining23.6 MIN possession','Rival의공·드리블/Towns접근·샷클록2.6만; 미래미스·CHI획득 미취득'),('2025-06-22 remaining22.7 Rival release','릴리스와골대쪽공/동료박스아웃; 아직슛실패 미취득'),('2025-06-22 remaining22.0 rim miss','림에맞아튀는공; 아직CHI수비리바운드확보 미취득'),('2025-06-22 remaining21.6 rebound','CHI108–109MIN·P수비리바운드·SCoff'),('2025-06-22 remaining16.6 frontcourt','실제전진·보이는수비·닫힌직접공격만'),('2025-06-22 firstfeed return reentry finalpass','LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음'),('2025-06-22 remaining0.2 release','LM자기릴리스 관찰; 유효2점·최종승리 미확정'),('2025-06-22 horn and valid-shot review completed','유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인'),('2025-06-22 public end and visible nod','상호보이는고개행동만; 동료의속마음·미래보증 미취득')],
       51:[('2035-06-18 service end','서비스종료만; UPC만료와같다는추론 금지'),('2035-06-19 separately permitted guest','별도자발적권한/후배의보이는준비; 본인NBA서비스연장 없음'),('2035-06-20 public retirement','전날본행동만기억; 후배생각/미래직업 미취득,실사용C01의무가용보류')]
     }
     for ep,points in checkpoints.items():
@@ -345,10 +345,13 @@ def validate(a,b):
     assert '우승은 아직 겪지 않았다' in a['episodes'][44]['state_change']
     learning=read(LATE)['selected_2024_DEN_first_defense']['new_successor_current_learning_selected']
     assert [x['elapsed'] for x in learning['events']]==[2770,2772,2775,2778] and learning['window_elapsed_seconds']==[2770,2788]
-    assert [x['order'] for x in a['episodes'][49]['named_acquisition_checkpoints']]==list(range(1,7))
-    assert '유효2점·최종승리 미확정' in a['episodes'][49]['named_acquisition_checkpoints'][3]['available_knowledge_limit']
+    assert [x['order'] for x in a['episodes'][49]['named_acquisition_checkpoints']]==list(range(1,10))
+    assert '유효2점·최종승리 미확정' in a['episodes'][49]['named_acquisition_checkpoints'][6]['available_knowledge_limit']
+    assert '남은23.6초는MIN Rival의공/샷클록2.6' in last['entry_state']
+    events=read(LAST)['last_attack_candidate']['live_events']
+    assert [e['remaining_game_seconds'] for e in events[:4]]==[23.6,22.7,22.0,21.6]
     profiled=[e for e in a['episodes'] if 'named_acquisition_checkpoints' in e]
-    assert len(profiled)==13 and sum(len(e['named_acquisition_checkpoints']) for e in profiled)==35
+    assert len(profiled)==13 and sum(len(e['named_acquisition_checkpoints']) for e in profiled)==38
     phi=read(TITLE23)['selected_CHI_series_preparation'][0]['games']
     assert [(g['date'],g['selected_winner']) for g in phi[3:6]]==[('2023-04-22','CHI'),('2023-04-25','CHI'),('2023-04-27','PHI')]
     late=read(LATE)['selected_seasons'][0]['selected_used_series']
@@ -358,7 +361,7 @@ def render(a):
     lines=['# 현재 본편50회+후일담1회 밀도 배치 권고','',
            '**51행을 실제 작성한 편집 권고안이다. 최종N LOCK·작가선택·독립수락이 아니다.** 원고0·ACTUAL Blueprint/Pack0·v0.30 PARTIAL/CLOSED.','',
            '## 수의 근거','',
-           '40기능에서 다른 날짜·다른 압력의 선택을13행 더 나누고, 같은2025 마지막21.6초의5기능은1회로 합쳐4행을 줄였다. 이미 선택된2025 East 진입·G7 지식 경계2행을 복원해 `40+13−4+2=51`이다. 경기별·계약서별·연간 후일담별로 나누거나 비율을 맞추려NBA 장면을 늘리지 않았다.','',
+           '40기능에서 다른 날짜·다른 압력의 선택을13행 더 나누고, 2025 마지막회차의겹치는5기능은1회로합쳐4행을줄였다. 라이벌수비는선택된MIN점유23.6초부터, CHI마지막점유는21.6초부터다. 이미선택된2025 East진입·G7지식경계2행을복원해 `40+13−4+2=51`이다. 경기별·계약서별·연간후일담별로나누거나비율을맞추려NBA장면을늘리지않았다.','',
            '비율 진단: PRE11 / NBA_DRAFT3 / NBA36 / POST1. draft포함39/51=76.47%, NBA만36/51=70.59%. EPI는POST이며 최종 정책 선택 자료는 발급하지 않았다.','',
            '## 회차별 배치','',
            '|권고 회차|막|제목|사용 기능|바뀐 상태|','|---|---|---|---|---|']
@@ -381,7 +384,7 @@ def render(a):
               '## 검증·남은 일','',
               '51배치와51개별Blueprint를대조하고설계12출처핀+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
               'NotebookLM은이편집권고안의첫세대본문을새source로등록하고인용답을회수했다.자기작성설계의구조분석이며NBA원전검증이나독립수락은아니다.인정욕구삭제권고는거부하고정보창만분리했고,June6→June20기존비용연결과P/LM마지막비용구분을보강했다.원입력해시·답·수락범위는별도영수증에보존한다.','',
-              '후속 직접 검사에서 권고10의 미완료 시즌34GP/323분 선인지, 권고36의2–2시점G7확정, 권고45의DEN진입 전June20우승 소비를 발견해 수리했다. 권고29는 정규 종료 뒤52–30/E7을 확인한 진입으로 명확히 했다. 최종 합계는 작가용 조건부 예산으로 분리하고13회차의35취득 체크포인트를 날짜/현재 시계에 붙였다. 기존6반례·NLM첫세대 분석의 검증 한계도 기록한다.','',
+              '후속 직접 검사에서 권고10의 미완료 시즌34GP/323분 선인지, 권고36의2–2시점G7확정, 권고45의DEN진입 전June20우승 소비를 발견해 수리했다. 권고29는 정규 종료 뒤52–30/E7을 확인한 진입으로 명확히 했다. 최종 합계는 작가용 조건부 예산으로 분리하고13회차의38취득 체크포인트를 날짜/현재 시계에 붙였다. 마지막회차는원선택전체시계의23.6/22.7/22.0을복원해CHI점유획득을미리알지않는다. 기존6반례·NLM첫세대 분석의 검증 한계도 기록한다.','',
               '원고분량·상업적리듬이입증되지않았다.특히2025진행3회와인정비교의서사밀도는현재출처를받은독립의미검수대상이다.권고51을고정분량으로맞추기위해회상·설명·같은21.6초를늘리지않는다.','',
               '다음: 이51행의독립적인의미·정보접근검수와현재역사/사용달력연결,필요하면권고배치수리→최종N/개별권위발급→실제Pack컴파일.','',
               '|번호|작업|상태|','|---|---|---|','|1|드래프트연쇄|완료|','|2|Chicago2020–21|기존선택시즌완료|',
@@ -407,7 +410,8 @@ def main():
         ('MIA_RESULT_BEFORE_ENTRY',lambda x,y:both(x,y,28,'entry_state','Feb3에MIA승리와본선진출을안다.')),
         ('G7_KNOWN_AT_TWO_TWO',lambda x,y:both(x,y,35,'entry_state','2–2에서G7개최와최종승리를안다.')),
         ('TITLE_BEFORE_JUNE6',lambda x,y:both(x,y,44,'state_change','June20_2024 CHI4–2DEN 우승을이미안다.')),
-        ('LM_WIN_AT_RELEASE',lambda x,y:(x['episodes'][49]['named_acquisition_checkpoints'][3].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'),y['prepared_episode_blueprints'][49]['named_acquisition_checkpoints'][3].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'))),
+        ('LM_WIN_AT_RELEASE',lambda x,y:(x['episodes'][49]['named_acquisition_checkpoints'][6].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'),y['prepared_episode_blueprints'][49]['named_acquisition_checkpoints'][6].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'))),
+        ('RIVAL_MISS_KNOWN_BEFORE_RELEASE',lambda x,y:both(x,y,49,'entry_state','현재108–109지만Rival미스와P의다음리바운드를미리안다.')),
     ]:
         x,y=copy.deepcopy(a),copy.deepcopy(b);mutate(x,y)
         try:validate(x,y)

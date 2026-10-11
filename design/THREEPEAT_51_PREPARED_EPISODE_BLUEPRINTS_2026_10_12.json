@@ -4,7 +4,7 @@
   "status": "COMPLETE_PREPARED_51_EPISODE_BUNDLE_NOT_ACTUAL_AUTHORITY",
   "allocation_ref": {
     "path": "design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json",
-    "source_sha256": "6b65d7dc443b9f620aae9c1ceb07cc19cc31f075995e267626200ddf611ba5a4",
+    "source_sha256": "1097b9573c247ffc1675a563b240e9ed187801fe2fea365b01a0f93d5966377f",
     "json_pointer": ""
   },
   "prepared_episode_blueprints": [
@@ -10320,7 +10320,7 @@
       "proposed_episode": 49,
       "status": "INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED",
       "personal_award_use_mode": "NOT_USED",
-      "next_entry_state": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
+      "next_entry_state": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
       "editorial_directions_are_dialogue": false,
       "named_acquisition_checkpoints": [
         {
@@ -10337,7 +10337,7 @@
         }
       ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
+      "reader_question": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "2022PHI탈락·2023PHIG7·June6_2024에서 자기가 이미 본 행동만 현재 자기 과제와 대조한다. 다른 선수의 선택과 아직 닫히지 않은 결과를 통제하려 하지 않는다.",
@@ -10499,9 +10499,9 @@
         "FC039"
       ],
       "title": "마지막 공을 동료가 끝내다",
-      "timeline_window": "2025년6월22일G7 남은21.6초→릴리스0.2→혼·검토·공개 종료",
-      "entry_state": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
-      "action_choice": "리바운드→전진→닫힌 직접 공격→첫이양·반환→재참여→최종LM 이양을 하나의현재 시계에서 잇는다. LM이 자기 판단으로 끝낸다.",
+      "timeline_window": "2025년6월22일G7 MIN점유23.6초→CHI리바운드21.6초→릴리스0.2→혼·검토·공개 종료",
+      "entry_state": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
+      "action_choice": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
       "durable_cost": "P의 최종 슛·통제권 포기, LM의독립 슛 책임, LV/Mark/Carter의 무볼·박스아웃·중간소유 비용을 각각 남긴다.",
       "state_change": "LM유효2점의검토 뒤공개CHI110–109MIN/시리즈4–3/삼연패. P결승득점0·새개인상0.",
       "source_refs": [
@@ -10556,36 +10556,54 @@
       "named_acquisition_checkpoints": [
         {
           "order": 1,
+          "source_clock_label": "2025-06-22 remaining23.6 MIN possession",
+          "available_knowledge_limit": "Rival의공·드리블/Towns접근·샷클록2.6만; 미래미스·CHI획득 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2025-06-22 remaining22.7 Rival release",
+          "available_knowledge_limit": "릴리스와골대쪽공/동료박스아웃; 아직슛실패 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2025-06-22 remaining22.0 rim miss",
+          "available_knowledge_limit": "림에맞아튀는공; 아직CHI수비리바운드확보 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 4,
           "source_clock_label": "2025-06-22 remaining21.6 rebound",
           "available_knowledge_limit": "CHI108–109MIN·P수비리바운드·SCoff",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         },
         {
-          "order": 2,
+          "order": 5,
           "source_clock_label": "2025-06-22 remaining16.6 frontcourt",
           "available_knowledge_limit": "실제전진·보이는수비·닫힌직접공격만",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         },
         {
-          "order": 3,
+          "order": 6,
           "source_clock_label": "2025-06-22 firstfeed return reentry finalpass",
           "available_knowledge_limit": "LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         },
         {
-          "order": 4,
+          "order": 7,
           "source_clock_label": "2025-06-22 remaining0.2 release",
           "available_knowledge_limit": "LM자기릴리스 관찰; 유효2점·최종승리 미확정",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         },
         {
-          "order": 5,
+          "order": 8,
           "source_clock_label": "2025-06-22 horn and valid-shot review completed",
           "available_knowledge_limit": "유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         },
         {
-          "order": 6,
+          "order": 9,
           "source_clock_label": "2025-06-22 public end and visible nod",
           "available_knowledge_limit": "상호보이는고개행동만; 동료의속마음·미래보증 미취득",
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
@@ -10595,7 +10613,7 @@
       "reader_question": "2035 원클럽 은퇴 방향은 남지만 후기 연간 시즌·추가 우승 총수는 본편 의무가 아니다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
-      "basketball_goal": "리바운드→전진→닫힌 직접 공격→첫이양·반환→재참여→최종LM 이양을 하나의현재 시계에서 잇는다. LM이 자기 판단으로 끝낸다.",
+      "basketball_goal": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
       "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
       "primary_devices": [
         "OWN_CHOICE",
@@ -10605,7 +10623,7 @@
       "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
       "claims": [
         {
-          "text": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
+          "text": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -10647,7 +10665,7 @@
           ]
         },
         {
-          "text": "리바운드→전진→닫힌 직접 공격→첫이양·반환→재참여→최종LM 이양을 하나의현재 시계에서 잇는다. LM이 자기 판단으로 끝낸다.",
+          "text": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "CURRENT_PLAN",
           "source_refs": [
