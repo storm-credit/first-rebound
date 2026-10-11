@@ -7,6 +7,7 @@ import json
 import subprocess
 from collections import Counter
 from pathlib import Path
+from build_threepeat_actual_context_packs import selected_record
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json'
@@ -28,6 +29,7 @@ VILL='simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATI
 C01='research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json'
 ARC='canon/CHARACTER_RESPONSIBILITY_ARC.md'
 EPI='simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json'
+B_USED='canon/EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12.json'
 
 # Splits name different existing state transitions, not a quota of scenes.
 # title, window, action/choice, newly incurred cost, resulting state
@@ -240,6 +242,12 @@ def make():
     for ep,points in checkpoints.items():
         episodes[ep-1]['named_acquisition_checkpoints']=[{'order':n,'source_clock_label':label,'available_knowledge_limit':limit,'status':'SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT'} for n,(label,limit) in enumerate(points,1)]
     for ep in (43,44,51):episodes[ep-1]['source_refs'].append(ref(C01,'/finite_remaining_ports'))
+    B_selected=read(B_USED);selected_record(B_selected,'EARLY_CAREER_REWARD')
+    for e in episodes:
+        e['consequential_choice_ids']=[]
+        if set(e['function_ids'])&set(B_selected['used_port_ids']):
+            e['source_refs'].append(ref(B_USED));e['consequential_choice_ids'].append('EARLY_REWARD_IMPLEMENTATION')
+        if set(e['function_ids'])&{'FC031','FC032','FC040'}:e['consequential_choice_ids'].append('C01_CALENDAR')
     ownership={f'FC{i:03}':[e['proposed_episode'] for e in episodes if f'FC{i:03}' in e['function_ids']] for i in range(1,41)}
     promises=[]
     for p in parent['five_promise_consumption']:
@@ -257,7 +265,7 @@ def make():
         p['current_actor_consumption']['status']='SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE'
         p['current_actor_consumption']['own_attack_retained']=True
         p['current_actor_consumption']['new_coach_employment_selected']=False
-    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM,VILL,C01,ARC,EPI]}
+    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM,VILL,C01,ARC,EPI,B_USED]}
     allocation={'id':'THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12','producer_id':'root_codex',
                 'baseline_main':'098e8f170a9e4ea0503dff576811807a79fd7e6d',
                 'status':'COMPLETE_51_ROW_EDITORIAL_RECOMMENDATION_NOT_FINAL_N_LOCK',
@@ -268,6 +276,8 @@ def make():
                               'arithmetic':'40+13-4+2=51','ratio_driven_padding':False,'old111_or40_used_as_final_N':False},
                 'episodes':episodes,'density_edits':edits,'function_ownership':ownership,'five_promise_episode_consumption':promises,
                 'character_foundation_source':{'path':ARC,'source_sha256':sha(ARC),'role':'Foundation personality read; old detail-HOLD wording not current selected event authority'},
+                'early_reward_used_selection_ref':ref(B_USED),
+                'B_use_boundary':'Selected delegated working expectation/impact inputs only. No observed boxes, ballot totals, awards or C01 choice.',
                 'unit_counts':dict(Counter(e['unit_id'] for e in episodes)),
                 'category_counts':dict(Counter(e['category'] for e in episodes)),
                 'draft_counting_policy':'NBA_DRAFT counted in recommendation diagnostic only; final selected policy source not issued',
@@ -419,6 +429,14 @@ def validate(a,b):
     ack=read(LAST)['last_attack_candidate']['after_horn_actions'][3]
     assert ack['after']=='valid score+game end confirmed' and 'LM looks toward P' in ack['action'] and 'P returns one' in ack['action']
     assert read(EPI)['ordered_epilogue_ports'][2]['no_UPC_based_paid_NBA_service_claim_on_June19'] is True
+    selected_B=read(B_USED);selected_record(selected_B,'EARLY_CAREER_REWARD')
+    assert a['early_reward_used_selection_ref']==ref(B_USED)
+    for e,bp in zip(a['episodes'],b['prepared_episode_blueprints']):
+        expected_choices=[]
+        if set(e['function_ids'])&set(selected_B['used_port_ids']):
+            expected_choices.append('EARLY_REWARD_IMPLEMENTATION');assert ref(B_USED) in e['source_refs'] and ref(B_USED) in bp['source_refs']
+        if set(e['function_ids'])&{'FC031','FC032','FC040'}:expected_choices.append('C01_CALENDAR')
+        assert e['consequential_choice_ids']==bp['consequential_choice_ids']==expected_choices
 
 def render(a):
     lines=['# 현재 본편50회+후일담1회 밀도 배치 권고','',
@@ -445,7 +463,7 @@ def render(a):
               '- 다섯 약속의설치·변주·회수를권고회차로재연결했다.50/51의기능소비는본문회수완료가 아니다.',
               '- C01의권고43/44/51은사용날가용이보류다.개인상NOT_USED를허가/서비스달력의대체로쓰지 않는다.','',
               '## 검증·남은 일','',
-              '51배치와51개별Blueprint를대조하고설계14출처핀(기초성격문서포함)+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
+              '51배치와51개별Blueprint를대조하고설계15출처핀(기초성격문서·B사용선택포함)+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다. B FC012–022의해당회차는기존위임으로선택된작업기대입력과영향모델원객체를직접참조한다. 실제수상·정수박스·C01선택은포함하지않는다.','',
               'NotebookLM은이편집권고안의첫세대본문을새source로등록하고인용답을회수했다.자기작성설계의구조분석이며NBA원전검증이나독립수락은아니다.인정욕구삭제권고는거부하고정보창만분리했고,June6→June20기존비용연결과P/LM마지막비용구분을보강했다.원입력해시·답·수락범위는별도영수증에보존한다.','',
               '후속 직접 검사에서 권고10의 미완료 시즌34GP/323분 선인지, 권고36의2–2시점G7확정, 권고45의DEN진입 전June20우승 소비를 발견해 수리했다. 권고29는 정규 종료 뒤52–30/E7을 확인한 진입으로 명확히 했다. 최종 합계는 작가용 조건부 예산으로 분리하고13회차의38취득 체크포인트를 날짜/현재 시계에 붙였다. 마지막회차는원선택전체시계의23.6/22.7/22.0을복원해CHI점유획득을미리알지않는다. 기존6반례·NLM첫세대 분석의 검증 한계도 기록한다.','',
               '다섯약속의심기·변주·회수와실제행위자를개별Blueprint에직접소비시켰다. P3의공개종료뒤고개교환은LM↔P이고P5라이벌화해증거가아니다. P5는유효한Rival공격/회복수비와그압박에서P의자기종료고집을놓는선택으로구분한다. P1이양을평생공격포기로, P2/P4의별도guest를새코치직으로승격하지않는다. 회수는설계준비이며본문실증이아니다.','',

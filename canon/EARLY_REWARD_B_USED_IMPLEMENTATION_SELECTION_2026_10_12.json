@@ -1,0 +1,312 @@
+{
+  "id": "EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12",
+  "choice_id": "EARLY_REWARD_IMPLEMENTATION",
+  "kind": "EARLY_CAREER_REWARD",
+  "selected": true,
+  "status": "SELECTED_FICTIONAL_USED_RESOLUTION",
+  "authority_class": "DELEGATED_SELECTED",
+  "producer_id": "root_codex",
+  "baseline_main": "7f68c712dd54e9020972eeac9686f102fd01d722",
+  "resolution": "B1–4년차의 날짜별 자기 공격·동료 기회 비용과 기존 비득점 기대 prior를 명시적 가상 작업 입력으로 사용한다. 총영향 P+1/2·실제 기회비용 동료각−1/8은 기존 선택 승패 방향을 보존하는 위임 모델이며 실측 평점이 아니다. 연차별 인정 경쟁은 사용하되 실제 수상·득표·정수 박스 기록은 사용하지 않는다. 2023 누적 성장에 B 보너스를 다시 더하지 않는다.",
+  "unresolved_used_dependencies": [],
+  "used_port_ids": [
+    "FC012",
+    "FC013",
+    "FC014",
+    "FC015",
+    "FC016",
+    "FC017",
+    "FC018",
+    "FC019",
+    "FC020",
+    "FC021",
+    "FC022"
+  ],
+  "covered_exit_port_ids": [
+    "FC012",
+    "FC013",
+    "FC014",
+    "FC015",
+    "FC016",
+    "FC017",
+    "FC018",
+    "FC019",
+    "FC020",
+    "FC021",
+    "FC022"
+  ],
+  "authority_basis": {
+    "B_direction_ref": {
+      "path": "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json",
+      "source_sha256": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75",
+      "json_pointer": "/B"
+    },
+    "delegated_model_ref": {
+      "path": "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json",
+      "source_sha256": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+      "json_pointer": ""
+    },
+    "scope_interpretation_ref": {
+      "path": "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md",
+      "source_sha256": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    "scope": "Normalize already implemented routine working-model use under selected B and delegated season execution. No new human award/medal/final-gate selection."
+  },
+  "source_sha256": {
+    "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75",
+    "canon/DELEGATED_HEALTH_SEASON_STYLE_DECISION_2026_10_02.json": "4ee9b74e37903a43b0bd50b35c7f24cbabdac13728097a848b553f874bbeef80",
+    "control/DELEGATED_CONTINUATION_SCOPE_2026_10_07.md": "91cc2246afefca1d8fe8c0274440e80f5d87a91edd5e4faf097201e03e0bfc2d",
+    "simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.json": "e31f7c34aa3d92dc9ef07bbc5bc275378a06cf3996e0eaa51718a2dd77d7b515",
+    "simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.csv": "0bd0264d73b0ef22e9af618d6f3c1873dd3fad311826c910325ccabfcd5043c3",
+    "simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12.json": "a4de52b33df6740486ddac55612eb1002898107367c1cec61d42821bdea12659",
+    "simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12_WORKING.csv": "106a09c4543200431b1fa3bb0fc0d178168c82dee3f70031430023e0e0d750e3",
+    "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.csv": "8e678199d4406234252333f7bc8e66b7f0d5ed6e65c3a7977bb6d1d640f9db80",
+    "simulation/EARLY_REWARD_B_YEAR2_DATED_SHOTS_2026_10_11.csv": "cd17447b9618d50d96278d602f0cd703662acf36c3c968b2938adf2736641816",
+    "simulation/EARLY_REWARD_B_YEAR4_DATED_ATTACK_2026_10_11.csv": "b491f2ae8e4db389e97d0bdecf34b799801c454126654443982fe14bddd57e2e",
+    "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json": "66a12cb9f7381b524b6eebf53a87089fdc2077b1c2621c06c38fdc7ffb13545a"
+  },
+  "implementation_refs": [
+    {
+      "path": "simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.json",
+      "source_sha256": "e31f7c34aa3d92dc9ef07bbc5bc275378a06cf3996e0eaa51718a2dd77d7b515",
+      "json_pointer": ""
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.csv",
+      "source_sha256": "0bd0264d73b0ef22e9af618d6f3c1873dd3fad311826c910325ccabfcd5043c3",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12.json",
+      "source_sha256": "a4de52b33df6740486ddac55612eb1002898107367c1cec61d42821bdea12659",
+      "json_pointer": ""
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12_WORKING.csv",
+      "source_sha256": "106a09c4543200431b1fa3bb0fc0d178168c82dee3f70031430023e0e0d750e3",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.csv",
+      "source_sha256": "8e678199d4406234252333f7bc8e66b7f0d5ed6e65c3a7977bb6d1d640f9db80",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_YEAR2_DATED_SHOTS_2026_10_11.csv",
+      "source_sha256": "cd17447b9618d50d96278d602f0cd703662acf36c3c968b2938adf2736641816",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    {
+      "path": "simulation/EARLY_REWARD_B_YEAR4_DATED_ATTACK_2026_10_11.csv",
+      "source_sha256": "b491f2ae8e4db389e97d0bdecf34b799801c454126654443982fe14bddd57e2e",
+      "json_pointer": "",
+      "format": "UTF8_TEXT",
+      "text_locator": {
+        "kind": "WHOLE_TEXT"
+      }
+    },
+    {
+      "path": "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json",
+      "source_sha256": "66a12cb9f7381b524b6eebf53a87089fdc2077b1c2621c06c38fdc7ffb13545a",
+      "json_pointer": ""
+    }
+  ],
+  "dated_working_role_inputs": {
+    "positive_P_role_dates": 292,
+    "full_role_input_ref": {
+      "path": "simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.json",
+      "source_sha256": "e31f7c34aa3d92dc9ef07bbc5bc275378a06cf3996e0eaa51718a2dd77d7b515",
+      "json_pointer": ""
+    },
+    "expected_season_summaries": [
+      {
+        "NBA_year": 1,
+        "scope": "YEAR1_73_ROLE_DATES",
+        "date_start_inclusive": "",
+        "date_end_exclusive": "2019-04-11",
+        "positive_role_dates": 73,
+        "seconds": "76442.0",
+        "expected_totals": {
+          "pts": "584.000000000",
+          "reb": "300.813425934",
+          "ast": "60.162685190",
+          "stl": "46.006759264",
+          "blk": "28.311851856",
+          "tov": "63.701666668",
+          "pf": "127.403333332"
+        },
+        "expected_per_game": {
+          "pts": 8.0,
+          "reb": 4.120731862,
+          "ast": 0.824146372,
+          "stl": 0.630229579,
+          "blk": 0.387833587,
+          "tov": 0.872625571,
+          "pf": 1.745251142
+        },
+        "actual_integer_GP_GS_box_or_award": false
+      },
+      {
+        "NBA_year": 2,
+        "scope": "YEAR2_MIP_ELIGIBLE_65_DATES",
+        "date_start_inclusive": "",
+        "date_end_exclusive": "2020-03-12",
+        "positive_role_dates": 65,
+        "seconds": "83700.0",
+        "expected_totals": {
+          "pts": "780.000000006",
+          "reb": "348.750000000",
+          "ast": "85.249999994",
+          "stl": "62.000000001",
+          "blk": "34.875000000",
+          "tov": "77.499999999",
+          "pf": "135.625000000"
+        },
+        "expected_per_game": {
+          "pts": 12.0,
+          "reb": 5.365384615,
+          "ast": 1.311538461,
+          "stl": 0.953846154,
+          "blk": 0.536538462,
+          "tov": 1.192307692,
+          "pf": 2.086538462
+        },
+        "actual_integer_GP_GS_box_or_award": false
+      },
+      {
+        "NBA_year": 3,
+        "scope": "YEAR3_SELECTED72_ROLE_MODEL",
+        "date_start_inclusive": "",
+        "date_end_exclusive": "2021-05-17",
+        "positive_role_dates": 72,
+        "seconds": "125340.00000003",
+        "expected_totals": {
+          "pts": "1224.386111095",
+          "reb": "568.672222219",
+          "ast": "185.688888905",
+          "stl": "98.647222219",
+          "blk": "58.027777781",
+          "tov": "133.463888905",
+          "pf": "185.688888905"
+        },
+        "expected_per_game": {
+          "pts": 17.005362654,
+          "reb": 7.898225309,
+          "ast": 2.579012346,
+          "stl": 1.370100309,
+          "blk": 0.805941358,
+          "tov": 1.853665124,
+          "pf": 2.579012346
+        },
+        "actual_integer_GP_GS_box_or_award": false
+      },
+      {
+        "NBA_year": 4,
+        "scope": "YEAR4_REGULATION82",
+        "date_start_inclusive": "",
+        "date_end_exclusive": "2022-04-11",
+        "positive_role_dates": 82,
+        "seconds": "157440",
+        "expected_totals": {
+          "pts": "1640.000000000",
+          "reb": "714.311111102",
+          "ast": "262.400000000",
+          "stl": "123.911111102",
+          "blk": "72.888888898",
+          "tov": "182.222222204",
+          "pf": "233.244444408"
+        },
+        "expected_per_game": {
+          "pts": 20.0,
+          "reb": 8.711111111,
+          "ast": 3.2,
+          "stl": 1.511111111,
+          "blk": 0.888888889,
+          "tov": 2.222222222,
+          "pf": 2.844444444
+        },
+        "actual_integer_GP_GS_box_or_award": false
+      }
+    ],
+    "epistemic_mode": "AUTHOR_MODELED_EXPECTATION_INPUT_NOT_OBSERVED_INTEGER_BOXSCORE",
+    "joint_REB_AST_event_ownership_certified": false,
+    "non_scoring_use_boundary": "Explicit carry of prior expectations, not a claim that every rebound/assist/opponent event has been jointly assigned. Pack FACT or public player-knowledge claims may not use these expectations as realized records."
+  },
+  "declared_total_impact_model": {
+    "P_total_delta": "1/2",
+    "debit_actor_total_delta_each": "-1/8",
+    "coefficient_rows": 821,
+    "model_families": 12,
+    "source_ref": {
+      "path": "simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12.json",
+      "source_sha256": "a4de52b33df6740486ddac55612eb1002898107367c1cec61d42821bdea12659",
+      "json_pointer": "/proposed_bounded_working_family"
+    },
+    "exact_box_to_rating_conversion": false,
+    "old_game_directions_preserved": true,
+    "new_exact_game_scores_selected": false
+  },
+  "recognition_use": {
+    "mode": "COMPETITION_ONLY",
+    "announcement_outcomes_selected": false,
+    "personal_award_use_mode": "NOT_USED",
+    "selected_personal_awards": [],
+    "fictional_ballot_totals_selected": false,
+    "HigherMax_condition_changed": false
+  },
+  "preserved": {
+    "year2_exact_record_selected": false,
+    "year2_current_range": [
+      21,
+      22
+    ],
+    "year2_seed7_pick4_LaMelo": true,
+    "existing_minutes_and_start_rights": true,
+    "contracts_and_postseason_routes": true,
+    "2023_cumulative_additional_B_delta": 0,
+    "C01_medal_duty_calendar_selected": false,
+    "original_source_bytes_rewritten": false
+  },
+  "authority_boundary": {
+    "current_history_LOCK_issued": false,
+    "independent_review_completed": false,
+    "final_episode_N": null,
+    "actual_Blueprint_count": 0,
+    "actual_Pack_count": 0,
+    "prose_count": 0,
+    "empty_dependencies_scope": "Only this working B implementation choice. C01 and final/current-generation review gates remain outside this resolved choice."
+  },
+  "gates": {
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL"
+  },
+  "tools_this_pass": {
+    "Codex": "LOCAL_SOURCE_REPLAY_AND_TYPED_SELECTION_EXPORT",
+    "Antigravity": "NOT_RUN",
+    "NotebookLM": "NOT_RUN",
+    "Claude": "NOT_RUN",
+    "independent_agent": "NOT_RUN"
+  }
+}
