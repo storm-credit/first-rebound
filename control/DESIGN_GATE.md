@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-12 [현재40기능 개별 장면 설계](../design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.md): 9막/EPI40개 관찰·선택·전환·동료비용·상대정보 순서 준비, B FC012–022 직접공격/인정경쟁11개 연결. June6_2024 학습18초와June20 우승 분리·2025LM 득점 전 지식 역전 수리/반례5거부. 옛111/원캐논 보존·C01 FC031/032/040 보류·개인상NOT_USED. 최종N/ACTUAL Blueprint·Pack/원고0, 새AGY/NLM/Claude/독립0·정부명단/MMA 웹 재확인. 미완료4(6번까지3)·v0.30PARTIAL/CLOSED.
+
 2026-10-11 [사용자 응답 반영](../canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.md): 원고 없음 확인으로 위치 대기 해제·초반 보상 B안 방향 선택 완료. 새 평균/개인상·동료 비용/팀 결과 영향은 실행 미완료. 아시안게임 금메달·체육요원 질문에 2026 이현중 사례/현재 안내·캐시2023법령으로 확인, 기존2023 경로 권고와 정확 결과 미선택 구분. 완료1–3·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED·Pack/원고0 유지. 아래는 이전 이력.
 
 2026-10-09 [C01 허가 대상 정정](../reviews/THREEPEAT_C01_PERMIT_TYPE_CORRECTION_CURRENT_ADOPTION_2026_10_09.md): PR532 후기 육군18개월+취업허가 비교 준비 판정 철회. 원별표 사회복무/대체복무 소집 대상과 현역 구분, Jan1기간/Jan15마감 분리. 11월 후보는 시즌 날짜 요건만 검토·외국군/사회복무 ArticleV·급여/등록/YOS/Bird/복귀 HOLD·금메달 자동선택0. 원자료/peer/NLM 이력 보존, 수정4행 비교 독립 검문. 삼연패2023–25/9막/2035 유지·완료1–3/미완료4(6번까지3)·Nnull·v0.30PARTIAL/CLOSED·Pack0·원고0·일정0. 아래는 이전이력.

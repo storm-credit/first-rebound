@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [현재40기능 개별 장면 설계](design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.md): 9막/EPI40개 관찰·선택·전환·동료비용·상대정보 순서 준비, B FC012–022 직접공격/인정경쟁11개 연결. June6_2024 학습18초와June20 우승 분리·2025LM 득점 전 지식 역전 수리/반례5거부. 옛111/원캐논 보존·C01 FC031/032/040 보류·개인상NOT_USED. 최종N/ACTUAL Blueprint·Pack/원고0, 새AGY/NLM/Claude/독립0·정부명단/MMA 웹 재확인. 미완료4(6번까지3)·v0.30PARTIAL/CLOSED.
+
 2026-10-12 [B안 전체 선정 자리 후보](design/EARLY_REWARD_B_RECOGNITION_ROSTER_CANDIDATES_2026_10_12.md): 현행30명 구단/역할25핀·A/B/C/D각동서부12명/2G3F·2G3F2ANY 검산. 선발투표전44/27–17과발표전47·리저브발표상한50 분리·Pguard/SAS동부/중복반례3거부. DeRozanSAS F·HardenBKN·LMCHI 보존, A권고≠선택·새개인상/C01선택0. AGY53초빈답/수집0·NLM공식공지본문/수리후인용답회수·Claude/독립0·Pack/원고0·미완료4(6번까지3)·CLOSED.
 
 2026-10-12 [B안 공동 영향·승패 소비부 연결](simulation/EARLY_REWARD_B_JOINT_RESULT_RESPONSE_2026_10_12.md): 날짜별동료비용/47핀·821계수·12모델/336조합 재현, P+0.5/기회동료각−0.125의 명시적작업가정에서 모든기존경기방향보존. 실제평점/점수·수상인증아님·2년차정확기록미선택·인정/C01/최종배치·Blueprint/Pack남음. 새AGY/NLM/Claude/독립agent0·정부제도웹재확인·원고/Pack0·미완료4(6번까지3)·CLOSED.
