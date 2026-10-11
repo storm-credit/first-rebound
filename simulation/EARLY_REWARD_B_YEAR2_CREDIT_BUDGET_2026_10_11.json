@@ -1,0 +1,947 @@
+{
+  "id": "EARLY_REWARD_B_YEAR2_CREDIT_BUDGET_2026_10_11",
+  "status": "SELECTED_WORKING_P_AND_SEASON_CREDIT_INPUT_SHOT_AND_IMPACT_JOIN_PENDING",
+  "classification": "DELEGATED_B_IMPLEMENTATION_MODEL_NOT_EXACT_CANON_STATS",
+  "source_hash_method": "SHA256_UTF8_LF",
+  "source_sha256": {
+    "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75",
+    "simulation/CHICAGO_2019_20_ROSTER_BASELINE.csv": "67f3a9343ed09090a73222a2bd40d9dabde69a0c5a551fa5851be4341977b409",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.csv": "363427b7d27924dbcd31ebec837e5c75ede88c70af1521db088a9fed3ff703c9",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv": "97a618bd9617aa3d06f0f86bb4dc2612380231266444090c142b9ba95f3da344",
+    "simulation/CHICAGO_2019_20_PRODUCTION_PRIORS.csv": "82b0d03f606f86aca70f983abb573fcf83dfbde00368196f1bf84a332545ff68",
+    "simulation/CHICAGO_2019_20_OUTCOME_LEDGER.csv": "d920829fea76196f434ce6cc7db6d2c66714d6740c627050668a84c0f162d845"
+  },
+  "authority": "User selected B direction. Root implements its 12PPG lower target and finite coactor costs as a working model; exact stats/results/awards are not author-locked by this model.",
+  "data_vintage": "2019–20 full-season observations are ex-post simulation references. They are not information a character/coach had at the opening or an award voting cutoff; no MIP result is certified here.",
+  "role": {
+    "GP": 65,
+    "GS": 18,
+    "minutes": 1395,
+    "old_expected_pts": 465.0,
+    "new_expected_pts": 780.0,
+    "target_PPG": 12.0,
+    "old_PTS36": 12.0,
+    "new_PTS36": 20.129032258,
+    "additional_expected_pts_credit": 315.0
+  },
+  "P_only_shot_witness": {
+    "TS": 0.56,
+    "three_PA36": 3.0,
+    "three_P": 0.32,
+    "FTA36": 5.0,
+    "FT": 0.72,
+    "FTM36": 3.6,
+    "FGA36": 15.77235023,
+    "two_PA36": 12.77235023,
+    "two_PM36": 6.824516129,
+    "two_P": 0.534319527,
+    "three_PM36": 0.96,
+    "old_FGA36": null,
+    "old_FTA36": null,
+    "delta_FGA36": null,
+    "team_shots_or_possessions_conserved": false,
+    "meaning": "Coherent expected shooting vector; no measured training efficacy or integer/game shot budget certificate."
+  },
+  "coactor_credit_rows": [
+    {
+      "player": "Zach LaVine",
+      "historical_pts": 1530,
+      "historical_seconds": 125125,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 125125,
+      "before_expected_pts": 1530.0,
+      "B_expected_pts_debit": 126.0,
+      "after_expected_pts": 1404.0,
+      "debit_share_of_before_expected_pts": 0.082352941,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Tomas Satoransky",
+      "historical_pts": 644,
+      "historical_seconds": 112678,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 112678,
+      "before_expected_pts": 644.0,
+      "B_expected_pts_debit": 31.5,
+      "after_expected_pts": 612.5,
+      "debit_share_of_before_expected_pts": 0.048913043,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Coby White",
+      "historical_pts": 859,
+      "historical_seconds": 100440,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 100440,
+      "before_expected_pts": 859.0,
+      "B_expected_pts_debit": 63.0,
+      "after_expected_pts": 796.0,
+      "debit_share_of_before_expected_pts": 0.073341094,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Thaddeus Young",
+      "historical_pts": 659,
+      "historical_seconds": 95439,
+      "existing_minute_delta_seconds": -7918,
+      "retained_seconds_unchanged_by_B": 87521,
+      "before_expected_pts": 604.326732258,
+      "B_expected_pts_debit": 31.5,
+      "after_expected_pts": 572.826732258,
+      "debit_share_of_before_expected_pts": 0.052124121,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Lauri Markkanen",
+      "historical_pts": 737,
+      "historical_seconds": 89497,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 89497,
+      "before_expected_pts": 737.0,
+      "B_expected_pts_debit": 63.0,
+      "after_expected_pts": 674.0,
+      "debit_share_of_before_expected_pts": 0.085481682,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Kris Dunn",
+      "historical_pts": 373,
+      "historical_seconds": 76120,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 76120,
+      "before_expected_pts": 373.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 373.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Wendell Carter Jr.",
+      "historical_pts": 484,
+      "historical_seconds": 75349,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 75349,
+      "before_expected_pts": 484.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 484.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Ryan Arcidiacono",
+      "historical_pts": 261,
+      "historical_seconds": 55799,
+      "existing_minute_delta_seconds": -8400,
+      "retained_seconds_unchanged_by_B": 47399,
+      "before_expected_pts": 221.708973279,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 221.708973279,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Daniel Gafford",
+      "historical_pts": 220,
+      "historical_seconds": 36543,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 36543,
+      "before_expected_pts": 220.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 220.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Luke Kornet",
+      "historical_pts": 215,
+      "historical_seconds": 33514,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 33514,
+      "before_expected_pts": 215.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 215.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Chandler Hutchison",
+      "historical_pts": 218,
+      "historical_seconds": 31608,
+      "existing_minute_delta_seconds": -31608,
+      "retained_seconds_unchanged_by_B": 0,
+      "before_expected_pts": 0.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 0.0,
+      "debit_share_of_before_expected_pts": 0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Denzel Valentine",
+      "historical_pts": 246,
+      "historical_seconds": 29275,
+      "existing_minute_delta_seconds": -15600,
+      "retained_seconds_unchanged_by_B": 13675,
+      "before_expected_pts": 114.912040991,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 114.912040991,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Shaquille Harrison",
+      "historical_pts": 209,
+      "historical_seconds": 29060,
+      "existing_minute_delta_seconds": -14400,
+      "retained_seconds_unchanged_by_B": 14660,
+      "before_expected_pts": 105.434962147,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 105.434962147,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Cristiano Felicio",
+      "historical_pts": 86,
+      "historical_seconds": 23143,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 23143,
+      "before_expected_pts": 86.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 86.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Otto Porter Jr.",
+      "historical_pts": 167,
+      "historical_seconds": 19847,
+      "existing_minute_delta_seconds": 0,
+      "retained_seconds_unchanged_by_B": 19847,
+      "before_expected_pts": 167.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 167.0,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Adam Mokoka",
+      "historical_pts": 32,
+      "historical_seconds": 6700,
+      "existing_minute_delta_seconds": -5400,
+      "retained_seconds_unchanged_by_B": 1300,
+      "before_expected_pts": 6.208955224,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 6.208955224,
+      "debit_share_of_before_expected_pts": 0.0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    },
+    {
+      "player": "Max Strus",
+      "historical_pts": 5,
+      "historical_seconds": 374,
+      "existing_minute_delta_seconds": -374,
+      "retained_seconds_unchanged_by_B": 0,
+      "before_expected_pts": 0.0,
+      "B_expected_pts_debit": 0.0,
+      "after_expected_pts": 0.0,
+      "debit_share_of_before_expected_pts": 0,
+      "classification": "FICTIONAL_EXPECTED_CREDIT_NOT_OBSERVED_BOX"
+    }
+  ],
+  "P_game_expected_rows": [
+    {
+      "event_id": "CHI_2019_20_G001",
+      "game_id": "0021900003",
+      "date": "2019-10-23",
+      "minutes_unchanged": 16.0,
+      "old_expected_pts": 5.333333333,
+      "B_expected_pts": 8.946236559,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G002",
+      "game_id": "0021900020",
+      "date": "2019-10-25",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G003",
+      "game_id": "0021900031",
+      "date": "2019-10-26",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G004",
+      "game_id": "0021900042",
+      "date": "2019-10-28",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G005",
+      "game_id": "0021900055",
+      "date": "2019-10-30",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G006",
+      "game_id": "0021900073",
+      "date": "2019-11-01",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G007",
+      "game_id": "0021900085",
+      "date": "2019-11-03",
+      "minutes_unchanged": 17.0,
+      "old_expected_pts": 5.666666667,
+      "B_expected_pts": 9.505376344,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G008",
+      "game_id": "0021900100",
+      "date": "2019-11-05",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G009",
+      "game_id": "0021900105",
+      "date": "2019-11-06",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G010",
+      "game_id": "0021900129",
+      "date": "2019-11-09",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G011",
+      "game_id": "0021900149",
+      "date": "2019-11-12",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G012",
+      "game_id": "0021900163",
+      "date": "2019-11-14",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G013",
+      "game_id": "0021900175",
+      "date": "2019-11-16",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G014",
+      "game_id": "0021900192",
+      "date": "2019-11-18",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G015",
+      "game_id": "0021900209",
+      "date": "2019-11-20",
+      "minutes_unchanged": 24.0,
+      "old_expected_pts": 8.0,
+      "B_expected_pts": 13.419354839,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G016",
+      "game_id": "0021900219",
+      "date": "2019-11-22",
+      "minutes_unchanged": 24.0,
+      "old_expected_pts": 8.0,
+      "B_expected_pts": 13.419354839,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G017",
+      "game_id": "0021900226",
+      "date": "2019-11-23",
+      "minutes_unchanged": 25.0,
+      "old_expected_pts": 8.333333333,
+      "B_expected_pts": 13.978494624,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G018",
+      "game_id": "0021900247",
+      "date": "2019-11-25",
+      "minutes_unchanged": 26.0,
+      "old_expected_pts": 8.666666667,
+      "B_expected_pts": 14.537634409,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G019",
+      "game_id": "0021900266",
+      "date": "2019-11-27",
+      "minutes_unchanged": 25.0,
+      "old_expected_pts": 8.333333333,
+      "B_expected_pts": 13.978494624,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G020",
+      "game_id": "0021900278",
+      "date": "2019-11-29",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G021",
+      "game_id": "0021900298",
+      "date": "2019-12-02",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G022",
+      "game_id": "0021900311",
+      "date": "2019-12-04",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G023",
+      "game_id": "0021900325",
+      "date": "2019-12-06",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G024",
+      "game_id": "0021900337",
+      "date": "2019-12-08",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G025",
+      "game_id": "0021900345",
+      "date": "2019-12-09",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G026",
+      "game_id": "0021900361",
+      "date": "2019-12-11",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G027",
+      "game_id": "0021900375",
+      "date": "2019-12-13",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G028",
+      "game_id": "0021900382",
+      "date": "2019-12-14",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G029",
+      "game_id": "0021900399",
+      "date": "2019-12-16",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G030",
+      "game_id": "0021900409",
+      "date": "2019-12-18",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G031",
+      "game_id": "0021900432",
+      "date": "2019-12-21",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G032",
+      "game_id": "0021900448",
+      "date": "2019-12-23",
+      "minutes_unchanged": 18.0,
+      "old_expected_pts": 6.0,
+      "B_expected_pts": 10.064516129,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G033",
+      "game_id": "0021900477",
+      "date": "2019-12-28",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G034",
+      "game_id": "0021900493",
+      "date": "2019-12-30",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G035",
+      "game_id": "0021900511",
+      "date": "2020-01-02",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G036",
+      "game_id": "0021900529",
+      "date": "2020-01-04",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G037",
+      "game_id": "0021900545",
+      "date": "2020-01-06",
+      "minutes_unchanged": 19.0,
+      "old_expected_pts": 6.333333333,
+      "B_expected_pts": 10.623655914,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G038",
+      "game_id": "0021900560",
+      "date": "2020-01-08",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G039",
+      "game_id": "0021900570",
+      "date": "2020-01-10",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G040",
+      "game_id": "0021900579",
+      "date": "2020-01-11",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G041",
+      "game_id": "0021900593",
+      "date": "2020-01-13",
+      "minutes_unchanged": 21.0,
+      "old_expected_pts": 7.0,
+      "B_expected_pts": 11.741935484,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G042",
+      "game_id": "0021900607",
+      "date": "2020-01-15",
+      "minutes_unchanged": 21.0,
+      "old_expected_pts": 7.0,
+      "B_expected_pts": 11.741935484,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G043",
+      "game_id": "0021900620",
+      "date": "2020-01-17",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G044",
+      "game_id": "0021900631",
+      "date": "2020-01-18",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G045",
+      "game_id": "0021900647",
+      "date": "2020-01-20",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G046",
+      "game_id": "0021900661",
+      "date": "2020-01-22",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G047",
+      "game_id": "0021900674",
+      "date": "2020-01-24",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G048",
+      "game_id": "0021900682",
+      "date": "2020-01-25",
+      "minutes_unchanged": 21.0,
+      "old_expected_pts": 7.0,
+      "B_expected_pts": 11.741935484,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G049",
+      "game_id": "0021900695",
+      "date": "2020-01-27",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G050",
+      "game_id": "0021900708",
+      "date": "2020-01-29",
+      "minutes_unchanged": 23.0,
+      "old_expected_pts": 7.666666667,
+      "B_expected_pts": 12.860215054,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G051",
+      "game_id": "0021900721",
+      "date": "2020-01-31",
+      "minutes_unchanged": 22.0,
+      "old_expected_pts": 7.333333333,
+      "B_expected_pts": 12.301075269,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G052",
+      "game_id": "0021900740",
+      "date": "2020-02-02",
+      "minutes_unchanged": 30.0,
+      "old_expected_pts": 10.0,
+      "B_expected_pts": 16.774193548,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G053",
+      "game_id": "0021900765",
+      "date": "2020-02-06",
+      "minutes_unchanged": 31.0,
+      "old_expected_pts": 10.333333333,
+      "B_expected_pts": 17.333333333,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G054",
+      "game_id": "0021900788",
+      "date": "2020-02-09",
+      "minutes_unchanged": 31.0,
+      "old_expected_pts": 10.333333333,
+      "B_expected_pts": 17.333333333,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G055",
+      "game_id": "0021900803",
+      "date": "2020-02-11",
+      "minutes_unchanged": 30.0,
+      "old_expected_pts": 10.0,
+      "B_expected_pts": 16.774193548,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G056",
+      "game_id": "0021900823",
+      "date": "2020-02-20",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G057",
+      "game_id": "0021900839",
+      "date": "2020-02-22",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G058",
+      "game_id": "0021900845",
+      "date": "2020-02-23",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G059",
+      "game_id": "0021900859",
+      "date": "2020-02-25",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G060",
+      "game_id": "0021900887",
+      "date": "2020-02-29",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G061",
+      "game_id": "0021900907",
+      "date": "2020-03-02",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G062",
+      "game_id": "0021900922",
+      "date": "2020-03-04",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G063",
+      "game_id": "0021900934",
+      "date": "2020-03-06",
+      "minutes_unchanged": 27.0,
+      "old_expected_pts": 9.0,
+      "B_expected_pts": 15.096774194,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G064",
+      "game_id": "0021900946",
+      "date": "2020-03-08",
+      "minutes_unchanged": 20.0,
+      "old_expected_pts": 6.666666667,
+      "B_expected_pts": 11.182795699,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    },
+    {
+      "event_id": "CHI_2019_20_G065",
+      "game_id": "0021900962",
+      "date": "2020-03-10",
+      "minutes_unchanged": 21.0,
+      "old_expected_pts": 7.0,
+      "B_expected_pts": 11.741935484,
+      "integer_box_selected": false,
+      "game_donor_shot_allocation": null
+    }
+  ],
+  "credit_conservation": {
+    "before_team_expected_pts_credit": 6832.591663899,
+    "after_team_expected_pts_credit": 6832.591663899,
+    "exact_fraction_equality": true,
+    "interpretation": "PTS attribution equality only. Does not prove unchanged team efficiency, possession counts or win/loss."
+  },
+  "development": {
+    "new_reward": "Closeout advantage can end in his own finish; a second defender closing early triggers the existing short pass.",
+    "failure_kept": "Weak-hand first-wall failure and drive-turnover cost remain; no fulltime primary creation or elite jumper added.",
+    "coactor_cost": "LaVine126/Coby63/Mark63/Young31.5/Satoransky31.5 expected season scoring credits move to P; core minutes stay. Their actions and responses need dated shot ownership.",
+    "recognition": "MIP competition, no award/vote/AllStar/HigherMax assigned."
+  },
+  "outcome_model_dependency": {
+    "BPM": {
+      "existing_base_wins": 22,
+      "existing_P_rating": [
+        "-1.6"
+      ],
+      "changed_rating_not_inferred_from_pts": null,
+      "changed_results_not_certified": true
+    },
+    "NET_EB": {
+      "existing_base_wins": 22,
+      "existing_P_rating": [
+        "-2"
+      ],
+      "changed_rating_not_inferred_from_pts": null,
+      "changed_results_not_certified": true
+    }
+  },
+  "next_required_joins": [
+    "Recover/use dated player FGA/FTA/TOV and active lineups for the consumed shot allocation; aggregate points alone cannot certify shot availability.",
+    "Allocate the 315 credit cost to actual available coactors on consumed dates; the season weights are not five donors present every game.",
+    "Re-evaluate affected BPM/NET_EB and keeper/result/draft inputs after changed attack role is chosen; do not set causal rating = scoring gain.",
+    "Join B year1/year3/year4 separately and use only information available at each award-selection cutoff."
+  ],
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript_allowed": false,
+    "actual_Pack": 0,
+    "new_individual_awards": 0
+  },
+  "external_tools": "Codex only; no fresh AGY/NotebookLM/Claude or independent agent review"
+}
