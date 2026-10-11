@@ -1,0 +1,1618 @@
+{
+  "id": "EARLY_REWARD_B_YEAR2_DATED_SHOTS_2026_10_11",
+  "status": "WORKING_65_DATE_SHOT_AND_PLAYER_TOV_BUDGET_WITNESS_CAUSAL_JOIN_PENDING",
+  "source_sha256": {
+    "simulation/EARLY_REWARD_B_YEAR2_CREDIT_BUDGET_2026_10_11.json": "91b616b61f18af8776e98347b0bc48b914d6aaa64149b924cb4882fcc54bf44a",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_MINUTE_LEDGER.csv": "97a618bd9617aa3d06f0f86bb4dc2612380231266444090c142b9ba95f3da344",
+    "simulation/CHICAGO_2019_20_PLAYER_GAME_DONOR_VECTOR.csv": "363427b7d27924dbcd31ebec837e5c75ede88c70af1521db088a9fed3ff703c9",
+    "simulation/CHICAGO_2019_20_ROSTER_BASELINE.csv": "67f3a9343ed09090a73222a2bd40d9dabde69a0c5a551fa5851be4341977b409"
+  },
+  "parent_credit_model": {
+    "path": "simulation/EARLY_REWARD_B_YEAR2_CREDIT_BUDGET_2026_10_11.json",
+    "LF_SHA256": "91b616b61f18af8776e98347b0bc48b914d6aaa64149b924cb4882fcc54bf44a",
+    "scope_correction": "PR539 season315/fixed five debits is an initial credit proposal. This witness supersedes those fixed debits for shot ownership: actual active players and category constraints change expected scoring shares. No silent claim of preserving315 or unchanged team PTS."
+  },
+  "authority": "Implementation of selected B direction, same12PPG P working vector and existing minutes; no author-locked exact stat/result/award.",
+  "data_vintage": "Ex-post historical game boxes are counterfactual allocation references, not advance knowledge or measured future efficiency. Historical same-game conversion fractions are explicit fictional retention assumptions.",
+  "precision_policy": "27 old donor second differences are recorded. Use legacy alternate/actual retention ratio for shots rather than subtracting a legacy second count from a different primary clock. This does not certify full lineup/elapsed-clock compatibility.",
+  "legacy_donor_second_differences": [
+    {
+      "event_id": "CHI_2019_20_G007",
+      "player": "Lauri Markkanen",
+      "legacy_seconds": 1753,
+      "official_book_seconds": 1752
+    },
+    {
+      "event_id": "CHI_2019_20_G015",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 1258,
+      "official_book_seconds": 1257
+    },
+    {
+      "event_id": "CHI_2019_20_G018",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 1407,
+      "official_book_seconds": 1406
+    },
+    {
+      "event_id": "CHI_2019_20_G026",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 459,
+      "official_book_seconds": 458
+    },
+    {
+      "event_id": "CHI_2019_20_G030",
+      "player": "Denzel Valentine",
+      "legacy_seconds": 500,
+      "official_book_seconds": 499
+    },
+    {
+      "event_id": "CHI_2019_20_G030",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 845,
+      "official_book_seconds": 844
+    },
+    {
+      "event_id": "CHI_2019_20_G030",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 352,
+      "official_book_seconds": 353
+    },
+    {
+      "event_id": "CHI_2019_20_G032",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 987,
+      "official_book_seconds": 986
+    },
+    {
+      "event_id": "CHI_2019_20_G040",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 1073,
+      "official_book_seconds": 1072
+    },
+    {
+      "event_id": "CHI_2019_20_G041",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 806,
+      "official_book_seconds": 805
+    },
+    {
+      "event_id": "CHI_2019_20_G042",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 733,
+      "official_book_seconds": 732
+    },
+    {
+      "event_id": "CHI_2019_20_G044",
+      "player": "Lauri Markkanen",
+      "legacy_seconds": 1979,
+      "official_book_seconds": 1978
+    },
+    {
+      "event_id": "CHI_2019_20_G044",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 1338,
+      "official_book_seconds": 1337
+    },
+    {
+      "event_id": "CHI_2019_20_G044",
+      "player": "Ryan Arcidiacono",
+      "legacy_seconds": 296,
+      "official_book_seconds": 297
+    },
+    {
+      "event_id": "CHI_2019_20_G046",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 1231,
+      "official_book_seconds": 1230
+    },
+    {
+      "event_id": "CHI_2019_20_G049",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 1241,
+      "official_book_seconds": 1242
+    },
+    {
+      "event_id": "CHI_2019_20_G049",
+      "player": "Denzel Valentine",
+      "legacy_seconds": 1146,
+      "official_book_seconds": 1145
+    },
+    {
+      "event_id": "CHI_2019_20_G050",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 1656,
+      "official_book_seconds": 1657
+    },
+    {
+      "event_id": "CHI_2019_20_G052",
+      "player": "Chandler Hutchison",
+      "legacy_seconds": 1657,
+      "official_book_seconds": 1656
+    },
+    {
+      "event_id": "CHI_2019_20_G052",
+      "player": "Thaddeus Young",
+      "legacy_seconds": 1787,
+      "official_book_seconds": 1788
+    },
+    {
+      "event_id": "CHI_2019_20_G052",
+      "player": "Denzel Valentine",
+      "legacy_seconds": 814,
+      "official_book_seconds": 813
+    },
+    {
+      "event_id": "CHI_2019_20_G053",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 1075,
+      "official_book_seconds": 1074
+    },
+    {
+      "event_id": "CHI_2019_20_G063",
+      "player": "Denzel Valentine",
+      "legacy_seconds": 1644,
+      "official_book_seconds": 1643
+    },
+    {
+      "event_id": "CHI_2019_20_G064",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 2142,
+      "official_book_seconds": 2143
+    },
+    {
+      "event_id": "CHI_2019_20_G064",
+      "player": "Denzel Valentine",
+      "legacy_seconds": 1357,
+      "official_book_seconds": 1356
+    },
+    {
+      "event_id": "CHI_2019_20_G065",
+      "player": "Shaquille Harrison",
+      "legacy_seconds": 1781,
+      "official_book_seconds": 1782
+    },
+    {
+      "event_id": "CHI_2019_20_G065",
+      "player": "Thaddeus Young",
+      "legacy_seconds": 1256,
+      "official_book_seconds": 1255
+    }
+  ],
+  "P_expected_season_pts": 780,
+  "P_Games": 65,
+  "P_GS": 18,
+  "P_minutes": 1395,
+  "coactor_scoring_changes": [
+    {
+      "player": "Adam Mokoka",
+      "minute_scaled_before_expected_pts": 3.427112456,
+      "dated_shot_expected_pts": 3.427112456,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Chandler Hutchison",
+      "minute_scaled_before_expected_pts": 0.0,
+      "dated_shot_expected_pts": 0.0,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Coby White",
+      "minute_scaled_before_expected_pts": 859.0,
+      "dated_shot_expected_pts": 834.293678898,
+      "expected_pts_change": -24.706321102
+    },
+    {
+      "player": "Cristiano Felicio",
+      "minute_scaled_before_expected_pts": 86.0,
+      "dated_shot_expected_pts": 86.0,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Daniel Gafford",
+      "minute_scaled_before_expected_pts": 220.0,
+      "dated_shot_expected_pts": 219.631944444,
+      "expected_pts_change": -0.368055556
+    },
+    {
+      "player": "Denzel Valentine",
+      "minute_scaled_before_expected_pts": 115.182720082,
+      "dated_shot_expected_pts": 115.182720082,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Kris Dunn",
+      "minute_scaled_before_expected_pts": 373.239706139,
+      "dated_shot_expected_pts": 373.239706139,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Lauri Markkanen",
+      "minute_scaled_before_expected_pts": 733.90430738,
+      "dated_shot_expected_pts": 702.420678547,
+      "expected_pts_change": -31.483628833
+    },
+    {
+      "player": "Luke Kornet",
+      "minute_scaled_before_expected_pts": 215.0,
+      "dated_shot_expected_pts": 215.0,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Max Strus",
+      "minute_scaled_before_expected_pts": 0.0,
+      "dated_shot_expected_pts": 0.0,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Otto Porter Jr.",
+      "minute_scaled_before_expected_pts": 167.0,
+      "dated_shot_expected_pts": 167.0,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Ryan Arcidiacono",
+      "minute_scaled_before_expected_pts": 232.793480503,
+      "dated_shot_expected_pts": 232.793480503,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Shaquille Harrison",
+      "minute_scaled_before_expected_pts": 105.215392964,
+      "dated_shot_expected_pts": 105.215392964,
+      "expected_pts_change": 0.0
+    },
+    {
+      "player": "Thaddeus Young",
+      "minute_scaled_before_expected_pts": 611.620522839,
+      "dated_shot_expected_pts": 595.229358257,
+      "expected_pts_change": -16.391164582
+    },
+    {
+      "player": "Tomas Satoransky",
+      "minute_scaled_before_expected_pts": 644.0,
+      "dated_shot_expected_pts": 623.459961091,
+      "expected_pts_change": -20.540038909
+    },
+    {
+      "player": "Wendell Carter Jr.",
+      "minute_scaled_before_expected_pts": 484.0,
+      "dated_shot_expected_pts": 483.509259259,
+      "expected_pts_change": -0.490740741
+    },
+    {
+      "player": "Zach LaVine",
+      "minute_scaled_before_expected_pts": 1530.0,
+      "dated_shot_expected_pts": 1465.978121125,
+      "expected_pts_change": -64.021878875
+    }
+  ],
+  "dates": [
+    {
+      "event_id": "CHI_2019_20_G001",
+      "date": "2019-10-23",
+      "observed_team_FGA": 105,
+      "observed_team_3PA": 30,
+      "observed_team_FTA": 22,
+      "observed_player_TOV_sum": 10,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 125,
+      "new_expected_team_pts": 121.187121293,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G002",
+      "date": "2019-10-25",
+      "observed_team_FGA": 93,
+      "observed_team_3PA": 42,
+      "observed_team_FTA": 24,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 110,
+      "new_expected_team_pts": 109.831576992,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G003",
+      "date": "2019-10-26",
+      "observed_team_FGA": 97,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 84,
+      "new_expected_team_pts": 86.148245634,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G004",
+      "date": "2019-10-28",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 21,
+      "observed_player_TOV_sum": 9,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 98,
+      "new_expected_team_pts": 96.516989307,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G005",
+      "date": "2019-10-30",
+      "observed_team_FGA": 90,
+      "observed_team_3PA": 39,
+      "observed_team_FTA": 23,
+      "observed_player_TOV_sum": 6,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 111,
+      "new_expected_team_pts": 114.180320459,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G006",
+      "date": "2019-11-01",
+      "observed_team_FGA": 89,
+      "observed_team_3PA": 40,
+      "observed_team_FTA": 23,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 112,
+      "new_expected_team_pts": 112.103475475,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G007",
+      "date": "2019-11-03",
+      "observed_team_FGA": 84,
+      "observed_team_3PA": 29,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 18,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 95,
+      "new_expected_team_pts": 96.611505137,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G008",
+      "date": "2019-11-05",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 32,
+      "observed_team_FTA": 23,
+      "observed_player_TOV_sum": 16,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 112,
+      "new_expected_team_pts": 111.695707416,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G009",
+      "date": "2019-11-06",
+      "observed_team_FGA": 82,
+      "observed_team_3PA": 33,
+      "observed_team_FTA": 27,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 113,
+      "new_expected_team_pts": 115.765972319,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G010",
+      "date": "2019-11-09",
+      "observed_team_FGA": 98,
+      "observed_team_3PA": 32,
+      "observed_team_FTA": 18,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 94,
+      "new_expected_team_pts": 90.638071693,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G011",
+      "date": "2019-11-12",
+      "observed_team_FGA": 81,
+      "observed_team_3PA": 33,
+      "observed_team_FTA": 31,
+      "observed_player_TOV_sum": 19,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 120,
+      "new_expected_team_pts": 122.651251583,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G012",
+      "date": "2019-11-14",
+      "observed_team_FGA": 93,
+      "observed_team_3PA": 43,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 20,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 115,
+      "new_expected_team_pts": 118.187357169,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G013",
+      "date": "2019-11-16",
+      "observed_team_FGA": 91,
+      "observed_team_3PA": 39,
+      "observed_team_FTA": 41,
+      "observed_player_TOV_sum": 19,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 111,
+      "new_expected_team_pts": 114.890214068,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G014",
+      "date": "2019-11-18",
+      "observed_team_FGA": 97,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 101,
+      "new_expected_team_pts": 104.710415288,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G015",
+      "date": "2019-11-20",
+      "observed_team_FGA": 91,
+      "observed_team_3PA": 27,
+      "observed_team_FTA": 26,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 109,
+      "new_expected_team_pts": 111.017180796,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G016",
+      "date": "2019-11-22",
+      "observed_team_FGA": 90,
+      "observed_team_3PA": 30,
+      "observed_team_FTA": 20,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 108,
+      "new_expected_team_pts": 105.569927734,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G017",
+      "date": "2019-11-23",
+      "observed_team_FGA": 95,
+      "observed_team_3PA": 47,
+      "observed_team_FTA": 12,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [
+          "Daniel Gafford",
+          "Wendell Carter Jr."
+        ],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 116,
+      "new_expected_team_pts": 121.615386511,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G018",
+      "date": "2019-11-25",
+      "observed_team_FGA": 86,
+      "observed_team_3PA": 39,
+      "observed_team_FTA": 20,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14402,
+      "historical_team_pts": 94,
+      "new_expected_team_pts": 93.145756249,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G019",
+      "date": "2019-11-27",
+      "observed_team_FGA": 89,
+      "observed_team_3PA": 29,
+      "observed_team_FTA": 18,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 90,
+      "new_expected_team_pts": 92.823658335,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G020",
+      "date": "2019-11-29",
+      "observed_team_FGA": 94,
+      "observed_team_3PA": 38,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 11,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 103,
+      "new_expected_team_pts": 106.549774659,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G021",
+      "date": "2019-12-02",
+      "observed_team_FGA": 75,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 29,
+      "observed_player_TOV_sum": 18,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 113,
+      "new_expected_team_pts": 114.07866498,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G022",
+      "date": "2019-12-04",
+      "observed_team_FGA": 77,
+      "observed_team_3PA": 33,
+      "observed_team_FTA": 37,
+      "observed_player_TOV_sum": 20,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 106,
+      "new_expected_team_pts": 106.886162434,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G023",
+      "date": "2019-12-06",
+      "observed_team_FGA": 88,
+      "observed_team_3PA": 41,
+      "observed_team_FTA": 5,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 98,
+      "new_expected_team_pts": 97.535579454,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G024",
+      "date": "2019-12-08",
+      "observed_team_FGA": 80,
+      "observed_team_3PA": 36,
+      "observed_team_FTA": 27,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 15900,
+      "legacy_team_seconds": 15901,
+      "historical_team_pts": 105,
+      "new_expected_team_pts": 102.107870149,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G025",
+      "date": "2019-12-09",
+      "observed_team_FGA": 89,
+      "observed_team_3PA": 46,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 92,
+      "new_expected_team_pts": 93.95986458,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G026",
+      "date": "2019-12-11",
+      "observed_team_FGA": 94,
+      "observed_team_3PA": 24,
+      "observed_team_FTA": 19,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 136,
+      "new_expected_team_pts": 135.874744085,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G027",
+      "date": "2019-12-13",
+      "observed_team_FGA": 90,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 12,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 73,
+      "new_expected_team_pts": 75.035295695,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G028",
+      "date": "2019-12-14",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 18,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 109,
+      "new_expected_team_pts": 109.455217444,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G029",
+      "date": "2019-12-16",
+      "observed_team_FGA": 87,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 13,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 106,
+      "new_expected_team_pts": 104.43077731,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G030",
+      "date": "2019-12-18",
+      "observed_team_FGA": 97,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 24,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 15900,
+      "legacy_team_seconds": 15900,
+      "historical_team_pts": 110,
+      "new_expected_team_pts": 113.771867956,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G031",
+      "date": "2019-12-21",
+      "observed_team_FGA": 77,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 18,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 119,
+      "new_expected_team_pts": 119.276357675,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G032",
+      "date": "2019-12-23",
+      "observed_team_FGA": 88,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 95,
+      "new_expected_team_pts": 98.14986311,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G033",
+      "date": "2019-12-28",
+      "observed_team_FGA": 87,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 19,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 116,
+      "new_expected_team_pts": 118.399821893,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G034",
+      "date": "2019-12-30",
+      "observed_team_FGA": 107,
+      "observed_team_3PA": 44,
+      "observed_team_FTA": 8,
+      "observed_player_TOV_sum": 10,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 102,
+      "new_expected_team_pts": 109.055133475,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G035",
+      "date": "2020-01-02",
+      "observed_team_FGA": 94,
+      "observed_team_3PA": 36,
+      "observed_team_FTA": 17,
+      "observed_player_TOV_sum": 10,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 98,
+      "new_expected_team_pts": 97.554414348,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G036",
+      "date": "2020-01-04",
+      "observed_team_FGA": 80,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 31,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 104,
+      "new_expected_team_pts": 104.877202213,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G037",
+      "date": "2020-01-06",
+      "observed_team_FGA": 98,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 11,
+      "observed_player_TOV_sum": 8,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 110,
+      "new_expected_team_pts": 110.610750625,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G038",
+      "date": "2020-01-08",
+      "observed_team_FGA": 92,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 21,
+      "observed_player_TOV_sum": 12,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 108,
+      "new_expected_team_pts": 112.164174943,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G039",
+      "date": "2020-01-10",
+      "observed_team_FGA": 80,
+      "observed_team_3PA": 41,
+      "observed_team_FTA": 16,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 105,
+      "new_expected_team_pts": 106.490319181,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G040",
+      "date": "2020-01-11",
+      "observed_team_FGA": 83,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 108,
+      "new_expected_team_pts": 103.256843603,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G041",
+      "date": "2020-01-13",
+      "observed_team_FGA": 81,
+      "observed_team_3PA": 25,
+      "observed_team_FTA": 26,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 101,
+      "new_expected_team_pts": 102.86037865,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G042",
+      "date": "2020-01-15",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 38,
+      "observed_team_FTA": 22,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14402,
+      "historical_team_pts": 115,
+      "new_expected_team_pts": 113.935251964,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G043",
+      "date": "2020-01-17",
+      "observed_team_FGA": 81,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 16,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 89,
+      "new_expected_team_pts": 89.83241384,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G044",
+      "date": "2020-01-18",
+      "observed_team_FGA": 87,
+      "observed_team_3PA": 25,
+      "observed_team_FTA": 17,
+      "observed_player_TOV_sum": 12,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 118,
+      "new_expected_team_pts": 115.833848253,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G045",
+      "date": "2020-01-20",
+      "observed_team_FGA": 92,
+      "observed_team_3PA": 48,
+      "observed_team_FTA": 18,
+      "observed_player_TOV_sum": 16,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 98,
+      "new_expected_team_pts": 96.976777696,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G046",
+      "date": "2020-01-22",
+      "observed_team_FGA": 84,
+      "observed_team_3PA": 30,
+      "observed_team_FTA": 37,
+      "observed_player_TOV_sum": 12,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 117,
+      "new_expected_team_pts": 117.668507714,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G047",
+      "date": "2020-01-24",
+      "observed_team_FGA": 79,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 19,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 81,
+      "new_expected_team_pts": 82.444587894,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G048",
+      "date": "2020-01-25",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 33,
+      "observed_team_FTA": 24,
+      "observed_player_TOV_sum": 9,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 118,
+      "new_expected_team_pts": 122.359358625,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G049",
+      "date": "2020-01-27",
+      "observed_team_FGA": 93,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 9,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 110,
+      "new_expected_team_pts": 107.494361867,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G050",
+      "date": "2020-01-29",
+      "observed_team_FGA": 85,
+      "observed_team_3PA": 33,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 18,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 15900,
+      "legacy_team_seconds": 15900,
+      "historical_team_pts": 106,
+      "new_expected_team_pts": 102.067515628,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G051",
+      "date": "2020-01-31",
+      "observed_team_FGA": 86,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 26,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 118,
+      "new_expected_team_pts": 118.522766777,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G052",
+      "date": "2020-02-02",
+      "observed_team_FGA": 90,
+      "observed_team_3PA": 48,
+      "observed_team_FTA": 26,
+      "observed_player_TOV_sum": 16,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 102,
+      "new_expected_team_pts": 110.053649351,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G053",
+      "date": "2020-02-06",
+      "observed_team_FGA": 93,
+      "observed_team_3PA": 29,
+      "observed_team_FTA": 23,
+      "observed_player_TOV_sum": 15,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 119,
+      "new_expected_team_pts": 116.557533741,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G054",
+      "date": "2020-02-09",
+      "observed_team_FGA": 88,
+      "observed_team_3PA": 32,
+      "observed_team_FTA": 17,
+      "observed_player_TOV_sum": 18,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 111,
+      "new_expected_team_pts": 116.425124534,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G055",
+      "date": "2020-02-11",
+      "observed_team_FGA": 92,
+      "observed_team_3PA": 39,
+      "observed_team_FTA": 14,
+      "observed_player_TOV_sum": 20,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 114,
+      "new_expected_team_pts": 118.0653986,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G056",
+      "date": "2020-02-20",
+      "observed_team_FGA": 87,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 19,
+      "observed_player_TOV_sum": 13,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 93,
+      "new_expected_team_pts": 93.967236568,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G057",
+      "date": "2020-02-22",
+      "observed_team_FGA": 83,
+      "observed_team_3PA": 38,
+      "observed_team_FTA": 21,
+      "observed_player_TOV_sum": 25,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 104,
+      "new_expected_team_pts": 105.125770355,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G058",
+      "date": "2020-02-23",
+      "observed_team_FGA": 81,
+      "observed_team_3PA": 37,
+      "observed_team_FTA": 28,
+      "observed_player_TOV_sum": 26,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 126,
+      "new_expected_team_pts": 127.553738304,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G059",
+      "date": "2020-02-25",
+      "observed_team_FGA": 97,
+      "observed_team_3PA": 31,
+      "observed_team_FTA": 9,
+      "observed_player_TOV_sum": 11,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 122,
+      "new_expected_team_pts": 120.219561087,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G060",
+      "date": "2020-02-29",
+      "observed_team_FGA": 89,
+      "observed_team_3PA": 35,
+      "observed_team_FTA": 23,
+      "observed_player_TOV_sum": 8,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 115,
+      "new_expected_team_pts": 113.700459567,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G061",
+      "date": "2020-03-02",
+      "observed_team_FGA": 94,
+      "observed_team_3PA": 36,
+      "observed_team_FTA": 17,
+      "observed_player_TOV_sum": 14,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 109,
+      "new_expected_team_pts": 110.165624819,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G062",
+      "date": "2020-03-04",
+      "observed_team_FGA": 94,
+      "observed_team_3PA": 30,
+      "observed_team_FTA": 11,
+      "observed_player_TOV_sum": 10,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 108,
+      "new_expected_team_pts": 105.052270733,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G063",
+      "date": "2020-03-06",
+      "observed_team_FGA": 97,
+      "observed_team_3PA": 38,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 17,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 102,
+      "new_expected_team_pts": 99.685315479,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G064",
+      "date": "2020-03-08",
+      "observed_team_FGA": 92,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 25,
+      "observed_player_TOV_sum": 7,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14400,
+      "historical_team_pts": 107,
+      "new_expected_team_pts": 109.903834806,
+      "winner_or_score_selected": false
+    },
+    {
+      "event_id": "CHI_2019_20_G065",
+      "date": "2020-03-10",
+      "observed_team_FGA": 84,
+      "observed_team_3PA": 34,
+      "observed_team_FTA": 15,
+      "observed_player_TOV_sum": 21,
+      "four_categories_exactly_conserved": true,
+      "fallback_category_donors": {
+        "two_pa": [],
+        "three_pa": [],
+        "fta": [],
+        "tov": []
+      },
+      "official_team_seconds": 14400,
+      "legacy_team_seconds": 14401,
+      "historical_team_pts": 108,
+      "new_expected_team_pts": 107.099293655,
+      "winner_or_score_selected": false
+    }
+  ],
+  "verified_scope": [
+    "65 raw PDF hashes/complete final pages",
+    "691 historical positive-minute rows",
+    "17 players historical seasonPTS match old roster",
+    "no DNP recipient or negative category budget",
+    "FGA/3PA/FTA/playerTOV sums conserve each observed team budget as expected fractional counts"
+  ],
+  "not_verified": [
+    "integer event boxes",
+    "historical field-goal percentages remaining causal under new shot context",
+    "ORB/DRB/assists/foul-event and team-turnover possession joins",
+    "five-player concurrent clock and opportunity ownership",
+    "new causal rating/result/draft keeper join",
+    "MIP or other award",
+    "whole B years1/3/4 implementation"
+  ],
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript_allowed": false,
+    "actual_Pack": 0
+  },
+  "tools": "Codex HTTP primary retrieval/PDF extraction/root checks; no AGY/NLM/Claude/independent agent execution"
+}
