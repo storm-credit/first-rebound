@@ -26,6 +26,8 @@ REVIEW='reviews/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12_CODEX_CHECK.j
 NLM='reviews/THREEPEAT_51_DENSITY_NOTEBOOKLM_ANALYSIS_2026_10_12.json'
 VILL='simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json'
 C01='research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json'
+ARC='canon/CHARACTER_RESPONSIBILITY_ARC.md'
+EPI='simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json'
 
 # Splits name different existing state transitions, not a quota of scenes.
 # title, window, action/choice, newly incurred cost, resulting state
@@ -244,7 +246,18 @@ def make():
         current=copy.deepcopy(p)
         current['episode_roles']={k:sorted({ep for fc in ids for ep in ownership[fc]}) for k,ids in p['current_function_ids'].items()}
         current['actual_prose_payoff_verified']=False;promises.append(current)
-    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM,VILL,C01]}
+    actor_modes={
+      'P1':{'actor_scope':['Protagonist','LaMelo Ball'],'function':'자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음','payoff_window':'PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW','guard':'현재이양이평생자기공격포기나자기결승득점으로바뀌지않음','source_refs':[ref(LATE,'/selected_2025_last_attack'),ref(LAST,'/individual_choices_and_visible_costs/0')]},
+      'P2':{'actor_scope':['Protagonist','Minjun','David'],'function':'서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측','payoff_window':'JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT','guard':'별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음','source_refs':[ref(EPI,'/ordered_epilogue_ports/2')]},
+      'P3':{'actor_scope':['Protagonist','LaMelo Ball'],'function':'LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계','payoff_window':'PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW','guard':'공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님','acknowledgment_participants':['LaMelo Ball','Protagonist'],'source_refs':[ref(LAST,'/last_attack_candidate/after_horn_actions/3'),ref(LATE,'/selected_2025_last_attack')]},
+      'P4':{'actor_scope':['Protagonist','LM_and_other_independent_coactors','Minjun','David'],'function':'기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용','payoff_window':'JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT','guard':'NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음','source_refs':[ref(EPI,'/ordered_epilogue_ports'),ref(EPI,'/contract_award_and_cost_firewall')]},
+      'P5':{'actor_scope':['Protagonist','Fictional Rival'],'function':'Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중','payoff_window':'RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT','guard':'LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0','acknowledgment_participants':[],'source_refs':[ref(LAST,'/individual_choices_and_visible_costs/5'),ref(LAST,'/last_attack_candidate/live_events'),ref(LATE,'/selected_2025_last_attack')]}}
+    for p in promises:
+        p['current_actor_consumption']=copy.deepcopy(actor_modes[p['id']])
+        p['current_actor_consumption']['status']='SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE'
+        p['current_actor_consumption']['own_attack_retained']=True
+        p['current_actor_consumption']['new_coach_employment_selected']=False
+    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM,VILL,C01,ARC,EPI]}
     allocation={'id':'THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12','producer_id':'root_codex',
                 'baseline_main':'098e8f170a9e4ea0503dff576811807a79fd7e6d',
                 'status':'COMPLETE_51_ROW_EDITORIAL_RECOMMENDATION_NOT_FINAL_N_LOCK',
@@ -254,6 +267,7 @@ def make():
                 'derivation':{'original_clusters':40,'split_added_rows':13,'merged_removed_rows':4,'restored_existing_transition_rows':2,
                               'arithmetic':'40+13-4+2=51','ratio_driven_padding':False,'old111_or40_used_as_final_N':False},
                 'episodes':episodes,'density_edits':edits,'function_ownership':ownership,'five_promise_episode_consumption':promises,
+                'character_foundation_source':{'path':ARC,'source_sha256':sha(ARC),'role':'Foundation personality read; old detail-HOLD wording not current selected event authority'},
                 'unit_counts':dict(Counter(e['unit_id'] for e in episodes)),
                 'category_counts':dict(Counter(e['category'] for e in episodes)),
                 'draft_counting_policy':'NBA_DRAFT counted in recommendation diagnostic only; final selected policy source not issued',
@@ -271,6 +285,18 @@ def make():
                 'tools_access_repair':{'Codex':'DIRECT_READ_SEMANTIC_REPAIR_AND_LOCAL_CHECK','Antigravity':'NOT_RUN','NotebookLM':'NOT_RUN_ON_REPAIRED_GENERATION','Claude':'NOT_RUN','independent_agent':'NOT_RUN'},
                 'unfinished_major_groups':4,'unfinished_through_group6':3}
     bps=[]
+    questions={
+      14:('지명된 선수는 무엇을 아직 증명해야 하는가.','계약 뒤 첫 기회에서도 준비를 지킬 수 있는가.'),
+      16:('잃은 시험 기회를 핑계 없이 다룰 수 있는가.','다음 허용 과제에서는 자기 순서를 지킬 수 있는가.'),
+      21:('LM의 시작과 자기 공격을 같은 공간에서 어떻게 남길까.','역할을 나눈 코어는 막힌 첫 동작에도 유지될까.'),
+      26:('내 공격 창을 쓰면서 LM/LV의 독립 시작을 남길 수 있을까.','한 번의 공격 수정이 더 빠른 도움에도 통할까.'),
+      28:('인정받고 싶은 욕구와 실제로 맡은 책임의 차이를 견딜 수 있을까.','공식 인정과 달라도 생존전에서 자기 몫을 수행할까.'),
+      36:('2–2에서 눈앞의 한 경기부터 수행할 수 있을까.','G6 종료 뒤 남은 한 경기에서 실패를 어떻게 다룰까.'),
+      43:('우승 뒤에도 자기 준비와 기관의 결정 권한을 구분할 수 있을까.','서로 다른 성장 방식과 공동 준비는 어디서 부딪힐까.'),
+      44:('다른 방식과 맞붙을 때 무엇을 고집하고 무엇을 고칠까.','달라진 역할을 구단 복귀의 허용 과제에서도 수행할 수 있을까.'),
+      46:('공을 넘긴 뒤 동료가 들어갈 자리를 비울 수 있을까.','한 번의 이양 뒤에도 반복할 책임과 오류가 남는가.'),
+      50:('자기 공격 능력이 있어도 성공을 보장할 수 없는 마지막 공을 넘길 수 있을까.','공개 종료 뒤 누구의 선택과 비용이 남았는가.'),
+      51:('내가 다시 들어가지 않아도 후배가 자기 준비를 시작할까.','물러난 뒤에도 다음 사람이 선택할 자리가 남는가.')}
     for e in episodes:
         bp=copy.deepcopy(e);bp['status']='INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED'
         bp['unit_question']='지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.'
@@ -283,6 +309,22 @@ def make():
         bp['setup_to_plant']='현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.'
         bp['payoff_to_consume']='앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.'
         bp['claims']=[{'text':e[k],'status':'AUTHOR_MODELED_DESIGN','temporal_kind':'CURRENT_PLAN' if k=='action_choice' else 'OBSERVED_EVENT','source_refs':copy.deepcopy(e['source_refs'])} for k in ('entry_state','action_choice','state_change')]
+        bp['promise_consumption']=[]
+        for p in promises:
+            for role,eps in p['episode_roles'].items():
+                if e['proposed_episode'] not in eps:continue
+                current=copy.deepcopy(p['current_actor_consumption'])
+                current.update(promise_id=p['id'],role=role,current_episode=e['proposed_episode'],
+                               function_ids=[fc for fc in e['function_ids'] if fc in p['current_function_ids'][role]],
+                               information_gate='해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0',
+                               conditional_used_dependencies=copy.deepcopy(e['unresolved_used_dependencies']),
+                               actual_prose_payoff_verified=False)
+                bp['promise_consumption'].append(current)
+        bp['setup_to_plant']=' / '.join(f"{c['promise_id']} {c['role']}: {c['function']}" for c in bp['promise_consumption'] if c['role']!='payoff_candidates') or '이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음'
+        bp['payoff_to_consume']=' / '.join(f"{c['promise_id']}: {c['payoff_window']} / {c['guard']}" for c in bp['promise_consumption'] if c['role']=='payoff_candidates') or '회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0'
+        if e['proposed_episode'] in questions:bp['unit_question'],bp['reader_question']=questions[e['proposed_episode']]
+        if e['proposed_episode']==50:bp['relationship_state']='P와LM은독립이양/슛의책임을남기고공개종료뒤작은고개를주고받는다. Rival은끝까지유효한수비자이며그고개교환의참여자가아니다. 새화해·타인내면인정0.'
+        if e['proposed_episode']==51:bp['relationship_state']='P는별도자발적guest시범뒤물러나Minjun발교정/첫연결과David다음준비를본다. 코치직·새고용·후배속마음·미래직업·C01허가를생성하지않는다.'
         bp['information_boundary']={'status':'RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK','pov_character':'PROTAGONIST',
             'clock_basis':'회차 내 상대 순서; 서로 다른날/경기 종료는timeline_window의 순서를 따른다.',
             'scene_segments':[{'segment_id':f'S{k+1}','scene_order':k+1,'pov_character':'PROTAGONIST','known_claim_indexes':[k]} for k in range(3)],
@@ -356,6 +398,27 @@ def validate(a,b):
     assert [(g['date'],g['selected_winner']) for g in phi[3:6]]==[('2023-04-22','CHI'),('2023-04-25','CHI'),('2023-04-27','PHI')]
     late=read(LATE)['selected_seasons'][0]['selected_used_series']
     assert [s['games'][-1]['date'] for s in late[:3]]==['2024-04-30','2024-05-19','2024-06-01']
+    promises=a['five_promise_episode_consumption']
+    assert [p['id'] for p in promises]==['P1','P2','P3','P4','P5']
+    for p in promises:
+        mode=p['current_actor_consumption']
+        assert mode['own_attack_retained'] is True and mode['new_coach_employment_selected'] is False
+        expected={(ep,role) for role,eps in p['episode_roles'].items() for ep in eps}
+        actual={(bp['proposed_episode'],c['role']) for bp in b['prepared_episode_blueprints'] for c in bp['promise_consumption'] if c['promise_id']==p['id']}
+        assert actual==expected
+        for bp in b['prepared_episode_blueprints']:
+            for c in bp['promise_consumption']:
+                if c['promise_id']!=p['id']:continue
+                assert all(c[k]==v for k,v in mode.items())
+                assert c['function_ids'] and set(c['function_ids'])<=set(bp['function_ids'])
+                assert c['conditional_used_dependencies']==bp['unresolved_used_dependencies']
+                assert c['actual_prose_payoff_verified'] is False
+    modes={p['id']:p['current_actor_consumption'] for p in promises}
+    assert modes['P3']['acknowledgment_participants']==['LaMelo Ball','Protagonist']
+    assert modes['P5']['acknowledgment_participants']==[]
+    ack=read(LAST)['last_attack_candidate']['after_horn_actions'][3]
+    assert ack['after']=='valid score+game end confirmed' and 'LM looks toward P' in ack['action'] and 'P returns one' in ack['action']
+    assert read(EPI)['ordered_epilogue_ports'][2]['no_UPC_based_paid_NBA_service_claim_on_June19'] is True
 
 def render(a):
     lines=['# 현재 본편50회+후일담1회 밀도 배치 권고','',
@@ -382,9 +445,10 @@ def render(a):
               '- 다섯 약속의설치·변주·회수를권고회차로재연결했다.50/51의기능소비는본문회수완료가 아니다.',
               '- C01의권고43/44/51은사용날가용이보류다.개인상NOT_USED를허가/서비스달력의대체로쓰지 않는다.','',
               '## 검증·남은 일','',
-              '51배치와51개별Blueprint를대조하고설계12출처핀+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
+              '51배치와51개별Blueprint를대조하고설계14출처핀(기초성격문서포함)+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
               'NotebookLM은이편집권고안의첫세대본문을새source로등록하고인용답을회수했다.자기작성설계의구조분석이며NBA원전검증이나독립수락은아니다.인정욕구삭제권고는거부하고정보창만분리했고,June6→June20기존비용연결과P/LM마지막비용구분을보강했다.원입력해시·답·수락범위는별도영수증에보존한다.','',
               '후속 직접 검사에서 권고10의 미완료 시즌34GP/323분 선인지, 권고36의2–2시점G7확정, 권고45의DEN진입 전June20우승 소비를 발견해 수리했다. 권고29는 정규 종료 뒤52–30/E7을 확인한 진입으로 명확히 했다. 최종 합계는 작가용 조건부 예산으로 분리하고13회차의38취득 체크포인트를 날짜/현재 시계에 붙였다. 마지막회차는원선택전체시계의23.6/22.7/22.0을복원해CHI점유획득을미리알지않는다. 기존6반례·NLM첫세대 분석의 검증 한계도 기록한다.','',
+              '다섯약속의심기·변주·회수와실제행위자를개별Blueprint에직접소비시켰다. P3의공개종료뒤고개교환은LM↔P이고P5라이벌화해증거가아니다. P5는유효한Rival공격/회복수비와그압박에서P의자기종료고집을놓는선택으로구분한다. P1이양을평생공격포기로, P2/P4의별도guest를새코치직으로승격하지않는다. 회수는설계준비이며본문실증이아니다.','',
               '원고분량·상업적리듬이입증되지않았다.특히2025진행3회와인정비교의서사밀도는현재출처를받은독립의미검수대상이다.권고51을고정분량으로맞추기위해회상·설명·같은21.6초를늘리지않는다.','',
               '다음: 이51행의독립적인의미·정보접근검수와현재역사/사용달력연결,필요하면권고배치수리→최종N/개별권위발급→실제Pack컴파일.','',
               '|번호|작업|상태|','|---|---|---|','|1|드래프트연쇄|완료|','|2|Chicago2020–21|기존선택시즌완료|',
@@ -399,6 +463,11 @@ def main():
     a,b=make();validate(a,b);rejected=[]
     def both(x,y,index,key,value):
         x['episodes'][index][key]=value;y['prepared_episode_blueprints'][index][key]=value
+    def promise_both(x,y,pid,key,value):
+        next(p for p in x['five_promise_episode_consumption'] if p['id']==pid)['current_actor_consumption'][key]=value
+        for bp in y['prepared_episode_blueprints']:
+            for c in bp['promise_consumption']:
+                if c['promise_id']==pid:c[key]=value
     for label,mutate in [
         ('MIA_ENTRY_OMITTED',lambda x,y:both(x,y,28,'state_change','52승으로바로PHI에진입한다.')),
         ('SAME_FINAL_CLOCK_REPLAY',lambda x,y:x['function_ownership']['FC035'].append(49)),
@@ -412,6 +481,9 @@ def main():
         ('TITLE_BEFORE_JUNE6',lambda x,y:both(x,y,44,'state_change','June20_2024 CHI4–2DEN 우승을이미안다.')),
         ('LM_WIN_AT_RELEASE',lambda x,y:(x['episodes'][49]['named_acquisition_checkpoints'][6].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'),y['prepared_episode_blueprints'][49]['named_acquisition_checkpoints'][6].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'))),
         ('RIVAL_MISS_KNOWN_BEFORE_RELEASE',lambda x,y:both(x,y,49,'entry_state','현재108–109지만Rival미스와P의다음리바운드를미리안다.')),
+        ('RIVAL_NOD_AS_LM_ACK',lambda x,y:promise_both(x,y,'P3','acknowledgment_participants',['Fictional Rival','Protagonist'])),
+        ('YIELD_AS_PERMANENT_ATTACK_ABANDONMENT',lambda x,y:promise_both(x,y,'P1','own_attack_retained',False)),
+        ('GUEST_AS_NEW_COACH_EMPLOYMENT',lambda x,y:promise_both(x,y,'P2','new_coach_employment_selected',True)),
     ]:
         x,y=copy.deepcopy(a),copy.deepcopy(b);mutate(x,y)
         try:validate(x,y)
@@ -421,6 +493,8 @@ def main():
     review={'id':'THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12_CODEX_CHECK',
             'status':'LOCAL_SOURCE_COVERAGE_AND_ACCESS_CHECK_NOT_INDEPENDENT_ACCEPTANCE','producer_id':'root_codex',
             'input_source_sha256':a['source_sha256'],'recommended_episodes':51,'prepared_individual_blueprints':51,
+            'promise_role_links_consumed':sum(len(bp['promise_consumption']) for bp in b['prepared_episode_blueprints']),
+            'promise_actor_roles_source_checked':True,'prose_payoff_verified':False,
             'rejected_counterexamples':rejected,'whole_history_or_final_N_accepted':False,'independent_review_completed':False,
             'actual_Blueprints':0,'actual_Packs':0,'output_LF_SHA256':{p:hashlib.sha256(c).hexdigest() for p,c in files.items()}}
     files[REVIEW]=enc(review)

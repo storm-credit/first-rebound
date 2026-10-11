@@ -1,6 +1,6 @@
 """Join current nine-act finite exits to supplied episode designs, without LOCKs."""
 from __future__ import annotations
-import argparse,copy,hashlib,json
+import argparse,copy,hashlib,json,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 A='design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json'
@@ -154,7 +154,9 @@ def render(d):
  return '\n'.join(lines).encode()
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');parser.add_argument('--refresh-owned',action='store_true');parser.add_argument('--expected-hashes-file');args=parser.parse_args()
+ assert not (args.check and args.refresh_owned), 'check cannot refresh outputs'
+ expected=load(args.expected_hashes_file) if args.refresh_owned and args.expected_hashes_file else {}
  d=make();validate(d);rejected=[]
  def bad_hold(x):x['finite_used_exit_ports'][30]['status']='SELECTED_RESOLVED'
  def bad_release(x):next(p for p in x['finite_used_exit_ports'] if p['port_id']=='FC038')['exit_state']='LM성공과최종승리를이양순간이미안다.'
@@ -172,9 +174,21 @@ def main():
   'rejected_counterexamples':rejected,'output_LF_SHA256':{p:hashlib.sha256(c).hexdigest() for p,c in files.items()},
   'independent_review_completed':False,'actual_Pack_count':0,'prose_count':0}
  files[R]=enc(review)
+ # Validate every existing output before writing any member of the bundle.
  for p,data in files.items():
   path=ROOT/p
-  if path.exists():assert norm(p)==data,('refuse different existing output',p)
-  else:assert not args.check,('missing output',p);path.write_bytes(data)
+  if args.check:assert path.is_file() and norm(p)==data,('mismatch',p)
+  elif path.exists() and norm(p)!=data:
+   tracked=subprocess.run(['git','ls-files','--error-unmatch','--',p],cwd=ROOT,capture_output=True)
+   assert tracked.returncode==0 and args.refresh_owned and expected.get(p)==sha(p),('refuse unverified output overwrite',p)
+ if not args.check:
+  for p,data in files.items():
+   path=ROOT/p
+   if path.exists() and norm(p)!=data:
+    prior=path.read_bytes();backup=ROOT/'Temp'/'history42_preserved_owned_generation'/f'{path.name}.{hashlib.sha256(prior).hexdigest()}'
+    backup.parent.mkdir(parents=True,exist_ok=True)
+    if not backup.exists():backup.write_bytes(prior)
+    path.write_bytes(data)
+   elif not path.exists():path.write_bytes(data)
  print(json.dumps({'mode':'check' if args.check else 'write','ports':42,'units':10,'transitions':9,'C01_remaining':3,'rejected':rejected,'Pack':0}))
 if __name__=='__main__':main()

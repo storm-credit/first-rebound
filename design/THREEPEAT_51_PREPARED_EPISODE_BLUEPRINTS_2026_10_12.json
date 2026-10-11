@@ -4,7 +4,7 @@
   "status": "COMPLETE_PREPARED_51_EPISODE_BUNDLE_NOT_ACTUAL_AUTHORITY",
   "allocation_ref": {
     "path": "design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json",
-    "source_sha256": "1097b9573c247ffc1675a563b240e9ed187801fe2fea365b01a0f93d5966377f",
+    "source_sha256": "0ca3aa318134a152a1c2de2175402818dece10e4e60186aa42dfe974df9e1972",
     "json_pointer": ""
   },
   "prepared_episode_blueprints": [
@@ -51,8 +51,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 plant_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P5 plant_candidates: Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "출석 경고가 남은 채 관중석에 숨는다.",
@@ -104,6 +104,80 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "plant_candidates",
+          "current_episode": 1,
+          "function_ids": [
+            "FC001"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "plant_candidates",
+          "current_episode": 1,
+          "function_ids": [
+            "FC001"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -221,8 +295,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 plant_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P2 plant_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측 / P5 plant_candidates: Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "동갑에게 지기 싫다는 이유만으로 다시 남는다.",
@@ -274,6 +348,109 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "plant_candidates",
+          "current_episode": 2,
+          "function_ids": [
+            "FC002"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "plant_candidates",
+          "current_episode": 2,
+          "function_ids": [
+            "FC002"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "plant_candidates",
+          "current_episode": 2,
+          "function_ids": [
+            "FC002"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -391,8 +568,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 plant_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "한 동료가 하던 공 준비 일부를 맡았다.",
@@ -444,6 +621,37 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "plant_candidates",
+          "current_episode": 3,
+          "function_ids": [
+            "FC003"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -561,8 +769,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "국내의 익숙한 승부와 신체 우위가 편하다.",
@@ -616,6 +824,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -731,8 +940,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "미답을 숨기지 않은 준비 의사가 생긴다. 이동 자격은 별도 기관 절차다.",
@@ -786,6 +995,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -901,8 +1111,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "학업 계획을 이해하지 못해 담당자에게 도움을 요청한다.",
@@ -956,6 +1166,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -1071,8 +1282,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "익숙한 골밑 집중 때문에 맡은 코너 복귀가 늦다.",
@@ -1126,6 +1337,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -1241,8 +1453,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "자기 수정 시도는 있으나 경기 안정성과 학사 자격은 미확정이다.",
@@ -1296,6 +1508,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -1411,8 +1624,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 variation_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "프렙 평가·학업 진행을 지닌 제한 역할 후보다.",
@@ -1464,6 +1677,37 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "variation_candidates",
+          "current_episode": 9,
+          "function_ids": [
+            "FC008"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -1611,8 +1855,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 variation_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.",
@@ -1679,6 +1923,37 @@
               "json_pointer": "/selected_season_role_cost_family"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "variation_candidates",
+          "current_episode": 10,
+          "function_ids": [
+            "FC009"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -1815,8 +2090,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 variation_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "우승으로 가는 경기에 자기 몫이 남았다. 아직 준결승·결승 결과는 모른다.",
@@ -1883,6 +2158,37 @@
               "json_pointer": "/current_selected_title_bridge"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "variation_candidates",
+          "current_episode": 11,
+          "function_ids": [
+            "FC009"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -2000,8 +2306,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "팀 우승 소속과 좁은 수비 기여를 자기 공격 완성으로 합칠 수 없다.",
@@ -2055,6 +2361,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -2170,8 +2477,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "자기 한계를 포함한 평가 자료가 있다. Chicago의 판단은 아직 모른다.",
@@ -2225,6 +2532,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -2330,8 +2638,8 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "Chicago 표준 RSC 선수지만 NBA 속도의 다음 이동은 미검증이다.",
       "editorial_directions_are_dialogue": false,
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "Chicago 표준 RSC 선수지만 NBA 속도의 다음 이동은 미검증이다.",
+      "unit_question": "지명된 선수는 무엇을 아직 증명해야 하는가.",
+      "reader_question": "계약 뒤 첫 기회에서도 준비를 지킬 수 있는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "공개 Chicago22 지명을 알고 연락에서 개발 질문을 묻는다. 별도 tender·UPC 절차 뒤 자기 계약 신분을 알고 Chicago 준비에 남는다. 2018 한국 아시안게임 경로를 추진하지 않고 루키 개발에 여름을 쓴다.",
@@ -2340,8 +2648,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P4 plant_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "평가 뒤에도 지명·계약·개발의 결정 주체가 다르다.",
@@ -2393,6 +2701,43 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "plant_candidates",
+          "current_episode": 14,
+          "function_ids": [
+            "FC011"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -2530,8 +2875,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "Chicago 표준 RSC 선수지만 NBA 속도의 다음 이동은 미검증이다.",
@@ -2645,6 +2990,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -2770,8 +3116,8 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "NBA 계약을 유지한 별도 Windy City 개발 배정이다. 앞선 지각의 징계가 아니다.",
       "editorial_directions_are_dialogue": false,
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "NBA 계약을 유지한 별도 Windy City 개발 배정이다. 앞선 지각의 징계가 아니다.",
+      "unit_question": "잃은 시험 기회를 핑계 없이 다룰 수 있는가.",
+      "reader_question": "다음 허용 과제에서는 자기 순서를 지킬 수 있는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "밤샘 게임 뒤 체크인에 늦어11:35 기회를 놓치고, 본인의 수면·영상·컨디셔닝 순서를 다시 맞춘다. 첫날은 게임을 더 한다. 뒤에는 핑계 대신 자기 준비를 바꾼다.",
@@ -2780,8 +3126,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "루키의 제한 로테이션 시험 기회가 예정되어 있다.",
@@ -2893,6 +3239,41 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 16,
+          "function_ids": [
+            "FC013"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -3030,8 +3411,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 variation_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "NBA 계약을 유지한 별도 Windy City 개발 배정이다. 앞선 지각의 징계가 아니다.",
@@ -3143,6 +3524,37 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "variation_candidates",
+          "current_episode": 17,
+          "function_ids": [
+            "FC014"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -3280,8 +3692,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P2 variation_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "개발 무대의 성취와 오류가 남았다. NBA 복귀는 별도 절차다.",
@@ -3393,6 +3805,37 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "variation_candidates",
+          "current_episode": 18,
+          "function_ids": [
+            "FC014"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -3530,8 +3973,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P5 variation_candidates: Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "편한 손의 공격을 고집하면 약한 손 쪽 전진이 막힌다.",
@@ -3643,6 +4086,47 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "variation_candidates",
+          "current_episode": 19,
+          "function_ids": [
+            "FC015"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -3780,8 +4264,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P5 variation_candidates: Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "공격 조건과 포기 조건이 갈린다. 반복 가능한 전면 창조는 아니다.",
@@ -3893,6 +4377,47 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "variation_candidates",
+          "current_episode": 20,
+          "function_ids": [
+            "FC015"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -4020,8 +4545,8 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "이양을 선택해도 첫 패스 시점에는 오류가 남는다.",
       "editorial_directions_are_dialogue": false,
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "이양을 선택해도 첫 패스 시점에는 오류가 남는다.",
+      "unit_question": "LM의 시작과 자기 공격을 같은 공간에서 어떻게 남길까.",
+      "reader_question": "역할을 나눈 코어는 막힌 첫 동작에도 유지될까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "LM 시작에 맞춘 컷·숏롤·전환에서 자기 마무리를 쓰고 LV·Mark·Carter의 공간을 남긴다. 주PG 권한을 가져오지 않고 자기에게 열린 종료를 선택한다.",
@@ -4030,8 +4555,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 plant_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "LM·P·LV·Mark·Carter의 시작과 끝 공간은 유한하다.",
@@ -4143,6 +4668,45 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "plant_candidates",
+          "current_episode": 21,
+          "function_ids": [
+            "FC016"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -4280,8 +4844,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 plant_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "이양을 선택해도 첫 패스 시점에는 오류가 남는다.",
@@ -4393,6 +4957,45 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "plant_candidates",
+          "current_episode": 22,
+          "function_ids": [
+            "FC017"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -4530,8 +5133,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "새 구성에서도 개인 공격 시간이 무료로 늘지 않는다.",
@@ -4643,6 +5246,43 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 23,
+          "function_ids": [
+            "FC018"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -4780,8 +5420,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "새 조합의 분담이 생겼다. 생존전 결과는 아직 일어나지 않았다.",
@@ -4893,6 +5533,43 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 24,
+          "function_ids": [
+            "FC018"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -5030,8 +5707,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "31–41 시즌의 생존전 하나를 넘겼지만 본선은 보장되지 않는다.",
@@ -5145,6 +5822,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -5270,8 +5948,8 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "짧은 공격 창을 쓸 수 있지만 수비의 조기 도움에 늦는다.",
       "editorial_directions_are_dialogue": false,
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "짧은 공격 창을 쓸 수 있지만 수비의 조기 도움에 늦는다.",
+      "unit_question": "내 공격 창을 쓰면서 LM/LV의 독립 시작을 남길 수 있을까.",
+      "reader_question": "한 번의 공격 수정이 더 빠른 도움에도 통할까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "동료 역할 비용을 함께 설명해 제한 엘보 시험을 허용받고 첫 동작·자기 종료·닫힐 때 반환을 준비한다. 자기 공격을 시험하되 공동 에이스 권한부터 요구하지 않는다.",
@@ -5280,8 +5958,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "코어는 유지되지만 자기 짧은 공격과 반환은 미검증이다.",
@@ -5393,6 +6071,45 @@
               "json_pointer": "/year1_to_year3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 26,
+          "function_ids": [
+            "FC020"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -5535,8 +6252,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "짧은 공격 창을 쓸 수 있지만 수비의 조기 도움에 늦는다.",
@@ -5665,6 +6382,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -5815,8 +6533,8 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
+      "unit_question": "인정받고 싶은 욕구와 실제로 맡은 책임의 차이를 견딜 수 있을까.",
+      "reader_question": "공식 인정과 달라도 생존전에서 자기 몫을 수행할까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "스타로 인정받고 싶은 욕구는 남기되, 자기 공격 책임과 LM/LV의 독립 기여를 비교하고 자기 준비만 고른다. Jan22 종료 전44경기 입력과 Jan27 발표 전47·Feb3 발표 전50의 서로 다른 공개창을 구별한다. 기대 평균·미공개 표·미선택 발표 결과는 자기 지식으로 쓰지 않는다.",
@@ -5825,8 +6543,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "4년차의 공격 역할이 선다. 한 번의 수정은 항상 맞는 카운터가 아니다.",
@@ -5955,6 +6673,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -6114,8 +6833,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
@@ -6259,6 +6978,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -6399,8 +7119,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "좋은 반환 재시도가 승리를 보장하지 않는다.",
@@ -6527,6 +7247,41 @@
               "json_pointer": "/selected_series"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 30,
+          "function_ids": [
+            "FC022"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -6669,8 +7424,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "G4까지의 끝난 경기만 알고G5에 들어간다. 시리즈 최종 승자는 아직 모른다.",
@@ -6799,6 +7554,41 @@
           ]
         }
       ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 31,
+          "function_ids": [
+            "FC022"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        }
+      ],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -6914,8 +7704,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계 / P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "자기 역할 요청과 같은 예산의 동료 기능 비용이 함께 남는다.",
@@ -6967,6 +7757,113 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 32,
+          "function_ids": [
+            "FC023"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 32,
+          "function_ids": [
+            "FC023"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 32,
+          "function_ids": [
+            "FC023"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -7084,8 +7981,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "첫 반환 차단·약한 손·이양 뒤 재진입에는 오류가 있다.",
@@ -7137,6 +8034,78 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 33,
+          "function_ids": [
+            "FC024"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 33,
+          "function_ids": [
+            "FC024"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -7254,8 +8223,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "좋은 재전개가 생겨도 약한 손과 재진입의 오류가 남는다.",
@@ -7307,6 +8276,78 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 34,
+          "function_ids": [
+            "FC024"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 34,
+          "function_ids": [
+            "FC024"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -7424,8 +8465,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "CHI6가PHI3의 홈 이점과 Embiid·Thybulle 압박을 만난다.",
@@ -7477,6 +8518,41 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 35,
+          "function_ids": [
+            "FC025"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -7614,8 +8690,8 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
+      "unit_question": "2–2에서 눈앞의 한 경기부터 수행할 수 있을까.",
+      "reader_question": "G6 종료 뒤 남은 한 경기에서 실패를 어떻게 다룰까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "앞선 경기에서 한 행동·실패를 지고 다음 허용 역할을 수행한다.",
@@ -7624,8 +8700,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
@@ -7709,6 +8785,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -7834,8 +8911,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
@@ -7919,6 +8996,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -8034,8 +9112,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음 / P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "BKN2의 KD·Harden·Kyrie는 한 사람의 만능 수비를 벌한다.",
@@ -8087,6 +9165,78 @@
               "json_pointer": ""
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 38,
+          "function_ids": [
+            "FC027"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 38,
+          "function_ids": [
+            "FC027"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -8204,8 +9354,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "MIL1의 Giannis·Brook·Jrue는 첫 승리 뒤도 같은 방식을 허용하지 않는다.",
@@ -8259,6 +9409,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -8374,8 +9525,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "CHI는2–3에서 두 경기를 모두 이겨야 한다.",
@@ -8429,6 +9580,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -8554,8 +9706,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "Utah70승의 홈 이점과 Gobert 림·듀얼가드·코너 출구가 남아 있다.",
@@ -8639,6 +9791,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -8764,8 +9917,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "G4까지의 끝난 상태만 안다. 아직 첫 우승은 이루어지지 않았다.",
@@ -8849,6 +10002,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -8974,8 +10128,8 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "서로 다른 성장 방식은 남고 첫 방어 준비 시간은 유한하다.",
+      "unit_question": "우승 뒤에도 자기 준비와 기관의 결정 권한을 구분할 수 있을까.",
+      "reader_question": "서로 다른 성장 방식과 공동 준비는 어디서 부딪힐까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "전달받은 Chicago 준비 일정과 공동 대표팀 도전 안내를 따로 읽고, 에이전트에게 자기 제출자료와 기관 허가·보험 담당권한을 묻는다. 자신의 자료 목록과 역할 준비를 먼저 정리해 전달하며 LM의 독립 계약·역할 준비도 존중한다. 공동 도전을 위해 자신이 준비할 자료와 역할을 먼저 맡되, 자기 우승이나 준비 완료를 구단·대표팀의 명단·허가·보험 승인으로 간주하지 않는다.",
@@ -8984,8 +10138,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계 / P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "첫 우승 뒤에도 기존 급여·동료 계약·새 루키 취득은 별개다. 현재J20취득은 별도 선택된 포트다.",
@@ -9067,6 +10221,84 @@
               "json_pointer": "/finite_remaining_ports"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 43,
+          "function_ids": [
+            "FC031"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [
+            "C01_CALENDAR_USED_AVAILABILITY"
+          ],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 43,
+          "function_ids": [
+            "FC031"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [
+            "C01_CALENDAR_USED_AVAILABILITY"
+          ],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -9200,8 +10432,8 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "첫 우승 후에도 동료마다 다른 시작 속도와 빈 수비 위치가 있다.",
+      "unit_question": "다른 방식과 맞붙을 때 무엇을 고집하고 무엇을 고칠까.",
+      "reader_question": "달라진 역할을 구단 복귀의 허용 과제에서도 수행할 수 있을까.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "기존 사적 공동 과제에서 라이벌과 다른 판단·분담을 시험하고 구단 준비 손실을 남긴다. 완전 화해나 공적 성과를 보상받기보다 맡은 공동 일을 준비한다.",
@@ -9210,8 +10442,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P5 variation_candidates: Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "서로 다른 성장 방식은 남고 첫 방어 준비 시간은 유한하다.",
@@ -9293,6 +10525,49 @@
               "json_pointer": "/finite_remaining_ports"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "variation_candidates",
+          "current_episode": 44,
+          "function_ids": [
+            "FC032"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [
+            "C01_CALENDAR_USED_AVAILABILITY"
+          ],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -9450,8 +10725,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "첫 우승 후에도 동료마다 다른 시작 속도와 빈 수비 위치가 있다.",
@@ -9563,6 +10838,45 @@
               "json_pointer": "/selected_seasons/0/selected_used_series"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 45,
+          "function_ids": [
+            "FC033"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -9712,8 +11026,8 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "June6에 직접 본 이양·레인 비우기의 첫 소유 포기와 동료 보완 비용이 남는다. 그것이 시리즈 전체 승리 원인은 아니다. 현재는 별도June20 G6의 종료 확인이다.",
+      "unit_question": "공을 넘긴 뒤 동료가 들어갈 자리를 비울 수 있을까.",
+      "reader_question": "한 번의 이양 뒤에도 반복할 책임과 오류가 남는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "Carter의 확보·전진 뒤P가LM에 이양하고 오른쪽레인을 비운다. LM은 자기 시작을 고른다.",
@@ -9722,8 +11036,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계 / P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "팀 권한을 나눈 준비가 챔피언 자격증은 아니다.",
@@ -9805,6 +11119,80 @@
               "json_pointer": "/selected_seasons/0/selected_used_series/3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 46,
+          "function_ids": [
+            "FC034"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 46,
+          "function_ids": [
+            "FC034"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -9940,8 +11328,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P3 variation_candidates: LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계 / P4 variation_candidates: 기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "June6에 직접 본 이양·레인 비우기의 첫 소유 포기와 동료 보완 비용이 남는다. 그것이 시리즈 전체 승리 원인은 아니다. 현재는 별도June20 G6의 종료 확인이다.",
@@ -10023,6 +11411,80 @@
               "json_pointer": "/selected_seasons/0/selected_used_series/3"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "variation_candidates",
+          "current_episode": 47,
+          "function_ids": [
+            "FC034"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "variation_candidates",
+          "current_episode": 47,
+          "function_ids": [
+            "FC034"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -10143,8 +11605,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "두 번째 우승 뒤2025의 새 사용 역할·상대 경로는 다시 수행해야 한다.",
@@ -10213,6 +11675,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -10346,8 +11809,8 @@
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
       "claims": [
         {
           "text": "앞 여섯 경기 뒤 시리즈3–3이며G7 최종 결과는 아직 없다.",
@@ -10416,6 +11879,7 @@
           ]
         }
       ],
+      "promise_consumption": [],
       "information_boundary": {
         "status": "RELATIVE_ACCESS_PREPARED_NOT_SELECTED_SCENE_ACCESS_LOCK",
         "pov_character": "PROTAGONIST",
@@ -10609,18 +12073,18 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "2035 원클럽 은퇴 방향은 남지만 후기 연간 시즌·추가 우승 총수는 본편 의무가 아니다.",
+      "unit_question": "자기 공격 능력이 있어도 성공을 보장할 수 없는 마지막 공을 넘길 수 있을까.",
+      "reader_question": "공개 종료 뒤 누구의 선택과 비용이 남았는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
-      "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
+      "relationship_state": "P와LM은독립이양/슛의책임을남기고공개종료뒤작은고개를주고받는다. Rival은끝까지유효한수비자이며그고개교환의참여자가아니다. 새화해·타인내면인정0.",
       "basketball_goal": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
       "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
       "primary_devices": [
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+      "payoff_to_consume": "P1: PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW / 현재이양이평생자기공격포기나자기결승득점으로바뀌지않음 / P3: PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW / 공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님 / P5: RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT / LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
       "claims": [
         {
           "text": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
@@ -10747,6 +12211,151 @@
               "json_pointer": "/individual_choices_and_visible_costs"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "variation_candidates",
+          "current_episode": 50,
+          "function_ids": [
+            "FC038"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+          "source_refs": [
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/0"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P1",
+          "role": "payoff_candidates",
+          "current_episode": 50,
+          "function_ids": [
+            "FC039"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LaMelo Ball"
+          ],
+          "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+          "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+          "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+          "acknowledgment_participants": [
+            "LaMelo Ball",
+            "Protagonist"
+          ],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P3",
+          "role": "payoff_candidates",
+          "current_episode": 50,
+          "function_ids": [
+            "FC039"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Fictional Rival"
+          ],
+          "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+          "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+          "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+          "acknowledgment_participants": [],
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/individual_choices_and_visible_costs/5"
+            },
+            {
+              "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+              "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+              "json_pointer": "/last_attack_candidate/live_events"
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_2025_last_attack"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P5",
+          "role": "payoff_candidates",
+          "current_episode": 50,
+          "function_ids": [
+            "FC036",
+            "FC039"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
@@ -10886,18 +12495,18 @@
           "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
         }
       ],
-      "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "물러난 뒤에도 후배의 다음 행동이 남는가.",
+      "unit_question": "내가 다시 들어가지 않아도 후배가 자기 준비를 시작할까.",
+      "reader_question": "물러난 뒤에도 다음 사람이 선택할 자리가 남는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
-      "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
+      "relationship_state": "P는별도자발적guest시범뒤물러나Minjun발교정/첫연결과David다음준비를본다. 코치직·새고용·후배속마음·미래직업·C01허가를생성하지않는다.",
       "basketball_goal": "줄어든 역할·지위는 짧은 맥락으로만 보인다. 서비스 종료 뒤 별도 허용 guest로 준비 순서를 한 번 보여 주고 물러나 후배가 자기 발·박스아웃·첫 연결을 실행하는 것을 본다. 마지막 공·과제 통제권을 다시 가져오지 않는다.",
       "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
       "primary_devices": [
         "OWN_CHOICE",
         "COACTOR_COST"
       ],
-      "setup_to_plant": "현재 진입의 남은 부담을 이번 선택에 필요한 만큼만 둔다.",
-      "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
+      "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+      "payoff_to_consume": "P2: JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT / 별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음 / P4: JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT / NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
       "claims": [
         {
           "text": "2035 원클럽 은퇴 방향은 남지만 후기 연간 시즌·추가 우승 총수는 본편 의무가 아니다.",
@@ -10979,6 +12588,76 @@
               "json_pointer": "/finite_remaining_ports"
             }
           ]
+        }
+      ],
+      "promise_consumption": [
+        {
+          "actor_scope": [
+            "Protagonist",
+            "Minjun",
+            "David"
+          ],
+          "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports/2"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P2",
+          "role": "payoff_candidates",
+          "current_episode": 51,
+          "function_ids": [
+            "FC040"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [
+            "C01_CALENDAR_USED_AVAILABILITY"
+          ],
+          "actual_prose_payoff_verified": false
+        },
+        {
+          "actor_scope": [
+            "Protagonist",
+            "LM_and_other_independent_coactors",
+            "Minjun",
+            "David"
+          ],
+          "function": "기존 계약·분·기회 비용과 후일담의 역할 축소를 주인공에게도 적용",
+          "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+          "guard": "NBA서비스종료·UPC법적만료·별도guest권한을구분;새개인상/HigherMax/급여를부여하지않음",
+          "source_refs": [
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/ordered_epilogue_ports"
+            },
+            {
+              "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+              "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+              "json_pointer": "/contract_award_and_cost_firewall"
+            }
+          ],
+          "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+          "own_attack_retained": true,
+          "new_coach_employment_selected": false,
+          "promise_id": "P4",
+          "role": "payoff_candidates",
+          "current_episode": 51,
+          "function_ids": [
+            "FC040"
+          ],
+          "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+          "conditional_used_dependencies": [
+            "C01_CALENDAR_USED_AVAILABILITY"
+          ],
+          "actual_prose_payoff_verified": false
         }
       ],
       "information_boundary": {
