@@ -1,0 +1,97 @@
+{
+  "id": "EARLY_REWARD_B_GROWTH_TOOLS_2026_10_11",
+  "raw_receipt_sha256": {
+    "Temp/early_reward_b_award_tools_20261011/Antigravity_execution.json": "bfb16cd0bb2642e789ead28eb8b94266d164ddc144adf772bb75cf9da35ec809",
+    "Temp/early_reward_b_award_tools_20261011/stdout.bin": "8abe64e070dca6a06bdf40307b2ac4759bacf11d83568184da60013583e05b16",
+    "Temp/early_reward_b_award_tools_20261011/stderr.bin": "11d82ab9f59625f04f990cc1d2689fe0a3d29ed0325f872302958bbe93df29cd",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_list_execution.json": "c22b0bc021c7ec243dbf0b0b7466d1fd9016b13468805e1b878688080c1c24b4",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_source_add.json": "edfa5eb94df3fe0883c29a4398ac00c1f5906eadbb7097bc2d0d4339c6a9ebda",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_query_execution.json": "a9bb8960ecc9e356ea72483a2cc7f59a4f9e930eca678fb65fdd19000b39d019",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_original_source_add.json": "8ce8ccd83b00f614da06fbb1457dc2dbffb24b71cd69682375269f4f3cb4561e",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_original_query_execution.json": "60007d3d34831ceec63c3019ad3f4bf2e0812c43b784b5ac79159e6cc68cd7d5",
+    "Temp/early_reward_b_award_tools_20261011/NBA_primary_retrieval.json": "45284c74f3045192ebbe1298f464fc2bdd90c68ddd5c63309586a0f910cd341b",
+    "Temp/early_reward_b_award_tools_20261011/NotebookLM_2022_date_source_add.json": "02ccf7fd8c896a446133409b50e28549fd079254125f9083db7c05dc834a6ab7"
+  },
+  "Antigravity": {
+    "CLI_called": true,
+    "executable": "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+    "elapsed_seconds": 52.922,
+    "CLI_reported_status": "SUCCESS",
+    "answer_characters": 0,
+    "primary_collection_success": false,
+    "cause": "NOT_DETERMINED; process exit0/SUCCESS is not a nonempty collection report"
+  },
+  "NotebookLM": {
+    "installed_MCP_tool_functions_called": true,
+    "notebook_id": "303ffd55-e019-476a-9ae3-8dc0e32fe11f",
+    "list_success": true,
+    "new_working_note_source": [
+      "87200519-8ec8-4515-a8a4-768919a7ceae"
+    ],
+    "working_note_query_success": true,
+    "working_note_is_independent_primary": false,
+    "original_URL_sources": [
+      {
+        "source_type": "url",
+        "source_id": "6b7b5155-3e39-4fc5-a266-c82f42b66dd3",
+        "title": "Young, Doncic lead 2018-19 All-Rookie First Team | NBA.com"
+      },
+      {
+        "source_type": "url",
+        "source_id": "8469d95c-112a-4f59-acc3-41e415962632",
+        "title": "Pelicans' Brandon Ingram wins 2019-20 Kia NBA Most Improved Player Award - NBA.com: NBA Communications"
+      },
+      {
+        "source_type": "url",
+        "source_id": "f130c9b3-ac30-4b2d-8179-9ad6248b827a",
+        "title": "Harden, Lillard headline 2021 NBA All-Star reserves | NBA.com"
+      },
+      {
+        "source_type": "url",
+        "source_id": "2f20db31-df76-4ed9-964e-c927dc5cc6e9",
+        "title": "2022 NBA All-Star reserves revealed! | NBA.com"
+      }
+    ],
+    "original_query_success": true,
+    "original_query_elapsed_seconds": 60.472,
+    "citation_UUIDs_checked": true,
+    "warning": "Answer uses139/149/110 ordinal labels; cite returned references UUIDs instead. Indexed article content/citation extraction, not independent source truth or proof of alternate player award.",
+    "2022_first_event_date_from_updated_article": "NOT_ESTABLISHED_BY_THIS_ARTICLE; Feb3 cutoff uses separate dated official team indexed release",
+    "2022_additional_raptors_URL_import": "FAILED_COULD_NOT_ADD_URL; no original body export success"
+  },
+  "Codex_primary_checks": {
+    "web_tool_official_article_text_read": [
+      "https://www.nba.com/2018-19-all-rookie-teams-official-release",
+      "https://pr.nba.com/ingram-1920-mip/",
+      "https://www.nba.com/news/2021-nba-all-star-reserves-revealed",
+      "https://www.nba.com/news/2022-all-star-reserves-announced"
+    ],
+    "contemporaneous_2022_event_date_indexed_primary": [
+      "https://www.nba.com/raptors/news/vanvleet-selected-to-2022-nba-all-star-game",
+      "https://www.nba.com/mavs/luka-an-all-star"
+    ],
+    "scope": "Separate dated official indexed publication text; followup direct opens showed onlyiframe, so full raw body export not claimed.",
+    "direct_HTTP_raw_article_requests": "5/5 HTTP403, no primaryHTML body success; denial bodies retained",
+    "NBA_facts_used": [
+      {
+        "url": "https://www.nba.com/2018-19-all-rookie-teams-official-release",
+        "claim": "All-Rookie voting permits any position; no protagonist votes certified."
+      },
+      {
+        "url": "https://pr.nba.com/ingram-1920-mip/",
+        "claim": "MIP uses regular games throughMarch11; restart seeding games excluded."
+      },
+      {
+        "url": "https://www.nba.com/news/2021-nba-all-star-reserves-revealed",
+        "claim": "Conference coaches select reserve pool, exclude own-team votes."
+      },
+      {
+        "url": "https://www.nba.com/raptors/news/vanvleet-selected-to-2022-nba-all-star-game",
+        "claim": "Feb3EST dated official reserve announcement, indexed text; not raw retrieval."
+      }
+    ]
+  },
+  "Claude_run": false,
+  "independent_agent_run": false,
+  "novel_prose_read_or_written": false
+}
