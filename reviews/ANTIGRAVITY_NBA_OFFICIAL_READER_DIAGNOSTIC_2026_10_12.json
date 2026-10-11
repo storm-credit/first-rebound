@@ -1,0 +1,100 @@
+{
+  "id": "ANTIGRAVITY_NBA_OFFICIAL_READER_DIAGNOSTIC_2026_10_12",
+  "status": "TARGET_FIELDS_COLLECTED_AND_CODEX_ORIGINAL_MATCHED_FULL_ARTICLE_INCOMPLETE",
+  "baseline_main": "db73633c54d1d0b28ea2d65664aef2a4de69bea0",
+  "producer_id": "root",
+  "independent_review_completed": false,
+  "question": "Can installed Antigravity CLI return source-backed NBA selection dates instead of an empty final?",
+  "cli_path": "C:/Users/Storm Credit/AppData/Local/agy/bin/agy.exe",
+  "observations": [
+    {
+      "run": "PR548 prior JSON output",
+      "receipt": "reviews/EARLY_REWARD_B_RECOGNITION_SLOTS_TOOLS_2026_10_12.json",
+      "terminal_status": "SUCCESS",
+      "terminal_response_recovered": false,
+      "source_collection_success": false,
+      "reused_observation_not_new_execution": true
+    },
+    {
+      "run": "changed stream output, official HTML",
+      "receipt": "Temp/agy_stream_diagnostic_20261012/execution.json",
+      "conversation_id": "e638b2fc-429e-4d2d-b0bb-5ad6fb529c68",
+      "exit_code": 0,
+      "response_recovered": true,
+      "verdict": "UNVERIFIED_ARTICLE_BODY",
+      "reader_artifact_bytes": 37499,
+      "reader_HTML_exact_HTTP_prefix_chars": 37383,
+      "full_HTTP_bytes": 116946,
+      "body_tag_in_reader": false,
+      "body_tag_in_direct_HTTP": true,
+      "JS_required_or_origin_truncated_claim": "MODEL_SPECULATION_REJECTED_AS_CAUSE_NOT_PROVEN"
+    },
+    {
+      "run": "changed official source format, stream output",
+      "receipt": "Temp/agy_small_source_diagnostic_20261012/execution.json",
+      "conversation_id": "6365be40-a525-40ee-80c2-2e2b400425b1",
+      "exit_code": 0,
+      "elapsed_seconds": 38.358,
+      "response_recovered": true,
+      "observed_tool_calls": [
+        {
+          "step_index": 2,
+          "tool_name": "read_url_content"
+        },
+        {
+          "step_index": 4,
+          "tool_name": "view_file"
+        }
+      ],
+      "reader_artifact_bytes": 4889,
+      "reader_exact_HTTP_prefix_chars": 4749,
+      "full_HTTP_bytes": 17359,
+      "valid_JSON_array_in_full_HTTP_after_prefix": true,
+      "non_JSON_prefix_chars": 188,
+      "reader_JSON_array_complete": false,
+      "verdict": "TARGET_FIELDS_COLLECTED_FULL_ARTICLE_INCOMPLETE"
+    }
+  ],
+  "official_page": "https://pr.nba.com/nba-all-star-voting-tissot-2022/",
+  "official_endpoint": "https://pr.nba.com/wp-json/wp/v2/posts?slug=nba-all-star-voting-tissot-2022",
+  "post_id": 14270,
+  "publication_date": "2021-12-08T14:24:17",
+  "verified_target_fields": {
+    "voting_close": "2022-01-22 midnight ET",
+    "starter_announcement": "2022-01-27",
+    "reserve_announcement": "2022-02-03"
+  },
+  "body_locator": "content.rendered; voting end and TNT announcement paragraphs before truncation",
+  "verification_method": "Observed reader artifact exact-prefix matched to direct official HTTP; target strings also checked inside parsed full content.rendered. CLI prose alone not accepted.",
+  "limits": [
+    "Partial article only; no globally fixed reader byte cap inferred.",
+    "Public-source CLI success does not certify all MCP servers, authentication states or other sources.",
+    "Shared source across tools is not independent primary corroboration.",
+    "No new fictional ballots, awards, medals, dates or gate selections."
+  ],
+  "raw_evidence_sha256": {
+    "Temp/agy_stream_diagnostic_20261012/stdout.bin": "d7541dd13a81007920045fd28b912feb2577e1471d6f9318c1c8ad4a19f29576",
+    "Temp/agy_stream_diagnostic_20261012/parsed.json": "c5720ae1cb9ac234edd011f86274a1d9452ad13b1b36856ec578b856e7587bef",
+    "Temp/agy_stream_diagnostic_20261012/AGY_reader_artifact.md": "44d69f2b349bc101210b0e9ad6ae923da390ead31520398ae18a35ac148a73b6",
+    "Temp/agy_stream_diagnostic_20261012/Codex_original_http.bin": "4900e2656bf4e0cbcf80013ef9804a48337c2eccb42bbbafbf7d572bb7253e53",
+    "Temp/agy_stream_diagnostic_20261012/Codex_official_post_api.bin": "09791ed8552771b09208863e261ac5f439caa71a670b22b9d44862382e7b8b1e",
+    "Temp/agy_small_source_diagnostic_20261012/stdout.bin": "02fcd390d036f46623bdfb82b25df7abb8158924be5b3c2f6d4ec1a2e2521dd7",
+    "Temp/agy_small_source_diagnostic_20261012/parsed.json": "faffacb8f5a7530178e70882583ca37a1f2c3b4dedc964abe1f5dd22f240cd3a",
+    "Temp/agy_small_source_diagnostic_20261012/reader_artifact_4.md": "ded24e830189f07249355e21b4c35bf0f63d3c3efaa038292a3a751463f5bbb6"
+  },
+  "tools_this_pass": {
+    "Antigravity": "BOUNDED_OFFICIAL_HTML_AND_SMALL_ENDPOINT_RUNS",
+    "Codex": "CLI_TRACE_AND_ACTUAL_ARTIFACT_HTTP_COMPARISON",
+    "NotebookLM": "NOT_RUN",
+    "Claude": "NOT_RUN",
+    "independent_agent": "NOT_RUN"
+  },
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design_gate": "CLOSED",
+    "manuscript": 0,
+    "actual_Pack": 0
+  },
+  "unfinished_major_groups": 4,
+  "unfinished_through_group6": 3
+}
