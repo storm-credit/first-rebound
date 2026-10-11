@@ -1,0 +1,77 @@
+{
+  "id": "EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_2026_10_12_CODEX_CHECK",
+  "classification": "CODEX_DIRECT_REPLAY_AND_FAULT_CHECK_NOT_INDEPENDENT_REVIEW",
+  "base_main": "a529d722a6d18a7eb58778e33b474864b5c71e2c",
+  "source_sha256": {
+    "simulation/THREEPEAT_2023_ACCELERATED_GROWTH_AND_ROLE_DESIGN_2026_10_09.json": "bc7a979c6fff39ea0ee83458c75980f87ea5a03c361a9de7516a04be47097dc2",
+    "simulation/THREEPEAT_2023_REVISED_REGULAR_AND_STANDINGS_EXECUTION_2026_10_09.json": "2b895912ed7b3deafe72927c7910353209a4776de9722e194810fb8c4ee368ff",
+    "simulation/THREEPEAT_2023_PUBLIC_RESIDUAL_MODEL_CANDIDATES_2026_10_09.json": "704b23773a53d8b27cfae9191a907fd9f891e986bc5ab2a44e360f27920c0d52",
+    "canon/DELEGATED_THREEPEAT_2023_RESIDUAL_REGULAR_SELECTION_2026_10_09.json": "2cf2a1002ed26bd8a82a4a2cc121316e49ee4bee7a904c31b49c64169f2b669a",
+    "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75",
+    "simulation/EARLY_REWARD_B_GROWTH_AND_YEAR4_ATTACK_2026_10_11.json": "176e00aa42b7ba9894a4062ea84dc7cb1a65bc9b604ac5f72f821edc3427d974",
+    "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+    "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94"
+  },
+  "output_sha256": {
+    "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json": "66a12cb9f7381b524b6eebf53a87089fdc2077b1c2621c06c38fdc7ffb13545a",
+    "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.md": "3750a3fbfa87c213c1fdb7acf74247d9763c65d4b30c11d1896e6b5e50f12ac8",
+    "tools/check_early_reward_b_2023_growth_join.py": "cf24c0d7ea23aaf1cd3901fd928c32fd1ae2c33a2f04f271def493c18f82b6fa"
+  },
+  "checks": {
+    "stages": 3,
+    "selected_games": 82,
+    "source_inputs": 8,
+    "fraction_margin_replay": true,
+    "record": [
+      52,
+      30
+    ],
+    "East_seed": 6,
+    "additional_B_or_chemistry_bonus": 0,
+    "core_choice_cost": {
+      "P": 10,
+      "LM": -5,
+      "LV": -5
+    },
+    "immutable_upstream_bytes_preserved": true,
+    "unowned_files_preserved": 7
+  },
+  "fault_checks": [
+    {
+      "mutation": "extra_team_bonus",
+      "rejected": true
+    },
+    {
+      "mutation": "extra_B_margin",
+      "rejected": true
+    },
+    {
+      "mutation": "duplicate_selected_game",
+      "rejected": true
+    }
+  ],
+  "producer_first_run": "Seed payload is an object; initial scalar comparison failed. Fixed accessor, retained source data unchanged.",
+  "external_retrieval": [
+    {
+      "url": "https://statsdmz.nba.com/pdfs/20201223/20201223ATLCHI.pdf",
+      "result": "WRONG_PATH_READ_TIMEOUT_NO_BYTES"
+    },
+    {
+      "url": "https://statsdmz.nba.com/pdfs/20201223/20201223_ATLCHI.pdf",
+      "result": "CORRECTED_PATH_READ_TIMEOUT_NO_BYTES"
+    },
+    {
+      "tool": "web.open",
+      "url": "https://statsdmz.nba.com/pdfs/20201223/20201223ATLCHI.pdf",
+      "result": "INACCESSIBLE_NO_CONTENT"
+    }
+  ],
+  "fresh_Antigravity_NotebookLM_Claude_or_agent_review": false,
+  "earlier_year_dated_costs_awards_C01_or_Pack_complete": false,
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript": "CLOSED",
+    "actual_Pack": 0
+  }
+}

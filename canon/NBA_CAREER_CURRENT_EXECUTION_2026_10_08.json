@@ -355,7 +355,11 @@
     "canon/DELEGATED_THREEPEAT_2023_PICK20_ROOKIE_DESIGN_SELECTION_2026_10_09.json": "666013c4a49afc16c9f5be370ac89f747f53de4e82d97ca423fbd47b663aae7e",
     "simulation/THREEPEAT_2023_MINIMUM_QUALIFICATION_AND_BRACKET_JOIN_2026_10_09.json": "6f6c9d6432948f824f93c05d7cc54e8782a7fbd5007fbed3f523a01e3eb83457",
     "reviews/THREEPEAT_2023_MINIMUM_BRACKET_ROOT_INDEPENDENT_REVIEW_2026_10_09.json": "0a9bb6fa7e1ad7c071c237f3d5c3e671b114202f7c267947162ee746b332cd42",
-    "canon/DELEGATED_THREEPEAT_2023_QUALIFICATION_AND_BRACKET_SELECTION_2026_10_09.json": "6486af514b4793f023edbedab287ed42fa1db5d4ab134a0eca758c3832a8edf2"
+    "canon/DELEGATED_THREEPEAT_2023_QUALIFICATION_AND_BRACKET_SELECTION_2026_10_09.json": "6486af514b4793f023edbedab287ed42fa1db5d4ab134a0eca758c3832a8edf2",
+    "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json": "66a12cb9f7381b524b6eebf53a87089fdc2077b1c2621c06c38fdc7ffb13545a",
+    "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.md": "3750a3fbfa87c213c1fdb7acf74247d9763c65d4b30c11d1896e6b5e50f12ac8",
+    "tools/check_early_reward_b_2023_growth_join.py": "cf24c0d7ea23aaf1cd3901fd928c32fd1ae2c33a2f04f271def493c18f82b6fa",
+    "reviews/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_2026_10_12_CODEX_CHECK.json": "b6db9a64e78959decf444d92845c15728114eaa26552e03e768a586b6accbb9e"
   },
   "parent_canons_preserved": true,
   "NBA_2021_22": {
@@ -1493,12 +1497,14 @@
     "phased_proxy_input_is_observed_statistic": false,
     "statistical_predictive_calibration_validated": false,
     "zero_variance_79_win_result_is_current_selected_season": false,
-    "revised_regular_standings_draft_and_postseason_execution_pending": true,
+    "revised_regular_standings_draft_and_postseason_execution_pending": false,
     "new_personal_awards_selected": null,
     "old2023zero_growth_results_are_historical_inputs": true,
     "whole_G13_G14_complete": false,
     "actual_Pack": 0,
-    "manuscript_allowed": false
+    "manuscript_allowed": false,
+    "current_execution_completion_source": "LC1_current_revised_NBA_2022_23",
+    "B_cumulative_growth_audit": "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json"
   },
   "LC1_current_revised_NBA_2022_23": {
     "priority": "LATEST_REVISED_REGULAR_RESULT_OVERRIDE_OLD_NBA_2022_23_RESULT_SEED_AND_FY2023_SLOT_INPUTS",
@@ -1768,6 +1774,23 @@
       "new_awards_selected": 0,
       "tools_receipt": "reviews/EARLY_REWARD_B_GROWTH_TOOLS_2026_10_11.json",
       "tools_receipt_LF_SHA256": "53c22d0f7a667dd37b3ad914155793a47cbd95ea773bb265a41c2598005b5088"
+    },
+    "B_to_2023_cumulative_growth_join": {
+      "path": "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.json",
+      "LF_SHA256": "66a12cb9f7381b524b6eebf53a87089fdc2077b1c2621c06c38fdc7ffb13545a",
+      "report": "design/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_JOIN_2026_10_12.md",
+      "Codex_check": "reviews/EARLY_REWARD_B_2023_CUMULATIVE_GROWTH_2026_10_12_CODEX_CHECK.json",
+      "selected_regular_replay_games": 82,
+      "regular_record": [
+        52,
+        30
+      ],
+      "stage_proxies_are_absolute_cumulative_inputs": true,
+      "additional_B_rating_or_score_delta": 0,
+      "year1_year3_dated_attack_costs_complete": false,
+      "new_individual_awards_or_C01_selection": false,
+      "actual_Pack": 0,
+      "manuscript_allowed": false
     }
   },
   "LC1_current_nine_act_pack_compiler_preparation": {
