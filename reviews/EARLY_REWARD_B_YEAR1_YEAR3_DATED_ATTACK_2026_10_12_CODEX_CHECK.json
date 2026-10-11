@@ -1,0 +1,75 @@
+{
+  "id": "EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12_CODEX_CHECK",
+  "classification": "CODEX_LOCAL_RAW_CONSUMPTION_AND_OUTPUT_REPLAY_NOT_INDEPENDENT_AGENT_REVIEW",
+  "base_main": "dd7bceecee6354bee68932f3f177ad93099475d8",
+  "source_sha256": {
+    "research/raw/EARLY_REWARD_B_YEAR1_YEAR3_MIRROR_BOXES_2026_10_12.csv": "be69a1ee392a2310be452ac7001885443ed3b9e1a4ea29195043ff0afd5d23e6",
+    "research/raw/EARLY_REWARD_B_YEAR1_YEAR3_SOURCE_SCOPE_2026_10_12.json": "a8a3737c4113093181933f5b8cf0a90f5cd010033159b499c2e9cfda9ff7230e",
+    "simulation/LC1_CHICAGO_2018_2019_USED_DEVELOPMENT_AND_RESULT_CONTACT_IMPLEMENTATION_2026_10_09.json": "db53757b1c30dcf3b14ecffb159044e2d78f23ee7ff83b414fa06a18dcd7a757",
+    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400",
+    "simulation/CHICAGO_2018_19_OUTCOME_LEDGER.csv": "24d3bb974bb76b79e08d0ba053aad53dd4e4d7a7010dd6c230967573d2180027",
+    "simulation/CHICAGO_2020_21_POSTDEADLINE_OBSERVED_PRIORS.csv": "5aee8ea2d013fb367a38730bbbb5fff757e43dce9c7963f5088fe5c933b7d0dd",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PAIRED_OBSERVATIONS.csv": "b5558fb491c70d9cc1c26089023d1f3a7f70c63a7c80fc31f87e31c4eced980e",
+    "simulation/CHICAGO_2020_21_POSTDEADLINE_BOTH_TEAMS_ACTUAL.csv": "760f817ff8229a2d7921839938a8bddfb6750160331bb7c7bf6c2b6738aefac5",
+    "simulation/EARLY_REWARD_B_GROWTH_AND_YEAR4_ATTACK_2026_10_11.json": "176e00aa42b7ba9894a4062ea84dc7cb1a65bc9b604ac5f72f821edc3427d974",
+    "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75",
+    "simulation/CHICAGO_2020_21_PREDEADLINE_PRODUCTION_PRIORS.csv": "b5296e9014698fdb1b658e1b3108aa5f8ffaff1eec9a57ea9f553fb0db3df95c",
+    "simulation/CHICAGO_2018_19_PLAYER_PRODUCTION_PRIORS.md": "1338500f5977505f2ff1d6b1d1df12cebc059d9d7d7b90662ac9ddfa549e7384",
+    "research/raw/EARLY_REWARD_B_YEAR2_PRIMARY_BOXES_2026_10_11.csv": "048e95515437c1711c1968f9aafdf07372bbc579802a01dd8449ec1af1187012"
+  },
+  "output_sha256": {
+    "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.json": "4bec6390ab34e46c9873b5c1e3e838fa259a6de4596c1b6fc62ef7a2c5f999db",
+    "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.csv": "8e678199d4406234252333f7bc8e66b7f0d5ed6e65c3a7977bb6d1d640f9db80",
+    "research/raw/EARLY_REWARD_B_YEAR1_YEAR3_MIRROR_BOXES_2026_10_12.csv": "be69a1ee392a2310be452ac7001885443ed3b9e1a4ea29195043ff0afd5d23e6",
+    "research/raw/EARLY_REWARD_B_YEAR1_YEAR3_SOURCE_SCOPE_2026_10_12.json": "a8a3737c4113093181933f5b8cf0a90f5cd010033159b499c2e9cfda9ff7230e",
+    "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.md": "d9c1286c87fbf6aab2082836aadf9e12b2785a647d7e40ebac14e13148b55975",
+    "tools/build_early_reward_b_year1_year3_dated_attack.py": "db2a90fda24ed8d06b7eb1ba43c9888059537d14590d5e3ccbda9c9734d81a67",
+    "reviews/EARLY_REWARD_B_YEAR1_YEAR3_TOOLS_2026_10_12.json": "5266a6025c282d6fbf01f5de08074b382e978702e6584ab20aa6675914720e15"
+  },
+  "checks": {
+    "selected_days": 154,
+    "allocation_rows": 1684,
+    "raw_rows": 1959,
+    "dated_category_sums": 616,
+    "point_identities": 1684,
+    "FGA_identities": 1684,
+    "source_pins": 13,
+    "year1_GP_GS_seconds": [
+      73,
+      11,
+      76442
+    ],
+    "year3_pre43_seconds": 73140,
+    "year3_post29_reference_seconds": 52200,
+    "six_original_and_selected_CHI_used_roles_preserved": true,
+    "Carter_prior_uses_before_game": 29,
+    "AllStar_before_Feb23_only": [
+      30,
+      842
+    ],
+    "unowned_preserved": 7,
+    "actual_fullcourt_rating_awards_or_result_replay": false
+  },
+  "fault_checks": [
+    {
+      "mutation": "capacity_exceeded",
+      "rejected": true
+    },
+    {
+      "mutation": "negative_demand",
+      "rejected": true
+    },
+    {
+      "mutation": "negative_source_capacity",
+      "rejected": true
+    }
+  ],
+  "tools_receipt": "reviews/EARLY_REWARD_B_YEAR1_YEAR3_TOOLS_2026_10_12.json",
+  "gates": {
+    "freeze": "v0.30 PARTIAL",
+    "design": "CLOSED",
+    "manuscript": "CLOSED",
+    "actual_Pack": 0
+  },
+  "scope_limit": "Three completed comparison vectors and observed finishing-rate assumptions remain fictional. No actual stat/health or alternate result certificate."
+}
