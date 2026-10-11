@@ -2,6 +2,7 @@
 from __future__ import annotations
 import argparse,copy,hashlib,json,subprocess
 from pathlib import Path
+from build_threepeat_actual_context_packs import selected_record
 ROOT=Path(__file__).resolve().parents[1]
 A='design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json'
 B='design/THREEPEAT_51_PREPARED_EPISODE_BLUEPRINTS_2026_10_12.json'
@@ -12,6 +13,7 @@ ACCEPT='canon/DELEGATED_THREEPEAT_NINE_ACT_EXIT_MAP_ACCEPTANCE_2026_10_09.json'
 C01='research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json'
 EPI='simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json'
 EARLY='canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json'
+B_USED='canon/EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12.json'
 O='design/THREEPEAT_CURRENT_USED_HISTORY_EXIT_JOIN_2026_10_12.json'
 MD=O.replace('.json','.md')
 R='reviews/THREEPEAT_CURRENT_USED_HISTORY_EXIT_JOIN_2026_10_12_CODEX_CHECK.json'
@@ -33,7 +35,7 @@ FINAL={
  39:('마지막수신은득점이나승리확정이아니다.','LM0.2초독립릴리스→혼→유효2점/추가시간없음의선택가상검토→공개110–109/4–3종료→상호보이는고개행동순서로끝낸다.','P득점0·LM슛책임·LV/Mark/Carter의공간/박스아웃/연결비용을남긴다.','2025CHI삼연패·LM독립결승2점과보이는신뢰만. 개인상·완전화해·타인속마음은부여하지않는다.',[0.2,0.0])}
 
 def make():
- a=load(A);b=load(B);episodes=a['episodes'];ports=[]
+ a=load(A);b=load(B);selected_B=load(B_USED);selected_record(selected_B,'EARLY_CAREER_REWARD');episodes=a['episodes'];ports=[]
  ids=distinct(fc for e in episodes for fc in e['function_ids'])
  assert len(ids)==42
  for fc in ids:
@@ -49,6 +51,9 @@ def make():
      'consequential_choice_ids':['EARLY_REWARD_IMPLEMENTATION'] if fc in [f'FC{k:03}' for k in range(12,23)] else [],
      'unresolved_used_dependencies':distinct(d for e in used for d in e['unresolved_used_dependencies']),
      'new_history_LOCK_or_ACTUAL_authority':False}
+  if 'EARLY_REWARD_IMPLEMENTATION' in p['consequential_choice_ids']:
+   p['source_refs'].append(ref(B_USED))
+   p['selected_working_B_choice_source_available']=True
   if fc in ('FC031','FC032','FC040'):
    p.update(status='HOLD_C01_USED_CALENDAR',consequential_choice_ids=['C01_CALENDAR'])
    p['source_refs'].append(ref(C01,'/finite_remaining_ports'))
@@ -76,7 +81,7 @@ def make():
   'status':'CURRENT_42_PORT_AND_TEN_UNIT_HISTORY_JOIN_PREPARED_NOT_LOCKED',
   'baseline_main':'944f7677a097448410f8a4c6dd74dcde95d0e37a',
   'scope':'M01–M09 and brief2035EPI;42ports=40functions+2already-selected2025transitions, not original42SubActs',
-  'source_sha256':{p:sha(p) for p in [A,B,LATE,LAST,MAP,ACCEPT,C01,EPI,EARLY]},
+  'source_sha256':{p:sha(p) for p in [A,B,LATE,LAST,MAP,ACCEPT,C01,EPI,EARLY,B_USED]},
   'finite_used_exit_ports':ports,'unit_exits':units,
   'current_final_function_phase_order':['FC036','FC035','FC037','FC038','FC039'],
   'last_scene_clock_support':'MIN possession23.6→Rival release22.7→rim22.0→CHIrebound21.6→CHIfrontcourt16.6→LMrelease0.2→horn/review/publicend/nod',
@@ -84,7 +89,9 @@ def make():
    {'unit_id':'M04','prior_window':old[3]['literal_source_window'],'current_window':'2018–19 rookie and2019–20 ownattack/rival publiccomparison beforeLM2020core','new_season_result_selected':False},
    {'unit_id':'M09','prior_literal_exit':old[8]['literal_exit'],'current_exit':units[8]['exit_state'],'current_selection_ref':ref(LATE,'/selected_2025_last_attack'),'old_birth_candidate_as_current_pending':False}],
   'C01_calendar_ports_remaining':['FC031','FC032','FC040'],
-  'consequential_choice_preparation':[{'choice_id':'EARLY_REWARD_IMPLEMENTATION','direction':'B_SELECTED','source_ref':ref(EARLY),'used_port_ids':[f'FC{k:03}' for k in range(12,23)],'status':'DIRECTION_AND_WORKING_INPUTS_PREPARED_NOT_COMPILER_SELECTION_EXPORT'},
+  'consequential_choice_preparation':[{'choice_id':'EARLY_REWARD_IMPLEMENTATION','direction':'B_SELECTED','author_direction_ref':ref(EARLY),
+   'selection_source_ref':ref(B_USED),'used_port_ids':[f'FC{k:03}' for k in range(12,23)],'status':'RESOLVED_SELECTED','resolution':selected_B['resolution'],
+   'selected_source_kind':'DELEGATED_WORKING_IMPLEMENTATION_NOT_PERSONAL_AWARD_OR_BOX_RECORD'},
    {'choice_id':'C01_CALENDAR','status':'UNSELECTED_USED_CALENDAR_HOLD','source_ref':ref(C01,'/finite_remaining_ports'),'used_port_ids':['FC031','FC032','FC040']}],
   'personal_awards_use_mode':'NOT_USED','lifetime_title_total_through2035':None,
   'final_episode_N':None,'current_used_scope_complete':False,'independent_review_completed':False,
@@ -126,8 +133,13 @@ def validate(d):
  assert '유효슛·성공·검토·최종점수는아직모른다' in by['FC038']['exit_state']
  assert all(by[f'FC{k:03}']['used_recommended_episodes']==[50] for k in range(35,40))
  assert len(b['prepared_episode_blueprints'][49]['named_acquisition_checkpoints'])==9
- assert set(d['source_sha256'])=={A,B,LATE,LAST,MAP,ACCEPT,C01,EPI,EARLY}
+ assert set(d['source_sha256'])=={A,B,LATE,LAST,MAP,ACCEPT,C01,EPI,EARLY,B_USED}
  assert all(sha(p)==h for p,h in d['source_sha256'].items())
+ choice=d['consequential_choice_preparation'][0];source=load(B_USED);selected_record(source,'EARLY_CAREER_REWARD')
+ assert choice['status']=='RESOLVED_SELECTED' and choice['resolution']==source['resolution']
+ assert choice['selection_source_ref']==ref(B_USED) and choice['used_port_ids']==source['used_port_ids']
+ assert {p['port_id'] for p in ports if p.get('selected_working_B_choice_source_available')}==set(source['used_port_ids'])
+ assert all(ref(B_USED) in by[pid]['source_refs'] for pid in choice['used_port_ids'])
 
 def render(d):
  lines=['# 현재9막·후일담 역사 출구 연결','',
@@ -148,7 +160,7 @@ def render(d):
  for p in d['finite_used_exit_ports']:
   lines+=[f'### {p["port_id"]} · {p["unit_id"]} · 권고{p["used_recommended_episodes"]}', '',f'- 진입: {p["entry_state"]}',f'- 선택/행동: {p["changed_action"]}',f'- 비용: {p["durable_cost"]}',f'- 출구: {p["exit_state"]}',f'- 상태: {p["status"]}','']
  lines+=['## 검증과 남은 일','',
- '현재9출처핀·42기능소비·10막의9연결·마지막5기능의독립역할/시간·C01역방향의존성을Codex가대조했다. 신규외부도구/독립검수/원고/Pack0. 최종권위발급전현재출구·취득·C01사용상태의독립수락이필요하다.','',
+ '현재10출처핀·42기능소비·10막의9연결·마지막5기능의독립역할/시간·C01역방향의존성을Codex가대조했다. B FC012–022는기존위임의292일입력/821영향행으로실제선택된작업모델객체를참조한다. 이는실측기록·수상·현재역사전체LOCK이아니다. 신규외부도구/독립검수/원고/Pack0. 최종권위발급전현재출구·취득·C01사용상태의독립수락이필요하다.','',
  '|번호|작업|상태|','|---|---|---|','|1|드래프트|완료|','|2|Chicago2020–21|완료|','|3|거래·계약|완료|','|4|커리어·B|인정/대표팀경로남음|','|5|구조|현재42출구·10막연결준비/최종N미LOCK|','|6|규격·Pack|51개별설계/최종수락·Pack미완료|','|7|통합·독립·작가승인|미완료|','',
  '미완료4개·6번까지3개·v0.30 PARTIAL/CLOSED.','']
  return '\n'.join(lines).encode()
@@ -163,7 +175,9 @@ def main():
  for name,mut in [('COLLEGE_BEFORE_RECEIPT',lambda x:x['unit_exits'][1].update(exit_state='이미EC승인된대학생')),
    ('NEXT_ENTRY_MISMATCH',lambda x:x['unit_exits'][6].update(next_entry_state='옛2028첫우승이후')),
    ('C01_SILENTLY_RESOLVED',bad_hold),('RIVAL_DEFENSE_AFTER_REBOUND',lambda x:x.update(current_final_function_phase_order=['FC035','FC036','FC037','FC038','FC039'])),
-   ('LM_WIN_KNOWN_AT_YIELD',bad_release),('FALSE_WHOLE_HISTORY_COMPLETE',lambda x:x.update(current_used_scope_complete=True))]:
+   ('LM_WIN_KNOWN_AT_YIELD',bad_release),('FALSE_WHOLE_HISTORY_COMPLETE',lambda x:x.update(current_used_scope_complete=True)),
+   ('B_SELECTION_RESOLUTION_DRIFT',lambda x:x['consequential_choice_preparation'][0].update(resolution='올스타수상확정')),
+   ('B_SELECTION_PORT_BACKLINK_MISSING',lambda x:next(p for p in x['finite_used_exit_ports'] if p['port_id']=='FC012')['source_refs'].remove(ref(B_USED)))]:
   x=copy.deepcopy(d);mut(x)
   try:validate(x)
   except AssertionError:rejected.append(name)
