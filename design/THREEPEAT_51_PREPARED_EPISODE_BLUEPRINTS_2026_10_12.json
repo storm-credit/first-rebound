@@ -4,7 +4,7 @@
   "status": "COMPLETE_PREPARED_51_EPISODE_BUNDLE_NOT_ACTUAL_AUTHORITY",
   "allocation_ref": {
     "path": "design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.json",
-    "source_sha256": "f20178ecc4bd27ed4c6ddc8faa0594ae482ca31715eb86ca80d46ae2da72ba96",
+    "source_sha256": "6b65d7dc443b9f620aae9c1ceb07cc19cc31f075995e267626200ddf611ba5a4",
     "json_pointer": ""
   },
   "prepared_episode_blueprints": [
@@ -1399,10 +1399,10 @@
       "proposed_episode": 9,
       "status": "INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED",
       "personal_award_use_mode": "NOT_USED",
-      "next_entry_state": "34GP·GS0·323분 가족 안의 후순위 선수다.",
+      "next_entry_state": "선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.",
       "editorial_directions_are_dialogue": false,
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "34GP·GS0·323분 가족 안의 후순위 선수다.",
+      "reader_question": "선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "오퍼·학교 졸업 안내를 차례로 받고 별도 자격·등록 뒤 연습의 늦은 도움 위치를 확인한다. 다음 연습에서는 가까운 상대를 막아 동료가 공을 확보하는 두 사례를 본다. 익숙한 과시와 자기 리바운드 추격보다 대학의 좁은 도움·박스아웃 과제를 맡는다.",
@@ -1548,7 +1548,7 @@
       "parts": 2,
       "title": "좁은 자리로 토너먼트에 남기",
       "timeline_window": "2018년3월25일 TT 사용창",
-      "entry_state": "34GP·GS0·323분 가족 안의 후순위 선수다.",
+      "entry_state": "선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.",
       "action_choice": "승인된 좁은 도움·박스아웃·연결 역할을 토너먼트에서 수행한다. 자기 쇼케이스를 위해 역할을 늘리지 않는다.",
       "durable_cost": "좁은 역할 안에서 자기 공격 과시를 포기한다. 앞 기능의 두 리바운드 포기는 다시 차감하지 않는다.",
       "state_change": "우승으로 가는 경기에 자기 몫이 남았다. 아직 준결승·결승 결과는 모른다.",
@@ -1562,15 +1562,45 @@
           "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
           "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
           "json_pointer": ""
+        },
+        {
+          "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+          "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+          "json_pointer": "/selected_season_role_cost_family"
         }
       ],
       "unresolved_used_dependencies": [],
       "new_major_canon_choice": false,
+      "author_only_season_budget": {
+        "GP": 34,
+        "GS": 0,
+        "minutes": 323,
+        "classification": "CONDITIONAL_SEASON_AGGREGATE_NOT_DATED_BOXES_OR_POV_KNOWLEDGE",
+        "source_ref": {
+          "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+          "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+          "json_pointer": "/selected_season_role_cost_family/selected_point"
+        }
+      },
       "proposed_episode": 10,
       "status": "INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED",
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "우승으로 가는 경기에 자기 몫이 남았다. 아직 준결승·결승 결과는 모른다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2018-03-25 before selected TT use",
+          "available_knowledge_limit": "현재 받은 제한 과제만; 최종 시즌합계·준결승·결승 결과 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2018-03-25 TT use completed",
+          "available_knowledge_limit": "실제로 수행한 스위치·박스아웃·동료 공 확보만; 우승 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "우승으로 가는 경기에 자기 몫이 남았다. 아직 준결승·결승 결과는 모른다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -1585,7 +1615,7 @@
       "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
       "claims": [
         {
-          "text": "34GP·GS0·323분 가족 안의 후순위 선수다.",
+          "text": "선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -1598,6 +1628,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/selected_season_role_cost_family"
             }
           ]
         },
@@ -1615,6 +1650,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/selected_season_role_cost_family"
             }
           ]
         },
@@ -1632,6 +1672,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/selected_season_role_cost_family"
             }
           ]
         }
@@ -1732,6 +1777,11 @@
           "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
           "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
           "json_pointer": ""
+        },
+        {
+          "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+          "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+          "json_pointer": "/current_selected_title_bridge"
         }
       ],
       "unresolved_used_dependencies": [],
@@ -1741,6 +1791,20 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "팀 우승 소속과 좁은 수비 기여를 자기 공격 완성으로 합칠 수 없다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2018-03-31 Kansas completed",
+          "available_knowledge_limit": "끝난 준결승의 진행·자기 역할만; Michigan 결과 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2018-04-02 Michigan completed",
+          "available_knowledge_limit": "끝난 결승과팀 우승·동료의 공개 마무리; 조건부323분을 실제개인박스로 확정하지 않음",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "팀 우승 소속과 좁은 수비 기여를 자기 공격 완성으로 합칠 수 없다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -1768,6 +1832,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/current_selected_title_bridge"
             }
           ]
         },
@@ -1785,6 +1854,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/current_selected_title_bridge"
             }
           ]
         },
@@ -1802,6 +1876,11 @@
               "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
               "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
               "json_pointer": ""
+            },
+            {
+              "path": "simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json",
+              "source_sha256": "13974eded15daa1a9570f5fc475d6e3ae0a239090dc1ca31eb4aaba09fcbb69b",
+              "json_pointer": "/current_selected_title_bridge"
             }
           ]
         }
@@ -5714,10 +5793,30 @@
       "proposed_episode": 28,
       "status": "INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED",
       "personal_award_use_mode": "NOT_USED",
-      "next_entry_state": "공격 성취와 공식 인정의 차이가 남는다. 발표 승패·선정명단을 쓰는 장면은 미선택이며 이 배치가 선정 결과를 부여하지 않는다.",
+      "next_entry_state": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2022-01-22 fan close",
+          "available_knowledge_limit": "종료 전44경기 창만; 후행47/50경기와미공개표 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2022-01-27 starter announcement window",
+          "available_knowledge_limit": "그날까지47경기 창; 실제 선택된 새선발명단 없음",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2022-02-03 reserve announcement upper bound",
+          "available_knowledge_limit": "그날까지50경기 창; 감독 제출마감·새리저브명단 미확정",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "공격 성취와 공식 인정의 차이가 남는다. 발표 승패·선정명단을 쓰는 장면은 미선택이며 이 배치가 선정 결과를 부여하지 않는다.",
+      "reader_question": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "스타로 인정받고 싶은 욕구는 남기되, 자기 공격 책임과 LM/LV의 독립 기여를 비교하고 자기 준비만 고른다. Jan22 종료 전44경기 입력과 Jan27 발표 전47·Feb3 발표 전50의 서로 다른 공개창을 구별한다. 기대 평균·미공개 표·미선택 발표 결과는 자기 지식으로 쓰지 않는다.",
@@ -5938,7 +6037,7 @@
       "parts": 3,
       "title": "52승 뒤에도 필요한 생존전",
       "timeline_window": "정규 종료 뒤52–30/E7→2022년4월12일MIA전",
-      "entry_state": "공격 성취와 공식 인정의 차이가 남는다. 발표 승패·선정명단을 쓰는 장면은 미선택이며 이 배치가 선정 결과를 부여하지 않는다.",
+      "entry_state": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
       "action_choice": "이미 끝난 정규 결과와 전달된 자기 역할을 가지고MIA 생존전에 들어가, 경기 종료 뒤 본선 진입만 확인한다.",
       "durable_cost": "52승이 자동 진출권이 아니며 생존전 역할 노동과 기회를 따로 쓴다. 정규2624분과 플레이인 분을 합치지 않는다.",
       "state_change": "선택된CHI 홈MIA 승리→PO7→PHI1라운드. 점수·개인 박스·B의 단독 승리 원인은 추가하지 않는다.",
@@ -5991,6 +6090,20 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "좋은 반환 재시도가 승리를 보장하지 않는다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2022 regular season completed",
+          "available_knowledge_limit": "52–30/E7·생존전 상대/자기 과제 확인; 본선진출 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2022-04-12 MIA completed",
+          "available_knowledge_limit": "CHI승리/PO7/PHI진입 확인; 점수·개인박스·승리단독원인 미부여",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "좋은 반환 재시도가 승리를 보장하지 않는다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -6005,7 +6118,7 @@
       "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
       "claims": [
         {
-          "text": "공격 성취와 공식 인정의 차이가 남는다. 발표 승패·선정명단을 쓰는 장면은 미선택이며 이 배치가 선정 결과를 부여하지 않는다.",
+          "text": "정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -7299,10 +7412,10 @@
       "proposed_episode": 35,
       "status": "INDIVIDUAL_PREPARED_EPISODE_BLUEPRINT_NOT_ACTUAL_VERIFIED",
       "personal_award_use_mode": "NOT_USED",
-      "next_entry_state": "2–2에서 원정 G5와 다시 돌아오는 G7이 남는다.",
+      "next_entry_state": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
       "editorial_directions_are_dialogue": false,
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
-      "reader_question": "2–2에서 원정 G5와 다시 돌아오는 G7이 남는다.",
+      "reader_question": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
       "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
       "basketball_goal": "짧은롤 두 번째 판단과 LM 재진입·LV 반대편 마무리를 나누되 막힌 첫 판단과 두 패배를 남긴다. P 혼자 벽을 뚫는 대신 동료 시작과 끝을 살린다.",
@@ -7448,10 +7561,10 @@
       "parts": 2,
       "title": "되돌아온 마지막 한 경기",
       "timeline_window": "2023년4월25·27일PHI G5–6 종료 뒤",
-      "entry_state": "2–2에서 원정 G5와 다시 돌아오는 G7이 남는다.",
+      "entry_state": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
       "action_choice": "앞선 경기에서 한 행동·실패를 지고 다음 허용 역할을 수행한다.",
       "durable_cost": "G5/G6의 기회를 이미 썼다. 이전2022패배는 환불되지 않는다.",
-      "state_change": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
+      "state_change": "4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다.",
       "source_refs": [
         {
           "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
@@ -7481,6 +7594,26 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2023-04-22 PHI G4 completed",
+          "available_knowledge_limit": "2–2; G7개최 미확정",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2023-04-25 PHI G5 completed",
+          "available_knowledge_limit": "3–2; G6·G7결과 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2023-04-27 PHI G6 completed",
+          "available_knowledge_limit": "3–3; G7진입확정,승패 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -7495,7 +7628,7 @@
       "payoff_to_consume": "앞의 이미 취득한 행동을 현재 선택에서만 회수한다. 결과 전 미래를 알지 않는다.",
       "claims": [
         {
-          "text": "2–2에서 원정 G5와 다시 돌아오는 G7이 남는다.",
+          "text": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -7549,7 +7682,7 @@
           ]
         },
         {
-          "text": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
+          "text": "4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -8817,6 +8950,11 @@
           "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
           "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
           "json_pointer": ""
+        },
+        {
+          "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+          "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+          "json_pointer": "/finite_remaining_ports"
         }
       ],
       "unresolved_used_dependencies": [
@@ -8828,6 +8966,14 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "서로 다른 성장 방식은 남고 첫 방어 준비 시간은 유한하다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "after 2023 title and separately selected summer ports",
+          "available_knowledge_limit": "자기 자료·질문 전달만; 대표팀명단·보험·입국·구단 허가 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "서로 다른 성장 방식은 남고 첫 방어 준비 시간은 유한하다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -8860,6 +9006,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -8882,6 +9033,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -8904,6 +9060,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         }
@@ -9009,6 +9170,11 @@
           "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
           "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
           "json_pointer": ""
+        },
+        {
+          "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+          "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+          "json_pointer": "/finite_remaining_ports"
         }
       ],
       "unresolved_used_dependencies": [
@@ -9020,6 +9186,20 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "첫 우승 후에도 동료마다 다른 시작 속도와 빈 수비 위치가 있다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "conditional September private preparation",
+          "available_knowledge_limit": "사적 과제의 자기 선택만; 공적 금메달·편입·실제여행 미선택",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "conditional October return",
+          "available_knowledge_limit": "실제 가용성C01보류; 사적 준비가NBA복귀허가를 생성하지 않음",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "첫 우승 후에도 동료마다 다른 시작 속도와 빈 수비 위치가 있다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -9052,6 +9232,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -9074,6 +9259,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -9096,6 +9286,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         }
@@ -9181,11 +9376,11 @@
       "part": 1,
       "parts": 1,
       "title": "내 리듬을 줄여 남기는 길",
-      "timeline_window": "2023–24 현재 선택된 사용 경로; 개별 정확 장면 배치는 최종N 단계에서 분리",
+      "timeline_window": "2023–24 첫 방어 준비→2024년4월20일ATL→5월19일BOS→6월1일MIL 종료, DEN Finals 이전",
       "entry_state": "첫 우승 후에도 동료마다 다른 시작 속도와 빈 수비 위치가 있다.",
       "action_choice": "현재 선택된2024 공동 코트에서 시작을 넘긴 뒤 자기 무볼 위치와 동료 보완 노동을 함께 확인한다. 자기 득점 하이라이트보다 동료가 반복할 수 있는 연결을 먼저 고친다.",
       "durable_cost": "LM/LV에게 넘긴 시작권과 동료의 추가 한 걸음 보완 노동을 남긴다.",
-      "state_change": "현재 선택된2024 공동 코트·우승 경로를 사용한다. 두 번째 우승은June20_2024 CHI4–2DEN이며 개인상·정확 개인 박스는 미선택이다.",
+      "state_change": "각 종료 뒤에만ATL4–1/BOS4–3/MIL4–2를 알고DEN Finals에 들어간다. June6 학습과June20 우승은 아직 겪지 않았다.",
       "source_refs": [
         {
           "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
@@ -9211,6 +9406,11 @@
           "path": "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.json",
           "source_sha256": "05ebe98c659a9494ccfead67e82973d19d10c2e90f4790d099b2c5155c4532a4",
           "json_pointer": ""
+        },
+        {
+          "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+          "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+          "json_pointer": "/selected_seasons/0/selected_used_series"
         }
       ],
       "unresolved_used_dependencies": [],
@@ -9220,6 +9420,26 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "팀 권한을 나눈 준비가 챔피언 자격증은 아니다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2024-04-30 ATL completed",
+          "available_knowledge_limit": "4–1; BOS·MIL·DEN결과 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2024-05-19 BOS completed",
+          "available_knowledge_limit": "4–3; MIL·DEN결과 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2024-06-01 MIL completed",
+          "available_knowledge_limit": "4–2; DEN진입만, June6/20미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "팀 권한을 나눈 준비가 챔피언 자격증은 아니다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -9262,6 +9482,11 @@
               "path": "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.json",
               "source_sha256": "05ebe98c659a9494ccfead67e82973d19d10c2e90f4790d099b2c5155c4532a4",
               "json_pointer": ""
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_seasons/0/selected_used_series"
             }
           ]
         },
@@ -9294,11 +9519,16 @@
               "path": "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.json",
               "source_sha256": "05ebe98c659a9494ccfead67e82973d19d10c2e90f4790d099b2c5155c4532a4",
               "json_pointer": ""
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_seasons/0/selected_used_series"
             }
           ]
         },
         {
-          "text": "현재 선택된2024 공동 코트·우승 경로를 사용한다. 두 번째 우승은June20_2024 CHI4–2DEN이며 개인상·정확 개인 박스는 미선택이다.",
+          "text": "각 종료 뒤에만ATL4–1/BOS4–3/MIL4–2를 알고DEN Finals에 들어간다. June6 학습과June20 우승은 아직 겪지 않았다.",
           "status": "AUTHOR_MODELED_DESIGN",
           "temporal_kind": "OBSERVED_EVENT",
           "source_refs": [
@@ -9326,6 +9556,11 @@
               "path": "simulation/THREEPEAT_2024_25_SIX_EAST_USED_COURT_JOIN_2026_10_09.json",
               "source_sha256": "05ebe98c659a9494ccfead67e82973d19d10c2e90f4790d099b2c5155c4532a4",
               "json_pointer": ""
+            },
+            {
+              "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+              "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+              "json_pointer": "/selected_seasons/0/selected_used_series"
             }
           ]
         }
@@ -9445,6 +9680,38 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "June6에 직접 본 이양·레인 비우기의 첫 소유 포기와 동료 보완 비용이 남는다. 그것이 시리즈 전체 승리 원인은 아니다. 현재는 별도June20 G6의 종료 확인이다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2024-06-06 elapsed2770",
+          "available_knowledge_limit": "Carter리바운드/새24초; 미래18초끝·점수 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2024-06-06 elapsed2772",
+          "available_knowledge_limit": "Carter선택전진패스와P수신",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2024-06-06 elapsed2775",
+          "available_knowledge_limit": "P이양·LM수신/독립시작·SC19",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 4,
+          "source_clock_label": "2024-06-06 elapsed2778",
+          "available_knowledge_limit": "P오른쪽레인비움; 동료이동 보이는 범위만",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 5,
+          "source_clock_label": "2024-06-06 elapsed2788",
+          "available_knowledge_limit": "진행중/슛·점수 미배정; June20우승 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "June6에 직접 본 이양·레인 비우기의 첫 소유 포기와 동료 보완 비용이 남는다. 그것이 시리즈 전체 승리 원인은 아니다. 현재는 별도June20 G6의 종료 확인이다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -9655,6 +9922,14 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "두 번째 우승 뒤2025의 새 사용 역할·상대 경로는 다시 수행해야 한다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2024-06-20 DEN G6 completed",
+          "available_knowledge_limit": "별도종료4–2/우승 확인; June6첫소유포기비용기억,개인상 미부여",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "두 번째 우승 뒤2025의 새 사용 역할·상대 경로는 다시 수행해야 한다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -10047,6 +10322,20 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2025-06-19 Finals G6 completed",
+          "available_knowledge_limit": "3–3; 끝난2022/23·June6_2024 자기경험만",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2025-06-22 G7 before final possession",
+          "available_knowledge_limit": "현재받은역할; Rival미래실패·LM미래득점·최종수신 확정 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "라이벌 실패 뒤P가 리바운드를 확보한다. 현재CHI108–109MIN이며결승 득점은 아직 일어나지 않았다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -10264,6 +10553,44 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": "2035 원클럽 은퇴 방향은 남지만 후기 연간 시즌·추가 우승 총수는 본편 의무가 아니다.",
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2025-06-22 remaining21.6 rebound",
+          "available_knowledge_limit": "CHI108–109MIN·P수비리바운드·SCoff",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2025-06-22 remaining16.6 frontcourt",
+          "available_knowledge_limit": "실제전진·보이는수비·닫힌직접공격만",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2025-06-22 firstfeed return reentry finalpass",
+          "available_knowledge_limit": "LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 4,
+          "source_clock_label": "2025-06-22 remaining0.2 release",
+          "available_knowledge_limit": "LM자기릴리스 관찰; 유효2점·최종승리 미확정",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 5,
+          "source_clock_label": "2025-06-22 horn and valid-shot review completed",
+          "available_knowledge_limit": "유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 6,
+          "source_clock_label": "2025-06-22 public end and visible nod",
+          "available_knowledge_limit": "상호보이는고개행동만; 동료의속마음·미래보증 미취득",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "2035 원클럽 은퇴 방향은 남지만 후기 연간 시즌·추가 우승 총수는 본편 의무가 아니다.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -10505,6 +10832,11 @@
           "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
           "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
           "json_pointer": ""
+        },
+        {
+          "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+          "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+          "json_pointer": "/finite_remaining_ports"
         }
       ],
       "unresolved_used_dependencies": [
@@ -10516,6 +10848,26 @@
       "personal_award_use_mode": "NOT_USED",
       "next_entry_state": null,
       "editorial_directions_are_dialogue": false,
+      "named_acquisition_checkpoints": [
+        {
+          "order": 1,
+          "source_clock_label": "2035-06-18 service end",
+          "available_knowledge_limit": "서비스종료만; UPC만료와같다는추론 금지",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 2,
+          "source_clock_label": "2035-06-19 separately permitted guest",
+          "available_knowledge_limit": "별도자발적권한/후배의보이는준비; 본인NBA서비스연장 없음",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        },
+        {
+          "order": 3,
+          "source_clock_label": "2035-06-20 public retirement",
+          "available_knowledge_limit": "전날본행동만기억; 후배생각/미래직업 미취득,실사용C01의무가용보류",
+          "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+        }
+      ],
       "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
       "reader_question": "물러난 뒤에도 후배의 다음 행동이 남는가.",
       "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
@@ -10548,6 +10900,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -10570,6 +10927,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         },
@@ -10592,6 +10954,11 @@
               "path": "canon/DELEGATED_THREEPEAT_BRIEF_EPILOGUE_PREPARATION_ACCEPTANCE_2026_10_09.json",
               "source_sha256": "5e059123c69c30c05e511818e0eff8124444f107927d33f15f982d8a774d2892",
               "json_pointer": ""
+            },
+            {
+              "path": "research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json",
+              "source_sha256": "1d6b7392c471990543dddc39e0a0c5ec596c6c595d8f6b7f04983c4e21d546a5",
+              "json_pointer": "/finite_remaining_ports"
             }
           ]
         }
