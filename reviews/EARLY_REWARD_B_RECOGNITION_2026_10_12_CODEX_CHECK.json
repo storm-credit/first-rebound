@@ -1,0 +1,56 @@
+{
+  "id": "EARLY_REWARD_B_RECOGNITION_2026_10_12_CODEX_CHECK",
+  "status": "PASS_CODEX_DIRECT_SOURCE_AND_CUTOFF_CHECK_NOT_INDEPENDENT",
+  "source_sha256": {
+    "research/raw/EARLY_REWARD_B_RECOGNITION_COHORT_2026_10_12.csv": "dea242f27f83c20d9b237c7dea8d0622a9103f3a0951f99c22bd292b0dc2ea3e",
+    "research/raw/EARLY_REWARD_B_YEAR1_YEAR3_SOURCE_SCOPE_2026_10_12.json": "a8a3737c4113093181933f5b8cf0a90f5cd010033159b499c2e9cfda9ff7230e",
+    "simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.csv": "8e678199d4406234252333f7bc8e66b7f0d5ed6e65c3a7977bb6d1d640f9db80",
+    "simulation/EARLY_REWARD_B_YEAR2_CREDIT_BUDGET_2026_10_11.json": "91b616b61f18af8776e98347b0bc48b914d6aaa64149b924cb4882fcc54bf44a",
+    "simulation/EARLY_REWARD_B_YEAR4_DATED_ATTACK_2026_10_11.csv": "b491f2ae8e4db389e97d0bdecf34b799801c454126654443982fe14bddd57e2e",
+    "simulation/NBA_2020_21_SELECTED_REGULAR_OVERLAY.json": "3f8f312d2d0c5fd45054b6d5945856d1db05dddaa7316a755c21f0bd7f4c3400",
+    "simulation/CHICAGO_2021_22_SELECTED_RESULTS_LEDGER.json": "388515d0ddac42b6caa3263c7601d917b6c32c3e8a9fc7ccca2d647cf24f5f78",
+    "simulation/CHICAGO_SAN_ANTONIO_2021_22_SELECTED_KEEPER_RESULTS.json": "8a855d70fb97195e77caaca8062e093b7de2c9d2217c79c701fb4de1fd4fd14f",
+    "canon/EARLY_REWARD_B_AUTHOR_SELECTION_2026_10_11.json": "f9df44b52247fe16c6f9bb4ca547b78b5ef993698b11848dade2d91aa3ee0f75"
+  },
+  "raw_rows": 1325,
+  "cohorts": 25,
+  "cutoffs_replayed": 4,
+  "selected_records": [
+    [
+      14,
+      16
+    ],
+    [
+      33,
+      17
+    ]
+  ],
+  "conference_source_checked": "selected SAS DeRozan FullBird5, original2022 Eastguard PDF compared, rankformula rechecked; fictional votes remain unselected",
+  "negative_mutations": [
+    {
+      "fault": "duplicate_game_observation",
+      "result": "REJECTED"
+    },
+    {
+      "fault": "same_day_or_future_cutoff_leak",
+      "result": "REJECTED"
+    },
+    {
+      "fault": "cutoff_authority_relabel",
+      "result": "REJECTED"
+    }
+  ],
+  "new_awards_or_medal_selection": 0,
+  "gate": "CLOSED",
+  "actual_Pack": 0,
+  "new_manuscript": 0,
+  "external_tool_scope": {
+    "Codex": "local pinned mirror comparison/current source joins and official web reads",
+    "Antigravity": "NOT_RUN",
+    "NotebookLM": "NOT_RUN",
+    "Claude": "NOT_RUN",
+    "independent_agent": "NOT_RUN"
+  },
+  "primary_vs_secondary_scope_separate": true,
+  "historical_box_stats_not_selected_world_box": true
+}
