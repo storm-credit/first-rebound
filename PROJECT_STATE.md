@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [B안 전체 역할 입력 연결](simulation/EARLY_REWARD_B_CURRENT_FULL_ROLE_INPUTS_2026_10_12.md): 기존BASE/P21A 비득점5항목을292출전일 공격과 결합·8범위 재합계,2021선정전16.45/7.64/2.49·2022선정전20/8.71/3.20 기대입력. 자기FG 제외292어시스트 용량 필요조건 PASS; 실제박스/팀REB·AST귀속/수비영향·정확개인상은 별도. 원전/새AGY·NLM·Claude·독립agent0·Pack/원고0·미완료4(6번까지3)·CLOSED.
+
 2026-10-12 [B안 인정 경쟁·컨퍼런스 검산](design/EARLY_REWARD_B_RECOGNITION_COMPARISON_2026_10_12.md): 고정미러1325관측/25비교·P4선정시점 재합계,3년차30/14–16·4년차50/33–17. 선택SAS DeRozan을 원CHI동부선발로 복사하는 오류 차단·네자리 후보/A권고≠확정. 정부2026금메달 명단/체육요원 제도 재확인·새수상/C01선택0·원고/Pack0·미완료4(6번까지3)·CLOSED. 새AGY/NLM/Claude/독립agent0.
 
 2026-10-12 [B안1·3년차 날짜별 공격](simulation/EARLY_REWARD_B_YEAR1_YEAR3_DATED_ATTACK_2026_10_12.md): 미러고정3CSV/1959관측·154날짜1684기대행 구현, P73/11/1274:02·전43/후29 유지·616기회합 보존. 기존4초차와691공식행/77초차 분리·Carter29prior/발표전30 확인. NLM작업노트 분석답 회수·AGY빈답/새원전0; 실제승패/수상/Pack미완료·미완료4(6번까지3)·CLOSED.
