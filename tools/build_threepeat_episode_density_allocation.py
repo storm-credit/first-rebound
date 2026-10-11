@@ -24,6 +24,8 @@ BLUEPRINT='design/THREEPEAT_51_PREPARED_EPISODE_BLUEPRINTS_2026_10_12.json'
 MD=ALLOCATION.replace('.json','.md')
 REVIEW='reviews/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12_CODEX_CHECK.json'
 NLM='reviews/THREEPEAT_51_DENSITY_NOTEBOOKLM_ANALYSIS_2026_10_12.json'
+VILL='simulation/LC1_VILLANOVA_2017_2018_USED_ROLE_AND_TITLE_BRIDGE_IMPLEMENTATION_2026_10_09.json'
+C01='research/THREEPEAT_C01_PUBLIC_AND_DUTY_USED_CALENDAR_PREPARATION_2026_10_09.json'
 
 # Splits name different existing state transitions, not a quota of scenes.
 # title, window, action/choice, newly incurred cost, resulting state
@@ -198,6 +200,16 @@ def make():
                              'source_refs':sources,'unresolved_used_dependencies':copy.deepcopy(row['used_dependencies_remaining']),
                              'new_major_canon_choice':False})
     assert len(episodes)==51
+    episodes[9]['entry_state']='선발 승격 없이 후순위로 맡은 제한 역할이 있다. 아직 끝나지 않은 시즌의 최종34GP·323분은 이 진입에서 알 수 없다.'
+    episodes[9]['author_only_season_budget']={'GP':34,'GS':0,'minutes':323,'classification':'CONDITIONAL_SEASON_AGGREGATE_NOT_DATED_BOXES_OR_POV_KNOWLEDGE','source_ref':ref(VILL,'/selected_season_role_cost_family/selected_point')}
+    episodes[9]['source_refs'].append(ref(VILL,'/selected_season_role_cost_family'))
+    episodes[10]['source_refs'].append(ref(VILL,'/current_selected_title_bridge'))
+    episodes[28]['entry_state']='정규시즌 종료 뒤52–30/E7과CHI 홈MIA 생존전의 자기 역할을 확인했다. 아직MIA전 결과와 본선 진출은 모른다.'
+    episodes[35]['entry_state']='4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.'
+    episodes[35]['state_change']='4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다.'
+    episodes[44]['timeline_window']='2023–24 첫 방어 준비→2024년4월20일ATL→5월19일BOS→6월1일MIL 종료, DEN Finals 이전'
+    episodes[44]['state_change']='각 종료 뒤에만ATL4–1/BOS4–3/MIL4–2를 알고DEN Finals에 들어간다. June6 학습과June20 우승은 아직 겪지 않았다.'
+    episodes[44]['source_refs'].append(ref(LATE,'/selected_seasons/0/selected_used_series'))
     episodes[27]['action_choice']='스타로 인정받고 싶은 욕구는 남기되, 자기 공격 책임과 LM/LV의 독립 기여를 비교하고 자기 준비만 고른다. Jan22 종료 전44경기 입력과 Jan27 발표 전47·Feb3 발표 전50의 서로 다른 공개창을 구별한다. 기대 평균·미공개 표·미선택 발표 결과는 자기 지식으로 쓰지 않는다.'
     episodes[46]['entry_state']='June6에 직접 본 이양·레인 비우기의 첫 소유 포기와 동료 보완 비용이 남는다. 그것이 시리즈 전체 승리 원인은 아니다. 현재는 별도June20 G6의 종료 확인이다.'
     episodes[48]['current_source_priority']='June6_2024 사용은 LATE의 selected_2024_DEN_first_defense를 따른다. LAST의 예전 L2024DEN_HOLD는 출생 이력으로 보존하며 현재 성공 사용을 다시 HOLD로 덮지 않는다.'
@@ -206,13 +218,33 @@ def make():
         e.update(proposed_episode=i,status='PREPARED_EPISODE_ALLOCATION_NOT_FINAL_LOCK',personal_award_use_mode='NOT_USED')
         e['next_entry_state']=episodes[i]['entry_state'] if i<len(episodes) else None
         e['editorial_directions_are_dialogue']=False
+    # These are named planned access checkpoints, not private vote receipts,
+    # institutional approvals or newly invented seconds.
+    checkpoints={
+      10:[('2018-03-25 before selected TT use','현재 받은 제한 과제만; 최종 시즌합계·준결승·결승 결과 미취득'),('2018-03-25 TT use completed','실제로 수행한 스위치·박스아웃·동료 공 확보만; 우승 미취득')],
+      11:[('2018-03-31 Kansas completed','끝난 준결승의 진행·자기 역할만; Michigan 결과 미취득'),('2018-04-02 Michigan completed','끝난 결승과팀 우승·동료의 공개 마무리; 조건부323분을 실제개인박스로 확정하지 않음')],
+      28:[('2022-01-22 fan close','종료 전44경기 창만; 후행47/50경기와미공개표 미취득'),('2022-01-27 starter announcement window','그날까지47경기 창; 실제 선택된 새선발명단 없음'),('2022-02-03 reserve announcement upper bound','그날까지50경기 창; 감독 제출마감·새리저브명단 미확정')],
+      29:[('2022 regular season completed','52–30/E7·생존전 상대/자기 과제 확인; 본선진출 미취득'),('2022-04-12 MIA completed','CHI승리/PO7/PHI진입 확인; 점수·개인박스·승리단독원인 미부여')],
+      36:[('2023-04-22 PHI G4 completed','2–2; G7개최 미확정'),('2023-04-25 PHI G5 completed','3–2; G6·G7결과 미취득'),('2023-04-27 PHI G6 completed','3–3; G7진입확정,승패 미취득')],
+      43:[('after 2023 title and separately selected summer ports','자기 자료·질문 전달만; 대표팀명단·보험·입국·구단 허가 미취득')],
+      44:[('conditional September private preparation','사적 과제의 자기 선택만; 공적 금메달·편입·실제여행 미선택'),('conditional October return','실제 가용성C01보류; 사적 준비가NBA복귀허가를 생성하지 않음')],
+      45:[('2024-04-30 ATL completed','4–1; BOS·MIL·DEN결과 미취득'),('2024-05-19 BOS completed','4–3; MIL·DEN결과 미취득'),('2024-06-01 MIL completed','4–2; DEN진입만, June6/20미취득')],
+      46:[('2024-06-06 elapsed2770','Carter리바운드/새24초; 미래18초끝·점수 미취득'),('2024-06-06 elapsed2772','Carter선택전진패스와P수신'),('2024-06-06 elapsed2775','P이양·LM수신/독립시작·SC19'),('2024-06-06 elapsed2778','P오른쪽레인비움; 동료이동 보이는 범위만'),('2024-06-06 elapsed2788','진행중/슛·점수 미배정; June20우승 미취득')],
+      47:[('2024-06-20 DEN G6 completed','별도종료4–2/우승 확인; June6첫소유포기비용기억,개인상 미부여')],
+      49:[('2025-06-19 Finals G6 completed','3–3; 끝난2022/23·June6_2024 자기경험만'),('2025-06-22 G7 before final possession','현재받은역할; Rival미래실패·LM미래득점·최종수신 확정 미취득')],
+      50:[('2025-06-22 remaining21.6 rebound','CHI108–109MIN·P수비리바운드·SCoff'),('2025-06-22 remaining16.6 frontcourt','실제전진·보이는수비·닫힌직접공격만'),('2025-06-22 firstfeed return reentry finalpass','LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음'),('2025-06-22 remaining0.2 release','LM자기릴리스 관찰; 유효2점·최종승리 미확정'),('2025-06-22 horn and valid-shot review completed','유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인'),('2025-06-22 public end and visible nod','상호보이는고개행동만; 동료의속마음·미래보증 미취득')],
+      51:[('2035-06-18 service end','서비스종료만; UPC만료와같다는추론 금지'),('2035-06-19 separately permitted guest','별도자발적권한/후배의보이는준비; 본인NBA서비스연장 없음'),('2035-06-20 public retirement','전날본행동만기억; 후배생각/미래직업 미취득,실사용C01의무가용보류')]
+    }
+    for ep,points in checkpoints.items():
+        episodes[ep-1]['named_acquisition_checkpoints']=[{'order':n,'source_clock_label':label,'available_knowledge_limit':limit,'status':'SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT'} for n,(label,limit) in enumerate(points,1)]
+    for ep in (43,44,51):episodes[ep-1]['source_refs'].append(ref(C01,'/finite_remaining_ports'))
     ownership={f'FC{i:03}':[e['proposed_episode'] for e in episodes if f'FC{i:03}' in e['function_ids']] for i in range(1,41)}
     promises=[]
     for p in parent['five_promise_consumption']:
         current=copy.deepcopy(p)
         current['episode_roles']={k:sorted({ep for fc in ids for ep in ownership[fc]}) for k,ids in p['current_function_ids'].items()}
         current['actual_prose_payoff_verified']=False;promises.append(current)
-    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM]}
+    pins={path:sha(path) for path in [BASE,SCOPE,PI22,PHI22,TITLE23,SEL23,LATE,EAST,LAST,REC,NLM,VILL,C01]}
     allocation={'id':'THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12','producer_id':'root_codex',
                 'baseline_main':'098e8f170a9e4ea0503dff576811807a79fd7e6d',
                 'status':'COMPLETE_51_ROW_EDITORIAL_RECOMMENDATION_NOT_FINAL_N_LOCK',
@@ -233,6 +265,10 @@ def make():
                 'gates':{'freeze':'v0.30 PARTIAL','design_gate':'CLOSED','manuscript_allowed':False,'actual_blueprint_authority_count':0,'actual_pack_count':0},
                 'tools_this_pass':{'Codex':'LOCAL_READ_EDIT_CHECK','Antigravity':'NOT_RUN','NotebookLM':'SELF_AUTHORED_PROPOSAL_SOURCE_REGISTERED_AND_CITED_ANALYSIS_RECOVERED','Claude':'NOT_RUN','independent_agent':'NOT_RUN'},
                 'notebooklm_analysis_ref':ref(NLM),
+                'access_repair_baseline_main':'568870cfbc3d7736cda2fcb5d47e9c6d1cd74e56',
+                'access_repair_scope':{'repaired_episodes':[10,29,36,45],'named_checkpoint_episodes':sorted(checkpoints),'new_event_or_choice_selected':False},
+                'access_repair_precedence':'Current episode entry/state and acquisition checkpoints override unsplit parent actor-knowledge wording. Parent outcome/aggregate and original bytes remain unchanged.',
+                'tools_access_repair':{'Codex':'DIRECT_READ_SEMANTIC_REPAIR_AND_LOCAL_CHECK','Antigravity':'NOT_RUN','NotebookLM':'NOT_RUN_ON_REPAIRED_GENERATION','Claude':'NOT_RUN','independent_agent':'NOT_RUN'},
                 'unfinished_major_groups':4,'unfinished_through_group6':3}
     bps=[]
     for e in episodes:
@@ -300,6 +336,23 @@ def validate(a,b):
     assert '110–109' in last['state_change']
     assert [e['proposed_episode'] for e in a['episodes'] if e['unresolved_used_dependencies']]==[43,44,51]
     assert '6월6일' in a['episodes'][45]['timeline_window'] and '6월20일' in a['episodes'][46]['timeline_window']
+    assert '34GP' not in a['episodes'][9]['entry_state'].split('아직')[0]
+    assert a['episodes'][9]['author_only_season_budget']['classification']=='CONDITIONAL_SEASON_AGGREGATE_NOT_DATED_BOXES_OR_POV_KNOWLEDGE'
+    assert '정규시즌 종료 뒤52–30/E7' in a['episodes'][28]['entry_state']
+    assert 'G7 개최는 아직 확정되지 않았다' in a['episodes'][35]['entry_state']
+    assert 'G6 패배 뒤3–3' in a['episodes'][35]['state_change']
+    assert 'June20_2024 CHI4–2DEN' not in a['episodes'][44]['state_change']
+    assert '우승은 아직 겪지 않았다' in a['episodes'][44]['state_change']
+    learning=read(LATE)['selected_2024_DEN_first_defense']['new_successor_current_learning_selected']
+    assert [x['elapsed'] for x in learning['events']]==[2770,2772,2775,2778] and learning['window_elapsed_seconds']==[2770,2788]
+    assert [x['order'] for x in a['episodes'][49]['named_acquisition_checkpoints']]==list(range(1,7))
+    assert '유효2점·최종승리 미확정' in a['episodes'][49]['named_acquisition_checkpoints'][3]['available_knowledge_limit']
+    profiled=[e for e in a['episodes'] if 'named_acquisition_checkpoints' in e]
+    assert len(profiled)==13 and sum(len(e['named_acquisition_checkpoints']) for e in profiled)==35
+    phi=read(TITLE23)['selected_CHI_series_preparation'][0]['games']
+    assert [(g['date'],g['selected_winner']) for g in phi[3:6]]==[('2023-04-22','CHI'),('2023-04-25','CHI'),('2023-04-27','PHI')]
+    late=read(LATE)['selected_seasons'][0]['selected_used_series']
+    assert [s['games'][-1]['date'] for s in late[:3]]==['2024-04-30','2024-05-19','2024-06-01']
 
 def render(a):
     lines=['# 현재 본편50회+후일담1회 밀도 배치 권고','',
@@ -326,8 +379,9 @@ def render(a):
               '- 다섯 약속의설치·변주·회수를권고회차로재연결했다.50/51의기능소비는본문회수완료가 아니다.',
               '- C01의권고43/44/51은사용날가용이보류다.개인상NOT_USED를허가/서비스달력의대체로쓰지 않는다.','',
               '## 검증·남은 일','',
-              '51배치와51개별Blueprint를대조하고설계10출처핀+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
+              '51배치와51개별Blueprint를대조하고설계12출처핀+분석영수증1핀/원40기능소비/10막순서/진입·비용·다음상태/정보취득순서를검사했다.동일생산자의Codex검사로신규독립검수는아니다.','',
               'NotebookLM은이편집권고안의첫세대본문을새source로등록하고인용답을회수했다.자기작성설계의구조분석이며NBA원전검증이나독립수락은아니다.인정욕구삭제권고는거부하고정보창만분리했고,June6→June20기존비용연결과P/LM마지막비용구분을보강했다.원입력해시·답·수락범위는별도영수증에보존한다.','',
+              '후속 직접 검사에서 권고10의 미완료 시즌34GP/323분 선인지, 권고36의2–2시점G7확정, 권고45의DEN진입 전June20우승 소비를 발견해 수리했다. 권고29는 정규 종료 뒤52–30/E7을 확인한 진입으로 명확히 했다. 최종 합계는 작가용 조건부 예산으로 분리하고13회차의35취득 체크포인트를 날짜/현재 시계에 붙였다. 기존6반례·NLM첫세대 분석의 검증 한계도 기록한다.','',
               '원고분량·상업적리듬이입증되지않았다.특히2025진행3회와인정비교의서사밀도는현재출처를받은독립의미검수대상이다.권고51을고정분량으로맞추기위해회상·설명·같은21.6초를늘리지않는다.','',
               '다음: 이51행의독립적인의미·정보접근검수와현재역사/사용달력연결,필요하면권고배치수리→최종N/개별권위발급→실제Pack컴파일.','',
               '|번호|작업|상태|','|---|---|---|','|1|드래프트연쇄|완료|','|2|Chicago2020–21|기존선택시즌완료|',
@@ -337,7 +391,8 @@ def render(a):
     return '\n'.join(lines).encode('utf-8')
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');parser.add_argument('--refresh-untracked',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');parser.add_argument('--refresh-untracked',action='store_true');parser.add_argument('--refresh-owned',action='store_true');parser.add_argument('--expected-hashes-file');args=parser.parse_args()
+    expected=read(args.expected_hashes_file) if args.refresh_owned and args.expected_hashes_file else {}
     a,b=make();validate(a,b);rejected=[]
     def both(x,y,index,key,value):
         x['episodes'][index][key]=value;y['prepared_episode_blueprints'][index][key]=value
@@ -348,6 +403,11 @@ def main():
         ('KNOWLEDGE_ACQUIRED_AFTER_USE',lambda x,y:y['prepared_episode_blueprints'][49]['information_boundary']['access_witnesses'][0].update(acquired_order=4)),
         ('FALSE_FINAL_N_LOCK',lambda x,y:x.update(final_episode_count_locked=51)),
         ('FALSE_ACTUAL_BLUEPRINT',lambda x,y:y['prepared_episode_blueprints'][0].update(status='ACTUAL_VERIFIED')),
+        ('SEASON_TOTAL_AS_EARLY_KNOWLEDGE',lambda x,y:both(x,y,9,'entry_state','34GP·323분을이미안다.')),
+        ('MIA_RESULT_BEFORE_ENTRY',lambda x,y:both(x,y,28,'entry_state','Feb3에MIA승리와본선진출을안다.')),
+        ('G7_KNOWN_AT_TWO_TWO',lambda x,y:both(x,y,35,'entry_state','2–2에서G7개최와최종승리를안다.')),
+        ('TITLE_BEFORE_JUNE6',lambda x,y:both(x,y,44,'state_change','June20_2024 CHI4–2DEN 우승을이미안다.')),
+        ('LM_WIN_AT_RELEASE',lambda x,y:(x['episodes'][49]['named_acquisition_checkpoints'][3].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'),y['prepared_episode_blueprints'][49]['named_acquisition_checkpoints'][3].update(available_knowledge_limit='릴리스순간최종승리를확신한다.'))),
     ]:
         x,y=copy.deepcopy(a),copy.deepcopy(b);mutate(x,y)
         try:validate(x,y)
@@ -364,9 +424,10 @@ def main():
         path=ROOT/p
         if args.check:assert path.is_file() and norm(path)==data,('mismatch',p)
         elif path.exists() and norm(path)!=data:
-            assert args.refresh_untracked,('refuse overwrite',p)
             tracked=subprocess.run(['git','ls-files','--error-unmatch','--',p],cwd=ROOT,capture_output=True)
-            assert tracked.returncode!=0,('refuse tracked overwrite',p)
+            if tracked.returncode==0:
+                assert args.refresh_owned and expected.get(p)==sha(p),('refuse unverified tracked overwrite',p)
+            else:assert args.refresh_untracked,('refuse untracked overwrite',p)
             prior=path.read_bytes();backup=ROOT/'Temp'/'density51_preserved_first_generation'/f'{path.name}.{hashlib.sha256(prior).hexdigest()}'
             backup.parent.mkdir(parents=True,exist_ok=True)
             if not backup.exists():backup.write_bytes(prior)

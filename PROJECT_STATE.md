@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [현재51회차 정보 취득 순서 수리](design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.md): NCAA최종34GP/323분 선인지·PHI2–2에서G7확정·DEN진입전June20우승소비 3오류를 직접 발견·수리, MIA진입의정규종료입력 명확화. 13회차35날짜/시계 취득체크포인트·13핀/11반례 검사; 기존6반례/NLM첫세대 검토의 한계 기록. 원40기능/승패·수상·계약 보존, C01권고43/44/51 사용 가용은 계속 보류. 새AGY/NLM/Claude/독립0·최종N/ACTUAL/Pack/원고0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
+
 2026-10-12 [본편50회+후일담1회 배치 준비](design/THREEPEAT_51_EPISODE_DENSITY_ALLOCATION_2026_10_12.md): 원40기능을51행/51개별Blueprint 권고로 연결(13분할·4병합·2기존전이복원), Apr12_2022 MIA 진입/June6_2024 학습과June20 우승/2025 마지막21.6초 단일회차 보존. NLM 자기작성 첫세대source등록·인용구조답 회수, 3제안 Codex판정/수리·원문해시/동일source14인용 검산·6반례거부. NBA원전/독립검수·원고검수 아님. C01 권고43/44/51·정확개인상/최종N·ACTUAL 권위 미완료, Pack/원고0·새AGY/Claude/하위agent0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
 
 2026-10-12 [현재40기능 개별 장면 설계](design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.md): 9막/EPI40개 관찰·선택·전환·동료비용·상대정보 순서 준비, B FC012–022 직접공격/인정경쟁11개 연결. June6_2024 학습18초와June20 우승 분리·2025LM 득점 전 지식 역전 수리/반례5거부. 옛111/원캐논 보존·C01 FC031/032/040 보류·개인상NOT_USED. 최종N/ACTUAL Blueprint·Pack/원고0, 새AGY/NLM/Claude/독립0·정부명단/MMA 웹 재확인. 미완료4(6번까지3)·v0.30PARTIAL/CLOSED.
