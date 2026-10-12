@@ -1,5 +1,7 @@
 # Context Pack Protocol
 
+2026-10-12 [현재전체설계·정식제목최종승인](../canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json): First Rebound/9막+EPI/61실제Pack·G00T/G17승인완료,현행1–7완료·남은0. v0.30PARTIAL/설계·원고CLOSED·원고0유지. 아래미완료/후보/승인대기는이전생성세대의기록이다.
+
 2026-10-12 현행 입력: [1–6번 완료 영수증](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md) · [9막/61회 인덱스](../design/THREEPEAT_CURRENT_ACT_INDEX_2026_10_12.md) · [실제61 Pack manifest](../context-packs/threepeat-actual/manifest.json). 최종61/본편60+EPI1·42출구·G13/G14 현행범위완료. 미완료1(7번)/6번까지0. 아래14/42/780·Nnull·Pack0는 이전 설계/샘플 생성 세대의 이력이며 현재 승인 방향이나 원고가 아니다. 원고0·v0.30 PARTIAL/CLOSED.
 
 ## 이전 생성/검수 이력

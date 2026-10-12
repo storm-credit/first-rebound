@@ -22,8 +22,12 @@
 | 14 | Episode Function Map | 회차별 약속·전환·후크 | 삭제 가능한 회차 0 |
 | 15 | Context Pack Build | 회차별 최소 입력 묶음 | 활성 장치만 로드, 무결성 PASS |
 | 16 | Independent/Traction Review | 맹점·현실성·연재 견인력 | BLOCKER/HOLD 0 |
-| 17 | Gate Approval | 사용자 승인 | `DESIGN_GATE=OPEN` |
+| 17 | Final Design Approval | 현재 전체 설계의 사용자 명시 승인 | `AUTHOR_APPROVED_CURRENT_SELECTED_DESIGN`; 현재 작가 지시에 따라 설계·원고 `CLOSED` |
 
 ## 반복 루프
 
 각 단계는 `질문 → 중요한 결정의 4안 → 맹점 훑기 → 선택 → 문서 반영 → 독립 확인 → 상태 갱신`으로 닫는다. 이미 답한 질문은 다시 묻지 않고 다음 결정을 실제로 막는 정보만 수집한다.
+
+## 2026-10-12 최종 승인 운영 상태
+
+[작가 최종 승인](../canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json)은정식First Rebound(A)·현재전체설계의완료를승인하고v0.30PARTIAL/설계·원고CLOSED를유지한다. G17의설계승인과원고게이트개방은구분한다. 새로운명시적원고지시와그에따른별도OPEN반영전에는새원고/본문작성·출간/배포·일정등록을실행하지않는다. 이번완료로드맵에새단계를추가하거나이미승인된설계선택을다시묻지않는다.
