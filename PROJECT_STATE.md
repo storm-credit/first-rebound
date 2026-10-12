@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [한국 고교 첫 감독 인물 카드](canon/KOREAN_HIGH_SCHOOL_COACH_CHARACTER_CARD_2026_10_12.md): 체험 초대의 인과와 첫 훈련 관찰 기준을 기존 정본 기능 안에서 구체화했다. 1–4화의 기존 Pack과 함께 읽되 신체·공 반응 관찰에서 경험 확인·움직임 추가 관찰로 연결하고, 학생 시점에 감독의 내면을 자동 부여하지 않는다. 이름·정확한 경력·신분은 미정이다. 로컬 `C:/Users/Storm Credit/Desktop/Novel/thefristrebound/EP0001_draft.md`의 실제 초고를 읽었으나 이번에는 수정하거나 정본 원고로 승격하지 않았다. 이전의 원고0 기록은 당시 저장소 생성 세대다. 현재 1–7 설계 완료·남은 대분류0, 본문 수리 완료는 별도이며 v0.30 PARTIAL/CLOSED·일정0 유지. 이전 이름/승인 검수는 당시 상태 문서의 이력으로 보존한다.
+
 2026-10-12 [주인공 이름·별명 선택](canon/PROTAGONIST_NAME_AND_SIGNATURE_SELECTION_2026_10_12.md): 작가의 명시적인 “골라줘” 위임에 따라 **권태오 / Taeo Kwon · TKO(티케이오)**를 선택했다. 기존 Story Bible 이름 HOLD는 이 선택으로 해결한다. P/PROTAGONIST는 안정된 내부 ID로 유지하고 [61회 표시 이름 연결표](context-packs/THREEPEAT_CURRENT_PROTAGONIST_IDENTITY_BINDING_2026_10_12.json)를 기존 Pack과 함께 읽는다. TKO 첫 편집 위치는 기존 28화 외부평가 기능이며 모든 인물의 사전 지식이나 새 기사·계약을 확정하지 않는다. 현재 1–7 완료·남은 대분류 0, 원고 0·일정 0·CLOSED 유지. PR558의 승인 동기화 검수는 당시 상태 문서 생성 세대이며, 본 추가 선택은 별도 검수한다.
 
 2026-10-12 [최종 작가 승인](canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json): 새인간“네 제안대로진행”으로A정식제목First Rebound와현재전체설계G17승인. G15/G16·현재124핀·61Pack불변대조. **현행1–7모두완료/미완료대분류0/6번까지0/남은작가승인0.** 원고OPEN0·원고0·v0.30PARTIAL/설계·원고CLOSED·일정0. 아래G00T/HOLD·G17대기·미완료1/4는승인전이력이며현재진입조건이아니다.
