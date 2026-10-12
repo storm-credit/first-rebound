@@ -1,5 +1,9 @@
 # Design Gate
 
+2026-10-12 [현행1–6번 완료](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md): 2023금메달/체육요원 가상 사용 달력·61회 서사/접근·정확 Pack 입력의 실제 Codex 독립 수락 후, 최종61회/9막+EPI/42출구·실제Pack61개를 생성·재검증했다. 본편60+후일담1·NBA46/61(드래프트 제외)·미완료1(7번)/6번까지0. G13/G14 현행유한범위완료, G15/G16 전체 검문·G17 최종승인 잔여. 원고0·v0.30 PARTIAL/CLOSED. 아래 C01미선택/최종Nnull/Pack0/미완료4 표기는 이전 생성 세대의 이력이다.
+
+## 이전 작업 이력 — 현행 상태는 위 완료 영수증 우선
+
 2026-10-12 [B안 작업 모델 사용 선택 연결](../canon/EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12.md): 승인B/기존시즌위임으로292역할일·821영향행/12모델을원선택객체로발급,FC012–022/권고15–31의17회차와현재역사출구에직접연결. 기대입력≠실측박스/정확수상,2년차21–22범위·기존팀결과/계약·2023추가보너스0보존. 배치16핀·역사10핀/8반례 대조;B작업입력선택잔여해소,C01 FC031/032/040·현재독립수락/최종N/개별권위·Pack남음. 새AGY/NLM/Claude/독립0·원고/Pack0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
 
 2026-10-12 [다섯 약속 행위자·회차 소비 수리](../reviews/THREEPEAT_CURRENT_PROMISE_ACTOR_CONSUMPTION_2026_10_12.json): 다섯약속46역할연결을51개별Blueprint에직접반영, P3고개교환LM↔P/P5라이벌역량·응답분리·B자기공격유지·별도guest≠코치직. 기초성격/현행코트·후일담15핀과42출구/10단위/9연결 갱신·배치15/출구6반례거부. 이현중2026금메달/MMA34개월·544시간실제웹확인;2023추천은1–4년차보상아님/금메달·C01자동선택0. C01 3출구·현재독립수락/최종N/ACTUAL 권위·Pack남음. 새AGY/NLM/Claude/독립0·원고/Pack0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.
@@ -191,8 +195,8 @@ last_reviewed: 2026-09-12
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
 | G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
-| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CP2_14_ACT_42_SUBACT / VERIFIED_LOCAL_FUNCTIONS_60 / ROUTED_SUBACTS_42 / UNROUTED_0 / WHOLE_ACT_HISTORY_AND_FINAL_ALLOCATION_HOLD |
-| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | TWO_DESIGN_SAMPLES_REVIEWER_VS_CHARACTER_ACCESS_CHECKED_2026_10_01 / ACTUAL_EPISODE_PACKS_0 / FINAL_HOLD |
+| G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CURRENT_9_ACT_PLUS_EPI / 42_USED_EXITS / FINAL_61_ALLOCATION / CURRENT_FINITE_HISTORY_LOCKED; oldCP2birthpreserved |
+| G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | CURRENT_61_PRE_MANUSCRIPT_PACKS_CREATED_AND_INTEGRITY_CHECKED / CLOSED / MANUSCRIPT_FALSE; old2samplespreserved |
 | G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
 | G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
 | G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |

@@ -1,0 +1,463 @@
+{
+  "status": "ACTUAL_VERIFIED_CURRENT_CONTEXT_PACK",
+  "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "blueprint_source": {
+    "path": "design/THREEPEAT_CURRENT_ACTUAL_EPISODE_BLUEPRINTS.json",
+    "source_sha256": "bf883fc9ead9c5cbd23f0d60f192e86c91c31198b6d869b86fc117bc791a7325",
+    "json_pointer": "/episode_blueprints/35"
+  },
+  "blueprint": {
+    "unit_id": "M07",
+    "category": "NBA",
+    "function_ids": [
+      "FC026"
+    ],
+    "part": 1,
+    "parts": 2,
+    "title": "되돌아온 마지막 한 경기",
+    "timeline_window": "2023년4월25·27일PHI G5–6 종료 뒤",
+    "entry_state": "4월22일G4 종료 뒤CHI–PHI는2–2다. 원정G5가 눈앞에 있지만6·7차전의 승패나G7 개최는 아직 확정되지 않았다.",
+    "action_choice": "앞선 경기에서 한 행동·실패를 지고 다음 허용 역할을 수행한다.",
+    "durable_cost": "G5/G6의 기회를 이미 썼다. 이전2022패배는 환불되지 않는다.",
+    "state_change": "4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다.",
+    "source_refs": [
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/25"
+      },
+      {
+        "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+        "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+        "json_pointer": ""
+      },
+      {
+        "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+        "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+        "json_pointer": "/selected_CHI_series_preparation/0"
+      },
+      {
+        "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+        "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+        "json_pointer": ""
+      }
+    ],
+    "unresolved_used_dependencies": [],
+    "new_major_canon_choice": false,
+    "proposed_episode": 36,
+    "status": "ACTUAL_VERIFIED",
+    "personal_award_use_mode": "NOT_USED",
+    "next_entry_state": "G6 종료 뒤에만 현재 시리즈 상태를 알고G7에 들어간다.",
+    "editorial_directions_are_dialogue": false,
+    "named_acquisition_checkpoints": [
+      {
+        "order": 1,
+        "source_clock_label": "2023-04-22 PHI G4 completed",
+        "available_knowledge_limit": "2–2; G7개최 미확정",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 2,
+        "source_clock_label": "2023-04-25 PHI G5 completed",
+        "available_knowledge_limit": "3–2; G6·G7결과 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 3,
+        "source_clock_label": "2023-04-27 PHI G6 completed",
+        "available_knowledge_limit": "3–3; G7진입확정,승패 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      }
+    ],
+    "consequential_choice_ids": [],
+    "unit_question": "2–2에서 눈앞의 한 경기부터 수행할 수 있을까.",
+    "reader_question": "4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다. 이현재상태에서다음허용과제와동료부담을어떻게감당할것인가?",
+    "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
+    "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
+    "basketball_goal": "앞선 경기에서 한 행동·실패를 지고 다음 허용 역할을 수행한다.",
+    "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
+    "primary_devices": [
+      "OWN_CHOICE",
+      "COACTOR_COST"
+    ],
+    "setup_to_plant": "이번진입의남은부담만둘것;이회차에다섯약속을모두추가하지않음",
+    "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
+    "claims": [
+      {
+        "text": "4월22일Philadelphia G4종료 뒤 현재 시리즈가2–2임을 확인했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/35/entry_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "현재 2–2에서 눈앞의 원정 G5 역할부터 수행하려 한다. 앞 경기에서 실제로 본 행동과 실패를 다음 준비에 쓰되 뒤 경기의 결과는 전제하지 않는다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/35/plan_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "4월22일G4가 끝나 현재Philadelphia와2–2임을 알고 있다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/9"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "4월25일G5종료 뒤3–2임을 확인했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/10"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "4월27일G6종료 뒤3–3과G7진입을 확인했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/11"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "4월25일G5종료 뒤3–2,4월27일G6종료 뒤3–3을 확인했다. 그때 G7진입이 정해졌다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/35/end_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/25"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          },
+          {
+            "path": "simulation/THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_2026_10_09.json",
+            "source_sha256": "464236c8233e44641f38190749604649e6a9c4d384246f512918f13e4046e705",
+            "json_pointer": "/selected_CHI_series_preparation/0"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2023_FIRST_TITLE_USED_ROUTE_SELECTION_2026_10_09.json",
+            "source_sha256": "99951e749ed4847d2e2f22618ec6d15f882c64ed0fba2ebb7a49fca8db216299",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      }
+    ],
+    "promise_consumption": [],
+    "information_boundary": {
+      "status": "LOCKED_SELECTED_SCENE_ACCESS",
+      "pov_character": "PROTAGONIST",
+      "clock_basis": "2023년4월25·27일PHI G5–6 종료 뒤;진입·자기현재선택·날짜별사건후관측·종료관측을별도로취득",
+      "scene_segments": [
+        {
+          "segment_id": "ENTRY",
+          "scene_order": 1,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "회차진입;이미관찰/전달된직전상태",
+          "known_claim_indexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "scene_order": 2,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당수행전현재자기선택",
+          "known_claim_indexes": [
+            1
+          ]
+        },
+        {
+          "segment_id": "CP2_1",
+          "scene_order": 3,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2023-04-25 PHI G5 completed",
+          "known_claim_indexes": [
+            3
+          ]
+        },
+        {
+          "segment_id": "CP3_1",
+          "scene_order": 4,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2023-04-27 PHI G6 completed",
+          "known_claim_indexes": [
+            4
+          ]
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "scene_order": 5,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤",
+          "known_claim_indexes": [
+            5
+          ]
+        }
+      ],
+      "access_witnesses": [
+        {
+          "segment_id": "ENTRY",
+          "owner": "PROTAGONIST",
+          "scene_order": 1,
+          "acquired_order": 0,
+          "event_order": 0,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            0,
+            2
+          ],
+          "access_method": "본인이이전참여/담당안내로이미알게된상태: 4월22일Philadelphia G4종료 뒤 현재 시리즈가2–2임을 확인했다.",
+          "literal_when": "회차진입;이미관찰/전달된직전상태"
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "owner": "PROTAGONIST",
+          "scene_order": 2,
+          "acquired_order": 2,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            1
+          ],
+          "access_method": "현재자기선택: 현재 2–2에서 눈앞의 원정 G5 역할부터 수행하려 한다. 앞 경기에서 실제로 본 행동과 실패를 다음 준비에 쓰되 뒤 경기의 결과는 전제하지 않는다.",
+          "literal_when": "해당수행전현재자기선택"
+        },
+        {
+          "segment_id": "ENTRY",
+          "owner": "PROTAGONIST",
+          "scene_order": 1,
+          "acquired_order": 0,
+          "event_order": 0,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            2
+          ],
+          "literal_when": "2023-04-22 PHI G4 completed",
+          "access_method": "진입전에이미참여하거나본인에게전달된사항: 4월22일G4가 끝나 현재Philadelphia와2–2임을 알고 있다."
+        },
+        {
+          "segment_id": "CP2_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 3,
+          "acquired_order": 3,
+          "event_order": 3,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            3
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 4월25일G5종료 뒤3–2임을 확인했다.",
+          "literal_when": "2023-04-25 PHI G5 completed"
+        },
+        {
+          "segment_id": "CP3_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 4,
+          "acquired_order": 4,
+          "event_order": 4,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            4
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 4월27일G6종료 뒤3–3과G7진입을 확인했다.",
+          "literal_when": "2023-04-27 PHI G6 completed"
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "owner": "PROTAGONIST",
+          "scene_order": 5,
+          "acquired_order": 5,
+          "event_order": 5,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            5
+          ],
+          "access_method": "종료뒤직접관찰/자기수행·공개안내의한정결과: 4월25일G5종료 뒤3–2,4월27일G6종료 뒤3–3을 확인했다. 그때 G7진입이 정해졌다.",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤"
+        }
+      ],
+      "prose_access_verified": false,
+      "editorial_metadata_is_not_character_knowledge": true,
+      "clock_order_verified": true
+    },
+    "original_prepared_episode": 36,
+    "episode": 36,
+    "episode_function": "되돌아온 마지막 한 경기",
+    "consumed_exit_port_ids": [
+      "FC026"
+    ],
+    "exit_state_required": "4월25일G5 승리 뒤3–2,4월27일G6 패배 뒤3–3을 차례로 확인했다. 이제야4월29일G7에 진입한다.",
+    "entry_state_scope": "NONDIEGETIC_AUTHOR_BOUNDARY;ACTOR_USES_ONLY_SAFE_ENTRY_OBSERVATION",
+    "action_choice_scope": "NONDIEGETIC_AUTHOR_CHRONOLOGY_NOT_AN_ACTOR_CLAIM_OR_FUTURE_KNOWLEDGE",
+    "state_change_scope": "AUTHOR_OUTCOME_PLUS_EDITORIAL_GUARDS;ACTOR_USES_ONLY_SAFE_END_OBSERVATION",
+    "checkpoint_claim_consumption": [
+      {
+        "parent_checkpoint_order": 1,
+        "actual_segment_id": "ENTRY",
+        "claim_index": 2,
+        "literal_when": "2023-04-22 PHI G4 completed"
+      },
+      {
+        "parent_checkpoint_order": 2,
+        "actual_segment_id": "CP2_1",
+        "claim_index": 3,
+        "literal_when": "2023-04-25 PHI G5 completed"
+      },
+      {
+        "parent_checkpoint_order": 3,
+        "actual_segment_id": "CP3_1",
+        "claim_index": 4,
+        "literal_when": "2023-04-27 PHI G6 completed"
+      }
+    ],
+    "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+    "producer_id": "root_codex",
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "qualification_scope": "Independentlyaccepted current design/access; prose_NOT_REVIEWED."
+  }
+}

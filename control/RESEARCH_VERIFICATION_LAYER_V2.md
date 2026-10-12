@@ -1,5 +1,9 @@
 # Research/Verification Layer v2 — 기존 워크플로의 조사·검증 부속 절차
 
+2026-10-12 현행 입력: [1–6번 완료 영수증](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md) · [9막/61회 인덱스](../design/THREEPEAT_CURRENT_ACT_INDEX_2026_10_12.md) · [실제61 Pack manifest](../context-packs/threepeat-actual/manifest.json). 최종61/본편60+EPI1·42출구·G13/G14 현행범위완료. 미완료1(7번)/6번까지0. 아래14/42/780·Nnull·Pack0는 이전 설계/샘플 생성 세대의 이력이며 현재 승인 방향이나 원고가 아니다. 원고0·v0.30 PARTIAL/CLOSED. 이번 최종 수락은 C01 원자료/사용 달력 검문 → 서사·역할 비용/개별 정보 접근 검문 → 이전 결론 없이 정확 Pack 입력 검문으로 역할을 나눴다. 실제 Codex 독립3검문 영수증과 실패 수리 이력을 기록한다. AGY/NLM 추가실행·Claude·일정등록0; 도구 동의를 원전 인증으로 대신하지 않는다.
+
+## 이전 생성/검수 이력
+
 ## 2026-10-07 CLI 응답 회수 적용
 
 Antigravity stream 결과는 기존 `tools/parse_antigravity_stream.py`로 읽는다. `type`만 가정하는 임시 파서를 새로 만들지 않는다. 이번 임시 호출자의 형식 불일치·키워드 probe·수리 후 수집을 별도 기록했다. 답 회수, 공식 분류의 직접 원문 대조, 수집 도구 자체의 본문 바이트 인증, 모든 MCP 통신 성공은 각각 구분한다. 로그가 이미 폐기됐다면 빈 답이라고 추정 인증하지 않는다. NotebookLM은 동결 사본 SHA와 지정 source ID를 대조하고 파생 분석을 독립 원자료로 승격하지 않는다. [실제 적용 검문](../reviews/NOP_NAMED_FY22_JOIN_AND_A10_REVIEW_2026_10_07.md). 기존 역할·게이트를 바꾸지 않는다.

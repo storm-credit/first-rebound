@@ -1,5 +1,9 @@
 # Project State
 
+2026-10-12 [현행1–6번 완료](reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md): 2023금메달/체육요원 가상 사용 달력·61회 서사/접근·정확 Pack 입력의 실제 Codex 독립 수락 후, 최종61회/9막+EPI/42출구·실제Pack61개를 생성·재검증했다. 본편60+후일담1·NBA46/61(드래프트 제외)·미완료1(7번)/6번까지0. G13/G14 현행유한범위완료, G15/G16 전체 검문·G17 최종승인 잔여. 원고0·v0.30 PARTIAL/CLOSED. 아래 C01미선택/최종Nnull/Pack0/미완료4 표기는 이전 생성 세대의 이력이다.
+
+## 이전 작업 이력 — 현행 상태는 위 완료 영수증 우선
+
 2026-10-12 [Antigravity 회수·수집 진단](reviews/ANTIGRAVITY_NBA_OFFICIAL_READER_DIAGNOSTIC_2026_10_12.md): stream 최종답 회수 성공, 큰HTML 기사본문 실패를 실제artifact/HTTP로 구분; 작은공식API에서 올스타투표·선발·리저브 날짜3항목 회수/원문일치, 전체기사 미완료. [현재 종료조건 감사](reviews/CURRENT_MACRO4_7_COMPLETION_AUDIT_2026_10_12.md): B사용선택완료·C01미선택/현재독립수락/최종N·정책/권위4파일 부재·실제compiler종료2 확인. NLM/Claude/독립새실행0·새캐논0·원고/Pack0·미완료4(6번까지3)·v0.30PARTIAL/CLOSED.
 
 2026-10-12 [B안 작업 모델 사용 선택 연결](canon/EARLY_REWARD_B_USED_IMPLEMENTATION_SELECTION_2026_10_12.md): 승인B/기존시즌위임으로292역할일·821영향행/12모델을원선택객체로발급,FC012–022/권고15–31의17회차와현재역사출구에직접연결. 기대입력≠실측박스/정확수상,2년차21–22범위·기존팀결과/계약·2023추가보너스0보존. 배치16핀·역사10핀/8반례 대조;B작업입력선택잔여해소,C01 FC031/032/040·현재독립수락/최종N/개별권위·Pack남음. 새AGY/NLM/Claude/독립0·원고/Pack0·미완료4(6번까지3)·v0.30 PARTIAL/CLOSED.

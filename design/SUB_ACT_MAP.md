@@ -1,5 +1,9 @@
 # Sub-Act Map — CP2 42개 기능 단위
 
+2026-10-12 현행 입력: [1–6번 완료 영수증](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md) · [9막/61회 인덱스](../design/THREEPEAT_CURRENT_ACT_INDEX_2026_10_12.md) · [실제61 Pack manifest](../context-packs/threepeat-actual/manifest.json). 최종61/본편60+EPI1·42출구·G13/G14 현행범위완료. 미완료1(7번)/6번까지0. 아래14/42/780·Nnull·Pack0는 이전 설계/샘플 생성 세대의 이력이며 현재 승인 방향이나 원고가 아니다. 원고0·v0.30 PARTIAL/CLOSED.
+
+## 이전 생성/검수 이력
+
 2026-10-09 현행9막 안내 — 현재 구조는 [9막 출구 지도](THREEPEAT_NINE_ACT_HISTORY_AND_PACK_EXIT_MAP_2026_10_09.md)와 [현행 실행 정본](../canon/NBA_CAREER_CURRENT_EXECUTION_2026_10_08.md)을 따른다. 아래14막·42소막·780슬롯은 이전 설계 이력이며 현재 회차 수나 기존 본문이 아니다. 최신 main의 후행 삼연패 선택을 우선한다. 이 안내는 회차 배치·본문·Actual·Pack 완료를 새로 선언하지 않는다.
 
 - 상태: `PROVISIONAL_FUNCTION_PACKET / NOT_EPISODE_OUTLINE`.
