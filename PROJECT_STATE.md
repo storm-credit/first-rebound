@@ -1,5 +1,7 @@
 # Project State
 
+2026-10-12 [주인공 이름·별명 선택](canon/PROTAGONIST_NAME_AND_SIGNATURE_SELECTION_2026_10_12.md): 작가의 명시적인 “골라줘” 위임에 따라 **권태오 / Taeo Kwon · TKO(티케이오)**를 선택했다. 기존 Story Bible 이름 HOLD는 이 선택으로 해결한다. P/PROTAGONIST는 안정된 내부 ID로 유지하고 [61회 표시 이름 연결표](context-packs/THREEPEAT_CURRENT_PROTAGONIST_IDENTITY_BINDING_2026_10_12.json)를 기존 Pack과 함께 읽는다. TKO 첫 편집 위치는 기존 28화 외부평가 기능이며 모든 인물의 사전 지식이나 새 기사·계약을 확정하지 않는다. 현재 1–7 완료·남은 대분류 0, 원고 0·일정 0·CLOSED 유지. PR558의 승인 동기화 검수는 당시 상태 문서 생성 세대이며, 본 추가 선택은 별도 검수한다.
+
 2026-10-12 [최종 작가 승인](canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json): 새인간“네 제안대로진행”으로A정식제목First Rebound와현재전체설계G17승인. G15/G16·현재124핀·61Pack불변대조. **현행1–7모두완료/미완료대분류0/6번까지0/남은작가승인0.** 원고OPEN0·원고0·v0.30PARTIAL/설계·원고CLOSED·일정0. 아래G00T/HOLD·G17대기·미완료1/4는승인전이력이며현재진입조건이아니다.
 
 2026-10-12 [현재 전체 설계 검문 완료](control/THREEPEAT_CURRENT_FINAL_REVIEW_AND_GATE_DISPOSITION_2026_10_12.md): G15현행전체통합·G16현행전체독립PASS, Villanova지원인원누락16명/12counter가상가족·원2017규정/별도검문으로해결. 61Pack·기존사건/역할불변, 현재사용필수수리0. **1–6완료/잔여대분류1(7번의G17최종작가승인)/6번까지0/자동처리가능한설계수리0.** 이미승인된선택재승인아님·G17자동승인0·v0.30PARTIAL/설계·원고CLOSED·원고0·일정0. 아래G15/G16미완표시는이전생성세대이력.
