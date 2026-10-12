@@ -1,0 +1,256 @@
+{
+  "status": "ACTUAL_VERIFIED_CURRENT_CONTEXT_PACK",
+  "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "blueprint_source": {
+    "path": "design/THREEPEAT_CURRENT_ACTUAL_EPISODE_BLUEPRINTS.json",
+    "source_sha256": "bf883fc9ead9c5cbd23f0d60f192e86c91c31198b6d869b86fc117bc791a7325",
+    "json_pointer": "/episode_blueprints/2"
+  },
+  "blueprint": {
+    "unit_id": "M01",
+    "category": "PRE_NBA",
+    "function_ids": [
+      "FC003"
+    ],
+    "part": 1,
+    "parts": 1,
+    "title": "한 판을 더 하지 않는 날",
+    "timeline_window": "공 준비를 맡은 뒤 다음 허용 기회",
+    "entry_state": "한 동료가 하던 공 준비 일부를 맡았다.",
+    "action_choice": "다시 와 자기 몫을 하고 동료가 남은 몫만 하는 것을 본다. 뒤에는 PC방에서 한 판을 더 시작하지 않고 준비에 간다. 이번 한 번 공동 준비를 즉시 게임 재미보다 먼저 둔다.",
+    "durable_cost": "추가 한 판의 승부 기회를 쓰지 못한다.",
+    "state_change": "자기 행동이 동료 노동을 줄이는 한 사례가 남는다. 생활 전체의 완성은 아니다.",
+    "source_refs": [
+      {
+        "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+        "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+        "json_pointer": "/episode_rows/2"
+      },
+      {
+        "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+        "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+        "json_pointer": ""
+      }
+    ],
+    "unresolved_used_dependencies": [],
+    "new_major_canon_choice": false,
+    "proposed_episode": 3,
+    "status": "ACTUAL_VERIFIED",
+    "personal_award_use_mode": "NOT_USED",
+    "next_entry_state": "국내의 익숙한 승부와 신체 우위가 편하다.",
+    "editorial_directions_are_dialogue": false,
+    "consequential_choice_ids": [],
+    "unit_question": "지금 허용된 자기 선택이 동료의 역할·이미 쓴 비용을 남긴 채 무엇을 바꾸는가.",
+    "reader_question": "자기 행동이 동료 노동을 줄이는 한 사례가 남는다. 생활 전체의 완성은 아니다. 이현재상태에서다음허용과제와동료부담을어떻게감당할것인가?",
+    "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
+    "relationship_state": "동료·상대의 자기 판단을 남긴다. 사실로 확인되지 않은 속마음·비리를 추가하지 않는다.",
+    "basketball_goal": "다시 와 자기 몫을 하고 동료가 남은 몫만 하는 것을 본다. 뒤에는 PC방에서 한 판을 더 시작하지 않고 준비에 간다. 이번 한 번 공동 준비를 즉시 게임 재미보다 먼저 둔다.",
+    "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
+    "primary_devices": [
+      "OWN_CHOICE",
+      "COACTOR_COST"
+    ],
+    "setup_to_plant": "P2 plant_candidates: 서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+    "payoff_to_consume": "회수미배정;앞선자기참여/받은과제만현재선택에사용,미래성공·가짜회수추가0",
+    "claims": [
+      {
+        "text": "동료가 하던 공 준비의 일부를 자신이 맡았다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/2/entry_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/2"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "이번 공 준비에서 맡은 몫을 먼저 하려고 한다. 추가 게임 한 판을 시작하는 대신 정해진 준비에 가려 한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/2/plan_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/2"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자기 몫의 공 준비를 마친 뒤 동료가 남은 몫만 하는 것을 보았다. 추가 게임을 시작하지 않고 이번 준비에 참여했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/2/end_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_BY_2025_EPISODE_FUNCTION_COMPRESSION_2026_10_09.json",
+            "source_sha256": "3af1be0a0172b93cdd24b3299ef02ea0d2b0e6d0bcd9239ad36bcf134ef0af4b",
+            "json_pointer": "/episode_rows/2"
+          },
+          {
+            "path": "design/BASKETBALL_SCENE_RESEARCH_APPLICATION_2026_10_09.json",
+            "source_sha256": "b44110be9610d4ed6921f27ea779bbc478d285b10e3eeb97b2ed7c326596cc94",
+            "json_pointer": ""
+          }
+        ],
+        "requires_selected_choice_ids": []
+      }
+    ],
+    "promise_consumption": [
+      {
+        "actor_scope": [
+          "Protagonist",
+          "Minjun",
+          "David"
+        ],
+        "function": "서비스 종료 뒤 별도 guest의 시범에서 물러나 후배들의 자기 준비를 관측",
+        "payoff_window": "JUNE19_GUEST_OBSERVED_THEN_JUNE20_RETIREMENT",
+        "guard": "별도허가/동의·C01사용가용조건부;새코치직·고용·급여·후배미래직업을생성하지않음",
+        "source_refs": [
+          {
+            "path": "simulation/THREEPEAT_BRIEF_2035_EPILOGUE_CURRENT_SCOPE_JOIN_2026_10_09.json",
+            "source_sha256": "cdc39a07b1c645856af88e55d211ae3b1e8a3d97d64881044d2cb40374093cfd",
+            "json_pointer": "/ordered_epilogue_ports/2"
+          }
+        ],
+        "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+        "own_attack_retained": true,
+        "new_coach_employment_selected": false,
+        "promise_id": "P2",
+        "role": "plant_candidates",
+        "current_episode": 3,
+        "function_ids": [
+          "FC003"
+        ],
+        "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+        "conditional_used_dependencies": [],
+        "actual_prose_payoff_verified": false
+      }
+    ],
+    "information_boundary": {
+      "status": "LOCKED_SELECTED_SCENE_ACCESS",
+      "pov_character": "PROTAGONIST",
+      "clock_basis": "공 준비를 맡은 뒤 다음 허용 기회;진입·자기현재선택·날짜별사건후관측·종료관측을별도로취득",
+      "scene_segments": [
+        {
+          "segment_id": "ENTRY",
+          "scene_order": 1,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "회차진입;이미관찰/전달된직전상태",
+          "known_claim_indexes": [
+            0
+          ]
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "scene_order": 2,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당수행전현재자기선택",
+          "known_claim_indexes": [
+            1
+          ]
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "scene_order": 3,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤",
+          "known_claim_indexes": [
+            2
+          ]
+        }
+      ],
+      "access_witnesses": [
+        {
+          "segment_id": "ENTRY",
+          "owner": "PROTAGONIST",
+          "scene_order": 1,
+          "acquired_order": 0,
+          "event_order": 0,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            0
+          ],
+          "access_method": "본인이이전참여/담당안내로이미알게된상태: 동료가 하던 공 준비의 일부를 자신이 맡았다.",
+          "literal_when": "회차진입;이미관찰/전달된직전상태"
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "owner": "PROTAGONIST",
+          "scene_order": 2,
+          "acquired_order": 2,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            1
+          ],
+          "access_method": "현재자기선택: 이번 공 준비에서 맡은 몫을 먼저 하려고 한다. 추가 게임 한 판을 시작하는 대신 정해진 준비에 가려 한다.",
+          "literal_when": "해당수행전현재자기선택"
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "owner": "PROTAGONIST",
+          "scene_order": 3,
+          "acquired_order": 3,
+          "event_order": 3,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            2
+          ],
+          "access_method": "종료뒤직접관찰/자기수행·공개안내의한정결과: 자기 몫의 공 준비를 마친 뒤 동료가 남은 몫만 하는 것을 보았다. 추가 게임을 시작하지 않고 이번 준비에 참여했다.",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤"
+        }
+      ],
+      "prose_access_verified": false,
+      "editorial_metadata_is_not_character_knowledge": true,
+      "clock_order_verified": true
+    },
+    "original_prepared_episode": 3,
+    "episode": 3,
+    "episode_function": "한 판을 더 하지 않는 날",
+    "consumed_exit_port_ids": [
+      "FC003"
+    ],
+    "exit_state_required": "자기 행동이 동료 노동을 줄이는 한 사례가 남는다. 생활 전체의 완성은 아니다.",
+    "entry_state_scope": "NONDIEGETIC_AUTHOR_BOUNDARY;ACTOR_USES_ONLY_SAFE_ENTRY_OBSERVATION",
+    "action_choice_scope": "NONDIEGETIC_AUTHOR_CHRONOLOGY_NOT_AN_ACTOR_CLAIM_OR_FUTURE_KNOWLEDGE",
+    "state_change_scope": "AUTHOR_OUTCOME_PLUS_EDITORIAL_GUARDS;ACTOR_USES_ONLY_SAFE_END_OBSERVATION",
+    "checkpoint_claim_consumption": [],
+    "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+    "producer_id": "root_codex",
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "qualification_scope": "Independentlyaccepted current design/access; prose_NOT_REVIEWED."
+  }
+}

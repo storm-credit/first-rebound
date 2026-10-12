@@ -1,0 +1,100 @@
+{
+  "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+  "producer_id": "root_codex",
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "status": "LOCKED_CURRENT_PACK_SCOPE",
+  "active_unit_ids": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "EPI"
+  ],
+  "required_exit_port_ids": [
+    "FC001",
+    "FC002",
+    "FC003",
+    "FC004",
+    "FC005",
+    "FC006",
+    "FC007",
+    "FC008",
+    "FC009",
+    "FC010",
+    "FC011",
+    "FC012",
+    "FC013",
+    "FC014",
+    "FC015",
+    "FC016",
+    "FC017",
+    "FC018",
+    "FC019",
+    "FC020",
+    "FC021",
+    "FC022",
+    "FC023",
+    "FC024",
+    "FC025",
+    "FC026",
+    "FC027",
+    "FC028",
+    "FC029",
+    "FC030",
+    "FC031",
+    "FC032",
+    "FC033",
+    "FC034",
+    "CURRENT_2025_EAST_ENTRY",
+    "CURRENT_2025_G7_KNOWLEDGE_ENTRY",
+    "FC035",
+    "FC036",
+    "FC037",
+    "FC038",
+    "FC039",
+    "FC040"
+  ],
+  "selected_scope_ref": {
+    "path": "control/CURRENT_SELECTED_THREEPEAT_BY_2025_MAIN_STORY_SCOPE_2026_10_09.json",
+    "source_sha256": "941f3b170ba7f6140e354dccaca0c6865c9a4fcf95167f8a3d7e02a7c3614ab8",
+    "json_pointer": "/selected_design_targets"
+  },
+  "category_policy": {
+    "minimum_percent": 75,
+    "maximum_percent": 85,
+    "denominator": "ALL_FINAL_EPISODES",
+    "counted_categories": [
+      "NBA"
+    ],
+    "category_definitions": {
+      "NBA": "NBA입단후 경기·역할·계약·훈련과NBA참여를 직접 바꾸는 대표활동/병역비용이 중심인 회차.",
+      "NBA_DRAFT": "2018earlyentry/workout/draft와입단심사가중심인회차;NBA비율에세지않음.",
+      "PRE_NBA": "NBA입단전 입문·prep·NCAA 경기/학업/관계가중심인회차.",
+      "POST_NBA": "NBA서비스종료후 짧은2035guest/공개은퇴회차."
+    },
+    "selection_source_ref": {
+      "path": "canon/THREEPEAT_CURRENT_EPISODE_POLICY_SELECTION_2026_10_12.json",
+      "source_sha256": "1c8da4abc6442cd0178590ba48dd6ac165d2ac24be2b4b76a398301b2771178d",
+      "json_pointer": "/category_policy"
+    }
+  },
+  "consequential_choice_requirements": [
+    {
+      "choice_id": "C01_CALENDAR",
+      "kind": "CALENDAR_AVAILABILITY",
+      "use_mode": "USED"
+    },
+    {
+      "choice_id": "EARLY_REWARD_IMPLEMENTATION",
+      "kind": "EARLY_CAREER_REWARD",
+      "use_mode": "USED"
+    }
+  ]
+}

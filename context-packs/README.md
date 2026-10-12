@@ -1,5 +1,9 @@
 # Context Pack Protocol
 
+2026-10-12 현행 입력: [1–6번 완료 영수증](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md) · [9막/61회 인덱스](../design/THREEPEAT_CURRENT_ACT_INDEX_2026_10_12.md) · [실제61 Pack manifest](../context-packs/threepeat-actual/manifest.json). 최종61/본편60+EPI1·42출구·G13/G14 현행범위완료. 미완료1(7번)/6번까지0. 아래14/42/780·Nnull·Pack0는 이전 설계/샘플 생성 세대의 이력이며 현재 승인 방향이나 원고가 아니다. 원고0·v0.30 PARTIAL/CLOSED.
+
+## 이전 생성/검수 이력
+
 2026-09-30 [D1 S2 선택](../canon/CHICAGO_2020_21_D1_S2_STANDARD_DECISION.json)과 [운영 규칙](../control/CHICAGO_2020_21_D1_S2_PROTOCOL.md)을 설계 샘플 출처/해시에 연결한다. 검증 기준의 변경이며 allowed_facts·개별 건강·시즌의 승격이 아니다. 실제 회차 Pack0·설계/원고 CLOSED.
 
 Context Pack은 회차 작업에 필요한 최소 문맥을 모은 **파생 산출물**이다. 정본이 아니며, 캐논을 몰래 변경할 수 없다. 설계/원고 게이트가 `CLOSED`인 동안에는 원고 작성과 실제 Pack의 집필 입력 사용을 금지한다. 다만 아래 생성 선행조건을 충족하면 G14의 **집필 전 생성·무결성 검증**을 위해 실제 회차 Pack을 만들 수 있다. 이때도 게이트 `CLOSED`와 `manuscript_allowed:false`를 유지한다. Pack 생성·검증을 집필 허가로 읽지 않는다.

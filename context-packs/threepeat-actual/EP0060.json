@@ -1,0 +1,2645 @@
+{
+  "status": "ACTUAL_VERIFIED_CURRENT_CONTEXT_PACK",
+  "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+  "manuscript_allowed": false,
+  "design_gate": "CLOSED",
+  "freeze": "v0.30 PARTIAL",
+  "blueprint_source": {
+    "path": "design/THREEPEAT_CURRENT_ACTUAL_EPISODE_BLUEPRINTS.json",
+    "source_sha256": "bf883fc9ead9c5cbd23f0d60f192e86c91c31198b6d869b86fc117bc791a7325",
+    "json_pointer": "/episode_blueprints/59"
+  },
+  "blueprint": {
+    "unit_id": "M09",
+    "category": "NBA",
+    "function_ids": [
+      "FC035",
+      "FC036",
+      "FC037",
+      "FC038",
+      "FC039"
+    ],
+    "title": "마지막 공을 동료가 끝내다",
+    "timeline_window": "2025년6월22일G7 MIN점유23.6초→CHI리바운드21.6초→릴리스0.2→혼·검토·공개 종료",
+    "entry_state": "현재CHI108–109MIN, 남은23.6초는MIN Rival의공/샷클록2.6이다. P는드리블과Towns접근만본다. 슛실패·CHI리바운드·마지막수신자·승리는아직모른다.",
+    "action_choice": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
+    "durable_cost": "P의 최종 슛·통제권 포기, LM의독립 슛 책임, LV/Mark/Carter의 무볼·박스아웃·중간소유 비용을 각각 남긴다.",
+    "state_change": "LM유효2점의검토 뒤공개CHI110–109MIN/시리즈4–3/삼연패. P결승득점0·새개인상0.",
+    "source_refs": [
+      {
+        "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+        "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+        "json_pointer": "/individual_function_designs/34"
+      },
+      {
+        "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+        "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+        "json_pointer": "/individual_function_designs/35"
+      },
+      {
+        "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+        "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+        "json_pointer": "/individual_function_designs/36"
+      },
+      {
+        "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+        "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+        "json_pointer": "/individual_function_designs/37"
+      },
+      {
+        "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+        "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+        "json_pointer": "/individual_function_designs/38"
+      },
+      {
+        "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+        "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+        "json_pointer": "/selected_2025_last_attack"
+      },
+      {
+        "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+        "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+        "json_pointer": "/individual_choices_and_visible_costs"
+      }
+    ],
+    "unresolved_used_dependencies": [],
+    "new_major_canon_choice": false,
+    "actor_cost_separation": {
+      "P": "최종 직접 슛과 통제권을 넘긴다. LM의 성공을 사전에 알지 못한다.",
+      "LM": "독립적으로 읽고 릴리스하며 자기 슛의 성공·실패 책임을 진다.",
+      "LV_Mark_Carter": "선택된 무볼·박스아웃·중간 소유 비용을 유지한다. 마지막 득점자로 바꾸지 않는다."
+    },
+    "proposed_episode": 60,
+    "status": "ACTUAL_VERIFIED",
+    "personal_award_use_mode": "NOT_USED",
+    "next_entry_state": "Jun18NBA서비스종료 통지를본뒤, 별도로허용된Jun19guest준비에 들어간다. 본인은현재의무·미국체류상태통지범위만안다.",
+    "editorial_directions_are_dialogue": false,
+    "named_acquisition_checkpoints": [
+      {
+        "order": 1,
+        "source_clock_label": "2025-06-22 remaining23.6 MIN possession",
+        "available_knowledge_limit": "Rival의공·드리블/Towns접근·샷클록2.6만; 미래미스·CHI획득 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 2,
+        "source_clock_label": "2025-06-22 remaining22.7 Rival release",
+        "available_knowledge_limit": "릴리스와골대쪽공/동료박스아웃; 아직슛실패 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 3,
+        "source_clock_label": "2025-06-22 remaining22.0 rim miss",
+        "available_knowledge_limit": "림에맞아튀는공; 아직CHI수비리바운드확보 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 4,
+        "source_clock_label": "2025-06-22 remaining21.6 rebound",
+        "available_knowledge_limit": "CHI108–109MIN·P수비리바운드·SCoff",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 5,
+        "source_clock_label": "2025-06-22 remaining16.6 frontcourt",
+        "available_knowledge_limit": "실제전진·보이는수비·닫힌직접공격만",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 6,
+        "source_clock_label": "2025-06-22 firstfeed return reentry finalpass",
+        "available_knowledge_limit": "LM첫수신/Carter반환/P재참여/최종이양의현재관찰; 정확중간초 새로 부여하지 않음",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 7,
+        "source_clock_label": "2025-06-22 remaining0.2 release",
+        "available_knowledge_limit": "LM자기릴리스 관찰; 유효2점·최종승리 미확정",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 8,
+        "source_clock_label": "2025-06-22 horn and valid-shot review completed",
+        "available_knowledge_limit": "유효2점/추가시간없음의선택가상판정 뒤에만110–109·4–3·삼연패확인",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      },
+      {
+        "order": 9,
+        "source_clock_label": "2025-06-22 public end and visible nod",
+        "available_knowledge_limit": "상호보이는고개행동만; 동료의속마음·미래보증 미취득",
+        "status": "SOURCE_JOINED_ACCESS_DESIGN_NOT_ACTUAL_RECEIPT"
+      }
+    ],
+    "consequential_choice_ids": [],
+    "unit_question": "자기 공격 능력이 있어도 성공을 보장할 수 없는 마지막 공을 넘길 수 있을까.",
+    "reader_question": "LM유효2점의검토 뒤공개CHI110–109MIN/시리즈4–3/삼연패. P결승득점0·새개인상0. 이현재상태에서다음허용과제와동료부담을어떻게감당할것인가?",
+    "physical_state": "기존 선택된 가용 조건만 사용; 새 부상·피로·진단·의료 판정 추가0",
+    "relationship_state": "P와LM은독립이양/슛의책임을남기고공개종료뒤작은고개를주고받는다. Rival은끝까지유효한수비자이며그고개교환의참여자가아니다. 새화해·타인내면인정0.",
+    "basketball_goal": "현재라이벌릴리스와보이는리바운드길에대응한다. 미스를본뒤공을확보한주가지에서만전진·닫힌직접공격·첫이양·반환·재참여·최종이양을잇는다. P는자기이양을선택하며LM의슛선택과성공을미리알거나보장하지않는다.",
+    "forbidden_changes": "승패·지명·UPC·계약·수상·사용달력의 미선택 또는 다른 세대를 자동 변경하지 않는다.",
+    "primary_devices": [
+      "OWN_CHOICE",
+      "COACTOR_COST"
+    ],
+    "setup_to_plant": "P1 variation_candidates: 자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+    "payoff_to_consume": "P1: PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW / 현재이양이평생자기공격포기나자기결승득점으로바뀌지않음 / P3: PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW / 공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님 / P5: RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT / LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+    "claims": [
+      {
+        "text": "현재CHI108–109MIN의공개점수와남은23.6초·Minnesota라이벌의점유·샷클록2.6을 보고 있다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/entry_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "Minnesota가 공을 가진 현재에는 릴리스와 리바운드 길에 대응하려 한다. 공을 확보하는 경우에만 보이는 전진 길을 고르고, 직접 공격이 닫히거나 동료에게 더 나은 창이 보이면 넘긴 뒤 무볼로 재참여하려 한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/plan_text"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "남은23.6초에Minnesota라이벌이공을가지고샷클록2.6이며Towns가접근하는현재외형을 본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/27"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "남은22.7초에라이벌이릴리스한공과동료의박스아웃을 본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/28"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "남은22.0초에공이림에맞아튀는것을 직접 본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/29"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "남은21.6초에자신이수비리바운드를확보했고현재CHI108–109MIN이며샷클록표시가꺼진것을 확인한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/30"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "확보한 공을 현재 보이는 전진 길로 옮기고 닫힌 직접 공격에서는 동료에게 연결하려 한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/follow_on_own_intentions/0"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "남은16.6초에자신이전방으로진입했고현재직접공격길이닫힌외형을 본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/31"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자신이LaMelo에게첫패스를릴리스했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo가첫패스를받은외형을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo가자신에게공을반환하는것을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자신이반환된공을잡았다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자신이Carter에게이양했다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "Carter가공을받은것을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "Carter가공을가진동안무볼재참여를준비하고, 다시공을받게되면그때보이는압박과수신창을다시읽으려한다. 반환성공을미리알지는않는다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/follow_on_own_intentions/1"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "공없이현재닫힌경로에서다시참여하려움직인다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "Carter가자신에게공을반환하는것을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자신이공을다시잡았다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo의현재재배치위치를본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "보이는 LaMelo 수신 창에 최종 공을 넘기고 남은 무볼 책임을 맡으려 한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "CURRENT_PLAN",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/follow_on_own_intentions/2"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "자신이현재LaMelo에게마지막공을넘긴다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo가공을받은것을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo의드리블을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "드리블공이돌아오는외형을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo의수집동작을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "수집뒤두걸음이순서대로일어나는외형을본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/32"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo의릴리스동작을직접본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/33"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "혼뒤유효2점·추가시간없음의공개검토가끝난뒤110–109와시리즈4–3을 확인한다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "공개종료뒤LaMelo가자신을향해고개를주고받는외형을 본다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/checkpoint_stage_map/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      },
+      {
+        "text": "LaMelo의릴리스를 본뒤혼이울리고공개검토가유효2점·추가시간없음을확인했다. 공개CHI110–109MIN과시리즈4–3이 확정됐고LaMelo와서로고개를주고받았다.",
+        "status": "AUTHOR_MODELED_DESIGN",
+        "temporal_kind": "OBSERVED_EVENT",
+        "source_refs": [
+          {
+            "path": "design/THREEPEAT_CURRENT_SCENE_ACCESS_SELECTION_2026_10_12.json",
+            "source_sha256": "eac1bec959604d36aa69665c26d93e906e1eb9fa590ee3bad0601ec43918344f",
+            "json_pointer": "/rows/59/end_observation_text"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/34"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/35"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/36"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/37"
+          },
+          {
+            "path": "design/THREEPEAT_CURRENT_40_FUNCTION_SCENE_BLUEPRINTS_2026_10_12.json",
+            "source_sha256": "9a1d5a03b998c73201ab58f0fa375b4f1981c6e38e0abb2b84d81eaefb13819c",
+            "json_pointer": "/individual_function_designs/38"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs"
+          }
+        ],
+        "requires_selected_choice_ids": []
+      }
+    ],
+    "promise_consumption": [
+      {
+        "actor_scope": [
+          "Protagonist",
+          "LaMelo Ball"
+        ],
+        "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+        "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+        "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+        "source_refs": [
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs/0"
+          }
+        ],
+        "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+        "own_attack_retained": true,
+        "new_coach_employment_selected": false,
+        "promise_id": "P1",
+        "role": "variation_candidates",
+        "current_episode": 60,
+        "function_ids": [
+          "FC038"
+        ],
+        "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+        "conditional_used_dependencies": [],
+        "actual_prose_payoff_verified": false
+      },
+      {
+        "actor_scope": [
+          "Protagonist",
+          "LaMelo Ball"
+        ],
+        "function": "자기 공격 능력을 가진 채 현재 더 유리한 동료에게 넘기고 결과 통제권을 내려놓음",
+        "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+        "guard": "현재이양이평생자기공격포기나자기결승득점으로바뀌지않음",
+        "source_refs": [
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs/0"
+          }
+        ],
+        "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+        "own_attack_retained": true,
+        "new_coach_employment_selected": false,
+        "promise_id": "P1",
+        "role": "payoff_candidates",
+        "current_episode": 60,
+        "function_ids": [
+          "FC039"
+        ],
+        "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+        "conditional_used_dependencies": [],
+        "actual_prose_payoff_verified": false
+      },
+      {
+        "actor_scope": [
+          "Protagonist",
+          "LaMelo Ball"
+        ],
+        "function": "LM의 독립 판단/슛 책임과 P의 이양 책임이 함께 남는 관계",
+        "payoff_window": "PUBLIC_VALID_END_AFTER_LM_RELEASE_REVIEW",
+        "guard": "공개종료뒤작은고개교환은LM↔P;Rival교환이나모든내면의신뢰증서가아님",
+        "acknowledgment_participants": [
+          "LaMelo Ball",
+          "Protagonist"
+        ],
+        "source_refs": [
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/last_attack_candidate/after_horn_actions/3"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+        "own_attack_retained": true,
+        "new_coach_employment_selected": false,
+        "promise_id": "P3",
+        "role": "payoff_candidates",
+        "current_episode": 60,
+        "function_ids": [
+          "FC039"
+        ],
+        "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+        "conditional_used_dependencies": [],
+        "actual_prose_payoff_verified": false
+      },
+      {
+        "actor_scope": [
+          "Protagonist",
+          "Fictional Rival"
+        ],
+        "function": "Rival의 유효한 공격과 회복수비를 남기고 P가 그 압박에서 직접종료를 고집하지 않는 방식으로 다른 능력을 존중",
+        "payoff_window": "RIVAL_CURRENT_COMPETENCE_AND_P_RESPONSE_THEN_PUBLIC_OUTCOME_CONTEXT",
+        "guard": "LM↔P고개교환을Rival화해로쓰지않음;Rival패배가무능증거가아니며새악의/내면인정/화해사건0",
+        "acknowledgment_participants": [],
+        "source_refs": [
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/individual_choices_and_visible_costs/5"
+          },
+          {
+            "path": "simulation/THREEPEAT_2025_SHARED_FINAL_COURT_AND_LAST_ATTACK_PREPARATION_2026_10_09.json",
+            "source_sha256": "8cce1e1e017b9c32787034ec864f615b415a5c7f81f7c1bcaf02337149fffe2c",
+            "json_pointer": "/last_attack_candidate/live_events"
+          },
+          {
+            "path": "canon/DELEGATED_THREEPEAT_2024_25_USED_ROUTES_AND_FINAL_COURTS_SELECTION_2026_10_09.json",
+            "source_sha256": "98b82f1349df59d01f64fc471b17297cd459893f787a680f1194ee74e27add8b",
+            "json_pointer": "/selected_2025_last_attack"
+          }
+        ],
+        "status": "SOURCE_JOINED_FUNCTION_APPLICATION_NOT_PROSE_PAYOFF_ACCEPTANCE",
+        "own_attack_retained": true,
+        "new_coach_employment_selected": false,
+        "promise_id": "P5",
+        "role": "payoff_candidates",
+        "current_episode": 60,
+        "function_ids": [
+          "FC036",
+          "FC039"
+        ],
+        "information_gate": "해당현재장면에서직접보거나받은사실만.후속득점/공개판정/기관승인/타인속마음선취득0",
+        "conditional_used_dependencies": [],
+        "actual_prose_payoff_verified": false
+      }
+    ],
+    "information_boundary": {
+      "status": "LOCKED_SELECTED_SCENE_ACCESS",
+      "pov_character": "PROTAGONIST",
+      "clock_basis": "2025년6월22일G7 MIN점유23.6초→CHI리바운드21.6초→릴리스0.2→혼·검토·공개 종료;진입·자기현재선택·날짜별사건후관측·종료관측을별도로취득",
+      "scene_segments": [
+        {
+          "segment_id": "ENTRY",
+          "scene_order": 1,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "회차진입;이미관찰/전달된직전상태",
+          "known_claim_indexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "scene_order": 2,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당수행전현재자기선택",
+          "known_claim_indexes": [
+            1
+          ]
+        },
+        {
+          "segment_id": "CP2_1",
+          "scene_order": 3,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 remaining22.7 Rival release",
+          "known_claim_indexes": [
+            3
+          ]
+        },
+        {
+          "segment_id": "CP3_1",
+          "scene_order": 4,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 remaining22.0 rim miss",
+          "known_claim_indexes": [
+            4
+          ]
+        },
+        {
+          "segment_id": "CP4_1",
+          "scene_order": 5,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 remaining21.6 rebound",
+          "known_claim_indexes": [
+            5
+          ]
+        },
+        {
+          "segment_id": "FOLLOW_ON_1",
+          "scene_order": 6,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "After observed Rim miss then actual21.6 defensive control",
+          "known_claim_indexes": [
+            6
+          ]
+        },
+        {
+          "segment_id": "CP5_1",
+          "scene_order": 7,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 remaining16.6 frontcourt",
+          "known_claim_indexes": [
+            7
+          ]
+        },
+        {
+          "segment_id": "CP6_1",
+          "scene_order": 8,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining16.1",
+          "known_claim_indexes": [
+            8
+          ]
+        },
+        {
+          "segment_id": "CP6_2",
+          "scene_order": 9,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining15.6",
+          "known_claim_indexes": [
+            9
+          ]
+        },
+        {
+          "segment_id": "CP6_3",
+          "scene_order": 10,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining12.8",
+          "known_claim_indexes": [
+            10
+          ]
+        },
+        {
+          "segment_id": "CP6_4",
+          "scene_order": 11,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining12.5",
+          "known_claim_indexes": [
+            11
+          ]
+        },
+        {
+          "segment_id": "CP6_5",
+          "scene_order": 12,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining11.9",
+          "known_claim_indexes": [
+            12
+          ]
+        },
+        {
+          "segment_id": "CP6_6",
+          "scene_order": 13,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining11.5",
+          "known_claim_indexes": [
+            13
+          ]
+        },
+        {
+          "segment_id": "FOLLOW_ON_2",
+          "scene_order": 14,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "After observedLMfirstreceive/return andCartersecureintermediatecontrol",
+          "known_claim_indexes": [
+            14
+          ]
+        },
+        {
+          "segment_id": "CP6_7",
+          "scene_order": 15,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining9.6",
+          "known_claim_indexes": [
+            15
+          ]
+        },
+        {
+          "segment_id": "CP6_8",
+          "scene_order": 16,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining9.0",
+          "known_claim_indexes": [
+            16
+          ]
+        },
+        {
+          "segment_id": "CP6_9",
+          "scene_order": 17,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining8.6",
+          "known_claim_indexes": [
+            17
+          ]
+        },
+        {
+          "segment_id": "CP6_10",
+          "scene_order": 18,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining4.4",
+          "known_claim_indexes": [
+            18
+          ]
+        },
+        {
+          "segment_id": "FOLLOW_ON_3",
+          "scene_order": 19,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "After visibleLMrelocation4.4 andcurrentpressure, beforeown2.6pass",
+          "known_claim_indexes": [
+            19
+          ]
+        },
+        {
+          "segment_id": "CP6_11",
+          "scene_order": 20,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining2.6",
+          "known_claim_indexes": [
+            20
+          ]
+        },
+        {
+          "segment_id": "CP6_12",
+          "scene_order": 21,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining2.0",
+          "known_claim_indexes": [
+            21
+          ]
+        },
+        {
+          "segment_id": "CP6_13",
+          "scene_order": 22,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining1.3",
+          "known_claim_indexes": [
+            22
+          ]
+        },
+        {
+          "segment_id": "CP6_14",
+          "scene_order": 23,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining1.0",
+          "known_claim_indexes": [
+            23
+          ]
+        },
+        {
+          "segment_id": "CP6_15",
+          "scene_order": 24,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining0.8",
+          "known_claim_indexes": [
+            24
+          ]
+        },
+        {
+          "segment_id": "CP6_16",
+          "scene_order": 25,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025Jun22remaining0.6/0.4",
+          "known_claim_indexes": [
+            25
+          ]
+        },
+        {
+          "segment_id": "CP7_1",
+          "scene_order": 26,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 remaining0.2 release",
+          "known_claim_indexes": [
+            26
+          ]
+        },
+        {
+          "segment_id": "CP8_1",
+          "scene_order": 27,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 horn and valid-shot review completed",
+          "known_claim_indexes": [
+            27
+          ]
+        },
+        {
+          "segment_id": "CP9_1",
+          "scene_order": 28,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "2025-06-22 public end and visible nod",
+          "known_claim_indexes": [
+            28
+          ]
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "scene_order": 29,
+          "pov_character": "PROTAGONIST",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤",
+          "known_claim_indexes": [
+            29
+          ]
+        }
+      ],
+      "access_witnesses": [
+        {
+          "segment_id": "ENTRY",
+          "owner": "PROTAGONIST",
+          "scene_order": 1,
+          "acquired_order": 0,
+          "event_order": 0,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            0,
+            2
+          ],
+          "access_method": "본인이이전참여/담당안내로이미알게된상태: 현재CHI108–109MIN의공개점수와남은23.6초·Minnesota라이벌의점유·샷클록2.6을 보고 있다.",
+          "literal_when": "회차진입;이미관찰/전달된직전상태"
+        },
+        {
+          "segment_id": "OWN_INTENTION",
+          "owner": "PROTAGONIST",
+          "scene_order": 2,
+          "acquired_order": 2,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            1
+          ],
+          "access_method": "현재자기선택: Minnesota가 공을 가진 현재에는 릴리스와 리바운드 길에 대응하려 한다. 공을 확보하는 경우에만 보이는 전진 길을 고르고, 직접 공격이 닫히거나 동료에게 더 나은 창이 보이면 넘긴 뒤 무볼로 재참여하려 한다.",
+          "literal_when": "해당수행전현재자기선택"
+        },
+        {
+          "segment_id": "ENTRY",
+          "owner": "PROTAGONIST",
+          "scene_order": 1,
+          "acquired_order": 0,
+          "event_order": 0,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            2
+          ],
+          "literal_when": "2025-06-22 remaining23.6 MIN possession",
+          "access_method": "진입전에이미참여하거나본인에게전달된사항: 남은23.6초에Minnesota라이벌이공을가지고샷클록2.6이며Towns가접근하는현재외형을 본다."
+        },
+        {
+          "segment_id": "CP2_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 3,
+          "acquired_order": 3,
+          "event_order": 3,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            3
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 남은22.7초에라이벌이릴리스한공과동료의박스아웃을 본다.",
+          "literal_when": "2025-06-22 remaining22.7 Rival release"
+        },
+        {
+          "segment_id": "CP3_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 4,
+          "acquired_order": 4,
+          "event_order": 4,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            4
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 남은22.0초에공이림에맞아튀는것을 직접 본다.",
+          "literal_when": "2025-06-22 remaining22.0 rim miss"
+        },
+        {
+          "segment_id": "CP4_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 5,
+          "acquired_order": 5,
+          "event_order": 5,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            5
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 남은21.6초에자신이수비리바운드를확보했고현재CHI108–109MIN이며샷클록표시가꺼진것을 확인한다.",
+          "literal_when": "2025-06-22 remaining21.6 rebound"
+        },
+        {
+          "segment_id": "FOLLOW_ON_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 6,
+          "acquired_order": 6,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            6
+          ],
+          "access_method": "앞관측을받은뒤현재자기계획: 확보한 공을 현재 보이는 전진 길로 옮기고 닫힌 직접 공격에서는 동료에게 연결하려 한다.",
+          "literal_when": "After observed Rim miss then actual21.6 defensive control"
+        },
+        {
+          "segment_id": "CP5_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 7,
+          "acquired_order": 7,
+          "event_order": 7,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            7
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 남은16.6초에자신이전방으로진입했고현재직접공격길이닫힌외형을 본다.",
+          "literal_when": "2025-06-22 remaining16.6 frontcourt"
+        },
+        {
+          "segment_id": "CP6_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 8,
+          "acquired_order": 8,
+          "event_order": 8,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            8
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 자신이LaMelo에게첫패스를릴리스했다.",
+          "literal_when": "2025Jun22remaining16.1"
+        },
+        {
+          "segment_id": "CP6_2",
+          "owner": "PROTAGONIST",
+          "scene_order": 9,
+          "acquired_order": 9,
+          "event_order": 9,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            9
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo가첫패스를받은외형을본다.",
+          "literal_when": "2025Jun22remaining15.6"
+        },
+        {
+          "segment_id": "CP6_3",
+          "owner": "PROTAGONIST",
+          "scene_order": 10,
+          "acquired_order": 10,
+          "event_order": 10,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            10
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo가자신에게공을반환하는것을본다.",
+          "literal_when": "2025Jun22remaining12.8"
+        },
+        {
+          "segment_id": "CP6_4",
+          "owner": "PROTAGONIST",
+          "scene_order": 11,
+          "acquired_order": 11,
+          "event_order": 11,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            11
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 자신이반환된공을잡았다.",
+          "literal_when": "2025Jun22remaining12.5"
+        },
+        {
+          "segment_id": "CP6_5",
+          "owner": "PROTAGONIST",
+          "scene_order": 12,
+          "acquired_order": 12,
+          "event_order": 12,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            12
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 자신이Carter에게이양했다.",
+          "literal_when": "2025Jun22remaining11.9"
+        },
+        {
+          "segment_id": "CP6_6",
+          "owner": "PROTAGONIST",
+          "scene_order": 13,
+          "acquired_order": 13,
+          "event_order": 13,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            13
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: Carter가공을받은것을본다.",
+          "literal_when": "2025Jun22remaining11.5"
+        },
+        {
+          "segment_id": "FOLLOW_ON_2",
+          "owner": "PROTAGONIST",
+          "scene_order": 14,
+          "acquired_order": 14,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            14
+          ],
+          "access_method": "앞관측을받은뒤현재자기계획: Carter가공을가진동안무볼재참여를준비하고, 다시공을받게되면그때보이는압박과수신창을다시읽으려한다. 반환성공을미리알지는않는다.",
+          "literal_when": "After observedLMfirstreceive/return andCartersecureintermediatecontrol"
+        },
+        {
+          "segment_id": "CP6_7",
+          "owner": "PROTAGONIST",
+          "scene_order": 15,
+          "acquired_order": 15,
+          "event_order": 15,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            15
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 공없이현재닫힌경로에서다시참여하려움직인다.",
+          "literal_when": "2025Jun22remaining9.6"
+        },
+        {
+          "segment_id": "CP6_8",
+          "owner": "PROTAGONIST",
+          "scene_order": 16,
+          "acquired_order": 16,
+          "event_order": 16,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            16
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: Carter가자신에게공을반환하는것을본다.",
+          "literal_when": "2025Jun22remaining9.0"
+        },
+        {
+          "segment_id": "CP6_9",
+          "owner": "PROTAGONIST",
+          "scene_order": 17,
+          "acquired_order": 17,
+          "event_order": 17,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            17
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 자신이공을다시잡았다.",
+          "literal_when": "2025Jun22remaining8.6"
+        },
+        {
+          "segment_id": "CP6_10",
+          "owner": "PROTAGONIST",
+          "scene_order": 18,
+          "acquired_order": 18,
+          "event_order": 18,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            18
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo의현재재배치위치를본다.",
+          "literal_when": "2025Jun22remaining4.4"
+        },
+        {
+          "segment_id": "FOLLOW_ON_3",
+          "owner": "PROTAGONIST",
+          "scene_order": 19,
+          "acquired_order": 19,
+          "event_order": null,
+          "knowledge_kind": "CURRENT_PLAN",
+          "claim_indexes": [
+            19
+          ],
+          "access_method": "앞관측을받은뒤현재자기계획: 보이는 LaMelo 수신 창에 최종 공을 넘기고 남은 무볼 책임을 맡으려 한다.",
+          "literal_when": "After visibleLMrelocation4.4 andcurrentpressure, beforeown2.6pass"
+        },
+        {
+          "segment_id": "CP6_11",
+          "owner": "PROTAGONIST",
+          "scene_order": 20,
+          "acquired_order": 20,
+          "event_order": 20,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            20
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 자신이현재LaMelo에게마지막공을넘긴다.",
+          "literal_when": "2025Jun22remaining2.6"
+        },
+        {
+          "segment_id": "CP6_12",
+          "owner": "PROTAGONIST",
+          "scene_order": 21,
+          "acquired_order": 21,
+          "event_order": 21,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            21
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo가공을받은것을본다.",
+          "literal_when": "2025Jun22remaining2.0"
+        },
+        {
+          "segment_id": "CP6_13",
+          "owner": "PROTAGONIST",
+          "scene_order": 22,
+          "acquired_order": 22,
+          "event_order": 22,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            22
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo의드리블을본다.",
+          "literal_when": "2025Jun22remaining1.3"
+        },
+        {
+          "segment_id": "CP6_14",
+          "owner": "PROTAGONIST",
+          "scene_order": 23,
+          "acquired_order": 23,
+          "event_order": 23,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            23
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 드리블공이돌아오는외형을본다.",
+          "literal_when": "2025Jun22remaining1.0"
+        },
+        {
+          "segment_id": "CP6_15",
+          "owner": "PROTAGONIST",
+          "scene_order": 24,
+          "acquired_order": 24,
+          "event_order": 24,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            24
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo의수집동작을본다.",
+          "literal_when": "2025Jun22remaining0.8"
+        },
+        {
+          "segment_id": "CP6_16",
+          "owner": "PROTAGONIST",
+          "scene_order": 25,
+          "acquired_order": 25,
+          "event_order": 25,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            25
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 수집뒤두걸음이순서대로일어나는외형을본다.",
+          "literal_when": "2025Jun22remaining0.6/0.4"
+        },
+        {
+          "segment_id": "CP7_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 26,
+          "acquired_order": 26,
+          "event_order": 26,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            26
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: LaMelo의릴리스동작을직접본다.",
+          "literal_when": "2025-06-22 remaining0.2 release"
+        },
+        {
+          "segment_id": "CP8_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 27,
+          "acquired_order": 27,
+          "event_order": 27,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            27
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 혼뒤유효2점·추가시간없음의공개검토가끝난뒤110–109와시리즈4–3을 확인한다.",
+          "literal_when": "2025-06-22 horn and valid-shot review completed"
+        },
+        {
+          "segment_id": "CP9_1",
+          "owner": "PROTAGONIST",
+          "scene_order": 28,
+          "acquired_order": 28,
+          "event_order": 28,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            28
+          ],
+          "access_method": "표시된사건/경기종료후본인의직접관찰또는해당기관/에이전트의전달: 공개종료뒤LaMelo가자신을향해고개를주고받는외형을 본다.",
+          "literal_when": "2025-06-22 public end and visible nod"
+        },
+        {
+          "segment_id": "END_OBSERVATION",
+          "owner": "PROTAGONIST",
+          "scene_order": 29,
+          "acquired_order": 29,
+          "event_order": 29,
+          "knowledge_kind": "OBSERVED_EVENT",
+          "claim_indexes": [
+            29
+          ],
+          "access_method": "종료뒤직접관찰/자기수행·공개안내의한정결과: LaMelo의릴리스를 본뒤혼이울리고공개검토가유효2점·추가시간없음을확인했다. 공개CHI110–109MIN과시리즈4–3이 확정됐고LaMelo와서로고개를주고받았다.",
+          "literal_when": "해당회차의마지막사용사건이종료된뒤"
+        }
+      ],
+      "prose_access_verified": false,
+      "editorial_metadata_is_not_character_knowledge": true,
+      "clock_order_verified": true
+    },
+    "original_prepared_episode": 50,
+    "episode": 60,
+    "episode_function": "마지막 공을 동료가 끝내다",
+    "consumed_exit_port_ids": [
+      "FC035",
+      "FC036",
+      "FC037",
+      "FC038",
+      "FC039"
+    ],
+    "exit_state_required": "LM유효2점의검토 뒤공개CHI110–109MIN/시리즈4–3/삼연패. P결승득점0·새개인상0.",
+    "entry_state_scope": "NONDIEGETIC_AUTHOR_BOUNDARY;ACTOR_USES_ONLY_SAFE_ENTRY_OBSERVATION",
+    "action_choice_scope": "NONDIEGETIC_AUTHOR_CHRONOLOGY_NOT_AN_ACTOR_CLAIM_OR_FUTURE_KNOWLEDGE",
+    "state_change_scope": "AUTHOR_OUTCOME_PLUS_EDITORIAL_GUARDS;ACTOR_USES_ONLY_SAFE_END_OBSERVATION",
+    "checkpoint_claim_consumption": [
+      {
+        "parent_checkpoint_order": 1,
+        "actual_segment_id": "ENTRY",
+        "claim_index": 2,
+        "literal_when": "2025-06-22 remaining23.6 MIN possession"
+      },
+      {
+        "parent_checkpoint_order": 2,
+        "actual_segment_id": "CP2_1",
+        "claim_index": 3,
+        "literal_when": "2025-06-22 remaining22.7 Rival release"
+      },
+      {
+        "parent_checkpoint_order": 3,
+        "actual_segment_id": "CP3_1",
+        "claim_index": 4,
+        "literal_when": "2025-06-22 remaining22.0 rim miss"
+      },
+      {
+        "parent_checkpoint_order": 4,
+        "actual_segment_id": "CP4_1",
+        "claim_index": 5,
+        "literal_when": "2025-06-22 remaining21.6 rebound"
+      },
+      {
+        "parent_checkpoint_order": 5,
+        "actual_segment_id": "CP5_1",
+        "claim_index": 7,
+        "literal_when": "2025-06-22 remaining16.6 frontcourt"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_1",
+        "claim_index": 8,
+        "literal_when": "2025Jun22remaining16.1"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_2",
+        "claim_index": 9,
+        "literal_when": "2025Jun22remaining15.6"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_3",
+        "claim_index": 10,
+        "literal_when": "2025Jun22remaining12.8"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_4",
+        "claim_index": 11,
+        "literal_when": "2025Jun22remaining12.5"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_5",
+        "claim_index": 12,
+        "literal_when": "2025Jun22remaining11.9"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_6",
+        "claim_index": 13,
+        "literal_when": "2025Jun22remaining11.5"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_7",
+        "claim_index": 15,
+        "literal_when": "2025Jun22remaining9.6"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_8",
+        "claim_index": 16,
+        "literal_when": "2025Jun22remaining9.0"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_9",
+        "claim_index": 17,
+        "literal_when": "2025Jun22remaining8.6"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_10",
+        "claim_index": 18,
+        "literal_when": "2025Jun22remaining4.4"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_11",
+        "claim_index": 20,
+        "literal_when": "2025Jun22remaining2.6"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_12",
+        "claim_index": 21,
+        "literal_when": "2025Jun22remaining2.0"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_13",
+        "claim_index": 22,
+        "literal_when": "2025Jun22remaining1.3"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_14",
+        "claim_index": 23,
+        "literal_when": "2025Jun22remaining1.0"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_15",
+        "claim_index": 24,
+        "literal_when": "2025Jun22remaining0.8"
+      },
+      {
+        "parent_checkpoint_order": 6,
+        "actual_segment_id": "CP6_16",
+        "claim_index": 25,
+        "literal_when": "2025Jun22remaining0.6/0.4"
+      },
+      {
+        "parent_checkpoint_order": 7,
+        "actual_segment_id": "CP7_1",
+        "claim_index": 26,
+        "literal_when": "2025-06-22 remaining0.2 release"
+      },
+      {
+        "parent_checkpoint_order": 8,
+        "actual_segment_id": "CP8_1",
+        "claim_index": 27,
+        "literal_when": "2025-06-22 horn and valid-shot review completed"
+      },
+      {
+        "parent_checkpoint_order": 9,
+        "actual_segment_id": "CP9_1",
+        "claim_index": 28,
+        "literal_when": "2025-06-22 public end and visible nod"
+      }
+    ],
+    "scope_id": "THREEPEAT_2023_2025_NINE_ACTS_BRIEF2035_CURRENT",
+    "producer_id": "root_codex",
+    "manuscript_allowed": false,
+    "design_gate": "CLOSED",
+    "freeze": "v0.30 PARTIAL",
+    "qualification_scope": "Independentlyaccepted current design/access; prose_NOT_REVIEWED."
+  }
+}
