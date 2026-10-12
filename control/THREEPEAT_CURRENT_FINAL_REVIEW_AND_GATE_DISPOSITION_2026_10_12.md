@@ -1,18 +1,15 @@
-# 전체 설계 검수 완료·최종 승인 대기
+# 전체 설계·정식 제목·작가 승인 완료
 
-**1–6번 완료. G15 전체 통합·G16 현행 전체 독립 검수 완료. G17 최종 작가 승인 1건 남음.**
+**현행7개 대분류 모두 완료·남은0개.** G00T 정식 제목 **First Rebound**, G17 현재 전체 설계 완료는2026-10-12의새인간응답“네 제안대로진행”으로승인됐다. [승인 정본](../canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json).
 
-9막+짧은후일담/61개실제Pack/42사용출구의전체설계를검토했다. G15는86현행출처핀과4공용지침, G16은124현행핀·각막·학사/입단/성장/계약·대표팀/가용·최종관계/은퇴를확인했다. 실제사용필수수리0. 원고·문단·판매완주율·실제정부/사적장부 인증은범위밖이다.
+현재9막+짧은2035후일담/본편60+후일담1/42사용출구/61실제Pack을유지한다. G15전체통합·G16전체독립·Villanova지원인원별도검문을완료한124설계파일과제출당시Gitbcd0954패킷을승인객체로연결했다. 대학지원누락은16등록자/12counter(상한13)/Painter출전0과지원분리·4가상기관지원0/정규재정담당자·한학년학기분/개별COA예산의선택가족으로해소했다. 실제사적장부인증은아니다.
 
-G16이발견한Villanova2017장학금인원누락은선택된16명/12counter(상한13), Painter출전0과지원인원분리, 4가상지원0/부모·자기부담, P기관장학금/정규재정담당자서명/한학년동일학기분/개별COA예산을선택해수리했다. 2017원규정과공식명단·새별도독립검문을대조했다. 실제개인장학금장부를확인했다는뜻이아니다. 기존학사자격·323분·우승·61Pack선수지식은변경하지않았다.
+이전검수영수증의G17=false와제목후보표는승인전생성세대로보존한다. 현재승인은새인간응답에서발생했으며이전검수자판정이나자동이어서는승인으로바꾸지않았다. 선수역할·승패·개인상범위·원근거·61Pack내용은변경하지않았다.
 
-반복질문·점수진행·공통전술설명은미래집필에서축약할비차단주의사항이다. 이미선택한캐논을다시선택하거나없는원고를검수완료로기록하지않는다.
+- [실제 Pack manifest](../context-packs/threepeat-actual/manifest.json)
+- [현재61회 인덱스](../design/THREEPEAT_CURRENT_ACT_INDEX_2026_10_12.md)
+- [최종 작가 승인 패킷](../design/THREEPEAT_CURRENT_FINAL_AUTHOR_REVIEW_PACKET_2026_10_12.md)
+- [G15 전체 통합](../reviews/THREEPEAT_CURRENT_G15_WHOLE_INTEGRATION_REVIEW_2026_10_12.json)
+- [G16 전체 독립](../reviews/THREEPEAT_CURRENT_G16_WHOLE_DESIGN_INDEPENDENT_REVIEW_2026_10_12.json)
 
-- [G15 전체 통합 영수증](../reviews/THREEPEAT_CURRENT_G15_WHOLE_INTEGRATION_REVIEW_2026_10_12.json)
-- [G16 전체 독립 영수증](../reviews/THREEPEAT_CURRENT_G16_WHOLE_DESIGN_INDEPENDENT_REVIEW_2026_10_12.json)
-- [장학금 별도 독립 영수증](../reviews/VILLANOVA_2017_18_CURRENT_AID_COUNTER_INDEPENDENT_REVIEW_2026_10_12.json)
-- [최종 작가 검토 패킷](../design/THREEPEAT_CURRENT_FINAL_AUTHOR_REVIEW_PACKET_2026_10_12.md)
-
-잔여대분류1(7번의G17),6번까지0·자동처리가능한현행설계수리0. 저장소최종게이트규칙은이미승인된세부선택과전체설계의최종승인을구분하므로G17을자동승인하지않는다. v0.30 PARTIAL/설계·원고CLOSED·원고0·일정0·Claude0 유지. 새AGY/NLM추가실행없음.
-
-정식제목G00T는기존HOLD다. 최종패킷에4후보와A《First Rebound》유지권고를정리했다. 남은작가검토패킷1건은제목표기와G17전체설계의두별도승인항목을담으며어느것도자동확정하지않는다. 현재원고OPEN이나출간은제출범위에포함하지않는다.
+**v0.30 PARTIAL / 설계·원고 CLOSED / 원고0 / 일정0.** 완료대상은현재승인된설계/집필전Pack이다. 실제본문·판매완주율·정부봉사증서·미사용연도전경기·미선택개인상은인증하지않았다. 원고OPEN·새원고·출간·일정등록은이번승인에포함되지않는다. 반복훅·점수진행축약은향후본문이있을때적용할비차단편집지침으로남긴다.

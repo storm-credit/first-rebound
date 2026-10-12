@@ -1,5 +1,5 @@
 {
-  "status": "CURRENT_G15_G16_COMPLETE_G17_AUTHOR_APPROVAL_PENDING",
+  "status": "CURRENT_SELECTED_DESIGN_AUTHOR_APPROVED_CLOSED",
   "review_evidence": {
     "reviews/THREEPEAT_CURRENT_G15_WHOLE_INTEGRATION_REVIEW_2026_10_12.json": {
       "LF_sha256": "4a659a8a99e01ad9c6b14753ae69dbb59107ddb4c007adc4a44ff74f450d6edc",
@@ -23,8 +23,8 @@
   "used_blockers": 0,
   "unchanged_actual_Packs": 61,
   "remaining_technical_design_tasks": 0,
-  "remaining_author_approval": 1,
-  "G17": false,
+  "remaining_author_approval": 0,
+  "G17": true,
   "manuscript_allowed": false,
   "design_gate": "CLOSED",
   "freeze": "v0.30 PARTIAL",
@@ -42,19 +42,37 @@
   "individual_health_or_actual_private_financial_certificate": false,
   "nonblocking_editorial_notes": "Repeatedreaderquestion suffix andscoreprogression/evaluation bridges mustbecompact/fresh ineventualprose; actualprose/marketretentionnotreviewed",
   "provenance": "OriginalG15/G16failures andsourceepochs retained; immutable3410statusmetadata separatefromliveunchangedstory/Packdata",
-  "unfinished_major_groups": 1,
+  "unfinished_major_groups": 0,
   "unfinished_through_group6": 0,
-  "next_required_human_action": "G17 explicit final acceptance of current complete selected design; do not infer from routinecontinuation or prior health/season/style choices; manuscriptOPEN is separate explicit instruction",
+  "next_required_human_action": null,
   "schedules_created": 0,
   "Claude_executed": false,
   "Antigravity_or_NotebookLM_rerun_for_this_whole_review": false,
-  "formal_title_status": "G00T_HOLD; workingFirstRebound isnotformalpreviouslock",
+  "formal_title_status": "G00T_AUTHOR_SELECTED_FIRST_REBOUND",
   "final_author_packet_subitems": [
     "G00T formal title/notation choice(A First Rebound recommended;4candidate alternatives)",
     "G17 final acceptance of current selected complete design"
   ],
-  "remaining_author_approval_unit": "One reviewpacket; contains2distinctauthorlocks, neitherautoselected",
-  "recommendation": "SelectformalFirstReboundA andacceptcurrentwholedesign; keepCLOSED/noOPEN/prose/publication.",
-  "remaining_author_locks_count": 2,
-  "remaining_author_review_packets_count": 1
+  "remaining_author_approval_unit": "No pending current-design author locks",
+  "recommendation": "A First Rebound and current whole design now human-approved; CLOSED retained.",
+  "remaining_author_locks_count": 0,
+  "remaining_author_review_packets_count": 0,
+  "G00T": true,
+  "formal_title": "First Rebound",
+  "author_approval_ref": {
+    "path": "canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json",
+    "LF_sha256": "ec821361de68a6250a8b24e52e2133ce4c91efc11c6ccf6afd4ad2534fb5d8cf"
+  },
+  "previous_pending_disposition_ref": {
+    "git_commit": "bcd0954c513c00556e5b9ec668b269ecae6eadc0",
+    "path": "control/THREEPEAT_CURRENT_FINAL_REVIEW_AND_GATE_DISPOSITION_2026_10_12.json",
+    "normalized_LF_sha256": "b704d7acc005867d33932203e8038039df420cf706a8924d16698fd793dc7411",
+    "role": "Historical pending state; not current author approval"
+  },
+  "current_author_approval": "canon/FINAL_TITLE_AND_DESIGN_AUTHOR_APPROVAL_2026_10_12.json",
+  "next_work": "Approved seven-group design roadmap complete. Further manuscript work requires a separate explicit request; current CLOSED maintained.",
+  "approved_author_packet_subitems": [
+    "G00T A First Rebound formal title",
+    "G17 current whole selected design final acceptance"
+  ]
 }
