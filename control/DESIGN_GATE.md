@@ -1,5 +1,7 @@
 # Design Gate
 
+2026-10-12 [현재 전체 설계 검문 완료](../control/THREEPEAT_CURRENT_FINAL_REVIEW_AND_GATE_DISPOSITION_2026_10_12.md): G15현행전체통합·G16현행전체독립PASS, Villanova지원인원누락16명/12counter가상가족·원2017규정/별도검문으로해결. 61Pack·기존사건/역할불변, 현재사용필수수리0. **1–6완료/잔여대분류1(7번의G17최종작가승인)/6번까지0/자동처리가능한설계수리0.** 이미승인된선택재승인아님·G17자동승인0·v0.30PARTIAL/설계·원고CLOSED·원고0·일정0. 아래G15/G16미완표시는이전생성세대이력.
+
 2026-10-12 [현행1–6번 완료](../reviews/THREEPEAT_CURRENT_MACRO1_6_CLOSEOUT_2026_10_12.md): 2023금메달/체육요원 가상 사용 달력·61회 서사/접근·정확 Pack 입력의 실제 Codex 독립 수락 후, 최종61회/9막+EPI/42출구·실제Pack61개를 생성·재검증했다. 본편60+후일담1·NBA46/61(드래프트 제외)·미완료1(7번)/6번까지0. G13/G14 현행유한범위완료, G15/G16 전체 검문·G17 최종승인 잔여. 원고0·v0.30 PARTIAL/CLOSED. 아래 C01미선택/최종Nnull/Pack0/미완료4 표기는 이전 생성 세대의 이력이다.
 
 ## 이전 작업 이력 — 현행 상태는 위 완료 영수증 우선
@@ -182,7 +184,7 @@ last_reviewed: 2026-09-12
 | 게이트 | 요구 산출물 | 현재 |
 |---|---|---|
 | G00E 시대 패키지 | 시작·프렙·NCAA·드래프트 시대 | PASS — 2018 E0·2017-18 Villanova LOCK |
-| G00T 정식 제목 | 정식 제목과 표기 규칙 | HOLD |
+| G00T 정식 제목 | 정식 제목과 표기 규칙 | HOLD — 최종 작가 패킷 A First Rebound 권고/4후보; 자동확정0 |
 | G01 핵심 정본 | 장르·질문·성장축·결말 기능 | PARTIAL_PASS |
 | G02 인물 정본 | 주인공·주요 인물·관계·욕망·결핍·권한 | FOUNDATION_PASS — 무목표·게임·출석, 동갑 라이벌, 입문 3단 동기, 책임 성장 5단계 잠금. 조연·학교 권한·세부 사건 HOLD |
 | G03 신체/기술 모델 | 키 성장·포지션·훈련·부상 한계 | FOUNDATION_PASS — 천재성/BQ와 라이벌 ACL·단계별 복귀 안전선 잠금. 주인공 연도별 신체·개별 의료 수치 HOLD |
@@ -194,12 +196,12 @@ last_reviewed: 2026-09-12
 | G09 인과 시뮬레이션 | 접촉 사건·파급 사건·대안 결과 | PROTOCOL_PASS / CHICAGO_2020_21_PREDEADLINE_OUTCOME_PASS / LOW_COST_CENTER_DIRECTION_LOCKED / O15F5_BOARD_PASS — Atlanta 원장은 폐기 분기 증거로 보존. Chicago 2018-20 donor·생산성 범위와 2019/20 lottery·2020 picks 1~60, 2020-21 opening 15+2·마감일 전 역할·생산성·19~21승 중심 범위 통과. Vučević 패키지 거부·저비용 센터 우선 작가 승인, Theis·Green 3팀 5인 A PRIMARY_LEAN. exact 거래·박스·승수·부상·Riller 계약 HOLD |
 | G10 결말/주제 | 장면 기능·인물 선택·대가·잔상 | FUNCTION_LOCKED / H2-RC1_COORDINATES_PROPOSED |
 | G11 하우스 스타일 | 단일 문체 규약과 합법적 참고작 기능 합성 | SAMPLE_BASED_HOUSE_STYLE_SPEC_COMPLETE / S1_DELEGATED_AUTHOR_SELECTED / NINE_DIMENSIONS_CANON_COMPATIBLE / QUALITATIVE_10_WORK_SYNTHESIS_COMPLETE / REVISED_110_CHAPTERS_READ / RESEARCH_EXTENSIONS_OPEN / ACTUAL_MANUSCRIPT_USE_UNTESTED |
-| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CP2_PROVISIONAL_ASSIGNMENT_CHECKED / 5_PROMISES / FINAL_HOLD |
+| G12 서사 장치 | 장치 예산·복선/회수 원장·Hoffman Unity | CURRENT_5_PROMISES_PLANT_VARIATION_PAYOFF_FUNCTIONS / 61_INDIVIDUAL_DEVICE_BUDGETS_CHECKED / G15_CURRENT_DESIGN_UNITY_PASS; PROSE_NOT_REVIEWED |
 | G13 전체 구조 | 모든 Act/Sub-Act/회차 기능표 | CURRENT_9_ACT_PLUS_EPI / 42_USED_EXITS / FINAL_61_ALLOCATION / CURRENT_FINITE_HISTORY_LOCKED; oldCP2birthpreserved |
 | G14 Context Pack | 활성 장치 필드·샘플·무결성 검사. G13/역사 잠금·검증 Blueprint 후 집필 전 Pack 생성/검증; OPEN은 선행조건이 아님 | CURRENT_61_PRE_MANUSCRIPT_PACKS_CREATED_AND_INTEGRITY_CHECKED / CLOSED / MANUSCRIPT_FALSE; old2samplespreserved |
-| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PROVISIONAL_SELF_REVIEW / NOT_FINAL_PASS |
-| G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | FINAL_WHOLE_DESIGN_REVIEW_NOT_STARTED — 구간별 독립 검토 이력은 존재 |
-| G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | NOT_STARTED |
+| G15 통합/견인력 검수 | Unity 및 연재 견인력 기준 통과 | PASS_CURRENT_SELECTED_DESIGN_INTEGRATION / ACTUAL_G15_WHOLE_REVIEW_2026_10_12; PROSE_NOT_REVIEWED |
+| G16 독립 검수 | 완성된 전체 설계의 맹점·모순·정의 누락 검토 | PASS_CURRENT_SELECTED_WHOLE_DESIGN / G16_USED_BLOCKERS_0 / SUPPLEMENTARY_AID_COUNTER_REPAIR_ACCEPTED / G17_PENDING |
+| G17 사용자 승인 | 설계 100% 완료에 대한 명시 승인 | FINAL_EXPLICIT_AUTHOR_APPROVAL_PENDING — 원고 OPEN 별도 |
 
 2026-09-28 작가는 M1과 함께 [Chicago 2021 여름 G1A 방향](../canon/CHICAGO_2021_M1_OFFSEASON_A_DECISION.json)을 선택했다. 이는 G07/G09·G14의 Caruso/Green 개별 계약·SQ1·명단·실제 시즌 PASS가 아니며, 위 게이트와 `CLOSED`를 바꾸지 않는다.
 
